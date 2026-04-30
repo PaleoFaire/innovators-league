@@ -1,0 +1,5719 @@
+{
+  "generatedAt": "2026-04-30T05:58:22+00:00",
+  "model": "claude-haiku-4-5",
+  "cohortFile": "data/cold_email_batch5.json",
+  "cohortSize": 95,
+  "newExtractionsThisRun": 73,
+  "summary": {
+    "cleared": 10,
+    "changesProposed": 63,
+    "unverifiable": 22
+  },
+  "cleared": [
+    "Helios",
+    "Blackshark.ai",
+    "Basecamp Research",
+    "ReOrbit",
+    "Fire Point",
+    "Beyond Aero",
+    "Pale Blue",
+    "FuriosaAI",
+    "SatSure",
+    "SpectralX"
+  ],
+  "changesProposed": [
+    {
+      "name": "Zeitview",
+      "current": {
+        "name": "Zeitview",
+        "founder": "Daniel Burton, Eli Tamanaha",
+        "location": "Santa Monica, CA",
+        "founded": 2014,
+        "fundingStage": "Series D",
+        "totalRaised": "$174M",
+        "website": null
+      },
+      "verified": {
+        "name": "Zeitview",
+        "description": "Advanced inspection software providing AI-powered asset intelligence and visualization solutions for critical infrastructure including solar, wind, properties, telecom, and utility assets.",
+        "founders": [
+          "Dan Burton"
+        ],
+        "location": "Santa Monica, CA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://zeitview.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [1] confirms Dan Burton is Founder and CEO. Source [1] mentions the company was previously called DroneBase ('now Zeitview'). Database entry claims 2014 founding year, Eli Tamanaha as co-founder, Series D stage, $174M raised, and 645 employees, but none of these details appear in provided sources and cannot be verified."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Daniel Burton, Eli Tamanaha",
+          "verified": "Dan Burton",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://zeitview.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://zeitview.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://zeitview.com/about"
+        }
+      ],
+      "notes": "Source [1] confirms Dan Burton is Founder and CEO. Source [1] mentions the company was previously called DroneBase ('now Zeitview'). Database entry claims 2014 founding year, Eli Tamanaha as co-founder, Series D stage, $174M raised, and 645 employees, but none of these details appear in provided sources and cannot be verified."
+    },
+    {
+      "name": "Roam Robotics",
+      "current": {
+        "name": "Roam Robotics",
+        "founder": "Tim Swift, Mallory Ulaszek, Saul Griffith",
+        "location": "San Francisco, CA",
+        "founded": 2012,
+        "fundingStage": "Series A",
+        "totalRaised": "$16.4M",
+        "website": null
+      },
+      "verified": {
+        "name": "Roam Robotics",
+        "description": "Develops lightweight pneumatic wearable exoskeletons using high-strength polymers and carbon fiber for military and commercial applications, including knee assistance and mobility support.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://roamrobotics.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] is company website only. Cannot verify founders (Tim Swift, Mallory Ulaszek, Saul Griffith), location (San Francisco, CA), founded year (2012), stage (Series A), total raised ($16.4M), or investors from provided sources. Website contains product information and performance claims but no company history, founding details, or financial information."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://roamrobotics.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://roamrobotics.com"
+        }
+      ],
+      "notes": "Source [0] is company website only. Cannot verify founders (Tim Swift, Mallory Ulaszek, Saul Griffith), location (San Francisco, CA), founded year (2012), stage (Series A), total raised ($16.4M), or investors from provided sources. Website contains product information and performance claims but no company history, founding details, or financial information."
+    },
+    {
+      "name": "Orbit Fab",
+      "current": {
+        "name": "Orbit Fab",
+        "founder": "Daniel Faber, Jeremy Schiel",
+        "location": "Colorado Springs, CO",
+        "founded": 2018,
+        "fundingStage": "Series A",
+        "totalRaised": "$28.5M",
+        "website": null
+      },
+      "verified": {
+        "name": "Orbit Fab",
+        "description": "Company building in-space propellant supply chain with spacecraft refueling services and the RAFTI standardized refueling interface. Provides fuel delivery to spacecraft in various orbits and has secured contracts with U.S. Space Force, UK Space Agency, and ESA.",
+        "founders": null,
+        "location": "Colorado Springs, CO",
+        "founded_year": 2018,
+        "current_stage": "Series A",
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Lockheed Martin",
+          "Northrop Grumman"
+        ],
+        "website": "https://orbitfab.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [1] states 'Secured Series A Funding' in 2023 timeline. Founder names not explicitly listed as 'founders' or 'co-founders' in provided sources, only leadership team members named. Database entry lists Daniel Faber and Jeremy Schiel as founders but this cannot be verified from provided sources. Total funding of $28.5M from database entry cannot be verified from these sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://orbitfab.com",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Lockheed Martin",
+            "Northrop Grumman"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://orbitfab.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://orbitfab.com/about"
+        }
+      ],
+      "notes": "Source [1] states 'Secured Series A Funding' in 2023 timeline. Founder names not explicitly listed as 'founders' or 'co-founders' in provided sources, only leadership team members named. Database entry lists Daniel Faber and Jeremy Schiel as founders but this cannot be verified from provided sources. Total funding of $28.5M from database entry cannot be verified from these sources."
+    },
+    {
+      "name": "Transmutex",
+      "current": {
+        "name": "Transmutex",
+        "founder": "Franklin Servan-Schreiber, Federico Carminati, Jean-Pierre Revol",
+        "location": "Geneva, Switzerland",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "$23M",
+        "website": null
+      },
+      "verified": {
+        "name": "Transmutex",
+        "description": "An engineering company developing an accelerator-powered technology that converts existing nuclear waste into clean energy and produces radioisotopes for medical and industrial applications.",
+        "founders": null,
+        "location": "Geneva, Switzerland",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://transmutex.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Sources do not explicitly identify founders (Servan-Schreiber, Carminati, and Revol are not named as founders in provided sources; Servan-Schreiber is listed as Chairman). No founding year, funding stage, total raised, valuation, or investor details are present in the provided sources. Database entry references cannot be used as source verification."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://transmutex.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://transmutex.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://transmutex.com/team"
+        }
+      ],
+      "notes": "Sources do not explicitly identify founders (Servan-Schreiber, Carminati, and Revol are not named as founders in provided sources; Servan-Schreiber is listed as Chairman). No founding year, funding stage, total raised, valuation, or investor details are present in the provided sources. Database entry references cannot be used as source verification."
+    },
+    {
+      "name": "Monarch Tractor",
+      "current": {
+        "name": "Monarch Tractor",
+        "founder": "Praveen Penmetsa, Zachary Omohundro, Carlo Mondavi",
+        "location": "Livermore, CA",
+        "founded": 2018,
+        "fundingStage": "Series C",
+        "totalRaised": "$137M",
+        "website": null
+      },
+      "verified": {
+        "name": "Monarch Tractor",
+        "description": "American agricultural technology company that developed battery-electric tractors with driver-optional features for use in vineyards and farms. The company raised more than $240 million in venture capital before ceasing most operations by early 2026.",
+        "founders": [
+          "Praveen Penmetsa",
+          "Mark Schwager",
+          "Carlo Mondavi",
+          "Zachary Omohundro"
+        ],
+        "location": "Livermore, California, U.S.",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": "$240M+",
+        "valuation": "$518M",
+        "investors": [
+          "Astanor Ventures",
+          "Foxconn Co-GP Fund",
+          "CNH Industrial",
+          "Musashi Seimitsu Industry Co."
+        ],
+        "website": "https://www.monarchtractor.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Company ceased most or all operations by early 2026 following dealership lawsuits, production shutdown in Ohio, and closure of Livermore headquarters. Wikipedia source indicates the company 'was an American agricultural technology company' (past tense) and documents significant operational challenges and decline starting in 2024."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Praveen Penmetsa, Zachary Omohundro, Carlo Mondavi",
+          "verified": "Praveen Penmetsa, Mark Schwager, Carlo Mondavi, Zachary Omohundro",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Livermore, CA",
+          "verified": "Livermore, California, U.S.",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$137M",
+          "verified": "$240M+",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://www.monarchtractor.com",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Astanor Ventures",
+            "Foxconn Co-GP Fund",
+            "CNH Industrial",
+            "Musashi Seimitsu Industry Co."
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.monarchtractor.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.monarchtractor.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Monarch_Tractor"
+        }
+      ],
+      "notes": "Company ceased most or all operations by early 2026 following dealership lawsuits, production shutdown in Ohio, and closure of Livermore headquarters. Wikipedia source indicates the company 'was an American agricultural technology company' (past tense) and documents significant operational challenges and decline starting in 2024."
+    },
+    {
+      "name": "MightyFly",
+      "current": {
+        "name": "MightyFly",
+        "founder": "Manal Habib, Jaganath Rao",
+        "location": "Fremont, CA",
+        "founded": 2018,
+        "fundingStage": "Series A",
+        "totalRaised": "$12M",
+        "website": null
+      },
+      "verified": {
+        "name": "MightyFly",
+        "description": "Develops autonomous hybrid eVTOL cargo aircraft with up to 500 pound cargo capacity and 1,000 mile range for expedited logistics deliveries. The company provides AI-enhanced logistics infrastructure for business, healthcare, and government delivery operations.",
+        "founders": [
+          "Manal Habib"
+        ],
+        "location": "San Francisco, CA",
+        "founded_year": 2019,
+        "current_stage": null,
+        "total_raised": "$10M",
+        "valuation": null,
+        "investors": [
+          "Draper Associates",
+          "At One Ventures",
+          "500 Global"
+        ],
+        "website": "https://mightyfly.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Founded year corrected to October 2019 per source [1] timeline. Only Manal Habib is explicitly named as founder/CEO; other leadership listed are employees. Database entry listed 2018 and $12M; sources verify October 2019 and $10M funding round. No co-founder 'Jaganath Rao' found in provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Manal Habib, Jaganath Rao",
+          "verified": "Manal Habib",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Fremont, CA",
+          "verified": "San Francisco, CA",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": 2018,
+          "verified": 2019,
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$12M",
+          "verified": "$10M",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://mightyfly.com",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Draper Associates",
+            "At One Ventures",
+            "500 Global"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://mightyfly.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://mightyfly.com/about"
+        }
+      ],
+      "notes": "Founded year corrected to October 2019 per source [1] timeline. Only Manal Habib is explicitly named as founder/CEO; other leadership listed are employees. Database entry listed 2018 and $12M; sources verify October 2019 and $10M funding round. No co-founder 'Jaganath Rao' found in provided sources."
+    },
+    {
+      "name": "Natilus",
+      "current": {
+        "name": "Natilus",
+        "founder": "Aleksey Matyushev, Anatoly Starikov",
+        "location": "San Diego, CA",
+        "founded": 2016,
+        "fundingStage": "Series A",
+        "totalRaised": "$16M",
+        "website": null
+      },
+      "verified": {
+        "name": "Natilus",
+        "description": "San Diego-based aerospace company developing blended-wing-body aircraft for cargo and passenger operations. The company designs next-generation aircraft including KONA for regional cargo and HORIZON for passenger travel.",
+        "founders": [
+          "Aleksey Matyushev",
+          "Anatoly Starikov"
+        ],
+        "location": "San Diego, California",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Tim Draper",
+          "Starburst Ventures",
+          "Seraph Group",
+          "Gelt VC",
+          "Outpost Capital",
+          "Draper Associates"
+        ],
+        "website": "https://natilus.co",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0,
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "investors": [
+            1
+          ]
+        },
+        "notes": "Wikipedia indicates company was founded in April 2016. Sources show aircraft models KONA (cargo) and HORIZON (passenger). Company relocated from San Francisco Bay Area to San Diego in 2021. Recent developments (2025) include orders from Nolinor Aviation and SpiceJet partnership for India market. SEC Form D filing from 2026 suggests recent fundraising activity but amount cannot be verified as total raised without additional context."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Diego, CA",
+          "verified": "San Diego, California",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://natilus.co",
+          "sources": []
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Tim Draper",
+            "Starburst Ventures",
+            "Seraph Group",
+            "Gelt VC",
+            "Outpost Capital",
+            "Draper Associates"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://natilus.co"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Natilus"
+        },
+        {
+          "idx": 2,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002090005&type=D&dateb=&owner=include&count=10"
+        }
+      ],
+      "notes": "Wikipedia indicates company was founded in April 2016. Sources show aircraft models KONA (cargo) and HORIZON (passenger). Company relocated from San Francisco Bay Area to San Diego in 2021. Recent developments (2025) include orders from Nolinor Aviation and SpiceJet partnership for India market. SEC Form D filing from 2026 suggests recent fundraising activity but amount cannot be verified as total raised without additional context."
+    },
+    {
+      "name": "Precision AI",
+      "current": {
+        "name": "Precision AI",
+        "founder": "Sreeram Raghavan, Matt Borzilleri",
+        "location": "Houston, TX",
+        "founded": 2020,
+        "fundingStage": "Series A",
+        "totalRaised": "$20M",
+        "website": null
+      },
+      "verified": {
+        "name": "Precision AI Solutions",
+        "description": "AI platform that analyzes patient gene expression profiles to identify individualized cancer treatment options, leveraging a database of 12,000+ patient treatment histories across 150 therapies.",
+        "founders": [
+          "Sophia Ren"
+        ],
+        "location": null,
+        "founded_year": 2022,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://precision-ai.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "CRITICAL: Database entry references autonomous drones for weed spraying, but sources (company website and about page) describe AI platform for precision cancer treatment. This is a completely different company. Sources confirm only Sophia Ren as founder; source states 'Alongside a like-minded partner' but does not name the co-founder explicitly. No location, funding stage, total raised, or valuation information found in sources. The provided database entry appears to describe an entirely different company (agricultural AI drones)."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Sreeram Raghavan, Matt Borzilleri",
+          "verified": "Sophia Ren",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": 2020,
+          "verified": 2022,
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://precision-ai.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://precision-ai.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://precision-ai.com/about"
+        }
+      ],
+      "notes": "CRITICAL: Database entry references autonomous drones for weed spraying, but sources (company website and about page) describe AI platform for precision cancer treatment. This is a completely different company. Sources confirm only Sophia Ren as founder; source states 'Alongside a like-minded partner' but does not name the co-founder explicitly. No location, funding stage, total raised, or valuation information found in sources. The provided database entry appears to describe an entirely different company (agricultural AI drones)."
+    },
+    {
+      "name": "Material Evolution",
+      "current": {
+        "name": "Material Evolution",
+        "founder": "Liz Gilligan, Sam Clark",
+        "location": "Middlesbrough, UK",
+        "founded": null,
+        "fundingStage": "Series A",
+        "totalRaised": "$16M",
+        "website": null
+      },
+      "verified": {
+        "name": "Material Evolution",
+        "description": "Produces ultra-low carbon cement (MevoCem) from industrial waste streams using a proprietary alkali fusion process that emits 144-196 kg CO2e per tonne, compared to traditional Portland cement.",
+        "founders": [
+          "Liz Gilligan",
+          "Sam Clark"
+        ],
+        "location": "Middlesbrough, UK",
+        "founded_year": 2020,
+        "current_stage": "Series A",
+        "total_raised": "$15M",
+        "valuation": null,
+        "investors": [
+          "KOMPAS VC",
+          "Norrsken VC",
+          "Playfair Capital",
+          "At One Ventures",
+          "SkyRiver Ventures"
+        ],
+        "website": "https://materialevolution.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ]
+        },
+        "notes": "Series A funding of \u00a315 million (converted to approximately $15M USD equivalent for consistency). First production facility (Mevo A1) commissioned in Wrexham, Wales in October 2024 with 120,000 tonnes annual capacity. Sources mention geopolymer achieves 85% lower embodied carbon than traditional cements."
+      },
+      "changes": [
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2020,
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$16M",
+          "verified": "$15M",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://materialevolution.com",
+          "sources": []
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "KOMPAS VC",
+            "Norrsken VC",
+            "Playfair Capital",
+            "At One Ventures",
+            "SkyRiver Ventures"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://materialevolution.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://materialevolution.com/about"
+        }
+      ],
+      "notes": "Series A funding of \u00a315 million (converted to approximately $15M USD equivalent for consistency). First production facility (Mevo A1) commissioned in Wrexham, Wales in October 2024 with 120,000 tonnes annual capacity. Sources mention geopolymer achieves 85% lower embodied carbon than traditional cements."
+    },
+    {
+      "name": "Manifold Bio",
+      "current": {
+        "name": "Manifold Bio",
+        "founder": "Gleb Kuznetsov, Pierce Ogden",
+        "location": "Cambridge, MA",
+        "founded": 2020,
+        "fundingStage": "Series A",
+        "totalRaised": "$40M",
+        "website": null
+      },
+      "verified": {
+        "name": "Manifold Bio",
+        "description": "Manifold Bio has built a high-throughput in vivo discovery engine combining massively multiplexed in vivo screening and AI-powered design to create tissue-targeted biologics. The company uses molecular tracking technologies and AI-guided protein design to optimize pharmacokinetics and biodistribution directly in living systems.",
+        "founders": [
+          "Gleb Kuznetsov",
+          "Pierce Ogden",
+          "Shane Lofgren",
+          "George Church"
+        ],
+        "location": "Cambridge, MA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Playground Global",
+          "Triatomic Capital",
+          "Section 32"
+        ],
+        "website": "https://manifoldbio.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] lists four co-founders: Gleb Kuznetsov (Co-Founder & CEO), Pierce Ogden (Co-Founder & CTO), Shane Lofgren (Co-Founder & Head of Portfolio Development and Strategy), and George Church (Co-Founder). Database entry only lists two founders. Founded year, current stage, total raised, and valuation cannot be verified from provided sources. Roche collaboration mentioned in news headline (November 3, 2025) but terms not detailed in source [0]."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Gleb Kuznetsov, Pierce Ogden",
+          "verified": "Gleb Kuznetsov, Pierce Ogden, Shane Lofgren, George Church",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://manifoldbio.com",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Playground Global",
+            "Triatomic Capital",
+            "Section 32"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://manifoldbio.com"
+        }
+      ],
+      "notes": "Source [0] lists four co-founders: Gleb Kuznetsov (Co-Founder & CEO), Pierce Ogden (Co-Founder & CTO), Shane Lofgren (Co-Founder & Head of Portfolio Development and Strategy), and George Church (Co-Founder). Database entry only lists two founders. Founded year, current stage, total raised, and valuation cannot be verified from provided sources. Roche collaboration mentioned in news headline (November 3, 2025) but terms not detailed in source [0]."
+    },
+    {
+      "name": "Valinor Enterprises",
+      "current": {
+        "name": "Valinor Enterprises",
+        "founder": "Trae Stephens, Grant Verstandig",
+        "location": "Washington, DC",
+        "founded": null,
+        "fundingStage": "Series A",
+        "totalRaised": "$85M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Valinor Enterprises",
+        "description": null,
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://valinorenterprises.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] is the company website but contains only a landing page with placeholder text ('Bald geht's los' - German for 'Coming soon') and a cookie notice. No verifiable business information, founders, funding details, or location data could be extracted from the provided source."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://valinorenterprises.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://valinorenterprises.com"
+        }
+      ],
+      "notes": "Source [0] is the company website but contains only a landing page with placeholder text ('Bald geht's los' - German for 'Coming soon') and a cookie notice. No verifiable business information, founders, funding details, or location data could be extracted from the provided source."
+    },
+    {
+      "name": "Starfish Space",
+      "current": {
+        "name": "Starfish Space",
+        "founder": "Austin Link, Trevor Bennett",
+        "location": "Tukwila, WA",
+        "founded": null,
+        "fundingStage": "Series B",
+        "totalRaised": "$200M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Starfish Space",
+        "description": "American satellite company focused on autonomous satellite servicing, life extension, and debris removal using the Otter spacecraft platform. The company develops technology for rendezvous, proximity operations, and docking with satellites in orbit.",
+        "founders": [
+          "Austin Link",
+          "Trevor Bennett"
+        ],
+        "location": "Seattle, WA",
+        "founded_year": 2019,
+        "current_stage": "Series B",
+        "total_raised": "$100M+",
+        "valuation": null,
+        "investors": [
+          "Point72 Ventures",
+          "Activate Capital",
+          "Shield Capital",
+          "Industrious Ventures",
+          "NightDragon",
+          "NFX",
+          "Munich Re Ventures",
+          "Toyota Ventures",
+          "PSL Ventures",
+          "Nomi Capital",
+          "Gaingels",
+          "Overlap Holdings"
+        ],
+        "website": "https://starfishspace.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded October 2019 by former Blue Origin engineers. Series B raised in April 2026 led by Point72 Ventures. Otter Pup 2 mission launched June 23, 2025. Successfully completed Remora mission in December 2025 demonstrating first fully autonomous rendezvous with lightweight camera system."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Tukwila, WA",
+          "verified": "Seattle, WA",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2019,
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$200M+",
+          "verified": "$100M+",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://starfishspace.com",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Point72 Ventures",
+            "Activate Capital",
+            "Shield Capital",
+            "Industrious Ventures",
+            "NightDragon",
+            "NFX",
+            "Munich Re Ventures",
+            "Toyota Ventures",
+            "PSL Ventures",
+            "Nomi Capital",
+            "Gaingels",
+            "Overlap Holdings"
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://starfishspace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://starfishspace.com/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Starfish_Space"
+        }
+      ],
+      "notes": "Founded October 2019 by former Blue Origin engineers. Series B raised in April 2026 led by Point72 Ventures. Otter Pup 2 mission launched June 23, 2025. Successfully completed Remora mission in December 2025 demonstrating first fully autonomous rendezvous with lightweight camera system."
+    },
+    {
+      "name": "Reliable Robotics",
+      "current": {
+        "name": "Reliable Robotics",
+        "founder": "Robert Rose, Juerg Frefel",
+        "location": "Mountain View, CA",
+        "founded": null,
+        "fundingStage": "Series C",
+        "totalRaised": "$134M",
+        "website": null
+      },
+      "verified": {
+        "name": "Reliable Robotics",
+        "description": "Middle East robotics and AI company developing robotic solutions for automation and service deployment across airports, banking, hospitals, and educational sectors.",
+        "founders": null,
+        "location": "Dubai, UAE",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://reliablerobotics.ai",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "The sources provided describe a Dubai-based robotics distributor and solutions company founded in 2018, NOT the Reliable Robotics autonomous flight systems company referenced in the database entry. The database entry appears to reference a different company with the same name. No information found in these sources to verify founders (Robert Rose, Juerg Frefel), Mountain View CA location, Series C stage, or $134M funding."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Mountain View, CA",
+          "verified": "Dubai, UAE",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2018,
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://reliablerobotics.ai",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://reliablerobotics.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://reliablerobotics.ai/about"
+        }
+      ],
+      "notes": "The sources provided describe a Dubai-based robotics distributor and solutions company founded in 2018, NOT the Reliable Robotics autonomous flight systems company referenced in the database entry. The database entry appears to reference a different company with the same name. No information found in these sources to verify founders (Robert Rose, Juerg Frefel), Mountain View CA location, Series C stage, or $134M funding."
+    },
+    {
+      "name": "Koloma",
+      "current": {
+        "name": "Koloma",
+        "founder": "Tom Darrah, Pete Johnson, Paul Harraka",
+        "location": "Denver, CO",
+        "founded": null,
+        "fundingStage": "Series B",
+        "totalRaised": "$245M",
+        "website": null
+      },
+      "verified": {
+        "name": "Koloma",
+        "description": "A data-driven natural hydrogen exploration company leveraging cutting-edge technology, proprietary data, and deep industry expertise to identify and produce natural hydrogen in the United States and across the globe.",
+        "founders": [
+          "Pete Johnson",
+          "Tom Darrah"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": "$245M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://koloma.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry lists Paul Harraka as founder, but he is not identified as founder or co-founder in provided sources; only Pete Johnson (CEO & Founder) and Tom Darrah (CTO & Founder) are explicitly named as founders. Location Denver, CO in database entry cannot be verified from sources provided."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Tom Darrah, Pete Johnson, Paul Harraka",
+          "verified": "Pete Johnson, Tom Darrah",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://koloma.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://koloma.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://koloma.com/about"
+        }
+      ],
+      "notes": "Database entry lists Paul Harraka as founder, but he is not identified as founder or co-founder in provided sources; only Pete Johnson (CEO & Founder) and Tom Darrah (CTO & Founder) are explicitly named as founders. Location Denver, CO in database entry cannot be verified from sources provided."
+    },
+    {
+      "name": "TS Conductor",
+      "current": {
+        "name": "TS Conductor",
+        "founder": "Jason Huang, Rulong Chen",
+        "location": "Huntington Beach, CA",
+        "founded": null,
+        "fundingStage": "Series B",
+        "totalRaised": "$60M",
+        "website": null
+      },
+      "verified": {
+        "name": "TS Conductor",
+        "description": "A public benefit corporation that manufactures advanced conductors (AECC) for power grid transmission, enabling 2-3\u00d7 capacity increases on existing lines without structural rebuilds.",
+        "founders": [
+          "Jason Huang"
+        ],
+        "location": null,
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://tsconductor.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "founded_year": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [1] identifies Jason Huang as 'Co-founder & CEO' but does not name a second co-founder explicitly. The database entry lists 'Rulong Chen' as a co-founder, but this name does not appear in the provided sources. Herv\u00e9 Touati is described as 'an investor in TS Conductor' and Chief Strategy Officer, not as a founder. Company is described as a 'public benefit corporation' in source [1]. Sources confirm 'thousands of miles installed since 2016' but do not specify exact founding year\u20142016 appears to be the year of initial deployment/commercialization. No Series B stage, total funding amount, valuation, or specific location beyond website mention is verified in sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Jason Huang, Rulong Chen",
+          "verified": "Jason Huang",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2016,
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://tsconductor.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://tsconductor.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://tsconductor.com/about"
+        }
+      ],
+      "notes": "Source [1] identifies Jason Huang as 'Co-founder & CEO' but does not name a second co-founder explicitly. The database entry lists 'Rulong Chen' as a co-founder, but this name does not appear in the provided sources. Herv\u00e9 Touati is described as 'an investor in TS Conductor' and Chief Strategy Officer, not as a founder. Company is described as a 'public benefit corporation' in source [1]. Sources confirm 'thousands of miles installed since 2016' but do not specify exact founding year\u20142016 appears to be the year of initial deployment/commercialization. No Series B stage, total funding amount, valuation, or specific location beyond website mention is verified in sources."
+    },
+    {
+      "name": "VEIR",
+      "current": {
+        "name": "VEIR",
+        "founder": "Tim Heidel, Steve Ashworth",
+        "location": "Woburn, MA",
+        "founded": null,
+        "fundingStage": "Series B",
+        "totalRaised": "$117M",
+        "website": null
+      },
+      "verified": {
+        "name": "VEIR",
+        "description": "Superconducting power delivery company that develops low- and medium-voltage superconducting systems for data centers and AI infrastructure. The platform enables higher power density and improved efficiency compared to traditional copper-based solutions.",
+        "founders": [
+          "Tim Heidel"
+        ],
+        "location": "Woburn, Massachusetts",
+        "founded_year": 2019,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Microsoft's Climate Innovation Fund",
+          "National Grid Partners",
+          "Breakthrough Energy Ventures",
+          "Congruent Ventures",
+          "The Engine Ventures",
+          "Galvanize Climate Solutions",
+          "Piva Capital",
+          "Tyche Partners",
+          "VXI Capital"
+        ],
+        "website": "https://veir.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Only Tim Heidel is explicitly named as 'CEO & Co-Founder' in source [1]. No co-founder name matching 'Steve Ashworth' from database entry was found in sources. Current stage listed as 'Series B' in database entry could not be verified in provided sources. Total raised of $117M from database could not be verified in provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Tim Heidel, Steve Ashworth",
+          "verified": "Tim Heidel",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Woburn, MA",
+          "verified": "Woburn, Massachusetts",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2019,
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://veir.com",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Microsoft's Climate Innovation Fund",
+            "National Grid Partners",
+            "Breakthrough Energy Ventures",
+            "Congruent Ventures",
+            "The Engine Ventures",
+            "Galvanize Climate Solutions",
+            "Piva Capital",
+            "Tyche Partners",
+            "VXI Capital"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://veir.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://veir.com/about"
+        }
+      ],
+      "notes": "Only Tim Heidel is explicitly named as 'CEO & Co-Founder' in source [1]. No co-founder name matching 'Steve Ashworth' from database entry was found in sources. Current stage listed as 'Series B' in database entry could not be verified in provided sources. Total raised of $117M from database could not be verified in provided sources."
+    },
+    {
+      "name": "HistoSonics",
+      "current": {
+        "name": "HistoSonics",
+        "founder": "Charles Cain, Brian Fowlkes, Tim Hall, Zhen Xu, William Roberts",
+        "location": "Ann Arbor, MI",
+        "founded": null,
+        "fundingStage": "Series D",
+        "totalRaised": "$250M growth + $2.25B acquisition",
+        "website": null
+      },
+      "verified": {
+        "name": "HistoSonics",
+        "description": "HistoSonics has developed a non-invasive, sonic beam therapy platform that uses histotripsy, which is capable of destroying targeted liver tumors at a sub-cellular level. Histotripsy is a novel form of focused ultrasound that uses high amplitude, very short pulses to create a bubble cloud designed to mechanically destroy and liquefy targeted liver tumors.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": "$250M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://histosonics.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Sources do not explicitly name founders, founded year, location, current stage, valuation, or investors. The company website references $250M Growth Financing as 'Oversubscribed' but does not mention the August 2025 acquisition by K5 Global, Bezos Expeditions, and Wellington referenced in the database entry. The copyright on the website shows 2019-2025, indicating the company existed by 2019. Histotripsy science was developed at University of Michigan per source [1]."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$250M growth + $2.25B acquisition",
+          "verified": "$250M",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://histosonics.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://histosonics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://histosonics.com/about"
+        }
+      ],
+      "notes": "Sources do not explicitly name founders, founded year, location, current stage, valuation, or investors. The company website references $250M Growth Financing as 'Oversubscribed' but does not mention the August 2025 acquisition by K5 Global, Bezos Expeditions, and Wellington referenced in the database entry. The copyright on the website shows 2019-2025, indicating the company existed by 2019. Histotripsy science was developed at University of Michigan per source [1]."
+    },
+    {
+      "name": "Precision Neuroscience",
+      "current": {
+        "name": "Precision Neuroscience",
+        "founder": "Benjamin Rapoport, Michael Mager",
+        "location": "New York, NY",
+        "founded": null,
+        "fundingStage": "Series C",
+        "totalRaised": "$180M",
+        "website": null
+      },
+      "verified": {
+        "name": "Precision Neuroscience",
+        "description": "American brain-computer interface company building a minimally invasive thin-film microelectrode array that conforms to the brain surface without penetrating tissue. The Layer 7 Cortical Interface received FDA 510(k) clearance in April 2025 for recording, monitoring, and stimulating on the brain's surface for implantation durations up to 30 days.",
+        "founders": [
+          "Benjamin Rapoport",
+          "Michael Mager",
+          "Demetrios Papageorgiou",
+          "Mark Hettick"
+        ],
+        "location": "New York City, NY",
+        "founded_year": 2021,
+        "current_stage": "Series C",
+        "total_raised": "$180M",
+        "valuation": "$500M",
+        "investors": [
+          "Steadview Capital",
+          "Forepont Capital Partners",
+          "B Capital",
+          "Mubadala Capital",
+          "Draper Associates",
+          "Alumni Ventures",
+          "re.Mind Capital",
+          "General Equity Holdings",
+          "Duquesne Family Office",
+          "SCI Ventures"
+        ],
+        "website": "https://precisionneuro.io",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "valuation": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "FDA 510(k) clearance date in database entry states March 30, 2025, but source [0] states April 2025 and March 2025 in different sections; Wikipedia source consistently references March/April 2025 timeframe. Series C funding of $102M completed in December 2024 at $500M post-money valuation, with total funding reaching $180M as of January 2026."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Benjamin Rapoport, Michael Mager",
+          "verified": "Benjamin Rapoport, Michael Mager, Demetrios Papageorgiou, Mark Hettick",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "location",
+          "current": "New York, NY",
+          "verified": "New York City, NY",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2021,
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://precisionneuro.io",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Steadview Capital",
+            "Forepont Capital Partners",
+            "B Capital",
+            "Mubadala Capital",
+            "Draper Associates",
+            "Alumni Ventures",
+            "re.Mind Capital",
+            "General Equity Holdings",
+            "Duquesne Family Office",
+            "SCI Ventures"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Precision_Neuroscience"
+        }
+      ],
+      "notes": "FDA 510(k) clearance date in database entry states March 30, 2025, but source [0] states April 2025 and March 2025 in different sections; Wikipedia source consistently references March/April 2025 timeframe. Series C funding of $102M completed in December 2024 at $500M post-money valuation, with total funding reaching $180M as of January 2026."
+    },
+    {
+      "name": "Frankenburg Technologies",
+      "current": {
+        "name": "Frankenburg Technologies",
+        "founder": "Taavi Madiberk, Marko Virkebau",
+        "location": "Tallinn, Estonia",
+        "founded": 2024,
+        "fundingStage": "Series A",
+        "totalRaised": "\u20ac40M",
+        "website": null
+      },
+      "verified": {
+        "name": "Frankenburg Technologies",
+        "description": "Estonian defence technology startup founded in 2024 that develops missiles to intercept drones, including Mark I and Mark II systems.",
+        "founders": null,
+        "location": "Estonia",
+        "founded_year": 2024,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": null,
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source does not name founders or provide funding details. Database entry lists founders (Taavi Madiberk, Marko Virkebau) and funding (\u20ac40M Series A) but these cannot be verified from provided Wikipedia source. Wikipedia confirms company signed agreement with PGZ in March 2026 to build anti-drone defence plant in Poland."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Tallinn, Estonia",
+          "verified": "Estonia",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frankenburg_Technologies"
+        }
+      ],
+      "notes": "Wikipedia source does not name founders or provide funding details. Database entry lists founders (Taavi Madiberk, Marko Virkebau) and funding (\u20ac40M Series A) but these cannot be verified from provided Wikipedia source. Wikipedia confirms company signed agreement with PGZ in March 2026 to build anti-drone defence plant in Poland."
+    },
+    {
+      "name": "Tytan Technologies",
+      "current": {
+        "name": "Tytan Technologies",
+        "founder": "Balazs Nagy, Batuhan Yumurtaci",
+        "location": "Munich, Germany",
+        "founded": null,
+        "fundingStage": "Series A",
+        "totalRaised": "\u20ac46M",
+        "website": null
+      },
+      "verified": {
+        "name": "TYTAN Technologies",
+        "description": "AI-powered autonomous interceptor systems designed to detect, track, and neutralize unmanned aerial threats. Interceptors are produced and manufactured across Europe for air defense applications.",
+        "founders": [
+          "Balazs Nagy"
+        ],
+        "location": "Munich, Germany",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": "\u20ac30M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://tytan-technologies.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry lists 'Batuhan Yumurtaci' as co-founder, but sources only explicitly name 'Balazs Nagy' as 'CEO and co-founder.' Only Balazs Nagy is verifiable from provided sources. Database entry claims \u20ac46M raised; sources mention only \u20ac30M funding round. No founded year found in sources. Current stage listed as 'Series A' in database but not verified in sources. News article dated April 21, 2026."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Balazs Nagy, Batuhan Yumurtaci",
+          "verified": "Balazs Nagy",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "\u20ac46M",
+          "verified": "\u20ac30M",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://tytan-technologies.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://tytan-technologies.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://tytan-technologies.com/about"
+        }
+      ],
+      "notes": "Database entry lists 'Batuhan Yumurtaci' as co-founder, but sources only explicitly name 'Balazs Nagy' as 'CEO and co-founder.' Only Balazs Nagy is verifiable from provided sources. Database entry claims \u20ac46M raised; sources mention only \u20ac30M funding round. No founded year found in sources. Current stage listed as 'Series A' in database but not verified in sources. News article dated April 21, 2026."
+    },
+    {
+      "name": "Aerospacelab",
+      "current": {
+        "name": "Aerospacelab",
+        "founder": "Beno\u00eet Deper",
+        "location": "Mont-Saint-Guibert, Belgium",
+        "founded": 2018,
+        "fundingStage": "Series B",
+        "totalRaised": "\u20ac200M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Aerospacelab",
+        "description": "Company that designs, manufactures, and operates end-to-end satellite systems for constellation missions, including Versatile Satellite Platforms (VSP-50, VSP-150, VSP-300) and avionics subsystems.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://aerospacelab.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] is company website only. No specific founder names, location, founding year, funding stage, total raised amount, valuation, or investor names could be verified from the provided source. Database entry claims cannot be verified from this source alone."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://aerospacelab.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://aerospacelab.com"
+        }
+      ],
+      "notes": "Source [0] is company website only. No specific founder names, location, founding year, funding stage, total raised amount, valuation, or investor names could be verified from the provided source. Database entry claims cannot be verified from this source alone."
+    },
+    {
+      "name": "The Exploration Company",
+      "current": {
+        "name": "The Exploration Company",
+        "founder": "H\u00e9l\u00e8ne Huby",
+        "location": "Munich, Germany",
+        "founded": 2021,
+        "fundingStage": "Series A",
+        "totalRaised": "\u20ac40M",
+        "website": null
+      },
+      "verified": {
+        "name": "The Exploration Company",
+        "description": "European aerospace company developing Nyx, a family of modular reusable spacecraft designed for cargo transport and missions to Low Earth Orbit, lunar orbit, and the Moon.",
+        "founders": [
+          "H\u00e9l\u00e8ne Huby"
+        ],
+        "location": "Munich, Germany",
+        "founded_year": 2021,
+        "current_stage": "Series B",
+        "total_raised": "$160M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.exploration.space",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Founded July 2021. Most recent funding: $160M Series B in November 2024. Wikipedia source indicates 400 employees as of 2026. Company headquartered in Munich, Bordeaux, and Oberpfaffenhofen with offices in Italy, France, Houston, and MENA region. Sources [0] and [1] are domain sales pages for theexplorationcompany.com and contain no verifiable company information."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series A",
+          "verified": "Series B",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "\u20ac40M",
+          "verified": "$160M",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://www.exploration.space",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://theexplorationcompany.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://theexplorationcompany.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Exploration_Company"
+        }
+      ],
+      "notes": "Founded July 2021. Most recent funding: $160M Series B in November 2024. Wikipedia source indicates 400 employees as of 2026. Company headquartered in Munich, Bordeaux, and Oberpfaffenhofen with offices in Italy, France, Houston, and MENA region. Sources [0] and [1] are domain sales pages for theexplorationcompany.com and contain no verifiable company information."
+    },
+    {
+      "name": "HyImpulse",
+      "current": {
+        "name": "HyImpulse",
+        "founder": "Mario Kobald",
+        "location": "Neuenstadt, Germany",
+        "founded": 2018,
+        "fundingStage": "Series B",
+        "totalRaised": "\u20ac74M",
+        "website": null
+      },
+      "verified": {
+        "name": "HyImpulse",
+        "description": "German private space launch enterprise developing hybrid-propellant rockets using paraffin-based fuel and liquid oxygen. The company is developing the SR75 suborbital launch vehicle and SL1 small-lift launch vehicle for LEO deployment.",
+        "founders": null,
+        "location": "Neuenstadt am Kocher, Germany",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": "\u20ac74,000,000",
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.hyimpulse.de/en/",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia lists 'Total assets' of \u20ac74,000,000 (2025), not explicitly 'total raised'. SR75 successfully completed maiden flight on 3 May 2024 from Koonibba Test Range, Australia. No founder names explicitly listed in source. No current funding stage mentioned in source."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Neuenstadt, Germany",
+          "verified": "Neuenstadt am Kocher, Germany",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "\u20ac74M",
+          "verified": "\u20ac74,000,000",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://www.hyimpulse.de/en/",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HyImpulse"
+        }
+      ],
+      "notes": "Wikipedia lists 'Total assets' of \u20ac74,000,000 (2025), not explicitly 'total raised'. SR75 successfully completed maiden flight on 3 May 2024 from Koonibba Test Range, Australia. No founder names explicitly listed in source. No current funding stage mentioned in source."
+    },
+    {
+      "name": "INERATEC",
+      "current": {
+        "name": "INERATEC",
+        "founder": "Tim Boeltken",
+        "location": "Karlsruhe, Germany",
+        "founded": 2016,
+        "fundingStage": "Series B",
+        "totalRaised": "$129M",
+        "website": null
+      },
+      "verified": {
+        "name": "INERATEC",
+        "description": "Company producing climate-neutral synthetic fuels and chemicals by converting CO\u2082 and hydrogen into sustainable energy sources including e-SAF, e-Diesel, e-Naphtha, and e-Wax.",
+        "founders": null,
+        "location": "Karlsruhe, Germany",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://ineratec.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Sources confirm Tim Boeltken as CEO but do not explicitly identify him as founder. Founded year (2016), location (Karlsruhe, Germany), funding stage (Series B), total_raised ($129M), and valuation cannot be verified from provided sources. Frankfurt plant and modular Fischer-Tropsch reactor details from database entry are not found in provided sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://ineratec.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://ineratec.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://ineratec.com/about"
+        }
+      ],
+      "notes": "Sources confirm Tim Boeltken as CEO but do not explicitly identify him as founder. Founded year (2016), location (Karlsruhe, Germany), funding stage (Series B), total_raised ($129M), and valuation cannot be verified from provided sources. Frankfurt plant and modular Fischer-Tropsch reactor details from database entry are not found in provided sources."
+    },
+    {
+      "name": "Reverion",
+      "current": {
+        "name": "Reverion",
+        "founder": "Stephan Herrmann, Felix Fischer, Jeremias Weinrich, Maximilian Hauck, Luis Poblotzki",
+        "location": "Munich, Germany",
+        "founded": 2021,
+        "fundingStage": "Series B",
+        "totalRaised": "$79M",
+        "website": null
+      },
+      "verified": {
+        "name": "Reverion",
+        "description": "Reversible fuel cell systems that convert biogas into electricity, hydrogen, and captured CO2 with up to 80% efficiency. Systems operate emission-free and enable energy storage and carbon capture.",
+        "founders": null,
+        "location": "Munich, Germany",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://reverion.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Sources identify Reverion as a spin-out from TU M\u00fcnchen (Technical University of Munich). Website mentions 'Das Reverion Team' section but does not explicitly name founders. No financial data (funding, valuation, stage) could be verified from provided sources. Database entry lists founders and financial details that are not present in these sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://reverion.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://reverion.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://reverion.com/about"
+        }
+      ],
+      "notes": "Sources identify Reverion as a spin-out from TU M\u00fcnchen (Technical University of Munich). Website mentions 'Das Reverion Team' section but does not explicitly name founders. No financial data (funding, valuation, stage) could be verified from provided sources. Database entry lists founders and financial details that are not present in these sources."
+    },
+    {
+      "name": "Isomorphic Labs",
+      "current": {
+        "name": "Isomorphic Labs",
+        "founder": "Demis Hassabis",
+        "location": "London, UK",
+        "founded": 2021,
+        "fundingStage": "Series A",
+        "totalRaised": "$600M",
+        "website": null
+      },
+      "verified": {
+        "name": "Isomorphic Labs",
+        "description": "A British artificial intelligence company that uses machine learning and AlphaFold technology to accelerate drug discovery. Established as a spin-off from Alphabet Inc.'s DeepMind research lab.",
+        "founders": [
+          "Demis Hassabis"
+        ],
+        "location": "London, England",
+        "founded_year": 2021,
+        "current_stage": "Private",
+        "total_raised": "$600M",
+        "valuation": null,
+        "investors": [
+          "Thrive Capital"
+        ],
+        "website": "https://isomorphiclabs.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Company was incorporated on February 24, 2021 and announced on November 4, 2021 as a subsidiary of Alphabet Inc. Raised $600 million in its first external funding round in April 2025, led by Thrive Capital. Demis Hassabis is also founder and CEO of DeepMind. Current stage listed as 'Private' rather than 'Series A' as the $600M funding round in April 2025 was described as the company's 'first ever external funding round', suggesting it was not previously a traditional venture-backed Series A."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "London, UK",
+          "verified": "London, England",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series A",
+          "verified": "Private",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://isomorphiclabs.com",
+          "sources": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Thrive Capital"
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://isomorphiclabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://isomorphiclabs.com/about-us"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Isomorphic_Labs"
+        }
+      ],
+      "notes": "Company was incorporated on February 24, 2021 and announced on November 4, 2021 as a subsidiary of Alphabet Inc. Raised $600 million in its first external funding round in April 2025, led by Thrive Capital. Demis Hassabis is also founder and CEO of DeepMind. Current stage listed as 'Private' rather than 'Series A' as the $600M funding round in April 2025 was described as the company's 'first ever external funding round', suggesting it was not previously a traditional venture-backed Series A."
+    },
+    {
+      "name": "SiPearl",
+      "current": {
+        "name": "SiPearl",
+        "founder": "Philippe Notton",
+        "location": "Paris, France",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "\u20ac130M",
+        "website": null
+      },
+      "verified": {
+        "name": "SiPearl",
+        "description": "European processor design company developing the Rhea1 CPU, the most complex processor designed in Europe, for high-performance computing and AI workloads. Rhea1 will power JUPITER, Europe's first exascale supercomputer, and is being manufactured at TSMC.",
+        "founders": null,
+        "location": "Paris, France",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://sipearl.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source 0 is the company website but contains no information about founders, founding year, funding stage, total raised, valuation, or investors. The database entry lists Philippe Notton as founder, Series A stage, and \u20ac130M raised, but these cannot be verified from the provided sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://sipearl.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://sipearl.com"
+        }
+      ],
+      "notes": "Source 0 is the company website but contains no information about founders, founding year, funding stage, total raised, valuation, or investors. The database entry lists Philippe Notton as founder, Series A stage, and \u20ac130M raised, but these cannot be verified from the provided sources."
+    },
+    {
+      "name": "Riverlane",
+      "current": {
+        "name": "Riverlane",
+        "founder": "Steve Brierley",
+        "location": "Cambridge, UK",
+        "founded": null,
+        "fundingStage": "Series C",
+        "totalRaised": "$120M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Riverlane",
+        "description": "Riverlane builds quantum error correction (QEC) technology and tools, including its Deltaflow stack, to identify and correct quantum computing errors. The company works with quantum computer manufacturers, government bodies, and high-performance computing centers to accelerate quantum computing toward utility scale.",
+        "founders": [
+          "Steve Brierley"
+        ],
+        "location": "Cambridge, UK",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://riverlane.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Steve Brierley is explicitly identified as CEO and Founder in source [1]. Current stage listed as Series C in database entry but no supporting evidence found in sources. Total raised of $120M+ in database entry but no supporting evidence found in sources. Sources mention offices in Cambridge, UK and Boston, US; Cambridge selected as primary location per specification rules."
+      },
+      "changes": [
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2016,
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://riverlane.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://riverlane.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://riverlane.com/about"
+        }
+      ],
+      "notes": "Steve Brierley is explicitly identified as CEO and Founder in source [1]. Current stage listed as Series C in database entry but no supporting evidence found in sources. Total raised of $120M+ in database entry but no supporting evidence found in sources. Sources mention offices in Cambridge, UK and Boston, US; Cambridge selected as primary location per specification rules."
+    },
+    {
+      "name": "Poolside",
+      "current": {
+        "name": "Poolside",
+        "founder": "Jason Warner, Eiso Kant",
+        "location": "San Francisco, CA",
+        "founded": 2023,
+        "fundingStage": "Series B",
+        "totalRaised": "$626M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Poolside",
+        "description": "A frontier lab building foundation models and AI agents for software engineering and enterprise work.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://poolside.ai",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] is company website only\u2014does not provide founder names, location, founding year, funding stage, total raised, or investor information. Database entry references Jason Warner, Eiso Kant as founders, Series B stage, $626M+ raised, and NVIDIA $1B commitment, but these cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://poolside.ai",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://poolside.ai"
+        }
+      ],
+      "notes": "Source [0] is company website only\u2014does not provide founder names, location, founding year, funding stage, total raised, or investor information. Database entry references Jason Warner, Eiso Kant as founders, Series B stage, $626M+ raised, and NVIDIA $1B commitment, but these cannot be verified from provided sources."
+    },
+    {
+      "name": "Nomagic",
+      "current": {
+        "name": "Nomagic",
+        "founder": "Kacper Nowicki",
+        "location": "Warsaw, Poland",
+        "founded": 2017,
+        "fundingStage": "Series B",
+        "totalRaised": "$97M",
+        "website": null
+      },
+      "verified": {
+        "name": "No Magic",
+        "description": "Provides standard-based modeling solutions for analyzing, designing, and simulating systems of systems in model-driven engineering and system architecture.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://nomagic.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "The sources provided are from Dassault Syst\u00e8mes' website and describe No Magic as a system design software company, NOT a robotics/warehouse automation company. This contradicts the database entry which claims it makes 'AI-powered pick-and-place robots for warehouse automation.' No information found in sources to verify founder name, location, founded year, stage, funding, or valuation."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://nomagic.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://nomagic.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://nomagic.com/company"
+        }
+      ],
+      "notes": "The sources provided are from Dassault Syst\u00e8mes' website and describe No Magic as a system design software company, NOT a robotics/warehouse automation company. This contradicts the database entry which claims it makes 'AI-powered pick-and-place robots for warehouse automation.' No information found in sources to verify founder name, location, founded year, stage, funding, or valuation."
+    },
+    {
+      "name": "Nu Quantum",
+      "current": {
+        "name": "Nu Quantum",
+        "founder": "Carmen Palacios-Berraquero",
+        "location": "Cambridge, UK",
+        "founded": 2018,
+        "fundingStage": "Series A",
+        "totalRaised": "\u00a38.5M+ (equity) + MoD/DSIT contracts",
+        "website": null
+      },
+      "verified": {
+        "name": "Nu Quantum",
+        "description": "Nu Quantum builds quantum networking technology to enable distributed quantum computing architectures by interconnecting quantum processors through qubit-photon interfaces and an Entanglement Fabric abstraction layer.",
+        "founders": [
+          "Carmen Palacios-Berraquero"
+        ],
+        "location": "Cambridge, UK",
+        "founded_year": 2018,
+        "current_stage": "Series A",
+        "total_raised": "$60M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://nu-quantum.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [0] shows Series A funding of $60M with title 'Nu Quantum Raises $60M Series A in Largest Financing Round for Quantum Computer Networking'. Source [1] confirms founding in 2018 as spinout from University of Cambridge and lists Dr. Carmen Palacios-Berraquero as Founder and CEO. Source [1] indicates offices in Cambridge, UK and Los Angeles, US but primary location is Cambridge."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "\u00a38.5M+ (equity) + MoD/DSIT contracts",
+          "verified": "$60M",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://nu-quantum.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://nu-quantum.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://nu-quantum.com/about-us"
+        }
+      ],
+      "notes": "Source [0] shows Series A funding of $60M with title 'Nu Quantum Raises $60M Series A in Largest Financing Round for Quantum Computer Networking'. Source [1] confirms founding in 2018 as spinout from University of Cambridge and lists Dr. Carmen Palacios-Berraquero as Founder and CEO. Source [1] indicates offices in Cambridge, UK and Los Angeles, US but primary location is Cambridge."
+    },
+    {
+      "name": "Pragmatic Semiconductor",
+      "current": {
+        "name": "Pragmatic Semiconductor",
+        "founder": "Scott White",
+        "location": "Durham, UK",
+        "founded": 2010,
+        "fundingStage": "Series D",
+        "totalRaised": "\u00a3182M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Pragmatic Semiconductor",
+        "description": "UK-based flexible microchip maker that designs and manufactures FlexICs \u2013 ultra-thin, physically flexible microchips based on thin-film transistor technology on non-conducting substrates. The company produces semiconductors with lower energy consumption and carbon impact compared to conventional silicon manufacturing.",
+        "founders": [
+          "Richard Price",
+          "Scott White"
+        ],
+        "location": "Cambridge, England",
+        "founded_year": 2010,
+        "current_stage": "Series D",
+        "total_raised": "$231M",
+        "valuation": null,
+        "investors": [
+          "Arm",
+          "Cambridge Innovation Capital",
+          "Avery Dennison",
+          "British Patient Capital",
+          "In-Q-Tel",
+          "Prosperity7 Ventures",
+          "M&G's Catalyst",
+          "National Wealth Fund",
+          "Northern Gritstone",
+          "Latitude",
+          "MVolution Partners"
+        ],
+        "website": "https://pragmaticsemiconductor.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "David Moore appointed CEO in 2022, replacing co-founder Scott White. Series D funding of $231 million in 2023 was described as 'the largest ever European semiconductor venture funding round.' Manufacturing facility is located in County Durham; headquarters moved to Cambridge Science Park in 2015."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Scott White",
+          "verified": "Richard Price, Scott White",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Durham, UK",
+          "verified": "Cambridge, England",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "\u00a3182M+",
+          "verified": "$231M",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://pragmaticsemiconductor.com",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Arm",
+            "Cambridge Innovation Capital",
+            "Avery Dennison",
+            "British Patient Capital",
+            "In-Q-Tel",
+            "Prosperity7 Ventures",
+            "M&G's Catalyst",
+            "National Wealth Fund",
+            "Northern Gritstone",
+            "Latitude",
+            "MVolution Partners"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://pragmaticsemiconductor.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pragmatic_Semiconductor"
+        }
+      ],
+      "notes": "David Moore appointed CEO in 2022, replacing co-founder Scott White. Series D funding of $231 million in 2023 was described as 'the largest ever European semiconductor venture funding round.' Manufacturing facility is located in County Durham; headquarters moved to Cambridge Science Park in 2015."
+    },
+    {
+      "name": "Oxa",
+      "current": {
+        "name": "Oxa",
+        "founder": "Paul Newman, Ingmar Posner",
+        "location": "Oxford, UK",
+        "founded": 2014,
+        "fundingStage": "Series D",
+        "totalRaised": "$250M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Oxa",
+        "description": "Autonomous vehicle software company that designs software and hardware for converting industrial vehicles into autonomous ones, with technology deployable in environments without GPS dependency.",
+        "founders": [
+          "Paul Newman",
+          "Ingmar Posner"
+        ],
+        "location": "Oxford, England",
+        "founded_year": 2014,
+        "current_stage": "Series D",
+        "total_raised": "$103M",
+        "valuation": null,
+        "investors": [
+          "IP Group",
+          "Parkwalk Advisors",
+          "AXA XL",
+          "NVentures",
+          "Hostplus",
+          "BP Ventures",
+          "UK National Wealth Fund"
+        ],
+        "website": "https://oxa.tech",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Company rebranded from Oxbotica to Oxa in May 2023. Most recent funding round was Series D in March 2026 for $103 million."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Oxford, UK",
+          "verified": "Oxford, England",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$250M+",
+          "verified": "$103M",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://oxa.tech",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "IP Group",
+            "Parkwalk Advisors",
+            "AXA XL",
+            "NVentures",
+            "Hostplus",
+            "BP Ventures",
+            "UK National Wealth Fund"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oxa"
+        }
+      ],
+      "notes": "Company rebranded from Oxbotica to Oxa in May 2023. Most recent funding round was Series D in March 2026 for $103 million."
+    },
+    {
+      "name": "Epoch Biodesign",
+      "current": {
+        "name": "Epoch Biodesign",
+        "founder": "Jacob Nathan, Douglas Hamilton",
+        "location": "London, UK",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "$18.3M",
+        "website": null
+      },
+      "verified": {
+        "name": "Epoch Biodesign",
+        "description": "Produces recycled polymers using enzymatic technology that deconstructs waste materials at the molecular level, currently focused on nylon 6,6 for apparel, automotive, and industrial applications.",
+        "founders": [
+          "Jacob Nathan"
+        ],
+        "location": "London, UK",
+        "founded_year": null,
+        "current_stage": "Series A",
+        "total_raised": "$40M",
+        "valuation": null,
+        "investors": [
+          "Lowercarbon Capital",
+          "Extantia Capital",
+          "Mundi Ventures"
+        ],
+        "website": "https://epochbiodesign.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Only Jacob Nathan explicitly named as founder in sources; Douglas Hamilton listed in database entry but not identified as founder in provided sources. Source [1] mentions '$18.3M Series A round' but also states 'closing over $40M in funding' total, so $40M represents total raised across all rounds. Founded year not specified in sources despite database entry claiming 2019."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Jacob Nathan, Douglas Hamilton",
+          "verified": "Jacob Nathan",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$18.3M",
+          "verified": "$40M",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://epochbiodesign.com",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Lowercarbon Capital",
+            "Extantia Capital",
+            "Mundi Ventures"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://epochbiodesign.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://epochbiodesign.com/about"
+        }
+      ],
+      "notes": "Only Jacob Nathan explicitly named as founder in sources; Douglas Hamilton listed in database entry but not identified as founder in provided sources. Source [1] mentions '$18.3M Series A round' but also states 'closing over $40M in funding' total, so $40M represents total raised across all rounds. Founded year not specified in sources despite database entry claiming 2019."
+    },
+    {
+      "name": "MBRYONICS",
+      "current": {
+        "name": "MBRYONICS",
+        "founder": "John Mackey, Ruth Mackey, David Mackey",
+        "location": "Galway, Ireland",
+        "founded": 2013,
+        "fundingStage": "Series B",
+        "totalRaised": "\u20ac17.5M+",
+        "website": null
+      },
+      "verified": {
+        "name": "MBRYONICS",
+        "description": "Optical communications company delivering integrated end-to-end solutions for satellite inter-satellite links, ground stations, and quantum key distribution across Earth, LEO, MEO, GEO, and cislunar space.",
+        "founders": null,
+        "location": "Galway, Ireland",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://mbryonics.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Sources provided are company website and about page only. No third-party sources available to verify founders, founding year, funding stage, total raised, valuation, or investors. Database entry lists founders (John Mackey, Ruth Mackey, David Mackey), founded year (2013), stage (Series B), and total raised (\u20ac17.5M+) but these cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://mbryonics.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://mbryonics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://mbryonics.com/about"
+        }
+      ],
+      "notes": "Sources provided are company website and about page only. No third-party sources available to verify founders, founding year, funding stage, total raised, valuation, or investors. Database entry lists founders (John Mackey, Ruth Mackey, David Mackey), founded year (2013), stage (Series B), and total raised (\u20ac17.5M+) but these cannot be verified from provided sources."
+    },
+    {
+      "name": "Candela",
+      "current": {
+        "name": "Candela",
+        "founder": "Gustav Hasselskog",
+        "location": "Stockholm, Sweden",
+        "founded": 2014,
+        "fundingStage": "Series C",
+        "totalRaised": "\u20ac129M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Candela",
+        "description": "Candela designs and builds electric hydrofoil boats and ferries that combine long-range capability with high speed. The company's hydrofoil technology reduces energy use by 80% compared to traditional vessels.",
+        "founders": [
+          "Gustav Hasselskog"
+        ],
+        "location": "Stockholm, Sweden",
+        "founded_year": 2014,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://candela.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Wikipedia source [2] is about the SI unit 'candela' (luminous intensity), not the company, and was excluded. Company website confirms P-12 ferry in commercial service in Stockholm. Sources do not provide verifiable information on funding stage, total capital raised, valuation, or named investors."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://candela.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://candela.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://candela.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Candela"
+        }
+      ],
+      "notes": "Wikipedia source [2] is about the SI unit 'candela' (luminous intensity), not the company, and was excluded. Company website confirms P-12 ferry in commercial service in Stockholm. Sources do not provide verifiable information on funding stage, total capital raised, valuation, or named investors."
+    },
+    {
+      "name": "KrattWorks",
+      "current": {
+        "name": "KrattWorks",
+        "founder": "Martin Karmin",
+        "location": "Tallinn, Estonia",
+        "founded": 2018,
+        "fundingStage": "Series A",
+        "totalRaised": "Undisclosed (revenue \u20ac19.7M)",
+        "website": null
+      },
+      "verified": {
+        "name": "KrattWorks",
+        "description": "Manufacturer of jamming-resistant ISR and aerial target drones with GNSS-free flight modes for military and first responder use.",
+        "founders": null,
+        "location": "Tallinn, Estonia",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://krattworks.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] confirms company operates in Estonia with 50+ employees and has a 7-year contract worth \u20ac15M with Estonian Defense Forces. No founder names, funding information, valuation, or founding year explicitly stated in provided sources. Database entry claims 'Martin Karmin' as founder and '2018' as founding year, but these are not verified in source [0]."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://krattworks.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://krattworks.com"
+        }
+      ],
+      "notes": "Source [0] confirms company operates in Estonia with 50+ employees and has a 7-year contract worth \u20ac15M with Estonian Defense Forces. No founder names, funding information, valuation, or founding year explicitly stated in provided sources. Database entry claims 'Martin Karmin' as founder and '2018' as founding year, but these are not verified in source [0]."
+    },
+    {
+      "name": "DefSecIntel",
+      "current": {
+        "name": "DefSecIntel",
+        "founder": "Jaanus Tamm",
+        "location": "Tallinn, Estonia",
+        "founded": 2017,
+        "fundingStage": "Series A",
+        "totalRaised": "Undisclosed",
+        "website": null
+      },
+      "verified": {
+        "name": "DefSecIntel",
+        "description": "Provider of integrated autonomous situation awareness systems including surveillance platforms, remote monitoring stations, and AI-assisted technologies for border security, law enforcement, and force protection.",
+        "founders": null,
+        "location": "Tallinn, Estonia",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://defsecintel.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] is company website with no verifiable information about founders, founding year, funding stage, total raised, valuation, or investors. Database entry claims founder 'Jaanus Tamm', Series A stage, and 'SurveilSPIRE' product name \u2014 all present in website content (SurveilSPIRE confirmed as 'Mobile autonomous surveillance platform' in source [0]), but founder name and funding details cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://defsecintel.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://defsecintel.com"
+        }
+      ],
+      "notes": "Source [0] is company website with no verifiable information about founders, founding year, funding stage, total raised, valuation, or investors. Database entry claims founder 'Jaanus Tamm', Series A stage, and 'SurveilSPIRE' product name \u2014 all present in website content (SurveilSPIRE confirmed as 'Mobile autonomous surveillance platform' in source [0]), but founder name and funding details cannot be verified from provided sources."
+    },
+    {
+      "name": "SatRev",
+      "current": {
+        "name": "SatRev",
+        "founder": "Grzegorz Zwoli\u0144ski",
+        "location": "Wroc\u0142aw, Poland",
+        "founded": 2016,
+        "fundingStage": "Series B",
+        "totalRaised": "Undisclosed",
+        "website": null
+      },
+      "verified": {
+        "name": "SatRev S.A.",
+        "description": "Polish aerospace company established in 2016 that specializes in building small, lightweight nanosatellites for earth observation.",
+        "founders": [
+          "Grzegorz Zwoli\u0144ski"
+        ],
+        "location": "Wroc\u0142aw, Poland",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://satrev.space",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source does not specify current funding stage, total raised, or valuation. Database entry mentions Series B stage and 1,500 satellite REC constellation plans, but these are not verified in provided sources. All STORK constellation satellites have decayed from orbit as of May 2024."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://satrev.space",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SatRev"
+        }
+      ],
+      "notes": "Wikipedia source does not specify current funding stage, total raised, or valuation. Database entry mentions Series B stage and 1,500 satellite REC constellation plans, but these are not verified in provided sources. All STORK constellation satellites have decayed from orbit as of May 2024."
+    },
+    {
+      "name": "KP Labs",
+      "current": {
+        "name": "KP Labs",
+        "founder": "Grzegorz Kasprowicz",
+        "location": "Gliwice, Poland",
+        "founded": 2016,
+        "fundingStage": "Series A",
+        "totalRaised": "Undisclosed",
+        "website": null
+      },
+      "verified": {
+        "name": "KP Labs",
+        "description": "Polish space company specializing in data processing and AI computers for satellites. Develops onboard computing units and software tools for small satellites and CubeSats.",
+        "founders": null,
+        "location": "Gliwice, Poland",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://kplabs.space",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Sources [0] and [1] appear to describe a different company called 'Keesal Propulsion Labs' (focused on legal/business process automation), not the Polish space company KP Labs. Only source [2] (Wikipedia) provides verified information about the correct KP Labs. Database entry lists founder 'Grzegorz Kasprowicz' but this is not confirmed in provided sources. Database entry lists stage as 'Series A' but this cannot be verified in sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://kplabs.space",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://kplabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://kplabs.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/KP_Labs"
+        }
+      ],
+      "notes": "Sources [0] and [1] appear to describe a different company called 'Keesal Propulsion Labs' (focused on legal/business process automation), not the Polish space company KP Labs. Only source [2] (Wikipedia) provides verified information about the correct KP Labs. Database entry lists founder 'Grzegorz Kasprowicz' but this is not confirmed in provided sources. Database entry lists stage as 'Series A' but this cannot be verified in sources."
+    },
+    {
+      "name": "Quandela",
+      "current": {
+        "name": "Quandela",
+        "founder": "Valerian Giesz, Pascale Senellart, Niccolo Somaschi",
+        "location": "Massy, France",
+        "founded": 2017,
+        "fundingStage": "Series B",
+        "totalRaised": "Undisclosed (PROQCIMA backed)",
+        "website": null
+      },
+      "verified": {
+        "name": "Quandela",
+        "description": "Quandela is a world leader in full-stack photonic quantum computing, developing hardware, middleware, and software for industrial applications including energy, cybersecurity, and finance.",
+        "founders": [
+          "Valerian Giesz",
+          "Pascale Senellart",
+          "Niccolo Somaschi"
+        ],
+        "location": null,
+        "founded_year": 2017,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://quandela.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Founders not explicitly named as such in provided sources. Location (Massy, France) and stage information from database entry could not be verified in sources. Current stage, total raised, valuation, and investor details not found in sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://quandela.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://quandela.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://quandela.com/about"
+        }
+      ],
+      "notes": "Founders not explicitly named as such in provided sources. Location (Massy, France) and stage information from database entry could not be verified in sources. Current stage, total raised, valuation, and investor details not found in sources."
+    },
+    {
+      "name": "Unseenlabs",
+      "current": {
+        "name": "Unseenlabs",
+        "founder": "Cl\u00e9ment Galic, Jonathan Galic",
+        "location": "Rennes, France",
+        "founded": 2015,
+        "fundingStage": "Series C",
+        "totalRaised": "\u20ac85M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Unseenlabs",
+        "description": "Space-based radio frequency detection company for maritime surveillance that geolocates and monitors ships, including those evading traditional surveillance systems. Operates a constellation of satellites to detect RF signals emitted by vessels worldwide.",
+        "founders": [
+          "Benjamin Galic",
+          "Jonathan Galic",
+          "Cl\u00e9ment Galic"
+        ],
+        "location": "Rennes, France",
+        "founded_year": 2015,
+        "current_stage": "Series C",
+        "total_raised": "\u20ac112.5M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://unseenlabs.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry listed 12+ operational satellites; sources indicate 20 satellites in orbit as of the company page update, with BRO-21 launched as of April 2026. Founders clarified as three brothers (Benjamin, Jonathan, and Cl\u00e9ment), not just two. Total raised figure updated from \u20ac85M to \u20ac112.5M per most recent company statement."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Cl\u00e9ment Galic, Jonathan Galic",
+          "verified": "Benjamin Galic, Jonathan Galic, Cl\u00e9ment Galic",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "\u20ac85M+",
+          "verified": "\u20ac112.5M",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://unseenlabs.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://unseenlabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://unseenlabs.com/company"
+        }
+      ],
+      "notes": "Database entry listed 12+ operational satellites; sources indicate 20 satellites in orbit as of the company page update, with BRO-21 launched as of April 2026. Founders clarified as three brothers (Benjamin, Jonathan, and Cl\u00e9ment), not just two. Total raised figure updated from \u20ac85M to \u20ac112.5M per most recent company statement."
+    },
+    {
+      "name": "Cailabs",
+      "current": {
+        "name": "Cailabs",
+        "founder": "Jean-Fran\u00e7ois Morizur, Guillaume Labroille, Nicolas Treps",
+        "location": "Rennes, France",
+        "founded": 2013,
+        "fundingStage": "Series C",
+        "totalRaised": "\u20ac57M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Cailabs",
+        "description": "Cailabs masters laser light technology, creating innovative products for industrial processes, telecommunications, and space sectors. The company leverages its proprietary Multi-Plane Light Conversion (MPLC) technology to deliver solutions for laser communications, industrial laser processing, and fiber network applications.",
+        "founders": [
+          "Jean-Fran\u00e7ois Morizur",
+          "Guillaume Labroille",
+          "Nicolas Treps"
+        ],
+        "location": "Rennes, France",
+        "founded_year": 2013,
+        "current_stage": "Series C",
+        "total_raised": "\u20ac57M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://cailabs.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Nicolas Treps is listed as co-founder in the database entry but appears in sources as co-inventor of MPLC technology (2010) rather than explicitly named as a founder at company establishment in 2013. Source [1] states 'In 2013, Cailabs was officially founded, with Guillaume Labroille as Chief Technology Officer and co-founder' and lists Jean-Fran\u00e7ois Morizur as Co-founder & CEO, but Nicolas Treps' formal founder status is not explicitly stated in the provided sources, only his role in inventing the core technology."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://cailabs.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://cailabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://cailabs.com/about-us"
+        }
+      ],
+      "notes": "Nicolas Treps is listed as co-founder in the database entry but appears in sources as co-inventor of MPLC technology (2010) rather than explicitly named as a founder at company establishment in 2013. Source [1] states 'In 2013, Cailabs was officially founded, with Guillaume Labroille as Chief Technology Officer and co-founder' and lists Jean-Fran\u00e7ois Morizur as Co-founder & CEO, but Nicolas Treps' formal founder status is not explicitly stated in the provided sources, only his role in inventing the core technology."
+    },
+    {
+      "name": "Sateliot",
+      "current": {
+        "name": "Sateliot",
+        "founder": "Jaume Sanpera, Gianluca Redolfi, Marco Guadalupi",
+        "location": "Barcelona, Spain",
+        "founded": 2018,
+        "fundingStage": "Series B",
+        "totalRaised": "\u20ac70M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Sateliot",
+        "description": "Newspace company launching the first LEO satellite constellation based on the 5G standard, enabling unmodified commercial IoT devices and smartphones to connect directly from space.",
+        "founders": [
+          "Jaume Sanpera",
+          "Marco Guadalupi",
+          "Gianluca Redolfi"
+        ],
+        "location": "Barcelona, Spain",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://sateliot.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry claims Series B closed March 2025 with \u20ac70M and Series C underway, but these claims cannot be verified in provided sources. CEO Jaume Sanpera is listed in management; Marco Guadalupi listed as CTO and Gianluca Redolfi as CCO, all identified as founders in about section."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://sateliot.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://sateliot.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://sateliot.com/about"
+        }
+      ],
+      "notes": "Database entry claims Series B closed March 2025 with \u20ac70M and Series C underway, but these claims cannot be verified in provided sources. CEO Jaume Sanpera is listed in management; Marco Guadalupi listed as CTO and Gianluca Redolfi as CCO, all identified as founders in about section."
+    },
+    {
+      "name": "Multiverse Computing",
+      "current": {
+        "name": "Multiverse Computing",
+        "founder": "Enrique Lizaso Olmos, Rom\u00e1n Or\u00fas, Alfonso Rubio-Manzanares, Sam Mugel",
+        "location": "San Sebasti\u00e1n, Spain",
+        "founded": 2019,
+        "fundingStage": "Series B",
+        "totalRaised": "$215M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Multiverse Computing",
+        "description": "Quantum AI software company that develops CompactifAI, an AI model compression platform using tensor network techniques, and Singularity, a quantum-inspired optimization platform. The company applies quantum and quantum-inspired algorithms to compress large language models and solve complex optimization problems across various industries.",
+        "founders": [
+          "Enrique Lizaso",
+          "Rom\u00e1n Or\u00fas",
+          "Alfonso Rubio-Manzanares",
+          "Sam Mugel"
+        ],
+        "location": "San Sebasti\u00e1n, Spain",
+        "founded_year": 2019,
+        "current_stage": "Series B",
+        "total_raised": "$215M",
+        "valuation": null,
+        "investors": [
+          "Bullhound Capital",
+          "HP Tech Ventures",
+          "SETT",
+          "Forgepoint Capital International",
+          "CDP Venture Capital",
+          "Santander Climate VC",
+          "Toshiba",
+          "Capital Riesgo de Euskadi \u2014 Grupo SPRI"
+        ],
+        "website": "https://multiversecomputing.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            0,
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Series B round of $215M closed in June 2025 per Wikipedia source. Company has 480 employees as of 2026. Headquarters in San Sebasti\u00e1n with offices in Madrid, Barcelona, Zaragoza, Paris, Munich, London, Milan, Toronto and San Francisco."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Enrique Lizaso Olmos, Rom\u00e1n Or\u00fas, Alfonso Rubio-Manzanares, Sam Mugel",
+          "verified": "Enrique Lizaso, Rom\u00e1n Or\u00fas, Alfonso Rubio-Manzanares, Sam Mugel",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://multiversecomputing.com",
+          "sources": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Bullhound Capital",
+            "HP Tech Ventures",
+            "SETT",
+            "Forgepoint Capital International",
+            "CDP Venture Capital",
+            "Santander Climate VC",
+            "Toshiba",
+            "Capital Riesgo de Euskadi \u2014 Grupo SPRI"
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://multiversecomputing.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://multiversecomputing.com/team"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Multiverse_Computing"
+        }
+      ],
+      "notes": "Series B round of $215M closed in June 2025 per Wikipedia source. Company has 480 employees as of 2026. Headquarters in San Sebasti\u00e1n with offices in Madrid, Barcelona, Zaragoza, Paris, Munich, London, Milan, Toronto and San Francisco."
+    },
+    {
+      "name": "Nearfield Instruments",
+      "current": {
+        "name": "Nearfield Instruments",
+        "founder": "Hamed Sadeghian",
+        "location": "Rotterdam, Netherlands",
+        "founded": 2016,
+        "fundingStage": "Series C",
+        "totalRaised": "\u20ac135M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Nearfield Instruments",
+        "description": "Semiconductor metrology equipment company developing scanning probe microscopy systems for advanced chip manufacturing process control, including subsurface metrology solutions.",
+        "founders": [
+          "Roland van Vliet",
+          "Hamed Sadeghian"
+        ],
+        "location": "Rotterdam, Netherlands",
+        "founded_year": 2016,
+        "current_stage": "Series C",
+        "total_raised": "$147.6M",
+        "valuation": null,
+        "investors": [
+          "Invest-NL",
+          "Innovation Industries",
+          "Samsung Venture Investment Corporation",
+          "Eugene Investment & Securities Co., Ltd",
+          "ING Corporate Investments",
+          "TNO Tech Transfer"
+        ],
+        "website": "https://nearfieldinstruments.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            1,
+            2
+          ]
+        },
+        "notes": "Founded in January 2016 as spin-off of TNO. Series C funding of $147.6M completed in 2024 (per Wikipedia). Company relocated to Rotterdam in July 2018 (originally founded in Delft). US subsidiary established February 2025."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Hamed Sadeghian",
+          "verified": "Roland van Vliet, Hamed Sadeghian",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "\u20ac135M+",
+          "verified": "$147.6M",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://nearfieldinstruments.com",
+          "sources": []
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Invest-NL",
+            "Innovation Industries",
+            "Samsung Venture Investment Corporation",
+            "Eugene Investment & Securities Co., Ltd",
+            "ING Corporate Investments",
+            "TNO Tech Transfer"
+          ],
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://nearfieldinstruments.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://nearfieldinstruments.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nearfield_Instruments"
+        }
+      ],
+      "notes": "Founded in January 2016 as spin-off of TNO. Series C funding of $147.6M completed in 2024 (per Wikipedia). Company relocated to Rotterdam in July 2018 (originally founded in Delft). US subsidiary established February 2025."
+    },
+    {
+      "name": "LeydenJar Technologies",
+      "current": {
+        "name": "LeydenJar Technologies",
+        "founder": "Christian Rood, Gabri\u00ebl de Scheemaker",
+        "location": "Eindhoven, Netherlands",
+        "founded": 2016,
+        "fundingStage": "Series B",
+        "totalRaised": "\u20ac50M+",
+        "website": null
+      },
+      "verified": {
+        "name": "LeydenJar Technologies B.V.",
+        "description": "A deep tech company specializing in silicon anodes for lithium-ion batteries that can store 50-70% more energy than regular batteries of the same type and size. The technology requires 60-85% less energy to manufacture compared to traditional four-step anode production.",
+        "founders": [
+          "Christian Rood",
+          "Gabriel de Scheemaker"
+        ],
+        "location": "Leiden, Netherlands",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": "\u20ac23M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://leyden-jar.com/",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Company headquarters listed as Leiden, Netherlands in Wikipedia, though database entry mentions Eindhoven as location of planned production facility. Wikipedia indicates \u20ac23M investment for factory construction (expected completion 2027). No Series B stage information found in source. Database entry lists location as Eindhoven, but Wikipedia clearly states headquarters in Leiden."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Christian Rood, Gabri\u00ebl de Scheemaker",
+          "verified": "Christian Rood, Gabriel de Scheemaker",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Eindhoven, Netherlands",
+          "verified": "Leiden, Netherlands",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "\u20ac50M+",
+          "verified": "\u20ac23M",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://leyden-jar.com/",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/LeydenJar_Technologies"
+        }
+      ],
+      "notes": "Company headquarters listed as Leiden, Netherlands in Wikipedia, though database entry mentions Eindhoven as location of planned production facility. Wikipedia indicates \u20ac23M investment for factory construction (expected completion 2027). No Series B stage information found in source. Database entry lists location as Eindhoven, but Wikipedia clearly states headquarters in Leiden."
+    },
+    {
+      "name": "Carbyon",
+      "current": {
+        "name": "Carbyon",
+        "founder": "Hans De Neve",
+        "location": "Eindhoven, Netherlands",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "\u20ac25M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Carbyon",
+        "description": "Direct air capture company using fast-swing thin film technology with amine-functionalized sorbents to capture CO2 from ambient air for use in sustainable fuels and circular economy applications.",
+        "founders": [
+          "Hans De Neve"
+        ],
+        "location": "Eindhoven, Netherlands",
+        "founded_year": 2019,
+        "current_stage": "Series A",
+        "total_raised": "\u20ac22.3M",
+        "valuation": null,
+        "investors": [
+          "Invest-NL",
+          "Brabant Development Agency",
+          "Innovation Industries",
+          "Lowercarbon Capital",
+          "Siemens Financial Services",
+          "Omnes Capital",
+          "Global Cleantech Capital"
+        ],
+        "website": "https://carbyon.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0,
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ]
+        },
+        "notes": "Total raised calculated from seed round of \u20ac7M (2022) plus Series A round of \u20ac15.3M (2024). Company won $1M XPRIZE Carbon Removal Milestone Award in 2022. First outdoor demonstrator planned for 2025."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "\u20ac25M+",
+          "verified": "\u20ac22.3M",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://carbyon.com",
+          "sources": []
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Invest-NL",
+            "Brabant Development Agency",
+            "Innovation Industries",
+            "Lowercarbon Capital",
+            "Siemens Financial Services",
+            "Omnes Capital",
+            "Global Cleantech Capital"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://carbyon.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://carbyon.com/about"
+        }
+      ],
+      "notes": "Total raised calculated from seed round of \u20ac7M (2022) plus Series A round of \u20ac15.3M (2024). Company won $1M XPRIZE Carbon Removal Milestone Award in 2022. First outdoor demonstrator planned for 2025."
+    },
+    {
+      "name": "Synspective",
+      "current": {
+        "name": "Synspective",
+        "founder": "Motoyuki Arai",
+        "location": "Tokyo, Japan",
+        "founded": 2018,
+        "fundingStage": "Series C",
+        "totalRaised": "~$220M",
+        "website": null
+      },
+      "verified": {
+        "name": "Synspective",
+        "description": "Japanese private space company specializing in synthetic aperture radar satellites that provides SAR data and remote monitoring services to government agencies and companies worldwide.",
+        "founders": null,
+        "location": "Tokyo, Japan",
+        "founded_year": 2018,
+        "current_stage": "Public",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://synspective.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Wikipedia source indicates company is publicly traded (TYO: 290A). Founder name Motoyuki Arai not found in provided sources, so marked as null. Database entry mentions Series C and ~$220M raised, but Wikipedia references only a $44M Series C round in June 2024; insufficient detail to verify total_raised figure without additional sources. First satellite launched 2020 per all sources. Constellation goal of 30 satellites mentioned in company materials."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series C",
+          "verified": "Public",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://synspective.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://synspective.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://synspective.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Synspective"
+        }
+      ],
+      "notes": "Wikipedia source indicates company is publicly traded (TYO: 290A). Founder name Motoyuki Arai not found in provided sources, so marked as null. Database entry mentions Series C and ~$220M raised, but Wikipedia references only a $44M Series C round in June 2024; insufficient detail to verify total_raised figure without additional sources. First satellite launched 2020 per all sources. Constellation goal of 30 satellites mentioned in company materials."
+    },
+    {
+      "name": "Axelspace",
+      "current": {
+        "name": "Axelspace",
+        "founder": "Yuya Nakamura",
+        "location": "Tokyo, Japan",
+        "founded": 2008,
+        "fundingStage": "Series D",
+        "totalRaised": "Undisclosed",
+        "website": null
+      },
+      "verified": {
+        "name": "Axelspace Corporation",
+        "description": "A space venture company that develops and operates microsatellites, providing earth observation services through platforms like AxelLiner and AxelGlobe to government and commercial customers.",
+        "founders": [
+          "Yuya Nakamura"
+        ],
+        "location": "Tokyo, Japan",
+        "founded_year": 2008,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://axelspace.com",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded year confirmed as August 8, 2008 from company information. Representative listed as NAKAMURA Yuya, President and CEO. Company is 100% owned by Axelspace Holdings Corporation. Current team approximately 180 professionals. Has developed and operated 11 microsatellites since establishment. Database entry claims Series D stage and Japan MoD contracts signed 2026, but these cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://axelspace.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://axelspace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://axelspace.com/company"
+        }
+      ],
+      "notes": "Founded year confirmed as August 8, 2008 from company information. Representative listed as NAKAMURA Yuya, President and CEO. Company is 100% owned by Axelspace Holdings Corporation. Current team approximately 180 professionals. Has developed and operated 11 microsatellites since establishment. Database entry claims Series D stage and Japan MoD contracts signed 2026, but these cannot be verified from provided sources."
+    },
+    {
+      "name": "Tonbo Imaging",
+      "current": {
+        "name": "Tonbo Imaging",
+        "founder": "Arvind Lakshmikumar",
+        "location": "Bengaluru, India",
+        "founded": 2012,
+        "fundingStage": "Series D",
+        "totalRaised": "$66.5M",
+        "website": null
+      },
+      "verified": {
+        "name": "Tonbo Imaging",
+        "description": "Designs, develops and manufactures sensing, processing, communication and guidance systems including thermal imaging cores, weapon sights, targeting systems, and missile guidance systems for surveillance, reconnaissance, and battlefield autonomy.",
+        "founders": null,
+        "location": "Bengaluru, Karnataka, India",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://tonboimaging.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Company registration shows CIN U74140KA2003PLC033043 and notes it was 'Formerly known as Tonbo Imaging India Private Limited.' Database entry contains information not verifiable from provided sources (founder name, founded year, stage, total raised)."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Bengaluru, India",
+          "verified": "Bengaluru, Karnataka, India",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://tonboimaging.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://tonboimaging.com"
+        }
+      ],
+      "notes": "Company registration shows CIN U74140KA2003PLC033043 and notes it was 'Formerly known as Tonbo Imaging India Private Limited.' Database entry contains information not verifiable from provided sources (founder name, founded year, stage, total raised)."
+    },
+    {
+      "name": "Dhruva Space",
+      "current": {
+        "name": "Dhruva Space",
+        "founder": "Sanjay Nekkanti",
+        "location": "Hyderabad, India",
+        "founded": 2012,
+        "fundingStage": "Series B",
+        "totalRaised": "Undisclosed",
+        "website": null
+      },
+      "verified": {
+        "name": "Dhruva Space",
+        "description": "Indian private aerospace manufacturer engaged in development of small satellites, ground stations, and launch services for commercial, governmental and academic markets.",
+        "founders": [
+          "Sanjay Srikanth Nekkanti"
+        ],
+        "location": "Hyderabad, Telangana, India",
+        "founded_year": 2012,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Mumbai Angels Network",
+          "Indian Angel Network (IAN) Fund",
+          "Blue Ashva Capital"
+        ],
+        "website": "https://dhruvaspace.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [],
+          "total_raised": [],
+          "valuation": [],
+          "investors": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia lists founder as 'Sanjay Srikanth Nekkanti' while company website lists co-founders including Krishna Teja Penamakuru, Abhay Egoor, and Chaitanya Dora Surapureddy as COO, CTO, and CFO respectively, but Wikipedia only names Sanjay Srikanth Nekkanti as founder. Total funding amounts raised in December 2019 (\u20b95 crore) and October 2021 (\u20b922 crore) are documented but cumulative total in standard currency format cannot be verified. Company is private but no Series stage information found in sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Sanjay Nekkanti",
+          "verified": "Sanjay Srikanth Nekkanti",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Hyderabad, India",
+          "verified": "Hyderabad, Telangana, India",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://dhruvaspace.com",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Mumbai Angels Network",
+            "Indian Angel Network (IAN) Fund",
+            "Blue Ashva Capital"
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://dhruvaspace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://dhruvaspace.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dhruva_Space"
+        }
+      ],
+      "notes": "Wikipedia lists founder as 'Sanjay Srikanth Nekkanti' while company website lists co-founders including Krishna Teja Penamakuru, Abhay Egoor, and Chaitanya Dora Surapureddy as COO, CTO, and CFO respectively, but Wikipedia only names Sanjay Srikanth Nekkanti as founder. Total funding amounts raised in December 2019 (\u20b95 crore) and October 2021 (\u20b922 crore) are documented but cumulative total in standard currency format cannot be verified. Company is private but no Series stage information found in sources."
+    },
+    {
+      "name": "Netrasemi",
+      "current": {
+        "name": "Netrasemi",
+        "founder": "N. Jayakumar",
+        "location": "Thiruvananthapuram, India",
+        "founded": 2021,
+        "fundingStage": "Series A",
+        "totalRaised": "\u20b9107 Cr (~$13M)",
+        "website": null
+      },
+      "verified": {
+        "name": "Netrasemi",
+        "description": "Fabless semiconductor company designing Edge AI System-on-Chips (SoCs) for applications including surveillance, robotics, and industrial automation.",
+        "founders": [
+          "Jyothis Indirabhai",
+          "Deepa Geetha",
+          "Sreejith Varma"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://netrasemi.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Three co-founders identified from company About page (Jyothis Indirabhai as CEO & Co-Founder, Deepa Geetha as COO & Co-Founder, Sreejith Varma as CTO & Co-Founder). Database entry references \u20b9107 Cr Series A funding, N. Jayakumar as founder, Thiruvananthapuram location, and 2021 founding date, but none of these details appear in provided sources. Location cannot be verified from sources provided."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "N. Jayakumar",
+          "verified": "Jyothis Indirabhai, Deepa Geetha, Sreejith Varma",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://netrasemi.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://netrasemi.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://netrasemi.com/about"
+        }
+      ],
+      "notes": "Three co-founders identified from company About page (Jyothis Indirabhai as CEO & Co-Founder, Deepa Geetha as COO & Co-Founder, Sreejith Varma as CTO & Co-Founder). Database entry references \u20b9107 Cr Series A funding, N. Jayakumar as founder, Thiruvananthapuram location, and 2021 founding date, but none of these details appear in provided sources. Location cannot be verified from sources provided."
+    },
+    {
+      "name": "Sarla Aviation",
+      "current": {
+        "name": "Sarla Aviation",
+        "founder": "Rakesh Gaonkar, Adrian Schmidt",
+        "location": "Bengaluru, India",
+        "founded": 2023,
+        "fundingStage": "Series A",
+        "totalRaised": "$10M",
+        "website": null
+      },
+      "verified": {
+        "name": "Sarla Aviation",
+        "description": "Indian aerospace company developing electric vertical takeoff and landing (eVTOL) aircraft for urban air mobility. The company is building the Shunya eVTOL aircraft, a six-passenger design intended for urban air taxi services.",
+        "founders": [
+          "Adrian Schmidt",
+          "Rakesh Gaonkar"
+        ],
+        "location": "Bengaluru, India",
+        "founded_year": 2023,
+        "current_stage": "Series A",
+        "total_raised": "$13M",
+        "valuation": null,
+        "investors": [
+          "Accel",
+          "Nikhil Kamath",
+          "Binny Bansal"
+        ],
+        "website": "https://www.sarla-aviation.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Founded October 2023. Total raised of $13M from pre-seed, seed, and Series A rounds per Wikipedia. Company named after Sarla Thakral, India's first female pilot. Half-scale demonstrator (SYLLA SYL-X1) began ground testing December 2025. Full-scale Shunya prototype unveiled January 2025."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$10M",
+          "verified": "$13M",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://www.sarla-aviation.com",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Accel",
+            "Nikhil Kamath",
+            "Binny Bansal"
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://sarla-aviation.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://sarla-aviation.com/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sarla_Aviation"
+        }
+      ],
+      "notes": "Founded October 2023. Total raised of $13M from pre-seed, seed, and Series A rounds per Wikipedia. Company named after Sarla Thakral, India's first female pilot. Half-scale demonstrator (SYLLA SYL-X1) began ground testing December 2025. Full-scale Shunya prototype unveiled January 2025."
+    },
+    {
+      "name": "Hypersonix Launch Systems",
+      "current": {
+        "name": "Hypersonix Launch Systems",
+        "founder": "David Waterhouse, Michael Smart",
+        "location": "Brisbane, Australia",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "$46M",
+        "website": null
+      },
+      "verified": {
+        "name": "Hypersonix Launch Systems",
+        "description": "Australian aerospace company developing hydrogen-fuelled 3D-printed scramjet propulsion technology and hypersonic flight vehicles for defence and aerospace applications.",
+        "founders": [
+          "Michael Smart",
+          "David Waterhouse"
+        ],
+        "location": "Brisbane, Queensland, Australia",
+        "founded_year": 2019,
+        "current_stage": "Series A",
+        "total_raised": "$46M AUD",
+        "valuation": null,
+        "investors": [
+          "High Tor Capital",
+          "Saab",
+          "RKKVC",
+          "National Reconstruction Fund Corporation",
+          "Queensland Investment Corporation"
+        ],
+        "website": "https://hypersonix.com.au",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded December 2019. Series A funding raised in 2025. DART AE vehicle developed for DIU HyCAT program and UK MoD HTCDF framework. Technology includes SPARTAN scramjet engine (3D-printed, hydrogen-fuelled) and multiple vehicle platforms (DART AE, VISR, Delta Velos)."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Brisbane, Australia",
+          "verified": "Brisbane, Queensland, Australia",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$46M",
+          "verified": "$46M AUD",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://hypersonix.com.au",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "High Tor Capital",
+            "Saab",
+            "RKKVC",
+            "National Reconstruction Fund Corporation",
+            "Queensland Investment Corporation"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hypersonix_Launch_Systems"
+        }
+      ],
+      "notes": "Founded December 2019. Series A funding raised in 2025. DART AE vehicle developed for DIU HyCAT program and UK MoD HTCDF framework. Technology includes SPARTAN scramjet engine (3D-printed, hydrogen-fuelled) and multiple vehicle platforms (DART AE, VISR, Delta Velos)."
+    },
+    {
+      "name": "Gilmour Space Technologies",
+      "current": {
+        "name": "Gilmour Space Technologies",
+        "founder": "Adam Gilmour, James Gilmour",
+        "location": "Gold Coast, Australia",
+        "founded": 2013,
+        "fundingStage": "Series D",
+        "totalRaised": "~A$100M",
+        "website": null
+      },
+      "verified": {
+        "name": "Gilmour Space Technologies",
+        "description": "Australian aerospace company developing hybrid-propellant rocket engines and Eris orbital launch vehicles for small satellite deployment. The company's Eris Block 1 rocket failed 14 seconds after liftoff on 30 July 2025 from Bowen Orbital Spaceport.",
+        "founders": [
+          "Adam Gilmour",
+          "James Gilmour"
+        ],
+        "location": "Yatala, Queensland, Australia",
+        "founded_year": 2013,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Blackbird Ventures",
+          "Main Sequence Ventures",
+          "Fine Structure Ventures",
+          "500 Startups",
+          "Queensland Investment Corporation",
+          "Hostplus",
+          "HESTA",
+          "NGS Super"
+        ],
+        "website": "https://www.gspace.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia states company was 'founded in 2012' in one location but 'founded in Australia 2013' in the Founding section; using 2013 as the explicit year in the Founding section. Current stage cannot be verified from sources. Total raised amount in AUD cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Gold Coast, Australia",
+          "verified": "Yatala, Queensland, Australia",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://www.gspace.com",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Blackbird Ventures",
+            "Main Sequence Ventures",
+            "Fine Structure Ventures",
+            "500 Startups",
+            "Queensland Investment Corporation",
+            "Hostplus",
+            "HESTA",
+            "NGS Super"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gilmour_Space_Technologies"
+        }
+      ],
+      "notes": "Wikipedia states company was 'founded in 2012' in one location but 'founded in Australia 2013' in the Founding section; using 2013 as the explicit year in the Founding section. Current stage cannot be verified from sources. Total raised amount in AUD cannot be verified from provided sources."
+    },
+    {
+      "name": "Silicon Quantum Computing",
+      "current": {
+        "name": "Silicon Quantum Computing",
+        "founder": "Michelle Simmons",
+        "location": "Sydney, Australia",
+        "founded": 2017,
+        "fundingStage": "Series A",
+        "totalRaised": "A$50.4M",
+        "website": null
+      },
+      "verified": {
+        "name": "Silicon Quantum Computing",
+        "description": "Australian quantum computing company that develops quantum computers and analogue quantum devices using phosphorus atoms manufactured within silicon using scanning tunnelling microscopes. The company manufactures quantum computing chips with sub-nanometre precision at their Sydney headquarters.",
+        "founders": [
+          "Michelle Simmons"
+        ],
+        "location": "Sydney, Australia",
+        "founded_year": 2017,
+        "current_stage": null,
+        "total_raised": "A$83M",
+        "valuation": null,
+        "investors": [
+          "Australian Federal Government",
+          "New South Wales Government",
+          "University of New South Wales",
+          "Telstra",
+          "Commonwealth Bank of Australia"
+        ],
+        "website": "https://sqc.com.au",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source lists A$83M raised at incorporation from government, state government, UNSW, Telstra, and CBA. Database entry references A$50.4M Series A which is not mentioned in provided source. Database entry also references DARPA Stage B contract November 2025 which is not mentioned in provided source. Current stage cannot be verified from provided source."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "A$50.4M",
+          "verified": "A$83M",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://sqc.com.au",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Australian Federal Government",
+            "New South Wales Government",
+            "University of New South Wales",
+            "Telstra",
+            "Commonwealth Bank of Australia"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing"
+        }
+      ],
+      "notes": "Wikipedia source lists A$83M raised at incorporation from government, state government, UNSW, Telstra, and CBA. Database entry references A$50.4M Series A which is not mentioned in provided source. Database entry also references DARPA Stage B contract November 2025 which is not mentioned in provided source. Current stage cannot be verified from provided source."
+    },
+    {
+      "name": "Greenroom Robotics",
+      "current": {
+        "name": "Greenroom Robotics",
+        "founder": "Harry Hubbert",
+        "location": "Fremantle, Australia",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "Undisclosed",
+        "website": null
+      },
+      "verified": {
+        "name": "Greenroom Robotics",
+        "description": "AI and robotics software company developing maritime autonomy and AI tools including GAMA (autonomous vessel software), Lookout+ (AI optical radar), MarOps (maritime operations system), and MIS-SIM (mission simulator) for vessel operations up to 100m.",
+        "founders": null,
+        "location": "Fremantle, Australia",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://greenroomrobotics.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Sources mention founders 'first met at Australian Maritime College' and company is 'Australian owned and Veteran operated' but do not explicitly name specific founders by full name. Founded year not stated in sources despite database entry showing 2019. No funding information, valuation, investors, or current stage disclosed in provided sources. Bureau Veritas granted Approval in Principle to GAMA software (Feb 2026). Lookout+ completed trial in Arnhem Marine Park (Feb 2026)."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://greenroomrobotics.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://greenroomrobotics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://greenroomrobotics.com/about"
+        }
+      ],
+      "notes": "Sources mention founders 'first met at Australian Maritime College' and company is 'Australian owned and Veteran operated' but do not explicitly name specific founders by full name. Founded year not stated in sources despite database entry showing 2019. No funding information, valuation, investors, or current stage disclosed in provided sources. Bureau Veritas granted Approval in Principle to GAMA software (Feb 2026). Lookout+ completed trial in Arnhem Marine Park (Feb 2026)."
+    },
+    {
+      "name": "Cortical Labs",
+      "current": {
+        "name": "Cortical Labs",
+        "founder": "Hon Weng Chong, Andy Kitchen",
+        "location": "Melbourne, Australia",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "$11M",
+        "website": null
+      },
+      "verified": {
+        "name": "Cortical Labs",
+        "description": "Australian biotechnology company that develops biological computing systems by integrating lab-grown neurons with silicon hardware. The company launched the CL1, described as the world's first commercially available biological computer, in 2025.",
+        "founders": [
+          "Hon Weng Chong",
+          "Andy Kitchen"
+        ],
+        "location": "Melbourne, Australia",
+        "founded_year": 2019,
+        "current_stage": "Series A",
+        "total_raised": "$11.62M",
+        "valuation": null,
+        "investors": [
+          "Blackbird Ventures",
+          "January Capital",
+          "Horizons Ventures",
+          "LifeX Ventures",
+          "Radar Ventures",
+          "In-Q-Tel"
+        ],
+        "website": "https://corticallabs.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Database entry lists 'Andy Kitchen' as founder but Wikipedia identifies him as 'Co-founder Andy Kitchen' and lists both Hon Weng Chong and Andy Kitchen as founders. Total raised calculation: June 2019 seed round of US$1.62M + April 2023 Series A round of US$10M = US$11.62M. Current stage inferred as 'Series A' based on April 2023 funding round description as 'Series A' funding in database entry, but not explicitly stated in sources."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$11M",
+          "verified": "$11.62M",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://corticallabs.com",
+          "sources": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Blackbird Ventures",
+            "January Capital",
+            "Horizons Ventures",
+            "LifeX Ventures",
+            "Radar Ventures",
+            "In-Q-Tel"
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://corticallabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://corticallabs.com/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cortical_Labs"
+        }
+      ],
+      "notes": "Database entry lists 'Andy Kitchen' as founder but Wikipedia identifies him as 'Co-founder Andy Kitchen' and lists both Hon Weng Chong and Andy Kitchen as founders. Total raised calculation: June 2019 seed round of US$1.62M + April 2023 Series A round of US$10M = US$11.62M. Current stage inferred as 'Series A' based on April 2023 funding round description as 'Series A' funding in database entry, but not explicitly stated in sources."
+    },
+    {
+      "name": "Qedma",
+      "current": {
+        "name": "Qedma",
+        "founder": "Asif Sinay, Netanel Lindner, Dorit Aharonov",
+        "location": "Tel Aviv, Israel",
+        "founded": 2020,
+        "fundingStage": "Series A",
+        "totalRaised": "$26M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Qedma",
+        "description": "Software company that develops error-handling solutions for quantum computers, including error suppression/mitigation (QESEM) and characterization software for quantum processors.",
+        "founders": [
+          "Asif Sinay",
+          "Dorit Aharonov",
+          "Netanel Lindner"
+        ],
+        "location": "Tel Aviv, Israel",
+        "founded_year": null,
+        "current_stage": "Series A",
+        "total_raised": "$26M",
+        "valuation": null,
+        "investors": [
+          "Glilot+",
+          "IBM",
+          "Korea Investment Partners"
+        ],
+        "website": "https://qedma.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source [2] is about Kedma (a youth village in Israel), not the company Qedma, and is not used for verification. Founded year not explicitly stated in sources despite database entry claiming 2020. CSO is Prof. Dorit Aharonov; CTO is Prof. Netanel Lindner."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://qedma.com",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Glilot+",
+            "IBM",
+            "Korea Investment Partners"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://qedma.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://qedma.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qedma"
+        }
+      ],
+      "notes": "Wikipedia source [2] is about Kedma (a youth village in Israel), not the company Qedma, and is not used for verification. Founded year not explicitly stated in sources despite database entry claiming 2020. CSO is Prof. Dorit Aharonov; CTO is Prof. Netanel Lindner."
+    },
+    {
+      "name": "Majestic Labs",
+      "current": {
+        "name": "Majestic Labs",
+        "founder": "Ofer Shacham, Sha Rabii, Masumi Reynders",
+        "location": "Tel Aviv, Israel",
+        "founded": 2024,
+        "fundingStage": "Series A",
+        "totalRaised": "$100M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Majestic Labs",
+        "description": "Engineering solutions company specializing in robotic solutions including PCB design, mechanical engineering, embedded systems, LED lighting, and custom BLE solutions.",
+        "founders": [
+          "Craig Cheney"
+        ],
+        "location": "Somerville, MA, USA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://majesticlabs.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "The sources provided describe a robotics/engineering consulting firm based in Somerville, MA. This appears to be a different company than the database entry describes (which references AI server architecture, founders Ofer Shacham/Sha Rabii/Masumi Reynders, Tel Aviv location, and Series A funding). The provided sources contain no information about AI accelerators, memory interfaces, $100M+ funding, or the founders listed in the database entry."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Ofer Shacham, Sha Rabii, Masumi Reynders",
+          "verified": "Craig Cheney",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Tel Aviv, Israel",
+          "verified": "Somerville, MA, USA",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://majesticlabs.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://majesticlabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://majesticlabs.com/about"
+        }
+      ],
+      "notes": "The sources provided describe a robotics/engineering consulting firm based in Somerville, MA. This appears to be a different company than the database entry describes (which references AI server architecture, founders Ofer Shacham/Sha Rabii/Masumi Reynders, Tel Aviv location, and Series A funding). The provided sources contain no information about AI accelerators, memory interfaces, $100M+ funding, or the founders listed in the database entry."
+    },
+    {
+      "name": "H2Pro",
+      "current": {
+        "name": "H2Pro",
+        "founder": "Talia Gomez Atzmon, Hen Dotan, Avner Rothschild, Gideon Grader",
+        "location": "Caesarea, Israel",
+        "founded": 2019,
+        "fundingStage": "Series B",
+        "totalRaised": "$100M+",
+        "website": null
+      },
+      "verified": {
+        "name": "H2Pro",
+        "description": "Israeli startup developing cheaper hydrogen fuel produced by sustainable energy using Decoupled Water Electrolysis (DWE) technology that separates hydrogen and oxygen evolution reactions in time rather than space.",
+        "founders": [
+          "Gideon Grader",
+          "Avner Rothschild",
+          "Hen Dotan",
+          "Talmon Marco"
+        ],
+        "location": "Israel",
+        "founded_year": 2019,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Bill Gates",
+          "Li Ka-shing",
+          "Hyundai",
+          "ArcelorMittal"
+        ],
+        "website": "https://www.h2pro.co",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source does not specify funding stage (Series B) or total amount raised ($100M+). Leadership structure updated as of 2025: Talmon Marco transitioned from Chairman & CEO to Chairman; Tzahi Rodrig became CEO. Database entry lists 'Talia Gomez Atzmon' as founder, but Wikipedia lists 'Talmon Marco' instead\u2014this discrepancy cannot be resolved from provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Talia Gomez Atzmon, Hen Dotan, Avner Rothschild, Gideon Grader",
+          "verified": "Gideon Grader, Avner Rothschild, Hen Dotan, Talmon Marco",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Caesarea, Israel",
+          "verified": "Israel",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://www.h2pro.co",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Bill Gates",
+            "Li Ka-shing",
+            "Hyundai",
+            "ArcelorMittal"
+          ],
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/H2Pro"
+        }
+      ],
+      "notes": "Wikipedia source does not specify funding stage (Series B) or total amount raised ($100M+). Leadership structure updated as of 2025: Talmon Marco transitioned from Chairman & CEO to Chairman; Tzahi Rodrig became CEO. Database entry lists 'Talia Gomez Atzmon' as founder, but Wikipedia lists 'Talmon Marco' instead\u2014this discrepancy cannot be resolved from provided sources."
+    },
+    {
+      "name": "Addionics",
+      "current": {
+        "name": "Addionics",
+        "founder": "Moshiel Biton, Farid Tariq",
+        "location": "Tel Aviv, Israel",
+        "founded": 2017,
+        "fundingStage": "Series B",
+        "totalRaised": "$39M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Addionics",
+        "description": "Manufacturer of 3D Current Collectors for batteries that enhance performance through advanced electrode structure rather than chemical composition.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://addionics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [0] and [1] are company-controlled sources only. No third-party verification sources provided. Database entry claims founders (Moshiel Biton, Farid Tariq), location (Tel Aviv, Israel), founded year (2017), stage (Series B), and total_raised ($39M+) cannot be verified from provided sources. Founder names, location, founding year, funding stage, and amounts require independent third-party sources."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://addionics.com",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://addionics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://addionics.com/about"
+        }
+      ],
+      "notes": "Source [0] and [1] are company-controlled sources only. No third-party verification sources provided. Database entry claims founders (Moshiel Biton, Farid Tariq), location (Tel Aviv, Israel), founded year (2017), stage (Series B), and total_raised ($39M+) cannot be verified from provided sources. Founder names, location, founding year, funding stage, and amounts require independent third-party sources."
+    }
+  ],
+  "unverifiable": [
+    {
+      "name": "Dendra Systems",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Ambient Photonics",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Strand Therapeutics",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Lila Sciences",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "44.01",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "SpliceBio",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "eleQtron",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Mission Zero Technologies",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "C12 Quantum Electronics",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Jimmy Energy",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "AAVantgarde Bio",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Nara Space Technology",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Digantara",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Sagar Defence Engineering",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Newspace Research",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "GalaxEye",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Mindgrove Technologies",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Lohum Cleantech",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "The ePlane Company",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "SwarmFarm Robotics",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Sicona Battery Technologies",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Heven AeroTech",
+      "reason": "no public sources accessible"
+    }
+  ]
+}
