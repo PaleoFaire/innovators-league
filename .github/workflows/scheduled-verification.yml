@@ -204,13 +204,22 @@ jobs:
           print('✓ data.js sanity check passed')
           "
 
-          # Stage everything we may have created
-          git add data.js \
-                  data/company_facts_verification_scheduled_*.json \
-                  data/investor_facts_verification_scheduled_*.json \
-                  data/cohort_*.json \
-                  COMPANY_FACTS_VERIFICATION_REPORT_scheduled_*.md \
-                  2>/dev/null || true
+          # Stage everything we may have created.
+          # IMPORTANT: per-glob `git add` to avoid the atomic-failure bug where
+          # ONE unmatched glob (e.g., the .md report doesn't exist for
+          # investors-only runs) made `git add` fail and stage NOTHING.
+          # Each line is independent now — failures are localized.
+          git add data.js                                              2>/dev/null || true
+          git add data/company_facts_verification_scheduled_*.json     2>/dev/null || true
+          git add data/investor_facts_verification_scheduled_*.json    2>/dev/null || true
+          git add data/cohort_*.json                                   2>/dev/null || true
+          git add COMPANY_FACTS_VERIFICATION_REPORT_scheduled_*.md     2>/dev/null || true
+
+          # Defensive: if data.js was modified but somehow not staged, warn loudly.
+          if ! git diff --quiet -- data.js && git diff --staged --quiet -- data.js; then
+            echo "::warning::data.js has unstaged changes — git add failed somewhere; force-staging"
+            git add -- data.js
+          fi
 
           if git diff --staged --quiet; then
             echo "Nothing to commit"
@@ -253,12 +262,15 @@ jobs:
               python scripts/auto_apply_investors.py --suffix "scheduled_${MODE}" || \
                 echo "::warning::investor auto-apply non-zero during retry"
             fi
-            git add data.js \
-                    data/company_facts_verification_scheduled_*.json \
-                    data/investor_facts_verification_scheduled_*.json \
-                    data/cohort_*.json \
-                    COMPANY_FACTS_VERIFICATION_REPORT_scheduled_*.md \
-                    2>/dev/null || true
+            # Same per-glob pattern as initial commit (avoid atomic-failure bug)
+            git add data.js                                              2>/dev/null || true
+            git add data/company_facts_verification_scheduled_*.json     2>/dev/null || true
+            git add data/investor_facts_verification_scheduled_*.json    2>/dev/null || true
+            git add data/cohort_*.json                                   2>/dev/null || true
+            git add COMPANY_FACTS_VERIFICATION_REPORT_scheduled_*.md     2>/dev/null || true
+            if ! git diff --quiet -- data.js && git diff --staged --quiet -- data.js; then
+              git add -- data.js
+            fi
             if git diff --staged --quiet; then
               echo "Nothing to commit after re-apply — main already current"
               exit 0
