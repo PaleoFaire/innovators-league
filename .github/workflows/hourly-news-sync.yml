@@ -119,6 +119,12 @@ jobs:
           python3 scripts/fetch_basket_prices.py
         continue-on-error: true
 
+      - name: Recompute investor intelligence (concentration / momentum / pedigree)
+        # Static analysis over COMPANIES + VC_FIRMS — no external API calls,
+        # cheap to run on every hourly tick. Drives investor-intelligence.html.
+        run: python3 scripts/compute_investor_intelligence.py
+        continue-on-error: true
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Investor Intelligence · The Innovators League</title>
+    <meta name="description" content="Pattern recognition across the VC universe — momentum leaderboard, cluster specialists, founder pedigree. Surfaces 'Lux just made their 4th fusion bet' before others see it.">
+
+    <link rel="stylesheet" href="styles.css?v=20260430" />
+    <link rel="stylesheet" href="css/_tokens.css?v=20260430" />
+    <link rel="stylesheet" href="css/_components.css?v=20260430" />
+    <style>
+      .ii-section { margin: var(--space-10) 0; }
+      .ii-section__title {
+        font-size: var(--text-lg);
+        font-weight: var(--weight-semi);
+        margin: 0 0 var(--space-2);
+      }
+      .ii-section__subtitle {
+        color: var(--text-secondary);
+        font-size: var(--text-sm);
+        margin: 0 0 var(--space-5);
+      }
+
+      /* Momentum leaderboard */
+      .momentum-row {
+        display: grid;
+        grid-template-columns: 30px 2fr 1fr 1fr 1.5fr;
+        gap: var(--space-3);
+        padding: var(--space-3) var(--space-4);
+        border-bottom: 1px solid var(--border-subtle);
+        align-items: center;
+      }
+      .momentum-row__rank {
+        font-family: var(--font-mono);
+        color: var(--text-muted);
+        text-align: right;
+      }
+      .momentum-row__vc {
+        font-weight: var(--weight-semi);
+        color: var(--text-primary);
+      }
+      .momentum-row__bar {
+        height: 4px;
+        background: var(--border-subtle);
+        border-radius: 2px;
+        overflow: hidden;
+        margin-top: var(--space-1);
+      }
+      .momentum-row__bar-fill {
+        height: 100%;
+        background: linear-gradient(90deg, var(--color-primary), var(--color-primary-bright));
+      }
+      .momentum-row__cluster {
+        font-family: var(--font-mono);
+        font-size: var(--text-xs);
+        color: var(--color-primary-bright);
+      }
+      .momentum-row__metrics {
+        font-family: var(--font-mono);
+        font-size: var(--text-sm);
+        color: var(--text-secondary);
+      }
+      .momentum-row__metrics strong { color: var(--color-accent-bright); font-weight: var(--weight-semi); }
+
+      /* Specialists matrix */
+      .specialist-card {
+        margin-bottom: var(--space-2);
+        padding: var(--space-3) var(--space-4);
+      }
+      .specialist-card__cluster {
+        font-family: var(--font-mono);
+        font-size: var(--text-sm);
+        color: var(--color-primary-bright);
+        margin: 0 0 var(--space-2);
+      }
+      .specialist-card__leaders {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-2);
+      }
+      .specialist-leader {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-1);
+        padding: var(--space-1) var(--space-2);
+        background: var(--bg-card-elevated);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-sm);
+        font-size: var(--text-xs);
+      }
+      .specialist-leader strong { color: var(--text-primary); margin-right: var(--space-1); }
+      .specialist-leader__count { color: var(--text-muted); font-family: var(--font-mono); }
+      .specialist-leader__share { color: var(--color-accent-bright); font-family: var(--font-mono); }
+
+      /* Pedigree tree */
+      .pedigree-source {
+        margin-bottom: var(--space-3);
+      }
+      .pedigree-source__name {
+        font-weight: var(--weight-semi);
+        color: var(--color-primary-bright);
+        margin: 0 0 var(--space-1);
+        font-size: var(--text-md);
+      }
+      .pedigree-source__count {
+        color: var(--text-muted);
+        font-size: var(--text-xs);
+        font-family: var(--font-mono);
+      }
+      .pedigree-children {
+        display: flex; flex-wrap: wrap; gap: var(--space-2);
+        padding-left: var(--space-4);
+        border-left: 2px solid var(--border-primary);
+        margin-top: var(--space-2);
+      }
+      .pedigree-child {
+        font-size: var(--text-xs);
+        color: var(--text-secondary);
+        padding: 2px var(--space-2);
+        background: var(--bg-card);
+        border-radius: var(--radius-sm);
+      }
+      .pedigree-child strong { color: var(--text-primary); }
+    </style>
+
+    <script src="auth.js?v=20260428" defer></script>
+    <script src="analytics.js?v=20260428"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+                <div class="nav-logo">ROS</div>
+                <span class="nav-title">THE INNOVATORS LEAGUE</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Companies</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;">⚡ Terminal</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Signals <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="catalysts.html" class="nav-dropdown-link">🎯 Catalyst Calendar</a>
+                    <a href="baskets.html" class="nav-dropdown-link">💰 Public Baskets</a>
+                    <a href="brief.html" class="nav-dropdown-link">📰 Frontier Daily</a>
+                    <a href="signals.html" class="nav-dropdown-link">🔴 Proprietary Signals</a>
+                    <a href="discovery.html" class="nav-dropdown-link">🌟 Discovery Queue</a>
+                    <a href="investor-hub.html" class="nav-dropdown-link">💰 Investor Hub</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
+                    <a href="govradar.html" class="nav-dropdown-link">🎖️ Government Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">📋 Regulatory</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link">📈 Earnings Signals</a>
+                    <a href="launches.html" class="nav-dropdown-link">🛰️ Space Launches</a>
+                    <a href="alerts.html" class="nav-dropdown-link">🔔 Alerts</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Research <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="visualizations.html" class="nav-dropdown-link">📊 Insights &amp; Data Viz</a>
+                    <a href="sectors.html" class="nav-dropdown-link">🏭 Sectors</a>
+                    <a href="investors.html" class="nav-dropdown-link">💰 Investors</a>
+                    <a href="investor-intelligence.html" class="nav-dropdown-link" style="color:var(--color-primary-bright)">🕸 Investor Intelligence</a>
+                    <a href="valuations.html" class="nav-dropdown-link">📉 Valuations</a>
+                    <a href="jobs.html" class="nav-dropdown-link">💼 Talent</a>
+                    <a href="patents.html" class="nav-dropdown-link">📜 Patents</a>
+                    <a href="customers.html" class="nav-dropdown-link">👥 Customers</a>
+                    <a href="captable.html" class="nav-dropdown-link">📋 Cap Tables</a>
+                    <a href="compare.html" class="nav-dropdown-link">⚖️ Compare</a>
+                    <a href="transformation.html" class="nav-dropdown-link">🌱 Transformation</a>
+                    <a href="calendar.html" class="nav-dropdown-link">📅 Events</a>
+                    <a href="research.html" class="nav-dropdown-link">🔬 Deep Research</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <!-- Hero -->
+    <header class="il-hero" data-accent="defense">
+      <div class="il-hero__inner">
+        <div class="il-hero__eyebrow">Investor Intelligence</div>
+        <h1 class="il-hero__title">The patterns under the capital</h1>
+        <p class="il-hero__subtitle">
+          Pattern recognition across our 31-firm VC universe. <strong>DCVC just made
+          their 22nd recent bet, mostly in logistics-robotics. Lowercarbon is
+          quietly leaning into fusion. Founders Fund + a16z are both heavy in
+          autonomous defense.</strong> This page surfaces those concentrations
+          — the kind of edge that turns into front-running the next round.
+        </p>
+      </div>
+    </header>
+
+    <main style="max-width:var(--max-content-width); margin:0 auto; padding: var(--space-6) var(--gutter) var(--space-16);">
+
+        <!-- Top KPIs -->
+        <div class="il-metric-grid" id="ii-stats">
+            <div class="il-metric"><div class="il-metric__value" id="stat-vcs">—</div><div class="il-metric__label">VCs analyzed</div></div>
+            <div class="il-metric"><div class="il-metric__value" id="stat-cos">—</div><div class="il-metric__label">Companies</div></div>
+            <div class="il-metric"><div class="il-metric__value" id="stat-clusters">—</div><div class="il-metric__label">Thesis clusters</div></div>
+            <div class="il-metric"><div class="il-metric__value" id="stat-investments">—</div><div class="il-metric__label">VC investments mapped</div></div>
+        </div>
+
+        <!-- MOMENTUM LEADERBOARD -->
+        <section class="ii-section">
+            <h2 class="ii-section__title">🔥 Momentum Leaderboard</h2>
+            <p class="ii-section__subtitle">
+                Most active VCs in our DB by recent additions (since 2026-01).
+                Score = (recent count)<sup>0.6</sup> × log(1 + total) — rewards
+                consistent presence, not one-time bursts.
+            </p>
+            <div class="il-card" id="momentum-list" style="padding: 0;">
+                <div class="il-loading"></div>
+            </div>
+        </section>
+
+        <!-- CLUSTER SPECIALISTS -->
+        <section class="ii-section">
+            <h2 class="ii-section__title">🎯 Cluster Specialists</h2>
+            <p class="ii-section__subtitle">
+                For each thesis cluster, the VCs with the most exposure. The %
+                share is "how much of all tracked-VC investment in this cluster
+                this firm represents" — a measure of conviction concentration.
+            </p>
+            <div id="specialists-list">
+                <div class="il-card"><div class="il-skeleton il-skeleton--block"></div></div>
+            </div>
+        </section>
+
+        <!-- PEDIGREE -->
+        <section class="ii-section">
+            <h2 class="ii-section__title">🧬 Founder Pedigree Map</h2>
+            <p class="ii-section__subtitle">
+                Where the people came from. Companies whose founders'
+                bios mention "ex-X" / "former X" / "previously at X" / similar.
+                Reveals which orgs are spawning the most frontier-tech founders.
+            </p>
+            <div class="il-card" id="pedigree-list">
+                <div class="il-skeleton il-skeleton--block"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div style="margin-top: var(--space-12); padding-top: var(--space-6); border-top: 1px solid var(--border-default); color: var(--text-muted); font-size: var(--text-xs);">
+            Data refreshed: <span id="ii-fresh">—</span> · <a href="investors.html" style="color: var(--color-primary)">→ See the canonical investor list + co-investment graph</a>
+        </div>
+    </main>
+
+    <script src="investor-intelligence.js?v=20260430"></script>
+</body>
+</html>
