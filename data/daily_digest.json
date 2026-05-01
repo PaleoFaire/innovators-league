@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-30T23:58:31.070131+00:00",
-  "date": "2026-04-30",
-  "dateDisplay": "Thursday, April 30, 2026",
+  "generatedAt": "2026-05-01T04:07:44.589478+00:00",
+  "date": "2026-05-01",
+  "dateDisplay": "Friday, May 01, 2026",
   "sections": {
     "govActivity": [
       {
@@ -21,15 +21,6 @@
         "description": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.",
         "date": "2026-02-27",
         "url": "https://sam.gov/opp/70Z02326F93130005/view"
-      },
-      {
-        "company": "Varda Space",
-        "amount": "$4M",
-        "amount_raw": 4000000.0,
-        "agency": "Department of Defense",
-        "description": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.",
-        "date": "2026-01-30",
-        "url": "https://sam.gov/opp/FA945326FX010/view"
       },
       {
         "company": "Shield AI",
@@ -81,9 +72,9 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.04,
-        "changePercent": 25.21,
-        "change": 1.21
+        "price": 5.88,
+        "changePercent": 21.99,
+        "change": 1.06
       },
       {
         "ticker": "IDEAFORGE.NS",
@@ -95,9 +86,9 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 352.87,
-        "changePercent": 15.57,
-        "change": 47.54
+        "price": 354.49,
+        "changePercent": 16.1,
+        "change": 49.16
       },
       {
         "ticker": "ASRHF",
@@ -114,25 +105,25 @@
         "change": 64000.0
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 25.11,
-        "changePercent": -8.89,
-        "change": -2.45
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 23.26,
-        "changePercent": -8.17,
-        "change": -2.07
-      },
-      {
         "ticker": "JOBY",
         "company": "Joby Aviation",
-        "price": 9.11,
-        "changePercent": 7.3,
-        "change": 0.62
+        "price": 9.19,
+        "changePercent": 8.24,
+        "change": 0.7
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 25.35,
+        "changePercent": -8.02,
+        "change": -2.21
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 55.48,
+        "changePercent": 7.85,
+        "change": 4.04
       }
     ],
     "regulatory": [
@@ -219,10 +210,10 @@
     ]
   },
   "stats": {
-    "contractCount": 8,
+    "contractCount": 7,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR +25.2%"
+    "topMover": "AUR +22.0%"
   }
 }
