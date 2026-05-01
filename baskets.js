@@ -142,7 +142,8 @@
             <h4 class="basket-watchlist__title">Pre-IPO watchlist (private companies in our DB that may join)</h4>
             ${basket.watchlist.map(w => `
               <div class="basket-watchlist__item">
-                <strong>${escapeHtml(w.dbName)}</strong> — ${escapeHtml(w.expectedIPO)} · ${escapeHtml(w.note || '')}
+                <a href="company.html?c=${encodeURIComponent(w.dbName)}" style="color: var(--text-primary); font-weight: var(--weight-medium); text-decoration: none; border-bottom: 1px dotted var(--border-default);">${escapeHtml(w.dbName)}</a>
+                — ${escapeHtml(w.expectedIPO)} · ${escapeHtml(w.note || '')}
               </div>
             `).join('')}
           </div>

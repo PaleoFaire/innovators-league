@@ -309,6 +309,7 @@
     renderContracts(company);
     renderHiringTrend(company);
     renderMilestones(company);
+    renderCatalystsAhead(company);
     renderRevenueIntel(company);
   }
 
@@ -534,6 +535,56 @@
         </div>
       </div>
     `).join('');
+  }
+
+  // Pull this company's upcoming events from the unified Catalyst Calendar
+  // feed (data/catalyst_calendar.json — refreshed hourly by the cron).
+  // Displayed beneath Product Milestones for forward-looking visibility.
+  function renderCatalystsAhead(company) {
+    const card = document.getElementById('catalysts-ahead-card');
+    const list = document.getElementById('catalysts-ahead-list');
+    if (!card || !list || !company) return;
+
+    fetch('data/catalyst_calendar.json?v=' + Date.now(), { cache: 'no-store' })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((feed) => {
+        if (!feed || !Array.isArray(feed.events)) return;
+        const cname = (company.name || '').toLowerCase();
+        // Match by exact company name or sub-string in title
+        const events = feed.events
+          .filter((e) => {
+            if (e.daysOut == null || e.daysOut < 0) return false;  // future only
+            const cos = (e.companies || []).map((c) => (c || '').toLowerCase());
+            if (cos.includes(cname)) return true;
+            return (e.title || '').toLowerCase().includes(cname);
+          })
+          .slice(0, 5);
+
+        if (!events.length) return;   // keep card hidden
+
+        const html = events.map((e) => {
+          const dColor =
+            e.importance === 'urgent' ? '#ef4444' :
+            e.importance === 'high'   ? '#ff8147' :
+            e.importance === 'medium' ? '#22c55e' : '#6b7280';
+          const dayLabel =
+            e.daysOut === 0 ? 'today' :
+            e.daysOut === 1 ? 'tomorrow' :
+            'in ' + e.daysOut + ' days';
+          return `
+            <div style="display:flex; gap:12px; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+              <div style="width:6px; height:6px; border-radius:50%; background:${dColor}; margin-top:6px; flex-shrink:0;"></div>
+              <div style="flex:1; min-width:0;">
+                <div style="font-size:11px; color:#9ca3af; font-family:monospace;">${escapeHtml(e.date)} · ${dayLabel}</div>
+                <div style="font-size:13px; color:#f0f0fa; margin-top:2px;">${escapeHtml(e.title)}</div>
+                <div style="font-size:11px; color:#6b7280; margin-top:2px;">${escapeHtml(e.source || '')}</div>
+              </div>
+            </div>`;
+        }).join('');
+        list.innerHTML = html;
+        card.style.display = '';
+      })
+      .catch(() => { /* network error — leave card hidden */ });
   }
 
   function renderRevenueIntel(company) {
