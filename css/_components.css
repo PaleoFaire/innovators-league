@@ -353,6 +353,64 @@
 }
 
 
+/* ═══ SUB-NAV (cluster pages) ═════════════════════════════════════════
+   Horizontal pill strip placed just below .il-hero to navigate between
+   related pages within a cluster (e.g. all Capital pages, all Calendar
+   pages). Mobile-friendly, scrolls horizontally if needed. */
+
+.il-subnav {
+  position: relative;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.il-subnav__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: var(--space-3) var(--gutter);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.il-subnav__inner::-webkit-scrollbar { display: none; }
+
+.il-subnav__label {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-weight: var(--weight-medium);
+  flex-shrink: 0;
+}
+
+.il-subnav__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+}
+.il-subnav__link:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+.il-subnav__link[aria-current="page"] {
+  background: rgba(34, 197, 94, 0.12);
+  border-color: var(--color-primary);
+  color: var(--color-primary-bright);
+  font-weight: var(--weight-medium);
+}
+
+
 /* ═══ EMPTY STATE ═════════════════════════════════════════════════════ */
 
 .il-empty-state {
