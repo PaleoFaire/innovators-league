@@ -103,6 +103,13 @@ jobs:
         run: python3 scripts/generate_daily_digest.py
         continue-on-error: true
 
+      - name: Refresh unified Catalyst Calendar
+        # Aggregates every dated-event source (FDA, FAA, NRC, FCC, clinical
+        # trials, SBIR, Form D, earnings, conferences) into a single feed
+        # consumed by catalysts.html. Runs every hour after news sync.
+        run: python3 scripts/build_unified_calendar.py --past-days 365 --future-days 730
+        continue-on-error: true
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"
