@@ -270,6 +270,47 @@
             </div>
         </section>
 
+        <!-- CAPITAL FLOW TEMPORAL HEATMAP -->
+        <section class="ii-section">
+            <h2 class="ii-section__title">🌊 Capital Flow — Quarter × Thesis Cluster</h2>
+            <p class="ii-section__subtitle">
+                Dated capital deployment into our 870-company universe. Cell
+                intensity = deal count that quarter. Click a cell to see the
+                companies + their (current) investors.
+            </p>
+
+            <!-- ACCURACY CAVEATS — prominent, transparent -->
+            <div class="il-card il-card--warning" style="margin-bottom: var(--space-4); font-size: var(--text-sm);">
+                <strong style="color: var(--color-warning);">⚠ Data caveats —</strong>
+                <span style="color: var(--text-secondary);">
+                only ~120 of 870 companies have dated funding events on file
+                (Form D filings cover the last 60 days; recentEvent.date covers
+                the most-recent round per curator-tagged company). Investor
+                attribution is best-effort — current investors[] is a proxy
+                for round participants, not ground truth. <strong>Not all of
+                our universe shows up here. What you see is a directional
+                signal, not a complete capital map.</strong>
+                </span>
+            </div>
+
+            <div id="capital-flow-controls" class="il-row il-row--gap-3 il-row--wrap" style="margin-bottom: var(--space-3); font-size: var(--text-sm);">
+                <span class="il-text-uppercase il-text-xs il-text-muted">Show top</span>
+                <select id="cf-cluster-limit" class="il-filter-bar select" style="background: var(--bg-input); border: 1px solid var(--border-default); border-radius: var(--radius-sm); color: var(--text-primary); padding: 4px 8px;">
+                    <option value="10">10 clusters</option>
+                    <option value="20" selected>20 clusters</option>
+                    <option value="50">50 clusters</option>
+                    <option value="0">all clusters</option>
+                </select>
+            </div>
+
+            <div class="il-card" id="capital-flow-heatmap" style="overflow-x: auto;">
+                <div class="il-skeleton il-skeleton--block"></div>
+            </div>
+
+            <!-- Drilldown panel -->
+            <div id="cf-drilldown" class="il-card" style="display: none; margin-top: var(--space-3);"></div>
+        </section>
+
         <!-- PEDIGREE -->
         <section class="ii-section">
             <h2 class="ii-section__title">🧬 Founder Pedigree Map</h2>

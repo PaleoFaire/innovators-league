@@ -125,6 +125,19 @@ jobs:
         run: python3 scripts/compute_investor_intelligence.py
         continue-on-error: true
 
+      - name: Recompute capital flow temporal (quarter × thesis cluster)
+        # Aggregates dated funding events from Form D + recentEvent.date.
+        # Drives the heatmap section on investor-intelligence.html.
+        run: python3 scripts/compute_capital_flow.py
+        continue-on-error: true
+
+      - name: Re-chunk comp_sets per company (lazy-load support)
+        # Splits the 6.5 MB comp_sets_auto.js blob into per-company JSON
+        # chunks at data/comp_sets/<slug>.json so company profiles only
+        # download ~6 KB instead of 6.5 MB.
+        run: python3 scripts/chunk_comp_sets.py
+        continue-on-error: true
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"

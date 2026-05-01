@@ -1,0 +1,1456 @@
+{
+  "generatedAt": "2026-05-01T05:01:31+00:00",
+  "matrix": {
+    "medical-devices-surgical": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 5101500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Andromeda Surgical",
+            "amount": 104500,
+            "date": "2026-04-29",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "Cresilon",
+            "amount": 4997000,
+            "date": "2026-04-29",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-foundation-models": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 5745000,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Anthropic",
+            "amount": 5745000,
+            "date": "2026-04-29",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "OpenAI",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": [
+              "Microsoft",
+              "Reid Hoffman",
+              "Jessica Livingston",
+              "Peter Thiel",
+              "Amazon Web Services",
+              "Infosys"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Groq",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": [
+              "Social Capital",
+              "Tiger Global Management",
+              "D1 Capital Partners",
+              "Infinitum",
+              "The Spruce House Partnership",
+              "Addition",
+              "GCM Grosvenor",
+              "X\u207f",
+              "Firebolt Ventures",
+              "General Global Capital"
+            ]
+          }
+        ],
+        "investors": [
+          "D1 Capital Partners"
+        ]
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Hugging Face",
+            "amount": null,
+            "date": "2026-01",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "data-center-infrastructure": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 288482,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Armada",
+            "amount": 288482,
+            "date": "2026-04-29",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomous-logistics": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 349220,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Natilus",
+            "amount": 349220,
+            "date": "2026-04-28",
+            "source": "formd",
+            "investors": [
+              "Tim Draper",
+              "Starburst Ventures",
+              "Seraph Group",
+              "Gelt VC",
+              "Outpost Capital",
+              "Draper Associates"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "logistics-supply-chain": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 21521376,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Outrider",
+            "amount": 21521376,
+            "date": "2026-04-28",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "space-launch-large": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 1484975,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "SpaceX",
+            "amount": 1484975,
+            "date": "2026-04-28",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Rocket Lab",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Khosla Ventures",
+              "Bessemer Venture Partners",
+              "Lockheed Martin",
+              "Data Collective",
+              "Promus Ventures",
+              "Future Fund"
+            ]
+          }
+        ],
+        "investors": [
+          "DCVC (Data Collective)",
+          "Khosla Ventures"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Relativity Space",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Baillie Gifford",
+              "Blackrock",
+              "BOND",
+              "Coatue",
+              "Fidelity",
+              "General Catalyst",
+              "ICONIQ Capital",
+              "K5 Global",
+              "Mark Cuban",
+              "Playground Global"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst",
+          "Playground Global"
+        ]
+      }
+    },
+    "defense-ew-rf-cyber": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 1050000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Picogrid",
+            "amount": 1050000,
+            "date": "2026-04-28",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "nuclear-microreactor": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Antares",
+            "amount": 0,
+            "date": "2026-04-27",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Radiant",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomy-drone-military": {
+      "2026-Q1": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Anduril Industries",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": [
+              "Founders Fund",
+              "Andreessen Horowitz",
+              "General Catalyst",
+              "8VC",
+              "Lux Capital",
+              "Valor Equity Partners",
+              "D1 Capital Partners"
+            ]
+          },
+          {
+            "name": "Shield AI",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Breyer Capital",
+              "Silicon Valley Bank",
+              "U.S. Innovation Technology Fund (USIT)",
+              "Riot Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "8VC",
+          "D1 Capital Partners",
+          "Founders Fund",
+          "General Catalyst",
+          "Lux Capital",
+          "Riot Ventures",
+          "Valor Equity Partners",
+          "a16z (Andreessen Horowitz)"
+        ]
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Skydio",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Linse Capital",
+              "Next47",
+              "IVP",
+              "DoCoMo",
+              "Nvidia",
+              "Lockheed Martin",
+              "Walton Family Foundation",
+              "UP.Partners",
+              "Hercules Capital"
+            ]
+          }
+        ],
+        "investors": [
+          "a16z (Andreessen Horowitz)"
+        ]
+      },
+      "2025-Q4": {
+        "deals": 3,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 3,
+        "companies": [
+          {
+            "name": "DroneForge",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "FlyBy Robotics",
+            "amount": null,
+            "date": "2025-11",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "Swift Beat",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "Eric Schmidt"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomy-counter-drone": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Epirus",
+            "amount": null,
+            "date": "2026-01",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomy-maritime": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Saronic",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "defense-munitions-energetics": {
+      "2025-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Allen Control Systems",
+            "amount": null,
+            "date": "2025-03",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "nuclear-services-fuel": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Standard Nuclear",
+            "amount": null,
+            "date": "2026-01",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Deep Isolation",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "space-ground-comms": {
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Astranis",
+            "amount": null,
+            "date": "2025-07",
+            "source": "recentEvent",
+            "investors": [
+              "BlackRock",
+              "Venrock",
+              "Andreessen Horowitz"
+            ]
+          }
+        ],
+        "investors": [
+          "a16z (Andreessen Horowitz)"
+        ]
+      }
+    },
+    "supersonic-hypersonic-transport": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Boom Supersonic",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": [
+              "Y Combinator",
+              "Sam Altman",
+              "Paul Graham",
+              "Alex Gerko",
+              "Michael Moritz",
+              "Bessemer Venture Partners",
+              "Seraph Group",
+              "Continuity Fund",
+              "RRE Ventures",
+              "Palm Drive Ventures"
+            ]
+          },
+          {
+            "name": "Hermeus",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": [
+              "Khosla Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Khosla Ventures"
+        ]
+      },
+      "2024-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Astro Mechanica",
+            "amount": null,
+            "date": "2024-03",
+            "source": "recentEvent",
+            "investors": [
+              "Pioneer Fund",
+              "Alumni Ventures",
+              "a16z",
+              "Lowercarbon Capital",
+              "United Airlines"
+            ]
+          }
+        ],
+        "investors": [
+          "Alumni Ventures",
+          "Lowercarbon Capital",
+          "a16z (Andreessen Horowitz)"
+        ]
+      }
+    },
+    "ai-robotics-embodied": {
+      "2026-Q1": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Physical Intelligence",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "Skild AI",
+            "amount": null,
+            "date": "2026-01",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-autonomous-driving": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Waymo",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "humanoid-robotics": {
+      "2025-Q4": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          },
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "brain-computer-interface": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Neuralink",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-saas-enterprise": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Palantir",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": [
+              "In-Q-Tel",
+              "Oakhouse Partners",
+              "REV"
+            ]
+          }
+        ],
+        "investors": [
+          "In-Q-Tel"
+        ]
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Databricks",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-code-generation": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Cognition",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Anysphere",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": [
+              "Accel",
+              "Coatue Management",
+              "Google",
+              "Nvidia",
+              "Thrive Capital",
+              "OpenAI Startup Fund"
+            ]
+          }
+        ],
+        "investors": [
+          "Thrive Capital"
+        ]
+      }
+    },
+    "manufacturing-reshoring": {
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Hadrian",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "fusion-magnetic-confinement": {
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Helion",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-hardware-inference": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Cerebras",
+            "amount": null,
+            "date": "2026-01",
+            "source": "recentEvent",
+            "investors": [
+              "Sam Altman",
+              "Andy Bechtolsheim",
+              "Greg Brockman",
+              "Adam D'Angelo",
+              "Mark Leslie",
+              "Nick McKeown",
+              "David Perlmutter",
+              "Saiyed Atiq Raza",
+              "Jeff Rothschild",
+              "Pradeep Sindhu"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-computer-vision-sensing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Scale AI",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": [
+              "Meta Platforms",
+              "Dragoneer Investment Group",
+              "Tiger Global Management",
+              "Index Ventures",
+              "Greenoaks",
+              "Accel",
+              "Amazon"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "AiDash",
+            "amount": null,
+            "date": "2025-01",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Pano AI",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "fusion-inertial-laser": {
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Pacific Fusion",
+            "amount": null,
+            "date": "2025-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-generative-media": {
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "ElevenLabs",
+            "amount": null,
+            "date": "2025-11",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Sequoia Capital",
+              "ICONIQ Growth",
+              "NEA",
+              "World Innovation Lab",
+              "Valor",
+              "Endeavor Catalyst Fund",
+              "Lunate",
+              "Deutsche Telekom",
+              "LG Technology Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Sequoia Capital",
+          "a16z (Andreessen Horowitz)"
+        ]
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Gladia",
+            "amount": null,
+            "date": "2025-07",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "robotics-cobots-warehouse": {
+      "2025-Q3": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Gecko Robotics",
+            "amount": null,
+            "date": "2025-07",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "RIOS Intelligent Machines",
+            "amount": null,
+            "date": "2025-07",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "RobCo",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q2": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "GrayMatter Robotics",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "Collaborative Robotics",
+            "amount": null,
+            "date": "2025-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Orangewood Labs",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomy-delivery-logistics": {
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Dronamics",
+            "amount": null,
+            "date": "2025-09",
+            "source": "recentEvent",
+            "investors": [
+              "European Innovation Council",
+              "Asia Air Survey"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "construction-modular": {
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Monumental",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "robotics-agriculture": {
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Na\u00efo Technologies",
+            "amount": null,
+            "date": "2025-09",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "robotics-construction-mining": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Bedrock Robotics",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "additive-manufacturing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Orbital Composites",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "biotech-lab-automation": {
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Trilobio",
+            "amount": null,
+            "date": "2025-05",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "space-lunar-planetary": {
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Starpath Robotics",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-defense-intelligence": {
+      "2024-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Parry Labs",
+            "amount": null,
+            "date": "2024-12",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-chips-edge": {
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Mythic",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "DCVC",
+              "Atreides Management",
+              "Future Ventures",
+              "S3 Ventures",
+              "NEA",
+              "SBVA"
+            ]
+          }
+        ],
+        "investors": [
+          "DCVC (Data Collective)",
+          "Future Ventures"
+        ]
+      }
+    },
+    "ai-chips-inference": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Positron AI",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "industrial-decarb": {
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Electra",
+            "amount": null,
+            "date": "2025-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    }
+  },
+  "vcAttribution": {
+    "Founders Fund": {
+      "2026-Q1": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "a16z (Andreessen Horowitz)": {
+      "2026-Q1": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q3": [
+        {
+          "company": "Skydio",
+          "cluster": "autonomy-drone-military",
+          "date": "2025-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Astranis",
+          "cluster": "space-ground-comms",
+          "date": "2025-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "ElevenLabs",
+          "cluster": "ai-generative-media",
+          "date": "2025-11",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "General Catalyst": {
+      "2026-Q1": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Relativity Space",
+          "cluster": "space-launch-large",
+          "date": "2025-06",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "8VC": {
+      "2026-Q1": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Lux Capital": {
+      "2026-Q1": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Valor Equity Partners": {
+      "2026-Q1": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "D1 Capital Partners": {
+      "2026-Q1": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q3": [
+        {
+          "company": "Groq",
+          "cluster": "ai-foundation-models",
+          "date": "2025-08",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Riot Ventures": {
+      "2026-Q1": [
+        {
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Khosla Ventures": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "DCVC (Data Collective)": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Mythic",
+          "cluster": "ai-chips-edge",
+          "date": "2025-12",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Playground Global": {
+      "2025-Q2": [
+        {
+          "company": "Relativity Space",
+          "cluster": "space-launch-large",
+          "date": "2025-06",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Alumni Ventures": {
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Lowercarbon Capital": {
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "In-Q-Tel": {
+      "2026-Q2": [
+        {
+          "company": "Palantir",
+          "cluster": "ai-saas-enterprise",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Thrive Capital": {
+      "2026-Q1": [
+        {
+          "company": "Anysphere",
+          "cluster": "ai-code-generation",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Sequoia Capital": {
+      "2025-Q4": [
+        {
+          "company": "ElevenLabs",
+          "cluster": "ai-generative-media",
+          "date": "2025-11",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Future Ventures": {
+      "2025-Q4": [
+        {
+          "company": "Mythic",
+          "cluster": "ai-chips-edge",
+          "date": "2025-12",
+          "source": "recentEvent"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "totalDealsTracked": 67,
+    "totalUSDSold": 35540553,
+    "uniqueClusters": 39,
+    "uniqueQuarters": 8,
+    "uniqueVCs": 17,
+    "quarterRange": [
+      "2024-Q1",
+      "2026-Q2"
+    ]
+  },
+  "caveats": [
+    "Coverage is limited to companies with dated funding events on file. Of 870 tracked companies, ~120-150 have either a Form D filing or a recentEvent.date on record.",
+    "Form D filings (data/form_d_filings_auto.json) cover the LAST 60 DAYS only and US-domiciled offerings. Older rounds are not in EDGAR's recent feed.",
+    "Investor attribution uses the company's CURRENT investors[] list as a best-effort proxy. A VC listed today may have invested in an EARLIER round than the one recorded here. We do not infer round participation from Form D (which doesn't reliably identify investors).",
+    "Amounts (totalSold) sum only Form D amount_sold figures. recentEvent-based deals are counted but not summed (their totalRaised is cumulative, not per-round).",
+    "All quarters use UTC calendar quarters: Q1=Jan-Mar, Q2=Apr-Jun, Q3=Jul-Sep, Q4=Oct-Dec."
+  ]
+}
