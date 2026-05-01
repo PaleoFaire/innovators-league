@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-05-01T08:03:12+00:00",
+  "model": "claude-haiku-4-5",
+  "cohortFile": "data/cohort_investors_daily.json",
+  "cohortSize": 2,
+  "newExtractionsThisRun": 2,
+  "summary": {
+    "cleared": 0,
+    "changesProposed": 2,
+    "unverifiable": 0
+  },
+  "cleared": [],
+  "changesProposed": [
+    {
+      "name": "Engine Ventures",
+      "current": {
+        "name": "Engine Ventures",
+        "shortName": "Engine",
+        "aum": "$1B+",
+        "flagshipFund": "Engine Ventures Fund III",
+        "founded": 2016,
+        "hq": "Cambridge, MA",
+        "website": "https://engine.xyz"
+      },
+      "verified": {
+        "name": "Engine Ventures",
+        "short_name": "Engine",
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": 2016,
+        "hq": "Cambridge, MA",
+        "key_partners": null,
+        "sector_focus": [
+          "Applied AI & ML",
+          "Computing",
+          "Mobility",
+          "Autonomous Systems / Robotics",
+          "Energy",
+          "Natural Resources",
+          "Biotech / Life Sciences",
+          "Food / Agriculture",
+          "Quantum Computing",
+          "Carbon Capture / CCUS",
+          "Manufacturing",
+          "Space",
+          "Climate",
+          "Materials",
+          "Water / Oceans"
+        ],
+        "thesis": "Engine Ventures invests in Tough Tech companies commercializing breakthrough science and engineering from research labs. The firm supports early-stage deep tech startups developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "website": "https://engine.xyz",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            3
+          ],
+          "short_name": [
+            0
+          ],
+          "founded_year": [
+            1,
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "sector_focus": [
+            1
+          ],
+          "thesis": [
+            1,
+            3
+          ],
+          "website": [
+            0,
+            1,
+            3
+          ]
+        },
+        "notes": "Engine Ventures spun out as a separate investment firm in 2023 from The Engine nonprofit accelerator/incubator. The Engine is a 501(c)(3) nonprofit as of 2025. Current CEO of The Engine is Emily Knight. No AUM, flagship fund name, or current senior investment partners explicitly identified in provided sources."
+      },
+      "changes": [
+        {
+          "field": "sectorFocus",
+          "current": [
+            "Nuclear Energy",
+            "Energy & Climate",
+            "Biotech & Medical",
+            "Semiconductors",
+            "Advanced Manufacturing"
+          ],
+          "verified": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS",
+            "Manufacturing",
+            "Space",
+            "Climate",
+            "Materials",
+            "Water / Oceans"
+          ],
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Science-based companies from research labs solving massive problems. Patient capital for Tough Tech companies commercializing breakthrough science.",
+          "verified": "Engine Ventures invests in Tough Tech companies commercializing breakthrough science and engineering from research labs. The firm supports early-stage deep tech startups developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "sources": [
+            1,
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://engine.xyz"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://engine.xyz/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/companies",
+          "url": "https://engine.xyz/companies"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        },
+        {
+          "idx": 4,
+          "src": "news (TechNode Global)",
+          "url": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
+        }
+      ],
+      "notes": "Engine Ventures spun out as a separate investment firm in 2023 from The Engine nonprofit accelerator/incubator. The Engine is a 501(c)(3) nonprofit as of 2025. Current CEO of The Engine is Emily Knight. No AUM, flagship fund name, or current senior investment partners explicitly identified in provided sources."
+    },
+    {
+      "name": "Future Ventures",
+      "current": {
+        "name": "Future Ventures",
+        "shortName": "Future",
+        "aum": "$500M",
+        "flagshipFund": "Future Ventures Fund III",
+        "founded": 2018,
+        "hq": "Menlo Park, CA",
+        "website": "https://future.ventures"
+      },
+      "verified": {
+        "name": "Future Ventures",
+        "short_name": null,
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": null,
+        "hq": null,
+        "key_partners": [
+          "Steve Jurvetson",
+          "Maryanna Saenko",
+          "NICO Enriquez"
+        ],
+        "sector_focus": null,
+        "thesis": "Future Ventures supports seed and early-stage investments in mission-driven entrepreneurs with ideas that have the potential to reinvent entire industries. The firm focuses on frontier technologies at the cutting edge of disruptive innovation and new industry formation.",
+        "website": "https://future.ventures",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "key_partners": [
+            2
+          ],
+          "thesis": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Sources state firm has backed founders for 'the past 25 years' but do not specify a founding year. AUM, flagship fund name, and HQ location not found in provided sources. Sector focus cannot be verified from explicit sector list; sources only detail individual investment examples. Three partners identified on team page: Steve Jurvetson (co-founder), Maryanna Saenko (co-founder), and NICO Enriquez."
+      },
+      "changes": [
+        {
+          "field": "keyPartners",
+          "current": [
+            "Steve Jurvetson",
+            "Maryanna Saenko"
+          ],
+          "verified": [
+            "Steve Jurvetson",
+            "Maryanna Saenko",
+            "NICO Enriquez"
+          ],
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Patient capital with 15-year fund structure. Steve Jurvetson. Early SpaceX/Tesla. Backing founders building technologies that reshape entire industries over decades.",
+          "verified": "Future Ventures supports seed and early-stage investments in mission-driven entrepreneurs with ideas that have the potential to reinvent entire industries. The firm focuses on frontier technologies at the cutting edge of disruptive innovation and new industry formation.",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://future.ventures"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://future.ventures/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://future.ventures/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/investments",
+          "url": "https://future.ventures/investments"
+        },
+        {
+          "idx": 4,
+          "src": "wikipedia (short name)",
+          "url": "https://en.wikipedia.org/wiki/Future"
+        },
+        {
+          "idx": 5,
+          "src": "news (MIT Tech Review)",
+          "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/"
+        },
+        {
+          "idx": 6,
+          "src": "news (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
+        }
+      ],
+      "notes": "Sources state firm has backed founders for 'the past 25 years' but do not specify a founding year. AUM, flagship fund name, and HQ location not found in provided sources. Sector focus cannot be verified from explicit sector list; sources only detail individual investment examples. Three partners identified on team page: Steve Jurvetson (co-founder), Maryanna Saenko (co-founder), and NICO Enriquez."
+    }
+  ],
+  "unverifiable": []
+}

@@ -1,0 +1,651 @@
+{
+  "generatedAt": "2026-05-01T08:02:50+00:00",
+  "model": "claude-haiku-4-5",
+  "cohortFile": "data/cohort_companies_daily.json",
+  "cohortSize": 20,
+  "newExtractionsThisRun": 19,
+  "summary": {
+    "cleared": 13,
+    "changesProposed": 7,
+    "unverifiable": 0
+  },
+  "cleared": [
+    "Apptronik",
+    "Base Power",
+    "Cognition",
+    "Deterrence",
+    "Fervo Energy",
+    "Galvanick",
+    "Hidden Level",
+    "Humanoid",
+    "Percepto",
+    "Rivian",
+    "Waymo",
+    "ideaForge",
+    "xAI"
+  ],
+  "changesProposed": [
+    {
+      "name": "Anthropic",
+      "current": {
+        "name": "Anthropic",
+        "founder": "Dario Amodei, Daniela Amodei, Jared Kaplan, Jack Clark, Chris Olah, Ben Mann, Sam McCandlish, Tom Brown",
+        "location": "San Francisco, California",
+        "founded": 2021,
+        "fundingStage": "Series G",
+        "totalRaised": "$13B+",
+        "website": "https://anthropic.com"
+      },
+      "verified": {
+        "name": "Anthropic",
+        "description": "American artificial intelligence company that develops large language models named Claude and focuses on AI safety research.",
+        "founders": [
+          "Dario Amodei",
+          "Daniela Amodei",
+          "Jared Kaplan",
+          "Jack Clark",
+          "Chris Olah",
+          "Ben Mann",
+          "Sam McCandlish",
+          "Tom Brown"
+        ],
+        "location": "San Francisco, California",
+        "founded_year": 2021,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": "$380B",
+        "investors": null,
+        "website": "https://anthropic.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Wikipedia source [2] states valuation of $380 billion as of February 2026. Database entry references $183B valuation and $350B pending round, but these figures are not supported by provided sources. Source [3] mentions potential $900B+ valuation round but describes it as 'potential' and future-oriented, not a closed/current valuation. SEC Form D [6] shows a filing but amount ($5.7M) appears to be a specific tranche, not total raised. Company is structured as a Public Benefit Corporation [1, 2]."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series G",
+          "verified": "Private",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://anthropic.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://anthropic.com/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anthropic"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/"
+        },
+        {
+          "idx": 4,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/"
+        },
+        {
+          "idx": 5,
+          "src": "news (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
+        },
+        {
+          "idx": 6,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002112836&type=D&dateb=&owner=include&count=10"
+        }
+      ],
+      "notes": "Wikipedia source [2] states valuation of $380 billion as of February 2026. Database entry references $183B valuation and $350B pending round, but these figures are not supported by provided sources. Source [3] mentions potential $900B+ valuation round but describes it as 'potential' and future-oriented, not a closed/current valuation. SEC Form D [6] shows a filing but amount ($5.7M) appears to be a specific tranche, not total raised. Company is structured as a Public Benefit Corporation [1, 2]."
+    },
+    {
+      "name": "Anysphere",
+      "current": {
+        "name": "Anysphere",
+        "founder": "Michael Truell, Sualeh Asif, Aman Sanger, Arvid Lunnemark",
+        "location": "San Francisco, California, United States",
+        "founded": 2022,
+        "fundingStage": "Series D",
+        "totalRaised": "$3.4B+",
+        "website": "https://anysphere.co"
+      },
+      "verified": {
+        "name": "Anysphere",
+        "description": "American software company offering Cursor, an AI-assisted software development service. Founded in 2022, the company achieved a $29.3 billion valuation and surpassed $1 billion in annual recurring revenue by late 2025.",
+        "founders": [
+          "Michael Truell",
+          "Sualeh Asif",
+          "Aman Sanger",
+          "Arvid Lunnemark"
+        ],
+        "location": "San Francisco, California, United States",
+        "founded_year": 2022,
+        "current_stage": "Series D",
+        "total_raised": "$3.2B+",
+        "valuation": "$29.3B",
+        "investors": [
+          "Accel",
+          "Coatue Management",
+          "Google",
+          "Nvidia",
+          "Thrive Capital",
+          "OpenAI Startup Fund"
+        ],
+        "website": "https://anysphere.co",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Total raised calculated from: $8M seed (Oct 2023) + $60M Series A + $900M Series C (June 2025) + $2.3B Series D (Nov 2025) = $3.268B. Wikipedia source [1] is most recent and comprehensive. Source [2] is about Cognition (different company), not Anysphere."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$3.4B+",
+          "verified": "$3.2B+",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://anysphere.co"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anysphere"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechNode Global)",
+          "url": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
+        }
+      ],
+      "notes": "Total raised calculated from: $8M seed (Oct 2023) + $60M Series A + $900M Series C (June 2025) + $2.3B Series D (Nov 2025) = $3.268B. Wikipedia source [1] is most recent and comprehensive. Source [2] is about Cognition (different company), not Anysphere."
+    },
+    {
+      "name": "Hadrian",
+      "current": {
+        "name": "Hadrian",
+        "founder": "Chris Power",
+        "location": "Torrance, CA",
+        "founded": 2020,
+        "fundingStage": "Series C",
+        "totalRaised": "$560M",
+        "website": null
+      },
+      "verified": {
+        "name": null,
+        "description": null,
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "137 Ventures"
+        ],
+        "website": null,
+        "sources_per_field": {
+          "investors": [
+            2
+          ]
+        },
+        "notes": "Sources [0] and [1] are not relevant to the aerospace/defense manufacturing company Hadrian described in the database entry. Source [0] describes a HIPAA-compliant telephone answering service company, and source [1] is about the Roman emperor Hadrian. Only source [2] mentions Hadrian as a portfolio company of 137 Ventures in a growth-stage context, but provides no other verifiable details about the company. Cannot verify any facts from the database entry (location, founders, founding year, raised amount, valuation, stage) with the provided sources."
+      },
+      "changes": [
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "137 Ventures"
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://hadrian.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hadrian"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/04/30/spacex-backer-137-ventures-raises-700m-for-two-growth-stage-funds/"
+        }
+      ],
+      "notes": "Sources [0] and [1] are not relevant to the aerospace/defense manufacturing company Hadrian described in the database entry. Source [0] describes a HIPAA-compliant telephone answering service company, and source [1] is about the Roman emperor Hadrian. Only source [2] mentions Hadrian as a portfolio company of 137 Ventures in a growth-stage context, but provides no other verifiable details about the company. Cannot verify any facts from the database entry (location, founders, founding year, raised amount, valuation, stage) with the provided sources."
+    },
+    {
+      "name": "OpenAI",
+      "current": {
+        "name": "OpenAI",
+        "founder": "Sam Altman, Greg Brockman, Ilya Sutskever",
+        "location": "San Francisco, California, U.S.",
+        "founded": 2015,
+        "fundingStage": "Private",
+        "totalRaised": "$40B+",
+        "website": "https://openai.com"
+      },
+      "verified": {
+        "name": "OpenAI",
+        "description": "American artificial intelligence research organization consisting of a for-profit public benefit corporation and nonprofit foundation. Developer of the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models.",
+        "founders": [
+          "Sam Altman",
+          "Elon Musk",
+          "Ilya Sutskever",
+          "Greg Brockman",
+          "Trevor Blackwell",
+          "Vicki Cheung",
+          "Andrej Karpathy",
+          "Durk Kingma",
+          "John Schulman",
+          "Pamela Vagata",
+          "Wojciech Zaremba"
+        ],
+        "location": "San Francisco, California, U.S.",
+        "founded_year": 2015,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": "$500B",
+        "investors": [
+          "Microsoft",
+          "Reid Hoffman",
+          "Jessica Livingston",
+          "Peter Thiel",
+          "Amazon Web Services",
+          "Infosys"
+        ],
+        "website": "https://openai.com",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia lists 11 founders including Elon Musk (database entry lists only 3). In October 2025, OpenAI conducted a $6.6 billion share sale valued at $500 billion per source [1]. Company transitioned to for-profit capped entity in 2019 and underwent 2025 restructuring converting subsidiary into PBC. Microsoft ownership is 27% per [1]. Revenue was US$13.1 billion in 2025 per [1]."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Sam Altman, Greg Brockman, Ilya Sutskever",
+          "verified": "Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, Wojciech Zaremba",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://openai.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/OpenAI"
+        },
+        {
+          "idx": 2,
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/model-behavior-why-everything-in-musk-v-altman-leads-back-to-shivon-zelis/"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/"
+        },
+        {
+          "idx": 4,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/"
+        }
+      ],
+      "notes": "Wikipedia lists 11 founders including Elon Musk (database entry lists only 3). In October 2025, OpenAI conducted a $6.6 billion share sale valued at $500 billion per source [1]. Company transitioned to for-profit capped entity in 2019 and underwent 2025 restructuring converting subsidiary into PBC. Microsoft ownership is 27% per [1]. Revenue was US$13.1 billion in 2025 per [1]."
+    },
+    {
+      "name": "Scale AI",
+      "current": {
+        "name": "Scale AI",
+        "founder": "Alexandr Wang, Lucy Guo",
+        "location": "San Francisco, California",
+        "founded": 2016,
+        "fundingStage": "Private",
+        "totalRaised": "$1.6B+",
+        "website": "https://scale.com"
+      },
+      "verified": {
+        "name": "Scale AI",
+        "description": "An artificial intelligence infrastructure and software company offering data annotation, RLHF services, LLM evaluation, and enterprise software suites to build and deploy AI applications. The company works with commercial clients including Google, Microsoft, and Meta, as well as with the United States Department of Defense on military-related projects.",
+        "founders": [
+          "Alexandr Wang",
+          "Lucy Guo"
+        ],
+        "location": "San Francisco, California, United States",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": "$1.6B+",
+        "valuation": "$14B",
+        "investors": [
+          "Meta Platforms",
+          "Dragoneer Investment Group",
+          "Tiger Global Management",
+          "Index Ventures",
+          "Greenoaks",
+          "Accel",
+          "Amazon"
+        ],
+        "website": "https://scale.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "valuation": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left Scale AI to join Meta and was replaced as CEO by Jason Droege. The most recent valuation cited in sources is $14 billion as of May 2024."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Francisco, California",
+          "verified": "San Francisco, California, United States",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scale_AI"
+        },
+        {
+          "idx": 1,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/04/29/cleo-labs-secures-eur15m-to-scale-ai-driven-product-compliance-globally/"
+        }
+      ],
+      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left Scale AI to join Meta and was replaced as CEO by Jason Droege. The most recent valuation cited in sources is $14 billion as of May 2024."
+    },
+    {
+      "name": "SpaceX",
+      "current": {
+        "name": "SpaceX",
+        "founder": "Elon Musk",
+        "location": "Starbase, Texas",
+        "founded": 2002,
+        "fundingStage": "Series G",
+        "totalRaised": "$10B+",
+        "website": "https://spacex.com"
+      },
+      "verified": {
+        "name": "SpaceX",
+        "description": "American aerospace and artificial intelligence company that develops rockets, spacecraft, and satellite constellation technology. Founded by Elon Musk in 2002 with the vision of decreasing space launch costs and enabling a self-sustaining Mars colony.",
+        "founders": [
+          "Elon Musk"
+        ],
+        "location": "Starbase, Texas",
+        "founded_year": 2002,
+        "current_stage": "Pre-IPO",
+        "total_raised": null,
+        "valuation": "$800B",
+        "investors": null,
+        "website": "https://spacex.com",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
+          "website": [
+            1
+          ]
+        },
+        "notes": "Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and that 'a 2025 offer to buy internal shares valued SpaceX at $800 billion.' The database entry mentions '1.5T valuation' and 'Series G' stage, but these cannot be verified from provided sources. Revenue stated as '$16 billion (2025)' in Wikipedia source."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series G",
+          "verified": "Pre-IPO",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://spacex.ai"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SpaceX"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/04/30/spacex-backer-137-ventures-raises-700m-for-two-growth-stage-funds/"
+        },
+        {
+          "idx": 3,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/04/spacex-launch-rate-in-2026-after-reaching-orbital-operations-booster-and-starship-recovery.html"
+        },
+        {
+          "idx": 4,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002129914&type=D&dateb=&owner=include&count=10"
+        }
+      ],
+      "notes": "Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and that 'a 2025 offer to buy internal shares valued SpaceX at $800 billion.' The database entry mentions '1.5T valuation' and 'Series G' stage, but these cannot be verified from provided sources. Revenue stated as '$16 billion (2025)' in Wikipedia source."
+    },
+    {
+      "name": "True Anomaly",
+      "current": {
+        "name": "True Anomaly",
+        "founder": "Even Rogers",
+        "location": "Centennial, CO",
+        "founded": 2022,
+        "fundingStage": "Series D",
+        "totalRaised": "$1B+",
+        "website": null
+      },
+      "verified": {
+        "name": null,
+        "description": null,
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": "$650M",
+        "valuation": "$2.2B",
+        "investors": null,
+        "website": null,
+        "sources_per_field": {
+          "total_raised": [
+            1
+          ],
+          "valuation": [
+            1
+          ]
+        },
+        "notes": "Source [0] is a Wikipedia article about the orbital mechanics parameter 'true anomaly', not the company True Anomaly. Source [1] from SpaceNews confirms $650M funding round reaching $2.2B valuation and mentions Golden Dome program, but the article content is incomplete. No other verifiable company information found in provided sources."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$1B+",
+          "verified": "$650M",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/True_Anomaly"
+        },
+        {
+          "idx": 1,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/true-anomaly-raises-650-million-reaching-2-2-billion-valuation/"
+        }
+      ],
+      "notes": "Source [0] is a Wikipedia article about the orbital mechanics parameter 'true anomaly', not the company True Anomaly. Source [1] from SpaceNews confirms $650M funding round reaching $2.2B valuation and mentions Golden Dome program, but the article content is incomplete. No other verifiable company information found in provided sources."
+    }
+  ],
+  "unverifiable": []
+}
