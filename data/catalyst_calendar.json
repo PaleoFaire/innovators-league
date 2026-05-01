@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T04:25:47+00:00",
+  "generatedAt": "2026-05-01T07:30:47+00:00",
   "windowPastDays": 365,
   "windowFutureDays": 730,
   "todayUTC": "2026-05-01",
@@ -117,7 +117,7 @@
       ],
       "sector": "other",
       "source": "Industry calendar",
-      "sourceUrl": "#",
+      "sourceUrl": "https://www.ndia.org/events",
       "raw": {
         "title": "Defense Week 2026",
         "date": "2026-05-06",
@@ -125,7 +125,7 @@
         "location": "Washington, DC",
         "type": "conference",
         "description": "Annual Pentagon/industry gathering. NDIA and major primes.",
-        "url": "#",
+        "url": "https://www.ndia.org/events",
         "stephenRecommends": true,
         "keyAttendees": [
           "All defense primes",
@@ -148,7 +148,7 @@
       ],
       "sector": "defense",
       "source": "Industry calendar",
-      "sourceUrl": "#",
+      "sourceUrl": "https://hypersonicsummit.dsigroup.org/",
       "raw": {
         "title": "Hypersonic Weapon Systems Summit",
         "date": "2026-05-12",
@@ -156,7 +156,7 @@
         "location": "Washington, DC",
         "type": "summit",
         "description": "Government and industry gathering on hypersonic capabilities.",
-        "url": "#",
+        "url": "https://hypersonicsummit.dsigroup.org/",
         "stephenRecommends": true,
         "keyAttendees": [
           "Hermeus",
@@ -820,7 +820,7 @@
       ],
       "sector": "other",
       "source": "Industry calendar",
-      "sourceUrl": "#",
+      "sourceUrl": "https://www.defensetalk.com/",
       "raw": {
         "title": "DefenseTalk Tech Summit",
         "date": "2026-06-03",
@@ -828,7 +828,7 @@
         "location": "San Diego, CA",
         "type": "summit",
         "description": "Emerging defense tech summit with startup pitch day.",
-        "url": "#",
+        "url": "https://www.defensetalk.com/",
         "stephenRecommends": true,
         "keyAttendees": [
           "Saronic",
