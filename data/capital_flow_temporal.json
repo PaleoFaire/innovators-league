@@ -1,40 +1,16 @@
 {
-  "generatedAt": "2026-05-01T07:31:26+00:00",
+  "generatedAt": "2026-05-01T09:55:56+00:00",
   "matrix": {
-    "medical-devices-surgical": {
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": 5101500,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Andromeda Surgical",
-            "amount": 104500,
-            "date": "2026-04-29",
-            "source": "formd",
-            "investors": []
-          },
-          {
-            "name": "Cresilon",
-            "amount": 4997000,
-            "date": "2026-04-29",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "ai-foundation-models": {
       "2026-Q2": {
         "deals": 2,
-        "totalSold": 5745000,
+        "totalSold": 1562371,
         "companiesWithUnknownAmount": 1,
         "companies": [
           {
             "name": "Anthropic",
-            "amount": 5745000,
-            "date": "2026-04-29",
+            "amount": 1562371,
+            "date": "2026-04-30",
             "source": "formd",
             "investors": []
           },
@@ -93,6 +69,84 @@
             "amount": null,
             "date": "2026-01",
             "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-hardware-inference": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 107666,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Cerebras",
+            "amount": 107666,
+            "date": "2026-04-30",
+            "source": "formd",
+            "investors": [
+              "Sam Altman",
+              "Andy Bechtolsheim",
+              "Greg Brockman",
+              "Adam D'Angelo",
+              "Mark Leslie",
+              "Nick McKeown",
+              "David Perlmutter",
+              "Saiyed Atiq Raza",
+              "Jeff Rothschild",
+              "Pradeep Sindhu"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Cerebras",
+            "amount": null,
+            "date": "2026-01",
+            "source": "recentEvent",
+            "investors": [
+              "Sam Altman",
+              "Andy Bechtolsheim",
+              "Greg Brockman",
+              "Adam D'Angelo",
+              "Mark Leslie",
+              "Nick McKeown",
+              "David Perlmutter",
+              "Saiyed Atiq Raza",
+              "Jeff Rothschild",
+              "Pradeep Sindhu"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "medical-devices-surgical": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 5101500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Andromeda Surgical",
+            "amount": 104500,
+            "date": "2026-04-29",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "Cresilon",
+            "amount": 4997000,
+            "date": "2026-04-29",
+            "source": "formd",
             "investors": []
           }
         ],
@@ -262,14 +316,21 @@
     },
     "nuclear-microreactor": {
       "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
+        "deals": 2,
+        "totalSold": 369415,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
             "name": "Antares",
             "amount": 0,
             "date": "2026-04-27",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "Valar Atomics",
+            "amount": 369415,
+            "date": "2026-04-23",
             "source": "formd",
             "investors": []
           }
@@ -292,16 +353,158 @@
         "investors": []
       }
     },
-    "autonomy-drone-military": {
-      "2026-Q1": {
+    "humanoid-robotics": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 301745,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Apptronik",
+            "amount": 301745,
+            "date": "2026-04-23",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
         "deals": 2,
         "totalSold": null,
         "companiesWithUnknownAmount": 2,
         "companies": [
           {
+            "name": "Figure AI",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          },
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-generative-media": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 5309737,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "ElevenLabs",
+            "amount": 5309737,
+            "date": "2026-04-22",
+            "source": "formd",
+            "investors": [
+              "Andreessen Horowitz",
+              "Sequoia Capital",
+              "ICONIQ Growth",
+              "NEA",
+              "World Innovation Lab",
+              "Valor",
+              "Endeavor Catalyst Fund",
+              "Lunate",
+              "Deutsche Telekom",
+              "LG Technology Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Sequoia Capital",
+          "a16z (Andreessen Horowitz)"
+        ]
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "ElevenLabs",
+            "amount": null,
+            "date": "2025-11",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Sequoia Capital",
+              "ICONIQ Growth",
+              "NEA",
+              "World Innovation Lab",
+              "Valor",
+              "Endeavor Catalyst Fund",
+              "Lunate",
+              "Deutsche Telekom",
+              "LG Technology Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Sequoia Capital",
+          "a16z (Andreessen Horowitz)"
+        ]
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Gladia",
+            "amount": null,
+            "date": "2025-07",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "trapped-ion-quantum": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 1307054,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "AQT",
+            "amount": 1307054,
+            "date": "2026-04-22",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomy-drone-military": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
             "name": "Anduril Industries",
             "amount": null,
-            "date": "2026-03",
+            "date": "2026-04",
             "source": "recentEvent",
             "investors": [
               "Founders Fund",
@@ -312,7 +515,23 @@
               "Valor Equity Partners",
               "D1 Capital Partners"
             ]
-          },
+          }
+        ],
+        "investors": [
+          "8VC",
+          "D1 Capital Partners",
+          "Founders Fund",
+          "General Catalyst",
+          "Lux Capital",
+          "Valor Equity Partners",
+          "a16z (Andreessen Horowitz)"
+        ]
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
           {
             "name": "Shield AI",
             "amount": null,
@@ -328,13 +547,7 @@
           }
         ],
         "investors": [
-          "8VC",
-          "D1 Capital Partners",
-          "Founders Fund",
-          "General Catalyst",
-          "Lux Capital",
           "Riot Ventures",
-          "Valor Equity Partners",
           "a16z (Andreessen Horowitz)"
         ]
       },
@@ -609,41 +822,6 @@
         "investors": []
       }
     },
-    "humanoid-robotics": {
-      "2025-Q4": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          },
-          {
-            "name": "Neura Robotics",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "brain-computer-interface": {
       "2026-Q1": {
         "deals": 1,
@@ -751,7 +929,9 @@
             "amount": null,
             "date": "2025-08",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "137 Ventures"
+            ]
           }
         ],
         "investors": []
@@ -769,34 +949,6 @@
             "date": "2025-10",
             "source": "recentEvent",
             "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "ai-hardware-inference": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Cerebras",
-            "amount": null,
-            "date": "2026-01",
-            "source": "recentEvent",
-            "investors": [
-              "Sam Altman",
-              "Andy Bechtolsheim",
-              "Greg Brockman",
-              "Adam D'Angelo",
-              "Mark Leslie",
-              "Nick McKeown",
-              "David Perlmutter",
-              "Saiyed Atiq Raza",
-              "Jeff Rothschild",
-              "Pradeep Sindhu"
-            ]
           }
         ],
         "investors": []
@@ -874,52 +1026,6 @@
         "investors": []
       }
     },
-    "ai-generative-media": {
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "ElevenLabs",
-            "amount": null,
-            "date": "2025-11",
-            "source": "recentEvent",
-            "investors": [
-              "Andreessen Horowitz",
-              "Sequoia Capital",
-              "ICONIQ Growth",
-              "NEA",
-              "World Innovation Lab",
-              "Valor",
-              "Endeavor Catalyst Fund",
-              "Lunate",
-              "Deutsche Telekom",
-              "LG Technology Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Sequoia Capital",
-          "a16z (Andreessen Horowitz)"
-        ]
-      },
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Gladia",
-            "amount": null,
-            "date": "2025-07",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "robotics-cobots-warehouse": {
       "2025-Q3": {
         "deals": 2,
@@ -980,7 +1086,7 @@
         ],
         "investors": []
       },
-      "2026-Q1": {
+      "2026-Q2": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
@@ -988,7 +1094,7 @@
           {
             "name": "Orangewood Labs",
             "amount": null,
-            "date": "2026-03",
+            "date": "2026-04",
             "source": "recentEvent",
             "investors": []
           }
@@ -1198,24 +1304,22 @@
     }
   },
   "vcAttribution": {
-    "Founders Fund": {
-      "2026-Q1": [
+    "a16z (Andreessen Horowitz)": {
+      "2026-Q2": [
+        {
+          "company": "ElevenLabs",
+          "cluster": "ai-generative-media",
+          "date": "2026-04-22",
+          "source": "formd"
+        },
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-03",
+          "date": "2026-04",
           "source": "recentEvent"
         }
-      ]
-    },
-    "a16z (Andreessen Horowitz)": {
+      ],
       "2026-Q1": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
         {
           "company": "Shield AI",
           "cluster": "autonomy-drone-military",
@@ -1254,12 +1358,40 @@
         }
       ]
     },
-    "General Catalyst": {
-      "2026-Q1": [
+    "Sequoia Capital": {
+      "2026-Q2": [
+        {
+          "company": "ElevenLabs",
+          "cluster": "ai-generative-media",
+          "date": "2026-04-22",
+          "source": "formd"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "ElevenLabs",
+          "cluster": "ai-generative-media",
+          "date": "2025-11",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Founders Fund": {
+      "2026-Q2": [
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-03",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "General Catalyst": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-04",
           "source": "recentEvent"
         }
       ],
@@ -1273,41 +1405,41 @@
       ]
     },
     "8VC": {
-      "2026-Q1": [
+      "2026-Q2": [
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-03",
+          "date": "2026-04",
           "source": "recentEvent"
         }
       ]
     },
     "Lux Capital": {
-      "2026-Q1": [
+      "2026-Q2": [
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-03",
+          "date": "2026-04",
           "source": "recentEvent"
         }
       ]
     },
     "Valor Equity Partners": {
-      "2026-Q1": [
+      "2026-Q2": [
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-03",
+          "date": "2026-04",
           "source": "recentEvent"
         }
       ]
     },
     "D1 Capital Partners": {
-      "2026-Q1": [
+      "2026-Q2": [
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-03",
+          "date": "2026-04",
           "source": "recentEvent"
         }
       ],
@@ -1414,16 +1546,6 @@
         }
       ]
     },
-    "Sequoia Capital": {
-      "2025-Q4": [
-        {
-          "company": "ElevenLabs",
-          "cluster": "ai-generative-media",
-          "date": "2025-11",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Future Ventures": {
       "2025-Q4": [
         {
@@ -1436,9 +1558,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 67,
-    "totalUSDSold": 35540553,
-    "uniqueClusters": 39,
+    "totalDealsTracked": 72,
+    "totalUSDSold": 38753541,
+    "uniqueClusters": 40,
     "uniqueQuarters": 8,
     "uniqueVCs": 17,
     "quarterRange": [
