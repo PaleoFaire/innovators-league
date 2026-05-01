@@ -34,7 +34,7 @@ var FRONTIER_EVENTS = [
     location: "Washington, DC",
     type: "summit",
     description: "Government and industry gathering on hypersonic capabilities.",
-    url: "#",
+    url: "https://hypersonicsummit.dsigroup.org/",
     stephenRecommends: true,
     keyAttendees: ["Hermeus", "Castelion", "Dynamo Air"]
   },
@@ -56,7 +56,7 @@ var FRONTIER_EVENTS = [
     location: "Washington, DC",
     type: "conference",
     description: "Annual Pentagon/industry gathering. NDIA and major primes.",
-    url: "#",
+    url: "https://www.ndia.org/events",
     stephenRecommends: true,
     keyAttendees: ["All defense primes", "Top startups"]
   },
@@ -89,7 +89,7 @@ var FRONTIER_EVENTS = [
     location: "San Diego, CA",
     type: "summit",
     description: "Emerging defense tech summit with startup pitch day.",
-    url: "#",
+    url: "https://www.defensetalk.com/",
     stephenRecommends: true,
     keyAttendees: ["Saronic", "Shield AI", "Skydio"]
   },

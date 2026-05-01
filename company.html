@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Profile | ROS Startup Database</title>
+    <title>Company Profile · The Innovators League</title>
     <meta name="description" content="Comprehensive company intelligence and due diligence data from The Innovators League.">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <!-- Open Graph for social sharing -->
-    <meta property="og:title" content="Company Intelligence | The Innovators League">
+    <meta property="og:title" content="Company Profile · The Innovators League">
     <meta property="og:description" content="Deep frontier tech intelligence — funding, patents, contracts, hiring signals, and Stephen McBride's conviction notes. The Bloomberg Terminal for frontier tech.">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="The Innovators League">
@@ -19,10 +19,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="styles.css?v=20260428">
-    <link rel="stylesheet" href="company-profile.css?v=20260428">
-    <link rel="stylesheet" href="earnings-signals-page.css?v=20260428">
-    <script src="analytics.js?v=20260428"></script>
+    <link rel="stylesheet" href="styles.css?v=20260501">
+    <link rel="stylesheet" href="company-profile.css?v=20260501">
+    <link rel="stylesheet" href="earnings-signals-page.css?v=20260501">
+    <script src="analytics.js?v=20260501"></script>
     <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
     <link rel="stylesheet" href="css/_components.css?v=20260501" />
 </head>
@@ -537,34 +537,36 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="utils.js?v=20260428"></script>
-    <script src="auth.js?v=20260428"></script>
-    <script src="votes.js?v=20260428"></script>
-    <script src="data.js?v=20260428"></script>
-    <script src="data/sec_filings_auto.js?v=20260428"></script>
-    <script src="data/stocks_auto.js?v=20260428"></script>
-    <script src="data/insider_transactions_auto.js?v=20260428"></script>
-    <script src="data/news_signals_auto.js?v=20260428"></script>
-    <script src="data/patent_intel_auto.js?v=20260428"></script>
-    <script src="data/public_multiples_auto.js?v=20260427"></script>
-    <script src="data/founder_insights_auto.js?v=20260427"></script>
-    <script src="data/comp_sets_auto.js?v=20260428"></script>
-    <script src="data/github_releases_auto.js?v=20260428"></script>
-    <script src="data/arxiv_papers_auto.js?v=20260428"></script>
-    <script src="data/clinical_trials_auto.js?v=20260428"></script>
-    <script src="data/fda_actions_auto.js?v=20260428"></script>
-    <script src="data/hackernews_buzz_auto.js?v=20260428"></script>
-    <script src="data/federal_register_auto.js?v=20260428"></script>
-    <script src="data/doe_programs_auto.js?v=20260428"></script>
-    <script src="data/press_releases_auto.js?v=20260428"></script>
-    <script src="data/demand_signals_auto.js?v=20260428"></script>
-    <script src="data/nasa_projects_auto.js?v=20260428"></script>
-    <script src="data/moat_profiles.js?v=20260428"></script>
-    <script src="data/headcount_estimates_auto.js?v=20260428"></script>
-    <script src="data/product_launches_auto.js?v=20260428"></script>
-    <script src="app.js?v=20260428"></script>
-    <script src="company-profile.js?v=20260428"></script>
-    <script src="earnings-signals.js?v=20260428"></script>
+    <script src="utils.js?v=20260501"></script>
+    <script src="auth.js?v=20260501"></script>
+    <script src="votes.js?v=20260501"></script>
+    <script src="data.js?v=20260501"></script>
+    <script src="data/sec_filings_auto.js?v=20260501"></script>
+    <script src="data/stocks_auto.js?v=20260501"></script>
+    <script src="data/insider_transactions_auto.js?v=20260501"></script>
+    <script src="data/news_signals_auto.js?v=20260501"></script>
+    <script src="data/patent_intel_auto.js?v=20260501"></script>
+    <script src="data/public_multiples_auto.js?v=20260501"></script>
+    <script src="data/founder_insights_auto.js?v=20260501"></script>
+    <!-- comp_sets is now lazy-loaded per-company from data/comp_sets/<slug>.json
+         (was a 6.5 MB blob loaded for every profile view; now ~6 KB). See
+         scripts/chunk_comp_sets.py + renderCompSetSection() in company-profile.js. -->
+    <script src="data/github_releases_auto.js?v=20260501"></script>
+    <script src="data/arxiv_papers_auto.js?v=20260501"></script>
+    <script src="data/clinical_trials_auto.js?v=20260501"></script>
+    <script src="data/fda_actions_auto.js?v=20260501"></script>
+    <script src="data/hackernews_buzz_auto.js?v=20260501"></script>
+    <script src="data/federal_register_auto.js?v=20260501"></script>
+    <script src="data/doe_programs_auto.js?v=20260501"></script>
+    <script src="data/press_releases_auto.js?v=20260501"></script>
+    <script src="data/demand_signals_auto.js?v=20260501"></script>
+    <script src="data/nasa_projects_auto.js?v=20260501"></script>
+    <script src="data/moat_profiles.js?v=20260501"></script>
+    <script src="data/headcount_estimates_auto.js?v=20260501"></script>
+    <script src="data/product_launches_auto.js?v=20260501"></script>
+    <script src="app.js?v=20260501"></script>
+    <script src="company-profile.js?v=20260501"></script>
+    <script src="earnings-signals.js?v=20260501"></script>
     <script>
     /* Incumbent Signals widget bootstrap.
        Reads the current company name from company-profile.js (exposed on

@@ -1850,20 +1850,37 @@
   // Hides itself if no record exists for this company.
   // ═══════════════════════════════════════════════════════
   // ─── 💎 Comp-Set + Valuation Triangulation ───────────────────
-  // Renders deterministic peer comp set + valuation range from
-  // window.COMP_SETS_AUTO. All numbers traced to source data; LLM
-  // narrative (when present) is grounded in passed-in math.
+  // Lazy-loads the per-company chunk from data/comp_sets/<slug>.json
+  // (was previously a 6.5 MB blob loaded for every company profile).
+  // All numbers traced to source data; LLM narrative (when present) is
+  // grounded in passed-in math.
   function renderCompSetSection(company) {
     var section = document.getElementById('profile-comp-set');
     var content = document.getElementById('comp-set-content');
     if (!section || !content) return;
-    if (typeof COMP_SETS_AUTO === 'undefined' ||
-        !COMP_SETS_AUTO.byCompany ||
-        !COMP_SETS_AUTO.byCompany[company.name]) {
-      return;  // hide section if no data — no-empty-UI rule
+
+    // Slugify must match scripts/chunk_comp_sets.py slugify() exactly
+    function compSlugify(name) {
+      return (name || '').toLowerCase().trim()
+        .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
     }
 
-    var data = COMP_SETS_AUTO.byCompany[company.name];
+    var slug = compSlugify(company.name);
+    if (!slug) return;
+
+    fetch('data/comp_sets/' + encodeURIComponent(slug) + '.json?v=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (chunk) {
+        if (!chunk || !chunk.data) return;   // no data for this co — section stays hidden
+        renderCompSetFromChunk(company, chunk.data);
+      })
+      .catch(function () { /* network blip — section stays hidden */ });
+  }
+
+  function renderCompSetFromChunk(company, data) {
+    var section = document.getElementById('profile-comp-set');
+    var content = document.getElementById('comp-set-content');
+    if (!section || !content) return;
     var t = data.target || {};
     var methods = data.methods || [];
     var tri = data.triangulated;

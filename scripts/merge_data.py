@@ -1396,6 +1396,15 @@ def update_news_feed(data_js_content):
         title = article.get("title", "")
         if not title:
             continue
+        # Strip HTML tags + entities BEFORE truncation (some RSS feeds wrap
+        # titles in <a href="...">…</a>, which previously produced cut-off
+        # headlines like `<a href='/biotech/...'>Lilly pens $2.2B...`)
+        title = re.sub(r"<[^>]+>", "", title)
+        title = title.replace("&amp;", "&").replace("&#8217;", "'").replace("&#8216;", "'")
+        title = title.replace("&#039;", "'").replace("&quot;", '"').replace("&nbsp;", " ")
+        title = title.strip()
+        if not title:
+            continue
         # Skip if this matches a curated entry
         key = f"{company}:{title[:50]}"
         if key in curated_keys:
@@ -1406,15 +1415,37 @@ def update_news_feed(data_js_content):
         if not sector:
             sector = "General"
 
+        # Date: prefer pubDate (RSS) → isoDate → time (relative). Validate
+        # ISO format and skip if invalid (avoids "Invalid Da" garbage that
+        # was being produced by slicing "Invalid Date" to 10 chars).
+        raw_date = article.get("pubDate") or article.get("isoDate") or article.get("date") or ""
+        formatted_date = ""
+        if raw_date:
+            try:
+                # Try parsing common ISO / RFC2822 formats
+                from email.utils import parsedate_to_datetime
+                dt = parsedate_to_datetime(raw_date) if "," in raw_date else None
+                if dt is None:
+                    dt = datetime.fromisoformat(raw_date.replace("Z", "+00:00").split("+")[0].split(".")[0])
+                formatted_date = dt.strftime("%Y-%m-%d")
+            except Exception:
+                # Fall back to relative time if available; skip if it's "Invalid Date"
+                rt = article.get("time", "")
+                if rt and "invalid" not in rt.lower():
+                    formatted_date = rt[:20]
+        elif article.get("time") and "invalid" not in article["time"].lower():
+            formatted_date = article["time"][:20]
+
         auto_items.append({
             "company": company,
             "headline": title[:150].replace('"', "'"),
             "source": article.get("source", ""),
             "category": categorize_news(title),
-            "date": article.get("date", article.get("time", ""))[:10],
-            "summary": (article.get("summary", "") or "")[:200].replace('"', "'").replace("\n", " "),
+            "date": formatted_date,
+            "summary": (article.get("summary", "") or article.get("description", "") or "")[:200].replace('"', "'").replace("\n", " "),
             "impact": assess_impact(title),
             "sector": sector,
+            "url": article.get("link") or article.get("url") or "#",  # real article URL, was hardcoded "#"
         })
 
     if not auto_items:
@@ -1446,6 +1477,12 @@ def update_news_feed(data_js_content):
     js_array += "  // ─── AUTO-DETECTED NEWS ───\n"
     next_id = len(curated_entries) + 1
     for item in auto_items[:50]:
+        # Sanitize URL — must start with http(s); fall back to "#" if not.
+        item_url = item.get("url") or "#"
+        if not item_url.startswith(("http://", "https://", "/")):
+            item_url = "#"
+        # Escape any " in URL just in case
+        item_url = item_url.replace('"', "%22")
         js_array += f'  {{ id: {next_id}, company: "{item["company"]}", '
         js_array += f'headline: "{item["headline"]}", '
         js_array += f'source: "{item["source"]}", '
@@ -1454,7 +1491,7 @@ def update_news_feed(data_js_content):
         js_array += f'summary: "{item["summary"]}", '
         js_array += f'impact: "{item["impact"]}", '
         js_array += f'sector: "{item["sector"]}", '
-        js_array += f'url: "#" }},\n'
+        js_array += f'url: "{item_url}" }},\n'
         next_id += 1
 
     js_array += "];"
