@@ -11,7 +11,7 @@
       "Undisclosed",
       "GIC"
     ],
-    "roundCount": 6
+    "roundCount": 7
   },
   {
     "company": "OpenStar",
@@ -135,6 +135,19 @@
     "roundCount": 2
   },
   {
+    "company": "H Company",
+    "totalRaised": "$5.5B+",
+    "totalRaisedRaw": 5500.0,
+    "lastRound": "Series D",
+    "lastRoundAmount": "$5.5B",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Galvanick",
     "totalRaised": "$5.1B+",
     "totalRaisedRaw": 5090.0,
@@ -160,6 +173,20 @@
       "Undisclosed"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Focused Energy",
+    "totalRaised": "$4.5B+",
+    "totalRaisedRaw": 4500.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Kleiner Perkins"
+    ],
+    "roundCount": 2
   },
   {
     "company": "Watershed",
@@ -191,17 +218,18 @@
     "roundCount": 1
   },
   {
-    "company": "Focused Energy",
-    "totalRaised": "$3.5B+",
-    "totalRaisedRaw": 3500.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$3.5B",
-    "lastRoundDate": "2026-03",
+    "company": "Anduril Industries",
+    "totalRaised": "$3.2B+",
+    "totalRaisedRaw": 3200.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$700M",
+    "lastRoundDate": "2026-04",
     "valuation": "",
     "leadInvestors": [
-      "Kleiner Perkins"
+      "Undisclosed",
+      "Founders Fund"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "OpenAI",
@@ -230,19 +258,6 @@
       "Undisclosed"
     ],
     "roundCount": 6
-  },
-  {
-    "company": "Anduril Industries",
-    "totalRaised": "$2.5B+",
-    "totalRaisedRaw": 2500.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$2.5B",
-    "lastRoundDate": "2025-12",
-    "valuation": "$30.5B",
-    "leadInvestors": [
-      "Founders Fund"
-    ],
-    "roundCount": 1
   },
   {
     "company": "d-Matrix",
@@ -611,6 +626,20 @@
     "roundCount": 1
   },
   {
+    "company": "Orangewood Labs",
+    "totalRaised": "$400M+",
+    "totalRaisedRaw": 400.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$105M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "a16z"
+    ],
+    "roundCount": 6
+  },
+  {
     "company": "Agility Robotics",
     "totalRaised": "$385M+",
     "totalRaisedRaw": 385.0,
@@ -677,20 +706,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Orangewood Labs",
-    "totalRaised": "$295M+",
-    "totalRaisedRaw": 295.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$35M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "a16z",
-      "Undisclosed"
-    ],
-    "roundCount": 5
   },
   {
     "company": "Hadrian",

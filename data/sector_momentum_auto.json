@@ -1,21 +1,21 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 55,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Satya Nadella says he&#8217;s ready to &#8216;exploit&#8217;",
-      "Cleo Labs secures \u20ac1.5M to scale AI-driven product complianc",
-      "AI coding agent Cognition expands to Singapore as Asia-Pacif"
+      "How Shivon Zilis Operated as Elon Musk\u2019s OpenAI Insider",
+      "Sources: Anthropic potential $900B+ valuation round could ha",
+      "After dissing Anthropic for limiting Mythos, OpenAI restrict"
     ],
-    "fundingQ": "$1244.6B",
+    "fundingQ": "$2144.6B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Drones & Autonomous",
@@ -31,7 +31,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -47,7 +47,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Ocean & Maritime",
@@ -63,32 +63,32 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 36,
+    "momentum": 43,
     "trend": "steady",
     "catalysts": [
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
-    "fundingQ": "$22.3B",
+    "fundingQ": "$23.0B",
     "components": {
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 33
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "True Anomaly raises $650 million, reaching $2.2 billion valu",
-      "SpaceX Launch Rate in 2026 After Reaching Orbital Operations",
-      "SpaceX XAI 2027"
+      "OpenAI announces new advanced security for ChatGPT accounts,",
+      "SpaceX backer 137 Ventures raises $700M for two growth-stage",
+      "SpaceX Launch Rate in 2026 After Reaching Orbital Operations"
     ],
     "fundingQ": "$2.2B",
     "components": {
@@ -97,43 +97,42 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 33,
+    "momentum": 34,
     "trend": "steady",
     "catalysts": [
-      "Fusion power startup Zap Energy pulls a partial pivot, addin",
       "Anthropic&#8217;s Nuclear Bomb",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$800M",
     "components": {
       "funding": 83,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
-      "market": 0
+      "market": 14
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 27,
+    "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "Apptronik\u2019s new CPO hire a major step in right direction",
-      "Accenture, Vodafone, and SAP to pilot humanoid robots in the",
-      "Rivian (RIVN) starts R2 production days after tornado hit fa"
+      "Rivian (RIVN) lifts production capacity for its Georgia plan",
+      "SpaceX backer 137 Ventures raises $700M for two growth-stage",
+      "Apptronik\u2019s new CPO hire a major step in right direction"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -147,27 +146,75 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 99
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 15,
+    "sector": "Biotech & Health",
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "Elon Musk Testifies That He Started OpenAI to Prevent a \u2018Ter",
-      "Apptronik\u2019s new CPO hire a major step in right direction",
-      "True Anomaly raises $650 million, reaching $2.2 billion valu"
+      "Active biotech & health ecosystem"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 0,
+      "hiring": 0,
+      "market": 84
+    },
+    "lastUpdated": "2026-05-01"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 0,
+      "hiring": 0,
+      "market": 90
+    },
+    "lastUpdated": "2026-05-01"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian (RIVN) lifts production capacity for its Georgia plan",
+      "Rivian (RIVN) starts R2 production days after tornado hit fa"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 10,
+      "hiring": 0,
+      "market": 65
+    },
+    "lastUpdated": "2026-05-01"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Sources: Anthropic potential $900B+ valuation round could ha",
+      "Apptronik\u2019s new CPO hire a major step in right direction"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -184,7 +231,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge",
+      "Base Power to launch 100-MW home battery network for Texas u"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 34
+    },
+    "lastUpdated": "2026-05-01"
   },
   {
     "sector": "Housing & Construction",
@@ -200,72 +265,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-30"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge",
-      "Base Power to launch 100-MW home battery network for Texas u"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-04-30"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "<a href=\"/biotech/lilly-pens-22b-pact-bezos-backed-profluent"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-04-30"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian (RIVN) starts R2 production days after tornado hit fa"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-04-30"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   }
 ]

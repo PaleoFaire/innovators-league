@@ -4349,6 +4349,16 @@
       "id": "Panthalassa",
       "sector": "Climate & Energy",
       "thesisCluster": "ocean-energy-compute"
+    },
+    {
+      "id": "BRINC Drones",
+      "sector": "Defense & Security",
+      "thesisCluster": "autonomy-drone-military"
+    },
+    {
+      "id": "Lodge Systems",
+      "sector": "Defense & Security",
+      "thesisCluster": "autonomy-drone-military"
     }
   ],
   "edges": [
@@ -9249,7 +9259,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 870,
+    "total_nodes": 872,
     "total_edges": 847,
     "competitor_edges": 187,
     "thesis_edges": 660,

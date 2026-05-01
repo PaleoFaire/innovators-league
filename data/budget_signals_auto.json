@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 4,
+    "activityIndex": 3,
     "billsTracked": 2,
-    "rulesTracked": 2,
-    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
+    "rulesTracked": 1,
+    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -26,48 +26,13 @@
       },
       {
         "type": "federal_register",
-        "title": "Constellation Energy Generation, LLC; Nine Mile Point Nuclear Station, Unit 1; S",
-        "agency": "",
-        "date": ""
-      },
-      {
-        "type": "federal_register",
         "title": "Duke Energy Carolinas, LLC; Catawba Nuclear Station, Units 1 and 2; Independent ",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-30"
-  },
-  {
-    "category": "Space & Aerospace",
-    "icon": "\ud83d\ude80",
-    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 2,
-    "billsTracked": 1,
-    "rulesTracked": 1,
-    "description": "1 bill(s) + 1 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Commercial Space Launch Competitiveness Act Amendments",
-        "number": "HR3684",
-        "status": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Draft Environmental Impact Statement for the Berkeley Space Center at NASA Resea",
-        "agency": "",
-        "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "category": "Quantum Computing",
@@ -90,7 +55,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -113,7 +78,30 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
+  },
+  {
+    "category": "Space & Aerospace",
+    "icon": "\ud83d\ude80",
+    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
+    "change": "flat",
+    "changeNum": 0,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 1,
+    "billsTracked": 1,
+    "rulesTracked": 0,
+    "description": "1 bill(s) + 0 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 1 \u2014 flat relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Commercial Space Launch Competitiveness Act Amendments",
+        "number": "HR3684",
+        "status": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-05-01"
   },
   {
     "category": "Biotech & Health",
@@ -136,6 +124,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-30"
+    "lastUpdated": "2026-05-01"
   }
 ]
