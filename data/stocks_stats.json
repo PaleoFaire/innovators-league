@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 7.41,
+      "avg_change": 6.47,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 1.4,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.24,
       "count": 3
     },
     "transportation": {
@@ -64,14 +64,14 @@
       21.99
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      18.22
-    ],
-    [
       "AMD",
       "AMD",
       16.1
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      11.67
     ],
     [
       "277810.KQ",
@@ -111,5 +111,5 @@
       -11.5
     ]
   ],
-  "lastUpdated": "2026-05-01 03:43:46"
+  "lastUpdated": "2026-05-01 08:18:45"
 }
