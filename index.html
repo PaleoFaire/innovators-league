@@ -249,10 +249,26 @@
 
             <!-- Filters -->
             <div class="filter-bar">
-                <div class="search-box">
+                <div class="search-box" style="position:relative;">
                     <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                    <input type="text" id="search-input" placeholder="Search companies, founders, technologies...">
+                    <input type="text" id="search-input" placeholder='Search names or filter: sector:defense raised:>50M founded:>=2022'
+                           title="Smart search — try: sector:defense, founder:&quot;Palmer Luckey&quot;, raised:>50M, founded:>=2022, stage:Series-B, thesis:fusion"
+                           autocomplete="off" spellcheck="false">
                     <span class="keyboard-hint">/</span>
+                    <button type="button" id="search-syntax-toggle" aria-label="Search syntax help"
+                            style="position:absolute;right:48px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--text-muted);cursor:pointer;padding:4px 8px;font-size:11px;font-family:var(--font-mono);">?</button>
+                </div>
+                <div id="search-syntax-help" hidden style="margin-top:8px;padding:12px;background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:8px;font-size:12px;color:var(--text-secondary);font-family:var(--font-mono);">
+                    <strong style="color:var(--text-primary);font-family:var(--font-sans);">Smart search syntax</strong> — combine free text with filters:<br>
+                    <span style="color:var(--color-primary);">sector:</span>defense ·
+                    <span style="color:var(--color-primary);">founder:</span>"Palmer Luckey" ·
+                    <span style="color:var(--color-primary);">raised:</span>&gt;50M ·
+                    <span style="color:var(--color-primary);">founded:</span>&gt;=2022 ·
+                    <span style="color:var(--color-primary);">stage:</span>Series-B ·
+                    <span style="color:var(--color-primary);">thesis:</span>fusion ·
+                    <span style="color:var(--color-primary);">location:</span>Austin
+                    <br>Example: <em style="color:var(--text-primary);">sector:defense raised:&gt;100M founded:&gt;=2020</em> →
+                    all defense companies that raised over $100M and were founded in 2020 or later.
                 </div>
                 <div class="filter-dropdowns">
                     <select id="sector-filter" class="filter-select">

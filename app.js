@@ -3237,15 +3237,46 @@ function applyFilters() {
   }
 
   if (searchTerm) {
-    filtered = filtered.filter(c =>
-      c.name.toLowerCase().includes(searchTerm) ||
-      (c.description && c.description.toLowerCase().includes(searchTerm)) ||
-      (c.founder && c.founder.toLowerCase().includes(searchTerm)) ||
-      (c.location && c.location.toLowerCase().includes(searchTerm)) ||
-      (c.sector && c.sector.toLowerCase().includes(searchTerm)) ||
-      (c.tags && c.tags.some(t => t.toLowerCase().includes(searchTerm))) ||
-      getCountry(c.state, c.location).toLowerCase().includes(searchTerm)
-    );
+    // Smart-search filter parsing: extract `field:value` pairs and apply
+    // them as structured filters; remaining text falls through to fuzzy.
+    // (Same parser as performGlobalSearch — see parseSmartFilters.)
+    const { filters: smartFilters, residualText } = parseSmartFilters(searchTerm);
+    const fuzzy = (residualText || '').trim().toLowerCase();
+
+    if (Object.keys(smartFilters).length > 0) {
+      filtered = filtered.filter(c => {
+        if (smartFilters.sector && !(c.sector || '').toLowerCase().includes(smartFilters.sector.toLowerCase())) return false;
+        if (smartFilters.founder && !(c.founder || '').toLowerCase().includes(smartFilters.founder.toLowerCase())) return false;
+        if (smartFilters.location && !(c.location || '').toLowerCase().includes(smartFilters.location.toLowerCase())) return false;
+        if (smartFilters.thesis && !(c.thesisCluster || '').toLowerCase().includes(smartFilters.thesis.toLowerCase())) return false;
+        if (smartFilters.stage) {
+          const stageQ = smartFilters.stage.toLowerCase().replace(/-/g, ' ');
+          if (!(c.fundingStage || '').toLowerCase().includes(stageQ)) return false;
+        }
+        if (smartFilters.raised) {
+          const crit = parseNumCriterion(smartFilters.raised);
+          const num = moneyToNumber(c.totalRaised);
+          if (crit && !matchesNumCriterion(num, crit)) return false;
+        }
+        if (smartFilters.founded) {
+          const crit = parseNumCriterion(smartFilters.founded);
+          if (crit && !matchesNumCriterion(c.founded, crit)) return false;
+        }
+        return true;
+      });
+    }
+
+    if (fuzzy) {
+      filtered = filtered.filter(c =>
+        c.name.toLowerCase().includes(fuzzy) ||
+        (c.description && c.description.toLowerCase().includes(fuzzy)) ||
+        (c.founder && c.founder.toLowerCase().includes(fuzzy)) ||
+        (c.location && c.location.toLowerCase().includes(fuzzy)) ||
+        (c.sector && c.sector.toLowerCase().includes(fuzzy)) ||
+        (c.tags && c.tags.some(t => t.toLowerCase().includes(fuzzy))) ||
+        getCountry(c.state, c.location).toLowerCase().includes(fuzzy)
+      );
+    }
   }
 
   // Sort
@@ -3350,6 +3381,16 @@ function initSearch() {
     }, 200);
   });
 
+  // Toggle the smart-search syntax help panel
+  const toggleBtn = document.getElementById('search-syntax-toggle');
+  const helpPanel = document.getElementById('search-syntax-help');
+  if (toggleBtn && helpPanel) {
+    toggleBtn.addEventListener('click', () => {
+      helpPanel.hidden = !helpPanel.hidden;
+      toggleBtn.style.color = helpPanel.hidden ? 'var(--text-muted)' : 'var(--color-primary)';
+    });
+  }
+
   // Initialize global search in header
   initGlobalSearch();
 }
@@ -3438,13 +3479,121 @@ function fuzzyScore(query, text) {
   return qi === q.length ? 50 : 0;
 }
 
+// Parse smart-search filter syntax from a query string.
+// Returns { filters: {field: criterion}, residualText: <plain words for fuzzy> }
+//
+// Supported syntax:
+//   sector:defense              exact field match (case-insensitive contains)
+//   founder:"Palmer Luckey"     quoted phrase match
+//   raised:>50M raised:<=2B     numeric comparison on totalRaised (with B/M/K)
+//   founded:2022 founded:>=2020 numeric comparison on founded year
+//   stage:Series-B              fundingStage match
+//   thesis:fusion               thesisCluster match
+//
+// Anything not matching the filter pattern stays as residual fuzzy-match text.
+function parseSmartFilters(rawQuery) {
+  const filters = {};
+  const residual = [];
+  // Match `field:value` or `field:"quoted value"` or `field:>10M`
+  const pattern = /(\w+):(?:"([^"]+)"|(\S+))/g;
+  let lastIdx = 0;
+  let m;
+  while ((m = pattern.exec(rawQuery)) !== null) {
+    // Capture any text before this match as residual
+    if (m.index > lastIdx) {
+      const before = rawQuery.slice(lastIdx, m.index).trim();
+      if (before) residual.push(before);
+    }
+    const field = m[1].toLowerCase();
+    const value = m[2] || m[3];
+    filters[field] = filters[field] ? filters[field] + ' ' + value : value;
+    lastIdx = m.index + m[0].length;
+  }
+  if (lastIdx < rawQuery.length) {
+    const after = rawQuery.slice(lastIdx).trim();
+    if (after) residual.push(after);
+  }
+  return { filters, residualText: residual.join(' ') };
+}
+
+// Parse a numeric criterion like ">50M", "<=2B", "2022", "<2020"
+// Returns { op: '>=|<=|>|<|=', val: number } or null
+function parseNumCriterion(str) {
+  if (!str) return null;
+  const m = /^(>=|<=|>|<|=)?\s*(\d+(?:\.\d+)?)([KMBT]?)$/i.exec(str.trim());
+  if (!m) return null;
+  let val = parseFloat(m[2]);
+  const suffix = (m[3] || '').toUpperCase();
+  if (suffix === 'K') val *= 1e3;
+  else if (suffix === 'M') val *= 1e6;
+  else if (suffix === 'B') val *= 1e9;
+  else if (suffix === 'T') val *= 1e12;
+  return { op: m[1] || '=', val };
+}
+
+// Normalize a money string like "$2.5B+" or "$50M" to a number.
+function moneyToNumber(s) {
+  if (!s) return null;
+  const m = /^[~$]?\s*(\d+(?:\.\d+)?)\s*([KMBT]?)/i.exec(String(s).replace(/,/g, ''));
+  if (!m) return null;
+  let val = parseFloat(m[1]);
+  const suffix = (m[2] || '').toUpperCase();
+  if (suffix === 'K') val *= 1e3;
+  else if (suffix === 'M') val *= 1e6;
+  else if (suffix === 'B') val *= 1e9;
+  else if (suffix === 'T') val *= 1e12;
+  return val;
+}
+
+// Apply a parsed numeric criterion to a value.
+function matchesNumCriterion(value, criterion) {
+  if (criterion == null || value == null) return true;
+  switch (criterion.op) {
+    case '>':  return value >  criterion.val;
+    case '<':  return value <  criterion.val;
+    case '>=': return value >= criterion.val;
+    case '<=': return value <= criterion.val;
+    case '=': default: return Math.abs(value - criterion.val) / Math.max(1, criterion.val) < 0.05;
+  }
+}
+
 function performGlobalSearch(query) {
   const results = { companies: [], sectors: [], investors: [], totalCompanyMatches: 0 };
   const maxResults = 10;
 
+  // Smart filter parsing — extract `field:value` pairs from the query
+  const { filters, residualText } = parseSmartFilters(query);
+  const fuzzyText = residualText || query;
+  const hasFilters = Object.keys(filters).length > 0;
+
   // Search companies with fuzzy matching across extended fields
   if (typeof COMPANIES !== 'undefined') {
-    const scored = COMPANIES.map(c => {
+    // Pre-filter by structured criteria
+    let pool = COMPANIES;
+    if (hasFilters) {
+      pool = pool.filter(c => {
+        if (filters.sector && !(c.sector || '').toLowerCase().includes(filters.sector.toLowerCase())) return false;
+        if (filters.founder && !(c.founder || '').toLowerCase().includes(filters.founder.toLowerCase())) return false;
+        if (filters.location && !(c.location || '').toLowerCase().includes(filters.location.toLowerCase())) return false;
+        if (filters.thesis && !(c.thesisCluster || '').toLowerCase().includes(filters.thesis.toLowerCase())) return false;
+        if (filters.stage) {
+          const stageQuery = filters.stage.toLowerCase().replace(/-/g, ' ');
+          if (!(c.fundingStage || '').toLowerCase().includes(stageQuery)) return false;
+        }
+        if (filters.raised) {
+          const crit = parseNumCriterion(filters.raised);
+          const num = moneyToNumber(c.totalRaised);
+          if (crit && !matchesNumCriterion(num, crit)) return false;
+        }
+        if (filters.founded) {
+          const crit = parseNumCriterion(filters.founded);
+          if (crit && !matchesNumCriterion(c.founded, crit)) return false;
+        }
+        return true;
+      });
+    }
+
+    const scored = pool.map(c => {
       const fields = {
         name: c.name || '',
         sector: c.sector || '',
@@ -3454,11 +3603,15 @@ function performGlobalSearch(query) {
         tags: (c.tags || []).join(' '),
         thesisCluster: c.thesisCluster || ''
       };
+      // If we have filters but no fuzzy text, accept all in pool with neutral score
+      if (hasFilters && !fuzzyText.trim()) {
+        return { company: c, score: 1, matchedField: 'filter' };
+      }
       // Score each field and track best match
       let bestScore = 0;
       let matchedField = '';
       for (const [fieldName, fieldValue] of Object.entries(fields)) {
-        const score = fuzzyScore(query, fieldValue);
+        const score = fuzzyScore(fuzzyText, fieldValue);
         if (score > bestScore) {
           bestScore = score;
           matchedField = fieldName;
