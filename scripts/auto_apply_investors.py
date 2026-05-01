@@ -125,11 +125,20 @@ def format_value(field, verified_val):
     if verified_val is None or verified_val == "" or verified_val == []:
         return None
 
-    # Array fields
-    if field in ('keyPartners', 'sectorFocus', 'portfolioCompanies'):
+    # Array fields — field-specific caps
+    # portfolioCompanies can grow large (Founders Fund had 31 already);
+    # we cap at 200 just to prevent runaway, but in practice it's the union
+    # of curated + reverse-indexed and that union is bounded by the COMPANIES list.
+    ARRAY_CAPS = {
+        'keyPartners':       12,    # senior partners only — keep tight
+        'sectorFocus':       10,    # 5-7 sectors typical
+        'portfolioCompanies': 200,  # don't truncate real portfolios
+    }
+    if field in ARRAY_CAPS:
         if not isinstance(verified_val, list):
             return None
-        items = verified_val[:25]  # cap
+        cap = ARRAY_CAPS[field]
+        items = verified_val[:cap]
         items_str = ', '.join('"' + str(i).replace('\\', '\\\\').replace('"', '\\"') + '"'
                               for i in items)
         return f'[{items_str}]'
