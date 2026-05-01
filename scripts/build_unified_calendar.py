@@ -506,6 +506,69 @@ def load_earnings(today):
     return events
 
 
+def load_federal_register(today):
+    """Federal Register entries (regulatory notices)."""
+    d = parse_js_array(DATA / "federal_register_auto.js", "FEDERAL_REGISTER")
+    if not d: return []
+    events = []
+    for r in d:
+        date = parse_date(r.get("date"))
+        if not date: continue
+        agencies = r.get("agencies") or ""
+        # Classify by agency for better cluster mapping
+        ag = agencies.lower()
+        if "nuclear regulatory" in ag: ev_type, sector = "nrc", "nuclear"
+        elif "aviation" in ag or "faa" in ag: ev_type, sector = "faa", "space"
+        elif "energy department" in ag or "doe" in ag: ev_type, sector = "doe", "energy"
+        elif "food and drug" in ag or "fda" in ag: ev_type, sector = "fda", "bio"
+        elif "defense" in ag or "army" in ag: ev_type, sector = "fedreg", "defense"
+        else: ev_type, sector = "fedreg", "other"
+        events.append({
+            "id": make_id("fedreg", date, r.get("docNum", "")),
+            "date": date,
+            "type": ev_type,
+            "title": (r.get("title") or "Federal Register notice")[:120],
+            "description": f"{agencies}{(' · Sectors: ' + r.get('sectors', '')) if r.get('sectors') else ''} · Type: {r.get('type', '')}",
+            "companies": [],
+            "sector": sector,
+            "source": "Federal Register",
+            "sourceUrl": f"https://www.federalregister.gov/d/{r.get('docNum', '')}",
+            "raw": r,
+        })
+    return events
+
+
+def load_doe_programs(today):
+    """DOE program funding announcements from data/doe_programs_auto.js."""
+    d = parse_js_array(DATA / "doe_programs_auto.js", "DOE_PROGRAMS")
+    if not d: return []
+    events = []
+    for r in d:
+        date = parse_date(r.get("lastUpdate"))
+        if not date: continue
+        program = r.get("program") or ""
+        cos_str = r.get("companies") or ""
+        cos = [c.strip() for c in cos_str.split(",") if c.strip()] if cos_str else []
+        events.append({
+            "id": make_id("doe", date, program),
+            "date": date,
+            "type": "doe",
+            "title": f"DOE: {program}"[:120],
+            "description": (
+                f"{r.get('agency', 'DOE')} · "
+                f"Status: {r.get('status', '')} · "
+                f"Funding: ${r.get('funding', 'N/A')}B · "
+                f"{(r.get('description') or '')[:200]}"
+            ),
+            "companies": cos,
+            "sector": infer_sector(program + " " + (r.get("description") or "")),
+            "source": r.get("agency") or "DOE",
+            "sourceUrl": "https://www.energy.gov/",
+            "raw": r,
+        })
+    return events
+
+
 def load_calendar_events(today):
     """Industry events / conferences from FRONTIER_EVENTS in calendar.js."""
     if not (ROOT / "calendar.js").exists(): return []
@@ -540,6 +603,8 @@ LOADERS = [
     ("faa",      load_faa),
     ("nrc",      load_nrc),
     ("fcc",      load_fcc),
+    ("fedreg",   load_federal_register),
+    ("doe",      load_doe_programs),
     ("formd",    load_form_d),
     ("sbir",     load_sbir),
     ("earnings", load_earnings),

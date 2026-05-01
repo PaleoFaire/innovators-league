@@ -266,106 +266,114 @@ let regTimelineData = [];
 let regTimelineShown = 0;
 const REG_TIMELINE_PAGE_SIZE = 30;
 
+// REFACTORED (Sprint 2b): consumes the unified Catalyst Calendar feed
+// (data/catalyst_calendar.json) instead of merging 4 separate source
+// files with bespoke logic. Adding a new event source upstream now
+// shows up here automatically — no code change needed.
+//
+// Falls back to the original per-source merge if the unified feed is
+// unavailable (older browsers, bad network, builder failure).
+const REG_TIMELINE_TYPES = new Set(['fda', 'nrc', 'faa', 'fcc', 'doe', 'fedreg', 'trial']);
+
 function initRegTimeline() {
-  const fda = getFDAActions();
-  const fedReg = getFedRegister();
-  const trials = getClinicalTrials();
-  const doe = getDOEPrograms();
-  const entries = [];
-
-  // FDA entries
-  fda.forEach(a => {
-    entries.push({
-      date: a.date || '',
-      type: 'fda',
-      badgeClass: 'badge-fda',
-      badgeLabel: 'FDA',
-      agency: 'FDA',
-      title: a.product || 'FDA Action',
-      company: a.company || '',
-      desc: 'Device 510(k) — Status: ' + (a.status || 'N/A'),
-      dotColor: '#3b82f6'
+  fetch('data/catalyst_calendar.json?v=' + Date.now(), { cache: 'no-store' })
+    .then((r) => (r.ok ? r.json() : null))
+    .then((feed) => {
+      if (feed && Array.isArray(feed.events)) {
+        regTimelineData = feed.events
+          .filter((e) => REG_TIMELINE_TYPES.has(e.type))
+          .map(unifiedToTimelineEntry)
+          .sort(sortByDateDesc);
+      } else {
+        // Fallback: legacy per-source merge
+        regTimelineData = legacyMergedEntries().sort(sortByDateDesc);
+      }
+      regTimelineShown = 0;
+      renderTimelineBatch();
+      const btn = document.getElementById('btn-load-more-timeline');
+      if (btn) btn.addEventListener('click', renderTimelineBatch);
+    })
+    .catch(() => {
+      regTimelineData = legacyMergedEntries().sort(sortByDateDesc);
+      regTimelineShown = 0;
+      renderTimelineBatch();
     });
-  });
+}
 
-  // Federal Register entries
-  fedReg.forEach(r => {
-    let agency = 'Federal Register';
-    let badgeClass = 'badge-fedreg';
-    let badgeLabel = 'FedReg';
-    let dotColor = '#9ca3af';
-    const agStr = (r.agencies || '').toLowerCase();
+// Map a unified-feed event to the timeline-entry shape the existing
+// renderer expects.
+function unifiedToTimelineEntry(e) {
+  const meta = {
+    fda:    { agency: 'FDA',                badgeClass: 'badge-fda',    badgeLabel: 'FDA',    dotColor: '#3b82f6' },
+    nrc:    { agency: 'NRC',                badgeClass: 'badge-nrc',    badgeLabel: 'NRC',    dotColor: '#22c55e' },
+    faa:    { agency: 'FAA',                badgeClass: 'badge-faa',    badgeLabel: 'FAA',    dotColor: '#f97316' },
+    fcc:    { agency: 'FCC',                badgeClass: 'badge-fda',    badgeLabel: 'FCC',    dotColor: '#06b6d4' },
+    doe:    { agency: 'DOE',                badgeClass: 'badge-doe',    badgeLabel: 'DOE',    dotColor: '#a855f7' },
+    fedreg: { agency: 'Federal Register',   badgeClass: 'badge-fedreg', badgeLabel: 'FedReg', dotColor: '#9ca3af' },
+    trial:  { agency: 'ClinicalTrials.gov', badgeClass: 'badge-trial',  badgeLabel: 'Trial',  dotColor: '#ec4899' },
+  }[e.type] || { agency: e.source || '', badgeClass: 'badge-fedreg', badgeLabel: e.type, dotColor: '#9ca3af' };
 
-    if (agStr.includes('nuclear regulatory')) {
-      agency = 'NRC'; badgeClass = 'badge-nrc'; badgeLabel = 'NRC'; dotColor = '#22c55e';
-    } else if (agStr.includes('aviation') || agStr.includes('faa')) {
-      agency = 'FAA'; badgeClass = 'badge-faa'; badgeLabel = 'FAA'; dotColor = '#f97316';
-    } else if (agStr.includes('energy department') || agStr.includes('doe')) {
-      agency = 'DOE'; badgeClass = 'badge-doe'; badgeLabel = 'DOE'; dotColor = '#a855f7';
-    } else if (agStr.includes('food and drug') || agStr.includes('fda')) {
-      agency = 'FDA'; badgeClass = 'badge-fda'; badgeLabel = 'FDA'; dotColor = '#3b82f6';
-    }
-
-    entries.push({
-      date: r.date || '',
-      type: 'fedreg',
-      badgeClass: badgeClass,
-      badgeLabel: badgeLabel,
-      agency: r.agencies || agency,
-      title: r.title || 'Federal Register Entry',
-      company: '',
-      desc: (r.type || '') + (r.sectors ? ' — Sectors: ' + r.sectors : ''),
-      dotColor: dotColor
-    });
-  });
-
-  // Clinical trial entries
-  trials.forEach(t => {
-    entries.push({
-      date: t.lastUpdated || '',
-      type: 'trial',
-      badgeClass: 'badge-trial',
-      badgeLabel: t.phase && t.phase !== 'N/A' && t.phase !== 'NA' ? t.phase.replace('PHASE', 'Ph') : 'Trial',
-      agency: 'ClinicalTrials.gov',
-      title: t.title || 'Clinical Trial',
-      company: t.sponsor || '',
-      desc: (t.conditions || '') + (t.enrollment ? ' — Enrollment: ' + t.enrollment : ''),
-      dotColor: '#ec4899'
-    });
-  });
-
-  // DOE program entries
-  doe.forEach(d => {
-    entries.push({
-      date: d.lastUpdate || '',
-      type: 'doe',
-      badgeClass: 'badge-doe',
-      badgeLabel: 'DOE',
-      agency: d.agency || 'DOE',
-      title: d.program || 'DOE Program',
-      company: d.companies || '',
-      desc: (d.status || '') + ' — Funding: $' + (d.funding || 'N/A'),
-      dotColor: '#a855f7'
-    });
-  });
-
-  // Sort by date, newest first
-  entries.sort((a, b) => {
-    if (!a.date && !b.date) return 0;
-    if (!a.date) return 1;
-    if (!b.date) return -1;
-    return b.date.localeCompare(a.date);
-  });
-
-  regTimelineData = entries;
-  regTimelineShown = 0;
-  renderTimelineBatch();
-
-  // Load more button
-  const btn = document.getElementById('btn-load-more-timeline');
-  if (btn) {
-    btn.addEventListener('click', renderTimelineBatch);
+  // For trials, prefer the phase from raw data when present
+  let badgeLabel = meta.badgeLabel;
+  if (e.type === 'trial' && e.raw && e.raw.phase && e.raw.phase !== 'N/A' && e.raw.phase !== 'NA') {
+    badgeLabel = String(e.raw.phase).replace('PHASE', 'Ph');
   }
+
+  return {
+    date: e.date || '',
+    type: e.type,
+    badgeClass: meta.badgeClass,
+    badgeLabel: badgeLabel,
+    agency: meta.agency,
+    title: e.title || `${meta.agency} entry`,
+    company: (e.companies && e.companies[0]) || '',
+    desc: e.description || '',
+    dotColor: meta.dotColor,
+  };
+}
+
+function sortByDateDesc(a, b) {
+  if (!a.date && !b.date) return 0;
+  if (!a.date) return 1;
+  if (!b.date) return -1;
+  return b.date.localeCompare(a.date);
+}
+
+// Legacy fallback — re-creates the original merge logic if the unified
+// feed can't be loaded. Preserves resilience on offline mode / network
+// hiccups / builder failures.
+function legacyMergedEntries() {
+  const entries = [];
+  getFDAActions().forEach((a) => entries.push({
+    date: a.date || '', type: 'fda', badgeClass: 'badge-fda', badgeLabel: 'FDA',
+    agency: 'FDA', title: a.product || 'FDA Action', company: a.company || '',
+    desc: 'Device 510(k) — Status: ' + (a.status || 'N/A'), dotColor: '#3b82f6'
+  }));
+  getFedRegister().forEach((r) => {
+    const agStr = (r.agencies || '').toLowerCase();
+    let agency = 'Federal Register', badgeClass = 'badge-fedreg', badgeLabel = 'FedReg', dotColor = '#9ca3af';
+    if (agStr.includes('nuclear regulatory')) { agency = 'NRC'; badgeClass = 'badge-nrc'; badgeLabel = 'NRC'; dotColor = '#22c55e'; }
+    else if (agStr.includes('aviation') || agStr.includes('faa')) { agency = 'FAA'; badgeClass = 'badge-faa'; badgeLabel = 'FAA'; dotColor = '#f97316'; }
+    else if (agStr.includes('energy department') || agStr.includes('doe')) { agency = 'DOE'; badgeClass = 'badge-doe'; badgeLabel = 'DOE'; dotColor = '#a855f7'; }
+    else if (agStr.includes('food and drug') || agStr.includes('fda')) { agency = 'FDA'; badgeClass = 'badge-fda'; badgeLabel = 'FDA'; dotColor = '#3b82f6'; }
+    entries.push({
+      date: r.date || '', type: 'fedreg', badgeClass, badgeLabel, agency: r.agencies || agency,
+      title: r.title || 'Federal Register Entry', company: '',
+      desc: (r.type || '') + (r.sectors ? ' — Sectors: ' + r.sectors : ''), dotColor
+    });
+  });
+  getClinicalTrials().forEach((t) => entries.push({
+    date: t.lastUpdated || '', type: 'trial', badgeClass: 'badge-trial',
+    badgeLabel: t.phase && t.phase !== 'N/A' && t.phase !== 'NA' ? t.phase.replace('PHASE', 'Ph') : 'Trial',
+    agency: 'ClinicalTrials.gov', title: t.title || 'Clinical Trial', company: t.sponsor || '',
+    desc: (t.conditions || '') + (t.enrollment ? ' — Enrollment: ' + t.enrollment : ''), dotColor: '#ec4899'
+  }));
+  getDOEPrograms().forEach((d) => entries.push({
+    date: d.lastUpdate || '', type: 'doe', badgeClass: 'badge-doe', badgeLabel: 'DOE',
+    agency: d.agency || 'DOE', title: d.program || 'DOE Program', company: d.companies || '',
+    desc: (d.status || '') + ' — Funding: $' + (d.funding || 'N/A'), dotColor: '#a855f7'
+  }));
+  return entries;
 }
 
 function renderTimelineBatch() {

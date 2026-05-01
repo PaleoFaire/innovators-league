@@ -1,15 +1,17 @@
 {
-  "generatedAt": "2026-05-01T04:07:44+00:00",
+  "generatedAt": "2026-05-01T04:25:47+00:00",
   "windowPastDays": 365,
   "windowFutureDays": 730,
   "todayUTC": "2026-05-01",
-  "totalEvents": 199,
+  "totalEvents": 241,
   "bySource": {
     "fda": 5,
     "trial": 82,
     "faa": 27,
     "nrc": 30,
     "fcc": 12,
+    "fedreg": 30,
+    "doe": 12,
     "formd": 10,
     "sbir": 10,
     "earnings": 25,
@@ -19,18 +21,20 @@
     "trial": 82,
     "sbir": 10,
     "conf": 10,
-    "faa": 27,
-    "nrc": 30,
+    "faa": 28,
+    "nrc": 32,
+    "fedreg": 26,
+    "fda": 6,
     "formd": 10,
     "fcc": 12,
-    "earnings": 13,
-    "fda": 5
+    "doe": 12,
+    "earnings": 13
   },
   "byImportance": {
     "urgent": 2,
     "high": 3,
     "medium": 20,
-    "low": 174
+    "low": 216
   },
   "events": [
     {
@@ -4042,6 +4046,424 @@
       "importance": "low"
     },
     {
+      "id": "6d8d5fcf1eefa3de",
+      "date": "2026-04-30",
+      "type": "fedreg",
+      "title": "Submission for OMB Review; Comment Request",
+      "description": "Defense Department, Army Department \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08440",
+      "raw": {
+        "docNum": "2026-08440",
+        "title": "Submission for OMB Review; Comment Request",
+        "type": "Notice",
+        "date": "2026-04-30",
+        "agencies": "Defense Department, Army Department",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "f74bbc30041ba4a4",
+      "date": "2026-04-30",
+      "type": "fedreg",
+      "title": "Privacy Act of 1974; System of Records",
+      "description": "Defense Department, Navy Department \u00b7 Sectors: defense, ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08431",
+      "raw": {
+        "docNum": "2026-08431",
+        "title": "Privacy Act of 1974; System of Records",
+        "type": "Notice",
+        "date": "2026-04-30",
+        "agencies": "Defense Department, Navy Department",
+        "sectors": "defense, ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "506c3bc009c9082a",
+      "date": "2026-04-30",
+      "type": "fedreg",
+      "title": "Prairie Island Indian Community in the State of Minnesota; Alcohol and Controlle",
+      "description": "Interior Department, Indian Affairs Bureau \u00b7 Sectors: ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08422",
+      "raw": {
+        "docNum": "2026-08422",
+        "title": "Prairie Island Indian Community in the State of Minnesota; Alcohol and Controlle",
+        "type": "Notice",
+        "date": "2026-04-30",
+        "agencies": "Interior Department, Indian Affairs Bureau",
+        "sectors": "ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "d6ae77f210791d4f",
+      "date": "2026-04-30",
+      "type": "nrc",
+      "title": "In the Matter of SHINE Technologies, LLC; SHINE Medical Isotope Production Facil",
+      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "nuclear",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08415",
+      "raw": {
+        "docNum": "2026-08415",
+        "title": "In the Matter of SHINE Technologies, LLC; SHINE Medical Isotope Production Facil",
+        "type": "Notice",
+        "date": "2026-04-30",
+        "agencies": "Nuclear Regulatory Commission",
+        "sectors": "defense, nuclear",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "324defb655c6a876",
+      "date": "2026-04-30",
+      "type": "fedreg",
+      "title": "Procurement List; Deletions",
+      "description": "Committee for Purchase From People Who Are Blind or Severely Disabled \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08393",
+      "raw": {
+        "docNum": "2026-08393",
+        "title": "Procurement List; Deletions",
+        "type": "Notice",
+        "date": "2026-04-30",
+        "agencies": "Committee for Purchase From People Who Are Blind or Severely Disabled",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "35156786dc517e80",
+      "date": "2026-04-30",
+      "type": "fedreg",
+      "title": "Agency Information Collection Activities; Renewal of an Approved Information Col",
+      "description": "Transportation Department, Federal Motor Carrier Safety Administration \u00b7 Sectors: ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08391",
+      "raw": {
+        "docNum": "2026-08391",
+        "title": "Agency Information Collection Activities; Renewal of an Approved Information Col",
+        "type": "Notice",
+        "date": "2026-04-30",
+        "agencies": "Transportation Department, Federal Motor Carrier Safety Administration",
+        "sectors": "ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "386f509c12a57a3c",
+      "date": "2026-04-30",
+      "type": "fedreg",
+      "title": "Agency Information Collection Activities; Proposed Renewal; Comment Request; Ren",
+      "description": "Treasury Department, Financial Crimes Enforcement Network \u00b7 Sectors: defense, ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08363",
+      "raw": {
+        "docNum": "2026-08363",
+        "title": "Agency Information Collection Activities; Proposed Renewal; Comment Request; Ren",
+        "type": "Notice",
+        "date": "2026-04-30",
+        "agencies": "Treasury Department, Financial Crimes Enforcement Network",
+        "sectors": "defense, ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "32920afbfbeb7b40",
+      "date": "2026-04-30",
+      "type": "fedreg",
+      "title": "Privacy Act of 1974; System of Records",
+      "description": "Postal Service \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08376",
+      "raw": {
+        "docNum": "2026-08376",
+        "title": "Privacy Act of 1974; System of Records",
+        "type": "Notice",
+        "date": "2026-04-30",
+        "agencies": "Postal Service",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "8712ea65ed210a24",
+      "date": "2026-04-30",
+      "type": "faa",
+      "title": "Establishment of Prohibited Area P-75; New York, NY",
+      "description": "Transportation Department, Federal Aviation Administration \u00b7 Sectors: defense, ai \u00b7 Type: Proposed Rule",
+      "companies": [],
+      "sector": "space",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08430",
+      "raw": {
+        "docNum": "2026-08430",
+        "title": "Establishment of Prohibited Area P-75; New York, NY",
+        "type": "Proposed Rule",
+        "date": "2026-04-30",
+        "agencies": "Transportation Department, Federal Aviation Administration",
+        "sectors": "defense, ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "5f4ed47e3c17d2d7",
+      "date": "2026-04-30",
+      "type": "fedreg",
+      "title": "Utah; Northern Wasatch Front; 2015 8-Hour Ozone National Ambient Air Quality Sta",
+      "description": "Environmental Protection Agency \u00b7 Sectors: ai \u00b7 Type: Proposed Rule",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08372",
+      "raw": {
+        "docNum": "2026-08372",
+        "title": "Utah; Northern Wasatch Front; 2015 8-Hour Ozone National Ambient Air Quality Sta",
+        "type": "Proposed Rule",
+        "date": "2026-04-30",
+        "agencies": "Environmental Protection Agency",
+        "sectors": "ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "e51ad6863c805886",
+      "date": "2026-04-29",
+      "type": "fedreg",
+      "title": "Privacy Act of 1974; Systems of Records",
+      "description": "Justice Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08317",
+      "raw": {
+        "docNum": "2026-08317",
+        "title": "Privacy Act of 1974; Systems of Records",
+        "type": "Notice",
+        "date": "2026-04-29",
+        "agencies": "Justice Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "10cb26a30fee1bfa",
+      "date": "2026-04-29",
+      "type": "fda",
+      "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request fo",
+      "description": "Health and Human Services Department, Food and Drug Administration \u00b7 Sectors: defense, ai, biotech \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "bio",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08281",
+      "raw": {
+        "docNum": "2026-08281",
+        "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request fo",
+        "type": "Notice",
+        "date": "2026-04-29",
+        "agencies": "Health and Human Services Department, Food and Drug Administration",
+        "sectors": "defense, ai, biotech",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "ddbcba3150f519f1",
+      "date": "2026-04-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department, Navy Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08312",
+      "raw": {
+        "docNum": "2026-08312",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-04-29",
+        "agencies": "Defense Department, Navy Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "467f8b798e9ae181",
+      "date": "2026-04-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department, Navy Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08296",
+      "raw": {
+        "docNum": "2026-08296",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-04-29",
+        "agencies": "Defense Department, Navy Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "090bdc44b7298ff2",
+      "date": "2026-04-29",
+      "type": "fedreg",
+      "title": "Submission for OMB Review; Comment Request",
+      "description": "Defense Department, Navy Department \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08295",
+      "raw": {
+        "docNum": "2026-08295",
+        "title": "Submission for OMB Review; Comment Request",
+        "type": "Notice",
+        "date": "2026-04-29",
+        "agencies": "Defense Department, Navy Department",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "75c1e06c3f8330b9",
+      "date": "2026-04-29",
+      "type": "fedreg",
+      "title": "Submission for OMB Review; Comment Request",
+      "description": "Defense Department,  \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08294",
+      "raw": {
+        "docNum": "2026-08294",
+        "title": "Submission for OMB Review; Comment Request",
+        "type": "Notice",
+        "date": "2026-04-29",
+        "agencies": "Defense Department, ",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "de625ac9d30b0703",
+      "date": "2026-04-29",
+      "type": "fedreg",
+      "title": "Submission for OMB Review; Comment Request",
+      "description": "Defense Department, Air Force Department \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08292",
+      "raw": {
+        "docNum": "2026-08292",
+        "title": "Submission for OMB Review; Comment Request",
+        "type": "Notice",
+        "date": "2026-04-29",
+        "agencies": "Defense Department, Air Force Department",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "b840a8359dcd7ec2",
+      "date": "2026-04-29",
+      "type": "fedreg",
+      "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammal",
+      "description": "Commerce Department, National Oceanic and Atmospheric Administration \u00b7 Sectors: defense, ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08299",
+      "raw": {
+        "docNum": "2026-08299",
+        "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammal",
+        "type": "Notice",
+        "date": "2026-04-29",
+        "agencies": "Commerce Department, National Oceanic and Atmospheric Administration",
+        "sectors": "defense, ai",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "87630b0fdedfecd1",
+      "date": "2026-04-29",
+      "type": "fedreg",
+      "title": "Management of Federal Agency Disbursements",
+      "description": "Treasury Department, Fiscal Service \u00b7 Type: Proposed Rule",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08278",
+      "raw": {
+        "docNum": "2026-08278",
+        "title": "Management of Federal Agency Disbursements",
+        "type": "Proposed Rule",
+        "date": "2026-04-29",
+        "agencies": "Treasury Department, Fiscal Service",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -2,
+      "importance": "low"
+    },
+    {
       "id": "8c3f53c4ce1850da",
       "date": "2026-04-29",
       "type": "formd",
@@ -4199,6 +4621,248 @@
         "is_safe": false
       },
       "daysOut": -2,
+      "importance": "low"
+    },
+    {
+      "id": "38c67233ba88d4da",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Self-Regulatory Organizations; Cboe EDGX Exchange, Inc.; Notice of Filing and Im",
+      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08189",
+      "raw": {
+        "docNum": "2026-08189",
+        "title": "Self-Regulatory Organizations; Cboe EDGX Exchange, Inc.; Notice of Filing and Im",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Securities and Exchange Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "624e9b61a5be7bdd",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Self-Regulatory Organizations; Cboe BZX Exchange, Inc.; Notice of Filing and Imm",
+      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08188",
+      "raw": {
+        "docNum": "2026-08188",
+        "title": "Self-Regulatory Organizations; Cboe BZX Exchange, Inc.; Notice of Filing and Imm",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Securities and Exchange Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "f0713346b29337bb",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Self-Regulatory Organizations; Cboe C2 Exchange, Inc.; Notice of Filing and Imme",
+      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08187",
+      "raw": {
+        "docNum": "2026-08187",
+        "title": "Self-Regulatory Organizations; Cboe C2 Exchange, Inc.; Notice of Filing and Imme",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Securities and Exchange Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "1a81313e35b89cb8",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immedia",
+      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08186",
+      "raw": {
+        "docNum": "2026-08186",
+        "title": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immedia",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Securities and Exchange Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "c5d0bd011f4b29e1",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Self-Regulatory Organizations; Cboe BZX Exchange, Inc.; Notice of Filing and Imm",
+      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08184",
+      "raw": {
+        "docNum": "2026-08184",
+        "title": "Self-Regulatory Organizations; Cboe BZX Exchange, Inc.; Notice of Filing and Imm",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Securities and Exchange Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "f162a48f47a94ff4",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Self-Regulatory Organizations; Cboe BYX Exchange, Inc.; Notice of Filing and Imm",
+      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08183",
+      "raw": {
+        "docNum": "2026-08183",
+        "title": "Self-Regulatory Organizations; Cboe BYX Exchange, Inc.; Notice of Filing and Imm",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Securities and Exchange Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "fac02bdc57948736",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Self-Regulatory Organizations; Cboe EDGX Exchange, Inc.; Notice of Filing and Im",
+      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08181",
+      "raw": {
+        "docNum": "2026-08181",
+        "title": "Self-Regulatory Organizations; Cboe EDGX Exchange, Inc.; Notice of Filing and Im",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Securities and Exchange Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "ee92852b315c747f",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Self-Regulatory Organizations; Cboe EDGA Exchange, Inc.; Notice of Filing and Im",
+      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08180",
+      "raw": {
+        "docNum": "2026-08180",
+        "title": "Self-Regulatory Organizations; Cboe EDGA Exchange, Inc.; Notice of Filing and Im",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Securities and Exchange Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "f272af98fe3af7b7",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Request for Information",
+      "description": "National Science Foundation \u00b7 Sectors: ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08226",
+      "raw": {
+        "docNum": "2026-08226",
+        "title": "Request for Information",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "National Science Foundation",
+        "sectors": "ai",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "d685726820a0e570",
+      "date": "2026-04-28",
+      "type": "nrc",
+      "title": "Duke Energy Carolinas, LLC; Catawba Nuclear Station, Units 1 and 2; Independent ",
+      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear, ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "nuclear",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08219",
+      "raw": {
+        "docNum": "2026-08219",
+        "title": "Duke Energy Carolinas, LLC; Catawba Nuclear Station, Units 1 and 2; Independent ",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Nuclear Regulatory Commission",
+        "sectors": "defense, nuclear, ai",
+        "significant": false
+      },
+      "daysOut": -3,
+      "importance": "low"
+    },
+    {
+      "id": "dd3aea2dde37532e",
+      "date": "2026-04-28",
+      "type": "fedreg",
+      "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Militar",
+      "description": "Commerce Department, National Oceanic and Atmospheric Administration \u00b7 Sectors: defense, ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-08207",
+      "raw": {
+        "docNum": "2026-08207",
+        "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Militar",
+        "type": "Notice",
+        "date": "2026-04-28",
+        "agencies": "Commerce Department, National Oceanic and Atmospheric Administration",
+        "sectors": "defense, ai",
+        "significant": false
+      },
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4550,6 +5214,33 @@
       "importance": "low"
     },
     {
+      "id": "11d83e34d640f952",
+      "date": "2026-04-05",
+      "type": "doe",
+      "title": "DOE: Loan Programs Office (LPO) \u2014 Title 17",
+      "description": "DOE Loan Programs Office \u00b7 Status: Active \u00b7 Funding: $400BB \u00b7 Loan guarantees for innovative energy projects; ~$400B lending authority.",
+      "companies": [
+        "Holtec Palisades",
+        "TerraPower Natrium",
+        "X-energy",
+        "Monolith"
+      ],
+      "sector": "other",
+      "source": "DOE Loan Programs Office",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Loan Programs Office (LPO) \u2014 Title 17",
+        "agency": "DOE Loan Programs Office",
+        "companies": "Holtec Palisades, TerraPower Natrium, X-energy, Monolith",
+        "funding": "400B",
+        "status": "Active",
+        "description": "Loan guarantees for innovative energy projects; ~$400B lending authority.",
+        "lastUpdate": "2026-04-05"
+      },
+      "daysOut": -26,
+      "importance": "low"
+    },
+    {
       "id": "8b7ddaaa5fe431eb",
       "date": "2026-04-02",
       "type": "fcc",
@@ -4574,6 +5265,33 @@
         "matched_company": "Hermeus"
       },
       "daysOut": -29,
+      "importance": "low"
+    },
+    {
+      "id": "f6f0a3edea19dab6",
+      "date": "2026-04-01",
+      "type": "doe",
+      "title": "DOE: Advanced Reactor Demonstration Program (ARDP)",
+      "description": "DOE Office of Nuclear Energy \u00b7 Status: Active \u00b7 Funding: $3.2BB \u00b7 Funding for advanced reactor demonstrations (Natrium, Xe-100).",
+      "companies": [
+        "TerraPower",
+        "X-energy",
+        "Kairos Power",
+        "Westinghouse"
+      ],
+      "sector": "nuclear",
+      "source": "DOE Office of Nuclear Energy",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Advanced Reactor Demonstration Program (ARDP)",
+        "agency": "DOE Office of Nuclear Energy",
+        "companies": "TerraPower, X-energy, Kairos Power, Westinghouse",
+        "funding": "3.2B",
+        "status": "Active",
+        "description": "Funding for advanced reactor demonstrations (Natrium, Xe-100).",
+        "lastUpdate": "2026-04-01"
+      },
+      "daysOut": -30,
       "importance": "low"
     },
     {
@@ -4675,6 +5393,34 @@
       "importance": "low"
     },
     {
+      "id": "edd8577860a23823",
+      "date": "2026-03-28",
+      "type": "doe",
+      "title": "DOE: Fusion Energy Sciences",
+      "description": "DOE Office of Science \u00b7 Status: Active \u00b7 Funding: $915MB \u00b7 Fusion R&D; FY2026 appropriation includes $58M for the Fusion Innovation Research Engine (FIRE).",
+      "companies": [
+        "Commonwealth Fusion Systems",
+        "TAE Technologies",
+        "Helion",
+        "General Fusion",
+        "Zap Energy"
+      ],
+      "sector": "nuclear",
+      "source": "DOE Office of Science",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Fusion Energy Sciences",
+        "agency": "DOE Office of Science",
+        "companies": "Commonwealth Fusion Systems, TAE Technologies, Helion, General Fusion, Zap Energy",
+        "funding": "915M",
+        "status": "Active",
+        "description": "Fusion R&D; FY2026 appropriation includes $58M for the Fusion Innovation Research Engine (FIRE).",
+        "lastUpdate": "2026-03-28"
+      },
+      "daysOut": -34,
+      "importance": "low"
+    },
+    {
       "id": "9d38f75bcc59f758",
       "date": "2026-03-20",
       "type": "fcc",
@@ -4699,6 +5445,61 @@
         "matched_company": "Picogrid"
       },
       "daysOut": -42,
+      "importance": "low"
+    },
+    {
+      "id": "e87f9038c642021f",
+      "date": "2026-03-20",
+      "type": "doe",
+      "title": "DOE: Microreactor Program",
+      "description": "DOE/DoD \u00b7 Status: Expanded FY2026 \u00b7 Funding: $250MB \u00b7 Transportable microreactors (DoD Project Pele, DOE MARVEL).",
+      "companies": [
+        "Oklo",
+        "Radiant",
+        "Westinghouse",
+        "X-energy",
+        "Antares",
+        "Last Energy"
+      ],
+      "sector": "nuclear",
+      "source": "DOE/DoD",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Microreactor Program",
+        "agency": "DOE/DoD",
+        "companies": "Oklo, Radiant, Westinghouse, X-energy, Antares, Last Energy",
+        "funding": "250M",
+        "status": "Expanded FY2026",
+        "description": "Transportable microreactors (DoD Project Pele, DOE MARVEL).",
+        "lastUpdate": "2026-03-20"
+      },
+      "daysOut": -42,
+      "importance": "low"
+    },
+    {
+      "id": "ce7ee0f1aade1590",
+      "date": "2026-03-15",
+      "type": "doe",
+      "title": "DOE: HALEU Availability Program",
+      "description": "DOE Office of Nuclear Energy \u00b7 Status: Expanded FY2026 \u00b7 Funding: $2.7BB \u00b7 High-assay low-enriched uranium production \u2014 2026 appropriation boosted to $2.7B.",
+      "companies": [
+        "Centrus Energy",
+        "Urenco",
+        "General Matter"
+      ],
+      "sector": "nuclear",
+      "source": "DOE Office of Nuclear Energy",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "HALEU Availability Program",
+        "agency": "DOE Office of Nuclear Energy",
+        "companies": "Centrus Energy, Urenco, General Matter",
+        "funding": "2.7B",
+        "status": "Expanded FY2026",
+        "description": "High-assay low-enriched uranium production \u2014 2026 appropriation boosted to $2.7B.",
+        "lastUpdate": "2026-03-15"
+      },
+      "daysOut": -47,
       "importance": "low"
     },
     {
@@ -4768,6 +5569,32 @@
       "importance": "low"
     },
     {
+      "id": "c490fdbeaa6d50ab",
+      "date": "2026-03-05",
+      "type": "doe",
+      "title": "DOE: Hydrogen Hubs (H2Hubs)",
+      "description": "DOE Office of Clean Energy Demonstrations \u00b7 Status: Active \u00b7 Funding: $7.0BB \u00b7 Seven regional clean hydrogen hubs across the U.S.",
+      "companies": [
+        "Air Products",
+        "Plug Power",
+        "Linde"
+      ],
+      "sector": "other",
+      "source": "DOE Office of Clean Energy Demonstrations",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Hydrogen Hubs (H2Hubs)",
+        "agency": "DOE Office of Clean Energy Demonstrations",
+        "companies": "Air Products, Plug Power, Linde",
+        "funding": "7.0B",
+        "status": "Active",
+        "description": "Seven regional clean hydrogen hubs across the U.S.",
+        "lastUpdate": "2026-03-05"
+      },
+      "daysOut": -57,
+      "importance": "low"
+    },
+    {
       "id": "4d04ffa6cca965d0",
       "date": "2026-03-02",
       "type": "fcc",
@@ -4792,6 +5619,33 @@
         "matched_company": null
       },
       "daysOut": -60,
+      "importance": "low"
+    },
+    {
+      "id": "5d34d0646be094fc",
+      "date": "2026-03-01",
+      "type": "doe",
+      "title": "DOE: SMR Licensing and Demonstration",
+      "description": "DOE Office of Nuclear Energy \u00b7 Status: Active \u00b7 Funding: $900MB \u00b7 Support for NRC licensing of first-of-a-kind small modular reactors.",
+      "companies": [
+        "NuScale",
+        "Holtec",
+        "GE-Hitachi",
+        "TerraPower"
+      ],
+      "sector": "nuclear",
+      "source": "DOE Office of Nuclear Energy",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "SMR Licensing and Demonstration",
+        "agency": "DOE Office of Nuclear Energy",
+        "companies": "NuScale, Holtec, GE-Hitachi, TerraPower",
+        "funding": "900M",
+        "status": "Active",
+        "description": "Support for NRC licensing of first-of-a-kind small modular reactors.",
+        "lastUpdate": "2026-03-01"
+      },
+      "daysOut": -61,
       "importance": "low"
     },
     {
@@ -4858,6 +5712,32 @@
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/"
       },
       "daysOut": -64,
+      "importance": "low"
+    },
+    {
+      "id": "95b5dc7daf9dc26f",
+      "date": "2026-02-25",
+      "type": "doe",
+      "title": "DOE: Civil Nuclear Credit Program",
+      "description": "DOE Office of Nuclear Energy \u00b7 Status: Active \u00b7 Funding: $6.0BB \u00b7 Preserves at-risk U.S. reactors via credit auctions (Palisades restart).",
+      "companies": [
+        "Constellation Energy",
+        "Vistra",
+        "Holtec"
+      ],
+      "sector": "nuclear",
+      "source": "DOE Office of Nuclear Energy",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Civil Nuclear Credit Program",
+        "agency": "DOE Office of Nuclear Energy",
+        "companies": "Constellation Energy, Vistra, Holtec",
+        "funding": "6.0B",
+        "status": "Active",
+        "description": "Preserves at-risk U.S. reactors via credit auctions (Palisades restart).",
+        "lastUpdate": "2026-02-25"
+      },
+      "daysOut": -65,
       "importance": "low"
     },
     {
@@ -4993,6 +5873,32 @@
       "importance": "low"
     },
     {
+      "id": "a3aaa6b97fc6338a",
+      "date": "2026-02-20",
+      "type": "doe",
+      "title": "DOE: Industrial Demonstrations Program (IDP)",
+      "description": "DOE Office of Clean Energy Demonstrations \u00b7 Status: Active \u00b7 Funding: $6.3BB \u00b7 Large-scale decarbonization demonstrations in heavy industry.",
+      "companies": [
+        "Cleveland-Cliffs",
+        "Century Aluminum",
+        "Heidelberg Materials"
+      ],
+      "sector": "bio",
+      "source": "DOE Office of Clean Energy Demonstrations",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Industrial Demonstrations Program (IDP)",
+        "agency": "DOE Office of Clean Energy Demonstrations",
+        "companies": "Cleveland-Cliffs, Century Aluminum, Heidelberg Materials",
+        "funding": "6.3B",
+        "status": "Active",
+        "description": "Large-scale decarbonization demonstrations in heavy industry.",
+        "lastUpdate": "2026-02-20"
+      },
+      "daysOut": -70,
+      "importance": "low"
+    },
+    {
       "id": "c22567570c9a057c",
       "date": "2026-02-19",
       "type": "fcc",
@@ -5017,6 +5923,28 @@
         "matched_company": "Archer Aviation"
       },
       "daysOut": -71,
+      "importance": "low"
+    },
+    {
+      "id": "c23cf3bc94280ebb",
+      "date": "2026-02-15",
+      "type": "doe",
+      "title": "DOE: Grid Resilience and Innovation Partnerships (GRIP)",
+      "description": "DOE Grid Deployment Office \u00b7 Status: Active \u00b7 Funding: $10.5BB \u00b7 Upgrades to transmission, storage and grid hardening.",
+      "companies": [],
+      "sector": "energy",
+      "source": "DOE Grid Deployment Office",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Grid Resilience and Innovation Partnerships (GRIP)",
+        "agency": "DOE Grid Deployment Office",
+        "companies": "",
+        "funding": "10.5B",
+        "status": "Active",
+        "description": "Upgrades to transmission, storage and grid hardening.",
+        "lastUpdate": "2026-02-15"
+      },
+      "daysOut": -75,
       "importance": "low"
     },
     {
@@ -5074,6 +6002,32 @@
         "location": "Redmond, WA",
         "url": "https://fcc.report/IBFS/SAT-LOA-2026-02-00045",
         "matched_company": null
+      },
+      "daysOut": -80,
+      "importance": "low"
+    },
+    {
+      "id": "d0d52ff9bdc98684",
+      "date": "2026-02-10",
+      "type": "doe",
+      "title": "DOE: Nuclear Thermal Propulsion (NTP)",
+      "description": "NASA/DOE \u00b7 Status: Active \u00b7 Funding: $500MB \u00b7 Nuclear propulsion for deep space missions (DRACO follow-on).",
+      "companies": [
+        "BWXT",
+        "Lockheed Martin",
+        "Aerojet Rocketdyne"
+      ],
+      "sector": "other",
+      "source": "NASA/DOE",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Nuclear Thermal Propulsion (NTP)",
+        "agency": "NASA/DOE",
+        "companies": "BWXT, Lockheed Martin, Aerojet Rocketdyne",
+        "funding": "500M",
+        "status": "Active",
+        "description": "Nuclear propulsion for deep space missions (DRACO follow-on).",
+        "lastUpdate": "2026-02-10"
       },
       "daysOut": -80,
       "importance": "low"
@@ -5487,6 +6441,33 @@
         "matched_company": "Anduril Industries"
       },
       "daysOut": -103,
+      "importance": "low"
+    },
+    {
+      "id": "8d2705cbcec7ab72",
+      "date": "2026-01-10",
+      "type": "doe",
+      "title": "DOE: Gateway for Accelerated Innovation in Nuclear (GAIN)",
+      "description": "DOE Idaho National Lab \u00b7 Status: Active \u00b7 Funding: $35MB \u00b7 Vouchers giving nuclear startups access to national lab expertise.",
+      "companies": [
+        "Oklo",
+        "Radiant",
+        "Kairos Power",
+        "Westinghouse"
+      ],
+      "sector": "other",
+      "source": "DOE Idaho National Lab",
+      "sourceUrl": "https://www.energy.gov/",
+      "raw": {
+        "program": "Gateway for Accelerated Innovation in Nuclear (GAIN)",
+        "agency": "DOE Idaho National Lab",
+        "companies": "Oklo, Radiant, Kairos Power, Westinghouse",
+        "funding": "35M",
+        "status": "Active",
+        "description": "Vouchers giving nuclear startups access to national lab expertise.",
+        "lastUpdate": "2026-01-10"
+      },
+      "daysOut": -111,
       "importance": "low"
     },
     {
