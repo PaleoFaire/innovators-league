@@ -66,8 +66,8 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-.badge-fda { background: rgba(59,130,246,0.2); color: #60a5fa; }
-.badge-nrc { background: rgba(34,197,94,0.2); color: #4ade80; }
+.badge-fda { background: rgba(59,130,246,0.2); color: var(--color-fusion); }
+.badge-nrc { background: rgba(34,197,94,0.2); color: var(--color-primary-bright); }
 .badge-faa { background: rgba(249,115,22,0.2); color: #fb923c; }
 .badge-doe { background: rgba(168,85,247,0.2); color: #c084fc; }
 .badge-fedreg { background: rgba(156,163,175,0.2); color: #9ca3af; }
@@ -85,7 +85,7 @@
   line-height: 1.4;
 }
 .reg-timeline-company {
-  color: var(--accent, #f59e0b);
+  color: var(--accent, var(--color-warning));
   font-size: 0.85rem;
   font-weight: 500;
   margin-bottom: 4px;
@@ -175,13 +175,13 @@
 .fda-stage-circle.active {
   background: rgba(59,130,246,0.25);
   border-color: #3b82f6;
-  color: #60a5fa;
+  color: var(--color-fusion);
   box-shadow: 0 0 12px rgba(59,130,246,0.3);
 }
 .fda-stage-circle.completed {
   background: rgba(34,197,94,0.2);
-  border-color: #22c55e;
-  color: #4ade80;
+  border-color: var(--color-primary);
+  color: var(--color-primary-bright);
 }
 .fda-stage-label {
   font-size: 0.68rem;
@@ -191,11 +191,11 @@
   white-space: nowrap;
 }
 .fda-stage-label.active {
-  color: #60a5fa;
+  color: var(--color-fusion);
   font-weight: 600;
 }
 .fda-stage-label.completed {
-  color: #4ade80;
+  color: var(--color-primary-bright);
 }
 .fda-pipeline-connector {
   flex: 1;
@@ -204,10 +204,10 @@
   min-width: 20px;
 }
 .fda-pipeline-connector.active {
-  background: linear-gradient(90deg, #22c55e, #3b82f6);
+  background: linear-gradient(90deg, var(--color-primary), #3b82f6);
 }
 .fda-pipeline-connector.completed {
-  background: #22c55e;
+  background: var(--color-primary);
 }
 .fda-products-list {
   display: flex;
@@ -242,7 +242,7 @@
   border-radius: 3px;
   flex-shrink: 0;
 }
-.fda-status-sese { background: rgba(34,197,94,0.15); color: #4ade80; }
+.fda-status-sese { background: rgba(34,197,94,0.15); color: var(--color-primary-bright); }
 .fda-status-deng { background: rgba(239,68,68,0.15); color: #f87171; }
 .fda-status-sesu { background: rgba(245,158,11,0.15); color: #fbbf24; }
 
@@ -369,7 +369,7 @@
 }
 .risk-high { background: rgba(239,68,68,0.2); color: #f87171; }
 .risk-medium { background: rgba(245,158,11,0.2); color: #fbbf24; }
-.risk-low { background: rgba(34,197,94,0.2); color: #4ade80; }
+.risk-low { background: rgba(34,197,94,0.2); color: var(--color-primary-bright); }
 .risk-reason {
   font-size: 0.75rem;
   color: rgba(255,255,255,0.4);
@@ -427,7 +427,7 @@
   font-weight: 600;
   text-transform: uppercase;
 }
-.type-rule { background: rgba(59,130,246,0.2); color: #60a5fa; }
+.type-rule { background: rgba(59,130,246,0.2); color: var(--color-fusion); }
 .type-proposed-rule { background: rgba(245,158,11,0.2); color: #fbbf24; }
 .type-notice { background: rgba(156,163,175,0.2); color: #9ca3af; }
 .fed-reg-date {
@@ -512,9 +512,9 @@
   border-radius: 4px;
   font-weight: 600;
 }
-.phase-1 { background: rgba(96,165,250,0.15); color: #60a5fa; }
+.phase-1 { background: rgba(96,165,250,0.15); color: var(--color-fusion); }
 .phase-2 { background: rgba(168,85,247,0.15); color: #c084fc; }
-.phase-3 { background: rgba(34,197,94,0.15); color: #4ade80; }
+.phase-3 { background: rgba(34,197,94,0.15); color: var(--color-primary-bright); }
 .phase-na { background: rgba(156,163,175,0.15); color: #9ca3af; }
 .ct-expand-icon {
   color: rgba(255,255,255,0.4);
@@ -567,8 +567,8 @@
   border-radius: 3px;
   font-weight: 600;
 }
-.status-recruiting { background: rgba(34,197,94,0.15); color: #4ade80; }
-.status-active { background: rgba(59,130,246,0.15); color: #60a5fa; }
+.status-recruiting { background: rgba(34,197,94,0.15); color: var(--color-primary-bright); }
+.status-active { background: rgba(59,130,246,0.15); color: var(--color-fusion); }
 .status-completed { background: rgba(156,163,175,0.15); color: #9ca3af; }
 .status-not-recruiting { background: rgba(245,158,11,0.15); color: #fbbf24; }
 .ct-trial-date {
@@ -642,8 +642,8 @@
   letter-spacing: 0.3px;
   white-space: nowrap;
 }
-.status-approved { background: rgba(34,197,94,0.18); color: #4ade80; }
-.status-review { background: rgba(59,130,246,0.18); color: #60a5fa; }
+.status-approved { background: rgba(34,197,94,0.18); color: var(--color-primary-bright); }
+.status-review { background: rgba(59,130,246,0.18); color: var(--color-fusion); }
 .status-pending { background: rgba(245,158,11,0.18); color: #fbbf24; }
 
 .cert-card-subtitle {
@@ -663,14 +663,14 @@
 .cert-progress-fill {
   height: 100%;
   border-radius: 4px;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(90deg, #3b82f6, var(--color-bio));
   transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .cert-progress-fill.faa-fill {
-  background: linear-gradient(90deg, #f97316, #f59e0b);
+  background: linear-gradient(90deg, #f97316, var(--color-warning));
 }
 .cert-progress-fill.nrc-fill {
-  background: linear-gradient(90deg, #22c55e, #10b981);
+  background: linear-gradient(90deg, var(--color-primary), #10b981);
 }
 
 .cert-progress-label {
@@ -695,7 +695,7 @@
   padding: 8px 12px;
   background: rgba(255,255,255,0.03);
   border-radius: 6px;
-  border-left: 3px solid #8b5cf6;
+  border-left: 3px solid var(--color-bio);
 }
 .cert-current-milestone strong {
   color: rgba(255,255,255,0.9);
@@ -737,8 +737,8 @@
 }
 
 .cert-milestone.completed::before {
-  background: #22c55e;
-  border-color: #22c55e;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
   box-shadow: 0 0 6px rgba(34,197,94,0.4);
 }
 .cert-milestone.in-progress::before {

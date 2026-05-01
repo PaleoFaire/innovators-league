@@ -99,7 +99,7 @@
   transition: color 0.2s;
 }
 .selector-remove:hover {
-  color: #ef4444;
+  color: var(--color-danger);
 }
 
 /* ─── Dropdown ─── */

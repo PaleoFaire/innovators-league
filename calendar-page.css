@@ -9,7 +9,7 @@
 }
 
 .calendar-hero .hero-eyebrow {
-  color: #FF6B2C;
+  color: var(--color-accent);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -75,7 +75,7 @@
 .calendar-filter.active {
   background: rgba(255, 107, 44, 0.15);
   border-color: rgba(255, 107, 44, 0.55);
-  color: #FF6B2C;
+  color: var(--color-accent);
 }
 
 .calendar-filter.recommend-filter {
@@ -87,13 +87,13 @@
 .calendar-filter.recommend-filter:hover {
   background: rgba(250, 204, 21, 0.1);
   border-color: rgba(250, 204, 21, 0.55);
-  color: #facc15;
+  color: var(--color-nuclear);
 }
 
 .calendar-filter.recommend-filter.active {
   background: rgba(250, 204, 21, 0.15);
   border-color: rgba(250, 204, 21, 0.65);
-  color: #facc15;
+  color: var(--color-nuclear);
 }
 
 .calendar-select {
@@ -114,7 +114,7 @@
 
 .calendar-select:focus {
   outline: none;
-  border-color: #FF6B2C;
+  border-color: var(--color-accent);
   background: rgba(255, 107, 44, 0.05);
 }
 
@@ -182,13 +182,13 @@
   font-size: 13px;
   font-weight: 700;
   font-family: 'Space Grotesk', sans-serif;
-  color: #FF6B2C;
+  color: var(--color-accent);
   letter-spacing: 0.1em;
   margin-bottom: 4px;
 }
 
 .calendar-event.recommended .event-month {
-  color: #facc15;
+  color: var(--color-nuclear);
 }
 
 .event-day {
@@ -221,7 +221,7 @@
   border-radius: 12px;
   background: rgba(96, 165, 250, 0.1);
   border: 1px solid rgba(96, 165, 250, 0.25);
-  color: #60a5fa;
+  color: var(--color-fusion);
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -302,7 +302,7 @@
   border-radius: 10px;
   background: rgba(250, 204, 21, 0.1);
   border: 1px solid rgba(250, 204, 21, 0.35);
-  color: #facc15;
+  color: var(--color-nuclear);
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
@@ -315,7 +315,7 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 107, 44, 0.45);
   background: rgba(255, 107, 44, 0.08);
-  color: #FF6B2C;
+  color: var(--color-accent);
   text-decoration: none;
   font-size: 12px;
   font-weight: 600;
@@ -324,7 +324,7 @@
 
 .event-link:hover {
   background: rgba(255, 107, 44, 0.18);
-  border-color: #FF6B2C;
+  border-color: var(--color-accent);
 }
 
 /* ─── EMPTY STATE ─────────────────────────────────────────────────────────── */

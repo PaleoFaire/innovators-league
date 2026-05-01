@@ -301,7 +301,7 @@
 
 .brief-badge-round {
   background: rgba(96, 165, 250, 0.12);
-  color: #60a5fa;
+  color: var(--color-fusion);
 }
 
 .brief-badge-ipo {
@@ -316,7 +316,7 @@
 
 .brief-badge-sig {
   background: rgba(239, 68, 68, 0.15);
-  color: #ef4444;
+  color: var(--color-danger);
 }
 
 .brief-badge-high {
@@ -649,14 +649,14 @@
   padding: 14px 16px;
   transition: border-color 0.2s;
 }
-.brief-mover-card.mover-up { border-left: 3px solid #22c55e; }
-.brief-mover-card.mover-down { border-left: 3px solid #ef4444; }
+.brief-mover-card.mover-up { border-left: 3px solid var(--color-primary); }
+.brief-mover-card.mover-down { border-left: 3px solid var(--color-danger); }
 .mover-ticker { font-family: 'Space Grotesk', monospace; font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 2px; }
 .mover-company { font-size: 12px; color: rgba(255,255,255,0.55); margin-bottom: 10px; }
 .mover-price { font-family: 'Space Grotesk', monospace; font-size: 15px; font-weight: 600; color: #fff; }
 .mover-change { font-family: 'Space Grotesk', monospace; font-size: 13px; font-weight: 700; margin-top: 4px; }
-.brief-mover-card.mover-up .mover-change { color: #22c55e; }
-.brief-mover-card.mover-down .mover-change { color: #ef4444; }
+.brief-mover-card.mover-up .mover-change { color: var(--color-primary); }
+.brief-mover-card.mover-down .mover-change { color: var(--color-danger); }
 
 /* ─── Daily Digest: Source pills ─── */
 .brief-source, .brief-time { font-size: 11px; color: rgba(255,255,255,0.4); margin-left: 4px; }

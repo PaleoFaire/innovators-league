@@ -9,7 +9,7 @@
 }
 
 .captable-hero .hero-eyebrow {
-  color: #FF6B2C;
+  color: var(--color-accent);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -244,7 +244,7 @@
   background: rgba(96, 165, 250, 0.1);
   border: 1px solid rgba(96, 165, 250, 0.25);
   border-radius: 12px;
-  color: #60a5fa;
+  color: var(--color-fusion);
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
@@ -252,7 +252,7 @@
 }
 
 .captable-profile-link {
-  color: #FF6B2C;
+  color: var(--color-accent);
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
@@ -266,7 +266,7 @@
 
 .captable-profile-link:hover {
   background: rgba(255, 107, 44, 0.14);
-  border-color: #FF6B2C;
+  border-color: var(--color-accent);
   transform: translateX(2px);
 }
 
@@ -389,7 +389,7 @@
 .round-item-latest .round-index {
   background: rgba(255, 107, 44, 0.15);
   border-color: rgba(255, 107, 44, 0.45);
-  color: #FF6B2C;
+  color: var(--color-accent);
 }
 
 .round-body {
@@ -414,7 +414,7 @@
   padding: 2px 8px;
   border-radius: 8px;
   background: rgba(255, 107, 44, 0.18);
-  color: #FF6B2C;
+  color: var(--color-accent);
   letter-spacing: 0.08em;
   border: 1px solid rgba(255, 107, 44, 0.35);
 }
@@ -431,7 +431,7 @@
   font-family: 'Space Grotesk', sans-serif;
   font-size: 17px;
   font-weight: 700;
-  color: #22c55e;
+  color: var(--color-primary);
   letter-spacing: -0.01em;
 }
 
@@ -454,7 +454,7 @@
   background: rgba(96, 165, 250, 0.08);
   border: 1px solid rgba(96, 165, 250, 0.22);
   border-radius: 10px;
-  color: #60a5fa;
+  color: var(--color-fusion);
   font-weight: 500;
 }
 
@@ -526,14 +526,14 @@
 }
 
 .model-note .warn-icon {
-  color: #f59e0b;
+  color: var(--color-warning);
   font-size: 18px;
   flex-shrink: 0;
   line-height: 1.2;
 }
 
 .model-note strong {
-  color: #f59e0b;
+  color: var(--color-warning);
   font-weight: 700;
 }
 
@@ -566,8 +566,8 @@
 }
 
 .dilution-current .dilution-bar {
-  background: linear-gradient(180deg, #FF6B2C, rgba(255, 107, 44, 0.45));
-  border-color: #FF6B2C;
+  background: linear-gradient(180deg, var(--color-accent), rgba(255, 107, 44, 0.45));
+  border-color: var(--color-accent);
   box-shadow: 0 0 18px rgba(255, 107, 44, 0.3);
 }
 
@@ -590,7 +590,7 @@
 }
 
 .dilution-current .dilution-pct {
-  color: #FF6B2C;
+  color: var(--color-accent);
 }
 
 /* ─── INVESTORS TAGS ──────────────────────────────────────────────────────── */
@@ -605,7 +605,7 @@
   background: rgba(96, 165, 250, 0.08);
   border: 1px solid rgba(96, 165, 250, 0.22);
   border-radius: 10px;
-  color: #60a5fa;
+  color: var(--color-fusion);
   font-size: 12.5px;
   font-weight: 500;
   transition: all 0.2s ease;

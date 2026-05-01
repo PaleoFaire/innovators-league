@@ -84,7 +84,7 @@
         }
 
         .stage-table td.median-val {
-            color: #FF6B2C;
+            color: var(--color-accent);
             font-weight: 600;
             font-family: 'Space Grotesk', sans-serif;
         }
@@ -118,7 +118,7 @@
         }
 
         .leaderboard-search:focus {
-            border-color: #FF6B2C;
+            border-color: var(--color-accent);
         }
 
         .leaderboard-search::placeholder {
@@ -154,7 +154,7 @@
         }
 
         .leaderboard-table thead th:hover {
-            color: #FF6B2C;
+            color: var(--color-accent);
         }
 
         .leaderboard-table thead th.sorted-asc::after {
@@ -190,7 +190,7 @@
         .lb-multiple {
             font-weight: 700;
             font-family: 'Space Grotesk', sans-serif;
-            color: #FF6B2C;
+            color: var(--color-accent);
         }
 
         .lb-vs-median {
@@ -198,9 +198,9 @@
             font-size: 0.82rem;
         }
 
-        .lb-vs-median.premium { color: #ef4444; }
+        .lb-vs-median.premium { color: var(--color-danger); }
         .lb-vs-median.fair { color: #eab308; }
-        .lb-vs-median.discount { color: #22c55e; }
+        .lb-vs-median.discount { color: var(--color-primary); }
 
         /* ── Over/Under Score ── */
         .over-under-grid {
@@ -289,7 +289,7 @@
 
         .ou-badge.premium {
             background: rgba(239,68,68,0.15);
-            color: #ef4444;
+            color: var(--color-danger);
         }
 
         .ou-badge.fair {
@@ -299,7 +299,7 @@
 
         .ou-badge.discount {
             background: rgba(34,197,94,0.15);
-            color: #22c55e;
+            color: var(--color-primary);
         }
 
         .ou-legend {
@@ -373,7 +373,7 @@
 
         .ipo-likelihood.high {
             background: rgba(34,197,94,0.15);
-            color: #22c55e;
+            color: var(--color-primary);
         }
 
         .ipo-likelihood.medium {
@@ -383,7 +383,7 @@
 
         .ipo-likelihood.low {
             background: rgba(239,68,68,0.15);
-            color: #ef4444;
+            color: var(--color-danger);
         }
 
         .ipo-status {
@@ -430,9 +430,9 @@
             transition: width 0.6s ease;
         }
 
-        .ipo-progress-fill.high { background: linear-gradient(90deg, #22c55e, #4ade80); }
-        .ipo-progress-fill.medium { background: linear-gradient(90deg, #eab308, #facc15); }
-        .ipo-progress-fill.low { background: linear-gradient(90deg, #ef4444, #f87171); }
+        .ipo-progress-fill.high { background: linear-gradient(90deg, var(--color-primary), var(--color-primary-bright)); }
+        .ipo-progress-fill.medium { background: linear-gradient(90deg, #eab308, var(--color-nuclear)); }
+        .ipo-progress-fill.low { background: linear-gradient(90deg, var(--color-danger), #f87171); }
 
         /* ── M&A Comps ── */
         .ma-table-wrap {
@@ -485,7 +485,7 @@
 
         .ma-type-badge.completed {
             background: rgba(34,197,94,0.15);
-            color: #22c55e;
+            color: var(--color-primary);
         }
 
         .ma-type-badge.rumored {
@@ -537,7 +537,7 @@
             font-family: 'Space Grotesk', sans-serif;
             font-weight: 800;
             font-size: 1.1rem;
-            color: #FF6B2C;
+            color: var(--color-accent);
         }
 
         .ds-meta {
@@ -569,7 +569,7 @@
         .ds-progress-fill {
             height: 100%;
             border-radius: 3px;
-            background: linear-gradient(90deg, #FF6B2C, #ff9933);
+            background: linear-gradient(90deg, var(--color-accent), #ff9933);
             transition: width 0.6s ease;
         }
 
@@ -608,7 +608,7 @@
         .ds-signal-weight {
             font-family: 'Space Grotesk', sans-serif;
             font-weight: 600;
-            color: #FF6B2C;
+            color: var(--color-accent);
             font-size: 0.78rem;
         }
 
@@ -641,7 +641,7 @@
         .val-stat-number {
             font-size: 2rem;
             font-weight: 800;
-            color: #FF6B2C;
+            color: var(--color-accent);
             font-family: 'Space Grotesk', sans-serif;
         }
 
@@ -678,7 +678,7 @@
         .cap-stat-number {
             font-size: 1.6rem;
             font-weight: 800;
-            color: #FF6B2C;
+            color: var(--color-accent);
             font-family: 'Space Grotesk', sans-serif;
         }
 
@@ -837,7 +837,7 @@
             font-family: 'Space Grotesk', sans-serif;
             font-size: 1.5rem;
             font-weight: 800;
-            color: #FF6B2C;
+            color: var(--color-accent);
             margin-bottom: 0.75rem;
         }
 
@@ -969,7 +969,7 @@
 .pm-ticker {
   font-family: 'Space Grotesk', monospace;
   font-weight: 700;
-  color: #22c55e;
+  color: var(--color-primary);
   font-size: 12.5px;
 }
 .pm-na { color: rgba(255,255,255,0.25); font-style: italic; font-size: 11.5px; font-family: 'Space Grotesk', monospace; }
@@ -980,7 +980,7 @@
   padding: 1px 5px;
   border-radius: 3px;
   background: rgba(245,158,11,0.18);
-  color: #f59e0b;
+  color: var(--color-warning);
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -997,8 +997,8 @@
   color: rgba(255,255,255,0.55);
   line-height: 1.6;
 }
-.pm-pos { color: #22c55e; }
-.pm-neg { color: #ef4444; }
+.pm-pos { color: var(--color-primary); }
+.pm-neg { color: var(--color-danger); }
 
 /* ─── Comparable Engine (interactive) ─── */
 .ce-grid {
@@ -1101,7 +1101,7 @@
 .ce-comp-row:last-child { border-bottom: none; }
 .ce-comp-name { color: rgba(255,255,255,0.85); }
 .ce-comp-mult { font-family: 'Space Grotesk', monospace; color: rgba(255,255,255,0.6); }
-.ce-comp-link { color: #60a5fa; text-decoration: none; font-size: 11px; }
+.ce-comp-link { color: var(--color-fusion); text-decoration: none; font-size: 11px; }
 .ce-disclaimer {
   margin-top: 14px;
   padding: 10px 14px;

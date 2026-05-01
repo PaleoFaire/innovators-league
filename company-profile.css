@@ -147,8 +147,8 @@
 }
 
 .signal-badge-large.hot { background: #dc262615; color: #dc2626; border: 1px solid #dc262640; }
-.signal-badge-large.rising { background: #f59e0b15; color: #f59e0b; border: 1px solid #f59e0b40; }
-.signal-badge-large.stealth { background: #8b5cf615; color: #8b5cf6; border: 1px solid #8b5cf640; }
+.signal-badge-large.rising { background: #f59e0b15; color: var(--color-warning); border: 1px solid #f59e0b40; }
+.signal-badge-large.stealth { background: #8b5cf615; color: var(--color-bio); border: 1px solid #8b5cf640; }
 
 .company-logo-icon {
   transition: transform 0.2s ease;
@@ -227,10 +227,10 @@
   margin-bottom: 4px;
 }
 
-.score-card-value.elite { color: #22c55e; }
+.score-card-value.elite { color: var(--color-primary); }
 .score-card-value.exceptional { color: #3b82f6; }
-.score-card-value.strong { color: #f59e0b; }
-.score-card-value.promising { color: #8b5cf6; }
+.score-card-value.strong { color: var(--color-warning); }
+.score-card-value.promising { color: var(--color-bio); }
 
 .score-card-tier {
   display: inline-block;
@@ -242,10 +242,10 @@
   letter-spacing: 0.5px;
 }
 
-.score-card-tier.elite { background: #22c55e20; color: #22c55e; }
+.score-card-tier.elite { background: #22c55e20; color: var(--color-primary); }
 .score-card-tier.exceptional { background: #3b82f620; color: #3b82f6; }
-.score-card-tier.strong { background: #f59e0b20; color: #f59e0b; }
-.score-card-tier.promising { background: #8b5cf620; color: #8b5cf6; }
+.score-card-tier.strong { background: #f59e0b20; color: var(--color-warning); }
+.score-card-tier.promising { background: #8b5cf620; color: var(--color-bio); }
 
 /* Stats Grid */
 .hero-stats-grid {
@@ -508,9 +508,9 @@
   gap: 6px;
 }
 
-.hiring-trend-up { color: #22c55e; }
-.hiring-trend-down { color: #ef4444; }
-.hiring-trend-stable { color: #f59e0b; }
+.hiring-trend-up { color: var(--color-primary); }
+.hiring-trend-down { color: var(--color-danger); }
+.hiring-trend-stable { color: var(--color-warning); }
 
 /* Milestones Timeline */
 .milestone-item {
@@ -585,7 +585,7 @@
 
 .revenue-growth.positive {
   background: #22c55e20;
-  color: #22c55e;
+  color: var(--color-primary);
 }
 
 .revenue-confidence {
@@ -615,8 +615,8 @@
   transition: width 0.5s ease;
 }
 
-.confidence-fill.high { background: #22c55e; }
-.confidence-fill.medium { background: #f59e0b; }
+.confidence-fill.high { background: var(--color-primary); }
+.confidence-fill.medium { background: var(--color-warning); }
 .confidence-fill.low { background: #6b7280; }
 
 /* ═══════════════════════════════════════════════════════
@@ -688,8 +688,8 @@
   gap: 6px;
 }
 
-.thesis-label.bull { color: #22c55e; }
-.thesis-label.bear { color: #ef4444; }
+.thesis-label.bull { color: var(--color-primary); }
+.thesis-label.bear { color: var(--color-danger); }
 
 .thesis-text {
   font-size: 14px;
@@ -717,7 +717,7 @@
 }
 
 .risk-icon {
-  color: #f59e0b;
+  color: var(--color-warning);
 }
 
 /* Moat Evidence */
@@ -756,8 +756,8 @@
   font-weight: 700;
 }
 
-.moat-value.strong { color: #22c55e; }
-.moat-value.medium { color: #f59e0b; }
+.moat-value.strong { color: var(--color-primary); }
+.moat-value.medium { color: var(--color-warning); }
 .moat-value.weak { color: #6b7280; }
 
 /* ── Enhanced Moat Breakdown ── */
@@ -810,9 +810,9 @@
   font-weight: 600;
 }
 
-.moat-trend.strong { color: #22c55e; }
-.moat-trend.medium { color: #f59e0b; }
-.moat-trend.weak { color: #ef4444; }
+.moat-trend.strong { color: var(--color-primary); }
+.moat-trend.medium { color: var(--color-warning); }
+.moat-trend.weak { color: var(--color-danger); }
 
 /* Dimension Grid */
 .moat-dimensions-grid {
@@ -852,8 +852,8 @@
   font-weight: 700;
 }
 
-.moat-dim-score.strong { color: #22c55e; }
-.moat-dim-score.medium { color: #f59e0b; }
+.moat-dim-score.strong { color: var(--color-primary); }
+.moat-dim-score.medium { color: var(--color-warning); }
 .moat-dim-score.weak { color: #6b7280; }
 
 .moat-dim-bar {
@@ -870,8 +870,8 @@
   transition: width 0.6s ease;
 }
 
-.moat-dim-fill.strong { background: #22c55e; }
-.moat-dim-fill.medium { background: #f59e0b; }
+.moat-dim-fill.strong { background: var(--color-primary); }
+.moat-dim-fill.medium { background: var(--color-warning); }
 .moat-dim-fill.weak { background: #6b7280; }
 
 .moat-dim-label {
@@ -1048,8 +1048,8 @@
   font-weight: 700;
 }
 
-.ip-moat-value.high { color: #22c55e; }
-.ip-moat-value.mid { color: #f59e0b; }
+.ip-moat-value.high { color: var(--color-primary); }
+.ip-moat-value.mid { color: var(--color-warning); }
 .ip-moat-value.low { color: #6b7280; }
 
 .patent-areas {
@@ -1092,10 +1092,10 @@
   font-weight: 600;
 }
 
-.alt-data-value.surging { color: #22c55e; }
+.alt-data-value.surging { color: var(--color-primary); }
 .alt-data-value.growing { color: #3b82f6; }
-.alt-data-value.stable { color: #f59e0b; }
-.alt-data-value.declining { color: #ef4444; }
+.alt-data-value.stable { color: var(--color-warning); }
+.alt-data-value.declining { color: var(--color-danger); }
 
 /* Founder Network */
 .mafia-list {
@@ -1224,7 +1224,7 @@
 
 .action-btn.saved {
   background: #22c55e20;
-  color: #22c55e;
+  color: var(--color-primary);
   border-color: #22c55e40;
 }
 
@@ -1773,12 +1773,12 @@
 
 .stock-change.positive {
   background: #22c55e20;
-  color: #22c55e;
+  color: var(--color-primary);
 }
 
 .stock-change.negative {
   background: #ef444420;
-  color: #ef4444;
+  color: var(--color-danger);
 }
 
 .stock-sparkline {
@@ -1849,11 +1849,11 @@
 }
 
 .filing-form.form-event {
-  color: #f59e0b;
+  color: var(--color-warning);
 }
 
 .filing-form.form-insider {
-  color: #8b5cf6;
+  color: var(--color-bio);
 }
 
 .filing-company {
@@ -1895,11 +1895,11 @@
 }
 
 .insider-item.insider-buy {
-  border-left-color: #22c55e;
+  border-left-color: var(--color-primary);
 }
 
 .insider-item.insider-sell {
-  border-left-color: #ef4444;
+  border-left-color: var(--color-danger);
 }
 
 .insider-name {
@@ -1951,12 +1951,12 @@
 }
 
 .momentum-score-ring.momentum-high {
-  border-color: #22c55e;
+  border-color: var(--color-primary);
   background: #22c55e10;
 }
 
 .momentum-score-ring.momentum-mid {
-  border-color: #f59e0b;
+  border-color: var(--color-warning);
   background: #f59e0b10;
 }
 
@@ -1972,8 +1972,8 @@
   line-height: 1;
 }
 
-.momentum-score-ring.momentum-high .momentum-score-value { color: #22c55e; }
-.momentum-score-ring.momentum-mid .momentum-score-value { color: #f59e0b; }
+.momentum-score-ring.momentum-high .momentum-score-value { color: var(--color-primary); }
+.momentum-score-ring.momentum-mid .momentum-score-value { color: var(--color-warning); }
 .momentum-score-ring.momentum-low .momentum-score-value { color: #6b7280; }
 
 .momentum-score-max {
@@ -2072,7 +2072,7 @@
 
 .demand-priority.priority-high {
   background: #f59e0b20;
-  color: #f59e0b;
+  color: var(--color-warning);
 }
 
 .demand-priority.priority-medium {
@@ -2179,7 +2179,7 @@
 .timeline-filter-chip.active {
   background: rgba(255, 107, 44, 0.15);
   border-color: rgba(255, 107, 44, 0.4);
-  color: #FF6B2C;
+  color: var(--color-accent);
 }
 
 .timeline-filter-chip:hover {
@@ -2264,7 +2264,7 @@
 }
 
 .timeline-event-link:hover .timeline-title {
-  color: #FF6B2C;
+  color: var(--color-accent);
 }
 
 @media (max-width: 768px) {
@@ -2300,7 +2300,7 @@
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.5px;
-  color: #FF6B2C;
+  color: var(--color-accent);
 }
 .conviction-lg-badge {
   padding: 4px 14px;
@@ -2310,10 +2310,10 @@
   letter-spacing: 0.5px;
   font-family: 'SF Mono', monospace;
 }
-.conviction-lg-strong-buy { background: rgba(34,197,94,0.15); color: #22c55e; border: 1px solid rgba(34,197,94,0.3); }
-.conviction-lg-buy { background: rgba(59,130,246,0.15); color: #60a5fa; border: 1px solid rgba(59,130,246,0.3); }
-.conviction-lg-watch { background: rgba(245,158,11,0.15); color: #f59e0b; border: 1px solid rgba(245,158,11,0.3); }
-.conviction-lg-caution { background: rgba(239,68,68,0.15); color: #ef4444; border: 1px solid rgba(239,68,68,0.3); }
+.conviction-lg-strong-buy { background: rgba(34,197,94,0.15); color: var(--color-primary); border: 1px solid rgba(34,197,94,0.3); }
+.conviction-lg-buy { background: rgba(59,130,246,0.15); color: var(--color-fusion); border: 1px solid rgba(59,130,246,0.3); }
+.conviction-lg-watch { background: rgba(245,158,11,0.15); color: var(--color-warning); border: 1px solid rgba(245,158,11,0.3); }
+.conviction-lg-caution { background: rgba(239,68,68,0.15); color: var(--color-danger); border: 1px solid rgba(239,68,68,0.3); }
 .connection-badges {
   display: flex;
   gap: 8px;
@@ -2364,7 +2364,7 @@
 }
 .conviction-quote-attr {
   font-size: 12px;
-  color: #FF6B2C;
+  color: var(--color-accent);
   margin-top: 8px;
   padding-left: 8px;
 }
@@ -2488,11 +2488,11 @@
   /* Override the global `* { color: black !important }` print rule for ROS accents */
   .tear-sheet-view .ts-logo,
   .tear-sheet-view .ts-score-tier {
-    color: #FF6B2C !important;
-    -webkit-text-fill-color: #FF6B2C !important;
+    color: var(--color-accent) !important;
+    -webkit-text-fill-color: var(--color-accent) !important;
   }
   .tear-sheet-view .ts-divider {
-    background: #FF6B2C !important;
+    background: var(--color-accent) !important;
   }
 }
 
@@ -2515,7 +2515,7 @@
   font-weight: 900;
   font-size: 20pt;
   letter-spacing: 1px;
-  color: #FF6B2C;
+  color: var(--color-accent);
   line-height: 1;
 }
 .tear-sheet-view .ts-brand-name {
@@ -2552,7 +2552,7 @@
 /* Divider — only place accent color is used outside logo */
 .tear-sheet-view .ts-divider {
   height: 2pt;
-  background: #FF6B2C;
+  background: var(--color-accent);
   margin: 4px 0 10px;
 }
 
@@ -2620,7 +2620,7 @@
   font-size: 7.5pt;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #FF6B2C;
+  color: var(--color-accent);
   text-transform: uppercase;
 }
 
@@ -2841,7 +2841,7 @@
 .founder-insight-card {
   background: linear-gradient(135deg, rgba(255,107,44,0.05) 0%, rgba(255,107,44,0.02) 100%);
   border: 1px solid rgba(255,107,44,0.18);
-  border-left: 3px solid var(--accent, #FF6B2C);
+  border-left: 3px solid var(--accent, var(--color-accent));
   border-radius: 10px;
   padding: 18px 22px;
   position: relative;
@@ -2899,7 +2899,7 @@
 
 .founder-insight-topic {
   background: rgba(255,107,44,0.15);
-  color: var(--accent, #FF6B2C);
+  color: var(--accent, var(--color-accent));
   padding: 3px 9px;
   border-radius: 10px;
   font-size: 10.5px;
@@ -2927,7 +2927,7 @@
 
 .founder-insight-verify {
   margin-left: auto;
-  color: var(--accent, #FF6B2C);
+  color: var(--accent, var(--color-accent));
   text-decoration: none;
   font-size: 11px;
   font-weight: 600;

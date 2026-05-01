@@ -9,7 +9,7 @@
 }
 
 .alerts-hero .hero-eyebrow {
-  color: #FF6B2C;
+  color: var(--color-accent);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -47,7 +47,7 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 107, 44, 0.5);
   background: rgba(255, 107, 44, 0.1);
-  color: #FF6B2C;
+  color: var(--color-accent);
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -57,7 +57,7 @@
 
 .alerts-cta-primary:hover {
   background: rgba(255, 107, 44, 0.18);
-  border-color: #FF6B2C;
+  border-color: var(--color-accent);
   transform: translateY(-1px);
 }
 
@@ -109,7 +109,7 @@
 .alert-filter.active {
   background: rgba(255, 107, 44, 0.15);
   border-color: rgba(255, 107, 44, 0.55);
-  color: #FF6B2C;
+  color: var(--color-accent);
 }
 
 .alert-select {
@@ -130,7 +130,7 @@
 
 .alert-select:focus {
   outline: none;
-  border-color: #FF6B2C;
+  border-color: var(--color-accent);
   background: rgba(255, 107, 44, 0.05);
 }
 
@@ -225,7 +225,7 @@
 }
 
 .alert-company {
-  color: #FF6B2C;
+  color: var(--color-accent);
   font-weight: 600;
   text-decoration: none;
   font-size: 13px;
@@ -267,7 +267,7 @@
 }
 
 .alert-source-link:hover {
-  color: #FF6B2C;
+  color: var(--color-accent);
 }
 
 .alert-sector {
@@ -275,7 +275,7 @@
   border-radius: 10px;
   background: rgba(96, 165, 250, 0.1);
   border: 1px solid rgba(96, 165, 250, 0.25);
-  color: #60a5fa;
+  color: var(--color-fusion);
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.05em;

@@ -1,6 +1,6 @@
 /* jobs.html page-specific styles - extracted from inline */
         /* Jobs-specific overrides */
-        :root { --accent-orange: #FF6B2C; }
+        :root { --accent-orange: var(--color-accent); }
 
         .jobs-hero {
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
@@ -241,7 +241,7 @@
             transition: all 0.2s;
         }
         .jt-tab:hover { color: rgba(255,255,255,0.9); border-color: rgba(255,255,255,0.2); }
-        .jt-tab.active { background: var(--accent-dim, rgba(255,107,44,0.12)); color: var(--accent, #FF6B2C); border-color: var(--accent, #FF6B2C); }
+        .jt-tab.active { background: var(--accent-dim, rgba(255,107,44,0.12)); color: var(--accent, var(--color-accent)); border-color: var(--accent, var(--color-accent)); }
 
         /* ── Talent section styles (from talent.html) ── */
         .talent-flow-section {
