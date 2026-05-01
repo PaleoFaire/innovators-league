@@ -1,0 +1,271 @@
+name: Scheduled Verification (companies + investors)
+
+# Recurring fact-check pipeline driven by cadence:
+#   Daily  06:00 UTC = 10:00 AGT — news-triggered re-verify (entities mentioned in last 24h)
+#   Weekly Mon 07:00 UTC          — hot-tier sweep (signal=hot/rising firms; recently funded cos)
+#   Monthly 1st 08:00 UTC         — full sweep of all entities
+#
+# All cadences process BOTH companies + investors; their failures are
+# independent (one entity's API errors won't kill the other).
+#
+# Manual trigger: workflow_dispatch with mode + entity + limit.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Cadence preset (selects cohort)'
+        type: choice
+        options: ['daily', 'weekly', 'monthly', 'quarterly']
+        default: 'weekly'
+      entity:
+        description: 'Which entity type'
+        type: choice
+        options: ['both', 'companies', 'investors']
+        default: 'both'
+      limit:
+        description: 'Max items per entity'
+        default: '95'
+  schedule:
+    # 6 AM UTC daily
+    - cron: '0 6 * * *'
+    # 7 AM UTC every Monday
+    - cron: '0 7 * * 1'
+    # 8 AM UTC on the 1st of each month
+    - cron: '0 8 1 * *'
+
+concurrency:
+  group: scheduled-verification
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    name: Verify ${{ github.event.inputs.entity || 'both' }} (${{ github.event.inputs.mode || 'auto' }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests anthropic
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Determine cadence
+        id: cadence
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ github.event.inputs.mode }}"
+            ENTITY="${{ github.event.inputs.entity }}"
+            LIMIT="${{ github.event.inputs.limit }}"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 6 * * *")    MODE="daily" ;;
+              "0 7 * * 1")    MODE="weekly" ;;
+              "0 8 1 * *")    MODE="monthly" ;;
+              *)              MODE="daily" ;;
+            esac
+            ENTITY="both"
+            LIMIT="95"
+          fi
+          echo "mode=$MODE"     >> "$GITHUB_OUTPUT"
+          echo "entity=$ENTITY" >> "$GITHUB_OUTPUT"
+          echo "limit=$LIMIT"   >> "$GITHUB_OUTPUT"
+          echo "::notice title=Cadence::mode=$MODE entity=$ENTITY limit=$LIMIT"
+
+      # ─── COMPANIES ─────────────────────────────────────────────
+      - name: Build company cohort
+        if: steps.cadence.outputs.entity != 'investors'
+        run: |
+          python scripts/build_verification_cohort.py \
+            --mode "${{ steps.cadence.outputs.mode }}" \
+            --entity companies \
+            --limit "${{ steps.cadence.outputs.limit }}"
+
+      - name: Verify companies
+        if: steps.cadence.outputs.entity != 'investors'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: ${{ steps.cadence.outputs.limit }}
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          COHORT="data/cohort_companies_${{ steps.cadence.outputs.mode }}.json"
+          # If cohort is empty, skip
+          if [ "$(jq 'length' < "$COHORT")" -eq 0 ]; then
+            echo "Empty company cohort — nothing to verify"
+            exit 0
+          fi
+          python scripts/verify_company_facts.py \
+            --cohort-file "$COHORT" \
+            --limit "${{ steps.cadence.outputs.limit }}" \
+            --output-suffix "scheduled_${{ steps.cadence.outputs.mode }}"
+          python scripts/generate_verification_report.py \
+            --suffix "scheduled_${{ steps.cadence.outputs.mode }}"
+
+      - name: Auto-apply company changes
+        if: steps.cadence.outputs.entity != 'investors'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          if [ ! -f "data/company_facts_verification_scheduled_${{ steps.cadence.outputs.mode }}.json" ]; then
+            echo "No company verification output — skipping apply"
+            exit 0
+          fi
+          python scripts/auto_apply_verified.py \
+            --suffix "scheduled_${{ steps.cadence.outputs.mode }}"
+
+      # ─── INVESTORS ─────────────────────────────────────────────
+      - name: Build investor cohort
+        if: steps.cadence.outputs.entity != 'companies'
+        run: |
+          python scripts/build_verification_cohort.py \
+            --mode "${{ steps.cadence.outputs.mode }}" \
+            --entity investors \
+            --limit "${{ steps.cadence.outputs.limit }}"
+
+      - name: Verify investors
+        if: steps.cadence.outputs.entity != 'companies'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: ${{ steps.cadence.outputs.limit }}
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          COHORT="data/cohort_investors_${{ steps.cadence.outputs.mode }}.json"
+          if [ "$(jq 'length' < "$COHORT")" -eq 0 ]; then
+            echo "Empty investor cohort — nothing to verify"
+            exit 0
+          fi
+          python scripts/verify_investor_facts.py \
+            --cohort-file "$COHORT" \
+            --limit "${{ steps.cadence.outputs.limit }}" \
+            --output-suffix "scheduled_${{ steps.cadence.outputs.mode }}"
+
+      - name: Auto-apply investor changes
+        if: steps.cadence.outputs.entity != 'companies'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          if [ ! -f "data/investor_facts_verification_scheduled_${{ steps.cadence.outputs.mode }}.json" ]; then
+            echo "No investor verification output — skipping apply"
+            exit 0
+          fi
+          python scripts/auto_apply_investors.py \
+            --suffix "scheduled_${{ steps.cadence.outputs.mode }}"
+
+      # ─── DERIVE PORTFOLIOS ─────────────────────────────────────
+      # After both verifiers run, refresh VC_FIRMS.portfolioCompanies
+      # from the companies' investors[] reverse index.
+      - name: Refresh investor portfolios from COMPANIES
+        if: steps.cadence.outputs.mode != 'daily'
+        continue-on-error: true
+        run: python scripts/derive_investor_portfolios.py
+
+      # ─── COMMIT + PUSH ─────────────────────────────────────────
+      - name: Upload verification artifacts (pre-push backup)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-${{ steps.cadence.outputs.mode }}-${{ github.run_id }}
+          path: |
+            data/company_facts_verification_scheduled_*.json
+            data/investor_facts_verification_scheduled_*.json
+            data/cohort_*.json
+            COMPANY_FACTS_VERIFICATION_REPORT_scheduled_*.md
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Sanity check + commit + push
+        run: |
+          set -euo pipefail
+
+          # Sanity check data.js still parses cleanly
+          python3 -c "
+          import re, sys
+          src = open('data.js').read()
+          assert 'const COMPANIES' in src, 'COMPANIES marker missing'
+          assert 'const VC_FIRMS' in src, 'VC_FIRMS marker missing'
+          if src.count('{') != src.count('}'):
+              print('::error::Brace imbalance after apply')
+              sys.exit(1)
+          if src.count('[') != src.count(']'):
+              print('::error::Bracket imbalance after apply')
+              sys.exit(1)
+          print('✓ data.js sanity check passed')
+          "
+
+          # Stage everything we may have created
+          git add data.js \
+                  data/company_facts_verification_scheduled_*.json \
+                  data/investor_facts_verification_scheduled_*.json \
+                  data/cohort_*.json \
+                  COMPANY_FACTS_VERIFICATION_REPORT_scheduled_*.md \
+                  2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+
+          MODE="${{ steps.cadence.outputs.mode }}"
+          ENTITY="${{ steps.cadence.outputs.entity }}"
+          git commit -m "🔄 Scheduled verification (${MODE}, ${ENTITY})"
+
+          # Backup files for retry
+          mkdir -p /tmp/sched_backup
+          cp data.js /tmp/sched_backup/ 2>/dev/null || true
+          cp data/company_facts_verification_scheduled_*.json /tmp/sched_backup/ 2>/dev/null || true
+          cp data/investor_facts_verification_scheduled_*.json /tmp/sched_backup/ 2>/dev/null || true
+          cp data/cohort_*.json /tmp/sched_backup/ 2>/dev/null || true
+          cp COMPANY_FACTS_VERIFICATION_REPORT_scheduled_*.md /tmp/sched_backup/ 2>/dev/null || true
+
+          # Retry-on-conflict push: re-apply on fresh main rather than blanket overwrite.
+          # We rely on the verifier output being deterministic per cohort, so re-running
+          # auto_apply_verified / auto_apply_investors against fresh main should produce
+          # the same end-state (modulo concurrent-commit wins).
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main --quiet
+            if git push origin HEAD:main 2>&1; then
+              echo "✓ Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt — re-applying on fresh main"
+            git reset --hard origin/main
+            # Restore the verification JSON + cohort files (these are NEW files we own)
+            cp /tmp/sched_backup/*.json data/ 2>/dev/null || true
+            cp /tmp/sched_backup/*.md . 2>/dev/null || true
+            # RE-APPLY against fresh data.js (don't blanket-copy backup data.js)
+            if [ -f "data/company_facts_verification_scheduled_${MODE}.json" ]; then
+              python scripts/auto_apply_verified.py --suffix "scheduled_${MODE}" || \
+                echo "::warning::company auto-apply non-zero during retry"
+            fi
+            if [ -f "data/investor_facts_verification_scheduled_${MODE}.json" ]; then
+              python scripts/auto_apply_investors.py --suffix "scheduled_${MODE}" || \
+                echo "::warning::investor auto-apply non-zero during retry"
+            fi
+            git add data.js \
+                    data/company_facts_verification_scheduled_*.json \
+                    data/investor_facts_verification_scheduled_*.json \
+                    data/cohort_*.json \
+                    COMPANY_FACTS_VERIFICATION_REPORT_scheduled_*.md \
+                    2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "Nothing to commit after re-apply — main already current"
+              exit 0
+            fi
+            git commit -m "🔄 Scheduled verification (${MODE}, ${ENTITY}) (retry $attempt)"
+            sleep $((attempt * 3))
+          done
+
+          echo "::error::Push failed after 5 retries"
+          exit 1
