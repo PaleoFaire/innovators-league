@@ -117,6 +117,22 @@ NAV_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Page-specific extras — injected ONLY on these pages (between <div class="nav-brand">
+# and <div class="nav-links">) so the unifier doesn't strip them on re-runs.
+# Currently: only the homepage has the global search bar (its handler lives in app.js).
+PAGE_EXTRAS = {
+    "index.html": (
+        '        <!-- Global Search Bar (homepage only — search logic in app.js) -->\n'
+        '        <div class="nav-search">\n'
+        '            <svg class="nav-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">\n'
+        '                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>\n'
+        '            </svg>\n'
+        '            <input type="text" id="global-search" placeholder="Search companies, sectors, investors..." autocomplete="off">\n'
+        '            <div class="search-results-dropdown" id="search-results-dropdown"></div>\n'
+        '        </div>\n'
+    ),
+}
+
 
 def page_id_from_filename(path):
     """Map foo.html → 'foo' (used as data-nav-id)."""
@@ -180,6 +196,15 @@ def update_file(path, dry_run=False):
         original_class = nav_class_m.group(1)  # e.g. "nav" or "nav nav-minimal"
         if original_class != "nav":
             new_nav = new_nav.replace('<nav class="nav">', f'<nav class="{original_class}">')
+
+    # Page-specific extras (e.g. global search bar on homepage)
+    extra = PAGE_EXTRAS.get(path.name)
+    if extra:
+        # Insert after </div> closing nav-brand, before <div class="nav-links">
+        new_nav = new_nav.replace(
+            '        </div>\n        <div class="nav-links">',
+            '        </div>\n' + extra + '        <div class="nav-links">',
+        )
 
     new_src = src[:m.start()] + new_nav + src[m.end():]
     if new_src == src:
