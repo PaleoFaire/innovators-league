@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -1.74,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.8,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -5.43,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": 0.95,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 6.47,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 8.39,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.97,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.05,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.18,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -2.43,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.98,
+      "avg_change": 6.74,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 2.18,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.72,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.56,
+      "avg_change": -1.54,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 4.88,
+      "avg_change": -1.85,
       "count": 3
     }
   },
@@ -61,12 +61,12 @@
     [
       "AUR",
       "Aurora Innovation",
-      21.99
+      25.56
     ],
     [
-      "AMD",
-      "AMD",
-      16.1
+      "SATL",
+      "Satellogic",
+      16.45
     ],
     [
       "IDEAFORGE.NS",
@@ -79,37 +79,37 @@
       10.67
     ],
     [
-      "JOBY",
-      "Joby Aviation",
-      8.24
+      "QBTS",
+      "D-Wave Quantum",
+      9.73
     ]
   ],
   "topLosers": [
     [
+      "ASRHF",
+      "Astroscale",
+      -4.6
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -4.95
+    ],
+    [
       "ASTS",
       "AST SpaceMobile",
-      -6.16
+      -6.86
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      -8.13
     ],
     [
       "SLDP",
       "Solid Power",
-      -6.76
-    ],
-    [
-      "NNE",
-      "Nano Nuclear Energy",
-      -7.7
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -8.02
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      -11.5
+      -8.31
     ]
   ],
-  "lastUpdated": "2026-05-01 13:27:05"
+  "lastUpdated": "2026-05-01 19:18:15"
 }
