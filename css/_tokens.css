@@ -1,0 +1,142 @@
+/* ─────────────────────────────────────────────────────────────────────
+ * Innovators League — design tokens
+ *
+ * Single source of truth for colors, spacing, typography, motion.
+ * Existing styles.css and *-page.css files keep working untouched —
+ * these tokens are ADDITIVE, used by new shared components in
+ * _components.css and any new feature stylesheets going forward.
+ *
+ * To converge an existing page onto tokens later: replace hardcoded
+ * #22c55e with var(--color-primary), etc. No behavior change.
+ * ───────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ─── Brand & Semantic Colors ─────────────────────────────────────
+     Derived from the existing palette so adopters see no visual change.
+     Counts in comments = how often each was used in the existing CSS. */
+
+  /* Primary green — 144 uses */
+  --color-primary:        #22c55e;
+  --color-primary-bright: #4ade80;
+  --color-primary-deep:   #16a34a;
+
+  /* Accent orange — 121 uses (defense, urgency, hot signals) */
+  --color-accent:        #ff6b2c;
+  --color-accent-bright: #ff8147;
+
+  /* Sector accents (from existing palette) */
+  --color-defense:    #ff6b2c;   /* orange */
+  --color-fusion:     #60a5fa;   /* blue — 76 uses */
+  --color-space:      #60a5fa;
+  --color-bio:        #8b5cf6;   /* purple — 24 uses */
+  --color-ai:         #8b5cf6;
+  --color-quantum:    #a855f7;
+  --color-energy:     #4ade80;
+  --color-nuclear:    #facc15;
+
+  /* Status colors */
+  --color-success:    #22c55e;
+  --color-warning:    #f59e0b;   /* amber — 65 uses */
+  --color-danger:     #ef4444;   /* red — 64 uses */
+  --color-info:       #60a5fa;
+  --color-gold:       #ffd700;   /* 34 uses — premium / hot */
+
+  /* Surfaces (from existing dark theme) */
+  --bg-page:          #0a0a0a;
+  --bg-card:          #1a1a1a;
+  --bg-card-elevated: #1e1e1e;
+  --bg-hover:         #222;
+  --bg-input:         #0e0f16;
+
+  /* Borders */
+  --border-subtle:   rgba(255, 255, 255, 0.06);
+  --border-default:  rgba(255, 255, 255, 0.10);
+  --border-strong:   rgba(255, 255, 255, 0.18);
+  --border-primary:  rgba(34, 197, 94, 0.30);
+  --border-accent:   rgba(255, 107, 44, 0.30);
+
+  /* Text */
+  --text-primary:    #f0f0fa;     /* main body */
+  --text-secondary:  #9ca3af;     /* labels, captions */
+  --text-muted:      #6b7280;     /* timestamps, metadata */
+  --text-on-accent:  #0a0a0a;     /* on bright backgrounds */
+
+  /* ─── Spacing scale (4px base) ───────────────────────────────────── */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-10:  40px;
+  --space-12:  48px;
+  --space-16:  64px;
+  --space-20:  80px;
+
+  /* ─── Radii ──────────────────────────────────────────────────────── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+  --radius-pill: 999px;
+
+  /* ─── Typography ─────────────────────────────────────────────────── */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+               Helvetica, Arial, sans-serif;
+  --font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas,
+               'Courier New', monospace;
+
+  --text-xs:    11px;
+  --text-sm:    13px;
+  --text-base:  15px;
+  --text-md:    17px;
+  --text-lg:    20px;
+  --text-xl:    24px;
+  --text-2xl:   32px;
+  --text-3xl:   42px;
+  --text-hero:  56px;
+
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-semi:    600;
+  --weight-bold:    700;
+
+  --leading-tight:  1.2;
+  --leading-normal: 1.5;
+  --leading-loose:  1.7;
+
+  /* ─── Shadows ────────────────────────────────────────────────────── */
+  --shadow-sm:    0 1px 2px rgba(0, 0, 0, 0.30);
+  --shadow-md:    0 4px 12px rgba(0, 0, 0, 0.40);
+  --shadow-lg:    0 12px 32px rgba(0, 0, 0, 0.50);
+  --shadow-glow-primary: 0 0 24px rgba(34, 197, 94, 0.25);
+  --shadow-glow-accent:  0 0 24px rgba(255, 107, 44, 0.25);
+
+  /* ─── Motion ─────────────────────────────────────────────────────── */
+  --transition-fast:   120ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base:   200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow:   400ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ─── Layout ─────────────────────────────────────────────────────── */
+  --max-content-width:  1280px;
+  --max-narrow-width:   860px;
+  --gutter:             clamp(16px, 4vw, 32px);
+
+  /* ─── Z-index scale ──────────────────────────────────────────────── */
+  --z-base:       1;
+  --z-elevated:   10;
+  --z-sticky:     100;
+  --z-overlay:    200;
+  --z-modal:      300;
+  --z-toast:      400;
+}
+
+/* Reduced motion respect */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-base: 0ms;
+    --transition-slow: 0ms;
+  }
+}

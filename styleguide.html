@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Component Library · Innovators League</title>
+  <meta name="description" content="Internal styleguide — preview of the shared component library used by new features (Catalyst Calendar, Public Baskets, Talent Graph). Not linked from main nav.">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="css/_tokens.css">
+  <link rel="stylesheet" href="css/_components.css">
+  <style>
+    body {
+      margin: 0;
+      background: var(--bg-page);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      line-height: var(--leading-normal);
+    }
+    main {
+      max-width: var(--max-content-width);
+      margin: 0 auto;
+      padding: var(--space-8) var(--gutter);
+    }
+    h2 {
+      font-size: var(--text-xl);
+      margin: var(--space-12) 0 var(--space-4);
+      padding-bottom: var(--space-2);
+      border-bottom: 1px solid var(--border-default);
+    }
+    h2:first-of-type { margin-top: var(--space-6); }
+    .demo-note {
+      color: var(--text-muted);
+      font-size: var(--text-sm);
+      margin-bottom: var(--space-4);
+    }
+    .demo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: var(--space-4);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="il-hero">
+    <div class="il-hero__inner">
+      <div class="il-hero__eyebrow">Component Library</div>
+      <h1 class="il-hero__title">Innovators League Design System</h1>
+      <p class="il-hero__subtitle">
+        Shared components used by new features. Existing pages keep their styles
+        untouched — these are additive primitives for Catalyst Calendar, Public
+        Baskets, Talent Graph, and beyond.
+      </p>
+    </div>
+  </header>
+
+  <main>
+
+    <h2>Hero (with sector accents)</h2>
+    <p class="demo-note">Same component, different <code>data-accent</code> values.</p>
+
+    <div class="il-hero" data-accent="defense" style="margin-bottom: var(--space-3); border-radius: var(--radius-md); padding: var(--space-8) var(--space-6)">
+      <div class="il-hero__inner">
+        <div class="il-hero__eyebrow">Defense Sector</div>
+        <h3 class="il-hero__title" style="font-size: var(--text-2xl)">Hadrian closes Series C</h3>
+      </div>
+    </div>
+
+    <div class="il-hero" data-accent="space" style="margin-bottom: var(--space-3); border-radius: var(--radius-md); padding: var(--space-8) var(--space-6)">
+      <div class="il-hero__inner">
+        <div class="il-hero__eyebrow">Space Sector</div>
+        <h3 class="il-hero__title" style="font-size: var(--text-2xl)">Astranis Q2 launch manifest</h3>
+      </div>
+    </div>
+
+    <div class="il-hero" data-accent="bio" style="border-radius: var(--radius-md); padding: var(--space-8) var(--space-6)">
+      <div class="il-hero__inner">
+        <div class="il-hero__eyebrow">Biotech Sector</div>
+        <h3 class="il-hero__title" style="font-size: var(--text-2xl)">EvolutionaryScale FDA path</h3>
+      </div>
+    </div>
+
+
+    <h2>Cards</h2>
+    <div class="demo-grid">
+      <div class="il-card">
+        <div class="il-card__title">Standard card</div>
+        <div class="il-card__meta">
+          <span>2026-04-30</span><span>·</span><span>Funding</span>
+        </div>
+        <div class="il-card__body">Default border, hovers up with a green outline.</div>
+      </div>
+      <div class="il-card il-card--accent il-card--clickable">
+        <div class="il-card__title">Accent card</div>
+        <div class="il-card__meta">
+          <span>2026-04-30</span><span>·</span><span>Hot signal</span>
+        </div>
+        <div class="il-card__body">Orange left-border for high-importance items.</div>
+      </div>
+      <div class="il-card il-card--success">
+        <div class="il-card__title">Success card</div>
+        <div class="il-card__meta"><span>FDA approval</span></div>
+        <div class="il-card__body">Green left-border for positive outcomes.</div>
+      </div>
+      <div class="il-card il-card--danger">
+        <div class="il-card__title">Risk card</div>
+        <div class="il-card__meta"><span>Trial halted</span></div>
+        <div class="il-card__body">Red left-border for negative signals.</div>
+      </div>
+    </div>
+
+
+    <h2>Filter Bar</h2>
+    <div class="il-filter-bar">
+      <span class="il-filter-bar__label">Filter</span>
+      <input type="search" placeholder="Search companies, sectors, investors…" style="min-width: 240px">
+      <select>
+        <option>All sectors</option>
+        <option>Defense</option>
+        <option>Space</option>
+        <option>Bio</option>
+      </select>
+      <select>
+        <option>Last 30 days</option>
+        <option>Last 7 days</option>
+        <option>Today</option>
+      </select>
+    </div>
+
+
+    <h2>Chips / Pills</h2>
+    <div class="il-row il-row--gap-2 il-row--wrap">
+      <button class="il-chip" aria-pressed="true">All</button>
+      <button class="il-chip">Defense</button>
+      <button class="il-chip">Space</button>
+      <button class="il-chip">Bio</button>
+      <button class="il-chip" data-tone="accent" aria-pressed="true">🔥 Hot signal</button>
+      <button class="il-chip" data-tone="accent">High importance</button>
+    </div>
+
+
+    <h2>Timeline Feed</h2>
+    <p class="demo-note">Used by the Catalyst Calendar. <code>data-importance</code> changes the dot color.</p>
+    <div class="il-timeline-feed">
+      <div class="il-timeline-item" data-importance="urgent">
+        <div class="il-timeline-item__date">2026-05-02 · in 1 day</div>
+        <div class="il-timeline-item__title">Sarepta gene therapy FDA decision (PDUFA)</div>
+        <div class="il-timeline-item__meta">
+          <span class="il-badge il-badge--danger">Urgent</span>
+          <span>Sarepta Therapeutics</span>
+          <span>·</span>
+          <span>Bio</span>
+        </div>
+        <div class="il-timeline-item__body">
+          Action date for SRP-9001 approval expansion. Public-market exposure: SRPT.
+        </div>
+      </div>
+      <div class="il-timeline-item" data-importance="high">
+        <div class="il-timeline-item__date">2026-05-08 · in 7 days</div>
+        <div class="il-timeline-item__title">Anduril rumored Series F close</div>
+        <div class="il-timeline-item__meta">
+          <span class="il-badge il-badge--accent">High</span>
+          <span>Anduril Industries</span>
+          <span>·</span>
+          <span>Defense</span>
+        </div>
+        <div class="il-timeline-item__body">
+          Reported $30B+ valuation; Founders Fund and a16z leading.
+        </div>
+      </div>
+      <div class="il-timeline-item">
+        <div class="il-timeline-item__date">2026-05-15 · in 14 days</div>
+        <div class="il-timeline-item__title">Saronic ASV demo for US Navy</div>
+        <div class="il-timeline-item__meta">
+          <span class="il-badge">Medium</span>
+          <span>Saronic Technologies</span>
+          <span>·</span>
+          <span>Defense</span>
+        </div>
+        <div class="il-timeline-item__body">
+          Live-fire exercise off the coast of Pearl Harbor.
+        </div>
+      </div>
+    </div>
+
+
+    <h2>Badges</h2>
+    <div class="il-row il-row--gap-2 il-row--wrap">
+      <span class="il-badge">Verified</span>
+      <span class="il-badge il-badge--accent">Hot</span>
+      <span class="il-badge il-badge--warning">Caution</span>
+      <span class="il-badge il-badge--danger">Risk</span>
+      <span class="il-badge il-badge--info">Info</span>
+      <span class="il-badge il-badge--neutral">Neutral</span>
+    </div>
+
+
+    <h2>Metric Grid</h2>
+    <div class="il-metric-grid">
+      <div class="il-metric">
+        <div class="il-metric__value">872</div>
+        <div class="il-metric__label">Companies tracked</div>
+      </div>
+      <div class="il-metric">
+        <div class="il-metric__value">31</div>
+        <div class="il-metric__label">VC firms</div>
+      </div>
+      <div class="il-metric">
+        <div class="il-metric__value">$37</div>
+        <div class="il-metric__label">Last full sweep cost</div>
+      </div>
+      <div class="il-metric">
+        <div class="il-metric__value">99.6%</div>
+        <div class="il-metric__label">Verified or sampled</div>
+      </div>
+    </div>
+
+
+    <h2>Empty State</h2>
+    <div class="il-card">
+      <div class="il-empty-state">
+        <div class="il-empty-state__icon">📅</div>
+        <div class="il-empty-state__title">No catalysts in the next 7 days</div>
+        <div class="il-empty-state__body">
+          Try expanding the date range or filtering by a different sector.
+        </div>
+      </div>
+    </div>
+
+
+    <h2>Loading / Skeleton</h2>
+    <div class="il-card">
+      <div class="il-skeleton il-skeleton--title"></div>
+      <div class="il-skeleton il-skeleton--text"></div>
+      <div class="il-skeleton il-skeleton--text" style="width: 80%"></div>
+      <div class="il-skeleton il-skeleton--text" style="width: 60%"></div>
+    </div>
+
+
+    <h2 style="margin-bottom: 0">Token reference</h2>
+    <p class="demo-note">All tokens defined in <code>css/_tokens.css</code>. Use <code>var(--token-name)</code> in any new stylesheet.</p>
+
+    <h3>Color palette</h3>
+    <div class="demo-grid">
+      <div class="il-card"><div class="il-card__title" style="color: var(--color-primary)">--color-primary</div><div class="il-card__body">Brand green; main CTAs and signals.</div></div>
+      <div class="il-card"><div class="il-card__title" style="color: var(--color-accent)">--color-accent</div><div class="il-card__body">Defense / urgency / hot.</div></div>
+      <div class="il-card"><div class="il-card__title" style="color: var(--color-fusion)">--color-fusion</div><div class="il-card__body">Space / fusion blue.</div></div>
+      <div class="il-card"><div class="il-card__title" style="color: var(--color-bio)">--color-bio</div><div class="il-card__body">Biotech / AI purple.</div></div>
+      <div class="il-card"><div class="il-card__title" style="color: var(--color-warning)">--color-warning</div><div class="il-card__body">Caution / pending.</div></div>
+      <div class="il-card"><div class="il-card__title" style="color: var(--color-danger)">--color-danger</div><div class="il-card__body">Risk / shutdown / failure.</div></div>
+    </div>
+
+  </main>
+
+  <footer style="text-align: center; padding: var(--space-12); color: var(--text-muted); font-size: var(--text-xs);">
+    Innovators League · component library v1 · 2026-04-30
+  </footer>
+</body>
+</html>
