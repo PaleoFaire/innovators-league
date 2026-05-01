@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T09:55:56+00:00",
+  "generatedAt": "2026-05-01T11:16:36+00:00",
   "matrix": {
     "ai-foundation-models": {
       "2026-Q2": {
@@ -429,8 +429,7 @@
           }
         ],
         "investors": [
-          "Sequoia Capital",
-          "a16z (Andreessen Horowitz)"
+          "Sequoia Capital"
         ]
       },
       "2025-Q4": {
@@ -458,8 +457,7 @@
           }
         ],
         "investors": [
-          "Sequoia Capital",
-          "a16z (Andreessen Horowitz)"
+          "Sequoia Capital"
         ]
       },
       "2025-Q3": {
@@ -523,8 +521,7 @@
           "Founders Fund",
           "General Catalyst",
           "Lux Capital",
-          "Valor Equity Partners",
-          "a16z (Andreessen Horowitz)"
+          "Valor Equity Partners"
         ]
       },
       "2026-Q1": {
@@ -547,8 +544,7 @@
           }
         ],
         "investors": [
-          "Riot Ventures",
-          "a16z (Andreessen Horowitz)"
+          "Riot Ventures"
         ]
       },
       "2025-Q3": {
@@ -575,9 +571,7 @@
             ]
           }
         ],
-        "investors": [
-          "a16z (Andreessen Horowitz)"
-        ]
+        "investors": []
       },
       "2025-Q4": {
         "deals": 3,
@@ -712,9 +706,7 @@
             ]
           }
         ],
-        "investors": [
-          "a16z (Andreessen Horowitz)"
-        ]
+        "investors": []
       }
     },
     "supersonic-hypersonic-transport": {
@@ -776,8 +768,7 @@
         ],
         "investors": [
           "Alumni Ventures",
-          "Lowercarbon Capital",
-          "a16z (Andreessen Horowitz)"
+          "Lowercarbon Capital"
         ]
       }
     },
@@ -1304,60 +1295,6 @@
     }
   },
   "vcAttribution": {
-    "a16z (Andreessen Horowitz)": {
-      "2026-Q2": [
-        {
-          "company": "ElevenLabs",
-          "cluster": "ai-generative-media",
-          "date": "2026-04-22",
-          "source": "formd"
-        },
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Shield AI",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q3": [
-        {
-          "company": "Skydio",
-          "cluster": "autonomy-drone-military",
-          "date": "2025-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Astranis",
-          "cluster": "space-ground-comms",
-          "date": "2025-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2024-Q1": [
-        {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "ElevenLabs",
-          "cluster": "ai-generative-media",
-          "date": "2025-11",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Sequoia Capital": {
       "2026-Q2": [
         {
@@ -1562,7 +1499,7 @@
     "totalUSDSold": 38753541,
     "uniqueClusters": 40,
     "uniqueQuarters": 8,
-    "uniqueVCs": 17,
+    "uniqueVCs": 16,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-01T09:55:55+00:00",
+  "generatedAt": "2026-05-01T11:16:35+00:00",
   "stats": {
     "companies": 872,
     "vcFirms": 31,
-    "uniqueClusters": 86,
-    "totalInvestments": 177
+    "uniqueClusters": 81,
+    "totalInvestments": 154
   },
   "concentration": {
     "Founders Fund": {
@@ -97,121 +97,6 @@
         "count": 1,
         "companies": [
           "ICON"
-        ]
-      }
-    },
-    "a16z (Andreessen Horowitz)": {
-      "autonomy-drone-military": {
-        "count": 3,
-        "companies": [
-          "Anduril Industries",
-          "Shield AI",
-          "Skydio"
-        ]
-      },
-      "defense-munitions-energetics": {
-        "count": 1,
-        "companies": [
-          "Castelion"
-        ]
-      },
-      "space-ground-comms": {
-        "count": 1,
-        "companies": [
-          "Astranis"
-        ]
-      },
-      "supersonic-hypersonic-transport": {
-        "count": 1,
-        "companies": [
-          "Astro Mechanica"
-        ]
-      },
-      "manufacturing-reshoring": {
-        "count": 1,
-        "companies": [
-          "Salient Motion"
-        ]
-      },
-      "maritime-electric-transport": {
-        "count": 1,
-        "companies": [
-          "Arc Boats"
-        ]
-      },
-      "space-solar-power": {
-        "count": 1,
-        "companies": [
-          "Aetherflux"
-        ]
-      },
-      "ai-autonomous-driving": {
-        "count": 1,
-        "companies": [
-          "Applied Intuition"
-        ]
-      },
-      "data-center-infrastructure": {
-        "count": 2,
-        "companies": [
-          "Exowatt",
-          "Modal"
-        ]
-      },
-      "ai-foundation-models": {
-        "count": 1,
-        "companies": [
-          "Mistral AI"
-        ]
-      },
-      "ai-generative-media": {
-        "count": 1,
-        "companies": [
-          "ElevenLabs"
-        ]
-      },
-      "quantum-superconducting": {
-        "count": 1,
-        "companies": [
-          "Rigetti Computing"
-        ]
-      },
-      "biotech-novel-biology": {
-        "count": 1,
-        "companies": [
-          "Asimov"
-        ]
-      },
-      "defense-power-systems": {
-        "count": 1,
-        "companies": [
-          "Chariot Defense"
-        ]
-      },
-      "defense-munitions": {
-        "count": 1,
-        "companies": [
-          "Galadyne"
-        ]
-      },
-      "ai-trust-safety": {
-        "count": 1,
-        "companies": [
-          "Reality Defender"
-        ]
-      },
-      "genomics": {
-        "count": 1,
-        "companies": [
-          "Ultima Genomics"
-        ]
-      },
-      "foundation-models": {
-        "count": 3,
-        "companies": [
-          "Black Forest Labs",
-          "Safe Superintelligence",
-          "Thinking Machines Lab"
         ]
       }
     },
@@ -1063,29 +948,29 @@
   "specialists": {
     "autonomy-drone-military": [
       {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 3,
-        "share": 0.25
-      },
-      {
         "vc": "Founders Fund",
         "count": 2,
-        "share": 0.1667
+        "share": 0.2222
       },
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.0833
+        "share": 0.1111
       },
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.0833
+        "share": 0.1111
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.0833
+        "share": 0.1111
+      },
+      {
+        "vc": "Valor Equity Partners",
+        "count": 1,
+        "share": 0.1111
       }
     ],
     "nuclear-services-fuel": [
@@ -1178,54 +1063,44 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lightspeed Venture Partners",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "maritime-electric-transport": [
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Eclipse Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Point72 Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "space-communications": [
@@ -1249,22 +1124,17 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.25
+        "share": 0.3333
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.25
+        "share": 0.3333
       },
       {
         "vc": "Playground Global",
         "count": 1,
-        "share": 0.25
+        "share": 0.3333
       }
     ],
     "electric-propulsion": [
@@ -1284,209 +1154,6 @@
         "vc": "Founders Fund",
         "count": 1,
         "share": 1.0
-      }
-    ],
-    "space-ground-comms": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "supersonic-hypersonic-transport": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Khosla Ventures",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Alumni Ventures",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Lowercarbon Capital",
-        "count": 1,
-        "share": 0.25
-      }
-    ],
-    "manufacturing-reshoring": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "space-solar-power": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.25
-      }
-    ],
-    "ai-autonomous-driving": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.1667
-      },
-      {
-        "vc": "General Catalyst",
-        "count": 1,
-        "share": 0.1667
-      },
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 0.1667
-      },
-      {
-        "vc": "D1 Capital Partners",
-        "count": 1,
-        "share": 0.1667
-      },
-      {
-        "vc": "Khosla Ventures",
-        "count": 1,
-        "share": 0.1667
-      }
-    ],
-    "data-center-infrastructure": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 2,
-        "share": 0.5
-      },
-      {
-        "vc": "Khosla Ventures",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.25
-      }
-    ],
-    "ai-foundation-models": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "D1 Capital Partners",
-        "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Lightspeed Venture Partners",
-        "count": 1,
-        "share": 0.3333
-      }
-    ],
-    "ai-generative-media": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 0.5
-      }
-    ],
-    "quantum-superconducting": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "biotech-novel-biology": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "defense-power-systems": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "General Catalyst",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Shield Capital",
-        "count": 1,
-        "share": 0.25
-      }
-    ],
-    "defense-munitions": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "ai-trust-safety": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.3333
-      }
-    ],
-    "foundation-models": [
-      {
-        "vc": "a16z (Andreessen Horowitz)",
-        "count": 3,
-        "share": 0.75
-      },
-      {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 0.25
       }
     ],
     "space-launch-large": [
@@ -1534,6 +1201,33 @@
       },
       {
         "vc": "In-Q-Tel",
+        "count": 1,
+        "share": 0.2
+      }
+    ],
+    "ai-autonomous-driving": [
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "D1 Capital Partners",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Khosla Ventures",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Eclipse Ventures",
         "count": 1,
         "share": 0.2
       }
@@ -1591,6 +1285,23 @@
         "share": 0.3333
       }
     ],
+    "defense-power-systems": [
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "DCVC (Data Collective)",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Shield Capital",
+        "count": 1,
+        "share": 0.3333
+      }
+    ],
     "defense-security-ai": [
       {
         "vc": "General Catalyst",
@@ -1601,6 +1312,23 @@
         "vc": "Lux Capital",
         "count": 1,
         "share": 0.5
+      }
+    ],
+    "space-solar-power": [
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Sequoia Capital",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Breakthrough Energy Ventures",
+        "count": 1,
+        "share": 0.3333
       }
     ],
     "autonomy-maritime": [
@@ -1632,6 +1360,18 @@
         "share": 0.3333
       }
     ],
+    "ai-trust-safety": [
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "DCVC (Data Collective)",
+        "count": 1,
+        "share": 0.5
+      }
+    ],
     "autonomous-aviation": [
       {
         "vc": "Valor Equity Partners",
@@ -1640,6 +1380,18 @@
       },
       {
         "vc": "DCVC (Data Collective)",
+        "count": 1,
+        "share": 0.5
+      }
+    ],
+    "ai-foundation-models": [
+      {
+        "vc": "D1 Capital Partners",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "Lightspeed Venture Partners",
         "count": 1,
         "share": 0.5
       }
@@ -1675,6 +1427,13 @@
         "share": 0.5
       }
     ],
+    "ai-generative-media": [
+      {
+        "vc": "Sequoia Capital",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
     "quantum-sensors-software": [
       {
         "vc": "Sequoia Capital",
@@ -1688,6 +1447,13 @@
       }
     ],
     "edge-ai-silicon": [
+      {
+        "vc": "Sequoia Capital",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
+    "foundation-models": [
       {
         "vc": "Sequoia Capital",
         "count": 1,
@@ -1708,6 +1474,23 @@
         "share": 1.0
       }
     ],
+    "supersonic-hypersonic-transport": [
+      {
+        "vc": "Khosla Ventures",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Alumni Ventures",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Lowercarbon Capital",
+        "count": 1,
+        "share": 0.3333
+      }
+    ],
     "fusion-magnetic-confinement": [
       {
         "vc": "Khosla Ventures",
@@ -1723,6 +1506,18 @@
         "vc": "Breakthrough Energy Ventures",
         "count": 1,
         "share": 0.3333
+      }
+    ],
+    "data-center-infrastructure": [
+      {
+        "vc": "Khosla Ventures",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "DCVC (Data Collective)",
+        "count": 1,
+        "share": 0.5
       }
     ],
     "medical-devices-surgical": [
@@ -2065,40 +1860,6 @@
         {
           "company": "Lunar Energy",
           "cluster": "distributed-energy-storage",
-          "addedDate": "2026-03"
-        }
-      ]
-    },
-    {
-      "vc": "a16z (Andreessen Horowitz)",
-      "recentCount": 13,
-      "totalCount": 23,
-      "score": 14.809,
-      "topCluster": "autonomy-drone-military",
-      "recentExamples": [
-        {
-          "company": "Ultima Genomics",
-          "cluster": "genomics",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Black Forest Labs",
-          "cluster": "foundation-models",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Safe Superintelligence",
-          "cluster": "foundation-models",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Thinking Machines Lab",
-          "cluster": "foundation-models",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Chariot Defense",
-          "cluster": "defense-power-systems",
           "addedDate": "2026-03"
         }
       ]
@@ -2726,19 +2487,7 @@
   "topClusters": [
     {
       "cluster": "autonomy-drone-military",
-      "investmentCount": 12
-    },
-    {
-      "cluster": "ai-autonomous-driving",
-      "investmentCount": 6
-    },
-    {
-      "cluster": "defense-munitions-energetics",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "maritime-electric-transport",
-      "investmentCount": 5
+      "investmentCount": 9
     },
     {
       "cluster": "space-launch-large",
@@ -2749,31 +2498,19 @@
       "investmentCount": 5
     },
     {
+      "cluster": "ai-autonomous-driving",
+      "investmentCount": 5
+    },
+    {
       "cluster": "logistics-supply-chain",
       "investmentCount": 4
     },
     {
-      "cluster": "genomics",
+      "cluster": "defense-munitions-energetics",
       "investmentCount": 4
     },
     {
-      "cluster": "supersonic-hypersonic-transport",
-      "investmentCount": 4
-    },
-    {
-      "cluster": "space-solar-power",
-      "investmentCount": 4
-    },
-    {
-      "cluster": "data-center-infrastructure",
-      "investmentCount": 4
-    },
-    {
-      "cluster": "defense-power-systems",
-      "investmentCount": 4
-    },
-    {
-      "cluster": "foundation-models",
+      "cluster": "maritime-electric-transport",
       "investmentCount": 4
     },
     {
@@ -2785,11 +2522,7 @@
       "investmentCount": 3
     },
     {
-      "cluster": "ai-foundation-models",
-      "investmentCount": 3
-    },
-    {
-      "cluster": "ai-trust-safety",
+      "cluster": "genomics",
       "investmentCount": 3
     },
     {
@@ -2797,7 +2530,19 @@
       "investmentCount": 3
     },
     {
+      "cluster": "defense-power-systems",
+      "investmentCount": 3
+    },
+    {
+      "cluster": "space-solar-power",
+      "investmentCount": 3
+    },
+    {
       "cluster": "ai-drug-discovery",
+      "investmentCount": 3
+    },
+    {
+      "cluster": "supersonic-hypersonic-transport",
       "investmentCount": 3
     },
     {
@@ -2833,15 +2578,31 @@
       "investmentCount": 2
     },
     {
-      "cluster": "ai-generative-media",
-      "investmentCount": 2
-    },
-    {
       "cluster": "defense-security-ai",
       "investmentCount": 2
     },
     {
       "cluster": "autonomy-maritime",
+      "investmentCount": 2
+    },
+    {
+      "cluster": "ai-trust-safety",
+      "investmentCount": 2
+    },
+    {
+      "cluster": "autonomous-aviation",
+      "investmentCount": 2
+    },
+    {
+      "cluster": "ai-foundation-models",
+      "investmentCount": 2
+    },
+    {
+      "cluster": "commercial-robotics",
+      "investmentCount": 2
+    },
+    {
+      "cluster": "industrial-ai-manufacturing",
       "investmentCount": 2
     }
   ]
