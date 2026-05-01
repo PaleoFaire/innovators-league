@@ -110,6 +110,15 @@ jobs:
         run: python3 scripts/build_unified_calendar.py --past-days 365 --future-days 730
         continue-on-error: true
 
+      - name: Refresh public-market basket prices
+        # Pulls live prices + YTD/1y returns for every ticker referenced in
+        # data/baskets.js (constituents + benchmarks). Drives baskets.html.
+        # Markets are closed most of the time so once an hour is plenty.
+        run: |
+          pip install --quiet yfinance 2>&1 | tail -3 || true
+          python3 scripts/fetch_basket_prices.py
+        continue-on-error: true
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"
