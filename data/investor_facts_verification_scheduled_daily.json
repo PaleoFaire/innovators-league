@@ -1,16 +1,142 @@
 {
-  "generatedAt": "2026-05-01T08:03:12+00:00",
+  "generatedAt": "2026-05-02T07:21:43+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 2,
-  "newExtractionsThisRun": 2,
+  "cohortSize": 3,
+  "newExtractionsThisRun": 3,
   "summary": {
     "cleared": 0,
-    "changesProposed": 2,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [],
   "changesProposed": [
+    {
+      "name": "Alumni Ventures",
+      "current": {
+        "name": "Alumni Ventures",
+        "shortName": "AV",
+        "aum": "$1.5B+",
+        "flagshipFund": "Deep Tech Fund",
+        "founded": 2014,
+        "hq": "Manchester, NH",
+        "website": "https://av.vc"
+      },
+      "verified": {
+        "name": "Alumni Ventures",
+        "short_name": "AV",
+        "aum": "$1.5B+",
+        "flagship_fund": null,
+        "founded_year": 2014,
+        "hq": "Manchester, NH",
+        "key_partners": [
+          "Mike Collins",
+          "James Gill"
+        ],
+        "sector_focus": null,
+        "thesis": "Alumni Ventures provides accredited investors and institutions access to professionally-managed, diversified venture portfolios by co-investing alongside leading VC firms. The firm operates exclusively as a co-investor, not leading rounds or taking board seats.",
+        "website": "https://av.vc",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            3
+          ],
+          "short_name": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "aum": [
+            0,
+            3
+          ],
+          "flagship_fund": [],
+          "founded_year": [
+            1,
+            3
+          ],
+          "hq": [
+            1,
+            3
+          ],
+          "key_partners": [
+            1,
+            3
+          ],
+          "sector_focus": [],
+          "thesis": [
+            0,
+            3
+          ],
+          "website": [
+            0,
+            1,
+            3
+          ]
+        },
+        "notes": "Wikipedia lists co-founders as Mike Collins and Luke Antal (founded 2014). Current key people on about page include Mike Collins (CEO/Founder) and James Gill (Co-Founder & Lead Director). No current 'Deep Tech Fund' explicitly named as flagship fund in sources. Sector focus areas mentioned on website ('Medicine 3.0', 'Strategic Tech', 'Women's Founders', 'Early Stage AI Deals') appear as customizable options rather than explicit firm-wide sector focus list. SEC fined AV $700,000 in March 2022 for misleading fee statements and commingling fund assets."
+      },
+      "changes": [
+        {
+          "field": "keyPartners",
+          "current": [
+            "Mike Collins"
+          ],
+          "verified": [
+            "Mike Collins",
+            "James Gill"
+          ],
+          "sources": [
+            1,
+            3
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Alumni Ventures provides accredited investors and institutions access to professionally-managed, diversified venture portfolios by co-investing alongside leading VC firms. The firm operates as a co-investor exclusively, not leading rounds or taking board seats, and focuses on democratizing venture capital access to individual investors.",
+          "verified": "Alumni Ventures provides accredited investors and institutions access to professionally-managed, diversified venture portfolios by co-investing alongside leading VC firms. The firm operates exclusively as a co-investor, not leading rounds or taking board seats.",
+          "sources": [
+            0,
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://av.vc"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://av.vc/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/portfolio",
+          "url": "https://av.vc/portfolio"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alumni_Ventures"
+        },
+        {
+          "idx": 4,
+          "src": "news (CleanTechnica)",
+          "url": "https://cleantechnica.com/2026/05/01/tesla-got-573-million-from-spacex-and-xai-in-2025/"
+        },
+        {
+          "idx": 5,
+          "src": "news (War on the Rocks)",
+          "url": "https://warontherocks.com/disperse-to-survive-the-logic-of-french-forward-deterrence/"
+        }
+      ],
+      "notes": "Wikipedia lists co-founders as Mike Collins and Luke Antal (founded 2014). Current key people on about page include Mike Collins (CEO/Founder) and James Gill (Co-Founder & Lead Director). No current 'Deep Tech Fund' explicitly named as flagship fund in sources. Sector focus areas mentioned on website ('Medicine 3.0', 'Strategic Tech', 'Women's Founders', 'Early Stage AI Deals') appear as customizable options rather than explicit firm-wide sector focus list. SEC fined AV $700,000 in March 2022 for misleading fee statements and commingling fund assets."
+    },
     {
       "name": "Engine Ventures",
       "current": {
@@ -47,7 +173,7 @@
           "Materials",
           "Water / Oceans"
         ],
-        "thesis": "Engine Ventures invests in Tough Tech companies commercializing breakthrough science and engineering from research labs. The firm supports early-stage deep tech startups developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "thesis": "Engine Ventures invests in Tough Tech companies commercializing breakthrough science and engineering. The firm supports early-stage deep tech startups developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
@@ -59,7 +185,6 @@
             0
           ],
           "founded_year": [
-            1,
             3
           ],
           "hq": [
@@ -78,17 +203,22 @@
             3
           ]
         },
-        "notes": "Engine Ventures spun out as a separate investment firm in 2023 from The Engine nonprofit accelerator/incubator. The Engine is a 501(c)(3) nonprofit as of 2025. Current CEO of The Engine is Emily Knight. No AUM, flagship fund name, or current senior investment partners explicitly identified in provided sources."
+        "notes": "Engine Ventures is the investment fund that spun out from The Engine nonprofit in 2023. The Engine is a 501(c)(3) nonprofit incubator and accelerator founded by MIT in 2016. Current and former resident companies have collectively raised $5.5B in funding. Key personnel identified at The Engine nonprofit (not Engine Ventures specifically): Emily Knight (CEO, President), Benjamin Downing (Chief Growth Officer). Sources do not explicitly name current senior partners of Engine Ventures investment firm."
       },
       "changes": [
         {
           "field": "sectorFocus",
           "current": [
-            "Nuclear Energy",
-            "Energy & Climate",
-            "Biotech & Medical",
-            "Semiconductors",
-            "Advanced Manufacturing"
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS"
           ],
           "verified": [
             "Applied AI & ML",
@@ -109,15 +239,6 @@
           ],
           "sources": [
             1
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "Science-based companies from research labs solving massive problems. Patient capital for Tough Tech companies commercializing breakthrough science.",
-          "verified": "Engine Ventures invests in Tough Tech companies commercializing breakthrough science and engineering from research labs. The firm supports early-stage deep tech startups developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-          "sources": [
-            1,
-            3
           ]
         }
       ],
@@ -148,7 +269,7 @@
           "url": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
         }
       ],
-      "notes": "Engine Ventures spun out as a separate investment firm in 2023 from The Engine nonprofit accelerator/incubator. The Engine is a 501(c)(3) nonprofit as of 2025. Current CEO of The Engine is Emily Knight. No AUM, flagship fund name, or current senior investment partners explicitly identified in provided sources."
+      "notes": "Engine Ventures is the investment fund that spun out from The Engine nonprofit in 2023. The Engine is a 501(c)(3) nonprofit incubator and accelerator founded by MIT in 2016. Current and former resident companies have collectively raised $5.5B in funding. Key personnel identified at The Engine nonprofit (not Engine Ventures specifically): Emily Knight (CEO, President), Benjamin Downing (Chief Growth Officer). Sources do not explicitly name current senior partners of Engine Ventures investment firm."
     },
     {
       "name": "Future Ventures",
@@ -174,7 +295,7 @@
           "NICO Enriquez"
         ],
         "sector_focus": null,
-        "thesis": "Future Ventures supports seed and early-stage investments in mission-driven entrepreneurs with ideas that have the potential to reinvent entire industries. The firm focuses on frontier technologies at the cutting edge of disruptive innovation and new industry formation.",
+        "thesis": "Future Ventures focuses on seed and early-stage investments in mission-driven, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries. The firm backs visionaries at the cutting edge of disruptive technology and new industry formation.",
         "website": "https://future.ventures",
         "sources_per_field": {
           "name": [
@@ -195,28 +316,13 @@
             2
           ]
         },
-        "notes": "Sources state firm has backed founders for 'the past 25 years' but do not specify a founding year. AUM, flagship fund name, and HQ location not found in provided sources. Sector focus cannot be verified from explicit sector list; sources only detail individual investment examples. Three partners identified on team page: Steve Jurvetson (co-founder), Maryanna Saenko (co-founder), and NICO Enriquez."
+        "notes": "Founded year cannot be verified from sources (database entry claims 2018, but sources state 'for the past 25 years' suggesting founding around 1999). AUM of $500M cannot be verified from provided sources. Flagship fund name cannot be verified. HQ location cannot be verified from provided sources. Sector focus cannot be verified from explicit sector list on firm's site\u2014sources reference investment areas but no formal sector taxonomy is listed. Sources [4] and [5] are not relevant to this firm."
       },
       "changes": [
         {
-          "field": "keyPartners",
-          "current": [
-            "Steve Jurvetson",
-            "Maryanna Saenko"
-          ],
-          "verified": [
-            "Steve Jurvetson",
-            "Maryanna Saenko",
-            "NICO Enriquez"
-          ],
-          "sources": [
-            2
-          ]
-        },
-        {
           "field": "thesis",
-          "current": "Patient capital with 15-year fund structure. Steve Jurvetson. Early SpaceX/Tesla. Backing founders building technologies that reshape entire industries over decades.",
-          "verified": "Future Ventures supports seed and early-stage investments in mission-driven entrepreneurs with ideas that have the potential to reinvent entire industries. The firm focuses on frontier technologies at the cutting edge of disruptive innovation and new industry formation.",
+          "current": "Future Ventures supports seed and early-stage investments in mission-driven entrepreneurs with ideas that have the potential to reinvent entire industries, focusing on frontier technologies at the cutting edge of disruptive innovation and new industry formation.",
+          "verified": "Future Ventures focuses on seed and early-stage investments in mission-driven, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries. The firm backs visionaries at the cutting edge of disruptive technology and new industry formation.",
           "sources": [
             0,
             1
@@ -251,16 +357,11 @@
         },
         {
           "idx": 5,
-          "src": "news (MIT Tech Review)",
-          "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/"
-        },
-        {
-          "idx": 6,
           "src": "news (IEEE Spectrum)",
           "url": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
         }
       ],
-      "notes": "Sources state firm has backed founders for 'the past 25 years' but do not specify a founding year. AUM, flagship fund name, and HQ location not found in provided sources. Sector focus cannot be verified from explicit sector list; sources only detail individual investment examples. Three partners identified on team page: Steve Jurvetson (co-founder), Maryanna Saenko (co-founder), and NICO Enriquez."
+      "notes": "Founded year cannot be verified from sources (database entry claims 2018, but sources state 'for the past 25 years' suggesting founding around 1999). AUM of $500M cannot be verified from provided sources. Flagship fund name cannot be verified. HQ location cannot be verified from provided sources. Sector focus cannot be verified from explicit sector list on firm's site\u2014sources reference investment areas but no formal sector taxonomy is listed. Sources [4] and [5] are not relevant to this firm."
     }
   ],
   "unverifiable": []

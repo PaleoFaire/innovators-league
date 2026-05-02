@@ -1,87 +1,74 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-01T08:02:50+00:00  
+**Generated:** 2026-05-02T07:21:10+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 20 companies  
+**Cohort size:** 19 companies  
 
-**New Claude extractions this run:** 19  
+**New Claude extractions this run:** 17  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 13 | 65% |
-| 🔧 Changes proposed | 7 | 35% |
+| ✅ Cleared (data matches sources) | 14 | 74% |
+| 🔧 Changes proposed | 5 | 26% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (7 companies)
+## 🔧 Proposed Changes (5 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
 ### Anthropic
 
-- **`fundingStage`:** `Series G` → `Private`  
+- **`location`:** `San Francisco, California` → `San Francisco, California, U.S.`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Anthropic)
 
-  **Notes:** Wikipedia source [2] states valuation of $380 billion as of February 2026. Database entry references $183B valuation and $350B pending round, but these figures are not supported by provided sources. Source [3] mentions potential $900B+ valuation round but describes it as 'potential' and future-oriented, not a closed/current valuation. SEC Form D [6] shows a filing but amount ($5.7M) appears to be a specific tranche, not total raised. Company is structured as a Public Benefit Corporation [1, 2].
-
-### Anysphere
-
-- **`totalRaised`:** `$3.4B+` → `$3.2B+`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Anysphere)
-
-  **Notes:** Total raised calculated from: $8M seed (Oct 2023) + $60M Series A + $900M Series C (June 2025) + $2.3B Series D (Nov 2025) = $3.268B. Wikipedia source [1] is most recent and comprehensive. Source [2] is about Cognition (different company), not Anysphere.
-
-### Hadrian
-
-- **`investors`:** `[]` → `['137 Ventures']`  
-  Sources: [news (TechCrunch)](https://techcrunch.com/2026/04/30/spacex-backer-137-ventures-raises-700m-for-two-growth-stage-funds/)
-
-  **Notes:** Sources [0] and [1] are not relevant to the aerospace/defense manufacturing company Hadrian described in the database entry. Source [0] describes a HIPAA-compliant telephone answering service company, and source [1] is about the Roman emperor Hadrian. Only source [2] mentions Hadrian as a portfolio company of 137 Ventures in a growth-stage context, but provides no other verifiable details about the company. Cannot verify any facts from the database entry (location, founders, founding year, raised amount, valuation, stage) with the provided sources.
+  **Notes:** Wikipedia source [2] states as of February 2026 the estimated valuation is $380 billion. Current database entry lists $183B valuation and $350B pending round; these figures cannot be verified from provided sources. TechCrunch article [5] mentions potential $900B+ valuation round but does not confirm completion. SEC Form D [6] shows a small filing amount ($1.56M) which appears incomplete or represents portion of larger raise. No specific total_raised figure could be verified from sources.
 
 ### OpenAI
 
 - **`founder`:** `Sam Altman, Greg Brockman, Ilya Sutskever` → `Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman, Trevor`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/OpenAI)
 
-  **Notes:** Wikipedia lists 11 founders including Elon Musk (database entry lists only 3). In October 2025, OpenAI conducted a $6.6 billion share sale valued at $500 billion per source [1]. Company transitioned to for-profit capped entity in 2019 and underwent 2025 restructuring converting subsidiary into PBC. Microsoft ownership is 27% per [1]. Revenue was US$13.1 billion in 2025 per [1].
-
-### Scale AI
-
-- **`location`:** `San Francisco, California` → `San Francisco, California, United States`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
-
-  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left Scale AI to join Meta and was replaced as CEO by Jason Droege. The most recent valuation cited in sources is $14 billion as of May 2024.
+  **Notes:** Founded as nonprofit in December 2015; transitioned to for-profit capped structure in 2019; converted to public benefit corporation in 2025 restructuring. October 2025 share sale valued company at $500 billion. Total capital pledged at founding was $1 billion, but only $133.2 million collected by 2021 according to tax filings.
 
 ### SpaceX
 
 - **`fundingStage`:** `Series G` → `Pre-IPO`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and that 'a 2025 offer to buy internal shares valued SpaceX at $800 billion.' The database entry mentions '1.5T valuation' and 'Series G' stage, but these cannot be verified from provided sources. Revenue stated as '$16 billion (2025)' in Wikipedia source.
+  **Notes:** Source [0] is a domain listing page, not a reliable company source. Source [1] (Wikipedia) indicates SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was valued at '$800 billion' in a 2025 share offer. Founded March 14, 2002 in El Segundo, California but now headquartered in Starbase, Texas. Sources [2], [3], [4] contain speculative or marketing language without verifiable financial data. Source [5] is a fragmentary SEC Form D filing. Total raised amount cannot be verified from these sources.
 
 ### True Anomaly
 
-- **`totalRaised`:** `$1B+` → `$650M`  
-  Sources: [news (SpaceNews)](https://spacenews.com/true-anomaly-raises-650-million-reaching-2-2-billion-valuation/)
+- **`totalRaised`:** `$650M` → `$600M`  
+  Sources: [news (Crunchbase News)](https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/)
 
-  **Notes:** Source [0] is a Wikipedia article about the orbital mechanics parameter 'true anomaly', not the company True Anomaly. Source [1] from SpaceNews confirms $650M funding round reaching $2.2B valuation and mentions Golden Dome program, but the article content is incomplete. No other verifiable company information found in provided sources.
+  **Notes:** Source [0] is Wikipedia article about the orbital mechanics parameter 'true anomaly' (not the company). Source [1] confirms a $600M funding round for 'space security startup True Anomaly' but provides no other verifiable details about founders, location, stage, or valuation. Database entry claims $650M Series D in April 2026 and $2.2B valuation, but these cannot be verified from provided sources.
+
+### xAI
+
+- **`website`:** `*(empty)*` → `https://xai.ai`  
+  Sources: [company_website](https://xai.ai)
+
+  **Notes:** Source [0] is a forum about explainable AI (XAI) in general—not the xAI company. Sources [1], [2], [3] are news articles from May 2026 and April 2026 mentioning xAI in passing but contain no verifiable founding details, funding amounts, valuation, location, or founder names suitable for fact-checking. Database entry claims (Series E $20B January 2026, $250B valuation, $42B total raised, SpaceX acquisition February 2026, Austin HQ, Seaholm Power Plant lease, founded 2023, Elon Musk founder) cannot be verified from provided sources.
 
 ---
 
-## ✅ Cleared (13 companies)
+## ✅ Cleared (14 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
+- Andromeda Surgical
+- Anysphere
 - Apptronik
-- Base Power
 - Cognition
 - Deterrence
 - Fervo Energy
@@ -90,11 +77,11 @@ Sample (first 30):
 - Humanoid
 - Percepto
 - Rivian
+- Scale AI
 - Waymo
 - ideaForge
-- xAI
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-01T08:02:50+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-02T07:21:11+00:00*
