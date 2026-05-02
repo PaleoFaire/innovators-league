@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-04-30",
-    "vehicle": "Soyuz-5 | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "45/1, Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "RKK Energiya",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-05-01",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-38",
     "payload": "Starlink Group 10-38",
@@ -42,6 +33,24 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/75a35be5-b3bd-4591-b978-9a876da9fa96/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-12",
+    "vehicle": "Falcon 9 Block 5 | NROL-172",
+    "payload": "NROL-172",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-12",
+    "vehicle": "Starship | Flight 12",
+    "payload": "Flight 12",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed83366c-872c-4484-97c1-bc74832304fc/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -142,15 +151,6 @@
     "provider": "Isar Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-05-31",
-    "vehicle": "Starship | Flight 12",
-    "payload": "Flight 12",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed83366c-872c-4484-97c1-bc74832304fc/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-05-31",

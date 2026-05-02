@@ -3,11 +3,11 @@
     "hsCode": "8542",
     "category": "Integrated circuits / semiconductors",
     "tradeType": "imports",
-    "latestMonthValue": 4057995325,
+    "latestMonthValue": 4086600171,
     "latestMonthFormatted": "$4.1B",
-    "yoyChange": "+40.8%",
-    "momChange": "-16.8%",
-    "trend": "surging",
+    "yoyChange": "+5.3%",
+    "momChange": "+0.7%",
+    "trend": "growing",
     "relevantCompanies": [
       "Cerebras",
       "Etched",
@@ -17,12 +17,8 @@
       "Groq"
     ],
     "relevantSector": "chips",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 2996637321
-      },
       {
         "period": "2025-09",
         "value": 3474625226
@@ -42,9 +38,13 @@
       {
         "period": "2026-01",
         "value": 4057995325
+      },
+      {
+        "period": "2026-02",
+        "value": 4086600171
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8542",
@@ -91,29 +91,25 @@
         "value": 4756007211
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8541",
     "category": "Diodes, transistors, semiconductor devices",
     "tradeType": "imports",
-    "latestMonthValue": 930937044,
-    "latestMonthFormatted": "$931M",
-    "yoyChange": "-7.5%",
-    "momChange": "-22.5%",
-    "trend": "contracting",
+    "latestMonthValue": 921237919,
+    "latestMonthFormatted": "$921M",
+    "yoyChange": "-30.5%",
+    "momChange": "-1.0%",
+    "trend": "declining",
     "relevantCompanies": [
       "Finwave Semiconductor",
       "Gallox Semiconductors",
       "Vertical Semiconductor"
     ],
     "relevantSector": "chips",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 1010937645
-      },
       {
         "period": "2025-09",
         "value": 1018372574
@@ -133,9 +129,13 @@
       {
         "period": "2026-01",
         "value": 930937044
+      },
+      {
+        "period": "2026-02",
+        "value": 921237919
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8541",
@@ -179,17 +179,17 @@
         "value": 941222449
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8802",
     "category": "Aircraft and spacecraft parts",
     "tradeType": "imports",
-    "latestMonthValue": 801899028,
-    "latestMonthFormatted": "$802M",
-    "yoyChange": "-26.3%",
-    "momChange": "-76.4%",
-    "trend": "declining",
+    "latestMonthValue": 1658816236,
+    "latestMonthFormatted": "$1.7B",
+    "yoyChange": "+12.3%",
+    "momChange": "+106.9%",
+    "trend": "surging",
     "relevantCompanies": [
       "SpaceX",
       "Rocket Lab",
@@ -197,12 +197,8 @@
       "Boom Supersonic"
     ],
     "relevantSector": "space",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 361658555
-      },
       {
         "period": "2025-09",
         "value": 1531993294
@@ -222,9 +218,13 @@
       {
         "period": "2026-01",
         "value": 801899028
+      },
+      {
+        "period": "2026-02",
+        "value": 1658816236
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8802",
@@ -269,16 +269,16 @@
         "value": 176312770
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "2844",
     "category": "Radioactive elements (nuclear fuel)",
     "tradeType": "imports",
-    "latestMonthValue": 394766917,
-    "latestMonthFormatted": "$395M",
-    "yoyChange": "-21.3%",
-    "momChange": "-40.2%",
+    "latestMonthValue": 746911471,
+    "latestMonthFormatted": "$747M",
+    "yoyChange": "-13.8%",
+    "momChange": "+89.2%",
     "trend": "declining",
     "relevantCompanies": [
       "Oklo",
@@ -288,12 +288,8 @@
       "NuScale"
     ],
     "relevantSector": "nuclear",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 598552652
-      },
       {
         "period": "2025-09",
         "value": 519649906
@@ -313,9 +309,13 @@
       {
         "period": "2026-01",
         "value": 394766917
+      },
+      {
+        "period": "2026-02",
+        "value": 746911471
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "2844",
@@ -361,17 +361,17 @@
         "value": 92257273
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8501",
     "category": "Electric motors and generators",
     "tradeType": "imports",
-    "latestMonthValue": 1017728973,
-    "latestMonthFormatted": "$1.0B",
-    "yoyChange": "+0.4%",
-    "momChange": "+3.6%",
-    "trend": "stable",
+    "latestMonthValue": 992859776,
+    "latestMonthFormatted": "$993M",
+    "yoyChange": "-17.9%",
+    "momChange": "-2.4%",
+    "trend": "declining",
     "relevantCompanies": [
       "Figure AI",
       "Agility Robotics",
@@ -379,12 +379,8 @@
       "Standard Bots"
     ],
     "relevantSector": "robotics",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 1170721828
-      },
       {
         "period": "2025-09",
         "value": 1086018239
@@ -404,9 +400,13 @@
       {
         "period": "2026-01",
         "value": 1017728973
+      },
+      {
+        "period": "2026-02",
+        "value": 992859776
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8501",
@@ -451,16 +451,16 @@
         "value": 389851099
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8507",
     "category": "Electric accumulators (batteries)",
     "tradeType": "imports",
-    "latestMonthValue": 1767903134,
-    "latestMonthFormatted": "$1.8B",
-    "yoyChange": "-24.2%",
-    "momChange": "-23.3%",
+    "latestMonthValue": 1670105153,
+    "latestMonthFormatted": "$1.7B",
+    "yoyChange": "-24.0%",
+    "momChange": "-5.5%",
     "trend": "declining",
     "relevantCompanies": [
       "Form Energy",
@@ -470,12 +470,8 @@
       "Advano"
     ],
     "relevantSector": "energy",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 2328299270
-      },
       {
         "period": "2025-09",
         "value": 1622180740
@@ -495,9 +491,13 @@
       {
         "period": "2026-01",
         "value": 1767903134
+      },
+      {
+        "period": "2026-02",
+        "value": 1670105153
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8507",
@@ -543,29 +543,25 @@
         "value": 374812742
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "7601",
     "category": "Unwrought aluminum",
     "tradeType": "imports",
-    "latestMonthValue": 934459846,
-    "latestMonthFormatted": "$934M",
-    "yoyChange": "-5.3%",
-    "momChange": "+9.2%",
-    "trend": "contracting",
+    "latestMonthValue": 818498890,
+    "latestMonthFormatted": "$818M",
+    "yoyChange": "-38.9%",
+    "momChange": "-12.4%",
+    "trend": "declining",
     "relevantCompanies": [
       "Hadrian",
       "Machina Labs",
       "Divergent"
     ],
     "relevantSector": "manufacturing",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 600623961
-      },
       {
         "period": "2025-09",
         "value": 698219347
@@ -585,9 +581,13 @@
       {
         "period": "2026-01",
         "value": 934459846
+      },
+      {
+        "period": "2026-02",
+        "value": 818498890
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "7601",
@@ -631,29 +631,25 @@
         "value": 104573238
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "3926",
     "category": "Plastics/composite articles",
     "tradeType": "imports",
-    "latestMonthValue": 1126157372,
+    "latestMonthValue": 1074147716,
     "latestMonthFormatted": "$1.1B",
-    "yoyChange": "+1.4%",
-    "momChange": "+4.7%",
-    "trend": "stable",
+    "yoyChange": "-7.1%",
+    "momChange": "-4.6%",
+    "trend": "contracting",
     "relevantCompanies": [
       "Axial Composites",
       "Layup Parts",
       "Fiber Dynamics"
     ],
     "relevantSector": "manufacturing",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 1210816740
-      },
       {
         "period": "2025-09",
         "value": 1129578390
@@ -673,9 +669,13 @@
       {
         "period": "2026-01",
         "value": 1126157372
+      },
+      {
+        "period": "2026-02",
+        "value": 1074147716
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "3926",
@@ -719,16 +719,16 @@
         "value": 703740761
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "9013",
     "category": "Lasers and optical devices",
     "tradeType": "imports",
-    "latestMonthValue": 207908467,
-    "latestMonthFormatted": "$208M",
-    "yoyChange": "-21.5%",
-    "momChange": "-35.2%",
+    "latestMonthValue": 253371363,
+    "latestMonthFormatted": "$253M",
+    "yoyChange": "-22.2%",
+    "momChange": "+21.9%",
     "trend": "declining",
     "relevantCompanies": [
       "Lumotive",
@@ -737,12 +737,8 @@
       "Voyant Photonics"
     ],
     "relevantSector": "sensors",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 246311988
-      },
       {
         "period": "2025-09",
         "value": 254032103
@@ -762,9 +758,13 @@
       {
         "period": "2026-01",
         "value": 207908467
+      },
+      {
+        "period": "2026-02",
+        "value": 253371363
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "9013",
@@ -809,16 +809,16 @@
         "value": 253139669
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8471",
     "category": "Data processing machines / computers",
     "tradeType": "imports",
-    "latestMonthValue": 27488062732,
-    "latestMonthFormatted": "$27.5B",
-    "yoyChange": "+123.6%",
-    "momChange": "-1.5%",
+    "latestMonthValue": 28169654686,
+    "latestMonthFormatted": "$28.2B",
+    "yoyChange": "+70.9%",
+    "momChange": "+2.5%",
     "trend": "surging",
     "relevantCompanies": [
       "NVIDIA",
@@ -826,12 +826,8 @@
       "Groq"
     ],
     "relevantSector": "ai",
-    "period": "2026-01",
+    "period": "2026-02",
     "monthlyData": [
-      {
-        "period": "2025-08",
-        "value": 23605908912
-      },
       {
         "period": "2025-09",
         "value": 20280525265
@@ -851,9 +847,13 @@
       {
         "period": "2026-01",
         "value": 27488062732
+      },
+      {
+        "period": "2026-02",
+        "value": 28169654686
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "hsCode": "8471",
@@ -897,6 +897,6 @@
         "value": 8561274332
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   }
 ]

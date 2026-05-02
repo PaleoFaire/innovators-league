@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-05-01 08:53:41 UTC
+// Last updated: 2026-05-02 08:15:57 UTC
 const ARXIV_PAPERS = [
   { id: "2604.28169v1", title: "PhyCo: Learning Controllable Physical Priors for Generative Motion", category: "Artificial Intelligence", published: "2026-04-30", sectors: "nuclear, ai", authors: "Sriram Narayanan, Ziyu Jiang, Srinivasa Narasimhan et al." },
   { id: "2604.28123v1", title: "PRISM: Pre-alignment via Black-box On-policy Distillation for Multimodal Reinforcement Learning", category: "Artificial Intelligence", published: "2026-04-30", sectors: "robotics", authors: "Sudong Wang, Weiquan Huang, Xiaomin Yu et al." },

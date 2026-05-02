@@ -50,7 +50,7 @@
         "awardAmount": "$41M"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Palantir",
@@ -61,7 +61,6 @@
       "Department of Health and Human Services",
       "Department of Homeland Security",
       "Department of State",
-      "Department of Transportation",
       "Department of Veterans Affairs",
       "Department of the Treasury"
     ],
@@ -108,11 +107,11 @@
         "awardAmount": "$93M"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Skydio",
-    "opportunityCount": 15,
+    "opportunityCount": 17,
     "agencies": [
       "Department of Agriculture",
       "Department of Defense",
@@ -163,7 +162,7 @@
         "awardAmount": "$147K"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Radiant",
@@ -220,7 +219,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Shield AI",
@@ -245,7 +244,7 @@
         "postedDate": "2025-09-03",
         "type": null,
         "noticeId": "N0001925F0971",
-        "awardAmount": "$8M"
+        "awardAmount": "$11M"
       },
       {
         "title": "TO#3 FOR SHORE-BASED VBAT DEPLOYMENTS",
@@ -272,7 +271,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Varda Space",
@@ -324,7 +323,58 @@
         "awardAmount": "$25K"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
+  },
+  {
+    "company": "Castelion",
+    "opportunityCount": 5,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINESS INDEPENDENT RESEARCH (SBIR) PHASE III",
+        "agency": "Department of Defense",
+        "postedDate": "2024-10-02",
+        "type": null,
+        "noticeId": "FA861224CB010",
+        "awardAmount": "$56M"
+      },
+      {
+        "title": "COMPACT HYPERSONIC MISSILE/EFFECTOR REACTIVE MATERIAL (CHYMERA) WARHEAD PROTOTYPE AND DEMONSTRATION",
+        "agency": "Department of Defense",
+        "postedDate": "2025-09-08",
+        "type": null,
+        "noticeId": "HQ086025CE025",
+        "awardAmount": "$2M"
+      },
+      {
+        "title": "KU-BAND AFFORDABLE RESILIENTLY MANUFACTURED AESA (KARMA)",
+        "agency": "Department of Defense",
+        "postedDate": "2025-04-05",
+        "type": null,
+        "noticeId": "FA865125CB026",
+        "awardAmount": "$1M"
+      },
+      {
+        "title": "NEW PHASE II - EFFORT ENTITLED, HYPERSONIC EQUIPAGE FROM TWENTY FOOT EQUIVALENT UNIT CONTAINER, PROPOSAL F2D-11201. CAST",
+        "agency": "Department of Defense",
+        "postedDate": "2025-03-11",
+        "type": null,
+        "noticeId": "W912CG25C0009",
+        "awardAmount": "$685K"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FF347",
+        "awardAmount": "$500"
+      }
+    ],
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Rocket Lab",
@@ -376,7 +426,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Axiom Space",
@@ -428,7 +478,7 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Sierra Space",
@@ -480,50 +530,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-01"
-  },
-  {
-    "company": "Castelion",
-    "opportunityCount": 4,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINESS INDEPENDENT RESEARCH (SBIR) PHASE III",
-        "agency": "Department of Defense",
-        "postedDate": "2024-10-02",
-        "type": null,
-        "noticeId": "FA861224CB010",
-        "awardAmount": "$56M"
-      },
-      {
-        "title": "KU-BAND AFFORDABLE RESILIENTLY MANUFACTURED AESA (KARMA)",
-        "agency": "Department of Defense",
-        "postedDate": "2025-04-05",
-        "type": null,
-        "noticeId": "FA865125CB026",
-        "awardAmount": "$1M"
-      },
-      {
-        "title": "NEW PHASE II - EFFORT ENTITLED, HYPERSONIC EQUIPAGE FROM TWENTY FOOT EQUIVALENT UNIT CONTAINER, PROPOSAL F2D-11201. CAST",
-        "agency": "Department of Defense",
-        "postedDate": "2025-03-11",
-        "type": null,
-        "noticeId": "W912CG25C0009",
-        "awardAmount": "$685K"
-      },
-      {
-        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
-        "agency": "Department of Defense",
-        "postedDate": "2025-12-29",
-        "type": null,
-        "noticeId": "HQ085926FF347",
-        "awardAmount": "$500"
-      }
-    ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Planet Labs",
@@ -568,7 +575,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Capella Space",
@@ -604,7 +611,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "BlackSky",
@@ -640,7 +647,7 @@
         "awardAmount": "$178K"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Scale AI",
@@ -667,7 +674,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Epirus",
@@ -686,7 +693,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Saronic",
@@ -705,7 +712,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Vannevar Labs",
@@ -721,10 +728,10 @@
         "postedDate": "2025-01-06",
         "type": null,
         "noticeId": "FA860425CB008",
-        "awardAmount": "$4M"
+        "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "company": "Relativity Space",
@@ -743,6 +750,6 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   }
 ]
