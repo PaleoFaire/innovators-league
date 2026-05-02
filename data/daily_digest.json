@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-01T23:57:59.865536+00:00",
-  "date": "2026-05-01",
-  "dateDisplay": "Friday, May 01, 2026",
+  "generatedAt": "2026-05-02T03:39:48.094097+00:00",
+  "date": "2026-05-02",
+  "dateDisplay": "Saturday, May 02, 2026",
   "sections": {
     "govActivity": [
       {
@@ -72,15 +72,15 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.17,
-        "changePercent": 25.56,
-        "change": 1.25
+        "price": 6.13,
+        "changePercent": 24.85,
+        "change": 1.22
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
         "price": 7.18,
-        "changePercent": 16.45,
+        "changePercent": 16.37,
         "change": 1.01
       },
       {
@@ -91,6 +91,13 @@
         "change": 64.15
       },
       {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 20.49,
+        "changePercent": 10.82,
+        "change": 2.0
+      },
+      {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
         "price": 664000.0,
@@ -98,32 +105,25 @@
         "change": 64000.0
       },
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 20.29,
-        "changePercent": 9.73,
-        "change": 1.8
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 15.02,
+        "changePercent": -9.08,
+        "change": -1.5
       },
       {
         "ticker": "JOBY",
         "company": "Joby Aviation",
-        "price": 9.26,
-        "changePercent": 8.94,
-        "change": 0.76
+        "price": 9.25,
+        "changePercent": 8.82,
+        "change": 0.75
       },
       {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 3.37,
-        "changePercent": -8.31,
-        "change": -0.3
-      },
-      {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 15.18,
-        "changePercent": -8.13,
-        "change": -1.34
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 46.2,
+        "changePercent": 8.22,
+        "change": 3.51
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR +25.6%"
+    "topMover": "AUR +24.9%"
   }
 }
