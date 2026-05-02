@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T06:18:21+00:00",
+  "generatedAt": "2026-05-02T08:27:21+00:00",
   "matrix": {
     "ai-foundation-models": {
       "2026-Q2": {
@@ -870,9 +870,9 @@
     },
     "ai-code-generation": {
       "2026-Q2": {
-        "deals": 1,
+        "deals": 2,
         "totalSold": null,
-        "companiesWithUnknownAmount": 1,
+        "companiesWithUnknownAmount": 2,
         "companies": [
           {
             "name": "Cognition",
@@ -880,19 +880,11 @@
             "date": "2026-04",
             "source": "recentEvent",
             "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
+          },
           {
             "name": "Anysphere",
             "amount": null,
-            "date": "2026-03",
+            "date": "2026-05",
             "source": "recentEvent",
             "investors": [
               "Accel",
@@ -1474,11 +1466,11 @@
       ]
     },
     "Thrive Capital": {
-      "2026-Q1": [
+      "2026-Q2": [
         {
           "company": "Anysphere",
           "cluster": "ai-code-generation",
-          "date": "2026-03",
+          "date": "2026-05",
           "source": "recentEvent"
         }
       ]
