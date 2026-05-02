@@ -1,6 +1,149 @@
 {
-  "generatedAt": "2026-05-02T08:27:21+00:00",
+  "generatedAt": "2026-05-02T10:06:12+00:00",
   "matrix": {
+    "space-launch-small-intl": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 75000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Latitude",
+            "amount": 75000,
+            "date": "2026-05-01",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomy-drone-military": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 591806870,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Shield AI",
+            "amount": 591806870,
+            "date": "2026-05-01",
+            "source": "formd",
+            "investors": [
+              "Andreessen Horowitz",
+              "Breyer Capital",
+              "Silicon Valley Bank",
+              "U.S. Innovation Technology Fund (USIT)",
+              "Riot Ventures"
+            ]
+          },
+          {
+            "name": "Anduril Industries",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": [
+              "Founders Fund",
+              "Andreessen Horowitz",
+              "General Catalyst",
+              "8VC",
+              "Lux Capital",
+              "Valor Equity Partners",
+              "D1 Capital Partners"
+            ]
+          }
+        ],
+        "investors": [
+          "8VC",
+          "D1 Capital Partners",
+          "Founders Fund",
+          "General Catalyst",
+          "Lux Capital",
+          "Riot Ventures",
+          "Valor Equity Partners"
+        ]
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Shield AI",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Breyer Capital",
+              "Silicon Valley Bank",
+              "U.S. Innovation Technology Fund (USIT)",
+              "Riot Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Riot Ventures"
+        ]
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Skydio",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Linse Capital",
+              "Next47",
+              "IVP",
+              "DoCoMo",
+              "Nvidia",
+              "Lockheed Martin",
+              "Walton Family Foundation",
+              "UP.Partners",
+              "Hercules Capital"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 3,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 3,
+        "companies": [
+          {
+            "name": "DroneForge",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "FlyBy Robotics",
+            "amount": null,
+            "date": "2025-11",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "Swift Beat",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "Eric Schmidt"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "ai-foundation-models": {
       "2026-Q2": {
         "deals": 2,
@@ -488,118 +631,6 @@
             "date": "2026-04-22",
             "source": "formd",
             "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "autonomy-drone-military": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Anduril Industries",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": [
-              "Founders Fund",
-              "Andreessen Horowitz",
-              "General Catalyst",
-              "8VC",
-              "Lux Capital",
-              "Valor Equity Partners",
-              "D1 Capital Partners"
-            ]
-          }
-        ],
-        "investors": [
-          "8VC",
-          "D1 Capital Partners",
-          "Founders Fund",
-          "General Catalyst",
-          "Lux Capital",
-          "Valor Equity Partners"
-        ]
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Shield AI",
-            "amount": null,
-            "date": "2026-03",
-            "source": "recentEvent",
-            "investors": [
-              "Andreessen Horowitz",
-              "Breyer Capital",
-              "Silicon Valley Bank",
-              "U.S. Innovation Technology Fund (USIT)",
-              "Riot Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Riot Ventures"
-        ]
-      },
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Skydio",
-            "amount": null,
-            "date": "2025-08",
-            "source": "recentEvent",
-            "investors": [
-              "Andreessen Horowitz",
-              "Linse Capital",
-              "Next47",
-              "IVP",
-              "DoCoMo",
-              "Nvidia",
-              "Lockheed Martin",
-              "Walton Family Foundation",
-              "UP.Partners",
-              "Hercules Capital"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 3,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 3,
-        "companies": [
-          {
-            "name": "DroneForge",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": []
-          },
-          {
-            "name": "FlyBy Robotics",
-            "amount": null,
-            "date": "2025-11",
-            "source": "recentEvent",
-            "investors": []
-          },
-          {
-            "name": "Swift Beat",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": [
-              "Eric Schmidt"
-            ]
           }
         ],
         "investors": []
@@ -1287,6 +1318,24 @@
     }
   },
   "vcAttribution": {
+    "Riot Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05-01",
+          "source": "formd"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Sequoia Capital": {
       "2026-Q2": [
         {
@@ -1377,16 +1426,6 @@
           "company": "Groq",
           "cluster": "ai-foundation-models",
           "date": "2025-08",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Riot Ventures": {
-      "2026-Q1": [
-        {
-          "company": "Shield AI",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1487,9 +1526,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 72,
-    "totalUSDSold": 38753541,
-    "uniqueClusters": 40,
+    "totalDealsTracked": 74,
+    "totalUSDSold": 630635411,
+    "uniqueClusters": 41,
     "uniqueQuarters": 8,
     "uniqueVCs": 16,
     "quarterRange": [
