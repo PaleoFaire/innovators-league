@@ -1,21 +1,39 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 60,
+    "momentum": 62,
     "trend": "accelerating",
     "catalysts": [
-      "How Shivon Zilis Operated as Elon Musk\u2019s OpenAI Insider",
-      "Sources: Anthropic potential $900B+ valuation round could ha",
-      "After dissing Anthropic for limiting Mythos, OpenAI restrict"
+      "Musk v. Altman week 1: Elon Musk says he was duped, warns AI",
+      "OpenAI Enables Marketing Cookies by Default for Free ChatGPT",
+      "Pentagon freezes out Anthropic as it signs deals with AI riv"
     ],
     "fundingQ": "$2144.6B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 70,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
+      "Pentagon freezes out Anthropic as it signs deals with AI riv",
+      "Former head of \u2018Pentagon\u2019s think tank\u2019 joins Anthropic"
+    ],
+    "fundingQ": "$22.5B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 57
+    },
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Drones & Autonomous",
@@ -31,7 +49,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -47,7 +65,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Ocean & Maritime",
@@ -63,45 +81,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-01"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 43,
-    "trend": "steady",
-    "catalysts": [
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$23.0B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 33
-    },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 35,
+    "momentum": 44,
     "trend": "steady",
     "catalysts": [
-      "OpenAI announces new advanced security for ChatGPT accounts,",
-      "SpaceX backer 137 Ventures raises $700M for two growth-stage",
-      "SpaceX Launch Rate in 2026 After Reaching Orbital Operations"
+      "Tesla Got $573 Million from SpaceX and xAI in 2025",
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
+      "INSANE SECRETS OF SPACEX STARLINK WILL ENABLE 100X"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
-      "market": 0
+      "market": 40
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 34,
+    "momentum": 42,
     "trend": "steady",
     "catalysts": [
       "Anthropic&#8217;s Nuclear Bomb",
@@ -112,63 +114,31 @@
       "funding": 83,
       "news": 10,
       "hiring": 0,
-      "market": 14
+      "market": 53
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 29,
+    "momentum": 27,
     "trend": "rising",
     "catalysts": [
+      "Meta buys robotics startup to bolster its humanoid AI ambiti",
       "Rivian (RIVN) lifts production capacity for its Georgia plan",
-      "SpaceX backer 137 Ventures raises $700M for two growth-stage",
       "Apptronik\u2019s new CPO hire a major step in right direction"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-01"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Active chips & semiconductors ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 99
-    },
-    "lastUpdated": "2026-05-01"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 0,
-      "hiring": 0,
-      "market": 84
-    },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 18,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -178,93 +148,125 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 90
+      "market": 100
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 17,
+    "trend": "declining",
+    "catalysts": [
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 5,
+      "hiring": 0,
+      "market": 61
+    },
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Transportation",
-    "momentum": 18,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "Rivian (RIVN) lifts production capacity for its Georgia plan",
-      "Rivian (RIVN) starts R2 production days after tornado hit fa"
+      "Rivian (RIVN) lifts production capacity for its Georgia plan"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
-      "market": 65
+      "market": 59
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 12,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Sources: Anthropic potential $900B+ valuation round could ha",
-      "Apptronik\u2019s new CPO hire a major step in right direction"
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
+      "Starcloud seeks more orbital data center funding shortly aft",
+      "Sources: Anthropic potential $900B+ valuation round could ha"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-02"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 50
+      "market": 56
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Tesla Got $573 Million from SpaceX and xAI in 2025",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
       "Anthropic&#8217;s Nuclear Bomb"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-01"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge",
-      "Base Power to launch 100-MW home battery network for Texas u"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 34
-    },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Launch Rate in 2026 After Reaching Orbital Operations"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-01"
+    "lastUpdated": "2026-05-02"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 6,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 31
+    },
+    "lastUpdated": "2026-05-02"
   }
 ]

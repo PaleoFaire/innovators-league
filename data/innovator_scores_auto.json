@@ -10692,7 +10692,19 @@
     "note": "Notable team pedigree. Composite: 37/100."
   },
   {
-    "company": "a16z (Andreessen Horowitz)",
+    "company": "BRINC Drones",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
+    "company": "Andreessen Horowitz",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11041,6 +11053,18 @@
   },
   {
     "company": "Thrive Capital",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
+    "company": "Kratos Defense",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11940,6 +11964,18 @@
     "note": "Notable team pedigree. Composite: 37/100."
   },
   {
+    "company": "Strategic Milestones",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
     "company": "LA Defense Corridor",
     "techMoat": 3,
     "momentum": 3,
@@ -12000,36 +12036,12 @@
     "note": "Notable team pedigree. Composite: 37/100."
   },
   {
-    "company": "BRINC Drones",
+    "company": "Lodge Systems",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 4,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Kratos Defense",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 4,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Strategic Milestones",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 4,
-    "capitalEfficiency": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 3.5,
     "govTraction": 2,
     "composite": 35.5,
     "tier": "early",
@@ -12048,40 +12060,28 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Lodge Systems",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 4,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
     "company": "Velaura AI",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
+    "marketGravity": 1,
     "capitalEfficiency": 5,
     "govTraction": 2,
-    "composite": 32.5,
+    "composite": 31.0,
     "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
+    "note": "Notable team pedigree. Composite: 31/100."
   },
   {
     "company": "NVIDIA",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
+    "marketGravity": 1,
     "capitalEfficiency": 5,
     "govTraction": 2,
-    "composite": 32.5,
+    "composite": 31.0,
     "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
+    "note": "Notable team pedigree. Composite: 31/100."
   },
   {
     "company": "Panthalassa",

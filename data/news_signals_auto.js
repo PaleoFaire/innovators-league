@@ -1,107 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-05-02T06:17:28.233Z
+// Last updated: 2026-05-02T07:50:17.106Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777702648233,
+    "id": 1777708217106,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla Got $573 Million from SpaceX and xAI in 2025",
     "source": "CleanTechnica",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://cleantechnica.com/2026/05/01/tesla-got-573-million-from-spacex-and-xai-in-2025/"
   },
   {
-    "id": 1777702648234,
+    "id": 1777708217107,
     "type": "news",
     "company": "Humanoid",
     "headline": "Meta buys robotics startup to bolster its humanoid AI ambitions",
     "source": "TechCrunch",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/"
   },
   {
-    "id": 1777702648235,
+    "id": 1777708217108,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s mo",
     "source": "MIT Tech Review",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/"
   },
   {
-    "id": 1777702648236,
+    "id": 1777708217109,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Enables Marketing Cookies by Default for Free ChatGPT Users",
     "source": "Wired",
-    "time": "8h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/openai-enables-cookies-by-default-for-free-chatgpt-users/"
   },
   {
-    "id": 1777702648237,
+    "id": 1777708217110,
     "type": "funding",
     "company": "True Anomaly",
     "headline": "The Week’s 10 Biggest Funding Rounds: Defense Tech Leads With Multiple Large Deals, Topped By $600M For Space Security S",
     "source": "Crunchbase News",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
   },
   {
-    "id": 1777702648238,
+    "id": 1777708217111,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Pentagon freezes out Anthropic as it signs deals with AI rivals",
     "source": "Defense News",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals/"
   },
   {
-    "id": 1777702648239,
+    "id": 1777708217112,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "INSANE SECRETS OF SPACEX STARLINK WILL ENABLE 100X",
     "source": "Next Big Future",
-    "time": "12h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/05/insane-secrets-of-spacex-starlink-will-enable-100x.html"
   },
   {
-    "id": 1777702648240,
+    "id": 1777708217113,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Rule Change so SpaceX Should Join Sp500 6 Months After IPO",
     "source": "Next Big Future",
-    "time": "15h ago",
+    "time": "17h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/05/rule-change-so-spacex-should-join-sp500-6-months-after-ipo.html"
   },
   {
-    "id": 1777702648241,
+    "id": 1777708217114,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Former head of ‘Pentagon’s think tank’ joins Anthropic",
     "source": "Defense One",
-    "time": "16h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/technology/2026/05/former-head-pentagons-think-tank-joins-anthropic/413256/"
   },
   {
-    "id": 1777702648242,
+    "id": 1777708217115,
+    "type": "funding",
+    "company": "Starcloud",
+    "headline": "Starcloud seeks more orbital data center funding shortly after unicorn status",
+    "source": "SpaceNews",
+    "time": "18h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://spacenews.com/starcloud-seeks-more-orbital-data-center-funding-shortly-after-unicorn-status/"
+  },
+  {
+    "id": 1777708217116,
     "type": "news",
     "company": "OpenAI",
     "headline": "How Shivon Zilis Operated as Elon Musk’s OpenAI Insider",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/model-behavior-why-everything-in-musk-v-altman-leads-back-to-shivon-zelis/"
   },
   {
-    "id": 1777702648243,
+    "id": 1777708217117,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/"
   },
   {
-    "id": 1777702648244,
+    "id": 1777708217118,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian (RIVN) lifts production capacity for its Georgia plant by 50% to 300K vehicles annually",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/04/30/rivian-rivn-boosts-production-capacity-georgia-plant-50/"
   },
   {
-    "id": 1777702648245,
+    "id": 1777708217119,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/"
   },
   {
-    "id": 1777702648246,
+    "id": 1777708217120,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
@@ -156,18 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/"
   },
   {
-    "id": 1777702648247,
-    "type": "milestone",
-    "company": "OpenAI",
-    "headline": "Elon Musk testifies that xAI trained Grok on OpenAI models",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/"
-  },
-  {
-    "id": 1777702648248,
+    "id": 1777708217121,
     "type": "news",
     "company": "OpenAI",
     "headline": "Elon Musk Seemingly Admits xAI Has Used OpenAI’s Models to Train Its Own",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/"
   },
   {
-    "id": 1777702648249,
+    "id": 1777708217122,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Rolls Out ‘Advanced’ Security Mode for At-Risk Accounts",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-chatgpt-codex-advanced-account-security/"
   },
   {
-    "id": 1777702648250,
+    "id": 1777708217123,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Cleo Labs secures €1.5M to scale AI-driven product compliance globally",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/29/cleo-labs-secures-eur15m-to-scale-ai-driven-product-compliance-globally/"
   },
   {
-    "id": 1777702648251,
+    "id": 1777708217124,
     "type": "news",
     "company": "Cognition",
     "headline": "AI coding agent Cognition expands to Singapore as Asia-Pacific Hub",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
   },
   {
-    "id": 1777702648252,
+    "id": 1777708217125,
     "type": "hire",
     "company": "Apptronik",
     "headline": "Apptronik’s new CPO hire a major step in right direction",
