@@ -1,8 +1,8 @@
 // Auto-generated news signals
-// Last updated: 2026-05-02T11:01:54.890Z
+// Last updated: 2026-05-02T11:53:30.738Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777719714890,
+    "id": 1777722810738,
     "type": "news",
     "company": "Pivotal",
     "headline": "Bristol Myers’ pivotal year; Should AI be swinging bigger?; and more",
@@ -13,7 +13,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/bristol-myers-pivotal-year-should-ai-be-swinging-bigger-and-more/"
   },
   {
-    "id": 1777719714891,
+    "id": 1777722810739,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
@@ -24,51 +24,51 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/01/who-is-tesla-selling-1-million-humanoid-robots-a-year-to/"
   },
   {
-    "id": 1777719714892,
+    "id": 1777722810740,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla Got $573 Million from SpaceX and xAI in 2025",
     "source": "CleanTechnica",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://cleantechnica.com/2026/05/01/tesla-got-573-million-from-spacex-and-xai-in-2025/"
   },
   {
-    "id": 1777719714893,
+    "id": 1777722810741,
     "type": "news",
     "company": "Humanoid",
     "headline": "Meta buys robotics startup to bolster its humanoid AI ambitions",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/"
   },
   {
-    "id": 1777719714894,
+    "id": 1777722810742,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s mo",
     "source": "MIT Tech Review",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/"
   },
   {
-    "id": 1777719714895,
+    "id": 1777722810743,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Enables Marketing Cookies by Default for Free ChatGPT Users",
     "source": "Wired",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/openai-enables-cookies-by-default-for-free-chatgpt-users/"
   },
   {
-    "id": 1777719714896,
+    "id": 1777722810744,
     "type": "funding",
     "company": "True Anomaly",
     "headline": "The Week’s 10 Biggest Funding Rounds: Defense Tech Leads With Multiple Large Deals, Topped By $600M For Space Security S",
@@ -79,51 +79,51 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
   },
   {
-    "id": 1777719714897,
+    "id": 1777722810745,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Pentagon freezes out Anthropic as it signs deals with AI rivals",
     "source": "Defense News",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals/"
   },
   {
-    "id": 1777719714898,
+    "id": 1777722810746,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "INSANE SECRETS OF SPACEX STARLINK WILL ENABLE 100X",
     "source": "Next Big Future",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/05/insane-secrets-of-spacex-starlink-will-enable-100x.html"
   },
   {
-    "id": 1777719714899,
+    "id": 1777722810747,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Rule Change so SpaceX Should Join Sp500 6 Months After IPO",
     "source": "Next Big Future",
-    "time": "20h ago",
+    "time": "21h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/05/rule-change-so-spacex-should-join-sp500-6-months-after-ipo.html"
   },
   {
-    "id": 1777719714900,
+    "id": 1777722810748,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Former head of ‘Pentagon’s think tank’ joins Anthropic",
     "source": "Defense One",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/technology/2026/05/former-head-pentagons-think-tank-joins-anthropic/413256/"
   },
   {
-    "id": 1777719714901,
+    "id": 1777722810749,
     "type": "funding",
     "company": "Starcloud",
     "headline": "Starcloud seeks more orbital data center funding shortly after unicorn status",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/starcloud-seeks-more-orbital-data-center-funding-shortly-after-unicorn-status/"
   },
   {
-    "id": 1777719714902,
+    "id": 1777722810750,
     "type": "news",
     "company": "OpenAI",
     "headline": "How Shivon Zilis Operated as Elon Musk’s OpenAI Insider",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/model-behavior-why-everything-in-musk-v-altman-leads-back-to-shivon-zelis/"
   },
   {
-    "id": 1777719714903,
+    "id": 1777722810751,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/"
   },
   {
-    "id": 1777719714904,
+    "id": 1777722810752,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian (RIVN) lifts production capacity for its Georgia plant by 50% to 300K vehicles annually",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/04/30/rivian-rivn-boosts-production-capacity-georgia-plant-50/"
   },
   {
-    "id": 1777719714905,
+    "id": 1777722810753,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/"
   },
   {
-    "id": 1777719714906,
+    "id": 1777722810754,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/"
   },
   {
-    "id": 1777719714907,
+    "id": 1777722810755,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Cleo Labs secures €1.5M to scale AI-driven product compliance globally",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/29/cleo-labs-secures-eur15m-to-scale-ai-driven-product-compliance-globally/"
   },
   {
-    "id": 1777719714908,
+    "id": 1777722810756,
     "type": "news",
     "company": "Cognition",
     "headline": "AI coding agent Cognition expands to Singapore as Asia-Pacific Hub",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
   },
   {
-    "id": 1777719714909,
+    "id": 1777722810757,
     "type": "hire",
     "company": "Apptronik",
     "headline": "Apptronik’s new CPO hire a major step in right direction",
