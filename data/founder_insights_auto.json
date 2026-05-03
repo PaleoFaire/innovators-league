@@ -1,66 +1,104 @@
 {
-  "generatedAt": "2026-04-28T04:02:03+00:00",
+  "generatedAt": "2026-05-03T10:05:05+00:00",
   "model": "claude-haiku-4-5",
-  "companiesProcessed": 141,
+  "companiesProcessed": 145,
   "companiesWithInsights": 5,
-  "totalInsights": 11,
-  "newClaudeCallsThisRun": 141,
+  "totalInsights": 16,
+  "newClaudeCallsThisRun": 145,
   "byCompany": {
-    "SpaceX": {
-      "founder": "Elon Musk",
-      "ticker": null,
-      "lastUpdated": "2026-04-28T04:00:09+00:00",
-      "insights": [
-        {
-          "quote": "What an absolute privilege it is to come to work at @SpaceX every day. So damn cool to showcase the greatest team on Earth. The team, the team, the team!!!",
-          "topic": "company culture, team",
-          "source_type": "news",
-          "source_name": "Next Big Future",
-          "url": "https://www.nextbigfuture.com/2026/04/spacex-launch-rate-in-2026-after-reaching-orbital-operations-booster-and-starship-recovery.html",
-          "date": "2026-04-26",
-          "paraphrased": false
-        }
-      ]
-    },
     "xAI": {
       "founder": "Elon Musk",
       "ticker": null,
-      "lastUpdated": "2026-04-28T04:00:51+00:00",
+      "lastUpdated": "2026-05-03T10:03:14+00:00",
       "insights": [
         {
-          "quote": "The SpaceX-XAI buying Cursor deal will likely be a huge win.",
-          "topic": "Cursor acquisition strategy",
+          "quote": "I was a fool who provided them free funding to create a startup",
+          "topic": "OpenAI founding regret",
           "source_type": "news",
-          "source_name": "Next Big Future",
-          "url": "https://www.nextbigfuture.com/2026/04/spacex-xai-2027.html",
-          "date": "2026-04-25",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+          "date": "2026-05-01",
           "paraphrased": false
+        },
+        {
+          "quote": "I gave them $38 million of essentially free funding, which they then used to create what would become an $800 billion company",
+          "topic": "OpenAI funding and structure",
+          "source_type": "news",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+          "date": "2026-05-01",
+          "paraphrased": false
+        },
+        {
+          "quote": "The worst-case scenario is a Terminator situation where AI kills us all",
+          "topic": "AI safety concerns",
+          "source_type": "news",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+          "date": "2026-05-01",
+          "paraphrased": false
+        },
+        {
+          "quote": "xAI, which makes the chatbot Grok, uses OpenAI's models to train its own",
+          "topic": "xAI training methodology",
+          "source_type": "news",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+          "date": "2026-05-01",
+          "paraphrased": true
+        },
+        {
+          "quote": "xAI is expected to go public as a part of Musk's rocket company SpaceX as early as June, at a target valuation of $1.75 trillion",
+          "topic": "xAI IPO strategy",
+          "source_type": "news",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+          "date": "2026-05-01",
+          "paraphrased": true
         }
       ]
     },
-    "Rocket Lab": {
-      "founder": "Peter Beck",
+    "Apptronik": {
+      "founder": "Jeff Cardenas",
       "ticker": null,
-      "lastUpdated": "2026-04-28T04:00:56+00:00",
+      "lastUpdated": "2026-05-03T10:03:41+00:00",
       "insights": [
         {
-          "quote": "The priority will always be to bring a reliable rocket to market, even if it means taking a few extra months.",
-          "topic": "reliability over speed",
-          "source_type": "earnings",
-          "source_name": "Rocket Lab Q4 2025 Earnings Call",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/",
-          "date": "2026-02-26",
+          "quote": "We are at a defining moment in robotics where the technology has finally met the magnitude of the mission. Bringing Daniel Chu on board is an essential step in that journey. His unique experience scaling both world-class autonomy and human-centric health platforms is exactly what we need to build the next generations of AI-powered robots and work towards our 'North Star' of assistive care and eldercare.",
+          "topic": "vision, leadership, assistive care",
+          "source_type": "news",
+          "source_name": "The Robot Report",
+          "url": "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/",
+          "date": "2025-04-28",
           "paraphrased": false
+        },
+        {
+          "quote": "Our expanded leadership team represents the best minds from the companies that defined the last decade of technology, and they've joined Apptronik to define the next one. We have the talent, the technology, and the momentum to bring AI-powered humanoid robots to the world at scale.",
+          "topic": "team, scale, market strategy",
+          "source_type": "news",
+          "source_name": "The Robot Report",
+          "url": "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/",
+          "date": "2025-04-28",
+          "paraphrased": false
+        },
+        {
+          "quote": "Apptronik is positioning its humanoid robots as the next great frontier in scalable, mass-market technology, preparing to bring general-purpose robots first into commercial applications, and eventually into healthcare and the home.",
+          "topic": "market trajectory, healthcare vision",
+          "source_type": "news",
+          "source_name": "The Robot Report",
+          "url": "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/",
+          "date": "2025-04-28",
+          "paraphrased": true
         }
       ]
     },
     "General Matter": {
       "founder": "Scott Nolan, Lee Robinson",
       "ticker": null,
-      "lastUpdated": "2026-04-28T04:01:20+00:00",
+      "lastUpdated": "2026-05-03T10:04:24+00:00",
       "insights": [
         {
-          "quote": "spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
+          "quote": "Scott Nolan spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
           "topic": "founding motivation",
           "source_type": "podcast",
           "source_name": "Invest Like the Best",
@@ -69,7 +107,7 @@
           "paraphrased": true
         },
         {
-          "quote": "General Matter is rebuilding US uranium enrichment. The United States was the world leader in enrichment through the 1980s and then stopped entirely.",
+          "quote": "General Matter is rebuilding US uranium enrichment.",
           "topic": "company mission",
           "source_type": "podcast",
           "source_name": "Invest Like the Best",
@@ -79,14 +117,30 @@
         }
       ]
     },
+    "Palantir": {
+      "founder": "Peter Thiel, Alex Karp, Stephen Cohen, Joe Lonsdale, Nathan Gettings",
+      "ticker": "NYSE: PLTR",
+      "lastUpdated": "2026-05-03T10:04:29+00:00",
+      "insights": [
+        {
+          "quote": "We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
+          "topic": "Maven Edge capability",
+          "source_type": "earnings",
+          "source_name": "Palantir Technologies Q4 2025 Earnings Call",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+          "date": "2026-02-02",
+          "paraphrased": false
+        }
+      ]
+    },
     "Fervo Energy": {
       "founder": "Tim Latimer, Jack Norbeck",
       "ticker": null,
-      "lastUpdated": "2026-04-28T04:01:30+00:00",
+      "lastUpdated": "2026-05-03T10:04:36+00:00",
       "insights": [
         {
           "quote": "Fervo makes use of horizontal-drilling techniques honed in the shale oil and gas sector, where its CEO, Tim Latimer, worked before co-founding the company in 2017 alongside Jack Norbeck.",
-          "topic": "technology foundation, prior experience",
+          "topic": "Technology foundation, drilling approach",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
@@ -95,34 +149,25 @@
         },
         {
           "quote": "Fervo has a total of 3.65 gigawatts of power plant capacity that are under construction, ready to build, or in advanced stages of development",
-          "topic": "project pipeline scale",
+          "topic": "Pipeline scale and ambition",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
           "date": "2026-04-20",
-          "paraphrased": false
+          "paraphrased": true
         },
         {
           "quote": "Across the nearly 600,000 acres it has leased \u2014 spanning public and private land in the American West, from New Mexico up to Washington \u2014 Fervo estimates that it has the potential to develop over 42 GW in total geothermal-energy capacity.",
-          "topic": "land portfolio and potential capacity",
+          "topic": "Long-term resource potential",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
           "date": "2026-04-20",
-          "paraphrased": false
+          "paraphrased": true
         },
         {
-          "quote": "the Cape Station site has an estimated 4.3 GW of capacity potential, based on internal and independent estimates",
-          "topic": "single site expansion potential",
-          "source_type": "news",
-          "source_name": "Canary Media",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
-          "date": "2026-04-09",
-          "paraphrased": false
-        },
-        {
-          "quote": "the company has 'multiple projects in various stages of progress' and is pursuing 'multi-year, multi-gigawatt offtake partnerships with both utilities and hyperscalers'",
-          "topic": "customer strategy, commercial partnerships",
+          "quote": "The Cape Station site has an estimated 4.3 GW of capacity potential, based on internal and independent estimates.",
+          "topic": "Cape Station capacity and expansion",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
@@ -130,8 +175,8 @@
           "paraphrased": true
         },
         {
-          "quote": "This week's development with Turboden 'helps streamline project execution and accelerate deployment as our project pipeline advances'",
-          "topic": "supply chain strategy, execution velocity",
+          "quote": "The company has 'multiple projects in various stages of progress' and is pursuing 'multi-year, multi-gigawatt offtake partnerships with both utilities and hyperscalers.'",
+          "topic": "Project pipeline and customer strategy",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",

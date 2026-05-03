@@ -1,14 +1,14 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-04-28T03:59:36+00:00
+// Last updated: 2026-05-03T10:02:27+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-04-28T03:59:36+00:00",
-  "weekOf": "2026-04-28",
+  "generatedAt": "2026-05-03T10:02:27+00:00",
+  "weekOf": "2026-05-03",
   "summary": {
-    "rosterSize": 1007,
-    "candidatesScreened": 253,
+    "rosterSize": 1009,
+    "candidatesScreened": 254,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 141
+    "rejected": 142
   },
   "topPicks": [
     {
@@ -44,294 +44,11 @@ const SCOUT_BRIEFING_AUTO = {
       "briefing": "**GALOIS, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $109.1M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 32/70."
     },
     {
-      "name": "Celero Communications",
-      "score": 30.7,
-      "signals": [
-        {
-          "name": "Celero Communications",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-03-16",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-03-16"
-        },
-        {
-          "name": "Celero Communications",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-04-01"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "briefing": "**Celero Communications** \u2014 frontier tech.\n\n Backing: AV.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
-    },
-    {
-      "name": "Forge Automation",
-      "score": 30.7,
-      "signals": [
-        {
-          "name": "Forge Automation",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-03-16",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-03-16"
-        },
-        {
-          "name": "Forge Automation",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-04-01"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "briefing": "**Forge Automation** \u2014 frontier tech.\n\n Backing: AV.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
-    },
-    {
-      "name": "Kyten Technologies",
-      "score": 30.7,
-      "signals": [
-        {
-          "name": "Kyten Technologies",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-03-16",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-03-16"
-        },
-        {
-          "name": "Kyten Technologies",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-04-01"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "briefing": "**Kyten Technologies** \u2014 frontier tech.\n\n Backing: AV.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
-    },
-    {
-      "name": "Lotus Health AI",
-      "score": 30.7,
-      "signals": [
-        {
-          "name": "Lotus Health AI",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-03-16",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-03-16"
-        },
-        {
-          "name": "Lotus Health AI",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-04-01"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "briefing": "**Lotus Health AI** \u2014 frontier tech.\n\n Backing: AV.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
-    }
-  ],
-  "runnersUp": [
-    {
-      "name": "Sphere Semi",
-      "score": 30.7,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "sources": [
-        "VC portfolio"
-      ],
-      "suggestedSector": null,
-      "signals": [
-        {
-          "name": "Sphere Semi",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-03-16",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-03-16"
-        },
-        {
-          "name": "Sphere Semi",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-04-01"
-        }
-      ]
-    },
-    {
-      "name": "Vayu Robotics",
-      "score": 30.7,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "sources": [
-        "VC portfolio"
-      ],
-      "suggestedSector": null,
-      "signals": [
-        {
-          "name": "Vayu Robotics",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-03-16",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-03-16"
-        },
-        {
-          "name": "Vayu Robotics",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-04-01"
-        }
-      ]
-    },
-    {
-      "name": "SHIELD Technology Partners",
-      "score": 30.7,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "sources": [
-        "VC portfolio"
-      ],
-      "suggestedSector": null,
-      "signals": [
-        {
-          "name": "SHIELD Technology Partners",
-          "source": "VC portfolio: Sequoia",
-          "sourceWeight": 35,
-          "vc": "Sequoia",
-          "date": "2026-03-29",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Sequoia portfolio on 2026-03-29"
-        },
-        {
-          "name": "SHIELD Technology Partners",
-          "source": "VC portfolio: Sequoia",
-          "sourceWeight": 35,
-          "vc": "Sequoia",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Sequoia portfolio on 2026-04-01"
-        }
-      ]
-    },
-    {
       "name": "HRL LABORATORIES, LLC",
       "score": 30.7,
-      "dimensions": {
-        "capital_quality": 0,
-        "magnitude": 7,
-        "tech_depth": 5.0,
-        "frontier_fit": 10,
-        "stealth_signal": 4,
-        "founder_signal": 0,
-        "excitement": 4.7
-      },
       "sources": [
         "DARPA"
       ],
-      "suggestedSector": "Defense & Security",
       "signals": [
         {
           "source": "DARPA performer",
@@ -345,11 +62,8 @@ const SCOUT_BRIEFING_AUTO = {
           "date": "2025-02-03",
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001124C0305"
         }
-      ]
-    },
-    {
-      "name": "THE CHARLES STARK DRAPER LABORATORY, INC.",
-      "score": 30.7,
+      ],
+      "suggestedSector": "Defense & Security",
       "dimensions": {
         "capital_quality": 0,
         "magnitude": 7,
@@ -359,10 +73,14 @@ const SCOUT_BRIEFING_AUTO = {
         "founder_signal": 0,
         "excitement": 4.7
       },
+      "briefing": "**HRL LABORATORIES, LLC** \u2014 Defense & Security.\n\nDARPA contracts: $69.4M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
+    },
+    {
+      "name": "THE CHARLES STARK DRAPER LABORATORY, INC.",
+      "score": 30.7,
       "sources": [
         "DARPA"
       ],
-      "suggestedSector": "Defense & Security",
       "signals": [
         {
           "source": "DARPA performer",
@@ -376,24 +94,25 @@ const SCOUT_BRIEFING_AUTO = {
           "date": "2024-05-16",
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001121C0022"
         }
-      ]
-    },
-    {
-      "name": "GEORGIA TECH APPLIED RESEARCH CORP",
-      "score": 30.7,
+      ],
+      "suggestedSector": "Defense & Security",
       "dimensions": {
         "capital_quality": 0,
-        "magnitude": 6,
-        "tech_depth": 6,
+        "magnitude": 7,
+        "tech_depth": 5.0,
         "frontier_fit": 10,
         "stealth_signal": 4,
         "founder_signal": 0,
         "excitement": 4.7
       },
+      "briefing": "**THE CHARLES STARK DRAPER LABORATORY, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $56.2M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
+    },
+    {
+      "name": "GEORGIA TECH APPLIED RESEARCH CORP",
+      "score": 30.7,
       "sources": [
         "DARPA"
       ],
-      "suggestedSector": "Defense & Security",
       "signals": [
         {
           "source": "DARPA performer",
@@ -409,11 +128,8 @@ const SCOUT_BRIEFING_AUTO = {
           "date": "2024-12-01",
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001118C0057"
         }
-      ]
-    },
-    {
-      "name": "AEROJET ROCKETDYNE INC",
-      "score": 30.7,
+      ],
+      "suggestedSector": "Defense & Security",
       "dimensions": {
         "capital_quality": 0,
         "magnitude": 6,
@@ -423,10 +139,14 @@ const SCOUT_BRIEFING_AUTO = {
         "founder_signal": 0,
         "excitement": 4.7
       },
+      "briefing": "**GEORGIA TECH APPLIED RESEARCH CORP** \u2014 Defense & Security.\n\nDARPA contracts: $47.0M. \n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
+    },
+    {
+      "name": "AEROJET ROCKETDYNE INC",
+      "score": 30.7,
       "sources": [
         "DARPA"
       ],
-      "suggestedSector": "Defense & Security",
       "signals": [
         {
           "source": "DARPA performer",
@@ -439,8 +159,21 @@ const SCOUT_BRIEFING_AUTO = {
           "date": "2020-02-10",
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001120C0030"
         }
-      ]
-    },
+      ],
+      "suggestedSector": "Defense & Security",
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 6,
+        "tech_depth": 6,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "briefing": "**AEROJET ROCKETDYNE INC** \u2014 Defense & Security.\n\nDARPA contracts: $28.4M. \n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
+    }
+  ],
+  "runnersUp": [
     {
       "name": "A2 LABS, LLC",
       "score": 30.7,
@@ -533,8 +266,227 @@ const SCOUT_BRIEFING_AUTO = {
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001124C0421"
         }
       ]
+    },
+    {
+      "name": "KUDU DYNAMICS LLC",
+      "score": 29.2,
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 7,
+        "tech_depth": 3.5,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "sources": [
+        "DARPA"
+      ],
+      "suggestedSector": "Defense & Security",
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 71057605.0,
+          "totalAwardedFormatted": "$71.1M",
+          "awardCount": 6,
+          "programs": [
+            "AUTONOMOUS"
+          ],
+          "date": "2025-01-31",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001118C0135"
+        }
+      ]
+    },
+    {
+      "name": "RTX BBN TECHNOLOGIES, INC.",
+      "score": 29.2,
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 7,
+        "tech_depth": 3.5,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "sources": [
+        "DARPA"
+      ],
+      "suggestedSector": "Defense & Security",
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 62574641.0,
+          "totalAwardedFormatted": "$62.6M",
+          "awardCount": 13,
+          "programs": [
+            "QUANTUM"
+          ],
+          "date": "2025-09-25",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0071"
+        }
+      ]
+    },
+    {
+      "name": "PACMAR TECHNOLOGIES LLC",
+      "score": 28.7,
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 7,
+        "tech_depth": 3.0,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "sources": [
+        "DARPA"
+      ],
+      "suggestedSector": "Defense & Security",
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 75033916.1,
+          "totalAwardedFormatted": "$75.0M",
+          "awardCount": 2,
+          "programs": [
+            "AUTONOMOUS",
+            "RANGE"
+          ],
+          "date": "2021-09-29",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001121C0206"
+        }
+      ]
+    },
+    {
+      "name": "GINKGO BIOWORKS, INC.",
+      "score": 28.7,
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 6,
+        "tech_depth": 4,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "sources": [
+        "DARPA"
+      ],
+      "suggestedSector": "Defense & Security",
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 21539319.0,
+          "totalAwardedFormatted": "$21.5M",
+          "awardCount": 3,
+          "programs": [
+            "BIOLOGICAL",
+            "USE"
+          ],
+          "date": "2024-01-26",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001117C0092"
+        }
+      ]
+    },
+    {
+      "name": "GOODRICH CORPORATION",
+      "score": 28.7,
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 4,
+        "tech_depth": 6,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "sources": [
+        "DARPA"
+      ],
+      "suggestedSector": "Defense & Security",
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 6119664.0,
+          "totalAwardedFormatted": "$6.1M",
+          "awardCount": 1,
+          "programs": [
+            "BLACKJACK"
+          ],
+          "date": "2019-02-01",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0022"
+        }
+      ]
+    },
+    {
+      "name": "TELEDYNE SCIENTIFIC & IMAGING, LLC",
+      "score": 28.2,
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 6,
+        "tech_depth": 3.5,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "sources": [
+        "DARPA"
+      ],
+      "suggestedSector": "Defense & Security",
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 39676225.0,
+          "totalAwardedFormatted": "$39.7M",
+          "awardCount": 6,
+          "programs": [
+            "MASS"
+          ],
+          "date": "2024-02-12",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001122C0122"
+        }
+      ]
+    },
+    {
+      "name": "Flexport",
+      "score": 28.0,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 6,
+        "founder_signal": 0,
+        "excitement": 7.0
+      },
+      "sources": [
+        "VC portfolio"
+      ],
+      "suggestedSector": null,
+      "signals": [
+        {
+          "name": "Flexport",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-03-16"
+        },
+        {
+          "name": "Flexport",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        }
+      ]
     }
   ],
-  "rejectedCount": 141
+  "rejectedCount": 142
 };
 if (typeof window !== 'undefined') window.SCOUT_BRIEFING_AUTO = SCOUT_BRIEFING_AUTO;

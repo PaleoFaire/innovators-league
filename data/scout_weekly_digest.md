@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-04-28
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-05-03
 
-**Roster:** 1007 companies tracked  ·  **Screened this cycle:** 253  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1009 companies tracked  ·  **Screened this cycle:** 254  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -26,83 +26,83 @@ Source: DARPA. Score 32/70.
 
 ---
 
-### 2. Celero Communications  ·  *Score 30/70*
+### 2. HRL LABORATORIES, LLC  ·  *Score 30/70*
 
-**Sector:** Frontier Tech
+**Sector:** Defense & Security
 
-**Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 8
+**Dimensions:** Capital 0, Magnitude 7, Tech Depth 5, Frontier Fit 10, Stealth 4
 
-**Celero Communications** — frontier tech.
+**HRL LABORATORIES, LLC** — Defense & Security.
 
- Backing: AV.
+DARPA contracts: $69.4M. 
 
-Surfaced in just one source — early intel, before the rest of the market.
+Worth a closer look this week.
 
-Ask: Who's the first commercial customer, and how big is the contract?
+Ask: What's the dual-use commercial wedge before the gov-only deal flow takes over?
 
-Source: VC portfolio. Score 31/70.
+Source: DARPA. Score 31/70.
 
-**Verify:** [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page)
-
----
-
-### 3. Forge Automation  ·  *Score 30/70*
-
-**Sector:** Frontier Tech
-
-**Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 8
-
-**Forge Automation** — frontier tech.
-
- Backing: AV.
-
-Surfaced in just one source — early intel, before the rest of the market.
-
-Ask: Who's the first commercial customer, and how big is the contract?
-
-Source: VC portfolio. Score 31/70.
-
-**Verify:** [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page)
+**Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001124C0305)
 
 ---
 
-### 4. Kyten Technologies  ·  *Score 30/70*
+### 3. THE CHARLES STARK DRAPER LABORATORY, INC.  ·  *Score 30/70*
 
-**Sector:** Frontier Tech
+**Sector:** Defense & Security
 
-**Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 8
+**Dimensions:** Capital 0, Magnitude 7, Tech Depth 5, Frontier Fit 10, Stealth 4
 
-**Kyten Technologies** — frontier tech.
+**THE CHARLES STARK DRAPER LABORATORY, INC.** — Defense & Security.
 
- Backing: AV.
+DARPA contracts: $56.2M. 
 
-Surfaced in just one source — early intel, before the rest of the market.
+Worth a closer look this week.
 
-Ask: Who's the first commercial customer, and how big is the contract?
+Ask: What's the dual-use commercial wedge before the gov-only deal flow takes over?
 
-Source: VC portfolio. Score 31/70.
+Source: DARPA. Score 31/70.
 
-**Verify:** [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page)
+**Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001121C0022)
 
 ---
 
-### 5. Lotus Health AI  ·  *Score 30/70*
+### 4. GEORGIA TECH APPLIED RESEARCH CORP  ·  *Score 30/70*
 
-**Sector:** Frontier Tech
+**Sector:** Defense & Security
 
-**Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 8
+**Dimensions:** Capital 0, Magnitude 6, Tech Depth 6, Frontier Fit 10, Stealth 4
 
-**Lotus Health AI** — frontier tech.
+**GEORGIA TECH APPLIED RESEARCH CORP** — Defense & Security.
 
- Backing: AV.
+DARPA contracts: $47.0M. 
 
-Surfaced in just one source — early intel, before the rest of the market.
+Tech depth signals (patents/DARPA programs) suggest real engineering substance.
 
-Ask: Who's the first commercial customer, and how big is the contract?
+Ask: What's the dual-use commercial wedge before the gov-only deal flow takes over?
 
-Source: VC portfolio. Score 31/70.
+Source: DARPA. Score 31/70.
 
-**Verify:** [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page)
+**Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001118C0057)
+
+---
+
+### 5. AEROJET ROCKETDYNE INC  ·  *Score 30/70*
+
+**Sector:** Defense & Security
+
+**Dimensions:** Capital 0, Magnitude 6, Tech Depth 6, Frontier Fit 10, Stealth 4
+
+**AEROJET ROCKETDYNE INC** — Defense & Security.
+
+DARPA contracts: $28.4M. 
+
+Tech depth signals (patents/DARPA programs) suggest real engineering substance.
+
+Ask: What's the dual-use commercial wedge before the gov-only deal flow takes over?
+
+Source: DARPA. Score 31/70.
+
+**Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001120C0030)
 
 ---
 
@@ -110,16 +110,16 @@ Source: VC portfolio. Score 31/70.
 
 Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 
-- **Sphere Semi** *(—)* — VC portfolio — score 30/70
-- **Vayu Robotics** *(—)* — VC portfolio — score 30/70
-- **SHIELD Technology Partners** *(—)* — VC portfolio — score 30/70
-- **HRL LABORATORIES, LLC** *(Defense & Security)* — DARPA — score 30/70
-- **THE CHARLES STARK DRAPER LABORATORY, INC.** *(Defense & Security)* — DARPA — score 30/70
-- **GEORGIA TECH APPLIED RESEARCH CORP** *(Defense & Security)* — DARPA — score 30/70
-- **AEROJET ROCKETDYNE INC** *(Defense & Security)* — DARPA — score 30/70
 - **A2 LABS, LLC** *(Defense & Security)* — DARPA — score 30/70
 - **HONEYWELL INTERNATIONAL INC.** *(Defense & Security)* — DARPA — score 29/70
 - **CHARLES RIVER ANALYTICS, INC.** *(Defense & Security)* — DARPA — score 29/70
+- **KUDU DYNAMICS LLC** *(Defense & Security)* — DARPA — score 29/70
+- **RTX BBN TECHNOLOGIES, INC.** *(Defense & Security)* — DARPA — score 29/70
+- **PACMAR TECHNOLOGIES LLC** *(Defense & Security)* — DARPA — score 28/70
+- **GINKGO BIOWORKS, INC.** *(Defense & Security)* — DARPA — score 28/70
+- **GOODRICH CORPORATION** *(Defense & Security)* — DARPA — score 28/70
+- **TELEDYNE SCIENTIFIC & IMAGING, LLC** *(Defense & Security)* — DARPA — score 28/70
+- **Flexport** *(—)* — VC portfolio — score 28/70
 
 ---
 
@@ -127,18 +127,18 @@ Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 
 Recent episodes from the scout's podcast sources. Scan titles for company names the LLM may have missed.
 
+- **[TBPN]** [Tech Earnings Quadkill, Red Button vs Blue Button | Diet TBPN](https://share.transistor.fm/s/91bd36f6)
+- **[All-In]** [CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win](https://allinchamathjason.libsyn.com/ca-governor-candidate-steve-hilton-on-why-california-is-destroying-itself-how-a-republican-can-win)
+- **[TBPN]** [Big Tech Earnings, Red vs. Blue Button, Quantum Computing | Jason Yanowitz, Even Rogers, Maria Spiropulu, Stepan Simkin,](https://share.transistor.fm/s/93dffc7f)
 - **[Core Memory]** [Here Come The Space Lasers - EP 62 Baiju Bhatt](https://www.corememory.com/p/here-come-the-space-lasers-aetherflux-baiju-bhatt)
 - **[TBPN]** [SpaceX-Cursor Deal, ChatGPT Images 2.0, Fake Bear Scam | Diet TBPN](https://share.transistor.fm/s/f7d3d1b4)
 - **[TBPN]** [SpaceX/Cursor Deal, Images 2.0 Reactions, Fake Bear Attack | Anil Chakravarthy, Naveen Gavini, Avlok Kohli & Ankur Nagpa](https://share.transistor.fm/s/2c6e810f)
 - **[Core Memory]** [The Aussie Man Who Used AI To Create A Cancer Cure For His Dog](https://www.corememory.com/p/the-aussie-man-who-used-ai-to-create-cancer-therapy-dog-rosie)
 - **[All-In]** [John Fetterman: The Rogue Democrat Who Broke Party Ranks](https://allinchamathjason.libsyn.com/john-fetterman-the-rogue-democrat-who-broke-party-ranks)
-- **[TBPN]** [Allbirds’ AI Pivot, Snap Cuts 16% of Workforce, Amazon’s GlobalStar Deal | Diet TBPN](https://share.transistor.fm/s/ce28b57f)
 - **[Core Memory]** [The Very Wild, Very Real Plan To Build AI Data Centers In The Ocean - EP 65 Garth Sheldon-Coulson](https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth)
-- **[TBPN]** [AI-Birds, Snap's Next Chapter, Amazon + Globalstar | Kiva Dickinson, Aron D'Souza, Michael Mignano, Wade Foster, Ankur N](https://share.transistor.fm/s/5aca9c1e)
 - **[Lex Fridman Podcast]** [#493 – Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming](https://lexfridman.com/jeff-kaplan/?utm_source=rss&utm_medium=rss&utm_campaign=jeff-kaplan)
-- **[All-In]** [Rewriting the Rules: The SEC & CFTC on Crypto, IPOs & the Future of American Markets](https://allinchamathjason.libsyn.com/rewriting-the-rules-the-sec-cftc-on-crypto-ipos-the-future-of-american-markets)
 
 ---
 
 
-*Generated 2026-04-28T03:59:36+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-05-03T10:02:27+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

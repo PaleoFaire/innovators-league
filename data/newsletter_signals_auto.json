@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-04-28T03:57:23+00:00",
+  "generatedAt": "2026-05-03T10:00:07+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 6
+      "recentItems": 7
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 6
     },
     {
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 15
+      "recentItems": 14
     },
     {
       "name": "Construction Physics (Brian Potter)",
       "url": "https://www.construction-physics.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 4
     },
     {
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 2
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 6
     },
     {
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 4
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
@@ -60,7 +60,7 @@
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 11
+      "recentItems": 12
     },
     {
       "name": "404 Media",
@@ -87,8 +87,8 @@
       "recentItems": 5
     }
   ],
-  "totalRawSignals": 19,
-  "uniqueCandidateCount": 19,
+  "totalRawSignals": 20,
+  "uniqueCandidateCount": 20,
   "candidates": [
     {
       "name": "Blue Energy",
@@ -106,6 +106,44 @@
           "articleTitle": "Stakes Keep Getting Higher for the SpaceX IPO",
           "articleUrl": "https://www.newcomer.co/p/stakes-keep-getting-higher-for-the",
           "articleDate": "Fri, 24 Apr 2026 14:02:18 GMT"
+        }
+      ]
+    },
+    {
+      "name": "SendCutSend",
+      "totalScore": 9.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "SendCutSend",
+          "score": 9.0,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "ying to fix it. LA as the  secret manufacturing capital , Texas as the emerging center of gravity,  SendCutSend  (our newest sponsor!) as the closest thing America has to China for fast parts, and the",
+          "source": "Core Memory (Ashlee Vance)",
+          "sourceUrl": "https://www.corememory.com/feed",
+          "articleTitle": "Is America Cooked? \u2014 EP 68 Ashlee Vance And Kylie Robison",
+          "articleUrl": "https://www.corememory.com/p/is-america-cooked-openai-spacex-cursor-kindbio-apple",
+          "articleDate": "Tue, 28 Apr 2026 13:03:31 GMT"
+        }
+      ]
+    },
+    {
+      "name": "America",
+      "totalScore": 7.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "America",
+          "score": 7.0,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": ", Texas as the emerging center of gravity,  SendCutSend  (our newest sponsor!) as the closest thing America has to China for fast parts, and the hardware cult in central Texas that you should  probabl",
+          "source": "Core Memory (Ashlee Vance)",
+          "sourceUrl": "https://www.corememory.com/feed",
+          "articleTitle": "Is America Cooked? \u2014 EP 68 Ashlee Vance And Kylie Robison",
+          "articleUrl": "https://www.corememory.com/p/is-america-cooked-openai-spacex-cursor-kindbio-apple",
+          "articleDate": "Tue, 28 Apr 2026 13:03:31 GMT"
         }
       ]
     },
@@ -129,40 +167,40 @@
       ]
     },
     {
-      "name": "Anna",
-      "totalScore": 6.0,
+      "name": "PAs",
+      "totalScore": 6.3,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Anna",
-          "score": 6.0,
+          "name": "PAs",
+          "score": 6.3,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "r $11.57 billion. Spotify  and three major labels  won  a copyright lawsuit against pirate library  Anna\u2019s Archive . Spotify  launched  its feature that allows users to buy physical books through the ",
-          "source": "Platformer (Casey Newton)",
-          "sourceUrl": "https://www.platformer.news/rss",
-          "articleTitle": "The scientific case for being nice to your chatbot",
-          "articleUrl": "https://www.platformer.news/chatbot-emotion-research-anthropic-alignment-interpretability/",
-          "articleDate": "Fri, 17 Apr 2026 00:00:42 GMT"
+          "context": "ed). In February, Abridge launched at HonorHealth with 500 licenses for around 3,000 physicians and PAs, who are using Abridge in the background to record and take notes as they meet with patients. Af",
+          "source": "Newcomer (Eric Newcomer)",
+          "sourceUrl": "https://www.newcomer.co/feed",
+          "articleTitle": "Voice AI Investment Surges as Enterprise Applications Gain Traction",
+          "articleUrl": "https://www.newcomer.co/p/voice-ai-investment-surges-as-enterprise",
+          "articleDate": "Thu, 30 Apr 2026 20:09:32 GMT"
         }
       ]
     },
     {
-      "name": "Archive",
-      "totalScore": 6.0,
+      "name": "SenseNova-U1",
+      "totalScore": 5.95,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Archive",
-          "score": 6.0,
+          "name": "SenseNova-U1",
+          "score": 5.95,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "7 billion. Spotify  and three major labels  won  a copyright lawsuit against pirate library  Anna\u2019s Archive . Spotify  launched  its feature that allows users to buy physical books through the app. Sn",
-          "source": "Platformer (Casey Newton)",
-          "sourceUrl": "https://www.platformer.news/rss",
-          "articleTitle": "The scientific case for being nice to your chatbot",
-          "articleUrl": "https://www.platformer.news/chatbot-emotion-research-anthropic-alignment-interpretability/",
-          "articleDate": "Fri, 17 Apr 2026 00:00:42 GMT"
+          "context": "parameter range, suggesting that it raises the bar for future models from competitors like Mistral. SenseNova-U1 just dropped \u2014 native multimodal gen/understanding in one model, no VAE, no diffusion  ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] AI Engineer World's Fair \u2014 Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertical AI Call for Speakers",
+          "articleUrl": "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch",
+          "articleDate": "Sat, 02 May 2026 07:21:55 GMT"
         }
       ]
     },
@@ -201,25 +239,6 @@
           "articleTitle": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
           "articleUrl": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
           "articleDate": "Fri, 24 Apr 2026 04:40:43 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Agent",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Agent",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "kathon   @NousResearch , signaling a push from coding/productivity into  creative agent  workflows. Agent research: self-improvement, monitoring, web skills, and evaluation A cluster of papers pushed ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] The Two Sides of OpenClaw",
-          "articleUrl": "https://www.latent.space/p/ainews-the-two-sides-of-openclaw",
-          "articleDate": "Sat, 18 Apr 2026 06:50:57 GMT"
         }
       ]
     },
