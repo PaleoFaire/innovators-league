@@ -1,30 +1,30 @@
 // Auto-generated news signals
-// Last updated: 2026-05-03T19:12:00.290Z
+// Last updated: 2026-05-03T20:55:55.949Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777835520290,
+    "id": 1777841755949,
     "type": "hire",
     "company": "Humanoid",
     "headline": "The Humanoid Robot Market Is Smaller Than It Looks",
     "source": "CleanTechnica",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/05/03/the-humanoid-robot-market-is-smaller-than-it-looks/"
   },
   {
-    "id": 1777835520291,
+    "id": 1777841755950,
     "type": "news",
     "company": "Solar Foods",
     "headline": "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
     "source": "CleanTechnica",
-    "time": "Just now",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/05/03/eu-green-hydrogen-scheme-embraces-high-tech-solar-foods/"
   },
   {
-    "id": 1777835520292,
+    "id": 1777841755951,
     "type": "hire",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 12 May 12",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/spacex-starship-flight-12-may-12.html"
   },
   {
-    "id": 1777835520293,
+    "id": 1777841755952,
     "type": "news",
     "company": "Pivotal",
     "headline": "Bristol Myers’ pivotal year; Should AI be swinging bigger?; and more",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/bristol-myers-pivotal-year-should-ai-be-swinging-bigger-and-more/"
   },
   {
-    "id": 1777835520294,
+    "id": 1777841755953,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/01/who-is-tesla-selling-1-million-humanoid-robots-a-year-to/"
   },
   {
-    "id": 1777835520295,
+    "id": 1777841755954,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla Got $573 Million from SpaceX and xAI in 2025",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/01/tesla-got-573-million-from-spacex-and-xai-in-2025/"
   },
   {
-    "id": 1777835520296,
+    "id": 1777841755955,
     "type": "news",
     "company": "Humanoid",
     "headline": "Meta buys robotics startup to bolster its humanoid AI ambitions",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/"
   },
   {
-    "id": 1777835520297,
+    "id": 1777841755956,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s mo",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/"
   },
   {
-    "id": 1777835520298,
+    "id": 1777841755957,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Enables Marketing Cookies by Default for Free ChatGPT Users",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-enables-cookies-by-default-for-free-chatgpt-users/"
   },
   {
-    "id": 1777835520299,
+    "id": 1777841755958,
     "type": "funding",
     "company": "True Anomaly",
     "headline": "The Week’s 10 Biggest Funding Rounds: Defense Tech Leads With Multiple Large Deals, Topped By $600M For Space Security S",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
   },
   {
-    "id": 1777835520300,
+    "id": 1777841755959,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Pentagon freezes out Anthropic as it signs deals with AI rivals",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals/"
   },
   {
-    "id": 1777835520301,
+    "id": 1777841755960,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "INSANE SECRETS OF SPACEX STARLINK WILL ENABLE 100X",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/insane-secrets-of-spacex-starlink-will-enable-100x.html"
   },
   {
-    "id": 1777835520302,
+    "id": 1777841755961,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Rule Change so SpaceX Should Join Sp500 6 Months After IPO",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/rule-change-so-spacex-should-join-sp500-6-months-after-ipo.html"
   },
   {
-    "id": 1777835520303,
+    "id": 1777841755962,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Former head of ‘Pentagon’s think tank’ joins Anthropic",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/technology/2026/05/former-head-pentagons-think-tank-joins-anthropic/413256/"
   },
   {
-    "id": 1777835520304,
+    "id": 1777841755963,
     "type": "funding",
     "company": "Starcloud",
     "headline": "Starcloud seeks more orbital data center funding shortly after unicorn status",
@@ -167,18 +167,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/starcloud-seeks-more-orbital-data-center-funding-shortly-after-unicorn-status/"
   },
   {
-    "id": 1777835520305,
+    "id": 1777841755964,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian (RIVN) lifts production capacity for its Georgia plant by 50% to 300K vehicles annually",
     "source": "Electrek",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/04/30/rivian-rivn-boosts-production-capacity-georgia-plant-50/"
   },
   {
-    "id": 1777835520306,
+    "id": 1777841755965,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Cleo Labs secures €1.5M to scale AI-driven product compliance globally",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/29/cleo-labs-secures-eur15m-to-scale-ai-driven-product-compliance-globally/"
   },
   {
-    "id": 1777835520307,
+    "id": 1777841755966,
     "type": "news",
     "company": "Cognition",
     "headline": "AI coding agent Cognition expands to Singapore as Asia-Pacific Hub",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
   },
   {
-    "id": 1777835520308,
+    "id": 1777841755967,
     "type": "news",
     "company": "Anthropic",
     "headline": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
   },
   {
-    "id": 1777835520309,
+    "id": 1777841755968,
     "type": "ipo",
     "company": "Fervo Energy",
     "headline": "Fervo Energy unveils new power plant details in IPO filing",
