@@ -1,7 +1,7 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 62,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
       "Musk v. Altman week 1: Elon Musk says he was duped, warns AI",
@@ -11,11 +11,11 @@
     "fundingQ": "$2144.6B",
     "components": {
       "funding": 100,
-      "news": 70,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Defense & Security",
@@ -33,7 +33,7 @@
       "hiring": 0,
       "market": 57
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Drones & Autonomous",
@@ -49,7 +49,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -65,7 +65,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Ocean & Maritime",
@@ -81,16 +81,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 44,
     "trend": "steady",
     "catalysts": [
+      "SpaceX Starship Flight 12 May 12",
       "Tesla Got $573 Million from SpaceX and xAI in 2025",
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
-      "INSANE SECRETS OF SPACEX STARLINK WILL ENABLE 100X"
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
     ],
     "fundingQ": "$2.2B",
     "components": {
@@ -99,7 +99,7 @@
       "hiring": 0,
       "market": 40
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Nuclear Energy",
@@ -116,25 +116,25 @@
       "hiring": 0,
       "market": 53
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 27,
+    "momentum": 29,
     "trend": "rising",
     "catalysts": [
+      "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
       "Meta buys robotics startup to bolster its humanoid AI ambiti",
-      "Rivian (RIVN) lifts production capacity for its Georgia plan",
-      "Apptronik\u2019s new CPO hire a major step in right direction"
+      "Rivian (RIVN) lifts production capacity for its Georgia plan"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Quantum Computing",
@@ -150,23 +150,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 17,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
+      "Bristol Myers\u2019 pivotal year; Should AI be swinging bigger?;",
+      "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
       "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
       "market": 61
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Transportation",
@@ -182,42 +184,43 @@
       "hiring": 0,
       "market": 59
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 15,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "SpaceX Starship Flight 12 May 12",
       "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
-      "Starcloud seeks more orbital data center funding shortly aft",
-      "Sources: Anthropic potential $900B+ valuation round could ha"
+      "Starcloud seeks more orbital data center funding shortly aft"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 14,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
+      "SpaceX Starship Flight 12 May 12",
       "Fervo Energy unveils new power plant details in IPO filing",
       "Fervo Energy inks big turbine deal to build more next-gen ge"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 56
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -235,7 +238,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Housing & Construction",
@@ -251,7 +254,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -267,6 +270,6 @@
       "hiring": 0,
       "market": 31
     },
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   }
 ]

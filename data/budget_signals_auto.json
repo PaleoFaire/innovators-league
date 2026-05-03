@@ -38,7 +38,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "category": "Quantum Computing",
@@ -61,7 +61,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -84,7 +84,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   },
   {
     "category": "Space & Aerospace",
@@ -107,29 +107,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-02"
-  },
-  {
-    "category": "Biotech & Health",
-    "icon": "\ud83e\uddec",
-    "budgetLineItem": "Biotech & Health \u2014 federal activity index",
-    "change": "flat",
-    "changeNum": 0,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 1,
-    "billsTracked": 0,
-    "rulesTracked": 1,
-    "description": "0 bill(s) + 1 federal-register action(s) touching Biotech & Health in the last 90 days. Activity index 1 \u2014 flat relative trend.",
-    "examples": [
-      {
-        "type": "federal_register",
-        "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request fo",
-        "agency": "",
-        "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-02"
+    "lastUpdated": "2026-05-03"
   }
 ]

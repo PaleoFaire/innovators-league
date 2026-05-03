@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-02 07:50:36 UTC
+// Last updated: 2026-05-03 08:06:04 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Momentus", form: "DEF 14A", date: "2026-04-30", description: "apre-20260616xdef14a.htm", isIPO: false, ticker: "MNTS" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-04-30", description: "spce-20260430.htm", isIPO: false, ticker: "SPCE" },
