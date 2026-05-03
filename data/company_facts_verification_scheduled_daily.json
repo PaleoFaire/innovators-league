@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-05-02T07:21:10+00:00",
+  "generatedAt": "2026-05-03T07:49:04+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 19,
-  "newExtractionsThisRun": 17,
+  "cohortSize": 23,
+  "newExtractionsThisRun": 21,
   "summary": {
-    "cleared": 14,
+    "cleared": 18,
     "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
-    "Andromeda Surgical",
-    "Anysphere",
+    "Anthropic",
     "Apptronik",
+    "Astera Labs",
     "Cognition",
     "Deterrence",
     "Fervo Energy",
@@ -20,78 +20,71 @@
     "Hidden Level",
     "Humanoid",
     "Percepto",
+    "Pivotal",
+    "Rebellions",
     "Rivian",
     "Scale AI",
+    "True Anomaly",
     "Waymo",
-    "ideaForge"
+    "ideaForge",
+    "xAI"
   ],
   "changesProposed": [
     {
-      "name": "Anthropic",
+      "name": "Andromeda Surgical",
       "current": {
-        "name": "Anthropic",
-        "founder": "Dario Amodei, Daniela Amodei, Jared Kaplan, Jack Clark, Chris Olah, Ben Mann, Sam McCandlish, Tom Brown",
-        "location": "San Francisco, California",
-        "founded": 2021,
-        "fundingStage": "Private",
-        "totalRaised": "$13B+",
-        "website": "https://anthropic.com"
+        "name": "Andromeda Surgical",
+        "founder": "Nick Damiano, Kartik Tiwari",
+        "location": "San Francisco, CA",
+        "founded": 2023,
+        "fundingStage": "Seed",
+        "totalRaised": "$10M+",
+        "website": "https://andromedasurgical.com"
       },
       "verified": {
-        "name": "Anthropic",
-        "description": "An American artificial intelligence company that develops large language models named Claude and focuses on AI safety research.",
+        "name": "Andromeda Surgical",
+        "description": "A surgical AI platform providing GPS-like navigation guidance and autonomous surgical assistance, starting with endourology procedures. The company develops AI models for surgeon-in-the-loop autonomous surgical tasks integrated with existing surgical tools.",
         "founders": [
-          "Dario Amodei",
-          "Daniela Amodei",
-          "Jared Kaplan",
-          "Jack Clark",
-          "Chris Olah",
-          "Ben Mann",
-          "Sam McCandlish",
-          "Tom Brown"
+          "Nick Damiano",
+          "Kartik Tiwari"
         ],
-        "location": "San Francisco, California, U.S.",
-        "founded_year": 2021,
-        "current_stage": "Private",
+        "location": "San Francisco, CA",
+        "founded_year": 2023,
+        "current_stage": "Series A",
         "total_raised": null,
-        "valuation": "$380B",
-        "investors": null,
-        "website": "https://anthropic.com",
+        "valuation": null,
+        "investors": [],
+        "website": "https://andromedasurgical.com",
         "sources_per_field": {
           "name": [
-            0,
-            1,
-            2
+            0
           ],
           "description": [
-            2
+            0
           ],
           "founders": [
-            2
+            0
           ],
           "location": [
-            2
+            0
           ],
           "founded_year": [
-            2
+            0
           ],
           "current_stage": [
-            2
-          ],
-          "valuation": [
             2
           ],
           "website": [
             0
           ]
         },
-        "notes": "Wikipedia source [2] states as of February 2026 the estimated valuation is $380 billion. Current database entry lists $183B valuation and $350B pending round; these figures cannot be verified from provided sources. TechCrunch article [5] mentions potential $900B+ valuation round but does not confirm completion. SEC Form D [6] shows a small filing amount ($1.56M) which appears incomplete or represents portion of larger raise. No specific total_raised figure could be verified from sources."
+        "notes": "SEC Form D filing from March 2026 indicates Series A stage (filing shows Series of CGF2021 LLC). Previous database entry listed 'Seed' stage and '$10M+' total raised, but these cannot be verified from provided sources. The website describes the company as building 'the intelligence layer for surgery, starting with endourology' and mentions achieving the world's first robotic-assisted HoLEP procedure in 2024."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "San Francisco, California",
-          "verified": "San Francisco, California, U.S.",
+          "field": "fundingStage",
+          "current": "Seed",
+          "verified": "Series A",
           "sources": [
             2
           ]
@@ -101,40 +94,122 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://anthropic.com"
+          "url": "https://andromedasurgical.com"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://anthropic.com/company"
+          "src": "news (Crunchbase News)",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
         },
         {
           "idx": 2,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128800&type=D&dateb=&owner=include&count=10"
+        }
+      ],
+      "notes": "SEC Form D filing from March 2026 indicates Series A stage (filing shows Series of CGF2021 LLC). Previous database entry listed 'Seed' stage and '$10M+' total raised, but these cannot be verified from provided sources. The website describes the company as building 'the intelligence layer for surgery, starting with endourology' and mentions achieving the world's first robotic-assisted HoLEP procedure in 2024."
+    },
+    {
+      "name": "Anysphere",
+      "current": {
+        "name": "Anysphere",
+        "founder": "Michael Truell, Sualeh Asif, Aman Sanger, Arvid Lunnemark",
+        "location": "San Francisco, California, United States",
+        "founded": 2022,
+        "fundingStage": "Series G",
+        "totalRaised": "$3.3B+",
+        "website": "https://anysphere.co"
+      },
+      "verified": {
+        "name": "Anysphere",
+        "description": "American software company offering Cursor, an AI-assisted software development service. Founded in 2022 by MIT students, the company achieved a $29.3 billion valuation and surpassed $1 billion in annual recurring revenue by late 2025.",
+        "founders": [
+          "Michael Truell",
+          "Sualeh Asif",
+          "Aman Sanger",
+          "Arvid Lunnemark"
+        ],
+        "location": "San Francisco, California, United States",
+        "founded_year": 2022,
+        "current_stage": "Private",
+        "total_raised": "$3.3B+",
+        "valuation": "$29.3B",
+        "investors": [
+          "OpenAI Startup Fund",
+          "Thrive Capital",
+          "Accel",
+          "Coatue Management",
+          "Google",
+          "Nvidia"
+        ],
+        "website": "https://anysphere.co",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Company is private (not acquired or pre-IPO as of sources). Wikipedia notes xAI deal announced April 21, 2026 for potential $60B acquisition, but sources do not confirm completed acquisition. Total raised calculated from documented funding rounds: $8M seed + $60M Series A + $900M Series C + $2.3B Series D = $3.268B, rounded to $3.3B+. Most recent valuation of $29.3B from November 13, 2025 Series D round."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series G",
+          "verified": "Private",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://anysphere.co"
+        },
+        {
+          "idx": 1,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Anthropic"
+          "url": "https://en.wikipedia.org/wiki/Anysphere"
+        },
+        {
+          "idx": 2,
+          "src": "news (Crunchbase News)",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
         },
         {
           "idx": 3,
-          "src": "news (Defense News)",
-          "url": "https://www.defensenews.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Defense One)",
-          "url": "https://www.defenseone.com/technology/2026/05/former-head-pentagons-think-tank-joins-anthropic/413256/"
-        },
-        {
-          "idx": 5,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/"
-        },
-        {
-          "idx": 6,
-          "src": "sec_form_d",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002132165&type=D&dateb=&owner=include&count=10"
+          "src": "news (TechNode Global)",
+          "url": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
         }
       ],
-      "notes": "Wikipedia source [2] states as of February 2026 the estimated valuation is $380 billion. Current database entry lists $183B valuation and $350B pending round; these figures cannot be verified from provided sources. TechCrunch article [5] mentions potential $900B+ valuation round but does not confirm completion. SEC Form D [6] shows a small filing amount ($1.56M) which appears incomplete or represents portion of larger raise. No specific total_raised figure could be verified from sources."
+      "notes": "Company is private (not acquired or pre-IPO as of sources). Wikipedia notes xAI deal announced April 21, 2026 for potential $60B acquisition, but sources do not confirm completed acquisition. Total raised calculated from documented funding rounds: $8M seed + $60M Series A + $900M Series C + $2.3B Series D = $3.268B, rounded to $3.3B+. Most recent valuation of $29.3B from November 13, 2025 Series D round."
     },
     {
       "name": "OpenAI",
@@ -149,10 +224,10 @@
       },
       "verified": {
         "name": "OpenAI",
-        "description": "An AI research and deployment company that developed the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models. OpenAI consists of a nonprofit foundation and a for-profit public benefit corporation.",
+        "description": "American artificial intelligence company that developed the GPT family of large language models, DALL-E series of text-to-image models, and ChatGPT. OpenAI is structured as a for-profit public benefit corporation with a nonprofit foundation.",
         "founders": [
-          "Sam Altman",
           "Elon Musk",
+          "Sam Altman",
           "Ilya Sutskever",
           "Greg Brockman",
           "Trevor Blackwell",
@@ -166,7 +241,7 @@
         "location": "San Francisco, California, U.S.",
         "founded_year": 2015,
         "current_stage": "Private",
-        "total_raised": null,
+        "total_raised": "$13B+",
         "valuation": "$500B",
         "investors": [
           "Microsoft",
@@ -179,12 +254,9 @@
         "website": "https://openai.com",
         "sources_per_field": {
           "name": [
-            0,
-            1,
             2
           ],
           "description": [
-            1,
             2
           ],
           "founders": [
@@ -199,6 +271,9 @@
           "current_stage": [
             2
           ],
+          "total_raised": [
+            2
+          ],
           "valuation": [
             2
           ],
@@ -206,16 +281,24 @@
             2
           ],
           "website": [
-            0
+            2
           ]
         },
-        "notes": "Founded as nonprofit in December 2015; transitioned to for-profit capped structure in 2019; converted to public benefit corporation in 2025 restructuring. October 2025 share sale valued company at $500 billion. Total capital pledged at founding was $1 billion, but only $133.2 million collected by 2021 according to tax filings."
+        "notes": "In October 2025, OpenAI conducted a $6.6 billion share sale valued at $500 billion. In 2025, company restructured from nonprofit with for-profit subsidiary to for-profit public benefit corporation (26% owned by nonprofit foundation, 27% by Microsoft, 47% by employees and investors). Wikipedia source indicates revenue of $13.1B and net loss of $9B for 2025."
       },
       "changes": [
         {
           "field": "founder",
           "current": "Sam Altman, Greg Brockman, Ilya Sutskever",
-          "verified": "Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, Wojciech Zaremba",
+          "verified": "Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, Wojciech Zaremba",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$40B+",
+          "verified": "$13B+",
           "sources": [
             2
           ]
@@ -225,12 +308,12 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://openai.com"
+          "url": "https://openai.co"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://openai.com/about"
+          "url": "https://openai.co/about"
         },
         {
           "idx": 2,
@@ -246,14 +329,9 @@
           "idx": 4,
           "src": "news (Wired)",
           "url": "https://www.wired.com/story/openai-enables-cookies-by-default-for-free-chatgpt-users/"
-        },
-        {
-          "idx": 5,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/model-behavior-why-everything-in-musk-v-altman-leads-back-to-shivon-zelis/"
         }
       ],
-      "notes": "Founded as nonprofit in December 2015; transitioned to for-profit capped structure in 2019; converted to public benefit corporation in 2025 restructuring. October 2025 share sale valued company at $500 billion. Total capital pledged at founding was $1 billion, but only $133.2 million collected by 2021 according to tax filings."
+      "notes": "In October 2025, OpenAI conducted a $6.6 billion share sale valued at $500 billion. In 2025, company restructured from nonprofit with for-profit subsidiary to for-profit public benefit corporation (26% owned by nonprofit foundation, 27% by Microsoft, 47% by employees and investors). Wikipedia source indicates revenue of $13.1B and net loss of $9B for 2025."
     },
     {
       "name": "SpaceX",
@@ -268,13 +346,13 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company that develops and operates launch vehicles, Dragon capsules, and the Starlink satellite constellation. SpaceX conducts more orbital launches annually than any other launch provider as of 2026.",
+        "description": "Private American aerospace and artificial intelligence company that designs and manufactures rockets, spacecraft, and satellite internet systems. Conducts more orbital launches annually than any other launch provider as of 2026.",
         "founders": [
           "Elon Musk"
         ],
         "location": "Starbase, Texas",
         "founded_year": 2002,
-        "current_stage": "Pre-IPO",
+        "current_stage": "Private",
         "total_raised": null,
         "valuation": "$800B",
         "investors": null,
@@ -305,13 +383,13 @@
             1
           ]
         },
-        "notes": "Source [0] is a domain listing page, not a reliable company source. Source [1] (Wikipedia) indicates SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was valued at '$800 billion' in a 2025 share offer. Founded March 14, 2002 in El Segundo, California but now headquartered in Starbase, Texas. Sources [2], [3], [4] contain speculative or marketing language without verifiable financial data. Source [5] is a fragmentary SEC Form D filing. Total raised amount cannot be verified from these sources."
+        "notes": "Wikipedia source [1] states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and lists Elon Musk as 42% equity owner with 79% voting control. The company is private, not currently in a numbered Series stage. Source [0] is not a valid company source (domain for sale page). Source [2] references Starship Flight 12 but provides no additional company facts. Source [3] discusses Tesla-SpaceX relationship but no verifiable SpaceX facts. Source [4] discusses Starlink market potential but no verified facts. Source [5] is a Form D filing showing a recent capital raise but amount ($1,484,975) appears to be a filing reference rather than total raise amount."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series G",
-          "verified": "Pre-IPO",
+          "verified": "Private",
           "sources": [
             1
           ]
@@ -330,18 +408,18 @@
         },
         {
           "idx": 2,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/spacex-starship-flight-12-may-12.html"
+        },
+        {
+          "idx": 3,
           "src": "news (CleanTechnica)",
           "url": "https://cleantechnica.com/2026/05/01/tesla-got-573-million-from-spacex-and-xai-in-2025/"
         },
         {
-          "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/insane-secrets-of-spacex-starlink-will-enable-100x.html"
-        },
-        {
           "idx": 4,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/rule-change-so-spacex-should-join-sp500-6-months-after-ipo.html"
+          "url": "https://www.nextbigfuture.com/2026/05/insane-secrets-of-spacex-starlink-will-enable-100x.html"
         },
         {
           "idx": 5,
@@ -349,100 +427,94 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002129914&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "Source [0] is a domain listing page, not a reliable company source. Source [1] (Wikipedia) indicates SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was valued at '$800 billion' in a 2025 share offer. Founded March 14, 2002 in El Segundo, California but now headquartered in Starbase, Texas. Sources [2], [3], [4] contain speculative or marketing language without verifiable financial data. Source [5] is a fragmentary SEC Form D filing. Total raised amount cannot be verified from these sources."
+      "notes": "Wikipedia source [1] states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and lists Elon Musk as 42% equity owner with 79% voting control. The company is private, not currently in a numbered Series stage. Source [0] is not a valid company source (domain for sale page). Source [2] references Starship Flight 12 but provides no additional company facts. Source [3] discusses Tesla-SpaceX relationship but no verifiable SpaceX facts. Source [4] discusses Starlink market potential but no verified facts. Source [5] is a Form D filing showing a recent capital raise but amount ($1,484,975) appears to be a filing reference rather than total raise amount."
     },
     {
-      "name": "True Anomaly",
+      "name": "Starcloud",
       "current": {
-        "name": "True Anomaly",
-        "founder": "Even Rogers",
-        "location": "Centennial, CO",
-        "founded": 2022,
+        "name": "Starcloud",
+        "founder": "Philip Johnston, Ezra Feilden, Adi Oltean",
+        "location": "Redmond, Washington, USA",
+        "founded": 2024,
         "fundingStage": "SPAC",
-        "totalRaised": "$650M",
-        "website": null
+        "totalRaised": "$200M",
+        "website": "https://www.starcloud.com"
       },
       "verified": {
-        "name": null,
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": "$600M",
-        "valuation": null,
-        "investors": null,
-        "website": null,
-        "sources_per_field": {
-          "total_raised": [
-            1
-          ]
-        },
-        "notes": "Source [0] is Wikipedia article about the orbital mechanics parameter 'true anomaly' (not the company). Source [1] confirms a $600M funding round for 'space security startup True Anomaly' but provides no other verifiable details about founders, location, stage, or valuation. Database entry claims $650M Series D in April 2026 and $2.2B valuation, but these cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$650M",
-          "verified": "$600M",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/True_Anomaly"
-        },
-        {
-          "idx": 1,
-          "src": "news (Crunchbase News)",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
-        }
-      ],
-      "notes": "Source [0] is Wikipedia article about the orbital mechanics parameter 'true anomaly' (not the company). Source [1] confirms a $600M funding round for 'space security startup True Anomaly' but provides no other verifiable details about founders, location, stage, or valuation. Database entry claims $650M Series D in April 2026 and $2.2B valuation, but these cannot be verified from provided sources."
-    },
-    {
-      "name": "xAI",
-      "current": {
-        "name": "xAI",
-        "founder": "Elon Musk",
-        "location": "Austin, TX",
-        "founded": 2023,
-        "fundingStage": "Series E",
-        "totalRaised": "$42B",
-        "website": null
-      },
-      "verified": {
-        "name": "xAI",
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://xai.ai",
+        "name": "Starcloud",
+        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In November 2025, Starcloud launched its first test satellite, Starcloud-1, equipped with a Nvidia H100 GPU.",
+        "founders": [
+          "Philip Johnston",
+          "Ezra Feilden",
+          "Adi Oltean"
+        ],
+        "location": "Redmond, Washington, USA",
+        "founded_year": 2024,
+        "current_stage": "Series A",
+        "total_raised": "$170M",
+        "valuation": "$1.1B",
+        "investors": [
+          "Benchmark",
+          "EQT Ventures"
+        ],
+        "website": "https://www.starcloud.com",
         "sources_per_field": {
           "name": [
-            0
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            2
+          ],
+          "founders": [
+            0,
+            1,
+            2
+          ],
+          "location": [
+            0,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
           ],
           "website": [
-            0
+            0,
+            1,
+            2
           ]
         },
-        "notes": "Source [0] is a forum about explainable AI (XAI) in general\u2014not the xAI company. Sources [1], [2], [3] are news articles from May 2026 and April 2026 mentioning xAI in passing but contain no verifiable founding details, funding amounts, valuation, location, or founder names suitable for fact-checking. Database entry claims (Series E $20B January 2026, $250B valuation, $42B total raised, SpaceX acquisition February 2026, Austin HQ, Seaholm Power Plant lease, founded 2023, Elon Musk founder) cannot be verified from provided sources."
+        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025 after a legal challenge from Lumen Technologies. Starcloud achieved unicorn status (17 months after Y Combinator completion) with Series A funding announced March 30, 2026. Source [3] indicates company is seeking additional funding of at least $200M post-unicorn status, but this is not confirmed as completed."
       },
       "changes": [
         {
-          "field": "website",
-          "current": "",
-          "verified": "https://xai.ai",
+          "field": "fundingStage",
+          "current": "SPAC",
+          "verified": "Series A",
           "sources": [
-            0
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$200M",
+          "verified": "$170M",
+          "sources": [
+            2
           ]
         }
       ],
@@ -450,25 +522,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://xai.ai"
+          "url": "https://www.starcloud.com"
         },
         {
           "idx": 1,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/05/01/tesla-got-573-million-from-spacex-and-xai-in-2025/"
+          "src": "company_about",
+          "url": "https://www.starcloud.com/about-us"
         },
         {
           "idx": 2,
-          "src": "news (MIT Tech Review)",
-          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Starcloud"
         },
         {
           "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/starcloud-seeks-more-orbital-data-center-funding-shortly-after-unicorn-status/"
         }
       ],
-      "notes": "Source [0] is a forum about explainable AI (XAI) in general\u2014not the xAI company. Sources [1], [2], [3] are news articles from May 2026 and April 2026 mentioning xAI in passing but contain no verifiable founding details, funding amounts, valuation, location, or founder names suitable for fact-checking. Database entry claims (Series E $20B January 2026, $250B valuation, $42B total raised, SpaceX acquisition February 2026, Austin HQ, Seaholm Power Plant lease, founded 2023, Elon Musk founder) cannot be verified from provided sources."
+      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025 after a legal challenge from Lumen Technologies. Starcloud achieved unicorn status (17 months after Y Combinator completion) with Series A funding announced March 30, 2026. Source [3] indicates company is seeking additional funding of at least $200M post-unicorn status, but this is not confirmed as completed."
     }
   ],
   "unverifiable": []
