@@ -1,147 +1,91 @@
 {
-  "date": "2026-04-27",
-  "display_date": "Apr 27, 2026",
-  "generated_at": "2026-04-27T11:49:34.715392+00:00",
-  "cutoff": "2026-04-20T11:49:34.715392+00:00",
-  "section_count": 8,
-  "total_items": 1118,
+  "date": "2026-05-03",
+  "display_date": "May 03, 2026",
+  "generated_at": "2026-05-03T10:17:43.795875+00:00",
+  "cutoff": "2026-04-26T10:17:43.795875+00:00",
+  "section_count": 7,
+  "total_items": 252,
   "sections": [
     {
-      "title": "Top Score Movers",
-      "icon": "\ud83d\udcc8",
-      "count": 869,
+      "title": "New Funding Rounds",
+      "icon": "\ud83d\udcb0",
+      "count": 2,
       "items": [
         {
-          "company": "ICON",
-          "current": 97.5,
-          "previous": 31.0,
-          "change": 66.5,
-          "tier": "elite"
+          "company": "Anysphere",
+          "amount": "$600M",
+          "round": "Series G",
+          "investor": "Undisclosed",
+          "date": "2026-05"
         },
         {
-          "company": "HUMAIN",
-          "current": 94.5,
-          "previous": 38.5,
-          "change": 56.0,
-          "tier": "elite"
-        },
-        {
-          "company": "Dream Security",
-          "current": 93.5,
-          "previous": 38.0,
-          "change": 55.5,
-          "tier": "elite"
-        },
-        {
-          "company": "Polar Semiconductor",
-          "current": 88.0,
-          "previous": 32.5,
-          "change": 55.5,
-          "tier": "exceptional"
-        },
-        {
-          "company": "Mindgrove Technologies",
-          "current": 86.5,
-          "previous": 31.5,
-          "change": 55.0,
-          "tier": "exceptional"
-        },
-        {
-          "company": "Infleqtion",
-          "current": 91.5,
-          "previous": 37.0,
-          "change": 54.5,
-          "tier": "elite"
-        },
-        {
-          "company": "AIR",
-          "current": 86.0,
-          "previous": 31.5,
-          "change": 54.5,
-          "tier": "exceptional"
-        },
-        {
-          "company": "Stratolaunch",
-          "current": 88.5,
-          "previous": 35.5,
-          "change": 53.0,
-          "tier": "exceptional"
-        },
-        {
-          "company": "Baykar",
-          "current": 91.0,
-          "previous": 38.5,
-          "change": 52.5,
-          "tier": "elite"
-        },
-        {
-          "company": "Pacific Fusion",
-          "current": 84.0,
-          "previous": 31.5,
-          "change": 52.5,
-          "tier": "exceptional"
+          "company": "Rebellions",
+          "amount": "$2.2B",
+          "round": "Funding Round",
+          "investor": "Undisclosed",
+          "date": "2026-05"
         }
       ]
     },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 23,
+      "count": 27,
       "items": [
         {
           "company": "Virgin Galactic",
           "form": "8-K",
-          "description": "spce-20260424.htm",
-          "date": "2026-04-24",
+          "description": "spce-20260430.htm",
+          "date": "2026-04-30",
           "isIPO": false
         },
         {
-          "company": "Virgin Galactic",
+          "company": "IonQ",
           "form": "8-K",
-          "description": "spce-20260421.htm",
-          "date": "2026-04-21",
+          "description": "d233784d8k.htm",
+          "date": "2026-04-30",
           "isIPO": false
         },
         {
-          "company": "Rigetti Computing",
+          "company": "D-Wave Quantum",
           "form": "8-K",
-          "description": "tm2612288d1_8k.htm",
-          "date": "2026-04-21",
+          "description": "qbts-20260429.htm",
+          "date": "2026-04-29",
           "isIPO": false
         },
         {
-          "company": "Joby Aviation",
+          "company": "Recursion Pharmaceuticals",
           "form": "8-K",
-          "description": "d207058d8k.htm",
-          "date": "2026-04-24",
+          "description": "rxrx-20260428.htm",
+          "date": "2026-04-30",
           "isIPO": false
         },
         {
-          "company": "Satellogic",
+          "company": "LanzaTech",
           "form": "8-K",
-          "description": "ea0287153-8k_zoomcar.htm",
-          "date": "2026-04-21",
+          "description": "tlsi-20260424.htm",
+          "date": "2026-04-29",
           "isIPO": false
         },
         {
-          "company": "Palantir Technologies",
-          "form": "DEF 14A",
-          "description": "pltr-20260423.htm",
-          "date": "2026-04-24",
+          "company": "Rivian",
+          "form": "8-K",
+          "description": "tm2613102d1_8k.htm",
+          "date": "2026-04-30",
           "isIPO": false
         },
         {
-          "company": "Virgin Galactic",
-          "form": "DEF 14A",
-          "description": "spce-20260421.htm",
-          "date": "2026-04-21",
+          "company": "Rivian",
+          "form": "8-K",
+          "description": "rivn-20260430.htm",
+          "date": "2026-04-30",
           "isIPO": false
         },
         {
-          "company": "NuScale Power",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1776940981.xml",
-          "date": "2026-04-23",
+          "company": "Rivian",
+          "form": "10-Q",
+          "description": "rivn-20260331.htm",
+          "date": "2026-04-30",
           "isIPO": false
         }
       ]
@@ -149,268 +93,264 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 1,
+      "count": 4,
       "items": [
         {
           "title": "SIP TO128 1ST QUARTER HARDWARE BUY",
           "agency": "",
           "value": "",
           "date": "2026-08-06"
+        },
+        {
+          "title": "THIS ORDER PROVIDES ENFORCEMENT REMOVAL OPERATIONS MODERNIZATION AND OPERATIONAL CAPABILITY FOR THE ENFORCEMENT CASE MAN",
+          "agency": "",
+          "value": "",
+          "date": "2026-05-05"
+        },
+        {
+          "title": "BLANKET PURCHASE AGREEMENT CALL ORDER SKYDIO, LNC",
+          "agency": "",
+          "value": "",
+          "date": "2026-04-30"
+        },
+        {
+          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER",
+          "agency": "",
+          "value": "",
+          "date": "2026-04-30"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 39,
+      "count": 37,
       "items": [
         {
-          "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to U.S. Army Corps of Engin",
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
+          "agencies": [
+            "Postal Service"
+          ],
+          "significant": false,
+          "date": "2026-04-30"
+        },
+        {
+          "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request for Information",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "Food and Drug Administration"
+          ],
+          "significant": false,
+          "date": "2026-04-29"
+        },
+        {
+          "title": "Request for Information",
+          "type": "Notice",
+          "agencies": [
+            "National Science Foundation"
+          ],
+          "significant": false,
+          "date": "2026-04-28"
+        },
+        {
+          "title": "Draft Supplemental Environmental Assessment for Fisheries Research Conducted and Funded by the Southwest Fisheries Scien",
           "type": "Notice",
           "agencies": [
             "Commerce Department",
             "National Oceanic and Atmospheric Administration"
           ],
           "significant": false,
-          "date": "2026-04-27"
+          "date": "2026-05-01"
         },
         {
-          "title": "Endangered and Threatened Wildlife and Plants; Designation of Critical Habitat for the Rayed Bean, Sheepnose, Snuffbox, ",
-          "type": "Rule",
-          "agencies": [
-            "Interior Department",
-            "Fish and Wildlife Service"
-          ],
-          "significant": false,
-          "date": "2026-04-27"
-        },
-        {
-          "title": "Energy Conservation Program: Notification of Petition for Rulemaking",
+          "title": "Establishment of Prohibited Area P-75; New York, NY",
           "type": "Proposed Rule",
           "agencies": [
-            "Energy Department"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-04-27"
+          "date": "2026-04-30"
         },
         {
-          "title": "Administrative Rulemaking, Guidance, and Enforcement Procedures",
-          "type": "Rule",
-          "agencies": [
-            "Transportation Department",
-            "Transportation Department",
-            "Pipeline and Hazardous Materials Safety Administration"
-          ],
-          "significant": false,
-          "date": "2026-04-27"
-        },
-        {
-          "title": "Eunice Kennedy Shriver National Institute of Child Health & Human Development; Notice of Meeting",
+          "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Military Readiness Activities in the Mariana Is",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "National Institutes of Health"
+            "Commerce Department",
+            "National Oceanic and Atmospheric Administration"
           ],
           "significant": false,
-          "date": "2026-04-27"
-        },
-        {
-          "title": "National Institute on Deafness and Other Communication Disorders; Notice of Meeting",
-          "type": "Notice",
-          "agencies": [
-            "Health and Human Services Department",
-            "National Institutes of Health"
-          ],
-          "significant": false,
-          "date": "2026-04-27"
-        }
-      ]
-    },
-    {
-      "title": "Insider Trading",
-      "icon": "\ud83d\udd0d",
-      "count": 2,
-      "items": [
-        {
-          "company": "Archer Aviation",
-          "insider": "Lentell Eric",
-          "transaction_type": "Grant",
-          "shares": 78659,
-          "value": 0.0,
-          "date": "2026-04-22"
-        },
-        {
-          "company": "Archer Aviation",
-          "insider": "Muniz Thomas Paul",
-          "transaction_type": "Grant",
-          "shares": 78659,
-          "value": 0.0,
-          "date": "2026-04-22"
+          "date": "2026-04-28"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 25,
+      "count": 18,
       "items": [
         {
-          "title": "Aleph Alpha to be acquired by Cohere",
-          "source": "Tech.eu",
-          "company": "Cohere",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "Verda raises $117M to scale AI cloud infrastructure built on clean Nordic power",
-          "source": "Tech.eu",
-          "company": "Scale AI",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Atmos Space Cargo raises $30 million for reentry missions",
-          "source": "SpaceNews",
-          "company": "Atmos Space Cargo",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Fervo Energy unveils new power plant details in IPO filing",
-          "source": "Canary Media",
-          "company": "Fervo Energy",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "SpaceX Launch Rate in 2026 After Reaching Orbital Operations, Booster and Starship Recovery",
+          "title": "Rule Change so SpaceX Should Join Sp500 6 Months After IPO",
           "source": "Next Big Future",
           "company": "SpaceX",
-          "impact": "low",
+          "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+          "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
           "source": "TechCrunch",
           "company": "Anthropic",
-          "impact": "low",
-          "type": "milestone"
+          "impact": "high",
+          "type": "funding"
         },
         {
-          "title": "OpenAI CEO apologizes to Tumbler Ridge community",
-          "source": "TechCrunch",
-          "company": "OpenAI",
+          "title": "SpaceX Starship Flight 12 May 12",
+          "source": "Next Big Future",
+          "company": "SpaceX",
           "impact": "low",
           "type": "hire"
         },
         {
-          "title": "SpaceX XAI 2027",
-          "source": "Next Big Future",
-          "company": "SpaceX",
+          "title": "Bristol Myers\u2019 pivotal year; Should AI be swinging bigger?; and more",
+          "source": "Endpoints News",
+          "company": "Pivotal",
           "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
+          "source": "CleanTechnica",
+          "company": "Humanoid",
+          "impact": "medium",
+          "type": "hire"
+        },
+        {
+          "title": "Tesla Got $573 Million from SpaceX and xAI in 2025",
+          "source": "CleanTechnica",
+          "company": "SpaceX",
+          "impact": "medium",
           "type": "ipo"
+        },
+        {
+          "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+          "source": "TechCrunch",
+          "company": "Humanoid",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI ",
+          "source": "MIT Tech Review",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "hire"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 50,
+      "count": 52,
       "items": [
         {
-          "title": "Amateur armed with ChatGPT solves an Erd\u0151s problem",
-          "score": 759,
-          "comments": 543,
+          "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+          "score": 1128,
+          "comments": 563,
           "companies": [
-            "OpenAI"
+            "Photonic Inc"
           ],
-          "url": "https://news.ycombinator.com/item?id=47903126"
+          "url": "https://news.ycombinator.com/item?id=47989883"
         },
         {
-          "title": "Tell HN: An app is silently installing itself on my iPhone every day",
-          "score": 549,
-          "comments": 183,
+          "title": "Ti-84 Evo",
+          "score": 579,
+          "comments": 469,
           "companies": [
-            "Matic Robotics"
+            "Synthesis",
+            "Alpha School"
           ],
-          "url": "https://news.ycombinator.com/item?id=47906253"
+          "url": "https://news.ycombinator.com/item?id=47979583"
         },
         {
-          "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
-          "score": 402,
-          "comments": 274,
+          "title": "Show HN: WhatCable, a tiny menu bar app for inspecting USB-C cables",
+          "score": 537,
+          "comments": 161,
           "companies": [
-            "Mara"
+            "Tenstorrent",
+            "Xanadu Quantum Technologies",
+            "Built Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=47914350"
+          "url": "https://news.ycombinator.com/item?id=47972511"
         },
         {
-          "title": "EU Age Control: The trojan horse for digital IDs",
-          "score": 342,
-          "comments": 198,
+          "title": "Dav2d",
+          "score": 456,
+          "comments": 123,
           "companies": [
-            "Agility Robotics"
+            "Runway"
           ],
-          "url": "https://news.ycombinator.com/item?id=47907130"
+          "url": "https://news.ycombinator.com/item?id=47988504"
         },
         {
-          "title": "SWE-bench Verified no longer measures frontier coding capabilities",
-          "score": 313,
-          "comments": 170,
+          "title": "City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo",
+          "score": 455,
+          "comments": 122,
           "companies": [
-            "OpenAI"
+            "Attio",
+            "Flock Safety"
           ],
-          "url": "https://news.ycombinator.com/item?id=47910388"
+          "url": "https://news.ycombinator.com/item?id=47978370"
         },
         {
-          "title": "Fast16: High-precision software sabotage 5 years before Stuxnet",
-          "score": 272,
-          "comments": 55,
+          "title": "New research suggests people can communicate and practice skills while dreaming",
+          "score": 445,
+          "comments": 260,
           "companies": [
-            "Atomic Industries",
-            "Reveal Technology"
+            "Sakana AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=47913855"
+          "url": "https://news.ycombinator.com/item?id=47977748"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 109,
+      "count": 112,
       "items": [
         {
-          "title": "SCHMID Group N.V. Provides Q1 2026 Business Update and Balance-sheet Strengthening",
+          "title": "Golden Tempo Wins the 152nd Running of the Kentucky Derby Presented by Woodford Reserve",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Fulcrum Therapeutics Appoints Josh Lehrer to its Board of Directors",
+          "title": "Alaris Provides Further Clarification to Unitholder Meeting Matters",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Form 8.5 (EPT/RI)- Gamma Communications Plc",
+          "title": "Sigenergy Releases 2025 Environmental, Social, and Governance (ESG) Report",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Man Group PLC : Form 8.3 - A consortium comprising LondonMetric Property plc and Schroder Real Estate Investment Trust L",
+          "title": "PROACTIS SA - Press Release (nomination R Archer and P Dennant)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Eton Pharmaceuticals Announces Initiation of Clinical Study for Product Candidate ET-700",
+          "title": "PROACTIS SA - Communiqu\u00e9 de presse (d\u00e9signation R. Archer et P. Dennant)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Notice of Calling the Annual General Meeting of AS Pro Kapital Grupp Shareholders",
+          "title": "Resultados dos Relat\u00f3rios da Mohawk Industries do 1\u00ba Trimestre de 2026",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-04-27-1ca3fb6dbcf8"
+  "brief_id": "brief-2026-05-03-f44292ded428"
 }

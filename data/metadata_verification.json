@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-27T03:50:03Z",
-  "company_count": 869,
+  "generated_at": "2026-05-03T09:19:21Z",
+  "company_count": 872,
   "checks": {
     "acquisition_language": [
       {
@@ -28,6 +28,13 @@
     "defunct_language": [],
     "ipo_mismatches": [
       {
+        "name": "Palantir",
+        "current_stage": "Series A",
+        "expected_stage": "Public",
+        "ticker": "NYSE: PLTR",
+        "action": "Update fundingStage to \"Public\" and set ticker to \"NYSE: PLTR\""
+      },
+      {
         "name": "Intuitive Machines",
         "current_stage": "SPAC",
         "expected_stage": "Public",
@@ -36,6 +43,11 @@
       }
     ],
     "spac_staleness": [
+      {
+        "name": "Anduril Industries",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
       {
         "name": "Intuitive Machines",
         "current_stage": "SPAC",
@@ -48,6 +60,11 @@
       },
       {
         "name": "Rebellion Defense",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "True Anomaly",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       },
@@ -69,29 +86,9 @@
     ],
     "missing_websites": [
       {
-        "name": "Anduril Industries",
-        "sector": "Defense & Security",
-        "founder": "Palmer Luckey, Brian Schimpf, Trae Stephens, Matt Grimm, Joe Chen"
-      },
-      {
-        "name": "Shield AI",
-        "sector": "Defense & Security",
-        "founder": "Brandon Tseng, Ryan Tseng, Andrew Reiter"
-      },
-      {
         "name": "Epirus",
         "sector": "Defense & Security",
         "founder": "Andy Lowery"
-      },
-      {
-        "name": "Saronic",
-        "sector": "Defense & Security",
-        "founder": "Dino Mavrookas"
-      },
-      {
-        "name": "Neros",
-        "sector": "Defense & Security",
-        "founder": "Soren Monroe-Anderson, Olaf Hichwa"
       },
       {
         "name": "Chaos Industries",
@@ -99,54 +96,9 @@
         "founder": "John Tenet, Bo Marr"
       },
       {
-        "name": "Castelion",
-        "sector": "Defense & Security",
-        "founder": "Bryon Hargis"
-      },
-      {
         "name": "CX2 Industries",
         "sector": "Defense & Security",
         "founder": "Nathan Mintz, Porter Smith"
-      },
-      {
-        "name": "Picogrid",
-        "sector": "Defense & Security",
-        "founder": "Zane Mountcastle"
-      },
-      {
-        "name": "Skydio",
-        "sector": "Defense & Security",
-        "founder": "Adam Bry, Abraham Bachrach, Matt Donahoe"
-      },
-      {
-        "name": "Allen Control Systems",
-        "sector": "Defense & Security",
-        "founder": "Mike Wior, Luke Allen, Steven Simoni"
-      },
-      {
-        "name": "Mach Industries",
-        "sector": "Defense & Security",
-        "founder": "Ethan Thornton"
-      },
-      {
-        "name": "Andrenam",
-        "sector": "Defense & Security",
-        "founder": "Matej Cernosek, Alex Chu"
-      },
-      {
-        "name": "Vannevar Labs",
-        "sector": "Defense & Security",
-        "founder": "Brett Granberg, Nini Hamrick"
-      },
-      {
-        "name": "Blue Water Autonomy",
-        "sector": "Defense & Security",
-        "founder": "Rylan Hamilton, Austin Gray, Scott N. Miller"
-      },
-      {
-        "name": "Valar Atomics",
-        "sector": "Nuclear Energy",
-        "founder": "Isaiah Taylor"
       },
       {
         "name": "Radiant",
@@ -154,29 +106,9 @@
         "founder": "Doug Bernauer"
       },
       {
-        "name": "Aalo Atomics",
-        "sector": "Nuclear Energy",
-        "founder": "Matt Loszak"
-      },
-      {
         "name": "Antares",
         "sector": "Nuclear Energy",
         "founder": "Jordan Bramble, Julia DeWahl"
-      },
-      {
-        "name": "General Matter",
-        "sector": "Nuclear Energy",
-        "founder": "Scott Nolan, Lee Robinson"
-      },
-      {
-        "name": "Kairos Power",
-        "sector": "Nuclear Energy",
-        "founder": "Mike Laufer, Edward Blandford, Per Peterson"
-      },
-      {
-        "name": "X-Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Kam Ghaffarian"
       },
       {
         "name": "Oklo",
@@ -184,129 +116,9 @@
         "founder": "Jacob DeWitte, Caroline Cochran"
       },
       {
-        "name": "Last Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Bret Kugelmass"
-      },
-      {
-        "name": "Deep Fission",
-        "sector": "Nuclear Energy",
-        "founder": "Elizabeth Muller, Richard Muller"
-      },
-      {
-        "name": "TerraPower",
-        "sector": "Nuclear Energy",
-        "founder": "Bill Gates"
-      },
-      {
-        "name": "Standard Nuclear",
-        "sector": "Nuclear Energy",
-        "founder": "Kurt Terrani"
-      },
-      {
-        "name": "The Nuclear Company",
-        "sector": "Nuclear Energy",
-        "founder": "Jonathan Webb, Patrick Maloney, Kiran Bhatraju"
-      },
-      {
-        "name": "Exodys Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Carl Perez"
-      },
-      {
-        "name": "SpaceX",
-        "sector": "Space & Aerospace",
-        "founder": "Elon Musk"
-      },
-      {
-        "name": "Rocket Lab",
-        "sector": "Space & Aerospace",
-        "founder": "Peter Beck"
-      },
-      {
-        "name": "Apex Space",
-        "sector": "Space & Aerospace",
-        "founder": "Ian Cinnamon, Max Benassi"
-      },
-      {
-        "name": "Varda Space Industries",
-        "sector": "Space & Aerospace",
-        "founder": "Will Bruey, Delian Asparouhov"
-      },
-      {
-        "name": "AstroForge",
-        "sector": "Space & Aerospace",
-        "founder": "Matt Gialich, Jose Acain"
-      },
-      {
-        "name": "Reflect Orbital",
-        "sector": "Space & Aerospace",
-        "founder": "Ben Nowack, Tristan Semmelhack"
-      },
-      {
-        "name": "Relativity Space",
-        "sector": "Space & Aerospace",
-        "founder": "Tim Ellis, Jordan Noone"
-      },
-      {
-        "name": "Impulse Space",
-        "sector": "Space & Aerospace",
-        "founder": "Tom Mueller"
-      },
-      {
-        "name": "K2 Space",
-        "sector": "Space & Aerospace",
-        "founder": "Karan Kunjur, Neel Kunjur"
-      },
-      {
-        "name": "Vast",
-        "sector": "Space & Aerospace",
-        "founder": "Max Haot, Jed McCaleb"
-      },
-      {
-        "name": "Northwood Space",
-        "sector": "Space & Aerospace",
-        "founder": "Bridgit Mendler, Griffin Cleverly"
-      },
-      {
-        "name": "Astranis",
-        "sector": "Space & Aerospace",
-        "founder": "John Gedmark"
-      },
-      {
-        "name": "Viridian Space",
-        "sector": "Space & Aerospace",
-        "founder": "Rostislav Spektor, Matthew Feldman"
-      },
-      {
         "name": "Observable Space",
         "sector": "Space & Aerospace",
         "founder": "Dan Roelker, Rick Hedrick"
-      },
-      {
-        "name": "Firefly Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Tom Markusic"
-      },
-      {
-        "name": "Intuitive Machines",
-        "sector": "Space & Aerospace",
-        "founder": "Steve Altemus, Kam Ghaffarian, Tim Crain"
-      },
-      {
-        "name": "Boom Supersonic",
-        "sector": "Supersonic & Hypersonic",
-        "founder": "Blake Scholl, Joe Wilding, Josh Krall"
-      },
-      {
-        "name": "Hermeus",
-        "sector": "Supersonic & Hypersonic",
-        "founder": "AJ Piplica"
-      },
-      {
-        "name": "Astro Mechanica",
-        "sector": "Supersonic & Hypersonic",
-        "founder": "Ian Brooke"
       },
       {
         "name": "Venus Aerospace",
@@ -319,36 +131,6 @@
         "founder": "Karol Hausman, Sergey Levine, Chelsea Finn, Brian Ichter"
       },
       {
-        "name": "Waymo",
-        "sector": "AI & Software",
-        "founder": "Sebastian Thrun, Chris Urmson, Anthony Levandowski"
-      },
-      {
-        "name": "Figure AI",
-        "sector": "AI & Software",
-        "founder": "Brett Adcock"
-      },
-      {
-        "name": "Neuralink",
-        "sector": "AI & Software",
-        "founder": "Elon Musk"
-      },
-      {
-        "name": "Field AI",
-        "sector": "AI & Software",
-        "founder": "Ali Agha"
-      },
-      {
-        "name": "Nominal",
-        "sector": "AI & Software",
-        "founder": "Cameron McCord, Bryce Strauss"
-      },
-      {
-        "name": "Palantir",
-        "sector": "AI & Software",
-        "founder": "Peter Thiel, Alex Karp, Stephen Cohen, Joe Lonsdale, Nathan Gettings"
-      },
-      {
         "name": "Cognition",
         "sector": "AI & Software",
         "founder": "Scott Wu, Steven Hao, Walden Yan"
@@ -359,34 +141,9 @@
         "founder": "Chris Power"
       },
       {
-        "name": "Machina Labs",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Ed Mehr"
-      },
-      {
         "name": "DIRAC",
         "sector": "Robotics & Manufacturing",
         "founder": "Fil Aronshtein"
-      },
-      {
-        "name": "Formic",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Saman Farid"
-      },
-      {
-        "name": "Rangeview",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Cameron Schiller, Aeden Gasser-Brennan"
-      },
-      {
-        "name": "Senra Systems",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Jordan Black, Ben Shanahan"
-      },
-      {
-        "name": "Salient Motion",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Vishaal Mali"
       },
       {
         "name": "Divergent",
@@ -394,69 +151,9 @@
         "founder": "Lukas Czinger, Kevin Czinger"
       },
       {
-        "name": "Amca",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Jai Malik, Eli Giovanetti"
-      },
-      {
-        "name": "Altos Labs",
-        "sector": "Biotech & Health",
-        "founder": "Hal Barron, Rick Klausner, Hans Bishop"
-      },
-      {
         "name": "Retro Biosciences",
         "sector": "Biotech & Health",
         "founder": "Joe Betts-LaCroix"
-      },
-      {
-        "name": "New Limit",
-        "sector": "Biotech & Health",
-        "founder": "Brian Armstrong, Blake Byers, Jacob Kimmel"
-      },
-      {
-        "name": "Atom Bodies",
-        "sector": "Biotech & Health",
-        "founder": "Tyler Hayes, Doug Satzger, Eric Monsef"
-      },
-      {
-        "name": "Mammoth Biosciences",
-        "sector": "Biotech & Health",
-        "founder": "Trevor Martin, Ashley Tehranchi, Janice Chen, Lucas Harrington, Jennifer Doudna"
-      },
-      {
-        "name": "Nucleus Genomics",
-        "sector": "Biotech & Health",
-        "founder": "Kian Sadeghi"
-      },
-      {
-        "name": "Orchid",
-        "sector": "Biotech & Health",
-        "founder": "Noor Siddiqui"
-      },
-      {
-        "name": "Herasight",
-        "sector": "Biotech & Health",
-        "founder": "Michael Christensen"
-      },
-      {
-        "name": "Terraform Industries",
-        "sector": "Climate & Energy",
-        "founder": "Casey Handmer"
-      },
-      {
-        "name": "Commonwealth Fusion Systems",
-        "sector": "Climate & Energy",
-        "founder": "Bob Mumgaard, Dennis Whyte, Martin Greenwald, Zach Hartwig, Dan Brunner, Brandon Sorbom"
-      },
-      {
-        "name": "Fervo Energy",
-        "sector": "Climate & Energy",
-        "founder": "Tim Latimer, Jack Norbeck"
-      },
-      {
-        "name": "Xcimer Energy",
-        "sector": "Climate & Energy",
-        "founder": "Conner Galloway, Alexander Valys"
       },
       {
         "name": "Helion",
@@ -489,29 +186,9 @@
         "founder": "Zach Dell, Justin Lopas"
       },
       {
-        "name": "Karman Industries",
-        "sector": "Climate & Energy",
-        "founder": "David Tearse, Chiranjeev Kalra"
-      },
-      {
         "name": "Claros",
         "sector": "Climate & Energy",
         "founder": "Daniel Kultran, Grant Verstandig"
-      },
-      {
-        "name": "Zipline",
-        "sector": "Drones & Autonomous",
-        "founder": "Keller Rinaudo Cliffton, Keenan Wyrobek, Will Hetzler"
-      },
-      {
-        "name": "Joby Aviation",
-        "sector": "Drones & Autonomous",
-        "founder": "JoeBen Bevirt"
-      },
-      {
-        "name": "Rainmaker",
-        "sector": "Drones & Autonomous",
-        "founder": "Augustus Doricko"
       },
       {
         "name": "Thoron",
@@ -519,24 +196,9 @@
         "founder": "Thayne Kollmorgen"
       },
       {
-        "name": "Airship Industries",
-        "sector": "Drones & Autonomous",
-        "founder": "James Coutre"
-      },
-      {
-        "name": "Cerebras",
-        "sector": "Chips & Semiconductors",
-        "founder": "Andrew Feldman"
-      },
-      {
         "name": "Etched",
         "sector": "Chips & Semiconductors",
         "founder": "Gavin Uberti, Chris Zhu, Robert Wachen"
-      },
-      {
-        "name": "Extropic",
-        "sector": "Chips & Semiconductors",
-        "founder": "Guillaume Verdon"
       },
       {
         "name": "Lightmatter",
@@ -544,49 +206,14 @@
         "founder": "Nicholas Harris, Darius Bunandar, Thomas Graham"
       },
       {
-        "name": "Substrate",
-        "sector": "Chips & Semiconductors",
-        "founder": "James Proud, Oliver Proud"
-      },
-      {
-        "name": "Lab 91",
-        "sector": "Chips & Semiconductors",
-        "founder": "Anand Chamarthy"
-      },
-      {
-        "name": "Cuby Technologies",
-        "sector": "Housing & Construction",
-        "founder": "Aleks Gampel, Aleh Kandrashou"
-      },
-      {
         "name": "Cover",
         "sector": "Housing & Construction",
         "founder": "Alexis Rivas"
       },
       {
-        "name": "The Boring Company",
-        "sector": "Transportation",
-        "founder": "Elon Musk"
-      },
-      {
-        "name": "Pipedream",
-        "sector": "Transportation",
-        "founder": "Garrett McCurrach, Canon Reeves"
-      },
-      {
         "name": "Navier",
         "sector": "Transportation",
         "founder": "Sampriti Bhattacharyya"
-      },
-      {
-        "name": "Arc Boats",
-        "sector": "Transportation",
-        "founder": "Mitch Lee"
-      },
-      {
-        "name": "Matic Robotics",
-        "sector": "Consumer Tech",
-        "founder": "Navneet Dalal, Mehul Nariyawala"
       },
       {
         "name": "Shinkei",
@@ -599,44 +226,9 @@
         "founder": "Jonathan Criss, Andrew Harner"
       },
       {
-        "name": "Forterra",
-        "sector": "Defense & Security",
-        "founder": "Alberto Lacaze"
-      },
-      {
-        "name": "Auterion",
-        "sector": "Defense & Security",
-        "founder": "Lorenz Meier"
-      },
-      {
-        "name": "Firehawk Aerospace",
-        "sector": "Defense & Security",
-        "founder": "Will Edwards"
-      },
-      {
-        "name": "Scale AI",
-        "sector": "Defense & Security",
-        "founder": "Alexandr Wang, Lucy Guo"
-      },
-      {
         "name": "Reveal Technology",
         "sector": "Defense & Security",
         "founder": "Garrett Smith"
-      },
-      {
-        "name": "Galvanick",
-        "sector": "Defense & Security",
-        "founder": "Joshua Steinman, Brandon Park, Feliks Pleszczynski"
-      },
-      {
-        "name": "SkySafe",
-        "sector": "Defense & Security",
-        "founder": "Grant Jordan"
-      },
-      {
-        "name": "Distributed Spectrum",
-        "sector": "Defense & Security",
-        "founder": "Alex Wulff, Ben Harpe, Isaac Struhl"
       },
       {
         "name": "Aurelius Systems",
@@ -649,24 +241,9 @@
         "founder": "Steve Turner"
       },
       {
-        "name": "Deterrence",
-        "sector": "Defense & Security",
-        "founder": "Dhruva Rajendra, Brian Jones, Henry Olgers"
-      },
-      {
         "name": "Deepnight",
         "sector": "Defense & Security",
         "founder": "Lucas Young, Thomas Li"
-      },
-      {
-        "name": "Zeromark",
-        "sector": "Defense & Security",
-        "founder": "Joel Anderson"
-      },
-      {
-        "name": "Rune Technologies",
-        "sector": "Defense & Security",
-        "founder": "David Tuttle, Peter Goldsborough"
       },
       {
         "name": "Biofire",
@@ -679,99 +256,14 @@
         "founder": "Dan Magy"
       },
       {
-        "name": "Aalyria",
-        "sector": "Space & Aerospace",
-        "founder": "Chris Taylor"
-      },
-      {
-        "name": "AnySignal",
-        "sector": "Space & Aerospace",
-        "founder": "John Malsbury, Ricky Medina, Jeffrey R Osborne"
-      },
-      {
-        "name": "Turion Space",
-        "sector": "Space & Aerospace",
-        "founder": "Ryan Westerdahl"
-      },
-      {
         "name": "Umbra",
         "sector": "Space & Aerospace",
         "founder": "David Langan, Gabe Dominocielo"
       },
       {
-        "name": "Albedo",
-        "sector": "Space & Aerospace",
-        "founder": "Topher Haddad, AJ Lasater"
-      },
-      {
-        "name": "Blue Origin",
-        "sector": "Space & Aerospace",
-        "founder": "Jeff Bezos"
-      },
-      {
-        "name": "Axiom Space",
-        "sector": "Space & Aerospace",
-        "founder": "Michael Suffredini"
-      },
-      {
-        "name": "Astrolab",
-        "sector": "Space & Aerospace",
-        "founder": "Jaret Matthews"
-      },
-      {
-        "name": "Array Labs",
-        "sector": "Space & Aerospace",
-        "founder": "Andrew Peterson, Jose Isaac Robledo"
-      },
-      {
-        "name": "Armada",
-        "sector": "Space & Aerospace",
-        "founder": "Dan Wright, Jon Runyan"
-      },
-      {
-        "name": "Aetherflux",
-        "sector": "Space & Aerospace",
-        "founder": "Baiju Bhatt"
-      },
-      {
-        "name": "Applied Intuition",
-        "sector": "AI & Software",
-        "founder": "Qasar Younis, Peter Ludwig"
-      },
-      {
-        "name": "Anthropic",
-        "sector": "AI & Software",
-        "founder": "Dario Amodei, Daniela Amodei"
-      },
-      {
-        "name": "Anysphere",
-        "sector": "AI & Software",
-        "founder": "Michael Truell, Sualeh Asif"
-      },
-      {
-        "name": "Air Space Intelligence",
-        "sector": "AI & Software",
-        "founder": "Phillip Buckendorf, Kris Dorosz, Lucas Kukielka"
-      },
-      {
-        "name": "Atmo",
-        "sector": "AI & Software",
-        "founder": "Alex Levy, Johan Mathe"
-      },
-      {
         "name": "Beacon AI",
         "sector": "AI & Software",
         "founder": "Matt Cox, Avinash Nair, Andrew Musto"
-      },
-      {
-        "name": "Agility Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Damion Shelton, Jonathan Hurst"
-      },
-      {
-        "name": "Apptronik",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Nick Paine, Jeff Cardenas"
       },
       {
         "name": "Bright Machines",
@@ -784,21 +276,6 @@
         "founder": "Aaron Slodov, Lou Young Jr"
       },
       {
-        "name": "Re:Build Manufacturing",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Miles Arnone"
-      },
-      {
-        "name": "AMP Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Matanya Horowitz"
-      },
-      {
-        "name": "Diode",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Davide Asnaghi, Lenny Khazan"
-      },
-      {
         "name": "Quilter",
         "sector": "Robotics & Manufacturing",
         "founder": "Sergiy Nesterenko"
@@ -809,59 +286,14 @@
         "founder": "Max Hodak"
       },
       {
-        "name": "Andromeda Surgical",
-        "sector": "Biotech & Health",
-        "founder": "Nick Damiano, Kartik Tiwari"
-      },
-      {
-        "name": "Solugen",
-        "sector": "Climate & Energy",
-        "founder": "Gaurab Chakrabarti, Sean Hunt"
-      },
-      {
-        "name": "Exowatt",
-        "sector": "Climate & Energy",
-        "founder": "Hannan Parvizian, Jack Abraham"
-      },
-      {
-        "name": "Antora Energy",
-        "sector": "Climate & Energy",
-        "founder": "Andrew Ponec, Justin Briggs"
-      },
-      {
-        "name": "Form Energy",
-        "sector": "Climate & Energy",
-        "founder": "Mateo Jaramillo"
-      },
-      {
-        "name": "Brimstone",
-        "sector": "Climate & Energy",
-        "founder": "Cody Finke"
-      },
-      {
-        "name": "Boston Metal",
-        "sector": "Climate & Energy",
-        "founder": "Tadeu Carneiro"
-      },
-      {
         "name": "Avalanche Energy",
         "sector": "Climate & Energy",
         "founder": "Robin Langtry"
       },
       {
-        "name": "Bedrock Energy",
-        "sector": "Climate & Energy",
-        "founder": "Joselyn Lai, Silviu Livescu"
-      },
-      {
         "name": "Arbor Energy",
         "sector": "Climate & Energy",
         "founder": "Brad Hartwig"
-      },
-      {
-        "name": "Endurance Energy",
-        "sector": "Climate & Energy",
-        "founder": "Andrew Redd"
       },
       {
         "name": "Aepnus Technology",
@@ -874,64 +306,9 @@
         "founder": "Bobby Healy"
       },
       {
-        "name": "Asylon Robotics",
-        "sector": "Drones & Autonomous",
-        "founder": "Damon Henry, Adam Mohamed, Brent McLaughlin"
-      },
-      {
-        "name": "Atom Computing",
-        "sector": "Chips & Semiconductors",
-        "founder": "Ben Bloom, Jonathan King"
-      },
-      {
-        "name": "Atomic Semi",
-        "sector": "Chips & Semiconductors",
-        "founder": "Sam Zeloof, Jim Keller"
-      },
-      {
-        "name": "Atomic Machines",
-        "sector": "Chips & Semiconductors",
-        "founder": "Jeff Holden, Prashant Patil"
-      },
-      {
-        "name": "Bedrock Ocean",
-        "sector": "Ocean & Maritime",
-        "founder": "Anthony DiMare, Charles Chiau"
-      },
-      {
-        "name": "Clippership",
-        "sector": "Ocean & Maritime",
-        "founder": "Nico Cymbalist, Luca Cymbalist, Kai Matsuka"
-      },
-      {
-        "name": "Amperon",
-        "sector": "Infrastructure & Logistics",
-        "founder": "Sean Kelly"
-      },
-      {
-        "name": "Durin",
-        "sector": "Infrastructure & Logistics",
-        "founder": "Ted Feldmann"
-      },
-      {
-        "name": "Daylight Computer",
-        "sector": "Consumer Tech",
-        "founder": "Anjan Katta"
-      },
-      {
         "name": "Helsing",
         "sector": "Defense & Security",
         "founder": "Gundbert Scherf, Niklas Köhler, Torsten Reil"
-      },
-      {
-        "name": "Saildrone",
-        "sector": "Defense & Security",
-        "founder": "Richard Jenkins"
-      },
-      {
-        "name": "Overland AI",
-        "sector": "Defense & Security",
-        "founder": "Byron Boots, Greg Okopal, Stephanie Bonk"
       },
       {
         "name": "Second Front Systems",
@@ -939,24 +316,9 @@
         "founder": "Peter Dixon, Tyler Sweatt"
       },
       {
-        "name": "Rebellion Defense",
-        "sector": "Defense & Security",
-        "founder": "Oliver Lewis, Chris Lynch"
-      },
-      {
-        "name": "Primer AI",
-        "sector": "Defense & Security",
-        "founder": "Sean Gourley"
-      },
-      {
         "name": "True Anomaly",
         "sector": "Defense & Security",
         "founder": "Even Rogers"
-      },
-      {
-        "name": "Kodiak Robotics",
-        "sector": "Defense & Security",
-        "founder": "Don Burnette, Paz Eshel"
       },
       {
         "name": "Theseus",
@@ -969,79 +331,9 @@
         "founder": "Daniel Kofman"
       },
       {
-        "name": "Flock Safety",
-        "sector": "Defense & Security",
-        "founder": "Garrett Langley"
-      },
-      {
-        "name": "Icarus",
-        "sector": "Defense & Security",
-        "founder": "Henry Kwan"
-      },
-      {
-        "name": "PILGRIM",
-        "sector": "Defense & Security",
-        "founder": "Jake Adler"
-      },
-      {
-        "name": "NuScale Power",
-        "sector": "Nuclear Energy",
-        "founder": "José Reyes, Paul Lorenzini"
-      },
-      {
-        "name": "Zap Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Benj Conway, Uri Shumlak, Brian Nelson"
-      },
-      {
-        "name": "Type One Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Chris Hegna"
-      },
-      {
         "name": "Focused Energy",
         "sector": "Nuclear Energy",
         "founder": "Thomas Forner, Markus Roth"
-      },
-      {
-        "name": "Nano Nuclear Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Jay Jiang Yu"
-      },
-      {
-        "name": "Pacific Fusion",
-        "sector": "Nuclear Energy",
-        "founder": "Eric Lander, Will Regan"
-      },
-      {
-        "name": "Fuse Energy",
-        "sector": "Nuclear Energy",
-        "founder": "JC Btaiche"
-      },
-      {
-        "name": "Stoke Space",
-        "sector": "Space & Aerospace",
-        "founder": "Andy Lapsa, Tom Feldman"
-      },
-      {
-        "name": "Muon Space",
-        "sector": "Space & Aerospace",
-        "founder": "Jonny Dyer"
-      },
-      {
-        "name": "Planet Labs",
-        "sector": "Space & Aerospace",
-        "founder": "Will Marshall, Robbie Schingler, Chris Boshuizen"
-      },
-      {
-        "name": "Astroscale",
-        "sector": "Space & Aerospace",
-        "founder": "Nobu Okada"
-      },
-      {
-        "name": "Outpost Space",
-        "sector": "Space & Aerospace",
-        "founder": "Jason Dunn"
       },
       {
         "name": "Longshot Space",
@@ -1049,84 +341,9 @@
         "founder": "Mike Grace, Nathan Saichek"
       },
       {
-        "name": "Proteus Space",
-        "sector": "Space & Aerospace",
-        "founder": "David Kervin, Andrew Shapiro"
-      },
-      {
-        "name": "Ursa Major Technologies",
-        "sector": "Space & Aerospace",
-        "founder": "Joe Laurienti"
-      },
-      {
-        "name": "AST SpaceMobile",
-        "sector": "Space & Aerospace",
-        "founder": "Abel Avellan"
-      },
-      {
-        "name": "Destinus",
-        "sector": "Defense & Security",
-        "founder": "Mikhail Kokorich"
-      },
-      {
-        "name": "Dynamo Air",
-        "sector": "Space & Aerospace",
-        "founder": "Ethan Alexander"
-      },
-      {
-        "name": "OpenAI",
-        "sector": "AI & Software",
-        "founder": "Sam Altman, Greg Brockman, Ilya Sutskever"
-      },
-      {
-        "name": "Mistral AI",
-        "sector": "AI & Software",
-        "founder": "Arthur Mensch, Guillaume Lample, Timothée Lacroix"
-      },
-      {
-        "name": "Groq",
-        "sector": "AI & Software",
-        "founder": "Jonathan Ross"
-      },
-      {
-        "name": "Skild AI",
-        "sector": "AI & Software",
-        "founder": "Deepak Pathak, Abhinav Gupta"
-      },
-      {
-        "name": "Crusoe Energy",
-        "sector": "AI & Software",
-        "founder": "Chase Lochmiller, Cully Cavness"
-      },
-      {
-        "name": "ElevenLabs",
-        "sector": "AI & Software",
-        "founder": "Piotr Dabkowski, Mati Staniszewski"
-      },
-      {
-        "name": "Hippocratic AI",
-        "sector": "AI & Software",
-        "founder": "Munjal Shah"
-      },
-      {
-        "name": "Gecko Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Jake Loosararian, Troy Nicol"
-      },
-      {
         "name": "Terranova",
         "sector": "Robotics & Manufacturing",
         "founder": "Laurence Allen"
-      },
-      {
-        "name": "Carbon Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Paul Mikesell"
-      },
-      {
-        "name": "Terran Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Zach Dwiel, Daniel Weddle"
       },
       {
         "name": "Recursion Pharmaceuticals",
@@ -1134,39 +351,9 @@
         "founder": "Chris Gibson, Dean Li"
       },
       {
-        "name": "Insitro",
-        "sector": "Biotech & Health",
-        "founder": "Daphne Koller"
-      },
-      {
         "name": "Eikon Therapeutics",
         "sector": "Biotech & Health",
         "founder": "Luke Lavis, Eric Betzig, Robert Tjian, Xavier Darzacq"
-      },
-      {
-        "name": "Tempus AI",
-        "sector": "Biotech & Health",
-        "founder": "Eric Lefkofsky"
-      },
-      {
-        "name": "Colossal Biosciences",
-        "sector": "Biotech & Health",
-        "founder": "Ben Lamm, George Church"
-      },
-      {
-        "name": "Medra",
-        "sector": "Biotech & Health",
-        "founder": "Michelle Lee"
-      },
-      {
-        "name": "Abridge",
-        "sector": "Biotech & Health",
-        "founder": "Shiv Rao"
-      },
-      {
-        "name": "Heirloom Carbon",
-        "sector": "Climate & Energy",
-        "founder": "Shashank Samala"
       },
       {
         "name": "Twelve",
@@ -1174,69 +361,9 @@
         "founder": "Nicholas Flanders, Etosha Cave, Kendra Kuhl"
       },
       {
-        "name": "KoBold Metals",
-        "sector": "Climate & Energy",
-        "founder": "Kurt House, Jeff Satterfield"
-      },
-      {
-        "name": "Sublime Systems",
-        "sector": "Climate & Energy",
-        "founder": "Leah Ellis, Yet-Ming Chiang"
-      },
-      {
-        "name": "Redwood Materials",
-        "sector": "Climate & Energy",
-        "founder": "JB Straubel"
-      },
-      {
-        "name": "Natron Energy",
-        "sector": "Climate & Energy",
-        "founder": "Colin Wessells"
-      },
-      {
         "name": "EnerVenue",
         "sector": "Climate & Energy",
         "founder": "Yi Cui"
-      },
-      {
-        "name": "Charm Industrial",
-        "sector": "Climate & Energy",
-        "founder": "Peter Reinhardt"
-      },
-      {
-        "name": "Impulse Labs",
-        "sector": "Climate & Energy",
-        "founder": "Sam D'Amico"
-      },
-      {
-        "name": "Mariana Minerals",
-        "sector": "Climate & Energy",
-        "founder": "Turner Caldwell"
-      },
-      {
-        "name": "Aurora Innovation",
-        "sector": "Drones & Autonomous",
-        "founder": "Chris Urmson, Sterling Anderson, Drew Bagnell"
-      },
-      {
-        "name": "Nuro",
-        "sector": "Drones & Autonomous",
-        "founder": "Dave Ferguson, Jiajun Zhu"
-      },
-      {
-        "name": "Archer Aviation",
-        "sector": "Drones & Autonomous",
-        "founder": "Brett Adcock, Adam Goldstein"
-      },
-      {
-        "name": "PsiQuantum",
-        "sector": "Chips & Semiconductors",
-        "founder": "Jeremy O'Brien, Terry Rudolph, Mark Thompson, Pete Shadbolt"
-      },
-      {
-        "name": "Astera Labs",
-        "sector": "Chips & Semiconductors",
-        "founder": "Jitendra Mohan, Sanjay Gajendra"
       },
       {
         "name": "Zettascale",
@@ -1244,154 +371,14 @@
         "founder": "Elias Almqvist, Prithvi Raj"
       },
       {
-        "name": "d-Matrix",
-        "sector": "Chips & Semiconductors",
-        "founder": "Sid Sheth"
-      },
-      {
-        "name": "Inversion Space",
-        "sector": "Housing & Construction",
-        "founder": "Justin Fiaschetti, Austin Briggs"
-      },
-      {
         "name": "Lumina Vehicles",
         "sector": "Robotics & Manufacturing",
         "founder": "Ahmed Shubber, Federico Di Palma"
       },
       {
-        "name": "FleetZero",
-        "sector": "Transportation",
-        "founder": "Steven Henderson, Mike Carter"
-      },
-      {
-        "name": "Framework Computer",
-        "sector": "Consumer Tech",
-        "founder": "Nirav Patel"
-      },
-      {
-        "name": "Whisper Aero",
-        "sector": "Consumer Tech",
-        "founder": "Mark Moore, Ian Villa"
-      },
-      {
-        "name": "IonQ",
-        "sector": "Quantum Computing",
-        "founder": "Chris Monroe, Jungsang Kim"
-      },
-      {
-        "name": "Rigetti Computing",
-        "sector": "Quantum Computing",
-        "founder": "Chad Rigetti"
-      },
-      {
-        "name": "QuEra Computing",
-        "sector": "Quantum Computing",
-        "founder": "Mikhail Lukin, Vladan Vuletic, Markus Greiner"
-      },
-      {
-        "name": "NetworkOcean",
-        "sector": "Ocean & Maritime",
-        "founder": "Eric Kim, Sam Mendel"
-      },
-      {
         "name": "Thalassa Robotics",
         "sector": "Ocean & Maritime",
         "founder": "Vatsal Varma, Arjun Prabhakar, Bryan Tan"
-      },
-      {
-        "name": "Fortastra",
-        "sector": "Space & Aerospace",
-        "founder": "Mike Smayda"
-      },
-      {
-        "name": "Earth AI",
-        "sector": "Infrastructure & Logistics",
-        "founder": "Roman Teslyuk"
-      },
-      {
-        "name": "Wardstone",
-        "sector": "Space & Aerospace",
-        "founder": "Sebastian Fischer, Tobias Fischer"
-      },
-      {
-        "name": "Tokamak Energy",
-        "sector": "Nuclear Energy",
-        "founder": "David Kingham, Mikhail Gryaznevich"
-      },
-      {
-        "name": "First Light Fusion",
-        "sector": "Nuclear Energy",
-        "founder": "Nicholas Hawker"
-      },
-      {
-        "name": "Newcleo",
-        "sector": "Nuclear Energy",
-        "founder": "Stefano Buono"
-      },
-      {
-        "name": "Wayve",
-        "sector": "AI & Software",
-        "founder": "Alex Kendall"
-      },
-      {
-        "name": "Vertical Aerospace",
-        "sector": "Transportation",
-        "founder": "Stephen Fitzpatrick"
-      },
-      {
-        "name": "Oxford Nanopore Technologies",
-        "sector": "Biotech & Health",
-        "founder": "Gordon Sanghera"
-      },
-      {
-        "name": "Oxford Quantum Circuits",
-        "sector": "Quantum Computing",
-        "founder": "Peter Leek, Ilana Wisby"
-      },
-      {
-        "name": "Orbital Marine Power",
-        "sector": "Ocean & Maritime",
-        "founder": "Andrew Scott"
-      },
-      {
-        "name": "ZeroAvia",
-        "sector": "Transportation",
-        "founder": "Val Miftakhov"
-      },
-      {
-        "name": "Space Forge",
-        "sector": "Space & Aerospace",
-        "founder": "Joshua Western"
-      },
-      {
-        "name": "Isar Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Daniel Metzler"
-      },
-      {
-        "name": "Quantum-Systems",
-        "sector": "Defense & Security",
-        "founder": "Florian Seibel"
-      },
-      {
-        "name": "Proxima Fusion",
-        "sector": "Nuclear Energy",
-        "founder": "Francesco Sciortino, Lucio Milanese, Jorrit Lion, Jonathan Schilling, Martin Kubie"
-      },
-      {
-        "name": "Marvel Fusion",
-        "sector": "Nuclear Energy",
-        "founder": "Moritz von der Linden"
-      },
-      {
-        "name": "Rocket Factory Augsburg",
-        "sector": "Space & Aerospace",
-        "founder": "Jorn Spurmann"
-      },
-      {
-        "name": "Black Semiconductor",
-        "sector": "Chips & Semiconductors",
-        "founder": "Daniel Schall & Sebastian Schall"
       },
       {
         "name": "Sunfire",
@@ -1401,32 +388,7 @@
       {
         "name": "planqc",
         "sector": "Quantum Computing",
-        "founder": "Alexander Glaetzle"
-      },
-      {
-        "name": "Pasqal",
-        "sector": "Quantum Computing",
-        "founder": "Georges-Olivier Reymond"
-      },
-      {
-        "name": "Exotec",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Romain Moulin"
-      },
-      {
-        "name": "Renaissance Fusion",
-        "sector": "Nuclear Energy",
-        "founder": "Simon Belka, Francesco Volpe, Martin Kupp"
-      },
-      {
-        "name": "Verkor",
-        "sector": "Climate & Energy",
-        "founder": "Benoit Lemaignan"
-      },
-      {
-        "name": "DNA Script",
-        "sector": "Biotech & Health",
-        "founder": "Thomas Ybert"
+        "founder": "Alexander Glätzle, Sebastian Blatt, Johannes Zeiher"
       },
       {
         "name": "Alice & Bob",
@@ -1439,79 +401,14 @@
         "founder": "Maximin Gayet, Kevin Monvoisin, Ilan Saidi-Bekerman"
       },
       {
-        "name": "Einride",
-        "sector": "Transportation",
-        "founder": "Robert Falck"
-      },
-      {
         "name": "Neko Health",
         "sector": "Biotech & Health",
-        "founder": "Daniel Ek"
-      },
-      {
-        "name": "ICEYE",
-        "sector": "Space & Aerospace",
-        "founder": "Rafal Modrzewski"
-      },
-      {
-        "name": "IQM Quantum Computers",
-        "sector": "Quantum Computing",
-        "founder": "Jan Goetz"
-      },
-      {
-        "name": "Solar Foods",
-        "sector": "Biotech & Health",
-        "founder": "Pasi Vainikka"
-      },
-      {
-        "name": "Climeworks",
-        "sector": "Climate & Energy",
-        "founder": "Christoph Gebald, Jan Wurzbacher"
-      },
-      {
-        "name": "ANYbotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Peter Fankhauser"
-      },
-      {
-        "name": "Synhelion",
-        "sector": "Climate & Energy",
-        "founder": "Gianluca Ambrosetti"
-      },
-      {
-        "name": "Saltfoss Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Troels Schonfeldt"
-      },
-      {
-        "name": "Copenhagen Atomics",
-        "sector": "Nuclear Energy",
-        "founder": "Thomas Jam Pedersen"
+        "founder": "Daniel Ek, Hjalmar Nilsonne"
       },
       {
         "name": "T1 Energy (formerly FREYR Battery)",
         "sector": "Climate & Energy",
         "founder": "Tom Einar Jensen"
-      },
-      {
-        "name": "QuantWare",
-        "sector": "Quantum Computing",
-        "founder": "Matthijs Rijlaarsdam"
-      },
-      {
-        "name": "PLD Space",
-        "sector": "Space & Aerospace",
-        "founder": "Raul Torres"
-      },
-      {
-        "name": "D-Orbit",
-        "sector": "Space & Aerospace",
-        "founder": "Luca Rossettini"
-      },
-      {
-        "name": "Milrem Robotics",
-        "sector": "Defense & Security",
-        "founder": "Kuldar Vaarsi"
       },
       {
         "name": "Skeleton Technologies",
@@ -1529,19 +426,9 @@
         "founder": "Aviv Shapira"
       },
       {
-        "name": "Percepto",
-        "sector": "Drones & Autonomous",
-        "founder": "Dor Abuhasira"
-      },
-      {
         "name": "Ramon.Space",
         "sector": "Space & Aerospace",
         "founder": "Ran Ginosar, Stefano Poli, Dov Alon, Tuvia Liran"
-      },
-      {
-        "name": "Wiliot",
-        "sector": "Chips & Semiconductors",
-        "founder": "Tal Tamir"
       },
       {
         "name": "Tevel Aerobotics",
@@ -1552,11 +439,6 @@
         "name": "ispace",
         "sector": "Space & Aerospace",
         "founder": "Takeshi Hakamada"
-      },
-      {
-        "name": "Kyoto Fusioneering",
-        "sector": "Nuclear Energy",
-        "founder": "Satoshi Konishi"
       },
       {
         "name": "GITAI",
@@ -1579,54 +461,9 @@
         "founder": "Sunghyun Park"
       },
       {
-        "name": "Innospace",
-        "sector": "Space & Aerospace",
-        "founder": "Kim Soo-Jong"
-      },
-      {
-        "name": "Rainbow Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Oh Jun-ho"
-      },
-      {
-        "name": "Skyroot Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Pawan Kumar Chandana"
-      },
-      {
-        "name": "Agnikul Cosmos",
-        "sector": "Space & Aerospace",
-        "founder": "Srinath Ravichandran"
-      },
-      {
-        "name": "Pixxel",
-        "sector": "Space & Aerospace",
-        "founder": "Awais Ahmed"
-      },
-      {
         "name": "ideaForge",
         "sector": "Drones & Autonomous",
         "founder": "Ankit Mehta"
-      },
-      {
-        "name": "Xanadu Quantum Technologies",
-        "sector": "Quantum Computing",
-        "founder": "Christian Weedbrook"
-      },
-      {
-        "name": "Terrestrial Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Simon Irish"
-      },
-      {
-        "name": "Tenstorrent",
-        "sector": "Chips & Semiconductors",
-        "founder": "Ljubisa Bajic"
-      },
-      {
-        "name": "CarbonCure Technologies",
-        "sector": "Climate & Energy",
-        "founder": "Rob Niven"
       },
       {
         "name": "Fleet Space Technologies",
@@ -1634,49 +471,9 @@
         "founder": "Flavia Tata Nardini"
       },
       {
-        "name": "Quantum Brilliance",
-        "sector": "Quantum Computing",
-        "founder": "Mark Luo"
-      },
-      {
-        "name": "DroneShield",
-        "sector": "Defense & Security",
-        "founder": "Brian Hearing & John Franklin"
-      },
-      {
         "name": "SunDrive Solar",
         "sector": "Climate & Energy",
         "founder": "Vince Allen"
-      },
-      {
-        "name": "Silicon Box",
-        "sector": "Chips & Semiconductors",
-        "founder": "Sehat Sutardja"
-      },
-      {
-        "name": "Satellogic",
-        "sector": "Space & Aerospace",
-        "founder": "Emiliano Kargieman"
-      },
-      {
-        "name": "Dawn Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Stefan Powell"
-      },
-      {
-        "name": "Dragonfly Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Bryan Dean"
-      },
-      {
-        "name": "Solinftec",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Britaldo Hernandez"
-      },
-      {
-        "name": "Hugging Face",
-        "sector": "AI & Software",
-        "founder": "Clément Delangue, Julien Chaumond, Thomas Wolf"
       },
       {
         "name": "Kyutai",
@@ -1684,44 +481,14 @@
         "founder": "Xavier Niel"
       },
       {
-        "name": "Neura Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "David Reger"
-      },
-      {
-        "name": "Tekever",
-        "sector": "Drones & Autonomous",
-        "founder": "Ricardo Mendes, Vitor Cristina, Pedro Sinogas"
-      },
-      {
-        "name": "Dronamics",
-        "sector": "Drones & Autonomous",
-        "founder": "Svilen Rangelov"
-      },
-      {
         "name": "Monumental",
         "sector": "Robotics & Manufacturing",
         "founder": "Salar al Khafaji, Sebastiaan Visser"
       },
       {
-        "name": "RobCo",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Roman Hölzl"
-      },
-      {
         "name": "Gladia",
         "sector": "AI & Software",
         "founder": "Jean-Louis Quéguiner"
-      },
-      {
-        "name": "Deep Isolation",
-        "sector": "Nuclear Energy",
-        "founder": "Elizabeth Muller"
-      },
-      {
-        "name": "Grain Weevil",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Ben Johnson"
       },
       {
         "name": "Naïo Technologies",
@@ -1739,16 +506,6 @@
         "founder": "Henrik Lund-Nielsen"
       },
       {
-        "name": "Prusa Research",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Josef Prusa"
-      },
-      {
-        "name": "Deep Atomic",
-        "sector": "Nuclear Energy",
-        "founder": "William G.J. Theron"
-      },
-      {
         "name": "Rhoman Aerospace",
         "sector": "Drones & Autonomous",
         "founder": "Thomas Youmans, Thomas Callen"
@@ -1759,11 +516,6 @@
         "founder": "Dan Piemont, Harry O'Hanley"
       },
       {
-        "name": "Bedrock Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Boris Sofman"
-      },
-      {
         "name": "GrayMatter Robotics",
         "sector": "Robotics & Manufacturing",
         "founder": "Ariyan Kabir & Brual Shah"
@@ -1772,21 +524,6 @@
         "name": "RIOS Intelligent Machines",
         "sector": "Robotics & Manufacturing",
         "founder": "Bernard Casse"
-      },
-      {
-        "name": "Orbital Composites",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Cole Nielsen"
-      },
-      {
-        "name": "Multiply Labs",
-        "sector": "Biotech & Health",
-        "founder": "Fred Parietti"
-      },
-      {
-        "name": "AiDash",
-        "sector": "Infrastructure & Logistics",
-        "founder": "Abhishek Singh"
       },
       {
         "name": "Pano AI",
@@ -1824,44 +561,9 @@
         "founder": "Shikhar Shrestha, Vikesh Khanna"
       },
       {
-        "name": "Built Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Noah Ready-Campbell, Andrew Liang"
-      },
-      {
-        "name": "Chef Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Rajat Bhageria"
-      },
-      {
-        "name": "Databricks",
-        "sector": "AI & Software",
-        "founder": "Ali Ghodsi, Ion Stoica, Matei Zaharia, Patrick Wendell, Reynold Xin, Andy Konwinski, Arsalan Tavakoli-Shiraji"
-      },
-      {
-        "name": "Dexterity",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Samir Menon"
-      },
-      {
-        "name": "Floodbase",
-        "sector": "Climate & Energy",
-        "founder": "Bessie Schwarz, Beth Tellman"
-      },
-      {
-        "name": "Harbinger",
-        "sector": "Transportation",
-        "founder": "John Harris, Phillip Weicker, Will Eberts"
-      },
-      {
         "name": "Hive AI",
         "sector": "AI & Software",
         "founder": "Kevin Guo"
-      },
-      {
-        "name": "Labelbox",
-        "sector": "AI & Software",
-        "founder": "Manu Sharma, Brian Rieger, Dan Rasmuson"
       },
       {
         "name": "LeoLabs",
@@ -1869,84 +571,14 @@
         "founder": "Dan Ceperley"
       },
       {
-        "name": "Liminal Insights",
-        "sector": "Climate & Energy",
-        "founder": "Barry Van Tassell, Shaurjo Biswas"
-      },
-      {
-        "name": "Locus Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Bruce Welty, Al Dekin"
-      },
-      {
-        "name": "Lumafield",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Eduardo Torrealba, Andreas Bastian, Kevin Cedrone, Ric Fulop, Scott Johnston"
-      },
-      {
-        "name": "Modern Intelligence",
-        "sector": "Defense & Security",
-        "founder": "John Dulin, Joe Cieslik, Tristan Tager"
-      },
-      {
         "name": "Osaro",
         "sector": "Robotics & Manufacturing",
         "founder": "Derik Pridmore, Michael Kahane"
       },
       {
-        "name": "Outrider",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Andrew Smith"
-      },
-      {
-        "name": "Parallel Systems",
-        "sector": "Transportation",
-        "founder": "Matt Soule, John Howard, Ben Stabler"
-      },
-      {
         "name": "Rain Industries",
         "sector": "Drones & Autonomous",
         "founder": "Bryan Hatton, Ephraim Nowak, Maxwell Brodie"
-      },
-      {
-        "name": "Rivian",
-        "sector": "Transportation",
-        "founder": "RJ Scaringe"
-      },
-      {
-        "name": "Slingshot Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Melanie Stricklan, David Godwin, Thomas Ashman"
-      },
-      {
-        "name": "Swarm Aero",
-        "sector": "Defense & Security",
-        "founder": "Danny Goodman, Oliver Palmer, Peter Kalogiannis"
-      },
-      {
-        "name": "WeaveGrid",
-        "sector": "Climate & Energy",
-        "founder": "Apoorv Bhargava, John Taggart"
-      },
-      {
-        "name": "Zanskar",
-        "sector": "Climate & Energy",
-        "founder": "Carl Hoiland, Joel Edwards"
-      },
-      {
-        "name": "Cohere",
-        "sector": "AI & Software",
-        "founder": "Aidan Gomez, Ivan Zhang, Nick Frosst"
-      },
-      {
-        "name": "Waabi",
-        "sector": "Transportation",
-        "founder": "Raquel Urtasun"
-      },
-      {
-        "name": "D-Wave Quantum",
-        "sector": "Quantum Computing",
-        "founder": "Haig Farris, Geordie Rose, Bob Wiens, Alexandre Zagoskin"
       },
       {
         "name": "Photonic Inc",
@@ -1957,11 +589,6 @@
         "name": "Nord Quantique",
         "sector": "Quantum Computing",
         "founder": "Julien Camirand Lemyre, Philippe St-Jean"
-      },
-      {
-        "name": "Kepler Communications",
-        "sector": "Space & Aerospace",
-        "founder": "Mina Mitry, Jeffrey Osborne, Mark Michael"
       },
       {
         "name": "GHGSat",
@@ -1989,51 +616,6 @@
         "founder": "Hamutal Meridor, Alon Dror, Omer Bar-Ilan, Jason Manne"
       },
       {
-        "name": "Endurosat",
-        "sector": "Space & Aerospace",
-        "founder": "Raycho Raychev"
-      },
-      {
-        "name": "Skyryse",
-        "sector": "Space & Aerospace",
-        "founder": "Mark Groden"
-      },
-      {
-        "name": "Dusty Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Tessa Lau"
-      },
-      {
-        "name": "Fortera",
-        "sector": "Climate & Energy",
-        "founder": "Ryan Gilliam"
-      },
-      {
-        "name": "LanzaTech",
-        "sector": "Climate & Energy",
-        "founder": "Sean Simpson, Richard Forster"
-      },
-      {
-        "name": "QuantumScape",
-        "sector": "Climate & Energy",
-        "founder": "Jagdeep Singh, Tim Holme, Fritz Prinz"
-      },
-      {
-        "name": "Mainspring Energy",
-        "sector": "Climate & Energy",
-        "founder": "Shannon Miller, Adam Simpson, Matt Svrcek"
-      },
-      {
-        "name": "Watershed",
-        "sector": "Climate & Energy",
-        "founder": "Taylor Francis, Christian Anderson, Avi Itskovich"
-      },
-      {
-        "name": "Sakana AI",
-        "sector": "AI & Software",
-        "founder": "Llion Jones, David Ha"
-      },
-      {
         "name": "Together AI",
         "sector": "AI & Software",
         "founder": "Vipul Prakash, Ce Zhang"
@@ -2054,36 +636,6 @@
         "founder": "Alex Wiltschko"
       },
       {
-        "name": "Vivodyne",
-        "sector": "Biotech & Health",
-        "founder": "Andrei Georgescu, Dan Huh"
-      },
-      {
-        "name": "Cellares",
-        "sector": "Biotech & Health",
-        "founder": "Fabian Gerlinghaus, Alex Kolicich, Omar Kurdi, Franziska Blaeschke"
-      },
-      {
-        "name": "LabGenius",
-        "sector": "Biotech & Health",
-        "founder": "James Field"
-      },
-      {
-        "name": "Mission Barns",
-        "sector": "Biotech & Health",
-        "founder": "Eitan Fischer, David Bowman"
-      },
-      {
-        "name": "Cresilon",
-        "sector": "Biotech & Health",
-        "founder": "Joe Landolina"
-      },
-      {
-        "name": "FlyBy Robotics",
-        "sector": "Defense & Security",
-        "founder": "Jason Lu & Cat Orman"
-      },
-      {
         "name": "Ulysses Robotics",
         "sector": "Robotics & Manufacturing",
         "founder": "Akhil Voorakkara, Jamie Wedderburn, Colm O'Brien, Will O'Brien"
@@ -2094,59 +646,14 @@
         "founder": "David Zagaynov"
       },
       {
-        "name": "Swift Beat",
-        "sector": "Defense & Security",
-        "founder": "Eric Schmidt"
-      },
-      {
-        "name": "Parry Labs",
-        "sector": "Defense & Security",
-        "founder": "John Parkes"
-      },
-      {
-        "name": "Fortem Technologies",
-        "sector": "Defense & Security",
-        "founder": "Timothy Bean"
-      },
-      {
-        "name": "Hexium",
-        "sector": "Nuclear Energy",
-        "founder": "Charlie Jarrott & Jacob Peterson"
-      },
-      {
         "name": "General Galactic",
         "sector": "Climate & Energy",
         "founder": "Halen Mattison & Luke Neise"
       },
       {
-        "name": "Ares Industries",
-        "sector": "Defense & Security",
-        "founder": "Alex Tseng, Devan Plantamura"
-      },
-      {
-        "name": "Starcloud",
-        "sector": "Space & Aerospace",
-        "founder": "Philip Johnston"
-      },
-      {
-        "name": "Steady Energy",
-        "sector": "Climate & Energy",
-        "founder": "Tommi Nyman"
-      },
-      {
         "name": "CarbonCapture Inc.",
         "sector": "Climate & Energy",
         "founder": "Adrian Corless"
-      },
-      {
-        "name": "Graphyte",
-        "sector": "Climate & Energy",
-        "founder": "Barclay Rogers"
-      },
-      {
-        "name": "Zeta Surgical",
-        "sector": "Biotech & Health",
-        "founder": "Raahil Sha, William Gormley"
       },
       {
         "name": "Electric Hydrogen",
@@ -2159,29 +666,9 @@
         "founder": "Avner Bendheim & Gabriel Bendheim"
       },
       {
-        "name": "Vatn Systems",
-        "sector": "Defense & Security",
-        "founder": "Nelson Mills"
-      },
-      {
-        "name": "Hubble Network",
-        "sector": "Space & Aerospace",
-        "founder": "Alex Haro & Ben Wild"
-      },
-      {
-        "name": "Sage Geosystems",
-        "sector": "Climate & Energy",
-        "founder": "Cindy Taff & Lance Cook"
-      },
-      {
         "name": "Fourth Power",
         "sector": "Climate & Energy",
         "founder": "Asegun Henry"
-      },
-      {
-        "name": "Asimov",
-        "sector": "Biotech & Health",
-        "founder": "Alec Nielsen, Chris Voigt, Douglas Densmore, Raja Srinivas"
       },
       {
         "name": "Cemvita Factory",
@@ -2192,11 +679,6 @@
         "name": "Q-CTRL",
         "sector": "Quantum Computing",
         "founder": "Michael Biercuk"
-      },
-      {
-        "name": "Hidden Level",
-        "sector": "Defense & Security",
-        "founder": "Jeff Cole, Gary Dominicos"
       },
       {
         "name": "ClearSpace",
@@ -2214,16 +696,6 @@
         "founder": "Benjamin Saada"
       },
       {
-        "name": "Infleqtion",
-        "sector": "Quantum Computing",
-        "founder": "Dana Anderson"
-      },
-      {
-        "name": "Elroy Air",
-        "sector": "Drones & Autonomous",
-        "founder": "David Merrill & Clint Cope"
-      },
-      {
         "name": "Solid Power",
         "sector": "Climate & Energy",
         "founder": "Doug Campbell"
@@ -2234,59 +706,14 @@
         "founder": "Gordon Wilson"
       },
       {
-        "name": "Twelve Labs",
-        "sector": "AI & Software",
-        "founder": "Jae Lee & Aiden Lee"
-      },
-      {
-        "name": "Modal",
-        "sector": "AI & Software",
-        "founder": "Erik Bernhardsson & Akshat Bubna"
-      },
-      {
-        "name": "Skyrora",
-        "sector": "Space & Aerospace",
-        "founder": "Volodymyr Levykin"
-      },
-      {
         "name": "Axial Composites",
         "sector": "Robotics & Manufacturing",
         "founder": "Giuseppe Rapisarda"
       },
       {
-        "name": "Layup Parts",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Zack Eakin"
-      },
-      {
-        "name": "Nox Metals",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Zane Hengsperger"
-      },
-      {
-        "name": "Duranium",
-        "sector": "Climate & Energy",
-        "founder": "Berkley Noble"
-      },
-      {
-        "name": "MacroFab",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Chris Church"
-      },
-      {
         "name": "Finwave Semiconductor",
         "sector": "Chips & Semiconductors",
         "founder": "Tomas Palacios"
-      },
-      {
-        "name": "OSH Cut",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Caleb Chamberlain"
-      },
-      {
-        "name": "RMFG",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Kenneth Cassel"
       },
       {
         "name": "Emelody",
@@ -2299,24 +726,9 @@
         "founder": "Paul Hetherington"
       },
       {
-        "name": "RISE Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Arron Acosta"
-      },
-      {
-        "name": "Artimus Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Eric Acome"
-      },
-      {
         "name": "Corvex Systems",
         "sector": "Robotics & Manufacturing",
         "founder": "Jason Blick"
-      },
-      {
-        "name": "Foundry Lab",
-        "sector": "Robotics & Manufacturing",
-        "founder": "David Moodie"
       },
       {
         "name": "Aestus Industries",
@@ -2329,16 +741,6 @@
         "founder": "Ethan Loosbrock"
       },
       {
-        "name": "Forge Nano",
-        "sector": "Climate & Energy",
-        "founder": "Paul Lichty"
-      },
-      {
-        "name": "Nascent Materials",
-        "sector": "Climate & Energy",
-        "founder": "Chaitanya Sharma"
-      },
-      {
         "name": "Freeform",
         "sector": "Robotics & Manufacturing",
         "founder": "Erik Palitsch"
@@ -2349,59 +751,9 @@
         "founder": "Dival Banerjee"
       },
       {
-        "name": "Radian Forge",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Jeff Yeager"
-      },
-      {
-        "name": "Seurat Technologies",
-        "sector": "Robotics & Manufacturing",
-        "founder": "James DeMuth"
-      },
-      {
-        "name": "VulcanForms",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Martin Feldmann"
-      },
-      {
-        "name": "Lumotive",
-        "sector": "Chips & Semiconductors",
-        "founder": "Bill Colleran"
-      },
-      {
-        "name": "Ouster",
-        "sector": "Chips & Semiconductors",
-        "founder": "Angus Pacala"
-      },
-      {
-        "name": "Aeva Technologies",
-        "sector": "Chips & Semiconductors",
-        "founder": "Soroush Salehian"
-      },
-      {
-        "name": "Voyant Photonics",
-        "sector": "Chips & Semiconductors",
-        "founder": "Chris Phare"
-      },
-      {
-        "name": "Standard Bots",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Evan Beard"
-      },
-      {
-        "name": "Path Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Andy Lonsberry"
-      },
-      {
         "name": "Cohesive Robotics",
         "sector": "Robotics & Manufacturing",
         "founder": "David Pietrocola"
-      },
-      {
-        "name": "Ultra Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Max Friefeld"
       },
       {
         "name": "Gallox Semiconductors",
@@ -2414,16 +766,6 @@
         "founder": "Joshua Perozek, Cynthia Liao, Tomas Palacios"
       },
       {
-        "name": "MaverickX",
-        "sector": "Climate & Energy",
-        "founder": "Eric Herrera"
-      },
-      {
-        "name": "First Resonance",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Karan Talati"
-      },
-      {
         "name": "Krevera",
         "sector": "Robotics & Manufacturing",
         "founder": "Edward Schneeweiss"
@@ -2434,19 +776,9 @@
         "founder": "Jennifer Song"
       },
       {
-        "name": "Mbodi AI",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Xavier Chi"
-      },
-      {
         "name": "Drafter",
         "sector": "Robotics & Manufacturing",
         "founder": "Chris Barton"
-      },
-      {
-        "name": "Defense Unicorns",
-        "sector": "Defense & Security",
-        "founder": "Rob Slaughter, Jeff McCoy, Andrew Greene"
       },
       {
         "name": "Strider Technologies",
@@ -2457,16 +789,6 @@
         "name": "Xage Security",
         "sector": "Defense & Security",
         "founder": "Kamesh Raghavendra, Susanto Irwan, Roman Arutyunov"
-      },
-      {
-        "name": "Dataminr",
-        "sector": "AI & Software",
-        "founder": "Ted Bailey, Sam Hendel, Jeff Kinsey"
-      },
-      {
-        "name": "Mythic",
-        "sector": "Chips & Semiconductors",
-        "founder": "Dave Fick, Mike Henry"
       },
       {
         "name": "Positron AI",
@@ -2489,104 +811,9 @@
         "founder": "Sandeep Nijhawan, Quoc Pham"
       },
       {
-        "name": "Lilac Solutions",
-        "sector": "Climate & Energy",
-        "founder": "Dave Snydacker"
-      },
-      {
-        "name": "Evozyne",
-        "sector": "Biotech & Health",
-        "founder": "Andrew Ferguson, Rama Ranganathan, Jeff Aronin"
-      },
-      {
-        "name": "Alto Neuroscience",
-        "sector": "Biotech & Health",
-        "founder": "Amit Etkin, Dan Segal, Wei Wu"
-      },
-      {
         "name": "Glyphic Biotechnologies",
         "sector": "Biotech & Health",
         "founder": "Joshua Yang, Daniel Estandian"
-      },
-      {
-        "name": "Biobot Analytics",
-        "sector": "Biotech & Health",
-        "founder": "Mariana Matus, Newsha Ghaeli"
-      },
-      {
-        "name": "Zeitview",
-        "sector": "Drones & Autonomous",
-        "founder": "Daniel Burton, Eli Tamanaha"
-      },
-      {
-        "name": "Roam Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Tim Swift, Mallory Ulaszek, Saul Griffith"
-      },
-      {
-        "name": "Bethlehem Steel Corp",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Stealth"
-      },
-      {
-        "name": "Seneca",
-        "sector": "Drones & Autonomous",
-        "founder": "Stuart Landesberg"
-      },
-      {
-        "name": "1X Technologies",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Bernt Oivind Bornich"
-      },
-      {
-        "name": "Gravitics",
-        "sector": "Space & Aerospace",
-        "founder": "Colin Doughan"
-      },
-      {
-        "name": "Orbit Fab",
-        "sector": "Space & Aerospace",
-        "founder": "Daniel Faber, Jeremy Schiel"
-      },
-      {
-        "name": "Radian Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Livingston Holder, Richard Humphrey, Jeff Feige"
-      },
-      {
-        "name": "Lunar Outpost",
-        "sector": "Space & Aerospace",
-        "founder": "Justin Cyrus"
-      },
-      {
-        "name": "Transmutex",
-        "sector": "Nuclear Energy",
-        "founder": "Franklin Servan-Schreiber, Federico Carminati, Jean-Pierre Revol"
-      },
-      {
-        "name": "Velo3D",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Benny Buller"
-      },
-      {
-        "name": "Monarch Tractor",
-        "sector": "Drones & Autonomous",
-        "founder": "Praveen Penmetsa, Zachary Omohundro, Carlo Mondavi"
-      },
-      {
-        "name": "MightyFly",
-        "sector": "Drones & Autonomous",
-        "founder": "Manal Habib, Jaganath Rao"
-      },
-      {
-        "name": "Natilus",
-        "sector": "Drones & Autonomous",
-        "founder": "Aleksey Matyushev, Anatoly Starikov"
-      },
-      {
-        "name": "BotBuilt",
-        "sector": "Housing & Construction",
-        "founder": "Barrett Ames, Colin Devine"
       },
       {
         "name": "Precision AI",
@@ -2599,29 +826,9 @@
         "founder": "Susan Graham, Irina Fedorenko"
       },
       {
-        "name": "Near Space Labs",
-        "sector": "Space & Aerospace",
-        "founder": "Rema Matevosyan"
-      },
-      {
         "name": "Atomic AI",
         "sector": "Biotech & Health",
         "founder": "Raphael Townshend"
-      },
-      {
-        "name": "Ultima Genomics",
-        "sector": "Biotech & Health",
-        "founder": "Gilad Almogy"
-      },
-      {
-        "name": "Ascend Elements",
-        "sector": "Climate & Energy",
-        "founder": "Mike O'Kronley"
-      },
-      {
-        "name": "Modern Hydrogen",
-        "sector": "Climate & Energy",
-        "founder": "Tony Pan"
       },
       {
         "name": "Ambient Photonics",
@@ -2634,34 +841,9 @@
         "founder": "Jonathan Geifman, Dor Blum"
       },
       {
-        "name": "Material Evolution",
-        "sector": "Housing & Construction",
-        "founder": "Liz Gilligan, Sam Clark"
-      },
-      {
-        "name": "OneBrief",
-        "sector": "Defense & Security",
-        "founder": "Remi Cossart"
-      },
-      {
-        "name": "Amber Bio",
-        "sector": "Biotech & Health",
-        "founder": "Basem Al-Shayeb, Jacob Borrajo"
-      },
-      {
-        "name": "Manifold Bio",
-        "sector": "Biotech & Health",
-        "founder": "Gleb Kuznetsov, Pierce Ogden"
-      },
-      {
         "name": "Strand Therapeutics",
         "sector": "Biotech & Health",
         "founder": "Jake Becraft, Tasuku Kitada"
-      },
-      {
-        "name": "Signaloid",
-        "sector": "Chips & Semiconductors",
-        "founder": "Phillip Stanley-Marbell"
       },
       {
         "name": "Apis Cor",
@@ -2669,24 +851,9 @@
         "founder": "Nikita Cheniuntai"
       },
       {
-        "name": "Valinor Enterprises",
-        "sector": "Defense & Security",
-        "founder": "Trae Stephens, Grant Verstandig"
-      },
-      {
         "name": "Rivet Industries",
         "sector": "Defense & Security",
         "founder": "Dave Marra"
-      },
-      {
-        "name": "Starfish Space",
-        "sector": "Space & Aerospace",
-        "founder": "Austin Link, Trevor Bennett"
-      },
-      {
-        "name": "Valthos",
-        "sector": "Defense & Security",
-        "founder": "Kathleen McMahon, Tess van Stekelenburg"
       },
       {
         "name": "Reliable Robotics",
@@ -2694,74 +861,9 @@
         "founder": "Robert Rose, Juerg Frefel"
       },
       {
-        "name": "Koloma",
-        "sector": "Climate & Energy",
-        "founder": "Tom Darrah, Pete Johnson, Paul Harraka"
-      },
-      {
-        "name": "Heart Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Anders Forslund"
-      },
-      {
-        "name": "Peak Energy",
-        "sector": "Climate & Energy",
-        "founder": "Landon Mossburg"
-      },
-      {
-        "name": "TS Conductor",
-        "sector": "Climate & Energy",
-        "founder": "Jason Huang, Rulong Chen"
-      },
-      {
-        "name": "Heron Power",
-        "sector": "Climate & Energy",
-        "founder": "Drew Baglino"
-      },
-      {
-        "name": "VEIR",
-        "sector": "Climate & Energy",
-        "founder": "Tim Heidel, Steve Ashworth"
-      },
-      {
-        "name": "Mytra",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Chris Walti"
-      },
-      {
-        "name": "Hertha Metals",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Dr. Laureen Meroueh"
-      },
-      {
-        "name": "Synchron",
-        "sector": "Biotech & Health",
-        "founder": "Tom Oxley"
-      },
-      {
         "name": "Lila Sciences",
         "sector": "Biotech & Health",
         "founder": "Geoffrey von Maltzahn, Molly Gibson"
-      },
-      {
-        "name": "HistoSonics",
-        "sector": "Biotech & Health",
-        "founder": "Charles Cain, Brian Fowlkes, Tim Hall, Zhen Xu, William Roberts"
-      },
-      {
-        "name": "Freenome",
-        "sector": "Biotech & Health",
-        "founder": "Gabriel Otte"
-      },
-      {
-        "name": "Precision Neuroscience",
-        "sector": "Biotech & Health",
-        "founder": "Benjamin Rapoport, Michael Mager"
-      },
-      {
-        "name": "SandboxAQ",
-        "sector": "AI & Software",
-        "founder": "Jack Hidary"
       },
       {
         "name": "ARX Robotics",
@@ -2774,11 +876,6 @@
         "founder": "Taavi Madiberk, Marko Virkebau"
       },
       {
-        "name": "Tytan Technologies",
-        "sector": "Defense & Security",
-        "founder": "Balazs Nagy, Batuhan Yumurtaci"
-      },
-      {
         "name": "Blackshark.ai",
         "sector": "Defense & Security",
         "founder": "Michael Putz"
@@ -2789,59 +886,14 @@
         "founder": "Herman Narula"
       },
       {
-        "name": "Aerospacelab",
-        "sector": "Space & Aerospace",
-        "founder": "Benoît Deper"
-      },
-      {
-        "name": "The Exploration Company",
-        "sector": "Space & Aerospace",
-        "founder": "Hélène Huby"
-      },
-      {
-        "name": "HyImpulse",
-        "sector": "Space & Aerospace",
-        "founder": "Mario Kobald"
-      },
-      {
-        "name": "Exolaunch",
-        "sector": "Space & Aerospace",
-        "founder": "Dmitriy Sternharz"
-      },
-      {
-        "name": "Open Cosmos",
-        "sector": "Space & Aerospace",
-        "founder": "Rafel Jordà Siquier"
-      },
-      {
         "name": "Stegra",
         "sector": "Climate & Energy",
         "founder": "Carl-Erik Lagercrantz, Harald Mix"
       },
       {
-        "name": "INERATEC",
-        "sector": "Climate & Energy",
-        "founder": "Tim Boeltken"
-      },
-      {
-        "name": "Reverion",
-        "sector": "Climate & Energy",
-        "founder": "Stephan Herrmann, Felix Fischer, Jeremias Weinrich, Maximilian Hauck, Luis Poblotzki"
-      },
-      {
-        "name": "Enapter",
-        "sector": "Climate & Energy",
-        "founder": "Sebastian-Justus Schmidt"
-      },
-      {
         "name": "44.01",
         "sector": "Climate & Energy",
         "founder": "Talal Hasan"
-      },
-      {
-        "name": "Isomorphic Labs",
-        "sector": "Biotech & Health",
-        "founder": "Demis Hassabis"
       },
       {
         "name": "Basecamp Research",
@@ -2864,64 +916,9 @@
         "founder": "Jan Leisse"
       },
       {
-        "name": "Riverlane",
-        "sector": "Quantum Computing",
-        "founder": "Steve Brierley"
-      },
-      {
-        "name": "Poolside",
-        "sector": "AI & Software",
-        "founder": "Jason Warner, Eiso Kant"
-      },
-      {
-        "name": "Nomagic",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Kacper Nowicki"
-      },
-      {
-        "name": "Nu Quantum",
-        "sector": "Quantum Computing",
-        "founder": "Carmen Palacios-Berraquero"
-      },
-      {
-        "name": "Fractile",
-        "sector": "Chips & Semiconductors",
-        "founder": "Walter Goodwin"
-      },
-      {
-        "name": "Pragmatic Semiconductor",
-        "sector": "Chips & Semiconductors",
-        "founder": "Scott White"
-      },
-      {
-        "name": "Porotech",
-        "sector": "Chips & Semiconductors",
-        "founder": "Tongtong Zhu, Yingjun Liu, Rachel Oliver"
-      },
-      {
-        "name": "Oxa",
-        "sector": "Drones & Autonomous",
-        "founder": "Paul Newman, Ingmar Posner"
-      },
-      {
         "name": "Humanoid",
         "sector": "Robotics & Manufacturing",
         "founder": "Artem Sokolov"
-      },
-      {
-        "name": "Nyobolt",
-        "sector": "Climate & Energy",
-        "founder": "Sai Shivareddy, Clare Grey"
-      },
-      {
-        "name": "Pulsar Fusion",
-        "sector": "Space & Aerospace",
-        "founder": "Richard Dinan"
-      },
-      {
-        "name": "Magdrive",
-        "sector": "Space & Aerospace",
-        "founder": "Mark Stokes, Thomas Clayson"
       },
       {
         "name": "Cambridge Aerospace",
@@ -2929,24 +926,9 @@
         "founder": "Undisclosed (ex-defense founders)"
       },
       {
-        "name": "Arondite",
-        "sector": "Defense & Security",
-        "founder": "Will Blyth, Rob Underhill"
-      },
-      {
-        "name": "Hadean",
-        "sector": "Defense & Security",
-        "founder": "Craig Beddis, Aidan Hobson Sayers"
-      },
-      {
         "name": "Adarga",
         "sector": "Defense & Security",
         "founder": "Robert Bassett Cross"
-      },
-      {
-        "name": "Isembard",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Alexander Fitzgerald"
       },
       {
         "name": "Mission Zero Technologies",
@@ -2954,54 +936,9 @@
         "founder": "Nicholas Chadwick, Shiladitya Ghosh, Gaël Gobaille-Shaw"
       },
       {
-        "name": "Epoch Biodesign",
-        "sector": "Biotech & Health",
-        "founder": "Jacob Nathan, Douglas Hamilton"
-      },
-      {
-        "name": "MBRYONICS",
-        "sector": "Space & Aerospace",
-        "founder": "John Mackey, Ruth Mackey, David Mackey"
-      },
-      {
-        "name": "Blykalla",
-        "sector": "Nuclear Energy",
-        "founder": "Janne Wallenius, Peter Szakalos"
-      },
-      {
-        "name": "Candela",
-        "sector": "Transportation",
-        "founder": "Gustav Hasselskog"
-      },
-      {
-        "name": "Hystar",
-        "sector": "Climate & Energy",
-        "founder": "Alejandro Oyarce Barnett"
-      },
-      {
         "name": "ReOrbit",
         "sector": "Space & Aerospace",
         "founder": "Sethu Saveda Suvanam"
-      },
-      {
-        "name": "Nordic Air Defence",
-        "sector": "Defense & Security",
-        "founder": "Karl Rosander"
-      },
-      {
-        "name": "KrattWorks",
-        "sector": "Defense & Security",
-        "founder": "Martin Karmin"
-      },
-      {
-        "name": "DefSecIntel",
-        "sector": "Defense & Security",
-        "founder": "Jaanus Tamm"
-      },
-      {
-        "name": "Kvertus",
-        "sector": "Defense & Security",
-        "founder": "Yaroslav Filimonov"
       },
       {
         "name": "Fire Point",
@@ -3009,39 +946,14 @@
         "founder": "Denys Shtilerman, Iryna Terekh, Yehor Skalyha"
       },
       {
-        "name": "Vyriy Drone",
-        "sector": "Defense & Security",
-        "founder": "Oleksiy Babenko"
-      },
-      {
-        "name": "Skyeton",
-        "sector": "Defense & Security",
-        "founder": "Roman Knyazhenko"
-      },
-      {
         "name": "HIMERA",
         "sector": "Defense & Security",
         "founder": "Misha Rudominsky, Oleksiy Oliynyk"
       },
       {
-        "name": "Ark Robotics",
-        "sector": "Defense & Security",
-        "founder": "Achi Takagama"
-      },
-      {
-        "name": "WB Group",
-        "sector": "Defense & Security",
-        "founder": "Piotr Wojciechowski"
-      },
-      {
         "name": "Creotech Instruments",
         "sector": "Space & Aerospace",
         "founder": "Grzegorz Brona"
-      },
-      {
-        "name": "SatRev",
-        "sector": "Space & Aerospace",
-        "founder": "Grzegorz Zwoliński"
       },
       {
         "name": "KP Labs",
@@ -3054,16 +966,6 @@
         "founder": "Ladislav Semetkovský"
       },
       {
-        "name": "Astrolight",
-        "sector": "Space & Aerospace",
-        "founder": "Laurynas Mačiulis"
-      },
-      {
-        "name": "Quandela",
-        "sector": "Quantum Computing",
-        "founder": "Valerian Giesz, Pascale Senellart, Niccolo Somaschi"
-      },
-      {
         "name": "Quobly",
         "sector": "Quantum Computing",
         "founder": "Maud Vinet, Tristan Meunier, François Perruchot"
@@ -3074,19 +976,9 @@
         "founder": "Matthieu Desjardins, Pierre Desjardins"
       },
       {
-        "name": "Zama",
-        "sector": "AI & Software",
-        "founder": "Rand Hindi, Pascal Paillier"
-      },
-      {
         "name": "H Company",
         "sector": "AI & Software",
         "founder": "Charles Kantor, Laurent Sifre, Karl Tuyls, Julien Perolat, Daan Wierstra"
-      },
-      {
-        "name": "FlexAI",
-        "sector": "AI & Software",
-        "founder": "Brijesh Tripathi, Dali Kilani"
       },
       {
         "name": "Harmattan AI",
@@ -3097,16 +989,6 @@
         "name": "Comand AI",
         "sector": "Defense & Security",
         "founder": "Loïc Mougeolle, Félix Petersen"
-      },
-      {
-        "name": "Unseenlabs",
-        "sector": "Space & Aerospace",
-        "founder": "Clément Galic, Jonathan Galic"
-      },
-      {
-        "name": "Cailabs",
-        "sector": "Space & Aerospace",
-        "founder": "Jean-François Morizur, Guillaume Labroille, Nicolas Treps"
       },
       {
         "name": "Beyond Aero",
@@ -3124,31 +1006,6 @@
         "founder": "Antoine Guyot, Mathilde Grivet"
       },
       {
-        "name": "DiamFab",
-        "sector": "Chips & Semiconductors",
-        "founder": "Khaled Driche, Gauthier Chicot"
-      },
-      {
-        "name": "Sateliot",
-        "sector": "Space & Aerospace",
-        "founder": "Jaume Sanpera, Gianluca Redolfi, Marco Guadalupi"
-      },
-      {
-        "name": "Multiverse Computing",
-        "sector": "AI & Software",
-        "founder": "Enrique Lizaso Olmos, Román Orús, Alfonso Rubio-Manzanares, Sam Mugel"
-      },
-      {
-        "name": "Kreios Space",
-        "sector": "Space & Aerospace",
-        "founder": "Fermín Navarro"
-      },
-      {
-        "name": "Argotec",
-        "sector": "Space & Aerospace",
-        "founder": "David Avino"
-      },
-      {
         "name": "Ephos",
         "sector": "Chips & Semiconductors",
         "founder": "Andrea Rocchetto, Francesco Ceccarelli, Ciro Pentangelo"
@@ -3159,44 +1016,9 @@
         "founder": "Alberto Auricchio, Natalia Misciattelli"
       },
       {
-        "name": "Genespire",
-        "sector": "Biotech & Health",
-        "founder": "Luigi Naldini, Alessio Cantore"
-      },
-      {
-        "name": "Nearfield Instruments",
-        "sector": "Chips & Semiconductors",
-        "founder": "Hamed Sadeghian"
-      },
-      {
         "name": "Axelera AI",
         "sector": "Chips & Semiconductors",
-        "founder": "Fabrizio Del Maffeo, Evangelos Eleftheriou"
-      },
-      {
-        "name": "LeydenJar Technologies",
-        "sector": "Climate & Energy",
-        "founder": "Christian Rood, Gabriël de Scheemaker"
-      },
-      {
-        "name": "Carbyon",
-        "sector": "Climate & Energy",
-        "founder": "Hans De Neve"
-      },
-      {
-        "name": "Synspective",
-        "sector": "Space & Aerospace",
-        "founder": "Motoyuki Arai"
-      },
-      {
-        "name": "iQPS",
-        "sector": "Space & Aerospace",
-        "founder": "Tetsuo Yasaka, Noboru Sakurai, Kunihiro Funakoshi"
-      },
-      {
-        "name": "Axelspace",
-        "sector": "Space & Aerospace",
-        "founder": "Yuya Nakamura"
+        "founder": "Fabrizio Del Maffeo"
       },
       {
         "name": "Pale Blue",
@@ -3204,19 +1026,9 @@
         "founder": "Jun Asakawa, Yuichi Nakagawa"
       },
       {
-        "name": "Preferred Networks",
-        "sector": "AI & Software",
-        "founder": "Toru Nishikawa, Daisuke Okanohara"
-      },
-      {
         "name": "Telexistence",
         "sector": "Robotics & Manufacturing",
         "founder": "Jin Tomioka, Ken Tomoyose, Susumu Tachi"
-      },
-      {
-        "name": "Helical Fusion",
-        "sector": "Nuclear Energy",
-        "founder": "Takaya Taguchi, Junichi Miyazawa"
       },
       {
         "name": "EX-Fusion",
@@ -3224,29 +1036,9 @@
         "founder": "Kazuki Matsuo, Shinsuke Fujioka"
       },
       {
-        "name": "Terra Drone",
-        "sector": "Drones & Autonomous",
-        "founder": "Toru Tokushige"
-      },
-      {
-        "name": "ACSL",
-        "sector": "Drones & Autonomous",
-        "founder": "Satoshi Washiya"
-      },
-      {
-        "name": "QunaSys",
-        "sector": "Quantum Computing",
-        "founder": "Tennin Yan"
-      },
-      {
         "name": "FuriosaAI",
         "sector": "Chips & Semiconductors",
         "founder": "June Paik"
-      },
-      {
-        "name": "Perigee Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Shin Dong-Yoon"
       },
       {
         "name": "Contec",
@@ -3262,21 +1054,6 @@
         "name": "Bone AI",
         "sector": "Defense & Security",
         "founder": "DK Lee"
-      },
-      {
-        "name": "Neuromeka",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Dongwhan Park"
-      },
-      {
-        "name": "Thunder Tiger",
-        "sector": "Defense & Security",
-        "founder": "Gene Su (current CEO)"
-      },
-      {
-        "name": "ABL Bio",
-        "sector": "Biotech & Health",
-        "founder": "Sang Hoon Lee"
       },
       {
         "name": "Digantara",
@@ -3299,21 +1076,6 @@
         "founder": "Sameer Joshi"
       },
       {
-        "name": "Tonbo Imaging",
-        "sector": "Defense & Security",
-        "founder": "Arvind Lakshmikumar"
-      },
-      {
-        "name": "Bellatrix Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Rohan Ganapathy, Yashas Karanam"
-      },
-      {
-        "name": "Dhruva Space",
-        "sector": "Space & Aerospace",
-        "founder": "Sanjay Nekkanti"
-      },
-      {
         "name": "SatSure",
         "sector": "Space & Aerospace",
         "founder": "Prateep Basu"
@@ -3329,19 +1091,9 @@
         "founder": "Shashwath TR, Sharan Srinivas J"
       },
       {
-        "name": "Netrasemi",
-        "sector": "Chips & Semiconductors",
-        "founder": "N. Jayakumar"
-      },
-      {
         "name": "Lohum Cleantech",
         "sector": "Climate & Energy",
         "founder": "Rajat Verma"
-      },
-      {
-        "name": "Sarla Aviation",
-        "sector": "Transportation",
-        "founder": "Rakesh Gaonkar, Adrian Schmidt"
       },
       {
         "name": "The ePlane Company",
@@ -3349,34 +1101,9 @@
         "founder": "Satya Chakravarthy"
       },
       {
-        "name": "Hypersonix Launch Systems",
-        "sector": "Defense & Security",
-        "founder": "David Waterhouse, Michael Smart"
-      },
-      {
-        "name": "Gilmour Space Technologies",
-        "sector": "Space & Aerospace",
-        "founder": "Adam Gilmour, James Gilmour"
-      },
-      {
-        "name": "Southern Launch",
-        "sector": "Space & Aerospace",
-        "founder": "Lloyd Damp"
-      },
-      {
-        "name": "Silicon Quantum Computing",
-        "sector": "Quantum Computing",
-        "founder": "Michelle Simmons"
-      },
-      {
         "name": "SwarmFarm Robotics",
         "sector": "Robotics & Manufacturing",
         "founder": "Andrew Bate, Jocie Bate"
-      },
-      {
-        "name": "Greenroom Robotics",
-        "sector": "Defense & Security",
-        "founder": "Harry Hubbert"
       },
       {
         "name": "Cortical Labs",
@@ -3404,16 +1131,6 @@
         "founder": "Tal David, Nitzan Akerman"
       },
       {
-        "name": "QuamCore",
-        "sector": "Quantum Computing",
-        "founder": "Alon Cohen, Yonatan Cohen"
-      },
-      {
-        "name": "Qedma",
-        "sector": "Quantum Computing",
-        "founder": "Asif Sinay, Netanel Lindner, Dorit Aharonov"
-      },
-      {
         "name": "Q-Factor",
         "sector": "Quantum Computing",
         "founder": "Nir Davidson, Ofer Firstenberg, Yoav Sagi, Guy Raz"
@@ -3429,44 +1146,14 @@
         "founder": "Ofer Shacham, Sha Rabii, Masumi Reynders"
       },
       {
-        "name": "Speedata",
-        "sector": "Chips & Semiconductors",
-        "founder": "Jonathan Friedmann, Rami Dahan"
-      },
-      {
-        "name": "Teramount",
-        "sector": "Chips & Semiconductors",
-        "founder": "Hesham Taha, Abraham Israel"
-      },
-      {
         "name": "Hailo",
         "sector": "Chips & Semiconductors",
         "founder": "Orr Danon, Hadar Zeitlin, Avi Baum"
       },
       {
-        "name": "H2Pro",
-        "sector": "Climate & Energy",
-        "founder": "Talia Gomez Atzmon, Hen Dotan, Avner Rothschild, Gideon Grader"
-      },
-      {
-        "name": "Addionics",
-        "sector": "Climate & Energy",
-        "founder": "Moshiel Biton, Farid Tariq"
-      },
-      {
-        "name": "StoreDot",
-        "sector": "Climate & Energy",
-        "founder": "Doron Myersdorf"
-      },
-      {
         "name": "AIR",
         "sector": "Transportation",
         "founder": "Rani Plaut, Chen Rosen, Netanel Goldberg"
-      },
-      {
-        "name": "Arbe Robotics",
-        "sector": "Drones & Autonomous",
-        "founder": "Kobi Marenko, Noam Arkind"
       },
       {
         "name": "Innoviz Technologies",
@@ -3479,11 +1166,6 @@
         "founder": "IDF special-forces veterans"
       },
       {
-        "name": "Space42",
-        "sector": "Space & Aerospace",
-        "founder": "Merger of Bayanat + Yahsat"
-      },
-      {
         "name": "ADASI",
         "sector": "Defense & Security",
         "founder": "EDGE Group"
@@ -3494,44 +1176,14 @@
         "founder": "PIF-backed; CEO Tareq Amin"
       },
       {
-        "name": "Baykar",
-        "sector": "Defense & Security",
-        "founder": "Selçuk Bayraktar, Haluk Bayraktar"
-      },
-      {
-        "name": "Fergani Space",
-        "sector": "Space & Aerospace",
-        "founder": "Selçuk Bayraktar"
-      },
-      {
-        "name": "Aleph Farms",
-        "sector": "Biotech & Health",
-        "founder": "Didier Toubia, Shulamit Levenberg"
-      },
-      {
         "name": "Tritone Technologies",
         "sector": "Robotics & Manufacturing",
         "founder": "Ofer Ben-Zur"
       },
       {
-        "name": "Ranovus",
-        "sector": "Chips & Semiconductors",
-        "founder": "Hamid Arabzadeh"
-      },
-      {
         "name": "Nano One Materials",
         "sector": "Climate & Energy",
         "founder": "Dan Blondal"
-      },
-      {
-        "name": "NordSpace",
-        "sector": "Space & Aerospace",
-        "founder": "Rahul Goel"
-      },
-      {
-        "name": "Canada Rocket Company",
-        "sector": "Space & Aerospace",
-        "founder": "Hugh Kolias, David Tenny"
       },
       {
         "name": "Wyvern",
@@ -3559,29 +1211,9 @@
         "founder": "José Roberto Catarino (Cesar Silva CEO)"
       },
       {
-        "name": "Summit Nanotech",
-        "sector": "Climate & Energy",
-        "founder": "Amanda Hall"
-      },
-      {
-        "name": "Simera Sense",
-        "sector": "Space & Aerospace",
-        "founder": "Johann du Toit"
-      },
-      {
         "name": "CubeSpace",
         "sector": "Space & Aerospace",
         "founder": "Mike-Alec Kearney"
-      },
-      {
-        "name": "Stratek Global",
-        "sector": "Nuclear Energy",
-        "founder": "Kelvin Kemm"
-      },
-      {
-        "name": "Terrahaptix",
-        "sector": "Defense & Security",
-        "founder": "Nathan Nwachuku, Maxwell Maduka"
       },
       {
         "name": "Stark Defence",
@@ -3589,24 +1221,9 @@
         "founder": "Florian Seibel, Uwe Horstmann, Johannes Schaback"
       },
       {
-        "name": "Alpine Eagle",
-        "sector": "Defense & Security",
-        "founder": "Jan-Hendrik Boelens, Timo Breuer"
-      },
-      {
         "name": "Agile Robots",
         "sector": "Robotics & Manufacturing",
         "founder": "Zhaopeng Chen, Peter Meusel"
-      },
-      {
-        "name": "Reflex Aerospace",
-        "sector": "Space & Aerospace",
-        "founder": "Walter Ballheimer, Sebastian Klaus"
-      },
-      {
-        "name": "OroraTech",
-        "sector": "Space & Aerospace",
-        "founder": "Björn Stoffers, Martin Langer, Thomas Grübler, Florian Mauracher"
       },
       {
         "name": "POLARIS Raumflugzeuge",
@@ -3614,29 +1231,9 @@
         "founder": "Alexander Kopp"
       },
       {
-        "name": "constellr",
-        "sector": "Space & Aerospace",
-        "founder": "Max Gulde, Marius Bierdel"
-      },
-      {
         "name": "Morpheus Space",
         "sector": "Space & Aerospace",
         "founder": "Daniel Bock, István Lőrincz"
-      },
-      {
-        "name": "Gauss Fusion",
-        "sector": "Nuclear Energy",
-        "founder": "Milena Roveda"
-      },
-      {
-        "name": "Kipu Quantum",
-        "sector": "Quantum Computing",
-        "founder": "Enrique Solano, Daniel Volz, Tobias Grab"
-      },
-      {
-        "name": "ParityQC",
-        "sector": "Quantum Computing",
-        "founder": "Wolfgang Lechner, Magdalena Hauser"
       },
       {
         "name": "AQT",
@@ -3649,24 +1246,9 @@
         "founder": "Kevin Berghoff, Fleming Bruckmaier"
       },
       {
-        "name": "Corintis",
-        "sector": "Chips & Semiconductors",
-        "founder": "Remco van Erp, Sam Harrison, Elison Matioli"
-      },
-      {
         "name": "Distalmotion",
         "sector": "Robotics & Manufacturing",
         "founder": "Michael Friedrich"
-      },
-      {
-        "name": "Mimic Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "ETH Zurich spinout team"
-      },
-      {
-        "name": "Tubulis",
-        "sector": "Biotech & Health",
-        "founder": "Dominik Schumacher, Jonas Helma-Smets, Christian Hackenberger"
       },
       {
         "name": "DeepDrive",
@@ -3674,49 +1256,9 @@
         "founder": "Felix Pörnbacher, Alexander Rosen"
       },
       {
-        "name": "Kraftblock",
-        "sector": "Climate & Energy",
-        "founder": "Martin Schichtel, Susanne König"
-      },
-      {
         "name": "cylib",
         "sector": "Climate & Energy",
         "founder": "Lilian Schwich, Gideon Schwich, Paul Sabarny"
-      },
-      {
-        "name": "Quantum Motion",
-        "sector": "Quantum Computing",
-        "founder": "John Morton, Simon Benjamin"
-      },
-      {
-        "name": "Monumo",
-        "sector": "Chips & Semiconductors",
-        "founder": "Dominic Vergine"
-      },
-      {
-        "name": "XMOS",
-        "sector": "Chips & Semiconductors",
-        "founder": "David May"
-      },
-      {
-        "name": "Causaly",
-        "sector": "Biotech & Health",
-        "founder": "Yiannis Kiachopoulos, Artur Saudabayev"
-      },
-      {
-        "name": "Black Forest Labs",
-        "sector": "AI & Software",
-        "founder": "Robin Rombach, Andreas Blattmann, Patrick Esser"
-      },
-      {
-        "name": "Vyoma",
-        "sector": "Space & Aerospace",
-        "founder": "Stefan Frey, Luisa Buinhas"
-      },
-      {
-        "name": "Atmos Space Cargo",
-        "sector": "Space & Aerospace",
-        "founder": "Sebastian Klaus, Marta Oliveira"
       },
       {
         "name": "Theion",
@@ -3724,39 +1266,9 @@
         "founder": "Ulrich Ehmes"
       },
       {
-        "name": "Neustark",
-        "sector": "Climate & Energy",
-        "founder": "Valentin Gutknecht, Johannes Tiefenthaler"
-      },
-      {
-        "name": "Orbem",
-        "sector": "Biotech & Health",
-        "founder": "Pedro Gomez, Maria Laparidou"
-      },
-      {
-        "name": "Calogena",
-        "sector": "Nuclear Energy",
-        "founder": "Frédéric Mariotte"
-      },
-      {
-        "name": "Hexana",
-        "sector": "Nuclear Energy",
-        "founder": "Gabriel Lévy"
-      },
-      {
         "name": "Dust",
         "sector": "AI & Software",
         "founder": "Gabriel Hubert, Stanislas Polu"
-      },
-      {
-        "name": "Photoroom",
-        "sector": "AI & Software",
-        "founder": "Matthieu Rouif, Eliot Andres"
-      },
-      {
-        "name": "Fossa Systems",
-        "sector": "Space & Aerospace",
-        "founder": "Julián Fernández, Vicente González"
       },
       {
         "name": "SpaceForest",
@@ -3769,21 +1281,6 @@
         "founder": "Megi Mejdrechová, Ladislav Dvořák, David Polák"
       },
       {
-        "name": "Ukrspecsystems",
-        "sector": "Defense & Security",
-        "founder": "Yuri Pashchenko"
-      },
-      {
-        "name": "Roboneers",
-        "sector": "Defense & Security",
-        "founder": "Anton Skrypnyk"
-      },
-      {
-        "name": "Cellcolabs",
-        "sector": "Biotech & Health",
-        "founder": "Mattias Bernow"
-      },
-      {
         "name": "Space Machines Company",
         "sector": "Space & Aerospace",
         "founder": "Rajat Kulshrestha"
@@ -3794,54 +1291,9 @@
         "founder": "William Crowe"
       },
       {
-        "name": "Manastu Space",
-        "sector": "Space & Aerospace",
-        "founder": "Tushar Jadhav, Ashtesh Kumar"
-      },
-      {
-        "name": "Kneron",
-        "sector": "Chips & Semiconductors",
-        "founder": "Albert Liu"
-      },
-      {
-        "name": "MakinaRocks",
-        "sector": "AI & Software",
-        "founder": "Sangmin Yoon"
-      },
-      {
-        "name": "DustPhotonics",
-        "sector": "Chips & Semiconductors",
-        "founder": "Ronnie Cohen, Arik Sandler"
-      },
-      {
-        "name": "Dream Security",
-        "sector": "Defense & Security",
-        "founder": "Shalev Hulio, Sebastian Kurz"
-      },
-      {
         "name": "Asterra",
         "sector": "Space & Aerospace",
         "founder": "Lauren Guy"
-      },
-      {
-        "name": "Vention",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Etienne Lacroix"
-      },
-      {
-        "name": "Kraken Robotics",
-        "sector": "Defense & Security",
-        "founder": "Karl Kenny"
-      },
-      {
-        "name": "Telesat Lightspeed",
-        "sector": "Space & Aerospace",
-        "founder": "Dan Goldberg (CEO)"
-      },
-      {
-        "name": "AbCellera",
-        "sector": "Biotech & Health",
-        "founder": "Carl Hansen"
       },
       {
         "name": "Svante",
@@ -3859,44 +1311,9 @@
         "founder": "Jonathan Lun"
       },
       {
-        "name": "xAI",
-        "sector": "AI & Software",
-        "founder": "Elon Musk"
-      },
-      {
-        "name": "Safe Superintelligence",
-        "sector": "AI & Software",
-        "founder": "Ilya Sutskever, Daniel Gross, Daniel Levy"
-      },
-      {
-        "name": "Thinking Machines Lab",
-        "sector": "AI & Software",
-        "founder": "Mira Murati, John Schulman, Barrett Zoph, Lilian Weng"
-      },
-      {
         "name": "World Labs",
         "sector": "AI & Software",
         "founder": "Fei-Fei Li, Justin Johnson, Christoph Lassner, Ben Mildenhall"
-      },
-      {
-        "name": "Luma AI",
-        "sector": "AI & Software",
-        "founder": "Amit Jain, Alex Yu"
-      },
-      {
-        "name": "Magic AI",
-        "sector": "AI & Software",
-        "founder": "Eric Steinberger, Sebastian De Ro"
-      },
-      {
-        "name": "Liquid AI",
-        "sector": "AI & Software",
-        "founder": "Ramin Hasani, Mathias Lechner, Alexander Amini, Daniela Rus"
-      },
-      {
-        "name": "SambaNova Systems",
-        "sector": "Chips & Semiconductors",
-        "founder": "Rodrigo Liang, Kunle Olukotun, Christopher Ré"
       },
       {
         "name": "Credo Semiconductor",
@@ -3909,11 +1326,6 @@
         "founder": "Independent spinout of Control Data (2024 reformation)"
       },
       {
-        "name": "Lightelligence",
-        "sector": "Chips & Semiconductors",
-        "founder": "Yichen Shen"
-      },
-      {
         "name": "Scout AI",
         "sector": "Defense & Security",
         "founder": "Colby Adcock, Collin Otis"
@@ -3924,34 +1336,9 @@
         "founder": "Matt McCue"
       },
       {
-        "name": "SiFly",
-        "sector": "Defense & Security",
-        "founder": "Chuhan Wang"
-      },
-      {
         "name": "Hyfix",
         "sector": "Defense & Security",
         "founder": "Undisclosed"
-      },
-      {
-        "name": "Red 6",
-        "sector": "Defense & Security",
-        "founder": "Daniel Robinson"
-      },
-      {
-        "name": "Portal Space Systems",
-        "sector": "Space & Aerospace",
-        "founder": "Jeff Thornburg, Ian Vorbach"
-      },
-      {
-        "name": "Sift",
-        "sector": "Space & Aerospace",
-        "founder": "Karthik Gollapudi, Austin Spiegel"
-      },
-      {
-        "name": "Stratolaunch",
-        "sector": "Space & Aerospace",
-        "founder": "Paul Allen (now Cerberus-owned)"
       },
       {
         "name": "Scout Space",
@@ -3964,11 +1351,6 @@
         "founder": "Nic Radford, Jerry Pratt"
       },
       {
-        "name": "Reflex Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Ravi Gondhalekar, Ben Kaplan"
-      },
-      {
         "name": "Nimble Robotics",
         "sector": "Robotics & Manufacturing",
         "founder": "Simon Kalouche"
@@ -3979,44 +1361,9 @@
         "founder": "Xiongyi Cui, Linxi Fan"
       },
       {
-        "name": "Bear Robotics",
-        "sector": "Robotics & Manufacturing",
-        "founder": "John Ha"
-      },
-      {
         "name": "Pivotal",
         "sector": "Transportation",
         "founder": "Marcus Leng"
-      },
-      {
-        "name": "Alef Aeronautics",
-        "sector": "Transportation",
-        "founder": "Jim Dukhovny, Constantine Kisly, Pavel Markin, Oleg Petrov"
-      },
-      {
-        "name": "Tomorrow.io",
-        "sector": "Space & Aerospace",
-        "founder": "Shimon Elkabetz, Rei Goffer, Itai Zlotnik"
-      },
-      {
-        "name": "Sofar Ocean",
-        "sector": "Ocean & Maritime",
-        "founder": "Tim Janssen, Brad Lassey, Alex Wight"
-      },
-      {
-        "name": "Ocean Infinity",
-        "sector": "Ocean & Maritime",
-        "founder": "Oliver Plunkett"
-      },
-      {
-        "name": "ICON",
-        "sector": "Housing & Construction",
-        "founder": "Jason Ballard, Alex Le Roux, Evan Loomis"
-      },
-      {
-        "name": "Brilliant Labs",
-        "sector": "Consumer Tech",
-        "founder": "Bobak Tavangar"
       },
       {
         "name": "Xaira Therapeutics",
@@ -4024,19 +1371,9 @@
         "founder": "Marc Tessier-Lavigne"
       },
       {
-        "name": "EvolutionaryScale",
-        "sector": "Biotech & Health",
-        "founder": "Alexander Rives, Tom Sercu, Salvatore Candido"
-      },
-      {
         "name": "Formation Bio",
         "sector": "Biotech & Health",
         "founder": "Benjamine Liu, Linhao Zhang"
-      },
-      {
-        "name": "Genesis Therapeutics",
-        "sector": "Biotech & Health",
-        "founder": "Evan Feinberg"
       },
       {
         "name": "Nabla Bio",
@@ -4049,39 +1386,9 @@
         "founder": "Tom Miller, Fred Manby, Matthew Welborn"
       },
       {
-        "name": "Chroma Medicine",
-        "sector": "Biotech & Health",
-        "founder": "Angus McQuilken, Vic Myer"
-      },
-      {
         "name": "Rondo Energy",
         "sector": "Climate & Energy",
         "founder": "John O'Donnell, Eric Trusiewicz"
-      },
-      {
-        "name": "Thea Energy",
-        "sector": "Nuclear Energy",
-        "founder": "Brian Berzin"
-      },
-      {
-        "name": "Sila Nanotechnologies",
-        "sector": "Climate & Energy",
-        "founder": "Gene Berdichevsky, Gleb Yushin"
-      },
-      {
-        "name": "Realta Fusion",
-        "sector": "Nuclear Energy",
-        "founder": "Kieran Furlong, Cary Forest"
-      },
-      {
-        "name": "Mitra Chem",
-        "sector": "Climate & Energy",
-        "founder": "Vivas Kumar, Will Fitzgerald"
-      },
-      {
-        "name": "Curio Solutions",
-        "sector": "Nuclear Energy",
-        "founder": "Ed McGinnis, Pete Zweifel"
       },
       {
         "name": "Nuclearn.ai",
@@ -4094,38 +1401,37 @@
         "founder": "Varun Sivaram"
       },
       {
-        "name": "Elementl Power",
-        "sector": "Nuclear Energy",
-        "founder": "Chris Colbert"
+        "name": "Lodge Systems",
+        "sector": "Defense & Security",
+        "founder": "Stuart Lodge"
       }
     ],
     "stage_vocabulary": {
-      "Series A": 226,
-      "Series B": 191,
-      "Seed": 139,
-      "Series C": 96,
-      "Public": 44,
+      "Series A": 220,
+      "Series B": 188,
+      "Seed": 135,
+      "Series C": 89,
+      "Public": 56,
       "Series D": 40,
-      "Growth": 28,
-      "Series E": 25,
-      "Series G": 13,
-      "Late Stage": 12,
-      "Pre-Seed": 10,
+      "Growth": 26,
+      "Series E": 22,
+      "Private": 13,
+      "Series G": 11,
+      "Late Stage": 11,
+      "Pre-Seed": 11,
+      "SPAC": 8,
       "Series F": 7,
-      "SPAC": 6,
-      "Public (Tokyo)": 3,
+      "Pre-IPO": 6,
+      "Acquired": 6,
       "Public (KOSDAQ)": 3,
-      "Pre-IPO": 2,
       "Bootstrapped": 2,
       "Series D+": 2,
-      "Private": 2,
+      "Public (Tokyo)": 2,
       "Seed+": 2,
       "IPO": 1,
-      "Series H": 1,
-      "Acquired": 1,
+      "Series A-1": 1,
       "Series L": 1,
       "Pre-Series B": 1,
-      "Public (ARBE)": 1,
       "Public (INVZ)": 1,
       "Public (ADX)": 1,
       "Sovereign (EDGE)": 1,
@@ -4133,11 +1439,142 @@
       "Private (Baykar-aligned)": 1,
       "Public (TSX)": 1,
       "Public (GPW)": 1,
-      "Public (TSX-V)": 1,
-      "Public (NASDAQ)": 1,
       "Series B+": 1
     },
     "web_probes": [
+      {
+        "kind": "rebrand_suspect",
+        "name": "Anduril Industries",
+        "old_url": "https://anduril.com",
+        "new_url": "https://www.anduril.com:443/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Blue Water Autonomy",
+        "old_url": "https://bluewaterautonomy.com",
+        "new_url": "https://www.blw.ai/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Aalo Atomics",
+        "url": "https://aaloatomics.com",
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Astro Mechanica",
+        "old_url": "https://astromechanica.com",
+        "new_url": "https://www.astromecha.co/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Nominal",
+        "url": "https://nominal.io",
+        "status": 403,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Senra Systems",
+        "old_url": "https://senrasystems.com",
+        "new_url": "https://www.senrasystems.us/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Xcimer Energy",
+        "old_url": "https://xcimerenergy.com",
+        "new_url": "https://xcimer.energy:443/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Extropic",
+        "url": "https://extropic.com",
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Substrate",
+        "url": "https://substrate.com",
+        "status": 404,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "The Boring Company",
+        "old_url": "https://theboringcompany.com",
+        "new_url": "https://www.boringcompany.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Matic Robotics",
+        "old_url": "https://maticrobotics.com",
+        "new_url": "https://maticrobots.com",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Firehawk Aerospace",
+        "old_url": "https://firehawkaerospace.com",
+        "new_url": "https://firehawkdefense.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "SkySafe",
+        "old_url": "https://skysafe.com",
+        "new_url": "https://www.skysafe.io/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Rune Technologies",
+        "url": "https://runetechnologies.co",
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Blue Origin",
+        "url": "https://blueorigin.com",
+        "status": 429,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Anysphere",
+        "old_url": "https://anysphere.co",
+        "new_url": "https://anysphere.inc/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Air Space Intelligence",
+        "old_url": "https://airspaceintelligence.com",
+        "new_url": "https://www.airspace-intelligence.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "AMP Robotics",
+        "url": "https://amprobotics.com",
+        "error": "ReadTimeout",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Antora Energy",
+        "old_url": "https://antoraenergy.com",
+        "new_url": "https://www.antora.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
       {
         "kind": "unreachable_website",
         "name": "Watoga Technologies",
@@ -4146,53 +1583,137 @@
         "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
+        "kind": "dead_website",
+        "name": "Overland AI",
+        "url": "https://overlandai.com",
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Primer AI",
+        "old_url": "https://primerai.com",
+        "new_url": "https://primer.ai/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Kodiak Robotics",
+        "old_url": "https://kodiakrobotics.com",
+        "new_url": "https://kodiak.ai/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Planet Labs",
+        "old_url": "https://planet.com",
+        "new_url": "https://www.planet.com:443/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Outpost Space",
+        "url": "https://outpostspace.com",
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Proteus Space",
+        "url": "https://proteus-space.com",
+        "status": 403,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "AST SpaceMobile",
+        "old_url": "https://astspacemobile.com",
+        "new_url": "https://ast-science.com/spacemobile-network/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Destinus",
+        "url": "https://destinus.ch",
+        "status": 429,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Mistral AI",
+        "old_url": "https://mistralai.com",
+        "new_url": "https://mistral.ai/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Crusoe Energy",
+        "old_url": "https://crusoeenergy.com",
+        "new_url": "https://www.crusoe.ai/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Redwood Materials",
+        "url": "https://redwoodmaterials.com",
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
+      },
+      {
         "kind": "unreachable_website",
-        "name": "Cache Energy",
-        "url": "https://www.cache.energy",
-        "error": "ConnectionError",
+        "name": "Natron Energy",
+        "url": "https://natron.energy",
+        "error": "ConnectTimeout",
         "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "unreachable_website",
-        "name": "Furno Materials",
-        "url": "https://furnomaterials.com",
-        "error": "ConnectionError",
+        "name": "Aurora Innovation",
+        "url": "https://aurora.tech",
+        "error": "ReadTimeout",
         "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "unreachable_website",
-        "name": "Rugged Robotics",
-        "url": "https://www.ruggedrobotics.com",
+        "name": "Nuro",
+        "url": "https://nuro.ai",
         "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
-      },
-      {
-        "kind": "unreachable_website",
-        "name": "Ideon Technologies",
-        "url": "https://www.ideontech.com",
-        "error": "SSLError",
         "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
-        "name": "Evolv Technology",
-        "old_url": "https://www.evolvtechnology.com",
-        "new_url": "https://evolv.com/",
+        "name": "Archer Aviation",
+        "old_url": "https://archeraviation.com",
+        "new_url": "https://archer.com/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
-        "name": "Sabanto",
-        "url": "https://www.sabanto.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "kind": "rebrand_suspect",
+        "name": "Whisper Aero",
+        "old_url": "https://whisperaero.com",
+        "new_url": "https://www.whisper.aero/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "QuEra Computing",
+        "old_url": "https://quera-computing.com",
+        "new_url": "https://www.quera.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Oxford Quantum Circuits",
+        "old_url": "https://oxfordquantumcircuits.com",
+        "new_url": "https://oqc.tech",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       }
     ]
   },
   "summary": {
-    "p0_issues": 5,
-    "p1_issues": 6,
-    "missing_websites": 806,
-    "distinct_stages": 36
+    "p0_issues": 27,
+    "p1_issues": 19,
+    "missing_websites": 264,
+    "distinct_stages": 33
   }
 }
