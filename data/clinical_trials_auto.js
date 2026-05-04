@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-05-03 08:28:36 UTC
+// Last updated: 2026-05-04 09:10:36 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05410977", title: "Collecting Blood and Stool Samples to Detect Colorectal Cancer or Advanced Neopl", status: "RECRUITING", phase: "N/A", sponsor: "Mayo Clinic", conditions: "Colorectal Carcinoma, Lynch Syndrome", enrollment: 750, lastUpdated: "2026-05-01" },
   { nctId: "NCT06144229", title: "Real-world Effectiveness of HPV Vaccine in Women Living With HIV and Its Impact ", status: "ENROLLING_BY_INVITATION", phase: "N/A", sponsor: "University of California, Los Angeles", conditions: "Hiv, Hpv", enrollment: 810, lastUpdated: "2026-05-01" },
