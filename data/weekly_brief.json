@@ -1,11 +1,25 @@
 {
-  "date": "2026-05-03",
-  "display_date": "May 03, 2026",
-  "generated_at": "2026-05-03T10:17:43.795875+00:00",
-  "cutoff": "2026-04-26T10:17:43.795875+00:00",
-  "section_count": 7,
-  "total_items": 252,
+  "date": "2026-05-04",
+  "display_date": "May 04, 2026",
+  "generated_at": "2026-05-04T11:55:38.046415+00:00",
+  "cutoff": "2026-04-27T11:55:38.046415+00:00",
+  "section_count": 8,
+  "total_items": 245,
   "sections": [
+    {
+      "title": "Top Score Movers",
+      "icon": "\ud83d\udcc8",
+      "count": 1,
+      "items": [
+        {
+          "company": "IonQ",
+          "current": 85.0,
+          "previous": 81.0,
+          "change": 4.0,
+          "tier": "exceptional"
+        }
+      ]
+    },
     {
       "title": "New Funding Rounds",
       "icon": "\ud83d\udcb0",
@@ -30,7 +44,7 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 27,
+      "count": 22,
       "items": [
         {
           "company": "Virgin Galactic",
@@ -124,65 +138,63 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 37,
+      "count": 32,
       "items": [
         {
-          "title": "Privacy Act of 1974; System of Records",
+          "title": "Sentencing Guidelines for United States Courts",
           "type": "Notice",
           "agencies": [
-            "Postal Service"
+            "United States Sentencing Commission"
           ],
           "significant": false,
-          "date": "2026-04-30"
+          "date": "2026-05-04"
         },
         {
-          "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request for Information",
+          "title": "Establishment of Class D and Class E Airspace; Ceiba, PR",
+          "type": "Rule",
+          "agencies": [
+            "Transportation Department",
+            "Federal Aviation Administration"
+          ],
+          "significant": false,
+          "date": "2026-05-04"
+        },
+        {
+          "title": "Reimagining and Improving Student Education-Federal Student Loan Program Final Regulations",
+          "type": "Rule",
+          "agencies": [
+            "Education Department"
+          ],
+          "significant": false,
+          "date": "2026-05-01"
+        },
+        {
+          "title": "Licensing Requirements for Microreactors and Other Reactors With Comparable Risk Profiles",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-05-01"
+        },
+        {
+          "title": "Request for Qualified Candidates for Appointment to the Advisory Committee on Reactor Safeguards",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-05-01"
+        },
+        {
+          "title": "Medical Devices; Exemptions From Premarket Notification: Certain Class II Devices; Request for Comments",
           "type": "Notice",
           "agencies": [
             "Health and Human Services Department",
             "Food and Drug Administration"
           ],
           "significant": false,
-          "date": "2026-04-29"
-        },
-        {
-          "title": "Request for Information",
-          "type": "Notice",
-          "agencies": [
-            "National Science Foundation"
-          ],
-          "significant": false,
-          "date": "2026-04-28"
-        },
-        {
-          "title": "Draft Supplemental Environmental Assessment for Fisheries Research Conducted and Funded by the Southwest Fisheries Scien",
-          "type": "Notice",
-          "agencies": [
-            "Commerce Department",
-            "National Oceanic and Atmospheric Administration"
-          ],
-          "significant": false,
           "date": "2026-05-01"
-        },
-        {
-          "title": "Establishment of Prohibited Area P-75; New York, NY",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Transportation Department",
-            "Federal Aviation Administration"
-          ],
-          "significant": false,
-          "date": "2026-04-30"
-        },
-        {
-          "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Military Readiness Activities in the Mariana Is",
-          "type": "Notice",
-          "agencies": [
-            "Commerce Department",
-            "National Oceanic and Atmospheric Administration"
-          ],
-          "significant": false,
-          "date": "2026-04-28"
         }
       ]
     },
@@ -199,11 +211,18 @@
           "type": "ipo"
         },
         {
-          "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
-          "source": "TechCrunch",
-          "company": "Anthropic",
-          "impact": "high",
-          "type": "funding"
+          "title": "The Humanoid Robot Market Is Smaller Than It Looks",
+          "source": "CleanTechnica",
+          "company": "Humanoid",
+          "impact": "low",
+          "type": "hire"
+        },
+        {
+          "title": "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
+          "source": "CleanTechnica",
+          "company": "Solar Foods",
+          "impact": "low",
+          "type": "news"
         },
         {
           "title": "SpaceX Starship Flight 12 May 12",
@@ -239,78 +258,69 @@
           "company": "Humanoid",
           "impact": "low",
           "type": "news"
-        },
-        {
-          "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI ",
-          "source": "MIT Tech Review",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "hire"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 52,
+      "count": 54,
       "items": [
         {
           "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
-          "score": 1128,
-          "comments": 563,
+          "score": 1474,
+          "comments": 820,
           "companies": [
             "Photonic Inc"
           ],
           "url": "https://news.ycombinator.com/item?id=47989883"
         },
         {
-          "title": "Ti-84 Evo",
-          "score": 579,
-          "comments": 469,
+          "title": "Mercedes-Benz commits to bringing back physical buttons",
+          "score": 696,
+          "comments": 392,
           "companies": [
-            "Synthesis",
-            "Alpha School"
+            "Apptronik"
           ],
-          "url": "https://news.ycombinator.com/item?id=47979583"
-        },
-        {
-          "title": "Show HN: WhatCable, a tiny menu bar app for inspecting USB-C cables",
-          "score": 537,
-          "comments": 161,
-          "companies": [
-            "Tenstorrent",
-            "Xanadu Quantum Technologies",
-            "Built Robotics"
-          ],
-          "url": "https://news.ycombinator.com/item?id=47972511"
+          "url": "https://news.ycombinator.com/item?id=47997418"
         },
         {
           "title": "Dav2d",
-          "score": 456,
-          "comments": 123,
+          "score": 605,
+          "comments": 174,
           "companies": [
             "Runway"
           ],
           "url": "https://news.ycombinator.com/item?id=47988504"
         },
         {
-          "title": "City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo",
-          "score": 455,
-          "comments": 122,
+          "title": "DeepClaude \u2013 Claude Code agent loop with DeepSeek V4 Pro",
+          "score": 435,
+          "comments": 164,
           "companies": [
-            "Attio",
-            "Flock Safety"
+            "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=47978370"
+          "url": "https://news.ycombinator.com/item?id=48002136"
         },
         {
-          "title": "New research suggests people can communicate and practice skills while dreaming",
-          "score": 445,
-          "comments": 260,
+          "title": "OpenAI\u2019s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+          "score": 389,
+          "comments": 331,
           "companies": [
-            "Sakana AI"
+            "QuEra Computing",
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=47977748"
+          "url": "https://news.ycombinator.com/item?id=47991981"
+        },
+        {
+          "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
+          "score": 361,
+          "comments": 217,
+          "companies": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47993235"
         }
       ]
     },
@@ -320,37 +330,37 @@
       "count": 112,
       "items": [
         {
-          "title": "Golden Tempo Wins the 152nd Running of the Kentucky Derby Presented by Woodford Reserve",
+          "title": "Ambarella Announces First Quarter Fiscal Year 2027 Earnings Conference Call to be Held May 28, 2026",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Alaris Provides Further Clarification to Unitholder Meeting Matters",
+          "title": "SKAGI: Reglubundin tilkynning um kaup \u00e1 eigin br\u00e9fum \u00ed samr\u00e6mi vi\u00f0 endurkaupa\u00e1\u00e6tlun \u2013 vika 18",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Sigenergy Releases 2025 Environmental, Social, and Governance (ESG) Report",
+          "title": "REITIR: Framkv\u00e6md endurkaupa\u00e1\u00e6tlunar \u00ed viku 18",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "PROACTIS SA - Press Release (nomination R Archer and P Dennant)",
+          "title": "Anmodning om oph\u00f8r af suspension af \u00e9n afdeling under Investeringsforeningen Sydinvest.",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "PROACTIS SA - Communiqu\u00e9 de presse (d\u00e9signation R. Archer et P. Dennant)",
+          "title": "Bavarian Nordic \u2013 Transactions in Connection with Share Buy-Back Program",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Resultados dos Relat\u00f3rios da Mohawk Industries do 1\u00ba Trimestre de 2026",
+          "title": "Bavarian Nordic \u2013 transaktioner i forbindelse med aktietilbagek\u00f8bsprogram",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-05-03-f44292ded428"
+  "brief_id": "brief-2026-05-04-39d7ac8af4bf"
 }
