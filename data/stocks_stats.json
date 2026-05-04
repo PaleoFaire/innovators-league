@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 8.4,
+      "avg_change": 10.79,
       "count": 7
     },
     "nuclear": {
@@ -59,6 +59,11 @@
   },
   "topGainers": [
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      28.89
+    ],
+    [
       "AUR",
       "Aurora Innovation",
       24.85
@@ -71,12 +76,7 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      12.42
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      11.67
+      11.93
     ],
     [
       "QBTS",
@@ -111,5 +111,5 @@
       -9.08
     ]
   ],
-  "lastUpdated": "2026-05-04 03:35:32"
+  "lastUpdated": "2026-05-04 08:35:28"
 }
