@@ -1,0 +1,607 @@
+{
+  "generatedAt": "2026-05-04T09:19:50+00:00",
+  "model": "claude-haiku-4-5",
+  "cohortFile": "data/cohort_companies_weekly.json",
+  "cohortSize": 89,
+  "newExtractionsThisRun": 52,
+  "summary": {
+    "cleared": 67,
+    "changesProposed": 6,
+    "unverifiable": 16
+  },
+  "cleared": [
+    "1X Technologies",
+    "ABL Bio",
+    "ADASI",
+    "AIR",
+    "ARX Robotics",
+    "Aeon Industrial",
+    "Aerospacelab",
+    "Aeva Technologies",
+    "AiDash",
+    "Allen Control Systems",
+    "Amber Bio",
+    "Anduril Industries",
+    "Anthropic",
+    "Anysphere",
+    "Apis Cor",
+    "Archer Materials",
+    "Ares Industries",
+    "Ark Robotics",
+    "Ascend Elements",
+    "Asimov",
+    "Astranis",
+    "Axelera AI",
+    "Axelspace",
+    "Ayar Labs",
+    "BRINC Drones",
+    "Bedrock Robotics",
+    "Bethlehem Steel Corp",
+    "Black Forest Labs",
+    "Blackshark.ai",
+    "Blykalla",
+    "Boom Supersonic",
+    "BotBuilt",
+    "Built Robotics",
+    "CORE POWER",
+    "Cailabs",
+    "Calogena",
+    "Candela",
+    "Cascade Space",
+    "Cellares",
+    "Cerebras",
+    "Chariot Defense",
+    "Chef Robotics",
+    "ClearSpace",
+    "Cognition",
+    "Cohere",
+    "Corintis",
+    "Cresilon",
+    "Crusoe Energy",
+    "Cuby Technologies",
+    "DEEPX",
+    "DefSecIntel",
+    "Defense Unicorns",
+    "Dexterity",
+    "Dhruva Space",
+    "Dream Security",
+    "Dust",
+    "DustPhotonics",
+    "Dusty Robotics",
+    "Electric Hydrogen",
+    "ElevenLabs",
+    "Elroy Air",
+    "Endurosat",
+    "Enovix",
+    "Epirus",
+    "Epoch Biodesign",
+    "EvolutionaryScale",
+    "Evolv Technology"
+  ],
+  "changesProposed": [
+    {
+      "name": "Agile Robots",
+      "current": {
+        "name": "Agile Robots",
+        "founder": "Zhaopeng Chen, Peter Meusel",
+        "location": "Munich, Germany",
+        "founded": 2018,
+        "fundingStage": "Series C",
+        "totalRaised": "~$384M",
+        "website": null
+      },
+      "verified": {
+        "name": "Agile Robots",
+        "description": "Founded in 2018 by robotics researchers from the German Aerospace Center, Agile Robots develops AI-driven robotics and automation solutions for automotive, consumer electronics, healthcare and service industries.",
+        "founders": null,
+        "location": "Munich, Germany",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://agile-robots.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] mentions 'a passionate team of robotics researchers from the German Aerospace Center' but does not explicitly name individual founders. News items reference acquisition of thyssenkrupp Automation Engineering (April 2026) and partnership with Google DeepMind (March 2026), but these are headlines only without detail in provided source. Current_stage, total_raised, valuation, and specific investor names cannot be verified from source [0] alone."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://agile-robots.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://agile-robots.com"
+        }
+      ],
+      "notes": "Source [0] mentions 'a passionate team of robotics researchers from the German Aerospace Center' but does not explicitly name individual founders. News items reference acquisition of thyssenkrupp Automation Engineering (April 2026) and partnership with Google DeepMind (March 2026), but these are headlines only without detail in provided source. Current_stage, total_raised, valuation, and specific investor names cannot be verified from source [0] alone."
+    },
+    {
+      "name": "AlixLabs",
+      "current": {
+        "name": "AlixLabs",
+        "founder": "Jonas Sundqvist, Dmitry Suyatin, Amin Karimi",
+        "location": "Lund, Sweden",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "$14.1M EUR",
+        "website": "https://www.alixlabs.com"
+      },
+      "verified": {
+        "name": "AlixLabs",
+        "description": "Swedish semiconductor equipment supplier using Atomic Layer Etching (ALE) process technology to manufacture nanostructures with characteristic sizes smaller than 20 nanometers, enabling fabrication beyond the resolution limits of optical and electron beam lithography.",
+        "founders": [
+          "Jonas Sundqvist",
+          "Dmitry Suyatin",
+          "Amin Karimi"
+        ],
+        "location": "Lund, Sweden",
+        "founded_year": 2019,
+        "current_stage": "Series A",
+        "total_raised": "\u20ac15M",
+        "valuation": null,
+        "investors": [
+          "Navigare Ventures",
+          "Industrifonden",
+          "FORWARD.one",
+          "Global Brain",
+          "Almi Invest",
+          "Stephen Industries"
+        ],
+        "website": "https://www.alixlabs.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            0,
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Series A funding closed in April 2026 with \u20ac15M total (\u20ac14.1M announced November 2025, additional \u20ac0.9M from Stephen Industries in April 2026). Company was spun off from Lund University. Amin Karimi listed as Co-Founder but joined in 2021, not 2019 founding."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$14.1M EUR",
+          "verified": "\u20ac15M",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.alixlabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.alixlabs.com/about"
+        }
+      ],
+      "notes": "Series A funding closed in April 2026 with \u20ac15M total (\u20ac14.1M announced November 2025, additional \u20ac0.9M from Stephen Industries in April 2026). Company was spun off from Lund University. Amin Karimi listed as Co-Founder but joined in 2021, not 2019 founding."
+    },
+    {
+      "name": "Applied Intuition",
+      "current": {
+        "name": "Applied Intuition",
+        "founder": "Qasar Younis, Peter Ludwig",
+        "location": "Sunnyvale, California",
+        "founded": 2017,
+        "fundingStage": "Series F",
+        "totalRaised": "$1.2B+",
+        "website": "https://appliedintuition.com"
+      },
+      "verified": {
+        "name": "Applied Intuition",
+        "description": "Develops software platforms and simulation tools for physical AI, providing autonomy stacks for road vehicles, industrial machines, and defense systems. Works with 18 of the 20 largest global OEMs, autonomy startups, and defense companies.",
+        "founders": [
+          "Qasar Younis",
+          "Peter Ludwig"
+        ],
+        "location": "Sunnyvale, California",
+        "founded_year": 2017,
+        "current_stage": "Series F",
+        "total_raised": "$600M+",
+        "valuation": "$15B",
+        "investors": [
+          "Andreessen Horowitz",
+          "Fidelity Investments",
+          "Lux Capital",
+          "General Catalyst",
+          "BlackRock-managed funds",
+          "Kleiner Perkins",
+          "Franklin Templeton",
+          "Qatar Investment Authority"
+        ],
+        "website": "https://appliedintuition.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Series F funding ($600M) and valuation ($15B) announced June 2025 per Wikipedia source. Previous valuation was $6B in 2024. Founded January 2017. Marc Andreessen joined as board member in 2017."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$1.2B+",
+          "verified": "$600M+",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://appliedintuition.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://appliedintuition.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Applied_Intuition"
+        }
+      ],
+      "notes": "Series F funding ($600M) and valuation ($15B) announced June 2025 per Wikipedia source. Previous valuation was $6B in 2024. Founded January 2017. Marc Andreessen joined as board member in 2017."
+    },
+    {
+      "name": "Basecamp Research",
+      "current": {
+        "name": "Basecamp Research",
+        "founder": "Oliver Vince, Glen Gowers",
+        "location": "London, UK",
+        "founded": 2020,
+        "fundingStage": "Series B",
+        "totalRaised": "$85M",
+        "website": null
+      },
+      "verified": {
+        "name": "Basecamp Research",
+        "description": null,
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://basecamp-research.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] is a privacy policy page only. No factual company information (description, founders, location, funding, stage) could be verified from the provided sources. The database entry references cannot be used as source material per instructions."
+      },
+      "changes": [
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://basecamp-research.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://basecamp-research.com"
+        }
+      ],
+      "notes": "Source [0] is a privacy policy page only. No factual company information (description, founders, location, funding, stage) could be verified from the provided sources. The database entry references cannot be used as source material per instructions."
+    },
+    {
+      "name": "Baykar",
+      "current": {
+        "name": "Baykar",
+        "founder": "Sel\u00e7uk Bayraktar, Haluk Bayraktar",
+        "location": "Istanbul, Turkey",
+        "founded": 1984,
+        "fundingStage": "Private",
+        "totalRaised": "Not disclosed",
+        "website": "https://www.baykartech.com"
+      },
+      "verified": {
+        "name": "Baykar",
+        "description": "Turkish defense company specializing in unmanned aerial vehicles (UAVs) and combat drones including the TB2, TB3, Ak\u0131nc\u0131, and K\u0131z\u0131lelma models, with operations in 37 export countries.",
+        "founders": [
+          "\u00d6zdemir Bayraktar"
+        ],
+        "location": "Istanbul, Turkey",
+        "founded_year": 1984,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.baykartech.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Wikipedia lists founding year as 1984, while company website states 1986 in 'Baykar in Numbers' section. Wikipedia is more detailed and consistent. \u00d6zdemir Bayraktar (founder) died October 18, 2021. Company acquired Piaggio Aerospace on December 27, 2024. Leonardo and Baykar agreed to cooperate on UAVs on March 6, 2025. Database entry claims $1.8B 2024 exports and ~$10B valuation but these are not verifiable from provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Sel\u00e7uk Bayraktar, Haluk Bayraktar",
+          "verified": "\u00d6zdemir Bayraktar",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.baykartech.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.baykartech.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baykar"
+        }
+      ],
+      "notes": "Wikipedia lists founding year as 1984, while company website states 1986 in 'Baykar in Numbers' section. Wikipedia is more detailed and consistent. \u00d6zdemir Bayraktar (founder) died October 18, 2021. Company acquired Piaggio Aerospace on December 27, 2024. Leonardo and Baykar agreed to cooperate on UAVs on March 6, 2025. Database entry claims $1.8B 2024 exports and ~$10B valuation but these are not verifiable from provided sources."
+    },
+    {
+      "name": "Electra",
+      "current": {
+        "name": "Electra",
+        "founder": "Sandeep Nijhawan, Quoc Pham",
+        "location": "Boulder, CO",
+        "founded": 2020,
+        "fundingStage": "Series B",
+        "totalRaised": "$299M",
+        "website": null
+      },
+      "verified": {
+        "name": null,
+        "description": null,
+        "founders": null,
+        "location": "Brooklyn, NY",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://electra.com",
+        "sources_per_field": {
+          "location": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "The sources provided describe Electra as a 120V induction stove manufacturer (sources 0-1), not the iron ore refining company described in the database entry. Source 2 is about Greek mythology and irrelevant. The database entry describes a completely different company (steel/iron ore processing via electrochemistry). No verified information about founders, founding year, funding, stage, or valuation could be found in these sources for either company."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Boulder, CO",
+          "verified": "Brooklyn, NY",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://electra.com",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://electra.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://electra.com/about-us"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Electra"
+        }
+      ],
+      "notes": "The sources provided describe Electra as a 120V induction stove manufacturer (sources 0-1), not the iron ore refining company described in the database entry. Source 2 is about Greek mythology and irrelevant. The database entry describes a completely different company (steel/iron ore processing via electrochemistry). No verified information about founders, founding year, funding, stage, or valuation could be found in these sources for either company."
+    }
+  ],
+  "unverifiable": [
+    {
+      "name": "44.01",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "AAVantgarde Bio",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "ARC Clean Technology",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Aestus Industries",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Ambient Photonics",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Ambient.ai",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Atomic AI",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Cambridge Aerospace",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Collaborative Robotics",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Creotech Instruments",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "DIRAC",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Dendra Systems",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Digantara",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Distalmotion",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Emelody",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Ephos",
+      "reason": "no public sources accessible"
+    }
+  ]
+}
