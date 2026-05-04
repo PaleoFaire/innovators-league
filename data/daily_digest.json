@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T11:58:11.092118+00:00",
+  "generatedAt": "2026-05-04T14:24:09.039476+00:00",
   "date": "2026-05-04",
   "dateDisplay": "Monday, May 04, 2026",
   "sections": {
@@ -79,16 +79,23 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.13,
-        "changePercent": 24.85,
-        "change": 1.22
+        "price": 6.41,
+        "changePercent": 27.94,
+        "change": 1.4
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 7.18,
-        "changePercent": 16.37,
-        "change": 1.01
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 14.45,
+        "changePercent": -13.61,
+        "change": -2.27
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 21.05,
+        "changePercent": 11.97,
+        "change": 2.25
       },
       {
         "ticker": "277810.KQ",
@@ -98,32 +105,25 @@
         "change": 73000.0
       },
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 20.49,
-        "changePercent": 10.82,
-        "change": 2.0
-      },
-      {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 15.02,
-        "changePercent": -9.08,
-        "change": -1.5
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 9.25,
-        "changePercent": 8.82,
-        "change": 0.75
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 69.14,
+        "changePercent": -10.44,
+        "change": -8.06
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 46.2,
-        "changePercent": 8.22,
-        "change": 3.51
+        "price": 48.03,
+        "changePercent": 9.57,
+        "change": 4.19
+      },
+      {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 23.39,
+        "changePercent": -9.2,
+        "change": -2.37
       }
     ],
     "regulatory": [
