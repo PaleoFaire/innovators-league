@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T06:48:12+00:00",
+  "generatedAt": "2026-05-04T11:58:55+00:00",
   "matrix": {
     "space-launch-small-intl": {
       "2026-Q2": {
@@ -459,21 +459,14 @@
     },
     "nuclear-microreactor": {
       "2026-Q2": {
-        "deals": 2,
-        "totalSold": 369415,
+        "deals": 1,
+        "totalSold": null,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
             "name": "Antares",
             "amount": 0,
             "date": "2026-04-27",
-            "source": "formd",
-            "investors": []
-          },
-          {
-            "name": "Valar Atomics",
-            "amount": 369415,
-            "date": "2026-04-23",
             "source": "formd",
             "investors": []
           }
@@ -490,146 +483,6 @@
             "amount": null,
             "date": "2025-06",
             "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "humanoid-robotics": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 301745,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Apptronik",
-            "amount": 301745,
-            "date": "2026-04-23",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          },
-          {
-            "name": "Neura Robotics",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "ai-generative-media": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 5309737,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "ElevenLabs",
-            "amount": 5309737,
-            "date": "2026-04-22",
-            "source": "formd",
-            "investors": [
-              "Andreessen Horowitz",
-              "Sequoia Capital",
-              "ICONIQ Growth",
-              "NEA",
-              "World Innovation Lab",
-              "Valor",
-              "Endeavor Catalyst Fund",
-              "Lunate",
-              "Deutsche Telekom",
-              "LG Technology Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Sequoia Capital"
-        ]
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "ElevenLabs",
-            "amount": null,
-            "date": "2025-11",
-            "source": "recentEvent",
-            "investors": [
-              "Andreessen Horowitz",
-              "Sequoia Capital",
-              "ICONIQ Growth",
-              "NEA",
-              "World Innovation Lab",
-              "Valor",
-              "Endeavor Catalyst Fund",
-              "Lunate",
-              "Deutsche Telekom",
-              "LG Technology Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Sequoia Capital"
-        ]
-      },
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Gladia",
-            "amount": null,
-            "date": "2025-07",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "trapped-ion-quantum": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 1307054,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "AQT",
-            "amount": 1307054,
-            "date": "2026-04-22",
-            "source": "formd",
             "investors": []
           }
         ],
@@ -844,6 +697,41 @@
         "investors": []
       }
     },
+    "humanoid-robotics": {
+      "2025-Q4": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          },
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
     "brain-computer-interface": {
       "2026-Q1": {
         "deals": 1,
@@ -927,9 +815,7 @@
             ]
           }
         ],
-        "investors": [
-          "Thrive Capital"
-        ]
+        "investors": []
       }
     },
     "manufacturing-reshoring": {
@@ -1033,6 +919,51 @@
             "name": "Pacific Fusion",
             "amount": null,
             "date": "2025-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-generative-media": {
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "ElevenLabs",
+            "amount": null,
+            "date": "2025-11",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Sequoia Capital",
+              "ICONIQ Growth",
+              "NEA",
+              "World Innovation Lab",
+              "Valor",
+              "Endeavor Catalyst Fund",
+              "Lunate",
+              "Deutsche Telekom",
+              "LG Technology Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Sequoia Capital"
+        ]
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Gladia",
+            "amount": null,
+            "date": "2025-07",
             "source": "recentEvent",
             "investors": []
           }
@@ -1336,24 +1267,6 @@
         }
       ]
     },
-    "Sequoia Capital": {
-      "2026-Q2": [
-        {
-          "company": "ElevenLabs",
-          "cluster": "ai-generative-media",
-          "date": "2026-04-22",
-          "source": "formd"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "ElevenLabs",
-          "cluster": "ai-generative-media",
-          "date": "2025-11",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1504,12 +1417,12 @@
         }
       ]
     },
-    "Thrive Capital": {
-      "2026-Q2": [
+    "Sequoia Capital": {
+      "2025-Q4": [
         {
-          "company": "Anysphere",
-          "cluster": "ai-code-generation",
-          "date": "2026-05",
+          "company": "ElevenLabs",
+          "cluster": "ai-generative-media",
+          "date": "2025-11",
           "source": "recentEvent"
         }
       ]
@@ -1526,11 +1439,11 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 74,
-    "totalUSDSold": 630635411,
-    "uniqueClusters": 41,
+    "totalDealsTracked": 70,
+    "totalUSDSold": 623347460,
+    "uniqueClusters": 40,
     "uniqueQuarters": 8,
-    "uniqueVCs": 16,
+    "uniqueVCs": 15,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"

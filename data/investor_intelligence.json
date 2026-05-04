@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-04T06:48:11+00:00",
+  "generatedAt": "2026-05-04T11:58:54+00:00",
   "stats": {
     "companies": 872,
     "vcFirms": 31,
-    "uniqueClusters": 81,
-    "totalInvestments": 154
+    "uniqueClusters": 80,
+    "totalInvestments": 153
   },
   "concentration": {
     "Founders Fund": {
@@ -866,14 +866,6 @@
         "count": 1,
         "companies": [
           "Enovix"
-        ]
-      }
-    },
-    "Thrive Capital": {
-      "ai-code-generation": {
-        "count": 1,
-        "companies": [
-          "Anysphere"
         ]
       }
     },
@@ -1800,13 +1792,6 @@
         "share": 1.0
       }
     ],
-    "ai-code-generation": [
-      {
-        "vc": "Thrive Capital",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
     "autonomy-delivery-logistics": [
       {
         "vc": "Shield Capital",
@@ -2399,14 +2384,6 @@
       "totalCount": 2,
       "score": 0.0,
       "topCluster": "defense-munitions-energetics",
-      "recentExamples": []
-    },
-    {
-      "vc": "Thrive Capital",
-      "recentCount": 0,
-      "totalCount": 1,
-      "score": 0.0,
-      "topCluster": "ai-code-generation",
       "recentExamples": []
     }
   ],

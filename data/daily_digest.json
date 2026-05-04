@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T06:47:28.389472+00:00",
+  "generatedAt": "2026-05-04T11:58:11.092118+00:00",
   "date": "2026-05-04",
   "dateDisplay": "Monday, May 04, 2026",
   "sections": {
@@ -70,6 +70,13 @@
     ],
     "marketMovers": [
       {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 731.0,
+        "changePercent": 28.89,
+        "change": 163.85
+      },
+      {
         "ticker": "AUR",
         "company": "Aurora Innovation",
         "price": 6.13,
@@ -86,16 +93,9 @@
       {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
-        "price": 688000.0,
-        "changePercent": 12.42,
-        "change": 76000.0
-      },
-      {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 614.05,
-        "changePercent": 11.67,
-        "change": 64.15
+        "price": 685000.0,
+        "changePercent": 11.93,
+        "change": 73000.0
       },
       {
         "ticker": "QBTS",
@@ -151,23 +151,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Suppl",
+        "title": "Establishment of Class D and Class E Airspace; Ceiba, PR",
         "date": "2026-05-04",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08611"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08645"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Draft Supplemental Environmental Assessment for Fisheries Research Conducted and",
+        "title": "Licensing Requirements for Microreactors and Other Reactors With Comparable Risk",
         "date": "2026-05-01",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08503"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08550"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Scaling Critical Suppliers in Domestic Supply Chains",
+        "title": "Request for Qualified Candidates for Appointment to the Advisory Committee on Re",
         "date": "2026-05-01",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08554"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08526"
       }
     ],
     "patents": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR +24.9%"
+    "topMover": "IDEAFORGE.NS +28.9%"
   }
 }
