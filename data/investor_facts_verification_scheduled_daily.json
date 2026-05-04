@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-05-03T07:49:32+00:00",
+  "generatedAt": "2026-05-04T08:19:08+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 3,
   "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 1,
-    "changesProposed": 2,
+    "cleared": 2,
+    "changesProposed": 1,
     "unverifiable": 0
   },
   "cleared": [
-    "Alumni Ventures"
+    "Alumni Ventures",
+    "Future Ventures"
   ],
   "changesProposed": [
     {
@@ -61,11 +62,9 @@
             0
           ],
           "founded_year": [
-            1,
             3
           ],
           "hq": [
-            1,
             3
           ],
           "sector_focus": [
@@ -81,7 +80,7 @@
             3
           ]
         },
-        "notes": "Engine Ventures is the investment fund that separated from The Engine (nonprofit incubator/accelerator) in 2023. The Engine itself remains a 501(c)(3) nonprofit as of 2025. Source [3] indicates the fund 'separated from The Engine and rebranded as the venture capital firm Engine Ventures' in 2023. Current senior partners and AUM figures not explicitly stated in provided sources."
+        "notes": "Engine Ventures spun out as separate investment firm in 2023 from The Engine nonprofit incubator/accelerator (founded 2016 by MIT). The Engine is a 501(c)(3) nonprofit as of 2025. Source [4] is unrelated to Engine Ventures and not used. Current partners and AUM not explicitly named in sources."
       },
       "changes": [
         {
@@ -147,101 +146,7 @@
           "url": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
         }
       ],
-      "notes": "Engine Ventures is the investment fund that separated from The Engine (nonprofit incubator/accelerator) in 2023. The Engine itself remains a 501(c)(3) nonprofit as of 2025. Source [3] indicates the fund 'separated from The Engine and rebranded as the venture capital firm Engine Ventures' in 2023. Current senior partners and AUM figures not explicitly stated in provided sources."
-    },
-    {
-      "name": "Future Ventures",
-      "current": {
-        "name": "Future Ventures",
-        "shortName": "Future",
-        "aum": "$500M",
-        "flagshipFund": "Future Ventures Fund III",
-        "founded": 2018,
-        "hq": "Menlo Park, CA",
-        "website": "https://future.ventures"
-      },
-      "verified": {
-        "name": "Future Ventures",
-        "short_name": null,
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
-        "key_partners": [
-          "Steve Jurvetson",
-          "Maryanna Saenko",
-          "NICO Enriquez"
-        ],
-        "sector_focus": null,
-        "thesis": "Future Ventures focuses on seed and early-stage investments in trailblazing, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries. The firm backs visionaries at the cutting edge of disruptive technology and new industry formation.",
-        "website": "https://future.ventures",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "key_partners": [
-            0,
-            1,
-            2
-          ],
-          "thesis": [
-            0,
-            1
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Website states 'For the past 25 years' (source 0, 1) backing visionary founders, but no specific founding year provided in sources. AUM, flagship fund name, and HQ location not stated in sources. Sector focus cannot be verified from explicit sector lists on firm site\u2014only inferred from individual investment examples. Founded year in database entry (2018) contradicts 'past 25 years' language."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "Future Ventures focuses on seed and early-stage investments in mission-driven, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries. The firm backs visionaries at the cutting edge of disruptive technology and new industry formation.",
-          "verified": "Future Ventures focuses on seed and early-stage investments in trailblazing, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries. The firm backs visionaries at the cutting edge of disruptive technology and new industry formation.",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://future.ventures"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://future.ventures/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/team",
-          "url": "https://future.ventures/team"
-        },
-        {
-          "idx": 3,
-          "src": "firm/investments",
-          "url": "https://future.ventures/investments"
-        },
-        {
-          "idx": 4,
-          "src": "wikipedia (short name)",
-          "url": "https://en.wikipedia.org/wiki/Future"
-        },
-        {
-          "idx": 5,
-          "src": "news (IEEE Spectrum)",
-          "url": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
-        }
-      ],
-      "notes": "Website states 'For the past 25 years' (source 0, 1) backing visionary founders, but no specific founding year provided in sources. AUM, flagship fund name, and HQ location not stated in sources. Sector focus cannot be verified from explicit sector lists on firm site\u2014only inferred from individual investment examples. Founded year in database entry (2018) contradicts 'past 25 years' language."
+      "notes": "Engine Ventures spun out as separate investment firm in 2023 from The Engine nonprofit incubator/accelerator (founded 2016 by MIT). The Engine is a 501(c)(3) nonprofit as of 2025. Source [4] is unrelated to Engine Ventures and not used. Current partners and AUM not explicitly named in sources."
     }
   ],
   "unverifiable": []
