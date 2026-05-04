@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 8.15,
+      "avg_change": 8.4,
       "count": 7
     },
     "nuclear": {
@@ -69,6 +69,11 @@
       16.37
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      12.42
+    ],
+    [
       "IDEAFORGE.NS",
       "ideaForge",
       11.67
@@ -77,11 +82,6 @@
       "QBTS",
       "D-Wave Quantum",
       10.82
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      10.67
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -9.08
     ]
   ],
-  "lastUpdated": "2026-05-03 19:06:18"
+  "lastUpdated": "2026-05-04 03:35:32"
 }
