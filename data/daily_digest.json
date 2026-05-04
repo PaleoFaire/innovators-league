@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-03T23:57:50.512800+00:00",
-  "date": "2026-05-03",
-  "dateDisplay": "Sunday, May 03, 2026",
+  "generatedAt": "2026-05-04T03:59:41.460139+00:00",
+  "date": "2026-05-04",
+  "dateDisplay": "Monday, May 04, 2026",
   "sections": {
     "govActivity": [
       {
@@ -84,6 +84,13 @@
         "change": 1.01
       },
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 688000.0,
+        "changePercent": 12.42,
+        "change": 76000.0
+      },
+      {
         "ticker": "IDEAFORGE.NS",
         "company": "ideaForge",
         "price": 614.05,
@@ -96,13 +103,6 @@
         "price": 20.49,
         "changePercent": 10.82,
         "change": 2.0
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 664000.0,
-        "changePercent": 10.67,
-        "change": 64000.0
       },
       {
         "ticker": "RIVN",
