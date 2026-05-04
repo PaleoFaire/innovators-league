@@ -1,7 +1,7 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 56,
+    "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
       "Musk v. Altman week 1: Elon Musk says he was duped, warns AI",
@@ -11,11 +11,11 @@
     "fundingQ": "$2144.6B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Defense & Security",
@@ -33,7 +33,7 @@
       "hiring": 0,
       "market": 57
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Drones & Autonomous",
@@ -49,7 +49,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -65,7 +65,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Ocean & Maritime",
@@ -81,7 +81,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Space & Aerospace",
@@ -99,7 +99,7 @@
       "hiring": 0,
       "market": 40
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Nuclear Energy",
@@ -116,16 +116,16 @@
       "hiring": 0,
       "market": 53
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 29,
     "trend": "rising",
     "catalysts": [
+      "The Humanoid Robot Market Is Smaller Than It Looks",
       "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
-      "Meta buys robotics startup to bolster its humanoid AI ambiti",
-      "Rivian (RIVN) lifts production capacity for its Georgia plan"
+      "Meta buys robotics startup to bolster its humanoid AI ambiti"
     ],
     "fundingQ": "$655M",
     "components": {
@@ -134,7 +134,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Quantum Computing",
@@ -150,7 +150,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Biotech & Health",
@@ -168,7 +168,25 @@
       "hiring": 0,
       "market": 61
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
+      "SpaceX Starship Flight 12 May 12",
+      "Fervo Energy unveils new power plant details in IPO filing"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 56
+    },
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Transportation",
@@ -184,43 +202,25 @@
       "hiring": 0,
       "market": 59
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX Starship Flight 12 May 12",
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
-      "Starcloud seeks more orbital data center funding shortly aft"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-03"
-  },
-  {
-    "sector": "Climate & Energy",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
+      "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
       "SpaceX Starship Flight 12 May 12",
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge"
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
-      "market": 56
+      "market": 50
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -238,7 +238,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Housing & Construction",
@@ -254,7 +254,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -270,6 +270,6 @@
       "hiring": 0,
       "market": 31
     },
-    "lastUpdated": "2026-05-03"
+    "lastUpdated": "2026-05-04"
   }
 ]
