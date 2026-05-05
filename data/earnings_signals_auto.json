@@ -1,26 +1,26 @@
 {
   "_meta": {
-    "generated_at": "2026-05-04 09:27:28 UTC",
-    "total_signals": 24,
+    "generated_at": "2026-05-05 09:21:26 UTC",
+    "total_signals": 25,
     "by_vertical": {
       "space": 3,
       "defense": 4,
-      "ai_compute": 7,
+      "ai_compute": 8,
       "autonomy": 5,
       "humanoid": 2,
       "quantum": 2,
       "hypersonics": 1
     },
     "by_signal_type": {
-      "rd_investment": 6,
+      "rd_investment": 8,
       "forward_guidance": 11,
-      "capital_shift": 3,
       "partnership": 3,
+      "capital_shift": 2,
       "supply_chain": 1
     },
     "by_significance": {
       "high": 20,
-      "medium": 4
+      "medium": 5
     },
     "source": "llm_extraction"
   },
@@ -35,9 +35,8 @@
       "frontier_companies_mentioned": [],
       "quote": "We're building an operable space-based interceptor that we wanna fly in space by 2028.",
       "implications": [
-        "Active development of space-based missile defense capabilities",
-        "Near-term deployment timeline indicates program maturity",
-        "Expansion of space defense architecture"
+        "Active development of space-based defense systems with 2028 deployment target",
+        "Investment in orbital interceptor capabilities"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -53,9 +52,8 @@
       "frontier_companies_mentioned": [],
       "quote": "We successfully used the shipboard laser system, Lockheed Martin's Helios, to knock an incoming UAV right out of the sky.",
       "implications": [
-        "Successful demonstration of directed energy weapons capability",
-        "Operational readiness of laser defense systems",
-        "Counter-UAV capabilities validated in real-world testing"
+        "Operational demonstration of directed energy weapons",
+        "Anti-drone laser defense capability validated"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -71,9 +69,8 @@
       "frontier_companies_mentioned": [],
       "quote": "Capital and IRAD investment is expected to approach $5 billion in 2026.",
       "implications": [
-        "Significant R&D spending commitment for frontier technologies",
-        "Sustained investment in internal research and development programs",
-        "Capital allocation prioritizing innovation and next-gen capabilities"
+        "Significant R&D spending commitment for 2026",
+        "Internal R&D budget approaching $5B indicates sustained innovation investment"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -89,8 +86,8 @@
       "frontier_companies_mentioned": [],
       "quote": "We've deployed our proprietary data analytics and AI tools across our factories.",
       "implications": [
-        "RTX investing in AI-driven manufacturing optimization",
-        "Proprietary AI tools being scaled across production facilities"
+        "RTX investing in AI infrastructure for manufacturing optimization",
+        "Internal AI capability development rather than third-party solutions"
       ],
       "significance": "medium",
       "sentiment": "bullish",
@@ -106,8 +103,8 @@
       "frontier_companies_mentioned": [],
       "quote": "Other key awards in the quarter included over $900 million of classified bookings.",
       "implications": [
-        "Substantial classified defense contract wins",
-        "Continued momentum in sensitive defense programs"
+        "Substantial classified defense program activity",
+        "Likely frontier-tech defense applications given classification level"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -118,14 +115,14 @@
       "ticker": "NOC",
       "quarter": "2025-Q4",
       "date": "2026-01-27",
-      "signal_type": "capital_shift",
+      "signal_type": "rd_investment",
       "target_vertical": "defense",
       "frontier_companies_mentioned": [],
       "quote": "Since 2021, we have successfully doubled our production capacity for tactical solid rocket motors at our ABL facility in West Virginia and are now advancing efforts to further increase that capacity by another 50%.",
       "implications": [
-        "Significant capital allocation to tactical rocket motor production capacity",
-        "150% total capacity increase from 2021 baseline indicates strong demand signals",
-        "Multi-year infrastructure investment in strategic defense manufacturing"
+        "Significant expansion in tactical missile production capacity",
+        "Continued investment in domestic manufacturing infrastructure",
+        "Positioning for increased defense demand"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -141,9 +138,9 @@
       "frontier_companies_mentioned": [],
       "quote": "Space security or capabilities to protect space assets represent a tremendous growth opportunity for our company given our proven technology and experience in this domain.",
       "implications": [
-        "Management explicitly identifying space security as major growth vertical",
-        "Positioning around space asset protection suggests focus on defensive space capabilities",
-        "Leveraging existing technology portfolio for space domain expansion"
+        "Strategic focus on space defense market expansion",
+        "Leveraging existing technology for space security applications",
+        "Anticipating increased demand for space asset protection"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -160,10 +157,9 @@
       "quote": "The US Navy's MQ-25 successfully completed its inaugural engine run, moving it closer to first flight.",
       "implications": [
         "Autonomous aerial refueling platform progressing toward operational capability",
-        "Defense autonomy program milestone achieved",
-        "Unmanned systems development advancing"
+        "Defense autonomy program achieving key development milestones"
       ],
-      "significance": "high",
+      "significance": "medium",
       "sentiment": "bullish",
       "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/boeing-ba-q4-2025-earnings-call-transcript/"
     },
@@ -177,9 +173,9 @@
       "frontier_companies_mentioned": [],
       "quote": "Physical AI is here, having already contributed north of $6,000,000,000 in NVIDIA Corporation revenue in fiscal year 2026.",
       "implications": [
-        "Physical AI (robotics/autonomy) reached $6B+ revenue milestone for NVIDIA in FY2026",
-        "Validates commercial viability of autonomous systems market",
-        "NVIDIA establishing dominant position in physical AI compute infrastructure"
+        "Physical AI (autonomy/robotics) represents significant revenue stream at $6B+",
+        "Validates commercialization of autonomy solutions",
+        "NVIDIA established as key infrastructure provider for physical AI"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -193,11 +189,28 @@
       "signal_type": "forward_guidance",
       "target_vertical": "ai_compute",
       "frontier_companies_mentioned": [],
+      "quote": "Compute equals revenues. Without compute, there is no way to generate tokens.",
+      "implications": [
+        "Direct correlation between compute capacity and AI revenue generation",
+        "Positions compute infrastructure as essential bottleneck for AI scaling"
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/nvidia-nvda-q4-2026-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "quarter": "2026-Q4",
+      "date": "2026-02-25",
+      "signal_type": "rd_investment",
+      "target_vertical": "ai_compute",
+      "frontier_companies_mentioned": [],
       "quote": "Rubin will deliver improved resiliency and serviceability relative to Blackwell.",
       "implications": [
-        "Next-generation Rubin architecture announced as Blackwell successor",
-        "Focus on reliability improvements signals maturation of AI compute infrastructure",
-        "Continued product roadmap execution in AI accelerator market"
+        "Next-generation Rubin platform in development beyond Blackwell",
+        "Focus on operational improvements (resiliency, serviceability)",
+        "Continued R&D investment in advanced AI compute architecture"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -215,9 +228,9 @@
       ],
       "quote": "In addition to our multi-generation partnership with OpenAI to deploy six gigawatts of Instinct GPUs, we are in active discussions with other customers on at-scale multi-year deployments.",
       "implications": [
-        "Major multi-gigawatt GPU deployment partnership with OpenAI spanning multiple generations",
-        "Active pipeline of additional large-scale AI infrastructure deals",
-        "AMD securing position as alternative AI compute supplier at hyperscale"
+        "Major multi-gigawatt GPU deployment partnership secured with OpenAI",
+        "AMD expanding footprint in large-scale AI infrastructure",
+        "Pipeline of additional at-scale customer deployments being negotiated"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -233,9 +246,8 @@
       "frontier_companies_mentioned": [],
       "quote": "With the MI350 series, we are entering the next phase of Instinct adoption.",
       "implications": [
-        "Next-generation MI350 GPU series launching to expand market adoption",
-        "Product cycle transition expected to drive incremental growth",
-        "AMD positioning for increased competitiveness in AI accelerator market"
+        "Next-generation MI350 GPU series launching",
+        "AMD positioning for increased market share in AI accelerators"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -253,9 +265,9 @@
       ],
       "quote": "Constellation's subsidiary Calpine LLC signed a new 380-megawatt agreement with Dallas-based CyrusOne to connect and serve a new data center adjacent to the Freestone Energy Center in Freestone County, Texas.",
       "implications": [
-        "Constellation expanding power supply agreements to data center operators",
-        "380MW capacity allocation signals significant AI/compute infrastructure demand",
-        "Geographic co-location strategy with energy centers for data center power"
+        "Large-scale power infrastructure commitment to data center operations",
+        "Constellation expanding presence in AI compute power supply market",
+        "380MW capacity indicates hyperscale data center deployment"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -271,9 +283,9 @@
       "frontier_companies_mentioned": [],
       "quote": "We are going to take the Model S and X production space in our Fremont factory and convert that into an Optimus factory with a long-term goal of having a million units a year of Optimus robots.",
       "implications": [
-        "Major capital reallocation from legacy auto to humanoid robotics",
-        "Target of 1M humanoid robots annually represents significant production scale",
-        "Fremont facility repurposing signals strategic priority shift"
+        "Major reallocation of manufacturing capacity from automotive to humanoid robotics",
+        "Signals confidence in humanoid robot market potential at scale",
+        "Reduction in Model S/X production capacity"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -289,8 +301,8 @@
       "frontier_companies_mentioned": [],
       "quote": "We expect to start production in April.",
       "implications": [
-        "Optimus production timeline set for Q2 2026",
-        "Near-term commercialization of humanoid robotics imminent"
+        "Imminent commercialization of Optimus humanoid robot",
+        "Production timeline accelerating with Q2 2026 start date"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -306,9 +318,9 @@
       "frontier_companies_mentioned": [],
       "quote": "Maven is also pushing to the edge. We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
       "implications": [
-        "Palantir developing edge AI capabilities for autonomous UAV coordination",
-        "Integration of AI decision-making in live military exercises",
-        "Maven platform expanding into tactical edge deployment"
+        "Palantir is advancing autonomous UAV coordination capabilities at the tactical edge",
+        "MAGE represents productization of Maven for real-time autonomous operations",
+        "Live-fire validation suggests operational readiness for defense deployment"
       ],
       "significance": "high",
       "sentiment": "bullish",

@@ -1,8 +1,8 @@
 // Auto-generated ARPA-E project data
-// Last updated: 2026-05-04 09:14:23 UTC
-// Total projects: 1694 | Active: 328
-// Private companies: 678 | Known TIL: 116
-// Unique organizations: 720 | Total funding: $4,274,221,362
+// Last updated: 2026-05-05 09:06:37 UTC
+// Total projects: 1698 | Active: 329
+// Private companies: 682 | Known TIL: 115
+// Unique organizations: 724 | Total funding: $4,287,471,056
 const ARPA_E_PROJECTS_AUTO = [
   {
     title: "SAFERBAT: Solid-state Approach for Future Energy-dense Rechargeable Batteries and Advanced-manufacturing Technologies",
@@ -705,6 +705,19 @@ const ARPA_E_PROJECTS_AUTO = [
     technologyAreas: ["Biofuels", "Agriculture & Bioenergy"],
     isKnownCompany: false,
     isPrivateCompany: true,
+  },
+  {
+    title: "Liquid Lead Suspended Fuel Subcritical Fission Blanket for Nuclear Waste Transmutation",
+    organization: "Argonne National Laboratory",
+    orgType: "National Laboratory",
+    status: "Active",
+    state: "IL",
+    awardAmount: 7000000,
+    awardFormatted: "7,000,000",
+    programAcronym: "Nuclear Energy Waste Transmutation Optimized Now",
+    technologyAreas: ["Nuclear Fission", "Power Generation"],
+    isKnownCompany: false,
+    isPrivateCompany: false,
   },
   {
     title: "MANTA: Reliable and Safe Kite Energy System",
@@ -6488,19 +6501,6 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,053,459",
     programAcronym: "Open Funding Solicitation",
     technologyAreas: ["Power Electronics", "Industrial Efficiency"],
-    isKnownCompany: false,
-    isPrivateCompany: false,
-  },
-  {
-    title: "Novel Commercial Farm-field Network to Quantify Emissions and Carbon Storage from Agricultural Bioenergy Feedstock Produ",
-    organization: "University of Nebraska, Lincoln (UNL)",
-    orgType: "University",
-    status: "Active",
-    state: "NE",
-    awardAmount: 3052157,
-    awardFormatted: "3,052,157",
-    programAcronym: "Exploratory Topics",
-    technologyAreas: ["Biomass", "Agriculture & Bioenergy"],
     isKnownCompany: false,
     isPrivateCompany: false,
   },

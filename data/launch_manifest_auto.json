@@ -10,21 +10,21 @@
   },
   {
     "date": "2026-05-09",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
-    "payload": "Starlink Group 17-37",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/75a35be5-b3bd-4591-b978-9a876da9fa96/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-05-09",
     "vehicle": "Long March 7 | Tianzhou-10",
     "payload": "Tianzhou-10",
     "pad": "201, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a5872822-76df-404b-93d0-9ecd7ba80a70/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-05-10",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
+    "payload": "Starlink Group 17-37",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/75a35be5-b3bd-4591-b978-9a876da9fa96/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-05-12",
@@ -60,6 +60,15 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e60aa241-1f2c-4459-ba94-2f576c3e5632/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-16",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-42",
+    "payload": "Starlink Group 17-42",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7ba18bcb-c711-4329-9fc1-7ac017fadfff/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -439,14 +448,5 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "H3-24 | HTV-X2",
-    "payload": "HTV-X2",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a2234679-5efe-4a00-9aff-cf82dbac22b0/?format=json",
-    "trackedCompany": null
   }
 ]
