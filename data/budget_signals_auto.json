@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 3,
+    "activityIndex": 4,
     "billsTracked": 2,
-    "rulesTracked": 1,
-    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
+    "rulesTracked": 2,
+    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -29,39 +29,16 @@
         "title": "Licensing Requirements for Microreactors and Other Reactors With Comparable Risk",
         "agency": "",
         "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-04"
-  },
-  {
-    "category": "Biotech & Health",
-    "icon": "\ud83e\uddec",
-    "budgetLineItem": "Biotech & Health \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 2,
-    "billsTracked": 0,
-    "rulesTracked": 2,
-    "description": "0 bill(s) + 2 federal-register action(s) touching Biotech & Health in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
-    "examples": [
-      {
-        "type": "federal_register",
-        "title": "National Institute of Biomedical Imaging and Bioengineering; Notice of Meeting",
-        "agency": "",
-        "date": ""
       },
       {
         "type": "federal_register",
-        "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request fo",
+        "title": "Constellation Energy Generation, LLC; Nine Mile Point Nuclear Station, Unit 1; S",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "category": "Quantum Computing",
@@ -84,7 +61,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -107,7 +84,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "category": "Space & Aerospace",
@@ -130,6 +107,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   }
 ]

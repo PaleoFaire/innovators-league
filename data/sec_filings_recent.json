@@ -2,6 +2,15 @@
   {
     "company": "Palantir Technologies",
     "ticker": "PLTR",
+    "form": "8-K",
+    "date": "2026-05-04",
+    "description": "pltr-20260504.htm",
+    "accessionNumber": "0001321655-26-000026",
+    "isIPO": false
+  },
+  {
+    "company": "Palantir Technologies",
+    "ticker": "PLTR",
     "form": "4",
     "date": "2026-04-28",
     "description": "xslF345X06/wk-form4_1777418320.xml",
@@ -1236,6 +1245,24 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-05-04",
+    "description": "xslF345X06/wk-form4_1777932418.xml",
+    "accessionNumber": "0002021433-26-000011",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-05-04",
+    "description": "xslF345X06/wk-form4_1777932368.xml",
+    "accessionNumber": "0002021786-26-000011",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-04-30",
     "description": "xslF345X06/wk-form4_1777580079.xml",
     "accessionNumber": "0001058402-26-000006",
@@ -1710,15 +1737,6 @@
     "isIPO": false
   },
   {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-02-03",
-    "description": "xslF345X05/form4-02042026_020225.xml",
-    "accessionNumber": "0001031530-26-000003",
-    "isIPO": false
-  },
-  {
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "DEF 14A",
@@ -1955,6 +1973,15 @@
   {
     "company": "IonQ",
     "ticker": "IONQ",
+    "form": "4",
+    "date": "2026-05-04",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001193125-26-204624",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "DEF 14A",
     "date": "2026-04-30",
     "description": "bakkt-20260430.htm",
@@ -2157,6 +2184,24 @@
     "date": "2026-02-10",
     "description": "xslF345X05/form4.xml",
     "accessionNumber": "0001123292-26-000132",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-05-04",
+    "description": "xslF345X06/wk-form4_1777928537.xml",
+    "accessionNumber": "0001098231-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-05-04",
+    "description": "qbts-20260430.htm",
+    "accessionNumber": "0001907982-26-000049",
     "isIPO": false
   },
   {
@@ -3629,6 +3674,24 @@
   {
     "company": "Rivian",
     "ticker": "RIVN",
+    "form": "8-K",
+    "date": "2026-05-04",
+    "description": "rivn-20260504.htm",
+    "accessionNumber": "0001874178-26-000039",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "4",
+    "date": "2026-05-04",
+    "description": "xslF345X06/tm2613313-1_4seq1.xml",
+    "accessionNumber": "0001104659-26-054722",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
     "form": "10-Q",
     "date": "2026-04-30",
     "description": "rivn-20260331.htm",
@@ -3876,6 +3939,15 @@
     "date": "2026-02-12",
     "description": "rivn-20260212.htm",
     "accessionNumber": "0001874178-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "4",
+    "date": "2026-05-04",
+    "description": "xslF345X06/wk-form4_1777933515.xml",
+    "accessionNumber": "0001628280-26-029996",
     "isIPO": false
   },
   {

@@ -1,25 +1,25 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 55,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Musk v. Altman week 1: Elon Musk says he was duped, warns AI",
-      "OpenAI Enables Marketing Cookies by Default for Free ChatGPT",
-      "Pentagon freezes out Anthropic as it signs deals with AI riv"
+      "Greg Brockman Defends $30B OpenAI Stake: \u2018Blood, Sweat, and",
+      "OpenAI&#8217;s cozy partner Cerebras is on track for a block",
+      "Elon Musk&#8217;s only AI expert witness at the OpenAI trial"
     ],
     "fundingQ": "$2144.6B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 51,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
       "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
@@ -31,9 +31,45 @@
       "funding": 100,
       "news": 20,
       "hiring": 0,
-      "market": 57
+      "market": 70
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "Geothermal startup Fervo Energy to raise up to $1.3B in IPO",
+      "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
+      "SpaceX Starship Flight 12 May 12"
+    ],
+    "fundingQ": "$1.3B",
+    "components": {
+      "funding": 84,
+      "news": 25,
+      "hiring": 0,
+      "market": 68
+    },
+    "lastUpdated": "2026-05-05"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 48,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX Starlink Supplier Projects 100M High Speed Internet C",
+      "SpaceX Starship Flight 12 Likely Late May After Generator Ex",
+      "Pixxel pushes into orbital data centers for faster geospatia"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 60,
+      "hiring": 0,
+      "market": 29
+    },
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Drones & Autonomous",
@@ -49,23 +85,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 45,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Quantum Machines acquires QHarbor and opens Delft office to"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Ocean & Maritime",
@@ -81,51 +117,34 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-04"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 44,
-    "trend": "steady",
-    "catalysts": [
-      "SpaceX Starship Flight 12 May 12",
-      "Tesla Got $573 Million from SpaceX and xAI in 2025",
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
-    ],
-    "fundingQ": "$2.2B",
-    "components": {
-      "funding": 78,
-      "news": 35,
-      "hiring": 0,
-      "market": 40
-    },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 42,
+    "momentum": 33,
     "trend": "steady",
     "catalysts": [
+      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
       "Anthropic&#8217;s Nuclear Bomb",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$800M",
     "components": {
       "funding": 83,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
-      "market": 53
+      "market": 0
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 29,
     "trend": "rising",
     "catalysts": [
+      "Ouster releases REV8 OS sensor family with native-color lida",
       "The Humanoid Robot Market Is Smaller Than It Looks",
-      "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
-      "Meta buys robotics startup to bolster its humanoid AI ambiti"
+      "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?"
     ],
     "fundingQ": "$655M",
     "components": {
@@ -134,93 +153,60 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-04"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 19,
+    "momentum": 26,
     "trend": "declining",
     "catalysts": [
+      "SpaceX Starship Flight 12 Likely Late May After Generator Ex",
       "Bristol Myers\u2019 pivotal year; Should AI be swinging bigger?;",
-      "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
+      "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 15,
+      "news": 25,
       "hiring": 0,
-      "market": 61
+      "market": 85
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
-    "sector": "Climate & Energy",
-    "momentum": 16,
+    "sector": "Quantum Computing",
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
-      "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
-      "SpaceX Starship Flight 12 May 12",
-      "Fervo Energy unveils new power plant details in IPO filing"
+      "Quantum Machines acquires QHarbor and opens Delft office to",
+      "IonQ to offer ground-movement monitoring via Capella radar s"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
-      "market": 56
+      "market": 100
     },
-    "lastUpdated": "2026-05-04"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian (RIVN) lifts production capacity for its Georgia plan"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 59
-    },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 15,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "Ouster releases REV8 OS sensor family with native-color lida",
       "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
-      "SpaceX Starship Flight 12 May 12",
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
+      "SpaceX Starship Flight 12 May 12"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -238,7 +224,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Housing & Construction",
@@ -254,22 +240,38 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 6,
+    "momentum": 9,
     "trend": "declining",
     "catalysts": [
-      "Active chips & semiconductors ecosystem"
+      "OpenAI&#8217;s cozy partner Cerebras is on track for a block"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
-      "market": 31
+      "market": 37
     },
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-05"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian (RIVN) lifts production capacity for its Georgia plan"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-05-05"
   }
 ]
