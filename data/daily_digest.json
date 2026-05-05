@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T00:02:01.888891+00:00",
+  "generatedAt": "2026-05-05T03:39:50.370649+00:00",
   "date": "2026-05-05",
   "dateDisplay": "Tuesday, May 05, 2026",
   "sections": {
@@ -70,13 +70,6 @@
     ],
     "marketMovers": [
       {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.47,
-        "changePercent": 29.24,
-        "change": 1.46
-      },
-      {
         "ticker": "IDEAFORGE.NS",
         "company": "ideaForge",
         "price": 731.0,
@@ -84,18 +77,25 @@
         "change": 163.85
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 7.09,
-        "changePercent": 13.17,
-        "change": 0.83
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.44,
+        "changePercent": 28.54,
+        "change": 1.43
       },
       {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 14.62,
-        "changePercent": -12.53,
-        "change": -2.09
+        "price": 14.51,
+        "changePercent": -13.22,
+        "change": -2.21
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 7.06,
+        "changePercent": 12.69,
+        "change": 0.79
       },
       {
         "ticker": "277810.KQ",
@@ -107,23 +107,23 @@
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 68.44,
-        "changePercent": -11.35,
-        "change": -8.76
+        "price": 68.43,
+        "changePercent": -11.36,
+        "change": -8.77
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 20.93,
-        "changePercent": 11.33,
-        "change": 2.13
+        "price": 20.92,
+        "changePercent": 11.28,
+        "change": 2.12
       },
       {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 23.28,
-        "changePercent": -9.63,
-        "change": -2.48
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 68.6,
+        "changePercent": -9.65,
+        "change": -7.33
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR +29.2%"
+    "topMover": "IDEAFORGE.NS +28.9%"
   }
 }

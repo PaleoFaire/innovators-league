@@ -1,5 +1,43 @@
 [
   {
+    "title": "Geothermal startup Fervo Energy to raise up to $1.3B in IPO",
+    "link": "https://techcrunch.com/2026/05/04/geothermal-startup-fervo-energy-to-raise-up-to-1-3b-in-ipo/",
+    "description": "Enhanced geothermal startup Fervo Energy’s IPO could value the company at up to $6.5 billion.",
+    "pubDate": "Tue, 05 May 2026 00:13:30 +0000",
+    "category": "Climate",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Fervo Energy",
+    "matchedCompanies": [
+      "Fervo Energy"
+    ],
+    "sectors": [
+      "climate"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "3h ago"
+  },
+  {
+    "title": "SpaceX Starlink Supplier Projects 100M High Speed Internet Customers in 2028 and 200M in 2030",
+    "link": "https://www.nextbigfuture.com/2026/05/spacex-starlink-supplier-projects-100m-high-speed-internet-customers-in-2028-and-200m-in-2030.html",
+    "description": "Starlink supplier projects 100M starlink high speed internet terminals 2028 and 200 million 2030. This is inline with my projections from last week based on looking at customers and price points. I divided up countries into high speed internet subscription tiers. And I have project may ten Starship ",
+    "pubDate": "Tue, 05 May 2026 00:07:57 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’",
     "link": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
     "description": "OpenAI’s cofounder and president revealed in federal court on Monday that he’s one of the largest individual stakeholders in the AI lab.",
@@ -16,7 +54,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "OpenAI&#8217;s cozy partner Cerebras is on track for a blockbuster IPO",
@@ -37,7 +75,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "SpaceX Starship Flight 12 Likely Late May After Generator Explosion and Deluge Damaged",
@@ -58,7 +96,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "Elon Musk&#8217;s only AI expert witness at the OpenAI trial fears an AGI arms race",
@@ -77,7 +115,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
@@ -96,7 +134,31 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "7h ago"
+    "time": "11h ago"
+  },
+  {
+    "title": "Pixxel pushes into orbital data centers for faster geospatial intelligence",
+    "link": "https://spacenews.com/pixxel-pushes-into-orbital-data-centers-for-faster-geospatial-intelligence/",
+    "description": "Indian hyperspectral imaging startup Pixxel plans to test orbital data center technology on a pathfinder satellite designed to deliver geospatial intelligence directly from space.",
+    "pubDate": "Mon, 04 May 2026 16:04:27 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Pixxel",
+    "matchedCompanies": [
+      "Pixxel",
+      "Planet Labs",
+      "Astera Labs",
+      "Rebellions",
+      "Starcloud"
+    ],
+    "sectors": [
+      "space",
+      "chips"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "11h ago"
   },
   {
     "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
@@ -117,7 +179,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "8h ago"
+    "time": "11h ago"
   },
   {
     "title": "Quantum Machines acquires QHarbor and opens Delft office to deepen European quantum footprint",
@@ -138,7 +200,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "13h ago"
+  },
+  {
+    "title": "IonQ to offer ground-movement monitoring via Capella radar satellites",
+    "link": "https://spacenews.com/ionq-to-offer-ground-movement-monitoring-via-capella-radar-satellites/",
+    "description": "Interferometric Synthetic Aperture Radar, or InSAR, enables automated detection of surface changes",
+    "pubDate": "Mon, 04 May 2026 12:00:00 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "IonQ",
+    "matchedCompanies": [
+      "IonQ"
+    ],
+    "sectors": [
+      "quantum"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "15h ago"
   },
   {
     "title": "Ouster releases REV8 OS sensor family with native-color lidar",
@@ -157,7 +238,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "17h ago"
   },
   {
     "title": "The Humanoid Robot Market Is Smaller Than It Looks",
@@ -424,6 +505,28 @@
       "ai"
     ],
     "type": "contract",
+    "impact": "low",
+    "time": "3d ago"
+  },
+  {
+    "title": "Starcloud seeks more orbital data center funding shortly after unicorn status",
+    "link": "https://spacenews.com/starcloud-seeks-more-orbital-data-center-funding-shortly-after-unicorn-status/",
+    "description": "Starcloud is looking to raise at least $200 million in a deal that would double the two-year-old orbital data center startup’s valuation to about $2.2 billion, a source close to the situation confirmed.",
+    "pubDate": "Fri, 01 May 2026 12:57:48 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Starcloud",
+    "matchedCompanies": [
+      "Starcloud",
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "space",
+      "chips"
+    ],
+    "type": "funding",
     "impact": "low",
     "time": "3d ago"
   },
