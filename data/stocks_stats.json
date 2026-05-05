@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 2.05,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -3.87,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.06,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 2.21,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 9.78,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 11.65,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -7.61,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.31,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.1,
+      "avg_change": -1.8,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.77,
+      "avg_change": 13.06,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.12,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.97,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -4.79,
+      "avg_change": -2.49,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -1.32,
+      "avg_change": 6.55,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "AUR",
       "Aurora Innovation",
-      28.54
+      33.03
     ],
     [
-      "SATL",
-      "Satellogic",
-      12.69
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      11.93
+      "ALAB",
+      "Astera Labs",
+      18.19
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      11.28
+      17.81
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      13.74
     ]
   ],
   "topLosers": [
     [
-      "NVDA",
-      "NVIDIA",
-      -8.37
-    ],
-    [
       "NNE",
       "Nano Nuclear Energy",
-      -9.47
+      -4.96
     ],
     [
-      "OKLO",
-      "Oklo",
-      -9.65
+      "NVDA",
+      "NVIDIA",
+      -7.93
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -11.36
+      "LNZA",
+      "LanzaTech",
+      -8.7
     ],
     [
       "RIVN",
       "Rivian",
-      -13.22
+      -9.29
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -10.31
     ]
   ],
-  "lastUpdated": "2026-05-05 08:17:06"
+  "lastUpdated": "2026-05-05 19:27:35"
 }
