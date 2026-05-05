@@ -423,3 +423,41 @@ function paginateList(container, items, renderItem, opts) {
 
   render();
 }
+
+// ─── SHARED SECTION-HEADER REVEAL ───
+// `.section-header` defaults to `opacity: 0` in styles.css and waits
+// for the `.visible` class to fade in. app.js wires that up for the
+// homepage and a handful of pages have their own observers
+// (regulatory.js, talent.js, valuations.js, govradar.js). Pages that
+// only load utils.js were left with permanently-invisible headers —
+// looked like blank space between the hero and the content. This
+// shared observer covers every page that includes utils.js.
+(function bootSectionHeaderReveal() {
+  function reveal() {
+    var headers = document.querySelectorAll('.section-header');
+    if (!headers.length) return;
+    if ('IntersectionObserver' in window) {
+      var obs = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.05 });
+      headers.forEach(function(h) {
+        if (!h.classList.contains('visible')) obs.observe(h);
+      });
+    } else {
+      headers.forEach(function(h) { h.classList.add('visible'); });
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', reveal);
+  } else {
+    reveal();
+  }
+  // Re-scan after page-specific JS injects more headers (drilldown views, etc).
+  setTimeout(reveal, 800);
+  setTimeout(reveal, 2500);
+})();

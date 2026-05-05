@@ -138,6 +138,29 @@ jobs:
         run: python3 scripts/chunk_comp_sets.py
         continue-on-error: true
 
+      - name: Bump LAST_UPDATED stamp
+        # The LAST_UPDATED constant in data.js drives the "Last updated:"
+        # footer on every company profile. Was previously only refreshed
+        # by manual update_data.py runs, which meant the site went stale
+        # whenever no one merged manually. Bump every hour.
+        run: |
+          python3 << 'EOF'
+          import re
+          from datetime import datetime, timezone
+          today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+          with open("data.js", encoding="utf-8") as f:
+              content = f.read()
+          new = re.sub(r'const LAST_UPDATED = "[^"]*";',
+                       f'const LAST_UPDATED = "{today}";', content, count=1)
+          if new != content:
+              with open("data.js", "w", encoding="utf-8") as f:
+                  f.write(new)
+              print(f"Bumped LAST_UPDATED to {today}")
+          else:
+              print("LAST_UPDATED already current; nothing to do.")
+          EOF
+        continue-on-error: true
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"

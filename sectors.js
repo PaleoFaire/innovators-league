@@ -171,12 +171,43 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // Section-header reveal — global .section-header has `opacity: 0`
+  // until `.visible` is added. Without an observer here, the eyebrow +
+  // headline above the sector grid stay invisible (looks like blank
+  // space). Match the pattern used in regulatory.js / talent.js.
+  initSectorsHeaderObserver();
+
   if (typeof TILAuth !== 'undefined' && TILAuth.onReady) {
     TILAuth.onReady(function() { initSectors(); });
   } else {
     initSectors();
   }
 });
+
+function initSectorsHeaderObserver() {
+  function reveal() {
+    var headers = document.querySelectorAll('.section-header');
+    if (!headers.length) return;
+    if ('IntersectionObserver' in window) {
+      var obs = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.05 });
+      headers.forEach(function(h) { obs.observe(h); });
+    } else {
+      headers.forEach(function(h) { h.classList.add('visible'); });
+    }
+  }
+  reveal();
+  // Re-run after sector cards render — the drilldown view injects
+  // .section-header nodes dynamically.
+  setTimeout(reveal, 600);
+  setTimeout(reveal, 2000);
+}
 
 function initSectors() {
   if (typeof SECTORS === 'undefined' || typeof COMPANIES === 'undefined') {
