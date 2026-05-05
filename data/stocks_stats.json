@@ -5,73 +5,73 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.5,
+      "avg_change": 2.05,
       "count": 1
     },
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 1.33,
+      "avg_change": 1.06,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 9.68,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 9.11,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.16,
+      "avg_change": -7.61,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.77,
+      "avg_change": -3.1,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.83,
+      "avg_change": 6.77,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.34,
+      "avg_change": 3.23,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -4.42,
+      "avg_change": -4.79,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.87,
+      "avg_change": -1.32,
       "count": 3
     }
   },
   "topGainers": [
-    [
-      "AUR",
-      "Aurora Innovation",
-      29.24
-    ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
       28.89
     ],
     [
+      "AUR",
+      "Aurora Innovation",
+      28.54
+    ],
+    [
       "SATL",
       "Satellogic",
-      13.17
+      12.69
     ],
     [
       "277810.KQ",
@@ -81,35 +81,35 @@
     [
       "QBTS",
       "D-Wave Quantum",
-      11.33
+      11.28
     ]
   ],
   "topLosers": [
     [
       "NVDA",
       "NVIDIA",
-      -8.26
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      -8.69
+      -8.37
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -9.63
+      -9.47
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -9.65
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -11.35
+      -11.36
     ],
     [
       "RIVN",
       "Rivian",
-      -12.53
+      -13.22
     ]
   ],
-  "lastUpdated": "2026-05-04 19:46:44"
+  "lastUpdated": "2026-05-05 03:22:34"
 }
