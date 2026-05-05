@@ -1,151 +1,151 @@
 // Auto-generated news signals
-// Last updated: 2026-05-05T09:13:45.444Z
+// Last updated: 2026-05-05T11:22:11.457Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777972425444,
+    "id": 1777980131457,
     "type": "milestone",
     "company": "Deterrence",
     "headline": "Practice Makes Deterrence: India’s Next Nuclear Challenge at Sea",
     "source": "War on the Rocks",
-    "time": "1h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://warontherocks.com/practice-makes-deterrence-indias-next-nuclear-challenge-at-sea/"
   },
   {
-    "id": 1777972425445,
+    "id": 1777980131458,
     "type": "funding",
     "company": "Fervo Energy",
     "headline": "Geothermal startup Fervo Energy to raise up to $1.3B in IPO",
     "source": "TechCrunch",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/04/geothermal-startup-fervo-energy-to-raise-up-to-1-3b-in-ipo/"
   },
   {
-    "id": 1777972425446,
+    "id": 1777980131459,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starlink Supplier Projects 100M High Speed Internet Customers in 2028 and 200M in 2030",
     "source": "Next Big Future",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/05/spacex-starlink-supplier-projects-100m-high-speed-internet-customers-in-2028-and-200m-in-2030.html"
   },
   {
-    "id": 1777972425447,
+    "id": 1777980131460,
     "type": "news",
     "company": "OpenAI",
     "headline": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’",
     "source": "Wired",
-    "time": "9h ago",
+    "time": "12h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/"
   },
   {
-    "id": 1777972425448,
+    "id": 1777980131461,
     "type": "ipo",
     "company": "Cerebras",
     "headline": "OpenAI&#8217;s cozy partner Cerebras is on track for a blockbuster IPO",
     "source": "TechCrunch",
-    "time": "11h ago",
+    "time": "13h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/"
   },
   {
-    "id": 1777972425449,
+    "id": 1777980131462,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 12 Likely Late May After Generator Explosion and Deluge Damaged",
     "source": "Next Big Future",
-    "time": "13h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/05/spacex-starship-flight-12-likely-late-may-after-generator-explosion-and-deluge-damaged.html"
   },
   {
-    "id": 1777972425450,
+    "id": 1777980131463,
     "type": "news",
     "company": "OpenAI",
     "headline": "Elon Musk&#8217;s only AI expert witness at the OpenAI trial fears an AGI arms race",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/"
   },
   {
-    "id": 1777972425451,
+    "id": 1777980131464,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/"
   },
   {
-    "id": 1777972425452,
+    "id": 1777980131465,
     "type": "ipo",
     "company": "Pixxel",
     "headline": "Pixxel pushes into orbital data centers for faster geospatial intelligence",
     "source": "SpaceNews",
-    "time": "17h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/pixxel-pushes-into-orbital-data-centers-for-faster-geospatial-intelligence/"
   },
   {
-    "id": 1777972425453,
+    "id": 1777980131466,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
     "source": "TechCrunch",
-    "time": "17h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
   },
   {
-    "id": 1777972425454,
+    "id": 1777980131467,
     "type": "news",
     "company": "Quantum Machines",
     "headline": "Quantum Machines acquires QHarbor and opens Delft office to deepen European quantum footprint",
     "source": "Tech.eu",
-    "time": "18h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/05/04/quantum-machines-acquires-qharbor-and-opens-delft-office-to-deepen-european-quantum-footprint/"
   },
   {
-    "id": 1777972425455,
+    "id": 1777980131468,
     "type": "news",
     "company": "IonQ",
     "headline": "IonQ to offer ground-movement monitoring via Capella radar satellites",
     "source": "SpaceNews",
-    "time": "21h ago",
+    "time": "23h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/ionq-to-offer-ground-movement-monitoring-via-capella-radar-satellites/"
   },
   {
-    "id": 1777972425456,
+    "id": 1777980131469,
     "type": "news",
     "company": "Ouster",
     "headline": "Ouster releases REV8 OS sensor family with native-color lidar",
     "source": "The Robot Report",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/ouster-releases-rev8-os-family-native-color-lidar-sensors/"
   },
   {
-    "id": 1777972425457,
+    "id": 1777980131470,
     "type": "hire",
     "company": "Humanoid",
     "headline": "The Humanoid Robot Market Is Smaller Than It Looks",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/03/the-humanoid-robot-market-is-smaller-than-it-looks/"
   },
   {
-    "id": 1777972425458,
+    "id": 1777980131471,
     "type": "news",
     "company": "Solar Foods",
     "headline": "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/03/eu-green-hydrogen-scheme-embraces-high-tech-solar-foods/"
   },
   {
-    "id": 1777972425459,
+    "id": 1777980131472,
     "type": "hire",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 12 May 12",
@@ -178,18 +178,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/spacex-starship-flight-12-may-12.html"
   },
   {
-    "id": 1777972425460,
+    "id": 1777980131473,
     "type": "news",
     "company": "Pivotal",
     "headline": "Bristol Myers’ pivotal year; Should AI be swinging bigger?; and more",
     "source": "Endpoints News",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://endpoints.news/bristol-myers-pivotal-year-should-ai-be-swinging-bigger-and-more/"
   },
   {
-    "id": 1777972425461,
+    "id": 1777980131474,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/01/who-is-tesla-selling-1-million-humanoid-robots-a-year-to/"
   },
   {
-    "id": 1777972425462,
+    "id": 1777980131475,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla Got $573 Million from SpaceX and xAI in 2025",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/01/tesla-got-573-million-from-spacex-and-xai-in-2025/"
   },
   {
-    "id": 1777972425463,
+    "id": 1777980131476,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s mo",

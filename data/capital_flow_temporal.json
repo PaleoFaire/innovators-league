@@ -1,16 +1,110 @@
 {
-  "generatedAt": "2026-05-05T09:14:57+00:00",
+  "generatedAt": "2026-05-05T11:23:03+00:00",
   "matrix": {
+    "construction-3d-printing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "ICON",
+            "amount": 0,
+            "date": "2026-05-04",
+            "source": "formd",
+            "investors": [
+              "Founders Fund",
+              "Mark Chen",
+              "Saquon Barkley",
+              "Roman Khan"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund"
+        ]
+      }
+    },
+    "supersonic-hypersonic-transport": {
+      "2026-Q2": {
+        "deals": 3,
+        "totalSold": 63045751,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Venus Aerospace",
+            "amount": 63045751,
+            "date": "2026-05-04",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "Boom Supersonic",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": [
+              "Y Combinator",
+              "Sam Altman",
+              "Paul Graham",
+              "Alex Gerko",
+              "Michael Moritz",
+              "Bessemer Venture Partners",
+              "Seraph Group",
+              "Continuity Fund",
+              "RRE Ventures",
+              "Palm Drive Ventures"
+            ]
+          },
+          {
+            "name": "Hermeus",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": [
+              "Khosla Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Khosla Ventures"
+        ]
+      },
+      "2024-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Astro Mechanica",
+            "amount": null,
+            "date": "2024-03",
+            "source": "recentEvent",
+            "investors": [
+              "Pioneer Fund",
+              "Alumni Ventures",
+              "a16z",
+              "Lowercarbon Capital",
+              "United Airlines"
+            ]
+          }
+        ],
+        "investors": [
+          "Alumni Ventures",
+          "Lowercarbon Capital"
+        ]
+      }
+    },
     "space-launch-small-intl": {
       "2026-Q2": {
         "deals": 1,
-        "totalSold": 75000,
+        "totalSold": 100000,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
             "name": "Latitude",
-            "amount": 75000,
-            "date": "2026-05-01",
+            "amount": 100000,
+            "date": "2026-05-04",
             "source": "formd",
             "investors": []
           }
@@ -459,14 +553,21 @@
     },
     "nuclear-microreactor": {
       "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
+        "deals": 2,
+        "totalSold": 369415,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
             "name": "Antares",
             "amount": 0,
             "date": "2026-04-27",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "Valar Atomics",
+            "amount": 369415,
+            "date": "2026-04-23",
             "source": "formd",
             "investors": []
           }
@@ -482,6 +583,56 @@
             "name": "Radiant",
             "amount": null,
             "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "humanoid-robotics": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 301745,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Apptronik",
+            "amount": 301745,
+            "date": "2026-04-23",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          },
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2025-12",
             "source": "recentEvent",
             "investors": []
           }
@@ -533,6 +684,23 @@
             "name": "Allen Control Systems",
             "amount": null,
             "date": "2025-03",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-tooling": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Alpha School",
+            "amount": null,
+            "date": "2026-03",
             "source": "recentEvent",
             "investors": []
           }
@@ -593,69 +761,6 @@
         "investors": []
       }
     },
-    "supersonic-hypersonic-transport": {
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Boom Supersonic",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": [
-              "Y Combinator",
-              "Sam Altman",
-              "Paul Graham",
-              "Alex Gerko",
-              "Michael Moritz",
-              "Bessemer Venture Partners",
-              "Seraph Group",
-              "Continuity Fund",
-              "RRE Ventures",
-              "Palm Drive Ventures"
-            ]
-          },
-          {
-            "name": "Hermeus",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": [
-              "Khosla Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Khosla Ventures"
-        ]
-      },
-      "2024-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Astro Mechanica",
-            "amount": null,
-            "date": "2024-03",
-            "source": "recentEvent",
-            "investors": [
-              "Pioneer Fund",
-              "Alumni Ventures",
-              "a16z",
-              "Lowercarbon Capital",
-              "United Airlines"
-            ]
-          }
-        ],
-        "investors": [
-          "Alumni Ventures",
-          "Lowercarbon Capital"
-        ]
-      }
-    },
     "ai-robotics-embodied": {
       "2026-Q1": {
         "deals": 2,
@@ -690,41 +795,6 @@
             "name": "Waymo",
             "amount": null,
             "date": "2026-02",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "humanoid-robotics": {
-      "2025-Q4": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          },
-          {
-            "name": "Neura Robotics",
-            "amount": null,
-            "date": "2025-12",
             "source": "recentEvent",
             "investors": []
           }
@@ -1249,6 +1319,22 @@
     }
   },
   "vcAttribution": {
+    "Founders Fund": {
+      "2026-Q2": [
+        {
+          "company": "ICON",
+          "cluster": "construction-3d-printing",
+          "date": "2026-05-04",
+          "source": "formd"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Riot Ventures": {
       "2026-Q2": [
         {
@@ -1263,16 +1349,6 @@
           "company": "Shield AI",
           "cluster": "autonomy-drone-military",
           "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Founders Fund": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-04",
           "source": "recentEvent"
         }
       ]
@@ -1439,9 +1515,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 70,
-    "totalUSDSold": 623347460,
-    "uniqueClusters": 40,
+    "totalDealsTracked": 75,
+    "totalUSDSold": 687089371,
+    "uniqueClusters": 42,
     "uniqueQuarters": 8,
     "uniqueVCs": 15,
     "quarterRange": [
