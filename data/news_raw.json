@@ -17,7 +17,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "Scout Space raises $18 million to expand orbital tracking technology",
@@ -36,7 +36,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "4h ago"
+    "time": "6h ago"
   },
   {
     "title": "STAT+: OpenAI wants to ‘have their cake and eat it too’ with health AI policy recommendations",
@@ -55,7 +55,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "8h ago"
   },
   {
     "title": "Silo founder raises €25m for 'Palantir of quantum computing'",
@@ -74,7 +74,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "Rivian (RIVN) mulls making its own lidar as it builds full autonomous driving stack",
@@ -93,12 +93,12 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "Nuro receives driverless testing permit ahead of Uber robotaxi service launch",
     "link": "https://techcrunch.com/2026/05/05/nuro-receives-driverless-testing-permit-ahead-of-uber-robotaxi-service-launch/",
-    "description": "The Silicon Valley AV startup has not started driverless testing yet.",
+    "description": "Nuro has been granted a permit to begin driverless testing of Lucid Gravity SUVs equipped with its autonomous tech on California public roads — vehicles that will eventually be used in Uber’s premium robotaxi service. But the Silicon Valley-based startup says it isn’t quite ready to begin.",
     "pubDate": "Wed, 06 May 2026 00:07:47 +0000",
     "category": "Transportation",
     "source": "TechCrunch",
@@ -116,30 +116,9 @@
       "transportation",
       "housing"
     ],
-    "type": "milestone",
+    "type": "ipo",
     "impact": "low",
-    "time": "14h ago"
-  },
-  {
-    "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
-    "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-    "description": "The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while maintaining the low latency of its predecessor.",
-    "pubDate": "Tue, 05 May 2026 17:00:00 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Starcloud"
-    ],
-    "sectors": [
-      "ai",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "16h ago"
   },
   {
     "title": "Intel's VC arm backs quantum startup Quantware in $178m Series B to kick-start production at ‘industrial scale’",
@@ -388,25 +367,6 @@
       "defense"
     ],
     "type": "hire",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Bristol Myers’ pivotal year; Should AI be swinging bigger?; and more",
-    "link": "https://endpoints.news/bristol-myers-pivotal-year-should-ai-be-swinging-bigger-and-more/",
-    "description": "Welcome back to Endpoints Weekly! The last week of April brought a downpour of news as several pharma companies reported their first-quarter earnings. Max Gelman took a close look at a make-or-break moment for Bristol ...",
-    "pubDate": "Sat, 02 May 2026 10:00:47 +0000",
-    "category": "Weekly",
-    "source": "Endpoints News",
-    "feedCategory": "biotech",
-    "matchedCompany": "Pivotal",
-    "matchedCompanies": [
-      "Pivotal"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "4d ago"
   },
