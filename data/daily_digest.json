@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T11:57:04.770687+00:00",
+  "generatedAt": "2026-05-06T14:36:23.906407+00:00",
   "date": "2026-05-06",
   "dateDisplay": "Wednesday, May 06, 2026",
   "sections": {
@@ -61,60 +61,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 804.1,
-        "changePercent": 33.57,
-        "change": 202.1
-      },
-      {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.53,
-        "changePercent": 31.92,
-        "change": 1.58
+        "price": 7.19,
+        "changePercent": 41.26,
+        "change": 2.1
+      },
+      {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 812.25,
+        "changePercent": 33.33,
+        "change": 203.05
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 21.54,
-        "changePercent": 18.94,
-        "change": 3.43
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 215.69,
-        "changePercent": 17.66,
-        "change": 32.38
+        "price": 22.78,
+        "changePercent": 24.69,
+        "change": 4.51
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 7.0,
-        "changePercent": 13.82,
-        "change": 0.85
+        "price": 7.37,
+        "changePercent": 19.82,
+        "change": 1.22
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 403.87,
+        "changePercent": 19.8,
+        "change": 66.76
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 18.27,
-        "changePercent": 11.47,
-        "change": 1.88
+        "price": 19.25,
+        "changePercent": 19.68,
+        "change": 3.17
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 48.0,
-        "changePercent": 11.42,
-        "change": 4.92
+        "price": 49.65,
+        "changePercent": 17.91,
+        "change": 7.54
       },
       {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 63.87,
-        "changePercent": -11.14,
-        "change": -8.01
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 2.63,
+        "changePercent": 17.41,
+        "change": 0.39
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "IDEAFORGE.NS +33.6%"
+    "topMover": "AUR +41.3%"
   }
 }
