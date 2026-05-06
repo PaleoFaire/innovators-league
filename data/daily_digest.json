@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-05T23:57:13.684951+00:00",
-  "date": "2026-05-05",
-  "dateDisplay": "Tuesday, May 05, 2026",
+  "generatedAt": "2026-05-06T03:56:40.397492+00:00",
+  "date": "2026-05-06",
+  "dateDisplay": "Wednesday, May 06, 2026",
   "sections": {
     "govActivity": [
       {
@@ -42,15 +42,6 @@
       },
       {
         "company": "Skydio",
-        "amount": "$251K",
-        "amount_raw": 251000.0,
-        "agency": "Department of the Interior",
-        "description": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL",
-        "date": "2026-02-04",
-        "url": "https://sam.gov/opp/140D0426F0169/view"
-      },
-      {
-        "company": "Skydio",
         "amount": "$224K",
         "amount_raw": 224000.0,
         "agency": "Department of Agriculture",
@@ -79,51 +70,51 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.58,
-        "changePercent": 33.03,
-        "change": 1.63
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 216.65,
-        "changePercent": 18.19,
-        "change": 33.34
+        "price": 6.53,
+        "changePercent": 31.92,
+        "change": 1.58
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 21.34,
-        "changePercent": 17.81,
-        "change": 3.23
+        "price": 21.54,
+        "changePercent": 18.94,
+        "change": 3.43
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 215.69,
+        "changePercent": 17.66,
+        "change": 32.38
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
         "price": 7.0,
-        "changePercent": 13.74,
-        "change": 0.84
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 685000.0,
-        "changePercent": 11.93,
-        "change": 73000.0
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 47.75,
-        "changePercent": 10.84,
-        "change": 4.67
+        "changePercent": 13.82,
+        "change": 0.85
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 18.11,
-        "changePercent": 10.52,
-        "change": 1.72
+        "price": 18.27,
+        "changePercent": 11.47,
+        "change": 1.88
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 48.0,
+        "changePercent": 11.42,
+        "change": 4.92
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 63.87,
+        "changePercent": -11.14,
+        "change": -8.01
       }
     ],
     "regulatory": [
@@ -210,7 +201,7 @@
     ]
   },
   "stats": {
-    "contractCount": 7,
+    "contractCount": 6,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
