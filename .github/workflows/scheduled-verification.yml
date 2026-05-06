@@ -189,20 +189,59 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Sanity check data.js still parses cleanly
-          python3 -c "
-          import re, sys
+          # Sanity check data.js still parses cleanly.
+          # Counts braces/brackets ONLY in code (not inside string literals)
+          # so a stray '{' inside a grant title or company description
+          # doesn't trip a false alarm. The previous naive count('{')
+          # broke on data like "...Resource {(SPF18BRR)..." in NIH grants.
+          python3 << 'PYEOF'
+          import sys
           src = open('data.js').read()
           assert 'const COMPANIES' in src, 'COMPANIES marker missing'
           assert 'const VC_FIRMS' in src, 'VC_FIRMS marker missing'
-          if src.count('{') != src.count('}'):
-              print('::error::Brace imbalance after apply')
+
+          # Single-pass tokenizer: skip string literals (", ', `) and
+          # both line and block comments. Count only structural braces.
+          braces = brackets = 0
+          i = 0
+          n = len(src)
+          while i < n:
+              c = src[i]
+              # Block comment
+              if c == '/' and i + 1 < n and src[i+1] == '*':
+                  end = src.find('*/', i + 2)
+                  i = (end + 2) if end != -1 else n
+                  continue
+              # Line comment
+              if c == '/' and i + 1 < n and src[i+1] == '/':
+                  end = src.find('\n', i + 2)
+                  i = (end + 1) if end != -1 else n
+                  continue
+              # String literal (skip until matching unescaped quote)
+              if c in ('"', "'", '`'):
+                  q = c
+                  i += 1
+                  while i < n:
+                      if src[i] == '\\':
+                          i += 2; continue
+                      if src[i] == q:
+                          i += 1; break
+                      i += 1
+                  continue
+              if c == '{': braces += 1
+              elif c == '}': braces -= 1
+              elif c == '[': brackets += 1
+              elif c == ']': brackets -= 1
+              i += 1
+
+          if braces != 0:
+              print(f'::error::Structural brace imbalance: {braces:+d}')
               sys.exit(1)
-          if src.count('[') != src.count(']'):
-              print('::error::Bracket imbalance after apply')
+          if brackets != 0:
+              print(f'::error::Structural bracket imbalance: {brackets:+d}')
               sys.exit(1)
-          print('✓ data.js sanity check passed')
-          "
+          print('✓ data.js sanity check passed (string-aware)')
+          PYEOF
 
           # Stage everything we may have created.
           # IMPORTANT: per-glob `git add` to avoid the atomic-failure bug where
