@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -3.87,
+      "avg_change": -3.73,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.21,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 1.79,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 11.65,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 10.16,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.31,
+      "avg_change": -1.52,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.8,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -2.0,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.06,
+      "avg_change": 13.94,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.97,
+      "avg_change": 0.94,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.49,
+      "avg_change": -2.99,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 6.55,
+      "avg_change": 6.59,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "AUR",
       "Aurora Innovation",
-      33.03
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      18.19
+      31.92
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      17.81
+      18.94
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      17.66
     ],
     [
       "SATL",
       "Satellogic",
-      13.74
+      13.82
     ]
   ],
   "topLosers": [
     [
       "NNE",
       "Nano Nuclear Energy",
-      -4.96
+      -3.96
     ],
     [
       "NVDA",
       "NVIDIA",
-      -7.93
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -8.7
+      -7.82
     ],
     [
       "RIVN",
       "Rivian",
-      -9.29
+      -9.54
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -10.72
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -10.31
+      -11.14
     ]
   ],
-  "lastUpdated": "2026-05-05 19:27:35"
+  "lastUpdated": "2026-05-06 03:32:45"
 }
