@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T18:25:37.976411+00:00",
+  "generatedAt": "2026-05-06T20:41:28.282180+00:00",
   "date": "2026-05-06",
   "dateDisplay": "Wednesday, May 06, 2026",
   "sections": {
@@ -63,9 +63,9 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 7.19,
-        "changePercent": 41.26,
-        "change": 2.1
+        "price": 7.34,
+        "changePercent": 44.3,
+        "change": 2.25
       },
       {
         "ticker": "IDEAFORGE.NS",
@@ -77,44 +77,44 @@
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 22.78,
-        "changePercent": 24.69,
-        "change": 4.51
+        "price": 23.89,
+        "changePercent": 30.73,
+        "change": 5.62
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 7.37,
-        "changePercent": 19.82,
-        "change": 1.22
-      },
-      {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 403.87,
-        "changePercent": 19.8,
-        "change": 66.76
-      },
-      {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 19.25,
-        "changePercent": 19.68,
-        "change": 3.17
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 29.22,
+        "changePercent": 30.33,
+        "change": 6.8
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 49.65,
-        "changePercent": 17.91,
-        "change": 7.54
+        "price": 53.18,
+        "changePercent": 26.29,
+        "change": 11.07
+      },
+      {
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 20.05,
+        "changePercent": 24.66,
+        "change": 3.97
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 418.18,
+        "changePercent": 24.05,
+        "change": 81.06
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.63,
-        "changePercent": 17.41,
-        "change": 0.39
+        "price": 2.75,
+        "changePercent": 22.99,
+        "change": 0.51
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR +41.3%"
+    "topMover": "AUR +44.3%"
   }
 }

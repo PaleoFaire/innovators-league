@@ -1,5 +1,27 @@
 [
   {
+    "title": "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird",
+    "link": "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/",
+    "description": "In an unexpected turn, the two companies signed a deal for Anthropic to use computing resources from Elon Musk’s xAI.",
+    "pubDate": "Wed, 06 May 2026 18:28:52 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anthropic",
+      "xAI"
+    ],
+    "sectors": [
+      "space",
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "XAI Will Breakeven by Renting AI Data Center to Anthropic",
     "link": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
     "description": "XAI gets to about breakeven by renting half of their AI Data center and Anthropic can serve its models and more money and can get to a better IPO. Both get to IPO before OpenAI. Both stronger against OpenAI. OpenAI IPO is hurt. Anthropic is already at pre-IPO valuation of $1.2 trillion. SpaceX XAI w",
@@ -23,7 +45,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "SpaceX may spend up to $119B on &#8216;Terafab&#8217; chip factory in Texas",
@@ -50,7 +72,28 @@
     ],
     "type": "hire",
     "impact": "high",
-    "time": "1h ago"
+    "time": "3h ago"
+  },
+  {
+    "title": "NASA Sets Coverage for SpaceX 34th Station Resupply Launch, Arrival",
+    "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-34th-station-resupply-launch-arrival/",
+    "description": "NASA and SpaceX are targeting 7:16 p.m. EDT Tuesday, May 12, for the next launch to deliver science, supplies, and equipment to the International Space Station. This will be the 34th SpaceX commercial resupply services mission to the orbital outpost for NASA. Carrying about 6,500 pounds of cargo, a ",
+    "pubDate": "Wed, 06 May 2026 17:14:08 +0000",
+    "category": "Commercial Resupply",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3h ago"
   },
   {
     "title": "Astranis secures $450 million in equity, debt to expand small GEO satellite production",
@@ -70,7 +113,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "6h ago"
+    "time": "8h ago"
   },
   {
     "title": "Scout Space raises $18 million to expand orbital tracking technology",
@@ -89,7 +132,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Activists Are Taking On Elon Musk’s SpaceX IPO",
@@ -108,7 +151,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "STAT+: OpenAI wants to ‘have their cake and eat it too’ with health AI policy recommendations",
@@ -127,7 +170,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "12h ago"
   },
   {
     "title": "Silo founder raises €25m for 'Palantir of quantum computing'",
@@ -146,7 +189,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "Rivian (RIVN) mulls making its own lidar as it builds full autonomous driving stack",
@@ -165,32 +208,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
-  },
-  {
-    "title": "Nuro receives driverless testing permit ahead of Uber robotaxi service launch",
-    "link": "https://techcrunch.com/2026/05/05/nuro-receives-driverless-testing-permit-ahead-of-uber-robotaxi-service-launch/",
-    "description": "Nuro has been granted a permit to begin driverless testing of Lucid Gravity SUVs equipped with its autonomous tech on California public roads — vehicles that will eventually be used in Uber’s premium robotaxi service. But the Silicon Valley-based startup says it isn’t quite ready to begin.",
-    "pubDate": "Wed, 06 May 2026 00:07:47 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Nuro",
-    "matchedCompanies": [
-      "Nuro",
-      "Waymo",
-      "Zoox",
-      "ICON"
-    ],
-    "sectors": [
-      "autonomous",
-      "ai",
-      "transportation",
-      "housing"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "18h ago"
+    "time": "19h ago"
   },
   {
     "title": "Intel's VC arm backs quantum startup Quantware in $178m Series B to kick-start production at ‘industrial scale’",
@@ -355,7 +373,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Ouster releases REV8 OS sensor family with native-color lidar",
@@ -396,7 +414,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
@@ -488,7 +506,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "INSANE SECRETS OF SPACEX STARLINK WILL ENABLE 100X",
