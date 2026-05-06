@@ -46,15 +46,6 @@
   },
   {
     "date": "2026-05-12",
-    "vehicle": "Starship | Flight 12",
-    "payload": "Flight 12",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed83366c-872c-4484-97c1-bc74832304fc/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-05-12",
     "vehicle": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
     "payload": "Dragon CRS-2 SpX-34",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
@@ -63,7 +54,16 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-05-16",
+    "date": "2026-05-15",
+    "vehicle": "Starship | Flight 12",
+    "payload": "Flight 12",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed83366c-872c-4484-97c1-bc74832304fc/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-17",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-42",
     "payload": "Starlink Group 17-42",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -97,6 +97,15 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/156a9e46-01b5-46f4-818e-ea563c71c5fe/?format=json",
     "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-05-22",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-31",
+    "payload": "Starlink Group 10-31",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef65c43b-faf9-4adb-9155-289eaabdd097/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-05-26",
@@ -439,14 +448,5 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a556b963-0f36-4660-95a8-fdffdba653e2/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "Electron | StriX Launch 10",
-    "payload": "StriX Launch 10",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
-    "trackedCompany": "Rocket Lab"
   }
 ]

@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-05-05 09:23:27 UTC
+// Last updated: 2026-05-06 10:10:52 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -816,7 +816,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Poseidon Aerospace",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 21.2,
+        "bid_fit_score": 21.3,
         "matched_terms": [
           "maritime",
           "naval",
@@ -916,7 +916,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Trilobio",
         "sector": "Biotech & Health",
-        "bid_fit_score": 14.7,
+        "bid_fit_score": 14.6,
         "matched_terms": [
           "biology",
           "biotech",
@@ -982,7 +982,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Asimov",
         "sector": "Biotech & Health",
-        "bid_fit_score": 9.8,
+        "bid_fit_score": 9.9,
         "matched_terms": [
           "biotech",
           "biology",

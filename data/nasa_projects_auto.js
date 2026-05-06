@@ -1,6 +1,18 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-05-05 09:04:19 UTC
+// Last updated: 2026-05-06 09:15:32 UTC
 const NASA_PROJECTS = [
+  { id: 154703, title: "Improved Design of the VASIMR Radio Frequency Transmission Line", status: "Completed", center: "Ad Astra Rocket Company", techArea: "Heat Transport", lastUpdated: "05/05/26" },
+  { id: 158579, title: "Improved Design of the VASIMR Radio Frequency Transmission Line", status: "Completed", center: "Ad Astra Rocket Company", techArea: "Electrostatic Propulsion", lastUpdated: "05/05/26" },
+  { id: 184645, title: "Solid Power with Extreme Environment  Adaptability and Resilience in Space", status: "Completed", center: "Glenn Research Center", techArea: "Electrochemical Storage: Batteries", lastUpdated: "05/05/26" },
+  { id: 91402, title: "Mars Ascent Vehicle II", status: "Completed", center: "Marshall Space Flight Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/05/26" },
+  { id: 4851, title: "Sample Return Robot", status: "Completed", center: "Marshall Space Flight Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "05/05/26" },
+  { id: 185040, title: "Novel Cryogen Storage for Space Applications", status: "Active", center: "Marshall Space Flight Center", techArea: "In-Space Propellant Storage and Use", lastUpdated: "05/04/26" },
+  { id: 185039, title: "Additive Manufacturing for Cryogenic Fluid Management", status: "Active", center: "Marshall Space Flight Center", techArea: "In-Space Propellant Storage and Use", lastUpdated: "05/04/26" },
+  { id: 184354, title: "Additive Manufacturing ASCENT Propulsion Catalyst Beds", status: "Completed", center: "NASA Marshall Space Flight Center", techArea: "Propulsion Systems", lastUpdated: "05/04/26" },
+  { id: 184400, title: "High Performance Atomic Clock", status: "Active", center: "Jet Propulsion Laboratory", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "05/04/26" },
+  { id: 125486, title: "Design and Implementation Tools for Lunar Surface Regolith Structure Constructio", status: "Completed", center: "Lunar Outpost, Inc.", techArea: "Surface Construction and Assembly", lastUpdated: "05/04/26" },
+  { id: 158495, title: "Design and Implementation Tools for Lunar Surface Regolith Structure Constructio", status: "Completed", center: "Lunar Outpost, Inc.", techArea: "Destination Resource Exploration", lastUpdated: "05/04/26" },
+  { id: 184934, title: "Spatial Disorientation Trainer", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/04/26" },
   { id: 184643, title: "STRATFI-Inversion", status: "Active", center: "Ames Research Center", techArea: "Aerodynamic Decelerators", lastUpdated: "05/01/26" },
   { id: 184641, title: "Integration of Dust Resisting Secondary Emission Engineered Passive Thermal Cont", status: "Completed", center: "Goddard Space Flight Center", techArea: "Coatings", lastUpdated: "05/01/26" },
   { id: 184640, title: "Lunar Night Survival and Long-Range Communications for Distributed Robotics Asse", status: "Active", center: "Ames Research Center", techArea: "Surface Mobility", lastUpdated: "05/01/26" },
@@ -19,16 +31,4 @@ const NASA_PROJECTS = [
   { id: 157707, title: "Feasibility Study on Simultaneous Transmission of Higher Order Modulated Telemet", status: "Completed", center: "Goddard Space Flight Center", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "05/01/26" },
   { id: 157697, title: "Completing the Next Generation MUSTANG Processor", status: "Completed", center: "Goddard Space Flight Center", techArea: "Flight Computing and Avionics", lastUpdated: "05/01/26" },
   { id: 184629, title: "LIDAR Line-up Assessment for Upcoming Navigation Challenges to Help Ease Risk", status: "Active", center: "Ames Research Center", techArea: "Sensing for Robotic Systems", lastUpdated: "05/01/26" },
-  { id: 184628, title: "SCALPSS 2", status: "Active", center: "Langley Research Center", techArea: "Other Entry, Descent, and Landing", lastUpdated: "05/01/26" },
-  { id: 157684, title: "Developing the Machinery for in-situ Data-Driven Simulations", status: "Completed", center: "Goddard Space Flight Center", techArea: "Multiscale, Multiphysics, and Multifidelity Simulation", lastUpdated: "05/01/26" },
-  { id: 184627, title: "Liquid Droplet Radiator for SNP – Study", status: "Completed", center: "Glenn Research Center", techArea: "Heat Rejection and Storage", lastUpdated: "05/01/26" },
-  { id: 157657, title: "Planetary Trajectory Design Using Generative AI Tools", status: "Completed", center: "Goddard Space Flight Center", techArea: "Trajectory Design and Analysis", lastUpdated: "05/01/26" },
-  { id: 184625, title: "Autonomous Systems Study", status: "Completed", center: "Langley Research Center", techArea: "Autonomous Systems", lastUpdated: "05/01/26" },
-  { id: 184623, title: "STRATFI-Outpost", status: "Active", center: "Ames Research Center", techArea: "Hypersonic Decelerators", lastUpdated: "05/01/26" },
-  { id: 156905, title: "Science S/C End-to-End ACS Testbed", status: "Completed", center: "Goddard Space Flight Center", techArea: "GN&C Actuators for 6DOF Spacecraft Control During Rendezvous, Proximity Operations, and Capture", lastUpdated: "05/01/26" },
-  { id: 157662, title: "Planetary Surface Navigational Autonomy through 3D Sensing", status: "Completed", center: "Goddard Space Flight Center", techArea: "Surface Mobility", lastUpdated: "05/01/26" },
-  { id: 184618, title: "In-Situ Process Surveillance and Monitoring for AM", status: "Completed", center: "Marshall Space Flight Center", techArea: "Nondestructive Evaluation and Sensors", lastUpdated: "05/01/26" },
-  { id: 157696, title: "Intelligent Extensible Mission Architectures (IEMA) Verification and Validation", status: "Completed", center: "Goddard Space Flight Center", techArea: "Engineering and Integrity", lastUpdated: "05/01/26" },
-  { id: 157669, title: "Astronaut-Deployed Electrical Power System with Active Lunar Dust Mitigation", status: "Completed", center: "Goddard Space Flight Center", techArea: "Electrical Power Conversion and Regulation", lastUpdated: "05/01/26" },
-  { id: 184617, title: "Robotic Construction and Infrastructure Follow-on Study", status: "Completed", center: "Langley Research Center", techArea: "Surface Construction and Assembly", lastUpdated: "05/01/26" },
 ];
