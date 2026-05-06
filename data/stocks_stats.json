@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.78,
+      "avg_change": -3.33,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 6.55,
+      "avg_change": 7.3,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 18.63,
+      "avg_change": 22.04,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.08,
+      "avg_change": 24.22,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.57,
+      "avg_change": 2.69,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 20.76,
+      "avg_change": 27.23,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.82,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 3.68,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.49,
+      "avg_change": -0.93,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 7.41,
+      "avg_change": 10.06,
       "count": 3
     }
   },
@@ -61,7 +61,7 @@
     [
       "AUR",
       "Aurora Innovation",
-      41.26
+      44.3
     ],
     [
       "IDEAFORGE.NS",
@@ -71,45 +71,45 @@
     [
       "QBTS",
       "D-Wave Quantum",
-      24.69
+      30.73
     ],
     [
-      "SATL",
-      "Satellogic",
-      19.82
+      "NNE",
+      "Nano Nuclear Energy",
+      30.33
     ],
     [
-      "AMD",
-      "AMD",
-      19.8
+      "IONQ",
+      "IonQ",
+      26.29
     ]
   ],
   "topLosers": [
     [
-      "PLTR",
-      "Palantir",
-      -1.78
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      -2.63
-    ],
-    [
       "NVDA",
       "NVIDIA",
-      -2.72
+      -1.01
     ],
     [
-      "RIVN",
-      "Rivian",
-      -8.5
+      "9348.T",
+      "ispace",
+      -1.26
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      -3.33
     ],
     [
       "LNZA",
       "LanzaTech",
-      -8.94
+      -7.27
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      -9.22
     ]
   ],
-  "lastUpdated": "2026-05-06 14:24:11"
+  "lastUpdated": "2026-05-06 19:51:37"
 }
