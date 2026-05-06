@@ -1,14 +1,24 @@
 {
-  "generated_at": "2026-05-05T08:18:27.872462Z",
+  "generated_at": "2026-05-06T11:05:22.189287Z",
   "takes": [
     {
-      "author": "TechCrunch",
+      "author": "SpaceNews",
       "role": "Industry signal",
-      "company": "Fervo Energy",
-      "text": "Geothermal startup Fervo Energy to raise up to $1.3B in IPO",
+      "company": "Scout Space",
+      "text": "Scout Space raises $18 million to expand orbital tracking technology",
+      "date": "Wed, 06 Ma",
+      "source": "news",
+      "source_url": "https://spacenews.com/scout-space-raises-18-million-to-expand-orbital-tracking-technology/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "Tech.eu",
+      "role": "Industry signal",
+      "company": "ElevenLabs",
+      "text": "ElevenLabs adds BlackRock, Nvidia and Jamie Foxx to $550M+ Series D",
       "date": "Tue, 05 Ma",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/05/04/geothermal-startup-fervo-energy-to-raise-up-to-1-3b-in-ipo/",
+      "source_url": "https://tech.eu/2026/05/05/elevenlabs-adds-blackrock-nvidia-and-jamie-foxx-to-550m-series-d/",
       "signal_type": "funding"
     },
     {
@@ -30,16 +40,6 @@
       "source": "news",
       "source_url": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
       "signal_type": "news"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Cerebras",
-      "text": "OpenAI&#8217;s cozy partner Cerebras is on track for a blockbuster IPO",
-      "date": "Mon, 04 Ma",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
-      "signal_type": "ipo"
     },
     {
       "author": "Next Big Future",

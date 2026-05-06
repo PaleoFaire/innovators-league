@@ -2,6 +2,15 @@
   {
     "company": "Palantir Technologies",
     "ticker": "PLTR",
+    "form": "10-Q",
+    "date": "2026-05-05",
+    "description": "pltr-20260331.htm",
+    "accessionNumber": "0001321655-26-000028",
+    "isIPO": false
+  },
+  {
+    "company": "Palantir Technologies",
+    "ticker": "PLTR",
     "form": "8-K",
     "date": "2026-05-04",
     "description": "pltr-20260504.htm",
@@ -123,24 +132,6 @@
     "date": "2026-02-17",
     "description": "pltr-20251231.htm",
     "accessionNumber": "0001321655-26-000011",
-    "isIPO": false
-  },
-  {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "4",
-    "date": "2026-02-04",
-    "description": "xslF345X05/wk-form4_1770254739.xml",
-    "accessionNumber": "0001840244-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "4",
-    "date": "2026-02-04",
-    "description": "xslF345X05/wk-form4_1770254378.xml",
-    "accessionNumber": "0001823952-26-000005",
     "isIPO": false
   },
   {
@@ -1245,6 +1236,15 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-05-05",
+    "description": "xslF345X06/wk-form4_1778013141.xml",
+    "accessionNumber": "0001855623-26-000011",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-05-04",
     "description": "xslF345X06/wk-form4_1777932418.xml",
     "accessionNumber": "0002021433-26-000011",
@@ -1503,12 +1503,21 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-03",
-    "description": "xslF345X05/wk-form4_1772573148.xml",
-    "accessionNumber": "0001855623-26-000003",
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "10-Q",
+    "date": "2026-05-06",
+    "description": "leu-20260331.htm",
+    "accessionNumber": "0001628280-26-030891",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-05-05",
+    "description": "leu-20260505.htm",
+    "accessionNumber": "0001628280-26-030674",
     "isIPO": false
   },
   {
@@ -1581,6 +1590,15 @@
     "date": "2026-02-10",
     "description": "leu-20260210.htm",
     "accessionNumber": "0001628280-26-006909",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "4",
+    "date": "2026-05-05",
+    "description": "xslF345X06/wk-form4_1778018954.xml",
+    "accessionNumber": "0001577526-26-000046",
     "isIPO": false
   },
   {
@@ -1734,6 +1752,24 @@
     "date": "2026-02-12",
     "description": "xslF345X05/wk-form4_1770933618.xml",
     "accessionNumber": "0001577526-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "10-Q",
+    "date": "2026-05-05",
+    "description": "upst-20260331.htm",
+    "accessionNumber": "0001647639-26-000046",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "8-K",
+    "date": "2026-05-05",
+    "description": "upst-20260505.htm",
+    "accessionNumber": "0001647639-26-000045",
     "isIPO": false
   },
   {
@@ -2189,6 +2225,15 @@
   {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-05-05",
+    "description": "qbts-20260505.htm",
+    "accessionNumber": "0001907982-26-000052",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "4",
     "date": "2026-05-04",
     "description": "xslF345X06/wk-form4_1777928537.xml",
@@ -2346,6 +2391,24 @@
     "date": "2026-02-17",
     "description": "xslF345X05/wk-form4_1771366297.xml",
     "accessionNumber": "0001974777-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "10-Q",
+    "date": "2026-05-06",
+    "description": "rxrx-20260331.htm",
+    "accessionNumber": "0001601830-26-000078",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "8-K",
+    "date": "2026-05-06",
+    "description": "rxrx-20260506.htm",
+    "accessionNumber": "0001601830-26-000077",
     "isIPO": false
   },
   {
@@ -3129,6 +3192,24 @@
     "date": "2026-02-19",
     "description": "xslF345X05/wk-form4_1771538986.xml",
     "accessionNumber": "0001964417-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "10-Q",
+    "date": "2026-05-05",
+    "description": "ea0287069-10q_rythm.htm",
+    "accessionNumber": "0001213900-26-052195",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "8-K",
+    "date": "2026-05-05",
+    "description": "ea0289074-8k_rythm.htm",
+    "accessionNumber": "0001213900-26-052186",
     "isIPO": false
   },
   {
@@ -4065,24 +4146,6 @@
     "date": "2026-02-05",
     "description": "tra-20260205.htm",
     "accessionNumber": "0001628280-26-005805",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "4",
-    "date": "2026-02-04",
-    "description": "xslF345X05/wk-form4_1770241291.xml",
-    "accessionNumber": "0001628280-26-005493",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "4",
-    "date": "2026-02-04",
-    "description": "xslF345X05/wk-form4_1770241266.xml",
-    "accessionNumber": "0001628280-26-005492",
     "isIPO": false
   },
   {

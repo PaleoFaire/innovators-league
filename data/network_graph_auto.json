@@ -56,6 +56,11 @@
       "thesisCluster": "defense-munitions-energetics"
     },
     {
+      "id": "Alpha School",
+      "sector": "AI & Software",
+      "thesisCluster": "ai-tooling"
+    },
+    {
       "id": "Mach Industries",
       "sector": "Defense & Security",
       "thesisCluster": "defense-munitions-energetics"
@@ -9259,7 +9264,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 872,
+    "total_nodes": 873,
     "total_edges": 847,
     "competitor_edges": 187,
     "thesis_edges": 660,

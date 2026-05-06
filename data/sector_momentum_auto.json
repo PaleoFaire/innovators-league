@@ -1,91 +1,74 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "Greg Brockman Defends $30B OpenAI Stake: \u2018Blood, Sweat, and",
-      "OpenAI&#8217;s cozy partner Cerebras is on track for a block",
-      "Elon Musk&#8217;s only AI expert witness at the OpenAI trial"
+      "STAT+: OpenAI wants to \u2018have their cake and eat it too\u2019 with",
+      "OpenAI releases GPT-5.5 Instant, a new default model for Cha",
+      "Greg Brockman Defends $30B OpenAI Stake: \u2018Blood, Sweat, and"
     ],
     "fundingQ": "$2144.6B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-05"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 54,
-    "trend": "steady",
-    "catalysts": [
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
-      "Pentagon freezes out Anthropic as it signs deals with AI riv",
-      "Former head of \u2018Pentagon\u2019s think tank\u2019 joins Anthropic"
-    ],
-    "fundingQ": "$22.5B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 70
-    },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 49,
+    "momentum": 53,
     "trend": "steady",
     "catalysts": [
-      "Geothermal startup Fervo Energy to raise up to $1.3B in IPO",
       "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
-      "SpaceX Starship Flight 12 May 12"
+      "SpaceX Starship Flight 12 May 12",
+      "Fervo Energy unveils new power plant details in IPO filing"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
-      "market": 68
+      "market": 92
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "SpaceX Starlink Supplier Projects 100M High Speed Internet C",
-      "SpaceX Starship Flight 12 Likely Late May After Generator Ex",
-      "Pixxel pushes into orbital data centers for faster geospatia"
+      "Scout Space raises $18 million to expand orbital tracking te",
+      "Nuro receives driverless testing permit ahead of Uber robota",
+      "SpaceX Starlink Supplier Projects 100M High Speed Internet C"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 60,
+      "news": 50,
       "hiring": 0,
-      "market": 29
+      "market": 40
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 46,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
+      "Rivian (RIVN) mulls making its own lidar as it builds full a",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -101,7 +84,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Ocean & Maritime",
@@ -117,11 +100,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 44,
+    "trend": "steady",
+    "catalysts": [
+      "Silo founder raises \u20ac25m for 'Palantir of quantum computing'",
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
+      "Pentagon freezes out Anthropic as it signs deals with AI riv"
+    ],
+    "fundingQ": "$22.5B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 13
+    },
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 33,
+    "momentum": 42,
     "trend": "steady",
     "catalysts": [
       "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
@@ -133,62 +134,81 @@
       "funding": 83,
       "news": 15,
       "hiring": 0,
-      "market": 0
+      "market": 47
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 29,
+    "momentum": 34,
     "trend": "rising",
     "catalysts": [
-      "Ouster releases REV8 OS sensor family with native-color lida",
-      "The Humanoid Robot Market Is Smaller Than It Looks",
-      "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?"
+      "Scout Space raises $18 million to expand orbital tracking te",
+      "Rivian (RIVN) mulls making its own lidar as it builds full a",
+      "Nuro receives driverless testing permit ahead of Uber robota"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 20,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 26,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
+      "STAT+: OpenAI wants to \u2018have their cake and eat it too\u2019 with",
       "SpaceX Starship Flight 12 Likely Late May After Generator Ex",
-      "Bristol Myers\u2019 pivotal year; Should AI be swinging bigger?;",
-      "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?"
+      "Bristol Myers\u2019 pivotal year; Should AI be swinging bigger?;"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
-      "market": 85
+      "market": 73
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 22,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Quantum Machines acquires QHarbor and opens Delft office to",
-      "IonQ to offer ground-movement monitoring via Capella radar s"
+      "Silo founder raises \u20ac25m for 'Palantir of quantum computing'",
+      "Intel backs quantum startup Quantware in $178m Series B to k",
+      "QuantWare secures \u20ac152M for large-scale quantum systems"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "Nuro receives driverless testing permit ahead of Uber robota",
+      "QuantWare secures \u20ac152M for large-scale quantum systems",
+      "ElevenLabs adds BlackRock, Nvidia and Jamie Foxx to $550M+ S"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Consumer Tech",
@@ -206,25 +226,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Tesla Got $573 Million from SpaceX and xAI in 2025",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
       "Anthropic&#8217;s Nuclear Bomb"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Housing & Construction",
@@ -240,38 +259,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-05"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI&#8217;s cozy partner Cerebras is on track for a block"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 37
-    },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   },
   {
     "sector": "Transportation",
-    "momentum": 4,
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
+      "Rivian (RIVN) mulls making its own lidar as it builds full a",
+      "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest",
       "Rivian (RIVN) lifts production capacity for its Georgia plan"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
-      "market": 0
+      "market": 9
     },
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   }
 ]

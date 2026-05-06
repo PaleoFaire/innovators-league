@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 4,
+    "activityIndex": 2,
     "billsTracked": 2,
-    "rulesTracked": 2,
-    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
+    "rulesTracked": 0,
+    "description": "2 bill(s) + 0 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -23,22 +23,68 @@
         "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
         "number": "S2226",
         "status": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-05-06"
+  },
+  {
+    "category": "Autonomous Systems & Drones",
+    "icon": "\ud83d\udef8",
+    "budgetLineItem": "Autonomous Systems & Drones \u2014 federal activity index",
+    "change": "+5%",
+    "changeNum": 5,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 2,
+    "billsTracked": 1,
+    "rulesTracked": 1,
+    "description": "1 bill(s) + 1 federal-register action(s) touching Autonomous Systems & Drones in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Autonomous Vehicle Safety Act",
+        "number": "HR6001",
+        "status": ""
       },
       {
         "type": "federal_register",
-        "title": "Licensing Requirements for Microreactors and Other Reactors With Comparable Risk",
-        "agency": "",
-        "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Constellation Energy Generation, LLC; Nine Mile Point Nuclear Station, Unit 1; S",
+        "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a ",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
+  },
+  {
+    "category": "Space & Aerospace",
+    "icon": "\ud83d\ude80",
+    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
+    "change": "+5%",
+    "changeNum": 5,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 2,
+    "billsTracked": 1,
+    "rulesTracked": 1,
+    "description": "1 bill(s) + 1 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Commercial Space Launch Competitiveness Act Amendments",
+        "number": "HR3684",
+        "status": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Safety Zones; Rocket Launches in the Gulf of America and South Bay, Boca Chica B",
+        "agency": "",
+        "date": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-05-06"
   },
   {
     "category": "Quantum Computing",
@@ -61,52 +107,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-05"
-  },
-  {
-    "category": "Autonomous Systems & Drones",
-    "icon": "\ud83d\udef8",
-    "budgetLineItem": "Autonomous Systems & Drones \u2014 federal activity index",
-    "change": "flat",
-    "changeNum": 0,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 1,
-    "billsTracked": 1,
-    "rulesTracked": 0,
-    "description": "1 bill(s) + 0 federal-register action(s) touching Autonomous Systems & Drones in the last 90 days. Activity index 1 \u2014 flat relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Autonomous Vehicle Safety Act",
-        "number": "HR6001",
-        "status": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-05"
-  },
-  {
-    "category": "Space & Aerospace",
-    "icon": "\ud83d\ude80",
-    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
-    "change": "flat",
-    "changeNum": 0,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 1,
-    "billsTracked": 1,
-    "rulesTracked": 0,
-    "description": "1 bill(s) + 0 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 1 \u2014 flat relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Commercial Space Launch Competitiveness Act Amendments",
-        "number": "HR3684",
-        "status": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-05"
+    "lastUpdated": "2026-05-06"
   }
 ]
