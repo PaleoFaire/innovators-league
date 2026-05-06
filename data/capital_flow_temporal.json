@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T06:39:55+00:00",
+  "generatedAt": "2026-05-06T09:33:53+00:00",
   "matrix": {
     "construction-3d-printing": {
       "2026-Q2": {
@@ -223,7 +223,18 @@
             "amount": null,
             "date": "2025-11",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Mac Venture Capital",
+              "Weekend Fund",
+              "Anthemis",
+              "Evening Fund",
+              "Naval Ravikant",
+              "Balaji Srinivasan",
+              "Karen Pritzker",
+              "Gaingels",
+              "Ryan Hoover",
+              "Cliff Sirlin"
+            ]
           },
           {
             "name": "Swift Beat",
@@ -545,10 +556,19 @@
             "amount": 1050000,
             "date": "2026-04-28",
             "source": "formd",
-            "investors": []
+            "investors": [
+              "Initialized Capital",
+              "Starburst Ventures",
+              "Credo Ventures",
+              "Giant Step Capital",
+              "Domino Ventures",
+              "Alumni Ventures"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "Alumni Ventures"
+        ]
       }
     },
     "nuclear-microreactor": {
@@ -685,7 +705,12 @@
             "amount": null,
             "date": "2025-03",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Craft Ventures",
+              "Inspired Capital",
+              "Rally Ventures",
+              "State of Wisconsin Investment Board"
+            ]
           }
         ],
         "investors": []
@@ -868,7 +893,17 @@
             "amount": null,
             "date": "2026-04",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Founders Fund",
+              "Lux Capital",
+              "8VC",
+              "Definition Capital",
+              "Swish Ventures",
+              "Patrick Collison",
+              "John Collison",
+              "Elad Gil",
+              "Sarah Guo"
+            ]
           },
           {
             "name": "Anysphere",
@@ -885,7 +920,11 @@
             ]
           }
         ],
-        "investors": []
+        "investors": [
+          "8VC",
+          "Founders Fund",
+          "Lux Capital"
+        ]
       }
     },
     "manufacturing-reshoring": {
@@ -1332,6 +1371,12 @@
           "cluster": "autonomy-drone-military",
           "date": "2026-04",
           "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-04",
+          "source": "recentEvent"
         }
       ]
     },
@@ -1349,6 +1394,24 @@
           "company": "Shield AI",
           "cluster": "autonomy-drone-military",
           "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Alumni Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Picogrid",
+          "cluster": "defense-ew-rf-cyber",
+          "date": "2026-04-28",
+          "source": "formd"
+        }
+      ],
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
           "source": "recentEvent"
         }
       ]
@@ -1378,6 +1441,12 @@
           "cluster": "autonomy-drone-military",
           "date": "2026-04",
           "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-04",
+          "source": "recentEvent"
         }
       ]
     },
@@ -1386,6 +1455,12 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
+          "date": "2026-04",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
           "date": "2026-04",
           "source": "recentEvent"
         }
@@ -1459,16 +1534,6 @@
           "company": "Relativity Space",
           "cluster": "space-launch-large",
           "date": "2025-06",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Alumni Ventures": {
-      "2024-Q1": [
-        {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
           "source": "recentEvent"
         }
       ]
