@@ -1,5 +1,5 @@
 // Auto-generated demand signals data
-// Last updated: 2026-05-06 09:13:54 UTC
+// Last updated: 2026-05-07 09:23:41 UTC
 // Total signals: 44 | Companies matched: 193
 
 const GOV_DEMAND_SIGNALS_AUTO = [
@@ -6728,5 +6728,5 @@ const DEMAND_SIGNALS_STATS = {
     "Environmental Protection Agency (EPA)": 1
   },
   "companiesMatched": 193,
-  "lastUpdated": "2026-05-06 09:13:54 UTC"
+  "lastUpdated": "2026-05-07 09:23:41 UTC"
 };
