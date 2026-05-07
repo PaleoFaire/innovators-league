@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.37,
+      "avg_change": -1.35,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 3.35,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.18,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 14.73,
+      "avg_change": 13.92,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 9.17,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 4.5,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.72,
+      "avg_change": -7.77,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.44,
+      "avg_change": 6.4,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.1,
+      "avg_change": -3.18,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.89,
+      "avg_change": -3.42,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.27,
+      "avg_change": 7.36,
       "count": 3
     }
   },
@@ -66,7 +66,7 @@
     [
       "AUR",
       "Aurora Innovation",
-      21.17
+      23.21
     ],
     [
       "ASRHF",
@@ -76,40 +76,40 @@
     [
       "AMD",
       "AMD",
-      18.49
+      15.22
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      17.49
+      "EVTL",
+      "Vertical Aerospace",
+      14.53
     ]
   ],
   "topLosers": [
     [
       "LNZA",
       "LanzaTech",
-      -3.42
+      -7.93
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -6.1
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      -9.13
+      -11.53
     ],
     [
       "TEM",
       "Tempus AI",
-      -9.17
+      -11.68
     ],
     [
       "RIVN",
       "Rivian",
-      -13.41
+      -13.23
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -15.51
     ]
   ],
-  "lastUpdated": "2026-05-07 14:24:01"
+  "lastUpdated": "2026-05-07 19:47:41"
 }
