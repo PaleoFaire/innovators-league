@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-06T23:58:13.374951+00:00",
-  "date": "2026-05-06",
-  "dateDisplay": "Wednesday, May 06, 2026",
+  "generatedAt": "2026-05-07T03:54:49.396504+00:00",
+  "date": "2026-05-07",
+  "dateDisplay": "Thursday, May 07, 2026",
   "sections": {
     "govActivity": [
       {
@@ -63,9 +63,9 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 7.34,
-        "changePercent": 44.3,
-        "change": 2.25
+        "price": 7.27,
+        "changePercent": 42.83,
+        "change": 2.18
       },
       {
         "ticker": "IDEAFORGE.NS",
@@ -77,44 +77,44 @@
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 23.89,
-        "changePercent": 30.73,
-        "change": 5.62
+        "price": 23.83,
+        "changePercent": 30.43,
+        "change": 5.56
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 29.22,
-        "changePercent": 30.33,
-        "change": 6.8
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 53.18,
-        "changePercent": 26.29,
-        "change": 11.07
-      },
-      {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 20.05,
-        "changePercent": 24.66,
-        "change": 3.97
+        "price": 29.07,
+        "changePercent": 29.66,
+        "change": 6.65
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 418.18,
-        "changePercent": 24.05,
-        "change": 81.06
+        "price": 421.39,
+        "changePercent": 25.0,
+        "change": 84.28
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 2.75,
-        "changePercent": 22.99,
-        "change": 0.51
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 20.09,
+        "changePercent": 24.94,
+        "change": 4.01
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 52.57,
+        "changePercent": 24.84,
+        "change": 10.46
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 79.62,
+        "changePercent": 22.53,
+        "change": 14.64
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR +44.3%"
+    "topMover": "AUR +42.8%"
   }
 }
