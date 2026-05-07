@@ -1,9 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-06 11:04:21 UTC
+// Last updated: 2026-05-07 08:40:10 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Centrus Energy", form: "10-Q", date: "2026-05-06", description: "leu-20260331.htm", isIPO: false, ticker: "LEU" },
   { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2026-05-06", description: "rxrx-20260331.htm", isIPO: false, ticker: "RXRX" },
   { company: "Recursion Pharmaceuticals", form: "8-K", date: "2026-05-06", description: "rxrx-20260506.htm", isIPO: false, ticker: "RXRX" },
+  { company: "Aurora Innovation", form: "10-Q", date: "2026-05-06", description: "aur-20260331.htm", isIPO: false, ticker: "AUR" },
+  { company: "Aurora Innovation", form: "8-K", date: "2026-05-06", description: "aur-20260506.htm", isIPO: false, ticker: "AUR" },
   { company: "Palantir Technologies", form: "10-Q", date: "2026-05-05", description: "pltr-20260331.htm", isIPO: false, ticker: "PLTR" },
   { company: "Oklo", form: "4", date: "2026-05-05", description: "xslF345X06/wk-form4_1778013141.xml", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "8-K", date: "2026-05-05", description: "leu-20260505.htm", isIPO: false, ticker: "LEU" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Agrify Corporation", form: "DEF 14A", date: "2026-04-27", description: "ea0286708-02.htm", isIPO: false, ticker: "AGFY" },
   { company: "Rivian", form: "DEF 14A", date: "2026-04-27", description: "rivn-20260427.htm", isIPO: false, ticker: "RIVN" },
   { company: "Astera Labs", form: "DEF 14A", date: "2026-04-27", description: "cook-20260427.htm", isIPO: false, ticker: "ALAB" },
-  { company: "Palantir Technologies", form: "DEF 14A", date: "2026-04-24", description: "pltr-20260423.htm", isIPO: false, ticker: "PLTR" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-04-24", description: "spce-20260424.htm", isIPO: false, ticker: "SPCE" },
 ];

@@ -1,57 +1,75 @@
 [
   {
+    "sector": "Space & Aerospace",
+    "momentum": 62,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX is starting to move on from the world&#039;s most suc",
+      "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird",
+      "XAI Will Breakeven by Renting AI Data Center to Anthropic"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 60,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-07"
+  },
+  {
     "sector": "AI & Software",
-    "momentum": 55,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "STAT+: OpenAI wants to \u2018have their cake and eat it too\u2019 with",
-      "OpenAI releases GPT-5.5 Instant, a new default model for Cha",
-      "Greg Brockman Defends $30B OpenAI Stake: \u2018Blood, Sweat, and"
+      "GIC backs Anthropic-linked new AI-native enterprise services",
+      "Elon Musk\u2019s Last-Ditch Effort to Control OpenAI: Recruit Sam",
+      "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird"
     ],
-    "fundingQ": "$2144.6B",
+    "fundingQ": "$2207.6B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 53,
+    "trend": "steady",
+    "catalysts": [
+      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
+      "Anthropic&#8217;s Nuclear Bomb",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$800M",
+    "components": {
+      "funding": 83,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Climate & Energy",
     "momentum": 53,
     "trend": "steady",
     "catalysts": [
-      "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
       "SpaceX Starship Flight 12 May 12",
-      "Fervo Energy unveils new power plant details in IPO filing"
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
-      "market": 92
+      "market": 100
     },
-    "lastUpdated": "2026-05-06"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 48,
-    "trend": "steady",
-    "catalysts": [
-      "Scout Space raises $18 million to expand orbital tracking te",
-      "Nuro receives driverless testing permit ahead of Uber robota",
-      "SpaceX Starlink Supplier Projects 100M High Speed Internet C"
-    ],
-    "fundingQ": "$2.2B",
-    "components": {
-      "funding": 78,
-      "news": 50,
-      "hiring": 0,
-      "market": 40
-    },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Drones & Autonomous",
@@ -68,23 +86,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 46,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Quantum Machines acquires QHarbor and opens Delft office to"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Ocean & Maritime",
@@ -100,7 +118,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Defense & Security",
@@ -109,95 +127,77 @@
     "catalysts": [
       "Silo founder raises \u20ac25m for 'Palantir of quantum computing'",
       "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
-      "Pentagon freezes out Anthropic as it signs deals with AI riv"
+      "Former head of \u2018Pentagon\u2019s think tank\u2019 joins Anthropic"
     ],
     "fundingQ": "$22.5B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
-      "market": 13
+      "market": 20
     },
-    "lastUpdated": "2026-05-06"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 42,
-    "trend": "steady",
-    "catalysts": [
-      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
-      "Anthropic&#8217;s Nuclear Bomb",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$800M",
-    "components": {
-      "funding": 83,
-      "news": 15,
-      "hiring": 0,
-      "market": 47
-    },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 34,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
-      "Scout Space raises $18 million to expand orbital tracking te",
+      "SpaceX may spend up to $119B on &#8216;Terafab&#8217; chip f",
       "Rivian (RIVN) mulls making its own lidar as it builds full a",
-      "Nuro receives driverless testing permit ahead of Uber robota"
+      "Intel's VC arm backs quantum startup Quantware in $178m Seri"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 40,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 25,
+    "momentum": 29,
     "trend": "declining",
     "catalysts": [
+      "SpaceX may spend up to $119B on &#8216;Terafab&#8217; chip f",
       "STAT+: OpenAI wants to \u2018have their cake and eat it too\u2019 with",
-      "SpaceX Starship Flight 12 Likely Late May After Generator Ex",
-      "Bristol Myers\u2019 pivotal year; Should AI be swinging bigger?;"
+      "SpaceX Starship Flight 12 Likely Late May After Generator Ex"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 30,
-      "hiring": 0,
-      "market": 73
-    },
-    "lastUpdated": "2026-05-06"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 25,
-    "trend": "declining",
-    "catalysts": [
-      "Silo founder raises \u20ac25m for 'Palantir of quantum computing'",
-      "Intel backs quantum startup Quantware in $178m Series B to k",
-      "QuantWare secures \u20ac152M for large-scale quantum systems"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 26,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian (RIVN) mulls making its own lidar as it builds full a",
+      "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest",
+      "Rivian (RIVN) lifts production capacity for its Georgia plan"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "Nuro receives driverless testing permit ahead of Uber robota",
+      "SpaceX may spend up to $119B on &#8216;Terafab&#8217; chip f",
       "QuantWare secures \u20ac152M for large-scale quantum systems",
       "ElevenLabs adds BlackRock, Nvidia and Jamie Foxx to $550M+ S"
     ],
@@ -208,25 +208,43 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 16,
+    "sector": "Quantum Computing",
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "Ouster releases REV8 OS sensor family with native-color lida",
-      "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
-      "SpaceX Starship Flight 12 May 12"
+      "Silo founder raises \u20ac25m for 'Palantir of quantum computing'",
+      "Intel's VC arm backs quantum startup Quantware in $178m Seri",
+      "QuantWare secures \u20ac152M for large-scale quantum systems"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Ouster releases REV8 OS sensor family with native-color lida",
+      "SpaceX Starship Flight 12 May 12",
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -243,40 +261,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 10,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "NASA Sets Coverage for SpaceX 34th Station Resupply Launch,"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-06"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 8,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian (RIVN) mulls making its own lidar as it builds full a",
-      "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest",
-      "Rivian (RIVN) lifts production capacity for its Georgia plan"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 15,
-      "hiring": 0,
-      "market": 9
-    },
-    "lastUpdated": "2026-05-06"
+    "lastUpdated": "2026-05-07"
   }
 ]
