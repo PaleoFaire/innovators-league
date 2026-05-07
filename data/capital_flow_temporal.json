@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T03:55:59+00:00",
+  "generatedAt": "2026-05-07T06:46:46+00:00",
   "matrix": {
     "autonomous-freight-electrification": {
       "2026-Q2": {
@@ -390,11 +390,20 @@
             "date": "2026-04",
             "source": "recentEvent",
             "investors": [
-              "Khosla Ventures"
+              "Khosla Ventures",
+              "Founders Fund",
+              "In-Q-Tel",
+              "Canaan Partners",
+              "Bling Capital",
+              "Revolution's Rise of the Rest",
+              "RTX Ventures",
+              "Sam Altman"
             ]
           }
         ],
         "investors": [
+          "Founders Fund",
+          "In-Q-Tel",
           "Khosla Ventures"
         ]
       },
@@ -1012,10 +1021,28 @@
             "amount": null,
             "date": "2026-02",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Eclipse Ventures",
+              "8VC",
+              "Valor Equity Partners",
+              "Two Sigma Ventures",
+              "NVentures (NVIDIA)",
+              "CapitalG",
+              "Crossbeam Venture Partners",
+              "Tishman Speyer",
+              "Atreides Management",
+              "Samsara Ventures",
+              "Xora Innovation",
+              "Emergence Capital Partners",
+              "C4 Ventures"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "8VC",
+          "Eclipse Ventures",
+          "Valor Equity Partners"
+        ]
       }
     },
     "additive-manufacturing": {
@@ -1168,6 +1195,12 @@
           "source": "recentEvent"
         },
         {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-04",
+          "source": "recentEvent"
+        },
+        {
           "company": "Cognition",
           "cluster": "ai-code-generation",
           "date": "2026-04",
@@ -1207,6 +1240,14 @@
           "date": "2026-04",
           "source": "recentEvent"
         }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
       ]
     },
     "Lux Capital": {
@@ -1231,6 +1272,14 @@
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
           "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
           "source": "recentEvent"
         }
       ]
@@ -1307,6 +1356,22 @@
         }
       ]
     },
+    "In-Q-Tel": {
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-04",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Palantir",
+          "cluster": "ai-saas-enterprise",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Alumni Ventures": {
       "2024-Q1": [
         {
@@ -1327,22 +1392,22 @@
         }
       ]
     },
-    "In-Q-Tel": {
-      "2026-Q2": [
-        {
-          "company": "Palantir",
-          "cluster": "ai-saas-enterprise",
-          "date": "2026-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Sequoia Capital": {
       "2026-Q2": [
         {
           "company": "ElevenLabs",
           "cluster": "ai-generative-media",
           "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Eclipse Ventures": {
+      "2026-Q1": [
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
           "source": "recentEvent"
         }
       ]
@@ -1363,7 +1428,7 @@
     "totalUSDSold": 10760000,
     "uniqueClusters": 37,
     "uniqueQuarters": 8,
-    "uniqueVCs": 16,
+    "uniqueVCs": 17,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"
