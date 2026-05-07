@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -3.03,
+      "avg_change": -1.37,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 8.25,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 3.35,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 20.91,
+      "avg_change": 14.73,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 23.87,
+      "avg_change": 9.17,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 2.2,
+      "avg_change": -2.72,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 26.74,
+      "avg_change": 12.44,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.98,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.1,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.44,
+      "avg_change": -2.89,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 11.0,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 9.27,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "AUR",
-      "Aurora Innovation",
-      42.83
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      30.43
-    ],
-    [
       "IDEAFORGE.NS",
       "ideaForge",
-      30.01
+      30.05
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      21.17
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      18.75
+    ],
+    [
+      "AMD",
+      "AMD",
+      18.49
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      29.66
-    ],
-    [
-      "AMD",
-      "AMD",
-      25.0
+      17.49
     ]
   ],
   "topLosers": [
     [
-      "SLDP",
-      "Solid Power",
-      -0.15
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      -0.68
-    ],
-    [
-      "PLTR",
-      "Palantir",
-      -3.03
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      -9.47
+      -3.42
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -6.1
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -9.13
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -9.17
     ],
     [
       "RIVN",
       "Rivian",
-      -9.84
+      -13.41
     ]
   ],
-  "lastUpdated": "2026-05-07 08:40:01"
+  "lastUpdated": "2026-05-07 14:24:01"
 }
