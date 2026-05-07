@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-07T06:46:45+00:00",
+  "generatedAt": "2026-05-07T11:57:24+00:00",
   "stats": {
     "companies": 873,
     "vcFirms": 31,
-    "uniqueClusters": 91,
-    "totalInvestments": 193
+    "uniqueClusters": 92,
+    "totalInvestments": 194
   },
   "concentration": {
     "Founders Fund": {
@@ -902,6 +902,12 @@
         "count": 1,
         "companies": [
           "Palantir"
+        ]
+      },
+      "quantum-superconducting": {
+        "count": 1,
+        "companies": [
+          "QuantWare"
         ]
       },
       "quantum-photonic": {
@@ -2099,6 +2105,13 @@
         "share": 1.0
       }
     ],
+    "quantum-superconducting": [
+      {
+        "vc": "In-Q-Tel",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
     "quantum-photonic": [
       {
         "vc": "In-Q-Tel",
@@ -2515,6 +2528,40 @@
       ]
     },
     {
+      "vc": "In-Q-Tel",
+      "recentCount": 6,
+      "totalCount": 8,
+      "score": 6.438,
+      "topCluster": "supersonic-hypersonic-transport",
+      "recentExamples": [
+        {
+          "company": "Pragmatic Semiconductor",
+          "cluster": "non-silicon-compute",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "addedDate": "2026-02"
+        },
+        {
+          "company": "Palantir",
+          "cluster": "ai-saas-enterprise",
+          "addedDate": "2026-02"
+        },
+        {
+          "company": "Vatn Systems",
+          "cluster": "autonomy-maritime",
+          "addedDate": "2026-02"
+        },
+        {
+          "company": "ClearSpace",
+          "cluster": "space-debris-servicing",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
       "vc": "8VC",
       "recentCount": 5,
       "totalCount": 10,
@@ -2544,40 +2591,6 @@
         {
           "company": "Ares Industries",
           "cluster": "defense-munitions-energetics",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
-      "vc": "In-Q-Tel",
-      "recentCount": 6,
-      "totalCount": 7,
-      "score": 6.093,
-      "topCluster": "supersonic-hypersonic-transport",
-      "recentExamples": [
-        {
-          "company": "Pragmatic Semiconductor",
-          "cluster": "non-silicon-compute",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "Palantir",
-          "cluster": "ai-saas-enterprise",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "Vatn Systems",
-          "cluster": "autonomy-maritime",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "ClearSpace",
-          "cluster": "space-debris-servicing",
           "addedDate": "2026-02"
         }
       ]
