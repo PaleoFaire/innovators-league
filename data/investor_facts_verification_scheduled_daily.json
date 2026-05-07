@@ -1,120 +1,72 @@
 {
-  "generatedAt": "2026-05-04T08:19:08+00:00",
+  "generatedAt": "2026-05-07T08:18:43+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 3,
-  "newExtractionsThisRun": 3,
+  "cohortSize": 2,
+  "newExtractionsThisRun": 2,
   "summary": {
-    "cleared": 2,
+    "cleared": 1,
     "changesProposed": 1,
     "unverifiable": 0
   },
   "cleared": [
-    "Alumni Ventures",
-    "Future Ventures"
+    "Alumni Ventures"
   ],
   "changesProposed": [
     {
-      "name": "Engine Ventures",
+      "name": "Future Ventures",
       "current": {
-        "name": "Engine Ventures",
-        "shortName": "Engine",
-        "aum": "$1B+",
-        "flagshipFund": "Engine Ventures Fund III",
-        "founded": 2016,
-        "hq": "Cambridge, MA",
-        "website": "https://engine.xyz"
+        "name": "Future Ventures",
+        "shortName": "Future",
+        "aum": "$500M",
+        "flagshipFund": "Future Ventures Fund III",
+        "founded": 2018,
+        "hq": "Menlo Park, CA",
+        "website": "https://future.ventures"
       },
       "verified": {
-        "name": "Engine Ventures",
-        "short_name": "Engine",
+        "name": "Future Ventures",
+        "short_name": null,
         "aum": null,
         "flagship_fund": null,
-        "founded_year": 2016,
-        "hq": "Cambridge, MA",
-        "key_partners": null,
-        "sector_focus": [
-          "Applied AI & ML",
-          "Computing",
-          "Mobility",
-          "Autonomous Systems / Robotics",
-          "Energy",
-          "Natural Resources",
-          "Biotech / Life Sciences",
-          "Food / Agriculture",
-          "Quantum Computing",
-          "Carbon Capture / CCUS",
-          "Manufacturing",
-          "Space",
-          "Climate",
-          "Materials",
-          "Water / Oceans"
+        "founded_year": null,
+        "hq": null,
+        "key_partners": [
+          "Steve Jurvetson",
+          "Maryanna Saenko",
+          "NICO Enriquez"
         ],
-        "thesis": "Engine Ventures invests in Tough Tech companies commercializing breakthrough science and engineering. The firm supports early-stage deep tech startups developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-        "website": "https://engine.xyz",
+        "sector_focus": null,
+        "thesis": "Future Ventures focuses on seed and early-stage investments in trailblazing, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries.",
+        "website": "https://future.ventures",
         "sources_per_field": {
           "name": [
             0,
             1,
-            3
+            2
           ],
-          "short_name": [
-            0
-          ],
-          "founded_year": [
-            3
-          ],
-          "hq": [
-            3
-          ],
-          "sector_focus": [
-            1
+          "key_partners": [
+            2
           ],
           "thesis": [
-            1,
-            3
+            0,
+            1
           ],
           "website": [
             0,
             1,
-            3
+            2
           ]
         },
-        "notes": "Engine Ventures spun out as separate investment firm in 2023 from The Engine nonprofit incubator/accelerator (founded 2016 by MIT). The Engine is a 501(c)(3) nonprofit as of 2025. Source [4] is unrelated to Engine Ventures and not used. Current partners and AUM not explicitly named in sources."
+        "notes": "Founded year cannot be verified from sources; database entry states 2018 but sources indicate 'for the past 25 years' of backing founders (as of source publication date). AUM of $500M, flagship fund name, and HQ location cannot be verified from provided sources. Sector focus cannot be verified as explicit firm-wide list; individual partner bios mention specific sector interests but not formalized firm-level focus areas."
       },
       "changes": [
         {
-          "field": "sectorFocus",
-          "current": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS"
-          ],
-          "verified": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS",
-            "Manufacturing",
-            "Space",
-            "Climate",
-            "Materials",
-            "Water / Oceans"
-          ],
+          "field": "thesis",
+          "current": "Future Ventures focuses on seed and early-stage investments in trailblazing, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries. The firm backs visionaries at the cutting edge of disruptive technology and new industry formation.",
+          "verified": "Future Ventures focuses on seed and early-stage investments in trailblazing, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries.",
           "sources": [
+            0,
             1
           ]
         }
@@ -123,30 +75,35 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://engine.xyz"
+          "url": "https://future.ventures"
         },
         {
           "idx": 1,
           "src": "firm/about",
-          "url": "https://engine.xyz/about"
+          "url": "https://future.ventures/about"
         },
         {
           "idx": 2,
-          "src": "firm/companies",
-          "url": "https://engine.xyz/companies"
+          "src": "firm/team",
+          "url": "https://future.ventures/team"
         },
         {
           "idx": 3,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+          "src": "firm/investments",
+          "url": "https://future.ventures/investments"
         },
         {
           "idx": 4,
-          "src": "news (TechNode Global)",
-          "url": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
+          "src": "wikipedia (short name)",
+          "url": "https://en.wikipedia.org/wiki/Future"
+        },
+        {
+          "idx": 5,
+          "src": "news (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
         }
       ],
-      "notes": "Engine Ventures spun out as separate investment firm in 2023 from The Engine nonprofit incubator/accelerator (founded 2016 by MIT). The Engine is a 501(c)(3) nonprofit as of 2025. Source [4] is unrelated to Engine Ventures and not used. Current partners and AUM not explicitly named in sources."
+      "notes": "Founded year cannot be verified from sources; database entry states 2018 but sources indicate 'for the past 25 years' of backing founders (as of source publication date). AUM of $500M, flagship fund name, and HQ location cannot be verified from provided sources. Sector focus cannot be verified as explicit firm-wide list; individual partner bios mention specific sector interests but not formalized firm-level focus areas."
     }
   ],
   "unverifiable": []
