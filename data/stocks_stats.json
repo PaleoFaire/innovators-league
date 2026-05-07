@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 8.31,
+      "avg_change": 8.25,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 21.47,
+      "avg_change": 20.91,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.93,
+      "avg_change": 5.98,
       "count": 3
     },
     "transportation": {
@@ -64,14 +64,14 @@
       42.83
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      33.33
-    ],
-    [
       "QBTS",
       "D-Wave Quantum",
       30.43
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      30.01
     ],
     [
       "NNE",
@@ -111,5 +111,5 @@
       -9.84
     ]
   ],
-  "lastUpdated": "2026-05-07 03:32:38"
+  "lastUpdated": "2026-05-07 08:40:01"
 }
