@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T03:46:50+00:00",
+  "generatedAt": "2026-05-08T06:06:24+00:00",
   "matrix": {
     "space-launch-large": {
       "2026-Q2": {
@@ -223,10 +223,19 @@
             "amount": null,
             "date": "2026-03",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Andreessen Horowitz",
+              "8VC",
+              "Caffeinated Capital",
+              "Elad Gil",
+              "NightDragon"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "8VC",
+          "Caffeinated Capital"
+        ]
       }
     },
     "defense-munitions-energetics": {
@@ -421,17 +430,45 @@
             "amount": null,
             "date": "2026-03",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "CapitalG",
+              "Lux Capital",
+              "Thrive Capital Management, LLC",
+              "Jeff Bezos",
+              "Bond Capital",
+              "Redpoint Ventures",
+              "Sequoia Capital",
+              "Index Ventures",
+              "T. Rowe Price"
+            ]
           },
           {
             "name": "Skild AI",
             "amount": null,
             "date": "2026-01",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "SoftBank",
+              "NVentures (NVIDIA)",
+              "Macquarie Capital",
+              "Jeff Bezos",
+              "Lightspeed Venture Partners",
+              "Felicis Ventures",
+              "Coatue Management",
+              "Sequoia Capital",
+              "LG Technology Ventures",
+              "Schneider Electric Ventures",
+              "CommonSpirit Health",
+              "Salesforce Ventures"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "Lightspeed Venture Partners",
+          "Lux Capital",
+          "Sequoia Capital",
+          "Thrive Capital Management, LLC"
+        ]
       }
     },
     "ai-autonomous-driving": {
@@ -716,7 +753,20 @@
             "amount": null,
             "date": "2026-05",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Google",
+              "Lightspeed Venture Partners",
+              "Bessemer Venture Partners",
+              "Cisco Investments",
+              "D1 Capital Partners",
+              "Fidelity Management",
+              "General Catalyst",
+              "Jane Street",
+              "Menlo Ventures",
+              "Salesforce Ventures",
+              "Spark Capital",
+              "Amazon"
+            ]
           },
           {
             "name": "OpenAI",
@@ -733,7 +783,11 @@
             ]
           }
         ],
-        "investors": []
+        "investors": [
+          "D1 Capital Partners",
+          "General Catalyst",
+          "Lightspeed Venture Partners"
+        ]
       },
       "2025-Q3": {
         "deals": 1,
@@ -790,10 +844,32 @@
             "amount": null,
             "date": "2025-04",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "General Catalyst",
+              "Breakthrough Energy Ventures",
+              "Lightspeed Venture Partners",
+              "Lowercarbon Capital",
+              "Andrew Forrest",
+              "Elad Gil",
+              "Eric Schmidt",
+              "John Doerr",
+              "Ken Griffin",
+              "Lachy Groom",
+              "Leitmotif",
+              "Mustafa Suleyman",
+              "Patrick Collison",
+              "Reid Hoffman",
+              "Richard Merkin",
+              "Trousdale Ventures"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "Breakthrough Energy Ventures",
+          "General Catalyst",
+          "Lightspeed Venture Partners",
+          "Lowercarbon Capital"
+        ]
       }
     },
     "data-center-infrastructure": {
@@ -807,10 +883,28 @@
             "amount": null,
             "date": "2025-10",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "Founders Fund",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
+        ]
       }
     },
     "ai-generative-media": {
@@ -1174,6 +1268,14 @@
           "date": "2026-04",
           "source": "recentEvent"
         }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
       ]
     },
     "General Catalyst": {
@@ -1183,6 +1285,12 @@
           "cluster": "autonomy-drone-military",
           "date": "2026-04",
           "source": "recentEvent"
+        },
+        {
+          "company": "Anthropic",
+          "cluster": "ai-foundation-models",
+          "date": "2026-05",
+          "source": "recentEvent"
         }
       ],
       "2025-Q2": [
@@ -1190,6 +1298,12 @@
           "company": "Relativity Space",
           "cluster": "space-launch-large",
           "date": "2025-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1210,6 +1324,12 @@
         }
       ],
       "2026-Q1": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
         {
           "company": "Bedrock Robotics",
           "cluster": "robotics-construction-mining",
@@ -1232,6 +1352,14 @@
           "date": "2026-04",
           "source": "recentEvent"
         }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Physical Intelligence",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
       ]
     },
     "Valor Equity Partners": {
@@ -1240,6 +1368,14 @@
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
           "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
           "source": "recentEvent"
         }
       ],
@@ -1259,6 +1395,12 @@
           "cluster": "autonomy-drone-military",
           "date": "2026-04",
           "source": "recentEvent"
+        },
+        {
+          "company": "Anthropic",
+          "cluster": "ai-foundation-models",
+          "date": "2026-05",
+          "source": "recentEvent"
         }
       ],
       "2025-Q3": [
@@ -1275,6 +1417,16 @@
         {
           "company": "Shield AI",
           "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Caffeinated Capital": {
+      "2026-Q1": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
           "date": "2026-03",
           "source": "recentEvent"
         }
@@ -1358,14 +1510,90 @@
           "date": "2024-03",
           "source": "recentEvent"
         }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Thrive Capital Management, LLC": {
+      "2026-Q1": [
+        {
+          "company": "Physical Intelligence",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
       ]
     },
     "Sequoia Capital": {
+      "2026-Q1": [
+        {
+          "company": "Physical Intelligence",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ],
       "2026-Q2": [
         {
           "company": "ElevenLabs",
           "cluster": "ai-generative-media",
           "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Lightspeed Venture Partners": {
+      "2026-Q2": [
+        {
+          "company": "Anthropic",
+          "cluster": "ai-foundation-models",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Breakthrough Energy Ventures": {
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1396,7 +1624,7 @@
     "totalUSDSold": 9725064,
     "uniqueClusters": 36,
     "uniqueQuarters": 8,
-    "uniqueVCs": 16,
+    "uniqueVCs": 20,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"

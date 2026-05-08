@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-08T03:46:49+00:00",
+  "generatedAt": "2026-05-08T06:06:23+00:00",
   "stats": {
     "companies": 873,
     "vcFirms": 31,
-    "uniqueClusters": 92,
-    "totalInvestments": 194
+    "uniqueClusters": 96,
+    "totalInvestments": 217
   },
   "concentration": {
     "Founders Fund": {
@@ -74,6 +74,12 @@
         "count": 1,
         "companies": [
           "Solugen"
+        ]
+      },
+      "data-center-infrastructure": {
+        "count": 1,
+        "companies": [
+          "Crusoe Energy"
         ]
       },
       "robotics-construction-mining": {
@@ -150,6 +156,24 @@
           "Applied Intuition"
         ]
       },
+      "ai-foundation-models": {
+        "count": 1,
+        "companies": [
+          "Anthropic"
+        ]
+      },
+      "ai-defense-intelligence": {
+        "count": 1,
+        "companies": [
+          "Helsing"
+        ]
+      },
+      "fusion-inertial-laser": {
+        "count": 1,
+        "companies": [
+          "Pacific Fusion"
+        ]
+      },
       "satellite-earth-observation": {
         "count": 1,
         "companies": [
@@ -192,6 +216,18 @@
         "count": 1,
         "companies": [
           "Anduril Industries"
+        ]
+      },
+      "autonomy-maritime": {
+        "count": 1,
+        "companies": [
+          "Saronic"
+        ]
+      },
+      "autonomy-counter-drone": {
+        "count": 1,
+        "companies": [
+          "Chaos Industries"
         ]
       },
       "defense-ew-rf-cyber": {
@@ -266,6 +302,12 @@
         "count": 1,
         "companies": [
           "Impulse Space"
+        ]
+      },
+      "ai-robotics-embodied": {
+        "count": 1,
+        "companies": [
+          "Physical Intelligence"
         ]
       },
       "ai-saas-enterprise": {
@@ -343,6 +385,12 @@
           "Anduril Industries"
         ]
       },
+      "autonomy-counter-drone": {
+        "count": 1,
+        "companies": [
+          "Chaos Industries"
+        ]
+      },
       "nuclear-microreactor": {
         "count": 1,
         "companies": [
@@ -359,6 +407,12 @@
         "count": 1,
         "companies": [
           "The Boring Company"
+        ]
+      },
+      "data-center-infrastructure": {
+        "count": 1,
+        "companies": [
+          "Crusoe Energy"
         ]
       },
       "robotics-construction-mining": {
@@ -388,8 +442,9 @@
         ]
       },
       "ai-foundation-models": {
-        "count": 1,
+        "count": 2,
         "companies": [
+          "Anthropic",
           "Groq"
         ]
       },
@@ -405,6 +460,12 @@
         "count": 1,
         "companies": [
           "Shield AI"
+        ]
+      },
+      "space-ground-comms": {
+        "count": 1,
+        "companies": [
+          "True Anomaly"
         ]
       },
       "commercial-robotics": {
@@ -426,6 +487,14 @@
         ]
       }
     },
+    "Caffeinated Capital": {
+      "autonomy-maritime": {
+        "count": 1,
+        "companies": [
+          "Saronic"
+        ]
+      }
+    },
     "Sequoia Capital": {
       "autonomy-drone-military": {
         "count": 1,
@@ -437,6 +506,13 @@
         "count": 1,
         "companies": [
           "Reflect Orbital"
+        ]
+      },
+      "ai-robotics-embodied": {
+        "count": 2,
+        "companies": [
+          "Physical Intelligence",
+          "Skild AI"
         ]
       },
       "ai-saas-enterprise": {
@@ -509,9 +585,28 @@
         ]
       },
       "ai-foundation-models": {
+        "count": 2,
+        "companies": [
+          "Anthropic",
+          "Mistral AI"
+        ]
+      },
+      "ai-defense-intelligence": {
         "count": 1,
         "companies": [
-          "Mistral AI"
+          "Helsing"
+        ]
+      },
+      "fusion-inertial-laser": {
+        "count": 1,
+        "companies": [
+          "Pacific Fusion"
+        ]
+      },
+      "ai-robotics-embodied": {
+        "count": 1,
+        "companies": [
+          "Skild AI"
         ]
       },
       "ai-drug-discovery": {
@@ -961,6 +1056,18 @@
           "Fuse Energy"
         ]
       },
+      "fusion-inertial-laser": {
+        "count": 1,
+        "companies": [
+          "Pacific Fusion"
+        ]
+      },
+      "data-center-infrastructure": {
+        "count": 1,
+        "companies": [
+          "Crusoe Energy"
+        ]
+      },
       "fusion-magnetic-confinement": {
         "count": 1,
         "companies": [
@@ -1016,6 +1123,14 @@
         ]
       }
     },
+    "Thrive Capital Management, LLC": {
+      "ai-robotics-embodied": {
+        "count": 1,
+        "companies": [
+          "Physical Intelligence"
+        ]
+      }
+    },
     "Breakthrough Energy Ventures": {
       "synfuels-solar": {
         "count": 1,
@@ -1045,6 +1160,12 @@
         "count": 1,
         "companies": [
           "Form Energy"
+        ]
+      },
+      "fusion-inertial-laser": {
+        "count": 1,
+        "companies": [
+          "Pacific Fusion"
         ]
       },
       "space-launch-large": {
@@ -1085,6 +1206,12 @@
         "count": 1,
         "companies": [
           "Arc Boats"
+        ]
+      },
+      "space-ground-comms": {
+        "count": 1,
+        "companies": [
+          "True Anomaly"
         ]
       },
       "ai-autonomous-driving": {
@@ -1341,6 +1468,33 @@
         "share": 1.0
       }
     ],
+    "data-center-infrastructure": [
+      {
+        "vc": "Founders Fund",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Valor Equity Partners",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Khosla Ventures",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "DCVC (Data Collective)",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Lowercarbon Capital",
+        "count": 1,
+        "share": 0.2
+      }
+    ],
     "robotics-construction-mining": [
       {
         "vc": "Founders Fund",
@@ -1541,6 +1695,57 @@
         "share": 0.2
       }
     ],
+    "ai-foundation-models": [
+      {
+        "vc": "D1 Capital Partners",
+        "count": 2,
+        "share": 0.4
+      },
+      {
+        "vc": "Lightspeed Venture Partners",
+        "count": 2,
+        "share": 0.4
+      },
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.2
+      }
+    ],
+    "ai-defense-intelligence": [
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "Lightspeed Venture Partners",
+        "count": 1,
+        "share": 0.5
+      }
+    ],
+    "fusion-inertial-laser": [
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.25
+      },
+      {
+        "vc": "Lightspeed Venture Partners",
+        "count": 1,
+        "share": 0.25
+      },
+      {
+        "vc": "Lowercarbon Capital",
+        "count": 1,
+        "share": 0.25
+      },
+      {
+        "vc": "Breakthrough Energy Ventures",
+        "count": 1,
+        "share": 0.25
+      }
+    ],
     "satellite-earth-observation": [
       {
         "vc": "General Catalyst",
@@ -1621,6 +1826,45 @@
         "vc": "Lux Capital",
         "count": 1,
         "share": 0.5
+      }
+    ],
+    "autonomy-maritime": [
+      {
+        "vc": "8VC",
+        "count": 1,
+        "share": 0.25
+      },
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.25
+      },
+      {
+        "vc": "Caffeinated Capital",
+        "count": 1,
+        "share": 0.25
+      },
+      {
+        "vc": "In-Q-Tel",
+        "count": 1,
+        "share": 0.25
+      }
+    ],
+    "autonomy-counter-drone": [
+      {
+        "vc": "8VC",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Valor Equity Partners",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "DCVC (Data Collective)",
+        "count": 1,
+        "share": 0.3333
       }
     ],
     "defense-ew-rf-cyber": [
@@ -1708,16 +1952,26 @@
         "share": 0.3333
       }
     ],
-    "autonomy-maritime": [
+    "ai-robotics-embodied": [
+      {
+        "vc": "Sequoia Capital",
+        "count": 2,
+        "share": 0.4
+      },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.5
+        "share": 0.2
       },
       {
-        "vc": "In-Q-Tel",
+        "vc": "Lightspeed Venture Partners",
         "count": 1,
-        "share": 0.5
+        "share": 0.2
+      },
+      {
+        "vc": "Thrive Capital Management, LLC",
+        "count": 1,
+        "share": 0.2
       }
     ],
     "consumer-hardware": [
@@ -1792,14 +2046,14 @@
         "share": 0.5
       }
     ],
-    "ai-foundation-models": [
+    "space-ground-comms": [
       {
-        "vc": "D1 Capital Partners",
+        "vc": "Riot Ventures",
         "count": 1,
         "share": 0.5
       },
       {
-        "vc": "Lightspeed Venture Partners",
+        "vc": "Eclipse Ventures",
         "count": 1,
         "share": 0.5
       }
@@ -1928,18 +2182,6 @@
         "share": 0.3333
       }
     ],
-    "data-center-infrastructure": [
-      {
-        "vc": "Khosla Ventures",
-        "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.5
-      }
-    ],
     "medical-devices-surgical": [
       {
         "vc": "Khosla Ventures",
@@ -1981,13 +2223,6 @@
         "vc": "DCVC (Data Collective)",
         "count": 1,
         "share": 0.3333
-      }
-    ],
-    "autonomy-counter-drone": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
       }
     ],
     "clean-energy-maritime": [
@@ -2292,8 +2527,8 @@
     {
       "vc": "Founders Fund",
       "recentCount": 10,
-      "totalCount": 20,
-      "score": 12.12,
+      "totalCount": 21,
+      "score": 12.306,
       "topCluster": "autonomy-drone-military",
       "recentExamples": [
         {
@@ -2360,8 +2595,8 @@
     {
       "vc": "Lux Capital",
       "recentCount": 8,
-      "totalCount": 15,
-      "score": 9.655,
+      "totalCount": 16,
+      "score": 9.866,
       "topCluster": "ai-drug-discovery",
       "recentExamples": [
         {
@@ -2394,8 +2629,8 @@
     {
       "vc": "Lowercarbon Capital",
       "recentCount": 8,
-      "totalCount": 13,
-      "score": 9.19,
+      "totalCount": 15,
+      "score": 9.655,
       "topCluster": "fusion-alternative",
       "recentExamples": [
         {
@@ -2428,8 +2663,8 @@
     {
       "vc": "General Catalyst",
       "recentCount": 7,
-      "totalCount": 11,
-      "score": 7.987,
+      "totalCount": 14,
+      "score": 8.704,
       "topCluster": "autonomy-drone-military",
       "recentExamples": [
         {
@@ -2462,9 +2697,9 @@
     {
       "vc": "Sequoia Capital",
       "recentCount": 6,
-      "totalCount": 13,
-      "score": 7.733,
-      "topCluster": "ai-saas-enterprise",
+      "totalCount": 15,
+      "score": 8.124,
+      "topCluster": "ai-robotics-embodied",
       "recentExamples": [
         {
           "company": "Kneron",
@@ -2528,6 +2763,40 @@
       ]
     },
     {
+      "vc": "8VC",
+      "recentCount": 6,
+      "totalCount": 12,
+      "score": 7.516,
+      "topCluster": "autonomy-drone-military",
+      "recentExamples": [
+        {
+          "company": "Atomic AI",
+          "cluster": "ai-drug-discovery",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Aeon Industrial",
+          "cluster": "defense-munitions",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "addedDate": "2026-02"
+        },
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "addedDate": "2026-02"
+        },
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
       "vc": "In-Q-Tel",
       "recentCount": 6,
       "totalCount": 8,
@@ -2562,44 +2831,10 @@
       ]
     },
     {
-      "vc": "8VC",
-      "recentCount": 5,
-      "totalCount": 10,
-      "score": 6.298,
-      "topCluster": "autonomy-drone-military",
-      "recentExamples": [
-        {
-          "company": "Atomic AI",
-          "cluster": "ai-drug-discovery",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Aeon Industrial",
-          "cluster": "defense-munitions",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "Ares Industries",
-          "cluster": "defense-munitions-energetics",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
       "vc": "Breakthrough Energy Ventures",
       "recentCount": 4,
-      "totalCount": 12,
-      "score": 5.893,
+      "totalCount": 13,
+      "score": 6.063,
       "topCluster": "electrolysis-green-hydrogen",
       "recentExamples": [
         {
@@ -2627,8 +2862,8 @@
     {
       "vc": "Eclipse Ventures",
       "recentCount": 5,
-      "totalCount": 7,
-      "score": 5.462,
+      "totalCount": 8,
+      "score": 5.771,
       "topCluster": "maritime-electric-transport",
       "recentExamples": [
         {
@@ -2661,8 +2896,8 @@
     {
       "vc": "Valor Equity Partners",
       "recentCount": 4,
-      "totalCount": 7,
-      "score": 4.777,
+      "totalCount": 9,
+      "score": 5.29,
       "topCluster": "autonomy-drone-military",
       "recentExamples": [
         {
@@ -2683,6 +2918,35 @@
         {
           "company": "Osmo",
           "cluster": "consumer-hardware",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
+      "vc": "Riot Ventures",
+      "recentCount": 4,
+      "totalCount": 5,
+      "score": 4.116,
+      "topCluster": "autonomy-drone-military",
+      "recentExamples": [
+        {
+          "company": "Simbe Robotics",
+          "cluster": "commercial-robotics",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Rugged Robotics",
+          "cluster": "construction-robotics",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Elementary Robotics",
+          "cluster": "industrial-ai-manufacturing",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
           "addedDate": "2026-02"
         }
       ]
@@ -2713,35 +2977,6 @@
           "company": "Limelight Steel",
           "cluster": "industrial-decarbonization",
           "addedDate": "2026-03"
-        }
-      ]
-    },
-    {
-      "vc": "Riot Ventures",
-      "recentCount": 4,
-      "totalCount": 4,
-      "score": 3.698,
-      "topCluster": "autonomy-drone-military",
-      "recentExamples": [
-        {
-          "company": "Simbe Robotics",
-          "cluster": "commercial-robotics",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Rugged Robotics",
-          "cluster": "construction-robotics",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Elementary Robotics",
-          "cluster": "industrial-ai-manufacturing",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Shield AI",
-          "cluster": "autonomy-drone-military",
-          "addedDate": "2026-02"
         }
       ]
     },
@@ -2803,30 +3038,30 @@
       ]
     },
     {
-      "vc": "D1 Capital Partners",
-      "recentCount": 1,
-      "totalCount": 3,
-      "score": 1.386,
-      "topCluster": "autonomy-drone-military",
-      "recentExamples": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
       "vc": "Lightspeed Venture Partners",
       "recentCount": 1,
-      "totalCount": 3,
-      "score": 1.386,
-      "topCluster": "defense-munitions-energetics",
+      "totalCount": 7,
+      "score": 2.079,
+      "topCluster": "ai-foundation-models",
       "recentExamples": [
         {
           "company": "Xaira Therapeutics",
           "cluster": "ai-drug-discovery",
           "addedDate": "2026-04"
+        }
+      ]
+    },
+    {
+      "vc": "D1 Capital Partners",
+      "recentCount": 1,
+      "totalCount": 4,
+      "score": 1.609,
+      "topCluster": "ai-foundation-models",
+      "recentExamples": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "addedDate": "2026-02"
         }
       ]
     },
@@ -2840,6 +3075,20 @@
         {
           "company": "REGENT Craft",
           "cluster": "maritime-electric-transport",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
+      "vc": "Caffeinated Capital",
+      "recentCount": 1,
+      "totalCount": 1,
+      "score": 0.693,
+      "topCluster": "autonomy-maritime",
+      "recentExamples": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
           "addedDate": "2026-02"
         }
       ]
@@ -2871,6 +3120,14 @@
           "addedDate": "2026-03"
         }
       ]
+    },
+    {
+      "vc": "Thrive Capital Management, LLC",
+      "recentCount": 0,
+      "totalCount": 1,
+      "score": 0.0,
+      "topCluster": "ai-robotics-embodied",
+      "recentExamples": []
     }
   ],
   "pedigree": {
@@ -2965,6 +3222,10 @@
       "investmentCount": 5
     },
     {
+      "cluster": "data-center-infrastructure",
+      "investmentCount": 5
+    },
+    {
       "cluster": "robotics-construction-mining",
       "investmentCount": 5
     },
@@ -2981,6 +3242,14 @@
       "investmentCount": 5
     },
     {
+      "cluster": "ai-foundation-models",
+      "investmentCount": 5
+    },
+    {
+      "cluster": "ai-robotics-embodied",
+      "investmentCount": 5
+    },
+    {
       "cluster": "logistics-supply-chain",
       "investmentCount": 4
     },
@@ -2993,7 +3262,15 @@
       "investmentCount": 4
     },
     {
+      "cluster": "fusion-inertial-laser",
+      "investmentCount": 4
+    },
+    {
       "cluster": "energy-storage-thermal-gravity",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "autonomy-maritime",
       "investmentCount": 4
     },
     {
@@ -3014,6 +3291,10 @@
     },
     {
       "cluster": "defense-power-systems",
+      "investmentCount": 3
+    },
+    {
+      "cluster": "autonomy-counter-drone",
       "investmentCount": 3
     },
     {
@@ -3043,30 +3324,6 @@
     {
       "cluster": "fusion-magnetic-confinement",
       "investmentCount": 3
-    },
-    {
-      "cluster": "industrial-decarbonization",
-      "investmentCount": 3
-    },
-    {
-      "cluster": "fusion-alternative",
-      "investmentCount": 3
-    },
-    {
-      "cluster": "carbon-capture-utilization",
-      "investmentCount": 3
-    },
-    {
-      "cluster": "space-habitats-manufacturing",
-      "investmentCount": 2
-    },
-    {
-      "cluster": "space-propulsion-engines",
-      "investmentCount": 2
-    },
-    {
-      "cluster": "biotech-cell-reprogramming",
-      "investmentCount": 2
     }
   ]
 }
