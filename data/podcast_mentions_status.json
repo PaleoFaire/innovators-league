@@ -1,13 +1,13 @@
 {
   "script": "fetch_podcast_mentions.py",
-  "started_at": "2026-05-07T09:23:33.781363+00:00",
-  "finished_at": "2026-05-07T09:23:56.712483+00:00",
+  "started_at": "2026-05-08T08:16:03.790554+00:00",
+  "finished_at": "2026-05-08T08:16:27.759200+00:00",
   "lookback_days": 30,
   "podcasts": [
     {
       "podcast": "Acquired",
       "url": "https://feeds.transistor.fm/acquired",
-      "episodes_fetched": 214,
+      "episodes_fetched": 213,
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "error": "all retries failed"
     }
   ],
-  "total_episodes": 2103,
-  "total_mentions": 210,
+  "total_episodes": 2102,
+  "total_mentions": 219,
   "ok": true
 }

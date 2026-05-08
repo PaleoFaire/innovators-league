@@ -1,13 +1,64 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-07 09:42:02 UTC
-// Total: 1 filings across 1 companies
+// Last updated: 2026-05-08 11:35:44 UTC
+// Total: 4 filings across 4 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-07T09:42:02.238737+00:00",
+  "generated_at": "2026-05-08T11:35:44.966936+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 1,
+  "total_filings": 4,
   "filings": [
+    {
+      "company": "Biofire",
+      "issuer_name": "BIOFIRE III A SERIES OF VUVP FUND LLC",
+      "form": "D",
+      "filed_date": "2026-05-07",
+      "cik": "2105896",
+      "accession": "0002105896-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002105896&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002105896-26-000003",
+      "offering_amount": "111000",
+      "amount_sold": "111000",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "xAI",
+      "issuer_name": "xAI Fund a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-05-07",
+      "cik": "2023128",
+      "accession": "0002023128-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023128&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002023128-26-000003",
+      "offering_amount": "1052500",
+      "amount_sold": "1052500",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Darkhive",
+      "issuer_name": "Darkhive Inc",
+      "form": "D",
+      "filed_date": "2026-05-07",
+      "cik": "2036102",
+      "accession": "0002036102-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002036102&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002036102-26-000003",
+      "offering_amount": "30000000",
+      "amount_sold": "29999986",
+      "amount_remaining": "14",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "SpaceX",
       "issuer_name": "SpaceX Investors 5 LLC",
