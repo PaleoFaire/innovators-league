@@ -1,173 +1,66 @@
 {
-  "generatedAt": "2026-05-07T08:18:28+00:00",
+  "generatedAt": "2026-05-08T07:19:03+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 42,
-  "newExtractionsThisRun": 41,
+  "cohortSize": 39,
+  "newExtractionsThisRun": 38,
   "summary": {
-    "cleared": 27,
+    "cleared": 24,
     "changesProposed": 15,
     "unverifiable": 0
   },
   "cleared": [
-    "Agility Robotics",
     "Andromeda Surgical",
-    "Apptronik",
+    "Anthropic",
+    "Astera Labs",
+    "Daylight Computer",
     "Deterrence",
     "Durin",
     "Dust",
-    "Electric Hydrogen",
-    "ElevenLabs",
     "Galvanick",
     "Gecko Robotics",
+    "HEO",
     "Hidden Level",
-    "Humanoid",
     "ICON",
     "Karman Industries",
+    "Kyutai",
     "Ouster",
-    "Percepto",
+    "Photonic Inc",
     "Pivotal",
-    "Quantum Machines",
+    "QuantWare",
     "Rebellions",
-    "Solar Foods",
+    "Rivian",
     "Solugen",
-    "Sunfire",
     "True Anomaly",
-    "Vast",
-    "Zettascale",
     "ideaForge",
     "xAI"
   ],
   "changesProposed": [
     {
-      "name": "1X Technologies",
+      "name": "Alpha School",
       "current": {
-        "name": "1X Technologies",
-        "founder": "Bernt \u00d8ivind B\u00f8rnich",
-        "location": "Palo Alto, CA",
+        "name": "Alpha School",
+        "founder": "MacKenzie Price, Brian Holtz",
+        "location": "Austin, TX",
         "founded": 2014,
-        "fundingStage": "Series B",
-        "totalRaised": "$123.5M",
-        "website": "https://1xtechnologies.com"
+        "fundingStage": "Private (self-funded)",
+        "totalRaised": "Self-funded \u00b7 ~$1B Liemandt commitment",
+        "website": "https://alpha.school"
       },
       "verified": {
-        "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home and industrial environments. The company manufactures humanoid robots including EVE and NEO models.",
+        "name": "Alpha School",
+        "description": "A private K-12 school network founded in 2014 that uses a proprietary instructional model called 2 Hour Learning, which combines software-based instruction with guides (rather than traditional teachers) to allow students to complete core academics in approximately two hours per day, with afternoons devoted to workshops, life skills, and other activities.",
         "founders": [
-          "Bernt \u00d8ivind B\u00f8rnich"
+          "MacKenzie Price",
+          "Brian Holtz"
         ],
-        "location": "Palo Alto, California",
+        "location": "Austin, Texas, United States",
         "founded_year": 2014,
-        "current_stage": "Series B",
-        "total_raised": "$123.5M",
-        "valuation": null,
-        "investors": [
-          "OpenAI Startup Fund",
-          "Tiger Global",
-          "Sandwater",
-          "Alliance Ventures",
-          "Skagerak Capital",
-          "EQT Ventures",
-          "Samsung NEXT",
-          "Nistad Group"
-        ],
-        "website": "https://1xtechnologies.com",
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            2
-          ]
-        },
-        "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia source (index 2) is about the robotics company 1X Technologies. Sources 0-1 refer to a different company (1X Technologies LLC, a wire and cable distributor founded in 2015 based in Sheridan, Wyoming) and are NOT relevant to the robotics company being fact-checked. Total raised calculated as: Series A2 $23.5M (March 2023) + Series B $100M (January 2024) = $123.5M, per Wikipedia."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Palo Alto, CA",
-          "verified": "Palo Alto, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://1xtechnologies.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://1xtechnologies.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
-        },
-        {
-          "idx": 3,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/05/03/the-humanoid-robot-market-is-smaller-than-it-looks/"
-        }
-      ],
-      "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia source (index 2) is about the robotics company 1X Technologies. Sources 0-1 refer to a different company (1X Technologies LLC, a wire and cable distributor founded in 2015 based in Sheridan, Wyoming) and are NOT relevant to the robotics company being fact-checked. Total raised calculated as: Series A2 $23.5M (March 2023) + Series B $100M (January 2024) = $123.5M, per Wikipedia."
-    },
-    {
-      "name": "Anthropic",
-      "current": {
-        "name": "Anthropic",
-        "founder": "Dario Amodei, Daniela Amodei, Jared Kaplan, Jack Clark, Chris Olah, Ben Mann, Sam McCandlish, Tom Brown",
-        "location": "San Francisco, CA",
-        "founded": 2021,
-        "fundingStage": "Private",
-        "totalRaised": "$13B+",
-        "website": "https://anthropic.com"
-      },
-      "verified": {
-        "name": "Anthropic",
-        "description": "American artificial intelligence company headquartered in San Francisco that develops large language models named Claude and focuses on AI safety research.",
-        "founders": [
-          "Dario Amodei",
-          "Daniela Amodei",
-          "Jared Kaplan",
-          "Jack Clark",
-          "Chris Olah",
-          "Ben Mann",
-          "Sam McCandlish",
-          "Tom Brown"
-        ],
-        "location": "San Francisco, California",
-        "founded_year": 2021,
         "current_stage": "Private",
         "total_raised": null,
-        "valuation": "$380B",
+        "valuation": null,
         "investors": null,
-        "website": "https://anthropic.com",
+        "website": "https://www.alpha.school",
         "sources_per_field": {
           "name": [
             0,
@@ -175,6 +68,8 @@
             2
           ],
           "description": [
+            0,
+            1,
             2
           ],
           "founders": [
@@ -189,22 +84,25 @@
           "current_stage": [
             2
           ],
-          "valuation": [
-            2
-          ],
           "website": [
-            0,
-            1,
             2
           ]
         },
-        "notes": "Wikipedia states valuation of $380 billion as of February 2026. Database entry references $183B valuation and $350B pending round, which cannot be verified in provided sources. Total raised amount cannot be verified from these sources. Wikipedia indicates company is a Public Benefit Corporation."
+        "notes": "Wikipedia source (source 2) lists 13 campuses as of April 2026 across Arizona, California, Florida, New York, Texas, and Virginia. Wikipedia notes that tuition ranges from $10,000 to $75,000 per year. Joe Liemandt is listed as principal in Wikipedia. Source 3 (TechCrunch article) is about OpenAI and does not contain information about Alpha School. The database entry mentions a '$1B Liemandt commitment' but this cannot be verified in the provided sources as funding raised."
       },
       "changes": [
         {
           "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California",
+          "current": "Austin, TX",
+          "verified": "Austin, Texas, United States",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Private (self-funded)",
+          "verified": "Private",
           "sources": [
             2
           ]
@@ -214,42 +112,32 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://anthropic.com"
+          "url": "https://alpha.school"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://anthropic.com/company"
+          "url": "https://alpha.school/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Anthropic"
+          "url": "https://en.wikipedia.org/wiki/Alpha_School"
         },
         {
           "idx": 3,
-          "src": "news (TechNode Global)",
-          "url": "https://technode.global/2026/05/07/gic-backs-anthropic-linked-new-ai-native-enterprise-services-firm/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/"
-        },
-        {
-          "idx": 5,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
         }
       ],
-      "notes": "Wikipedia states valuation of $380 billion as of February 2026. Database entry references $183B valuation and $350B pending round, which cannot be verified in provided sources. Total raised amount cannot be verified from these sources. Wikipedia indicates company is a Public Benefit Corporation."
+      "notes": "Wikipedia source (source 2) lists 13 campuses as of April 2026 across Arizona, California, Florida, New York, Texas, and Virginia. Wikipedia notes that tuition ranges from $10,000 to $75,000 per year. Joe Liemandt is listed as principal in Wikipedia. Source 3 (TechCrunch article) is about OpenAI and does not contain information about Alpha School. The database entry mentions a '$1B Liemandt commitment' but this cannot be verified in the provided sources as funding raised."
     },
     {
       "name": "Anysphere",
       "current": {
         "name": "Anysphere",
         "founder": "Michael Truell, Sualeh Asif, Aman Sanger, Arvid Lunnemark",
-        "location": "San Francisco, CA",
+        "location": "San Francisco, California, United States",
         "founded": 2022,
         "fundingStage": "Private",
         "totalRaised": "$3.3B+",
@@ -257,7 +145,7 @@
       },
       "verified": {
         "name": "Anysphere",
-        "description": "American software company offering Cursor, an AI-assisted code editor. Founded in 2022, the company achieved a $29.3 billion valuation and surpassed $1 billion in annual recurring revenue by late 2025.",
+        "description": "An American software company that offers Cursor, an AI-assisted software development service. Founded in 2022, the company achieved a US$29.3 billion valuation and surpassed US$1 billion in annual recurring revenue by late 2025.",
         "founders": [
           "Michael Truell",
           "Sualeh Asif",
@@ -267,7 +155,7 @@
         "location": "San Francisco, California, United States",
         "founded_year": 2022,
         "current_stage": "Private",
-        "total_raised": "$3.3B+",
+        "total_raised": "$3.2B+",
         "valuation": "$29.3B",
         "investors": [
           "Accel",
@@ -310,13 +198,13 @@
             0
           ]
         },
-        "notes": "Most recent valuation ($29.3B) from Series D funding round closed November 13, 2025, co-led by Accel and Coatue Management. Total raised calculated from: $8M seed (Oct 2023) + $60M Series A (Nov 2024) + $900M Series C (June 2025) + $2.3B Series D (Nov 2025) = $3.268B, rounded to $3.3B+. Co-founder Arvid Lunnemark left in October 2025 to found Integrous Research. As of April 2026, xAI announced acquisition option for $60B."
+        "notes": "Total raised calculated from verified funding rounds: $8M seed (Oct 2023) + $60M Series A + $900M Series C (June 2025) + $2.3B Series D (Nov 2025) = $3.268B. Wikipedia also references April 2026 xAI deal discussion but that is outside the current date context. Co-founder Arvid Lunnemark departed in October 2025 to found Integrous Research."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California, United States",
+          "field": "totalRaised",
+          "current": "$3.3B+",
+          "verified": "$3.2B+",
           "sources": [
             1
           ]
@@ -339,120 +227,14 @@
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
         }
       ],
-      "notes": "Most recent valuation ($29.3B) from Series D funding round closed November 13, 2025, co-led by Accel and Coatue Management. Total raised calculated from: $8M seed (Oct 2023) + $60M Series A (Nov 2024) + $900M Series C (June 2025) + $2.3B Series D (Nov 2025) = $3.268B, rounded to $3.3B+. Co-founder Arvid Lunnemark left in October 2025 to found Integrous Research. As of April 2026, xAI announced acquisition option for $60B."
-    },
-    {
-      "name": "Astera Labs",
-      "current": {
-        "name": "Astera Labs",
-        "founder": "Jitendra Mohan, Sanjay Gajendra, Casey Morrison",
-        "location": "San Jose, CA",
-        "founded": 2017,
-        "fundingStage": "Public",
-        "totalRaised": "$100M+",
-        "website": "https://asteralabs.com"
-      },
-      "verified": {
-        "name": "Astera Labs",
-        "description": "Fabless semiconductor manufacturer specializing in high-speed connectivity solutions for data centers and AI infrastructure. The company designs PCIe, CXL, Ethernet, and NVLink Fusion-based silicon hardware and software solutions.",
-        "founders": [
-          "Jitendra Mohan",
-          "Sanjay Gajendra",
-          "Casey Morrison"
-        ],
-        "location": "San Jose, California, United States",
-        "founded_year": 2017,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": "$5.5B",
-        "investors": [
-          "Intel Capital",
-          "Sutter Hill Ventures",
-          "Fidelity Investments"
-        ],
-        "website": "https://asteralabs.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company listed on NASDAQ under ticker ALAB as of March 2024. Wikipedia source indicates IPO valuation of $5.5B in March 2024. Company relocated headquarters to San Jose in June 2025, tripling size. Founded in Santa Clara per Wikipedia but headquarters now in San Jose."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Jose, CA",
-          "verified": "San Jose, California, United States",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://asteralabs.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://asteralabs.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Astera_Labs"
-        },
-        {
-          "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
-        },
-        {
-          "idx": 4,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/"
-        }
-      ],
-      "notes": "Company listed on NASDAQ under ticker ALAB as of March 2024. Wikipedia source indicates IPO valuation of $5.5B in March 2024. Company relocated headquarters to San Jose in June 2025, tripling size. Founded in Santa Clara per Wikipedia but headquarters now in San Jose."
+      "notes": "Total raised calculated from verified funding rounds: $8M seed (Oct 2023) + $60M Series A + $900M Series C (June 2025) + $2.3B Series D (Nov 2025) = $3.268B. Wikipedia also references April 2026 xAI deal discussion but that is outside the current date context. Co-founder Arvid Lunnemark departed in October 2025 to found Integrous Research."
     },
     {
       "name": "Astranis",
       "current": {
         "name": "Astranis",
         "founder": "John Gedmark, Ryan McLinko",
-        "location": "San Francisco, CA",
+        "location": "San Francisco, California",
         "founded": 2015,
         "fundingStage": "Series D",
         "totalRaised": "$350M+",
@@ -460,12 +242,12 @@
       },
       "verified": {
         "name": "Astranis",
-        "description": "American company specializing in small, radiation-hardened geostationary communications satellites for high orbits. Astranis builds MicroGEO satellites for commercial broadband connectivity and government missions including GPS resilience and defense applications.",
+        "description": "American satellite company specializing in small, radiation-hardened geostationary communications satellites for high orbits. Astranis designs, manufactures, and operates MicroGEO satellites for commercial connectivity and government missions.",
         "founders": [
           "John Gedmark",
           "Ryan McLinko"
         ],
-        "location": "San Francisco, California",
+        "location": "San Francisco, California, U.S.",
         "founded_year": 2015,
         "current_stage": null,
         "total_raised": "$350M+",
@@ -506,13 +288,13 @@
             2
           ]
         },
-        "notes": "Founded October 20, 2015. Wikipedia cites 'over $350 million in venture funding.' Source [3] headline mentions '$450 million in equity, debt' but full article text not provided for verification. First MicroGEO satellite (Arcturus) launched April 30, 2023. Current_stage cannot be verified from sources (database lists 'Series D' but no source confirms this stage designation)."
+        "notes": "Founded October 20, 2015. Company is part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of the website copyright year (2026), company appears to have 5 satellites on orbit. Source [3] mentions $450M in equity and debt financing but date and stage context unclear, so not included in total_raised field. Valuation of $3.5B from database entry could not be verified in provided sources."
       },
       "changes": [
         {
           "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California",
+          "current": "San Francisco, California",
+          "verified": "San Francisco, California, U.S.",
           "sources": [
             2
           ]
@@ -540,104 +322,87 @@
           "url": "https://spacenews.com/astranis-secures-450-million-in-equity-debt-to-expand-small-geo-satellite-production/"
         }
       ],
-      "notes": "Founded October 20, 2015. Wikipedia cites 'over $350 million in venture funding.' Source [3] headline mentions '$450 million in equity, debt' but full article text not provided for verification. First MicroGEO satellite (Arcturus) launched April 30, 2023. Current_stage cannot be verified from sources (database lists 'Series D' but no source confirms this stage designation)."
+      "notes": "Founded October 20, 2015. Company is part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of the website copyright year (2026), company appears to have 5 satellites on orbit. Source [3] mentions $450M in equity and debt financing but date and stage context unclear, so not included in total_raised field. Valuation of $3.5B from database entry could not be verified in provided sources."
     },
     {
-      "name": "Axiom Space",
+      "name": "Blue Origin",
       "current": {
-        "name": "Axiom Space",
-        "founder": "Michael T. Suffredini, Kam Ghaffarian",
-        "location": "Houston, TX",
-        "founded": 2016,
-        "fundingStage": "Series C",
-        "totalRaised": "$850M+",
-        "website": "https://axiomspace.com"
+        "name": "Blue Origin",
+        "founder": "Jeff Bezos",
+        "location": "Kent, WA",
+        "founded": 2000,
+        "fundingStage": "Private",
+        "totalRaised": "$10B+",
+        "website": "https://blueorigin.com"
       },
       "verified": {
-        "name": "Axiom Space",
-        "description": "American privately funded space infrastructure developer providing human spaceflight services to the ISS and developing Axiom Station, a modular commercial space station planned for the late 2020s.",
+        "name": "Blue Origin",
+        "description": "Private American aerospace company headquartered in Kent, Washington that develops and operates suborbital New Shepard and heavy-lift New Glenn rockets, supplies engines for other launch vehicles, and is developing the Blue Moon lunar lander for NASA's Artemis program.",
         "founders": [
-          "Michael T. Suffredini",
-          "Kam Ghaffarian"
+          "Jeff Bezos"
         ],
-        "location": "Houston, Texas, United States",
-        "founded_year": 2016,
-        "current_stage": null,
+        "location": "Kent, Washington, United States",
+        "founded_year": 2000,
+        "current_stage": "Private",
         "total_raised": null,
         "valuation": null,
-        "investors": [
-          "4iG Group"
-        ],
-        "website": "https://axiomspace.com",
+        "investors": null,
+        "website": "https://blueorigin.com",
         "sources_per_field": {
           "name": [
-            0,
-            1,
-            2
+            0
           ],
           "description": [
-            1,
-            2
+            0
           ],
           "founders": [
-            1,
-            2
+            0
           ],
           "location": [
-            1,
-            2
+            0
           ],
           "founded_year": [
-            1,
-            2
+            0
           ],
-          "investors": [
-            2
+          "current_stage": [
+            0
+          ],
+          "website": [
+            0
           ]
         },
-        "notes": "Source [0] mentions $350M financing secured February 12, 2026, but does not specify funding round stage or total raised. Source [2] reports December 2025 equity investment from 4iG Group but does not provide total raised or valuation figures. Current stage cannot be verified from sources provided."
+        "notes": "Leadership change in September 2023: Dave Limp appointed as CEO to succeed Bob Smith. New Glenn achieved first successful orbital launch on January 16, 2025. Company paused New Shepard tourism launches in January 2026 to focus on Artemis lunar landing efforts."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Houston, TX",
-          "verified": "Houston, Texas, United States",
+          "current": "Kent, WA",
+          "verified": "Kent, Washington, United States",
           "sources": [
-            1,
-            2
+            0
           ]
         }
       ],
       "sources": [
         {
           "idx": 0,
-          "src": "company_website",
-          "url": "https://axiomspace.com"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_Origin"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://axiomspace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Axiom_Space"
-        },
-        {
-          "idx": 3,
-          "src": "news (NASA Breaking News)",
-          "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-34th-station-resupply-launch-arrival/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/starfighters-hires-blue-origin-veterans-to-accelerate-air-launch-platform/"
         }
       ],
-      "notes": "Source [0] mentions $350M financing secured February 12, 2026, but does not specify funding round stage or total raised. Source [2] reports December 2025 equity investment from 4iG Group but does not provide total raised or valuation figures. Current stage cannot be verified from sources provided."
+      "notes": "Leadership change in September 2023: Dave Limp appointed as CEO to succeed Bob Smith. New Glenn achieved first successful orbital launch on January 16, 2025. Company paused New Shepard tourism launches in January 2026 to focus on Artemis lunar landing efforts."
     },
     {
       "name": "Fervo Energy",
       "current": {
         "name": "Fervo Energy",
         "founder": "Tim Latimer, Jack Norbeck",
-        "location": "Houston, TX",
+        "location": "Houston, Texas, U.S.",
         "founded": 2017,
         "fundingStage": "IPO",
         "totalRaised": "$1.5B+",
@@ -645,7 +410,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques to generate 24/7 carbon-free baseload electricity in previously uneconomic locations.",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas. The company operates projects including Project Red in Nevada and Cape Station in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -668,8 +433,6 @@
             2
           ],
           "description": [
-            0,
-            1,
             2
           ],
           "founders": [
@@ -695,17 +458,9 @@
             2
           ]
         },
-        "notes": "IPO process initiated: Registration Statement filed April 17, 2026; Initial Public Offering announced May 4, 2026 per source 0. Series E funding of $462 million received November 2025 per source 2. Wikipedia entry (source 2) flags article as potentially biased/sponsored content from February 2026."
+        "notes": "Source [0] indicates IPO filing announced April 17, 2026 and IPO launch announced May 4, 2026, making current status Pre-IPO rather than Public. Most recent funding: $462M Series E in November 2025 (source [2])."
       },
       "changes": [
-        {
-          "field": "location",
-          "current": "Houston, TX",
-          "verified": "Houston, Texas, U.S.",
-          "sources": [
-            2
-          ]
-        },
         {
           "field": "fundingStage",
           "current": "IPO",
@@ -742,47 +497,146 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "IPO process initiated: Registration Statement filed April 17, 2026; Initial Public Offering announced May 4, 2026 per source 0. Series E funding of $462 million received November 2025 per source 2. Wikipedia entry (source 2) flags article as potentially biased/sponsored content from February 2026."
+      "notes": "Source [0] indicates IPO filing announced April 17, 2026 and IPO launch announced May 4, 2026, making current status Pre-IPO rather than Public. Most recent funding: $462M Series E in November 2025 (source [2])."
     },
     {
-      "name": "H Company",
+      "name": "Groq",
       "current": {
-        "name": "H Company",
-        "founder": "Charles Kantor, Laurent Sifre, Karl Tuyls, Julien Perolat, Daan Wierstra",
-        "location": "Paris, France",
-        "founded": 2024,
-        "fundingStage": "Series D",
-        "totalRaised": "$220M",
-        "website": null
+        "name": "Groq",
+        "founder": "Jonathan Ross",
+        "location": "Mountain View, CA",
+        "founded": 2016,
+        "fundingStage": "Series E",
+        "totalRaised": "$3.89B",
+        "website": "https://groq.com"
       },
       "verified": {
-        "name": "H Company",
-        "description": "French artificial intelligence startup that develops action-oriented AI agents for enterprise automation using computer-use models capable of autonomously interfacing with software to automate workflows.",
+        "name": "Groq",
+        "description": "American AI semiconductor company that designs Language Processing Units (LPUs), application-specific integrated circuits (ASICs) for AI inference. The company develops hardware and software to accelerate AI inference performance.",
         "founders": [
-          "Laurent Sifre",
-          "Charles Kantor",
-          "Daan Wiestra",
-          "Karl Tuyls",
-          "Julien Perollat"
+          "Jonathan Ross"
         ],
-        "location": "Paris, France",
-        "founded_year": 2023,
-        "current_stage": null,
-        "total_raised": "$220M",
-        "valuation": null,
+        "location": "Mountain View, California, US",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": "$3.89B",
+        "valuation": "$2.8B",
         "investors": [
-          "Eric Schmidt",
-          "Amazon",
-          "Accel",
-          "Bpifrance",
-          "UiPath",
-          "Eurazeo",
-          "Xavier Niel",
-          "Yuri Milner",
-          "Bernard Arnault",
-          "Samsung"
+          "Social Capital",
+          "Tiger Global Management",
+          "D1 Capital Partners",
+          "BlackRock Private Equity Partners",
+          "Infinitum",
+          "The Spruce House Partnership",
+          "Addition",
+          "GCM Grosvenor",
+          "X\u207f",
+          "Firebolt Ventures",
+          "General Global Capital",
+          "Tru Arrow Partners",
+          "TDK Ventures",
+          "XTX Ventures"
         ],
-        "website": "https://hcompany.ai",
+        "website": "https://groq.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "In December 2025, Nvidia agreed to license Groq's AI inference technology for approximately US$20 billion in a non-exclusive licensing deal; Groq founder Jonathan Ross and president Sunny Madra would join Nvidia as part of the agreement, but Groq stated it would continue to operate as an independent company. Most recent funding was $750 million raised in September 2025 (mentioned in source 0), but this is newer than the $2.8B Series D valuation from August 2024."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Mountain View, CA",
+          "verified": "Mountain View, California, US",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series E",
+          "verified": "Private",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://groq.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Groq"
+        },
+        {
+          "idx": 2,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/nvidia-vera-rubin-used-by-google-could-next-and-thinking-machines-lab.html"
+        }
+      ],
+      "notes": "In December 2025, Nvidia agreed to license Groq's AI inference technology for approximately US$20 billion in a non-exclusive licensing deal; Groq founder Jonathan Ross and president Sunny Madra would join Nvidia as part of the agreement, but Groq stated it would continue to operate as an independent company. Most recent funding was $750 million raised in September 2025 (mentioned in source 0), but this is newer than the $2.8B Series D valuation from August 2024."
+    },
+    {
+      "name": "Hugging Face",
+      "current": {
+        "name": "Hugging Face",
+        "founder": "Cl\u00e9ment Delangue, Julien Chaumond, Thomas Wolf",
+        "location": "Manhattan, NY",
+        "founded": 2016,
+        "fundingStage": "Series D",
+        "totalRaised": "$400M",
+        "website": "https://huggingface.co"
+      },
+      "verified": {
+        "name": "Hugging Face",
+        "description": "An American company that develops computation tools for building applications using machine learning, offering a platform where users can share models, datasets, and applications. The company's transformers library is built for natural language processing applications.",
+        "founders": [
+          "Cl\u00e9ment Delangue",
+          "Julien Chaumond",
+          "Thomas Wolf"
+        ],
+        "location": "Manhattan, New York City",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://huggingface.co",
         "sources_per_field": {
           "name": [
             2
@@ -799,58 +653,17 @@
           "founded_year": [
             2
           ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
           "website": [
-            2
+            0
           ]
         },
-        "notes": "Database entry lists founded year as 2024, but Wikipedia source [2] clearly states 'Founded2023'. Database entry lists stage as 'Series D' but sources do not verify this stage. Three co-founders (Wiestra, Tuyls, Perollat) left in August 2024. CEO changed from Charles Kantor to Gautier Cloix in June 2025. The company released Holo3 in March 2026."
+        "notes": "Wikipedia source indicates 250 employees as of 2025. Company acquired Pollen Robotics in April 2025. Source [0] shows 2M+ models and 500k+ datasets available on platform (current counts differ from database entry's 500K+ models and 100K+ datasets). No Series stage information found in sources. No total_raised or valuation figures found in provided sources."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "Charles Kantor, Laurent Sifre, Karl Tuyls, Julien Perolat, Daan Wierstra",
-          "verified": "Laurent Sifre, Charles Kantor, Daan Wiestra, Karl Tuyls, Julien Perollat",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "founded",
-          "current": 2024,
-          "verified": 2023,
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://hcompany.ai",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "investors",
-          "current": "[]",
-          "verified": [
-            "Eric Schmidt",
-            "Amazon",
-            "Accel",
-            "Bpifrance",
-            "UiPath",
-            "Eurazeo",
-            "Xavier Niel",
-            "Yuri Milner",
-            "Bernard Arnault",
-            "Samsung"
-          ],
+          "field": "location",
+          "current": "Manhattan, NY",
+          "verified": "Manhattan, New York City",
           "sources": [
             2
           ]
@@ -860,32 +673,32 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://hcompany.com"
+          "url": "https://huggingface.co"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://hcompany.com/about"
+          "url": "https://huggingface.co/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/H_Company"
+          "url": "https://en.wikipedia.org/wiki/Hugging_Face"
         },
         {
           "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/05/05/quantum-machines-acquires-qharbor-and-opens-delft-office-to-deepen-european-quantum-footprint/"
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/"
         }
       ],
-      "notes": "Database entry lists founded year as 2024, but Wikipedia source [2] clearly states 'Founded2023'. Database entry lists stage as 'Series D' but sources do not verify this stage. Three co-founders (Wiestra, Tuyls, Perollat) left in August 2024. CEO changed from Charles Kantor to Gautier Cloix in June 2025. The company released Holo3 in March 2026."
+      "notes": "Wikipedia source indicates 250 employees as of 2025. Company acquired Pollen Robotics in April 2025. Source [0] shows 2M+ models and 500k+ datasets available on platform (current counts differ from database entry's 500K+ models and 100K+ datasets). No Series stage information found in sources. No total_raised or valuation figures found in provided sources."
     },
     {
       "name": "OpenAI",
       "current": {
         "name": "OpenAI",
         "founder": "Sam Altman, Greg Brockman, Ilya Sutskever",
-        "location": "San Francisco, CA",
+        "location": "San Francisco, California, U.S.",
         "founded": 2015,
         "fundingStage": "Private",
         "totalRaised": "$13B+",
@@ -893,7 +706,7 @@
       },
       "verified": {
         "name": "OpenAI",
-        "description": "American artificial intelligence company that developed the GPT family of large language models, DALL-E series of text-to-image models, and ChatGPT. Structured as a for-profit public benefit corporation with a nonprofit foundation.",
+        "description": "An AI research and deployment company that developed the GPT family of large language models, DALL-E series of text-to-image models, and ChatGPT. OpenAI consists of a nonprofit foundation and a for-profit public benefit corporation.",
         "founders": [
           "Elon Musk",
           "Sam Altman",
@@ -923,37 +736,40 @@
         "website": "https://openai.com",
         "sources_per_field": {
           "name": [
-            1
+            0,
+            1,
+            2
           ],
           "description": [
-            1
+            1,
+            2
           ],
           "founders": [
-            1
+            2
           ],
           "location": [
-            1
+            2
           ],
           "founded_year": [
-            1
+            2
           ],
           "current_stage": [
-            1
+            2
           ],
           "total_raised": [
-            1
+            2
           ],
           "valuation": [
-            1
+            2
           ],
           "investors": [
-            1
+            2
           ],
           "website": [
             0
           ]
         },
-        "notes": "Wikipedia source [1] states: 'In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion.' This is the most recent valuation found. Founded as nonprofit in December 2015, transitioned to for-profit capped structure in 2019, restructured in 2025 to PBC with nonprofit ownership of 26%."
+        "notes": "In October 2025, OpenAI conducted a $6.6 billion share sale valuing the company at $500 billion (source 2). The company transitioned to a for-profit capped entity in 2019 and underwent a 2025 restructuring converting the subsidiary into a public benefit corporation (source 2). Wikipedia lists 11 founders; database entry listed 3."
       },
       "changes": [
         {
@@ -961,15 +777,7 @@
           "current": "Sam Altman, Greg Brockman, Ilya Sutskever",
           "verified": "Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, Wojciech Zaremba",
           "sources": [
-            1
-          ]
-        },
-        {
-          "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California, U.S.",
-          "sources": [
-            1
+            2
           ]
         }
       ],
@@ -981,26 +789,31 @@
         },
         {
           "idx": 1,
+          "src": "company_about",
+          "url": "https://openai.com/about"
+        },
+        {
+          "idx": 2,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/OpenAI"
         },
         {
-          "idx": 2,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/"
-        },
-        {
           "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/"
         },
         {
           "idx": 4,
-          "src": "news (STAT News)",
-          "url": "https://www.statnews.com/2026/05/06/openai-policy-blueprint-unleashing-ai-potential-health-care/?utm_campaign=rss"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+        },
+        {
+          "idx": 5,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/"
         }
       ],
-      "notes": "Wikipedia source [1] states: 'In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion.' This is the most recent valuation found. Founded as nonprofit in December 2015, transitioned to for-profit capped structure in 2019, restructured in 2025 to PBC with nonprofit ownership of 26%."
+      "notes": "In October 2025, OpenAI conducted a $6.6 billion share sale valuing the company at $500 billion (source 2). The company transitioned to a for-profit capped entity in 2019 and underwent a 2025 restructuring converting the subsidiary into a public benefit corporation (source 2). Wikipedia lists 11 founders; database entry listed 3."
     },
     {
       "name": "Palantir",
@@ -1015,7 +828,7 @@
       },
       "verified": {
         "name": "Palantir Technologies Inc.",
-        "description": "An American publicly traded company that develops data integration and analytics platforms. The company serves federal agencies, governments, and private companies with products including Palantir Gotham, Palantir Foundry, Palantir Apollo, and Palantir AIP.",
+        "description": "American publicly traded company that develops data integration and analytics platforms. Headquartered in Miami, Florida, with products including Palantir Gotham, Palantir Foundry, Palantir Apollo, and Palantir AIP.",
         "founders": [
           "Peter Thiel",
           "Stephen Cohen",
@@ -1060,7 +873,7 @@
             0
           ]
         },
-        "notes": "Company is publicly traded on Nasdaq (PLTR). Wikipedia source is current as of May 6, 2026. Source [1] is about a different company (Silo/quantum computing) and is not relevant to Palantir verification."
+        "notes": "Company is publicly traded on Nasdaq (PLTR). Wikipedia source is dated May 6, 2026 (23 years after founding on May 6, 2003). Current database entry lists location as Miami, FL (verified), but stage as 'Series A' which is contradicted by public company status in source. Valuation and total_raised fields cannot be verified from provided sources as specific current figures are not stated."
       },
       "changes": [
         {
@@ -1092,93 +905,67 @@
           "url": "https://sifted.eu/articles/qutwo-hugging-face-legora-funding-round/"
         }
       ],
-      "notes": "Company is publicly traded on Nasdaq (PLTR). Wikipedia source is current as of May 6, 2026. Source [1] is about a different company (Silo/quantum computing) and is not relevant to Palantir verification."
+      "notes": "Company is publicly traded on Nasdaq (PLTR). Wikipedia source is dated May 6, 2026 (23 years after founding on May 6, 2003). Current database entry lists location as Miami, FL (verified), but stage as 'Series A' which is contradicted by public company status in source. Valuation and total_raised fields cannot be verified from provided sources as specific current figures are not stated."
     },
     {
-      "name": "PsiQuantum",
+      "name": "Percepto",
       "current": {
-        "name": "PsiQuantum",
-        "founder": "Jeremy O'Brien, Terry Rudolph, Peter Shadbolt, Mark Thompson",
-        "location": "Palo Alto, CA",
-        "founded": 2016,
-        "fundingStage": "Private",
-        "totalRaised": "$2.415B",
-        "website": "https://psiquantum.com"
+        "name": "Percepto",
+        "founder": "Dor Abuhasira, Ariel Avitan, Sagi Blonder, Raviv Raz",
+        "location": "Modi'in, Israel",
+        "founded": 2014,
+        "fundingStage": "Series C",
+        "totalRaised": "$128M",
+        "website": "https://percepto.co"
       },
       "verified": {
-        "name": "PsiQuantum",
-        "description": "A quantum computing company developing silicon photonic quantum computers with a mission to build utility-scale, fault-tolerant quantum computers on the order of one million qubits.",
+        "name": "Percepto",
+        "description": "Percepto develops autonomous drone-in-a-box technology and software for inspection and monitoring of critical infrastructure. The company provides fully automated inspections and continuous monitoring solutions powered by robotics and AI-driven analytics.",
         "founders": [
-          "Jeremy O'Brien",
-          "Terry Rudolph",
-          "Peter Shadbolt",
-          "Mark Thompson"
+          "Dor Abuhasira",
+          "Ariel Avitan",
+          "Sagi Blonder",
+          "Raviv Raz"
         ],
-        "location": "Palo Alto, California",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": "$1.415B",
-        "valuation": "$6B",
-        "investors": [
-          "BlackRock",
-          "Baillie Gifford",
-          "M12",
-          "Microsoft"
-        ],
-        "website": "https://psiquantum.com",
+        "location": "Israel",
+        "founded_year": 2014,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://percepto.co",
         "sources_per_field": {
           "name": [
             0,
-            1,
-            2
+            1
           ],
           "description": [
             0,
             1
           ],
           "founders": [
-            2
+            1
           ],
           "location": [
-            2
+            1
           ],
           "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
+            1
           ],
           "website": [
             0,
             1
           ]
         },
-        "notes": "Wikipedia reports total raised of $665M as of July 2021, plus $750M in March 2025, totaling $1.415B. However, database entry claims $2.415B\u2014source discrepancy noted. Most recent verified valuation is $6B from March 2025 funding round. Database claims $7B valuation from September 2025 Series E with BlackRock/NVIDIA/Temasek\u2014not found in provided sources. Source [3] (TechCrunch SpaceX article) is not about PsiQuantum and provides no relevant information."
+        "notes": "Source [1] explicitly names all four co-founders with their titles and background. Source [1] states company was 'co-founding Percepto in 2014.' Location identified as Israel based on team presence in company description and founder backgrounds (Ben-Gurion University, Israeli Air Force). No specific funding stage, total raised amount, valuation, or investor information found in provided sources."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Palo Alto, CA",
-          "verified": "Palo Alto, California",
+          "current": "Modi'in, Israel",
+          "verified": "Israel",
           "sources": [
-            2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$2.415B",
-          "verified": "$1.415B",
-          "sources": [
-            2
+            1
           ]
         }
       ],
@@ -1186,111 +973,91 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://psiquantum.com"
+          "url": "https://percepto.co"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://psiquantum.com/about"
+          "url": "https://percepto.co/about"
         },
         {
           "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/PsiQuantum"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/"
+          "src": "news (Crunchbase News)",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
         }
       ],
-      "notes": "Wikipedia reports total raised of $665M as of July 2021, plus $750M in March 2025, totaling $1.415B. However, database entry claims $2.415B\u2014source discrepancy noted. Most recent verified valuation is $6B from March 2025 funding round. Database claims $7B valuation from September 2025 Series E with BlackRock/NVIDIA/Temasek\u2014not found in provided sources. Source [3] (TechCrunch SpaceX article) is not about PsiQuantum and provides no relevant information."
+      "notes": "Source [1] explicitly names all four co-founders with their titles and background. Source [1] states company was 'co-founding Percepto in 2014.' Location identified as Israel based on team presence in company description and founder backgrounds (Ben-Gurion University, Israeli Air Force). No specific funding stage, total raised amount, valuation, or investor information found in provided sources."
     },
     {
-      "name": "QuantWare",
+      "name": "Quantum Motion",
       "current": {
-        "name": "QuantWare",
-        "founder": "Matthijs Rijlaarsdam, Alessandro Bruno",
-        "location": "Delft, Netherlands",
-        "founded": 2021,
+        "name": "Quantum Motion",
+        "founder": "John Morton, Simon Benjamin",
+        "location": "London, UK",
+        "founded": 2017,
         "fundingStage": "Series A",
-        "totalRaised": "$27M",
-        "website": "https://quantware.com"
+        "totalRaised": "$60M+",
+        "website": "https://quantummotion.com"
       },
       "verified": {
-        "name": "QuantWare",
-        "description": "QuantWare designs, fabricates, and integrates quantum processors on VIO\u2122 architecture for superconducting qubits. The company has shipped more quantum processors than any other commercial supplier, serving more than 50 customers across 20 countries.",
+        "name": "Quantum Motion",
+        "description": "Silicon-based quantum computing company developing scalable quantum processors using standard CMOS silicon processing technology compatible with existing semiconductor manufacturing.",
         "founders": [
-          "Matthijs Rijlaarsdam",
-          "Alessandro Bruno"
+          "John Morton",
+          "Simon Benjamin"
         ],
-        "location": "Delft, Netherlands",
-        "founded_year": 2021,
-        "current_stage": "Series B",
-        "total_raised": "$178M",
+        "location": "London, UK",
+        "founded_year": null,
+        "current_stage": "Series C",
+        "total_raised": "$160M",
         "valuation": null,
-        "investors": [
-          "Intel Capital",
-          "In-Q-Tel"
-        ],
-        "website": "https://quantware.com",
+        "investors": null,
+        "website": "https://quantummotion.com",
         "sources_per_field": {
           "name": [
-            0,
-            1
+            0
           ],
           "description": [
-            1,
-            0
+            0,
+            1
           ],
           "founders": [
             1
           ],
           "location": [
-            1,
-            0
-          ],
-          "founded_year": [
             1
           ],
           "current_stage": [
-            2
+            2,
+            3
           ],
           "total_raised": [
-            2
+            2,
+            3
           ],
-          "investors": [
-            1
+          "website": [
+            0
           ]
         },
-        "notes": "Series B funding of $178M confirmed by Sifted source; source [3] mentions \u20ac152M (likely same round in different currency). Founders Matt Rijlaarsdam and Alessandro Bruno are listed as co-founders/executive directors per company about page."
+        "notes": "Database entry listed Series A stage and $60M+ raised; sources confirm Series C with $160M raised. Founders John Morton (Founder, CTO) and Simon Benjamin (Founder, CSO) verified from company about page."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series A",
-          "verified": "Series B",
+          "verified": "Series C",
           "sources": [
-            2
+            2,
+            3
           ]
         },
         {
           "field": "totalRaised",
-          "current": "$27M",
-          "verified": "$178M",
+          "current": "$60M+",
+          "verified": "$160M",
           "sources": [
-            2
-          ]
-        },
-        {
-          "field": "investors",
-          "current": "[]",
-          "verified": [
-            "Intel Capital",
-            "In-Q-Tel"
-          ],
-          "sources": [
-            1
+            2,
+            3
           ]
         }
       ],
@@ -1298,55 +1065,57 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://quantware.com"
+          "url": "https://quantummotion.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://quantware.com/about"
+          "url": "https://quantummotion.com/about"
         },
         {
           "idx": 2,
-          "src": "news (Sifted)",
-          "url": "https://sifted.eu/articles/intel-quantware-178m-series-b/"
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/05/07/uk-quantum-outfit-quantum-motion-run-on-silicon-chips-raises-160m/"
         },
         {
           "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/05/05/quantware-secures-eur152m-for-large-scale-quantum-systems/"
+          "src": "news (Sifted)",
+          "url": "https://sifted.eu/articles/quantum-motion-series-c/"
         }
       ],
-      "notes": "Series B funding of $178M confirmed by Sifted source; source [3] mentions \u20ac152M (likely same round in different currency). Founders Matt Rijlaarsdam and Alessandro Bruno are listed as co-founders/executive directors per company about page."
+      "notes": "Database entry listed Series A stage and $60M+ raised; sources confirm Series C with $160M raised. Founders John Morton (Founder, CTO) and Simon Benjamin (Founder, CSO) verified from company about page."
     },
     {
-      "name": "Rivian",
+      "name": "Rocket Lab",
       "current": {
-        "name": "Rivian",
-        "founder": "R. J. Scaringe",
-        "location": "Irvine, CA",
-        "founded": 2009,
+        "name": "Rocket Lab",
+        "founder": "Peter Beck",
+        "location": "Long Beach, CA",
+        "founded": 2006,
         "fundingStage": "Public",
-        "totalRaised": "$13.5B",
-        "website": "https://rivian.com"
+        "totalRaised": "",
+        "website": "https://www.rocketlabcorp.com"
       },
       "verified": {
-        "name": "Rivian",
-        "description": "American electric vehicle manufacturer founded in 2009 that produces electric SUVs (R1S), pickup trucks (R1T), and delivery vans on a skateboard platform. The company became public in November 2021.",
+        "name": "Rocket Lab",
+        "description": "Publicly traded aerospace manufacturer and launch service provider. Operates the Electron orbital rocket for small satellite launches and manufactures satellite components, spacecraft buses, and flight software.",
         "founders": [
-          "R. J. Scaringe"
+          "Peter Beck"
         ],
-        "location": "Irvine, California",
-        "founded_year": 2009,
+        "location": "Long Beach, California, USA",
+        "founded_year": 2006,
         "current_stage": "Public",
-        "total_raised": "$13.5B",
+        "total_raised": null,
         "valuation": null,
         "investors": [
-          "Amazon",
-          "Abdul Latif Jameel",
-          "Volkswagen Group",
-          "Ford Motor Company"
+          "Khosla Ventures",
+          "Bessemer Venture Partners",
+          "Lockheed Martin",
+          "Data Collective",
+          "Promus Ventures",
+          "Future Fund"
         ],
-        "website": "https://rivian.com",
+        "website": "https://www.rocketlabcorp.com",
         "sources_per_field": {
           "name": [
             0,
@@ -1354,35 +1123,36 @@
             2
           ],
           "description": [
+            1,
             2
           ],
           "founders": [
             2
           ],
           "location": [
+            1,
             2
           ],
           "founded_year": [
+            1,
             2
           ],
           "current_stage": [
-            2
-          ],
-          "total_raised": [
             2
           ],
           "investors": [
             2
           ]
         },
-        "notes": "Founded in Rockledge, Florida in 2009 as Mainstream Motors, renamed to Avera Automotive, then Rivian Automotive in 2011. Headquarters moved to Irvine, California. IPO on November 10, 2021 on Nasdaq under ticker RIVN. Wikipedia source indicates Volkswagen Group ownership at 16%, while Electrek news source [4] indicates 15.9% stake as of May 2026, suggesting recent changes in ownership structure."
+        "notes": "Founded in Auckland, New Zealand in June 2006; moved to United States in 2013 and established headquarters in Huntington Beach, California before relocating to Long Beach in 2020. Company went public on Nasdaq in August 2021 via SPAC merger. Electron is described as 'second most frequently launched U.S. rocket' (source 1). Wikipedia reports over 75 completed missions as of January 2026. Multiple acquisitions completed: Sinclair Interplanetary (2020), Advanced Solutions Inc and Planetary Systems Corporation (2021), SolAero (2022), Geost (2025), and Mynaric AG (2026)."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Irvine, CA",
-          "verified": "Irvine, California",
+          "current": "Long Beach, CA",
+          "verified": "Long Beach, California, USA",
           "sources": [
+            1,
             2
           ]
         }
@@ -1391,106 +1161,37 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://rivian.com"
+          "url": "https://www.rocketlabcorp.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://rivian.com/about"
+          "url": "https://www.rocketlabcorp.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Rivian"
+          "url": "https://en.wikipedia.org/wiki/Rocket_Lab"
         },
         {
           "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/05/rivian-rivn-mulls-in-house-lidar-autonomous-driving-stack/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/rocket-lab-joins-raytheon-on-space-interceptor-program-for-golden-dome/"
         },
         {
           "idx": 4,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/05/volkswagen-rivian-stake-15-percent-largest-shareholder/"
-        },
-        {
-          "idx": 5,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/04/30/rivian-rivn-boosts-production-capacity-georgia-plant-50/"
+          "src": "earnings (Rocket Lab 2025-Q4)",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/"
         }
       ],
-      "notes": "Founded in Rockledge, Florida in 2009 as Mainstream Motors, renamed to Avera Automotive, then Rivian Automotive in 2011. Headquarters moved to Irvine, California. IPO on November 10, 2021 on Nasdaq under ticker RIVN. Wikipedia source indicates Volkswagen Group ownership at 16%, while Electrek news source [4] indicates 15.9% stake as of May 2026, suggesting recent changes in ownership structure."
-    },
-    {
-      "name": "Scout Space",
-      "current": {
-        "name": "Scout Space",
-        "founder": "Philip Hover-Smoot",
-        "location": "Broomfield, CO",
-        "founded": 2019,
-        "fundingStage": "Series A",
-        "totalRaised": "$10M+ + TACFI",
-        "website": null
-      },
-      "verified": {
-        "name": "Scout Space",
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": "Series A",
-        "total_raised": "$18M",
-        "valuation": null,
-        "investors": null,
-        "website": null,
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ]
-        },
-        "notes": "Source [0] and [1] contain unrelated content about medieval history and appear to be parked domain pages, not authentic company sources. Only source [2] (SpaceNews article) contains verifiable information about Scout Space as an orbital tracking technology company. Database entry claims about Philip Hover-Smoot (founder), Broomfield CO (location), 2019 (founding year), and $10M+ TACFI awards could not be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$10M+ + TACFI",
-          "verified": "$18M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://scoutspace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://scoutspace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/scout-space-raises-18-million-to-expand-orbital-tracking-technology/"
-        }
-      ],
-      "notes": "Source [0] and [1] contain unrelated content about medieval history and appear to be parked domain pages, not authentic company sources. Only source [2] (SpaceNews article) contains verifiable information about Scout Space as an orbital tracking technology company. Database entry claims about Philip Hover-Smoot (founder), Broomfield CO (location), 2019 (founding year), and $10M+ TACFI awards could not be verified from provided sources."
+      "notes": "Founded in Auckland, New Zealand in June 2006; moved to United States in 2013 and established headquarters in Huntington Beach, California before relocating to Long Beach in 2020. Company went public on Nasdaq in August 2021 via SPAC merger. Electron is described as 'second most frequently launched U.S. rocket' (source 1). Wikipedia reports over 75 completed missions as of January 2026. Multiple acquisitions completed: Sinclair Interplanetary (2020), Advanced Solutions Inc and Planetary Systems Corporation (2021), SolAero (2022), Geost (2025), and Mynaric AG (2026)."
     },
     {
       "name": "SpaceX",
       "current": {
         "name": "SpaceX",
         "founder": "Elon Musk",
-        "location": "Starbase, TX",
+        "location": "Starbase, Texas, U.S.",
         "founded": 2002,
         "fundingStage": "Series G",
         "totalRaised": "$10B+",
@@ -1498,7 +1199,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company headquartered in Starbase, Texas. Since its founding in 2002, SpaceX has advanced rocket propulsion, reusable launch vehicles, human spaceflight, and satellite constellation technology.",
+        "description": "Private American aerospace and artificial intelligence company that develops rockets, spacecraft, and satellite constellation technology. SpaceX conducts more orbital launches annually than any other launch provider as of 2026.",
         "founders": [
           "Elon Musk"
         ],
@@ -1535,17 +1236,9 @@
             1
           ]
         },
-        "notes": "Wikipedia indicates SpaceX is expected to have an IPO in 2026. Founded in El Segundo, California in 2002, with headquarters now at Starbase, Texas. xAI is listed as a subsidiary. Revenue reported as $16 billion (2025) and operating income as $8 billion (2025) per Wikipedia."
+        "notes": "Wikipedia indicates SpaceX is expected to have an IPO in 2026. Database entry claims 'Series G' stage, but source [1] describes SpaceX as 'private' with no mention of funding rounds. Database entry valuation ($800B) is supported by source [1] which states '2025 offer to buy internal shares valued SpaceX at $800 billion.' Database entry claims $10B+ raised but this cannot be verified from sources; SEC Form D [5] shows only a single $9.7M filing from 2026. Founded date March 14, 2002 per source [1], though database lists only 2002."
       },
       "changes": [
-        {
-          "field": "location",
-          "current": "Starbase, TX",
-          "verified": "Starbase, Texas, U.S.",
-          "sources": [
-            1
-          ]
-        },
         {
           "field": "fundingStage",
           "current": "Series G",
@@ -1568,21 +1261,237 @@
         },
         {
           "idx": 2,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
+        },
+        {
+          "idx": 4,
           "src": "news (Ars Technica Space)",
           "url": "https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/"
         },
         {
-          "idx": 3,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
+          "idx": 5,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133025&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "Wikipedia indicates SpaceX is expected to have an IPO in 2026. Founded in El Segundo, California in 2002, with headquarters now at Starbase, Texas. xAI is listed as a subsidiary. Revenue reported as $16 billion (2025) and operating income as $8 billion (2025) per Wikipedia."
+      "notes": "Wikipedia indicates SpaceX is expected to have an IPO in 2026. Database entry claims 'Series G' stage, but source [1] describes SpaceX as 'private' with no mention of funding rounds. Database entry valuation ($800B) is supported by source [1] which states '2025 offer to buy internal shares valued SpaceX at $800 billion.' Database entry claims $10B+ raised but this cannot be verified from sources; SEC Form D [5] shows only a single $9.7M filing from 2026. Founded date March 14, 2002 per source [1], though database lists only 2002."
+    },
+    {
+      "name": "Starcloud",
+      "current": {
+        "name": "Starcloud",
+        "founder": "Philip Johnston, Ezra Feilden, Adi Oltean",
+        "location": "Redmond, WA",
+        "founded": 2024,
+        "fundingStage": "SPAC",
+        "totalRaised": "$170M",
+        "website": "https://www.starcloud.com"
+      },
+      "verified": {
+        "name": "Starcloud",
+        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched Starcloud-1 in November 2025 equipped with an Nvidia H100 GPU.",
+        "founders": [
+          "Philip Johnston",
+          "Ezra Feilden",
+          "Adi Oltean"
+        ],
+        "location": "Redmond, Washington, USA",
+        "founded_year": 2024,
+        "current_stage": "Series A",
+        "total_raised": "$170M",
+        "valuation": "$1.1B",
+        "investors": [
+          "Benchmark",
+          "EQT Ventures"
+        ],
+        "website": "https://www.starcloud.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            0,
+            1,
+            2
+          ],
+          "location": [
+            0,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            2
+          ]
+        },
+        "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to 'Starcloud' in March 2025 following a legal challenge from Lumen Technologies. Became fastest unicorn in Y Combinator history, reaching $1.1B valuation 17 months after completing the program. Series A announced March 30, 2026."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Redmond, WA",
+          "verified": "Redmond, Washington, USA",
+          "sources": [
+            0,
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "SPAC",
+          "verified": "Series A",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.starcloud.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.starcloud.com/about-us"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Starcloud"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
+        }
+      ],
+      "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to 'Starcloud' in March 2025 following a legal challenge from Lumen Technologies. Became fastest unicorn in Y Combinator history, reaching $1.1B valuation 17 months after completing the program. Series A announced March 30, 2026."
+    },
+    {
+      "name": "Thinking Machines Lab",
+      "current": {
+        "name": "Thinking Machines Lab",
+        "founder": "Mira Murati, John Schulman, Barret Zoph, Lilian Weng",
+        "location": "San Francisco, CA",
+        "founded": 2025,
+        "fundingStage": "Seed",
+        "totalRaised": "$2B",
+        "website": "https://thinkingmachines.ai"
+      },
+      "verified": {
+        "name": "Thinking Machines Lab",
+        "description": "An artificial intelligence research and product company building AI systems that are more widely understood, customizable, and generally capable. Founded by former OpenAI CTO Mira Murati and other top OpenAI research leadership.",
+        "founders": [
+          "Mira Murati",
+          "John Schulman",
+          "Barret Zoph",
+          "Lilian Weng"
+        ],
+        "location": "San Francisco, California",
+        "founded_year": 2025,
+        "current_stage": "Seed",
+        "total_raised": "$2B",
+        "valuation": "$12B",
+        "investors": [
+          "Andreessen Horowitz",
+          "Nvidia",
+          "AMD",
+          "Cisco",
+          "Jane Street",
+          "Government of Albania"
+        ],
+        "website": "https://thinkingmachines.ai",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Wikipedia confirms founding in February 2025. Barret Zoph and Luke Metz departed in January 2026 to return to OpenAI. In March 2026, announced strategic partnership with Nvidia involving deployment of one gigawatt of Vera Rubin computing capacity."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Francisco, CA",
+          "verified": "San Francisco, California",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://thinkingmachines.ai"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab"
+        },
+        {
+          "idx": 2,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/nvidia-vera-rubin-used-by-google-could-next-and-thinking-machines-lab.html"
+        }
+      ],
+      "notes": "Wikipedia confirms founding in February 2025. Barret Zoph and Luke Metz departed in January 2026 to return to OpenAI. In March 2026, announced strategic partnership with Nvidia involving deployment of one gigawatt of Vera Rubin computing capacity."
     }
   ],
   "unverifiable": []
