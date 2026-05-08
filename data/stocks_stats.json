@@ -11,13 +11,13 @@
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.16,
+      "avg_change": 0.14,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 15.85,
+      "avg_change": 13.09,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.19,
+      "avg_change": -4.64,
       "count": 3
     },
     "transportation": {
@@ -59,11 +59,6 @@
   },
   "topGainers": [
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      30.05
-    ],
-    [
       "AUR",
       "Aurora Innovation",
       21.43
@@ -76,12 +71,17 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      18.52
+      18.07
     ],
     [
       "AMD",
       "AMD",
       15.22
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      14.53
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -15.36
     ]
   ],
-  "lastUpdated": "2026-05-08 03:28:51"
+  "lastUpdated": "2026-05-08 07:47:47"
 }
