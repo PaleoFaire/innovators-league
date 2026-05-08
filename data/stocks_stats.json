@@ -5,31 +5,31 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.35,
+      "avg_change": -1.48,
       "count": 1
     },
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.18,
+      "avg_change": -0.16,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 13.92,
+      "avg_change": 15.85,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 4.5,
+      "avg_change": 4.75,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -7.77,
+      "avg_change": -7.63,
       "count": 3
     },
     "quantum": {
@@ -41,19 +41,19 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.18,
+      "avg_change": -3.19,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -3.42,
+      "avg_change": -2.82,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.36,
+      "avg_change": 7.22,
       "count": 3
     }
   },
@@ -66,7 +66,7 @@
     [
       "AUR",
       "Aurora Innovation",
-      23.21
+      21.43
     ],
     [
       "ASRHF",
@@ -74,42 +74,42 @@
       18.75
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      18.52
+    ],
+    [
       "AMD",
       "AMD",
       15.22
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      14.53
     ]
   ],
   "topLosers": [
     [
       "LNZA",
       "LanzaTech",
-      -7.93
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -11.53
+      -8.34
     ],
     [
       "TEM",
       "Tempus AI",
-      -11.68
+      -10.83
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -11.57
     ],
     [
       "RIVN",
       "Rivian",
-      -13.23
+      -13.54
     ],
     [
       "SLDP",
       "Solid Power",
-      -15.51
+      -15.36
     ]
   ],
-  "lastUpdated": "2026-05-07 19:47:41"
+  "lastUpdated": "2026-05-08 03:28:51"
 }
