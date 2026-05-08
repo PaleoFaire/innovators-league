@@ -5,68 +5,68 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -6.91,
+      "avg_change": -5.12,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 4.12,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 10.75,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 9.23,
+      "avg_change": 12.26,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 3.37,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 5.84,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -8.13,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -2.26,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.15,
+      "avg_change": 6.17,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.53,
+      "avg_change": -4.51,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.86,
+      "avg_change": 2.08,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 7.77,
+      "avg_change": 10.03,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "AMD",
-      "AMD",
-      19.43
-    ],
-    [
       "RKLB",
       "Rocket Lab",
-      19.06
+      30.61
+    ],
+    [
+      "AMD",
+      "AMD",
+      24.12
     ],
     [
       "277810.KQ",
@@ -74,42 +74,42 @@
       18.07
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      12.73
+      "AUR",
+      "Aurora Innovation",
+      16.48
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      11.37
+      "NNE",
+      "Nano Nuclear Energy",
+      15.25
     ]
   ],
   "topLosers": [
     [
-      "PLTR",
-      "Palantir",
-      -6.91
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -3.54
     ],
     [
       "RIVN",
       "Rivian",
-      -7.79
+      -5.03
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      -9.16
+      "PLTR",
+      "Palantir",
+      -5.12
     ],
     [
       "SLDP",
       "Solid Power",
-      -14.33
+      -9.5
     ],
     [
       "TEM",
       "Tempus AI",
-      -14.64
+      -10.6
     ]
   ],
-  "lastUpdated": "2026-05-08 13:59:23"
+  "lastUpdated": "2026-05-08 19:25:19"
 }
