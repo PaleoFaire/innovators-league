@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T07:55:21+00:00",
+  "generatedAt": "2026-05-08T09:48:19+00:00",
   "matrix": {
     "space-launch-large": {
       "2026-Q2": {
@@ -439,7 +439,8 @@
               "Redpoint Ventures",
               "Sequoia Capital",
               "Index Ventures",
-              "T. Rowe Price"
+              "T. Rowe Price",
+              "OpenAI"
             ]
           },
           {
@@ -459,11 +460,16 @@
               "LG Technology Ventures",
               "Schneider Electric Ventures",
               "CommonSpirit Health",
-              "Salesforce Ventures"
+              "Salesforce Ventures",
+              "In-Q-Tel",
+              "1789 Capital",
+              "Disruptive",
+              "Mirae Asset"
             ]
           }
         ],
         "investors": [
+          "In-Q-Tel",
           "Lightspeed Venture Partners",
           "Lux Capital",
           "Sequoia Capital",
@@ -858,7 +864,6 @@
               "Leitmotif",
               "Mustafa Suleyman",
               "Patrick Collison",
-              "Reid Hoffman",
               "Richard Merkin",
               "Trousdale Ventures"
             ]
@@ -1488,6 +1493,14 @@
           "company": "Palantir",
           "cluster": "ai-saas-enterprise",
           "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
           "source": "recentEvent"
         }
       ]
