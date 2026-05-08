@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T18:17:24.667768+00:00",
+  "generatedAt": "2026-05-08T20:12:25.875234+00:00",
   "date": "2026-05-08",
   "dateDisplay": "Friday, May 08, 2026",
   "sections": {
@@ -61,18 +61,18 @@
     ],
     "marketMovers": [
       {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 430.58,
-        "changePercent": 19.43,
-        "change": 70.04
-      },
-      {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 93.83,
-        "changePercent": 19.06,
-        "change": 15.02
+        "price": 102.93,
+        "changePercent": 30.61,
+        "change": 24.12
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 447.5,
+        "changePercent": 24.12,
+        "change": 86.96
       },
       {
         "ticker": "277810.KQ",
@@ -82,39 +82,39 @@
         "change": 120000.0
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 46.95,
-        "changePercent": -14.64,
-        "change": -8.05
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 2.93,
-        "changePercent": -14.33,
-        "change": -0.49
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 7.14,
+        "changePercent": 16.48,
+        "change": 1.01
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 26.39,
-        "changePercent": 12.73,
-        "change": 2.98
+        "price": 26.98,
+        "changePercent": 15.25,
+        "change": 3.57
       },
       {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 814.15,
-        "changePercent": 11.37,
-        "change": 83.15
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 10.64,
+        "changePercent": 15.03,
+        "change": 1.39
       },
       {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.8,
-        "changePercent": 10.93,
-        "change": 0.67
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 2.79,
+        "changePercent": 14.98,
+        "change": 0.36
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 29.24,
+        "changePercent": 14.14,
+        "change": 3.62
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AMD +19.4%"
+    "topMover": "RKLB +30.6%"
   }
 }
