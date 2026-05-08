@@ -1,8 +1,8 @@
 // Auto-generated news signals
-// Last updated: 2026-05-08T07:47:21.655Z
+// Last updated: 2026-05-08T07:54:37.826Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1778226441655,
+    "id": 1778226877826,
     "type": "news",
     "company": "OpenAI",
     "headline": "Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI",
@@ -13,7 +13,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/"
   },
   {
-    "id": 1778226441656,
+    "id": 1778226877827,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI launches new voice intelligence features in its API",
@@ -24,7 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
   },
   {
-    "id": 1778226441657,
+    "id": 1778226877828,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX V3 Booster Has a Full Static Fire And Is On Track for a May 15 Launch",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
   },
   {
-    "id": 1778226441658,
+    "id": 1778226877829,
     "type": "contract",
     "company": "Rocket Lab",
     "headline": "Rocket Lab joins Raytheon on space interceptor program for Golden Dome",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-joins-raytheon-on-space-interceptor-program-for-golden-dome/"
   },
   {
-    "id": 1778226441659,
+    "id": 1778226877830,
     "type": "news",
     "company": "Thinking Machines Lab",
     "headline": "Nvidia Vera Rubin Used by Google Could Next and Thinking Machines Lab",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/nvidia-vera-rubin-used-by-google-could-next-and-thinking-machines-lab.html"
   },
   {
-    "id": 1778226441660,
+    "id": 1778226877831,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI introduces new &#8216;Trusted Contact&#8217; safeguard for cases of possible self-harm",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/"
   },
   {
-    "id": 1778226441661,
+    "id": 1778226877832,
     "type": "news",
     "company": "OpenAI",
     "headline": "Elon Musk&#8217;s lawsuit is putting OpenAI&#8217;s safety record under the microscope",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/"
   },
   {
-    "id": 1778226441662,
+    "id": 1778226877833,
     "type": "milestone",
     "company": "Hugging Face",
     "headline": "Hugging Face launches agentic toolkit for Reachy Mini",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/"
   },
   {
-    "id": 1778226441663,
+    "id": 1778226877834,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic vs European AI",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/anthropic-vs-european-ai-podcast/"
   },
   {
-    "id": 1778226441664,
+    "id": 1778226877835,
     "type": "funding",
     "company": "Pivotal",
     "headline": "EnGene's shares crash on updated pivotal bladder cancer data",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/engenes-shares-crash-on-updated-pivotal-bladder-cancer-data/"
   },
   {
-    "id": 1778226441665,
+    "id": 1778226877836,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Anthropic to consider using SpaceX orbital data center satellites",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
   },
   {
-    "id": 1778226441666,
+    "id": 1778226877837,
     "type": "hire",
     "company": "Blue Origin",
     "headline": "Starfighters hires Blue Origin veterans to accelerate air-launch platform",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/starfighters-hires-blue-origin-veterans-to-accelerate-air-launch-platform/"
   },
   {
-    "id": 1778226441667,
+    "id": 1778226877838,
     "type": "funding",
     "company": "Quantum Motion",
     "headline": "UK quantum outfit Quantum Motion run on silicon chips raises $160M",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/05/07/uk-quantum-outfit-quantum-motion-run-on-silicon-chips-raises-160m/"
   },
   {
-    "id": 1778226441668,
+    "id": 1778226877839,
     "type": "funding",
     "company": "Quantum Motion",
     "headline": "Quantum Motion raises $160m Series C as quantum sector heats up",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/quantum-motion-series-c/"
   },
   {
-    "id": 1778226441669,
+    "id": 1778226877840,
     "type": "news",
     "company": "Anthropic",
     "headline": "GIC backs Anthropic-linked new AI-native enterprise services firm",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/05/07/gic-backs-anthropic-linked-new-ai-native-enterprise-services-firm/"
   },
   {
-    "id": 1778226441670,
+    "id": 1778226877841,
     "type": "news",
     "company": "OpenAI",
     "headline": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/"
   },
   {
-    "id": 1778226441671,
+    "id": 1778226877842,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX is starting to move on from the world&#039;s most successful rocket",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/"
   },
   {
-    "id": 1778226441672,
+    "id": 1778226877843,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/"
   },
   {
-    "id": 1778226441673,
+    "id": 1778226877844,
     "type": "funding",
     "company": "Anthropic",
     "headline": "XAI Will Breakeven by Renting AI Data Center to Anthropic",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
   },
   {
-    "id": 1778226441674,
+    "id": 1778226877845,
     "type": "news",
     "company": "Astranis",
     "headline": "Astranis secures $450 million in equity, debt to expand small GEO satellite production",
