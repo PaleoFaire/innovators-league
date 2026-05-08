@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T00:01:14.986177+00:00",
+  "generatedAt": "2026-05-08T03:46:03.934619+00:00",
   "date": "2026-05-08",
   "dateDisplay": "Friday, May 08, 2026",
   "sections": {
@@ -70,9 +70,9 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 7.25,
-        "changePercent": 23.21,
-        "change": 1.37
+        "price": 7.14,
+        "changePercent": 21.43,
+        "change": 1.26
       },
       {
         "ticker": "ASRHF",
@@ -82,18 +82,25 @@
         "change": 1.5
       },
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 787000.0,
+        "changePercent": 18.52,
+        "change": 123000.0
+      },
+      {
         "ticker": "SLDP",
         "company": "Solid Power",
         "price": 2.92,
-        "changePercent": -15.51,
-        "change": -0.54
+        "changePercent": -15.36,
+        "change": -0.53
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 408.43,
+        "price": 408.46,
         "changePercent": 15.22,
-        "change": 53.94
+        "change": 53.97
       },
       {
         "ticker": "EVTL",
@@ -105,16 +112,9 @@
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 26.63,
-        "changePercent": 13.89,
-        "change": 3.25
-      },
-      {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 14.23,
-        "changePercent": -13.23,
-        "change": -2.17
+        "price": 26.7,
+        "changePercent": 14.2,
+        "change": 3.32
       }
     ],
     "regulatory": [
