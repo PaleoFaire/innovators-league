@@ -1,34 +1,24 @@
 {
-  "generated_at": "2026-05-07T08:41:09.790407Z",
+  "generated_at": "2026-05-08T07:48:27.418624Z",
   "takes": [
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX may spend up to $119B on &#8216;Terafab&#8217; chip factory in Texas",
-      "date": "Wed, 06 Ma",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
-      "signal_type": "hire"
-    },
-    {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Activists Are Taking On Elon Musk\u2019s SpaceX IPO",
-      "date": "Wed, 06 Ma",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/activists-call-for-boycott-of-spacex-ipo/",
-      "signal_type": "ipo"
-    },
     {
       "author": "Tech.eu",
       "role": "Industry signal",
-      "company": "ElevenLabs",
-      "text": "ElevenLabs adds BlackRock, Nvidia and Jamie Foxx to $550M+ Series D",
-      "date": "Tue, 05 Ma",
+      "company": "Quantum Motion",
+      "text": "UK quantum outfit Quantum Motion run on silicon chips raises $160M",
+      "date": "Thu, 07 Ma",
       "source": "news",
-      "source_url": "https://tech.eu/2026/05/05/elevenlabs-adds-blackrock-nvidia-and-jamie-foxx-to-550m-series-d/",
+      "source_url": "https://tech.eu/2026/05/07/uk-quantum-outfit-quantum-motion-run-on-silicon-chips-raises-160m/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "Sifted",
+      "role": "Industry signal",
+      "company": "Quantum Motion",
+      "text": "Quantum Motion raises $160m Series C as quantum sector heats up",
+      "date": "Thu, 07 Ma",
+      "source": "news",
+      "source_url": "https://sifted.eu/articles/quantum-motion-series-c/",
       "signal_type": "funding"
     },
     {
@@ -45,7 +35,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 3,
     "from_press": 0
   }
 }

@@ -137,6 +137,24 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "10-Q",
+    "date": "2026-05-07",
+    "description": "rklb-20260331.htm",
+    "accessionNumber": "0001819994-26-000028",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-05-07",
+    "description": "rklb-20260507.htm",
+    "accessionNumber": "0001819994-26-000027",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "8-K",
     "date": "2026-04-14",
     "description": "g085683_8k.htm",
@@ -258,6 +276,15 @@
     "date": "2026-02-26",
     "description": "rklb-20260226.htm",
     "accessionNumber": "0001819994-26-000012",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "4",
+    "date": "2026-05-07",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-021788",
     "isIPO": false
   },
   {
@@ -461,6 +488,24 @@
   {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
+    "form": "10-Q",
+    "date": "2026-05-07",
+    "description": "bksy-20260331.htm",
+    "accessionNumber": "0001753539-26-000064",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "8-K",
+    "date": "2026-05-07",
+    "description": "bksy-20260507.htm",
+    "accessionNumber": "0001753539-26-000057",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
     "form": "8-K",
     "date": "2026-04-07",
     "description": "bksy-20260407.htm",
@@ -555,6 +600,15 @@
     "date": "2026-02-26",
     "description": "bksy-20260226.htm",
     "accessionNumber": "0001753539-26-000009",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
+    "form": "8-K",
+    "date": "2026-05-07",
+    "description": "tm2613859d1_8k.htm",
+    "accessionNumber": "0001104659-26-056589",
     "isIPO": false
   },
   {
@@ -1041,6 +1095,24 @@
     "date": "2026-03-18",
     "description": "xslF345X06/wk-form4_1773866086.xml",
     "accessionNumber": "0001706946-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
+    "form": "10-Q",
+    "date": "2026-05-07",
+    "description": "smr-20260331.htm",
+    "accessionNumber": "0001822966-26-000054",
+    "isIPO": false
+  },
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
+    "form": "8-K",
+    "date": "2026-05-07",
+    "description": "smr-20260507.htm",
+    "accessionNumber": "0001822966-26-000052",
     "isIPO": false
   },
   {
@@ -2396,6 +2468,15 @@
   {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-05-07",
+    "description": "xslF345X06/wk-form4_1778186681.xml",
+    "accessionNumber": "0001856094-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
     "form": "10-Q",
     "date": "2026-05-06",
     "description": "rxrx-20260331.htm",
@@ -2619,21 +2700,21 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-02-06",
-    "description": "xslF345X05/wk-form4_1770418417.xml",
-    "accessionNumber": "0001601830-26-000008",
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "10-Q",
+    "date": "2026-05-07",
+    "description": "dna-20260331.htm",
+    "accessionNumber": "0001628280-26-032116",
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-02-06",
-    "description": "xslF345X05/wk-form4_1770418411.xml",
-    "accessionNumber": "0001601830-26-000007",
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "8-K",
+    "date": "2026-05-07",
+    "description": "dna-20260507.htm",
+    "accessionNumber": "0001628280-26-032093",
     "isIPO": false
   },
   {
@@ -3021,15 +3102,6 @@
     "date": "2026-02-11",
     "description": "xslF345X05/form4-02122026_010255.xml",
     "accessionNumber": "0002016416-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-02-11",
-    "description": "xslF345X05/form4-02122026_010251.xml",
-    "accessionNumber": "0001882348-26-000004",
     "isIPO": false
   },
   {
@@ -3570,6 +3642,24 @@
     "date": "2026-02-09",
     "description": "tlsi-20260203.htm",
     "accessionNumber": "0001628280-26-006219",
+    "isIPO": false
+  },
+  {
+    "company": "Tempus AI",
+    "ticker": "TEM",
+    "form": "10-Q",
+    "date": "2026-05-07",
+    "description": "vnt-20260403.htm",
+    "accessionNumber": "0001628280-26-031945",
+    "isIPO": false
+  },
+  {
+    "company": "Tempus AI",
+    "ticker": "TEM",
+    "form": "8-K",
+    "date": "2026-05-07",
+    "description": "vnt-20260507.htm",
+    "accessionNumber": "0001628280-26-031651",
     "isIPO": false
   },
   {

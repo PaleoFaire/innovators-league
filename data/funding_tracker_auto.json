@@ -300,6 +300,19 @@
     "roundCount": 1
   },
   {
+    "company": "Tenstorrent",
+    "totalRaised": "$2.0B+",
+    "totalRaisedRaw": 2000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$2B",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "SpaceX",
     "totalRaised": "$2.0B+",
     "totalRaisedRaw": 2000.0,
@@ -748,17 +761,18 @@
   },
   {
     "company": "Endurosat",
-    "totalRaised": "$232M+",
-    "totalRaisedRaw": 232.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$17.6B",
-    "lastRoundDate": "2026-04",
+    "totalRaised": "$248M+",
+    "totalRaisedRaw": 248.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$16M",
+    "lastRoundDate": "2026-05",
     "valuation": "",
     "leadInvestors": [
+      "a16z",
       "NEA",
       "Undisclosed"
     ],
-    "roundCount": 2
+    "roundCount": 3
   },
   {
     "company": "Built Robotics",
@@ -865,6 +879,19 @@
     "roundCount": 1
   },
   {
+    "company": "Quantum Motion",
+    "totalRaised": "$160M+",
+    "totalRaisedRaw": 160.0,
+    "lastRound": "Series T",
+    "lastRoundAmount": "$160M",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Revel",
     "totalRaised": "$151M+",
     "totalRaisedRaw": 151.0,
@@ -923,6 +950,19 @@
     "lastRound": "Funding Round",
     "lastRoundAmount": "$114M",
     "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Kodiak Robotics",
+    "totalRaised": "$100M+",
+    "totalRaisedRaw": 100.0,
+    "lastRound": "Series O",
+    "lastRoundAmount": "$100M",
+    "lastRoundDate": "2026-05",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"

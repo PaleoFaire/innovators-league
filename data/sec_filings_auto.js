@@ -1,6 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-07 08:40:10 UTC
+// Last updated: 2026-05-08 07:47:21 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "10-Q", date: "2026-05-07", description: "rklb-20260331.htm", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "8-K", date: "2026-05-07", description: "rklb-20260507.htm", isIPO: false, ticker: "RKLB" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-05-07", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "BlackSky Technology", form: "10-Q", date: "2026-05-07", description: "bksy-20260331.htm", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "8-K", date: "2026-05-07", description: "bksy-20260507.htm", isIPO: false, ticker: "BKSY" },
+  { company: "Intuitive Machines", form: "8-K", date: "2026-05-07", description: "tm2613859d1_8k.htm", isIPO: false, ticker: "LUNR" },
+  { company: "NuScale Power", form: "10-Q", date: "2026-05-07", description: "smr-20260331.htm", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "8-K", date: "2026-05-07", description: "smr-20260507.htm", isIPO: false, ticker: "SMR" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-05-07", description: "xslF345X06/wk-form4_1778186681.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Ginkgo Bioworks", form: "10-Q", date: "2026-05-07", description: "dna-20260331.htm", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "8-K", date: "2026-05-07", description: "dna-20260507.htm", isIPO: false, ticker: "DNA" },
+  { company: "Tempus AI", form: "10-Q", date: "2026-05-07", description: "vnt-20260403.htm", isIPO: false, ticker: "TEM" },
+  { company: "Tempus AI", form: "8-K", date: "2026-05-07", description: "vnt-20260507.htm", isIPO: false, ticker: "TEM" },
   { company: "Centrus Energy", form: "10-Q", date: "2026-05-06", description: "leu-20260331.htm", isIPO: false, ticker: "LEU" },
   { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2026-05-06", description: "rxrx-20260331.htm", isIPO: false, ticker: "RXRX" },
   { company: "Recursion Pharmaceuticals", form: "8-K", date: "2026-05-06", description: "rxrx-20260506.htm", isIPO: false, ticker: "RXRX" },
@@ -38,17 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Astera Labs", form: "4", date: "2026-04-30", description: "xslF345X06/wk-form4_1777591090.xml", isIPO: false, ticker: "ALAB" },
   { company: "Astera Labs", form: "4", date: "2026-04-30", description: "xslF345X06/wk-form4_1777591042.xml", isIPO: false, ticker: "ALAB" },
   { company: "Astera Labs", form: "4", date: "2026-04-30", description: "xslF345X06/wk-form4_1777591003.xml", isIPO: false, ticker: "ALAB" },
-  { company: "IonQ", form: "4", date: "2026-04-29", description: "xslF345X06/wk-form4_1777503628.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-04-29", description: "xslF345X06/wk-form4_1777502768.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-04-29", description: "xslF345X06/wk-form4_1777501977.xml", isIPO: false, ticker: "IONQ" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-04-29", description: "qbts-20260429.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Ginkgo Bioworks", form: "DEF 14A", date: "2026-04-29", description: "dna-20260429.htm", isIPO: false, ticker: "DNA" },
-  { company: "LanzaTech", form: "8-K", date: "2026-04-29", description: "tlsi-20260424.htm", isIPO: false, ticker: "LNZA" },
-  { company: "Palantir Technologies", form: "4", date: "2026-04-28", description: "xslF345X06/wk-form4_1777418320.xml", isIPO: false, ticker: "PLTR" },
-  { company: "AST SpaceMobile", form: "DEF 14A", date: "2026-04-28", description: "formdef14a.htm", isIPO: false, ticker: "ASTS" },
-  { company: "Intuitive Machines", form: "DEF 14A", date: "2026-04-27", description: "tm2532185-5_def14a.htm", isIPO: false, ticker: "LUNR" },
-  { company: "Joby Aviation", form: "DEF 14A", date: "2026-04-27", description: "ny20064068x1_def14a.htm", isIPO: false, ticker: "JOBY" },
-  { company: "Agrify Corporation", form: "DEF 14A", date: "2026-04-27", description: "ea0286708-02.htm", isIPO: false, ticker: "AGFY" },
-  { company: "Rivian", form: "DEF 14A", date: "2026-04-27", description: "rivn-20260427.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Astera Labs", form: "DEF 14A", date: "2026-04-27", description: "cook-20260427.htm", isIPO: false, ticker: "ALAB" },
 ];
