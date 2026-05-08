@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T09:48:19+00:00",
+  "generatedAt": "2026-05-08T11:26:34+00:00",
   "matrix": {
     "space-launch-large": {
       "2026-Q2": {
@@ -990,10 +990,23 @@
             "amount": null,
             "date": "2025-10",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Sequoia Capital",
+              "Kindred Capital",
+              "Promus Ventures",
+              "Lightspeed Venture Partners",
+              "Lingotto Innovation",
+              "Greenfield Partners",
+              "Leitmotif",
+              "The Friedkin Group",
+              "Torsten Reil"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "Lightspeed Venture Partners",
+          "Sequoia Capital"
+        ]
       },
       "2025-Q2": {
         "deals": 2,
@@ -1573,6 +1586,14 @@
           "date": "2026-05",
           "source": "recentEvent"
         }
+      ],
+      "2025-Q4": [
+        {
+          "company": "RobCo",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
       ]
     },
     "Lightspeed Venture Partners": {
@@ -1597,6 +1618,14 @@
           "company": "Skild AI",
           "cluster": "ai-robotics-embodied",
           "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "RobCo",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-10",
           "source": "recentEvent"
         }
       ]

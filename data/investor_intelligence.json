@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-08T09:48:18+00:00",
+  "generatedAt": "2026-05-08T11:26:33+00:00",
   "stats": {
     "companies": 873,
     "vcFirms": 31,
     "uniqueClusters": 104,
-    "totalInvestments": 253
+    "totalInvestments": 258
   },
   "concentration": {
     "Founders Fund": {
@@ -370,6 +370,12 @@
           "Cognition"
         ]
       },
+      "robotics-cobots-warehouse": {
+        "count": 1,
+        "companies": [
+          "Formic"
+        ]
+      },
       "ai-autonomous-driving": {
         "count": 1,
         "companies": [
@@ -642,6 +648,12 @@
           "ElevenLabs"
         ]
       },
+      "robotics-cobots-warehouse": {
+        "count": 1,
+        "companies": [
+          "RobCo"
+        ]
+      },
       "defense-ew-rf-cyber": {
         "count": 1,
         "companies": [
@@ -723,6 +735,12 @@
           "Skild AI"
         ]
       },
+      "robotics-cobots-warehouse": {
+        "count": 1,
+        "companies": [
+          "RobCo"
+        ]
+      },
       "ai-drug-discovery": {
         "count": 1,
         "companies": [
@@ -773,6 +791,12 @@
         "count": 1,
         "companies": [
           "Astro Mechanica"
+        ]
+      },
+      "robotics-cobots-warehouse": {
+        "count": 1,
+        "companies": [
+          "Formic"
         ]
       },
       "consumer-hardware": {
@@ -1189,6 +1213,12 @@
         "count": 1,
         "companies": [
           "Stark Defence"
+        ]
+      },
+      "electric-propulsion": {
+        "count": 1,
+        "companies": [
+          "Morpheus Space"
         ]
       }
     },
@@ -1885,12 +1915,17 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.5
+        "share": 0.3333
       },
       {
         "vc": "Alumni Ventures",
         "count": 1,
-        "share": 0.5
+        "share": 0.3333
+      },
+      {
+        "vc": "In-Q-Tel",
+        "count": 1,
+        "share": 0.3333
       }
     ],
     "vtol-munitions": [
@@ -2087,7 +2122,27 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 1.0
+        "share": 0.2
+      },
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Sequoia Capital",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Lightspeed Venture Partners",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Alumni Ventures",
+        "count": 1,
+        "share": 0.2
       }
     ],
     "ai-semiconductor-architecture": [
@@ -2920,8 +2975,8 @@
     {
       "vc": "Lux Capital",
       "recentCount": 11,
-      "totalCount": 19,
-      "score": 12.628,
+      "totalCount": 20,
+      "score": 12.834,
       "topCluster": "ai-drug-discovery",
       "recentExamples": [
         {
@@ -2986,6 +3041,40 @@
       ]
     },
     {
+      "vc": "Sequoia Capital",
+      "recentCount": 9,
+      "totalCount": 18,
+      "score": 11.004,
+      "topCluster": "ai-robotics-embodied",
+      "recentExamples": [
+        {
+          "company": "Stark Defence",
+          "cluster": "vtol-munitions",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Kneron",
+          "cluster": "edge-ai-silicon",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Safe Superintelligence",
+          "cluster": "foundation-models",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Lightelligence",
+          "cluster": "photonic-compute",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Xaira Therapeutics",
+          "cluster": "ai-drug-discovery",
+          "addedDate": "2026-04"
+        }
+      ]
+    },
+    {
       "vc": "Lowercarbon Capital",
       "recentCount": 8,
       "totalCount": 18,
@@ -3020,44 +3109,10 @@
       ]
     },
     {
-      "vc": "Sequoia Capital",
-      "recentCount": 8,
-      "totalCount": 17,
-      "score": 10.065,
-      "topCluster": "ai-robotics-embodied",
-      "recentExamples": [
-        {
-          "company": "Stark Defence",
-          "cluster": "vtol-munitions",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Kneron",
-          "cluster": "edge-ai-silicon",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Safe Superintelligence",
-          "cluster": "foundation-models",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Lightelligence",
-          "cluster": "photonic-compute",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Xaira Therapeutics",
-          "cluster": "ai-drug-discovery",
-          "addedDate": "2026-04"
-        }
-      ]
-    },
-    {
       "vc": "In-Q-Tel",
-      "recentCount": 8,
-      "totalCount": 12,
-      "score": 8.932,
+      "recentCount": 9,
+      "totalCount": 13,
+      "score": 9.863,
       "topCluster": "supersonic-hypersonic-transport",
       "recentExamples": [
         {
@@ -3071,6 +3126,11 @@
           "addedDate": "2026-04"
         },
         {
+          "company": "Morpheus Space",
+          "cluster": "electric-propulsion",
+          "addedDate": "2026-04"
+        },
+        {
           "company": "Hermeus",
           "cluster": "supersonic-hypersonic-transport",
           "addedDate": "2026-02"
@@ -3078,11 +3138,6 @@
         {
           "company": "Palantir",
           "cluster": "ai-saas-enterprise",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "Kela",
-          "cluster": "defense-ew-rf-cyber",
           "addedDate": "2026-02"
         }
       ]
@@ -3340,20 +3395,20 @@
       ]
     },
     {
-      "vc": "D1 Capital Partners",
+      "vc": "Lightspeed Venture Partners",
       "recentCount": 2,
-      "totalCount": 5,
-      "score": 2.716,
+      "totalCount": 9,
+      "score": 3.49,
       "topCluster": "ai-foundation-models",
       "recentExamples": [
         {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "addedDate": "2026-02"
+          "company": "Xaira Therapeutics",
+          "cluster": "ai-drug-discovery",
+          "addedDate": "2026-04"
         },
         {
-          "company": "Kela",
-          "cluster": "defense-ew-rf-cyber",
+          "company": "RobCo",
+          "cluster": "robotics-cobots-warehouse",
           "addedDate": "2026-02"
         }
       ]
@@ -3361,8 +3416,8 @@
     {
       "vc": "Alumni Ventures",
       "recentCount": 2,
-      "totalCount": 5,
-      "score": 2.716,
+      "totalCount": 6,
+      "score": 2.949,
       "topCluster": "defense-ew-rf-cyber",
       "recentExamples": [
         {
@@ -3378,16 +3433,21 @@
       ]
     },
     {
-      "vc": "Lightspeed Venture Partners",
-      "recentCount": 1,
-      "totalCount": 8,
-      "score": 2.197,
+      "vc": "D1 Capital Partners",
+      "recentCount": 2,
+      "totalCount": 5,
+      "score": 2.716,
       "topCluster": "ai-foundation-models",
       "recentExamples": [
         {
-          "company": "Xaira Therapeutics",
-          "cluster": "ai-drug-discovery",
-          "addedDate": "2026-04"
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "addedDate": "2026-02"
+        },
+        {
+          "company": "Kela",
+          "cluster": "defense-ew-rf-cyber",
+          "addedDate": "2026-02"
         }
       ]
     },
@@ -3638,6 +3698,10 @@
       "investmentCount": 5
     },
     {
+      "cluster": "robotics-cobots-warehouse",
+      "investmentCount": 5
+    },
+    {
       "cluster": "autonomy-maritime",
       "investmentCount": 5
     },
@@ -3682,19 +3746,15 @@
       "investmentCount": 3
     },
     {
+      "cluster": "electric-propulsion",
+      "investmentCount": 3
+    },
+    {
       "cluster": "ai-semiconductor-architecture",
       "investmentCount": 3
     },
     {
       "cluster": "defense-power-systems",
-      "investmentCount": 3
-    },
-    {
-      "cluster": "autonomy-counter-drone",
-      "investmentCount": 3
-    },
-    {
-      "cluster": "space-satellites-buses",
       "investmentCount": 3
     }
   ]
