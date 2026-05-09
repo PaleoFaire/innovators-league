@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T00:06:13.058767+00:00",
+  "generatedAt": "2026-05-09T03:51:01.675809+00:00",
   "date": "2026-05-09",
   "dateDisplay": "Saturday, May 09, 2026",
   "sections": {
@@ -63,16 +63,23 @@
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 102.93,
-        "changePercent": 30.61,
-        "change": 24.12
+        "price": 105.47,
+        "changePercent": 33.83,
+        "change": 26.66
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 447.5,
-        "changePercent": 24.12,
-        "change": 86.96
+        "price": 455.19,
+        "changePercent": 26.25,
+        "change": 94.65
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 10.26,
+        "changePercent": 18.41,
+        "change": 1.6
       },
       {
         "ticker": "277810.KQ",
@@ -82,39 +89,32 @@
         "change": 120000.0
       },
       {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 7.14,
-        "changePercent": 16.48,
-        "change": 1.01
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 10.87,
+        "changePercent": 17.51,
+        "change": 1.62
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 26.98,
-        "changePercent": 15.25,
-        "change": 3.57
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 10.64,
-        "changePercent": 15.03,
-        "change": 1.39
+        "price": 27.45,
+        "changePercent": 17.26,
+        "change": 4.04
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.79,
-        "changePercent": 14.98,
-        "change": 0.36
+        "price": 2.81,
+        "changePercent": 15.64,
+        "change": 0.38
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 29.24,
-        "changePercent": 14.14,
-        "change": 3.62
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 7.08,
+        "changePercent": 15.5,
+        "change": 0.95
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB +30.6%"
+    "topMover": "RKLB +33.8%"
   }
 }
