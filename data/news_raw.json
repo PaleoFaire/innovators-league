@@ -19,27 +19,6 @@
     "time": "8h ago"
   },
   {
-    "title": "NASA’s SpaceX 34th Commercial Resupply Mission Overview",
-    "link": "https://www.nasa.gov/general/nasas-spacex-34th-commercial-resupply-mission-overview/",
-    "description": "NASA and SpaceX are targeting&#160;a&#160;mid-May&#160;launch&#160;to deliver scientific investigations, supplies, and equipment to the International Space Station.&#160; Loaded&#160;with&#160;about 6,500&#160;pounds of supplies, the SpaceX Dragon spacecraft&#160;will lift off aboard&#160;the compan",
-    "pubDate": "Fri, 08 May 2026 22:50:03 +0000",
-    "category": "General",
-    "source": "NASA Breaking News",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Vast",
-      "Axiom Space"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "9h ago"
-  },
-  {
     "title": "Nyobolt raises funding to bring fast charging to more robots",
     "link": "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/",
     "description": "Nyobolt has grown its revenue fivefold year over year as its high-efficiency power systems enable greater robot performance.\nThe post Nyobolt raises funding to bring fast charging to more robots appeared first on The Robot Report.",
@@ -58,7 +37,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "14h ago"
+    "time": "15h ago"
   },
   {
     "title": "Rivian R2 Extra Features, Other Variants, and In-House Lidar?",
@@ -100,7 +79,28 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "18h ago"
+    "time": "19h ago"
+  },
+  {
+    "title": "Rocket Lab announces large launch contract and plans to acquire space robotics company",
+    "link": "https://spacenews.com/rocket-lab-announces-large-launch-contract-and-plans-to-acquire-space-robotics-company/",
+    "description": "Rocket Lab announced May 7 the largest launch contract in the company’s history as it also moves to acquire a space robotics company.",
+    "pubDate": "Fri, 08 May 2026 11:40:09 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Rocket Lab",
+    "matchedCompanies": [
+      "Rocket Lab",
+      "GITAI"
+    ],
+    "sectors": [
+      "space",
+      "robotics"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "21h ago"
   },
   {
     "title": "Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI",
@@ -162,6 +162,26 @@
     ],
     "type": "ipo",
     "impact": "medium",
+    "time": "1d ago"
+  },
+  {
+    "title": "Rocket Lab joins Raytheon on space interceptor program for Golden Dome",
+    "link": "https://spacenews.com/rocket-lab-joins-raytheon-on-space-interceptor-program-for-golden-dome/",
+    "description": "The company also announced a new contract to fly hypersonic test flights for Anduril ",
+    "pubDate": "Thu, 07 May 2026 22:00:18 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Rocket Lab",
+    "matchedCompanies": [
+      "Rocket Lab",
+      "HEO"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "contract",
+    "impact": "low",
     "time": "1d ago"
   },
   {
@@ -239,6 +259,50 @@
       "transportation"
     ],
     "type": "funding",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "Anthropic to consider using SpaceX orbital data center satellites",
+    "link": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/",
+    "description": "Artificial intelligence company Anthropic will study use of orbital data centers being developed by SpaceX.",
+    "pubDate": "Thu, 07 May 2026 12:05:57 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anthropic",
+      "Astera Labs",
+      "Rebellions",
+      "Starcloud"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "chips"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "Starfighters hires Blue Origin veterans to accelerate air-launch platform",
+    "link": "https://spacenews.com/starfighters-hires-blue-origin-veterans-to-accelerate-air-launch-platform/",
+    "description": "Starfighters Space has hired two former Blue Origin New Glenn managers to help advance its air-launch system toward flight demonstrations and operational cadence.",
+    "pubDate": "Thu, 07 May 2026 12:01:32 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Blue Origin",
+    "matchedCompanies": [
+      "Blue Origin"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "hire",
     "impact": "low",
     "time": "1d ago"
   },
