@@ -1,6 +1,17 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-08 07:47:21 UTC
+// Last updated: 2026-05-09 08:01:46 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "8-K", date: "2026-05-08", description: "g085715_8k.htm", isIPO: false, ticker: "RKLB" },
+  { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050503.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050501.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050505.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "10-Q", date: "2026-05-08", description: "acdc-20260331.htm", isIPO: false, ticker: "LUNR" },
+  { company: "Upstart Holdings", form: "4", date: "2026-05-08", description: "xslF345X06/wk-form4_1778244965.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-05-08", description: "xslF345X06/wk-form4_1778244889.xml", isIPO: false, ticker: "UPST" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-05-08", description: "xslF345X06/wk-form4_1778273958.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Archer Aviation", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05092026_120555.xml", isIPO: false, ticker: "ACHR" },
+  { company: "Joby Aviation", form: "8-K", date: "2026-05-08", description: "d118223d8k.htm", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "10-Q", date: "2026-05-08", description: "skyt-20260329.htm", isIPO: false, ticker: "JOBY" },
   { company: "Rocket Lab", form: "10-Q", date: "2026-05-07", description: "rklb-20260331.htm", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "8-K", date: "2026-05-07", description: "rklb-20260507.htm", isIPO: false, ticker: "RKLB" },
   { company: "AST SpaceMobile", form: "4", date: "2026-05-07", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
@@ -40,15 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Momentus", form: "DEF 14A", date: "2026-04-30", description: "apre-20260616xdef14a.htm", isIPO: false, ticker: "MNTS" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-04-30", description: "spce-20260430.htm", isIPO: false, ticker: "SPCE" },
   { company: "Oklo", form: "4", date: "2026-04-30", description: "xslF345X06/wk-form4_1777580079.xml", isIPO: false, ticker: "OKLO" },
-  { company: "IonQ", form: "DEF 14A", date: "2026-04-30", description: "bakkt-20260430.htm", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "8-K", date: "2026-04-30", description: "d233784d8k.htm", isIPO: false, ticker: "IONQ" },
-  { company: "Recursion Pharmaceuticals", form: "DEF 14A", date: "2026-04-30", description: "rxrx-20260430.htm", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "8-K", date: "2026-04-30", description: "rxrx-20260428.htm", isIPO: false, ticker: "RXRX" },
-  { company: "Archer Aviation", form: "DEF 14A", date: "2026-04-30", description: "tm268999-5_def14a.htm", isIPO: false, ticker: "ACHR" },
-  { company: "Rivian", form: "10-Q", date: "2026-04-30", description: "rivn-20260331.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "8-K", date: "2026-04-30", description: "tm2613102d1_8k.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "8-K", date: "2026-04-30", description: "rivn-20260430.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Astera Labs", form: "4", date: "2026-04-30", description: "xslF345X06/wk-form4_1777591090.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Astera Labs", form: "4", date: "2026-04-30", description: "xslF345X06/wk-form4_1777591042.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Astera Labs", form: "4", date: "2026-04-30", description: "xslF345X06/wk-form4_1777591003.xml", isIPO: false, ticker: "ALAB" },
 ];

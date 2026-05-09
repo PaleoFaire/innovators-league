@@ -263,6 +263,15 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-05-08",
+    "description": "g085715_8k.htm",
+    "accessionNumber": "0001753926-26-000799",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "10-Q",
     "date": "2026-05-07",
     "description": "rklb-20260331.htm",
@@ -501,15 +510,6 @@
     "date": "2025-12-22",
     "description": "xslF345X05/edgardoc.xml",
     "accessionNumber": "0002001011-25-000129",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "8-K",
-    "date": "2025-12-19",
-    "description": "rklb-20251217.htm",
-    "accessionNumber": "0001819994-25-000024",
     "isIPO": false
   },
   {
@@ -1469,6 +1469,42 @@
   {
     "company": "Intuitive Machines",
     "ticker": "LUNR",
+    "form": "4",
+    "date": "2026-05-08",
+    "description": "xslF345X06/form4-05082026_050503.xml",
+    "accessionNumber": "0001832051-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
+    "form": "4",
+    "date": "2026-05-08",
+    "description": "xslF345X06/form4-05082026_050501.xml",
+    "accessionNumber": "0001832051-26-000001",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
+    "form": "4",
+    "date": "2026-05-08",
+    "description": "xslF345X06/form4-05082026_050505.xml",
+    "accessionNumber": "0001832051-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
+    "form": "10-Q",
+    "date": "2026-05-08",
+    "description": "acdc-20260331.htm",
+    "accessionNumber": "0001193125-26-214605",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
     "form": "8-K",
     "date": "2026-05-07",
     "description": "tm2613859d1_8k.htm",
@@ -1761,24 +1797,6 @@
     "date": "2025-08-18",
     "description": "xslF345X05/form4-08182025_110837.xml",
     "accessionNumber": "0001415889-25-022215",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2025-08-18",
-    "description": "xslF345X05/form4-08182025_070858.xml",
-    "accessionNumber": "0001415889-25-022166",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "8-K",
-    "date": "2025-08-14",
-    "description": "tm2523067d4_8k.htm",
-    "accessionNumber": "0001104659-25-077957",
     "isIPO": false
   },
   {
@@ -3890,6 +3908,24 @@
   {
     "company": "Upstart Holdings",
     "ticker": "UPST",
+    "form": "4",
+    "date": "2026-05-08",
+    "description": "xslF345X06/wk-form4_1778244965.xml",
+    "accessionNumber": "0001832805-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-05-08",
+    "description": "xslF345X06/wk-form4_1778244889.xml",
+    "accessionNumber": "0001832805-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
     "form": "10-Q",
     "date": "2026-05-05",
     "description": "upst-20260331.htm",
@@ -4137,15 +4173,6 @@
     "date": "2025-11-24",
     "description": "xslF345X05/wk-form4_1764020211.xml",
     "accessionNumber": "0001832808-25-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2025-11-13",
-    "description": "xslF345X05/wk-form4_1763069468.xml",
-    "accessionNumber": "0001832812-25-000003",
     "isIPO": false
   },
   {
@@ -5178,6 +5205,15 @@
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
+    "date": "2026-05-08",
+    "description": "xslF345X06/wk-form4_1778273958.xml",
+    "accessionNumber": "0001856369-26-000015",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
     "date": "2026-05-07",
     "description": "xslF345X06/wk-form4_1778186681.xml",
     "accessionNumber": "0001856094-26-000005",
@@ -5427,15 +5463,6 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-01-22",
-    "description": "xslF345X05/wk-form4_1769128479.xml",
-    "accessionNumber": "0001856369-26-000005",
-    "isIPO": false
-  },
-  {
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
     "form": "10-Q",
@@ -5640,6 +5667,15 @@
     "date": "2025-09-10",
     "description": "xslF345X05/wk-form4_1757534793.xml",
     "accessionNumber": "0001263805-25-000007",
+    "isIPO": false
+  },
+  {
+    "company": "Archer Aviation",
+    "ticker": "ACHR",
+    "form": "4",
+    "date": "2026-05-08",
+    "description": "xslF345X06/form4-05092026_120555.xml",
+    "accessionNumber": "0002064297-26-000004",
     "isIPO": false
   },
   {
@@ -5904,12 +5940,21 @@
     "isIPO": false
   },
   {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-02-11",
-    "description": "xslF345X05/form4-02122026_010255.xml",
-    "accessionNumber": "0002016416-26-000002",
+    "company": "Joby Aviation",
+    "ticker": "JOBY",
+    "form": "8-K",
+    "date": "2026-05-08",
+    "description": "d118223d8k.htm",
+    "accessionNumber": "0001193125-26-214679",
+    "isIPO": false
+  },
+  {
+    "company": "Joby Aviation",
+    "ticker": "JOBY",
+    "form": "10-Q",
+    "date": "2026-05-08",
+    "description": "skyt-20260329.htm",
+    "accessionNumber": "0001819974-26-000014",
     "isIPO": false
   },
   {

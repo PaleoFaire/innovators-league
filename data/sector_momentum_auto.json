@@ -1,21 +1,75 @@
 [
   {
+    "sector": "Space & Aerospace",
+    "momentum": 62,
+    "trend": "steady",
+    "catalysts": [
+      "NASA\u2019s SpaceX 34th Commercial Resupply Mission Overview",
+      "Rivian R2 Extra Features, Other Variants, and In-House Lidar",
+      "Nuro secures California driverless permit for Lucid Gravity"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 60,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-09"
+  },
+  {
     "sector": "AI & Software",
-    "momentum": 64,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
+      "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis r",
       "Musk v. Altman Evidence Shows What Microsoft Executives Thou",
-      "OpenAI launches new voice intelligence features in its API",
-      "Nvidia Vera Rubin Used by Google Could Next and Thinking Mac"
+      "OpenAI launches new voice intelligence features in its API"
     ],
     "fundingQ": "$2207.6B",
     "components": {
       "funding": 100,
-      "news": 75,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX V3 Booster Has a Full Static Fire And Is On Track for",
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge"
+    ],
+    "fundingQ": "$1.3B",
+    "components": {
+      "funding": 84,
+      "news": 15,
+      "hiring": 0,
+      "market": 89
+    },
+    "lastUpdated": "2026-05-09"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
+      "Anthropic&#8217;s Nuclear Bomb",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$800M",
+    "components": {
+      "funding": 83,
+      "news": 15,
+      "hiring": 0,
+      "market": 82
+    },
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Drones & Autonomous",
@@ -32,78 +86,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 48,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Rocket Lab joins Raytheon on space interceptor program for G",
       "Nvidia Vera Rubin Used by Google Could Next and Thinking Mac"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-08"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 47,
-    "trend": "steady",
-    "catalysts": [
-      "Silo founder raises \u20ac25m for 'Palantir of quantum computing'",
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
-      "Former head of \u2018Pentagon\u2019s think tank\u2019 joins Anthropic"
-    ],
-    "fundingQ": "$22.5B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 35
-    },
-    "lastUpdated": "2026-05-08"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 45,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI launches new voice intelligence features in its API",
-      "SpaceX V3 Booster Has a Full Static Fire And Is On Track for",
-      "Rocket Lab joins Raytheon on space interceptor program for G"
-    ],
-    "fundingQ": "$2.2B",
-    "components": {
-      "funding": 78,
-      "news": 70,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-05-08"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "SpaceX V3 Booster Has a Full Static Fire And Is On Track for",
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge"
-    ],
-    "fundingQ": "$1.3B",
-    "components": {
-      "funding": 84,
-      "news": 15,
-      "hiring": 0,
-      "market": 58
-    },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Ocean & Maritime",
@@ -119,34 +118,34 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 43,
+    "sector": "Defense & Security",
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
-      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
-      "Anthropic&#8217;s Nuclear Bomb",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
+      "Silo founder raises \u20ac25m for 'Palantir of quantum computing'",
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit",
+      "Former head of \u2018Pentagon\u2019s think tank\u2019 joins Anthropic"
     ],
-    "fundingQ": "$800M",
+    "fundingQ": "$22.5B",
     "components": {
-      "funding": 83,
-      "news": 15,
+      "funding": 100,
+      "news": 20,
       "hiring": 0,
-      "market": 50
+      "market": 6
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "Hugging Face launches agentic toolkit for Reachy Mini",
-      "Astranis secures $450 million in equity, debt to expand smal",
-      "Rivian (RIVN) mulls making its own lidar as it builds full a"
+      "Nyobolt raises funding to bring fast charging to more robots",
+      "Nuro secures California driverless permit for Lucid Gravity",
+      "Hugging Face launches agentic toolkit for Reachy Mini"
     ],
     "fundingQ": "$655M",
     "components": {
@@ -155,7 +154,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 27,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian R2 Extra Features, Other Variants, and In-House Lidar",
+      "Rivian (RIVN) mulls making its own lidar as it builds full a",
+      "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 20,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Quantum Computing",
@@ -173,7 +190,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -190,34 +207,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-08"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian (RIVN) mulls making its own lidar as it builds full a",
-      "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest",
-      "Rivian (RIVN) lifts production capacity for its Georgia plan"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 15,
-      "hiring": 0,
-      "market": 66
-    },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
+      "Nyobolt raises funding to bring fast charging to more robots",
       "OpenAI launches new voice intelligence features in its API",
-      "Hugging Face launches agentic toolkit for Reachy Mini",
-      "Ouster releases REV8 OS sensor family with native-color lida"
+      "Hugging Face launches agentic toolkit for Reachy Mini"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -226,7 +225,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -243,40 +242,40 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 10,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "Nuro secures California driverless permit for Lucid Gravity"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 8,
+    "momentum": 7,
     "trend": "declining",
     "catalysts": [
-      "Elon Musk&#8217;s lawsuit is putting OpenAI&#8217;s safety r",
       "EnGene's shares crash on updated pivotal bladder cancer data",
-      "SpaceX Starship Flight 12 Likely Late May After Generator Ex"
+      "SpaceX Starship Flight 12 Likely Late May After Generator Ex",
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-08"
+    "lastUpdated": "2026-05-09"
   }
 ]
