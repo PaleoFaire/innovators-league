@@ -46,6 +46,15 @@
   },
   {
     "date": "2026-05-15",
+    "vehicle": "Kinetica 1 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "CAS Space",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4d70f2c0-953e-4fbc-b579-3c901c06a158/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-05-15",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
     "payload": "Starlink Group 17-37",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -60,6 +69,15 @@
     "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ed83366c-872c-4484-97c1-bc74832304fc/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-17",
+    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+    "payload": "Globalstar 2-R Mission 1 (x 9)",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -127,15 +145,6 @@
   },
   {
     "date": "2026-05-31",
-    "vehicle": "Falcon 9 Block 5 | 9 x Globalstar-3",
-    "payload": "9 x Globalstar-3",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-05-31",
     "vehicle": "Long March 10B | Demo Flight",
     "payload": "Demo Flight",
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
@@ -178,15 +187,6 @@
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ed8ccd18-b530-4f55-92ae-bda89ac2985c/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-06-01",
-    "vehicle": "Pegasus XL | Swift Rescue Mission",
-    "payload": "Swift Rescue Mission",
-    "pad": "Kwajalein Atoll, Air launch to orbit",
-    "provider": "Northrop Grumman Space Systems",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
-    "trackedCompany": "Northrop Grumman"
   },
   {
     "date": "2026-06-10",
@@ -232,6 +232,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a6db1e67-5860-47c9-a674-adc0f35b62e0/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Pegasus XL | Swift Rescue Mission",
+    "payload": "Swift Rescue Mission",
+    "pad": "Kwajalein Atoll, Air launch to orbit",
+    "provider": "Northrop Grumman Space Systems",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
+    "trackedCompany": "Northrop Grumman"
   },
   {
     "date": "2026-06-30",
@@ -406,6 +415,15 @@
   },
   {
     "date": "2026-08-31",
+    "vehicle": "Ariane 64 | MTG-I2",
+    "payload": "MTG-I2",
+    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a57aed97-b94f-42e1-905e-9421dbd96ac8/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-31",
     "vehicle": "Electron | StriX Launch 11",
     "payload": "StriX Launch 11",
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -430,23 +448,5 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/c703fab3-2ce4-4cf1-861d-754da3f3ad42/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-31",
-    "vehicle": "Long March 5 | Chang'e 7",
-    "payload": "Chang'e 7",
-    "pad": "101, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9d402fb6-9115-424d-b6f0-bd3b13ee310e/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-01",
-    "vehicle": "Vega-C | Sentinel-3C & FLEX",
-    "payload": "Sentinel-3C & FLEX",
-    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
-    "provider": "Avio S.p.A",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
-    "trackedCompany": null
   }
 ]

@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-08 11:35:44 UTC
-// Total: 4 filings across 4 companies
+// Last updated: 2026-05-09 12:42:08 UTC
+// Total: 6 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-08T11:35:44.966936+00:00",
+  "generated_at": "2026-05-09T12:42:08.640850+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 4,
+  "total_filings": 6,
   "filings": [
     {
       "company": "Biofire",
@@ -71,6 +71,40 @@ const FORM_D_FILINGS = {
       "offering_amount": "Indefinite",
       "amount_sold": "9725064",
       "amount_remaining": "Indefinite",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Exowatt",
+      "issuer_name": "Exowatt II, a Series of 8090 Industries Master Series, LP",
+      "form": "D",
+      "filed_date": "2026-05-06",
+      "cik": "2132021",
+      "accession": "0002132021-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002132021&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002132021-26-000001",
+      "offering_amount": "16420250",
+      "amount_sold": "16420250",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06c",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Intramotev",
+      "issuer_name": "INTRAMOTEV INC",
+      "form": "D",
+      "filed_date": "2026-05-05",
+      "cik": "1945538",
+      "accession": "0001945538-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001945538&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001945538-26-000001",
+      "offering_amount": "12000000",
+      "amount_sold": "10760000",
+      "amount_remaining": "1240000",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
