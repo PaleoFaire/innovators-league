@@ -1,8 +1,8 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 62,
-    "trend": "steady",
+    "momentum": 66,
+    "trend": "accelerating",
     "catalysts": [
       "NASA\u2019s SpaceX 34th Commercial Resupply Mission Overview",
       "Rivian R2 Extra Features, Other Variants, and In-House Lidar",
@@ -11,29 +11,29 @@
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 60,
+      "news": 75,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "AI & Software",
-    "momentum": 59,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
       "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis r",
       "Musk v. Altman Evidence Shows What Microsoft Executives Thou",
-      "OpenAI launches new voice intelligence features in its API"
+      "Nvidia Vera Rubin Used by Google Could Next and Thinking Mac"
     ],
     "fundingQ": "$2207.6B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Climate & Energy",
@@ -51,7 +51,7 @@
       "hiring": 0,
       "market": 89
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Nuclear Energy",
@@ -69,7 +69,7 @@
       "hiring": 0,
       "market": 82
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Drones & Autonomous",
@@ -86,23 +86,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 46,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
+      "Rocket Lab joins Raytheon on space interceptor program for G",
       "Nvidia Vera Rubin Used by Google Could Next and Thinking Mac"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Ocean & Maritime",
@@ -118,7 +119,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Defense & Security",
@@ -136,7 +137,7 @@
       "hiring": 0,
       "market": 6
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -145,7 +146,7 @@
     "catalysts": [
       "Nyobolt raises funding to bring fast charging to more robots",
       "Nuro secures California driverless permit for Lucid Gravity",
-      "Hugging Face launches agentic toolkit for Reachy Mini"
+      "Rocket Lab announces large launch contract and plans to acqu"
     ],
     "fundingQ": "$655M",
     "components": {
@@ -154,11 +155,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Transportation",
-    "momentum": 27,
+    "momentum": 26,
     "trend": "declining",
     "catalysts": [
       "Rivian R2 Extra Features, Other Variants, and In-House Lidar",
@@ -168,11 +169,11 @@
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Quantum Computing",
@@ -190,7 +191,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -207,25 +208,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 15,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "Nyobolt raises funding to bring fast charging to more robots",
-      "OpenAI launches new voice intelligence features in its API",
-      "Hugging Face launches agentic toolkit for Reachy Mini"
+      "Hugging Face launches agentic toolkit for Reachy Mini",
+      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -242,7 +243,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Housing & Construction",
@@ -258,7 +259,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   },
   {
     "sector": "Biotech & Health",
@@ -276,6 +277,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-09"
+    "lastUpdated": "2026-05-10"
   }
 ]

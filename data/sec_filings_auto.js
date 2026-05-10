@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-09 08:01:46 UTC
+// Last updated: 2026-05-10 08:12:27 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "8-K", date: "2026-05-08", description: "g085715_8k.htm", isIPO: false, ticker: "RKLB" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050503.xml", isIPO: false, ticker: "LUNR" },
