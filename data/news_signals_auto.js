@@ -1,19 +1,19 @@
 // Auto-generated news signals
-// Last updated: 2026-05-10T17:59:05.188Z
+// Last updated: 2026-05-10T19:17:00.504Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1778435945188,
+    "id": 1778440620503,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "We’re feeling cynical about xAI’s big deal with Anthropic",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/"
   },
   {
-    "id": 1778435945189,
+    "id": 1778440620504,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
@@ -24,7 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/"
   },
   {
-    "id": 1778435945190,
+    "id": 1778440620505,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NASA’s SpaceX 34th Commercial Resupply Mission Overview",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/general/nasas-spacex-34th-commercial-resupply-mission-overview/"
   },
   {
-    "id": 1778435945191,
+    "id": 1778440620506,
     "type": "funding",
     "company": "Nyobolt",
     "headline": "Nyobolt raises funding to bring fast charging to more robots",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/"
   },
   {
-    "id": 1778435945192,
+    "id": 1778440620508,
     "type": "milestone",
     "company": "Rivian",
     "headline": "Rivian R2 Extra Features, Other Variants, and In-House Lidar?",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/08/rivian-r2-extra-features-other-variants-and-in-house-lidar/"
   },
   {
-    "id": 1778435945193,
+    "id": 1778440620509,
     "type": "ipo",
     "company": "Nuro",
     "headline": "Nuro secures California driverless permit for Lucid Gravity Uber robotaxis",
@@ -68,18 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
   },
   {
-    "id": 1778435945194,
-    "type": "contract",
-    "company": "Rocket Lab",
-    "headline": "Rocket Lab announces large launch contract and plans to acquire space robotics company",
-    "source": "SpaceNews",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/rocket-lab-announces-large-launch-contract-and-plans-to-acquire-space-robotics-company/"
-  },
-  {
-    "id": 1778435945195,
+    "id": 1778440620510,
     "type": "news",
     "company": "OpenAI",
     "headline": "Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI",
@@ -90,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/"
   },
   {
-    "id": 1778435945196,
+    "id": 1778440620511,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX V3 Booster Has a Full Static Fire And Is On Track for a May 15 Launch",
@@ -101,18 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
   },
   {
-    "id": 1778435945197,
-    "type": "contract",
-    "company": "Rocket Lab",
-    "headline": "Rocket Lab joins Raytheon on space interceptor program for Golden Dome",
-    "source": "SpaceNews",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/rocket-lab-joins-raytheon-on-space-interceptor-program-for-golden-dome/"
-  },
-  {
-    "id": 1778435945198,
+    "id": 1778440620512,
     "type": "news",
     "company": "Thinking Machines Lab",
     "headline": "Nvidia Vera Rubin Used by Google Could Next and Thinking Machines Lab",
@@ -123,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/nvidia-vera-rubin-used-by-google-could-next-and-thinking-machines-lab.html"
   },
   {
-    "id": 1778435945199,
+    "id": 1778440620513,
     "type": "milestone",
     "company": "Hugging Face",
     "headline": "Hugging Face launches agentic toolkit for Reachy Mini",
@@ -134,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/"
   },
   {
-    "id": 1778435945200,
+    "id": 1778440620514,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic vs European AI",
@@ -145,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/anthropic-vs-european-ai-podcast/"
   },
   {
-    "id": 1778435945201,
+    "id": 1778440620515,
     "type": "funding",
     "company": "Pivotal",
     "headline": "EnGene's shares crash on updated pivotal bladder cancer data",
@@ -156,29 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/engenes-shares-crash-on-updated-pivotal-bladder-cancer-data/"
   },
   {
-    "id": 1778435945202,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "Anthropic to consider using SpaceX orbital data center satellites",
-    "source": "SpaceNews",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
-  },
-  {
-    "id": 1778435945203,
-    "type": "hire",
-    "company": "Blue Origin",
-    "headline": "Starfighters hires Blue Origin veterans to accelerate air-launch platform",
-    "source": "SpaceNews",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/starfighters-hires-blue-origin-veterans-to-accelerate-air-launch-platform/"
-  },
-  {
-    "id": 1778435945204,
+    "id": 1778440620516,
     "type": "funding",
     "company": "Quantum Motion",
     "headline": "UK quantum outfit Quantum Motion run on silicon chips raises $160M",
@@ -189,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/05/07/uk-quantum-outfit-quantum-motion-run-on-silicon-chips-raises-160m/"
   },
   {
-    "id": 1778435945205,
+    "id": 1778440620517,
     "type": "funding",
     "company": "Quantum Motion",
     "headline": "Quantum Motion raises $160m Series C as quantum sector heats up",
@@ -200,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/quantum-motion-series-c/"
   },
   {
-    "id": 1778435945206,
+    "id": 1778440620518,
     "type": "news",
     "company": "Anthropic",
     "headline": "GIC backs Anthropic-linked new AI-native enterprise services firm",
@@ -211,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/05/07/gic-backs-anthropic-linked-new-ai-native-enterprise-services-firm/"
   },
   {
-    "id": 1778435945207,
+    "id": 1778440620519,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX is starting to move on from the world&#039;s most successful rocket",
@@ -220,5 +176,49 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/"
+  },
+  {
+    "id": 1778440620520,
+    "type": "funding",
+    "company": "Anthropic",
+    "headline": "XAI Will Breakeven by Renting AI Data Center to Anthropic",
+    "source": "Next Big Future",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
+  },
+  {
+    "id": 1778440620521,
+    "type": "funding",
+    "company": "Palantir",
+    "headline": "Silo founder raises €25m for 'Palantir of quantum computing'",
+    "source": "Sifted",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://sifted.eu/articles/qutwo-hugging-face-legora-funding-round/"
+  },
+  {
+    "id": 1778440620522,
+    "type": "news",
+    "company": "Rivian",
+    "headline": "Rivian (RIVN) mulls making its own lidar as it builds full autonomous driving stack",
+    "source": "Electrek",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://electrek.co/2026/05/05/rivian-rivn-mulls-in-house-lidar-autonomous-driving-stack/"
+  },
+  {
+    "id": 1778440620523,
+    "type": "funding",
+    "company": "QuantWare",
+    "headline": "Intel's VC arm backs quantum startup Quantware in $178m Series B to kick-start production at ‘industrial scale’",
+    "source": "Sifted",
+    "time": "5d ago",
+    "impact": "medium",
+    "unread": false,
+    "link": "https://sifted.eu/articles/intel-quantware-178m-series-b/"
   }
 ];
