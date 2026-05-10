@@ -1,120 +1,190 @@
 // Auto-generated from founder_insights_auto.json
-// Last updated: 2026-05-03T10:05:05+00:00
+// Last updated: 2026-05-10T10:15:00+00:00
 const FOUNDER_INSIGHTS_AUTO = {
-  "generatedAt": "2026-05-03T10:05:05+00:00",
+  "generatedAt": "2026-05-10T10:15:00+00:00",
   "model": "claude-haiku-4-5",
-  "companiesProcessed": 145,
-  "companiesWithInsights": 5,
-  "totalInsights": 16,
-  "newClaudeCallsThisRun": 145,
+  "companiesProcessed": 160,
+  "companiesWithInsights": 11,
+  "totalInsights": 36,
+  "newClaudeCallsThisRun": 160,
   "byCompany": {
+    "OpenAI": {
+      "founder": "Sam Altman, Greg Brockman, Ilya Sutskever",
+      "ticker": null,
+      "lastUpdated": "2026-05-10T10:11:46+00:00",
+      "insights": [
+        {
+          "quote": "By the end of this week, you and Sam will be the most hated men in America. If you insist, so it will be.",
+          "topic": "Litigation strategy",
+          "source_type": "news",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+          "date": "2026-05-08",
+          "paraphrased": false
+        },
+        {
+          "quote": "Time to make the next step for OpenAI. This is the triggering event.",
+          "topic": "For-profit pivot rationale",
+          "source_type": "news",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+          "date": "2026-05-08",
+          "paraphrased": false
+        },
+        {
+          "quote": "We could figure how to fund some of it but not that much. I think it will be the most impressive thing yet in the history of AI.",
+          "topic": "Fundraising strategy and AI capabilities",
+          "source_type": "news",
+          "source_name": "WIRED",
+          "url": "https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/",
+          "date": "2026-05-08",
+          "paraphrased": false
+        },
+        {
+          "quote": "Brockman told the jury that Musk was never truly committed to keeping OpenAI a nonprofit. In the summer of 2017, when an AI model that OpenAI built beat the world's best players in a video game called Dota 2, Musk hosted a gathering...Musk wrote in an email that 'Time to make the next step for OpenAI. This is the triggering event.'",
+          "topic": "Nonprofit to for-profit transition",
+          "source_type": "news",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+          "date": "2026-05-08",
+          "paraphrased": true
+        },
+        {
+          "quote": "Brockman told the jury that Musk had actually pushed for OpenAI to create a for-profit arm and fought a bitter battle to have 'absolute control' over it.",
+          "topic": "For-profit structure and governance",
+          "source_type": "news",
+          "source_name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+          "date": "2026-05-08",
+          "paraphrased": true
+        }
+      ]
+    },
+    "SpaceX": {
+      "founder": "Elon Musk",
+      "ticker": null,
+      "lastUpdated": "2026-05-10T10:11:55+00:00",
+      "insights": [
+        {
+          "quote": "The compute required to train and operate the next generation of these systems is outpacing what terrestrial power, land, and cooling can deliver on the timelines that matter.",
+          "topic": "orbital AI compute strategy",
+          "source_type": "news",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
+          "date": "2026-05-06",
+          "paraphrased": false
+        },
+        {
+          "quote": "Anthropic also expressed interest in partnering to develop multiple gigawatts of orbital AI compute capacity.",
+          "topic": "orbital data center partnership vision",
+          "source_type": "news",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
+          "date": "2026-05-06",
+          "paraphrased": false
+        },
+        {
+          "quote": "This year we'll still launch a lot, but not as much. And then we'll tail off our launches as Starship is coming online.",
+          "topic": "Falcon 9 transition strategy",
+          "source_type": "news",
+          "source_name": "Ars Technica Space",
+          "url": "https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/",
+          "date": "2026-05-06",
+          "paraphrased": false
+        },
+        {
+          "quote": "SpaceX's eagerness to shift focus to the much larger Starship rocket, an enabler of what the company wants to do in space: missions to land on the Moon and Mars, orbital data centers, and next-gen Starlink.",
+          "topic": "Starship strategic priorities",
+          "source_type": "news",
+          "source_name": "Ars Technica Space",
+          "url": "https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/",
+          "date": "2026-05-06",
+          "paraphrased": true
+        }
+      ]
+    },
+    "Anthropic": {
+      "founder": "Dario Amodei, Daniela Amodei, Jared Kaplan, Jack Clark, Chris Olah, Ben Mann, Sam McCandlish, Tom Brown",
+      "ticker": null,
+      "lastUpdated": "2026-05-10T10:12:08+00:00",
+      "insights": [
+        {
+          "quote": "Anthropic plans to use this additional compute to directly improve capacity for Claude Pro and Claude Max subscribers.",
+          "topic": "Compute strategy, product scaling",
+          "source_type": "news",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
+          "date": "2026-05-06",
+          "paraphrased": false
+        },
+        {
+          "quote": "As part of this agreement, Anthropic also expressed interest in partnering to develop multiple gigawatts of orbital AI compute capacity. The compute required to train and operate the next generation of these systems is outpacing what terrestrial power, land, and cooling can deliver on the timelines that matter.",
+          "topic": "Infrastructure, compute capacity",
+          "source_type": "news",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
+          "date": "2026-05-06",
+          "paraphrased": false
+        },
+        {
+          "quote": "Enterprise demand for Claude is significantly outpacing any single delivery model. Our partnerships with the world's leading systems integrators are central to how Claude reaches large enterprises. This new firm brings additional operating capability to the ecosystem and capital from leading alternative asset managers.",
+          "topic": "Enterprise strategy, distribution",
+          "source_type": "news",
+          "source_name": "TechNode Global",
+          "url": "https://technode.global/2026/05/07/gic-backs-anthropic-linked-new-ai-native-enterprise-services-firm/",
+          "date": "2026-05-07",
+          "paraphrased": false
+        },
+        {
+          "quote": "Claude's capabilities change on a monthly or even weekly basis, which creates a different kind of engineering challenge than traditional software deployment. The systems that companies build with AI need to evolve as the models underneath them improve. Because the firm's engineers will work in close coordination with Anthropic's research and product teams, the implementations they deliver are designed to do that from day one.",
+          "topic": "Model evolution, product design philosophy",
+          "source_type": "news",
+          "source_name": "TechNode Global",
+          "url": "https://technode.global/2026/05/07/gic-backs-anthropic-linked-new-ai-native-enterprise-services-firm/",
+          "date": "2026-05-07",
+          "paraphrased": true
+        }
+      ]
+    },
     "xAI": {
       "founder": "Elon Musk",
       "ticker": null,
-      "lastUpdated": "2026-05-03T10:03:14+00:00",
+      "lastUpdated": "2026-05-10T10:12:28+00:00",
       "insights": [
         {
-          "quote": "I was a fool who provided them free funding to create a startup",
-          "topic": "OpenAI founding regret",
+          "quote": "The compute required to train and operate the next generation of these systems is outpacing what terrestrial power, land, and cooling can deliver on the timelines that matter.",
+          "topic": "Compute infrastructure scaling",
           "source_type": "news",
-          "source_name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-          "date": "2026-05-01",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
+          "date": "2026-05-06",
           "paraphrased": false
         },
         {
-          "quote": "I gave them $38 million of essentially free funding, which they then used to create what would become an $800 billion company",
-          "topic": "OpenAI funding and structure",
+          "quote": "XAI gets to about breakeven by renting half of their AI Data center and Anthropic can serve its models and more money and can get to a better IPO.",
+          "topic": "Business model strategy",
           "source_type": "news",
-          "source_name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-          "date": "2026-05-01",
-          "paraphrased": false
-        },
-        {
-          "quote": "The worst-case scenario is a Terminator situation where AI kills us all",
-          "topic": "AI safety concerns",
-          "source_type": "news",
-          "source_name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-          "date": "2026-05-01",
-          "paraphrased": false
-        },
-        {
-          "quote": "xAI, which makes the chatbot Grok, uses OpenAI's models to train its own",
-          "topic": "xAI training methodology",
-          "source_type": "news",
-          "source_name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-          "date": "2026-05-01",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
+          "date": "2026-05-06",
           "paraphrased": true
         },
         {
-          "quote": "xAI is expected to go public as a part of Musk's rocket company SpaceX as early as June, at a target valuation of $1.75 trillion",
-          "topic": "xAI IPO strategy",
+          "quote": "Anthropic also expressed interest in partnering to develop multiple gigawatts of orbital AI compute capacity.",
+          "topic": "Orbital AI infrastructure",
           "source_type": "news",
-          "source_name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-          "date": "2026-05-01",
-          "paraphrased": true
-        }
-      ]
-    },
-    "Apptronik": {
-      "founder": "Jeff Cardenas",
-      "ticker": null,
-      "lastUpdated": "2026-05-03T10:03:41+00:00",
-      "insights": [
-        {
-          "quote": "We are at a defining moment in robotics where the technology has finally met the magnitude of the mission. Bringing Daniel Chu on board is an essential step in that journey. His unique experience scaling both world-class autonomy and human-centric health platforms is exactly what we need to build the next generations of AI-powered robots and work towards our 'North Star' of assistive care and eldercare.",
-          "topic": "vision, leadership, assistive care",
-          "source_type": "news",
-          "source_name": "The Robot Report",
-          "url": "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/",
-          "date": "2025-04-28",
-          "paraphrased": false
-        },
-        {
-          "quote": "Our expanded leadership team represents the best minds from the companies that defined the last decade of technology, and they've joined Apptronik to define the next one. We have the talent, the technology, and the momentum to bring AI-powered humanoid robots to the world at scale.",
-          "topic": "team, scale, market strategy",
-          "source_type": "news",
-          "source_name": "The Robot Report",
-          "url": "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/",
-          "date": "2025-04-28",
-          "paraphrased": false
-        },
-        {
-          "quote": "Apptronik is positioning its humanoid robots as the next great frontier in scalable, mass-market technology, preparing to bring general-purpose robots first into commercial applications, and eventually into healthcare and the home.",
-          "topic": "market trajectory, healthcare vision",
-          "source_type": "news",
-          "source_name": "The Robot Report",
-          "url": "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/",
-          "date": "2025-04-28",
-          "paraphrased": true
-        }
-      ]
-    },
-    "General Matter": {
-      "founder": "Scott Nolan, Lee Robinson",
-      "ticker": null,
-      "lastUpdated": "2026-05-03T10:04:24+00:00",
-      "insights": [
-        {
-          "quote": "Scott Nolan spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
-          "topic": "founding motivation",
-          "source_type": "podcast",
-          "source_name": "Invest Like the Best",
-          "url": "https://colossus.com/episode/betting-on-atoms/",
-          "date": "2025-04-14",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
+          "date": "2026-05-06",
           "paraphrased": true
         },
         {
-          "quote": "General Matter is rebuilding US uranium enrichment.",
-          "topic": "company mission",
-          "source_type": "podcast",
-          "source_name": "Invest Like the Best",
-          "url": "https://colossus.com/episode/betting-on-atoms/",
-          "date": "2025-04-14",
+          "quote": "SpaceX/xAI will IPO first with a public S-1 maybe next week.",
+          "topic": "IPO plans and timing",
+          "source_type": "news",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html",
+          "date": "2026-05-06",
           "paraphrased": true
         }
       ]
@@ -122,11 +192,11 @@ const FOUNDER_INSIGHTS_AUTO = {
     "Palantir": {
       "founder": "Peter Thiel, Alex Karp, Stephen Cohen, Joe Lonsdale, Nathan Gettings",
       "ticker": "NYSE: PLTR",
-      "lastUpdated": "2026-05-03T10:04:29+00:00",
+      "lastUpdated": "2026-05-10T10:12:46+00:00",
       "insights": [
         {
-          "quote": "We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
-          "topic": "Maven Edge capability",
+          "quote": "Maven is also pushing to the edge. We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
+          "topic": "Maven Edge deployment",
           "source_type": "earnings",
           "source_name": "Palantir Technologies Q4 2025 Earnings Call",
           "url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
@@ -135,14 +205,107 @@ const FOUNDER_INSIGHTS_AUTO = {
         }
       ]
     },
+    "Rocket Lab": {
+      "founder": "Peter Beck",
+      "ticker": null,
+      "lastUpdated": "2026-05-10T10:13:23+00:00",
+      "insights": [
+        {
+          "quote": "The priority will always be to bring a reliable rocket to market, even if it means taking a few extra months.",
+          "topic": "reliability over speed",
+          "source_type": "earnings",
+          "source_name": "Rocket Lab Q4 2025 Earnings Call",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/",
+          "date": "2026-02-26",
+          "paraphrased": false
+        }
+      ]
+    },
+    "Rivian": {
+      "founder": "R. J. Scaringe",
+      "ticker": null,
+      "lastUpdated": "2026-05-10T10:13:51+00:00",
+      "insights": [
+        {
+          "quote": "There are other variants of R2, which we haven't shown. What we're building in Georgia allows for different variations.",
+          "topic": "R2 product variants",
+          "source_type": "news",
+          "source_name": "CleanTechnica",
+          "url": "https://cleantechnica.com/2026/05/08/rivian-r2-extra-features-other-variants-and-in-house-lidar/",
+          "date": "2026-05-08",
+          "paraphrased": false
+        },
+        {
+          "quote": "Think of it as finding a way to structurally ingest the technology. The advancements in terms of going from the early lidars that I think a lot of us have seen \u2014 we see them here \u2014 to these much more advanced solid-state lidars, those advancements didn't happen in the United States. Those advancements happened in China.",
+          "topic": "lidar sourcing strategy",
+          "source_type": "news",
+          "source_name": "CleanTechnica",
+          "url": "https://cleantechnica.com/2026/05/08/rivian-r2-extra-features-other-variants-and-in-house-lidar/",
+          "date": "2026-05-08",
+          "paraphrased": false
+        },
+        {
+          "quote": "A number of different car manufacturers are thinking about how they could do that either together, or at least through a shared alignment to say, hey, let's develop production capacity in the United States for this, or at least outside China.",
+          "topic": "industry collaboration on lidar",
+          "source_type": "news",
+          "source_name": "CleanTechnica",
+          "url": "https://cleantechnica.com/2026/05/08/rivian-r2-extra-features-other-variants-and-in-house-lidar/",
+          "date": "2026-05-08",
+          "paraphrased": false
+        },
+        {
+          "quote": "all the real choices are coming out of China at the price point automakers need \u2014 in the low hundreds of dollars per sensor.",
+          "topic": "lidar cost and sourcing constraints",
+          "source_type": "news",
+          "source_name": "Electrek",
+          "url": "https://electrek.co/2026/05/05/rivian-rivn-mulls-in-house-lidar-autonomous-driving-stack/",
+          "date": "2026-05-05",
+          "paraphrased": false
+        },
+        {
+          "quote": "Rivian is in 'active discussions' with lidar firms about producing sensors domestically rather than buying directly from Chinese suppliers.",
+          "topic": "vertical integration in autonomous driving",
+          "source_type": "news",
+          "source_name": "Electrek",
+          "url": "https://electrek.co/2026/05/05/rivian-rivn-mulls-in-house-lidar-autonomous-driving-stack/",
+          "date": "2026-05-05",
+          "paraphrased": true
+        }
+      ]
+    },
+    "General Matter": {
+      "founder": "Scott Nolan, Lee Robinson",
+      "ticker": null,
+      "lastUpdated": "2026-05-10T10:14:16+00:00",
+      "insights": [
+        {
+          "quote": "Scott Nolan spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
+          "topic": "Founding motivation",
+          "source_type": "podcast",
+          "source_name": "Invest Like the Best",
+          "url": "https://colossus.com/episode/betting-on-atoms/",
+          "date": "2024-04-14",
+          "paraphrased": true
+        },
+        {
+          "quote": "General Matter is rebuilding US uranium enrichment.",
+          "topic": "Company mission",
+          "source_type": "podcast",
+          "source_name": "Invest Like the Best",
+          "url": "https://colossus.com/episode/betting-on-atoms/",
+          "date": "2024-04-14",
+          "paraphrased": true
+        }
+      ]
+    },
     "Fervo Energy": {
       "founder": "Tim Latimer, Jack Norbeck",
       "ticker": null,
-      "lastUpdated": "2026-05-03T10:04:36+00:00",
+      "lastUpdated": "2026-05-10T10:14:25+00:00",
       "insights": [
         {
           "quote": "Fervo makes use of horizontal-drilling techniques honed in the shale oil and gas sector, where its CEO, Tim Latimer, worked before co-founding the company in 2017 alongside Jack Norbeck.",
-          "topic": "Technology foundation, drilling approach",
+          "topic": "Technology foundation, prior experience",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
@@ -151,7 +314,7 @@ const FOUNDER_INSIGHTS_AUTO = {
         },
         {
           "quote": "Fervo has a total of 3.65 gigawatts of power plant capacity that are under construction, ready to build, or in advanced stages of development",
-          "topic": "Pipeline scale and ambition",
+          "topic": "Pipeline and project portfolio",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
@@ -160,7 +323,7 @@ const FOUNDER_INSIGHTS_AUTO = {
         },
         {
           "quote": "Across the nearly 600,000 acres it has leased \u2014 spanning public and private land in the American West, from New Mexico up to Washington \u2014 Fervo estimates that it has the potential to develop over 42 GW in total geothermal-energy capacity.",
-          "topic": "Long-term resource potential",
+          "topic": "Land portfolio and long-term potential",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
@@ -168,8 +331,8 @@ const FOUNDER_INSIGHTS_AUTO = {
           "paraphrased": true
         },
         {
-          "quote": "The Cape Station site has an estimated 4.3 GW of capacity potential, based on internal and independent estimates.",
-          "topic": "Cape Station capacity and expansion",
+          "quote": "the company has 'multiple projects in various stages of progress' and is pursuing 'multi-year, multi-gigawatt offtake partnerships with both utilities and hyperscalers'",
+          "topic": "Strategy and customer partnerships",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
@@ -177,13 +340,72 @@ const FOUNDER_INSIGHTS_AUTO = {
           "paraphrased": true
         },
         {
-          "quote": "The company has 'multiple projects in various stages of progress' and is pursuing 'multi-year, multi-gigawatt offtake partnerships with both utilities and hyperscalers.'",
-          "topic": "Project pipeline and customer strategy",
+          "quote": "the Cape Station site has an estimated 4.3 GW of capacity potential, based on internal and independent estimates",
+          "topic": "Cape Station capacity potential",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
           "date": "2026-04-09",
           "paraphrased": true
+        },
+        {
+          "quote": "This week's development with Turboden 'helps streamline project execution and accelerate deployment as our project pipeline advances'",
+          "topic": "Supply chain strategy and execution",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
+          "date": "2026-04-09",
+          "paraphrased": true
+        }
+      ]
+    },
+    "QuantWare": {
+      "founder": "Matthijs Rijlaarsdam, Alessandro Bruno",
+      "ticker": null,
+      "lastUpdated": "2026-05-10T10:14:45+00:00",
+      "insights": [
+        {
+          "quote": "If you wanted to get to 1m qubits, you'd need a chip the size of Central Park. That's not going to scale.",
+          "topic": "Quantum scaling challenge",
+          "source_type": "news",
+          "source_name": "Sifted",
+          "url": "https://sifted.eu/articles/intel-quantware-178m-series-b/",
+          "date": "2026-05-05",
+          "paraphrased": false
+        },
+        {
+          "quote": "The focus has shifted to scaling production capacity. We will make these quantum processors at an industrial scale \u2014 and that's what we need to get to larg",
+          "topic": "Production scaling strategy",
+          "source_type": "news",
+          "source_name": "Sifted",
+          "url": "https://sifted.eu/articles/intel-quantware-178m-series-b/",
+          "date": "2026-05-05",
+          "paraphrased": false
+        },
+        {
+          "quote": "This will multiply Quantware's production capacity by 20",
+          "topic": "Fabrication facility expansion",
+          "source_type": "news",
+          "source_name": "Sifted",
+          "url": "https://sifted.eu/articles/intel-quantware-178m-series-b/",
+          "date": "2026-05-05",
+          "paraphrased": true
+        }
+      ]
+    },
+    "Panthalassa": {
+      "founder": "Garth Sheldon-Coulson",
+      "ticker": null,
+      "lastUpdated": "2026-05-10T10:15:00+00:00",
+      "insights": [
+        {
+          "quote": "We're in a moment of insatiable desire for more energy and more computing. And so the ideas of how to provide said energy and computing are getting ever more adventurous.",
+          "topic": "market timing, energy demand",
+          "source_type": "podcast",
+          "source_name": "Core Memory",
+          "url": "https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth",
+          "date": "2025-04-15",
+          "paraphrased": false
         }
       ]
     }

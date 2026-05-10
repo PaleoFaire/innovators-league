@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-05-03
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-05-10
 
-**Roster:** 1009 companies tracked  ·  **Screened this cycle:** 254  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1011 companies tracked  ·  **Screened this cycle:** 241  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -131,14 +131,14 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 - **[All-In]** [CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win](https://allinchamathjason.libsyn.com/ca-governor-candidate-steve-hilton-on-why-california-is-destroying-itself-how-a-republican-can-win)
 - **[TBPN]** [Big Tech Earnings, Red vs. Blue Button, Quantum Computing | Jason Yanowitz, Even Rogers, Maria Spiropulu, Stepan Simkin,](https://share.transistor.fm/s/93dffc7f)
 - **[Core Memory]** [Here Come The Space Lasers - EP 62 Baiju Bhatt](https://www.corememory.com/p/here-come-the-space-lasers-aetherflux-baiju-bhatt)
-- **[TBPN]** [SpaceX-Cursor Deal, ChatGPT Images 2.0, Fake Bear Scam | Diet TBPN](https://share.transistor.fm/s/f7d3d1b4)
-- **[TBPN]** [SpaceX/Cursor Deal, Images 2.0 Reactions, Fake Bear Attack | Anil Chakravarthy, Naveen Gavini, Avlok Kohli & Ankur Nagpa](https://share.transistor.fm/s/2c6e810f)
 - **[Core Memory]** [The Aussie Man Who Used AI To Create A Cancer Cure For His Dog](https://www.corememory.com/p/the-aussie-man-who-used-ai-to-create-cancer-therapy-dog-rosie)
 - **[All-In]** [John Fetterman: The Rogue Democrat Who Broke Party Ranks](https://allinchamathjason.libsyn.com/john-fetterman-the-rogue-democrat-who-broke-party-ranks)
 - **[Core Memory]** [The Very Wild, Very Real Plan To Build AI Data Centers In The Ocean - EP 65 Garth Sheldon-Coulson](https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth)
 - **[Lex Fridman Podcast]** [#493 – Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming](https://lexfridman.com/jeff-kaplan/?utm_source=rss&utm_medium=rss&utm_campaign=jeff-kaplan)
+- **[All-In]** [Rewriting the Rules: The SEC & CFTC on Crypto, IPOs & the Future of American Markets](https://allinchamathjason.libsyn.com/rewriting-the-rules-the-sec-cftc-on-crypto-ipos-the-future-of-american-markets)
+- **[Core Memory]** [Inside The Race To Reboot Human Cells - EP 60 Nabiha Saklayen](https://www.corememory.com/p/inside-the-race-to-reboot-human-cells-cellino-ipsc)
 
 ---
 
 
-*Generated 2026-05-03T10:02:27+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-05-10T10:11:19+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

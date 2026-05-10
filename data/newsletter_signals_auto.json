@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-03T10:00:07+00:00",
+  "generatedAt": "2026-05-10T10:08:00+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 7
+      "recentItems": 8
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 6
+      "recentItems": 4
     },
     {
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 14
+      "recentItems": 12
     },
     {
       "name": "Construction Physics (Brian Potter)",
@@ -30,25 +30,25 @@
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 2
+      "recentItems": 1
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 6
+      "recentItems": 3
     },
     {
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 3
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
       "url": "https://brief.bismarckanalysis.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 2
     },
     {
       "name": "TechCrunch \u00b7 Venture",
@@ -84,28 +84,47 @@
       "name": "Platformer (Casey Newton)",
       "url": "https://www.platformer.news/rss",
       "totalItems": 15,
-      "recentItems": 5
+      "recentItems": 4
     }
   ],
-  "totalRawSignals": 20,
-  "uniqueCandidateCount": 20,
+  "totalRawSignals": 14,
+  "uniqueCandidateCount": 14,
   "candidates": [
     {
-      "name": "Blue Energy",
-      "totalScore": 14.4,
+      "name": "SOTA",
+      "totalScore": 10.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Blue Energy",
-          "score": 14.4,
-          "frontierTechScore": 4,
+          "name": "SOTA",
+          "score": 10.2,
+          "frontierTechScore": 2,
           "mentions": 1,
-          "context": "Industries. Fidelity, NEA, and Nvidia also participated, among others. Nuclear power plant startup  Blue Energy  raised $380 million in combined equity and debt funding led by VXI Capital. Other inves",
-          "source": "Newcomer (Eric Newcomer)",
-          "sourceUrl": "https://www.newcomer.co/feed",
-          "articleTitle": "Stakes Keep Getting Higher for the SpaceX IPO",
-          "articleUrl": "https://www.newcomer.co/p/stakes-keep-getting-higher-for-the",
-          "articleDate": "Fri, 24 Apr 2026 14:02:18 GMT"
+          "context": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs\nOpenAI launched  realtime-1.5  3 months ago, but it was a relative drop in ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
+          "articleDate": "Fri, 08 May 2026 07:11:24 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Raindrop Triage",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Raindrop Triage",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ndirect, or generated feedback  so observability becomes a  learning system .  @benhylak  launched  Raindrop Triage , an agent dedicated to finding and investigating bad agent behavior.  @Vtrivedy10  ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Silicon Valley gets Serious about Services",
+          "articleUrl": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
+          "articleDate": "Wed, 06 May 2026 05:40:41 GMT"
         }
       ]
     },
@@ -148,25 +167,6 @@
       ]
     },
     {
-      "name": "Rebo",
-      "totalScore": 7.0,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Rebo",
-          "score": 7.0,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "s in the longevity field. Today, the company, located in New Hampshire, has a handful of employees. Rebo declines to say how much money the company has raised or from whom. Kind has spent much of its ",
-          "source": "Core Memory (Ashlee Vance)",
-          "sourceUrl": "https://www.corememory.com/feed",
-          "articleTitle": "The Man Growing Organs On Demand",
-          "articleUrl": "https://www.corememory.com/p/the-man-growing-organs-on-demand-kind-bio-justin-rebo",
-          "articleDate": "Mon, 20 Apr 2026 18:43:31 GMT"
-        }
-      ]
-    },
-    {
       "name": "PAs",
       "totalScore": 6.3,
       "sourceCount": 1,
@@ -182,6 +182,139 @@
           "articleTitle": "Voice AI Investment Surges as Enterprise Applications Gain Traction",
           "articleUrl": "https://www.newcomer.co/p/voice-ai-investment-surges-as-enterprise",
           "articleDate": "Thu, 30 Apr 2026 20:09:32 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Translate",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Translate",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs\nOpenAI launched  realtime-1.5  3 months ago, b",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
+          "articleDate": "Fri, 08 May 2026 07:11:24 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Whisper",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Whisper",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs\nOpenAI launched  realtime-1.5  3 months ago, but it was a rela",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
+          "articleDate": "Fri, 08 May 2026 07:11:24 GMT"
+        }
+      ]
+    },
+    {
+      "name": "KyleHessling1",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "KyleHessling1",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "k/s on a single RTX 5090 , targeting strong one-shot frontend/web generation on consumer hardware  @KyleHessling1 . DeepSeek commentary was mixed: fundraising talks reportedly target a  $45B valuation",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
+          "articleUrl": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
+          "articleDate": "Thu, 07 May 2026 05:57:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "DeepSeek",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "RTX 5090 , targeting strong one-shot frontend/web generation on consumer hardware  @KyleHessling1 . DeepSeek commentary was mixed: fundraising talks reportedly target a  $45B valuation  led by a major",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
+          "articleUrl": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
+          "articleDate": "Thu, 07 May 2026 05:57:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Chinese",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Chinese",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "eepSeek commentary was mixed: fundraising talks reportedly target a  $45B valuation  led by a major Chinese state-backed semiconductor fund  @jukan05 , while evaluators debated weak WeirdML performanc",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
+          "articleUrl": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
+          "articleDate": "Thu, 07 May 2026 05:57:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Perplexity",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Perplexity",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " test \u2192 repeat . Enterprise verticalization: finance, legal, and proactive assistants Anthropic and Perplexity both pushed hard into finance workflows : Anthropic launched  financial-services agent te",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Silicon Valley gets Serious about Services",
+          "articleUrl": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
+          "articleDate": "Wed, 06 May 2026 05:40:41 GMT"
+        }
+      ]
+    },
+    {
+      "name": "KYC",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "KYC",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "launched  financial-services agent templates  for work such as  pitch generation, valuation review, KYC screening, and month-end close , with integrations into providers like  FactSet, S&P Global, and",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Silicon Valley gets Serious about Services",
+          "articleUrl": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
+          "articleDate": "Wed, 06 May 2026 05:40:41 GMT"
         }
       ]
     },
@@ -205,268 +338,21 @@
       ]
     },
     {
-      "name": "DeepSeek V3",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "DeepSeek V3",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "model flagship , competitive with top closed models from the prior generation and a major leap over DeepSeek V3.x  @arena ,  @scaling01 ,  @kimmonismus . Technical report highlights: long-context effi",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
-          "articleUrl": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
-          "articleDate": "Fri, 24 Apr 2026 04:40:43 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Multi",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Multi",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "presentation renderer/viewer  as a surprisingly useful agent-native artifact format  @BraceSproul . Multi-agent orchestration is moving into products : Sakana AI launched the beta of  Fugu , a multi-a",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
-          "articleUrl": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
-          "articleDate": "Fri, 24 Apr 2026 04:40:43 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Mars",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Mars",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "st rocket company bought a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we ",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #190",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "IPOs",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "IPOs",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "t prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s fir",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #190",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "AUV",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "AUV",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": " to the rest of the world. A fully autonomous system is a much cheaper system, because the cheapest AUV in the world is still expensive if it\u2019s hand launched and recovered, and requires a crewed ship ",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "The Great Blue Frontier",
-          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
-          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
-        }
-      ]
-    },
-    {
-      "name": "There",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "There",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "d is still expensive if it\u2019s hand launched and recovered, and requires a crewed ship to operate it. There\u2019s a joke in the maritime industry that \u201cunmanned\u201d systems are only unmanned in the sense that ",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "The Great Blue Frontier",
-          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
-          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Moon",
+      "name": "Genesis World",
       "totalScore": 4.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Moon",
+          "name": "Genesis World",
           "score": 4.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "world\u2019s greatest rocket company bought a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  ",
+          "context": "ms to as low as 3ms, and tracking error on a 15cm circle dropped from ~20mm to ~2mm. The simulator (Genesis World) lets them run 2,700 robot-hours of evaluation per chart point without touching real h",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #190",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Dose",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Dose",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "viously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s first commercial superhot geothermal plant. Superhot",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #190",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Quaise",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Quaise",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "(3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s first commercial superhot geothermal plant. Superhot is a dril",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #190",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Ana-Maria Stanciuc",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Ana-Maria Stanciuc",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "this frackin\u2019 thing public.  (4)  Humble unstealths with a cabless autonomous electric truck & $24M Ana-Maria Stanciuc for TheNextWeb On Tuesday, a San Francisco startup called Humble came out of stea",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #190",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "TheNextWeb On Tuesday",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "TheNextWeb On Tuesday",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "lic.  (4)  Humble unstealths with a cabless autonomous electric truck & $24M Ana-Maria Stanciuc for TheNextWeb On Tuesday, a San Francisco startup called Humble came out of stealth with $24 million in",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #190",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Estonia",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Estonia",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "-fleet tanker dragged its anchor through the Estlink 2 power cable and four telecom cables, cutting Estonia\u2019s cross-border electricity capacity by two-thirds. NATO launched  Operation Baltic Sentry  i",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "The Great Blue Frontier",
-          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
-          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Strait",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Strait",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": ", as the IRGC and United States are locked in a conflict over whether to reopen the recently closed Strait of Hormuz, the passage through which a fifth of the world\u2019s oil supply normally flows. When I",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "The Great Blue Frontier",
-          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
-          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Hormuz",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Hormuz",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "RGC and United States are locked in a conflict over whether to reopen the recently closed Strait of Hormuz, the passage through which a fifth of the world\u2019s oil supply normally flows. When Iran first ",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "The Great Blue Frontier",
-          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
-          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
+          "articleTitle": "Weekly Dose of Optimism #192",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-192",
+          "articleDate": "Fri, 08 May 2026 12:56:57 GMT"
         }
       ]
     }

@@ -1,14 +1,14 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-05-03T10:02:27+00:00
+// Last updated: 2026-05-10T10:11:18+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-05-03T10:02:27+00:00",
-  "weekOf": "2026-05-03",
+  "generatedAt": "2026-05-10T10:11:18+00:00",
+  "weekOf": "2026-05-10",
   "summary": {
-    "rosterSize": 1009,
-    "candidatesScreened": 254,
+    "rosterSize": 1011,
+    "candidatesScreened": 241,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 142
+    "rejected": 129
   },
   "topPicks": [
     {
@@ -487,6 +487,6 @@ const SCOUT_BRIEFING_AUTO = {
       ]
     }
   ],
-  "rejectedCount": 142
+  "rejectedCount": 129
 };
 if (typeof window !== 'undefined') window.SCOUT_BRIEFING_AUTO = SCOUT_BRIEFING_AUTO;

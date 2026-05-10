@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-03T10:02:26+00:00",
+  "generatedAt": "2026-05-10T10:11:18+00:00",
   "model": "claude-haiku-4-5",
-  "rosterSize": 1601,
-  "rawItemsConsidered": 92,
-  "newExtractionsThisRun": 92,
-  "uniqueCandidates": 32,
+  "rosterSize": 1605,
+  "rawItemsConsidered": 90,
+  "newExtractionsThisRun": 90,
+  "uniqueCandidates": 27,
   "candidates": [
     {
       "name": "Mistral",
@@ -40,86 +40,7 @@
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "AI company developing and deploying large language models with focus on efficiency and performance."
-    },
-    {
-      "name": "Anduril",
-      "discoveries": [
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-          "url": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
-          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Defense & Security"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Defense tech company building autonomous weapons systems and Arsenal-1 factory to address US munitions supply chain gaps."
-    },
-    {
-      "name": "Cavalla Industries",
-      "discoveries": [
-        {
-          "source": "TBPN",
-          "host": "John Coogan + Jordi Hays",
-          "title": "Meet the New Thiel Fellows, GPT 5.5, Thoma Bravo Loses Medallia | Victor Boyd, Alex Shieh, Nick Dobroshinsky, Ishan Gupta, Antoni Kiszka, Milan Lustig, Galen Mead, Aubrey Niederhoffer, Samuel Carvalho",
-          "url": "https://share.transistor.fm/s/52e67362",
-          "date": "Thu, 23 Apr 2026 13:33:02 -0700",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Robotics & Manufacturing"
-      ],
-      "founders": [
-        "Victor Boyd"
-      ],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "TBPN"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Develops autonomous forklifts designed to deliver goods anywhere within hours by automating material handling and logistics."
-    },
-    {
-      "name": "Cellino",
-      "discoveries": [
-        {
-          "source": "Core Memory",
-          "host": "Ashlee Vance",
-          "title": "Inside The Race To Reboot Human Cells - EP 60 Nabiha Saklayen",
-          "url": "https://www.corememory.com/p/inside-the-race-to-reboot-human-cells-cellino-ipsc",
-          "date": "Wed, 11 Mar 2026 14:26:48 GMT",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [
-        "Nabiha Saklayen"
-      ],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "Core Memory"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Develops induced pluripotent stem cell (iPSC) technology to reverse aging and regenerate human tissues and organs."
+      "description": "Developer of open-source and commercial large language models competing with mainstream AI platforms."
     },
     {
       "name": "Column",
@@ -134,7 +55,7 @@
         }
       ],
       "sectors": [
-        "Other"
+        "AI & Compute"
       ],
       "founders": [
         "William Hockey"
@@ -146,7 +67,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A software company that owns a bank and provides banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury."
+      "description": "A software company that owns a bank and provides core banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury."
     },
     {
       "name": "CoreWeave",
@@ -173,34 +94,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "GPU cloud infrastructure and compute platform built for AI workloads and model training."
-    },
-    {
-      "name": "CrowdStrike",
-      "discoveries": [
-        {
-          "source": "TBPN",
-          "host": "John Coogan + Jordi Hays",
-          "title": "Intel Rips, Cursor's Plan, Thrive's Giant Bet, GPT 5.5 | George Kurtz, Professor Sendy, Gary Vaynerchuk, Yoland Yan, Ben Horwitz",
-          "url": "https://share.transistor.fm/s/d3095cca",
-          "date": "Fri, 24 Apr 2026 13:32:08 -0700",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Defense & Security"
-      ],
-      "founders": [
-        "George Kurtz"
-      ],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "TBPN"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Cybersecurity platform founded by George Kurtz, CEO with 30+ years of experience in the field."
+      "description": "Infrastructure provider for AI compute and workloads, enabling model training and inference at scale."
     },
     {
       "name": "Onward Medical",
@@ -225,7 +119,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A Swiss biotech company developing neurotechnology to help paralyzed people regain movement and mobility."
+      "description": "A Swiss biotech company developing therapies to help paralyzed people regain movement and mobility."
     },
     {
       "name": "Perplexity",
@@ -252,7 +146,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered search and reasoning engine that provides conversational answers to user queries."
+      "description": "AI-powered search and answer engine that synthesizes information using language models."
     },
     {
       "name": "Phantom Neuro",
@@ -279,7 +173,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops implantable human-machine interfaces that enable amputees to control robotic limbs using neural signals from their brain."
+      "description": "Develops implantable human-machine interfaces that enable amputees to control robotic limbs with their minds."
+    },
+    {
+      "name": "Speechify",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: What I Learned from 100 of the Best CEOs in the World | What I Learned from Staying with Mr Beast for 3 Weeks | How We Will Spend More on Tokens than Salaries with Cliff Weitzman, Speechify",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-what-i-learned-from-100-of-the-best-ceos-in-the-world-what-i-learned-from-staying-with-mr-beast-for-3-weeks-how-we-will-spend-more-on-tokens-than-salaries-with-cliff-weitzman-speechify",
+          "date": "Sat, 09 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Cliff Weitzman"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A Voice AI agent that converts text to speech, used by 60+ million people, with particular effectiveness for users with dyslexia and ADHD."
+    },
+    {
+      "name": "Supabase",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
+          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Open-source Firebase alternative providing backend infrastructure and database services for developers."
     },
     {
       "name": "Ulysses",
@@ -304,103 +250,80 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "San Francisco-based startup building autonomous underwater drones for marine applications, including seagrass planting and ocean monitoring."
+      "description": "San Francisco-based startup building autonomous underwater drones for marine applications like seagrass planting and ocean monitoring."
     },
     {
-      "name": "Kind",
+      "name": "10100",
       "discoveries": [
         {
-          "source": "Core Memory (Ashlee Vance)",
-          "host": "",
-          "title": "The Man Growing Organs On Demand",
-          "url": "https://www.corememory.com/p/the-man-growing-organs-on-demand-kind-bio-justin-rebo",
-          "date": "Mon, 20 Apr 2026 18:43:31 GMT",
-          "kind": "newsletter_article"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [
-        "Rebo"
-      ],
-      "stealthSignal": true,
-      "confidence": "medium",
-      "sources": [
-        "Core Memory (Ashlee Vance)"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A biotech company focused on growing organs on demand, operating in the longevity field with a small team in New Hampshire."
-    },
-    {
-      "name": "Atoms",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: The Return of Travis Kalanick: Uber Would Be $1TRN Today With Him | NVIDIA Predicts $1TRN in Revenue: Everything You Need to Know From GTC | Anduril Lands $20BN Army Contract | Adobe CEO Shock E",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-the-return-of-travis-kalanick-uber-would-be-1trn-today-with-him-nvidia-predicts-1trn-in-revenue-everything-you-need-to-know-from-gtc-anduril-lands-20bn-army-contract-adobe-ceo-shock-exit-the-dominos-falling",
-          "date": "Thu, 19 Mar 2026 07:07:00 +0000",
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
+          "url": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
+          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
-        "Advanced Manufacturing"
+        "Robotics & Manufacturing"
       ],
       "founders": [
         "Travis Kalanick"
       ],
-      "stealthSignal": false,
+      "stealthSignal": true,
       "confidence": "medium",
       "sources": [
-        "20VC"
+        "All-In"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Physical goods/manufacturing company founded by Travis Kalanick focused on applying operational efficiency principles to tangible product creation."
+      "description": "A company focused on automating the physical world through robotics, actuators, and robot hands."
     },
     {
-      "name": "Blue Energy",
+      "name": "Raindrop Triage",
       "discoveries": [
         {
-          "source": "Newcomer (Eric Newcomer)",
+          "source": "Latent Space (swyx)",
           "host": "",
-          "title": "Stakes Keep Getting Higher for the SpaceX IPO",
-          "url": "https://www.newcomer.co/p/stakes-keep-getting-higher-for-the",
-          "date": "Fri, 24 Apr 2026 14:02:18 GMT",
+          "title": "[AINews] Silicon Valley gets Serious about Services",
+          "url": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
+          "date": "Wed, 06 May 2026 05:40:41 GMT",
           "kind": "newsletter_article"
         }
       ],
       "sectors": [
-        "Nuclear Energy"
+        "AI & Compute"
       ],
-      "founders": [],
-      "stealthSignal": false,
+      "founders": [
+        "Ben Hylak"
+      ],
+      "stealthSignal": true,
       "confidence": "medium",
       "sources": [
-        "Newcomer (Eric Newcomer)"
+        "Latent Space (swyx)"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A nuclear power plant startup that raised significant funding for advanced reactor development."
+      "description": "An AI agent designed to detect and investigate misbehavior in other autonomous agents."
     },
     {
-      "name": "Cursor",
+      "name": "AMP",
       "discoveries": [
         {
           "source": "TBPN",
           "host": "John Coogan + Jordi Hays",
-          "title": "Intel Rips, Cursor's Plan, Thrive's Giant Bet, GPT 5.5 | George Kurtz, Professor Sendy, Gary Vaynerchuk, Yoland Yan, Ben Horwitz",
-          "url": "https://share.transistor.fm/s/d3095cca",
-          "date": "Fri, 24 Apr 2026 13:32:08 -0700",
+          "title": "FULL INTERVIEW: Anjney Midha on Fixing AI\u2019s Biggest Bottleneck",
+          "url": "https://share.transistor.fm/s/2645e3f3",
+          "date": "Mon, 04 May 2026 19:54:42 -0700",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
         "AI & Compute"
       ],
-      "founders": [],
+      "founders": [
+        "Anjney Midha"
+      ],
       "stealthSignal": false,
       "confidence": "medium",
       "sources": [
@@ -408,7 +331,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered development tool with a notable deal involving SpaceX."
+      "description": "A compute coordination platform that aggregates and optimizes underutilized compute resources into a coordinated grid to address inefficiencies in AI compute allocation."
+    },
+    {
+      "name": "Arsenal-1",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+          "url": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
+          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Advanced Manufacturing"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Anduril's automated munitions manufacturing facility designed to address US ammunition supply chain bottlenecks."
     },
     {
       "name": "Happy Robot",
@@ -433,7 +381,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Robotics company mentioned as a portfolio investment."
+      "description": "A robotics company mentioned as an investment portfolio holding."
     },
     {
       "name": "IREN",
@@ -460,7 +408,57 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Nuclear energy company focused on advanced reactor technology or nuclear power solutions."
+      "description": "Company focused on nuclear energy innovation and advanced reactor development."
+    },
+    {
+      "name": "Mercor",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
+          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI talent marketplace or platform that experienced a notable security incident relevant to cyber threats."
+    },
+    {
+      "name": "Open Router",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
+          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Routing layer that aggregates and provides access to multiple large language models through a unified API."
     },
     {
       "name": "OpenClaw",
@@ -485,34 +483,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops robotic gripper and manipulation technology for physical AI applications."
+      "description": "A robotics company operating in the physical AI space, part of the emerging $50T market for embodied AI systems."
     },
     {
-      "name": "Plaid",
+      "name": "Periodic Labs",
       "discoveries": [
         {
-          "source": "Invest Like the Best",
-          "host": "Patrick O'Shaughnessy",
-          "title": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
-          "url": "https://colossus.com/episode/playing-a-different-game/",
-          "date": "Tue, 17 Mar 2026 08:00:00 -0000",
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
-        "Other"
+        "Advanced Manufacturing"
       ],
-      "founders": [
-        "William Hockey (co-founder)"
-      ],
+      "founders": [],
       "stealthSignal": false,
       "confidence": "medium",
       "sources": [
-        "Invest Like the Best"
+        "20VC"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A financial data infrastructure company that William Hockey co-founded and whose shares he leveraged to fund Column."
+      "description": "A company focused on materials science and advanced manufacturing applications."
     },
     {
       "name": "Ramp",
@@ -537,7 +533,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A financial operations platform for businesses, likely focused on spend management and accounting automation."
+      "description": "A financial operations platform for businesses to manage spend and payments."
     },
     {
       "name": "SendCutSend",
@@ -562,85 +558,10 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "On-demand manufacturing and parts fabrication service positioning itself as America's answer to China's rapid prototyping capabilities."
+      "description": "On-demand manufacturing and parts cutting service positioned as America's rapid prototyping alternative to Chinese manufacturing capabilities."
     },
     {
-      "name": "Supabase",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Open-source backend-as-a-service platform targeting a $10B valuation, likely focused on database and API infrastructure for developers."
-    },
-    {
-      "name": "CloudFlare",
-      "discoveries": [
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
-          "url": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
-          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": true,
-      "confidence": "low",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A company in stealth mode working on automating the physical world through robotics and actuators."
-    },
-    {
-      "name": "Thrive",
-      "discoveries": [
-        {
-          "source": "TBPN",
-          "host": "John Coogan + Jordi Hays",
-          "title": "Intel Rips, Cursor's Plan, Thrive's Giant Bet, GPT 5.5 | George Kurtz, Professor Sendy, Gary Vaynerchuk, Yoland Yan, Ben Horwitz",
-          "url": "https://share.transistor.fm/s/d3095cca",
-          "date": "Fri, 24 Apr 2026 13:32:08 -0700",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Other"
-      ],
-      "founders": [],
-      "stealthSignal": true,
-      "confidence": "low",
-      "sources": [
-        "TBPN"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Company launching Thrive Eternal product, described as making a giant bet."
-    },
-    {
-      "name": "LMArena",
+      "name": "Sesame",
       "discoveries": [
         {
           "source": "20VC",
@@ -656,16 +577,41 @@
       ],
       "founders": [],
       "stealthSignal": false,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         "20VC"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Language model arena or benchmarking platform."
+      "description": "An AI-focused company operating in the frontier compute space."
     },
     {
-      "name": "Mercor",
+      "name": "DeepSeek",
+      "discoveries": [
+        {
+          "source": "Latent Space (swyx)",
+          "host": "",
+          "title": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
+          "url": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
+          "date": "Thu, 07 May 2026 05:57:14 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "Latent Space (swyx)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI company in fundraising discussions, apparently working on efficient model inference and deployment."
+    },
+    {
+      "name": "Delve",
       "discoveries": [
         {
           "source": "20VC",
@@ -687,7 +633,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI platform recently subject to a security hack, highlighting emerging cyber threats in the AI space."
+      "description": "YC-backed AI company that was removed from the accelerator program."
+    },
+    {
+      "name": "Neural Computers",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "GameStop + eBay, Neural Computers | Nat Eliason, Michael York, Maddie Hall, Anjney Midha, Ben Lamm, Jake Stauch, Garth Sheldon-Coulson, Katie Haun, Nick Abouzeid",
+          "url": "https://share.transistor.fm/s/100ccc71",
+          "date": "Mon, 04 May 2026 14:10:21 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A company building neural computing systems, likely focused on neuromorphic or brain-inspired computation architectures."
     },
     {
       "name": "Olipop",
@@ -712,82 +683,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A functional beverage company focused on health-oriented soda alternatives."
-    },
-    {
-      "name": "Open Router",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "AI platform described as rising, likely provides routing or aggregation across multiple AI models."
-    },
-    {
-      "name": "OpenRouter",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "AI infrastructure or routing platform for language models."
-    },
-    {
-      "name": "Periodic Labs",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Biotech or materials science company leveraging periodic table elements or computational chemistry."
+      "description": "A functional beverage company focused on digestive health."
     },
     {
       "name": "Revolut",
@@ -812,32 +708,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Fintech company (mentioned as portfolio investment, not frontier-tech focus)."
-    },
-    {
-      "name": "Sesame",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "AI or compute-focused startup where Anj sits on the board."
+      "description": "A fintech company mentioned as an investment portfolio holding."
     }
   ]
 }
