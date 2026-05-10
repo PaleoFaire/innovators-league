@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-04",
-  "display_date": "May 04, 2026",
-  "generated_at": "2026-05-04T11:55:38.046415+00:00",
-  "cutoff": "2026-04-27T11:55:38.046415+00:00",
-  "section_count": 8,
-  "total_items": 245,
+  "date": "2026-05-10",
+  "display_date": "May 10, 2026",
+  "generated_at": "2026-05-10T10:44:37.471410+00:00",
+  "cutoff": "2026-05-03T10:44:37.471410+00:00",
+  "section_count": 7,
+  "total_items": 277,
   "sections": [
     {
       "title": "Top Score Movers",
@@ -12,94 +12,73 @@
       "count": 1,
       "items": [
         {
-          "company": "IonQ",
-          "current": 85.0,
-          "previous": 81.0,
-          "change": 4.0,
-          "tier": "exceptional"
-        }
-      ]
-    },
-    {
-      "title": "New Funding Rounds",
-      "icon": "\ud83d\udcb0",
-      "count": 2,
-      "items": [
-        {
-          "company": "Anysphere",
-          "amount": "$600M",
-          "round": "Series G",
-          "investor": "Undisclosed",
-          "date": "2026-05"
-        },
-        {
-          "company": "Rebellions",
-          "amount": "$2.2B",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-05"
+          "company": "Panthalassa",
+          "current": 36.0,
+          "previous": 31.5,
+          "change": 4.5,
+          "tier": "early"
         }
       ]
     },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 22,
+      "count": 47,
       "items": [
         {
-          "company": "Virgin Galactic",
+          "company": "Palantir Technologies",
           "form": "8-K",
-          "description": "spce-20260430.htm",
-          "date": "2026-04-30",
+          "description": "pltr-20260504.htm",
+          "date": "2026-05-04",
           "isIPO": false
         },
         {
-          "company": "IonQ",
+          "company": "Rocket Lab",
           "form": "8-K",
-          "description": "d233784d8k.htm",
-          "date": "2026-04-30",
+          "description": "g085715_8k.htm",
+          "date": "2026-05-08",
           "isIPO": false
         },
         {
-          "company": "D-Wave Quantum",
+          "company": "Rocket Lab",
           "form": "8-K",
-          "description": "qbts-20260429.htm",
-          "date": "2026-04-29",
+          "description": "rklb-20260507.htm",
+          "date": "2026-05-07",
           "isIPO": false
         },
         {
-          "company": "Recursion Pharmaceuticals",
+          "company": "BlackSky Technology",
           "form": "8-K",
-          "description": "rxrx-20260428.htm",
-          "date": "2026-04-30",
+          "description": "bksy-20260507.htm",
+          "date": "2026-05-07",
           "isIPO": false
         },
         {
-          "company": "LanzaTech",
+          "company": "Intuitive Machines",
           "form": "8-K",
-          "description": "tlsi-20260424.htm",
-          "date": "2026-04-29",
+          "description": "tm2613859d1_8k.htm",
+          "date": "2026-05-07",
           "isIPO": false
         },
         {
-          "company": "Rivian",
+          "company": "NuScale Power",
           "form": "8-K",
-          "description": "tm2613102d1_8k.htm",
-          "date": "2026-04-30",
+          "description": "smr-20260507.htm",
+          "date": "2026-05-07",
           "isIPO": false
         },
         {
-          "company": "Rivian",
+          "company": "Centrus Energy",
           "form": "8-K",
-          "description": "rivn-20260430.htm",
-          "date": "2026-04-30",
+          "description": "leu-20260505.htm",
+          "date": "2026-05-05",
           "isIPO": false
         },
         {
-          "company": "Rivian",
-          "form": "10-Q",
-          "description": "rivn-20260331.htm",
-          "date": "2026-04-30",
+          "company": "Upstart Holdings",
+          "form": "8-K",
+          "description": "upst-20260505.htm",
+          "date": "2026-05-05",
           "isIPO": false
         }
       ]
@@ -109,6 +88,12 @@
       "icon": "\ud83c\udfe2",
       "count": 4,
       "items": [
+        {
+          "title": "PROCURE THE BASE YEAR COSTS WITH BASE YEAR OPERATIONS AND SUSTAINMENT, AND 5-YEAR OPERATIONS AND SUSTAINMENT SUPPORT WIT",
+          "agency": "",
+          "value": "",
+          "date": "2026-05-15"
+        },
         {
           "title": "SIP TO128 1ST QUARTER HARDWARE BUY",
           "agency": "",
@@ -122,245 +107,240 @@
           "date": "2026-05-05"
         },
         {
-          "title": "BLANKET PURCHASE AGREEMENT CALL ORDER SKYDIO, LNC",
+          "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
           "agency": "",
           "value": "",
-          "date": "2026-04-30"
-        },
-        {
-          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER",
-          "agency": "",
-          "value": "",
-          "date": "2026-04-30"
+          "date": "2026-05-07"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 32,
+      "count": 41,
       "items": [
         {
-          "title": "Sentencing Guidelines for United States Courts",
+          "title": "Privacy Act of 1974; System of Records",
           "type": "Notice",
           "agencies": [
-            "United States Sentencing Commission"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-05-04"
+          "date": "2026-05-08"
         },
         {
-          "title": "Establishment of Class D and Class E Airspace; Ceiba, PR",
-          "type": "Rule",
+          "title": "Sunshine Act Meetings",
+          "type": "Notice",
           "agencies": [
-            "Transportation Department",
-            "Federal Aviation Administration"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-05-04"
+          "date": "2026-05-08"
         },
         {
-          "title": "Reimagining and Improving Student Education-Federal Student Loan Program Final Regulations",
-          "type": "Rule",
-          "agencies": [
-            "Education Department"
-          ],
-          "significant": false,
-          "date": "2026-05-01"
-        },
-        {
-          "title": "Licensing Requirements for Microreactors and Other Reactors With Comparable Risk Profiles",
+          "title": "Converting Temporary to Permanent Imports for Defense Articles",
           "type": "Proposed Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Justice Department",
+            "Alcohol, Tobacco, Firearms, and Explosives Bureau"
           ],
           "significant": false,
-          "date": "2026-05-01"
+          "date": "2026-05-08"
         },
         {
-          "title": "Request for Qualified Candidates for Appointment to the Advisory Committee on Reactor Safeguards",
-          "type": "Notice",
+          "title": "Semiannual Reporting",
+          "type": "Proposed Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Securities and Exchange Commission"
           ],
           "significant": false,
-          "date": "2026-05-01"
+          "date": "2026-05-07"
         },
         {
-          "title": "Medical Devices; Exemptions From Premarket Notification: Certain Class II Devices; Request for Comments",
+          "title": "Board Meeting",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Nuclear Waste Technical Review Board"
           ],
           "significant": false,
-          "date": "2026-05-01"
+          "date": "2026-05-07"
+        },
+        {
+          "title": "Publication of Russian Harmful Foreign Activities Sanctions Regulations Web General Licenses 55E, 115C, 13P, and 131C",
+          "type": "Rule",
+          "agencies": [
+            "Treasury Department",
+            "Foreign Assets Control Office"
+          ],
+          "significant": false,
+          "date": "2026-05-07"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 18,
+      "count": 27,
       "items": [
         {
-          "title": "Rule Change so SpaceX Should Join Sp500 6 Months After IPO",
-          "source": "Next Big Future",
-          "company": "SpaceX",
+          "title": "UK quantum outfit Quantum Motion run on silicon chips raises $160M",
+          "source": "Tech.eu",
+          "company": "Quantum Motion",
           "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Quantum Motion raises $160m Series C as quantum sector heats up",
+          "source": "Sifted",
+          "company": "Quantum Motion",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altm",
+          "source": "MIT Tech Review",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "hire"
+        },
+        {
+          "title": "NASA\u2019s SpaceX 34th Commercial Resupply Mission Overview",
+          "source": "NASA Breaking News",
+          "company": "SpaceX",
+          "impact": "low",
           "type": "ipo"
         },
         {
-          "title": "The Humanoid Robot Market Is Smaller Than It Looks",
-          "source": "CleanTechnica",
-          "company": "Humanoid",
+          "title": "Nyobolt raises funding to bring fast charging to more robots",
+          "source": "The Robot Report",
+          "company": "Nyobolt",
           "impact": "low",
-          "type": "hire"
+          "type": "funding"
         },
         {
-          "title": "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
+          "title": "Rivian R2 Extra Features, Other Variants, and In-House Lidar?",
           "source": "CleanTechnica",
-          "company": "Solar Foods",
+          "company": "Rivian",
           "impact": "low",
-          "type": "news"
+          "type": "milestone"
         },
         {
-          "title": "SpaceX Starship Flight 12 May 12",
-          "source": "Next Big Future",
-          "company": "SpaceX",
+          "title": "Nuro secures California driverless permit for Lucid Gravity Uber robotaxis",
+          "source": "Electrek",
+          "company": "Nuro",
           "impact": "low",
-          "type": "hire"
-        },
-        {
-          "title": "Bristol Myers\u2019 pivotal year; Should AI be swinging bigger?; and more",
-          "source": "Endpoints News",
-          "company": "Pivotal",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "Who Is Tesla Selling 1 Million Humanoid Robots A Year To?",
-          "source": "CleanTechnica",
-          "company": "Humanoid",
-          "impact": "medium",
-          "type": "hire"
-        },
-        {
-          "title": "Tesla Got $573 Million from SpaceX and xAI in 2025",
-          "source": "CleanTechnica",
-          "company": "SpaceX",
-          "impact": "medium",
           "type": "ipo"
         },
         {
-          "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
-          "source": "TechCrunch",
-          "company": "Humanoid",
+          "title": "Rocket Lab announces large launch contract and plans to acquire space robotics company",
+          "source": "SpaceNews",
+          "company": "Rocket Lab",
           "impact": "low",
-          "type": "news"
+          "type": "contract"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 54,
+      "count": 51,
       "items": [
         {
-          "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
-          "score": 1474,
-          "comments": 820,
+          "title": "Rumors of my death are slightly exaggerated",
+          "score": 1586,
+          "comments": 243,
           "companies": [
-            "Photonic Inc"
+            "Cover",
+            "Field AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=47989883"
+          "url": "https://news.ycombinator.com/item?id=48037336"
         },
         {
-          "title": "Mercedes-Benz commits to bringing back physical buttons",
-          "score": 696,
-          "comments": 392,
+          "title": "Cloudflare to cut about 20% of its workforce",
+          "score": 1293,
+          "comments": 932,
           "companies": [
-            "Apptronik"
+            "Rigetti Computing"
           ],
-          "url": "https://news.ycombinator.com/item?id=47997418"
+          "url": "https://news.ycombinator.com/item?id=48054423"
         },
         {
-          "title": "Dav2d",
-          "score": 605,
-          "comments": 174,
+          "title": "Google broke reCAPTCHA for de-googled Android users",
+          "score": 946,
+          "comments": 314,
           "companies": [
-            "Runway"
+            "Rigetti Computing"
           ],
-          "url": "https://news.ycombinator.com/item?id=47988504"
+          "url": "https://news.ycombinator.com/item?id=48067119"
         },
         {
-          "title": "DeepClaude \u2013 Claude Code agent loop with DeepSeek V4 Pro",
-          "score": 435,
-          "comments": 164,
+          "title": "Canvas online again as ShinyHunters threatens to leak schools\u2019 data",
+          "score": 904,
+          "comments": 613,
           "companies": [
-            "Anthropic"
+            "Alpha School"
           ],
-          "url": "https://news.ycombinator.com/item?id=48002136"
+          "url": "https://news.ycombinator.com/item?id=48055913"
         },
         {
-          "title": "OpenAI\u2019s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
-          "score": 389,
-          "comments": 331,
+          "title": "Dirty Frag: Universal Linux LPE",
+          "score": 803,
+          "comments": 315,
           "companies": [
-            "QuEra Computing",
-            "OpenAI"
+            "Cape",
+            "Percepto",
+            "ideaForge"
           ],
-          "url": "https://news.ycombinator.com/item?id=47991981"
+          "url": "https://news.ycombinator.com/item?id=48053623"
         },
         {
-          "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
-          "score": 361,
-          "comments": 217,
+          "title": "Google Cloud Fraud Defence is just WEI repackaged",
+          "score": 672,
+          "comments": 340,
           "companies": [
-            "OpenAI",
-            "Anthropic"
+            "Rigetti Computing"
           ],
-          "url": "https://news.ycombinator.com/item?id=47993235"
+          "url": "https://news.ycombinator.com/item?id=48063199"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 112,
+      "count": 106,
       "items": [
         {
-          "title": "Ambarella Announces First Quarter Fiscal Year 2027 Earnings Conference Call to be Held May 28, 2026",
+          "title": "Grupo Aeroportuario del Pacifico Announces Initiation of the Process to Establish a FIBRA",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "SKAGI: Reglubundin tilkynning um kaup \u00e1 eigin br\u00e9fum \u00ed samr\u00e6mi vi\u00f0 endurkaupa\u00e1\u00e6tlun \u2013 vika 18",
+          "title": "Elegance Moves the World: LEPAS L6 PHEV Global Journey of Elegant Driving Wraps Up",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "REITIR: Framkv\u00e6md endurkaupa\u00e1\u00e6tlunar \u00ed viku 18",
+          "title": "Where Aesthetics Meets Technology \u2014 LEPAS Milan Public Days Define Elegant Mobility",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Anmodning om oph\u00f8r af suspension af \u00e9n afdeling under Investeringsforeningen Sydinvest.",
+          "title": "iSpecimen Inc. Announces Pricing of Approximately $2.5 Million Private Placement",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Bavarian Nordic \u2013 Transactions in Connection with Share Buy-Back Program",
+          "title": "Amplia Therapeutics and Australia New Zealand Gynaecological Oncology Group (Anzgog) Announce Ovarian Cancer Study",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Bavarian Nordic \u2013 transaktioner i forbindelse med aktietilbagek\u00f8bsprogram",
+          "title": "electroCore to Present at the LD Micro Invitational XVI Conference on May 18, 2026",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-05-04-39d7ac8af4bf"
+  "brief_id": "brief-2026-05-10-dda2a9d72e47"
 }
