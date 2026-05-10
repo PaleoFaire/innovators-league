@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-09T07:46:28+00:00",
+  "generatedAt": "2026-05-10T07:59:20+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 44,
-  "newExtractionsThisRun": 43,
+  "cohortSize": 43,
+  "newExtractionsThisRun": 42,
   "summary": {
-    "cleared": 36,
-    "changesProposed": 8,
+    "cleared": 39,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
@@ -31,7 +31,10 @@
     "ICON",
     "Karman Industries",
     "Kyutai",
+    "Nuro",
+    "Nyobolt",
     "Palantir",
+    "Percepto",
     "Photonic Inc",
     "Pivotal",
     "QuantWare",
@@ -40,113 +43,14 @@
     "Rivian",
     "Rocket Lab",
     "Solugen",
-    "SpaceX",
     "Thinking Machines Lab",
     "True Anomaly",
     "Vast",
+    "Waymo",
     "ideaForge",
     "xAI"
   ],
   "changesProposed": [
-    {
-      "name": "Alpha School",
-      "current": {
-        "name": "Alpha School",
-        "founder": "MacKenzie Price, Brian Holtz",
-        "location": "Austin, Texas, United States",
-        "founded": 2014,
-        "fundingStage": "Private",
-        "totalRaised": "Self-funded \u00b7 ~$1B Liemandt commitment",
-        "website": "https://alpha.school"
-      },
-      "verified": {
-        "name": "Alpha School",
-        "description": "A private K-12 school network founded in 2014 that uses a proprietary '2 Hour Learning' instructional model combining software-based AI tutoring with life skills workshops. Students complete core academics in approximately two hours daily and spend afternoons on workshops and experiential learning.",
-        "founders": [
-          "MacKenzie Price",
-          "Brian Holtz"
-        ],
-        "location": "Austin, Texas, United States",
-        "founded_year": 2014,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Joe Liemandt",
-          "ESW Capital"
-        ],
-        "website": "https://alpha.school",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Wikipedia source [2] confirms 13 campuses as of April 2026 across Arizona, California, Florida, New York, Texas, and Virginia. Tuition ranges $10,000-$75,000 per year per source [2]. Joe Liemandt identified as principal in source [2]. Database entry references '~$1B Liemandt commitment' but no specific funding amount is verified in provided sources. Founded as spinoff of Acton Academy, formerly called Emergent Academy per source [2]."
-      },
-      "changes": [
-        {
-          "field": "investors",
-          "current": "[]",
-          "verified": [
-            "Joe Liemandt",
-            "ESW Capital"
-          ],
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://alpha.school"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://alpha.school/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alpha_School"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
-        }
-      ],
-      "notes": "Wikipedia source [2] confirms 13 campuses as of April 2026 across Arizona, California, Florida, New York, Texas, and Virginia. Tuition ranges $10,000-$75,000 per year per source [2]. Joe Liemandt identified as principal in source [2]. Database entry references '~$1B Liemandt commitment' but no specific funding amount is verified in provided sources. Founded as spinoff of Acton Academy, formerly called Emergent Academy per source [2]."
-    },
     {
       "name": "Fervo Energy",
       "current": {
@@ -160,7 +64,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "A geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. The company develops and operates next-generation geothermal projects including Project Red and Cape Station.",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. Operates projects including Project Red in Nevada and Cape Station development in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -180,11 +84,9 @@
         "sources_per_field": {
           "name": [
             0,
-            1,
             2
           ],
           "description": [
-            1,
             2
           ],
           "founders": [
@@ -207,11 +109,10 @@
           ],
           "website": [
             0,
-            1,
             2
           ]
         },
-        "notes": "Source [0] (company website) indicates IPO launch announced May 4, 2026, and registration statement filing announced April 17, 2026, placing company in Pre-IPO stage rather than public. Source [2] (Wikipedia) notes company received $462 million Series E funding in November 2025 led by B Capital. Database entry states 'IPO' but sources show Pre-IPO status as of filing dates in April-May 2026."
+        "notes": "Wikipedia lists company as 'Private' but website newsroom announces IPO launch (May 4, 2026) and registration statement filing (April 17, 2026), indicating Pre-IPO status. Most recent funding: $462M Series E in November 2025 led by B Capital. Database entry incorrectly states 'IPO' as current stage; company is in IPO process but not yet public."
       },
       "changes": [
         {
@@ -250,212 +151,7 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "Source [0] (company website) indicates IPO launch announced May 4, 2026, and registration statement filing announced April 17, 2026, placing company in Pre-IPO stage rather than public. Source [2] (Wikipedia) notes company received $462 million Series E funding in November 2025 led by B Capital. Database entry states 'IPO' but sources show Pre-IPO status as of filing dates in April-May 2026."
-    },
-    {
-      "name": "Nuro",
-      "current": {
-        "name": "Nuro",
-        "founder": "Dave Ferguson, Jiajun Zhu",
-        "location": "Mountain View, CA",
-        "founded": 2016,
-        "fundingStage": "Series G",
-        "totalRaised": "$2.84B",
-        "website": "https://nuro.ai"
-      },
-      "verified": {
-        "name": "Nuro",
-        "description": "American autonomous vehicle technology company that initially developed custom autonomous delivery vehicles and received the first NHTSA autonomous exemption. Since September 2024, focuses on licensing its proprietary Level 4 driving system, Nuro Driver, to automakers and mobility providers.",
-        "founders": [
-          "Jiajun Zhu",
-          "Dave Ferguson"
-        ],
-        "location": "Mountain View, California",
-        "founded_year": 2016,
-        "current_stage": "Series E",
-        "total_raised": "$2.84B+",
-        "valuation": "$6B",
-        "investors": [
-          "Greylock Partners",
-          "Gaorong Capital",
-          "SoftBank Group",
-          "T. Rowe Price",
-          "Uber",
-          "Nvidia"
-        ],
-        "website": "https://nuro.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company pivoted from autonomous delivery vehicles to licensing autonomous driving technology in September 2024. Most recent funding: August 2025 Series E closing with $203M at $6B valuation from Uber and Nvidia. Partnership with Uber and Lucid Motors announced July 2025 for 20,000+ robotaxis deployment over six years."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Mountain View, CA",
-          "verified": "Mountain View, California",
-          "sources": [
-            1,
-            2
-          ]
-        },
-        {
-          "field": "fundingStage",
-          "current": "Series G",
-          "verified": "Series E",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://nuro.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://nuro.ai/company"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nuro"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
-        }
-      ],
-      "notes": "Company pivoted from autonomous delivery vehicles to licensing autonomous driving technology in September 2024. Most recent funding: August 2025 Series E closing with $203M at $6B valuation from Uber and Nvidia. Partnership with Uber and Lucid Motors announced July 2025 for 20,000+ robotaxis deployment over six years."
-    },
-    {
-      "name": "Nyobolt",
-      "current": {
-        "name": "Nyobolt",
-        "founder": "Sai Shivareddy, Clare Grey",
-        "location": "Cambridge, UK",
-        "founded": 2019,
-        "fundingStage": "Series B",
-        "totalRaised": "$100M+",
-        "website": "https://nyobolt.com"
-      },
-      "verified": {
-        "name": "Nyobolt",
-        "description": "UK-based energy storage technology company developing high-power lithium-ion batteries with niobium-based anodes designed for ultrafast charging capable of 0-80% charge in under 5 minutes.",
-        "founders": [
-          "Clare Grey",
-          "Sai Shivareddy"
-        ],
-        "location": "Cambridge, United Kingdom",
-        "founded_year": 2019,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://nyobolt.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Database entry claims $150M contracted backlog and $100M+ total raised, but these specific figures are not found in provided sources. Sources mention Series A and B funding rounds and $30M recent funding (April 2025) but no total raised amount. No valuation data found in sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Cambridge, UK",
-          "verified": "Cambridge, United Kingdom",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://nyobolt.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://nyobolt.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nyobolt"
-        },
-        {
-          "idx": 3,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/"
-        }
-      ],
-      "notes": "Database entry claims $150M contracted backlog and $100M+ total raised, but these specific figures are not found in provided sources. Sources mention Series A and B funding rounds and $30M recent funding (April 2025) but no total raised amount. No valuation data found in sources."
+      "notes": "Wikipedia lists company as 'Private' but website newsroom announces IPO launch (May 4, 2026) and registration statement filing (April 17, 2026), indicating Pre-IPO status. Most recent funding: $462M Series E in November 2025 led by B Capital. Database entry incorrectly states 'IPO' as current stage; company is in IPO process but not yet public."
     },
     {
       "name": "OpenAI",
@@ -470,7 +166,7 @@
       },
       "verified": {
         "name": "OpenAI",
-        "description": "American artificial intelligence research organization that developed the GPT family of large language models, DALL-E text-to-image models, and Sora text-to-video models. Released ChatGPT in November 2022.",
+        "description": "American artificial intelligence research organization that developed the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models. Released ChatGPT in November 2022.",
         "founders": [
           "Elon Musk",
           "Sam Altman",
@@ -527,7 +223,7 @@
             1
           ]
         },
-        "notes": "Wikipedia states that in October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion. Company transitioned to for-profit capped entity in 2019. io Products, Inc. team merged with OpenAI in July 2025 per source 0."
+        "notes": "Founded as nonprofit in December 2015; transitioned to for-profit capped structure in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) with 26% ownership by nonprofit foundation. October 2025 share sale valued company at $500 billion. io Products, Inc. team merged with OpenAI in July 2025."
       },
       "changes": [
         {
@@ -562,45 +258,41 @@
         },
         {
           "idx": 4,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
         }
       ],
-      "notes": "Wikipedia states that in October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion. Company transitioned to for-profit capped entity in 2019. io Products, Inc. team merged with OpenAI in July 2025 per source 0."
+      "notes": "Founded as nonprofit in December 2015; transitioned to for-profit capped structure in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) with 26% ownership by nonprofit foundation. October 2025 share sale valued company at $500 billion. io Products, Inc. team merged with OpenAI in July 2025."
     },
     {
-      "name": "Percepto",
+      "name": "SpaceX",
       "current": {
-        "name": "Percepto",
-        "founder": "Dor Abuhasira, Ariel Avitan, Sagi Blonder, Raviv Raz",
-        "location": "Israel",
-        "founded": 2014,
-        "fundingStage": "Series C",
-        "totalRaised": "$128M",
-        "website": "https://percepto.co"
+        "name": "SpaceX",
+        "founder": "Elon Musk",
+        "location": "Starbase, Texas, U.S.",
+        "founded": 2002,
+        "fundingStage": "Series G",
+        "totalRaised": "$10B+",
+        "website": "https://spacex.com"
       },
       "verified": {
-        "name": "Percepto",
-        "description": "Autonomous drone technology and robotics for inspection and monitoring of critical infrastructure. The company develops drone-in-a-box solutions and AI-driven analysis software for industrial applications.",
+        "name": "SpaceX",
+        "description": "American aerospace and artificial intelligence company that develops reusable launch vehicles, spacecraft, and satellite constellation technology. Founded by Elon Musk in 2002, SpaceX conducts more orbital launches annually than any other launch provider.",
         "founders": [
-          "Dor Abuhasira",
-          "Ariel Avitan",
-          "Sagi Blonder",
-          "Raviv Raz"
+          "Elon Musk"
         ],
-        "location": "Israel, United States",
-        "founded_year": 2014,
-        "current_stage": null,
+        "location": "Starbase, Texas, U.S.",
+        "founded_year": 2002,
+        "current_stage": "Pre-IPO",
         "total_raised": null,
-        "valuation": null,
+        "valuation": "$800B",
         "investors": null,
-        "website": "https://percepto.co",
+        "website": "https://spacex.com",
         "sources_per_field": {
           "name": [
-            0
+            1
           ],
           "description": [
-            0,
             1
           ],
           "founders": [
@@ -612,17 +304,23 @@
           "founded_year": [
             1
           ],
+          "current_stage": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
           "website": [
-            0
+            1
           ]
         },
-        "notes": "Founded year 2014 confirmed via leadership biography stating 'Co-founding Percepto in 2014'. Location identified as both Israel and US based on source [1] stating 'visionary team based in the US and Israel'. No verifiable information found regarding current funding stage, total raised, valuation, or specific investor names in provided sources."
+        "notes": "Source 0 is a domain listing page and not a valid company information source. Source 2 references a future launch date (May 2026) but provides no new verified company facts. Source 3 mentions SpaceX orbital data center satellites but is not about SpaceX corporate facts. Source 5 is a SEC Form D filing showing a funding round but the amount ($9.7M) appears to be for 'SpaceX Investors 5 LLC' (likely an internal entity) and cannot be reliably attributed to total company fundraising without additional context. Wikipedia states IPO expected in 2026, supporting Pre-IPO designation."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Israel",
-          "verified": "Israel, United States",
+          "field": "fundingStage",
+          "current": "Series G",
+          "verified": "Pre-IPO",
           "sources": [
             1
           ]
@@ -632,20 +330,35 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://percepto.co"
+          "url": "https://spacex.ai"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://percepto.co/about"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SpaceX"
         },
         {
           "idx": 2,
-          "src": "news (Crunchbase News)",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/general/nasas-spacex-34th-commercial-resupply-mission-overview/"
+        },
+        {
+          "idx": 3,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
+        },
+        {
+          "idx": 4,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
+        },
+        {
+          "idx": 5,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133025&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "Founded year 2014 confirmed via leadership biography stating 'Co-founding Percepto in 2014'. Location identified as both Israel and US based on source [1] stating 'visionary team based in the US and Israel'. No verifiable information found regarding current funding stage, total raised, valuation, or specific investor names in provided sources."
+      "notes": "Source 0 is a domain listing page and not a valid company information source. Source 2 references a future launch date (May 2026) but provides no new verified company facts. Source 3 mentions SpaceX orbital data center satellites but is not about SpaceX corporate facts. Source 5 is a SEC Form D filing showing a funding round but the amount ($9.7M) appears to be for 'SpaceX Investors 5 LLC' (likely an internal entity) and cannot be reliably attributed to total company fundraising without additional context. Wikipedia states IPO expected in 2026, supporting Pre-IPO designation."
     },
     {
       "name": "Starcloud",
@@ -660,7 +373,7 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched its first test satellite, Starcloud-1, equipped with an Nvidia H100 GPU in November 2025.",
+        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In March 2026, the company became the fastest unicorn in Y Combinator history, hitting a $1.1 billion valuation 17 months after completing the program.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
@@ -715,7 +428,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 after a legal challenge from Lumen Technologies. Series A announced March 30, 2026, making it the fastest Y Combinator company to reach unicorn status at 17 months post-demo day."
+        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then relocated to Redmond, Washington in February 2024. Rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Starcloud-1 launched November 2025 with Nvidia H100 GPU. Wikipedia source indicates company was founded January 2024; database entry lists 2024 without specifying month."
       },
       "changes": [
         {
@@ -749,104 +462,7 @@
           "url": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
         }
       ],
-      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 after a legal challenge from Lumen Technologies. Series A announced March 30, 2026, making it the fastest Y Combinator company to reach unicorn status at 17 months post-demo day."
-    },
-    {
-      "name": "Waymo",
-      "current": {
-        "name": "Waymo",
-        "founder": "Sebastian Thrun, Anthony Levandowski",
-        "location": "Mountain View, CA",
-        "founded": 2016,
-        "fundingStage": "Late Stage",
-        "totalRaised": "$16B+",
-        "website": "https://waymo.com"
-      },
-      "verified": {
-        "name": "Waymo",
-        "description": "Autonomous driving technology company operating public commercial robotaxi services in multiple US metropolitan areas. As of March 2026, Waymo operates in 10 US metropolitan areas, provides 500,000 paid rides per week, and has logged 200 million fully autonomous miles.",
-        "founders": [
-          "Sebastian Thrun",
-          "Anthony Levandowski"
-        ],
-        "location": "Mountain View, California",
-        "founded_year": 2016,
-        "current_stage": "Pre-IPO",
-        "total_raised": "$16B",
-        "valuation": "$126B",
-        "investors": null,
-        "website": "https://waymo.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Wikipedia states Waymo was founded December 13, 2016, tracing origins to Stanford Racing Team (2004) and Google Self-Driving Car Project (January 17, 2009). February 2026 funding round valued company at $126B. Wikipedia indicates 500,000 paid rides per week as of March 2026; database entry references 200K+ paid rides per week which appears outdated. Current stage marked as 'Pre-IPO' as company remains subsidiary of Alphabet with no public IPO announced."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Mountain View, CA",
-          "verified": "Mountain View, California",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "fundingStage",
-          "current": "Late Stage",
-          "verified": "Pre-IPO",
-          "sources": []
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://waymo.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://waymo.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Waymo"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
-        }
-      ],
-      "notes": "Wikipedia states Waymo was founded December 13, 2016, tracing origins to Stanford Racing Team (2004) and Google Self-Driving Car Project (January 17, 2009). February 2026 funding round valued company at $126B. Wikipedia indicates 500,000 paid rides per week as of March 2026; database entry references 200K+ paid rides per week which appears outdated. Current stage marked as 'Pre-IPO' as company remains subsidiary of Alphabet with no public IPO announced."
+      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then relocated to Redmond, Washington in February 2024. Rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Starcloud-1 launched November 2025 with Nvidia H100 GPU. Wikipedia source indicates company was founded January 2024; database entry lists 2024 without specifying month."
     }
   ],
   "unverifiable": []

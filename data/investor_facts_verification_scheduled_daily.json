@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T07:47:00+00:00",
+  "generatedAt": "2026-05-10T07:59:50+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 3,
@@ -75,7 +75,7 @@
             0
           ]
         },
-        "notes": "In 2023, the investment fund separated from The Engine nonprofit accelerator and rebranded as Engine Ventures, a venture capital firm. The Engine remains a 501(c)(3) nonprofit incubator/accelerator as of 2025. Current resident companies across The Engine have collectively raised $5.5B in funding."
+        "notes": "Engine Ventures is the venture capital firm that spun out from The Engine in 2023. The Engine itself is a nonprofit incubator/accelerator founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or named current senior partners for Engine Ventures specifically. Source [4] is unrelated to Engine Ventures and was not used."
       },
       "changes": [
         {
@@ -112,14 +112,6 @@
           "sources": [
             1
           ]
-        },
-        {
-          "field": "thesis",
-          "current": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-          "verified": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-          "sources": [
-            3
-          ]
         }
       ],
       "sources": [
@@ -149,7 +141,7 @@
           "url": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
         }
       ],
-      "notes": "In 2023, the investment fund separated from The Engine nonprofit accelerator and rebranded as Engine Ventures, a venture capital firm. The Engine remains a 501(c)(3) nonprofit incubator/accelerator as of 2025. Current resident companies across The Engine have collectively raised $5.5B in funding."
+      "notes": "Engine Ventures is the venture capital firm that spun out from The Engine in 2023. The Engine itself is a nonprofit incubator/accelerator founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or named current senior partners for Engine Ventures specifically. Source [4] is unrelated to Engine Ventures and was not used."
     }
   ],
   "unverifiable": []
