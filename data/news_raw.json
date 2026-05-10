@@ -1,5 +1,27 @@
 [
   {
+    "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
+    "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+    "description": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
+    "pubDate": "Sun, 10 May 2026 15:34:25 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "SpaceX",
+      "xAI"
+    ],
+    "sectors": [
+      "ai",
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
     "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
     "description": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed t",
@@ -223,6 +245,26 @@
     "time": "2d ago"
   },
   {
+    "title": "Anthropic vs European AI",
+    "link": "https://sifted.eu/articles/anthropic-vs-european-ai-podcast/",
+    "description": "",
+    "pubDate": "Thu, 07 May 2026 16:44:09 GMT",
+    "category": "",
+    "source": "Sifted",
+    "feedCategory": "startups",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Kyutai"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
     "title": "EnGene's shares crash on updated pivotal bladder cancer data",
     "link": "https://endpoints.news/engenes-shares-crash-on-updated-pivotal-bladder-cancer-data/",
     "description": "EnGene’s latest Phase 2 results on an experimental treatment for certain bladder cancer patients alarmed investors and raised concerns around the therapy’s future prospects.\r\n\r\n The Canadian biotech's shares {$ENGN} fell 80% Thursday morning after reporting ...",
@@ -239,7 +281,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Anthropic to consider using SpaceX orbital data center satellites",
@@ -303,6 +345,25 @@
       "quantum",
       "consumer",
       "housing"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "3d ago"
+  },
+  {
+    "title": "Quantum Motion raises $160m Series C as quantum sector heats up",
+    "link": "https://sifted.eu/articles/quantum-motion-series-c/",
+    "description": "",
+    "pubDate": "Thu, 07 May 2026 10:20:56 GMT",
+    "category": "",
+    "source": "Sifted",
+    "feedCategory": "startups",
+    "matchedCompany": "Quantum Motion",
+    "matchedCompanies": [
+      "Quantum Motion"
+    ],
+    "sectors": [
+      "quantum"
     ],
     "type": "funding",
     "impact": "high",
@@ -373,6 +434,25 @@
     "time": "3d ago"
   },
   {
+    "title": "Silo founder raises €25m for 'Palantir of quantum computing'",
+    "link": "https://sifted.eu/articles/qutwo-hugging-face-legora-funding-round/",
+    "description": "",
+    "pubDate": "Wed, 06 May 2026 05:00:20 GMT",
+    "category": "",
+    "source": "Sifted",
+    "feedCategory": "startups",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "low",
+    "time": "4d ago"
+  },
+  {
     "title": "Rivian (RIVN) mulls making its own lidar as it builds full autonomous driving stack",
     "link": "https://electrek.co/2026/05/05/rivian-rivn-mulls-in-house-lidar-autonomous-driving-stack/",
     "description": "Rivian is considering manufacturing its own lidar sensors in the United States, potentially through a partnership with Chinese firms, as the EV maker aggressively vertically integrates its entire autonomous driving stack.\n\n\n\nThe move would add in-house lidar production to an autonomy strategy that a",
@@ -390,6 +470,34 @@
     "type": "news",
     "impact": "low",
     "time": "4d ago"
+  },
+  {
+    "title": "Intel's VC arm backs quantum startup Quantware in $178m Series B to kick-start production at ‘industrial scale’",
+    "link": "https://sifted.eu/articles/intel-quantware-178m-series-b/",
+    "description": "",
+    "pubDate": "Tue, 05 May 2026 14:00:19 GMT",
+    "category": "",
+    "source": "Sifted",
+    "feedCategory": "startups",
+    "matchedCompany": "QuantWare",
+    "matchedCompanies": [
+      "QuantWare",
+      "Karman Industries",
+      "Solugen",
+      "Gecko Robotics",
+      "Teralta",
+      "Dust"
+    ],
+    "sectors": [
+      "quantum",
+      "climate",
+      "robotics",
+      "infrastructure",
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "5d ago"
   },
   {
     "title": "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest shareholder with 15.9% stake",
