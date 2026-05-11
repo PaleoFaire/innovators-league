@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T19:03:51.706060+00:00",
+  "generatedAt": "2026-05-11T20:50:33.036583+00:00",
   "date": "2026-05-11",
   "dateDisplay": "Monday, May 11, 2026",
   "sections": {
@@ -72,16 +72,23 @@
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 117.04,
-        "changePercent": 45.74,
-        "change": 36.73
+        "price": 118.46,
+        "changePercent": 47.5,
+        "change": 38.15
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 11.62,
+        "changePercent": 36.71,
+        "change": 3.12
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 460.89,
-        "changePercent": 34.95,
-        "change": 119.35
+        "price": 458.64,
+        "changePercent": 34.29,
+        "change": 117.1
       },
       {
         "ticker": "277810.KQ",
@@ -93,37 +100,30 @@
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 32.15,
-        "changePercent": 26.82,
-        "change": 6.8
+        "price": 32.62,
+        "changePercent": 28.66,
+        "change": 7.27
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 56.77,
-        "changePercent": 24.1,
-        "change": 11.02
+        "price": 56.92,
+        "changePercent": 24.42,
+        "change": 11.17
       },
       {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 10.79,
-        "changePercent": 21.78,
-        "change": 1.93
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 8.76,
+        "changePercent": 24.08,
+        "change": 1.7
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 28.4,
-        "changePercent": 21.78,
-        "change": 5.08
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 82.33,
-        "changePercent": 20.31,
-        "change": 13.9
+        "price": 28.2,
+        "changePercent": 20.93,
+        "change": 4.88
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB +45.7%"
+    "topMover": "RKLB +47.5%"
   }
 }
