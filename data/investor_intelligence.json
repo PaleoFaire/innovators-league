@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-11T04:16:19+00:00",
+  "generatedAt": "2026-05-11T08:31:30+00:00",
   "stats": {
     "companies": 873,
     "vcFirms": 31,
-    "uniqueClusters": 104,
-    "totalInvestments": 258
+    "uniqueClusters": 105,
+    "totalInvestments": 266
   },
   "concentration": {
     "Founders Fund": {
@@ -46,10 +46,11 @@
         ]
       },
       "manufacturing-reshoring": {
-        "count": 2,
+        "count": 3,
         "companies": [
           "DIRAC",
-          "Senra Systems"
+          "Senra Systems",
+          "Amca"
         ]
       },
       "biotech-cell-reprogramming": {
@@ -178,6 +179,12 @@
         "count": 1,
         "companies": [
           "Senra Systems"
+        ]
+      },
+      "data-center-infrastructure": {
+        "count": 1,
+        "companies": [
+          "Claros"
         ]
       },
       "semiconductor-advanced-materials": {
@@ -376,6 +383,12 @@
           "Formic"
         ]
       },
+      "manufacturing-reshoring": {
+        "count": 1,
+        "companies": [
+          "Amca"
+        ]
+      },
       "ai-autonomous-driving": {
         "count": 1,
         "companies": [
@@ -395,8 +408,9 @@
         ]
       },
       "biotech-lab-automation": {
-        "count": 1,
+        "count": 2,
         "companies": [
+          "Medra",
           "Multiply Labs"
         ]
       },
@@ -594,6 +608,12 @@
         "count": 1,
         "companies": [
           "Saronic"
+        ]
+      },
+      "manufacturing-reshoring": {
+        "count": 1,
+        "companies": [
+          "Amca"
         ]
       }
     },
@@ -830,6 +850,12 @@
         "companies": [
           "MatX"
         ]
+      },
+      "proteomics": {
+        "count": 1,
+        "companies": [
+          "Glyphic Biotechnologies"
+        ]
       }
     },
     "Khosla Ventures": {
@@ -933,6 +959,62 @@
         "count": 1,
         "companies": [
           "Ultima Genomics"
+        ]
+      }
+    },
+    "Eclipse Ventures": {
+      "nuclear-services-fuel": {
+        "count": 1,
+        "companies": [
+          "The Nuclear Company"
+        ]
+      },
+      "maritime-electric-transport": {
+        "count": 1,
+        "companies": [
+          "Arc Boats"
+        ]
+      },
+      "space-ground-comms": {
+        "count": 1,
+        "companies": [
+          "True Anomaly"
+        ]
+      },
+      "ai-autonomous-driving": {
+        "count": 1,
+        "companies": [
+          "Wayve"
+        ]
+      },
+      "robotics-construction-mining": {
+        "count": 1,
+        "companies": [
+          "Bedrock Robotics"
+        ]
+      },
+      "additive-manufacturing": {
+        "count": 1,
+        "companies": [
+          "VulcanForms"
+        ]
+      },
+      "industrial-ai-manufacturing": {
+        "count": 1,
+        "companies": [
+          "Augury"
+        ]
+      },
+      "commercial-robotics": {
+        "count": 1,
+        "companies": [
+          "Simbe Robotics"
+        ]
+      },
+      "next-gen-batteries": {
+        "count": 1,
+        "companies": [
+          "Enovix"
         ]
       }
     },
@@ -1326,6 +1408,14 @@
         ]
       }
     },
+    "Construct Capital": {
+      "manufacturing-reshoring": {
+        "count": 1,
+        "companies": [
+          "Amca"
+        ]
+      }
+    },
     "Breakthrough Energy Ventures": {
       "synfuels-solar": {
         "count": 1,
@@ -1417,56 +1507,6 @@
         ]
       }
     },
-    "Eclipse Ventures": {
-      "maritime-electric-transport": {
-        "count": 1,
-        "companies": [
-          "Arc Boats"
-        ]
-      },
-      "space-ground-comms": {
-        "count": 1,
-        "companies": [
-          "True Anomaly"
-        ]
-      },
-      "ai-autonomous-driving": {
-        "count": 1,
-        "companies": [
-          "Wayve"
-        ]
-      },
-      "robotics-construction-mining": {
-        "count": 1,
-        "companies": [
-          "Bedrock Robotics"
-        ]
-      },
-      "additive-manufacturing": {
-        "count": 1,
-        "companies": [
-          "VulcanForms"
-        ]
-      },
-      "industrial-ai-manufacturing": {
-        "count": 1,
-        "companies": [
-          "Augury"
-        ]
-      },
-      "commercial-robotics": {
-        "count": 1,
-        "companies": [
-          "Simbe Robotics"
-        ]
-      },
-      "next-gen-batteries": {
-        "count": 1,
-        "companies": [
-          "Enovix"
-        ]
-      }
-    },
     "Cantos Ventures": {
       "carbon-capture-utilization": {
         "count": 1,
@@ -1555,7 +1595,12 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 1.0
+        "share": 0.5
+      },
+      {
+        "vc": "Eclipse Ventures",
+        "count": 1,
+        "share": 0.5
       }
     ],
     "space-habitats-manufacturing": [
@@ -1629,23 +1674,28 @@
     "manufacturing-reshoring": [
       {
         "vc": "Founders Fund",
-        "count": 2,
-        "share": 0.4
+        "count": 3,
+        "share": 0.3333
       },
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.2
+        "share": 0.1111
       },
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.2
+        "share": 0.1111
       },
       {
-        "vc": "Sequoia Capital",
+        "vc": "Lux Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.1111
+      },
+      {
+        "vc": "Caffeinated Capital",
+        "count": 1,
+        "share": 0.1111
       }
     ],
     "biotech-cell-reprogramming": [
@@ -1766,39 +1816,39 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.2
+        "share": 0.1667
+      },
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.1667
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.2
+        "share": 0.1667
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.1667
       },
       {
         "vc": "DCVC (Data Collective)",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Lowercarbon Capital",
-        "count": 1,
-        "share": 0.2
+        "share": 0.1667
       }
     ],
     "biotech-lab-automation": [
       {
-        "vc": "Founders Fund",
-        "count": 1,
-        "share": 0.5
+        "vc": "Lux Capital",
+        "count": 2,
+        "share": 0.6667
       },
       {
-        "vc": "Lux Capital",
+        "vc": "Founders Fund",
         "count": 1,
-        "share": 0.5
+        "share": 0.3333
       }
     ],
     "robotics-construction-mining": [
@@ -1862,17 +1912,17 @@
         "share": 0.2
       },
       {
+        "vc": "Eclipse Ventures",
+        "count": 1,
+        "share": 0.2
+      },
+      {
         "vc": "Lowercarbon Capital",
         "count": 1,
         "share": 0.2
       },
       {
         "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Eclipse Ventures",
         "count": 1,
         "share": 0.2
       }
@@ -2555,6 +2605,13 @@
         "share": 0.3333
       }
     ],
+    "proteomics": [
+      {
+        "vc": "Harpoon Ventures",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
     "nuclear-smr-advanced": [
       {
         "vc": "Khosla Ventures",
@@ -2620,6 +2677,20 @@
         "vc": "Khosla Ventures",
         "count": 1,
         "share": 0.3333
+      }
+    ],
+    "additive-manufacturing": [
+      {
+        "vc": "Eclipse Ventures",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
+    "next-gen-batteries": [
+      {
+        "vc": "Eclipse Ventures",
+        "count": 1,
+        "share": 1.0
       }
     ],
     "quantum-neutral-atom": [
@@ -2874,20 +2945,6 @@
         "share": 1.0
       }
     ],
-    "additive-manufacturing": [
-      {
-        "vc": "Eclipse Ventures",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "next-gen-batteries": [
-      {
-        "vc": "Eclipse Ventures",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
     "autonomous-freight-electrification": [
       {
         "vc": "Cantos Ventures",
@@ -2941,9 +2998,9 @@
     {
       "vc": "Founders Fund",
       "recentCount": 12,
-      "totalCount": 26,
-      "score": 14.638,
-      "topCluster": "autonomy-drone-military",
+      "totalCount": 27,
+      "score": 14.799,
+      "topCluster": "manufacturing-reshoring",
       "recentExamples": [
         {
           "company": "Ultima Genomics",
@@ -2975,9 +3032,9 @@
     {
       "vc": "Lux Capital",
       "recentCount": 11,
-      "totalCount": 20,
-      "score": 12.834,
-      "topCluster": "ai-drug-discovery",
+      "totalCount": 22,
+      "score": 13.217,
+      "topCluster": "biotech-lab-automation",
       "recentExamples": [
         {
           "company": "Xaira Therapeutics",
@@ -3145,8 +3202,8 @@
     {
       "vc": "General Catalyst",
       "recentCount": 7,
-      "totalCount": 15,
-      "score": 8.911,
+      "totalCount": 16,
+      "score": 9.106,
       "topCluster": "autonomy-drone-military",
       "recentExamples": [
         {
@@ -3245,6 +3302,40 @@
       ]
     },
     {
+      "vc": "Eclipse Ventures",
+      "recentCount": 6,
+      "totalCount": 9,
+      "score": 6.747,
+      "topCluster": "nuclear-services-fuel",
+      "recentExamples": [
+        {
+          "company": "Augury",
+          "cluster": "industrial-ai-manufacturing",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Simbe Robotics",
+          "cluster": "commercial-robotics",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Enovix",
+          "cluster": "next-gen-batteries",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "The Nuclear Company",
+          "cluster": "nuclear-services-fuel",
+          "addedDate": "2026-02"
+        },
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
       "vc": "Breakthrough Energy Ventures",
       "recentCount": 4,
       "totalCount": 16,
@@ -3298,40 +3389,6 @@
         {
           "company": "Osmo",
           "cluster": "consumer-hardware",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
-      "vc": "Eclipse Ventures",
-      "recentCount": 5,
-      "totalCount": 8,
-      "score": 5.771,
-      "topCluster": "maritime-electric-transport",
-      "recentExamples": [
-        {
-          "company": "Augury",
-          "cluster": "industrial-ai-manufacturing",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Simbe Robotics",
-          "cluster": "commercial-robotics",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Enovix",
-          "cluster": "next-gen-batteries",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "VulcanForms",
-          "cluster": "additive-manufacturing",
           "addedDate": "2026-02"
         }
       ]
@@ -3414,6 +3471,30 @@
       ]
     },
     {
+      "vc": "Harpoon Ventures",
+      "recentCount": 3,
+      "totalCount": 4,
+      "score": 3.111,
+      "topCluster": "nuclear-microreactor",
+      "recentExamples": [
+        {
+          "company": "MatX",
+          "cluster": "ai-semiconductor-architecture",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Glyphic Biotechnologies",
+          "cluster": "proteomics",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "General Galactic",
+          "cluster": "synfuels-solar",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
       "vc": "Alumni Ventures",
       "recentCount": 2,
       "totalCount": 6,
@@ -3452,25 +3533,6 @@
       ]
     },
     {
-      "vc": "Harpoon Ventures",
-      "recentCount": 2,
-      "totalCount": 3,
-      "score": 2.101,
-      "topCluster": "nuclear-microreactor",
-      "recentExamples": [
-        {
-          "company": "MatX",
-          "cluster": "ai-semiconductor-architecture",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "General Galactic",
-          "cluster": "synfuels-solar",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
       "vc": "Shield Capital",
       "recentCount": 2,
       "totalCount": 3,
@@ -3504,6 +3566,20 @@
       ]
     },
     {
+      "vc": "Caffeinated Capital",
+      "recentCount": 1,
+      "totalCount": 2,
+      "score": 1.099,
+      "topCluster": "autonomy-maritime",
+      "recentExamples": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
       "vc": "Prime Movers Lab",
       "recentCount": 1,
       "totalCount": 2,
@@ -3514,20 +3590,6 @@
           "company": "Overview Energy",
           "cluster": "space-based-power",
           "addedDate": "2026-03"
-        }
-      ]
-    },
-    {
-      "vc": "Caffeinated Capital",
-      "recentCount": 1,
-      "totalCount": 1,
-      "score": 0.693,
-      "topCluster": "autonomy-maritime",
-      "recentExamples": [
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "addedDate": "2026-02"
         }
       ]
     },
@@ -3551,6 +3613,14 @@
       "totalCount": 2,
       "score": 0.0,
       "topCluster": "ai-robotics-embodied",
+      "recentExamples": []
+    },
+    {
+      "vc": "Construct Capital",
+      "recentCount": 0,
+      "totalCount": 1,
+      "score": 0.0,
+      "topCluster": "manufacturing-reshoring",
       "recentExamples": []
     },
     {
@@ -3642,6 +3712,10 @@
       "investmentCount": 9
     },
     {
+      "cluster": "manufacturing-reshoring",
+      "investmentCount": 9
+    },
+    {
       "cluster": "defense-ew-rf-cyber",
       "investmentCount": 8
     },
@@ -3654,6 +3728,10 @@
       "investmentCount": 7
     },
     {
+      "cluster": "data-center-infrastructure",
+      "investmentCount": 6
+    },
+    {
       "cluster": "ai-robotics-embodied",
       "investmentCount": 6
     },
@@ -3662,15 +3740,7 @@
       "investmentCount": 5
     },
     {
-      "cluster": "manufacturing-reshoring",
-      "investmentCount": 5
-    },
-    {
       "cluster": "fusion-alternative",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "data-center-infrastructure",
       "investmentCount": 5
     },
     {
@@ -3738,6 +3808,10 @@
       "investmentCount": 3
     },
     {
+      "cluster": "biotech-lab-automation",
+      "investmentCount": 3
+    },
+    {
       "cluster": "space-communications",
       "investmentCount": 3
     },
@@ -3751,10 +3825,6 @@
     },
     {
       "cluster": "ai-semiconductor-architecture",
-      "investmentCount": 3
-    },
-    {
-      "cluster": "defense-power-systems",
       "investmentCount": 3
     }
   ]
