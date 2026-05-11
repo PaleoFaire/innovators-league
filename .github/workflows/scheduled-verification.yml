@@ -265,6 +265,16 @@ jobs:
             exit 0
           fi
 
+          # ── JS-PARSE GUARD ──
+          # Stricter than the existing string-aware brace counter above.
+          # Two outages on 2026-05-11 (embedded \r, embedded \") showed
+          # that brace-balance can pass while JS parse still fails.
+          node --check data.js 2>&1 | tee /tmp/parse_check.txt | head -20
+          if grep -qE 'SyntaxError|ParseError' /tmp/parse_check.txt; then
+            echo "::error::data.js failed JS parse. Refusing to commit."
+            exit 1
+          fi
+
           MODE="${{ steps.cadence.outputs.mode }}"
           ENTITY="${{ steps.cadence.outputs.entity }}"
           git commit -m "🔄 Scheduled verification (${MODE}, ${ENTITY})"

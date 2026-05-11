@@ -704,6 +704,15 @@ jobs:
               grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null
               exit 1
             fi
+            # ── JS-PARSE GUARD ──
+            # Two outages on 2026-05-11 from cron-aggregated content with
+            # embedded \r and embedded \" — both took the live site down.
+            # Block any commit that doesn't pass node --check.
+            node --check data.js 2>&1 | tee /tmp/parse_check.txt | head -20
+            if grep -qE 'SyntaxError|ParseError' /tmp/parse_check.txt; then
+              echo "::error::data.js failed JS parse. Refusing to commit."
+              exit 1
+            fi
             git commit -m "🤖 Auto-update: Comprehensive data sync $(date +%Y-%m-%d)"
             if git push; then
               echo "Pushed on attempt $attempt"

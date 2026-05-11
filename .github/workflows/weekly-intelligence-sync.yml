@@ -265,6 +265,14 @@ jobs:
               echo "No changes to commit on attempt $attempt."
               exit 0
             fi
+            # ── JS-PARSE GUARD ──
+            # Two outages on 2026-05-11 from cron-aggregated content.
+            # Block any commit that doesn't pass node --check.
+            node --check data.js 2>&1 | tee /tmp/parse_check.txt | head -20
+            if grep -qE 'SyntaxError|ParseError' /tmp/parse_check.txt; then
+              echo "::error::data.js failed JS parse. Refusing to commit."
+              exit 1
+            fi
             git commit -m "📊 Weekly Intelligence Sync $(date +%Y-%m-%d) — Frontier Index + proprietary metrics refresh"
             if git push; then
               echo "Pushed on attempt $attempt"
