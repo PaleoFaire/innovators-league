@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T11:21:33.694951+00:00",
+  "generated_at": "2026-05-11T12:06:14.904231+00:00",
   "total": 125,
   "fresh_count": 115,
   "stale_count": 5,
@@ -12,26 +12,26 @@
       "status": "fresh",
       "size_bytes": 225875,
       "cadence_days": 14,
-      "last_updated": "2026-05-09T08:26:12+00:00",
-      "age_hours": 26.9
+      "last_updated": "2026-05-11T10:30:46+00:00",
+      "age_hours": 1.6
     },
     {
       "file": "arxiv_papers_auto.js",
       "label": "arXiv Papers",
       "status": "fresh",
-      "size_bytes": 9851,
+      "size_bytes": 9796,
       "cadence_days": 3,
-      "last_updated": "2026-05-09T08:23:46+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:28:00+00:00",
+      "age_hours": 1.6
     },
     {
       "file": "basket_prices_auto.json",
       "label": "Basket Prices",
       "status": "fresh",
-      "size_bytes": 19156,
+      "size_bytes": 19155,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:31.650160+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.170538+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "bill_of_lading_auto.js",
@@ -39,8 +39,8 @@
       "status": "fresh",
       "size_bytes": 9143,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T10:17:34+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:32+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "bill_of_lading_auto.json",
@@ -48,8 +48,8 @@
       "status": "fresh",
       "size_bytes": 13028,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:34+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:32+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "budget_signals_auto.js",
@@ -57,8 +57,8 @@
       "status": "fresh",
       "size_bytes": 3172,
       "cadence_days": 7,
-      "last_updated": "2026-05-10T08:13:25+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:45+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "budget_signals_auto.json",
@@ -66,8 +66,8 @@
       "status": "fresh",
       "size_bytes": 3059,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:31.649160+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.170538+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "clinical_trials_auto.js",
@@ -75,8 +75,8 @@
       "status": "fresh",
       "size_bytes": 11794,
       "cadence_days": 3,
-      "last_updated": "2026-05-09T08:23:31+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:16+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "comp_sets_auto.js",
@@ -85,7 +85,7 @@
       "size_bytes": 6807516,
       "cadence_days": 14,
       "last_updated": "2026-05-10T00:00:00+00:00",
-      "age_hours": 11.4
+      "age_hours": 36.1
     },
     {
       "file": "comp_sets_auto.json",
@@ -93,8 +93,8 @@
       "status": "fresh",
       "size_bytes": 6807330,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.056170+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.282540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "conference_presence_auto.json",
@@ -102,8 +102,8 @@
       "status": "fresh",
       "size_bytes": 28956,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.066171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.284540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "congress_bills_auto.js",
@@ -111,8 +111,8 @@
       "status": "fresh",
       "size_bytes": 5675,
       "cadence_days": 3,
-      "last_updated": "2026-05-10T11:21:32.065171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.220706+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "congress_bills_auto.json",
@@ -120,8 +120,8 @@
       "status": "fresh",
       "size_bytes": 5610,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.065171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.220765+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "contractor_readiness_auto.js",
@@ -129,8 +129,8 @@
       "status": "fresh",
       "size_bytes": 77096,
       "cadence_days": 7,
-      "last_updated": "2026-05-10T08:13:25+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:45+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "contractor_readiness_auto.json",
@@ -138,17 +138,17 @@
       "status": "fresh",
       "size_bytes": 76919,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.068171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.284540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "daily_digest.json",
       "label": "Frontier Daily",
       "status": "fresh",
-      "size_bytes": 7031,
+      "size_bytes": 7093,
       "cadence_days": 1,
-      "last_updated": "2026-05-10T11:21:32.066171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.284540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "darpa_programs_auto.js",
@@ -157,7 +157,7 @@
       "size_bytes": 640339,
       "cadence_days": 14,
       "last_updated": "2026-04-27T00:00:00+00:00",
-      "age_hours": 323.4
+      "age_hours": 348.1
     },
     {
       "file": "darpa_programs_auto.json",
@@ -165,8 +165,8 @@
       "status": "fresh",
       "size_bytes": 640133,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.089171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.286540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "deals_auto.json",
@@ -174,8 +174,8 @@
       "status": "fresh",
       "size_bytes": 38727,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.086171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.287540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "deception_scores_auto.js",
@@ -183,8 +183,8 @@
       "status": "fresh",
       "size_bytes": 6436,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T10:17:43+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:37+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "deception_scores_auto.json",
@@ -192,8 +192,8 @@
       "status": "fresh",
       "size_bytes": 7459,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:43+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:37+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "demand_signals_auto.js",
@@ -201,8 +201,8 @@
       "status": "fresh",
       "size_bytes": 155757,
       "cadence_days": 3,
-      "last_updated": "2026-05-09T08:23:24+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:25+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "demand_signals_auto.json",
@@ -210,17 +210,17 @@
       "status": "fresh",
       "size_bytes": 169027,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.089171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.220986+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "diffbot_enrichment_auto.js",
       "label": "Diffbot Enrichment",
       "status": "fresh",
-      "size_bytes": 53305,
+      "size_bytes": 53895,
       "cadence_days": 7,
-      "last_updated": "2026-05-09T12:34:58+00:00",
-      "age_hours": 22.8
+      "last_updated": "2026-05-11T11:59:00+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "discovery_queue_auto.js",
@@ -229,7 +229,7 @@
       "size_bytes": 48214,
       "cadence_days": 14,
       "last_updated": "2026-05-10T00:00:00+00:00",
-      "age_hours": 11.4
+      "age_hours": 36.1
     },
     {
       "file": "discovery_queue_auto.json",
@@ -237,8 +237,8 @@
       "status": "fresh",
       "size_bytes": 48004,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.088171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.289540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "doe_programs_auto.js",
@@ -246,8 +246,8 @@
       "status": "fresh",
       "size_bytes": 4026,
       "cadence_days": 14,
-      "last_updated": "2026-05-09T08:23:48+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:11+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "dsca_fms_auto.js",
@@ -255,8 +255,8 @@
       "status": "fresh",
       "size_bytes": 6213,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T10:17:32+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:29+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "dsca_fms_auto.json",
@@ -264,16 +264,16 @@
       "status": "fresh",
       "size_bytes": 7730,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:32+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:29+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "earnings_signals_auto.json",
       "label": "Earnings Signals",
       "status": "fresh",
-      "size_bytes": 19852,
+      "size_bytes": 19904,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.087171+00:00",
+      "last_updated": "2026-05-11T12:05:08.889408+00:00",
       "age_hours": 0.0
     },
     {
@@ -282,7 +282,7 @@
       "status": "fresh",
       "size_bytes": 150671,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.089171+00:00",
+      "last_updated": "2026-05-11T12:05:57.619238+00:00",
       "age_hours": 0.0
     },
     {
@@ -291,8 +291,8 @@
       "status": "fresh",
       "size_bytes": 1449,
       "cadence_days": 3,
-      "last_updated": "2026-05-10T08:13:25+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:45+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "expert_takes_auto.json",
@@ -300,8 +300,8 @@
       "status": "fresh",
       "size_bytes": 1288,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T08:13:24+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:44+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "export_controls_auto.js",
@@ -309,8 +309,8 @@
       "status": "fresh",
       "size_bytes": 512,
       "cadence_days": 14,
-      "last_updated": "2026-05-09T12:42:15+00:00",
-      "age_hours": 22.7
+      "last_updated": "2026-05-11T12:06:14+00:00",
+      "age_hours": 0.0
     },
     {
       "file": "faa_certification_auto.js",
@@ -318,8 +318,8 @@
       "status": "fresh",
       "size_bytes": 11809,
       "cadence_days": 7,
-      "last_updated": "2026-05-10T11:21:32.086171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.221476+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "faa_certification_auto.json",
@@ -327,8 +327,8 @@
       "status": "fresh",
       "size_bytes": 11741,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.086171+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.221590+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "factory_watch_auto.js",
@@ -337,7 +337,7 @@
       "size_bytes": 90016,
       "cadence_days": 14,
       "last_updated": "2026-04-23T05:07:36+00:00",
-      "age_hours": 414.2
+      "age_hours": 439.0
     },
     {
       "file": "factory_watch_auto.json",
@@ -346,7 +346,7 @@
       "size_bytes": 89746,
       "cadence_days": 14,
       "last_updated": "2026-04-23T05:07:36+00:00",
-      "age_hours": 414.2
+      "age_hours": 439.0
     },
     {
       "file": "fcc_licenses_auto.js",
@@ -354,8 +354,8 @@
       "status": "fresh",
       "size_bytes": 5067,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T10:17:31+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:28+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "fcc_licenses_auto.json",
@@ -363,8 +363,8 @@
       "status": "fresh",
       "size_bytes": 5860,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:31+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:28+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "federal_grants_auto.json",
@@ -372,35 +372,35 @@
       "status": "fresh",
       "size_bytes": 555246,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.091172+00:00",
+      "last_updated": "2026-05-11T12:05:37.056941+00:00",
       "age_hours": 0.0
     },
     {
       "file": "federal_register_auto.js",
       "label": "Federal Register",
       "status": "fresh",
-      "size_bytes": 7261,
+      "size_bytes": 6998,
       "cadence_days": 2,
-      "last_updated": "2026-05-09T08:23:23+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:05+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "form_d_filings_auto.js",
       "label": "Form D Filings",
       "status": "fresh",
-      "size_bytes": 3993,
+      "size_bytes": 4028,
       "cadence_days": 14,
-      "last_updated": "2026-05-09T12:42:08+00:00",
-      "age_hours": 22.7
+      "last_updated": "2026-05-11T12:06:12+00:00",
+      "age_hours": 0.0
     },
     {
       "file": "form_d_filings_auto.json",
       "label": "Form D Filings",
       "status": "fresh",
-      "size_bytes": 3802,
+      "size_bytes": 3837,
       "cadence_days": 14,
-      "last_updated": "2026-05-09T12:42:08+00:00",
-      "age_hours": 22.7
+      "last_updated": "2026-05-11T12:06:12+00:00",
+      "age_hours": 0.0
     },
     {
       "file": "founder_insights_auto.js",
@@ -409,7 +409,7 @@
       "size_bytes": 21136,
       "cadence_days": 14,
       "last_updated": "2026-05-10T00:00:00+00:00",
-      "age_hours": 11.4
+      "age_hours": 36.1
     },
     {
       "file": "founder_insights_auto.json",
@@ -417,8 +417,8 @@
       "status": "fresh",
       "size_bytes": 20922,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.169173+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.294540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "founder_mafias_auto.js",
@@ -426,8 +426,8 @@
       "status": "fresh",
       "size_bytes": 4417,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T08:13:25+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:45+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "founder_mafias_auto.json",
@@ -435,8 +435,8 @@
       "status": "fresh",
       "size_bytes": 4252,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.130172+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.294540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "fund_intelligence_auto.js",
@@ -444,8 +444,8 @@
       "status": "fresh",
       "size_bytes": 4484,
       "cadence_days": 7,
-      "last_updated": "2026-05-10T08:13:25+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:45+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "fund_intelligence_auto.json",
@@ -453,8 +453,8 @@
       "status": "fresh",
       "size_bytes": 4313,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T08:13:25+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:44+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "funding_tracker_auto.json",
@@ -462,26 +462,26 @@
       "status": "fresh",
       "size_bytes": 30569,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.169173+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.294540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "github_signals_auto.json",
       "label": "Github Signals",
       "status": "fresh",
-      "size_bytes": 14862,
+      "size_bytes": 14877,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.130172+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.222022+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "gov_contracts_auto.js",
       "label": "Gov Contracts",
       "status": "fresh",
-      "size_bytes": 6765,
+      "size_bytes": 6751,
       "cadence_days": 2,
-      "last_updated": "2026-05-10T08:12:37+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:48:54+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "gov_demand_summary_auto.js",
@@ -489,8 +489,8 @@
       "status": "fresh",
       "size_bytes": 7055,
       "cadence_days": 7,
-      "last_updated": "2026-05-10T08:13:25+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:45+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "gov_demand_summary_auto.json",
@@ -498,17 +498,17 @@
       "status": "fresh",
       "size_bytes": 6953,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T08:13:24+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:44+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "growth_signals_auto.json",
       "label": "Growth Signals",
       "status": "fresh",
-      "size_bytes": 10755,
+      "size_bytes": 10342,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.194174+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.314541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "h1b_lca_auto.js",
@@ -516,8 +516,8 @@
       "status": "fresh",
       "size_bytes": 10944,
       "cadence_days": 30,
-      "last_updated": "2026-05-03T10:17:31+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:29+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "h1b_lca_auto.json",
@@ -525,44 +525,44 @@
       "status": "fresh",
       "size_bytes": 15926,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:31+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:29+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "hackernews_buzz_auto.js",
       "label": "HN Buzz",
       "status": "fresh",
-      "size_bytes": 5890,
+      "size_bytes": 6050,
       "cadence_days": 3,
-      "last_updated": "2026-05-09T08:23:23+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:11+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "headcount_estimates_auto.js",
       "label": "Headcount Estimates",
       "status": "fresh",
-      "size_bytes": 23430,
+      "size_bytes": 23431,
       "cadence_days": 7,
-      "last_updated": "2026-05-10T08:13:24+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:43+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "headcount_estimates_auto.json",
       "label": "Headcount Estimates",
       "status": "fresh",
-      "size_bytes": 24761,
+      "size_bytes": 24762,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.199174+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.314541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "innovator_scores_auto.json",
       "label": "Innovator Scores",
       "status": "fresh",
-      "size_bytes": 383615,
+      "size_bytes": 384445,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.200174+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.315541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "interconnection_queue_auto.js",
@@ -570,8 +570,8 @@
       "status": "fresh",
       "size_bytes": 5762,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T09:22:05+00:00",
-      "age_hours": 170.0
+      "last_updated": "2026-05-10T09:28:37+00:00",
+      "age_hours": 26.6
     },
     {
       "file": "interconnection_queue_auto.json",
@@ -579,8 +579,8 @@
       "status": "fresh",
       "size_bytes": 6976,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T09:22:05+00:00",
-      "age_hours": 170.0
+      "last_updated": "2026-05-10T09:28:37+00:00",
+      "age_hours": 26.6
     },
     {
       "file": "ipo_pipeline_auto.json",
@@ -588,26 +588,26 @@
       "status": "fresh",
       "size_bytes": 2303,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.198174+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.317541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "jobs_auto.js",
       "label": "Jobs Feed",
       "status": "fresh",
-      "size_bytes": 3417305,
+      "size_bytes": 3417012,
       "cadence_days": 1,
-      "last_updated": "2026-05-10T08:12:30+00:00",
-      "age_hours": 3.2
+      "last_updated": "2026-05-11T09:47:29+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "launch_manifest_auto.json",
       "label": "Launch Manifest",
       "status": "fresh",
-      "size_bytes": 18476,
+      "size_bytes": 18503,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.217175+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T12:00:24.732434+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "linkedin_headcount_auto.json",
@@ -615,8 +615,8 @@
       "status": "fresh",
       "size_bytes": 140095,
       "cadence_days": 7,
-      "last_updated": "2026-05-10T11:21:32.219175+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.331541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "lobbying_auto.js",
@@ -624,8 +624,8 @@
       "status": "fresh",
       "size_bytes": 9196,
       "cadence_days": 30,
-      "last_updated": "2026-05-03T10:17:33+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:31+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "lobbying_auto.json",
@@ -633,8 +633,8 @@
       "status": "fresh",
       "size_bytes": 12985,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:33+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:31+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "ma_comps_auto.js",
@@ -643,7 +643,7 @@
       "size_bytes": 597,
       "cadence_days": 14,
       "last_updated": "2026-05-06T11:05:23+00:00",
-      "age_hours": 96.3
+      "age_hours": 121.0
     },
     {
       "file": "nasa_projects_auto.js",
@@ -651,8 +651,8 @@
       "status": "fresh",
       "size_bytes": 6150,
       "cadence_days": 7,
-      "last_updated": "2026-05-09T08:24:35+00:00",
-      "age_hours": 26.9
+      "last_updated": "2026-05-11T10:27:44+00:00",
+      "age_hours": 1.6
     },
     {
       "file": "network_graph_auto.js",
@@ -660,8 +660,8 @@
       "status": "fresh",
       "size_bytes": 216117,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T08:13:25+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:49:45+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "network_graph_auto.json",
@@ -669,17 +669,17 @@
       "status": "fresh",
       "size_bytes": 215929,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.221175+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.333541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "news_signals_auto.js",
       "label": "News Feed",
       "status": "fresh",
-      "size_bytes": 7570,
+      "size_bytes": 7568,
       "cadence_days": 1,
-      "last_updated": "2026-05-10T00:00:00+00:00",
-      "age_hours": 11.4
+      "last_updated": "2026-05-11T00:00:00+00:00",
+      "age_hours": 12.1
     },
     {
       "file": "newsletter_signals_auto.json",
@@ -687,17 +687,17 @@
       "status": "fresh",
       "size_bytes": 13777,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.219175+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.333541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "nih_grants_auto.js",
       "label": "NIH Grants",
       "status": "fresh",
-      "size_bytes": 205202,
+      "size_bytes": 205076,
       "cadence_days": 7,
-      "last_updated": "2026-05-09T08:23:36+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:37+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "nrc_licensing_auto.js",
@@ -705,8 +705,8 @@
       "status": "fresh",
       "size_bytes": 7262,
       "cadence_days": 3,
-      "last_updated": "2026-05-10T11:21:32.225175+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.226829+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "nrc_licensing_auto.json",
@@ -714,17 +714,17 @@
       "status": "fresh",
       "size_bytes": 6205,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.225175+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.226885+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "nsf_awards_auto.js",
       "label": "NSF Awards",
       "status": "fresh",
-      "size_bytes": 9844,
+      "size_bytes": 9888,
       "cadence_days": 7,
-      "last_updated": "2026-05-09T08:23:33+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:14+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "patent_intel_auto.js",
@@ -733,7 +733,7 @@
       "size_bytes": 45209,
       "cadence_days": 7,
       "last_updated": "2026-05-10T09:27:09+00:00",
-      "age_hours": 1.9
+      "age_hours": 26.7
     },
     {
       "file": "patent_velocity_auto.json",
@@ -741,17 +741,17 @@
       "status": "fresh",
       "size_bytes": 34379,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.330178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.339541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "podcast_mentions_auto.json",
       "label": "Podcast Mentions",
       "status": "fresh",
-      "size_bytes": 155304,
+      "size_bytes": 139400,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.331178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.227146+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "podcast_signals_auto.json",
@@ -759,8 +759,8 @@
       "status": "fresh",
       "size_bytes": 94940,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.331178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.340541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "predictive_scores_auto.json",
@@ -768,8 +768,8 @@
       "status": "fresh",
       "size_bytes": 909511,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.361179+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.342541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "press_releases_auto.js",
@@ -777,8 +777,8 @@
       "status": "fresh",
       "size_bytes": 1108,
       "cadence_days": 2,
-      "last_updated": "2026-05-09T08:23:42+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:33+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "prime_supply_chain_auto.json",
@@ -786,26 +786,26 @@
       "status": "fresh",
       "size_bytes": 13687,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.334178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T12:00:24.002272+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "public_multiples_auto.js",
       "label": "Public Multiples",
       "status": "fresh",
-      "size_bytes": 35630,
+      "size_bytes": 35617,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T00:00:00+00:00",
-      "age_hours": 11.4
+      "last_updated": "2026-05-11T00:00:00+00:00",
+      "age_hours": 12.1
     },
     {
       "file": "public_multiples_auto.json",
       "label": "Public Multiples",
       "status": "fresh",
-      "size_bytes": 35416,
+      "size_bytes": 35403,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.359179+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.344541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "reddit_mentions_auto.json",
@@ -813,8 +813,8 @@
       "status": "fresh",
       "size_bytes": 316263,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.362179+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.345541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "revenue_intel_auto.json",
@@ -822,8 +822,8 @@
       "status": "fresh",
       "size_bytes": 9280,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.334178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.345541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "sam_contracts_auto.js",
@@ -831,8 +831,8 @@
       "status": "fresh",
       "size_bytes": 14308,
       "cadence_days": 2,
-      "last_updated": "2026-05-09T08:23:38+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:26+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "sbir_awards_auto.json",
@@ -840,8 +840,8 @@
       "status": "fresh",
       "size_bytes": 162853,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.362179+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.347541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "sbir_topics_auto.js",
@@ -849,8 +849,8 @@
       "status": "fresh",
       "size_bytes": 23388,
       "cadence_days": 3,
-      "last_updated": "2026-05-09T12:42:15+00:00",
-      "age_hours": 22.7
+      "last_updated": "2026-05-11T12:06:14+00:00",
+      "age_hours": 0.0
     },
     {
       "file": "sbir_topics_auto.json",
@@ -858,8 +858,8 @@
       "status": "fresh",
       "size_bytes": 5267,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.356178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.227894+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "scout_briefing_auto.js",
@@ -868,7 +868,7 @@
       "size_bytes": 13755,
       "cadence_days": 14,
       "last_updated": "2026-05-10T00:00:00+00:00",
-      "age_hours": 11.4
+      "age_hours": 36.1
     },
     {
       "file": "scout_briefing_auto.json",
@@ -876,8 +876,8 @@
       "status": "fresh",
       "size_bytes": 13549,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.356178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.347541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "sec_filings_auto.js",
@@ -885,8 +885,8 @@
       "status": "fresh",
       "size_bytes": 6879,
       "cadence_days": 2,
-      "last_updated": "2026-05-10T08:12:27+00:00",
-      "age_hours": 3.2
+      "last_updated": "2026-05-11T09:48:57+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "secondary_market_auto.json",
@@ -894,17 +894,17 @@
       "status": "fresh",
       "size_bytes": 13489,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.357178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.348541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "sector_momentum_auto.json",
       "label": "Sector Momentum",
       "status": "fresh",
-      "size_bytes": 7162,
+      "size_bytes": 7101,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.357178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.348541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "spinouts_auto.json",
@@ -912,7 +912,7 @@
       "status": "fresh",
       "size_bytes": 14247,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.357178+00:00",
+      "last_updated": "2026-05-11T12:05:57.453009+00:00",
       "age_hours": 0.0
     },
     {
@@ -921,8 +921,8 @@
       "status": "fresh",
       "size_bytes": 5387,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T10:17:34+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:32+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "state_puct_dockets_auto.json",
@@ -930,17 +930,17 @@
       "status": "fresh",
       "size_bytes": 6392,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:34+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:32+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "stocks_auto.js",
       "label": "Stock Prices",
       "status": "fresh",
-      "size_bytes": 32180,
+      "size_bytes": 32190,
       "cadence_days": 1,
-      "last_updated": "2026-05-10T08:13:21+00:00",
-      "age_hours": 3.1
+      "last_updated": "2026-05-11T09:48:13+00:00",
+      "age_hours": 2.3
     },
     {
       "file": "trade_data_auto.js",
@@ -948,8 +948,8 @@
       "status": "fresh",
       "size_bytes": 8470,
       "cadence_days": 7,
-      "last_updated": "2026-05-09T08:23:48+00:00",
-      "age_hours": 27.0
+      "last_updated": "2026-05-11T10:26:25+00:00",
+      "age_hours": 1.7
     },
     {
       "file": "trademarks_auto.js",
@@ -958,7 +958,7 @@
       "size_bytes": 7408,
       "cadence_days": 14,
       "last_updated": "2026-04-23T04:54:49+00:00",
-      "age_hours": 414.4
+      "age_hours": 439.2
     },
     {
       "file": "trademarks_auto.json",
@@ -967,7 +967,7 @@
       "size_bytes": 7177,
       "cadence_days": 14,
       "last_updated": "2026-04-23T04:54:49+00:00",
-      "age_hours": 414.4
+      "age_hours": 439.2
     },
     {
       "file": "twitter_signals_auto.json",
@@ -975,8 +975,8 @@
       "status": "fresh",
       "size_bytes": 56406,
       "cadence_days": 3,
-      "last_updated": "2026-05-10T11:21:32.360178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.228092+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "valuation_benchmarks_auto.json",
@@ -984,8 +984,8 @@
       "status": "fresh",
       "size_bytes": 61165,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.360178+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.350541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "water_permits_auto.js",
@@ -993,8 +993,8 @@
       "status": "fresh",
       "size_bytes": 5121,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T10:17:43+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:37+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "water_permits_auto.json",
@@ -1002,26 +1002,26 @@
       "status": "fresh",
       "size_bytes": 6001,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:43+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:37+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "website_changes_auto.js",
       "label": "Website Changes (Wayback)",
       "status": "fresh",
-      "size_bytes": 45719,
+      "size_bytes": 60470,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T10:17:21+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:18+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "website_changes_auto.json",
       "label": "Website Changes",
       "status": "fresh",
-      "size_bytes": 59972,
+      "size_bytes": 80895,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:21+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:18+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "youtube_mentions_auto.js",
@@ -1029,8 +1029,8 @@
       "status": "fresh",
       "size_bytes": 3370,
       "cadence_days": 7,
-      "last_updated": "2026-05-03T10:17:33+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:31+00:00",
+      "age_hours": 25.4
     },
     {
       "file": "youtube_mentions_auto.json",
@@ -1038,8 +1038,8 @@
       "status": "fresh",
       "size_bytes": 3844,
       "cadence_days": 14,
-      "last_updated": "2026-05-03T10:17:33+00:00",
-      "age_hours": 169.1
+      "last_updated": "2026-05-10T10:44:31+00:00",
+      "age_hours": 25.4
     }
   ],
   "stale": [
@@ -1050,7 +1050,7 @@
       "size_bytes": 4804,
       "cadence_days": 7,
       "last_updated": "2026-04-23T08:18:52+00:00",
-      "age_hours": 411.0
+      "age_hours": 435.8
     },
     {
       "file": "field_notes_auto.js",
@@ -1059,7 +1059,7 @@
       "size_bytes": 6618,
       "cadence_days": 7,
       "last_updated": "2026-04-21T07:03:48+00:00",
-      "age_hours": 460.3
+      "age_hours": 485.0
     },
     {
       "file": "github_releases_auto.js",
@@ -1068,7 +1068,7 @@
       "size_bytes": 3808,
       "cadence_days": 7,
       "last_updated": "2026-04-23T08:22:00+00:00",
-      "age_hours": 411.0
+      "age_hours": 435.7
     },
     {
       "file": "insider_transactions_auto.js",
@@ -1077,7 +1077,7 @@
       "size_bytes": 5305,
       "cadence_days": 7,
       "last_updated": "2026-04-23T08:19:43+00:00",
-      "age_hours": 411.0
+      "age_hours": 435.8
     },
     {
       "file": "product_launches_auto.js",
@@ -1086,7 +1086,7 @@
       "size_bytes": 14291,
       "cadence_days": 7,
       "last_updated": "2026-04-19T09:41:20+00:00",
-      "age_hours": 505.7
+      "age_hours": 530.4
     }
   ],
   "dead": [
@@ -1096,8 +1096,8 @@
       "status": "dead",
       "size_bytes": 289,
       "cadence_days": 14,
-      "last_updated": "2026-05-09T12:42:15+00:00",
-      "age_hours": 22.7
+      "last_updated": "2026-05-11T12:06:14+00:00",
+      "age_hours": 0.0
     },
     {
       "file": "field_notes_auto.json",
@@ -1105,17 +1105,17 @@
       "status": "dead",
       "size_bytes": 2,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.130172+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.293540+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "funding_feed_auto.json",
       "label": "Funding Feed",
       "status": "dead",
-      "size_bytes": 428,
+      "size_bytes": 2,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.130172+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:24.221911+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "ma_comps_auto.json",
@@ -1123,8 +1123,8 @@
       "status": "dead",
       "size_bytes": 2,
       "cadence_days": 14,
-      "last_updated": "2026-05-10T11:21:32.217175+00:00",
-      "age_hours": 0.0
+      "last_updated": "2026-05-11T11:59:23.331541+00:00",
+      "age_hours": 0.1
     },
     {
       "file": "sbir_awards_auto.js",
@@ -1133,7 +1133,7 @@
       "size_bytes": 200,
       "cadence_days": 7,
       "last_updated": "2026-04-15T00:00:00+00:00",
-      "age_hours": 611.4
+      "age_hours": 636.1
     }
   ]
 }

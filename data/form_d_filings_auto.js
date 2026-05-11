@@ -1,13 +1,30 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-09 12:42:08 UTC
+// Last updated: 2026-05-11 12:06:12 UTC
 // Total: 6 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-09T12:42:08.640850+00:00",
+  "generated_at": "2026-05-11T12:06:12.027713+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
   "total_filings": 6,
   "filings": [
+    {
+      "company": "Aalo Atomics",
+      "issuer_name": "Aalo Atomics BBVC III, a Series of A Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-05-11",
+      "cik": "2134404",
+      "accession": "0002134404-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134404&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002134404-26-000001",
+      "offering_amount": "Indefinite",
+      "amount_sold": "0",
+      "amount_remaining": "Indefinite",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Biofire",
       "issuer_name": "BIOFIRE III A SERIES OF VUVP FUND LLC",
@@ -90,23 +107,6 @@ const FORM_D_FILINGS = {
       "amount_remaining": "0",
       "securities_type": "",
       "exemption": "06c",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Intramotev",
-      "issuer_name": "INTRAMOTEV INC",
-      "form": "D",
-      "filed_date": "2026-05-05",
-      "cik": "1945538",
-      "accession": "0001945538-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001945538&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001945538-26-000001",
-      "offering_amount": "12000000",
-      "amount_sold": "10760000",
-      "amount_remaining": "1240000",
-      "securities_type": "Equity",
-      "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false
     }

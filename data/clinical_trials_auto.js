@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-05-09 08:23:31 UTC
+// Last updated: 2026-05-11 10:26:16 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06678659", title: "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Meta", status: "RECRUITING", phase: "PHASE1, PHASE2", sponsor: "Recursion Pharmaceuticals Inc.", conditions: "Unresectable, Locally Advanced, Metastatic Cancers", enrollment: 170, lastUpdated: "2026-05-08" },
   { nctId: "NCT07291076", title: "A Study to Evaluate the Safety and Tolerability of Pumitamig Alone or In Combina", status: "RECRUITING", phase: "PHASE1, PHASE2", sponsor: "Bristol-Myers Squibb", conditions: "Hepatocellular Carcinoma (HCC)", enrollment: 129, lastUpdated: "2026-05-08" },

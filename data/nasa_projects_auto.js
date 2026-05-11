@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-05-09 08:24:35 UTC
+// Last updated: 2026-05-11 10:27:44 UTC
 const NASA_PROJECTS = [
   { id: 158550, title: "Venus InStrumentation for Thermophysics and Aerosciences", status: "Active", center: "Ames Research Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/08/26" },
   { id: 116330, title: "Bifurcated Reversible Alkaline Cell for Energy Storage", status: "Completed", center: "Glenn Research Center", techArea: "Electrochemical Storage: Fuel Cells", lastUpdated: "05/08/26" },
