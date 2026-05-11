@@ -178,12 +178,30 @@ jobs:
             grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null
             exit 1
           fi
+          # ── JS-PARSE GUARD ──
+          # Refuse to commit if data.js can't be parsed as JS. Two outages
+          # in 24h (2026-05-11) were caused by news content with embedded
+          # newlines / unescaped double quotes that broke parsing. The
+          # browser silently fails to load companies, showing "0 Companies"
+          # everywhere. This check uses Node.js (preinstalled on runners)
+          # to do a real JS parse — much stricter than the regex checks.
+          node --check data.js 2>&1 | tee /tmp/parse_check.txt | head -20
+          if grep -qE 'SyntaxError|ParseError' /tmp/parse_check.txt; then
+            echo "::error::data.js failed JS parse. Refusing to commit."
+            exit 1
+          fi
           git diff --staged --quiet || git commit -m "🤖 Auto-update: News signals $(date +%Y-%m-%d\ %H:%M)"
           git pull --rebase origin main || true
           # Re-check after rebase (rebase may introduce markers when
           # merging concurrent auto.js writes from sibling workflows)
           if grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null | head -1 | grep -q .; then
             echo "::error::Conflict markers introduced by rebase. Aborting."
+            exit 1
+          fi
+          # Re-run JS-parse after rebase
+          node --check data.js 2>&1 | tee /tmp/parse_check2.txt | head -20
+          if grep -qE 'SyntaxError|ParseError' /tmp/parse_check2.txt; then
+            echo "::error::data.js failed JS parse after rebase. Aborting."
             exit 1
           fi
           git push
