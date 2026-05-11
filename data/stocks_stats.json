@@ -15,9 +15,9 @@
       "count": 7
     },
     "autonomous": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 12.41,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 12.8,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.6,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.36,
       "count": 3
     },
     "transportation": {
@@ -64,14 +64,14 @@
       33.92
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      30.27
+    ],
+    [
       "AMD",
       "AMD",
       26.25
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      25.6
     ],
     [
       "ASRHF",
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -2.06
-    ],
-    [
       "PLTR",
       "Palantir",
       -4.35
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -4.66
     ],
     [
       "RIVN",
@@ -111,5 +111,5 @@
       -10.09
     ]
   ],
-  "lastUpdated": "2026-05-11 03:53:42"
+  "lastUpdated": "2026-05-11 09:48:13"
 }
