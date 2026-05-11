@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -4.35,
+      "avg_change": -7.97,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 13.07,
+      "avg_change": 20.43,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 12.8,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 13.01,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.88,
+      "avg_change": 14.94,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.37,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.12,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.32,
+      "avg_change": 17.46,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.36,
+      "avg_change": -6.05,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.13,
+      "avg_change": 3.6,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 11.09,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 16.43,
       "count": 3
     }
   },
@@ -61,7 +61,12 @@
     [
       "RKLB",
       "Rocket Lab",
-      33.92
+      45.74
+    ],
+    [
+      "AMD",
+      "AMD",
+      34.95
     ],
     [
       "277810.KQ",
@@ -69,47 +74,42 @@
       30.27
     ],
     [
-      "AMD",
-      "AMD",
-      26.25
+      "LUNR",
+      "Intuitive Machines",
+      26.82
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      18.41
-    ],
-    [
-      "JOBY",
-      "Joby Aviation",
-      17.51
+      "IONQ",
+      "IonQ",
+      24.1
     ]
   ],
   "topLosers": [
     [
-      "PLTR",
-      "Palantir",
-      -4.35
-    ],
-    [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -4.66
+      -3.14
     ],
     [
-      "RIVN",
-      "Rivian",
-      -5.33
+      "DRSHF",
+      "DroneShield",
+      -3.42
     ],
     [
-      "TEM",
-      "Tempus AI",
-      -9.35
+      "PLTR",
+      "Palantir",
+      -7.97
     ],
     [
       "SLDP",
       "Solid Power",
-      -10.09
+      -8.96
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -12.48
     ]
   ],
-  "lastUpdated": "2026-05-11 09:48:13"
+  "lastUpdated": "2026-05-11 15:19:31"
 }
