@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-10",
-  "display_date": "May 10, 2026",
-  "generated_at": "2026-05-10T10:44:37.471410+00:00",
-  "cutoff": "2026-05-03T10:44:37.471410+00:00",
+  "date": "2026-05-11",
+  "display_date": "May 11, 2026",
+  "generated_at": "2026-05-11T12:42:09.686498+00:00",
+  "cutoff": "2026-05-04T12:42:09.686498+00:00",
   "section_count": 7,
-  "total_items": 277,
+  "total_items": 250,
   "sections": [
     {
       "title": "Top Score Movers",
@@ -23,15 +23,8 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 47,
+      "count": 38,
       "items": [
-        {
-          "company": "Palantir Technologies",
-          "form": "8-K",
-          "description": "pltr-20260504.htm",
-          "date": "2026-05-04",
-          "isIPO": false
-        },
         {
           "company": "Rocket Lab",
           "form": "8-K",
@@ -80,6 +73,13 @@
           "description": "upst-20260505.htm",
           "date": "2026-05-05",
           "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260505.htm",
+          "date": "2026-05-05",
+          "isIPO": false
         }
       ]
     },
@@ -117,28 +117,30 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 41,
+      "count": 36,
       "items": [
         {
-          "title": "Privacy Act of 1974; System of Records",
+          "title": "Renewal of Department of War Federal Advisory Committee-U.S. Strategic Command Strategic Advisory Group",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Defense Department",
+            ""
+          ],
+          "significant": false,
+          "date": "2026-05-06"
+        },
+        {
+          "title": "Importing Dual-Use Frames, Receivers, or Barrels",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Justice Department",
+            "Alcohol, Tobacco, Firearms, and Explosives Bureau"
           ],
           "significant": false,
           "date": "2026-05-08"
         },
         {
-          "title": "Sunshine Act Meetings",
-          "type": "Notice",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-05-08"
-        },
-        {
-          "title": "Converting Temporary to Permanent Imports for Defense Articles",
+          "title": "Interstate Transport and Temporary Export of National Firearms Act Firearms",
           "type": "Proposed Rule",
           "agencies": [
             "Justice Department",
@@ -157,30 +159,31 @@
           "date": "2026-05-07"
         },
         {
-          "title": "Board Meeting",
-          "type": "Notice",
+          "title": "Establishment of Canadian Area Navigation Route Q-838 and Revocation of Jet Route J-539 in the Vicinity of Glasgow, MT",
+          "type": "Proposed Rule",
           "agencies": [
-            "Nuclear Waste Technical Review Board"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-05-07"
+          "date": "2026-05-08"
         },
         {
-          "title": "Publication of Russian Harmful Foreign Activities Sanctions Regulations Web General Licenses 55E, 115C, 13P, and 131C",
-          "type": "Rule",
+          "title": "Establishment of Canadian Area Navigation Route Q-855 and Revocation of Jet Route J-549 in the Vicinity of Williston, No",
+          "type": "Proposed Rule",
           "agencies": [
-            "Treasury Department",
-            "Foreign Assets Control Office"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-05-07"
+          "date": "2026-05-08"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 27,
+      "count": 28,
       "items": [
         {
           "title": "UK quantum outfit Quantum Motion run on silicon chips raises $160M",
@@ -195,6 +198,20 @@
           "company": "Quantum Motion",
           "impact": "high",
           "type": "funding"
+        },
+        {
+          "title": "Anthropic says \u2018evil\u2019 portrayals of AI were responsible for Claude\u2019s blackmail attempts",
+          "source": "TechCrunch",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "We\u2019re feeling cynical about xAI\u2019s big deal with Anthropic",
+          "source": "TechCrunch",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "ipo"
         },
         {
           "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altm",
@@ -223,84 +240,75 @@
           "company": "Rivian",
           "impact": "low",
           "type": "milestone"
-        },
-        {
-          "title": "Nuro secures California driverless permit for Lucid Gravity Uber robotaxis",
-          "source": "Electrek",
-          "company": "Nuro",
-          "impact": "low",
-          "type": "ipo"
-        },
-        {
-          "title": "Rocket Lab announces large launch contract and plans to acquire space robotics company",
-          "source": "SpaceNews",
-          "company": "Rocket Lab",
-          "impact": "low",
-          "type": "contract"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 51,
+      "count": 37,
       "items": [
         {
-          "title": "Rumors of my death are slightly exaggerated",
-          "score": 1586,
-          "comments": 243,
+          "title": "Hardware Attestation as Monopoly Enabler",
+          "score": 1585,
+          "comments": 511,
           "companies": [
-            "Cover",
-            "Field AI"
+            "Black Semiconductor",
+            "QuantWare",
+            "Humane",
+            "Quilter",
+            "Diode"
           ],
-          "url": "https://news.ycombinator.com/item?id=48037336"
+          "url": "https://news.ycombinator.com/item?id=48086190"
         },
         {
-          "title": "Cloudflare to cut about 20% of its workforce",
-          "score": 1293,
-          "comments": 932,
+          "title": "A recent experience with ChatGPT 5.5 Pro",
+          "score": 694,
+          "comments": 521,
           "companies": [
-            "Rigetti Computing"
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48054423"
+          "url": "https://news.ycombinator.com/item?id=48071262"
         },
         {
-          "title": "Google broke reCAPTCHA for de-googled Android users",
-          "score": 946,
-          "comments": 314,
+          "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
+          "score": 546,
+          "comments": 293,
           "companies": [
-            "Rigetti Computing"
+            "Humane",
+            "QuantWare",
+            "Quilter",
+            "Diode"
           ],
-          "url": "https://news.ycombinator.com/item?id=48067119"
+          "url": "https://news.ycombinator.com/item?id=48084432"
         },
         {
-          "title": "Canvas online again as ShinyHunters threatens to leak schools\u2019 data",
-          "score": 904,
-          "comments": 613,
+          "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+          "score": 400,
+          "comments": 214,
           "companies": [
-            "Alpha School"
+            "Runway"
           ],
-          "url": "https://news.ycombinator.com/item?id=48055913"
+          "url": "https://news.ycombinator.com/item?id=48080587"
         },
         {
-          "title": "Dirty Frag: Universal Linux LPE",
-          "score": 803,
-          "comments": 315,
+          "title": "GrapheneOS fixes Android VPN leak Google refused to patch",
+          "score": 343,
+          "comments": 126,
           "companies": [
-            "Cape",
-            "Percepto",
-            "ideaForge"
+            "Black Semiconductor"
           ],
-          "url": "https://news.ycombinator.com/item?id=48053623"
+          "url": "https://news.ycombinator.com/item?id=48075144"
         },
         {
-          "title": "Google Cloud Fraud Defence is just WEI repackaged",
-          "score": 672,
-          "comments": 340,
+          "title": "France moves to break encrypted messaging",
+          "score": 275,
+          "comments": 131,
           "companies": [
-            "Rigetti Computing"
+            "Retro Biosciences",
+            "Altos Labs"
           ],
-          "url": "https://news.ycombinator.com/item?id=48063199"
+          "url": "https://news.ycombinator.com/item?id=48078811"
         }
       ]
     },
@@ -310,37 +318,37 @@
       "count": 106,
       "items": [
         {
-          "title": "Grupo Aeroportuario del Pacifico Announces Initiation of the Process to Establish a FIBRA",
+          "title": "Certara Reports First Quarter 2026 Financial Results",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Elegance Moves the World: LEPAS L6 PHEV Global Journey of Elegant Driving Wraps Up",
+          "title": "Zhihu Inc. to Report First Quarter 2026 Financial Results on June 3, 2026",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Where Aesthetics Meets Technology \u2014 LEPAS Milan Public Days Define Elegant Mobility",
+          "title": "Form 8.5 (EPT/RI)-NCC Group plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "iSpecimen Inc. Announces Pricing of Approximately $2.5 Million Private Placement",
+          "title": "CLICK (NASDAQ: CLIK) Reports Strong Revenue Growth and Swings to Profit \u2013 Seniors Nursing Sector Skyrocketing over 110%,",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Amplia Therapeutics and Australia New Zealand Gynaecological Oncology Group (Anzgog) Announce Ovarian Cancer Study",
+          "title": "Danske Bank A/S, transactions by persons discharging managerial responsibilities",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "electroCore to Present at the LD Micro Invitational XVI Conference on May 18, 2026",
+          "title": "Danske Bank A/S, ledende medarbejderes transaktioner",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-05-10-dda2a9d72e47"
+  "brief_id": "brief-2026-05-11-904a4cea33b4"
 }
