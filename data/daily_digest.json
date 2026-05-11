@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T12:19:23.115161+00:00",
+  "generatedAt": "2026-05-11T16:09:20.281656+00:00",
   "date": "2026-05-11",
   "dateDisplay": "Monday, May 11, 2026",
   "sections": {
@@ -72,9 +72,16 @@
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 105.55,
-        "changePercent": 33.92,
-        "change": 26.73
+        "price": 117.04,
+        "changePercent": 45.74,
+        "change": 36.73
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 460.89,
+        "changePercent": 34.95,
+        "change": 119.35
       },
       {
         "ticker": "277810.KQ",
@@ -84,46 +91,39 @@
         "change": 201000.0
       },
       {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 455.19,
-        "changePercent": 26.25,
-        "change": 94.65
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 32.15,
+        "changePercent": 26.82,
+        "change": 6.8
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 10.26,
-        "changePercent": 18.41,
-        "change": 1.6
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 56.77,
+        "changePercent": 24.1,
+        "change": 11.02
       },
       {
         "ticker": "JOBY",
         "company": "Joby Aviation",
-        "price": 10.87,
-        "changePercent": 17.51,
-        "change": 1.62
+        "price": 10.79,
+        "changePercent": 21.78,
+        "change": 1.93
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 27.45,
-        "changePercent": 17.26,
-        "change": 4.04
+        "price": 28.4,
+        "changePercent": 21.78,
+        "change": 5.08
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 2.81,
-        "changePercent": 15.64,
-        "change": 0.38
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 7.08,
-        "changePercent": 15.5,
-        "change": 0.95
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 82.33,
+        "changePercent": 20.31,
+        "change": 13.9
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB +33.9%"
+    "topMover": "RKLB +45.7%"
   }
 }
