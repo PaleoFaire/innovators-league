@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-10T07:59:20+00:00",
+  "generatedAt": "2026-05-11T09:01:42+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
   "cohortSize": 43,
   "newExtractionsThisRun": 42,
   "summary": {
-    "cleared": 39,
-    "changesProposed": 4,
+    "cleared": 36,
+    "changesProposed": 7,
     "unverifiable": 0
   },
   "cleared": [
@@ -31,13 +31,10 @@
     "ICON",
     "Karman Industries",
     "Kyutai",
-    "Nuro",
     "Nyobolt",
     "Palantir",
-    "Percepto",
     "Photonic Inc",
     "Pivotal",
-    "QuantWare",
     "Quantum Motion",
     "Rebellions",
     "Rivian",
@@ -64,7 +61,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. Operates projects including Project Red in Nevada and Cape Station development in Utah.",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas industry. The company develops next-generation geothermal projects including Project Red and Cape Station.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -84,9 +81,12 @@
         "sources_per_field": {
           "name": [
             0,
+            1,
             2
           ],
           "description": [
+            0,
+            1,
             2
           ],
           "founders": [
@@ -109,10 +109,11 @@
           ],
           "website": [
             0,
+            1,
             2
           ]
         },
-        "notes": "Wikipedia lists company as 'Private' but website newsroom announces IPO launch (May 4, 2026) and registration statement filing (April 17, 2026), indicating Pre-IPO status. Most recent funding: $462M Series E in November 2025 led by B Capital. Database entry incorrectly states 'IPO' as current stage; company is in IPO process but not yet public."
+        "notes": "IPO process initiated in April 2026 per company website newsroom. Wikipedia lists company as 'Private' but website shows IPO filing announced April 17, 2026 and IPO launch announced May 4, 2026. Most recent funding: $462 million Series E in November 2025 led by B Capital. Cape Station development located in Milford, Utah (separate from headquarters)."
       },
       "changes": [
         {
@@ -151,7 +152,115 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "Wikipedia lists company as 'Private' but website newsroom announces IPO launch (May 4, 2026) and registration statement filing (April 17, 2026), indicating Pre-IPO status. Most recent funding: $462M Series E in November 2025 led by B Capital. Database entry incorrectly states 'IPO' as current stage; company is in IPO process but not yet public."
+      "notes": "IPO process initiated in April 2026 per company website newsroom. Wikipedia lists company as 'Private' but website shows IPO filing announced April 17, 2026 and IPO launch announced May 4, 2026. Most recent funding: $462 million Series E in November 2025 led by B Capital. Cape Station development located in Milford, Utah (separate from headquarters)."
+    },
+    {
+      "name": "Nuro",
+      "current": {
+        "name": "Nuro",
+        "founder": "Dave Ferguson, Jiajun Zhu",
+        "location": "Mountain View, California",
+        "founded": 2016,
+        "fundingStage": "Series G",
+        "totalRaised": "$2.84B",
+        "website": "https://nuro.ai"
+      },
+      "verified": {
+        "name": "Nuro",
+        "description": "American autonomous vehicle technology company that develops Level 4 self-driving software called Nuro Driver. The company shifted its business model in September 2024 from manufacturing autonomous delivery vehicles to licensing its proprietary autonomy technology to automakers and mobility providers.",
+        "founders": [
+          "Dave Ferguson",
+          "Jiajun Zhu"
+        ],
+        "location": "Mountain View, California",
+        "founded_year": 2016,
+        "current_stage": "Series E",
+        "total_raised": "$2.84B+",
+        "valuation": "$6B",
+        "investors": [
+          "Greylock Partners",
+          "Gaorong Capital",
+          "SoftBank Group",
+          "T. Rowe Price",
+          "Uber",
+          "Nvidia"
+        ],
+        "website": "https://nuro.ai",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Company pivoted from autonomous delivery vehicle manufacturing to software licensing in September 2024. Series E funding round opened in April 2025 with $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership announced with Uber and Lucid Motors in July 2025 for 20,000+ robotaxis deployment over six years."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series G",
+          "verified": "Series E",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://nuro.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://nuro.ai/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nuro"
+        },
+        {
+          "idx": 3,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
+        }
+      ],
+      "notes": "Company pivoted from autonomous delivery vehicle manufacturing to software licensing in September 2024. Series E funding round opened in April 2025 with $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership announced with Uber and Lucid Motors in July 2025 for 20,000+ robotaxis deployment over six years."
     },
     {
       "name": "OpenAI",
@@ -166,7 +275,7 @@
       },
       "verified": {
         "name": "OpenAI",
-        "description": "American artificial intelligence research organization that developed the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models. Released ChatGPT in November 2022.",
+        "description": "American artificial intelligence company that developed the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models. Released ChatGPT in November 2022.",
         "founders": [
           "Elon Musk",
           "Sam Altman",
@@ -223,7 +332,7 @@
             1
           ]
         },
-        "notes": "Founded as nonprofit in December 2015; transitioned to for-profit capped structure in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) with 26% ownership by nonprofit foundation. October 2025 share sale valued company at $500 billion. io Products, Inc. team merged with OpenAI in July 2025."
+        "notes": "Wikipedia states company was founded December 8, 2015. In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion (per source 1). io Products, Inc. team merged with OpenAI in July 2025 (per source 0). Database entry claims $300B valuation and $13B+ raised; these figures could not be verified in current sources and conflict with Wikipedia's $500B October 2025 valuation."
       },
       "changes": [
         {
@@ -262,7 +371,180 @@
           "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
         }
       ],
-      "notes": "Founded as nonprofit in December 2015; transitioned to for-profit capped structure in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) with 26% ownership by nonprofit foundation. October 2025 share sale valued company at $500 billion. io Products, Inc. team merged with OpenAI in July 2025."
+      "notes": "Wikipedia states company was founded December 8, 2015. In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion (per source 1). io Products, Inc. team merged with OpenAI in July 2025 (per source 0). Database entry claims $300B valuation and $13B+ raised; these figures could not be verified in current sources and conflict with Wikipedia's $500B October 2025 valuation."
+    },
+    {
+      "name": "Percepto",
+      "current": {
+        "name": "Percepto",
+        "founder": "Dor Abuhasira, Ariel Avitan, Sagi Blonder, Raviv Raz",
+        "location": "Israel, United States",
+        "founded": 2014,
+        "fundingStage": "Series C",
+        "totalRaised": "$128M",
+        "website": "https://percepto.co"
+      },
+      "verified": {
+        "name": "Percepto",
+        "description": "Autonomous drone technology and industrial robotics solutions for inspection and monitoring of critical infrastructure. Develops drone-in-a-box systems with geospatial data management and AI-driven analytics capabilities.",
+        "founders": [
+          "Dor Abuhasira",
+          "Ariel Avitan",
+          "Sagi Blonder",
+          "Raviv Raz"
+        ],
+        "location": "United States, Israel",
+        "founded_year": 2014,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://percepto.co",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "All four founders explicitly named as co-founders on company About page. Founded year 2014 confirmed in CEO bio. Sources do not contain current funding stage, total amount raised, or valuation information."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Israel, United States",
+          "verified": "United States, Israel",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://percepto.co"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://percepto.co/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (Crunchbase News)",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
+        }
+      ],
+      "notes": "All four founders explicitly named as co-founders on company About page. Founded year 2014 confirmed in CEO bio. Sources do not contain current funding stage, total amount raised, or valuation information."
+    },
+    {
+      "name": "QuantWare",
+      "current": {
+        "name": "QuantWare",
+        "founder": "Matthijs Rijlaarsdam, Alessandro Bruno",
+        "location": "Delft, Netherlands",
+        "founded": 2021,
+        "fundingStage": "Series B",
+        "totalRaised": "$178M",
+        "website": "https://quantware.com"
+      },
+      "verified": {
+        "name": "QuantWare",
+        "description": "Founded in 2021 as a spinout from QuTech at TU Delft, QuantWare designs, fabricates, and integrates superconducting quantum processors using its VIO\u2122 architecture. The company has shipped more quantum processors than any other commercial supplier.",
+        "founders": [
+          "Matt Rijlaarsdam",
+          "Alessandro Bruno"
+        ],
+        "location": "Delft, Netherlands",
+        "founded_year": 2021,
+        "current_stage": "Series B",
+        "total_raised": "$178M",
+        "valuation": null,
+        "investors": [
+          "Intel Capital",
+          "In-Q-Tel"
+        ],
+        "website": "https://quantware.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0,
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            0,
+            1,
+            2
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Founder names in database listed as 'Matthijs Rijlaarsdam' and 'Alessandro Bruno'; source [1] uses 'Matt Rijlaarsdam' (informal version of Matthijs). Source [0] footer shows copyright '\u00a9 2021-202X QuantWare' indicating founding year 2021."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Matthijs Rijlaarsdam, Alessandro Bruno",
+          "verified": "Matt Rijlaarsdam, Alessandro Bruno",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://quantware.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://quantware.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (Sifted)",
+          "url": "https://sifted.eu/articles/intel-quantware-178m-series-b/"
+        }
+      ],
+      "notes": "Founder names in database listed as 'Matthijs Rijlaarsdam' and 'Alessandro Bruno'; source [1] uses 'Matt Rijlaarsdam' (informal version of Matthijs). Source [0] footer shows copyright '\u00a9 2021-202X QuantWare' indicating founding year 2021."
     },
     {
       "name": "SpaceX",
@@ -277,7 +559,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company that develops reusable launch vehicles, spacecraft, and satellite constellation technology. Founded by Elon Musk in 2002, SpaceX conducts more orbital launches annually than any other launch provider.",
+        "description": "American aerospace and artificial intelligence company that designs and manufactures launch vehicles, Dragon capsules, and operates the Starlink satellite constellation. Founded by Elon Musk in 2002 with the vision of decreasing space launch costs and enabling a self-sustaining colony on Mars.",
         "founders": [
           "Elon Musk"
         ],
@@ -314,7 +596,7 @@
             1
           ]
         },
-        "notes": "Source 0 is a domain listing page and not a valid company information source. Source 2 references a future launch date (May 2026) but provides no new verified company facts. Source 3 mentions SpaceX orbital data center satellites but is not about SpaceX corporate facts. Source 5 is a SEC Form D filing showing a funding round but the amount ($9.7M) appears to be for 'SpaceX Investors 5 LLC' (likely an internal entity) and cannot be reliably attributed to total company fundraising without additional context. Wikipedia states IPO expected in 2026, supporting Pre-IPO designation."
+        "notes": "Source [1] (Wikipedia) states SpaceX is 'expected to have an initial public offering (IPO) in 2026' and notes a 2025 internal share offer valued the company at $800 billion. Founded in El Segundo, California in 2002, later moved headquarters to Starbase, Texas. Database entry claims 'Series G' stage, but sources indicate Pre-IPO status instead. Database entry claims $10B+ raised and lists specific operational metrics (165 Falcon 9 launches in 2025, 81% of mass to orbit, 9M+ Starlink customers in 155+ countries, $1.5T IPO valuation) that could not be verified from provided sources."
       },
       "changes": [
         {
@@ -339,18 +621,18 @@
         },
         {
           "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/"
+        },
+        {
+          "idx": 3,
           "src": "news (NASA Breaking News)",
           "url": "https://www.nasa.gov/general/nasas-spacex-34th-commercial-resupply-mission-overview/"
         },
         {
-          "idx": 3,
+          "idx": 4,
           "src": "news (Next Big Future)",
           "url": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
-        },
-        {
-          "idx": 4,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
         },
         {
           "idx": 5,
@@ -358,7 +640,7 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133025&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "Source 0 is a domain listing page and not a valid company information source. Source 2 references a future launch date (May 2026) but provides no new verified company facts. Source 3 mentions SpaceX orbital data center satellites but is not about SpaceX corporate facts. Source 5 is a SEC Form D filing showing a funding round but the amount ($9.7M) appears to be for 'SpaceX Investors 5 LLC' (likely an internal entity) and cannot be reliably attributed to total company fundraising without additional context. Wikipedia states IPO expected in 2026, supporting Pre-IPO designation."
+      "notes": "Source [1] (Wikipedia) states SpaceX is 'expected to have an initial public offering (IPO) in 2026' and notes a 2025 internal share offer valued the company at $800 billion. Founded in El Segundo, California in 2002, later moved headquarters to Starbase, Texas. Database entry claims 'Series G' stage, but sources indicate Pre-IPO status instead. Database entry claims $10B+ raised and lists specific operational metrics (165 Falcon 9 launches in 2025, 81% of mass to orbit, 9M+ Starlink customers in 155+ countries, $1.5T IPO valuation) that could not be verified from provided sources."
     },
     {
       "name": "Starcloud",
@@ -373,7 +655,7 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In March 2026, the company became the fastest unicorn in Y Combinator history, hitting a $1.1 billion valuation 17 months after completing the program.",
+        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In November 2025, the company launched Starcloud-1, its first test satellite equipped with an Nvidia H100 GPU.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
@@ -428,7 +710,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then relocated to Redmond, Washington in February 2024. Rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Starcloud-1 launched November 2025 with Nvidia H100 GPU. Wikipedia source indicates company was founded January 2024; database entry lists 2024 without specifying month."
+        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Secondo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia reports the Series A was announced on March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status at 17 months post-program completion."
       },
       "changes": [
         {
@@ -462,7 +744,7 @@
           "url": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
         }
       ],
-      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then relocated to Redmond, Washington in February 2024. Rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Starcloud-1 launched November 2025 with Nvidia H100 GPU. Wikipedia source indicates company was founded January 2024; database entry lists 2024 without specifying month."
+      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Secondo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia reports the Series A was announced on March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status at 17 months post-program completion."
     }
   ],
   "unverifiable": []

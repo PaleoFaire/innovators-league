@@ -1,6 +1,6 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-10T07:59:20+00:00  
+**Generated:** 2026-05-11T09:01:42+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
@@ -13,13 +13,13 @@
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 39 | 91% |
-| 🔧 Changes proposed | 4 | 9% |
+| ✅ Cleared (data matches sources) | 36 | 84% |
+| 🔧 Changes proposed | 7 | 16% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (4 companies)
+## 🔧 Proposed Changes (7 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
@@ -28,32 +28,53 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`fundingStage`:** `IPO` → `Pre-IPO`  
   Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** Wikipedia lists company as 'Private' but website newsroom announces IPO launch (May 4, 2026) and registration statement filing (April 17, 2026), indicating Pre-IPO status. Most recent funding: $462M Series E in November 2025 led by B Capital. Database entry incorrectly states 'IPO' as current stage; company is in IPO process but not yet public.
+  **Notes:** IPO process initiated in April 2026 per company website newsroom. Wikipedia lists company as 'Private' but website shows IPO filing announced April 17, 2026 and IPO launch announced May 4, 2026. Most recent funding: $462 million Series E in November 2025 led by B Capital. Cape Station development located in Milford, Utah (separate from headquarters).
+
+### Nuro
+
+- **`fundingStage`:** `Series G` → `Series E`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Nuro)
+
+  **Notes:** Company pivoted from autonomous delivery vehicle manufacturing to software licensing in September 2024. Series E funding round opened in April 2025 with $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership announced with Uber and Lucid Motors in July 2025 for 20,000+ robotaxis deployment over six years.
 
 ### OpenAI
 
 - **`founder`:** `Sam Altman, Greg Brockman, Ilya Sutskever` → `Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/OpenAI)
 
-  **Notes:** Founded as nonprofit in December 2015; transitioned to for-profit capped structure in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) with 26% ownership by nonprofit foundation. October 2025 share sale valued company at $500 billion. io Products, Inc. team merged with OpenAI in July 2025.
+  **Notes:** Wikipedia states company was founded December 8, 2015. In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion (per source 1). io Products, Inc. team merged with OpenAI in July 2025 (per source 0). Database entry claims $300B valuation and $13B+ raised; these figures could not be verified in current sources and conflict with Wikipedia's $500B October 2025 valuation.
+
+### Percepto
+
+- **`location`:** `Israel, United States` → `United States, Israel`  
+  Sources: [company_about](https://percepto.co/about)
+
+  **Notes:** All four founders explicitly named as co-founders on company About page. Founded year 2014 confirmed in CEO bio. Sources do not contain current funding stage, total amount raised, or valuation information.
+
+### QuantWare
+
+- **`founder`:** `Matthijs Rijlaarsdam, Alessandro Bruno` → `Matt Rijlaarsdam, Alessandro Bruno`  
+  Sources: [company_about](https://quantware.com/about)
+
+  **Notes:** Founder names in database listed as 'Matthijs Rijlaarsdam' and 'Alessandro Bruno'; source [1] uses 'Matt Rijlaarsdam' (informal version of Matthijs). Source [0] footer shows copyright '© 2021-202X QuantWare' indicating founding year 2021.
 
 ### SpaceX
 
 - **`fundingStage`:** `Series G` → `Pre-IPO`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Source 0 is a domain listing page and not a valid company information source. Source 2 references a future launch date (May 2026) but provides no new verified company facts. Source 3 mentions SpaceX orbital data center satellites but is not about SpaceX corporate facts. Source 5 is a SEC Form D filing showing a funding round but the amount ($9.7M) appears to be for 'SpaceX Investors 5 LLC' (likely an internal entity) and cannot be reliably attributed to total company fundraising without additional context. Wikipedia states IPO expected in 2026, supporting Pre-IPO designation.
+  **Notes:** Source [1] (Wikipedia) states SpaceX is 'expected to have an initial public offering (IPO) in 2026' and notes a 2025 internal share offer valued the company at $800 billion. Founded in El Segundo, California in 2002, later moved headquarters to Starbase, Texas. Database entry claims 'Series G' stage, but sources indicate Pre-IPO status instead. Database entry claims $10B+ raised and lists specific operational metrics (165 Falcon 9 launches in 2025, 81% of mass to orbit, 9M+ Starlink customers in 155+ countries, $1.5T IPO valuation) that could not be verified from provided sources.
 
 ### Starcloud
 
 - **`fundingStage`:** `SPAC` → `Series A`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then relocated to Redmond, Washington in February 2024. Rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Starcloud-1 launched November 2025 with Nvidia H100 GPU. Wikipedia source indicates company was founded January 2024; database entry lists 2024 without specifying month.
+  **Notes:** Company was originally founded as 'Lumen Orbit' in January 2024 in El Secondo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia reports the Series A was announced on March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status at 17 months post-program completion.
 
 ---
 
-## ✅ Cleared (39 companies)
+## ✅ Cleared (36 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -80,18 +101,18 @@ Sample (first 30):
 - ICON
 - Karman Industries
 - Kyutai
-- Nuro
 - Nyobolt
 - Palantir
-- Percepto
 - Photonic Inc
 - Pivotal
-- QuantWare
 - Quantum Motion
 - Rebellions
-- *...and 9 more*
+- Rivian
+- Rocket Lab
+- Solugen
+- *...and 6 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-10T07:59:20+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-11T09:01:42+00:00*
