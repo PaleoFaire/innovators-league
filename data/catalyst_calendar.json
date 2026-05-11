@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-10T22:57:41+00:00",
+  "generatedAt": "2026-05-11T00:00:32+00:00",
   "windowPastDays": 365,
   "windowFutureDays": 730,
-  "todayUTC": "2026-05-10",
+  "todayUTC": "2026-05-11",
   "totalEvents": 242,
   "bySource": {
     "fda": 5,
@@ -56,7 +56,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": 1,
+      "daysOut": 0,
       "importance": "urgent"
     },
     {
@@ -78,7 +78,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": 1,
+      "daysOut": 0,
       "importance": "urgent"
     },
     {
@@ -100,7 +100,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": 1,
+      "daysOut": 0,
       "importance": "urgent"
     },
     {
@@ -122,7 +122,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": 1,
+      "daysOut": 0,
       "importance": "urgent"
     },
     {
@@ -154,7 +154,7 @@
           "Dynamo Air"
         ]
       },
-      "daysOut": 2,
+      "daysOut": 1,
       "importance": "urgent"
     },
     {
@@ -185,7 +185,7 @@
         ],
         "description": "Engineered biological systems for air revitalization and waste processing in long-duration space missions."
       },
-      "daysOut": 5,
+      "daysOut": 4,
       "importance": "high"
     },
     {
@@ -219,7 +219,7 @@
         "lastUpdated": "2025-12-26",
         "enrollment": 30
       },
-      "daysOut": 19,
+      "daysOut": 18,
       "importance": "medium"
     },
     {
@@ -251,7 +251,7 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 7
       },
-      "daysOut": 19,
+      "daysOut": 18,
       "importance": "medium"
     },
     {
@@ -285,7 +285,7 @@
         "lastUpdated": "2026-04-21",
         "enrollment": 300
       },
-      "daysOut": 20,
+      "daysOut": 19,
       "importance": "medium"
     },
     {
@@ -319,7 +319,7 @@
         "lastUpdated": "2026-03-09",
         "enrollment": 13
       },
-      "daysOut": 21,
+      "daysOut": 20,
       "importance": "medium"
     },
     {
@@ -353,7 +353,7 @@
         "lastUpdated": "2026-03-03",
         "enrollment": 16
       },
-      "daysOut": 21,
+      "daysOut": 20,
       "importance": "medium"
     },
     {
@@ -424,7 +424,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -490,7 +490,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -551,7 +551,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -576,7 +576,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -601,7 +601,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -626,7 +626,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -651,7 +651,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -676,7 +676,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -701,7 +701,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -726,7 +726,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -751,7 +751,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -776,7 +776,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -801,7 +801,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -826,7 +826,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 22,
+      "daysOut": 21,
       "importance": "medium"
     },
     {
@@ -858,7 +858,7 @@
           "Skydio"
         ]
       },
-      "daysOut": 24,
+      "daysOut": 23,
       "importance": "medium"
     },
     {
@@ -890,7 +890,7 @@
           "Oklo"
         ]
       },
-      "daysOut": 35,
+      "daysOut": 34,
       "importance": "medium"
     },
     {
@@ -923,7 +923,7 @@
         "lastUpdated": "2026-03-24",
         "enrollment": 37
       },
-      "daysOut": 52,
+      "daysOut": 51,
       "importance": "medium"
     },
     {
@@ -956,7 +956,7 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 18
       },
-      "daysOut": 62,
+      "daysOut": 61,
       "importance": "low"
     },
     {
@@ -989,7 +989,7 @@
         "lastUpdated": "2025-05-30",
         "enrollment": 500
       },
-      "daysOut": 81,
+      "daysOut": 80,
       "importance": "low"
     },
     {
@@ -1021,7 +1021,7 @@
         "lastUpdated": "2026-04-03",
         "enrollment": 43
       },
-      "daysOut": 112,
+      "daysOut": 111,
       "importance": "low"
     },
     {
@@ -1051,7 +1051,7 @@
           "Form Energy"
         ]
       },
-      "daysOut": 121,
+      "daysOut": 120,
       "importance": "low"
     },
     {
@@ -1085,7 +1085,7 @@
         "lastUpdated": "2024-12-17",
         "enrollment": 100
       },
-      "daysOut": 144,
+      "daysOut": 143,
       "importance": "low"
     },
     {
@@ -1118,7 +1118,7 @@
         "lastUpdated": "2026-03-27",
         "enrollment": 20
       },
-      "daysOut": 173,
+      "daysOut": 172,
       "importance": "low"
     },
     {
@@ -1152,7 +1152,7 @@
         "lastUpdated": "2025-11-26",
         "enrollment": 14633
       },
-      "daysOut": 173,
+      "daysOut": 172,
       "importance": "low"
     },
     {
@@ -1184,7 +1184,7 @@
         "lastUpdated": "2026-05-05",
         "enrollment": 822
       },
-      "daysOut": 173,
+      "daysOut": 172,
       "importance": "low"
     },
     {
@@ -1220,7 +1220,7 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 350
       },
-      "daysOut": 175,
+      "daysOut": 174,
       "importance": "low"
     },
     {
@@ -1250,7 +1250,7 @@
           "UAE investors"
         ]
       },
-      "daysOut": 189,
+      "daysOut": 188,
       "importance": "low"
     },
     {
@@ -1283,7 +1283,7 @@
         "lastUpdated": "2025-11-14",
         "enrollment": 367
       },
-      "daysOut": 197,
+      "daysOut": 196,
       "importance": "low"
     },
     {
@@ -1317,7 +1317,7 @@
         "lastUpdated": "2026-05-05",
         "enrollment": 42
       },
-      "daysOut": 202,
+      "daysOut": 201,
       "importance": "low"
     },
     {
@@ -1349,7 +1349,7 @@
         "lastUpdated": "2025-08-06",
         "enrollment": 600
       },
-      "daysOut": 204,
+      "daysOut": 203,
       "importance": "low"
     },
     {
@@ -1384,7 +1384,7 @@
         "lastUpdated": "2025-04-25",
         "enrollment": 160
       },
-      "daysOut": 205,
+      "daysOut": 204,
       "importance": "low"
     },
     {
@@ -1420,7 +1420,7 @@
         "lastUpdated": "2025-10-15",
         "enrollment": 2990
       },
-      "daysOut": 205,
+      "daysOut": 204,
       "importance": "low"
     },
     {
@@ -1452,7 +1452,7 @@
         "lastUpdated": "2026-05-04",
         "enrollment": 20000
       },
-      "daysOut": 205,
+      "daysOut": 204,
       "importance": "low"
     },
     {
@@ -1486,7 +1486,7 @@
         "lastUpdated": "2024-03-12",
         "enrollment": 400
       },
-      "daysOut": 205,
+      "daysOut": 204,
       "importance": "low"
     },
     {
@@ -1518,7 +1518,7 @@
         "lastUpdated": "2023-09-21",
         "enrollment": 150
       },
-      "daysOut": 205,
+      "daysOut": 204,
       "importance": "low"
     },
     {
@@ -1552,7 +1552,7 @@
         "lastUpdated": "2026-03-02",
         "enrollment": 69
       },
-      "daysOut": 205,
+      "daysOut": 204,
       "importance": "low"
     },
     {
@@ -1586,7 +1586,7 @@
         "lastUpdated": "2025-01-13",
         "enrollment": 5
       },
-      "daysOut": 205,
+      "daysOut": 204,
       "importance": "low"
     },
     {
@@ -1647,7 +1647,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 205,
+      "daysOut": 204,
       "importance": "low"
     },
     {
@@ -1682,7 +1682,7 @@
         "lastUpdated": "2026-03-27",
         "enrollment": 20
       },
-      "daysOut": 234,
+      "daysOut": 233,
       "importance": "low"
     },
     {
@@ -1714,7 +1714,7 @@
         "lastUpdated": "2026-05-05",
         "enrollment": 42
       },
-      "daysOut": 234,
+      "daysOut": 233,
       "importance": "low"
     },
     {
@@ -1748,7 +1748,7 @@
         "lastUpdated": "2025-10-27",
         "enrollment": 107
       },
-      "daysOut": 235,
+      "daysOut": 234,
       "importance": "low"
     },
     {
@@ -1780,7 +1780,7 @@
         "lastUpdated": "2026-04-30",
         "enrollment": 12000
       },
-      "daysOut": 235,
+      "daysOut": 234,
       "importance": "low"
     },
     {
@@ -1810,7 +1810,7 @@
         "lastUpdated": "2021-05-11",
         "enrollment": 700
       },
-      "daysOut": 235,
+      "daysOut": 234,
       "importance": "low"
     },
     {
@@ -1845,7 +1845,7 @@
         "lastUpdated": "2026-04-29",
         "enrollment": 198
       },
-      "daysOut": 235,
+      "daysOut": 234,
       "importance": "low"
     },
     {
@@ -1879,7 +1879,7 @@
         "lastUpdated": "2024-08-22",
         "enrollment": 300
       },
-      "daysOut": 235,
+      "daysOut": 234,
       "importance": "low"
     },
     {
@@ -1909,7 +1909,7 @@
         "lastUpdated": "2026-04-22",
         "enrollment": 401
       },
-      "daysOut": 235,
+      "daysOut": 234,
       "importance": "low"
     },
     {
@@ -1965,7 +1965,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 236,
+      "daysOut": 235,
       "importance": "low"
     },
     {
@@ -2016,7 +2016,7 @@
         "note": "Boeing-backed. First fully autonomous air taxi seeking FAA TC.",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 236,
+      "daysOut": 235,
       "importance": "low"
     },
     {
@@ -2077,7 +2077,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 236,
+      "daysOut": 235,
       "importance": "low"
     },
     {
@@ -2133,7 +2133,7 @@
         "note": "",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 236,
+      "daysOut": 235,
       "importance": "low"
     },
     {
@@ -2161,7 +2161,7 @@
           "All major aerospace"
         ]
       },
-      "daysOut": 239,
+      "daysOut": 238,
       "importance": "low"
     },
     {
@@ -2194,7 +2194,7 @@
         "lastUpdated": "2022-11-07",
         "enrollment": 10000
       },
-      "daysOut": 250,
+      "daysOut": 249,
       "importance": "low"
     },
     {
@@ -2226,7 +2226,7 @@
           "Relativity"
         ]
       },
-      "daysOut": 261,
+      "daysOut": 260,
       "importance": "low"
     },
     {
@@ -2259,7 +2259,7 @@
         "lastUpdated": "2026-04-20",
         "enrollment": 60
       },
-      "daysOut": 265,
+      "daysOut": 264,
       "importance": "low"
     },
     {
@@ -2291,7 +2291,7 @@
         "lastUpdated": "2025-11-06",
         "enrollment": 1000
       },
-      "daysOut": 267,
+      "daysOut": 266,
       "importance": "low"
     },
     {
@@ -2324,7 +2324,7 @@
         "lastUpdated": "2026-02-23",
         "enrollment": 68
       },
-      "daysOut": 267,
+      "daysOut": 266,
       "importance": "low"
     },
     {
@@ -2358,7 +2358,7 @@
         "lastUpdated": "2026-03-31",
         "enrollment": 250
       },
-      "daysOut": 295,
+      "daysOut": 294,
       "importance": "low"
     },
     {
@@ -2391,7 +2391,7 @@
         "lastUpdated": "2026-03-31",
         "enrollment": 128
       },
-      "daysOut": 317,
+      "daysOut": 316,
       "importance": "low"
     },
     {
@@ -2425,7 +2425,7 @@
         "lastUpdated": "2026-05-01",
         "enrollment": 750
       },
-      "daysOut": 326,
+      "daysOut": 325,
       "importance": "low"
     },
     {
@@ -2458,7 +2458,7 @@
         "lastUpdated": "2026-04-14",
         "enrollment": 500
       },
-      "daysOut": 326,
+      "daysOut": 325,
       "importance": "low"
     },
     {
@@ -2491,7 +2491,7 @@
         "lastUpdated": "2026-04-27",
         "enrollment": 734
       },
-      "daysOut": 331,
+      "daysOut": 330,
       "importance": "low"
     },
     {
@@ -2527,7 +2527,7 @@
         "lastUpdated": "2025-09-22",
         "enrollment": 930
       },
-      "daysOut": 355,
+      "daysOut": 354,
       "importance": "low"
     },
     {
@@ -2561,7 +2561,7 @@
         "lastUpdated": "2026-04-28",
         "enrollment": 20
       },
-      "daysOut": 356,
+      "daysOut": 355,
       "importance": "low"
     },
     {
@@ -2595,7 +2595,7 @@
         "lastUpdated": "2026-01-29",
         "enrollment": 81
       },
-      "daysOut": 356,
+      "daysOut": 355,
       "importance": "low"
     },
     {
@@ -2628,7 +2628,7 @@
         "lastUpdated": "2026-03-25",
         "enrollment": 39
       },
-      "daysOut": 367,
+      "daysOut": 366,
       "importance": "low"
     },
     {
@@ -2660,7 +2660,7 @@
         "lastUpdated": "2026-01-12",
         "enrollment": 1017
       },
-      "daysOut": 370,
+      "daysOut": 369,
       "importance": "low"
     },
     {
@@ -2693,7 +2693,7 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 20
       },
-      "daysOut": 372,
+      "daysOut": 371,
       "importance": "low"
     },
     {
@@ -2727,7 +2727,7 @@
         "lastUpdated": "2026-04-28",
         "enrollment": 1100
       },
-      "daysOut": 386,
+      "daysOut": 385,
       "importance": "low"
     },
     {
@@ -2759,7 +2759,7 @@
         "lastUpdated": "2026-04-30",
         "enrollment": 2000
       },
-      "daysOut": 387,
+      "daysOut": 386,
       "importance": "low"
     },
     {
@@ -2791,7 +2791,7 @@
         "lastUpdated": "2026-04-21",
         "enrollment": 99
       },
-      "daysOut": 387,
+      "daysOut": 386,
       "importance": "low"
     },
     {
@@ -2852,7 +2852,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 387,
+      "daysOut": 386,
       "importance": "low"
     },
     {
@@ -2877,7 +2877,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 387,
+      "daysOut": 386,
       "importance": "low"
     },
     {
@@ -2902,7 +2902,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 387,
+      "daysOut": 386,
       "importance": "low"
     },
     {
@@ -2927,7 +2927,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 387,
+      "daysOut": 386,
       "importance": "low"
     },
     {
@@ -2952,7 +2952,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 387,
+      "daysOut": 386,
       "importance": "low"
     },
     {
@@ -2984,7 +2984,7 @@
         "lastUpdated": "2025-08-05",
         "enrollment": 20000
       },
-      "daysOut": 401,
+      "daysOut": 400,
       "importance": "low"
     },
     {
@@ -3017,7 +3017,7 @@
         "lastUpdated": "2026-04-16",
         "enrollment": 67
       },
-      "daysOut": 479,
+      "daysOut": 478,
       "importance": "low"
     },
     {
@@ -3052,7 +3052,7 @@
         "lastUpdated": "2026-05-04",
         "enrollment": 54
       },
-      "daysOut": 479,
+      "daysOut": 478,
       "importance": "low"
     },
     {
@@ -3085,7 +3085,7 @@
         "lastUpdated": "2025-12-18",
         "enrollment": 60
       },
-      "daysOut": 479,
+      "daysOut": 478,
       "importance": "low"
     },
     {
@@ -3119,7 +3119,7 @@
         "lastUpdated": "2026-05-07",
         "enrollment": 9
       },
-      "daysOut": 481,
+      "daysOut": 480,
       "importance": "low"
     },
     {
@@ -3153,7 +3153,7 @@
         "lastUpdated": "2025-06-03",
         "enrollment": 110
       },
-      "daysOut": 570,
+      "daysOut": 569,
       "importance": "low"
     },
     {
@@ -3185,7 +3185,7 @@
         "lastUpdated": "2025-07-24",
         "enrollment": 416
       },
-      "daysOut": 570,
+      "daysOut": 569,
       "importance": "low"
     },
     {
@@ -3220,7 +3220,7 @@
         "lastUpdated": "2026-04-28",
         "enrollment": 180
       },
-      "daysOut": 570,
+      "daysOut": 569,
       "importance": "low"
     },
     {
@@ -3253,7 +3253,7 @@
         "lastUpdated": "2025-05-30",
         "enrollment": 1000
       },
-      "daysOut": 570,
+      "daysOut": 569,
       "importance": "low"
     },
     {
@@ -3283,7 +3283,7 @@
         "lastUpdated": "2026-04-03",
         "enrollment": 30
       },
-      "daysOut": 570,
+      "daysOut": 569,
       "importance": "low"
     },
     {
@@ -3316,7 +3316,7 @@
         "lastUpdated": "2025-08-05",
         "enrollment": 63
       },
-      "daysOut": 570,
+      "daysOut": 569,
       "importance": "low"
     },
     {
@@ -3348,7 +3348,7 @@
         "lastUpdated": "2025-12-15",
         "enrollment": 36
       },
-      "daysOut": 599,
+      "daysOut": 598,
       "importance": "low"
     },
     {
@@ -3381,7 +3381,7 @@
         "lastUpdated": "2026-04-29",
         "enrollment": 120
       },
-      "daysOut": 600,
+      "daysOut": 599,
       "importance": "low"
     },
     {
@@ -3413,7 +3413,7 @@
         "lastUpdated": "2026-04-24",
         "enrollment": 24
       },
-      "daysOut": 600,
+      "daysOut": 599,
       "importance": "low"
     },
     {
@@ -3474,7 +3474,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 601,
+      "daysOut": 600,
       "importance": "low"
     },
     {
@@ -3530,7 +3530,7 @@
         "note": "USAF contract for Presidential & Executive Airlift rapid transport.",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": 601,
+      "daysOut": 600,
       "importance": "low"
     },
     {
@@ -3562,7 +3562,7 @@
         "lastUpdated": "2025-12-16",
         "enrollment": 15
       },
-      "daysOut": 632,
+      "daysOut": 631,
       "importance": "low"
     },
     {
@@ -3595,7 +3595,7 @@
         "lastUpdated": "2026-02-18",
         "enrollment": 50
       },
-      "daysOut": 659,
+      "daysOut": 658,
       "importance": "low"
     },
     {
@@ -3625,7 +3625,7 @@
         "lastUpdated": "2026-04-06",
         "enrollment": 500
       },
-      "daysOut": 661,
+      "daysOut": 660,
       "importance": "low"
     },
     {
@@ -3658,7 +3658,7 @@
         "lastUpdated": "2025-08-06",
         "enrollment": 240
       },
-      "daysOut": 688,
+      "daysOut": 687,
       "importance": "low"
     },
     {
@@ -3692,7 +3692,7 @@
         "lastUpdated": "2025-01-06",
         "enrollment": 24
       },
-      "daysOut": 690,
+      "daysOut": 689,
       "importance": "low"
     },
     {
@@ -3725,7 +3725,7 @@
         "lastUpdated": "2026-01-27",
         "enrollment": 28
       },
-      "daysOut": 692,
+      "daysOut": 691,
       "importance": "low"
     },
     {
@@ -3757,7 +3757,7 @@
         "lastUpdated": "2026-04-28",
         "enrollment": 30
       },
-      "daysOut": 692,
+      "daysOut": 691,
       "importance": "low"
     },
     {
@@ -3790,7 +3790,7 @@
         "lastUpdated": "2026-03-27",
         "enrollment": 1200
       },
-      "daysOut": 692,
+      "daysOut": 691,
       "importance": "low"
     },
     {
@@ -3822,7 +3822,7 @@
         "lastUpdated": "2026-04-22",
         "enrollment": 4200
       },
-      "daysOut": 715,
+      "daysOut": 714,
       "importance": "low"
     },
     {
@@ -3855,7 +3855,7 @@
         "lastUpdated": "2026-04-13",
         "enrollment": 35885
       },
-      "daysOut": 721,
+      "daysOut": 720,
       "importance": "low"
     },
     {
@@ -3890,7 +3890,7 @@
         "lastUpdated": "2026-04-23",
         "enrollment": 230
       },
-      "daysOut": 722,
+      "daysOut": 721,
       "importance": "low"
     },
     {
@@ -3915,7 +3915,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -3940,7 +3940,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -3965,7 +3965,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -3990,7 +3990,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4015,7 +4015,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4040,7 +4040,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4065,7 +4065,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4090,7 +4090,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4115,7 +4115,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4140,7 +4140,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4165,7 +4165,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4190,7 +4190,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4215,7 +4215,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4240,7 +4240,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4265,7 +4265,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4287,7 +4287,7 @@
         "sectors": "defense, nuclear",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4309,7 +4309,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4331,7 +4331,7 @@
         "sectors": "defense, ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4353,7 +4353,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4375,7 +4375,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4397,7 +4397,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4419,7 +4419,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4441,7 +4441,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4463,7 +4463,7 @@
         "sectors": "defense, ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4485,7 +4485,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4507,7 +4507,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4529,7 +4529,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4551,7 +4551,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4573,7 +4573,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4595,7 +4595,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4617,7 +4617,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4639,7 +4639,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4661,7 +4661,7 @@
         "sectors": "defense, ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4683,7 +4683,7 @@
         "sectors": "defense, ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4705,7 +4705,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4727,7 +4727,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4749,7 +4749,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -3,
+      "daysOut": -4,
       "importance": "low"
     },
     {
@@ -4771,7 +4771,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -3,
+      "daysOut": -4,
       "importance": "low"
     },
     {
@@ -4793,7 +4793,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -3,
+      "daysOut": -4,
       "importance": "low"
     },
     {
@@ -4815,7 +4815,7 @@
         "sectors": "nuclear",
         "significant": false
       },
-      "daysOut": -3,
+      "daysOut": -4,
       "importance": "low"
     },
     {
@@ -4837,7 +4837,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -3,
+      "daysOut": -4,
       "importance": "low"
     },
     {
@@ -4869,7 +4869,7 @@
         "first_sale_date": "",
         "is_safe": false
       },
-      "daysOut": -3,
+      "daysOut": -4,
       "importance": "low"
     },
     {
@@ -4901,7 +4901,7 @@
         "first_sale_date": "",
         "is_safe": false
       },
-      "daysOut": -3,
+      "daysOut": -4,
       "importance": "low"
     },
     {
@@ -4933,7 +4933,7 @@
         "first_sale_date": "",
         "is_safe": false
       },
-      "daysOut": -3,
+      "daysOut": -4,
       "importance": "low"
     },
     {
@@ -4965,7 +4965,7 @@
         "first_sale_date": "",
         "is_safe": false
       },
-      "daysOut": -4,
+      "daysOut": -5,
       "importance": "low"
     },
     {
@@ -4997,7 +4997,7 @@
         "first_sale_date": "",
         "is_safe": false
       },
-      "daysOut": -4,
+      "daysOut": -5,
       "importance": "low"
     },
     {
@@ -5027,7 +5027,7 @@
           "Top startups"
         ]
       },
-      "daysOut": -4,
+      "daysOut": -5,
       "importance": "low"
     },
     {
@@ -5059,7 +5059,7 @@
         "first_sale_date": "",
         "is_safe": false
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -5093,7 +5093,7 @@
         "lastUpdated": "2025-11-06",
         "enrollment": 571
       },
-      "daysOut": -9,
+      "daysOut": -10,
       "importance": "low"
     },
     {
@@ -5127,7 +5127,7 @@
         ],
         "description": "Develop coordinated autonomous systems for naval surface and undersea operations."
       },
-      "daysOut": -9,
+      "daysOut": -10,
       "importance": "low"
     },
     {
@@ -5161,7 +5161,7 @@
         "lastUpdated": "2026-04-14",
         "enrollment": 255
       },
-      "daysOut": -17,
+      "daysOut": -18,
       "importance": "low"
     },
     {
@@ -5195,7 +5195,7 @@
           "Saildrone"
         ]
       },
-      "daysOut": -20,
+      "daysOut": -21,
       "importance": "low"
     },
     {
@@ -5227,7 +5227,7 @@
         ],
         "description": "Component technologies for compact fusion pilot plants targeting net energy by 2030."
       },
-      "daysOut": -25,
+      "daysOut": -26,
       "importance": "low"
     },
     {
@@ -5254,7 +5254,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=215450",
         "matched_company": "Saronic"
       },
-      "daysOut": -26,
+      "daysOut": -27,
       "importance": "low"
     },
     {
@@ -5281,7 +5281,7 @@
         "url": "https://fcc.report/IBFS/SAT-STA-2026-04-00089",
         "matched_company": "Umbra"
       },
-      "daysOut": -30,
+      "daysOut": -31,
       "importance": "low"
     },
     {
@@ -5315,7 +5315,7 @@
           "Varda"
         ]
       },
-      "daysOut": -33,
+      "daysOut": -34,
       "importance": "low"
     },
     {
@@ -5342,7 +5342,7 @@
         "description": "Loan guarantees for innovative energy projects; ~$400B lending authority.",
         "lastUpdate": "2026-04-05"
       },
-      "daysOut": -35,
+      "daysOut": -36,
       "importance": "low"
     },
     {
@@ -5369,7 +5369,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=215088",
         "matched_company": "Hermeus"
       },
-      "daysOut": -38,
+      "daysOut": -39,
       "importance": "low"
     },
     {
@@ -5396,7 +5396,7 @@
         "description": "Funding for advanced reactor demonstrations (Natrium, Xe-100).",
         "lastUpdate": "2026-04-01"
       },
-      "daysOut": -39,
+      "daysOut": -40,
       "importance": "low"
     },
     {
@@ -5429,7 +5429,7 @@
         ],
         "description": "Novel propulsion concepts for cislunar operations and deep space missions."
       },
-      "daysOut": -39,
+      "daysOut": -40,
       "importance": "low"
     },
     {
@@ -5461,7 +5461,7 @@
         ],
         "description": "Machine learning approaches for detecting and responding to cyber threats targeting energy and water infrastructure."
       },
-      "daysOut": -40,
+      "daysOut": -41,
       "importance": "low"
     },
     {
@@ -5494,7 +5494,7 @@
         ],
         "description": "Hardware-level quantum error correction approaches for fault-tolerant quantum computing."
       },
-      "daysOut": -41,
+      "daysOut": -42,
       "importance": "low"
     },
     {
@@ -5522,7 +5522,7 @@
         "description": "Fusion R&D; FY2026 appropriation includes $58M for the Fusion Innovation Research Engine (FIRE).",
         "lastUpdate": "2026-03-28"
       },
-      "daysOut": -43,
+      "daysOut": -44,
       "importance": "low"
     },
     {
@@ -5549,7 +5549,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=214220",
         "matched_company": "Picogrid"
       },
-      "daysOut": -51,
+      "daysOut": -52,
       "importance": "low"
     },
     {
@@ -5578,7 +5578,7 @@
         "description": "Transportable microreactors (DoD Project Pele, DOE MARVEL).",
         "lastUpdate": "2026-03-20"
       },
-      "daysOut": -51,
+      "daysOut": -52,
       "importance": "low"
     },
     {
@@ -5604,7 +5604,7 @@
         "description": "High-assay low-enriched uranium production \u2014 2026 appropriation boosted to $2.7B.",
         "lastUpdate": "2026-03-15"
       },
-      "daysOut": -56,
+      "daysOut": -57,
       "importance": "low"
     },
     {
@@ -5637,7 +5637,7 @@
         ],
         "description": "Develop AI/ML approaches for real-time electronic warfare signal classification and response."
       },
-      "daysOut": -56,
+      "daysOut": -57,
       "importance": "low"
     },
     {
@@ -5670,7 +5670,7 @@
         "lastUpdated": "2025-10-23",
         "enrollment": 650
       },
-      "daysOut": -62,
+      "daysOut": -63,
       "importance": "low"
     },
     {
@@ -5696,7 +5696,7 @@
         "description": "Seven regional clean hydrogen hubs across the U.S.",
         "lastUpdate": "2026-03-05"
       },
-      "daysOut": -66,
+      "daysOut": -67,
       "importance": "low"
     },
     {
@@ -5723,7 +5723,7 @@
         "url": "https://fcc.report/IBFS/SAT-STA-2026-03-00112",
         "matched_company": null
       },
-      "daysOut": -69,
+      "daysOut": -70,
       "importance": "low"
     },
     {
@@ -5750,7 +5750,7 @@
         "description": "Support for NRC licensing of first-of-a-kind small modular reactors.",
         "lastUpdate": "2026-03-01"
       },
-      "daysOut": -70,
+      "daysOut": -71,
       "importance": "low"
     },
     {
@@ -5784,7 +5784,7 @@
         ],
         "description": "Innovative manufacturing processes for HALEU and advanced nuclear fuels."
       },
-      "daysOut": -71,
+      "daysOut": -72,
       "importance": "low"
     },
     {
@@ -5816,7 +5816,7 @@
         "sentiment": "bearish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -73,
+      "daysOut": -74,
       "importance": "low"
     },
     {
@@ -5842,7 +5842,7 @@
         "description": "Preserves at-risk U.S. reactors via credit auctions (Palisades restart).",
         "lastUpdate": "2026-02-25"
       },
-      "daysOut": -74,
+      "daysOut": -75,
       "importance": "low"
     },
     {
@@ -5875,7 +5875,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/nvidia-nvda-q4-2026-earnings-call-transcript/"
       },
-      "daysOut": -74,
+      "daysOut": -75,
       "importance": "low"
     },
     {
@@ -5907,7 +5907,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/ionq-ionq-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -74,
+      "daysOut": -75,
       "importance": "low"
     },
     {
@@ -5942,7 +5942,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.constellationenergy.com/news/2026/02/constellation-reports-fourth-quarter-and-full-year-2025-results.html"
       },
-      "daysOut": -75,
+      "daysOut": -76,
       "importance": "low"
     },
     {
@@ -5974,7 +5974,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/23/kratos-ktos-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -76,
+      "daysOut": -77,
       "importance": "low"
     },
     {
@@ -6000,7 +6000,7 @@
         "description": "Large-scale decarbonization demonstrations in heavy industry.",
         "lastUpdate": "2026-02-20"
       },
-      "daysOut": -79,
+      "daysOut": -80,
       "importance": "low"
     },
     {
@@ -6027,7 +6027,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=213104",
         "matched_company": "Archer Aviation"
       },
-      "daysOut": -80,
+      "daysOut": -81,
       "importance": "low"
     },
     {
@@ -6049,7 +6049,7 @@
         "description": "Upgrades to transmission, storage and grid hardening.",
         "lastUpdate": "2026-02-15"
       },
-      "daysOut": -84,
+      "daysOut": -85,
       "importance": "low"
     },
     {
@@ -6081,7 +6081,7 @@
         ],
         "description": "Advanced materials for thermal protection systems on hypersonic flight vehicles."
       },
-      "daysOut": -84,
+      "daysOut": -85,
       "importance": "low"
     },
     {
@@ -6108,7 +6108,7 @@
         "url": "https://fcc.report/IBFS/SAT-LOA-2026-02-00045",
         "matched_company": null
       },
-      "daysOut": -89,
+      "daysOut": -90,
       "importance": "low"
     },
     {
@@ -6134,7 +6134,7 @@
         "description": "Nuclear propulsion for deep space missions (DRACO follow-on).",
         "lastUpdate": "2026-02-10"
       },
-      "daysOut": -89,
+      "daysOut": -90,
       "importance": "low"
     },
     {
@@ -6161,7 +6161,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=212088",
         "matched_company": "Shield AI"
       },
-      "daysOut": -96,
+      "daysOut": -97,
       "importance": "low"
     },
     {
@@ -6196,7 +6196,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/03/amd-amd-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -96,
+      "daysOut": -97,
       "importance": "low"
     },
     {
@@ -6229,7 +6229,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -97,
+      "daysOut": -98,
       "importance": "low"
     },
     {
@@ -6261,7 +6261,7 @@
         "lastUpdated": "2025-03-30",
         "enrollment": 66
       },
-      "daysOut": -99,
+      "daysOut": -100,
       "importance": "low"
     },
     {
@@ -6294,7 +6294,7 @@
         ],
         "description": "Scalable C-UAS solutions for base defense and expeditionary operations."
       },
-      "daysOut": -99,
+      "daysOut": -100,
       "importance": "low"
     },
     {
@@ -6326,7 +6326,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/"
       },
-      "daysOut": -101,
+      "daysOut": -102,
       "importance": "low"
     },
     {
@@ -6359,7 +6359,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/tesla-tsla-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -102,
+      "daysOut": -103,
       "importance": "low"
     },
     {
@@ -6391,7 +6391,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/meta-meta-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -102,
+      "daysOut": -103,
       "importance": "low"
     },
     {
@@ -6423,7 +6423,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -103,
+      "daysOut": -104,
       "importance": "low"
     },
     {
@@ -6456,7 +6456,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.benzinga.com/insights/news/26/01/50191849/northrop-grumman-q-2026-earnings-call-transcript"
       },
-      "daysOut": -103,
+      "daysOut": -104,
       "importance": "low"
     },
     {
@@ -6489,7 +6489,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/boeing-ba-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -103,
+      "daysOut": -104,
       "importance": "low"
     },
     {
@@ -6516,7 +6516,7 @@
         "url": "https://fcc.report/IBFS/SAT-STA-2026-01-00021",
         "matched_company": "AST SpaceMobile"
       },
-      "daysOut": -108,
+      "daysOut": -109,
       "importance": "low"
     },
     {
@@ -6543,7 +6543,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=211230",
         "matched_company": "Anduril Industries"
       },
-      "daysOut": -112,
+      "daysOut": -113,
       "importance": "low"
     },
     {
@@ -6570,7 +6570,7 @@
         "description": "Vouchers giving nuclear startups access to national lab expertise.",
         "lastUpdate": "2026-01-10"
       },
-      "daysOut": -120,
+      "daysOut": -121,
       "importance": "low"
     },
     {
@@ -6631,7 +6631,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -129,
+      "daysOut": -130,
       "importance": "low"
     },
     {
@@ -6687,7 +6687,7 @@
         "note": "",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -129,
+      "daysOut": -130,
       "importance": "low"
     },
     {
@@ -6758,7 +6758,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -129,
+      "daysOut": -130,
       "importance": "low"
     },
     {
@@ -6824,7 +6824,7 @@
         "note": "",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -129,
+      "daysOut": -130,
       "importance": "low"
     },
     {
@@ -6885,7 +6885,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -129,
+      "daysOut": -130,
       "importance": "low"
     },
     {
@@ -6941,7 +6941,7 @@
         "note": "",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -129,
+      "daysOut": -130,
       "importance": "low"
     },
     {
@@ -6973,7 +6973,7 @@
         "lastUpdated": "2025-05-21",
         "enrollment": 1070
       },
-      "daysOut": -130,
+      "daysOut": -131,
       "importance": "low"
     },
     {
@@ -7007,7 +7007,7 @@
         "lastUpdated": "2025-04-04",
         "enrollment": 30000
       },
-      "daysOut": -130,
+      "daysOut": -131,
       "importance": "low"
     },
     {
@@ -7038,7 +7038,7 @@
         "lastUpdated": "2025-06-12",
         "enrollment": 50
       },
-      "daysOut": -130,
+      "daysOut": -131,
       "importance": "low"
     },
     {
@@ -7071,7 +7071,7 @@
         "lastUpdated": "2025-03-20",
         "enrollment": 590
       },
-      "daysOut": -130,
+      "daysOut": -131,
       "importance": "low"
     },
     {
@@ -7098,7 +7098,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=209445",
         "matched_company": "Skydio"
       },
-      "daysOut": -157,
+      "daysOut": -158,
       "importance": "low"
     },
     {
@@ -7130,7 +7130,7 @@
         "lastUpdated": "2025-10-03",
         "enrollment": 150000
       },
-      "daysOut": -160,
+      "daysOut": -161,
       "importance": "low"
     },
     {
@@ -7160,7 +7160,7 @@
         "lastUpdated": "2024-09-19",
         "enrollment": 250
       },
-      "daysOut": -160,
+      "daysOut": -161,
       "importance": "low"
     },
     {
@@ -7194,7 +7194,7 @@
         "lastUpdated": "2025-04-02",
         "enrollment": 9
       },
-      "daysOut": -160,
+      "daysOut": -161,
       "importance": "low"
     },
     {
@@ -7260,7 +7260,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -160,
+      "daysOut": -161,
       "importance": "low"
     },
     {
@@ -7321,7 +7321,7 @@
         "note": "",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -160,
+      "daysOut": -161,
       "importance": "low"
     },
     {
@@ -7382,7 +7382,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -160,
+      "daysOut": -161,
       "importance": "low"
     },
     {
@@ -7438,7 +7438,7 @@
         "note": "",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -160,
+      "daysOut": -161,
       "importance": "low"
     },
     {
@@ -7465,7 +7465,7 @@
         "url": "https://fcc.report/IBFS/SAT-LOA-2025-11-08912",
         "matched_company": "Astranis"
       },
-      "daysOut": -176,
+      "daysOut": -177,
       "importance": "low"
     },
     {
@@ -7488,7 +7488,7 @@
         "status": "SESE",
         "k_number": "K241868"
       },
-      "daysOut": -233,
+      "daysOut": -234,
       "importance": "low"
     },
     {
@@ -7521,7 +7521,7 @@
         "lastUpdated": "2025-01-31",
         "enrollment": 45
       },
-      "daysOut": -282,
+      "daysOut": -283,
       "importance": "low"
     },
     {
@@ -7544,7 +7544,7 @@
         "status": "SESE",
         "k_number": "K251202"
       },
-      "daysOut": -298,
+      "daysOut": -299,
       "importance": "low"
     },
     {
@@ -7567,7 +7567,7 @@
         "status": "SESE",
         "k_number": "K250119"
       },
-      "daysOut": -299,
+      "daysOut": -300,
       "importance": "low"
     },
     {
@@ -7590,7 +7590,7 @@
         "status": "SESE",
         "k_number": "K250674"
       },
-      "daysOut": -331,
+      "daysOut": -332,
       "importance": "low"
     },
     {
@@ -7613,7 +7613,7 @@
         "status": "SESE",
         "k_number": "K240852"
       },
-      "daysOut": -333,
+      "daysOut": -334,
       "importance": "low"
     },
     {
@@ -7669,7 +7669,7 @@
           "status": "in_progress"
         }
       },
-      "daysOut": -343,
+      "daysOut": -344,
       "importance": "low"
     },
     {
@@ -7740,7 +7740,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -343,
+      "daysOut": -344,
       "importance": "low"
     },
     {
@@ -7806,7 +7806,7 @@
         "note": "",
         "lastUpdated": "2026-05-09"
       },
-      "daysOut": -343,
+      "daysOut": -344,
       "importance": "low"
     },
     {
@@ -7877,7 +7877,7 @@
           "status": "in_progress"
         }
       },
-      "daysOut": -343,
+      "daysOut": -344,
       "importance": "low"
     },
     {
@@ -7938,7 +7938,7 @@
           "status": "in_progress"
         }
       },
-      "daysOut": -343,
+      "daysOut": -344,
       "importance": "low"
     },
     {
@@ -7999,7 +7999,7 @@
           "status": "in_progress"
         }
       },
-      "daysOut": -343,
+      "daysOut": -344,
       "importance": "low"
     }
   ]
