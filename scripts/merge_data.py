@@ -24,11 +24,21 @@ _WHITESPACE_COLLAPSE = re.compile(r'\s+')
 def _strip_js_breakers(s):
     """Make a string safe to embed inside a JS double-quoted literal.
 
-    Strips ALL line terminators (not just \\n) and collapses whitespace.
-    Does NOT escape quotes — caller is responsible for that.
+    Strips ALL line terminators (not just \\n), converts embedded double
+    quotes to single quotes (cheaper than backslash-escaping), and
+    collapses whitespace.
+
+    Originally only stripped \\n. The 2026-05-11 outage was caused by
+    \\r line endings sneaking through; this version strips all four JS
+    line terminators (\\n, \\r, U+2028, U+2029). Hours later a SECOND
+    outage was caused by embedded ASCII double quotes in a Defense One
+    article ('a \"civilizational\" challenge') — the previous
+    .replace('\"', \"'\") was lost in the refactor. Restored here so
+    every JS-breaker class is handled in one place.
     """
     if not s: return ""
     s = _JS_LINE_TERMINATORS.sub(' ', s)
+    s = s.replace('"', "'")              # the second outage cause
     s = _WHITESPACE_COLLAPSE.sub(' ', s).strip()
     return s
 
