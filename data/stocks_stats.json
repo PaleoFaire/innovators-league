@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -7.97,
+      "avg_change": -6.62,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 20.43,
+      "avg_change": 25.09,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 13.01,
+      "avg_change": 12.06,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 14.94,
+      "avg_change": 13.95,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.12,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.64,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 17.46,
+      "avg_change": 17.94,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.05,
+      "avg_change": -7.33,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 3.6,
+      "avg_change": 4.78,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 16.43,
+      "avg_change": 15.55,
       "count": 3
     }
   },
@@ -61,12 +61,17 @@
     [
       "RKLB",
       "Rocket Lab",
-      45.74
+      47.5
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      36.71
     ],
     [
       "AMD",
       "AMD",
-      34.95
+      34.29
     ],
     [
       "277810.KQ",
@@ -76,40 +81,35 @@
     [
       "LUNR",
       "Intuitive Machines",
-      26.82
-    ],
-    [
-      "IONQ",
-      "IonQ",
-      24.1
+      28.66
     ]
   ],
   "topLosers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -3.14
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      -3.42
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -6.39
     ],
     [
       "PLTR",
       "Palantir",
+      -6.62
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
       -7.97
     ],
     [
       "SLDP",
       "Solid Power",
-      -8.96
+      -9.25
     ],
     [
       "TEM",
       "Tempus AI",
-      -12.48
+      -13.3
     ]
   ],
-  "lastUpdated": "2026-05-11 15:19:31"
+  "lastUpdated": "2026-05-11 19:53:48"
 }
