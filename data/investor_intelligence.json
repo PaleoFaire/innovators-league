@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-11T08:31:30+00:00",
+  "generatedAt": "2026-05-11T12:20:15+00:00",
   "stats": {
     "companies": 873,
     "vcFirms": 31,
-    "uniqueClusters": 105,
-    "totalInvestments": 266
+    "uniqueClusters": 94,
+    "totalInvestments": 242
   },
   "concentration": {
     "Founders Fund": {
@@ -1018,147 +1018,6 @@
         ]
       }
     },
-    "DCVC (Data Collective)": {
-      "space-launch-large": {
-        "count": 1,
-        "companies": [
-          "Rocket Lab"
-        ]
-      },
-      "quantum-neutral-atom": {
-        "count": 1,
-        "companies": [
-          "Atom Computing"
-        ]
-      },
-      "fusion-alternative": {
-        "count": 1,
-        "companies": [
-          "Zap Energy"
-        ]
-      },
-      "autonomy-counter-drone": {
-        "count": 1,
-        "companies": [
-          "Fortem Technologies"
-        ]
-      },
-      "data-center-infrastructure": {
-        "count": 1,
-        "companies": [
-          "Starcloud"
-        ]
-      },
-      "energy-storage-thermal-gravity": {
-        "count": 1,
-        "companies": [
-          "Fourth Power"
-        ]
-      },
-      "clean-energy-maritime": {
-        "count": 1,
-        "companies": [
-          "Amogy"
-        ]
-      },
-      "defense-power-systems": {
-        "count": 1,
-        "companies": [
-          "Chariot Defense"
-        ]
-      },
-      "logistics-robotics": {
-        "count": 2,
-        "companies": [
-          "Pickle Robot Company",
-          "Slip Robotics"
-        ]
-      },
-      "distributed-energy-storage": {
-        "count": 1,
-        "companies": [
-          "Lunar Energy"
-        ]
-      },
-      "autonomous-aviation": {
-        "count": 1,
-        "companies": [
-          "Pyka"
-        ]
-      },
-      "medical-robotics": {
-        "count": 1,
-        "companies": [
-          "Remedy Robotics"
-        ]
-      },
-      "agricultural-robotics": {
-        "count": 1,
-        "companies": [
-          "Verdant Robotics"
-        ]
-      },
-      "ai-semiconductor-architecture": {
-        "count": 1,
-        "companies": [
-          "Velaura AI"
-        ]
-      },
-      "space-nuclear-power": {
-        "count": 1,
-        "companies": [
-          "Zeno Power"
-        ]
-      },
-      "quantum-computing": {
-        "count": 1,
-        "companies": [
-          "Horizon Quantum Computing"
-        ]
-      },
-      "frontier-sensing": {
-        "count": 1,
-        "companies": [
-          "Ideon Technologies"
-        ]
-      },
-      "advanced-manufacturing": {
-        "count": 1,
-        "companies": [
-          "Unspun"
-        ]
-      },
-      "ai-trust-safety": {
-        "count": 1,
-        "companies": [
-          "Reality Defender"
-        ]
-      },
-      "climate-resilience": {
-        "count": 1,
-        "companies": [
-          "BurnBot"
-        ]
-      },
-      "circular-economy-robotics": {
-        "count": 1,
-        "companies": [
-          "Recycleye"
-        ]
-      },
-      "space-communications": {
-        "count": 1,
-        "companies": [
-          "Akash Systems"
-        ]
-      },
-      "ai-chips-edge": {
-        "count": 1,
-        "companies": [
-          "Mythic"
-        ]
-      }
-    },
     "Shield Capital": {
       "space-satellites-buses": {
         "count": 1,
@@ -1799,44 +1658,39 @@
       {
         "vc": "Lowercarbon Capital",
         "count": 3,
-        "share": 0.6
+        "share": 0.75
       },
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "data-center-infrastructure": [
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       },
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       },
       {
-        "vc": "DCVC (Data Collective)",
+        "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       }
     ],
     "biotech-lab-automation": [
@@ -1931,17 +1785,12 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "genomics": [
@@ -2011,27 +1860,22 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Playground Global",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Breakthrough Energy Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "ai-saas-enterprise": [
@@ -2150,22 +1994,17 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.25
+        "share": 0.3333
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.25
+        "share": 0.3333
       },
       {
         "vc": "Breakthrough Energy Ventures",
         "count": 1,
-        "share": 0.25
+        "share": 0.3333
       }
     ],
     "robotics-cobots-warehouse": [
@@ -2199,34 +2038,24 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Harpoon Ventures",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "defense-power-systems": [
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Shield Capital",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "defense-security-ai": [
@@ -2272,17 +2101,12 @@
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "space-satellites-buses": [
@@ -2413,12 +2237,7 @@
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.5
+        "share": 1.0
       }
     ],
     "disaggregated-ai": [
@@ -2485,12 +2304,7 @@
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.5
+        "share": 1.0
       }
     ],
     "space-ground-comms": [
@@ -2693,108 +2507,14 @@
         "share": 1.0
       }
     ],
-    "quantum-neutral-atom": [
+    "ai-hardware": [
       {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "clean-energy-maritime": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "logistics-robotics": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 2,
-        "share": 1.0
-      }
-    ],
-    "distributed-energy-storage": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "medical-robotics": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "agricultural-robotics": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "space-nuclear-power": [
-      {
-        "vc": "DCVC (Data Collective)",
+        "vc": "Playground Global",
         "count": 1,
         "share": 1.0
       }
     ],
     "quantum-computing": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Playground Global",
-        "count": 1,
-        "share": 0.5
-      }
-    ],
-    "frontier-sensing": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "advanced-manufacturing": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "climate-resilience": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "circular-economy-robotics": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "ai-chips-edge": [
-      {
-        "vc": "DCVC (Data Collective)",
-        "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Future Ventures",
-        "count": 1,
-        "share": 0.5
-      }
-    ],
-    "ai-hardware": [
       {
         "vc": "Playground Global",
         "count": 1,
@@ -2958,43 +2678,16 @@
         "count": 1,
         "share": 1.0
       }
+    ],
+    "ai-chips-edge": [
+      {
+        "vc": "Future Ventures",
+        "count": 1,
+        "share": 1.0
+      }
     ]
   },
   "momentum": [
-    {
-      "vc": "DCVC (Data Collective)",
-      "recentCount": 22,
-      "totalCount": 24,
-      "score": 20.566,
-      "topCluster": "logistics-robotics",
-      "recentExamples": [
-        {
-          "company": "Amogy",
-          "cluster": "clean-energy-maritime",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Chariot Defense",
-          "cluster": "defense-power-systems",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Pickle Robot Company",
-          "cluster": "logistics-robotics",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Slip Robotics",
-          "cluster": "logistics-robotics",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Lunar Energy",
-          "cluster": "distributed-energy-storage",
-          "addedDate": "2026-03"
-        }
-      ]
-    },
     {
       "vc": "Founders Fund",
       "recentCount": 12,
@@ -3728,10 +3421,6 @@
       "investmentCount": 7
     },
     {
-      "cluster": "data-center-infrastructure",
-      "investmentCount": 6
-    },
-    {
       "cluster": "ai-robotics-embodied",
       "investmentCount": 6
     },
@@ -3740,7 +3429,7 @@
       "investmentCount": 5
     },
     {
-      "cluster": "fusion-alternative",
+      "cluster": "data-center-infrastructure",
       "investmentCount": 5
     },
     {
@@ -3749,10 +3438,6 @@
     },
     {
       "cluster": "maritime-electric-transport",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "space-launch-large",
       "investmentCount": 5
     },
     {
@@ -3788,6 +3473,10 @@
       "investmentCount": 4
     },
     {
+      "cluster": "fusion-alternative",
+      "investmentCount": 4
+    },
+    {
       "cluster": "defense-munitions-energetics",
       "investmentCount": 4
     },
@@ -3796,7 +3485,7 @@
       "investmentCount": 4
     },
     {
-      "cluster": "energy-storage-thermal-gravity",
+      "cluster": "space-launch-large",
       "investmentCount": 4
     },
     {
@@ -3812,10 +3501,6 @@
       "investmentCount": 3
     },
     {
-      "cluster": "space-communications",
-      "investmentCount": 3
-    },
-    {
       "cluster": "genomics",
       "investmentCount": 3
     },
@@ -3824,7 +3509,15 @@
       "investmentCount": 3
     },
     {
-      "cluster": "ai-semiconductor-architecture",
+      "cluster": "energy-storage-thermal-gravity",
+      "investmentCount": 3
+    },
+    {
+      "cluster": "space-satellites-buses",
+      "investmentCount": 3
+    },
+    {
+      "cluster": "space-solar-power",
       "investmentCount": 3
     }
   ]
