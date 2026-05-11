@@ -12,6 +12,26 @@ from pathlib import Path
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_JS_PATH = Path(__file__).parent.parent / "data.js"
 
+# ─── JS-string sanitization ───
+# JS does NOT allow unescaped line terminators inside string literals. This
+# includes ASCII newlines (\n, \r), Unicode line separator (U+2028) and
+# paragraph separator (U+2029). RSS/news source text often contains all four.
+# Previous code only stripped \n which broke data.js when sources sent \r or
+# multi-line content (Endpoints News on 2026-05-11 took the live site down).
+_JS_LINE_TERMINATORS = re.compile(r'[\r\n  ]+')
+_WHITESPACE_COLLAPSE = re.compile(r'\s+')
+
+def _strip_js_breakers(s):
+    """Make a string safe to embed inside a JS double-quoted literal.
+
+    Strips ALL line terminators (not just \\n) and collapses whitespace.
+    Does NOT escape quotes — caller is responsible for that.
+    """
+    if not s: return ""
+    s = _JS_LINE_TERMINATORS.sub(' ', s)
+    s = _WHITESPACE_COLLAPSE.sub(' ', s).strip()
+    return s
+
 def load_json(filename):
     """Load JSON data from the data directory.
     Handles status metadata objects written by fetch scripts when APIs are unavailable.
@@ -1442,7 +1462,7 @@ def update_news_feed(data_js_content):
             "source": article.get("source", ""),
             "category": categorize_news(title),
             "date": formatted_date,
-            "summary": (article.get("summary", "") or article.get("description", "") or "")[:200].replace('"', "'").replace("\n", " "),
+            "summary": _strip_js_breakers((article.get("summary", "") or article.get("description", "") or "")[:200]),
             "impact": assess_impact(title),
             "sector": sector,
             "url": article.get("link") or article.get("url") or "#",  # real article URL, was hardcoded "#"
@@ -1973,7 +1993,7 @@ def update_diffbot_enrichment(data_js_content):
 
     for entry in enriched:
         name = entry.get("name", "").replace('"', '\\"')
-        summary = entry.get("summary", "").replace('"', '\\"').replace("\n", " ")[:150]
+        summary = _strip_js_breakers(entry.get("summary", "")[:150]).replace('"', '\\"')
         hq = entry.get("headquarters", "").replace('"', '\\"')
         industries = json.dumps(entry.get("industries", [])[:3])
         social = json.dumps(entry.get("socialLinks", {}))
