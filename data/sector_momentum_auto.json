@@ -1,39 +1,39 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 66,
-    "trend": "accelerating",
+    "momentum": 61,
+    "trend": "steady",
     "catalysts": [
-      "NASA\u2019s SpaceX 34th Commercial Resupply Mission Overview",
+      "We\u2019re feeling cynical about xAI\u2019s big deal with Anthropic",
       "Rivian R2 Extra Features, Other Variants, and In-House Lidar",
       "Nuro secures California driverless permit for Lucid Gravity"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 75,
+      "news": 55,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis r",
-      "Musk v. Altman Evidence Shows What Microsoft Executives Thou",
-      "Nvidia Vera Rubin Used by Google Could Next and Thinking Mac"
+      "Anthropic says \u2018evil\u2019 portrayals of AI were responsible for",
+      "We\u2019re feeling cynical about xAI\u2019s big deal with Anthropic",
+      "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis r"
     ],
     "fundingQ": "$2207.6B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Climate & Energy",
@@ -51,7 +51,7 @@
       "hiring": 0,
       "market": 89
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Nuclear Energy",
@@ -69,7 +69,7 @@
       "hiring": 0,
       "market": 82
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Drones & Autonomous",
@@ -86,24 +86,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 48,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Rocket Lab joins Raytheon on space interceptor program for G",
       "Nvidia Vera Rubin Used by Google Could Next and Thinking Mac"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Ocean & Maritime",
@@ -119,7 +118,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Defense & Security",
@@ -137,25 +136,25 @@
       "hiring": 0,
       "market": 6
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 31,
+    "momentum": 29,
     "trend": "rising",
     "catalysts": [
       "Nyobolt raises funding to bring fast charging to more robots",
       "Nuro secures California driverless permit for Lucid Gravity",
-      "Rocket Lab announces large launch contract and plans to acqu"
+      "Hugging Face launches agentic toolkit for Reachy Mini"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 30,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Transportation",
@@ -173,11 +172,11 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 25,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
       "UK quantum outfit Quantum Motion run on silicon chips raises",
@@ -187,11 +186,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -208,7 +207,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Consumer Tech",
@@ -226,7 +225,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -243,7 +242,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Housing & Construction",
@@ -259,7 +258,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   },
   {
     "sector": "Biotech & Health",
@@ -277,6 +276,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-11"
   }
 ]
