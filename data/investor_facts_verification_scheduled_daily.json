@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T09:02:19+00:00",
+  "generatedAt": "2026-05-12T08:29:19+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 3,
@@ -50,7 +50,7 @@
           "Materials",
           "Water / Oceans"
         ],
-        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator.",
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
@@ -66,21 +66,22 @@
             3
           ],
           "hq": [
+            1,
             3
           ],
           "sector_focus": [
             1
           ],
           "thesis": [
+            1,
             3
           ],
           "website": [
             0,
-            1,
-            3
+            1
           ]
         },
-        "notes": "Engine Ventures is the venture capital investment arm that spun out from The Engine nonprofit accelerator in 2023. The Engine (nonprofit) was founded by MIT in 2016. Wikipedia source [3] notes Engine Ventures separated from The Engine in 2023 and rebranded as a venture capital firm. AUM and flagship fund information not found in provided sources. Key partners not explicitly named in current senior leadership on firm website. Source [4] is unrelated to Engine Ventures (SpaceX content) and was not used."
+        "notes": "Engine Ventures spun out as a separate investment firm in 2023, distinct from The Engine nonprofit incubator founded by MIT in 2016. Source [4] is irrelevant (SpaceX news, not Engine Ventures-related). Key partners Katie Rae and Reed Sturtevant cannot be verified from provided sources. AUM and specific fund names cannot be verified from sources provided. Sector focus extracted from explicit list on firm's about page."
       },
       "changes": [
         {
@@ -117,6 +118,15 @@
           "sources": [
             1
           ]
+        },
+        {
+          "field": "thesis",
+          "current": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator and rebranded as the venture capital firm Engine Ventures.",
+          "verified": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator.",
+          "sources": [
+            1,
+            3
+          ]
         }
       ],
       "sources": [
@@ -146,7 +156,7 @@
           "url": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
         }
       ],
-      "notes": "Engine Ventures is the venture capital investment arm that spun out from The Engine nonprofit accelerator in 2023. The Engine (nonprofit) was founded by MIT in 2016. Wikipedia source [3] notes Engine Ventures separated from The Engine in 2023 and rebranded as a venture capital firm. AUM and flagship fund information not found in provided sources. Key partners not explicitly named in current senior leadership on firm website. Source [4] is unrelated to Engine Ventures (SpaceX content) and was not used."
+      "notes": "Engine Ventures spun out as a separate investment firm in 2023, distinct from The Engine nonprofit incubator founded by MIT in 2016. Source [4] is irrelevant (SpaceX news, not Engine Ventures-related). Key partners Katie Rae and Reed Sturtevant cannot be verified from provided sources. AUM and specific fund names cannot be verified from sources provided. Sector focus extracted from explicit list on firm's about page."
     }
   ],
   "unverifiable": []

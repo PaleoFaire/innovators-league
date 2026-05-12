@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-05-11T09:01:42+00:00",
+  "generatedAt": "2026-05-12T08:28:44+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
   "cohortSize": 43,
   "newExtractionsThisRun": 42,
   "summary": {
-    "cleared": 36,
-    "changesProposed": 7,
+    "cleared": 35,
+    "changesProposed": 8,
     "unverifiable": 0
   },
   "cleared": [
+    "AMP Robotics",
     "Andromeda Surgical",
     "Anthropic",
     "Anysphere",
@@ -17,29 +18,27 @@
     "Axiom Space",
     "Blue Origin",
     "Claros",
-    "Daylight Computer",
     "Deterrence",
+    "Dexterity",
     "Durin",
-    "Dust",
     "GITAI",
     "Galvanick",
-    "Gecko Robotics",
     "Groq",
     "HEO",
+    "Helsing",
     "Hidden Level",
     "Hugging Face",
-    "ICON",
-    "Karman Industries",
     "Kyutai",
     "Nyobolt",
-    "Palantir",
-    "Photonic Inc",
+    "Ouster",
+    "Percepto",
+    "Physical Intelligence",
     "Pivotal",
     "Quantum Motion",
     "Rebellions",
     "Rivian",
     "Rocket Lab",
-    "Solugen",
+    "Skild AI",
     "Thinking Machines Lab",
     "True Anomaly",
     "Vast",
@@ -61,7 +60,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas industry. The company develops next-generation geothermal projects including Project Red and Cape Station.",
+        "description": "Geothermal energy company based in Houston, Texas that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas industry.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -81,12 +80,9 @@
         "sources_per_field": {
           "name": [
             0,
-            1,
             2
           ],
           "description": [
-            0,
-            1,
             2
           ],
           "founders": [
@@ -109,11 +105,10 @@
           ],
           "website": [
             0,
-            1,
             2
           ]
         },
-        "notes": "IPO process initiated in April 2026 per company website newsroom. Wikipedia lists company as 'Private' but website shows IPO filing announced April 17, 2026 and IPO launch announced May 4, 2026. Most recent funding: $462 million Series E in November 2025 led by B Capital. Cape Station development located in Milford, Utah (separate from headquarters)."
+        "notes": "Company announced IPO filing on April 17, 2026 and launched IPO on May 4, 2026. Most recent funding was Series E of $462 million in November 2025 led by B Capital. Wikipedia source notes article quality concerns but founder names and founding year are consistent across sources."
       },
       "changes": [
         {
@@ -152,7 +147,7 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "IPO process initiated in April 2026 per company website newsroom. Wikipedia lists company as 'Private' but website shows IPO filing announced April 17, 2026 and IPO launch announced May 4, 2026. Most recent funding: $462 million Series E in November 2025 led by B Capital. Cape Station development located in Milford, Utah (separate from headquarters)."
+      "notes": "Company announced IPO filing on April 17, 2026 and launched IPO on May 4, 2026. Most recent funding was Series E of $462 million in November 2025 led by B Capital. Wikipedia source notes article quality concerns but founder names and founding year are consistent across sources."
     },
     {
       "name": "Nuro",
@@ -167,10 +162,10 @@
       },
       "verified": {
         "name": "Nuro",
-        "description": "American autonomous vehicle technology company that develops Level 4 self-driving software called Nuro Driver. The company shifted its business model in September 2024 from manufacturing autonomous delivery vehicles to licensing its proprietary autonomy technology to automakers and mobility providers.",
+        "description": "Autonomous vehicle technology company that develops Level 4 driving systems. Founded in 2016, it initially built custom autonomous delivery vehicles and has pivoted since September 2024 to licensing its Nuro Driver proprietary technology to automakers and mobility providers.",
         "founders": [
-          "Dave Ferguson",
-          "Jiajun Zhu"
+          "Jiajun Zhu",
+          "Dave Ferguson"
         ],
         "location": "Mountain View, California",
         "founded_year": 2016,
@@ -226,7 +221,7 @@
             2
           ]
         },
-        "notes": "Company pivoted from autonomous delivery vehicle manufacturing to software licensing in September 2024. Series E funding round opened in April 2025 with $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership announced with Uber and Lucid Motors in July 2025 for 20,000+ robotaxis deployment over six years."
+        "notes": "Company pivoted from autonomous delivery vehicles to technology licensing model in September 2024. Series E funding opened April 2025 ($106M) and closed August 2025 ($203M additional at $6B valuation). Partnership with Uber and Lucid Motors to deploy 20,000+ robotaxis announced July 2025."
       },
       "changes": [
         {
@@ -260,7 +255,7 @@
           "url": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
         }
       ],
-      "notes": "Company pivoted from autonomous delivery vehicle manufacturing to software licensing in September 2024. Series E funding round opened in April 2025 with $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership announced with Uber and Lucid Motors in July 2025 for 20,000+ robotaxis deployment over six years."
+      "notes": "Company pivoted from autonomous delivery vehicles to technology licensing model in September 2024. Series E funding opened April 2025 ($106M) and closed August 2025 ($203M additional at $6B valuation). Partnership with Uber and Lucid Motors to deploy 20,000+ robotaxis announced July 2025."
     },
     {
       "name": "OpenAI",
@@ -275,7 +270,7 @@
       },
       "verified": {
         "name": "OpenAI",
-        "description": "American artificial intelligence company that developed the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models. Released ChatGPT in November 2022.",
+        "description": "An American artificial intelligence research organization that developed the GPT family of large language models, DALL-E series of text-to-image models, and released ChatGPT in November 2022. OpenAI consists of a for-profit public benefit corporation partially controlled by a nonprofit foundation.",
         "founders": [
           "Elon Musk",
           "Sam Altman",
@@ -305,9 +300,119 @@
         "website": "https://openai.com",
         "sources_per_field": {
           "name": [
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source [2] specifies October 2025 $6.6 billion share sale valuing company at $500 billion. Founded as nonprofit in December 2015; transitioned to for-profit capped entity in 2019; restructured in 2025 with nonprofit retaining 26% ownership. Sam Altman temporarily removed as CEO in November 2023 but reinstated five days later."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Sam Altman, Greg Brockman, Ilya Sutskever",
+          "verified": "Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, Wojciech Zaremba",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.openai.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.openai.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/OpenAI"
+        },
+        {
+          "idx": 3,
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/"
+        },
+        {
+          "idx": 4,
+          "src": "news (MIT Tech Review)",
+          "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/"
+        },
+        {
+          "idx": 5,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
+        }
+      ],
+      "notes": "Wikipedia source [2] specifies October 2025 $6.6 billion share sale valuing company at $500 billion. Founded as nonprofit in December 2015; transitioned to for-profit capped entity in 2019; restructured in 2025 with nonprofit retaining 26% ownership. Sam Altman temporarily removed as CEO in November 2023 but reinstated five days later."
+    },
+    {
+      "name": "Redwood Materials",
+      "current": {
+        "name": "Redwood Materials",
+        "founder": "J. B. Straubel",
+        "location": "Carson City, NV",
+        "founded": 2017,
+        "fundingStage": "Series D",
+        "totalRaised": "$1B+",
+        "website": "https://redwoodmaterials.com"
+      },
+      "verified": {
+        "name": "Redwood Materials",
+        "description": "American battery-recycling company that recycles lithium-ion batteries to recover lithium, nickel, cobalt, and copper, and produces battery materials for electromobility and electrical storage systems. The company also deploys large-scale energy storage systems for data centers and the grid.",
+        "founders": [
+          "J. B. Straubel"
+        ],
+        "location": "Carson City, Nevada, United States",
+        "founded_year": 2017,
+        "current_stage": null,
+        "total_raised": "$1.125B+",
+        "valuation": "$6B",
+        "investors": [
+          "T. Rowe Price",
+          "Goldman Sachs",
+          "Baillie Gifford",
+          "Fidelity",
+          "Ford Motor Company",
+          "Amazon Climate Pledge Fund",
+          "Eclipse Capital",
+          "NVidia NVentures"
+        ],
+        "website": "https://redwoodmaterials.com",
+        "sources_per_field": {
+          "name": [
+            0,
             1
           ],
           "description": [
+            0,
             1
           ],
           "founders": [
@@ -319,7 +424,7 @@
           "founded_year": [
             1
           ],
-          "current_stage": [
+          "total_raised": [
             1
           ],
           "valuation": [
@@ -329,106 +434,25 @@
             1
           ],
           "website": [
-            1
-          ]
-        },
-        "notes": "Wikipedia states company was founded December 8, 2015. In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion (per source 1). io Products, Inc. team merged with OpenAI in July 2025 (per source 0). Database entry claims $300B valuation and $13B+ raised; these figures could not be verified in current sources and conflict with Wikipedia's $500B October 2025 valuation."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Sam Altman, Greg Brockman, Ilya Sutskever",
-          "verified": "Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, Wojciech Zaremba",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://openai.io"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/OpenAI"
-        },
-        {
-          "idx": 2,
-          "src": "news (MIT Tech Review)",
-          "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/"
-        },
-        {
-          "idx": 3,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/xai-will-breakeven-by-renting-ai-data-center-to-anthropic.html"
-        }
-      ],
-      "notes": "Wikipedia states company was founded December 8, 2015. In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion (per source 1). io Products, Inc. team merged with OpenAI in July 2025 (per source 0). Database entry claims $300B valuation and $13B+ raised; these figures could not be verified in current sources and conflict with Wikipedia's $500B October 2025 valuation."
-    },
-    {
-      "name": "Percepto",
-      "current": {
-        "name": "Percepto",
-        "founder": "Dor Abuhasira, Ariel Avitan, Sagi Blonder, Raviv Raz",
-        "location": "Israel, United States",
-        "founded": 2014,
-        "fundingStage": "Series C",
-        "totalRaised": "$128M",
-        "website": "https://percepto.co"
-      },
-      "verified": {
-        "name": "Percepto",
-        "description": "Autonomous drone technology and industrial robotics solutions for inspection and monitoring of critical infrastructure. Develops drone-in-a-box systems with geospatial data management and AI-driven analytics capabilities.",
-        "founders": [
-          "Dor Abuhasira",
-          "Ariel Avitan",
-          "Sagi Blonder",
-          "Raviv Raz"
-        ],
-        "location": "United States, Israel",
-        "founded_year": 2014,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://percepto.co",
-        "sources_per_field": {
-          "name": [
             0,
             1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0
           ]
         },
-        "notes": "All four founders explicitly named as co-founders on company About page. Founded year 2014 confirmed in CEO bio. Sources do not contain current funding stage, total amount raised, or valuation information."
+        "notes": "Wikipedia states $775M Series C (2021) and $350M Series E (2025), totaling $1.125B+ in disclosed funding. Valuation of $6 billion as of October 2025 per Wikipedia. Current stage not explicitly stated in sources. Company acquired Redux (German recycler) in 2023."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Israel, United States",
-          "verified": "United States, Israel",
+          "current": "Carson City, NV",
+          "verified": "Carson City, Nevada, United States",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$1B+",
+          "verified": "$1.125B+",
           "sources": [
             1
           ]
@@ -438,55 +462,60 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://percepto.co"
+          "url": "https://redwoodmaterials.com"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://percepto.co/about"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Redwood_Materials"
         },
         {
           "idx": 2,
-          "src": "news (Crunchbase News)",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says/"
         }
       ],
-      "notes": "All four founders explicitly named as co-founders on company About page. Founded year 2014 confirmed in CEO bio. Sources do not contain current funding stage, total amount raised, or valuation information."
+      "notes": "Wikipedia states $775M Series C (2021) and $350M Series E (2025), totaling $1.125B+ in disclosed funding. Valuation of $6 billion as of October 2025 per Wikipedia. Current stage not explicitly stated in sources. Company acquired Redux (German recycler) in 2023."
     },
     {
-      "name": "QuantWare",
+      "name": "Safe Superintelligence",
       "current": {
-        "name": "QuantWare",
-        "founder": "Matthijs Rijlaarsdam, Alessandro Bruno",
-        "location": "Delft, Netherlands",
-        "founded": 2021,
+        "name": "Safe Superintelligence",
+        "founder": "Ilya Sutskever, Daniel Gross, Daniel Levy",
+        "location": "Palo Alto, CA / Tel Aviv, Israel",
+        "founded": 2024,
         "fundingStage": "Series B",
-        "totalRaised": "$178M",
-        "website": "https://quantware.com"
+        "totalRaised": "$1B+",
+        "website": "https://ssi.inc"
       },
       "verified": {
-        "name": "QuantWare",
-        "description": "Founded in 2021 as a spinout from QuTech at TU Delft, QuantWare designs, fabricates, and integrates superconducting quantum processors using its VIO\u2122 architecture. The company has shipped more quantum processors than any other commercial supplier.",
+        "name": "Safe Superintelligence Inc.",
+        "description": "An Israeli-American artificial intelligence company founded in June 2024 focused on safely developing superintelligence. The company is split between offices in Palo Alto, California and Tel Aviv, Israel.",
         "founders": [
-          "Matt Rijlaarsdam",
-          "Alessandro Bruno"
+          "Ilya Sutskever",
+          "Daniel Gross",
+          "Daniel Levy"
         ],
-        "location": "Delft, Netherlands",
-        "founded_year": 2021,
-        "current_stage": "Series B",
-        "total_raised": "$178M",
-        "valuation": null,
+        "location": "Palo Alto, California / Tel Aviv, Israel",
+        "founded_year": 2024,
+        "current_stage": null,
+        "total_raised": "$1B+",
+        "valuation": "$30B",
         "investors": [
-          "Intel Capital",
-          "In-Q-Tel"
+          "SV Angel",
+          "DST Global",
+          "Sequoia Capital",
+          "Andreessen Horowitz",
+          "Greenoaks Capital"
         ],
-        "website": "https://quantware.com",
+        "website": "https://ssi.inc",
         "sources_per_field": {
           "name": [
             0,
             1
           ],
           "description": [
+            0,
             1
           ],
           "founders": [
@@ -499,13 +528,11 @@
           "founded_year": [
             1
           ],
-          "current_stage": [
-            2
-          ],
           "total_raised": [
-            0,
-            1,
-            2
+            1
+          ],
+          "valuation": [
+            1
           ],
           "investors": [
             1
@@ -515,14 +542,15 @@
             1
           ]
         },
-        "notes": "Founder names in database listed as 'Matthijs Rijlaarsdam' and 'Alessandro Bruno'; source [1] uses 'Matt Rijlaarsdam' (informal version of Matthijs). Source [0] footer shows copyright '\u00a9 2021-202X QuantWare' indicating founding year 2021."
+        "notes": "Wikipedia states 50 employees as of July 2025 (source 1), contradicting database entry of ~20 employees. Valuation updated to $30B as of March 2025 (source 1). Daniel Gross left the company in July 2025 to join Meta Superintelligence Labs (source 1). No specific funding stage (Series A/B/C) is mentioned in sources."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "Matthijs Rijlaarsdam, Alessandro Bruno",
-          "verified": "Matt Rijlaarsdam, Alessandro Bruno",
+          "field": "location",
+          "current": "Palo Alto, CA / Tel Aviv, Israel",
+          "verified": "Palo Alto, California / Tel Aviv, Israel",
           "sources": [
+            0,
             1
           ]
         }
@@ -531,20 +559,118 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://quantware.com"
+          "url": "https://ssi.inc"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence"
+        },
+        {
+          "idx": 2,
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/"
+        }
+      ],
+      "notes": "Wikipedia states 50 employees as of July 2025 (source 1), contradicting database entry of ~20 employees. Valuation updated to $30B as of March 2025 (source 1). Daniel Gross left the company in July 2025 to join Meta Superintelligence Labs (source 1). No specific funding stage (Series A/B/C) is mentioned in sources."
+    },
+    {
+      "name": "Space Forge",
+      "current": {
+        "name": "Space Forge",
+        "founder": "Joshua Western, Andrew Bacon",
+        "location": "Cardiff, UK",
+        "founded": 2018,
+        "fundingStage": "Series A",
+        "totalRaised": "$22.6M",
+        "website": "https://spaceforge.co.uk"
+      },
+      "verified": {
+        "name": "Space Forge",
+        "description": "British aerospace manufacturing company developing reusable on-orbit fabrication capabilities to produce semiconductors and alloys in microgravity using the ForgeStar platform.",
+        "founders": [
+          "Joshua Western",
+          "Andrew Bacon"
+        ],
+        "location": "Cardiff, United Kingdom",
+        "founded_year": 2018,
+        "current_stage": "Series A",
+        "total_raised": "$22.6M",
+        "valuation": null,
+        "investors": [
+          "Type One Ventures",
+          "Space Fund",
+          "NATO Innovation Fund",
+          "World Fund",
+          "British Business Bank"
+        ],
+        "website": "https://spaceforge.co.uk",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia indicates Series A funding of \u00a322.6 million (approximately $22.6M USD equivalent as stated in database) was announced in July 2024 combining support from NATO Innovation Fund, World Fund, and British Business Bank. ForgeStar-0 launched January 2023 but failed to achieve orbit. ForgeStar-1 successfully launched June 2025."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Cardiff, UK",
+          "verified": "Cardiff, United Kingdom",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://spaceforge.co.uk"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://quantware.com/about"
+          "url": "https://spaceforge.co.uk/team"
         },
         {
           "idx": 2,
-          "src": "news (Sifted)",
-          "url": "https://sifted.eu/articles/intel-quantware-178m-series-b/"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Forge"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says/"
         }
       ],
-      "notes": "Founder names in database listed as 'Matthijs Rijlaarsdam' and 'Alessandro Bruno'; source [1] uses 'Matt Rijlaarsdam' (informal version of Matthijs). Source [0] footer shows copyright '\u00a9 2021-202X QuantWare' indicating founding year 2021."
+      "notes": "Wikipedia indicates Series A funding of \u00a322.6 million (approximately $22.6M USD equivalent as stated in database) was announced in July 2024 combining support from NATO Innovation Fund, World Fund, and British Business Bank. ForgeStar-0 launched January 2023 but failed to achieve orbit. ForgeStar-1 successfully launched June 2025."
     },
     {
       "name": "SpaceX",
@@ -559,13 +685,13 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company that designs and manufactures launch vehicles, Dragon capsules, and operates the Starlink satellite constellation. Founded by Elon Musk in 2002 with the vision of decreasing space launch costs and enabling a self-sustaining colony on Mars.",
+        "description": "American aerospace and artificial intelligence company that designs and manufactures rockets, spacecraft, and satellite constellations. Founded by Elon Musk in 2002, SpaceX conducts more orbital launches annually than any other launch provider and operates the Starlink satellite internet constellation.",
         "founders": [
           "Elon Musk"
         ],
         "location": "Starbase, Texas, U.S.",
         "founded_year": 2002,
-        "current_stage": "Pre-IPO",
+        "current_stage": "Private",
         "total_raised": null,
         "valuation": "$800B",
         "investors": null,
@@ -596,13 +722,13 @@
             1
           ]
         },
-        "notes": "Source [1] (Wikipedia) states SpaceX is 'expected to have an initial public offering (IPO) in 2026' and notes a 2025 internal share offer valued the company at $800 billion. Founded in El Segundo, California in 2002, later moved headquarters to Starbase, Texas. Database entry claims 'Series G' stage, but sources indicate Pre-IPO status instead. Database entry claims $10B+ raised and lists specific operational metrics (165 Falcon 9 launches in 2025, 81% of mass to orbit, 9M+ Starlink customers in 155+ countries, $1.5T IPO valuation) that could not be verified from provided sources."
+        "notes": "Wikipedia states company is headquartered at Starbase in Starbase, Texas (not El Segundo where it was first founded in 2002). Wikipedia indicates SpaceX 'is not publicly traded but is expected to have an initial public offering (IPO) in 2026.' Valuation of $800 billion comes from 'a 2025 offer to buy internal shares.' Source 5 (SEC Form D) mentions a SpaceX Investors 5 LLC raised $9,725,064 in May 2026, but this appears to be an internal secondary offering, not primary fundraising. Total raised cannot be verified from these sources."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series G",
-          "verified": "Pre-IPO",
+          "verified": "Private",
           "sources": [
             1
           ]
@@ -621,18 +747,18 @@
         },
         {
           "idx": 2,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/spacex-starship-flight-12-wet-rehearsal.html"
+        },
+        {
+          "idx": 3,
           "src": "news (TechCrunch)",
           "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/"
         },
         {
-          "idx": 3,
+          "idx": 4,
           "src": "news (NASA Breaking News)",
           "url": "https://www.nasa.gov/general/nasas-spacex-34th-commercial-resupply-mission-overview/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
         },
         {
           "idx": 5,
@@ -640,7 +766,7 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133025&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "Source [1] (Wikipedia) states SpaceX is 'expected to have an initial public offering (IPO) in 2026' and notes a 2025 internal share offer valued the company at $800 billion. Founded in El Segundo, California in 2002, later moved headquarters to Starbase, Texas. Database entry claims 'Series G' stage, but sources indicate Pre-IPO status instead. Database entry claims $10B+ raised and lists specific operational metrics (165 Falcon 9 launches in 2025, 81% of mass to orbit, 9M+ Starlink customers in 155+ countries, $1.5T IPO valuation) that could not be verified from provided sources."
+      "notes": "Wikipedia states company is headquartered at Starbase in Starbase, Texas (not El Segundo where it was first founded in 2002). Wikipedia indicates SpaceX 'is not publicly traded but is expected to have an initial public offering (IPO) in 2026.' Valuation of $800 billion comes from 'a 2025 offer to buy internal shares.' Source 5 (SEC Form D) mentions a SpaceX Investors 5 LLC raised $9,725,064 in May 2026, but this appears to be an internal secondary offering, not primary fundraising. Total raised cannot be verified from these sources."
     },
     {
       "name": "Starcloud",
@@ -655,7 +781,7 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In November 2025, the company launched Starcloud-1, its first test satellite equipped with an Nvidia H100 GPU.",
+        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched Starcloud-1 in November 2025 equipped with an Nvidia H100 GPU.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
@@ -678,6 +804,7 @@
             2
           ],
           "description": [
+            0,
             2
           ],
           "founders": [
@@ -710,7 +837,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Secondo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia reports the Series A was announced on March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status at 17 months post-program completion."
+        "notes": "Company was originally founded as Lumen Orbit in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 after a legal challenge from Lumen Technologies. Series A announced March 30, 2026, making it the fastest Y Combinator company to reach unicorn status at 17 months after completing the program."
       },
       "changes": [
         {
@@ -744,7 +871,7 @@
           "url": "https://spacenews.com/anthropic-to-consider-using-spacex-orbital-data-center-satellites/"
         }
       ],
-      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Secondo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia reports the Series A was announced on March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status at 17 months post-program completion."
+      "notes": "Company was originally founded as Lumen Orbit in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 after a legal challenge from Lumen Technologies. Series A announced March 30, 2026, making it the fastest Y Combinator company to reach unicorn status at 17 months after completing the program."
     }
   ],
   "unverifiable": []
