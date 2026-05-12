@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-05-11 10:26:33 UTC
+// Last updated: 2026-05-12 09:28:27 UTC
 const PRESS_RELEASES = [
   { title: "Rocket Lab announces large launch contract and plans to acquire space robotics company", date: "2026-05-08", companies: "Rocket Lab, GITAI", categories: "contract, product", source: "spacenews" },
   { title: "Rocket Lab joins Raytheon on space interceptor program for Golden Dome", date: "2026-05-07", companies: "Rocket Lab, Anduril Industries", categories: "contract, ipo", source: "spacenews" },
