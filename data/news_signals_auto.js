@@ -1,85 +1,85 @@
 // Auto-generated news signals
-// Last updated: 2026-05-12T12:03:47.358Z
+// Last updated: 2026-05-12T14:44:28.062Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1778587427358,
+    "id": 1778597068062,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "Once again, SpaceX has set a new record for the tallest rocket ever built",
+    "source": "Ars Technica Space",
+    "time": "3h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://arstechnica.com/space/2026/05/spacex-completes-fueling-test-setting-stage-for-first-launch-of-starship-v3/"
+  },
+  {
+    "id": 1778597068063,
     "type": "milestone",
     "company": "Quantinuum",
     "headline": "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qubits",
     "source": "Next Big Future",
-    "time": "4h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/05/quantinuum-helios-with-98-physical-qubits-and-50-logical-qubits.html"
   },
   {
-    "id": 1778587427359,
+    "id": 1778597068064,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "Ilya Sutskever Stands by His Role in Sam Altman’s OpenAI Ouster: ‘I Didn’t Want It to Be Destroyed’",
     "source": "Wired",
-    "time": "12h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/"
   },
   {
-    "id": 1778587427360,
+    "id": 1778597068065,
     "type": "news",
     "company": "Dexterity",
     "headline": "RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands",
     "source": "The Robot Report",
-    "time": "17h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/"
   },
   {
-    "id": 1778587427361,
+    "id": 1778597068066,
     "type": "funding",
     "company": "Helsing",
     "headline": "Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B valuation",
     "source": "TechCrunch",
-    "time": "18h ago",
+    "time": "21h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation/"
   },
   {
-    "id": 1778587427362,
+    "id": 1778597068067,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 12 Successful Wet Rehearsal",
     "source": "Next Big Future",
-    "time": "19h ago",
+    "time": "22h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.nextbigfuture.com/2026/05/spacex-starship-flight-12-wet-rehearsal.html"
   },
   {
-    "id": 1778587427363,
+    "id": 1778597068068,
     "type": "hire",
     "company": "Redwood Materials",
     "headline": "&#8216;Too early&#8217; to talk IPO, Redwood Materials&#8217; incoming CFO says",
     "source": "TechCrunch",
-    "time": "20h ago",
+    "time": "22h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says/"
   },
   {
-    "id": 1778587427364,
-    "type": "news",
-    "company": "Anthropic",
-    "headline": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/"
-  },
-  {
-    "id": 1778587427365,
+    "id": 1778597068069,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/"
   },
   {
-    "id": 1778587427366,
+    "id": 1778597068070,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NASA’s SpaceX 34th Commercial Resupply Mission Overview",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/general/nasas-spacex-34th-commercial-resupply-mission-overview/"
   },
   {
-    "id": 1778587427367,
+    "id": 1778597068071,
     "type": "funding",
     "company": "Nyobolt",
     "headline": "Nyobolt raises funding to bring fast charging to more robots",
@@ -112,40 +112,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/"
   },
   {
-    "id": 1778587427368,
-    "type": "milestone",
-    "company": "Rivian",
-    "headline": "Rivian R2 Extra Features, Other Variants, and In-House Lidar?",
-    "source": "CleanTechnica",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://cleantechnica.com/2026/05/08/rivian-r2-extra-features-other-variants-and-in-house-lidar/"
-  },
-  {
-    "id": 1778587427369,
+    "id": 1778597068072,
     "type": "ipo",
     "company": "Nuro",
     "headline": "Nuro secures California driverless permit for Lucid Gravity Uber robotaxis",
     "source": "Electrek",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
   },
   {
-    "id": 1778587427370,
-    "type": "contract",
-    "company": "Rocket Lab",
-    "headline": "Rocket Lab announces large launch contract and plans to acquire space robotics company",
-    "source": "SpaceNews",
-    "time": "4d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/rocket-lab-announces-large-launch-contract-and-plans-to-acquire-space-robotics-company/"
-  },
-  {
-    "id": 1778587427371,
+    "id": 1778597068073,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX V3 Booster Has a Full Static Fire And Is On Track for a May 15 Launch",
@@ -156,18 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
   },
   {
-    "id": 1778587427372,
-    "type": "contract",
-    "company": "Rocket Lab",
-    "headline": "Rocket Lab joins Raytheon on space interceptor program for Golden Dome",
-    "source": "SpaceNews",
-    "time": "4d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/rocket-lab-joins-raytheon-on-space-interceptor-program-for-golden-dome/"
-  },
-  {
-    "id": 1778587427373,
+    "id": 1778597068074,
     "type": "news",
     "company": "Thinking Machines Lab",
     "headline": "Nvidia Vera Rubin Used by Google Could Next and Thinking Machines Lab",
@@ -178,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/nvidia-vera-rubin-used-by-google-could-next-and-thinking-machines-lab.html"
   },
   {
-    "id": 1778587427374,
+    "id": 1778597068075,
     "type": "milestone",
     "company": "Hugging Face",
     "headline": "Hugging Face launches agentic toolkit for Reachy Mini",
@@ -189,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/"
   },
   {
-    "id": 1778587427375,
+    "id": 1778597068076,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic vs European AI",
@@ -200,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/anthropic-vs-european-ai-podcast/"
   },
   {
-    "id": 1778587427376,
+    "id": 1778597068077,
     "type": "funding",
     "company": "Pivotal",
     "headline": "EnGene's shares crash on updated pivotal bladder cancer data",
@@ -211,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/engenes-shares-crash-on-updated-pivotal-bladder-cancer-data/"
   },
   {
-    "id": 1778587427377,
+    "id": 1778597068078,
     "type": "funding",
     "company": "Quantum Motion",
     "headline": "Quantum Motion raises $160m Series C as quantum sector heats up",
@@ -220,5 +187,38 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://sifted.eu/articles/quantum-motion-series-c/"
+  },
+  {
+    "id": 1778597068079,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX is starting to move on from the world&#039;s most successful rocket",
+    "source": "Ars Technica Space",
+    "time": "5d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/"
+  },
+  {
+    "id": 1778597068080,
+    "type": "news",
+    "company": "Rivian",
+    "headline": "Rivian (RIVN) mulls making its own lidar as it builds full autonomous driving stack",
+    "source": "Electrek",
+    "time": "6d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://electrek.co/2026/05/05/rivian-rivn-mulls-in-house-lidar-autonomous-driving-stack/"
+  },
+  {
+    "id": 1778597068081,
+    "type": "ipo",
+    "company": "Rivian",
+    "headline": "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest shareholder with 15.9% stake",
+    "source": "Electrek",
+    "time": "5/5/2026",
+    "impact": "low",
+    "unread": false,
+    "link": "https://electrek.co/2026/05/05/volkswagen-rivian-stake-15-percent-largest-shareholder/"
   }
 ];
