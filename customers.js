@@ -66,6 +66,29 @@ function isDoDAgency(name) {
   return /\b(dod|defense|navy|army|air force|marine|space force|darpa|afrl|afwerx|diu|office of naval|missile defense|special operations|socom)\b/.test(n);
 }
 
+// Parse money strings like "$1.6B+", "$700M", "$54M+", "$2M+", "$0K" into integer dollars
+function parseMoneyString(s) {
+  if (!s || typeof s !== 'string') return 0;
+  var t = s.trim().replace(/^[~$]+|\+$|,/g, '');
+  var m = t.match(/^([\d.]+)\s*([KMBT]?)/i);
+  if (!m) return 0;
+  var val = parseFloat(m[1]) || 0;
+  var suf = (m[2] || '').toUpperCase();
+  var mult = { '': 1, 'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12 }[suf] || 1;
+  return Math.round(val * mult);
+}
+
+// Canonical-name map mirrors scripts/fetch_usaspending.py so the UI never
+// shows the same vendor twice even if older cached data slips through.
+var CUSTOMER_NAME_ALIASES = {
+  "Anduril Industries": "Anduril",
+  "Palantir Technologies": "Palantir",
+  "Space Exploration Technologies": "SpaceX",
+  "Rocket Lab USA": "Rocket Lab",
+  "NuScale Power": "NuScale",
+  "BlackSky Technology": "BlackSky"
+};
+
 function renderCustomerIntel() {
   var container = document.getElementById('customers-content');
   if (!container || typeof COMPANIES === 'undefined') {
@@ -73,48 +96,40 @@ function renderCustomerIntel() {
     return;
   }
 
-  // Aggregate customer data from GOV_CONTRACTS
+  // Aggregate from GOV_CONTRACTS (and GOV_CONTRACTS_AUTO if separate). Both
+  // arrays use the AGGREGATE shape: one row per company with
+  // { company, totalGovValue: "$1.6B+", contractCount, agencies: [...] }.
+  // Older code in this file assumed per-contract records — that returned 0
+  // because c.amount / c.value don't exist on aggregate rows. Fixed now.
   var companyCustomers = {};
 
-  if (typeof GOV_CONTRACTS !== 'undefined' && Array.isArray(GOV_CONTRACTS)) {
-    GOV_CONTRACTS.forEach(function(c) {
-      var name = c.company;
-      if (!name) return;
+  function ingest(rows) {
+    if (!Array.isArray(rows)) return;
+    rows.forEach(function(c) {
+      if (!c || !c.company) return;
+      var name = CUSTOMER_NAME_ALIASES[c.company] || c.company;
       if (!companyCustomers[name]) {
-        companyCustomers[name] = { gov: {}, total: 0, totalValue: 0, count: 0 };
+        companyCustomers[name] = { gov: {}, count: 0, totalValue: 0 };
       }
-      var agency = c.agency || c.awardingAgency || 'Unknown';
-      if (!companyCustomers[name].gov[agency]) {
-        companyCustomers[name].gov[agency] = { count: 0, value: 0 };
-      }
-      companyCustomers[name].gov[agency].count++;
-      var val = parseFloat((c.value || c.amount || '0').toString().replace(/[^0-9.]/g, '')) || 0;
-      companyCustomers[name].gov[agency].value += val;
-      companyCustomers[name].total++;
-      companyCustomers[name].count++;
-      companyCustomers[name].totalValue += val;
+      var rec = companyCustomers[name];
+      var contractCount = c.contractCount || c.count || 0;
+      var totalValue = parseMoneyString(c.totalGovValue || c.totalValue || '');
+      rec.count = Math.max(rec.count, contractCount);
+      rec.totalValue = Math.max(rec.totalValue, totalValue);
+      var agencies = Array.isArray(c.agencies) ? c.agencies : [];
+      agencies.forEach(function(a) {
+        if (!a) return;
+        if (!rec.gov[a]) rec.gov[a] = { count: 0, value: 0 };
+        // Distribute the contract count + value evenly across agencies as
+        // a stand-in until we plumb through per-agency totals.
+        rec.gov[a].count = Math.max(rec.gov[a].count, Math.ceil(contractCount / Math.max(agencies.length, 1)));
+        rec.gov[a].value = Math.max(rec.gov[a].value, Math.round(totalValue / Math.max(agencies.length, 1)));
+      });
     });
   }
 
-  // Also aggregate from GOV_CONTRACTS_AUTO if exists
-  if (typeof GOV_CONTRACTS_AUTO !== 'undefined' && Array.isArray(GOV_CONTRACTS_AUTO)) {
-    GOV_CONTRACTS_AUTO.forEach(function(c) {
-      var name = c.company || c.recipient;
-      if (!name) return;
-      if (!companyCustomers[name]) {
-        companyCustomers[name] = { gov: {}, total: 0, totalValue: 0, count: 0 };
-      }
-      var agency = c.agency || c.awardingAgency || 'Unknown';
-      if (!companyCustomers[name].gov[agency]) {
-        companyCustomers[name].gov[agency] = { count: 0, value: 0 };
-      }
-      companyCustomers[name].gov[agency].count++;
-      var val = parseFloat((c.value || c.amount || '0').toString().replace(/[^0-9.]/g, '')) || 0;
-      companyCustomers[name].gov[agency].value += val;
-      companyCustomers[name].total++;
-      companyCustomers[name].totalValue += val;
-    });
-  }
+  if (typeof GOV_CONTRACTS !== 'undefined') ingest(GOV_CONTRACTS);
+  if (typeof GOV_CONTRACTS_AUTO !== 'undefined') ingest(GOV_CONTRACTS_AUTO);
 
   // Build list of companies with customer data
   var companiesWithData = Object.keys(companyCustomers).map(function(name) {

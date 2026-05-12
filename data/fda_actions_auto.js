@@ -1,34 +1,813 @@
-// Auto-updated FDA approvals and clearances
-// Last updated: 2026-04-23 08:18:52 UTC
+// Auto-generated from fda_actions_raw.json
+// Last updated: 2026-05-12 16:38
+// 101 entries
 const FDA_ACTIONS = [
-  { company: "Tempus AI", type: "device_510k", product: "xR IVD", date: "2025-09-19", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "da Vinci Surgical System (IS5000)", date: "2025-07-16", status: "SESE" },
-  { company: "Tempus AI", type: "device_510k", product: "Tempus ECG-Low EF", date: "2025-07-15", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "Vessel Sealer Curved (480522)", date: "2025-06-13", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "da Vinci X Surgical System (IS4200); da Vinci Xi Surgical System (IS4000)", date: "2025-06-11", status: "SESE" },
-  { company: "Medtronic", type: "device_510k", product: "IB3D PL Spinal System", date: "2024-09-06", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "da Vinci E-200 Electrosurgical Generator", date: "2024-08-05", status: "SESE" },
-  { company: "Tempus AI", type: "device_510k", product: "Tempus ECG-AF", date: "2024-06-21", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "da Vinci SP Surgical System (SP1098)", date: "2024-06-04", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "Ion Endoluminal System (Ion Fully Articulating Catheter) (IF1000)", date: "2024-04-03", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "da Vinci Surgical System Model IS5000, da Vinci Insufflator and Tube Set with Smoke Evacuation", date: "2024-03-14", status: "SESE" },
-  { company: "23andMe", type: "device_510k", product: "23andMe® Personal Genome Service® (PGS®) Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)", date: "2023-08-31", status: "SESE" },
-  { company: "Medtronic", type: "device_510k", product: "Affinity Fusion Oxygenator System", date: "2023-04-06", status: "SESE" },
-  { company: "23andMe", type: "device_510k", product: "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports", date: "2022-10-26", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "Ion Endoluminal System (IF1000)", date: "2022-06-16", status: "SESE" },
-  { company: "23andMe", type: "device_510k", product: "23andMe PGS Genetic Risk Report for Hereditary Prostate Cancer (HOXB13-Related)", date: "2022-01-06", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "da Vinci Fluorescence Imaging Vision System, da Vinci Firefly Imaging System", date: "2021-04-26", status: "SESE" },
-  { company: "23andMe", type: "device_510k", product: "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports", date: "2020-08-17", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "Ion Endoluminal System", date: "2020-06-26", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "E-100 Electrosurgical Generator, SynchroSeal", date: "2019-11-14", status: "SESE" },
-  { company: "Medtronic", type: "device_510k", product: "Streamline 6491 Unipolar Pediatric Temporary Pacing Lead, Streamline 6492 Unipolar Temporary Atrial Pacing Lead, Streamline 6494 Unipolar Temporary Myocardial Pacing Wire, Streamline 6495 Unipolar Temporary Myocardial Pacing Lead", date: "2019-08-08", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "da Vinci Handheld Camera", date: "2019-06-06", status: "SESE" },
-  { company: "Medtronic", type: "device_510k", product: "Medtronic Model 5392 External Pulse Generator (EPG)", date: "2019-04-30", status: "SESE" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "IRIS 1.0 System", date: "2019-02-22", status: "SESE" },
-  { company: "23andMe", type: "device_510k", product: "MUTYH-Associated Polyposis (MAP)", date: "2019-01-18", status: "SESE" },
-  { company: "23andMe", type: "device_510k", product: "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports", date: "2018-10-31", status: "DENG" },
-  { company: "23andMe", type: "device_510k", product: "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)", date: "2018-03-06", status: "DENG" },
-  { company: "Intuitive Surgical", type: "device_510k", product: "da Vinci Xi 8mm Endoscope, 0 degree, da Vinci Xi 8mm Endoscope, 30 degree", date: "2017-06-13", status: "SESE" },
-  { company: "23andMe", type: "device_510k", product: "23andMe Personal Genome Service (PGS) Genetic Health Risk Test for Hereditary Thrombophilia", date: "2017-04-06", status: "DENG" },
-  { company: "Medtronic", type: "device_510k", product: "FlexCath Select Steerable Shealth and Dilator", date: "2017-02-02", status: "SESE" },
+  {
+    "company": "Tempus AI",
+    "type": "device_510k",
+    "product": "Tempus ECG-Low EF",
+    "date": "2025-07-15",
+    "status": "SESE",
+    "k_number": "K250119"
+  },
+  {
+    "company": "Tempus AI",
+    "type": "device_510k",
+    "product": "xR IVD",
+    "date": "2025-09-19",
+    "status": "SESE",
+    "k_number": "K241868"
+  },
+  {
+    "company": "Tempus AI",
+    "type": "device_510k",
+    "product": "Tempus ECG-AF",
+    "date": "2024-06-21",
+    "status": "SESE",
+    "k_number": "K233549"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "MUTYH-Associated Polyposis (MAP)",
+    "date": "2019-01-18",
+    "status": "SESE",
+    "k_number": "K182784"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23ANDME PERSONAL GENOME SERVICE (HEREINAFTER KNOWN AS PGS)",
+    "date": "2015-02-19",
+    "status": "DENG",
+    "k_number": "DEN140044"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports",
+    "date": "2020-08-17",
+    "status": "SESE",
+    "k_number": "K193492"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports",
+    "date": "2018-10-31",
+    "status": "DENG",
+    "k_number": "DEN180028"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)",
+    "date": "2018-03-06",
+    "status": "DENG",
+    "k_number": "DEN170046"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe Personal Genome Service (PGS) Genetic Health Risk Test for Hereditary Thrombophilia",
+    "date": "2017-04-06",
+    "status": "DENG",
+    "k_number": "DEN160026"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe PGS Genetic Risk Report for Hereditary Prostate Cancer (HOXB13-Related)",
+    "date": "2022-01-06",
+    "status": "SESE",
+    "k_number": "K211499"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports",
+    "date": "2022-10-26",
+    "status": "SESE",
+    "k_number": "K221885"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe\u00ae Personal Genome Service\u00ae (PGS\u00ae) Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)",
+    "date": "2023-08-31",
+    "status": "SESE",
+    "k_number": "K223597"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA MISEQDX PLATFORM",
+    "date": "2013-11-19",
+    "status": "DENG",
+    "k_number": "DEN130011"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA BEADXPRESS SYSTEM",
+    "date": "2010-04-28",
+    "status": "SESE",
+    "k_number": "K093128"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "MISEQDX UNIVERSAL KIT 1.0",
+    "date": "2013-11-19",
+    "status": "DENG",
+    "k_number": "DEN130042"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA MISEQDX CYSTIC FIBROSIS CLINICAL SEQUENCING ASSAY",
+    "date": "2013-11-19",
+    "status": "SESE",
+    "k_number": "K132750"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA MISEQDX  CYSTIC FIBROSIS 139-VARIANT ASSAY",
+    "date": "2013-11-19",
+    "status": "SESE",
+    "k_number": "K124006"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA VERNCODE GENOTYPING TEST FOR FACOR V AND FACTOR II",
+    "date": "2010-04-28",
+    "status": "SESE",
+    "k_number": "K093129"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci Xi 8mm Endoscope, 0 degree, da Vinci Xi 8mm Endoscope, 30 degree",
+    "date": "2017-06-13",
+    "status": "SESE",
+    "k_number": "K171426"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "Ion\u0099 Endoluminal System (Ion\u0099 Fully Articulating Catheter) (IF1000)",
+    "date": "2024-04-03",
+    "status": "SESE",
+    "k_number": "K240135"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci Xi Hasson Cone",
+    "date": "2015-12-09",
+    "status": "SESE",
+    "k_number": "K153126"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "ENDOWRIST STAPLER SYSTEM",
+    "date": "2012-10-17",
+    "status": "SESE",
+    "k_number": "K113706"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "ENDOWRIST ONE SUCTION/IRRIGATOR",
+    "date": "2011-08-26",
+    "status": "SESE",
+    "k_number": "K110451"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "E-100 Electrosurgical Generator, SynchroSeal",
+    "date": "2019-11-14",
+    "status": "SESE",
+    "k_number": "K191280"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "IRIS 1.0 System",
+    "date": "2019-02-22",
+    "status": "SESE",
+    "k_number": "K182643"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "Ion Endoluminal System (IF1000)",
+    "date": "2022-06-16",
+    "status": "SESE",
+    "k_number": "K220299"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "Ion Endoluminal System",
+    "date": "2020-06-26",
+    "status": "SESE",
+    "k_number": "K201146"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci X Surgical System (IS4200); da Vinci Xi Surgical System (IS4000)",
+    "date": "2025-06-11",
+    "status": "SESE",
+    "k_number": "K240852"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci Surgical System Model IS5000, da Vinci Insufflator and Tube Set with Smoke Evacuation",
+    "date": "2024-03-14",
+    "status": "SESE",
+    "k_number": "K232610"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci Fluorescence Imaging Vision System, da Vinci Firefly Imaging System",
+    "date": "2021-04-26",
+    "status": "SESE",
+    "k_number": "K210918"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci Handheld Camera",
+    "date": "2019-06-06",
+    "status": "SESE",
+    "k_number": "K191043"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "ENDOWRIST VESSEL SEALER",
+    "date": "2014-06-05",
+    "status": "SESE",
+    "k_number": "K140189"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci SP Surgical System (SP1098)",
+    "date": "2024-06-04",
+    "status": "SESE",
+    "k_number": "K232773"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "DA VINCI SINGLE-SITE INSTRUMENTS AND ACCESSORIES",
+    "date": "2013-07-30",
+    "status": "SESU",
+    "k_number": "K122532"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci E-200 Electrosurgical Generator",
+    "date": "2024-08-05",
+    "status": "SESE",
+    "k_number": "K241635"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "Vessel Sealer Curved (480522)",
+    "date": "2025-06-13",
+    "status": "SESE",
+    "k_number": "K250674"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "INTUITIVE SURGICAL BIPOLAR FORCEPS",
+    "date": "2001-11-16",
+    "status": "SESE",
+    "k_number": "K012833"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci Surgical System (IS5000)",
+    "date": "2025-07-16",
+    "status": "SESE",
+    "k_number": "K251202"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "NOVA CORDLESS CURING LIGHT",
+    "date": "2000-03-27",
+    "status": "SESE",
+    "k_number": "K000393"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "DAVINCI RECONFIGURABLE LAPAROSCOPIC SURGICAL INSTRUMENTS",
+    "date": "1994-02-04",
+    "status": "SESE",
+    "k_number": "K935999"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "DAVINCI CHOLANGIOGRAM DELIVERY DEVICE",
+    "date": "1993-12-23",
+    "status": "SESE",
+    "k_number": "K934739"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "BASIS SPINAL SYSTEM",
+    "date": "2005-05-12",
+    "status": "SESE",
+    "k_number": "K051039"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CD HORIZON SPINAL SYSTEM",
+    "date": "2003-05-16",
+    "status": "SESE",
+    "k_number": "K030932"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "POLYGRAM 98 ESOPHAGEAL MANOMETRY TESTING APPLICATION, MODEL 9043S0103",
+    "date": "2001-02-07",
+    "status": "SESE",
+    "k_number": "K010130"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "POLYGRAM 98 ANORECTAL FUNCTION TESTING APPLICATION, POLYGRAM 98 ESOPHAGEAL MANOMETRY APPLICATION, POLYGRAF ID",
+    "date": "2001-08-10",
+    "status": "SESE",
+    "k_number": "K011472"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "POLYGRAM NET BIOFEEDBACK APPLICATION",
+    "date": "2004-08-12",
+    "status": "SESE",
+    "k_number": "K041244"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CAPSTONE R SPINAL SYSTEM",
+    "date": "2011-07-18",
+    "status": "SESE",
+    "k_number": "K103731"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "Affinity Fusion\u0099 Oxygenator System",
+    "date": "2023-04-06",
+    "status": "SESE",
+    "k_number": "K230640"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MEDTRONIC SULLIVAN NASAL CPAP SYSTEM",
+    "date": "1991-05-13",
+    "status": "SESE",
+    "k_number": "K905404"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "IB3D\u0099 PL Spinal System",
+    "date": "2024-09-06",
+    "status": "SESE",
+    "k_number": "K241164"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CD HORIZON SPINAL SYSTEM",
+    "date": "2012-07-05",
+    "status": "SESU",
+    "k_number": "K121680"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "SIMPLICITY SPINAL SYSTEM",
+    "date": "2000-11-02",
+    "status": "SESE",
+    "k_number": "K002103"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "BIPOLAR PENCIL, MODEL 3901-002, 3900-002",
+    "date": "2001-05-03",
+    "status": "SESE",
+    "k_number": "K010487"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CG FUTURE ANNULOPLASTY SYSTEM, MODEL 638R",
+    "date": "2006-05-23",
+    "status": "SESE",
+    "k_number": "K061127"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "Streamline 6491 Unipolar Pediatric Temporary Pacing Lead, Streamline 6492 Unipolar Temporary Atrial Pacing Lead, Streamline 6494 Unipolar Temporary Myocardial Pacing Wire, Streamline 6495 Unipolar Temporary Myocardial Pacing Lead",
+    "date": "2019-08-08",
+    "status": "SESE",
+    "k_number": "K190716"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MODEL 5867-12 BIPOLAR LOW-PROFILE LEAD",
+    "date": "1981-11-16",
+    "status": "SESE",
+    "k_number": "K812725"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "FlexCath Select Steerable Shealth and Dilator",
+    "date": "2017-02-02",
+    "status": "SESE",
+    "k_number": "K163268"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CD HORIZON SPINAL SYSTEM",
+    "date": "2006-10-25",
+    "status": "SESE",
+    "k_number": "K060615"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MEDTRONIC MODEL 9455 TELETRACE III ECG MONIT SYST",
+    "date": "1991-12-19",
+    "status": "SESE",
+    "k_number": "K914974"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "PEEK PREVAIL CERVICAL INTERBODY DEVICE",
+    "date": "2012-01-17",
+    "status": "SESE",
+    "k_number": "K113252"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "Medtronic Model 5392 External Pulse Generator (EPG)",
+    "date": "2019-04-30",
+    "status": "SESE",
+    "k_number": "K190825"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "CHEMO DISPENSING PIN, MODEL 12495",
+    "date": "2003-01-13",
+    "status": "SESE",
+    "k_number": "K024239"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "IMX CA 15-3",
+    "date": "1997-11-10",
+    "status": "SESE",
+    "k_number": "K964407"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "PANCRETEC PROVIDER ONE INFUSION SYSTEM, MODIFIED",
+    "date": "1991-10-30",
+    "status": "SESE",
+    "k_number": "K913720"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "NUTRIMIX(R) MACRO(TM) TPN COMPOUNDER/MODIFICATION",
+    "date": "1991-04-16",
+    "status": "SESE",
+    "k_number": "K910213"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "Freestyle Freedom Blood Glucose Monitoring Sytem",
+    "date": "2015-12-17",
+    "status": "SESE",
+    "k_number": "K152442"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "TDX DISOPYRAMIDE",
+    "date": "1984-08-29",
+    "status": "SESE",
+    "k_number": "K842713"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "TDX CORTISOL",
+    "date": "1985-08-05",
+    "status": "SESE",
+    "k_number": "K852927"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "LD-1",
+    "date": "1998-05-18",
+    "status": "SESE",
+    "k_number": "K981338"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "SOF-TACT DIABETES MANAGEMENT SYSTEM; SOF-TACT GLUCOSE TEST STRIP; PRECISION CONTROL SOLUTIONS",
+    "date": "2000-11-13",
+    "status": "SESE",
+    "k_number": "K001993"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "VISION CREATINE KINASE",
+    "date": "1988-10-13",
+    "status": "SESE",
+    "k_number": "K883946"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "CHLAMYDIAZYME, ENZYME IMMUNOASSAY DETEC",
+    "date": "1983-10-05",
+    "status": "SESE",
+    "k_number": "K831962"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT B2-MICROGLOBULIN RIA",
+    "date": "1986-11-12",
+    "status": "SESE",
+    "k_number": "K864130"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT TESTPACK HCG COMBO",
+    "date": "1987-05-20",
+    "status": "SESE",
+    "k_number": "K870739"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "IMX(R) TOXO IGM",
+    "date": "1995-04-27",
+    "status": "SESE",
+    "k_number": "K945634"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "MODIFICATION TO ALCYON DIRECT BILIRUBIN",
+    "date": "1999-05-28",
+    "status": "SESE",
+    "k_number": "K991175"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "FLEXIFLO QUANTUM ENT. PUMP SETS AND ENT. NUT. CONT",
+    "date": "1992-06-24",
+    "status": "SESE",
+    "k_number": "K915735"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "CYBREX THEOPHYLLINE",
+    "date": "1980-07-21",
+    "status": "SESE",
+    "k_number": "K801567"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "GEMSTAR INFUSION PUMP SYSTEM, 7 THERAPY, 6 THERAPY & PAIN MANAGEMENT",
+    "date": "2002-09-30",
+    "status": "SESE",
+    "k_number": "K023062"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "COCAINE",
+    "date": "2002-03-13",
+    "status": "SESE",
+    "k_number": "K013004"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT PATIENT ASSIST DEVICE",
+    "date": "1983-03-29",
+    "status": "SESE",
+    "k_number": "K830766"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "CHEMO DISPENSING PIN, MODEL 12495",
+    "date": "2003-01-13",
+    "status": "SESE",
+    "k_number": "K024239"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "IMX CA 15-3",
+    "date": "1997-11-10",
+    "status": "SESE",
+    "k_number": "K964407"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "PANCRETEC PROVIDER ONE INFUSION SYSTEM, MODIFIED",
+    "date": "1991-10-30",
+    "status": "SESE",
+    "k_number": "K913720"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "NUTRIMIX(R) MACRO(TM) TPN COMPOUNDER/MODIFICATION",
+    "date": "1991-04-16",
+    "status": "SESE",
+    "k_number": "K910213"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "Freestyle Freedom Blood Glucose Monitoring Sytem",
+    "date": "2015-12-17",
+    "status": "SESE",
+    "k_number": "K152442"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "TDX DISOPYRAMIDE",
+    "date": "1984-08-29",
+    "status": "SESE",
+    "k_number": "K842713"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "FREESTYLE BLOOD GLUCOSE MONITORING SYSTEM",
+    "date": "2000-01-14",
+    "status": "SESE",
+    "k_number": "K992684"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "TDX CORTISOL",
+    "date": "1985-08-05",
+    "status": "SESE",
+    "k_number": "K852927"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "LD-1",
+    "date": "1998-05-18",
+    "status": "SESE",
+    "k_number": "K981338"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "SOF-TACT DIABETES MANAGEMENT SYSTEM; SOF-TACT GLUCOSE TEST STRIP; PRECISION CONTROL SOLUTIONS",
+    "date": "2000-11-13",
+    "status": "SESE",
+    "k_number": "K001993"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "VISION CREATINE KINASE",
+    "date": "1988-10-13",
+    "status": "SESE",
+    "k_number": "K883946"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABSOLUTE PRO .035 SELF-EXPANDING STENT SYSTEM",
+    "date": "2008-08-18",
+    "status": "SESU",
+    "k_number": "K072708"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "CHLAMYDIAZYME, ENZYME IMMUNOASSAY DETEC",
+    "date": "1983-10-05",
+    "status": "SESE",
+    "k_number": "K831962"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ARDIS SPACER",
+    "date": "2008-01-30",
+    "status": "SESE",
+    "k_number": "K073202"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT B2-MICROGLOBULIN RIA",
+    "date": "1986-11-12",
+    "status": "SESE",
+    "k_number": "K864130"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT TESTPACK HCG COMBO",
+    "date": "1987-05-20",
+    "status": "SESE",
+    "k_number": "K870739"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "PRECISION XCEED PRO BLOOD GLUCOSE AND B-KETONE MONITORING SYSTEM WITH MODELS BGMS:70900-03, 70090-02, G3CH STRIPS",
+    "date": "2008-09-05",
+    "status": "SESE",
+    "k_number": "K080960"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "IMX(R) TOXO IGM",
+    "date": "1995-04-27",
+    "status": "SESE",
+    "k_number": "K945634"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "DILU-MATIC 140",
+    "date": "1984-09-06",
+    "status": "SESE",
+    "k_number": "K842446"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "MODIFICATION TO ALCYON DIRECT BILIRUBIN",
+    "date": "1999-05-28",
+    "status": "SESE",
+    "k_number": "K991175"
+  }
 ];

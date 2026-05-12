@@ -165,12 +165,28 @@ def fetch_all_contracts():
 
     return all_contracts
 
+# Canonical-name map for vendors whose contracts appear under multiple aliases
+# in USASpending. We query both forms (higher hit rate) then merge at aggregation.
+CANONICAL_NAME = {
+    "Anduril Industries": "Anduril",
+    "Palantir Technologies": "Palantir",
+    "Space Exploration Technologies": "SpaceX",
+    "Rocket Lab USA": "Rocket Lab",
+    "NuScale Power": "NuScale",
+    "BlackSky Technology": "BlackSky",
+}
+
 def aggregate_by_company(contracts):
-    """Aggregate contracts by company for the GOV_CONTRACTS format."""
+    """Aggregate contracts by company for the GOV_CONTRACTS format.
+
+    Merges aliases (e.g. 'Anduril Industries' -> 'Anduril') via CANONICAL_NAME
+    so the customer-intelligence page doesn't show the same vendor twice.
+    """
     company_data = {}
 
     for contract in contracts:
-        company = contract["company"]
+        # Normalize to canonical name before aggregating
+        company = CANONICAL_NAME.get(contract["company"], contract["company"])
         if company not in company_data:
             company_data[company] = {
                 "company": company,
