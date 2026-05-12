@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.79,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.07,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 21.42,
+      "avg_change": 22.49,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 4.9,
+      "avg_change": 6.94,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.95,
+      "avg_change": 9.15,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.28,
+      "avg_change": -2.23,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.74,
+      "avg_change": 8.11,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -5.62,
+      "avg_change": -5.24,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.8,
+      "avg_change": 3.49,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 10.08,
+      "avg_change": 11.1,
       "count": 3
     }
   },
@@ -61,34 +61,34 @@
     [
       "RKLB",
       "Rocket Lab",
-      47.35
+      49.53
     ],
     [
       "ASRHF",
       "Astroscale",
-      41.83
+      41.23
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      29.4
     ],
     [
       "AMD",
       "AMD",
-      25.03
+      26.22
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       24.82
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      24.44
     ]
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -6.8
+      "LNZA",
+      "LanzaTech",
+      -8.65
     ],
     [
       "IDEAFORGE.NS",
@@ -98,18 +98,18 @@
     [
       "TEM",
       "Tempus AI",
-      -12.91
+      -13.26
     ],
     [
       "SLDP",
       "Solid Power",
-      -14.96
+      -14.39
     ],
     [
       "DRSHF",
       "DroneShield",
-      -18.58
+      -14.44
     ]
   ],
-  "lastUpdated": "2026-05-12 14:34:20"
+  "lastUpdated": "2026-05-12 19:59:21"
 }
