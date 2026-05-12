@@ -1,8 +1,67 @@
 [
   {
-    "title": "The AI legal services industry is heating up. Anthropic is getting in on the action.",
+    "title": "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with full vehicle control",
+    "link": "https://electrek.co/2026/05/12/rivian-hey-rivian-ai-assistant-vehicle-control/",
+    "description": "Rivian is rolling out its new AI-powered voice assistant to all Gen 1 and Gen 2 R1 owners as part of its latest over-the-air software update. The feature, activated by saying “Hey Rivian” or holding the left steering wheel button, requires an active Connect+ subscription.\n\n\n\nThe assistant is notable",
+    "pubDate": "Tue, 12 May 2026 18:15:17 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Rivian",
+    "matchedCompanies": [
+      "Rivian"
+    ],
+    "sectors": [
+      "transportation"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Musk mulled handing OpenAI to his children, Altman testifies",
+    "link": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
+    "description": "OpenAI's CEO recalls a \"particularly hair-raising\" conversation with the SpaceX founder.",
+    "pubDate": "Tue, 12 May 2026 18:05:15 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "SpaceX"
+    ],
+    "sectors": [
+      "ai",
+      "space"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Report: Google and SpaceX in talks to put data centers into orbit",
+    "link": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
+    "description": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+    "pubDate": "Tue, 12 May 2026 17:30:57 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "The AI legal services industry is heating up — Anthropic is getting in on the action",
     "link": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
-    "description": "As the AI legal services industry heats up, Anthropic is launching its own suite of features designed to assist law firms.",
+    "description": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other related areas.",
     "pubDate": "Tue, 12 May 2026 17:00:00 +0000",
     "category": "AI",
     "source": "TechCrunch",
@@ -15,9 +74,9 @@
     "sectors": [
       "ai"
     ],
-    "type": "milestone",
+    "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "World Models: 10 Things That Matter in AI Right Now",
@@ -36,7 +95,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "Waymo recalls 3,791 robotaxis over flooded road incident, deploying OTA software fix",
@@ -55,7 +114,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "Waymo issues recall to deal with a flooding problem",
@@ -74,7 +133,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Once again, SpaceX has set a new record for the tallest rocket ever built",
@@ -93,7 +152,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qubits",
@@ -113,7 +172,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "9h ago"
+    "time": "12h ago"
   },
   {
     "title": "Ilya Sutskever Stands by His Role in Sam Altman’s OpenAI Ouster: ‘I Didn’t Want It to Be Destroyed’",
@@ -135,7 +194,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "17h ago"
+    "time": "20h ago"
   },
   {
     "title": "RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands",
@@ -158,7 +217,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX Starship Flight 12 Successful Wet Rehearsal",
@@ -219,7 +278,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Nuro secures California driverless permit for Lucid Gravity Uber robotaxis",
@@ -341,7 +400,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Anthropic vs European AI",
@@ -419,25 +478,6 @@
     "type": "news",
     "impact": "low",
     "time": "6d ago"
-  },
-  {
-    "title": "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest shareholder with 15.9% stake",
-    "link": "https://electrek.co/2026/05/05/volkswagen-rivian-stake-15-percent-largest-shareholder/",
-    "description": "Volkswagen now owns 209.8 million shares of Rivian (RIVN), representing a 15.9% stake in the EV startup, according to a new SEC filing. The German automaker has overtaken Amazon as Rivian’s single largest shareholder for the first time since the company’s 2021 IPO.\n\n\n\nThe stake increase came after V",
-    "pubDate": "Tue, 05 May 2026 13:28:25 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Rivian",
-    "matchedCompanies": [
-      "Rivian"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "5/5/2026"
   },
   {
     "title": "Practice Makes Deterrence: India’s Next Nuclear Challenge at Sea",
