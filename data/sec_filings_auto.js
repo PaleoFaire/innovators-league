@@ -1,6 +1,17 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-11 09:48:57 UTC
+// Last updated: 2026-05-12 08:46:08 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "10-Q", date: "2026-05-11", description: "asts-20260331.htm", isIPO: false, ticker: "ASTS" },
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-05-11", description: "asts-20260511.htm", isIPO: false, ticker: "ASTS" },
+  { company: "Centrus Energy", form: "4", date: "2026-05-11", description: "xslF345X06/wk-form4_1778530670.xml", isIPO: false, ticker: "LEU" },
+  { company: "IonQ", form: "8-K", date: "2026-05-11", description: "bakkt-20260511.htm", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "10-Q", date: "2026-05-11", description: "bakkt-20260331.htm", isIPO: false, ticker: "IONQ" },
+  { company: "Rigetti Computing", form: "10-Q", date: "2026-05-11", description: "rgti-20260331x10q.htm", isIPO: false, ticker: "RGTI" },
+  { company: "Rigetti Computing", form: "8-K", date: "2026-05-11", description: "rgti-20260511x8k.htm", isIPO: false, ticker: "RGTI" },
+  { company: "Archer Aviation", form: "10-Q", date: "2026-05-11", description: "achr-20260331.htm", isIPO: false, ticker: "ACHR" },
+  { company: "Archer Aviation", form: "8-K", date: "2026-05-11", description: "achr-20260511.htm", isIPO: false, ticker: "ACHR" },
+  { company: "Astera Labs", form: "10-Q", date: "2026-05-11", description: "tra-20260331.htm", isIPO: false, ticker: "ALAB" },
+  { company: "Astera Labs", form: "8-K", date: "2026-05-11", description: "tra-20260511.htm", isIPO: false, ticker: "ALAB" },
   { company: "Rocket Lab", form: "8-K", date: "2026-05-08", description: "g085715_8k.htm", isIPO: false, ticker: "RKLB" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050503.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050501.xml", isIPO: false, ticker: "LUNR" },
@@ -40,15 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Agrify Corporation", form: "10-Q", date: "2026-05-05", description: "ea0287069-10q_rythm.htm", isIPO: false, ticker: "AGFY" },
   { company: "Agrify Corporation", form: "8-K", date: "2026-05-05", description: "ea0289074-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
   { company: "Palantir Technologies", form: "8-K", date: "2026-05-04", description: "pltr-20260504.htm", isIPO: false, ticker: "PLTR" },
-  { company: "Oklo", form: "4", date: "2026-05-04", description: "xslF345X06/wk-form4_1777932418.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-05-04", description: "xslF345X06/wk-form4_1777932368.xml", isIPO: false, ticker: "OKLO" },
-  { company: "IonQ", form: "4", date: "2026-05-04", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "IONQ" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-05-04", description: "xslF345X06/wk-form4_1777928537.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-05-04", description: "qbts-20260430.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Rivian", form: "8-K", date: "2026-05-04", description: "rivn-20260504.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-05-04", description: "xslF345X06/tm2613313-1_4seq1.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Astera Labs", form: "4", date: "2026-05-04", description: "xslF345X06/wk-form4_1777933515.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Momentus", form: "DEF 14A", date: "2026-04-30", description: "apre-20260616xdef14a.htm", isIPO: false, ticker: "MNTS" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-04-30", description: "spce-20260430.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Oklo", form: "4", date: "2026-04-30", description: "xslF345X06/wk-form4_1777580079.xml", isIPO: false, ticker: "OKLO" },
 ];
