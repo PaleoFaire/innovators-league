@@ -1,94 +1,6 @@
 {
-  "generatedAt": "2026-05-13T07:57:04+00:00",
+  "generatedAt": "2026-05-13T10:39:10+00:00",
   "matrix": {
-    "nuclear-microreactor": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Aalo Atomics",
-            "amount": 0,
-            "date": "2026-05-11",
-            "source": "formd",
-            "investors": [
-              "Valor Equity Partners",
-              "Fine Structure Ventures",
-              "Hitachi Ventures",
-              "NRG Energy",
-              "Vamos Ventures",
-              "Tishman Speyer",
-              "Kindred Ventures",
-              "50Y",
-              "Harpoon Ventures",
-              "Crescent Enterprises",
-              "Crosscut Ventures",
-              "Alumni Ventures",
-              "MCJ Collective",
-              "Gaingels",
-              "Nucleation Capital"
-            ]
-          }
-        ],
-        "investors": [
-          "Alumni Ventures",
-          "Harpoon Ventures",
-          "Valor Equity Partners"
-        ]
-      },
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Radiant",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "autonomous-defense": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Seneca",
-            "amount": 0,
-            "date": "2026-05-11",
-            "source": "formd",
-            "investors": [
-              "David Glazer"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "space-ssa": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 10946661,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Scout Space",
-            "amount": 10946661,
-            "date": "2026-05-11",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -292,6 +204,23 @@
               "Joe Liemandt",
               "ESW Capital"
             ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "nuclear-microreactor": {
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Radiant",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
           }
         ],
         "investors": []
@@ -1338,66 +1267,6 @@
     }
   },
   "vcAttribution": {
-    "Valor Equity Partners": {
-      "2026-Q2": [
-        {
-          "company": "Aalo Atomics",
-          "cluster": "nuclear-microreactor",
-          "date": "2026-05-11",
-          "source": "formd"
-        },
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "date": "2026-02",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Harpoon Ventures": {
-      "2026-Q2": [
-        {
-          "company": "Aalo Atomics",
-          "cluster": "nuclear-microreactor",
-          "date": "2026-05-11",
-          "source": "formd"
-        }
-      ]
-    },
-    "Alumni Ventures": {
-      "2026-Q2": [
-        {
-          "company": "Aalo Atomics",
-          "cluster": "nuclear-microreactor",
-          "date": "2026-05-11",
-          "source": "formd"
-        }
-      ],
-      "2024-Q1": [
-        {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1512,6 +1381,32 @@
         }
       ]
     },
+    "Valor Equity Partners": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "D1 Capital Partners": {
       "2026-Q2": [
         {
@@ -1604,6 +1499,16 @@
           "company": "Skild AI",
           "cluster": "ai-robotics-embodied",
           "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Alumni Ventures": {
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
           "source": "recentEvent"
         }
       ]
@@ -1742,11 +1647,11 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 64,
-    "totalUSDSold": 10946661,
-    "uniqueClusters": 38,
+    "totalDealsTracked": 61,
+    "totalUSDSold": 0,
+    "uniqueClusters": 36,
     "uniqueQuarters": 8,
-    "uniqueVCs": 20,
+    "uniqueVCs": 19,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"
