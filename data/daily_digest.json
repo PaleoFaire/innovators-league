@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T19:01:44.104928+00:00",
+  "generatedAt": "2026-05-13T20:49:53.581324+00:00",
   "date": "2026-05-13",
   "dateDisplay": "Wednesday, May 13, 2026",
   "sections": {
@@ -63,16 +63,16 @@
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 122.11,
-        "changePercent": 44.25,
-        "change": 37.46
+        "price": 124.15,
+        "changePercent": 46.66,
+        "change": 39.5
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 35.52,
-        "changePercent": 34.92,
-        "change": 9.19
+        "price": 35.68,
+        "changePercent": 35.51,
+        "change": 9.35
       },
       {
         "ticker": "277810.KQ",
@@ -91,30 +91,30 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 18.64,
-        "changePercent": -15.96,
-        "change": -3.54
+        "price": 18.24,
+        "changePercent": -17.76,
+        "change": -3.94
+      },
+      {
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 8.4,
+        "changePercent": 15.54,
+        "change": 1.13
+      },
+      {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 2.34,
+        "changePercent": -14.29,
+        "change": -0.39
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 45.65,
-        "changePercent": -14.67,
-        "change": -7.85
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 20.82,
-        "changePercent": -12.61,
-        "change": -3.0
-      },
-      {
-        "ticker": "TSLA",
-        "company": "Tesla",
-        "price": 447.94,
-        "changePercent": 12.34,
-        "change": 49.21
+        "price": 45.9,
+        "changePercent": -14.21,
+        "change": -7.6
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB +44.2%"
+    "topMover": "RKLB +46.7%"
   }
 }
