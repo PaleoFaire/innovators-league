@@ -504,15 +504,6 @@
     "isIPO": false
   },
   {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "8-K",
-    "date": "2026-02-11",
-    "description": "form8-k.htm",
-    "accessionNumber": "0001493152-26-006223",
-    "isIPO": false
-  },
-  {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
     "form": "10-Q",
@@ -1370,6 +1361,15 @@
   {
     "company": "Oklo",
     "ticker": "OKLO",
+    "form": "10-Q",
+    "date": "2026-05-12",
+    "description": "oklo-20260331.htm",
+    "accessionNumber": "0001628280-26-034095",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
     "form": "4",
     "date": "2026-05-05",
     "description": "xslF345X06/wk-form4_1778013141.xml",
@@ -1629,15 +1629,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-04",
-    "description": "xslF345X05/wk-form4_1772660951.xml",
-    "accessionNumber": "0002021786-26-000002",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "4",
@@ -1710,21 +1701,12 @@
     "isIPO": false
   },
   {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "10-K",
-    "date": "2026-02-11",
-    "description": "leu-20251231.htm",
-    "accessionNumber": "0001628280-26-007117",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
+    "company": "C3.ai",
+    "ticker": "AI",
     "form": "8-K",
-    "date": "2026-02-11",
-    "description": "leu-20260211.htm",
-    "accessionNumber": "0001628280-26-007110",
+    "date": "2026-05-12",
+    "description": "d147244d8k.htm",
+    "accessionNumber": "0001193125-26-218253",
     "isIPO": false
   },
   {
@@ -2031,6 +2013,15 @@
     "date": "2026-02-19",
     "description": "upst-20260219.htm",
     "accessionNumber": "0001647639-26-000033",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "DEF 14A",
+    "date": "2026-05-12",
+    "description": "path-20260512.htm",
+    "accessionNumber": "0001734722-26-000027",
     "isIPO": false
   },
   {
@@ -2373,6 +2364,24 @@
     "date": "2026-03-04",
     "description": "rgti-20260304x8k.htm",
     "accessionNumber": "0001104659-26-023446",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "10-Q",
+    "date": "2026-05-12",
+    "description": "qbts-20260331.htm",
+    "accessionNumber": "0001907982-26-000059",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-05-12",
+    "description": "qbts-20260512.htm",
+    "accessionNumber": "0001907982-26-000057",
     "isIPO": false
   },
   {
@@ -3528,21 +3537,21 @@
     "isIPO": false
   },
   {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
-    "form": "10-K",
-    "date": "2026-02-11",
-    "description": "aur-20251231.htm",
-    "accessionNumber": "0001828108-26-000016",
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "10-Q",
+    "date": "2026-05-12",
+    "description": "tlsi-20260331.htm",
+    "accessionNumber": "0001628280-26-034100",
     "isIPO": false
   },
   {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
+    "company": "LanzaTech",
+    "ticker": "LNZA",
     "form": "8-K",
-    "date": "2026-02-11",
-    "description": "aur-20260211.htm",
-    "accessionNumber": "0001828108-26-000014",
+    "date": "2026-05-12",
+    "description": "tlsi-20260512.htm",
+    "accessionNumber": "0001628280-26-034082",
     "isIPO": false
   },
   {
@@ -3705,15 +3714,6 @@
     "date": "2026-02-20",
     "description": "form8-k.htm",
     "accessionNumber": "0001493152-26-007598",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2026-02-11",
-    "description": "xslF345X05/wk-form4_1770853869.xml",
-    "accessionNumber": "0001628280-26-007409",
     "isIPO": false
   },
   {
@@ -4335,6 +4335,15 @@
     "date": "2026-03-06",
     "description": "tra-20251231.htm",
     "accessionNumber": "0001628280-26-015450",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-05-12",
+    "description": "ea0290407-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-055210",
     "isIPO": false
   },
   {

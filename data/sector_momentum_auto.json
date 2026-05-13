@@ -1,61 +1,61 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 66,
-    "trend": "accelerating",
+    "momentum": 62,
+    "trend": "steady",
     "catalysts": [
-      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub",
-      "SpaceX Starship Flight 12 Successful Wet Rehearsal",
-      "We\u2019re feeling cynical about xAI\u2019s big deal with Anthropic"
+      "FCC approves SpaceX spectrum deal with $2.4 billion escrow c",
+      "Report: Google and SpaceX in talks to put data centers into",
+      "Once again, SpaceX has set a new record for the tallest rock"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 75,
+      "news": 60,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Ilya Sutskever Stands by His Role in Sam Altman\u2019s OpenAI Ous",
-      "Anthropic says \u2018evil\u2019 portrayals of AI were responsible for",
-      "We\u2019re feeling cynical about xAI\u2019s big deal with Anthropic"
+      "Elon Musk Had \u2018Hair-Raising\u2019 Idea of Passing OpenAI On to Hi",
+      "Musk mulled handing OpenAI to his children, Altman testifies",
+      "The AI legal services industry is heating up \u2014 Anthropic is"
     ],
     "fundingQ": "$2207.6B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 54,
+    "momentum": 53,
     "trend": "steady",
     "catalysts": [
-      "&#8216;Too early&#8217; to talk IPO, Redwood Materials&#8217",
       "SpaceX V3 Booster Has a Full Static Fire And Is On Track for",
-      "Fervo Energy unveils new power plant details in IPO filing"
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 53,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
       "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
@@ -67,27 +67,43 @@
       "funding": 83,
       "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 94
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 48,
+    "trend": "steady",
+    "catalysts": [
+      "Ilya Sutskever Stands by His Role in Sam Altman\u2019s OpenAI Ous",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$22.5B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 51
+    },
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 49,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B",
       "Rivian (RIVN) mulls making its own lidar as it builds full a",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -104,7 +120,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Ocean & Maritime",
@@ -120,78 +136,42 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-12"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 41,
-    "trend": "steady",
-    "catalysts": [
-      "Ilya Sutskever Stands by His Role in Sam Altman\u2019s OpenAI Ous",
-      "Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B",
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
-    ],
-    "fundingQ": "$22.5B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 31,
+    "momentum": 34,
     "trend": "rising",
     "catalysts": [
-      "RLWRLD releases RLDX-1, a dexterity-first foundation model f",
-      "Nyobolt raises funding to bring fast charging to more robots",
-      "Nuro secures California driverless permit for Lucid Gravity"
+      "Waymo recalls 3,791 robotaxis over flooded road incident, de",
+      "Waymo issues recall to deal with a flooding problem",
+      "RLWRLD releases RLDX-1, a dexterity-first foundation model f"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 30,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Transportation",
-    "momentum": 26,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Rivian R2 Extra Features, Other Variants, and In-House Lidar",
-      "Rivian (RIVN) mulls making its own lidar as it builds full a",
-      "Volkswagen overtakes Amazon as Rivian&#8217;s (RIVN) largest"
+      "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with",
+      "Rivian (RIVN) mulls making its own lidar as it builds full a"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 15,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-12"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub",
-      "Quantum Motion raises $160m Series C as quantum sector heats"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
       "news": 10,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -207,16 +187,32 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "FCC approves SpaceX spectrum deal with $2.4 billion escrow c",
       "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub",
-      "RLWRLD releases RLDX-1, a dexterity-first foundation model f",
-      "Nyobolt raises funding to bring fast charging to more robots"
+      "RLWRLD releases RLDX-1, a dexterity-first foundation model f"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -225,7 +221,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo recalls 3,791 robotaxis over flooded road incident, de",
+      "Nuro secures California driverless permit for Lucid Gravity"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -242,39 +255,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-12"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Nuro secures California driverless permit for Lucid Gravity"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 6,
+    "momentum": 3,
     "trend": "declining",
     "catalysts": [
-      "EnGene's shares crash on updated pivotal bladder cancer data",
-      "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech Leads Wit"
+      "Active biotech & health ecosystem"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 10,
+      "news": 0,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-12"
+    "lastUpdated": "2026-05-13"
   }
 ]

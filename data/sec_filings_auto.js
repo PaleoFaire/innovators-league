@@ -1,6 +1,14 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-12 08:46:08 UTC
+// Last updated: 2026-05-13 08:49:39 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "10-Q", date: "2026-05-12", description: "oklo-20260331.htm", isIPO: false, ticker: "OKLO" },
+  { company: "C3.ai", form: "8-K", date: "2026-05-12", description: "d147244d8k.htm", isIPO: false, ticker: "AI" },
+  { company: "UiPath", form: "DEF 14A", date: "2026-05-12", description: "path-20260512.htm", isIPO: false, ticker: "PATH" },
+  { company: "D-Wave Quantum", form: "10-Q", date: "2026-05-12", description: "qbts-20260331.htm", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-05-12", description: "qbts-20260512.htm", isIPO: false, ticker: "QBTS" },
+  { company: "LanzaTech", form: "10-Q", date: "2026-05-12", description: "tlsi-20260331.htm", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "8-K", date: "2026-05-12", description: "tlsi-20260512.htm", isIPO: false, ticker: "LNZA" },
+  { company: "Satellogic", form: "8-K", date: "2026-05-12", description: "ea0290407-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "AST SpaceMobile", form: "10-Q", date: "2026-05-11", description: "asts-20260331.htm", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-05-11", description: "asts-20260511.htm", isIPO: false, ticker: "ASTS" },
   { company: "Centrus Energy", form: "4", date: "2026-05-11", description: "xslF345X06/wk-form4_1778530670.xml", isIPO: false, ticker: "LEU" },
@@ -43,12 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Aurora Innovation", form: "8-K", date: "2026-05-06", description: "aur-20260506.htm", isIPO: false, ticker: "AUR" },
   { company: "Palantir Technologies", form: "10-Q", date: "2026-05-05", description: "pltr-20260331.htm", isIPO: false, ticker: "PLTR" },
   { company: "Oklo", form: "4", date: "2026-05-05", description: "xslF345X06/wk-form4_1778013141.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Centrus Energy", form: "8-K", date: "2026-05-05", description: "leu-20260505.htm", isIPO: false, ticker: "LEU" },
-  { company: "C3.ai", form: "4", date: "2026-05-05", description: "xslF345X06/wk-form4_1778018954.xml", isIPO: false, ticker: "AI" },
-  { company: "Upstart Holdings", form: "10-Q", date: "2026-05-05", description: "upst-20260331.htm", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "8-K", date: "2026-05-05", description: "upst-20260505.htm", isIPO: false, ticker: "UPST" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-05-05", description: "qbts-20260505.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Agrify Corporation", form: "10-Q", date: "2026-05-05", description: "ea0287069-10q_rythm.htm", isIPO: false, ticker: "AGFY" },
-  { company: "Agrify Corporation", form: "8-K", date: "2026-05-05", description: "ea0289074-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
-  { company: "Palantir Technologies", form: "8-K", date: "2026-05-04", description: "pltr-20260504.htm", isIPO: false, ticker: "PLTR" },
 ];
