@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T13:23:22.491322+00:00",
+  "generatedAt": "2026-05-13T16:28:17.671582+00:00",
   "date": "2026-05-13",
   "dateDisplay": "Wednesday, May 13, 2026",
   "sections": {
@@ -63,30 +63,16 @@
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 117.56,
-        "changePercent": 49.26,
-        "change": 38.8
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 11.58,
-        "changePercent": 39.19,
-        "change": 3.26
+        "price": 122.11,
+        "changePercent": 44.25,
+        "change": 37.46
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 32.09,
-        "changePercent": 29.4,
-        "change": 7.29
-      },
-      {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 448.29,
-        "changePercent": 26.19,
-        "change": 93.03
+        "price": 35.52,
+        "changePercent": 34.92,
+        "change": 9.19
       },
       {
         "ticker": "277810.KQ",
@@ -96,25 +82,39 @@
         "change": 176000.0
       },
       {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 10.49,
-        "changePercent": 20.85,
-        "change": 1.81
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 11.58,
+        "changePercent": 20.64,
+        "change": 1.98
       },
       {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 27.09,
-        "changePercent": 18.97,
-        "change": 4.32
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 18.64,
+        "changePercent": -15.96,
+        "change": -3.54
       },
       {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 55.87,
-        "changePercent": 16.4,
-        "change": 7.87
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 45.65,
+        "changePercent": -14.67,
+        "change": -7.85
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 20.82,
+        "changePercent": -12.61,
+        "change": -3.0
+      },
+      {
+        "ticker": "TSLA",
+        "company": "Tesla",
+        "price": 447.94,
+        "changePercent": 12.34,
+        "change": 49.21
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB +49.3%"
+    "topMover": "RKLB +44.2%"
   }
 }

@@ -1,5 +1,103 @@
 [
   {
+    "title": "Anthropic courts a new kind of customer: small business owners",
+    "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+    "description": "For founders and investors, Anthropic's new offering signals that the AI platform wars are expanding downmarket and that the next major battleground for user acquisition isn't the Fortune 500; it's the 36 million small businesses that make up the backbone of the U.S. economy.",
+    "pubDate": "Wed, 13 May 2026 16:00:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Fervo Energy’s IPO is a milestone for next-gen geothermal",
+    "link": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone",
+    "description": "",
+    "pubDate": "Wed, 13 May 2026 11:30:00 -0400",
+    "category": "",
+    "source": "Canary Media",
+    "feedCategory": "energy",
+    "matchedCompany": "Fervo Energy",
+    "matchedCompanies": [
+      "Fervo Energy"
+    ],
+    "sectors": [
+      "climate"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "Waymo expands robotaxi coverage more than 20% — larger than Rhode Island",
+    "link": "https://electrek.co/2026/05/13/waymo-expands-coverage-1400-square-miles-11-cities/",
+    "description": "Waymo announced a major expansion of its autonomous robotaxi service area, growing to over 1,400 square miles across 11 US cities. That’s an estimated 27% increase from its previous coverage and more territory than the entire state of Rhode Island.\n\n\n\nThe expansion starts in Miami, with Austin, Atla",
+    "pubDate": "Wed, 13 May 2026 15:28:19 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck",
+    "link": "https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/",
+    "description": "UK company Fractile  has today raised a $220M Series B as it continues to build next-generation inference hardware for AI.  The round was led by Accel, Factorial Funds, and Founders Fund, with partici...",
+    "pubDate": "Wed, 13 May 2026 14:48:25 +0000",
+    "category": "Hardware",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Fractile",
+    "matchedCompanies": [
+      "Fractile"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "1h ago"
+  },
+  {
+    "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
+    "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+    "description": "For the first time, Anthropic has more verified business customers than OpenAI, according to this month’s AI Index from the fintech firm Ramp.",
+    "pubDate": "Wed, 13 May 2026 14:00:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "SpaceX sets date for first Starship version 3 launch",
     "link": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/",
     "description": "SpaceX has set a date for the long-delayed first launch of its next-generation Starship vehicle, which is critical to the company’s ambitions as well as NASA’s lunar plans.",
@@ -16,7 +114,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says",
@@ -35,7 +133,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "13h ago"
+    "time": "16h ago"
   },
   {
     "title": "xAI Adds 19 New Gas Turbines Despite Ongoing Lawsuit",
@@ -54,7 +152,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "16h ago"
   },
   {
     "title": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
@@ -75,7 +173,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "15h ago"
+    "time": "18h ago"
   },
   {
     "title": "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with full vehicle control",
@@ -94,7 +192,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "19h ago"
+    "time": "22h ago"
   },
   {
     "title": "Musk mulled handing OpenAI to his children, Altman testifies",
@@ -115,7 +213,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "19h ago"
+    "time": "22h ago"
   },
   {
     "title": "Report: Google and SpaceX in talks to put data centers into orbit",
@@ -134,27 +232,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "The AI legal services industry is heating up — Anthropic is getting in on the action",
-    "link": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
-    "description": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other related areas.",
-    "pubDate": "Tue, 12 May 2026 17:00:00 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Dust"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "20h ago"
+    "time": "22h ago"
   },
   {
     "title": "World Models: 10 Things That Matter in AI Right Now",
@@ -173,7 +251,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Waymo recalls 3,791 robotaxis over flooded road incident, deploying OTA software fix",
@@ -192,7 +270,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Once again, SpaceX has set a new record for the tallest rocket ever built",
@@ -275,7 +353,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
@@ -316,27 +394,6 @@
       "transportation"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Rocket Lab announces large launch contract and plans to acquire space robotics company",
-    "link": "https://spacenews.com/rocket-lab-announces-large-launch-contract-and-plans-to-acquire-space-robotics-company/",
-    "description": "Rocket Lab announced May 7 the largest launch contract in the company’s history as it also moves to acquire a space robotics company.",
-    "pubDate": "Fri, 08 May 2026 11:40:09 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Rocket Lab",
-    "matchedCompanies": [
-      "Rocket Lab",
-      "GITAI"
-    ],
-    "sectors": [
-      "space",
-      "robotics"
-    ],
-    "type": "contract",
     "impact": "low",
     "time": "5d ago"
   },
