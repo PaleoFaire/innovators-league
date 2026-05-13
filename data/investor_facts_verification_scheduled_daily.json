@@ -1,163 +1,28 @@
 {
-  "generatedAt": "2026-05-12T08:29:19+00:00",
+  "generatedAt": "2026-05-13T08:35:57+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 3,
-  "newExtractionsThisRun": 3,
+  "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 2,
-    "changesProposed": 1,
-    "unverifiable": 0
+    "cleared": 0,
+    "changesProposed": 0,
+    "unverifiable": 3
   },
-  "cleared": [
-    "Alumni Ventures",
-    "Future Ventures"
-  ],
-  "changesProposed": [
+  "cleared": [],
+  "changesProposed": [],
+  "unverifiable": [
+    {
+      "name": "Alumni Ventures",
+      "reason": "Claude extraction failed"
+    },
     {
       "name": "Engine Ventures",
-      "current": {
-        "name": "Engine Ventures",
-        "shortName": "Engine",
-        "aum": "$1B+",
-        "flagshipFund": "Engine Ventures Fund III",
-        "founded": 2016,
-        "hq": "Cambridge, MA",
-        "website": "https://engine.xyz"
-      },
-      "verified": {
-        "name": "Engine Ventures",
-        "short_name": "Engine",
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": 2016,
-        "hq": "Cambridge, MA",
-        "key_partners": null,
-        "sector_focus": [
-          "Applied AI & ML",
-          "Computing",
-          "Mobility",
-          "Autonomous Systems / Robotics",
-          "Energy",
-          "Natural Resources",
-          "Biotech / Life Sciences",
-          "Food / Agriculture",
-          "Quantum Computing",
-          "Carbon Capture / CCUS",
-          "Manufacturing",
-          "Space",
-          "Climate",
-          "Materials",
-          "Water / Oceans"
-        ],
-        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator.",
-        "website": "https://engine.xyz",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            3
-          ],
-          "short_name": [
-            0
-          ],
-          "founded_year": [
-            1,
-            3
-          ],
-          "hq": [
-            1,
-            3
-          ],
-          "sector_focus": [
-            1
-          ],
-          "thesis": [
-            1,
-            3
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Engine Ventures spun out as a separate investment firm in 2023, distinct from The Engine nonprofit incubator founded by MIT in 2016. Source [4] is irrelevant (SpaceX news, not Engine Ventures-related). Key partners Katie Rae and Reed Sturtevant cannot be verified from provided sources. AUM and specific fund names cannot be verified from sources provided. Sector focus extracted from explicit list on firm's about page."
-      },
-      "changes": [
-        {
-          "field": "sectorFocus",
-          "current": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS"
-          ],
-          "verified": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS",
-            "Manufacturing",
-            "Space",
-            "Climate",
-            "Materials",
-            "Water / Oceans"
-          ],
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator and rebranded as the venture capital firm Engine Ventures.",
-          "verified": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator.",
-          "sources": [
-            1,
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://engine.xyz"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://engine.xyz/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/companies",
-          "url": "https://engine.xyz/companies"
-        },
-        {
-          "idx": 3,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
-        },
-        {
-          "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
-        }
-      ],
-      "notes": "Engine Ventures spun out as a separate investment firm in 2023, distinct from The Engine nonprofit incubator founded by MIT in 2016. Source [4] is irrelevant (SpaceX news, not Engine Ventures-related). Key partners Katie Rae and Reed Sturtevant cannot be verified from provided sources. AUM and specific fund names cannot be verified from sources provided. Sector focus extracted from explicit list on firm's about page."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Future Ventures",
+      "reason": "Claude extraction failed"
     }
-  ],
-  "unverifiable": []
+  ]
 }
