@@ -3,6 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ─── Open Graph / Twitter / Canonical (auto-managed) ─── -->
+    <link rel="canonical" href="https://innovatorsleague.com/styleguide.html">
+    <meta property="og:title" content="Style Guide · The Innovators League">
+    <meta property="og:description" content="Internal design system reference.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://innovatorsleague.com/styleguide.html">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Style Guide · The Innovators League">
+    <meta name="twitter:description" content="Internal design system reference.">
+    <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
+    <meta name="twitter:site" content="@rationalopt">
+    <meta name="twitter:creator" content="@stephenmcb">
+    <!-- ─── /Open Graph / Twitter / Canonical ─── -->
+
   <title>Component Library · Innovators League</title>
   <meta name="description" content="Internal styleguide — preview of the shared component library used by new features (Catalyst Calendar, Public Baskets, Talent Graph). Not linked from main nav.">
   <meta name="robots" content="noindex">
@@ -81,7 +99,6 @@
       </div>
     </div>
 
-
     <h2>Cards</h2>
     <div class="demo-grid">
       <div class="il-card">
@@ -110,7 +127,6 @@
       </div>
     </div>
 
-
     <h2>Filter Bar</h2>
     <div class="il-filter-bar">
       <span class="il-filter-bar__label">Filter</span>
@@ -128,7 +144,6 @@
       </select>
     </div>
 
-
     <h2>Chips / Pills</h2>
     <div class="il-row il-row--gap-2 il-row--wrap">
       <button class="il-chip" aria-pressed="true">All</button>
@@ -138,7 +153,6 @@
       <button class="il-chip" data-tone="accent" aria-pressed="true">🔥 Hot signal</button>
       <button class="il-chip" data-tone="accent">High importance</button>
     </div>
-
 
     <h2>Timeline Feed</h2>
     <p class="demo-note">Used by the Catalyst Calendar. <code>data-importance</code> changes the dot color.</p>
@@ -184,7 +198,6 @@
       </div>
     </div>
 
-
     <h2>Badges</h2>
     <div class="il-row il-row--gap-2 il-row--wrap">
       <span class="il-badge">Verified</span>
@@ -194,7 +207,6 @@
       <span class="il-badge il-badge--info">Info</span>
       <span class="il-badge il-badge--neutral">Neutral</span>
     </div>
-
 
     <h2>Metric Grid</h2>
     <div class="il-metric-grid">
@@ -216,7 +228,6 @@
       </div>
     </div>
 
-
     <h2>Empty State</h2>
     <div class="il-card">
       <div class="il-empty-state">
@@ -228,7 +239,6 @@
       </div>
     </div>
 
-
     <h2>Loading / Skeleton</h2>
     <div class="il-card">
       <div class="il-skeleton il-skeleton--title"></div>
@@ -236,7 +246,6 @@
       <div class="il-skeleton il-skeleton--text" style="width: 80%"></div>
       <div class="il-skeleton il-skeleton--text" style="width: 60%"></div>
     </div>
-
 
     <h2 style="margin-bottom: 0">Token reference</h2>
     <p class="demo-note">All tokens defined in <code>css/_tokens.css</code>. Use <code>var(--token-name)</code> in any new stylesheet.</p>
@@ -256,5 +265,6 @@
   <footer style="text-align: center; padding: var(--space-12); color: var(--text-muted); font-size: var(--text-xs);">
     Innovators League · component library v1 · 2026-04-30
   </footer>
+    <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>

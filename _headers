@@ -1,0 +1,52 @@
+# Cloudflare Pages cache headers
+# Tuned for the Innovators League — large data.js + many static assets.
+# References:
+# - https://developers.cloudflare.com/pages/configuration/headers/
+
+# Long-cache for content-hashed assets (when chunking introduces hashes,
+# this still matches the fallback). data.js gets a shorter cache because
+# the cron updates it hourly.
+
+/data.js
+  Cache-Control: public, max-age=300, s-maxage=300
+  X-Content-Type-Options: nosniff
+
+/data/*
+  Cache-Control: public, max-age=600, s-maxage=600
+  X-Content-Type-Options: nosniff
+
+/*.css
+  Cache-Control: public, max-age=86400, s-maxage=86400
+  X-Content-Type-Options: nosniff
+
+/*.js
+  Cache-Control: public, max-age=300, s-maxage=300
+  X-Content-Type-Options: nosniff
+
+/css/*
+  Cache-Control: public, max-age=86400, s-maxage=86400
+  X-Content-Type-Options: nosniff
+
+/lib/*
+  Cache-Control: public, max-age=2592000, s-maxage=2592000
+  X-Content-Type-Options: nosniff
+
+/*.svg
+  Cache-Control: public, max-age=86400, s-maxage=86400
+
+/*.png
+  Cache-Control: public, max-age=86400, s-maxage=86400
+
+/*.jpg
+  Cache-Control: public, max-age=86400, s-maxage=86400
+
+/*.webp
+  Cache-Control: public, max-age=86400, s-maxage=86400
+
+# HTML pages — short cache, must-revalidate so updates show immediately
+/*
+  Cache-Control: public, max-age=60, s-maxage=60, must-revalidate
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-XSS-Protection: 1; mode=block
+  Permissions-Policy: geolocation=(), microphone=(), camera=()

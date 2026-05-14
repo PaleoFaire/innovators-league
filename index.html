@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ─── Open Graph / Twitter / Canonical (auto-managed) ─── -->
+    <link rel="canonical" href="https://innovatorsleague.com/">
+    <meta property="og:title" content="Companies Database · The Innovators League">
+    <meta property="og:description" content="The definitive intelligence database of frontier-tech startups — defense, space, nuclear, AI, robotics, biotech, climate.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://innovatorsleague.com/">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Companies Database · The Innovators League">
+    <meta name="twitter:description" content="The definitive intelligence database of frontier-tech startups — defense, space, nuclear, AI, robotics, biotech, climate.">
+    <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
+    <meta name="twitter:site" content="@rationalopt">
+    <meta name="twitter:creator" content="@stephenmcb">
+    <!-- ─── /Open Graph / Twitter / Canonical ─── -->
+
     <title>Companies Database · The Innovators League</title>
     <meta name="description" content="The definitive intelligence database of the world's most ambitious startups — mapped, assessed, and tracked by the founders building the future.">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <meta property="og:title" content="Companies Database · The Innovators League">
-    <meta property="og:description" content="The definitive intelligence database of the world's most ambitious startups.">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="The Innovators League">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="The Innovators League | ROS Startup Database">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -20,6 +32,7 @@
     <script src="lib/d3.v7.min.js"></script>
     <script>if(typeof d3==='undefined'){document.write('<script src="https://d3js.org/d3.v7.min.js"><\/script>');console.warn('D3 loaded from CDN fallback');}</script>
     <link rel="stylesheet" href="styles.css?v=20260501">
+    <script src="config.js?v=20260501"></script>
     <script src="analytics.js?v=20260501"></script>
     <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
     <link rel="stylesheet" href="css/_components.css?v=20260501" />
@@ -490,7 +503,6 @@
         </div>
     </section>
 
-
     <!-- CAPITAL & MARKET ACTIVITY -->
 
     <!-- Capital Intelligence section REMOVED — RSS-parsed funding data was unreliable
@@ -510,7 +522,6 @@
 
     <!-- Intelligence Hub section REMOVED — redundant with Growth Signals + News Ticker
          and Alerts tab pulled from unreliable RSS matching. Gov contracts moved to Gov Radar page. -->
-
 
     <!-- SECTOR & MARKET ANALYSIS -->
 
@@ -551,7 +562,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Predictive Analytics REMOVED — arbitrary heuristic scoring without external validation
          (IPO Readiness, M&A Targets, Failure Risk, Next Round were all speculative) -->
@@ -618,7 +628,6 @@
         </div>
     </section>
 
-
     <!-- COMPETITIVE BATTLEFIELD MAP -->
     <section class="battlefield-section" id="competitive-battlefield">
         <div class="container">
@@ -642,7 +651,6 @@
             <div id="battlefield-detail" style="margin-top:16px;"></div>
         </div>
     </section>
-
 
     <!-- TECHNOLOGY READINESS -->
     <!-- IPO & Exit Pipeline REMOVED — now lives on valuations.html -->
@@ -691,9 +699,7 @@
 
     <!-- [Market Map merged into Company Database as view toggle] -->
 
-
     <!-- PORTFOLIO & TRACKING TOOLS -->
-
 
     <!-- Portfolio Builder & Scenario Simulator -->
     <section class="portfolio-section" id="portfolio-builder">
@@ -847,7 +853,6 @@
         </div>
     </section>
 
-
     <!-- COMMUNITY & OPPORTUNITIES -->
 
     <!-- Request for Startups -->
@@ -978,7 +983,6 @@
             </a>
         </div>
     </section>
-
 
     <div id="map" style="scroll-margin-top: 80px;"></div>
 
@@ -1121,6 +1125,12 @@
         <div class="footer-bottom">
           <p>&copy; 2026 Rational Optimist Society. All rights reserved.</p>
           <div class="footer-data-freshness" id="footer-freshness"></div>
+                  <div class="footer-legal-row" style="display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:#8b949e;margin-top:6px;">
+            <a href="privacy.html" style="color:#8b949e;text-decoration:none;">Privacy</a>
+            <a href="terms.html" style="color:#8b949e;text-decoration:none;">Terms</a>
+            <a href="#" onclick="if(window.TIL_CookieConsent){window.TIL_CookieConsent.show();}return false;" style="color:#8b949e;text-decoration:none;">Manage cookies</a>
+            <a href="mailto:contact@rationaloptimistsociety.com" style="color:#8b949e;text-decoration:none;">Contact</a>
+          </div>
         </div>
       </div>
     </footer>
@@ -1165,5 +1175,6 @@
     <script src="data/gov_demand_summary_auto.js?v=20260501"></script>
     <script src="data/expert_takes_auto.js?v=20260501"></script>
     <script src="app.js?v=20260501"></script>
+    <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>

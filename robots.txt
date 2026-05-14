@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Internal tooling — don't index
+Disallow: /styleguide.html
+Disallow: /admin/
+Disallow: /draft/
+
+# Auto-generated data feeds — too noisy for search engines
+Disallow: /data/
+Disallow: /data.js
+
+Sitemap: https://innovatorsleague.com/sitemap.xml

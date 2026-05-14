@@ -1,0 +1,201 @@
+/* Sector Landing Page Styles
+ * Used by defense.html, space.html, nuclear.html, reindustrialize.html
+ */
+
+.sl-hero {
+  max-width: 1100px;
+  margin: 50px auto 30px;
+  padding: 0 24px;
+  text-align: center;
+}
+.sl-hero-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.sl-hero h1 {
+  font-size: clamp(36px, 6vw, 60px);
+  line-height: 1.1;
+  font-weight: 800;
+  margin: 0 0 16px;
+  color: var(--text-primary, #e6edf3);
+  letter-spacing: -0.02em;
+}
+.sl-hero-lede {
+  font-size: clamp(16px, 1.4vw, 18px);
+  line-height: 1.55;
+  color: var(--text-secondary, #8b949e);
+  max-width: 720px;
+  margin: 0 auto 28px;
+}
+
+.sl-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto 50px;
+  padding: 0 24px;
+}
+.sl-stat {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 18px 22px;
+}
+.sl-stat-n {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-primary-bright, #4ade80);
+  margin-bottom: 4px;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+.sl-stat-l {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary, #8b949e);
+  font-weight: 600;
+}
+
+.sl-section-head {
+  max-width: 1200px;
+  margin: 0 auto 24px;
+  padding: 0 24px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.sl-section-head h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-primary, #e6edf3);
+}
+.sl-section-head .sl-section-count {
+  color: var(--text-secondary, #8b949e);
+  font-size: 13px;
+}
+
+.sl-grid {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+.sl-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 18px;
+  transition: all 160ms ease;
+}
+.sl-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-primary, #22c55e);
+  background: rgba(34,197,94,0.04);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+.sl-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.sl-card-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary, #e6edf3);
+}
+.sl-card-sector {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 3px 7px;
+  border-radius: 4px;
+  border: 1px solid;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.sl-card-desc {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary, #8b949e);
+  margin: 0 0 12px;
+}
+.sl-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 11px;
+  color: var(--text-secondary, #8b949e);
+  font-weight: 500;
+}
+.sl-card-meta > span {
+  display: inline-flex;
+  align-items: center;
+}
+.sl-card-funding {
+  margin-left: auto;
+  color: var(--color-primary-bright, #4ade80);
+  font-weight: 700;
+}
+
+.sl-empty {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--text-secondary, #8b949e);
+  font-size: 14px;
+}
+
+.sl-pillars {
+  max-width: 1100px;
+  margin: 40px auto 60px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+.sl-pillar {
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 22px;
+}
+.sl-pillar-num {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--color-primary-bright, #4ade80);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.sl-pillar h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--text-primary, #e6edf3);
+}
+.sl-pillar p {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-secondary, #8b949e);
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .sl-hero { margin-top: 30px; }
+  .sl-stats { grid-template-columns: repeat(2, 1fr); }
+  .sl-card { padding: 14px; }
+}

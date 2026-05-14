@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ─── Open Graph / Twitter / Canonical (auto-managed) ─── -->
+    <link rel="canonical" href="https://innovatorsleague.com/sectors.html">
+    <meta property="og:title" content="Sector Explorer · The Innovators League">
+    <meta property="og:description" content="Every frontier-tech sector mapped — companies, capital, top players, and where each is heading.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://innovatorsleague.com/sectors.html">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sector Explorer · The Innovators League">
+    <meta name="twitter:description" content="Every frontier-tech sector mapped — companies, capital, top players, and where each is heading.">
+    <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
+    <meta name="twitter:site" content="@rationalopt">
+    <meta name="twitter:creator" content="@stephenmcb">
+    <!-- ─── /Open Graph / Twitter / Canonical ─── -->
+
     <title>Sector Explorer · The Innovators League</title>
     <meta name="description" content="Every frontier tech sector, mapped. Find the companies building what matters — defense, nuclear, space, AI, robotics, biotech, quantum, and more.">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <meta property="og:title" content="Sector Explorer · The Innovators League">
-    <meta property="og:description" content="Every frontier tech sector mapped. Leaders, challengers, emerging players, investors, and government traction per sector.">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="The Innovators League">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Sector Explorer | ROS Startup Database">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=20260501">
     <link rel="stylesheet" href="sectors-page.css?v=20260501">
     <link rel="stylesheet" href="transformation-page.css?v=20260501">
+    <script src="config.js?v=20260501"></script>
     <script src="analytics.js?v=20260501"></script>
     <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
     <link rel="stylesheet" href="css/_components.css?v=20260501" />
@@ -394,6 +407,12 @@
         <div class="footer-bottom">
           <p>&copy; 2026 Rational Optimist Society. All rights reserved.</p>
           <div class="footer-data-freshness" id="footer-freshness"></div>
+                  <div class="footer-legal-row" style="display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:#8b949e;margin-top:6px;">
+            <a href="privacy.html" style="color:#8b949e;text-decoration:none;">Privacy</a>
+            <a href="terms.html" style="color:#8b949e;text-decoration:none;">Terms</a>
+            <a href="#" onclick="if(window.TIL_CookieConsent){window.TIL_CookieConsent.show();}return false;" style="color:#8b949e;text-decoration:none;">Manage cookies</a>
+            <a href="mailto:contact@rationaloptimistsociety.com" style="color:#8b949e;text-decoration:none;">Contact</a>
+          </div>
         </div>
       </div>
     </footer>
@@ -404,5 +423,6 @@
     <script src="votes.js?v=20260501"></script>
     <script src="data.js?v=20260501"></script>
     <script src="sectors.js?v=20260501"></script>
+    <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>

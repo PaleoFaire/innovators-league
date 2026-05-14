@@ -3,12 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ─── Open Graph / Twitter / Canonical (auto-managed) ─── -->
+    <link rel="canonical" href="https://innovatorsleague.com/investor-hub.html">
+    <meta property="og:title" content="Investor Hub · The Innovators League">
+    <meta property="og:description" content="Active Form D filings, raising firms, and live capital-flow tracking.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://innovatorsleague.com/investor-hub.html">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Investor Hub · The Innovators League">
+    <meta name="twitter:description" content="Active Form D filings, raising firms, and live capital-flow tracking.">
+    <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
+    <meta name="twitter:site" content="@rationalopt">
+    <meta name="twitter:creator" content="@stephenmcb">
+    <!-- ─── /Open Graph / Twitter / Canonical ─── -->
+
     <title>Investor Hub · The Innovators League</title>
     <meta name="description" content="The unified investor workspace — active raises, funding pulse, co-investor network, and per-firm portfolio deep pages. Every data point linked to its primary source.">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <meta property="og:title" content="Investor Hub · The Innovators League">
-    <meta property="og:description" content="The Bloomberg Terminal for frontier-tech investors. Active raises + co-investor map + portfolio intelligence.">
-    <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -299,6 +314,7 @@
       .ih-node.dimmed circle { fill: rgba(255,255,255,0.15); stroke: rgba(255,255,255,0.2); }
       .ih-node.dimmed text { opacity: 0.3; }
     </style>
+    <script src="config.js?v=20260501"></script>
     <script src="analytics.js?v=20260501"></script>
     <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
     <link rel="stylesheet" href="css/_components.css?v=20260501" />
@@ -504,7 +520,7 @@
       <p style="font-size:11px; color:rgba(255,255,255,0.4); letter-spacing:0.5px;">
         Investor Hub · Form D from SEC EDGAR (free, public) · News from RSS feeds (cited per item) · VC data curated by ROS ·
         <a href="terms.html" style="color:rgba(255,255,255,0.5);">Terms</a> ·
-        <a href="privacy.html" style="color:rgba(255,255,255,0.5);">Privacy</a>
+        <a href="privacy.html" style="color:rgba(255,255,255,0.5);">Privacy</a> &middot; <a href="#" onclick="if(window.TIL_CookieConsent){window.TIL_CookieConsent.show();}return false;" style="color:rgba(255,255,255,0.5);">Manage cookies</a>
       </p>
     </footer>
 
@@ -515,5 +531,6 @@
     <script src="data/news_signals_auto.js?v=20260501"></script>
     <script src="data/press_releases_auto.js?v=20260501"></script>
     <script src="investor-hub.js?v=20260501"></script>
+    <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>
