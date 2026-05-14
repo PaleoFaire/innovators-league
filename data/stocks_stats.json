@@ -11,19 +11,19 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 18.23,
+      "avg_change": 17.94,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 3.71,
+      "avg_change": 2.96,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.34,
+      "avg_change": -10.33,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.45,
+      "avg_change": -4.42,
       "count": 3
     },
     "biotech": {
@@ -69,14 +69,14 @@
       35.51
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      25.07
-    ],
-    [
       "ASRHF",
       "Astroscale",
       20.64
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      19.8
     ],
     [
       "AUR",
@@ -93,7 +93,12 @@
     [
       "OKLO",
       "Oklo",
-      -12.52
+      -12.51
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -13.63
     ],
     [
       "TEM",
@@ -101,15 +106,10 @@
       -14.21
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -14.29
-    ],
-    [
       "LNZA",
       "LanzaTech",
       -17.76
     ]
   ],
-  "lastUpdated": "2026-05-13 20:01:20"
+  "lastUpdated": "2026-05-14 03:44:16"
 }
