@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.8,
+      "avg_change": -3.91,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 17.71,
+      "avg_change": 26.77,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.98,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 3.05,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.33,
+      "avg_change": -6.09,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -5.78,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -2.59,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.42,
+      "avg_change": 3.67,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.9,
+      "avg_change": -2.11,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 5.11,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 4.54,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.38,
+      "avg_change": 11.15,
       "count": 3
     }
   },
@@ -61,12 +61,17 @@
     [
       "RKLB",
       "Rocket Lab",
-      46.66
+      61.11
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      35.51
+      46.25
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      24.77
     ],
     [
       "277810.KQ",
@@ -77,39 +82,34 @@
       "ASRHF",
       "Astroscale",
       20.64
-    ],
-    [
-      "AUR",
-      "Aurora Innovation",
-      15.54
     ]
   ],
   "topLosers": [
     [
+      "TEM",
+      "Tempus AI",
+      -6.23
+    ],
+    [
       "SMR",
       "NuScale Power",
-      -11.54
+      -7.79
     ],
     [
       "OKLO",
       "Oklo",
-      -12.51
+      -9.22
     ],
     [
       "DRSHF",
       "DroneShield",
-      -13.63
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      -14.21
+      -17.28
     ],
     [
       "LNZA",
       "LanzaTech",
-      -17.76
+      -23.11
     ]
   ],
-  "lastUpdated": "2026-05-14 08:43:22"
+  "lastUpdated": "2026-05-14 14:24:18"
 }
