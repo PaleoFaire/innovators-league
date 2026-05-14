@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T18:03:45.468415+00:00",
+  "generatedAt": "2026-05-14T19:57:29.139037+00:00",
   "date": "2026-05-14",
   "dateDisplay": "Thursday, May 14, 2026",
   "sections": {
@@ -63,30 +63,44 @@
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 126.6,
-        "changePercent": 61.11,
-        "change": 48.02
+        "price": 132.93,
+        "changePercent": 69.17,
+        "change": 54.35
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 35.26,
-        "changePercent": 46.25,
-        "change": 11.15
+        "price": 36.83,
+        "changePercent": 52.76,
+        "change": 12.72
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 8.26,
-        "changePercent": 24.77,
-        "change": 1.64
+        "price": 8.74,
+        "changePercent": 32.1,
+        "change": 2.12
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 83.09,
+        "changePercent": 27.15,
+        "change": 17.74
       },
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 17.41,
-        "changePercent": -23.11,
-        "change": -5.23
+        "price": 17.01,
+        "changePercent": -24.9,
+        "change": -5.64
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 43.37,
+        "changePercent": 23.07,
+        "change": 8.13
       },
       {
         "ticker": "277810.KQ",
@@ -101,20 +115,6 @@
         "price": 11.58,
         "changePercent": 20.64,
         "change": 1.98
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 77.6,
-        "changePercent": 18.75,
-        "change": 12.25
-      },
-      {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 2.25,
-        "changePercent": -17.28,
-        "change": -0.47
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB +61.1%"
+    "topMover": "RKLB +69.2%"
   }
 }

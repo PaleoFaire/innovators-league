@@ -44798,23 +44798,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-14 18:03
+// Last updated: 2026-05-14 19:57
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Rocket Out Of The Gate", source: "Crunchbase News", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Cerebras", headline: "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI says hackers stole some data after latest code security issue", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Scale AI", headline: "Mind Robotics raises $400M to scale AI-powered robots in manufacturing", source: "The Robot Report", time: "4h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile may use ULA's Vulcan", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "OpenAI", headline: "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June", source: "TechNode Global", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Vast", headline: "HelloFresh Meal Kit Review (2026): Vast Options, Good Execution", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Cerebras", headline: "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%", source: "Next Big Future", time: "18h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "xAI", headline: "Musk's xAI is running nearly 50 gas turbines unchecked at its Mississippi data center", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic's Cat Wu says that, in the future, AI will anticipate your needs before you know what they are", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Fervo Energy", headline: "Geothermal startup Fervo Energy pops 33% in IPO debut fueled by AI data center demand", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI Brings Its Ass to Court", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Rivian", headline: "Rivian spinoff Mind Robotics raises another $400M", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "Fervo Energy", headline: "Fervo Energy's IPO is a milestone for next-gen geothermal", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "Waymo expands robotaxi coverage more than 20% ' larger than Rhode Island", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn't be the first partner to feel burned", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Rocket Out Of The Gate", source: "Crunchbase News", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Cerebras", headline: "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI says hackers stole some data after latest code security issue", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "OpenAI", headline: "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June", source: "TechNode Global", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Vast", headline: "HelloFresh Meal Kit Review (2026): Vast Options, Good Execution", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Cerebras", headline: "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%", source: "Next Big Future", time: "20h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "xAI", headline: "Musk's xAI is running nearly 50 gas turbines unchecked at its Mississippi data center", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic's Cat Wu says that, in the future, AI will anticipate your needs before you know what they are", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Fervo Energy", headline: "Geothermal startup Fervo Energy pops 33% in IPO debut fueled by AI data center demand", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Brings Its Ass to Court", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Fervo Energy", headline: "Fervo Energy's IPO is a milestone for next-gen geothermal", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Waymo expands robotaxi coverage more than 20% ' larger than Rhode Island", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Fractile", headline: "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "milestone", company: "Rivian", headline: "Rivian rolls out 'Hey Rivian' AI assistant with full vehicle control", source: "Electrek", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
