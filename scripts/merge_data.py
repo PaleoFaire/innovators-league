@@ -11,6 +11,7 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_JS_PATH = Path(__file__).parent.parent / "data.js"
+PREDICTIVE_SCORES_PATH = Path(__file__).parent.parent / "data" / "predictive_scores.js"
 
 # ─── JS-string sanitization ───
 # JS does NOT allow unescaped line terminators inside string literals. This
@@ -546,16 +547,28 @@ def update_prev_week_scores(data_js_content):
 
 
 def update_predictive_scores(data_js_content):
-    """Update PREDICTIVE_SCORES in data.js with auto-calculated predictions."""
+    """Update PREDICTIVE_SCORES with auto-calculated predictions.
+
+    PREDICTIVE_SCORES was extracted from data.js to data/predictive_scores.js
+    on 2026-05-14 (25MB savings on initial page load). This function now
+    reads/writes that file directly and returns data_js_content unchanged.
+    """
     scores = load_json("predictive_scores_auto.json")
     if not scores:
         print("No predictive scores data found, skipping...")
         return data_js_content
 
+    if not PREDICTIVE_SCORES_PATH.exists():
+        print(f"  predictive_scores.js not found at {PREDICTIVE_SCORES_PATH}, skipping...")
+        return data_js_content
+
+    with open(PREDICTIVE_SCORES_PATH, "r") as f:
+        ps_content = f.read()
+
     # Read existing curated PREDICTIVE_SCORES to preserve methodology and curated entries
-    ps_match = re.search(r'const PREDICTIVE_SCORES = \{([\s\S]*?)\n\};', data_js_content)
+    ps_match = re.search(r'const PREDICTIVE_SCORES = \{([\s\S]*?)\n\};', ps_content)
     if not ps_match:
-        print("  PREDICTIVE_SCORES not found in data.js, skipping...")
+        print("  PREDICTIVE_SCORES not found in data/predictive_scores.js, skipping...")
         return data_js_content
 
     today = datetime.now().strftime("%Y-%m-%d")
@@ -615,13 +628,18 @@ def update_predictive_scores(data_js_content):
 
         # Find the companies: { ... } block for this category and append auto entries
         cat_pattern = rf'({category}:\s*\{{[\s\S]*?companies:\s*\{{)([\s\S]*?)(\n\s*\}}\s*\}})'
-        cat_match = re.search(cat_pattern, data_js_content)
+        cat_match = re.search(cat_pattern, ps_content)
         if cat_match:
             existing = cat_match.group(2).rstrip().rstrip(",")
             combined = existing + ",\n" + auto_js if existing.strip() else auto_js
             replacement = cat_match.group(1) + "\n" + combined + cat_match.group(3)
-            data_js_content = data_js_content[:cat_match.start()] + replacement + data_js_content[cat_match.end():]
+            ps_content = ps_content[:cat_match.start()] + replacement + ps_content[cat_match.end():]
             print(f"  Updated {category}: +{len(auto_companies)} auto entries")
+
+    # Write the updated chunk back
+    with open(PREDICTIVE_SCORES_PATH, "w") as f:
+        f.write(ps_content)
+    print(f"  Wrote data/predictive_scores.js ({len(ps_content):,} bytes)")
 
     return data_js_content
 

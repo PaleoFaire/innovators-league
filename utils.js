@@ -268,6 +268,40 @@ function getAutoGlobal(name) {
   }
 }
 
+// ─── LAZY LOAD: Predictive Scores ───
+// PREDICTIVE_SCORES is ~25MB and only needed on company.html and a few app.js
+// rankings. We extracted it into data/predictive_scores.js so it doesn't block
+// initial page load. Call loadPredictiveScores() and chain .then(fn) before
+// reading window.PREDICTIVE_SCORES.
+
+var _predictiveScoresPromise = null;
+function loadPredictiveScores() {
+  if (typeof window.PREDICTIVE_SCORES !== 'undefined' && window.PREDICTIVE_SCORES) {
+    return Promise.resolve(window.PREDICTIVE_SCORES);
+  }
+  if (_predictiveScoresPromise) return _predictiveScoresPromise;
+
+  _predictiveScoresPromise = new Promise(function (resolve, reject) {
+    var s = document.createElement('script');
+    s.src = 'data/predictive_scores.js?v=20260501';
+    s.async = true;
+    s.onload = function () {
+      if (typeof window.PREDICTIVE_SCORES !== 'undefined') {
+        resolve(window.PREDICTIVE_SCORES);
+      } else {
+        reject(new Error('predictive_scores.js loaded but PREDICTIVE_SCORES is undefined'));
+      }
+    };
+    s.onerror = function () {
+      _predictiveScoresPromise = null; // allow retry
+      reject(new Error('Failed to load data/predictive_scores.js'));
+    };
+    document.head.appendChild(s);
+  });
+  return _predictiveScoresPromise;
+}
+window.loadPredictiveScores = loadPredictiveScores;
+
 // ─── LOCAL STORAGE ───
 
 function safeLocalStorageGet(key, fallback) {

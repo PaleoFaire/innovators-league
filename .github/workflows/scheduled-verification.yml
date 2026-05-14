@@ -270,6 +270,7 @@ jobs:
           # Two outages on 2026-05-11 (embedded \r, embedded \") showed
           # that brace-balance can pass while JS parse still fails.
           node --check data.js 2>&1 | tee /tmp/parse_check.txt | head -20
+          node --check data/predictive_scores.js 2>&1 | tee -a /tmp/parse_check.txt | head -20
           if grep -qE 'SyntaxError|ParseError' /tmp/parse_check.txt; then
             echo "::error::data.js failed JS parse. Refusing to commit."
             exit 1
