@@ -1,28 +1,146 @@
 {
-  "generatedAt": "2026-05-13T08:35:57+00:00",
+  "generatedAt": "2026-05-14T08:29:20+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 3,
-  "newExtractionsThisRun": 0,
+  "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 0,
-    "changesProposed": 0,
-    "unverifiable": 3
+    "cleared": 2,
+    "changesProposed": 1,
+    "unverifiable": 0
   },
-  "cleared": [],
-  "changesProposed": [],
-  "unverifiable": [
+  "cleared": [
+    "Alumni Ventures",
+    "Future Ventures"
+  ],
+  "changesProposed": [
     {
-      "name": "Alumni Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Engine Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Future Ventures",
-      "reason": "Claude extraction failed"
+      "name": "Founders Fund",
+      "current": {
+        "name": "Founders Fund",
+        "shortName": "Founders Fund",
+        "aum": "$17B+",
+        "flagshipFund": "Founders Fund Growth III",
+        "founded": 2005,
+        "hq": "San Francisco, California",
+        "website": "https://foundersfund.com"
+      },
+      "verified": {
+        "name": "Founders Fund",
+        "short_name": "Founders Fund",
+        "aum": "$17B+",
+        "flagship_fund": "Founders Fund Growth III",
+        "founded_year": 2005,
+        "hq": "San Francisco, California",
+        "key_partners": [
+          "Peter Thiel",
+          "Luke Nosek",
+          "Mike Solana",
+          "Trae Stephens",
+          "Lauren Gross",
+          "Scott Nolan",
+          "Napoleon Ta"
+        ],
+        "sector_focus": [
+          "Hard Tech",
+          "Defense Technology",
+          "Space Technology",
+          "Artificial Intelligence",
+          "Biotech"
+        ],
+        "thesis": "Founders Fund invests in ambitious projects that resolve real challenges and create transformative technology. The firm has shifted from early-stage consumer internet toward hard tech, defense technology, space exploration, artificial intelligence, and biotech.",
+        "website": "https://foundersfund.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "short_name": [
+            0,
+            2
+          ],
+          "aum": [
+            2
+          ],
+          "flagship_fund": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "hq": [
+            2
+          ],
+          "key_partners": [
+            2
+          ],
+          "sector_focus": [
+            2
+          ],
+          "thesis": [
+            2
+          ],
+          "website": [
+            0,
+            2
+          ]
+        },
+        "notes": "Founded July 2005. In 2025, raised Founders Fund Growth III at $4.6 billion for late-stage investments. AUM verified as US$17 billion as of 2025 per Wikipedia. Key partners list matches Wikipedia 'Key people' section."
+      },
+      "changes": [
+        {
+          "field": "sectorFocus",
+          "current": [
+            "Defense & Security",
+            "Space & Aerospace",
+            "AI & Software",
+            "Hard Tech",
+            "Biotech"
+          ],
+          "verified": [
+            "Hard Tech",
+            "Defense Technology",
+            "Space Technology",
+            "Artificial Intelligence",
+            "Biotech"
+          ],
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "The firm invests in ambitious projects that resolve real challenges and create transformative technology. It has shifted from early-stage consumer internet toward hard tech, defense technology, space exploration, artificial intelligence, and biotech.",
+          "verified": "Founders Fund invests in ambitious projects that resolve real challenges and create transformative technology. The firm has shifted from early-stage consumer internet toward hard tech, defense technology, space exploration, artificial intelligence, and biotech.",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://foundersfund.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/portfolio",
+          "url": "https://foundersfund.com/portfolio"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Founders_Fund"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/"
+        }
+      ],
+      "notes": "Founded July 2005. In 2025, raised Founders Fund Growth III at $4.6 billion for late-stage investments. AUM verified as US$17 billion as of 2025 per Wikipedia. Key partners list matches Wikipedia 'Key people' section."
     }
-  ]
+  ],
+  "unverifiable": []
 }

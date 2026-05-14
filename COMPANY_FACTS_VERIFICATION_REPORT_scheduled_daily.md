@@ -1,112 +1,106 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-13T08:35:30+00:00  
+**Generated:** 2026-05-14T08:28:56+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 31 companies  
+**Cohort size:** 22 companies  
 
-**New Claude extractions this run:** 27  
+**New Claude extractions this run:** 21  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 22 | 71% |
-| 🔧 Changes proposed | 6 | 19% |
-| ❓ Unverifiable | 3 | 10% |
+| ✅ Cleared (data matches sources) | 15 | 68% |
+| 🔧 Changes proposed | 7 | 32% |
+| ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (7 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
+
+### Cerebras
+
+- **`fundingStage`:** `Pre-IPO` → `Public`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Cerebras)
+
+  **Notes:** Company filed for IPO in September 2024, withdrew registration in October 2025, and filed again in April 2026. In May 2026, company filed amended registration statement for IPO on Nasdaq at $26.6B valuation, listing date May 14, 2026 under symbol CBRS. Wikipedia indicates company shifted to profitability in 2025 with net income of $87.9M on revenue of $510M. Database entry's reference to '$23B valuation' and 'Pre-IPO status' is outdated; current verified valuation is $26.6B and company is now public as of May 2026.
 
 ### Fervo Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
-  Sources: [company_website](https://fervoenergy.com)
+  Sources: [company_website](https://fervoenergy.com) · [news (TechCrunch)](https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/)
 
-  **Notes:** Company completed IPO as of May 2026 based on newsroom announcements dated April 17, May 4, and May 12, 2026. Most recent funding round was $462 million Series E in November 2025 led by B Capital. Wikipedia lists company type as 'Private' but IPO announcements on company website indicate completed public offering.
+  **Notes:** Company completed IPO in May 2026 (announced April 17, 2026; pricing announced May 12, 2026). Wikipedia source indicates company status as 'Private' but website and news sources confirm IPO completion in May 2026. Most recent funding: $462M Series E in November 2025, led by B Capital.
 
-### IonQ
+### Fractile
 
-- **`location`:** `College Park, MD` → `College Park, Maryland, US`  
-  Sources: [company_about](https://ionq.com/company) · [wikipedia](https://en.wikipedia.org/wiki/IonQ)
+- **`fundingStage`:** `Seed` → `Series B`  
+  Sources: [news (Tech.eu)](https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/)
+- **`totalRaised`:** `$15M` → `$220M`  
+  Sources: [news (Tech.eu)](https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/)
+- **`investors`:** `[]` → `['Accel', 'Factorial Funds', 'Founders Fund']`  
+  Sources: [news (Tech.eu)](https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/)
 
-  **Notes:** Company went public via SPAC merger in October 2021. Niccolo de Masi became CEO in February 2025, succeeding Peter Chapman. Multiple acquisitions announced 2024-2026 including Qubitekk, ID Quantique, Oxford Ionics, Lightsynq Technologies, Capella Space, Vector Atomic, and SkyWater Technology.
+  **Notes:** Founded year not explicitly stated in sources. Source [2] (Wikipedia) is about the statistical term 'quantile' and not relevant to the company. May 2026 news date appears to be fictional/test data. Company operates from both Bristol and London locations per source [1].
 
 ### Nuro
 
 - **`fundingStage`:** `Series G` → `Series E`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Nuro)
 
-  **Notes:** Company pivoted from autonomous delivery vehicles to licensing Level 4 autonomy software (Nuro Driver) in September 2024. Partnership with Uber and Lucid Motors announced in July 2025 to deploy 20,000+ robotaxis. Series E funding: $106M (April 2025) + $97M (August 2025). Additional $203M raised in August 2025 at $6B valuation from Uber and Nvidia.
+  **Notes:** Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding round opened in April 2025 ($106M) and closed in August 2025 ($97M additional). $6B valuation confirmed in August 2025 funding round with Uber and Nvidia.
 
 ### OpenAI
 
 - **`founder`:** `Sam Altman, Greg Brockman, Ilya Sutskever` → `Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/OpenAI)
 
-  **Notes:** Founded December 8, 2015 as nonprofit; transitioned to for-profit capped structure in 2019; restructured in 2025 with for-profit subsidiary converted to public benefit corporation. October 2025 share sale valued company at $500 billion. Wikipedia notes Microsoft invested over $13 billion but this is not a total_raised figure for the company. Database entry claims $300B valuation (closed) and $13B+ raised, but sources indicate $500B valuation from October 2025 share sale; total_raised cannot be verified as specific cumulative figure from sources.
+  **Notes:** Founded December 8, 2015 as nonprofit; transitioned to capped for-profit in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) 26% owned by nonprofit foundation. October 2025 $6.6 billion share sale valued company at $500 billion. Microsoft invested over $13 billion and owns 27%.
 
-### Quantinuum
+### Rivian
 
-- **`location`:** `Cambridge, UK / Broomfield, CO` → `Cambridge, UK / Broomfield, Colorado, USA`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Quantinuum)
+- **`location`:** `Irvine, California` → `Irvine, California, U.S.`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rivian)
 
-  **Notes:** Ilyas Khan is listed as 'Head of Special Projects' and 'Vice-Chairman' in current role (source 1), not CEO. Rajeeb Hazra is current CEO as of 2023 (source 2). Wikipedia source [2] states valuation of $5 billion as of January 2024, conflicting with database entry of $10B. Honeywell was exploring IPO in July 2024 per Wikipedia (source 2). Current stage cannot be verified from sources provided.
+  **Notes:** Founded in Rockledge, Florida in June 2009, originally as Mainstream Motors, renamed to Avera Automotive and then Rivian Automotive in 2011. Headquarters now in Irvine, California. IPO on November 10, 2021. Wikipedia lists Ford's ownership at 1.6% as of 2024, down from earlier stakes mentioned in source.
 
-### Terrestrial Energy
+### SpaceX
 
-- **`location`:** `Charlotte, NC` → `Charlotte, North Carolina, United States`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Terrestrial_Energy)
+- **`fundingStage`:** `Series G` → `Private`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source [0] confirms Simon Irish as CEO but does not explicitly name him as founder/co-founder; however, he is listed under 'Key people' as CEO. Company went public via SPAC (HCM II Acquisition Corp.) in March 2025, netting $280M according to TechCrunch reference cited in Wikipedia. Source [1] (SpaceNews/FCC article) is unrelated to Terrestrial Energy and was excluded from analysis.
-
----
-
-## ❓ Unverifiable (3 companies)
-
-Couldn't fetch authoritative sources. Per Stephen's rule, we leave these as-is rather than guess. May want to flag for manual research or removal from DB.
-
-- **Thinking Machines Lab** — *Claude extraction failed*
-- **Waymo** — *Claude extraction failed*
-- **xAI** — *Claude extraction failed*
+  **Notes:** Source [0] is a domain sales page and provides no reliable company information. Source [1] indicates SpaceX is expected to have an IPO in 2026 but does not provide current_stage as Series G or other funding round designation. Database entry claims '$10B+' total_raised and 'Series G' stage, but these cannot be verified from sources provided.
 
 ---
 
-## ✅ Cleared (22 companies)
+## ✅ Cleared (15 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
 - Anthropic
-- Claros
+- Astera Labs
 - Deterrence
 - Dexterity
-- Durin
-- Dust
-- GITAI
 - Galvanick
-- Groq
-- HEO
 - Hidden Level
-- Hugging Face
-- Kyutai
-- Nyobolt
-- Orangewood Labs
-- Ouster
+- ICON
+- IonQ
 - Physical Intelligence
-- Rivian
-- Rocket Lab
-- Safe Superintelligence
+- Quantinuum
+- Rebellions
 - Skild AI
-- SpaceX
+- Terrestrial Energy
+- Waymo
+- xAI
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-13T08:35:31+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-14T08:28:56+00:00*

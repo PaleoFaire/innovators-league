@@ -1,39 +1,155 @@
 {
-  "generatedAt": "2026-05-13T08:35:30+00:00",
+  "generatedAt": "2026-05-14T08:28:56+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 31,
-  "newExtractionsThisRun": 27,
+  "cohortSize": 22,
+  "newExtractionsThisRun": 21,
   "summary": {
-    "cleared": 22,
-    "changesProposed": 6,
-    "unverifiable": 3
+    "cleared": 15,
+    "changesProposed": 7,
+    "unverifiable": 0
   },
   "cleared": [
     "Anthropic",
-    "Claros",
+    "Astera Labs",
     "Deterrence",
     "Dexterity",
-    "Durin",
-    "Dust",
-    "GITAI",
     "Galvanick",
-    "Groq",
-    "HEO",
     "Hidden Level",
-    "Hugging Face",
-    "Kyutai",
-    "Nyobolt",
-    "Orangewood Labs",
-    "Ouster",
+    "ICON",
+    "IonQ",
     "Physical Intelligence",
-    "Rivian",
-    "Rocket Lab",
-    "Safe Superintelligence",
+    "Quantinuum",
+    "Rebellions",
     "Skild AI",
-    "SpaceX"
+    "Terrestrial Energy",
+    "Waymo",
+    "xAI"
   ],
   "changesProposed": [
+    {
+      "name": "Cerebras",
+      "current": {
+        "name": "Cerebras",
+        "founder": "Andrew Feldman, Gary Lauterbach, Michael James, Sean Lie, Jean-Philippe Fricker",
+        "location": "Sunnyvale, California",
+        "founded": 2015,
+        "fundingStage": "Pre-IPO",
+        "totalRaised": "$1.1B+",
+        "website": "https://cerebras.ai"
+      },
+      "verified": {
+        "name": "Cerebras Systems Inc.",
+        "description": "An American semiconductor company that builds wafer-scale AI chips and systems for AI inference and training. The company's Wafer Scale Engine (WSE) is a single, wafer-scale integrated processor used in data centers for AI applications.",
+        "founders": [
+          "Andrew Feldman",
+          "Gary Lauterbach",
+          "Michael James",
+          "Sean Lie",
+          "Jean-Philippe Fricker"
+        ],
+        "location": "Sunnyvale, California",
+        "founded_year": 2015,
+        "current_stage": "Public",
+        "total_raised": "$1.1B",
+        "valuation": "$26.6B",
+        "investors": [
+          "Sam Altman",
+          "Andy Bechtolsheim",
+          "Greg Brockman",
+          "Adam D'Angelo",
+          "Mark Leslie",
+          "Nick McKeown",
+          "David Perlmutter",
+          "Saiyed Atiq Raza",
+          "Jeff Rothschild",
+          "Pradeep Sindhu",
+          "Ilya Sutskever",
+          "Lip-Bu Tan",
+          "Fred Weber"
+        ],
+        "website": "https://cerebras.ai",
+        "sources_per_field": {
+          "name": [
+            1,
+            2
+          ],
+          "description": [
+            0,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            0,
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Company filed for IPO in September 2024, withdrew registration in October 2025, and filed again in April 2026. In May 2026, company filed amended registration statement for IPO on Nasdaq at $26.6B valuation, listing date May 14, 2026 under symbol CBRS. Wikipedia indicates company shifted to profitability in 2025 with net income of $87.9M on revenue of $510M. Database entry's reference to '$23B valuation' and 'Pre-IPO status' is outdated; current verified valuation is $26.6B and company is now public as of May 2026."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Pre-IPO",
+          "verified": "Public",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://cerebras.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://cerebras.ai/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cerebras"
+        },
+        {
+          "idx": 3,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/cerebras-ai-wafer-sized-compute-raises-ipo-price-nearly-20.html"
+        },
+        {
+          "idx": 4,
+          "src": "news (Crunchbase News)",
+          "url": "https://news.crunchbase.com/ai/cerebras-ipo-cbrs/"
+        }
+      ],
+      "notes": "Company filed for IPO in September 2024, withdrew registration in October 2025, and filed again in April 2026. In May 2026, company filed amended registration statement for IPO on Nasdaq at $26.6B valuation, listing date May 14, 2026 under symbol CBRS. Wikipedia indicates company shifted to profitability in 2025 with net income of $87.9M on revenue of $510M. Database entry's reference to '$23B valuation' and 'Pre-IPO status' is outdated; current verified valuation is $26.6B and company is now public as of May 2026."
+    },
     {
       "name": "Fervo Energy",
       "current": {
@@ -47,7 +163,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems using horizontal drilling techniques. The company develops next-generation geothermal projects including Project Red and Cape Station.",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas. Operates projects including Project Red in Nevada and Cape Station in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -70,7 +186,6 @@
             2
           ],
           "description": [
-            1,
             2
           ],
           "founders": [
@@ -83,16 +198,21 @@
             2
           ],
           "current_stage": [
-            0
+            0,
+            3
           ],
           "total_raised": [
             2
           ],
           "investors": [
             2
+          ],
+          "website": [
+            0,
+            2
           ]
         },
-        "notes": "Company completed IPO as of May 2026 based on newsroom announcements dated April 17, May 4, and May 12, 2026. Most recent funding round was $462 million Series E in November 2025 led by B Capital. Wikipedia lists company type as 'Private' but IPO announcements on company website indicate completed public offering."
+        "notes": "Company completed IPO in May 2026 (announced April 17, 2026; pricing announced May 12, 2026). Wikipedia source indicates company status as 'Private' but website and news sources confirm IPO completion in May 2026. Most recent funding: $462M Series E in November 2025, led by B Capital."
       },
       "changes": [
         {
@@ -100,7 +220,8 @@
           "current": "IPO",
           "verified": "Public",
           "sources": [
-            0
+            0,
+            3
           ]
         }
       ],
@@ -122,92 +243,105 @@
         },
         {
           "idx": 3,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/"
         },
         {
           "idx": 4,
           "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
+        },
+        {
+          "idx": 5,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
         }
       ],
-      "notes": "Company completed IPO as of May 2026 based on newsroom announcements dated April 17, May 4, and May 12, 2026. Most recent funding round was $462 million Series E in November 2025 led by B Capital. Wikipedia lists company type as 'Private' but IPO announcements on company website indicate completed public offering."
+      "notes": "Company completed IPO in May 2026 (announced April 17, 2026; pricing announced May 12, 2026). Wikipedia source indicates company status as 'Private' but website and news sources confirm IPO completion in May 2026. Most recent funding: $462M Series E in November 2025, led by B Capital."
     },
     {
-      "name": "IonQ",
+      "name": "Fractile",
       "current": {
-        "name": "IonQ",
-        "founder": "Christopher Monroe, Jungsang Kim",
-        "location": "College Park, MD",
-        "founded": 2015,
-        "fundingStage": "Public",
-        "totalRaised": "$636M",
-        "website": "https://ionq.com"
+        "name": "Fractile",
+        "founder": "Walter Goodwin",
+        "location": "London, UK",
+        "founded": 2022,
+        "fundingStage": "Seed",
+        "totalRaised": "$15M",
+        "website": "https://fractile.com"
       },
       "verified": {
-        "name": "IonQ",
-        "description": "IonQ is an American quantum computing hardware and software company that develops general-purpose trapped ion quantum computers and accompanying software. The company operates across quantum computing, networking, sensing, and security applications.",
+        "name": "Fractile",
+        "description": "Hardware startup building processors for AI model inference that aims to deliver faster token processing at lower cost than existing systems.",
         "founders": [
-          "Christopher Monroe",
-          "Jungsang Kim"
+          "Walter Goodwin"
         ],
-        "location": "College Park, Maryland, US",
-        "founded_year": 2015,
-        "current_stage": "Public",
-        "total_raised": "$636M",
+        "location": "London, UK",
+        "founded_year": null,
+        "current_stage": "Series B",
+        "total_raised": "$220M",
         "valuation": null,
         "investors": [
-          "New Enterprise Associates",
-          "GV"
+          "Accel",
+          "Factorial Funds",
+          "Founders Fund"
         ],
-        "website": "https://ionq.com",
+        "website": "https://fractile.com",
         "sources_per_field": {
           "name": [
-            0,
-            1,
-            2
+            0
           ],
           "description": [
-            2
+            0
           ],
           "founders": [
-            1,
-            2
+            1
           ],
           "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
+            1
           ],
           "current_stage": [
-            2
+            3
           ],
           "total_raised": [
-            2
+            3
           ],
           "investors": [
-            1,
-            2
+            3
           ],
           "website": [
-            0,
-            1,
-            2
+            0
           ]
         },
-        "notes": "Company went public via SPAC merger in October 2021. Niccolo de Masi became CEO in February 2025, succeeding Peter Chapman. Multiple acquisitions announced 2024-2026 including Qubitekk, ID Quantique, Oxford Ionics, Lightsynq Technologies, Capella Space, Vector Atomic, and SkyWater Technology."
+        "notes": "Founded year not explicitly stated in sources. Source [2] (Wikipedia) is about the statistical term 'quantile' and not relevant to the company. May 2026 news date appears to be fictional/test data. Company operates from both Bristol and London locations per source [1]."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "College Park, MD",
-          "verified": "College Park, Maryland, US",
+          "field": "fundingStage",
+          "current": "Seed",
+          "verified": "Series B",
           "sources": [
-            1,
-            2
+            3
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$15M",
+          "verified": "$220M",
+          "sources": [
+            3
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Accel",
+            "Factorial Funds",
+            "Founders Fund"
+          ],
+          "sources": [
+            3
           ]
         }
       ],
@@ -215,30 +349,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://ionq.com"
+          "url": "https://fractile.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://ionq.com/company"
+          "url": "https://fractile.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/IonQ"
+          "url": "https://en.wikipedia.org/wiki/Fractile"
         },
         {
           "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/quantinuum-helios-with-98-physical-qubits-and-50-logical-qubits.html"
-        },
-        {
-          "idx": 4,
-          "src": "earnings (IonQ 2025-Q4)",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/ionq-ionq-q4-2025-earnings-call-transcript/"
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/"
         }
       ],
-      "notes": "Company went public via SPAC merger in October 2021. Niccolo de Masi became CEO in February 2025, succeeding Peter Chapman. Multiple acquisitions announced 2024-2026 including Qubitekk, ID Quantique, Oxford Ionics, Lightsynq Technologies, Capella Space, Vector Atomic, and SkyWater Technology."
+      "notes": "Founded year not explicitly stated in sources. Source [2] (Wikipedia) is about the statistical term 'quantile' and not relevant to the company. May 2026 news date appears to be fictional/test data. Company operates from both Bristol and London locations per source [1]."
     },
     {
       "name": "Nuro",
@@ -253,10 +382,10 @@
       },
       "verified": {
         "name": "Nuro",
-        "description": "Autonomous vehicle technology company that develops Level 4 driving systems. Founded in 2016, it initially built custom autonomous delivery vehicles and pivoted in September 2024 to licensing its Nuro Driver autonomy platform to automakers and mobility providers.",
+        "description": "Autonomous vehicle technology company that develops Level 4 self-driving systems. Founded in 2016, initially focused on autonomous delivery vehicles before pivoting in September 2024 to licensing its proprietary Nuro Driver autonomy platform to automakers and mobility providers.",
         "founders": [
-          "Dave Ferguson",
-          "Jiajun Zhu"
+          "Jiajun Zhu",
+          "Dave Ferguson"
         ],
         "location": "Mountain View, California",
         "founded_year": 2016,
@@ -288,6 +417,7 @@
             2
           ],
           "location": [
+            0,
             1,
             2
           ],
@@ -312,7 +442,7 @@
             2
           ]
         },
-        "notes": "Company pivoted from autonomous delivery vehicles to licensing Level 4 autonomy software (Nuro Driver) in September 2024. Partnership with Uber and Lucid Motors announced in July 2025 to deploy 20,000+ robotaxis. Series E funding: $106M (April 2025) + $97M (August 2025). Additional $203M raised in August 2025 at $6B valuation from Uber and Nvidia."
+        "notes": "Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding round opened in April 2025 ($106M) and closed in August 2025 ($97M additional). $6B valuation confirmed in August 2025 funding round with Uber and Nvidia."
       },
       "changes": [
         {
@@ -346,7 +476,7 @@
           "url": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
         }
       ],
-      "notes": "Company pivoted from autonomous delivery vehicles to licensing Level 4 autonomy software (Nuro Driver) in September 2024. Partnership with Uber and Lucid Motors announced in July 2025 to deploy 20,000+ robotaxis. Series E funding: $106M (April 2025) + $97M (August 2025). Additional $203M raised in August 2025 at $6B valuation from Uber and Nvidia."
+      "notes": "Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding round opened in April 2025 ($106M) and closed in August 2025 ($97M additional). $6B valuation confirmed in August 2025 funding round with Uber and Nvidia."
     },
     {
       "name": "OpenAI",
@@ -361,7 +491,7 @@
       },
       "verified": {
         "name": "OpenAI",
-        "description": "An artificial intelligence research and deployment company that developed the GPT family of large language models and ChatGPT. OpenAI operates as a for-profit public benefit corporation partially controlled by a nonprofit foundation.",
+        "description": "American artificial intelligence research organization that developed the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models. Released ChatGPT in November 2022.",
         "founders": [
           "Elon Musk",
           "Sam Altman",
@@ -391,35 +521,35 @@
         "website": "https://openai.com",
         "sources_per_field": {
           "name": [
-            2
+            1
           ],
           "description": [
-            1,
-            2
+            1
           ],
           "founders": [
-            2
+            1
           ],
           "location": [
-            2
+            1
           ],
           "founded_year": [
-            2
+            1
           ],
           "current_stage": [
-            2
+            1
           ],
           "valuation": [
-            2
+            1
           ],
           "investors": [
-            2
+            1
           ],
           "website": [
-            0
+            0,
+            1
           ]
         },
-        "notes": "Founded December 8, 2015 as nonprofit; transitioned to for-profit capped structure in 2019; restructured in 2025 with for-profit subsidiary converted to public benefit corporation. October 2025 share sale valued company at $500 billion. Wikipedia notes Microsoft invested over $13 billion but this is not a total_raised figure for the company. Database entry claims $300B valuation (closed) and $13B+ raised, but sources indicate $500B valuation from October 2025 share sale; total_raised cannot be verified as specific cumulative figure from sources."
+        "notes": "Founded December 8, 2015 as nonprofit; transitioned to capped for-profit in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) 26% owned by nonprofit foundation. October 2025 $6.6 billion share sale valued company at $500 billion. Microsoft invested over $13 billion and owns 27%."
       },
       "changes": [
         {
@@ -427,7 +557,7 @@
           "current": "Sam Altman, Greg Brockman, Ilya Sutskever",
           "verified": "Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, Wojciech Zaremba",
           "sources": [
-            2
+            1
           ]
         }
       ],
@@ -439,71 +569,64 @@
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://openai.com/about"
-        },
-        {
-          "idx": 2,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/OpenAI"
         },
         {
-          "idx": 3,
+          "idx": 2,
           "src": "news (Wired)",
-          "url": "https://www.wired.com/story/sam-altman-testifies-musk-v-altman-trial/"
+          "url": "https://www.wired.com/story/musk-altman-trial-ass-statue-evidence/"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/"
         },
         {
           "idx": 4,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/"
-        },
-        {
-          "idx": 5,
           "src": "news (Wired)",
-          "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/"
+          "url": "https://www.wired.com/story/sam-altman-testifies-musk-v-altman-trial/"
         }
       ],
-      "notes": "Founded December 8, 2015 as nonprofit; transitioned to for-profit capped structure in 2019; restructured in 2025 with for-profit subsidiary converted to public benefit corporation. October 2025 share sale valued company at $500 billion. Wikipedia notes Microsoft invested over $13 billion but this is not a total_raised figure for the company. Database entry claims $300B valuation (closed) and $13B+ raised, but sources indicate $500B valuation from October 2025 share sale; total_raised cannot be verified as specific cumulative figure from sources."
+      "notes": "Founded December 8, 2015 as nonprofit; transitioned to capped for-profit in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) 26% owned by nonprofit foundation. October 2025 $6.6 billion share sale valued company at $500 billion. Microsoft invested over $13 billion and owns 27%."
     },
     {
-      "name": "Quantinuum",
+      "name": "Rivian",
       "current": {
-        "name": "Quantinuum",
-        "founder": "Ilyas Khan",
-        "location": "Cambridge, UK / Broomfield, CO",
-        "founded": 2021,
-        "fundingStage": "Series E",
-        "totalRaised": "$625M",
-        "website": "https://www.quantinuum.com"
+        "name": "Rivian",
+        "founder": "R. J. Scaringe",
+        "location": "Irvine, California",
+        "founded": 2009,
+        "fundingStage": "Public",
+        "totalRaised": "$13.5B",
+        "website": "https://rivian.com"
       },
       "verified": {
-        "name": "Quantinuum",
-        "description": "Quantum computing company formed in 2021 from the merger of Cambridge Quantum and Honeywell Quantum Solutions. Develops trapped-ion quantum computers and quantum software for applications in cybersecurity, chemistry, and machine learning.",
+        "name": "Rivian Automotive, Inc.",
+        "description": "American electric vehicle manufacturer founded in 2009 that produces electric SUVs (R1S), pickup trucks (R1T), and delivery vans on a skateboard platform. The company became public in November 2021.",
         "founders": [
-          "Ilyas Khan"
+          "R. J. Scaringe"
         ],
-        "location": "Cambridge, UK / Broomfield, Colorado, USA",
-        "founded_year": 2021,
-        "current_stage": null,
-        "total_raised": "$625M",
-        "valuation": "$5B",
+        "location": "Irvine, California, U.S.",
+        "founded_year": 2009,
+        "current_stage": "Public",
+        "total_raised": "$13.5B",
+        "valuation": null,
         "investors": [
-          "JPMorgan Chase",
-          "Honeywell",
-          "Mitsui"
+          "Amazon",
+          "Abdul Latif Jameel",
+          "Volkswagen Group",
+          "Ford Motor Company"
         ],
-        "website": "https://www.quantinuum.com",
+        "website": "https://rivian.com",
         "sources_per_field": {
           "name": [
-            0,
-            1,
             2
           ],
           "description": [
             2
           ],
           "founders": [
-            1,
             2
           ],
           "location": [
@@ -512,28 +635,26 @@
           "founded_year": [
             2
           ],
-          "total_raised": [
+          "current_stage": [
             2
           ],
-          "valuation": [
+          "total_raised": [
             2
           ],
           "investors": [
             2
           ],
           "website": [
-            0,
-            1,
             2
           ]
         },
-        "notes": "Ilyas Khan is listed as 'Head of Special Projects' and 'Vice-Chairman' in current role (source 1), not CEO. Rajeeb Hazra is current CEO as of 2023 (source 2). Wikipedia source [2] states valuation of $5 billion as of January 2024, conflicting with database entry of $10B. Honeywell was exploring IPO in July 2024 per Wikipedia (source 2). Current stage cannot be verified from sources provided."
+        "notes": "Founded in Rockledge, Florida in June 2009, originally as Mainstream Motors, renamed to Avera Automotive and then Rivian Automotive in 2011. Headquarters now in Irvine, California. IPO on November 10, 2021. Wikipedia lists Ford's ownership at 1.6% as of 2024, down from earlier stakes mentioned in source."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Cambridge, UK / Broomfield, CO",
-          "verified": "Cambridge, UK / Broomfield, Colorado, USA",
+          "current": "Irvine, California",
+          "verified": "Irvine, California, U.S.",
           "sources": [
             2
           ]
@@ -543,115 +664,122 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.quantinuum.com"
+          "url": "https://rivian.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.quantinuum.com/about"
+          "url": "https://rivian.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Quantinuum"
+          "url": "https://en.wikipedia.org/wiki/Rivian"
         },
         {
           "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/quantinuum-helios-with-98-physical-qubits-and-50-logical-qubits.html"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/"
+        },
+        {
+          "idx": 4,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/05/12/rivian-hey-rivian-ai-assistant-vehicle-control/"
         }
       ],
-      "notes": "Ilyas Khan is listed as 'Head of Special Projects' and 'Vice-Chairman' in current role (source 1), not CEO. Rajeeb Hazra is current CEO as of 2023 (source 2). Wikipedia source [2] states valuation of $5 billion as of January 2024, conflicting with database entry of $10B. Honeywell was exploring IPO in July 2024 per Wikipedia (source 2). Current stage cannot be verified from sources provided."
+      "notes": "Founded in Rockledge, Florida in June 2009, originally as Mainstream Motors, renamed to Avera Automotive and then Rivian Automotive in 2011. Headquarters now in Irvine, California. IPO on November 10, 2021. Wikipedia lists Ford's ownership at 1.6% as of 2024, down from earlier stakes mentioned in source."
     },
     {
-      "name": "Terrestrial Energy",
+      "name": "SpaceX",
       "current": {
-        "name": "Terrestrial Energy",
-        "founder": "Simon Irish",
-        "location": "Charlotte, NC",
-        "founded": 2012,
-        "fundingStage": "Public",
-        "totalRaised": "$280M",
-        "website": "https://www.terrestrialenergy.com/"
+        "name": "SpaceX",
+        "founder": "Elon Musk",
+        "location": "Starbase, Texas, U.S.",
+        "founded": 2002,
+        "fundingStage": "Series G",
+        "totalRaised": "$10B+",
+        "website": "https://spacex.com"
       },
       "verified": {
-        "name": "Terrestrial Energy",
-        "description": "U.S. nuclear technology company developing the Integral Molten Salt Reactor (IMSR), a small modular reactor design for cost-competitive, high-temperature thermal energy production with zero emissions.",
+        "name": "SpaceX",
+        "description": "American aerospace and artificial intelligence company that designs and manufactures launch vehicles, Dragon capsules, and operates the Starlink satellite constellation. Founded in 2002 with a mission to decrease space launch costs and enable human settlement on Mars.",
         "founders": [
-          "Simon Irish"
+          "Elon Musk"
         ],
-        "location": "Charlotte, North Carolina, United States",
-        "founded_year": 2012,
-        "current_stage": "Public",
-        "total_raised": "$280M",
-        "valuation": null,
+        "location": "Starbase, Texas, U.S.",
+        "founded_year": 2002,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": "$800B",
         "investors": null,
-        "website": "https://www.terrestrialenergy.com/",
+        "website": "https://spacex.com",
         "sources_per_field": {
           "name": [
-            0
+            1
           ],
           "description": [
-            0
+            1
           ],
           "founders": [
-            0
+            1
           ],
           "location": [
-            0
+            1
           ],
           "founded_year": [
-            0
+            1
           ],
           "current_stage": [
-            0
+            1
           ],
-          "total_raised": [
-            0
+          "valuation": [
+            1
           ],
           "website": [
-            0
+            1
           ]
         },
-        "notes": "Wikipedia source [0] confirms Simon Irish as CEO but does not explicitly name him as founder/co-founder; however, he is listed under 'Key people' as CEO. Company went public via SPAC (HCM II Acquisition Corp.) in March 2025, netting $280M according to TechCrunch reference cited in Wikipedia. Source [1] (SpaceNews/FCC article) is unrelated to Terrestrial Energy and was excluded from analysis."
+        "notes": "Source [0] is a domain sales page and provides no reliable company information. Source [1] indicates SpaceX is expected to have an IPO in 2026 but does not provide current_stage as Series G or other funding round designation. Database entry claims '$10B+' total_raised and 'Series G' stage, but these cannot be verified from sources provided."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Charlotte, NC",
-          "verified": "Charlotte, North Carolina, United States",
+          "field": "fundingStage",
+          "current": "Series G",
+          "verified": "Private",
           "sources": [
-            0
+            1
           ]
         }
       ],
       "sources": [
         {
           "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Terrestrial_Energy"
+          "src": "company_website",
+          "url": "https://spacex.ai"
         },
         {
           "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SpaceX"
+        },
+        {
+          "idx": 2,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/"
+        },
+        {
+          "idx": 3,
           "src": "news (SpaceNews)",
           "url": "https://spacenews.com/fcc-approves-spacex-spectrum-deal-with-2-4-billion-escrow-condition/"
+        },
+        {
+          "idx": 4,
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/space/2026/05/spacex-completes-fueling-test-setting-stage-for-first-launch-of-starship-v3/"
         }
       ],
-      "notes": "Wikipedia source [0] confirms Simon Irish as CEO but does not explicitly name him as founder/co-founder; however, he is listed under 'Key people' as CEO. Company went public via SPAC (HCM II Acquisition Corp.) in March 2025, netting $280M according to TechCrunch reference cited in Wikipedia. Source [1] (SpaceNews/FCC article) is unrelated to Terrestrial Energy and was excluded from analysis."
+      "notes": "Source [0] is a domain sales page and provides no reliable company information. Source [1] indicates SpaceX is expected to have an IPO in 2026 but does not provide current_stage as Series G or other funding round designation. Database entry claims '$10B+' total_raised and 'Series G' stage, but these cannot be verified from sources provided."
     }
   ],
-  "unverifiable": [
-    {
-      "name": "Thinking Machines Lab",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Waymo",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "xAI",
-      "reason": "Claude extraction failed"
-    }
-  ]
+  "unverifiable": []
 }
