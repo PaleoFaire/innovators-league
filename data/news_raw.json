@@ -16,7 +16,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "Cerebras Sees Sizzling Demand For IPO Shares",
@@ -35,7 +35,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
@@ -57,7 +57,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "Anthropic&#8217;s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
@@ -76,7 +76,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "12h ago"
   },
   {
     "title": "Geothermal startup Fervo Energy pops 33% in IPO debut fueled by AI data center demand",
@@ -98,7 +98,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "11h ago"
+    "time": "14h ago"
   },
   {
     "title": "OpenAI Brings Its Ass to Court",
@@ -117,7 +117,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "14h ago"
   },
   {
     "title": "Rivian spinoff Mind Robotics raises another $400M",
@@ -136,7 +136,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "12h ago"
+    "time": "15h ago"
   },
   {
     "title": "Anthropic courts a new kind of customer: small business owners",
@@ -155,7 +155,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "12h ago"
+    "time": "15h ago"
   },
   {
     "title": "Fervo Energy’s IPO is a milestone for next-gen geothermal",
@@ -174,7 +174,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "13h ago"
+    "time": "16h ago"
   },
   {
     "title": "Waymo expands robotaxi coverage more than 20% — larger than Rhode Island",
@@ -195,7 +195,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "16h ago"
   },
   {
     "title": "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck",
@@ -214,7 +214,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "14h ago"
+    "time": "17h ago"
   },
   {
     "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
@@ -234,7 +234,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "17h ago"
+  },
+  {
+    "title": "SpaceX sets date for first Starship version 3 launch",
+    "link": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/",
+    "description": "SpaceX has set a date for the long-delayed first launch of its next-generation Starship vehicle, which is critical to the company’s ambitions as well as NASA’s lunar plans.",
+    "pubDate": "Wed, 13 May 2026 11:24:22 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "20h ago"
   },
   {
     "title": "Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says",
@@ -272,6 +291,27 @@
     ],
     "type": "news",
     "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
+    "link": "https://spacenews.com/fcc-approves-spacex-spectrum-deal-with-2-4-billion-escrow-condition/",
+    "description": "SpaceX has the FCC’s blessing to buy EchoStar spectrum to improve direct-to-device services in the United States, subject to a $2.4 billion escrow tied to disputes over the seller’s abandoned terrestrial 5G network buildout.",
+    "pubDate": "Tue, 12 May 2026 22:03:05 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Terrestrial Energy"
+    ],
+    "sectors": [
+      "space",
+      "nuclear"
+    ],
+    "type": "ipo",
+    "impact": "high",
     "time": "1d ago"
   },
   {
@@ -368,7 +408,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands",
