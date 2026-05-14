@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-05-14T07:50:51+00:00",
+  "generatedAt": "2026-05-14T10:29:36+00:00",
   "matrix": {
+    "ai-chips-inference": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 233885560,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Positron AI",
+            "amount": 233885560,
+            "date": "2026-05-12",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Positron AI",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -10,7 +42,7 @@
           {
             "name": "Anduril Industries",
             "amount": null,
-            "date": "2026-04",
+            "date": "2026-05",
             "source": "recentEvent",
             "investors": [
               "Founders Fund",
@@ -668,7 +700,7 @@
       }
     },
     "ai-hardware-inference": {
-      "2026-Q1": {
+      "2026-Q2": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
@@ -676,7 +708,7 @@
           {
             "name": "Cerebras",
             "amount": null,
-            "date": "2026-01",
+            "date": "2026-05",
             "source": "recentEvent",
             "investors": [
               "Sam Altman",
@@ -1231,23 +1263,6 @@
         ]
       }
     },
-    "ai-chips-inference": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Positron AI",
-            "amount": null,
-            "date": "2026-02",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "industrial-decarb": {
       "2025-Q2": {
         "deals": 1,
@@ -1272,7 +1287,7 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-04",
+          "date": "2026-05",
           "source": "recentEvent"
         },
         {
@@ -1302,7 +1317,7 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-04",
+          "date": "2026-05",
           "source": "recentEvent"
         },
         {
@@ -1332,7 +1347,7 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-04",
+          "date": "2026-05",
           "source": "recentEvent"
         },
         {
@@ -1362,7 +1377,7 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-04",
+          "date": "2026-05",
           "source": "recentEvent"
         },
         {
@@ -1386,7 +1401,7 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-04",
+          "date": "2026-05",
           "source": "recentEvent"
         }
       ],
@@ -1412,7 +1427,7 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-04",
+          "date": "2026-05",
           "source": "recentEvent"
         },
         {
@@ -1647,8 +1662,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 61,
-    "totalUSDSold": 0,
+    "totalDealsTracked": 62,
+    "totalUSDSold": 233885560,
     "uniqueClusters": 36,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,

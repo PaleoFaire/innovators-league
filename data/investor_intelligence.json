@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-14T07:50:50+00:00",
+  "generatedAt": "2026-05-14T10:29:36+00:00",
   "stats": {
     "companies": 873,
     "vcFirms": 31,
-    "uniqueClusters": 94,
-    "totalInvestments": 242
+    "uniqueClusters": 95,
+    "totalInvestments": 243
   },
   "concentration": {
     "Founders Fund": {
@@ -135,6 +135,12 @@
         "count": 1,
         "companies": [
           "Ultima Genomics"
+        ]
+      },
+      "ai-silicon-inference": {
+        "count": 1,
+        "companies": [
+          "Fractile"
         ]
       },
       "electric-propulsion": {
@@ -1810,6 +1816,13 @@
         "share": 0.3333
       }
     ],
+    "ai-silicon-inference": [
+      {
+        "vc": "Founders Fund",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
     "electric-propulsion": [
       {
         "vc": "Founders Fund",
@@ -2690,14 +2703,19 @@
   "momentum": [
     {
       "vc": "Founders Fund",
-      "recentCount": 12,
-      "totalCount": 27,
-      "score": 14.799,
+      "recentCount": 13,
+      "totalCount": 28,
+      "score": 15.691,
       "topCluster": "manufacturing-reshoring",
       "recentExamples": [
         {
           "company": "Ultima Genomics",
           "cluster": "genomics",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Fractile",
+          "cluster": "ai-silicon-inference",
           "addedDate": "2026-04"
         },
         {
@@ -2714,11 +2732,6 @@
           "company": "ICON",
           "cluster": "construction-3d-printing",
           "addedDate": "2026-04"
-        },
-        {
-          "company": "Akash Systems",
-          "cluster": "space-communications",
-          "addedDate": "2026-03"
         }
       ]
     },
