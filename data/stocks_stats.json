@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 17.94,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 17.71,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.96,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 3.98,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.41,
+      "avg_change": -6.9,
       "count": 3
     },
     "transportation": {
@@ -69,14 +69,14 @@
       35.51
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      20.66
+    ],
+    [
       "ASRHF",
       "Astroscale",
       20.64
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      19.8
     ],
     [
       "AUR",
@@ -111,5 +111,5 @@
       -17.76
     ]
   ],
-  "lastUpdated": "2026-05-14 03:44:16"
+  "lastUpdated": "2026-05-14 08:43:22"
 }
