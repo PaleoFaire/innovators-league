@@ -167,6 +167,30 @@
     container.innerHTML = companies.map(renderCard).join('');
   }
 
+  function injectItemListJsonLd(companies, name) {
+    if (!companies.length) return;
+    var top = companies.slice(0, 50);
+    var data = {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      'name': name || document.title,
+      'numberOfItems': companies.length,
+      'itemListElement': top.map(function (c, i) {
+        return {
+          '@type': 'ListItem',
+          'position': i + 1,
+          'name': c.name,
+          'url': 'https://innovatorsleague.com/company.html?c=' + encodeURIComponent(c.name)
+        };
+      })
+    };
+    var s = document.createElement('script');
+    s.type = 'application/ld+json';
+    s.setAttribute('data-il-itemlist', '1');
+    s.textContent = JSON.stringify(data);
+    document.head.appendChild(s);
+  }
+
   function init() {
     var config = window.IL_SECTOR_CONFIG || {};
     var companies = filterCompanies(config);
@@ -176,6 +200,8 @@
 
     var countEl = document.getElementById('sl-count');
     if (countEl) countEl.textContent = String(companies.length);
+
+    injectItemListJsonLd(companies, config.title);
   }
 
   if (document.readyState === 'loading') {

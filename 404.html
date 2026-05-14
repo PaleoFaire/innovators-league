@@ -3,37 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ─── Open Graph / Twitter / Canonical (auto-managed) ─── -->
-    <link rel="canonical" href="https://innovatorsleague.com/space.html">
-    <meta property="og:title" content="Space Tech Companies · The Innovators League">
-    <meta property="og:description" content="The frontier space economy — launch, satellites, in-space manufacturing, propulsion, and the new commercial space industrial base. Funding and team data on every company.">
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="https://innovatorsleague.com/404.html">
+    <meta property="og:title" content="Page Not Found · The Innovators League">
+    <meta property="og:description" content="The page you’re looking for has moved or doesn’t exist.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://innovatorsleague.com/space.html">
+    <meta property="og:url" content="https://innovatorsleague.com/404.html">
     <meta property="og:site_name" content="The Innovators League">
-    <meta property="og:image" content="https://innovatorsleague.com/og-space.png">
+    <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Space Tech Companies · The Innovators League">
-    <meta name="twitter:description" content="The frontier space economy — launch, satellites, in-space manufacturing, propulsion, and the new commercial space industrial base. Funding and team data on every company.">
-    <meta name="twitter:image" content="https://innovatorsleague.com/og-space.png">
-    <meta name="twitter:site" content="@rationalopt">
-    <meta name="twitter:creator" content="@stephenmcb">
-    <!-- ─── /Open Graph / Twitter / Canonical ─── -->
+    <meta name="twitter:title" content="Page Not Found · The Innovators League">
+    <meta name="twitter:description" content="The page you’re looking for has moved or doesn’t exist.">
+    <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
 
-    <title>Space Tech Companies · The Innovators League</title>
-    <meta name="description" content="The frontier space economy — launch, satellites, in-space manufacturing, propulsion, and the new commercial space industrial base. Funding and team data on every company.">
+    <title>Page Not Found · The Innovators League</title>
+    <meta name="description" content="The page you’re looking for has moved or doesn’t exist. Try the company database, terminal, or daily brief.">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=20260501">
-    <link rel="stylesheet" href="sector-landing.css?v=20260501">
     <script src="config.js?v=20260501"></script>
     <script src="analytics.js?v=20260501"></script>
     <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
     <link rel="stylesheet" href="css/_components.css?v=20260501" />
     <script src="structured-data.js?v=20260501" defer></script>
+    <style>
+      .nf-wrap {
+        max-width: 760px;
+        margin: 80px auto 100px;
+        padding: 0 24px;
+        text-align: center;
+        color: var(--text-primary, #e6edf3);
+      }
+      .nf-code {
+        font-family: 'Space Grotesk', system-ui, sans-serif;
+        font-size: clamp(96px, 14vw, 160px);
+        font-weight: 800;
+        line-height: 1;
+        margin: 0 0 20px;
+        background: linear-gradient(135deg, #22c55e, #4ade80);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        letter-spacing: -0.04em;
+      }
+      .nf-h1 {
+        font-size: clamp(28px, 4vw, 40px);
+        font-weight: 800;
+        margin: 0 0 16px;
+        color: var(--text-primary, #e6edf3);
+        letter-spacing: -0.02em;
+      }
+      .nf-sub {
+        font-size: 16px;
+        line-height: 1.6;
+        color: var(--text-secondary, #8b949e);
+        max-width: 520px;
+        margin: 0 auto 36px;
+      }
+      .nf-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 12px;
+        max-width: 720px;
+        margin: 0 auto 40px;
+      }
+      .nf-card {
+        display: block;
+        padding: 18px 14px;
+        background: rgba(255,255,255,0.025);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 10px;
+        text-decoration: none;
+        color: var(--text-primary, #e6edf3);
+        transition: all 160ms ease;
+      }
+      .nf-card:hover {
+        transform: translateY(-2px);
+        border-color: #22c55e;
+        background: rgba(34,197,94,0.05);
+      }
+      .nf-card-icon { font-size: 24px; display: block; margin-bottom: 8px; }
+      .nf-card-name { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+      .nf-card-desc { font-size: 11px; color: var(--text-secondary, #8b949e); }
+      .nf-search {
+        display: flex;
+        gap: 8px;
+        max-width: 480px;
+        margin: 0 auto 28px;
+      }
+      .nf-search input {
+        flex: 1;
+        padding: 12px 16px;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 8px;
+        color: var(--text-primary, #e6edf3);
+        font-size: 14px;
+        font-family: inherit;
+      }
+      .nf-search input:focus {
+        outline: none;
+        border-color: #22c55e;
+      }
+      .nf-search button {
+        padding: 12px 20px;
+        background: #22c55e;
+        color: #0d1117;
+        font-weight: 700;
+        font-size: 13px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: inherit;
+      }
+      .nf-search button:hover { background: #4ade80; }
+    </style>
 </head>
 <body>
 <!-- Navigation — unified IA (auto-generated by scripts/unify_nav.py) -->
@@ -107,61 +195,38 @@
         </div>
         <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
     </nav>
+    <div class="nf-wrap">
+        <div class="nf-code">404</div>
+        <h1 class="nf-h1">That page slipped past us.</h1>
+        <p class="nf-sub">The URL you tried doesn’t exist — moved, renamed, or never was. Try one of these instead.</p>
 
-    <!-- Breadcrumb -->
-    <div class="breadcrumb" aria-label="Breadcrumb">
-        <a href="index.html">Home</a>
-        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
-        <a href="sectors.html">Sectors</a>
-        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
-        <span aria-current="page">Space Tech</span>
-    </div>
+        <form class="nf-search" onsubmit="event.preventDefault(); var q=document.getElementById('nf-q').value.trim(); if(q) location.href='index.html?q='+encodeURIComponent(q);">
+            <input type="text" id="nf-q" placeholder="Search companies (Anduril, SpaceX, Helion…)" autocomplete="off">
+            <button type="submit">Search</button>
+        </form>
 
-    <!-- Hero -->
-    <header class="sl-hero">
-        <p class="sl-hero-eyebrow" style="color:#60a5fa;">SPACE</p>
-        <h1>Every company in orbit.</h1>
-        <p class="sl-hero-lede">Launch, manufacturing, satellite communications, in-space servicing, and the rapidly expanding civil-and-defense space economy. The companies we track raised $25B+ in the last two years.</p>
-    </header>
-
-    <!-- Stats -->
-    <div class="sl-stats" id="sl-stats">
-        <div class="sl-stat"><div class="sl-stat-n">—</div><div class="sl-stat-l">Loading…</div></div>
-    </div>
-
-    <!-- Pillars -->
-    <div class="sl-pillars">
-        <div class="sl-pillar">
-            <div class="sl-pillar-num">01</div>
-            <h3>Launch</h3>
-            <p>SpaceX, Rocket Lab, Stoke Space, ABL, Firefly — the rapidly cheapening ride to orbit.</p>
+        <div class="nf-grid">
+            <a href="index.html" class="nf-card">
+                <span class="nf-card-icon">🏢</span>
+                <div class="nf-card-name">Companies</div>
+                <div class="nf-card-desc">Browse 870+ frontier-tech firms</div>
+            </a>
+            <a href="terminal.html" class="nf-card">
+                <span class="nf-card-icon">⚡</span>
+                <div class="nf-card-name">Terminal</div>
+                <div class="nf-card-desc">Bloomberg-style command interface</div>
+            </a>
+            <a href="brief.html" class="nf-card">
+                <span class="nf-card-icon">📰</span>
+                <div class="nf-card-name">Daily Brief</div>
+                <div class="nf-card-desc">Today’s frontier-tech signals</div>
+            </a>
+            <a href="reindustrialize.html" class="nf-card">
+                <span class="nf-card-icon">🏭</span>
+                <div class="nf-card-name">Reindustrialize</div>
+                <div class="nf-card-desc">Rebuilding the industrial base</div>
+            </a>
         </div>
-        <div class="sl-pillar">
-            <div class="sl-pillar-num">02</div>
-            <h3>Satellites & comms</h3>
-            <p>Planet, K2, Capella, Astranis — geospatial intelligence and global broadband.</p>
-        </div>
-        <div class="sl-pillar">
-            <div class="sl-pillar-num">03</div>
-            <h3>In-space services</h3>
-            <p>Varda, Astroforge, Lunar Outpost — manufacturing, mining, and on-orbit assembly.</p>
-        </div>
-        <div class="sl-pillar">
-            <div class="sl-pillar-num">04</div>
-            <h3>Propulsion & vehicles</h3>
-            <p>Ursa Major, Hermeus, Rocket Lab Neutron, Relativity — what gets us from here to there.</p>
-        </div>
-    </div>
-
-    <!-- Grid header -->
-    <div class="sl-section-head">
-        <h2>Every company we track</h2>
-        <span class="sl-section-count"><span id="sl-count">—</span> companies</span>
-    </div>
-
-    <!-- Grid -->
-    <div class="sl-grid" id="sl-grid">
-        <div class="sl-empty">Loading companies…</div>
     </div>
 
 <!-- Subscribe Banner -->
@@ -171,7 +236,6 @@
       <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="subscribe-banner-btn">Subscribe Free</a>
       <div class="subscribe-banner-note">Join 50,000+ investors and founders in the ROS community</div>
     </section>
-
 <footer class="premium-footer">
       <div class="footer-inner">
         <div class="footer-main">
@@ -215,23 +279,6 @@
       </div>
     </footer>
 
-    <script>
-            window.IL_STRUCTURED_DATA = {
-        type: 'CollectionPage',
-        itemListName: 'Space Tech Companies'
-        // itemList[] would be populated by sector-landing.js after companies load
-      };
-      window.IL_SECTOR_CONFIG = {
-        slug: 'space',
-        title: 'Space Tech Companies',
-        sectors: ['Space & Aerospace']
-      };
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="utils.js?v=20260501"></script>
-    <script src="auth.js?v=20260501"></script>
-    <script src="data.js?v=20260501"></script>
-    <script src="sector-landing.js?v=20260501"></script>
     <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>
