@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "company": "Anduril Industries",
+    "amount": "$5B",
+    "round": "Funding Round",
+    "investors": [],
+    "date": "2026-05-13",
+    "source": "Crunchbase News",
+    "url": "https://news.crunchbase.com/defense-tech/anduril-5b-valuation-vc-funding-record-data/",
+    "headline": "Anduril Raises Another $5B As Defense Tech Startups Shatter Funding Records",
+    "fetched_at": "2026-05-14T09:24:45.430031+00:00"
+  },
+  {
+    "company": "Fervo Energy",
+    "amount": "$2B",
+    "round": "IPO",
+    "investors": [
+      "NEA"
+    ],
+    "date": "2026-05-13",
+    "source": "The Information",
+    "url": "",
+    "headline": "Fervo Raises Nearly $2 Billion in IPO",
+    "fetched_at": "2026-05-14T09:24:45.439052+00:00"
+  }
+]

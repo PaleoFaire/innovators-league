@@ -1,11 +1,29 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-13 09:49:48 UTC
-// Total: 0 filings across 0 companies
+// Last updated: 2026-05-14 09:45:06 UTC
+// Total: 1 filings across 1 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-13T09:49:48.719073+00:00",
+  "generated_at": "2026-05-14T09:45:06.594226+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 0,
-  "filings": []
+  "total_filings": 1,
+  "filings": [
+    {
+      "company": "Positron AI",
+      "issuer_name": "Positron AI, Inc",
+      "form": "D",
+      "filed_date": "2026-05-12",
+      "cik": "2077932",
+      "accession": "0002077932-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002077932&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002077932-26-000002",
+      "offering_amount": "233885560",
+      "amount_sold": "233885560",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  ]
 };
