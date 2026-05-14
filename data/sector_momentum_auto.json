@@ -1,99 +1,64 @@
 [
   {
-    "sector": "Space & Aerospace",
-    "momentum": 62,
-    "trend": "steady",
-    "catalysts": [
-      "FCC approves SpaceX spectrum deal with $2.4 billion escrow c",
-      "Report: Google and SpaceX in talks to put data centers into",
-      "Once again, SpaceX has set a new record for the tallest rock"
-    ],
-    "fundingQ": "$2.2B",
-    "components": {
-      "funding": 78,
-      "news": 60,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-13"
-  },
-  {
     "sector": "AI & Software",
     "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Elon Musk Had \u2018Hair-Raising\u2019 Idea of Passing OpenAI On to Hi",
-      "Musk mulled handing OpenAI to his children, Altman testifies",
-      "The AI legal services industry is heating up \u2014 Anthropic is"
+      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%",
+      "Cerebras Sees Sizzling Demand For IPO Shares",
+      "Anthropic&#8217;s Cat Wu says that, in the future, AI will a"
     ],
-    "fundingQ": "$2207.6B",
+    "fundingQ": "$2213.2B",
     "components": {
       "funding": 100,
       "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 55,
+    "trend": "steady",
+    "catalysts": [
+      "Once again, SpaceX has set a new record for the tallest rock",
+      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub",
+      "Nuro secures California driverless permit for Lucid Gravity"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 30,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 53,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
-      "SpaceX V3 Booster Has a Full Static Fire And Is On Track for",
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge"
+      "Geothermal startup Fervo Energy pops 33% in IPO debut fueled",
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
+      "Fervo Energy unveils new power plant details in IPO filing"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-13"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
-      "Anthropic&#8217;s Nuclear Bomb",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$800M",
-    "components": {
-      "funding": 83,
-      "news": 15,
-      "hiring": 0,
-      "market": 94
-    },
-    "lastUpdated": "2026-05-13"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 48,
-    "trend": "steady",
-    "catalysts": [
-      "Ilya Sutskever Stands by His Role in Sam Altman\u2019s OpenAI Ous",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$22.5B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 51
-    },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Rivian (RIVN) mulls making its own lidar as it builds full a",
+      "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
     ],
     "fundingQ": "$12.7B",
@@ -103,24 +68,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 48,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Rocket Lab joins Raytheon on space interceptor program for G",
-      "Nvidia Vera Rubin Used by Google Could Next and Thinking Mac"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Ocean & Maritime",
@@ -136,109 +100,130 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 41,
+    "trend": "steady",
+    "catalysts": [
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$27.5B",
+    "components": {
+      "funding": 100,
+      "news": 5,
+      "hiring": 0,
+      "market": 22
+    },
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 33,
+    "trend": "steady",
+    "catalysts": [
+      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
+      "Anthropic&#8217;s Nuclear Bomb",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$800M",
+    "components": {
+      "funding": 83,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 34,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
-      "Waymo recalls 3,791 robotaxis over flooded road incident, de",
-      "Waymo issues recall to deal with a flooding problem",
-      "RLWRLD releases RLDX-1, a dexterity-first foundation model f"
+      "Rivian spinoff Mind Robotics raises another $400M",
+      "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
+      "Waymo recalls 3,791 robotaxis over flooded road incident, de"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 40,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%",
+      "Cerebras Sees Sizzling Demand For IPO Shares",
+      "UK AI chip startup Fractile raises $220M to tackle the growi"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Transportation",
-    "momentum": 25,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with",
-      "Rivian (RIVN) mulls making its own lidar as it builds full a"
+      "Rivian spinoff Mind Robotics raises another $400M",
+      "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
       "news": 10,
       "hiring": 0,
-      "market": 100
+      "market": 68
     },
-    "lastUpdated": "2026-05-13"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Nvidia Vera Rubin Used by Google Could Next and Thinking Mac"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-13"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-13"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "FCC approves SpaceX spectrum deal with $2.4 billion escrow c",
-      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub",
-      "RLWRLD releases RLDX-1, a dexterity-first foundation model f"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
       "Waymo recalls 3,791 robotaxis over flooded road incident, de",
       "Nuro secures California driverless permit for Lucid Gravity"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Cerebras Sees Sizzling Demand For IPO Shares",
+      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub",
+      "RLWRLD releases RLDX-1, a dexterity-first foundation model f"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -255,22 +240,39 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 3,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
-      "Active biotech & health ecosystem"
+      "UK AI chip startup Fractile raises $220M to tackle the growi",
+      "<a href=\"/cro/icon-opens-early-phase-research-unit-san-anton"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 0,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 6
+    },
+    "lastUpdated": "2026-05-14"
   }
 ]

@@ -81,17 +81,18 @@
   },
   {
     "company": "Rebellions",
-    "totalRaised": "$9.9B+",
-    "totalRaisedRaw": 9940.0,
+    "totalRaised": "$10.2B+",
+    "totalRaisedRaw": 10160.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$2.2B",
     "lastRoundDate": "2026-05",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed",
+      "Founders Fund",
       "NEA"
     ],
-    "roundCount": 6
+    "roundCount": 7
   },
   {
     "company": "Saronic",
@@ -108,6 +109,20 @@
     "roundCount": 2
   },
   {
+    "company": "Anduril Industries",
+    "totalRaised": "$8.2B+",
+    "totalRaisedRaw": 8200.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$5B",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Founders Fund"
+    ],
+    "roundCount": 3
+  },
+  {
     "company": "Vayu Robotics",
     "totalRaised": "$7.6B+",
     "totalRaisedRaw": 7638.0,
@@ -119,6 +134,21 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Infleqtion",
+    "totalRaised": "$7.2B+",
+    "totalRaisedRaw": 7200.0,
+    "lastRound": "Series R",
+    "lastRoundAmount": "$1.2B",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "a16z",
+      "Founders Fund"
+    ],
+    "roundCount": 3
   },
   {
     "company": "Bear Robotics",
@@ -133,6 +163,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Cerebras",
+    "totalRaised": "$5.5B+",
+    "totalRaisedRaw": 5550.0,
+    "lastRound": "IPO",
+    "lastRoundAmount": "$5.55B",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "NEA"
+    ],
+    "roundCount": 1
   },
   {
     "company": "H Company",
@@ -218,20 +261,6 @@
     "roundCount": 1
   },
   {
-    "company": "Anduril Industries",
-    "totalRaised": "$3.2B+",
-    "totalRaisedRaw": 3200.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$700M",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Founders Fund"
-    ],
-    "roundCount": 2
-  },
-  {
     "company": "OpenAI",
     "totalRaised": "$3.1B+",
     "totalRaisedRaw": 3109.0,
@@ -283,20 +312,6 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Infleqtion",
-    "totalRaised": "$2.2B+",
-    "totalRaisedRaw": 2200.0,
-    "lastRound": "Series R",
-    "lastRoundAmount": "$1.2B",
-    "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Founders Fund"
     ],
     "roundCount": 2
   },
@@ -509,6 +524,19 @@
       "Accel"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Reveal Technology",
+    "totalRaised": "$1.0B+",
+    "totalRaisedRaw": 1000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Retro Biosciences",

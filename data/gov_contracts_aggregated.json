@@ -4,10 +4,9 @@
     "totalGovValue": "$3.2B+",
     "contractCount": 200,
     "agencies": [
-      "Department of Commerce",
       "Department of Energy",
-      "Department of Defense",
-      "Department of Homeland Security"
+      "Department of Homeland Security",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -41,18 +40,18 @@
         "date": "2024-06-28"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Palantir",
-    "totalGovValue": "$4.8B+",
+    "totalGovValue": "$4.4B+",
     "contractCount": 200,
     "agencies": [
-      "Department of Defense",
-      "Department of Justice",
+      "Department of Homeland Security",
+      "Department of Housing and Urban Development",
       "U.S. International Development Finance Corporation",
-      "Department of Veterans Affairs",
-      "Department of the Treasury"
+      "Department of Energy",
+      "Department of Health and Human Services"
     ],
     "recentContracts": [
       {
@@ -74,30 +73,30 @@
         "date": "2022-09-26"
       },
       {
-        "amount": 130042463.0,
-        "agency": "Department of Defense",
-        "description": "ESTABLISH BASIC LETTER CONTRACT FOR COMMERCIAL DATA AS A SERVE PLATFORM.",
-        "date": "2023-06-16"
-      },
-      {
         "amount": 103425091.06,
         "agency": "Department of Defense",
         "description": "SOFTWARE AS A SERVICE (SAAS) MODEL OF ARMY VANTAGE ON BEHALF OF PEO EIS, PDM ADP. ARMY VANTAGE IS THE ARMY'S DATA-DRIVEN OPERATIONS AND DECISION-MAKING PLATFORM.",
         "date": "2024-12-13"
+      },
+      {
+        "amount": 94687811.42,
+        "agency": "Department of Agriculture",
+        "description": "CENTRALIZE FARM PRODUCTION & CONSERVATION IT SYSTEMS, AUTOMATE PROCESSES, AND INTEGRATE DATA FOR BETTER EFFICIENCY PER THE LANDMARK PLATFORM INITIATIVE. STAFF + PRODUCERS GAIN UNIFIED ACCESS, WITH POS",
+        "date": "2026-04-18"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "SpaceX",
     "totalGovValue": "$10.9B+",
-    "contractCount": 80,
+    "contractCount": 79,
     "agencies": [
-      "Department of Justice",
-      "Department of Veterans Affairs",
-      "Department of the Interior",
+      "Department of Homeland Security",
       "National Aeronautics and Space Administration",
-      "Department of Homeland Security"
+      "Department of Veterans Affairs",
+      "Department of State",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -131,18 +130,18 @@
         "date": "2024-09-11"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Skydio",
     "totalGovValue": "$4M+",
     "contractCount": 40,
     "agencies": [
-      "Department of Justice",
       "Department of the Interior",
       "National Aeronautics and Space Administration",
-      "Department of Labor",
-      "Department of Agriculture"
+      "Department of Agriculture",
+      "Department of Defense",
+      "Department of Justice"
     ],
     "recentContracts": [
       {
@@ -176,18 +175,18 @@
         "date": "2026-02-04"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Radiant",
     "totalGovValue": "$44M+",
     "contractCount": 24,
     "agencies": [
-      "Department of Veterans Affairs",
-      "Consumer Financial Protection Bureau",
-      "Department of the Treasury",
+      "Department of Homeland Security",
       "Department of the Interior",
-      "Department of Health and Human Services"
+      "Department of Health and Human Services",
+      "Consumer Financial Protection Bureau",
+      "Department of the Treasury"
     ],
     "recentContracts": [
       {
@@ -221,15 +220,15 @@
         "date": "2024-09-30"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Rocket Lab",
     "totalGovValue": "$102M+",
     "contractCount": 15,
     "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -263,49 +262,7 @@
         "date": "2025-09-26"
       }
     ],
-    "lastUpdated": "2026-05-13"
-  },
-  {
-    "company": "Sierra Space",
-    "totalGovValue": "$61M+",
-    "contractCount": 13,
-    "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
-    ],
-    "recentContracts": [
-      {
-        "amount": 27273827.87,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "IGF::OT::IGF NASA BAA/NRA AWARD.  PROPOSAL TITLE \"NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIP - NEXTSTEP-2.  THE NEXTSTEP-2 STUDY CONDUCTED BY SNC WILL EVALUATE MISSION ARCHITECTURE, SYSTEM IN",
-        "date": "2017-08-29"
-      },
-      {
-        "amount": 11259254.0,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) IN SPACE BY TRASH COMPACTION AND PROCESSING SYSTEM (TCPS) BROAD AGENCY ANNOUNCEM",
-        "date": "2019-05-02"
-      },
-      {
-        "amount": 6480000.0,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "ADVANCED SPACESUIT REGULATOR (ASR)",
-        "date": "2025-12-18"
-      },
-      {
-        "amount": 6457127.41,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS CONTRACT INVOLVES DEVELOPMENT AND DEMONSTRATION OF A HYBRID LIFE SUPPORT SYSTEMS (HLSS) THAT WILL ENABLE OPERATIONALLY EFFICIENT AND EFFECTIVE EXPLORATION ENVIRO",
-        "date": "2015-09-04"
-      },
-      {
-        "amount": 4217548.5,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT MISSION ARCHITECTURE DEFINITIONS FOR HUMAN MISSIONS BEYOND LOW-EARTH ORBIT AS PAR",
-        "date": "2025-04-30"
-      }
-    ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Neros",
@@ -346,17 +303,59 @@
         "date": "2025-09-30"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "company": "Sierra Space",
+    "totalGovValue": "$61M+",
+    "contractCount": 12,
+    "agencies": [
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 27273827.87,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "IGF::OT::IGF NASA BAA/NRA AWARD.  PROPOSAL TITLE \"NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIP - NEXTSTEP-2.  THE NEXTSTEP-2 STUDY CONDUCTED BY SNC WILL EVALUATE MISSION ARCHITECTURE, SYSTEM IN",
+        "date": "2017-08-29"
+      },
+      {
+        "amount": 11259254.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) IN SPACE BY TRASH COMPACTION AND PROCESSING SYSTEM (TCPS) BROAD AGENCY ANNOUNCEM",
+        "date": "2019-05-02"
+      },
+      {
+        "amount": 6480000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "ADVANCED SPACESUIT REGULATOR (ASR)",
+        "date": "2025-12-18"
+      },
+      {
+        "amount": 6457127.41,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS CONTRACT INVOLVES DEVELOPMENT AND DEMONSTRATION OF A HYBRID LIFE SUPPORT SYSTEMS (HLSS) THAT WILL ENABLE OPERATIONALLY EFFICIENT AND EFFECTIVE EXPLORATION ENVIRO",
+        "date": "2015-09-04"
+      },
+      {
+        "amount": 4217548.5,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT MISSION ARCHITECTURE DEFINITIONS FOR HUMAN MISSIONS BEYOND LOW-EARTH ORBIT AS PAR",
+        "date": "2025-04-30"
+      }
+    ],
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Planet Labs",
     "totalGovValue": "$31M+",
     "contractCount": 12,
     "agencies": [
-      "Department of the Interior",
       "Department of Commerce",
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
+      "National Aeronautics and Space Administration",
+      "Department of the Interior",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -390,15 +389,15 @@
         "date": "2025-11-25"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Shield AI",
     "totalGovValue": "$41M+",
     "contractCount": 9,
     "agencies": [
-      "Department of Defense",
-      "Department of Homeland Security"
+      "Department of Homeland Security",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -432,15 +431,15 @@
         "date": "2026-02-11"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Varda Space Industries",
     "totalGovValue": "$45M+",
     "contractCount": 7,
     "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -474,7 +473,7 @@
         "date": "2025-11-25"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Castelion",
@@ -515,15 +514,15 @@
         "date": "2025-03-11"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Axiom Space",
     "totalGovValue": "$472M+",
     "contractCount": 6,
     "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -557,15 +556,15 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "BlackSky",
     "totalGovValue": "$10M+",
     "contractCount": 6,
     "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -599,7 +598,7 @@
         "date": "2025-08-29"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Scale AI",
@@ -640,15 +639,15 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Impulse Space",
     "totalGovValue": "$28M+",
     "contractCount": 5,
     "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -682,58 +681,15 @@
         "date": "2025-09-22"
       }
     ],
-    "lastUpdated": "2026-05-13"
-  },
-  {
-    "company": "Boston Dynamics",
-    "totalGovValue": "$3M+",
-    "contractCount": 5,
-    "agencies": [
-      "Department of Defense",
-      "Department of Health and Human Services",
-      "Department of Homeland Security"
-    ],
-    "recentContracts": [
-      {
-        "amount": 2100000.0,
-        "agency": "Department of Defense",
-        "description": "DARPA BAA TECHNICAL DEVELOPMENT EFFORT ENTITLED, \"EFFICIENT HYDRAULIC ACTUATION SYSTEM FOR ROBOTICS\".",
-        "date": "2013-07-16"
-      },
-      {
-        "amount": 734236.0,
-        "agency": "Department of Health and Human Services",
-        "description": "PROVIDE TWO (2) QUADRUPED INDUSTRIAL INSPECTION ROBOTS, SENSING EQUIPMENT, SUPPORT AND COMMAND & CONTROL / DATA ACQUISITION SOFTWARE, TRAINING, FUTURE SUPPORT TO PROVIDE CONTINUOUS PLANT SURVEILLANCE,",
-        "date": "2025-09-29"
-      },
-      {
-        "amount": 304395.0,
-        "agency": "Department of Defense",
-        "description": "BOSTON DYNAMICS REFURBISHED SPOT ROBOT ENTERPRISE PACKAGES, SPOT ENTERPRISE PLATFORM WITH ARMS TO INCLUDE SAMSUNG TAB ACTIVE 3 TABLETS, CHARGERS, BATTERIES, SPARES, SPOT CALIBRATION BOARDS, AND SPOT C",
-        "date": "2025-04-16"
-      },
-      {
-        "amount": 27990.0,
-        "agency": "Department of Homeland Security",
-        "description": "BOSTON DYNAMICS - TECH-2 - NEO MAINTENANCE - SECTION 2(D) EXEMPTION",
-        "date": "2026-04-19"
-      },
-      {
-        "amount": 2497.06,
-        "agency": "Department of Defense",
-        "description": "PART REPLACEMENT FOR ROBOT",
-        "date": "2025-05-14"
-      }
-    ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Ginkgo Bioworks",
     "totalGovValue": "$147M+",
     "contractCount": 5,
     "agencies": [
-      "Department of Defense",
-      "Department of Health and Human Services"
+      "Department of Health and Human Services",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -767,15 +723,15 @@
         "date": "2023-05-02"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Capella Space",
     "totalGovValue": "$11M+",
     "contractCount": 4,
     "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -803,7 +759,44 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "company": "Boston Dynamics",
+    "totalGovValue": "$1M+",
+    "contractCount": 4,
+    "agencies": [
+      "Department of Health and Human Services",
+      "Department of Homeland Security",
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 853923.58,
+        "agency": "Department of Health and Human Services",
+        "description": "PROVIDE TWO (2) QUADRUPED INDUSTRIAL INSPECTION ROBOTS, SENSING EQUIPMENT, SUPPORT AND COMMAND & CONTROL / DATA ACQUISITION SOFTWARE, TRAINING, FUTURE SUPPORT TO PROVIDE CONTINUOUS PLANT SURVEILLANCE,",
+        "date": "2025-09-29"
+      },
+      {
+        "amount": 304395.0,
+        "agency": "Department of Defense",
+        "description": "BOSTON DYNAMICS REFURBISHED SPOT ROBOT ENTERPRISE PACKAGES, SPOT ENTERPRISE PLATFORM WITH ARMS TO INCLUDE SAMSUNG TAB ACTIVE 3 TABLETS, CHARGERS, BATTERIES, SPARES, SPOT CALIBRATION BOARDS, AND SPOT C",
+        "date": "2025-04-16"
+      },
+      {
+        "amount": 27990.0,
+        "agency": "Department of Homeland Security",
+        "description": "BOSTON DYNAMICS - TECH-2 - NEO MAINTENANCE - SECTION 2(D) EXEMPTION",
+        "date": "2026-04-19"
+      },
+      {
+        "amount": 2497.06,
+        "agency": "Department of Defense",
+        "description": "PART REPLACEMENT FOR ROBOT",
+        "date": "2025-05-14"
+      }
+    ],
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Second Front Systems",
@@ -832,7 +825,7 @@
         "date": "2024-09-30"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Muon Space",
@@ -862,15 +855,15 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Vannevar Labs",
     "totalGovValue": "$13M+",
     "contractCount": 2,
     "agencies": [
-      "Department of Defense",
-      "Department of State"
+      "Department of State",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -886,7 +879,7 @@
         "date": "2025-09-19"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Epirus",
@@ -903,7 +896,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Saronic",
@@ -920,7 +913,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Chaos Industries",
@@ -937,7 +930,7 @@
         "date": "2023-12-18"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Primer",
@@ -954,7 +947,7 @@
         "date": "2025-01-14"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Relativity Space",
@@ -971,7 +964,7 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Albedo",
@@ -988,7 +981,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   },
   {
     "company": "Anthropic",
@@ -1005,6 +998,6 @@
         "date": "2026-02-11"
       }
     ],
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
   }
 ]

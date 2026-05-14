@@ -875,6 +875,24 @@
   {
     "company": "Momentus",
     "ticker": "MNTS",
+    "form": "10-Q",
+    "date": "2026-05-13",
+    "description": "apre-20260331x10q.htm",
+    "accessionNumber": "0001104659-26-059743",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
+    "form": "8-K",
+    "date": "2026-05-13",
+    "description": "apre-20260513x8k.htm",
+    "accessionNumber": "0001104659-26-059734",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
     "form": "DEF 14A",
     "date": "2026-04-30",
     "description": "apre-20260616xdef14a.htm",
@@ -1361,6 +1379,15 @@
   {
     "company": "Oklo",
     "ticker": "OKLO",
+    "form": "8-K",
+    "date": "2026-05-13",
+    "description": "tm2614461d1_8k.htm",
+    "accessionNumber": "0001104659-26-060385",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
     "form": "10-Q",
     "date": "2026-05-12",
     "description": "oklo-20260331.htm",
@@ -1611,24 +1638,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-05",
-    "description": "xslF345X05/wk-form4_1772745180.xml",
-    "accessionNumber": "0001855623-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-04",
-    "description": "xslF345X05/wk-form4_1772661067.xml",
-    "accessionNumber": "0002021433-26-000002",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "4",
@@ -1860,15 +1869,6 @@
     "date": "2026-02-17",
     "description": "xslF345X05/wk-form4_1771370963.xml",
     "accessionNumber": "0001577526-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-02-12",
-    "description": "xslF345X05/wk-form4_1770933618.xml",
-    "accessionNumber": "0001577526-26-000005",
     "isIPO": false
   },
   {
@@ -2364,6 +2364,15 @@
     "date": "2026-03-04",
     "description": "rgti-20260304x8k.htm",
     "accessionNumber": "0001104659-26-023446",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-05-13",
+    "description": "qbts-20260512.htm",
+    "accessionNumber": "0001907982-26-000061",
     "isIPO": false
   },
   {
@@ -3179,6 +3188,15 @@
   {
     "company": "Joby Aviation",
     "ticker": "JOBY",
+    "form": "4",
+    "date": "2026-05-13",
+    "description": "xslF345X06/wk-form4_1778705670.xml",
+    "accessionNumber": "0001856680-26-000021",
+    "isIPO": false
+  },
+  {
+    "company": "Joby Aviation",
+    "ticker": "JOBY",
     "form": "8-K",
     "date": "2026-05-08",
     "description": "d118223d8k.htm",
@@ -3915,24 +3933,6 @@
     "isIPO": false
   },
   {
-    "company": "Tempus AI",
-    "ticker": "TEM",
-    "form": "10-K",
-    "date": "2026-02-12",
-    "description": "vnt-20251231.htm",
-    "accessionNumber": "0001628280-26-007648",
-    "isIPO": false
-  },
-  {
-    "company": "Tempus AI",
-    "ticker": "TEM",
-    "form": "8-K",
-    "date": "2026-02-12",
-    "description": "vnt-20260212.htm",
-    "accessionNumber": "0001628280-26-007456",
-    "isIPO": false
-  },
-  {
     "company": "Rivian",
     "ticker": "RIVN",
     "form": "8-K",
@@ -4185,24 +4185,6 @@
     "isIPO": false
   },
   {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "10-K",
-    "date": "2026-02-12",
-    "description": "rivn-20251231.htm",
-    "accessionNumber": "0001874178-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "8-K",
-    "date": "2026-02-12",
-    "description": "rivn-20260212.htm",
-    "accessionNumber": "0001874178-26-000007",
-    "isIPO": false
-  },
-  {
     "company": "Astera Labs",
     "ticker": "ALAB",
     "form": "10-Q",
@@ -4407,15 +4389,6 @@
     "date": "2026-02-17",
     "description": "ea0275942-10q_zoomcar.htm",
     "accessionNumber": "0001213900-26-016885",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "4",
-    "date": "2026-02-12",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001213900-26-015620",
     "isIPO": false
   }
 ]

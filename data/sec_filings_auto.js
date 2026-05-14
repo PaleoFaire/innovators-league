@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-13 08:49:39 UTC
+// Last updated: 2026-05-14 08:43:07 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Momentus", form: "10-Q", date: "2026-05-13", description: "apre-20260331x10q.htm", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "8-K", date: "2026-05-13", description: "apre-20260513x8k.htm", isIPO: false, ticker: "MNTS" },
+  { company: "Oklo", form: "8-K", date: "2026-05-13", description: "tm2614461d1_8k.htm", isIPO: false, ticker: "OKLO" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-05-13", description: "qbts-20260512.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Joby Aviation", form: "4", date: "2026-05-13", description: "xslF345X06/wk-form4_1778705670.xml", isIPO: false, ticker: "JOBY" },
   { company: "Oklo", form: "10-Q", date: "2026-05-12", description: "oklo-20260331.htm", isIPO: false, ticker: "OKLO" },
   { company: "C3.ai", form: "8-K", date: "2026-05-12", description: "d147244d8k.htm", isIPO: false, ticker: "AI" },
   { company: "UiPath", form: "DEF 14A", date: "2026-05-12", description: "path-20260512.htm", isIPO: false, ticker: "PATH" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Tempus AI", form: "8-K", date: "2026-05-07", description: "vnt-20260507.htm", isIPO: false, ticker: "TEM" },
   { company: "Centrus Energy", form: "10-Q", date: "2026-05-06", description: "leu-20260331.htm", isIPO: false, ticker: "LEU" },
   { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2026-05-06", description: "rxrx-20260331.htm", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "8-K", date: "2026-05-06", description: "rxrx-20260506.htm", isIPO: false, ticker: "RXRX" },
-  { company: "Aurora Innovation", form: "10-Q", date: "2026-05-06", description: "aur-20260331.htm", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "8-K", date: "2026-05-06", description: "aur-20260506.htm", isIPO: false, ticker: "AUR" },
-  { company: "Palantir Technologies", form: "10-Q", date: "2026-05-05", description: "pltr-20260331.htm", isIPO: false, ticker: "PLTR" },
-  { company: "Oklo", form: "4", date: "2026-05-05", description: "xslF345X06/wk-form4_1778013141.xml", isIPO: false, ticker: "OKLO" },
 ];
