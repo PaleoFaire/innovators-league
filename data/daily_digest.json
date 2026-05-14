@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T00:10:59.284211+00:00",
+  "generatedAt": "2026-05-14T04:53:20.244992+00:00",
   "date": "2026-05-14",
   "dateDisplay": "Thursday, May 14, 2026",
   "sections": {
@@ -75,18 +75,18 @@
         "change": 9.35
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 878000.0,
-        "changePercent": 25.07,
-        "change": 176000.0
-      },
-      {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 11.58,
         "changePercent": 20.64,
         "change": 1.98
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 835000.0,
+        "changePercent": 19.8,
+        "change": 138000.0
       },
       {
         "ticker": "LNZA",
@@ -103,18 +103,18 @@
         "change": 1.13
       },
       {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 2.34,
-        "changePercent": -14.29,
-        "change": -0.39
-      },
-      {
         "ticker": "TEM",
         "company": "Tempus AI",
         "price": 45.9,
         "changePercent": -14.21,
         "change": -7.6
+      },
+      {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 2.36,
+        "changePercent": -13.63,
+        "change": -0.37
       }
     ],
     "regulatory": [
