@@ -1,32 +1,17 @@
 {
-  "generatedAt": "2026-05-15T08:09:25+00:00",
+  "generatedAt": "2026-05-15T11:28:21+00:00",
   "matrix": {
-    "ai-chips-inference": {
+    "lunar-robotics": {
       "2026-Q2": {
         "deals": 1,
-        "totalSold": 233885560,
+        "totalSold": 32115099,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
-            "name": "Positron AI",
-            "amount": 233885560,
-            "date": "2026-05-12",
+            "name": "Lunar Outpost",
+            "amount": 32115099,
+            "date": "2026-05-14",
             "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Positron AI",
-            "amount": null,
-            "date": "2026-02",
-            "source": "recentEvent",
             "investors": []
           }
         ],
@@ -1263,6 +1248,23 @@
         ]
       }
     },
+    "ai-chips-inference": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Positron AI",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
     "industrial-decarb": {
       "2025-Q2": {
         "deals": 1,
@@ -1663,8 +1665,8 @@
   },
   "stats": {
     "totalDealsTracked": 62,
-    "totalUSDSold": 233885560,
-    "uniqueClusters": 36,
+    "totalUSDSold": 32115099,
+    "uniqueClusters": 37,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [
