@@ -44798,23 +44798,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-15 04:14
+// Last updated: 2026-05-15 08:08
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI says Codex is coming to your phone", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Cerebras", headline: "Cerebras IPO makes billions for Benchmark but VC Eric'Vishria almost didn't take the meeting", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn't be the first partner to feel burned", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Cerebras", headline: "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026", source: "TechCrunch", time: "11h ago", impact: "high", unread: true },
-  { id: 6, type: "milestone", company: "OpenAI", headline: "OpenAI says hackers stole some data after latest code security issue", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile may use ULA's Vulcan", source: "SpaceNews", time: "16h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "OpenAI", headline: "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June", source: "TechNode Global", time: "18h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Vast", headline: "HelloFresh Meal Kit Review (2026): Vast Options, Good Execution", source: "Wired", time: "18h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "xAI", headline: "Elon Musk's xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI says Codex is coming to your phone", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Cerebras", headline: "Cerebras IPO makes billions for Benchmark but VC Eric'Vishria almost didn't take the meeting", source: "TechCrunch", time: "11h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn't be the first partner to feel burned", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "14h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Cerebras", headline: "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026", source: "TechCrunch", time: "15h ago", impact: "high", unread: false },
+  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI says hackers stole some data after latest code security issue", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "OpenAI", headline: "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June", source: "TechNode Global", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Vast", headline: "HelloFresh Meal Kit Review (2026): Vast Options, Good Execution", source: "Wired", time: "22h ago", impact: "low", unread: false },
   { id: 10, type: "funding", company: "Cerebras", headline: "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%", source: "Next Big Future", time: "1d ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Brings Its Ass to Court", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Fervo Energy", headline: "Fervo Energy's IPO is a milestone for next-gen geothermal", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "Waymo expands robotaxi coverage more than 20% ' larger than Rhode Island", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Fractile", headline: "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX sets date for first Starship version 3 launch", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Fervo Energy", headline: "Fervo Energy's IPO is a milestone for next-gen geothermal", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "Waymo", headline: "Waymo expands robotaxi coverage more than 20% ' larger than Rhode Island", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Fractile", headline: "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "milestone", company: "Rivian", headline: "Rivian rolls out 'Hey Rivian' AI assistant with full vehicle control", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Matter", headline: "World Models: 10 Things That Matter in AI Right Now", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
