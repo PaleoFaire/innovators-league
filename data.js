@@ -46367,23 +46367,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-15 18:26
+// Last updated: 2026-05-15 20:19
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
-  { id: 4, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Rivian", headline: "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea", source: "CleanTechnica", time: "3h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "4h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Runway", headline: "Runway started by helping filmmakers ' now it wants to beat Google at AI", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "xAI", headline: "Elon Musk's xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI says Codex is coming to your phone", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Cerebras", headline: "Cerebras IPO makes billions for Benchmark but VC Eric'Vishria almost didn't take the meeting", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn't be the first partner to feel burned", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Cerebras", headline: "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 14, type: "funding", company: "OpenAI", headline: "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June", source: "TechNode Global", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Vast", headline: "HelloFresh Meal Kit Review (2026): Vast Options, Good Execution", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts", source: "TechCrunch", time: "4h ago", impact: "medium", unread: true },
+  { id: 5, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Rivian", headline: "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
+  { id: 7, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "5h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Runway", headline: "Runway started by helping filmmakers ' now it wants to beat Google at AI", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "xAI", headline: "Elon Musk's xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI says Codex is coming to your phone", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Cerebras", headline: "Cerebras IPO makes billions for Benchmark but VC Eric'Vishria almost didn't take the meeting", source: "TechCrunch", time: "23h ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn't be the first partner to feel burned", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile may use ULA's Vulcan", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "OpenAI", headline: "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June", source: "TechNode Global", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

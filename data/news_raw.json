@@ -1,5 +1,27 @@
 [
   {
+    "title": "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more",
+    "link": "https://electrek.co/2026/05/15/podcast-tesla-robotaxi-rivian-r2-configurator-is-live-china-is-taking-over-eu-factories-and-more/",
+    "description": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we discuss updates to Tesla Robotaxi, Rivian R2 configurator going live, China taking over EU factories, and more.\n\n\n\nToday’s episode is sponsored by GM Energy. If you ",
+    "pubDate": "Fri, 15 May 2026 19:50:54 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Rivian",
+    "matchedCompanies": [
+      "Rivian",
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "transportation",
+      "ai"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up",
     "link": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
     "description": "OpenAI is once again reorganizing its executive ranks as part of its effort to unify ChatGPT and Codex into one core product experience.",
@@ -16,7 +38,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "Rivian opens R2 configurator: here are all the options and pricing",
@@ -35,7 +57,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
@@ -54,7 +76,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "Dutch dronemaker Destinus in €200m funding talks, reports say",
@@ -73,7 +95,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clean Energy.",
@@ -92,7 +114,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives",
@@ -116,7 +138,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "4h ago"
+    "time": "5h ago"
   },
   {
     "title": "Runway started by helping filmmakers — now it wants to beat Google at AI",
@@ -135,7 +157,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "6h ago"
   },
   {
     "title": "Elon Musk’s xAI adds more unpermitted gas generators for data centers",
@@ -154,7 +176,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "12h ago"
   },
   {
     "title": "OpenAI says Codex is coming to your phone",
@@ -173,7 +195,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "23h ago"
   },
   {
     "title": "Cerebras IPO makes billions for Benchmark but VC Eric Vishria almost didn&#8217;t take the meeting",
@@ -192,7 +214,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "22h ago"
+    "time": "23h ago"
   },
   {
     "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn&#8217;t be the first partner to feel burned",
@@ -211,7 +233,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Cerebras Shares Soar In First Day On Nasdaq",
@@ -233,22 +255,22 @@
     "time": "1d ago"
   },
   {
-    "title": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
-    "link": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-    "description": "A year ago, it looked like this day would never happen for Cerebras.",
-    "pubDate": "Thu, 14 May 2026 16:30:02 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Cerebras",
+    "title": "AST SpaceMobile may use ULA’s Vulcan",
+    "link": "https://spacenews.com/ast-spacemobile-may-use-ulas-vulcan/",
+    "description": "AST SpaceMobile may launch some of its direct-to-device satellites on United Launch Alliance’s Vulcan rocket to expand the launch options for its constellation.",
+    "pubDate": "Thu, 14 May 2026 12:07:39 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
     "matchedCompanies": [
-      "Cerebras"
+      "AST SpaceMobile"
     ],
     "sectors": [
-      "chips"
+      "space"
     ],
-    "type": "funding",
-    "impact": "high",
+    "type": "ipo",
+    "impact": "low",
     "time": "1d ago"
   },
   {
@@ -364,6 +386,46 @@
       "ai"
     ],
     "type": "funding",
+    "impact": "high",
+    "time": "2d ago"
+  },
+  {
+    "title": "SpaceX sets date for first Starship version 3 launch",
+    "link": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/",
+    "description": "SpaceX has set a date for the long-delayed first launch of its next-generation Starship vehicle, which is critical to the company’s ambitions as well as NASA’s lunar plans.",
+    "pubDate": "Wed, 13 May 2026 11:24:22 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
+    "link": "https://spacenews.com/fcc-approves-spacex-spectrum-deal-with-2-4-billion-escrow-condition/",
+    "description": "SpaceX has the FCC’s blessing to buy EchoStar spectrum to improve direct-to-device services in the United States, subject to a $2.4 billion escrow tied to disputes over the seller’s abandoned terrestrial 5G network buildout.",
+    "pubDate": "Tue, 12 May 2026 22:03:05 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Terrestrial Energy"
+    ],
+    "sectors": [
+      "space",
+      "nuclear"
+    ],
+    "type": "ipo",
     "impact": "high",
     "time": "2d ago"
   },
