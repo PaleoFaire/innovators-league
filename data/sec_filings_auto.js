@@ -1,6 +1,16 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-14 08:43:07 UTC
+// Last updated: 2026-05-15 08:54:05 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-05-14", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-05-14", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Virgin Galactic", form: "10-Q", date: "2026-05-14", description: "spce-20260331.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Virgin Galactic", form: "8-K", date: "2026-05-14", description: "spce-20260514.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Upstart Holdings", form: "4", date: "2026-05-14", description: "xslF345X06/wk-form4_1778761449.xml", isIPO: false, ticker: "UPST" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-05-14", description: "xslF345X06/wk-form4_1778793277.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-05-14", description: "xslF345X06/wk-form4_1778793189.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-05-14", description: "xslF345X06/wk-form4_1778793093.xml", isIPO: false, ticker: "QBTS" },
+  { company: "Archer Aviation", form: "8-K", date: "2026-05-14", description: "achr-20260514.htm", isIPO: false, ticker: "ACHR" },
+  { company: "LanzaTech", form: "8-K", date: "2026-05-14", description: "tlsi-20260514.htm", isIPO: false, ticker: "LNZA" },
   { company: "Momentus", form: "10-Q", date: "2026-05-13", description: "apre-20260331x10q.htm", isIPO: false, ticker: "MNTS" },
   { company: "Momentus", form: "8-K", date: "2026-05-13", description: "apre-20260513x8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "Oklo", form: "8-K", date: "2026-05-13", description: "tm2614461d1_8k.htm", isIPO: false, ticker: "OKLO" },
@@ -41,14 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-05-07", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "BlackSky Technology", form: "10-Q", date: "2026-05-07", description: "bksy-20260331.htm", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "8-K", date: "2026-05-07", description: "bksy-20260507.htm", isIPO: false, ticker: "BKSY" },
-  { company: "Intuitive Machines", form: "8-K", date: "2026-05-07", description: "tm2613859d1_8k.htm", isIPO: false, ticker: "LUNR" },
-  { company: "NuScale Power", form: "10-Q", date: "2026-05-07", description: "smr-20260331.htm", isIPO: false, ticker: "SMR" },
-  { company: "NuScale Power", form: "8-K", date: "2026-05-07", description: "smr-20260507.htm", isIPO: false, ticker: "SMR" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-05-07", description: "xslF345X06/wk-form4_1778186681.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Ginkgo Bioworks", form: "10-Q", date: "2026-05-07", description: "dna-20260331.htm", isIPO: false, ticker: "DNA" },
-  { company: "Ginkgo Bioworks", form: "8-K", date: "2026-05-07", description: "dna-20260507.htm", isIPO: false, ticker: "DNA" },
-  { company: "Tempus AI", form: "10-Q", date: "2026-05-07", description: "vnt-20260403.htm", isIPO: false, ticker: "TEM" },
-  { company: "Tempus AI", form: "8-K", date: "2026-05-07", description: "vnt-20260507.htm", isIPO: false, ticker: "TEM" },
-  { company: "Centrus Energy", form: "10-Q", date: "2026-05-06", description: "leu-20260331.htm", isIPO: false, ticker: "LEU" },
-  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2026-05-06", description: "rxrx-20260331.htm", isIPO: false, ticker: "RXRX" },
 ];

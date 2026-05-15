@@ -80,6 +80,20 @@
     "roundCount": 2
   },
   {
+    "company": "Cerebras",
+    "totalRaised": "$11.1B+",
+    "totalRaisedRaw": 11050.0,
+    "lastRound": "IPO",
+    "lastRoundAmount": "$5.55B",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "NEA",
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Rebellions",
     "totalRaised": "$10.2B+",
     "totalRaisedRaw": 10160.0,
@@ -153,29 +167,17 @@
   {
     "company": "Bear Robotics",
     "totalRaised": "$7.1B+",
-    "totalRaisedRaw": 7056.0,
+    "totalRaisedRaw": 7066.0,
     "lastRound": "Funding Round",
-    "lastRoundAmount": "$7B",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Sequoia",
-      "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Cerebras",
-    "totalRaised": "$5.5B+",
-    "totalRaisedRaw": 5550.0,
-    "lastRound": "IPO",
-    "lastRoundAmount": "$5.55B",
+    "lastRoundAmount": "$10M",
     "lastRoundDate": "2026-05",
     "valuation": "",
     "leadInvestors": [
-      "NEA"
+      "Khosla Ventures",
+      "Sequoia",
+      "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 3
   },
   {
     "company": "H Company",
@@ -1274,6 +1276,19 @@
     "totalRaised": "$18M+",
     "totalRaisedRaw": 18.0,
     "lastRound": "Series A",
+    "lastRoundAmount": "$18M",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Dusty Robotics",
+    "totalRaised": "$18M+",
+    "totalRaisedRaw": 18.0,
+    "lastRound": "Series B",
     "lastRoundAmount": "$18M",
     "lastRoundDate": "2026-05",
     "valuation": "",

@@ -541,18 +541,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "H9240224F0065",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 6424468.0,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2024-09-18",
-    "endDate": "2026-02-28",
-    "description": "ROADRUNNER ALL UP ROUNDS AND ANCILLARY ITEMS"
-  },
-  {
-    "company": "Anduril",
     "awardId": "H9240224F0069",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 6414500.0,
@@ -778,18 +766,6 @@
     "startDate": "2026-01-08",
     "endDate": "2027-08-06",
     "description": "AFSOC PASSIVE KIT"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "FA882025FB002",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 3000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-06-30",
-    "endDate": "2026-06-29",
-    "description": "SINGLE AWARD INDEFINITE DELIVERY INDEFINITE QUANTITY TASK ORDER FOR ANDURIL INDUSTRIES TO PROVIDE NETWORK OPERATIONS AND REMOTE MONITORING FOR EXISTING AND FUTURE SPACE DOMAIN AWARENESS AND SPACE SURV"
   },
   {
     "company": "Anduril",
@@ -1198,6 +1174,30 @@
     "startDate": "2023-07-31",
     "endDate": "2025-06-30",
     "description": "QUASAR INTEGRATION"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "M6785425F0234",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 320000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2025-09-29",
+    "endDate": "2026-02-27",
+    "description": "SPARE PARTS PACKAGE"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240223F0044",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 306890.45,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2023-06-30",
+    "endDate": "2025-12-31",
+    "description": "SIP FFP SERVICES"
   },
   {
     "company": "Anduril Industries",
@@ -1741,18 +1741,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "H9240224F0065",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 6424468.0,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2024-09-18",
-    "endDate": "2026-02-28",
-    "description": "ROADRUNNER ALL UP ROUNDS AND ANCILLARY ITEMS"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "H9240224F0069",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 6414500.0,
@@ -1978,18 +1966,6 @@
     "startDate": "2026-01-08",
     "endDate": "2027-08-06",
     "description": "AFSOC PASSIVE KIT"
-  },
-  {
-    "company": "Anduril Industries",
-    "awardId": "FA882025FB002",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 3000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-06-30",
-    "endDate": "2026-06-29",
-    "description": "SINGLE AWARD INDEFINITE DELIVERY INDEFINITE QUANTITY TASK ORDER FOR ANDURIL INDUSTRIES TO PROVIDE NETWORK OPERATIONS AND REMOTE MONITORING FOR EXISTING AND FUTURE SPACE DOMAIN AWARENESS AND SPACE SURV"
   },
   {
     "company": "Anduril Industries",
@@ -2400,6 +2376,30 @@
     "description": "QUASAR INTEGRATION"
   },
   {
+    "company": "Anduril Industries",
+    "awardId": "M6785425F0234",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 320000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2025-09-29",
+    "endDate": "2026-02-27",
+    "description": "SPARE PARTS PACKAGE"
+  },
+  {
+    "company": "Anduril Industries",
+    "awardId": "H9240223F0044",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 306890.45,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2023-06-30",
+    "endDate": "2025-12-31",
+    "description": "SIP FFP SERVICES"
+  },
+  {
     "company": "Shield AI",
     "awardId": "70Z02326F93130005",
     "recipientName": "SHIELD AI INC",
@@ -2617,6 +2617,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W519TC26F0012",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 68919805.47,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-12-11",
+    "endDate": "2026-12-15",
+    "description": "ARMY VANTAGE DATA ANALYTICS PLATFORM."
+  },
+  {
+    "company": "Palantir",
     "awardId": "FA880625FB009",
     "recipientName": "PALANTIR USG INC",
     "amount": 64715793.0,
@@ -2629,18 +2641,6 @@
   },
   {
     "company": "Palantir",
-    "awardId": "W519TC26F0012",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 56999277.43,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-12-11",
-    "endDate": "2026-12-15",
-    "description": "ARMY VANTAGE DATA ANALYTICS PLATFORM."
-  },
-  {
-    "company": "Palantir",
     "awardId": "N0018926FZ079",
     "recipientName": "PALANTIR USG INC",
     "amount": 56000000.0,
@@ -2648,7 +2648,7 @@
     "subAgency": "Department of the Navy",
     "awardType": null,
     "startDate": "2026-01-30",
-    "endDate": "2027-01-12",
+    "endDate": "2027-01-29",
     "description": "OPERATIONAL LEVEL -"
   },
   {
@@ -3118,18 +3118,6 @@
     "startDate": "2024-09-17",
     "endDate": "2026-06-10",
     "description": "G07A02.01. ASIAS. FY23 F&E FUNDS TO APPLY FOR THE NEW TASK ORDER #TBD FOR 75 SOFTWARE LICENSES/CORES ($507,655.44) FOR SERVICES ($209,888.91)"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W56KGY25F0101",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 5528367.79,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-05-16",
-    "endDate": "2025-07-15",
-    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING ITEMS IN SUPPORT OF THE CAPABILITY DROP 2 REQUIREMENT: AIDP SOFTWARE LICENSES"
   },
   {
     "company": "Palantir",
@@ -3708,6 +3696,18 @@
     "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE CAPABILITY DROP (CD) 2 DATA FABRIC AND ANALYTICS REQUIREMENT: 2 LOW COMPLEXITY DATA INTEGRATION AND 2 EXERCISE SUPPORT."
   },
   {
+    "company": "Palantir",
+    "awardId": "47QACA26F0050",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 300000.0,
+    "agency": "General Services Administration",
+    "subAgency": "Federal Acquisition Service",
+    "awardType": null,
+    "startDate": "2026-01-05",
+    "endDate": "2026-04-04",
+    "description": "SBA FRAUD PREVENTION PILOT AND BOOTCAMP"
+  },
+  {
     "company": "Palantir Technologies",
     "awardId": "W911QX24F0053",
     "recipientName": "PALANTIR USG INC",
@@ -3817,6 +3817,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W519TC26F0012",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 68919805.47,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-12-11",
+    "endDate": "2026-12-15",
+    "description": "ARMY VANTAGE DATA ANALYTICS PLATFORM."
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "FA880625FB009",
     "recipientName": "PALANTIR USG INC",
     "amount": 64715793.0,
@@ -3829,18 +3841,6 @@
   },
   {
     "company": "Palantir Technologies",
-    "awardId": "W519TC26F0012",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 56999277.43,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-12-11",
-    "endDate": "2026-12-15",
-    "description": "ARMY VANTAGE DATA ANALYTICS PLATFORM."
-  },
-  {
-    "company": "Palantir Technologies",
     "awardId": "N0018926FZ079",
     "recipientName": "PALANTIR USG INC",
     "amount": 56000000.0,
@@ -3848,7 +3848,7 @@
     "subAgency": "Department of the Navy",
     "awardType": null,
     "startDate": "2026-01-30",
-    "endDate": "2027-01-12",
+    "endDate": "2027-01-29",
     "description": "OPERATIONAL LEVEL -"
   },
   {
@@ -4306,18 +4306,6 @@
     "startDate": "2024-09-17",
     "endDate": "2026-06-10",
     "description": "G07A02.01. ASIAS. FY23 F&E FUNDS TO APPLY FOR THE NEW TASK ORDER #TBD FOR 75 SOFTWARE LICENSES/CORES ($507,655.44) FOR SERVICES ($209,888.91)"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W56KGY25F0101",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 5528367.79,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-05-16",
-    "endDate": "2025-07-15",
-    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING ITEMS IN SUPPORT OF THE CAPABILITY DROP 2 REQUIREMENT: AIDP SOFTWARE LICENSES"
   },
   {
     "company": "Palantir Technologies",
@@ -4906,6 +4894,18 @@
     "startDate": "2026-01-05",
     "endDate": "2026-04-04",
     "description": "SBA FRAUD PREVENTION PILOT AND BOOTCAMP"
+  },
+  {
+    "company": "Palantir Technologies",
+    "awardId": "12314426F0120",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 250000.0,
+    "agency": "Department of Agriculture",
+    "subAgency": "Office of the Chief Financial Officer",
+    "awardType": null,
+    "startDate": "2026-04-06",
+    "endDate": "2026-06-05",
+    "description": "SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) FRAUD IDENTIFICATION AND CASE WORKFLOW PLATFORM PILOT PROGRAM"
   },
   {
     "company": "Space Exploration Technologies",
@@ -5506,6 +5506,18 @@
     "startDate": "2023-11-06",
     "endDate": "2025-06-30",
     "description": "REFINEMENT OF THE KA HIGH THROUGHPUT SYSTEM APPLICATION FOR THE SPACEX INFRASTRUCTURE"
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "19AQMS26P0024",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 3068160.0,
+    "agency": "Department of State",
+    "subAgency": "Department of State",
+    "awardType": null,
+    "startDate": "2026-01-21",
+    "endDate": "2026-02-01",
+    "description": "STARLINK MINI KITS"
   },
   {
     "company": "Space Exploration Technologies",
@@ -7930,18 +7942,6 @@
     "startDate": "2026-04-19",
     "endDate": "2027-04-18",
     "description": "BOSTON DYNAMICS - TECH-2 - NEO MAINTENANCE - SECTION 2(D) EXEMPTION"
-  },
-  {
-    "company": "Boston Dynamics",
-    "awardId": "N6660425P0497",
-    "recipientName": "BOSTON DYNAMICS, INC.",
-    "amount": 2497.06,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2025-05-14",
-    "endDate": "2025-06-02",
-    "description": "PART REPLACEMENT FOR ROBOT"
   },
   {
     "company": "Ginkgo Bioworks",

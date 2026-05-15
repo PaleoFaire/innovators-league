@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T08:44:01.946285Z",
+  "generated_at": "2026-05-15T08:55:11.923110Z",
   "takes": [
     {
       "author": "Next Big Future",
@@ -10,26 +10,6 @@
       "source": "news",
       "source_url": "https://www.nextbigfuture.com/2026/05/cerebras-ai-wafer-sized-compute-raises-ipo-price-nearly-20.html",
       "signal_type": "funding"
-    },
-    {
-      "author": "Crunchbase News",
-      "role": "Industry signal",
-      "company": "Cerebras",
-      "text": "Cerebras Sees Sizzling Demand For IPO Shares",
-      "date": "Wed, 13 Ma",
-      "source": "news",
-      "source_url": "https://news.crunchbase.com/ai/cerebras-ipo-cbrs/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Fervo Energy",
-      "text": "Geothermal startup Fervo Energy pops 33% in IPO debut fueled by AI data center demand",
-      "date": "Wed, 13 Ma",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/",
-      "signal_type": "ipo"
     },
     {
       "author": "Tech.eu",
@@ -52,6 +32,36 @@
       "signal_type": "ipo"
     },
     {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
+      "date": "Tue, 12 Ma",
+      "source": "news",
+      "source_url": "https://spacenews.com/fcc-approves-spacex-spectrum-deal-with-2-4-billion-escrow-condition/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Cerebras",
+      "text": "Cerebras IPO makes billions for Benchmark but VC Eric\u00a0Vishria almost didn&#8217;t take the meeting",
+      "date": "Thu, 14 Ma",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/05/14/cerebras-ipo-makes-billions-for-benchmark-but-vc-eric-vishria-almost-didnt-take-the-meeting/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Cerebras",
+      "text": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
+      "date": "Thu, 14 Ma",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "signal_type": "funding"
+    },
+    {
       "author": "Canary Media",
       "role": "Industry signal",
       "company": "Fervo Energy",
@@ -65,7 +75,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 6,
+    "from_news": 7,
     "from_press": 0
   }
 }
