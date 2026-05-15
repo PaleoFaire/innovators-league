@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.42,
+      "avg_change": -2.66,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 31.32,
+      "avg_change": 14.09,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 1.83,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -1.3,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.47,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -9.04,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.74,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -19.33,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 8.75,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.69,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.03,
+      "avg_change": -5.05,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 5.03,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -1.23,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 12.81,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 6.46,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RKLB",
-      "Rocket Lab",
-      68.68
+      "SATL",
+      "Satellogic",
+      26.18
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      51.47
+      22.54
     ],
     [
-      "SATL",
-      "Satellogic",
-      30.51
+      "RKLB",
+      "Rocket Lab",
+      20.96
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      27.02
+      "ALAB",
+      "Astera Labs",
+      17.44
     ],
     [
-      "PL",
-      "Planet Labs",
-      22.13
+      "ASRHF",
+      "Astroscale",
+      12.48
     ]
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -6.43
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
-      -7.03
+      -9.34
     ],
     [
       "TEM",
       "Tempus AI",
-      -8.07
+      -11.03
     ],
     [
       "DRSHF",
       "DroneShield",
-      -17.54
+      -11.9
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -12.34
     ],
     [
       "LNZA",
       "LanzaTech",
-      -24.28
+      -58.14
     ]
   ],
-  "lastUpdated": "2026-05-15 08:54:13"
+  "lastUpdated": "2026-05-15 14:15:16"
 }
