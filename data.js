@@ -32774,7 +32774,720 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     signal: "watch",
     scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 7 },
     addedDate: "2026-04"
+  },
+  // ─── BLACK FLAG 100 (2026) — added 2026-05-14 ───
+    {
+    name: "9 Mothers",
+    sector: "Defense & Security",
+    description: "9 Mothers builds AI weapons systems. Their first product, EDDA, is a passive counter-drone defense system that uses acoustic detection and AI visual tracking to cue an automated turret, neutralizing small drone threats without emitting detectable signals.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Airbase",
+    sector: "Defense & Security",
+    description: "Airbase modernizes radio-frequency spectrum licensing and coordination for government and commercial operators, replacing legacy workflows with automated, software-driven tools. Its dual-use platform targets the coordination bottleneck, backed by strong tailwinds from regulatory reform, 5G, and defense modernization.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Albacore",
+    sector: "Ocean & Maritime",
+    description: "Albacore builds mass-producible, long-range autonomous underwater vehicles for military use, assembled from commercial components for rapid deployment. Designed for sensing, surveillance, and strike missions, they enable scalable undersea deterrence without legacy procurement constraints.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Altara",
+    sector: "AI & Software",
+    description: "Altara builds AI agents that help frontier industries like semiconductors, batteries, and advanced materials accelerate R&D through manufacturing by turning fragmented technical data into actionable intelligence in minutes instead of months.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "American Housing Corporation",
+    sector: "Housing & Construction",
+    description: "Vertically integrated developer building factory-produced rowhomes for entry-level urban buyers. Proprietary kit-of-parts ships via intermodal containers and assembles in days, cutting costs and timelines traditional construction cannot match.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Anvil Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Anvil Robotics builds a composable hardware and software platform for developing, training, and deploying physical AI. Modular robot arms, sensors, and compute work out of the box, cutting integration time so teams can focus on models and real-world deployment.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Applied Atomics",
+    sector: "Nuclear Energy",
+    description: "Applied Atomics builds and operates modular nuclear fission plants co-located at customer sites, using proven light water reactor technology. Delivered as a turnkey service under a single power purchase agreement, it provides reliable, clean baseload power to data centers, industrial campuses, and utilities.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Armadin",
+    sector: "Defense & Security",
+    description: "Armadin is an AI-powered red teaming platform that continuously finds and eliminates exploitable risk across an organization's attack surface, matching the speed of modern AI-driven threats before adversaries can strike.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Askari Defense",
+    sector: "Defense & Security",
+    description: "Askari builds man-packable counter-robot systems that detect, track, and neutralize autonomous aerial and ground threats at the individual operator level, using onboard AI and optics to operate without network dependency. A software-first platform continuously updates autonomy stacks to match evolving threats.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Atalanta",
+    sector: "Defense & Security",
+    description: "Atalanta uses mathematical proof to verify complex systems behave correctly under all conditions. Its AI platform links mission intent to hardware and software design. Recent partnerships and federal policy are converging to create the market where Atalanta leads.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Athanor",
+    sector: "Robotics & Manufacturing",
+    description: "Athanor builds domestic nitrogen chemistry infrastructure, starting with a proven compound and scaling into pharma, ag, semiconductors, and materials. Vertically integrated from the ground up, it offers supply chain resilience no import-dependent competitor can match.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Atoms",
+    sector: "Robotics & Manufacturing",
+    description: "Atoms builds purpose-built robotic systems for food production, mining, and transport. Applying a software-first mindset to physical operations, it develops optimized machines that sense, predict, and control industrial environments, closing the gap left by software automation.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Atropos",
+    sector: "Drones & Autonomous",
+    description: "Atropos Group designs and builds autonomous unmanned aircraft from a clean sheet, fully vertically integrated across conception, engineering, testing, and operations. Purpose-built for commercial and defense use, the company delivers end-to-end capability rather than off-the-shelf platforms.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Azora",
+    sector: "Space & Aerospace",
+    description: "Azora builds modular optical ground stations for high-speed laser-based data downlinks from spacecraft. Bypassing spectrum-constrained RF systems, it delivers more data per pass at lower cost, scaling across LEO to cislunar missions as satellite data volumes surge.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Becoming",
+    sector: "Biotech & Health",
+    description: "Becoming builds Developmental Intelligence: AI predicting how organisms change over time, using virtual organism models and a robotic metabolic-exchange machine with the first engineered placenta interface, enabling faster, animal-free drug testing and personalized tissue development.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Beyond Reach",
+    sector: "Space & Aerospace",
+    description: "Beyond Reach builds large-scale deployable solar arrays that deliver more power per launch using metamaterials and advanced deployment mechanisms. Their arrays solve the core structural physics challenge that has historically limited array size, positioning them at the center of the booming space infrastructure market.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Bohr Systems",
+    sector: "Defense & Security",
+    description: "Bohr Systems develops onboard seekers for counter-drone interceptors and missiles, sold as subsystems to defense integrators. Their hardware enables precision terminal guidance against aerial threats, addressing surging battlefield demand for affordable, scalable interceptor solutions.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "BootLoop",
+    sector: "AI & Software",
+    description: "AI-powered firmware platform for embedded hardware teams. Automates code generation, testing, and debugging using real hardware, toolchains, and design files. Built for regulated industries like aerospace, defense, and medical devices.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Bubble Robotics",
+    sector: "Ocean & Maritime",
+    description: "Bubble Robotics deploys resident fleets of autonomous surface and subsea robots for continuous offshore infrastructure monitoring, eliminating vessels and crews. Serving offshore energy, maritime security, and climate sectors, it delivers multimodal data as a subscription service with no capex required.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Callosum",
+    sector: "Chips & Semiconductors",
+    description: "Callosum builds systems-level infrastructure enabling diverse chips and AI models to work as a unified intelligent system. By co-evolving the chip and intelligence layers together, it unlocks capabilities that homogeneous compute stacks cannot access, serving AI teams and chip makers alike.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Citra Space Corporation",
+    sector: "Space & Aerospace",
+    description: "Citra Space Corporation develops modular sensing and software solutions that fuse optical, RF, and orbital data to build identity profiles for space objects, giving operators clearer insight into not just where objects are, but what they are and what they are doing.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Cognichip",
+    sector: "Chips & Semiconductors",
+    description: "Cognichip builds a physics-informed foundation AI model for semiconductor design, trained across the full design stack. It cuts chip design cost and cycle time by encoding physical constraints directly into the model, serving chipmakers of all sizes.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Critical Energy",
+    sector: "Climate & Energy",
+    description: "Factory-built modular units convert heat into electricity via a closed-loop process, deploying in weeks instead of years. Targeting geothermal and waste heat, Critical Energy delivers clean baseload power faster and cheaper as global electricity demand surges.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Dispatch Space",
+    sector: "Space & Aerospace",
+    description: "Dispatch Space builds autonomous orbital infrastructure for in-space manufacturing using reusable reentry vehicles. By eliminating all human-support systems and developing components in-house, it dramatically cuts costs, enabling commercially viable microgravity production of high-value materials.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Dispatcher",
+    sector: "Defense & Security",
+    description: "Dispatcher turns commercial drones into autonomous aerial intelligence agents via natural language commands, delivering real-time alerts, heatmaps, and incident reports across security, construction, agriculture, and industry, no manual piloting required.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Dominion Dynamics",
+    sector: "Defense & Security",
+    description: "Dominion Dynamics is a Canadian defense tech company building a multi-domain sensing and command network for Arctic and remote environments, fusing commercial sensors across land, sea, air, and space through a sovereign AI layer for persistent ISR coverage.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Electroflow",
+    sector: "Climate & Energy",
+    description: "Electroflow Technologies uses lithium-selective electrodes to extract battery-grade lithium directly from low-grade brines, bypassing costly evaporation processes. Its modular, scalable design reduces reagents, water, and land use, unlocking vast North American lithium resources to meet surging EV and grid storage demand.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Enigma Aerospace",
+    sector: "Defense & Security",
+    description: "Enigma Aerospace builds autonomous logistics infrastructure for contested environments, pairing the Phoenix cargo aircraft with the Strata platform for GPS-denied resupply. Founded in 2023, the company raised $7M and is backed by top defense investors and advisors.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Eon Systems",
+    sector: "Biotech & Health",
+    description: "Eon is building the full-stack platform for human uploading, scanning and reconstructing a digital replica of a person at the cellular level using expansion microscopy, AI neural tracing, and structure-to-function emulation.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "EraDrive",
+    sector: "Drones & Autonomous",
+    description: "EraDrive is a Stanford spin-out building compact, AI-powered autonomy modules for spacecraft, enabling GPS-independent navigation, rendezvous operations, and space domain awareness. Flight-proven at TRL-9 on NASA's Starling mission, it serves both defense and commercial markets.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Erebor Bank",
+    sector: "AI & Software",
+    description: "Erebor Bank is a federally chartered digital commercial bank serving B2B clients in AI, defense, robotics, and manufacturing. It offers blockchain-based payment rails, cross-state operations, and specialized underwriting for hard-tech assets under one federal framework.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Fabri",
+    sector: "Robotics & Manufacturing",
+    description: "Fabri builds software-driven investment casting foundries producing high-precision metal parts for aerospace, defense, and industrial use. By integrating AI, robotics, and proprietary equipment, Fabri delivers complex castings in days, not months, meeting rising domestic demand.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Flapping Airplanes",
+    sector: "Drones & Autonomous",
+    description: "Flapping Airplanes is an AI research lab focused on biologically inspired, data-efficient learning. Rather than scaling large models on massive datasets, it builds systems that learn more like living organisms, extracting more signal from less data.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Float Cargo",
+    sector: "Transportation",
+    description: "Float Cargo is building autonomous, long-range cargo airships to disrupt the long-haul market with airfreight service at near-trucking costs. Starting with a 5-ton vessel for remote logistics, Float will scale capacity and range to become the dominant long-haul air cargo option.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Foundry Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Foundry Robotics is an AI-native manufacturing partner using modular robotic cells to assemble complex electromechanical systems. Its flexible, cell-based platform serves commercial and defense customers domestically, addressing supply chain fragility and reshoring demand without costly retooling.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Gallatin",
+    sector: "Defense & Security",
+    description: "Gallatin builds AI-powered defense logistics software spanning demand forecasting, inventory optimization, and asset visibility. Purpose-built for military operations, the platform scales from peacetime efficiency to conflict readiness across the full sustainment chain.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "General Intuition",
+    sector: "AI & Software",
+    description: "Frontier research lab building foundation models for spatial and temporal reasoning. Trained on gameplay video, their AI agents perceive and act in dynamic environments, bridging the gap between language fluency and real-world, embodied intelligence.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "GRU",
+    sector: "Space & Aerospace",
+    description: "GRU Space is building the world's first lunar hotel using inflatable habitats and in-situ resource utilization (ISRU) to process Moon regolith locally. Early guest revenue funds deeper infrastructure, creating a self-sustaining model for permanent off-Earth living.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Heaviside",
+    sector: "Defense & Security",
+    description: "Heaviside Industries builds autonomous precision strike systems for air, land, and sea, optimized for GPS-denied environments. Using miniaturized electronics and EM technology, they deliver cross-domain targeting where conventional munitions fail.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Humans&",
+    sector: "AI & Software",
+    description: "Humans& is a frontier AI lab building models that strengthen human understanding, trust, and collaboration. Unlike typical AI focused on individual productivity, Humans& centers training on relationships and social dynamics, making it essential for complex organizations.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Humble Robotics",
+    sector: "Transportation",
+    description: "Humble Robotics builds autonomous, electric freight haulers that integrate tractor, trailer, and AI control into one cabless platform. By removing the cab and driver, Humble cuts weight, boosts capacity, and eliminates trucking's two biggest costs: fuel and labor.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Kestrel",
+    sector: "Defense & Security",
+    description: "Kestrel builds agentic AI software that autonomously orchestrates sensor networks across space, air, and ground to deliver faster intelligence. Its multi-agent platform dynamically tasks sensors and fuses data, replacing slow manual workflows with real-time decision-making.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Kunin",
+    sector: "Climate & Energy",
+    description: "Kunin builds modular ion-exchange systems that recover critical minerals from mine waste streams. Using proven resin technology in skid-mounted units, it helps U.S. operators unlock stranded mineral value while reducing reliance on Chinese-controlled separation technology.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Loombotic",
+    sector: "Robotics & Manufacturing",
+    description: "Loombotic automates wire harness manufacturing using robotics and AI, turning uploaded schematics into IPC-certified, fully tested assemblies in about a week. No minimums, fast quotes, and any order size supported, cutting the delays that slow hardware teams down.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Lux Aeterna",
+    sector: "Space & Aerospace",
+    description: "Lux Aeterna builds reusable satellites that launch, operate in LEO, and return intact for rapid redeployment. Decoupled payload architecture lets defense and commercial customers iterate fast, cutting lead times and enabling recoverable, fleet-based orbital access.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Maglut Heavy Industries",
+    sector: "Robotics & Manufacturing",
+    description: "Maglut Heavy Industries is building precision rare earth purification technology to restore domestic separation capacity. Based in Long Beach, CA, the company targets the critical gap in U.S. refining infrastructure that leaves defense, semiconductors, and advanced electronics exposed to foreign supply risk.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "MATERIAL",
+    sector: "Climate & Energy",
+    description: "Material 3D prints batteries directly into product structures using a proprietary additive platform, depositing all battery layers in a single process. This enables conformal energy storage across any geometry, freeing designers from the constraints of standardized cells.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Mendra",
+    sector: "Biotech & Health",
+    description: "Mendra is an AI-native biopharma company acquiring and developing therapies for rare diseases. It uses AI to identify patients, curate clinical data, and accelerate trials, operating as a portfolio model partnering with academia, biotech, and patient foundations.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Merge Labs",
+    sector: "Biotech & Health",
+    description: "Merge Labs builds next-gen brain-computer interfaces using molecules and ultrasound instead of implanted electrodes, enabling far greater scale, bandwidth, and accessibility. By combining biotech, neuroscience, hardware, and AI, it overcomes the core limits of existing BCI systems.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Mesh Optical Technologies",
+    sector: "Chips & Semiconductors",
+    description: "Mesh Optical Technologies designs and manufactures high-performance optical transceivers for AI infrastructure. Using automated flip chip die bonding, Mesh delivers the volumes and yields hyperscale computing demands, addressing a critical supply chain bottleneck as AI-driven data center expansion accelerates.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Mind Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Mind Robotics builds a collaborative robot platform using Physical AI to perform generalizable tasks in industrial manufacturing. Its live automotive deployment creates a data flywheel that continuously improves its models, giving it a compounding edge over lab-based competitors.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Noble Machines",
+    sector: "Robotics & Manufacturing",
+    description: "Noble Machines builds humanoid robots for hazardous industrial work. Its integrated AI enables autonomous operation in unstructured environments, addressing labor shortages and safety risks in construction, mining, and manufacturing where traditional automation falls short.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Octavia",
+    sector: "Climate & Energy",
+    description: "Global demand for critical minerals is rising while discovery rates fall. Octavia's AI-native platform processes subsurface data faster and more precisely than conventional methods, cutting time and capital to reach high-confidence drilling targets amid tightening exploration budgets.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Odin Dynamics",
+    sector: "Ocean & Maritime",
+    description: "Odin Dynamics builds autonomous underwater vehicles using a proprietary battery architecture that delivers greater energy density at lower cost. Its modular, attritable platforms enable long-range missions across strike, ISR, and mine warfare applications.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Orbital",
+    sector: "Space & Aerospace",
+    description: "Space-based data centers that use solar energy and radiative cooling to bypass the land, power, and thermal limits holding back AI infrastructure on Earth. As compute demand outpaces grid capacity, off-world infrastructure shifts from speculative to essential.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Orbital Operations",
+    sector: "Space & Aerospace",
+    description: "Orbital Operations builds high-thrust, reusable cryogenic space vehicles that maneuver rapidly across orbital regimes. Using LH2/LOX engines with zero boil-off storage and on-orbit water-based refueling, the vehicle delivers unmatched efficiency, endurance, and rapid response in an increasingly contested space domain.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Orbital Robotics",
+    sector: "Space & Aerospace",
+    description: "Orbital Robotics builds AI-powered robotic arms that autonomously capture and service spacecraft in orbit. Its deep reinforcement learning engine solves the dynamic coupling problem, positioning it at the intersection of commercial satellite growth and rising government demand for autonomous on-orbit servicing.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Path Power",
+    sector: "Infrastructure & Logistics",
+    description: "Path Power is building an autonomous boring system that installs underground electrical conduit faster and cheaper than traditional methods, with no open excavation or drilling fluid, making grid hardening economically viable at the scale utilities need.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Periodic Labs",
+    sector: "AI & Software",
+    description: "Periodic Labs builds AI scientists paired with autonomous physical labs in a closed-loop system where AI designs experiments, robots execute them, and results train the next models, generating proprietary data including negative results to continuously push materials discovery forward.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Perseus Defense",
+    sector: "Defense & Security",
+    description: "Perseus Defense builds affordable, guided micro-missile systems to detect and destroy hostile drones across ground, maritime, and aerial platforms. Designed for mass production using commercial components, Perseus closes the cost gap in modern counter-UAS warfare.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Project Omega",
+    sector: "Nuclear Energy",
+    description: "Project Omega recycles used nuclear fuel using proven chemistry to produce fuel for advanced reactors and off-grid power systems. Its end-to-end model closes critical gaps in the U.S. nuclear fuel cycle amid surging energy demand and national security needs.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Radify Metals",
+    sector: "Robotics & Manufacturing",
+    description: "Radify Metals uses hydrogen cold-plasma to convert metal oxides into pure metals, with water vapor as the only byproduct. Their compact, modular reactors cut costs and support domestic critical metal supply chains, reducing reliance on concentrated foreign sources.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Rendezvous Robotics",
+    sector: "Space & Aerospace",
+    description: "Rendezvous Robotics builds modular, self-assembling spacecraft infrastructure using flat-packed hexagonal tiles that autonomously link together in orbit, enabling antenna arrays and power systems far beyond rocket size limits, unlocking connectivity, defense, and AI compute at unprecedented scale.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Revel",
+    sector: "AI & Software",
+    description: "Revel is a unified software platform for hardware engineering teams to test, operate, and manage complex systems across the full development lifecycle. It combines real-time telemetry, automated discovery, dashboards, and a purpose-built control language in one browser-accessible environment.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Revere",
+    sector: "Defense & Security",
+    description: "Revere builds low-signature mesh communication systems for decentralized command and control at scale, designed for denied, degraded, intermittent, and low-bandwidth environments.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Ricursive Intelligence",
+    sector: "AI & Software",
+    description: "Ricursive Intelligence is a frontier AI lab building an AI-driven platform for semiconductor design. Using reinforcement learning across the full design workflow, it compresses multi-year chip design cycles into a faster, automated process.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Smack",
+    sector: "AI & Software",
+    description: "Smack Technologies builds domain-specific AI models that fuse multimodal data in real time for automated defense decision making. Trained via deep reinforcement learning in synthetic warfare environments, its solutions span command-level and tactical edge deployments.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Spinor Energy",
+    sector: "Climate & Energy",
+    description: "Spinor Energy builds superconducting magnetic energy storage systems that protect hyperscale compute and grid infrastructure from power disruptions. Unlike batteries, they store energy in a magnetic field for near-lossless, degradation-free response to grid instability in sub-second windows.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Star Catcher",
+    sector: "Space & Aerospace",
+    description: "Star Catcher is building the first shared power grid in orbit, using optical power beaming to wirelessly deliver solar energy to existing satellites with no hardware changes needed, treating orbital energy as a scalable utility for commercial, defense, and scientific operators.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Swan",
+    sector: "Defense & Security",
+    description: "Swan builds a modular autonomy platform for unmanned systems that navigate and execute missions without GPS or comms infrastructure. Running directly on each asset, it uses onboard sensing for navigation, mapping, and targeting, staying resilient in contested environments.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "The Bot Company",
+    sector: "Robotics & Manufacturing",
+    description: "The Bot Company is building a general-purpose home robot that handles routine household tasks autonomously. Led by experts in AI and autonomous systems, it targets a largely unautomated market as costs fall and consumer openness to home AI grows.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "UNION",
+    sector: "Defense & Security",
+    description: "UNION builds software-defined, modular factories for defense and mission-critical applications, replacing legacy systems with autonomous, self-learning facilities that enable real-time decisions, rapid retooling, and compounding operational intelligence over time.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Uptool",
+    sector: "AI & Software",
+    description: "Uptool is an AI-powered quoting platform for machine shops that automates the full RFQ-to-estimate workflow. It extracts part requirements, generates accurate quotes faster, and centralizes intake and revisions, replacing manual, error-prone processes.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Vinci",
+    sector: "AI & Software",
+    description: "Vinci uses GPU-accelerated AI to run full-resolution engineering simulations faster than conventional solvers, eliminating meshing and manual setup. Trained on governing physics, it works without proprietary data and scales across semiconductor, defense, and industrial applications.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Volund Manufacturing",
+    sector: "Defense & Security",
+    description: "Volund designs and produces low-cost, attritable small gas turbine engines built for high-rate manufacturing. Unlike legacy defense primes, Volund's vertically integrated, manufacturing-first model is purpose-built to deliver the mass and speed modern deterrence demands.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Voxel Energy",
+    sector: "Infrastructure & Logistics",
+    description: "Voxel Energy builds off-grid data centers that generate and store their own power using on-site solar and repurposed EV batteries, cutting deployment from years to months by bypassing grid interconnection queues entirely.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Voya Energy",
+    sector: "Climate & Energy",
+    description: "Voya Energy develops clean power systems using recycled metals as carbon-free fuel to generate electricity off-grid. Metal fuels are energy-dense, recyclable, and emission-free, addressing gaps where grids are slow, unreliable, or absent.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Western Chemicals",
+    sector: "Climate & Energy",
+    description: "Western Chemicals converts industrial wastewater into low-cost liquid fuels, turning a disposal liability into a sellable commodity. Its dual-sided value proposition cuts waste management costs while producing usable fuel, sitting at the intersection of environmental necessity and economic incentive.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
+  },
+    {
+    name: "Zephyr Fusion",
+    sector: "Nuclear Energy",
+    description: "Zephyr Fusion builds compact, megawatt-class fusion reactors for orbital deployment, delivering far more power than solar arrays at lower cost. Designed to scale beyond solar's limits, they target the growing demand for high-density in-space power.",
+    fundingStage: "Seed/Stealth",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
   }
+
 ];
 
 // ─── VC FIRMS DATABASE ───
