@@ -1,5 +1,29 @@
 [
   {
+    "title": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
+    "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "description": "The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6:05 p.m. EDT Friday on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The SpaceX s",
+    "pubDate": "Fri, 15 May 2026 22:52:14 +0000",
+    "category": "Commercial Resupply",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Astro Mechanica",
+      "Axiom Space",
+      "Cape"
+    ],
+    "sectors": [
+      "space",
+      "climate"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more",
     "link": "https://electrek.co/2026/05/15/podcast-tesla-robotaxi-rivian-r2-configurator-is-live-china-is-taking-over-eu-factories-and-more/",
     "description": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we discuss updates to Tesla Robotaxi, Rivian R2 configurator going live, China taking over EU factories, and more.\n\n\n\nToday’s episode is sponsored by GM Energy. If you ",
@@ -19,7 +43,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2h ago"
+    "time": "3h ago"
   },
   {
     "title": "Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up",
@@ -38,7 +62,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4h ago"
+    "time": "5h ago"
   },
   {
     "title": "Rivian opens R2 configurator: here are all the options and pricing",
@@ -57,7 +81,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "5h ago"
+    "time": "6h ago"
   },
   {
     "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
@@ -76,7 +100,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "6h ago"
+    "time": "7h ago"
   },
   {
     "title": "Dutch dronemaker Destinus in €200m funding talks, reports say",
@@ -95,7 +119,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "6h ago"
+    "time": "7h ago"
   },
   {
     "title": "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clean Energy.",
@@ -114,7 +138,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "7h ago"
+    "time": "8h ago"
   },
   {
     "title": "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives",
@@ -138,7 +162,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "7h ago"
+    "time": "8h ago"
   },
   {
     "title": "Runway started by helping filmmakers — now it wants to beat Google at AI",
@@ -157,7 +181,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "9h ago"
   },
   {
     "title": "Elon Musk’s xAI adds more unpermitted gas generators for data centers",
@@ -176,7 +200,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "15h ago"
   },
   {
     "title": "OpenAI says Codex is coming to your phone",
@@ -249,6 +273,25 @@
     ],
     "sectors": [
       "chips"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "AST SpaceMobile may use ULA’s Vulcan",
+    "link": "https://spacenews.com/ast-spacemobile-may-use-ulas-vulcan/",
+    "description": "AST SpaceMobile may launch some of its direct-to-device satellites on United Launch Alliance’s Vulcan rocket to expand the launch options for its constellation.",
+    "pubDate": "Thu, 14 May 2026 12:07:39 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
+    "matchedCompanies": [
+      "AST SpaceMobile"
+    ],
+    "sectors": [
+      "space"
     ],
     "type": "ipo",
     "impact": "low",
@@ -371,6 +414,46 @@
     "time": "2d ago"
   },
   {
+    "title": "SpaceX sets date for first Starship version 3 launch",
+    "link": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/",
+    "description": "SpaceX has set a date for the long-delayed first launch of its next-generation Starship vehicle, which is critical to the company’s ambitions as well as NASA’s lunar plans.",
+    "pubDate": "Wed, 13 May 2026 11:24:22 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
+    "link": "https://spacenews.com/fcc-approves-spacex-spectrum-deal-with-2-4-billion-escrow-condition/",
+    "description": "SpaceX has the FCC’s blessing to buy EchoStar spectrum to improve direct-to-device services in the United States, subject to a $2.4 billion escrow tied to disputes over the seller’s abandoned terrestrial 5G network buildout.",
+    "pubDate": "Tue, 12 May 2026 22:03:05 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Terrestrial Energy"
+    ],
+    "sectors": [
+      "space",
+      "nuclear"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "3d ago"
+  },
+  {
     "title": "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with full vehicle control",
     "link": "https://electrek.co/2026/05/12/rivian-hey-rivian-ai-assistant-vehicle-control/",
     "description": "Rivian is rolling out its new AI-powered voice assistant to all Gen 1 and Gen 2 R1 owners as part of its latest over-the-air software update. The feature, activated by saying “Hey Rivian” or holding the left steering wheel button, requires an active Connect+ subscription.\n\n\n\nThe assistant is notable",
@@ -469,25 +552,6 @@
     "type": "ipo",
     "impact": "low",
     "time": "5/8/2026"
-  },
-  {
-    "title": "SpaceX is starting to move on from the world&#039;s most successful rocket",
-    "link": "https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/",
-    "description": "",
-    "pubDate": "Wed, 06 May 2026 22:28:47 +0000",
-    "category": "Science",
-    "source": "Ars Technica Space",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "5/6/2026"
   },
   {
     "title": "Practice Makes Deterrence: India’s Next Nuclear Challenge at Sea",
