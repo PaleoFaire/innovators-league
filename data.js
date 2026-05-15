@@ -33929,7 +33929,25 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     source: "Black Flag 100",
     addedDate: "2026-05-14",
     tags: ["black-flag-100"]
+  },
+  {
+    name: "Swan",
+    founded: 2024,
+    sector: "Defense & Security",
+    description: "Defense autonomy startup building a modular software platform that gives unmanned systems navigation, sensing, mapping and precision targeting in GPS- and EW-denied environments. Selected by the Defense Innovation Unit (DIU) as one of four companies to prototype long-range, one-way unmanned aerial systems (Artemis program, 50-300km+ range).",
+    founder: "Dima Kislovskiy",
+    location: "San Francisco, CA",
+    state: "CA",
+    website: "https://swan.tech",
+    fundingStage: "Seed",
+    totalRaised: "$38.5M",
+    keyCustomers: "Department of Defense / Defense Innovation Unit (DIU Artemis program); investors include RTX Ventures (Raytheon strategic).",
+    techApproach: "On-asset (edge) autonomy stack that fuses navigation, perception, mapping and targeting; payload-agnostic and modular so it can be fielded across diverse UAS platforms operating in DDIL and GNSS-denied conditions.",
+    source: "Black Flag 100",
+    addedDate: "2026-05-14",
+    tags: ["black-flag-100"]
   }
+
 
 ];
 
