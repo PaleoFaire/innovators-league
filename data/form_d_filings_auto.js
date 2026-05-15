@@ -1,25 +1,25 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-14 09:45:06 UTC
+// Last updated: 2026-05-15 09:55:41 UTC
 // Total: 1 filings across 1 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-14T09:45:06.594226+00:00",
+  "generated_at": "2026-05-15T09:55:41.313483+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
   "total_filings": 1,
   "filings": [
     {
-      "company": "Positron AI",
-      "issuer_name": "Positron AI, Inc",
+      "company": "Lunar Outpost",
+      "issuer_name": "Lunar Outpost Inc",
       "form": "D",
-      "filed_date": "2026-05-12",
-      "cik": "2077932",
-      "accession": "0002077932-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002077932&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002077932-26-000002",
-      "offering_amount": "233885560",
-      "amount_sold": "233885560",
-      "amount_remaining": "0",
+      "filed_date": "2026-05-14",
+      "cik": "1926627",
+      "accession": "0001926627-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001926627&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001926627-26-000002",
+      "offering_amount": "37115096",
+      "amount_sold": "32115099",
+      "amount_remaining": "4999997",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",

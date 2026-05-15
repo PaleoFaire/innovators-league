@@ -1,30 +1,12 @@
 [
   {
-    "date": "2026-05-14",
-    "vehicle": "Zhuque-2E | Mass Simulator",
-    "payload": "Mass Simulator",
-    "pad": "Launch Area 96A, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/4aa02420-1bcb-4dd9-afa8-06d5ff89d248/?format=json",
-    "trackedCompany": "ULA"
-  },
-  {
     "date": "2026-05-15",
-    "vehicle": "Kinetica 1 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Kinetica 1 | 5 satellites",
+    "payload": "5 satellites",
     "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "CAS Space",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/4d70f2c0-953e-4fbc-b579-3c901c06a158/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-05-15",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
-    "payload": "Starlink Group 17-37",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/75a35be5-b3bd-4591-b978-9a876da9fa96/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-05-15",
@@ -36,9 +18,18 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-05-16",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
+    "payload": "Starlink Group 17-37",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/75a35be5-b3bd-4591-b978-9a876da9fa96/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-05-17",
-    "vehicle": "Long March 8 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 8 | SpaceSail Polar Group TBD",
+    "payload": "SpaceSail Polar Group TBD",
     "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/aef8f8ea-522b-4bdb-9d57-212bbe981946/?format=json",
@@ -91,15 +82,6 @@
   },
   {
     "date": "2026-05-21",
-    "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
-    "payload": "GISAT-1A (EOS-05)",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-05-21",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-31",
     "payload": "Starlink Group 10-31",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
@@ -132,6 +114,15 @@
     "pad": "201, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/6d2beb1a-6869-4505-9fc1-a4aa224178e2/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-05-31",
+    "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
+    "payload": "GISAT-1A (EOS-05)",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
     "trackedCompany": null
   },
   {
@@ -448,5 +439,14 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | Crew-13",
+    "payload": "Crew-13",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]
