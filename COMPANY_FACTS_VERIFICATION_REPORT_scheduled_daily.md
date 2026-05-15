@@ -1,106 +1,94 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-14T08:28:56+00:00  
+**Generated:** 2026-05-15T08:40:21+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 22 companies  
+**Cohort size:** 20 companies  
 
-**New Claude extractions this run:** 21  
+**New Claude extractions this run:** 19  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 15 | 68% |
-| 🔧 Changes proposed | 7 | 32% |
+| ✅ Cleared (data matches sources) | 14 | 70% |
+| 🔧 Changes proposed | 6 | 30% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (7 companies)
+## 🔧 Proposed Changes (6 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
 ### Cerebras
 
-- **`fundingStage`:** `Pre-IPO` → `Public`  
+- **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Cerebras)
 
-  **Notes:** Company filed for IPO in September 2024, withdrew registration in October 2025, and filed again in April 2026. In May 2026, company filed amended registration statement for IPO on Nasdaq at $26.6B valuation, listing date May 14, 2026 under symbol CBRS. Wikipedia indicates company shifted to profitability in 2025 with net income of $87.9M on revenue of $510M. Database entry's reference to '$23B valuation' and 'Pre-IPO status' is outdated; current verified valuation is $26.6B and company is now public as of May 2026.
+  **Notes:** Company went public in May 2026 on Nasdaq under ticker CBRS. Previous IPO filing in September 2024 was withdrawn in October 2025, but company refiled in April 2026 with amended registration targeting $26.6B valuation. May 2026 filing reported net income of $87.9 million on revenue of $510 million for 2025 fiscal year, indicating shift to profitability.
 
 ### Fervo Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
-  Sources: [company_website](https://fervoenergy.com) · [news (TechCrunch)](https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/)
+  Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** Company completed IPO in May 2026 (announced April 17, 2026; pricing announced May 12, 2026). Wikipedia source indicates company status as 'Private' but website and news sources confirm IPO completion in May 2026. Most recent funding: $462M Series E in November 2025, led by B Capital.
-
-### Fractile
-
-- **`fundingStage`:** `Seed` → `Series B`  
-  Sources: [news (Tech.eu)](https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/)
-- **`totalRaised`:** `$15M` → `$220M`  
-  Sources: [news (Tech.eu)](https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/)
-- **`investors`:** `[]` → `['Accel', 'Factorial Funds', 'Founders Fund']`  
-  Sources: [news (Tech.eu)](https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/)
-
-  **Notes:** Founded year not explicitly stated in sources. Source [2] (Wikipedia) is about the statistical term 'quantile' and not relevant to the company. May 2026 news date appears to be fictional/test data. Company operates from both Bristol and London locations per source [1].
+  **Notes:** IPO announced May 2026 (sources [0]). Wikipedia lists company type as 'Private' but website newsroom announces IPO pricing on May 12, 2026. Most recent funding was Series E of $462 million in November 2025 led by B Capital (source [2]).
 
 ### Nuro
 
 - **`fundingStage`:** `Series G` → `Series E`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Nuro)
 
-  **Notes:** Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding round opened in April 2025 ($106M) and closed in August 2025 ($97M additional). $6B valuation confirmed in August 2025 funding round with Uber and Nvidia.
+  **Notes:** Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 with $106M and closed in August 2025 with additional $97M. Most recent funding in August 2025 valued company at $6B with Uber and Nvidia as investors.
 
 ### OpenAI
 
 - **`founder`:** `Sam Altman, Greg Brockman, Ilya Sutskever` → `Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/OpenAI)
 
-  **Notes:** Founded December 8, 2015 as nonprofit; transitioned to capped for-profit in 2019; 2025 restructuring converted subsidiary into public benefit corporation (PBC) 26% owned by nonprofit foundation. October 2025 $6.6 billion share sale valued company at $500 billion. Microsoft invested over $13 billion and owns 27%.
+  **Notes:** Wikipedia source [1] states: 'In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion.' Company transitioned from nonprofit (founded 2015) to capped for-profit subsidiary structure in 2019, then to for-profit public benefit corporation in 2025 restructuring. Database entry claims $300B valuation and $13B+ raised; however, the most recent verified valuation from sources is $500B from October 2025 share sale. Total capital pledged at founding was $1 billion, but actual capital collected by 2021 was only $133.2 million according to Wikipedia tax filings.
 
-### Rivian
+### Quantinuum
 
-- **`location`:** `Irvine, California` → `Irvine, California, U.S.`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rivian)
+- **`location`:** `Cambridge, UK / Broomfield, Colorado, USA` → `Cambridge, UK; Broomfield, Colorado, USA`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Quantinuum)
 
-  **Notes:** Founded in Rockledge, Florida in June 2009, originally as Mainstream Motors, renamed to Avera Automotive and then Rivian Automotive in 2011. Headquarters now in Irvine, California. IPO on November 10, 2021. Wikipedia lists Ford's ownership at 1.6% as of 2024, down from earlier stakes mentioned in source.
+  **Notes:** Valuation differs from database entry ($5B per Wikipedia vs $10B in database). Total raised matches database ($625M). Ilyas Khan is listed as founder of Cambridge Quantum (2014) and founding CEO of Quantinuum, not solely 'founder' in traditional sense. Current CEO is Rajeeb Hazra (as of 2023); Khan is now Head of Special Projects and Vice-Chairman.
 
 ### SpaceX
 
 - **`fundingStage`:** `Series G` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Source [0] is a domain sales page and provides no reliable company information. Source [1] indicates SpaceX is expected to have an IPO in 2026 but does not provide current_stage as Series G or other funding round designation. Database entry claims '$10B+' total_raised and 'Series G' stage, but these cannot be verified from sources provided.
+  **Notes:** Source [0] is a domain registration page and provides no company information. Sources [2] and [3] are news article headlines without full content provided. Wikipedia source [1] states SpaceX 'is expected to have an initial public offering (IPO) in 2026' but this is stated as a future expectation, not current status. Database entry claims 'Series G' and '$10B+' total raised, but these cannot be verified from provided sources.
 
 ---
 
-## ✅ Cleared (15 companies)
+## ✅ Cleared (14 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
 - Anthropic
-- Astera Labs
 - Deterrence
-- Dexterity
+- Fractile
 - Galvanick
 - Hidden Level
 - ICON
 - IonQ
-- Physical Intelligence
-- Quantinuum
-- Rebellions
-- Skild AI
-- Terrestrial Energy
+- Percepto
+- Pivotal
+- Rivian
+- Vast
 - Waymo
+- ideaForge
 - xAI
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-14T08:28:56+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-15T08:40:21+00:00*
