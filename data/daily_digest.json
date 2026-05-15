@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T11:26:57.574978+00:00",
+  "generatedAt": "2026-05-15T14:28:03.686715+00:00",
   "date": "2026-05-15",
   "dateDisplay": "Friday, May 15, 2026",
   "sections": {
@@ -61,60 +61,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 132.55,
-        "changePercent": 68.68,
-        "change": 53.97
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 36.52,
-        "changePercent": 51.47,
-        "change": 12.41
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 10.28,
+        "changePercent": -58.14,
+        "change": -14.28
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 8.64,
-        "changePercent": 30.51,
-        "change": 2.02
+        "price": 9.55,
+        "changePercent": 26.18,
+        "change": 1.98
       },
       {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 83.01,
-        "changePercent": 27.02,
-        "change": 17.66
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 35.5,
+        "changePercent": 22.54,
+        "change": 6.53
       },
       {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 17.15,
-        "changePercent": -24.28,
-        "change": -5.5
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 127.58,
+        "changePercent": 20.96,
+        "change": 22.11
       },
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 43.04,
-        "changePercent": 22.13,
-        "change": 7.8
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 57.47,
-        "changePercent": 20.53,
-        "change": 9.79
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 234.63,
+        "changePercent": 17.44,
+        "change": 34.84
       },
       {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 11.54,
-        "changePercent": 20.21,
-        "change": 1.94
+        "changePercent": 12.48,
+        "change": 1.28
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 63.56,
+        "changePercent": -12.34,
+        "change": -8.95
+      },
+      {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 2.28,
+        "changePercent": -11.9,
+        "change": -0.31
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB +68.7%"
+    "topMover": "LNZA -58.1%"
   }
 }
