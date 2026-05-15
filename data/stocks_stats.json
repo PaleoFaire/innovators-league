@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 31.43,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 31.32,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 2.58,
+      "avg_change": 1.83,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.66,
+      "avg_change": -3.03,
       "count": 3
     },
     "transportation": {
@@ -111,5 +111,5 @@
       -24.28
     ]
   ],
-  "lastUpdated": "2026-05-15 03:49:22"
+  "lastUpdated": "2026-05-15 08:54:13"
 }
