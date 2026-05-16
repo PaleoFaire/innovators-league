@@ -46816,12 +46816,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-16 20:59
+// Last updated: 2026-05-16 21:57
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "21h ago", impact: "medium", unread: true },
-  { id: 4, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "22h ago", impact: "low", unread: true },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "6h ago", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "22h ago", impact: "medium", unread: true },
+  { id: 4, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "23h ago", impact: "low", unread: true },
   { id: 5, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "1d ago", impact: "low", unread: false },
