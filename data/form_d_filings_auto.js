@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-15 09:55:41 UTC
-// Total: 1 filings across 1 companies
+// Last updated: 2026-05-16 08:47:36 UTC
+// Total: 2 filings across 2 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-15T09:55:41.313483+00:00",
+  "generated_at": "2026-05-16T08:47:36.405848+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 1,
+  "total_filings": 2,
   "filings": [
     {
       "company": "Lunar Outpost",
@@ -20,6 +20,23 @@ const FORM_D_FILINGS = {
       "offering_amount": "37115096",
       "amount_sold": "32115099",
       "amount_remaining": "4999997",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "ICON",
+      "issuer_name": "ICON ARK CO-INVESTMENT, L.P",
+      "form": "D",
+      "filed_date": "2026-05-14",
+      "cik": "1975620",
+      "accession": "0001975620-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001975620&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001975620-26-000002",
+      "offering_amount": "Indefinite",
+      "amount_sold": "38432250",
+      "amount_remaining": "Indefinite",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",

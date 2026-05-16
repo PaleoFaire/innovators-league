@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-05-15 09:37:07 UTC
+// Last updated: 2026-05-16 08:29:56 UTC
 const ARXIV_PAPERS = [
   { id: "2605.15179v1", title: "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routi", category: "Artificial Intelligence", published: "2026-05-14", sectors: "ai", authors: "Ellwil Sharma, Arastu Sharma" },
   { id: "2605.15156v1", title: "MeMo: Memory as a Model", category: "Artificial Intelligence", published: "2026-05-14", sectors: "ai", authors: "Ryan Wei Heng Quek, Sanghyuk Lee, Alfred Wei Lun Leong et al." },

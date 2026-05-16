@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-05-15 09:36:49 UTC
+// Last updated: 2026-05-16 08:29:42 UTC
 // Total grants: 634 | Known companies: 14 | SBIR: 15
-// Total funding tracked: $403,875,406
+// Total funding tracked: $403,872,130
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -1863,19 +1863,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Subgroup delineation in genetic epilepsies and developmental brain disorders",
-    organization: "CHILDREN'S HOSP OF PHILADELPHIA",
-    orgState: "PA",
-    piName: "Ingo  Helbig",
-    fiscalYear: 2026,
-    awardAmount: 691483,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "PROJECT SUMMARY Over the last decade, there has been an exponential increase in identified genetic causes of neurodevelopmental disorders and epilepsy. With more than 100 genes identified, understandi",
-    terms: ["Accounting", "Address", "Age", "Age Factors", "Anticonvulsants", "Brain Diseases", "Clinical", "Clinical Data"],
-    isKnownCompany: false,
-  },
-  {
     title: "Optimizing lipid nanoparticles for retinal gene editing in the NHP",
     organization: "LEGACY EMANUEL HOSPITAL AND HEALTH CENTER",
     orgState: "OR",
@@ -1899,6 +1886,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY/ABSTRACT Each year, over 100,000 patients in the US are diagnosed with favorable-risk prostate cancer for which clinical guidelines recommend active surveillance. Active surveillance (",
     terms: ["Aftercare", "Artificial Intelligence", "Biological Markers", "Biopsy", "Cancer Biology", "Classification", "Clinical", "Clinical Data"],
+    isKnownCompany: false,
+  },
+  {
+    title: "A computational phenotyping approach to characterize neurogenetic disorders",
+    organization: "CHILDREN'S HOSP OF PHILADELPHIA",
+    orgState: "PA",
+    piName: "Ingo  Helbig",
+    fiscalYear: 2026,
+    awardAmount: 688207,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "PROJECT SUMMARY Over the last decade, there has been an exponential increase in identified genetic causes of neurodevelopmental disorders and epilepsy. With more than 100 genes identified, understandi",
+    terms: ["Address", "Adolescent", "Anticonvulsants", "Brain Diseases", "Caring", "Case Series", "Case Study", "Child"],
     isKnownCompany: false,
   },
   {

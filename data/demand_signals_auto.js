@@ -1,5 +1,5 @@
 // Auto-generated demand signals data
-// Last updated: 2026-05-15 09:36:53 UTC
+// Last updated: 2026-05-16 08:29:31 UTC
 // Total signals: 44 | Companies matched: 193
 
 const GOV_DEMAND_SIGNALS_AUTO = [
@@ -1856,6 +1856,13 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Fabri",
+        "score": 42,
+        "matchReasons": [
+          "name: Fabri"
+        ]
+      },
+      {
         "name": "Radiant",
         "score": 29,
         "matchReasons": [
@@ -1931,17 +1938,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: microreactor",
           "tag: haleu"
         ]
-      },
-      {
-        "name": "Deep Atomic",
-        "score": 21,
-        "matchReasons": [
-          "tag: nuclear",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Fabri",
       "Radiant",
       "Oklo",
       "General Matter",
@@ -1950,8 +1950,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Last Energy",
       "Exodys Energy",
       "Standard Nuclear",
-      "Nano Nuclear Energy",
-      "Deep Atomic"
+      "Nano Nuclear Energy"
     ]
   },
   {
@@ -1975,6 +1974,13 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "posted": "2026-01-15",
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
+      {
+        "name": "Material",
+        "score": 40,
+        "matchReasons": [
+          "name: Material"
+        ]
+      },
       {
         "name": "Marathon Fusion",
         "score": 34,
@@ -2053,17 +2059,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: nuclear",
           "tag: energy"
         ]
-      },
-      {
-        "name": "TS Conductor",
-        "score": 20,
-        "matchReasons": [
-          "tag: conductors",
-          "tag: energy"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Material",
       "Marathon Fusion",
       "Kyoto Fusioneering",
       "Commonwealth Fusion Systems",
@@ -2072,8 +2071,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Tokamak Energy",
       "Renaissance Fusion",
       "TAE Technologies",
-      "Valar Atomics",
-      "TS Conductor"
+      "Valar Atomics"
     ]
   },
   {
@@ -3947,6 +3945,13 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Material",
+        "score": 40,
+        "matchReasons": [
+          "name: Material"
+        ]
+      },
+      {
         "name": "Hermeus",
         "score": 26,
         "matchReasons": [
@@ -3981,6 +3986,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
+      "Material",
       "Hermeus",
       "Castelion",
       "Venus Aerospace",
@@ -5382,6 +5388,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Next-Generation Earth Observation Capabilities"
     ]
   },
+  "Fabri": {
+    "name": "Fabri",
+    "govPullScore": 22,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 42,
+    "topSignals": [
+      "Advanced HALEU Fuel Fabrication Capabilities"
+    ]
+  },
   "Oklo": {
     "name": "Oklo",
     "govPullScore": 18,
@@ -5471,16 +5489,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced HALEU Fuel Fabrication Capabilities"
     ]
   },
-  "Deep Atomic": {
-    "name": "Deep Atomic",
-    "govPullScore": 16,
-    "matchCount": 1,
+  "Material": {
+    "name": "Material",
+    "govPullScore": 32,
+    "matchCount": 2,
     "topAgencies": [
-      "Department of Energy (DOE)"
+      "ARPA-E",
+      "Department of Defense"
     ],
-    "avgRelevance": 21,
+    "avgRelevance": 40,
     "topSignals": [
-      "Advanced HALEU Fuel Fabrication Capabilities"
+      "Compact Fusion Pilot Plant Technologies",
+      "Hypersonic Vehicle Thermal Protection Materials"
     ]
   },
   "Marathon Fusion": {
@@ -5575,18 +5595,6 @@ const GOV_PULL_SCORES_AUTO = {
       "ARPA-E"
     ],
     "avgRelevance": 25,
-    "topSignals": [
-      "Compact Fusion Pilot Plant Technologies"
-    ]
-  },
-  "TS Conductor": {
-    "name": "TS Conductor",
-    "govPullScore": 18,
-    "matchCount": 1,
-    "topAgencies": [
-      "ARPA-E"
-    ],
-    "avgRelevance": 20,
     "topSignals": [
       "Compact Fusion Pilot Plant Technologies"
     ]
@@ -6728,5 +6736,5 @@ const DEMAND_SIGNALS_STATS = {
     "Environmental Protection Agency (EPA)": 1
   },
   "companiesMatched": 193,
-  "lastUpdated": "2026-05-15 09:36:53 UTC"
+  "lastUpdated": "2026-05-16 08:29:31 UTC"
 };

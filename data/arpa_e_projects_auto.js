@@ -1,7 +1,7 @@
 // Auto-generated ARPA-E project data
-// Last updated: 2026-05-15 09:41:25 UTC
+// Last updated: 2026-05-16 08:33:27 UTC
 // Total projects: 1698 | Active: 329
-// Private companies: 682 | Known TIL: 115
+// Private companies: 682 | Known TIL: 136
 // Unique organizations: 724 | Total funding: $4,287,471,056
 const ARPA_E_PROJECTS_AUTO = [
   {
@@ -105,7 +105,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "14,300,000",
     programAcronym: "None",
     technologyAreas: ["Building Materials", "Buildings"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -1379,7 +1379,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "5,657,477",
     programAcronym: "Integration and Optimization of Novel Ion-Conducting Solids",
     technologyAreas: ["Batteries", "Transportation", "Storage", "Grid"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -1821,7 +1821,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "5,000,000",
     programAcronym: "Rapid Encapsulation of Pipelines Avoiding Intensive Replacement",
     technologyAreas: ["Exploration & Extraction", "Resources"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -1951,7 +1951,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,958,074",
     programAcronym: "Open Funding Solicitation",
     technologyAreas: ["Renewables", "Power Generation"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -2081,7 +2081,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,877,239",
     programAcronym: "Open Funding Solicitation",
     technologyAreas: ["Other - Resources", "Resources"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -2198,7 +2198,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,782,000",
     programAcronym: "Open Funding Solicitation",
     technologyAreas: ["Materials", "Resources", "Transmission & Distribution", "Grid"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -2575,7 +2575,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,371,028",
     programAcronym: "Batteries for Electrical Energy Storage in Transportation",
     technologyAreas: ["Batteries", "Transportation"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -5682,7 +5682,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,252,709",
     programAcronym: "Modern Electro/Thermochemical Advances in Light Metals Systems",
     technologyAreas: ["Other - Industrial Efficiency", "Industrial Efficiency"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -6098,7 +6098,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,145,783",
     programAcronym: "Strategies for Wide Bandgap, Inexpensive Transistors for Controlling High-Efficiency Systems",
     technologyAreas: ["Materials", "Resources"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {

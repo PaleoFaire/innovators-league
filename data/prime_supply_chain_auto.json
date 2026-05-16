@@ -2,7 +2,7 @@
   {
     "prime": "Lockheed Martin",
     "ticker": "LMT",
-    "totalCompanies": 9,
+    "totalCompanies": 10,
     "portfolio": [
       {
         "company": "Anduril",
@@ -33,6 +33,15 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Hypersonic propulsion development"
+      },
+      {
+        "company": "Material",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1676.6M",
+        "agency": "Department of Defense",
+        "evidence": "FY13 LONG LEAD MATERIAL",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0003012C0101_9700_-NONE-_-NONE-"
       },
       {
         "company": "Nano Nuclear Energy",
@@ -66,7 +75,7 @@
   {
     "prime": "Northrop Grumman",
     "ticker": "NOC",
-    "totalCompanies": 7,
+    "totalCompanies": 9,
     "portfolio": [
       {
         "company": "Anduril",
@@ -75,10 +84,28 @@
         "evidence": "Sentry/Lattice integration"
       },
       {
+        "company": "Material",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$584.3M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE CONTRACTOR SHALL PROVIDE ALL PERSONNEL, FACILITIES, EQUIPMENT, MATERIAL, AND SERVICES NECESSARY TO DESIGN, DEVELOP, MANUFACTURE, INTEGRATE, TEST, AND DELIVER THE HARDWARE, DOCUMENTATION, AND SERVI",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG11XA04C_8000_-NONE-_-NONE-"
+      },
+      {
         "company": "Observable Space",
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "northrop grumman"
+      },
+      {
+        "company": "Orbital",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1574.4M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS OF COMMERCIAL ORBITAL TRANSPORTATION SERVICES SPACE ACT AGREEMENT DEVELOPMENT PROGRAM AND AN EXISTING INTERNATIONAL SPA",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNH15CN76C_8000_-NONE-_-NONE-"
       },
       {
         "company": "Picogrid",
@@ -116,9 +143,73 @@
     ]
   },
   {
+    "prime": "General Dynamics",
+    "ticker": "GD",
+    "totalCompanies": 8,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Counter-drone systems"
+      },
+      {
+        "company": "HawkEye 360",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "RF geolocation for intel missions"
+      },
+      {
+        "company": "Material",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$696.1M",
+        "agency": "Department of Defense",
+        "evidence": "AWARD DELIVERY ORDER W56HZV-19-F-0116 (0005) AGAINST THE ABRAMS REQUIREMENTS CONTRACT (ARC) TO PROCURE 174 ABRAMS VEHICLE UPGRADES TO THE LATEST M1A2 SYSTEM ENHANCEMENT PACKAGE VERSION 3 (SEPV3) CONFI",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV19F0116_9700_W56HZV18D0012_9700"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Mission Command software"
+      },
+      {
+        "company": "Shield AI",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "V-BAT autonomy for GCS integration"
+      },
+      {
+        "company": "Union",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "general dynamics"
+      },
+      {
+        "company": "general",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1219.8M",
+        "agency": "Department of State",
+        "evidence": "IGF::OT::IGF THE PURPOSE OF THIS ACTION IS TO ESTABLISH A NEW CONTRACT WITH GENERAL DYNAMICS INFORMATION TECHNOLOGY FOR GLOBAL SUPPLY CHAIN MANAGEMENT, LOGISTICS AND TECHNOLOGY DEVELOPMENT SERVICES TO",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA12C0130_1900_-NONE-_-NONE-"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1248.4M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE SPACE NETWORK (SN) CONSISTS OF A SPACE SEGMENT COMPRISED OF THE TRACKING AND DATA RELAY SATELLITES (TDRSS), AND A GROUND SEGMENT (SNGS). THE SN PROVIDES THE CAPABILITY FOR GLOBAL SPACE-TO-GROUND T",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10DB04C_8000_-NONE-_-NONE-"
+      }
+    ]
+  },
+  {
     "prime": "Raytheon / RTX",
     "ticker": "RTX",
-    "totalCompanies": 6,
+    "totalCompanies": 7,
     "portfolio": [
       {
         "company": "Anduril",
@@ -139,6 +230,15 @@
         "evidence": "High-power microwave counter-drone"
       },
       {
+        "company": "Material",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$786.8M",
+        "agency": "Department of Defense",
+        "evidence": "MATERIAL CONSOLIDATION POINT",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W31P4Q10C0089_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "Observable Space",
         "relationship": "mentioned",
         "source": "ROS company research",
@@ -155,55 +255,6 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Autonomous maritime systems"
-      }
-    ]
-  },
-  {
-    "prime": "General Dynamics",
-    "ticker": "GD",
-    "totalCompanies": 6,
-    "portfolio": [
-      {
-        "company": "Anduril",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Counter-drone systems"
-      },
-      {
-        "company": "HawkEye 360",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "RF geolocation for intel missions"
-      },
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Mission Command software"
-      },
-      {
-        "company": "Shield AI",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "V-BAT autonomy for GCS integration"
-      },
-      {
-        "company": "general",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1219.8M",
-        "agency": "Department of State",
-        "evidence": "IGF::OT::IGF THE PURPOSE OF THIS ACTION IS TO ESTABLISH A NEW CONTRACT WITH GENERAL DYNAMICS INFORMATION TECHNOLOGY FOR GLOBAL SUPPLY CHAIN MANAGEMENT, LOGISTICS AND TECHNOLOGY DEVELOPMENT SERVICES TO",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA12C0130_1900_-NONE-_-NONE-"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1248.4M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE SPACE NETWORK (SN) CONSISTS OF A SPACE SEGMENT COMPRISED OF THE TRACKING AND DATA RELAY SATELLITES (TDRSS), AND A GROUND SEGMENT (SNGS). THE SN PROVIDES THE CAPABILITY FOR GLOBAL SPACE-TO-GROUND T",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10DB04C_8000_-NONE-_-NONE-"
       }
     ]
   },
@@ -247,6 +298,52 @@
         "agency": "Department of Commerce",
         "evidence": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2",
         "url": "https://www.usaspending.gov/award/CONT_AWD_DOCDG133E09CN0094_1330_-NONE-_-NONE-"
+      }
+    ]
+  },
+  {
+    "prime": "BAE Systems",
+    "ticker": "BAESY",
+    "totalCompanies": 5,
+    "portfolio": [
+      {
+        "company": "Material",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$2875.1M",
+        "agency": "Department of Defense",
+        "evidence": "LETTER CONTRACT FOR EARLY PROCUREMENT MATERIAL TO SUPPORT THE M109A7/M992A3 VEHICLE PRODUCTION.",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV17C0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Mission software integration"
+      },
+      {
+        "company": "Shift5",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Cyber-operational resilience for military platforms"
+      },
+      {
+        "company": "general",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$2006.7M",
+        "agency": "Department of Defense",
+        "evidence": "THIS ACTION IS COST PLUS INCENTIVE-FEE (CPIF) 52 MONTH ENGINEERING AND MANUFACTURING DEVELOPMENT CONTRACT, WITH THREE FIXED PRICE INCENTIVE (SUCCESSIVE TARGETS) (FPI(S)) OPTION YEARS OF LOW RATE INITI",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15CA001_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$365.7M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
       }
     ]
   },
@@ -318,43 +415,6 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Commercial space systems"
-      }
-    ]
-  },
-  {
-    "prime": "BAE Systems",
-    "ticker": "BAESY",
-    "totalCompanies": 4,
-    "portfolio": [
-      {
-        "company": "Rebellion Defense",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Mission software integration"
-      },
-      {
-        "company": "Shift5",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Cyber-operational resilience for military platforms"
-      },
-      {
-        "company": "general",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$2006.7M",
-        "agency": "Department of Defense",
-        "evidence": "THIS ACTION IS COST PLUS INCENTIVE-FEE (CPIF) 52 MONTH ENGINEERING AND MANUFACTURING DEVELOPMENT CONTRACT, WITH THREE FIXED PRICE INCENTIVE (SUCCESSIVE TARGETS) (FPI(S)) OPTION YEARS OF LOW RATE INITI",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15CA001_9700_-NONE-_-NONE-"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$365.7M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
       }
     ]
   },
