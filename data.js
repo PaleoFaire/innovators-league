@@ -46816,23 +46816,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-16 15:05
+// Last updated: 2026-05-16 16:05
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "15h ago", impact: "medium", unread: true },
-  { id: 3, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "16h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "19h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "21h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "22h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts", source: "TechCrunch", time: "23h ago", impact: "medium", unread: false },
-  { id: 8, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman reportedly takes charge of product strategy", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "16h ago", impact: "medium", unread: true },
+  { id: 4, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "20h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "22h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "23h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
+  { id: 8, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "funding", company: "Rivian", headline: "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
   { id: 10, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "1d ago", impact: "high", unread: false },
   { id: 11, type: "news", company: "Runway", headline: "Runway started by helping filmmakers ' now it wants to beat Google at AI", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "xAI", headline: "Elon Musk's xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "OpenAI", headline: "OpenAI says Codex is coming to your phone", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Cerebras", headline: "Cerebras IPO makes billions for Benchmark but VC Eric'Vishria almost didn't take the meeting", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile may use ULA's Vulcan", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
