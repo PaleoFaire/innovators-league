@@ -1,30 +1,30 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 60,
-    "trend": "steady",
+    "momentum": 64,
+    "trend": "accelerating",
     "catalysts": [
-      "AST SpaceMobile may use ULA\u2019s Vulcan",
-      "Sea, OpenAI launch APAC AI Hackathon series, starting in Sin",
-      "SpaceX sets date for first Starship version 3 launch"
+      "SpaceX launches CRS-34 cargo mission to ISS",
+      "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission t",
+      "Rivian opens R2 configurator: here are all the options and p"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 50,
+      "news": 65,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "AI & Software",
     "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI says Codex is coming to your phone",
-      "Cerebras IPO makes billions for Benchmark but VC Eric\u00a0Vishri",
-      "OpenAI is reportedly preparing legal action against Apple; i"
+      "Greg Brockman Officially Takes Control of OpenAI\u2019s Products",
+      "OpenAI launches ChatGPT for personal finance, will let you c",
+      "OpenAI says Codex is coming to your phone"
     ],
     "fundingQ": "$2218.7B",
     "components": {
@@ -33,42 +33,43 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 53,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
+      "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win",
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge"
+      "Fervo Energy unveils new power plant details in IPO filing"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 48,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
+      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a",
       "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -84,7 +85,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Ocean & Maritime",
@@ -100,7 +101,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Defense & Security",
@@ -109,14 +110,14 @@
     "catalysts": [
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
-    "fundingQ": "$27.5B",
+    "fundingQ": "$32.5B",
     "components": {
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 26
+      "market": 22
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Nuclear Energy",
@@ -134,29 +135,29 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 27,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
-      "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
-      "Waymo recalls 3,791 robotaxis over flooded road incident, de",
-      "Nuro secures California driverless permit for Lucid Gravity"
+      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi",
+      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a",
+      "Waymo expands robotaxi coverage more than 20% \u2014 larger than"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 15,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 24,
+    "momentum": 23,
     "trend": "declining",
     "catalysts": [
       "Cerebras Shares Soar In First Day On Nasdaq",
@@ -168,59 +169,27 @@
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 98
     },
-    "lastUpdated": "2026-05-15"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-15"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 86
-    },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
       "OpenAI is reportedly preparing legal action against Apple; i",
       "Cerebras Shares Soar In First Day On Nasdaq",
-      "Cerebras raises $5.5B, then stock pops $108%, in the first h"
+      "FCC approves SpaceX spectrum deal with $2.4 billion escrow c"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Housing & Construction",
@@ -238,7 +207,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -256,16 +225,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
   },
   {
     "sector": "Biotech & Health",
     "momentum": 9,
     "trend": "declining",
     "catalysts": [
+      "Runway started by helping filmmakers \u2014 now it wants to beat",
       "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
-      "UK AI chip startup Fractile raises $220M to tackle the growi",
-      "SpaceX sets date for first Starship version 3 launch"
+      "UK AI chip startup Fractile raises $220M to tackle the growi"
     ],
     "fundingQ": "$230M",
     "components": {
@@ -274,6 +243,40 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-15"
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 9,
+    "trend": "declining",
+    "catalysts": [
+      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi",
+      "Rivian opens R2 configurator: here are all the options and p",
+      "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 25,
+      "hiring": 0,
+      "market": 2
+    },
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 16
+    },
+    "lastUpdated": "2026-05-16"
   }
 ]

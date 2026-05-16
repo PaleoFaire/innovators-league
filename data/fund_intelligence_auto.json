@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-15T08:55:12.174789Z",
+  "generated_at": "2026-05-16T08:10:24.087678Z",
   "platform": {
-    "companiesTracked": 873,
+    "companiesTracked": 933,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$452.8B",
+    "totalCapitalRaisedTracked": "$456.9B",
     "totalValuationTracked": "$3001.2B",
     "companiesWithValuation": 182,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
-    "dealsTracked": 209,
-    "newsItemsTracked": 31,
-    "dataPointsUpdated": "34,920+"
+    "dealsTracked": 211,
+    "newsItemsTracked": 35,
+    "dataPointsUpdated": "37,320+"
   },
   "topFunds": [
     {
       "fund": "NVIDIA",
-      "portfolio_count": 21,
+      "portfolio_count": 22,
       "companies": [
         "Ayar Labs",
         "Crusoe Energy",
@@ -31,25 +31,29 @@
     },
     {
       "fund": "Founders Fund",
-      "portfolio_count": 7,
+      "portfolio_count": 9,
       "companies": [
         "Amca",
         "Crusoe Energy",
         "General Matter",
         "Impulse Space",
+        "Radify Metals",
         "Senra Systems",
         "Shinkei",
-        "Varda Space Industries"
+        "Varda Space Industries",
+        "Voya Energy"
       ]
     },
     {
       "fund": "a16z",
-      "portfolio_count": 6,
+      "portfolio_count": 8,
       "companies": [
         "Amca",
         "CX2 Industries",
         "Formation Bio",
         "Genesis Therapeutics",
+        "Orbital",
+        "Periodic Labs",
         "Senra Systems",
         "Ulysses Robotics"
       ]
@@ -83,6 +87,24 @@
         "Bear Robotics",
         "OpenAI",
         "Wayve"
+      ]
+    },
+    {
+      "fund": "Khosla Ventures",
+      "portfolio_count": 3,
+      "companies": [
+        "Foundry Robotics",
+        "Nomagic",
+        "Varda Space Industries"
+      ]
+    },
+    {
+      "fund": "Thrive Capital",
+      "portfolio_count": 3,
+      "companies": [
+        "Isomorphic Labs",
+        "Mesh Optical Technologies",
+        "Physical Intelligence"
       ]
     },
     {
@@ -120,22 +142,6 @@
       ]
     },
     {
-      "fund": "Khosla Ventures",
-      "portfolio_count": 2,
-      "companies": [
-        "Nomagic",
-        "Varda Space Industries"
-      ]
-    },
-    {
-      "fund": "Thrive Capital",
-      "portfolio_count": 2,
-      "companies": [
-        "Isomorphic Labs",
-        "Physical Intelligence"
-      ]
-    },
-    {
       "fund": "BlackRock",
       "portfolio_count": 2,
       "companies": [
@@ -149,6 +155,22 @@
       "companies": [
         "Kipu Quantum",
         "Starcloud"
+      ]
+    },
+    {
+      "fund": "Lux Capital",
+      "portfolio_count": 2,
+      "companies": [
+        "Mendra",
+        "Terrahaptix"
+      ]
+    },
+    {
+      "fund": "8VC",
+      "portfolio_count": 2,
+      "companies": [
+        "Mendra",
+        "Terrahaptix"
       ]
     },
     {
@@ -178,37 +200,23 @@
       "companies": [
         "Firestorm Labs"
       ]
-    },
-    {
-      "fund": "Bezos Expeditions",
-      "portfolio_count": 1,
-      "companies": [
-        "HistoSonics"
-      ]
-    },
-    {
-      "fund": "Lux Capital",
-      "portfolio_count": 1,
-      "companies": [
-        "Terrahaptix"
-      ]
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 145,
-    "Defense & Security": 122,
-    "Robotics & Manufacturing": 116,
-    "Climate & Energy": 116,
-    "Biotech & Health": 71,
-    "Chips & Semiconductors": 62,
-    "AI & Software": 61,
-    "Nuclear Energy": 51,
+    "Space & Aerospace": 156,
+    "Defense & Security": 133,
+    "Robotics & Manufacturing": 127,
+    "Climate & Energy": 123,
+    "Biotech & Health": 74,
+    "Chips & Semiconductors": 64,
+    "AI & Software": 62,
+    "Nuclear Energy": 54,
     "Quantum Computing": 43,
-    "Drones & Autonomous": 32,
-    "Transportation": 21,
-    "Housing & Construction": 8,
+    "Drones & Autonomous": 35,
+    "Transportation": 23,
+    "Ocean & Maritime": 11,
+    "Housing & Construction": 9,
     "Consumer Tech": 8,
-    "Ocean & Maritime": 8,
-    "Infrastructure & Logistics": 5
+    "Infrastructure & Logistics": 7
   }
 }
