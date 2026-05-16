@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T06:30:35+00:00",
+  "generatedAt": "2026-05-16T08:55:01+00:00",
   "matrix": {
     "lunar-robotics": {
       "2026-Q2": {
@@ -16,6 +16,30 @@
           }
         ],
         "investors": []
+      }
+    },
+    "construction-3d-printing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 38432250,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "ICON",
+            "amount": 38432250,
+            "date": "2026-05-14",
+            "source": "formd",
+            "investors": [
+              "Founders Fund",
+              "Mark Chen",
+              "Saquon Barkley",
+              "Roman Khan"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund"
+        ]
       }
     },
     "autonomy-drone-military": {
@@ -1287,6 +1311,12 @@
     "Founders Fund": {
       "2026-Q2": [
         {
+          "company": "ICON",
+          "cluster": "construction-3d-printing",
+          "date": "2026-05-14",
+          "source": "formd"
+        },
+        {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
           "date": "2026-05",
@@ -1664,9 +1694,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 62,
-    "totalUSDSold": 32115099,
-    "uniqueClusters": 37,
+    "totalDealsTracked": 63,
+    "totalUSDSold": 70547349,
+    "uniqueClusters": 38,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [

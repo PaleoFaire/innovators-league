@@ -46816,27 +46816,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-16 06:29
-// Auto-generated real-time signals
-// Last updated: 2026-05-16
-// Auto-generated real-time signals
-// Last updated: 2026-05-16
+// Last updated: 2026-05-16 08:54
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "8h ago", impact: "medium", unread: true },
-  { id: 2, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "9h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "12h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up", source: "Wired", time: "14h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "15h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "9h ago", impact: "medium", unread: true },
+  { id: 2, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "10h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "13h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "15h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "16h ago", impact: "low", unread: true },
   { id: 6, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts", source: "TechCrunch", time: "16h ago", impact: "medium", unread: false },
   { id: 7, type: "funding", company: "Rivian", headline: "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea", source: "CleanTechnica", time: "17h ago", impact: "medium", unread: false },
-  { id: 8, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "17h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Runway", headline: "Runway started by helping filmmakers — now it wants to beat Google at AI", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "xAI", headline: "Elon Musk’s xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "18h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Runway", headline: "Runway started by helping filmmakers ' now it wants to beat Google at AI", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "xAI", headline: "Elon Musk's xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "OpenAI", headline: "OpenAI says Codex is coming to your phone", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Cerebras", headline: "Cerebras IPO makes billions for Benchmark but VC Eric Vishria almost didn&#8217;t take the meeting", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn&#8217;t be the first partner to feel burned", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Cerebras", headline: "Cerebras IPO makes billions for Benchmark but VC Eric'Vishria almost didn't take the meeting", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn't be the first partner to feel burned", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile may use ULA’s Vulcan", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile may use ULA's Vulcan", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
