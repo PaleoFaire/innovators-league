@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T00:03:07.133522+00:00",
+  "generatedAt": "2026-05-16T03:53:53.829352+00:00",
   "date": "2026-05-16",
   "dateDisplay": "Saturday, May 16, 2026",
   "sections": {
@@ -63,37 +63,44 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 9.67,
-        "changePercent": -60.63,
-        "change": -14.89
+        "price": 9.73,
+        "changePercent": -60.38,
+        "change": -14.83
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 9.82,
-        "changePercent": 29.72,
-        "change": 2.25
+        "price": 9.84,
+        "changePercent": 29.99,
+        "change": 2.27
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 126.76,
-        "changePercent": 20.19,
-        "change": 21.29
+        "price": 124.77,
+        "changePercent": 18.3,
+        "change": 19.3
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 34.78,
-        "changePercent": 20.06,
-        "change": 5.81
+        "price": 33.89,
+        "changePercent": 16.98,
+        "change": 4.92
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 234.85,
-        "changePercent": 17.55,
-        "change": 35.06
+        "price": 232.68,
+        "changePercent": 16.46,
+        "change": 32.89
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 62.25,
+        "changePercent": -14.15,
+        "change": -10.26
       },
       {
         "ticker": "DRSHF",
@@ -103,18 +110,11 @@
         "change": -0.36
       },
       {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 62.61,
-        "changePercent": -13.65,
-        "change": -9.9
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 84.69,
-        "changePercent": 12.84,
-        "change": 9.64
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 11.54,
+        "changePercent": 12.48,
+        "change": 1.28
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -60.6%"
+    "topMover": "LNZA -60.4%"
   }
 }
