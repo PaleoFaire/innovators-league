@@ -1,94 +1,89 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-15T08:40:21+00:00  
+**Generated:** 2026-05-16T07:50:41+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 20 companies  
+**Cohort size:** 21 companies  
 
-**New Claude extractions this run:** 19  
+**New Claude extractions this run:** 20  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 14 | 70% |
-| 🔧 Changes proposed | 6 | 30% |
+| ✅ Cleared (data matches sources) | 16 | 76% |
+| 🔧 Changes proposed | 5 | 24% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (5 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
+### AST SpaceMobile
+
+- **`location`:** `Midland, TX` → `Midland, Texas, USA`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/AST_SpaceMobile)
+
+  **Notes:** Company founded in May 2017 as AST & Science LLC; went public via SPAC merger with New Providence in April 2021 (Nasdaq: ASTS). Wikipedia notes 578 employees as of 2024. As of Q2 2025, company has raised over $2 billion total.
+
 ### Cerebras
 
-- **`fundingStage`:** `IPO` → `Public`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Cerebras)
+- **`location`:** `Sunnyvale, California` → `Sunnyvale, California, US`  
+  Sources: [company_website](https://cerebras.ai) · [company_about](https://cerebras.ai/company) · [wikipedia](https://en.wikipedia.org/wiki/Cerebras)
 
-  **Notes:** Company went public in May 2026 on Nasdaq under ticker CBRS. Previous IPO filing in September 2024 was withdrawn in October 2025, but company refiled in April 2026 with amended registration targeting $26.6B valuation. May 2026 filing reported net income of $87.9 million on revenue of $510 million for 2025 fiscal year, indicating shift to profitability.
-
-### Fervo Energy
-
-- **`fundingStage`:** `IPO` → `Public`  
-  Sources: [company_website](https://fervoenergy.com)
-
-  **Notes:** IPO announced May 2026 (sources [0]). Wikipedia lists company type as 'Private' but website newsroom announces IPO pricing on May 12, 2026. Most recent funding was Series E of $462 million in November 2025 led by B Capital (source [2]).
+  **Notes:** Company is now trading on Nasdaq (ticker: CBRS) as stated in source 0. Wikipedia lists 2025 revenue of $510 million and 2025 net income of $87.9 million (source 2). Sources reference IPO and pricing around $185 per share raising ~$5.55 billion (source 5), but specific total_raised and valuation figures cannot be definitively verified from these sources due to formatting issues and lack of clear completion in source text.
 
 ### Nuro
 
 - **`fundingStage`:** `Series G` → `Series E`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Nuro)
 
-  **Notes:** Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 with $106M and closed in August 2025 with additional $97M. Most recent funding in August 2025 valued company at $6B with Uber and Nvidia as investors.
+  **Notes:** Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 for $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership with Uber and Lucid Motors for robotaxi deployment of at least 20,000 vehicles over six years announced July 2025.
 
 ### OpenAI
 
 - **`founder`:** `Sam Altman, Greg Brockman, Ilya Sutskever` → `Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/OpenAI)
 
-  **Notes:** Wikipedia source [1] states: 'In October 2025, OpenAI conducted a $6.6 billion share sale that valued the company at $500 billion.' Company transitioned from nonprofit (founded 2015) to capped for-profit subsidiary structure in 2019, then to for-profit public benefit corporation in 2025 restructuring. Database entry claims $300B valuation and $13B+ raised; however, the most recent verified valuation from sources is $500B from October 2025 share sale. Total capital pledged at founding was $1 billion, but actual capital collected by 2021 was only $133.2 million according to Wikipedia tax filings.
-
-### Quantinuum
-
-- **`location`:** `Cambridge, UK / Broomfield, Colorado, USA` → `Cambridge, UK; Broomfield, Colorado, USA`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Quantinuum)
-
-  **Notes:** Valuation differs from database entry ($5B per Wikipedia vs $10B in database). Total raised matches database ($625M). Ilyas Khan is listed as founder of Cambridge Quantum (2014) and founding CEO of Quantinuum, not solely 'founder' in traditional sense. Current CEO is Rajeeb Hazra (as of 2023); Khan is now Head of Special Projects and Vice-Chairman.
+  **Notes:** Valuation updated to $500B based on October 2025 share sale ($6.6B at $500B valuation). Company transitioned from nonprofit (2015) to capped for-profit (2019) to for-profit PBC (2025). Microsoft invested over $13B total.
 
 ### SpaceX
 
-- **`fundingStage`:** `Series G` → `Private`  
+- **`fundingStage`:** `Series G` → `Pre-IPO`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Source [0] is a domain registration page and provides no company information. Sources [2] and [3] are news article headlines without full content provided. Wikipedia source [1] states SpaceX 'is expected to have an initial public offering (IPO) in 2026' but this is stated as a future expectation, not current status. Database entry claims 'Series G' and '$10B+' total raised, but these cannot be verified from provided sources.
+  **Notes:** Wikipedia states 'SpaceX is not publicly traded but is expected to have an initial public offering (IPO) in 2026.' Headquarters location changed from El Segundo, California (2002) to Starbase, Texas. Source [0] is a domain sale page and is not usable. Sources [2], [3], [4] are news articles with insufficient company-level information for verification.
 
 ---
 
-## ✅ Cleared (14 companies)
+## ✅ Cleared (16 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
 - Anthropic
+- Axiom Space
 - Deterrence
+- Fervo Energy
 - Fractile
 - Galvanick
 - Hidden Level
-- ICON
 - IonQ
-- Percepto
 - Pivotal
+- Quantinuum
 - Rivian
+- Runway
+- Terrestrial Energy
 - Vast
 - Waymo
-- ideaForge
 - xAI
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-15T08:40:21+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-16T07:50:41+00:00*
