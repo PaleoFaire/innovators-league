@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T07:38:55+00:00",
+  "generatedAt": "2026-05-17T09:56:47+00:00",
   "matrix": {
     "lunar-robotics": {
       "2026-Q2": {
@@ -42,12 +42,220 @@
         ]
       }
     },
-    "autonomy-drone-military": {
+    "ai-chips-inference": {
       "2026-Q2": {
+        "deals": 1,
+        "totalSold": 233885560,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Positron AI",
+            "amount": 233885560,
+            "date": "2026-05-12",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
         "companies": [
+          {
+            "name": "Positron AI",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "brain-computer-interface": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 16177559,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Occam",
+            "amount": 16177559,
+            "date": "2026-05-12",
+            "source": "formd",
+            "investors": [
+              "Julian Capital",
+              "Ada Ventures",
+              "HOF Capital",
+              "Reinforced Ventures",
+              "Rolling Fun"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Neuralink",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "nuclear-microreactor": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Aalo Atomics",
+            "amount": 0,
+            "date": "2026-05-11",
+            "source": "formd",
+            "investors": [
+              "Valor Equity Partners",
+              "Fine Structure Ventures",
+              "Hitachi Ventures",
+              "NRG Energy",
+              "Vamos Ventures",
+              "Tishman Speyer",
+              "Kindred Ventures",
+              "50Y",
+              "Harpoon Ventures",
+              "Crescent Enterprises",
+              "Crosscut Ventures",
+              "Alumni Ventures",
+              "MCJ Collective",
+              "Gaingels",
+              "Nucleation Capital"
+            ]
+          }
+        ],
+        "investors": [
+          "Alumni Ventures",
+          "Harpoon Ventures",
+          "Valor Equity Partners"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Radiant",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomous-defense": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Seneca",
+            "amount": 0,
+            "date": "2026-05-11",
+            "source": "formd",
+            "investors": [
+              "David Glazer"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "space-ssa": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 10946661,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Scout Space",
+            "amount": 10946661,
+            "date": "2026-05-11",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "defense-ew-rf-cyber": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 111000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Biofire",
+            "amount": 111000,
+            "date": "2026-05-07",
+            "source": "formd",
+            "investors": [
+              "Founders Fund",
+              "CAZ Investments",
+              "Valhalla Ventures",
+              "Liquid 2 Ventures",
+              "SV Angel",
+              "Lerer Hippeau"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund"
+        ]
+      }
+    },
+    "foundation-models": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 1052500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "xAI",
+            "amount": 1052500,
+            "date": "2026-05-07",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomy-drone-military": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 29999986,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Darkhive",
+            "amount": 29999986,
+            "date": "2026-05-07",
+            "source": "formd",
+            "investors": []
+          },
           {
             "name": "Anduril Industries",
             "amount": null,
@@ -165,6 +373,76 @@
         "investors": []
       }
     },
+    "space-launch-large": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 9725064,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "SpaceX",
+            "amount": 9725064,
+            "date": "2026-05-06",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Rocket Lab",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Khosla Ventures",
+              "Bessemer Venture Partners",
+              "Lockheed Martin",
+              "Data Collective",
+              "Promus Ventures",
+              "Future Fund"
+            ]
+          }
+        ],
+        "investors": [
+          "Khosla Ventures"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Relativity Space",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Baillie Gifford",
+              "Blackrock",
+              "BOND",
+              "Coatue",
+              "Fidelity",
+              "General Catalyst",
+              "ICONIQ Capital",
+              "K5 Global",
+              "Mark Cuban",
+              "Playground Global"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst",
+          "Playground Global"
+        ]
+      }
+    },
     "autonomy-counter-drone": {
       "2026-Q1": {
         "deals": 1,
@@ -250,23 +528,6 @@
         "investors": []
       }
     },
-    "nuclear-microreactor": {
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Radiant",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "nuclear-services-fuel": {
       "2026-Q1": {
         "deals": 1,
@@ -297,76 +558,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "space-launch-large": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "SpaceX",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Rocket Lab",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Khosla Ventures",
-              "Bessemer Venture Partners",
-              "Lockheed Martin",
-              "Data Collective",
-              "Promus Ventures",
-              "Future Fund"
-            ]
-          }
-        ],
-        "investors": [
-          "Khosla Ventures"
-        ]
-      },
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Relativity Space",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Baillie Gifford",
-              "Blackrock",
-              "BOND",
-              "Coatue",
-              "Fidelity",
-              "General Catalyst",
-              "ICONIQ Capital",
-              "K5 Global",
-              "Mark Cuban",
-              "Playground Global"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst",
-          "Playground Global"
-        ]
       }
     },
     "space-ground-comms": {
@@ -565,23 +756,6 @@
             "name": "Neura Robotics",
             "amount": null,
             "date": "2025-12",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "brain-computer-interface": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Neuralink",
-            "amount": null,
-            "date": "2026-03",
             "source": "recentEvent",
             "investors": []
           }
@@ -1272,23 +1446,6 @@
         ]
       }
     },
-    "ai-chips-inference": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Positron AI",
-            "amount": null,
-            "date": "2026-02",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "industrial-decarb": {
       "2025-Q2": {
         "deals": 1,
@@ -1317,6 +1474,12 @@
           "source": "formd"
         },
         {
+          "company": "Biofire",
+          "cluster": "defense-ew-rf-cyber",
+          "date": "2026-05-07",
+          "source": "formd"
+        },
+        {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
           "date": "2026-05",
@@ -1340,6 +1503,66 @@
           "company": "Crusoe Energy",
           "cluster": "data-center-infrastructure",
           "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Valor Equity Partners": {
+      "2026-Q2": [
+        {
+          "company": "Aalo Atomics",
+          "cluster": "nuclear-microreactor",
+          "date": "2026-05-11",
+          "source": "formd"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Harpoon Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Aalo Atomics",
+          "cluster": "nuclear-microreactor",
+          "date": "2026-05-11",
+          "source": "formd"
+        }
+      ]
+    },
+    "Alumni Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Aalo Atomics",
+          "cluster": "nuclear-microreactor",
+          "date": "2026-05-11",
+          "source": "formd"
+        }
+      ],
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
           "source": "recentEvent"
         }
       ]
@@ -1424,32 +1647,6 @@
           "company": "Physical Intelligence",
           "cluster": "ai-robotics-embodied",
           "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Valor Equity Partners": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "date": "2026-02",
           "source": "recentEvent"
         }
       ]
@@ -1546,16 +1743,6 @@
           "company": "Skild AI",
           "cluster": "ai-robotics-embodied",
           "date": "2026-01",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Alumni Ventures": {
-      "2024-Q1": [
-        {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
           "source": "recentEvent"
         }
       ]
@@ -1694,11 +1881,11 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 63,
-    "totalUSDSold": 70547349,
-    "uniqueClusters": 38,
+    "totalDealsTracked": 71,
+    "totalUSDSold": 372445679,
+    "uniqueClusters": 42,
     "uniqueQuarters": 8,
-    "uniqueVCs": 19,
+    "uniqueVCs": 20,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"
