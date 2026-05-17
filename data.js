@@ -47476,17 +47476,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-17 15:05
+// Last updated: 2026-05-17 16:06
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
   { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
   { id: 4, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
-  { id: 9, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts", source: "TechCrunch", time: "2d ago", impact: "medium", unread: false },
+  { id: 9, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "2d ago", impact: "low", unread: false },
   { id: 10, type: "funding", company: "Rivian", headline: "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea", source: "CleanTechnica", time: "2d ago", impact: "medium", unread: false },
   { id: 11, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "2d ago", impact: "high", unread: false },
   { id: 12, type: "news", company: "Runway", headline: "Runway started by helping filmmakers ' now it wants to beat Google at AI", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
