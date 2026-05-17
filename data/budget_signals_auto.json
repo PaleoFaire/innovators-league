@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+15%",
-    "changeNum": 15,
+    "change": "+5%",
+    "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 7,
+    "activityIndex": 2,
     "billsTracked": 2,
-    "rulesTracked": 5,
-    "description": "2 bill(s) + 5 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 7 \u2014 +15% relative trend.",
+    "rulesTracked": 0,
+    "description": "2 bill(s) + 0 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -23,57 +23,10 @@
         "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
         "number": "S2226",
         "status": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nucle",
-        "agency": "",
-        "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Licensing Requirements for Microreactors and Other Reactors With Comparable Risk",
-        "agency": "",
-        "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Information Collection: NRC Form 974, Privacy Act Compliant Form",
-        "agency": "",
-        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-16"
-  },
-  {
-    "category": "Space & Aerospace",
-    "icon": "\ud83d\ude80",
-    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 2,
-    "billsTracked": 1,
-    "rulesTracked": 1,
-    "description": "1 bill(s) + 1 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Commercial Space Launch Competitiveness Act Amendments",
-        "number": "HR3684",
-        "status": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Modernizing Spectrum Sharing for Satellite Broadband",
-        "agency": "",
-        "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "category": "Quantum Computing",
@@ -96,7 +49,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -119,6 +72,29 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
+  },
+  {
+    "category": "Space & Aerospace",
+    "icon": "\ud83d\ude80",
+    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
+    "change": "flat",
+    "changeNum": 0,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 1,
+    "billsTracked": 1,
+    "rulesTracked": 0,
+    "description": "1 bill(s) + 0 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 1 \u2014 flat relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Commercial Space Launch Competitiveness Act Amendments",
+        "number": "HR3684",
+        "status": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-05-17"
   }
 ]

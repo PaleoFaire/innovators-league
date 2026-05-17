@@ -15,25 +15,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Greg Brockman Officially Takes Control of OpenAI\u2019s Products",
-      "OpenAI launches ChatGPT for personal finance, will let you c",
-      "OpenAI says Codex is coming to your phone"
+      "OpenAI co-founder Greg Brockman takes charge of product stra",
+      "$60B AI chip darling Cerebras almost died early on, burning",
+      "Greg Brockman Officially Takes Control of OpenAI\u2019s Products"
     ],
     "fundingQ": "$2218.7B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Climate & Energy",
@@ -51,25 +51,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 49,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
+      "Dutch dronemaker Destinus in \u20ac200m funding talks, reports sa",
       "Uber turns on Waymo as it pours $10B+ into owning robotaxi a",
-      "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
-      "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
+      "Waymo expands robotaxi coverage more than 20% \u2014 larger than"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -85,7 +85,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,7 +101,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Defense & Security",
@@ -117,7 +117,7 @@
       "hiring": 0,
       "market": 22
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Nuclear Energy",
@@ -135,7 +135,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -153,43 +153,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 23,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
+      "$60B AI chip darling Cerebras almost died early on, burning",
       "Cerebras Shares Soar In First Day On Nasdaq",
-      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%",
-      "UK AI chip startup Fractile raises $220M to tackle the growi"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 98
-    },
-    "lastUpdated": "2026-05-16"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 15,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI is reportedly preparing legal action against Apple; i",
-      "Cerebras Shares Soar In First Day On Nasdaq",
-      "FCC approves SpaceX spectrum deal with $2.4 billion escrow c"
+      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 50
+      "market": 98
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Housing & Construction",
@@ -207,16 +189,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
-    "sector": "Infrastructure & Logistics",
+    "sector": "Consumer Tech",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "HelloFresh Meal Kit Review (2026): Vast Options, Good Execut",
-      "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
-      "Anthropic&#8217;s Nuclear Bomb"
+      "Cerebras Shares Soar In First Day On Nasdaq",
+      "FCC approves SpaceX spectrum deal with $2.4 billion escrow c",
+      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -225,7 +207,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
+      "Anthropic&#8217;s Nuclear Bomb"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Biotech & Health",
@@ -243,7 +242,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Transportation",
@@ -261,7 +260,7 @@
       "hiring": 0,
       "market": 2
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   },
   {
     "sector": "Quantum Computing",
@@ -277,6 +276,6 @@
       "hiring": 0,
       "market": 16
     },
-    "lastUpdated": "2026-05-16"
+    "lastUpdated": "2026-05-17"
   }
 ]

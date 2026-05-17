@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-16 08:09:26 UTC
+// Last updated: 2026-05-17 08:25:56 UTC
 const SEC_FILINGS_LIVE = [
   { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877571.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877563.xml", isIPO: false, ticker: "LNZA" },
