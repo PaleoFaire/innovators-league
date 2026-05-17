@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-10T09:25:46Z",
-  "company_count": 873,
+  "generated_at": "2026-05-17T09:43:37Z",
+  "company_count": 933,
   "checks": {
     "acquisition_language": [
       {
@@ -839,11 +839,6 @@
         "founder": "Jake Becraft, Tasuku Kitada"
       },
       {
-        "name": "Apis Cor",
-        "sector": "Housing & Construction",
-        "founder": "Nikita Cheniuntai"
-      },
-      {
         "name": "Rivet Industries",
         "sector": "Defense & Security",
         "founder": "Dave Marra"
@@ -1382,29 +1377,55 @@
         "name": "Lodge Systems",
         "sector": "Defense & Security",
         "founder": "Stuart Lodge"
+      },
+      {
+        "name": "Merge Labs",
+        "sector": "Biotech & Health",
+        "founder": "Alex Blania (CEO), Sam Altman, Mikhail Shapiro, Sumner Norman, Tyson Aflalo, Sandro Herbig"
+      },
+      {
+        "name": "Orbital",
+        "sector": "Space & Aerospace",
+        "founder": "Euwyn Poon"
+      },
+      {
+        "name": "Path Power",
+        "sector": "Infrastructure & Logistics",
+        "founder": null
+      },
+      {
+        "name": "Radify Metals",
+        "sector": "Robotics & Manufacturing",
+        "founder": "Zach Detweiler, Dan Bullard"
+      },
+      {
+        "name": "Spinor Energy",
+        "sector": "Climate & Energy",
+        "founder": "Tyler Nguyen"
       }
     ],
     "stage_vocabulary": {
-      "Series A": 216,
-      "Series B": 189,
-      "Seed": 136,
+      "Series A": 221,
+      "Series B": 192,
+      "Seed": 171,
       "Series C": 91,
-      "Public": 57,
-      "Series D": 40,
+      "Public": 58,
+      "Series D": 39,
       "Growth": 26,
+      "Pre-Seed": 22,
       "Series E": 21,
       "Private": 14,
       "Series G": 12,
-      "Pre-Seed": 11,
       "Late Stage": 10,
       "SPAC": 8,
       "Series F": 7,
       "Pre-IPO": 6,
       "Acquired": 6,
+      "Stealth": 5,
+      "Series D+": 3,
       "Public (KOSDAQ)": 3,
       "IPO": 2,
       "Bootstrapped": 2,
-      "Series D+": 2,
       "Public (Tokyo)": 2,
       "Series A-1": 1,
       "Series L": 1,
@@ -1439,13 +1460,6 @@
         "name": "Aalo Atomics",
         "url": "https://aaloatomics.com",
         "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
-      },
-      {
-        "kind": "dead_website",
-        "name": "Viridian Space",
-        "url": "https://viridianspace.com",
-        "status": 415,
         "action": "Website returns error code. Verify company is still operating."
       },
       {
@@ -1547,11 +1561,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "rebrand_suspect",
         "name": "AMP Robotics",
-        "url": "https://amprobotics.com",
-        "error": "ReadTimeout",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "old_url": "https://amprobotics.com",
+        "new_url": "https://ampsortation.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
         "kind": "rebrand_suspect",
@@ -1559,6 +1573,13 @@
         "old_url": "https://antoraenergy.com",
         "new_url": "https://www.antora.com/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "Atomic Semi",
+        "url": "https://atomicsemi.com",
+        "error": "ConnectTimeout",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "unreachable_website",
@@ -1596,11 +1617,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "dead_website",
+        "kind": "unreachable_website",
         "name": "Outpost Space",
         "url": "https://outpostspace.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
+        "error": "SSLError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "dead_website",
@@ -1652,20 +1673,6 @@
         "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
-        "kind": "unreachable_website",
-        "name": "Aurora Innovation",
-        "url": "https://aurora.tech",
-        "error": "ReadTimeout",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
-      },
-      {
-        "kind": "unreachable_website",
-        "name": "Nuro",
-        "url": "https://nuro.ai",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
-      },
-      {
         "kind": "rebrand_suspect",
         "name": "Archer Aviation",
         "old_url": "https://archeraviation.com",
@@ -1687,13 +1694,6 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "dead_website",
-        "name": "Tokamak Energy",
-        "url": "https://tokamakenergy.com",
-        "status": 415,
-        "action": "Website returns error code. Verify company is still operating."
-      },
-      {
         "kind": "rebrand_suspect",
         "name": "Oxford Quantum Circuits",
         "old_url": "https://oxfordquantumcircuits.com",
@@ -1703,9 +1703,9 @@
     ]
   },
   "summary": {
-    "p0_issues": 27,
-    "p1_issues": 20,
-    "missing_websites": 261,
-    "distinct_stages": 33
+    "p0_issues": 28,
+    "p1_issues": 17,
+    "missing_websites": 265,
+    "distinct_stages": 34
   }
 }

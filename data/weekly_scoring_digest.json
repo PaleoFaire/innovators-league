@@ -1,45 +1,76 @@
 {
-  "generated_at": "2026-05-10T09:25:42.913438+00:00",
-  "week_ending": "2026-05-10",
+  "generated_at": "2026-05-17T09:43:34.816334+00:00",
+  "week_ending": "2026-05-17",
   "window_days": 7,
   "events_processed": 17,
-  "companies_touched": 15,
-  "companies_moved": 7,
-  "companies_unchanged": 2,
+  "companies_touched": 14,
+  "companies_moved": 8,
+  "companies_unchanged": 3,
   "movers_up_top20": [
     {
-      "company": "Rocket Lab",
-      "delta": 1.5,
-      "new_composite": 96.0,
-      "old_composite": 94.5,
-      "new_tier": "elite",
+      "company": "IonQ",
+      "delta": 4.0,
+      "new_composite": 89.0,
+      "old_composite": 85.0,
+      "new_tier": "exceptional",
+      "reasons": [
+        "[exec_hire_star] "
+      ]
+    },
+    {
+      "company": "Rigetti Computing",
+      "delta": 4.0,
+      "new_composite": 85.0,
+      "old_composite": 81.0,
+      "new_tier": "exceptional",
+      "reasons": [
+        "[exec_hire_star] "
+      ]
+    },
+    {
+      "company": "Astera Labs",
+      "delta": 4.0,
+      "new_composite": 75.5,
+      "old_composite": 71.5,
+      "new_tier": "leader",
+      "reasons": [
+        "[exec_hire_star] "
+      ]
+    },
+    {
+      "company": "Archer Aviation",
+      "delta": 3.0,
+      "new_composite": 68.0,
+      "old_composite": 65.0,
+      "new_tier": "strong",
       "reasons": [
         "[exec_hire_star] ",
         "[exec_hire_star] "
       ]
     },
     {
-      "company": "Joby Aviation",
+      "company": "LanzaTech",
       "delta": 1.5,
-      "new_composite": 68.0,
-      "old_composite": 66.5,
-      "new_tier": "strong",
+      "new_composite": 72.0,
+      "old_composite": 70.5,
+      "new_tier": "leader",
+      "reasons": [
+        "[exec_hire_star] ",
+        "[exec_hire_star] "
+      ]
+    },
+    {
+      "company": "Oklo",
+      "delta": 1.5,
+      "new_composite": 90.0,
+      "old_composite": 88.5,
+      "new_tier": "elite",
       "reasons": [
         "[exec_hire_star] "
       ]
     },
     {
-      "company": "Intuitive Machines",
-      "delta": 1.5,
-      "new_composite": 60.0,
-      "old_composite": 58.5,
-      "new_tier": "strong",
-      "reasons": [
-        "[exec_hire_star] "
-      ]
-    },
-    {
-      "company": "NuScale Power",
+      "company": "Satellogic",
       "delta": 1.5,
       "new_composite": 73.0,
       "old_composite": 71.5,
@@ -49,31 +80,11 @@
       ]
     },
     {
-      "company": "Tempus AI",
+      "company": "AST SpaceMobile",
       "delta": 1.5,
-      "new_composite": 63.5,
-      "old_composite": 62.0,
-      "new_tier": "strong",
-      "reasons": [
-        "[exec_hire_star] "
-      ]
-    },
-    {
-      "company": "Recursion Pharmaceuticals",
-      "delta": 1.5,
-      "new_composite": 65.0,
-      "old_composite": 63.5,
-      "new_tier": "strong",
-      "reasons": [
-        "[exec_hire_star] "
-      ]
-    },
-    {
-      "company": "Aurora Innovation",
-      "delta": 1.5,
-      "new_composite": 68.0,
-      "old_composite": 66.5,
-      "new_tier": "strong",
+      "new_composite": 71.0,
+      "old_composite": 69.5,
+      "new_tier": "leader",
       "reasons": [
         "[exec_hire_star] "
       ]
@@ -82,153 +93,174 @@
   "movers_down_top10": [],
   "tier_crossings": [
     {
-      "company": "Intuitive Machines",
-      "from_tier": "promising",
-      "to_tier": "strong",
-      "new_composite": 60.0,
+      "company": "Oklo",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 90.0,
+      "reasons": [
+        "[exec_hire_star] "
+      ],
+      "first_time_elite": true
+    },
+    {
+      "company": "AST SpaceMobile",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 71.0,
       "reasons": [
         "[exec_hire_star] "
       ],
       "first_time_elite": false
     }
   ],
-  "first_time_elite": [],
+  "first_time_elite": [
+    {
+      "company": "Oklo",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 90.0,
+      "reasons": [
+        "[exec_hire_star] "
+      ],
+      "first_time_elite": true
+    }
+  ],
   "top_headlines": [
     {
-      "company": "Rocket Lab",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-08",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001753926-26-000799%22&dateRange=custom&forms=8-K"
+      "company": "Anthropic",
+      "type": "funding_mega",
+      "detail": "Funding Round $900B",
+      "date": "2026-05-15",
+      "source": "funding_feed",
+      "url": ""
     },
     {
-      "company": "Joby Aviation",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-08",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001193125-26-214679%22&dateRange=custom&forms=8-K"
+      "company": "Anduril Industries",
+      "type": "funding_mega",
+      "detail": "Funding Round $5B",
+      "date": "2026-05-15",
+      "source": "funding_feed",
+      "url": ""
     },
     {
-      "company": "Rocket Lab",
+      "company": "Virgin Galactic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-07",
+      "date": "2026-05-14",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001819994-26-000027%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001706946-26-000067%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "BlackSky Technology",
+      "company": "Archer Aviation",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-07",
+      "date": "2026-05-14",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001753539-26-000057%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001824502-26-000042%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Intuitive Machines",
+      "company": "LanzaTech",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-07",
+      "date": "2026-05-14",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-056589%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-035068%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "NuScale Power",
+      "company": "Momentus",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-07",
+      "date": "2026-05-13",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001822966-26-000052%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-059734%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Ginkgo Bioworks",
+      "company": "Oklo",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-07",
+      "date": "2026-05-13",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-032093%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Tempus AI",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-07",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-031651%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Recursion Pharmaceuticals",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-06",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001601830-26-000077%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Aurora Innovation",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-06",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001828108-26-000050%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Centrus Energy",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-05",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-030674%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Upstart Holdings",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-05",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001647639-26-000045%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-060385%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "D-Wave Quantum",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-05",
+      "date": "2026-05-13",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000052%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000061%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Agrify Corporation",
+      "company": "C3.ai",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-05",
+      "date": "2026-05-12",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-052186%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Palantir Technologies",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-04",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001321655-26-000026%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001193125-26-218253%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "D-Wave Quantum",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-04",
+      "date": "2026-05-12",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000049%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000057%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Rivian",
+      "company": "LanzaTech",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-04",
+      "date": "2026-05-12",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001874178-26-000039%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-034082%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Satellogic",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-12",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-055210%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "AST SpaceMobile",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-11",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001193125-26-216946%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "IonQ",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-11",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-033588%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Rigetti Computing",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-11",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-058635%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Archer Aviation",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-11",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001824502-26-000035%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Astera Labs",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-11",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-033467%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {

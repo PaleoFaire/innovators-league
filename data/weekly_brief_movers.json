@@ -1,26 +1,29 @@
 {
-  "week_ending": "2026-05-10",
-  "generated_at": "2026-05-10T09:25:42.913438+00:00",
-  "lede": "7 companies moved up, 0 reached elite tier, 0 major contract wins",
+  "week_ending": "2026-05-17",
+  "generated_at": "2026-05-17T09:43:34.816334+00:00",
+  "lede": "8 companies moved up, 1 reached elite tier, 0 major contract wins",
   "top_3_up": [
-    "Rocket Lab: 94.5 \u2192 96.0 (+1.5) \u2014 [exec_hire_star] ",
-    "Joby Aviation: 66.5 \u2192 68.0 (+1.5) \u2014 [exec_hire_star] ",
-    "Intuitive Machines: 58.5 \u2192 60.0 (+1.5) \u2014 [exec_hire_star] "
+    "IonQ: 85.0 \u2192 89.0 (+4.0) \u2014 [exec_hire_star] ",
+    "Rigetti Computing: 81.0 \u2192 85.0 (+4.0) \u2014 [exec_hire_star] ",
+    "Astera Labs: 71.5 \u2192 75.5 (+4.0) \u2014 [exec_hire_star] "
   ],
-  "first_time_elite": [],
+  "first_time_elite": [
+    "Oklo"
+  ],
   "tier_upgrades": [
-    "Intuitive Machines: promising \u2192 strong"
+    "Oklo: exceptional \u2192 elite",
+    "AST SpaceMobile: strong \u2192 leader"
   ],
   "notable_headlines": [
-    "[exec_hire_star] Rocket Lab: ",
-    "[exec_hire_star] Joby Aviation: ",
-    "[exec_hire_star] Rocket Lab: ",
-    "[exec_hire_star] BlackSky Technology: ",
-    "[exec_hire_star] Intuitive Machines: ",
-    "[exec_hire_star] NuScale Power: ",
-    "[exec_hire_star] Ginkgo Bioworks: ",
-    "[exec_hire_star] Tempus AI: ",
-    "[exec_hire_star] Recursion Pharmaceuticals: ",
-    "[exec_hire_star] Aurora Innovation: "
+    "[funding_mega] Anthropic: Funding Round $900B",
+    "[funding_mega] Anduril Industries: Funding Round $5B",
+    "[exec_hire_star] Virgin Galactic: ",
+    "[exec_hire_star] Archer Aviation: ",
+    "[exec_hire_star] LanzaTech: ",
+    "[exec_hire_star] Momentus: ",
+    "[exec_hire_star] Oklo: ",
+    "[exec_hire_star] D-Wave Quantum: ",
+    "[exec_hire_star] C3.ai: ",
+    "[exec_hire_star] D-Wave Quantum: "
   ]
 }

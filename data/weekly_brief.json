@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-11",
-  "display_date": "May 11, 2026",
-  "generated_at": "2026-05-11T12:42:09.686498+00:00",
-  "cutoff": "2026-05-04T12:42:09.686498+00:00",
+  "date": "2026-05-17",
+  "display_date": "May 17, 2026",
+  "generated_at": "2026-05-17T10:56:49.206159+00:00",
+  "cutoff": "2026-05-10T10:56:49.206159+00:00",
   "section_count": 7,
-  "total_items": 250,
+  "total_items": 246,
   "sections": [
     {
       "title": "Top Score Movers",
@@ -12,10 +12,10 @@
       "count": 1,
       "items": [
         {
-          "company": "Panthalassa",
-          "current": 36.0,
-          "previous": 31.5,
-          "change": 4.5,
+          "company": "Swan",
+          "current": 34.0,
+          "previous": 37.0,
+          "change": -3.0,
           "tier": "early"
         }
       ]
@@ -23,62 +23,62 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 38,
+      "count": 40,
       "items": [
         {
-          "company": "Rocket Lab",
+          "company": "AST SpaceMobile",
           "form": "8-K",
-          "description": "g085715_8k.htm",
-          "date": "2026-05-08",
+          "description": "asts-20260511.htm",
+          "date": "2026-05-11",
           "isIPO": false
         },
         {
-          "company": "Rocket Lab",
+          "company": "Momentus",
           "form": "8-K",
-          "description": "rklb-20260507.htm",
-          "date": "2026-05-07",
+          "description": "apre-20260513x8k.htm",
+          "date": "2026-05-13",
           "isIPO": false
         },
         {
-          "company": "BlackSky Technology",
+          "company": "Virgin Galactic",
           "form": "8-K",
-          "description": "bksy-20260507.htm",
-          "date": "2026-05-07",
+          "description": "spce-20260514.htm",
+          "date": "2026-05-14",
           "isIPO": false
         },
         {
-          "company": "Intuitive Machines",
+          "company": "Oklo",
           "form": "8-K",
-          "description": "tm2613859d1_8k.htm",
-          "date": "2026-05-07",
+          "description": "tm2614461d1_8k.htm",
+          "date": "2026-05-13",
           "isIPO": false
         },
         {
-          "company": "NuScale Power",
+          "company": "C3.ai",
           "form": "8-K",
-          "description": "smr-20260507.htm",
-          "date": "2026-05-07",
+          "description": "d147244d8k.htm",
+          "date": "2026-05-12",
           "isIPO": false
         },
         {
-          "company": "Centrus Energy",
+          "company": "IonQ",
           "form": "8-K",
-          "description": "leu-20260505.htm",
-          "date": "2026-05-05",
+          "description": "bakkt-20260511.htm",
+          "date": "2026-05-11",
           "isIPO": false
         },
         {
-          "company": "Upstart Holdings",
+          "company": "Rigetti Computing",
           "form": "8-K",
-          "description": "upst-20260505.htm",
-          "date": "2026-05-05",
+          "description": "rgti-20260511x8k.htm",
+          "date": "2026-05-11",
           "isIPO": false
         },
         {
           "company": "D-Wave Quantum",
           "form": "8-K",
-          "description": "qbts-20260505.htm",
-          "date": "2026-05-05",
+          "description": "qbts-20260512.htm",
+          "date": "2026-05-13",
           "isIPO": false
         }
       ]
@@ -86,7 +86,7 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 4,
+      "count": 2,
       "items": [
         {
           "title": "PROCURE THE BASE YEAR COSTS WITH BASE YEAR OPERATIONS AND SUSTAINMENT, AND 5-YEAR OPERATIONS AND SUSTAINMENT SUPPORT WIT",
@@ -99,256 +99,243 @@
           "agency": "",
           "value": "",
           "date": "2026-08-06"
-        },
-        {
-          "title": "THIS ORDER PROVIDES ENFORCEMENT REMOVAL OPERATIONS MODERNIZATION AND OPERATIONAL CAPABILITY FOR THE ENFORCEMENT CASE MAN",
-          "agency": "",
-          "value": "",
-          "date": "2026-05-05"
-        },
-        {
-          "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
-          "agency": "",
-          "value": "",
-          "date": "2026-05-07"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 36,
+      "count": 29,
       "items": [
         {
-          "title": "Renewal of Department of War Federal Advisory Committee-U.S. Strategic Command Strategic Advisory Group",
+          "title": "Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins b",
+          "type": "Proposed Rule",
+          "agencies": [
+            "National Credit Union Administration"
+          ],
+          "significant": false,
+          "date": "2026-05-18"
+        },
+        {
+          "title": "Arms Sales Notification",
           "type": "Notice",
           "agencies": [
             "Defense Department",
             ""
           ],
           "significant": false,
-          "date": "2026-05-06"
+          "date": "2026-05-14"
         },
         {
-          "title": "Importing Dual-Use Frames, Receivers, or Barrels",
-          "type": "Proposed Rule",
+          "title": "Arms Sales Notification",
+          "type": "Notice",
           "agencies": [
-            "Justice Department",
-            "Alcohol, Tobacco, Firearms, and Explosives Bureau"
+            "Defense Department",
+            ""
           ],
           "significant": false,
-          "date": "2026-05-08"
+          "date": "2026-05-14"
         },
         {
-          "title": "Interstate Transport and Temporary Export of National Firearms Act Firearms",
-          "type": "Proposed Rule",
+          "title": "Arms Sales Notification",
+          "type": "Notice",
           "agencies": [
-            "Justice Department",
-            "Alcohol, Tobacco, Firearms, and Explosives Bureau"
+            "Defense Department",
+            ""
           ],
           "significant": false,
-          "date": "2026-05-08"
+          "date": "2026-05-14"
         },
         {
-          "title": "Semiannual Reporting",
+          "title": "Begin Actual Construction in the New Source Review (NSR) Preconstruction Permitting Program",
           "type": "Proposed Rule",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Environmental Protection Agency"
           ],
           "significant": false,
-          "date": "2026-05-07"
+          "date": "2026-05-13"
         },
         {
-          "title": "Establishment of Canadian Area Navigation Route Q-838 and Revocation of Jet Route J-539 in the Vicinity of Glasgow, MT",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Transportation Department",
-            "Federal Aviation Administration"
-          ],
-          "significant": false,
-          "date": "2026-05-08"
-        },
-        {
-          "title": "Establishment of Canadian Area Navigation Route Q-855 and Revocation of Jet Route J-549 in the Vicinity of Williston, No",
-          "type": "Proposed Rule",
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
           "agencies": [
             "Transportation Department",
-            "Federal Aviation Administration"
+            ""
           ],
           "significant": false,
-          "date": "2026-05-08"
+          "date": "2026-05-11"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 28,
+      "count": 26,
       "items": [
         {
-          "title": "UK quantum outfit Quantum Motion run on silicon chips raises $160M",
-          "source": "Tech.eu",
-          "company": "Quantum Motion",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Quantum Motion raises $160m Series C as quantum sector heats up",
-          "source": "Sifted",
-          "company": "Quantum Motion",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Anthropic says \u2018evil\u2019 portrayals of AI were responsible for Claude\u2019s blackmail attempts",
+          "title": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
           "source": "TechCrunch",
-          "company": "Anthropic",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "We\u2019re feeling cynical about xAI\u2019s big deal with Anthropic",
-          "source": "TechCrunch",
-          "company": "Anthropic",
-          "impact": "low",
+          "company": "Cerebras",
+          "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altm",
-          "source": "MIT Tech Review",
+          "title": "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives",
+          "source": "Electrek",
+          "company": "Waymo",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%",
+          "source": "Next Big Future",
+          "company": "Cerebras",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
+          "source": "Canary Media",
+          "company": "Fervo Energy",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck",
+          "source": "Tech.eu",
+          "company": "Fractile",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
+          "source": "SpaceNews",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+          "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
-          "type": "hire"
-        },
-        {
-          "title": "NASA\u2019s SpaceX 34th Commercial Resupply Mission Overview",
-          "source": "NASA Breaking News",
-          "company": "SpaceX",
-          "impact": "low",
-          "type": "ipo"
-        },
-        {
-          "title": "Nyobolt raises funding to bring fast charging to more robots",
-          "source": "The Robot Report",
-          "company": "Nyobolt",
-          "impact": "low",
-          "type": "funding"
-        },
-        {
-          "title": "Rivian R2 Extra Features, Other Variants, and In-House Lidar?",
-          "source": "CleanTechnica",
-          "company": "Rivian",
-          "impact": "low",
           "type": "milestone"
+        },
+        {
+          "title": "SpaceX launches CRS-34 cargo mission to ISS",
+          "source": "SpaceNews",
+          "company": "SpaceX",
+          "impact": "medium",
+          "type": "ipo"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 37,
+      "count": 40,
       "items": [
         {
-          "title": "Hardware Attestation as Monopoly Enabler",
-          "score": 1585,
-          "comments": 511,
+          "title": "Frontier AI has broken the open CTF format",
+          "score": 376,
+          "comments": 375,
           "companies": [
-            "Black Semiconductor",
-            "QuantWare",
-            "Humane",
-            "Quilter",
-            "Diode"
+            "OpenAI",
+            "Mistral AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48086190"
+          "url": "https://news.ycombinator.com/item?id=48157559"
         },
         {
-          "title": "A recent experience with ChatGPT 5.5 Pro",
-          "score": 694,
-          "comments": 521,
+          "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
+          "score": 334,
+          "comments": 135,
           "companies": [
-            "OpenAI"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48071262"
-        },
-        {
-          "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
-          "score": 546,
-          "comments": 293,
-          "companies": [
-            "Humane",
-            "QuantWare",
-            "Quilter",
-            "Diode"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48084432"
-        },
-        {
-          "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
-          "score": 400,
-          "comments": 214,
-          "companies": [
+            "Kyutai",
+            "Together AI",
+            "Auterion",
             "Runway"
           ],
-          "url": "https://news.ycombinator.com/item?id=48080587"
+          "url": "https://news.ycombinator.com/item?id=48159445"
         },
         {
-          "title": "GrapheneOS fixes Android VPN leak Google refused to patch",
-          "score": 343,
-          "comments": 126,
+          "title": "Show HN: Find the best local LLM for your hardware, ranked by benchmarks",
+          "score": 283,
+          "comments": 66,
           "companies": [
-            "Black Semiconductor"
+            "QuantWare",
+            "Humane",
+            "Diode",
+            "Quilter"
           ],
-          "url": "https://news.ycombinator.com/item?id=48075144"
+          "url": "https://news.ycombinator.com/item?id=48146369"
         },
         {
-          "title": "France moves to break encrypted messaging",
-          "score": 275,
-          "comments": 131,
+          "title": "Radicle: Sovereign {code forge} built on Git",
+          "score": 256,
+          "comments": 88,
           "companies": [
-            "Retro Biosciences",
-            "Altos Labs"
+            "Built Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=48078811"
+          "url": "https://news.ycombinator.com/item?id=48147603"
+        },
+        {
+          "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
+          "score": 234,
+          "comments": 72,
+          "companies": [],
+          "url": "https://news.ycombinator.com/item?id=48160807"
+        },
+        {
+          "title": "Waymo updates 3,800 robotaxis after they 'drive into standing water'",
+          "score": 210,
+          "comments": 207,
+          "companies": [
+            "Waymo",
+            "Vital Lyfe",
+            "Zoox",
+            "Rainmaker"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48151767"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 106,
+      "count": 108,
       "items": [
         {
-          "title": "Certara Reports First Quarter 2026 Financial Results",
+          "title": "SEEGNAL INC. ANNOUNCES FILING OF 2025 ANNUAL FILINGS AND THAT THE MCTO WILL NO LONGER BE IN EFFECT AS OF MAY 16, 2026",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Zhihu Inc. to Report First Quarter 2026 Financial Results on June 3, 2026",
+          "title": "Alkane levererar rekordvinst p\u00e5 93 miljoner dollar f\u00f6r tredje kvartalet",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Form 8.5 (EPT/RI)-NCC Group plc",
+          "title": "VVC Exploration Corporation Announces Application For Management Cease Trade Order And Provides Financing Update",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "CLICK (NASDAQ: CLIK) Reports Strong Revenue Growth and Swings to Profit \u2013 Seniors Nursing Sector Skyrocketing over 110%,",
+          "title": "Black Rock Coffee Bar Continues Expansion in Phoenix with Two New Locations",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Danske Bank A/S, transactions by persons discharging managerial responsibilities",
+          "title": "Ipsen presents first-in-class late-breaking Phase II corabotase data in glabellar lines showing sustained duration of ef",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Danske Bank A/S, ledende medarbejderes transaktioner",
+          "title": "Ipsen pr\u00e9sente les derniers r\u00e9sultats d'une \u00e9tude de phase II sur la corabotase, premi\u00e8re de sa classe, concernant les r",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-05-11-904a4cea33b4"
+  "brief_id": "brief-2026-05-17-d5cecb6bc688"
 }
