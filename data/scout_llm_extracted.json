@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-10T10:11:18+00:00",
+  "generatedAt": "2026-05-17T10:22:05+00:00",
   "model": "claude-haiku-4-5",
-  "rosterSize": 1605,
-  "rawItemsConsidered": 90,
-  "newExtractionsThisRun": 90,
-  "uniqueCandidates": 27,
+  "rosterSize": 1645,
+  "rawItemsConsidered": 89,
+  "newExtractionsThisRun": 89,
+  "uniqueCandidates": 29,
   "candidates": [
     {
       "name": "Mistral",
@@ -40,34 +40,32 @@
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "Developer of open-source and commercial large language models competing with mainstream AI platforms."
+      "description": "AI model company building frontier large language models as an alternative to incumbent AI labs."
     },
     {
-      "name": "Column",
+      "name": "Anduril",
       "discoveries": [
         {
-          "source": "Invest Like the Best",
-          "host": "Patrick O'Shaughnessy",
-          "title": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
-          "url": "https://colossus.com/episode/playing-a-different-game/",
-          "date": "Tue, 17 Mar 2026 08:00:00 -0000",
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+          "url": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
+          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
-        "AI & Compute"
+        "Defense & Security"
       ],
-      "founders": [
-        "William Hockey"
-      ],
+      "founders": [],
       "stealthSignal": false,
       "confidence": "high",
       "sources": [
-        "Invest Like the Best"
+        "All-In"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A software company that owns a bank and provides core banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury."
+      "description": "Defense technology company building autonomous weapons systems and munitions manufacturing through its Arsenal-1 factory to address US supply chain gaps."
     },
     {
       "name": "CoreWeave",
@@ -94,7 +92,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Infrastructure provider for AI compute and workloads, enabling model training and inference at scale."
+      "description": "Infrastructure provider specializing in GPU compute and cloud services for AI workloads."
+    },
+    {
+      "name": "Helion Energy",
+      "discoveries": [
+        {
+          "source": "Core Memory",
+          "host": "Ashlee Vance",
+          "title": "Everything You Need To Know About The Nuclear Energy Boom - EP 70 James Krellenstein",
+          "url": "https://www.corememory.com/p/everything-you-need-to-know-about-nuclear-alva-energy",
+          "date": "Wed, 06 May 2026 14:33:38 GMT",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Fusion Energy"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "Core Memory"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Fusion company working on polaris fusion reactor technology."
     },
     {
       "name": "Onward Medical",
@@ -119,7 +142,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A Swiss biotech company developing therapies to help paralyzed people regain movement and mobility."
+      "description": "A Swiss biotech company developing technologies to help paralyzed people regain mobility and movement."
     },
     {
       "name": "Perplexity",
@@ -146,7 +169,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered search and answer engine that synthesizes information using language models."
+      "description": "AI-powered search and answer engine that competes with traditional search."
     },
     {
       "name": "Phantom Neuro",
@@ -173,7 +196,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops implantable human-machine interfaces that enable amputees to control robotic limbs with their minds."
+      "description": "Develops implantable human-machine interfaces that enable amputees to control robotic limbs with neural signals from their brain."
     },
     {
       "name": "Speechify",
@@ -200,7 +223,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A Voice AI agent that converts text to speech, used by 60+ million people, with particular effectiveness for users with dyslexia and ADHD."
+      "description": "Voice AI agent that converts text to speech, used by 60+ million people with accessibility focus for dyslexia and ADHD."
     },
     {
       "name": "Supabase",
@@ -228,85 +251,6 @@
       "description": "Open-source Firebase alternative providing backend infrastructure and database services for developers."
     },
     {
-      "name": "Ulysses",
-      "discoveries": [
-        {
-          "source": "Core Memory",
-          "host": "Ashlee Vance",
-          "title": "The $50,000 Underwater Drone - EP 66 Ulysses",
-          "url": "https://www.corememory.com/p/ulysses-ocean-drones-andreessen-horowitz-series-a",
-          "date": "Thu, 16 Apr 2026 14:19:05 GMT",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Robotics & Manufacturing"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "Core Memory"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "San Francisco-based startup building autonomous underwater drones for marine applications like seagrass planting and ocean monitoring."
-    },
-    {
-      "name": "10100",
-      "discoveries": [
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
-          "url": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
-          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Robotics & Manufacturing"
-      ],
-      "founders": [
-        "Travis Kalanick"
-      ],
-      "stealthSignal": true,
-      "confidence": "medium",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A company focused on automating the physical world through robotics, actuators, and robot hands."
-    },
-    {
-      "name": "Raindrop Triage",
-      "discoveries": [
-        {
-          "source": "Latent Space (swyx)",
-          "host": "",
-          "title": "[AINews] Silicon Valley gets Serious about Services",
-          "url": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
-          "date": "Wed, 06 May 2026 05:40:41 GMT",
-          "kind": "newsletter_article"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [
-        "Ben Hylak"
-      ],
-      "stealthSignal": true,
-      "confidence": "medium",
-      "sources": [
-        "Latent Space (swyx)"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "An AI agent designed to detect and investigate misbehavior in other autonomous agents."
-    },
-    {
       "name": "AMP",
       "discoveries": [
         {
@@ -331,32 +275,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A compute coordination platform that aggregates and optimizes underutilized compute resources into a coordinated grid to address inefficiencies in AI compute allocation."
+      "description": "Builds a coordinated compute grid to unlock underutilized compute resources and solve inefficiencies in AI compute allocation."
     },
     {
-      "name": "Arsenal-1",
+      "name": "Augustus",
       "discoveries": [
         {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-          "url": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
-          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "Swatch AP Collab, Cerebras IPO, Trump Visits China | Ferdinand Dabitz, Spencer Rascoff, Eric Olson, Matt Lohstroh, Jay Azhang, Amir Sadeghian, Alexander Taubman, Quaid Walker",
+          "url": "https://share.transistor.fm/s/a30cdad1",
+          "date": "Mon, 11 May 2026 14:25:15 -0700",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
-        "Advanced Manufacturing"
+        "Other"
+      ],
+      "founders": [
+        "Ferdinand Dabitz"
+      ],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Fintech company specializing in instant bank payments that received SEC conditional approval to charter as a U.S. national bank."
+    },
+    {
+      "name": "Cowboy Space Corporation",
+      "discoveries": [
+        {
+          "source": "Not Boring (Packy McCormick)",
+          "host": "",
+          "title": "Cowboy Space Corporation",
+          "url": "https://www.notboring.co/p/cowboy-space-corporation",
+          "date": "Sat, 16 May 2026 12:52:13 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "Space & Aerospace"
       ],
       "founders": [],
       "stealthSignal": false,
       "confidence": "medium",
       "sources": [
-        "All-In"
+        "Not Boring (Packy McCormick)"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Anduril's automated munitions manufacturing facility designed to address US ammunition supply chain bottlenecks."
+      "description": "A rocket company developing reusable upper stages for launch vehicles."
     },
     {
       "name": "Happy Robot",
@@ -381,7 +352,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A robotics company mentioned as an investment portfolio holding."
+      "description": "Robotics company mentioned as an investment by the guest."
     },
     {
       "name": "IREN",
@@ -408,7 +379,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Company focused on nuclear energy innovation and advanced reactor development."
+      "description": "Company focused on advanced nuclear energy technology and reactor development."
+    },
+    {
+      "name": "Julius AI",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "$9M Buffett Dinner, AI Monets, Patek Scarcity, Late-Career Founder, WSJ Mansion Section, \ud835\udd4f Timeline Reactions | Rahul Sonwalkar",
+          "url": "https://share.transistor.fm/s/aed7a5d8",
+          "date": "Fri, 15 May 2026 13:19:54 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Rahul Sonwalkar"
+      ],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI-powered platform enabling users to analyze spreadsheets, generate visualizations, and interact with data through natural language processing."
+    },
+    {
+      "name": "Legora",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Inside Legora: $100M ARR in 18 Months | Jude Law Generated $50M in Sales Pipeline: The Economics Broken Down | Competing Against Harvey, the 800 Pound Gorilla | Why Legora is Undervalued at $5.5",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-inside-legora-100m-arr-in-18-months-jude-law-generated-50m-in-sales-pipeline-the-economics-broken-down-competing-against-harvey-the-800-pound-gorilla-why-legora-is-undervalued-at-55bn-with-patrick-forquer-cro-legora",
+          "date": "Mon, 11 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Enterprise software company that reached $100M ARR in 18 months and is on track for $250M ARR, competing in the legal/enterprise AI space."
     },
     {
       "name": "Mercor",
@@ -433,7 +456,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI talent marketplace or platform that experienced a notable security incident relevant to cyber threats."
+      "description": "AI-driven platform for recruiting and managing technical talent, recently targeted in a security incident."
     },
     {
       "name": "Open Router",
@@ -458,7 +481,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Routing layer that aggregates and provides access to multiple large language models through a unified API."
+      "description": "API router enabling access to multiple large language models through a unified interface."
     },
     {
       "name": "OpenClaw",
@@ -483,82 +506,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A robotics company operating in the physical AI space, part of the emerging $50T market for embodied AI systems."
+      "description": "A robotics company developing physical AI systems, likely focused on robotic manipulation and automation."
     },
     {
-      "name": "Periodic Labs",
+      "name": "Perceptron",
       "discoveries": [
         {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Advanced Manufacturing"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A company focused on materials science and advanced manufacturing applications."
-    },
-    {
-      "name": "Ramp",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Other"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A financial operations platform for businesses to manage spend and payments."
-    },
-    {
-      "name": "SendCutSend",
-      "discoveries": [
-        {
-          "source": "Core Memory (Ashlee Vance)",
+          "source": "Latent Space (swyx)",
           "host": "",
-          "title": "Is America Cooked? \u2014 EP 68 Ashlee Vance And Kylie Robison",
-          "url": "https://www.corememory.com/p/is-america-cooked-openai-spacex-cursor-kindbio-apple",
-          "date": "Tue, 28 Apr 2026 13:03:31 GMT",
+          "title": "[AINews] The End of Finetuning",
+          "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+          "date": "Wed, 13 May 2026 02:47:22 GMT",
           "kind": "newsletter_article"
         }
       ],
       "sectors": [
-        "Advanced Manufacturing"
+        "AI & Compute"
       ],
       "founders": [],
       "stealthSignal": false,
       "confidence": "medium",
       "sources": [
-        "Core Memory (Ashlee Vance)"
+        "Latent Space (swyx)"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "On-demand manufacturing and parts cutting service positioned as America's rapid prototyping alternative to Chinese manufacturing capabilities."
+      "description": "AI company developing Perceptron Mk1, a model focused on frontier video and embodied reasoning with native video support."
+    },
+    {
+      "name": "Raindrop Triage",
+      "discoveries": [
+        {
+          "source": "Latent Space (swyx)",
+          "host": "",
+          "title": "[AINews] Silicon Valley gets Serious about Services",
+          "url": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
+          "date": "Wed, 06 May 2026 05:40:41 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Ben Hylak"
+      ],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Latent Space (swyx)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An AI agent designed to detect and investigate misbehavior in other AI agents through observability and feedback systems."
     },
     {
       "name": "Sesame",
@@ -583,7 +583,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI-focused company operating in the frontier compute space."
+      "description": "AI-powered startup operating in the frontier compute space."
+    },
+    {
+      "name": "Ulysses",
+      "discoveries": [
+        {
+          "source": "Core Memory",
+          "host": "Ashlee Vance",
+          "title": "The $50,000 Underwater Drone - EP 66 Ulysses",
+          "url": "https://www.corememory.com/p/ulysses-ocean-drones-andreessen-horowitz-series-a",
+          "date": "Thu, 16 Apr 2026 14:19:05 GMT",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Robotics & Manufacturing"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Core Memory"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "San Francisco-based startup building autonomous underwater drones, initially focused on seagrass planting and marine ecosystem monitoring."
+    },
+    {
+      "name": "Affirm",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "Trump-Xi Summit, Inflation Fears, Space Data Centers | Max Levchin, Delian Asparouhov, Richard Socher, Brandon Hill, Nate Tepper, Joubin Mirzadegan, Roman Chernin",
+          "url": "https://share.transistor.fm/s/f4584153",
+          "date": "Wed, 13 May 2026 14:29:28 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "founders": [
+        "Max Levchin"
+      ],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Financial technology company offering buy-now-pay-later services."
     },
     {
       "name": "DeepSeek",
@@ -608,7 +660,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI company in fundraising discussions, apparently working on efficient model inference and deployment."
+      "description": "AI company reportedly in fundraising discussions targeting a $45B valuation."
     },
     {
       "name": "Delve",
@@ -633,7 +685,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "YC-backed AI company that was removed from the accelerator program."
+      "description": "YC-backed AI startup that was removed from the accelerator program."
     },
     {
       "name": "Neural Computers",
@@ -658,32 +710,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A company building neural computing systems, likely focused on neuromorphic or brain-inspired computation architectures."
-    },
-    {
-      "name": "Olipop",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A functional beverage company focused on digestive health."
+      "description": "A company developing neural computing systems, likely focused on brain-computer interfaces or neuromorphic computing architectures."
     },
     {
       "name": "Revolut",
@@ -708,7 +735,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A fintech company mentioned as an investment portfolio holding."
+      "description": "Fintech company mentioned as an investment; appears to be an established player rather than frontier-tech startup."
+    },
+    {
+      "name": "Thinking Machines",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "Trial Update, AI SPVs, BuzzFeed Sold | Doomberg, Sahir Jaggi, Sam Blond, Kevin Hartz, Alex Shan, Glen Wise, Roger Lynch",
+          "url": "https://share.transistor.fm/s/01a45a62",
+          "date": "Tue, 12 May 2026 14:37:58 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Company developing interaction models, likely for AI applications."
     }
   ]
 }

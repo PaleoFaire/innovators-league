@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-10T10:08:00+00:00",
+  "generatedAt": "2026-05-17T10:19:09+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 8
+      "recentItems": 7
     },
     {
       "name": "Newcomer (Eric Newcomer)",
@@ -24,7 +24,7 @@
       "name": "Construction Physics (Brian Potter)",
       "url": "https://www.construction-physics.com/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 3
     },
     {
       "name": "The Generalist (Mario Gabriele)",
@@ -36,13 +36,13 @@
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 2
     },
     {
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 4
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
@@ -60,7 +60,7 @@
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 12
+      "recentItems": 10
     },
     {
       "name": "404 Media",
@@ -90,6 +90,25 @@
   "totalRawSignals": 14,
   "uniqueCandidateCount": 14,
   "candidates": [
+    {
+      "name": "Perceptron Mk1",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Perceptron Mk1",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "s Perceptron Mk1 was the most substantive new model release in the set :  @perceptroninc  launched  Perceptron Mk1  as a model for  frontier video and embodied reasoning , with native video support at",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] The End of Finetuning",
+          "articleUrl": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+          "articleDate": "Wed, 13 May 2026 02:47:22 GMT"
+        }
+      ]
+    },
     {
       "name": "SOTA",
       "totalScore": 10.2,
@@ -129,59 +148,59 @@
       ]
     },
     {
-      "name": "SendCutSend",
-      "totalScore": 9.0,
+      "name": "Cowboy Space Corporation",
+      "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "SendCutSend",
-          "score": 9.0,
-          "frontierTechScore": 3,
+          "name": "Cowboy Space Corporation",
+          "score": 7.2,
+          "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ying to fix it. LA as the  secret manufacturing capital , Texas as the emerging center of gravity,  SendCutSend  (our newest sponsor!) as the closest thing America has to China for fast parts, and the",
-          "source": "Core Memory (Ashlee Vance)",
-          "sourceUrl": "https://www.corememory.com/feed",
-          "articleTitle": "Is America Cooked? \u2014 EP 68 Ashlee Vance And Kylie Robison",
-          "articleUrl": "https://www.corememory.com/p/is-america-cooked-openai-spacex-cursor-kindbio-apple",
-          "articleDate": "Tue, 28 Apr 2026 13:03:31 GMT"
+          "context": "boy Space Corp Differentiation Case Study Earlier this week, I saw a headline that a company called Cowboy Space Corporation had raised over $200 million to build rockets whose upper stages are just f",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Cowboy Space Corporation",
+          "articleUrl": "https://www.notboring.co/p/cowboy-space-corporation",
+          "articleDate": "Sat, 16 May 2026 12:52:13 GMT"
         }
       ]
     },
     {
-      "name": "America",
-      "totalScore": 7.0,
+      "name": "MIND",
+      "totalScore": 5.95,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "America",
-          "score": 7.0,
+          "name": "MIND",
+          "score": 5.95,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": ", Texas as the emerging center of gravity,  SendCutSend  (our newest sponsor!) as the closest thing America has to China for fast parts, and the hardware cult in central Texas that you should  probabl",
-          "source": "Core Memory (Ashlee Vance)",
-          "sourceUrl": "https://www.corememory.com/feed",
-          "articleTitle": "Is America Cooked? \u2014 EP 68 Ashlee Vance And Kylie Robison",
-          "articleUrl": "https://www.corememory.com/p/is-america-cooked-openai-spacex-cursor-kindbio-apple",
-          "articleDate": "Tue, 28 Apr 2026 13:03:31 GMT"
+          "context": "tandard MoEs under similar pruning ( follow-up ). On generative evaluation,  @qberthet  introduced  MIND (Monge Inception Distance)  as a purportedly faster, more sample-efficient replacement for FID.",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+          "articleUrl": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+          "articleDate": "Tue, 12 May 2026 04:33:46 GMT"
         }
       ]
     },
     {
-      "name": "PAs",
-      "totalScore": 6.3,
+      "name": "Monge Inception Distance",
+      "totalScore": 5.95,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "PAs",
-          "score": 6.3,
+          "name": "Monge Inception Distance",
+          "score": 5.95,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ed). In February, Abridge launched at HonorHealth with 500 licenses for around 3,000 physicians and PAs, who are using Abridge in the background to record and take notes as they meet with patients. Af",
-          "source": "Newcomer (Eric Newcomer)",
-          "sourceUrl": "https://www.newcomer.co/feed",
-          "articleTitle": "Voice AI Investment Surges as Enterprise Applications Gain Traction",
-          "articleUrl": "https://www.newcomer.co/p/voice-ai-investment-surges-as-enterprise",
-          "articleDate": "Thu, 30 Apr 2026 20:09:32 GMT"
+          "context": "d MoEs under similar pruning ( follow-up ). On generative evaluation,  @qberthet  introduced  MIND (Monge Inception Distance)  as a purportedly faster, more sample-efficient replacement for FID. Diffu",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+          "articleUrl": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+          "articleDate": "Tue, 12 May 2026 04:33:46 GMT"
         }
       ]
     },
@@ -315,25 +334,6 @@
           "articleTitle": "[AINews] Silicon Valley gets Serious about Services",
           "articleUrl": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
           "articleDate": "Wed, 06 May 2026 05:40:41 GMT"
-        }
-      ]
-    },
-    {
-      "name": "SenseNova-U1",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "SenseNova-U1",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "parameter range, suggesting that it raises the bar for future models from competitors like Mistral. SenseNova-U1 just dropped \u2014 native multimodal gen/understanding in one model, no VAE, no diffusion  ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] AI Engineer World's Fair \u2014 Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertical AI Call for Speakers",
-          "articleUrl": "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch",
-          "articleDate": "Sat, 02 May 2026 07:21:55 GMT"
         }
       ]
     },
