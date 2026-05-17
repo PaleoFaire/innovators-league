@@ -47476,10 +47476,10 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-17 09:55
+// Last updated: 2026-05-17 11:18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "18h ago", impact: "high", unread: true },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "20h ago", impact: "high", unread: true },
   { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
   { id: 4, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "1d ago", impact: "low", unread: true },
