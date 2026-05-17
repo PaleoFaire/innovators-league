@@ -1,19 +1,126 @@
 {
-  "generatedAt": "2026-05-16T07:51:04+00:00",
+  "generatedAt": "2026-05-17T08:13:43+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 3,
   "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 3,
-    "changesProposed": 0,
+    "cleared": 2,
+    "changesProposed": 1,
     "unverifiable": 0
   },
   "cleared": [
     "Alumni Ventures",
-    "Founders Fund",
     "Future Ventures"
   ],
-  "changesProposed": [],
+  "changesProposed": [
+    {
+      "name": "Founders Fund",
+      "current": {
+        "name": "Founders Fund",
+        "shortName": "Founders Fund",
+        "aum": "$17B+",
+        "flagshipFund": "Founders Fund Growth III",
+        "founded": 2005,
+        "hq": "San Francisco, California",
+        "website": "https://foundersfund.com"
+      },
+      "verified": {
+        "name": "Founders Fund",
+        "short_name": "Founders Fund",
+        "aum": "$17B+",
+        "flagship_fund": "Founders Fund Growth III",
+        "founded_year": 2005,
+        "hq": "San Francisco, California",
+        "key_partners": [
+          "Peter Thiel",
+          "Luke Nosek",
+          "Mike Solana",
+          "Trae Stephens",
+          "Lauren Gross",
+          "Scott Nolan",
+          "Napoleon Ta"
+        ],
+        "sector_focus": [
+          "Hard Tech",
+          "Defense Technology",
+          "Space Technology",
+          "Artificial Intelligence",
+          "Biotech"
+        ],
+        "thesis": "Founders Fund focuses on ambitious projects that resolve real challenges and create transformative technology. The firm has gradually developed from early-stage consumer internet into a primary backer of hard tech, defense technology, space exploration, artificial intelligence, and biotech.",
+        "website": "https://foundersfund.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "short_name": [
+            0,
+            2
+          ],
+          "aum": [
+            2
+          ],
+          "flagship_fund": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "hq": [
+            2
+          ],
+          "key_partners": [
+            2
+          ],
+          "sector_focus": [
+            2
+          ],
+          "thesis": [
+            2
+          ],
+          "website": [
+            0,
+            2
+          ]
+        },
+        "notes": "Founded July 2005 by Peter Thiel, Ken Howery, and Luke Nosek. Raised Founders Fund Growth III at $4.6 billion in 2025 for late-stage investments. Wikipedia lists Ken Howery as founder but notes him as former partner; current senior partners confirmed on Wikipedia as: Peter Thiel, Luke Nosek, Mike Solana, Trae Stephens, Lauren Gross, Scott Nolan, Napoleon Ta."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Founders Fund focuses on ambitious projects that resolve real challenges and create transformative technology. The firm has gradually shifted from early-stage consumer internet toward hard tech, defense technology, space exploration, artificial intelligence, and biotech.",
+          "verified": "Founders Fund focuses on ambitious projects that resolve real challenges and create transformative technology. The firm has gradually developed from early-stage consumer internet into a primary backer of hard tech, defense technology, space exploration, artificial intelligence, and biotech.",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://foundersfund.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/portfolio",
+          "url": "https://foundersfund.com/portfolio"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Founders_Fund"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/"
+        }
+      ],
+      "notes": "Founded July 2005 by Peter Thiel, Ken Howery, and Luke Nosek. Raised Founders Fund Growth III at $4.6 billion in 2025 for late-stage investments. Wikipedia lists Ken Howery as founder but notes him as former partner; current senior partners confirmed on Wikipedia as: Peter Thiel, Luke Nosek, Mike Solana, Trae Stephens, Lauren Gross, Scott Nolan, Napoleon Ta."
+    }
+  ],
   "unverifiable": []
 }

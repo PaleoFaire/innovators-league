@@ -1,75 +1,71 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-16T07:50:41+00:00  
+**Generated:** 2026-05-17T08:13:20+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 21 companies  
+**Cohort size:** 23 companies  
 
-**New Claude extractions this run:** 20  
+**New Claude extractions this run:** 22  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 16 | 76% |
-| 🔧 Changes proposed | 5 | 24% |
+| ✅ Cleared (data matches sources) | 19 | 83% |
+| 🔧 Changes proposed | 4 | 17% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (5 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### AST SpaceMobile
+### Fervo Energy
 
-- **`location`:** `Midland, TX` → `Midland, Texas, USA`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/AST_SpaceMobile)
+- **`fundingStage`:** `IPO` → `Public`  
+  Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** Company founded in May 2017 as AST & Science LLC; went public via SPAC merger with New Providence in April 2021 (Nasdaq: ASTS). Wikipedia notes 578 employees as of 2024. As of Q2 2025, company has raised over $2 billion total.
-
-### Cerebras
-
-- **`location`:** `Sunnyvale, California` → `Sunnyvale, California, US`  
-  Sources: [company_website](https://cerebras.ai) · [company_about](https://cerebras.ai/company) · [wikipedia](https://en.wikipedia.org/wiki/Cerebras)
-
-  **Notes:** Company is now trading on Nasdaq (ticker: CBRS) as stated in source 0. Wikipedia lists 2025 revenue of $510 million and 2025 net income of $87.9 million (source 2). Sources reference IPO and pricing around $185 per share raising ~$5.55 billion (source 5), but specific total_raised and valuation figures cannot be definitively verified from these sources due to formatting issues and lack of clear completion in source text.
+  **Notes:** IPO announced and priced in May 2026 (source 0 newsroom section). Wikipedia entry notes company type as 'Private' but website shows multiple IPO announcements from May 2026. Most recent funding round was $462 million Series E in November 2025 led by B Capital (source 2).
 
 ### Nuro
 
 - **`fundingStage`:** `Series G` → `Series E`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Nuro)
 
-  **Notes:** Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 for $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership with Uber and Lucid Motors for robotaxi deployment of at least 20,000 vehicles over six years announced July 2025.
+  **Notes:** Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding rounds: $106M opened April 2025, $97M closed August 2025, $203M raised August 2025 at $6B valuation. Partnership with Uber and Lucid Motors to deploy 20,000+ robotaxis.
 
 ### OpenAI
 
 - **`founder`:** `Sam Altman, Greg Brockman, Ilya Sutskever` → `Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/OpenAI)
 
-  **Notes:** Valuation updated to $500B based on October 2025 share sale ($6.6B at $500B valuation). Company transitioned from nonprofit (2015) to capped for-profit (2019) to for-profit PBC (2025). Microsoft invested over $13B total.
+  **Notes:** Founded December 8, 2015 as nonprofit; transitioned to for-profit capped entity in 2019. In October 2025, conducted $6.6 billion share sale that valued company at $500 billion (most recent valuation per source 0). Wikipedia lists 11 founders including Elon Musk; database entry listed only 3. Initial capital pledges of $1 billion significantly lagged actual collection ($133.2 million by 2021).
 
 ### SpaceX
 
-- **`fundingStage`:** `Series G` → `Pre-IPO`  
+- **`fundingStage`:** `Series G` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia states 'SpaceX is not publicly traded but is expected to have an initial public offering (IPO) in 2026.' Headquarters location changed from El Segundo, California (2002) to Starbase, Texas. Source [0] is a domain sale page and is not usable. Sources [2], [3], [4] are news articles with insufficient company-level information for verification.
+  **Notes:** Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes 'a 2025 offer to buy internal shares valued SpaceX at $800 billion'. Database entry claimed IPO at $1.5T valuation and Series G stage, but sources do not support these claims. Source [0] is a domain parking page and provides no company information. Total funding amount cannot be verified from provided sources.
 
 ---
 
-## ✅ Cleared (16 companies)
+## ✅ Cleared (19 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
+- AST SpaceMobile
 - Anthropic
+- Astro Mechanica
 - Axiom Space
+- Cerebras
+- Destinus
 - Deterrence
-- Fervo Energy
 - Fractile
 - Galvanick
 - Hidden Level
@@ -86,4 +82,4 @@ Sample (first 30):
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-16T07:50:41+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-17T08:13:20+00:00*

@@ -1,19 +1,22 @@
 {
-  "generatedAt": "2026-05-16T07:50:41+00:00",
+  "generatedAt": "2026-05-17T08:13:20+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 21,
-  "newExtractionsThisRun": 20,
+  "cohortSize": 23,
+  "newExtractionsThisRun": 22,
   "summary": {
-    "cleared": 16,
-    "changesProposed": 5,
+    "cleared": 19,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
+    "AST SpaceMobile",
     "Anthropic",
+    "Astro Mechanica",
     "Axiom Space",
+    "Cerebras",
+    "Destinus",
     "Deterrence",
-    "Fervo Energy",
     "Fractile",
     "Galvanick",
     "Hidden Level",
@@ -29,74 +32,76 @@
   ],
   "changesProposed": [
     {
-      "name": "AST SpaceMobile",
+      "name": "Fervo Energy",
       "current": {
-        "name": "AST SpaceMobile",
-        "founder": "Abel Avellan",
-        "location": "Midland, TX",
+        "name": "Fervo Energy",
+        "founder": "Tim Latimer, Jack Norbeck",
+        "location": "Houston, Texas, U.S.",
         "founded": 2017,
-        "fundingStage": "Public",
-        "totalRaised": "$2B+",
-        "website": "https://astspacemobile.com"
+        "fundingStage": "IPO",
+        "totalRaised": "$1.5B+",
+        "website": "https://fervoenergy.com"
       },
       "verified": {
-        "name": "AST SpaceMobile",
-        "description": "Publicly traded satellite manufacturer building the SpaceMobile constellation, a space-based cellular broadband network designed to connect directly to standard smartphones with 4G and 5G coverage globally.",
+        "name": "Fervo Energy",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems using horizontal drilling techniques. Fervo develops next-generation geothermal projects including Project Red and Cape Station.",
         "founders": [
-          "Abel Avellan"
+          "Tim Latimer",
+          "Jack Norbeck"
         ],
-        "location": "Midland, Texas, USA",
+        "location": "Houston, Texas, U.S.",
         "founded_year": 2017,
         "current_stage": "Public",
-        "total_raised": "$2B+",
+        "total_raised": "$1.5B+",
         "valuation": null,
         "investors": [
-          "Vodafone",
-          "Rakuten",
-          "Samsung Next",
-          "American Tower",
-          "Cisneros"
+          "B Capital",
+          "Breakthrough Energy",
+          "Centaurus Capital",
+          "Congruent Ventures"
         ],
-        "website": "https://ast-science.com",
+        "website": "https://fervoenergy.com",
         "sources_per_field": {
           "name": [
             0,
-            1
+            1,
+            2
           ],
           "description": [
-            1
+            2
           ],
           "founders": [
-            1
+            2
           ],
           "location": [
-            1
+            2
           ],
           "founded_year": [
-            1
+            2
           ],
           "current_stage": [
-            1
+            0
           ],
           "total_raised": [
-            1
+            2
           ],
           "investors": [
-            1
+            2
           ],
           "website": [
-            1
+            0,
+            2
           ]
         },
-        "notes": "Company founded in May 2017 as AST & Science LLC; went public via SPAC merger with New Providence in April 2021 (Nasdaq: ASTS). Wikipedia notes 578 employees as of 2024. As of Q2 2025, company has raised over $2 billion total."
+        "notes": "IPO announced and priced in May 2026 (source 0 newsroom section). Wikipedia entry notes company type as 'Private' but website shows multiple IPO announcements from May 2026. Most recent funding round was $462 million Series E in November 2025 led by B Capital (source 2)."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Midland, TX",
-          "verified": "Midland, Texas, USA",
+          "field": "fundingStage",
+          "current": "IPO",
+          "verified": "Public",
           "sources": [
-            1
+            0
           ]
         }
       ],
@@ -104,144 +109,35 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://astspacemobile.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/AST_SpaceMobile"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/ast-spacemobile-may-use-ulas-vulcan/"
-        }
-      ],
-      "notes": "Company founded in May 2017 as AST & Science LLC; went public via SPAC merger with New Providence in April 2021 (Nasdaq: ASTS). Wikipedia notes 578 employees as of 2024. As of Q2 2025, company has raised over $2 billion total."
-    },
-    {
-      "name": "Cerebras",
-      "current": {
-        "name": "Cerebras",
-        "founder": "Andrew Feldman, Gary Lauterbach, Michael James, Sean Lie, Jean-Philippe Fricker",
-        "location": "Sunnyvale, California",
-        "founded": 2015,
-        "fundingStage": "Public",
-        "totalRaised": "$1.1B+",
-        "website": "https://cerebras.ai"
-      },
-      "verified": {
-        "name": "Cerebras Systems Inc.",
-        "description": "Cerebras designs and manufactures wafer-scale AI chips and systems for artificial intelligence training and inference workloads. The company's products include the Wafer-Scale Engine (WSE) processor and CS-series AI computer systems.",
-        "founders": [
-          "Andrew Feldman",
-          "Gary Lauterbach",
-          "Michael James",
-          "Sean Lie",
-          "Jean-Philippe Fricker"
-        ],
-        "location": "Sunnyvale, California, US",
-        "founded_year": 2015,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Sam Altman",
-          "Andy Bechtolsheim",
-          "Greg Brockman",
-          "Adam D'Angelo",
-          "Mark Leslie",
-          "Nick McKeown",
-          "David Perlmutter",
-          "Saiyed Atiq Raza",
-          "Jeff Rothschild",
-          "Pradeep Sindhu",
-          "Ilya Sutskever",
-          "Lip-Bu Tan",
-          "Fred Weber"
-        ],
-        "website": "https://cerebras.ai",
-        "sources_per_field": {
-          "name": [
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            0,
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            0,
-            2
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company is now trading on Nasdaq (ticker: CBRS) as stated in source 0. Wikipedia lists 2025 revenue of $510 million and 2025 net income of $87.9 million (source 2). Sources reference IPO and pricing around $185 per share raising ~$5.55 billion (source 5), but specific total_raised and valuation figures cannot be definitively verified from these sources due to formatting issues and lack of clear completion in source text."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Sunnyvale, California",
-          "verified": "Sunnyvale, California, US",
-          "sources": [
-            0,
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://cerebras.ai"
+          "url": "https://fervoenergy.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://cerebras.ai/company"
+          "url": "https://fervoenergy.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cerebras"
+          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
         },
         {
           "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/14/cerebras-ipo-makes-billions-for-benchmark-but-vc-eric-vishria-almost-didnt-take-the-meeting/"
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
         },
         {
           "idx": 4,
-          "src": "news (Crunchbase News)",
-          "url": "https://news.crunchbase.com/ai/cerebras-ipo-cbrs/"
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
         },
         {
           "idx": 5,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/cerebras-ai-wafer-sized-compute-raises-ipo-price-nearly-20.html"
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "Company is now trading on Nasdaq (ticker: CBRS) as stated in source 0. Wikipedia lists 2025 revenue of $510 million and 2025 net income of $87.9 million (source 2). Sources reference IPO and pricing around $185 per share raising ~$5.55 billion (source 5), but specific total_raised and valuation figures cannot be definitively verified from these sources due to formatting issues and lack of clear completion in source text."
+      "notes": "IPO announced and priced in May 2026 (source 0 newsroom section). Wikipedia entry notes company type as 'Private' but website shows multiple IPO announcements from May 2026. Most recent funding round was $462 million Series E in November 2025 led by B Capital (source 2)."
     },
     {
       "name": "Nuro",
@@ -256,7 +152,7 @@
       },
       "verified": {
         "name": "Nuro",
-        "description": "Autonomous vehicle technology company that initially developed custom autonomous delivery vehicles and has since pivoted to licensing its Level 4 driving system, Nuro Driver, to automakers and mobility providers.",
+        "description": "Autonomous vehicle technology company that develops Level 4 self-driving systems. Founded by engineers from Google's self-driving program, Nuro pivoted in September 2024 from custom delivery vehicles to licensing its Nuro Driver autonomy platform to automakers and mobility providers.",
         "founders": [
           "Jiajun Zhu",
           "Dave Ferguson"
@@ -265,7 +161,7 @@
         "founded_year": 2016,
         "current_stage": "Series E",
         "total_raised": "$2.84B+",
-        "valuation": "$6.0B",
+        "valuation": "$6B",
         "investors": [
           "Greylock Partners",
           "Gaorong Capital",
@@ -282,6 +178,7 @@
             2
           ],
           "description": [
+            0,
             1,
             2
           ],
@@ -311,11 +208,10 @@
           ],
           "website": [
             0,
-            1,
-            2
+            1
           ]
         },
-        "notes": "Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 for $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership with Uber and Lucid Motors for robotaxi deployment of at least 20,000 vehicles over six years announced July 2025."
+        "notes": "Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding rounds: $106M opened April 2025, $97M closed August 2025, $203M raised August 2025 at $6B valuation. Partnership with Uber and Lucid Motors to deploy 20,000+ robotaxis."
       },
       "changes": [
         {
@@ -354,7 +250,7 @@
           "url": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
         }
       ],
-      "notes": "Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 for $106M and closed in August 2025 with additional $97M. In August 2025, raised $203M at $6B valuation. Partnership with Uber and Lucid Motors for robotaxi deployment of at least 20,000 vehicles over six years announced July 2025."
+      "notes": "Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding rounds: $106M opened April 2025, $97M closed August 2025, $203M raised August 2025 at $6B valuation. Partnership with Uber and Lucid Motors to deploy 20,000+ robotaxis."
     },
     {
       "name": "OpenAI",
@@ -429,7 +325,7 @@
             0
           ]
         },
-        "notes": "Valuation updated to $500B based on October 2025 share sale ($6.6B at $500B valuation). Company transitioned from nonprofit (2015) to capped for-profit (2019) to for-profit PBC (2025). Microsoft invested over $13B total."
+        "notes": "Founded December 8, 2015 as nonprofit; transitioned to for-profit capped entity in 2019. In October 2025, conducted $6.6 billion share sale that valued company at $500 billion (most recent valuation per source 0). Wikipedia lists 11 founders including Elon Musk; database entry listed only 3. Initial capital pledges of $1 billion significantly lagged actual collection ($133.2 million by 2021)."
       },
       "changes": [
         {
@@ -449,21 +345,21 @@
         },
         {
           "idx": 1,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/"
+        },
+        {
+          "idx": 2,
           "src": "news (Wired)",
           "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/"
         },
         {
-          "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/"
-        },
-        {
           "idx": 3,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/"
+          "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/"
         }
       ],
-      "notes": "Valuation updated to $500B based on October 2025 share sale ($6.6B at $500B valuation). Company transitioned from nonprofit (2015) to capped for-profit (2019) to for-profit PBC (2025). Microsoft invested over $13B total."
+      "notes": "Founded December 8, 2015 as nonprofit; transitioned to for-profit capped entity in 2019. In October 2025, conducted $6.6 billion share sale that valued company at $500 billion (most recent valuation per source 0). Wikipedia lists 11 founders including Elon Musk; database entry listed only 3. Initial capital pledges of $1 billion significantly lagged actual collection ($133.2 million by 2021)."
     },
     {
       "name": "SpaceX",
@@ -478,13 +374,13 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company that develops rockets, spacecraft, and satellite constellation technology. As of 2026, SpaceX conducts more orbital launches annually than any other launch provider.",
+        "description": "American aerospace and artificial intelligence company that designs and manufactures rockets, spacecraft, and satellite constellations. Founded by Elon Musk in 2002 with the goal of decreasing space launch costs and enabling human settlement on Mars.",
         "founders": [
           "Elon Musk"
         ],
         "location": "Starbase, Texas, U.S.",
         "founded_year": 2002,
-        "current_stage": "Pre-IPO",
+        "current_stage": "Private",
         "total_raised": null,
         "valuation": "$800B",
         "investors": null,
@@ -515,13 +411,13 @@
             1
           ]
         },
-        "notes": "Wikipedia states 'SpaceX is not publicly traded but is expected to have an initial public offering (IPO) in 2026.' Headquarters location changed from El Segundo, California (2002) to Starbase, Texas. Source [0] is a domain sale page and is not usable. Sources [2], [3], [4] are news articles with insufficient company-level information for verification."
+        "notes": "Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes 'a 2025 offer to buy internal shares valued SpaceX at $800 billion'. Database entry claimed IPO at $1.5T valuation and Series G stage, but sources do not support these claims. Source [0] is a domain parking page and provides no company information. Total funding amount cannot be verified from provided sources."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series G",
-          "verified": "Pre-IPO",
+          "verified": "Private",
           "sources": [
             1
           ]
@@ -545,16 +441,16 @@
         },
         {
           "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/"
         },
         {
           "idx": 4,
           "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/fcc-approves-spacex-spectrum-deal-with-2-4-billion-escrow-condition/"
+          "url": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/"
         }
       ],
-      "notes": "Wikipedia states 'SpaceX is not publicly traded but is expected to have an initial public offering (IPO) in 2026.' Headquarters location changed from El Segundo, California (2002) to Starbase, Texas. Source [0] is a domain sale page and is not usable. Sources [2], [3], [4] are news articles with insufficient company-level information for verification."
+      "notes": "Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes 'a 2025 offer to buy internal shares valued SpaceX at $800 billion'. Database entry claimed IPO at $1.5T valuation and Series G stage, but sources do not support these claims. Source [0] is a domain parking page and provides no company information. Total funding amount cannot be verified from provided sources."
     }
   ],
   "unverifiable": []
