@@ -1,30 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-05-17T00:00:18.988Z
+// Last updated: 2026-05-17T04:12:12.573Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1778976018988,
+    "id": 1778991132573,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI co-founder Greg Brockman takes charge of product strategy",
     "source": "TechCrunch",
-    "time": "8h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/"
   },
   {
-    "id": 1778976018989,
+    "id": 1778991132574,
     "type": "ipo",
     "company": "Cerebras",
     "headline": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
     "source": "TechCrunch",
-    "time": "9h ago",
+    "time": "13h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/"
   },
   {
-    "id": 1778976018990,
+    "id": 1778991132575,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX launches CRS-34 cargo mission to ISS",
+    "source": "SpaceNews",
+    "time": "1d ago",
+    "impact": "medium",
+    "unread": true,
+    "link": "https://spacenews.com/spacex-launches-crs-34-cargo-mission-to-iss/"
+  },
+  {
+    "id": 1778991132576,
     "type": "contract",
     "company": "SpaceX",
     "headline": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
@@ -35,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/"
   },
   {
-    "id": 1778976018991,
+    "id": 1778991132577,
     "type": "hire",
     "company": "Rivian",
     "headline": "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more",
@@ -46,18 +57,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/15/podcast-tesla-robotaxi-rivian-r2-configurator-is-live-china-is-taking-over-eu-factories-and-more/"
   },
   {
-    "id": 1778976018992,
+    "id": 1778991132578,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up",
     "source": "Wired",
     "time": "1d ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.wired.com/story/openai-reorg-greg-brockman-product/"
   },
   {
-    "id": 1778976018993,
+    "id": 1778991132579,
     "type": "milestone",
     "company": "Rivian",
     "headline": "Rivian opens R2 configurator: here are all the options and pricing",
@@ -68,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/15/rivian-r2-configurator-live-pricing-options/"
   },
   {
-    "id": 1778976018994,
+    "id": 1778991132580,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
@@ -79,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/"
   },
   {
-    "id": 1778976018995,
+    "id": 1778991132581,
     "type": "funding",
     "company": "Destinus",
     "headline": "Dutch dronemaker Destinus in €200m funding talks, reports say",
@@ -90,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/destinuse-defence-fundraise-report/"
   },
   {
-    "id": 1778976018996,
+    "id": 1778991132582,
     "type": "funding",
     "company": "Rivian",
     "headline": "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/15/8th-annual-ev-raffle-launches-one-ticket-three-prizes-win-a-rivian-lucid-or-porsche-tickets-support-fight-for-clean-energy/"
   },
   {
-    "id": 1778976018997,
+    "id": 1778991132583,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/15/uber-turns-on-waymo-10-billion-robotaxi-alternatives/"
   },
   {
-    "id": 1778976018998,
+    "id": 1778991132584,
     "type": "news",
     "company": "Runway",
     "headline": "Runway started by helping filmmakers — now it wants to beat Google at AI",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/"
   },
   {
-    "id": 1778976018999,
+    "id": 1778991132585,
     "type": "news",
     "company": "xAI",
     "headline": "Elon Musk’s xAI adds more unpermitted gas generators for data centers",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/data-centers/elon-musk-xai-unpermitted-generators"
   },
   {
-    "id": 1778976019000,
+    "id": 1778991132586,
     "type": "ipo",
     "company": "Cerebras",
     "headline": "Cerebras Shares Soar In First Day On Nasdaq",
@@ -145,7 +156,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/ai/cerebras-ipo-cbrs/"
   },
   {
-    "id": 1778976019001,
+    "id": 1778991132587,
+    "type": "ipo",
+    "company": "AST SpaceMobile",
+    "headline": "AST SpaceMobile may use ULA’s Vulcan",
+    "source": "SpaceNews",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://spacenews.com/ast-spacemobile-may-use-ulas-vulcan/"
+  },
+  {
+    "id": 1778991132588,
     "type": "funding",
     "company": "OpenAI",
     "headline": "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June",
@@ -156,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/05/14/sea-openai-launch-apac-ai-hackathon-series-starting-in-singapore-in-june/"
   },
   {
-    "id": 1778976019002,
+    "id": 1778991132589,
     "type": "funding",
     "company": "Cerebras",
     "headline": "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%",
@@ -167,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/cerebras-ai-wafer-sized-compute-raises-ipo-price-nearly-20.html"
   },
   {
-    "id": 1778976019003,
+    "id": 1778991132590,
     "type": "ipo",
     "company": "Fervo Energy",
     "headline": "Fervo Energy’s IPO is a milestone for next-gen geothermal",
@@ -178,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
   },
   {
-    "id": 1778976019004,
+    "id": 1778991132591,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo expands robotaxi coverage more than 20% — larger than Rhode Island",
@@ -189,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/13/waymo-expands-coverage-1400-square-miles-11-cities/"
   },
   {
-    "id": 1778976019005,
+    "id": 1778991132592,
     "type": "funding",
     "company": "Fractile",
     "headline": "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck",
@@ -198,27 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/"
-  },
-  {
-    "id": 1778976019006,
-    "type": "milestone",
-    "company": "Rivian",
-    "headline": "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with full vehicle control",
-    "source": "Electrek",
-    "time": "4d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://electrek.co/2026/05/12/rivian-hey-rivian-ai-assistant-vehicle-control/"
-  },
-  {
-    "id": 1778976019007,
-    "type": "news",
-    "company": "Waymo",
-    "headline": "Waymo recalls 3,791 robotaxis over flooded road incident, deploying OTA software fix",
-    "source": "Electrek",
-    "time": "4d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://electrek.co/2026/05/12/waymo-recalls-3791-robotaxis-flooded-road-ota-software-fix/"
   }
 ];
