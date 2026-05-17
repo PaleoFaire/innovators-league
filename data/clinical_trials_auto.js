@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-05-16 08:29:40 UTC
+// Last updated: 2026-05-17 08:56:24 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06702033", title: "The Minimalist Trial-2", status: "RECRUITING", phase: "PHASE2", sponsor: "Washington University School of Medicine", conditions: "HPV-Related Oropharynx Squamous Cell Carcinoma", enrollment: 142, lastUpdated: "2026-05-15" },
   { nctId: "NCT06669780", title: "e-CBT DTx for Post Traumatic Headaches in Adults With History of TBI", status: "COMPLETED", phase: "NA", sponsor: "Henry M. Jackson Foundation for the Advancement of Military Medicine", conditions: "Post-Traumatic Headache", enrollment: 83, lastUpdated: "2026-05-15" },

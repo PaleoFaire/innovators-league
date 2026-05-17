@@ -14269,6 +14269,216 @@ const GOV_DEMAND_TRACKER = [
     source: "sam.gov",
     posted: "2025-09-25"
   },
+  {
+    id: "SAM-70B02C26F00000035",
+    title: "PURCHASE OF TOWERS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PURCHASE OF TOWERS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-25"
+  },
+  {
+    id: "SAM-N0016425CJR94",
+    title: "PRODUCTION AND DELIVERY OF ALTIUS 600M-V LOITERING MUNITIONS AND SUPPORTING HARDWARE",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PRODUCTION AND DELIVERY OF ALTIUS 600M-V LOITERING MUNITIONS AND SUPPORTING HARDWARE",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-02-11"
+  },
+  {
+    id: "SAM-70B02C25F00000926",
+    title: "AWARD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-09-19"
+  },
+  {
+    id: "SAM-70B02C25F00000422",
+    title: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-08-01"
+  },
+  {
+    id: "SAM-H9240225FE017",
+    title: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    techAreas: [],
+    relevantCompanies: ["Palantir", "Scale AI", "OpenAI", "Anthropic"],
+    source: "sam.gov",
+    posted: "2025-08-28"
+  },
+  {
+    id: "SAM-70B02C24F00000684",
+    title: "DO# 17",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO# 17",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-28"
+  },
+  {
+    id: "SAM-M6785426F1012",
+    title: "LOITERING MUNITION -ALL UP ROUNDS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "LOITERING MUNITION -ALL UP ROUNDS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-11"
+  },
+  {
+    id: "SAM-FA882024FB003",
+    title: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTIC",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTICED MESH NETWORK COMMUNICATIONS CAPABILITY TO SUPPORT WORLDWIDE SDANET CONNECTED ",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-09-27"
+  },
+  {
+    id: "SAM-H9240226FE009",
+    title: "SIP TO119 GHOSTSHIELD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP TO119 GHOSTSHIELD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-11-24"
+  },
+  {
+    id: "SAM-89233126FNA400748",
+    title: "PROCURE THE BASE YEAR COSTS WITH BASE YEAR OPERATIONS AND SUSTAINMENT, AND 5-YEAR OPERATIONS AND SUSTAINMENT SUPPORT WIT",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "PROCURE THE BASE YEAR COSTS WITH BASE YEAR OPERATIONS AND SUSTAINMENT, AND 5-YEAR OPERATIONS AND SUSTAINMENT SUPPORT WITH OPTIONS. PANTEX SITE. PROVIDING A COUNTER UNCREWED AIRCRAFT SYSTEM (CUAS) PLAT",
+    techAreas: [],
+    relevantCompanies: ["Last Energy", "Scale AI", "Anthropic", "Palantir", "Valar Atomics", "Oklo"],
+    source: "sam.gov",
+    posted: "2025-11-18"
+  },
+  {
+    id: "SAM-89233126FNA400749",
+    title: "PROCURE THE BASE YEAR COSTS WITH BASE YEAR OPERATIONS AND SUSTAINMENT, AND 5-YEAR OPERATIONS AND SUSTAINMENT SUPPORT WIT",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "PROCURE THE BASE YEAR COSTS WITH BASE YEAR OPERATIONS AND SUSTAINMENT, AND 5-YEAR OPERATIONS AND SUSTAINMENT SUPPORT WITH OPTIONS. Y12 SITE. PROVIDING A COUNTER UNCREWED AIRCRAFT SYSTEM (CUAS) PLATFOR",
+    techAreas: [],
+    relevantCompanies: ["Last Energy", "Scale AI", "Anthropic", "Palantir", "Valar Atomics", "Oklo"],
+    source: "sam.gov",
+    posted: "2025-11-18"
+  },
+  {
+    id: "SAM-M6785425F0030",
+    title: "FIRST ARTICLE TESTING (FAT) UNITS AND PM SUPPORT FOR C-UAS ENGAGEMENT SYSTEM (CES)",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "FIRST ARTICLE TESTING (FAT) UNITS AND PM SUPPORT FOR C-UAS ENGAGEMENT SYSTEM (CES)",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-10-23"
+  },
+  {
+    id: "SAM-FA875024CB011",
+    title: "YELLOWSTONE",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "YELLOWSTONE",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-02-20"
+  },
+  {
+    id: "SAM-M6785426F0032",
+    title: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-19"
+  },
+  {
+    id: "SAM-FA882025FB003",
+    title: "NEW TASK ORDER INDEFINITE DELIVERY INDEFINITE QUANTITY, 90 DAY TEST BED FOR SUPPORT ACTIVITIES.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "NEW TASK ORDER INDEFINITE DELIVERY INDEFINITE QUANTITY, 90 DAY TEST BED FOR SUPPORT ACTIVITIES.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-09-25"
+  },
 ];
 
 const GOV_DEMAND_SUMMARY = {
@@ -35315,6 +35525,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-05-16
 // Auto-updated IPO pipeline — Last updated: 2026-05-16
 // Auto-updated IPO pipeline — Last updated: 2026-05-17
+// Auto-updated IPO pipeline — Last updated: 2026-05-17
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -38152,6 +38363,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-05-16
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-05-17
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-05-17
 const DEAL_TRACKER = [
   { company: "Anysphere", investor: "Undisclosed", amount: "$600M", round: "Series G", date: "2026-05", valuation: "", leadOrParticipant: "lead" },
   { company: "Rebellions", investor: "Undisclosed", amount: "$2.2B", round: "Funding Round", date: "2026-05", valuation: "", leadOrParticipant: "lead" },
@@ -39434,6 +39647,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-05-15
 // Auto-updated revenue intelligence — Last updated: 2026-05-16
 // Auto-updated revenue intelligence — Last updated: 2026-05-16
+// Auto-updated revenue intelligence — Last updated: 2026-05-17
 // Auto-updated revenue intelligence — Last updated: 2026-05-17
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
@@ -42113,6 +42327,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-05-16
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-05-17
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-05-17
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$3.1B+", contractCount: 200, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Energy"], lastUpdated: "2026-05-17" },
   { company: "Palantir", totalGovValue: "$4.4B+", contractCount: 200, agencies: ["Department of Homeland Security", "Department of Energy", "Department of Transportation", "Department of Housing and Urban Development", "General Services Administration"], lastUpdated: "2026-05-17" },
@@ -42148,24 +42364,24 @@ const GOV_CONTRACTS = [
 // Auto-updated SAM.gov contract opportunities
 // Last updated: 2026-05-17
 const SAM_CONTRACTS = [
-  { company: "Anduril", opportunityCount: 25, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "PURCHASE OF TOWERS", "agency": "Department of Homeland Security", "postedDate": "2025-12-25", "type": null, "noticeId": "70B02C26F00000035", "awardAmount": "$363M"}, {"title": "PRODUCTION AND DELIVERY OF ALTIUS 600M-V LOITERING MUNITIONS AND SUPPORTING HARDWARE", "agency": "Department of Defense", "postedDate": "2025-02-11", "type": null, "noticeId": "N0016425CJR94", "awardAmount": "$94M"}, {"title": "AWARD", "agency": "Department of Homeland Security", "postedDate": "2025-09-19", "type": null, "noticeId": "70B02C25F00000926", "awardAmount": "$51M"}], lastUpdated: "2026-05-16" },
-  { company: "Palantir", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of State"], types: [], recentOpportunities: [{"title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039", "agency": "Department of Defense", "postedDate": "2025-10-15", "type": null, "noticeId": "W9128Z26FA001", "awardAmount": "$270M"}, {"title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS", "agency": "Department of Homeland Security", "postedDate": "2022-09-26", "type": null, "noticeId": "70CTD022FR0000170", "awardAmount": "$151M"}, {"title": "SOFTWARE AS A SERVICE (SAAS) MODEL OF ARMY VANTAGE ON BEHALF OF PEO EIS, PDM ADP. ARMY VANTAGE IS THE ARMY'S DATA-DRIVEN", "agency": "Department of Defense", "postedDate": "2024-12-13", "type": null, "noticeId": "W519TC25C0008", "awardAmount": "$103M"}], lastUpdated: "2026-05-16" },
-  { company: "Skydio", opportunityCount: 17, agencies: ["Department of Agriculture", "Department of Defense", "Department of Justice", "Department of Labor", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2025-11-20", "type": null, "noticeId": "140D0426F0037", "awardAmount": "$276K"}, {"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2026-02-04", "type": null, "noticeId": "140D0426F0169", "awardAmount": "$251K"}, {"title": "DELIVERY ORDER FOR UAS AND ACCESSORIES", "agency": "Department of Agriculture", "postedDate": "2026-04-12", "type": null, "noticeId": "12639526F0393", "awardAmount": "$224K"}], lastUpdated: "2026-05-16" },
-  { company: "Radiant", opportunityCount: 12, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of Labor"], types: [], recentOpportunities: [{"title": "ASHEPS CONTRACT", "agency": "Department of Health and Human Services", "postedDate": "2024-03-08", "type": null, "noticeId": "75FCMC24F0057", "awardAmount": "$9M"}, {"title": "OLDER AMERICANS ACT PERFORMANCE SYSTEM (OAAPS) AND TECHNICAL ASSISTANCE", "agency": "Department of Health and Human Services", "postedDate": "2023-09-30", "type": null, "noticeId": "75P00123F80228", "awardAmount": "$8M"}, {"title": "DEVELOPMENT AND REPLACEMENT OF THE AGING, INDEPENDENCE, AND DISABILITY PROGRAM DATA PORTAL (AGID 2.0", "agency": "Department of Health and Human Services", "postedDate": "2022-09-30", "type": null, "noticeId": "75P00122F80229", "awardAmount": "$3M"}], lastUpdated: "2026-05-16" },
-  { company: "Shield AI", opportunityCount: 8, agencies: ["Department of Defense", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.", "agency": "Department of Homeland Security", "postedDate": "2026-02-27", "type": null, "noticeId": "70Z02326F93130005", "awardAmount": "$16M"}, {"title": "V-BAT VTOL UNMANNED AIRCRAFT", "agency": "Department of Defense", "postedDate": "2025-09-03", "type": null, "noticeId": "N0001925F0971", "awardAmount": "$11M"}, {"title": "TO#3 FOR SHORE-BASED VBAT DEPLOYMENTS", "agency": "Department of Homeland Security", "postedDate": "2025-10-01", "type": null, "noticeId": "70Z02325F93130002", "awardAmount": "$6M"}], lastUpdated: "2026-05-16" },
-  { company: "Varda Space", opportunityCount: 6, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING", "agency": "Department of Defense", "postedDate": "2023-05-16", "type": null, "noticeId": "FA945323CA035", "awardAmount": "$27M"}, {"title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.", "agency": "Department of Defense", "postedDate": "2024-12-30", "type": null, "noticeId": "FA945325FX010", "awardAmount": "$9M"}, {"title": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.", "agency": "Department of Defense", "postedDate": "2026-01-30", "type": null, "noticeId": "FA945326FX010", "awardAmount": "$4M"}], lastUpdated: "2026-05-16" },
-  { company: "Castelion", opportunityCount: 5, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINESS INDEPENDENT RESEARCH (SBIR) PHASE III", "agency": "Department of Defense", "postedDate": "2024-10-02", "type": null, "noticeId": "FA861224CB010", "awardAmount": "$56M"}, {"title": "COMPACT HYPERSONIC MISSILE/EFFECTOR REACTIVE MATERIAL (CHYMERA) WARHEAD PROTOTYPE AND DEMONSTRATION", "agency": "Department of Defense", "postedDate": "2025-09-08", "type": null, "noticeId": "HQ086025CE025", "awardAmount": "$2M"}, {"title": "KU-BAND AFFORDABLE RESILIENTLY MANUFACTURED AESA (KARMA)", "agency": "Department of Defense", "postedDate": "2025-04-05", "type": null, "noticeId": "FA865125CB026", "awardAmount": "$1M"}], lastUpdated: "2026-05-16" },
-  { company: "Rocket Lab", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA107", "awardAmount": "$32M"}, {"title": "THE CONTRACTOR SHALL DEVELOP GEN 1 SOLAR SAIL MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE IMPLEMENTATI", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-09-26", "type": null, "noticeId": "80AFRC25FA060", "awardAmount": "$546K"}, {"title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-02-23", "type": null, "noticeId": "80GSFC26C0008", "awardAmount": "$391K"}], lastUpdated: "2026-05-16" },
-  { company: "Axiom Space", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICE (XEVAS) ARTEMIS PROGRAM", "agency": "National Aeronautics and Space Administration", "postedDate": "2022-09-08", "type": null, "noticeId": "80JSC022FA103", "awardAmount": "$341M"}, {"title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-06-23", "type": null, "noticeId": "80JSC023FA154", "awardAmount": "$100M"}, {"title": "SPECIAL STUDIES", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-27", "type": null, "noticeId": "80JSC024FA196", "awardAmount": "$31M"}], lastUpdated: "2026-05-16" },
-  { company: "Sierra Space", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "ADVANCED SPACESUIT REGULATOR (ASR)", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-12-18", "type": null, "noticeId": "80JSC026C0002", "awardAmount": "$6M"}, {"title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-04-30", "type": null, "noticeId": "80HQTR25CA008", "awardAmount": "$4M"}, {"title": "ENIAC CLOUD  THE FIRST SPACE HARDENED MULTI CLOUD EDGE COMPUTING PLATFORM IMPLEMENTATION PARTNERS", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-26", "type": null, "noticeId": "80JSC024FA212", "awardAmount": "$171K"}], lastUpdated: "2026-05-16" },
-  { company: "Planet Labs", opportunityCount: 5, agencies: ["Department of Defense", "Department of the Interior", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-11-25", "type": null, "noticeId": "80HQTR25FA066", "awardAmount": "$14M"}, {"title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-11-25", "type": null, "noticeId": "80HQTR26FA013", "awardAmount": "$900K"}, {"title": "PLANET LABS DAILY IMAGERY", "agency": "Department of the Interior", "postedDate": "2022-12-30", "type": null, "noticeId": "140S0323F0001", "awardAmount": "$291K"}], lastUpdated: "2026-05-16" },
-  { company: "Capella Space", opportunityCount: 3, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "SYNTHETIC APERTURE RADAR FOR GOVERNMENT OPERATIONS (SARGO)", "agency": "Department of Defense", "postedDate": "2024-09-01", "type": null, "noticeId": "FA945324CX020", "awardAmount": "$10M"}, {"title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-11-25", "type": null, "noticeId": "80HQTR26FA010", "awardAmount": "$209K"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF496", "awardAmount": "$500"}], lastUpdated: "2026-05-16" },
-  { company: "BlackSky", opportunityCount: 3, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "BLACKSKY GLOBAL MOVING TARGET ENGAGEMENT", "agency": "Department of Defense", "postedDate": "2024-03-15", "type": null, "noticeId": "FA945324C0001", "awardAmount": "$4M"}, {"title": "BLACKSKY DIRECT TO PHASE 2", "agency": "Department of Defense", "postedDate": "2024-10-01", "type": null, "noticeId": "FA238524CB039", "awardAmount": "$2M"}, {"title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA.", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-11-25", "type": null, "noticeId": "80HQTR26FA008", "awardAmount": "$178K"}], lastUpdated: "2026-05-16" },
-  { company: "Scale AI", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY", "agency": "Department of Defense", "postedDate": "2025-08-26", "type": null, "noticeId": "W911QX25FA054", "awardAmount": "$2M"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF523", "awardAmount": "$500"}], lastUpdated: "2026-05-16" },
-  { company: "Epirus", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF407", "awardAmount": "$500"}], lastUpdated: "2026-05-16" },
-  { company: "Saronic", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FE712", "awardAmount": "$500"}], lastUpdated: "2026-05-16" },
-  { company: "Vannevar Labs", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SBIR STRATFI - VELOCITY", "agency": "Department of Defense", "postedDate": "2025-01-06", "type": null, "noticeId": "FA860425CB008", "awardAmount": "$13M"}], lastUpdated: "2026-05-16" },
-  { company: "Relativity Space", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2026-01-21", "type": null, "noticeId": "HQ085926FG337", "awardAmount": "$500"}], lastUpdated: "2026-05-16" },
+  { company: "Anduril", opportunityCount: 25, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "PURCHASE OF TOWERS", "agency": "Department of Homeland Security", "postedDate": "2025-12-25", "type": null, "noticeId": "70B02C26F00000035", "awardAmount": "$363M"}, {"title": "PRODUCTION AND DELIVERY OF ALTIUS 600M-V LOITERING MUNITIONS AND SUPPORTING HARDWARE", "agency": "Department of Defense", "postedDate": "2025-02-11", "type": null, "noticeId": "N0016425CJR94", "awardAmount": "$94M"}, {"title": "AWARD", "agency": "Department of Homeland Security", "postedDate": "2025-09-19", "type": null, "noticeId": "70B02C25F00000926", "awardAmount": "$51M"}], lastUpdated: "2026-05-17" },
+  { company: "Palantir", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of State"], types: [], recentOpportunities: [{"title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039", "agency": "Department of Defense", "postedDate": "2025-10-15", "type": null, "noticeId": "W9128Z26FA001", "awardAmount": "$270M"}, {"title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS", "agency": "Department of Homeland Security", "postedDate": "2022-09-26", "type": null, "noticeId": "70CTD022FR0000170", "awardAmount": "$151M"}, {"title": "SOFTWARE AS A SERVICE (SAAS) MODEL OF ARMY VANTAGE ON BEHALF OF PEO EIS, PDM ADP. ARMY VANTAGE IS THE ARMY'S DATA-DRIVEN", "agency": "Department of Defense", "postedDate": "2024-12-13", "type": null, "noticeId": "W519TC25C0008", "awardAmount": "$103M"}], lastUpdated: "2026-05-17" },
+  { company: "Skydio", opportunityCount: 17, agencies: ["Department of Agriculture", "Department of Defense", "Department of Justice", "Department of Labor", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2025-11-20", "type": null, "noticeId": "140D0426F0037", "awardAmount": "$276K"}, {"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2026-02-04", "type": null, "noticeId": "140D0426F0169", "awardAmount": "$251K"}, {"title": "DELIVERY ORDER FOR UAS AND ACCESSORIES", "agency": "Department of Agriculture", "postedDate": "2026-04-12", "type": null, "noticeId": "12639526F0393", "awardAmount": "$224K"}], lastUpdated: "2026-05-17" },
+  { company: "Radiant", opportunityCount: 12, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of Labor"], types: [], recentOpportunities: [{"title": "ASHEPS CONTRACT", "agency": "Department of Health and Human Services", "postedDate": "2024-03-08", "type": null, "noticeId": "75FCMC24F0057", "awardAmount": "$9M"}, {"title": "OLDER AMERICANS ACT PERFORMANCE SYSTEM (OAAPS) AND TECHNICAL ASSISTANCE", "agency": "Department of Health and Human Services", "postedDate": "2023-09-30", "type": null, "noticeId": "75P00123F80228", "awardAmount": "$8M"}, {"title": "DEVELOPMENT AND REPLACEMENT OF THE AGING, INDEPENDENCE, AND DISABILITY PROGRAM DATA PORTAL (AGID 2.0", "agency": "Department of Health and Human Services", "postedDate": "2022-09-30", "type": null, "noticeId": "75P00122F80229", "awardAmount": "$3M"}], lastUpdated: "2026-05-17" },
+  { company: "Shield AI", opportunityCount: 8, agencies: ["Department of Defense", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.", "agency": "Department of Homeland Security", "postedDate": "2026-02-27", "type": null, "noticeId": "70Z02326F93130005", "awardAmount": "$16M"}, {"title": "V-BAT VTOL UNMANNED AIRCRAFT", "agency": "Department of Defense", "postedDate": "2025-09-03", "type": null, "noticeId": "N0001925F0971", "awardAmount": "$11M"}, {"title": "TO#3 FOR SHORE-BASED VBAT DEPLOYMENTS", "agency": "Department of Homeland Security", "postedDate": "2025-10-01", "type": null, "noticeId": "70Z02325F93130002", "awardAmount": "$6M"}], lastUpdated: "2026-05-17" },
+  { company: "Varda Space", opportunityCount: 6, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING", "agency": "Department of Defense", "postedDate": "2023-05-16", "type": null, "noticeId": "FA945323CA035", "awardAmount": "$27M"}, {"title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.", "agency": "Department of Defense", "postedDate": "2024-12-30", "type": null, "noticeId": "FA945325FX010", "awardAmount": "$9M"}, {"title": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.", "agency": "Department of Defense", "postedDate": "2026-01-30", "type": null, "noticeId": "FA945326FX010", "awardAmount": "$4M"}], lastUpdated: "2026-05-17" },
+  { company: "Castelion", opportunityCount: 5, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINESS INDEPENDENT RESEARCH (SBIR) PHASE III", "agency": "Department of Defense", "postedDate": "2024-10-02", "type": null, "noticeId": "FA861224CB010", "awardAmount": "$56M"}, {"title": "COMPACT HYPERSONIC MISSILE/EFFECTOR REACTIVE MATERIAL (CHYMERA) WARHEAD PROTOTYPE AND DEMONSTRATION", "agency": "Department of Defense", "postedDate": "2025-09-08", "type": null, "noticeId": "HQ086025CE025", "awardAmount": "$2M"}, {"title": "KU-BAND AFFORDABLE RESILIENTLY MANUFACTURED AESA (KARMA)", "agency": "Department of Defense", "postedDate": "2025-04-05", "type": null, "noticeId": "FA865125CB026", "awardAmount": "$1M"}], lastUpdated: "2026-05-17" },
+  { company: "Rocket Lab", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA107", "awardAmount": "$32M"}, {"title": "THE CONTRACTOR SHALL DEVELOP GEN 1 SOLAR SAIL MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE IMPLEMENTATI", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-09-26", "type": null, "noticeId": "80AFRC25FA060", "awardAmount": "$546K"}, {"title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-02-23", "type": null, "noticeId": "80GSFC26C0008", "awardAmount": "$391K"}], lastUpdated: "2026-05-17" },
+  { company: "Axiom Space", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICE (XEVAS) ARTEMIS PROGRAM", "agency": "National Aeronautics and Space Administration", "postedDate": "2022-09-08", "type": null, "noticeId": "80JSC022FA103", "awardAmount": "$341M"}, {"title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-06-23", "type": null, "noticeId": "80JSC023FA154", "awardAmount": "$100M"}, {"title": "SPECIAL STUDIES", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-27", "type": null, "noticeId": "80JSC024FA196", "awardAmount": "$31M"}], lastUpdated: "2026-05-17" },
+  { company: "Sierra Space", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "ADVANCED SPACESUIT REGULATOR (ASR)", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-12-18", "type": null, "noticeId": "80JSC026C0002", "awardAmount": "$6M"}, {"title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-04-30", "type": null, "noticeId": "80HQTR25CA008", "awardAmount": "$4M"}, {"title": "ENIAC CLOUD  THE FIRST SPACE HARDENED MULTI CLOUD EDGE COMPUTING PLATFORM IMPLEMENTATION PARTNERS", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-26", "type": null, "noticeId": "80JSC024FA212", "awardAmount": "$171K"}], lastUpdated: "2026-05-17" },
+  { company: "Planet Labs", opportunityCount: 5, agencies: ["Department of Defense", "Department of the Interior", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-11-25", "type": null, "noticeId": "80HQTR25FA066", "awardAmount": "$14M"}, {"title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-11-25", "type": null, "noticeId": "80HQTR26FA013", "awardAmount": "$900K"}, {"title": "PLANET LABS DAILY IMAGERY", "agency": "Department of the Interior", "postedDate": "2022-12-30", "type": null, "noticeId": "140S0323F0001", "awardAmount": "$291K"}], lastUpdated: "2026-05-17" },
+  { company: "Capella Space", opportunityCount: 3, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "SYNTHETIC APERTURE RADAR FOR GOVERNMENT OPERATIONS (SARGO)", "agency": "Department of Defense", "postedDate": "2024-09-01", "type": null, "noticeId": "FA945324CX020", "awardAmount": "$10M"}, {"title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-11-25", "type": null, "noticeId": "80HQTR26FA010", "awardAmount": "$209K"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF496", "awardAmount": "$500"}], lastUpdated: "2026-05-17" },
+  { company: "BlackSky", opportunityCount: 3, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "BLACKSKY GLOBAL MOVING TARGET ENGAGEMENT", "agency": "Department of Defense", "postedDate": "2024-03-15", "type": null, "noticeId": "FA945324C0001", "awardAmount": "$4M"}, {"title": "BLACKSKY DIRECT TO PHASE 2", "agency": "Department of Defense", "postedDate": "2024-10-01", "type": null, "noticeId": "FA238524CB039", "awardAmount": "$2M"}, {"title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA.", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-11-25", "type": null, "noticeId": "80HQTR26FA008", "awardAmount": "$178K"}], lastUpdated: "2026-05-17" },
+  { company: "Scale AI", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY", "agency": "Department of Defense", "postedDate": "2025-08-26", "type": null, "noticeId": "W911QX25FA054", "awardAmount": "$2M"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF523", "awardAmount": "$500"}], lastUpdated: "2026-05-17" },
+  { company: "Epirus", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF407", "awardAmount": "$500"}], lastUpdated: "2026-05-17" },
+  { company: "Saronic", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FE712", "awardAmount": "$500"}], lastUpdated: "2026-05-17" },
+  { company: "Vannevar Labs", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SBIR STRATFI - VELOCITY", "agency": "Department of Defense", "postedDate": "2025-01-06", "type": null, "noticeId": "FA860425CB008", "awardAmount": "$13M"}], lastUpdated: "2026-05-17" },
+  { company: "Relativity Space", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2026-01-21", "type": null, "noticeId": "HQ085926FG337", "awardAmount": "$500"}], lastUpdated: "2026-05-17" },
 ];
 
 // Auto-updated SBIR/STTR government grant awards
@@ -43469,6 +43685,8 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-05-16
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-05-17
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-05-17
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 120, velocity: "55-65/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 45, velocity: "17-27/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -44404,6 +44622,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-05-16
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-05-16
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-05-17
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-05-17
 const NEWS_FEED = [
@@ -47039,6 +47259,8 @@ const DATA_QUALITY = {
 // Last updated: 2026-05-17 07:37
 // Auto-generated real-time signals
 // Last updated: 2026-05-17
+// Auto-generated real-time signals
+// Last updated: 2026-05-17
 const COMPANY_SIGNALS = [
   { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "17h ago", impact: "high", unread: true },
@@ -47352,6 +47574,8 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-05-16
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-05-17
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-05-17
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -47626,6 +47850,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-05-16
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-05-16
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-05-17
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-05-17
 const CONTRACTOR_READINESS = [

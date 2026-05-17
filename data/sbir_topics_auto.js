@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-05-16 08:47:40 UTC
+// Last updated: 2026-05-17 09:14:43 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -444,7 +444,7 @@ const SBIR_TOPICS_AUTO = [
         "matched_terms": [
           "quantum",
           "computing",
-          "error"
+          "correction"
         ]
       },
       {

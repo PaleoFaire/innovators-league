@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-05-15",
-    "vehicle": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
-    "payload": "Dragon CRS-2 SpX-34",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e60aa241-1f2c-4459-ba94-2f576c3e5632/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-05-17",
     "vehicle": "Long March 8 | SpaceSail Polar Group TBD",
     "payload": "SpaceSail Polar Group TBD",
@@ -420,6 +411,15 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/c703fab3-2ce4-4cf1-861d-754da3f3ad42/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-08-31",
+    "vehicle": "Falcon Heavy | Nancy Grace Roman Space Telescope",
+    "payload": "Nancy Grace Roman Space Telescope",
+    "pad": "Launch Complex 39A, Kennedy Space Center, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/521f3a1c-f977-4306-9b7f-495858719adf/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
