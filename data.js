@@ -47476,7 +47476,7 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-17 17:10
+// Last updated: 2026-05-17 19:21
 const COMPANY_SIGNALS = [
   { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
@@ -47490,7 +47490,7 @@ const COMPANY_SIGNALS = [
   { id: 10, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "2d ago", impact: "high", unread: false },
   { id: 11, type: "news", company: "Runway", headline: "Runway started by helping filmmakers ' now it wants to beat Google at AI", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "xAI", headline: "Elon Musk's xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
   { id: 14, type: "funding", company: "OpenAI", headline: "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June", source: "TechNode Global", time: "3d ago", impact: "low", unread: false },
   { id: 15, type: "funding", company: "Cerebras", headline: "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
 ];
