@@ -47476,12 +47476,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-18 04:24
+// Last updated: 2026-05-18 08:50
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "OpenAI", headline: "Why trust is a big question at the Elon Musk-OpenAI trial", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "2d ago", impact: "medium", unread: true },
+  { id: 1, type: "news", company: "Waymo", headline: "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "OpenAI", headline: "Why trust is a big question at the Elon Musk-OpenAI trial", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
   { id: 5, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: true },
   { id: 6, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "2d ago", impact: "low", unread: false },
@@ -47490,9 +47490,9 @@ const COMPANY_SIGNALS = [
   { id: 10, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "2d ago", impact: "low", unread: false },
   { id: 11, type: "funding", company: "Rivian", headline: "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea", source: "CleanTechnica", time: "2d ago", impact: "medium", unread: false },
   { id: 12, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "2d ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "xAI", headline: "Elon Musk's xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "xAI", headline: "Elon Musk's xAI adds more unpermitted gas generators for data centers", source: "Canary Media", time: "3d ago", impact: "low", unread: false },
   { id: 14, type: "ipo", company: "Cerebras", headline: "Cerebras Shares Soar In First Day On Nasdaq", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile may use ULA's Vulcan", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "OpenAI", headline: "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June", source: "TechNode Global", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
