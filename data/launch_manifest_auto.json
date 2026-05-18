@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-05-17",
-    "vehicle": "Long March 8 | SpaceSail Polar Group TBD",
-    "payload": "SpaceSail Polar Group TBD",
+    "vehicle": "Long March 8 | SpaceSail Polar Group #9",
+    "payload": "SpaceSail Polar Group #9",
     "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/aef8f8ea-522b-4bdb-9d57-212bbe981946/?format=json",
@@ -18,15 +18,6 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-05-19",
-    "vehicle": "Starship | Flight 12",
-    "payload": "Flight 12",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed83366c-872c-4484-97c1-bc74832304fc/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-05-20",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-42",
     "payload": "Starlink Group 17-42",
@@ -37,12 +28,12 @@
   },
   {
     "date": "2026-05-20",
-    "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "ADD Offshore launch platform, Sea Launch",
-    "provider": "Agency for Defense Development",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
-    "trackedCompany": null
+    "vehicle": "Starship | Flight 12",
+    "payload": "Flight 12",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed83366c-872c-4484-97c1-bc74832304fc/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-05-21",
@@ -70,6 +61,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/75a35be5-b3bd-4591-b978-9a876da9fa96/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-24",
+    "vehicle": "Long March 2F/G | Shenzhou 23",
+    "payload": "Shenzhou 23",
+    "pad": "Launch Area 91 (SLS-1 / 921), Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a0e0f590-1cb4-4b6b-845c-0087633af132/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-05-25",
@@ -109,15 +109,6 @@
   },
   {
     "date": "2026-05-31",
-    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-    "payload": "Globalstar 2-R Mission 1 (x 9)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-05-31",
     "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
     "payload": "GISAT-1A (EOS-05)",
     "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
@@ -136,11 +127,11 @@
   },
   {
     "date": "2026-05-31",
-    "vehicle": "Long March 2F/G | Shenzhou 23",
-    "payload": "Shenzhou 23",
-    "pad": "Launch Area 91 (SLS-1 / 921), Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a0e0f590-1cb4-4b6b-845c-0087633af132/?format=json",
+    "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "ADD Offshore launch platform, Sea Launch",
+    "provider": "Agency for Defense Development",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
     "trackedCompany": null
   },
   {
@@ -195,6 +186,15 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/c3f48f48-0e0a-4bca-917e-de494cfca35b/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+    "payload": "Globalstar 2-R Mission 1 (x 9)",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
     "trackedCompany": "SpaceX"
   },
   {

@@ -1,7 +1,7 @@
 {
   "script": "fetch_twitter_signals.py",
-  "started_at": "2026-05-17T08:56:04.521133+00:00",
-  "finished_at": "2026-05-17T08:57:36.375697+00:00",
+  "started_at": "2026-05-18T10:52:17.597999+00:00",
+  "finished_at": "2026-05-18T10:52:30.519142+00:00",
   "mode": "real+placeholder",
   "data_source": "apify",
   "top_founders_tracked": 100,
@@ -9,35 +9,39 @@
   "signals_collected": 0,
   "placeholder_records": 100,
   "apify_diagnostics": {
-    "last_error": "apify~twitter-scraper: HTTP 404 — {\n  \"error\": {\n    \"type\": \"record-not-found\",\n    \"message\": \"Actor with this name was not found\"\n  }\n}",
+    "last_error": "apify~twitter-scraper: HTTP 403 — {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
     "actor_results": {
       "apidojo~tweet-scraper": {
         "attempts": 5,
         "successes": 0,
-        "http_errors": {},
-        "last_body_preview": ""
+        "http_errors": {
+          "403": 5
+        },
+        "last_body_preview": "{\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
       },
       "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest": {
         "attempts": 5,
         "successes": 0,
-        "http_errors": {},
-        "last_body_preview": ""
+        "http_errors": {
+          "403": 5
+        },
+        "last_body_preview": "{\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
       },
       "apify~twitter-scraper-lite": {
         "attempts": 5,
         "successes": 0,
         "http_errors": {
-          "404": 5
+          "403": 5
         },
-        "last_body_preview": "{\n  \"error\": {\n    \"type\": \"record-not-found\",\n    \"message\": \"Actor with this name was not found\"\n  }\n}"
+        "last_body_preview": "{\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
       },
       "apify~twitter-scraper": {
         "attempts": 5,
         "successes": 0,
         "http_errors": {
-          "404": 5
+          "403": 5
         },
-        "last_body_preview": "{\n  \"error\": {\n    \"type\": \"record-not-found\",\n    \"message\": \"Actor with this name was not found\"\n  }\n}"
+        "last_body_preview": "{\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
       }
     }
   },

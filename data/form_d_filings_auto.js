@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-17 09:14:41 UTC
-// Total: 11 filings across 11 companies
+// Last updated: 2026-05-18 11:12:43 UTC
+// Total: 6 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-17T09:14:41.105910+00:00",
+  "generated_at": "2026-05-18T11:12:43.431092+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 11,
+  "total_filings": 6,
   "filings": [
     {
       "company": "Lunar Outpost",
@@ -107,91 +107,6 @@ const FORM_D_FILINGS = {
       "amount_remaining": "4000000",
       "securities_type": "Equity",
       "exemption": "06c",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Scout Space",
-      "issuer_name": "SCOUT Space Inc",
-      "form": "D",
-      "filed_date": "2026-05-11",
-      "cik": "1861219",
-      "accession": "0001861219-26-000006",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001861219&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001861219-26-000006",
-      "offering_amount": "15671658",
-      "amount_sold": "10946661",
-      "amount_remaining": "4724997",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Biofire",
-      "issuer_name": "BIOFIRE III A SERIES OF VUVP FUND LLC",
-      "form": "D",
-      "filed_date": "2026-05-07",
-      "cik": "2105896",
-      "accession": "0002105896-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002105896&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002105896-26-000003",
-      "offering_amount": "111000",
-      "amount_sold": "111000",
-      "amount_remaining": "0",
-      "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "xAI",
-      "issuer_name": "xAI Fund a Series of CGF2021 LLC",
-      "form": "D",
-      "filed_date": "2026-05-07",
-      "cik": "2023128",
-      "accession": "0002023128-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023128&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002023128-26-000003",
-      "offering_amount": "1052500",
-      "amount_sold": "1052500",
-      "amount_remaining": "0",
-      "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Darkhive",
-      "issuer_name": "Darkhive Inc",
-      "form": "D",
-      "filed_date": "2026-05-07",
-      "cik": "2036102",
-      "accession": "0002036102-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002036102&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002036102-26-000003",
-      "offering_amount": "30000000",
-      "amount_sold": "29999986",
-      "amount_remaining": "14",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "SpaceX",
-      "issuer_name": "SpaceX Investors 5 LLC",
-      "form": "D",
-      "filed_date": "2026-05-06",
-      "cik": "2133025",
-      "accession": "0002133025-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133025&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002133025-26-000001",
-      "offering_amount": "Indefinite",
-      "amount_sold": "9725064",
-      "amount_remaining": "Indefinite",
-      "securities_type": "Equity",
-      "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false
     }
