@@ -1,96 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-05-18T18:57:05.204Z
+// Last updated: 2026-05-18T20:41:13.242Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1779130625204,
+    "id": 1779136873242,
+    "type": "hire",
+    "company": "X-Energy",
+    "headline": "X-energy gets federal environmental approval for Texas nuclear reactors",
+    "source": "Canary Media",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.canarymedia.com/articles/nuclear/x-energy-gets-federal-approval-reactors"
+  },
+  {
+    "id": 1779136873243,
+    "type": "news",
+    "company": "Anthropic",
+    "headline": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "high",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
+  },
+  {
+    "id": 1779136873244,
     "type": "milestone",
     "company": "Astrolab",
     "headline": "Four NASA payloads to fly on Astrolab’s first lunar rover",
     "source": "SpaceNews",
-    "time": "Just now",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/four-nasa-payloads-to-fly-on-astrolabs-first-lunar-rover/"
   },
   {
-    "id": 1779130625205,
+    "id": 1779136873245,
     "type": "news",
     "company": "OpenAI",
     "headline": "Elon Musk Loses Landmark Lawsuit Against OpenAI",
     "source": "Wired",
-    "time": "1h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/musk-v-altman-jury-verdict/"
   },
   {
-    "id": 1779130625206,
+    "id": 1779136873246,
     "type": "news",
     "company": "OpenAI",
     "headline": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
     "source": "TechCrunch",
-    "time": "1h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/"
   },
   {
-    "id": 1779130625207,
+    "id": 1779136873247,
     "type": "funding",
     "company": "Dust",
     "headline": "Sequoia backs AI agents scaleup Dust in $40m Series B",
     "source": "Sifted",
-    "time": "3h ago",
+    "time": "5h ago",
     "impact": "medium",
-    "unread": true,
+    "unread": false,
     "link": "https://sifted.eu/articles/dust-series-b-40m/"
   },
   {
-    "id": 1779130625208,
+    "id": 1779136873248,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches",
     "source": "CleanTechnica",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://cleantechnica.com/2026/05/18/waymo-reaching-11-cities-1400-square-miles-as-world-cup-approaches/"
   },
   {
-    "id": 1779130625209,
+    "id": 1779136873249,
     "type": "funding",
     "company": "Tomorrow.io",
     "headline": "Tomorrow.io adds $35 million to DeepSky funding round",
     "source": "SpaceNews",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "medium",
     "unread": false,
     "link": "https://spacenews.com/tomorrow-io-adds-35-million-to-deepsky-funding-round/"
   },
   {
-    "id": 1779130625210,
+    "id": 1779136873250,
     "type": "funding",
     "company": "Dust",
     "headline": "Dust raises $40M Series B to build the “multiplayer” operating system for enterprise AI",
     "source": "Tech.eu",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "high",
     "unread": false,
     "link": "https://tech.eu/2026/05/18/dust-raises-40m-series-b-to-build-the-multiplayer-operating-system-for-enterprise-ai/"
   },
   {
-    "id": 1779130625211,
+    "id": 1779136873251,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Why trust is a big question at the Elon Musk-OpenAI trial",
     "source": "TechCrunch",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/"
   },
   {
-    "id": 1779130625212,
+    "id": 1779136873252,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI co-founder Greg Brockman takes charge of product strategy",
@@ -101,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/"
   },
   {
-    "id": 1779130625213,
+    "id": 1779136873253,
     "type": "ipo",
     "company": "Cerebras",
     "headline": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
@@ -112,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/"
   },
   {
-    "id": 1779130625214,
+    "id": 1779136873254,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches CRS-34 cargo mission to ISS",
@@ -123,18 +145,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-launches-crs-34-cargo-mission-to-iss/"
   },
   {
-    "id": 1779130625215,
+    "id": 1779136873255,
+    "type": "contract",
+    "company": "SpaceX",
+    "headline": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
+    "source": "NASA Breaking News",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/"
+  },
+  {
+    "id": 1779136873256,
     "type": "hire",
     "company": "Rivian",
     "headline": "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more",
     "source": "Electrek",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/05/15/podcast-tesla-robotaxi-rivian-r2-configurator-is-live-china-is-taking-over-eu-factories-and-more/"
   },
   {
-    "id": 1779130625216,
+    "id": 1779136873257,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up",
@@ -145,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-reorg-greg-brockman-product/"
   },
   {
-    "id": 1779130625217,
+    "id": 1779136873258,
     "type": "milestone",
     "company": "Rivian",
     "headline": "Rivian opens R2 configurator: here are all the options and pricing",
@@ -156,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/15/rivian-r2-configurator-live-pricing-options/"
   },
   {
-    "id": 1779130625218,
+    "id": 1779136873259,
     "type": "funding",
     "company": "Destinus",
     "headline": "Dutch dronemaker Destinus in €200m funding talks, reports say",
@@ -167,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/destinuse-defence-fundraise-report/"
   },
   {
-    "id": 1779130625219,
+    "id": 1779136873260,
     "type": "funding",
     "company": "Rivian",
     "headline": "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea",
@@ -178,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/15/8th-annual-ev-raffle-launches-one-ticket-three-prizes-win-a-rivian-lucid-or-porsche-tickets-support-fight-for-clean-energy/"
   },
   {
-    "id": 1779130625220,
+    "id": 1779136873261,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives",
@@ -187,38 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://electrek.co/2026/05/15/uber-turns-on-waymo-10-billion-robotaxi-alternatives/"
-  },
-  {
-    "id": 1779130625221,
-    "type": "news",
-    "company": "xAI",
-    "headline": "Elon Musk’s xAI adds more unpermitted gas generators for data centers",
-    "source": "Canary Media",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.canarymedia.com/articles/data-centers/elon-musk-xai-unpermitted-generators"
-  },
-  {
-    "id": 1779130625222,
-    "type": "ipo",
-    "company": "Cerebras",
-    "headline": "Cerebras Shares Soar In First Day On Nasdaq",
-    "source": "Crunchbase News",
-    "time": "4d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://news.crunchbase.com/ai/cerebras-ipo-cbrs/"
-  },
-  {
-    "id": 1779130625223,
-    "type": "ipo",
-    "company": "AST SpaceMobile",
-    "headline": "AST SpaceMobile may use ULA’s Vulcan",
-    "source": "SpaceNews",
-    "time": "4d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/ast-spacemobile-may-use-ulas-vulcan/"
   }
 ];
