@@ -47914,23 +47914,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-18 20:41
+// Last updated: 2026-05-18 22:08
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "X-Energy", headline: "X-energy gets federal environmental approval for Texas nuclear reactors", source: "Canary Media", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "milestone", company: "Astrolab", headline: "Four NASA payloads to fly on Astrolab's first lunar rover", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "Elon Musk Loses Landmark Lawsuit Against OpenAI", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "Elon Musk has lost his lawsuit against Sam Altman and OpenAI", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Dust", headline: "Sequoia backs AI agents scaleup Dust in $40m Series B", source: "Sifted", time: "5h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "Waymo", headline: "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Tomorrow.io", headline: "Tomorrow.io adds $35 million to DeepSky funding round", source: "SpaceNews", time: "8h ago", impact: "medium", unread: false },
-  { id: 9, type: "funding", company: "Dust", headline: "Dust raises $40M Series B to build the 'multiplayer' operating system for enterprise AI", source: "Tech.eu", time: "8h ago", impact: "high", unread: false },
-  { id: 10, type: "hire", company: "OpenAI", headline: "Why trust is a big question at the Elon Musk-OpenAI trial", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "2d ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
-  { id: 14, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "OSHA probing worker death at SpaceX's Starbase site", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "X-Energy", headline: "X-energy gets federal environmental approval for Texas nuclear reactors", source: "Canary Media", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 4, type: "milestone", company: "Astrolab", headline: "Four NASA payloads to fly on Astrolab's first lunar rover", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "Elon Musk Loses Landmark Lawsuit Against OpenAI", source: "Wired", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "Elon Musk has lost his lawsuit against Sam Altman and OpenAI", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Dust", headline: "Sequoia backs AI agents scaleup Dust in $40m Series B", source: "Sifted", time: "7h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Waymo", headline: "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Tomorrow.io", headline: "Tomorrow.io adds $35 million to DeepSky funding round", source: "SpaceNews", time: "10h ago", impact: "medium", unread: false },
+  { id: 10, type: "funding", company: "Dust", headline: "Dust raises $40M Series B to build the 'multiplayer' operating system for enterprise AI", source: "Tech.eu", time: "10h ago", impact: "high", unread: false },
+  { id: 11, type: "hire", company: "OpenAI", headline: "Why trust is a big question at the Elon Musk-OpenAI trial", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "2d ago", impact: "high", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
+  { id: 15, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
