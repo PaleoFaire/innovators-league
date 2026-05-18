@@ -16,7 +16,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
@@ -75,6 +75,30 @@
     ],
     "type": "ipo",
     "impact": "medium",
+    "time": "2d ago"
+  },
+  {
+    "title": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
+    "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "description": "The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6:05 p.m. EDT Friday on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The SpaceX s",
+    "pubDate": "Fri, 15 May 2026 22:52:14 +0000",
+    "category": "Commercial Resupply",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Astro Mechanica",
+      "Axiom Space",
+      "Cape"
+    ],
+    "sectors": [
+      "space",
+      "climate"
+    ],
+    "type": "contract",
+    "impact": "low",
     "time": "2d ago"
   },
   {
@@ -392,27 +416,6 @@
     "time": "4d ago"
   },
   {
-    "title": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
-    "link": "https://spacenews.com/fcc-approves-spacex-spectrum-deal-with-2-4-billion-escrow-condition/",
-    "description": "SpaceX has the FCC’s blessing to buy EchoStar spectrum to improve direct-to-device services in the United States, subject to a $2.4 billion escrow tied to disputes over the seller’s abandoned terrestrial 5G network buildout.",
-    "pubDate": "Tue, 12 May 2026 22:03:05 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Terrestrial Energy"
-    ],
-    "sectors": [
-      "space",
-      "nuclear"
-    ],
-    "type": "ipo",
-    "impact": "high",
-    "time": "5d ago"
-  },
-  {
     "title": "Rivian rolls out &#8216;Hey Rivian&#8217; AI assistant with full vehicle control",
     "link": "https://electrek.co/2026/05/12/rivian-hey-rivian-ai-assistant-vehicle-control/",
     "description": "Rivian is rolling out its new AI-powered voice assistant to all Gen 1 and Gen 2 R1 owners as part of its latest over-the-air software update. The feature, activated by saying “Hey Rivian” or holding the left steering wheel button, requires an active Connect+ subscription.\n\n\n\nThe assistant is notable",
@@ -630,24 +633,5 @@
     "type": "news",
     "impact": "low",
     "time": "4/9/2026"
-  },
-  {
-    "title": "<a href=\"/biotech/regenxbio-reaps-pivotal-win-duchenne-muscular-dystrophy-gene-therapy\" hreflang=\"en\">Regenxbio reaps pivotal win for Duchenne muscular dystrophy gene therapy</a>",
-    "link": "https://www.fiercebiotech.com/biotech/regenxbio-reaps-pivotal-win-duchenne-muscular-dystrophy-gene-therapy",
-    "description": "Regenxbio’s gene therapy for Duchenne muscular dystrophy has smashed the primary endpoint of its pivotal trial, securing a win for a biotech that has struggled in recent months under the weight of a rejection and clinical hold from the FDA.",
-    "pubDate": "May 14, 2026 6:50am",
-    "category": "",
-    "source": "FierceBiotech",
-    "feedCategory": "biotech",
-    "matchedCompany": "Pivotal",
-    "matchedCompanies": [
-      "Pivotal"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "Invalid Date"
   }
 ]
