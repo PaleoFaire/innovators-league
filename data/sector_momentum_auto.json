@@ -1,8 +1,8 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 64,
-    "trend": "accelerating",
+    "momentum": 62,
+    "trend": "steady",
     "catalysts": [
       "SpaceX launches CRS-34 cargo mission to ISS",
       "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission t",
@@ -11,29 +11,29 @@
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 65,
+      "news": 60,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "AI & Software",
-    "momentum": 56,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
+      "Why trust is a big question at the Elon Musk-OpenAI trial",
       "OpenAI co-founder Greg Brockman takes charge of product stra",
-      "$60B AI chip darling Cerebras almost died early on, burning",
-      "Greg Brockman Officially Takes Control of OpenAI\u2019s Products"
+      "$60B AI chip darling Cerebras almost died early on, burning"
     ],
     "fundingQ": "$2218.7B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Climate & Energy",
@@ -51,25 +51,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 50,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
+      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
       "Dutch dronemaker Destinus in \u20ac200m funding talks, reports sa",
-      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a",
-      "Waymo expands robotaxi coverage more than 20% \u2014 larger than"
+      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -85,7 +85,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,7 +101,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Defense & Security",
@@ -117,7 +117,7 @@
       "hiring": 0,
       "market": 22
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Nuclear Energy",
@@ -135,29 +135,29 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 30,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
+      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
       "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi",
-      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a",
-      "Waymo expands robotaxi coverage more than 20% \u2014 larger than"
+      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 25,
+    "momentum": 23,
     "trend": "declining",
     "catalysts": [
       "$60B AI chip darling Cerebras almost died early on, burning",
@@ -167,11 +167,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 98
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Housing & Construction",
@@ -189,15 +189,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
       "Cerebras Shares Soar In First Day On Nasdaq",
-      "FCC approves SpaceX spectrum deal with $2.4 billion escrow c",
       "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
     ],
     "fundingQ": "$0M",
@@ -207,7 +207,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -224,25 +224,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-17"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "Runway started by helping filmmakers \u2014 now it wants to beat",
-      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
-      "UK AI chip startup Fractile raises $220M to tackle the growi"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 25,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Transportation",
@@ -260,7 +242,25 @@
       "hiring": 0,
       "market": 2
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 7,
+    "trend": "declining",
+    "catalysts": [
+      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
+      "SpaceX sets date for first Starship version 3 launch",
+      "<a href=\"/biotech/regeneron-rocked-failure-defining-catalyst"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-05-18"
   },
   {
     "sector": "Quantum Computing",
@@ -276,6 +276,6 @@
       "hiring": 0,
       "market": 16
     },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T09:43:36.657086Z",
+  "generated_at": "2026-05-18T10:14:05.509430Z",
   "takes": [
     {
       "author": "Next Big Future",
@@ -12,16 +12,6 @@
       "signal_type": "funding"
     },
     {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Fractile",
-      "text": "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck",
-      "date": "Wed, 13 Ma",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/",
-      "signal_type": "funding"
-    },
-    {
       "author": "Canary Media",
       "role": "Industry signal",
       "company": "Fervo Energy",
@@ -29,16 +19,6 @@
       "date": "Wed, 13 Ma",
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "SpaceNews",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
-      "date": "Tue, 12 Ma",
-      "source": "news",
-      "source_url": "https://spacenews.com/fcc-approves-spacex-spectrum-deal-with-2-4-billion-escrow-condition/",
       "signal_type": "ipo"
     },
     {
@@ -62,6 +42,16 @@
       "signal_type": "ipo"
     },
     {
+      "author": "FierceBiotech",
+      "role": "Industry signal",
+      "company": "Pivotal",
+      "text": "<a href=\"/biotech/regeneron-rocked-failure-defining-catalyst-pivotal-melanoma-trial-misses\" hreflang=\"en\">Analysts \u2018shaking heads\u2019 after Regeneron melanoma drug fails to beat Keytruda in phase 3 trial</a>",
+      "date": "May 18, 20",
+      "source": "news",
+      "source_url": "https://www.fiercebiotech.com/biotech/regeneron-rocked-failure-defining-catalyst-pivotal-melanoma-trial-misses",
+      "signal_type": "news"
+    },
+    {
       "author": "Electrek",
       "role": "Industry signal",
       "company": "Waymo",
@@ -75,7 +65,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 7,
+    "from_news": 6,
     "from_press": 0
   }
 }

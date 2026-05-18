@@ -16,7 +16,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "4h ago"
   },
   {
     "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
@@ -35,7 +35,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "13h ago"
+    "time": "14h ago"
   },
   {
     "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
@@ -74,6 +74,27 @@
     "type": "ipo",
     "impact": "high",
     "time": "1d ago"
+  },
+  {
+    "title": "SpaceX launches CRS-34 cargo mission to ISS",
+    "link": "https://spacenews.com/spacex-launches-crs-34-cargo-mission-to-iss/",
+    "description": "A Falcon 9 launched a Dragon cargo spacecraft May 15 carrying nearly 3,000 kilograms of cargo to the International Space Station.",
+    "pubDate": "Fri, 15 May 2026 23:27:44 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "medium",
+    "time": "2d ago"
   },
   {
     "title": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
@@ -279,6 +300,25 @@
     "time": "3d ago"
   },
   {
+    "title": "AST SpaceMobile may use ULA’s Vulcan",
+    "link": "https://spacenews.com/ast-spacemobile-may-use-ulas-vulcan/",
+    "description": "AST SpaceMobile may launch some of its direct-to-device satellites on United Launch Alliance’s Vulcan rocket to expand the launch options for its constellation.",
+    "pubDate": "Thu, 14 May 2026 12:07:39 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
+    "matchedCompanies": [
+      "AST SpaceMobile"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3d ago"
+  },
+  {
     "title": "Sea, OpenAI launch APAC AI Hackathon series, starting in Singapore in June",
     "link": "https://technode.global/2026/05/14/sea-openai-launch-apac-ai-hackathon-series-starting-in-singapore-in-june/",
     "description": "Singapore technology giant Sea Ltd and OpenAI will launch the Sea x OpenAI Codex Hackathon in Singapore on June 6, 2026, marking the start of a regional hackathon series across the Asia-Pacific region.",
@@ -295,7 +335,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%",
@@ -353,6 +393,25 @@
       "transportation"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "4d ago"
+  },
+  {
+    "title": "SpaceX sets date for first Starship version 3 launch",
+    "link": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/",
+    "description": "SpaceX has set a date for the long-delayed first launch of its next-generation Starship vehicle, which is critical to the company’s ambitions as well as NASA’s lunar plans.",
+    "pubDate": "Wed, 13 May 2026 11:24:22 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
     "impact": "low",
     "time": "4d ago"
   },

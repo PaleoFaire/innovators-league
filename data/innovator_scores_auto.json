@@ -216,6 +216,18 @@
     "note": "Scale AI is the invisible infrastructure layer powering every major AI model. Their defense pivot with Scale Donovan is positioning them as the 'Palantir for AI data.' At $29B, they're priced for category dominance."
   },
   {
+    "company": "Oklo",
+    "techMoat": 7,
+    "momentum": 9,
+    "teamPedigree": 9,
+    "marketGravity": 10,
+    "capitalEfficiency": 10,
+    "govTraction": 10,
+    "composite": 90.0,
+    "tier": "elite",
+    "note": "Oklo's Meta partnership is the validation signal \u2014 Big Tech is betting on nuclear for AI data center power. Being publicly traded gives them a capital advantage over private nuclear startups. \u00b7 $500M+ at $10B+"
+  },
+  {
     "company": "Heven AeroTech",
     "techMoat": 9,
     "momentum": 10,
@@ -252,16 +264,16 @@
     "note": "Saronic's 'shipyard as startup' model is revolutionary \u2014 they're building autonomous naval vessels on software development timelines, not traditional shipbuilding cycles. The Navy desperately needs this speed. \u00b7 $2.6B at $9.25B"
   },
   {
-    "company": "Oklo",
-    "techMoat": 7,
-    "momentum": 9,
+    "company": "IonQ",
+    "techMoat": 8,
+    "momentum": 10,
     "teamPedigree": 8,
-    "marketGravity": 10,
+    "marketGravity": 9,
     "capitalEfficiency": 10,
     "govTraction": 10,
-    "composite": 88.5,
+    "composite": 89.0,
     "tier": "exceptional",
-    "note": "Oklo's Meta partnership is the validation signal \u2014 Big Tech is betting on nuclear for AI data center power. Being publicly traded gives them a capital advantage over private nuclear startups. \u00b7 $500M+ at $10B+"
+    "note": "Trapped-ion quantum computing using individual ytterbium atoms suspended in electromagnetic fields for high-fidelity gate operations \u2014 Public \u00b7 $600M+ raised \u00b7 $11B+ val"
   },
   {
     "company": "Defense Unicorns",
@@ -444,16 +456,16 @@
     "note": "Helion's direct electricity conversion from fusion (no steam turbine) could be transformational if it works. The Microsoft PPA gives them a committed buyer and a deadline \u2014 the best combination for hard tech. \u00b7 $425M+ at $5.4B"
   },
   {
-    "company": "IonQ",
+    "company": "Rigetti Computing",
     "techMoat": 8,
     "momentum": 10,
-    "teamPedigree": 7,
+    "teamPedigree": 8,
     "marketGravity": 9,
     "capitalEfficiency": 10,
     "govTraction": 10,
     "composite": 85.0,
     "tier": "exceptional",
-    "note": "Trapped-ion quantum computing using individual ytterbium atoms suspended in electromagnetic fields for high-fidelity gate operations \u2014 Public \u00b7 $600M+ raised \u00b7 $11B+ val"
+    "note": "Full-stack superconducting quantum computing with cloud access via Rigetti Quantum Cloud Services and hybrid classical-quantum workflows \u2014 Public \u00b7 $300M+ raised \u00b7 $5.5B val"
   },
   {
     "company": "Pacific Fusion",
@@ -561,7 +573,7 @@
     "govTraction": 10,
     "composite": 83.0,
     "tier": "exceptional",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s largest Earth-imaging satellite fleet capturing the entire planet daily at 3m resolution for change detection \u2014 Public \u00b7 $700M+ raised \u00b7 $7B+ val"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s largest Earth-imaging satellite fleet capturing the entire planet daily at 3m resolution for change detection \u2014 Public \u00b7 $700M+ raised \u00b7 $7B+ val"
   },
   {
     "company": "Swift Beat",
@@ -694,18 +706,6 @@
     "composite": 81.5,
     "tier": "exceptional",
     "note": "Next-gen precision-guided munitions designed for rapid production using modern manufacturing and simplified supply chains \u2014 Series A \u00b7 $31M raised \u00b7 $150M val"
-  },
-  {
-    "company": "Rigetti Computing",
-    "techMoat": 8,
-    "momentum": 10,
-    "teamPedigree": 7,
-    "marketGravity": 9,
-    "capitalEfficiency": 10,
-    "govTraction": 10,
-    "composite": 81.0,
-    "tier": "exceptional",
-    "note": "Full-stack superconducting quantum computing with cloud access via Rigetti Quantum Cloud Services and hybrid classical-quantum workflows \u2014 Public \u00b7 $300M+ raised \u00b7 $5.5B val"
   },
   {
     "company": "Kairos Power",
@@ -1548,6 +1548,18 @@
     "note": "OpenAI's $300B+ valuation and push toward $830B make it the most valuable private company in history. The SoftBank-led $40B round and upcoming $100B mega-round signal that AGI development is now a nation-state-level capital race."
   },
   {
+    "company": "Astera Labs",
+    "techMoat": 7,
+    "momentum": 8,
+    "teamPedigree": 7,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 9,
+    "composite": 75.5,
+    "tier": "leader",
+    "note": "Semiconductor connectivity solutions (PCIe/CXL retimers, smart cable modules) enabling coherent data center fabric at scale \u2014 Public \u00b7 $100M+ raised"
+  },
+  {
     "company": "Databricks",
     "techMoat": 9,
     "momentum": 10,
@@ -1905,7 +1917,7 @@
     "govTraction": 8,
     "composite": 74.5,
     "tier": "leader",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s largest commercial SAR constellation providing persistent radar imaging for flood monitoring, defense, and maritime tracking \u2014 Series E \u00b7 $686M+ raised \u00b7 $2.8B val"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s largest commercial SAR constellation providing persistent radar imaging for flood monitoring, defense, and maritime tracking \u2014 Series E \u00b7 $686M+ raised \u00b7 $2.8B val"
   },
   {
     "company": "Kepler Communications",
@@ -2316,6 +2328,18 @@
     "note": "VOYGR light water SMR \u2014 first SMR design to receive NRC certification, scaling proven PWR technology to smaller modules \u2014 Public \u00b7 $600M+ raised"
   },
   {
+    "company": "Satellogic",
+    "techMoat": 7,
+    "momentum": 9,
+    "teamPedigree": 10,
+    "marketGravity": 6,
+    "capitalEfficiency": 7,
+    "govTraction": 5,
+    "composite": 73.0,
+    "tier": "leader",
+    "note": "Sub-meter resolution Earth observation satellites at low cost, building Latin America\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first commercial imaging constellation \u2014 Public \u00b7 $100M+ raised"
+  },
+  {
     "company": "Cohere",
     "techMoat": 9,
     "momentum": 9,
@@ -2661,7 +2685,7 @@
     "govTraction": 6,
     "composite": 72.0,
     "tier": "leader",
-    "note": "Spectrum launch vehicle \u2014 Europe\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s commercial answer to Falcon 9 economics for dedicated small and medium satellite missions \u2014 Series C \u00b7 $616M+ raised \u00b7 $1B+ val"
+    "note": "Spectrum launch vehicle \u2014 Europe\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s commercial answer to Falcon 9 economics for dedicated small and medium satellite missions \u2014 Series C \u00b7 $616M+ raised \u00b7 $1B+ val"
   },
   {
     "company": "Starpath Robotics",
@@ -2674,6 +2698,18 @@
     "composite": 72.0,
     "tier": "leader",
     "note": "If you can make fuel on the Moon, you fundamentally change the economics of deep space exploration. Starpath's ex-SpaceX team brings production engineering DNA to the most important unsolved problem in space logistics. NASA's Break the Ice Challenge win is credibility gold. \u00b7 $14.5M+"
+  },
+  {
+    "company": "LanzaTech",
+    "techMoat": 8,
+    "momentum": 9,
+    "teamPedigree": 10,
+    "marketGravity": 9,
+    "capitalEfficiency": 6,
+    "govTraction": 2,
+    "composite": 72.0,
+    "tier": "leader",
+    "note": "Gas fermentation using engineered bacteria to convert industrial CO2 emissions into ethanol, jet fuel, and chemical feedstocks \u2014 Public \u00b7 $500M+ raised \u00b7 $800M+ val"
   },
   {
     "company": "ClearSpace",
@@ -2760,18 +2796,6 @@
     "note": "Stellarators beat tokamaks on stability. Thea's planar-coil approach could win on manufacturing cost. \u00b7 $37M+"
   },
   {
-    "company": "Astera Labs",
-    "techMoat": 7,
-    "momentum": 8,
-    "teamPedigree": 6,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 9,
-    "composite": 71.5,
-    "tier": "leader",
-    "note": "Semiconductor connectivity solutions (PCIe/CXL retimers, smart cable modules) enabling coherent data center fabric at scale \u2014 Public \u00b7 $100M+ raised"
-  },
-  {
     "company": "Space Forge",
     "techMoat": 7,
     "momentum": 6,
@@ -2794,18 +2818,6 @@
     "composite": 71.5,
     "tier": "leader",
     "note": "Integral Molten Salt Reactor (IMSR) combining fuel and coolant in a single salt for simplified reactor design and inherent safety \u2014 Public \u00b7 $280M raised"
-  },
-  {
-    "company": "Satellogic",
-    "techMoat": 7,
-    "momentum": 9,
-    "teamPedigree": 9,
-    "marketGravity": 6,
-    "capitalEfficiency": 7,
-    "govTraction": 5,
-    "composite": 71.5,
-    "tier": "leader",
-    "note": "Sub-meter resolution Earth observation satellites at low cost, building Latin America\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first commercial imaging constellation \u2014 Public \u00b7 $100M+ raised"
   },
   {
     "company": "Slingshot Aerospace",
@@ -3060,6 +3072,18 @@
     "note": "Kilowatt-scale micro-fission reactors using heat pipe technology for defense and space power in remote locations \u2014 Series B \u00b7 $96M+ raised"
   },
   {
+    "company": "AST SpaceMobile",
+    "techMoat": 7,
+    "momentum": 10,
+    "teamPedigree": 7,
+    "marketGravity": 6,
+    "capitalEfficiency": 7,
+    "govTraction": 5,
+    "composite": 71.0,
+    "tier": "leader",
+    "note": "Large BlueBird satellites providing broadband directly to unmodified smartphones without requiring specialized ground terminals \u2014 Public \u00b7 $1B+ raised"
+  },
+  {
     "company": "Hugging Face",
     "techMoat": 8,
     "momentum": 9,
@@ -3274,18 +3298,6 @@
     "composite": 70.5,
     "tier": "leader",
     "note": "Defense integration platform providing modern technology solutions for Indo-Pacific allied military interoperability \u2014 Series A \u00b7 $100M raised"
-  },
-  {
-    "company": "LanzaTech",
-    "techMoat": 8,
-    "momentum": 9,
-    "teamPedigree": 9,
-    "marketGravity": 9,
-    "capitalEfficiency": 6,
-    "govTraction": 2,
-    "composite": 70.5,
-    "tier": "leader",
-    "note": "Gas fermentation using engineered bacteria to convert industrial CO2 emissions into ethanol, jet fuel, and chemical feedstocks \u2014 Public \u00b7 $500M+ raised \u00b7 $800M+ val"
   },
   {
     "company": "Magdrive",
@@ -3636,18 +3648,6 @@
     "note": "AI-powered license plate readers and surveillance camera network using edge ML for public safety and law enforcement \u2014 Series E \u00b7 $500M+ raised \u00b7 $7.5B val"
   },
   {
-    "company": "AST SpaceMobile",
-    "techMoat": 7,
-    "momentum": 10,
-    "teamPedigree": 6,
-    "marketGravity": 6,
-    "capitalEfficiency": 7,
-    "govTraction": 5,
-    "composite": 69.5,
-    "tier": "strong",
-    "note": "Large BlueBird satellites providing broadband directly to unmodified smartphones without requiring specialized ground terminals \u2014 Public \u00b7 $1B+ raised"
-  },
-  {
     "company": "Quantum-Systems",
     "techMoat": 7,
     "momentum": 9,
@@ -3897,7 +3897,7 @@
     "govTraction": 5,
     "composite": 69.0,
     "tier": "strong",
-    "note": "Combined SAR and AIS satellite constellation \u2014 world\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first dual-sensor platform for comprehensive maritime surveillance \u2014 Seed \u00b7 $8M raised \u00b7 Undisclosed val"
+    "note": "Combined SAR and AIS satellite constellation \u2014 world\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first dual-sensor platform for comprehensive maritime surveillance \u2014 Seed \u00b7 $8M raised \u00b7 Undisclosed val"
   },
   {
     "company": "Galadyne",
@@ -4258,6 +4258,18 @@
     "composite": 68.0,
     "tier": "strong",
     "note": "Self-driving truck technology using the Aurora Driver autonomous system for commercial long-haul freight transportation \u2014 Public \u00b7 $2B+ raised"
+  },
+  {
+    "company": "Archer Aviation",
+    "techMoat": 6,
+    "momentum": 10,
+    "teamPedigree": 8,
+    "marketGravity": 6,
+    "capitalEfficiency": 8,
+    "govTraction": 4,
+    "composite": 68.0,
+    "tier": "strong",
+    "note": "Midnight electric air taxi with 12 tilting propellers for urban air mobility, partnered with United Airlines \u2014 Public \u00b7 $1.5B+ raised \u00b7 $5B val"
   },
   {
     "company": "Proxima Fusion",
@@ -5460,18 +5472,6 @@
     "note": "Level 4 autonomous driving software platform licensed to OEMs and ride-hail companies for robotaxi deployments \u2014 Series G \u00b7 $2.4B raised \u00b7 $6B val"
   },
   {
-    "company": "Archer Aviation",
-    "techMoat": 6,
-    "momentum": 10,
-    "teamPedigree": 6,
-    "marketGravity": 6,
-    "capitalEfficiency": 8,
-    "govTraction": 4,
-    "composite": 65.0,
-    "tier": "strong",
-    "note": "Midnight electric air taxi with 12 tilting propellers for urban air mobility, partnered with United Airlines \u2014 Public \u00b7 $1.5B+ raised \u00b7 $5B val"
-  },
-  {
     "company": "Perigee Aerospace",
     "techMoat": 7,
     "momentum": 7,
@@ -5589,7 +5589,7 @@
     "govTraction": 7,
     "composite": 64.5,
     "tier": "strong",
-    "note": "FLEX modular lunar rover designed for diverse payload transport and operations on the Moon\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s surface \u2014 Series A \u00b7 $40M+ raised"
+    "note": "FLEX modular lunar rover designed for diverse payload transport and operations on the Moon\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s surface \u2014 Series A \u00b7 $40M+ raised"
   },
   {
     "company": "Armada",
@@ -6765,7 +6765,7 @@
     "govTraction": 6,
     "composite": 62.0,
     "tier": "strong",
-    "note": "THeMIS unmanned ground vehicle \u2014 Europe\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s leading military ground robot for logistics, ISR, and combat support \u2014 Series B \u00b7 $30M+ raised"
+    "note": "THeMIS unmanned ground vehicle \u2014 Europe\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s leading military ground robot for logistics, ISR, and combat support \u2014 Series B \u00b7 $30M+ raised"
   },
   {
     "company": "Xtend",
@@ -6813,7 +6813,7 @@
     "govTraction": 5,
     "composite": 62.0,
     "tier": "strong",
-    "note": "India\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first private rocket company reaching space with Vikram series using 3D-printed engines and solid-liquid hybrid stages \u2014 Series C \u00b7 $95M+ raised"
+    "note": "India\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first private rocket company reaching space with Vikram series using 3D-printed engines and solid-liquid hybrid stages \u2014 Series C \u00b7 $95M+ raised"
   },
   {
     "company": "Tenstorrent",
@@ -7029,7 +7029,7 @@
     "govTraction": 5,
     "composite": 61.5,
     "tier": "strong",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first single-piece 3D-printed semi-cryogenic rocket engine enabling customizable, on-demand small satellite launches from India \u2014 Series B \u00b7 $40M+ raised"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first single-piece 3D-printed semi-cryogenic rocket engine enabling customizable, on-demand small satellite launches from India \u2014 Series B \u00b7 $40M+ raised"
   },
   {
     "company": "Quantum Brilliance",
@@ -7965,7 +7965,7 @@
     "govTraction": 4,
     "composite": 59.0,
     "tier": "promising",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first cargo drone airline operating large fixed-wing drones for middle-mile logistics at one-tenth of air freight cost \u2014 Series A \u00b7 $43.2M raised \u2014 First EU drone airline license approval"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first cargo drone airline operating large fixed-wing drones for middle-mile logistics at one-tenth of air freight cost \u2014 Series A \u00b7 $43.2M raised \u2014 First EU drone airline license approval"
   },
   {
     "company": "Osaro",
@@ -9441,7 +9441,7 @@
     "govTraction": 3,
     "composite": 52.5,
     "tier": "promising",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s most powerful tidal turbine (O2) generating clean electricity from predictable ocean tidal currents \u2014 Growth \u00b7 $50M+ raised"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s most powerful tidal turbine (O2) generating clean electricity from predictable ocean tidal currents \u2014 Growth \u00b7 $50M+ raised"
   },
   {
     "company": "ZeroAvia",
@@ -9609,7 +9609,7 @@
     "govTraction": 3,
     "composite": 52.0,
     "tier": "promising",
-    "note": "2D semiconductor using Molybdenum Disulfide (MoS2) instead of silicon for transistors, enabling continued Moore\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s Law scaling \u2014 Seed \u00b7 $10M+ raised"
+    "note": "2D semiconductor using Molybdenum Disulfide (MoS2) instead of silicon for transistors, enabling continued Moore\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s Law scaling \u2014 Seed \u00b7 $10M+ raised"
   },
   {
     "company": "Atomic Semi",
@@ -10173,7 +10173,7 @@
     "govTraction": 1,
     "composite": 47.5,
     "tier": "emerging",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s leading 3D construction printer (BOD2) extruding concrete layer by layer to build structures in under 24 hours \u2014 Series A \u00b7 $46M raised \u2014 GE partnership for wind turbine base 3D printing"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s leading 3D construction printer (BOD2) extruding concrete layer by layer to build structures in under 24 hours \u2014 Series A \u00b7 $46M raised \u2014 GE partnership for wind turbine base 3D printing"
   },
   {
     "company": "Rhoman Aerospace",
