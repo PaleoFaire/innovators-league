@@ -15,9 +15,9 @@
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -2.74,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -4.16,
       "count": 7
     },
     "nuclear": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -11.75
-    ],
-    [
       "TEM",
       "Tempus AI",
       -11.89
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -13.64
     ],
     [
       "DRSHF",
@@ -111,5 +111,5 @@
       -60.38
     ]
   ],
-  "lastUpdated": "2026-05-17 19:15:16"
+  "lastUpdated": "2026-05-18 04:01:45"
 }
