@@ -1,16 +1,44 @@
 {
-  "date": "2026-05-17",
-  "display_date": "May 17, 2026",
-  "generated_at": "2026-05-17T10:56:49.206159+00:00",
-  "cutoff": "2026-05-10T10:56:49.206159+00:00",
+  "date": "2026-05-18",
+  "display_date": "May 18, 2026",
+  "generated_at": "2026-05-18T13:51:36.241006+00:00",
+  "cutoff": "2026-05-11T13:51:36.241006+00:00",
   "section_count": 7,
-  "total_items": 246,
+  "total_items": 267,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 1,
+      "count": 5,
       "items": [
+        {
+          "company": "IonQ",
+          "current": 89.0,
+          "previous": 85.0,
+          "change": 4.0,
+          "tier": "exceptional"
+        },
+        {
+          "company": "Rigetti Computing",
+          "current": 85.0,
+          "previous": 81.0,
+          "change": 4.0,
+          "tier": "exceptional"
+        },
+        {
+          "company": "Astera Labs",
+          "current": 75.5,
+          "previous": 71.5,
+          "change": 4.0,
+          "tier": "leader"
+        },
+        {
+          "company": "Archer Aviation",
+          "current": 68.0,
+          "previous": 65.0,
+          "change": 3.0,
+          "tier": "strong"
+        },
         {
           "company": "Swan",
           "current": 34.0,
@@ -23,15 +51,8 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 40,
+      "count": 29,
       "items": [
-        {
-          "company": "AST SpaceMobile",
-          "form": "8-K",
-          "description": "asts-20260511.htm",
-          "date": "2026-05-11",
-          "isIPO": false
-        },
         {
           "company": "Momentus",
           "form": "8-K",
@@ -61,24 +82,31 @@
           "isIPO": false
         },
         {
-          "company": "IonQ",
+          "company": "D-Wave Quantum",
           "form": "8-K",
-          "description": "bakkt-20260511.htm",
-          "date": "2026-05-11",
-          "isIPO": false
-        },
-        {
-          "company": "Rigetti Computing",
-          "form": "8-K",
-          "description": "rgti-20260511x8k.htm",
-          "date": "2026-05-11",
+          "description": "qbts-20260512.htm",
+          "date": "2026-05-13",
           "isIPO": false
         },
         {
           "company": "D-Wave Quantum",
           "form": "8-K",
           "description": "qbts-20260512.htm",
-          "date": "2026-05-13",
+          "date": "2026-05-12",
+          "isIPO": false
+        },
+        {
+          "company": "Archer Aviation",
+          "form": "8-K",
+          "description": "achr-20260514.htm",
+          "date": "2026-05-14",
+          "isIPO": false
+        },
+        {
+          "company": "LanzaTech",
+          "form": "8-K",
+          "description": "tlsi-20260514.htm",
+          "date": "2026-05-14",
           "isIPO": false
         }
       ]
@@ -105,65 +133,64 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 29,
+      "count": 51,
       "items": [
         {
-          "title": "Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins b",
-          "type": "Proposed Rule",
+          "title": "Notice Announcing High School Equivalency Program Competition",
+          "type": "Notice",
           "agencies": [
-            "National Credit Union Administration"
+            "Education Department"
           ],
           "significant": false,
           "date": "2026-05-18"
         },
         {
-          "title": "Arms Sales Notification",
-          "type": "Notice",
-          "agencies": [
-            "Defense Department",
-            ""
-          ],
-          "significant": false,
-          "date": "2026-05-14"
-        },
-        {
-          "title": "Arms Sales Notification",
-          "type": "Notice",
-          "agencies": [
-            "Defense Department",
-            ""
-          ],
-          "significant": false,
-          "date": "2026-05-14"
-        },
-        {
-          "title": "Arms Sales Notification",
-          "type": "Notice",
-          "agencies": [
-            "Defense Department",
-            ""
-          ],
-          "significant": false,
-          "date": "2026-05-14"
-        },
-        {
-          "title": "Begin Actual Construction in the New Source Review (NSR) Preconstruction Permitting Program",
+          "title": "Marine Mammals; Incidental Take of Polar Bears in the Southern Beaufort Sea; Seismic Exploration Activities by SAExplora",
           "type": "Proposed Rule",
           "agencies": [
-            "Environmental Protection Agency"
+            "Interior Department",
+            "Fish and Wildlife Service"
           ],
           "significant": false,
-          "date": "2026-05-13"
+          "date": "2026-05-18"
         },
         {
-          "title": "Privacy Act of 1974; System of Records",
-          "type": "Notice",
+          "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to the Interstate Bridge Re",
+          "type": "Rule",
           "agencies": [
-            "Transportation Department",
-            ""
+            "Commerce Department",
+            "National Oceanic and Atmospheric Administration"
           ],
           "significant": false,
-          "date": "2026-05-11"
+          "date": "2026-05-18"
+        },
+        {
+          "title": "Domestic Competitive Products Pricing and Mailing Standards Changes",
+          "type": "Rule",
+          "agencies": [
+            "Postal Service"
+          ],
+          "significant": false,
+          "date": "2026-05-15"
+        },
+        {
+          "title": "Bureau of Political-Military Affairs, Directorate of Defense Trade Controls: Notifications to the Congress of Proposed C",
+          "type": "Notice",
+          "agencies": [
+            "State Department"
+          ],
+          "significant": false,
+          "date": "2026-05-15"
+        },
+        {
+          "title": "Renewal of Department of Defense Federal Advisory Committees-Air University Board of Visitors",
+          "type": "Notice",
+          "agencies": [
+            "Defense Department",
+            "Defense Department"
+          ],
+          "significant": false,
+          "date": "2026-05-15"
         }
       ]
     },
@@ -172,6 +199,13 @@
       "icon": "\ud83d\udcf0",
       "count": 26,
       "items": [
+        {
+          "title": "Dust raises $40M Series B to build the \u201cmultiplayer\u201d operating system for enterprise AI",
+          "source": "Tech.eu",
+          "company": "Dust",
+          "impact": "high",
+          "type": "funding"
+        },
         {
           "title": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
           "source": "TechCrunch",
@@ -201,101 +235,106 @@
           "type": "ipo"
         },
         {
-          "title": "UK AI chip startup Fractile raises $220M to tackle the growing inference bottleneck",
-          "source": "Tech.eu",
-          "company": "Fractile",
-          "impact": "high",
+          "title": "Tomorrow.io adds $35 million to DeepSky funding round",
+          "source": "SpaceNews",
+          "company": "Tomorrow.io",
+          "impact": "medium",
           "type": "funding"
         },
         {
-          "title": "FCC approves SpaceX spectrum deal with $2.4 billion escrow condition",
-          "source": "SpaceNews",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
+          "title": "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches",
+          "source": "CleanTechnica",
+          "company": "Waymo",
+          "impact": "low",
+          "type": "news"
         },
         {
-          "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+          "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
           "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
-          "type": "milestone"
-        },
-        {
-          "title": "SpaceX launches CRS-34 cargo mission to ISS",
-          "source": "SpaceNews",
-          "company": "SpaceX",
-          "impact": "medium",
-          "type": "ipo"
+          "type": "hire"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 40,
+      "count": 46,
       "items": [
         {
-          "title": "Frontier AI has broken the open CTF format",
-          "score": 376,
-          "comments": 375,
+          "title": "Mozilla to UK regulators: VPNs are essential privacy and security tools",
+          "score": 755,
+          "comments": 319,
           "companies": [
-            "OpenAI",
-            "Mistral AI"
+            "Cape",
+            "ideaForge",
+            "Percepto"
           ],
-          "url": "https://news.ycombinator.com/item?id=48157559"
+          "url": "https://news.ycombinator.com/item?id=48166459"
+        },
+        {
+          "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
+          "score": 567,
+          "comments": 258,
+          "companies": [
+            "Percepto",
+            "ideaForge",
+            "Sakana AI",
+            "Built Robotics",
+            "Cape",
+            "Photonic Inc"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48168856"
+        },
+        {
+          "title": "At least 25 Flock cameras have been destroyed in five states since April 2025",
+          "score": 428,
+          "comments": 304,
+          "companies": [
+            "Flock Safety",
+            "ideaForge",
+            "Asylon Robotics"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48170798"
+        },
+        {
+          "title": "AI subscriptions are a ticking time bomb for enterprise",
+          "score": 397,
+          "comments": 388,
+          "companies": [
+            "Watershed",
+            "Ada",
+            "Databricks"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48168056"
         },
         {
           "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
-          "score": 334,
-          "comments": 135,
+          "score": 394,
+          "comments": 152,
           "companies": [
             "Kyutai",
+            "Runway",
             "Together AI",
-            "Auterion",
-            "Runway"
+            "Auterion"
           ],
           "url": "https://news.ycombinator.com/item?id=48159445"
         },
         {
-          "title": "Show HN: Find the best local LLM for your hardware, ranked by benchmarks",
-          "score": 283,
-          "comments": 66,
+          "title": "Show HN: Semble \u2013 Code search for agents that uses 98% fewer tokens than grep",
+          "score": 344,
+          "comments": 113,
           "companies": [
-            "QuantWare",
-            "Humane",
-            "Diode",
-            "Quilter"
+            "Anthropic",
+            "Auterion",
+            "Bear Robotics",
+            "Kyutai",
+            "Cohere",
+            "Hugging Face",
+            "Together AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48146369"
-        },
-        {
-          "title": "Radicle: Sovereign {code forge} built on Git",
-          "score": 256,
-          "comments": 88,
-          "companies": [
-            "Built Robotics"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48147603"
-        },
-        {
-          "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
-          "score": 234,
-          "comments": 72,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=48160807"
-        },
-        {
-          "title": "Waymo updates 3,800 robotaxis after they 'drive into standing water'",
-          "score": 210,
-          "comments": 207,
-          "companies": [
-            "Waymo",
-            "Vital Lyfe",
-            "Zoox",
-            "Rainmaker"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48151767"
+          "url": "https://news.ycombinator.com/item?id=48169874"
         }
       ]
     },
@@ -305,37 +344,37 @@
       "count": 108,
       "items": [
         {
-          "title": "SEEGNAL INC. ANNOUNCES FILING OF 2025 ANNUAL FILINGS AND THAT THE MCTO WILL NO LONGER BE IN EFFECT AS OF MAY 16, 2026",
+          "title": "Man Group PLC : Form 8.3 - AMG Lithium B.V. (a direct wholly-owned subsidiary of AMG Critical Materials N.V.)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Alkane levererar rekordvinst p\u00e5 93 miljoner dollar f\u00f6r tredje kvartalet",
+          "title": "Man Group PLC : Form 8.3 - Senior plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "VVC Exploration Corporation Announces Application For Management Cease Trade Order And Provides Financing Update",
+          "title": "Lassila & Tikanoja vahvistaa j\u00e4tehuollon palveluitaan ostamalla Kempeleen Siirtokuljetus Oy:n ja Kempeleen J\u00e4tekuljetus ",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Black Rock Coffee Bar Continues Expansion in Phoenix with Two New Locations",
+          "title": "Lassila & Tikanoja strengthens its waste management services by acquiring Kempeleen Siirtokuljetus Oy and Kempeleen J\u00e4te",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Ipsen presents first-in-class late-breaking Phase II corabotase data in glabellar lines showing sustained duration of ef",
+          "title": "Lassila & Tikanoja vahvistaa j\u00e4tehuollon palveluitaan ostamalla Kempeleen Siirtokuljetus Oy:n ja Kempeleen J\u00e4tekuljetus ",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Ipsen pr\u00e9sente les derniers r\u00e9sultats d'une \u00e9tude de phase II sur la corabotase, premi\u00e8re de sa classe, concernant les r",
+          "title": "Ring Energy to Participate in Water Tower Research Fireside Chat on May 20, 2026",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-05-17-d5cecb6bc688"
+  "brief_id": "brief-2026-05-18-aae4c45d7435"
 }
