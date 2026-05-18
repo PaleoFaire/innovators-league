@@ -1,28 +1,27 @@
 {
-  "generatedAt": "2026-05-11T10:37:04+00:00",
+  "generatedAt": "2026-05-18T11:05:40+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
   "cohortSize": 12,
   "newExtractionsThisRun": 12,
   "summary": {
-    "cleared": 7,
-    "changesProposed": 5,
+    "cleared": 6,
+    "changesProposed": 6,
     "unverifiable": 0
   },
   "cleared": [
     "Caffeinated Capital",
     "Cantos Ventures",
     "Construct Capital",
-    "General Catalyst",
+    "Eclipse Ventures",
     "Harpoon Ventures",
-    "Lightspeed Venture Partners",
-    "Shield Capital"
+    "Point72 Ventures"
   ],
   "changesProposed": [
     {
-      "name": "DCVC (Data Collective)",
+      "name": "DCVC",
       "current": {
-        "name": "DCVC (Data Collective)",
+        "name": "DCVC",
         "shortName": "DCVC",
         "aum": "$4B+",
         "flagshipFund": "DCVC Fund VI",
@@ -62,22 +61,22 @@
           "Biology",
           "Defense and Security"
         ],
-        "thesis": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and data. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense.",
+        "thesis": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and AI. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense and security.",
         "website": "https://dcvc.com",
         "sources_per_field": {
           "name": [
             0,
-            1
+            1,
+            2
           ],
           "short_name": [
             0,
-            1
+            1,
+            2
           ],
           "aum": [
             1
           ],
-          "flagship_fund": [],
-          "founded_year": [],
           "hq": [
             1
           ],
@@ -92,47 +91,18 @@
             1
           ],
           "website": [
-            0
+            0,
+            1,
+            2
           ]
         },
-        "notes": "Source [1] states 'For 15 years, DCVC has backed brilliant entrepreneurs' which suggests founding around 2009-2010 if current date is 2024-2025, but no explicit founding year provided in sources. No flagship fund name explicitly stated in sources. HQ location inferred from website domain and standard VC firm location references but not explicitly stated in provided excerpts."
+        "notes": "Founded year cannot be verified from sources. Source [1] states 'For 15 years, DCVC has backed brilliant entrepreneurs' and mentions '13 funds to date' and 'six flagship funds' but does not specify a founding year. The database entry lists 2011 but this is not supported by the provided sources."
       },
       "changes": [
         {
-          "field": "name",
-          "current": "DCVC (Data Collective)",
-          "verified": "DCVC",
-          "sources": [
-            0,
-            1
-          ]
-        },
-        {
-          "field": "sectorFocus",
-          "current": [
-            "Energy & Climate",
-            "AI & Software",
-            "Robotics & Manufacturing"
-          ],
-          "verified": [
-            "AI",
-            "Climate",
-            "Engineering",
-            "Materials Science",
-            "Robotics",
-            "Space",
-            "Water",
-            "Biology",
-            "Defense and Security"
-          ],
-          "sources": [
-            1
-          ]
-        },
-        {
           "field": "thesis",
-          "current": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and massive datasets. Focus areas include AI, climate, engineering, materials science, robotics, space, water, biology, defense and security.",
-          "verified": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and data. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense.",
+          "current": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and data. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense.",
+          "verified": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and AI. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense and security.",
           "sources": [
             0,
             1
@@ -161,85 +131,7 @@
           "url": "https://dcvc.com/companies"
         }
       ],
-      "notes": "Source [1] states 'For 15 years, DCVC has backed brilliant entrepreneurs' which suggests founding around 2009-2010 if current date is 2024-2025, but no explicit founding year provided in sources. No flagship fund name explicitly stated in sources. HQ location inferred from website domain and standard VC firm location references but not explicitly stated in provided excerpts."
-    },
-    {
-      "name": "Eclipse Ventures",
-      "current": {
-        "name": "Eclipse Ventures",
-        "shortName": "Eclipse",
-        "aum": "$4B+",
-        "flagshipFund": "Eclipse Fund IV",
-        "founded": 2015,
-        "hq": "Palo Alto, CA",
-        "website": "https://eclipse.capital"
-      },
-      "verified": {
-        "name": "Eclipse Ventures",
-        "short_name": null,
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
-        "key_partners": null,
-        "sector_focus": null,
-        "thesis": "Eclipse invests in entrepreneurs building the next generation of companies in the physical economy \u2014 the industries that determine resilience, competitiveness, and security.",
-        "website": "https://eclipse.capital",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "thesis": [
-            1
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Source [4] is Wikipedia article about astronomical eclipses, not the venture capital firm. No information about AUM, flagship fund, founded year, headquarters, key partners, or sector focus could be verified from the provided sources. The sources do not list current senior partners by name. Database entry references cannot be used as sources."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "Eclipse invests in entrepreneurs building the next generation of companies in the physical economy \u2014 the industries that determine resilience, competitiveness, and security. The firm partners with innovators transforming the physical economy, bringing operational experience in building factories, shipping hardware, and scaling supply chains.",
-          "verified": "Eclipse invests in entrepreneurs building the next generation of companies in the physical economy \u2014 the industries that determine resilience, competitiveness, and security.",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://eclipse.capital"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://eclipse.capital/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/team",
-          "url": "https://eclipse.capital/team"
-        },
-        {
-          "idx": 3,
-          "src": "firm/companies",
-          "url": "https://eclipse.capital/companies"
-        },
-        {
-          "idx": 4,
-          "src": "wikipedia (short name)",
-          "url": "https://en.wikipedia.org/wiki/Eclipse"
-        }
-      ],
-      "notes": "Source [4] is Wikipedia article about astronomical eclipses, not the venture capital firm. No information about AUM, flagship fund, founded year, headquarters, key partners, or sector focus could be verified from the provided sources. The sources do not list current senior partners by name. Database entry references cannot be used as sources."
+      "notes": "Founded year cannot be verified from sources. Source [1] states 'For 15 years, DCVC has backed brilliant entrepreneurs' and mentions '13 funds to date' and 'six flagship funds' but does not specify a founding year. The database entry lists 2011 but this is not supported by the provided sources."
     },
     {
       "name": "Engine Ventures",
@@ -277,7 +169,7 @@
           "Materials",
           "Water / Oceans"
         ],
-        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator and rebranded as the venture capital firm Engine Ventures.",
+        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator.",
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
@@ -299,6 +191,7 @@
             1
           ],
           "thesis": [
+            1,
             3
           ],
           "website": [
@@ -306,7 +199,7 @@
             1
           ]
         },
-        "notes": "Engine Ventures is the investment arm that spun out from The Engine nonprofit in 2023. The Engine is a 501(c)(3) nonprofit incubator/accelerator founded by MIT in 2016. Source [4] about SpaceX is unrelated to Engine Ventures and was not used. No current senior partners explicitly named on firm website or Wikipedia. AUM not verifiable from sources. Flagship fund name not verifiable from sources."
+        "notes": "Engine Ventures is the venture capital arm that spun out from The Engine nonprofit in 2023. The Engine remains a separate 501(c)(3) nonprofit incubator and accelerator. Wikipedia article is about The Engine organization (nonprofit); Engine Ventures is the VC firm. AUM not explicitly stated in sources. Key partners (Katie Rae, Reed Sturtevant) not confirmed in provided sources. Flagship fund name not confirmed in sources."
       },
       "changes": [
         {
@@ -343,14 +236,6 @@
           "sources": [
             1
           ]
-        },
-        {
-          "field": "thesis",
-          "current": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-          "verified": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator and rebranded as the venture capital firm Engine Ventures.",
-          "sources": [
-            3
-          ]
         }
       ],
       "sources": [
@@ -373,53 +258,251 @@
           "idx": 3,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        }
+      ],
+      "notes": "Engine Ventures is the venture capital arm that spun out from The Engine nonprofit in 2023. The Engine remains a separate 501(c)(3) nonprofit incubator and accelerator. Wikipedia article is about The Engine organization (nonprofit); Engine Ventures is the VC firm. AUM not explicitly stated in sources. Key partners (Katie Rae, Reed Sturtevant) not confirmed in provided sources. Flagship fund name not confirmed in sources."
+    },
+    {
+      "name": "General Catalyst",
+      "current": {
+        "name": "General Catalyst",
+        "shortName": "GC",
+        "aum": "$43B+",
+        "flagshipFund": "General Catalyst Group XII, L.P.",
+        "founded": 2000,
+        "hq": "Cambridge, Massachusetts",
+        "website": "https://generalcatalyst.com"
+      },
+      "verified": {
+        "name": "General Catalyst",
+        "short_name": "GC",
+        "aum": "$43B+",
+        "flagship_fund": "General Catalyst Group XII, L.P.",
+        "founded_year": 2000,
+        "hq": "Cambridge, Massachusetts",
+        "key_partners": [
+          "Hemant Taneja",
+          "Ken Chenault",
+          "Jeannette zu F\u00fcrstenberg"
+        ],
+        "sector_focus": null,
+        "thesis": "General Catalyst invests across seed, venture, and growth stages. The firm backs founders and invests in critical institutions, with focus on applied AI and global resiliency.",
+        "website": "https://generalcatalyst.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            3
+          ],
+          "short_name": [
+            0
+          ],
+          "aum": [
+            0,
+            3
+          ],
+          "flagship_fund": [
+            3
+          ],
+          "founded_year": [
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "key_partners": [
+            3
+          ],
+          "sector_focus": [],
+          "thesis": [
+            0,
+            3
+          ],
+          "website": [
+            0,
+            3
+          ]
+        },
+        "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm), after which Jeannette zu F\u00fcrstenberg became a managing director overseeing European business. In October 2024, firm raised $8 billion in new funds including $4.5 billion for core venture funds. Neeraj Arora listed in database entry but not found in current sources as current senior partner."
+      },
+      "changes": [
+        {
+          "field": "keyPartners",
+          "current": [
+            "Hemant Taneja",
+            "Jeannette zu F\u00fcrstenberg",
+            "Neeraj Arora",
+            "Ken Chenault"
+          ],
+          "verified": [
+            "Hemant Taneja",
+            "Ken Chenault",
+            "Jeannette zu F\u00fcrstenberg"
+          ],
+          "sources": [
+            3
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "General Catalyst is an investment and transformation company that backs founders across seed, venture, and growth stages. The firm partners with entrepreneurs to build toward global resiliency and applied AI, originating new companies from scratch and transforming critical institutions.",
+          "verified": "General Catalyst invests across seed, venture, and growth stages. The firm backs founders and invests in critical institutions, with focus on applied AI and global resiliency.",
+          "sources": [
+            0,
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://generalcatalyst.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/team",
+          "url": "https://generalcatalyst.com/team"
+        },
+        {
+          "idx": 2,
+          "src": "firm/portfolio",
+          "url": "https://generalcatalyst.com/portfolio"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_Catalyst"
+        }
+      ],
+      "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm), after which Jeannette zu F\u00fcrstenberg became a managing director overseeing European business. In October 2024, firm raised $8 billion in new funds including $4.5 billion for core venture funds. Neeraj Arora listed in database entry but not found in current sources as current senior partner."
+    },
+    {
+      "name": "Lightspeed Venture Partners",
+      "current": {
+        "name": "Lightspeed Venture Partners",
+        "shortName": "Lightspeed",
+        "aum": "$9B+ (Dec 2025 raise)",
+        "flagshipFund": "Lightspeed Fund XIV",
+        "founded": 2000,
+        "hq": "Menlo Park, CA",
+        "website": "https://lsvp.com"
+      },
+      "verified": {
+        "name": "Lightspeed Venture Partners",
+        "short_name": "Lightspeed",
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": 2000,
+        "hq": null,
+        "key_partners": [
+          "Arif Janmohamed",
+          "Barry Eggers",
+          "Peter Nieh",
+          "Ravi Mhatre",
+          "Guru Chahal"
+        ],
+        "sector_focus": null,
+        "thesis": "For over twenty years Lightspeed has been the first investor and an early backer of some of the most innovative companies in the world. The firm stands behind companies with high conviction from Seed to Series F and beyond.",
+        "website": "https://lsvp.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "key_partners": [
+            2
+          ],
+          "thesis": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded year 2000 cannot be verified from provided sources; sources only state 'over twenty years' as of publication date. AUM figure from database entry ($9B+ Dec 2025) cannot be verified from provided sources. HQ location (Menlo Park, CA) cannot be verified from provided sources. Sector focus cannot be verified from provided sources. No explicit current flagship fund name found in sources. Team page [2] lists 48 investors and 21 venture/operating partners; listed key_partners are those explicitly titled as Partner or Co-Founder on the firm website."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Lightspeed invests in companies from Seed to Series F and beyond with high conviction. The firm has been a first investor and early backer of innovative companies over more than twenty years.",
+          "verified": "For over twenty years Lightspeed has been the first investor and an early backer of some of the most innovative companies in the world. The firm stands behind companies with high conviction from Seed to Series F and beyond.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://lsvp.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://lsvp.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://lsvp.com/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/portfolio",
+          "url": "https://lsvp.com/portfolio"
         },
         {
           "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/spacex-v3-booster-has-a-full-static-fire-and-is-on-track-for-a-may-15-launch.html"
+          "src": "firm/companies",
+          "url": "https://lsvp.com/companies"
+        },
+        {
+          "idx": 5,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners"
         }
       ],
-      "notes": "Engine Ventures is the investment arm that spun out from The Engine nonprofit in 2023. The Engine is a 501(c)(3) nonprofit incubator/accelerator founded by MIT in 2016. Source [4] about SpaceX is unrelated to Engine Ventures and was not used. No current senior partners explicitly named on firm website or Wikipedia. AUM not verifiable from sources. Flagship fund name not verifiable from sources."
+      "notes": "Founded year 2000 cannot be verified from provided sources; sources only state 'over twenty years' as of publication date. AUM figure from database entry ($9B+ Dec 2025) cannot be verified from provided sources. HQ location (Menlo Park, CA) cannot be verified from provided sources. Sector focus cannot be verified from provided sources. No explicit current flagship fund name found in sources. Team page [2] lists 48 investors and 21 venture/operating partners; listed key_partners are those explicitly titled as Partner or Co-Founder on the firm website."
     },
     {
-      "name": "Point72 Ventures",
+      "name": "Shield Capital",
       "current": {
-        "name": "Point72 Ventures",
-        "shortName": "Point72 Ventures",
-        "aum": "$400M (Deterrence Fund)",
-        "flagshipFund": "Deterrence Fund",
-        "founded": 2016,
-        "hq": "Stamford, CT",
-        "website": "https://point72.com/ventures"
+        "name": "Shield Capital",
+        "shortName": "Shield",
+        "aum": "$500M+",
+        "flagshipFund": "Shield Capital Fund II",
+        "founded": 2021,
+        "hq": "Burlingame, CA",
+        "website": "https://shieldcap.com"
       },
       "verified": {
-        "name": "Point72 Ventures",
-        "short_name": "Point72 Ventures",
+        "name": "Shield Capital",
+        "short_name": null,
         "aum": null,
         "flagship_fund": null,
-        "founded_year": 2016,
+        "founded_year": null,
         "hq": null,
         "key_partners": [
-          "Steve Cohen",
-          "Chris Morales",
-          "Tara Stokes",
-          "Ishan Sinha"
+          "Philip Bilden",
+          "Raj Shah",
+          "Michael Brown",
+          "John Serafini"
         ],
         "sector_focus": [
           "Artificial Intelligence",
-          "Consumer",
-          "Defense Tech"
+          "Autonomy",
+          "Cybersecurity",
+          "Space"
         ],
-        "thesis": "Thematic-driven investors backing ambitious founders who are building for big outcomes across critical domains. The firm brings deep sector insights, partnership, and hands-on support from seed to pre-IPO to help build enduring companies.",
-        "website": "https://point72ventures.com",
+        "thesis": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders focuses on the convergence of commercial technology and national security.",
+        "website": "https://shieldcap.com",
         "sources_per_field": {
           "name": [
             0
-          ],
-          "founded_year": [
-            0,
-            2
           ],
           "key_partners": [
             1
@@ -434,13 +517,13 @@
             0
           ]
         },
-        "notes": "Founded in 2016 (source 0 and 2 both state 'Since 2016'). Steve Cohen is listed as Chairman on the team page (source 1). AUM and flagship fund information not found in provided sources. HQ location not explicitly stated in sources despite database entry claiming Stamford, CT."
+        "notes": "Source [3] (Wikipedia article on 'Shield') is not relevant to Shield Capital VC firm and provides no verifiable information about the firm. Founded year, AUM, flagship fund, and HQ location could not be verified from provided sources despite being listed in the current database entry."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Thematic-driven investors backing ambitious founders building for big outcomes across critical domains. Bring deep sector insights, partnership, and hands-on support from seed to pre-IPO to help build enduring companies.",
-          "verified": "Thematic-driven investors backing ambitious founders who are building for big outcomes across critical domains. The firm brings deep sector insights, partnership, and hands-on support from seed to pre-IPO to help build enduring companies.",
+          "current": "Shield Capital invests in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders focuses on the convergence of commercial technology and national security.",
+          "verified": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders focuses on the convergence of commercial technology and national security.",
           "sources": [
             0
           ]
@@ -450,20 +533,25 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://point72ventures.com"
+          "url": "https://shieldcap.com"
         },
         {
           "idx": 1,
           "src": "firm/team",
-          "url": "https://point72ventures.com/team"
+          "url": "https://shieldcap.com/team"
         },
         {
           "idx": 2,
           "src": "firm/portfolio",
-          "url": "https://point72ventures.com/portfolio"
+          "url": "https://shieldcap.com/portfolio"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia (short name)",
+          "url": "https://en.wikipedia.org/wiki/Shield"
         }
       ],
-      "notes": "Founded in 2016 (source 0 and 2 both state 'Since 2016'). Steve Cohen is listed as Chairman on the team page (source 1). AUM and flagship fund information not found in provided sources. HQ location not explicitly stated in sources despite database entry claiming Stamford, CT."
+      "notes": "Source [3] (Wikipedia article on 'Shield') is not relevant to Shield Capital VC firm and provides no verifiable information about the firm. Founded year, AUM, flagship fund, and HQ location could not be verified from provided sources despite being listed in the current database entry."
     },
     {
       "name": "Thrive Capital Management, LLC",
@@ -491,7 +579,7 @@
           "Software",
           "Internet"
         ],
-        "thesis": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests across early-stage, growth, and late-stage companies while maintaining a strategy of investing heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies.",
+        "thesis": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies. It simultaneously maintains participation across early-stage, growth, and late-stage investments.",
         "website": "https://thrivecap.com",
         "sources_per_field": {
           "name": [
@@ -525,13 +613,13 @@
             0
           ]
         },
-        "notes": "In August 2024, Thrive raised over $5 billion for Thrive Capital Partners IX, split between a $4 billion late-stage fund and a $1 billion early-stage fund. In 2022, Nitin Nohria, former dean of Harvard Business School, became the firm's first executive chairman."
+        "notes": "Nitin Nohria became first executive chairman in 2022. Thrive Capital Partners IX raised $5B in 2024. As of 2026, firm has raised $22.3B total and manages $50B+. Thrive Capital Partners X raised $10B+ in 2026."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Thrive Capital is a venture capital firm that focuses on software and internet investments. The firm invests across early-stage, growth, and late-stage companies while maintaining a strategy of investing heavily in fewer companies to provide closer relationships with founders. In November 2024, the firm remained faithful to early-stage investing while simultaneously participating in growth and late-stage investments.",
-          "verified": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests across early-stage, growth, and late-stage companies while maintaining a strategy of investing heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies.",
+          "current": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests across early-stage, growth, and late-stage companies while maintaining a strategy of investing heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies.",
+          "verified": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies. It simultaneously maintains participation across early-stage, growth, and late-stage investments.",
           "sources": [
             0
           ]
@@ -544,7 +632,7 @@
           "url": "https://en.wikipedia.org/wiki/Thrive_Capital_Management%2C_LLC"
         }
       ],
-      "notes": "In August 2024, Thrive raised over $5 billion for Thrive Capital Partners IX, split between a $4 billion late-stage fund and a $1 billion early-stage fund. In 2022, Nitin Nohria, former dean of Harvard Business School, became the firm's first executive chairman."
+      "notes": "Nitin Nohria became first executive chairman in 2022. Thrive Capital Partners IX raised $5B in 2024. As of 2026, firm has raised $22.3B total and manages $50B+. Thrive Capital Partners X raised $10B+ in 2026."
     }
   ],
   "unverifiable": []

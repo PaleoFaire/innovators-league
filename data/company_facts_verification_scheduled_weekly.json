@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-05-11T10:34:58+00:00",
+  "generatedAt": "2026-05-18T11:03:34+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
   "cohortSize": 89,
-  "newExtractionsThisRun": 50,
+  "newExtractionsThisRun": 49,
   "summary": {
-    "cleared": 58,
-    "changesProposed": 16,
+    "cleared": 71,
+    "changesProposed": 3,
     "unverifiable": 15
   },
   "cleared": [
+    "1X Technologies",
     "ABL Bio",
     "ADASI",
     "AIR",
@@ -23,32 +24,42 @@
     "Allen Control Systems",
     "Alpha School",
     "Amber Bio",
+    "Anduril Industries",
     "Anthropic",
-    "Anysphere",
+    "Apis Cor",
+    "Applied Intuition",
     "Archer Materials",
     "Ares Industries",
     "Ark Robotics",
     "Ascend Elements",
+    "Asimov",
+    "Astranis",
     "Axelera AI",
     "Axelspace",
     "Ayar Labs",
     "BRINC Drones",
     "Basecamp Research",
+    "Baykar",
+    "Bedrock Robotics",
     "Bethlehem Steel Corp",
     "Black Forest Labs",
     "Blackshark.ai",
     "Blykalla",
+    "Boom Supersonic",
     "BotBuilt",
+    "Built Robotics",
     "CORE POWER",
     "Cailabs",
     "Calogena",
     "Candela",
     "Cascade Space",
     "Cellares",
+    "Cerebras",
     "Chariot Defense",
     "Chef Robotics",
     "ClearSpace",
     "Cognition",
+    "Cohere",
     "Corintis",
     "Cresilon",
     "Crusoe Energy",
@@ -56,11 +67,13 @@
     "DEEPX",
     "DefSecIntel",
     "Defense Unicorns",
+    "Dexterity",
     "Dream Security",
     "Dust",
     "DustPhotonics",
     "Dusty Robotics",
     "Electric Hydrogen",
+    "ElevenLabs",
     "Elroy Air",
     "Endurosat",
     "Enovix",
@@ -71,638 +84,87 @@
   ],
   "changesProposed": [
     {
-      "name": "1X Technologies",
+      "name": "Anysphere",
       "current": {
-        "name": "1X Technologies",
-        "founder": "Bernt \u00d8ivind B\u00f8rnich",
-        "location": "Palo Alto, CA",
-        "founded": 2014,
-        "fundingStage": "Series B",
-        "totalRaised": "$123.5M",
-        "website": "https://1xtechnologies.com"
+        "name": "Anysphere",
+        "founder": "Michael Truell, Sualeh Asif, Aman Sanger, Arvid Lunnemark",
+        "location": "San Francisco, California, United States",
+        "founded": 2022,
+        "fundingStage": "Private",
+        "totalRaised": "$3.2B+",
+        "website": "https://anysphere.co"
       },
       "verified": {
-        "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures bipedal humanoid robots including the NEO model designed for private home use.",
+        "name": "Anysphere",
+        "description": "An American software company offering Cursor, an AI-assisted code editor that integrates generative models from multiple providers to assist with software development.",
         "founders": [
-          "Bernt \u00d8ivind B\u00f8rnich"
+          "Michael Truell",
+          "Sualeh Asif",
+          "Aman Sanger",
+          "Arvid Lunnemark"
         ],
-        "location": "Palo Alto, California",
-        "founded_year": 2014,
-        "current_stage": "Series B",
-        "total_raised": "$123.5M",
-        "valuation": null,
+        "location": "San Francisco, California, United States",
+        "founded_year": 2022,
+        "current_stage": "Series D",
+        "total_raised": "$3.4B+",
+        "valuation": "$29.3B",
         "investors": [
-          "OpenAI Startup Fund",
-          "Tiger Global",
-          "Sandwater",
-          "Alliance Ventures",
-          "Skagerak Capital",
-          "EQT Ventures",
-          "Samsung NEXT",
-          "Nistad Group"
+          "Accel",
+          "Coatue Management",
+          "Google",
+          "Nvidia",
+          "Thrive Capital",
+          "OpenAI Startup Fund"
         ],
-        "website": "https://1xtechnologies.com",
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            1
-          ]
-        },
-        "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Palo Alto, CA",
-          "verified": "Palo Alto, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://1xtechnologies.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://1xtechnologies.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
-        }
-      ],
-      "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M."
-    },
-    {
-      "name": "Anduril Industries",
-      "current": {
-        "name": "Anduril Industries",
-        "founder": "Palmer Luckey, Brian Schimpf, Trae Stephens, Matt Grimm, Joe Chen",
-        "location": "Costa Mesa, CA",
-        "founded": 2017,
-        "fundingStage": "SPAC",
-        "totalRaised": "$2.5B+",
-        "website": "https://anduril.com"
-      },
-      "verified": {
-        "name": "Anduril Industries",
-        "description": "An American military technology company specializing in advanced autonomous systems including unmanned aerial systems, counter-UAS, autonomous surveillance systems, and networked command and control software.",
-        "founders": [
-          "Palmer Luckey",
-          "Trae Stephens",
-          "Matt Grimm",
-          "Joe Chen",
-          "Brian Schimpf"
-        ],
-        "location": "Costa Mesa, California, U.S.",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Founders Fund",
-          "Andreessen Horowitz",
-          "General Catalyst",
-          "8VC",
-          "Lux Capital",
-          "Valor Equity Partners",
-          "D1 Capital Partners"
-        ],
-        "website": "https://anduril.com",
-        "sources_per_field": {
-          "name": [
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            1
-          ]
-        },
-        "notes": "Source [0] (company website) is a placeholder/under construction and contains no verifiable information. All verified facts extracted from Wikipedia [1]. Current stage could not be verified from provided sources - database entry lists 'SPAC' but this is not mentioned in sources. Total raised and current valuation could not be verified as most recent figures in sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Costa Mesa, CA",
-          "verified": "Costa Mesa, California, U.S.",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://anduril-industries.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Anduril_Industries"
-        }
-      ],
-      "notes": "Source [0] (company website) is a placeholder/under construction and contains no verifiable information. All verified facts extracted from Wikipedia [1]. Current stage could not be verified from provided sources - database entry lists 'SPAC' but this is not mentioned in sources. Total raised and current valuation could not be verified as most recent figures in sources."
-    },
-    {
-      "name": "Apis Cor",
-      "current": {
-        "name": "Apis Cor",
-        "founder": "Nikita Cheniuntai",
-        "location": "Melbourne, FL",
-        "founded": 2014,
-        "fundingStage": "Seed",
-        "totalRaised": "$5.5M",
-        "website": null
-      },
-      "verified": {
-        "name": null,
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://apiscor.com",
-        "sources_per_field": {
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is for a managed IT services company (Apiscor, Inc.) based in Georgia (phone 770 area code), NOT the 3D construction printing company described in the database entry. No sources provided verify the existence of 'Apis Cor' the construction 3D printing company with founder Nikita Cheniuntai, Mars habitat prototype, or any of the attributes in the current database entry. The sources do not match the company being researched."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://apiscor.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://apiscor.com"
-        }
-      ],
-      "notes": "Source [0] is for a managed IT services company (Apiscor, Inc.) based in Georgia (phone 770 area code), NOT the 3D construction printing company described in the database entry. No sources provided verify the existence of 'Apis Cor' the construction 3D printing company with founder Nikita Cheniuntai, Mars habitat prototype, or any of the attributes in the current database entry. The sources do not match the company being researched."
-    },
-    {
-      "name": "Applied Intuition",
-      "current": {
-        "name": "Applied Intuition",
-        "founder": "Qasar Younis, Peter Ludwig",
-        "location": "Sunnyvale, CA",
-        "founded": 2017,
-        "fundingStage": "Series F",
-        "totalRaised": "$600M+",
-        "website": "https://appliedintuition.com"
-      },
-      "verified": {
-        "name": "Applied Intuition",
-        "description": "Software platform for physical AI that powers autonomous vehicles, industrial machines, and defense systems. The company provides simulation tools and an autonomy stack used by major OEMs and defense contractors.",
-        "founders": [
-          "Qasar Younis",
-          "Peter Ludwig"
-        ],
-        "location": "Sunnyvale, California",
-        "founded_year": 2017,
-        "current_stage": "Series F",
-        "total_raised": "$600M",
-        "valuation": "$15B",
-        "investors": [
-          "Andreessen Horowitz",
-          "Fidelity Investments",
-          "Lux Capital",
-          "General Catalyst",
-          "BlackRock-managed funds",
-          "Kleiner Perkins",
-          "Franklin Templeton",
-          "Qatar Investment Authority"
-        ],
-        "website": "https://appliedintuition.com",
+        "website": "https://anysphere.co",
         "sources_per_field": {
           "name": [
             0,
-            1,
-            2
+            1
           ],
           "description": [
-            2
+            1
           ],
           "founders": [
-            1,
-            2
+            1
           ],
           "location": [
             1
           ],
           "founded_year": [
-            2
+            1
           ],
           "current_stage": [
-            2
+            1
           ],
           "total_raised": [
-            2
+            1
           ],
           "valuation": [
-            2
+            1
           ],
           "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Founded January 2017. Series F funding of $600M announced June 2025, co-led by BlackRock-managed funds and Kleiner Perkins, raising valuation to $15B from previous $6B in 2024. Employs approximately 1,300 people as of 2025."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Sunnyvale, CA",
-          "verified": "Sunnyvale, California",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://appliedintuition.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://appliedintuition.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Applied_Intuition"
-        }
-      ],
-      "notes": "Founded January 2017. Series F funding of $600M announced June 2025, co-led by BlackRock-managed funds and Kleiner Perkins, raising valuation to $15B from previous $6B in 2024. Employs approximately 1,300 people as of 2025."
-    },
-    {
-      "name": "Asimov",
-      "current": {
-        "name": "Asimov",
-        "founder": "Alec Nielsen, Chris Voigt, Douglas Densmore, Raja Srinivas",
-        "location": "Boston, MA",
-        "founded": 2017,
-        "fundingStage": "Series B",
-        "totalRaised": "$209M",
-        "website": "https://asimov.com"
-      },
-      "verified": {
-        "name": "Asimov",
-        "description": "Provides an integrated platform for genetic design including engineered host cells, genetic parts libraries, and cloud-based design software for advanced therapeutic manufacturing applications.",
-        "founders": [
-          "Chris Voigt",
-          "Doug Densmore",
-          "Alec Nielsen",
-          "Raja Srinivas"
-        ],
-        "location": "Boston, MA",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://asimov.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0,
-            1
-          ],
-          "founded_year": [
             1
           ],
           "website": [
             0
           ]
         },
-        "notes": "Source [2] is about Isaac Asimov (the writer/biochemist, 1920-1992) and is not relevant to the company. Company founding details confirmed in source [1]: 'In 2017, Chris, Doug, Alec, and Raja Srinivas founded Asimov, receiving early backing from Andreessen Horowitz and DARPA.' Co-founders' roots traced to Chris Voigt (MIT) and Doug Densmore (Boston University) labs, with Alec Nielsen joining as PhD student."
+        "notes": "Series D closed November 13, 2025 for $2.3B at $29.3B valuation. Company surpassed $1B ARR by November 2025. Co-founder Arvid Lunnemark departed in October 2025. As of April 2026, xAI announced an acquisition deal for $60B pending later in 2026."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "Alec Nielsen, Chris Voigt, Douglas Densmore, Raja Srinivas",
-          "verified": "Chris Voigt, Doug Densmore, Alec Nielsen, Raja Srinivas",
+          "field": "fundingStage",
+          "current": "Private",
+          "verified": "Series D",
           "sources": [
             1
           ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://asimov.com"
         },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://asimov.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Asimov"
-        }
-      ],
-      "notes": "Source [2] is about Isaac Asimov (the writer/biochemist, 1920-1992) and is not relevant to the company. Company founding details confirmed in source [1]: 'In 2017, Chris, Doug, Alec, and Raja Srinivas founded Asimov, receiving early backing from Andreessen Horowitz and DARPA.' Co-founders' roots traced to Chris Voigt (MIT) and Doug Densmore (Boston University) labs, with Alec Nielsen joining as PhD student."
-    },
-    {
-      "name": "Astranis",
-      "current": {
-        "name": "Astranis",
-        "founder": "John Gedmark, Ryan McLinko",
-        "location": "San Francisco, California, U.S.",
-        "founded": 2015,
-        "fundingStage": "Series D",
-        "totalRaised": "$350M+",
-        "website": "https://astranis.com"
-      },
-      "verified": {
-        "name": "Astranis",
-        "description": "American satellite company specializing in small, radiation-hardened geostationary communications satellites for high orbits. Astranis builds dedicated satellite networks for government and commercial customers.",
-        "founders": [
-          "John Gedmark",
-          "Ryan McLinko"
-        ],
-        "location": "San Francisco, California",
-        "founded_year": 2015,
-        "current_stage": null,
-        "total_raised": "$350M+",
-        "valuation": null,
-        "investors": [
-          "BlackRock",
-          "Venrock",
-          "Andreessen Horowitz"
-        ],
-        "website": "https://astranis.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Founded October 20, 2015. Part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of Wikipedia source, company is private with 250+ employees (2023). Current stage not explicitly stated in sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Francisco, California, U.S.",
-          "verified": "San Francisco, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://astranis.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://astranis.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Astranis"
-        }
-      ],
-      "notes": "Founded October 20, 2015. Part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of Wikipedia source, company is private with 250+ employees (2023). Current stage not explicitly stated in sources."
-    },
-    {
-      "name": "Baykar",
-      "current": {
-        "name": "Baykar",
-        "founder": "\u00d6zdemir Bayraktar",
-        "location": "Istanbul, T\u00fcrkiye",
-        "founded": 1984,
-        "fundingStage": "Private",
-        "totalRaised": "Not disclosed",
-        "website": "https://www.baykartech.com"
-      },
-      "verified": {
-        "name": "Baykar",
-        "description": "Turkish private defense company specializing in unmanned aerial vehicles (UAVs) and artificial intelligence systems. Baykar manufactures combat drones including Bayraktar TB2, TB3, Ak\u0131nc\u0131, and K\u0131z\u0131lelma, with products exported to 37 countries.",
-        "founders": [
-          "\u00d6zdemir Bayraktar"
-        ],
-        "location": "Istanbul, Turkey",
-        "founded_year": 1984,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.baykartech.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "website": [
-            1,
-            2
-          ]
-        },
-        "notes": "Source [1] lists founding year as 1986, but Source [2] (Wikipedia) and company materials reference 1984 as the founding year of Baykar Makina. Wikipedia states company was founded in 1984. Piaggio Aerospace acquisition completed December 27, 2024 per Wikipedia [2]. Leonardo cooperation agreement signed March 6, 2025 per Wikipedia [2]."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Istanbul, T\u00fcrkiye",
-          "verified": "Istanbul, Turkey",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.baykartech.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.baykartech.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Baykar"
-        }
-      ],
-      "notes": "Source [1] lists founding year as 1986, but Source [2] (Wikipedia) and company materials reference 1984 as the founding year of Baykar Makina. Wikipedia states company was founded in 1984. Piaggio Aerospace acquisition completed December 27, 2024 per Wikipedia [2]. Leonardo cooperation agreement signed March 6, 2025 per Wikipedia [2]."
-    },
-    {
-      "name": "Bedrock Robotics",
-      "current": {
-        "name": "Bedrock Robotics",
-        "founder": "Boris Sofman",
-        "location": "San Francisco, CA",
-        "founded": 2024,
-        "fundingStage": "Series B",
-        "totalRaised": "$350M+",
-        "website": "https://bedrockrobotics.com"
-      },
-      "verified": {
-        "name": "Bedrock Robotics",
-        "description": "Develops autonomous systems for heavy construction equipment, enabling fully autonomous operations on job sites. Founded by engineers from Waymo who previously worked on autonomous vehicle systems.",
-        "founders": null,
-        "location": null,
-        "founded_year": 2024,
-        "current_stage": "Series B",
-        "total_raised": "$270M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://bedrockrobotics.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Founder names not explicitly listed in sources provided. Database entry mentions 'Boris Sofman' as founder but this is not verified in the provided sources. Series B funding of $270M mentioned in NYT reference in source [1]. Database entry claims $350M+ total raised and $1.75B valuation but these figures are not found in provided sources."
-      },
-      "changes": [
         {
           "field": "totalRaised",
-          "current": "$350M+",
-          "verified": "$270M",
+          "current": "$3.2B+",
+          "verified": "$3.4B+",
           "sources": [
             1
           ]
@@ -712,503 +174,22 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://bedrockrobotics.com"
+          "url": "https://anysphere.co"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://bedrockrobotics.com/about"
-        }
-      ],
-      "notes": "Founder names not explicitly listed in sources provided. Database entry mentions 'Boris Sofman' as founder but this is not verified in the provided sources. Series B funding of $270M mentioned in NYT reference in source [1]. Database entry claims $350M+ total raised and $1.75B valuation but these figures are not found in provided sources."
-    },
-    {
-      "name": "Boom Supersonic",
-      "current": {
-        "name": "Boom Supersonic",
-        "founder": "Blake Scholl, Joe Wilding, Josh Krall",
-        "location": "Denver, CO",
-        "founded": 2014,
-        "fundingStage": "Series B",
-        "totalRaised": "$600M+",
-        "website": "https://boomsupersonic.com"
-      },
-      "verified": {
-        "name": "Boom Supersonic",
-        "description": "American aerospace company developing the Overture, a proposed supersonic airliner designed to cruise at Mach 1.7. The company has built and flight-tested the XB-1 demonstrator, which broke the sound barrier on January 28, 2025.",
-        "founders": [
-          "Blake Scholl",
-          "Joe Wilding",
-          "Josh Krall"
-        ],
-        "location": "Denver, Colorado",
-        "founded_year": 2014,
-        "current_stage": null,
-        "total_raised": "$600M+",
-        "valuation": null,
-        "investors": [
-          "Y Combinator",
-          "Sam Altman",
-          "Paul Graham",
-          "Alex Gerko",
-          "Michael Moritz",
-          "Bessemer Venture Partners",
-          "Seraph Group",
-          "Continuity Fund",
-          "RRE Ventures",
-          "Palm Drive Ventures",
-          "8VC",
-          "Caffeinated Capital",
-          "Japan Airlines",
-          "NEOM Investment Fund"
-        ],
-        "website": "https://boomsupersonic.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ]
-        },
-        "notes": "XB-1 became first privately funded aircraft to break the sound barrier on January 28, 2025, reaching Mach 1.122. Company has 130 orders/pre-orders from United Airlines, American Airlines, and Japan Airlines for Overture. Headquarters listed as Centennial, Colorado in Wikipedia; company founded in Denver, Colorado in 2014."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Denver, CO",
-          "verified": "Denver, Colorado",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://boomsupersonic.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://boomsupersonic.com/about"
-        },
-        {
-          "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Boom_Supersonic"
+          "url": "https://en.wikipedia.org/wiki/Anysphere"
         }
       ],
-      "notes": "XB-1 became first privately funded aircraft to break the sound barrier on January 28, 2025, reaching Mach 1.122. Company has 130 orders/pre-orders from United Airlines, American Airlines, and Japan Airlines for Overture. Headquarters listed as Centennial, Colorado in Wikipedia; company founded in Denver, Colorado in 2014."
-    },
-    {
-      "name": "Built Robotics",
-      "current": {
-        "name": "Built Robotics",
-        "founder": "Noah Ready-Campbell, Andrew Liang",
-        "location": "San Francisco, CA",
-        "founded": 2016,
-        "fundingStage": "Series C",
-        "totalRaised": "$112M",
-        "website": "https://builtrobotics.com"
-      },
-      "verified": {
-        "name": "Built Robotics",
-        "description": "A San Francisco-based startup that develops software and hardware to automate construction equipment, including an aftermarket kit called the Exosystem that adds autonomous robotic capabilities to heavy equipment through GPS, cameras, and artificial intelligence.",
-        "founders": [
-          "Noah Ready-Campbell",
-          "Andrew Liang"
-        ],
-        "location": "San Francisco, California",
-        "founded_year": 2016,
-        "current_stage": "Series C",
-        "total_raised": "$112M",
-        "valuation": null,
-        "investors": [
-          "Tiger Global",
-          "Next47",
-          "NEA",
-          "Founders Fund",
-          "Building Ventures",
-          "Presidio Ventures",
-          "Lemnos"
-        ],
-        "website": "https://builtrobotics.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            2
-          ]
-        },
-        "notes": "Wikipedia states total raised is $112M across Series A, B, and C. Database entry lists $137M which cannot be verified from these sources. Company acquired Roin Technologies in 2023."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://builtrobotics.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://builtrobotics.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Built_Robotics"
-        }
-      ],
-      "notes": "Wikipedia states total raised is $112M across Series A, B, and C. Database entry lists $137M which cannot be verified from these sources. Company acquired Roin Technologies in 2023."
-    },
-    {
-      "name": "Cerebras",
-      "current": {
-        "name": "Cerebras",
-        "founder": "Andrew Feldman, Gary Lauterbach, Michael James, Sean Lie, Jean-Philippe Fricker",
-        "location": "Sunnyvale, CA",
-        "founded": 2015,
-        "fundingStage": "Pre-IPO",
-        "totalRaised": "$1.1B+",
-        "website": "https://cerebras.ai"
-      },
-      "verified": {
-        "name": "Cerebras",
-        "description": "American semiconductor company that builds wafer-scale AI chips and systems for AI training and inference. The company's Wafer Scale Engine (WSE) is a single integrated processor that combines compute, memory and interconnect fabric.",
-        "founders": [
-          "Andrew Feldman",
-          "Gary Lauterbach",
-          "Michael James",
-          "Sean Lie",
-          "Jean-Philippe Fricker"
-        ],
-        "location": "Sunnyvale, California",
-        "founded_year": 2015,
-        "current_stage": "Pre-IPO",
-        "total_raised": "$1.1B",
-        "valuation": "$8.1B",
-        "investors": [
-          "Sam Altman",
-          "Andy Bechtolsheim",
-          "Greg Brockman",
-          "Adam D'Angelo",
-          "Mark Leslie",
-          "Nick McKeown",
-          "David Perlmutter",
-          "Saiyed Atiq Raza",
-          "Jeff Rothschild",
-          "Pradeep Sindhu",
-          "Ilya Sutskever",
-          "Lip-Bu Tan",
-          "Fred Weber"
-        ],
-        "website": "https://cerebras.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            0,
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company filed for IPO in September 2024, withdrew registration in October 2025, and filed again for IPO on Nasdaq in April 2026 at $26.6B valuation. Series G funding of $1.1B in September 2025 valued company at $8.1B. In January 2026, signed $10B+ deal with OpenAI through 2028."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Sunnyvale, CA",
-          "verified": "Sunnyvale, California",
-          "sources": [
-            0,
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://cerebras.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://cerebras.ai/company"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cerebras"
-        }
-      ],
-      "notes": "Company filed for IPO in September 2024, withdrew registration in October 2025, and filed again for IPO on Nasdaq in April 2026 at $26.6B valuation. Series G funding of $1.1B in September 2025 valued company at $8.1B. In January 2026, signed $10B+ deal with OpenAI through 2028."
-    },
-    {
-      "name": "Cohere",
-      "current": {
-        "name": "Cohere",
-        "founder": "Aidan Gomez, Ivan Zhang, Nick Frosst",
-        "location": "Toronto, Canada",
-        "founded": 2019,
-        "fundingStage": "Series D",
-        "totalRaised": "$1.6B",
-        "website": "https://cohere.com"
-      },
-      "verified": {
-        "name": "Cohere",
-        "description": "Canadian artificial intelligence company specializing in large language models and AI products for regulated industries including finance, healthcare, manufacturing, energy, and public sector. Founded in 2019 by Google Brain researchers including a co-author of the transformer architecture paper.",
-        "founders": [
-          "Aidan Gomez",
-          "Ivan Zhang",
-          "Nick Frosst"
-        ],
-        "location": "Toronto, Ontario, Canada",
-        "founded_year": 2019,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Index Ventures",
-          "Radical Ventures",
-          "Section 32",
-          "Geoffrey Hinton",
-          "Fei-Fei Li",
-          "Pieter Abbeel",
-          "Raquel Urtasun",
-          "Tiger Global"
-        ],
-        "website": "https://cohere.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "investors": [
-            2
-          ]
-        },
-        "notes": "Wikipedia source mentions Series A ($40M, September 2021), Series B ($125M, February 2022), and Series C ($270M, June 2023) but the article text is truncated. In April 2026, Cohere agreed to acquire Aleph Alpha. Source [1] states 'nearly $1 billion' raised across four major rounds (Series A through D) between 2021-2024, but exact total and current stage cannot be verified with precision. Current stage is listed as private but not formally stated as Series D or other specific round in complete sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Toronto, Canada",
-          "verified": "Toronto, Ontario, Canada",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://cohere.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://cohere.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cohere"
-        }
-      ],
-      "notes": "Wikipedia source mentions Series A ($40M, September 2021), Series B ($125M, February 2022), and Series C ($270M, June 2023) but the article text is truncated. In April 2026, Cohere agreed to acquire Aleph Alpha. Source [1] states 'nearly $1 billion' raised across four major rounds (Series A through D) between 2021-2024, but exact total and current stage cannot be verified with precision. Current stage is listed as private but not formally stated as Series D or other specific round in complete sources."
-    },
-    {
-      "name": "Dexterity",
-      "current": {
-        "name": "Dexterity",
-        "founder": "Samir Menon, Robert Sun, Kevin Chavez, Ben Varkey Benjamin, Talbot Morris-Downing, Cuthbert Sun",
-        "location": "Redwood City, CA",
-        "founded": 2017,
-        "fundingStage": "Series B",
-        "totalRaised": "$291M",
-        "website": "https://dexterity.com"
-      },
-      "verified": {
-        "name": "Dexterity",
-        "description": "AI-powered robotics company that develops physical AI systems for autonomous handling and logistics operations. The company's AI systems give robots human-like dexterity to operate in unstructured physical environments.",
-        "founders": [
-          "Samir Menon",
-          "Robert Sun",
-          "Kevin Chavez",
-          "Ben Varkey Benjamin",
-          "Talbot Morris-Downing",
-          "Cuthbert Sun"
-        ],
-        "location": "Redwood City, California",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://dexterity.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [2] is Wikipedia article on 'Fine motor skill' and is not relevant to the company Dexterity. Company has reached 100 million autonomous in-production actions as of 2025 according to source [1]. Current stage, total raised, valuation, and specific investor names could not be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Redwood City, CA",
-          "verified": "Redwood City, California",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://dexterity.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://dexterity.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dexterity"
-        }
-      ],
-      "notes": "Source [2] is Wikipedia article on 'Fine motor skill' and is not relevant to the company Dexterity. Company has reached 100 million autonomous in-production actions as of 2025 according to source [1]. Current stage, total raised, valuation, and specific investor names could not be verified from provided sources."
+      "notes": "Series D closed November 13, 2025 for $2.3B at $29.3B valuation. Company surpassed $1B ARR by November 2025. Co-founder Arvid Lunnemark departed in October 2025. As of April 2026, xAI announced an acquisition deal for $60B pending later in 2026."
     },
     {
       "name": "Dhruva Space",
       "current": {
         "name": "Dhruva Space",
-        "founder": "Sanjay Srikanth Nekkanti",
-        "location": "Hyderabad, India",
+        "founder": "Sanjay Srikanth Nekkanti, Krishna Teja Penamakuru, Abhay Egoor, Chaitanya Dora Surapureddy",
+        "location": "Hyderabad, Telangana, India",
         "founded": 2012,
         "fundingStage": "Series B",
         "totalRaised": "Undisclosed",
@@ -1216,7 +197,7 @@
       },
       "verified": {
         "name": "Dhruva Space",
-        "description": "Indian private aerospace manufacturer offering full-stack space engineering solutions including small satellites, ground stations, and launch services.",
+        "description": "Indian private aerospace manufacturer engaged in development and deployment of small satellites, ground stations, and launch services for commercial, governmental and academic markets.",
         "founders": [
           "Sanjay Srikanth Nekkanti",
           "Krishna Teja Penamakuru",
@@ -1226,7 +207,7 @@
         "location": "Hyderabad, Telangana, India",
         "founded_year": 2012,
         "current_stage": null,
-        "total_raised": null,
+        "total_raised": "\u20b927 crore",
         "valuation": null,
         "investors": [
           "Mumbai Angels Network",
@@ -1241,8 +222,6 @@
             2
           ],
           "description": [
-            0,
-            1,
             2
           ],
           "founders": [
@@ -1250,11 +229,15 @@
             2
           ],
           "location": [
+            0,
             1,
             2
           ],
           "founded_year": [
             1,
+            2
+          ],
+          "total_raised": [
             2
           ],
           "investors": [
@@ -1266,24 +249,14 @@
             2
           ]
         },
-        "notes": "Source [1] lists four co-founders in leadership roles (CEO, COO, CTO, CFO), but Source [2] Wikipedia identifies only Sanjay Srikanth Nekkanti as founder. Source [2] indicates approximately 130 employees. Company has offices in Hyderabad, India and Graz, Austria. Facility details differ between sources: Source [1] mentions 28,000 sq ft current + planned 280,000 sq ft; Source [2] mentions 22,000 sq ft current facility. Total funding amount cannot be verified as specific figure\u2014only individual rounds cited (\u20b95 crore Dec 2019, \u20b922 crore Oct 2021) without confirmation these represent total."
+        "notes": "Total raised calculated from two disclosed funding rounds: \u20b95 crore in December 2019 (Source 2) and \u20b922 crore in October 2021 (Source 2). Current stage not specified in sources. Wikipedia lists approximately 130 employees; company website states team has more than 200 members."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "Sanjay Srikanth Nekkanti",
-          "verified": "Sanjay Srikanth Nekkanti, Krishna Teja Penamakuru, Abhay Egoor, Chaitanya Dora Surapureddy",
+          "field": "totalRaised",
+          "current": "Undisclosed",
+          "verified": "\u20b927 crore",
           "sources": [
-            1,
-            2
-          ]
-        },
-        {
-          "field": "location",
-          "current": "Hyderabad, India",
-          "verified": "Hyderabad, Telangana, India",
-          "sources": [
-            1,
             2
           ]
         }
@@ -1305,7 +278,7 @@
           "url": "https://en.wikipedia.org/wiki/Dhruva_Space"
         }
       ],
-      "notes": "Source [1] lists four co-founders in leadership roles (CEO, COO, CTO, CFO), but Source [2] Wikipedia identifies only Sanjay Srikanth Nekkanti as founder. Source [2] indicates approximately 130 employees. Company has offices in Hyderabad, India and Graz, Austria. Facility details differ between sources: Source [1] mentions 28,000 sq ft current + planned 280,000 sq ft; Source [2] mentions 22,000 sq ft current facility. Total funding amount cannot be verified as specific figure\u2014only individual rounds cited (\u20b95 crore Dec 2019, \u20b922 crore Oct 2021) without confirmation these represent total."
+      "notes": "Total raised calculated from two disclosed funding rounds: \u20b95 crore in December 2019 (Source 2) and \u20b922 crore in October 2021 (Source 2). Current stage not specified in sources. Wikipedia lists approximately 130 employees; company website states team has more than 200 members."
     },
     {
       "name": "Electra",
@@ -1337,7 +310,7 @@
             0
           ]
         },
-        "notes": "Sources [0] and [1] describe Electra as a company making induction stoves with battery backup, not a steelmaking company. The database entry describes a different company (refining iron ore into steel) than what appears in the provided sources. Source [2] is Wikipedia about Greek mythology and is not relevant. No founder names, founding year, funding stage, or funding amounts are mentioned in the relevant sources [0] and [1]."
+        "notes": "The sources provided describe a company called Electra that manufactures 120V induction stoves with integrated batteries, NOT a steel decarbonization company using electrochemistry. The database entry describes an entirely different company with the same name. Sources [0] and [1] are for Electra Research Inc., a kitchen appliance manufacturer located in Brooklyn, NY (35 Meadow St. Ste 313, Brooklyn, NY 11206). Source [2] is Wikipedia's article on Electra from Greek mythology and is not relevant. No founders are named in sources [0] or [1]. No founding year, funding stage, total raised, valuation, or investors are mentioned in the provided sources."
       },
       "changes": [
         {
@@ -1374,114 +347,7 @@
           "url": "https://en.wikipedia.org/wiki/Electra"
         }
       ],
-      "notes": "Sources [0] and [1] describe Electra as a company making induction stoves with battery backup, not a steelmaking company. The database entry describes a different company (refining iron ore into steel) than what appears in the provided sources. Source [2] is Wikipedia about Greek mythology and is not relevant. No founder names, founding year, funding stage, or funding amounts are mentioned in the relevant sources [0] and [1]."
-    },
-    {
-      "name": "ElevenLabs",
-      "current": {
-        "name": "ElevenLabs",
-        "founder": "Piotr D\u0105bkowski, Mati Staniszewski",
-        "location": "London, UK",
-        "founded": 2022,
-        "fundingStage": "Series D",
-        "totalRaised": "$500M",
-        "website": "https://elevenlabs.io"
-      },
-      "verified": {
-        "name": "ElevenLabs",
-        "description": "AI research and product company specializing in natural-sounding speech synthesis software using deep learning. Develops platforms for voice agents, creative content generation, and AI audio APIs across 70+ languages.",
-        "founders": [
-          "Piotr D\u0105bkowski",
-          "Mati Staniszewski"
-        ],
-        "location": "London, UK",
-        "founded_year": 2022,
-        "current_stage": "Pre-IPO",
-        "total_raised": "$500M",
-        "valuation": "$11B",
-        "investors": [
-          "Andreessen Horowitz",
-          "ICONIQ Growth",
-          "Sequoia Capital",
-          "NEA",
-          "World Innovation Lab",
-          "Valor",
-          "Endeavor Catalyst Fund",
-          "Lunate",
-          "Deutsche Telekom",
-          "LG Technology Ventures",
-          "BlackRock",
-          "NVIDIA",
-          "HubSpot Ventures",
-          "NTT DOCOMO Ventures",
-          "RingCentral Ventures"
-        ],
-        "website": "https://elevenlabs.io",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "On February 4, 2026, ElevenLabs raised $500M at an $11B valuation and is eyeing a potential IPO (source 2). Company reached $500M ARR as of May 5, 2026 (source 1). CEO is Mati Staniszewski; CTO is Piotr D\u0105bkowski (source 2)."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series D",
-          "verified": "Pre-IPO",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://elevenlabs.io"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://elevenlabs.io/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/ElevenLabs"
-        }
-      ],
-      "notes": "On February 4, 2026, ElevenLabs raised $500M at an $11B valuation and is eyeing a potential IPO (source 2). Company reached $500M ARR as of May 5, 2026 (source 1). CEO is Mati Staniszewski; CTO is Piotr D\u0105bkowski (source 2)."
+      "notes": "The sources provided describe a company called Electra that manufactures 120V induction stoves with integrated batteries, NOT a steel decarbonization company using electrochemistry. The database entry describes an entirely different company with the same name. Sources [0] and [1] are for Electra Research Inc., a kitchen appliance manufacturer located in Brooklyn, NY (35 Meadow St. Ste 313, Brooklyn, NY 11206). Source [2] is Wikipedia's article on Electra from Greek mythology and is not relevant. No founders are named in sources [0] or [1]. No founding year, funding stage, total raised, valuation, or investors are mentioned in the provided sources."
     }
   ],
   "unverifiable": [

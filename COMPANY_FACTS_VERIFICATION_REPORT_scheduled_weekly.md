@@ -1,127 +1,43 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-11T10:34:58+00:00  
+**Generated:** 2026-05-18T11:03:34+00:00  
 
 **Cohort:** `data/cohort_companies_weekly.json`  
 
 **Cohort size:** 89 companies  
 
-**New Claude extractions this run:** 50  
+**New Claude extractions this run:** 49  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 58 | 65% |
-| 🔧 Changes proposed | 16 | 18% |
+| ✅ Cleared (data matches sources) | 71 | 80% |
+| 🔧 Changes proposed | 3 | 3% |
 | ❓ Unverifiable | 15 | 17% |
 
 ---
 
-## 🔧 Proposed Changes (16 companies)
+## 🔧 Proposed Changes (3 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### 1X Technologies
+### Anysphere
 
-- **`location`:** `Palo Alto, CA` → `Palo Alto, California`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
+- **`fundingStage`:** `Private` → `Series D`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Anysphere)
+- **`totalRaised`:** `$3.2B+` → `$3.4B+`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Anysphere)
 
-  **Notes:** Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M.
-
-### Anduril Industries
-
-- **`location`:** `Costa Mesa, CA` → `Costa Mesa, California, U.S.`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Anduril_Industries)
-
-  **Notes:** Source [0] (company website) is a placeholder/under construction and contains no verifiable information. All verified facts extracted from Wikipedia [1]. Current stage could not be verified from provided sources - database entry lists 'SPAC' but this is not mentioned in sources. Total raised and current valuation could not be verified as most recent figures in sources.
-
-### Apis Cor
-
-- **`website`:** `*(empty)*` → `https://apiscor.com`  
-  Sources: [company_website](https://apiscor.com)
-
-  **Notes:** Source [0] is for a managed IT services company (Apiscor, Inc.) based in Georgia (phone 770 area code), NOT the 3D construction printing company described in the database entry. No sources provided verify the existence of 'Apis Cor' the construction 3D printing company with founder Nikita Cheniuntai, Mars habitat prototype, or any of the attributes in the current database entry. The sources do not match the company being researched.
-
-### Applied Intuition
-
-- **`location`:** `Sunnyvale, CA` → `Sunnyvale, California`  
-  Sources: [company_about](https://appliedintuition.com/about)
-
-  **Notes:** Founded January 2017. Series F funding of $600M announced June 2025, co-led by BlackRock-managed funds and Kleiner Perkins, raising valuation to $15B from previous $6B in 2024. Employs approximately 1,300 people as of 2025.
-
-### Asimov
-
-- **`founder`:** `Alec Nielsen, Chris Voigt, Douglas Densmore, Raja Srinivas` → `Chris Voigt, Doug Densmore, Alec Nielsen, Raja Srinivas`  
-  Sources: [company_about](https://asimov.com/about)
-
-  **Notes:** Source [2] is about Isaac Asimov (the writer/biochemist, 1920-1992) and is not relevant to the company. Company founding details confirmed in source [1]: 'In 2017, Chris, Doug, Alec, and Raja Srinivas founded Asimov, receiving early backing from Andreessen Horowitz and DARPA.' Co-founders' roots traced to Chris Voigt (MIT) and Doug Densmore (Boston University) labs, with Alec Nielsen joining as PhD student.
-
-### Astranis
-
-- **`location`:** `San Francisco, California, U.S.` → `San Francisco, California`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Astranis)
-
-  **Notes:** Founded October 20, 2015. Part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of Wikipedia source, company is private with 250+ employees (2023). Current stage not explicitly stated in sources.
-
-### Baykar
-
-- **`location`:** `Istanbul, Türkiye` → `Istanbul, Turkey`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Baykar)
-
-  **Notes:** Source [1] lists founding year as 1986, but Source [2] (Wikipedia) and company materials reference 1984 as the founding year of Baykar Makina. Wikipedia states company was founded in 1984. Piaggio Aerospace acquisition completed December 27, 2024 per Wikipedia [2]. Leonardo cooperation agreement signed March 6, 2025 per Wikipedia [2].
-
-### Bedrock Robotics
-
-- **`totalRaised`:** `$350M+` → `$270M`  
-  Sources: [company_about](https://bedrockrobotics.com/about)
-
-  **Notes:** Founder names not explicitly listed in sources provided. Database entry mentions 'Boris Sofman' as founder but this is not verified in the provided sources. Series B funding of $270M mentioned in NYT reference in source [1]. Database entry claims $350M+ total raised and $1.75B valuation but these figures are not found in provided sources.
-
-### Boom Supersonic
-
-- **`location`:** `Denver, CO` → `Denver, Colorado`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Boom_Supersonic)
-
-  **Notes:** XB-1 became first privately funded aircraft to break the sound barrier on January 28, 2025, reaching Mach 1.122. Company has 130 orders/pre-orders from United Airlines, American Airlines, and Japan Airlines for Overture. Headquarters listed as Centennial, Colorado in Wikipedia; company founded in Denver, Colorado in 2014.
-
-### Built Robotics
-
-- **`location`:** `San Francisco, CA` → `San Francisco, California`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Built_Robotics)
-
-  **Notes:** Wikipedia states total raised is $112M across Series A, B, and C. Database entry lists $137M which cannot be verified from these sources. Company acquired Roin Technologies in 2023.
-
-### Cerebras
-
-- **`location`:** `Sunnyvale, CA` → `Sunnyvale, California`  
-  Sources: [company_website](https://cerebras.ai) · [company_about](https://cerebras.ai/company) · [wikipedia](https://en.wikipedia.org/wiki/Cerebras)
-
-  **Notes:** Company filed for IPO in September 2024, withdrew registration in October 2025, and filed again for IPO on Nasdaq in April 2026 at $26.6B valuation. Series G funding of $1.1B in September 2025 valued company at $8.1B. In January 2026, signed $10B+ deal with OpenAI through 2028.
-
-### Cohere
-
-- **`location`:** `Toronto, Canada` → `Toronto, Ontario, Canada`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Cohere)
-
-  **Notes:** Wikipedia source mentions Series A ($40M, September 2021), Series B ($125M, February 2022), and Series C ($270M, June 2023) but the article text is truncated. In April 2026, Cohere agreed to acquire Aleph Alpha. Source [1] states 'nearly $1 billion' raised across four major rounds (Series A through D) between 2021-2024, but exact total and current stage cannot be verified with precision. Current stage is listed as private but not formally stated as Series D or other specific round in complete sources.
-
-### Dexterity
-
-- **`location`:** `Redwood City, CA` → `Redwood City, California`  
-  Sources: [company_about](https://dexterity.com/about)
-
-  **Notes:** Source [2] is Wikipedia article on 'Fine motor skill' and is not relevant to the company Dexterity. Company has reached 100 million autonomous in-production actions as of 2025 according to source [1]. Current stage, total raised, valuation, and specific investor names could not be verified from provided sources.
+  **Notes:** Series D closed November 13, 2025 for $2.3B at $29.3B valuation. Company surpassed $1B ARR by November 2025. Co-founder Arvid Lunnemark departed in October 2025. As of April 2026, xAI announced an acquisition deal for $60B pending later in 2026.
 
 ### Dhruva Space
 
-- **`founder`:** `Sanjay Srikanth Nekkanti` → `Sanjay Srikanth Nekkanti, Krishna Teja Penamakuru, Abhay Ego`  
-  Sources: [company_about](https://dhruvaspace.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Dhruva_Space)
-- **`location`:** `Hyderabad, India` → `Hyderabad, Telangana, India`  
-  Sources: [company_about](https://dhruvaspace.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Dhruva_Space)
+- **`totalRaised`:** `Undisclosed` → `₹27 crore`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Dhruva_Space)
 
-  **Notes:** Source [1] lists four co-founders in leadership roles (CEO, COO, CTO, CFO), but Source [2] Wikipedia identifies only Sanjay Srikanth Nekkanti as founder. Source [2] indicates approximately 130 employees. Company has offices in Hyderabad, India and Graz, Austria. Facility details differ between sources: Source [1] mentions 28,000 sq ft current + planned 280,000 sq ft; Source [2] mentions 22,000 sq ft current facility. Total funding amount cannot be verified as specific figure—only individual rounds cited (₹5 crore Dec 2019, ₹22 crore Oct 2021) without confirmation these represent total.
+  **Notes:** Total raised calculated from two disclosed funding rounds: ₹5 crore in December 2019 (Source 2) and ₹22 crore in October 2021 (Source 2). Current stage not specified in sources. Wikipedia lists approximately 130 employees; company website states team has more than 200 members.
 
 ### Electra
 
@@ -130,14 +46,7 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`website`:** `*(empty)*` → `https://electra.com`  
   Sources: [company_website](https://electra.com)
 
-  **Notes:** Sources [0] and [1] describe Electra as a company making induction stoves with battery backup, not a steelmaking company. The database entry describes a different company (refining iron ore into steel) than what appears in the provided sources. Source [2] is Wikipedia about Greek mythology and is not relevant. No founder names, founding year, funding stage, or funding amounts are mentioned in the relevant sources [0] and [1].
-
-### ElevenLabs
-
-- **`fundingStage`:** `Series D` → `Pre-IPO`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/ElevenLabs)
-
-  **Notes:** On February 4, 2026, ElevenLabs raised $500M at an $11B valuation and is eyeing a potential IPO (source 2). Company reached $500M ARR as of May 5, 2026 (source 1). CEO is Mati Staniszewski; CTO is Piotr Dąbkowski (source 2).
+  **Notes:** The sources provided describe a company called Electra that manufactures 120V induction stoves with integrated batteries, NOT a steel decarbonization company using electrochemistry. The database entry describes an entirely different company with the same name. Sources [0] and [1] are for Electra Research Inc., a kitchen appliance manufacturer located in Brooklyn, NY (35 Meadow St. Ste 313, Brooklyn, NY 11206). Source [2] is Wikipedia's article on Electra from Greek mythology and is not relevant. No founders are named in sources [0] or [1]. No founding year, funding stage, total raised, valuation, or investors are mentioned in the provided sources.
 
 ---
 
@@ -163,12 +72,13 @@ Couldn't fetch authoritative sources. Per Stephen's rule, we leave these as-is r
 
 ---
 
-## ✅ Cleared (58 companies)
+## ✅ Cleared (71 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
+- 1X Technologies
 - ABL Bio
 - ADASI
 - AIR
@@ -182,26 +92,25 @@ Sample (first 30):
 - Allen Control Systems
 - Alpha School
 - Amber Bio
+- Anduril Industries
 - Anthropic
-- Anysphere
+- Apis Cor
+- Applied Intuition
 - Archer Materials
 - Ares Industries
 - Ark Robotics
 - Ascend Elements
+- Asimov
+- Astranis
 - Axelera AI
 - Axelspace
 - Ayar Labs
 - BRINC Drones
 - Basecamp Research
-- Bethlehem Steel Corp
-- Black Forest Labs
-- Blackshark.ai
-- Blykalla
-- BotBuilt
-- CORE POWER
-- *...and 28 more*
+- Baykar
+- *...and 41 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-11T10:34:58+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-18T11:03:34+00:00*
