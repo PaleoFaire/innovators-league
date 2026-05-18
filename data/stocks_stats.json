@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.76,
+      "avg_change": -2.85,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 13.66,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 2.94,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.95,
+      "avg_change": -5.03,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.3,
+      "avg_change": -21.14,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -20.16,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -27.78,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.37,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -19.28,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.84,
+      "avg_change": -5.31,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -2.23,
+      "avg_change": -6.58,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 4.78,
+      "avg_change": -0.73,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      29.99
+      "IDEAFORGE.NS",
+      "ideaForge",
+      11.62
     ],
     [
       "RKLB",
       "Rocket Lab",
-      18.3
+      9.63
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      16.98
+      "SATL",
+      "Satellogic",
+      4.94
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      4.6
     ],
     [
       "ALAB",
       "Astera Labs",
-      16.46
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      12.48
+      4.24
     ]
   ],
   "topLosers": [
     [
-      "TEM",
-      "Tempus AI",
-      -11.89
+      "SMR",
+      "NuScale Power",
+      -20.81
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -13.76
+      "RGTI",
+      "Rigetti Computing",
+      -20.82
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -13.83
+      "QBTS",
+      "D-Wave Quantum",
+      -22.31
     ],
     [
       "OKLO",
       "Oklo",
-      -14.15
+      -25.77
     ],
     [
       "LNZA",
       "LanzaTech",
-      -60.38
+      -60.48
     ]
   ],
-  "lastUpdated": "2026-05-18 10:13:12"
+  "lastUpdated": "2026-05-18 15:41:16"
 }
