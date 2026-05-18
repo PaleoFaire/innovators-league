@@ -47914,23 +47914,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-18 12:42
+// Last updated: 2026-05-18 16:31
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Tomorrow.io", headline: "Tomorrow.io adds $35 million to DeepSky funding round", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "funding", company: "Dust", headline: "Dust raises $40M Series B to build the 'multiplayer' operating system for enterprise AI", source: "Tech.eu", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "OpenAI", headline: "Why trust is a big question at the Elon Musk-OpenAI trial", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
-  { id: 8, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts", source: "TechCrunch", time: "2d ago", impact: "medium", unread: false },
-  { id: 13, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Rivian", headline: "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea", source: "CleanTechnica", time: "2d ago", impact: "medium", unread: false },
-  { id: 15, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "2d ago", impact: "high", unread: false },
+  { id: 1, type: "funding", company: "Dust", headline: "Sequoia backs AI agents scaleup Dust in $40m Series B", source: "Sifted", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Tomorrow.io", headline: "Tomorrow.io adds $35 million to DeepSky funding round", source: "SpaceNews", time: "4h ago", impact: "medium", unread: true },
+  { id: 4, type: "funding", company: "Dust", headline: "Dust raises $40M Series B to build the 'multiplayer' operating system for enterprise AI", source: "Tech.eu", time: "4h ago", impact: "high", unread: true },
+  { id: 5, type: "hire", company: "OpenAI", headline: "Why trust is a big question at the Elon Musk-OpenAI trial", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "OpenAI", headline: "OpenAI co-founder Greg Brockman takes charge of product strategy", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Cerebras", headline: "$60B AI chip darling Cerebras almost died early on, burning $8M a month", source: "TechCrunch", time: "2d ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX launches CRS-34 cargo mission to ISS", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
+  { id: 9, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shake-Up", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Destinus", headline: "Dutch dronemaker Destinus in '200m funding talks, reports say", source: "Sifted", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Rivian", headline: "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clea", source: "CleanTechnica", time: "3d ago", impact: "medium", unread: false },
+  { id: 15, type: "ipo", company: "Waymo", headline: "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives", source: "Electrek", time: "3d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
