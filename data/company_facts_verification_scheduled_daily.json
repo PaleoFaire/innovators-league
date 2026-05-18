@@ -1,31 +1,27 @@
 {
-  "generatedAt": "2026-05-17T08:13:20+00:00",
+  "generatedAt": "2026-05-18T09:40:14+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 23,
-  "newExtractionsThisRun": 22,
+  "cohortSize": 19,
+  "newExtractionsThisRun": 18,
   "summary": {
-    "cleared": 19,
+    "cleared": 15,
     "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
-    "AST SpaceMobile",
     "Anthropic",
     "Astro Mechanica",
     "Axiom Space",
     "Cerebras",
     "Destinus",
     "Deterrence",
-    "Fractile",
     "Galvanick",
     "Hidden Level",
     "IonQ",
     "Pivotal",
     "Quantinuum",
     "Rivian",
-    "Runway",
-    "Terrestrial Energy",
     "Vast",
     "Waymo",
     "xAI"
@@ -44,7 +40,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems using horizontal drilling techniques. Fervo develops next-generation geothermal projects including Project Red and Cape Station.",
+        "description": "Geothermal company generating electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas. Operates Project Red demonstration plant and developing Cape Station multi-phased geothermal development.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -52,7 +48,7 @@
         "location": "Houston, Texas, U.S.",
         "founded_year": 2017,
         "current_stage": "Public",
-        "total_raised": "$1.5B+",
+        "total_raised": "$1.89B",
         "valuation": null,
         "investors": [
           "B Capital",
@@ -83,7 +79,7 @@
             0
           ],
           "total_raised": [
-            2
+            0
           ],
           "investors": [
             2
@@ -93,13 +89,21 @@
             2
           ]
         },
-        "notes": "IPO announced and priced in May 2026 (source 0 newsroom section). Wikipedia entry notes company type as 'Private' but website shows multiple IPO announcements from May 2026. Most recent funding round was $462 million Series E in November 2025 led by B Capital (source 2)."
+        "notes": "Company went public via IPO on May 17, 2026, raising $1.89B. Wikipedia article notes undisclosed paid content concerns and press release-like writing. Previous Series E funding of $462M in November 2025 led by B Capital."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "IPO",
           "verified": "Public",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$1.5B+",
+          "verified": "$1.89B",
           "sources": [
             0
           ]
@@ -137,7 +141,7 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "IPO announced and priced in May 2026 (source 0 newsroom section). Wikipedia entry notes company type as 'Private' but website shows multiple IPO announcements from May 2026. Most recent funding round was $462 million Series E in November 2025 led by B Capital (source 2)."
+      "notes": "Company went public via IPO on May 17, 2026, raising $1.89B. Wikipedia article notes undisclosed paid content concerns and press release-like writing. Previous Series E funding of $462M in November 2025 led by B Capital."
     },
     {
       "name": "Nuro",
@@ -152,7 +156,7 @@
       },
       "verified": {
         "name": "Nuro",
-        "description": "Autonomous vehicle technology company that develops Level 4 self-driving systems. Founded by engineers from Google's self-driving program, Nuro pivoted in September 2024 from custom delivery vehicles to licensing its Nuro Driver autonomy platform to automakers and mobility providers.",
+        "description": "Autonomous vehicle technology company that develops Level 4 self-driving systems. Founded by ex-Google/Waymo engineers, Nuro initially built custom autonomous delivery vehicles and shifted to licensing its Nuro Driver autonomy platform to automakers and mobility providers in September 2024.",
         "founders": [
           "Jiajun Zhu",
           "Dave Ferguson"
@@ -160,7 +164,7 @@
         "location": "Mountain View, California",
         "founded_year": 2016,
         "current_stage": "Series E",
-        "total_raised": "$2.84B+",
+        "total_raised": "$203M",
         "valuation": "$6B",
         "investors": [
           "Greylock Partners",
@@ -204,20 +208,31 @@
             2
           ],
           "investors": [
+            0,
+            1,
             2
           ],
           "website": [
             0,
-            1
+            1,
+            2
           ]
         },
-        "notes": "Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding rounds: $106M opened April 2025, $97M closed August 2025, $203M raised August 2025 at $6B valuation. Partnership with Uber and Lucid Motors to deploy 20,000+ robotaxis."
+        "notes": "Series E closed in August 2025 with $203M at $6B valuation. Company pivoted from autonomous delivery vehicles to licensing Nuro Driver L4 autonomy platform in September 2024. Partnership established July 2025 with Uber and Lucid Motors for 20,000+ robotaxi deployment beginning 2026."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series G",
           "verified": "Series E",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$2.84B",
+          "verified": "$203M",
           "sources": [
             2
           ]
@@ -250,7 +265,7 @@
           "url": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
         }
       ],
-      "notes": "Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology in September 2024. Series E funding rounds: $106M opened April 2025, $97M closed August 2025, $203M raised August 2025 at $6B valuation. Partnership with Uber and Lucid Motors to deploy 20,000+ robotaxis."
+      "notes": "Series E closed in August 2025 with $203M at $6B valuation. Company pivoted from autonomous delivery vehicles to licensing Nuro Driver L4 autonomy platform in September 2024. Partnership established July 2025 with Uber and Lucid Motors for 20,000+ robotaxi deployment beginning 2026."
     },
     {
       "name": "OpenAI",
@@ -265,7 +280,7 @@
       },
       "verified": {
         "name": "OpenAI",
-        "description": "American artificial intelligence research organization that developed the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models. OpenAI released ChatGPT in November 2022, which catalyzed widespread interest in generative AI.",
+        "description": "American artificial intelligence research organization that developed the GPT family of large language models, DALL-E series of text-to-image models, and Sora series of text-to-video models. Released ChatGPT in November 2022.",
         "founders": [
           "Elon Musk",
           "Sam Altman",
@@ -325,7 +340,7 @@
             0
           ]
         },
-        "notes": "Founded December 8, 2015 as nonprofit; transitioned to for-profit capped entity in 2019. In October 2025, conducted $6.6 billion share sale that valued company at $500 billion (most recent valuation per source 0). Wikipedia lists 11 founders including Elon Musk; database entry listed only 3. Initial capital pledges of $1 billion significantly lagged actual collection ($133.2 million by 2021)."
+        "notes": "Valuation updated to $500B based on October 2025 share sale ($6.6 billion) per source 0. Company transitioned from nonprofit (founded 2015) to for-profit capped entity (2019) to PBC (2025). Elon Musk listed as founder though he is no longer involved with the company."
       },
       "changes": [
         {
@@ -346,20 +361,20 @@
         {
           "idx": 1,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/"
+          "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/"
         },
         {
           "idx": 2,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/"
         },
         {
           "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/"
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/"
         }
       ],
-      "notes": "Founded December 8, 2015 as nonprofit; transitioned to for-profit capped entity in 2019. In October 2025, conducted $6.6 billion share sale that valued company at $500 billion (most recent valuation per source 0). Wikipedia lists 11 founders including Elon Musk; database entry listed only 3. Initial capital pledges of $1 billion significantly lagged actual collection ($133.2 million by 2021)."
+      "notes": "Valuation updated to $500B based on October 2025 share sale ($6.6 billion) per source 0. Company transitioned from nonprofit (founded 2015) to for-profit capped entity (2019) to PBC (2025). Elon Musk listed as founder though he is no longer involved with the company."
     },
     {
       "name": "SpaceX",
@@ -374,7 +389,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company that designs and manufactures rockets, spacecraft, and satellite constellations. Founded by Elon Musk in 2002 with the goal of decreasing space launch costs and enabling human settlement on Mars.",
+        "description": "American aerospace and artificial intelligence company that develops reusable launch vehicles, spacecraft, and satellite constellations. Founded by Elon Musk in 2002, SpaceX operates more orbital launches annually than any other launch provider.",
         "founders": [
           "Elon Musk"
         ],
@@ -411,7 +426,7 @@
             1
           ]
         },
-        "notes": "Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes 'a 2025 offer to buy internal shares valued SpaceX at $800 billion'. Database entry claimed IPO at $1.5T valuation and Series G stage, but sources do not support these claims. Source [0] is a domain parking page and provides no company information. Total funding amount cannot be verified from provided sources."
+        "notes": "Source [1] indicates SpaceX is expected to have an IPO in 2026 and states the 2025 offer to buy internal shares valued SpaceX at $800 billion. Source [0] is a domain sales page and not a reliable company source. Source [2] and [3] are news articles with incomplete content. Source [4] is a SEC Form D filing with minimal information."
       },
       "changes": [
         {
@@ -436,21 +451,21 @@
         },
         {
           "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-launches-crs-34-cargo-mission-to-iss/"
-        },
-        {
-          "idx": 3,
           "src": "news (NASA Breaking News)",
           "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/"
         },
         {
+          "idx": 3,
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/space/2026/05/spacex-completes-fueling-test-setting-stage-for-first-launch-of-starship-v3/"
+        },
+        {
           "idx": 4,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-sets-date-for-first-starship-version-3-launch/"
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133025&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes 'a 2025 offer to buy internal shares valued SpaceX at $800 billion'. Database entry claimed IPO at $1.5T valuation and Series G stage, but sources do not support these claims. Source [0] is a domain parking page and provides no company information. Total funding amount cannot be verified from provided sources."
+      "notes": "Source [1] indicates SpaceX is expected to have an IPO in 2026 and states the 2025 offer to buy internal shares valued SpaceX at $800 billion. Source [0] is a domain sales page and not a reliable company source. Source [2] and [3] are news articles with incomplete content. Source [4] is a SEC Form D filing with minimal information."
     }
   ],
   "unverifiable": []
