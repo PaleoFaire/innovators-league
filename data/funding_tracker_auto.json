@@ -42,16 +42,17 @@
   },
   {
     "company": "Cohere",
-    "totalRaised": "$12.6B+",
-    "totalRaisedRaw": 12640.0,
+    "totalRaised": "$12.7B+",
+    "totalRaisedRaw": 12680.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$1B",
     "lastRoundDate": "2026-05",
     "valuation": "",
     "leadInvestors": [
-      "Undisclosed"
+      "Undisclosed",
+      "Sequoia"
     ],
-    "roundCount": 4
+    "roundCount": 5
   },
   {
     "company": "Durin",
@@ -620,6 +621,20 @@
     "roundCount": 1
   },
   {
+    "company": "Scale AI",
+    "totalRaised": "$551M+",
+    "totalRaisedRaw": 551.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$18B",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Sequoia"
+    ],
+    "roundCount": 5
+  },
+  {
     "company": "ElevenLabs",
     "totalRaised": "$550M+",
     "totalRaisedRaw": 550.0,
@@ -642,19 +657,6 @@
     "valuation": "$1.35B",
     "leadInvestors": [],
     "roundCount": 1
-  },
-  {
-    "company": "Scale AI",
-    "totalRaised": "$511M+",
-    "totalRaisedRaw": 511.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$18B",
-    "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 4
   },
   {
     "company": "Axiom Space",
@@ -1206,6 +1208,20 @@
     "roundCount": 1
   },
   {
+    "company": "Rebellion Defense",
+    "totalRaised": "$40M+",
+    "totalRaisedRaw": 40.2,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$35M",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Accel",
+      "Undisclosed"
+    ],
+    "roundCount": 3
+  },
+  {
     "company": "Rivian",
     "totalRaised": "$40M+",
     "totalRaisedRaw": 40.0,
@@ -1400,19 +1416,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Rebellion Defense",
-    "totalRaised": "$5M+",
-    "totalRaisedRaw": 5.2,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$75B",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
   },
   {
     "company": "Sakana AI",

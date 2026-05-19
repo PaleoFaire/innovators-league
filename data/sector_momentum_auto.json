@@ -4,9 +4,9 @@
     "momentum": 62,
     "trend": "steady",
     "catalysts": [
-      "SpaceX launches CRS-34 cargo mission to ISS",
-      "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission t",
-      "Rivian opens R2 configurator: here are all the options and p"
+      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero",
+      "OSHA probing worker death at SpaceX&#8217;s Starbase site",
+      "Four NASA payloads to fly on Astrolab\u2019s first lunar rover"
     ],
     "fundingQ": "$2.2B",
     "components": {
@@ -15,16 +15,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "AI & Software",
     "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Why trust is a big question at the Elon Musk-OpenAI trial",
-      "OpenAI co-founder Greg Brockman takes charge of product stra",
-      "$60B AI chip darling Cerebras almost died early on, burning"
+      "Here\u2019s why Elon Musk lost his suit against OpenAI",
+      "Anthropic has acquired the dev tools startup used by OpenAI,",
+      "Elon Musk Loses Landmark Lawsuit Against OpenAI"
     ],
     "fundingQ": "$2218.7B",
     "components": {
@@ -33,29 +33,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-18"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 54,
-    "trend": "steady",
-    "catalysts": [
-      "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win",
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
-      "Fervo Energy unveils new power plant details in IPO filing"
-    ],
-    "fundingQ": "$1.3B",
-    "components": {
-      "funding": 84,
-      "news": 20,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 51,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
       "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
@@ -65,11 +47,28 @@
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$32.5B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 37
+    },
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -85,7 +84,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,45 +100,47 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-18"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 41,
-    "trend": "steady",
-    "catalysts": [
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$32.5B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 22
-    },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 33,
+    "momentum": 34,
     "trend": "steady",
     "catalysts": [
+      "X-energy gets federal environmental approval for Texas nucle",
       "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
-      "Anthropic&#8217;s Nuclear Bomb",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
+      "Anthropic&#8217;s Nuclear Bomb"
     ],
     "fundingQ": "$800M",
     "components": {
       "funding": 83,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 34,
+    "trend": "steady",
+    "catalysts": [
+      "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win",
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
+      "Fervo Energy unveils new power plant details in IPO filing"
+    ],
+    "fundingQ": "$1.3B",
+    "components": {
+      "funding": 84,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 31,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
       "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
@@ -149,73 +150,37 @@
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-18"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 23,
-    "trend": "declining",
-    "catalysts": [
-      "$60B AI chip darling Cerebras almost died early on, burning",
-      "Cerebras Shares Soar In First Day On Nasdaq",
-      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 98
-    },
-    "lastUpdated": "2026-05-18"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
-      "Waymo recalls 3,791 robotaxis over flooded road incident, de",
-      "Nuro secures California driverless permit for Lucid Gravity"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 14,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
-      "Cerebras Shares Soar In First Day On Nasdaq",
-      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
+      "Here\u2019s why Elon Musk lost his suit against OpenAI",
+      "X-energy gets federal environmental approval for Texas nucle",
+      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   },
   {
-    "sector": "Infrastructure & Logistics",
+    "sector": "Housing & Construction",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
-      "Anthropic&#8217;s Nuclear Bomb"
+      "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
+      "Waymo recalls 3,791 robotaxis over flooded road incident, de"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -224,7 +189,40 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic&#8217;s Nuclear Bomb"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-19"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Cerebras Shares Soar In First Day On Nasdaq",
+      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 40
+    },
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Transportation",
@@ -240,17 +238,17 @@
       "funding": 7,
       "news": 25,
       "hiring": 0,
-      "market": 2
+      "market": 0
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Biotech & Health",
     "momentum": 7,
     "trend": "declining",
     "catalysts": [
+      "Tomorrow.io adds $35 million to DeepSky funding round",
       "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
-      "SpaceX sets date for first Starship version 3 launch",
       "<a href=\"/biotech/regeneron-rocked-failure-defining-catalyst"
     ],
     "fundingQ": "$230M",
@@ -260,11 +258,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 4,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
       "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
@@ -274,8 +272,8 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 16
+      "market": 0
     },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
   }
 ]

@@ -291,7 +291,7 @@
     "company": "Anduril",
     "awardId": "89233126FNA400749",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 11214774.0,
+    "amount": 11340702.0,
     "agency": "Department of Energy",
     "subAgency": "Department of Energy",
     "awardType": null,
@@ -1491,7 +1491,7 @@
     "company": "Anduril Industries",
     "awardId": "89233126FNA400749",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 11214774.0,
+    "amount": 11340702.0,
     "agency": "Department of Energy",
     "subAgency": "Department of Energy",
     "awardType": null,
@@ -3061,6 +3061,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "19AQMM25F7364",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 7310185.39,
+    "agency": "Department of State",
+    "subAgency": "Department of State",
+    "awardType": null,
+    "startDate": "2025-09-30",
+    "endDate": "2026-09-29",
+    "description": "PALANTIR PROJECT - GCFS STATEINSIGHT"
+  },
+  {
+    "company": "Palantir",
     "awardId": "2023H225F00144",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 6594996.0,
@@ -3094,18 +3106,6 @@
     "startDate": "2025-02-13",
     "endDate": "2027-02-12",
     "description": "REQUIREMENTS SOURCING TOOL (RST) + DATA ONTOLOGY SUSTAINMENT AND MAINTENANCE SUPPORT IN SUPPORT OF AIR FORCE PERSONNEL CENTER (AFPC) FORCE GENERATION OPERATIONS AND READINESS DIVISION (AFPC/DPMW) IAW "
-  },
-  {
-    "company": "Palantir",
-    "awardId": "19AQMM25F7364",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 6007219.8,
-    "agency": "Department of State",
-    "subAgency": "Department of State",
-    "awardType": null,
-    "startDate": "2025-09-30",
-    "endDate": "2026-09-29",
-    "description": "PALANTIR PROJECT - GCFS STATEINSIGHT"
   },
   {
     "company": "Palantir",
@@ -4285,18 +4285,6 @@
   },
   {
     "company": "Palantir Technologies",
-    "awardId": "19AQMM25F7364",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 6007219.8,
-    "agency": "Department of State",
-    "subAgency": "Department of State",
-    "awardType": null,
-    "startDate": "2025-09-30",
-    "endDate": "2026-09-29",
-    "description": "PALANTIR PROJECT - GCFS STATEINSIGHT"
-  },
-  {
-    "company": "Palantir Technologies",
     "awardId": "692M1524F00208",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 5543364.35,
@@ -4906,6 +4894,18 @@
     "startDate": "2026-04-06",
     "endDate": "2026-06-05",
     "description": "SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) FRAUD IDENTIFICATION AND CASE WORKFLOW PLATFORM PILOT PROGRAM"
+  },
+  {
+    "company": "Palantir Technologies",
+    "awardId": "W56KGY25F0004",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 250000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2024-12-05",
+    "endDate": "2025-06-30",
+    "description": "THE ORDER IS FOR AN ENGINEERING CHANGE PROPOSAL TO INTEGRATE PUBLIC KEY INFRASTRUCTURE INTO FOR THE PROJECT MANAGER, INTELLIGENCE SYSTEMS & ANALYTICS (IS&A) CAPABILITY DROP 1."
   },
   {
     "company": "Space Exploration Technologies",
@@ -6157,6 +6157,18 @@
   },
   {
     "company": "Skydio",
+    "awardId": "140D0426F0495",
+    "recipientName": "SKYDIO, INC",
+    "amount": 30491.7,
+    "agency": "Department of the Interior",
+    "subAgency": "Departmental Offices",
+    "awardType": null,
+    "startDate": "2026-05-05",
+    "endDate": "2027-03-05",
+    "description": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER"
+  },
+  {
+    "company": "Skydio",
     "awardId": "140D0426F0365",
     "recipientName": "SKYDIO, INC",
     "amount": 29926.7,
@@ -6675,12 +6687,12 @@
     "company": "Rocket Lab",
     "awardId": "80KSC023FA107",
     "recipientName": "ROCKET LAB USA INC",
-    "amount": 32322522.0,
+    "amount": 32505522.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
     "startDate": "2023-03-29",
-    "endDate": "2027-02-03",
+    "endDate": "2032-01-27",
     "description": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER"
   },
   {
@@ -6771,12 +6783,12 @@
     "company": "Rocket Lab USA",
     "awardId": "80KSC023FA107",
     "recipientName": "ROCKET LAB USA INC",
-    "amount": 32322522.0,
+    "amount": 32505522.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
     "startDate": "2023-03-29",
-    "endDate": "2027-02-03",
+    "endDate": "2032-01-27",
     "description": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER"
   },
   {
@@ -6891,7 +6903,7 @@
     "company": "Axiom Space",
     "awardId": "80JSC024FA196",
     "recipientName": "AXIOM SPACE INC",
-    "amount": 30668748.0,
+    "amount": 31155074.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -7592,7 +7604,7 @@
     "subAgency": "Internal Revenue Service",
     "awardType": null,
     "startDate": "2024-09-30",
-    "endDate": "2026-07-25",
+    "endDate": "2026-09-29",
     "description": "THIS AWARD CONSISTS OF THE ACQUISITION OF INFORMATICA PROFESSIONAL SERVICES (IPS) TO SUPPORT THE ENTERPRISE INFORMATICA PLATFORM (EIP) SUPPORT SERVICES FOR OFFICE OF ENTERPRISE SERVICES, SOLUTION ENGI"
   },
   {
@@ -7978,6 +7990,18 @@
     "startDate": "2024-01-26",
     "endDate": "2026-08-19",
     "description": "DARPA ICE CONTROL FOR COLD ENVIRONMENTS (ICE)"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "awardId": "75D30126F00004",
+    "recipientName": "GINKGO BIOWORKS, INC.",
+    "amount": 3199875.0,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "Centers for Disease Control and Prevention",
+    "awardType": null,
+    "startDate": "2026-05-03",
+    "endDate": "2028-04-14",
+    "description": "METAGENOMIC NEXT-GENERATION SEQUENCING (MNGS)"
   },
   {
     "company": "Ginkgo Bioworks",

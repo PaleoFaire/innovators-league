@@ -2216,6 +2216,15 @@
   {
     "company": "Virgin Galactic",
     "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-05-18",
+    "description": "spce-20260518.htm",
+    "accessionNumber": "0001706946-26-000074",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
     "form": "10-Q",
     "date": "2026-05-14",
     "description": "spce-20260331.htm",
@@ -2517,15 +2526,6 @@
     "date": "2025-10-08",
     "description": "xslF345X05/wk-form4_1759955396.xml",
     "accessionNumber": "0001916877-25-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "4",
-    "date": "2025-10-08",
-    "description": "xslF345X05/wk-form4_1759955339.xml",
-    "accessionNumber": "0001817756-25-000004",
     "isIPO": false
   },
   {
@@ -3819,6 +3819,42 @@
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779138476.xml",
+    "accessionNumber": "0002124464-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779138493.xml",
+    "accessionNumber": "0001833851-26-000010",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779138462.xml",
+    "accessionNumber": "0001558259-26-000012",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779138435.xml",
+    "accessionNumber": "0001832808-26-000008",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
     "date": "2026-05-14",
     "description": "xslF345X06/wk-form4_1778761449.xml",
     "accessionNumber": "0001832812-26-000006",
@@ -4056,33 +4092,6 @@
     "date": "2025-12-16",
     "description": "xslF345X05/wk-form4_1765920642.xml",
     "accessionNumber": "0001558259-25-000017",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2025-11-26",
-    "description": "xslF345X05/wk-form4_1764192123.xml",
-    "accessionNumber": "0001833851-25-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2025-11-24",
-    "description": "xslF345X05/wk-form4_1764020373.xml",
-    "accessionNumber": "0001833851-25-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2025-11-24",
-    "description": "xslF345X05/wk-form4_1764020290.xml",
-    "accessionNumber": "0001558259-25-000015",
     "isIPO": false
   },
   {
@@ -4403,6 +4412,24 @@
   {
     "company": "IonQ",
     "ticker": "IONQ",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779137871.xml",
+    "accessionNumber": "0002062543-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779143856.xml",
+    "accessionNumber": "0001816739-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "8-K",
     "date": "2026-05-11",
     "description": "bakkt-20260511.htm",
@@ -4578,15 +4605,6 @@
     "date": "2025-12-23",
     "description": "xslF345X05/primary_doc.xml",
     "accessionNumber": "0002030505-25-000005",
-    "isIPO": false
-  },
-  {
-    "company": "IonQ",
-    "ticker": "IONQ",
-    "form": "8-K",
-    "date": "2025-12-15",
-    "description": "bakkt-20251215.htm",
-    "accessionNumber": "0001628280-25-056871",
     "isIPO": false
   },
   {
@@ -5802,24 +5820,6 @@
     "date": "2026-03-05",
     "description": "achr-20260305.htm",
     "accessionNumber": "0001824502-26-000022",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-03",
-    "description": "xslF345X05/form4-03042026_010300.xml",
-    "accessionNumber": "0001797669-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-03",
-    "description": "xslF345X05/form4-03042026_010330.xml",
-    "accessionNumber": "0002064297-26-000001",
     "isIPO": false
   },
   {
@@ -7065,12 +7065,48 @@
     "isIPO": false
   },
   {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
+    "company": "LanzaTech",
+    "ticker": "LNZA",
     "form": "4",
-    "date": "2025-06-09",
-    "description": "xslF345X05/wk-form4_1749500600.xml",
-    "accessionNumber": "0001828108-25-000126",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136958.xml",
+    "accessionNumber": "0001628280-26-035996",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136952.xml",
+    "accessionNumber": "0001628280-26-035995",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136946.xml",
+    "accessionNumber": "0001628280-26-035994",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136942.xml",
+    "accessionNumber": "0001628280-26-035992",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136936.xml",
+    "accessionNumber": "0001628280-26-035991",
     "isIPO": false
   },
   {
@@ -7377,33 +7413,6 @@
     "date": "2025-11-25",
     "description": "xslF345X05/wk-form4_1764103415.xml",
     "accessionNumber": "0001982621-25-000009",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2025-11-25",
-    "description": "xslF345X05/wk-form4_1764103333.xml",
-    "accessionNumber": "0001982638-25-000004",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2025-11-25",
-    "description": "xslF345X05/wk-form4_1764103242.xml",
-    "accessionNumber": "0001970009-25-000004",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "10-Q",
-    "date": "2025-11-13",
-    "description": "tlsi-20250930.htm",
-    "accessionNumber": "0001628280-25-052043",
     "isIPO": false
   },
   {
@@ -8529,15 +8538,6 @@
     "date": "2026-01-22",
     "description": "xslF345X05/wk-form4_1769119701.xml",
     "accessionNumber": "0001891517-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-01-08",
-    "description": "xslF345X05/wk-form4_1767907070.xml",
-    "accessionNumber": "0001891517-26-000005",
     "isIPO": false
   },
   {

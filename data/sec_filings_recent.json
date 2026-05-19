@@ -126,15 +126,6 @@
     "isIPO": false
   },
   {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "10-K",
-    "date": "2026-02-17",
-    "description": "pltr-20251231.htm",
-    "accessionNumber": "0001321655-26-000011",
-    "isIPO": false
-  },
-  {
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "4",
@@ -501,24 +492,6 @@
     "date": "2026-02-20",
     "description": "form8-k.htm",
     "accessionNumber": "0001493152-26-007626",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-02-17",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001493152-26-007213",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "8-K",
-    "date": "2026-02-17",
-    "description": "form8-k.htm",
-    "accessionNumber": "0001493152-26-007126",
     "isIPO": false
   },
   {
@@ -1001,6 +974,15 @@
   {
     "company": "Virgin Galactic",
     "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-05-18",
+    "description": "spce-20260518.htm",
+    "accessionNumber": "0001706946-26-000074",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
     "form": "10-Q",
     "date": "2026-05-14",
     "description": "spce-20260331.htm",
@@ -1401,15 +1383,6 @@
     "date": "2026-02-26",
     "description": "smr-20260226.htm",
     "accessionNumber": "0001822966-26-000016",
-    "isIPO": false
-  },
-  {
-    "company": "NuScale Power",
-    "ticker": "SMR",
-    "form": "4",
-    "date": "2026-02-17",
-    "description": "xslF345X05/wk-form4_1771363214.xml",
-    "accessionNumber": "0001124198-26-000016",
     "isIPO": false
   },
   {
@@ -1899,12 +1872,39 @@
     "isIPO": false
   },
   {
-    "company": "C3.ai",
-    "ticker": "AI",
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
     "form": "4",
-    "date": "2026-02-17",
-    "description": "xslF345X05/wk-form4_1771370963.xml",
-    "accessionNumber": "0001577526-26-000008",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779138476.xml",
+    "accessionNumber": "0002124464-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779138493.xml",
+    "accessionNumber": "0001833851-26-000010",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779138462.xml",
+    "accessionNumber": "0001558259-26-000012",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779138435.xml",
+    "accessionNumber": "0001832808-26-000008",
     "isIPO": false
   },
   {
@@ -2166,6 +2166,24 @@
     "date": "2026-02-27",
     "description": "xslF345X05/primarydocument.xml",
     "accessionNumber": "0001855764-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779137871.xml",
+    "accessionNumber": "0002062543-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779143856.xml",
+    "accessionNumber": "0001816739-26-000002",
     "isIPO": false
   },
   {
@@ -2625,15 +2643,6 @@
     "date": "2026-02-19",
     "description": "qbts-20260219.htm",
     "accessionNumber": "0001907982-26-000020",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-02-17",
-    "description": "xslF345X05/wk-form4_1771366297.xml",
-    "accessionNumber": "0001974777-26-000004",
     "isIPO": false
   },
   {
@@ -3204,24 +3213,6 @@
     "isIPO": false
   },
   {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-03",
-    "description": "xslF345X05/form4-03042026_010300.xml",
-    "accessionNumber": "0001797669-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-03",
-    "description": "xslF345X05/form4-03042026_010330.xml",
-    "accessionNumber": "0002064297-26-000001",
-    "isIPO": false
-  },
-  {
     "company": "Joby Aviation",
     "ticker": "JOBY",
     "form": "4",
@@ -3588,6 +3579,51 @@
     "date": "2026-02-20",
     "description": "xslF345X05/wk-form4_1771624000.xml",
     "accessionNumber": "0001978942-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136958.xml",
+    "accessionNumber": "0001628280-26-035996",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136952.xml",
+    "accessionNumber": "0001628280-26-035995",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136946.xml",
+    "accessionNumber": "0001628280-26-035994",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136942.xml",
+    "accessionNumber": "0001628280-26-035992",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-05-18",
+    "description": "xslF345X06/wk-form4_1779136936.xml",
+    "accessionNumber": "0001628280-26-035991",
     "isIPO": false
   },
   {
@@ -4479,15 +4515,6 @@
     "date": "2026-02-19",
     "description": "ea0277757-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-018508",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "10-Q",
-    "date": "2026-02-17",
-    "description": "ea0275942-10q_zoomcar.htm",
-    "accessionNumber": "0001213900-26-016885",
     "isIPO": false
   }
 ]

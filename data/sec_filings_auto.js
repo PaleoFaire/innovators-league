@@ -1,6 +1,18 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-18 10:13:00 UTC
+// Last updated: 2026-05-19 09:54:31 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Virgin Galactic", form: "8-K", date: "2026-05-18", description: "spce-20260518.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Upstart Holdings", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779138476.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779138493.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779138462.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779138435.xml", isIPO: false, ticker: "UPST" },
+  { company: "IonQ", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779137871.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779143856.xml", isIPO: false, ticker: "IONQ" },
+  { company: "LanzaTech", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779136958.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779136952.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779136946.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779136942.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-05-18", description: "xslF345X06/wk-form4_1779136936.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877571.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877563.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877558.xml", isIPO: false, ticker: "LNZA" },
@@ -39,16 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rigetti Computing", form: "8-K", date: "2026-05-11", description: "rgti-20260511x8k.htm", isIPO: false, ticker: "RGTI" },
   { company: "Archer Aviation", form: "10-Q", date: "2026-05-11", description: "achr-20260331.htm", isIPO: false, ticker: "ACHR" },
   { company: "Archer Aviation", form: "8-K", date: "2026-05-11", description: "achr-20260511.htm", isIPO: false, ticker: "ACHR" },
-  { company: "Astera Labs", form: "10-Q", date: "2026-05-11", description: "tra-20260331.htm", isIPO: false, ticker: "ALAB" },
-  { company: "Astera Labs", form: "8-K", date: "2026-05-11", description: "tra-20260511.htm", isIPO: false, ticker: "ALAB" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-05-08", description: "g085715_8k.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050503.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050501.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05082026_050505.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "10-Q", date: "2026-05-08", description: "acdc-20260331.htm", isIPO: false, ticker: "LUNR" },
-  { company: "Upstart Holdings", form: "4", date: "2026-05-08", description: "xslF345X06/wk-form4_1778244965.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-05-08", description: "xslF345X06/wk-form4_1778244889.xml", isIPO: false, ticker: "UPST" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-05-08", description: "xslF345X06/wk-form4_1778273958.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Archer Aviation", form: "4", date: "2026-05-08", description: "xslF345X06/form4-05092026_120555.xml", isIPO: false, ticker: "ACHR" },
-  { company: "Joby Aviation", form: "8-K", date: "2026-05-08", description: "d118223d8k.htm", isIPO: false, ticker: "JOBY" },
 ];
