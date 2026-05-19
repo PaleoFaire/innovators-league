@@ -1,5 +1,43 @@
 [
   {
+    "title": "OpenAI is making it easier to check if an image was made by their models",
+    "link": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+    "description": "OpenAI announced two new measures to help detect AI generated imagery: joining the open C2PA standard and adding Google's SynthID to its products.",
+    "pubDate": "Tue, 19 May 2026 17:45:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Shield AI tapped to integrate autonomous software on LUCAS drone",
+    "link": "https://breakingdefense.com/2026/05/shield-ai-tapped-to-integrate-autonomous-software-on-lucas-drone/",
+    "description": "The company says it will integrate its Hivemind software on the drones, with plans to demo its swarming capability later this year.",
+    "pubDate": "Tue, 19 May 2026 17:30:00 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Shield AI",
+    "matchedCompanies": [
+      "Shield AI"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "OpenAI co-founder Andrej Karpathy joins Anthropic&#8217;s pre-training team",
     "link": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
     "description": "Pre-training is responsible for the large-scale training runs that give Claude its core knowledge and capabilities, according to the company. It's also one of the most expensive, compute-intensive phases of building a frontier model.",
@@ -17,7 +55,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "Former OpenAI Staffers Warn That xAI’s Poor Safety Record Could Complicate SpaceX’s IPO",
@@ -39,7 +77,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "Cohere snaps up second German AI startup weeks after Aleph Alpha deal",
@@ -59,7 +97,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Vast announces line of high-power satellite buses",
@@ -82,7 +120,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "What US chipmaker Cerebras’s IPO could mean for startups like Fractile",
@@ -103,7 +141,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "4h ago"
+    "time": "6h ago"
   },
   {
     "title": "Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell",
@@ -124,7 +162,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "When Refusal Doesn’t Matter: Operation Epic Fury and the Erosion of Host Nation Consent",
@@ -143,7 +181,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "8h ago"
+    "time": "11h ago"
   },
   {
     "title": "Here’s why Elon Musk lost his suit against OpenAI",
@@ -163,25 +201,6 @@
       "defense"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "15h ago"
-  },
-  {
-    "title": "OSHA probing worker death at SpaceX&#8217;s Starbase site",
-    "link": "https://techcrunch.com/2026/05/18/osha-probing-worker-death-at-spacexs-starbase-site/",
-    "description": "The death is the latest worker safety issue at the Starbase facility, which has a higher injury rate than all other SpaceX sites.",
-    "pubDate": "Mon, 18 May 2026 21:55:02 +0000",
-    "category": "Space",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "18h ago"
   },
@@ -203,28 +222,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "20h ago"
-  },
-  {
-    "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
-    "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
-    "description": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.",
-    "pubDate": "Mon, 18 May 2026 19:27:52 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "OpenAI",
-      "Dust"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "21h ago"
+    "time": "23h ago"
   },
   {
     "title": "Four NASA payloads to fly on Astrolab’s first lunar rover",
@@ -243,7 +241,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Elon Musk Loses Landmark Lawsuit Against OpenAI",
@@ -262,26 +260,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
-  },
-  {
-    "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-    "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-    "description": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late.",
-    "pubDate": "Mon, 18 May 2026 17:34:43 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Sequoia backs AI agents scaleup Dust in $40m Series B",
@@ -381,6 +360,30 @@
     ],
     "type": "ipo",
     "impact": "medium",
+    "time": "3d ago"
+  },
+  {
+    "title": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
+    "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "description": "The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6:05 p.m. EDT Friday on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The SpaceX s",
+    "pubDate": "Fri, 15 May 2026 22:52:14 +0000",
+    "category": "Commercial Resupply",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Astro Mechanica",
+      "Axiom Space",
+      "Cape"
+    ],
+    "sectors": [
+      "space",
+      "climate"
+    ],
+    "type": "contract",
+    "impact": "low",
     "time": "3d ago"
   },
   {
@@ -523,7 +526,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%",
@@ -601,7 +604,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "6d ago"
+    "time": "5/12/2026"
   },
   {
     "title": "Waymo recalls 3,791 robotaxis over flooded road incident, deploying OTA software fix",
