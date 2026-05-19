@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-19T10:02:26+00:00",
+  "generatedAt": "2026-05-19T12:48:10+00:00",
   "stats": {
     "companies": 933,
     "vcFirms": 31,
-    "uniqueClusters": 95,
-    "totalInvestments": 243
+    "uniqueClusters": 96,
+    "totalInvestments": 244
   },
   "concentration": {
     "Founders Fund": {
@@ -1279,6 +1279,12 @@
         "companies": [
           "Amca"
         ]
+      },
+      "orbital-data-centers": {
+        "count": 1,
+        "companies": [
+          "Cowboy Space Corporation"
+        ]
       }
     },
     "Breakthrough Energy Ventures": {
@@ -1307,10 +1313,10 @@
           "Pacific Fusion"
         ]
       },
-      "space-solar-power": {
+      "orbital-data-centers": {
         "count": 1,
         "companies": [
-          "Aetherflux"
+          "Cowboy Space Corporation"
         ]
       },
       "battery-advanced-chemistry": {
@@ -2189,17 +2195,12 @@
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Sequoia Capital",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "ai-robotics-embodied": [
@@ -2650,6 +2651,18 @@
         "vc": "Lowercarbon Capital",
         "count": 1,
         "share": 1.0
+      }
+    ],
+    "orbital-data-centers": [
+      {
+        "vc": "Construct Capital",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "Breakthrough Energy Ventures",
+        "count": 1,
+        "share": 0.5
       }
     ],
     "geothermal-next-gen": [
@@ -3324,7 +3337,7 @@
     {
       "vc": "Construct Capital",
       "recentCount": 0,
-      "totalCount": 1,
+      "totalCount": 2,
       "score": 0.0,
       "topCluster": "manufacturing-reshoring",
       "recentExamples": []
@@ -3606,7 +3619,7 @@
       "investmentCount": 3
     },
     {
-      "cluster": "space-solar-power",
+      "cluster": "consumer-hardware",
       "investmentCount": 3
     }
   ]

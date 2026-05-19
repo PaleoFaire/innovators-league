@@ -48188,25 +48188,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-19 10:01
-// Auto-generated real-time signals
-// Last updated: 2026-05-19
+// Last updated: 2026-05-19 12:47
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Matter", headline: "When Refusal Doesn’t Matter: Operation Epic Fury and the Erosion of Host Nation Consent", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "Here’s why Elon Musk lost his suit against OpenAI", source: "MIT Tech Review", time: "9h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "OSHA probing worker death at SpaceX&#8217;s Starbase site", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "X-Energy", headline: "X-energy gets federal environmental approval for Texas nuclear reactors", source: "Canary Media", time: "14h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare", source: "TechCrunch", time: "14h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "Elon Musk Loses Landmark Lawsuit Against OpenAI", source: "Wired", time: "16h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "Elon Musk has lost his lawsuit against Sam Altman and OpenAI", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Dust", headline: "Sequoia backs AI agents scaleup Dust in $40m Series B", source: "Sifted", time: "19h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Dust", headline: "Dust raises $40M Series B to build the “multiplayer” operating system for enterprise AI", source: "Tech.eu", time: "22h ago", impact: "high", unread: false },
-  { id: 11, type: "hire", company: "OpenAI", headline: "Why trust is a big question at the Elon Musk-OpenAI trial", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "SpaceX", headline: "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station", source: "NASA Breaking News", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Rivian", headline: "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, China is taking over EU factories, and more", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "OpenAI", headline: "Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Rivian", headline: "Rivian opens R2 configurator: here are all the options and pricing", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Cerebras", headline: "What US chipmaker Cerebras's IPO could mean for startups like Fractile", source: "Sifted", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "news", company: "Colossal Biosciences", headline: "Colossal Biosciences is growing chickens in a 3D-printed container", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Matter", headline: "When Refusal Doesn't Matter: Operation Epic Fury and the Erosion of Host Nation Consent", source: "War on the Rocks", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "Here's why Elon Musk lost his suit against OpenAI", source: "MIT Tech Review", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "OSHA probing worker death at SpaceX's Starbase site", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "X-Energy", headline: "X-energy gets federal environmental approval for Texas nuclear reactors", source: "Canary Media", time: "16h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare", source: "TechCrunch", time: "17h ago", impact: "high", unread: false },
+  { id: 8, type: "milestone", company: "Astrolab", headline: "Four NASA payloads to fly on Astrolab's first lunar rover", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "Elon Musk Loses Landmark Lawsuit Against OpenAI", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "Elon Musk has lost his lawsuit against Sam Altman and OpenAI", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Dust", headline: "Sequoia backs AI agents scaleup Dust in $40m Series B", source: "Sifted", time: "21h ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Waymo", headline: "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World Cup Approaches", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Tomorrow.io", headline: "Tomorrow.io adds $35 million to DeepSky funding round", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
+  { id: 14, type: "funding", company: "Dust", headline: "Dust raises $40M Series B to build the 'multiplayer' operating system for enterprise AI", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "hire", company: "OpenAI", headline: "Why trust is a big question at the Elon Musk-OpenAI trial", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
