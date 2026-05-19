@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T19:09:31.580843+00:00",
+  "generatedAt": "2026-05-19T21:40:10.191254+00:00",
   "date": "2026-05-19",
   "dateDisplay": "Tuesday, May 19, 2026",
   "sections": {
@@ -63,23 +63,23 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 8.11,
-        "changePercent": -60.9,
-        "change": -12.63
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 54.66,
-        "changePercent": -25.76,
-        "change": -18.97
+        "price": 8.43,
+        "changePercent": -59.35,
+        "change": -12.31
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 9.37,
-        "changePercent": 24.04,
-        "change": 1.82
+        "price": 9.63,
+        "changePercent": 27.55,
+        "change": 2.08
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 55.63,
+        "changePercent": -24.45,
+        "change": -18.0
       },
       {
         "ticker": "277810.KQ",
@@ -89,32 +89,32 @@
         "change": -189000.0
       },
       {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 88.11,
+        "changePercent": 20.77,
+        "change": 15.16
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 243.72,
+        "changePercent": 19.23,
+        "change": 39.3
+      },
+      {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 17.98,
-        "changePercent": -19.55,
-        "change": -4.37
+        "price": 18.2,
+        "changePercent": -18.59,
+        "change": -4.16
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 22.06,
-        "changePercent": -18.57,
-        "change": -5.03
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 9.81,
-        "changePercent": -18.25,
-        "change": -2.19
-      },
-      {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 15.81,
-        "changePercent": -17.09,
-        "change": -3.26
+        "price": 22.37,
+        "changePercent": -17.42,
+        "change": -4.72
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -60.9%"
+    "topMover": "LNZA -59.4%"
   }
 }
