@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-18T09:40:14+00:00",
+  "generatedAt": "2026-05-19T08:59:34+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 19,
-  "newExtractionsThisRun": 18,
+  "cohortSize": 24,
+  "newExtractionsThisRun": 23,
   "summary": {
     "cleared": 15,
-    "changesProposed": 4,
+    "changesProposed": 9,
     "unverifiable": 0
   },
   "cleared": [
     "Anthropic",
-    "Astro Mechanica",
-    "Axiom Space",
+    "Atmo",
     "Cerebras",
+    "Cohere",
     "Destinus",
     "Deterrence",
     "Galvanick",
@@ -22,11 +22,269 @@
     "Pivotal",
     "Quantinuum",
     "Rivian",
-    "Vast",
+    "Standard Nuclear",
     "Waymo",
     "xAI"
   ],
   "changesProposed": [
+    {
+      "name": "AST SpaceMobile",
+      "current": {
+        "name": "AST SpaceMobile",
+        "founder": "Abel Avellan",
+        "location": "Midland, Texas, USA",
+        "founded": 2017,
+        "fundingStage": "Public",
+        "totalRaised": "$2B+",
+        "website": "https://astspacemobile.com"
+      },
+      "verified": {
+        "name": "AST SpaceMobile",
+        "description": "A publicly traded satellite designer and manufacturer building the SpaceMobile satellite constellation, a space-based cellular broadband network designed to connect directly to standard, unmodified smartphones to deliver 4G and 5G coverage globally.",
+        "founders": [
+          "Abel Avellan"
+        ],
+        "location": "Midland, Texas, U.S.",
+        "founded_year": 2017,
+        "current_stage": "Public",
+        "total_raised": "$2B+",
+        "valuation": null,
+        "investors": [
+          "Vodafone",
+          "Rakuten",
+          "Samsung Next",
+          "American Tower",
+          "Cisneros"
+        ],
+        "website": "https://ast-science.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ]
+        },
+        "notes": "Founded as AST & Science LLC in May 2017; became publicly traded via SPAC merger in April 2021 on Nasdaq under ticker ASTS. Website listed as ast-science.com on Wikipedia, though company website header shows astspacemobile.com."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Midland, Texas, USA",
+          "verified": "Midland, Texas, U.S.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://astspacemobile.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AST_SpaceMobile"
+        },
+        {
+          "idx": 2,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/ast-spacemobile-may-use-ulas-vulcan/"
+        }
+      ],
+      "notes": "Founded as AST & Science LLC in May 2017; became publicly traded via SPAC merger in April 2021 on Nasdaq under ticker ASTS. Website listed as ast-science.com on Wikipedia, though company website header shows astspacemobile.com."
+    },
+    {
+      "name": "Astrolab",
+      "current": {
+        "name": "Astrolab",
+        "founder": "Jaret B. Matthews",
+        "location": "Hawthorne, CA",
+        "founded": 2020,
+        "fundingStage": "Series A",
+        "totalRaised": "$40M+",
+        "website": "https://astrolab.co"
+      },
+      "verified": {
+        "name": "Astrolab",
+        "description": "A private American aerospace company that designs and develops robotic mobility systems for planetary exploration, including the FLEX rover for lunar and Mars surface logistics.",
+        "founders": [
+          "Jaret B. Matthews"
+        ],
+        "location": "Hawthorne, California",
+        "founded_year": 2020,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://astrolab.co",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] (company website) describes a different business (consulting/AI services) and does not match the aerospace company. Source [1] (Wikipedia) is the authoritative source for Astrolab aerospace. Company officially registered as 'Venturi Astrolab Inc.' per Wikipedia. Selected by NASA for Lunar Terrain Vehicle Services (LTVS) program in 2024 to support Artemis missions."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Hawthorne, CA",
+          "verified": "Hawthorne, California",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://astrolab.co"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Astrolab"
+        },
+        {
+          "idx": 2,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/four-nasa-payloads-to-fly-on-astrolabs-first-lunar-rover/"
+        }
+      ],
+      "notes": "Source [0] (company website) describes a different business (consulting/AI services) and does not match the aerospace company. Source [1] (Wikipedia) is the authoritative source for Astrolab aerospace. Company officially registered as 'Venturi Astrolab Inc.' per Wikipedia. Selected by NASA for Lunar Terrain Vehicle Services (LTVS) program in 2024 to support Artemis missions."
+    },
+    {
+      "name": "Dust",
+      "current": {
+        "name": "Dust",
+        "founder": "Gabriel Hubert, Stanislas Polu",
+        "location": "Paris, France",
+        "founded": 2023,
+        "fundingStage": "Series B",
+        "totalRaised": "$70M+",
+        "website": null
+      },
+      "verified": {
+        "name": "Dust",
+        "description": "Enterprise AI agents platform that provides a multiplayer operating system for agentic AI in enterprise environments.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": "Series B",
+        "total_raised": "$60M+",
+        "valuation": null,
+        "investors": [
+          "Abstract",
+          "Sequoia",
+          "Snowflake",
+          "Datadog"
+        ],
+        "website": null,
+        "sources_per_field": {
+          "name": [
+            2,
+            3
+          ],
+          "description": [
+            3
+          ],
+          "current_stage": [
+            2,
+            3
+          ],
+          "total_raised": [
+            3
+          ],
+          "investors": [
+            3
+          ]
+        },
+        "notes": "Source [0] is Wikipedia article about dust particles, not the company. Source [1] is about Stainless (different company), not Dust. Database entry claims $70M+ raised and founders Gabriel Hubert and Stanislas Polu, but these cannot be verified in provided sources. Series B amount verified as $40M with total raised over $60M."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$70M+",
+          "verified": "$60M+",
+          "sources": [
+            3
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Abstract",
+            "Sequoia",
+            "Snowflake",
+            "Datadog"
+          ],
+          "sources": [
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dust"
+        },
+        {
+          "idx": 1,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
+        },
+        {
+          "idx": 2,
+          "src": "news (Sifted)",
+          "url": "https://sifted.eu/articles/dust-series-b-40m/"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/05/18/dust-raises-40m-series-b-to-build-the-multiplayer-operating-system-for-enterprise-ai/"
+        }
+      ],
+      "notes": "Source [0] is Wikipedia article about dust particles, not the company. Source [1] is about Stainless (different company), not Dust. Database entry claims $70M+ raised and founders Gabriel Hubert and Stanislas Polu, but these cannot be verified in provided sources. Series B amount verified as $40M with total raised over $60M."
+    },
     {
       "name": "Fervo Energy",
       "current": {
@@ -35,12 +293,12 @@
         "location": "Houston, Texas, U.S.",
         "founded": 2017,
         "fundingStage": "IPO",
-        "totalRaised": "$1.5B+",
+        "totalRaised": "$1.89B",
         "website": "https://fervoenergy.com"
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal company generating electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas. Operates Project Red demonstration plant and developing Cape Station multi-phased geothermal development.",
+        "description": "Geothermal energy company generating electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. Operates Project Red demonstration plant in Nevada and develops Cape Station greenfield project in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -60,7 +318,6 @@
         "sources_per_field": {
           "name": [
             0,
-            1,
             2
           ],
           "description": [
@@ -83,27 +340,15 @@
           ],
           "investors": [
             2
-          ],
-          "website": [
-            0,
-            2
           ]
         },
-        "notes": "Company went public via IPO on May 17, 2026, raising $1.89B. Wikipedia article notes undisclosed paid content concerns and press release-like writing. Previous Series E funding of $462M in November 2025 led by B Capital."
+        "notes": "Company went public on May 17, 2026 (per website newsroom). Wikipedia shows company status as 'Private' but website confirms IPO with article titled 'A Start-Up Aiming to Make Geothermal Energy Mainstream Goes Public' dated May 17, 2026 and 'Fervo Energy raises $1.89B in IPO: CEO on the company's Nasdaq debut'. Total funding exceeds $1.89B IPO as additional $462M Series E received November 2025 per Wikipedia."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "IPO",
           "verified": "Public",
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$1.5B+",
-          "verified": "$1.89B",
           "sources": [
             0
           ]
@@ -141,7 +386,7 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "Company went public via IPO on May 17, 2026, raising $1.89B. Wikipedia article notes undisclosed paid content concerns and press release-like writing. Previous Series E funding of $462M in November 2025 led by B Capital."
+      "notes": "Company went public on May 17, 2026 (per website newsroom). Wikipedia shows company status as 'Private' but website confirms IPO with article titled 'A Start-Up Aiming to Make Geothermal Energy Mainstream Goes Public' dated May 17, 2026 and 'Fervo Energy raises $1.89B in IPO: CEO on the company's Nasdaq debut'. Total funding exceeds $1.89B IPO as additional $462M Series E received November 2025 per Wikipedia."
     },
     {
       "name": "Nuro",
@@ -151,15 +396,15 @@
         "location": "Mountain View, California",
         "founded": 2016,
         "fundingStage": "Series G",
-        "totalRaised": "$2.84B",
+        "totalRaised": "$203M",
         "website": "https://nuro.ai"
       },
       "verified": {
         "name": "Nuro",
-        "description": "Autonomous vehicle technology company that develops Level 4 self-driving systems. Founded by ex-Google/Waymo engineers, Nuro initially built custom autonomous delivery vehicles and shifted to licensing its Nuro Driver autonomy platform to automakers and mobility providers in September 2024.",
+        "description": "Autonomous vehicle technology company that initially developed custom autonomous delivery vehicles and has pivoted to licensing its Level 4 driving system, Nuro Driver, to automakers and mobility providers.",
         "founders": [
-          "Jiajun Zhu",
-          "Dave Ferguson"
+          "Dave Ferguson",
+          "Jiajun Zhu"
         ],
         "location": "Mountain View, California",
         "founded_year": 2016,
@@ -182,8 +427,6 @@
             2
           ],
           "description": [
-            0,
-            1,
             2
           ],
           "founders": [
@@ -208,8 +451,6 @@
             2
           ],
           "investors": [
-            0,
-            1,
             2
           ],
           "website": [
@@ -218,21 +459,13 @@
             2
           ]
         },
-        "notes": "Series E closed in August 2025 with $203M at $6B valuation. Company pivoted from autonomous delivery vehicles to licensing Nuro Driver L4 autonomy platform in September 2024. Partnership established July 2025 with Uber and Lucid Motors for 20,000+ robotaxi deployment beginning 2026."
+        "notes": "Company pivoted from autonomous delivery vehicles to licensing business model in September 2024. Series E funding closed in August 2025 at $203M valuation of $6B. Partnership with Uber and Lucid Motors announced July 2025 for robotaxi deployment of 20,000+ vehicles."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series G",
           "verified": "Series E",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$2.84B",
-          "verified": "$203M",
           "sources": [
             2
           ]
@@ -258,14 +491,9 @@
           "idx": 3,
           "src": "news (Electrek)",
           "url": "https://electrek.co/2026/05/15/uber-turns-on-waymo-10-billion-robotaxi-alternatives/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/08/nuro-california-driverless-permit-lucid-gravity-uber-robotaxi/"
         }
       ],
-      "notes": "Series E closed in August 2025 with $203M at $6B valuation. Company pivoted from autonomous delivery vehicles to licensing Nuro Driver L4 autonomy platform in September 2024. Partnership established July 2025 with Uber and Lucid Motors for 20,000+ robotaxi deployment beginning 2026."
+      "notes": "Company pivoted from autonomous delivery vehicles to licensing business model in September 2024. Series E funding closed in August 2025 at $203M valuation of $6B. Partnership with Uber and Lucid Motors announced July 2025 for robotaxi deployment of 20,000+ vehicles."
     },
     {
       "name": "OpenAI",
@@ -297,7 +525,7 @@
         "location": "San Francisco, California, U.S.",
         "founded_year": 2015,
         "current_stage": "Private",
-        "total_raised": "$13B+",
+        "total_raised": null,
         "valuation": "$500B",
         "investors": [
           "Microsoft",
@@ -310,37 +538,34 @@
         "website": "https://openai.com",
         "sources_per_field": {
           "name": [
-            0
+            1
           ],
           "description": [
-            0
+            1
           ],
           "founders": [
-            0
+            1
           ],
           "location": [
-            0
+            1
           ],
           "founded_year": [
-            0
+            1
           ],
           "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
+            1
           ],
           "valuation": [
-            0
+            1
           ],
           "investors": [
-            0
+            1
           ],
           "website": [
-            0
+            1
           ]
         },
-        "notes": "Valuation updated to $500B based on October 2025 share sale ($6.6 billion) per source 0. Company transitioned from nonprofit (founded 2015) to for-profit capped entity (2019) to PBC (2025). Elon Musk listed as founder though he is no longer involved with the company."
+        "notes": "Valuation updated to $500B based on October 2025 share sale (source 1). Founded as nonprofit in 2015; transitioned to capped for-profit in 2019; restructured in 2025 into for-profit public benefit corporation. Source 0 appears to be a placeholder/error page. Sources 2-4 relate to Musk lawsuit verdict but do not provide new company facts."
       },
       "changes": [
         {
@@ -348,33 +573,38 @@
           "current": "Sam Altman, Greg Brockman, Ilya Sutskever",
           "verified": "Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, Wojciech Zaremba",
           "sources": [
-            0
+            1
           ]
         }
       ],
       "sources": [
         {
           "idx": 0,
+          "src": "company_website",
+          "url": "https://openai.co"
+        },
+        {
+          "idx": 1,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/OpenAI"
         },
         {
-          "idx": 1,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/"
-        },
-        {
           "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/"
+          "src": "news (MIT Tech Review)",
+          "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/"
         },
         {
           "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
+        },
+        {
+          "idx": 4,
           "src": "news (Wired)",
-          "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/"
+          "url": "https://www.wired.com/story/musk-v-altman-jury-verdict/"
         }
       ],
-      "notes": "Valuation updated to $500B based on October 2025 share sale ($6.6 billion) per source 0. Company transitioned from nonprofit (founded 2015) to for-profit capped entity (2019) to PBC (2025). Elon Musk listed as founder though he is no longer involved with the company."
+      "notes": "Valuation updated to $500B based on October 2025 share sale (source 1). Founded as nonprofit in 2015; transitioned to capped for-profit in 2019; restructured in 2025 into for-profit public benefit corporation. Source 0 appears to be a placeholder/error page. Sources 2-4 relate to Musk lawsuit verdict but do not provide new company facts."
     },
     {
       "name": "SpaceX",
@@ -389,7 +619,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company that develops reusable launch vehicles, spacecraft, and satellite constellations. Founded by Elon Musk in 2002, SpaceX operates more orbital launches annually than any other launch provider.",
+        "description": "American aerospace and artificial intelligence company that develops rockets, spacecraft, and satellite constellations. Founded by Elon Musk in 2002, SpaceX operates the Falcon 9 rocket and Dragon capsules for cargo and crewed missions, and operates the Starlink satellite internet constellation.",
         "founders": [
           "Elon Musk"
         ],
@@ -426,7 +656,7 @@
             1
           ]
         },
-        "notes": "Source [1] indicates SpaceX is expected to have an IPO in 2026 and states the 2025 offer to buy internal shares valued SpaceX at $800 billion. Source [0] is a domain sales page and not a reliable company source. Source [2] and [3] are news articles with incomplete content. Source [4] is a SEC Form D filing with minimal information."
+        "notes": "Source [1] indicates SpaceX is expected to have an IPO in 2026 and notes a 2025 offer to buy internal shares valued SpaceX at $800 billion. Current database entry claims 'Series G' stage and '$10B+' total raised, but these cannot be verified from provided sources. Database claims about 165 Falcon 9 launches in 2025, 81% of mass to orbit, 9M+ Starlink customers, and $1.5T valuation cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -451,21 +681,180 @@
         },
         {
           "idx": 2,
-          "src": "news (NASA Breaking News)",
-          "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/18/osha-probing-worker-death-at-spacexs-starbase-site/"
         },
         {
           "idx": 3,
-          "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/space/2026/05/spacex-completes-fueling-test-setting-stage-for-first-launch-of-starship-v3/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-launches-crs-34-cargo-mission-to-iss/"
         },
         {
           "idx": 4,
-          "src": "sec_form_d",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133025&type=D&dateb=&owner=include&count=10"
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/space/2026/05/spacex-completes-fueling-test-setting-stage-for-first-launch-of-starship-v3/"
         }
       ],
-      "notes": "Source [1] indicates SpaceX is expected to have an IPO in 2026 and states the 2025 offer to buy internal shares valued SpaceX at $800 billion. Source [0] is a domain sales page and not a reliable company source. Source [2] and [3] are news articles with incomplete content. Source [4] is a SEC Form D filing with minimal information."
+      "notes": "Source [1] indicates SpaceX is expected to have an IPO in 2026 and notes a 2025 offer to buy internal shares valued SpaceX at $800 billion. Current database entry claims 'Series G' stage and '$10B+' total raised, but these cannot be verified from provided sources. Database claims about 165 Falcon 9 launches in 2025, 81% of mass to orbit, 9M+ Starlink customers, and $1.5T valuation cannot be verified from provided sources."
+    },
+    {
+      "name": "Tomorrow.io",
+      "current": {
+        "name": "Tomorrow.io",
+        "founder": "Shimon Elkabetz, Itai Zlotnik, Rei Goffer, Hagit Messer",
+        "location": "Boston, MA",
+        "founded": 2016,
+        "fundingStage": "Series E",
+        "totalRaised": "$200M+",
+        "website": "https://www.tomorrow.io"
+      },
+      "verified": {
+        "name": "Tomorrow.io",
+        "description": "American weather technology company providing real-time weather forecasting services and APIs, including a proprietary satellite constellation called DeepSky for gathering atmospheric data.",
+        "founders": [
+          "Shimon Elkabetz",
+          "Itai Zlotnik",
+          "Rei Goffer",
+          "Hagit Messer"
+        ],
+        "location": "Boston, Massachusetts",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": "$210M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.tomorrow.io",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            2,
+            3
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "total_raised": [
+            3
+          ]
+        },
+        "notes": "Company was formerly known as ClimaCell and rebranded to Tomorrow.io in March 2021. First satellite (Tomorrow-R1) launched April 15, 2023. Latest funding round of $210M includes $175M announced for DeepSky constellation plus additional $35M."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Boston, MA",
+          "verified": "Boston, Massachusetts",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$200M+",
+          "verified": "$210M",
+          "sources": [
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.tomorrow.io"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.tomorrow.io/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tomorrow.io"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/tomorrow-io-adds-35-million-to-deepsky-funding-round/"
+        }
+      ],
+      "notes": "Company was formerly known as ClimaCell and rebranded to Tomorrow.io in March 2021. First satellite (Tomorrow-R1) launched April 15, 2023. Latest funding round of $210M includes $175M announced for DeepSky constellation plus additional $35M."
+    },
+    {
+      "name": "X-Energy",
+      "current": {
+        "name": "X-Energy",
+        "founder": "Kam Ghaffarian",
+        "location": "Rockville, MD",
+        "founded": 2009,
+        "fundingStage": "IPO",
+        "totalRaised": "$1.1B+",
+        "website": "https://x-energy.com"
+      },
+      "verified": {
+        "name": "X-energy",
+        "description": "Developer of advanced nuclear energy technology including small modular reactors (SMRs) and TRISO fuel for electricity generation and high-temperature applications.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": "Public",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://x-energy.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] confirms IPO announcement on Apr 15, 2026 and pricing announcement on Apr 23, 2026. Database entry claims cannot be verified from provided sources: founder name, location, founding year, total_raised, valuation, and specific details about Amazon funding, Pentagon/Air Force contracts, and UK deployment were not found in sources provided."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "IPO",
+          "verified": "Public",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://x-energy.com"
+        },
+        {
+          "idx": 1,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/nuclear/x-energy-gets-federal-approval-reactors"
+        }
+      ],
+      "notes": "Source [0] confirms IPO announcement on Apr 15, 2026 and pricing announcement on Apr 23, 2026. Database entry claims cannot be verified from provided sources: founder name, location, founding year, total_raised, valuation, and specific details about Amazon funding, Pentagon/Air Force contracts, and UK deployment were not found in sources provided."
     }
   ],
   "unverifiable": []
