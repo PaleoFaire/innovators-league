@@ -1,6 +1,16 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-05-18 10:54:01 UTC
+// Last updated: 2026-05-19 10:30:42 UTC
 const NASA_PROJECTS = [
+  { id: 184875, title: "Crew Connectedness Adv Comm Platform", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/18/26" },
+  { id: 184872, title: "Clinical Decision Support", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/18/26" },
+  { id: 157152, title: "CC21 NASA Air-athon: Predict Air Quality", status: "Completed", center: "Marshall Space Flight Center", techArea: "In Situ Instruments and Sensors", lastUpdated: "05/18/26" },
+  { id: 117548, title: "CC21 Lunar TORCH", status: "Completed", center: "Langley Research Center", techArea: "Surface Construction and Assembly", lastUpdated: "05/18/26" },
+  { id: 183711, title: "Power on the Dark Side: Stimulus-Responsive Adsorbents for Low-Energy Controlled", status: "Active", center: "Colorado School of Mines", techArea: "Electrochemical Storage: Fuel Cells", lastUpdated: "05/18/26" },
+  { id: 183700, title: "Piezoelectric-Based Power Conversion for Lunar Surface Systems", status: "Active", center: "University of California-Berkeley", techArea: "Electrical Power Conversion and Regulation", lastUpdated: "05/18/26" },
+  { id: 183697, title: "Origami-inspired Diffractive Sail for Directed Energy Propulsion", status: "Active", center: "Purdue University-Main Campus", techArea: "Advanced Energetic Propulsion Approaches", lastUpdated: "05/18/26" },
+  { id: 183685, title: "Developing Oxychalcogenide Membranes for Superconducting Power Transmission", status: "Active", center: "University of Chicago", techArea: "Distribution and Transmission", lastUpdated: "05/18/26" },
+  { id: 183683, title: "Concept Demonstration of Directed Energy Propulsion with Metasurface Lightsails", status: "Active", center: "University of Minnesota-Twin Cities", techArea: "Advanced Energetic Propulsion Approaches", lastUpdated: "05/18/26" },
+  { id: 183676, title: "Development of a MW-Scale High-Voltage Multiphase Dual-Rotor Generator and Recti", status: "Active", center: "Colorado School of Mines", techArea: "Nuclear Electric Propulsion", lastUpdated: "05/18/26" },
   { id: 158550, title: "Venus InStrumentation for Thermophysics and Aerosciences", status: "Active", center: "Ames Research Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/08/26" },
   { id: 116330, title: "Bifurcated Reversible Alkaline Cell for Energy Storage", status: "Completed", center: "Glenn Research Center", techArea: "Electrochemical Storage: Fuel Cells", lastUpdated: "05/08/26" },
   { id: 146999, title: "PALETTE Parabolic Reflector Radiator (PRR) for LuSEE-Night", status: "Completed", center: "Jet Propulsion Laboratory", techArea: "Heat Rejection and Storage", lastUpdated: "05/08/26" },
@@ -21,14 +31,4 @@ const NASA_PROJECTS = [
   { id: 147015, title: "Lunar Simulants", status: "Completed", center: "Johnson Space Center", techArea: "Particulate Contamination Prevention and Mitigation", lastUpdated: "05/08/26" },
   { id: 147004, title: "Carbothermal Reduction Demonstration", status: "Completed", center: "Johnson Space Center", techArea: "Resource Processing for Production of Mission Consumables", lastUpdated: "05/08/26" },
   { id: 147007, title: "PSI Instrumentation", status: "Active", center: "Langley Research Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/08/26" },
-  { id: 116394, title: "Dragonfly Entry Aerosciences Measurements", status: "Active", center: "Ames Research Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/08/26" },
-  { id: 116397, title: "SCIFLI Starship Reentry Observation", status: "Completed", center: "Langley Research Center", techArea: "Thermal Protection Systems", lastUpdated: "05/08/26" },
-  { id: 116364, title: "Propellant Fueled Solid Oxide Fuel Cell", status: "Completed", center: "Glenn Research Center", techArea: "Electrochemical Storage: Fuel Cells", lastUpdated: "05/08/26" },
-  { id: 116365, title: "LTE Proximity Communications", status: "Completed", center: "Johnson Space Center", techArea: "Innovative RF Technologies", lastUpdated: "05/08/26" },
-  { id: 116372, title: "Deployable Lunar Hopper", status: "Completed", center: "Johnson Space Center", techArea: "Above-Surface Mobility", lastUpdated: "05/08/26" },
-  { id: 116266, title: "Space Science & Technology Evaluation Facility - First Flight", status: "Completed", center: "Marshall Space Flight Center", techArea: "Vehicle and Payload Assembly and Integration", lastUpdated: "05/08/26" },
-  { id: 116401, title: "Stereo CAmera for Lunar Plume-Surface Studies", status: "Active", center: "Langley Research Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/08/26" },
-  { id: 116411, title: "Dust Mitigation Demonstration", status: "Completed", center: "Kennedy Space Center", techArea: "Particulate Contamination Prevention and Mitigation", lastUpdated: "05/08/26" },
-  { id: 116413, title: "Molten Regolith Electrolysis Tech Maturation", status: "Completed", center: "Kennedy Space Center", techArea: "Resource Processing for Production of Mission Consumables", lastUpdated: "05/08/26" },
-  { id: 116320, title: "ISRU Pilot Excavator", status: "Completed", center: "Kennedy Space Center", techArea: "Resource Acquisition, Isolation, and Preparation", lastUpdated: "05/08/26" },
 ];
