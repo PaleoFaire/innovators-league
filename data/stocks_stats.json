@@ -3,102 +3,102 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.54,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 4.81,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 7.83,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 6.0,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -10.36,
+      "avg_change": -12.79,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -19.33,
+      "avg_change": -11.95,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -27.99,
+      "avg_change": -25.06,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.07,
+      "avg_change": -8.06,
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.82,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.7,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -7.15,
+      "avg_change": -7.0,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 3.92,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 7.59,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      27.95
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
-      20.75
+      23.25
     ],
     [
       "ALAB",
       "Astera Labs",
-      19.49
+      22.78
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      17.53
     ],
     [
       "RKLB",
       "Rocket Lab",
-      8.29
+      7.04
     ],
     [
       "PL",
       "Planet Labs",
-      2.24
+      5.13
     ]
   ],
   "topLosers": [
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -17.7
+      "QS",
+      "QuantumScape",
+      -13.34
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -18.61
+      "DRSHF",
+      "DroneShield",
+      -13.91
     ],
     [
-      "OKLO",
-      "Oklo",
-      -24.11
+      "AUR",
+      "Aurora Innovation",
+      -15.23
     ],
     [
       "277810.KQ",
@@ -108,8 +108,8 @@
     [
       "LNZA",
       "LanzaTech",
-      -58.34
+      -51.37
     ]
   ],
-  "lastUpdated": "2026-05-20 09:42:00"
+  "lastUpdated": "2026-05-20 15:31:50"
 }
