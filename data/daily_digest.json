@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-19T23:13:56.062229+00:00",
-  "date": "2026-05-19",
-  "dateDisplay": "Tuesday, May 19, 2026",
+  "generatedAt": "2026-05-20T04:21:10.488555+00:00",
+  "date": "2026-05-20",
+  "dateDisplay": "Wednesday, May 20, 2026",
   "sections": {
     "govActivity": [
       {
@@ -63,58 +63,58 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 8.43,
-        "changePercent": -59.35,
-        "change": -12.31
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 9.63,
-        "changePercent": 27.55,
-        "change": 2.08
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 55.63,
-        "changePercent": -24.45,
-        "change": -18.0
+        "price": 8.64,
+        "changePercent": -58.34,
+        "change": -12.1
       },
       {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
-        "price": 666000.0,
-        "changePercent": -22.11,
-        "change": -189000.0
+        "price": 622000.0,
+        "changePercent": -29.16,
+        "change": -256000.0
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 9.66,
+        "changePercent": 27.95,
+        "change": 2.11
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 55.88,
+        "changePercent": -24.11,
+        "change": -17.75
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 88.11,
-        "changePercent": 20.77,
-        "change": 15.16
+        "price": 88.1,
+        "changePercent": 20.75,
+        "change": 15.14
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 243.72,
-        "changePercent": 19.23,
-        "change": 39.3
+        "price": 244.26,
+        "changePercent": 19.49,
+        "change": 39.84
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 18.2,
-        "changePercent": -18.59,
+        "price": 18.19,
+        "changePercent": -18.61,
         "change": -4.16
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 22.37,
-        "changePercent": -17.42,
-        "change": -4.72
+        "price": 22.3,
+        "changePercent": -17.7,
+        "change": -4.79
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -59.4%"
+    "topMover": "LNZA -58.3%"
   }
 }
