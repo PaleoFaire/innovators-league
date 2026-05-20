@@ -1,6 +1,17 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-05-19 10:30:42 UTC
+// Last updated: 2026-05-20 10:16:32 UTC
 const NASA_PROJECTS = [
+  { id: 182467, title: "LUMEN: Low-light Universal Mapping for Extreme eNvironments", status: "Active", center: "Ames Research Center", techArea: "Intelligent Data Understanding", lastUpdated: "05/19/26" },
+  { id: 183422, title: "High Performance Materials for Space", status: "Completed", center: "Langley Research Center", techArea: "Lightweight Structural Materials", lastUpdated: "05/19/26" },
+  { id: 158561, title: "Nuclear Thermal Propulsion Technology Maturation", status: "Active", center: "Marshall Space Flight Center", techArea: "Nuclear Thermal Propulsion", lastUpdated: "05/19/26" },
+  { id: 158058, title: "Performance of Expansion-Deflection Nozzles for Rotating Detonation Rocket Engin", status: "Completed", center: "CFD Research Corporation", techArea: "Airbreathing Pressure Gain Combustion", lastUpdated: "05/19/26" },
+  { id: 156378, title: "Wall modeled large eddy simulation of high-enthalpy hypersonic flows", status: "Active", center: "University of Colorado Boulder", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "05/19/26" },
+  { id: 156375, title: "High-fidelity numerical simulation and modeling of boundary layer transition and", status: "Active", center: "University of Southern California", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "05/19/26" },
+  { id: 156318, title: "Institute for Model-Based Qualification & Certification of Additive Manufacturin", status: "Active", center: "Carnegie Mellon University", techArea: "Manufacturing Processes", lastUpdated: "05/19/26" },
+  { id: 118475, title: "Virtual Prototyping of Multifunctional Boron-Nitrogen Nanostructures and their C", status: "Completed", center: "Rice University", techArea: "Lightweight Concepts", lastUpdated: "05/19/26" },
+  { id: 116319, title: "Moon-to-Mars Planetary Autonomous Construction Technology", status: "Completed", center: "Marshall Space Flight Center", techArea: "Surface Construction and Assembly", lastUpdated: "05/19/26" },
+  { id: 116262, title: "Descent Systems Study", status: "Completed", center: "Langley Research Center", techArea: "Supersonic Retropropulsion", lastUpdated: "05/19/26" },
+  { id: 183451, title: "Crosscutting Fission-Based Nuclear Capabilities", status: "Completed", center: "Marshall Space Flight Center", techArea: "Nuclear Thermal Propulsion", lastUpdated: "05/19/26" },
   { id: 184875, title: "Crew Connectedness Adv Comm Platform", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/18/26" },
   { id: 184872, title: "Clinical Decision Support", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/18/26" },
   { id: 157152, title: "CC21 NASA Air-athon: Predict Air Quality", status: "Completed", center: "Marshall Space Flight Center", techArea: "In Situ Instruments and Sensors", lastUpdated: "05/18/26" },
@@ -20,15 +31,4 @@ const NASA_PROJECTS = [
   { id: 147017, title: "Space Habitat Structures with Additive Manufacturing", status: "Active", center: "Marshall Space Flight Center", techArea: "Manufacturing Processes", lastUpdated: "05/08/26" },
   { id: 146990, title: "Validating No-Light Lunar Landing Technology", status: "Completed", center: "Johnson Space Center", techArea: "Vehicle Systems", lastUpdated: "05/08/26" },
   { id: 147006, title: "Complex Curvature Retractable Pin Tool Friction Stir Welding Pathfinder Campaign", status: "Active", center: "Marshall Space Flight Center", techArea: "Manufacturing Processes", lastUpdated: "05/08/26" },
-  { id: 147013, title: "Friction Stir Additive Manufacturing", status: "Completed", center: "Marshall Space Flight Center", techArea: "Lightweight Concepts", lastUpdated: "05/08/26" },
-  { id: 146998, title: "Space Manufacturing and Assembly of Revolutionary Thermoplastic Composites", status: "Completed", center: "Marshall Space Flight Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "05/08/26" },
-  { id: 147009, title: "Friction Stir Adjoined Blank-Forming On Revolutionary Machinery", status: "Completed", center: "Langley Research Center", techArea: "Manufacturing Processes", lastUpdated: "05/08/26" },
-  { id: 146989, title: "Metallic TPS", status: "Completed", center: "Langley Research Center", techArea: "Thermal Protection Systems", lastUpdated: "05/08/26" },
-  { id: 146997, title: "Fully Additively-Manufactured LOX-LH2 Engine Demonstration", status: "Completed", center: "Marshall Space Flight Center", techArea: "Cryogenic Propulsion", lastUpdated: "05/08/26" },
-  { id: 146994, title: "Oscillating Heat Pipe Technology for Aeroentry and Commercial Applications", status: "Completed", center: "Ames Research Center", techArea: "Thermal Protection Materials", lastUpdated: "05/08/26" },
-  { id: 147012, title: "Robotically Assembled Light Bender", status: "Completed", center: "Langley Research Center", techArea: "Other Robotic Systems", lastUpdated: "05/08/26" },
-  { id: 147002, title: "Cryotank Technology for Exploration Applications", status: "Completed", center: "Marshall Space Flight Center", techArea: "Lightweight Structural Materials", lastUpdated: "05/08/26" },
-  { id: 147015, title: "Lunar Simulants", status: "Completed", center: "Johnson Space Center", techArea: "Particulate Contamination Prevention and Mitigation", lastUpdated: "05/08/26" },
-  { id: 147004, title: "Carbothermal Reduction Demonstration", status: "Completed", center: "Johnson Space Center", techArea: "Resource Processing for Production of Mission Consumables", lastUpdated: "05/08/26" },
-  { id: 147007, title: "PSI Instrumentation", status: "Active", center: "Langley Research Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/08/26" },
 ];

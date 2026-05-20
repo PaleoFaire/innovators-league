@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-05-19",
-    "vehicle": "Vega-C | Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
-    "payload": "Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
-    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
-    "provider": "Avio S.p.A",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/b31313da-ee5d-42b2-9a27-20cc18105276/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-05-20",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-42",
     "payload": "Starlink Group 17-42",
@@ -136,15 +127,6 @@
   },
   {
     "date": "2026-05-31",
-    "vehicle": "Spectrum | Onward and Upward",
-    "payload": "Onward and Upward",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-05-31",
     "vehicle": "Ariane 64 Block 2 | Amazon Leo (LE-03)",
     "payload": "Amazon Leo (LE-03)",
     "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
@@ -214,6 +196,15 @@
     "provider": "Northrop Grumman Space Systems",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
     "trackedCompany": "Northrop Grumman"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Spectrum | Onward and Upward",
+    "payload": "Onward and Upward",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-06-30",
@@ -448,5 +439,14 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | Crew-13",
+    "payload": "Crew-13",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]

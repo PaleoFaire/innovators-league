@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-05-19 10:49:28 UTC
+// Last updated: 2026-05-20 10:35:06 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -240,7 +240,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Valar Atomics",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 27.5,
+        "bid_fit_score": 27.6,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -478,7 +478,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Quantum Art",
         "sector": "Quantum Computing",
-        "bid_fit_score": 20.9,
+        "bid_fit_score": 20.8,
         "matched_terms": [
           "quantum",
           "computing",
@@ -569,7 +569,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "AiDash",
         "sector": "Infrastructure & Logistics",
-        "bid_fit_score": 11.1,
+        "bid_fit_score": 11.0,
         "matched_terms": [
           "infrastructure",
           "energy",
