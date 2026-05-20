@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T08:33:11.203513+00:00",
+  "generatedAt": "2026-05-20T11:55:00.181384+00:00",
   "date": "2026-05-20",
   "dateDisplay": "Wednesday, May 20, 2026",
   "sections": {
@@ -68,18 +68,18 @@
         "change": -12.1
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 622000.0,
-        "changePercent": -29.16,
-        "change": -256000.0
-      },
-      {
         "ticker": "SATL",
         "company": "Satellogic",
         "price": 9.66,
         "changePercent": 27.95,
         "change": 2.11
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 638000.0,
+        "changePercent": -27.33,
+        "change": -240000.0
       },
       {
         "ticker": "OKLO",
@@ -142,6 +142,13 @@
       {
         "kind": "Federal Register",
         "company": "",
+        "title": "Submission for OMB Review; Comment Request",
+        "date": "2026-05-20",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10057"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
         "title": "Broadcast Station Rule Updates",
         "date": "2026-05-19",
         "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10008"
@@ -149,16 +156,9 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Notice of Intent To Prepare a Supplemental Programmatic Environmental Impact Sta",
-        "date": "2026-05-19",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-09969"
-      },
-      {
-        "kind": "Federal Register",
-        "company": "",
-        "title": "Notice of Closed Meetings To Implement Voluntary Agreements and Related Plans of",
+        "title": "Notice Announcing High School Equivalency Program Competition",
         "date": "2026-05-18",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-09923"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-09931"
       }
     ],
     "patents": [

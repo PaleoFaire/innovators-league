@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-20T08:34:10+00:00",
+  "generatedAt": "2026-05-20T11:55:29+00:00",
   "stats": {
     "companies": 933,
     "vcFirms": 31,
-    "uniqueClusters": 96,
-    "totalInvestments": 244
+    "uniqueClusters": 97,
+    "totalInvestments": 245
   },
   "concentration": {
     "Founders Fund": {
@@ -696,6 +696,12 @@
         "count": 1,
         "companies": [
           "Stark Defence"
+        ]
+      },
+      "ai-agents": {
+        "count": 1,
+        "companies": [
+          "Dust"
         ]
       },
       "edge-ai-silicon": {
@@ -2395,6 +2401,13 @@
         "share": 0.5
       }
     ],
+    "ai-agents": [
+      {
+        "vc": "Sequoia Capital",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
     "edge-ai-silicon": [
       {
         "vc": "Sequoia Capital",
@@ -2818,14 +2831,19 @@
     },
     {
       "vc": "Sequoia Capital",
-      "recentCount": 9,
-      "totalCount": 18,
-      "score": 11.004,
+      "recentCount": 10,
+      "totalCount": 19,
+      "score": 11.926,
       "topCluster": "ai-robotics-embodied",
       "recentExamples": [
         {
           "company": "Stark Defence",
           "cluster": "vtol-munitions",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Dust",
+          "cluster": "ai-agents",
           "addedDate": "2026-04"
         },
         {
@@ -2841,11 +2859,6 @@
         {
           "company": "Lightelligence",
           "cluster": "photonic-compute",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Xaira Therapeutics",
-          "cluster": "ai-drug-discovery",
           "addedDate": "2026-04"
         }
       ]

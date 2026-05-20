@@ -1,6 +1,99 @@
 {
-  "generatedAt": "2026-05-20T08:34:11+00:00",
+  "generatedAt": "2026-05-20T11:55:30+00:00",
   "matrix": {
+    "autonomy-ground-vehicles": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 20144211,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Mara",
+            "amount": 20144211,
+            "date": "2026-05-20",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "data-center-infrastructure": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 827500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Claros",
+            "amount": 827500,
+            "date": "2026-05-19",
+            "source": "formd",
+            "investors": [
+              "General Catalyst",
+              "Red Cell Partners",
+              "Systemiq Capital",
+              "Aero X Ventures",
+              "Trenches Capital",
+              "VIPC"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst"
+        ]
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
+        ]
+      }
+    },
+    "lunar-robotics": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 32115099,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Lunar Outpost",
+            "amount": 32115099,
+            "date": "2026-05-14",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -879,41 +972,6 @@
         ]
       }
     },
-    "data-center-infrastructure": {
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Crusoe Energy",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Valor Equity Partners",
-              "Mubadala Capital",
-              "Founders Fund",
-              "Lowercarbon Capital",
-              "Spark Capital",
-              "Tiger Global Management",
-              "NVIDIA",
-              "Bain Capital Ventures",
-              "Fidelity Management",
-              "Atreides Management",
-              "1789 Capital",
-              "Salesforce Ventures",
-              "T. Rowe Price"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Lowercarbon Capital",
-          "Valor Equity Partners"
-        ]
-      }
-    },
     "ai-generative-media": {
       "2026-Q2": {
         "deals": 1,
@@ -1267,6 +1325,42 @@
     }
   },
   "vcAttribution": {
+    "General Catalyst": {
+      "2026-Q2": [
+        {
+          "company": "Claros",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-05-19",
+          "source": "formd"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Anthropic",
+          "cluster": "ai-foundation-models",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Relativity Space",
+          "cluster": "space-launch-large",
+          "date": "2025-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1293,36 +1387,6 @@
           "company": "Crusoe Energy",
           "cluster": "data-center-infrastructure",
           "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "General Catalyst": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Anthropic",
-          "cluster": "ai-foundation-models",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Relativity Space",
-          "cluster": "space-launch-large",
-          "date": "2025-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1647,9 +1711,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 61,
-    "totalUSDSold": 0,
-    "uniqueClusters": 36,
+    "totalDealsTracked": 64,
+    "totalUSDSold": 53086810,
+    "uniqueClusters": 38,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [
