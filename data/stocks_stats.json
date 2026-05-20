@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.37,
+      "avg_change": -0.54,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 8.84,
+      "avg_change": 8.2,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -7.84,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -10.67,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -19.53,
+      "avg_change": -19.33,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -28.4,
+      "avg_change": -27.99,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.87,
+      "avg_change": -16.07,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.14,
+      "avg_change": -4.15,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -7.17,
+      "avg_change": -7.15,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 3.63,
+      "avg_change": 3.92,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "SATL",
       "Satellogic",
-      27.55
+      27.95
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      20.77
+      20.75
     ],
     [
       "ALAB",
       "Astera Labs",
-      19.23
+      19.49
     ],
     [
       "RKLB",
       "Rocket Lab",
-      8.1
+      8.29
     ],
     [
-      "9348.T",
-      "ispace",
-      7.23
+      "PL",
+      "Planet Labs",
+      2.24
     ]
   ],
   "topLosers": [
     [
       "NNE",
       "Nano Nuclear Energy",
-      -17.42
+      -17.7
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -18.59
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -22.11
+      -18.61
     ],
     [
       "OKLO",
       "Oklo",
-      -24.45
+      -24.11
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -29.16
     ],
     [
       "LNZA",
       "LanzaTech",
-      -59.35
+      -58.34
     ]
   ],
-  "lastUpdated": "2026-05-19 19:56:52"
+  "lastUpdated": "2026-05-20 03:56:20"
 }
