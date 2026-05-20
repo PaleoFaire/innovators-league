@@ -666,9 +666,9 @@
       "thesisCluster": "data-center-infrastructure"
     },
     {
-      "id": "Aetherflux",
+      "id": "Cowboy Space Corporation",
       "sector": "Space & Aerospace",
-      "thesisCluster": "space-solar-power"
+      "thesisCluster": "orbital-data-centers"
     },
     {
       "id": "Applied Intuition",
@@ -6515,12 +6515,6 @@
       "cluster": "space-lunar-planetary"
     },
     {
-      "src": "Aetherflux",
-      "dst": "Reflect Orbital",
-      "type": "thesis",
-      "cluster": "space-solar-power"
-    },
-    {
       "src": "Impulse Space",
       "dst": "Longshot Space",
       "type": "thesis",
@@ -9565,9 +9559,9 @@
   ],
   "counts": {
     "total_nodes": 933,
-    "total_edges": 847,
+    "total_edges": 846,
     "competitor_edges": 187,
-    "thesis_edges": 660,
+    "thesis_edges": 659,
     "alumni_edges": 0
   }
 }

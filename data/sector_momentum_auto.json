@@ -1,90 +1,91 @@
 [
   {
-    "sector": "Space & Aerospace",
-    "momentum": 62,
-    "trend": "steady",
-    "catalysts": [
-      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero",
-      "OSHA probing worker death at SpaceX&#8217;s Starbase site",
-      "Four NASA payloads to fly on Astrolab\u2019s first lunar rover"
-    ],
-    "fundingQ": "$2.2B",
-    "components": {
-      "funding": 78,
-      "news": 60,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-19"
-  },
-  {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Here\u2019s why Elon Musk lost his suit against OpenAI",
-      "Anthropic has acquired the dev tools startup used by OpenAI,",
-      "Elon Musk Loses Landmark Lawsuit Against OpenAI"
+      "Singapore partners OpenAI in $234M push to expand national A",
+      "Tesla&#8217;s Former AI Lead Goes To Anthropic",
+      "Former OpenAI Staffers Warn That xAI\u2019s Poor Safety Record Co"
     ],
     "fundingQ": "$2218.7B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 56,
+    "trend": "steady",
+    "catalysts": [
+      "Singapore partners OpenAI in $234M push to expand national A",
+      "Former OpenAI Staffers Warn That xAI\u2019s Poor Safety Record Co",
+      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 35,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 50,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
-      "Dutch dronemaker Destinus in \u20ac200m funding talks, reports sa",
-      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a"
+      "NATO eastern deterrence strategy takes shape around \u2018autonom",
+      "Shield AI tapped to integrate autonomous software on LUCAS d",
+      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 45,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
+      "Mach Industries just spent $50M to solve a major defense tec",
+      "Shield AI tapped to integrate autonomous software on LUCAS d",
+      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
     ],
     "fundingQ": "$32.5B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
-      "market": 37
+      "market": 45
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 45,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Mach Industries just spent $50M to solve a major defense tec"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Ocean & Maritime",
@@ -100,7 +101,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Nuclear Energy",
@@ -118,78 +119,97 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 34,
+    "momentum": 33,
     "trend": "steady",
     "catalysts": [
-      "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win",
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
-      "Fervo Energy unveils new power plant details in IPO filing"
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 30,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
+      "Dunia Innovations unveils \u20ac280M Berlin GigaLab to industrial",
       "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
-      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi",
-      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a"
+      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 16,
+    "sector": "Chips & Semiconductors",
+    "momentum": 23,
     "trend": "declining",
     "catalysts": [
-      "Here\u2019s why Elon Musk lost his suit against OpenAI",
-      "X-energy gets federal environmental approval for Texas nucle",
-      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World"
+      "Dunia Innovations unveils \u20ac280M Berlin GigaLab to industrial",
+      "What US chipmaker Cerebras\u2019s IPO could mean for startups lik",
+      "Cerebras Shares Soar In First Day On Nasdaq"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
+      "hiring": 0,
+      "market": 89
+    },
+    "lastUpdated": "2026-05-20"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "Singapore partners OpenAI in $234M push to expand national A",
+      "Shield AI tapped to integrate autonomous software on LUCAS d",
+      "Here\u2019s why Elon Musk lost his suit against OpenAI"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Dunia Innovations unveils \u20ac280M Berlin GigaLab to industrial",
       "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
       "Waymo recalls 3,791 robotaxis over flooded road incident, de"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -205,49 +225,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-19"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Cerebras Shares Soar In First Day On Nasdaq",
-      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 40
-    },
-    "lastUpdated": "2026-05-19"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi",
-      "Rivian opens R2 configurator: here are all the options and p",
-      "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 25,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Biotech & Health",
     "momentum": 7,
     "trend": "declining",
     "catalysts": [
-      "Tomorrow.io adds $35 million to DeepSky funding round",
+      "Colossal Biosciences is growing chickens in a 3D-printed art",
       "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
       "<a href=\"/biotech/regeneron-rocked-failure-defining-catalyst"
     ],
@@ -258,7 +243,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 7,
+    "trend": "declining",
+    "catalysts": [
+      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi",
+      "Rivian opens R2 configurator: here are all the options and p",
+      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-05-20"
   },
   {
     "sector": "Quantum Computing",
@@ -274,6 +277,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-20"
   }
 ]

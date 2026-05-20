@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T09:55:26.805410Z",
+  "generated_at": "2026-05-20T09:42:21.779342Z",
   "takes": [
     {
       "author": "Next Big Future",
@@ -22,6 +22,26 @@
       "signal_type": "ipo"
     },
     {
+      "author": "Wired",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "Former OpenAI Staffers Warn That xAI\u2019s Poor Safety Record Could Complicate SpaceX\u2019s IPO",
+      "date": "Tue, 19 Ma",
+      "source": "news",
+      "source_url": "https://www.wired.com/story/ex-openai-staffers-warn-spacex-investors-of-ai-safety-risks/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Sifted",
+      "role": "Industry signal",
+      "company": "Cerebras",
+      "text": "What US chipmaker Cerebras\u2019s IPO could mean for startups like Fractile",
+      "date": "Tue, 19 Ma",
+      "source": "news",
+      "source_url": "https://sifted.eu/articles/cerebras-ipo-european-chip-startups/",
+      "signal_type": "ipo"
+    },
+    {
       "author": "Canary Media",
       "role": "Industry signal",
       "company": "Fervo Energy",
@@ -30,16 +50,6 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
       "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
-      "date": "Mon, 18 Ma",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
-      "signal_type": "news"
     },
     {
       "author": "Tech.eu",
@@ -75,7 +85,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 7,
+    "from_news": 8,
     "from_press": 0
   }
 }
