@@ -48586,23 +48586,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-20 11:55
+// Last updated: 2026-05-20 15:50
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Einride", headline: "Einride L4 autonomous electric semi truck gets real ''in Ohio", source: "Electrek", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "OpenAI", headline: "Singapore partners OpenAI in $234M push to expand national AI ecosystem", source: "TechNode Global", time: "3h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Deterrence", headline: "NATO eastern deterrence strategy takes shape around 'autonomous zone'", source: "Defense News", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Dunia", headline: "Dunia Innovations unveils '280M Berlin GigaLab to industrialise AI-driven materials discovery", source: "Tech.eu", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Tesla's Former AI Lead Goes To Anthropic", source: "CleanTechnica", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Mach Industries", headline: "Mach Industries just spent $50M to solve a major defense tech problem", source: "TechCrunch", time: "14h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "Shield AI", headline: "Shield AI tapped to integrate autonomous software on LUCAS drone", source: "Breaking Defense", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "Former OpenAI Staffers Warn That xAI's Poor Safety Record Could Complicate SpaceX's IPO", source: "Wired", time: "20h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Cohere", headline: "Cohere snaps up second German AI startup weeks after Aleph Alpha deal", source: "Sifted", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Vast", headline: "Vast announces line of high-power satellite buses", source: "SpaceNews", time: "22h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Cerebras", headline: "What US chipmaker Cerebras's IPO could mean for startups like Fractile", source: "Sifted", time: "23h ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Colossal Biosciences", headline: "Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell", source: "MIT Tech Review", time: "23h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Matter", headline: "When Refusal Doesn't Matter: Operation Epic Fury and the Erosion of Host Nation Consent", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "Here's why Elon Musk lost his suit against OpenAI", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "X-Energy", headline: "X-energy gets federal environmental approval for Texas nuclear reactors", source: "Canary Media", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "AI model &quot;capability overhang&quot; biggest challenge facing European businesses, says OpenAI revenue chief", source: "Tech.eu", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Boston Metal", headline: "Boston Metal gets a $75 million lifeline to produce critical metals", source: "MIT Tech Review", time: "2h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Einride", headline: "Einride L4 autonomous electric semi truck gets real ''in Ohio", source: "Electrek", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "Singapore partners OpenAI in $234M push to expand national AI ecosystem", source: "TechNode Global", time: "7h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Deterrence", headline: "NATO eastern deterrence strategy takes shape around 'autonomous zone'", source: "Defense News", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Dunia", headline: "Dunia Innovations unveils '280M Berlin GigaLab to industrialise AI-driven materials discovery", source: "Tech.eu", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Tesla's Former AI Lead Goes To Anthropic", source: "CleanTechnica", time: "17h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Mach Industries", headline: "Mach Industries just spent $50M to solve a major defense tech problem", source: "TechCrunch", time: "18h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Shield AI", headline: "Shield AI tapped to integrate autonomous software on LUCAS drone", source: "Breaking Defense", time: "22h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Former OpenAI Staffers Warn That xAI's Poor Safety Record Could Complicate SpaceX's IPO", source: "Wired", time: "1d ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Cohere", headline: "Cohere snaps up second German AI startup weeks after Aleph Alpha deal", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Vast", headline: "Vast announces line of high-power satellite buses", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Cerebras", headline: "What US chipmaker Cerebras's IPO could mean for startups like Fractile", source: "Sifted", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Colossal Biosciences", headline: "Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Matter", headline: "When Refusal Doesn't Matter: Operation Epic Fury and the Erosion of Host Nation Consent", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
