@@ -48586,23 +48586,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-20 21:04
+// Last updated: 2026-05-20 22:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "The SpaceX IPO filing has arrived", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI claims it solved an 80-year-old math problem ' for real this time", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "OpenAI", headline: "OpenAI barrels toward IPO that may happen in September", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "AI model &quot;capability overhang&quot; biggest challenge facing European businesses, says OpenAI revenue chief", source: "Tech.eu", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Boston Metal", headline: "Green steel startup Boston Metal is doubling down on critical metals", source: "MIT Tech Review", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Einride", headline: "Einride L4 autonomous electric semi truck gets real ''in Ohio", source: "Electrek", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "OpenAI", headline: "Singapore partners OpenAI in $234M push to expand national AI ecosystem", source: "TechNode Global", time: "12h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "Deterrence", headline: "NATO eastern deterrence strategy takes shape around 'autonomous zone'", source: "Defense News", time: "12h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Dunia", headline: "Dunia Innovations unveils '280M Berlin GigaLab to industrialise AI-driven materials discovery", source: "Tech.eu", time: "16h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Tesla's Former AI Lead Goes To Anthropic", source: "CleanTechnica", time: "22h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Shield AI", headline: "Shield AI tapped to integrate autonomous software on LUCAS drone", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Former OpenAI Staffers Warn That xAI's Poor Safety Record Could Complicate SpaceX's IPO", source: "Wired", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Cohere", headline: "Cohere snaps up second German AI startup weeks after Aleph Alpha deal", source: "Sifted", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Vast", headline: "Vast announces line of high-power satellite buses", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Cerebras", headline: "What US chipmaker Cerebras's IPO could mean for startups like Fractile", source: "Sifted", time: "1d ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "xAI burned $6.4B last year. SpaceX's IPO filing shows why the spending is far from over", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX files for IPO", source: "SpaceNews", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "xAI", headline: "Musk's xAI is being sued over its data center generators. Now, it's buying $2.8B more.", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a Year to Access Its Data Centers", source: "Wired", time: "Just now", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic will pay xAI $1.25B per month for compute", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "The SpaceX IPO filing has arrived", source: "TechCrunch", time: "1h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI claims it solved an 80-year-old math problem ' for real this time", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "OpenAI", headline: "OpenAI barrels toward IPO that may happen in September", source: "TechCrunch", time: "5h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "AI model &quot;capability overhang&quot; biggest challenge facing European businesses, says OpenAI revenue chief", source: "Tech.eu", time: "8h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Boston Metal", headline: "Green steel startup Boston Metal is doubling down on critical metals", source: "MIT Tech Review", time: "9h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Einride", headline: "Einride L4 autonomous electric semi truck gets real ''in Ohio", source: "Electrek", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "OpenAI", headline: "Singapore partners OpenAI in $234M push to expand national AI ecosystem", source: "TechNode Global", time: "14h ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "Deterrence", headline: "NATO eastern deterrence strategy takes shape around 'autonomous zone'", source: "Defense News", time: "14h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Dunia", headline: "Dunia Innovations unveils '280M Berlin GigaLab to industrialise AI-driven materials discovery", source: "Tech.eu", time: "17h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "Tesla's Former AI Lead Goes To Anthropic", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
