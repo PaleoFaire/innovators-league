@@ -5,100 +5,100 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 4.81,
+      "avg_change": 5.46,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 6.0,
+      "avg_change": 5.96,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -12.79,
+      "avg_change": -13.61,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.95,
+      "avg_change": -11.14,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -25.06,
+      "avg_change": -24.95,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.06,
+      "avg_change": -7.79,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.7,
+      "avg_change": -0.66,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -7.0,
+      "avg_change": -5.04,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 7.59,
+      "avg_change": 9.24,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ASTS",
-      "AST SpaceMobile",
-      23.25
-    ],
-    [
       "ALAB",
       "Astera Labs",
-      22.78
+      28.29
     ],
     [
       "SATL",
       "Satellogic",
-      17.53
+      20.0
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      19.74
     ],
     [
       "RKLB",
       "Rocket Lab",
-      7.04
+      8.16
     ],
     [
-      "PL",
-      "Planet Labs",
-      5.13
+      "PLTR",
+      "Palantir",
+      5.46
     ]
   ],
   "topLosers": [
     [
-      "QS",
-      "QuantumScape",
-      -13.34
+      "SMR",
+      "NuScale Power",
+      -13.13
     ],
     [
       "DRSHF",
       "DroneShield",
-      -13.91
+      -13.49
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -15.23
+      -15.24
     ],
     [
       "277810.KQ",
@@ -108,8 +108,8 @@
     [
       "LNZA",
       "LanzaTech",
-      -51.37
+      -53.95
     ]
   ],
-  "lastUpdated": "2026-05-20 15:31:50"
+  "lastUpdated": "2026-05-20 20:24:07"
 }
