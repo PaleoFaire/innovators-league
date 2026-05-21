@@ -36266,7 +36266,69 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     source: "Black Flag 100",
     addedDate: "2026-05-14",
     tags: ["black-flag-100"]
+  },
+  // ─── Wave Function Ventures portfolio additions — 2026-05-15 ───
+  {
+    name: "Tobe Energy",
+    founded: 2024,
+    sector: "Climate & Energy",
+    description: "Membrane-free, pulsed-waveform isothermal electrolyzer producing green hydrogen at >92% system efficiency using only commodity materials (no platinum, iridium, or rare earths). Eliminates membranes and active cooling, targeting up to 75% cost reduction versus conventional electrolysis. $4.62M seed (2025); Cortado Ventures + Wave Function Ventures.",
+    founder: "Colby DeWeese, Caleb Lareau",
+    location: "Oklahoma City, OK",
+    state: "OK",
+    website: "https://tobe.energy",
+    fundingStage: "Seed",
+    totalRaised: "$4.62M",
+    techApproach: "Membrane-free isothermal electrolysis using pulsed waveforms and commodity materials to slash green-hydrogen capex and opex.",
+    investors: ["Wave Function Ventures", "Cortado Ventures", "46 VC", "Techstars", "i2E", "University of Tulsa"],
+    tags: ["hydrogen", "electrolysis", "green hydrogen"],
+    source: "Wave Function Ventures portfolio",
+    addedDate: "2026-05-15"
+  },
+  {
+    name: "Standard Electron",
+    founded: 2025,
+    sector: "Climate & Energy",
+    description: "Vertically integrated industrial utility combining on-site generation, storage, and distribution into a deployable energy product — treats reliable industrial-grade power as a product, not a multi-year construction project. Operating in stealth.",
+    location: "Austin, TX",
+    state: "TX",
+    website: "https://standardelectron.com",
+    fundingStage: "Pre-Seed",
+    techApproach: "Deployable generation + storage + distribution hardware stack delivering industrial-grade power anywhere — distributed power for data centers and reshored industry.",
+    investors: ["Wave Function Ventures", "Brightlight Ventures"],
+    tags: ["distributed power", "industrial power", "data centers"],
+    source: "Wave Function Ventures portfolio",
+    addedDate: "2026-05-15"
+  },
+  {
+    name: "The Red Metal Company",
+    sector: "Climate & Energy",
+    description: "Deep-stealth Wave Function Ventures portfolio company. Site is placeholder. Naming convention strongly suggests critical-minerals play focused on copper (\\\"the red metal\\\"). No public team, funding, or product disclosure as of mid-2026.",
+    website: "https://theredmetalcompany.com",
+    fundingStage: "Stealth",
+    techApproach: "Undisclosed — likely critical-minerals / copper supply chain based on naming convention and Wave Function thesis.",
+    investors: ["Wave Function Ventures"],
+    tags: ["stealth", "critical minerals", "copper"],
+    source: "Wave Function Ventures portfolio",
+    addedDate: "2026-05-15"
+  },
+  {
+    name: "Resolute Grid",
+    founded: 2025,
+    sector: "Climate & Energy",
+    description: "US-made medium- and large-power transformers (MPTs/LPTs) on a \"days, not months\" deployment timeline to replace aging American grid hardware — ~70% of US transformers are >25 years old facing 200-week lead times. Pairs domestic fabrication and cyber-secure designs with AI/ML analytics for utilities and hyperscalers facing AI, EV, and reshored-industrial load growth.",
+    founder: "Marcus Owenby",
+    location: "Heath, TX",
+    state: "TX",
+    website: "https://resolutegrid.com",
+    fundingStage: "Pre-Seed",
+    techApproach: "Domestic, cyber-secure rapid-manufacturing stack for large grid transformers + AI/ML software layer for monitoring and supply-chain resilience.",
+    investors: ["Wave Function Ventures", "Stage 1 Ventures"],
+    tags: ["transformers", "power grid", "reindustrialize"],
+    source: "Wave Function Ventures portfolio",
+    addedDate: "2026-05-15"
   }
+
 
 
 ];
