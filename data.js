@@ -36327,7 +36327,2674 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     tags: ["transformers", "power grid", "reindustrialize"],
     source: "Wave Function Ventures portfolio",
     addedDate: "2026-05-15"
+  },
+  // ─── VC portfolio audit additions — 2026-05-15 (10 VCs scraped: a16z/AD, Founders Fund, Lux, Khosla, DCVC, Eclipse, BEV, 8VC, Decisive Point, Shield Capital) ───
+  {
+    name: "Until",
+    sector: "Biotech & Health",
+    description: "Cryopreservation hardware for reversible organ cryopreservation. Portfolio company of Founders Fund.",
+    website: "https://untilcryo.com",
+    investors: ["Founders Fund"],
+    source: "VC portfolio audit Founders Fund",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Boring Company",
+    sector: "Infrastructure & Logistics",
+    description: "Tunnel boring and infrastructure with Prufrock TBM. Portfolio company of Founders Fund.",
+    website: "https://boringcompany.com",
+    investors: ["Founders Fund"],
+    source: "VC portfolio audit Founders Fund",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nanotronics",
+    sector: "Chips & Semiconductors",
+    description: "Optical inspection hardware for semiconductor manufacturing. Portfolio company of Founders Fund.",
+    website: "https://nanotronics.co",
+    investors: ["Founders Fund"],
+    source: "VC portfolio audit Founders Fund",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Jetson",
+    sector: "Climate & Energy",
+    description: "Advanced electric heat pumps replacing fossil-fuel home heating. Portfolio company of Eclipse Ventures.",
+    website: "https://jetsonhome.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Genesis AI",
+    sector: "Robotics & Manufacturing",
+    description: "General-purpose robots for physical labor. Portfolio company of Eclipse Ventures.",
+    website: "https://genesis.ai",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Anode",
+    sector: "Climate & Energy",
+    description: "Battery-powered mobile microgrids replacing diesel generators. Portfolio company of Eclipse Ventures.",
+    website: "https://anode.tech",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "6 River Systems",
+    sector: "Robotics & Manufacturing",
+    description: "Warehouse automation with collaborative robots. Portfolio company of Eclipse Ventures.",
+    website: "https://6river.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Watchmaker Genomics",
+    sector: "Biotech & Health",
+    description: "Enzyme manufacturing for NGS and molecular diagnostics. Portfolio company of Eclipse Ventures.",
+    website: "https://watchmakergenomics.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Quantum Source",
+    sector: "Quantum Computing",
+    description: "Photonic quantum computers. Portfolio company of Eclipse Ventures.",
+    website: "https://qs-labs.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nucleus Radiopharma",
+    sector: "Biotech & Health",
+    description: "Radioligand therapy manufacturing for oncology. Portfolio company of Eclipse Ventures.",
+    website: "https://nucleusrad.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Oxide",
+    sector: "Infrastructure & Logistics",
+    description: "Rack-scale on-prem cloud computers for vertically integrated cloud era. Portfolio company of Eclipse Ventures.",
+    website: "https://oxide.computer",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "ForSight Robotics",
+    sector: "Biotech & Health",
+    description: "Surgical robotics fused with AI for eye surgery. Portfolio company of Eclipse Ventures.",
+    website: "https://forsightrobotics.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Efficient Computer",
+    sector: "Chips & Semiconductors",
+    description: "Most energy-efficient general-purpose processor. Portfolio company of Eclipse Ventures.",
+    website: "https://efficient.computer",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Reframe Systems",
+    sector: "Robotics & Manufacturing",
+    description: "Turnkey home builder with physical AI and distributed micro-factories. Portfolio company of Eclipse Ventures.",
+    website: "https://reframe.systems",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Tandem PV",
+    sector: "Climate & Energy",
+    description: "Perovskite tandem solar panels with 30-40% more energy than silicon. Portfolio company of Eclipse Ventures.",
+    website: "https://tandempv.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Verkada",
+    sector: "Defense & Security",
+    description: "Cloud-based physical security hardware (cameras, access control). Portfolio company of Eclipse Ventures.",
+    website: "https://verkada.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Remedy (Scientific)",
+    sector: "Robotics & Manufacturing",
+    description: "Robotics for contaminated land cleanup. Portfolio company of Eclipse Ventures.",
+    website: "https://remedyscientific.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "AheadComputing",
+    sector: "Chips & Semiconductors",
+    description: "High-performance RISC-V CPU cores for AI-era compute. Portfolio company of Eclipse Ventures.",
+    website: "https://aheadcomputing.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Capstan Medical",
+    sector: "Biotech & Health",
+    description: "Surgical robotics for catheter-based heart valve repair. Portfolio company of Eclipse Ventures.",
+    website: "https://capstanmedical.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Also",
+    sector: "Transportation",
+    description: "Light EV platform spun out of Rivian. Portfolio company of Eclipse Ventures.",
+    website: "https://ridealso.com",
+    investors: ["Eclipse Ventures"],
+    source: "VC portfolio audit Eclipse Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Aloft",
+    sector: "Drones & Autonomous",
+    description: "Drone airspace systems and UTM (formerly Kittyhawk). Portfolio company of Decisive Point.",
+    website: "https://aloft.ai",
+    investors: ["Decisive Point"],
+    source: "VC portfolio audit Decisive Point",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Enhanced Radar",
+    sector: "Defense & Security",
+    description: "Sensors + AI (Yeager) to augment air traffic controllers. Portfolio company of Decisive Point.",
+    website: "https://enhancedradar.com",
+    investors: ["Decisive Point"],
+    source: "VC portfolio audit Decisive Point",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "EpiSci",
+    sector: "Defense & Security",
+    description: "AI for manned/unmanned teaming, cognitive EW, autonomous network management. Portfolio company of Decisive Point.",
+    website: "https://episci.com",
+    investors: ["Decisive Point"],
+    source: "VC portfolio audit Decisive Point",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Flightwave",
+    sector: "Drones & Autonomous",
+    description: "UAS for professional aerial data collection. Portfolio company of Decisive Point.",
+    website: "http://flightwave.aero",
+    investors: ["Decisive Point"],
+    source: "VC portfolio audit Decisive Point",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "HavocAI",
+    sector: "Ocean & Maritime",
+    description: "Ultra-low-cost high-rate production USVs for defense and commercial. Portfolio company of Decisive Point.",
+    website: "http://havocai.com",
+    investors: ["Decisive Point"],
+    source: "VC portfolio audit Decisive Point",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Lift Aircraft",
+    sector: "Transportation",
+    description: "Personal eVTOL aircraft (Hexa) for single passenger. Portfolio company of Decisive Point.",
+    website: "https://liftaircraft.com",
+    investors: ["Decisive Point"],
+    source: "VC portfolio audit Decisive Point",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Maybell Quantum",
+    sector: "Quantum Computing",
+    description: "Quantum computing infrastructure tools for US quantum leadership. Portfolio company of Decisive Point.",
+    website: "https://maybellquantum.com",
+    investors: ["Decisive Point"],
+    source: "VC portfolio audit Decisive Point",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Pison",
+    sector: "Defense & Security",
+    description: "Neuromuscular signal capture human-machine interfaces. Portfolio company of Decisive Point.",
+    website: "https://pisontechnology.com",
+    investors: ["Decisive Point"],
+    source: "VC portfolio audit Decisive Point",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Arena AI",
+    sector: "Defense & Security",
+    description: "Electromagnetic Superintelligence (Atlas RF Studio); RF/EW platform. Portfolio company of Shield Capital.",
+    website: "https://arena-ai.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Code Metal",
+    sector: "Defense & Security",
+    description: "Verifiable code translation for mission critical legacy modernization. Portfolio company of Shield Capital.",
+    website: "https://codemetal.ai",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Dedrone",
+    sector: "Defense & Security",
+    description: "Counter-drone airspace security for airports, prisons, military sites. Portfolio company of Shield Capital.",
+    website: "https://dedrone.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Hawkeye 360",
+    sector: "Space & Aerospace",
+    description: "RF satellite intelligence and geolocation. Portfolio company of Shield Capital.",
+    website: "https://he360.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "mPower Technology",
+    sector: "Space & Aerospace",
+    description: "DragonSCALES ultralight solar cells for space. Portfolio company of Shield Capital.",
+    website: "https://mpowertech.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Obviant",
+    sector: "Defense & Security",
+    description: "Unified platform for defense acquisition data. Portfolio company of Shield Capital.",
+    website: "https://obviant.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Overwatch Imaging",
+    sector: "Drones & Autonomous",
+    description: "Aerial imaging payloads + analytics for defense + surveillance. Portfolio company of Shield Capital.",
+    website: "https://overwatchimaging.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Seasats",
+    sector: "Ocean & Maritime",
+    description: "Autonomous unmanned surface vessels for defense + commercial. Portfolio company of Shield Capital.",
+    website: "https://seasats.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "UFORCE",
+    sector: "Defense & Security",
+    description: "Combat-Proven Unmanned Systems & Defense Tech. Portfolio company of Shield Capital.",
+    website: "https://uforce.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Vector (TF Vector)",
+    sector: "Defense & Security",
+    description: "Wartech for the warfighter. Portfolio company of Shield Capital.",
+    website: "https://tfvector.com",
+    investors: ["Shield Capital"],
+    source: "VC portfolio audit Shield Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Aetherflux",
+    sector: "Space & Aerospace",
+    description: "Delivering space-based solar power for global energy independence Portfolio company of Andreessen Horowitz (American Dynamism).",
+    website: "https://aetherflux.com",
+    investors: ["Andreessen Horowitz (American Dynamism)"],
+    source: "VC portfolio audit Andreessen Horowitz (American Dynamism)",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "CX2",
+    sector: "Defense & Security",
+    description: "AI-driven electronic warfare tools and EW hardware for the electromagnetic battlefield Portfolio company of Andreessen Horowitz (American Dynamism) + 8VC.",
+    website: "https://cx2.com",
+    investors: ["Andreessen Horowitz (American Dynamism)", "8VC"],
+    source: "VC portfolio audit Andreessen Horowitz (American Dynamism) + 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Reveal",
+    sector: "Defense & Security",
+    description: "Real-time situational awareness hardware (AR/imaging) for frontline forces Portfolio company of Andreessen Horowitz (American Dynamism).",
+    website: "https://revealtech.ai",
+    investors: ["Andreessen Horowitz (American Dynamism)"],
+    source: "VC portfolio audit Andreessen Horowitz (American Dynamism)",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Proclaim",
+    sector: "Biotech & Health",
+    description: "Personalized automated oral health system Portfolio company of Khosla Ventures.",
+    website: "https://proclaimhealth.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Somnee",
+    sector: "Biotech & Health",
+    description: "Clinical grade headband to improve sleep Portfolio company of Khosla Ventures.",
+    website: "https://somneesleep.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Vero Biosciences",
+    sector: "Biotech & Health",
+    description: "Proteomics for precision organ health Portfolio company of Khosla Ventures.",
+    website: "https://www.verobioscience.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Point One",
+    sector: "Infrastructure & Logistics",
+    description: "Precision location platform with centimeter-level accuracy Portfolio company of Khosla Ventures.",
+    website: "https://pointonenav.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "FieldAI",
+    sector: "Robotics & Manufacturing",
+    description: "Transforming industries through on-edge robotic autonomy Portfolio company of Khosla Ventures.",
+    website: "https://fieldai.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Zetwerk",
+    sector: "Robotics & Manufacturing",
+    description: "Universal manufacturing network Portfolio company of Khosla Ventures.",
+    website: "http://www.zetwerk.com",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Windborne",
+    sector: "Climate & Energy",
+    description: "AI-powered weather balloons Portfolio company of Khosla Ventures.",
+    website: "https://windbornesystems.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Vayu",
+    sector: "Robotics & Manufacturing",
+    description: "Building delivery bots Portfolio company of Khosla Ventures.",
+    website: "https://www.vayurobotics.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Sagence",
+    sector: "Chips & Semiconductors",
+    description: "Revolutionizing analog computing for AI Portfolio company of Khosla Ventures.",
+    website: "https://www.sagence-ai.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Skybox",
+    sector: "Space & Aerospace",
+    description: "High-resolution imaging satellites Portfolio company of Khosla Ventures.",
+    website: "https://abc.xyz/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Glydways",
+    sector: "Transportation",
+    description: "High-capacity urban mass transit Portfolio company of Khosla Ventures.",
+    website: "https://www.glydways.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nitricity",
+    sector: "Climate & Energy",
+    description: "Fertilizer from air Portfolio company of Khosla Ventures.",
+    website: "https://www.nitricity.co/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "TerraAI",
+    sector: "Climate & Energy",
+    description: "Improving critical resource development with advanced intelligent systems Portfolio company of Khosla Ventures.",
+    website: "https://terraai.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Enzymit",
+    sector: "Biotech & Health",
+    description: "Cell-free biomanufacturing platform Portfolio company of Khosla Ventures.",
+    website: "https://www.enzymit.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Redoxblox",
+    sector: "Climate & Energy",
+    description: "Energy storage solution Portfolio company of Khosla Ventures.",
+    website: "https://redoxblox.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Spiritus",
+    sector: "Climate & Energy",
+    description: "Direct air capture at scale Portfolio company of Khosla Ventures.",
+    website: "https://spiritus.com/en",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Ceibo",
+    sector: "Climate & Energy",
+    description: "Unlocking the world's copper Portfolio company of Khosla Ventures.",
+    website: "https://www.ceibo.tech/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Caelux",
+    sector: "Climate & Energy",
+    description: "Using perovskites for lower-cost solar Portfolio company of Khosla Ventures.",
+    website: "http://www.caelux.com",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Leaft",
+    sector: "Climate & Energy",
+    description: "Capturing Rubisco protein from green leaves Portfolio company of Khosla Ventures.",
+    website: "https://www.leaftfoods.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Impossible Foods",
+    sector: "Climate & Energy",
+    description: "Burgers, chicken nuggets and pork all from plants Portfolio company of Khosla Ventures.",
+    website: "https://www.impossiblefoods.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Blue River",
+    sector: "Robotics & Manufacturing",
+    description: "Changing agriculture with intelligent machinery Portfolio company of Khosla Ventures.",
+    website: "https://bluerivertechnology.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Opentrons",
+    sector: "Biotech & Health",
+    description: "Robots for biologists Portfolio company of Khosla Ventures.",
+    website: "https://opentrons.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Inflammatix",
+    sector: "Biotech & Health",
+    description: "Rapid diagnostic tests that read the immune system Portfolio company of Khosla Ventures.",
+    website: "http://inflammatix.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Guardant Health",
+    sector: "Biotech & Health",
+    description: "Transforming cancer care through blood tests Portfolio company of Khosla Ventures.",
+    website: "https://guardanthealth.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Vitara",
+    sector: "Biotech & Health",
+    description: "Neonatal platform for preterm infants Portfolio company of Khosla Ventures.",
+    website: "https://www.vitara.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Pearl Bio",
+    sector: "Biotech & Health",
+    description: "Building next-gen biomaterials for smart biologics Portfolio company of Khosla Ventures.",
+    website: "https://pearlbio.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Karius",
+    sector: "Biotech & Health",
+    description: "Advanced infectious disease diagnostics Portfolio company of Khosla Ventures.",
+    website: "http://www.kariusdx.com",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Flow Neuroscience",
+    sector: "Biotech & Health",
+    description: "Medication-free depression treatment Portfolio company of Khosla Ventures.",
+    website: "http://www.flowneuroscience.com",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Overture Life",
+    sector: "Biotech & Health",
+    description: "An embryology lab in a box making IVF more accessible Portfolio company of Khosla Ventures.",
+    website: "https://www.overture.life/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Kamau",
+    sector: "Biotech & Health",
+    description: "Gene editing to cure sickle cell disease Portfolio company of Khosla Ventures.",
+    website: "https://kamautx.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Stylus Medicine",
+    sector: "Biotech & Health",
+    description: "Developing in vivo CAR-T therapeutics Portfolio company of Khosla Ventures.",
+    website: "https://www.stylusmedicine.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Loyal",
+    sector: "Biotech & Health",
+    description: "Extending lifespan of dogs Portfolio company of Khosla Ventures.",
+    website: "https://loyalfordogs.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Moonwalk Bio",
+    sector: "Biotech & Health",
+    description: "Pioneering precision epigenetic medicines Portfolio company of Khosla Ventures.",
+    website: "https://moonwalk.bio/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Everyone Medicines",
+    sector: "Biotech & Health",
+    description: "Individualized precision therapeutics Portfolio company of Khosla Ventures.",
+    website: "https://www.everyonemedicines.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Liberate Bio",
+    sector: "Biotech & Health",
+    description: "Precision nucleic acid delivery technology Portfolio company of Khosla Ventures.",
+    website: "https://www.liberatebio.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Rubedo Life",
+    sector: "Biotech & Health",
+    description: "Targeting cells that cause aging Portfolio company of Khosla Ventures.",
+    website: "https://www.rubedolife.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Cellino",
+    sector: "Biotech & Health",
+    description: "Autonomizing stem cell therapy manufacturing Portfolio company of Khosla Ventures.",
+    website: "https://www.cellinobio.com/",
+    investors: ["Khosla Ventures"],
+    source: "VC portfolio audit Khosla Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "ConductorAI",
+    sector: "Defense & Security",
+    description: "AI workflow for defense document processing Portfolio company of Lux Capital.",
+    website: "https://conductor.ai",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Echodyne",
+    sector: "Defense & Security",
+    description: "Metamaterials radars for UAVs/security/AV Portfolio company of Lux Capital.",
+    website: "https://echodyne.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Kymeta",
+    sector: "Defense & Security",
+    description: "Metamaterial mTenna satellite antennas Portfolio company of Lux Capital.",
+    website: "https://kymetacorp.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Pivotal Commware",
+    sector: "Defense & Security",
+    description: "Holographic beamforming RF systems Portfolio company of Lux Capital.",
+    website: "https://pivotalcommware.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Epsilon3",
+    sector: "Space & Aerospace",
+    description: "Procedure/mission ops software for space and complex hardware Portfolio company of Lux Capital.",
+    website: "https://epsilon3.io",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Orbital Insight",
+    sector: "Space & Aerospace",
+    description: "Petabyte-scale geospatial satellite analytics Portfolio company of Lux Capital.",
+    website: "https://orbitalinsight.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Kurion",
+    sector: "Nuclear Energy",
+    description: "Nuclear plant cleanup + radioactive waste remediation (acq. Veolia) Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Covariant",
+    sector: "Robotics & Manufacturing",
+    description: "AI brain for industrial robots, bin picking, depalletizing Portfolio company of Lux Capital.",
+    website: "https://covariant.ai",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Veo Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "3D sensing for safe human-robot factory collaboration Portfolio company of Lux Capital.",
+    website: "https://veobot.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Ripcord",
+    sector: "Robotics & Manufacturing",
+    description: "Robotic paper-to-digital for records management Portfolio company of Lux Capital.",
+    website: "https://ripcord.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Desktop Metal",
+    sector: "Robotics & Manufacturing",
+    description: "Office-friendly metal 3D printers Portfolio company of Lux Capital.",
+    website: "https://desktopmetal.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Shapeways",
+    sector: "Robotics & Manufacturing",
+    description: "3D printing marketplace + on-demand manufacturing Portfolio company of Lux Capital.",
+    website: "https://shapeways.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Tempo Automation",
+    sector: "Robotics & Manufacturing",
+    description: "Robotic low-volume PCB assembly Portfolio company of Lux Capital.",
+    website: "https://tempoautomation.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Strateos",
+    sector: "Robotics & Manufacturing",
+    description: "Robotic cloud lab for drug discovery + synthetic biology Portfolio company of Lux Capital.",
+    website: "https://strateos.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Instock",
+    sector: "Robotics & Manufacturing",
+    description: "Goods-to-person robotic fulfillment for e-commerce Portfolio company of Lux Capital.",
+    website: "https://instockrobotics.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "SOLS Systems",
+    sector: "Robotics & Manufacturing",
+    description: "3D-scanning + digital manufacturing for custom wearable hardware Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Mendaera",
+    sector: "Biotech & Health",
+    description: "Robotics + ultrasound-guided handheld medical devices Portfolio company of Lux Capital.",
+    website: "https://mendaera.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Performance Drone Works",
+    sector: "Drones & Autonomous",
+    description: "Defense drone hardware for military services Portfolio company of Lux Capital.",
+    website: "https://pdw.us",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "AirMap",
+    sector: "Drones & Autonomous",
+    description: "Airspace data + UTM platform for drone operators Portfolio company of Lux Capital.",
+    website: "https://airmap.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Zoox",
+    sector: "Transportation",
+    description: "Bidirectional autonomous robotaxi Portfolio company of Lux Capital.",
+    website: "https://zoox.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Lumaril",
+    sector: "Robotics & Manufacturing",
+    description: "AI for industrial automation across production facilities Portfolio company of Lux Capital.",
+    website: "https://lumaril.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Cognichip",
+    sector: "Chips & Semiconductors",
+    description: "Physics-informed AI foundation model for chip design Portfolio company of Lux Capital.",
+    website: "https://cognichip.ai",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Flex Logix",
+    sector: "Chips & Semiconductors",
+    description: "Embedded FPGA IP cores Portfolio company of Lux Capital.",
+    website: "https://flex-logix.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Transphorm",
+    sector: "Chips & Semiconductors",
+    description: "GaN power semiconductors Portfolio company of Lux Capital.",
+    website: "https://transphormusa.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Everspin Technologies",
+    sector: "Chips & Semiconductors",
+    description: "MRAM persistent memory chips Portfolio company of Lux Capital.",
+    website: "https://everspin.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Luxtera",
+    sector: "Chips & Semiconductors",
+    description: "Silicon photonics CMOS photonic transceivers Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "SiBeam",
+    sector: "Chips & Semiconductors",
+    description: "Fabless mm-wave wireless ICs Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Crystal IS",
+    sector: "Chips & Semiconductors",
+    description: "UV-C LEDs on AlN for sterilization Portfolio company of Lux Capital.",
+    website: "https://crystal-is.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nanosys",
+    sector: "Chips & Semiconductors",
+    description: "Quantum dot nanomaterials for displays Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Molecular Imprints",
+    sector: "Chips & Semiconductors",
+    description: "Nanoscale imprint lithography (acq. Canon) Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Looking Glass",
+    sector: "Chips & Semiconductors",
+    description: "Holographic light-field 3D displays Portfolio company of Lux Capital.",
+    website: "https://lookingglassfactory.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Aurora Solar",
+    sector: "Climate & Energy",
+    description: "Solar project design/sales SW (climate enablement) Portfolio company of Lux Capital.",
+    website: "https://aurorasolar.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "G2X Energy",
+    sector: "Climate & Energy",
+    description: "Gas-to-liquids: natural gas to liquid fuels Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Recursion Pharma",
+    sector: "Biotech & Health",
+    description: "High-throughput biology + ML drug discovery Portfolio company of Lux Capital.",
+    website: "https://recursion.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Aera Therapeutics",
+    sector: "Biotech & Health",
+    description: "Genetic medicines with novel delivery + precision payloads Portfolio company of Lux Capital.",
+    website: "https://aera.bio",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Kallyope",
+    sector: "Biotech & Health",
+    description: "Gut-brain axis therapeutics Portfolio company of Lux Capital.",
+    website: "https://kallyope.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Adimab",
+    sector: "Biotech & Health",
+    description: "Yeast-based antibody discovery platform Portfolio company of Lux Capital.",
+    website: "https://adimab.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "A-Alpha Bio",
+    sector: "Biotech & Health",
+    description: "AlphaSeq protein-protein interaction drug discovery Portfolio company of Lux Capital.",
+    website: "https://aalphabio.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Anagenex",
+    sector: "Biotech & Health",
+    description: "ML + DNA-encoded libraries for drug discovery Portfolio company of Lux Capital.",
+    website: "https://anagenex.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Cajal Neuroscience",
+    sector: "Biotech & Health",
+    description: "Therapeutics for anemias, neurodegeneration Portfolio company of Lux Capital.",
+    website: "https://cajalneuroscience.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Babylon Bio",
+    sector: "Biotech & Health",
+    description: "Curing Alzheimer's disease Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Dyno Therapeutics",
+    sector: "Biotech & Health",
+    description: "AI-designed AAV capsids for gene therapy Portfolio company of Lux Capital.",
+    website: "https://dynotx.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Gameto",
+    sector: "Biotech & Health",
+    description: "Ovarian biology in vitro for fertility/menopause Portfolio company of Lux Capital.",
+    website: "https://gameto.bio",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Atavistik Bio",
+    sector: "Biotech & Health",
+    description: "Metabolite-protein interactions for allosteric drugs Portfolio company of Lux Capital.",
+    website: "https://atavistikbio.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Octant Bio",
+    sector: "Biotech & Health",
+    description: "Multiplexed synbio receptor pathway drug discovery Portfolio company of Lux Capital.",
+    website: "https://octant.bio",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Senti Biosciences",
+    sector: "Biotech & Health",
+    description: "Cell engineering for gene + cell therapies Portfolio company of Lux Capital.",
+    website: "https://sentibio.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Visterra",
+    sector: "Biotech & Health",
+    description: "Computational antibody discovery for infectious disease Portfolio company of Lux Capital.",
+    website: "https://visterrainc.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Creyon",
+    sector: "Biotech & Health",
+    description: "ML-engineered oligonucleotide medicines Portfolio company of Lux Capital.",
+    website: "https://creyonbio.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Atrandi",
+    sector: "Biotech & Health",
+    description: "Single-cell semi-permeable capsule platform Portfolio company of Lux Capital.",
+    website: "https://atrandi.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nomic",
+    sector: "Biotech & Health",
+    description: "DNA-nanotech multiplexed nELISA protein profiling Portfolio company of Lux Capital.",
+    website: "https://nomicbio.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Cala Health",
+    sector: "Biotech & Health",
+    description: "Wearable neuromodulation devices Portfolio company of Lux Capital.",
+    website: "https://calahealth.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Resilience",
+    sector: "Biotech & Health",
+    description: "Advanced biomanufacturing of medicines Portfolio company of Lux Capital.",
+    website: "https://resilience.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "CTRL-Labs",
+    sector: "Biotech & Health",
+    description: "Neural-signal BCI wristband (acq. Facebook) Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Auris Health",
+    sector: "Biotech & Health",
+    description: "Monarch robotic surgical platform (acq. J&J) Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Until Labs",
+    sector: "Biotech & Health",
+    description: "Reversible cryopreservation hardware Portfolio company of Lux Capital.",
+    website: "https://untilcryo.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Vium",
+    sector: "Biotech & Health",
+    description: "Connected preclinical research hardware Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Happiest Baby",
+    sector: "Biotech & Health",
+    description: "SNOO smart bassinet + connected pediatric hardware Portfolio company of Lux Capital.",
+    website: "https://happiestbaby.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Caper",
+    sector: "Robotics & Manufacturing",
+    description: "Smart shopping cart hardware (acq. Instacart) Portfolio company of Lux Capital.",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Deep Sentinel",
+    sector: "Defense & Security",
+    description: "Smart cameras + sensors + AI hub for security Portfolio company of Lux Capital.",
+    website: "https://deepsentinel.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Stord",
+    sector: "Infrastructure & Logistics",
+    description: "Cloud supply chain: warehousing, freight, fulfillment Portfolio company of Lux Capital.",
+    website: "https://stord.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Latch",
+    sector: "Infrastructure & Logistics",
+    description: "Smart access hardware for apartments and offices Portfolio company of Lux Capital.",
+    website: "https://latch.com",
+    investors: ["Lux Capital"],
+    source: "VC portfolio audit Lux Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "75F",
+    sector: "Climate & Energy",
+    description: "Smart sensors + controls for healthy, efficient buildings Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://75f.io",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Aeroseal",
+    sector: "Climate & Energy",
+    description: "Air-sealing for HVAC and building envelopes Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://aeroseal.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Airloom",
+    sector: "Climate & Energy",
+    description: "Low-cost, infinitely flexible wind energy systems Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://airloom.energy",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Alpine Bio",
+    sector: "Biotech & Health",
+    description: "Plants as regenerative ingredient factories; casein protein Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://alpbio.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "ArkeaBio",
+    sector: "Biotech & Health",
+    description: "Ruminant methane vaccine ag-biotech Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://arkeabio.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Arnergy",
+    sector: "Climate & Energy",
+    description: "Solar+Li-ion modular generators replacing fossil generators Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://arnergy.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Baseload Capital",
+    sector: "Climate & Energy",
+    description: "Geothermal heat power plant developer worldwide Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://baseloadcap.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Bloom Biorenewables",
+    sector: "Climate & Energy",
+    description: "Bio-based carbon for materials + fuels Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://bloombiorenewables.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Blue Frontier",
+    sector: "Climate & Energy",
+    description: "Ultra-efficient AC with integral energy storage Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://bluefrontierac.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Blue World Technologies",
+    sector: "Transportation",
+    description: "High-temp methanol fuel cells Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://blue.world",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Circ",
+    sector: "Climate & Energy",
+    description: "Textile recycling for circular fashion Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://circ.earth",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Conduit Tech",
+    sector: "Climate & Energy",
+    description: "SW tools for low-emissions HVAC contractors Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://conduittech.co",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "CubicPV",
+    sector: "Climate & Energy",
+    description: "Perovskite-silicon tandem solar modules Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://cubicpv.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Dandelion Energy",
+    sector: "Climate & Energy",
+    description: "Geothermal heating/cooling for homeowners Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://dandelionenergy.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Data Blanket",
+    sector: "Robotics & Manufacturing",
+    description: "Autonomous AI drone swarms for wildfire fighting Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://datablanket.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Dioxycle",
+    sector: "Climate & Energy",
+    description: "CO2 to valuable products via low-temp electrolysis Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://dioxycle.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "DMC Biotechnologies",
+    sector: "Climate & Energy",
+    description: "Microbial fermentation biomanufacturing Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://dmcbio.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Ecocem",
+    sector: "Climate & Energy",
+    description: "Low-carbon cement halving emissions by 2030 Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://ecocemglobal.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "ESS Inc.",
+    sector: "Climate & Energy",
+    description: "Iron-flow batteries for long-duration storage Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://essinc.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "GALY",
+    sector: "Biotech & Health",
+    description: "Cellular agriculture for sustainable cotton Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://galy.co",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "GeologicAI",
+    sector: "Climate & Energy",
+    description: "AI + scanning HW for critical minerals supply Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://geologicai.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Graphitic Energy",
+    sector: "Climate & Energy",
+    description: "Methane pyrolysis to hydrogen + solid carbon Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://graphitic.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Guidewheel",
+    sector: "Robotics & Manufacturing",
+    description: "Plug-and-play factory operations data tech Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://guidewheel.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "H2Site",
+    sector: "Climate & Energy",
+    description: "Hydrogen transport via pipelines + on-site ammonia→H2 Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://h2site.eu",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Heirloom",
+    sector: "Climate & Energy",
+    description: "Affordable DAC using limestone Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://heirloomcarbon.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "I-ROX",
+    sector: "Climate & Energy",
+    description: "Ultrashort electrical pulses for mineral comminution Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://i-rox.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Inevitable Tech",
+    sector: "Biotech & Health",
+    description: "Autonomous farming with plant science + robotics + AI Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://inevitabletech.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Kodama Systems",
+    sector: "Climate & Energy",
+    description: "Automated forest mgmt for wildfire prevention + carbon Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://kodama.ai",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "LuxWall",
+    sector: "Climate & Energy",
+    description: "Vacuum-glass transparent thermal insulation Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://luxwall.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "M2X",
+    sector: "Climate & Energy",
+    description: "Stranded gas to low-carbon methanol modules Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://m2x.energy",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "MagLev Aero",
+    sector: "Transportation",
+    description: "Maglev-electric aviation propulsion Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://maglevaero.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Malta",
+    sector: "Climate & Energy",
+    description: "Long-duration pumped heat energy storage Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://maltainc.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Mangrove Lithium",
+    sector: "Climate & Energy",
+    description: "Electrochemical lithium refining Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://mangrovelithium.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Mantle8",
+    sector: "Climate & Energy",
+    description: "Natural geologic hydrogen E&P Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://mantle8.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "MAX",
+    sector: "Transportation",
+    description: "EV-fleet urban mobility infra for Africa Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://max.ng",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Mill",
+    sector: "Climate & Energy",
+    description: "Automated food recycler to dry grounds Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://mill.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Molten Industries",
+    sector: "Climate & Energy",
+    description: "Methane pyrolysis for graphite anodes + H2 Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://moltenindustries.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Natel Energy",
+    sector: "Climate & Energy",
+    description: "Fish-safe hydropower turbines Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://natelenergy.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nature's Fynd",
+    sector: "Biotech & Health",
+    description: "Sustainable fungi protein food tech Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://naturesfynd.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Our Next Energy",
+    sector: "Transportation",
+    description: "EV battery + storage tech for sustainable power access Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://one.ai",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Pivot Bio",
+    sector: "Biotech & Health",
+    description: "Microbial nitrogen replacement for fertilizer Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://pivotbio.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Planted Solar",
+    sector: "Climate & Energy",
+    description: "Automated solar plant design/construction/ops Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://plantedsolar.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Prolific Machines",
+    sector: "Biotech & Health",
+    description: "Light-based biomanufacturing Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://prolific-machines.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Quidnet Energy",
+    sector: "Climate & Energy",
+    description: "Long-duration Geomechanical Pumped Storage Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://quidnetenergy.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Reactive Technologies",
+    sector: "Climate & Energy",
+    description: "Grid measurement + data for decarbonization Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://reactive-technologies.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "RedoxBlox",
+    sector: "Climate & Energy",
+    description: "Zero-carbon thermochemical storage replacing nat gas Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://redoxblox.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "ReMo Energy",
+    sector: "Climate & Energy",
+    description: "Distributed green ammonia for agriculture Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://remo.energy",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Rize",
+    sector: "Biotech & Health",
+    description: "Lower-methane rice cultivation for farmers Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://rize.farm",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Rumin8",
+    sector: "Biotech & Health",
+    description: "Methane-reducing livestock feed supplements Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://rumin8.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Savor",
+    sector: "Climate & Energy",
+    description: "Sustainable fats made from scratch (no animals/farmland) Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://savor.it",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Sortera Alloys",
+    sector: "Climate & Energy",
+    description: "AI+sensor metals recycling Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://sorteratechnologies.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Source",
+    sector: "Climate & Energy",
+    description: "Hydropanels making drinking water from sunlight + air Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://source.co",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "SparkMeter",
+    sector: "Climate & Energy",
+    description: "Grid management for emerging-market utilities Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://sparkmeter.io",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Still Bright",
+    sector: "Climate & Energy",
+    description: "Localized cost-effective copper extraction Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://stillbright.co",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Stratus Materials",
+    sector: "Climate & Energy",
+    description: "Cathode active materials for EV Li-ion batteries Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://stratusmaterials.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Sustaera",
+    sector: "Climate & Energy",
+    description: "DAC 2.0 with novel sorbent + modular components Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://sustaera.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Terabase",
+    sector: "Climate & Energy",
+    description: "Construction automation for utility-scale solar Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://terabase.energy",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "TerraCO2",
+    sector: "Climate & Energy",
+    description: "Low-carbon cement (SCMs) Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://terraco2.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Turntide",
+    sector: "Climate & Energy",
+    description: "Smart-motor electric motors cutting building energy Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://turntide.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Vantem",
+    sector: "Climate & Energy",
+    description: "Modular panels for energy-efficient affordable homes Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://vantem.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Verdox",
+    sector: "Climate & Energy",
+    description: "Electroswing adsorption carbon capture Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://verdox.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Windfall Bio",
+    sector: "Biotech & Health",
+    description: "Methanotroph-based methane→agricultural resource Portfolio company of Breakthrough Energy Ventures.",
+    website: "https://windfall.bio",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Yard Stick",
+    sector: "Climate & Energy",
+    description: "Soil-carbon probe enabling soil CDR at scale Portfolio company of Breakthrough Energy Ventures.",
+    website: "http://useyardstick.com",
+    investors: ["Breakthrough Energy Ventures"],
+    source: "VC portfolio audit Breakthrough Energy Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Alloy Therapeutics",
+    sector: "Biotech & Health",
+    description: "Biotech ecosystem for drug discovery Portfolio company of 8VC.",
+    website: "https://alloytx.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "BigHat Biosciences",
+    sector: "Biotech & Health",
+    description: "AI + wet lab for antibody engineering Portfolio company of 8VC.",
+    website: "https://bighatbio.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Cambium",
+    sector: "Robotics & Manufacturing",
+    description: "Advanced materials with AI + chemistry Portfolio company of 8VC.",
+    website: "https://cambiumglobal.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Cartography Biosciences",
+    sector: "Biotech & Health",
+    description: "Antigen-atlas immunotherapy Portfolio company of 8VC.",
+    website: "https://cartography.bio",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "CREATE Medicines",
+    sector: "Biotech & Health",
+    description: "mRNA-LNP immune programming therapeutics Portfolio company of 8VC.",
+    website: "https://createmedicines.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Digital Diagnostics",
+    sector: "Biotech & Health",
+    description: "FDA-cleared autonomous AI medical-device diagnosis Portfolio company of 8VC.",
+    website: "https://digitaldiagnostics.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Dren Bio",
+    sector: "Biotech & Health",
+    description: "Therapeutic antibodies for cancer + autoimmune Portfolio company of 8VC.",
+    website: "https://drenbio.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Gallatin AI",
+    sector: "Defense & Security",
+    description: "Logistics platform for defense supply chain Portfolio company of 8VC.",
+    website: "https://gallatin.ai",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Joby",
+    sector: "Transportation",
+    description: "All-electric eVTOL aircraft, 150 mi range Portfolio company of 8VC.",
+    website: "https://jobyaviation.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Octant",
+    sector: "Biotech & Health",
+    description: "NGS + gene synthesis + editing for drug discovery Portfolio company of 8VC.",
+    website: "https://octant.bio",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Orca Bio",
+    sector: "Biotech & Health",
+    description: "Precision donor blood sorting cell therapies Portfolio company of 8VC.",
+    website: "https://orcabio.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Orchestra Bio",
+    sector: "Biotech & Health",
+    description: "Reducing R&D drug-dev operational complexity Portfolio company of 8VC.",
+    website: "https://orchestra.bio",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Resilience (National Resilience)",
+    sector: "Biotech & Health",
+    description: "Biopharmaceutical contract manufacturing Portfolio company of 8VC.",
+    website: "https://resilience.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Sonoma Biotherapeutics",
+    sector: "Biotech & Health",
+    description: "Regulatory T-cell therapies for autoimmune Portfolio company of 8VC.",
+    website: "https://sonomabio.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Terra Industries",
+    sector: "Defense & Security",
+    description: "Protecting critical infrastructure (drones/defense) Portfolio company of 8VC.",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Trackonomy",
+    sector: "Infrastructure & Logistics",
+    description: "IoT HW for item-level shipment tracking Portfolio company of 8VC.",
+    website: "https://trackonomysystems.com",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Wispr AI",
+    sector: "Biotech & Health",
+    description: "Neural interfaces for AI-first personal computing Portfolio company of 8VC.",
+    website: "https://flowvoice.ai",
+    investors: ["8VC"],
+    source: "VC portfolio audit 8VC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "AgZen",
+    sector: "Robotics & Manufacturing",
+    description: "Smart pesticide + fertilizer spraying Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "AIM Intelligent Machines",
+    sector: "Robotics & Manufacturing",
+    description: "Keeping heavy machines working around the clock Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Alta Resource Technologies",
+    sector: "Climate & Energy",
+    description: "Advanced biochemistry for secure critical minerals Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Aquafortus",
+    sector: "Climate & Energy",
+    description: "Energy-efficient wastewater recovery Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Ascend Advanced Therapies",
+    sector: "Biotech & Health",
+    description: "Quality manufacturing for gene + cell therapy developers Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Atomic Alchemy",
+    sector: "Nuclear Energy",
+    description: "Essential radioisotopes for healthcare, industry, defense Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "BioPhero",
+    sector: "Biotech & Health",
+    description: "Working with nature to protect crops Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "C16 Biosciences",
+    sector: "Biotech & Health",
+    description: "Sustainable palm oil alternatives via biotech Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Catalog",
+    sector: "Biotech & Health",
+    description: "Storing + transporting info in DNA Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Cato Digital",
+    sector: "Infrastructure & Logistics",
+    description: "Cleaner, more efficient hyperscale computing via power mgmt Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "CH4 Global",
+    sector: "Climate & Energy",
+    description: "Methane reduction for beef + dairy farming Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Circularity Fuels",
+    sector: "Climate & Energy",
+    description: "Tomorrow's fuels for today's industries Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Culture Biosciences",
+    sector: "Biotech & Health",
+    description: "Cloud-style biomanufacturing at scale Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "DroneDeploy",
+    sector: "Drones & Autonomous",
+    description: "Reality capture data for businesses Portfolio company of DCVC.",
+    website: "https://dronedeploy.com",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "ElectronX",
+    sector: "Climate & Energy",
+    description: "CFTC-regulated electricity derivatives exchange Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Elo Life",
+    sector: "Biotech & Health",
+    description: "Molecular farming for healthy food ingredients Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Embark",
+    sector: "Drones & Autonomous",
+    description: "Self-driving trucks for safer freight transport Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Enhanced Radar (DCVC entry)",
+    sector: "Space & Aerospace",
+    description: "Safer aviation systems Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Enough",
+    sector: "Biotech & Health",
+    description: "Delicious sustainable protein from fungus Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Entocycle",
+    sector: "Robotics & Manufacturing",
+    description: "Revolutionizing animal feed production Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Equilibrium Energy",
+    sector: "Climate & Energy",
+    description: "Grid optimization trading platform Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Estes Energy",
+    sector: "Climate & Energy",
+    description: "Powerful affordable US-made batteries Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Evonetix",
+    sector: "Biotech & Health",
+    description: "Semiconductor-scale DNA synthesis Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Fulfil",
+    sector: "Robotics & Manufacturing",
+    description: "Automating online grocery fulfillment Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Ginkgo Bioworks",
+    sector: "Biotech & Health",
+    description: "Programming cells for food, materials, therapeutics Portfolio company of DCVC.",
+    website: "https://ginkgobioworks.com",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Graphcore",
+    sector: "Chips & Semiconductors",
+    description: "HW for next-gen AI Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Halter",
+    sector: "Robotics & Manufacturing",
+    description: "Virtual fencing for farms Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Iceberg Quantum",
+    sector: "Quantum Computing",
+    description: "Error correction for fault-tolerant quantum Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Insight M",
+    sector: "Space & Aerospace",
+    description: "Aerial imaging of methane leaks Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Kanvas Biosciences",
+    sector: "Biotech & Health",
+    description: "Mapping microbiome to improve health Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Kindred AI",
+    sector: "Robotics & Manufacturing",
+    description: "AI-powered fulfillment robotic picking Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Molecular Assemblies",
+    sector: "Biotech & Health",
+    description: "Reinventing DNA synthesis for gene editing Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "MycoWorks",
+    sector: "Biotech & Health",
+    description: "Mycelium-based leather alternative Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nervana Systems",
+    sector: "Chips & Semiconductors",
+    description: "AI chips (acq. Intel) Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nobell Foods",
+    sector: "Biotech & Health",
+    description: "Plant-grown dairy cheese Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "nTop",
+    sector: "Robotics & Manufacturing",
+    description: "Real-time iteration for product designers (additive) Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Nyriad",
+    sector: "Chips & Semiconductors",
+    description: "GPU-accelerated storage HW Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Omniome",
+    sector: "Biotech & Health",
+    description: "Low-cost genomic + proteomic sequencing in silicon Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Plotlogic",
+    sector: "Climate & Energy",
+    description: "Real-time rock understanding for mine operators Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Proprio",
+    sector: "Biotech & Health",
+    description: "Next-gen surgical navigation tech Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Reach Labs",
+    sector: "Climate & Energy",
+    description: "Long-range wireless power for electrical devices Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Samsara Eco",
+    sector: "Climate & Energy",
+    description: "Infinite recycling of plastic waste Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "SenseMesh",
+    sector: "Defense & Security",
+    description: "Cameras + sensors + drones unified intelligent network Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Smartex",
+    sector: "Robotics & Manufacturing",
+    description: "Next-gen textile production with AI defect detection Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Supplant",
+    sector: "Biotech & Health",
+    description: "Foodtech materials from ag side-streams Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Tidal Metals",
+    sector: "Ocean & Maritime",
+    description: "Carbon-neutral magnesium extraction from seawater Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "TrustPoint",
+    sector: "Space & Aerospace",
+    description: "Next-gen PNT satellites Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Unconventional AI",
+    sector: "Chips & Semiconductors",
+    description: "Radically efficient AI compute HW Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Vathys",
+    sector: "Chips & Semiconductors",
+    description: "One petaflop on a single chip Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Verdigris Technologies",
+    sector: "Climate & Energy",
+    description: "Sensor HW for smarter sustainable buildings Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Vicarious",
+    sector: "Robotics & Manufacturing",
+    description: "AI robotics for warehouse (acq. Alphabet) Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Visolis",
+    sector: "Climate & Energy",
+    description: "Synbio for carbon-negative materials Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "ZwitterCo",
+    sector: "Climate & Energy",
+    description: "Membrane filters for tough wastewaters Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
+  },
+  {
+    name: "Zymergen",
+    sector: "Biotech & Health",
+    description: "Synbio for novel materials manufacturing Portfolio company of DCVC.",
+    investors: ["DCVC"],
+    source: "VC portfolio audit DCVC",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add"]
   }
+
 
 
 
