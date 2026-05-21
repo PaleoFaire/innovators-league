@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-21T05:15:58+00:00",
+  "generatedAt": "2026-05-21T09:59:39+00:00",
   "stats": {
-    "companies": 1210,
+    "companies": 1466,
     "vcFirms": 31,
-    "uniqueClusters": 97,
-    "totalInvestments": 245
+    "uniqueClusters": 94,
+    "totalInvestments": 238
   },
   "concentration": {
     "Founders Fund": {
@@ -205,12 +205,6 @@
           "Applied Intuition"
         ]
       },
-      "ai-foundation-models": {
-        "count": 1,
-        "companies": [
-          "Anthropic"
-        ]
-      },
       "ai-defense-intelligence": {
         "count": 1,
         "companies": [
@@ -301,6 +295,12 @@
         "count": 1,
         "companies": [
           "Senra Systems"
+        ]
+      },
+      "evtol-air-taxi": {
+        "count": 1,
+        "companies": [
+          "Joby Aviation"
         ]
       },
       "logistics-supply-chain": {
@@ -413,6 +413,12 @@
           "Saildrone"
         ]
       },
+      "biotech-novel-biology": {
+        "count": 1,
+        "companies": [
+          "Colossal Biosciences"
+        ]
+      },
       "biotech-lab-automation": {
         "count": 2,
         "companies": [
@@ -424,13 +430,6 @@
         "count": 1,
         "companies": [
           "Kela"
-        ]
-      },
-      "ai-drug-discovery": {
-        "count": 2,
-        "companies": [
-          "Sakana AI",
-          "Xaira Therapeutics"
         ]
       },
       "consumer-hardware": {
@@ -451,16 +450,16 @@
           "Evolv Technology"
         ]
       },
-      "ai-trust-safety": {
-        "count": 1,
-        "companies": [
-          "Reality Defender"
-        ]
-      },
       "disaggregated-ai": {
         "count": 1,
         "companies": [
           "Majestic Labs"
+        ]
+      },
+      "ai-drug-discovery": {
+        "count": 1,
+        "companies": [
+          "Xaira Therapeutics"
         ]
       },
       "protein-ai": {
@@ -552,9 +551,8 @@
         ]
       },
       "ai-foundation-models": {
-        "count": 2,
+        "count": 1,
         "companies": [
-          "Anthropic",
           "Groq"
         ]
       },
@@ -644,10 +642,9 @@
         ]
       },
       "ai-saas-enterprise": {
-        "count": 2,
+        "count": 1,
         "companies": [
-          "Nominal",
-          "Watershed"
+          "Nominal"
         ]
       },
       "manufacturing-reshoring": {
@@ -666,12 +663,6 @@
         "count": 1,
         "companies": [
           "The Boring Company"
-        ]
-      },
-      "ai-generative-media": {
-        "count": 1,
-        "companies": [
-          "ElevenLabs"
         ]
       },
       "robotics-cobots-warehouse": {
@@ -698,22 +689,10 @@
           "Stark Defence"
         ]
       },
-      "ai-agents": {
-        "count": 1,
-        "companies": [
-          "Dust"
-        ]
-      },
       "edge-ai-silicon": {
         "count": 1,
         "companies": [
           "Kneron"
-        ]
-      },
-      "foundation-models": {
-        "count": 1,
-        "companies": [
-          "Safe Superintelligence"
         ]
       },
       "photonic-compute": {
@@ -740,13 +719,6 @@
         "count": 1,
         "companies": [
           "Base Power"
-        ]
-      },
-      "ai-foundation-models": {
-        "count": 2,
-        "companies": [
-          "Anthropic",
-          "Mistral AI"
         ]
       },
       "ai-defense-intelligence": {
@@ -895,6 +867,12 @@
           "Hermeus"
         ]
       },
+      "ai-saas-enterprise": {
+        "count": 1,
+        "companies": [
+          "Nominal"
+        ]
+      },
       "biotech-cell-reprogramming": {
         "count": 1,
         "companies": [
@@ -929,12 +907,6 @@
         "count": 1,
         "companies": [
           "Mainspring Energy"
-        ]
-      },
-      "ai-drug-discovery": {
-        "count": 1,
-        "companies": [
-          "Sakana AI"
         ]
       },
       "biotech-novel-biology": {
@@ -1335,6 +1307,12 @@
         "count": 1,
         "companies": [
           "Stoke Space"
+        ]
+      },
+      "battery-infrastructure": {
+        "count": 1,
+        "companies": [
+          "Redwood Materials"
         ]
       },
       "ai-mineral-exploration": {
@@ -1905,17 +1883,22 @@
     ],
     "ai-saas-enterprise": [
       {
-        "vc": "Sequoia Capital",
-        "count": 2,
-        "share": 0.4
-      },
-      {
         "vc": "General Catalyst",
         "count": 1,
         "share": 0.2
       },
       {
         "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Sequoia Capital",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Khosla Ventures",
         "count": 1,
         "share": 0.2
       },
@@ -1948,23 +1931,6 @@
       },
       {
         "vc": "Eclipse Ventures",
-        "count": 1,
-        "share": 0.2
-      }
-    ],
-    "ai-foundation-models": [
-      {
-        "vc": "D1 Capital Partners",
-        "count": 2,
-        "share": 0.4
-      },
-      {
-        "vc": "Lightspeed Venture Partners",
-        "count": 2,
-        "share": 0.4
-      },
-      {
-        "vc": "General Catalyst",
         "count": 1,
         "share": 0.2
       }
@@ -2151,6 +2117,13 @@
         "share": 0.3333
       }
     ],
+    "evtol-air-taxi": [
+      {
+        "vc": "8VC",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
     "autonomy-ground-vehicles": [
       {
         "vc": "8VC",
@@ -2172,29 +2145,29 @@
     ],
     "ai-drug-discovery": [
       {
-        "vc": "Lux Capital",
-        "count": 2,
-        "share": 0.25
-      },
-      {
         "vc": "Playground Global",
         "count": 2,
-        "share": 0.25
+        "share": 0.3333
       },
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.125
+        "share": 0.1667
+      },
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.1667
       },
       {
         "vc": "Sequoia Capital",
         "count": 1,
-        "share": 0.125
+        "share": 0.1667
       },
       {
         "vc": "Lightspeed Venture Partners",
         "count": 1,
-        "share": 0.125
+        "share": 0.1667
       }
     ],
     "space-solar-power": [
@@ -2236,6 +2209,18 @@
         "share": 0.1667
       }
     ],
+    "biotech-novel-biology": [
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "Khosla Ventures",
+        "count": 1,
+        "share": 0.5
+      }
+    ],
     "consumer-hardware": [
       {
         "vc": "Lux Capital",
@@ -2251,13 +2236,6 @@
         "vc": "Alumni Ventures",
         "count": 1,
         "share": 0.3333
-      }
-    ],
-    "ai-trust-safety": [
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 1.0
       }
     ],
     "disaggregated-ai": [
@@ -2300,17 +2278,22 @@
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.3333
+        "share": 0.25
       },
       {
         "vc": "Lightspeed Venture Partners",
         "count": 1,
-        "share": 0.3333
+        "share": 0.25
       },
       {
         "vc": "Thrive Capital Management, LLC",
         "count": 1,
-        "share": 0.3333
+        "share": 0.25
+      },
+      {
+        "vc": "Breakthrough Energy Ventures",
+        "count": 1,
+        "share": 0.25
       }
     ],
     "ai-hardware-inference": [
@@ -2323,6 +2306,13 @@
     "autonomous-aviation": [
       {
         "vc": "Valor Equity Partners",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
+    "ai-foundation-models": [
+      {
+        "vc": "D1 Capital Partners",
         "count": 1,
         "share": 1.0
       }
@@ -2382,13 +2372,6 @@
         "share": 0.5
       }
     ],
-    "ai-generative-media": [
-      {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
     "quantum-sensors-software": [
       {
         "vc": "Sequoia Capital",
@@ -2401,21 +2384,7 @@
         "share": 0.5
       }
     ],
-    "ai-agents": [
-      {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
     "edge-ai-silicon": [
-      {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "foundation-models": [
       {
         "vc": "Sequoia Capital",
         "count": 1,
@@ -2487,13 +2456,6 @@
         "vc": "Breakthrough Energy Ventures",
         "count": 1,
         "share": 0.5
-      }
-    ],
-    "biotech-novel-biology": [
-      {
-        "vc": "Khosla Ventures",
-        "count": 1,
-        "share": 1.0
       }
     ],
     "medical-devices-surgical": [
@@ -2763,19 +2725,19 @@
     },
     {
       "vc": "Lux Capital",
-      "recentCount": 11,
-      "totalCount": 22,
-      "score": 13.217,
+      "recentCount": 9,
+      "totalCount": 21,
+      "score": 11.552,
       "topCluster": "biotech-lab-automation",
       "recentExamples": [
         {
-          "company": "Xaira Therapeutics",
-          "cluster": "ai-drug-discovery",
+          "company": "Majestic Labs",
+          "cluster": "disaggregated-ai",
           "addedDate": "2026-04"
         },
         {
-          "company": "Majestic Labs",
-          "cluster": "disaggregated-ai",
+          "company": "Xaira Therapeutics",
+          "cluster": "ai-drug-discovery",
           "addedDate": "2026-04"
         },
         {
@@ -2789,17 +2751,17 @@
           "addedDate": "2026-03"
         },
         {
-          "company": "Reality Defender",
-          "cluster": "ai-trust-safety",
-          "addedDate": "2026-03"
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "addedDate": "2026-02"
         }
       ]
     },
     {
       "vc": "Khosla Ventures",
-      "recentCount": 11,
+      "recentCount": 10,
       "totalCount": 17,
-      "score": 12.184,
+      "score": 11.507,
       "topCluster": "nuclear-smr-advanced",
       "recentExamples": [
         {
@@ -2826,40 +2788,6 @@
           "company": "Hermeus",
           "cluster": "supersonic-hypersonic-transport",
           "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
-      "vc": "Sequoia Capital",
-      "recentCount": 10,
-      "totalCount": 19,
-      "score": 11.926,
-      "topCluster": "ai-robotics-embodied",
-      "recentExamples": [
-        {
-          "company": "Stark Defence",
-          "cluster": "vtol-munitions",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Dust",
-          "cluster": "ai-agents",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Kneron",
-          "cluster": "edge-ai-silicon",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Safe Superintelligence",
-          "cluster": "foundation-models",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Lightelligence",
-          "cluster": "photonic-compute",
-          "addedDate": "2026-04"
         }
       ]
     },
@@ -2934,8 +2862,8 @@
     {
       "vc": "General Catalyst",
       "recentCount": 7,
-      "totalCount": 16,
-      "score": 9.106,
+      "totalCount": 15,
+      "score": 8.911,
       "topCluster": "autonomy-drone-military",
       "recentExamples": [
         {
@@ -2968,8 +2896,8 @@
     {
       "vc": "8VC",
       "recentCount": 7,
-      "totalCount": 14,
-      "score": 8.704,
+      "totalCount": 15,
+      "score": 8.911,
       "topCluster": "autonomy-drone-military",
       "recentExamples": [
         {
@@ -2995,6 +2923,40 @@
         {
           "company": "Saronic",
           "cluster": "autonomy-maritime",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
+      "vc": "Sequoia Capital",
+      "recentCount": 7,
+      "totalCount": 15,
+      "score": 8.911,
+      "topCluster": "ai-robotics-embodied",
+      "recentExamples": [
+        {
+          "company": "Stark Defence",
+          "cluster": "vtol-munitions",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Kneron",
+          "cluster": "edge-ai-silicon",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Lightelligence",
+          "cluster": "photonic-compute",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Xaira Therapeutics",
+          "cluster": "ai-drug-discovery",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "RobCo",
+          "cluster": "robotics-cobots-warehouse",
           "addedDate": "2026-02"
         }
       ]
@@ -3070,8 +3032,8 @@
     {
       "vc": "Breakthrough Energy Ventures",
       "recentCount": 4,
-      "totalCount": 16,
-      "score": 6.509,
+      "totalCount": 17,
+      "score": 6.64,
       "topCluster": "fusion-inertial-laser",
       "recentExamples": [
         {
@@ -3186,9 +3148,9 @@
     {
       "vc": "Lightspeed Venture Partners",
       "recentCount": 2,
-      "totalCount": 9,
-      "score": 3.49,
-      "topCluster": "ai-foundation-models",
+      "totalCount": 7,
+      "score": 3.152,
+      "topCluster": "defense-munitions-energetics",
       "recentExamples": [
         {
           "company": "Xaira Therapeutics",
@@ -3248,9 +3210,9 @@
     {
       "vc": "D1 Capital Partners",
       "recentCount": 2,
-      "totalCount": 5,
-      "score": 2.716,
-      "topCluster": "ai-foundation-models",
+      "totalCount": 4,
+      "score": 2.439,
+      "topCluster": "autonomy-drone-military",
       "recentExamples": [
         {
           "company": "Anduril Industries",
@@ -3472,16 +3434,6 @@
     ],
     "OpenAI": [
       {
-        "company": "Dust",
-        "cluster": "ai-agents",
-        "founder": "Gabriel Hubert, Stanislas Polu"
-      },
-      {
-        "company": "Safe Superintelligence",
-        "cluster": "foundation-models",
-        "founder": "Ilya Sutskever, Daniel Gross, Daniel Levy"
-      },
-      {
         "company": "Sunday Robotics",
         "cluster": "general-purpose-robot",
         "founder": "Xiongyi Cui, Linxi Fan"
@@ -3528,12 +3480,12 @@
       "investmentCount": 8
     },
     {
-      "cluster": "ai-drug-discovery",
-      "investmentCount": 8
-    },
-    {
       "cluster": "fusion-inertial-laser",
       "investmentCount": 7
+    },
+    {
+      "cluster": "ai-drug-discovery",
+      "investmentCount": 6
     },
     {
       "cluster": "ai-robotics-embodied",
@@ -3561,10 +3513,6 @@
     },
     {
       "cluster": "ai-autonomous-driving",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "ai-foundation-models",
       "investmentCount": 5
     },
     {
@@ -3605,6 +3553,10 @@
     },
     {
       "cluster": "nuclear-microreactor",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "battery-infrastructure",
       "investmentCount": 4
     },
     {

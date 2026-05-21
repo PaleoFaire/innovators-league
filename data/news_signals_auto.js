@@ -1,8 +1,8 @@
 // Auto-generated news signals
-// Last updated: 2026-05-21T09:50:32.185Z
+// Last updated: 2026-05-21T09:58:42.314Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1779357032185,
+    "id": 1779357522314,
     "type": "ipo",
     "company": "ICEYE",
     "headline": "ICEYE secures €300M credit facility to scale sovereign satellite intelligence",
@@ -13,7 +13,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/05/21/iceye-secures-300m-credit-facility-to-scale-sovereign-satellite-intelligence/"
   },
   {
-    "id": 1779357032186,
+    "id": 1779357522315,
     "type": "hire",
     "company": "Anthropic",
     "headline": "Lexroom CEO: Anthropic won’t kill vertical AI companies",
@@ -24,7 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/anthropic-wont-kill-vertcial-ai/"
   },
   {
-    "id": 1779357032187,
+    "id": 1779357522316,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from done",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/20/spacex-s1-tesla-terafab-macrohard-not-done-deal/"
   },
   {
-    "id": 1779357032188,
+    "id": 1779357522317,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Listed Grok’s ‘Spicy’ Mode as a Risk in Its IPO Filing",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/spacex-ipo-grok-spicy-mode-risks/"
   },
   {
-    "id": 1779357032189,
+    "id": 1779357522318,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/elon-musk-spacex-spending-gas-turbines-grok/"
   },
   {
-    "id": 1779357032190,
+    "id": 1779357522319,
     "type": "hire",
     "company": "SpaceX",
     "headline": "The SpaceX IPO filing is filled with AI bets, Starship dreams, and Elon Musk at the center",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/20/the-spacex-ipo-filing-ai-bets-starship-dreams-elon-musk/"
   },
   {
-    "id": 1779357032191,
+    "id": 1779357522320,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/"
   },
   {
-    "id": 1779357032192,
+    "id": 1779357522321,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX files for IPO",
@@ -90,18 +90,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-files-for-ipo/"
   },
   {
-    "id": 1779357032193,
+    "id": 1779357522322,
     "type": "ipo",
     "company": "xAI",
     "headline": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
     "source": "TechCrunch",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/"
   },
   {
-    "id": 1779357032194,
+    "id": 1779357522323,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a Year to Access Its Data Centers",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/spacex-ipo-anthropic-compute-finances-risks/"
   },
   {
-    "id": 1779357032195,
+    "id": 1779357522324,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic will pay xAI $1.25B per month for compute",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/"
   },
   {
-    "id": 1779357032196,
+    "id": 1779357522325,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI claims it solved an 80-year-old math problem — for real this time",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/"
   },
   {
-    "id": 1779357032197,
+    "id": 1779357522326,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "OpenAI barrels toward IPO that may happen in September",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/"
   },
   {
-    "id": 1779357032198,
+    "id": 1779357522327,
     "type": "news",
     "company": "OpenAI",
     "headline": "AI model &quot;capability overhang&quot; biggest challenge facing European businesses, says OpenAI revenue chief",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/05/20/ai-model-giants-should-pay-a-levy-to-operate-in-europe-says-mistral-boss/"
   },
   {
-    "id": 1779357032199,
+    "id": 1779357522328,
     "type": "funding",
     "company": "Boston Metal",
     "headline": "Green steel startup Boston Metal is doubling down on critical metals",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/"
   },
   {
-    "id": 1779357032200,
+    "id": 1779357522329,
     "type": "news",
     "company": "Einride",
     "headline": "Einride L4 autonomous electric semi truck gets real – in Ohio",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/20/einride-l4-autonomous-electric-semi-truck-gets-real-in-ohio/"
   },
   {
-    "id": 1779357032201,
+    "id": 1779357522330,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "Singapore partners OpenAI in $234M push to expand national AI ecosystem",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/05/20/singapore-partners-openai-in-234m-push-to-expand-national-ai-ecosystem/"
   },
   {
-    "id": 1779357032202,
+    "id": 1779357522331,
     "type": "news",
     "company": "Deterrence",
     "headline": "NATO eastern deterrence strategy takes shape around ‘autonomous zone’",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/global/europe/2026/05/20/nato-eastern-deterrence-strategy-takes-shape-around-autonomous-zone/"
   },
   {
-    "id": 1779357032203,
+    "id": 1779357522332,
     "type": "news",
     "company": "Dunia",
     "headline": "Dunia Innovations unveils €280M Berlin GigaLab to industrialise AI-driven materials discovery",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/05/20/dunia-innovations-unveils-eur280m-berlin-gigalab-to-industrialise-ai-driven-materials-discovery/"
   },
   {
-    "id": 1779357032204,
+    "id": 1779357522333,
     "type": "news",
     "company": "Anthropic",
     "headline": "Tesla&#8217;s Former AI Lead Goes To Anthropic",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T05:15:59+00:00",
+  "generatedAt": "2026-05-21T09:59:40+00:00",
   "matrix": {
     "autonomy-ground-vehicles": {
       "2026-Q2": {
@@ -276,26 +276,6 @@
               "Inspired Capital",
               "Rally Ventures",
               "State of Wisconsin Investment Board"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "ai-tooling": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Alpha School",
-            "amount": null,
-            "date": "2026-03",
-            "source": "recentEvent",
-            "investors": [
-              "Joe Liemandt",
-              "ESW Capital"
             ]
           }
         ],
@@ -662,28 +642,13 @@
         "investors": [
           "In-Q-Tel"
         ]
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Databricks",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
       }
     },
     "ai-code-generation": {
       "2026-Q2": {
-        "deals": 2,
+        "deals": 1,
         "totalSold": null,
-        "companiesWithUnknownAmount": 2,
+        "companiesWithUnknownAmount": 1,
         "companies": [
           {
             "name": "Cognition",
@@ -700,20 +665,6 @@
               "John Collison",
               "Elad Gil",
               "Sarah Guo"
-            ]
-          },
-          {
-            "name": "Anysphere",
-            "amount": null,
-            "date": "2026-05",
-            "source": "recentEvent",
-            "investors": [
-              "Accel",
-              "Coatue Management",
-              "Google",
-              "Nvidia",
-              "Thrive Capital",
-              "OpenAI Startup Fund"
             ]
           }
         ],
@@ -788,152 +739,6 @@
         "investors": []
       }
     },
-    "ai-computer-vision-sensing": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Scale AI",
-            "amount": null,
-            "date": "2026-05",
-            "source": "recentEvent",
-            "investors": [
-              "Meta Platforms",
-              "Dragoneer Investment Group",
-              "Tiger Global Management",
-              "Index Ventures",
-              "Greenoaks",
-              "Accel",
-              "Amazon"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "AiDash",
-            "amount": null,
-            "date": "2025-01",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Pano AI",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "ai-foundation-models": {
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Anthropic",
-            "amount": null,
-            "date": "2026-05",
-            "source": "recentEvent",
-            "investors": [
-              "Google",
-              "Lightspeed Venture Partners",
-              "Bessemer Venture Partners",
-              "Cisco Investments",
-              "D1 Capital Partners",
-              "Fidelity Management",
-              "General Catalyst",
-              "Jane Street",
-              "Menlo Ventures",
-              "Salesforce Ventures",
-              "Spark Capital",
-              "Amazon"
-            ]
-          },
-          {
-            "name": "OpenAI",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": [
-              "Microsoft",
-              "Reid Hoffman",
-              "Jessica Livingston",
-              "Peter Thiel",
-              "Amazon Web Services",
-              "Infosys"
-            ]
-          }
-        ],
-        "investors": [
-          "D1 Capital Partners",
-          "General Catalyst",
-          "Lightspeed Venture Partners"
-        ]
-      },
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Groq",
-            "amount": null,
-            "date": "2025-08",
-            "source": "recentEvent",
-            "investors": [
-              "Social Capital",
-              "Tiger Global Management",
-              "D1 Capital Partners",
-              "Infinitum",
-              "The Spruce House Partnership",
-              "Addition",
-              "GCM Grosvenor",
-              "X\u207f",
-              "Firebolt Ventures",
-              "General Global Capital"
-            ]
-          }
-        ],
-        "investors": [
-          "D1 Capital Partners"
-        ]
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Hugging Face",
-            "amount": null,
-            "date": "2026-01",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "fusion-inertial-laser": {
       "2025-Q2": {
         "deals": 1,
@@ -972,66 +777,44 @@
         ]
       }
     },
-    "ai-generative-media": {
-      "2026-Q2": {
+    "ai-foundation-models": {
+      "2025-Q3": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
         "companies": [
           {
-            "name": "ElevenLabs",
+            "name": "Groq",
             "amount": null,
-            "date": "2026-05",
+            "date": "2025-08",
             "source": "recentEvent",
             "investors": [
-              "Andreessen Horowitz",
-              "Sequoia Capital",
-              "ICONIQ Growth",
-              "NEA",
-              "World Innovation Lab",
-              "Valor",
-              "Endeavor Catalyst Fund",
-              "Lunate",
-              "Deutsche Telekom",
-              "LG Technology Ventures"
+              "Social Capital",
+              "Tiger Global Management",
+              "D1 Capital Partners",
+              "Infinitum",
+              "The Spruce House Partnership",
+              "Addition",
+              "GCM Grosvenor",
+              "X\u207f",
+              "Firebolt Ventures",
+              "General Global Capital"
             ]
           }
         ],
         "investors": [
-          "Sequoia Capital"
+          "D1 Capital Partners"
         ]
-      },
+      }
+    },
+    "robotics-cobots-warehouse": {
       "2025-Q3": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
         "companies": [
           {
-            "name": "Gladia",
-            "amount": null,
-            "date": "2025-07",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "robotics-cobots-warehouse": {
-      "2025-Q3": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
             "name": "Gecko Robotics",
-            "amount": null,
-            "date": "2025-07",
-            "source": "recentEvent",
-            "investors": []
-          },
-          {
-            "name": "RIOS Intelligent Machines",
             "amount": null,
             "date": "2025-07",
             "source": "recentEvent",
@@ -1212,6 +995,38 @@
         "investors": []
       }
     },
+    "ai-computer-vision-sensing": {
+      "2025-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "AiDash",
+            "amount": null,
+            "date": "2025-01",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Pano AI",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
     "biotech-lab-automation": {
       "2025-Q2": {
         "deals": 1,
@@ -1336,12 +1151,6 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Anthropic",
-          "cluster": "ai-foundation-models",
           "date": "2026-05",
           "source": "recentEvent"
         }
@@ -1476,12 +1285,6 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Anthropic",
-          "cluster": "ai-foundation-models",
           "date": "2026-05",
           "source": "recentEvent"
         }
@@ -1628,14 +1431,6 @@
           "source": "recentEvent"
         }
       ],
-      "2026-Q2": [
-        {
-          "company": "ElevenLabs",
-          "cluster": "ai-generative-media",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
       "2025-Q4": [
         {
           "company": "RobCo",
@@ -1645,15 +1440,17 @@
         }
       ]
     },
-    "Lightspeed Venture Partners": {
-      "2026-Q2": [
+    "Breakthrough Energy Ventures": {
+      "2025-Q2": [
         {
-          "company": "Anthropic",
-          "cluster": "ai-foundation-models",
-          "date": "2026-05",
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
           "source": "recentEvent"
         }
-      ],
+      ]
+    },
+    "Lightspeed Venture Partners": {
       "2025-Q2": [
         {
           "company": "Pacific Fusion",
@@ -1675,16 +1472,6 @@
           "company": "RobCo",
           "cluster": "robotics-cobots-warehouse",
           "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Breakthrough Energy Ventures": {
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1711,9 +1498,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 64,
+    "totalDealsTracked": 54,
     "totalUSDSold": 53086810,
-    "uniqueClusters": 38,
+    "uniqueClusters": 36,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [
