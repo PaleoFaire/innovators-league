@@ -36334,7 +36334,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     sector: "Biotech & Health",
     description: "Cryopreservation hardware for reversible organ cryopreservation. Portfolio company of Founders Fund.",
     website: "https://untilcryo.com",
-    investors: ["Founders Fund"],
+    investors: ["Founders Fund", "Lux Capital"],
     source: "VC portfolio audit Founders Fund",
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
@@ -36874,16 +36874,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     sector: "Biotech & Health",
     description: "Cell-free biomanufacturing platform Portfolio company of Khosla Ventures.",
     website: "https://www.enzymit.com/",
-    investors: ["Khosla Ventures"],
-    source: "VC portfolio audit Khosla Ventures",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Redoxblox",
-    sector: "Climate & Energy",
-    description: "Energy storage solution Portfolio company of Khosla Ventures.",
-    website: "https://redoxblox.com/",
     investors: ["Khosla Ventures"],
     source: "VC portfolio audit Khosla Ventures",
     addedDate: "2026-05-15",
@@ -37542,16 +37532,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     tags: ["vc-portfolio-add"]
   },
   {
-    name: "Octant Bio",
-    sector: "Biotech & Health",
-    description: "Multiplexed synbio receptor pathway drug discovery Portfolio company of Lux Capital.",
-    website: "https://octant.bio",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
     name: "Senti Biosciences",
     sector: "Biotech & Health",
     description: "Cell engineering for gene + cell therapies Portfolio company of Lux Capital.",
@@ -37634,16 +37614,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     name: "Auris Health",
     sector: "Biotech & Health",
     description: "Monarch robotic surgical platform (acq. J&J) Portfolio company of Lux Capital.",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Until Labs",
-    sector: "Biotech & Health",
-    description: "Reversible cryopreservation hardware Portfolio company of Lux Capital.",
-    website: "https://untilcryo.com",
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
@@ -38162,7 +38132,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     sector: "Climate & Energy",
     description: "Zero-carbon thermochemical storage replacing nat gas Portfolio company of Breakthrough Energy Ventures.",
     website: "https://redoxblox.com",
-    investors: ["Breakthrough Energy Ventures"],
+    investors: ["Breakthrough Energy Ventures", "Khosla Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
@@ -38432,7 +38402,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     sector: "Biotech & Health",
     description: "NGS + gene synthesis + editing for drug discovery Portfolio company of 8VC.",
     website: "https://octant.bio",
-    investors: ["8VC"],
+    investors: ["8VC", "Lux Capital"],
     source: "VC portfolio audit 8VC",
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
@@ -38993,7 +38963,1716 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
+  },
+  // ─── VC portfolio audit BATCH 2 — 2026-05-15 (8 more VCs: Sequoia, Index, Initialized, General Catalyst, Lowercarbon, Construct, Riot+Marlinspike+Mana, IQT+FoundersInc+Cantos) ───
+  {
+    name: "Adyton",
+    sector: "Defense & Security",
+    description: "Mobile applications for DoD — logistics and communications for military ops. Portfolio company of Initialized Capital.",
+    website: "https://adyton.io/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Basalt",
+    sector: "Space & Aerospace",
+    description: "On-orbit autonomy software for business and defense spacecraft. Portfolio company of Initialized Capital.",
+    website: "https://basalt.space/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Bland Company",
+    sector: "Climate & Energy",
+    description: "Harnessing agricultural byproducts to redefine protein production. Portfolio company of Initialized Capital.",
+    website: "https://www.theblandcompany.co/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Clairity",
+    sector: "Climate & Energy",
+    description: "Low-cost scalable direct air capture for gigaton-scale CO2 removal. Portfolio company of Initialized Capital.",
+    website: "https://clairitytech.com/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Clone",
+    sector: "Robotics & Manufacturing",
+    description: "Building musculoskeletal intelligent androids (humanoid robots). Portfolio company of Initialized Capital.",
+    website: "https://clonerobotics.com/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Crewline",
+    sector: "Robotics & Manufacturing",
+    description: "Upgrades existing excavation/grading machines to self-driving in 1 hour. Portfolio company of Initialized Capital.",
+    website: "https://crewline.ai/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Kayhan Space",
+    sector: "Space & Aerospace",
+    description: "Next-gen automation for satellite operations and spaceflight safety. Portfolio company of Initialized Capital.",
+    website: "https://kayhan.space/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Medivis",
+    sector: "Biotech & Health",
+    description: "AR/computer vision for holographic surgical visualization. Portfolio company of Initialized Capital.",
+    website: "https://medivis.com/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Orbio",
+    sector: "Climate & Energy",
+    description: "Satellite imagery to detect methane emissions from oil and gas. Portfolio company of Initialized Capital.",
+    website: "https://orbio.earth/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Sabi",
+    sector: "Biotech & Health",
+    description: "BCI cap that lets users control tech with thoughts. Portfolio company of Initialized Capital.",
+    website: "https://sabi.io/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Spaceium",
+    sector: "Space & Aerospace",
+    description: "In-space refueling stations for the space superhighway. Portfolio company of Initialized Capital.",
+    website: "https://spaceium.com/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Sygaldry",
+    sector: "Quantum Computing",
+    description: "Infrastructure for quantum superintelligence. Portfolio company of Initialized Capital.",
+    website: "https://sygaldry.com/",
+    investors: ["Initialized Capital"],
+    source: "VC portfolio audit batch-2 Initialized Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Verve Motion",
+    sector: "Robotics & Manufacturing",
+    description: "Industrial wearable exosuits for logistics and industrial workers. Portfolio company of Construct Capital.",
+    website: "https://vervemotion.com/",
+    investors: ["Construct Capital"],
+    source: "VC portfolio audit batch-2 Construct Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Sphere Semi",
+    sector: "Chips & Semiconductors",
+    description: "AI and software automation for analog chip design. Portfolio company of Construct Capital.",
+    website: "https://www.spheresemi.com/",
+    investors: ["Construct Capital"],
+    source: "VC portfolio audit batch-2 Construct Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Monaire",
+    sector: "Climate & Energy",
+    description: "Smart HVAC and refrigeration monitoring hardware. Portfolio company of Construct Capital.",
+    website: "https://monaire.ai/",
+    investors: ["Construct Capital"],
+    source: "VC portfolio audit batch-2 Construct Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Vammo",
+    sector: "Transportation",
+    description: "Electric motorbike with battery-swap network in LatAm. Portfolio company of Construct Capital.",
+    website: "https://vammo.com/",
+    investors: ["Construct Capital"],
+    source: "VC portfolio audit batch-2 Construct Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Kinetic",
+    sector: "Robotics & Manufacturing",
+    description: "Sensor + robotics platform for modern auto repair and maintenance. Portfolio company of Construct Capital.",
+    website: "https://www.kinetic.auto/",
+    investors: ["Construct Capital"],
+    source: "VC portfolio audit batch-2 Construct Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "TimberEye",
+    sector: "Infrastructure & Logistics",
+    description: "Computer-vision scanning hardware for lumber supply chain. Portfolio company of Construct Capital.",
+    website: "https://www.timbereye.com/",
+    investors: ["Construct Capital"],
+    source: "VC portfolio audit batch-2 Construct Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Solar Square",
+    sector: "Climate & Energy",
+    description: "Solarizing Indian rooftops. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/solarsquare/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Breathe Batteries",
+    sector: "Climate & Energy",
+    description: "Squeezing more juice from batteries. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/breathe/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Remora",
+    sector: "Transportation",
+    description: "Truck tailpipe carbon capture hardware. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/remora/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Nevoya",
+    sector: "Transportation",
+    description: "Freight trucking goes electric. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/nevoya/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Kula Bio",
+    sector: "Biotech & Health",
+    description: "Biological nitrogen fertilizer. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/kula/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Mosa Meat",
+    sector: "Biotech & Health",
+    description: "Cultivated meat. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/mosa/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Artyc",
+    sector: "Infrastructure & Logistics",
+    description: "Reusable refrigerated shipping containers. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/artyc/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Gridware",
+    sector: "Infrastructure & Logistics",
+    description: "Distribution-grid sensor hardware for wildfire prevention. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/gridware/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Lemon",
+    sector: "Climate & Energy",
+    description: "Plugging Brazil into the sun. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/lemon/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Carbon Engineering",
+    sector: "Climate & Energy",
+    description: "Direct air capture. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/carbonengineering/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Vaulted Deep",
+    sector: "Climate & Energy",
+    description: "Deep-well carbon sequestration of organic slurry. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/vaulted/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Carbon Crusher",
+    sector: "Robotics & Manufacturing",
+    description: "Bio-based road paving for net-zero infrastructure. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/carboncrusher/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Lithios",
+    sector: "Climate & Energy",
+    description: "Electrochemical lithium extraction. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/lithios/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Eli",
+    sector: "Nuclear Energy",
+    description: "Pulsed fusion energy. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/eli/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Acceleron Fusion",
+    sector: "Nuclear Energy",
+    description: "Muon-catalyzed fusion. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/acceleron/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Musa",
+    sector: "Climate & Energy",
+    description: "Brazil waste-to-energy hardware. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/musa/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Quilt",
+    sector: "Climate & Energy",
+    description: "Residential heat pump hardware. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/quilt/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Biosphere",
+    sector: "Biotech & Health",
+    description: "Synthetic biology platform at planetary scale. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/biosphere/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Ulysses Ecosystem Engineering",
+    sector: "Ocean & Maritime",
+    description: "Ocean rewilding restoration robotics. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/ulysses/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Woodoo",
+    sector: "Robotics & Manufacturing",
+    description: "Engineered wood with steel-like properties. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/woodoo/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Storio Energy",
+    sector: "Climate & Energy",
+    description: "Commercial and industrial battery storage. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/storio/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "General Biological",
+    sector: "Biotech & Health",
+    description: "Synthetic biology / industrial bio. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/general-biological/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "River",
+    sector: "Transportation",
+    description: "India electric motorcycle OEM. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/river/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Seabound",
+    sector: "Ocean & Maritime",
+    description: "Onboard CO2 capture for cargo ships. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/seabound/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Noya",
+    sector: "Climate & Energy",
+    description: "Carbon capture with carbon — direct air capture. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/noya/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Supercritical",
+    sector: "Climate & Energy",
+    description: "Super-cheap green hydrogen via high-pressure electrolyzer. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/supercritical/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Matter (Lowercarbon)",
+    sector: "Climate & Energy",
+    description: "Geophysical mineral exploration. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/matter/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Milvus Advanced",
+    sector: "Biotech & Health",
+    description: "Gene editing for metal-accumulating microbes / biomining. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/milvus/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Loam Bio",
+    sector: "Biotech & Health",
+    description: "Microbial soil-carbon biotech. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/loam/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Tender Food",
+    sector: "Biotech & Health",
+    description: "Cellular agriculture / plant-based food hardware. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/tender/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Safi",
+    sector: "Robotics & Manufacturing",
+    description: "Textile recycling / advanced materials. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/safi/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Air Company",
+    sector: "Climate & Energy",
+    description: "Fast-tracking sustainable jet fuel via CO2-to-fuel. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/airco/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Lumen (Lowercarbon)",
+    sector: "Climate & Energy",
+    description: "Solar lease/finance with hardware deployment. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/lumen/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Undo",
+    sector: "Climate & Energy",
+    description: "Enhanced rock weathering for carbon sequestration. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/undo/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "CargoKite",
+    sector: "Ocean & Maritime",
+    description: "Clean kitesurfing cargo ships. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/cargokite/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Arca",
+    sector: "Climate & Energy",
+    description: "Mineralization of mine tailings to carbon-storage gold. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/arca/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Novalith",
+    sector: "Climate & Energy",
+    description: "CO2-based hard-rock lithium extraction. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/novalith/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Flair Systems",
+    sector: "Climate & Energy",
+    description: "Hardware-software HVAC controller energy autopilot. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/flair-systems/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "InRange",
+    sector: "Climate & Energy",
+    description: "Commercial-rooftop solar utility. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/inrange/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Macro Oceans",
+    sector: "Ocean & Maritime",
+    description: "Seaweed aquaculture / biomanufacturing. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/macro-oceans/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Frost Methane",
+    sector: "Climate & Energy",
+    description: "Methane detection and remediation hardware. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/frostmethane/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Zero Acre Farms",
+    sector: "Biotech & Health",
+    description: "Fermentation-based cooking oil. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/zeroacre/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Minus Coffee",
+    sector: "Biotech & Health",
+    description: "Molecular-process coffee alternative. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/minus/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Formo",
+    sector: "Biotech & Health",
+    description: "Precision-fermentation dairy. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/formo/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Ecosafi",
+    sector: "Climate & Energy",
+    description: "Clean cookstove fuel and hardware for Africa. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/ecosafi/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "FarmHQ",
+    sector: "Robotics & Manufacturing",
+    description: "Irrigation automation hardware. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/farmhq/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Genomines",
+    sector: "Biotech & Health",
+    description: "Hyperaccumulator phytomining — plants that mine metals. Portfolio company of Lowercarbon Capital.",
+    website: "https://lowercarbon.com/company/genomines/",
+    investors: ["Lowercarbon Capital"],
+    source: "VC portfolio audit batch-2 Lowercarbon Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Phaidra",
+    sector: "Climate & Energy",
+    description: "AI-powered virtual plant operator for data center energy efficiency. Portfolio company of Index Ventures.",
+    website: "https://www.phaidra.ai/",
+    investors: ["Index Ventures"],
+    source: "VC portfolio audit batch-2 Index Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Cradle",
+    sector: "Biotech & Health",
+    description: "Generative AI for protein design with physical wet-lab output. Portfolio company of Index Ventures.",
+    website: "http://cradle.bio",
+    investors: ["Index Ventures"],
+    source: "VC portfolio audit batch-2 Index Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Arista Networks",
+    sector: "Infrastructure & Logistics",
+    description: "Software-driven cloud networking hardware for hyperscale data centers. Portfolio company of Index Ventures.",
+    website: "http://arista.com",
+    investors: ["Index Ventures"],
+    source: "VC portfolio audit batch-2 Index Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Pure Storage",
+    sector: "Infrastructure & Logistics",
+    description: "All-flash enterprise storage hardware for data centers. Portfolio company of Index Ventures.",
+    website: "http://purestorage.com",
+    investors: ["Index Ventures"],
+    source: "VC portfolio audit batch-2 Index Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Sunflower Labs",
+    sector: "Drones & Autonomous",
+    description: "Autonomous drone security with self-charging drone and base station. Portfolio company of Sequoia Capital.",
+    website: "https://sunflower-labs.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "JITX",
+    sector: "Robotics & Manufacturing",
+    description: "Code-based circuit board electronics design platform; Lockheed customer. Portfolio company of Sequoia Capital.",
+    website: "https://jitx.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Keen Technologies",
+    sector: "Robotics & Manufacturing",
+    description: "John Carmack AGI/embodied robotics startup using physical hardware. Portfolio company of Sequoia Capital.",
+    website: "https://keen.gg/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Nuvacore",
+    sector: "Chips & Semiconductors",
+    description: "General-purpose CPU cores re-architected for the AI era. Portfolio company of Sequoia Capital.",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Alpha & Omega Semiconductor",
+    sector: "Chips & Semiconductors",
+    description: "Designer of power semiconductors. Portfolio company of Sequoia Capital.",
+    website: "https://aosmd.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Microchip Technology",
+    sector: "Chips & Semiconductors",
+    description: "Microcontrollers and mixed-signal semiconductors. Portfolio company of Sequoia Capital.",
+    website: "https://microchip.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Western Digital",
+    sector: "Chips & Semiconductors",
+    description: "Data storage hardware (HDD, SSD, flash). Portfolio company of Sequoia Capital.",
+    website: "https://westerndigital.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Pixelworks",
+    sector: "Chips & Semiconductors",
+    description: "Visual processing semiconductors. Portfolio company of Sequoia Capital.",
+    website: "https://pixelworks.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Cadence Design Systems",
+    sector: "Chips & Semiconductors",
+    description: "EDA software and IP for chip development. Portfolio company of Sequoia Capital.",
+    website: "https://cadence.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Mellanox",
+    sector: "Chips & Semiconductors",
+    description: "InfiniBand/Ethernet networking semiconductors (acq. NVIDIA). Portfolio company of Sequoia Capital.",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Flextronics",
+    sector: "Robotics & Manufacturing",
+    description: "Global electronics manufacturing services. Portfolio company of Sequoia Capital.",
+    website: "https://flex.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Cisco",
+    sector: "Infrastructure & Logistics",
+    description: "Enterprise networking, routing, switching hardware. Portfolio company of Sequoia Capital.",
+    website: "https://cisco.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "BridgeBio",
+    sector: "Biotech & Health",
+    description: "Targeted small-molecule and genetic therapies for rare diseases. Portfolio company of Sequoia Capital.",
+    website: "https://bridgebio.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "BreezeBio",
+    sector: "Biotech & Health",
+    description: "Genetic medicines with organ-targeting gene delivery. Portfolio company of Sequoia Capital.",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Pendulum Therapeutics",
+    sector: "Biotech & Health",
+    description: "Microbiome therapeutics; Pendulum Glucose Control medical probiotic. Portfolio company of Sequoia Capital.",
+    website: "https://pendulumlife.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Pharming Group",
+    sector: "Biotech & Health",
+    description: "Protein replacement therapies for rare immune diseases. Portfolio company of Sequoia Capital.",
+    website: "https://pharming.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Natera",
+    sector: "Biotech & Health",
+    description: "Cell-free DNA testing for prenatal, oncology, transplant. Portfolio company of Sequoia Capital.",
+    website: "https://natera.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "MyOme",
+    sector: "Biotech & Health",
+    description: "Clinical whole-genome analysis with polygenic risk scoring. Portfolio company of Sequoia Capital.",
+    website: "https://myome.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Quince Therapeutics",
+    sector: "Biotech & Health",
+    description: "Clinical-stage biotech with EryDex platform. Portfolio company of Sequoia Capital.",
+    website: "https://quincetx.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Sunrun",
+    sector: "Climate & Energy",
+    description: "Residential solar and home battery storage installer. Portfolio company of Sequoia Capital.",
+    website: "https://sunrun.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Zum",
+    sector: "Transportation",
+    description: "Electric school bus operator with V2G capability. Portfolio company of Sequoia Capital.",
+    website: "https://ridezum.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Upway",
+    sector: "Transportation",
+    description: "Refurbished electric bike retailer. Portfolio company of Sequoia Capital.",
+    website: "https://upway.com/",
+    investors: ["Sequoia Capital"],
+    source: "VC portfolio audit batch-2 Sequoia Capital",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Hypersonica",
+    sector: "Supersonic & Hypersonic",
+    description: "Hypersonic propulsion systems for military and civilian aerospace. Portfolio company of General Catalyst.",
+    website: "https://hypersonica.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "JEH Aerospace",
+    sector: "Space & Aerospace",
+    description: "India-based aerospace and defense precision components manufacturer. Portfolio company of General Catalyst.",
+    website: "https://jehaerospace.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Constelli",
+    sector: "Defense & Security",
+    description: "Hyderabad defense electronics radar/EW/signal processing. Portfolio company of General Catalyst.",
+    website: "https://constelli.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Standard Kernel",
+    sector: "Chips & Semiconductors",
+    description: "AI-driven semiconductor kernel/driver software automation. Portfolio company of General Catalyst.",
+    website: "https://standardkernel.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Alsym Energy",
+    sector: "Climate & Energy",
+    description: "Non-lithium non-flammable rechargeable batteries. Portfolio company of General Catalyst.",
+    website: "https://alsymenergy.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Ayr Energy",
+    sector: "Climate & Energy",
+    description: "India-based grid transformers and grid equipment manufacturer. Portfolio company of General Catalyst.",
+    website: "https://ayrenergy.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "SustainX",
+    sector: "Climate & Energy",
+    description: "Isothermal compressed air energy storage for grid-scale. Portfolio company of General Catalyst.",
+    website: "https://sustainx.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Tractian",
+    sector: "Robotics & Manufacturing",
+    description: "IoT sensors + AI for predictive maintenance of industrial machinery. Portfolio company of General Catalyst.",
+    website: "https://tractian.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Andesite AI",
+    sector: "Defense & Security",
+    description: "AI-driven cyber operations platform from ex-CIA execs for national security. Portfolio company of General Catalyst.",
+    website: "https://andesite.ai",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Modular",
+    sector: "Chips & Semiconductors",
+    description: "AI infrastructure software/hardware stack and Mojo language. Portfolio company of General Catalyst.",
+    website: "https://modular.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "deepsilicon",
+    sector: "Chips & Semiconductors",
+    description: "Custom silicon for AI inference. Portfolio company of General Catalyst.",
+    website: "https://deepsilicon.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Cobalt Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Autonomous indoor security and patrol robots. Portfolio company of General Catalyst.",
+    website: "https://cobaltrobotics.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Fox Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Autonomous forklifts for warehouses. Portfolio company of General Catalyst.",
+    website: "https://foxrobotics.ai",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Orchard Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Computer-vision robotics for orchards. Portfolio company of General Catalyst.",
+    website: "https://orchard-robotics.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Dexai Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Robotic kitchen automation. Portfolio company of General Catalyst.",
+    website: "https://dexai.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "PhysicsX",
+    sector: "Robotics & Manufacturing",
+    description: "ML-based physics simulation for aerospace/automotive engineering. Portfolio company of General Catalyst.",
+    website: "https://physicsx.ai",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Bowery Farming",
+    sector: "Robotics & Manufacturing",
+    description: "Vertical farming with proprietary growing hardware and robotics. Portfolio company of General Catalyst.",
+    website: "https://boweryfarming.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Voodoo Manufacturing",
+    sector: "Robotics & Manufacturing",
+    description: "Industrial 3D printing factory. Portfolio company of General Catalyst.",
+    website: "https://voodoomfg.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "CloudNC",
+    sector: "Robotics & Manufacturing",
+    description: "Autonomous CNC machining for precision manufacturing. Portfolio company of General Catalyst.",
+    website: "https://cloudnc.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Maxion Therapeutics",
+    sector: "Biotech & Health",
+    description: "Biologics targeting ion channels and GPCRs. Portfolio company of General Catalyst.",
+    website: "https://maxion-tx.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Tahoe Therapeutics",
+    sector: "Biotech & Health",
+    description: "AI-driven drug discovery with physical wet-lab platform. Portfolio company of General Catalyst.",
+    website: "https://tahoetx.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Beacon Biosignals",
+    sector: "Biotech & Health",
+    description: "EEG neurobiomarker discovery combining hardware data with AI. Portfolio company of General Catalyst.",
+    website: "https://beacon.bio",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Alpha-9 Oncology",
+    sector: "Biotech & Health",
+    description: "Radiopharmaceutical (alpha-emitter) therapeutics for cancer. Portfolio company of General Catalyst.",
+    website: "https://alpha9tx.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Parabilis Medicines",
+    sector: "Biotech & Health",
+    description: "Helicon peptide therapeutic platform. Portfolio company of General Catalyst.",
+    website: "https://parabilismedicines.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Odyssey Therapeutics",
+    sector: "Biotech & Health",
+    description: "AI-enabled drug discovery for oncology and immunology. Portfolio company of General Catalyst.",
+    website: "https://odysseytx.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "CHARM Therapeutics",
+    sector: "Biotech & Health",
+    description: "Deep-learning-driven small molecule drug discovery. Portfolio company of General Catalyst.",
+    website: "https://charmtx.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Maze Therapeutics",
+    sector: "Biotech & Health",
+    description: "Human genetics-driven precision medicine. Portfolio company of General Catalyst.",
+    website: "https://mazetx.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Rakuten Medical",
+    sector: "Biotech & Health",
+    description: "Photoimmunotherapy combining drug-device for cancer. Portfolio company of General Catalyst.",
+    website: "https://rakuten-med.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Dewpoint Therapeutics",
+    sector: "Biotech & Health",
+    description: "Biomolecular condensate drug discovery. Portfolio company of General Catalyst.",
+    website: "https://dewpointx.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Strella Biotechnology",
+    sector: "Biotech & Health",
+    description: "Biosensor hardware monitoring fruit ripeness. Portfolio company of General Catalyst.",
+    website: "https://strellabiotech.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Ossium Health",
+    sector: "Biotech & Health",
+    description: "Cellular bone marrow bank / regenerative medicine. Portfolio company of General Catalyst.",
+    website: "https://ossiumhealth.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Mirvie",
+    sector: "Biotech & Health",
+    description: "Pregnancy diagnostics blood test platform. Portfolio company of General Catalyst.",
+    website: "https://mirvie.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Whoop",
+    sector: "Biotech & Health",
+    description: "Wearable biometric performance tracking hardware. Portfolio company of General Catalyst.",
+    website: "https://whoop.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Aidoc",
+    sector: "Biotech & Health",
+    description: "AI radiology imaging tied to medical imaging hardware. Portfolio company of General Catalyst.",
+    website: "https://aidoc.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Bindwell",
+    sector: "Biotech & Health",
+    description: "AI-powered pesticide/molecule discovery with wet-lab agbiotech. Portfolio company of General Catalyst.",
+    website: "https://bindwell.com",
+    investors: ["General Catalyst"],
+    source: "VC portfolio audit batch-2 General Catalyst",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "STOR",
+    sector: "Climate & Energy",
+    description: "Advanced food preservation systems. Portfolio company of Riot Ventures.",
+    website: "https://storitfresh.com",
+    investors: ["Riot Ventures"],
+    source: "VC portfolio audit batch-2 Riot Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Brick Dynamics",
+    sector: "Robotics & Manufacturing",
+    description: "Turnkey on-demand local logistics operations. Portfolio company of Riot Ventures.",
+    website: "https://brickdynamics.com",
+    investors: ["Riot Ventures"],
+    source: "VC portfolio audit batch-2 Riot Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Nodal",
+    sector: "Ocean & Maritime",
+    description: "AI for ports and terminal operations. Portfolio company of Riot Ventures.",
+    website: "https://nodal.io",
+    investors: ["Riot Ventures"],
+    source: "VC portfolio audit batch-2 Riot Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Mango",
+    sector: "Biotech & Health",
+    description: "Real-time microbial quality control for pharma production. Portfolio company of Riot Ventures.",
+    website: "https://mangomicro.com",
+    investors: ["Riot Ventures"],
+    source: "VC portfolio audit batch-2 Riot Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Voyager Space",
+    sector: "Space & Aerospace",
+    description: "National security and Starlab commercial space station. Portfolio company of Marlinspike.",
+    website: "https://voyagerspace.com",
+    investors: ["Marlinspike"],
+    source: "VC portfolio audit batch-2 Marlinspike",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Privateer Space",
+    sector: "Space & Aerospace",
+    description: "Space situational awareness and traffic management. Portfolio company of Marlinspike.",
+    website: "https://privateer.com",
+    investors: ["Marlinspike"],
+    source: "VC portfolio audit batch-2 Marlinspike",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Rendered.ai",
+    sector: "Defense & Security",
+    description: "Synthetic data platform for training AI on geospatial/defense imagery. Portfolio company of Marlinspike.",
+    website: "https://rendered.ai",
+    investors: ["Marlinspike"],
+    source: "VC portfolio audit batch-2 Marlinspike",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "OurSky",
+    sector: "Space & Aerospace",
+    description: "Real-time space-activity data via global telescope array. Portfolio company of Marlinspike.",
+    website: "https://oursky.ai",
+    investors: ["Marlinspike"],
+    source: "VC portfolio audit batch-2 Marlinspike",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "JetZero",
+    sector: "Space & Aerospace",
+    description: "Blended wing body aircraft developer (defense + commercial). Portfolio company of Marlinspike.",
+    website: "https://jetzero.aero",
+    investors: ["Marlinspike"],
+    source: "VC portfolio audit batch-2 Marlinspike",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Hypori",
+    sector: "Defense & Security",
+    description: "Virtual smartphone for truly secure BYOD for government/defense. Portfolio company of Marlinspike.",
+    website: "https://hypori.com",
+    investors: ["Marlinspike"],
+    source: "VC portfolio audit batch-2 Marlinspike",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Anello Photonics",
+    sector: "Chips & Semiconductors",
+    description: "Silicon photonic optical gyroscopes for GPS-denied inertial navigation. Portfolio company of Mana Ventures.",
+    website: "https://anellophotonics.com",
+    investors: ["Mana Ventures"],
+    source: "VC portfolio audit batch-2 Mana Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Neurophos",
+    sector: "Chips & Semiconductors",
+    description: "Silicon-photonics AI chip with metasurfaces. Portfolio company of Mana Ventures.",
+    website: "https://neurophos.com",
+    investors: ["Mana Ventures"],
+    source: "VC portfolio audit batch-2 Mana Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Hellbender",
+    sector: "Robotics & Manufacturing",
+    description: "Domestic manufacturing of Physical AI on-edge cameras. Portfolio company of Mana Ventures.",
+    website: "https://hellbender.com",
+    investors: ["Mana Ventures"],
+    source: "VC portfolio audit batch-2 Mana Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "KEWAZO",
+    sector: "Robotics & Manufacturing",
+    description: "Robotic construction logistics hoist platform. Portfolio company of Mana Ventures.",
+    website: "https://kewazo.com",
+    investors: ["Mana Ventures"],
+    source: "VC portfolio audit batch-2 Mana Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Parallax Worlds",
+    sector: "Robotics & Manufacturing",
+    description: "Industrial robot simulation/stress-testing platform. Portfolio company of Mana Ventures.",
+    website: "https://parallax-worlds.com",
+    investors: ["Mana Ventures"],
+    source: "VC portfolio audit batch-2 Mana Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "TRL11",
+    sector: "Space & Aerospace",
+    description: "Space-rated cameras, computers, network switches for spacecraft. Portfolio company of IQT.",
+    website: "https://trl11.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Exyn Technologies",
+    sector: "Drones & Autonomous",
+    description: "Autonomous aerial robots for GPS-denied environments. Portfolio company of IQT.",
+    website: "https://exyn.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Syntiant",
+    sector: "Chips & Semiconductors",
+    description: "Ultra-low-power edge AI processors for always-on ML. Portfolio company of IQT.",
+    website: "https://syntiant.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "EdgeCortix",
+    sector: "Chips & Semiconductors",
+    description: "Energy-efficient AI processors for edge inference. Portfolio company of IQT.",
+    website: "https://edgecortix.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "EUV Tech",
+    sector: "Chips & Semiconductors",
+    description: "At-wavelength metrology for EUV semiconductor lithography. Portfolio company of IQT.",
+    website: "https://euvtech.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Fonontech",
+    sector: "Chips & Semiconductors",
+    description: "Microelectronics and quantum hardware (Europe). Portfolio company of IQT.",
+    website: "https://fonontech.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Diraq",
+    sector: "Quantum Computing",
+    description: "Quantum computing using silicon spin qubits. Portfolio company of IQT.",
+    website: "https://diraq.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Harbinger Motors",
+    sector: "Transportation",
+    description: "Medium-duty commercial EVs and powertrains. Portfolio company of IQT.",
+    website: "https://harbingermotors.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Noble Gas Systems",
+    sector: "Climate & Energy",
+    description: "Conformable high-pressure gas storage for hydrogen and CNG. Portfolio company of IQT.",
+    website: "https://noblegassystems.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Prometheus Hyperscale",
+    sector: "Infrastructure & Logistics",
+    description: "Energy-efficient hyperscale data center infrastructure. Portfolio company of IQT.",
+    website: "https://prometheushyperscale.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Rincell",
+    sector: "Climate & Energy",
+    description: "Domestic high-performance lithium and sodium battery cells. Portfolio company of IQT.",
+    website: "https://rincell.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Moment Energy",
+    sector: "Climate & Energy",
+    description: "Second-life EV battery commercial energy storage. Portfolio company of IQT.",
+    website: "https://momentenergy.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "JetCool",
+    sector: "Infrastructure & Logistics",
+    description: "Micro-convective liquid cooling for high-power chips. Portfolio company of IQT.",
+    website: "https://jetcool.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Xarion Laser Acoustics",
+    sector: "Defense & Security",
+    description: "Laser-based acoustic sensing and non-destructive ultrasonic inspection. Portfolio company of IQT.",
+    website: "https://xarion.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Markforged",
+    sector: "Robotics & Manufacturing",
+    description: "Industrial composite and metal 3D printers (FX10). Portfolio company of IQT.",
+    website: "https://markforged.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Fortify",
+    sector: "Robotics & Manufacturing",
+    description: "Dielectric materials and RF components via digital composite manufacturing. Portfolio company of IQT.",
+    website: "https://3dfortify.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "RaySecur",
+    sector: "Defense & Security",
+    description: "4D T-Ray millimeter-wave imaging for mail screening. Portfolio company of IQT.",
+    website: "https://raysecur.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Tyfone",
+    sector: "Defense & Security",
+    description: "Digital security hardware for mobility, cloud, IoT. Portfolio company of IQT.",
+    website: "https://tyfone.com",
+    investors: ["IQT"],
+    source: "VC portfolio audit batch-2 IQT",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Thermopylae Aerospace",
+    sector: "Defense & Security",
+    description: "Autonomous affordable modular air defense platforms. Portfolio company of Founders Inc.",
+    website: "https://thermopylaeaerospace.com",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Catalyx Space",
+    sector: "Space & Aerospace",
+    description: "Autonomous LEO labs and re-entry capsules for microgravity manufacturing. Portfolio company of Founders Inc.",
+    website: "https://catalyxspace.com",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Buoyant",
+    sector: "Transportation",
+    description: "Autonomous airships for low-cost zero-emission cargo delivery. Portfolio company of Founders Inc.",
+    website: "https://buoyantaero.com",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Lucid Bots",
+    sector: "Robotics & Manufacturing",
+    description: "AI-powered cleaning drones and construction ground robots. Portfolio company of Founders Inc.",
+    website: "https://lucidbots.com",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "3E8 Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Autonomous multi-floor delivery robots for hotels and offices. Portfolio company of Founders Inc.",
+    website: "https://3e8.dev",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Atom Limbs",
+    sector: "Biotech & Health",
+    description: "First mind-controlled bionic arm (Atom Touch) with finger control. Portfolio company of Founders Inc.",
+    website: "https://atomlimbs.com",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Digital Metal",
+    sector: "Robotics & Manufacturing",
+    description: "Metal-casting foundry / digital manufacturing platform. Portfolio company of Founders Inc.",
+    website: "https://digitalmetal.tech",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Hayla",
+    sector: "Infrastructure & Logistics",
+    description: "Mesh-network DC electric grid for AI accelerator data centers. Portfolio company of Founders Inc.",
+    website: "https://hayla.io",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Dorado",
+    sector: "Transportation",
+    description: "American full-size electric dirt bikes. Portfolio company of Founders Inc.",
+    website: "https://ridedorado.com",
+    investors: ["Founders Inc"],
+    source: "VC portfolio audit batch-2 Founders Inc",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "SoloPulse",
+    sector: "Defense & Security",
+    description: "Radar processing technology for improved sensing. Portfolio company of Cantos Ventures.",
+    website: "https://solopulseco.com",
+    investors: ["Cantos Ventures"],
+    source: "VC portfolio audit batch-2 Cantos Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "The Lumber Manufactory",
+    sector: "Robotics & Manufacturing",
+    description: "Mini lumber mills connecting forestry directly to builders. Portfolio company of Cantos Ventures.",
+    website: "https://lumbermanufactory.com",
+    investors: ["Cantos Ventures"],
+    source: "VC portfolio audit batch-2 Cantos Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
+  },
+  {
+    name: "Spaero Bio",
+    sector: "Robotics & Manufacturing",
+    description: "Wet-lab automation robots that scale biology experiments. Portfolio company of Cantos Ventures.",
+    website: "https://spaero.bio",
+    investors: ["Cantos Ventures"],
+    source: "VC portfolio audit batch-2 Cantos Ventures",
+    addedDate: "2026-05-15",
+    tags: ["vc-portfolio-add", "batch-2"]
   }
+
 
 
 
