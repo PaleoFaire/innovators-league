@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-05-20T09:42:21.779342Z",
+  "generated_at": "2026-05-21T09:51:40.471956Z",
   "takes": [
+    {
+      "author": "Wired",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers",
+      "date": "Wed, 20 Ma",
+      "source": "news",
+      "source_url": "https://www.wired.com/story/elon-musk-spacex-spending-gas-turbines-grok/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "The SpaceX IPO filing is filled with AI bets, Starship dreams, and Elon Musk at the center",
+      "date": "Wed, 20 Ma",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/05/20/the-spacex-ipo-filing-ai-bets-starship-dreams-elon-musk/",
+      "signal_type": "hire"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "xAI burned $6.4B last year \u2014 SpaceX\u2019s IPO filing shows why the spending is far from over",
+      "date": "Wed, 20 Ma",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX files for IPO",
+      "date": "Wed, 20 Ma",
+      "source": "news",
+      "source_url": "https://spacenews.com/spacex-files-for-ipo/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Wired",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a Year to Access Its Data Centers",
+      "date": "Wed, 20 Ma",
+      "source": "news",
+      "source_url": "https://www.wired.com/story/spacex-ipo-anthropic-compute-finances-risks/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "OpenAI",
+      "text": "OpenAI barrels toward IPO that may happen in September",
+      "date": "Wed, 20 Ma",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
+      "signal_type": "ipo"
+    },
     {
       "author": "Next Big Future",
       "role": "Industry signal",
@@ -42,6 +102,16 @@
       "signal_type": "ipo"
     },
     {
+      "author": "Wired",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX Listed Grok\u2019s \u2018Spicy\u2019 Mode as a Risk in Its IPO Filing",
+      "date": "Thu, 21 Ma",
+      "source": "news",
+      "source_url": "https://www.wired.com/story/spacex-ipo-grok-spicy-mode-risks/",
+      "signal_type": "ipo"
+    },
+    {
       "author": "Canary Media",
       "role": "Industry signal",
       "company": "Fervo Energy",
@@ -50,26 +120,6 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
       "signal_type": "ipo"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Dust",
-      "text": "Dust raises $40M Series B to build the \u201cmultiplayer\u201d operating system for enterprise AI",
-      "date": "Mon, 18 Ma",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/05/18/dust-raises-40m-series-b-to-build-the-multiplayer-operating-system-for-enterprise-ai/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "FierceBiotech",
-      "role": "Industry signal",
-      "company": "Pivotal",
-      "text": "<a href=\"/biotech/regeneron-rocked-failure-defining-catalyst-pivotal-melanoma-trial-misses\" hreflang=\"en\">Analysts \u2018shaking heads\u2019 after Regeneron melanoma drug fails to beat Keytruda in phase 3 trial</a>",
-      "date": "May 18, 20",
-      "source": "news",
-      "source_url": "https://www.fiercebiotech.com/biotech/regeneron-rocked-failure-defining-catalyst-pivotal-melanoma-trial-misses",
-      "signal_type": "news"
     },
     {
       "author": "Electrek",
@@ -85,7 +135,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 8,
+    "from_news": 13,
     "from_press": 0
   }
 }

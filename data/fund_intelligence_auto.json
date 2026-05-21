@@ -1,21 +1,85 @@
 {
-  "generated_at": "2026-05-20T09:42:22.041265Z",
+  "generated_at": "2026-05-21T09:51:40.772283Z",
   "platform": {
-    "companiesTracked": 933,
+    "companiesTracked": 1466,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$455.2B",
-    "totalValuationTracked": "$3003.2B",
-    "companiesWithValuation": 183,
+    "totalCapitalRaisedTracked": "$309.7B",
+    "totalValuationTracked": "$1961.6B",
+    "companiesWithValuation": 150,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
-    "dealsTracked": 218,
-    "newsItemsTracked": 36,
-    "dataPointsUpdated": "37,320+"
+    "dealsTracked": 222,
+    "newsItemsTracked": 47,
+    "dataPointsUpdated": "58,640+"
   },
   "topFunds": [
     {
+      "fund": "Breakthrough Energy",
+      "portfolio_count": 66,
+      "companies": [
+        "75F",
+        "Aeroseal",
+        "Airloom",
+        "Alpine Bio",
+        "ArkeaBio",
+        "Arnergy",
+        "Baseload Capital",
+        "Bloom Biorenewables",
+        "Blue Frontier",
+        "Blue World Technologies"
+      ]
+    },
+    {
+      "fund": "Lux Capital",
+      "portfolio_count": 53,
+      "companies": [
+        "A-Alpha Bio",
+        "Adimab",
+        "Aera Therapeutics",
+        "AirMap",
+        "Anagenex",
+        "Atavistik Bio",
+        "Atrandi",
+        "Aurora Solar",
+        "Babylon Bio",
+        "Cajal Neuroscience"
+      ]
+    },
+    {
+      "fund": "Khosla Ventures",
+      "portfolio_count": 38,
+      "companies": [
+        "Blue River",
+        "Caelux",
+        "Ceibo",
+        "Cellino",
+        "Enzymit",
+        "Everyone Medicines",
+        "Flow Neuroscience",
+        "Foundry Robotics",
+        "Glydways",
+        "Guardant Health"
+      ]
+    },
+    {
+      "fund": "General Catalyst",
+      "portfolio_count": 37,
+      "companies": [
+        "Aidoc",
+        "Alpha-9 Oncology",
+        "Alsym Energy",
+        "Ayr Energy",
+        "Beacon Biosignals",
+        "Bindwell",
+        "Bowery Farming",
+        "CHARM Therapeutics",
+        "CloudNC",
+        "Cobalt Robotics"
+      ]
+    },
+    {
       "fund": "NVIDIA",
-      "portfolio_count": 22,
+      "portfolio_count": 21,
       "companies": [
         "Ayar Labs",
         "Crusoe Energy",
@@ -30,27 +94,74 @@
       ]
     },
     {
+      "fund": "Sequoia Capital",
+      "portfolio_count": 21,
+      "companies": [
+        "Alpha & Omega Semiconductor",
+        "BreezeBio",
+        "BridgeBio",
+        "Cadence Design Systems",
+        "Cisco",
+        "Flextronics",
+        "JITX",
+        "Keen Technologies",
+        "Microchip Technology",
+        "MyOme"
+      ]
+    },
+    {
+      "fund": "8VC",
+      "portfolio_count": 17,
+      "companies": [
+        "Alloy Therapeutics",
+        "BigHat Biosciences",
+        "CREATE Medicines",
+        "CX2",
+        "Cambium",
+        "Cartography Biosciences",
+        "Digital Diagnostics",
+        "Dren Bio",
+        "Mendra",
+        "Octant"
+      ]
+    },
+    {
       "fund": "Founders Fund",
-      "portfolio_count": 9,
+      "portfolio_count": 12,
       "companies": [
         "Amca",
+        "Boring Company",
         "Crusoe Energy",
         "General Matter",
         "Impulse Space",
+        "Nanotronics",
         "Radify Metals",
         "Senra Systems",
         "Shinkei",
-        "Varda Space Industries",
-        "Voya Energy"
+        "Until"
+      ]
+    },
+    {
+      "fund": "Lightspeed",
+      "portfolio_count": 9,
+      "companies": [
+        "Abata Therapeutics",
+        "Ancora Biotech",
+        "Castelion",
+        "Enlaza Therapeutics",
+        "Hillevax",
+        "Holo",
+        "ImmunOs Therapeutics",
+        "Kirilys Therapeutics",
+        "Telesat Lightspeed"
       ]
     },
     {
       "fund": "a16z",
-      "portfolio_count": 8,
+      "portfolio_count": 7,
       "companies": [
         "Amca",
         "CX2 Industries",
-        "Formation Bio",
         "Genesis Therapeutics",
         "Orbital",
         "Periodic Labs",
@@ -59,43 +170,36 @@
       ]
     },
     {
+      "fund": "Valor Equity",
+      "portfolio_count": 5,
+      "companies": [
+        "AESCAPE",
+        "Castle Creek Biosciences",
+        "Chaos Industries",
+        "Tesla",
+        "Zellerfeld"
+      ]
+    },
+    {
+      "fund": "Index Ventures",
+      "portfolio_count": 5,
+      "companies": [
+        "Arista Networks",
+        "Cowboy Space Corporation",
+        "Cradle",
+        "Phaidra",
+        "Pure Storage"
+      ]
+    },
+    {
       "fund": "Accel",
       "portfolio_count": 5,
       "companies": [
         "Blackshark.ai",
         "Diode",
-        "H Company",
         "Photonium",
+        "Subcritical Systems",
         "True Anomaly"
-      ]
-    },
-    {
-      "fund": "Breakthrough Energy",
-      "portfolio_count": 4,
-      "companies": [
-        "H2Pro",
-        "Mission Zero Technologies",
-        "Pacific Fusion",
-        "Summit Nanotech"
-      ]
-    },
-    {
-      "fund": "SoftBank",
-      "portfolio_count": 4,
-      "companies": [
-        "Agile Robots",
-        "Bear Robotics",
-        "OpenAI",
-        "Wayve"
-      ]
-    },
-    {
-      "fund": "Khosla Ventures",
-      "portfolio_count": 3,
-      "companies": [
-        "Foundry Robotics",
-        "Nomagic",
-        "Varda Space Industries"
       ]
     },
     {
@@ -108,12 +212,12 @@
       ]
     },
     {
-      "fund": "General Catalyst",
+      "fund": "SoftBank",
       "portfolio_count": 3,
       "companies": [
-        "Collaborative Robotics",
-        "Pacific Fusion",
-        "Vital Lyfe"
+        "Agile Robots",
+        "Bear Robotics",
+        "Wayve"
       ]
     },
     {
@@ -126,27 +230,11 @@
       ]
     },
     {
-      "fund": "Lightspeed",
-      "portfolio_count": 2,
-      "companies": [
-        "Castelion",
-        "Telesat Lightspeed"
-      ]
-    },
-    {
       "fund": "Craft Ventures",
       "portfolio_count": 2,
       "companies": [
         "Allen Control Systems",
         "Hyfix"
-      ]
-    },
-    {
-      "fund": "Index Ventures",
-      "portfolio_count": 2,
-      "companies": [
-        "Cowboy Space Corporation",
-        "Flapping Airplanes"
       ]
     },
     {
@@ -166,58 +254,28 @@
       ]
     },
     {
-      "fund": "Lux Capital",
-      "portfolio_count": 2,
-      "companies": [
-        "Mendra",
-        "Terrahaptix"
-      ]
-    },
-    {
-      "fund": "8VC",
-      "portfolio_count": 2,
-      "companies": [
-        "Mendra",
-        "Terrahaptix"
-      ]
-    },
-    {
-      "fund": "Valor Equity",
-      "portfolio_count": 1,
-      "companies": [
-        "Chaos Industries"
-      ]
-    },
-    {
       "fund": "In-Q-Tel",
       "portfolio_count": 1,
       "companies": [
         "Vast"
       ]
-    },
-    {
-      "fund": "Peter Thiel",
-      "portfolio_count": 1,
-      "companies": [
-        "New Limit"
-      ]
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 156,
-    "Defense & Security": 133,
-    "Robotics & Manufacturing": 127,
-    "Climate & Energy": 123,
-    "Biotech & Health": 74,
-    "Chips & Semiconductors": 64,
-    "AI & Software": 62,
-    "Nuclear Energy": 54,
-    "Quantum Computing": 43,
-    "Drones & Autonomous": 35,
-    "Transportation": 23,
-    "Ocean & Maritime": 11,
+    "Biotech & Health": 278,
+    "Climate & Energy": 257,
+    "Robotics & Manufacturing": 194,
+    "Space & Aerospace": 176,
+    "Defense & Security": 160,
+    "Chips & Semiconductors": 111,
+    "Nuclear Energy": 60,
+    "Quantum Computing": 51,
+    "Drones & Autonomous": 46,
+    "Transportation": 42,
+    "Infrastructure & Logistics": 29,
+    "AI & Software": 20,
+    "Ocean & Maritime": 20,
     "Housing & Construction": 9,
-    "Consumer Tech": 8,
-    "Infrastructure & Logistics": 7
+    "Consumer Tech": 8
   }
 }

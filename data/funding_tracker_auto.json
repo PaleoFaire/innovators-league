@@ -181,17 +181,43 @@
     "roundCount": 3
   },
   {
-    "company": "H Company",
-    "totalRaised": "$5.5B+",
-    "totalRaisedRaw": 5500.0,
-    "lastRound": "Series D",
-    "lastRoundAmount": "$5.5B",
-    "lastRoundDate": "2026-04",
+    "company": "Field AI",
+    "totalRaised": "$5.7B+",
+    "totalRaisedRaw": 5714.0,
+    "lastRound": "IPO",
+    "lastRoundAmount": "$5.6B",
+    "lastRoundDate": "2026-05",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
+  },
+  {
+    "company": "Agility Robotics",
+    "totalRaised": "$5.6B+",
+    "totalRaisedRaw": 5585.0,
+    "lastRound": "Series D",
+    "lastRoundAmount": "$5.2B",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
+    "company": "H Company",
+    "totalRaised": "$5.5B+",
+    "totalRaisedRaw": 5506.7,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$6.7M",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
   },
   {
     "company": "Watershed",
@@ -712,19 +738,6 @@
     "roundCount": 6
   },
   {
-    "company": "Agility Robotics",
-    "totalRaised": "$385M+",
-    "totalRaisedRaw": 385.0,
-    "lastRound": "Series E",
-    "lastRoundAmount": "$385M",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
     "company": "Hermeus",
     "totalRaised": "$350M+",
     "totalRaisedRaw": 350.0,
@@ -819,6 +832,19 @@
       "Undisclosed"
     ],
     "roundCount": 3
+  },
+  {
+    "company": "Earth AI",
+    "totalRaised": "$205M+",
+    "totalRaisedRaw": 205.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$75M",
+    "lastRoundDate": "2026-05",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
   },
   {
     "company": "Matter",
@@ -951,38 +977,12 @@
     "roundCount": 1
   },
   {
-    "company": "Earth AI",
-    "totalRaised": "$130M+",
-    "totalRaisedRaw": 130.0,
-    "lastRound": "Series B",
-    "lastRoundAmount": "$130M",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
     "company": "Modal",
     "totalRaised": "$117M+",
     "totalRaisedRaw": 117.0,
     "lastRound": "Series E",
     "lastRoundAmount": "$117M",
     "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Field AI",
-    "totalRaised": "$114M+",
-    "totalRaisedRaw": 114.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$114M",
-    "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"

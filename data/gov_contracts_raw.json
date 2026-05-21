@@ -195,12 +195,12 @@
     "company": "Anduril",
     "awardId": "H9240225F0009",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 19126740.59,
+    "amount": 19202461.05,
     "agency": "Department of Defense",
     "subAgency": "U.S. Special Operations Command",
     "awardType": null,
     "startDate": "2025-02-10",
-    "endDate": "2026-04-30",
+    "endDate": "2026-10-31",
     "description": "MARITIME DEFEAT"
   },
   {
@@ -1395,12 +1395,12 @@
     "company": "Anduril Industries",
     "awardId": "H9240225F0009",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 19126740.59,
+    "amount": 19202461.05,
     "agency": "Department of Defense",
     "subAgency": "U.S. Special Operations Command",
     "awardType": null,
     "startDate": "2025-02-10",
-    "endDate": "2026-04-30",
+    "endDate": "2026-10-31",
     "description": "MARITIME DEFEAT"
   },
   {
@@ -2643,7 +2643,7 @@
     "company": "Palantir",
     "awardId": "N0018926FZ079",
     "recipientName": "PALANTIR USG INC",
-    "amount": 56000000.0,
+    "amount": 62710729.29,
     "agency": "Department of Defense",
     "subAgency": "Department of the Navy",
     "awardType": null,
@@ -3505,18 +3505,6 @@
   },
   {
     "company": "Palantir",
-    "awardId": "W56KGY25F0090",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 1166666.69,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-06-01",
-    "endDate": "2025-12-31",
-    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING ITEMS IN SUPPORT OF THE ARMY INTELLIGENCE DATA PLATFORM/CAPABILITY DROP 2 REQUIREMENT: ONE SEVEN-MONTH LICENSE FOR ARTIFICIAL INTELLIGENCE PLATFORM."
-  },
-  {
-    "company": "Palantir",
     "awardId": "15JPSS22F00000269",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 1038450.72,
@@ -3708,6 +3696,18 @@
     "description": "SBA FRAUD PREVENTION PILOT AND BOOTCAMP"
   },
   {
+    "company": "Palantir",
+    "awardId": "12314426F0120",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 250000.0,
+    "agency": "Department of Agriculture",
+    "subAgency": "Office of the Chief Financial Officer",
+    "awardType": null,
+    "startDate": "2026-04-06",
+    "endDate": "2026-06-05",
+    "description": "SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) FRAUD IDENTIFICATION AND CASE WORKFLOW PLATFORM PILOT PROGRAM"
+  },
+  {
     "company": "Palantir Technologies",
     "awardId": "W911QX24F0053",
     "recipientName": "PALANTIR USG INC",
@@ -3843,7 +3843,7 @@
     "company": "Palantir Technologies",
     "awardId": "N0018926FZ079",
     "recipientName": "PALANTIR USG INC",
-    "amount": 56000000.0,
+    "amount": 62710729.29,
     "agency": "Department of Defense",
     "subAgency": "Department of the Navy",
     "awardType": null,
@@ -4681,18 +4681,6 @@
   },
   {
     "company": "Palantir Technologies",
-    "awardId": "W56KGY25F0090",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 1166666.69,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-06-01",
-    "endDate": "2025-12-31",
-    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING ITEMS IN SUPPORT OF THE ARMY INTELLIGENCE DATA PLATFORM/CAPABILITY DROP 2 REQUIREMENT: ONE SEVEN-MONTH LICENSE FOR ARTIFICIAL INTELLIGENCE PLATFORM."
-  },
-  {
-    "company": "Palantir Technologies",
     "awardId": "15JPSS22F00000269",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 1038450.72,
@@ -4906,6 +4894,18 @@
     "startDate": "2024-12-05",
     "endDate": "2025-06-30",
     "description": "THE ORDER IS FOR AN ENGINEERING CHANGE PROPOSAL TO INTEGRATE PUBLIC KEY INFRASTRUCTURE INTO FOR THE PROJECT MANAGER, INTELLIGENCE SYSTEMS & ANALYTICS (IS&A) CAPABILITY DROP 1."
+  },
+  {
+    "company": "Palantir Technologies",
+    "awardId": "W56KGY25F0117",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 178247.6,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-07-02",
+    "endDate": "2025-11-26",
+    "description": "THIS IS A COMMERCIAL REQUIREMENT FOR ITEMS THAT WILL PROVIDE SOFTWARE-ONLY SOLUTION TO MEET THE ARMY INTELLIGENCE APPLICATION, ALL SOURCE II, (ASII) REQUIREMENT."
   },
   {
     "company": "Space Exploration Technologies",
@@ -5261,7 +5261,7 @@
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 85613951.0,
     "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
+    "subAgency": "Defense Contract Management Agency",
     "awardType": null,
     "startDate": "2025-07-01",
     "endDate": "2028-08-30",

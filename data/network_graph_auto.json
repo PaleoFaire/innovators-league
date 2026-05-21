@@ -56,11 +56,6 @@
       "thesisCluster": "defense-munitions-energetics"
     },
     {
-      "id": "Alpha School",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-tooling"
-    },
-    {
       "id": "Mach Industries",
       "sector": "Defense & Security",
       "thesisCluster": "defense-munitions-energetics"
@@ -551,11 +546,6 @@
       "thesisCluster": "defense-munitions-energetics"
     },
     {
-      "id": "Scale AI",
-      "sector": "Defense & Security",
-      "thesisCluster": "ai-computer-vision-sensing"
-    },
-    {
       "id": "Reveal Technology",
       "sector": "Defense & Security",
       "thesisCluster": "ai-defense-intelligence"
@@ -674,31 +664,6 @@
       "id": "Applied Intuition",
       "sector": "AI & Software",
       "thesisCluster": "ai-autonomous-driving"
-    },
-    {
-      "id": "Anthropic",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-foundation-models"
-    },
-    {
-      "id": "Anysphere",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-code-generation"
-    },
-    {
-      "id": "Air Space Intelligence",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-weather-earth"
-    },
-    {
-      "id": "Atmo",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-weather-earth"
-    },
-    {
-      "id": "Beacon AI",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-weather-earth"
     },
     {
       "id": "Agility Robotics",
@@ -1021,16 +986,6 @@
       "thesisCluster": "autonomous-heavy-lift"
     },
     {
-      "id": "OpenAI",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-foundation-models"
-    },
-    {
-      "id": "Mistral AI",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-foundation-models"
-    },
-    {
       "id": "Groq",
       "sector": "AI & Software",
       "thesisCluster": "ai-foundation-models"
@@ -1044,16 +999,6 @@
       "id": "Crusoe Energy",
       "sector": "AI & Software",
       "thesisCluster": "data-center-infrastructure"
-    },
-    {
-      "id": "ElevenLabs",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-generative-media"
-    },
-    {
-      "id": "Hippocratic AI",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-clinical-health"
     },
     {
       "id": "Gecko Robotics",
@@ -1089,11 +1034,6 @@
       "id": "Eikon Therapeutics",
       "sector": "Biotech & Health",
       "thesisCluster": "ai-drug-discovery"
-    },
-    {
-      "id": "Tempus AI",
-      "sector": "Biotech & Health",
-      "thesisCluster": "ai-clinical-health"
     },
     {
       "id": "Colossal Biosciences",
@@ -1621,16 +1561,6 @@
       "thesisCluster": "robotics-agriculture"
     },
     {
-      "id": "Hugging Face",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-foundation-models"
-    },
-    {
-      "id": "Kyutai",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-foundation-models"
-    },
-    {
       "id": "Neura Robotics",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "humanoid-robotics"
@@ -1654,11 +1584,6 @@
       "id": "RobCo",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "robotics-cobots-warehouse"
-    },
-    {
-      "id": "Gladia",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-generative-media"
     },
     {
       "id": "Deep Isolation",
@@ -1716,11 +1641,6 @@
       "thesisCluster": "robotics-cobots-warehouse"
     },
     {
-      "id": "RIOS Intelligent Machines",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": "robotics-cobots-warehouse"
-    },
-    {
       "id": "Orbital Composites",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "additive-manufacturing"
@@ -1766,11 +1686,6 @@
       "thesisCluster": "autonomy-drone-military"
     },
     {
-      "id": "Ambient.ai",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-computer-vision-sensing"
-    },
-    {
       "id": "Built Robotics",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "robotics-construction-mining"
@@ -1779,11 +1694,6 @@
       "id": "Chef Robotics",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "robotics-cobots-warehouse"
-    },
-    {
-      "id": "Databricks",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-saas-enterprise"
     },
     {
       "id": "Dexterity",
@@ -1799,16 +1709,6 @@
       "id": "Harbinger",
       "sector": "Transportation",
       "thesisCluster": "transport-electric-vehicles"
-    },
-    {
-      "id": "Hive AI",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-computer-vision-sensing"
-    },
-    {
-      "id": "Labelbox",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-computer-vision-sensing"
     },
     {
       "id": "LeoLabs",
@@ -1879,11 +1779,6 @@
       "id": "Zanskar",
       "sector": "Climate & Energy",
       "thesisCluster": "ai-mineral-exploration"
-    },
-    {
-      "id": "Cohere",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-foundation-models"
     },
     {
       "id": "Waabi",
@@ -1969,26 +1864,6 @@
       "id": "Mainspring Energy",
       "sector": "Climate & Energy",
       "thesisCluster": "energy-storage-thermal-gravity"
-    },
-    {
-      "id": "Watershed",
-      "sector": "Climate & Energy",
-      "thesisCluster": "ai-saas-enterprise"
-    },
-    {
-      "id": "Sakana AI",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-drug-discovery"
-    },
-    {
-      "id": "Together AI",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-foundation-models"
-    },
-    {
-      "id": "Runway",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-generative-media"
     },
     {
       "id": "eGenesis",
@@ -2179,16 +2054,6 @@
       "id": "Rain AI",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "ai-hardware-inference"
-    },
-    {
-      "id": "Twelve Labs",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-computer-vision-sensing"
-    },
-    {
-      "id": "Modal",
-      "sector": "AI & Software",
-      "thesisCluster": "data-center-infrastructure"
     },
     {
       "id": "Skyrora",
@@ -2656,11 +2521,6 @@
       "thesisCluster": "defense-security-ai"
     },
     {
-      "id": "Reality Defender",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-trust-safety"
-    },
-    {
       "id": "uAvionix",
       "sector": "Space & Aerospace",
       "thesisCluster": "drone-infrastructure"
@@ -2711,11 +2571,6 @@
       "thesisCluster": "cyber-infrastructure"
     },
     {
-      "id": "Dataminr",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-intelligence"
-    },
-    {
       "id": "Mythic",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "ai-chips-edge"
@@ -2729,11 +2584,6 @@
       "id": "Xsight Labs",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "networking-silicon"
-    },
-    {
-      "id": "WEKA",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-infrastructure"
     },
     {
       "id": "Electra",
@@ -2891,11 +2741,6 @@
       "thesisCluster": "green-manufacturing"
     },
     {
-      "id": "OneBrief",
-      "sector": "Defense & Security",
-      "thesisCluster": "defense-software"
-    },
-    {
       "id": "Amber Bio",
       "sector": "Biotech & Health",
       "thesisCluster": "gene-therapy"
@@ -3008,11 +2853,6 @@
     {
       "id": "Precision Neuroscience",
       "sector": "Biotech & Health",
-      "thesisCluster": ""
-    },
-    {
-      "id": "SandboxAQ",
-      "sector": "AI & Software",
       "thesisCluster": ""
     },
     {
@@ -3181,11 +3021,6 @@
       "thesisCluster": "counter-uas-kinetic"
     },
     {
-      "id": "Arondite",
-      "sector": "Defense & Security",
-      "thesisCluster": "defense-middleware"
-    },
-    {
       "id": "Hadean",
       "sector": "Defense & Security",
       "thesisCluster": "synthetic-training"
@@ -3326,21 +3161,6 @@
       "thesisCluster": "quantum-nanotube"
     },
     {
-      "id": "Zama",
-      "sector": "AI & Software",
-      "thesisCluster": "privacy-compute"
-    },
-    {
-      "id": "H Company",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-agents"
-    },
-    {
-      "id": "FlexAI",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-infrastructure"
-    },
-    {
       "id": "Harmattan AI",
       "sector": "Defense & Security",
       "thesisCluster": "autonomous-munitions"
@@ -3384,11 +3204,6 @@
       "id": "Sateliot",
       "sector": "Space & Aerospace",
       "thesisCluster": "iot-satellite"
-    },
-    {
-      "id": "Multiverse Computing",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-compression"
     },
     {
       "id": "Kreios Space",
@@ -3454,11 +3269,6 @@
       "id": "Pale Blue",
       "sector": "Space & Aerospace",
       "thesisCluster": "water-propulsion"
-    },
-    {
-      "id": "Preferred Networks",
-      "sector": "AI & Software",
-      "thesisCluster": "vertical-ai"
     },
     {
       "id": "Telexistence",
@@ -3956,11 +3766,6 @@
       "thesisCluster": "biomedical-ai"
     },
     {
-      "id": "Black Forest Labs",
-      "sector": "AI & Software",
-      "thesisCluster": "foundation-models"
-    },
-    {
       "id": "Vyoma",
       "sector": "Space & Aerospace",
       "thesisCluster": "space-ssa"
@@ -3994,16 +3799,6 @@
       "id": "Hexana",
       "sector": "Nuclear Energy",
       "thesisCluster": "smr-sodium-cooled"
-    },
-    {
-      "id": "Dust",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-agents"
-    },
-    {
-      "id": "Photoroom",
-      "sector": "AI & Software",
-      "thesisCluster": "on-device-ai"
     },
     {
       "id": "Fossa Systems",
@@ -4056,11 +3851,6 @@
       "thesisCluster": "edge-ai-silicon"
     },
     {
-      "id": "MakinaRocks",
-      "sector": "AI & Software",
-      "thesisCluster": "industrial-ai"
-    },
-    {
       "id": "DustPhotonics",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "copackaged-optics"
@@ -4111,41 +3901,6 @@
       "thesisCluster": "electric-propulsion"
     },
     {
-      "id": "xAI",
-      "sector": "AI & Software",
-      "thesisCluster": "foundation-models"
-    },
-    {
-      "id": "Safe Superintelligence",
-      "sector": "AI & Software",
-      "thesisCluster": "foundation-models"
-    },
-    {
-      "id": "Thinking Machines Lab",
-      "sector": "AI & Software",
-      "thesisCluster": "foundation-models"
-    },
-    {
-      "id": "World Labs",
-      "sector": "AI & Software",
-      "thesisCluster": "world-models"
-    },
-    {
-      "id": "Luma AI",
-      "sector": "AI & Software",
-      "thesisCluster": "generative-video"
-    },
-    {
-      "id": "Magic AI",
-      "sector": "AI & Software",
-      "thesisCluster": "code-ai"
-    },
-    {
-      "id": "Liquid AI",
-      "sector": "AI & Software",
-      "thesisCluster": "foundation-models"
-    },
-    {
       "id": "SambaNova Systems",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "ai-silicon-training"
@@ -4194,11 +3949,6 @@
       "id": "Portal Space Systems",
       "sector": "Space & Aerospace",
       "thesisCluster": "space-maneuverability"
-    },
-    {
-      "id": "Sift",
-      "sector": "Space & Aerospace",
-      "thesisCluster": "hardware-observability"
     },
     {
       "id": "Stratolaunch",
@@ -4281,11 +4031,6 @@
       "thesisCluster": "protein-ai"
     },
     {
-      "id": "Formation Bio",
-      "sector": "Biotech & Health",
-      "thesisCluster": "ai-pharma"
-    },
-    {
       "id": "Genesis Therapeutics",
       "sector": "Biotech & Health",
       "thesisCluster": "ai-drug-discovery"
@@ -4299,11 +4044,6 @@
       "id": "Iambic Therapeutics",
       "sector": "Biotech & Health",
       "thesisCluster": "ai-drug-discovery"
-    },
-    {
-      "id": "Chroma Medicine",
-      "sector": "Biotech & Health",
-      "thesisCluster": "epigenome-editing"
     },
     {
       "id": "Rondo Energy",
@@ -4478,11 +4218,6 @@
     {
       "id": "Fabri",
       "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Flapping Airplanes",
-      "sector": "Drones & Autonomous",
       "thesisCluster": ""
     },
     {
@@ -4664,6 +4399,2936 @@
       "id": "Swan",
       "sector": "Defense & Security",
       "thesisCluster": ""
+    },
+    {
+      "id": "Tobe Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Standard Electron",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "The Red Metal Company",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Resolute Grid",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Until",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Boring Company",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nanotronics",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Jetson",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Genesis AI",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Anode",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "6 River Systems",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Watchmaker Genomics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Quantum Source",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nucleus Radiopharma",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Oxide",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ForSight Robotics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Efficient Computer",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Reframe Systems",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tandem PV",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Verkada",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Remedy (Scientific)",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "AheadComputing",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Capstan Medical",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Also",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Aloft",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Enhanced Radar",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "EpiSci",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Flightwave",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "HavocAI",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lift Aircraft",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Maybell Quantum",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pison",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Arena AI",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Code Metal",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Dedrone",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hawkeye 360",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "mPower Technology",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Obviant",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Overwatch Imaging",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Seasats",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "UFORCE",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vector (TF Vector)",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CX2",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Proclaim",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Somnee",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vero Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Point One",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zetwerk",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Windborne",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vayu",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sagence",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Skybox",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Glydways",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nitricity",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TerraAI",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Enzymit",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Spiritus",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ceibo",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Caelux",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Leaft",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Impossible Foods",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Blue River",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Opentrons",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Inflammatix",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Guardant Health",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vitara",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pearl Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Karius",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Flow Neuroscience",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Overture Life",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kamau",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Stylus Medicine",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Loyal",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Moonwalk Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Everyone Medicines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Liberate Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Rubedo Life",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cellino",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Echodyne",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kymeta",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pivotal Commware",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Epsilon3",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Orbital Insight",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Covariant",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Veo Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ripcord",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Desktop Metal",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Shapeways",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tempo Automation",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Strateos",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Instock",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SOLS Systems",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mendaera",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Performance Drone Works",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "AirMap",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lumaril",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cognichip",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Flex Logix",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Transphorm",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Everspin Technologies",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Luxtera",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SiBeam",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Crystal IS",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nanosys",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Looking Glass",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Aurora Solar",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "G2X Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Aera Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kallyope",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Adimab",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "A-Alpha Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Anagenex",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cajal Neuroscience",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Babylon Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Dyno Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Gameto",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Atavistik Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Senti Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Visterra",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Creyon",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Atrandi",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nomic",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cala Health",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Resilience",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vium",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Happiest Baby",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Deep Sentinel",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Stord",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Latch",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "75F",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Aeroseal",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Airloom",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alpine Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ArkeaBio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Arnergy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Baseload Capital",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Bloom Biorenewables",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Blue Frontier",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Blue World Technologies",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Circ",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Conduit Tech",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CubicPV",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Dandelion Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Data Blanket",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Dioxycle",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "DMC Biotechnologies",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ecocem",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ESS Inc.",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "GALY",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "GeologicAI",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Graphitic Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Guidewheel",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "H2Site",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "I-ROX",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Inevitable Tech",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kodama Systems",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "LuxWall",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "M2X",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "MagLev Aero",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Malta",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mangrove Lithium",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mantle8",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "MAX",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mill",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Molten Industries",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Natel Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nature's Fynd",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Our Next Energy",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pivot Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Planted Solar",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Prolific Machines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Quidnet Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Reactive Technologies",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "RedoxBlox",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ReMo Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Rize",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Rumin8",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Savor",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sortera Alloys",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Source",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SparkMeter",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Still Bright",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Stratus Materials",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sustaera",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Terabase",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TerraCO2",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Turntide",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vantem",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Verdox",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Windfall Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Yard Stick",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alloy Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "BigHat Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cambium",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cartography Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CREATE Medicines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Digital Diagnostics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Dren Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Octant",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Orca Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Orchestra Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sonoma Biotherapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Terra Industries",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Trackonomy",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Wispr AI",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "AgZen",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "AIM Intelligent Machines",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alta Resource Technologies",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Aquafortus",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ascend Advanced Therapies",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Atomic Alchemy",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "BioPhero",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "C16 Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Catalog",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cato Digital",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CH4 Global",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Circularity Fuels",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Culture Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "DroneDeploy",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ElectronX",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Elo Life",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Embark",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Enough",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Entocycle",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Equilibrium Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Estes Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Evonetix",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Fulfil",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ginkgo Bioworks",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Graphcore",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Halter",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Iceberg Quantum",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Insight M",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kanvas Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kindred AI",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Molecular Assemblies",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "MycoWorks",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nobell Foods",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "nTop",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nyriad",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Omniome",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Plotlogic",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Proprio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Reach Labs",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Samsara Eco",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SenseMesh",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Smartex",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Supplant",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tidal Metals",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TrustPoint",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Unconventional AI",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vathys",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Verdigris Technologies",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Visolis",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ZwitterCo",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zymergen",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Adyton",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Basalt",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Bland Company",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Clairity",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Clone",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Crewline",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kayhan Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Medivis",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Orbio",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sabi",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Spaceium",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sygaldry",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Verve Motion",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sphere Semi",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Monaire",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vammo",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kinetic",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TimberEye",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Solar Square",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Breathe Batteries",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Remora",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nevoya",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kula Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mosa Meat",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Artyc",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Gridware",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lemon",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Carbon Engineering",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vaulted Deep",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Carbon Crusher",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lithios",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Eli",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Acceleron Fusion",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Musa",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Quilt",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Biosphere",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ulysses Ecosystem Engineering",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Woodoo",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Storio Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "General Biological",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "River",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Seabound",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Noya",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Supercritical",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Matter (Lowercarbon)",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Milvus Advanced",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Loam Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tender Food",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Safi",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Air Company",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lumen (Lowercarbon)",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Undo",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CargoKite",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Arca",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Novalith",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Flair Systems",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "InRange",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Macro Oceans",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Frost Methane",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zero Acre Farms",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Minus Coffee",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Formo",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ecosafi",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "FarmHQ",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Genomines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Phaidra",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cradle",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Arista Networks",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pure Storage",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sunflower Labs",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "JITX",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Keen Technologies",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nuvacore",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alpha & Omega Semiconductor",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Microchip Technology",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Western Digital",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pixelworks",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cadence Design Systems",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Flextronics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cisco",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "BridgeBio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "BreezeBio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pendulum Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pharming Group",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Natera",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "MyOme",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Quince Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sunrun",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zum",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Upway",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hypersonica",
+      "sector": "Supersonic & Hypersonic",
+      "thesisCluster": ""
+    },
+    {
+      "id": "JEH Aerospace",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Constelli",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Standard Kernel",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alsym Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ayr Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SustainX",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tractian",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Modular",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "deepsilicon",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cobalt Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Fox Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Orchard Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Dexai Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "PhysicsX",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Bowery Farming",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Voodoo Manufacturing",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CloudNC",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Maxion Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tahoe Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Beacon Biosignals",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alpha-9 Oncology",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Parabilis Medicines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Odyssey Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CHARM Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Maze Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Rakuten Medical",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Dewpoint Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Strella Biotechnology",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ossium Health",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mirvie",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Whoop",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Aidoc",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Bindwell",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "STOR",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Brick Dynamics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nodal",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mango",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Voyager Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Privateer Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Rendered.ai",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "OurSky",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "JetZero",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hypori",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Anello Photonics",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Neurophos",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hellbender",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "KEWAZO",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Parallax Worlds",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TRL11",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Exyn Technologies",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Syntiant",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "EdgeCortix",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "EUV Tech",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Fonontech",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Diraq",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Harbinger Motors",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Noble Gas Systems",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Prometheus Hyperscale",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Rincell",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Moment Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "JetCool",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Xarion Laser Acoustics",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Markforged",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Fortify",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "RaySecur",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tyfone",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Thermopylae Aerospace",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Catalyx Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Buoyant",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lucid Bots",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "3E8 Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Atom Limbs",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Digital Metal",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hayla",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Dorado",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SoloPulse",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "The Lumber Manufactory",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Spaero Bio",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Felix Biotechnology",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Quantune",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Netradyne",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Merlin Labs",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Type III",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cellular Intelligence",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "AESCAPE",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Castle Creek Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zellerfeld",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tesla",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Edgescale AI",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Foundation Alloy",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Enfabrica",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lambda",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zapata AI",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sepion Technologies",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "FreeWire Technologies",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cambrian Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SURGE Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Acorn Genetics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Oura",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hayden AI",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lineage Logistics",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Abiologics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alltrna",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ampersand Biomedicines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Apriori Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cellarity",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Empress Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Etiome",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Foghorn Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Generate:Biomedicines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Inari Agriculture",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Indigo Agriculture",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "KSQ Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Metaphore Biotechnologies",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mirai Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Moderna",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Montai Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ProFound Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Prologue Medicines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Quotient Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Repertoire Immune Medicines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ring Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sail Biomedicines",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sana Biotechnology",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Seres Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tessera Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Valo",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vesalius Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Bodyport",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Boxbot",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Clear (electric deicing)",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Element Zero",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Fabric",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "GigaCrop",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Infinimmune",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Insamo",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "NVision",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Outpace",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "PicoJool",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "PowerLattice",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Robust.AI",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sizable",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Snowcap",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Syenta",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Synthetic Design Lab",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "xLight",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Holo",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hillevax",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ImmunOs Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Enlaza Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Abata Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kirilys Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ancora Biotech",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "AbogenBio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Neion Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zeromatter",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "E-Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Gilgamesh",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tarana",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lyten",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Paradromics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Halo",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Gordian",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lygenesis",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Energy Vault",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Heliogen",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vaxxinity",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Momentus",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Archer",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Iviva Medical",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Spartan",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nelumbo",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Addis Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Anthology",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Amide",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Atlantic Quantum",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "AtmosZero",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Axoft",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Bexorg",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Blue Energy",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Celestial AI",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Copernic Catalysts",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "DG Matrix",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Droplet Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Emvolon",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "EVOLOH",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Finwave",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Foray Bioscience",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hyf\u00e9",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "HyperLight",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ISEE",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kano",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kytopen",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mantel",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Matrisome Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mori",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Osmoses",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "OSO Semiconductor",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pascal",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Predicta",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Trener Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Resonant Link",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Seaspire Skincare",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sora Fuel",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Syzygy Plasmonics",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Teradar",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Terragia",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Via Separations",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "WoHo",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "64x Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Amplifier Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Astonishing Labs",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "atai Life Sciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Beeflow",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Better Meat Co",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Centivax",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Decibel Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Enriched Ag",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Faeth Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Greenlight Biosciences",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hephae Energy Technology",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lace Lithography",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mojo Vision",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Molten Salt Solutions",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Neurobionics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "New Culture",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Prellis Biologics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pumpkinseed Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sanmai Technologies",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sensei Biotherapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Shennon Bio",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Stardust Solutions",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Subcritical Systems",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Upside Foods",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vironexis Biotherapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Xona Space Systems",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Your Choice Therapeutics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ZaiNar",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alpha School",
+      "sector": "AI & Software",
+      "thesisCluster": ""
     }
   ],
   "edges": [
@@ -4798,11 +7463,6 @@
       "type": "competitor"
     },
     {
-      "src": "Anysphere",
-      "dst": "Cognition",
-      "type": "competitor"
-    },
-    {
       "src": "Hadrian",
       "dst": "Machina Labs",
       "type": "competitor"
@@ -4838,21 +7498,6 @@
       "type": "competitor"
     },
     {
-      "src": "Labelbox",
-      "dst": "Scale AI",
-      "type": "competitor"
-    },
-    {
-      "src": "Anthropic",
-      "dst": "OpenAI",
-      "type": "competitor"
-    },
-    {
-      "src": "Anthropic",
-      "dst": "Mistral AI",
-      "type": "competitor"
-    },
-    {
       "src": "Nano Nuclear Energy",
       "dst": "Radiant",
       "type": "competitor"
@@ -4873,18 +7518,8 @@
       "type": "competitor"
     },
     {
-      "src": "Mistral AI",
-      "dst": "OpenAI",
-      "type": "competitor"
-    },
-    {
       "src": "Figure AI",
       "dst": "Skild AI",
-      "type": "competitor"
-    },
-    {
-      "src": "Kyutai",
-      "dst": "Mistral AI",
       "type": "competitor"
     },
     {
@@ -4910,11 +7545,6 @@
     {
       "src": "Hadrian",
       "dst": "Monumental",
-      "type": "competitor"
-    },
-    {
-      "src": "ElevenLabs",
-      "dst": "Gladia",
       "type": "competitor"
     },
     {
@@ -4958,13 +7588,8 @@
       "type": "competitor"
     },
     {
-      "src": "Formic",
-      "dst": "RIOS Intelligent Machines",
-      "type": "competitor"
-    },
-    {
-      "src": "Bright Machines",
-      "dst": "RIOS Intelligent Machines",
+      "src": "Markforged",
+      "dst": "Orbital Composites",
       "type": "competitor"
     },
     {
@@ -4993,6 +7618,16 @@
       "type": "competitor"
     },
     {
+      "src": "Chef Robotics",
+      "dst": "Dexai Robotics",
+      "type": "competitor"
+    },
+    {
+      "src": "Covariant",
+      "dst": "Dexterity",
+      "type": "competitor"
+    },
+    {
       "src": "Dexterity",
       "dst": "Nimble Robotics",
       "type": "competitor"
@@ -5008,11 +7643,6 @@
       "type": "competitor"
     },
     {
-      "src": "Hive AI",
-      "dst": "OpenAI",
-      "type": "competitor"
-    },
-    {
       "src": "LeoLabs",
       "dst": "Slingshot Aerospace",
       "type": "competitor"
@@ -5023,8 +7653,18 @@
       "type": "competitor"
     },
     {
+      "src": "6 River Systems",
+      "dst": "Locus Robotics",
+      "type": "competitor"
+    },
+    {
       "src": "Modern Intelligence",
       "dst": "Palantir",
+      "type": "competitor"
+    },
+    {
+      "src": "Covariant",
+      "dst": "Osaro",
       "type": "competitor"
     },
     {
@@ -5043,6 +7683,11 @@
       "type": "competitor"
     },
     {
+      "src": "Rivian",
+      "dst": "Tesla",
+      "type": "competitor"
+    },
+    {
       "src": "Shield AI",
       "dst": "Swarm Aero",
       "type": "competitor"
@@ -5055,16 +7700,6 @@
     {
       "src": "Sage Geosystems",
       "dst": "Zanskar",
-      "type": "competitor"
-    },
-    {
-      "src": "Cohere",
-      "dst": "OpenAI",
-      "type": "competitor"
-    },
-    {
-      "src": "Anthropic",
-      "dst": "Cohere",
       "type": "competitor"
     },
     {
@@ -5138,18 +7773,8 @@
       "type": "competitor"
     },
     {
-      "src": "OpenAI",
-      "dst": "Sakana AI",
-      "type": "competitor"
-    },
-    {
-      "src": "Anthropic",
-      "dst": "Sakana AI",
-      "type": "competitor"
-    },
-    {
-      "src": "Hugging Face",
-      "dst": "Together AI",
+      "src": "Mission Barns",
+      "dst": "Upside Foods",
       "type": "competitor"
     },
     {
@@ -5198,6 +7823,11 @@
       "type": "competitor"
     },
     {
+      "src": "Dedrone",
+      "dst": "Fortem Technologies",
+      "type": "competitor"
+    },
+    {
       "src": "DroneShield",
       "dst": "Fortem Technologies",
       "type": "competitor"
@@ -5230,6 +7860,11 @@
     {
       "src": "CarbonCapture Inc.",
       "dst": "Climeworks",
+      "type": "competitor"
+    },
+    {
+      "src": "Carbon Engineering",
+      "dst": "CarbonCapture Inc.",
       "type": "competitor"
     },
     {
@@ -5268,6 +7903,11 @@
       "type": "competitor"
     },
     {
+      "src": "Asimov",
+      "dst": "Ginkgo Bioworks",
+      "type": "competitor"
+    },
+    {
       "src": "Cemvita Factory",
       "dst": "LanzaTech",
       "type": "competitor"
@@ -5283,6 +7923,11 @@
       "type": "competitor"
     },
     {
+      "src": "Dedrone",
+      "dst": "Hidden Level",
+      "type": "competitor"
+    },
+    {
       "src": "Astroscale",
       "dst": "ClearSpace",
       "type": "competitor"
@@ -5290,11 +7935,6 @@
     {
       "src": "ClearSpace",
       "dst": "Orbit Fab",
-      "type": "competitor"
-    },
-    {
-      "src": "Infleqtion",
-      "dst": "SandboxAQ",
       "type": "competitor"
     },
     {
@@ -5383,6 +8023,11 @@
       "type": "competitor"
     },
     {
+      "src": "SemiQon",
+      "dst": "Snowcap",
+      "type": "competitor"
+    },
+    {
       "src": "Archer Materials",
       "dst": "Infleqtion",
       "type": "competitor"
@@ -5428,18 +8073,13 @@
       "type": "competitor"
     },
     {
-      "src": "Dataminr",
-      "dst": "Palantir",
-      "type": "competitor"
-    },
-    {
-      "src": "Dataminr",
-      "dst": "Primer AI",
-      "type": "competitor"
-    },
-    {
       "src": "Hailo",
       "dst": "Mythic",
+      "type": "competitor"
+    },
+    {
+      "src": "Mythic",
+      "dst": "Syntiant",
       "type": "competitor"
     },
     {
@@ -5459,6 +8099,11 @@
     },
     {
       "src": "Skydio",
+      "dst": "Zeitview",
+      "type": "competitor"
+    },
+    {
+      "src": "DroneDeploy",
       "dst": "Zeitview",
       "type": "competitor"
     },
@@ -5528,6 +8173,11 @@
       "type": "competitor"
     },
     {
+      "src": "Desktop Metal",
+      "dst": "Velo3D",
+      "type": "competitor"
+    },
+    {
       "src": "Monarch Tractor",
       "dst": "Sabanto",
       "type": "competitor"
@@ -5588,8 +8238,18 @@
       "type": "competitor"
     },
     {
-      "src": "OneBrief",
-      "dst": "Palantir",
+      "src": "Dyno Therapeutics",
+      "dst": "Manifold Bio",
+      "type": "competitor"
+    },
+    {
+      "src": "BigHat Biosciences",
+      "dst": "Manifold Bio",
+      "type": "competitor"
+    },
+    {
+      "src": "Moderna",
+      "dst": "Strand Therapeutics",
       "type": "competitor"
     },
     {
@@ -6815,50 +9475,8 @@
       "cluster": "ai-saas-enterprise"
     },
     {
-      "src": "Databricks",
-      "dst": "Nominal",
-      "type": "thesis",
-      "cluster": "ai-saas-enterprise"
-    },
-    {
-      "src": "Nominal",
-      "dst": "Watershed",
-      "type": "thesis",
-      "cluster": "ai-saas-enterprise"
-    },
-    {
       "src": "Amperon",
       "dst": "Palantir",
-      "type": "thesis",
-      "cluster": "ai-saas-enterprise"
-    },
-    {
-      "src": "Databricks",
-      "dst": "Palantir",
-      "type": "thesis",
-      "cluster": "ai-saas-enterprise"
-    },
-    {
-      "src": "Palantir",
-      "dst": "Watershed",
-      "type": "thesis",
-      "cluster": "ai-saas-enterprise"
-    },
-    {
-      "src": "Amperon",
-      "dst": "Databricks",
-      "type": "thesis",
-      "cluster": "ai-saas-enterprise"
-    },
-    {
-      "src": "Amperon",
-      "dst": "Watershed",
-      "type": "thesis",
-      "cluster": "ai-saas-enterprise"
-    },
-    {
-      "src": "Databricks",
-      "dst": "Watershed",
       "type": "thesis",
       "cluster": "ai-saas-enterprise"
     },
@@ -7329,6 +9947,174 @@
       "dst": "Sunfire",
       "type": "thesis",
       "cluster": "electrolysis-green-hydrogen"
+    },
+    {
+      "src": "Claros",
+      "dst": "Lightmatter",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Armada",
+      "dst": "Claros",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Claros",
+      "dst": "Exowatt",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Claros",
+      "dst": "Crusoe Energy",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Astera Labs",
+      "dst": "Claros",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Claros",
+      "dst": "NetworkOcean",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Claros",
+      "dst": "Starcloud",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Armada",
+      "dst": "Lightmatter",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Exowatt",
+      "dst": "Lightmatter",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Crusoe Energy",
+      "dst": "Lightmatter",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Astera Labs",
+      "dst": "Lightmatter",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Lightmatter",
+      "dst": "NetworkOcean",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Lightmatter",
+      "dst": "Starcloud",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Armada",
+      "dst": "Exowatt",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Armada",
+      "dst": "Crusoe Energy",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Armada",
+      "dst": "Astera Labs",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Armada",
+      "dst": "NetworkOcean",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Armada",
+      "dst": "Starcloud",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Crusoe Energy",
+      "dst": "Exowatt",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Astera Labs",
+      "dst": "Exowatt",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Exowatt",
+      "dst": "NetworkOcean",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Exowatt",
+      "dst": "Starcloud",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Astera Labs",
+      "dst": "Crusoe Energy",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Crusoe Energy",
+      "dst": "NetworkOcean",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Crusoe Energy",
+      "dst": "Starcloud",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Astera Labs",
+      "dst": "NetworkOcean",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "Astera Labs",
+      "dst": "Starcloud",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
+    },
+    {
+      "src": "NetworkOcean",
+      "dst": "Starcloud",
+      "type": "thesis",
+      "cluster": "data-center-infrastructure"
     },
     {
       "src": "Rainmaker",
@@ -8135,150 +10921,6 @@
       "cluster": "space-debris-servicing"
     },
     {
-      "src": "Anthropic",
-      "dst": "Groq",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Anthropic",
-      "dst": "Hugging Face",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Anthropic",
-      "dst": "Kyutai",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Anthropic",
-      "dst": "Together AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Groq",
-      "dst": "OpenAI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Hugging Face",
-      "dst": "OpenAI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Kyutai",
-      "dst": "OpenAI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "OpenAI",
-      "dst": "Together AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Groq",
-      "dst": "Mistral AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Hugging Face",
-      "dst": "Mistral AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Cohere",
-      "dst": "Mistral AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Mistral AI",
-      "dst": "Together AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Groq",
-      "dst": "Hugging Face",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Groq",
-      "dst": "Kyutai",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Cohere",
-      "dst": "Groq",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Groq",
-      "dst": "Together AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Hugging Face",
-      "dst": "Kyutai",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Cohere",
-      "dst": "Hugging Face",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Cohere",
-      "dst": "Kyutai",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Kyutai",
-      "dst": "Together AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Cohere",
-      "dst": "Together AI",
-      "type": "thesis",
-      "cluster": "ai-foundation-models"
-    },
-    {
-      "src": "Air Space Intelligence",
-      "dst": "Atmo",
-      "type": "thesis",
-      "cluster": "ai-weather-earth"
-    },
-    {
-      "src": "Air Space Intelligence",
-      "dst": "Beacon AI",
-      "type": "thesis",
-      "cluster": "ai-weather-earth"
-    },
-    {
-      "src": "Atmo",
-      "dst": "Beacon AI",
-      "type": "thesis",
-      "cluster": "ai-weather-earth"
-    },
-    {
       "src": "Andromeda Surgical",
       "dst": "PILGRIM",
       "type": "thesis",
@@ -8603,52 +11245,172 @@
       "cluster": "robotics-construction-mining"
     },
     {
-      "src": "ElevenLabs",
-      "dst": "Runway",
+      "src": "AiDash",
+      "dst": "Flock Safety",
       "type": "thesis",
-      "cluster": "ai-generative-media"
+      "cluster": "ai-computer-vision-sensing"
     },
     {
-      "src": "Gladia",
-      "dst": "Runway",
+      "src": "Flock Safety",
+      "dst": "Pano AI",
       "type": "thesis",
-      "cluster": "ai-generative-media"
+      "cluster": "ai-computer-vision-sensing"
     },
     {
-      "src": "Hippocratic AI",
-      "dst": "Tempus AI",
+      "src": "Flock Safety",
+      "dst": "Floodbase",
       "type": "thesis",
-      "cluster": "ai-clinical-health"
+      "cluster": "ai-computer-vision-sensing"
     },
     {
-      "src": "Abridge",
-      "dst": "Hippocratic AI",
+      "src": "Flock Safety",
+      "dst": "Lumotive",
       "type": "thesis",
-      "cluster": "ai-clinical-health"
+      "cluster": "ai-computer-vision-sensing"
     },
     {
-      "src": "Hippocratic AI",
-      "dst": "Neko Health",
+      "src": "Flock Safety",
+      "dst": "Ouster",
       "type": "thesis",
-      "cluster": "ai-clinical-health"
+      "cluster": "ai-computer-vision-sensing"
     },
     {
-      "src": "Abridge",
-      "dst": "Tempus AI",
+      "src": "Aeva Technologies",
+      "dst": "Flock Safety",
       "type": "thesis",
-      "cluster": "ai-clinical-health"
+      "cluster": "ai-computer-vision-sensing"
     },
     {
-      "src": "Neko Health",
-      "dst": "Tempus AI",
+      "src": "Flock Safety",
+      "dst": "Voyant Photonics",
       "type": "thesis",
-      "cluster": "ai-clinical-health"
+      "cluster": "ai-computer-vision-sensing"
     },
     {
-      "src": "Abridge",
-      "dst": "Neko Health",
+      "src": "AiDash",
+      "dst": "Pano AI",
       "type": "thesis",
-      "cluster": "ai-clinical-health"
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "AiDash",
+      "dst": "Floodbase",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "AiDash",
+      "dst": "Lumotive",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "AiDash",
+      "dst": "Ouster",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Aeva Technologies",
+      "dst": "AiDash",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "AiDash",
+      "dst": "Voyant Photonics",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Floodbase",
+      "dst": "Pano AI",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Lumotive",
+      "dst": "Pano AI",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Ouster",
+      "dst": "Pano AI",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Aeva Technologies",
+      "dst": "Pano AI",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Pano AI",
+      "dst": "Voyant Photonics",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Floodbase",
+      "dst": "Lumotive",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Floodbase",
+      "dst": "Ouster",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Aeva Technologies",
+      "dst": "Floodbase",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Floodbase",
+      "dst": "Voyant Photonics",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Lumotive",
+      "dst": "Ouster",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Aeva Technologies",
+      "dst": "Lumotive",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Lumotive",
+      "dst": "Voyant Photonics",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Aeva Technologies",
+      "dst": "Ouster",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Ouster",
+      "dst": "Voyant Photonics",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
+    },
+    {
+      "src": "Aeva Technologies",
+      "dst": "Voyant Photonics",
+      "type": "thesis",
+      "cluster": "ai-computer-vision-sensing"
     },
     {
       "src": "Colossal Biosciences",
@@ -8769,6 +11531,12 @@
       "dst": "Trilobio",
       "type": "thesis",
       "cluster": "biotech-lab-automation"
+    },
+    {
+      "src": "Abridge",
+      "dst": "Neko Health",
+      "type": "thesis",
+      "cluster": "ai-clinical-health"
     },
     {
       "src": "Climeworks",
@@ -9155,22 +11923,10 @@
       "cluster": "quantum-sensing"
     },
     {
-      "src": "Defense Unicorns",
-      "dst": "OneBrief",
-      "type": "thesis",
-      "cluster": "defense-software"
-    },
-    {
       "src": "Adarga",
       "dst": "Strider Technologies",
       "type": "thesis",
       "cluster": "defense-intelligence"
-    },
-    {
-      "src": "FlexAI",
-      "dst": "WEKA",
-      "type": "thesis",
-      "cluster": "ai-infrastructure"
     },
     {
       "src": "Lilac Solutions",
@@ -9297,12 +12053,6 @@
       "dst": "Hystar",
       "type": "thesis",
       "cluster": "green-hydrogen"
-    },
-    {
-      "src": "Dust",
-      "dst": "H Company",
-      "type": "thesis",
-      "cluster": "ai-agents"
     },
     {
       "src": "Axelera AI",
@@ -9495,73 +12245,13 @@
       "dst": "Rondo Energy",
       "type": "thesis",
       "cluster": "thermal-storage"
-    },
-    {
-      "src": "Black Forest Labs",
-      "dst": "xAI",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Black Forest Labs",
-      "dst": "Safe Superintelligence",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Black Forest Labs",
-      "dst": "Thinking Machines Lab",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Black Forest Labs",
-      "dst": "Liquid AI",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Safe Superintelligence",
-      "dst": "xAI",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Thinking Machines Lab",
-      "dst": "xAI",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Liquid AI",
-      "dst": "xAI",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Safe Superintelligence",
-      "dst": "Thinking Machines Lab",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Liquid AI",
-      "dst": "Safe Superintelligence",
-      "type": "thesis",
-      "cluster": "foundation-models"
-    },
-    {
-      "src": "Liquid AI",
-      "dst": "Thinking Machines Lab",
-      "type": "thesis",
-      "cluster": "foundation-models"
     }
   ],
   "counts": {
-    "total_nodes": 933,
-    "total_edges": 846,
-    "competitor_edges": 187,
-    "thesis_edges": 659,
+    "total_nodes": 1466,
+    "total_edges": 850,
+    "competitor_edges": 186,
+    "thesis_edges": 664,
     "alumni_edges": 0
   }
 }

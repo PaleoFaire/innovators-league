@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-20 09:41:15 UTC
+// Last updated: 2026-05-21 09:50:40 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "8-K", date: "2026-05-20", description: "rklb-20260520.htm", isIPO: false, ticker: "RKLB" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-05-20", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-05-20", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Satellogic", form: "8-K", date: "2026-05-20", description: "ea0291617-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Palantir Technologies", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779235635.xml", isIPO: false, ticker: "PLTR" },
   { company: "C3.ai", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779231038.xml", isIPO: false, ticker: "AI" },
   { company: "C3.ai", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779230971.xml", isIPO: false, ticker: "AI" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-05-14", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Virgin Galactic", form: "10-Q", date: "2026-05-14", description: "spce-20260331.htm", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-05-14", description: "spce-20260514.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Upstart Holdings", form: "4", date: "2026-05-14", description: "xslF345X06/wk-form4_1778761449.xml", isIPO: false, ticker: "UPST" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-05-14", description: "xslF345X06/wk-form4_1778793277.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-05-14", description: "xslF345X06/wk-form4_1778793189.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-05-14", description: "xslF345X06/wk-form4_1778793093.xml", isIPO: false, ticker: "QBTS" },
 ];

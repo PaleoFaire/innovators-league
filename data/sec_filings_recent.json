@@ -137,6 +137,15 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-05-20",
+    "description": "rklb-20260520.htm",
+    "accessionNumber": "0001819994-26-000045",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "4",
     "date": "2026-05-14",
     "description": "xslF345X06/edgardoc.xml",
@@ -294,6 +303,24 @@
     "date": "2026-02-26",
     "description": "rklb-20260226.htm",
     "accessionNumber": "0001819994-26-000012",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "4",
+    "date": "2026-05-20",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-024687",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "4",
+    "date": "2026-05-20",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-024686",
     "isIPO": false
   },
   {
@@ -1638,15 +1665,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-10",
-    "description": "xslF345X05/wk-form4_1773173543.xml",
-    "accessionNumber": "0002021774-26-000002",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "4",
@@ -2076,15 +2094,6 @@
     "date": "2026-02-24",
     "description": "xslF345X05/wk-form4_1771969578.xml",
     "accessionNumber": "0001558259-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "8-K",
-    "date": "2026-02-19",
-    "description": "upst-20260219.htm",
-    "accessionNumber": "0001647639-26-000033",
     "isIPO": false
   },
   {
@@ -2691,15 +2700,6 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-02-19",
-    "description": "qbts-20260219.htm",
-    "accessionNumber": "0001907982-26-000020",
-    "isIPO": false
-  },
-  {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
@@ -2913,42 +2913,6 @@
     "date": "2026-02-25",
     "description": "rxrx-20260225.htm",
     "accessionNumber": "0001601830-26-000038",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-02-19",
-    "description": "xslF345X05/wk-form4_1771547454.xml",
-    "accessionNumber": "0001601830-26-000022",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-02-19",
-    "description": "xslF345X05/wk-form4_1771547448.xml",
-    "accessionNumber": "0001601830-26-000021",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-02-19",
-    "description": "xslF345X05/wk-form4_1771547442.xml",
-    "accessionNumber": "0001601830-26-000020",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-02-19",
-    "description": "xslF345X05/wk-form4_1771547436.xml",
-    "accessionNumber": "0001601830-26-000019",
     "isIPO": false
   },
   {
@@ -3489,42 +3453,6 @@
     "date": "2026-02-25",
     "description": "skyt-20260225.htm",
     "accessionNumber": "0001819974-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-02-19",
-    "description": "xslF345X05/wk-form4_1771539290.xml",
-    "accessionNumber": "0001611597-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-02-19",
-    "description": "xslF345X05/wk-form4_1771539203.xml",
-    "accessionNumber": "0001994955-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-02-19",
-    "description": "xslF345X05/wk-form4_1771539092.xml",
-    "accessionNumber": "0001856680-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-02-19",
-    "description": "xslF345X05/wk-form4_1771538986.xml",
-    "accessionNumber": "0001964417-26-000002",
     "isIPO": false
   },
   {
@@ -4575,6 +4503,15 @@
     "company": "Satellogic",
     "ticker": "SATL",
     "form": "8-K",
+    "date": "2026-05-20",
+    "description": "ea0291617-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-059604",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
     "date": "2026-05-19",
     "description": "ea0291545-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-059140",
@@ -4632,15 +4569,6 @@
     "date": "2026-02-26",
     "description": "ea0278450-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-020651",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2026-02-19",
-    "description": "ea0277757-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-26-018508",
     "isIPO": false
   }
 ]

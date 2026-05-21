@@ -1,91 +1,107 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 56,
+    "sector": "Space & Aerospace",
+    "momentum": 71,
     "trend": "accelerating",
     "catalysts": [
-      "Singapore partners OpenAI in $234M push to expand national A",
-      "Tesla&#8217;s Former AI Lead Goes To Anthropic",
-      "Former OpenAI Staffers Warn That xAI\u2019s Poor Safety Record Co"
-    ],
-    "fundingQ": "$2218.7B",
-    "components": {
-      "funding": 100,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-20"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 56,
-    "trend": "steady",
-    "catalysts": [
-      "Singapore partners OpenAI in $234M push to expand national A",
-      "Former OpenAI Staffers Warn That xAI\u2019s Poor Safety Record Co",
-      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
+      "ICEYE secures \u20ac300M credit facility to scale sovereign satel",
+      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do",
+      "SpaceX Listed Grok\u2019s \u2018Spicy\u2019 Mode as a Risk in Its IPO Filin"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 35,
+      "news": 95,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 52,
-    "trend": "steady",
+    "sector": "AI & Software",
+    "momentum": 64,
+    "trend": "accelerating",
     "catalysts": [
-      "NATO eastern deterrence strategy takes shape around \u2018autonom",
-      "Shield AI tapped to integrate autonomous software on LUCAS d",
-      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World"
+      "Lexroom CEO: Anthropic won\u2019t kill vertical AI companies",
+      "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a",
+      "Anthropic will pay xAI $1.25B per month for compute"
     ],
-    "fundingQ": "$12.7B",
+    "fundingQ": "$2218.7B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 49,
+    "momentum": 56,
     "trend": "steady",
     "catalysts": [
-      "Mach Industries just spent $50M to solve a major defense tec",
-      "Shield AI tapped to integrate autonomous software on LUCAS d",
       "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
     ],
     "fundingQ": "$32.5B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 5,
       "hiring": 0,
-      "market": 45
+      "market": 100
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi",
+      "Dunia Innovations unveils \u20ac280M Berlin GigaLab to industrial",
+      "Vast announces line of high-power satellite buses"
+    ],
+    "fundingQ": "$5.9B",
+    "components": {
+      "funding": 100,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-21"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi",
+      "NATO eastern deterrence strategy takes shape around \u2018autonom",
+      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World"
+    ],
+    "fundingQ": "$12.7B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 46,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Mach Industries just spent $50M to solve a major defense tec"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,11 +117,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 34,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its",
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
+      "Fervo Energy unveils new power plant details in IPO filing"
+    ],
+    "fundingQ": "$1.3B",
+    "components": {
+      "funding": 84,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 34,
+    "momentum": 33,
     "trend": "steady",
     "catalysts": [
       "X-energy gets federal environmental approval for Texas nucle",
@@ -115,135 +149,99 @@
     "fundingQ": "$800M",
     "components": {
       "funding": 83,
-      "news": 20,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-05-20"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 33,
-    "trend": "steady",
-    "catalysts": [
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge"
-    ],
-    "fundingQ": "$1.3B",
-    "components": {
-      "funding": 84,
       "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-20"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 31,
-    "trend": "rising",
-    "catalysts": [
-      "Dunia Innovations unveils \u20ac280M Berlin GigaLab to industrial",
-      "Waymo Reaching 11 Cities &#038; 1,400 Square Miles As World",
-      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi"
-    ],
-    "fundingQ": "$655M",
-    "components": {
-      "funding": 39,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 23,
+    "momentum": 28,
     "trend": "declining",
     "catalysts": [
-      "Dunia Innovations unveils \u20ac280M Berlin GigaLab to industrial",
-      "What US chipmaker Cerebras\u2019s IPO could mean for startups lik",
-      "Cerebras Shares Soar In First Day On Nasdaq"
+      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do",
+      "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a",
+      "Dunia Innovations unveils \u20ac280M Berlin GigaLab to industrial"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 30,
       "hiring": 0,
-      "market": 89
+      "market": 100
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 19,
-    "trend": "declining",
+    "momentum": 24,
+    "trend": "rising",
     "catalysts": [
-      "Singapore partners OpenAI in $234M push to expand national A",
-      "Shield AI tapped to integrate autonomous software on LUCAS d",
-      "Here\u2019s why Elon Musk lost his suit against OpenAI"
+      "SpaceX files for IPO",
+      "OpenAI barrels toward IPO that may happen in September",
+      "Singapore partners OpenAI in $234M push to expand national A"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "Musk\u2019s xAI is being sued over its data center generators \u2014 n",
+      "Colossal Biosciences is growing chickens in a 3D-printed art",
+      "Tomorrow.io adds $35 million to DeepSky funding round"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 25,
+      "hiring": 0,
+      "market": 35
+    },
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Dunia Innovations unveils \u20ac280M Berlin GigaLab to industrial",
-      "Waymo expands robotaxi coverage more than 20% \u2014 larger than",
-      "Waymo recalls 3,791 robotaxis over flooded road incident, de"
+      "Waymo expands robotaxi coverage more than 20% \u2014 larger than"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi",
       "Anthropic&#8217;s Nuclear Bomb"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-20"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 7,
-    "trend": "declining",
-    "catalysts": [
-      "Colossal Biosciences is growing chickens in a 3D-printed art",
-      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
-      "<a href=\"/biotech/regeneron-rocked-failure-defining-catalyst"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Transportation",
@@ -261,7 +259,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   },
   {
     "sector": "Quantum Computing",
@@ -277,6 +275,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-05-20"
+    "lastUpdated": "2026-05-21"
   }
 ]

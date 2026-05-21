@@ -177,37 +177,6 @@
     "description": "4 companies with founding-team links to Tesla."
   },
   {
-    "mafia": "OpenAI Mafia",
-    "count": 4,
-    "companies": [
-      {
-        "company": "Dust",
-        "sector": "AI & Software",
-        "totalRaised": "$40M",
-        "valuation": ""
-      },
-      {
-        "company": "Safe Superintelligence",
-        "sector": "AI & Software",
-        "totalRaised": "$1B+",
-        "valuation": "$32B"
-      },
-      {
-        "company": "Thinking Machines Lab",
-        "sector": "AI & Software",
-        "totalRaised": "$2B",
-        "valuation": "$12B"
-      },
-      {
-        "company": "Periodic Labs",
-        "sector": "AI & Software",
-        "totalRaised": "$300M",
-        "valuation": ""
-      }
-    ],
-    "description": "4 companies with founding-team links to OpenAI."
-  },
-  {
     "mafia": "MIT CSAIL Spinouts",
     "count": 3,
     "companies": [
@@ -224,10 +193,10 @@
         "valuation": ""
       },
       {
-        "company": "Liquid AI",
-        "sector": "AI & Software",
-        "totalRaised": "$287M",
-        "valuation": "$2.35B"
+        "company": "Foundation Alloy",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "",
+        "valuation": ""
       }
     ],
     "description": "3 companies with founding-team links to MIT CSAIL Spinouts."
@@ -325,24 +294,5 @@
       }
     ],
     "description": "2 companies with founding-team links to Anduril."
-  },
-  {
-    "mafia": "Palantir Mafia",
-    "count": 2,
-    "companies": [
-      {
-        "company": "Arondite",
-        "sector": "Defense & Security",
-        "totalRaised": "$12M",
-        "valuation": ""
-      },
-      {
-        "company": "Mendra",
-        "sector": "Biotech & Health",
-        "totalRaised": "$82M",
-        "valuation": ""
-      }
-    ],
-    "description": "2 companies with founding-team links to Palantir."
   }
 ]
