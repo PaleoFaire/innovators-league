@@ -1,10 +1,10 @@
 {
   "script": "fetch_funding_rss.py",
-  "started_at": "2026-05-20T10:15:11.752282+00:00",
-  "finished_at": "2026-05-20T10:15:16.061859+00:00",
+  "started_at": "2026-05-21T10:27:21.981028+00:00",
+  "finished_at": "2026-05-21T10:28:38.087570+00:00",
   "companies_tracked": 695,
-  "total_items_fetched": 150,
-  "total_deals_extracted": 1,
+  "total_items_fetched": 140,
+  "total_deals_extracted": 0,
   "feeds": [
     {
       "source": "TechCrunch",
@@ -15,8 +15,8 @@
     {
       "source": "Crunchbase News",
       "url": "https://news.crunchbase.com/feed/",
-      "items_fetched": 10,
-      "error": null
+      "items_fetched": 0,
+      "error": "HTTPSConnectionPool(host='news.crunchbase.com', port=443): Read timed out. (read timeout=20)"
     },
     {
       "source": "The Information",

@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-05-20",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-42",
-    "payload": "Starlink Group 17-42",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/7ba18bcb-c711-4329-9fc1-7ac017fadfff/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-05-21",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-31",
     "payload": "Starlink Group 10-31",
@@ -30,13 +21,13 @@
     "date": "2026-05-22",
     "vehicle": "Electron | Viva La StriX (StriX Launch 9)",
     "payload": "Viva La StriX (StriX Launch 9)",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "pad": "Rocket Lab Launch Complex 1B, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/156a9e46-01b5-46f4-818e-ea563c71c5fe/?format=json",
     "trackedCompany": "Rocket Lab"
   },
   {
-    "date": "2026-05-23",
+    "date": "2026-05-24",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
     "payload": "Starlink Group 17-37",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -72,12 +63,21 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-41",
     "payload": "Starlink Group 17-41",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a7341350-789e-4f61-99a4-a61ebc40c05b/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-29",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-53",
+    "payload": "Starlink Group 10-53",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/384fb817-2a18-46ec-b294-613c08ecea52/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -96,15 +96,6 @@
     "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-05-31",
-    "vehicle": "Long March 10B | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1e79a5e9-c02c-470f-882f-884120100fef/?format=json",
     "trackedCompany": null
   },
   {
@@ -135,7 +126,7 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-05-31",
+    "date": "2026-06-01",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-47",
     "payload": "Starlink Group 17-47",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -303,6 +294,15 @@
     "pad": "Launch Pad Fredo, SaxaVord Spaceport",
     "provider": "Rocket Factory Augsburg",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/91b13c6c-4525-496d-997b-3521bb6a4cd8/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Long March 10B | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1e79a5e9-c02c-470f-882f-884120100fef/?format=json",
     "trackedCompany": null
   },
   {

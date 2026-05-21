@@ -2,7 +2,7 @@
   {
     "prime": "Lockheed Martin",
     "ticker": "LMT",
-    "totalCompanies": 10,
+    "totalCompanies": 11,
     "portfolio": [
       {
         "company": "Anduril",
@@ -62,6 +62,15 @@
         "evidence": "Joint AI/ML platform"
       },
       {
+        "company": "River",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1662.9M",
+        "agency": "Department of Defense",
+        "evidence": "F-35 DEVELOPMENTAL FOUNDATION CONTRACT 3 - THIS CONTRACT PROVIDES A FOUNDATION, IN SUPPORT OF F-35 DEVELOPMENTAL FLIGHT TEST AT EDWARDS AIR FORCE BASE, NAVAL AIR STATION PATUXENT RIVER, AND F-35 DEVEL",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001922C0041_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "space",
         "relationship": "gov contract",
         "source": "USAspending.gov",
@@ -75,8 +84,17 @@
   {
     "prime": "Northrop Grumman",
     "ticker": "NOC",
-    "totalCompanies": 9,
+    "totalCompanies": 10,
     "portfolio": [
+      {
+        "company": "Also",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1594.4M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS OF COMMERCIAL ORBITAL TRANSPORTATION SERVICES SPACE ACT AGREEMENT DEVELOPMENT PROGRAM AND AN EXISTING INTERNATIONAL SPA",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNH15CN76C_8000_-NONE-_-NONE-"
+      },
       {
         "company": "Anduril",
         "relationship": "partnership",
@@ -97,15 +115,6 @@
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "northrop grumman"
-      },
-      {
-        "company": "Orbital",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1594.4M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS OF COMMERCIAL ORBITAL TRANSPORTATION SERVICES SPACE ACT AGREEMENT DEVELOPMENT PROGRAM AND AN EXISTING INTERNATIONAL SPA",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNH15CN76C_8000_-NONE-_-NONE-"
       },
       {
         "company": "Picogrid",
@@ -130,6 +139,15 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Autonomy integration for B-21 ecosystem"
+      },
+      {
+        "company": "Source",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$569.5M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "JOINT POLAR SATELLITE SYSTEM-2 SPACECRAFT.  GD-300HP CORE SPACECRAFT INCLUDING ALL ASSOCIATED HARDWARE, SOFTWARE, SOURCE CODE, MAINTENANCE SYSTEM AND DOCUMENTATION FOR THE JPSS-2 SPACECRAFT MISSION.",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG15VE05D_8000_NNG10AZ13B_8000"
       },
       {
         "company": "space",
@@ -207,6 +225,140 @@
     ]
   },
   {
+    "prime": "BAE Systems",
+    "ticker": "BAESY",
+    "totalCompanies": 8,
+    "portfolio": [
+      {
+        "company": "Also",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$4067.2M",
+        "agency": "Department of Defense",
+        "evidence": "PROCUREMENT OF 10,000 FAMILY OF MEDIUM TACTICAL VEHICLES.  ALSO ADDING PROGRAM SUPPORT AND FEDERAL RETAIL EXCISE TAX.  THIS ACTION IS BEING ADDED AS AN UNDEFINITIZED CONTRACTUAL ACTION",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV08C0460_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "Material",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$2875.1M",
+        "agency": "Department of Defense",
+        "evidence": "LETTER CONTRACT FOR EARLY PROCUREMENT MATERIAL TO SUPPORT THE M109A7/M992A3 VEHICLE PRODUCTION.",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV17C0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Mission software integration"
+      },
+      {
+        "company": "River",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$183.1M",
+        "agency": "Department of Defense",
+        "evidence": "THE NAVAL AIR WARFARE CENTER AIRCRAFT DIVISION (NAWC-AD) PATUXENT RIVER, MD IS TASKED BY NUMEROUS DEPARTMENT OF DEFENSE ORGANIZATIONS TO PROVIDE ENGINEERING AND TECHNICAL EFFORTS TO SUPPORT THE PRODUC",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_M809_9700_N0017804D4018_9700"
+      },
+      {
+        "company": "Shift5",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Cyber-operational resilience for military platforms"
+      },
+      {
+        "company": "Source",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1080.9M",
+        "agency": "Department of Defense",
+        "evidence": "THE BRADLEY A4 FOLLOW-ON PRODUCTION EFFORT WILL DELIVER M2A4 AND M7A4 VEHICLES FROM VARIOUS INDUCTED LEGACY SOURCE VARIANTS BASED ON THE TDP DEVELOPED UNDER CONTRACT W56HZV-12-C-0358 BRADLEY A4 ECP AN",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912CH25F0096_9700_W56HZV22D0083_9700"
+      },
+      {
+        "company": "general",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$2006.7M",
+        "agency": "Department of Defense",
+        "evidence": "THIS ACTION IS COST PLUS INCENTIVE-FEE (CPIF) 52 MONTH ENGINEERING AND MANUFACTURING DEVELOPMENT CONTRACT, WITH THREE FIXED PRICE INCENTIVE (SUCCESSIVE TARGETS) (FPI(S)) OPTION YEARS OF LOW RATE INITI",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15CA001_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$365.7M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
+      }
+    ]
+  },
+  {
+    "prime": "L3Harris",
+    "ticker": "LHX",
+    "totalCompanies": 7,
+    "portfolio": [
+      {
+        "company": "Also",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$240.7M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE CONTRACTOR SHALL PROVIDE THE PERSONNEL. MATERIALS, AND FACILITIES NECESSARY TO DESIGN. DEVELOP, INTEGRATE, TEST AND SUPPORT GOES IMAGER AND SOUNDER INSTRUMENTS; SUPPORT INSTRUMENT INTEGRATION INTO",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_GSFC0199609DNAS596090_8000_-NONE-_-NONE-"
+      },
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Counter-UAS partnership (Pulsar)"
+      },
+      {
+        "company": "Halo",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$84.0M",
+        "agency": "Department of Defense",
+        "evidence": "AIRBORNE SENSORS (ABS) SUPPORT FOR THE MDA TEST PROGRAM - NEW TASK ORDER FOR HIGH ALTITUDE OBSERVATORY (HALO) FLEET RENEWAL, HALO-II REPLACEMENT (HALO-IIR) AND HALO-III REPLACEMENT (HALO-IIIR), AIRCRA",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HQ014718F0105_9700_HQ014711D0014_9700"
+      },
+      {
+        "company": "Shield AI",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomous systems integration"
+      },
+      {
+        "company": "Source",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$234.1M",
+        "agency": "Department of Defense",
+        "evidence": "COUNTRY DIRECTED SOLE SOURCE ACQUISITION FOR L3HARRIS RADIOS, ACCESSORIES, AND SERVICES FOR THE COUNTRY OF POLAND.  THIS CONTRACT IS AWARDED IN ACCORDANCE WITH FAR 6.302-4 - INTERNATIONAL AGREEMENT.",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W91CRB24F5137_9700_W91CRB21D5003_9700"
+      },
+      {
+        "company": "True Anomaly",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Space domain awareness"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1826.1M",
+        "agency": "Department of Commerce",
+        "evidence": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOCDG133E09CN0094_1330_-NONE-_-NONE-"
+      }
+    ]
+  },
+  {
     "prime": "Raytheon / RTX",
     "ticker": "RTX",
     "totalCompanies": 7,
@@ -259,98 +411,9 @@
     ]
   },
   {
-    "prime": "L3Harris",
-    "ticker": "LHX",
-    "totalCompanies": 5,
-    "portfolio": [
-      {
-        "company": "Anduril",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Counter-UAS partnership (Pulsar)"
-      },
-      {
-        "company": "Cover",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$240.7M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE CONTRACTOR SHALL PROVIDE THE PERSONNEL. MATERIALS, AND FACILITIES NECESSARY TO DESIGN. DEVELOP, INTEGRATE, TEST AND SUPPORT GOES IMAGER AND SOUNDER INSTRUMENTS; SUPPORT INSTRUMENT INTEGRATION INTO",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_GSFC0199609DNAS596090_8000_-NONE-_-NONE-"
-      },
-      {
-        "company": "Shield AI",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Autonomous systems integration"
-      },
-      {
-        "company": "True Anomaly",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Space domain awareness"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1826.1M",
-        "agency": "Department of Commerce",
-        "evidence": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_DOCDG133E09CN0094_1330_-NONE-_-NONE-"
-      }
-    ]
-  },
-  {
-    "prime": "BAE Systems",
-    "ticker": "BAESY",
-    "totalCompanies": 5,
-    "portfolio": [
-      {
-        "company": "Material",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$2875.1M",
-        "agency": "Department of Defense",
-        "evidence": "LETTER CONTRACT FOR EARLY PROCUREMENT MATERIAL TO SUPPORT THE M109A7/M992A3 VEHICLE PRODUCTION.",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV17C0001_9700_-NONE-_-NONE-"
-      },
-      {
-        "company": "Rebellion Defense",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Mission software integration"
-      },
-      {
-        "company": "Shift5",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Cyber-operational resilience for military platforms"
-      },
-      {
-        "company": "general",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$2006.7M",
-        "agency": "Department of Defense",
-        "evidence": "THIS ACTION IS COST PLUS INCENTIVE-FEE (CPIF) 52 MONTH ENGINEERING AND MANUFACTURING DEVELOPMENT CONTRACT, WITH THREE FIXED PRICE INCENTIVE (SUCCESSIVE TARGETS) (FPI(S)) OPTION YEARS OF LOW RATE INITI",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15CA001_9700_-NONE-_-NONE-"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$365.7M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
-      }
-    ]
-  },
-  {
     "prime": "SAIC",
     "ticker": "SAIC",
-    "totalCompanies": 5,
+    "totalCompanies": 6,
     "portfolio": [
       {
         "company": "AIR",
@@ -369,6 +432,15 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "AI/ML mission systems"
+      },
+      {
+        "company": "River",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$9.8M",
+        "agency": "Department of Defense",
+        "evidence": "CH-53K PHASE III CFTD CONCURRENCY/TECH REFRESH: SCOPE INCLUDES UPGRADE, MODIFICATION, DESIGN, FABRICATE, INSTALL AND TESTING OF CH-53K CONTAINERIZED FLIGHT TRAINING DEVICE. CFTD-1 WILL BE LOCATED AT M",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6134026F1001_9700_N6134018D5001_9700"
       },
       {
         "company": "Synthesis",

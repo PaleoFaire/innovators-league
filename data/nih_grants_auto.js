@@ -1,6 +1,6 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-05-20 10:15:20 UTC
-// Total grants: 635 | Known companies: 13 | SBIR: 17
+// Last updated: 2026-05-21 10:27:24 UTC
+// Total grants: 635 | Known companies: 33 | SBIR: 17
 // Total funding tracked: $402,113,496
 const NIH_GRANTS_AUTO = [
   {
@@ -781,7 +781,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: true,
     abstract: "SUMMARY/ABSTRACT Extrachromosomal circular DNA (eccDNA) elements are physically and topologically distinct components of eukaryotic genomes that can contribute to intercellular copy-number variation, ",
     terms: ["Address", "Antibiotics", "Area", "Biogenesis", "Bioinformatics", "Biological", "Biological Markers", "Biophysics"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "AI-driven discovery of in vivo chemical probes for understudied targets for the treatment of Alzheimer's disease and rel",
@@ -846,7 +846,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: true,
     abstract: "Precision Epigenomics Inc, is a University of Arizona Cancer Center and Department of Pathology, spin out, aiming to launch molecular diagnostic tests for cancer patients. The product of this SBIR is ",
     terms: ["Address", "Affect", "Arizona", "Benign", "Bioinformatics", "Biological Assay", "Biopsy", "Blinded"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Defining the Role of Enteric Nervous System Dysfunction in Gastrointestinal Motor and Sensory Abnormalities in Down Synd",
@@ -1041,7 +1041,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Abstract Malaria is a leading killer of children worldwide, and existing WHO-recommended vaccines offer only modest protection that is of short duration. Malaria vaccine innovation has been impeded by",
     terms: ["Africa", "African", "Amino Acid Sequence", "Animals", "Anti-malarials", "Antigen Targeting", "Antigens", "Attenuated"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Investigating the Protective Efficacy of SIV/HIV T and B cell Immunity Induced by RNA Replicons",
@@ -1106,7 +1106,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "SUMMARY Nearly 40 million people globally and 1.2 million people in the United States are living with HIV. Although antiretroviral therapy (ART) has transformed HIV from a fatal disease to a manageabl",
     terms: ["Aftercare", "Autologous", "Avidity", "Binding", "Biological Assay", "Blood specimen", "CD8-Positive T-Lymphocytes", "Cells"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Accelerating discovery of narrow-spectrum antibiotics for Lyme disease",
@@ -1821,7 +1821,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "ABSTRACT In this proposal we apply somatic cell gene editing strategies to enhance pancreatic beta cell replacement therapies for type 1 diabetes (T1D). We have formed a team that combines expertise i",
     terms: ["Ablation", "Address", "Beta Cell", "CD28 gene", "CRISPR interference", "Cell Death", "Cell Survival", "Cells"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Identifying and modulating pathologic T cells that govern oral mucosal immune related adverse events from immune checkpo",
@@ -1860,7 +1860,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Project Summary/Abstract One of the hallmarks of severe fibrotic injuries of the lung is the appearance of metaplastic airway basal cells in the damaged alveoli. In patients with idiopathic pulmonary ",
     terms: ["3-Dimensional", "Adoptive Transfer", "Alleles", "Alveolar", "Alveolus", "Appearance", "Area", "Back"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Dissecting mechanism of EPHX2 deficient Bladder Cancer and targeting metabolic and immunologic vulnerabilities",
@@ -2380,7 +2380,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Enter the text here that is the new abstract information for your application. This section must be no longer than 30 lines of text. The rapid development and deployment of therapeutic agents are crit",
     terms: ["Address", "Affinity", "Animals", "Anti-viral Agents", "Antibodies", "Antibody Formation", "Antibody Therapy", "Cells"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Defining the impact of detachment sensing proteins in ovarian cancer metastasis",
@@ -2484,7 +2484,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY Current treatments for many musculoskeletal disorders are often suboptimal. Understanding the signals controlling skeletal homeostasis and repair is of high relevance, since this knowl",
     terms: ["Acceleration", "Address", "Affect", "Artificial Intelligence", "Automobile Driving", "Binding", "Biological Assay", "Biology"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Exercise as an Immune Adjuvant for Gamma Delta T-cell Therapies in Hematologic Malignancies",
@@ -3212,7 +3212,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "The recent FDA approvals (Lutathera, Azedra, Pluvicto) and the swell of promising experimental agents in clinical trials underscore the surging enthusiasm to investigate molecularly targeted radiother",
     terms: ["Adopted", "Amino Acids", "Benchmarking", "Binding", "Biochemistry", "Biological", "Biopsy", "Blood Circulation"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Dissecting Inter-Compartmental Tumor-Host Communication Driving Early Dissemination in Uveal Melanoma.",
@@ -3797,7 +3797,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Project Summary/Abstract In melanoma, loss of function mutations in NF1 are the third most common oncogenic alteration after activating mutations in BRAF and NRAS. The RAS GTPase-activating protein NF",
     terms: ["Acral Lentiginous Malignant Melanoma", "Address", "Adjuvant", "Affect", "BRAF gene", "Binding", "Catalogs", "Cell Line"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Optimal T-cell support for HIV neutralizing antibody induction to fusion peptide-inclusive regimens (Opti-FliP)",
@@ -3836,7 +3836,7 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Genetically engineered mammalian cells have demonstrated enormous clinical potential, especially as cancer therapy. Also, immune cells equipped with a single-input reporter circuit for tumor detection",
     terms: ["Address", "Adopted", "Antigens", "Appearance", "Arithmetic", "Basic Science", "Biological Markers", "Biotechnology"],
-    isKnownCompany: false,
+    isKnownCompany: true,
   },
   {
     title: "Modeling Drug Induced Liver Injury with Patient-Derived Liver Organoids and Microfluidic Chips",
