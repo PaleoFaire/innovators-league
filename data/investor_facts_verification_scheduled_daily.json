@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-20T08:55:19+00:00",
+  "generatedAt": "2026-05-21T08:57:52+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 3,
-  "newExtractionsThisRun": 3,
+  "cohortSize": 2,
+  "newExtractionsThisRun": 2,
   "summary": {
     "cleared": 1,
-    "changesProposed": 2,
+    "changesProposed": 1,
     "unverifiable": 0
   },
   "cleared": [
@@ -36,7 +36,8 @@
           "Douglas Leone",
           "Jim Goetz",
           "Alfred Lin",
-          "Roelof Botha"
+          "Roelof Botha",
+          "Pat Grady"
         ],
         "sector_focus": [
           "seed stage",
@@ -50,7 +51,7 @@
           "mobile",
           "robotics"
         ],
-        "thesis": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. The firm operates an evergreen fund structure for its U.S. and European business that allows limited partners to pull liquidity instead of following traditional 10-year fund cycles.",
+        "thesis": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors.",
         "website": "https://sequoiacap.com",
         "sources_per_field": {
           "name": [
@@ -86,13 +87,35 @@
             3
           ]
         },
-        "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners (stewards) succeeding Roelof Botha. In June 2023, Sequoia announced plans to separate into three independent entities: Sequoia (U.S./Europe), Peak XV Partners (India/Southeast Asia), and HongShan (China), with separation completing by March 2024. As of January 2025, firm had approximately $56B in AUM."
+        "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners (stewards) succeeding Roelof Botha. In June 2023, Sequoia announced plans to separate into three independent entities: Sequoia (U.S. and Europe), Peak XV Partners (India and Southeast Asia), and HongShan (China). In August 2025, COO Sumaiya Balbale resigned over partner Shaun Maguire's controversial statements."
       },
       "changes": [
         {
+          "field": "keyPartners",
+          "current": [
+            "Michael Moritz",
+            "Douglas Leone",
+            "Jim Goetz",
+            "Alfred Lin",
+            "Roelof Botha"
+          ],
+          "verified": [
+            "Michael Moritz",
+            "Douglas Leone",
+            "Jim Goetz",
+            "Alfred Lin",
+            "Roelof Botha",
+            "Pat Grady"
+          ],
+          "sources": [
+            1,
+            3
+          ]
+        },
+        {
           "field": "thesis",
-          "current": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. The firm operates with an evergreen fund model allowing limited partners flexibility in liquidity.",
-          "verified": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. The firm operates an evergreen fund structure for its U.S. and European business that allows limited partners to pull liquidity instead of following traditional 10-year fund cycles.",
+          "current": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. The firm operates an evergreen fund structure for its U.S. and European business that allows limited partners to pull liquidity instead of following traditional 10-year fund cycles.",
+          "verified": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors.",
           "sources": [
             3
           ]
@@ -123,104 +146,9 @@
           "idx": 4,
           "src": "news (Sifted)",
           "url": "https://sifted.eu/articles/dust-series-b-40m/"
-        },
-        {
-          "idx": 5,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/05/18/dust-raises-40m-series-b-to-build-the-multiplayer-operating-system-for-enterprise-ai/"
         }
       ],
-      "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners (stewards) succeeding Roelof Botha. In June 2023, Sequoia announced plans to separate into three independent entities: Sequoia (U.S./Europe), Peak XV Partners (India/Southeast Asia), and HongShan (China), with separation completing by March 2024. As of January 2025, firm had approximately $56B in AUM."
-    },
-    {
-      "name": "Shield Capital",
-      "current": {
-        "name": "Shield Capital",
-        "shortName": "Shield",
-        "aum": "$500M+",
-        "flagshipFund": "Shield Capital Fund II",
-        "founded": 2021,
-        "hq": "Burlingame, CA",
-        "website": "https://shieldcap.com"
-      },
-      "verified": {
-        "name": "Shield Capital",
-        "short_name": null,
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
-        "key_partners": [
-          "Philip Bilden",
-          "Raj Shah",
-          "Michael Brown",
-          "John Serafini"
-        ],
-        "sector_focus": [
-          "Artificial Intelligence",
-          "Autonomy",
-          "Cybersecurity",
-          "Space"
-        ],
-        "thesis": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders is mission-focused in support of entrepreneurs addressing the convergence of commercial technology and national security.",
-        "website": "https://shieldcap.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "key_partners": [
-            1
-          ],
-          "sector_focus": [
-            0
-          ],
-          "thesis": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Founded year, AUM, HQ location, and flagship fund name could not be verified from provided sources. Wikipedia source [3] is about shields (defensive devices), not the firm. News source [4] is about Shield AI (different company), not Shield Capital."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders focuses on the convergence of commercial technology and national security.",
-          "verified": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders is mission-focused in support of entrepreneurs addressing the convergence of commercial technology and national security.",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://shieldcap.com"
-        },
-        {
-          "idx": 1,
-          "src": "firm/team",
-          "url": "https://shieldcap.com/team"
-        },
-        {
-          "idx": 2,
-          "src": "firm/portfolio",
-          "url": "https://shieldcap.com/portfolio"
-        },
-        {
-          "idx": 3,
-          "src": "wikipedia (short name)",
-          "url": "https://en.wikipedia.org/wiki/Shield"
-        },
-        {
-          "idx": 4,
-          "src": "news (Breaking Defense)",
-          "url": "https://breakingdefense.com/2026/05/shield-ai-tapped-to-integrate-autonomous-software-on-lucas-drone/"
-        }
-      ],
-      "notes": "Founded year, AUM, HQ location, and flagship fund name could not be verified from provided sources. Wikipedia source [3] is about shields (defensive devices), not the firm. News source [4] is about Shield AI (different company), not Shield Capital."
+      "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners (stewards) succeeding Roelof Botha. In June 2023, Sequoia announced plans to separate into three independent entities: Sequoia (U.S. and Europe), Peak XV Partners (India and Southeast Asia), and HongShan (China). In August 2025, COO Sumaiya Balbale resigned over partner Shaun Maguire's controversial statements."
     }
   ],
   "unverifiable": []
