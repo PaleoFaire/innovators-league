@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-20T22:39:36+00:00",
+  "generatedAt": "2026-05-21T00:14:03+00:00",
   "windowPastDays": 365,
   "windowFutureDays": 730,
-  "todayUTC": "2026-05-20",
+  "todayUTC": "2026-05-21",
   "totalEvents": 243,
   "bySource": {
     "fda": 5,
@@ -18,12 +18,12 @@
     "conf": 10
   },
   "byType": {
-    "nrc": 30,
-    "fedreg": 30,
-    "formd": 3,
     "trial": 91,
     "faa": 27,
+    "nrc": 30,
     "conf": 10,
+    "fedreg": 30,
+    "formd": 3,
     "sbir": 10,
     "fcc": 12,
     "doe": 12,
@@ -31,551 +31,11 @@
     "fda": 5
   },
   "byImportance": {
-    "urgent": 22,
     "high": 20,
     "medium": 3,
-    "low": 198
+    "low": 220
   },
   "events": [
-    {
-      "id": "9a2fe211c4f75192",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "Kairos Power \u2014 NRC: Hermes (35MWth FLiBe-cooled test reactor) (Approved)",
-      "description": "Status: Construction Permit Issued (Dec 2023) \u2014 construction underway at Oak Ridge \u00b7 Docket: NRC-50-611",
-      "companies": [
-        "Kairos Power"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Kairos Power",
-        "design": "Hermes (35MWth FLiBe-cooled test reactor)",
-        "stage": "Approved",
-        "status": "Construction Permit Issued (Dec 2023) \u2014 construction underway at Oak Ridge",
-        "docketId": "NRC-50-611",
-        "nextMilestone": "2027 Operating License Application for Hermes demo",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "8660162e9cce4457",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "NuScale Power \u2014 NRC: US460 / VOYGR SMR (Approved)",
-      "description": "Status: Design Certification Approved \u2014 77MWe uprate under review \u00b7 Docket: NRC-52-050",
-      "companies": [
-        "NuScale Power"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
-      "raw": {
-        "company": "NuScale Power",
-        "design": "US460 / VOYGR SMR",
-        "stage": "Approved",
-        "status": "Design Certification Approved \u2014 77MWe uprate under review",
-        "docketId": "NRC-52-050",
-        "nextMilestone": "2026-Q4 Standard Design Approval for 77MWe uprate",
-        "url": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "9a1da8862e936a3c",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "Oklo \u2014 NRC: Aurora Powerhouse (15MWe compact fast reactor) (Combined License Application)",
-      "description": "Status: Combined License Application Under Review (Resubmitted 2024) \u00b7 Docket: NRC-52-049",
-      "companies": [
-        "Oklo"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Oklo",
-        "design": "Aurora Powerhouse (15MWe compact fast reactor)",
-        "stage": "Combined License Application",
-        "status": "Combined License Application Under Review (Resubmitted 2024)",
-        "docketId": "NRC-52-049",
-        "nextMilestone": "2026-Q3 ASLB hearing / Safety Evaluation Report draft",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "293cc8f8daa79fb9",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "GE Hitachi \u2014 NRC: BWRX-300 SMR (Construction Permit)",
-      "description": "Status: Construction Permit Application being prepared (TVA Clinch River) \u00b7 Docket: NRC-CP-BWRX300",
-      "companies": [
-        "GE Hitachi"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "GE Hitachi",
-        "design": "BWRX-300 SMR",
-        "stage": "Construction Permit",
-        "status": "Construction Permit Application being prepared (TVA Clinch River)",
-        "docketId": "NRC-CP-BWRX300",
-        "nextMilestone": "2026-Q4 Construction Permit Application filing",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "c85a1bbe27542ea5",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "TerraPower \u2014 NRC: Natrium (345MWe sodium-cooled fast reactor) (Construction Permit)",
-      "description": "Status: Construction Permit Application Under Review (Kemmerer, WY) \u00b7 Docket: NRC-50-612",
-      "companies": [
-        "TerraPower"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "TerraPower",
-        "design": "Natrium (345MWe sodium-cooled fast reactor)",
-        "stage": "Construction Permit",
-        "status": "Construction Permit Application Under Review (Kemmerer, WY)",
-        "docketId": "NRC-50-612",
-        "nextMilestone": "2026-Q4 Construction Permit decision",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "e78c9302f91ce00d",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "Westinghouse \u2014 NRC: AP300 SMR (scaled AP1000) (Design Certification Application)",
-      "description": "Status: Standard Design Approval application anticipated \u00b7 Docket: NRC-DCA-AP300",
-      "companies": [
-        "Westinghouse"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Westinghouse",
-        "design": "AP300 SMR (scaled AP1000)",
-        "stage": "Design Certification Application",
-        "status": "Standard Design Approval application anticipated",
-        "docketId": "NRC-DCA-AP300",
-        "nextMilestone": "2026-Q4 Standard Design Approval submittal",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "d8a95169f6e68973",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "Aalo Atomics \u2014 NRC: Aalo-1 Sodium-cooled microreactor (Pre-application)",
-      "description": "Status: Pre-application engagement; non-nuclear demo underway \u00b7 Docket: NRC-PRE-APP-AALO",
-      "companies": [
-        "Aalo Atomics"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Aalo Atomics",
-        "design": "Aalo-1 Sodium-cooled microreactor",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; non-nuclear demo underway",
-        "docketId": "NRC-PRE-APP-AALO",
-        "nextMilestone": "2027 Construction Permit Application target",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "8f6f3fab427ad35a",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "BWXT Advanced Technologies \u2014 NRC: BWXT Advanced Nuclear Reactor (microreactor / Project Pele) (Pre-application)",
-      "description": "Status: Pre-application engagement; DOD Pele transportable reactor Critical Design Review complete \u00b7 Docket: NRC-PRE-APP-BWXT",
-      "companies": [
-        "BWXT Advanced Technologies"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "BWXT Advanced Technologies",
-        "design": "BWXT Advanced Nuclear Reactor (microreactor / Project Pele)",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; DOD Pele transportable reactor Critical Design Review complete",
-        "docketId": "NRC-PRE-APP-BWXT",
-        "nextMilestone": "2026-Q3 NRC regulatory pathway white paper",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "6d7808e5a32ef133",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "General Atomics EMS \u2014 NRC: EM2 Fast Modular Reactor (Pre-application)",
-      "description": "Status: Pre-application; GA-led DOE ARDP Risk Reduction partner \u00b7 Docket: NRC-PRE-APP-GA",
-      "companies": [
-        "General Atomics EMS"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "General Atomics EMS",
-        "design": "EM2 Fast Modular Reactor",
-        "stage": "Pre-application",
-        "status": "Pre-application; GA-led DOE ARDP Risk Reduction partner",
-        "docketId": "NRC-PRE-APP-GA",
-        "nextMilestone": "2027 Construction Permit Application target",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "d166a8dc546a51a0",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "Holtec International \u2014 NRC: SMR-300 (light-water SMR) (Pre-application)",
-      "description": "Status: Pre-application engagement; DOE cost-share awarded 2024 \u00b7 Docket: NRC-PRE-APP-HOLTEC",
-      "companies": [
-        "Holtec International"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Holtec International",
-        "design": "SMR-300 (light-water SMR)",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; DOE cost-share awarded 2024",
-        "docketId": "NRC-PRE-APP-HOLTEC",
-        "nextMilestone": "2026-Q4 Construction Permit Application (Palisades site)",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "0b6adb3e1d98c02e",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "Last Energy \u2014 NRC: PWR-20 (20MWe modular reactor) (Pre-application)",
-      "description": "Status: Pre-application engagement; European orders prioritized first \u00b7 Docket: NRC-PRE-APP-LASTE",
-      "companies": [
-        "Last Energy"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Last Energy",
-        "design": "PWR-20 (20MWe modular reactor)",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; European orders prioritized first",
-        "docketId": "NRC-PRE-APP-LASTE",
-        "nextMilestone": "2027 U.S. Construction Permit pathway",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "c668c11acfc3c4cc",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "Nano Nuclear Energy \u2014 NRC: ZEUS / ODIN transportable microreactors (Pre-application)",
-      "description": "Status: Pre-application engagement begun post-IPO \u00b7 Docket: NRC-PRE-APP-NNE",
-      "companies": [
-        "Nano Nuclear Energy"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Nano Nuclear Energy",
-        "design": "ZEUS / ODIN transportable microreactors",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement begun post-IPO",
-        "docketId": "NRC-PRE-APP-NNE",
-        "nextMilestone": "2026-Q4 Pre-Application Readiness Assessment",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "be4d9b2394bc7ad5",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "Radiant Industries \u2014 NRC: Kaleidos portable 1MWe microreactor (Pre-application)",
-      "description": "Status: Pre-application engagement; DOE DOME test-bed demo planned \u00b7 Docket: NRC-PRE-APP-RADI",
-      "companies": [
-        "Radiant Industries"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Radiant Industries",
-        "design": "Kaleidos portable 1MWe microreactor",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; DOE DOME test-bed demo planned",
-        "docketId": "NRC-PRE-APP-RADI",
-        "nextMilestone": "2026-Q4 Fueled test at INL DOME",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "af471872962ddd10",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "USNC (Ultra Safe Nuclear) \u2014 NRC: Micro Modular Reactor (MMR) \u2014 5MWe HTGR (Pre-application)",
-      "description": "Status: Pre-application meetings; Canadian CNSC licensing leads NRC \u00b7 Docket: NRC-PRE-APP-USNC",
-      "companies": [
-        "USNC (Ultra Safe Nuclear)"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "USNC (Ultra Safe Nuclear)",
-        "design": "Micro Modular Reactor (MMR) \u2014 5MWe HTGR",
-        "stage": "Pre-application",
-        "status": "Pre-application meetings; Canadian CNSC licensing leads NRC",
-        "docketId": "NRC-PRE-APP-USNC",
-        "nextMilestone": "2026-Q4 U.S. Construction Permit Application (University of Illinois demo)",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "b980e476084bc882",
-      "date": "2026-05-20",
-      "type": "nrc",
-      "title": "X-energy \u2014 NRC: Xe-100 (80MWe HTGR pebble-bed) (Pre-application)",
-      "description": "Status: Pre-application engagement; Dow Chemical host site selected \u00b7 Docket: NRC-52-050-XE100",
-      "companies": [
-        "X-energy"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "X-energy",
-        "design": "Xe-100 (80MWe HTGR pebble-bed)",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; Dow Chemical host site selected",
-        "docketId": "NRC-52-050-XE100",
-        "nextMilestone": "2026-Q4 Construction Permit Application expected",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-05-20"
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "8fd5ebcda5bda1e6",
-      "date": "2026-05-20",
-      "type": "fedreg",
-      "title": "MEP Pilot Program",
-      "description": "Commerce Department, National Institute of Standards and Technology \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-10105",
-      "raw": {
-        "docNum": "2026-10105",
-        "title": "MEP Pilot Program",
-        "type": "Notice",
-        "date": "2026-05-20",
-        "agencies": "Commerce Department, National Institute of Standards and Technology",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "85524591ce083a2e",
-      "date": "2026-05-20",
-      "type": "fedreg",
-      "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Pa",
-      "description": "Health and Human Services Department, Centers for Medicare & Medicaid Services \u00b7 Sectors: ai \u00b7 Type: Rule",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-10050",
-      "raw": {
-        "docNum": "2026-10050",
-        "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Pa",
-        "type": "Rule",
-        "date": "2026-05-20",
-        "agencies": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
-        "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "d96d2cb3528c55ef",
-      "date": "2026-05-20",
-      "type": "fedreg",
-      "title": "Submission for OMB Review; Comment Request",
-      "description": "Defense Department,  \u00b7 Sectors: defense \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "defense",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-10057",
-      "raw": {
-        "docNum": "2026-10057",
-        "title": "Submission for OMB Review; Comment Request",
-        "type": "Notice",
-        "date": "2026-05-20",
-        "agencies": "Defense Department, ",
-        "sectors": "defense",
-        "significant": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "5585915799e7745e",
-      "date": "2026-05-20",
-      "type": "fedreg",
-      "title": "Proposed Collection; Comment Request",
-      "description": "Defense Department,  \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "defense",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-10056",
-      "raw": {
-        "docNum": "2026-10056",
-        "title": "Proposed Collection; Comment Request",
-        "type": "Notice",
-        "date": "2026-05-20",
-        "agencies": "Defense Department, ",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "404efab652b9239a",
-      "date": "2026-05-20",
-      "type": "fedreg",
-      "title": "Proposed Collection; Comment Request",
-      "description": "Defense Department, Defense Department \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "defense",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-10055",
-      "raw": {
-        "docNum": "2026-10055",
-        "title": "Proposed Collection; Comment Request",
-        "type": "Notice",
-        "date": "2026-05-20",
-        "agencies": "Defense Department, Defense Department",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "324a0bbce4400e5d",
-      "date": "2026-05-20",
-      "type": "fedreg",
-      "title": "Proposed Collection; Comment Request",
-      "description": "Defense Department,  \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "defense",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-10053",
-      "raw": {
-        "docNum": "2026-10053",
-        "title": "Proposed Collection; Comment Request",
-        "type": "Notice",
-        "date": "2026-05-20",
-        "agencies": "Defense Department, ",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "2a2f39c7953a5ca1",
-      "date": "2026-05-20",
-      "type": "formd",
-      "title": "Mara \u2014 Form D: $20144211 sold",
-      "description": "Securities: Equity \u00b7 Exemption: 06c \u00b7 CIK: 1676740",
-      "companies": [
-        "Mara"
-      ],
-      "sector": "other",
-      "source": "SEC EDGAR Form D",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001676740&type=D&dateb=&owner=include&count=10",
-      "raw": {
-        "company": "Mara",
-        "issuer_name": "MARA POLING TOTAL RETURN FUND, LLC",
-        "form": "D",
-        "filed_date": "2026-05-20",
-        "cik": "1676740",
-        "accession": "0001676740-26-000001",
-        "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001676740&type=D&dateb=&owner=include&count=10",
-        "adsh_raw": "0001676740-26-000001",
-        "offering_amount": "25000000",
-        "amount_sold": "20144211",
-        "amount_remaining": "4855789",
-        "securities_type": "Equity",
-        "exemption": "06c",
-        "first_sale_date": "",
-        "is_safe": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
     {
       "id": "3750be1dbdefc185",
       "date": "2026-05-29",
@@ -607,7 +67,7 @@
         "lastUpdated": "2025-12-26",
         "enrollment": 30
       },
-      "daysOut": 9,
+      "daysOut": 8,
       "importance": "high"
     },
     {
@@ -639,7 +99,7 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 7
       },
-      "daysOut": 9,
+      "daysOut": 8,
       "importance": "high"
     },
     {
@@ -673,7 +133,7 @@
         "lastUpdated": "2026-04-21",
         "enrollment": 300
       },
-      "daysOut": 10,
+      "daysOut": 9,
       "importance": "high"
     },
     {
@@ -707,7 +167,7 @@
         "lastUpdated": "2026-03-09",
         "enrollment": 13
       },
-      "daysOut": 11,
+      "daysOut": 10,
       "importance": "high"
     },
     {
@@ -741,7 +201,7 @@
         "lastUpdated": "2026-03-03",
         "enrollment": 16
       },
-      "daysOut": 11,
+      "daysOut": 10,
       "importance": "high"
     },
     {
@@ -812,7 +272,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -878,7 +338,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -939,7 +399,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -964,7 +424,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -989,7 +449,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1014,7 +474,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1039,7 +499,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1064,7 +524,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1089,7 +549,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1114,7 +574,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1139,7 +599,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1164,7 +624,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1189,7 +649,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1214,7 +674,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 12,
+      "daysOut": 11,
       "importance": "high"
     },
     {
@@ -1246,7 +706,7 @@
           "Skydio"
         ]
       },
-      "daysOut": 14,
+      "daysOut": 13,
       "importance": "high"
     },
     {
@@ -1278,7 +738,7 @@
           "Oklo"
         ]
       },
-      "daysOut": 25,
+      "daysOut": 24,
       "importance": "medium"
     },
     {
@@ -1311,7 +771,7 @@
         "lastUpdated": "2026-03-24",
         "enrollment": 37
       },
-      "daysOut": 42,
+      "daysOut": 41,
       "importance": "medium"
     },
     {
@@ -1344,7 +804,7 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 18
       },
-      "daysOut": 52,
+      "daysOut": 51,
       "importance": "medium"
     },
     {
@@ -1377,7 +837,7 @@
         "lastUpdated": "2025-05-30",
         "enrollment": 500
       },
-      "daysOut": 71,
+      "daysOut": 70,
       "importance": "low"
     },
     {
@@ -1409,7 +869,7 @@
         "lastUpdated": "2026-04-03",
         "enrollment": 43
       },
-      "daysOut": 102,
+      "daysOut": 101,
       "importance": "low"
     },
     {
@@ -1443,7 +903,7 @@
         "lastUpdated": "2026-05-14",
         "enrollment": 1320
       },
-      "daysOut": 104,
+      "daysOut": 103,
       "importance": "low"
     },
     {
@@ -1473,7 +933,7 @@
           "Form Energy"
         ]
       },
-      "daysOut": 111,
+      "daysOut": 110,
       "importance": "low"
     },
     {
@@ -1507,7 +967,7 @@
         "lastUpdated": "2024-12-17",
         "enrollment": 100
       },
-      "daysOut": 134,
+      "daysOut": 133,
       "importance": "low"
     },
     {
@@ -1540,7 +1000,7 @@
         "lastUpdated": "2026-03-27",
         "enrollment": 20
       },
-      "daysOut": 163,
+      "daysOut": 162,
       "importance": "low"
     },
     {
@@ -1574,7 +1034,7 @@
         "lastUpdated": "2025-11-26",
         "enrollment": 14633
       },
-      "daysOut": 163,
+      "daysOut": 162,
       "importance": "low"
     },
     {
@@ -1606,7 +1066,7 @@
         "lastUpdated": "2026-05-05",
         "enrollment": 822
       },
-      "daysOut": 163,
+      "daysOut": 162,
       "importance": "low"
     },
     {
@@ -1642,7 +1102,7 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 350
       },
-      "daysOut": 165,
+      "daysOut": 164,
       "importance": "low"
     },
     {
@@ -1672,7 +1132,7 @@
           "UAE investors"
         ]
       },
-      "daysOut": 179,
+      "daysOut": 178,
       "importance": "low"
     },
     {
@@ -1705,7 +1165,7 @@
         "lastUpdated": "2026-05-18",
         "enrollment": 128
       },
-      "daysOut": 183,
+      "daysOut": 182,
       "importance": "low"
     },
     {
@@ -1738,7 +1198,7 @@
         "lastUpdated": "2025-11-14",
         "enrollment": 367
       },
-      "daysOut": 187,
+      "daysOut": 186,
       "importance": "low"
     },
     {
@@ -1772,7 +1232,7 @@
         "lastUpdated": "2026-05-05",
         "enrollment": 42
       },
-      "daysOut": 192,
+      "daysOut": 191,
       "importance": "low"
     },
     {
@@ -1804,7 +1264,7 @@
         "lastUpdated": "2025-08-06",
         "enrollment": 600
       },
-      "daysOut": 194,
+      "daysOut": 193,
       "importance": "low"
     },
     {
@@ -1839,7 +1299,7 @@
         "lastUpdated": "2025-04-25",
         "enrollment": 160
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -1875,7 +1335,7 @@
         "lastUpdated": "2025-10-15",
         "enrollment": 2990
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -1907,7 +1367,7 @@
         "lastUpdated": "2026-05-04",
         "enrollment": 20000
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -1941,7 +1401,7 @@
         "lastUpdated": "2024-03-12",
         "enrollment": 400
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -1973,7 +1433,7 @@
         "lastUpdated": "2023-09-21",
         "enrollment": 150
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -2007,7 +1467,7 @@
         "lastUpdated": "2026-03-02",
         "enrollment": 69
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -2041,7 +1501,7 @@
         "lastUpdated": "2025-01-13",
         "enrollment": 5
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -2074,7 +1534,7 @@
         "lastUpdated": "2026-05-15",
         "enrollment": 80
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -2135,7 +1595,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 195,
+      "daysOut": 194,
       "importance": "low"
     },
     {
@@ -2170,7 +1630,7 @@
         "lastUpdated": "2026-03-27",
         "enrollment": 20
       },
-      "daysOut": 224,
+      "daysOut": 223,
       "importance": "low"
     },
     {
@@ -2202,7 +1662,7 @@
         "lastUpdated": "2026-05-05",
         "enrollment": 42
       },
-      "daysOut": 224,
+      "daysOut": 223,
       "importance": "low"
     },
     {
@@ -2236,7 +1696,7 @@
         "lastUpdated": "2025-10-27",
         "enrollment": 107
       },
-      "daysOut": 225,
+      "daysOut": 224,
       "importance": "low"
     },
     {
@@ -2268,7 +1728,7 @@
         "lastUpdated": "2026-04-30",
         "enrollment": 12000
       },
-      "daysOut": 225,
+      "daysOut": 224,
       "importance": "low"
     },
     {
@@ -2298,7 +1758,7 @@
         "lastUpdated": "2021-05-11",
         "enrollment": 700
       },
-      "daysOut": 225,
+      "daysOut": 224,
       "importance": "low"
     },
     {
@@ -2332,7 +1792,7 @@
         "lastUpdated": "2024-08-22",
         "enrollment": 300
       },
-      "daysOut": 225,
+      "daysOut": 224,
       "importance": "low"
     },
     {
@@ -2362,7 +1822,7 @@
         "lastUpdated": "2026-04-22",
         "enrollment": 401
       },
-      "daysOut": 225,
+      "daysOut": 224,
       "importance": "low"
     },
     {
@@ -2418,7 +1878,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 226,
+      "daysOut": 225,
       "importance": "low"
     },
     {
@@ -2469,7 +1929,7 @@
         "note": "Boeing-backed. First fully autonomous air taxi seeking FAA TC.",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 226,
+      "daysOut": 225,
       "importance": "low"
     },
     {
@@ -2530,7 +1990,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 226,
+      "daysOut": 225,
       "importance": "low"
     },
     {
@@ -2586,7 +2046,7 @@
         "note": "",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 226,
+      "daysOut": 225,
       "importance": "low"
     },
     {
@@ -2614,7 +2074,7 @@
           "All major aerospace"
         ]
       },
-      "daysOut": 229,
+      "daysOut": 228,
       "importance": "low"
     },
     {
@@ -2647,7 +2107,7 @@
         "lastUpdated": "2022-11-07",
         "enrollment": 10000
       },
-      "daysOut": 240,
+      "daysOut": 239,
       "importance": "low"
     },
     {
@@ -2679,7 +2139,7 @@
         "lastUpdated": "2026-05-18",
         "enrollment": 455
       },
-      "daysOut": 250,
+      "daysOut": 249,
       "importance": "low"
     },
     {
@@ -2711,7 +2171,7 @@
           "Relativity"
         ]
       },
-      "daysOut": 251,
+      "daysOut": 250,
       "importance": "low"
     },
     {
@@ -2744,7 +2204,7 @@
         "lastUpdated": "2026-05-13",
         "enrollment": 60
       },
-      "daysOut": 255,
+      "daysOut": 254,
       "importance": "low"
     },
     {
@@ -2776,7 +2236,7 @@
         "lastUpdated": "2025-11-06",
         "enrollment": 1000
       },
-      "daysOut": 257,
+      "daysOut": 256,
       "importance": "low"
     },
     {
@@ -2809,7 +2269,7 @@
         "lastUpdated": "2026-02-23",
         "enrollment": 68
       },
-      "daysOut": 257,
+      "daysOut": 256,
       "importance": "low"
     },
     {
@@ -2841,7 +2301,7 @@
         "lastUpdated": "2026-05-13",
         "enrollment": 12
       },
-      "daysOut": 282,
+      "daysOut": 281,
       "importance": "low"
     },
     {
@@ -2875,7 +2335,7 @@
         "lastUpdated": "2026-03-31",
         "enrollment": 250
       },
-      "daysOut": 285,
+      "daysOut": 284,
       "importance": "low"
     },
     {
@@ -2909,7 +2369,7 @@
         "lastUpdated": "2026-05-13",
         "enrollment": 118
       },
-      "daysOut": 289,
+      "daysOut": 288,
       "importance": "low"
     },
     {
@@ -2943,7 +2403,7 @@
         "lastUpdated": "2026-05-01",
         "enrollment": 750
       },
-      "daysOut": 316,
+      "daysOut": 315,
       "importance": "low"
     },
     {
@@ -2976,7 +2436,7 @@
         "lastUpdated": "2026-04-14",
         "enrollment": 500
       },
-      "daysOut": 316,
+      "daysOut": 315,
       "importance": "low"
     },
     {
@@ -3009,7 +2469,7 @@
         "lastUpdated": "2026-05-19",
         "enrollment": 734
       },
-      "daysOut": 321,
+      "daysOut": 320,
       "importance": "low"
     },
     {
@@ -3045,7 +2505,7 @@
         "lastUpdated": "2025-09-22",
         "enrollment": 930
       },
-      "daysOut": 345,
+      "daysOut": 344,
       "importance": "low"
     },
     {
@@ -3079,7 +2539,7 @@
         "lastUpdated": "2026-01-29",
         "enrollment": 81
       },
-      "daysOut": 346,
+      "daysOut": 345,
       "importance": "low"
     },
     {
@@ -3112,7 +2572,7 @@
         "lastUpdated": "2026-03-25",
         "enrollment": 39
       },
-      "daysOut": 357,
+      "daysOut": 356,
       "importance": "low"
     },
     {
@@ -3144,7 +2604,7 @@
         "lastUpdated": "2026-01-12",
         "enrollment": 1017
       },
-      "daysOut": 360,
+      "daysOut": 359,
       "importance": "low"
     },
     {
@@ -3177,7 +2637,7 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 20
       },
-      "daysOut": 362,
+      "daysOut": 361,
       "importance": "low"
     },
     {
@@ -3210,7 +2670,7 @@
         "lastUpdated": "2026-05-18",
         "enrollment": 80
       },
-      "daysOut": 376,
+      "daysOut": 375,
       "importance": "low"
     },
     {
@@ -3244,7 +2704,7 @@
         "lastUpdated": "2026-04-28",
         "enrollment": 1100
       },
-      "daysOut": 376,
+      "daysOut": 375,
       "importance": "low"
     },
     {
@@ -3276,7 +2736,7 @@
         "lastUpdated": "2026-05-12",
         "enrollment": 99
       },
-      "daysOut": 377,
+      "daysOut": 376,
       "importance": "low"
     },
     {
@@ -3337,7 +2797,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 377,
+      "daysOut": 376,
       "importance": "low"
     },
     {
@@ -3362,7 +2822,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 377,
+      "daysOut": 376,
       "importance": "low"
     },
     {
@@ -3387,7 +2847,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 377,
+      "daysOut": 376,
       "importance": "low"
     },
     {
@@ -3412,7 +2872,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 377,
+      "daysOut": 376,
       "importance": "low"
     },
     {
@@ -3437,7 +2897,7 @@
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 377,
+      "daysOut": 376,
       "importance": "low"
     },
     {
@@ -3469,7 +2929,7 @@
         "lastUpdated": "2025-08-05",
         "enrollment": 20000
       },
-      "daysOut": 391,
+      "daysOut": 390,
       "importance": "low"
     },
     {
@@ -3499,7 +2959,7 @@
         "lastUpdated": "2026-05-14",
         "enrollment": 44467
       },
-      "daysOut": 442,
+      "daysOut": 441,
       "importance": "low"
     },
     {
@@ -3532,7 +2992,7 @@
         "lastUpdated": "2026-04-16",
         "enrollment": 67
       },
-      "daysOut": 469,
+      "daysOut": 468,
       "importance": "low"
     },
     {
@@ -3565,7 +3025,7 @@
         "lastUpdated": "2026-05-15",
         "enrollment": 80
       },
-      "daysOut": 469,
+      "daysOut": 468,
       "importance": "low"
     },
     {
@@ -3599,7 +3059,7 @@
         "lastUpdated": "2026-05-07",
         "enrollment": 9
       },
-      "daysOut": 471,
+      "daysOut": 470,
       "importance": "low"
     },
     {
@@ -3633,7 +3093,7 @@
         "lastUpdated": "2026-05-12",
         "enrollment": 1123
       },
-      "daysOut": 478,
+      "daysOut": 477,
       "importance": "low"
     },
     {
@@ -3667,7 +3127,7 @@
         "lastUpdated": "2026-05-11",
         "enrollment": 362
       },
-      "daysOut": 539,
+      "daysOut": 538,
       "importance": "low"
     },
     {
@@ -3701,7 +3161,7 @@
         "lastUpdated": "2025-06-03",
         "enrollment": 110
       },
-      "daysOut": 560,
+      "daysOut": 559,
       "importance": "low"
     },
     {
@@ -3733,7 +3193,7 @@
         "lastUpdated": "2025-07-24",
         "enrollment": 416
       },
-      "daysOut": 560,
+      "daysOut": 559,
       "importance": "low"
     },
     {
@@ -3766,7 +3226,7 @@
         "lastUpdated": "2025-05-30",
         "enrollment": 1000
       },
-      "daysOut": 560,
+      "daysOut": 559,
       "importance": "low"
     },
     {
@@ -3796,7 +3256,7 @@
         "lastUpdated": "2026-05-12",
         "enrollment": 30
       },
-      "daysOut": 560,
+      "daysOut": 559,
       "importance": "low"
     },
     {
@@ -3829,7 +3289,7 @@
         "lastUpdated": "2025-08-05",
         "enrollment": 63
       },
-      "daysOut": 560,
+      "daysOut": 559,
       "importance": "low"
     },
     {
@@ -3861,7 +3321,7 @@
         "lastUpdated": "2025-12-15",
         "enrollment": 36
       },
-      "daysOut": 589,
+      "daysOut": 588,
       "importance": "low"
     },
     {
@@ -3893,7 +3353,7 @@
         "lastUpdated": "2026-05-13",
         "enrollment": 24
       },
-      "daysOut": 590,
+      "daysOut": 589,
       "importance": "low"
     },
     {
@@ -3926,7 +3386,7 @@
         "lastUpdated": "2026-04-29",
         "enrollment": 120
       },
-      "daysOut": 590,
+      "daysOut": 589,
       "importance": "low"
     },
     {
@@ -3987,7 +3447,7 @@
           "status": "pending"
         }
       },
-      "daysOut": 591,
+      "daysOut": 590,
       "importance": "low"
     },
     {
@@ -4043,7 +3503,7 @@
         "note": "USAF contract for Presidential & Executive Airlift rapid transport.",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": 591,
+      "daysOut": 590,
       "importance": "low"
     },
     {
@@ -4075,7 +3535,7 @@
         "lastUpdated": "2025-12-16",
         "enrollment": 15
       },
-      "daysOut": 622,
+      "daysOut": 621,
       "importance": "low"
     },
     {
@@ -4108,7 +3568,7 @@
         "lastUpdated": "2026-05-19",
         "enrollment": 81
       },
-      "daysOut": 649,
+      "daysOut": 648,
       "importance": "low"
     },
     {
@@ -4141,7 +3601,7 @@
         "lastUpdated": "2026-02-18",
         "enrollment": 50
       },
-      "daysOut": 649,
+      "daysOut": 648,
       "importance": "low"
     },
     {
@@ -4171,7 +3631,7 @@
         "lastUpdated": "2026-04-06",
         "enrollment": 500
       },
-      "daysOut": 651,
+      "daysOut": 650,
       "importance": "low"
     },
     {
@@ -4204,7 +3664,7 @@
         "lastUpdated": "2025-08-06",
         "enrollment": 240
       },
-      "daysOut": 678,
+      "daysOut": 677,
       "importance": "low"
     },
     {
@@ -4238,7 +3698,7 @@
         "lastUpdated": "2025-01-06",
         "enrollment": 24
       },
-      "daysOut": 680,
+      "daysOut": 679,
       "importance": "low"
     },
     {
@@ -4271,7 +3731,7 @@
         "lastUpdated": "2026-01-27",
         "enrollment": 28
       },
-      "daysOut": 682,
+      "daysOut": 681,
       "importance": "low"
     },
     {
@@ -4304,7 +3764,7 @@
         "lastUpdated": "2026-03-27",
         "enrollment": 1200
       },
-      "daysOut": 682,
+      "daysOut": 681,
       "importance": "low"
     },
     {
@@ -4336,7 +3796,7 @@
         "lastUpdated": "2026-04-22",
         "enrollment": 4200
       },
-      "daysOut": 705,
+      "daysOut": 704,
       "importance": "low"
     },
     {
@@ -4369,7 +3829,7 @@
         "lastUpdated": "2026-05-14",
         "enrollment": 35883
       },
-      "daysOut": 711,
+      "daysOut": 710,
       "importance": "low"
     },
     {
@@ -4404,7 +3864,7 @@
         "lastUpdated": "2026-04-23",
         "enrollment": 230
       },
-      "daysOut": 712,
+      "daysOut": 711,
       "importance": "low"
     },
     {
@@ -4437,7 +3897,546 @@
         "lastUpdated": "2026-05-06",
         "enrollment": 51
       },
-      "daysOut": 727,
+      "daysOut": 726,
+      "importance": "low"
+    },
+    {
+      "id": "9a2fe211c4f75192",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "Kairos Power \u2014 NRC: Hermes (35MWth FLiBe-cooled test reactor) (Approved)",
+      "description": "Status: Construction Permit Issued (Dec 2023) \u2014 construction underway at Oak Ridge \u00b7 Docket: NRC-50-611",
+      "companies": [
+        "Kairos Power"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Kairos Power",
+        "design": "Hermes (35MWth FLiBe-cooled test reactor)",
+        "stage": "Approved",
+        "status": "Construction Permit Issued (Dec 2023) \u2014 construction underway at Oak Ridge",
+        "docketId": "NRC-50-611",
+        "nextMilestone": "2027 Operating License Application for Hermes demo",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "8660162e9cce4457",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "NuScale Power \u2014 NRC: US460 / VOYGR SMR (Approved)",
+      "description": "Status: Design Certification Approved \u2014 77MWe uprate under review \u00b7 Docket: NRC-52-050",
+      "companies": [
+        "NuScale Power"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
+      "raw": {
+        "company": "NuScale Power",
+        "design": "US460 / VOYGR SMR",
+        "stage": "Approved",
+        "status": "Design Certification Approved \u2014 77MWe uprate under review",
+        "docketId": "NRC-52-050",
+        "nextMilestone": "2026-Q4 Standard Design Approval for 77MWe uprate",
+        "url": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "9a1da8862e936a3c",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "Oklo \u2014 NRC: Aurora Powerhouse (15MWe compact fast reactor) (Combined License Application)",
+      "description": "Status: Combined License Application Under Review (Resubmitted 2024) \u00b7 Docket: NRC-52-049",
+      "companies": [
+        "Oklo"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Oklo",
+        "design": "Aurora Powerhouse (15MWe compact fast reactor)",
+        "stage": "Combined License Application",
+        "status": "Combined License Application Under Review (Resubmitted 2024)",
+        "docketId": "NRC-52-049",
+        "nextMilestone": "2026-Q3 ASLB hearing / Safety Evaluation Report draft",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "293cc8f8daa79fb9",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "GE Hitachi \u2014 NRC: BWRX-300 SMR (Construction Permit)",
+      "description": "Status: Construction Permit Application being prepared (TVA Clinch River) \u00b7 Docket: NRC-CP-BWRX300",
+      "companies": [
+        "GE Hitachi"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "GE Hitachi",
+        "design": "BWRX-300 SMR",
+        "stage": "Construction Permit",
+        "status": "Construction Permit Application being prepared (TVA Clinch River)",
+        "docketId": "NRC-CP-BWRX300",
+        "nextMilestone": "2026-Q4 Construction Permit Application filing",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "c85a1bbe27542ea5",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "TerraPower \u2014 NRC: Natrium (345MWe sodium-cooled fast reactor) (Construction Permit)",
+      "description": "Status: Construction Permit Application Under Review (Kemmerer, WY) \u00b7 Docket: NRC-50-612",
+      "companies": [
+        "TerraPower"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "TerraPower",
+        "design": "Natrium (345MWe sodium-cooled fast reactor)",
+        "stage": "Construction Permit",
+        "status": "Construction Permit Application Under Review (Kemmerer, WY)",
+        "docketId": "NRC-50-612",
+        "nextMilestone": "2026-Q4 Construction Permit decision",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "e78c9302f91ce00d",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "Westinghouse \u2014 NRC: AP300 SMR (scaled AP1000) (Design Certification Application)",
+      "description": "Status: Standard Design Approval application anticipated \u00b7 Docket: NRC-DCA-AP300",
+      "companies": [
+        "Westinghouse"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Westinghouse",
+        "design": "AP300 SMR (scaled AP1000)",
+        "stage": "Design Certification Application",
+        "status": "Standard Design Approval application anticipated",
+        "docketId": "NRC-DCA-AP300",
+        "nextMilestone": "2026-Q4 Standard Design Approval submittal",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "d8a95169f6e68973",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "Aalo Atomics \u2014 NRC: Aalo-1 Sodium-cooled microreactor (Pre-application)",
+      "description": "Status: Pre-application engagement; non-nuclear demo underway \u00b7 Docket: NRC-PRE-APP-AALO",
+      "companies": [
+        "Aalo Atomics"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Aalo Atomics",
+        "design": "Aalo-1 Sodium-cooled microreactor",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; non-nuclear demo underway",
+        "docketId": "NRC-PRE-APP-AALO",
+        "nextMilestone": "2027 Construction Permit Application target",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "8f6f3fab427ad35a",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "BWXT Advanced Technologies \u2014 NRC: BWXT Advanced Nuclear Reactor (microreactor / Project Pele) (Pre-application)",
+      "description": "Status: Pre-application engagement; DOD Pele transportable reactor Critical Design Review complete \u00b7 Docket: NRC-PRE-APP-BWXT",
+      "companies": [
+        "BWXT Advanced Technologies"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "BWXT Advanced Technologies",
+        "design": "BWXT Advanced Nuclear Reactor (microreactor / Project Pele)",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; DOD Pele transportable reactor Critical Design Review complete",
+        "docketId": "NRC-PRE-APP-BWXT",
+        "nextMilestone": "2026-Q3 NRC regulatory pathway white paper",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "6d7808e5a32ef133",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "General Atomics EMS \u2014 NRC: EM2 Fast Modular Reactor (Pre-application)",
+      "description": "Status: Pre-application; GA-led DOE ARDP Risk Reduction partner \u00b7 Docket: NRC-PRE-APP-GA",
+      "companies": [
+        "General Atomics EMS"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "General Atomics EMS",
+        "design": "EM2 Fast Modular Reactor",
+        "stage": "Pre-application",
+        "status": "Pre-application; GA-led DOE ARDP Risk Reduction partner",
+        "docketId": "NRC-PRE-APP-GA",
+        "nextMilestone": "2027 Construction Permit Application target",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "d166a8dc546a51a0",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "Holtec International \u2014 NRC: SMR-300 (light-water SMR) (Pre-application)",
+      "description": "Status: Pre-application engagement; DOE cost-share awarded 2024 \u00b7 Docket: NRC-PRE-APP-HOLTEC",
+      "companies": [
+        "Holtec International"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Holtec International",
+        "design": "SMR-300 (light-water SMR)",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; DOE cost-share awarded 2024",
+        "docketId": "NRC-PRE-APP-HOLTEC",
+        "nextMilestone": "2026-Q4 Construction Permit Application (Palisades site)",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "0b6adb3e1d98c02e",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "Last Energy \u2014 NRC: PWR-20 (20MWe modular reactor) (Pre-application)",
+      "description": "Status: Pre-application engagement; European orders prioritized first \u00b7 Docket: NRC-PRE-APP-LASTE",
+      "companies": [
+        "Last Energy"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Last Energy",
+        "design": "PWR-20 (20MWe modular reactor)",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; European orders prioritized first",
+        "docketId": "NRC-PRE-APP-LASTE",
+        "nextMilestone": "2027 U.S. Construction Permit pathway",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "c668c11acfc3c4cc",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "Nano Nuclear Energy \u2014 NRC: ZEUS / ODIN transportable microreactors (Pre-application)",
+      "description": "Status: Pre-application engagement begun post-IPO \u00b7 Docket: NRC-PRE-APP-NNE",
+      "companies": [
+        "Nano Nuclear Energy"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Nano Nuclear Energy",
+        "design": "ZEUS / ODIN transportable microreactors",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement begun post-IPO",
+        "docketId": "NRC-PRE-APP-NNE",
+        "nextMilestone": "2026-Q4 Pre-Application Readiness Assessment",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "be4d9b2394bc7ad5",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "Radiant Industries \u2014 NRC: Kaleidos portable 1MWe microreactor (Pre-application)",
+      "description": "Status: Pre-application engagement; DOE DOME test-bed demo planned \u00b7 Docket: NRC-PRE-APP-RADI",
+      "companies": [
+        "Radiant Industries"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Radiant Industries",
+        "design": "Kaleidos portable 1MWe microreactor",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; DOE DOME test-bed demo planned",
+        "docketId": "NRC-PRE-APP-RADI",
+        "nextMilestone": "2026-Q4 Fueled test at INL DOME",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "af471872962ddd10",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "USNC (Ultra Safe Nuclear) \u2014 NRC: Micro Modular Reactor (MMR) \u2014 5MWe HTGR (Pre-application)",
+      "description": "Status: Pre-application meetings; Canadian CNSC licensing leads NRC \u00b7 Docket: NRC-PRE-APP-USNC",
+      "companies": [
+        "USNC (Ultra Safe Nuclear)"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "USNC (Ultra Safe Nuclear)",
+        "design": "Micro Modular Reactor (MMR) \u2014 5MWe HTGR",
+        "stage": "Pre-application",
+        "status": "Pre-application meetings; Canadian CNSC licensing leads NRC",
+        "docketId": "NRC-PRE-APP-USNC",
+        "nextMilestone": "2026-Q4 U.S. Construction Permit Application (University of Illinois demo)",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "b980e476084bc882",
+      "date": "2026-05-20",
+      "type": "nrc",
+      "title": "X-energy \u2014 NRC: Xe-100 (80MWe HTGR pebble-bed) (Pre-application)",
+      "description": "Status: Pre-application engagement; Dow Chemical host site selected \u00b7 Docket: NRC-52-050-XE100",
+      "companies": [
+        "X-energy"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "X-energy",
+        "design": "Xe-100 (80MWe HTGR pebble-bed)",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; Dow Chemical host site selected",
+        "docketId": "NRC-52-050-XE100",
+        "nextMilestone": "2026-Q4 Construction Permit Application expected",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-05-20"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "8fd5ebcda5bda1e6",
+      "date": "2026-05-20",
+      "type": "fedreg",
+      "title": "MEP Pilot Program",
+      "description": "Commerce Department, National Institute of Standards and Technology \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-10105",
+      "raw": {
+        "docNum": "2026-10105",
+        "title": "MEP Pilot Program",
+        "type": "Notice",
+        "date": "2026-05-20",
+        "agencies": "Commerce Department, National Institute of Standards and Technology",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "85524591ce083a2e",
+      "date": "2026-05-20",
+      "type": "fedreg",
+      "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Pa",
+      "description": "Health and Human Services Department, Centers for Medicare & Medicaid Services \u00b7 Sectors: ai \u00b7 Type: Rule",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-10050",
+      "raw": {
+        "docNum": "2026-10050",
+        "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Pa",
+        "type": "Rule",
+        "date": "2026-05-20",
+        "agencies": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
+        "sectors": "ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "d96d2cb3528c55ef",
+      "date": "2026-05-20",
+      "type": "fedreg",
+      "title": "Submission for OMB Review; Comment Request",
+      "description": "Defense Department,  \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-10057",
+      "raw": {
+        "docNum": "2026-10057",
+        "title": "Submission for OMB Review; Comment Request",
+        "type": "Notice",
+        "date": "2026-05-20",
+        "agencies": "Defense Department, ",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "5585915799e7745e",
+      "date": "2026-05-20",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department,  \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-10056",
+      "raw": {
+        "docNum": "2026-10056",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-05-20",
+        "agencies": "Defense Department, ",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "404efab652b9239a",
+      "date": "2026-05-20",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department, Defense Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-10055",
+      "raw": {
+        "docNum": "2026-10055",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-05-20",
+        "agencies": "Defense Department, Defense Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "324a0bbce4400e5d",
+      "date": "2026-05-20",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department,  \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-10053",
+      "raw": {
+        "docNum": "2026-10053",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-05-20",
+        "agencies": "Defense Department, ",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "2a2f39c7953a5ca1",
+      "date": "2026-05-20",
+      "type": "formd",
+      "title": "Mara \u2014 Form D: $20144211 sold",
+      "description": "Securities: Equity \u00b7 Exemption: 06c \u00b7 CIK: 1676740",
+      "companies": [
+        "Mara"
+      ],
+      "sector": "other",
+      "source": "SEC EDGAR Form D",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001676740&type=D&dateb=&owner=include&count=10",
+      "raw": {
+        "company": "Mara",
+        "issuer_name": "MARA POLING TOTAL RETURN FUND, LLC",
+        "form": "D",
+        "filed_date": "2026-05-20",
+        "cik": "1676740",
+        "accession": "0001676740-26-000001",
+        "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001676740&type=D&dateb=&owner=include&count=10",
+        "adsh_raw": "0001676740-26-000001",
+        "offering_amount": "25000000",
+        "amount_sold": "20144211",
+        "amount_remaining": "4855789",
+        "securities_type": "Equity",
+        "exemption": "06c",
+        "first_sale_date": "",
+        "is_safe": false
+      },
+      "daysOut": -1,
       "importance": "low"
     },
     {
@@ -4459,7 +4458,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4481,7 +4480,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4503,7 +4502,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4525,7 +4524,7 @@
         "sectors": "nuclear",
         "significant": false
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4547,7 +4546,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4579,7 +4578,7 @@
         "first_sale_date": "",
         "is_safe": false
       },
-      "daysOut": -1,
+      "daysOut": -2,
       "importance": "low"
     },
     {
@@ -4601,7 +4600,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4623,7 +4622,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4645,7 +4644,7 @@
         "sectors": "defense, ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4667,7 +4666,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4689,7 +4688,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4711,7 +4710,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4733,7 +4732,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4755,7 +4754,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4777,7 +4776,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4799,7 +4798,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4821,7 +4820,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4843,7 +4842,7 @@
         "sectors": "defense",
         "significant": false
       },
-      "daysOut": -2,
+      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4865,7 +4864,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -4887,7 +4886,7 @@
         "sectors": "defense, ai",
         "significant": false
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -4909,7 +4908,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -4931,7 +4930,7 @@
         "sectors": "defense, ai",
         "significant": false
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -4953,7 +4952,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -4975,7 +4974,7 @@
         "sectors": "ai",
         "significant": false
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -4997,7 +4996,7 @@
         "sectors": "",
         "significant": false
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -5028,7 +5027,7 @@
         ],
         "description": "Engineered biological systems for air revitalization and waste processing in long-duration space missions."
       },
-      "daysOut": -5,
+      "daysOut": -6,
       "importance": "low"
     },
     {
@@ -5060,7 +5059,7 @@
         "first_sale_date": "",
         "is_safe": false
       },
-      "daysOut": -6,
+      "daysOut": -7,
       "importance": "low"
     },
     {
@@ -5092,7 +5091,7 @@
           "Dynamo Air"
         ]
       },
-      "daysOut": -8,
+      "daysOut": -9,
       "importance": "low"
     },
     {
@@ -5122,7 +5121,7 @@
           "Top startups"
         ]
       },
-      "daysOut": -14,
+      "daysOut": -15,
       "importance": "low"
     },
     {
@@ -5156,7 +5155,7 @@
         "lastUpdated": "2025-11-06",
         "enrollment": 571
       },
-      "daysOut": -19,
+      "daysOut": -20,
       "importance": "low"
     },
     {
@@ -5190,7 +5189,7 @@
         ],
         "description": "Develop coordinated autonomous systems for naval surface and undersea operations."
       },
-      "daysOut": -19,
+      "daysOut": -20,
       "importance": "low"
     },
     {
@@ -5224,7 +5223,7 @@
         "lastUpdated": "2026-04-14",
         "enrollment": 255
       },
-      "daysOut": -27,
+      "daysOut": -28,
       "importance": "low"
     },
     {
@@ -5258,7 +5257,7 @@
           "Saildrone"
         ]
       },
-      "daysOut": -30,
+      "daysOut": -31,
       "importance": "low"
     },
     {
@@ -5290,7 +5289,7 @@
         ],
         "description": "Component technologies for compact fusion pilot plants targeting net energy by 2030."
       },
-      "daysOut": -35,
+      "daysOut": -36,
       "importance": "low"
     },
     {
@@ -5317,7 +5316,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=215450",
         "matched_company": "Saronic"
       },
-      "daysOut": -36,
+      "daysOut": -37,
       "importance": "low"
     },
     {
@@ -5344,7 +5343,7 @@
         "url": "https://fcc.report/IBFS/SAT-STA-2026-04-00089",
         "matched_company": "Umbra"
       },
-      "daysOut": -40,
+      "daysOut": -41,
       "importance": "low"
     },
     {
@@ -5378,7 +5377,7 @@
           "Varda"
         ]
       },
-      "daysOut": -43,
+      "daysOut": -44,
       "importance": "low"
     },
     {
@@ -5405,7 +5404,7 @@
         "description": "Loan guarantees for innovative energy projects; ~$400B lending authority.",
         "lastUpdate": "2026-04-05"
       },
-      "daysOut": -45,
+      "daysOut": -46,
       "importance": "low"
     },
     {
@@ -5432,7 +5431,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=215088",
         "matched_company": "Hermeus"
       },
-      "daysOut": -48,
+      "daysOut": -49,
       "importance": "low"
     },
     {
@@ -5459,7 +5458,7 @@
         "description": "Funding for advanced reactor demonstrations (Natrium, Xe-100).",
         "lastUpdate": "2026-04-01"
       },
-      "daysOut": -49,
+      "daysOut": -50,
       "importance": "low"
     },
     {
@@ -5492,7 +5491,7 @@
         ],
         "description": "Novel propulsion concepts for cislunar operations and deep space missions."
       },
-      "daysOut": -49,
+      "daysOut": -50,
       "importance": "low"
     },
     {
@@ -5524,7 +5523,7 @@
         ],
         "description": "Machine learning approaches for detecting and responding to cyber threats targeting energy and water infrastructure."
       },
-      "daysOut": -50,
+      "daysOut": -51,
       "importance": "low"
     },
     {
@@ -5557,7 +5556,7 @@
         ],
         "description": "Hardware-level quantum error correction approaches for fault-tolerant quantum computing."
       },
-      "daysOut": -51,
+      "daysOut": -52,
       "importance": "low"
     },
     {
@@ -5585,7 +5584,7 @@
         "description": "Fusion R&D; FY2026 appropriation includes $58M for the Fusion Innovation Research Engine (FIRE).",
         "lastUpdate": "2026-03-28"
       },
-      "daysOut": -53,
+      "daysOut": -54,
       "importance": "low"
     },
     {
@@ -5612,7 +5611,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=214220",
         "matched_company": "Picogrid"
       },
-      "daysOut": -61,
+      "daysOut": -62,
       "importance": "low"
     },
     {
@@ -5641,7 +5640,7 @@
         "description": "Transportable microreactors (DoD Project Pele, DOE MARVEL).",
         "lastUpdate": "2026-03-20"
       },
-      "daysOut": -61,
+      "daysOut": -62,
       "importance": "low"
     },
     {
@@ -5667,7 +5666,7 @@
         "description": "High-assay low-enriched uranium production \u2014 2026 appropriation boosted to $2.7B.",
         "lastUpdate": "2026-03-15"
       },
-      "daysOut": -66,
+      "daysOut": -67,
       "importance": "low"
     },
     {
@@ -5700,7 +5699,7 @@
         ],
         "description": "Develop AI/ML approaches for real-time electronic warfare signal classification and response."
       },
-      "daysOut": -66,
+      "daysOut": -67,
       "importance": "low"
     },
     {
@@ -5733,7 +5732,7 @@
         "lastUpdated": "2025-10-23",
         "enrollment": 650
       },
-      "daysOut": -72,
+      "daysOut": -73,
       "importance": "low"
     },
     {
@@ -5759,7 +5758,7 @@
         "description": "Seven regional clean hydrogen hubs across the U.S.",
         "lastUpdate": "2026-03-05"
       },
-      "daysOut": -76,
+      "daysOut": -77,
       "importance": "low"
     },
     {
@@ -5786,7 +5785,7 @@
         "url": "https://fcc.report/IBFS/SAT-STA-2026-03-00112",
         "matched_company": null
       },
-      "daysOut": -79,
+      "daysOut": -80,
       "importance": "low"
     },
     {
@@ -5813,7 +5812,7 @@
         "description": "Support for NRC licensing of first-of-a-kind small modular reactors.",
         "lastUpdate": "2026-03-01"
       },
-      "daysOut": -80,
+      "daysOut": -81,
       "importance": "low"
     },
     {
@@ -5847,7 +5846,7 @@
         ],
         "description": "Innovative manufacturing processes for HALEU and advanced nuclear fuels."
       },
-      "daysOut": -81,
+      "daysOut": -82,
       "importance": "low"
     },
     {
@@ -5879,7 +5878,7 @@
         "sentiment": "bearish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -83,
+      "daysOut": -84,
       "importance": "low"
     },
     {
@@ -5905,7 +5904,7 @@
         "description": "Preserves at-risk U.S. reactors via credit auctions (Palisades restart).",
         "lastUpdate": "2026-02-25"
       },
-      "daysOut": -84,
+      "daysOut": -85,
       "importance": "low"
     },
     {
@@ -5938,7 +5937,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/nvidia-nvda-q4-2026-earnings-call-transcript/"
       },
-      "daysOut": -84,
+      "daysOut": -85,
       "importance": "low"
     },
     {
@@ -5970,7 +5969,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/ionq-ionq-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -84,
+      "daysOut": -85,
       "importance": "low"
     },
     {
@@ -6005,7 +6004,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.constellationenergy.com/news/2026/02/constellation-reports-fourth-quarter-and-full-year-2025-results.html"
       },
-      "daysOut": -85,
+      "daysOut": -86,
       "importance": "low"
     },
     {
@@ -6037,7 +6036,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/23/kratos-ktos-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -86,
+      "daysOut": -87,
       "importance": "low"
     },
     {
@@ -6063,7 +6062,7 @@
         "description": "Large-scale decarbonization demonstrations in heavy industry.",
         "lastUpdate": "2026-02-20"
       },
-      "daysOut": -89,
+      "daysOut": -90,
       "importance": "low"
     },
     {
@@ -6090,7 +6089,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=213104",
         "matched_company": "Archer Aviation"
       },
-      "daysOut": -90,
+      "daysOut": -91,
       "importance": "low"
     },
     {
@@ -6112,7 +6111,7 @@
         "description": "Upgrades to transmission, storage and grid hardening.",
         "lastUpdate": "2026-02-15"
       },
-      "daysOut": -94,
+      "daysOut": -95,
       "importance": "low"
     },
     {
@@ -6144,7 +6143,7 @@
         ],
         "description": "Advanced materials for thermal protection systems on hypersonic flight vehicles."
       },
-      "daysOut": -94,
+      "daysOut": -95,
       "importance": "low"
     },
     {
@@ -6171,7 +6170,7 @@
         "url": "https://fcc.report/IBFS/SAT-LOA-2026-02-00045",
         "matched_company": null
       },
-      "daysOut": -99,
+      "daysOut": -100,
       "importance": "low"
     },
     {
@@ -6197,7 +6196,7 @@
         "description": "Nuclear propulsion for deep space missions (DRACO follow-on).",
         "lastUpdate": "2026-02-10"
       },
-      "daysOut": -99,
+      "daysOut": -100,
       "importance": "low"
     },
     {
@@ -6224,7 +6223,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=212088",
         "matched_company": "Shield AI"
       },
-      "daysOut": -106,
+      "daysOut": -107,
       "importance": "low"
     },
     {
@@ -6259,7 +6258,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/03/amd-amd-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -106,
+      "daysOut": -107,
       "importance": "low"
     },
     {
@@ -6292,7 +6291,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -107,
+      "daysOut": -108,
       "importance": "low"
     },
     {
@@ -6324,7 +6323,7 @@
         "lastUpdated": "2025-03-30",
         "enrollment": 66
       },
-      "daysOut": -109,
+      "daysOut": -110,
       "importance": "low"
     },
     {
@@ -6357,7 +6356,7 @@
         ],
         "description": "Scalable C-UAS solutions for base defense and expeditionary operations."
       },
-      "daysOut": -109,
+      "daysOut": -110,
       "importance": "low"
     },
     {
@@ -6390,7 +6389,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/"
       },
-      "daysOut": -111,
+      "daysOut": -112,
       "importance": "low"
     },
     {
@@ -6423,7 +6422,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/tesla-tsla-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -112,
+      "daysOut": -113,
       "importance": "low"
     },
     {
@@ -6455,7 +6454,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/meta-meta-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -112,
+      "daysOut": -113,
       "importance": "low"
     },
     {
@@ -6488,7 +6487,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -113,
+      "daysOut": -114,
       "importance": "low"
     },
     {
@@ -6521,7 +6520,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.benzinga.com/insights/news/26/01/50191849/northrop-grumman-q-2026-earnings-call-transcript"
       },
-      "daysOut": -113,
+      "daysOut": -114,
       "importance": "low"
     },
     {
@@ -6554,7 +6553,7 @@
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/boeing-ba-q4-2025-earnings-call-transcript/"
       },
-      "daysOut": -113,
+      "daysOut": -114,
       "importance": "low"
     },
     {
@@ -6581,7 +6580,7 @@
         "url": "https://fcc.report/IBFS/SAT-STA-2026-01-00021",
         "matched_company": "AST SpaceMobile"
       },
-      "daysOut": -118,
+      "daysOut": -119,
       "importance": "low"
     },
     {
@@ -6608,7 +6607,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=211230",
         "matched_company": "Anduril Industries"
       },
-      "daysOut": -122,
+      "daysOut": -123,
       "importance": "low"
     },
     {
@@ -6635,7 +6634,7 @@
         "description": "Vouchers giving nuclear startups access to national lab expertise.",
         "lastUpdate": "2026-01-10"
       },
-      "daysOut": -130,
+      "daysOut": -131,
       "importance": "low"
     },
     {
@@ -6696,7 +6695,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -139,
+      "daysOut": -140,
       "importance": "low"
     },
     {
@@ -6752,7 +6751,7 @@
         "note": "",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": -139,
+      "daysOut": -140,
       "importance": "low"
     },
     {
@@ -6823,7 +6822,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -139,
+      "daysOut": -140,
       "importance": "low"
     },
     {
@@ -6889,7 +6888,7 @@
         "note": "",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": -139,
+      "daysOut": -140,
       "importance": "low"
     },
     {
@@ -6950,7 +6949,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -139,
+      "daysOut": -140,
       "importance": "low"
     },
     {
@@ -7006,7 +7005,7 @@
         "note": "",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": -139,
+      "daysOut": -140,
       "importance": "low"
     },
     {
@@ -7038,7 +7037,7 @@
         "lastUpdated": "2025-05-21",
         "enrollment": 1070
       },
-      "daysOut": -140,
+      "daysOut": -141,
       "importance": "low"
     },
     {
@@ -7072,7 +7071,7 @@
         "lastUpdated": "2025-04-04",
         "enrollment": 30000
       },
-      "daysOut": -140,
+      "daysOut": -141,
       "importance": "low"
     },
     {
@@ -7105,7 +7104,7 @@
         "lastUpdated": "2025-03-20",
         "enrollment": 590
       },
-      "daysOut": -140,
+      "daysOut": -141,
       "importance": "low"
     },
     {
@@ -7132,7 +7131,7 @@
         "url": "https://apps.fcc.gov/els/GetAtn.action?id=209445",
         "matched_company": "Skydio"
       },
-      "daysOut": -167,
+      "daysOut": -168,
       "importance": "low"
     },
     {
@@ -7164,7 +7163,7 @@
         "lastUpdated": "2025-10-03",
         "enrollment": 150000
       },
-      "daysOut": -170,
+      "daysOut": -171,
       "importance": "low"
     },
     {
@@ -7194,7 +7193,7 @@
         "lastUpdated": "2024-09-19",
         "enrollment": 250
       },
-      "daysOut": -170,
+      "daysOut": -171,
       "importance": "low"
     },
     {
@@ -7228,7 +7227,7 @@
         "lastUpdated": "2025-04-02",
         "enrollment": 9
       },
-      "daysOut": -170,
+      "daysOut": -171,
       "importance": "low"
     },
     {
@@ -7294,7 +7293,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -170,
+      "daysOut": -171,
       "importance": "low"
     },
     {
@@ -7355,7 +7354,7 @@
         "note": "",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": -170,
+      "daysOut": -171,
       "importance": "low"
     },
     {
@@ -7416,7 +7415,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -170,
+      "daysOut": -171,
       "importance": "low"
     },
     {
@@ -7472,7 +7471,7 @@
         "note": "",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": -170,
+      "daysOut": -171,
       "importance": "low"
     },
     {
@@ -7499,7 +7498,7 @@
         "url": "https://fcc.report/IBFS/SAT-LOA-2025-11-08912",
         "matched_company": "Astranis"
       },
-      "daysOut": -186,
+      "daysOut": -187,
       "importance": "low"
     },
     {
@@ -7522,7 +7521,7 @@
         "status": "SESE",
         "k_number": "K241868"
       },
-      "daysOut": -243,
+      "daysOut": -244,
       "importance": "low"
     },
     {
@@ -7555,7 +7554,7 @@
         "lastUpdated": "2025-01-31",
         "enrollment": 45
       },
-      "daysOut": -292,
+      "daysOut": -293,
       "importance": "low"
     },
     {
@@ -7578,7 +7577,7 @@
         "status": "SESE",
         "k_number": "K251202"
       },
-      "daysOut": -308,
+      "daysOut": -309,
       "importance": "low"
     },
     {
@@ -7601,7 +7600,7 @@
         "status": "SESE",
         "k_number": "K250119"
       },
-      "daysOut": -309,
+      "daysOut": -310,
       "importance": "low"
     },
     {
@@ -7624,7 +7623,7 @@
         "status": "SESE",
         "k_number": "K250674"
       },
-      "daysOut": -341,
+      "daysOut": -342,
       "importance": "low"
     },
     {
@@ -7647,7 +7646,7 @@
         "status": "SESE",
         "k_number": "K240852"
       },
-      "daysOut": -343,
+      "daysOut": -344,
       "importance": "low"
     },
     {
@@ -7703,7 +7702,7 @@
           "status": "in_progress"
         }
       },
-      "daysOut": -353,
+      "daysOut": -354,
       "importance": "low"
     },
     {
@@ -7774,7 +7773,7 @@
           "status": "pending"
         }
       },
-      "daysOut": -353,
+      "daysOut": -354,
       "importance": "low"
     },
     {
@@ -7840,7 +7839,7 @@
         "note": "",
         "lastUpdated": "2026-05-20"
       },
-      "daysOut": -353,
+      "daysOut": -354,
       "importance": "low"
     },
     {
@@ -7911,7 +7910,7 @@
           "status": "in_progress"
         }
       },
-      "daysOut": -353,
+      "daysOut": -354,
       "importance": "low"
     },
     {
@@ -7972,7 +7971,7 @@
           "status": "in_progress"
         }
       },
-      "daysOut": -353,
+      "daysOut": -354,
       "importance": "low"
     },
     {
@@ -8033,7 +8032,7 @@
           "status": "in_progress"
         }
       },
-      "daysOut": -353,
+      "daysOut": -354,
       "importance": "low"
     }
   ]
