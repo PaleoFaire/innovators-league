@@ -54001,25 +54001,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-21 09:58
-// Auto-generated real-time signals
-// Last updated: 2026-05-21
+// Last updated: 2026-05-21 12:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "ICEYE", headline: "ICEYE secures €300M credit facility to scale sovereign satellite intelligence", source: "Tech.eu", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Anthropic", headline: "Lexroom CEO: Anthropic won’t kill vertical AI companies", source: "Sifted", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from done", source: "Electrek", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Listed Grok’s ‘Spicy’ Mode as a Risk in Its IPO Filing", source: "Wired", time: "9h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers", source: "Wired", time: "10h ago", impact: "high", unread: true },
-  { id: 6, type: "hire", company: "SpaceX", headline: "The SpaceX IPO filing is filled with AI bets, Starship dreams, and Elon Musk at the center", source: "TechCrunch", time: "10h ago", impact: "high", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over", source: "TechCrunch", time: "11h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX files for IPO", source: "SpaceNews", time: "11h ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "xAI", headline: "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a Year to Access Its Data Centers", source: "Wired", time: "12h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "Anthropic will pay xAI $1.25B per month for compute", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI claims it solved an 80-year-old math problem — for real this time", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "OpenAI", headline: "OpenAI barrels toward IPO that may happen in September", source: "TechCrunch", time: "16h ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "AI model &quot;capability overhang&quot; biggest challenge facing European businesses, says OpenAI revenue chief", source: "Tech.eu", time: "19h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Boston Metal", headline: "Green steel startup Boston Metal is doubling down on critical metals", source: "MIT Tech Review", time: "20h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Humanoid", headline: "Humanoid partners with Bosch, Schaeffler to scale robot production", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "ICEYE", headline: "ICEYE secures '300M credit facility to scale sovereign satellite intelligence", source: "Tech.eu", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Anthropic", headline: "Lexroom CEO: Anthropic won't kill vertical AI companies", source: "Sifted", time: "7h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX S-1 reveals Tesla's Terafab deal is far from done", source: "Electrek", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Listed Grok's 'Spicy' Mode as a Risk in Its IPO Filing", source: "Wired", time: "12h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers", source: "Wired", time: "13h ago", impact: "high", unread: false },
+  { id: 7, type: "hire", company: "SpaceX", headline: "The SpaceX IPO filing is filled with AI bets, Starship dreams, and Elon Musk at the center", source: "TechCrunch", time: "13h ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "xAI burned $6.4B last year ' SpaceX's IPO filing shows why the spending is far from over", source: "TechCrunch", time: "14h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX files for IPO", source: "SpaceNews", time: "14h ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "xAI", headline: "Musk's xAI is being sued over its data center generators ' now it's buying $2.8B more", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a Year to Access Its Data Centers", source: "Wired", time: "15h ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic will pay xAI $1.25B per month for compute", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI claims it solved an 80-year-old math problem ' for real this time", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "AI model &quot;capability overhang&quot; biggest challenge facing European businesses, says OpenAI revenue chief", source: "Tech.eu", time: "22h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Boston Metal", headline: "Green steel startup Boston Metal is doubling down on critical metals", source: "MIT Tech Review", time: "23h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
