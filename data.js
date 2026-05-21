@@ -40749,7 +40749,24 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     source: "VC portfolio audit batch-3 Future Ventures",
     addedDate: "2026-05-21",
     tags: ["vc-portfolio-add", "batch-3"]
+  },
+  {
+    name: "Alpha School",
+    founded: 2014,
+    sector: "AI & Software",
+    description: "AI-native private school network running the '2 Hour Learning' model — students complete core academics in 2 hours/day via personalized AI tutors, freeing time for project-based skills work. Expanded to 100+ campuses by 2026; charter version (Unbound Academy) authorized in Arizona. Backed by Stephen McBride / ROS Innovators League class.",
+    founder: "MacKenzie Price, Andrew Price",
+    location: "Austin, TX",
+    state: "TX",
+    website: "https://alpha.school/",
+    fundingStage: "Series A",
+    techApproach: "Personalized AI tutoring covering full K-12 academic core in 2 hours/day; remaining time devoted to project-based learning of practical skills.",
+    investors: ["2 Hour Learning Foundation", "ROS Innovators League"],
+    tags: ["education", "ai-native", "il30"],
+    source: "User-restored 2026-05-21",
+    addedDate: "2026-05-21"
   }
+
 
 
 
