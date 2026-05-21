@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T12:51:30.677924+00:00",
+  "generatedAt": "2026-05-21T16:21:49.804350+00:00",
   "date": "2026-05-21",
   "dateDisplay": "Thursday, May 21, 2026",
   "sections": {
@@ -63,51 +63,44 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 8.4,
-        "changePercent": -53.95,
-        "change": -9.84
+        "price": 8.05,
+        "changePercent": -53.06,
+        "change": -9.1
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 287.48,
-        "changePercent": 28.29,
-        "change": 63.39
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 9.72,
-        "changePercent": 20.0,
-        "change": 1.62
+        "price": 288.06,
+        "changePercent": 25.99,
+        "change": 59.42
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 89.58,
-        "changePercent": 19.74,
-        "change": 14.77
+        "price": 96.45,
+        "changePercent": 16.19,
+        "change": 13.44
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 13.0,
+        "changePercent": 12.65,
+        "change": 1.46
+      },
+      {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 24.27,
+        "changePercent": -11.86,
+        "change": -3.27
       },
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 7.12,
-        "changePercent": -15.24,
-        "change": -1.28
-      },
-      {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 2.04,
-        "changePercent": -13.57,
-        "change": -0.32
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 10.39,
-        "changePercent": -13.13,
-        "change": -1.57
+        "price": 7.22,
+        "changePercent": -11.67,
+        "change": -0.96
       },
       {
         "ticker": "277810.KQ",
@@ -115,6 +108,13 @@
         "price": 743000.0,
         "changePercent": -11.65,
         "change": -98000.0
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 10.82,
+        "changePercent": -10.24,
+        "change": -1.24
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -54.0%"
+    "topMover": "LNZA -53.1%"
   }
 }
