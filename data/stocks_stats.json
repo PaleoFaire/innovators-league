@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.53,
+      "avg_change": 2.8,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 3.63,
+      "avg_change": 3.3,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -8.37,
+      "avg_change": -7.06,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.47,
+      "avg_change": -5.93,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -22.03,
+      "avg_change": -19.19,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.28,
+      "avg_change": 10.77,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.49,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 2.61,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -5.56,
+      "avg_change": -4.08,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 5.47,
+      "avg_change": 7.78,
       "count": 3
     }
   },
@@ -61,34 +61,39 @@
     [
       "ALAB",
       "Astera Labs",
-      25.99
+      30.2
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      16.19
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      12.65
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      8.56
+      15.97
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      8.16
+      15.91
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      13.99
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      11.63
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -10.24
+      "NNE",
+      "Nano Nuclear Energy",
+      -8.9
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -9.73
     ],
     [
       "277810.KQ",
@@ -98,18 +103,13 @@
     [
       "AUR",
       "Aurora Innovation",
-      -11.67
-    ],
-    [
-      "NNE",
-      "Nano Nuclear Energy",
-      -11.86
+      -12.47
     ],
     [
       "LNZA",
       "LanzaTech",
-      -53.06
+      -54.81
     ]
   ],
-  "lastUpdated": "2026-05-21 15:37:07"
+  "lastUpdated": "2026-05-21 19:58:50"
 }
