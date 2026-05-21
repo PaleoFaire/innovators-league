@@ -23,9 +23,9 @@
 
 ---
 
-## TOP 30 — STRONG BUY (rank, score, one-liner)
+## TOP 50 — RANKED CANDIDATES (full rationale per company)
 
-### Tier S — drop everything, get a meeting (95+)
+### Tier S — drop everything, get a meeting (95+ score)
 
 **1. Paradromics — 99** · Series A · Austin, TX · $123M raised
 High-bandwidth BCI competitor to Neuralink. FDA Breakthrough Designation. Performed first human implant in 2025. Founder **Matt Angle** is in Austin (Texas swing). Best risk-adjusted bet in the entire batch — clear regulatory progress, no Musk-tax on cap table, and a competitor-displacement story that writes itself. **Action**: prioritize this above everything else.
@@ -45,7 +45,7 @@ IRA clean-energy incentive stacking API (note: enrichment caught that our DB des
 **6. E-Space — 95** · Seed · Saratoga, CA · $50M raised
 **Greg Wyler** (OneWeb, O3b) building sustainable LEO constellation targeting 100,000+ satellites. $50M was the largest space-seed round on record. Wyler is one of the only people on Earth who has actually built a global constellation operationally — pedigree premium.
 
-### Tier 1 — high conviction, schedule a meeting (90–94)
+### Tier 1 — high conviction, schedule a meeting (89–94)
 
 **7. Vaulted Deep — 94** · Series A · Houston, TX · $56M raised
 Bioslurry well-injection carbon removal. **15-year, 4.9M-ton offtake with Microsoft** (the meaningful kind of carbon-removal validation). Houston-based — anchor for the Texas swing.
@@ -119,32 +119,67 @@ Beanless molecular coffee via Compound Foods. Watch-list, not first-meeting — 
 **30. Spiritus — 89** · Series A · Los Alamos, NM · $41M raised
 Los Alamos National Lab spinout. **$100/ton DAC** target. **Aramco Ventures** led Series A. Los Alamos is a side-trip from the Texas swing.
 
----
+### Tier 2 — high-quality, do the work to decide (84–88)
 
-## TIER 2 — Watch / Smaller Check (rank 31–50)
+**31. Liberate Bio — 88** · Seed · Boston, MA · $31M raised
+**Nessan Bermingham** — founder of **Intellia Therapeutics** ($IT, public, CRISPR pioneer) — is back with non-viral targeted delivery of nucleic acid therapeutics. Delivery, not the editor, is the bottleneck for the entire RNA-medicine wave. Khosla-led seed. Cambridge anchor adds to Boston biotech day.
 
-| # | Name | Stage | City | Raised | Why it matters |
-|---|---|---|---|---|---|
-| 31 | Liberate Bio | Seed | Boston, MA | $31M | **Nessan Bermingham** (Intellia founder), non-viral RNA delivery |
-| 32 | Nitricity | Series B | San Leandro, CA | $70M | Stanford spinout; air-to-fertilizer via renewables |
-| 33 | Vector (TF Vector) | Series A | Salt Lake City, UT | $61M | Tier-1 special-operator founder team; AmDyn 50 |
-| 34 | Zero Acre Farms | Series A | San Francisco | $37M-38M | Cultured cooking oil; Lowercarbon + Fifty Years |
-| 35 | Vero Biosciences | Seed | San Francisco, CA | undisc. | Stanford spinout; 5,000-protein biological age panel |
-| 36 | Rubedo Life | Series A | Sunnyvale, CA | $53.5M | Senolytic small molecules; Khosla + Ahren |
-| 37 | Kamau | Series A | San Francisco, CA | $31.8M | **Matthew Porteus** + Graphite Bio sickle-cell program |
-| 38 | Gordian | Series A | South SF, CA | $60M | High-throughput in-vivo aging screens |
-| 39 | Spartan (Radar) | Series B | Los Alamitos, CA | $42M | Same lineage as CX2; PMG + 8VC |
-| 40 | Tender Food | Series A | Somerville, MA | $23M | Harvard spinout; spinning-fiber whole-muscle meat |
-| 41 | Lygenesis | Series A | Pittsburgh, PA | $37-46M | Lymph-nodes-as-bioreactors for ectopic livers (Phase 2a) |
-| 42 | Everyone Medicines | Seed | Boston, MA | undisc. | N-of-1 ASO therapies — Milasen precedent |
-| 43 | Pearl Bio | Series A | Cambridge, MA | $4.4M | Genomically recoded organisms; **$1B Merck deal** |
-| 44 | Lyten | Series B | San Jose, CA | $600M+ | 3D graphene + Li-S; defense drones + EVs |
-| 45 | AnySignal | Series A | El Segundo, CA | $35.7M | RF platform; AmDyn 50 |
-| 46 | Air Company | Series B | Brooklyn, NY | $109M | CO2→SAF; **JetBlue, Virgin Atlantic, NASA, DoD** customers |
-| 47 | Loyal | Series B | San Francisco, CA | $150M | **First FDA-track dog lifespan drug**; Celine Halioua |
-| 48 | Sagence | Series B | Santa Clara, CA | $58M | Analog in-memory compute for AI inference |
-| 49 | Kymeta | Series E | Redmond, WA | $559M | Metamaterial flat-panel satcom; Army NGC2 pilot |
-| 50 | Glydways | Series C | South SF, CA | $203M | Autonomous-pod transit on dedicated guideways |
+**32. Nitricity — 88** · Series B · San Leandro, CA · $70M raised
+Stanford spinout (**Nicolas Pinkowski**) electrifying nitrogen fertilizer production from air + water + renewables. $50M Series B in 2025. Replacing Haber-Bosch is a ~1% of global emissions prize. Bay Area, easy meeting.
+
+**33. Vector (TF Vector) — 87** · Series A · Salt Lake City, UT · $61M raised
+"Modern warfare as a service" — founded by **Andy Yakulis** (Tier-1 special operator), **George Matus** (Teal Drones), **Larsen Jensen** (Navy SEAL). $61M Series A led by **Pelion** with Shield Capital, Harpoon, Point72, Lightspeed. Tier-1-VC participation is weaker than CX2 but the operator-founder pedigree is unmatched. Worth a half-day in Utah if you're already there.
+
+**34. Zero Acre Farms — 87** · Series A · San Francisco, CA · $37-38M raised
+Fermentation-derived cooking oil aimed at displacing industrial seed oils. **Lowercarbon + Fifty Years**; Robert Downey Jr. and Richard Branson on cap table. Consumer-CPG distribution is the only risk. Bay Area easy add.
+
+**35. Vero Biosciences — 87** · Seed · San Francisco, CA · undisclosed
+Stanford spinout measuring 5,000+ proteins to assess biological age of individual organs. Tech licensed from **Tony Wyss-Coray's lab** (the proteomics-of-aging authority). Khosla seed. Earliest-stage seat available; Wyss-Coray's underlying science is among the cleanest in the longevity field.
+
+**36. Rubedo Life — 87** · Series A · Sunnyvale, CA · $53.5M raised
+Senolytic small molecules targeting cells driving aging. **Marco Quarta** founder. $40M Series A April 2024 led by Khosla and Ahren. Aging-as-a-disease investments still polarized; this is one of the better-targeted entries with real medicinal chemistry — not a vague platform.
+
+**37. Kamau — 87** · Series A · San Francisco, CA · $31.8M raised
+**Matthew Porteus** (Stanford, gene-editing legend) acquired Graphite Bio's nula-cel sickle-cell program. Clinical-stage HDR gene correction therapy. Series A, Khosla-led. Buying a Phase 1 asset at Seed-A pricing is the kind of arbitrage that gets attention.
+
+**38. Gordian Biotechnology — 87** · Series A · South San Francisco, CA · $60M raised
+High-throughput in-vivo screening platform for age-related complex diseases. Co-founders **Martin Borch Jensen** (aging research) + **Francisco LePort** (physicist). Prime Movers Lab. SSF biotech-row anchor.
+
+**39. Spartan — 86** · Series B · Los Alamitos, CA · $42M raised
+Next-gen radar software for autonomous vehicles + defense. Same **Nathan Mintz** lineage as CX2 (in fact CX2 was spun out of this team). Prime Movers Lab + 8VC. Pair the visit with CX2 — same office park in El Segundo / Los Alamitos.
+
+**40. Tender Food — 86** · Series A · Somerville, MA · $23M raised
+Harvard spinout (**Christophe Chantre**) spinning plant-protein fibers cotton-candy-style into whole-muscle meat cuts. $23M Series A. Lowercarbon + Natalie Portman cap table. The "whole-muscle, not patty" wedge is the real differentiator from Beyond/Impossible — gives this category a second life.
+
+**41. Lygenesis — 86** · Series A · Pittsburgh, PA · $37-46M raised
+University of Pittsburgh spinout using **patient lymph nodes as bioreactors** to grow ectopic livers (and eventually other organs). **First patient dosed in Phase 2a trial April 2024**. Prime Movers Lab. Single-meeting Pittsburgh stop on a NY-DC corridor day.
+
+**42. Everyone Medicines — 86** · Seed · Boston, MA · undisclosed
+**N-of-1 ASO therapies** for ultra-rare genetic mutations, inspired by the Milasen case. Founder **Julia Vitarello** is the mother whose daughter was the original Milasen patient — the mission is personal. Khosla seed. Smallest check, highest emotional + scientific resonance.
+
+**43. Pearl Bio — 86** · Series A · Cambridge, MA · $4.4M raised
+Genomically recoded organisms producing non-natural amino acid proteins. **Signed up-to-$1B Merck discovery deal March 2024** — that's a major biotech BD win for a Series A. Khosla. The tiny disclosed raise + giant pharma deal is a tell that the round structure is unusual; ask about it directly.
+
+**44. Lyten — 86** · Series B · San Jose, CA · $600M+ raised
+3D graphene supermaterial + lithium-sulfur batteries. **Backers: Stellantis, FedEx, Honeywell**. Now targeting defense-drone propulsion + EVs. Late-stage by our standards but the dual-use defense + EV story keeps it on the list. Prime Movers Lab.
+
+**45. AnySignal — 85** · Series A · El Segundo, CA · $35.7M raised
+End-to-end RF platform across satellite comms, EW, radar, autonomy. **a16z American Dynamism 50** named-list company. $24M Series A (Dec 2025) led by Upfront. Lower tier-1-VC density than CX2 but the AmDyn-50 inclusion is the validating signal. Same El Segundo cluster.
+
+**46. Air Company — 85** · Series B · Brooklyn, NY · $109M raised
+CO2-to-sustainable-aviation-fuel platform via hydrogenation. **Real customers: JetBlue, Virgin Atlantic, NASA, DoD**. Lowercarbon-backed. Brooklyn is a single-meeting NY stop. The SAF market is one of the better climate-economics stories of the decade.
+
+**47. Loyal — 85** · Series B · San Francisco, CA · $150M raised
+**LOY-002 received FDA RXE acceptance Feb 2025** — on track for first-ever FDA-approved dog lifespan extension drug. **Celine Halioua** founder. Khosla. Slightly later-stage at $150M raised but the regulatory milestone is genuinely unique. The pet-longevity wedge is also the cleanest commercial path for longevity science generally.
+
+**48. Sagence — 84** · Series B · Santa Clara, CA · $58M raised
+Analog in-memory compute chips for AI inference. **Vishal Sarin** founder. Khosla + TDK Ventures + Aramco Ventures. Inference-cost arc is the most important hardware story of the next 36 months; this is one of the few analog-compute startups still standing.
+
+**49. Kymeta — 84** · Series E · Redmond, WA · $559M raised
+Metamaterial flat-panel satellite antennas. Selected for **U.S. Army NGC2 multi-orbit MILSATCOM pilot (Nov 2025)**. Lux Capital + Bill Gates (largest backer). Late-stage Series E so this is a relationship play, not return-driver — but the Army pilot is a foundational sales win.
+
+**50. Glydways — 84** · Series C · South San Francisco, CA · $203M raised
+Autonomous four-passenger pods on dedicated guideways. **$170M Series C in April 2026 with Khosla and Suzuki Motor**. SSF, easy meeting. The thesis is risky (urban transit infrastructure is brutal); the Series C valuation reflects skepticism still in play, which makes it more interesting than a high-confidence late round.
 
 ---
 
