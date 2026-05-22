@@ -35492,7 +35492,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Founders Fund", "Lux Capital"],
     source: "VC portfolio audit Founders Fund",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Laura Deming, Hunter Davis",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$106M"
   },
   {
     name: "Boring Company",
@@ -35502,7 +35507,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Founders Fund"],
     source: "VC portfolio audit Founders Fund",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Elon Musk",
+    location: "Bastrop",
+    state: "TX",
+    fundingStage: "Series C",
+    totalRaised: "$800M"
   },
   {
     name: "Nanotronics",
@@ -35512,7 +35522,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Founders Fund"],
     source: "VC portfolio audit Founders Fund",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Matthew Putman",
+    location: "Brooklyn",
+    state: "NY",
+    fundingStage: "Series E+",
+    totalRaised: "$146M"
   },
   {
     name: "Jetson",
@@ -35777,7 +35792,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Shield Capital"],
     source: "VC portfolio audit Shield Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Pratap Ranade, Engin Ural",
+    location: "New York",
+    state: "NY",
+    fundingStage: "Series B",
+    totalRaised: "$62M"
   },
   {
     name: "Code Metal",
@@ -35787,19 +35807,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Shield Capital"],
     source: "VC portfolio audit Shield Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Peter Morales",
+    location: "Boston",
+    state: "MA",
+    fundingStage: "Series B",
+    totalRaised: "$162M"
   },
-  {
-    name: "Dedrone",
-    sector: "Defense & Security",
-    description: "Counter-drone airspace security for airports, prisons, military sites. Portfolio company of Shield Capital.",
-    website: "https://dedrone.com",
-    investors: ["Shield Capital"],
-    source: "VC portfolio audit Shield Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Hawkeye 360",
     sector: "Space & Aerospace",
     description: "RF satellite intelligence and geolocation. Portfolio company of Shield Capital.",
@@ -35807,7 +35822,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Shield Capital"],
     source: "VC portfolio audit Shield Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "John Serafini",
+    location: "Herndon",
+    state: "VA",
+    fundingStage: "Series E",
+    totalRaised: "$500M+"
   },
   {
     name: "mPower Technology",
@@ -35817,7 +35837,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Shield Capital"],
     source: "VC portfolio audit Shield Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Murat Okandan",
+    location: "Albuquerque",
+    state: "NM",
+    fundingStage: "Series B",
+    totalRaised: "$46M"
   },
   {
     name: "Obviant",
@@ -35827,7 +35852,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Shield Capital"],
     source: "VC portfolio audit Shield Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Brendan Karp",
+    location: "Washington",
+    state: "DC",
+    fundingStage: "Seed",
+    totalRaised: "$7.1M"
   },
   {
     name: "Overwatch Imaging",
@@ -35837,7 +35867,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Shield Capital"],
     source: "VC portfolio audit Shield Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Greg Davis",
+    location: "Hood River",
+    state: "OR",
+    fundingStage: "Series A",
+    totalRaised: "$17M"
   },
   {
     name: "Seasats",
@@ -35847,7 +35882,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Shield Capital"],
     source: "VC portfolio audit Shield Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Mike Flanigan",
+    location: "San Diego",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$40M"
   },
   {
     name: "UFORCE",
@@ -35887,7 +35927,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Andreessen Horowitz (American Dynamism)", "8VC"],
     source: "VC portfolio audit Andreessen Horowitz (American Dynamism) + 8VC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Nathan Mintz",
+    location: "El Segundo",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$46M"
   },
   {
     name: "Proclaim",
@@ -35941,7 +35986,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Khosla Ventures"],
     source: "VC portfolio audit Khosla Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Aaron Nathan",
+    location: "New York",
+    state: "NY",
+    fundingStage: "Series C",
+    totalRaised: "$60M"
   },
   {
     name: "Zetwerk",
@@ -35966,7 +36016,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Khosla Ventures"],
     source: "VC portfolio audit Khosla Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "John Dean",
+    location: "Palo Alto",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$23.4M"
   },
     {
     name: "Sagence",
@@ -36021,7 +36076,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Khosla Ventures"],
     source: "VC portfolio audit Khosla Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "John Mern",
+    location: "Palo Alto",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$3.4M"
   },
   {
     name: "Enzymit",
@@ -36102,7 +36162,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Khosla Ventures"],
     source: "VC portfolio audit Khosla Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Patrick O. Brown",
+    location: "Redwood City",
+    state: "CA",
+    fundingStage: "Series H",
+    totalRaised: "$2.01B"
   },
     {
     name: "Opentrons",
@@ -36112,7 +36177,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Khosla Ventures"],
     source: "VC portfolio audit Khosla Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "James Atwood",
+    location: "Long Island City",
+    state: "NY",
+    fundingStage: "Series C",
+    totalRaised: "$261M"
   },
   {
     name: "Inflammatix",
@@ -36380,39 +36450,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Laura Crabtree",
+    location: "Los Angeles",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$19M"
   },
-  {
-    name: "Orbital Insight",
-    sector: "Space & Aerospace",
-    description: "Petabyte-scale geospatial satellite analytics Portfolio company of Lux Capital.",
-    website: "https://orbitalinsight.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Covariant",
-    sector: "Robotics & Manufacturing",
-    description: "AI brain for industrial robots, bin picking, depalletizing Portfolio company of Lux Capital.",
-    website: "https://covariant.ai",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Veo Robotics",
-    sector: "Robotics & Manufacturing",
-    description: "3D sensing for safe human-robot factory collaboration Portfolio company of Lux Capital.",
-    website: "https://veobot.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+        {
     name: "Ripcord",
     sector: "Robotics & Manufacturing",
     description: "Robotic paper-to-digital for records management Portfolio company of Lux Capital.",
@@ -36420,49 +36465,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Alex Fielding",
+    location: "Hayward",
+    state: "CA",
+    fundingStage: "Series C",
+    totalRaised: "$147M"
   },
-  {
-    name: "Desktop Metal",
-    sector: "Robotics & Manufacturing",
-    description: "Office-friendly metal 3D printers Portfolio company of Lux Capital.",
-    website: "https://desktopmetal.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Shapeways",
-    sector: "Robotics & Manufacturing",
-    description: "3D printing marketplace + on-demand manufacturing Portfolio company of Lux Capital.",
-    website: "https://shapeways.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Tempo Automation",
-    sector: "Robotics & Manufacturing",
-    description: "Robotic low-volume PCB assembly Portfolio company of Lux Capital.",
-    website: "https://tempoautomation.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Strateos",
-    sector: "Robotics & Manufacturing",
-    description: "Robotic cloud lab for drug discovery + synthetic biology Portfolio company of Lux Capital.",
-    website: "https://strateos.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+          {
     name: "Instock",
     sector: "Robotics & Manufacturing",
     description: "Goods-to-person robotic fulfillment for e-commerce Portfolio company of Lux Capital.",
@@ -36470,18 +36480,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Yegor Anchyshkin",
+    location: "Mountain View",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$6.2M"
   },
-  {
-    name: "SOLS Systems",
-    sector: "Robotics & Manufacturing",
-    description: "3D-scanning + digital manufacturing for custom wearable hardware Portfolio company of Lux Capital.",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Mendaera",
     sector: "Biotech & Health",
     description: "Robotics + ultrasound-guided handheld medical devices Portfolio company of Lux Capital.",
@@ -36489,7 +36495,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Josh DeFonzo",
+    location: "San Mateo",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$120M"
   },
   {
     name: "Performance Drone Works",
@@ -36499,19 +36510,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Ryan Gury",
+    location: "Huntsville",
+    state: "AL",
+    fundingStage: "Series B",
+    totalRaised: "$171M"
   },
-  {
-    name: "AirMap",
-    sector: "Drones & Autonomous",
-    description: "Airspace data + UTM platform for drone operators Portfolio company of Lux Capital.",
-    website: "https://airmap.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Lumaril",
     sector: "Robotics & Manufacturing",
     description: "AI for industrial automation across production facilities Portfolio company of Lux Capital.",
@@ -36519,7 +36525,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    location: "Dover",
+    state: "DE",
+    fundingStage: "Seed",
+    totalRaised: "$12M"
   },
   {
     name: "Cognichip",
@@ -36529,76 +36539,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Faraj Aalaei",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$93M"
   },
-  {
-    name: "Flex Logix",
-    sector: "Chips & Semiconductors",
-    description: "Embedded FPGA IP cores Portfolio company of Lux Capital.",
-    website: "https://flex-logix.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Transphorm",
-    sector: "Chips & Semiconductors",
-    description: "GaN power semiconductors Portfolio company of Lux Capital.",
-    website: "https://transphormusa.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Everspin Technologies",
-    sector: "Chips & Semiconductors",
-    description: "MRAM persistent memory chips Portfolio company of Lux Capital.",
-    website: "https://everspin.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Luxtera",
-    sector: "Chips & Semiconductors",
-    description: "Silicon photonics CMOS photonic transceivers Portfolio company of Lux Capital.",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "SiBeam",
-    sector: "Chips & Semiconductors",
-    description: "Fabless mm-wave wireless ICs Portfolio company of Lux Capital.",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Crystal IS",
-    sector: "Chips & Semiconductors",
-    description: "UV-C LEDs on AlN for sterilization Portfolio company of Lux Capital.",
-    website: "https://crystal-is.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
-    name: "Nanosys",
-    sector: "Chips & Semiconductors",
-    description: "Quantum dot nanomaterials for displays Portfolio company of Lux Capital.",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+                {
     name: "Looking Glass",
     sector: "Chips & Semiconductors",
     description: "Holographic light-field 3D displays Portfolio company of Lux Capital.",
@@ -36606,7 +36554,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Shawn Frayne",
+    location: "Brooklyn",
+    state: "NY",
+    fundingStage: "Series A",
+    totalRaised: "$30M"
   },
   {
     name: "Aurora Solar",
@@ -36616,18 +36569,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Christopher Hopper",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Series D",
+    totalRaised: "$523M"
   },
-  {
-    name: "G2X Energy",
-    sector: "Climate & Energy",
-    description: "Gas-to-liquids: natural gas to liquid fuels Portfolio company of Lux Capital.",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Aera Therapeutics",
     sector: "Biotech & Health",
     description: "Genetic medicines with novel delivery + precision payloads Portfolio company of Lux Capital.",
@@ -36784,7 +36733,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Deanna Harshbarger",
+    location: "Burlingame",
+    state: "CA",
+    fundingStage: "Series D+",
+    totalRaised: "$257M"
   },
   {
     name: "Resilience",
@@ -36796,16 +36750,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
   },
-  {
-    name: "Vium",
-    sector: "Biotech & Health",
-    description: "Connected preclinical research hardware Portfolio company of Lux Capital.",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Happiest Baby",
     sector: "Biotech & Health",
     description: "SNOO smart bassinet + connected pediatric hardware Portfolio company of Lux Capital.",
@@ -36813,7 +36758,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Harvey Karp",
+    location: "Los Angeles",
+    state: "CA",
+    fundingStage: "Series C",
+    totalRaised: "$45M"
   },
   {
     name: "Deep Sentinel",
@@ -36823,7 +36773,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "David Selinger",
+    location: "Pleasanton",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$55M"
   },
   {
     name: "Stord",
@@ -36833,19 +36788,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lux Capital"],
     source: "VC portfolio audit Lux Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Sean Henry",
+    location: "Atlanta",
+    state: "GA",
+    fundingStage: "Series D",
+    totalRaised: "$525M"
   },
-  {
-    name: "Latch",
-    sector: "Infrastructure & Logistics",
-    description: "Smart access hardware for apartments and offices Portfolio company of Lux Capital.",
-    website: "https://latch.com",
-    investors: ["Lux Capital"],
-    source: "VC portfolio audit Lux Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "75F",
     sector: "Climate & Energy",
     description: "Smart sensors + controls for healthy, efficient buildings Portfolio company of Breakthrough Energy Ventures.",
@@ -36853,7 +36803,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Deepinder Singh",
+    location: "Bloomington",
+    state: "MN",
+    fundingStage: "Series B",
+    totalRaised: "$81.3M"
   },
   {
     name: "Aeroseal",
@@ -36863,7 +36818,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Mark Modera",
+    location: "Miamisburg",
+    state: "OH",
+    fundingStage: "Series B",
+    totalRaised: "$100M"
   },
   {
     name: "Airloom",
@@ -36873,7 +36833,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Robert Lumley",
+    location: "Laramie",
+    state: "WY",
+    fundingStage: "Seed",
+    totalRaised: "$16M"
   },
   {
     name: "Alpine Bio",
@@ -36903,7 +36868,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Femi Adeyemo",
+    location: "Lagos",
+    fundingStage: "Series B",
+    totalRaised: "$30M"
   },
   {
     name: "Baseload Capital",
@@ -36913,7 +36882,10 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Alexander Helling",
+    location: "Stockholm",
+    totalRaised: "$53M"
   },
   {
     name: "Bloom Biorenewables",
@@ -36923,7 +36895,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Remy Buser",
+    location: "Marly",
+    fundingStage: "Series A",
+    totalRaised: "$19.7M"
   },
   {
     name: "Blue Frontier",
@@ -36933,7 +36909,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Daniel Betts",
+    location: "Boca Raton",
+    state: "FL",
+    fundingStage: "Series A",
+    totalRaised: "$48M"
   },
   {
     name: "Blue World Technologies",
@@ -36943,7 +36924,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Anders Korsgaard",
+    location: "Aalborg",
+    fundingStage: "Series B",
+    totalRaised: "$74M"
   },
   {
     name: "Circ",
@@ -36953,19 +36938,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Peter Majeranowski",
+    location: "Danville",
+    state: "VA",
+    fundingStage: "Series C",
+    totalRaised: "$155M"
   },
-  {
-    name: "Conduit Tech",
-    sector: "Climate & Energy",
-    description: "SW tools for low-emissions HVAC contractors Portfolio company of Breakthrough Energy Ventures.",
-    website: "https://conduittech.co",
-    investors: ["Breakthrough Energy Ventures"],
-    source: "VC portfolio audit Breakthrough Energy Ventures",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "CubicPV",
     sector: "Climate & Energy",
     description: "Perovskite-silicon tandem solar modules Portfolio company of Breakthrough Energy Ventures.",
@@ -36973,7 +36953,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Frank van Mierlo",
+    location: "Bedford",
+    state: "MA",
+    fundingStage: "Series C",
+    totalRaised: "$102M"
   },
   {
     name: "Dandelion Energy",
@@ -36983,7 +36968,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Kathy Hannun",
+    location: "Mount Kisco",
+    state: "NY",
+    fundingStage: "Series C",
+    totalRaised: "$176M"
   },
   {
     name: "Data Blanket",
@@ -36993,7 +36983,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Omer Bar-Yohay",
+    location: "Bellevue",
+    state: "WA",
+    fundingStage: "Seed",
+    totalRaised: "$4M"
   },
   {
     name: "Dioxycle",
@@ -37003,7 +36998,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Sarah Lamaison",
+    location: "Paris",
+    fundingStage: "Series A",
+    totalRaised: "$37M"
   },
   {
     name: "DMC Biotechnologies",
@@ -37013,7 +37012,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Matt Lipscomb",
+    location: "Boulder",
+    state: "CO",
+    fundingStage: "Series B",
+    totalRaised: "$55M"
   },
   {
     name: "Ecocem",
@@ -37023,19 +37027,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Donal O'Riain",
+    location: "Dublin"
   },
-  {
-    name: "ESS Inc.",
-    sector: "Climate & Energy",
-    description: "Iron-flow batteries for long-duration storage Portfolio company of Breakthrough Energy Ventures.",
-    website: "http://essinc.com",
-    investors: ["Breakthrough Energy Ventures"],
-    source: "VC portfolio audit Breakthrough Energy Ventures",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "GALY",
     sector: "Biotech & Health",
     description: "Cellular agriculture for sustainable cotton Portfolio company of Breakthrough Energy Ventures.",
@@ -37053,7 +37049,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Grant Sanden",
+    location: "Calgary",
+    fundingStage: "Series B",
+    totalRaised: "$85M"
   },
   {
     name: "Graphitic Energy",
@@ -37063,7 +37063,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Zach Jones",
+    location: "Santa Barbara",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$65M"
   },
   {
     name: "Guidewheel",
@@ -37073,7 +37078,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Lauren Dunford",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$52M"
   },
   {
     name: "H2Site",
@@ -37083,7 +37093,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Andres Galnares",
+    location: "Bilbao",
+    fundingStage: "Series B",
+    totalRaised: "$53M"
   },
   {
     name: "I-ROX",
@@ -37093,7 +37107,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Laurent Frescaline",
+    location: "Toulouse",
+    fundingStage: "Seed",
+    totalRaised: "$12M"
   },
   {
     name: "Inevitable Tech",
@@ -37103,7 +37121,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "David Lee",
+    location: "Lockhart",
+    state: "TX",
+    fundingStage: "Series C",
+    totalRaised: "$73M"
   },
   {
     name: "Kodama Systems",
@@ -37113,7 +37136,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Merritt Jenkins",
+    location: "Sonora",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$13.6M"
   },
   {
     name: "LuxWall",
@@ -37123,7 +37151,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Scott Thomsen",
+    location: "Ypsilanti",
+    state: "MI",
+    fundingStage: "Series B",
+    totalRaised: "$84M"
   },
   {
     name: "M2X",
@@ -37133,7 +37166,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Josh Browne",
+    location: "Orlando",
+    state: "FL",
+    fundingStage: "Series B",
+    totalRaised: "$64M"
   },
   {
     name: "MagLev Aero",
@@ -37143,7 +37181,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Ian Randall",
+    location: "Boston",
+    state: "MA",
+    fundingStage: "Seed",
+    totalRaised: "$17M"
   },
   {
     name: "Malta",
@@ -37153,7 +37196,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Ramya Swaminathan",
+    location: "Cambridge",
+    state: "MA",
+    fundingStage: "Series B",
+    totalRaised: "$122M"
   },
   {
     name: "Mangrove Lithium",
@@ -37163,7 +37211,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Saad Dara",
+    location: "Delta",
+    fundingStage: "Series C",
+    totalRaised: "$120M"
   },
   {
     name: "Mantle8",
@@ -37173,7 +37225,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Emmanuel Masini",
+    location: "Grenoble",
+    fundingStage: "Series A",
+    totalRaised: "$40M"
   },
   {
     name: "MAX",
@@ -37183,7 +37239,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Adetayo Bamiduro",
+    location: "Lagos",
+    fundingStage: "Series B",
+    totalRaised: "$90M"
   },
   {
     name: "Mill",
@@ -37193,7 +37253,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Matt Rogers",
+    location: "San Bruno",
+    state: "CA",
+    fundingStage: "Series C",
+    totalRaised: "$250M"
   },
   {
     name: "Molten Industries",
@@ -37203,7 +37268,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Caleb Boyd",
+    location: "Oakland",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$27M"
   },
   {
     name: "Natel Energy",
@@ -37213,7 +37283,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Gia Schneider",
+    location: "Alameda",
+    state: "CA",
+    fundingStage: "Series C",
+    totalRaised: "$96M"
   },
   {
     name: "Nature's Fynd",
@@ -37233,7 +37308,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Mujeeb Ijaz",
+    location: "Novi",
+    state: "MI",
+    fundingStage: "Series C",
+    totalRaised: "$610M"
   },
   {
     name: "Pivot Bio",
@@ -37253,7 +37333,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Eric Brown",
+    location: "Oakland",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$32M"
   },
   {
     name: "Prolific Machines",
@@ -37273,7 +37358,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Howard Schmidt",
+    location: "Houston",
+    state: "TX",
+    fundingStage: "Series C",
+    totalRaised: "$29M"
   },
   {
     name: "Reactive Technologies",
@@ -37283,7 +37373,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Marc Borrett",
+    location: "London",
+    fundingStage: "Series D",
+    totalRaised: "$95M"
   },
   {
     name: "RedoxBlox",
@@ -37308,7 +37402,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Scott Rackey",
+    location: "Boston",
+    state: "MA",
+    fundingStage: "Seed",
+    totalRaised: "$6.25M"
   },
   {
     name: "Rize",
@@ -37338,7 +37437,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Kathleen Alexander",
+    location: "San Jose",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$33M"
   },
   {
     name: "Sortera Alloys",
@@ -37348,7 +37452,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Nalin Kumar",
+    location: "Markle",
+    state: "IN",
+    fundingStage: "Series C",
+    totalRaised: "$111M"
   },
   {
     name: "Source",
@@ -37358,7 +37467,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Cody Friesen",
+    location: "Scottsdale",
+    state: "AZ",
+    fundingStage: "Series D+",
+    totalRaised: "$364M"
   },
   {
     name: "SparkMeter",
@@ -37368,7 +37482,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Daniel Schnitzer",
+    location: "Washington",
+    state: "DC",
+    fundingStage: "Series A",
+    totalRaised: "$42M"
   },
   {
     name: "Still Bright",
@@ -37378,7 +37497,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Ranulfo Allen",
+    location: "Cranbury",
+    state: "NJ",
+    fundingStage: "Seed",
+    totalRaised: "$18.7M"
   },
   {
     name: "Stratus Materials",
@@ -37388,7 +37512,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Scott A. Pearson",
+    location: "Pittsburgh",
+    state: "PA",
+    fundingStage: "Series A",
+    totalRaised: "$12M"
   },
   {
     name: "Sustaera",
@@ -37398,7 +37527,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Shantanu Agarwal",
+    location: "Durham",
+    state: "NC",
+    fundingStage: "Series A",
+    totalRaised: "$11.5M"
   },
   {
     name: "Terabase",
@@ -37408,7 +37542,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Matt Campbell",
+    location: "Berkeley",
+    state: "CA",
+    fundingStage: "Series C",
+    totalRaised: "$200M"
   },
   {
     name: "TerraCO2",
@@ -37418,7 +37557,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Bill Yearsley",
+    location: "Golden",
+    state: "CO",
+    fundingStage: "Series B",
+    totalRaised: "$170M"
   },
   {
     name: "Turntide",
@@ -37428,7 +37572,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Ryan Morris",
+    location: "Sunnyvale",
+    state: "CA",
+    fundingStage: "Series D+",
+    totalRaised: "$535M"
   },
   {
     name: "Vantem",
@@ -37438,7 +37587,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Chris Anderson",
+    location: "Greensboro",
+    state: "NC",
+    fundingStage: "Series A"
   },
   {
     name: "Verdox",
@@ -37448,7 +37601,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Brian Baynes",
+    location: "Woburn",
+    state: "MA",
+    fundingStage: "Series C",
+    totalRaised: "$80M"
   },
   {
     name: "Windfall Bio",
@@ -37468,7 +37626,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Breakthrough Energy Ventures"],
     source: "VC portfolio audit Breakthrough Energy Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Chris Tolles",
+    location: "Cambridge",
+    state: "MA",
+    fundingStage: "Series A",
+    totalRaised: "$28M"
   },
   {
     name: "Alloy Therapeutics",
@@ -37498,7 +37661,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["8VC"],
     source: "VC portfolio audit 8VC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Simon Waddington, Stephan Herrera, Ben Christensen",
+    location: "El Segundo",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$127M"
   },
   {
     name: "Cartography Biosciences",
@@ -37528,7 +37696,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["8VC"],
     source: "VC portfolio audit 8VC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Michael Abramoff",
+    location: "Coralville",
+    state: "IA",
+    fundingStage: "Series B",
+    totalRaised: "$130M"
   },
   {
     name: "Dren Bio",
@@ -37587,7 +37760,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["8VC"],
     source: "VC portfolio audit 8VC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Nathan Nwachuku",
+    location: "Lagos",
+    fundingStage: "Seed",
+    totalRaised: "$12.6M"
   },
   {
     name: "Trackonomy",
@@ -37597,7 +37774,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["8VC"],
     source: "VC portfolio audit 8VC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Erik Volkerink",
+    location: "San Jose",
+    state: "CA",
+    fundingStage: "Series C",
+    totalRaised: "$250M"
   },
   {
     name: "Wispr AI",
@@ -37616,7 +37798,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Vishnu Jayaprakash",
+    location: "Somerville",
+    state: "MA",
+    fundingStage: "Series B",
+    totalRaised: "$23.5M"
   },
   {
     name: "AIM Intelligent Machines",
@@ -37625,7 +37812,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Adam Sadilek",
+    location: "Seattle",
+    state: "WA",
+    fundingStage: "Series A",
+    totalRaised: "$50M"
   },
   {
     name: "Alta Resource Technologies",
@@ -37634,7 +37826,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Nathan Ratledge",
+    location: "Boulder",
+    state: "CO",
+    fundingStage: "Seed",
+    totalRaised: "$10M"
   },
   {
     name: "Aquafortus",
@@ -37643,7 +37840,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Daryl Briggs",
+    location: "Auckland",
+    fundingStage: "Series A",
+    totalRaised: "$24M"
   },
   {
     name: "Ascend Advanced Therapies",
@@ -37654,16 +37855,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
   },
-  {
-    name: "Atomic Alchemy",
-    sector: "Nuclear Energy",
-    description: "Essential radioisotopes for healthcare, industry, defense Portfolio company of DCVC.",
-    investors: ["DCVC"],
-    source: "VC portfolio audit DCVC",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "BioPhero",
     sector: "Biotech & Health",
     description: "Working with nature to protect crops Portfolio company of DCVC.",
@@ -37697,7 +37889,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Dean Nelson",
+    location: "Milpitas",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$57M"
   },
   {
     name: "CH4 Global",
@@ -37706,7 +37903,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Steve Meller",
+    location: "Henderson",
+    state: "NV",
+    fundingStage: "Series B",
+    totalRaised: "$47M"
   },
   {
     name: "Circularity Fuels",
@@ -37715,7 +37917,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Stephen Beaton",
+    location: "Redwood City",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$8M"
   },
   {
     name: "Culture Biosciences",
@@ -37734,7 +37941,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Mike Winn",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Series E+",
+    totalRaised: "$156M"
   },
   {
     name: "ElectronX",
@@ -37743,7 +37955,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Sam Tegel",
+    location: "Chicago",
+    state: "IL",
+    fundingStage: "Series A",
+    totalRaised: "$55M"
   },
   {
     name: "Elo Life",
@@ -37754,16 +37971,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
   },
-  {
-    name: "Embark",
-    sector: "Drones & Autonomous",
-    description: "Self-driving trucks for safer freight transport Portfolio company of DCVC.",
-    investors: ["DCVC"],
-    source: "VC portfolio audit DCVC",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Enough",
     sector: "Biotech & Health",
     description: "Delicious sustainable protein from fungus Portfolio company of DCVC.",
@@ -37779,7 +37987,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Keiran Olivares Whitaker",
+    location: "London",
+    fundingStage: "Series A",
+    totalRaised: "$5M"
   },
   {
     name: "Equilibrium Energy",
@@ -37788,7 +38000,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Ryan Hanley",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$102M"
   },
   {
     name: "Estes Energy",
@@ -37797,7 +38014,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Dustin Grace",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$20M"
   },
   {
     name: "Evonetix",
@@ -37815,7 +38037,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Mir Aamir",
+    location: "Mountain View",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$127M"
   },
   {
     name: "Ginkgo Bioworks",
@@ -37827,23 +38054,18 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
   },
-  {
-    name: "Graphcore",
-    sector: "Chips & Semiconductors",
-    description: "HW for next-gen AI Portfolio company of DCVC.",
-    investors: ["DCVC"],
-    source: "VC portfolio audit DCVC",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Halter",
     sector: "Robotics & Manufacturing",
     description: "Virtual fencing for farms Portfolio company of DCVC.",
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Craig Piggott",
+    location: "Auckland",
+    fundingStage: "Series D",
+    totalRaised: "$200M+"
   },
   {
     name: "Iceberg Quantum",
@@ -37852,7 +38074,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Larry Cohen",
+    location: "Sydney",
+    fundingStage: "Seed",
+    totalRaised: "$6M"
   },
   {
     name: "Insight M",
@@ -37861,7 +38087,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Steve Deiker",
+    location: "Mountain View",
+    state: "CA",
+    fundingStage: "Series D",
+    totalRaised: "$100M+"
   },
   {
     name: "Kanvas Biosciences",
@@ -37872,16 +38103,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"]
   },
-  {
-    name: "Kindred AI",
-    sector: "Robotics & Manufacturing",
-    description: "AI-powered fulfillment robotic picking Portfolio company of DCVC.",
-    investors: ["DCVC"],
-    source: "VC portfolio audit DCVC",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Molecular Assemblies",
     sector: "Biotech & Health",
     description: "Reinventing DNA synthesis for gene editing Portfolio company of DCVC.",
@@ -37915,18 +38137,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Bradley Rothenberg",
+    location: "New York",
+    state: "NY",
+    fundingStage: "Series D",
+    totalRaised: "$135M"
   },
-  {
-    name: "Nyriad",
-    sector: "Chips & Semiconductors",
-    description: "GPU-accelerated storage HW Portfolio company of DCVC.",
-    investors: ["DCVC"],
-    source: "VC portfolio audit DCVC",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Omniome",
     sector: "Biotech & Health",
     description: "Low-cost genomic + proteomic sequencing in silicon Portfolio company of DCVC.",
@@ -37942,7 +38160,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Andrew Job",
+    location: "Brisbane",
+    fundingStage: "Series B",
+    totalRaised: "$60M"
   },
   {
     name: "Proprio",
@@ -37960,7 +38182,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Christopher Davlantes",
+    location: "Redwood City",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$41M"
   },
   {
     name: "Samsara Eco",
@@ -37969,7 +38196,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Paul Riley",
+    location: "Canberra",
+    fundingStage: "Series A",
+    totalRaised: "$106M"
   },
   {
     name: "SenseMesh",
@@ -37978,7 +38209,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Florian Leibert",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Seed"
   },
   {
     name: "Smartex",
@@ -37987,7 +38222,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Gilberto Loureiro",
+    location: "Porto",
+    fundingStage: "Series A",
+    totalRaised: "$45M"
   },
   {
     name: "Supplant",
@@ -38005,7 +38244,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Howard Yuh",
+    location: "Princeton",
+    state: "NJ",
+    fundingStage: "Seed",
+    totalRaised: "$8.5M"
   },
   {
     name: "TrustPoint",
@@ -38014,7 +38258,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Patrick Shannon",
+    location: "Reston",
+    state: "VA",
+    fundingStage: "Seed",
+    totalRaised: "$2M"
   },
   {
     name: "Unconventional AI",
@@ -38023,25 +38272,26 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Naveen Rao",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$475M"
   },
-  {
-    name: "Vathys",
-    sector: "Chips & Semiconductors",
-    description: "One petaflop on a single chip Portfolio company of DCVC.",
-    investors: ["DCVC"],
-    source: "VC portfolio audit DCVC",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
-  },
-  {
+    {
     name: "Verdigris Technologies",
     sector: "Climate & Energy",
     description: "Sensor HW for smarter sustainable buildings Portfolio company of DCVC.",
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Mark Chung",
+    location: "Moffett Field",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$42M"
   },
   {
     name: "Visolis",
@@ -38050,7 +38300,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Deepak Dugar",
+    location: "Hayward",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$26M"
   },
   {
     name: "ZwitterCo",
@@ -38059,7 +38314,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["DCVC"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add"]
+    tags: ["vc-portfolio-add"],
+    founder: "Alex Rappaport",
+    location: "Woburn",
+    state: "MA",
+    fundingStage: "Series B",
+    totalRaised: "$102M"
   },
   {
     name: "Zymergen",
@@ -38259,7 +38519,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lowercarbon Capital"],
     source: "VC portfolio audit batch-2 Lowercarbon Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Shreya Mishra",
+    location: "Mumbai",
+    fundingStage: "Series B",
+    totalRaised: "$61M"
   },
   {
     name: "Breathe Batteries",
@@ -38283,7 +38547,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lowercarbon Capital"],
     source: "VC portfolio audit batch-2 Lowercarbon Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Paul Gross",
+    location: "Wixom",
+    state: "MI",
+    fundingStage: "Series B",
+    totalRaised: "$117M"
   },
   {
     name: "Nevoya",
@@ -38293,7 +38562,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lowercarbon Capital"],
     source: "VC portfolio audit batch-2 Lowercarbon Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Sami Khan",
+    location: "Santa Monica",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$9.3M"
   },
   {
     name: "Kula Bio",
@@ -38559,7 +38833,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Lowercarbon Capital"],
     source: "VC portfolio audit batch-2 Lowercarbon Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Matt Bird",
+    location: "London",
+    fundingStage: "Series A",
+    totalRaised: "$22M"
   },
   {
     name: "Matter (Lowercarbon)",
@@ -38963,17 +39241,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     state: "CA",
     fundingStage: "Seed"
   },
-            {
-    name: "Flextronics",
-    sector: "Robotics & Manufacturing",
-    description: "Global electronics manufacturing services. Portfolio company of Sequoia Capital.",
-    website: "https://flex.com/",
-    investors: ["Sequoia Capital"],
-    source: "VC portfolio audit batch-2 Sequoia Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-      {
+                  {
     name: "BreezeBio",
     sector: "Biotech & Health",
     description: "Genetic medicines with organ-targeting gene delivery. Portfolio company of Sequoia Capital.",
@@ -39022,17 +39290,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add", "batch-2"]
   },
-  {
-    name: "Sunrun",
-    sector: "Climate & Energy",
-    description: "Residential solar and home battery storage installer. Portfolio company of Sequoia Capital.",
-    website: "https://sunrun.com/",
-    investors: ["Sequoia Capital"],
-    source: "VC portfolio audit batch-2 Sequoia Capital",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
+    {
     name: "Zum",
     sector: "Transportation",
     description: "Electric school bus operator with V2G capability. Portfolio company of Sequoia Capital.",
@@ -39040,7 +39298,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Sequoia Capital"],
     source: "VC portfolio audit batch-2 Sequoia Capital",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Ritu Narayan",
+    location: "Redwood City",
+    state: "CA",
+    fundingStage: "Series E",
+    totalRaised: "$430M"
   },
   {
     name: "Upway",
@@ -39064,7 +39327,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Philipp Kerth",
+    location: "Munich",
+    fundingStage: "Series A",
+    totalRaised: "$28M"
   },
   {
     name: "JEH Aerospace",
@@ -39074,7 +39341,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Vishal R. Sanghavi",
+    location: "Hyderabad",
+    fundingStage: "Series A",
+    totalRaised: "$14M"
   },
   {
     name: "Constelli",
@@ -39084,7 +39355,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Satya Gopal Panigrahi",
+    location: "Hyderabad",
+    fundingStage: "Series A",
+    totalRaised: "$23M"
   },
   {
     name: "Standard Kernel",
@@ -39094,7 +39369,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Anne Ouyang",
+    location: "Mountain View",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$20M"
   },
   {
     name: "Alsym Energy",
@@ -39104,7 +39384,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Mukesh Chatter",
+    location: "Woburn",
+    state: "MA",
+    fundingStage: "Series C",
+    totalRaised: "$104M"
   },
   {
     name: "Ayr Energy",
@@ -39114,19 +39399,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Anirudh Reddy",
+    location: "San Jose",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$25M"
   },
-  {
-    name: "SustainX",
-    sector: "Climate & Energy",
-    description: "Isothermal compressed air energy storage for grid-scale. Portfolio company of General Catalyst.",
-    website: "https://sustainx.com",
-    investors: ["General Catalyst"],
-    source: "VC portfolio audit batch-2 General Catalyst",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
+    {
     name: "Tractian",
     sector: "Robotics & Manufacturing",
     description: "IoT sensors + AI for predictive maintenance of industrial machinery. Portfolio company of General Catalyst.",
@@ -39134,7 +39414,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Igor Marinelli",
+    location: "Atlanta",
+    state: "GA",
+    fundingStage: "Series C",
+    totalRaised: "$196M"
   },
   {
     name: "Modular",
@@ -39144,39 +39429,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Chris Lattner",
+    location: "Los Altos",
+    state: "CA",
+    fundingStage: "Series C",
+    totalRaised: "$380M"
   },
-  {
-    name: "deepsilicon",
-    sector: "Chips & Semiconductors",
-    description: "Custom silicon for AI inference. Portfolio company of General Catalyst.",
-    website: "https://deepsilicon.com",
-    investors: ["General Catalyst"],
-    source: "VC portfolio audit batch-2 General Catalyst",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
-    name: "Cobalt Robotics",
-    sector: "Robotics & Manufacturing",
-    description: "Autonomous indoor security and patrol robots. Portfolio company of General Catalyst.",
-    website: "https://cobaltrobotics.com",
-    investors: ["General Catalyst"],
-    source: "VC portfolio audit batch-2 General Catalyst",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
-    name: "Fox Robotics",
-    sector: "Robotics & Manufacturing",
-    description: "Autonomous forklifts for warehouses. Portfolio company of General Catalyst.",
-    website: "https://foxrobotics.ai",
-    investors: ["General Catalyst"],
-    source: "VC portfolio audit batch-2 General Catalyst",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
+        {
     name: "Orchard Robotics",
     sector: "Robotics & Manufacturing",
     description: "Computer-vision robotics for orchards. Portfolio company of General Catalyst.",
@@ -39184,7 +39444,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Charlie Wu",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$25M"
   },
   {
     name: "Dexai Robotics",
@@ -39194,7 +39459,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "David Johnson",
+    location: "Boston",
+    state: "MA",
+    fundingStage: "Seed",
+    totalRaised: "$15.5M"
   },
   {
     name: "PhysicsX",
@@ -39204,29 +39474,13 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Robin Tuluie",
+    location: "London",
+    fundingStage: "Series B",
+    totalRaised: "$187M"
   },
-  {
-    name: "Bowery Farming",
-    sector: "Robotics & Manufacturing",
-    description: "Vertical farming with proprietary growing hardware and robotics. Portfolio company of General Catalyst.",
-    website: "https://boweryfarming.com",
-    investors: ["General Catalyst"],
-    source: "VC portfolio audit batch-2 General Catalyst",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
-    name: "Voodoo Manufacturing",
-    sector: "Robotics & Manufacturing",
-    description: "Industrial 3D printing factory. Portfolio company of General Catalyst.",
-    website: "https://voodoomfg.com",
-    investors: ["General Catalyst"],
-    source: "VC portfolio audit batch-2 General Catalyst",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
+      {
     name: "CloudNC",
     sector: "Robotics & Manufacturing",
     description: "Autonomous CNC machining for precision manufacturing. Portfolio company of General Catalyst.",
@@ -39234,7 +39488,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Theo Saville",
+    location: "London",
+    fundingStage: "Series B",
+    totalRaised: "$72M"
   },
   {
     name: "Maxion Therapeutics",
@@ -39264,7 +39522,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Jacob Donoghue",
+    location: "Boston",
+    state: "MA",
+    fundingStage: "Series B",
+    totalRaised: "$132M"
   },
   {
     name: "Alpha-9 Oncology",
@@ -39324,7 +39587,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Hiroshi Mikitani",
+    location: "San Diego",
+    state: "CA",
+    fundingStage: "Series F",
+    totalRaised: "$922M"
   },
   {
     name: "Dewpoint Therapeutics",
@@ -39344,7 +39612,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Katherine Sizov, Jacob Jordan",
+    location: "Philadelphia",
+    state: "PA",
+    fundingStage: "Series A",
+    totalRaised: "$11.3M"
   },
   {
     name: "Ossium Health",
@@ -39374,7 +39647,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Will Ahmed",
+    location: "Boston",
+    state: "MA",
+    fundingStage: "Series G",
+    totalRaised: "$979M"
   },
   {
     name: "Aidoc",
@@ -39384,7 +39662,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["General Catalyst"],
     source: "VC portfolio audit batch-2 General Catalyst",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Elad Walach",
+    location: "New York",
+    state: "NY",
+    fundingStage: "Series E",
+    totalRaised: "$500M+"
   },
   {
     name: "Bindwell",
@@ -39554,19 +39837,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Nicolaas Verheem",
+    location: "Irvine",
+    state: "CA"
   },
-  {
-    name: "Exyn Technologies",
-    sector: "Drones & Autonomous",
-    description: "Autonomous aerial robots for GPS-denied environments. Portfolio company of IQT.",
-    website: "https://exyn.com",
-    investors: ["IQT"],
-    source: "VC portfolio audit batch-2 IQT",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
+    {
     name: "Syntiant",
     sector: "Chips & Semiconductors",
     description: "Ultra-low-power edge AI processors for always-on ML. Portfolio company of IQT.",
@@ -39574,7 +39850,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Kurt Busch",
+    location: "Irvine",
+    state: "CA",
+    fundingStage: "Series C",
+    totalRaised: "$121M"
   },
   {
     name: "EdgeCortix",
@@ -39584,7 +39865,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Sakyasingha Dasgupta",
+    location: "Tokyo",
+    fundingStage: "Series B",
+    totalRaised: "$110M"
   },
   {
     name: "EUV Tech",
@@ -39594,7 +39879,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Rupert Perera",
+    location: "Martinez",
+    state: "CA",
+    fundingStage: "Series A",
+    totalRaised: "$36M"
   },
   {
     name: "Fonontech",
@@ -39604,7 +39894,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Rob Hendriks",
+    location: "Eindhoven",
+    fundingStage: "Seed",
+    totalRaised: "$13M"
   },
   {
     name: "Diraq",
@@ -39614,7 +39908,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Andrew Dzurak",
+    location: "Sydney",
+    fundingStage: "Series A",
+    totalRaised: "$100M"
   },
   {
     name: "Harbinger Motors",
@@ -39624,7 +39922,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "John Harris",
+    location: "Garden Grove",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$200M"
   },
   {
     name: "Noble Gas Systems",
@@ -39634,7 +39937,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Chris Kondogiani",
+    location: "Wixom",
+    state: "MI",
+    fundingStage: "Series B",
+    totalRaised: "$8M"
   },
   {
     name: "Prometheus Hyperscale",
@@ -39644,7 +39952,10 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Trenton Thornock",
+    location: "Evanston",
+    state: "WY"
   },
   {
     name: "Rincell",
@@ -39654,7 +39965,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Jignesh Parikh",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$1.2M"
   },
   {
     name: "Moment Energy",
@@ -39664,19 +39980,13 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Edward Chiang",
+    location: "Vancouver",
+    fundingStage: "Series B",
+    totalRaised: "$100M+"
   },
-  {
-    name: "JetCool",
-    sector: "Infrastructure & Logistics",
-    description: "Micro-convective liquid cooling for high-power chips. Portfolio company of IQT.",
-    website: "https://jetcool.com",
-    investors: ["IQT"],
-    source: "VC portfolio audit batch-2 IQT",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
+    {
     name: "Xarion Laser Acoustics",
     sector: "Defense & Security",
     description: "Laser-based acoustic sensing and non-destructive ultrasonic inspection. Portfolio company of IQT.",
@@ -39684,29 +39994,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Balthasar Fischer",
+    location: "Vienna"
   },
-  {
-    name: "Markforged",
-    sector: "Robotics & Manufacturing",
-    description: "Industrial composite and metal 3D printers (FX10). Portfolio company of IQT.",
-    website: "https://markforged.com",
-    investors: ["IQT"],
-    source: "VC portfolio audit batch-2 IQT",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
-    name: "Fortify",
-    sector: "Robotics & Manufacturing",
-    description: "Dielectric materials and RF components via digital composite manufacturing. Portfolio company of IQT.",
-    website: "https://3dfortify.com",
-    investors: ["IQT"],
-    source: "VC portfolio audit batch-2 IQT",
-    addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
-  },
-  {
+      {
     name: "RaySecur",
     sector: "Defense & Security",
     description: "4D T-Ray millimeter-wave imaging for mail screening. Portfolio company of IQT.",
@@ -39714,7 +40006,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Alex Sappok",
+    location: "Westwood",
+    state: "MA",
+    fundingStage: "Series A",
+    totalRaised: "$23M"
   },
   {
     name: "Tyfone",
@@ -39724,7 +40021,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["IQT"],
     source: "VC portfolio audit batch-2 IQT",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Siva G. Narendra",
+    location: "Portland",
+    state: "OR",
+    fundingStage: "Series C",
+    totalRaised: "$38M"
   },
   {
     name: "Thermopylae Aerospace",
@@ -39839,7 +40141,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Cantos Ventures"],
     source: "VC portfolio audit batch-2 Cantos Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Andrew Arsht, Michael Grasso",
+    location: "Washington",
+    state: "DC",
+    fundingStage: "Seed",
+    totalRaised: "$52M"
   },
   {
     name: "Spaero Bio",
@@ -39849,7 +40156,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Cantos Ventures"],
     source: "VC portfolio audit batch-2 Cantos Ventures",
     addedDate: "2026-05-15",
-    tags: ["vc-portfolio-add", "batch-2"]
+    tags: ["vc-portfolio-add", "batch-2"],
+    founder: "Mitch Adler",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Seed",
+    totalRaised: "$6M"
   },
   // ─── VC portfolio audit BATCH 3 — 2026-05-21 (final 13 VCs from investor page: Lightspeed, Coatue, Thrive, D1, Bedrock(no page), Caffeinated, Prime Movers, Engine, Future, Flagship, Playground, Point72, Harpoon, Valor, Alumni) ───
   {
@@ -39870,7 +40182,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Point72 Ventures"],
     source: "VC portfolio audit batch-3 Point72 Ventures",
     addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
+    tags: ["vc-portfolio-add", "batch-3"],
+    founder: "Jan F. Kischkat",
+    location: "Berlin",
+    fundingStage: "Seed",
+    totalRaised: "$15M"
   },
   {
     name: "Netradyne",
@@ -39880,7 +40196,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Point72 Ventures"],
     source: "VC portfolio audit batch-3 Point72 Ventures",
     addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
+    tags: ["vc-portfolio-add", "batch-3"],
+    founder: "Avneesh Agrawal",
+    location: "San Diego",
+    state: "CA",
+    fundingStage: "Series D",
+    totalRaised: "$317M"
   },
   {
     name: "Merlin Labs",
@@ -39910,17 +40231,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     addedDate: "2026-05-21",
     tags: ["vc-portfolio-add", "batch-3"]
   },
-  {
-    name: "AESCAPE",
-    sector: "Robotics & Manufacturing",
-    description: "Robotic massage therapy hardware platform powered by AI. Portfolio company of Valor Equity Partners.",
-    website: "https://www.aescape.com/",
-    investors: ["Valor Equity Partners"],
-    source: "VC portfolio audit batch-3 Valor Equity Partners",
-    addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
-  },
-  {
+    {
     name: "Castle Creek Biosciences",
     sector: "Biotech & Health",
     description: "Personalized gene and cell therapies for rare genetic diseases. Portfolio company of Valor Equity Partners.",
@@ -39938,19 +40249,13 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Valor Equity Partners"],
     source: "VC portfolio audit batch-3 Valor Equity Partners",
     addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
+    tags: ["vc-portfolio-add", "batch-3"],
+    founder: "Cornelius Schmitt",
+    location: "Hamburg",
+    fundingStage: "Seed",
+    totalRaised: "$15M"
   },
-  {
-    name: "Tesla",
-    sector: "Transportation",
-    description: "Electric vehicles, energy storage, solar, humanoid robotics. Portfolio company of Valor Equity Partners.",
-    website: "https://www.tesla.com/",
-    investors: ["Valor Equity Partners"],
-    source: "VC portfolio audit batch-3 Valor Equity Partners",
-    addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
-  },
-  {
+    {
     name: "Edgescale AI",
     sector: "Defense & Security",
     description: "Edge AI infrastructure for distributed defense + industrial deployment. Portfolio company of Alumni Ventures.",
@@ -40488,16 +40793,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     addedDate: "2026-05-21",
     tags: ["vc-portfolio-add", "batch-3"]
   },
-  {
-    name: "Holo",
-    sector: "Robotics & Manufacturing",
-    description: "Advanced additive manufacturing for 3D-printed metal, ceramic, composite parts. Portfolio company of Lightspeed Venture Partners.",
-    investors: ["Lightspeed Venture Partners"],
-    source: "VC portfolio audit batch-3 Lightspeed Venture Partners",
-    addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
-  },
-  {
+    {
     name: "Hillevax",
     sector: "Biotech & Health",
     description: "HIL-214 virus-like particle vaccine for norovirus gastroenteritis. Portfolio company of Lightspeed Venture Partners.",
@@ -40579,7 +40875,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     investors: ["Caffeinated Capital"],
     source: "VC portfolio audit batch-3 Caffeinated Capital",
     addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
+    tags: ["vc-portfolio-add", "batch-3"],
+    founder: "Ian Glow",
+    location: "San Francisco",
+    state: "CA",
+    fundingStage: "Series B",
+    totalRaised: "$45M"
   },
   {
     name: "E-Space",
@@ -40702,17 +41003,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     fundingStage: "Series A",
     totalRaised: "$46M"
   },
-  {
-    name: "Energy Vault",
-    sector: "Climate & Energy",
-    description: "Gravity-based grid-scale energy storage. Portfolio company of Prime Movers Lab.",
-    website: "https://energyvault.com",
-    investors: ["Prime Movers Lab"],
-    source: "VC portfolio audit batch-3 Prime Movers Lab",
-    addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
-  },
-    {
+      {
     name: "Vaxxinity",
     sector: "Biotech & Health",
     description: "Synthetic peptide immunotherapies for chronic diseases. Portfolio company of Prime Movers Lab.",
@@ -40727,17 +41018,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     fundingStage: "Public",
     totalRaised: "$85M IPO"
   },
-    {
-    name: "Archer",
-    sector: "Transportation",
-    description: "eVTOL aircraft for advanced air mobility. Portfolio company of Prime Movers Lab.",
-    website: "https://www.archer.com",
-    investors: ["Prime Movers Lab"],
-    source: "VC portfolio audit batch-3 Prime Movers Lab",
-    addedDate: "2026-05-21",
-    tags: ["vc-portfolio-add", "batch-3"]
-  },
-    {
+        {
     name: "Spartan",
     sector: "Defense & Security",
     description: "Next-generation radar. Portfolio company of Prime Movers Lab.",
