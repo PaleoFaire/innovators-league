@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-05-21";
+const LAST_UPDATED = "2026-05-22";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -54001,23 +54001,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-21 22:24
+// Last updated: 2026-05-22 00:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Who will benefit most from SpaceX IPO? Mostly Elon ' and a few from his inner circle", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "Waymo halts freeway rides after robotaxis struggle in construction zones", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Forget 'TechnoKing':'Elon Musk will really be king at SpaceX", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "SpaceX", headline: "The SpaceX IPO Filing Looks Nothing Like Those Of The Elite Group Of Tech Giants It's Hoping To Join", source: "Crunchbase News", time: "3h ago", impact: "high", unread: true },
-  { id: 5, type: "milestone", company: "ElevenLabs", headline: "Spotify launches an ElevenLabs-powered audiobook creation tool", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Waymo pauses Atlanta service as its robotaxis keep driving into floods", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Humanoid", headline: "Humanoid partners with Bosch, Schaeffler to scale robot production", source: "The Robot Report", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "ICEYE", headline: "ICEYE secures '300M credit facility to scale sovereign satellite intelligence", source: "Tech.eu", time: "13h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "Anthropic", headline: "Lexroom CEO: Anthropic won't kill vertical AI companies", source: "Sifted", time: "17h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX S-1 reveals Tesla's Terafab deal is far from done", source: "Electrek", time: "20h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Listed Grok's 'Spicy' Mode as a Risk in Its IPO Filing", source: "Wired", time: "21h ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers", source: "Wired", time: "22h ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a Year to Access Its Data Centers", source: "Wired", time: "1d ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "AI model &quot;capability overhang&quot; biggest challenge facing European businesses, says OpenAI revenue chief", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Boston Metal", headline: "Green steel startup Boston Metal is doubling down on critical metals", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX scrubs first Starship V3 launch just before liftoff", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "Who will benefit most from SpaceX IPO? Mostly Elon ' and a few from his inner circle", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Waymo halts freeway rides after robotaxis struggle in construction zones", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Forget 'TechnoKing':'Elon Musk will really be king at SpaceX", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "SpaceX", headline: "The SpaceX IPO Filing Looks Nothing Like Those Of The Elite Group Of Tech Giants It's Hoping To Join", source: "Crunchbase News", time: "5h ago", impact: "high", unread: true },
+  { id: 6, type: "contract", company: "ElevenLabs", headline: "Spotify launches an ElevenLabs-powered audiobook creation tool", source: "TechCrunch", time: "8h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Waymo pauses Atlanta service as its robotaxis keep driving into floods", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "Starship underpins SpaceX's growth ambitions", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Humanoid", headline: "Humanoid partners with Bosch, Schaeffler to scale robot production", source: "The Robot Report", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "ICEYE", headline: "ICEYE secures '300M credit facility to scale sovereign satellite intelligence", source: "Tech.eu", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Anthropic", headline: "Lexroom CEO: Anthropic won't kill vertical AI companies", source: "Sifted", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX S-1 reveals Tesla's Terafab deal is far from done", source: "Electrek", time: "22h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Listed Grok's 'Spicy' Mode as a Risk in Its IPO Filing", source: "Wired", time: "23h ago", impact: "high", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers", source: "Wired", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX files for IPO", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
