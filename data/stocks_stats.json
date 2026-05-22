@@ -11,19 +11,19 @@
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 5.75,
+      "avg_change": 5.35,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.77,
+      "avg_change": -5.21,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.49,
+      "avg_change": -6.04,
       "count": 3
     },
     "climate": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 2.48,
+      "avg_change": 3.97,
       "count": 3
     },
     "transportation": {
@@ -64,11 +64,6 @@
       30.27
     ],
     [
-      "9348.T",
-      "ispace",
-      17.34
-    ],
-    [
       "QBTS",
       "D-Wave Quantum",
       16.31
@@ -77,6 +72,11 @@
       "ASTS",
       "AST SpaceMobile",
       15.93
+    ],
+    [
+      "9348.T",
+      "ispace",
+      14.52
     ],
     [
       "RGTI",
@@ -91,14 +91,14 @@
       -6.88
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -7.28
+      "277810.KQ",
+      "Rainbow Robotics",
+      -6.91
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -9.87
+      "NNE",
+      "Nano Nuclear Energy",
+      -8.93
     ],
     [
       "AUR",
@@ -111,5 +111,5 @@
       -54.58
     ]
   ],
-  "lastUpdated": "2026-05-22 04:00:21"
+  "lastUpdated": "2026-05-22 09:34:41"
 }
