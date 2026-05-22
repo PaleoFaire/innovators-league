@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-22T09:45:16+00:00",
+  "generatedAt": "2026-05-22T12:29:54+00:00",
   "stats": {
-    "companies": 1258,
+    "companies": 841,
     "vcFirms": 31,
-    "uniqueClusters": 94,
-    "totalInvestments": 238
+    "uniqueClusters": 92,
+    "totalInvestments": 236
   },
   "concentration": {
     "Founders Fund": {
@@ -460,12 +460,6 @@
         "count": 1,
         "companies": [
           "Xaira Therapeutics"
-        ]
-      },
-      "protein-ai": {
-        "count": 1,
-        "companies": [
-          "EvolutionaryScale"
         ]
       }
     },
@@ -1039,12 +1033,6 @@
         "count": 1,
         "companies": [
           "Phasecraft"
-        ]
-      },
-      "drone-infrastructure": {
-        "count": 1,
-        "companies": [
-          "uAvionix"
         ]
       },
       "ai-drug-discovery": {
@@ -2245,13 +2233,6 @@
         "share": 1.0
       }
     ],
-    "protein-ai": [
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
     "nuclear-microreactor": [
       {
         "vc": "Valor Equity Partners",
@@ -2510,13 +2491,6 @@
         "share": 1.0
       }
     ],
-    "drone-infrastructure": [
-      {
-        "vc": "Playground Global",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
     "gene-therapy": [
       {
         "vc": "Playground Global",
@@ -2724,40 +2698,6 @@
       ]
     },
     {
-      "vc": "Lux Capital",
-      "recentCount": 9,
-      "totalCount": 21,
-      "score": 11.552,
-      "topCluster": "biotech-lab-automation",
-      "recentExamples": [
-        {
-          "company": "Majestic Labs",
-          "cluster": "disaggregated-ai",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Xaira Therapeutics",
-          "cluster": "ai-drug-discovery",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "EvolutionaryScale",
-          "cluster": "protein-ai",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Evolv Technology",
-          "cluster": "defense-security-ai",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
       "vc": "Khosla Ventures",
       "recentCount": 10,
       "totalCount": 17,
@@ -2787,6 +2727,40 @@
         {
           "company": "Hermeus",
           "cluster": "supersonic-hypersonic-transport",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
+      "vc": "Lux Capital",
+      "recentCount": 8,
+      "totalCount": 20,
+      "score": 10.602,
+      "topCluster": "biotech-lab-automation",
+      "recentExamples": [
+        {
+          "company": "Majestic Labs",
+          "cluster": "disaggregated-ai",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Xaira Therapeutics",
+          "cluster": "ai-drug-discovery",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Evolv Technology",
+          "cluster": "defense-security-ai",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "addedDate": "2026-02"
+        },
+        {
+          "company": "Multiply Labs",
+          "cluster": "biotech-lab-automation",
           "addedDate": "2026-02"
         }
       ]
@@ -2962,40 +2936,6 @@
       ]
     },
     {
-      "vc": "Playground Global",
-      "recentCount": 8,
-      "totalCount": 8,
-      "score": 7.651,
-      "topCluster": "ai-drug-discovery",
-      "recentExamples": [
-        {
-          "company": "Atomic AI",
-          "cluster": "ai-drug-discovery",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Manifold Bio",
-          "cluster": "ai-drug-discovery",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Ultima Genomics",
-          "cluster": "genomics",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Amber Bio",
-          "cluster": "gene-therapy",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "NextSilicon",
-          "cluster": "ai-hardware",
-          "addedDate": "2026-03"
-        }
-      ]
-    },
-    {
       "vc": "Eclipse Ventures",
       "recentCount": 6,
       "totalCount": 9,
@@ -3026,6 +2966,40 @@
           "company": "Bedrock Robotics",
           "cluster": "robotics-construction-mining",
           "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
+      "vc": "Playground Global",
+      "recentCount": 7,
+      "totalCount": 7,
+      "score": 6.684,
+      "topCluster": "ai-drug-discovery",
+      "recentExamples": [
+        {
+          "company": "Atomic AI",
+          "cluster": "ai-drug-discovery",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Manifold Bio",
+          "cluster": "ai-drug-discovery",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Ultima Genomics",
+          "cluster": "genomics",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Amber Bio",
+          "cluster": "gene-therapy",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "NextSilicon",
+          "cluster": "ai-hardware",
+          "addedDate": "2026-03"
         }
       ]
     },
@@ -3347,16 +3321,6 @@
         "company": "Canada Rocket Company",
         "cluster": "sovereign-launch",
         "founder": "Hugh Kolias, David Tenny"
-      },
-      {
-        "company": "Mesh Optical Technologies",
-        "cluster": null,
-        "founder": "Travis Brashears, Cameron Ramos, Serena Grown-Haeberli"
-      },
-      {
-        "company": "Rendezvous Robotics",
-        "cluster": null,
-        "founder": "Ariel Ekblaw, Phil Frank, Joe Landon"
       }
     ],
     "NASA": [
@@ -3369,16 +3333,6 @@
         "company": "Persona AI",
         "cluster": "industrial-humanoid",
         "founder": "Nic Radford, Jerry Pratt"
-      },
-      {
-        "company": "Perseus Defense",
-        "cluster": null,
-        "founder": "Jason Cornelius, Steve Messinger"
-      },
-      {
-        "company": "Spinor Energy",
-        "cluster": null,
-        "founder": "Tyler Nguyen"
       }
     ],
     "Apple": [
@@ -3386,16 +3340,6 @@
         "company": "Tenstorrent",
         "cluster": "ai-hardware-inference",
         "founder": "Milos Trajkovic"
-      },
-      {
-        "company": "Humble Robotics",
-        "cluster": null,
-        "founder": "Eyal Cohen"
-      },
-      {
-        "company": "Noble Machines",
-        "cluster": null,
-        "founder": "Wei Ding, Wen-Loong Ma"
       }
     ],
     "Google": [
@@ -3403,11 +3347,6 @@
         "company": "MatX",
         "cluster": "ai-semiconductor-architecture",
         "founder": "Reiner Pope"
-      },
-      {
-        "company": "Periodic Labs",
-        "cluster": null,
-        "founder": "Liam Fedus, Ekin Dogus Cubuk"
       }
     ],
     "Tesla": [
@@ -3415,21 +3354,6 @@
         "company": "Mytra",
         "cluster": null,
         "founder": "Chris Walti"
-      },
-      {
-        "company": "Odin Dynamics",
-        "cluster": null,
-        "founder": "Jon Haase, Amir Khan"
-      },
-      {
-        "company": "Union",
-        "cluster": null,
-        "founder": "Will Somerindyke, Jon Reiland, Joe Musselman"
-      },
-      {
-        "company": "Voxel Energy",
-        "cluster": null,
-        "founder": "Casey Spencer, Max Pfeiffer, Evan Schmidt"
       }
     ],
     "OpenAI": [
@@ -3437,32 +3361,6 @@
         "company": "Sunday Robotics",
         "cluster": "general-purpose-robot",
         "founder": "Xiongyi Cui, Linxi Fan"
-      },
-      {
-        "company": "Periodic Labs",
-        "cluster": null,
-        "founder": "Liam Fedus, Ekin Dogus Cubuk"
-      }
-    ],
-    "Palantir": [
-      {
-        "company": "Mendra",
-        "cluster": null,
-        "founder": "Joshua Grass, Jeff Ajer, Lalarukh Haris Shaikh"
-      }
-    ],
-    "Google Brain": [
-      {
-        "company": "Periodic Labs",
-        "cluster": null,
-        "founder": "Liam Fedus, Ekin Dogus Cubuk"
-      }
-    ],
-    "Boeing": [
-      {
-        "company": "Perseus Defense",
-        "cluster": null,
-        "founder": "Jason Cornelius, Steve Messinger"
       }
     ]
   },
