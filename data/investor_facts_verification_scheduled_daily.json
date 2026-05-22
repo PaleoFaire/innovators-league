@@ -1,155 +1,18 @@
 {
-  "generatedAt": "2026-05-21T08:57:52+00:00",
+  "generatedAt": "2026-05-22T08:57:18+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 2,
   "newExtractionsThisRun": 2,
   "summary": {
-    "cleared": 1,
-    "changesProposed": 1,
+    "cleared": 2,
+    "changesProposed": 0,
     "unverifiable": 0
   },
   "cleared": [
-    "Alumni Ventures"
+    "Alumni Ventures",
+    "Construct Capital"
   ],
-  "changesProposed": [
-    {
-      "name": "Sequoia Capital",
-      "current": {
-        "name": "Sequoia Capital",
-        "shortName": "Sequoia",
-        "aum": "$56.3B+",
-        "flagshipFund": "Sequoia Capital Fund",
-        "founded": 1972,
-        "hq": "Menlo Park, California",
-        "website": "https://sequoiacap.com"
-      },
-      "verified": {
-        "name": "Sequoia Capital",
-        "short_name": "Sequoia",
-        "aum": "$56.3B+",
-        "flagship_fund": "Sequoia Capital Fund",
-        "founded_year": 1972,
-        "hq": "Menlo Park, California",
-        "key_partners": [
-          "Michael Moritz",
-          "Douglas Leone",
-          "Jim Goetz",
-          "Alfred Lin",
-          "Roelof Botha",
-          "Pat Grady"
-        ],
-        "sector_focus": [
-          "seed stage",
-          "early stage",
-          "growth stage",
-          "clean tech",
-          "consumer internet",
-          "crypto",
-          "financial services",
-          "healthcare",
-          "mobile",
-          "robotics"
-        ],
-        "thesis": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors.",
-        "website": "https://sequoiacap.com",
-        "sources_per_field": {
-          "name": [
-            3
-          ],
-          "short_name": [
-            3
-          ],
-          "aum": [
-            3
-          ],
-          "flagship_fund": [
-            3
-          ],
-          "founded_year": [
-            3
-          ],
-          "hq": [
-            3
-          ],
-          "key_partners": [
-            1,
-            3
-          ],
-          "sector_focus": [
-            3
-          ],
-          "thesis": [
-            3
-          ],
-          "website": [
-            0,
-            3
-          ]
-        },
-        "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners (stewards) succeeding Roelof Botha. In June 2023, Sequoia announced plans to separate into three independent entities: Sequoia (U.S. and Europe), Peak XV Partners (India and Southeast Asia), and HongShan (China). In August 2025, COO Sumaiya Balbale resigned over partner Shaun Maguire's controversial statements."
-      },
-      "changes": [
-        {
-          "field": "keyPartners",
-          "current": [
-            "Michael Moritz",
-            "Douglas Leone",
-            "Jim Goetz",
-            "Alfred Lin",
-            "Roelof Botha"
-          ],
-          "verified": [
-            "Michael Moritz",
-            "Douglas Leone",
-            "Jim Goetz",
-            "Alfred Lin",
-            "Roelof Botha",
-            "Pat Grady"
-          ],
-          "sources": [
-            1,
-            3
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. The firm operates an evergreen fund structure for its U.S. and European business that allows limited partners to pull liquidity instead of following traditional 10-year fund cycles.",
-          "verified": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors.",
-          "sources": [
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://sequoiacap.com"
-        },
-        {
-          "idx": 1,
-          "src": "firm/team",
-          "url": "https://sequoiacap.com/team"
-        },
-        {
-          "idx": 2,
-          "src": "firm/companies",
-          "url": "https://sequoiacap.com/companies"
-        },
-        {
-          "idx": 3,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sequoia_Capital"
-        },
-        {
-          "idx": 4,
-          "src": "news (Sifted)",
-          "url": "https://sifted.eu/articles/dust-series-b-40m/"
-        }
-      ],
-      "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners (stewards) succeeding Roelof Botha. In June 2023, Sequoia announced plans to separate into three independent entities: Sequoia (U.S. and Europe), Peak XV Partners (India and Southeast Asia), and HongShan (China). In August 2025, COO Sumaiya Balbale resigned over partner Shaun Maguire's controversial statements."
-    }
-  ],
+  "changesProposed": [],
   "unverifiable": []
 }
