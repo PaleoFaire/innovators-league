@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T00:11:35.702152+00:00",
+  "generatedAt": "2026-05-22T05:08:42.470980+00:00",
   "date": "2026-05-22",
   "dateDisplay": "Friday, May 22, 2026",
   "sections": {
@@ -63,57 +63,57 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 7.75,
-        "changePercent": -54.81,
-        "change": -9.4
+        "price": 7.79,
+        "changePercent": -54.58,
+        "change": -9.36
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 297.69,
-        "changePercent": 30.2,
-        "change": 69.05
+        "price": 297.84,
+        "changePercent": 30.27,
+        "change": 69.2
       },
       {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 96.27,
-        "changePercent": 15.97,
-        "change": 13.26
+        "ticker": "9348.T",
+        "company": "ispace",
+        "price": 582.0,
+        "changePercent": 17.34,
+        "change": 86.0
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 25.65,
-        "changePercent": 15.91,
-        "change": 3.52
+        "price": 25.74,
+        "changePercent": 16.31,
+        "change": 3.61
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 96.23,
+        "changePercent": 15.93,
+        "change": 13.22
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 21.96,
-        "changePercent": 13.99,
-        "change": 2.7
+        "price": 22.04,
+        "changePercent": 14.37,
+        "change": 2.77
       },
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 7.16,
-        "changePercent": -12.47,
-        "change": -1.02
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 743000.0,
-        "changePercent": -11.65,
-        "change": -98000.0
+        "price": 7.17,
+        "changePercent": -12.35,
+        "change": -1.01
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
         "price": 9.64,
-        "changePercent": 11.63,
+        "changePercent": 11.57,
         "change": 1.0
       }
     ],
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -54.8%"
+    "topMover": "LNZA -54.6%"
   }
 }
