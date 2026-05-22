@@ -1,6 +1,15 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-05-21 10:28:20 UTC
+// Last updated: 2026-05-22 10:16:12 UTC
 const NASA_PROJECTS = [
+  { id: 96991, title: "IntraVenous Fluid GENeration for Exploration Missions Mini", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/21/26" },
+  { id: 184934, title: "Spatial Disorientation Trainer", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/21/26" },
+  { id: 147009, title: "Friction Stir Adjoined Blank-Forming On Revolutionary Machinery", status: "Completed", center: "Langley Research Center", techArea: "Manufacturing Processes", lastUpdated: "05/21/26" },
+  { id: 147004, title: "Carbothermal Reduction Demonstration", status: "Completed", center: "Johnson Space Center", techArea: "Resource Processing for Production of Mission Consumables", lastUpdated: "05/21/26" },
+  { id: 116320, title: "ISRU Pilot Excavator", status: "Completed", center: "Kennedy Space Center", techArea: "Resource Acquisition, Isolation, and Preparation", lastUpdated: "05/21/26" },
+  { id: 116395, title: "Fundamental Regolith Properties, Handling, and Water Capture", status: "Completed", center: "Glenn Research Center", techArea: "Resource Acquisition, Isolation, and Preparation", lastUpdated: "05/21/26" },
+  { id: 116288, title: "Cold Operable Lunar Deployable Arm", status: "Completed", center: "Jet Propulsion Laboratory", techArea: "Dexterous Manipulation", lastUpdated: "05/21/26" },
+  { id: 184677, title: "10kW VSAT Study", status: "Completed", center: "Langley Research Center", techArea: "Photovoltaic Electrical Power", lastUpdated: "05/21/26" },
+  { id: 184676, title: "Cold Avionics Study", status: "Completed", center: "Langley Research Center", techArea: "Avionics Component Technologies", lastUpdated: "05/21/26" },
   { id: 184673, title: "Dust Tolerant Connectors and High Voltage AC Cable Development", status: "Active", center: "Glenn Research Center", techArea: "Advanced Electronic Parts", lastUpdated: "05/20/26" },
   { id: 184672, title: "Solid Oxide Fuel Cell Task", status: "Active", center: "Glenn Research Center", techArea: "Solids", lastUpdated: "05/20/26" },
   { id: 184671, title: "Solar Array Dust Removal", status: "Active", center: "Jet Propulsion Laboratory", techArea: "Photovoltaic Electrical Power", lastUpdated: "05/20/26" },
@@ -22,13 +31,4 @@ const NASA_PROJECTS = [
   { id: 184643, title: "STRATFI-Inversion", status: "Active", center: "Ames Research Center", techArea: "Aerodynamic Decelerators", lastUpdated: "05/20/26" },
   { id: 158550, title: "Venus InStrumentation for Thermophysics and Aerosciences", status: "Active", center: "Ames Research Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/20/26" },
   { id: 184641, title: "Integration of Dust Resisting Secondary Emission Engineered Passive Thermal Cont", status: "Completed", center: "Goddard Space Flight Center", techArea: "Coatings", lastUpdated: "05/20/26" },
-  { id: 147001, title: "Lunar Surface Mobility Coordinator Software", status: "Active", center: "Ames Research Center", techArea: "Robot Software", lastUpdated: "05/20/26" },
-  { id: 146992, title: "Highly Efficient Watt-Class Direct Diode LIDAR for Remote Sensing", status: "Completed", center: "Langley Research Center", techArea: "Lasers", lastUpdated: "05/20/26" },
-  { id: 147018, title: "LunaGrid-Lite: Demonstration of Tethered, Scalable Lunar Power Transmission", status: "Active", center: "Glenn Research Center", techArea: "Distribution and Transmission", lastUpdated: "05/20/26" },
-  { id: 146991, title: "ISRU-Based Power on the Moon", status: "Active", center: "Kennedy Space Center", techArea: "Other Ground, Testing, and Surface Systems", lastUpdated: "05/20/26" },
-  { id: 147006, title: "Complex Curvature Retractable Pin Tool Friction Stir Welding Pathfinder Campaign", status: "Active", center: "Marshall Space Flight Center", techArea: "Manufacturing Processes", lastUpdated: "05/20/26" },
-  { id: 147013, title: "Friction Stir Additive Manufacturing", status: "Completed", center: "Marshall Space Flight Center", techArea: "Lightweight Concepts", lastUpdated: "05/20/26" },
-  { id: 146998, title: "Space Manufacturing and Assembly of Revolutionary Thermoplastic Composites", status: "Completed", center: "Marshall Space Flight Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "05/20/26" },
-  { id: 147009, title: "Friction Stir Adjoined Blank-Forming On Revolutionary Machinery", status: "Completed", center: "Langley Research Center", techArea: "Manufacturing Processes", lastUpdated: "05/20/26" },
-  { id: 146997, title: "Fully Additively-Manufactured LOX-LH2 Engine Demonstration", status: "Completed", center: "Marshall Space Flight Center", techArea: "Cryogenic Propulsion", lastUpdated: "05/20/26" },
 ];

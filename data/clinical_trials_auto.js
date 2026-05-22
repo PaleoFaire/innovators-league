@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-05-21 10:27:24 UTC
+// Last updated: 2026-05-22 10:12:28 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05944562", title: "Tulmimetostat (DZR123) in Patients With Mycosis Fungoides and Sézary Syndrome", status: "ACTIVE_NOT_RECRUITING", phase: "PHASE1", sponsor: "Washington University School of Medicine", conditions: "Mycosis Fungoides, Sezary Syndrome, Mycosis Fungoi", enrollment: 24, lastUpdated: "2026-05-20" },
   { nctId: "NCT06340568", title: "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Che", status: "RECRUITING", phase: "PHASE3", sponsor: "BioNTech SE", conditions: "Endometrial Cancer", enrollment: 480, lastUpdated: "2026-05-20" },

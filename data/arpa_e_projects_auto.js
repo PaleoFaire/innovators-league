@@ -1,7 +1,7 @@
 // Auto-generated ARPA-E project data
-// Last updated: 2026-05-21 10:30:11 UTC
+// Last updated: 2026-05-22 10:16:00 UTC
 // Total projects: 1698 | Active: 329
-// Private companies: 682 | Known TIL: 178
+// Private companies: 682 | Known TIL: 125
 // Unique organizations: 724 | Total funding: $4,287,471,056
 const ARPA_E_PROJECTS_AUTO = [
   {
@@ -14,7 +14,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "20,000,000",
     programAcronym: "None",
     technologyAreas: ["Batteries", "Transportation"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -105,7 +105,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "14,300,000",
     programAcronym: "None",
     technologyAreas: ["Building Materials", "Buildings"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -274,7 +274,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "9,999,798",
     programAcronym: "None",
     technologyAreas: ["Renewables", "Power Generation", "Storage", "Grid"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -300,7 +300,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "9,750,000",
     programAcronym: "None",
     technologyAreas: ["Manufacturing", "Industrial Efficiency", "Other - Industrial Efficiency"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -430,7 +430,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "8,560,000",
     programAcronym: "None",
     technologyAreas: ["Transmission & Distribution", "Grid"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -1015,7 +1015,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "6,438,793",
     programAcronym: "Microorganisms for Liquid Transportation Fuel",
     technologyAreas: ["Biofuels", "Agriculture & Bioenergy"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -1197,7 +1197,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "5,999,973",
     programAcronym: "Agile Delivery of Electrical Power Technology",
     technologyAreas: ["Transmission & Distribution", "Grid"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -1379,7 +1379,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "5,657,477",
     programAcronym: "Integration and Optimization of Novel Ion-Conducting Solids",
     technologyAreas: ["Batteries", "Transportation", "Storage", "Grid"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -1821,7 +1821,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "5,000,000",
     programAcronym: "Rapid Encapsulation of Pipelines Avoiding Intensive Replacement",
     technologyAreas: ["Exploration & Extraction", "Resources"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -1951,7 +1951,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,958,074",
     programAcronym: "Open Funding Solicitation",
     technologyAreas: ["Renewables", "Power Generation"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -2081,7 +2081,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,877,239",
     programAcronym: "Open Funding Solicitation",
     technologyAreas: ["Other - Resources", "Resources"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -2198,7 +2198,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,782,000",
     programAcronym: "Open Funding Solicitation",
     technologyAreas: ["Materials", "Resources", "Transmission & Distribution", "Grid"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -2575,7 +2575,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,371,028",
     programAcronym: "Batteries for Electrical Energy Storage in Transportation",
     technologyAreas: ["Batteries", "Transportation"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -3069,7 +3069,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "4,051,475",
     programAcronym: "Reducing Emissions using Methanotrophic Organisms for Transportation Energy",
     technologyAreas: ["Chemicals & Fuels", "Resources"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -5565,7 +5565,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,297,457",
     programAcronym: "Duration Addition to electricitY Storage",
     technologyAreas: ["Storage", "Grid"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -5682,7 +5682,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,252,709",
     programAcronym: "Modern Electro/Thermochemical Advances in Light Metals Systems",
     technologyAreas: ["Other - Industrial Efficiency", "Industrial Efficiency"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
@@ -6098,7 +6098,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,145,783",
     programAcronym: "Strategies for Wide Bandgap, Inexpensive Transistors for Controlling High-Efficiency Systems",
     technologyAreas: ["Materials", "Resources"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {

@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-05-21 10:27:14 UTC
-// Total signals: 44 | Companies matched: 184
+// Last updated: 2026-05-22 10:12:20 UTC
+// Total signals: 44 | Companies matched: 182
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -930,13 +930,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Source",
-        "score": 40,
-        "matchReasons": [
-          "name: Source"
-        ]
-      },
-      {
         "name": "Reveal Technology",
         "score": 31,
         "matchReasons": [
@@ -1002,11 +995,18 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: ai",
           "tag: defense"
         ]
+      },
+      {
+        "name": "Primer AI",
+        "score": 21,
+        "matchReasons": [
+          "tag: intelligence analysis",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
       "Vannevar Labs",
-      "Source",
       "Reveal Technology",
       "Palantir",
       "Rune Technologies",
@@ -1014,7 +1014,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Zeromark",
       "Fuse Energy",
-      "Swift Beat"
+      "Swift Beat",
+      "Primer AI"
     ]
   },
   {
@@ -1853,20 +1854,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Fabri",
-        "score": 42,
-        "matchReasons": [
-          "name: Fabri"
-        ]
-      },
-      {
-        "name": "Fabric",
-        "score": 40,
-        "matchReasons": [
-          "name: Fabric"
-        ]
-      },
-      {
         "name": "Radiant",
         "score": 29,
         "matchReasons": [
@@ -1934,11 +1921,25 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: reactors",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "Nano Nuclear Energy",
+        "score": 22,
+        "matchReasons": [
+          "tag: microreactor",
+          "tag: haleu"
+        ]
+      },
+      {
+        "name": "Deep Atomic",
+        "score": 21,
+        "matchReasons": [
+          "tag: nuclear",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
-      "Fabri",
-      "Fabric",
       "Radiant",
       "Oklo",
       "General Matter",
@@ -1946,7 +1947,9 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Antares",
       "Last Energy",
       "Exodys Energy",
-      "Standard Nuclear"
+      "Standard Nuclear",
+      "Nano Nuclear Energy",
+      "Deep Atomic"
     ]
   },
   {
@@ -1970,13 +1973,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "posted": "2026-01-15",
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
-      {
-        "name": "Material",
-        "score": 40,
-        "matchReasons": [
-          "name: Material"
-        ]
-      },
       {
         "name": "Marathon Fusion",
         "score": 34,
@@ -2055,10 +2051,17 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: nuclear",
           "tag: energy"
         ]
+      },
+      {
+        "name": "TS Conductor",
+        "score": 20,
+        "matchReasons": [
+          "tag: conductors",
+          "tag: energy"
+        ]
       }
     ],
     "relevantCompanies": [
-      "Material",
       "Marathon Fusion",
       "Kyoto Fusioneering",
       "Commonwealth Fusion Systems",
@@ -2067,7 +2070,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Tokamak Energy",
       "Renaissance Fusion",
       "TAE Technologies",
-      "Valar Atomics"
+      "Valar Atomics",
+      "TS Conductor"
     ]
   },
   {
@@ -2293,13 +2297,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "STOR",
-        "score": 40,
-        "matchReasons": [
-          "name: STOR"
-        ]
-      },
-      {
         "name": "Base Power",
         "score": 28,
         "matchReasons": [
@@ -2351,7 +2348,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     ],
     "relevantCompanies": [
       "AIR",
-      "STOR",
       "Base Power",
       "Form Energy",
       "Peak Energy",
@@ -3860,13 +3856,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Material",
-        "score": 40,
-        "matchReasons": [
-          "name: Material"
-        ]
-      },
-      {
         "name": "Hermeus",
         "score": 26,
         "matchReasons": [
@@ -3901,7 +3890,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
-      "Material",
       "Hermeus",
       "Castelion",
       "Venus Aerospace",
@@ -4043,23 +4031,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "STOR",
-        "score": 40,
-        "matchReasons": [
-          "name: STOR"
-        ]
-      },
-      {
-        "name": "Tobe Energy",
-        "score": 36,
-        "matchReasons": [
-          "tag: hydrogen",
-          "tag: electrolysis",
-          "tag: green hydrogen",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Sunfire",
         "score": 26,
         "matchReasons": [
@@ -4120,8 +4091,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
-      "STOR",
-      "Tobe Energy",
       "Sunfire",
       "Electric Hydrogen",
       "Sage Geosystems",
@@ -4796,18 +4765,6 @@ const GOV_PULL_SCORES_AUTO = {
       "AI-Enabled Cyber Defense Operations"
     ]
   },
-  "Source": {
-    "name": "Source",
-    "govPullScore": 21,
-    "matchCount": 1,
-    "topAgencies": [
-      "SOCOM"
-    ],
-    "avgRelevance": 40,
-    "topSignals": [
-      "AI-Powered Intelligence Fusion Platform"
-    ]
-  },
   "Reveal Technology": {
     "name": "Reveal Technology",
     "govPullScore": 29,
@@ -4846,6 +4803,18 @@ const GOV_PULL_SCORES_AUTO = {
     "topSignals": [
       "AI-Powered Intelligence Fusion Platform",
       "AI-Enabled Cyber Defense Operations"
+    ]
+  },
+  "Primer AI": {
+    "name": "Primer AI",
+    "govPullScore": 16,
+    "matchCount": 1,
+    "topAgencies": [
+      "SOCOM"
+    ],
+    "avgRelevance": 21,
+    "topSignals": [
+      "AI-Powered Intelligence Fusion Platform"
     ]
   },
   "Distributed Spectrum": {
@@ -5295,30 +5264,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Next-Generation Earth Observation Capabilities"
     ]
   },
-  "Fabri": {
-    "name": "Fabri",
-    "govPullScore": 22,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 42,
-    "topSignals": [
-      "Advanced HALEU Fuel Fabrication Capabilities"
-    ]
-  },
-  "Fabric": {
-    "name": "Fabric",
-    "govPullScore": 21,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 40,
-    "topSignals": [
-      "Advanced HALEU Fuel Fabrication Capabilities"
-    ]
-  },
   "Oklo": {
     "name": "Oklo",
     "govPullScore": 18,
@@ -5396,18 +5341,28 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced HALEU Fuel Fabrication Capabilities"
     ]
   },
-  "Material": {
-    "name": "Material",
-    "govPullScore": 32,
-    "matchCount": 2,
+  "Nano Nuclear Energy": {
+    "name": "Nano Nuclear Energy",
+    "govPullScore": 16,
+    "matchCount": 1,
     "topAgencies": [
-      "ARPA-E",
-      "Department of Defense"
+      "Department of Energy (DOE)"
     ],
-    "avgRelevance": 40,
+    "avgRelevance": 22,
     "topSignals": [
-      "Compact Fusion Pilot Plant Technologies",
-      "Hypersonic Vehicle Thermal Protection Materials"
+      "Advanced HALEU Fuel Fabrication Capabilities"
+    ]
+  },
+  "Deep Atomic": {
+    "name": "Deep Atomic",
+    "govPullScore": 16,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 21,
+    "topSignals": [
+      "Advanced HALEU Fuel Fabrication Capabilities"
     ]
   },
   "Marathon Fusion": {
@@ -5502,6 +5457,18 @@ const GOV_PULL_SCORES_AUTO = {
       "ARPA-E"
     ],
     "avgRelevance": 25,
+    "topSignals": [
+      "Compact Fusion Pilot Plant Technologies"
+    ]
+  },
+  "TS Conductor": {
+    "name": "TS Conductor",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "ARPA-E"
+    ],
+    "avgRelevance": 20,
     "topSignals": [
       "Compact Fusion Pilot Plant Technologies"
     ]
@@ -5667,19 +5634,6 @@ const GOV_PULL_SCORES_AUTO = {
     "avgRelevance": 16,
     "topSignals": [
       "Enhanced Geothermal Systems Demonstration"
-    ]
-  },
-  "STOR": {
-    "name": "STOR",
-    "govPullScore": 31,
-    "matchCount": 2,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 40,
-    "topSignals": [
-      "Long-Duration Energy Storage Technologies",
-      "Clean Hydrogen Hub Expansion"
     ]
   },
   "Base Power": {
@@ -6457,18 +6411,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Methane Emissions Monitoring and Reduction"
     ]
   },
-  "Tobe Energy": {
-    "name": "Tobe Energy",
-    "govPullScore": 22,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 36,
-    "topSignals": [
-      "Clean Hydrogen Hub Expansion"
-    ]
-  },
   "Sunfire": {
     "name": "Sunfire",
     "govPullScore": 20,
@@ -6560,6 +6502,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 184,
-  "lastUpdated": "2026-05-21 10:27:14 UTC"
+  "companiesMatched": 182,
+  "lastUpdated": "2026-05-22 10:12:20 UTC"
 };
