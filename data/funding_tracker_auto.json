@@ -209,7 +209,7 @@
   {
     "company": "H Company",
     "totalRaised": "$5.5B+",
-    "totalRaisedRaw": 5506.7,
+    "totalRaisedRaw": 5508.7,
     "lastRound": "Seed",
     "lastRoundAmount": "$6.7M",
     "lastRoundDate": "2026-05",
@@ -217,7 +217,7 @@
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 2
+    "roundCount": 3
   },
   {
     "company": "Watershed",
@@ -648,8 +648,8 @@
   },
   {
     "company": "Scale AI",
-    "totalRaised": "$551M+",
-    "totalRaisedRaw": 551.0,
+    "totalRaised": "$554M+",
+    "totalRaisedRaw": 554.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$18B",
     "lastRoundDate": "2026-05",
@@ -658,7 +658,7 @@
       "Undisclosed",
       "Sequoia"
     ],
-    "roundCount": 5
+    "roundCount": 6
   },
   {
     "company": "ElevenLabs",
@@ -1070,6 +1070,19 @@
     "lastRound": "Series C",
     "lastRoundAmount": "$95M",
     "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Wardstone",
+    "totalRaised": "$85M+",
+    "totalRaisedRaw": 85.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$85M",
+    "lastRoundDate": "2026-05",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"

@@ -210,6 +210,15 @@
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "8-K",
+    "date": "2026-05-21",
+    "description": "rklb-20260520.htm",
+    "accessionNumber": "0001819994-26-000048",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "8-K",
     "date": "2026-05-20",
     "description": "rklb-20260520.htm",
     "accessionNumber": "0001819994-26-000045",
@@ -450,12 +459,12 @@
     "isIPO": false
   },
   {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
     "form": "4",
-    "date": "2025-12-23",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-25-000131",
+    "date": "2026-05-21",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-024877",
     "isIPO": false
   },
   {
@@ -2162,6 +2171,15 @@
   {
     "company": "Virgin Galactic",
     "ticker": "SPCE",
+    "form": "4",
+    "date": "2026-05-21",
+    "description": "xslF345X06/wk-form4_1779394373.xml",
+    "accessionNumber": "0001973882-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
     "form": "8-K",
     "date": "2026-05-18",
     "description": "spce-20260518.htm",
@@ -2466,15 +2484,6 @@
     "isIPO": false
   },
   {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "4",
-    "date": "2025-10-08",
-    "description": "xslF345X05/wk-form4_1759955396.xml",
-    "accessionNumber": "0001916877-25-000004",
-    "isIPO": false
-  },
-  {
     "company": "NuScale Power",
     "ticker": "SMR",
     "form": "10-Q",
@@ -2720,6 +2729,15 @@
   {
     "company": "Oklo",
     "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-05-21",
+    "description": "xslF345X06/wk-form4_1779395833.xml",
+    "accessionNumber": "0002080717-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
     "form": "8-K",
     "date": "2026-05-13",
     "description": "tm2614461d1_8k.htm",
@@ -2949,24 +2967,6 @@
     "date": "2026-03-10",
     "description": "xslF345X05/wk-form4_1773188710.xml",
     "accessionNumber": "0002080997-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-10",
-    "description": "xslF345X05/wk-form4_1773188624.xml",
-    "accessionNumber": "0002080717-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-10",
-    "description": "xslF345X05/wk-form4_1773173563.xml",
-    "accessionNumber": "0001445637-26-000002",
     "isIPO": false
   },
   {
@@ -4574,6 +4574,15 @@
   {
     "company": "Rigetti Computing",
     "ticker": "RGTI",
+    "form": "8-K",
+    "date": "2026-05-21",
+    "description": "tm2615300d1_8k.htm",
+    "accessionNumber": "0001104659-26-064861",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
     "form": "10-Q",
     "date": "2026-05-11",
     "description": "rgti-20260331x10q.htm",
@@ -4812,6 +4821,24 @@
     "date": "2025-09-15",
     "description": "xslF345X05/form4.xml",
     "accessionNumber": "0001123292-25-000434",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-05-21",
+    "description": "xslF345X06/wk-form4_1779398118.xml",
+    "accessionNumber": "0002129321-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-05-21",
+    "description": "qbts-20260521.htm",
+    "accessionNumber": "0001907982-26-000066",
     "isIPO": false
   },
   {
@@ -5064,33 +5091,6 @@
     "date": "2026-01-20",
     "description": "qbts-20260120.htm",
     "accessionNumber": "0001628280-26-002652",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-01-20",
-    "description": "qbts-20260120.htm",
-    "accessionNumber": "0001628280-26-002507",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/wk-form4_1768515125.xml",
-    "accessionNumber": "0001974777-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/wk-form4_1768514979.xml",
-    "accessionNumber": "0001453942-26-000002",
     "isIPO": false
   },
   {
@@ -5820,15 +5820,6 @@
     "date": "2026-03-09",
     "description": "xslF345X05/form4-03102026_120314.xml",
     "accessionNumber": "0002016416-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-09",
-    "description": "xslF345X05/form4-03102026_120316.xml",
-    "accessionNumber": "0002036956-26-000005",
     "isIPO": false
   },
   {
@@ -8547,15 +8538,6 @@
     "date": "2026-02-12",
     "description": "rivn-20251231.htm",
     "accessionNumber": "0001874178-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "8-K",
-    "date": "2026-02-12",
-    "description": "rivn-20260212.htm",
-    "accessionNumber": "0001874178-26-000007",
     "isIPO": false
   },
   {

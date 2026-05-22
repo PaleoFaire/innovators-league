@@ -1,6 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-21 09:50:40 UTC
+// Last updated: 2026-05-22 09:35:35 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "8-K", date: "2026-05-21", description: "rklb-20260520.htm", isIPO: false, ticker: "RKLB" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-05-21", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Virgin Galactic", form: "4", date: "2026-05-21", description: "xslF345X06/wk-form4_1779394373.xml", isIPO: false, ticker: "SPCE" },
+  { company: "Oklo", form: "4", date: "2026-05-21", description: "xslF345X06/wk-form4_1779395833.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Rigetti Computing", form: "8-K", date: "2026-05-21", description: "tm2615300d1_8k.htm", isIPO: false, ticker: "RGTI" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-05-21", description: "xslF345X06/wk-form4_1779398118.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-05-21", description: "qbts-20260521.htm", isIPO: false, ticker: "QBTS" },
   { company: "Rocket Lab", form: "8-K", date: "2026-05-20", description: "rklb-20260520.htm", isIPO: false, ticker: "RKLB" },
   { company: "AST SpaceMobile", form: "4", date: "2026-05-20", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-05-20", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
@@ -44,11 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877571.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877563.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877558.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877552.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877546.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-05-15", description: "xslF345X06/wk-form4_1778877538.xml", isIPO: false, ticker: "LNZA" },
-  { company: "Rocket Lab", form: "4", date: "2026-05-14", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-05-14", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Virgin Galactic", form: "10-Q", date: "2026-05-14", description: "spce-20260331.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-05-14", description: "spce-20260514.htm", isIPO: false, ticker: "SPCE" },
 ];

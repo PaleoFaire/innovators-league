@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-21T09:51:40.772283Z",
+  "generated_at": "2026-05-22T09:36:41.498560Z",
   "platform": {
-    "companiesTracked": 1466,
+    "companiesTracked": 1402,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$309.7B",
-    "totalValuationTracked": "$1961.6B",
-    "companiesWithValuation": 150,
+    "totalCapitalRaisedTracked": "$333.5B",
+    "totalValuationTracked": "$1977.0B",
+    "companiesWithValuation": 155,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
-    "dealsTracked": 222,
-    "newsItemsTracked": 47,
-    "dataPointsUpdated": "58,640+"
+    "dealsTracked": 225,
+    "newsItemsTracked": 37,
+    "dataPointsUpdated": "56,080+"
   },
   "topFunds": [
     {
       "fund": "Breakthrough Energy",
-      "portfolio_count": 66,
+      "portfolio_count": 64,
       "companies": [
         "75F",
         "Aeroseal",
@@ -30,26 +30,9 @@
       ]
     },
     {
-      "fund": "Lux Capital",
-      "portfolio_count": 53,
-      "companies": [
-        "A-Alpha Bio",
-        "Adimab",
-        "Aera Therapeutics",
-        "AirMap",
-        "Anagenex",
-        "Atavistik Bio",
-        "Atrandi",
-        "Aurora Solar",
-        "Babylon Bio",
-        "Cajal Neuroscience"
-      ]
-    },
-    {
       "fund": "Khosla Ventures",
-      "portfolio_count": 38,
+      "portfolio_count": 35,
       "companies": [
-        "Blue River",
         "Caelux",
         "Ceibo",
         "Cellino",
@@ -58,12 +41,29 @@
         "Flow Neuroscience",
         "Foundry Robotics",
         "Glydways",
-        "Guardant Health"
+        "Guardant Health",
+        "Impossible Foods"
+      ]
+    },
+    {
+      "fund": "Lux Capital",
+      "portfolio_count": 34,
+      "companies": [
+        "A-Alpha Bio",
+        "Adimab",
+        "Aera Therapeutics",
+        "Anagenex",
+        "Atavistik Bio",
+        "Atrandi",
+        "Aurora Solar",
+        "Babylon Bio",
+        "Cajal Neuroscience",
+        "Cala Health"
       ]
     },
     {
       "fund": "General Catalyst",
-      "portfolio_count": 37,
+      "portfolio_count": 31,
       "companies": [
         "Aidoc",
         "Alpha-9 Oncology",
@@ -71,10 +71,10 @@
         "Ayr Energy",
         "Beacon Biosignals",
         "Bindwell",
-        "Bowery Farming",
         "CHARM Therapeutics",
         "CloudNC",
-        "Cobalt Robotics"
+        "Collaborative Robotics",
+        "Constelli"
       ]
     },
     {
@@ -91,22 +91,6 @@
         "Groq",
         "HUMAIN",
         "Humanoid"
-      ]
-    },
-    {
-      "fund": "Sequoia Capital",
-      "portfolio_count": 21,
-      "companies": [
-        "Alpha & Omega Semiconductor",
-        "BreezeBio",
-        "BridgeBio",
-        "Cadence Design Systems",
-        "Cisco",
-        "Flextronics",
-        "JITX",
-        "Keen Technologies",
-        "Microchip Technology",
-        "MyOme"
       ]
     },
     {
@@ -142,15 +126,30 @@
       ]
     },
     {
+      "fund": "Sequoia Capital",
+      "portfolio_count": 10,
+      "companies": [
+        "BreezeBio",
+        "JITX",
+        "Keen Technologies",
+        "MyOme",
+        "Nuvacore",
+        "Pendulum Therapeutics",
+        "Quince Therapeutics",
+        "Sunflower Labs",
+        "Upway",
+        "Zum"
+      ]
+    },
+    {
       "fund": "Lightspeed",
-      "portfolio_count": 9,
+      "portfolio_count": 8,
       "companies": [
         "Abata Therapeutics",
         "Ancora Biotech",
         "Castelion",
         "Enlaza Therapeutics",
         "Hillevax",
-        "Holo",
         "ImmunOs Therapeutics",
         "Kirilys Therapeutics",
         "Telesat Lightspeed"
@@ -167,17 +166,6 @@
         "Periodic Labs",
         "Senra Systems",
         "Ulysses Robotics"
-      ]
-    },
-    {
-      "fund": "Valor Equity",
-      "portfolio_count": 5,
-      "companies": [
-        "AESCAPE",
-        "Castle Creek Biosciences",
-        "Chaos Industries",
-        "Tesla",
-        "Zellerfeld"
       ]
     },
     {
@@ -200,6 +188,15 @@
         "Photonium",
         "Subcritical Systems",
         "True Anomaly"
+      ]
+    },
+    {
+      "fund": "Valor Equity",
+      "portfolio_count": 3,
+      "companies": [
+        "Castle Creek Biosciences",
+        "Chaos Industries",
+        "Zellerfeld"
       ]
     },
     {
@@ -262,17 +259,17 @@
     }
   ],
   "sectorConcentration": {
-    "Biotech & Health": 278,
-    "Climate & Energy": 257,
-    "Robotics & Manufacturing": 194,
-    "Space & Aerospace": 176,
-    "Defense & Security": 160,
-    "Chips & Semiconductors": 111,
-    "Nuclear Energy": 60,
+    "Biotech & Health": 273,
+    "Climate & Energy": 247,
+    "Robotics & Manufacturing": 175,
+    "Space & Aerospace": 173,
+    "Defense & Security": 159,
+    "Chips & Semiconductors": 95,
+    "Nuclear Energy": 59,
     "Quantum Computing": 51,
-    "Drones & Autonomous": 46,
-    "Transportation": 42,
-    "Infrastructure & Logistics": 29,
+    "Drones & Autonomous": 42,
+    "Transportation": 40,
+    "Infrastructure & Logistics": 26,
     "AI & Software": 20,
     "Ocean & Maritime": 20,
     "Housing & Construction": 9,
