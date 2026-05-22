@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T17:59:08.549302+00:00",
+  "generatedAt": "2026-05-22T20:01:35.447633+00:00",
   "date": "2026-05-22",
   "dateDisplay": "Friday, May 22, 2026",
   "sections": {
@@ -61,46 +61,53 @@
     ],
     "marketMovers": [
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 29.96,
-        "changePercent": 47.22,
-        "change": 9.61
-      },
-      {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 26.18,
-        "changePercent": 46.67,
-        "change": 8.33
+        "price": 26.13,
+        "changePercent": 46.39,
+        "change": 8.28
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 28.75,
+        "changePercent": 41.28,
+        "change": 8.4
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 310.79,
-        "changePercent": 33.57,
-        "change": 78.11
+        "price": 306.27,
+        "changePercent": 31.63,
+        "change": 73.59
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 106.24,
-        "changePercent": 26.98,
-        "change": 22.57
+        "price": 105.81,
+        "changePercent": 26.46,
+        "change": 22.14
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 64.28,
-        "changePercent": 23.74,
-        "change": 12.33
+        "price": 63.18,
+        "changePercent": 21.62,
+        "change": 11.23
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 15.05,
+        "changePercent": 20.64,
+        "change": 2.58
       },
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 7.44,
-        "changePercent": -23.54,
-        "change": -2.29
+        "price": 7.83,
+        "changePercent": -19.48,
+        "change": -1.9
       },
       {
         "ticker": "9348.T",
@@ -108,13 +115,6 @@
         "price": 568.0,
         "changePercent": 14.52,
         "change": 72.0
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 37.72,
-        "changePercent": 11.3,
-        "change": 3.83
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "QBTS +47.2%"
+    "topMover": "RGTI +46.4%"
   }
 }
