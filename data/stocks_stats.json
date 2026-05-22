@@ -5,90 +5,100 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.76,
+      "avg_change": 0.98,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 5.35,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 12.36,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -5.21,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.4,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -6.04,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 6.02,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -19.16,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -3.18,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.05,
+      "avg_change": 39.21,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.97,
+      "avg_change": 4.93,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -4.14,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 2.31,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 7.79,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 13.38,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ALAB",
-      "Astera Labs",
-      30.27
-    ],
-    [
       "QBTS",
       "D-Wave Quantum",
-      16.31
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      15.93
-    ],
-    [
-      "9348.T",
-      "ispace",
-      14.52
+      47.22
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      14.37
+      46.67
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      33.57
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      26.98
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      23.74
     ]
   ],
   "topLosers": [
     [
       "NVDA",
       "NVIDIA",
-      -6.88
+      -3.83
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -5.11
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      -5.51
     ],
     [
       "277810.KQ",
@@ -96,20 +106,10 @@
       -6.91
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -8.93
-    ],
-    [
-      "AUR",
-      "Aurora Innovation",
-      -12.35
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      -54.58
+      -23.54
     ]
   ],
-  "lastUpdated": "2026-05-22 09:34:41"
+  "lastUpdated": "2026-05-22 14:47:36"
 }
