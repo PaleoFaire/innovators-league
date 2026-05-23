@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-05-22";
+const LAST_UPDATED = "2026-05-23";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -47732,23 +47732,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-22 23:12
+// Last updated: 2026-05-23 04:02
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX launches Starship V3 for the first time, but loses booster on return", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "XAI $15 Billion Per Year AI Rental to Anthropic Details", source: "Next Big Future", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Flight 12 New Launch Attempt Starting in Minutes", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Blue Origin", headline: "Blue Origin cleared to fly New Glenn mega-rocket after April mishap", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "Waymo Robotaxis Have To Take A Break In Atlanta ' Can't Handle Flooding", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "SpaceX", headline: "SpaceX files to go public, and the math requires a little faith", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX IPO filing casts Starlink Mobile as future wireless challenger", source: "SpaceNews", time: "10h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches ninth Synspective satellite", source: "SpaceNews", time: "11h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Tubulis", headline: "Ibrance heirs, Gilead's Tubulis data and more at #ASCO26", source: "Endpoints News", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Retro Biosciences", headline: "STAT+: Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion", source: "STAT News", time: "12h ago", impact: "high", unread: false },
-  { id: 11, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins first GEO satellite production contract from U.S. Space Force", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Ground system issue scrubs first launch of SpaceX's Starship V3 rocket", source: "Ars Technica Space", time: "21h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "Waymo expands pause to four cities as robotaxis keep driving into floods", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX scrubs first Starship V3 launch just before liftoff", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Who will benefit most from SpaceX IPO? Mostly Elon ' and a few from his inner circle", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "Blue Origin", headline: "Blue Origin completes investigation into New Glenn launch failure", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX launches first Starship V3", source: "SpaceNews", time: "3h ago", impact: "medium", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX launches Starship V3 for the first time, but loses booster on return", source: "TechCrunch", time: "5h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "XAI $15 Billion Per Year AI Rental to Anthropic Details", source: "Next Big Future", time: "5h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Flight 12 Good Launch and Simulated Landings", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Blue Origin", headline: "Blue Origin cleared to fly New Glenn mega-rocket after April mishap", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Waymo Robotaxis Have To Take A Break In Atlanta ' Can't Handle Flooding", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "SpaceX", headline: "SpaceX files to go public, and the math requires a little faith", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX IPO filing casts Starlink Mobile as future wireless challenger", source: "SpaceNews", time: "15h ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches ninth Synspective satellite", source: "SpaceNews", time: "16h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "Tubulis", headline: "Ibrance heirs, Gilead's Tubulis data and more at #ASCO26", source: "Endpoints News", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Retro Biosciences", headline: "STAT+: Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion", source: "STAT News", time: "17h ago", impact: "high", unread: false },
+  { id: 13, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins first GEO satellite production contract from U.S. Space Force", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "Ground system issue scrubs first launch of SpaceX's Starship V3 rocket", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo expands pause to four cities as robotaxis keep driving into floods", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
