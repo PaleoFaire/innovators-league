@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-05-23T09:08:53+00:00",
+  "generatedAt": "2026-05-23T11:21:06+00:00",
   "matrix": {
+    "logistics-robotics": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 535500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Slip Robotics",
+            "amount": 535500,
+            "date": "2026-05-22",
+            "source": "formd",
+            "investors": [
+              "DCVC"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "manufacturing-reshoring": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 129500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Nox Metals",
+            "amount": 129500,
+            "date": "2026-05-22",
+            "source": "formd",
+            "investors": [
+              "Y Combinator",
+              "8090 Industries",
+              "Anorak Ventures",
+              "Behind Genius Ventures",
+              "Detroit Venture Partners",
+              "E1 Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Hadrian",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": [
+              "137 Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 2,
@@ -807,25 +867,6 @@
         ]
       }
     },
-    "manufacturing-reshoring": {
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Hadrian",
-            "amount": null,
-            "date": "2025-08",
-            "source": "recentEvent",
-            "investors": [
-              "137 Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
     "fusion-magnetic-confinement": {
       "2025-Q4": {
         "deals": 1,
@@ -1599,9 +1640,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 59,
-    "totalUSDSold": 333296786,
-    "uniqueClusters": 39,
+    "totalDealsTracked": 61,
+    "totalUSDSold": 333961786,
+    "uniqueClusters": 40,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [
