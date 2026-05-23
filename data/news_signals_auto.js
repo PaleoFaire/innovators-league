@@ -1,74 +1,74 @@
 // Auto-generated news signals
-// Last updated: 2026-05-23T08:24:40.172Z
+// Last updated: 2026-05-23T09:08:04.076Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1779524680172,
+    "id": 1779527284076,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin completes investigation into New Glenn launch failure",
     "source": "SpaceNews",
-    "time": "5h ago",
+    "time": "6h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/blue-origin-completes-investigation-into-new-glenn-launch-failure/"
   },
   {
-    "id": 1779524680173,
+    "id": 1779527284077,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches first Starship V3",
     "source": "SpaceNews",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://spacenews.com/spacex-launches-first-starship-v3/"
   },
   {
-    "id": 1779524680174,
+    "id": 1779527284078,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches Starship V3 for the first time, but loses booster on return",
     "source": "TechCrunch",
-    "time": "9h ago",
+    "time": "10h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/22/spacex-launches-starship-v3-for-the-first-time-but-loses-booster-on-return/"
   },
   {
-    "id": 1779524680175,
+    "id": 1779527284079,
     "type": "news",
     "company": "Anthropic",
     "headline": "XAI $15 Billion Per Year AI Rental to Anthropic Details",
     "source": "Next Big Future",
-    "time": "9h ago",
+    "time": "10h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/05/xai-15-billion-per-year-ai-rental-to-anthropic-details.html"
   },
   {
-    "id": 1779524680176,
+    "id": 1779527284080,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 12 Good Launch and Simulated Landings",
     "source": "Next Big Future",
-    "time": "9h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/05/spacex-starship-flight-12-new-launch-attempt-starting-in-minutes.html"
   },
   {
-    "id": 1779524680177,
+    "id": 1779527284081,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin cleared to fly New Glenn mega-rocket after April mishap",
     "source": "TechCrunch",
-    "time": "10h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/05/22/blue-origin-cleared-to-fly-new-glenn-mega-rocket-after-april-mishap/"
   },
   {
-    "id": 1779524680178,
+    "id": 1779527284082,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Robotaxis Have To Take A Break In Atlanta — Can&#8217;t Handle Flooding",
@@ -79,73 +79,73 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/22/waymo-robotaxis-have-to-take-a-break-in-atlanta-cant-handle-flooding/"
   },
   {
-    "id": 1779524680179,
+    "id": 1779527284083,
     "type": "hire",
     "company": "SpaceX",
     "headline": "SpaceX files to go public, and the math requires a little faith",
     "source": "TechCrunch",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/"
   },
   {
-    "id": 1779524680180,
+    "id": 1779527284084,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX IPO filing casts Starlink Mobile as future wireless challenger",
     "source": "SpaceNews",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "high",
     "unread": false,
     "link": "https://spacenews.com/spacex-prospectus-casts-starlink-mobile-as-future-wireless-challenger/"
   },
   {
-    "id": 1779524680181,
+    "id": 1779527284085,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab launches ninth Synspective satellite",
     "source": "SpaceNews",
-    "time": "20h ago",
+    "time": "21h ago",
     "impact": "medium",
     "unread": false,
     "link": "https://spacenews.com/rocket-lab-launches-ninth-synspective-satellite/"
   },
   {
-    "id": 1779524680182,
+    "id": 1779527284086,
     "type": "news",
     "company": "Tubulis",
     "headline": "Ibrance heirs, Gilead's Tubulis data and more at #ASCO26",
     "source": "Endpoints News",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://endpoints.news/ibrance-heirs-gileads-tubulis-data-and-more-at-asco26/"
   },
   {
-    "id": 1779524680183,
+    "id": 1779527284087,
     "type": "funding",
     "company": "Retro Biosciences",
     "headline": "STAT+: Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion",
     "source": "STAT News",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss"
   },
   {
-    "id": 1779524680184,
+    "id": 1779527284088,
     "type": "contract",
     "company": "Rocket Lab",
     "headline": "Rocket Lab wins first GEO satellite production contract from U.S. Space Force",
     "source": "SpaceNews",
-    "time": "22h ago",
+    "time": "23h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/rocket-lab-wins-first-geo-satellite-production-contract-from-u-s-space-force/"
   },
   {
-    "id": 1779524680185,
+    "id": 1779527284089,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Ground system issue scrubs first launch of SpaceX&#039;s Starship V3 rocket",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/05/ground-system-issue-scrubs-first-launch-of-spacexs-starship-v3-rocket/"
   },
   {
-    "id": 1779524680186,
+    "id": 1779527284090,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo expands pause to four cities as robotaxis keep driving into floods",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/21/waymo-pauses-service-in-four-cities-as-robotaxis-keep-driving-into-floods/"
   },
   {
-    "id": 1779524680187,
+    "id": 1779527284091,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX scrubs first Starship V3 launch just before liftoff",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/21/spacex-scrubs-first-starship-v3-launch-just-before-liftoff/"
   },
   {
-    "id": 1779524680188,
+    "id": 1779527284092,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Who will benefit most from SpaceX IPO? Mostly Elon — and a few from his inner circle",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/21/who-will-benefit-most-from-spacex-ipo-mostly-elon-and-a-few-from-his-inner-circle/"
   },
   {
-    "id": 1779524680189,
+    "id": 1779527284093,
     "type": "funding",
     "company": "SpaceX",
     "headline": "The SpaceX IPO Filing Looks Nothing Like Those Of The Elite Group Of Tech Giants It&#8217;s Hoping To Join",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/public/spacex-ipo-filing-different-nvda-goog-appl-msft-amzn/"
   },
   {
-    "id": 1779524680190,
+    "id": 1779527284094,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Starship underpins SpaceX’s growth ambitions",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/starship-underpins-spacexs-growth-ambitions/"
   },
   {
-    "id": 1779524680191,
+    "id": 1779527284095,
     "type": "news",
     "company": "Humanoid",
     "headline": "Humanoid partners with Bosch, Schaeffler to scale robot production",
