@@ -1,5 +1,5 @@
 // Auto-generated demand signals data
-// Last updated: 2026-05-22 10:12:20 UTC
+// Last updated: 2026-05-23 08:56:13 UTC
 // Total signals: 44 | Companies matched: 182
 
 const GOV_DEMAND_SIGNALS_AUTO = [
@@ -2096,20 +2096,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Eli",
-        "score": 40,
-        "matchReasons": [
-          "name: Eli"
-        ]
-      },
-      {
-        "name": "Modular",
-        "score": 40,
-        "matchReasons": [
-          "name: Modular"
-        ]
-      },
-      {
         "name": "Valar Atomics",
         "score": 32,
         "matchReasons": [
@@ -2180,11 +2166,25 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: smr",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "Kairos Power",
+        "score": 22,
+        "matchReasons": [
+          "tag: smr",
+          "tag: nuclear"
+        ]
+      },
+      {
+        "name": "X-Energy",
+        "score": 22,
+        "matchReasons": [
+          "tag: smr",
+          "tag: nuclear"
+        ]
       }
     ],
     "relevantCompanies": [
-      "Eli",
-      "Modular",
       "Valar Atomics",
       "Standard Nuclear",
       "Newcleo",
@@ -2192,7 +2192,9 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Blykalla",
       "TerraPower",
       "Copenhagen Atomics",
-      "Steady Energy"
+      "Steady Energy",
+      "Kairos Power",
+      "X-Energy"
     ]
   },
   {
@@ -2728,13 +2730,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Eli",
-        "score": 40,
-        "matchReasons": [
-          "name: Eli"
-        ]
-      },
-      {
         "name": "Second Front Systems",
         "score": 30,
         "matchReasons": [
@@ -2807,10 +2802,17 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: defense",
           "tag: ai"
         ]
+      },
+      {
+        "name": "Blackshark.ai",
+        "score": 20,
+        "matchReasons": [
+          "tag: defense",
+          "tag: ai"
+        ]
       }
     ],
     "relevantCompanies": [
-      "Eli",
       "Second Front Systems",
       "Palantir",
       "Anduril Industries",
@@ -2819,7 +2821,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Zeromark",
       "Rune Technologies",
       "Swift Beat",
-      "Tytan Technologies"
+      "Tytan Technologies",
+      "Blackshark.ai"
     ]
   },
   {
@@ -3147,13 +3150,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Eli",
-        "score": 40,
-        "matchReasons": [
-          "name: Eli"
-        ]
-      },
-      {
         "name": "Asimov",
         "score": 16,
         "matchReasons": [
@@ -3163,7 +3159,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
-      "Eli",
       "Asimov"
     ]
   },
@@ -3247,13 +3242,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Eli",
-        "score": 40,
-        "matchReasons": [
-          "name: Eli"
-        ]
-      },
-      {
         "name": "Mammoth Biosciences",
         "score": 18,
         "matchReasons": [
@@ -3271,7 +3259,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
-      "Eli",
       "Mammoth Biosciences",
       "AAVantgarde Bio"
     ]
@@ -3612,16 +3599,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Milrem Robotics",
-        "score": 36,
-        "matchReasons": [
-          "tag: ugv",
-          "tag: defense",
-          "tag: autonomous",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Rune Technologies",
         "score": 34,
         "matchReasons": [
@@ -3702,10 +3679,17 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: ai",
           "tag: defense"
         ]
+      },
+      {
+        "name": "Swift Beat",
+        "score": 27,
+        "matchReasons": [
+          "tag: ai",
+          "tag: defense"
+        ]
       }
     ],
     "relevantCompanies": [
-      "Milrem Robotics",
       "Rune Technologies",
       "Mujin",
       "Forterra",
@@ -3714,7 +3698,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Darkhive",
       "Firestorm Labs",
-      "Shield AI"
+      "Shield AI",
+      "Swift Beat"
     ]
   },
   {
@@ -4308,8 +4293,8 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Swift Beat": {
     "name": "Swift Beat",
-    "govPullScore": 64,
-    "matchCount": 6,
+    "govPullScore": 70,
+    "matchCount": 7,
     "topAgencies": [
       "Chief Digital and AI Office (CDAO)",
       "DARPA",
@@ -4317,11 +4302,11 @@ const GOV_PULL_SCORES_AUTO = {
       "Department of Defense",
       "National Science Foundation (NSF)"
     ],
-    "avgRelevance": 23,
+    "avgRelevance": 24,
     "topSignals": [
       "AI-Enabled Autonomous Naval Surface Vessels",
-      "General-Purpose Robotics for Military Logistics",
-      "AI-Powered Intelligence Fusion Platform"
+      "Autonomous Logistics Resupply Vehicles",
+      "General-Purpose Robotics for Military Logistics"
     ]
   },
   "Andrenam": {
@@ -5473,35 +5458,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Compact Fusion Pilot Plant Technologies"
     ]
   },
-  "Eli": {
-    "name": "Eli",
-    "govPullScore": 52,
-    "matchCount": 4,
-    "topAgencies": [
-      "BARDA / HHS",
-      "Chief Digital and AI Office (CDAO)",
-      "Department of Energy (DOE)",
-      "National Institutes of Health (NIH)"
-    ],
-    "avgRelevance": 40,
-    "topSignals": [
-      "Advanced Small Modular Reactor Components",
-      "Enterprise AI/ML Data Platform",
-      "Advanced Biomanufacturing for Pandemic Preparedness"
-    ]
-  },
-  "Modular": {
-    "name": "Modular",
-    "govPullScore": 19,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 40,
-    "topSignals": [
-      "Advanced Small Modular Reactor Components"
-    ]
-  },
   "Newcleo": {
     "name": "Newcleo",
     "govPullScore": 20,
@@ -5571,6 +5527,30 @@ const GOV_PULL_SCORES_AUTO = {
       "Department of Energy (DOE)"
     ],
     "avgRelevance": 24,
+    "topSignals": [
+      "Advanced Small Modular Reactor Components"
+    ]
+  },
+  "Kairos Power": {
+    "name": "Kairos Power",
+    "govPullScore": 14,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 22,
+    "topSignals": [
+      "Advanced Small Modular Reactor Components"
+    ]
+  },
+  "X-Energy": {
+    "name": "X-Energy",
+    "govPullScore": 14,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 22,
     "topSignals": [
       "Advanced Small Modular Reactor Components"
     ]
@@ -5947,6 +5927,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Enterprise AI/ML Data Platform"
     ]
   },
+  "Blackshark.ai": {
+    "name": "Blackshark.ai",
+    "govPullScore": 16,
+    "matchCount": 1,
+    "topAgencies": [
+      "Chief Digital and AI Office (CDAO)"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Enterprise AI/ML Data Platform"
+    ]
+  },
   "Alice & Bob": {
     "name": "Alice & Bob",
     "govPullScore": 17,
@@ -6303,18 +6295,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Dexterous Manipulation for Unstructured Environments"
     ]
   },
-  "Milrem Robotics": {
-    "name": "Milrem Robotics",
-    "govPullScore": 20,
-    "matchCount": 1,
-    "topAgencies": [
-      "U.S. Army"
-    ],
-    "avgRelevance": 36,
-    "topSignals": [
-      "Autonomous Logistics Resupply Vehicles"
-    ]
-  },
   "ARX Robotics": {
     "name": "ARX Robotics",
     "govPullScore": 18,
@@ -6503,5 +6483,5 @@ const DEMAND_SIGNALS_STATS = {
     "Environmental Protection Agency (EPA)": 1
   },
   "companiesMatched": 182,
-  "lastUpdated": "2026-05-22 10:12:20 UTC"
+  "lastUpdated": "2026-05-23 08:56:13 UTC"
 };

@@ -635,6 +635,623 @@
     "sectors": []
   },
   {
+    "id": "2605.22816v1",
+    "title": "AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation",
+    "summary": "Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit and explainable understanding of the relationships between the agent, the instruction, and the scene. Conversely, explicitly building a scene map for heuristic planning is intuitively appealing but reli",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Wenxuan Guo",
+      "Xiuwei Xu",
+      "Yichen Liu",
+      "Xiangyu Li",
+      "Hang Yin",
+      "Huangxing Chen",
+      "Wenzhao Zheng",
+      "Jianjiang Feng",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22816v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22812v1",
+    "title": "GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations",
+    "summary": "Vision-Language-Action (VLA) models have shown strong potential for general-purpose robot manipulation by unifying perception and action. However, existing VLA systems primarily rely on textual instructions and struggle to resolve spatial ambiguity in complex scenes with multiple similar objects. To address this limitation, we introduce gesture as a parallel instruction modality and propose a Gesture-aware Vision-Language-Action model (GesVLA). Our approach encodes gesture features directly into",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Wenxuan Guo",
+      "Ziyuan Li",
+      "Meng Zhang",
+      "Yichen Liu",
+      "Yimeng Dong",
+      "Chuxi Xu",
+      "Yunfei Wei",
+      "Ze Chen",
+      "Erjin Zhou",
+      "Jianjiang Feng"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22812v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22748v1",
+    "title": "Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning",
+    "summary": "Autonomous systems have achieved superhuman performance in isolation or simulation, yet they remain brittle in shared, dynamic real-world spaces. This failure stems from the dominant single-agent paradigm for physical applications, where other actors are ignored or treated as environmental noise, preventing effective coordination. Here we show that multi-agent reinforcement learning provides the essential safety scaffolding required for real-world interaction. Using high-speed quadrotor racing a",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Ismail Geles",
+      "Leonard Bauersfeld",
+      "Markus Wulfmeier",
+      "Davide Scaramuzza"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22748v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22722v1",
+    "title": "N3P: Accelerated Automated Parking via a Learning-Based Naturalistic Three-Stage Scheme",
+    "summary": "Autonomous parking requires efficient path planning that ensures kinematic feasibility and collision avoidance in constrained environments. Hybrid A* is widely used but computationally expensive, while reinforcement learning (RL) methods lack reliability and often struggle with long-horizon geometric constraints, leading to suboptimal trajectories. We present N3P, a fast learning-based three-stage framework for automated parking. By introducing an intermediate preparatory pose and using a learni",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Yifan Xue",
+      "Toktam Mohammadnejad",
+      "Faizan M Tariq",
+      "Sangjae Bae",
+      "David Isele",
+      "Yosuke Sakamoto",
+      "Nadia Figueroa",
+      "Jovin D'sa"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22722v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22709v1",
+    "title": "TriSweep: A Four-Drone Swarm Framework for Electromagnetic Side-Channel Analysis",
+    "summary": "Electromagnetic (EM) side-channel analysis traditionally assumes a stationary, close-proximity probe - a threat model that underestimates aerial adversaries. TriSweep is a simulation framework that designs and evaluates a four-drone swarm architecture for autonomous standoff EM-SCA of embedded microcontrollers at 0.25-1.5 m. Three spatially specialized collector drones - Anchor (full-spectrum), Mask Probe (mask-register loading leakage), and Cipher Probe (masked SubBytes output leakage) - feed a",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Eric Yocam",
+      "Varghese Vaidyan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22709v1",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2605.22693v1",
+    "title": "Scout-Assisted Planning for Heterogeneous Robot Teams under Partially Known Environments",
+    "summary": "Autonomous robot teams navigating partially known environments face costly backtracking when ground robots encounter blocked roads that are only revealed upon physical traversal. We address this with Scout-Assisted Planning, a heterogeneous planning framework in which scouting Unmanned Aerial Vehicles proactively gather environmental information to improve Unmanned Ground Vehicle navigation. To focus scouting on the most consequential edges, we propose Information Gain-based Action Pruning, whic",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Hoang-Dung Bui",
+      "Abhish Khanal",
+      "Raihan Islam Arnob",
+      "Gregory J. Stein"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22693v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22639v1",
+    "title": "Symmetries Here and There, Combined Everywhere: Cross-space Symmetry Compositions in Robotics",
+    "summary": "Robots exhibit a rich variety of symmetries arising from their mechanical structure and the properties of their tasks. Although many robotics problems exhibit several symmetries simultaneously, existing approaches typically treat them in isolation, failing to exploit their combined potential. This paper introduces cross-space symmetry compositions, a framework for learning robot policies that are jointly equivariant to multiple symmetries across configuration and task spaces. Leveraging the diff",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Loizos Hadjiloizou",
+      "Rodrigo P\u00e9rez-Dattari",
+      "No\u00e9mie Jaquier"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22639v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22633v1",
+    "title": "SE3Kit: A Lightweight Python Library for Specialized Geometric Primitives in Robotics",
+    "summary": "The Python robotics ecosystem faces a challenge: while many libraries exist for rigid body transformations, few are both lightweight and mathematically strict. This paper introduces SE3Kit, a lightweight Python library efficient operations on the Special Euclidean Group SE(3) and the Special Orthogonal Group SO(3). Unlike established frameworks that require heavy dependencies (e.g., SpatialMath, PyPose) or general tools that lack robotics-specific features (e.g., SciPy), SE3Kit targets the gap b",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Daniyal Maroufi",
+      "Omid Rezayof",
+      "Farshid Alambeigi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22633v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22605v1",
+    "title": "Decoupling Ego-Motion from Target Dynamics via Dual-Interval Motion Cues for UAV Detection",
+    "summary": "Object detection from Unmanned Aerial Vehicles (UAVs) is challenged by severe ego-motion, camera jitter, and large scale variations. While modern detectors perform well on static images, their direct application to UAV video often fails, particularly for small objects in dynamic scenes. Existing motion-based methods either rely on computationally expensive optical flow or use single-interval differencing, which is sensitive to jitter and limited in capturing diverse motion patterns. We propose a",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Liuyang Wang",
+      "Feitian Zhang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22605v1",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2605.22600v1",
+    "title": "Branch-Stochastic Model Predictive Control for Motion Planning under Multi-Modal Uncertainty with Scenario Clustering",
+    "summary": "Motion planning for autonomous driving must account for multi-modal uncertainty in both the intentions and trajectories of surrounding vehicles. Handling uncertainty in a worst-case manner guarantees robustness but often leads to excessive conservatism. Stochastic Model Predictive Control (SMPC) reduces trajectory-level conservatism through chance constraints, yet remains conservative with respect to intention uncertainty since constraints must hold across all intentions. We present a novel comb",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Zekun Xing",
+      "Ramkrishna Chaudhari",
+      "Marion Leibold",
+      "Dirk Wollherr",
+      "Martin Buss"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22600v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22597v1",
+    "title": "MoSA: Motion-constrained Stress Adaptation for Mitigating Real-to-Sim Gap in Continuum Dynamics via Learning Residual Anisotropy",
+    "summary": "Learning real-world dynamics from visual observations is crucial for various domains. A common strategy is to calibrate simulators by estimating physical parameters, yet accuracy is ultimately bounded by the underlying physical models, which often assume materials are homogeneous and isotropic. Even if reasonable, real-world objects typically exhibit mild anisotropy and heterogeneity. After the near-isotropic backbone is well calibrated, these residual effects become the key bottleneck for furth",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Jiaxu Wang",
+      "Junhao He",
+      "Jingkai Sun",
+      "Yi Gu",
+      "Yunyang Mo",
+      "Jiahang Cao",
+      "Qiang Zhang",
+      "Renjing Xu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22597v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22521v1",
+    "title": "Quantifying Full-Body Immersion",
+    "summary": "Humanity is at the forefront of yet another digital revolution, where the lines between real and virtual worlds are dissolving, reshaping how we perceive and interact with our surroundings. In this context, we introduce a transformative paradigm for immersive virtual experiences centered around whole-body kinetic interactions. Our approach redefines immersion through three distinct levels: audio-visual immersion, capturing sensory realism; physical immersion, delivering haptic feedback; and full",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Alihan Bakir",
+      "Ekrem Y\u00fcksel",
+      "Fabio Zuliani",
+      "Neil Chennoufi",
+      "Francesco Bruno",
+      "Jamie Paik"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22521v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22493v1",
+    "title": "Understanding Multimodal Failure in Action-Chunking Behavioral Cloning",
+    "summary": "Behavioral cloning becomes difficult when the same observation admits several valid actions. We study this problem for action-chunking policies and show that different multimodal parameterizations fail in different ways. For latent-variable policies, posterior-prior regularization makes deployment-time sampling more reliable, but excessive regularization removes the action-conditioned information needed to distinguish demonstrated modes. Reducing this regularization can preserve mode information",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Lorenzo Mazza",
+      "Massimiliano Datres",
+      "Ariel Rodriguez",
+      "Sebastian Bodenstedt",
+      "Gitta Kutyniok",
+      "Stefanie Speidel"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22493v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22456v1",
+    "title": "Steins;Gate Drive: Semantic Safety Arbitration over Structured Futures for Latency-Decoupled LLM Planning",
+    "summary": "Cloud-hosted LLM driver agents provide useful semantic judgments, but their inference latency exceeds stepwise vehicle-control windows. Learned world models predict futures, but they usually keep future generation and action selection inside large coupled loops. We present SteinsGateDrive, a latency-decoupled planner-runtime architecture in which the worldline metaphor from the eponymous story names one plausible consequence of an intervention: the LLM selects counterfactual driving futures befo",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Anjie Qiu",
+      "Hans D. Schotten"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22456v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22446v1",
+    "title": "Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts",
+    "summary": "While large vision-language-action (VLA) models and generative world models (WM) have advanced long-horizon embodied intelligence, their practical deployment remains challenged by uncertainty in learning-based action generation. Low-quality actions may cause physical failures during execution or lead to misleading world-model rollouts with redundant rendering costs. To address this issue, we propose Pre-VLA, a unified runtime verification architecture that performs preemptive action validity ass",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Zhen Sun",
+      "Yongjian Guo",
+      "Haoran Sun",
+      "Luqiao Wang",
+      "Wei Lu",
+      "Jiachi Ji",
+      "Shengzhe Ji",
+      "Junwu Xiong",
+      "Zhijun Meng"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22446v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22443v1",
+    "title": "Terminal Constraint Model Predictive Control for Image-Based Visual Servoing of UAVs with Kalman Filter-Based Moment Loss Compensation",
+    "summary": "Image-Based Visual Servoing (IBVS) provides an efficient vision-guided control paradigm for unmanned aerial vehicles (UAVs) by directly regulating image-space errors. However, conventional IBVS controllers are vulnerable to two critical issues: loss of closed-loop stability near the target due to input and state constraints, and control failure caused by intermittent loss of moment-based visual features under aggressive motion. To address these challenges, this paper proposes a terminal-constrai",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "X. Wang",
+      "Y. Cao",
+      "W. L. W. Leong",
+      "Y. R. Tan",
+      "S. Huang",
+      "S. H. R. Teo",
+      "C. Xiang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22443v1",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2605.22431v1",
+    "title": "Real-Time Auto-Optimization in Unknown Environments via Structure-Exploiting Dual Control for Exploration and Exploitation",
+    "summary": "This paper develops a fast numerical dual control for exploration and exploitation (DCEE) method to address auto-optimization problems in unknown environments. In auto-optimization problems, the optimal operating condition is unknown a priori and may vary with the environment. As in classical dual control techniques, computational burden remains a major concern in DCEE for active learning. Existing DCEE methods provide a principled exploration-exploitation objective, but mainly realized through ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Shiying Dong",
+      "Haoyang Yang",
+      "Qiwei Liu",
+      "Wen-Hua Chen"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22431v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22420v1",
+    "title": "Diffusion-guided Generalizable Enhancer for Urban Scene Reconstruction",
+    "summary": "Urban scene reconstruction from real-world observations has emerged as a powerful tool for self-driving development and testing. While current neural rendering approaches achieve high-fidelity rendering along the recorded trajectories, their quality degrades significantly under large viewpoint shifts, limiting the applicability for closed-loop simulation. Recent works have shown promising results in using diffusion models to enhance quality at these challenging viewpoints and distill improvement",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Henry Che",
+      "Jingkang Wang",
+      "Yun Chen",
+      "Ze Yang",
+      "Sivabalan Manivasagam",
+      "Raquel Urtasun"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22420v1",
+    "sectors": [
+      "nuclear",
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.22322v1",
+    "title": "How can reasoning capability empower the AI copilot robot in endoscopic surgery",
+    "summary": "Reasoning capability has significantly advanced complex logical inference and robotic decision-making in general domains. However, its potential in the Artificial Intelligence (AI) copilot robot-particularly implemented based on the Vision-Language-Action (VLA) model-remains unexplored in endoscopic surgery. Effective reasoning should enable AI copilot robots to integrate multimodal cues, interpret surgical intent, and infer hidden tissue dynamics, thereby alleviating intraoperative uncertainty ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Guankun Wang",
+      "Long Bai",
+      "Hongliang Ren"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22322v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22283v1",
+    "title": "Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action",
+    "summary": "We introduce SOMA, the Spatial Memory framework for Out-of-Vision Manipulation in Vision-Language-Action (VLA) models. Most existing VLAs implicitly assume that task-relevant objects are always visible, leading to brittle and reactive behaviors when targets fall outside the camera's field of view. SOMA addresses this limitation by equipping VLAs with a persistent spatial memory constructed from multi-view observations acquired via a movable head camera, enabling reasoning beyond the current visu",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Pengteng Li",
+      "Weiyu Guo",
+      "He Zhang",
+      "Tiefu Cai",
+      "Xiao He",
+      "Yandong Guo",
+      "Hui Xiong"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22283v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22272v1",
+    "title": "Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors",
+    "summary": "Whole-body Humanoid-Object Interaction (HOI) is bottlenecked by the scarcity of high-fidelity 3D data. While video generative priors offer a promising alternative, existing methods suffer from \\textit{Representation Misalignment} due to their reliance on geometric priors (e.g., explicit CAD models), and \\textit{Retargeting Complexity} arising from intensive morphing and morphological mismatch. We propose Imagine2Real, a zero-shot HOI framework for flexible, geometry-free interaction. To resolve ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Jiahe Chen",
+      "ZiRui Wang",
+      "Feiyu Jia",
+      "Xiao Chen",
+      "Xiaojie Niu",
+      "Weishuai Zeng",
+      "Tianfan Xue",
+      "Xiaowei Zhou",
+      "Jiangmiao Pang",
+      "Jingbo Wang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22272v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22259v1",
+    "title": "An Evidence Hierarchy for Bayesian Object Classification via OSINT-Aided Heterogeneous Sensor Fusion",
+    "summary": "Heterogeneous sensor fusion is vital for detecting, localizing, and classifying CBRNE threats. However, individual sensors are often only capable of detecting a subset of relevant threats with varying reliability or can even provide only indirect threat indications, making threat classification challenging. Furthermore, high clutter rates on the sensor side present a great challenge for fusion systems. Additionally, the limited availability of high quality datasets hinders the advancement of lea",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Jan Nausner",
+      "Michael Hubner"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22259v1",
+    "sectors": [
+      "defense",
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2605.22206v1",
+    "title": "Temporal Coding as a Substrate for Sensorimotor Object Inference: A Spiking Reinterpretation of Thousand Brains Architecture",
+    "summary": "The Thousand Brains Theory (TBT) and its open-source Monty framework model object recognition through sensorimotor inference -- identifying objects by actively moving a sensor across their surface and building evidence contact by contact. The current implementation encodes each contact as a dense floating-point vector. While Monty tracks inter-step displacement and accumulates evidence across contacts, it treats the feature activation pattern at each contact as an unordered set - the directional",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Joy Bose"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22206v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22189v1",
+    "title": "Learning A Unified Risk Map for Autonomous Driving in Partially Observable Environments",
+    "summary": "Occlusion-aware prediction remains a critical challenge in autonomous driving due to the inherent uncertainty of unobserved regions. Existing approaches either overestimate risk based on reachable states or struggle to predict accurate trajectories under high occlusion uncertainty. To address these limitations, we propose a unified risk map modeling and learning framework for partially observable environments. Our method integrates traffic flow risk and collision risk through spatiotemporal mode",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Jie Jia",
+      "Yaofeng Su",
+      "Zeyu Bao",
+      "Yun Hong",
+      "Bingzhao Gao",
+      "Zhongxue Gan",
+      "Wenchao Ding"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22189v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22183v1",
+    "title": "Action with Visual Primitives",
+    "summary": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for generalist robotic manipulation. A common design in current architectures maps language instructions and visual observations to actions in a single forward pass. While conceptually simple, this formulation entangles instruction comprehension, spatial scene understanding, and motor control within a single learning objective. As a result, the action expert must implicitly relearn cognitive and perceptual capabilities alre",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Weilong Guo",
+      "Yuchen Wang",
+      "Renping Zhou",
+      "Yunfeng Zhang",
+      "Rui Fang",
+      "Yue Meng",
+      "Wenda Xu",
+      "Yuan He",
+      "Gao Huang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22183v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22164v1",
+    "title": "Beyond Euclidean Proximity: Repairing Latent World Models with Horizon-Matched Trajectory Reachability Metrics",
+    "summary": "Latent world models can contain the state needed for control, yet their terminal-cost interface can expose the planner to the wrong decision-relevant information. In common latent MPC, candidate sequences are ranked by Euclidean distance between predicted terminal and goal latent states; this assumes that raw latent distance weights reachability-relevant variables correctly. We propose trajectory reachability metrics (TRM), a post-hoc terminal-ranking method for fixed latent world models. TRM tr",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Liangyu Li",
+      "Shengzhi Wang",
+      "Qingwen Liu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22164v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22138v1",
+    "title": "Efficient Agentic Reasoning Through Self-Regulated Simulative Planning",
+    "summary": "How should an agent decide when and how to plan? A dominant approach builds agents as reactive policies with adaptive computation (e.g., chain-of-thought), trained end-to-end expecting planning to emerge implicitly. Without control over the presence, structure, or horizon of planning, these systems dramatically increase reasoning length, yielding inefficient token use without reliable accuracy gains. We argue efficient agentic reasoning benefits from decomposing decision-making into three system",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Mingkai Deng",
+      "Jinyu Hou",
+      "Lara S\u00e1 Neves",
+      "Varad Pimpalkhute",
+      "Taylor W. Killian",
+      "Zhengzhong Liu",
+      "Eric P. Xing"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22138v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22123v1",
+    "title": "Beyond Pixels: Learning Invariant Rewards for Real-World Robotics From a Few Demonstrations",
+    "summary": "Designing reward functions that generalize beyond controlled laboratory settings remains a fundamental challenge in reinforcement learning for robotics. In open-world manipulation problems, a single task can appear in numerous variants through different object instances, positions, and camera viewpoints. Recent vision-based reward models tend to memorize specific pixel distributions and fail to generalize beyond their training conditions. To address this, we propose a framework that learns invar",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Tengye Xu",
+      "Yangting Sun",
+      "Ziju Shen",
+      "Guanqi Chen",
+      "Zhen Fu",
+      "Chen yizhou",
+      "Hua Chen",
+      "Jia Pan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22123v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22082v1",
+    "title": "CoRMA: Contrastive RMA for Contact-Rich Meta-Adaptation",
+    "summary": "We present CoRMA(Contrastive Robotic Motor Adaptation), a context-based meta-adaptation framework that modifies RMA for force-dominant assembly. CoRMA replaces raw simulator-parameter adaptation with a compact 6D simulator-only semantic contact context describing contact onset, lateral engagement, guided transition, contact direction, and jamming. A deployable causal Transformer adapter infers this context online from force, proprioceptive, and action histories using semantic regression and a fo",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Wentian Wang",
+      "Chutong Wen",
+      "Hongxu Ma",
+      "Wuhao Wang",
+      "Zhexiong Xue",
+      "Abdul Haseeb Nizamani",
+      "Dandi Zhou",
+      "Xinhai Sun",
+      "Jianqiao Zhu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22082v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.22021v1",
+    "title": "Industrial Dual-Arm Box Handling via Online Inertial Estimation and Convex Wrench Optimization",
+    "summary": "Industrial robotic object handling often involves boxes and packages whose mass and center of mass are not known in advance. These uncertainties affect the force--moment balance required for stable lifting, and improper regulation of contact wrenches can lead to slip, object drop, orientation deviation, or excessive squeezing. This paper presents a friction-aware dual-arm box-handling framework for objects with unknown inertial properties. The proposed approach estimates the object mass and cent",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "cs.RO",
+    "categoryName": "Robotics",
+    "authors": [
+      "Kenzhi Iskandar Wong",
+      "Lin Yang",
+      "Qian Ying Lee",
+      "Domenico Campolo"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22021v1",
+    "sectors": []
+  },
+  {
     "id": "2605.22821v1",
     "title": "Tokenisation via Convex Relaxations",
     "summary": "Tokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering the resulting vocabulary as a whole. We instead formulate tokeniser construction as a linear program and solve it using convex optimisation tools, yielding a new algorithm we call ConvexTok. We find ConvexTok consistently improves intrinsic tokenisation metrics and the bits-per-byte (BpB) achieved by",
@@ -2452,6 +3069,2878 @@
     "links": [],
     "pdf": "https://arxiv.org/pdf/2605.22501v1",
     "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.22822v1",
+    "title": "Bottom-up open EFT for non-Abelian gauge theory with dynamical color environment",
+    "summary": "We develop a bottom-up open effective field theory (EFT) for non-Abelian gauge theories within the Schwinger--Keldysh formalism. Instead of integrating out the environment completely and starting from a nonlocal influence functional, we retain the slow environmental response variables explicitly and construct a local system-environment EFT. The environmental sector is described by a dynamical color-frame variable, St\u00fcckelberg-like field, and an associated color-current sector, which gives the no",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Yoshihiko Abe",
+      "Kanji Nishii"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22822v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22807v1",
+    "title": "How many systems can be dephased before the quantum switch becomes causally definite?",
+    "summary": "Quantum processes with indefinite causal order -- so-called causally nonseparable processes -- can exhibit various advantages over quantum circuits with a fixed or a well-defined causal structure. A natural question is how much nonclassicality is required for a process to display causal nonseparability. Here we address this by investigating how many systems can be dephased (or decohered) before this property vanishes. First, for bipartite processes with open past and future we show that if all s",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Yassine Benhaj",
+      "Kuntal Sengupta",
+      "Cyril Branciard"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22807v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22797v1",
+    "title": "One-photon communication in atomic media",
+    "summary": "We consider the problem of single-photon transmission through an atomic medium, using quantum channel fidelity to describe the resulting information loss. We find that the normalized fidelity decreases monotonically with coupling strength, establishing a performance bound for quantum communication through such media. Our results hold for several channel types and for deterministic and random media.",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Zixiang Hong",
+      "John C. Schotland"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22797v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22796v1",
+    "title": "Geometric Origin of the Non-Adiabaticity Parameter and Self-Limiting Instability in Driven Nonlinear Systems",
+    "summary": "We establish that the non-adiabaticity parameter has a direct geometric interpretation as the instantaneous evolution speed of a driven quantum state in projective Hilbert space under the Fubini Study metric. In contrast to conventional asymptotic approaches, the proposed framework provides a strictly local geometric criterion that allows non-adiabatic instability and its nonlinear suppression to be evaluated continuously at each stage of the driven evolution. We further show that an occupation-",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "A. M. Tishin"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22796v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22770v1",
+    "title": "Adiabatic Quantum Phase Estimation",
+    "summary": "Quantum phase estimation (QPE) is a central algorithmic primitive that estimates eigenvalues of a Hamiltonian up to precision $\u03b5$ in Heisenberg-limited time $T=\u0398(1/\u03b5)$. Standard gate-based implementations of QPE require deep controlled time-evolution circuits and are not native to analog hardware. Here, we present a simple adiabatic protocol for QPE that achieves (up to logarithmic factors) the optimal Heisenberg-limited scaling $T = O\\left( \\frac{1}\u03b5 \\log\\left(\u03b4^{-1}\\right)\\right)$ in both the ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Alexander Schmidhuber",
+      "Seth Lloyd"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22770v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22758v1",
+    "title": "A sharp interaction-degree threshold for simulating QAOA",
+    "summary": "We identify a sharp interaction-degree threshold for the classical simulation of QAOA with $2$-local cost functions. At degree $3$, classical sampling from depth-$1$ QAOA with small multiplicative error would collapse the polynomial hierarchy to its third level. At degree $2$, exact classical sampling from depth-$p$ QAOA on $n$ qubits runs in time $n^{O(1)}$ whenever $p = O(\\log n)$. The hard degree-$3$ instances have trivially optimizable cost functions, so sampling hardness does not by itself ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Ralfs \u0100boli\u0146\u0161",
+      "Andris Ambainis"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22758v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22744v1",
+    "title": "Quantum circuit design via dynamic Pauli constraints",
+    "summary": "We introduce a novel software-oriented model of quantum computation motivated by the practical constraints of near-term quantum hardware. In this model, gates are specified by constraints expressed in terms of Pauli observables, with each disjoint layer of gates accompanied by a pairwise or $k$-local quantum state tomography of the device. We prove that the model is equivalent to the coupling-graph-restricted circuit model and hence universal for BQP, with a polynomial overhead: simulating a dep",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "James R. Wootton",
+      "Merlin Incerti-Medici",
+      "Daniel Bultrini",
+      "Pierre Fromholz"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22744v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22713v1",
+    "title": "Self-testing of exact entanglement embezzlement",
+    "summary": "We consider bipartite exact entanglement embezzlement with a catalyst state vector $\u03c8$ in a Hilbert space $\\mathcal{H}$ using unitaries (or more generally, contractions). If $\\mathcal{M} \\subseteq \\mathcal{B}(\\mathcal{H})$ is a von Neumann algebra and $U \\in M_d \\otimes \\mathcal{M}$ and $V \\in \\mathcal{M}' \\otimes M_d$ are unitaries (or more generally contractions), then such a protocol is of the form $(U \\otimes I_d)(I_d \\otimes V)(e_0 \\otimes \u03c8\\otimes e_0)=\\sum_{i=0}^{d-1} \u03b1_i e_i \\otimes \u03c8\\ot",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Samuel J. Harris"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22713v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22603v1",
+    "title": "Sudden death of entanglement, rebirth of magic",
+    "summary": "Local Markovian noise cannot bring entanglement back, but it can bring magic back. Unlike separability, stabilizer membership is not preserved by local channels, allowing dissipation to push states out of the stabilizer polytope as well as in. Under local amplitude damping, the $n$-qubit GHZ family $\u03b1|0^n\\rangle+\u03b2|1^n\\rangle$ ($0<\u03b1<\u03b2$) loses its magic at a lower damping strength $\u03b3_-$ and regains it at a higher one $\u03b3_+$, while entanglement is irreversibly lost at $\u03b3_e$. This magic-entanglement ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Chenfeng Cao"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22603v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22583v1",
+    "title": "Optimal work extraction in measurement-based quantum Otto engines: Non-adiabaticity and generalized measurements can be beneficial",
+    "summary": "Measurement-based quantum heat engines have attracted significant interest as alternatives to conventional thermal engines, as they replace the hot thermal reservoir with quantum measurements, thereby offering greater controllability and simpler implementation. Motivated by these advantages, we investigate a measurement-driven quantum Otto engine with a qubit working substance and study the optimal work extractable from such engines, including whether their performance can surpass that of conven",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Arunabha Das",
+      "Sayan Mondal",
+      "Debarupa Saha",
+      "Ujjwal Sen"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22583v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22582v1",
+    "title": "Quantum Batteries in two-dimensional material-based Josephson Junctions",
+    "summary": "We investigate the solid-state implementation of a Dicke-like quantum battery consisting of a two-dimensional material-based Josephson junction inductively coupled to a resonator, using graphene as a representative example. In this configuration, Andreev bound states naturally act as non-interacting, energetically non-degenerate two-level systems, and the setup allows for both single-photon and two-photon resonant processes. The coupling between the LC-circuit flux and the supercurrent through t",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "V. Varrica",
+      "G. Gemme",
+      "F. M. D. Pellegrino",
+      "E. Paladino",
+      "M. Sassetti",
+      "D. Ferraro"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22582v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22580v1",
+    "title": "Practical Countermeasure Against Attacks Exploiting Detection Efficiency Mismatch in Quantum Key Distribution",
+    "summary": "We demonstrate a practical countermeasure against a well-known class of attacks on quantum key distribution (QKD) systems that exploit detection efficiency mismatch, where the receiver's detectors do not exhibit identical responses to incoming photons across all degrees of freedom. This class of quantum hacking strategies is broad and significantly includes the time-shift attack, which targets an arrival-time-dependent side channel at the receiver. The four-state countermeasure, previously only ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Ben J. Taylor",
+      "Peter R. Smith",
+      "James F. Dynes",
+      "Robert I. Woodward",
+      "Marco Lucamarini",
+      "R. Mark Stevenson",
+      "Andrew J. Shields"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22580v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22569v1",
+    "title": "A Formal Basis for Quantum Cryptographic Exposure Measurement under HNDL Threat",
+    "summary": "An adversary copies your encrypted traffic today and waits for a quantum computer to decrypt it later. How exposed are you?   We show that the functional form of the answer is not merely a calibration choice -- it is structurally justified by three assumptions about adversarial production and value-decay dynamics. Under those assumptions, the HNDL compromise probability factorises into a temporal hazard, a multiplicative cryptographic-vulnerability and operational-exposure term, and a saturation",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Matheus Rufino",
+      "Rafael Duarte Marcelino",
+      "Julio Smanioto Garcia"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22569v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22555v1",
+    "title": "Entanglement Dynamics across a Monitored Quantum Point Contact",
+    "summary": "We compute the entanglement dynamics across a monitored quantum point contact, where particle losses are recorded on a given site, and demonstrate how this single-site local monitoring substantially reshapes the entanglement production. Contrary to the unitary case, where entanglement entropy grows logarithmically in time, here we find first a linear growth, up to a maximum value displaying volume-law scaling, and then a slow decay to zero, as the system empties out. We capture this crossover us",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Anna Delmonte",
+      "Marco Schir\u00f2"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22555v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22551v1",
+    "title": "Joint Unitarity and a Single Definite Outcome in a Quantum Measurement",
+    "summary": "We investigated the possibility that a single measurement run with a definite outcome is a joint unitary evolution of all the participating systems, and measurement runs with different definite outcomes correspond to different unitary maps. With reasonable assumptions, we derived a lower bound of the dependence of the environment after measurement on the state of the system before measurement, conditioned on the same measurement outcome. An experimental test of this dependence relation can eithe",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Muxi Liu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22551v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22463v1",
+    "title": "Reinforcement learning for ion shuttling on trapped-ion quantum computers",
+    "summary": "Scalable trapped-ion quantum computing is commonly realized with modular chips that feature distinct zones with specific functionalities, such as storage, state preparation, and gate execution. To execute a quantum circuit, the ions must be transported between these zones. This process is called ion shuttling. To achieve reliable computation results, the shuttling process must be optimized. However, as the number of ions increases, this becomes a high-dimensional optimization problem where optim",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Maximilian Schier",
+      "Lea Richtmann",
+      "Christian Staufenbiel",
+      "Tobias Schmale",
+      "Daniel Borcherding",
+      "Mich\u00e8le Heurs",
+      "Bodo Rosenhahn"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22463v1",
+    "sectors": [
+      "robotics",
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22459v1",
+    "title": "Reduced Dynamical Maps in Finite Temperature Vibronic Coupling Models via Choi Matrices: Numerical Methods and Applications",
+    "summary": "We present a streamlined implementation of a computational framework for constructing and analyzing reduced dynamical maps for complex system--bath models at finite temperature. The methodology is based on three established ingredients of quantum dynamics: the Choi--Jamio\u0142kowski isomorphism for the representation of quantum channels, thermofield (TFD) purification of thermal environments, and tensor-train (TT) propagation of the resulting enlarged pure state. The reduced map is obtained from a s",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Raffaele Borrelli",
+      "Hideaki Takahashi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22459v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22439v1",
+    "title": "Minimal Permutation-Invariant Qudit Codes from Edge-Colorings of Complete Graphs",
+    "summary": "We study permutation-invariant quantum codes in the symmetric subspace $\\mathrm{Sym}^n(\\mathbb{C}^q) $ of $n$ qudits of local dimension $q$. For every integer $q\\geq 2$, we construct a permutation-invariant code with parameters $((4,q,2))_q$. Thus four physical qudits suffice to encode one logical qudit with distance two in the symmetric sector for every local dimension. We also show, using linear-programming constraints for permutation-invariant quantum codes, that no permutation-invariant code",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Eric Kubischta",
+      "Ian Teixeira"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22439v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22433v1",
+    "title": "QuCtrl-BELL: A Compiler-Driven Sub-Microsecond Feedback Control Stack for Scalable Trapped-Ion Quantum Experiments",
+    "summary": "As trapped-ion quantum computing scales to larger qubit registers and more complex control protocols, classical control systems face a fundamental tradeoff: sub-microsecond board-level feedback requires tight hardware coupling, whereas maintainability and extensibility require clean, modular software abstractions. This paper presents QuCtrl-BELL (Bell), a compiler-driven software stack for trapped-ion quantum control. The design resolves this tradeoff by decoupling control flow -- including loop",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Junpeng She",
+      "Ruoyu Yan",
+      "Zhizhen Qin",
+      "Zhanyu Li",
+      "Zhongtao Shen",
+      "Zichao Zhou",
+      "Binxiang Qi",
+      "Luming Duan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22433v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22424v1",
+    "title": "Long-range nonstabilizerness of topologically encoded states from mutual information",
+    "summary": "We study long-range nonstabilizerness (LRN), namely the obstruction to remove nonstabilizerness with shallow-depth local quantum circuits. In one-dimensional settings, the mutual information between disconnected spatial regions has proven to be a powerful tool to diagnose LRN. In this work, we focus on encoded states of two-dimensional topologically-ordered systems, and explore the ability of the mutual information to serve as a diagnostic of LRN. Focusing on the concrete setting of lattice mode",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "David Aram Korbany",
+      "Tyler D. Ellison",
+      "David T. Stephen",
+      "Lorenzo Piroli"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22424v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22412v1",
+    "title": "Ratchet Universality and optimal suppression of shot noise in biharmonically-driven tunnel junctions",
+    "summary": "This Letter discusses two retrodictions of the law of ratchet universality which explain previous numerical and experimental results concerning the diode effect in conventional superconducting tunnel-junctions in one case, and controlled suppression of electron-hole pair generation in a tunnel junction in the other, both in the presence of biharmonic driving fields. Our study demonstrates that the ratchet universal driving field maximizes the diode's efficiency while yielding a maximal rectifica",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Pedro J. Mart\u00ednez",
+      "Ricardo Chac\u00f3n"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22412v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22392v1",
+    "title": "The relative entropy of magic and its nonadditivity",
+    "summary": "In most stabilizer-based quantum computing schemes, so-called magic states are a necessary resource for implementing non-transversal quantum gates. With the resource theory of magic, it is possible to analyze and quantify the generation of the non-stabilizer states. The relative entropy is a measure used in various resource theories. For single qubits, we characterize magic states and their closest stabilizer states by applying analytical results known from the relative entropy of entanglement a",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Carolin Deckers",
+      "Justus Neumann",
+      "Hermann Kampermann",
+      "Dagmar Bru\u00df"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22392v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22386v1",
+    "title": "Factorization rule for multitime correlations in non-Markovian open quantum systems",
+    "summary": "Experiments performed on quantum systems often measure multitime correlation functions. When quantum systems are weakly coupled to their environment, the time evolution of such correlation functions can be reduced to that of the reduced density matrix by the quantum regression theorem (QRT). While no QRT is available for general non-Markovian open quantum systems, we show that for time-independent Hamiltonians and finite memory times $\u03c4_c$, an exact factorization rule exists that relates higher-",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Thomas K. Bracht",
+      "Moritz Cygorek"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22386v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22339v1",
+    "title": "Dual wavelength source of entanglement for space quantum communication",
+    "summary": "We report the demonstration of a bulk, intrinsically phase-stable source of polarization- and time-energy-entangled photon pairs at 810nm and 1550nm, directly coupled into single-mode optical fibers. This highly non-degenerate wavelength combination is well suited for hybrid quantum communication networks, enabling low-loss transmission in optical fibers at 1550nm while maintaining efficient free-space propagation and detection at 810nm. The source is based on spontaneous parametric down-convers",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Valentin Dumas",
+      "Alek Lagarrigue",
+      "Tess Troisi",
+      "Gregory Sauder",
+      "Sebastien Tanzilli",
+      "Anthony Martin",
+      "Olivier Alibart"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22339v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22318v1",
+    "title": "Shielded inner-shell transitions in atomic samarium for tests of fundamental physics",
+    "summary": "Forbidden atomic transitions provide some of the most stringent low-energy tests of physics beyond the Standard Model, with sensitivity set by the interplay between the sought-for signals and systematics suppressed by symmetry. Here we identify the previously unobserved $4f^{6}6s^{2}\\,{}^{5}$D$_{0}$ level of neutral samarium at $14\\,564.90(2)\\,\\mathrm{cm}^{-1}$, opening the ${}^{7}$F$_{0}\\rightarrow{}^{5}$D$_{0}$ inner-shell transition for precision spectroscopy. Candidate lines extracted from d",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "R. Aramyan",
+      "D. Budker",
+      "V. A. Dzuba",
+      "V. V. Flambaum",
+      "S. G. Porsev",
+      "M. S. Safronova",
+      "O. Tretiak",
+      "K. Zhang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22318v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22293v1",
+    "title": "Modular Variables and the Limits of Phase Detectability in Open Quantum Systems",
+    "summary": "Modular variables serve as a striking example of quantum nonlocality, particularly in superpositions of wave packets that are spatially well separated, where the relative phase between components cannot be accessed through conventional local measurements. In this work, we explore the time evolution of Hermitian modular operators for Gaussian wave-packet superpositions under the influence of a uniform gravitational field. We consider both unitary dynamics governed by the Schr\u00f6dinger equation and ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "S. V. Mousavi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22293v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22276v1",
+    "title": "Asymmetric quantum Rabi model, trap-dipole resonance, and quantum gates with optically trapped ultracold polar molecules",
+    "summary": "Optically trapped ultracold polar molecules can have multiple long-lived states for coding quantum information, and can exhibit electric dipole-dipole interactions~(DDI) which enables entanglement generation. The general understanding on the quantized motion~(QM) of molecules in the traps is that it causes fluctuation of DDI. Here, we find that the molecular QM can realize an asymmetric quantum Rabi model, which is of specific importance in the study of fundamental physics. The molecular QM can ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Yan Lu",
+      "Xiao-Feng Shi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22276v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22267v1",
+    "title": "Emulation of Optically Interconnected Quantum Data Centers Topologies for Cost-Fidelity Benchmarking",
+    "summary": "We emulate optically interconnected quantum processors in ring, star, and line topologies using a quantum computer. GHZ benchmarks show that the star provides the best trade-off between cost and fidelity under transduction and fiber noise.",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Seyed Navid Elyasi",
+      "Seyed Morteza Ahmadian",
+      "Rui Lin",
+      "Paolo Monti"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22267v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22264v1",
+    "title": "Statistical Interpretation of the Procedures Measurement of Physical Quantities",
+    "summary": "This work develops a conceptual framework for the foundations of quantum physics, linking two main approaches: the algebraic formulation and quantum probability. Rather than proposing new axioms or theories, the text reorganizes and synthesizes existing models, highlighting their assumptions, conceptual structures, and operational significance. The analysis begins with von Neumann's measurement theory and its subsequent developments by Mackey, emphasizing the role of experimentally feasible proc",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Pandiscia Carlo"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22264v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22226v1",
+    "title": "Geometric Construction of Optimal Teleportation Witnesses",
+    "summary": "Not all entangled states are useful for quantum teleportation. We present a geometric method to construct optimal teleportation witnesses, which provide operational necessary and sufficient criteria for identifying the teleportation usefulness of arbitrary two-qudit entangled states. Specifically, by developing a two-layer iterative cutting-plane algorithm to solve the shortest distance problem from the target state $\u03c1$ to the convex set $S$ of useless states, we obtain the projection point $\u03c3^*",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "quant-ph",
+    "categoryName": "Quantum Physics",
+    "authors": [
+      "Yanning Jia",
+      "Fenzhuo Guo",
+      "Mengxuan Bai",
+      "Mengyan Li",
+      "Haifeng Dong",
+      "Fei Gao"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22226v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22704v1",
+    "title": "All-band photonic integrated optical parametric amplification",
+    "summary": "Optical amplifiers are ubiquitous in science and technology and are the workhorse of modern communications. Currently, virtually all amplifiers rely on atomic resonances, such as rare-earth-doped fibers, or are based on III-V semiconductors. Fueled by emerging applications, there is increased demand for amplifiers that are high-gain, broadband, low-noise, and deliver high output power outside traditional wavelength ranges. Over the past few decades, it has been shown that optical parametric ampl",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Nikolai Kuznetsov",
+      "Zihan Li",
+      "Tobias J. Kippenberg"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22704v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22442v1",
+    "title": "Inelastic collisions of fast charged particles with atoms. Relativistic plane-wave Born approximation",
+    "summary": "A detailed formulation of the relativistic plane-wave Born approximation for inelastic collisions of charged particles with free atoms and positive ions is presented. The wave functions of the target atom or ion are calculated from a central-field independent-electron model with the Dirac-Hartree-Fock-Slater self-consistent potential, and the electromagnetic field is expressed in the Coulomb gauge. The double-differential cross section, depending on the energy loss and the recoil energy, is give",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Francesc Salvat"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22442v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22381v1",
+    "title": "A Solid-state Sub-nm Pore for Single-mer Resolution Sequencing",
+    "summary": "Nanopore sequencing accuracy is inherently limited by the quality of data from individual molecular translocation events, requiring advances beyond traditional sequencing-by-synthesis methods. We introduce an oxidized pyramidal sub-nm pore (OPSP) integrated in a threeterminal sensing platform, where the sub-nm silicon pore functions as an electrode for detecting displacement currents across an oxide barrier, induced by counter-ion migration within the electric double layer. This platform achieve",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Jianxin Yang",
+      "Dehua Hu",
+      "Wu Yuan",
+      "Tianle Pan",
+      "Ho-Pui Ho"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22381v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22319v1",
+    "title": "Two-dimensional alternating ferrimagnetism with strain-controlled half-metallic state and valley polarization",
+    "summary": "The discovery of altermagnetism offers new opportunities for exploring novel quantum states and developing spintronic devices for enabling momentum dependent spin splitting in compensated systems, while zero net magnetization limit its manipulability using conventional magnetic method. Here, we propose 2D alternating ferrimagnetism,a phase merging alternating momentum dependent spin splitting with a finite net magnetization. A tight binding model reveals that alternating ferrimagnetism originate",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "W. Z. Zhuo",
+      "Z. H. Guan",
+      "Z. L. Peng",
+      "Y. N. Pan",
+      "J. Chen",
+      "Y. Yang",
+      "M. H. Qin"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22319v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22279v1",
+    "title": "Simultaneously monitoring Ga adsorption and desorption kinetics on GaN(0001) using four in situ techniques",
+    "summary": "We present a systematic investigation of Ga adsorption and desorption kinetics on the wurtzite GaN(0001) surface using four in situ techniques operated simultaneously: reflection high-energy electron diffraction, laser reflectometry, line-of-sight quadrupole mass spectrometry, and optical pyrometry. Flux- and temperature-dependent experiments are performed for Ga coverages ranging from the submonolayer to the droplet regime. Despite their distinct transient responses, the signals from all four t",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Huaide Zhang",
+      "Philipp John",
+      "Jingxuan Kang",
+      "Lutz Geelhaar",
+      "Yongjin Cho",
+      "Oliver Brandt"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22279v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22220v1",
+    "title": "OAM Light Demultiplexing from an Intensity Profile using Orthogonality Renormalization of Pair Modes",
+    "summary": "Orbital Angular Momentum (OAM) of light is a promising degree of freedom for next-generation communication. By exploiting the orthogonality of OAM modes, multi-channel division enables a linearly increase in communication performance proportional to the number of available modes. However, the multiplexing and demultiplexing of each superposition state remain essential yet complex processes. Demultiplexing has been established through spatial-domain methods that require additional optical element",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Junsu Kim",
+      "Hyunchae Chun",
+      "SeungRyong Park"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22220v1",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2605.22024v1",
+    "title": "A Reciprocity-Based Signal Compensation Framework for Ultrasonic Backscatter Measurements in Heterogeneous Scattering Media",
+    "summary": "Ultrasonic backscatter measurements are widely used for microstructural characterisation. However, in materials containing strong anisotropy and spatial heterogeneity, the interpretation of backscatter signals becomes challenging because distance-dependent propagation effects can obscure genuine microstructural variations across depth. In this paper, a cross-directional compensation method is presented for ultrasonic backscatter measurements acquired from opposing inspection surfaces. The method",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Wei Yi Yeoh",
+      "Bo Lan",
+      "Michael J. S. Lowe"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22024v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21926v1",
+    "title": "Robust Broadband Infrared Unidirectional Absorption Enabled by a Non-Hermitian Multilayer",
+    "summary": "Unidirectional electromagnetic absorption provides a powerful approach for controlling light and heat, yet broadband realization in the infrared spectral region remains experimentally unexplored. Here, we report a non-Hermitian multilayer structure that enables robust broadband infrared unidirectional absorption. By combining low- and high-loss materials and engineering their thicknesses using the transfer-matrix formulation, the structure exhibits nearly perfect absorption spectrally matched to",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Ayaha Yamamoto",
+      "Ganbat Batorgil",
+      "Yu-Jung Lu",
+      "Satoshi Iwamoto",
+      "Wakana Kubo"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21926v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21619v1",
+    "title": "Adaptive and ultrabroadband thermal control with solid-state nanophotonic emitters",
+    "summary": "Managing the emission and absorption of thermal radiation is crucial for a wide range of technologies, from radiative cooling of buildings and vehicles to thermal regulation of satellites and future lunar and Mars habitats. Despite this universal and critical need, thermal emitters capable of adaptively modulating emissivity in a broadband, high-contrast, and fully solid-state manner remain elusive. Here, we leverage neural-network-guided photonic design to enable adaptive, solid-state thermal e",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Daniel Kindem",
+      "Sam Keller",
+      "Karl Pederson",
+      "Yujie Luo",
+      "James Flaten",
+      "Ognjen Ilic"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21619v1",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2605.21083v1",
+    "title": "AIMBio-Mat: An AI-Native FAIR Platform for Closed-Loop Materials Discovery and Biomedical Translation",
+    "summary": "Materials discovery and biomedical translation increasingly require models that can reason across composition, processing, structure, biological response, manufacturability, safety, and governance constraints. Existing materials and biomedical data ecosystems are powerful but remain poorly coupled for AI-guided discovery. Here we present AIMBio, a conceptual framework for an AI-native, FAIR, and governance-aware decision layer that links materials provenance, biomedical context, knowledge graphs",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "D. -M. Mei",
+      "K. Acharya",
+      "C. M. Adhikari",
+      "M. Adhikari",
+      "S. Aryal",
+      "B. V. Benson",
+      "K. Bhatta",
+      "S. Bhattarai",
+      "N. Budhathoki",
+      "A. M. Castillo",
+      "D. Chakraborty",
+      "S. Chhetri",
+      "S. Choudhury",
+      "T. A. Chowdhury",
+      "R. D. Cruz",
+      "B. Cui",
+      "S. Dhital",
+      "K. -M. Dong",
+      "R. Gapuz",
+      "A. Ghasemi",
+      "E. Z. Gnimpieba",
+      "B. D. S. Gurung",
+      "H. A. Hashim",
+      "R. I. Harry",
+      "K. -E. Hasin",
+      "M. K. Hassanzadeh",
+      "M. K. Jha",
+      "D. Kim",
+      "K. -C. Kong",
+      "B. Lama",
+      "A. Mahat",
+      "N. Maharjan",
+      "A. Majeed",
+      "J. Mammo",
+      "M. M. Masud",
+      "K. S. Moore",
+      "A. Nawaz",
+      "H. Oli",
+      "S. A. Panamaldeniya",
+      "L. Pandey",
+      "R. Pandey",
+      "Z. Peng",
+      "A. Prem",
+      "M. M. Rana",
+      "K. Rana Magar",
+      "R. Rizk",
+      "C. S. Tadi",
+      "L. -W. Wang",
+      "Y. Yang",
+      "G. -L. Yin",
+      "C. -X. Yu",
+      "D. Zeng",
+      "M. Zhou",
+      "Q. Zhou"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21083v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21022v1",
+    "title": "Efficient purely organic phosphorescent emitters for programmable luminescent tags: from building blocks to donor-acceptor-donor structures",
+    "summary": "Purely organic room-temperature phosphorescence (RTP) emitters are key components of programmable luminescent tags (PLTs), photonic devices for rewritable information storage and UV dosimetry. In this work, we systematically explore the design space of donor-acceptor and donor-acceptor-donor organic phosphorescent emitters in symmetric and asymmetric architectures. Phenoxathiine (PX) is introduced as an alternative donor to thianthrene (TA), combined with benzophenone (BP) or pyridine (Py) as ac",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Uliana Tsiko",
+      "Sebastian Kaiser",
+      "Jannis Fidelius",
+      "Tim Achenbach",
+      "Jan J. Weigand",
+      "Sebastian Reineke",
+      "Karl Sebastian Schellhammer"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21022v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21014v1",
+    "title": "Demonstration of Broadband Non-Resonant Time-Crystal Amplification in Microwaves",
+    "summary": "We report an optically modulated experimental realization of a photonic time crystal (PTC) in the microwave regime, demonstrating for the first time that the PTC exponential growth can overcome losses and finite-size constraints of a practical spatio-temporal system and yield stable positive terminal gain over a continuous broadband frequency range. The developed experimental platform is a purely time-modulated capacitor (TMC) microwave circuit based on a microstrip transmission line, in which s",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Thomas R. Jones",
+      "Ludmila J. Prokopeva",
+      "Alexander V. Kildishev",
+      "Mordechai Segev",
+      "Dimitrios Peroulis"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21014v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20900v1",
+    "title": "Topological phononics",
+    "summary": "Topological phononics extends the foundational concepts of topological condensed matter physics to the realm of lattice vibrations and classical mechanical waves, unlocking robust, defect-immune states and phenomena beyond the reach of conventional phononic engineering. This review provides a unified, systematic framework for understanding topological phonons across natural and artificial systems, spanning solid-state materials, acoustic/mechanical metamaterials, and non-Hermitian platforms. We ",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Zeguo Chen",
+      "Tiantian Zhang",
+      "Xulong Wang",
+      "Jiangxu Li",
+      "Zhi-Kang Lin",
+      "Feng Gao",
+      "Li-Wei Wang",
+      "Yizhou Liu",
+      "Qi Wang",
+      "Xiujuan Zhang",
+      "Guancong Ma",
+      "Xingqiu Chen",
+      "Minghui Lu",
+      "Yanfeng Chen",
+      "Jian-Hua Jiang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20900v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20855v1",
+    "title": "Local Circular Dichroism and Polarization Coupling in Phthalocyanine Molecular Assemblies Revealed by Photoinduced Force Microscopy",
+    "summary": "Photoinduced force microscopy (PiFM) enables nanoscale visualization of optical responses by directly detecting photoinduced forces without relying on luminescence. In molecular assemblies, intermolecular polarization coupling can generate collective excitation modes and chiral optical responses that are absent in isolated molecules. In this study, we theoretically investigate PiFM images of ZnPc molecular assemblies using the discrete dipole approximation combined with nonlocal molecular suscep",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Masayoshi Fujii",
+      "Mamoru Tamura",
+      "Hidemasa Yamane",
+      "Hajime Ishihara"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20855v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20832v1",
+    "title": "Lasing from SOI-integrated GaAsSb nanowires via resonator-driven optical feedback",
+    "summary": "Silicon photonic integrated circuits critically depend on compact on-chip light sources, for which nanowire (NW) lasers are an attractive solution. However, their practical implementation is often limited by broad emission linewidths and poor frequency stability resulting from weak optical feedback. Here, we integrate individual GaAsSb NWs by transfer-printing onto silicon-on-insulator (SOI) racetrack resonators to realize optical feedback at silicon-transparent wavelengths. Finite-difference-ti",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "J. Z\u00f6llner",
+      "C. Doganlar",
+      "C. Garc\u00eda Marcilla",
+      "S. Meder",
+      "G. Koblm\u00fcller",
+      "J. J. Finley"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20832v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20474v1",
+    "title": "Ultrafast temperature diagnosis of dynamically compressed matter using millielectronvolt inelastic x-ray scattering beyond the first Brillouin zone",
+    "summary": "We present calculations of the millielectronvolt-scale x-ray scattering spectra of multilayered dynamic-compression targets comprising an unstructured ablator layer and a crystalline, textured sample layer. Our model builds on the classic formulation of x-ray thermal diffuse scattering by Warren [B. E. Warren, Acta Crystallogr. 6, 803 (1953)] and includes both elastic and first-order (single-phonon) inelastic scattering contributions to the dynamic structure factor $S(\\mathbf{q},\u03c9)$. We focus on",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "P. G. Heighway",
+      "J. S. Wark"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20474v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20420v1",
+    "title": "An AI-driven robotic system for two-dimensional hetero-assemblies",
+    "summary": "Nanomaterials stacked on-demand, such as rotationally assembled two-dimensional (2D) van der Waals (vdW) layered compounds, provides a versatile platform for quantum simulation and the exploration of exotic electronic phases. Currently, however, such nanoassemblies remain largely confined to inefficiency, manually operated process, limiting their potential for probing emergent physical phenomena. There is a pressing need in the field for high-precision, automated assembling techniques, especiall",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Xiaoxi Li",
+      "Jinkun He",
+      "Haojie Liu",
+      "Xipeng Liu",
+      "Zewen Wu",
+      "Jing Li",
+      "Kai Zhao",
+      "Shan Li",
+      "Xingdan Sun",
+      "Xiaoxue Fan",
+      "Zhiren Xiong",
+      "Xingguang Wu",
+      "Xuanzhe Sha",
+      "Zhili Lin",
+      "Caixia Yang",
+      "Luosha Han",
+      "Jie Xu",
+      "Woye Pei",
+      "Kaining Yang",
+      "Jing Zhang",
+      "Xiaolong Feng",
+      "Tongyao Zhang",
+      "Zhu Liang",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Ming Tian",
+      "Neng Wan",
+      "Jing Zhang",
+      "Jianming Lu",
+      "Wenjing Hong",
+      "Zheng Vitto Han"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20420v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20406v1",
+    "title": "High Performance TiO2 Ferroelectric Field Effect Transistors with HfZrO2 for Neuromorphic Computing",
+    "summary": "TiO2 ferroelectric field effect transistors (FeFETs) with HfZrO2 (HZO) ferroelectric dielectric layers and bottom gate topology are fabricated for applications in neuromorphic systems. Two sets of devices are fabricated with different gate topologies by varying the thickness of the ferroelectric gate stack. Different device architectures are studied by varying the source drain length (LSD) and gate length (LG). The devices have high on/off ratios up to 10^7 with low leakage off currents <10^-12 ",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Chandan Samanta",
+      "Elia Palmese",
+      "Ziyu Ouyang",
+      "Tuofu Zhama",
+      "Robinson Pino",
+      "Yuping Zeng"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20406v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20375v1",
+    "title": "2D GaSe-Based Single-Pixel Spectrometer via Electro-Optical Barrier Co-Modulation",
+    "summary": "Driven by the growing demand for miniaturized spectrometers for in-situ analysis, and point-of-care diagnostics, conventional spectrometers are often constrained by bulky architectures and pathlength-limited spectral resolution. Achieving high-resolution, single-pixel computational spectrometers is therefore critical for the realization of compact, on-chip systems. Here, we report a single-pixel spectrometer enabled by a single 2D material; few-layer GaSe-based photodetector, in which the Schott",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Shibesh Pramanik",
+      "Rishabh Sahoo",
+      "Arnab Mondal",
+      "Tithi Saha",
+      "Ankush Bag",
+      "Vibhav Bharadwaj Shivakumar",
+      "Rishi Maiti"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20375v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20180v1",
+    "title": "Beyond the Purcell Effect: Controlling Pure Quantum Dephasing with Spin Noise Metasurfaces",
+    "summary": "One central theme in quantum photonics is tailoring the interactions between atoms/spins and their electromagnetic (EM) environments. Considerable effort has focused on engineering spontaneous emission by shaping EM environments, known as the Purcell effect. However, photonic environment control of pure dephasing, which is a complementary paradigm of non-unitary atom/spin couplings with EM environments, remains largely unexplored. Here, we introduce a nanophotonic approach to modify qubit pure d",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Wenbo Sun",
+      "Shoaib Mahmud",
+      "Wei Zhang",
+      "Runwei Zhou",
+      "Pronoy Das",
+      "Dan Jiao",
+      "Zubin Jacob"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20180v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.19930v1",
+    "title": "High resolution large working distance scanning helium microscopy",
+    "summary": "Scanning helium microscopy (SHeM) is attractive for imaging delicate and insulating surfaces because it combines a non-destructive neutral-atom probe with strong surface sensitivity. However, large-working-distance pinhole instruments have so far been limited in spatial resolution. Here we report sub-micron resolution in a large-working-distance pinhole SHeM, with an intrinsic beamwidth of 340nm achieved at working distances of 770 \u03bcm to 850 \u03bcm. This sixfold improvement over our previous long-wo",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Sam M Lambrick",
+      "Nick A von Jeinsen",
+      "Alek Radi\u0107",
+      "David J Ward",
+      "Donald MacLaren",
+      "Andrew P Jardine"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19930v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19802v1",
+    "title": "Building a Regional Data-Centric Materials Science Ecosystem for Processing-Rich Materials Innovation in the Great Plains",
+    "summary": "Data-centric materials science is changing how materials are discovered, optimized, manufactured, and qualified, yet many deployment-limiting materials problems still depend on experimental, processing-rich, device-level, and field-relevant data that are difficult to capture in conventional materials databases. This perspective argues that the Great Plains and adjacent interior research corridor can make a distinctive national contribution by organizing distributed experimental assets into a tru",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "D. -M. Mei",
+      "K. Acharya",
+      "C. M. Adhikari",
+      "M. Adhikari",
+      "S. Aryal",
+      "B. V. Benson",
+      "K. Bhatta",
+      "S. Bhattarai",
+      "N. Budhathoki",
+      "A. M. Castillo",
+      "D. Chakraborty",
+      "S. Chhetri",
+      "S. Choudhury",
+      "T. A. Chowdhury",
+      "R. D. Cruz",
+      "B. Cui",
+      "S. Dhital",
+      "K. -M. Dong",
+      "R. Gapuz",
+      "A. Ghasemi",
+      "E. Z. Gnimpieba",
+      "B. D. S. Gurung",
+      "H. A. Hashim",
+      "R. I. Harry",
+      "K. -E. Hasin",
+      "M. K. Hassanzadeh",
+      "M. K. Jha",
+      "D. Kim",
+      "K. -C. Kong",
+      "B. Lama",
+      "A. Mahat",
+      "N. Maharjan",
+      "A. Majeed",
+      "J. Mammo",
+      "M. M. Masud",
+      "K. S. Moore",
+      "T. Mukherjee",
+      "A. Nawaz",
+      "H. Oli",
+      "S. A. Panamaldeniya",
+      "L. Pandey",
+      "R. Pandey",
+      "Z. Peng",
+      "A. Prem",
+      "M. M. Rana",
+      "K. Rana Magar",
+      "R. Rizk",
+      "C. S. Tadi",
+      "L. -W. Wang",
+      "Y. Yang",
+      "G. -L. Yin",
+      "C. -X. Yu",
+      "D. Zeng",
+      "M. Zhou",
+      "Q. Zhou"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19802v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19751v1",
+    "title": "Integrated Circuit Architecture for Real-Time Sensing with Embedded Microbial Whole-Cell Sensors",
+    "summary": "Bacteria sense a diverse range of environmental analytes with high sensitivity and temporal resolution. Engineering and synthetic biology approaches enabled harnessing this capability through development of whole-cell biosensors that respond to specific molecules of interest. However, converting these responses into electrical signals in real time, across different environmental conditions, in miniaturized, field-deployable microelectronic devices, remains challenging. Here we present a bioelect",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Amritha Janardanan",
+      "Soner Sonmezoglu",
+      "Stefano Sonedda",
+      "Tom J. Zajdel",
+      "James L. Flewellen",
+      "Meera Lester",
+      "Behzad Rad",
+      "Michel M. Maharbiz",
+      "Teuta Pilizota"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19751v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19590v1",
+    "title": "Photolithography-Only Fabrication of Transmons Using Double-Oblique Evaporation",
+    "summary": "We investigate a photolithography-only fabrication process for transmon Josephson junctions using a modified double-oblique evaporation geometry. Using a bilayer resist process and Al shadow evaporation, we fabricate junction structures and confirm by optical and scanning electron microscopy that the resulting narrowed crossing region reaches a geometrical area on the order of $10^4~\\mathrm{nm}^2$, which lies in the size range relevant to qubit junction fabrication. Room-temperature resistance s",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "K. Aoyanagi",
+      "S. Abe",
+      "S. Chen",
+      "T. Inada",
+      "C. Kawai",
+      "Y. Mino",
+      "K. Nakamura",
+      "K. Nakazono",
+      "T. Nitta",
+      "K. Watanabe"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19590v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.19585v1",
+    "title": "Sub-millisecond electrical explosion of thin Aluminium foil: Explosion dynamics, Material Phase transitions and Plasma formation",
+    "summary": "Experiments with thin 13 microns thick Al-foils have been carried out to explain its explosion dynamics, accompanying phase transitions and its relation to formation of plasma. Fast framing cameras were used to record the foil radiation during explosion process and have been correlated with electrical diagnostics to understand the underlying process such as hot spot formation and foil radiation. The electrical explosion was driven by pulsed power for which a capacitive power supply of rating 5kV",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Aditya Nandan Savita",
+      "Sambaran Pahari",
+      "Neraj Shiv",
+      "IVV Suryaprasad"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19585v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2605.19498v1",
+    "title": "Near-Field Vibrational Energy Transfer for Mid-Infrared Upconversion in Plasmonic Nanogaps",
+    "summary": "F\u00f6rster energy transfer underpins modern photonics, yet establishing an analogous vibrational pathway in the mid-infrared (MIR) remains highly challenging, as sub-picosecond intramolecular vibrational redistribution (IVR) suppresses intermolecular coupling. Here we demonstrate vibrational donor--acceptor transfer in the MIR and subsequent upconversion to visible luminescence enabled by sub-2 nm plasmonic nanogaps. The extreme lateral field confinement in metal--molecule--metal ring cavities defi",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Avisekh Pal",
+      "Anju Sajan",
+      "Christopher Sumner",
+      "Eman Alharbi",
+      "Wolfgang Theis",
+      "Rohit Chikkaraddy"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19498v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19360v1",
+    "title": "Scalable, Energy-Efficient Optical-Neural Architecture for Multiplexed Deepfake Video Detection",
+    "summary": "The rapid proliferation of AI-generated visual media has created an urgent need for efficient, trustworthy deepfake detection systems. However, existing deep learning-based detection methods rely on computationally intensive and energy-demanding inference algorithms, limiting their scalability. Here, we present a hybrid digital-analog deepfake video detection framework that combines a lightweight digital front-end with a spatially multiplexed optical decoding back-end for massively parallel anal",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Parnian Ghapandar Kashani",
+      "Shiqi Chen",
+      "Aydogan Ozcan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19360v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.19345v1",
+    "title": "High-stability offset-frequency locking of two lasers using a balanced filter discriminator",
+    "summary": "We demonstrate a high-stability laser offset-frequency locking technique based on a balanced filter discriminator. The beat note between two 852 nm external-cavity diode lasers is down-converted in two parallel arms using local-oscillator frequencies placed symmetrically around the desired offset frequency. After low-pass filtering and RMS detection, differential subtraction of the two detector outputs produces a dispersive frequency-error signal with a zero crossing primarily defined by the ref",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Sang Eon Park",
+      "Meung Ho Seo",
+      "Young-Ho Park",
+      "Hyun-Gue Hong",
+      "Sang-Bum Lee",
+      "Sangwon Seo",
+      "Jae Hoon Lee",
+      "Seji Kang",
+      "Taeg Yong Kwon"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19345v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20259v1",
+    "title": "Morphology-Driven optimization of Double Nanohole-based Plasmonic Optical Tweezers",
+    "summary": "Plasmonic optical tweezers based on Double Nanohole (DNH) structures are an emerging tool for label-free single-molecule manipulation. However, their current performance is hindered by low signal-to-noise ratios for small proteins, fabrication variability, and thermal damage risks from high laser power requirements. To address these limitations, we present a comprehensive optimization of DNH parameters using systematic simulations and morphological characterization. We evaluate critical structur",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Pau Molet",
+      "Mariano Barella",
+      "Edona Karaka\u00e7i",
+      "Maria Sanz Paz",
+      "Michael Mayer"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20259v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.18492v1",
+    "title": "Simulation of S-parameters of general multilayer boxed PCBs with the method of moments and the scattering matrix algorithm",
+    "summary": "Printed circuit board (PCB) modelling is an important part of the PCB production process, in which the designer aims to optimize the desired output characteristics prior to physical PCB manufacturing. Due to the specific shape of PCBs, namely, thin and highly conductive components enclosed within a relatively simply shaped dielectric host, the PCB modelling problem is amenable to solution by the so-called 2.5D Method of Moments (MoM) applied to the integral equation solution of Maxwell's equatio",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "A. O. Makarenko",
+      "P. Zheglova",
+      "R. Gaponenko",
+      "R. V. Salimov",
+      "R. I. Tikhonov",
+      "A. A. Shcherbakov"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.18492v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22805v1",
+    "title": "Two bodies left behind",
+    "summary": "We consider scenarios in which a shallow bound state undergoes breakup by a probe whose energy is high compared to the binding energy. The first two scenarios, which serve as warm-up exercises, involve a single heavy particle bound to a light particle, analogous to a core nucleus bound to a neutron. We show that in quasi-free kinematics, the leading effect comes from the heavy particle being knocked out by the probe, with corrections suppressed by inverse powers of the probe momentum. This forma",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Ra\u00fal A. Brice\u00f1o",
+      "Caroline S. R. Costa",
+      "Hans-Werner Hammer",
+      "Daniel R. Phillips"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22805v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2605.22757v1",
+    "title": "Nuclear Rainbow of Core-Symmetric Systems",
+    "summary": "The nearside-farside (NF) decomposition method developed originally by Fuller for elastic scattering of a nonidentical nucleus-nucleus system was generalized to study the nuclear rainbow pattern in a symmetric or core-symmetric dinuclear system. It has been shown that the projectile-target identity of an identical system implies a symmetric interchange of the nearside and farside components of elastic scattering amplitude around $\u03b8_{\\mathrm{c.m.}}=90^\\circ$. A similar interchange appears also in",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Nguyen Tri Toan Phuc",
+      "Nguyen Hoang Phuc",
+      "Dao T. Khoa"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22757v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22318v1",
+    "title": "Shielded inner-shell transitions in atomic samarium for tests of fundamental physics",
+    "summary": "Forbidden atomic transitions provide some of the most stringent low-energy tests of physics beyond the Standard Model, with sensitivity set by the interplay between the sought-for signals and systematics suppressed by symmetry. Here we identify the previously unobserved $4f^{6}6s^{2}\\,{}^{5}$D$_{0}$ level of neutral samarium at $14\\,564.90(2)\\,\\mathrm{cm}^{-1}$, opening the ${}^{7}$F$_{0}\\rightarrow{}^{5}$D$_{0}$ inner-shell transition for precision spectroscopy. Candidate lines extracted from d",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "R. Aramyan",
+      "D. Budker",
+      "V. A. Dzuba",
+      "V. V. Flambaum",
+      "S. G. Porsev",
+      "M. S. Safronova",
+      "O. Tretiak",
+      "K. Zhang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22318v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22199v1",
+    "title": "Equation of State at High Baryon Densities from a Thermodynamically Informed Neural Network",
+    "summary": "We present a four-dimensional equation of state for strongly interacting matter at finite temperature and conserved charge densities, constructed using a deep neural network. It is designed for direct use in hybrid models of relativistic heavy-ion collisions: it reproduces hadron resonance gas thermodynamics at typical particlization scales, is consistent with lattice QCD at low baryon chemical potential, and extrapolates into the high-density region inaccessible to either approach, which is pre",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Musfer Adzhymambetov"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22199v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.22134v1",
+    "title": "Bootstrapping Two-Nucleon Effective Field Theories",
+    "summary": "Chiral EFT yields singular potentials that require regularization and renormalization when implemented in a dynamical equation such as the Lippmann--Schwinger equation. We employ two different approaches, renormalization with contact terms -- as is most commonly done in chiral EFT -- and the exact N/D method with multiple subtractions. We start with a toy model in which we can control the finite-range expansion of the potential, treating the full potential as the `exact' theory. To assess the st",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Q. N. Micha-Mba",
+      "M. S. S\u00e1nchez",
+      "P. G. Ortega",
+      "J. A. Oller",
+      "D. R. Entem"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22134v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21657v1",
+    "title": "Uncertainty Quantification of the $^{76}$Ge Neutrinoless Double-Beta Decay Nuclear Matrix Element",
+    "summary": "The experimental pursuit of neutrinoless double-beta decay ($0\u03bd\u03b2\u03b2$) constitutes one of the most compelling avenues for probing lepton-number violation and exploring physics beyond the Standard Model. Within this landscape, $^{76}$Ge has consistently ranked among the most promising isotopes for current and next-generation bolometric and liquid-scintillator experiments, notably GERDA and LEGEND. In the present work, we adapt a rigorous statistical protocol previously established for $^{48}$Ca~\\cit",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Mihai Horoi",
+      "Andrei Neacsu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21657v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21377v1",
+    "title": "Causal UV completions of relativistic hydrodynamics",
+    "summary": "Relativistic hydrodynamics successfully provides an effective field theory description for the low energy regime of many out-of-equilibrium systems. On the other hand, in this paper we proof that any stand-alone hydrodynamic EFT is inherently acausal and therefore requires the addition of transient UV modes in order to restore causality. This is made possible by the exponential decay of dissipative hydrodynamics in a majority of the lightcone, allowing the possibility of a causal description tha",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Robbe Brants"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21377v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21228v1",
+    "title": "Minimal Wigner-$SU(4)$ Interaction in Microscopic Cluster Models for $\u03b1$-Conjugate Nuclei",
+    "summary": "We present a minimalist, symmetry-guided interaction for microscopic cluster models based on Wigner-$SU(4)$ symmetry. Retaining only an $SU(4)$-invariant two-body attraction and a local three-body repulsion, this framework is implemented via the generator coordinate method (GCM) to describe $\u03b1$--$\u03b1$ scattering phase shifts, the low-lying spectrum and transition properties of $^{12}\\mathrm{C}$, and the cluster spectrum of $^{16}\\mathrm{O}$. We show that the long-standing structural tension betwee",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Guo-Ping Li",
+      "Su-Yu Zhou",
+      "Dong Bai",
+      "Bo Zhou",
+      "Yu-Gang Ma"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21228v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21218v1",
+    "title": "The quenching of the axial-vector coupling constant $g_A$ in $\u03b2$-decay: joint effects from chiral two-body currents and many-body correlations",
+    "summary": "In nuclear $\u03b2$-decay calculations, the axial-vector coupling constant $g_A \\approx 1.27$ usually needs to be quenched phenomenologically by a factor $q~\\approx$ 0.75 to reproduce {the Gamow-Teller (GT) transition strengths}. We propose a novel approach to quench the GT {strength} of $\u03b2$-decay within the microscopic random phase approximation (RPA) plus particle-vibration coupling (PVC) approach, incorporating the contributions of two-body currents (TBC) derived from chiral effective field theory",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Bin-Lei Wang",
+      "Wan-Li Lv",
+      "Li-Gang Cao",
+      "Yi-Fei Niu",
+      "Gianluca Colo",
+      "Hiroyuki Sagawa",
+      "Feng-Shou Zhang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21218v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21037v1",
+    "title": "Configuration-interaction time-dependent density functional theory for nuclear dynamics",
+    "summary": "A configuration-interaction time-dependent density functional theory (CI-TDDFT) for nuclear dynamics is developed. In this framework, the correlated nuclear many-body wave function is expanded in terms of time-dependent many-particle configurations built from a common set of orthonormal single-particle states. The equations of motion for both the expansion coefficients and the single-particle states are derived self-consistently using the Dirac-Frenkel time-dependent variational principle. This ",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Y. P. Wang",
+      "B. Li",
+      "D. Vretenar",
+      "T. Nik\u0161i\u0107",
+      "P. W. Zhao",
+      "J. Meng"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21037v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20934v1",
+    "title": "Superfluid fraction in the crystalline crust of a neutron star: role of quantum zero-point motion of ions",
+    "summary": "The suppression of the neutron superfluid fraction in the inner crust of a cold neutron star is mitigated by the quantum zero-point motion of ions about their equilibrium position. In turn, the crustal dynamics is altered by the presence of the neutron superfluid. These effects are studied self-consistently to assess the validity of the usual assumption of a perfect rigid lattice. To this end, fully three-dimensional band-structure calculations of the superfluid fraction are carried out in the w",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Nicolas Chamel"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20934v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2605.20661v1",
+    "title": "Entangling Power: A Probe of Symmetry and Integrability in Quantum Many-Body Systems",
+    "summary": "The entangling power of a unitary operator quantifies its ability to generate entanglement from product states and provides a natural probe of quantum many-body dynamics. Entanglement extremization at points of enhanced symmetry has previously been observed in high-energy scattering. In this work we compute the time-averaged entangling power of anisotropic Heisenberg spin chains across two-site models and finite-size systems, as well as the entangling power of the two-magnon $S$-matrix in the th",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Ian Low",
+      "Pallab Goswami"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20661v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20417v1",
+    "title": "Quantum Simulation of Gauge Theories for Particle and Nuclear Physics",
+    "summary": "Lattice field theory, along with its algorithmic and hardware ecosystems, has been at the forefront of computational particle and nuclear physics. It continues to deliver impressive results on the hadronic spectrum, structure, decays, and reactions. Yet, this vigorous campaign has fallen short in addressing a range of problems involving dense matter and general dynamical phenomena. The reason is that such problems require an exponential scaling of computing time and space in system size. Quantum",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Zohreh Davoudi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20417v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.20056v1",
+    "title": "Deformed neutron halo nuclei and soft dipole excitations in the 40<A<90 mass region",
+    "summary": "We study deformed neutron halo nuclei in the mass region $40 < A < 90$ and their soft electric dipole ($E1$) excitations based on the deformed relativistic Hartree-Bogoliubov theory in continuum (DRHBc). Three candidates, $^{43}$Si, $^{69}$Ti, and $^{75}$Cr, are selected for detailed analysis. Unique features are identified in the decoupled densities of possible $s$- and $p$-wave deformed halo nuclei in this mass region, which are influenced by large high-$l$ configurations. It is shown that the",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Xiao Lu",
+      "Cong Pan",
+      "Hiroyuki Sagawa",
+      "Xiang-Xiang Sun",
+      "Shan-Gui Zhou"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20056v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2605.20034v1",
+    "title": "Charmonium properties at high temperatures from lattice QCD",
+    "summary": "We study charmonium properties at non-zero temperature in the temperature range 153 MeV $<T<$ 305 MeV using lattice QCD. We use HISQ action for dynamical quarks and Wilson clover action for valence charm quarks and calculate the correlation function of extended meson operators. Our lattice QCD results are consistent with the existence of all charmonium states below the open charm threshold in this temperature region. However, charmonium states acquire sizable thermal width, which increases with ",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Rasmus Normann Larsen",
+      "Peter Petreczky",
+      "Jorge Luis Dasilva Golan",
+      "Johannes H. Weber"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.20034v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19985v1",
+    "title": "Lindblad-driven quarkonium production in heavy-ion collisions",
+    "summary": "We study the production of the conventional quarkonium states in ultrarelativistic heavy-ion collisions using an open quantum system framework based on the Lindblad equation. Starting from the complex-valued in-medium potential, we derive the dissociation temperature and thermal decay width for each state, and compute their survival probabilities for a system undergoing Bjorken expansion. We then extend the framework to include recombination from thermalized charm and bottom quarks in the quark-",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "N\u00e9stor Armesto",
+      "Miguel \u00c1ngel Escobedo",
+      "Elena G. Ferreiro",
+      "V\u00edctor L\u00f3pez-Pardo"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19985v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19927v1",
+    "title": "A new analysis of the \"hep\" S-factor and the \"hen\" cross section",
+    "summary": "We present a new accurate analysis of the $^3$He$(p,e^+\u03bd_e)$${}^4$He (''hep'') reaction at astrophysical energies. The S-factor is computed using a state-of-the-art method to calculate the four-nucleon scattering and bound-state wave functions (the hyperspherical harmonic expansion), and by using nuclear interactions and accompanying electroweak nuclear currents obtained within the chiral effective field theory framework. Our analysis includes a detailed examination of the theoretical uncertaint",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Michele Viviani",
+      "Alex Gnech",
+      "Laura Elisa Marcucci",
+      "Alejandro Kievsky",
+      "Luca Girlanda"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19927v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19761v1",
+    "title": "Magnetized neutron stars: perturbative versus fully-numerical approaches",
+    "summary": "(1) Background: for the study of highly magnetized neutron   stars observed as magnetars, and to quantify the effect of this   intense magnetic field onto the star's structure and shape which   can be particularly relevant for the study of emission of continuous   gravitational waves, both numerical and perturbative approaches have been developed. (2) Methods: we compare these two approaches in General   Relativity with the limitation to the case where the magnetic field has a   purely poloidal ",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Debarati Chatterjee",
+      "Daw Guttmann",
+      "J\u00e9r\u00f4me Novak",
+      "Micaela Oertel",
+      "Martin Jakob Steil"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19761v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2605.19657v1",
+    "title": "The stability of color-flavor-locked quark matter and massive CFL quark stars",
+    "summary": "Owing to the emergence of attractive interactions between quarks, color superconductivity is expected to occur, with the color-flavor-locked (CFL) phase favored at high densities. This work investigates the absolute stability of beta-equilibrated CFL quark matter in bulk within the modified Nambu-Jona-Lasinio model, under color and electric charge neutrality conditions relevant to compact stars. Motivated by the possible existence of an ultra-low-mass central compact object in the supernova remn",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Wen-Li Yuan",
+      "Bikai Gao"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19657v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19479v1",
+    "title": "Ab initio correlations between neutrinoless and two-neutrino double-beta decays in $^{48}$Ca",
+    "summary": "We develop a novel ab initio in-medium no-core configuration-interaction (IM-NCCI) framework for nuclear charge-exchange processes by combining the in-medium similarity renormalization group with chiral nuclear Hamiltonians, and apply it to the $2\u03bd\u03b2\u03b2$ and $0\u03bd\u03b2\u03b2$ decays of $^{48}$Ca. This framework reproduces the locations of several main resonance peaks in the Gamow-Teller (GT) strength distribution for the $^{48}\\mathrm{Ca}\\to{}^{48}\\mathrm{Sc}$ transition. The cumulative GT strength indicates ",
+    "published": "2026-05-19",
+    "updated": "2026-05-19",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "X. Lian",
+      "C. R. Ding",
+      "C. L. Bai",
+      "J. M. Yao"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19479v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19062v1",
+    "title": "Coulomb Corrections to Three-Nucleon Moments",
+    "summary": "The Helium-3 (${}^3\\mathrm{He}$) magnetic moment and Gamow-Teller (GT) matrix element in triton (${}^3\\mathrm{H}$) $\u03b2$-decay are calculated in pionless effective field theory ($\\mathrm{EFT}(/\\!\\!\\!\u03c0)$) to next-to-leading order (NLO). Coulomb corrections are included perturbatively to $\\mathcal{O}(\u03b1)$ in this framework and should naively be $\u03b1M_n/p^*\\!\\!\\sim\\!8\\%$ corrections, where $p^*\\!\\!\\sim\\!88.5$ MeV is related to the three-nucleon binding momentum. Fitting the two-nucleon iso-vector magnet",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Ha S. Nguyen",
+      "Jared Vanasse"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19062v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.19058v1",
+    "title": "Looking at the Entropy in a Proton through a QGP Lens",
+    "summary": "We investigate the interplay between the thermodynamic (Gibbs) entropy of quark-gluon plasma (QGP) and the quantum entanglement entropy characteristic of confined hadronic states across the quark-hadron phase transition. In the deconfined regime, entropy is well described by the statistical mechanics of colored quarks and gluons. Upon hadronization, however, the macroscopic Gibbs entropy of the plasma cannot simply vanish; instead, it is reorganized into the configurational entropy of a gas of c",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Dmitri E. Kharzeev",
+      "Krishna Rajagopal"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.19058v1",
+    "sectors": [
+      "nuclear",
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.18560v1",
+    "title": "Astrophysics equation of state inference with Bayesian chiral effective field theory uncertainties",
+    "summary": "We investigate Bayesian chiral effective field theory ($\u03c7$EFT) uncertainties, which assign a statistical interpretation to equation of state (EOS) distributions near nuclear saturation density, n$_0$, as well as constraints from perturbative quantum chromodynamics (pQCD) to Bayesian EOS inference from LIGO/Virgo, NICER and pulsar mass observations. The tails of the $\u03c7$EFT uncertainties allow for broader pressure ranges in our priors, but large parts of these are excluded by the astrophysical obs",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Melissa Mendes",
+      "Hannah G\u00f6ttling",
+      "Anna Hensel",
+      "Isak Svensson",
+      "Kai Hebeler",
+      "Achim Schwenk",
+      "Nathan Rutherford",
+      "Anna Watts"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.18560v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.18519v1",
+    "title": "Quark and gluon tomography of the helium-4 nucleus",
+    "summary": "QCD collinear factorization allows coherent hard exclusive reactions to reveal the quark-gluon structure of light nuclei, enabling their 3D tomography. We study elastic form factors and deeply virtual Compton scattering on a helium-4 target, achieving theoretical precision unprecedented even in proton studies. Constraining generalized parton distributions at next-to-leading order in $\u03b1_s$, incorporating kinematic twist corrections, and using full evolution equations, we provide the first tomogra",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "V. Mart\u00ednez-Fern\u00e1ndez",
+      "B. Pire",
+      "P. Sznajder",
+      "J. Wagner"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.18519v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.18350v1",
+    "title": "Gravitational form factors of light mesons from Basis Light-Front Quantization",
+    "summary": "We compute the gravitational form factors (GFFs) of the pion and kaon using their light-front wave functions within the Basis Light-Front Quantization framework. The wave functions are obtained by solving a light-front effective Hamiltonian that incorporates three-dimensional confinement along with a color-singlet Nambu--Jona-Lasinio interaction between the constituent quark and antiquark. The form factor $A(Q^2)$ is found to be in overall agreement with recent lattice QCD and dispersive results",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Amrita Sain",
+      "Sreeraj Nair",
+      "Chandan Mondal",
+      "Xingbo Zhao",
+      "James P. Vary"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.18350v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.18207v1",
+    "title": "Positivity of the effective range for finite range attractive potentials with a repulsive core",
+    "summary": "In the phenomenological study of exotic hadrons, the sign of the effective range, $r_0$, is invoked as a criterion to distinguish between compact multiquark configurations (associated with $r_0 < 0$) and loosely bound hadronic molecules ($r_0 > 0$). Motivated by this, we investigate the fundamental constraints on the sign of the effective range for single-channel local interactions. We rigorously prove that for finite-range potentials, characterized by an inner repulsive core and an outer attrac",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Davide Germani"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.18207v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.18142v1",
+    "title": "Systematic study of one-point kinetic energy density functionals for atomic nuclei",
+    "summary": "To explore the applicability of orbital-free density functional theory (OF-DFT) in nuclear physics, we perform a systematic benchmark of 36 one-point kinetic energy density functionals, which are originally developed for electron systems in condensed matter physics. It is found that the direct use of the original parameters for electron systems leads to inconsistent performance, with certain functionals exhibiting physically unacceptable asymptotic behaviors. However, through parameter re-optimi",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Tian Shuai Shang",
+      "Jian Li",
+      "Haozhao Liang",
+      "Xinhui Wu",
+      "Cheng Ma",
+      "Wenhui Mi",
+      "Xuecheng Shao",
+      "Yanchao Wang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.18142v1",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2605.18090v1",
+    "title": "Proton-to-Alpha Branching Ratio in the $^{12}$C+$^{12}$C fusion reaction at Astrophysical Energies",
+    "summary": "The unique resonance features in the $^{12}$C+$^{12}$C fusion reaction lead to significant fluctuations in the branching ratio $R_{p/\u03b1}=\u03c3_p/\u03c3_\u03b1$, making it difficult to determine the $R_{p/\u03b1}$ at astrophysical energies. By combining Hauser--Feshbach statistical-model calculations with constraints from direct charged-particle and gamma-ray measurements, we investigate the energy dependence of the averaged $R_{p/\u03b1}$ and predict its behavior within the Gamow window. Owing to the strong energy depen",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Ruojun Yang",
+      "Ruiqi Chen",
+      "Xiao Fang",
+      "Yihua Fan",
+      "Xiaodong Tang",
+      "Yunju Li",
+      "Fengqiao Luo"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.18090v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2605.17871v1",
+    "title": "MAGE-HEP: Monte Carlo Analysis and Graphical Environment for High-Energy Physics",
+    "summary": "Monte Carlo event generators are central to high-energy physics analysis. However, workflows based on handwritten scripts can be difficult to reuse, modify, and reproduce when multiple Monte Carlo models, tune variations, run variations, and output formats are involved. We present MAGE-HEP, short for Monte Carlo Analysis and Graphical Environment for High-Energy Physics, a Graphical User Interface (GUI) driven workflow environment for reproducible Monte Carlo-based analyses in high-energy physic",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Rishabh Gupta",
+      "Kangkan Goswami",
+      "Suraj Prasad",
+      "Raghunath Sahoo"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.17871v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.17868v1",
+    "title": "Sequential Bayesian inference with correlated heavy-ion datasets",
+    "summary": "Bayesian inference provides a natural framework for updating knowledge as new information becomes available, often in a sequential manner by incorporating datasets in stages or reusing previous posteriors as priors. In practice, this is commonly implemented using a factorized update in which datasets are treated as conditionally independent. When datasets are statistically correlated, however, this approximation becomes inconsistent with the joint likelihood and can lead to biased posterior esti",
+    "published": "2026-05-18",
+    "updated": "2026-05-18",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Lipei Du"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.17868v1",
+    "sectors": []
+  },
+  {
+    "id": "1912.12092v1",
+    "title": "Bremsstrahlung emission from nuclear reactions in compact stars",
+    "summary": "Bremsstrahlung emission of photons during nuclear reactions inside dense stellar medium is investigated in the paper. For that, a new model of nucleus is developed, where nuclear forces combine nucleons as bound system in dependence on deep location inside compact star. A polytropic model of stars at index $n=3$ with densities characterized from white dwarf to neutron star is used. Bremsstrahlung formalism and calculations are well tested on existed experimental information for scattering of pro",
+    "published": "2019-12-27",
+    "updated": "2019-12-27",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Sergei P. Maydanyuk",
+      "Kostiantyn A. Shaulskyi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/1912.12092v1"
+  },
+  {
+    "id": "0812.4649v3",
+    "title": "Towards a warped inflationary brane scanning",
+    "summary": "We present a detailed systematics for comparing warped brane inflation with the observations, incorporating the effects of both moduli stabilization and ultraviolet bulk physics. We explicitly construct an example of the inflaton potential governing the motion of a mobile D3 brane in the entire warped deformed conifold. This allows us to precisely identify the corresponding scales of the cosmic microwave background. The effects due to bulk fluxes or localized sources are parametrized using gauge",
+    "published": "2008-12-30",
+    "updated": "2009-08-31",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Heng-Yu Chen",
+      "Jinn-Ouk Gong"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4649v3"
+  },
+  {
+    "id": "0812.5113v1",
+    "title": "Ultraviolet Spectra of Local Galaxies and their Link with the High-z Population",
+    "summary": "The new generation of 8 to 10m class telescope is providing us with high-quality spectral information on the rest-frame ultraviolet region of star-forming galaxies at cosmological distances. The data can be used to address questions such as, e.g., the star-formation histories, the stellar initial mass function, the dust properties, and the energetics and chemistry of the interstellar medium. We can tackle these issues from a different angle by comparing the spectral properties of high-redshift g",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Claus Leitherer"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5113v1"
+  },
+  {
+    "id": "0812.4582v1",
+    "title": "Correlated variability in the blazar 3C 454.3",
+    "summary": "The blazar 3C 454.3 was revealed by the Fermi Gamma-ray Space Telescope to be in an exceptionally high flux state in July 2008. Accordingly, we performed a multi-wavelength monitoring campaign on this blazar using IR and optical observations from the SMARTS telescopes, optical, UV and X-ray data from the Swift satellite, and public-release gamma-ray data from Fermi. We find an excellent correlation between the IR, optical, UV and gamma-ray light curves, with a time lag of less than one day. The ",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "E. W. Bonning",
+      "C. Bailyn",
+      "C. M. Urry",
+      "M. Buxton",
+      "G. Fossati",
+      "L. Maraschi",
+      "P. Coppi",
+      "R. Scalzo",
+      "J. Isler",
+      "A. Kaptur"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4582v1"
+  },
+  {
+    "id": "0812.5111v1",
+    "title": "Biases and Uncertainties in Physical Parameter Estimates of Lyman Break Galaxies from Broad-band Photometry",
+    "summary": "We investigate the biases and uncertainties in estimates of physical parameters of high-redshift Lyman break galaxies (LBGs), such as stellar mass, mean stellar population age, and star formation rate (SFR), obtained from broad-band photometry. By combining LCDM hierarchical structure formation theory, semi-analytic treatments of baryonic physics, and stellar population synthesis models, we construct model galaxy catalogs from which we select LBGs at redshifts z ~ 3.4, 4.0, and 5.0. The broad-ba",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Seong-Kook Lee",
+      "Rafal Idzi",
+      "Henry C. Ferguson",
+      "Rachel S. Somerville",
+      "Tommy Wiklind",
+      "Mauro Giavalisco"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5111v1"
+  },
+  {
+    "id": "0812.4574v2",
+    "title": "Dynamics of a Spherical Accretion Shock with Neutrino Heating and Alpha-Particle Recombination",
+    "summary": "We investigate the effects of neutrino heating and alpha-particle recombination on the hydrodynamics of core-collapse supernovae. Our focus is on the non-linear dynamics of the shock wave that forms in the collapse, and the assembly of positive energy material below it. To this end, we perform time-dependent hydrodynamic simulations with FLASH2.5 in spherical and axial symmetry. These generalize our previous calculations by allowing for bulk neutrino heating and for nuclear statistical equilibri",
+    "published": "2008-12-30",
+    "updated": "2009-09-20",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Rodrigo Fern\u00e1ndez",
+      "Christopher Thompson"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4574v2"
+  },
+  {
+    "id": "0812.5108v3",
+    "title": "Asymptotically FRW black holes",
+    "summary": "Application of concepts like black hole and event horizon in cosmological context are not trivial, as has been shown in the last decade. We introduce special solutions of the LTB family representing collapsing over-dense regions extending to an expanding closed, open, or flat FRW model asymptotically. We study the dynamics of the collapsing region, and its density profile. The question of the strength of the central singularity and its nakedness, as well as the existence of an apparent horizon a",
+    "published": "2008-12-30",
+    "updated": "2009-08-02",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "J. T. Firouzjaee",
+      "Reza Mansouri"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5108v3"
+  },
+  {
+    "id": "0812.5012v1",
+    "title": "Quantum Black Holes As Elementary Particles",
+    "summary": "Are black holes elementary particles? Are they fermions or bosons? We investigate the remarkable possibility that quantum black holes are the smallest and heaviest elementary particles. We are able to construct various fundamental quantum black holes: the spin-0, spin 1/2, spin-1, and the Planck-charge cases, using the results in general relativity. Quantum black holes in the neighborhood of the Galaxy could resolve the paradox posed by the Greisen-Zatsepin-Kuzmin limit on the energy of cosmic r",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Yuan K. Ha"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5012v1"
+  },
+  {
+    "id": "0812.4874v2",
+    "title": "Reaction of Accretion Disks to Abrupt Mass Loss During Binary Black Hole Merger",
+    "summary": "The association of an electromagnetic signal with the merger of a pair of supermassive black holes would have many important implications. For example, it would provide new information about gas and magnetic field interactions in dynamical spacetimes as well as a combination of redshift and luminosity distance that would enable precise cosmological tests. A proposal first made by Bode & Phinney (2007) is that because radiation of gravitational waves during the final inspiral and merger of the ho",
+    "published": "2008-12-30",
+    "updated": "2009-05-26",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Sean M. O'Neill",
+      "M. Coleman Miller",
+      "Tamara Bogdanovic",
+      "Christopher S. Reynolds",
+      "Jeremy D. Schnittman"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4874v2"
+  },
+  {
+    "id": "0812.4851v4",
+    "title": "A Gamma-Ray Burst/Pulsar for Cosmic-Ray Positrons with a Dark Matter-like Spectrum",
+    "summary": "We propose that a nearby gamma-ray burst (GRB) or GRB-like (old, single and short-lived) pulsar/supernova remnant/microquasar about 10^{5-6} years ago may be responsible for the excesses of cosmic-ray positrons and electrons recently observed by the PAMELA, ATIC/PPB-BETS, Fermi and HESS experiments. We can reproduce the smooth Fermi/HESS spectra as well as the spiky ATIC/PPB-BETS spectra. The spectra have a sharp cutoff that is similar to the dark matter predictions, sometimes together with a li",
+    "published": "2008-12-30",
+    "updated": "2010-06-15",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Kunihito Ioka"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4851v4"
+  },
+  {
+    "id": "0812.5083v3",
+    "title": "Catastrophic Photo-z Errors and the Dark Energy Parameter Estimates with Cosmic Shear",
+    "summary": "We study the impact of catastrophic errors occurring in the photometric redshifts of galaxies on cosmological parameter estimates with cosmic shear tomography. We consider a fiducial survey with 9-filter set and perform photo-z measurement simulations. It is found that a fraction of 1% galaxies at z_{spec}~0.4 is misidentified to be at z_{phot}~3.5. We then employ both chi^2 fitting method and the extension of Fisher matrix formalism to evaluate the bias on the equation of state parameters of da",
+    "published": "2008-12-30",
+    "updated": "2009-04-28",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "L. Sun",
+      "Z. -H. Fan",
+      "C. Tao",
+      "J. -P. Kneib",
+      "S. Jouvel",
+      "A. Tilquin"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5083v3"
+  },
+  {
+    "id": "0812.5078v1",
+    "title": "Stellar Ages from Stellar Rotation",
+    "summary": "Our ability to determine stellar ages from measurements of stellar rotation, hinges on how well we can measure the dependence of rotation on age for stars of different masses. Rotation periods for stars in open clusters are essential to determine the relations between stellar age, rotation, and mass (color). Until recently, ambiguities in vsini data and lack of cluster membership information, prevented a clear empirical definition of the dependence of rotation on color. Direct measurements of st",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Soren Meibom"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5078v1"
+  },
+  {
+    "id": "0812.5051v1",
+    "title": "An Evolutionary Considerations for V228 from 47 Tuc",
+    "summary": "We perform evolutionary calculations of binary stars to find progenitors of system with parameters similar to the eclipsing binary system V228. We show that a V228 binary system may be formed starting with an initial binary system which has a low main sequence star as an accretor. The initial parameters for the evolutionary model are as follow: $M_{1,i} = 0.88 M_\\odot $, $M_{2,i} = 0.85 M_\\odot $, $P_i=1.35 $days, $f_1$=0.05, $f_2$=4.65 and Z=0.006 ([Fe/H]=--0.67). We also show that the best fit",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Marek J. Sarna"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5051v1"
+  },
+  {
+    "id": "0812.5046v1",
+    "title": "Source region of the 2003 November 18 CME that led to the strongest magnetic storm of cycle 23",
+    "summary": "The super-storm of November 20, 2003 was associated with a high speed coronal mass ejection which originated in the NOAA AR 10501 on November 18. This coronal mass ejection had severe terrestrial consequences leading to a geomagnetic storm with DST index of -472 nT, the strongest of the current solar cycle. In this paper, we attempt to understand the factors that led to the coronal mass ejection on November 18. We have also studied the evolution of the photospheric magnetic field of NOAA AR 1050",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "N. Srivastava",
+      "S. Mathew",
+      "R. Louis",
+      "T. Wiegelmann"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5046v1"
+  },
+  {
+    "id": "0812.5044v1",
+    "title": "Further progress on solar age calibration",
+    "summary": "We recalibrate a standard solar model seismologically to estimate the main-sequence age of the Sun. Our procedure differs from what we have done in the past by removing from the observed frequencies the effect of hydrogen ionization and the superadiabatic convective boundary layer. Our preliminary result is $t_\\odot=4.63 \\pm 0.02$ Gy.",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "G\u00fcnter Houdek",
+      "Douglas Gough"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5044v1"
+  },
+  {
+    "id": "0812.5021v1",
+    "title": "Bulk viscosity of strange matter and r-modes in neutron stars",
+    "summary": "We discuss bulk viscosity due to non-leptonic processes involving hyperons and Bose-Einstein condensate of negatively charged kaons in neutron stars. It is noted that the hyperon bulk viscosity coefficient is a few order of magnitude larger than that of the case with the condensate. Further it is found that the hyperon bulk viscosity is suppressed in a superconducting phase. The hyperon bulk viscosity efficiently damps the r-mode instability in neutron stars irrespective of whether a superconduc",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Debarati Chatterjee",
+      "Debades Bandyopadhyay"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5021v1"
+  },
+  {
+    "id": "0812.5011v1",
+    "title": "Necessity of Dark Matter in Modified Newtonian Dynamics within Galactic Scales? - Testing the Covariant MOND in Elliptical Lenses",
+    "summary": "Modified Newtonian Dynamics (MOND) and its relativistic version - TeVeS offer us an alternative perspective to understand the universe without the demand of the elusive cold dark matter. This MONDian paradigm is not only competitive with the conventional CDM in a large range of scales, but also even more successful in the galactic scale. Recently, by studying 6 lensing systems, Ferreras et al. (2008) claimed that MOND still needs dark matter even in galactic scales. When we study the same system",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "M. C. Chiu",
+      "Y. Tian",
+      "C. M. Ko"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.5011v1"
+  },
+  {
+    "id": "0812.4995v1",
+    "title": "Origin of Europa and the Galilean Satellites",
+    "summary": "Europa is believed to have formed near the very end of Jupiter's own accretion, within a circumplanetary disk of gas and solid particles. We review the formation of the Galilean satellites in the context of current constraints and understanding of giant planet formation, focusing on recent models of satellite growth within a circumjovian accretion disk produced during the final stages of gas inflow to Jupiter. In such a disk, the Galilean satellites would have accreted slowly, in more than 10^5 ",
+    "published": "2008-12-30",
+    "updated": "2008-12-30",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Robin M. Canup",
+      "William R. Ward"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4995v1"
+  },
+  {
+    "id": "0812.4951v1",
+    "title": "High Accuracy Near-infrared Imaging Polarimetry with NICMOS",
+    "summary": "The findings of a nine orbit calibration plan carried out during HST Cycle 15, to fully determine the NICMOS camera 2 (2.0 micron) polarization calibration to high accuracy, are reported. Recently Ueta et al. and Batcheldor et al. have suggested that NICMOS possesses a residual instrumental polarization at a level of 1.2-1.5%. This would completely inhibit the data reduction in a number of GO programs, and hamper the ability of the instrument to perform high accuracy polarimetry. We obtained pol",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "D. Batcheldor",
+      "G. Schneider",
+      "D. C. Hines",
+      "G. D. Schmidt",
+      "D. J. Axon",
+      "A. Robinson",
+      "W. Sparks",
+      "C. Tadhunter"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4951v1"
+  },
+  {
+    "id": "0812.4945v1",
+    "title": "Active Galactic Nuclei, Radio Jets and Acceleration of UHECRs",
+    "summary": "We present the general properties of the Active Galactic Nuclei (AGNs) and discuss the origin and structure of jets that are associated to a fraction of these objects. We then we address the problems of particle acceleration at highly relativistic energies and set limits on the luminosity of AGN jets for being origin of UHECRs.",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "S. Massaglia"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4945v1"
+  },
+  {
+    "id": "0812.4933v2",
+    "title": "Compressed sensing imaging techniques for radio interferometry",
+    "summary": "Radio interferometry probes astrophysical signals through incomplete and noisy Fourier measurements. The theory of compressed sensing demonstrates that such measurements may actually suffice for accurate reconstruction of sparse or compressible signals. We propose new generic imaging techniques based on convex optimization for global minimization problems defined in this context. The versatility of the framework notably allows introduction of specific prior information on the signals, which offe",
+    "published": "2008-12-29",
+    "updated": "2009-02-19",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Y. Wiaux",
+      "L. Jacques",
+      "G. Puy",
+      "A. M. M. Scaife",
+      "P. Vandergheynst"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4933v2"
+  },
+  {
+    "id": "0812.4923v1",
+    "title": "The CHilean Automatic Supernova sEarch (CHASE)",
+    "summary": "The CHASE project started in 2007 with the aim of providing young southern supernovae (SNe) to the Carnegie Supernova Project (CSP) and Millennium Center for Supernova Studies (MCSS) follow-up programs. So far CHASE has discovered 33 SNe with an average of more than 2.5 SNe per month in 2008. In addition to the search we are carrying out a follow-up program targeting bright SNe. Our fully automated data reduction allows us to follow the evolution on the light curve in real time, triggering furth",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "G. Pignata",
+      "J. Maza",
+      "M. Hamuy",
+      "R. Antezana",
+      "L. Gonzalez",
+      "P. Gonzalez",
+      "P. Lopez",
+      "S. Silva",
+      "G. Folatelli",
+      "D. Iturra",
+      "R. Cartier",
+      "F. Forster",
+      "B. Conuel",
+      "D. Reichart",
+      "K. Ivarsen",
+      "A. Crain",
+      "D. Foster",
+      "M. Nysewander",
+      "A. LaCluyze"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4923v1"
+  },
+  {
+    "id": "0812.4925v1",
+    "title": "Measuring interstellar magnetic fields by radio synchrotron emission",
+    "summary": "Radio synchrotron emission, its polarization and its Faraday rotation are powerful tools to study the strength and structure of interstellar magnetic fields. The total intensity traces the strength and distribution of total magnetic fields. Total fields in gas-rich spiral arms and bars of nearby galaxies have strengths of 20-30 $\u03bc$Gauss, due to the amplification of turbulent fields, and are dynamically important. In the Milky Way, the total field strength is about 6 $\u03bc$G near the Sun and several",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Rainer Beck"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4925v1"
+  },
+  {
+    "id": "0812.4910v1",
+    "title": "Intermediate inflation on the brane",
+    "summary": "Brane inflationary universe model in the context of intermediate inflation is studied. General conditions for this model to be realizable are discussed. In the high-energy limit we describe in great details the characteristic of this model.",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Sergio del Campo",
+      "Ramon Herrera"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4910v1"
+  },
+  {
+    "id": "0812.4904v1",
+    "title": "Friedmann cosmology with bulk viscosity: a concrete model for dark energy",
+    "summary": "The universe content is considered as a non-perfect fluid with bulk viscosity and can be described by a general equation of state (endowed some deviation from the conventionally assumed cosmic perfect fluid model). An explicitly bulk viscosity dark energy model is proposed to confront consistently with the current observational data sets by statistical analysis and is shown consistent with (not deviated away much from) the concordant $\u039b$ Cold Dark Matter (CDM) model by comparing the decelerating",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "X H Meng",
+      "X Dou"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4904v1"
+  },
+  {
+    "id": "0812.4592v2",
+    "title": "Detecting Solar Neutrino Flare in Megaton and km^3 detectors",
+    "summary": "To foresee a solar flare neutrino signal we infer its upper and lower bound. The upper bound was derived since a few years by general energy equipartition arguments on observed solar particle flare. The lower bound, the most compelling one for any guarantee neutrino signal, is derived by most recent records of hard Gamma bump due to solar flare on January 2005 (by neutral pion decay).The observed gamma flux reflects into a corresponding one for the neutrinos, almost one to one. Therefore we obta",
+    "published": "2008-12-29",
+    "updated": "2009-01-21",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Daniele Fargion",
+      "Paola Di Giacomo"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4592v2"
+  },
+  {
+    "id": "0812.4898v1",
+    "title": "Anisotropic distribution functions for spherical galaxies",
+    "summary": "A method is presented for finding anisotropic distribution functions for stellar systems with known, spherically symmetric, densities, which depends only on the two classical integrals of the energy and the magnitude of the angular momentum. It requires the density to be expressed as a sum of products of functions of the potential and of the radial coordinate. The solution corresponding to this type of density is in turn a sum of products of functions of the energy and of the magnitude of the an",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Zhenglu Jiang",
+      "Leonid Ossipkov"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4898v1"
+  },
+  {
+    "id": "0812.4865v2",
+    "title": "Consistency of Equations in the Second-order Gauge-invariant Cosmological Perturbation Theory",
+    "summary": "Along the general framework of the gauge-invariant perturbation theory developed in the papers [K. Nakamura, Prog. Theor. Phys. {\\bf 110} (2003), 723; {\\it ibid}, {\\bf 113} (2005), 481.], we re-derive the second-order Einstein equations on four-dimensional homogeneous isotropic background universe in gauge-invariant manner without ignoring any mode of perturbations. We consider the perturbations both in the universe dominated by the single perfect fluid and in that dominated by the single scalar",
+    "published": "2008-12-29",
+    "updated": "2009-01-03",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Kouji Nakamura"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4865v2"
+  },
+  {
+    "id": "0812.4892v1",
+    "title": "Quantum vacuum and accelerated expansion",
+    "summary": "A new approach to extraction of quantum vacuum energy, in the context of the accelerated expansion, is proposed, and it is shown that experimentally realistic orders of values can be derived. The idea has been implemented in the framework of the Friedmann-Lemaitre-Robertson-Walker geometry in the language of the effective action in the relativistic formalism of Schwinger's proper time and Seeley-DeWitt's heat kernel expansion.",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "Bogus\u0142aw Broda",
+      "Micha\u0142 Szanecki"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4892v1"
+  },
+  {
+    "id": "0812.4888v1",
+    "title": "Near-IR spectroscopic ages of massive star clusters in M82",
+    "summary": "Like other starburst galaxies, M82 hosts compact, massive young star clusters that are interesting both in their own right and as benchmarks for population synthesis models. Can spectral synthesis models at resolutions around 1000 adequately reproduce the near-IR spectral features and the energy distribution of these clusters between 0.8 and 2.4 microns? How do the derived cluster properties compare with previous results from optical studies?   We analyse the spectra of 5 massive clusters in M82",
+    "published": "2008-12-29",
+    "updated": "2008-12-29",
+    "category": "astro-ph",
+    "categoryName": "Astrophysics",
+    "authors": [
+      "A. Lan\u00e7on",
+      "J. S. Gallagher",
+      "M. Mouhcine",
+      "L. J. Smith",
+      "D. Ladjal",
+      "R. de Grijs"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/0812.4888v1"
+  },
+  {
+    "id": "2605.22726v1",
+    "title": "Dynamic Lane Allocation in UAM Corridors for Efficient Multimodal Door-to-Door Mobility",
+    "summary": "This article presents dynamic directional lane allocation in urban air mobility (UAM) corridors as a discrete-time mixed-integer linear program (MILP). This formulation activates, deactivates, and reverses lane direction as bi-directional airspace demand evolves. We model demand from disaggregate ground travel data by decomposing each trip into a multi-modal sequence with first-, middle-, and last-mile legs and routing the UAM-served middle-mile segment through a vertiport-side dispatch model. W",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Jung Ho Park",
+      "Jordan Kam",
+      "Vishwanath Bulusu",
+      "Alexandre Bayen",
+      "Raja Sengupta"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22726v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22722v1",
+    "title": "N3P: Accelerated Automated Parking via a Learning-Based Naturalistic Three-Stage Scheme",
+    "summary": "Autonomous parking requires efficient path planning that ensures kinematic feasibility and collision avoidance in constrained environments. Hybrid A* is widely used but computationally expensive, while reinforcement learning (RL) methods lack reliability and often struggle with long-horizon geometric constraints, leading to suboptimal trajectories. We present N3P, a fast learning-based three-stage framework for automated parking. By introducing an intermediate preparatory pose and using a learni",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Yifan Xue",
+      "Toktam Mohammadnejad",
+      "Faizan M Tariq",
+      "Sangjae Bae",
+      "David Isele",
+      "Yosuke Sakamoto",
+      "Nadia Figueroa",
+      "Jovin D'sa"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22722v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22709v1",
+    "title": "TriSweep: A Four-Drone Swarm Framework for Electromagnetic Side-Channel Analysis",
+    "summary": "Electromagnetic (EM) side-channel analysis traditionally assumes a stationary, close-proximity probe - a threat model that underestimates aerial adversaries. TriSweep is a simulation framework that designs and evaluates a four-drone swarm architecture for autonomous standoff EM-SCA of embedded microcontrollers at 0.25-1.5 m. Three spatially specialized collector drones - Anchor (full-spectrum), Mask Probe (mask-register loading leakage), and Cipher Probe (masked SubBytes output leakage) - feed a",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Eric Yocam",
+      "Varghese Vaidyan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22709v1",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2605.22661v1",
+    "title": "A Generalized Nash Equilibrium-Seeking Scheme for Trauma Resuscitation",
+    "summary": "Trauma resuscitation is a clinical process for treating life-threatening physiological disorders in safety-critical environments, driven by the experience of healthcare workers (HCWs). Designing and optimizing quantifiable metrics that accurately capture HCW decisions may augment current resuscitation procedures with the potential to improve patient outcomes. This motivates our socio-technical formulation of trauma resuscitation as a distributed generalized Nash equilibrium (GNE)-seeking game wi",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Promise Ekpo",
+      "Angelique Taylor",
+      "Lekan Molu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22661v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22562v1",
+    "title": "Output regulation via input-output data",
+    "summary": "From a multi-input-multi-output (MIMO) discrete-time linear system, we collect input-output data affected by noise in the form of an unknown exosignal and, from these data points (without knowledge of the system model), we design a feedback controller that asymptotically annihilates the effect of that exosignal on the output. This amounts to solving an output regulation problem purely from input-output data, for MIMO linear systems. The design of the controller corresponds to a semidefinite prog",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Andrea Bisoffi",
+      "Wenjie Liu",
+      "Zhongjie Hu",
+      "Claudio De Persis"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22562v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22486v1",
+    "title": "Global Convergence of Control-Based Lagrangian Flows for Non-Convex Optimization",
+    "summary": "This paper studies the flows of continuous-time dynamics for equality-constrained optimization based on control-theoretic Lagrangian methods. In particular, we consider dynamics induced by proportional-integral and feedback linearization controllers, which have been recently proposed as alternatives to primal-dual gradient methods. Unlike existing convergence results, which rely on strong convexity of the objective function or boundedness assumptions, we exploit the geometric structure induced b",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Simone Pirrera",
+      "Francesco Ripa",
+      "Daniele Astolfi",
+      "Sophie M. Fosson",
+      "Vito Cerone",
+      "Diego Regruto"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22486v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22457v1",
+    "title": "KAPPS: A knowledge-based CPPS Architecture for the Circular Factory",
+    "summary": "While linear manufacturing relies on homogeneous materials and predefined process sequences, circular manufacturing reintroduces used products with heterogeneous and uncertain conditions. This shift demands manufacturing systems capable of handling variable product states, dynamically reconfigurable processes, and the integration of human and machine knowledge. Conventional manufacturing IT architectures, designed for stable structures and deterministic execution, are unable to meet these requir",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Etienne Hoffmann",
+      "Jan-Felix Klein",
+      "S\u00f6ren Weindel",
+      "Max Goebels",
+      "Sebastian Behrendt",
+      "Daniel Hern\u00e1ndez",
+      "Ratan Bahadur Thapa",
+      "J\u00fcrgen Fleischer",
+      "Kai Furmans",
+      "Steffen Staab"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22457v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22433v1",
+    "title": "QuCtrl-BELL: A Compiler-Driven Sub-Microsecond Feedback Control Stack for Scalable Trapped-Ion Quantum Experiments",
+    "summary": "As trapped-ion quantum computing scales to larger qubit registers and more complex control protocols, classical control systems face a fundamental tradeoff: sub-microsecond board-level feedback requires tight hardware coupling, whereas maintainability and extensibility require clean, modular software abstractions. This paper presents QuCtrl-BELL (Bell), a compiler-driven software stack for trapped-ion quantum control. The design resolves this tradeoff by decoupling control flow -- including loop",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Junpeng She",
+      "Ruoyu Yan",
+      "Zhizhen Qin",
+      "Zhanyu Li",
+      "Zhongtao Shen",
+      "Zichao Zhou",
+      "Binxiang Qi",
+      "Luming Duan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22433v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2605.22360v1",
+    "title": "Low-Complexity Tensor Beamforming for RIS-Aided Multiuser Multistream MIMO Systems",
+    "summary": "We address joint active and passive beamforming for uplink RIS-assisted multi-user multi-stream MIMO systems with joint detection. The coupled design of the receive combiner, block-diagonal user precoders, and RIS phase vector is formulated through a third-order composite channel tensor. Exploiting this multilinear structure, we propose a multi-stream tensor alternating optimization method that updates the combiner, user precoders, and RIS coefficients via low-dimensional tensor projections. Sim",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Bruno Sokal",
+      "Andr\u00e9 L. F. de Almeida",
+      "Martin Haardt"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22360v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22251v1",
+    "title": "Online Optimization with Unknown Time-Varying Parameters from Noisy Gradient Measurements",
+    "summary": "We study online optimization problems in which the cost function depends on latent, time-varying parameters that are unmeasurable and governed by unknown dynamics. Specifically, we consider a strongly convex cost function whose linear term evolves according to unknown linear stochastic dynamics, while the algorithm has access only to finite noisy gradient measurements. We propose a solution that uses control theoretic tools to reconstruct the latent parameters from gradient observations using a ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Shivanshu Tripathi",
+      "Maziar Raissi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22251v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22207v1",
+    "title": "Kernel-Based Safe Exploration in Deep Reinforcement Learning",
+    "summary": "Safety has been a major concern when deploying deep reinforcement learning algorithms in the real world. A promising direction that ensures that the learned policy does not visit unsafe regions is to learn a \\emph{barrier function} along with the policy. A barrier is a function from states to reals that assigns low values to the initial states, high values to the unsafe states, and decreases in expectation on each transition; such a function can be used to bound the probability of reaching unsaf",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Rupak Majumdar",
+      "Nikhil Singh",
+      "Sadegh Soudjani"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22207v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.22171v1",
+    "title": "Equilibrium-Free Contraction Stability Analysis for Grid-Forming Converter-Based Microgrids",
+    "summary": "Renewable-driven microgrids dominated by grid-forming (GFM) converters are subject to persistent power fluctuations, making equilibrium-known stability assessments restrictive. This paper develops an equilibrium-free contraction stability method based on semi-contraction theory. By formulating the system in a symmetry-aware projected state space, the intrinsic rotational mode induced by uniform angle shifts is removed. A blockwise Jacobian decomposition is introduced to characterize the coupled ",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Shijie Peng",
+      "Xiuqiang He",
+      "Xi Ru",
+      "Hua Geng"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22171v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.22114v1",
+    "title": "Bearing-Only Solution to the Fermat-Weber Location Problem for Unicycle Agent",
+    "summary": "This paper addresses bearing-only algorithms for solving the Fermat-Weber Location Problem (FWLP) with a unicycle agent. Unlike existing FWLP solutions for single- or double-integrator agents, our approach accounts for the nonholonomic constraints of wheeled robots. We first develop a bearing-only control law for the case with stationary beacons. Next, we consider saturated control inputs and propose a corresponding bearing-only control law. Finally, we address moving beacons with constant veloc",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Hong Liang Cheah",
+      "Mohammad Deghat",
+      "Jose Guivant"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.22114v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21903v1",
+    "title": "Engineering Hybrid Physics-Informed Neural Networks for Next-Generation Electricity Systems: A State-of-the-Art Review",
+    "summary": "The integration of machine learning with domain-specific physics is transforming the design, monitoring, and control of electricity systems, where data scarcity, limited interpretability, and the need to enforce physical laws constrain purely data-driven models. Physics-informed machine learning (PIML) addresses these limitations by embedding governing equations directly into the learning process, yielding accurate, efficient, and scalable solutions for Industry 4.0 applications. This article re",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Joseph Nyangon"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21903v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.21897v1",
+    "title": "AdaPTwin: Adaptive Multi-Fidelity Predictive Digital Twin for Proactive Radio Resource Management in Vehicular Networks",
+    "summary": "The highly dynamic nature of vehicular networks necessitates proactive and site-specific radio resource management (RRM) to achieve ultra-reliable low-latency communications. While Network Digital Twins (NDTs) have emerged as a promising enabler, ray-tracing remains time-consuming, challenging accurate RRM under latency constraints. We propose AdaPTwin, an adaptive multi-fidelity predictive NDT for proactive and latency-aware RRM in vehicular networks. Unlike single- and multi-fidelity NDTs with",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Armin Makvandi",
+      "Md. Zoheb Hassan",
+      "Md. Jahangir Hossain"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21897v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21892v1",
+    "title": "System Level Analysis and Management of Orbital Debris Using Empirical Dynamic Modeling",
+    "summary": "Orbital debris is a pressing problem which presents a danger to global space operations and a barrier to continued development of the space economy and space infrastructure. As research continues regarding orbital debris, there is a need for tools to understand the system-level implications of orbital debris solutions. This research considers the orbital debris problem as a dynamic process. Based on dynamic system theories, time-series variables of the numbers of orbital debris, orbital objects,",
+    "published": "2026-05-21",
+    "updated": "2026-05-21",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Asaad S. Abdul-Hamid",
+      "Hao Chen"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21892v1",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2605.21771v1",
+    "title": "Secure Coordination for Vertiport Sequencing in Advanced Air Mobility",
+    "summary": "Advanced air mobility operations will require reliable coordination mechanisms for managing dense traffic near vertiports. However, sequencing decisions may become vulnerable when they rely on potentially falsified self-reported information such as estimated time of arrival. Self-interested vehicles may misreport their arrival times to obtain favorable landing priority, while malicious actors may spoof information to disrupt sequencing decisions or induce unnecessary congestion. This paper studi",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Jaehan Im",
+      "Filippos Fotiadis",
+      "Ufuk Topcu",
+      "David Fridovich-Keil"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21771v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21763v1",
+    "title": "On the Sample Complexity of Discounted Reinforcement Learning with Optimized Certainty Equivalents",
+    "summary": "We study risk-sensitive reinforcement learning in finite discounted MDPs, where a generative model of the MDP is assumed to be available. We consider a family or risk measures called the optimized certainty equivalent (OCE), which includes important risk measures such as entropic risk, CVaR, and mean-variance. Our focus is on the sample complexities of learning the optimal state-action value function (value learning) and an optimal policy (policy learning) under recursive OCE. We provide an exac",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Oliver Mortensen",
+      "Mohammad Sadegh Talebi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21763v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.21723v1",
+    "title": "Learning Altruistic Collaboration in Heterogeneous Multi-Team Systems",
+    "summary": "This paper studies heterogeneous multi-team collaboration through dynamic robot allocation, where robots are treated as transferable resources. Leveraging Hamilton's rule from ecology as an altruistic decision-making mechanism, we propose a multi-team collaborative resource allocation framework with heterogeneous capabilities, transfer costs, and capability-dependent contributions. The resulting allocation problem is combinatorial and is shown to be NP-hard. To address scalability, we develop a ",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Riwa Karam",
+      "Ruoyu Lin",
+      "Brooks A. Butler",
+      "Magnus Egerstedt"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21723v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21719v1",
+    "title": "Mind the Gaps: Multi-Robot Feedback-Driven Ergodic Coverage in Unknown Environments",
+    "summary": "In this work, we address the problem of multi-robot adaptive coverage, where teams of robots perform dynamic sampling by continuously adjusting their positions to collect data in an environment. This task can be challenging, particularly when robots must be efficiently allocated to new sampling locations over time. Ergodic search methods optimize robot trajectories by ensuring that the robots' time-averaged spatial distribution aligns with the spatial distribution of environmental information. W",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Thales Costa Silva",
+      "Nora Ayanian"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21719v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21708v1",
+    "title": "Disturbance Rejection Control under Nested Signal Temporal Logic Specifications: A Recursive Design Approach",
+    "summary": "This paper investigates the control synthesis for continuous-time uncertain systems under nested Signal Temporal Logic (STL) specifications containing nested temporal operators. Control Barrier Functions (CBFs) are utilized herein to encode STL formulas into system constraints. However, traditional CBF designs fail to encode nested STL formulas, whereas recent reachability analysis-based methods capable of handling such formulas are inapplicable to uncertain systems and suffer from a severe comp",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Yuzhang Peng",
+      "Jiaqi Yan",
+      "Wei Wang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21708v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21704v1",
+    "title": "Motion Design for Grasp-Based Dynamic Locomotion in Microgravity",
+    "summary": "Locomotion in microgravity often relies on sparsely and irregularly arranged anchors, motivating grasp-based mobility with multiple limbs. In this setting, dynamic locomotion is feasible only through deliberate regulation of both anchored interactions and whole-body coordination under coupled dynamic and kinematic constraints. This paper presents design insights for grasp-based dynamic locomotion with multi-limbed robotic systems in microgravity, targeting scenarios that require 6D limb manipula",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Chaerim Moon",
+      "Joohyung Kim",
+      "Justin K. Yim"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21704v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.21701v1",
+    "title": "DAE-Embedded Neural Control Verification for Shipboard Microgrids under Transient Shocks",
+    "summary": "Neural control offers strong potential for handling highly nonlinear dynamics in shipboard microgrids (SMGs), yet its black-box nature can trigger abrupt control spikes and actuator saturation during initial transient shocks. This letter devises a formal verification method for SMG neural controller to assess its shock responses. Our contributions include: 1) a set-based SMG differential-algebraic equation(DAE) model compatible with set propagation; 2) a DAE-embedded bound propagation approach t",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Fei Feng",
+      "Lizhi Wang",
+      "Ziqian Liu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21701v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.21691v1",
+    "title": "Resilient Energy-Based Control for DC Data Centers under Grid and Load Disturbances",
+    "summary": "This paper presents a passivity-based control framework for AC-DC converters supplying non-passive Information Technology rack loads in DC data centers. Unlike conventional cascaded proportional-integral controllers that ensure stability only near nominal operating points, the proposed method is derived from the system total energy balance using the Port-Hamiltonian formulation. By shaping the stored energy and injecting virtual damping through a lossless interconnection with a PH controller, th",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Lizhi Wang",
+      "Fei Feng",
+      "Ella Chou",
+      "Yashen Lin"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21691v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21688v1",
+    "title": "Closed-Loop Sim-to-Real Reinforcement Learning for Deformable Microfiber Shape Control",
+    "summary": "Autonomous contact-based micromanipulation is challenging because surface and interfacial interactions at the microscale are difficult to model accurately, limiting the use of conventional model-based control and sim-to-real learning. We present a closed-loop sim-to-real reinforcement learning (RL) approach for microfiber shape control on a surface. The central idea is to train geometric shape regulation in a simplified frictionless simulator and rely on real-time visual feedback during deployme",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Alessandro Amici",
+      "Houari Bettahar",
+      "Veeti Jaakkola",
+      "Quan Zhou"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21688v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.21439v1",
+    "title": "Fully Actuated Manifold Constraint Based Output Feedback Control for Input-Constrained Uncertain Nonlinear Systems",
+    "summary": "This paper presents a low-complexity, model-free, output-feedback controller for a class of unknown time-varying nonlinear systems with unknown input constraints. The controller achieves the preset control accuracy when the actuator is not saturated and maintains flexible control accuracy after actuator saturation. This result extends existing constraint control methods for linear manifolds to a more general form, including the construction of nonlinear manifolds and various types of constraints",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Dianrui Mu",
+      "Changchun Hua",
+      "Yafeng Li",
+      "Jiannan Chen",
+      "Rao Wei"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21439v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.21399v1",
+    "title": "Output Feedback Control of Linear Time-Invariant Systems with Operational Constraints",
+    "summary": "This paper introduces a systematic method for designing robust linear controllers using output feedback in the presence of operational constraints. The design uses Nagumo's Theorem and the Comparison Lemma to guarantee constraint satisfaction, while incorporating min-norm optimal control principles inspired by Control Barrier Functions. The resulting controller is a continuous piecewise-linear output feedback policy that preserves the closed-loop system's analyzability using linear systems theor",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Marcel Menner",
+      "Heather Hussain",
+      "Eugene Lavretsky"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21399v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21396v1",
+    "title": "Grid-Aware Peer-to-Peer Energy Trading: A Learning-Augmented Framework",
+    "summary": "Distribution networks are transitioning from passive to active systems due to the growing integration of distributed energy resources (DERs). Peer to Peer (P2P) energy trading has emerged as a viable framework that enables local energy exchange among participants, represented here as aggregated microgrids (MGs). Incorporating network constraints is essential to ensure that P2P transactions remain physically feasible and consistent with grid's operating limits. However, existing P2P frameworks st",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      " Devangi",
+      "Ankit Singhal",
+      "Yashasvi Bansal"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21396v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21344v1",
+    "title": "Beyond Nonlinear Small-Gain Design: DADS with Partial-State Feedback",
+    "summary": "Eduardo Sontag and coauthors studied Input-to-Output Stability (IOS) and the output asymptotic gain property. These notions changed control theory and recently had an impact on robust adaptive control through the Deadzone-Adapted Disturbance Suppression (DADS) control scheme. Moreover, recently the notion of IOS was extended to systems described by Partial Differential Equations (PDEs). In this work, we celebrate Eduardo Sontag by combining DADS and IOS for PDEs: we study the partial-state regul",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Iasson Karafyllis",
+      "Miroslav Krstic"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21344v1",
+    "sectors": []
+  },
+  {
+    "id": "2605.21211v1",
+    "title": "Reinforcement Learning-based Control via Y-wise Affine Neural Networks: Comparative Case Studies for Chemical Processes",
+    "summary": "In this work we present an efficient and practically implementable approach for the application of reinforcement learning (RL)-based control in chemical process systems. This is an area that has yet to widely adopt RL-based control largely due to inherent challenges in trusting RL algorithms and the time-consuming process of training reliable agents. To address these challenges, we leverage a class of RL algorithms termed Y-wise Affine Neural Network (YANN)- RL, which we have developed in our pr",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Austin Braniff",
+      "Yuhe Tian"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.21211v1",
+    "sectors": [
+      "robotics",
       "ai"
     ]
   }

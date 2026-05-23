@@ -66,17 +66,8 @@
   {
     "prime": "Northrop Grumman",
     "ticker": "NOC",
-    "totalCompanies": 8,
+    "totalCompanies": 7,
     "portfolio": [
-      {
-        "company": "Also",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1595.0M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS OF COMMERCIAL ORBITAL TRANSPORTATION SERVICES SPACE ACT AGREEMENT DEVELOPMENT PROGRAM AND AN EXISTING INTERNATIONAL SPA",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNH15CN76C_8000_-NONE-_-NONE-"
-      },
       {
         "company": "Anduril",
         "relationship": "partnership",
@@ -130,19 +121,19 @@
     "totalCompanies": 6,
     "portfolio": [
       {
-        "company": "Also",
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Counter-UAS partnership (Pulsar)"
+      },
+      {
+        "company": "Cover",
         "relationship": "gov contract",
         "source": "USAspending.gov",
         "amount": "$240.7M",
         "agency": "National Aeronautics and Space Administration",
         "evidence": "THE CONTRACTOR SHALL PROVIDE THE PERSONNEL. MATERIALS, AND FACILITIES NECESSARY TO DESIGN. DEVELOP, INTEGRATE, TEST AND SUPPORT GOES IMAGER AND SOUNDER INSTRUMENTS; SUPPORT INSTRUMENT INTEGRATION INTO",
         "url": "https://www.usaspending.gov/award/CONT_AWD_GSFC0199609DNAS596090_8000_-NONE-_-NONE-"
-      },
-      {
-        "company": "Anduril",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Counter-UAS partnership (Pulsar)"
       },
       {
         "company": "Halo",
@@ -269,52 +260,6 @@
     ]
   },
   {
-    "prime": "BAE Systems",
-    "ticker": "BAESY",
-    "totalCompanies": 5,
-    "portfolio": [
-      {
-        "company": "Also",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$4067.2M",
-        "agency": "Department of Defense",
-        "evidence": "PROCUREMENT OF 10,000 FAMILY OF MEDIUM TACTICAL VEHICLES.  ALSO ADDING PROGRAM SUPPORT AND FEDERAL RETAIL EXCISE TAX.  THIS ACTION IS BEING ADDED AS AN UNDEFINITIZED CONTRACTUAL ACTION",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV08C0460_9700_-NONE-_-NONE-"
-      },
-      {
-        "company": "Rebellion Defense",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Mission software integration"
-      },
-      {
-        "company": "Shift5",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Cyber-operational resilience for military platforms"
-      },
-      {
-        "company": "general",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$2006.7M",
-        "agency": "Department of Defense",
-        "evidence": "THIS ACTION IS COST PLUS INCENTIVE-FEE (CPIF) 52 MONTH ENGINEERING AND MANUFACTURING DEVELOPMENT CONTRACT, WITH THREE FIXED PRICE INCENTIVE (SUCCESSIVE TARGETS) (FPI(S)) OPTION YEARS OF LOW RATE INITI",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15CA001_9700_-NONE-_-NONE-"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$365.7M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
-      }
-    ]
-  },
-  {
     "prime": "SAIC",
     "ticker": "SAIC",
     "totalCompanies": 5,
@@ -382,6 +327,43 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Commercial space systems"
+      }
+    ]
+  },
+  {
+    "prime": "BAE Systems",
+    "ticker": "BAESY",
+    "totalCompanies": 4,
+    "portfolio": [
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Mission software integration"
+      },
+      {
+        "company": "Shift5",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Cyber-operational resilience for military platforms"
+      },
+      {
+        "company": "general",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$2006.7M",
+        "agency": "Department of Defense",
+        "evidence": "THIS ACTION IS COST PLUS INCENTIVE-FEE (CPIF) 52 MONTH ENGINEERING AND MANUFACTURING DEVELOPMENT CONTRACT, WITH THREE FIXED PRICE INCENTIVE (SUCCESSIVE TARGETS) (FPI(S)) OPTION YEARS OF LOW RATE INITI",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15CA001_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$365.7M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
       }
     ]
   },

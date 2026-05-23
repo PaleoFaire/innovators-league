@@ -1,7 +1,7 @@
 // Auto-generated ARPA-E project data
-// Last updated: 2026-05-22 10:16:00 UTC
+// Last updated: 2026-05-23 09:00:01 UTC
 // Total projects: 1698 | Active: 329
-// Private companies: 682 | Known TIL: 125
+// Private companies: 682 | Known TIL: 115
 // Unique organizations: 724 | Total funding: $4,287,471,056
 const ARPA_E_PROJECTS_AUTO = [
   {
@@ -4343,7 +4343,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,600,000",
     programAcronym: "Vision OPEN 2024",
     technologyAreas: ["Fuels", "Transportation"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: false,
   },
   {
@@ -4499,7 +4499,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,579,478",
     programAcronym: "Open Funding Solicitation",
     technologyAreas: ["Fuels", "Transportation"],
-    isKnownCompany: true,
+    isKnownCompany: false,
     isPrivateCompany: true,
   },
   {
