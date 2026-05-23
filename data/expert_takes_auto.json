@@ -1,24 +1,14 @@
 {
-  "generated_at": "2026-05-22T09:36:41.193090Z",
+  "generated_at": "2026-05-23T08:25:45.850494Z",
   "takes": [
     {
-      "author": "Wired",
+      "author": "SpaceNews",
       "role": "Industry signal",
       "company": "SpaceX",
-      "text": "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers",
+      "text": "SpaceX files for IPO",
       "date": "Wed, 20 Ma",
       "source": "news",
-      "source_url": "https://www.wired.com/story/elon-musk-spacex-spending-gas-turbines-grok/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a Year to Access Its Data Centers",
-      "date": "Wed, 20 Ma",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/spacex-ipo-anthropic-compute-finances-risks/",
+      "source_url": "https://spacenews.com/spacex-files-for-ipo/",
       "signal_type": "ipo"
     },
     {
@@ -62,16 +52,6 @@
       "signal_type": "ipo"
     },
     {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "How Elon Musk will increase his power through the SpaceX IPO",
-      "date": "Thu, 21 Ma",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/05/21/how-elon-musk-will-increase-his-power-through-the-spacex-ipo/",
-      "signal_type": "ipo"
-    },
-    {
       "author": "Crunchbase News",
       "role": "Industry signal",
       "company": "SpaceX",
@@ -82,16 +62,6 @@
       "signal_type": "funding"
     },
     {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX Listed Grok\u2019s \u2018Spicy\u2019 Mode as a Risk in Its IPO Filing",
-      "date": "Thu, 21 Ma",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/spacex-ipo-grok-spicy-mode-risks/",
-      "signal_type": "ipo"
-    },
-    {
       "author": "Canary Media",
       "role": "Industry signal",
       "company": "Fervo Energy",
@@ -100,6 +70,36 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
       "signal_type": "ipo"
+    },
+    {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "XAI $15 Billion Per Year AI Rental to Anthropic Details",
+      "date": "Fri, 22 Ma",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/05/xai-15-billion-per-year-ai-rental-to-anthropic-details.html",
+      "signal_type": "news"
+    },
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX IPO filing casts Starlink Mobile as future wireless challenger",
+      "date": "Fri, 22 Ma",
+      "source": "news",
+      "source_url": "https://spacenews.com/spacex-prospectus-casts-starlink-mobile-as-future-wireless-challenger/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "STAT News",
+      "role": "Industry signal",
+      "company": "Retro Biosciences",
+      "text": "STAT+: Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion",
+      "date": "Fri, 22 Ma",
+      "source": "news",
+      "source_url": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss",
+      "signal_type": "funding"
     },
     {
       "author": "Electrek",

@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
+    "change": "+15%",
+    "changeNum": 15,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 3,
+    "activityIndex": 9,
     "billsTracked": 2,
-    "rulesTracked": 1,
-    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
+    "rulesTracked": 7,
+    "description": "2 bill(s) + 7 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 9 \u2014 +15% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -26,13 +26,25 @@
       },
       {
         "type": "federal_register",
-        "title": "736th Meeting of the Advisory Committee on Reactor Safeguards (ACRS)",
+        "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nucle",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Nebraska Public Power District; Cooper Nuclear Station; Subsequent License Renew",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Modernizing NRC Regulations for Byproduct Material Use",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
     "category": "Quantum Computing",
@@ -55,7 +67,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -78,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
     "category": "Space & Aerospace",
@@ -101,6 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   }
 ]

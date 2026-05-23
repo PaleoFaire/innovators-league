@@ -1,7 +1,7 @@
 [
   {
     "mafia": "Y Combinator",
-    "count": 15,
+    "count": 7,
     "companies": [
       {
         "company": "Wardstone",
@@ -44,61 +44,13 @@
         "sector": "Space & Aerospace",
         "totalRaised": "Undisclosed (YC/Thiel)",
         "valuation": ""
-      },
-      {
-        "company": "Beyond Reach",
-        "sector": "Space & Aerospace",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "Dispatch Space",
-        "sector": "Space & Aerospace",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "GRU",
-        "sector": "Space & Aerospace",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "Loombotic",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "Orbital Operations",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$8.8M",
-        "valuation": ""
-      },
-      {
-        "company": "Perseus Defense",
-        "sector": "Defense & Security",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "Voxel Energy",
-        "sector": "Infrastructure & Logistics",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "Zephyr Fusion",
-        "sector": "Nuclear Energy",
-        "totalRaised": "",
-        "valuation": ""
       }
     ],
-    "description": "15 companies with founding-team links to Y Combinator."
+    "description": "7 companies with founding-team links to Y Combinator."
   },
   {
     "mafia": "SpaceX Mafia",
-    "count": 7,
+    "count": 5,
     "companies": [
       {
         "company": "Starpath Robotics",
@@ -129,56 +81,13 @@
         "sector": "Climate & Energy",
         "totalRaised": "Undisclosed",
         "valuation": ""
-      },
-      {
-        "company": "Mesh Optical Technologies",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$58.7M",
-        "valuation": ""
-      },
-      {
-        "company": "Rendezvous Robotics",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$3M",
-        "valuation": ""
       }
     ],
-    "description": "7 companies with founding-team links to SpaceX."
-  },
-  {
-    "mafia": "Tesla Mafia",
-    "count": 4,
-    "companies": [
-      {
-        "company": "Slip Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$44M",
-        "valuation": ""
-      },
-      {
-        "company": "Heron Power",
-        "sector": "Climate & Energy",
-        "totalRaised": "$140M",
-        "valuation": ""
-      },
-      {
-        "company": "Odin Dynamics",
-        "sector": "Ocean & Maritime",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "Voxel Energy",
-        "sector": "Infrastructure & Logistics",
-        "totalRaised": "",
-        "valuation": ""
-      }
-    ],
-    "description": "4 companies with founding-team links to Tesla."
+    "description": "5 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "MIT CSAIL Spinouts",
-    "count": 3,
+    "count": 2,
     "companies": [
       {
         "company": "QuEra Computing",
@@ -191,44 +100,13 @@
         "sector": "Chips & Semiconductors",
         "totalRaised": "$25M+",
         "valuation": ""
-      },
-      {
-        "company": "Foundation Alloy",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "",
-        "valuation": ""
       }
     ],
-    "description": "3 companies with founding-team links to MIT CSAIL Spinouts."
-  },
-  {
-    "mafia": "Apple Mafia",
-    "count": 3,
-    "companies": [
-      {
-        "company": "Tenstorrent",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$1B+",
-        "valuation": "$2.7B"
-      },
-      {
-        "company": "Humble Robotics",
-        "sector": "Transportation",
-        "totalRaised": "$24M",
-        "valuation": ""
-      },
-      {
-        "company": "Noble Machines",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "",
-        "valuation": ""
-      }
-    ],
-    "description": "3 companies with founding-team links to Apple."
+    "description": "2 companies with founding-team links to MIT CSAIL Spinouts."
   },
   {
     "mafia": "Google/DeepMind",
-    "count": 3,
+    "count": 2,
     "companies": [
       {
         "company": "MatX",
@@ -241,58 +119,27 @@
         "sector": "Chips & Semiconductors",
         "totalRaised": "$100M+",
         "valuation": ""
-      },
-      {
-        "company": "Periodic Labs",
-        "sector": "AI & Software",
-        "totalRaised": "$300M",
-        "valuation": ""
       }
     ],
-    "description": "3 companies with founding-team links to Google/DeepMind."
+    "description": "2 companies with founding-team links to Google/DeepMind."
   },
   {
-    "mafia": "NASA / JPL",
-    "count": 3,
-    "companies": [
-      {
-        "company": "Persona AI",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$25M",
-        "valuation": ""
-      },
-      {
-        "company": "Perseus Defense",
-        "sector": "Defense & Security",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "Spinor Energy",
-        "sector": "Climate & Energy",
-        "totalRaised": "",
-        "valuation": ""
-      }
-    ],
-    "description": "3 companies with founding-team links to NASA / JPL."
-  },
-  {
-    "mafia": "Anduril Mafia",
+    "mafia": "Tesla Mafia",
     "count": 2,
     "companies": [
       {
-        "company": "Chariot Defense",
-        "sector": "Defense & Security",
-        "totalRaised": "$41M",
+        "company": "Slip Robotics",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$44M",
         "valuation": ""
       },
       {
-        "company": "Dominion Dynamics",
-        "sector": "Defense & Security",
-        "totalRaised": "$18.8M",
+        "company": "Heron Power",
+        "sector": "Climate & Energy",
+        "totalRaised": "$140M",
         "valuation": ""
       }
     ],
-    "description": "2 companies with founding-team links to Anduril."
+    "description": "2 companies with founding-team links to Tesla."
   }
 ]

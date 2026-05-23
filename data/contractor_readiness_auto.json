@@ -213,8 +213,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2057,
-    "headcountFormatted": "2,057+"
+    "estimatedHeadcount": 2100,
+    "headcountFormatted": "2,100+"
   },
   {
     "company": "Hermeus",
@@ -393,8 +393,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1500,
-    "headcountFormatted": "1,500+"
+    "estimatedHeadcount": 1514,
+    "headcountFormatted": "1,514+"
   },
   {
     "company": "Rigetti Computing",
@@ -1356,8 +1356,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2786,
-    "headcountFormatted": "2,786+"
+    "estimatedHeadcount": 2814,
+    "headcountFormatted": "2,814+"
   },
   {
     "company": "Picogrid",
@@ -2336,22 +2336,6 @@
     "headcountFormatted": ""
   },
   {
-    "company": "Milrem Robotics",
-    "sector": "Defense & Security",
-    "readinessScore": 63,
-    "govTractionScore": 6,
-    "compositeScore": 62.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": true,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "Xtend",
     "sector": "Defense & Security",
     "readinessScore": 63,
@@ -3269,6 +3253,22 @@
     "readinessScore": 60,
     "govTractionScore": 6,
     "compositeScore": 74.0,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
+    "company": "Fossa Systems",
+    "sector": "Space & Aerospace",
+    "readinessScore": 60,
+    "govTractionScore": 6,
+    "compositeScore": 66.5,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {

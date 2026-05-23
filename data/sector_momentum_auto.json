@@ -1,30 +1,30 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 58,
+    "momentum": 72,
     "trend": "accelerating",
     "catalysts": [
-      "Ground system issue scrubs first launch of SpaceX&#039;s Sta",
-      "SpaceX scrubs first Starship V3 launch just before liftoff",
-      "Who will benefit most from SpaceX IPO? Mostly Elon \u2014 and a f"
+      "Blue Origin completes investigation into New Glenn launch fa",
+      "SpaceX launches first Starship V3",
+      "SpaceX launches Starship V3 for the first time, but loses bo"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 75,
+      "news": 100,
       "hiring": 0,
-      "market": 58
+      "market": 100
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
     "sector": "AI & Software",
     "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "Lexroom CEO: Anthropic won\u2019t kill vertical AI companies",
-      "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a",
-      "AI model &quot;capability overhang&quot; biggest challenge f"
+      "XAI $15 Billion Per Year AI Rental to Anthropic Details",
+      "STAT+: Longevity startup Retro Biosciences says latest fundr",
+      "Lexroom CEO: Anthropic won\u2019t kill vertical AI companies"
     ],
     "fundingQ": "$2218.7B",
     "components": {
@@ -33,29 +33,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 54,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
+      "Waymo Robotaxis Have To Take A Break In Atlanta \u2014 Can&#8217;",
       "Waymo expands pause to four cities as robotaxis keep driving",
-      "Waymo halts freeway rides after robotaxis struggle in constr",
       "Humanoid partners with Bosch, Schaeffler to scale robot prod"
     ],
     "fundingQ": "$5.9B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 52,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
       "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
@@ -65,13 +65,31 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 78
+      "market": 72
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 50,
+    "trend": "steady",
+    "catalysts": [
+      "X-energy gets federal environmental approval for Texas nucle",
+      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
+      "Anthropic&#8217;s Nuclear Bomb"
+    ],
+    "fundingQ": "$800M",
+    "components": {
+      "funding": 83,
+      "news": 15,
+      "hiring": 0,
+      "market": 87
+    },
+    "lastUpdated": "2026-05-23"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 50,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
       "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi",
@@ -81,11 +99,29 @@
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX Starship Flight 12 Good Launch and Simulated Landings",
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
+      "Fervo Energy unveils new power plant details in IPO filing"
+    ],
+    "fundingQ": "$1.3B",
+    "components": {
+      "funding": 84,
+      "news": 20,
+      "hiring": 0,
+      "market": 74
+    },
+    "lastUpdated": "2026-05-23"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -101,7 +137,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
     "sector": "Ocean & Maritime",
@@ -117,130 +153,95 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-22"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 39,
-    "trend": "steady",
-    "catalysts": [
-      "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its",
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
-      "Fervo Energy unveils new power plant details in IPO filing"
-    ],
-    "fundingQ": "$1.3B",
-    "components": {
-      "funding": 84,
-      "news": 20,
-      "hiring": 0,
-      "market": 24
-    },
-    "lastUpdated": "2026-05-22"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 34,
-    "trend": "steady",
-    "catalysts": [
-      "X-energy gets federal environmental approval for Texas nucle",
-      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
-      "Anthropic&#8217;s Nuclear Bomb"
-    ],
-    "fundingQ": "$800M",
-    "components": {
-      "funding": 83,
-      "news": 15,
-      "hiring": 0,
-      "market": 4
-    },
-    "lastUpdated": "2026-05-22"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 25,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do",
-      "SpaceX IPO Filing Reveals Anthropic Is Paying $15 Billion a",
-      "What US chipmaker Cerebras\u2019s IPO could mean for startups lik"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 23,
+    "momentum": 28,
     "trend": "declining",
     "catalysts": [
-      "SpaceX scrubs first Starship V3 launch just before liftoff",
-      "Spotify launches an ElevenLabs-powered audiobook creation to",
-      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
+      "SpaceX IPO filing casts Starlink Mobile as future wireless c",
+      "Ibrance heirs, Gilead's Tubulis data and more at #ASCO26",
+      "STAT+: Longevity startup Retro Biosciences says latest fundr"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 20,
+      "news": 30,
       "hiring": 0,
-      "market": 73
+      "market": 89
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 21,
+    "sector": "Transportation",
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
+      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi",
+      "Rivian opens R2 configurator: here are all the options and p",
+      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$40M",
     "components": {
-      "funding": 0,
-      "news": 5,
+      "funding": 7,
+      "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 96
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 14,
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "Humanoid partners with Bosch, Schaeffler to scale robot prod",
-      "X-energy gets federal environmental approval for Texas nucle",
-      "Quantinuum Helios With 98 Physical Qubits and 50 Logical Qub"
+      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do",
+      "What US chipmaker Cerebras\u2019s IPO could mean for startups lik",
+      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 12,
+    "sector": "Consumer Tech",
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Waymo halts freeway rides after robotaxis struggle in constr",
-      "Waymo expands robotaxi coverage more than 20% \u2014 larger than"
+      "Blue Origin completes investigation into New Glenn launch fa",
+      "SpaceX launches first Starship V3",
+      "SpaceX IPO filing casts Starlink Mobile as future wireless c"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-23"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -257,24 +258,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   },
   {
-    "sector": "Transportation",
-    "momentum": 10,
+    "sector": "Housing & Construction",
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi",
-      "Rivian opens R2 configurator: here are all the options and p",
-      "Uber turns on Waymo as it pours $10B+ into owning robotaxi a"
+      "XAI $15 Billion Per Year AI Rental to Anthropic Details"
     ],
-    "fundingQ": "$40M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 7,
-      "news": 15,
+      "funding": 0,
+      "news": 5,
       "hiring": 0,
-      "market": 19
+      "market": 50
     },
-    "lastUpdated": "2026-05-22"
+    "lastUpdated": "2026-05-23"
   }
 ]
