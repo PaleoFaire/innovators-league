@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T10:56:42.099351+00:00",
+  "generated_at": "2026-05-24T10:54:45.807989+00:00",
   "source_status": "seeded",
   "notifications": [
     {
@@ -104,7 +104,6 @@
       "notification_date": "2026-03-05",
       "summary": "ROK requested UGV platforms + autonomy stack \u2014 first notification featuring Bone AI as a named sub.",
       "matched_companies": [
-        "Milrem Robotics",
         "Bone AI"
       ]
     },
@@ -229,14 +228,6 @@
       "total_value_m": 220
     },
     {
-      "company": "Milrem Robotics",
-      "appearances": 1,
-      "countries": [
-        "South Korea"
-      ],
-      "total_value_m": 310
-    },
-    {
       "company": "Bone AI",
       "appearances": 1,
       "countries": [
@@ -257,6 +248,6 @@
     "total_notifications": 12,
     "total_value_usd_m": 12060,
     "unique_countries": 11,
-    "tracked_company_appearances": 7
+    "tracked_company_appearances": 6
   }
 }

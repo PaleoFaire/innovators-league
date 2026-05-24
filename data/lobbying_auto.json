@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T10:56:43.382604+00:00",
+  "generated_at": "2026-05-24T10:54:46.932810+00:00",
   "source_status": "live_pending",
   "filings": [
     {
@@ -131,7 +131,7 @@
         "In-house"
       ],
       "filing_url": "https://lda.senate.gov/filings/public/filing/",
-      "matched_company": "OpenAI"
+      "matched_company": null
     },
     {
       "registrant": "OpenAI, LLC",
@@ -148,7 +148,7 @@
         "In-house"
       ],
       "filing_url": "https://lda.senate.gov/filings/public/filing/",
-      "matched_company": "OpenAI"
+      "matched_company": null
     },
     {
       "registrant": "Anthropic PBC",
@@ -163,7 +163,7 @@
         "In-house"
       ],
       "filing_url": "https://lda.senate.gov/filings/public/filing/",
-      "matched_company": "Anthropic"
+      "matched_company": null
     },
     {
       "registrant": "Anthropic PBC",
@@ -179,7 +179,7 @@
         "In-house"
       ],
       "filing_url": "https://lda.senate.gov/filings/public/filing/",
-      "matched_company": "Anthropic"
+      "matched_company": null
     },
     {
       "registrant": "Tiber Creek Partners, LLC",
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "company": "OpenAI",
+      "company": "OpenAI, LLC",
       "total_spend": 1250000,
       "quarters": {
         "2025-Q4": 540000,
@@ -448,7 +448,7 @@
       ]
     },
     {
-      "company": "Anthropic",
+      "company": "Anthropic PBC",
       "total_spend": 760000,
       "quarters": {
         "2025-Q4": 340000,
@@ -578,10 +578,10 @@
     "unique_clients": 11,
     "fastest_growing": [
       "Oklo",
-      "OpenAI",
+      "OpenAI, LLC",
       "Shield AI",
       "Helion",
-      "Anthropic"
+      "Anthropic PBC"
     ]
   }
 }

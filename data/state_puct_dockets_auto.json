@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T10:56:44.267485+00:00",
+  "generated_at": "2026-05-24T10:54:48.190186+00:00",
   "source_status": "seeded",
   "dockets": [
     {
@@ -13,7 +13,7 @@
       "filing_date": "2025-11-18",
       "status": "Active \u2014 Comment Period",
       "url": "https://interchange.puc.texas.gov/Search/Filings?Number=57891",
-      "matched_company": "OpenAI"
+      "matched_company": null
     },
     {
       "docket_id": "TX-PUCT-58014",
@@ -193,6 +193,6 @@
     "total_dockets": 12,
     "total_mw_requested": 5440,
     "unique_states": 7,
-    "matched_tracked_companies": 5
+    "matched_tracked_companies": 4
   }
 }

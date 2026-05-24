@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T09:45:44.160085+00:00",
+  "generated_at": "2026-05-24T09:53:25.326458+00:00",
   "source_status": "seeded",
   "entries": [
     {
@@ -48,7 +48,7 @@
       "proposed_online_date": "2027-06",
       "status": "Active \u2014 System Impact Study",
       "queue_date": "2024-09-15",
-      "matched_company": "OpenAI",
+      "matched_company": null,
       "is_smr": false,
       "is_ai_buyer": true,
       "priority_label": "AI Hyperscaler"
@@ -212,7 +212,7 @@
     "total_mw": 8255,
     "smr_entries": 5,
     "ai_buyer_entries": 8,
-    "matched_to_tracked_company": 5,
+    "matched_to_tracked_company": 4,
     "by_rto_mw": {
       "MISO": 2000,
       "ERCOT": 2000,
