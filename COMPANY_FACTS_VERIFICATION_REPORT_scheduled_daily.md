@@ -1,105 +1,115 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-22T08:57:02+00:00  
+**Generated:** 2026-05-24T08:19:13+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 30 companies  
+**Cohort size:** 33 companies  
 
-**New Claude extractions this run:** 19  
+**New Claude extractions this run:** 32  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 15 | 50% |
-| 🔧 Changes proposed | 5 | 17% |
-| ❓ Unverifiable | 10 | 33% |
+| ✅ Cleared (data matches sources) | 26 | 79% |
+| 🔧 Changes proposed | 7 | 21% |
+| ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (5 companies)
+## 🔧 Proposed Changes (7 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Impulse Space
+### Axiom Space
 
-- **`location`:** `Redondo Beach, CA` → `Redondo Beach, California, United States`  
-  Sources: [company_about](https://impulsespace.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Impulse_Space)
+- **`totalRaised`:** `$850M+` → `$350M`  
+  Sources: [company_website](https://axiomspace.com)
 
-  **Notes:** Raised $30M seed (2022), $45M Series A (2023), $150M Series B (2024), $300M Series C (2025) per company timeline. LEO Express 1, 2, and 3 (Mira variants) launched in 2023-2025. Valuation not found in sources.
+  **Notes:** Most recent financing of $350M announced February 12, 2026 per company website. Wikipedia reports December 2025 agreement with 4iG Group for $100M equity investment in two tranches through March 2026. Database entry references $850M+ total raised and $2.5B valuation, but these figures cannot be verified in provided sources. Current stage cannot be determined from sources provided.
+
+### Boston Metal
+
+- **`location`:** `Woburn, MA` → `Woburn, Massachusetts`  
+  Sources: [company_about](https://bostonmetal.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Boston_Metal)
+
+  **Notes:** Founded as 'Boston Electrometallurgical Corporation' in 2013, later rebranded to Boston Metal. Tadeu Carneiro listed as Chairman & CEO (joined 2017) but not identified as founder in sources. Recent funding includes $75M (2026), $51M convertible note (2025), $20M Series C2 (2024), and $262M Series C (2023). Company has Brazilian subsidiary, Boston Metal do Brasil. Cannot verify specific stage designation from sources provided.
+
+### Deep Fission
+
+- **`fundingStage`:** `Public` → `Pre-IPO`  
+  Sources: [company_website](https://deepfission.com)
+- **`totalRaised`:** `$110M` → `$80M`  
+  Sources: [company_website](https://deepfission.com)
+
+  **Notes:** Most recent disclosed funding is $80M from Feb 10, 2026 announcement [0]. Company announced draft IPO registration (Apr 22, 2026) and launch of public offering (May 20, 2026) [0], making current stage Pre-IPO rather than Public. Database entry claimed $110M total raised but only $80M is verifiable from source. Valuation not disclosed in sources. Specific investor names not listed in sources.
+
+### Fervo Energy
+
+- **`fundingStage`:** `IPO` → `Public`  
+  Sources: [company_website](https://fervoenergy.com)
+
+  **Notes:** Company went public via IPO on May 17, 2026, raising $1.89B. Wikipedia entry flags potential undisclosed paid content and press release language (February 2026). Series E funding of $462M received in November 2025 per Wikipedia source [2].
 
 ### Nuro
 
 - **`fundingStage`:** `Series G` → `Series E`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Nuro)
 
-  **Notes:** Company pivoted from autonomous delivery vehicles to licensing L4 autonomy technology (Nuro Driver) in September 2024. Most recent funding round closed in August 2025 at $203M with $6B valuation according to Wikipedia. Partnership announced with Uber and Lucid Motors for robotaxi deployment of 20,000+ vehicles planned over six years.
+  **Notes:** Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 and closed in August 2025 with $203M total raised at $6B valuation. Partnership with Uber and Lucid Motors announced in July 2025 for robotaxi deployment targeting 20,000+ vehicles over six years.
 
-### SpaceX
+### Retro Biosciences
 
-- **`fundingStage`:** `Series G` → `Pre-IPO`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
+- **`investors`:** `[]` → `['Sam Altman']`  
+  Sources: [news (STAT News)](https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss)
 
-  **Notes:** Source [0] is a domain sale page and not a reliable source for company information. Wikipedia [1] indicates SpaceX is expected to have an IPO in 2026. Founded in El Segundo, California in 2002, but now headquartered at Starbase, Texas. Current valuation of $800B from a 2025 internal share offer.
-
-### Vertical Aerospace
-
-- **`location`:** `Bristol, UK` → `Bristol, England, UK`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Vertical_Aerospace)
-
-  **Notes:** Company went public via SPAC merger with Broadstone Acquisition Corp in December 2021, listed on NYSE under ticker EVTL. Aircraft name changed from VX4 to Valo according to company website [0]. Wikipedia notes Mudrick Capital investment of $50 million in 2024 with 70% shareholding.
+  **Notes:** Only one source provided. Source [0] confirms $1.8B valuation and Sam Altman backing, but does not provide sufficient detail to verify founder names, location, founding year, funding stage, or total amount raised. Database entry references Joe Betts-LaCroix as founder, Redwood City CA location, 2021 founding, Series A stage, and $180M raised, but none of these are supported by the single provided source.
 
 ### X-Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [company_website](https://x-energy.com)
 
-  **Notes:** Source [0] shows X-energy announced pricing of upsized IPO on April 23, 2026, confirming public status. Database entry claims about specific funding amounts ($500M Amazon), Pentagon/Air Force contracts, 12-unit UK deployment, and founder name (Kam Ghaffarian) could not be verified from provided sources. Founded year (2009) and valuation ($2B+) also not found in sources.
+  **Notes:** IPO pricing announced April 23, 2026 per source [0]. Source [0] shows Q1 2026 earnings report scheduled for June 4, 2026, confirming public company status. Database entry claims could not be verified: founder name (Kam Ghaffarian) not mentioned in sources; location (Rockville, MD) not mentioned; founded year (2009) not mentioned; $500M Amazon funding not found; Pentagon/Air Force contracts not mentioned; UK deployment plans not found; total raised and valuation figures not specified in provided sources.
 
 ---
 
-## ❓ Unverifiable (10 companies)
-
-Couldn't fetch authoritative sources. Per Stephen's rule, we leave these as-is rather than guess. May want to flag for manual research or removal from DB.
-
-- **Apex Space** — *Claude extraction failed*
-- **Astrolab** — *Claude extraction failed*
-- **Axiom Space** — *Claude extraction failed*
-- **Boston Metal** — *Claude extraction failed*
-- **Crusoe Energy** — *Claude extraction failed*
-- **Deterrence** — *Claude extraction failed*
-- **Earth AI** — *Claude extraction failed*
-- **Einride** — *Claude extraction failed*
-- **Fervo Energy** — *Claude extraction failed*
-- **Humanoid** — *Claude extraction failed*
-
----
-
-## ✅ Cleared (15 companies)
+## ✅ Cleared (26 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
+- AST SpaceMobile
+- Altos Labs
+- Blue Origin
 - Cerebras
+- Dawn Aerospace
+- Deterrence
+- Earth AI
+- Einride
 - Fractile
 - Galvanick
-- Gecko Robotics
+- Hailo
 - Hidden Level
+- Humanoid
 - ICEYE
-- IonQ
-- Karman Industries
-- Quantinuum
+- New Limit
 - Rivian
-- Solugen
-- Space Forge
+- Rocket Lab
+- SpaceX
 - Standard Nuclear
+- Synspective
+- Terrestrial Energy
+- Tubulis
 - Vast
+- Vertical Aerospace
 - Waymo
+- Xtend
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-22T08:57:02+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-24T08:19:14+00:00*
