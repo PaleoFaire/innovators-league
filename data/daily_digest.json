@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T07:52:34.026354+00:00",
+  "generatedAt": "2026-05-24T10:02:50.469039+00:00",
   "date": "2026-05-24",
   "dateDisplay": "Sunday, May 24, 2026",
   "sections": {
@@ -12,6 +12,15 @@
         "description": "CENTRALIZE FARM PRODUCTION & CONSERVATION IT SYSTEMS, AUTOMATE PROCESSES, AND INTEGRATE DATA FOR BETTER EFFICIENCY PER T",
         "date": "2026-04-18",
         "url": "https://sam.gov/opp/12314426F0126/view"
+      },
+      {
+        "company": "Palantir",
+        "amount": "$86M",
+        "amount_raw": 86000000.0,
+        "agency": "Department of Homeland Security",
+        "description": "THIS ORDER PROVIDES ENFORCEMENT REMOVAL OPERATIONS MODERNIZATION AND OPERATIONAL CAPABILITY FOR THE ENFORCEMENT CASE MAN",
+        "date": "2026-05-05",
+        "url": "https://sam.gov/opp/70CTD026FC0000012/view"
       },
       {
         "company": "Shield AI",
@@ -142,16 +151,16 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Flexibility Enhancements of Weather Reporting Systems",
+        "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nucle",
         "date": "2026-05-22",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10286"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10323"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nucle",
+        "title": "Flexibility Enhancements of Weather Reporting Systems",
         "date": "2026-05-22",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10323"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10286"
       },
       {
         "kind": "Federal Register",
@@ -164,44 +173,44 @@
     "patents": [
       {
         "company": "Tesla",
-        "title": "484 patents granted recently \u00b7 focus: Battery cells, Autopilot/FSD, Electric motors",
+        "title": "489 patents granted recently \u00b7 focus: Battery cells, Autopilot/FSD, Electric motors",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Tesla"
       },
       {
         "company": "Ginkgo Bioworks",
-        "title": "154 patents granted recently \u00b7 focus: Cell programming, Organism design, Enzyme engineering",
+        "title": "169 patents granted recently \u00b7 focus: Cell programming, Organism design, Enzyme engineering",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Ginkgo+Bioworks"
       },
       {
         "company": "Waymo",
-        "title": "131 patents granted recently \u00b7 focus: LiDAR perception, Motion planning, HD maps",
+        "title": "113 patents granted recently \u00b7 focus: LiDAR perception, Motion planning, HD maps",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Waymo"
       },
       {
-        "company": "Tempus AI",
-        "title": "112 patents granted recently \u00b7 focus: Clinical genomics, Multi-modal data, AI diagnostics",
-        "date": "2025-Q4",
-        "url": "https://patents.google.com/?assignee=Tempus+AI"
-      },
-      {
         "company": "Rivian",
-        "title": "84 patents granted recently \u00b7 focus: Skateboard platform, Tank-turn, Off-road EV",
+        "title": "101 patents granted recently \u00b7 focus: Skateboard platform, Tank-turn, Off-road EV",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Rivian"
       },
       {
+        "company": "Tempus AI",
+        "title": "93 patents granted recently \u00b7 focus: Clinical genomics, Multi-modal data, AI diagnostics",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Tempus+AI"
+      },
+      {
         "company": "Joby Aviation",
-        "title": "77 patents granted recently \u00b7 focus: Tilt-rotor eVTOL, Electric propulsion, Battery systems",
+        "title": "84 patents granted recently \u00b7 focus: Tilt-rotor eVTOL, Electric propulsion, Battery systems",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Joby+Aviation"
       }
     ]
   },
   "stats": {
-    "contractCount": 6,
+    "contractCount": 7,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
