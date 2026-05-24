@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-17T10:22:05+00:00",
-  "weekOf": "2026-05-17",
+  "generatedAt": "2026-05-24T10:30:06+00:00",
+  "weekOf": "2026-05-24",
   "summary": {
-    "rosterSize": 1040,
-    "candidatesScreened": 243,
+    "rosterSize": 992,
+    "candidatesScreened": 260,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 131
+    "rejected": 148
   },
   "topPicks": [
     {
@@ -42,40 +42,35 @@
       "briefing": "**GALOIS, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $109.1M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 32/70."
     },
     {
-      "name": "Helion Energy",
+      "name": "Labelbox",
       "score": 30.7,
       "signals": [
         {
-          "name": "Helion Energy",
-          "source": "LLM (Core Memory)",
-          "sourceWeight": 30,
-          "context": "Fusion company working on polaris fusion reactor technology.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Wed, 06 May 2026 14:33:38 GMT",
-          "verifyUrl": "https://www.corememory.com/p/everything-you-need-to-know-about-nuclear-alva-energy",
-          "articleTitle": "Everything You Need To Know About The Nuclear Energy Boom - EP 70 James Krellenstein",
-          "suggestedSector": "Fusion Energy"
+          "name": "Labelbox",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-04-27"
         }
       ],
       "sources": [
-        "LLM (Core Memory)"
+        "VC portfolio"
       ],
       "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Nuclear Energy",
+      "confidence": "high",
+      "suggestedSector": null,
       "dimensions": {
-        "capital_quality": 0,
+        "capital_quality": 15,
         "magnitude": 0,
-        "tech_depth": 4,
-        "frontier_fit": 10,
-        "stealth_signal": 10,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 8,
         "founder_signal": 0,
-        "excitement": 6.7
+        "excitement": 7.7
       },
-      "briefing": "**Helion Energy** \u2014 Nuclear Energy.\n\n \n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: What does the regulatory critical path look like, and who's the first commercial customer?\n\nSource: LLM (Core Memory). Score 31/70."
+      "briefing": "**Labelbox** \u2014 frontier tech.\n\n Backing: Bessemer.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
     },
     {
       "name": "HRL LABORATORIES, LLC",
@@ -483,5 +478,5 @@
       ]
     }
   ],
-  "rejectedCount": 131
+  "rejectedCount": 148
 }

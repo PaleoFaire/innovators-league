@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-05-17
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-05-24
 
-**Roster:** 1040 companies tracked  ·  **Screened this cycle:** 243  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 992 companies tracked  ·  **Screened this cycle:** 260  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -26,23 +26,23 @@ Source: DARPA. Score 32/70.
 
 ---
 
-### 2. Helion Energy  ·  *Score 30/70*
+### 2. Labelbox  ·  *Score 30/70*
 
-**Sector:** Nuclear Energy
+**Sector:** Frontier Tech
 
-**Dimensions:** Capital 0, Magnitude 0, Tech Depth 4, Frontier Fit 10, Stealth 10
+**Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 8
 
-**Helion Energy** — Nuclear Energy.
+**Labelbox** — frontier tech.
 
- 
+ Backing: Bessemer.
 
 Surfaced in just one source — early intel, before the rest of the market.
 
-Ask: What does the regulatory critical path look like, and who's the first commercial customer?
+Ask: Who's the first commercial customer, and how big is the contract?
 
-Source: LLM (Core Memory). Score 31/70.
+Source: VC portfolio. Score 31/70.
 
-**Verify:** [LLM (Core Memory)](https://www.corememory.com/p/everything-you-need-to-know-about-nuclear-alva-energy)
+**Verify:** [VC portfolio: Bessemer](portfolio_page)
 
 ---
 
@@ -129,16 +129,16 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 
 - **[All-In]** [CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win](https://allinchamathjason.libsyn.com/ca-governor-candidate-steve-hilton-on-why-california-is-destroying-itself-how-a-republican-can-win)
 - **[Core Memory]** [Here Come The Space Lasers - EP 62 Baiju Bhatt](https://www.corememory.com/p/here-come-the-space-lasers-aetherflux-baiju-bhatt)
-- **[Core Memory]** [The Aussie Man Who Used AI To Create A Cancer Cure For His Dog](https://www.corememory.com/p/the-aussie-man-who-used-ai-to-create-cancer-therapy-dog-rosie)
-- **[All-In]** [John Fetterman: The Rogue Democrat Who Broke Party Ranks](https://allinchamathjason.libsyn.com/john-fetterman-the-rogue-democrat-who-broke-party-ranks)
+- **[TBPN]** [Google I/O: Day 1 Reactions, Goldman to Lead SpaceX IPO | Diet TBPN](https://share.transistor.fm/s/6d130aef)
+- **[TBPN]** [Google I/O Reactions, Large IPOs Incoming, Figma's AI Assistant | Dylan Field, Brian Chesky, Feross Aboukhadijeh, Tae Ki](https://share.transistor.fm/s/375903d7)
+- **[Core Memory]** [The Freshman Who Took Down Stanford's President And Its Perfect Image - EP 72 Theo Baker](https://www.corememory.com/p/the-freshman-who-took-down-stanford-theo-baker)
+- **[Invest Like the Best]** [Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]](https://colossus.com/episode/watts-and-wafers/)
 - **[Core Memory]** [The Very Wild, Very Real Plan To Build AI Data Centers In The Ocean - EP 65 Garth Sheldon-Coulson](https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth)
 - **[TBPN]** [Trump-Xi Summit, Space Data Center Debate, Inflation Up | Diet TBPN](https://share.transistor.fm/s/657e798c)
 - **[TBPN]** [Trump-Xi Summit, Inflation Fears, Space Data Centers | Max Levchin, Delian Asparouhov, Richard Socher, Brandon Hill, Nat](https://share.transistor.fm/s/f4584153)
 - **[Core Memory]** [Meta's AI Chief On AI Beef, New Models And Life With Zuck - EP 71 Alex Wang](https://www.corememory.com/p/metas-ai-chief-alex-wang-muse-spark-ai-wars)
-- **[Invest Like the Best]** [Krishna Rao - Anthropic's CFO on Compute, Scaling to $30B ARR, and the Returns to Frontier Intelligence - [Invest Like t](https://colossus.com/episode/cone-of-uncertainty/)
-- **[All-In]** [Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race](https://allinchamathjason.libsyn.com/josh-shapiro-on-trump-iran-war-chaos-israels-failure-the-economy-and-2028-race)
 
 ---
 
 
-*Generated 2026-05-17T10:22:05+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-05-24T10:30:06+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

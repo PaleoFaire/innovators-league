@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-17T10:19:09+00:00",
+  "generatedAt": "2026-05-24T10:27:38+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 7
+      "recentItems": 6
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 5
     },
     {
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 12
+      "recentItems": 14
     },
     {
       "name": "Construction Physics (Brian Potter)",
@@ -60,7 +60,7 @@
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 10
+      "recentItems": 11
     },
     {
       "name": "404 Media",
@@ -78,18 +78,151 @@
       "name": "Stratechery (Ben Thompson)",
       "url": "https://stratechery.com/feed/",
       "totalItems": 10,
-      "recentItems": 10
+      "recentItems": 9
     },
     {
       "name": "Platformer (Casey Newton)",
       "url": "https://www.platformer.news/rss",
       "totalItems": 15,
-      "recentItems": 4
+      "recentItems": 5
     }
   ],
-  "totalRawSignals": 14,
-  "uniqueCandidateCount": 14,
+  "totalRawSignals": 24,
+  "uniqueCandidateCount": 24,
   "candidates": [
+    {
+      "name": "Aleph",
+      "totalScore": 17.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Aleph",
+          "score": 17.0,
+          "frontierTechScore": 6,
+          "mentions": 1,
+          "context": ", and Open Humanoids Video editing and generation are getting more compositional : Runway launched  Aleph 2.0  and the new  Edit Studio , letting users edit a single frame and propagate that edit thro",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
+          "articleUrl": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
+          "articleDate": "Fri, 22 May 2026 05:50:58 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Edit Studio",
+      "totalScore": 17.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Edit Studio",
+          "score": 17.0,
+          "frontierTechScore": 6,
+          "mentions": 1,
+          "context": "eo editing and generation are getting more compositional : Runway launched  Aleph 2.0  and the new  Edit Studio , letting users edit a single frame and propagate that edit through the rest of the vide",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
+          "articleUrl": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
+          "articleDate": "Fri, 22 May 2026 05:50:58 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Hark",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Hark",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "4 2025. Capital is flowing to interface/hardware bets as well as infra :  @adcock_brett  announced  Hark  raised  $700M at a $6B valuation , aimed at GPU infrastructure, future model development, hard",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
+          "articleUrl": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
+          "articleDate": "Fri, 22 May 2026 05:50:58 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Around",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Around",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "edits/generation in Gemini, Flow, Shorts, and later APIs ( GoogleDeepMind ,  Google ,  GeminiApp ). Around those models, Google launched or expanded  Antigravity 2.0 desktop ,  CLI ,  SDK ,  Managed A",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "articleUrl": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "articleDate": "Wed, 20 May 2026 03:34:17 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Antigravity",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Antigravity",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "r APIs ( GoogleDeepMind ,  Google ,  GeminiApp ). Around those models, Google launched or expanded  Antigravity 2.0 desktop ,  CLI ,  SDK ,  Managed Agents in the Gemini API , Search-native generative",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "articleUrl": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "articleDate": "Wed, 20 May 2026 03:34:17 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Devin Auto",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Devin Auto",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "self-hosting/multi-cloud requirements  @krishdpi ,  @LangChain . In parallel,  Cognition  launched  Devin Auto-Triage , positioning it as an always-on \u201cfirst responder\u201d for bugs, alerts, and incidents",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] How to land a job at a frontier lab (on Pretraining)",
+          "articleUrl": "https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier",
+          "articleDate": "Tue, 19 May 2026 07:31:40 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Triage",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Triage",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "g/multi-cloud requirements  @krishdpi ,  @LangChain . In parallel,  Cognition  launched  Devin Auto-Triage , positioning it as an always-on \u201cfirst responder\u201d for bugs, alerts, and incidents with long-",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] How to land a job at a frontier lab (on Pretraining)",
+          "articleUrl": "https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier",
+          "articleDate": "Tue, 19 May 2026 07:31:40 GMT"
+        }
+      ]
+    },
     {
       "name": "Perceptron Mk1",
       "totalScore": 10.2,
@@ -110,59 +243,211 @@
       ]
     },
     {
-      "name": "SOTA",
-      "totalScore": 10.2,
+      "name": "Imperagen",
+      "totalScore": 9.5,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "SOTA",
-          "score": 10.2,
+          "name": "Imperagen",
+          "score": 9.5,
           "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs\nOpenAI launched  realtime-1.5  3 months ago, but it was a relative drop in ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
-          "articleUrl": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
-          "articleDate": "Fri, 08 May 2026 07:11:24 GMT"
+          "mentions": 2,
+          "context": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering\nBiotech company Imperag",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering",
+          "articleUrl": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
+          "articleDate": "Thu, 21 May 2026 04:00:00 +0000"
         }
       ]
     },
     {
-      "name": "Raindrop Triage",
-      "totalScore": 10.2,
+      "name": "GPU",
+      "totalScore": 7.65,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Raindrop Triage",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "GPU",
+          "score": 7.65,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "ndirect, or generated feedback  so observability becomes a  learning system .  @benhylak  launched  Raindrop Triage , an agent dedicated to finding and investigating bad agent behavior.  @Vtrivedy10  ",
+          "context": "ets as well as infra :  @adcock_brett  announced  Hark  raised  $700M at a $6B valuation , aimed at GPU infrastructure, future model development, hardware, and multimodal/personal intelligence product",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Silicon Valley gets Serious about Services",
-          "articleUrl": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
-          "articleDate": "Wed, 06 May 2026 05:40:41 GMT"
+          "articleTitle": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
+          "articleUrl": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
+          "articleDate": "Fri, 22 May 2026 05:50:58 GMT"
         }
       ]
     },
     {
-      "name": "Cowboy Space Corporation",
+      "name": "Colossus",
       "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Cowboy Space Corporation",
+          "name": "Colossus",
           "score": 7.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "boy Space Corp Differentiation Case Study Earlier this week, I saw a headline that a company called Cowboy Space Corporation had raised over $200 million to build rockets whose upper stages are just f",
+          "context": "oying orbital compute in 2028 and scale it to 100 GW of compute launched annually, which would make Colossus seem like a pale blue dot.  Starlink, which had been the bull case until AI, is at 9,600 sa",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Cowboy Space Corporation",
-          "articleUrl": "https://www.notboring.co/p/cowboy-space-corporation",
-          "articleDate": "Sat, 16 May 2026 12:52:13 GMT"
+          "articleTitle": "Weekly Dose of Optimism #194",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-194",
+          "articleDate": "Fri, 22 May 2026 12:51:22 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Caffeinated",
+      "totalScore": 7.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Caffeinated",
+          "score": 7.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "and IT\u2019S TIME TO BUILD. In other great news for building stuff here, Amca raised $300M at $1B+ from Caffeinated and crew. Amca builds and modernize factories to design and produce critical aerospace a",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #194",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-194",
+          "articleDate": "Fri, 22 May 2026 12:51:22 GMT"
+        }
+      ]
+    },
+    {
+      "name": "GoogleDeepMind",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "GoogleDeepMind",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "/video/audio inputs  and producing video edits/generation in Gemini, Flow, Shorts, and later APIs ( GoogleDeepMind ,  Google ,  GeminiApp ). Around those models, Google launched or expanded  Antigravi",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "articleUrl": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "articleDate": "Wed, 20 May 2026 03:34:17 GMT"
+        }
+      ]
+    },
+    {
+      "name": "GeminiApp",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "GeminiApp",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ducing video edits/generation in Gemini, Flow, Shorts, and later APIs ( GoogleDeepMind ,  Google ,  GeminiApp ). Around those models, Google launched or expanded  Antigravity 2.0 desktop ,  CLI ,  SDK",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "articleUrl": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "articleDate": "Wed, 20 May 2026 03:34:17 GMT"
+        }
+      ]
+    },
+    {
+      "name": "CLI",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "CLI",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "Google ,  GeminiApp ). Around those models, Google launched or expanded  Antigravity 2.0 desktop ,  CLI ,  SDK ,  Managed Agents in the Gemini API , Search-native generative UI/coding,  Gemini Spark  ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "articleUrl": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "articleDate": "Wed, 20 May 2026 03:34:17 GMT"
+        }
+      ]
+    },
+    {
+      "name": "SDK",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "SDK",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": ",  GeminiApp ). Around those models, Google launched or expanded  Antigravity 2.0 desktop ,  CLI ,  SDK ,  Managed Agents in the Gemini API , Search-native generative UI/coding,  Gemini Spark  backgro",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "articleUrl": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "articleDate": "Wed, 20 May 2026 03:34:17 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Managed Agents",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Managed Agents",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "niApp ). Around those models, Google launched or expanded  Antigravity 2.0 desktop ,  CLI ,  SDK ,  Managed Agents in the Gemini API , Search-native generative UI/coding,  Gemini Spark  background age",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "articleUrl": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "articleDate": "Wed, 20 May 2026 03:34:17 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Failure Modes",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Failure Modes",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " from like, the zero line. They\u2019re usually launched from like, minus 10 kilometer- Mission Success, Failure Modes, and the Five Levels of Autonomy Brandon [00:35:03]:  What is a zero line? Yaroslav [0",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "The Autonomous Drone Tech Stack & Economics of Drones \u2014 Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+          "articleUrl": "https://www.latent.space/p/the-fourth-law",
+          "articleDate": "Mon, 18 May 2026 13:45:32 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Five Levels",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Five Levels",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ne. They\u2019re usually launched from like, minus 10 kilometer- Mission Success, Failure Modes, and the Five Levels of Autonomy Brandon [00:35:03]:  What is a zero line? Yaroslav [00:35:05]:  Zero line is",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "The Autonomous Drone Tech Stack & Economics of Drones \u2014 Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+          "articleUrl": "https://www.latent.space/p/the-fourth-law",
+          "articleDate": "Mon, 18 May 2026 13:45:32 GMT"
         }
       ]
     },
@@ -205,154 +490,59 @@
       ]
     },
     {
-      "name": "Translate",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Translate",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs\nOpenAI launched  realtime-1.5  3 months ago, b",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
-          "articleUrl": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
-          "articleDate": "Fri, 08 May 2026 07:11:24 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Whisper",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Whisper",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs\nOpenAI launched  realtime-1.5  3 months ago, but it was a rela",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
-          "articleUrl": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
-          "articleDate": "Fri, 08 May 2026 07:11:24 GMT"
-        }
-      ]
-    },
-    {
-      "name": "KyleHessling1",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "KyleHessling1",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "k/s on a single RTX 5090 , targeting strong one-shot frontend/web generation on consumer hardware  @KyleHessling1 . DeepSeek commentary was mixed: fundraising talks reportedly target a  $45B valuation",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
-          "articleUrl": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
-          "articleDate": "Thu, 07 May 2026 05:57:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "DeepSeek",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "DeepSeek",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "RTX 5090 , targeting strong one-shot frontend/web generation on consumer hardware  @KyleHessling1 . DeepSeek commentary was mixed: fundraising talks reportedly target a  $45B valuation  led by a major",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
-          "articleUrl": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
-          "articleDate": "Thu, 07 May 2026 05:57:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Chinese",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Chinese",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "eepSeek commentary was mixed: fundraising talks reportedly target a  $45B valuation  led by a major Chinese state-backed semiconductor fund  @jukan05 , while evaluators debated weak WeirdML performanc",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
-          "articleUrl": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
-          "articleDate": "Thu, 07 May 2026 05:57:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Perplexity",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Perplexity",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " test \u2192 repeat . Enterprise verticalization: finance, legal, and proactive assistants Anthropic and Perplexity both pushed hard into finance workflows : Anthropic launched  financial-services agent te",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Silicon Valley gets Serious about Services",
-          "articleUrl": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
-          "articleDate": "Wed, 06 May 2026 05:40:41 GMT"
-        }
-      ]
-    },
-    {
-      "name": "KYC",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "KYC",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "launched  financial-services agent templates  for work such as  pitch generation, valuation review, KYC screening, and month-end close , with integrations into providers like  FactSet, S&P Global, and",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Silicon Valley gets Serious about Services",
-          "articleUrl": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
-          "articleDate": "Wed, 06 May 2026 05:40:41 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Genesis World",
+      "name": "Starlink",
       "totalScore": 4.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Genesis World",
+          "name": "Starlink",
           "score": 4.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ms to as low as 3ms, and tracking error on a 15cm circle dropped from ~20mm to ~2mm. The simulator (Genesis World) lets them run 2,700 robot-hours of evaluation per chart point without touching real h",
+          "context": "le it to 100 GW of compute launched annually, which would make Colossus seem like a pale blue dot.  Starlink, which had been the bull case until AI, is at 9,600 satellites, 10.3 million subscribers ac",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #192",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-192",
-          "articleDate": "Fri, 08 May 2026 12:56:57 GMT"
+          "articleTitle": "Weekly Dose of Optimism #194",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-194",
+          "articleDate": "Fri, 22 May 2026 12:51:22 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Biotech",
+      "totalScore": 3.5,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Biotech",
+          "score": 3.5,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering\nBiotech company Imperagen announced on Thursday a \u00a35 million ($6.7 million) seed round led by PXN Ve",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering",
+          "articleUrl": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
+          "articleDate": "Thu, 21 May 2026 04:00:00 +0000"
+        }
+      ]
+    },
+    {
+      "name": "Northern Gritstone",
+      "totalScore": 3.5,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Northern Gritstone",
+          "score": 3.5,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " a \u00a35 million ($6.7 million) seed round led by PXN Ventures, with participation from IQ Capital and Northern Gritstone.",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering",
+          "articleUrl": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
+          "articleDate": "Thu, 21 May 2026 04:00:00 +0000"
         }
       ]
     }

@@ -1,169 +1,56 @@
 {
-  "generatedAt": "2026-05-17T10:25:33+00:00",
+  "generatedAt": "2026-05-24T10:33:30+00:00",
   "model": "claude-haiku-4-5",
-  "companiesProcessed": 159,
-  "companiesWithInsights": 8,
-  "totalInsights": 23,
-  "newClaudeCallsThisRun": 159,
+  "companiesProcessed": 138,
+  "companiesWithInsights": 4,
+  "totalInsights": 10,
+  "newClaudeCallsThisRun": 138,
   "byCompany": {
-    "OpenAI": {
-      "founder": "Sam Altman, Greg Brockman, Ilya Sutskever",
+    "SpaceX": {
+      "founder": "Elon Musk",
       "ticker": null,
-      "lastUpdated": "2026-05-17T10:22:19+00:00",
+      "lastUpdated": "2026-05-24T10:30:24+00:00",
       "insights": [
         {
-          "quote": "We're consolidating our product efforts to execute with maximum focus toward the agentic future, to win across both consumer and enterprise.",
-          "topic": "Product strategy, agentic AI",
+          "quote": "Congratulations SpaceX team on an epic first Starship V3 launch & landing! You scored a goal for humanity.",
+          "topic": "Starship V3 achievement",
           "source_type": "news",
-          "source_name": "Wired",
-          "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
-          "date": "2026-05-15",
+          "source_name": "Ars Technica Space",
+          "url": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/",
+          "date": "2026-05-23",
           "paraphrased": false
-        },
-        {
-          "quote": "Brockman added that OpenAI's products are naturally converging, and that the company has decided to merge ChatGPT and Codex into one unified experience.",
-          "topic": "Product consolidation",
-          "source_type": "news",
-          "source_name": "Wired",
-          "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
-          "date": "2026-05-15",
-          "paraphrased": true
-        },
-        {
-          "quote": "OpenAI says that Codex is increasingly powering its consumer and enterprise offerings, which are gaining the ability to perform digital tasks autonomously on behalf of users.",
-          "topic": "Codex capabilities, autonomous agents",
-          "source_type": "news",
-          "source_name": "Wired",
-          "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
-          "date": "2026-05-15",
-          "paraphrased": true
-        },
-        {
-          "quote": "The company also noted that the new GPT-5.5 model is stronger at reasoning with context, which is crucial for answering finance-related questions.",
-          "topic": "GPT-5.5 capabilities, financial reasoning",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-          "date": "2026-05-15",
-          "paraphrased": true
-        },
-        {
-          "quote": "According to OpenAI, more than 200 million users already ask financial questions to ChatGPT every month.",
-          "topic": "User engagement, market opportunity",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-          "date": "2026-05-15",
-          "paraphrased": true
         }
       ]
     },
-    "Anthropic": {
-      "founder": "Dario Amodei, Daniela Amodei, Jared Kaplan, Jack Clark, Chris Olah, Ben Mann, Sam McCandlish, Tom Brown",
+    "Rocket Lab": {
+      "founder": "Peter Beck",
       "ticker": null,
-      "lastUpdated": "2026-05-17T10:22:56+00:00",
+      "lastUpdated": "2026-05-24T10:31:21+00:00",
       "insights": [
         {
-          "quote": "For years, Anthropic's CEO Dario Amodei has kept copies of Richard Rhodes' The Making of the Atomic Bomb on the company's coffee tables, pressing the book on employees and interviewers alike. His thesis was that the scientists who built the most transformative weapon in history also failed to control how it would be used.",
-          "topic": "AI safety, responsibility",
-          "source_type": "news",
-          "source_name": "War on the Rocks",
-          "url": "https://warontherocks.com/cogs-of-war/anthropics-nuclear-bomb/",
-          "date": "2026-04-16",
-          "paraphrased": true
-        }
-      ]
-    },
-    "Cerebras": {
-      "founder": "Andrew Feldman, Gary Lauterbach, Michael James, Sean Lie, Jean-Philippe Fricker",
-      "ticker": null,
-      "lastUpdated": "2026-05-17T10:23:08+00:00",
-      "insights": [
-        {
-          "quote": "We were spending about $8 million a month. At this point, we had incinerated nearly $200 million trying to solve one technical problem.",
-          "topic": "early financial challenges",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
-          "date": "2026-05-16",
+          "quote": "We always have a strategic acquisition opportunity up our sleeve",
+          "topic": "M&A strategy",
+          "source_type": "earnings",
+          "source_name": "Rocket Lab Q1 2025 earnings call",
+          "url": "https://spacenews.com/rocket-lab-launches-ninth-synspective-satellite/",
+          "date": "2025-05-07",
           "paraphrased": false
         },
         {
-          "quote": "Cerebras' chips were 58 times larger. We were using 40 times as much power as anybody had ever used.",
-          "topic": "chip scale and power",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
-          "date": "2026-05-16",
+          "quote": "The priority will always be to bring a reliable rocket to market, even if it means taking a few extra months.",
+          "topic": "launch reliability",
+          "source_type": "earnings",
+          "source_name": "Rocket Lab Q4 2025 earnings call",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/",
+          "date": "2026-02-26",
           "paraphrased": false
-        },
-        {
-          "quote": "That was one of the greatest moments of my life.",
-          "topic": "packaging breakthrough moment",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
-          "date": "2026-05-16",
-          "paraphrased": false
-        },
-        {
-          "quote": "The microprocessor industry had spent its entire 50+ years making CPUs faster and cheaper by cramming more transistors onto a silicon wafer and dicing wafers into ever tinier pieces. But AI required so much compute power, many chips had to be strung together and then forced to communicate with each other. Cerebras' founders believed turning a whole, even bigger wafer into one giant, powerful chip, would work faster.",
-          "topic": "foundational chip design philosophy",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
-          "date": "2026-05-16",
-          "paraphrased": true
-        },
-        {
-          "quote": "They couldn't solve 'packaging.' This involves everything after manufacturing the silicon itself: adhering it to a motherboard, getting power to it, dealing with heating and cooling as well as the pipes that would deliver and return data.",
-          "topic": "packaging engineering challenge",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
-          "date": "2026-05-16",
-          "paraphrased": true
-        }
-      ]
-    },
-    "Rivian": {
-      "founder": "R. J. Scaringe",
-      "ticker": null,
-      "lastUpdated": "2026-05-17T10:23:19+00:00",
-      "insights": [
-        {
-          "quote": "Rivian Unified Intelligence, a multi-modal AI framework that integrates custom large language models with an orchestration layer designed to understand both the vehicle's systems and the driver's personal context",
-          "topic": "AI assistant technology",
-          "source_type": "news",
-          "source_name": "Electrek",
-          "url": "https://electrek.co/2026/05/12/rivian-hey-rivian-ai-assistant-vehicle-control/",
-          "date": "2026-05-12",
-          "paraphrased": true
-        },
-        {
-          "quote": "The R2 is the most important vehicle in Rivian's lineup. While the R1S and R1T established the brand, they were always too expensive to move the kind of volume Rivian needs to reach profitability. The R2 changes that equation",
-          "topic": "R2 strategic importance",
-          "source_type": "news",
-          "source_name": "Electrek",
-          "url": "https://electrek.co/2026/05/15/rivian-r2-configurator-live-pricing-options/",
-          "date": "2026-05-15",
-          "paraphrased": true
-        },
-        {
-          "quote": "That staggered rollout is a deliberate strategy. Rivian is launching with its highest-margin trim first, similar to what Tesla did when it launched the Model Y. The $48,490 Standard trim won't arrive until 2027, meaning the average transaction price will stay elevated through the critical early production period",
-          "topic": "R2 launch strategy",
-          "source_type": "news",
-          "source_name": "Electrek",
-          "url": "https://electrek.co/2026/05/15/rivian-r2-configurator-live-pricing-options/",
-          "date": "2026-05-15",
-          "paraphrased": true
         }
       ]
     },
     "Fervo Energy": {
       "founder": "Tim Latimer, Jack Norbeck",
       "ticker": null,
-      "lastUpdated": "2026-05-17T10:23:57+00:00",
+      "lastUpdated": "2026-05-24T10:31:41+00:00",
       "insights": [
         {
           "quote": "Fervo makes geothermal energy viable in far more places by harnessing horizontal drilling techniques borrowed from the oil-and-gas industry, for which its CEO and co-founder, Tim Latimer, previously worked.",
@@ -176,7 +63,7 @@
         },
         {
           "quote": "Fervo makes use of horizontal-drilling techniques honed in the shale oil and gas sector, where its CEO, Tim Latimer, worked before co-founding the company in 2017 alongside Jack Norbeck.",
-          "topic": "company founding and technology origin",
+          "topic": "company founding and technology approach",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
@@ -185,7 +72,7 @@
         },
         {
           "quote": "the company has \"multiple projects in various stages of progress\" and is pursuing \"multi-year, multi-gigawatt offtake partnerships with both utilities and hyperscalers,\"",
-          "topic": "project pipeline and customer strategy",
+          "topic": "pipeline strategy and partnerships",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
@@ -194,77 +81,45 @@
         },
         {
           "quote": "the Cape Station site has an estimated 4.3 GW of capacity potential, based on internal and independent estimates.",
-          "topic": "Cape Station capacity planning",
+          "topic": "Cape Station capacity and expansion",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
+          "date": "2026-04-09",
+          "paraphrased": true
+        },
+        {
+          "quote": "This week's development with Turboden \"helps streamline project execution and accelerate deployment as our project pipeline advances,\"",
+          "topic": "supply chain strategy",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
           "date": "2026-04-09",
           "paraphrased": false
-        },
+        }
+      ]
+    },
+    "Humanoid": {
+      "founder": "Artem Sokolov",
+      "ticker": null,
+      "lastUpdated": "2026-05-24T10:33:21+00:00",
+      "insights": [
         {
-          "quote": "the turbine agreement helps streamline project execution and accelerate deployment as our project pipeline advances.",
-          "topic": "supply chain and scaling strategy",
+          "quote": "For Humanoid, this agreement is a critical step in our roadmap, bridging the gap between POC validation and large-scale deployment. Our goal has always been to shorten the path between innovation and real-world integration, and this agreement reflects that approach.",
+          "topic": "scaling strategy, commercialization",
           "source_type": "news",
-          "source_name": "Canary Media",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
-          "date": "2026-04-09",
+          "source_name": "The Robot Report",
+          "url": "https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/",
+          "date": "2026-05-21",
           "paraphrased": false
-        }
-      ]
-    },
-    "General Matter": {
-      "founder": "Scott Nolan, Lee Robinson",
-      "ticker": null,
-      "lastUpdated": "2026-05-17T10:24:35+00:00",
-      "insights": [
-        {
-          "quote": "Scott Nolan spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
-          "topic": "Founding motivation",
-          "source_type": "podcast",
-          "source_name": "Invest Like the Best",
-          "url": "https://colossus.com/episode/betting-on-atoms/",
-          "date": "2024-04-14",
-          "paraphrased": true
         },
         {
-          "quote": "General Matter is rebuilding US uranium enrichment. The United States was the world leader in enrichment through the 1980s and then stopped entirely.",
-          "topic": "Company mission",
-          "source_type": "podcast",
-          "source_name": "Invest Like the Best",
-          "url": "https://colossus.com/episode/betting-on-atoms/",
-          "date": "2024-04-14",
-          "paraphrased": true
-        }
-      ]
-    },
-    "IonQ": {
-      "founder": "Christopher Monroe, Jungsang Kim",
-      "ticker": null,
-      "lastUpdated": "2026-05-17T10:25:01+00:00",
-      "insights": [
-        {
-          "quote": "In quantum networking, among numerous deployments we partnered with the U.S. Air Force Research Lab to achieve the first qubit-to-photon frequency conversion in a field-deployable system.",
-          "topic": "quantum networking deployment",
-          "source_type": "earnings",
-          "source_name": "IonQ Q4 2025 Earnings Call",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/ionq-ionq-q4-2025-earnings-call-transcript/",
-          "date": "2026-02-25",
-          "paraphrased": false
-        }
-      ]
-    },
-    "Panthalassa": {
-      "founder": "Garth Sheldon-Coulson",
-      "ticker": null,
-      "lastUpdated": "2026-05-17T10:25:28+00:00",
-      "insights": [
-        {
-          "quote": "We're in a moment of insatiable desire for more energy and more computing. And so the ideas of how to provide said energy and computing are getting ever more adventurous.",
-          "topic": "market opportunity, energy demand",
-          "source_type": "podcast",
-          "source_name": "Core Memory",
-          "url": "https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth",
-          "date": "2025-04-15",
+          "quote": "Together with Bosch, as a strong strategic manufacturing partner, we are committed to bringing humanoid robots into industrial settings, scaling their deployment, and accelerating adoption across logistics, manufacturing, and beyond.",
+          "topic": "market focus, deployment sectors",
+          "source_type": "news",
+          "source_name": "The Robot Report",
+          "url": "https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/",
+          "date": "2026-05-21",
           "paraphrased": false
         }
       ]
