@@ -1,6 +1,7 @@
 // Auto-updated press releases
-// Last updated: 2026-05-23 08:56:23 UTC
+// Last updated: 2026-05-24 09:11:51 UTC
 const PRESS_RELEASES = [
+  { title: "NASA to add missions to SpaceX commercial crew contract", date: "2026-05-24", companies: "SpaceX, Figure AI", categories: "contract, ipo", source: "spacenews" },
   { title: "Blue Origin completes investigation into New Glenn launch failure", date: "2026-05-23", companies: "Blue Origin, Figure AI", categories: "milestone, ipo", source: "spacenews" },
   { title: "SpaceX launches first Starship V3", date: "2026-05-23", companies: "SpaceX, Figure AI", categories: "product, milestone", source: "spacenews" },
   { title: "SpaceX Launches New Starship V3 For First Time", date: "2026-05-23", companies: "SpaceX", categories: "funding, product", source: "spacepolicyonline" },

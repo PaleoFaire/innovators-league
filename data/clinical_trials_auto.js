@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-05-23 08:56:24 UTC
+// Last updated: 2026-05-24 09:11:53 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06589310", title: "Falcon Real World Evidence Registry", status: "RECRUITING", phase: "N/A", sponsor: "Exact Sciences Corporation", conditions: "Cancer", enrollment: 25000, lastUpdated: "2026-05-22" },
   { nctId: "NCT05673018", title: "Galleri® in the Medicare Population.", status: "RECRUITING", phase: "NA", sponsor: "GRAIL, Inc.", conditions: "Cancer", enrollment: 50000, lastUpdated: "2026-05-22" },

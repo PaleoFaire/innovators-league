@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-05-22",
-    "vehicle": "Electron | Viva La StriX (StriX Launch 9)",
-    "payload": "Viva La StriX (StriX Launch 9)",
-    "pad": "Rocket Lab Launch Complex 1B, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/156a9e46-01b5-46f4-818e-ea563c71c5fe/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-05-22",
-    "vehicle": "Starship | Flight 12",
-    "payload": "Flight 12",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed83366c-872c-4484-97c1-bc74832304fc/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-05-24",
     "vehicle": "Long March 2F/G | Shenzhou 23",
     "payload": "Shenzhou 23",
@@ -109,6 +91,15 @@
   },
   {
     "date": "2026-06-10",
+    "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
+    "payload": "GISAT-1A (EOS-05)",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-06-10",
     "vehicle": "H3-30 | H3-30 Test Flight",
     "payload": "H3-30 Test Flight",
     "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
@@ -151,15 +142,6 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
-    "payload": "GISAT-1A (EOS-05)",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-06-30",
@@ -448,5 +430,23 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | Crew-13",
+    "payload": "Crew-13",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
+    "payload": "O3b mPower 11-13",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]

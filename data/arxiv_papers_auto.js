@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-05-23 08:56:36 UTC
+// Last updated: 2026-05-24 09:12:07 UTC
 const ARXIV_PAPERS = [
   { id: "2605.22786v1", title: "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems", category: "Artificial Intelligence", published: "2026-05-21", sectors: "ai", authors: "Sadia Asif, Mohammad Mohammadi Amiri, Momin Abbas et al." },
   { id: "2605.22781v1", title: "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback", category: "Artificial Intelligence", published: "2026-05-21", sectors: "robotics", authors: "Yunpeng Dong, Jingkai He, Yuze Hou et al." },
