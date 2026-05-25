@@ -49089,10 +49089,10 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-25 15:55
+// Last updated: 2026-05-25 17:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Commonwealth Fusion Systems", headline: "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply chain capabilities in", source: "TechNode Global", time: "10h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "xAI", headline: "XAI Building Money Printing AI Data Centers Faster and Cheaper While Others Are Canceled or Delayed", source: "Next Big Future", time: "20h ago", impact: "low", unread: true },
+  { id: 1, type: "funding", company: "Commonwealth Fusion Systems", headline: "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply chain capabilities in", source: "TechNode Global", time: "12h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "xAI", headline: "XAI Building Money Printing AI Data Centers Faster and Cheaper While Others Are Canceled or Delayed", source: "Next Big Future", time: "22h ago", impact: "low", unread: true },
   { id: 3, type: "contract", company: "SpaceX", headline: "NASA to add missions to SpaceX commercial crew contract", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor Will be HUGE for the SPACEX IPO", source: "Next Big Future", time: "1d ago", impact: "high", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX's Starship V3'still a work in progress'mostly successful on first flight", source: "Ars Technica Space", time: "1d ago", impact: "medium", unread: true },
