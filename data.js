@@ -49089,15 +49089,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-25 12:39
+// Last updated: 2026-05-25 15:55
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Commonwealth Fusion Systems", headline: "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply chain capabilities in", source: "TechNode Global", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "xAI", headline: "XAI Building Money Printing AI Data Centers Faster and Cheaper While Others Are Canceled or Delayed", source: "Next Big Future", time: "16h ago", impact: "low", unread: true },
+  { id: 1, type: "funding", company: "Commonwealth Fusion Systems", headline: "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply chain capabilities in", source: "TechNode Global", time: "10h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "xAI", headline: "XAI Building Money Printing AI Data Centers Faster and Cheaper While Others Are Canceled or Delayed", source: "Next Big Future", time: "20h ago", impact: "low", unread: true },
   { id: 3, type: "contract", company: "SpaceX", headline: "NASA to add missions to SpaceX commercial crew contract", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor Will be HUGE for the SPACEX IPO", source: "Next Big Future", time: "1d ago", impact: "high", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX's Starship V3'still a work in progress'mostly successful on first flight", source: "Ars Technica Space", time: "1d ago", impact: "medium", unread: true },
-  { id: 6, type: "funding", company: "Deep Fission", headline: "Nuclear startup Deep Fission says it's going public, again, and I have questions", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "xAI Selling $1.5 Billion of Compute to Anthropic Each Month", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
+  { id: 6, type: "funding", company: "Deep Fission", headline: "Nuclear startup Deep Fission says it's going public, again, and I have questions", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "xAI Selling $1.5 Billion of Compute to Anthropic Each Month", source: "CleanTechnica", time: "2d ago", impact: "high", unread: false },
   { id: 8, type: "news", company: "Humanoid", headline: "The future of physical AI isn't humanoid; it's task-specific and cost-efficient", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
   { id: 9, type: "ipo", company: "Blue Origin", headline: "Blue Origin completes investigation into New Glenn launch failure", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX launches first Starship V3", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
