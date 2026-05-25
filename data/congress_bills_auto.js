@@ -1,4 +1,4 @@
-// Auto-generated 2026-05-24 09:11
+// Auto-generated 2026-05-25 11:01
 const CONGRESS_BILLS_AUTO = [
   {
     "billNumber": "S4500",

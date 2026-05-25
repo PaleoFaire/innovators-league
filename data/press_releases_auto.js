@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-05-24 09:11:51 UTC
+// Last updated: 2026-05-25 11:01:52 UTC
 const PRESS_RELEASES = [
   { title: "NASA to add missions to SpaceX commercial crew contract", date: "2026-05-24", companies: "SpaceX, Figure AI", categories: "contract, ipo", source: "spacenews" },
   { title: "Blue Origin completes investigation into New Glenn launch failure", date: "2026-05-23", companies: "Blue Origin, Figure AI", categories: "milestone, ipo", source: "spacenews" },

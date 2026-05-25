@@ -1,9 +1,9 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-24 09:31:22 UTC
+// Last updated: 2026-05-25 11:23:32 UTC
 // Total: 13 filings across 13 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-24T09:31:22.285395+00:00",
+  "generated_at": "2026-05-25T11:23:32.253442+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
   "total_filings": 13,
@@ -94,23 +94,6 @@ const FORM_D_FILINGS = {
       "is_safe": false
     },
     {
-      "company": "Helios",
-      "issuer_name": "Helios ZincFive Partners IX, LLC",
-      "form": "D",
-      "filed_date": "2026-05-20",
-      "cik": "2136078",
-      "accession": "0002136078-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136078&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002136078-26-000001",
-      "offering_amount": "2295265",
-      "amount_sold": "2295265",
-      "amount_remaining": "0",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
       "company": "HUMAIN",
       "issuer_name": "Humain Ventures Fund I, LP",
       "form": "D",
@@ -123,6 +106,23 @@ const FORM_D_FILINGS = {
       "amount_sold": "5300000",
       "amount_remaining": "4700000",
       "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Helios",
+      "issuer_name": "Helios ZincFive Partners IX, LLC",
+      "form": "D",
+      "filed_date": "2026-05-20",
+      "cik": "2136078",
+      "accession": "0002136078-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136078&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002136078-26-000001",
+      "offering_amount": "2295265",
+      "amount_sold": "2295265",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false
