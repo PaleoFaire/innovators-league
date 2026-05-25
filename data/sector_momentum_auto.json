@@ -15,11 +15,29 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 59,
+    "trend": "steady",
+    "catalysts": [
+      "A*STAR, Commonwealth Fusion Systems sign collaborative resea",
+      "Nuclear startup Deep Fission says it&#8217;s going public, a",
+      "X-energy gets federal environmental approval for Texas nucle"
+    ],
+    "fundingQ": "$4.8B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 87
+    },
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
       "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor",
@@ -29,29 +47,11 @@
     "fundingQ": "$2218.7B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-24"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 57,
-    "trend": "steady",
-    "catalysts": [
-      "Nuclear startup Deep Fission says it&#8217;s going public, a",
-      "X-energy gets federal environmental approval for Texas nucle",
-      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at"
-    ],
-    "fundingQ": "$957M",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 87
-    },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -69,7 +69,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Defense & Security",
@@ -85,7 +85,7 @@
       "hiring": 0,
       "market": 72
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Drones & Autonomous",
@@ -103,7 +103,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Climate & Energy",
@@ -121,7 +121,7 @@
       "hiring": 0,
       "market": 74
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -137,7 +137,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Ocean & Maritime",
@@ -153,25 +153,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 27,
+    "momentum": 26,
     "trend": "declining",
     "catalysts": [
       "SpaceX IPO filing casts Starlink Mobile as future wireless c",
-      "Ibrance heirs, Gilead's Tubulis data and more at #ASCO26",
-      "STAT+: Longevity startup Retro Biosciences says latest fundr"
+      "STAT+: Longevity startup Retro Biosciences says latest fundr",
+      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 89
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Transportation",
@@ -189,25 +189,7 @@
       "hiring": 0,
       "market": 96
     },
-    "lastUpdated": "2026-05-24"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 24,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do",
-      "What US chipmaker Cerebras\u2019s IPO could mean for startups lik",
-      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Consumer Tech",
@@ -225,7 +207,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do",
+      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Quantum Computing",
@@ -241,15 +240,33 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   },
   {
     "sector": "Infrastructure & Logistics",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "A*STAR, Commonwealth Fusion Systems sign collaborative resea",
+      "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi",
+      "Anthropic&#8217;s Nuclear Bomb"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-25"
+  },
+  {
+    "sector": "Housing & Construction",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi",
-      "Anthropic&#8217;s Nuclear Bomb"
+      "XAI Building Money Printing AI Data Centers Faster and Cheap",
+      "XAI $15 Billion Per Year AI Rental to Anthropic Details"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -258,22 +275,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-24"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "XAI $15 Billion Per Year AI Rental to Anthropic Details"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-24"
+    "lastUpdated": "2026-05-25"
   }
 ]
