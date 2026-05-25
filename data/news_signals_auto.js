@@ -1,41 +1,30 @@
 // Auto-generated news signals
-// Last updated: 2026-05-25T17:49:49.274Z
+// Last updated: 2026-05-25T19:53:18.700Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1779731389274,
+    "id": 1779738798700,
     "type": "funding",
     "company": "Commonwealth Fusion Systems",
     "headline": "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply chain capabilities in",
     "source": "TechNode Global",
-    "time": "12h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://technode.global/2026/05/25/astar-commonwealth-fusion-systems-sign-collaborative-research-agreement-to-advance-fusion-supply-chain-capabilities-in-singapore/"
   },
   {
-    "id": 1779731389275,
+    "id": 1779738798701,
     "type": "news",
     "company": "xAI",
     "headline": "XAI Building Money Printing AI Data Centers Faster and Cheaper While Others Are Canceled or Delayed",
     "source": "Next Big Future",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/05/xai-building-money-printing-ai-data-centers-faster-and-cheaper-while-others-are-canceled-or-delayed.html"
   },
   {
-    "id": 1779731389276,
-    "type": "contract",
-    "company": "SpaceX",
-    "headline": "NASA to add missions to SpaceX commercial crew contract",
-    "source": "SpaceNews",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://spacenews.com/nasa-to-add-missions-to-spacex-commercial-crew-contract/"
-  },
-  {
-    "id": 1779731389277,
+    "id": 1779738798702,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor Will be HUGE for the SPACEX IPO",
@@ -46,29 +35,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/spacex-shocking-ai-revenue-from-elon-web-services-and-cursor-will-be-huge-for-the-spacex-ipo.html"
   },
   {
-    "id": 1779731389278,
+    "id": 1779738798703,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX&#039;s Starship V3—still a work in progress—mostly successful on first flight",
     "source": "Ars Technica Space",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "medium",
     "unread": true,
     "link": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/"
   },
   {
-    "id": 1779731389279,
+    "id": 1779738798704,
     "type": "funding",
     "company": "Deep Fission",
     "headline": "Nuclear startup Deep Fission says it&#8217;s going public, again, and I have questions",
     "source": "TechCrunch",
     "time": "2d ago",
     "impact": "low",
-    "unread": false,
+    "unread": true,
     "link": "https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions/"
   },
   {
-    "id": 1779731389280,
+    "id": 1779738798705,
     "type": "news",
     "company": "Anthropic",
     "headline": "xAI Selling $1.5 Billion of Compute to Anthropic Each Month",
@@ -79,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/23/xai-selling-1-5-billion-of-compute-to-anthropic-each-month/"
   },
   {
-    "id": 1779731389281,
+    "id": 1779738798706,
     "type": "news",
     "company": "Humanoid",
     "headline": "The future of physical AI isn&#8217;t humanoid; it&#8217;s task-specific and cost-efficient",
@@ -90,29 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/"
   },
   {
-    "id": 1779731389282,
-    "type": "ipo",
-    "company": "Blue Origin",
-    "headline": "Blue Origin completes investigation into New Glenn launch failure",
-    "source": "SpaceNews",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/blue-origin-completes-investigation-into-new-glenn-launch-failure/"
-  },
-  {
-    "id": 1779731389283,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX launches first Starship V3",
-    "source": "SpaceNews",
-    "time": "2d ago",
-    "impact": "medium",
-    "unread": false,
-    "link": "https://spacenews.com/spacex-launches-first-starship-v3/"
-  },
-  {
-    "id": 1779731389284,
+    "id": 1779738798707,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches Starship V3 for the first time, but loses booster on return",
@@ -123,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/22/spacex-launches-starship-v3-for-the-first-time-but-loses-booster-on-return/"
   },
   {
-    "id": 1779731389285,
+    "id": 1779738798708,
     "type": "news",
     "company": "Anthropic",
     "headline": "XAI $15 Billion Per Year AI Rental to Anthropic Details",
@@ -134,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/xai-15-billion-per-year-ai-rental-to-anthropic-details.html"
   },
   {
-    "id": 1779731389286,
+    "id": 1779738798709,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 12 Good Launch and Simulated Landings",
@@ -145,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/spacex-starship-flight-12-new-launch-attempt-starting-in-minutes.html"
   },
   {
-    "id": 1779731389287,
+    "id": 1779738798710,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin cleared to fly New Glenn mega-rocket after April mishap",
@@ -156,40 +123,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/22/blue-origin-cleared-to-fly-new-glenn-mega-rocket-after-april-mishap/"
   },
   {
-    "id": 1779731389288,
+    "id": 1779738798711,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Robotaxis Have To Take A Break In Atlanta — Can&#8217;t Handle Flooding",
     "source": "CleanTechnica",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/05/22/waymo-robotaxis-have-to-take-a-break-in-atlanta-cant-handle-flooding/"
   },
   {
-    "id": 1779731389289,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX IPO filing casts Starlink Mobile as future wireless challenger",
-    "source": "SpaceNews",
-    "time": "3d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://spacenews.com/spacex-prospectus-casts-starlink-mobile-as-future-wireless-challenger/"
-  },
-  {
-    "id": 1779731389290,
-    "type": "ipo",
-    "company": "Rocket Lab",
-    "headline": "Rocket Lab launches ninth Synspective satellite",
-    "source": "SpaceNews",
-    "time": "3d ago",
-    "impact": "medium",
-    "unread": false,
-    "link": "https://spacenews.com/rocket-lab-launches-ninth-synspective-satellite/"
-  },
-  {
-    "id": 1779731389291,
+    "id": 1779738798712,
     "type": "funding",
     "company": "Retro Biosciences",
     "headline": "STAT+: Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion",
@@ -200,18 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss"
   },
   {
-    "id": 1779731389292,
-    "type": "contract",
-    "company": "Rocket Lab",
-    "headline": "Rocket Lab wins first GEO satellite production contract from U.S. Space Force",
-    "source": "SpaceNews",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/rocket-lab-wins-first-geo-satellite-production-contract-from-u-s-space-force/"
-  },
-  {
-    "id": 1779731389293,
+    "id": 1779738798713,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Ground system issue scrubs first launch of SpaceX&#039;s Starship V3 rocket",
@@ -220,5 +154,71 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/space/2026/05/ground-system-issue-scrubs-first-launch-of-spacexs-starship-v3-rocket/"
+  },
+  {
+    "id": 1779738798714,
+    "type": "funding",
+    "company": "SpaceX",
+    "headline": "The SpaceX IPO Filing Looks Nothing Like Those Of The Elite Group Of Tech Giants It&#8217;s Hoping To Join",
+    "source": "Crunchbase News",
+    "time": "4d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://news.crunchbase.com/public/spacex-ipo-filing-different-nvda-goog-appl-msft-amzn/"
+  },
+  {
+    "id": 1779738798715,
+    "type": "news",
+    "company": "Humanoid",
+    "headline": "Humanoid partners with Bosch, Schaeffler to scale robot production",
+    "source": "The Robot Report",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/"
+  },
+  {
+    "id": 1779738798716,
+    "type": "ipo",
+    "company": "ICEYE",
+    "headline": "ICEYE secures ���300M credit facility to scale sovereign satellite intelligence",
+    "source": "Tech.eu",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://tech.eu/2026/05/21/iceye-secures-300m-credit-facility-to-scale-sovereign-satellite-intelligence/"
+  },
+  {
+    "id": 1779738798717,
+    "type": "hire",
+    "company": "Anthropic",
+    "headline": "Lexroom CEO: Anthropic won’t kill vertical AI companies",
+    "source": "Sifted",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://sifted.eu/articles/anthropic-wont-kill-vertcial-ai/"
+  },
+  {
+    "id": 1779738798718,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from done",
+    "source": "Electrek",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://electrek.co/2026/05/20/spacex-s1-tesla-terafab-macrohard-not-done-deal/"
+  },
+  {
+    "id": 1779738798719,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "AI model &quot;capability overhang&quot; biggest challenge facing European businesses, says OpenAI revenue chief",
+    "source": "Tech.eu",
+    "time": "5d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://tech.eu/2026/05/20/ai-model-giants-should-pay-a-levy-to-operate-in-europe-says-mistral-boss/"
   }
 ];
