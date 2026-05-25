@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T04:45:18+00:00",
+  "generatedAt": "2026-05-25T12:40:20+00:00",
   "matrix": {
     "logistics-robotics": {
       "2026-Q2": {
@@ -226,23 +226,6 @@
         "investors": []
       }
     },
-    "green-manufacturing": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 2295265,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Helios",
-            "amount": 2295265,
-            "date": "2026-05-20",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "sovereign-ai": {
       "2026-Q2": {
         "deals": 1,
@@ -252,6 +235,23 @@
           {
             "name": "HUMAIN",
             "amount": 5300000,
+            "date": "2026-05-20",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "green-manufacturing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 2295265,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Helios",
+            "amount": 2295265,
             "date": "2026-05-20",
             "source": "formd",
             "investors": []
