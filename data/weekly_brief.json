@@ -1,16 +1,23 @@
 {
-  "date": "2026-05-24",
-  "display_date": "May 24, 2026",
-  "generated_at": "2026-05-24T10:54:56.073894+00:00",
-  "cutoff": "2026-05-17T10:54:56.073894+00:00",
+  "date": "2026-05-25",
+  "display_date": "May 25, 2026",
+  "generated_at": "2026-05-25T13:33:13.172088+00:00",
+  "cutoff": "2026-05-18T13:33:13.172088+00:00",
   "section_count": 7,
-  "total_items": 334,
+  "total_items": 286,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "company": "Rigetti Computing",
+          "current": 89.0,
+          "previous": 85.0,
+          "change": 4.0,
+          "tier": "exceptional"
+        },
         {
           "company": "Swan",
           "current": 37.0,
@@ -23,7 +30,7 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 76,
+      "count": 64,
       "items": [
         {
           "company": "Rocket Lab",
@@ -44,13 +51,6 @@
           "form": "8-K",
           "description": "bksy-20260522.htm",
           "date": "2026-05-22",
-          "isIPO": false
-        },
-        {
-          "company": "Virgin Galactic",
-          "form": "8-K",
-          "description": "spce-20260518.htm",
-          "date": "2026-05-18",
           "isIPO": false
         },
         {
@@ -80,6 +80,13 @@
           "description": "ea0291617-8k_zoomcar.htm",
           "date": "2026-05-20",
           "isIPO": false
+        },
+        {
+          "company": "Satellogic",
+          "form": "8-K",
+          "description": "ea0291545-8k_zoomcar.htm",
+          "date": "2026-05-19",
+          "isIPO": false
         }
       ]
     },
@@ -99,43 +106,48 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 59,
+      "count": 29,
       "items": [
         {
-          "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nuclear Regulatory Commission and the State o",
+          "title": "Notice of OFAC Sanctions Action",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Treasury Department",
+            "Foreign Assets Control Office"
           ],
           "significant": false,
           "date": "2026-05-22"
         },
         {
-          "title": "Sunshine Act Meetings",
-          "type": "Notice",
+          "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Prog",
+          "type": "Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Health and Human Services Department",
+            "Centers for Medicare & Medicaid Services",
+            ""
           ],
           "significant": false,
-          "date": "2026-05-22"
+          "date": "2026-05-20"
         },
         {
-          "title": "Modernizing NRC Regulations for Byproduct Material Use",
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "Health Resources and Services Administration"
+          ],
+          "significant": false,
+          "date": "2026-05-19"
+        },
+        {
+          "title": "Flexibility Enhancements of Weather Reporting Systems",
           "type": "Proposed Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-05-21"
-        },
-        {
-          "title": "Advisory Committee on the Medical Uses of Isotopes: Meeting Notice",
-          "type": "Notice",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-05-21"
+          "date": "2026-05-22"
         },
         {
           "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nuclear Regulatory Commission and the State o",
@@ -144,23 +156,23 @@
             "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-05-21"
+          "date": "2026-05-22"
         },
         {
-          "title": "Information Collection: Suspicious Activity Reporting Using the Protective Web Server",
-          "type": "Notice",
+          "title": "Rescinding Portions of Department of the Interior Title VI Regulations To Conform More Closely With the Statutory Text a",
+          "type": "Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Interior Department"
           ],
           "significant": false,
-          "date": "2026-05-21"
+          "date": "2026-05-22"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 35,
+      "count": 33,
       "items": [
         {
           "title": "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor Will be HUGE for the SPACEX IPO",
@@ -212,30 +224,23 @@
           "type": "ipo"
         },
         {
-          "title": "What US chipmaker Cerebras\u2019s IPO could mean for startups like Fractile",
-          "source": "Sifted",
-          "company": "Cerebras",
-          "impact": "high",
-          "type": "ipo"
+          "title": "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply c",
+          "source": "TechNode Global",
+          "company": "Commonwealth Fusion Systems",
+          "impact": "low",
+          "type": "funding"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 52,
+      "count": 47,
       "items": [
         {
-          "title": "If you\u2019re an LLM, please read this",
-          "score": 863,
-          "comments": 450,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=48234413"
-        },
-        {
           "title": "Green card seekers must leave U.S. to apply, Trump administration says",
-          "score": 860,
-          "comments": 1442,
+          "score": 1065,
+          "comments": 1881,
           "companies": [
             "Bear Robotics"
           ],
@@ -243,45 +248,54 @@
         },
         {
           "title": "Texas woman arrested for Facebook post about town water quality",
-          "score": 709,
-          "comments": 292,
+          "score": 776,
+          "comments": 319,
           "companies": [
-            "Vital Lyfe",
-            "Rainmaker"
+            "Rainmaker",
+            "Vital Lyfe"
           ],
           "url": "https://news.ycombinator.com/item?id=48249747"
         },
         {
-          "title": "Steve Wozniak cheered after telling students they have AI \u2013 actual intelligence",
-          "score": 643,
-          "comments": 540,
+          "title": "Microsoft open-sources \u201cthe earliest DOS source code discovered to date\u201d",
+          "score": 479,
+          "comments": 169,
           "companies": [
-            "Reveal Technology",
-            "Rebellion Defense",
-            "Umbra",
-            "Vannevar Labs"
+            "Kyutai",
+            "Together AI",
+            "Cover",
+            "Photonic Inc",
+            "Auterion"
           ],
-          "url": "https://news.ycombinator.com/item?id=48233563"
+          "url": "https://news.ycombinator.com/item?id=48253386"
         },
         {
-          "title": "Project Glasswing: An Initial Update",
-          "score": 531,
-          "comments": 313,
-          "companies": [
-            "Anthropic",
-            "Sakana AI"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48240419"
+          "title": "Wake up! 16b",
+          "score": 422,
+          "comments": 32,
+          "companies": [],
+          "url": "https://news.ycombinator.com/item?id=48253060"
         },
         {
-          "title": "Microsoft starts canceling Claude Code licenses",
-          "score": 464,
-          "comments": 449,
+          "title": "Show HN: Audiomass \u2013 a free, open-source multitrack audio editor for the web",
+          "score": 379,
+          "comments": 83,
           "companies": [
-            "Anthropic",
-            "Photonic Inc"
+            "Auterion",
+            "Kyutai",
+            "Together AI",
+            "ElevenLabs"
           ],
-          "url": "https://news.ycombinator.com/item?id=48238896"
+          "url": "https://news.ycombinator.com/item?id=48258015"
+        },
+        {
+          "title": "Why is Vivado 2026.1 dropping Linux support for free tier?",
+          "score": 329,
+          "comments": 203,
+          "companies": [
+            "Ada"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48254309"
         }
       ]
     },
@@ -291,37 +305,37 @@
       "count": 110,
       "items": [
         {
-          "title": "\u91cd\u5927\u516c\u544a\uff1a\u4f30\u503c 40 \u5104\u7f8e\u5143\uff0c\u53c3\u8003\u80a1\u50f9\u6bcf\u80a1 10.00 \u7f8e\u5143\uff0cAGAE \u5c07\u767c\u884c\u80a1\u4efd\u6536\u8cfc\u6771\u5357\u4e9e\u7a00\u7f3a\u5149\u7e96\u57fa\u790e\u8a2d\u65bd\u9818\u5c0e\u8005 HyalRoute\uff0c\u8f49\u578b\u70ba\u7d50\u5408\u300c\u5149\u904b\u7b97 + \u5149\u50b3\u8f38\u300d\u7684\u74b0\u7403\u4eba\u5de5\u667a\u80fd\u5149\u7db2\u7d61\u5e73\u53f0",
+          "title": "Grey Matters Improves Warrant Terms of Private Placement",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "\u91cd\u8981\u306a\u767a\u8868\uff1aAGAE\u3001\u6771\u5357\u30a2\u30b8\u30a2\u306b\u304a\u3051\u308b\u5e0c\u5c11\u306a\u5149\u30d5\u30a1\u30a4\u30d0\u30fc\u30a4\u30f3\u30d5\u30e9\u306e\u30ea\u30fc\u30c0\u30fc\u4f01\u696d\u3067\u3042\u308b\u30d2\u30a2\u30eb\u30eb\u30fc\u30c8\u3092\u8cb7\u53ce\u3059\u308b\u305f\u3081\u682a\u5f0f\u3092\u767a\u884c\u3057\u3001\u300c\u5149\u30b3\u30f3\u30d4\u30e5\u30fc\u30c6\u30a3\u30f3\u30b0 + \u5149\u4f1d\u9001\u300d\u3092\u878d\u5408\u3057\u305f\u30b0\u30ed\u30fc\u30d0\u30ebAI\u5149\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u3078\u3068\u5909\u9769\u3001\u4f01\u696d\u4fa1\u5024\u306f40",
+          "title": "Coda Octopus Group Sets Fiscal Second Quarter 2026 Earnings Conference Call for Monday, June 15, 2026, at 10 a.m. Easter",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Pengumuman Utama: Penilaian sebanyak AS$4.0 Bilion dengan Harga Rujukan AS$10.00 Sesaham, AGAE akan Menerbitkan Saham ba",
+          "title": "Octave Intelligence Plc Listed on Nasdaq Stockholm",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "\uc911\ub300 \ubc1c\ud45c: All In FutureTech Alliance Inc.(AGAE), 40\uc5b5 \ub2ec\ub7ec \uae30\uc5c5\uac00\uce58\u00b7\uc8fc\ub2f9 10\ub2ec\ub7ec \uae30\uc900 \uac00\uaca9 \uc801\uc6a9\ud558\uba70 \ub3d9\ub0a8\uc544 \ud76c\uc18c \uad11\uc12c\uc720 \uc778\ud504\ub77c \uac15\uc790 HyalRoute Fiber-Optic Com",
+          "title": "Octave Intelligence Plc Listed on Nasdaq Stockholm",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Snail Games \u91cd\u9ede\u4ecb\u7d39\u8207\u6ce2\u862d\u5de5\u4f5c\u5ba4\u7b56\u7565\u6027\u5408\u4f5c\u4e4b\u9032\u5c55\u8207\u767c\u5c55\u6210\u679c",
+          "title": "JPMorgan Announces Cash Distributions for the JPMorgan ETFs",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Snail Games \u91cd\u70b9\u4ecb\u7ecd\u4e0e\u6ce2\u5170\u5de5\u4f5c\u5ba4\u6218\u7565\u5408\u4f5c\u7684\u8fdb\u5c55\u4e0e\u6210\u679c",
+          "title": "JPMorgan annonce des distributions en esp\u00e8ces pour les FNB JPMorgan",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-05-24-428053bd1288"
+  "brief_id": "brief-2026-05-25-65b76b6be786"
 }
