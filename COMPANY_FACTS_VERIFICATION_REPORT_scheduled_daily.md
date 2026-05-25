@@ -1,25 +1,25 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-24T08:19:13+00:00  
+**Generated:** 2026-05-25T09:50:21+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 33 companies  
+**Cohort size:** 34 companies  
 
-**New Claude extractions this run:** 32  
+**New Claude extractions this run:** 33  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 26 | 79% |
-| 🔧 Changes proposed | 7 | 21% |
+| ✅ Cleared (data matches sources) | 25 | 74% |
+| 🔧 Changes proposed | 9 | 26% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (7 companies)
+## 🔧 Proposed Changes (9 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
@@ -28,55 +28,67 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`totalRaised`:** `$850M+` → `$350M`  
   Sources: [company_website](https://axiomspace.com)
 
-  **Notes:** Most recent financing of $350M announced February 12, 2026 per company website. Wikipedia reports December 2025 agreement with 4iG Group for $100M equity investment in two tranches through March 2026. Database entry references $850M+ total raised and $2.5B valuation, but these figures cannot be verified in provided sources. Current stage cannot be determined from sources provided.
+  **Notes:** Most recent funding was $350M in February 2026 (announced on company website). Wikipedia reports 4iG Group $100M equity investment signed December 2025, structured in two tranches through March 2026. Current stage cannot be verified from sources—database references 'Series C' but no source explicitly labels current funding round. Valuation of $2.5B in database entry cannot be verified from provided sources.
 
 ### Boston Metal
 
-- **`location`:** `Woburn, MA` → `Woburn, Massachusetts`  
-  Sources: [company_about](https://bostonmetal.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Boston_Metal)
+- **`founder`:** `Tadeu Carneiro` → `Donald Sadoway, Antoine Allanore`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Boston_Metal)
 
-  **Notes:** Founded as 'Boston Electrometallurgical Corporation' in 2013, later rebranded to Boston Metal. Tadeu Carneiro listed as Chairman & CEO (joined 2017) but not identified as founder in sources. Recent funding includes $75M (2026), $51M convertible note (2025), $20M Series C2 (2024), and $262M Series C (2023). Company has Brazilian subsidiary, Boston Metal do Brasil. Cannot verify specific stage designation from sources provided.
+  **Notes:** Company was originally founded as 'Boston Electrometallurgical Corporation' in 2013 (per source 1). Tadeu Carneiro joined as CEO in 2017 (per source 2) but is not listed as a founder. Core technology developed by MIT researchers Donald Sadoway and Antoine Allanore. Most recent verified funding: $75M raised for critical metals (source 3, dated 2026); prior verified raises include $51M convertible note and $20M Series C2 in 2024, $262M Series C in 2023, $60M Series B in 2021, $25M Series A in 2018. Wikipedia cites 'over $370,000,000 as of January 2024' but more recent funding rounds are documented in company sources.
 
 ### Deep Fission
 
-- **`fundingStage`:** `Public` → `Pre-IPO`  
-  Sources: [company_website](https://deepfission.com)
-- **`totalRaised`:** `$110M` → `$80M`  
+- **`fundingStage`:** `IPO` → `Pre-IPO`  
   Sources: [company_website](https://deepfission.com)
 
-  **Notes:** Most recent disclosed funding is $80M from Feb 10, 2026 announcement [0]. Company announced draft IPO registration (Apr 22, 2026) and launch of public offering (May 20, 2026) [0], making current stage Pre-IPO rather than Public. Database entry claimed $110M total raised but only $80M is verifiable from source. Valuation not disclosed in sources. Specific investor names not listed in sources.
+  **Notes:** Source [0] indicates company launched public offering on May 20, 2026 and confidentially submitted draft registration statement on Apr 22, 2026 (Pre-IPO stage). Database entry claims 'IPO' stage which is not yet confirmed by sources; company is currently in public offering process. Source [2] mentions potential IPO raise of $157M but this is speculative reporting. 15 GW pipeline of power site partnerships confirmed per source [0].
 
 ### Fervo Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** Company went public via IPO on May 17, 2026, raising $1.89B. Wikipedia entry flags potential undisclosed paid content and press release language (February 2026). Series E funding of $462M received in November 2025 per Wikipedia source [2].
+  **Notes:** Company went public on May 17, 2026 (Nasdaq debut) according to website newsroom. Wikipedia lists company type as 'Private' but this appears outdated given IPO occurred in May 2026. Total raised figure of $1.89B is from IPO proceeds per website headline 'Fervo Energy raises $1.89B in IPO.' Series E funding of $462M occurred in November 2025 per Wikipedia, which would be pre-IPO.
+
+### New Limit
+
+- **`founder`:** `Brian Armstrong, Blake Byers, Jacob Kimmel` → `Brian Armstrong, Blake Byers`  
+  Sources: [company_about](https://newlimit.com/about)
+
+  **Notes:** Source [1] lists both individual investors and firms. Database entry claims Jacob Kimmel as co-founder but this is not verified in provided sources. Source [2] is about a different company (Retro Biosciences) and is not relevant to New Limit.
 
 ### Nuro
 
 - **`fundingStage`:** `Series G` → `Series E`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Nuro)
 
-  **Notes:** Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 and closed in August 2025 with $203M total raised at $6B valuation. Partnership with Uber and Lucid Motors announced in July 2025 for robotaxi deployment targeting 20,000+ vehicles over six years.
+  **Notes:** In August 2025, Nuro closed a Series E funding round at $203M valuation of $6B with investors Uber and Nvidia. The company pivoted from delivery robots to autonomy technology licensing in September 2024. Partnership established in July 2025 with Uber and Lucid Motors to deploy 20,000+ robotaxis starting in 2026.
 
-### Retro Biosciences
+### SpaceX
 
-- **`investors`:** `[]` → `['Sam Altman']`  
-  Sources: [news (STAT News)](https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss)
+- **`fundingStage`:** `Series G` → `Private`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Only one source provided. Source [0] confirms $1.8B valuation and Sam Altman backing, but does not provide sufficient detail to verify founder names, location, founding year, funding stage, or total amount raised. Database entry references Joe Betts-LaCroix as founder, Redwood City CA location, 2021 founding, Series A stage, and $180M raised, but none of these are supported by the single provided source.
+  **Notes:** Source [0] is a domain sale page and provides no company information. Source [1] (Wikipedia) states SpaceX is 'expected to have an initial public offering (IPO) in 2026' and notes '2025 offer to buy internal shares valued SpaceX at $800 billion'. Current database entry claims 'Series G' stage and '$10B+' raised, but sources do not provide funding stage or cumulative capital raised information. Sources [2], [3], and [4] are news headlines with insufficient substantive detail to verify additional claims.
+
+### Vertical Aerospace
+
+- **`totalRaised`:** `$400M+` → `$50M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Vertical_Aerospace)
+
+  **Notes:** Company went public via SPAC merger with Broadstone Acquisition Corp in December 2021, listed on NYSE under ticker EVTL. Most recent funding mentioned is $50M from Mudrick Capital in 2024. Product name appears to have changed from VX4 to 'Valo' on current website (source 0) but Wikipedia and sources refer to VX4.
 
 ### X-Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [company_website](https://x-energy.com)
 
-  **Notes:** IPO pricing announced April 23, 2026 per source [0]. Source [0] shows Q1 2026 earnings report scheduled for June 4, 2026, confirming public company status. Database entry claims could not be verified: founder name (Kam Ghaffarian) not mentioned in sources; location (Rockville, MD) not mentioned; founded year (2009) not mentioned; $500M Amazon funding not found; Pentagon/Air Force contracts not mentioned; UK deployment plans not found; total raised and valuation figures not specified in provided sources.
+  **Notes:** Source [0] confirms IPO pricing announcement as of April 23, 2026. Company website describes technology but does not provide founding year, founder names, fundraising amounts, or valuation figures. Source [1] title provided but content not fully available for verification.
 
 ---
 
-## ✅ Cleared (26 companies)
+## ✅ Cleared (25 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -84,32 +96,31 @@ Sample (first 30):
 
 - AST SpaceMobile
 - Altos Labs
+- Astera Labs
 - Blue Origin
 - Cerebras
+- Crusoe Energy
 - Dawn Aerospace
 - Deterrence
 - Earth AI
 - Einride
-- Fractile
 - Galvanick
 - Hailo
 - Hidden Level
 - Humanoid
 - ICEYE
-- New Limit
+- Rebellions
+- Retro Biosciences
 - Rivian
 - Rocket Lab
-- SpaceX
 - Standard Nuclear
 - Synspective
 - Terrestrial Energy
-- Tubulis
 - Vast
-- Vertical Aerospace
 - Waymo
 - Xtend
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-24T08:19:14+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-25T09:50:21+00:00*

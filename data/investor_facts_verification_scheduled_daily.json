@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T08:19:55+00:00",
+  "generatedAt": "2026-05-25T09:51:01+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 4,
@@ -60,10 +60,10 @@
             3
           ],
           "short_name": [
-            0,
-            1
+            0
           ],
           "founded_year": [
+            1,
             3
           ],
           "hq": [
@@ -78,11 +78,10 @@
           ],
           "website": [
             0,
-            1,
-            3
+            1
           ]
         },
-        "notes": "Engine Ventures spun out as a separate venture capital firm in 2023, distinct from The Engine nonprofit incubator. Source [4] is irrelevant (Blue Origin/SpaceX article) and not used for verification. AUM, flagship fund name, and current key partners not verifiable from provided sources. Wikipedia lists board members for The Engine nonprofit but does not list Engine Ventures investment partners."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit in 2023. The Engine is a 501(c)(3) nonprofit as of 2025. Current resident companies and portfolio companies collectively raised $5.5B. Source [4] is unrelated (Blue Origin article) and was not used."
       },
       "changes": [
         {
@@ -148,7 +147,7 @@
           "url": "https://techcrunch.com/2026/05/22/blue-origin-cleared-to-fly-new-glenn-mega-rocket-after-april-mishap/"
         }
       ],
-      "notes": "Engine Ventures spun out as a separate venture capital firm in 2023, distinct from The Engine nonprofit incubator. Source [4] is irrelevant (Blue Origin/SpaceX article) and not used for verification. AUM, flagship fund name, and current key partners not verifiable from provided sources. Wikipedia lists board members for The Engine nonprofit but does not list Engine Ventures investment partners."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit in 2023. The Engine is a 501(c)(3) nonprofit as of 2025. Current resident companies and portfolio companies collectively raised $5.5B. Source [4] is unrelated (Blue Origin article) and was not used."
     }
   ],
   "unverifiable": []
