@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-24T23:09:37.434173+00:00",
-  "date": "2026-05-24",
-  "dateDisplay": "Sunday, May 24, 2026",
+  "generatedAt": "2026-05-25T04:44:36.921246+00:00",
+  "date": "2026-05-25",
+  "dateDisplay": "Monday, May 25, 2026",
   "sections": {
     "govActivity": [
       {
@@ -30,15 +30,6 @@
         "description": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.",
         "date": "2026-02-27",
         "url": "https://sam.gov/opp/70Z02326F93130005/view"
-      },
-      {
-        "company": "Rocket Lab",
-        "amount": "$391K",
-        "amount_raw": 391000.0,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL",
-        "date": "2026-02-23",
-        "url": "https://sam.gov/opp/80GSFC26C0008/view"
       },
       {
         "company": "Skydio",
@@ -121,9 +112,9 @@
       {
         "ticker": "9348.T",
         "company": "ispace",
-        "price": 568.0,
-        "changePercent": 14.52,
-        "change": 72.0
+        "price": 605.0,
+        "changePercent": 13.3,
+        "change": 71.0
       }
     ],
     "regulatory": [
@@ -210,7 +201,7 @@
     ]
   },
   "stats": {
-    "contractCount": 7,
+    "contractCount": 6,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
