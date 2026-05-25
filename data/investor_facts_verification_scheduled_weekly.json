@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-18T11:05:40+00:00",
+  "generatedAt": "2026-05-25T11:14:00+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
   "cohortSize": 12,
   "newExtractionsThisRun": 12,
   "summary": {
-    "cleared": 6,
-    "changesProposed": 6,
+    "cleared": 7,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
@@ -15,7 +15,8 @@
     "Construct Capital",
     "Eclipse Ventures",
     "Harpoon Ventures",
-    "Point72 Ventures"
+    "Lightspeed Venture Partners",
+    "Thrive Capital Management, LLC"
   ],
   "changesProposed": [
     {
@@ -61,7 +62,7 @@
           "Biology",
           "Defense and Security"
         ],
-        "thesis": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and AI. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense and security.",
+        "thesis": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and AI.",
         "website": "https://dcvc.com",
         "sources_per_field": {
           "name": [
@@ -96,13 +97,13 @@
             2
           ]
         },
-        "notes": "Founded year cannot be verified from sources. Source [1] states 'For 15 years, DCVC has backed brilliant entrepreneurs' and mentions '13 funds to date' and 'six flagship funds' but does not specify a founding year. The database entry lists 2011 but this is not supported by the provided sources."
+        "notes": "Firm indicates '15 years active' as of sources (source [0], [1]), which would place founding around 2010-2011, but no explicit founding year stated in sources. HQ not explicitly stated in sources but database entry lists Palo Alto, CA which cannot be verified. DCVC Bio established in 2018 as a separate entity."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and data. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense.",
-          "verified": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and AI. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense and security.",
+          "current": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and AI. Investment areas include AI, climate, engineering, materials science, robotics, space, water, biology, and defense and security.",
+          "verified": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and AI.",
           "sources": [
             0,
             1
@@ -131,7 +132,7 @@
           "url": "https://dcvc.com/companies"
         }
       ],
-      "notes": "Founded year cannot be verified from sources. Source [1] states 'For 15 years, DCVC has backed brilliant entrepreneurs' and mentions '13 funds to date' and 'six flagship funds' but does not specify a founding year. The database entry lists 2011 but this is not supported by the provided sources."
+      "notes": "Firm indicates '15 years active' as of sources (source [0], [1]), which would place founding around 2010-2011, but no explicit founding year stated in sources. HQ not explicitly stated in sources but database entry lists Palo Alto, CA which cannot be verified. DCVC Bio established in 2018 as a separate entity."
     },
     {
       "name": "Engine Ventures",
@@ -185,6 +186,7 @@
             3
           ],
           "hq": [
+            1,
             3
           ],
           "sector_focus": [
@@ -199,7 +201,7 @@
             1
           ]
         },
-        "notes": "Engine Ventures is the venture capital arm that spun out from The Engine nonprofit in 2023. The Engine remains a separate 501(c)(3) nonprofit incubator and accelerator. Wikipedia article is about The Engine organization (nonprofit); Engine Ventures is the VC firm. AUM not explicitly stated in sources. Key partners (Katie Rae, Reed Sturtevant) not confirmed in provided sources. Flagship fund name not confirmed in sources."
+        "notes": "Engine Ventures is the venture capital arm that spun out from The Engine nonprofit in 2023. The Engine nonprofit was founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or explicit list of current senior partners at Engine Ventures."
       },
       "changes": [
         {
@@ -258,9 +260,14 @@
           "idx": 3,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        },
+        {
+          "idx": 4,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/22/blue-origin-cleared-to-fly-new-glenn-mega-rocket-after-april-mishap/"
         }
       ],
-      "notes": "Engine Ventures is the venture capital arm that spun out from The Engine nonprofit in 2023. The Engine remains a separate 501(c)(3) nonprofit incubator and accelerator. Wikipedia article is about The Engine organization (nonprofit); Engine Ventures is the VC firm. AUM not explicitly stated in sources. Key partners (Katie Rae, Reed Sturtevant) not confirmed in provided sources. Flagship fund name not confirmed in sources."
+      "notes": "Engine Ventures is the venture capital arm that spun out from The Engine nonprofit in 2023. The Engine nonprofit was founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or explicit list of current senior partners at Engine Ventures."
     },
     {
       "name": "General Catalyst",
@@ -286,7 +293,7 @@
           "Jeannette zu F\u00fcrstenberg"
         ],
         "sector_focus": null,
-        "thesis": "General Catalyst invests across seed, venture, and growth stages. The firm backs founders and invests in critical institutions, with focus on applied AI and global resiliency.",
+        "thesis": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI and backing founders globally.",
         "website": "https://generalcatalyst.com",
         "sources_per_field": {
           "name": [
@@ -312,7 +319,6 @@
           "key_partners": [
             3
           ],
-          "sector_focus": [],
           "thesis": [
             0,
             3
@@ -322,30 +328,13 @@
             3
           ]
         },
-        "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm), after which Jeannette zu F\u00fcrstenberg became a managing director overseeing European business. In October 2024, firm raised $8 billion in new funds including $4.5 billion for core venture funds. Neeraj Arora listed in database entry but not found in current sources as current senior partner."
+        "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm), making Jeannette zu F\u00fcrstenberg a managing director. In October 2024, firm raised $8 billion in new funds, including $4.5 billion for core venture funds. Wikipedia lists Hemant Taneja as CEO & managing director and Ken Chenault as chairman & managing director. Sector focus could not be verified from explicit lists in provided sources."
       },
       "changes": [
         {
-          "field": "keyPartners",
-          "current": [
-            "Hemant Taneja",
-            "Jeannette zu F\u00fcrstenberg",
-            "Neeraj Arora",
-            "Ken Chenault"
-          ],
-          "verified": [
-            "Hemant Taneja",
-            "Ken Chenault",
-            "Jeannette zu F\u00fcrstenberg"
-          ],
-          "sources": [
-            3
-          ]
-        },
-        {
           "field": "thesis",
-          "current": "General Catalyst is an investment and transformation company that backs founders across seed, venture, and growth stages. The firm partners with entrepreneurs to build toward global resiliency and applied AI, originating new companies from scratch and transforming critical institutions.",
-          "verified": "General Catalyst invests across seed, venture, and growth stages. The firm backs founders and invests in critical institutions, with focus on applied AI and global resiliency.",
+          "current": "General Catalyst invests across seed, venture, and growth stages. The firm backs founders and invests in critical institutions, with focus on applied AI and global resiliency.",
+          "verified": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI and backing founders globally.",
           "sources": [
             0,
             3
@@ -374,61 +363,75 @@
           "url": "https://en.wikipedia.org/wiki/General_Catalyst"
         }
       ],
-      "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm), after which Jeannette zu F\u00fcrstenberg became a managing director overseeing European business. In October 2024, firm raised $8 billion in new funds including $4.5 billion for core venture funds. Neeraj Arora listed in database entry but not found in current sources as current senior partner."
+      "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm), making Jeannette zu F\u00fcrstenberg a managing director. In October 2024, firm raised $8 billion in new funds, including $4.5 billion for core venture funds. Wikipedia lists Hemant Taneja as CEO & managing director and Ken Chenault as chairman & managing director. Sector focus could not be verified from explicit lists in provided sources."
     },
     {
-      "name": "Lightspeed Venture Partners",
+      "name": "Point72 Ventures",
       "current": {
-        "name": "Lightspeed Venture Partners",
-        "shortName": "Lightspeed",
-        "aum": "$9B+ (Dec 2025 raise)",
-        "flagshipFund": "Lightspeed Fund XIV",
-        "founded": 2000,
-        "hq": "Menlo Park, CA",
-        "website": "https://lsvp.com"
+        "name": "Point72 Ventures",
+        "shortName": "Point72 Ventures",
+        "aum": "$400M (Deterrence Fund)",
+        "flagshipFund": "Deterrence Fund",
+        "founded": 2016,
+        "hq": "Stamford, CT",
+        "website": "https://point72.com/ventures"
       },
       "verified": {
-        "name": "Lightspeed Venture Partners",
-        "short_name": "Lightspeed",
+        "name": "Point72 Ventures",
+        "short_name": "Point72 Ventures",
         "aum": null,
         "flagship_fund": null,
-        "founded_year": 2000,
+        "founded_year": 2016,
         "hq": null,
         "key_partners": [
-          "Arif Janmohamed",
-          "Barry Eggers",
-          "Peter Nieh",
-          "Ravi Mhatre",
-          "Guru Chahal"
+          "Steve Cohen"
         ],
-        "sector_focus": null,
-        "thesis": "For over twenty years Lightspeed has been the first investor and an early backer of some of the most innovative companies in the world. The firm stands behind companies with high conviction from Seed to Series F and beyond.",
-        "website": "https://lsvp.com",
+        "sector_focus": [
+          "Artificial Intelligence",
+          "Consumer",
+          "Defense Tech"
+        ],
+        "thesis": "Thematic-driven investors backing ambitious founders who are building for big outcomes across critical domains. The firm brings deep sector insights, partnership, and hands-on support from seed to pre-IPO to help build enduring companies.",
+        "website": "https://point72ventures.com",
         "sources_per_field": {
           "name": [
             0,
             1
           ],
           "founded_year": [
-            1
-          ],
-          "key_partners": [
+            0,
             2
           ],
+          "key_partners": [
+            1
+          ],
+          "sector_focus": [
+            0,
+            1
+          ],
           "thesis": [
+            0,
             1
           ],
           "website": [
-            0
+            0,
+            1
           ]
         },
-        "notes": "Founded year 2000 cannot be verified from provided sources; sources only state 'over twenty years' as of publication date. AUM figure from database entry ($9B+ Dec 2025) cannot be verified from provided sources. HQ location (Menlo Park, CA) cannot be verified from provided sources. Sector focus cannot be verified from provided sources. No explicit current flagship fund name found in sources. Team page [2] lists 48 investors and 21 venture/operating partners; listed key_partners are those explicitly titled as Partner or Co-Founder on the firm website."
+        "notes": "Only Steve Cohen is explicitly named as 'Chairman' on the firm's official team page (source 1). Other partners from database entry (Chris Morales, Tara Stokes, Ishan Sinha) are not found in provided sources. AUM of $400M and 'Deterrence Fund' flagship fund name cannot be verified from sources. HQ location not found in sources. Database entry references 130+ portfolio companies since 2016, which matches source language ('Since 2016, we've backed more than 130 companies')."
       },
       "changes": [
         {
-          "field": "thesis",
-          "current": "Lightspeed invests in companies from Seed to Series F and beyond with high conviction. The firm has been a first investor and early backer of innovative companies over more than twenty years.",
-          "verified": "For over twenty years Lightspeed has been the first investor and an early backer of some of the most innovative companies in the world. The firm stands behind companies with high conviction from Seed to Series F and beyond.",
+          "field": "keyPartners",
+          "current": [
+            "Steve Cohen",
+            "Chris Morales",
+            "Tara Stokes",
+            "Ishan Sinha"
+          ],
+          "verified": [
+            "Steve Cohen"
+          ],
           "sources": [
             1
           ]
@@ -438,35 +441,20 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://lsvp.com"
+          "url": "https://point72ventures.com"
         },
         {
           "idx": 1,
-          "src": "firm/about",
-          "url": "https://lsvp.com/about"
+          "src": "firm/team",
+          "url": "https://point72ventures.com/team"
         },
         {
           "idx": 2,
-          "src": "firm/team",
-          "url": "https://lsvp.com/team"
-        },
-        {
-          "idx": 3,
           "src": "firm/portfolio",
-          "url": "https://lsvp.com/portfolio"
-        },
-        {
-          "idx": 4,
-          "src": "firm/companies",
-          "url": "https://lsvp.com/companies"
-        },
-        {
-          "idx": 5,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners"
+          "url": "https://point72ventures.com/portfolio"
         }
       ],
-      "notes": "Founded year 2000 cannot be verified from provided sources; sources only state 'over twenty years' as of publication date. AUM figure from database entry ($9B+ Dec 2025) cannot be verified from provided sources. HQ location (Menlo Park, CA) cannot be verified from provided sources. Sector focus cannot be verified from provided sources. No explicit current flagship fund name found in sources. Team page [2] lists 48 investors and 21 venture/operating partners; listed key_partners are those explicitly titled as Partner or Co-Founder on the firm website."
+      "notes": "Only Steve Cohen is explicitly named as 'Chairman' on the firm's official team page (source 1). Other partners from database entry (Chris Morales, Tara Stokes, Ishan Sinha) are not found in provided sources. AUM of $400M and 'Deterrence Fund' flagship fund name cannot be verified from sources. HQ location not found in sources. Database entry references 130+ portfolio companies since 2016, which matches source language ('Since 2016, we've backed more than 130 companies')."
     },
     {
       "name": "Shield Capital",
@@ -498,7 +486,7 @@
           "Cybersecurity",
           "Space"
         ],
-        "thesis": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders focuses on the convergence of commercial technology and national security.",
+        "thesis": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders is mission-focused in support of entrepreneurs addressing the convergence of commercial technology and national security.",
         "website": "https://shieldcap.com",
         "sources_per_field": {
           "name": [
@@ -517,13 +505,13 @@
             0
           ]
         },
-        "notes": "Source [3] (Wikipedia article on 'Shield') is not relevant to Shield Capital VC firm and provides no verifiable information about the firm. Founded year, AUM, flagship fund, and HQ location could not be verified from provided sources despite being listed in the current database entry."
+        "notes": "Sources do not verify AUM, flagship fund name, founded year, or specific HQ location. Wikipedia source [3] is about the generic term 'shield' and not relevant to the firm. SEC Form D [4] references 'SHIELD AI' which may be a different entity. Key partners extracted from firm's team page showing 'Founder and Managing Partner' and 'Partner' titles only."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Shield Capital invests in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders focuses on the convergence of commercial technology and national security.",
-          "verified": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders focuses on the convergence of commercial technology and national security.",
+          "current": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders focuses on the convergence of commercial technology and national security.",
+          "verified": "Shield Capital is a venture capital firm investing in early-stage companies building technologies that matter in artificial intelligence, autonomy, cybersecurity, and space. The firm's veteran team of founders, investors, and national security leaders is mission-focused in support of entrepreneurs addressing the convergence of commercial technology and national security.",
           "sources": [
             0
           ]
@@ -549,90 +537,14 @@
           "idx": 3,
           "src": "wikipedia (short name)",
           "url": "https://en.wikipedia.org/wiki/Shield"
-        }
-      ],
-      "notes": "Source [3] (Wikipedia article on 'Shield') is not relevant to Shield Capital VC firm and provides no verifiable information about the firm. Founded year, AUM, flagship fund, and HQ location could not be verified from provided sources despite being listed in the current database entry."
-    },
-    {
-      "name": "Thrive Capital Management, LLC",
-      "current": {
-        "name": "Thrive Capital Management, LLC",
-        "shortName": "Thrive Capital",
-        "aum": "$50B+",
-        "flagshipFund": "Thrive Capital Partners IX",
-        "founded": 2009,
-        "hq": "New York City, New York, U.S.",
-        "website": "https://thrivecap.com"
-      },
-      "verified": {
-        "name": "Thrive Capital Management, LLC",
-        "short_name": "Thrive Capital",
-        "aum": "$50B+",
-        "flagship_fund": "Thrive Capital Partners IX",
-        "founded_year": 2009,
-        "hq": "New York City, New York, U.S.",
-        "key_partners": [
-          "Joshua Kushner",
-          "Nitin Nohria"
-        ],
-        "sector_focus": [
-          "Software",
-          "Internet"
-        ],
-        "thesis": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies. It simultaneously maintains participation across early-stage, growth, and late-stage investments.",
-        "website": "https://thrivecap.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "short_name": [
-            0
-          ],
-          "aum": [
-            0
-          ],
-          "flagship_fund": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "hq": [
-            0
-          ],
-          "key_partners": [
-            0
-          ],
-          "sector_focus": [
-            0
-          ],
-          "thesis": [
-            0
-          ],
-          "website": [
-            0
-          ]
         },
-        "notes": "Nitin Nohria became first executive chairman in 2022. Thrive Capital Partners IX raised $5B in 2024. As of 2026, firm has raised $22.3B total and manages $50B+. Thrive Capital Partners X raised $10B+ in 2026."
-      },
-      "changes": [
         {
-          "field": "thesis",
-          "current": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests across early-stage, growth, and late-stage companies while maintaining a strategy of investing heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies.",
-          "verified": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies. It simultaneously maintains participation across early-stage, growth, and late-stage investments.",
-          "sources": [
-            0
-          ]
+          "idx": 4,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134589&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Thrive_Capital_Management%2C_LLC"
-        }
-      ],
-      "notes": "Nitin Nohria became first executive chairman in 2022. Thrive Capital Partners IX raised $5B in 2024. As of 2026, firm has raised $22.3B total and manages $50B+. Thrive Capital Partners X raised $10B+ in 2026."
+      "notes": "Sources do not verify AUM, flagship fund name, founded year, or specific HQ location. Wikipedia source [3] is about the generic term 'shield' and not relevant to the firm. SEC Form D [4] references 'SHIELD AI' which may be a different entity. Key partners extracted from firm's team page showing 'Founder and Managing Partner' and 'Partner' titles only."
     }
   ],
   "unverifiable": []
