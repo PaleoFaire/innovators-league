@@ -49089,12 +49089,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-26 04:19
+// Last updated: 2026-05-26 08:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "SpaceX", headline: "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valuation in 2028", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Commonwealth Fusion Systems", headline: "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply chain capabilities in", source: "TechNode Global", time: "22h ago", impact: "low", unread: true },
+  { id: 1, type: "funding", company: "SpaceX", headline: "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valuation in 2028", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Commonwealth Fusion Systems", headline: "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply chain capabilities in", source: "TechNode Global", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "news", company: "xAI", headline: "XAI Building Money Printing AI Data Centers Faster and Cheaper While Others Are Canceled or Delayed", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "SpaceX", headline: "NASA to add missions to SpaceX commercial crew contract", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "SpaceX", headline: "NASA to add missions to SpaceX commercial crew contract", source: "SpaceNews", time: "2d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor Will be HUGE for the SPACEX IPO", source: "Next Big Future", time: "2d ago", impact: "high", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX's Starship V3'still a work in progress'mostly successful on first flight", source: "Ars Technica Space", time: "2d ago", impact: "medium", unread: false },
   { id: 7, type: "funding", company: "Deep Fission", headline: "Nuclear startup Deep Fission says it's going public, again, and I have questions", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
