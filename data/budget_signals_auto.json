@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+15%",
-    "changeNum": 15,
+    "change": "+5%",
+    "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 6,
+    "activityIndex": 3,
     "billsTracked": 2,
-    "rulesTracked": 4,
-    "description": "2 bill(s) + 4 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 6 \u2014 +15% relative trend.",
+    "rulesTracked": 1,
+    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -29,22 +29,10 @@
         "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nucle",
         "agency": "",
         "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Modernizing NRC Regulations for Byproduct Material Use",
-        "agency": "",
-        "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nucle",
-        "agency": "",
-        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-25"
+    "lastUpdated": "2026-05-26"
   },
   {
     "category": "Quantum Computing",
@@ -67,7 +55,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-25"
+    "lastUpdated": "2026-05-26"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -90,7 +78,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-25"
+    "lastUpdated": "2026-05-26"
   },
   {
     "category": "Space & Aerospace",
@@ -113,6 +101,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-05-25"
+    "lastUpdated": "2026-05-26"
   }
 ]

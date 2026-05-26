@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T10:18:16.516441Z",
+  "generated_at": "2026-05-26T10:04:34.487094Z",
   "takes": [
     {
       "author": "SpaceNews",
@@ -100,22 +100,12 @@
       "source": "news",
       "source_url": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss",
       "signal_type": "funding"
-    },
-    {
-      "author": "Electrek",
-      "role": "Industry signal",
-      "company": "Waymo",
-      "text": "Uber turns on Waymo as it pours $10B+ into owning robotaxi alternatives",
-      "date": "Fri, 15 Ma",
-      "source": "news",
-      "source_url": "https://electrek.co/2026/05/15/uber-turns-on-waymo-10-billion-robotaxi-alternatives/",
-      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 11,
+    "from_news": 10,
     "from_press": 0
   }
 }
