@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T19:24:56.004466+00:00",
+  "generatedAt": "2026-05-26T21:55:07.719616+00:00",
   "date": "2026-05-26",
   "dateDisplay": "Tuesday, May 26, 2026",
   "sections": {
@@ -63,30 +63,30 @@
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 24.24,
-        "changePercent": 45.85,
-        "change": 7.62
+        "price": 25.07,
+        "changePercent": 50.81,
+        "change": 8.45
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 313.27,
-        "changePercent": 45.32,
-        "change": 97.69
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 125.66,
-        "changePercent": 44.71,
-        "change": 38.83
+        "price": 318.72,
+        "changePercent": 47.84,
+        "change": 103.14
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 26.97,
-        "changePercent": 41.48,
-        "change": 7.91
+        "price": 27.8,
+        "changePercent": 45.88,
+        "change": 8.75
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 119.7,
+        "changePercent": 37.86,
+        "change": 32.87
       },
       {
         "ticker": "ASRHF",
@@ -96,25 +96,25 @@
         "change": 4.0
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 44.3,
-        "changePercent": 31.88,
-        "change": 10.71
-      },
-      {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 62.44,
-        "changePercent": 26.63,
-        "change": 13.13
+        "price": 63.64,
+        "changePercent": 29.06,
+        "change": 14.33
+      },
+      {
+        "ticker": "9348.T",
+        "company": "ispace",
+        "price": 597.0,
+        "changePercent": 20.85,
+        "change": 103.0
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 29.91,
-        "changePercent": 23.85,
-        "change": 5.76
+        "price": 29.07,
+        "changePercent": 20.37,
+        "change": 4.92
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RGTI +45.9%"
+    "topMover": "RGTI +50.8%"
   }
 }
