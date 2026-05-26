@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.42,
+      "avg_change": 1.08,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 26.61,
+      "avg_change": 19.51,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 6.25,
+      "avg_change": 6.42,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 20.82,
+      "avg_change": 18.13,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 9.97,
+      "avg_change": 8.36,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 37.99,
+      "avg_change": 41.92,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.82,
+      "avg_change": 6.94,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 7.08,
+      "avg_change": 6.78,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 19.23,
+      "avg_change": 21.39,
       "count": 3
     }
   },
@@ -61,22 +61,22 @@
     [
       "RGTI",
       "Rigetti Computing",
-      45.85
+      50.81
     ],
     [
       "ALAB",
       "Astera Labs",
-      45.32
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      44.71
+      47.84
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      41.48
+      45.88
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      37.86
     ],
     [
       "ASRHF",
@@ -88,28 +88,28 @@
     [
       "PLTR",
       "Palantir",
-      2.42
+      1.08
     ],
     [
       "DRSHF",
       "DroneShield",
-      -2.2
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -2.24
-    ],
-    [
-      "AUR",
-      "Aurora Innovation",
-      -3.76
+      -0.88
     ],
     [
       "NVDA",
       "NVIDIA",
-      -3.91
+      -3.36
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      -5.66
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -8.72
     ]
   ],
-  "lastUpdated": "2026-05-26 15:43:47"
+  "lastUpdated": "2026-05-26 20:13:58"
 }
