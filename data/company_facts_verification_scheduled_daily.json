@@ -1,30 +1,36 @@
 {
-  "generatedAt": "2026-05-25T09:50:21+00:00",
+  "generatedAt": "2026-05-26T09:38:05+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 34,
-  "newExtractionsThisRun": 33,
+  "cohortSize": 37,
+  "newExtractionsThisRun": 36,
   "summary": {
-    "cleared": 25,
-    "changesProposed": 9,
+    "cleared": 32,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
     "AST SpaceMobile",
     "Altos Labs",
     "Astera Labs",
+    "Axiom Space",
     "Blue Origin",
+    "Boston Metal",
     "Cerebras",
+    "Collaborative Robotics",
     "Crusoe Energy",
     "Dawn Aerospace",
     "Deterrence",
     "Earth AI",
     "Einride",
+    "Fortastra",
     "Galvanick",
     "Hailo",
     "Hidden Level",
     "Humanoid",
     "ICEYE",
+    "New Limit",
+    "OpenStar",
     "Rebellions",
     "Retro Biosciences",
     "Rivian",
@@ -33,168 +39,92 @@
     "Synspective",
     "Terrestrial Energy",
     "Vast",
+    "Vertical Aerospace",
     "Waymo",
     "Xtend"
   ],
   "changesProposed": [
     {
-      "name": "Axiom Space",
+      "name": "Commonwealth Fusion Systems",
       "current": {
-        "name": "Axiom Space",
-        "founder": "Michael T. Suffredini, Kam Ghaffarian",
-        "location": "Houston, Texas, United States",
-        "founded": 2016,
-        "fundingStage": "Series C",
-        "totalRaised": "$850M+",
-        "website": "https://axiomspace.com"
+        "name": "Commonwealth Fusion Systems",
+        "founder": "Bob Mumgaard",
+        "location": "Devens, MA",
+        "founded": 2018,
+        "fundingStage": "Series B",
+        "totalRaised": "$2.863B",
+        "website": "https://cfs.energy"
       },
       "verified": {
-        "name": "Axiom Space",
-        "description": "American aerospace company developing commercial space station infrastructure and providing human spaceflight services to the International Space Station. The company operates end-to-end missions to the ISS while developing Axiom Station, a successor commercial space station.",
+        "name": "Commonwealth Fusion Systems",
+        "description": "American fusion power company that develops compact tokamak fusion reactors using high-temperature superconducting magnets. Founded as a spin-off from MIT, the company is building the SPARC tokamak demonstration reactor and plans a commercial ARC power plant.",
         "founders": [
-          "Michael T. Suffredini",
-          "Kam Ghaffarian"
+          "Bob Mumgaard"
         ],
-        "location": "Houston, Texas, United States",
-        "founded_year": 2016,
-        "current_stage": null,
-        "total_raised": "$350M",
+        "location": "Devens, Massachusetts",
+        "founded_year": 2018,
+        "current_stage": "Series B2",
+        "total_raised": "$2.863B+",
         "valuation": null,
         "investors": [
-          "4iG Group"
+          "Eni",
+          "Breakthrough Energy Ventures",
+          "Khosla Ventures",
+          "Temasek",
+          "Equinor",
+          "Devonshire Investors",
+          "Google"
         ],
-        "website": "https://axiomspace.com",
+        "website": "https://cfs.energy",
         "sources_per_field": {
           "name": [
             0,
-            1,
-            2
+            1
           ],
           "description": [
             0,
-            1,
-            2
+            1
           ],
           "founders": [
-            1,
-            2
+            1
           ],
           "location": [
-            1,
-            2
+            1
           ],
           "founded_year": [
-            1,
-            2
+            1
+          ],
+          "current_stage": [
+            1
           ],
           "total_raised": [
-            0
+            1
           ],
           "investors": [
-            2
-          ]
-        },
-        "notes": "Most recent funding was $350M in February 2026 (announced on company website). Wikipedia reports 4iG Group $100M equity investment signed December 2025, structured in two tranches through March 2026. Current stage cannot be verified from sources\u2014database references 'Series C' but no source explicitly labels current funding round. Valuation of $2.5B in database entry cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$850M+",
-          "verified": "$350M",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://axiomspace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://axiomspace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Axiom_Space"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/nasa-to-add-missions-to-spacex-commercial-crew-contract/"
-        }
-      ],
-      "notes": "Most recent funding was $350M in February 2026 (announced on company website). Wikipedia reports 4iG Group $100M equity investment signed December 2025, structured in two tranches through March 2026. Current stage cannot be verified from sources\u2014database references 'Series C' but no source explicitly labels current funding round. Valuation of $2.5B in database entry cannot be verified from provided sources."
-    },
-    {
-      "name": "Boston Metal",
-      "current": {
-        "name": "Boston Metal",
-        "founder": "Tadeu Carneiro",
-        "location": "Woburn, Massachusetts",
-        "founded": 2013,
-        "fundingStage": "Series C",
-        "totalRaised": "$370M+",
-        "website": "https://bostonmetal.com"
-      },
-      "verified": {
-        "name": "Boston Metal",
-        "description": "Company developing molten oxide electrolysis (MOE) technology to decarbonize steelmaking and recover high-value metals from mining waste using electrical currents instead of coal.",
-        "founders": [
-          "Donald Sadoway",
-          "Antoine Allanore"
-        ],
-        "location": "Woburn, Massachusetts",
-        "founded_year": 2013,
-        "current_stage": null,
-        "total_raised": "$370M+",
-        "valuation": null,
-        "investors": null,
-        "website": "https://bostonmetal.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "total_raised": [
-            1,
-            2
+            1
           ],
           "website": [
             0,
-            1,
-            2
+            1
           ]
         },
-        "notes": "Company was originally founded as 'Boston Electrometallurgical Corporation' in 2013 (per source 1). Tadeu Carneiro joined as CEO in 2017 (per source 2) but is not listed as a founder. Core technology developed by MIT researchers Donald Sadoway and Antoine Allanore. Most recent verified funding: $75M raised for critical metals (source 3, dated 2026); prior verified raises include $51M convertible note and $20M Series C2 in 2024, $262M Series C in 2023, $60M Series B in 2021, $25M Series A in 2018. Wikipedia cites 'over $370,000,000 as of January 2024' but more recent funding rounds are documented in company sources."
+        "notes": "Founded as MIT spin-off. Series B raised $1.8B in November 2021; Series B2 raised additional $863M in August 2025. Wikipedia lists CEO as Bob Mumgaard but does not explicitly label him as founder/co-founder in the opening text\u2014however founding is attributed to him contextually. Total raised now exceeds $2.863B based on B2 round. Company announced plans for first grid-scale commercial plant in Virginia (400 MWe, early 2030s target). SPARC tokamak targeted for 2026 operations with net power demonstration in 2027."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "Tadeu Carneiro",
-          "verified": "Donald Sadoway, Antoine Allanore",
+          "field": "location",
+          "current": "Devens, MA",
+          "verified": "Devens, Massachusetts",
           "sources": [
-            2
+            1
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series B",
+          "verified": "Series B2",
+          "sources": [
+            1
           ]
         }
       ],
@@ -202,25 +132,20 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://bostonmetal.com"
+          "url": "https://cfs.energy"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://bostonmetal.com/about"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems"
         },
         {
           "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Boston_Metal"
-        },
-        {
-          "idx": 3,
-          "src": "news (MIT Tech Review)",
-          "url": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/"
+          "src": "news (TechNode Global)",
+          "url": "https://technode.global/2026/05/25/astar-commonwealth-fusion-systems-sign-collaborative-research-agreement-to-advance-fusion-supply-chain-capabilities-in-singapore/"
         }
       ],
-      "notes": "Company was originally founded as 'Boston Electrometallurgical Corporation' in 2013 (per source 1). Tadeu Carneiro joined as CEO in 2017 (per source 2) but is not listed as a founder. Core technology developed by MIT researchers Donald Sadoway and Antoine Allanore. Most recent verified funding: $75M raised for critical metals (source 3, dated 2026); prior verified raises include $51M convertible note and $20M Series C2 in 2024, $262M Series C in 2023, $60M Series B in 2021, $25M Series A in 2018. Wikipedia cites 'over $370,000,000 as of January 2024' but more recent funding rounds are documented in company sources."
+      "notes": "Founded as MIT spin-off. Series B raised $1.8B in November 2021; Series B2 raised additional $863M in August 2025. Wikipedia lists CEO as Bob Mumgaard but does not explicitly label him as founder/co-founder in the opening text\u2014however founding is attributed to him contextually. Total raised now exceeds $2.863B based on B2 round. Company announced plans for first grid-scale commercial plant in Virginia (400 MWe, early 2030s target). SPARC tokamak targeted for 2026 operations with net power demonstration in 2027."
     },
     {
       "name": "Deep Fission",
@@ -234,7 +159,7 @@
         "website": "https://deepfission.com"
       },
       "verified": {
-        "name": "Deep Fission",
+        "name": "Deep Fission, Inc.",
         "description": "Advanced nuclear energy company developing small modular reactors designed to operate one mile underground, leveraging pressurized water reactor, geothermal, and deep borehole drilling technologies.",
         "founders": [
           "Liz Muller",
@@ -274,7 +199,7 @@
             0
           ]
         },
-        "notes": "Source [0] indicates company launched public offering on May 20, 2026 and confidentially submitted draft registration statement on Apr 22, 2026 (Pre-IPO stage). Database entry claims 'IPO' stage which is not yet confirmed by sources; company is currently in public offering process. Source [2] mentions potential IPO raise of $157M but this is speculative reporting. 15 GW pipeline of power site partnerships confirmed per source [0]."
+        "notes": "Current stage marked as Pre-IPO based on May 20, 2026 announcement of public offering launch and April 22, 2026 confidential draft registration statement submission. Database entry incorrectly lists stage as 'IPO' when company is in pre-IPO phase. Source [2] references potential $157M IPO but this is speculative analyst commentary, not verified company disclosure."
       },
       "changes": [
         {
@@ -303,7 +228,7 @@
           "url": "https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions/"
         }
       ],
-      "notes": "Source [0] indicates company launched public offering on May 20, 2026 and confidentially submitted draft registration statement on Apr 22, 2026 (Pre-IPO stage). Database entry claims 'IPO' stage which is not yet confirmed by sources; company is currently in public offering process. Source [2] mentions potential IPO raise of $157M but this is speculative reporting. 15 GW pipeline of power site partnerships confirmed per source [0]."
+      "notes": "Current stage marked as Pre-IPO based on May 20, 2026 announcement of public offering launch and April 22, 2026 confidential draft registration statement submission. Database entry incorrectly lists stage as 'IPO' when company is in pre-IPO phase. Source [2] references potential $157M IPO but this is speculative analyst commentary, not verified company disclosure."
     },
     {
       "name": "Fervo Energy",
@@ -318,7 +243,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems using horizontal drilling techniques. The company develops next-generation geothermal projects including Project Red and Cape Station.",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. The company develops and operates next-generation geothermal projects including Project Red and Cape Station.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -338,10 +263,10 @@
         "sources_per_field": {
           "name": [
             0,
-            1,
             2
           ],
           "description": [
+            1,
             2
           ],
           "founders": [
@@ -364,11 +289,10 @@
           ],
           "website": [
             0,
-            1,
             2
           ]
         },
-        "notes": "Company went public on May 17, 2026 (Nasdaq debut) according to website newsroom. Wikipedia lists company type as 'Private' but this appears outdated given IPO occurred in May 2026. Total raised figure of $1.89B is from IPO proceeds per website headline 'Fervo Energy raises $1.89B in IPO.' Series E funding of $462M occurred in November 2025 per Wikipedia, which would be pre-IPO."
+        "notes": "Company went public on May 17, 2026 (Nasdaq debut), raising $1.89B in IPO proceeds as stated in source 0 newsroom. Wikipedia source [2] indicates company was 'Private' at time of article but also references Series E funding of $462M in November 2025. Current stage marked as 'Public' based on May 2026 IPO announcement in source 0."
       },
       "changes": [
         {
@@ -412,209 +336,7 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "Company went public on May 17, 2026 (Nasdaq debut) according to website newsroom. Wikipedia lists company type as 'Private' but this appears outdated given IPO occurred in May 2026. Total raised figure of $1.89B is from IPO proceeds per website headline 'Fervo Energy raises $1.89B in IPO.' Series E funding of $462M occurred in November 2025 per Wikipedia, which would be pre-IPO."
-    },
-    {
-      "name": "New Limit",
-      "current": {
-        "name": "New Limit",
-        "founder": "Brian Armstrong, Blake Byers, Jacob Kimmel",
-        "location": "San Francisco, CA",
-        "founded": 2021,
-        "fundingStage": "Series B",
-        "totalRaised": "$170M+",
-        "website": "https://newlimit.com"
-      },
-      "verified": {
-        "name": "New Limit",
-        "description": "Developing epigenetic reprogramming medicines to restore youthful function in aging cells and treat age-related diseases to extend human healthspan.",
-        "founders": [
-          "Brian Armstrong",
-          "Blake Byers"
-        ],
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Kleiner Perkins",
-          "Dimension Capital",
-          "Founders Fund",
-          "Nat Friedman & Daniel Gross",
-          "Khosla Ventures",
-          "Human Capital",
-          "Eli Lilly & Company",
-          "Abstract Ventures",
-          "Duke University Management Company",
-          "S32",
-          "Valor Equity Partners",
-          "Elad Gil",
-          "Fred Ehrsam",
-          "Garry Tan",
-          "Joe Lonsdale",
-          "John & Patrick Collison",
-          "Joshua Kushner"
-        ],
-        "website": "https://newlimit.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1] lists both individual investors and firms. Database entry claims Jacob Kimmel as co-founder but this is not verified in provided sources. Source [2] is about a different company (Retro Biosciences) and is not relevant to New Limit."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Brian Armstrong, Blake Byers, Jacob Kimmel",
-          "verified": "Brian Armstrong, Blake Byers",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://newlimit.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://newlimit.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (STAT News)",
-          "url": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss"
-        }
-      ],
-      "notes": "Source [1] lists both individual investors and firms. Database entry claims Jacob Kimmel as co-founder but this is not verified in provided sources. Source [2] is about a different company (Retro Biosciences) and is not relevant to New Limit."
-    },
-    {
-      "name": "Nuro",
-      "current": {
-        "name": "Nuro",
-        "founder": "Dave Ferguson, Jiajun Zhu",
-        "location": "Mountain View, California",
-        "founded": 2016,
-        "fundingStage": "Series G",
-        "totalRaised": "$203M",
-        "website": "https://nuro.ai"
-      },
-      "verified": {
-        "name": "Nuro",
-        "description": "Autonomous vehicle technology company that licenses its Level 4 driving system, Nuro Driver, to automakers and mobility providers. The company pivoted from autonomous delivery vehicles to technology licensing in September 2024.",
-        "founders": [
-          "Jiajun Zhu",
-          "Dave Ferguson"
-        ],
-        "location": "Mountain View, California",
-        "founded_year": 2016,
-        "current_stage": "Series E",
-        "total_raised": "$203M",
-        "valuation": "$6B",
-        "investors": [
-          "Uber",
-          "Nvidia",
-          "Greylock Partners",
-          "Gaorong Capital",
-          "SoftBank Group",
-          "T. Rowe Price"
-        ],
-        "website": "https://nuro.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            0,
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            0,
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "In August 2025, Nuro closed a Series E funding round at $203M valuation of $6B with investors Uber and Nvidia. The company pivoted from delivery robots to autonomy technology licensing in September 2024. Partnership established in July 2025 with Uber and Lucid Motors to deploy 20,000+ robotaxis starting in 2026."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series G",
-          "verified": "Series E",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://nuro.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://nuro.ai/company"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nuro"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/15/uber-turns-on-waymo-10-billion-robotaxi-alternatives/"
-        }
-      ],
-      "notes": "In August 2025, Nuro closed a Series E funding round at $203M valuation of $6B with investors Uber and Nvidia. The company pivoted from delivery robots to autonomy technology licensing in September 2024. Partnership established in July 2025 with Uber and Lucid Motors to deploy 20,000+ robotaxis starting in 2026."
+      "notes": "Company went public on May 17, 2026 (Nasdaq debut), raising $1.89B in IPO proceeds as stated in source 0 newsroom. Wikipedia source [2] indicates company was 'Private' at time of article but also references Series E funding of $462M in November 2025. Current stage marked as 'Public' based on May 2026 IPO announcement in source 0."
     },
     {
       "name": "SpaceX",
@@ -629,7 +351,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "Private American aerospace and artificial intelligence company that develops reusable launch vehicles, spacecraft, and satellite constellation technology. Headquartered at Starbase in Texas and founded by Elon Musk in 2002.",
+        "description": "American aerospace and artificial intelligence company founded in 2002 that develops reusable rockets, spacecraft, and satellite constellation technology. SpaceX conducts more orbital launches annually than any other launch provider and operates the Starlink satellite internet constellation.",
         "founders": [
           "Elon Musk"
         ],
@@ -666,7 +388,7 @@
             1
           ]
         },
-        "notes": "Source [0] is a domain sale page and provides no company information. Source [1] (Wikipedia) states SpaceX is 'expected to have an initial public offering (IPO) in 2026' and notes '2025 offer to buy internal shares valued SpaceX at $800 billion'. Current database entry claims 'Series G' stage and '$10B+' raised, but sources do not provide funding stage or cumulative capital raised information. Sources [2], [3], and [4] are news headlines with insufficient substantive detail to verify additional claims."
+        "notes": "Source [0] is a domain sales page and not a reliable source for company information. Source [1] (Wikipedia) states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was valued at '$800 billion' in a 2025 internal share offer. Sources [2], [3], and [4] are speculative news articles about future revenue projections and do not provide verified current facts. Current database entry claims 'Series G' stage, but source [1] describes company as 'private' with no mention of venture rounds. IPO preparation noted in database entry is supported by source [1] which states IPO expected in 2026, but the $1.5T valuation in current entry is not supported by any source."
       },
       "changes": [
         {
@@ -691,119 +413,21 @@
         },
         {
           "idx": 2,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/spacex-ai-multiple-revenue-doubling-secrets-for-10-20t-valuation-in-2028.html"
+        },
+        {
+          "idx": 3,
           "src": "news (SpaceNews)",
           "url": "https://spacenews.com/nasa-to-add-missions-to-spacex-commercial-crew-contract/"
         },
         {
-          "idx": 3,
+          "idx": 4,
           "src": "news (Next Big Future)",
           "url": "https://www.nextbigfuture.com/2026/05/spacex-shocking-ai-revenue-from-elon-web-services-and-cursor-will-be-huge-for-the-spacex-ipo.html"
-        },
-        {
-          "idx": 4,
-          "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/"
         }
       ],
-      "notes": "Source [0] is a domain sale page and provides no company information. Source [1] (Wikipedia) states SpaceX is 'expected to have an initial public offering (IPO) in 2026' and notes '2025 offer to buy internal shares valued SpaceX at $800 billion'. Current database entry claims 'Series G' stage and '$10B+' raised, but sources do not provide funding stage or cumulative capital raised information. Sources [2], [3], and [4] are news headlines with insufficient substantive detail to verify additional claims."
-    },
-    {
-      "name": "Vertical Aerospace",
-      "current": {
-        "name": "Vertical Aerospace",
-        "founder": "Stephen Fitzpatrick",
-        "location": "Bristol, England, UK",
-        "founded": 2016,
-        "fundingStage": "Public",
-        "totalRaised": "$400M+",
-        "website": "https://vertical-aerospace.com"
-      },
-      "verified": {
-        "name": "Vertical Aerospace",
-        "description": "British aerospace manufacturer that designs and builds zero-emission, electric vertical take-off and landing (eVTOL) aircraft. The company's primary product is the VX4, a piloted eVTOL vehicle with capacity for 4 passengers and a pilot.",
-        "founders": [
-          "Stephen Fitzpatrick"
-        ],
-        "location": "Bristol, England, UK",
-        "founded_year": 2016,
-        "current_stage": "Public",
-        "total_raised": "$50M",
-        "valuation": null,
-        "investors": [
-          "American Airlines",
-          "Avolon",
-          "Rolls-Royce",
-          "Honeywell",
-          "Microsoft M12",
-          "Mudrick Capital"
-        ],
-        "website": "https://vertical-aerospace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            2
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Company went public via SPAC merger with Broadstone Acquisition Corp in December 2021, listed on NYSE under ticker EVTL. Most recent funding mentioned is $50M from Mudrick Capital in 2024. Product name appears to have changed from VX4 to 'Valo' on current website (source 0) but Wikipedia and sources refer to VX4."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$400M+",
-          "verified": "$50M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://vertical-aerospace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://vertical-aerospace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace"
-        },
-        {
-          "idx": 3,
-          "src": "news (Sifted)",
-          "url": "https://sifted.eu/articles/anthropic-wont-kill-vertcial-ai/"
-        }
-      ],
-      "notes": "Company went public via SPAC merger with Broadstone Acquisition Corp in December 2021, listed on NYSE under ticker EVTL. Most recent funding mentioned is $50M from Mudrick Capital in 2024. Product name appears to have changed from VX4 to 'Valo' on current website (source 0) but Wikipedia and sources refer to VX4."
+      "notes": "Source [0] is a domain sales page and not a reliable source for company information. Source [1] (Wikipedia) states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was valued at '$800 billion' in a 2025 internal share offer. Sources [2], [3], and [4] are speculative news articles about future revenue projections and do not provide verified current facts. Current database entry claims 'Series G' stage, but source [1] describes company as 'private' with no mention of venture rounds. IPO preparation noted in database entry is supported by source [1] which states IPO expected in 2026, but the $1.5T valuation in current entry is not supported by any source."
     },
     {
       "name": "X-Energy",
@@ -818,7 +442,7 @@
       },
       "verified": {
         "name": "X-energy",
-        "description": "Developer of advanced nuclear energy technology including high-temperature gas reactors and TRISO fuel for commercial-scale small modular reactors (SMRs).",
+        "description": "Developer of advanced nuclear energy technology including high-temperature gas reactors and TRISO fuel for commercial-scale applications.",
         "founders": null,
         "location": null,
         "founded_year": null,
@@ -838,7 +462,7 @@
             0
           ]
         },
-        "notes": "Source [0] confirms IPO pricing announcement as of April 23, 2026. Company website describes technology but does not provide founding year, founder names, fundraising amounts, or valuation figures. Source [1] title provided but content not fully available for verification."
+        "notes": "Source [0] is dated May 2026 and contains announcement of IPO pricing (Apr 23, 2026), confirming public status. Database entry claims cannot be verified: founder name (Kam Ghaffarian) not found in sources; location (Rockville, MD) not in sources; founded year (2009) not in sources; total_raised ($1.1B+) not in sources; valuation ($2B+) not in sources; specific claims about Amazon funding, Pentagon/Air Force contracts, and UK deployment not found in provided sources."
       },
       "changes": [
         {
@@ -862,7 +486,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/x-energy-gets-federal-approval-reactors"
         }
       ],
-      "notes": "Source [0] confirms IPO pricing announcement as of April 23, 2026. Company website describes technology but does not provide founding year, founder names, fundraising amounts, or valuation figures. Source [1] title provided but content not fully available for verification."
+      "notes": "Source [0] is dated May 2026 and contains announcement of IPO pricing (Apr 23, 2026), confirming public status. Database entry claims cannot be verified: founder name (Kam Ghaffarian) not found in sources; location (Rockville, MD) not in sources; founded year (2009) not in sources; total_raised ($1.1B+) not in sources; valuation ($2B+) not in sources; specific claims about Amazon funding, Pentagon/Air Force contracts, and UK deployment not found in provided sources."
     }
   ],
   "unverifiable": []
