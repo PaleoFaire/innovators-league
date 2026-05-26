@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T08:39:23.343017+00:00",
+  "generatedAt": "2026-05-26T16:50:08.117623+00:00",
   "date": "2026-05-26",
   "dateDisplay": "Tuesday, May 26, 2026",
   "sections": {
@@ -63,58 +63,58 @@
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 26.42,
-        "changePercent": 48.01,
-        "change": 8.57
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 29.4,
-        "changePercent": 44.47,
-        "change": 9.05
+        "price": 24.24,
+        "changePercent": 45.85,
+        "change": 7.62
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 306.88,
-        "changePercent": 31.89,
-        "change": 74.2
+        "price": 313.27,
+        "changePercent": 45.32,
+        "change": 97.69
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 105.86,
-        "changePercent": 26.52,
-        "change": 22.19
+        "price": 125.66,
+        "changePercent": 44.71,
+        "change": 38.83
       },
       {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 63.64,
-        "changePercent": 22.5,
-        "change": 11.69
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 26.97,
+        "changePercent": 41.48,
+        "change": 7.91
       },
       {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 15.05,
-        "changePercent": 20.64,
-        "change": 2.58
+        "changePercent": 36.2,
+        "change": 4.0
       },
       {
-        "ticker": "9348.T",
-        "company": "ispace",
-        "price": 588.0,
-        "changePercent": 19.03,
-        "change": 94.0
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 44.3,
+        "changePercent": 31.88,
+        "change": 10.71
       },
       {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 7.9,
-        "changePercent": -18.81,
-        "change": -1.83
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 62.44,
+        "changePercent": 26.63,
+        "change": 13.13
+      },
+      {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 29.91,
+        "changePercent": 23.85,
+        "change": 5.76
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RGTI +48.0%"
+    "topMover": "RGTI +45.9%"
   }
 }
