@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-05-25 11:03:19 UTC
+// Last updated: 2026-05-27 10:45:13 UTC
 const NASA_PROJECTS = [
   { id: 96991, title: "IntraVenous Fluid GENeration for Exploration Missions Mini", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/21/26" },
   { id: 184934, title: "Spatial Disorientation Trainer", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/21/26" },

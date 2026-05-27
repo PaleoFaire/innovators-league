@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-05-24",
-    "vehicle": "Long March 2F/G | Shenzhou 23",
-    "payload": "Shenzhou 23",
-    "pad": "Launch Area 91 (SLS-1 / 921), Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a0e0f590-1cb4-4b6b-845c-0087633af132/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-05-25",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-47",
-    "payload": "Starlink Group 10-47",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e6159040-124e-4a2a-91db-41f5a48acfd8/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-05-26",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
     "payload": "Starlink Group 17-37",
@@ -28,8 +10,8 @@
   },
   {
     "date": "2026-05-26",
-    "vehicle": "Long March 7A | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 7A | TJSW-24",
+    "payload": "TJSW-24",
     "pad": "201, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/6d2beb1a-6869-4505-9fc1-a4aa224178e2/?format=json",
@@ -63,6 +45,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-05-30",
+    "vehicle": "Long March 2D | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Complex 3 (LC-3/LA-1), Xichang Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0ab3587d-bb8c-4515-a321-2ec154840659/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-06-01",
     "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
     "payload": "Demo Flight",
@@ -73,12 +64,12 @@
   },
   {
     "date": "2026-06-02",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-47",
-    "payload": "Starlink Group 17-47",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/4936311a-af7c-4b05-8d7b-3eea59fc0f11/?format=json",
-    "trackedCompany": "SpaceX"
+    "vehicle": "New Glenn | Amazon Leo (LN-01)",
+    "payload": "Amazon Leo (LN-01)",
+    "pad": "Launch Complex 36A, Cape Canaveral SFS, FL, USA",
+    "provider": "Blue Origin",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ca3d56b7-2175-48e4-9a6a-2ecc9996d96b/?format=json",
+    "trackedCompany": "Blue Origin"
   },
   {
     "date": "2026-06-03",
@@ -88,6 +79,24 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/cfff5e89-af2e-46b1-9446-7b0f18de4ef7/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-03",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-47",
+    "payload": "Starlink Group 17-47",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4936311a-af7c-4b05-8d7b-3eea59fc0f11/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-05",
+    "vehicle": "Long March 8 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3dd21d77-a37d-419c-86fb-8591fe256583/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-06-10",
@@ -438,15 +447,6 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "payload": "O3b mPower 11-13",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]
