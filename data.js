@@ -49780,23 +49780,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-27 12:28
+// Last updated: 2026-05-27 16:43
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "European space industry watching SpaceX IPO plans", source: "SpaceNews", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Tesla (TSLA) and SpaceX merger would be Musk's 4th billion-dollar self-deal", source: "Electrek", time: "2h ago", impact: "high", unread: true },
-  { id: 3, type: "contract", company: "SpaceX", headline: "SpaceX wins $2.29 billion Space Force contract for military data network", source: "SpaceNews", time: "13h ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX IPO ' Boon Or Boondoggle?", source: "CleanTechnica", time: "14h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX wins $2.29B to speed Space Force's LEO communications 'backbone'", source: "Breaking Defense", time: "14h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "SpaceX", headline: "Starship's path to reusability looks murky after SpaceX's S-1", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Why the Vatican Invited Anthropic to the Pope's AI Encyclical Presentation", source: "Wired", time: "15h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "SpaceX", headline: "Pentagon spars with SpaceX over Starlink price hike during Iran war", source: "Defense News", time: "17h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "SpaceX", headline: "SpaceX's Starlink nabs American Airlines contract, another win for its IPO", source: "TechCrunch", time: "17h ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "Starcloud", headline: "Starcloud orders Starlink lasers for orbital data center network", source: "SpaceNews", time: "19h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Market Sizes Are Replatforming &#8211; AI and Space Are Replatforming Telecom, IT and Business", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "SpaceX", headline: "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valuation in 2028", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "xAI", headline: "XAI Building Money Printing AI Data Centers Faster and Cheaper While Others Are Canceled or Delayed", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "SpaceX", headline: "NASA to add missions to SpaceX commercial crew contract", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor Will be HUGE for the SPACEX IPO", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
+  { id: 1, type: "funding", company: "Cognition", headline: "AI coding startup Cognition raises $1B at $25B pre-money valuation", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "FAA orders SpaceX to investigate Starship V3 booster failure", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Starcloud", headline: "Starcloud's path to 88,000 computing satellites", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Europe's satellite spectrum proposal clouds SpaceX and Viasat plans", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "European space industry watching SpaceX IPO plans", source: "SpaceNews", time: "5h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Tesla (TSLA) and SpaceX merger would be Musk's 4th billion-dollar self-deal", source: "Electrek", time: "7h ago", impact: "high", unread: false },
+  { id: 7, type: "contract", company: "SpaceX", headline: "SpaceX wins $2.29 billion Space Force contract for military data network", source: "SpaceNews", time: "18h ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX IPO ' Boon Or Boondoggle?", source: "CleanTechnica", time: "18h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX wins $2.29B to speed Space Force's LEO communications 'backbone'", source: "Breaking Defense", time: "19h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "SpaceX", headline: "Starship's path to reusability looks murky after SpaceX's S-1", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "Why the Vatican Invited Anthropic to the Pope's AI Encyclical Presentation", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "SpaceX", headline: "Pentagon spars with SpaceX over Starlink price hike during Iran war", source: "Defense News", time: "21h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "SpaceX", headline: "SpaceX's Starlink nabs American Airlines contract, another win for its IPO", source: "TechCrunch", time: "21h ago", impact: "high", unread: false },
+  { id: 14, type: "ipo", company: "Starcloud", headline: "Starcloud orders Starlink lasers for orbital data center network", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Market Sizes Are Replatforming &#8211; AI and Space Are Replatforming Telecom, IT and Business", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
