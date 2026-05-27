@@ -1,6 +1,162 @@
 {
-  "generatedAt": "2026-05-27T08:45:02+00:00",
+  "generatedAt": "2026-05-27T12:29:36+00:00",
   "matrix": {
+    "data-center-infrastructure": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 157012704,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Armada",
+            "amount": 156185204,
+            "date": "2026-05-26",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "Claros",
+            "amount": 827500,
+            "date": "2026-05-19",
+            "source": "formd",
+            "investors": [
+              "General Catalyst",
+              "Red Cell Partners",
+              "Systemiq Capital",
+              "Aero X Ventures",
+              "Trenches Capital",
+              "VIPC"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst"
+        ]
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
+        ]
+      }
+    },
+    "green-manufacturing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 485010,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Helios",
+            "amount": 485010,
+            "date": "2026-05-26",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "space-launch-small-intl": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 2025980,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Latitude",
+            "amount": 2025980,
+            "date": "2026-05-26",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "robotics-construction-mining": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Terranova",
+            "amount": 0,
+            "date": "2026-05-26",
+            "source": "formd",
+            "investors": [
+              "Outlander",
+              "Congruent Ventures",
+              "GoAhead Ventures",
+              "Gothams",
+              "Ponderosa (Galvanize Climate)"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Bedrock Robotics",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": [
+              "Eclipse Ventures",
+              "8VC",
+              "Valor Equity Partners",
+              "Two Sigma Ventures",
+              "NVentures (NVIDIA)",
+              "CapitalG",
+              "Crossbeam Venture Partners",
+              "Tishman Speyer",
+              "Atreides Management",
+              "Samsara Ventures",
+              "Xora Innovation",
+              "Emergence Capital Partners",
+              "C4 Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "8VC",
+          "Eclipse Ventures",
+          "Valor Equity Partners"
+        ]
+      }
+    },
     "logistics-robotics": {
       "2026-Q2": {
         "deals": 1,
@@ -243,23 +399,6 @@
         "investors": []
       }
     },
-    "green-manufacturing": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 2295265,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Helios",
-            "amount": 2295265,
-            "date": "2026-05-20",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-ground-vehicles": {
       "2026-Q2": {
         "deals": 1,
@@ -275,65 +414,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "data-center-infrastructure": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 827500,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Claros",
-            "amount": 827500,
-            "date": "2026-05-19",
-            "source": "formd",
-            "investors": [
-              "General Catalyst",
-              "Red Cell Partners",
-              "Systemiq Capital",
-              "Aero X Ventures",
-              "Trenches Capital",
-              "VIPC"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst"
-        ]
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Crusoe Energy",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Valor Equity Partners",
-              "Mubadala Capital",
-              "Founders Fund",
-              "Lowercarbon Capital",
-              "Spark Capital",
-              "Tiger Global Management",
-              "NVIDIA",
-              "Bain Capital Ventures",
-              "Fidelity Management",
-              "Atreides Management",
-              "1789 Capital",
-              "Salesforce Ventures",
-              "T. Rowe Price"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Lowercarbon Capital",
-          "Valor Equity Partners"
-        ]
       }
     },
     "lunar-robotics": {
@@ -375,38 +455,6 @@
         "investors": [
           "Founders Fund"
         ]
-      }
-    },
-    "ai-chips-inference": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 233885560,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Positron AI",
-            "amount": 233885560,
-            "date": "2026-05-12",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Positron AI",
-            "amount": null,
-            "date": "2026-02",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
       }
     },
     "autonomy-counter-drone": {
@@ -1088,41 +1136,6 @@
         "investors": []
       }
     },
-    "robotics-construction-mining": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Bedrock Robotics",
-            "amount": null,
-            "date": "2026-02",
-            "source": "recentEvent",
-            "investors": [
-              "Eclipse Ventures",
-              "8VC",
-              "Valor Equity Partners",
-              "Two Sigma Ventures",
-              "NVentures (NVIDIA)",
-              "CapitalG",
-              "Crossbeam Venture Partners",
-              "Tishman Speyer",
-              "Atreides Management",
-              "Samsara Ventures",
-              "Xora Innovation",
-              "Emergence Capital Partners",
-              "C4 Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "8VC",
-          "Eclipse Ventures",
-          "Valor Equity Partners"
-        ]
-      }
-    },
     "additive-manufacturing": {
       "2026-Q2": {
         "deals": 1,
@@ -1247,6 +1260,23 @@
         "investors": [
           "Future Ventures"
         ]
+      }
+    },
+    "ai-chips-inference": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Positron AI",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
       }
     },
     "industrial-decarb": {
@@ -1640,9 +1670,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 61,
-    "totalUSDSold": 333961786,
-    "uniqueClusters": 40,
+    "totalDealsTracked": 63,
+    "totalUSDSold": 256477155,
+    "uniqueClusters": 41,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [
