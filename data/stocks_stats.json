@@ -11,19 +11,19 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 19.51,
+      "avg_change": 19.38,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 6.42,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 7.67,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 18.13,
+      "avg_change": 18.1,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 41.92,
+      "avg_change": 41.93,
       "count": 3
     },
     "biotech": {
@@ -71,7 +71,7 @@
     [
       "QBTS",
       "D-Wave Quantum",
-      45.88
+      45.96
     ],
     [
       "ASTS",
@@ -93,7 +93,7 @@
     [
       "DRSHF",
       "DroneShield",
-      -0.88
+      0.22
     ],
     [
       "NVDA",
@@ -111,5 +111,5 @@
       -8.72
     ]
   ],
-  "lastUpdated": "2026-05-26 20:13:58"
+  "lastUpdated": "2026-05-27 04:09:47"
 }
