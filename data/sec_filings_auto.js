@@ -1,6 +1,15 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-26 10:03:33 UTC
+// Last updated: 2026-05-27 10:01:32 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "4", date: "2026-05-26", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Rigetti Computing", form: "4", date: "2026-05-26", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
+  { company: "Rigetti Computing", form: "4", date: "2026-05-26", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-05-26", description: "qbts-20260526.htm", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-05-26", description: "qbts-20260526.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-05-26", description: "xslF345X06/wk-form4_1779829445.xml", isIPO: false, ticker: "DNA" },
+  { company: "Aurora Innovation", form: "4", date: "2026-05-26", description: "xslF345X06/wk-form4_1779828476.xml", isIPO: false, ticker: "AUR" },
+  { company: "Aurora Innovation", form: "8-K", date: "2026-05-26", description: "aur-20260521.htm", isIPO: false, ticker: "AUR" },
+  { company: "Satellogic", form: "8-K", date: "2026-05-26", description: "ea0291524-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Palantir Technologies", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779494640.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779494608.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779494578.xml", isIPO: false, ticker: "PLTR" },
@@ -42,13 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-05-20", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Satellogic", form: "8-K", date: "2026-05-20", description: "ea0291617-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Palantir Technologies", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779235635.xml", isIPO: false, ticker: "PLTR" },
-  { company: "C3.ai", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779231038.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779230971.xml", isIPO: false, ticker: "AI" },
-  { company: "Upstart Holdings", form: "8-K", date: "2026-05-19", description: "upst-20260519.htm", isIPO: false, ticker: "UPST" },
-  { company: "IonQ", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779226108.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779225929.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779225812.xml", isIPO: false, ticker: "IONQ" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779227693.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779227687.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779227682.xml", isIPO: false, ticker: "RXRX" },
 ];

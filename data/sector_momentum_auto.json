@@ -1,95 +1,43 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 72,
+    "momentum": 67,
     "trend": "accelerating",
     "catalysts": [
-      "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valu",
-      "NASA to add missions to SpaceX commercial crew contract",
-      "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor"
+      "Tesla (TSLA) and SpaceX merger would be Musk&#8217;s 4th bil",
+      "SpaceX IPO \u2014 Boon Or Boondoggle?",
+      "SpaceX wins $2.29B to speed Space Force&#8217;s LEO communic"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 100,
+      "news": 80,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Nuclear Energy",
     "momentum": 59,
     "trend": "steady",
     "catalysts": [
-      "A*STAR, Commonwealth Fusion Systems sign collaborative resea",
-      "Nuclear startup Deep Fission says it&#8217;s going public, a",
-      "X-energy gets federal environmental approval for Texas nucle"
+      "X-energy gets federal environmental approval for Texas nucle",
+      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
+      "Anthropic&#8217;s Nuclear Bomb"
     ],
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 15,
       "hiring": 0,
-      "market": 87
+      "market": 100
     },
-    "lastUpdated": "2026-05-26"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 56,
-    "trend": "accelerating",
-    "catalysts": [
-      "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valu",
-      "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor",
-      "xAI Selling $1.5 Billion of Compute to Anthropic Each Month"
-    ],
-    "fundingQ": "$2218.7B",
-    "components": {
-      "funding": 100,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-26"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
-    ],
-    "fundingQ": "$32.5B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 72
-    },
-    "lastUpdated": "2026-05-26"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "The future of physical AI isn&#8217;t humanoid; it&#8217;s t",
-      "Waymo Robotaxis Have To Take A Break In Atlanta \u2014 Can&#8217;",
-      "Humanoid partners with Bosch, Schaeffler to scale robot prod"
-    ],
-    "fundingQ": "$5.9B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 49,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
       "SpaceX Starship Flight 12 Good Launch and Simulated Landings",
@@ -101,26 +49,78 @@
       "funding": 84,
       "news": 20,
       "hiring": 0,
-      "market": 74
+      "market": 100
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 48,
+    "sector": "AI & Software",
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi",
-      "NATO eastern deterrence strategy takes shape around \u2018autonom"
+      "Why the Vatican Invited Anthropic to the Pope\u2019s AI Encyclica",
+      "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valu",
+      "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor"
     ],
-    "fundingQ": "$12.7B",
+    "fundingQ": "$2218.7B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-27"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 50,
+    "trend": "steady",
+    "catalysts": [
+      "Pentagon spars with SpaceX over Starlink price hike during I",
+      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
+    ],
+    "fundingQ": "$32.5B",
     "components": {
       "funding": 100,
       "news": 10,
       "hiring": 0,
+      "market": 61
+    },
+    "lastUpdated": "2026-05-27"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "The future of physical AI isn&#8217;t humanoid; it&#8217;s t",
+      "Humanoid partners with Bosch, Schaeffler to scale robot prod",
+      "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi"
+    ],
+    "fundingQ": "$8.9B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 46,
+    "trend": "steady",
+    "catalysts": [
+      "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi"
+    ],
+    "fundingQ": "$12.7B",
+    "components": {
+      "funding": 100,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -136,7 +136,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Ocean & Maritime",
@@ -152,67 +152,31 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 26,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "SpaceX IPO filing casts Starlink Mobile as future wireless c",
-      "STAT+: Longevity startup Retro Biosciences says latest fundr",
       "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 20,
-      "hiring": 0,
-      "market": 89
-    },
-    "lastUpdated": "2026-05-26"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 24,
-    "trend": "rising",
-    "catalysts": [
-      "NASA to add missions to SpaceX commercial crew contract",
-      "The future of physical AI isn&#8217;t humanoid; it&#8217;s t",
-      "Blue Origin completes investigation into New Glenn launch fa"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 55,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-26"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 23,
-    "trend": "declining",
-    "catalysts": [
-      "Podcast: Tesla Robotaxi, Rivian R2 configurator is live, Chi"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
       "news": 5,
       "hiring": 0,
-      "market": 96
+      "market": 99
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 22,
     "trend": "declining",
     "catalysts": [
-      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do",
-      "Cerebras AI Wafer Sized Compute Raises IPO Price Nearly 20%"
+      "Why the Vatican Invited Anthropic to the Pope\u2019s AI Encyclica",
+      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -221,7 +185,23 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Quantum Computing",
@@ -237,15 +217,33 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Tesla (TSLA) and SpaceX merger would be Musk&#8217;s 4th bil",
+      "SpaceX IPO \u2014 Boon Or Boondoggle?",
+      "Starship&#8217;s path to reusability looks murky after Space"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
+      "SpaceX Market Sizes Are Replatforming &#8211; AI and Space A",
       "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valu",
-      "A*STAR, Commonwealth Fusion Systems sign collaborative resea",
       "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi"
     ],
     "fundingQ": "$0M",
@@ -255,23 +253,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "SpaceX IPO \u2014 Boon Or Boondoggle?",
       "XAI Building Money Printing AI Data Centers Faster and Cheap",
       "XAI $15 Billion Per Year AI Rental to Anthropic Details"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
   }
 ]

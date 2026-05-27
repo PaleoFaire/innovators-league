@@ -486,30 +486,12 @@
     "isIPO": false
   },
   {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "8-K",
-    "date": "2026-01-22",
-    "description": "rklb-20260121.htm",
-    "accessionNumber": "0001819994-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
     "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-01-06",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000002",
+    "date": "2026-05-26",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-025301",
     "isIPO": false
   },
   {
@@ -4068,15 +4050,6 @@
     "isIPO": false
   },
   {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2026-01-16",
-    "description": "xslF345X05/wk-form4_1768602438.xml",
-    "accessionNumber": "0002051703-26-000002",
-    "isIPO": false
-  },
-  {
     "company": "UiPath",
     "ticker": "PATH",
     "form": "DEF 14A",
@@ -4611,6 +4584,24 @@
     "company": "Rigetti Computing",
     "ticker": "RGTI",
     "form": "4",
+    "date": "2026-05-26",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000745",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
+    "date": "2026-05-26",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000744",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
     "date": "2026-05-22",
     "description": "xslF345X06/form4.xml",
     "accessionNumber": "0001123292-26-000720",
@@ -4842,21 +4833,21 @@
     "isIPO": false
   },
   {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2025-09-15",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-25-000436",
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-05-26",
+    "description": "qbts-20260526.htm",
+    "accessionNumber": "0001907982-26-000071",
     "isIPO": false
   },
   {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2025-09-15",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-25-000435",
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-05-26",
+    "description": "qbts-20260526.htm",
+    "accessionNumber": "0001907982-26-000069",
     "isIPO": false
   },
   {
@@ -5127,15 +5118,6 @@
     "date": "2026-01-27",
     "description": "qbts-20260127.htm",
     "accessionNumber": "0001907982-26-000016",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-01-20",
-    "description": "qbts-20260120.htm",
-    "accessionNumber": "0001628280-26-002652",
     "isIPO": false
   },
   {
@@ -5415,6 +5397,15 @@
     "date": "2026-02-10",
     "description": "xslF345X05/wk-form4_1770765490.xml",
     "accessionNumber": "0001601830-26-000012",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
+    "date": "2026-05-26",
+    "description": "xslF345X06/wk-form4_1779829445.xml",
+    "accessionNumber": "0001628280-26-038202",
     "isIPO": false
   },
   {
@@ -6834,6 +6825,24 @@
     "company": "Aurora Innovation",
     "ticker": "AUR",
     "form": "4",
+    "date": "2026-05-26",
+    "description": "xslF345X06/wk-form4_1779828476.xml",
+    "accessionNumber": "0001828108-26-000062",
+    "isIPO": false
+  },
+  {
+    "company": "Aurora Innovation",
+    "ticker": "AUR",
+    "form": "8-K",
+    "date": "2026-05-26",
+    "description": "aur-20260521.htm",
+    "accessionNumber": "0001828108-26-000057",
+    "isIPO": false
+  },
+  {
+    "company": "Aurora Innovation",
+    "ticker": "AUR",
+    "form": "4",
     "date": "2026-05-22",
     "description": "xslF345X06/wk-form4_1779489026.xml",
     "accessionNumber": "0001628280-26-037879",
@@ -7098,24 +7107,6 @@
     "date": "2025-11-21",
     "description": "xslF345X05/wk-form4_1763759802.xml",
     "accessionNumber": "0001828108-25-000158",
-    "isIPO": false
-  },
-  {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
-    "form": "10-Q",
-    "date": "2025-10-28",
-    "description": "aur-20250930.htm",
-    "accessionNumber": "0001828108-25-000157",
-    "isIPO": false
-  },
-  {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
-    "form": "8-K",
-    "date": "2025-10-28",
-    "description": "aur-20251028.htm",
-    "accessionNumber": "0001828108-25-000155",
     "isIPO": false
   },
   {
@@ -8967,6 +8958,15 @@
     "company": "Satellogic",
     "ticker": "SATL",
     "form": "8-K",
+    "date": "2026-05-26",
+    "description": "ea0291524-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-060781",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
     "date": "2026-05-20",
     "description": "ea0291617-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-059604",
@@ -9195,15 +9195,6 @@
     "date": "2025-05-09",
     "description": "ea0241596-8k_zoomcar.htm",
     "accessionNumber": "0001213900-25-041562",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2025-05-08",
-    "description": "ea0241234-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-25-040800",
     "isIPO": false
   }
 ]
