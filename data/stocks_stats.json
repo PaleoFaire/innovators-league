@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.33,
+      "avg_change": -2.03,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 21.91,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 24.43,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 10.22,
+      "avg_change": 10.96,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 18.91,
+      "avg_change": 21.36,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 13.41,
+      "avg_change": 10.46,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 43.12,
+      "avg_change": 46.78,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.93,
+      "avg_change": 10.2,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 11.73,
+      "avg_change": 11.46,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 14.03,
+      "avg_change": 16.41,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "RGTI",
       "Rigetti Computing",
-      51.38
+      54.26
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      46.48
+      51.07
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      44.04
+      47.11
     ],
     [
       "ASRHF",
@@ -81,35 +81,35 @@
     [
       "IONQ",
       "IonQ",
-      31.49
+      35.01
     ]
   ],
   "topLosers": [
     [
+      "SATL",
+      "Satellogic",
+      1.14
+    ],
+    [
       "AUR",
       "Aurora Innovation",
-      -0.43
+      -1.87
     ],
     [
       "PLTR",
       "Palantir",
-      -1.33
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -3.47
+      -2.03
     ],
     [
       "NVDA",
       "NVIDIA",
-      -4.89
+      -3.63
     ],
     [
       "LNZA",
       "LanzaTech",
-      -14.41
+      -21.18
     ]
   ],
-  "lastUpdated": "2026-05-27 15:54:56"
+  "lastUpdated": "2026-05-27 20:24:09"
 }
