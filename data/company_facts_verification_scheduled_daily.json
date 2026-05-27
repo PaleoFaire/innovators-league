@@ -1,235 +1,31 @@
 {
-  "generatedAt": "2026-05-26T09:38:05+00:00",
+  "generatedAt": "2026-05-27T09:01:54+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 37,
-  "newExtractionsThisRun": 36,
+  "cohortSize": 17,
+  "newExtractionsThisRun": 16,
   "summary": {
-    "cleared": 32,
-    "changesProposed": 5,
+    "cleared": 14,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
-    "AST SpaceMobile",
-    "Altos Labs",
     "Astera Labs",
-    "Axiom Space",
-    "Blue Origin",
-    "Boston Metal",
-    "Cerebras",
-    "Collaborative Robotics",
     "Crusoe Energy",
-    "Dawn Aerospace",
     "Deterrence",
-    "Earth AI",
+    "Durin",
     "Einride",
-    "Fortastra",
     "Galvanick",
     "Hailo",
     "Hidden Level",
     "Humanoid",
-    "ICEYE",
-    "New Limit",
-    "OpenStar",
+    "ICON",
     "Rebellions",
-    "Retro Biosciences",
-    "Rivian",
-    "Rocket Lab",
     "Standard Nuclear",
-    "Synspective",
-    "Terrestrial Energy",
     "Vast",
-    "Vertical Aerospace",
-    "Waymo",
     "Xtend"
   ],
   "changesProposed": [
-    {
-      "name": "Commonwealth Fusion Systems",
-      "current": {
-        "name": "Commonwealth Fusion Systems",
-        "founder": "Bob Mumgaard",
-        "location": "Devens, MA",
-        "founded": 2018,
-        "fundingStage": "Series B",
-        "totalRaised": "$2.863B",
-        "website": "https://cfs.energy"
-      },
-      "verified": {
-        "name": "Commonwealth Fusion Systems",
-        "description": "American fusion power company that develops compact tokamak fusion reactors using high-temperature superconducting magnets. Founded as a spin-off from MIT, the company is building the SPARC tokamak demonstration reactor and plans a commercial ARC power plant.",
-        "founders": [
-          "Bob Mumgaard"
-        ],
-        "location": "Devens, Massachusetts",
-        "founded_year": 2018,
-        "current_stage": "Series B2",
-        "total_raised": "$2.863B+",
-        "valuation": null,
-        "investors": [
-          "Eni",
-          "Breakthrough Energy Ventures",
-          "Khosla Ventures",
-          "Temasek",
-          "Equinor",
-          "Devonshire Investors",
-          "Google"
-        ],
-        "website": "https://cfs.energy",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Founded as MIT spin-off. Series B raised $1.8B in November 2021; Series B2 raised additional $863M in August 2025. Wikipedia lists CEO as Bob Mumgaard but does not explicitly label him as founder/co-founder in the opening text\u2014however founding is attributed to him contextually. Total raised now exceeds $2.863B based on B2 round. Company announced plans for first grid-scale commercial plant in Virginia (400 MWe, early 2030s target). SPARC tokamak targeted for 2026 operations with net power demonstration in 2027."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Devens, MA",
-          "verified": "Devens, Massachusetts",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "fundingStage",
-          "current": "Series B",
-          "verified": "Series B2",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://cfs.energy"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems"
-        },
-        {
-          "idx": 2,
-          "src": "news (TechNode Global)",
-          "url": "https://technode.global/2026/05/25/astar-commonwealth-fusion-systems-sign-collaborative-research-agreement-to-advance-fusion-supply-chain-capabilities-in-singapore/"
-        }
-      ],
-      "notes": "Founded as MIT spin-off. Series B raised $1.8B in November 2021; Series B2 raised additional $863M in August 2025. Wikipedia lists CEO as Bob Mumgaard but does not explicitly label him as founder/co-founder in the opening text\u2014however founding is attributed to him contextually. Total raised now exceeds $2.863B based on B2 round. Company announced plans for first grid-scale commercial plant in Virginia (400 MWe, early 2030s target). SPARC tokamak targeted for 2026 operations with net power demonstration in 2027."
-    },
-    {
-      "name": "Deep Fission",
-      "current": {
-        "name": "Deep Fission",
-        "founder": "Liz Muller, Rich Muller",
-        "location": "Berkeley, CA",
-        "founded": 2023,
-        "fundingStage": "IPO",
-        "totalRaised": "$80M",
-        "website": "https://deepfission.com"
-      },
-      "verified": {
-        "name": "Deep Fission, Inc.",
-        "description": "Advanced nuclear energy company developing small modular reactors designed to operate one mile underground, leveraging pressurized water reactor, geothermal, and deep borehole drilling technologies.",
-        "founders": [
-          "Liz Muller",
-          "Rich Muller"
-        ],
-        "location": "Berkeley, CA",
-        "founded_year": 2023,
-        "current_stage": "Pre-IPO",
-        "total_raised": "$80M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://deepfission.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Current stage marked as Pre-IPO based on May 20, 2026 announcement of public offering launch and April 22, 2026 confidential draft registration statement submission. Database entry incorrectly lists stage as 'IPO' when company is in pre-IPO phase. Source [2] references potential $157M IPO but this is speculative analyst commentary, not verified company disclosure."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "IPO",
-          "verified": "Pre-IPO",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://deepfission.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://deepfission.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions/"
-        }
-      ],
-      "notes": "Current stage marked as Pre-IPO based on May 20, 2026 announcement of public offering launch and April 22, 2026 confidential draft registration statement submission. Database entry incorrectly lists stage as 'IPO' when company is in pre-IPO phase. Source [2] references potential $157M IPO but this is speculative analyst commentary, not verified company disclosure."
-    },
     {
       "name": "Fervo Energy",
       "current": {
@@ -243,7 +39,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. The company develops and operates next-generation geothermal projects including Project Red and Cape Station.",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas operations.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -266,7 +62,6 @@
             2
           ],
           "description": [
-            1,
             2
           ],
           "founders": [
@@ -292,7 +87,7 @@
             2
           ]
         },
-        "notes": "Company went public on May 17, 2026 (Nasdaq debut), raising $1.89B in IPO proceeds as stated in source 0 newsroom. Wikipedia source [2] indicates company was 'Private' at time of article but also references Series E funding of $462M in November 2025. Current stage marked as 'Public' based on May 2026 IPO announcement in source 0."
+        "notes": "Company went public on May 17, 2026, raising $1.89B in IPO according to website newsroom. Wikipedia lists company as 'Private' but this appears to be outdated given IPO announcement in May 2026 on company website."
       },
       "changes": [
         {
@@ -336,7 +131,7 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "Company went public on May 17, 2026 (Nasdaq debut), raising $1.89B in IPO proceeds as stated in source 0 newsroom. Wikipedia source [2] indicates company was 'Private' at time of article but also references Series E funding of $462M in November 2025. Current stage marked as 'Public' based on May 2026 IPO announcement in source 0."
+      "notes": "Company went public on May 17, 2026, raising $1.89B in IPO according to website newsroom. Wikipedia lists company as 'Private' but this appears to be outdated given IPO announcement in May 2026 on company website."
     },
     {
       "name": "SpaceX",
@@ -351,13 +146,13 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company founded in 2002 that develops reusable rockets, spacecraft, and satellite constellation technology. SpaceX conducts more orbital launches annually than any other launch provider and operates the Starlink satellite internet constellation.",
+        "description": "American aerospace and artificial intelligence company that develops reusable launch vehicles, Dragon capsules, and satellite constellation technology. Founded in 2002, SpaceX conducts more orbital launches annually than any other launch provider.",
         "founders": [
           "Elon Musk"
         ],
         "location": "Starbase, Texas, U.S.",
         "founded_year": 2002,
-        "current_stage": "Private",
+        "current_stage": "Pre-IPO",
         "total_raised": null,
         "valuation": "$800B",
         "investors": null,
@@ -388,13 +183,13 @@
             1
           ]
         },
-        "notes": "Source [0] is a domain sales page and not a reliable source for company information. Source [1] (Wikipedia) states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was valued at '$800 billion' in a 2025 internal share offer. Sources [2], [3], and [4] are speculative news articles about future revenue projections and do not provide verified current facts. Current database entry claims 'Series G' stage, but source [1] describes company as 'private' with no mention of venture rounds. IPO preparation noted in database entry is supported by source [1] which states IPO expected in 2026, but the $1.5T valuation in current entry is not supported by any source."
+        "notes": "Wikipedia indicates SpaceX is expected to have an IPO in 2026. Current database entry lists 'Series G' stage which cannot be verified from sources. Founded in El Segundo, California in 2002 per Wikipedia, now headquartered at Starbase, Texas. The official website is spacex.com; source [0] appears to be a domain sale page unrelated to the company."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series G",
-          "verified": "Private",
+          "verified": "Pre-IPO",
           "sources": [
             1
           ]
@@ -413,21 +208,21 @@
         },
         {
           "idx": 2,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/spacex-ai-multiple-revenue-doubling-secrets-for-10-20t-valuation-in-2028.html"
+          "src": "news (CleanTechnica)",
+          "url": "https://cleantechnica.com/2026/05/26/spacex-ipo-boon-or-boondoggle/"
         },
         {
           "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/nasa-to-add-missions-to-spacex-commercial-crew-contract/"
+          "src": "news (Breaking Defense)",
+          "url": "https://breakingdefense.com/2026/05/spacex-wins-2-29b-to-speed-space-forces-leo-communications-backbone/"
         },
         {
           "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/spacex-shocking-ai-revenue-from-elon-web-services-and-cursor-will-be-huge-for-the-spacex-ipo.html"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/26/starships-path-to-reusability-looks-murky-after-spacexs-s-1/"
         }
       ],
-      "notes": "Source [0] is a domain sales page and not a reliable source for company information. Source [1] (Wikipedia) states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was valued at '$800 billion' in a 2025 internal share offer. Sources [2], [3], and [4] are speculative news articles about future revenue projections and do not provide verified current facts. Current database entry claims 'Series G' stage, but source [1] describes company as 'private' with no mention of venture rounds. IPO preparation noted in database entry is supported by source [1] which states IPO expected in 2026, but the $1.5T valuation in current entry is not supported by any source."
+      "notes": "Wikipedia indicates SpaceX is expected to have an IPO in 2026. Current database entry lists 'Series G' stage which cannot be verified from sources. Founded in El Segundo, California in 2002 per Wikipedia, now headquartered at Starbase, Texas. The official website is spacex.com; source [0] appears to be a domain sale page unrelated to the company."
     },
     {
       "name": "X-Energy",
@@ -442,9 +237,9 @@
       },
       "verified": {
         "name": "X-energy",
-        "description": "Developer of advanced nuclear energy technology including high-temperature gas reactors and TRISO fuel for commercial-scale applications.",
+        "description": "Developer of advanced nuclear energy technology including small modular reactors (SMRs) and TRISO fuel for commercial applications.",
         "founders": null,
-        "location": null,
+        "location": "Rockville, MD",
         "founded_year": null,
         "current_stage": "Public",
         "total_raised": null,
@@ -458,11 +253,17 @@
           "description": [
             0
           ],
+          "location": [
+            0
+          ],
           "current_stage": [
+            0
+          ],
+          "website": [
             0
           ]
         },
-        "notes": "Source [0] is dated May 2026 and contains announcement of IPO pricing (Apr 23, 2026), confirming public status. Database entry claims cannot be verified: founder name (Kam Ghaffarian) not found in sources; location (Rockville, MD) not in sources; founded year (2009) not in sources; total_raised ($1.1B+) not in sources; valuation ($2B+) not in sources; specific claims about Amazon funding, Pentagon/Air Force contracts, and UK deployment not found in provided sources."
+        "notes": "Source [0] shows X-energy announced pricing of upsized initial public offering on April 23, 2026, confirming Public stage. Database entry claims 2009 founding and founder 'Kam Ghaffarian' could not be verified in provided sources. Database claims regarding $500M Amazon funding, Pentagon/Air Force contracts, 12-unit UK deployment, $1.1B+ raised, and $2B+ valuation could not be verified in provided sources."
       },
       "changes": [
         {
@@ -486,7 +287,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/x-energy-gets-federal-approval-reactors"
         }
       ],
-      "notes": "Source [0] is dated May 2026 and contains announcement of IPO pricing (Apr 23, 2026), confirming public status. Database entry claims cannot be verified: founder name (Kam Ghaffarian) not found in sources; location (Rockville, MD) not in sources; founded year (2009) not in sources; total_raised ($1.1B+) not in sources; valuation ($2B+) not in sources; specific claims about Amazon funding, Pentagon/Air Force contracts, and UK deployment not found in provided sources."
+      "notes": "Source [0] shows X-energy announced pricing of upsized initial public offering on April 23, 2026, confirming Public stage. Database entry claims 2009 founding and founder 'Kam Ghaffarian' could not be verified in provided sources. Database claims regarding $500M Amazon funding, Pentagon/Air Force contracts, 12-unit UK deployment, $1.1B+ raised, and $2B+ valuation could not be verified in provided sources."
     }
   ],
   "unverifiable": []

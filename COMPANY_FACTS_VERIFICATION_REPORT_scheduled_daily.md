@@ -1,106 +1,73 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-26T09:38:05+00:00  
+**Generated:** 2026-05-27T09:01:54+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 37 companies  
+**Cohort size:** 17 companies  
 
-**New Claude extractions this run:** 36  
+**New Claude extractions this run:** 16  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 32 | 86% |
-| 🔧 Changes proposed | 5 | 14% |
+| ✅ Cleared (data matches sources) | 14 | 82% |
+| 🔧 Changes proposed | 3 | 18% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (5 companies)
+## 🔧 Proposed Changes (3 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
-
-### Commonwealth Fusion Systems
-
-- **`location`:** `Devens, MA` → `Devens, Massachusetts`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems)
-- **`fundingStage`:** `Series B` → `Series B2`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems)
-
-  **Notes:** Founded as MIT spin-off. Series B raised $1.8B in November 2021; Series B2 raised additional $863M in August 2025. Wikipedia lists CEO as Bob Mumgaard but does not explicitly label him as founder/co-founder in the opening text—however founding is attributed to him contextually. Total raised now exceeds $2.863B based on B2 round. Company announced plans for first grid-scale commercial plant in Virginia (400 MWe, early 2030s target). SPARC tokamak targeted for 2026 operations with net power demonstration in 2027.
-
-### Deep Fission
-
-- **`fundingStage`:** `IPO` → `Pre-IPO`  
-  Sources: [company_website](https://deepfission.com)
-
-  **Notes:** Current stage marked as Pre-IPO based on May 20, 2026 announcement of public offering launch and April 22, 2026 confidential draft registration statement submission. Database entry incorrectly lists stage as 'IPO' when company is in pre-IPO phase. Source [2] references potential $157M IPO but this is speculative analyst commentary, not verified company disclosure.
 
 ### Fervo Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** Company went public on May 17, 2026 (Nasdaq debut), raising $1.89B in IPO proceeds as stated in source 0 newsroom. Wikipedia source [2] indicates company was 'Private' at time of article but also references Series E funding of $462M in November 2025. Current stage marked as 'Public' based on May 2026 IPO announcement in source 0.
+  **Notes:** Company went public on May 17, 2026, raising $1.89B in IPO according to website newsroom. Wikipedia lists company as 'Private' but this appears to be outdated given IPO announcement in May 2026 on company website.
 
 ### SpaceX
 
-- **`fundingStage`:** `Series G` → `Private`  
+- **`fundingStage`:** `Series G` → `Pre-IPO`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Source [0] is a domain sales page and not a reliable source for company information. Source [1] (Wikipedia) states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was valued at '$800 billion' in a 2025 internal share offer. Sources [2], [3], and [4] are speculative news articles about future revenue projections and do not provide verified current facts. Current database entry claims 'Series G' stage, but source [1] describes company as 'private' with no mention of venture rounds. IPO preparation noted in database entry is supported by source [1] which states IPO expected in 2026, but the $1.5T valuation in current entry is not supported by any source.
+  **Notes:** Wikipedia indicates SpaceX is expected to have an IPO in 2026. Current database entry lists 'Series G' stage which cannot be verified from sources. Founded in El Segundo, California in 2002 per Wikipedia, now headquartered at Starbase, Texas. The official website is spacex.com; source [0] appears to be a domain sale page unrelated to the company.
 
 ### X-Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [company_website](https://x-energy.com)
 
-  **Notes:** Source [0] is dated May 2026 and contains announcement of IPO pricing (Apr 23, 2026), confirming public status. Database entry claims cannot be verified: founder name (Kam Ghaffarian) not found in sources; location (Rockville, MD) not in sources; founded year (2009) not in sources; total_raised ($1.1B+) not in sources; valuation ($2B+) not in sources; specific claims about Amazon funding, Pentagon/Air Force contracts, and UK deployment not found in provided sources.
+  **Notes:** Source [0] shows X-energy announced pricing of upsized initial public offering on April 23, 2026, confirming Public stage. Database entry claims 2009 founding and founder 'Kam Ghaffarian' could not be verified in provided sources. Database claims regarding $500M Amazon funding, Pentagon/Air Force contracts, 12-unit UK deployment, $1.1B+ raised, and $2B+ valuation could not be verified in provided sources.
 
 ---
 
-## ✅ Cleared (32 companies)
+## ✅ Cleared (14 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
-- AST SpaceMobile
-- Altos Labs
 - Astera Labs
-- Axiom Space
-- Blue Origin
-- Boston Metal
-- Cerebras
-- Collaborative Robotics
 - Crusoe Energy
-- Dawn Aerospace
 - Deterrence
-- Earth AI
+- Durin
 - Einride
-- Fortastra
 - Galvanick
 - Hailo
 - Hidden Level
 - Humanoid
-- ICEYE
-- New Limit
-- OpenStar
+- ICON
 - Rebellions
-- Retro Biosciences
-- Rivian
-- Rocket Lab
 - Standard Nuclear
-- Synspective
-- Terrestrial Energy
 - Vast
-- Vertical Aerospace
-- *...and 2 more*
+- Xtend
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-26T09:38:05+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-27T09:01:54+00:00*
