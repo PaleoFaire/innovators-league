@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-05-27 10:44:12 UTC
+// Last updated: 2026-05-28 10:42:48 UTC
 // Total grants: 635 | Known companies: 14 | SBIR: 17
-// Total funding tracked: $410,260,548
+// Total funding tracked: $410,773,178
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -1093,6 +1093,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY The overarching goal of this research is to elucidate the genetic underpinnings of B cell activation dysregulation in lupus, a leading cause of morbidity among youth in the United Stat",
     terms: ["Affect", "Autoimmune Diseases", "Autoimmunity", "Automobile Driving", "B Cell Proliferation", "B cell differentiation", "B-Cell Activation", "B-Cell Antigen Receptor"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Uncovering the role for MSI2 network in hematopoietic stem cells",
+    organization: "SLOAN-KETTERING INST CAN RESEARCH",
+    orgState: "NY",
+    piName: "Michael  Kharas",
+    fiscalYear: 2026,
+    awardAmount: 902627,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "PROJECT SUMMARY/ABSTRACT Hematopoiesis is a tightly regulated process where hematopoietic stem cells (HSCs) generate diverse blood and immune cell lineages through symmetric and asymmetric cell divisi",
+    terms: ["Acute Myelocytic Leukemia", "Address", "Age", "Aging", "Bar Codes", "Binding Proteins", "Biological Assay", "Biology"],
     isKnownCompany: false,
   },
   {
@@ -3888,19 +3901,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY (See instructions):  Cognitive flexibility, the ability to mentally switch between different thoughts and action plans, is critical for  survival in a rapidly changing environment. Imp",
     terms: ["22q11", "Animal Behavior", "Animals", "Attention", "Behavior", "Behavioral", "Biological", "Characteristics"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Chromatin Architecture Regulatory Mechanisms in Pathogenesis of B-Cell Lymphomas",
-    organization: "NEW YORK UNIVERSITY SCHOOL OF MEDICINE",
-    orgState: "NY",
-    piName: "Effie  Apostolou",
-    fiscalYear: 2026,
-    awardAmount: 502717,
-    activityCode: "P01",
-    isSbir: false,
-    abstract: "PROJECT 2: PROJECT SUMMARY  Cell fate transitions and cancer phenotypes depend upon the establishment of specific transcriptional programs.  The dynamic folding of chromatin acts as a key regulatory l",
-    terms: ["3-Dimensional", "Architecture", "Automobile Driving", "B-Cell Lymphomas", "B-Lymphocytes", "Biochemical", "Biological", "Biology"],
     isKnownCompany: false,
   },
 ];

@@ -1,6 +1,15 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-05-27 10:45:13 UTC
+// Last updated: 2026-05-28 10:44:17 UTC
 const NASA_PROJECTS = [
+  { id: 157886, title: "Water Processor Assembly Upgrades", status: "Active", center: "Johnson Space Center", techArea: "Other Human Health, Life Support, and Habitation Systems", lastUpdated: "05/27/26" },
+  { id: 157884, title: "Additively Manufactured Condensing Heat Exchanger", status: "Active", center: "Johnson Space Center", techArea: "Other Human Health, Life Support, and Habitation Systems", lastUpdated: "05/27/26" },
+  { id: 157866, title: "Earth Independent Operations Vehicle Systems", status: "Active", center: "Marshall Space Flight Center", techArea: "Flight Computing and Avionics", lastUpdated: "05/27/26" },
+  { id: 157867, title: "Earth Independent Operations Mission Management Activity", status: "Active", center: "Marshall Space Flight Center", techArea: "Entry, Descent, and Landing", lastUpdated: "05/27/26" },
+  { id: 157868, title: "Earth Independent Operations Data Integration", status: "Active", center: "Ames Research Center", techArea: "Other Software, Modeling, Simulation, and Information Processing", lastUpdated: "05/27/26" },
+  { id: 157864, title: "Earth Independent Operations Anomaly Response", status: "Active", center: "Ames Research Center", techArea: "Autonomous Systems", lastUpdated: "05/27/26" },
+  { id: 184400, title: "High Performance Atomic Clock", status: "Active", center: "Jet Propulsion Laboratory", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "05/27/26" },
+  { id: 184866, title: "Surface Power Exchange Vehicle Interface", status: "Active", center: "Johnson Space Center", techArea: "Aerospace Power and Energy Storage", lastUpdated: "05/27/26" },
+  { id: 184865, title: "Advanced Energy Management System", status: "Active", center: "Glenn Research Center", techArea: "Aerospace Power and Energy Storage", lastUpdated: "05/27/26" },
   { id: 96991, title: "IntraVenous Fluid GENeration for Exploration Missions Mini", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/21/26" },
   { id: 184934, title: "Spatial Disorientation Trainer", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/21/26" },
   { id: 147009, title: "Friction Stir Adjoined Blank-Forming On Revolutionary Machinery", status: "Completed", center: "Langley Research Center", techArea: "Manufacturing Processes", lastUpdated: "05/21/26" },
@@ -22,13 +31,4 @@ const NASA_PROJECTS = [
   { id: 184662, title: "Lateral Stabilization Methods", status: "Completed", center: "Langley Research Center", techArea: "Reliability and Sustainment", lastUpdated: "05/20/26" },
   { id: 184660, title: "VSAT Government Reference Design", status: "Completed", center: "Langley Research Center", techArea: "Distribution and Transmission", lastUpdated: "05/20/26" },
   { id: 184655, title: "SOFC Test Capability for Mars Applications", status: "Active", center: "Glenn Research Center", techArea: "Solids", lastUpdated: "05/20/26" },
-  { id: 184653, title: "JSC Environmental Testing of a Mars Primary SOFC Power System Technology", status: "Active", center: "Johnson Space Center", techArea: "Other Ground, Testing, and Surface Systems", lastUpdated: "05/20/26" },
-  { id: 184650, title: "Sensors and Instrumentation for Prognostics of Solar Arrays", status: "Active", center: "Glenn Research Center", techArea: "Photovoltaic Electrical Power", lastUpdated: "05/20/26" },
-  { id: 184649, title: "Space Recycling and Manufacturing", status: "Completed", center: "Marshall Space Flight Center", techArea: "Materials", lastUpdated: "05/20/26" },
-  { id: 184648, title: "Automated Additive Manufacturing Inspection, Detection, and Repair for Space Str", status: "Active", center: "Langley Research Center", techArea: "Manufacturing Processes", lastUpdated: "05/20/26" },
-  { id: 184647, title: "Surface Power Model", status: "Active", center: "Glenn Research Center", techArea: "Management and Control", lastUpdated: "05/20/26" },
-  { id: 184645, title: "Solid Power with Extreme Environment  Adaptability and Resilience in Space", status: "Completed", center: "Glenn Research Center", techArea: "Electrochemical Storage: Batteries", lastUpdated: "05/20/26" },
-  { id: 184643, title: "STRATFI-Inversion", status: "Active", center: "Ames Research Center", techArea: "Aerodynamic Decelerators", lastUpdated: "05/20/26" },
-  { id: 158550, title: "Venus InStrumentation for Thermophysics and Aerosciences", status: "Active", center: "Ames Research Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "05/20/26" },
-  { id: 184641, title: "Integration of Dust Resisting Secondary Emission Engineered Passive Thermal Cont", status: "Completed", center: "Goddard Space Flight Center", techArea: "Coatings", lastUpdated: "05/20/26" },
 ];

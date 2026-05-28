@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-05-26",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
-    "payload": "Starlink Group 17-37",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/75a35be5-b3bd-4591-b978-9a876da9fa96/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-05-26",
-    "vehicle": "Long March 7A | TJSW-24",
-    "payload": "TJSW-24",
-    "pad": "201, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/6d2beb1a-6869-4505-9fc1-a4aa224178e2/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-05-29",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-53",
     "payload": "Starlink Group 10-53",
@@ -63,15 +45,6 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-06-02",
-    "vehicle": "New Glenn | Amazon Leo (LN-01)",
-    "payload": "Amazon Leo (LN-01)",
-    "pad": "Launch Complex 36A, Cape Canaveral SFS, FL, USA",
-    "provider": "Blue Origin",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ca3d56b7-2175-48e4-9a6a-2ecc9996d96b/?format=json",
-    "trackedCompany": "Blue Origin"
-  },
-  {
     "date": "2026-06-03",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-43",
     "payload": "Starlink Group 10-43",
@@ -90,6 +63,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-06-04",
+    "vehicle": "New Glenn | Amazon Leo (LN-01)",
+    "payload": "Amazon Leo (LN-01)",
+    "pad": "Launch Complex 36A, Cape Canaveral SFS, FL, USA",
+    "provider": "Blue Origin",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ca3d56b7-2175-48e4-9a6a-2ecc9996d96b/?format=json",
+    "trackedCompany": "Blue Origin"
+  },
+  {
     "date": "2026-06-05",
     "vehicle": "Long March 8 | Unknown Payload",
     "payload": "Unknown Payload",
@@ -97,6 +79,15 @@
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/3dd21d77-a37d-419c-86fb-8591fe256583/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-06-08",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-35",
+    "payload": "Starlink Group 10-35",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/114577dc-7617-461c-aaeb-9bd0f64b5a4b/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-06-10",
@@ -447,6 +438,15 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
+    "payload": "O3b mPower 11-13",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]
