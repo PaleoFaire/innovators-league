@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 24.43,
+      "avg_change": 25.0,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 10.96,
+      "avg_change": 9.28,
       "count": 7
     },
     "nuclear": {
@@ -76,7 +76,7 @@
     [
       "ASRHF",
       "Astroscale",
-      40.79
+      39.83
     ],
     [
       "IONQ",
@@ -111,5 +111,5 @@
       -21.18
     ]
   ],
-  "lastUpdated": "2026-05-27 20:24:09"
+  "lastUpdated": "2026-05-28 03:57:53"
 }
