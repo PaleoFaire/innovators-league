@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -2.03,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 2.2,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 24.97,
+      "avg_change": 23.25,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 9.64,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 13.27,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 21.36,
+      "avg_change": 16.98,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 10.46,
+      "avg_change": 8.25,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 46.78,
+      "avg_change": 49.65,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.54,
+      "avg_change": 12.59,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 11.46,
+      "avg_change": 7.96,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 16.41,
+      "avg_change": 10.62,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "RGTI",
       "Rigetti Computing",
-      54.26
+      58.98
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      51.07
+      55.0
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      47.11
+      39.91
     ],
     [
       "ASRHF",
@@ -81,35 +81,35 @@
     [
       "IONQ",
       "IonQ",
-      35.01
+      34.97
     ]
   ],
   "topLosers": [
     [
       "SATL",
       "Satellogic",
-      1.14
-    ],
-    [
-      "AUR",
-      "Aurora Innovation",
-      -1.87
+      2.78
     ],
     [
       "PLTR",
       "Palantir",
-      -2.03
+      2.2
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      1.19
     ],
     [
       "NVDA",
       "NVIDIA",
-      -3.63
+      -4.95
     ],
     [
       "LNZA",
       "LanzaTech",
-      -21.18
+      -15.71
     ]
   ],
-  "lastUpdated": "2026-05-28 10:10:06"
+  "lastUpdated": "2026-05-28 16:07:47"
 }
