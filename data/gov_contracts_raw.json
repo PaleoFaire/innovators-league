@@ -829,18 +829,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "H9240224F0064",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 1992855.58,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2024-09-20",
-    "endDate": "2025-09-19",
-    "description": "TACTICAL CUXS BODY WORN SOLUTION"
-  },
-  {
-    "company": "Anduril",
     "awardId": "H9240225FE004",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1963617.81,
@@ -1198,6 +1186,18 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240225FE010",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 256022.78,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-06-24",
+    "endDate": "2026-05-22",
+    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Anduril Industries",
@@ -2029,18 +2029,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "H9240224F0064",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 1992855.58,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2024-09-20",
-    "endDate": "2025-09-19",
-    "description": "TACTICAL CUXS BODY WORN SOLUTION"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "H9240225FE004",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1963617.81,
@@ -2398,6 +2386,18 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
+  },
+  {
+    "company": "Anduril Industries",
+    "awardId": "H9240225FE010",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 256022.78,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-06-24",
+    "endDate": "2026-05-22",
+    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Shield AI",
@@ -3152,7 +3152,7 @@
     "subAgency": "Offices, Boards and Divisions",
     "awardType": null,
     "startDate": "2025-09-30",
-    "endDate": "2026-05-26",
+    "endDate": "2026-06-08",
     "description": "CASE360 SOLUTIONS"
   },
   {
@@ -4328,7 +4328,7 @@
     "subAgency": "Offices, Boards and Divisions",
     "awardType": null,
     "startDate": "2025-09-30",
-    "endDate": "2026-05-26",
+    "endDate": "2026-06-08",
     "description": "CASE360 SOLUTIONS"
   },
   {
@@ -6577,6 +6577,18 @@
   },
   {
     "company": "Castelion",
+    "awardId": "N6833526F1022",
+    "recipientName": "CASTELION CORPORATION",
+    "amount": 49998005.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2026-02-25",
+    "endDate": "2027-11-26",
+    "description": "PER SOW, G/R LIST, AND TECHNICAL PROPOSAL"
+  },
+  {
+    "company": "Castelion",
     "awardId": "FA238523CB007",
     "recipientName": "CASTELION CORPORATION",
     "amount": 16972881.0,
@@ -7102,6 +7114,18 @@
     "startDate": "2025-06-18",
     "endDate": "2026-03-30",
     "description": "BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIODE (LED) (BRIC-LED)"
+  },
+  {
+    "company": "Sierra Space",
+    "awardId": "80JSC026FA103",
+    "recipientName": "SIERRA SPACE CORP",
+    "amount": 42948.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2026-05-26",
+    "endDate": "2028-02-28",
+    "description": "IMPLEMENTS A SOLUTION FROM THE INITIAL TROUBLESHOOTING OF THE BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIODE (LED) (BRIC-LED) CANISTER LIDS."
   },
   {
     "company": "Sierra Space",
@@ -7846,6 +7870,18 @@
     "startDate": "2025-09-03",
     "endDate": "2027-02-25",
     "description": "8511614652!LIGHT EMITTING DIOD"
+  },
+  {
+    "company": "Scale AI",
+    "awardId": "FA875126C0001",
+    "recipientName": "SCALE AI, INC.",
+    "amount": 5064551.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-02-27",
+    "endDate": "2027-05-26",
+    "description": "AGENTIC ARTIFICIAL INTELLIGENCE FOR THE E-4C/SURVIVABLE AIRBORNE OPERATIONS CENTER (SAOC) PROGRAM"
   },
   {
     "company": "Scale AI",

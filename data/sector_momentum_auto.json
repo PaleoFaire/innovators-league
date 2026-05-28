@@ -1,110 +1,92 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 67,
+    "momentum": 71,
     "trend": "accelerating",
     "catalysts": [
-      "Tesla (TSLA) and SpaceX merger would be Musk&#8217;s 4th bil",
-      "SpaceX IPO \u2014 Boon Or Boondoggle?",
-      "SpaceX wins $2.29B to speed Space Force&#8217;s LEO communic"
+      "Elon and SpaceX Have Made AI Training 10 Times Faster",
+      "Rivian will deliver the first R2 SUVs on June 9",
+      "Rivian R2 officially launches June 9 &#8211; order invites,"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 80,
+      "news": 95,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 59,
+    "momentum": 60,
     "trend": "steady",
     "catalysts": [
+      "With a new $100M raise, Princeton&#8217;s Thea Energy is now",
       "X-energy gets federal environmental approval for Texas nucle",
-      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at",
-      "Anthropic&#8217;s Nuclear Bomb"
+      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at"
     ],
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-27"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 54,
-    "trend": "steady",
-    "catalysts": [
-      "SpaceX Starship Flight 12 Good Launch and Simulated Landings",
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
-      "Fervo Energy unveils new power plant details in IPO filing"
-    ],
-    "fundingQ": "$1.3B",
-    "components": {
-      "funding": 84,
       "news": 20,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "AI & Software",
-    "momentum": 52,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
-      "Why the Vatican Invited Anthropic to the Pope\u2019s AI Encyclica",
-      "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valu",
-      "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor"
+      "Elon and SpaceX Have Made AI Training 10 Times Faster",
+      "AI coding startup Cognition raises $1B at $25B pre-money val",
+      "Why the Vatican Invited Anthropic to the Pope\u2019s AI Encyclica"
     ],
-    "fundingQ": "$2218.7B",
+    "fundingQ": "$2219.7B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
-    "sector": "Defense & Security",
-    "momentum": 50,
+    "sector": "Climate & Energy",
+    "momentum": 53,
     "trend": "steady",
     "catalysts": [
-      "Pentagon spars with SpaceX over Starlink price hike during I",
-      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge"
     ],
-    "fundingQ": "$32.5B",
+    "fundingQ": "$1.3B",
     "components": {
-      "funding": 100,
-      "news": 10,
+      "funding": 84,
+      "news": 15,
       "hiring": 0,
-      "market": 61
+      "market": 100
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 49,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
       "The future of physical AI isn&#8217;t humanoid; it&#8217;s t",
-      "Humanoid partners with Bosch, Schaeffler to scale robot prod",
       "Einride L4 autonomous electric semi truck gets real \u2013\u00a0in Ohi"
     ],
     "fundingQ": "$8.9B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Drones & Autonomous",
@@ -120,7 +102,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -136,7 +118,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Ocean & Maritime",
@@ -152,7 +134,59 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 44,
+    "trend": "steady",
+    "catalysts": [
+      "Pentagon spars with SpaceX over Starlink price hike during I",
+      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
+    ],
+    "fundingQ": "$32.5B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 30
+    },
+    "lastUpdated": "2026-05-28"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 25,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian will deliver the first R2 SUVs on June 9",
+      "Rivian R2 officially launches June 9 &#8211; order invites,"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-28"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "Elon and SpaceX Have Made AI Training 10 Times Faster",
+      "Why the Vatican Invited Anthropic to the Pope\u2019s AI Encyclica",
+      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Biotech & Health",
@@ -166,42 +200,9 @@
       "funding": 9,
       "news": 5,
       "hiring": 0,
-      "market": 99
-    },
-    "lastUpdated": "2026-05-27"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Why the Vatican Invited Anthropic to the Pope\u2019s AI Encyclica",
-      "SpaceX S-1 reveals Tesla&#8217;s Terafab deal is far from do"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-27"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Quantum Computing",
@@ -217,25 +218,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 18,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
       "Tesla (TSLA) and SpaceX merger would be Musk&#8217;s 4th bil",
       "SpaceX IPO \u2014 Boon Or Boondoggle?",
-      "Starship&#8217;s path to reusability looks murky after Space"
+      "The future of physical AI isn&#8217;t humanoid; it&#8217;s t"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -253,7 +254,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   },
   {
     "sector": "Housing & Construction",
@@ -271,6 +272,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-05-28"
   }
 ]

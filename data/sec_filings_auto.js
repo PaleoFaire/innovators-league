@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-27 10:01:32 UTC
+// Last updated: 2026-05-28 10:11:09 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "4", date: "2026-05-27", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Upstart Holdings", form: "4", date: "2026-05-27", description: "xslF345X06/wk-form4_1779914237.xml", isIPO: false, ticker: "UPST" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-05-27", description: "xslF345X06/wk-form4_1779917474.xml", isIPO: false, ticker: "QBTS" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-05-27", description: "xslF345X06/wk-form4_1779912912.xml", isIPO: false, ticker: "RXRX" },
   { company: "AST SpaceMobile", form: "4", date: "2026-05-26", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Rigetti Computing", form: "4", date: "2026-05-26", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
   { company: "Rigetti Computing", form: "4", date: "2026-05-26", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "D-Wave Quantum", form: "4", date: "2026-05-21", description: "xslF345X06/wk-form4_1779398118.xml", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-05-21", description: "qbts-20260521.htm", isIPO: false, ticker: "QBTS" },
   { company: "Rocket Lab", form: "8-K", date: "2026-05-20", description: "rklb-20260520.htm", isIPO: false, ticker: "RKLB" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-05-20", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-05-20", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Satellogic", form: "8-K", date: "2026-05-20", description: "ea0291617-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Palantir Technologies", form: "4", date: "2026-05-19", description: "xslF345X06/wk-form4_1779235635.xml", isIPO: false, ticker: "PLTR" },
 ];
