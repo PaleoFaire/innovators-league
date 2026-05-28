@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-05-27T09:01:54+00:00",
+  "generatedAt": "2026-05-28T09:45:55+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 17,
-  "newExtractionsThisRun": 16,
+  "cohortSize": 21,
+  "newExtractionsThisRun": 20,
   "summary": {
-    "cleared": 14,
-    "changesProposed": 3,
+    "cleared": 15,
+    "changesProposed": 6,
     "unverifiable": 0
   },
   "cleared": [
     "Astera Labs",
+    "Cognition",
     "Crusoe Energy",
     "Deterrence",
     "Durin",
@@ -21,8 +22,8 @@
     "Humanoid",
     "ICON",
     "Rebellions",
+    "Rivian",
     "Standard Nuclear",
-    "Vast",
     "Xtend"
   ],
   "changesProposed": [
@@ -39,7 +40,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas operations.",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas technology. The company develops and operates next-generation geothermal projects including Project Red and Cape Station.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -59,9 +60,12 @@
         "sources_per_field": {
           "name": [
             0,
+            1,
             2
           ],
           "description": [
+            0,
+            1,
             2
           ],
           "founders": [
@@ -84,10 +88,11 @@
           ],
           "website": [
             0,
+            1,
             2
           ]
         },
-        "notes": "Company went public on May 17, 2026, raising $1.89B in IPO according to website newsroom. Wikipedia lists company as 'Private' but this appears to be outdated given IPO announcement in May 2026 on company website."
+        "notes": "Company went public on May 17, 2026 (Nasdaq debut). Wikipedia article notes it was marked 'Private' but this conflicts with source [0] which contains multiple May 17, 2026 newsroom entries stating 'Fervo Energy raises $1.89B in IPO' and 'Geothermal-Champion Fervo Energy's Shares Soar in Trading Debut'. Current stage classified as 'Public' based on IPO announcement. Source [2] indicates Series E funding of $462M in November 2025 prior to IPO."
       },
       "changes": [
         {
@@ -131,7 +136,88 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
         }
       ],
-      "notes": "Company went public on May 17, 2026, raising $1.89B in IPO according to website newsroom. Wikipedia lists company as 'Private' but this appears to be outdated given IPO announcement in May 2026 on company website."
+      "notes": "Company went public on May 17, 2026 (Nasdaq debut). Wikipedia article notes it was marked 'Private' but this conflicts with source [0] which contains multiple May 17, 2026 newsroom entries stating 'Fervo Energy raises $1.89B in IPO' and 'Geothermal-Champion Fervo Energy's Shares Soar in Trading Debut'. Current stage classified as 'Public' based on IPO announcement. Source [2] indicates Series E funding of $462M in November 2025 prior to IPO."
+    },
+    {
+      "name": "PLD Space",
+      "current": {
+        "name": "PLD Space",
+        "founder": "Ra\u00fal Torres, Ra\u00fal Verd\u00fa, Jos\u00e9 Enrique Mart\u00ednez",
+        "location": "Elche, Spain",
+        "founded": 2011,
+        "fundingStage": "SPAC",
+        "totalRaised": "\u20ac350M+",
+        "website": "https://pldspace.com"
+      },
+      "verified": {
+        "name": "PLD Space",
+        "description": "Spanish launch services provider developing the Miura family of partially-reusable launch vehicles for suborbital and orbital missions. Successfully launched Miura 1 suborbital rocket on 7 October 2023.",
+        "founders": [
+          "Ra\u00fal Torres",
+          "Ra\u00fal Verd\u00fa",
+          "Jos\u00e9 Enrique Mart\u00ednez"
+        ],
+        "location": "Elche, Spain",
+        "founded_year": 2011,
+        "current_stage": null,
+        "total_raised": "\u20ac120M",
+        "valuation": null,
+        "investors": [
+          "GMV",
+          "Arcano partners"
+        ],
+        "website": "https://pldspace.com/en/",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia states total funding of \u20ac120M as of 1 June 2024. Database entry references \u20ac180M Series C (March 2026) and \u20ac30M EIB venture debt (April 2026), which are not verifiable in provided sources and appear to be future projections. Current stage listed as 'SPAC' in database but not confirmed in sources."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "\u20ac350M+",
+          "verified": "\u20ac120M",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PLD_Space"
+        },
+        {
+          "idx": 1,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/european-space-industry-watching-spacex-ipo-plans/"
+        }
+      ],
+      "notes": "Wikipedia states total funding of \u20ac120M as of 1 June 2024. Database entry references \u20ac180M Series C (March 2026) and \u20ac30M EIB venture debt (April 2026), which are not verifiable in provided sources and appear to be future projections. Current stage listed as 'SPAC' in database but not confirmed in sources."
     },
     {
       "name": "SpaceX",
@@ -146,13 +232,13 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and artificial intelligence company that develops reusable launch vehicles, Dragon capsules, and satellite constellation technology. Founded in 2002, SpaceX conducts more orbital launches annually than any other launch provider.",
+        "description": "American aerospace and artificial intelligence company founded in 2002 that develops rocket launch vehicles, spacecraft, and satellite constellation technology. SpaceX conducts more orbital launches annually than any other launch provider as of 2026.",
         "founders": [
           "Elon Musk"
         ],
         "location": "Starbase, Texas, U.S.",
         "founded_year": 2002,
-        "current_stage": "Pre-IPO",
+        "current_stage": "Private",
         "total_raised": null,
         "valuation": "$800B",
         "investors": null,
@@ -183,13 +269,13 @@
             1
           ]
         },
-        "notes": "Wikipedia indicates SpaceX is expected to have an IPO in 2026. Current database entry lists 'Series G' stage which cannot be verified from sources. Founded in El Segundo, California in 2002 per Wikipedia, now headquartered at Starbase, Texas. The official website is spacex.com; source [0] appears to be a domain sale page unrelated to the company."
+        "notes": "Source [1] states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes a 2025 share offer valuation of $800 billion. Company is currently private, not Series G as in database entry. Sources [0] appears to be a domain-for-sale page and is not a reliable source for company information. Sources [2] and [3] are news articles without sufficient detail for verification of specific company metrics."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series G",
-          "verified": "Pre-IPO",
+          "verified": "Private",
           "sources": [
             1
           ]
@@ -208,21 +294,238 @@
         },
         {
           "idx": 2,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/05/26/spacex-ipo-boon-or-boondoggle/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/elon-and-spacex-have-made-ai-training-10-times-faster.html"
         },
         {
           "idx": 3,
-          "src": "news (Breaking Defense)",
-          "url": "https://breakingdefense.com/2026/05/spacex-wins-2-29b-to-speed-space-forces-leo-communications-backbone/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/05/critical-insights-days-before-the-spacex-ipo.html"
         },
         {
           "idx": 4,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/05/26/starships-path-to-reusability-looks-murky-after-spacexs-s-1/"
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network/"
         }
       ],
-      "notes": "Wikipedia indicates SpaceX is expected to have an IPO in 2026. Current database entry lists 'Series G' stage which cannot be verified from sources. Founded in El Segundo, California in 2002 per Wikipedia, now headquartered at Starbase, Texas. The official website is spacex.com; source [0] appears to be a domain sale page unrelated to the company."
+      "notes": "Source [1] states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes a 2025 share offer valuation of $800 billion. Company is currently private, not Series G as in database entry. Sources [0] appears to be a domain-for-sale page and is not a reliable source for company information. Sources [2] and [3] are news articles without sufficient detail for verification of specific company metrics."
+    },
+    {
+      "name": "Starcloud",
+      "current": {
+        "name": "Starcloud",
+        "founder": "Philip Johnston, Ezra Feilden, Adi Oltean",
+        "location": "Redmond, Washington, USA",
+        "founded": 2024,
+        "fundingStage": "SPAC",
+        "totalRaised": "$170M",
+        "website": "https://www.starcloud.com"
+      },
+      "verified": {
+        "name": "Starcloud",
+        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched Starcloud-1 in November 2025 equipped with an NVIDIA H100 GPU.",
+        "founders": [
+          "Philip Johnston",
+          "Ezra Feilden",
+          "Adi Oltean"
+        ],
+        "location": "Redmond, Washington, USA",
+        "founded_year": 2024,
+        "current_stage": "Series A",
+        "total_raised": "$170M",
+        "valuation": "$1.1B",
+        "investors": [
+          "Benchmark",
+          "EQT Ventures",
+          "Sequoia",
+          "A16z",
+          "In-Q-Tel",
+          "NFX",
+          "Plug and Play"
+        ],
+        "website": "https://www.starcloud.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "description": [
+            2,
+            3
+          ],
+          "founders": [
+            0,
+            1,
+            2
+          ],
+          "location": [
+            0,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            2
+          ]
+        },
+        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Became fastest unicorn in Y Combinator history at 17 months after completing the program (March 2026). Series A led by Benchmark and EQT Ventures announced March 30, 2026."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "SPAC",
+          "verified": "Series A",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.starcloud.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.starcloud.com/about-us"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Starcloud"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/starclouds-path-to-88000-computing-satellites/"
+        },
+        {
+          "idx": 4,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/starcloud-orders-starlink-lasers-for-orbital-data-center-network/"
+        }
+      ],
+      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Became fastest unicorn in Y Combinator history at 17 months after completing the program (March 2026). Series A led by Benchmark and EQT Ventures announced March 30, 2026."
+    },
+    {
+      "name": "Thea Energy",
+      "current": {
+        "name": "Thea Energy",
+        "founder": "Brian Berzin",
+        "location": "Kearny, NJ",
+        "founded": 2022,
+        "fundingStage": "Series A",
+        "totalRaised": "$20M",
+        "website": "https://thea.energy"
+      },
+      "verified": {
+        "name": "Thea Energy",
+        "description": "American fusion power company developing stellarator technology using planar electromagnetic coils for magnetic confinement fusion. The company is building Eos, a neutron source demonstrator, as an intermediate step toward commercial fusion power plants.",
+        "founders": [
+          "Brian Berzin"
+        ],
+        "location": "Kearny, New Jersey, United States",
+        "founded_year": 2022,
+        "current_stage": "Series A",
+        "total_raised": "$20M",
+        "valuation": null,
+        "investors": [
+          "Prelude Ventures",
+          "11.2 Capital",
+          "Anglo American",
+          "Hitachi Ventures",
+          "Lowercarbon Capital",
+          "Mercator Partners",
+          "Orion Industrial Ventures",
+          "Starlight Ventures"
+        ],
+        "website": "https://thea.energy",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Company was formerly known as Princeton Stellarators, Inc. (PSI). Technology licensed from Princeton Plasma Physics Laboratory (PPPL). Series A round announced September 2024. Source [3] (TechCrunch article dated 2026-05-27) mentions $100M raise but is dated in the future relative to verification cutoff and conflicts with Wikipedia source [2] reporting $20M Series A in September 2024; therefore excluded from verified fields."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Kearny, NJ",
+          "verified": "Kearny, New Jersey, United States",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://thea.energy"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://thea.energy/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thea_Energy"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/05/27/with-a-new-100m-raise-princetons-thea-energy-is-now-a-top-funded-fusion-startup/"
+        }
+      ],
+      "notes": "Company was formerly known as Princeton Stellarators, Inc. (PSI). Technology licensed from Princeton Plasma Physics Laboratory (PPPL). Series A round announced September 2024. Source [3] (TechCrunch article dated 2026-05-27) mentions $100M raise but is dated in the future relative to verification cutoff and conflicts with Wikipedia source [2] reporting $20M Series A in September 2024; therefore excluded from verified fields."
     },
     {
       "name": "X-Energy",
@@ -236,8 +539,8 @@
         "website": "https://x-energy.com"
       },
       "verified": {
-        "name": "X-energy",
-        "description": "Developer of advanced nuclear energy technology including small modular reactors (SMRs) and TRISO fuel for commercial applications.",
+        "name": "X-Energy",
+        "description": "Developer of advanced nuclear energy technology including high-temperature gas reactors and TRISO fuel for commercial-scale applications.",
         "founders": null,
         "location": "Rockville, MD",
         "founded_year": null,
@@ -253,9 +556,7 @@
           "description": [
             0
           ],
-          "location": [
-            0
-          ],
+          "location": [],
           "current_stage": [
             0
           ],
@@ -263,7 +564,7 @@
             0
           ]
         },
-        "notes": "Source [0] shows X-energy announced pricing of upsized initial public offering on April 23, 2026, confirming Public stage. Database entry claims 2009 founding and founder 'Kam Ghaffarian' could not be verified in provided sources. Database claims regarding $500M Amazon funding, Pentagon/Air Force contracts, 12-unit UK deployment, $1.1B+ raised, and $2B+ valuation could not be verified in provided sources."
+        "notes": "Source [0] confirms IPO pricing announcement dated April 23, 2026. Database entry claims founder 'Kam Ghaffarian' but no founder names are explicitly stated in provided sources. Database claims Amazon $500M funding, Pentagon/Air Force contracts, and UK deployment plans are not verifiable from provided sources. Total raised and valuation figures from database entry cannot be verified from sources provided."
       },
       "changes": [
         {
@@ -287,7 +588,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/x-energy-gets-federal-approval-reactors"
         }
       ],
-      "notes": "Source [0] shows X-energy announced pricing of upsized initial public offering on April 23, 2026, confirming Public stage. Database entry claims 2009 founding and founder 'Kam Ghaffarian' could not be verified in provided sources. Database claims regarding $500M Amazon funding, Pentagon/Air Force contracts, 12-unit UK deployment, $1.1B+ raised, and $2B+ valuation could not be verified in provided sources."
+      "notes": "Source [0] confirms IPO pricing announcement dated April 23, 2026. Database entry claims founder 'Kam Ghaffarian' but no founder names are explicitly stated in provided sources. Database claims Amazon $500M funding, Pentagon/Air Force contracts, and UK deployment plans are not verifiable from provided sources. Total raised and valuation figures from database entry cannot be verified from sources provided."
     }
   ],
   "unverifiable": []
