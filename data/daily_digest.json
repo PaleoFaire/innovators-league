@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T19:40:20.364278+00:00",
+  "generatedAt": "2026-05-28T22:02:04.843893+00:00",
   "date": "2026-05-28",
   "dateDisplay": "Thursday, May 28, 2026",
   "sections": {
@@ -81,23 +81,23 @@
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 26.84,
-        "changePercent": 58.98,
-        "change": 9.96
+        "price": 27.03,
+        "changePercent": 60.13,
+        "change": 10.15
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 29.91,
-        "changePercent": 55.0,
-        "change": 10.61
+        "price": 29.49,
+        "changePercent": 52.8,
+        "change": 10.19
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 125.33,
-        "changePercent": 39.91,
-        "change": 35.75
+        "price": 133.09,
+        "changePercent": 48.57,
+        "change": 43.51
       },
       {
         "ticker": "ASRHF",
@@ -107,18 +107,18 @@
         "change": 4.81
       },
       {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 70.82,
-        "changePercent": 34.97,
-        "change": 18.35
-      },
-      {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 43.56,
-        "changePercent": 29.37,
-        "change": 9.89
+        "price": 45.7,
+        "changePercent": 35.73,
+        "change": 12.03
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 70.14,
+        "changePercent": 33.68,
+        "change": 17.67
       },
       {
         "ticker": "9348.T",
@@ -130,9 +130,9 @@
       {
         "ticker": "SLDP",
         "company": "Solid Power",
-        "price": 3.38,
-        "changePercent": 22.02,
-        "change": 0.61
+        "price": 3.39,
+        "changePercent": 22.38,
+        "change": 0.62
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RGTI +59.0%"
+    "topMover": "RGTI +60.1%"
   }
 }
