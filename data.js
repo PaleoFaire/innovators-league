@@ -50129,27 +50129,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-28 08:50
-// Auto-generated real-time signals
-// Last updated: 2026-05-28
-// Auto-generated real-time signals
-// Last updated: 2026-05-28
+// Last updated: 2026-05-28 12:38
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Elon and SpaceX Have Made AI Training 10 Times Faster", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Rivian", headline: "Rivian will deliver the first R2 SUVs on June 9", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Rivian", headline: "Rivian R2 officially launches June 9 &#8211; order invites, first deliveries, demo drives", source: "Electrek", time: "13h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Critical Insights Days Before the SPACEX IPO", source: "Next Big Future", time: "15h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "US Space Force confirms SpaceX will build sensor-to-shooter targeting network", source: "Ars Technica Space", time: "15h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Thea Energy", headline: "With a new $100M raise, Princeton&#8217;s Thea Energy is now a top-funded fusion startup", source: "TechCrunch", time: "16h ago", impact: "medium", unread: false },
-  { id: 7, type: "funding", company: "Cognition", headline: "AI coding startup Cognition raises $1B at $25B pre-money valuation", source: "TechCrunch", time: "18h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "FAA orders SpaceX to investigate Starship V3 booster failure", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Tesla (TSLA) and SpaceX merger would be Musk&#8217;s 4th billion-dollar self-deal", source: "Electrek", time: "1d ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX IPO — Boon Or Boondoggle?", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX wins $2.29B to speed Space Force&#8217;s LEO communications &#8216;backbone&#8217;", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "SpaceX", headline: "Pentagon spars with SpaceX over Starlink price hike during Iran war", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Market Sizes Are Replatforming &#8211; AI and Space Are Replatforming Telecom, IT and Business", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "SpaceX", headline: "SPACEX AI Multiple Revenue Doubling SECRETS for $10-20T Valuation in 2028", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Hermeus", headline: "DIU ups Hermeus contract for high-speed drone", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "Elon and SpaceX Have Made AI Training 10 Times Faster", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Rivian", headline: "Rivian will deliver the first R2 SUVs on June 9", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Rivian", headline: "Rivian R2 officially launches June 9 &#8211; order invites, first deliveries, demo drives", source: "Electrek", time: "15h ago", impact: "medium", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Critical Insights Days Before the SPACEX IPO", source: "Next Big Future", time: "17h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "US Space Force confirms SpaceX will build sensor-to-shooter targeting network", source: "Ars Technica Space", time: "18h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Thea Energy", headline: "With a new $100M raise, Princeton's Thea Energy is now a top-funded fusion startup", source: "TechCrunch", time: "18h ago", impact: "medium", unread: false },
+  { id: 8, type: "funding", company: "Cognition", headline: "AI coding startup Cognition raises $1B at $25B pre-money valuation", source: "TechCrunch", time: "20h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "FAA orders SpaceX to investigate Starship V3 booster failure", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Tesla (TSLA) and SpaceX merger would be Musk's 4th billion-dollar self-deal", source: "Electrek", time: "1d ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX IPO ' Boon Or Boondoggle?", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX wins $2.29B to speed Space Force's LEO communications 'backbone'", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Why the Vatican Invited Anthropic to the Pope's AI Encyclical Presentation", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "SpaceX", headline: "Pentagon spars with SpaceX over Starlink price hike during Iran war", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Market Sizes Are Replatforming &#8211; AI and Space Are Replatforming Telecom, IT and Business", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

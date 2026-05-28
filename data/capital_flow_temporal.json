@@ -1,241 +1,12 @@
 {
-  "generatedAt": "2026-05-28T08:51:04+00:00",
+  "generatedAt": "2026-05-28T12:39:01+00:00",
   "matrix": {
-    "data-center-infrastructure": {
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": 157012704,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Armada",
-            "amount": 156185204,
-            "date": "2026-05-26",
-            "source": "formd",
-            "investors": []
-          },
-          {
-            "name": "Claros",
-            "amount": 827500,
-            "date": "2026-05-19",
-            "source": "formd",
-            "investors": [
-              "General Catalyst",
-              "Red Cell Partners",
-              "Systemiq Capital",
-              "Aero X Ventures",
-              "Trenches Capital",
-              "VIPC"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst"
-        ]
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Crusoe Energy",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Valor Equity Partners",
-              "Mubadala Capital",
-              "Founders Fund",
-              "Lowercarbon Capital",
-              "Spark Capital",
-              "Tiger Global Management",
-              "NVIDIA",
-              "Bain Capital Ventures",
-              "Fidelity Management",
-              "Atreides Management",
-              "1789 Capital",
-              "Salesforce Ventures",
-              "T. Rowe Price"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Lowercarbon Capital",
-          "Valor Equity Partners"
-        ]
-      }
-    },
-    "green-manufacturing": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 485010,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Helios",
-            "amount": 485010,
-            "date": "2026-05-26",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "space-launch-small-intl": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 2025980,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Latitude",
-            "amount": 2025980,
-            "date": "2026-05-26",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "robotics-construction-mining": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Terranova",
-            "amount": 0,
-            "date": "2026-05-26",
-            "source": "formd",
-            "investors": [
-              "Outlander",
-              "Congruent Ventures",
-              "GoAhead Ventures",
-              "Gothams",
-              "Ponderosa (Galvanize Climate)"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Bedrock Robotics",
-            "amount": null,
-            "date": "2026-02",
-            "source": "recentEvent",
-            "investors": [
-              "Eclipse Ventures",
-              "8VC",
-              "Valor Equity Partners",
-              "Two Sigma Ventures",
-              "NVentures (NVIDIA)",
-              "CapitalG",
-              "Crossbeam Venture Partners",
-              "Tishman Speyer",
-              "Atreides Management",
-              "Samsara Ventures",
-              "Xora Innovation",
-              "Emergence Capital Partners",
-              "C4 Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "8VC",
-          "Eclipse Ventures",
-          "Valor Equity Partners"
-        ]
-      }
-    },
-    "logistics-robotics": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 535500,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Slip Robotics",
-            "amount": 535500,
-            "date": "2026-05-22",
-            "source": "formd",
-            "investors": [
-              "DCVC"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "manufacturing-reshoring": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 129500,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Nox Metals",
-            "amount": 129500,
-            "date": "2026-05-22",
-            "source": "formd",
-            "investors": [
-              "Y Combinator",
-              "8090 Industries",
-              "Anorak Ventures",
-              "Behind Genius Ventures",
-              "Detroit Venture Partners",
-              "E1 Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Hadrian",
-            "amount": null,
-            "date": "2025-08",
-            "source": "recentEvent",
-            "investors": [
-              "137 Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-drone-military": {
       "2026-Q2": {
-        "deals": 2,
-        "totalSold": 173000,
+        "deals": 1,
+        "totalSold": null,
         "companiesWithUnknownAmount": 1,
         "companies": [
-          {
-            "name": "Shield AI",
-            "amount": 173000,
-            "date": "2026-05-21",
-            "source": "formd",
-            "investors": [
-              "Andreessen Horowitz",
-              "Breyer Capital",
-              "Silicon Valley Bank",
-              "U.S. Innovation Technology Fund (USIT)",
-              "Riot Ventures"
-            ]
-          },
           {
             "name": "Anduril Industries",
             "amount": null,
@@ -258,7 +29,6 @@
           "Founders Fund",
           "General Catalyst",
           "Lux Capital",
-          "Riot Ventures",
           "Valor Equity Partners"
         ]
       },
@@ -352,109 +122,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "ai-hardware-inference": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 123901,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Cerebras",
-            "amount": 123901,
-            "date": "2026-05-21",
-            "source": "formd",
-            "investors": [
-              "Sam Altman",
-              "Andy Bechtolsheim",
-              "Greg Brockman",
-              "Adam D'Angelo",
-              "Mark Leslie",
-              "Nick McKeown",
-              "David Perlmutter",
-              "Saiyed Atiq Raza",
-              "Jeff Rothschild",
-              "Pradeep Sindhu"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "sovereign-ai": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 5300000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "HUMAIN",
-            "amount": 5300000,
-            "date": "2026-05-20",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "autonomy-ground-vehicles": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 20144211,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Mara",
-            "amount": 20144211,
-            "date": "2026-05-20",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "lunar-robotics": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 32115099,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Lunar Outpost",
-            "amount": 32115099,
-            "date": "2026-05-14",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "construction-3d-printing": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 38432250,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "ICON",
-            "amount": 38432250,
-            "date": "2026-05-14",
-            "source": "formd",
-            "investors": [
-              "Founders Fund",
-              "Mark Chen",
-              "Saquon Barkley",
-              "Roman Khan"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
-        ]
       }
     },
     "autonomy-counter-drone": {
@@ -893,7 +560,7 @@
           {
             "name": "Cognition",
             "amount": null,
-            "date": "2026-04",
+            "date": "2026-05",
             "source": "recentEvent",
             "investors": [
               "Founders Fund",
@@ -915,6 +582,25 @@
         ]
       }
     },
+    "manufacturing-reshoring": {
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Hadrian",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": [
+              "137 Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "fusion-magnetic-confinement": {
       "2025-Q4": {
         "deals": 1,
@@ -927,6 +613,34 @@
             "date": "2025-10",
             "source": "recentEvent",
             "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-hardware-inference": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Cerebras",
+            "amount": null,
+            "date": "2026-05",
+            "source": "recentEvent",
+            "investors": [
+              "Sam Altman",
+              "Andy Bechtolsheim",
+              "Greg Brockman",
+              "Adam D'Angelo",
+              "Mark Leslie",
+              "Nick McKeown",
+              "David Perlmutter",
+              "Saiyed Atiq Raza",
+              "Jeff Rothschild",
+              "Pradeep Sindhu"
+            ]
           }
         ],
         "investors": []
@@ -997,6 +711,41 @@
         ],
         "investors": [
           "D1 Capital Partners"
+        ]
+      }
+    },
+    "data-center-infrastructure": {
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
         ]
       }
     },
@@ -1134,6 +883,41 @@
           }
         ],
         "investors": []
+      }
+    },
+    "robotics-construction-mining": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Bedrock Robotics",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": [
+              "Eclipse Ventures",
+              "8VC",
+              "Valor Equity Partners",
+              "Two Sigma Ventures",
+              "NVentures (NVIDIA)",
+              "CapitalG",
+              "Crossbeam Venture Partners",
+              "Tishman Speyer",
+              "Atreides Management",
+              "Samsara Ventures",
+              "Xora Innovation",
+              "Emergence Capital Partners",
+              "C4 Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "8VC",
+          "Eclipse Ventures",
+          "Valor Equity Partners"
+        ]
       }
     },
     "additive-manufacturing": {
@@ -1298,32 +1082,38 @@
     }
   },
   "vcAttribution": {
-    "Riot Ventures": {
+    "Founders Fund": {
       "2026-Q2": [
         {
-          "company": "Shield AI",
+          "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-05-21",
-          "source": "formd"
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-04",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-05",
+          "source": "recentEvent"
         }
       ],
-      "2026-Q1": [
+      "2025-Q4": [
         {
-          "company": "Shield AI",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-03",
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
           "source": "recentEvent"
         }
       ]
     },
     "General Catalyst": {
       "2026-Q2": [
-        {
-          "company": "Claros",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-05-19",
-          "source": "formd"
-        },
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
@@ -1346,42 +1136,6 @@
         }
       ]
     },
-    "Founders Fund": {
-      "2026-Q2": [
-        {
-          "company": "ICON",
-          "cluster": "construction-3d-printing",
-          "date": "2026-05-14",
-          "source": "formd"
-        },
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-04",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "8VC": {
       "2026-Q2": [
         {
@@ -1393,7 +1147,7 @@
         {
           "company": "Cognition",
           "cluster": "ai-code-generation",
-          "date": "2026-04",
+          "date": "2026-05",
           "source": "recentEvent"
         }
       ],
@@ -1423,7 +1177,7 @@
         {
           "company": "Cognition",
           "cluster": "ai-code-generation",
-          "date": "2026-04",
+          "date": "2026-05",
           "source": "recentEvent"
         }
       ],
@@ -1476,6 +1230,16 @@
           "company": "Groq",
           "cluster": "ai-foundation-models",
           "date": "2025-08",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Riot Ventures": {
+      "2026-Q1": [
+        {
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1670,9 +1434,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 63,
-    "totalUSDSold": 256477155,
-    "uniqueClusters": 41,
+    "totalDealsTracked": 51,
+    "totalUSDSold": 0,
+    "uniqueClusters": 34,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [

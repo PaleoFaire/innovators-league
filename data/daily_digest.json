@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:50:23.888285+00:00",
+  "generatedAt": "2026-05-28T12:38:14.988534+00:00",
   "date": "2026-05-28",
   "dateDisplay": "Thursday, May 28, 2026",
   "sections": {
@@ -32,6 +32,15 @@
         "url": "https://sam.gov/opp/70Z02326F93130005/view"
       },
       {
+        "company": "Scale AI",
+        "amount": "$5M",
+        "amount_raw": 5000000.0,
+        "agency": "Department of Defense",
+        "description": "AGENTIC ARTIFICIAL INTELLIGENCE FOR THE E-4C/SURVIVABLE AIRBORNE OPERATIONS CENTER (SAOC) PROGRAM",
+        "date": "2026-02-27",
+        "url": "https://sam.gov/opp/FA875126C0001/view"
+      },
+      {
         "company": "Skydio",
         "amount": "$224K",
         "amount_raw": 224000.0,
@@ -57,6 +66,15 @@
         "description": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
         "date": "2026-05-07",
         "url": "https://sam.gov/opp/140G0326P0132/view"
+      },
+      {
+        "company": "Sierra Space",
+        "amount": "$43K",
+        "amount_raw": 43000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "IMPLEMENTS A SOLUTION FROM THE INITIAL TROUBLESHOOTING OF THE BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIOD",
+        "date": "2026-05-26",
+        "url": "https://sam.gov/opp/80JSC026FA103/view"
       }
     ],
     "marketMovers": [
@@ -142,23 +160,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "NuFuels Inc.; Crownpoint Uranium Project In-Situ Recovery Facility; License Rene",
-        "date": "2026-05-27",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10440"
+        "title": "60-Day Notice of Proposed Information Collection: Application for Permanent/Temp",
+        "date": "2026-05-28",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10575"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Submission for OMB Review; Comment Request",
-        "date": "2026-05-27",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10459"
+        "title": "Space Bureau Seeks Comment on GSO Reference Links",
+        "date": "2026-05-28",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10617"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Name of Aerospace Safety Advisory Panel; Meeting.",
+        "title": "Reporting for Calendar Year 2025 on Offsets Agreements Related to Sales of Defen",
         "date": "2026-05-27",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10445"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10521"
       }
     ],
     "patents": [
@@ -201,7 +219,7 @@
     ]
   },
   "stats": {
-    "contractCount": 6,
+    "contractCount": 8,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
