@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-28T23:24:53.373734+00:00",
-  "date": "2026-05-28",
-  "dateDisplay": "Thursday, May 28, 2026",
+  "generatedAt": "2026-05-29T04:25:37.139945+00:00",
+  "date": "2026-05-29",
+  "dateDisplay": "Friday, May 29, 2026",
   "sections": {
     "govActivity": [
       {
@@ -21,24 +21,6 @@
         "description": "THIS ORDER PROVIDES ENFORCEMENT REMOVAL OPERATIONS MODERNIZATION AND OPERATIONAL CAPABILITY FOR THE ENFORCEMENT CASE MAN",
         "date": "2026-05-05",
         "url": "https://sam.gov/opp/70CTD026FC0000012/view"
-      },
-      {
-        "company": "Shield AI",
-        "amount": "$16M",
-        "amount_raw": 16000000.0,
-        "agency": "Department of Homeland Security",
-        "description": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.",
-        "date": "2026-02-27",
-        "url": "https://sam.gov/opp/70Z02326F93130005/view"
-      },
-      {
-        "company": "Scale AI",
-        "amount": "$5M",
-        "amount_raw": 5000000.0,
-        "agency": "Department of Defense",
-        "description": "AGENTIC ARTIFICIAL INTELLIGENCE FOR THE E-4C/SURVIVABLE AIRBORNE OPERATIONS CENTER (SAOC) PROGRAM",
-        "date": "2026-02-27",
-        "url": "https://sam.gov/opp/FA875126C0001/view"
       },
       {
         "company": "Skydio",
@@ -121,18 +103,18 @@
         "change": 17.67
       },
       {
-        "ticker": "9348.T",
-        "company": "ispace",
-        "price": 699.0,
-        "changePercent": 23.06,
-        "change": 131.0
-      },
-      {
         "ticker": "SLDP",
         "company": "Solid Power",
         "price": 3.39,
         "changePercent": 22.38,
         "change": 0.62
+      },
+      {
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 12.3,
+        "changePercent": 22.14,
+        "change": 2.23
       }
     ],
     "regulatory": [
@@ -219,7 +201,7 @@
     ]
   },
   "stats": {
-    "contractCount": 8,
+    "contractCount": 6,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,

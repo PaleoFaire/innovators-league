@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-05-28";
+const LAST_UPDATED = "2026-05-29";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -50129,23 +50129,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-28 23:24
+// Last updated: 2026-05-29 04:25
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX and SpaceXAI Are Changing Quickly. Understanding Profits and Growth and IPO Price Action", source: "Next Big Future", time: "2h ago", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Anthropic", headline: "Anthropic Nears $1T Valuation And Leapfrogs OpenAI On Unicorn Board With $65B Funding Round", source: "Crunchbase News", time: "4h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Revel", headline: "Revel and Voltera are building a big EV charging network for robotaxis", source: "Electrek", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Anthropic", headline: "Anthropic raises $65 billion, nears $1T valuation ahead of IPO", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic Costs and Profit Margins", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic Claude 4.8", source: "Next Big Future", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Waymo", headline: "Waymo's newest robotaxi is Chinese-made, built to make money, and now accepting riders", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "How long is Anthropic's lease with SpaceX? Opinions vary", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Waymo", headline: "Here Comes Ojai, Waymo's New Chinese-Made Robotaxi", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Waymo", headline: "Waymo starts offering rides in new Ojai robotaxi with 6th-gen Driver", source: "Electrek", time: "8h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Hermeus", headline: "DIU ups Hermeus contract for high-speed drone", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Elon and SpaceX Have Made AI Training 10 Times Faster", source: "Next Big Future", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Rivian", headline: "Rivian R2 officially launches June 9 &#8211; order invites, first deliveries, demo drives", source: "Electrek", time: "1d ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Critical Insights Days Before the SPACEX IPO", source: "Next Big Future", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "US Space Force confirms SpaceX will build sensor-to-shooter targeting network", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Anthropic", headline: "GIC, Temasek anchor Singapore's investment in Anthropic's $65B Series H round", source: "TechNode Global", time: "1h ago", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "Blue Origin", headline: "Blue Origin's New Glenn rocket explodes during testing in Florida", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Waymo dominates autonomous vehicle registrations as Tesla trails behind", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Elon facing backlash over Tesla SpaceX merger talks, but solar actually isn't", source: "Electrek", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX and SpaceXAI Are Changing Quickly. Understanding Profits and Growth and IPO Price Action", source: "Next Big Future", time: "7h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "Anthropic", headline: "Anthropic Nears $1T Valuation And Leapfrogs OpenAI On Unicorn Board With $65B Funding Round", source: "Crunchbase News", time: "9h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Revel", headline: "Revel and Voltera are building a big EV charging network for robotaxis", source: "Electrek", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Anthropic", headline: "Anthropic raises $65 billion, nears $1T valuation ahead of IPO", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic Costs and Profit Margins", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Anthropic", headline: "Anthropic Claude 4.8", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Waymo", headline: "Waymo's newest robotaxi is Chinese-made, built to make money, and now accepting riders", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Waymo", headline: "Here Comes Ojai, Waymo's New Chinese-Made Robotaxi", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Waymo starts offering rides in new Ojai robotaxi with 6th-gen Driver", source: "Electrek", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Hermeus", headline: "DIU ups Hermeus contract for high-speed drone", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Elon and SpaceX Have Made AI Training 10 Times Faster", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
