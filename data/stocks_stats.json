@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 25.61,
+      "avg_change": 24.33,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 12.8,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 10.68,
       "count": 7
     },
     "nuclear": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "PLTR",
-      "Palantir",
-      4.51
-    ],
-    [
       "SATL",
       "Satellogic",
       1.34
@@ -106,10 +101,15 @@
       -4.13
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -4.44
+    ],
+    [
       "LNZA",
       "LanzaTech",
       -15.71
     ]
   ],
-  "lastUpdated": "2026-05-28 20:29:54"
+  "lastUpdated": "2026-05-29 04:00:25"
 }
