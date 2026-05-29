@@ -1,95 +1,50 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-05-28T09:45:55+00:00  
+**Generated:** 2026-05-29T09:36:01+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 21 companies  
+**Cohort size:** 18 companies  
 
-**New Claude extractions this run:** 20  
+**New Claude extractions this run:** 0  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 15 | 71% |
-| 🔧 Changes proposed | 6 | 29% |
-| ❓ Unverifiable | 0 | 0% |
+| ✅ Cleared (data matches sources) | 0 | 0% |
+| 🔧 Changes proposed | 0 | 0% |
+| ❓ Unverifiable | 18 | 100% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## ❓ Unverifiable (18 companies)
 
-Review each change and reply with which ones to apply. **Source-cited diffs:**
+Couldn't fetch authoritative sources. Per Stephen's rule, we leave these as-is rather than guess. May want to flag for manual research or removal from DB.
 
-### Fervo Energy
-
-- **`fundingStage`:** `IPO` → `Public`  
-  Sources: [company_website](https://fervoenergy.com)
-
-  **Notes:** Company went public on May 17, 2026 (Nasdaq debut). Wikipedia article notes it was marked 'Private' but this conflicts with source [0] which contains multiple May 17, 2026 newsroom entries stating 'Fervo Energy raises $1.89B in IPO' and 'Geothermal-Champion Fervo Energy's Shares Soar in Trading Debut'. Current stage classified as 'Public' based on IPO announcement. Source [2] indicates Series E funding of $462M in November 2025 prior to IPO.
-
-### PLD Space
-
-- **`totalRaised`:** `€350M+` → `€120M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/PLD_Space)
-
-  **Notes:** Wikipedia states total funding of €120M as of 1 June 2024. Database entry references €180M Series C (March 2026) and €30M EIB venture debt (April 2026), which are not verifiable in provided sources and appear to be future projections. Current stage listed as 'SPAC' in database but not confirmed in sources.
-
-### SpaceX
-
-- **`fundingStage`:** `Series G` → `Private`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
-
-  **Notes:** Source [1] states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes a 2025 share offer valuation of $800 billion. Company is currently private, not Series G as in database entry. Sources [0] appears to be a domain-for-sale page and is not a reliable source for company information. Sources [2] and [3] are news articles without sufficient detail for verification of specific company metrics.
-
-### Starcloud
-
-- **`fundingStage`:** `SPAC` → `Series A`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
-
-  **Notes:** Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Became fastest unicorn in Y Combinator history at 17 months after completing the program (March 2026). Series A led by Benchmark and EQT Ventures announced March 30, 2026.
-
-### Thea Energy
-
-- **`location`:** `Kearny, NJ` → `Kearny, New Jersey, United States`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Thea_Energy)
-
-  **Notes:** Company was formerly known as Princeton Stellarators, Inc. (PSI). Technology licensed from Princeton Plasma Physics Laboratory (PPPL). Series A round announced September 2024. Source [3] (TechCrunch article dated 2026-05-27) mentions $100M raise but is dated in the future relative to verification cutoff and conflicts with Wikipedia source [2] reporting $20M Series A in September 2024; therefore excluded from verified fields.
-
-### X-Energy
-
-- **`fundingStage`:** `IPO` → `Public`  
-  Sources: [company_website](https://x-energy.com)
-
-  **Notes:** Source [0] confirms IPO pricing announcement dated April 23, 2026. Database entry claims founder 'Kam Ghaffarian' but no founder names are explicitly stated in provided sources. Database claims Amazon $500M funding, Pentagon/Air Force contracts, and UK deployment plans are not verifiable from provided sources. Total raised and valuation figures from database entry cannot be verified from sources provided.
+- **Astera Labs** — *Claude extraction failed*
+- **Blue Origin** — *Claude extraction failed*
+- **Deterrence** — *Claude extraction failed*
+- **Durin** — *Claude extraction failed*
+- **Einride** — *Claude extraction failed*
+- **Fervo Energy** — *Claude extraction failed*
+- **Hailo** — *Claude extraction failed*
+- **Hermeus** — *Claude extraction failed*
+- **Humanoid** — *Claude extraction failed*
+- **Observable Space** — *Claude extraction failed*
+- **Rebellions** — *Claude extraction failed*
+- **Rivian** — *Claude extraction failed*
+- **SpaceX** — *Claude extraction failed*
+- **Standard Nuclear** — *Claude extraction failed*
+- **Starcloud** — *Claude extraction failed*
+- **True Anomaly** — *Claude extraction failed*
+- **Waymo** — *Claude extraction failed*
+- **X-Energy** — *Claude extraction failed*
 
 ---
-
-## ✅ Cleared (15 companies)
-
-Data matches sources for these companies — **no changes needed**.
-
-Sample (first 30):
-
-- Astera Labs
-- Cognition
-- Crusoe Energy
-- Deterrence
-- Durin
-- Einride
-- Galvanick
-- Hailo
-- Hidden Level
-- Humanoid
-- ICON
-- Rebellions
-- Rivian
-- Standard Nuclear
-- Xtend
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-05-28T09:45:55+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-05-29T09:36:01+00:00*
