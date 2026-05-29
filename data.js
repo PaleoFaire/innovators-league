@@ -50414,23 +50414,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-29 16:51
+// Last updated: 2026-05-29 19:37
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cognition", headline: "Cognition's Scott Wu says AI coding agents shouldn't replace humans", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "How Has Anthropic Become the Top AI Company?", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Focused Energy", headline: "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot", source: "Tech.eu", time: "2h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "Blue Origin", headline: "Blue Origin Rocket Explodes in Fiery Setback", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Blue Origin", headline: "Rocket Report: A dark day for Blue Origin; Pentagon eyes new launch site", source: "Ars Technica Space", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Deterrence", headline: "Contriving Imaginary Gaps in Nuclear Deterrence", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Cape", headline: "New Glenn rocket explodes on Cape Canaveral pad", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Anthropic", headline: "GIC, Temasek anchor Singapore's investment in Anthropic's $65B Series H round", source: "TechNode Global", time: "13h ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "Blue Origin", headline: "Blue Origin's New Glenn rocket explodes during testing in Florida", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Waymo", headline: "Waymo dominates autonomous vehicle registrations as Tesla trails behind", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Elon facing backlash over Tesla SpaceX merger talks, but solar actually isn't", source: "Electrek", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Observable Space", headline: "Observable Space raises $90 million and wins Space Force contract for optical systems", source: "SpaceNews", time: "18h ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX and SpaceXAI Are Changing Quickly. Understanding Profits and Growth and IPO Price Action", source: "Next Big Future", time: "20h ago", impact: "high", unread: false },
-  { id: 14, type: "funding", company: "Anthropic", headline: "Anthropic Nears $1T Valuation And Leapfrogs OpenAI On Unicorn Board With $65B Funding Round", source: "Crunchbase News", time: "21h ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "Revel", headline: "Revel and Voltera are building a big EV charging network for robotaxis", source: "Electrek", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Anthropic", headline: "The Week's 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Waymo", headline: "Podcast: Tesla Robotaxi numbers, Ferrari's controversial Luce launches, Waymo Ojai, and more", source: "Electrek", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "funding", company: "Groq", headline: "After Nvidia's $20B not-aqui-hire, AI chip startup Groq reportedly raising $650M", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 5, type: "contract", company: "SpaceX", headline: "SpaceX wins $4.16B Space Force contract to detect airborne moving targets", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "SpaceX", headline: "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking", source: "SpaceNews", time: "2h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Cognition", headline: "Cognition's Scott Wu says AI coding agents shouldn't replace humans", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "How Has Anthropic Become the Top AI Company?", source: "Next Big Future", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Focused Energy", headline: "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot", source: "Tech.eu", time: "5h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Blue Origin", headline: "Blue Origin Rocket Explodes in Fiery Setback", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Deterrence", headline: "Contriving Imaginary Gaps in Nuclear Deterrence", source: "War on the Rocks", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Cape", headline: "New Glenn rocket explodes on Cape Canaveral pad", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Anthropic", headline: "GIC, Temasek anchor Singapore's investment in Anthropic's $65B Series H round", source: "TechNode Global", time: "16h ago", impact: "high", unread: false },
+  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin's New Glenn rocket explodes during testing in Florida", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo dominates autonomous vehicle registrations as Tesla trails behind", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
