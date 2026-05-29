@@ -1,6 +1,15 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-28 10:11:09 UTC
+// Last updated: 2026-05-29 10:01:02 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Virgin Galactic", form: "8-K", date: "2026-05-28", description: "spce-20260528.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Upstart Holdings", form: "8-K", date: "2026-05-28", description: "upst-20260528.htm", isIPO: false, ticker: "UPST" },
+  { company: "UiPath", form: "8-K", date: "2026-05-28", description: "path-20260528.htm", isIPO: false, ticker: "PATH" },
+  { company: "Aurora Innovation", form: "4", date: "2026-05-28", description: "xslF345X06/wk-form4_1780010880.xml", isIPO: false, ticker: "AUR" },
   { company: "AST SpaceMobile", form: "4", date: "2026-05-27", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Upstart Holdings", form: "4", date: "2026-05-27", description: "xslF345X06/wk-form4_1779914237.xml", isIPO: false, ticker: "UPST" },
   { company: "D-Wave Quantum", form: "4", date: "2026-05-27", description: "xslF345X06/wk-form4_1779917474.xml", isIPO: false, ticker: "QBTS" },
@@ -42,13 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487040.xml", isIPO: false, ticker: "AUR" },
   { company: "Rivian", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779480446.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rivian", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779480424.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779480402.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-05-21", description: "rklb-20260520.htm", isIPO: false, ticker: "RKLB" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-05-21", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Virgin Galactic", form: "4", date: "2026-05-21", description: "xslF345X06/wk-form4_1779394373.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Oklo", form: "4", date: "2026-05-21", description: "xslF345X06/wk-form4_1779395833.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Rigetti Computing", form: "8-K", date: "2026-05-21", description: "tm2615300d1_8k.htm", isIPO: false, ticker: "RGTI" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-05-21", description: "xslF345X06/wk-form4_1779398118.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-05-21", description: "qbts-20260521.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-05-20", description: "rklb-20260520.htm", isIPO: false, ticker: "RKLB" },
 ];

@@ -5,8 +5,8 @@
     "contractCount": 200,
     "agencies": [
       "Department of Homeland Security",
-      "Department of Energy",
-      "Department of Defense"
+      "Department of Defense",
+      "Department of Energy"
     ],
     "recentContracts": [
       {
@@ -40,18 +40,18 @@
         "date": "2024-06-28"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Palantir",
     "totalGovValue": "$4.4B+",
     "contractCount": 200,
     "agencies": [
-      "National Aeronautics and Space Administration",
-      "Department of Health and Human Services",
+      "U.S. International Development Finance Corporation",
+      "Department of Energy",
+      "Department of Homeland Security",
       "Department of State",
-      "Department of Justice",
-      "Department of Housing and Urban Development"
+      "General Services Administration"
     ],
     "recentContracts": [
       {
@@ -85,18 +85,18 @@
         "date": "2026-04-18"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "SpaceX",
     "totalGovValue": "$11.0B+",
     "contractCount": 80,
     "agencies": [
-      "National Aeronautics and Space Administration",
       "Department of the Interior",
+      "Department of Homeland Security",
       "Department of State",
       "Department of Justice",
-      "Department of Veterans Affairs"
+      "National Aeronautics and Space Administration"
     ],
     "recentContracts": [
       {
@@ -130,18 +130,18 @@
         "date": "2024-09-11"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Skydio",
     "totalGovValue": "$4M+",
     "contractCount": 41,
     "agencies": [
-      "National Aeronautics and Space Administration",
       "Department of Labor",
       "Department of the Interior",
       "Department of Justice",
-      "Department of Agriculture"
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -175,18 +175,18 @@
         "date": "2026-02-04"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Radiant",
     "totalGovValue": "$31M+",
-    "contractCount": 23,
+    "contractCount": 22,
     "agencies": [
       "Department of Labor",
       "Department of the Interior",
-      "Department of Health and Human Services",
-      "Department of the Treasury",
-      "Department of Agriculture"
+      "Department of Homeland Security",
+      "Consumer Financial Protection Bureau",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -220,11 +220,11 @@
         "date": "2024-09-23"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Rocket Lab",
-    "totalGovValue": "$103M+",
+    "totalGovValue": "$113M+",
     "contractCount": 15,
     "agencies": [
       "National Aeronautics and Space Administration",
@@ -232,7 +232,7 @@
     ],
     "recentContracts": [
       {
-        "amount": 32505522.0,
+        "amount": 37685522.0,
         "agency": "National Aeronautics and Space Administration",
         "description": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER",
         "date": "2023-03-29"
@@ -262,7 +262,7 @@
         "date": "2025-09-26"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Neros",
@@ -303,7 +303,7 @@
         "date": "2026-01-27"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Sierra Space",
@@ -345,15 +345,15 @@
         "date": "2025-04-30"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Planet Labs",
     "totalGovValue": "$31M+",
     "contractCount": 12,
     "agencies": [
-      "National Aeronautics and Space Administration",
       "Department of the Interior",
+      "National Aeronautics and Space Administration",
       "Department of Defense",
       "Department of Commerce"
     ],
@@ -389,12 +389,12 @@
         "date": "2025-11-25"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Shield AI",
-    "totalGovValue": "$41M+",
-    "contractCount": 9,
+    "totalGovValue": "$46M+",
+    "contractCount": 10,
     "agencies": [
       "Department of Homeland Security",
       "Department of Defense"
@@ -419,19 +419,19 @@
         "date": "2025-10-01"
       },
       {
+        "amount": 4732197.19,
+        "agency": "Department of Homeland Security",
+        "description": "TASK ORDER FOR MR-UAS INSTALLATION AND DEPLOYMENT SERVICES FOR COAST GUARD NATIONAL SECURITY CUTTERS.",
+        "date": "2026-05-27"
+      },
+      {
         "amount": 3452883.28,
         "agency": "Department of Homeland Security",
         "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS.",
         "date": "2025-12-08"
-      },
-      {
-        "amount": 2447083.48,
-        "agency": "Department of Homeland Security",
-        "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS.",
-        "date": "2026-02-11"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Castelion",
@@ -472,7 +472,7 @@
         "date": "2025-04-05"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Varda Space Industries",
@@ -514,7 +514,7 @@
         "date": "2025-11-25"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Scale AI",
@@ -555,7 +555,7 @@
         "date": "2025-02-24"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Axiom Space",
@@ -597,7 +597,7 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "BlackSky",
@@ -639,15 +639,15 @@
         "date": "2025-08-29"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Ginkgo Bioworks",
     "totalGovValue": "$150M+",
     "contractCount": 6,
     "agencies": [
-      "Department of Health and Human Services",
-      "Department of Defense"
+      "Department of Defense",
+      "Department of Health and Human Services"
     ],
     "recentContracts": [
       {
@@ -681,7 +681,7 @@
         "date": "2024-09-06"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Impulse Space",
@@ -723,7 +723,7 @@
         "date": "2025-09-22"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Capella Space",
@@ -759,7 +759,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Second Front Systems",
@@ -788,7 +788,7 @@
         "date": "2024-09-30"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Muon Space",
@@ -818,7 +818,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Boston Dynamics",
@@ -826,8 +826,8 @@
     "contractCount": 3,
     "agencies": [
       "Department of Homeland Security",
-      "Department of Health and Human Services",
-      "Department of Defense"
+      "Department of Defense",
+      "Department of Health and Human Services"
     ],
     "recentContracts": [
       {
@@ -849,15 +849,15 @@
         "date": "2026-04-19"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Vannevar Labs",
     "totalGovValue": "$13M+",
     "contractCount": 2,
     "agencies": [
-      "Department of Defense",
-      "Department of State"
+      "Department of State",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -873,7 +873,7 @@
         "date": "2025-09-19"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Epirus",
@@ -890,7 +890,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Saronic",
@@ -907,7 +907,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Chaos Industries",
@@ -924,7 +924,7 @@
         "date": "2023-12-18"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Primer",
@@ -941,7 +941,7 @@
         "date": "2025-01-14"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Relativity Space",
@@ -958,7 +958,7 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Albedo",
@@ -975,7 +975,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   },
   {
     "company": "Anthropic",
@@ -992,6 +992,6 @@
         "date": "2026-02-11"
       }
     ],
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-05-29"
   }
 ]
