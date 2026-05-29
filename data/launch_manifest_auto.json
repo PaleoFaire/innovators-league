@@ -64,12 +64,12 @@
   },
   {
     "date": "2026-06-04",
-    "vehicle": "New Glenn | Amazon Leo (LN-01)",
-    "payload": "Amazon Leo (LN-01)",
-    "pad": "Launch Complex 36A, Cape Canaveral SFS, FL, USA",
-    "provider": "Blue Origin",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ca3d56b7-2175-48e4-9a6a-2ecc9996d96b/?format=json",
-    "trackedCompany": "Blue Origin"
+    "vehicle": "Long March 6A | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Complex 9A, Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5db6b0f1-446d-4209-824f-1187e1b6d212/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-06-05",
@@ -127,8 +127,8 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | BlueBird Block 2 #3",
-    "payload": "BlueBird Block 2 #3",
+    "vehicle": "Falcon 9 Block 5 | BlueBird Block 2 #3-5",
+    "payload": "BlueBird Block 2 #3-5",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/c3f48f48-0e0a-4bca-917e-de494cfca35b/?format=json",
@@ -244,6 +244,15 @@
   },
   {
     "date": "2026-06-30",
+    "vehicle": "Falcon 9 Block 5 | Sirius SXM-11",
+    "payload": "Sirius SXM-11",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ce3db8f7-ba9b-4a2a-953c-c6c6ee926541/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-30",
     "vehicle": "Long March 12B | Demo Flight",
     "payload": "Demo Flight",
     "pad": "Long March 12 series Pad, Jiuquan Satellite Launch Center, People's Republic of China",
@@ -334,6 +343,15 @@
   },
   {
     "date": "2026-07-31",
+    "vehicle": "Falcon 9 Block 5 | BlueBird Block 2 #6-8",
+    "payload": "BlueBird Block 2 #6-8",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/56a85c82-ea71-449b-828c-b583f6f4a18b/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-31",
     "vehicle": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
     "payload": "Transporter 17 (Dedicated SSO Rideshare)",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -361,7 +379,7 @@
   },
   {
     "date": "2026-08-31",
-    "vehicle": "Ariane 64 | MTG-I2",
+    "vehicle": "Ariane 62 | MTG-I2",
     "payload": "MTG-I2",
     "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
     "provider": "Arianespace",
@@ -430,23 +448,5 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | Crew-13",
-    "payload": "Crew-13",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "payload": "O3b mPower 11-13",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
-    "trackedCompany": "SpaceX"
   }
 ]

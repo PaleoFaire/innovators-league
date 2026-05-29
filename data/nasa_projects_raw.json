@@ -1,5 +1,219 @@
 [
   {
+    "id": 183952,
+    "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
+    "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183937,
+    "title": "TABS: Transfer-line Acoustic Bubble Sensing",
+    "description": "Capability Need/Knowledge Gap:    There's a critical need to detect harmful bubbles inside opaque cryogenic transfer lines for NTP missions, as current methods can't, risking turbopump failure and engine restarts. A real-time detection capability is missing.   Objectives:    Calibrate acoustic sensors on a water rig using video ground truth; derive a conservative bubble/no[1]bubble alarm threshold (\u0394\u0393) based on N\u2082 bubbles; benchmark this alarm's yes/no detection against video data.",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "In-Space Propellant Storage and Use",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183924,
+    "title": "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescopes",
+    "description": "Capability Need/Knowledge Gap:   Improved imaging of dim astrophysics phenomena, particularly for habitable Earth-like exoplanets, and higher precision, particularly for Mars mapping and deep-space navigation. Related to Civil Space Shortfalls 1598 and 1604, as well as 1626     Objectives: Improve imaging, including reducing the number of samples required to achieve given resolution, through advancing  Quantum-Enhanced Very Long Baseline Interferometry (QE-VLBI)",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Quantum Computer",
+    "partners": [
+      "Ames Research Center",
+      "Glenn Research Center",
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183973,
+    "title": "AIR (Ames Infrared) Imager Maturation",
+    "description": " Proposed Goals/Objectives:   Goal: Continue maturation of the versatile cost-effective Ames IR (AIR) imager; a tunable and robust hyperspectral imager with a spectral range from the visible to near infrared wavelengths to the short wavelength infrared (~0.4-2.1 \u03bcm). AIR is an in-house, first of its kind compact imager for space-based applications with no moving parts and low power/mass/cost; benefits exploration of our solar system, aligning with the NASA strategic documents, decadal survey, an",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Optical Components",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183955,
+    "title": "LuxBio: Light-based biological sensing and control for automated deep-space experimentation",
+    "description": "Proposed Goals/Objectives: The BioSentinel/LEIA BioSensor, an automated microbiological payload with deep-space flight heritage, supports  microbiological experiments essential to long-term space exploration. Our FY25 IRAD, \u201cFluorescence detection and optogenetic activation for microbial experimentation beyond LEO,\u201d laid the groundwork to expand its measurement capabilities from just optical absorbance to fluorescence, a more versatile biological reporter; and demonstrated the use of light to co",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Prevention and Countermeasures",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183928,
+    "title": "Enabling a high-contrast imaging testbed for Habitable Worlds Observatory",
+    "description": "Proposed Goals/Objectives: Enable a high-contrast imaging testbed for NASA\u2019s Habitable Worlds Observatory (HWO) by re-utilizing and upgrading the SOFIA vacuum chamber. HWO will be the first observatory to directly image Earth-like planets around sun-like stars and search for signs of life with a goal of finding 25 habitable planets.",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Optical Components",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183971,
+    "title": "IMPedance Analysis & Certification Technnology",
+    "description": "Proposed Goals/Objectives:  (1) Integrate EIT with TPS certification,  (2) Extend 2D EIT to system scale (>24\u201d).      Stretch: develop impedance correlation models for other TPS material properties (thermal conductivity, phase, strain) via impedance spectra to enhance EIT cert. & diagnostic capabilities.     Vision: Low cost and rapid in-situ certification of heatshields at any scale including Human M2M missions.",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Entry, Descent, and Landing",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183956,
+    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
+    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183945,
+    "title": "FY26 IRAD : Detection and Characterization of Single Mag-EC ELISAConstructs for Ultra-Low LOD Life Detection",
+    "description": "Proposed Goals/Objectives:  Our goal is to better understand the physics governing Mag-EC ELISA detection.  Our hypothesis is that we will be able to measure individual bead constructs as they impact an electrode surface. Further, we believe that we can leverage this phenomenon by using a large amount of Mag-EC ELISA constructs to ensure capture target molecules throughout the solution and rapidly draw all the constructs to the electrode for detection.   If we can successfully develop analytical",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Medical Diagnosis and Prognosis",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183961,
+    "title": "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics",
+    "description": "Capability Need/Knowledge Gap:    Existing methods and testing facilities to perform flight testing/V&V are insufficient for next-gen Mars rotorcraft which have >15x mass of Ingenuity. Performing sub-scale vehicle testing in Earth\u2019s atmosphere conditions, while replicating on[1]planet flight dynamics, remains unexplored.      Goal: Mature sub-scale vehicle testing in Earth's atmosphere conditions to enable fast, cost[1]effective flight dynamics V&V of large planetary rotorcraft",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Flight Performance and Analysis",
+    "partners": [
+      "Ames Research Center",
+      "University of Portland"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183925,
+    "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
+    "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Above-Surface Mobility",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183949,
+    "title": "Enabling Automated Production of Near-Net Shape Felted TPS up to 2m Scale",
+    "description": "Proposed Goals/Objectives:  The proposed effort will automate needling processes for all variants in the Materials Engineered for Re-entry using Innovative Needling Operations (MERINO) family of TPS.   (1) Apply the (currently idle) multi-million-dollar Robotic Arm facility in N210 for optimized fiber placement and felt production,   (2) Radically increase production rates and reduce variability of material properties,   (3) Fabricate a large (~2m) near-net shape MERINO-LD part that fully utiliz",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Entry, Descent, and Landing",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183936,
+    "title": "FY26 ARIA: Multi-Analyte Prediction of Bone Fracture",
+    "description": "Proposed Goals/Objectives:   There is a need for longitudinal monitoring of body\u2019s physiological response, such as bone quality, to spaceflight. Traditional bone biomarkers have known limitations, thus the need for investigation of novel biomarkers of skeletal health. MicroRNA (miRNA) are short, noncoding sequences that regulate gene expression, including during osteoblast, osteocyte, and osteoclast differentiation.     The objective of the continuation proposal is to expand the sample size and ",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Medical Diagnosis and Prognosis",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183931,
+    "title": "Radiation Biomarker Detection in Breath",
+    "description": "Proposed Goals/Objectives:   Spaceflight health monitoring lacks compact, high-sensitivity tools to detect biomarkers of radiation-induced oxidative stress in real time. We aim to advance our carbon nanotube (CNT) sensor system for detecting radiation-induced volatile organic compounds (VOCs) by optimizing both hardware and software to increase sensitivity and specificity. FY26 work will enhance hardware, software, and sample handling; implement selective sensor filtering; and add calibration to",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Medical Diagnosis and Prognosis",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 157886,
     "title": "Water Processor Assembly Upgrades",
     "description": "<p>WPA upgrades, contracted to Boeing with subcontractor Collins Aerospace, have focused on addressing siloxanes and their conversion to DMSD (dimethylsilanediol) in waste water, as well as extending hardware life. The first major upgrade focused on the Multi-Filtration Bed (MF Bed). The MF Bed ORU was upgraded to make use of new synthetic charcoal which has a better capacity for DMSD, IRN-67 material was removed in order to eliminate a leachate problem affecting the EMU sublimator, and the conf",
@@ -2341,229 +2555,6 @@
     "partners": [
       "NASA Headquarters",
       "Maven Research Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 117537,
-    "title": "CC21 NASA Waste Jettison Mechanism Challenge",
-    "description": "NASA studies have shown that unless 2-3 kilograms of space trash per person per day can be disposed of along the way, a Mars transit vehicle will be too heavy to complete the mission1. The most cost-effective, reliable and safest method to address this problem may be to simply jettison these materials from the spacecraft. This challenge seeks a system design to physically jettison waste products from the spacecraft with little to no preprocessing requirements. System designers will need to consi",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Jul 2022",
-    "lastUpdated": "05/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Waste Management",
-    "partners": [
-      "Ames Research Center",
-      "HeroX"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185488,
-    "title": "Nonintrusive Diagnosis of Ejecta Cloud from Plume Surface Interactions using High-Speed Digital Holography",
-    "description": "The main objective of the proposed Phase II effort is to build a deliverable high-speed digital holography (DH) instrument that can be adapted to a NASA ground test facility to perform diagnosis of plume-surface interaction (PSI) events of interests to NASA scientists, and further, build a PSI facility at MetroLaser that can replicate similar PSI events and can deploy MetroLaser\u2019s DH and other advanced diagnostics, such as focusing schlieren and photogrammetry, to interrogate and obtain 3D eject",
-    "status": "Active",
-    "startDate": "Aug 2025",
-    "endDate": "Aug 2027",
-    "lastUpdated": "05/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Langley Research Center",
-      "MetroLaser, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185328,
-    "title": "Lunar Surface Secondary Battery Modules for Continuous Day/Night Operation",
-    "description": "Future science missions to the Lunar surface will require advanced secondary battery systems that can operate from -230 \u00baC to +120 \u00baC. Advancements that address battery operation at extreme temperatures, combined with high specific energy and energy density are critically needed. Conventional rechargeable Li-ion cells operate within a narrow temperature range of -20 to 40 \u00baC, and they particularly suffer from capacity loss at lower temperatures. Improved batteries combined with light weight ther",
-    "status": "Active",
-    "startDate": "Sep 2025",
-    "endDate": "Sep 2027",
-    "lastUpdated": "05/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Glenn Research Center",
-      "TDA Research, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185376,
-    "title": "Disaster Autonomous Aerial Response Technology",
-    "description": "Stottler Henke proposes advancing Disaster Autonomous Aerial Response Technology (DAART) into Phase II, building on a strong Phase I. DAART enables autonomous UAV operations for wildfire monitoring and disaster response, generating real-time fire progression maps while identifying critical zones with rapid changes or hazards. By combining precision mapping with real-time analysis, DAART enhances situational awareness and accelerates response strategies. The system integrates with emergency manag",
-    "status": "Active",
-    "startDate": "Jul 2025",
-    "endDate": "Jul 2027",
-    "lastUpdated": "05/20/26",
-    "center": "",
-    "technologyArea": "Autonomous Systems",
-    "partners": [
-      "Stottler Henke Associates, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185515,
-    "title": "Autonomous hybrid manufacturing system for in-space manufacturing of reconfigurable microelectronics",
-    "description": "Our technology is an advanced hybrid manufacturing system that merges electrohydrodynamic (EHD) inkjet printing with laser sintering to enable the in-space production of printed electronics, specifically on platforms like the International Space Station (ISS). By leveraging electrical forces to precisely deposit nano- and micro-scale conductive, dielectric, and semiconducting inks, the system has already been validated in microgravity environments. The incorporation of laser sintering will furth",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Langley Research Center",
-      "Ninjas Printing Inc"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185517,
-    "title": "50kW Pneumatic Relocatable Solar Array",
-    "description": "NASA developed a state-of-the-art scalable conceptual design of a high-performance 60kW/m3 deployable solar array with very low mass, compact stowage, and reliable deployment, called the Compact Telescoping Array (CTA).  The CTA consists of a slender telescoping mast that deploys vertically and supports a large area flexible photovoltaic array, or communications / navigation systems.  A retractable and relocatable (5-10x) CTA configuration was developed by NASA for use in lunar gravity at the so",
-    "status": "Active",
-    "startDate": "Aug 2025",
-    "endDate": "Aug 2027",
-    "lastUpdated": "05/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Langley Research Center",
-      "MOONPRINT SOLUTIONS LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185585,
-    "title": "High Pressure, In-Situ Hydrogen Sensor For  Space Based Regenerative Fuel Cell Systems",
-    "description": "Makel Engineering Inc. (MEI) will develop a miniaturized, in-situ, stable, long-life hydrogen sensor for use in high pressure oxygen process streams within regenerative fuel cell systems.    The hydrogen sensor will be able to be used directly in oxygen streams operating up to 3600 psia to monitor trace hydrogen which can pose a safety issue.  MEI will adapt a miniaturized hydrogen sensor technology that has been successfully used for safety monitoring of low pressure oxygen generators, fuel cel",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Glenn Research Center",
-      "Makel Engineering, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185668,
-    "title": "Robust All-Optical Solid-State Magnetometer for Space",
-    "description": "Magnetometers are key components of space missions, used for navigation and orientation, sensing planetary magnetic fields and other functions. State-of-art (SOA) magnetometers like fluxgates and helium vector magnetometers have been essential for space exploration and scientific missions, providing valuable data about magnetic fields in space and on planets. They have significantly enhanced our understanding of the solar system's evolution. Magnetometers also play a crucial role in attitude sen",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Quantum Catalyzer, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185579,
-    "title": "Multi-VCHP (Variable Condenser Heat Pipe) Radiator",
-    "description": "Advanced Cooling Technologies, Inc (ACT) will develop a high turndown ratio, freeze tolerant and passive Variable Heat Rejection Radiator for Planetary Surface and Space Habitats based on multiple Non-Integrated Hot Reservoir Variable Conductance Heat Pipes (HR-VCHPs). Habitat waste heat is acquired by a single-phase loop (SPL) using a benign fluid and further transferred to a series of these VCHPs charged with ammonia (or propylene depending on freezing and toxicity requirements) and argon (or ",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Thermal Management Systems",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Advanced Cooling Technologies, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185586,
-    "title": "Rechargeable Lunar Battery",
-    "description": "Survivability in low-temperature lunar conditions and sustained lunar surface operations require a new generation battery modules capable of operating in ambient conditions as low as -200 \u00b0C, combined with >200 Wh/kg specific energy at room temperature. Lunar surface temperatures range from -230 \u00b0C at night to -90 \u00f7 +120 \u00b0C during day, depending on latitude.  It is critical for cell chemistry to support both charge and discharge at low temperature to enable continuous lunar surface operations. C",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Glenn Research Center",
-      "Cornerstone Research Group, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185518,
-    "title": "Deployable Baffle by SABER System",
-    "description": "Optical payloads are becoming increasingly complex as innovative designs maximize every cubic centimeter available for launch within the expanding range of candidate launch vehicle fairings. Baffles have emerged as critical components on space-based telescopes for enhancing performance by significantly reducing stray light and providing Micro Meteorite and Orbital Debris (MMOD) shielding to protect the sensitive primary mirrors.  Heliospace recognizes the growing need for deployable baffle techn",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "NASA Headquarters",
-      "Heliospace Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185453,
-    "title": "Rapid Low-Loss Polymer PIC Platforms Using High-Index Nanoimprintable Materials",
-    "description": "HighRI Optics, in collaboration with Lawrence Berkeley National Laboratory (LBNL) Molecular Foundry, proposes an innovative approach to photonic integrated circuits (PICs) utilizing proprietary, patternable high-refractive index polymers (HRI). By combining HRI materials with a low-cost, rapid fabrication method, we will establish an affordable prototyping platform for low-loss polymer waveguides. This platform will serve as a foundational waveguide foundry, enabling efficient PIC component fabr",
-    "status": "Active",
-    "startDate": "Sep 2025",
-    "endDate": "Oct 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "HighRI Optics",
-      "Lawrence Berkeley National Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185669,
-    "title": "Highly Photorealistic Programmable 3D Worlds",
-    "description": "Midgard AI is developing a highly photorealistic, programmable 3D lunar simulation environment to support NASA\u2019s modeling and simulation (M&S) needs. Building upon the Phase I feasibility study, Phase II will focus on refining our AI-driven terrain generation pipeline, enhancing physics-based lighting, and ensuring seamless integration with existing NASA simulation frameworks. The goal is to provide a scalable, high-fidelity tool for autonomy validation, sensor simulation, and mission planning i",
-    "status": "Active",
-    "startDate": "Aug 2025",
-    "endDate": "Aug 2027",
-    "lastUpdated": "05/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Glenn Research Center",
-      "Midgard AI, INC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185335,
-    "title": "Optical Wireless Technology for Lunar to Mars",
-    "description": "Introduction:  This SBIR supports NASA's need for Optical Wireless Power Transfer (OWPT) for the Lunar and Mars human exploration missions. Supports power distribution from solar and fission surface generators where wired cabling is costly, impractical, or unsuitable for mobility needs. The SBIR can support a space tech demo in the 2028-2031. OWPT can dynamically deliver power, provisioned within minutes, anywhere within a 20 km radius vs wired deployable tethers or RF wireless out to ~ 1 km.   ",
-    "status": "Active",
-    "startDate": "Aug 2025",
-    "endDate": "Aug 2027",
-    "lastUpdated": "05/20/26",
-    "center": "",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Fibertek, Inc."
     ],
     "website": ""
   }

@@ -1,273 +1,378 @@
 [
   {
-    "id": "2605.28820v1",
-    "title": "From Pixels to Words -- Towards Native One-Vision Models at Scale",
-    "summary": "Current vision-language models (VLMs) typically stitch together separate image encoders and language decoders via multi-stage alignment, a modular framework that inevitably fragments pixel-level signals across frames and scatters early pixel-word interactions. In parallel, native VLMs, despite impressive performance on single images, remain largely unexplored in multi-image, video understanding, and spatial intelligence. Hence, we introduce NEO-ov, a native foundation model that learns cross-fra",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
+    "id": "2605.30351v1",
+    "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+    "summary": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their positions are encoded. The per-head KV layout itself, a dominant contributor to streaming memory and latency, has been mostly left unchanged. In this paper, we present the first study of Multi-Head Latent Attention (MLA) in video diffusion. VideoMLA replaces per-head keys and values with a shared low-",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
     "authors": [
-      "Haiwen Diao",
-      "Jiahao Wang",
-      "Penghao Wu",
-      "Yuhao Dong",
-      "Yuwei Niu",
-      "Yue Zhu",
-      "Zhongang Cai",
-      "Weichen Fan",
-      "Linjun Dai",
-      "Silei Wu",
-      "Xuanyu Zheng",
-      "Mingxuan Li",
-      "Yuanhan Zhang",
-      "Bo Li",
-      "Hanming Deng",
-      "Huchuan Lu",
-      "Quan Wang",
-      "Lei Yang",
-      "Lewei Lu",
-      "Dahua Lin",
-      "Ziwei Liu"
+      "Hidir Yesiltepe",
+      "Jiazhen Hu",
+      "Tuna Han Salih Meral",
+      "Adil Kaan Akan",
+      "Kaan Oktay",
+      "Hoda Eldardiry",
+      "Pinar Yanardag"
     ],
     "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28820v1",
-    "sectors": [
-      "ai"
-    ]
-  },
-  {
-    "id": "2605.28805v1",
-    "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
-    "summary": "Visual outcomes are increasingly central to multimodal large language models, making reliable and fine-grained verification essential for scaling generalist foundation models. In this work, we investigate multimodal meta-verification, which leverages verifier-generated rationales rather than decision-only signals, and explore how to effectively incorporate meta-verification feedback into multimodal verifier training. We identify two key findings. First, symbolic verifier outputs (e.g., bounding ",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
-    "authors": [
-      "Xinchen Zhang",
-      "Bowei Liu",
-      "Jiale Liu",
-      "Chufan Shi",
-      "Yizhen Zhang",
-      "Junhong Liu",
-      "Youliang Zhang",
-      "Zhiheng Li",
-      "Yujiu Yang",
-      "Ling Yang"
-    ],
-    "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28805v1",
-    "sectors": [
-      "ai"
-    ]
-  },
-  {
-    "id": "2605.28803v1",
-    "title": "\u03a9-QVLA: Robust Quantization for Vision-Language-Action Models via Composite Rotation and Per-step Scaling",
-    "summary": "Vision-Language-Action (VLA) models unify perception, reasoning, and control within a single policy, yet their multi-billion-parameter backbones and diffusion-based action heads make on-device deployment prohibitively expensive. Prior quantization efforts offer only partial solutions, compressing the LLM backbone while leaving the DiT action head at full precision, or resorting to mixed-precision schemes, driven by the belief that uniformly quantizing the action head is inherently unstable. We c",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
-    "authors": [
-      "Xinyu Wang",
-      "Mingze Li",
-      "Sicheng Lyu",
-      "Dongxiu Liu",
-      "Kaicheng Yang",
-      "Ziyu Zhao",
-      "Yufei Cui",
-      "Xiao-Wen Chang",
-      "Peng Lu"
-    ],
-    "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28803v1",
+    "pdf": "https://arxiv.org/pdf/2605.30351v1",
     "sectors": [
       "nuclear"
     ]
   },
   {
-    "id": "2605.28697v1",
-    "title": "Deep Learning Strain Estimation: Is Physics-Based Simulation the Solution?",
-    "summary": "Speckle tracking echocardiography (STE) is the clinical standard for myocardial strain estimation. Despite good performance on global strain (GLS), its accuracy for regional strain remains limited, even though this biomarker is highly relevant for early diagnosis and the characterization of subtle abnormalities. from clinical data. Deep learning is a promising alternative, but its development is constrained by the lack of reliable motion references. Existing solutions rely either on STE-derived ",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
+    "id": "2605.30348v1",
+    "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+    "summary": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{Data Mixture Surgery (DMS)}$: given only generated text from a target LLM, estimate the domain-level distribution of its pretraining corpus under a predefined taxonomy. We propose $\\textbf{LLMSurgeon}",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
     "authors": [
-      "Thierry Judge",
-      "Nicolas Duchateau",
-      "Andreas \u00d8stvik",
-      "Khuram Faraz",
-      "Anders Austlid Task\u00e9n",
-      "Sigve Karlsen",
-      "Thor Edvardsen",
-      "Harald Brunvand",
-      "Md Abulkalam Azad",
-      "Havard Dalen",
-      "Bj\u00f8rnar Grenne",
-      "Gabriel Kiss",
-      "Pierre-Yves Courand",
-      "Lasse Lovstakken",
-      "Pierre-Marc Jodoin",
-      "Olivier Bernard"
+      "Yaxin Luo",
+      "Jiacheng Cui",
+      "Xiaohan Zhao",
+      "Xinyi Shang",
+      "Jiacheng Liu",
+      "Xinyue Bi",
+      "Zhaoyi Li",
+      "Zhiqiang Shen"
     ],
     "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28697v1",
+    "pdf": "https://arxiv.org/pdf/2605.30348v1",
     "sectors": [
       "ai"
     ]
   },
   {
-    "id": "2605.28691v1",
-    "title": "OSP-Next: Efficient High-Quality Video Generation with Sparse Sequence Parallelism, HiF8 Quantization, and Reinforcement Learning",
-    "summary": "Diffusion Transformers achieve strong video generation quality, but the quadratic cost of full attention limits efficiency. We introduce OSP-Next, an efficient text-to-video generation model that integrates sparse attention, parallelism, quantization, and reinforcement learning. OSP-Next uses a hybrid full-sparse attention architecture, where the sparse component is implemented with Skiparse-2D Attention. This fixed-pattern mechanism applies token-wise and group-wise sparse attention along spati",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
+    "id": "2605.30345v1",
+    "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
+    "summary": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB schematic generation from natural-language intent is largely unexplored. This paper presents SchGen, the first large language model that generates editable PCB schematics from natural-language requests. The key challenge lies in the lack of an LLM-suited representation and a large-scale dataset. Curr",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
     "authors": [
-      "Yunyang Ge",
-      "Xianyi He",
-      "Zezhong Zhang",
-      "Bin Lin",
-      "Bin Zhu",
-      "Xinhua Cheng",
-      "Li Yuan"
+      "Qinpei Luo",
+      "Ruichun Ma",
+      "Xinyu Zhang",
+      "Lili Qiu"
     ],
     "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28691v1",
+    "pdf": "https://arxiv.org/pdf/2605.30345v1",
     "sectors": [
-      "nuclear",
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30343v1",
+    "title": "Unlocking the Working Memory of Large Language Models for Latent Reasoning",
+    "summary": "To improve the reasoning capabilities of large language models, test-time compute is typically scaled by generating intermediate tokens before the final answer. However, this couples reasoning to autoregressive generation and thereby conflates internal computation with external communication. In contrast, human cognition can use working memory to hold and manipulate information internally without the need to externalize intermediate thoughts. Drawing on this principle, we introduce Reasoning in ",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Lukas Aichberger",
+      "Sepp Hochreiter"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30343v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30334v1",
+    "title": "Demystifying Data Organization for Enhanced LLM Training",
+    "summary": "Large Language Models (LLMs) have revolutionized various fields, yet their training efficiency is heavily reliant on effective data curation. While data selection has been widely studied, the strategic data organization for enhanced training remains an underexplored area, particularly since current LLMs are often trained for only one or a few epochs. This paper systematically explores the influence of data organization on LLM training by reusing pre-computed sample-level scores originally genera",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Yalun Dai",
+      "Yangyu Huang",
+      "Tongshen Yang",
+      "Yonghan Wang",
+      "Xin Zhang",
+      "Wenshan Wu",
+      "Qihao Zhao",
+      "Hao Li",
+      "Yuanyuan Gao",
+      "Kim-Hui Yap",
+      "Scarlett Li"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30334v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30327v1",
+    "title": "Reasoning with Sampling: Cutting at Decision Points",
+    "summary": "Frontier reasoning models are produced by posttraining base language models with reinforcement learning. Recent work has challenged this by showing that sampling from a sharpened version of the base model's distribution, a so-called power distribution, elicits comparable reasoning without additional training, curated datasets, or verifiers. However, making this method practical requires efficiently sampling from the power distribution. A sampler needs to \"mix\" to the power distribution, which ne",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Felix Zhou",
+      "Anay Mehrotra",
+      "Quanquan C. Liu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30327v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2605.30323v1",
+    "title": "In-Context Reward Adaptation for Robust Preference Modeling",
+    "summary": "Reinforcement Learning from Human Feedback (RLHF) typically relies on static reward models to align Large Language Models with human preferences. However, human values are inherently diverse and heterogeneous, and a single reward model often lacks the robustness required to generalize to unseen preference domains. While existing multi-reward frameworks attempt to address this, they are often restricted to a fixed set of known domains and fail to adapt to unseen human distributions without costly",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Zhenyu Sun",
+      "Zheng Xu",
+      "Ermin Wei"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30323v1",
+    "sectors": [
       "robotics",
       "ai"
     ]
   },
   {
-    "id": "2605.28609v1",
-    "title": "JECA^2: Judgment-Explanation Consistent Adversarial Attack against Forensic Vision-Language Models",
-    "summary": "Forensic vision-language models (VLMs) have recently been developed to detect image tampering and provide natural-language explanations. However, their robustness against adversarial manipulation remains underexplored. Existing adversarial attacks typically aim to flip the model's binary judgment, while the accompanying explanation may still reveal forensic cues and contradict the attacked judgment. In this paper, we study judgment-explanation consistent adversarial attacks against forensic VLMs",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
+    "id": "2605.30295v1",
+    "title": "MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings",
+    "summary": "Large language models (LLMs) show promise for clinical reasoning and decision support, but evaluation in realistic, electronic health record-congruent settings remains limited. Existing benchmarks often rely on static datasets or unstructured inputs that do not reflect the structured, interoperable data formats used in clinical systems. We introduce a pipeline for generating clinically realistic HL7 FHIR R4 bundles from unstructured text, enabling controllable evaluation of clinical decision sup",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
     "authors": [
-      "Jiachen Qian"
+      "Valentina Bui Muti",
+      "Eug\u00e9nie Dulout",
+      "Ziquan Fu"
     ],
     "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28609v1",
+    "pdf": "https://arxiv.org/pdf/2605.30295v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30284v1",
+    "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure",
+    "summary": "Scientific discovery is an inherently creative and uncertain process, requiring reasoning beyond the recall of known knowledge. While many benchmarks have been proposed to evaluate large language model (LLM) performance on deep research tasks via multi-hop retrieval, their innovative reasoning abilities essential for true scientific discovery remain largely untested. We introduce a benchmark framework for evaluating model performance in scientific discovery and reasoning, building up from a raw ",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "A. J. Lew",
+      "Y. Cao",
+      "M. J. Buehler"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30284v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30280v1",
+    "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+    "summary": "Embodied intelligence is often studied through specialized models for individual tasks such as manipulation or navigation, resulting in fragmented capabilities and limited generalization across tasks, environments, and robot embodiments. In this work, we study whether heterogeneous embodied decision-making problems can be unified within a single vision-language-action model. We present Qwen-VLA, a unified embodied foundation model that extends Qwen's vision-language modeling stack from perceptio",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Qiuyue Wang",
+      "Mingsheng Li",
+      "Jian Guan",
+      "Jinhui Ye",
+      "Sicheng Xie",
+      "Yitao Liu",
+      "Junhao Chen",
+      "Zhixuan Liang",
+      "Jie Zhang",
+      "Xintong Hu",
+      "Xuhong Huang",
+      "Pei Lin",
+      "Junyang Lin",
+      "Dayiheng Liu",
+      "Shuai Bai",
+      "Jingren Zhou",
+      "Jiazhao Zhang",
+      "Haoqi Yuan",
+      "Gengze Zhou",
+      "Hang Yin",
+      "Ye Wang",
+      "Yiyang Huang",
+      "Zixing Lei",
+      "Wujian Peng",
+      "Delin Chen",
+      "Yingming Zheng",
+      "Jingyang Fan",
+      "Xianwei Zhuang",
+      "Xin Zhou",
+      "Haoyang Li",
+      "Anzhe Chen",
+      "Tong Zhang",
+      "Xuejing Liu",
+      "Yuchong Sun",
+      "Ruizhe Chen",
+      "Zhaohai Li",
+      "Chenxu L\u00fc",
+      "Zhibo Yang",
+      "Tao Yu",
+      "Xionghui Chen"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30280v1",
+    "sectors": [
+      "robotics",
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30274v1",
+    "title": "Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection",
+    "summary": "Document-level translation remains one of the most challenging tasks for large language models, which are constrained by limited context windows that impede global cohesion, while simultaneously suffering from redundant contextual information that degrades translation quality. To address this, we propose a human-like long document translation agent called Loong, which leverages a 3E memory module (Essence-Exemplar-Entity) to store summaries, sentence pairs, and entity records as historical conte",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Yutong Wang",
+      "Xuebo Liu",
+      "Derek F. Wong",
+      "Zhilin Li",
+      "Rongqing Jiang",
+      "Min Zhang",
+      "Shimin Tao",
+      "Daimeng Wei",
+      "Min Zhang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30274v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30273v1",
+    "title": "LLUMI: Improving LLM Writing Assistance for Mental Health Support with Online Community Feedback",
+    "summary": "Large language models (LLMs) show promise in generating supportive responses for mental health queries, but improving their usefulness, empathy, and safety often requires substantial compute, expert input, and labeled data. At the same time, deploying proprietary, cloud-based models for mental health-related interactions raises important privacy and data-governance concerns, given the sensitivities. To address this challenge, we introduce LLUMI setup that can be hosted in-house within protected ",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Jiwon Kim",
+      "Maya Ajit",
+      "Sherry Gong",
+      "Soorya Ram Shimgekar",
+      "Dong Whi Yoo",
+      "Eshwar Chandrasekharan",
+      "Koustuv Saha"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30273v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30260v1",
+    "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+    "summary": "Large Language Models (LLMs) must continuously learn and update knowledge to remain effective in dynamic real-world environments. While Low-Rank Adaptation (LoRA) is widely used for such memory updates, existing studies mainly rely on qualitative downstream evaluations, leaving the quantitative capacity limits and underlying dynamics of exact parametric memory largely unexplored. To bridge this gap, we employ LoRA as a controlled memory capacity probe within the latent space to systematically qu",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Ziwen Xu",
+      "Haiwen Hong",
+      "Linsong Yu",
+      "Benglei Cui",
+      "Longtao Huang",
+      "Hui Xue",
+      "Ningyu Zhang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30260v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30251v1",
+    "title": "Same Evidence, Different Answers: Canonical-Context On-Policy Distillation for Multi-Turn Language Models",
+    "summary": "Large language models (LLMs) often solve a task when all instructions are given in a single prompt, but fail when the same information is revealed gradually across turns. When a clean FULL prompt and a RAW-SHARDED conversation contain the same complete user evidence, the model should still arrive at the same answer. We argue that a key reason for this gap is self-anchored drift: responses produced under partial information introduce unsupported assumptions, and those assumptions later distort th",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Zizhuo Lin",
+      "Quanling Liu",
+      "Jinsheng Quan",
+      "Chao Zhang",
+      "Yifan Zhu",
+      "Xing Shi",
+      "Jingtao Xu",
+      "Zhihui Li",
+      "Yawei Luo"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30251v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2605.30244v1",
+    "title": "Reinforcement Learning with Robust Rubric Rewards",
+    "summary": "While Reinforcement Learning with Verifiable Rewards (RLVR) is effective for deterministically checkable tasks, many vision-language tasks are partially verifiable, demanding multi-criteria supervision (e.g., perceptual details, reasoning steps, and constraints). Rubrics provide a natural interface for this fine-grained supervision, but their effectiveness depends on the execution accuracy during online RL. We propose Reinforcement Learning with Robust Rubric Rewards ($\\text{RLR}^3$), extending ",
+    "published": "2026-05-28",
+    "updated": "2026-05-28",
+    "category": "cs.AI",
+    "categoryName": "Artificial Intelligence",
+    "authors": [
+      "Ya-Qi Yu",
+      "Hao Wang",
+      "Fangyu Hong",
+      "Xiangyang Qu",
+      "Gaojie Wu",
+      "Qiaoyu Luo",
+      "Nuo Xu",
+      "Huixin Wang",
+      "Wuheng Xu",
+      "Yongxin Liao",
+      "Zihao Chen",
+      "Haonan Li",
+      "Ziming Li",
+      "Dezhi Peng",
+      "Minghui Liao",
+      "Jihao Wu",
+      "Haoyu Ren",
+      "Dandan Tu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2605.30244v1",
     "sectors": [
       "robotics"
-    ]
-  },
-  {
-    "id": "2605.28544v1",
-    "title": "DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving",
-    "summary": "Pretrained foundation models have become an important basis for end-to-end autonomous driving. In contrast to vision-language models pretrained primarily on static image-text pairs, video generative models capture temporal dynamics and motion priors that are naturally suited for driving. We present DriveWAM, a driving world-action model that adapts a pretrained video diffusion transformer into an autoregressive video-action policy. DriveWAM organizes video and action streams into a unified tempo",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
-    "authors": [
-      "Chen Shi",
-      "Jinrui Xu",
-      "Shaoshuai Shi",
-      "Kehua Sheng",
-      "Bo Zhang",
-      "Li Jiang"
-    ],
-    "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28544v1",
-    "sectors": [
-      "nuclear",
-      "ai"
-    ]
-  },
-  {
-    "id": "2605.28491v1",
-    "title": "DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing",
-    "summary": "We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable. We introduce Disco",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
-    "authors": [
-      "Kaiyang Ji",
-      "Bingsheng Qian",
-      "Binghuan Wu",
-      "Kangyi Chen",
-      "Ye Shi",
-      "Jingya Wang"
-    ],
-    "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28491v1",
-    "sectors": [
-      "nuclear"
-    ]
-  },
-  {
-    "id": "2605.28459v1",
-    "title": "REVEAL: Reference-Grounded Reasoning for Multimodal Manipulation Detection",
-    "summary": "Multimodal manipulation detection aims to simultaneously identify forged image--text pairs and localize tampered regions, yet existing methods typically rely on memorizing isolated artifacts and struggle with imperceptible manipulation traces or domain shifts. Inspired by human comparative reasoning, we reformulate this task as a reference-grounded verification problem, where authenticity is assessed by comparing a query against retrieved authentic evidence. We propose REVEAL Reference-Enabled V",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
-    "authors": [
-      "Jun Zhou",
-      "Bingwen Hu",
-      "Yaxiong Wang",
-      "Zhedong Zheng",
-      "Yongzhen Wang",
-      "Yuchen Zhang",
-      "Ping Liu"
-    ],
-    "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28459v1",
-    "sectors": [
-      "robotics"
-    ]
-  },
-  {
-    "id": "2605.28456v1",
-    "title": "Diffusion Large Language Models for Visual Speech Recognition",
-    "summary": "Existing Visual Speech Recognition (VSR) systems commonly rely on left-to-right autoregressive decoding, which can force premature decisions on visually ambiguous tokens before sufficient context is available. We propose DLLM-VSR, to the best of our knowledge, the first Diffusion Large Language Model (DLLM)-based VSR framework, formulating transcription as iterative masked denoising with flexible-order decoding. With confidence-based unmasking, DLLM-VSR commits high-confidence positions early an",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
-    "authors": [
-      "Jeong Hun Yeo",
-      "Chae Won Kim",
-      "Hyeongseop Rha",
-      "Yong Man Ro"
-    ],
-    "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28456v1",
-    "sectors": [
-      "nuclear",
-      "ai"
-    ]
-  },
-  {
-    "id": "2605.28450v1",
-    "title": "BiasEdit: A Training-Free Bias-Detect-and-Edit Framework for Learning Fair Visual Classifiers",
-    "summary": "Visual data from the Web power image classifiers, which often underpin many web services, such as recommendation and content moderation. However, the raw Web data often contain spurious correlations and social biases, and neural networks are known for their tendency to learn biases present in data. This can reinforce unfairness in web services and the web data, leading to a vicious cycle. In the context of image classification, networks learn bias attributes for a specific class when a majority ",
-    "published": "2026-05-27",
-    "updated": "2026-05-27",
-    "category": "cs.CV",
-    "categoryName": "Computer Vision",
-    "authors": [
-      "Jungwook Seo",
-      "Yoonsik Park",
-      "Changmin Lee",
-      "Sungyong Baik"
-    ],
-    "links": [],
-    "pdf": "https://arxiv.org/pdf/2605.28450v1",
-    "sectors": [
-      "ai"
     ]
   }
 ]

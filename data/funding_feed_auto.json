@@ -1,14 +1,27 @@
 [
   {
-    "company": "Cognition",
-    "amount": "$1B",
+    "company": "Anthropic",
+    "amount": "$65B",
+    "round": "Series H",
+    "investors": [
+      "NEA"
+    ],
+    "date": "2026-05-28",
+    "source": "Crunchbase News",
+    "url": "https://news.crunchbase.com/ai/anthropic-nears-1t-valuation-65b-seriesh/",
+    "headline": "Anthropic Nears $1T Valuation And Leapfrogs OpenAI On Unicorn Board With $65B Funding Round",
+    "fetched_at": "2026-05-29T10:36:15.366819+00:00"
+  },
+  {
+    "company": "Anthropic",
+    "amount": "$65B",
     "round": "Funding Round",
     "investors": [],
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "source": "The Information",
     "url": "",
-    "headline": "Coding Startup Cognition Raises $1 Billion at a $26 Billion Valuation",
-    "fetched_at": "2026-05-28T10:42:45.380779+00:00"
+    "headline": "Anthropic Raises $65 Billion at $900 Billion Valuation; Micron, Samsung Invest",
+    "fetched_at": "2026-05-29T10:36:15.377516+00:00"
   },
   {
     "company": "Matic Robotics",
@@ -19,6 +32,6 @@
     "source": "Crunchbase News",
     "url": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
     "headline": "In Charts: Seed Deals Keep Getting Bigger As Odds Of Reaching Series A Fall Dramatically",
-    "fetched_at": "2026-05-28T10:42:45.372949+00:00"
+    "fetched_at": "2026-05-29T10:36:15.372558+00:00"
   }
 ]

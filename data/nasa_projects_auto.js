@@ -1,6 +1,11 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-05-28 10:44:17 UTC
+// Last updated: 2026-05-29 10:38:03 UTC
 const NASA_PROJECTS = [
+  { id: 183952, title: "CoOptiSense – Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "05/28/26" },
+  { id: 183924, title: "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescope", status: "Active", center: "Ames Research Center", techArea: "Quantum Computer", lastUpdated: "05/28/26" },
+  { id: 183956, title: "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "05/28/26" },
+  { id: 183961, title: "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics", status: "Active", center: "Ames Research Center", techArea: "Flight Performance and Analysis", lastUpdated: "05/28/26" },
+  { id: 183925, title: "High Lift (High Solidity) Rotor Blades for Mars Helicopters", status: "Active", center: "Ames Research Center", techArea: "Above-Surface Mobility", lastUpdated: "05/28/26" },
   { id: 157886, title: "Water Processor Assembly Upgrades", status: "Active", center: "Johnson Space Center", techArea: "Other Human Health, Life Support, and Habitation Systems", lastUpdated: "05/27/26" },
   { id: 157884, title: "Additively Manufactured Condensing Heat Exchanger", status: "Active", center: "Johnson Space Center", techArea: "Other Human Health, Life Support, and Habitation Systems", lastUpdated: "05/27/26" },
   { id: 157866, title: "Earth Independent Operations Vehicle Systems", status: "Active", center: "Marshall Space Flight Center", techArea: "Flight Computing and Avionics", lastUpdated: "05/27/26" },
@@ -26,9 +31,4 @@ const NASA_PROJECTS = [
   { id: 184668, title: "HIAD for LEO Infusion", status: "Completed", center: "Langley Research Center", techArea: "Hypersonic Decelerators", lastUpdated: "05/20/26" },
   { id: 184667, title: "VSAT Astrobotic Testing", status: "Active", center: "Langley Research Center", techArea: "Photovoltaic Electrical Power", lastUpdated: "05/20/26" },
   { id: 184666, title: "TULIPS 10kW System", status: "Active", center: "Jet Propulsion Laboratory", techArea: "Distribution and Transmission", lastUpdated: "05/20/26" },
-  { id: 184665, title: "Advanced Thermal Control for Exploration", status: "Active", center: "Johnson Space Center", techArea: "Heat Rejection and Storage", lastUpdated: "05/20/26" },
-  { id: 184664, title: "RALB Redesign", status: "Completed", center: "Langley Research Center", techArea: "Power Management and Distribution", lastUpdated: "05/20/26" },
-  { id: 184662, title: "Lateral Stabilization Methods", status: "Completed", center: "Langley Research Center", techArea: "Reliability and Sustainment", lastUpdated: "05/20/26" },
-  { id: 184660, title: "VSAT Government Reference Design", status: "Completed", center: "Langley Research Center", techArea: "Distribution and Transmission", lastUpdated: "05/20/26" },
-  { id: 184655, title: "SOFC Test Capability for Mars Applications", status: "Active", center: "Glenn Research Center", techArea: "Solids", lastUpdated: "05/20/26" },
 ];

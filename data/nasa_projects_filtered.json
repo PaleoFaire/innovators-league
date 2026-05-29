@@ -1,5 +1,84 @@
 [
   {
+    "id": 183952,
+    "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
+    "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183924,
+    "title": "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescopes",
+    "description": "Capability Need/Knowledge Gap:   Improved imaging of dim astrophysics phenomena, particularly for habitable Earth-like exoplanets, and higher precision, particularly for Mars mapping and deep-space navigation. Related to Civil Space Shortfalls 1598 and 1604, as well as 1626     Objectives: Improve imaging, including reducing the number of samples required to achieve given resolution, through advancing  Quantum-Enhanced Very Long Baseline Interferometry (QE-VLBI)",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Quantum Computer",
+    "partners": [
+      "Ames Research Center",
+      "Glenn Research Center",
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183956,
+    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
+    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183961,
+    "title": "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics",
+    "description": "Capability Need/Knowledge Gap:    Existing methods and testing facilities to perform flight testing/V&V are insufficient for next-gen Mars rotorcraft which have >15x mass of Ingenuity. Performing sub-scale vehicle testing in Earth\u2019s atmosphere conditions, while replicating on[1]planet flight dynamics, remains unexplored.      Goal: Mature sub-scale vehicle testing in Earth's atmosphere conditions to enable fast, cost[1]effective flight dynamics V&V of large planetary rotorcraft",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Flight Performance and Analysis",
+    "partners": [
+      "Ames Research Center",
+      "University of Portland"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183925,
+    "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
+    "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Above-Surface Mobility",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 157886,
     "title": "Water Processor Assembly Upgrades",
     "description": "<p>WPA upgrades, contracted to Boeing with subcontractor Collins Aerospace, have focused on addressing siloxanes and their conversion to DMSD (dimethylsilanediol) in waste water, as well as extending hardware life. The first major upgrade focused on the Multi-Filtration Bed (MF Bed). The MF Bed ORU was upgraded to make use of new synthetic charcoal which has a better capacity for DMSD, IRN-67 material was removed in order to eliminate a leachate problem affecting the EMU sublimator, and the conf",
@@ -1384,148 +1463,6 @@
     "partners": [
       "Johnson Space Center",
       "Appirio/Topcoder"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117537,
-    "title": "CC21 NASA Waste Jettison Mechanism Challenge",
-    "description": "NASA studies have shown that unless 2-3 kilograms of space trash per person per day can be disposed of along the way, a Mars transit vehicle will be too heavy to complete the mission1. The most cost-effective, reliable and safest method to address this problem may be to simply jettison these materials from the spacecraft. This challenge seeks a system design to physically jettison waste products from the spacecraft with little to no preprocessing requirements. System designers will need to consi",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Jul 2022",
-    "lastUpdated": "05/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Waste Management",
-    "partners": [
-      "Ames Research Center",
-      "HeroX"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185328,
-    "title": "Lunar Surface Secondary Battery Modules for Continuous Day/Night Operation",
-    "description": "Future science missions to the Lunar surface will require advanced secondary battery systems that can operate from -230 \u00baC to +120 \u00baC. Advancements that address battery operation at extreme temperatures, combined with high specific energy and energy density are critically needed. Conventional rechargeable Li-ion cells operate within a narrow temperature range of -20 to 40 \u00baC, and they particularly suffer from capacity loss at lower temperatures. Improved batteries combined with light weight ther",
-    "status": "Active",
-    "startDate": "Sep 2025",
-    "endDate": "Sep 2027",
-    "lastUpdated": "05/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Glenn Research Center",
-      "TDA Research, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185376,
-    "title": "Disaster Autonomous Aerial Response Technology",
-    "description": "Stottler Henke proposes advancing Disaster Autonomous Aerial Response Technology (DAART) into Phase II, building on a strong Phase I. DAART enables autonomous UAV operations for wildfire monitoring and disaster response, generating real-time fire progression maps while identifying critical zones with rapid changes or hazards. By combining precision mapping with real-time analysis, DAART enhances situational awareness and accelerates response strategies. The system integrates with emergency manag",
-    "status": "Active",
-    "startDate": "Jul 2025",
-    "endDate": "Jul 2027",
-    "lastUpdated": "05/20/26",
-    "center": "",
-    "technologyArea": "Autonomous Systems",
-    "partners": [
-      "Stottler Henke Associates, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185515,
-    "title": "Autonomous hybrid manufacturing system for in-space manufacturing of reconfigurable microelectronics",
-    "description": "Our technology is an advanced hybrid manufacturing system that merges electrohydrodynamic (EHD) inkjet printing with laser sintering to enable the in-space production of printed electronics, specifically on platforms like the International Space Station (ISS). By leveraging electrical forces to precisely deposit nano- and micro-scale conductive, dielectric, and semiconducting inks, the system has already been validated in microgravity environments. The incorporation of laser sintering will furth",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Langley Research Center",
-      "Ninjas Printing Inc"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185517,
-    "title": "50kW Pneumatic Relocatable Solar Array",
-    "description": "NASA developed a state-of-the-art scalable conceptual design of a high-performance 60kW/m3 deployable solar array with very low mass, compact stowage, and reliable deployment, called the Compact Telescoping Array (CTA).  The CTA consists of a slender telescoping mast that deploys vertically and supports a large area flexible photovoltaic array, or communications / navigation systems.  A retractable and relocatable (5-10x) CTA configuration was developed by NASA for use in lunar gravity at the so",
-    "status": "Active",
-    "startDate": "Aug 2025",
-    "endDate": "Aug 2027",
-    "lastUpdated": "05/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Langley Research Center",
-      "MOONPRINT SOLUTIONS LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185586,
-    "title": "Rechargeable Lunar Battery",
-    "description": "Survivability in low-temperature lunar conditions and sustained lunar surface operations require a new generation battery modules capable of operating in ambient conditions as low as -200 \u00b0C, combined with >200 Wh/kg specific energy at room temperature. Lunar surface temperatures range from -230 \u00b0C at night to -90 \u00f7 +120 \u00b0C during day, depending on latitude.  It is critical for cell chemistry to support both charge and discharge at low temperature to enable continuous lunar surface operations. C",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Glenn Research Center",
-      "Cornerstone Research Group, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 185518,
-    "title": "Deployable Baffle by SABER System",
-    "description": "Optical payloads are becoming increasingly complex as innovative designs maximize every cubic centimeter available for launch within the expanding range of candidate launch vehicle fairings. Baffles have emerged as critical components on space-based telescopes for enhancing performance by significantly reducing stray light and providing Micro Meteorite and Orbital Debris (MMOD) shielding to protect the sensitive primary mirrors.  Heliospace recognizes the growing need for deployable baffle techn",
-    "status": "Completed",
-    "startDate": "Sep 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "05/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "NASA Headquarters",
-      "Heliospace Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185669,
-    "title": "Highly Photorealistic Programmable 3D Worlds",
-    "description": "Midgard AI is developing a highly photorealistic, programmable 3D lunar simulation environment to support NASA\u2019s modeling and simulation (M&S) needs. Building upon the Phase I feasibility study, Phase II will focus on refining our AI-driven terrain generation pipeline, enhancing physics-based lighting, and ensuring seamless integration with existing NASA simulation frameworks. The goal is to provide a scalable, high-fidelity tool for autonomy validation, sensor simulation, and mission planning i",
-    "status": "Active",
-    "startDate": "Aug 2025",
-    "endDate": "Aug 2027",
-    "lastUpdated": "05/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Glenn Research Center",
-      "Midgard AI, INC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185335,
-    "title": "Optical Wireless Technology for Lunar to Mars",
-    "description": "Introduction:  This SBIR supports NASA's need for Optical Wireless Power Transfer (OWPT) for the Lunar and Mars human exploration missions. Supports power distribution from solar and fission surface generators where wired cabling is costly, impractical, or unsuitable for mobility needs. The SBIR can support a space tech demo in the 2028-2031. OWPT can dynamically deliver power, provisioned within minutes, anywhere within a 20 km radius vs wired deployable tethers or RF wireless out to ~ 1 km.   ",
-    "status": "Active",
-    "startDate": "Aug 2025",
-    "endDate": "Aug 2027",
-    "lastUpdated": "05/20/26",
-    "center": "",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Fibertek, Inc."
     ],
     "website": ""
   }

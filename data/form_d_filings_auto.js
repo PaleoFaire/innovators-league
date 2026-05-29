@@ -1,11 +1,131 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-05-28 11:03:04 UTC
-// Total: 0 filings across 0 companies
+// Last updated: 2026-05-29 11:06:34 UTC
+// Total: 7 filings across 7 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-05-28T11:03:04.961538+00:00",
+  "generated_at": "2026-05-29T11:06:34.277757+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 0,
-  "filings": []
+  "total_filings": 7,
+  "filings": [
+    {
+      "company": "Armada",
+      "issuer_name": "Armada Capital, LLC / OK",
+      "form": "D",
+      "filed_date": "2026-05-26",
+      "cik": "2127270",
+      "accession": "0002127270-26-000004",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002127270&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002127270-26-000004",
+      "offering_amount": "181185204",
+      "amount_sold": "156185204",
+      "amount_remaining": "25000000",
+      "securities_type": "Equity",
+      "exemption": "06c",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Helios",
+      "issuer_name": "Helios Gaingels Coreshell LLC",
+      "form": "D",
+      "filed_date": "2026-05-26",
+      "cik": "2124307",
+      "accession": "0002124307-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002124307&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002124307-26-000001",
+      "offering_amount": "485010",
+      "amount_sold": "485010",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Latitude",
+      "issuer_name": "Latitude Ventures Kalshi II a series of Allocations 2026 Master, LLC",
+      "form": "D",
+      "filed_date": "2026-05-26",
+      "cik": "2135113",
+      "accession": "0002135113-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002135113&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002135113-26-000001",
+      "offering_amount": "2025980",
+      "amount_sold": "2025980",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Terranova",
+      "issuer_name": "TerraNova Partners Fund I LP",
+      "form": "D",
+      "filed_date": "2026-05-26",
+      "cik": "2135420",
+      "accession": "0000919574-26-003691",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002135420&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000919574-26-003691",
+      "offering_amount": "125000000",
+      "amount_sold": "0",
+      "amount_remaining": "125000000",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Slip Robotics",
+      "issuer_name": "Slip Robotics May 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-05-22",
+      "cik": "2134577",
+      "accession": "0002134577-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134577&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002134577-26-000001",
+      "offering_amount": "535500",
+      "amount_sold": "535500",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Nox Metals",
+      "issuer_name": "Nox Metals May 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-05-22",
+      "cik": "2134557",
+      "accession": "0002134557-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134557&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002134557-26-000001",
+      "offering_amount": "129500",
+      "amount_sold": "129500",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Shield AI",
+      "issuer_name": "SHIELD AI B311 May 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-05-21",
+      "cik": "2134589",
+      "accession": "0002134589-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134589&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002134589-26-000001",
+      "offering_amount": "173000",
+      "amount_sold": "173000",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  ]
 };
