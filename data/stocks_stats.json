@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 14.05,
+      "avg_change": 13.92,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 14.85,
+      "avg_change": 18.71,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 5.72,
+      "avg_change": 5.88,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.62,
+      "avg_change": 9.91,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.75,
+      "avg_change": -0.77,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.92,
+      "avg_change": 18.45,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.1,
+      "avg_change": 12.19,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 7.54,
+      "avg_change": 9.74,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 8.49,
+      "avg_change": 8.7,
       "count": 3
     }
   },
@@ -66,34 +66,39 @@
     [
       "LUNR",
       "Intuitive Machines",
-      20.98
+      28.01
     ],
     [
       "IONQ",
       "IonQ",
-      16.15
+      22.38
     ],
     [
-      "9348.T",
-      "ispace",
-      15.69
+      "PL",
+      "Planet Labs",
+      20.39
     ],
     [
-      "JOBY",
-      "Joby Aviation",
-      14.13
+      "ASTS",
+      "AST SpaceMobile",
+      17.85
     ]
   ],
   "topLosers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      3.64
+      "AUR",
+      "Aurora Innovation",
+      2.37
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -1.35
     ],
     [
       "NVDA",
       "NVIDIA",
-      -2.09
+      -3.81
     ],
     [
       "277810.KQ",
@@ -101,15 +106,10 @@
       -5.52
     ],
     [
-      "SATL",
-      "Satellogic",
-      -5.76
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      -16.69
+      -20.92
     ]
   ],
-  "lastUpdated": "2026-05-29 15:45:59"
+  "lastUpdated": "2026-05-29 20:31:36"
 }
