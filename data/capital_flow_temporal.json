@@ -1,10 +1,27 @@
 {
-  "generatedAt": "2026-05-30T07:47:21+00:00",
+  "generatedAt": "2026-05-30T10:09:12+00:00",
   "matrix": {
-    "data-center-infrastructure": {
+    "space-launch-small-intl": {
       "2026-Q2": {
         "deals": 1,
-        "totalSold": 156185204,
+        "totalSold": 2025980,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Latitude",
+            "amount": 2025980,
+            "date": "2026-05-26",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "data-center-infrastructure": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 157012704,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
@@ -13,9 +30,25 @@
             "date": "2026-05-26",
             "source": "formd",
             "investors": []
+          },
+          {
+            "name": "Claros",
+            "amount": 827500,
+            "date": "2026-05-19",
+            "source": "formd",
+            "investors": [
+              "General Catalyst",
+              "Red Cell Partners",
+              "Systemiq Capital",
+              "Aero X Ventures",
+              "Trenches Capital",
+              "VIPC"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "General Catalyst"
+        ]
       },
       "2025-Q4": {
         "deals": 1,
@@ -60,23 +93,6 @@
           {
             "name": "Helios",
             "amount": 485010,
-            "date": "2026-05-26",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "space-launch-small-intl": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 2025980,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Latitude",
-            "amount": 2025980,
             "date": "2026-05-26",
             "source": "formd",
             "investors": []
@@ -195,6 +211,34 @@
             "source": "recentEvent",
             "investors": [
               "137 Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-hardware-inference": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 123901,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Cerebras",
+            "amount": 123901,
+            "date": "2026-05-21",
+            "source": "formd",
+            "investors": [
+              "Sam Altman",
+              "Andy Bechtolsheim",
+              "Greg Brockman",
+              "Adam D'Angelo",
+              "Mark Leslie",
+              "Nick McKeown",
+              "David Perlmutter",
+              "Saiyed Atiq Raza",
+              "Jeff Rothschild",
+              "Pradeep Sindhu"
             ]
           }
         ],
@@ -333,6 +377,40 @@
             "investors": [
               "Eric Schmidt"
             ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "sovereign-ai": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 5300000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "HUMAIN",
+            "amount": 5300000,
+            "date": "2026-05-20",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "autonomy-ground-vehicles": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 20144211,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Mara",
+            "amount": 20144211,
+            "date": "2026-05-20",
+            "source": "formd",
+            "investors": []
           }
         ],
         "investors": []
@@ -813,34 +891,6 @@
         "investors": []
       }
     },
-    "ai-hardware-inference": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Cerebras",
-            "amount": null,
-            "date": "2026-05",
-            "source": "recentEvent",
-            "investors": [
-              "Sam Altman",
-              "Andy Bechtolsheim",
-              "Greg Brockman",
-              "Adam D'Angelo",
-              "Mark Leslie",
-              "Nick McKeown",
-              "David Perlmutter",
-              "Saiyed Atiq Raza",
-              "Jeff Rothschild",
-              "Pradeep Sindhu"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
     "fusion-inertial-laser": {
       "2025-Q2": {
         "deals": 1,
@@ -1225,6 +1275,36 @@
         }
       ]
     },
+    "General Catalyst": {
+      "2026-Q2": [
+        {
+          "company": "Claros",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-05-19",
+          "source": "formd"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Relativity Space",
+          "cluster": "space-launch-large",
+          "date": "2025-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1251,30 +1331,6 @@
           "company": "Crusoe Energy",
           "cluster": "data-center-infrastructure",
           "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "General Catalyst": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Relativity Space",
-          "cluster": "space-launch-large",
-          "date": "2025-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1567,9 +1623,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 58,
-    "totalUSDSold": 159534194,
-    "uniqueClusters": 37,
+    "totalDealsTracked": 61,
+    "totalUSDSold": 185929806,
+    "uniqueClusters": 39,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [

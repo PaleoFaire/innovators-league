@@ -50861,25 +50861,21 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-30 07:46
-// Auto-generated real-time signals
-// Last updated: 2026-05-30
-// Auto-generated real-time signals
-// Last updated: 2026-05-30
+// Last updated: 2026-05-30 10:08
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "SpaceX", headline: "SpaceX awarded $6.45B in Space Force contracts ahead of IPO", source: "TechCrunch", time: "10h ago", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "NASA Hosts SpaceX Crew-11 Astronauts for Public Event at Headquarters", source: "NASA Breaking News", time: "11h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "13h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Anthropic", headline: "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "13h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Waymo", headline: "Podcast: Tesla Robotaxi numbers, Ferrari&#8217;s controversial Luce launches, Waymo Ojai, and more", source: "Electrek", time: "14h ago", impact: "medium", unread: true },
-  { id: 6, type: "funding", company: "Groq", headline: "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M", source: "TechCrunch", time: "15h ago", impact: "high", unread: false },
-  { id: 7, type: "contract", company: "SpaceX", headline: "SpaceX wins $4.16B Space Force contract to detect airborne moving targets", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "SpaceX", headline: "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking", source: "SpaceNews", time: "15h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Cognition", headline: "Cognition&#8217;s Scott Wu says AI coding agents shouldn&#8217;t replace humans", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "How Has Anthropic Become the Top AI Company?", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Focused Energy", headline: "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot", source: "Tech.eu", time: "18h ago", impact: "high", unread: false },
-  { id: 12, type: "milestone", company: "Humanoid", headline: "NIST proposes a baseline performance benchmark for humanoid robots", source: "The Robot Report", time: "18h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Blue Origin", headline: "Blue Origin Rocket Explodes in Fiery Setback", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "SpaceX", headline: "SpaceX awarded $6.45B in Space Force contracts ahead of IPO", source: "TechCrunch", time: "11h ago", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "NASA Hosts SpaceX Crew-11 Astronauts for Public Event at Headquarters", source: "NASA Breaking News", time: "13h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "14h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Anthropic", headline: "The Week's 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "14h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Waymo", headline: "Podcast: Tesla Robotaxi numbers, Ferrari's controversial Luce launches, Waymo Ojai, and more", source: "Electrek", time: "15h ago", impact: "medium", unread: true },
+  { id: 6, type: "funding", company: "Groq", headline: "After Nvidia's $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M", source: "TechCrunch", time: "16h ago", impact: "high", unread: false },
+  { id: 7, type: "contract", company: "SpaceX", headline: "SpaceX wins $4.16B Space Force contract to detect airborne moving targets", source: "Breaking Defense", time: "17h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "SpaceX", headline: "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking", source: "SpaceNews", time: "17h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Cognition", headline: "Cognition's Scott Wu says AI coding agents shouldn't replace humans", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "How Has Anthropic Become the Top AI Company?", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Focused Energy", headline: "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot", source: "Tech.eu", time: "19h ago", impact: "high", unread: false },
+  { id: 12, type: "milestone", company: "Humanoid", headline: "NIST proposes a baseline performance benchmark for humanoid robots", source: "The Robot Report", time: "19h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Blue Origin", headline: "Blue Origin Rocket Explodes in Fiery Setback", source: "Wired", time: "20h ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Deterrence", headline: "Contriving Imaginary Gaps in Nuclear Deterrence", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
   { id: 15, type: "ipo", company: "Cape", headline: "New Glenn rocket explodes on Cape Canaveral pad", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
