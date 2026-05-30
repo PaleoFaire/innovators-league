@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-29T09:36:01+00:00",
+  "generatedAt": "2026-05-30T08:17:50+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 18,
+  "cohortSize": 20,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 18
+    "unverifiable": 20
   },
   "cleared": [],
   "changesProposed": [],
@@ -21,6 +21,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Cognition",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Deterrence",
       "reason": "Claude extraction failed"
     },
@@ -29,11 +33,19 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Einride",
+      "name": "Fervo Energy",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Fervo Energy",
+      "name": "Focused Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Groq",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "HEO",
       "reason": "Claude extraction failed"
     },
     {
@@ -49,7 +61,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Observable Space",
+      "name": "Palantir",
       "reason": "Claude extraction failed"
     },
     {
@@ -69,19 +81,15 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Starcloud",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "True Anomaly",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Waymo",
       "reason": "Claude extraction failed"
     },
     {
       "name": "X-Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "d-Matrix",
       "reason": "Claude extraction failed"
     }
   ]
