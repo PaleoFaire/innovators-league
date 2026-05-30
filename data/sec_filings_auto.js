@@ -1,6 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-29 10:01:02 UTC
+// Last updated: 2026-05-30 08:32:44 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050512.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050510.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050507.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050505.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050501.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Rivian", form: "4", date: "2026-05-29", description: "xslF345X06/wk-form4_1780086784.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487888.xml", isIPO: false, ticker: "AUR" },
   { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487710.xml", isIPO: false, ticker: "AUR" },
   { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487621.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487481.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487243.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487159.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487040.xml", isIPO: false, ticker: "AUR" },
-  { company: "Rivian", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779480446.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779480424.xml", isIPO: false, ticker: "RIVN" },
 ];
