@@ -50861,11 +50861,11 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-30 22:07
+// Last updated: 2026-05-30 23:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Blue Origin", headline: "Blue Origin gets national security launch task order hours before New Glenn explosion", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "SpaceX", headline: "SpaceX awarded $6.45B in Space Force contracts ahead of IPO", source: "TechCrunch", time: "23h ago", impact: "high", unread: true },
+  { id: 1, type: "ipo", company: "Blue Origin", headline: "Blue Origin gets national security launch task order hours before New Glenn explosion", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "SpaceX", headline: "SpaceX awarded $6.45B in Space Force contracts ahead of IPO", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "NASA Hosts SpaceX Crew-11 Astronauts for Public Event at Headquarters", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "funding", company: "Anthropic", headline: "The Week's 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },

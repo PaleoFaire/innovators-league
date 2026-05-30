@@ -1,41 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-05-30T22:07:19.884Z
+// Last updated: 2026-05-30T23:11:50.153Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1780178839884,
+    "id": 1780182710153,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin gets national security launch task order hours before New Glenn explosion",
     "source": "SpaceNews",
-    "time": "1h ago",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/blue-origin-gets-national-security-launch-task-order-hours-before-new-glenn-explosion/"
   },
   {
-    "id": 1780178839885,
+    "id": 1780182710154,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?",
     "source": "CleanTechnica",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/05/30/is-spacex-tesla-100-gigawatt-year-us-solar-system-production-plan-realistic/"
   },
   {
-    "id": 1780178839886,
+    "id": 1780182710155,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
     "source": "TechCrunch",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/"
   },
   {
-    "id": 1780178839887,
+    "id": 1780182710156,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NASA Hosts SpaceX Crew-11 Astronauts for Public Event at Headquarters",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/news-release/nasa-hosts-spacex-crew-11-astronauts-for-public-event-at-headquarters/"
   },
   {
-    "id": 1780178839888,
+    "id": 1780182710157,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla &#038; SpaceX Merger Getting Real",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/29/tesla-spacex-merger-getting-real/"
   },
   {
-    "id": 1780178839889,
+    "id": 1780182710158,
     "type": "funding",
     "company": "Anthropic",
     "headline": "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"
   },
   {
-    "id": 1780178839890,
+    "id": 1780182710159,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Podcast: Tesla Robotaxi numbers, Ferrari&#8217;s controversial Luce launches, Waymo Ojai, and more",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/29/podcast-tesla-robotaxi-numbers-ferraris-controversial-luce-launches-waymo-ojai-and-more/"
   },
   {
-    "id": 1780178839891,
+    "id": 1780182710160,
     "type": "funding",
     "company": "Groq",
     "headline": "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
   },
   {
-    "id": 1780178839892,
+    "id": 1780182710161,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX wins $4.16B Space Force contract to detect airborne moving targets",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/05/spacex-wins-4-16b-space-force-contract-to-detect-airborne-moving-targets/"
   },
   {
-    "id": 1780178839893,
+    "id": 1780182710162,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/space-force-awards-spacex-4-16-billion-to-build-satellite-network-for-airborne-target-tracking/"
   },
   {
-    "id": 1780178839894,
+    "id": 1780182710163,
     "type": "news",
     "company": "Cognition",
     "headline": "Cognition&#8217;s Scott Wu says AI coding agents shouldn&#8217;t replace humans",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/"
   },
   {
-    "id": 1780178839895,
+    "id": 1780182710164,
     "type": "news",
     "company": "Anthropic",
     "headline": "How Has Anthropic Become the Top AI Company?",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/05/how-has-anthropic-become-the-top-ai-company.html"
   },
   {
-    "id": 1780178839896,
+    "id": 1780182710165,
     "type": "funding",
     "company": "Focused Energy",
     "headline": "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/05/29/focused-energy-raises-240m-truelayer-acquires-in3-london-regains-top-spot/"
   },
   {
-    "id": 1780178839897,
+    "id": 1780182710166,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "NIST proposes a baseline performance benchmark for humanoid robots",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/nist-proposes-a-baseline-performance-benchmark-for-humanoid-robots/"
   },
   {
-    "id": 1780178839898,
+    "id": 1780182710167,
     "type": "news",
     "company": "Blue Origin",
     "headline": "Blue Origin Rocket Explodes in Fiery Setback",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/blue-origin-rocket-explodes-in-major-setback/"
   },
   {
-    "id": 1780178839899,
+    "id": 1780182710168,
     "type": "news",
     "company": "Deterrence",
     "headline": "Contriving Imaginary Gaps in Nuclear Deterrence",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/contriving-imaginary-gaps-in-nuclear-deterrence/"
   },
   {
-    "id": 1780178839900,
+    "id": 1780182710169,
     "type": "ipo",
     "company": "Cape",
     "headline": "New Glenn rocket explodes on Cape Canaveral pad",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/new-glenn-rocket-explodes-on-cape-canaveral-pad/"
   },
   {
-    "id": 1780178839901,
+    "id": 1780182710170,
     "type": "funding",
     "company": "Anthropic",
     "headline": "GIC, Temasek anchor Singapore&#8217;s investment in Anthropic&#8217;s $65B Series H round",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/05/29/gic-temasek-anchor-singapores-investment-in-anthropics-65b-series-h-round/"
   },
   {
-    "id": 1780178839902,
+    "id": 1780182710171,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Elon facing backlash over Tesla SpaceX merger talks, but solar actually isn&#8217;t",
@@ -211,12 +211,12 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/28/elon-facing-backlash-over-tesla-spacex-merger-talks-but-solar-actually-isnt/"
   },
   {
-    "id": 1780178839903,
+    "id": 1780182710172,
     "type": "funding",
     "company": "Observable Space",
     "headline": "Observable Space raises $90 million and wins Space Force contract for optical systems",
     "source": "SpaceNews",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "high",
     "unread": false,
     "link": "https://spacenews.com/observable-space-raises-90-million-and-wins-space-force-contract-for-optical-systems/"
