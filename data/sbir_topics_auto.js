@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-05-29 11:06:35 UTC
+// Last updated: 2026-05-30 09:31:58 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -593,7 +593,7 @@ const SBIR_TOPICS_AUTO = [
         "matched_terms": [
           "energy",
           "infrastructure",
-          "machine"
+          "learning"
         ]
       }
     ],

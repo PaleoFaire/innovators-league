@@ -1,5 +1,231 @@
 [
   {
+    "id": 158440,
+    "title": "ICE CHILL: Integrated Cryo-operable Electronics to Condition Hibernation for Improved Li-ion Longevity",
+    "description": "<p>\u00a0ICE CHILL, a novel integrated battery module/battery management system<br />(BMS) and demonstrate its capability to enable passive Li-ion battery hibernation through the lunar\u00a0<br />night with zero excess degradation caused by freezing the cells. We will deliver a cryogenically\u00a0<br />operable battery management system, a 28V/15Ah battery module that can passively survive the\u00a0<br />lunar night, and a comprehensive Li-ion battery hibernation protocol for other future designs to\u00a0<br />follow. I",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Oct 2026",
+    "lastUpdated": "05/29/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Glenn Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158403,
+    "title": "Eth-RT: Enabling Real-Time Ethernet Communication Between Commercial-Off-The-Shelf Devices",
+    "description": "<p>NASA relies on real-time Ethernet protocols for many programs. \u00a0These protocols rely on proprietary network cards and non-standard message formats that increase costs and limit interoperability. \u00a0This work will develop an Ethernet switch that enables real-time communication between standard Ethernet end nodes sending standard Ethernet messages</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Oct 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "",
+    "partners": [
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158367,
+    "title": "BrainStack: An Orbital Laboratory for AI/ML processors-including the first flight of NASA High Performance Spacecraft Computing (HPSC) Platform",
+    "description": "<p>This project builds upon previously flown experiments on TES-10, 13. They hosted the first LEO demonstration of a neuromorphic processor and NVIDIA GPU. These devices have been superceeded by powerful new variations but have yet to be flown in space. Previously developed TES-OS will be used to simplify the otherwise challenging interface between various candidate processors and TES-core avionics. This, combined with TES-n bus power/thermal hardware permits a modular platform for hosted AI/ML ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Ames Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158366,
+    "title": "Windybird: Animal-borne Wind Velocity Measurements at the Planetary Boundary Layer",
+    "description": "<p>This project aims to develop and calibrate a 5-hole Pitot tube for bird-borne biologgers to measure wind velocity. This innovation will enhance in-situ wind data collection, validate satellite measurements, and improve understanding of atmospheric and oceanographic processes. It also has potential applications in meteorology and biopneumatic robotics.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Ames Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158020,
+    "title": "Compact Optical Method for Long-range, Inexpensive Network Communication (COMLINC)",
+    "description": "<p>This project starts the development of a small, low-cost optical comm system for direct LEO and/or Lunar to Earth data downlinks.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Oct 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "",
+    "partners": [
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158015,
+    "title": "Strong Thermoset Regolith UV-Curable Composite Technology (STRUCT)",
+    "description": "<p>The project aims to develop a UV-curable resin-regolith composite for manufacturing lunar infrastructure, such as landing pads, using in-situ resources. This approach reduces reliance on Earth-supplied materials and energy, potentially lowering mission mass and energy consumption, while leveraging past innovations and partnerships.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Ames Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157994,
+    "title": "An Off Planet Laundromat",
+    "description": "<p>The overall goal of this technology program is to develop methods to clean clothes, soft spacesuit materials, wearable sensors, and next generation materials that could enhance mission capabilities in the future if they could be cleaned. Specifically, we propose to explore two innovative technologies for space applications: the use of an ozone technology or liquid CO2.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Ames Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183971,
+    "title": "IMPedance Analysis & Certification Technnology",
+    "description": "Proposed Goals/Objectives:  (1) Integrate EIT with TPS certification,  (2) Extend 2D EIT to system scale (>24\u201d).      Stretch: develop impedance correlation models for other TPS material properties (thermal conductivity, phase, strain) via impedance spectra to enhance EIT cert. & diagnostic capabilities.     Vision: Low cost and rapid in-situ certification of heatshields at any scale including Human M2M missions.",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Entry, Descent, and Landing",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183925,
+    "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
+    "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Above-Surface Mobility",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183955,
+    "title": "LuxBio: Light-based biological sensing and control for automated deep-space experimentation",
+    "description": "Proposed Goals/Objectives: The BioSentinel/LEIA BioSensor, an automated microbiological payload with deep-space flight heritage, supports  microbiological experiments essential to long-term space exploration. Our FY25 IRAD, \u201cFluorescence detection and optogenetic activation for microbial experimentation beyond LEO,\u201d laid the groundwork to expand its measurement capabilities from just optical absorbance to fluorescence, a more versatile biological reporter; and demonstrated the use of light to co",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Prevention and Countermeasures",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183961,
+    "title": "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics",
+    "description": "Capability Need/Knowledge Gap:    Existing methods and testing facilities to perform flight testing/V&V are insufficient for next-gen Mars rotorcraft which have >15x mass of Ingenuity. Performing sub-scale vehicle testing in Earth\u2019s atmosphere conditions, while replicating on[1]planet flight dynamics, remains unexplored.      Goal: Mature sub-scale vehicle testing in Earth's atmosphere conditions to enable fast, cost[1]effective flight dynamics V&V of large planetary rotorcraft",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Flight Performance and Analysis",
+    "partners": [
+      "Ames Research Center",
+      "University of Portland"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183956,
+    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
+    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183928,
+    "title": "Enabling a high-contrast imaging testbed for Habitable Worlds Observatory",
+    "description": "Proposed Goals/Objectives: Enable a high-contrast imaging testbed for NASA\u2019s Habitable Worlds Observatory (HWO) by re-utilizing and upgrading the SOFIA vacuum chamber. HWO will be the first observatory to directly image Earth-like planets around sun-like stars and search for signs of life with a goal of finding 25 habitable planets.",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Optical Components",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183973,
+    "title": "AIR (Ames Infrared) Imager Maturation",
+    "description": " Proposed Goals/Objectives:   Goal: Continue maturation of the versatile cost-effective Ames IR (AIR) imager; a tunable and robust hyperspectral imager with a spectral range from the visible to near infrared wavelengths to the short wavelength infrared (~0.4-2.1 \u03bcm). AIR is an in-house, first of its kind compact imager for space-based applications with no moving parts and low power/mass/cost; benefits exploration of our solar system, aligning with the NASA strategic documents, decadal survey, an",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Optical Components",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183949,
+    "title": "Enabling Automated Production of Near-Net Shape Felted TPS up to 2m Scale",
+    "description": "Proposed Goals/Objectives:  The proposed effort will automate needling processes for all variants in the Materials Engineered for Re-entry using Innovative Needling Operations (MERINO) family of TPS.   (1) Apply the (currently idle) multi-million-dollar Robotic Arm facility in N210 for optimized fiber placement and felt production,   (2) Radically increase production rates and reduce variability of material properties,   (3) Fabricate a large (~2m) near-net shape MERINO-LD part that fully utiliz",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Entry, Descent, and Landing",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 183952,
     "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
     "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
@@ -16,15 +242,30 @@
     "website": ""
   },
   {
-    "id": 183937,
-    "title": "TABS: Transfer-line Acoustic Bubble Sensing",
-    "description": "Capability Need/Knowledge Gap:    There's a critical need to detect harmful bubbles inside opaque cryogenic transfer lines for NTP missions, as current methods can't, risking turbopump failure and engine restarts. A real-time detection capability is missing.   Objectives:    Calibrate acoustic sensors on a water rig using video ground truth; derive a conservative bubble/no[1]bubble alarm threshold (\u0394\u0393) based on N\u2082 bubbles; benchmark this alarm's yes/no detection against video data.",
+    "id": 183945,
+    "title": "FY26 IRAD : Detection and Characterization of Single Mag-EC ELISAConstructs for Ultra-Low LOD Life Detection",
+    "description": "Proposed Goals/Objectives:  Our goal is to better understand the physics governing Mag-EC ELISA detection.  Our hypothesis is that we will be able to measure individual bead constructs as they impact an electrode surface. Further, we believe that we can leverage this phenomenon by using a large amount of Mag-EC ELISA constructs to ensure capture target molecules throughout the solution and rapidly draw all the constructs to the electrode for detection.   If we can successfully develop analytical",
     "status": "Active",
     "startDate": "Nov 2025",
     "endDate": "Sep 2026",
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
-    "technologyArea": "In-Space Propellant Storage and Use",
+    "technologyArea": "Medical Diagnosis and Prognosis",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183936,
+    "title": "FY26 ARIA: Multi-Analyte Prediction of Bone Fracture",
+    "description": "Proposed Goals/Objectives:   There is a need for longitudinal monitoring of body\u2019s physiological response, such as bone quality, to spaceflight. Traditional bone biomarkers have known limitations, thus the need for investigation of novel biomarkers of skeletal health. MicroRNA (miRNA) are short, noncoding sequences that regulate gene expression, including during osteoblast, osteocyte, and osteoclast differentiation.     The objective of the continuation proposal is to expand the sample size and ",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Medical Diagnosis and Prognosis",
     "partners": [
       "Ames Research Center"
     ],
@@ -48,151 +289,15 @@
     "website": ""
   },
   {
-    "id": 183973,
-    "title": "AIR (Ames Infrared) Imager Maturation",
-    "description": " Proposed Goals/Objectives:   Goal: Continue maturation of the versatile cost-effective Ames IR (AIR) imager; a tunable and robust hyperspectral imager with a spectral range from the visible to near infrared wavelengths to the short wavelength infrared (~0.4-2.1 \u03bcm). AIR is an in-house, first of its kind compact imager for space-based applications with no moving parts and low power/mass/cost; benefits exploration of our solar system, aligning with the NASA strategic documents, decadal survey, an",
+    "id": 183937,
+    "title": "TABS: Transfer-line Acoustic Bubble Sensing",
+    "description": "Capability Need/Knowledge Gap:    There's a critical need to detect harmful bubbles inside opaque cryogenic transfer lines for NTP missions, as current methods can't, risking turbopump failure and engine restarts. A real-time detection capability is missing.   Objectives:    Calibrate acoustic sensors on a water rig using video ground truth; derive a conservative bubble/no[1]bubble alarm threshold (\u0394\u0393) based on N\u2082 bubbles; benchmark this alarm's yes/no detection against video data.",
     "status": "Active",
     "startDate": "Nov 2025",
     "endDate": "Sep 2026",
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
-    "technologyArea": "Optical Components",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183955,
-    "title": "LuxBio: Light-based biological sensing and control for automated deep-space experimentation",
-    "description": "Proposed Goals/Objectives: The BioSentinel/LEIA BioSensor, an automated microbiological payload with deep-space flight heritage, supports  microbiological experiments essential to long-term space exploration. Our FY25 IRAD, \u201cFluorescence detection and optogenetic activation for microbial experimentation beyond LEO,\u201d laid the groundwork to expand its measurement capabilities from just optical absorbance to fluorescence, a more versatile biological reporter; and demonstrated the use of light to co",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Prevention and Countermeasures",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183928,
-    "title": "Enabling a high-contrast imaging testbed for Habitable Worlds Observatory",
-    "description": "Proposed Goals/Objectives: Enable a high-contrast imaging testbed for NASA\u2019s Habitable Worlds Observatory (HWO) by re-utilizing and upgrading the SOFIA vacuum chamber. HWO will be the first observatory to directly image Earth-like planets around sun-like stars and search for signs of life with a goal of finding 25 habitable planets.",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Optical Components",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183971,
-    "title": "IMPedance Analysis & Certification Technnology",
-    "description": "Proposed Goals/Objectives:  (1) Integrate EIT with TPS certification,  (2) Extend 2D EIT to system scale (>24\u201d).      Stretch: develop impedance correlation models for other TPS material properties (thermal conductivity, phase, strain) via impedance spectra to enhance EIT cert. & diagnostic capabilities.     Vision: Low cost and rapid in-situ certification of heatshields at any scale including Human M2M missions.",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183956,
-    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
-    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Robot Navigation and Path Planning",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183945,
-    "title": "FY26 IRAD : Detection and Characterization of Single Mag-EC ELISAConstructs for Ultra-Low LOD Life Detection",
-    "description": "Proposed Goals/Objectives:  Our goal is to better understand the physics governing Mag-EC ELISA detection.  Our hypothesis is that we will be able to measure individual bead constructs as they impact an electrode surface. Further, we believe that we can leverage this phenomenon by using a large amount of Mag-EC ELISA constructs to ensure capture target molecules throughout the solution and rapidly draw all the constructs to the electrode for detection.   If we can successfully develop analytical",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Medical Diagnosis and Prognosis",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183961,
-    "title": "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics",
-    "description": "Capability Need/Knowledge Gap:    Existing methods and testing facilities to perform flight testing/V&V are insufficient for next-gen Mars rotorcraft which have >15x mass of Ingenuity. Performing sub-scale vehicle testing in Earth\u2019s atmosphere conditions, while replicating on[1]planet flight dynamics, remains unexplored.      Goal: Mature sub-scale vehicle testing in Earth's atmosphere conditions to enable fast, cost[1]effective flight dynamics V&V of large planetary rotorcraft",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Flight Performance and Analysis",
-    "partners": [
-      "Ames Research Center",
-      "University of Portland"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183925,
-    "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
-    "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Above-Surface Mobility",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183949,
-    "title": "Enabling Automated Production of Near-Net Shape Felted TPS up to 2m Scale",
-    "description": "Proposed Goals/Objectives:  The proposed effort will automate needling processes for all variants in the Materials Engineered for Re-entry using Innovative Needling Operations (MERINO) family of TPS.   (1) Apply the (currently idle) multi-million-dollar Robotic Arm facility in N210 for optimized fiber placement and felt production,   (2) Radically increase production rates and reduce variability of material properties,   (3) Fabricate a large (~2m) near-net shape MERINO-LD part that fully utiliz",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183936,
-    "title": "FY26 ARIA: Multi-Analyte Prediction of Bone Fracture",
-    "description": "Proposed Goals/Objectives:   There is a need for longitudinal monitoring of body\u2019s physiological response, such as bone quality, to spaceflight. Traditional bone biomarkers have known limitations, thus the need for investigation of novel biomarkers of skeletal health. MicroRNA (miRNA) are short, noncoding sequences that regulate gene expression, including during osteoblast, osteocyte, and osteoclast differentiation.     The objective of the continuation proposal is to expand the sample size and ",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Medical Diagnosis and Prognosis",
+    "technologyArea": "In-Space Propellant Storage and Use",
     "partners": [
       "Ames Research Center"
     ],
@@ -2444,117 +2549,6 @@
     "technologyArea": "Other Flight Computing and Avionics",
     "partners": [
       "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184606,
-    "title": "Integrated Logistics Technology Analysis Task",
-    "description": "",
-    "status": "Active",
-    "startDate": "Dec 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Kennedy Space Center",
-    "technologyArea": "",
-    "partners": [
-      "Kennedy Space Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157150,
-    "title": "CC22 NASA Particle Partition Challenge",
-    "description": "We are looking for technical designs for subsystem or component technologies for continuous separation and collection of soot-like carbon particulate material from a hot flowing gas stream. Carbon particulates are produced by a continuous catalytic process and are carried into a recirculating gas stream while the reactor is operating at working temperature and pressure. Particulate removal prevents carbon contamination of downstream components, including piping, valves and other actuators, gas c",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Apr 2023",
-    "lastUpdated": "05/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Atmosphere Revitalization",
-    "partners": [
-      "Johnson Space Center",
-      "HeroX"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157151,
-    "title": "CC22 Moon Movers",
-    "description": "NASA is seeking innovative concepts for the Artemis program to deliver pressurized logistics (food, supplies, water, repair items, tools, etc) to the surface of the moon. The logistics are housed within pressurized containers that are thermally conditioned while receiving power resources from the lander (used for delivery) until removed. These containers will be offloaded, and used to transfer the logistics to a pressurized rover or be transported across the surface of the moon to their final de",
-    "status": "Completed",
-    "startDate": "Nov 2022",
-    "endDate": "Apr 2023",
-    "lastUpdated": "05/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Autonomous Systems",
-    "partners": [
-      "Marshall Space Flight Center",
-      "GrabCAD"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117542,
-    "title": "CC21 Waste to Base Materials Challenge: Sustainable Reprocessing in Space",
-    "description": "A new mission architecture that addresses sustainability as a core principle will naturally lead to the question of what to do with all the trash and waste that is generated during a mission to Mars? The answer to dealing with all this ?dead mass? is to reprocess waste into useful products, such as replacement parts, structures, shielding, and propellant thereby reducing the initial launch mass and thus saving tens of billions of dollars in launch costs.<br \\> Imagine you are on a mission to Mar",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Jul 2022",
-    "lastUpdated": "05/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "In Situ Manufacturing, Maintenance, and Repair",
-    "partners": [
-      "Ames Research Center",
-      "HeroX"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117535,
-    "title": "CC21 Real Time Cognitive State Determination System",
-    "description": "Astronauts will need to carry out autonomous operations as they venture beyond Low Earth Orbit. For many of the activities that the astronauts perform, the same training is provided to everyone months ahead of time. A system that provides customized training ahead of mission, just-in time training, or real-time operations support that is optimized and tailored to each astronaut's psychophysiological state at the time of the activities would significantly improve operations.<br \\> It is important",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Jul 2022",
-    "lastUpdated": "05/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Behavioral Health and Performance",
-    "partners": [
-      "Johnson Space Center",
-      "Appirio/Topcoder"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117536,
-    "title": "CC21 Orbital Alchemy",
-    "description": "After end-of-life (EOL) of the International Space Station (ISS), expected in 2028 or later, the plan of record is to de-orbit the ISS, causing it to burn up in Earth's atmosphere and/or fall as debris into the Pacific Ocean. This project will explore the possibility of extending the value of the ISS beyond EOL through recycling into feedstocks suitable for future space assets.<br \\> With this global ideation challenge, NASA seeks to inspire innovators of all ages, skills, and interests to consi",
-    "status": "Completed",
-    "startDate": "Feb 2022",
-    "endDate": "Aug 2022",
-    "lastUpdated": "05/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "In Situ Manufacturing, Maintenance, and Repair",
-    "partners": [
-      "Ames Research Center",
-      "TechConnect LLC (NSTI LLC)"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117532,
-    "title": "CC21 Optimal Locations for Advanced Air Mobility (AAM) Vertiports",
-    "description": "Realization of practical, generally accessible AAM is dependent upon having a sufficient number of \"vertiports\"?i.e., takeoff and landing locations for AAM aircraft. These vertiports are like airports or heliports today, but will be designed specifically for AAM missions and new vehicles and are likely to be located in many more places than existing airports or heliports?particularly in urban areas. NASA has done substantial research around the technical aspects of locating vertiports, including",
-    "status": "Completed",
-    "startDate": "Aug 2021",
-    "endDate": "Jan 2022",
-    "lastUpdated": "05/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Ground and Surface Logistics",
-    "partners": [
-      "NASA Headquarters",
-      "Maven Research Inc."
     ],
     "website": ""
   }

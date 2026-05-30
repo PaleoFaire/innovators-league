@@ -1,5 +1,126 @@
 [
   {
+    "id": 158440,
+    "title": "ICE CHILL: Integrated Cryo-operable Electronics to Condition Hibernation for Improved Li-ion Longevity",
+    "description": "<p>\u00a0ICE CHILL, a novel integrated battery module/battery management system<br />(BMS) and demonstrate its capability to enable passive Li-ion battery hibernation through the lunar\u00a0<br />night with zero excess degradation caused by freezing the cells. We will deliver a cryogenically\u00a0<br />operable battery management system, a 28V/15Ah battery module that can passively survive the\u00a0<br />lunar night, and a comprehensive Li-ion battery hibernation protocol for other future designs to\u00a0<br />follow. I",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Oct 2026",
+    "lastUpdated": "05/29/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Glenn Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158367,
+    "title": "BrainStack: An Orbital Laboratory for AI/ML processors-including the first flight of NASA High Performance Spacecraft Computing (HPSC) Platform",
+    "description": "<p>This project builds upon previously flown experiments on TES-10, 13. They hosted the first LEO demonstration of a neuromorphic processor and NVIDIA GPU. These devices have been superceeded by powerful new variations but have yet to be flown in space. Previously developed TES-OS will be used to simplify the otherwise challenging interface between various candidate processors and TES-core avionics. This, combined with TES-n bus power/thermal hardware permits a modular platform for hosted AI/ML ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Ames Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158366,
+    "title": "Windybird: Animal-borne Wind Velocity Measurements at the Planetary Boundary Layer",
+    "description": "<p>This project aims to develop and calibrate a 5-hole Pitot tube for bird-borne biologgers to measure wind velocity. This innovation will enhance in-situ wind data collection, validate satellite measurements, and improve understanding of atmospheric and oceanographic processes. It also has potential applications in meteorology and biopneumatic robotics.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Ames Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158020,
+    "title": "Compact Optical Method for Long-range, Inexpensive Network Communication (COMLINC)",
+    "description": "<p>This project starts the development of a small, low-cost optical comm system for direct LEO and/or Lunar to Earth data downlinks.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Oct 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "",
+    "partners": [
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158015,
+    "title": "Strong Thermoset Regolith UV-Curable Composite Technology (STRUCT)",
+    "description": "<p>The project aims to develop a UV-curable resin-regolith composite for manufacturing lunar infrastructure, such as landing pads, using in-situ resources. This approach reduces reliance on Earth-supplied materials and energy, potentially lowering mission mass and energy consumption, while leveraging past innovations and partnerships.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "05/29/26",
+    "center": "Ames Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183925,
+    "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
+    "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Above-Surface Mobility",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183961,
+    "title": "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics",
+    "description": "Capability Need/Knowledge Gap:    Existing methods and testing facilities to perform flight testing/V&V are insufficient for next-gen Mars rotorcraft which have >15x mass of Ingenuity. Performing sub-scale vehicle testing in Earth\u2019s atmosphere conditions, while replicating on[1]planet flight dynamics, remains unexplored.      Goal: Mature sub-scale vehicle testing in Earth's atmosphere conditions to enable fast, cost[1]effective flight dynamics V&V of large planetary rotorcraft",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Flight Performance and Analysis",
+    "partners": [
+      "Ames Research Center",
+      "University of Portland"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183956,
+    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
+    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 183952,
     "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
     "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
@@ -29,52 +150,6 @@
       "Ames Research Center",
       "Glenn Research Center",
       "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183956,
-    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
-    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Robot Navigation and Path Planning",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183961,
-    "title": "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics",
-    "description": "Capability Need/Knowledge Gap:    Existing methods and testing facilities to perform flight testing/V&V are insufficient for next-gen Mars rotorcraft which have >15x mass of Ingenuity. Performing sub-scale vehicle testing in Earth\u2019s atmosphere conditions, while replicating on[1]planet flight dynamics, remains unexplored.      Goal: Mature sub-scale vehicle testing in Earth's atmosphere conditions to enable fast, cost[1]effective flight dynamics V&V of large planetary rotorcraft",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Flight Performance and Analysis",
-    "partners": [
-      "Ames Research Center",
-      "University of Portland"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183925,
-    "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
-    "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Above-Surface Mobility",
-    "partners": [
-      "Ames Research Center"
     ],
     "website": ""
   },
@@ -1431,38 +1506,6 @@
     "technologyArea": "Heat Rejection and Storage",
     "partners": [
       "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117542,
-    "title": "CC21 Waste to Base Materials Challenge: Sustainable Reprocessing in Space",
-    "description": "A new mission architecture that addresses sustainability as a core principle will naturally lead to the question of what to do with all the trash and waste that is generated during a mission to Mars? The answer to dealing with all this ?dead mass? is to reprocess waste into useful products, such as replacement parts, structures, shielding, and propellant thereby reducing the initial launch mass and thus saving tens of billions of dollars in launch costs.<br \\> Imagine you are on a mission to Mar",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Jul 2022",
-    "lastUpdated": "05/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "In Situ Manufacturing, Maintenance, and Repair",
-    "partners": [
-      "Ames Research Center",
-      "HeroX"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117535,
-    "title": "CC21 Real Time Cognitive State Determination System",
-    "description": "Astronauts will need to carry out autonomous operations as they venture beyond Low Earth Orbit. For many of the activities that the astronauts perform, the same training is provided to everyone months ahead of time. A system that provides customized training ahead of mission, just-in time training, or real-time operations support that is optimized and tailored to each astronaut's psychophysiological state at the time of the activities would significantly improve operations.<br \\> It is important",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Jul 2022",
-    "lastUpdated": "05/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Behavioral Health and Performance",
-    "partners": [
-      "Johnson Space Center",
-      "Appirio/Topcoder"
     ],
     "website": ""
   }
