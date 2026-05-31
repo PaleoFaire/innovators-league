@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T09:51:12Z",
+  "generated_at": "2026-05-31T10:11:27Z",
   "company_count": 841,
   "checks": {
     "acquisition_language": [
@@ -1327,7 +1327,7 @@
     ],
     "stage_vocabulary": {
       "Series A": 224,
-      "Series B": 181,
+      "Series B": 180,
       "Seed": 136,
       "Series C": 86,
       "Public": 55,
@@ -1346,6 +1346,7 @@
       "Public (KOSDAQ)": 3,
       "Bootstrapped": 2,
       "Public (Tokyo)": 2,
+      "Series B2": 1,
       "Series A-1": 1,
       "Pre-Series B": 1,
       "Public (INVZ)": 1,
@@ -1410,11 +1411,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "dead_website",
         "name": "Extropic",
         "url": "https://extropic.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "dead_website",
@@ -1429,6 +1430,13 @@
         "old_url": "https://theboringcompany.com",
         "new_url": "https://www.boringcompany.com/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "dead_website",
+        "name": "Arc Boats",
+        "url": "https://arcboats.com",
+        "status": 429,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "rebrand_suspect",
@@ -1515,11 +1523,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "dead_website",
         "name": "Outpost Space",
         "url": "https://outpostspace.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "dead_website",
@@ -1550,11 +1558,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "dead_website",
         "name": "Redwood Materials",
         "url": "https://redwoodmaterials.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "rebrand_suspect",
@@ -1609,8 +1617,8 @@
   },
   "summary": {
     "p0_issues": 26,
-    "p1_issues": 14,
+    "p1_issues": 18,
     "missing_websites": 253,
-    "distinct_stages": 32
+    "distinct_stages": 33
   }
 }

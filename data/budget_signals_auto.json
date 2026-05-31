@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 4,
+    "activityIndex": 3,
     "billsTracked": 2,
-    "rulesTracked": 2,
-    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
+    "rulesTracked": 1,
+    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -27,12 +27,6 @@
       {
         "type": "federal_register",
         "title": "Southern Nuclear Operating Company, Inc.; Edwin I. Hatch Nuclear Plant, Units 1 ",
-        "agency": "",
-        "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nucle",
         "agency": "",
         "date": ""
       }
@@ -104,6 +98,29 @@
         "title": "Commercial Space Launch Competitiveness Act Amendments",
         "number": "HR3684",
         "status": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-05-31"
+  },
+  {
+    "category": "AI & Autonomy",
+    "icon": "\ud83e\udd16",
+    "budgetLineItem": "AI & Autonomy \u2014 federal activity index",
+    "change": "flat",
+    "changeNum": 0,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 1,
+    "billsTracked": 0,
+    "rulesTracked": 1,
+    "description": "0 bill(s) + 1 federal-register action(s) touching AI & Autonomy in the last 90 days. Activity index 1 \u2014 flat relative trend.",
+    "examples": [
+      {
+        "type": "federal_register",
+        "title": "NIST Artificial Intelligence Consortium",
+        "agency": "",
+        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",

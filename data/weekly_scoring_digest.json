@@ -1,98 +1,79 @@
 {
-  "generated_at": "2026-05-24T09:51:10.186110+00:00",
-  "week_ending": "2026-05-24",
+  "generated_at": "2026-05-31T10:11:25.316260+00:00",
+  "week_ending": "2026-05-31",
   "window_days": 7,
-  "events_processed": 9,
+  "events_processed": 8,
   "companies_touched": 7,
-  "companies_moved": 1,
-  "companies_unchanged": 3,
-  "movers_up_top20": [
-    {
-      "company": "Rigetti Computing",
-      "delta": 4.0,
-      "new_composite": 89.0,
-      "old_composite": 85.0,
-      "new_tier": "exceptional",
-      "reasons": [
-        "[exec_hire_star] "
-      ]
-    }
-  ],
+  "companies_moved": 0,
+  "companies_unchanged": 2,
+  "movers_up_top20": [],
   "movers_down_top10": [],
   "tier_crossings": [],
   "first_time_elite": [],
   "top_headlines": [
     {
-      "company": "BlackSky Technology",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-22",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-037716%22&dateRange=custom&forms=8-K"
+      "company": "Anthropic",
+      "type": "funding_mega",
+      "detail": "Funding Round $65B",
+      "date": "2026-05-28",
+      "source": "funding_feed",
+      "url": ""
     },
     {
-      "company": "Rocket Lab",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-21",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001819994-26-000048%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Rigetti Computing",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-21",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-064861%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "D-Wave Quantum",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-21",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000066%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Rocket Lab",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-20",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001819994-26-000045%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Satellogic",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-20",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-059604%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Upstart Holdings",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-19",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001647639-26-000048%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Satellogic",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-19",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-059140%22&dateRange=custom&forms=8-K"
+      "company": "Anthropic",
+      "type": "funding_mega",
+      "detail": "Series H $65B",
+      "date": "2026-05-29",
+      "source": "funding_feed",
+      "url": ""
     },
     {
       "company": "Virgin Galactic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-18",
+      "date": "2026-05-28",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001706946-26-000074%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001706946-26-000085%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Upstart Holdings",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-28",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001647639-26-000050%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "UiPath",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-28",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001734722-26-000037%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "D-Wave Quantum",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-26",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000071%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Aurora Innovation",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-26",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001828108-26-000057%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Satellogic",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-05-26",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-060781%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {

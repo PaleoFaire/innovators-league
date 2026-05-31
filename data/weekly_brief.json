@@ -1,28 +1,84 @@
 {
-  "date": "2026-05-25",
-  "display_date": "May 25, 2026",
-  "generated_at": "2026-05-25T13:33:13.172088+00:00",
-  "cutoff": "2026-05-18T13:33:13.172088+00:00",
+  "date": "2026-05-31",
+  "display_date": "May 31, 2026",
+  "generated_at": "2026-05-31T11:05:44.243821+00:00",
+  "cutoff": "2026-05-24T11:05:44.243821+00:00",
   "section_count": 7,
-  "total_items": 286,
+  "total_items": 297,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 2,
+      "count": 45,
       "items": [
         {
-          "company": "Rigetti Computing",
-          "current": 89.0,
-          "previous": 85.0,
-          "change": 4.0,
-          "tier": "exceptional"
+          "company": "Scale AI",
+          "current": 40.5,
+          "previous": 90.5,
+          "change": -50.0,
+          "tier": "early"
         },
         {
-          "company": "Swan",
+          "company": "Sakana AI",
           "current": 37.0,
-          "previous": 34.0,
-          "change": 3.0,
+          "previous": 80.0,
+          "change": -43.0,
+          "tier": "early"
+        },
+        {
+          "company": "Safe Superintelligence",
+          "current": 37.0,
+          "previous": 77.5,
+          "change": -40.5,
+          "tier": "early"
+        },
+        {
+          "company": "World Labs",
+          "current": 37.0,
+          "previous": 77.5,
+          "change": -40.5,
+          "tier": "early"
+        },
+        {
+          "company": "OpenAI",
+          "current": 37.0,
+          "previous": 75.5,
+          "change": -38.5,
+          "tier": "early"
+        },
+        {
+          "company": "Databricks",
+          "current": 37.0,
+          "previous": 75.5,
+          "change": -38.5,
+          "tier": "early"
+        },
+        {
+          "company": "Arondite",
+          "current": 37.0,
+          "previous": 75.5,
+          "change": -38.5,
+          "tier": "early"
+        },
+        {
+          "company": "Preferred Networks",
+          "current": 37.0,
+          "previous": 75.5,
+          "change": -38.5,
+          "tier": "early"
+        },
+        {
+          "company": "Sift",
+          "current": 37.0,
+          "previous": 75.5,
+          "change": -38.5,
+          "tier": "early"
+        },
+        {
+          "company": "Thinking Machines Lab",
+          "current": 37.0,
+          "previous": 75.5,
+          "change": -38.5,
           "tier": "early"
         }
       ]
@@ -30,62 +86,62 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 64,
+      "count": 28,
       "items": [
         {
-          "company": "Rocket Lab",
+          "company": "Virgin Galactic",
           "form": "8-K",
-          "description": "rklb-20260520.htm",
-          "date": "2026-05-21",
-          "isIPO": false
-        },
-        {
-          "company": "Rocket Lab",
-          "form": "8-K",
-          "description": "rklb-20260520.htm",
-          "date": "2026-05-20",
-          "isIPO": false
-        },
-        {
-          "company": "BlackSky Technology",
-          "form": "8-K",
-          "description": "bksy-20260522.htm",
-          "date": "2026-05-22",
+          "description": "spce-20260528.htm",
+          "date": "2026-05-28",
           "isIPO": false
         },
         {
           "company": "Upstart Holdings",
           "form": "8-K",
-          "description": "upst-20260519.htm",
-          "date": "2026-05-19",
+          "description": "upst-20260528.htm",
+          "date": "2026-05-28",
           "isIPO": false
         },
         {
-          "company": "Rigetti Computing",
+          "company": "UiPath",
           "form": "8-K",
-          "description": "tm2615300d1_8k.htm",
-          "date": "2026-05-21",
+          "description": "path-20260528.htm",
+          "date": "2026-05-28",
           "isIPO": false
         },
         {
           "company": "D-Wave Quantum",
           "form": "8-K",
-          "description": "qbts-20260521.htm",
-          "date": "2026-05-21",
+          "description": "qbts-20260526.htm",
+          "date": "2026-05-26",
+          "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260526.htm",
+          "date": "2026-05-26",
+          "isIPO": false
+        },
+        {
+          "company": "Aurora Innovation",
+          "form": "8-K",
+          "description": "aur-20260521.htm",
+          "date": "2026-05-26",
           "isIPO": false
         },
         {
           "company": "Satellogic",
           "form": "8-K",
-          "description": "ea0291617-8k_zoomcar.htm",
-          "date": "2026-05-20",
+          "description": "ea0291524-8k_zoomcar.htm",
+          "date": "2026-05-26",
           "isIPO": false
         },
         {
-          "company": "Satellogic",
-          "form": "8-K",
-          "description": "ea0291545-8k_zoomcar.htm",
-          "date": "2026-05-19",
+          "company": "Rocket Lab",
+          "form": "4",
+          "description": "xslF345X06/edgardoc.xml",
+          "date": "2026-05-28",
           "isIPO": false
         }
       ]
@@ -93,79 +149,96 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 1,
+      "count": 4,
       "items": [
         {
           "title": "SIP TO128 1ST QUARTER HARDWARE BUY",
           "agency": "",
           "value": "",
           "date": "2026-08-06"
+        },
+        {
+          "title": "TASK ORDER FOR MR-UAS INSTALLATION AND DEPLOYMENT SERVICES FOR COAST GUARD NATIONAL SECURITY CUTTERS.",
+          "agency": "",
+          "value": "",
+          "date": "2026-05-27"
+        },
+        {
+          "title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ",
+          "agency": "",
+          "value": "",
+          "date": "2026-05-28"
+        },
+        {
+          "title": "IMPLEMENTS A SOLUTION FROM THE INITIAL TROUBLESHOOTING OF THE BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIOD",
+          "agency": "",
+          "value": "",
+          "date": "2026-05-26"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 29,
+      "count": 34,
       "items": [
         {
-          "title": "Notice of OFAC Sanctions Action",
-          "type": "Notice",
-          "agencies": [
-            "Treasury Department",
-            "Foreign Assets Control Office"
-          ],
-          "significant": false,
-          "date": "2026-05-22"
-        },
-        {
-          "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Prog",
-          "type": "Rule",
-          "agencies": [
-            "Health and Human Services Department",
-            "Centers for Medicare & Medicaid Services",
-            ""
-          ],
-          "significant": false,
-          "date": "2026-05-20"
-        },
-        {
-          "title": "Privacy Act of 1974; System of Records",
-          "type": "Notice",
-          "agencies": [
-            "Health and Human Services Department",
-            "Health Resources and Services Administration"
-          ],
-          "significant": false,
-          "date": "2026-05-19"
-        },
-        {
-          "title": "Flexibility Enhancements of Weather Reporting Systems",
+          "title": "Regulation for Federal Financial Assistance",
           "type": "Proposed Rule",
+          "agencies": [
+            "Management and Budget Office",
+            "Health and Human Services Department",
+            "Agriculture Department"
+          ],
+          "significant": false,
+          "date": "2026-05-29"
+        },
+        {
+          "title": "Special Conditions: Honeywell International Inc., Boeing Model 757-200 Series Airplanes; Electronic System Security Prot",
+          "type": "Rule",
           "agencies": [
             "Transportation Department",
             "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-05-22"
+          "date": "2026-06-01"
         },
         {
-          "title": "State of Indiana: NRC Staff Assessment of a Proposed Agreement Between the Nuclear Regulatory Commission and the State o",
+          "title": "Airworthiness Directives; The Boeing Company Airplanes",
+          "type": "Rule",
+          "agencies": [
+            "Transportation Department",
+            "Federal Aviation Administration"
+          ],
+          "significant": false,
+          "date": "2026-05-29"
+        },
+        {
+          "title": "Space Bureau Seeks Comment on GSO Reference Links",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Federal Communications Commission"
+          ],
+          "significant": false,
+          "date": "2026-05-28"
+        },
+        {
+          "title": "Information Collection Being Reviewed by the Federal Communications Commission",
+          "type": "Notice",
+          "agencies": [
+            "Federal Communications Commission"
+          ],
+          "significant": false,
+          "date": "2026-05-28"
+        },
+        {
+          "title": "NuFuels Inc.; Crownpoint Uranium Project In-Situ Recovery Facility; License Renewal Application",
           "type": "Notice",
           "agencies": [
             "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-05-22"
-        },
-        {
-          "title": "Rescinding Portions of Department of the Interior Title VI Regulations To Conform More Closely With the Statutory Text a",
-          "type": "Rule",
-          "agencies": [
-            "Interior Department"
-          ],
-          "significant": false,
-          "date": "2026-05-22"
+          "date": "2026-05-27"
         }
       ]
     },
@@ -175,59 +248,59 @@
       "count": 33,
       "items": [
         {
-          "title": "SpaceX SHOCKING AI Revenue from Elon Web Services and Cursor Will be HUGE for the SPACEX IPO",
-          "source": "Next Big Future",
+          "title": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
+          "source": "TechCrunch",
           "company": "SpaceX",
           "impact": "high",
-          "type": "ipo"
+          "type": "contract"
         },
         {
-          "title": "xAI Selling $1.5 Billion of Compute to Anthropic Each Month",
-          "source": "CleanTechnica",
-          "company": "Anthropic",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "XAI $15 Billion Per Year AI Rental to Anthropic Details",
-          "source": "Next Big Future",
-          "company": "Anthropic",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "SpaceX IPO filing casts Starlink Mobile as future wireless challenger",
-          "source": "SpaceNews",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "STAT+: Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion",
-          "source": "STAT News",
-          "company": "Retro Biosciences",
+          "title": "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+          "source": "TechCrunch",
+          "company": "Groq",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "The SpaceX IPO Filing Looks Nothing Like Those Of The Elite Group Of Tech Giants It&#8217;s Hoping T",
-          "source": "Crunchbase News",
+          "title": "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking",
+          "source": "SpaceNews",
           "company": "SpaceX",
+          "impact": "high",
+          "type": "contract"
+        },
+        {
+          "title": "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot",
+          "source": "Tech.eu",
+          "company": "Focused Energy",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "SpaceX files for IPO",
-          "source": "SpaceNews",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "A*STAR, Commonwealth Fusion Systems sign collaborative research agreement to advance fusion supply c",
+          "title": "GIC, Temasek anchor Singapore&#8217;s investment in Anthropic&#8217;s $65B Series H round",
           "source": "TechNode Global",
-          "company": "Commonwealth Fusion Systems",
-          "impact": "low",
+          "company": "Anthropic",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Observable Space raises $90 million and wins Space Force contract for optical systems",
+          "source": "SpaceNews",
+          "company": "Observable Space",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "SpaceX and SpaceXAI Are Changing Quickly. Understanding Profits and Growth and IPO Price Action",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "Anthropic Nears $1T Valuation And Leapfrogs OpenAI On Unicorn Board With $65B Funding Round",
+          "source": "Crunchbase News",
+          "company": "Anthropic",
+          "impact": "high",
           "type": "funding"
         }
       ]
@@ -235,107 +308,108 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 47,
+      "count": 44,
       "items": [
         {
-          "title": "Green card seekers must leave U.S. to apply, Trump administration says",
-          "score": 1065,
-          "comments": 1881,
+          "title": "The dead economy theory",
+          "score": 1281,
+          "comments": 1386,
           "companies": [
-            "Bear Robotics"
+            "HEO"
           ],
-          "url": "https://news.ycombinator.com/item?id=48241890"
+          "url": "https://news.ycombinator.com/item?id=48324712"
         },
         {
-          "title": "Texas woman arrested for Facebook post about town water quality",
-          "score": 776,
-          "comments": 319,
+          "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
+          "score": 845,
+          "comments": 298,
           "companies": [
-            "Rainmaker",
-            "Vital Lyfe"
+            "Matic Robotics",
+            "Photonic Inc"
           ],
-          "url": "https://news.ycombinator.com/item?id=48249747"
+          "url": "https://news.ycombinator.com/item?id=48341578"
         },
         {
-          "title": "Microsoft open-sources \u201cthe earliest DOS source code discovered to date\u201d",
-          "score": 479,
-          "comments": 169,
+          "title": "SQLite is all you need for durable workflows",
+          "score": 681,
+          "comments": 373,
           "companies": [
-            "Kyutai",
-            "Together AI",
-            "Cover",
-            "Photonic Inc",
-            "Auterion"
+            "Dunia"
           ],
-          "url": "https://news.ycombinator.com/item?id=48253386"
+          "url": "https://news.ycombinator.com/item?id=48326802"
         },
         {
-          "title": "Wake up! 16b",
-          "score": 422,
-          "comments": 32,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=48253060"
+          "title": "Danish pension fund excludes SpaceX citing governance and valuation",
+          "score": 458,
+          "comments": 12,
+          "companies": [
+            "SpaceX"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48333820"
         },
         {
-          "title": "Show HN: Audiomass \u2013 a free, open-source multitrack audio editor for the web",
-          "score": 379,
-          "comments": 83,
+          "title": "Notes from the Mistral AI Now Summit",
+          "score": 458,
+          "comments": 200,
           "companies": [
-            "Auterion",
-            "Kyutai",
-            "Together AI",
-            "ElevenLabs"
+            "Mistral AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48258015"
+          "url": "https://news.ycombinator.com/item?id=48325340"
         },
         {
-          "title": "Why is Vivado 2026.1 dropping Linux support for free tier?",
-          "score": 329,
-          "comments": 203,
+          "title": "OpenRouter raises $113M Series B",
+          "score": 417,
+          "comments": 198,
           "companies": [
-            "Ada"
+            "Fortera"
           ],
-          "url": "https://news.ycombinator.com/item?id=48254309"
+          "url": "https://news.ycombinator.com/item?id=48338660"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 110,
+      "count": 109,
       "items": [
         {
-          "title": "Grey Matters Improves Warrant Terms of Private Placement",
+          "title": "Pluvicto\u2122 demonstrated consistent efficacy across key patient subgroups in metastatic hormone-sensitive prostate cancer",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Coda Octopus Group Sets Fiscal Second Quarter 2026 Earnings Conference Call for Monday, June 15, 2026, at 10 a.m. Easter",
+          "title": "Orion Pharma announces first results from Phase 1/2 TEADES trial with TEAD inhibitor ODM-212 in patients with advanced s",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Octave Intelligence Plc Listed on Nasdaq Stockholm",
+          "title": "Orion Pharma julkisti ensimm\u00e4iset tulokset Faasi 1/2 TEADES-tutkimuksesta ODM-212-molekyylill\u00e4 (TEAD-est\u00e4j\u00e4) potilailla,",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Octave Intelligence Plc Listed on Nasdaq Stockholm",
+          "title": "Eikon Therapeutics Presents Data on Clinical-Stage Programs at the 2026 Annual Meeting of the American Society of Clinic",
+          "source": "globenewswire_all",
+          "companies": [
+            "Eikon Therapeutics",
+            "Zipline",
+            "Kinova Robotics",
+            "Asimov",
+            "Profluent"
+          ]
+        },
+        {
+          "title": "Global Data for BioNTech and Bristol Myers Squibb\u2019s PD-L1xVEGF-A Bispecific Pumitamig Shows Encouraging Efficacy in Pati",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "JPMorgan Announces Cash Distributions for the JPMorgan ETFs",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "JPMorgan annonce des distributions en esp\u00e8ces pour les FNB JPMorgan",
+          "title": "Globale Daten der ROSETTA Lung-02-Studie: Ermutigende Wirksamkeit f\u00fcr BioNTechs und Bristol Myers Squibbs bispezifischen",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-05-25-65b76b6be786"
+  "brief_id": "brief-2026-05-31-9833628a7331"
 }
