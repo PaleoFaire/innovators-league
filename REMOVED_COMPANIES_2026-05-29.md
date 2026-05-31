@@ -1,0 +1,651 @@
+# Companies Removed From Database (2026-05-22 to 2026-05-29)
+**Total removed: 625** (peak 1,466 → current 841)
+
+## Dead companies — round 1 — 19 removed
+*Acquired, gone public, or shut down. Found in the first enrichment sweep of the top-priority new entries.*
+
+- Alpha & Omega Semiconductor
+- Aurora Innovation
+- Blue River
+- BridgeBio
+- Cadence Design Systems
+- Carbon Engineering
+- Cisco
+- Heliogen
+- Iviva Medical
+- Microchip Technology
+- Momentus
+- Natera
+- Nelumbo
+- Noya
+- Pharming Group
+- Pixelworks
+- Skybox
+- Vayu
+- Western Digital
+
+## Dead companies — round 2 — 45 removed
+*Acquired, gone public, or shut down. Found across the 199 tier-1-backed thin VC-sweep entries (mostly old Lux portfolio exits).*
+
+- AESCAPE
+- AirMap
+- Archer
+- Atomic Alchemy
+- Bowery Farming
+- Cobalt Robotics
+- Conduit Tech
+- Covariant
+- Crystal IS
+- Dedrone
+- Desktop Metal
+- ESS Inc.
+- Embark
+- Energy Vault
+- Everspin Technologies
+- Exyn Technologies
+- Flex Logix
+- Flextronics
+- Fortify
+- Fox Robotics
+- G2X Energy
+- Graphcore
+- Holo
+- JetCool
+- Kindred AI
+- Latch
+- Luxtera
+- Markforged
+- Nanosys
+- Nyriad
+- Orbital Insight
+- SOLS Systems
+- Shapeways
+- SiBeam
+- Strateos
+- Sunrun
+- SustainX
+- Tempo Automation
+- Tesla
+- Transphorm
+- Vathys
+- Veo Robotics
+- Vium
+- Voodoo Manufacturing
+- deepsilicon
+
+## Pharma + food + more dead — 144 removed
+*Your call: cull pure-pharma/therapeutics/drug-discovery and food/cultivated-meat/dairy. Kept frontier hard-bio (BCI, surgical robots, lab automation, synbio platforms). Plus another 19 acquired/public/defunct found in this pass.*
+
+- 6 River Systems
+- A-Alpha Bio
+- Abata Therapeutics
+- Abiologics
+- AbogenBio
+- Adimab
+- Aera Therapeutics
+- Alloy Therapeutics
+- Alltrna
+- Aloft
+- Alpha-9 Oncology
+- Alpine Bio
+- Ampersand Biomedicines
+- Amplifier Therapeutics
+- Anagenex
+- Ancora Biotech
+- Apriori Bio
+- Arista Networks
+- ArkeaBio
+- Ascend Advanced Therapies
+- Atavistik Bio
+- Atlantic Quantum
+- Babylon Bio
+- Beeflow
+- Better Meat Co
+- Bexorg
+- BigHat Biosciences
+- BioPhero
+- BreezeBio
+- C16 Biosciences
+- CHARM Therapeutics
+- CREATE Medicines
+- Cajal Neuroscience
+- Cambrian Bio
+- Cartography Biosciences
+- Castle Creek Biosciences
+- Catalog
+- Cellarity
+- Cellino
+- Centivax
+- Creyon
+- Dewpoint Therapeutics
+- Dren Bio
+- Dyno Therapeutics
+- Elo Life
+- Empress Therapeutics
+- Enfabrica
+- Enlaza Therapeutics
+- Enough
+- Enriched Ag
+- EpiSci
+- Etiome
+- Everyone Medicines
+- Faeth Therapeutics
+- Flightwave
+- Flow Neuroscience
+- Foghorn Therapeutics
+- Formo
+- FreeWire Technologies
+- GALY
+- Gameto
+- Generate:Biomedicines
+- Gilgamesh
+- Ginkgo Bioworks
+- Gordian
+- Greenlight Biosciences
+- Guardant Health
+- Hillevax
+- ImmunOs Therapeutics
+- Infinimmune
+- Inflammatix
+- Insamo
+- KSQ Therapeutics
+- Kallyope
+- Kamau
+- Karius
+- Kirilys Therapeutics
+- Liberate Bio
+- Lineage Logistics
+- Loyal
+- Lygenesis
+- Matrisome Bio
+- Maxion Therapeutics
+- Maze Therapeutics
+- Merlin Labs
+- Metaphore Biotechnologies
+- Minus Coffee
+- Mirai Bio
+- Moderna
+- Montai Therapeutics
+- Moonwalk Bio
+- Mosa Meat
+- MycoWorks
+- Nature's Fynd
+- New Culture
+- Nobell Foods
+- Nucleus Radiopharma
+- Odyssey Therapeutics
+- Omniome
+- Orca Bio
+- Orchestra Bio
+- Ossium Health
+- OurSky
+- Outpace
+- Parabilis Medicines
+- Pearl Bio
+- Pendulum Therapeutics
+- ProFound Therapeutics
+- Prologue Medicines
+- Pure Storage
+- Quince Therapeutics
+- Quotient Therapeutics
+- Rakuten Medical
+- Repertoire Immune Medicines
+- Resilience
+- Ring Therapeutics
+- Rubedo Life
+- SURGE Therapeutics
+- Sail Biomedicines
+- Sana Biotechnology
+- Sensei Biotherapeutics
+- Senti Biosciences
+- Seres Therapeutics
+- Shennon Bio
+- Sonoma Biotherapeutics
+- Stylus Medicine
+- Supplant
+- Synthetic Design Lab
+- Tahoe Therapeutics
+- Tender Food
+- Tessera Therapeutics
+- Upside Foods
+- Valo
+- Vaxxinity
+- Vesalius Therapeutics
+- Vironexis Biotherapeutics
+- Visterra
+- Vitara
+- Voyager Space
+- Your Choice Therapeutics
+- Zapata AI
+- Zero Acre Farms
+- Zymergen
+- atai Life Sciences
+
+## High-conviction roll-back — 292 removed
+*Your call: roll back the bulk of the VC-portfolio-sweep additions to only the strongest by sector-hardness, tier-1 backing, stage, traction. From 438 → 146 frontier hard-tech keepers.*
+
+- 3E8 Robotics
+- 9 Mothers
+- Acorn Genetics
+- Adyton
+- AgZen
+- Aidoc
+- Albacore
+- Alsym Energy
+- American Housing Corporation
+- Amide
+- Anello Photonics
+- Anthology
+- Anvil Robotics
+- Applied Atomics
+- Aquafortus
+- Arca
+- Arnergy
+- Artyc
+- Askari Defense
+- Astonishing Labs
+- Athanor
+- Atom Limbs
+- Atoms
+- Atrandi
+- Atropos
+- Aurora Solar
+- Azora
+- Basalt
+- Baseload Capital
+- Beacon Biosignals
+- Beyond Reach
+- Bindwell
+- Biosphere
+- Bland Company
+- Bloom Biorenewables
+- Blue World Technologies
+- Bodyport
+- Bohr Systems
+- Boring Company
+- Breathe Batteries
+- Brick Dynamics
+- Bubble Robotics
+- Buoyant
+- CH4 Global
+- Cala Health
+- Callosum
+- Capstan Medical
+- Carbon Crusher
+- CargoKite
+- Cato Digital
+- Ceibo
+- Cellular Intelligence
+- Circ
+- Citra Space Corporation
+- Clairity
+- Clone
+- CloudNC
+- Cradle
+- Crewline
+- Critical Energy
+- CubicPV
+- Culture Biosciences
+- DMC Biotechnologies
+- Dandelion Energy
+- Decibel Bio
+- Digital Diagnostics
+- Digital Metal
+- Dioxycle
+- Dispatch Space
+- Dominion Dynamics
+- Dorado
+- DroneDeploy
+- Droplet Biosciences
+- Ecocem
+- Ecosafi
+- Edgescale AI
+- Electroflow
+- Element Zero
+- Enigma Aerospace
+- Entocycle
+- Enzymit
+- Eon Systems
+- Equilibrium Energy
+- EraDrive
+- Evonetix
+- Fabri
+- Fabric
+- Felix Biotechnology
+- Float Cargo
+- ForSight Robotics
+- Foray Bioscience
+- Foundation Alloy
+- Foundry Robotics
+- GRU
+- General Biological
+- Genomines
+- GeologicAI
+- GigaCrop
+- Glydways
+- Gridware
+- Guidewheel
+- H2Site
+- Halter
+- Happiest Baby
+- Harbinger Motors
+- Hawkeye 360
+- Hayden AI
+- Hayla
+- Heaviside
+- Hellbender
+- Humble Robotics
+- Hypori
+- I-ROX
+- Iceberg Quantum
+- Impossible Foods
+- InRange
+- Inari Agriculture
+- Indigo Agriculture
+- Inevitable Tech
+- Insight M
+- Instock
+- JetZero
+- Jetson
+- KEWAZO
+- Kano
+- Kayhan Space
+- Kinetic
+- Kunin
+- Kymeta
+- Kytopen
+- Lambda
+- Leaft
+- Lemon
+- Lift Aircraft
+- Loam Bio
+- Loombotic
+- Lucid Bots
+- Lumen (Lowercarbon)
+- Lux Aeterna
+- M2X
+- MAX
+- Macro Oceans
+- MagLev Aero
+- Maglut Heavy Industries
+- Mango
+- Mangrove Lithium
+- Mantle8
+- Material
+- Medivis
+- Mendaera
+- Mendra
+- Merge Labs
+- Mesh Optical Technologies
+- Mill
+- Milvus Advanced
+- Mind Robotics
+- Mirvie
+- Molecular Assemblies
+- Moment Energy
+- Monaire
+- Musa
+- MyOme
+- NVision
+- Nanotronics
+- Natel Energy
+- Neion Bio
+- Netradyne
+- Neurobionics
+- Neurophos
+- Nevoya
+- Nitricity
+- Noble Gas Systems
+- Noble Machines
+- Nodal
+- Nomic
+- Novalith
+- Octant
+- Odin Dynamics
+- Opentrons
+- Orbio
+- Orbital
+- Orbital Operations
+- Orbital Robotics
+- Our Next Energy
+- Oura
+- Overture Life
+- Oxide
+- Parallax Worlds
+- Pascal
+- Path Power
+- Periodic Labs
+- Perseus Defense
+- Phaidra
+- PhysicsX
+- Pivot Bio
+- Pivotal Commware
+- Plotlogic
+- Point One
+- Predicta
+- Prellis Biologics
+- Privateer Space
+- Proclaim
+- Project Omega
+- Prolific Machines
+- Prometheus Hyperscale
+- Proprio
+- Pumpkinseed Bio
+- Quidnet Energy
+- Quilt
+- Radify Metals
+- ReMo Energy
+- Reach Labs
+- Reactive Technologies
+- Remedy (Scientific)
+- Remora
+- Rendered.ai
+- Rendezvous Robotics
+- Resolute Grid
+- Resonant Link
+- Revere
+- Rincell
+- Ripcord
+- River
+- Rize
+- Rumin8
+- STOR
+- Sabi
+- Safi
+- Sanmai Technologies
+- Savor
+- Seabound
+- Seaspire Skincare
+- Sepion Technologies
+- Sizable
+- Smartex
+- Solar Square
+- Somnee
+- Sortera Alloys
+- Source
+- Spaceium
+- Spaero Bio
+- Sphere Semi
+- Spinor Energy
+- Standard Electron
+- Stord
+- Storio Energy
+- Strella Biotechnology
+- Supercritical
+- Swan
+- Sygaldry
+- Syzygy Plasmonics
+- TRL11
+- Tarana
+- Terabase
+- TerraAI
+- Terragia
+- The Bot Company
+- The Red Metal Company
+- Tidal Metals
+- TimberEye
+- Tobe Energy
+- Trackonomy
+- Tractian
+- Turntide
+- Type III
+- Ulysses Ecosystem Engineering
+- Undo
+- Union
+- Upway
+- Vammo
+- Vantem
+- Verdigris Technologies
+- Verdox
+- Verkada
+- Vero Biosciences
+- Verve Motion
+- Via Separations
+- Visolis
+- Volund Manufacturing
+- Voxel Energy
+- Voya Energy
+- Western Chemicals
+- Whoop
+- WoHo
+- Woodoo
+- Xarion Laser Acoustics
+- ZaiNar
+- Zellerfeld
+- Zephyr Fusion
+- Zetwerk
+- Zum
+- nTop
+
+## Elite-6 fund filter — 115 removed
+*Your call: keep only new entries genuinely backed by a16z, 8VC, Founders Fund, Lux, Khosla, or Sequoia. Verified real cap tables on the 124 sourced from other funds. (Plus 2 dead originals: Milrem Robotics acquired by EDGE Group, Natron Energy defunct/liquidated.)*
+
+- 64x Bio
+- 75F
+- Acceleron Fusion
+- Addis Energy
+- Aeroseal
+- AheadComputing
+- Air Company
+- Airloom
+- Also
+- Alta Resource Technologies
+- Anode
+- AtmosZero
+- Axoft
+- Ayr Energy
+- Blue Energy
+- Blue Frontier
+- Boxbot
+- Catalyx Space
+- Celestial AI
+- Circularity Fuels
+- Clear (electric deicing)
+- Code Metal
+- Constelli
+- Copernic Catalysts
+- DG Matrix
+- Data Blanket
+- Dexai Robotics
+- Diraq
+- E-Space
+- EUV Tech
+- EVOLOH
+- EdgeCortix
+- Efficient Computer
+- ElectronX
+- Eli
+- Emvolon
+- Enhanced Radar
+- Estes Energy
+- FarmHQ
+- Finwave
+- Flair Systems
+- Fonontech
+- Frost Methane
+- Graphitic Energy
+- HavocAI
+- Hephae Energy Technology
+- Hyfé
+- HyperLight
+- Hypersonica
+- JEH Aerospace
+- Kanvas Biosciences
+- Kodama Systems
+- Kula Bio
+- Lace Lithography
+- Lithios
+- Lyten
+- Malta
+- Mantel
+- Matter (Lowercarbon)
+- Maybell Quantum
+- Milrem Robotics
+- Modular
+- Molten Industries
+- Molten Salt Solutions
+- Mori
+- Natron Energy
+- OSO Semiconductor
+- Obviant
+- Orchard Robotics
+- Osmoses
+- Overwatch Imaging
+- Paradromics
+- PicoJool
+- Pison
+- PowerLattice
+- Quantum Source
+- Quantune
+- RaySecur
+- Reframe Systems
+- Robust.AI
+- Samsara Eco
+- Seasats
+- SenseMesh
+- Snowcap
+- SoloPulse
+- Sora Fuel
+- SparkMeter
+- Standard Kernel
+- Star Catcher
+- Stardust Solutions
+- Still Bright
+- Stratus Materials
+- Subcritical Systems
+- Sustaera
+- Syenta
+- Syntiant
+- Tandem PV
+- Teradar
+- TerraCO2
+- The Lumber Manufactory
+- Thermopylae Aerospace
+- Trener Robotics
+- TrustPoint
+- Tyfone
+- UFORCE
+- Vaulted Deep
+- Vector (TF Vector)
+- Watchmaker Genomics
+- Windfall Bio
+- Xona Space Systems
+- Yard Stick
+- Zeromatter
+- ZwitterCo
+- mPower Technology
+- xLight
+
+## Original-DB audit — acquired/defunct — 10 removed
+*Status-audited all 820 original/curated entries via 41 research batches. Public companies retained per your call (Rocket Lab, IonQ, Planet, Joby, Cerebras, Oklo… all kept). These are the 10 confirmed acquired or defunct found.*
+
+- Ambient Photonics
+- Ascend Elements
+- Bear Robotics
+- DustPhotonics
+- EvolutionaryScale
+- HistoSonics
+- Modern Hydrogen
+- Monarch Tractor
+- Recycleye
+- uAvionix
