@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-05-30 09:07:43 UTC
+// Last updated: 2026-05-31 09:39:22 UTC
 const ARXIV_PAPERS = [
   { id: "2605.30351v1", title: "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion", category: "Artificial Intelligence", published: "2026-05-28", sectors: "nuclear", authors: "Hidir Yesiltepe, Jiazhen Hu, Tuna Han Salih Meral et al." },
   { id: "2605.30348v1", title: "LLMSurgeon: Diagnosing Data Mixture of Large Language Models", category: "Artificial Intelligence", published: "2026-05-28", sectors: "ai", authors: "Yaxin Luo, Jiacheng Cui, Xiaohan Zhao et al." },

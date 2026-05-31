@@ -50,7 +50,7 @@
         "awardAmount": "$37M"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Palantir",
@@ -107,7 +107,7 @@
         "awardAmount": "$86M"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Skydio",
@@ -161,11 +161,11 @@
         "awardAmount": "$110K"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Radiant",
-    "opportunityCount": 12,
+    "opportunityCount": 13,
     "agencies": [
       "Department of Agriculture",
       "Department of Defense",
@@ -177,6 +177,14 @@
     ],
     "types": [],
     "recentOpportunities": [
+      {
+        "title": "CLOUD RESOURCES MANAGEMENT SUPPORT",
+        "agency": "Department of Health and Human Services",
+        "postedDate": "2020-11-13",
+        "type": null,
+        "noticeId": "75FCMC20F0077",
+        "awardAmount": "$13M"
+      },
       {
         "title": "ASHEPS CONTRACT",
         "agency": "Department of Health and Human Services",
@@ -208,17 +216,9 @@
         "type": null,
         "noticeId": "2032H524F00746",
         "awardAmount": "$3M"
-      },
-      {
-        "title": "COMPLIANCE MANAGEMENT SYSTEM (CMS) FY25 OPERATIONS & MAINTENANCE (O&M) TECHNICAL SUPPORT",
-        "agency": "Department of Labor",
-        "postedDate": "2024-09-23",
-        "type": null,
-        "noticeId": "1605TA24F00054",
-        "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Shield AI",
@@ -270,7 +270,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Castelion",
@@ -321,163 +321,7 @@
         "awardAmount": "$685K"
       }
     ],
-    "lastUpdated": "2026-05-30"
-  },
-  {
-    "company": "Sierra Space",
-    "opportunityCount": 6,
-    "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "ADVANCED SPACESUIT REGULATOR (ASR)",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-12-18",
-        "type": null,
-        "noticeId": "80JSC026C0002",
-        "awardAmount": "$6M"
-      },
-      {
-        "title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-04-30",
-        "type": null,
-        "noticeId": "80HQTR25CA008",
-        "awardAmount": "$4M"
-      },
-      {
-        "title": "ENIAC CLOUD  THE FIRST SPACE HARDENED MULTI CLOUD EDGE COMPUTING PLATFORM IMPLEMENTATION PARTNERS",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2024-09-26",
-        "type": null,
-        "noticeId": "80JSC024FA212",
-        "awardAmount": "$171K"
-      },
-      {
-        "title": "BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIODE (LED) (BRIC-LED)",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-06-18",
-        "type": null,
-        "noticeId": "80JSC025FA117",
-        "awardAmount": "$68K"
-      },
-      {
-        "title": "IMPLEMENTS A SOLUTION FROM THE INITIAL TROUBLESHOOTING OF THE BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIOD",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2026-05-26",
-        "type": null,
-        "noticeId": "80JSC026FA103",
-        "awardAmount": "$43K"
-      }
-    ],
-    "lastUpdated": "2026-05-30"
-  },
-  {
-    "company": "Varda Space",
-    "opportunityCount": 6,
-    "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING",
-        "agency": "Department of Defense",
-        "postedDate": "2023-05-16",
-        "type": null,
-        "noticeId": "FA945323CA035",
-        "awardAmount": "$27M"
-      },
-      {
-        "title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.",
-        "agency": "Department of Defense",
-        "postedDate": "2024-12-30",
-        "type": null,
-        "noticeId": "FA945325FX010",
-        "awardAmount": "$9M"
-      },
-      {
-        "title": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.",
-        "agency": "Department of Defense",
-        "postedDate": "2026-01-30",
-        "type": null,
-        "noticeId": "FA945326FX010",
-        "awardAmount": "$4M"
-      },
-      {
-        "title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE",
-        "agency": "Department of Defense",
-        "postedDate": "2025-11-25",
-        "type": null,
-        "noticeId": "FA945326FX002",
-        "awardAmount": "$160K"
-      },
-      {
-        "title": "MINIMUM GUARANTEED",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2024-03-15",
-        "type": null,
-        "noticeId": "80AFRC24FA018",
-        "awardAmount": "$25K"
-      }
-    ],
-    "lastUpdated": "2026-05-30"
-  },
-  {
-    "company": "Rocket Lab",
-    "opportunityCount": 5,
-    "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2023-03-29",
-        "type": null,
-        "noticeId": "80KSC023FA107",
-        "awardAmount": "$38M"
-      },
-      {
-        "title": "THE CONTRACTOR SHALL DEVELOP GEN 1 SOLAR SAIL MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE IMPLEMENTATI",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-09-26",
-        "type": null,
-        "noticeId": "80AFRC25FA060",
-        "awardAmount": "$546K"
-      },
-      {
-        "title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2026-02-23",
-        "type": null,
-        "noticeId": "80GSFC26C0008",
-        "awardAmount": "$391K"
-      },
-      {
-        "title": "MINIMUM GUARANTEED",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2024-04-25",
-        "type": null,
-        "noticeId": "80AFRC24FA027",
-        "awardAmount": "$25K"
-      },
-      {
-        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
-        "agency": "Department of Defense",
-        "postedDate": "2025-12-29",
-        "type": null,
-        "noticeId": "HQ085926FE799",
-        "awardAmount": "$500"
-      }
-    ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Axiom Space",
@@ -529,7 +373,154 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
+  },
+  {
+    "company": "Sierra Space",
+    "opportunityCount": 5,
+    "agencies": [
+      "Department of Defense",
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "ADVANCED SPACESUIT REGULATOR (ASR)",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2025-12-18",
+        "type": null,
+        "noticeId": "80JSC026C0002",
+        "awardAmount": "$6M"
+      },
+      {
+        "title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2025-04-30",
+        "type": null,
+        "noticeId": "80HQTR25CA008",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIODE (LED) (BRIC-LED)",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2025-06-18",
+        "type": null,
+        "noticeId": "80JSC025FA117",
+        "awardAmount": "$68K"
+      },
+      {
+        "title": "IMPLEMENTS A SOLUTION FROM THE INITIAL TROUBLESHOOTING OF THE BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIOD",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2026-05-26",
+        "type": null,
+        "noticeId": "80JSC026FA103",
+        "awardAmount": "$43K"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FF311",
+        "awardAmount": "$500"
+      }
+    ],
+    "lastUpdated": "2026-05-31"
+  },
+  {
+    "company": "Varda Space",
+    "opportunityCount": 5,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING",
+        "agency": "Department of Defense",
+        "postedDate": "2023-05-16",
+        "type": null,
+        "noticeId": "FA945323CA035",
+        "awardAmount": "$27M"
+      },
+      {
+        "title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.",
+        "agency": "Department of Defense",
+        "postedDate": "2024-12-30",
+        "type": null,
+        "noticeId": "FA945325FX010",
+        "awardAmount": "$9M"
+      },
+      {
+        "title": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.",
+        "agency": "Department of Defense",
+        "postedDate": "2026-01-30",
+        "type": null,
+        "noticeId": "FA945326FX010",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE",
+        "agency": "Department of Defense",
+        "postedDate": "2025-11-25",
+        "type": null,
+        "noticeId": "FA945326FX002",
+        "awardAmount": "$160K"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FF090",
+        "awardAmount": "$500"
+      }
+    ],
+    "lastUpdated": "2026-05-31"
+  },
+  {
+    "company": "Rocket Lab",
+    "opportunityCount": 4,
+    "agencies": [
+      "Department of Defense",
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2023-03-29",
+        "type": null,
+        "noticeId": "80KSC023FA107",
+        "awardAmount": "$38M"
+      },
+      {
+        "title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2026-05-28",
+        "type": null,
+        "noticeId": "80AFRC26FA041",
+        "awardAmount": "$433K"
+      },
+      {
+        "title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2026-02-23",
+        "type": null,
+        "noticeId": "80GSFC26C0008",
+        "awardAmount": "$391K"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FE799",
+        "awardAmount": "$500"
+      }
+    ],
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Planet Labs",
@@ -574,7 +565,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Capella Space",
@@ -610,7 +601,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Scale AI",
@@ -645,7 +636,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "BlackSky",
@@ -672,7 +663,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Epirus",
@@ -691,7 +682,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Saronic",
@@ -710,7 +701,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Vannevar Labs",
@@ -729,7 +720,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "company": "Relativity Space",
@@ -748,6 +739,6 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   }
 ]
