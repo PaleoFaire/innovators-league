@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T08:19:30.171285+00:00",
+  "generatedAt": "2026-05-31T11:05:06.578210+00:00",
   "date": "2026-05-31",
   "dateDisplay": "Sunday, May 31, 2026",
   "sections": {
@@ -30,6 +30,15 @@
         "description": "TASK ORDER FOR MR-UAS INSTALLATION AND DEPLOYMENT SERVICES FOR COAST GUARD NATIONAL SECURITY CUTTERS.",
         "date": "2026-05-27",
         "url": "https://sam.gov/opp/70Z02326F93130007/view"
+      },
+      {
+        "company": "Rocket Lab",
+        "amount": "$433K",
+        "amount_raw": 433000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ",
+        "date": "2026-05-28",
+        "url": "https://sam.gov/opp/80AFRC26FA041/view"
       },
       {
         "company": "Skydio",
@@ -151,6 +160,13 @@
       {
         "kind": "Federal Register",
         "company": "",
+        "title": "Medicare Program; Alternative Payment Model Updates and the Increasing Organ Tra",
+        "date": "2026-06-01",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10890"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
         "title": "Southern Nuclear Operating Company, Inc.; Edwin I. Hatch Nuclear Plant, Units 1 ",
         "date": "2026-06-01",
         "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10864"
@@ -158,28 +174,21 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Agency Information Collection Activities: Office for Bombing Prevention-Technica",
-        "date": "2026-06-01",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10932"
-      },
-      {
-        "kind": "Federal Register",
-        "company": "",
-        "title": "Agency Information Collection Activities: Proposed Collection; Comment Request",
-        "date": "2026-06-01",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10901"
+        "title": "Airworthiness Directives; The Boeing Company Airplanes",
+        "date": "2026-05-29",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-10803"
       }
     ],
     "patents": [
       {
         "company": "Tesla",
-        "title": "489 patents granted recently \u00b7 focus: Battery cells, Autopilot/FSD, Electric motors",
+        "title": "443 patents granted recently \u00b7 focus: Battery cells, Autopilot/FSD, Electric motors",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Tesla"
       },
       {
         "company": "Ginkgo Bioworks",
-        "title": "169 patents granted recently \u00b7 focus: Cell programming, Organism design, Enzyme engineering",
+        "title": "160 patents granted recently \u00b7 focus: Cell programming, Organism design, Enzyme engineering",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Ginkgo+Bioworks"
       },
@@ -190,27 +199,27 @@
         "url": "https://patents.google.com/?assignee=Waymo"
       },
       {
-        "company": "Rivian",
-        "title": "101 patents granted recently \u00b7 focus: Skateboard platform, Tank-turn, Off-road EV",
-        "date": "2025-Q4",
-        "url": "https://patents.google.com/?assignee=Rivian"
-      },
-      {
         "company": "Tempus AI",
-        "title": "93 patents granted recently \u00b7 focus: Clinical genomics, Multi-modal data, AI diagnostics",
+        "title": "104 patents granted recently \u00b7 focus: Clinical genomics, Multi-modal data, AI diagnostics",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Tempus+AI"
       },
       {
-        "company": "Joby Aviation",
-        "title": "84 patents granted recently \u00b7 focus: Tilt-rotor eVTOL, Electric propulsion, Battery systems",
+        "company": "Rivian",
+        "title": "85 patents granted recently \u00b7 focus: Skateboard platform, Tank-turn, Off-road EV",
         "date": "2025-Q4",
-        "url": "https://patents.google.com/?assignee=Joby+Aviation"
+        "url": "https://patents.google.com/?assignee=Rivian"
+      },
+      {
+        "company": "Recursion Pharmaceuticals",
+        "title": "80 patents granted recently \u00b7 focus: Phenotypic drug discovery, BioHive supercomputing, ML-driven biology",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Recursion+Pharmaceuticals"
       }
     ]
   },
   "stats": {
-    "contractCount": 7,
+    "contractCount": 8,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
