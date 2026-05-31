@@ -1,14 +1,14 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-05-24T10:30:06+00:00
+// Last updated: 2026-05-31T11:00:06+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-05-24T10:30:06+00:00",
-  "weekOf": "2026-05-24",
+  "generatedAt": "2026-05-31T11:00:06+00:00",
+  "weekOf": "2026-05-31",
   "summary": {
     "rosterSize": 992,
-    "candidatesScreened": 260,
+    "candidatesScreened": 235,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 148
+    "rejected": 123
   },
   "topPicks": [
     {
@@ -42,37 +42,6 @@ const SCOUT_BRIEFING_AUTO = {
         "excitement": 4.7
       },
       "briefing": "**GALOIS, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $109.1M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 32/70."
-    },
-    {
-      "name": "Labelbox",
-      "score": 30.7,
-      "signals": [
-        {
-          "name": "Labelbox",
-          "source": "VC portfolio: Bessemer",
-          "sourceWeight": 35,
-          "vc": "Bessemer",
-          "date": "2026-04-27",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Bessemer portfolio on 2026-04-27"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "briefing": "**Labelbox** \u2014 frontier tech.\n\n Backing: Bessemer.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
     },
     {
       "name": "HRL LABORATORIES, LLC",
@@ -171,25 +140,13 @@ const SCOUT_BRIEFING_AUTO = {
         "excitement": 4.7
       },
       "briefing": "**GEORGIA TECH APPLIED RESEARCH CORP** \u2014 Defense & Security.\n\nDARPA contracts: $47.0M. \n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
-    }
-  ],
-  "runnersUp": [
+    },
     {
       "name": "AEROJET ROCKETDYNE INC",
       "score": 30.7,
-      "dimensions": {
-        "capital_quality": 0,
-        "magnitude": 6,
-        "tech_depth": 6,
-        "frontier_fit": 10,
-        "stealth_signal": 4,
-        "founder_signal": 0,
-        "excitement": 4.7
-      },
       "sources": [
         "DARPA"
       ],
-      "suggestedSector": "Defense & Security",
       "signals": [
         {
           "source": "DARPA performer",
@@ -202,8 +159,21 @@ const SCOUT_BRIEFING_AUTO = {
           "date": "2020-02-10",
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001120C0030"
         }
-      ]
-    },
+      ],
+      "suggestedSector": "Defense & Security",
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 6,
+        "tech_depth": 6,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "briefing": "**AEROJET ROCKETDYNE INC** \u2014 Defense & Security.\n\nDARPA contracts: $28.4M. \n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
+    }
+  ],
+  "runnersUp": [
     {
       "name": "A2 LABS, LLC",
       "score": 30.7,
@@ -478,8 +448,45 @@ const SCOUT_BRIEFING_AUTO = {
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001122C0122"
         }
       ]
+    },
+    {
+      "name": "Flexport",
+      "score": 28.0,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 6,
+        "founder_signal": 0,
+        "excitement": 7.0
+      },
+      "sources": [
+        "VC portfolio"
+      ],
+      "suggestedSector": null,
+      "signals": [
+        {
+          "name": "Flexport",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-03-16"
+        },
+        {
+          "name": "Flexport",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        }
+      ]
     }
   ],
-  "rejectedCount": 148
+  "rejectedCount": 123
 };
 if (typeof window !== 'undefined') window.SCOUT_BRIEFING_AUTO = SCOUT_BRIEFING_AUTO;

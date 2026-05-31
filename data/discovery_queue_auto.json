@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-24T10:30:06+00:00",
+  "generatedAt": "2026-05-31T11:00:06+00:00",
   "knownCompaniesCount": 1555,
   "summary": {
-    "totalCandidates": 66,
+    "totalCandidates": 41,
     "fromFormD": 0,
     "fromVcPortfolios": 23,
-    "fromNewsletters": 24,
-    "fromLlmExtraction": 29,
-    "multiSource": 1
+    "fromNewsletters": 27,
+    "fromLlmExtraction": 0,
+    "multiSource": 0
   },
   "candidates": [
     {
@@ -281,42 +281,6 @@
       "suggestedSector": null
     },
     {
-      "name": "Imperagen",
-      "score": 59.5,
-      "signals": [
-        {
-          "name": "Imperagen",
-          "source": "Newsletter: TechCrunch \u00b7 Venture",
-          "sourceWeight": 9.5,
-          "context": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering\nBiotech company Imperag",
-          "date": "Thu, 21 May 2026 04:00:00 +0000",
-          "verifyUrl": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
-          "articleTitle": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering"
-        },
-        {
-          "name": "Imperagen",
-          "source": "LLM (TechCrunch \u00b7 Venture)",
-          "sourceWeight": 30,
-          "context": "Biotech company using quantum physics and AI to engineer enzymes for industrial and therapeutic applications.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Thu, 21 May 2026 04:00:00 +0000",
-          "verifyUrl": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
-          "articleTitle": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering",
-          "suggestedSector": "Biotech & Health"
-        }
-      ],
-      "sources": [
-        "LLM (TechCrunch \u00b7 Venture)",
-        "Newsletter"
-      ],
-      "multiSource": true,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Hippocratic AI",
       "score": 35,
       "signals": [
@@ -422,500 +386,6 @@
       "suggestedSector": null
     },
     {
-      "name": "Anduril",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Anduril",
-          "source": "LLM (All-In)",
-          "sourceWeight": 30,
-          "context": "Defense technology company building autonomous systems, drones, and munitions manufacturing infrastructure for US military supply chains.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
-          "articleTitle": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-          "suggestedSector": "Defense & Security"
-        }
-      ],
-      "sources": [
-        "LLM (All-In)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Defense & Security"
-    },
-    {
-      "name": "Julius AI",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Julius AI",
-          "source": "LLM (TBPN)",
-          "sourceWeight": 30,
-          "context": "AI-powered platform that enables users to analyze spreadsheets, generate visualizations, and interact with data through natural language interfaces.",
-          "founder": "Rahul Sonwalkar",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Fri, 15 May 2026 13:19:54 -0700",
-          "verifyUrl": "https://share.transistor.fm/s/aed7a5d8",
-          "articleTitle": "$9M Buffett Dinner, AI Monets, Patek Scarcity, Late-Career Founder, WSJ Mansion Section, \ud835\udd4f Timeline Reactions | Rahul Sonwalkar",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (TBPN)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Onward Medical",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Onward Medical",
-          "source": "LLM (Core Memory)",
-          "sourceWeight": 30,
-          "context": "A Swiss biotech company developing therapies to help paralyzed people regain movement and mobility.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Wed, 08 Apr 2026 15:22:06 GMT",
-          "verifyUrl": "https://www.corememory.com/p/the-company-helping-paralyzed-people",
-          "articleTitle": "The Company Helping Paralyzed People Move And Thrive Again - EP 64 Dave Marver",
-          "suggestedSector": "Biotech & Health"
-        }
-      ],
-      "sources": [
-        "LLM (Core Memory)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Phantom Neuro",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Phantom Neuro",
-          "source": "LLM (Core Memory)",
-          "sourceWeight": 30,
-          "context": "Develops implantable human-machine interfaces that enable amputees to control robotic limbs with their minds.",
-          "founder": "Connor Glass",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Fri, 01 May 2026 15:56:51 GMT",
-          "verifyUrl": "https://www.corememory.com/p/the-cyborgs-commeth-connor-glass-phantom-neuro-bci",
-          "articleTitle": "The Cyborgs Commeth - EP 69 Connor Glass",
-          "suggestedSector": "Robotics & Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (Core Memory)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Robotics & Manufacturing"
-    },
-    {
-      "name": "SendCutSend",
-      "score": 30,
-      "signals": [
-        {
-          "name": "SendCutSend",
-          "source": "LLM (TBPN)",
-          "sourceWeight": 30,
-          "context": "On-demand manufacturing services platform that enables custom part production and fabrication at scale.",
-          "founder": "Jim Belosic",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Tue, 19 May 2026 13:39:43 -0700",
-          "verifyUrl": "https://share.transistor.fm/s/68702306",
-          "articleTitle": "Google I/O Reactions, Birth Rate Debates, Spotify's New Icon | Jim Belosic, Aidan Dewar, Fai Nur, Tanay Tandon, Ajeya Cotra, Philip Inghelbrecht",
-          "suggestedSector": "Advanced Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (TBPN)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Robotics & Manufacturing"
-    },
-    {
-      "name": "Speechify",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Speechify",
-          "source": "LLM (20VC)",
-          "sourceWeight": 30,
-          "context": "Voice AI agent that converts text to speech, used by 60+ million people primarily for accessibility and productivity.",
-          "founder": "Cliff Weitzman",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Sat, 09 May 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-what-i-learned-from-100-of-the-best-ceos-in-the-world-what-i-learned-from-staying-with-mr-beast-for-3-weeks-how-we-will-spend-more-on-tokens-than-salaries-with-cliff-weitzman-speechify",
-          "articleTitle": "20VC: What I Learned from 100 of the Best CEOs in the World | What I Learned from Staying with Mr Beast for 3 Weeks | How We Will Spend More on Tokens than Salaries with Cliff Weitzman, Speechify",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Supabase",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Supabase",
-          "source": "LLM (20VC)",
-          "sourceWeight": 30,
-          "context": "Open-source Firebase alternative providing backend infrastructure and database services for developers.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": null
-    },
-    {
-      "name": "Ulysses",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Ulysses",
-          "source": "LLM (Core Memory)",
-          "sourceWeight": 30,
-          "context": "San Francisco-based startup building autonomous underwater drones for marine applications like seagrass planting and ocean monitoring.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Thu, 16 Apr 2026 14:19:05 GMT",
-          "verifyUrl": "https://www.corememory.com/p/ulysses-ocean-drones-andreessen-horowitz-series-a",
-          "articleTitle": "The $50,000 Underwater Drone - EP 66 Ulysses",
-          "suggestedSector": "Robotics & Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (Core Memory)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Defense & Security"
-    },
-    {
-      "name": "Every",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Every",
-          "source": "LLM (TBPN)",
-          "sourceWeight": 18,
-          "context": "A knowledge work platform leveraging AI agents like Claude Code to automate tasks across coding, writing, design, and customer service.",
-          "founder": "Dan Shipper",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Fri, 22 May 2026 13:31:30 -0700",
-          "verifyUrl": "https://share.transistor.fm/s/03553f2d",
-          "articleTitle": "Starship Launch, World's Fair Retrospective, Sacks Spikes AI EO | Dan Shipper, James Rogers",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (TBPN)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Exa",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Exa",
-          "source": "LLM (Latent Space (swyx))",
-          "sourceWeight": 18,
-          "context": "AI infrastructure company that reached unicorn status, likely focused on search or data retrieval optimization.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Fri, 22 May 2026 05:50:58 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
-          "articleTitle": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (Latent Space (swyx))"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Harvey",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Harvey",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "An AI company building legal AI software, partnered with Chad Peets for sales team development.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Sat, 23 May 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20sales-the-100m-cro-bubble-why-anthropic-are-causing-a-comp-crisis-why-you-should-never-hire-from-salesforce-or-service-now-how-to-hire-train-and-forecase-in-a-world-of-ai-with-chad-peets-and-chris-degnan",
-          "articleTitle": "20Sales: The $100M CRO Bubble: Why Anthropic Are Causing a Comp Crisis | Why You Should Never Hire From Salesforce or Service Now | How to Hire, Train and Forecase in a World of AI with Chad Peets and",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Legora",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Legora",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "Enterprise software company that reached $100M ARR in 18 months and is on track for $250M+ ARR, competing in the legal/enterprise AI space.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Mon, 11 May 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-inside-legora-100m-arr-in-18-months-jude-law-generated-50m-in-sales-pipeline-the-economics-broken-down-competing-against-harvey-the-800-pound-gorilla-why-legora-is-undervalued-at-55bn-with-patrick-forquer-cro-legora",
-          "articleTitle": "20VC: Inside Legora: $100M ARR in 18 Months | Jude Law Generated $50M in Sales Pipeline: The Economics Broken Down | Competing Against Harvey, the 800 Pound Gorilla | Why Legora is Undervalued at $5.5",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Mercor",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Mercor",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "AI platform for remote work and talent management that experienced a security breach.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Mistral",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Mistral",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "An AI company where Anj Midha serves on the board, likely developing large language models or AI infrastructure.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Open Humanoids",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Open Humanoids",
-          "source": "LLM (Latent Space (swyx))",
-          "sourceWeight": 18,
-          "context": "Robotics company focused on humanoid robot development and deployment.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Fri, 22 May 2026 05:50:58 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
-          "articleTitle": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
-          "suggestedSector": "Robotics & Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (Latent Space (swyx))"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Robotics & Manufacturing"
-    },
-    {
-      "name": "Open Router",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Open Router",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "Platform that routes requests across multiple AI models and providers.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "OpenRouter",
-      "score": 18,
-      "signals": [
-        {
-          "name": "OpenRouter",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "An AI infrastructure or routing platform where Anj Midha serves on the board.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Perceptron",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Perceptron",
-          "source": "LLM (Latent Space (swyx))",
-          "sourceWeight": 18,
-          "context": "An AI model company building Perceptron Mk1, a frontier model for video understanding and embodied reasoning with native video support.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Wed, 13 May 2026 02:47:22 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-the-end-of-finetuning",
-          "articleTitle": "[AINews] The End of Finetuning",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (Latent Space (swyx))"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "TurboPuffer",
-      "score": 18,
-      "signals": [
-        {
-          "name": "TurboPuffer",
-          "source": "LLM (Latent Space (swyx))",
-          "sourceWeight": 18,
-          "context": "AI infrastructure unicorn, likely focused on optimizing model serving or inference performance.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Fri, 22 May 2026 05:50:58 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
-          "articleTitle": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (Latent Space (swyx))"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Aleph",
       "score": 15,
       "signals": [
@@ -948,6 +418,48 @@
           "date": "Fri, 22 May 2026 05:50:58 GMT",
           "verifyUrl": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
           "articleTitle": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Pauline Bhyang",
+      "score": 10.2,
+      "signals": [
+        {
+          "name": "Pauline Bhyang",
+          "source": "Newsletter: Latent Space (swyx)",
+          "sourceWeight": 10.2,
+          "context": "ublicly confirmed it led the round and framed it as its  largest investment to date  ( Altimeter ,  Pauline Bhyang ). Anthropic launched  Claude Opus 4.8 , positioned as an update to  Opus 4.7  with i",
+          "date": "Fri, 29 May 2026 02:07:24 GMT",
+          "verifyUrl": "https://www.latent.space/p/ainews-anthropic-raises-965b-series",
+          "articleTitle": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "OpenInspect",
+      "score": 10.2,
+      "signals": [
+        {
+          "name": "OpenInspect",
+          "source": "Newsletter: Latent Space (swyx)",
+          "sourceWeight": 10.2,
+          "context": "eory it would be the same way, right? Whether, one agent has launched many, sub-sessions within it, OpenInspect, for example, can launch sub-sessions and actually create other environments and then mo",
+          "date": "Thu, 28 May 2026 18:41:24 GMT",
+          "verifyUrl": "https://www.latent.space/p/cognition",
+          "articleTitle": "The Age of Async Agents \u2014 Cognition's Walden Yan & OpenInspect's Cole Murray"
         }
       ],
       "sources": [
@@ -1063,259 +575,46 @@
       "suggestedSector": "Space & Aerospace"
     },
     {
-      "name": "Perceptron Mk1",
-      "score": 10.2,
+      "name": "Military",
+      "score": 9.0,
       "signals": [
         {
-          "name": "Perceptron Mk1",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 10.2,
-          "context": "s Perceptron Mk1 was the most substantive new model release in the set :  @perceptroninc  launched  Perceptron Mk1  as a model for  frontier video and embodied reasoning , with native video support at",
-          "date": "Wed, 13 May 2026 02:47:22 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-the-end-of-finetuning",
-          "articleTitle": "[AINews] The End of Finetuning"
+          "name": "Military",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 9.0,
+          "context": "efense funding, and solar photovoltaic cells were pulled forward by satellites\u2019 unique power needs. Military procurement is the closest thing that the United States has to a national industrial policy",
+          "date": "Wed, 27 May 2026 19:19:05 GMT",
+          "verifyUrl": "https://www.notboring.co/p/thank-god-for-data-centers",
+          "articleTitle": "Thank God For Data Centers"
         }
       ],
       "sources": [
         "Newsletter"
       ],
       "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Space & Aerospace"
+      "confidence": "low",
+      "suggestedSector": "Defense & Security"
     },
     {
-      "name": "Factory",
-      "score": 8,
+      "name": "United States",
+      "score": 7.8,
       "signals": [
         {
-          "name": "Factory",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "An AI-focused company working with Chad Peets on sales team building and growth.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Sat, 23 May 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20sales-the-100m-cro-bubble-why-anthropic-are-causing-a-comp-crisis-why-you-should-never-hire-from-salesforce-or-service-now-how-to-hire-train-and-forecase-in-a-world-of-ai-with-chad-peets-and-chris-degnan",
-          "articleTitle": "20Sales: The $100M CRO Bubble: Why Anthropic Are Causing a Comp Crisis | Why You Should Never Hire From Salesforce or Service Now | How to Hire, Train and Forecase in a World of AI with Chad Peets and",
-          "suggestedSector": "AI & Compute"
+          "name": "United States",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 7.8,
+          "context": "ulled forward by satellites\u2019 unique power needs. Military procurement is the closest thing that the United States has to a national industrial policy, and its worked. The military has funded the devel",
+          "date": "Wed, 27 May 2026 19:19:05 GMT",
+          "verifyUrl": "https://www.notboring.co/p/thank-god-for-data-centers",
+          "articleTitle": "Thank God For Data Centers"
         }
       ],
       "sources": [
-        "LLM (20VC)"
+        "Newsletter"
       ],
       "multiSource": false,
       "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Happy Robot",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Happy Robot",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "A robotics company mentioned as an investment by the guest; limited information available from podcast excerpt.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Sat, 11 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-          "articleTitle": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must",
-          "suggestedSector": "Robotics & Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "LMArena",
-      "score": 8,
-      "signals": [
-        {
-          "name": "LMArena",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "A platform or infrastructure company related to language models on whose board Anj Midha sits.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
-    },
-    {
-      "name": "Micro1",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Micro1",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "A company that received early-stage funding from Josh Browder's angel portfolio, described as reaching unicorn status.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Mon, 18 May 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
-          "articleTitle": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Sh",
-          "suggestedSector": "Advanced Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
-    },
-    {
-      "name": "Owner.com",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Owner.com",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "A unicorn-status company that was among Josh Browder's first checks as an angel investor.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Mon, 18 May 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
-          "articleTitle": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Sh",
-          "suggestedSector": "Other"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
-    },
-    {
-      "name": "Periodic Labs",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Periodic Labs",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "A biotech or materials science company where Anj Midha serves as a board member.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "Biotech & Health"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Revolut",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Revolut",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "A fintech company mentioned as an investment by the guest; does not fit frontier-tech criteria.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Sat, 11 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-          "articleTitle": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must",
-          "suggestedSector": "Other"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
-    },
-    {
-      "name": "Sesame",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Sesame",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "A company where Anj Midha serves as a board member, sector unclear but part of his frontier-tech portfolio.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
-    },
-    {
-      "name": "Yuzu Health",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Yuzu Health",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "A health-tech company that achieved unicorn status and received early investment from Josh Browder's angel fund.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Mon, 18 May 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
-          "articleTitle": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Sh",
-          "suggestedSector": "Biotech & Health"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
+      "suggestedSector": "Defense & Security"
     },
     {
       "name": "GPU",
@@ -1337,6 +636,48 @@
       "multiSource": false,
       "confidence": "low",
       "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "South Pole",
+      "score": 7.2,
+      "signals": [
+        {
+          "name": "South Pole",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 7.2,
+          "context": "d at enabling sustained human presence and expanded scientific and commercial activity at the lunar South Pole. It also launched a  Moon Base Website , complete with the hype video above and a timelin",
+          "date": "Fri, 29 May 2026 12:32:20 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-195",
+          "articleTitle": "Weekly Dose of Optimism #195"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Moon Base Website",
+      "score": 7.2,
+      "signals": [
+        {
+          "name": "Moon Base Website",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 7.2,
+          "context": "esence and expanded scientific and commercial activity at the lunar South Pole. It also launched a  Moon Base Website , complete with the hype video above and a timeline for the Moon Base. Because we ",
+          "date": "Fri, 29 May 2026 12:32:20 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-195",
+          "articleTitle": "Weekly Dose of Optimism #195"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "Colossus",
@@ -1371,6 +712,69 @@
           "date": "Fri, 22 May 2026 12:51:22 GMT",
           "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-194",
           "articleTitle": "Weekly Dose of Optimism #194"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Lidar",
+      "score": 6.6,
+      "signals": [
+        {
+          "name": "Lidar",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 6.6,
+          "context": "d the planes jet engines power, stealth coatings, night vision, radar and synthetic aperture radar, Lidar, ultrasound, drones, and infrared and thermal imaging. There are materials, like composites, i",
+          "date": "Wed, 27 May 2026 19:19:05 GMT",
+          "verifyUrl": "https://www.notboring.co/p/thank-god-for-data-centers",
+          "articleTitle": "Thank God For Data Centers"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "Fal",
+      "score": 6.3,
+      "signals": [
+        {
+          "name": "Fal",
+          "source": "Newsletter: Newcomer (Eric Newcomer)",
+          "sourceWeight": 6.3,
+          "context": "d infrastructure, was reportedly in talks to raise around  $1 billion  at a $7.5 billion valuation. Fal, which offers API access to its library of over 1000 image, video, audio, 3D, and world models a",
+          "date": "Fri, 29 May 2026 14:59:54 GMT",
+          "verifyUrl": "https://www.newcomer.co/p/booming-ai-revenues-boost-inference",
+          "articleTitle": "Booming AI Revenues Boost Inference Startups to Decacorn Status"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Altimeter",
+      "score": 5.95,
+      "signals": [
+        {
+          "name": "Altimeter",
+          "source": "Newsletter: Latent Space (swyx)",
+          "sourceWeight": 5.95,
+          "context": ". Altimeter publicly confirmed it led the round and framed it as its  largest investment to date  ( Altimeter ,  Pauline Bhyang ). Anthropic launched  Claude Opus 4.8 , positioned as an update to  Opu",
+          "date": "Fri, 29 May 2026 02:07:24 GMT",
+          "verifyUrl": "https://www.latent.space/p/ainews-anthropic-raises-965b-series",
+          "articleTitle": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode"
         }
       ],
       "sources": [
@@ -1528,48 +932,6 @@
       "suggestedSector": "Space & Aerospace"
     },
     {
-      "name": "MIND",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "MIND",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": "tandard MoEs under similar pruning ( follow-up ). On generative evaluation,  @qberthet  introduced  MIND (Monge Inception Distance)  as a purportedly faster, more sample-efficient replacement for FID.",
-          "date": "Tue, 12 May 2026 04:33:46 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
-          "articleTitle": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Monge Inception Distance",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "Monge Inception Distance",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": "d MoEs under similar pruning ( follow-up ). On generative evaluation,  @qberthet  introduced  MIND (Monge Inception Distance)  as a purportedly faster, more sample-efficient replacement for FID. Diffu",
-          "date": "Tue, 12 May 2026 04:33:46 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
-          "articleTitle": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
       "name": "Starlink",
       "score": 4.2,
       "signals": [
@@ -1589,48 +951,6 @@
       "multiSource": false,
       "confidence": "low",
       "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Biotech",
-      "score": 3.5,
-      "signals": [
-        {
-          "name": "Biotech",
-          "source": "Newsletter: TechCrunch \u00b7 Venture",
-          "sourceWeight": 3.5,
-          "context": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering\nBiotech company Imperagen announced on Thursday a \u00a35 million ($6.7 million) seed round led by PXN Ve",
-          "date": "Thu, 21 May 2026 04:00:00 +0000",
-          "verifyUrl": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
-          "articleTitle": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Northern Gritstone",
-      "score": 3.5,
-      "signals": [
-        {
-          "name": "Northern Gritstone",
-          "source": "Newsletter: TechCrunch \u00b7 Venture",
-          "sourceWeight": 3.5,
-          "context": " a \u00a35 million ($6.7 million) seed round led by PXN Ventures, with participation from IQ Capital and Northern Gritstone.",
-          "date": "Thu, 21 May 2026 04:00:00 +0000",
-          "verifyUrl": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
-          "articleTitle": "Imperagen raises \u00a35 million to use quantum physics, AI on enzyme engineering"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
     }
   ]
 }

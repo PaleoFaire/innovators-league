@@ -1,4 +1,4 @@
-// Founder DNA Index — Auto-generated 2026-05-24 11:37
+// Founder DNA Index — Auto-generated 2026-05-31 11:29
 // 841 company founder profiles + 16 sector aggregations + 19 serial founders
 // Cross-referenced from COMPANIES, FOUNDER_MAFIAS, INNOVATOR_SCORES
 // DO NOT EDIT — regenerate with: python3 scripts/generate_founder_dna.py
@@ -224,32 +224,30 @@ const FOUNDER_DNA = [
     "sector": "Robotics & Manufacturing"
   },
   {
-    "company": "Axiom Space",
+    "company": "Oklo",
     "founderCount": 2,
     "teamStructure": "duo",
     "founders": [
-      "Michael T. Suffredini",
-      "Kam Ghaffarian"
+      "Jacob DeWitte",
+      "Caroline Cochran"
     ],
     "mafiaConnections": [
-      "NASA/JPL Alumni"
+      "SpaceX Mafia"
     ],
     "mafiaCount": 1,
-    "serialFounders": [
-      "Kam Ghaffarian"
-    ],
-    "hasSerialFounder": true,
-    "totalRaisedM": 850.0,
-    "capitalPerFounderM": 425.0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 500.0,
+    "capitalPerFounderM": 250.0,
     "scores": {
       "mafiaPedigree": 3,
       "capitalEfficiency": 9,
-      "serialBonus": 5,
+      "serialBonus": 0,
       "teamSizeSignal": 10,
-      "teamPedigree": 6
+      "teamPedigree": 9
     },
     "dnaScore": 63,
-    "sector": "Space & Aerospace"
+    "sector": "Nuclear Energy"
   },
   {
     "company": "Applied Intuition",
@@ -328,32 +326,6 @@ const FOUNDER_DNA = [
     "sector": "Space & Aerospace"
   },
   {
-    "company": "Oklo",
-    "founderCount": 2,
-    "teamStructure": "duo",
-    "founders": [
-      "Jacob DeWitte",
-      "Caroline Cochran"
-    ],
-    "mafiaConnections": [
-      "SpaceX Mafia"
-    ],
-    "mafiaCount": 1,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 500.0,
-    "capitalPerFounderM": 250.0,
-    "scores": {
-      "mafiaPedigree": 3,
-      "capitalEfficiency": 8,
-      "serialBonus": 0,
-      "teamSizeSignal": 10,
-      "teamPedigree": 9
-    },
-    "dnaScore": 61,
-    "sector": "Nuclear Energy"
-  },
-  {
     "company": "Boom Supersonic",
     "founderCount": 3,
     "teamStructure": "trio",
@@ -379,6 +351,34 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 61,
     "sector": "Supersonic & Hypersonic"
+  },
+  {
+    "company": "Axiom Space",
+    "founderCount": 2,
+    "teamStructure": "duo",
+    "founders": [
+      "Michael T. Suffredini",
+      "Kam Ghaffarian"
+    ],
+    "mafiaConnections": [
+      "NASA/JPL Alumni"
+    ],
+    "mafiaCount": 1,
+    "serialFounders": [
+      "Kam Ghaffarian"
+    ],
+    "hasSerialFounder": true,
+    "totalRaisedM": 350.0,
+    "capitalPerFounderM": 175.0,
+    "scores": {
+      "mafiaPedigree": 3,
+      "capitalEfficiency": 8,
+      "serialBonus": 5,
+      "teamSizeSignal": 10,
+      "teamPedigree": 6
+    },
+    "dnaScore": 61,
+    "sector": "Space & Aerospace"
   },
   {
     "company": "Physical Intelligence",
@@ -572,6 +572,30 @@ const FOUNDER_DNA = [
     "sector": "Space & Aerospace"
   },
   {
+    "company": "LanzaTech",
+    "founderCount": 2,
+    "teamStructure": "duo",
+    "founders": [
+      "Sean Simpson",
+      "Richard Forster"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 500.0,
+    "capitalPerFounderM": 250.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 9,
+      "serialBonus": 0,
+      "teamSizeSignal": 10,
+      "teamPedigree": 10
+    },
+    "dnaScore": 58,
+    "sector": "Climate & Energy"
+  },
+  {
     "company": "QuantumScape",
     "founderCount": 3,
     "teamStructure": "trio",
@@ -720,6 +744,32 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 57,
     "sector": "Robotics & Manufacturing"
+  },
+  {
+    "company": "Apex Space",
+    "founderCount": 2,
+    "teamStructure": "duo",
+    "founders": [
+      "Ian Cinnamon",
+      "Max Benassi"
+    ],
+    "mafiaConnections": [
+      "SpaceX Mafia"
+    ],
+    "mafiaCount": 1,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 500.0,
+    "capitalPerFounderM": 250.0,
+    "scores": {
+      "mafiaPedigree": 3,
+      "capitalEfficiency": 9,
+      "serialBonus": 0,
+      "teamSizeSignal": 10,
+      "teamPedigree": 6
+    },
+    "dnaScore": 56,
+    "sector": "Space & Aerospace"
   },
   {
     "company": "Solugen",
@@ -895,30 +945,6 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 56,
     "sector": "Space & Aerospace"
-  },
-  {
-    "company": "LanzaTech",
-    "founderCount": 2,
-    "teamStructure": "duo",
-    "founders": [
-      "Sean Simpson",
-      "Richard Forster"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 500.0,
-    "capitalPerFounderM": 250.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 8,
-      "serialBonus": 0,
-      "teamSizeSignal": 10,
-      "teamPedigree": 10
-    },
-    "dnaScore": 56,
-    "sector": "Climate & Energy"
   },
   {
     "company": "Hailo",
@@ -1122,32 +1148,6 @@ const FOUNDER_DNA = [
     "sector": "Defense & Security"
   },
   {
-    "company": "Apex Space",
-    "founderCount": 2,
-    "teamStructure": "duo",
-    "founders": [
-      "Ian Cinnamon",
-      "Max Benassi"
-    ],
-    "mafiaConnections": [
-      "SpaceX Mafia"
-    ],
-    "mafiaCount": 1,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 500.0,
-    "capitalPerFounderM": 250.0,
-    "scores": {
-      "mafiaPedigree": 3,
-      "capitalEfficiency": 8,
-      "serialBonus": 0,
-      "teamSizeSignal": 10,
-      "teamPedigree": 6
-    },
-    "dnaScore": 54,
-    "sector": "Space & Aerospace"
-  },
-  {
     "company": "Impulse Space",
     "founderCount": 1,
     "teamStructure": "solo",
@@ -1319,6 +1319,30 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 54,
     "sector": "Biotech & Health"
+  },
+  {
+    "company": "Infleqtion",
+    "founderCount": 2,
+    "teamStructure": "duo",
+    "founders": [
+      "Dana Anderson",
+      "Pranav Gokhale"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 210.0,
+    "capitalPerFounderM": 105.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 8,
+      "serialBonus": 0,
+      "teamSizeSignal": 10,
+      "teamPedigree": 9
+    },
+    "dnaScore": 54,
+    "sector": "Quantum Computing"
   },
   {
     "company": "Path Robotics",
@@ -1823,30 +1847,6 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 52,
     "sector": "Transportation"
-  },
-  {
-    "company": "Infleqtion",
-    "founderCount": 2,
-    "teamStructure": "duo",
-    "founders": [
-      "Dana Anderson",
-      "Pranav Gokhale"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 210.0,
-    "capitalPerFounderM": 105.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 7,
-      "serialBonus": 0,
-      "teamSizeSignal": 10,
-      "teamPedigree": 9
-    },
-    "dnaScore": 52,
-    "sector": "Quantum Computing"
   },
   {
     "company": "Quantinuum",
@@ -2747,6 +2747,29 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 50,
     "sector": "Biotech & Health"
+  },
+  {
+    "company": "Rigetti Computing",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "Chad Rigetti"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 300.0,
+    "capitalPerFounderM": 300.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 9,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 9
+    },
+    "dnaScore": 50,
+    "sector": "Quantum Computing"
   },
   {
     "company": "Wayve",
@@ -5286,29 +5309,6 @@ const FOUNDER_DNA = [
     "sector": "Climate & Energy"
   },
   {
-    "company": "Rigetti Computing",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Chad Rigetti"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 300.0,
-    "capitalPerFounderM": 300.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 9,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 8
-    },
-    "dnaScore": 47,
-    "sector": "Quantum Computing"
-  },
-  {
     "company": "Outrider",
     "founderCount": 1,
     "teamStructure": "solo",
@@ -5872,6 +5872,30 @@ const FOUNDER_DNA = [
     "sector": "Climate & Energy"
   },
   {
+    "company": "Boston Metal",
+    "founderCount": 2,
+    "teamStructure": "duo",
+    "founders": [
+      "Donald Sadoway",
+      "Antoine Allanore"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 370.0,
+    "capitalPerFounderM": 185.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 8,
+      "serialBonus": 0,
+      "teamSizeSignal": 10,
+      "teamPedigree": 6
+    },
+    "dnaScore": 46,
+    "sector": "Climate & Energy"
+  },
+  {
     "company": "AST SpaceMobile",
     "founderCount": 1,
     "teamStructure": "solo",
@@ -6092,31 +6116,6 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 46,
     "sector": "Biotech & Health"
-  },
-  {
-    "company": "PLD Space",
-    "founderCount": 3,
-    "teamStructure": "trio",
-    "founders": [
-      "Ra\u00fal Torres",
-      "Ra\u00fal Verd\u00fa",
-      "Jos\u00e9 Enrique Mart\u00ednez"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 350.0,
-    "capitalPerFounderM": 116.7,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 8,
-      "serialBonus": 0,
-      "teamSizeSignal": 10,
-      "teamPedigree": 6
-    },
-    "dnaScore": 46,
-    "sector": "Space & Aerospace"
   },
   {
     "company": "Kepler Communications",
@@ -10124,29 +10123,6 @@ const FOUNDER_DNA = [
     "sector": "Climate & Energy"
   },
   {
-    "company": "Boston Metal",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Tadeu Carneiro"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 370.0,
-    "capitalPerFounderM": 370.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 9,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 6
-    },
-    "dnaScore": 42,
-    "sector": "Climate & Energy"
-  },
-  {
     "company": "Second Front Systems",
     "founderCount": 2,
     "teamStructure": "duo",
@@ -10183,6 +10159,29 @@ const FOUNDER_DNA = [
     "hasSerialFounder": false,
     "totalRaisedM": 600.0,
     "capitalPerFounderM": 600.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 9,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 6
+    },
+    "dnaScore": 42,
+    "sector": "Defense & Security"
+  },
+  {
+    "company": "Kodiak Robotics",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "Don Burnette"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 250.0,
+    "capitalPerFounderM": 250.0,
     "scores": {
       "mafiaPedigree": 0,
       "capitalEfficiency": 9,
@@ -10405,29 +10404,6 @@ const FOUNDER_DNA = [
     "sector": "Nuclear Energy"
   },
   {
-    "company": "Vertical Aerospace",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Stephen Fitzpatrick"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 400.0,
-    "capitalPerFounderM": 400.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 9,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 6
-    },
-    "dnaScore": 42,
-    "sector": "Transportation"
-  },
-  {
     "company": "Marvel Fusion",
     "founderCount": 1,
     "teamStructure": "solo",
@@ -10615,6 +10591,31 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 42,
     "sector": "Quantum Computing"
+  },
+  {
+    "company": "PLD Space",
+    "founderCount": 3,
+    "teamStructure": "trio",
+    "founders": [
+      "Ra\u00fal Torres",
+      "Ra\u00fal Verd\u00fa",
+      "Jos\u00e9 Enrique Mart\u00ednez"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 120.0,
+    "capitalPerFounderM": 40.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 6,
+      "serialBonus": 0,
+      "teamSizeSignal": 10,
+      "teamPedigree": 6
+    },
+    "dnaScore": 42,
+    "sector": "Space & Aerospace"
   },
   {
     "company": "Rebellions",
@@ -12341,29 +12342,6 @@ const FOUNDER_DNA = [
     "sector": "Defense & Security"
   },
   {
-    "company": "Kodiak Robotics",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Don Burnette"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 250.0,
-    "capitalPerFounderM": 250.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 8,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 6
-    },
-    "dnaScore": 40,
-    "sector": "Defense & Security"
-  },
-  {
     "company": "Heirloom Carbon",
     "founderCount": 1,
     "teamStructure": "solo",
@@ -13144,6 +13122,29 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 40,
     "sector": "Robotics & Manufacturing"
+  },
+  {
+    "company": "ARX Robotics",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "Marc Wietfeld"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 106.0,
+    "capitalPerFounderM": 106.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 8,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 6
+    },
+    "dnaScore": 40,
+    "sector": "Defense & Security"
   },
   {
     "company": "Aerospacelab",
@@ -14907,6 +14908,29 @@ const FOUNDER_DNA = [
     "sector": "Robotics & Manufacturing"
   },
   {
+    "company": "Na\u00efo Technologies",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "Ga\u00ebtan S\u00e9verac"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 54.7,
+    "capitalPerFounderM": 54.7,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 7,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 6
+    },
+    "dnaScore": 38,
+    "sector": "Robotics & Manufacturing"
+  },
+  {
     "company": "Delian Alliance Industries",
     "founderCount": 3,
     "teamStructure": "trio",
@@ -15124,29 +15148,6 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 38,
     "sector": "Climate & Energy"
-  },
-  {
-    "company": "ARX Robotics",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Marc Wietfeld"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 106.0,
-    "capitalPerFounderM": 106.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 7,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 6
-    },
-    "dnaScore": 38,
-    "sector": "Defense & Security"
   },
   {
     "company": "Blackshark.ai",
@@ -16353,6 +16354,29 @@ const FOUNDER_DNA = [
     "sector": "Space & Aerospace"
   },
   {
+    "company": "Vertical Aerospace",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "Stephen Fitzpatrick"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 50.0,
+    "capitalPerFounderM": 50.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 6,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 6
+    },
+    "dnaScore": 36,
+    "sector": "Transportation"
+  },
+  {
     "company": "Oxford Quantum Circuits",
     "founderCount": 1,
     "teamStructure": "solo",
@@ -16512,29 +16536,6 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 36,
     "sector": "Quantum Computing"
-  },
-  {
-    "company": "Na\u00efo Technologies",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Ga\u00ebtan S\u00e9verac"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 54.7,
-    "capitalPerFounderM": 54.7,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 6,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 6
-    },
-    "dnaScore": 36,
-    "sector": "Robotics & Manufacturing"
   },
   {
     "company": "Cobod",
@@ -20218,6 +20219,19 @@ const FOUNDER_DNA_SECTORS = [
     ]
   },
   {
+    "sector": "Quantum Computing",
+    "companyCount": 43,
+    "avgFounderCount": 2.0,
+    "pctMafiaConnected": 0,
+    "avgDnaScore": 44.5,
+    "dominantTeamStructure": "solo",
+    "topDnaCompanies": [
+      "Pasqal",
+      "Quantum Motion",
+      "Infleqtion"
+    ]
+  },
+  {
     "sector": "Chips & Semiconductors",
     "companyCount": 68,
     "avgFounderCount": 1.9,
@@ -20231,24 +20245,11 @@ const FOUNDER_DNA_SECTORS = [
     ]
   },
   {
-    "sector": "Quantum Computing",
-    "companyCount": 43,
-    "avgFounderCount": 2.0,
-    "pctMafiaConnected": 0,
-    "avgDnaScore": 44.3,
-    "dominantTeamStructure": "solo",
-    "topDnaCompanies": [
-      "Pasqal",
-      "Quantum Motion",
-      "IonQ"
-    ]
-  },
-  {
     "sector": "Transportation",
     "companyCount": 21,
     "avgFounderCount": 1.9,
     "pctMafiaConnected": 0,
-    "avgDnaScore": 44.1,
+    "avgDnaScore": 43.8,
     "dominantTeamStructure": "solo",
     "topDnaCompanies": [
       "Harbinger",
@@ -20291,8 +20292,8 @@ const FOUNDER_DNA_SECTORS = [
     "dominantTeamStructure": "solo",
     "topDnaCompanies": [
       "Helion",
-      "QuantumScape",
-      "Solugen"
+      "LanzaTech",
+      "QuantumScape"
     ]
   },
   {
@@ -20305,7 +20306,7 @@ const FOUNDER_DNA_SECTORS = [
     "topDnaCompanies": [
       "Relativity Space",
       "Intuitive Machines",
-      "Axiom Space"
+      "SpaceX"
     ]
   },
   {
@@ -20313,7 +20314,7 @@ const FOUNDER_DNA_SECTORS = [
     "companyCount": 120,
     "avgFounderCount": 1.5,
     "pctMafiaConnected": 3,
-    "avgDnaScore": 40.2,
+    "avgDnaScore": 40.3,
     "dominantTeamStructure": "solo",
     "topDnaCompanies": [
       "Hadrian",
@@ -20397,9 +20398,9 @@ const FOUNDER_SERIAL_MAP = [
       "The Boring Company"
     ],
     "sectors": [
+      "AI & Software",
       "Transportation",
-      "Space & Aerospace",
-      "AI & Software"
+      "Space & Aerospace"
     ],
     "totalCapitalRaisedM": 11975.0
   },
@@ -20411,10 +20412,10 @@ const FOUNDER_SERIAL_MAP = [
       "Axiom Space"
     ],
     "sectors": [
-      "Space & Aerospace",
-      "Nuclear Energy"
+      "Nuclear Energy",
+      "Space & Aerospace"
     ],
-    "totalCapitalRaisedM": 2255.0
+    "totalCapitalRaisedM": 1755.0
   },
   {
     "founder": "Nathan Mintz",
@@ -20446,8 +20447,8 @@ const FOUNDER_SERIAL_MAP = [
       "Archer Aviation"
     ],
     "sectors": [
-      "Drones & Autonomous",
-      "AI & Software"
+      "AI & Software",
+      "Drones & Autonomous"
     ],
     "totalCapitalRaisedM": 2500.0
   },
@@ -20458,8 +20459,8 @@ const FOUNDER_SERIAL_MAP = [
       "Graphyte"
     ],
     "sectors": [
-      "Climate & Energy",
-      "Nuclear Energy"
+      "Nuclear Energy",
+      "Climate & Energy"
     ],
     "totalCapitalRaisedM": 1757.0
   },
@@ -20470,8 +20471,8 @@ const FOUNDER_SERIAL_MAP = [
       "Science Corporation"
     ],
     "sectors": [
-      "Biotech & Health",
-      "AI & Software"
+      "AI & Software",
+      "Biotech & Health"
     ],
     "totalCapitalRaisedM": 1500.0
   },
@@ -20482,8 +20483,8 @@ const FOUNDER_SERIAL_MAP = [
       "Precision Neuroscience"
     ],
     "sectors": [
-      "Biotech & Health",
-      "AI & Software"
+      "AI & Software",
+      "Biotech & Health"
     ],
     "totalCapitalRaisedM": 1480.0
   },
@@ -20527,8 +20528,8 @@ const FOUNDER_SERIAL_MAP = [
       "Fortastra"
     ],
     "sectors": [
-      "Space & Aerospace",
-      "Supersonic & Hypersonic"
+      "Supersonic & Hypersonic",
+      "Space & Aerospace"
     ],
     "totalCapitalRaisedM": 358.0
   },
@@ -20550,8 +20551,8 @@ const FOUNDER_SERIAL_MAP = [
       "Frankenburg Technologies"
     ],
     "sectors": [
-      "Climate & Energy",
-      "Defense & Security"
+      "Defense & Security",
+      "Climate & Energy"
     ],
     "totalCapitalRaisedM": 240.0
   },
@@ -20573,8 +20574,8 @@ const FOUNDER_SERIAL_MAP = [
       "Valinor Enterprises"
     ],
     "sectors": [
-      "Climate & Energy",
-      "Defense & Security"
+      "Defense & Security",
+      "Climate & Energy"
     ],
     "totalCapitalRaisedM": 115.0
   },
