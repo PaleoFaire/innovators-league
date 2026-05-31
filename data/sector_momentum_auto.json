@@ -4,9 +4,9 @@
     "momentum": 72,
     "trend": "accelerating",
     "catalysts": [
-      "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
-      "NASA Hosts SpaceX Crew-11 Astronauts for Public Event at Hea",
-      "Tesla &#038; SpaceX Merger Getting Real"
+      "Blue Origin gets national security launch task order hours b",
+      "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Pro",
+      "SpaceX awarded $6.45B in Space Force contracts ahead of IPO"
     ],
     "fundingQ": "$2.2B",
     "components": {
@@ -15,25 +15,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 59,
+    "momentum": 60,
     "trend": "steady",
     "catalysts": [
+      "Blue Origin gets national security launch task order hours b",
       "Contriving Imaginary Gaps in Nuclear Deterrence",
-      "DIU ups Hermeus contract for high-speed drone",
-      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
+      "DIU ups Hermeus contract for high-speed drone"
     ],
     "fundingQ": "$32.5B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Nuclear Energy",
@@ -51,7 +51,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "AI & Software",
@@ -69,77 +69,75 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-30"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 54,
-    "trend": "steady",
-    "catalysts": [
-      "Podcast: Tesla Robotaxi numbers, Ferrari&#8217;s controversi",
-      "NIST proposes a baseline performance benchmark for humanoid",
-      "Waymo dominates autonomous vehicle registrations as Tesla tr"
-    ],
-    "fundingQ": "$8.2B",
-    "components": {
-      "funding": 100,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 54,
+    "momentum": 56,
     "trend": "steady",
     "catalysts": [
+      "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Pro",
       "Elon facing backlash over Tesla SpaceX merger talks, but sol",
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
-      "Fervo Energy unveils new power plant details in IPO filing"
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Pro",
+      "Podcast: Tesla Robotaxi numbers, Ferrari&#8217;s controversi",
+      "NIST proposes a baseline performance benchmark for humanoid"
+    ],
+    "fundingQ": "$8.2B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 48,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Waymo dominates autonomous vehicle registrations as Tesla tr",
       "DIU ups Hermeus contract for high-speed drone"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 48,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "DIU ups Hermeus contract for high-speed drone",
-      "The future of physical AI isn&#8217;t humanoid; it&#8217;s t"
+      "DIU ups Hermeus contract for high-speed drone"
     ],
     "fundingQ": "$1.8B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Ocean & Maritime",
@@ -155,11 +153,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 29,
+    "momentum": 31,
     "trend": "declining",
     "catalysts": [
       "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
@@ -169,11 +167,11 @@
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -191,7 +189,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Transportation",
@@ -207,7 +205,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Quantum Computing",
@@ -223,16 +221,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 20,
     "trend": "declining",
     "catalysts": [
+      "Blue Origin gets national security launch task order hours b",
       "Space Force awards SpaceX $4.16 billion to build satellite n",
-      "NIST proposes a baseline performance benchmark for humanoid",
-      "New Glenn rocket explodes on Cape Canaveral pad"
+      "NIST proposes a baseline performance benchmark for humanoid"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -241,23 +239,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-30"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX Market Sizes Are Replatforming &#8211; AI and Space A"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
   },
   {
     "sector": "Housing & Construction",
@@ -273,6 +255,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-05-31"
   }
 ]
