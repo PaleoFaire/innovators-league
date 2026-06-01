@@ -1,1332 +1,27 @@
 {
-  "generatedAt": "2026-05-01T09:59:57+00:00",
+  "generatedAt": "2026-06-01T13:53:39+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_monthly.json",
   "cohortSize": 95,
-  "newExtractionsThisRun": 75,
+  "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 70,
-    "changesProposed": 16,
-    "unverifiable": 9
+    "cleared": 10,
+    "changesProposed": 0,
+    "unverifiable": 85
   },
   "cleared": [
-    "ABL Bio",
-    "ADASI",
-    "AIR",
-    "AMP Robotics",
-    "ANYbotics",
-    "AQT",
+    "1X Technologies",
     "ARX Robotics",
-    "AST SpaceMobile",
-    "Aalo Atomics",
-    "Aalyria",
-    "AbCellera",
-    "Abridge",
     "Adarga",
-    "Addionics",
-    "Aeon Industrial",
-    "Aerospacelab",
-    "Aeva Technologies",
-    "Agnikul Cosmos",
     "AiDash",
-    "Air Space Intelligence",
-    "Airship Industries",
-    "Akaer",
-    "Akash Systems",
-    "Albedo",
     "Aleph Farms",
-    "Alice & Bob",
-    "Alpine Eagle",
-    "Alto Neuroscience",
-    "Altos Labs",
-    "Amber Bio",
-    "Amca",
-    "Amogy",
-    "Amperon",
-    "Andrenam",
-    "Anduril Industries",
-    "Antares",
-    "Anthrogen",
-    "Anthropic",
-    "Antora Energy",
-    "AnySignal",
-    "Anyon Systems",
-    "Applied Intuition",
-    "Apptronik",
-    "Arbe Robotics",
-    "Arbor Energy",
-    "Arc Boats",
-    "Archer Aviation",
-    "Archer Materials",
     "Ares Industries",
-    "Ark Robotics",
-    "Armada",
-    "Arondite",
-    "Artimus Robotics",
-    "Ascend Elements",
-    "Asimov",
-    "Astera Labs",
     "Asterra",
     "Astranis",
-    "Astro Mechanica",
-    "Astrolab",
-    "Astrolight",
-    "Astroscale",
-    "Asylon Robotics",
-    "Atmo",
     "Atmos Space Cargo",
-    "Atom Bodies",
-    "Atom Computing",
-    "Atomic Industries",
-    "Atomic Machines",
-    "Atomic Semi"
+    "Axelera AI"
   ],
-  "changesProposed": [
-    {
-      "name": "1X Technologies",
-      "current": {
-        "name": "1X Technologies",
-        "founder": "Bernt \u00d8ivind B\u00f8rnich",
-        "location": "Moss, Norway",
-        "founded": 2014,
-        "fundingStage": "Series B",
-        "totalRaised": "$123.5M",
-        "website": "https://1xtechnologies.com"
-      },
-      "verified": {
-        "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures bipedal humanoid robots including the NEO model designed for private home use.",
-        "founders": [
-          "Bernt \u00d8ivind B\u00f8rnich"
-        ],
-        "location": "Palo Alto, California",
-        "founded_year": 2014,
-        "current_stage": "Series B",
-        "total_raised": "$123.5M",
-        "valuation": null,
-        "investors": [
-          "OpenAI Startup Fund",
-          "Tiger Global",
-          "Sandwater",
-          "Alliance Ventures",
-          "Skagerak Capital",
-          "EQT Ventures",
-          "Samsung NEXT",
-          "Nistad Group"
-        ],
-        "website": "https://1xtechnologies.com",
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            1
-          ]
-        },
-        "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Moss, Norway",
-          "verified": "Palo Alto, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://1xtechnologies.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://1xtechnologies.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
-        }
-      ],
-      "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M."
-    },
-    {
-      "name": "ACSL",
-      "current": {
-        "name": "ACSL",
-        "founder": "Satoshi Washiya",
-        "location": "Tokyo, Japan",
-        "founded": 2013,
-        "fundingStage": "Public (Tokyo)",
-        "totalRaised": "IPO",
-        "website": "https://acsl.ai"
-      },
-      "verified": {
-        "name": "Advanced Cognitive Systems Lab",
-        "description": "A privately owned, not-for-profit AI research company based in Karlsruhe, Germany, conducting foundational research on architecturally grounded machine intelligence and cognitive systems.",
-        "founders": null,
-        "location": "Karlsruhe, Germany",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://acsl.ai",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "CRITICAL MISMATCH: Database entry refers to a Japanese industrial/defense drone company, but source [0] describes a German AI research company. These appear to be completely different organizations sharing the same acronym. Source provided is for Advanced Cognitive Systems Lab (AI research), not the drone company referenced in database entry. No information found to verify drone contracts, Japanese location, founder name, IPO status, or valuation. Managing Director identified as Dr.-Ing. Christian Gilcher, but not listed as founder."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Tokyo, Japan",
-          "verified": "Karlsruhe, Germany",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://acsl.ai"
-        }
-      ],
-      "notes": "CRITICAL MISMATCH: Database entry refers to a Japanese industrial/defense drone company, but source [0] describes a German AI research company. These appear to be completely different organizations sharing the same acronym. Source provided is for Advanced Cognitive Systems Lab (AI research), not the drone company referenced in database entry. No information found to verify drone contracts, Japanese location, founder name, IPO status, or valuation. Managing Director identified as Dr.-Ing. Christian Gilcher, but not listed as founder."
-    },
-    {
-      "name": "Aetherflux",
-      "current": {
-        "name": "Aetherflux",
-        "founder": "Baiju Bhatt",
-        "location": "San Carlos, California",
-        "founded": 2024,
-        "fundingStage": "Series B",
-        "totalRaised": "$60M+",
-        "website": "https://aetherflux.com"
-      },
-      "verified": {
-        "name": "Aetherflux",
-        "description": "American renewable energy company developing space-based solar power using low Earth orbit satellites that transmit energy to ground stations through infrared lasers. Initial applications target artificial intelligence compute in orbit and power delivery to military and remote operations.",
-        "founders": [
-          "Baiju Bhatt"
-        ],
-        "location": "San Carlos, California",
-        "founded_year": 2024,
-        "current_stage": "Series A",
-        "total_raised": "$60M",
-        "valuation": null,
-        "investors": [
-          "Index Ventures",
-          "Interlagos",
-          "Breakthrough Energy Ventures",
-          "Andreessen Horowitz",
-          "New Enterprise Associates",
-          "Vlad Tenev",
-          "Daniel Gallagher",
-          "Jared Leto",
-          "Fran\u00e7ois-Paul Journe"
-        ],
-        "website": "https://aetherflux.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            0,
-            1
-          ],
-          "location": [
-            0,
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Database entry incorrectly listed stage as 'Series B'; Wikipedia confirms Series A funding of $50M announced April 2025, bringing total raised to $60M. Database entry did not list any investors; multiple investors identified in Wikipedia source. First space demonstration planned for early 2026; orbital data center ('Galactic Brain') targeted for Q1 2027."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series B",
-          "verified": "Series A",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://aetherflux.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Aetherflux"
-        }
-      ],
-      "notes": "Database entry incorrectly listed stage as 'Series B'; Wikipedia confirms Series A funding of $50M announced April 2025, bringing total raised to $60M. Database entry did not list any investors; multiple investors identified in Wikipedia source. First space demonstration planned for early 2026; orbital data center ('Galactic Brain') targeted for Q1 2027."
-    },
-    {
-      "name": "Agile Robots",
-      "current": {
-        "name": "Agile Robots",
-        "founder": "Zhaopeng Chen, Peter Meusel",
-        "location": "Munich, Germany",
-        "founded": 2018,
-        "fundingStage": "Series C",
-        "totalRaised": "~$384M",
-        "website": null
-      },
-      "verified": {
-        "name": "Agile Robots",
-        "description": "AI-driven robotics and automation company founded in 2018 by researchers from the German Aerospace Center, creating intelligent solutions for automotive, consumer electronics, healthcare and service industries.",
-        "founders": null,
-        "location": "Munich, Germany",
-        "founded_year": 2018,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://agile-robots.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] mentions founding by 'a passionate team of robotics researchers from the German Aerospace Center' but does not explicitly name individual founders. Website references Agile ONE product and mentions acquisition of thyssenkrupp Automation Engineering (dated 01.04.2026 in news section), but specific funding rounds, total raised, valuation, and investor names are not provided in source material."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://agile-robots.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://agile-robots.com"
-        }
-      ],
-      "notes": "Source [0] mentions founding by 'a passionate team of robotics researchers from the German Aerospace Center' but does not explicitly name individual founders. Website references Agile ONE product and mentions acquisition of thyssenkrupp Automation Engineering (dated 01.04.2026 in news section), but specific funding rounds, total raised, valuation, and investor names are not provided in source material."
-    },
-    {
-      "name": "Agility Robotics",
-      "current": {
-        "name": "Agility Robotics",
-        "founder": "Jonathan Hurst, Damion Shelton, Mikhail Jones",
-        "location": "Salem, OR",
-        "founded": 2015,
-        "fundingStage": "Series E",
-        "totalRaised": "$400M+",
-        "website": "https://agilityrobotics.com"
-      },
-      "verified": {
-        "name": "Agility Robotics",
-        "description": "A privately held American humanoid robotics company that develops and deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit has been deployed in commercial operations at facilities including Amazon and GXO Logistics.",
-        "founders": [
-          "Jonathan Hurst",
-          "Damion Shelton",
-          "Mikhail Jones"
-        ],
-        "location": "Salem, Oregon",
-        "founded_year": 2015,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://agilityrobotics.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company announced rebrand as 'Agility' on March 5, 2026 according to Wikipedia source [2]. Sources do not specify funding stage (Series E in database entry cannot be verified). Total raised amount of '$400M+' from database entry cannot be verified from provided sources. First humanoid robot deployed in real commercial operations confirmed via partnerships with Amazon (announced October 2023) and GXO Logistics (announced late 2023)."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Salem, OR",
-          "verified": "Salem, Oregon",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://agilityrobotics.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://agilityrobotics.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Agility_Robotics"
-        }
-      ],
-      "notes": "Company announced rebrand as 'Agility' on March 5, 2026 according to Wikipedia source [2]. Sources do not specify funding stage (Series E in database entry cannot be verified). Total raised amount of '$400M+' from database entry cannot be verified from provided sources. First humanoid robot deployed in real commercial operations confirmed via partnerships with Amazon (announced October 2023) and GXO Logistics (announced late 2023)."
-    },
-    {
-      "name": "Alef Aeronautics",
-      "current": {
-        "name": "Alef Aeronautics",
-        "founder": "Jim Dukhovny, Constantine Kisly, Pavel Markin, Oleg Petrov",
-        "location": "San Mateo, California",
-        "founded": 2015,
-        "fundingStage": "Series A",
-        "totalRaised": "$30M+",
-        "website": "https://alef.aero"
-      },
-      "verified": {
-        "name": "Alef Aeronautics",
-        "description": "American company developing a flying car designed to drive on streets and take off vertically, incorporating eight motor-controller-propeller systems for distributed electric propulsion.",
-        "founders": [
-          "Jim Dukhovny",
-          "Constantine Kisly",
-          "Pavel Markin",
-          "Oleg Petrov"
-        ],
-        "location": "San Mateo, California, U.S.",
-        "founded_year": 2015,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Draper Associates",
-          "Draper B1",
-          "Impact Venture Capital",
-          "Strong VC",
-          "Luis Scola"
-        ],
-        "website": "https://alef.aero",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            1
-          ]
-        },
-        "notes": "Founded April 6, 2015 per Wikipedia. Database entry lists 'Series A' stage and '$30M+' total raised, but these values cannot be verified in provided sources. Wikipedia mentions seed investment from Draper Associates in 2017 and further rounds in 2018 and 2020, but no specific funding amounts or current stage are disclosed in sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Mateo, California",
-          "verified": "San Mateo, California, U.S.",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://alef.aero"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alef_Aeronautics"
-        }
-      ],
-      "notes": "Founded April 6, 2015 per Wikipedia. Database entry lists 'Series A' stage and '$30M+' total raised, but these values cannot be verified in provided sources. Wikipedia mentions seed investment from Draper Associates in 2017 and further rounds in 2018 and 2020, but no specific funding amounts or current stage are disclosed in sources."
-    },
-    {
-      "name": "AlixLabs",
-      "current": {
-        "name": "AlixLabs",
-        "founder": "Jonas Sundqvist",
-        "location": "Lund, Sweden",
-        "founded": 2019,
-        "fundingStage": "Series A",
-        "totalRaised": "$25M",
-        "website": "https://www.alixlabs.com"
-      },
-      "verified": {
-        "name": "AlixLabs",
-        "description": "Swedish semiconductor equipment supplier developing Atomic Layer Etching (ALE) technology for manufacturing nanostructures smaller than 20 nanometers without optical or electron beam lithography.",
-        "founders": [
-          "Jonas Sundqvist",
-          "Dmitry Suyatin",
-          "Amin Karimi"
-        ],
-        "location": "Lund, Sweden",
-        "founded_year": 2019,
-        "current_stage": "Series A",
-        "total_raised": "$14.1M EUR",
-        "valuation": null,
-        "investors": [
-          "Navigare Ventures",
-          "Industrifonden",
-          "FORWARD.one",
-          "Global Brain",
-          "Almi Invest",
-          "Stephen Industries"
-        ],
-        "website": "https://www.alixlabs.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            1,
-            0
-          ]
-        },
-        "notes": "Source [0] indicates a Series A close of \u20ac15M from Stephen Industries on April 14, 2026, and \u20ac14.1M on November 18, 2025. The most recent funding announcement is \u20ac15M (April 2026). Amin Karimi listed as CTO and Co-Founder in source [1], though source [1] also states he joined in 2021, which appears inconsistent with co-founder status from 2019. Database entry incorrectly lists only Jonas Sundqvist as founder."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Jonas Sundqvist",
-          "verified": "Jonas Sundqvist, Dmitry Suyatin, Amin Karimi",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$25M",
-          "verified": "$14.1M EUR",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.alixlabs.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.alixlabs.com/about"
-        }
-      ],
-      "notes": "Source [0] indicates a Series A close of \u20ac15M from Stephen Industries on April 14, 2026, and \u20ac14.1M on November 18, 2025. The most recent funding announcement is \u20ac15M (April 2026). Amin Karimi listed as CTO and Co-Founder in source [1], though source [1] also states he joined in 2021, which appears inconsistent with co-founder status from 2019. Database entry incorrectly lists only Jonas Sundqvist as founder."
-    },
-    {
-      "name": "Allen Control Systems",
-      "current": {
-        "name": "Allen Control Systems",
-        "founder": "Mike Wior, Luke Allen, Steven Simoni",
-        "location": "Austin, TX",
-        "founded": 2022,
-        "fundingStage": "Series A",
-        "totalRaised": "$42M",
-        "website": null
-      },
-      "verified": {
-        "name": "Allen Control Systems",
-        "description": "Develops autonomous weapon stations including the Bullfrog system for defeating unmanned aerial systems. Products integrate passive sensing and autonomous fire control for land and sea platforms.",
-        "founders": [
-          "Mike Wior",
-          "Steve Simoni",
-          "Luke Allen"
-        ],
-        "location": "Austin, TX",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://allencontrolsystems.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Founded year 2022, Series A stage, and $42M raised cannot be verified from provided sources. The $10 per-kill cost mentioned in database entry appears in Fox News headline cited on website but is not directly stated in the sources provided. Founder names verified from company_about page where they are listed with their roles (CEO, President, CTO)."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Mike Wior, Luke Allen, Steven Simoni",
-          "verified": "Mike Wior, Steve Simoni, Luke Allen",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://allencontrolsystems.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://allencontrolsystems.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://allencontrolsystems.com/company"
-        }
-      ],
-      "notes": "Founded year 2022, Series A stage, and $42M raised cannot be verified from provided sources. The $10 per-kill cost mentioned in database entry appears in Fox News headline cited on website but is not directly stated in the sources provided. Founder names verified from company_about page where they are listed with their roles (CEO, President, CTO)."
-    },
-    {
-      "name": "Andromeda Surgical",
-      "current": {
-        "name": "Andromeda Surgical",
-        "founder": "Nick Damiano, Kartik Tiwari",
-        "location": "San Francisco, CA",
-        "founded": 2023,
-        "fundingStage": "Seed",
-        "totalRaised": "$10M+",
-        "website": "https://andromedasurgical.com"
-      },
-      "verified": {
-        "name": "Andromeda Surgical",
-        "description": "A surgical AI platform providing GPS-like navigation and autonomous, AI-guided surgical capabilities, starting with robotic-assisted endourology procedures. The company has performed the world's first robotic-assisted HoLEP procedure and is developing surgeon-in-the-loop autonomous surgical tasks.",
-        "founders": [
-          "Nick Damiano",
-          "Kartik Tiwari"
-        ],
-        "location": "San Francisco, CA",
-        "founded_year": 2023,
-        "current_stage": "Series Seed",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://andromedasurgical.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "SEC Form D filing from March 2026 indicates Series Seed stage (a Series of CGF2021 LLC). Total raised amount cannot be verified from sources\u2014Form D shows $104,500 which appears to be a filing amount rather than total capital raised. Database entry claims $10M+ but this is not supported by provided sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Seed",
-          "verified": "Series Seed",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://andromedasurgical.com"
-        },
-        {
-          "idx": 1,
-          "src": "sec_form_d",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128800&type=D&dateb=&owner=include&count=10"
-        }
-      ],
-      "notes": "SEC Form D filing from March 2026 indicates Series Seed stage (a Series of CGF2021 LLC). Total raised amount cannot be verified from sources\u2014Form D shows $104,500 which appears to be a filing amount rather than total capital raised. Database entry claims $10M+ but this is not supported by provided sources."
-    },
-    {
-      "name": "Anysphere",
-      "current": {
-        "name": "Anysphere",
-        "founder": "Michael Truell, Sualeh Asif, Aman Sanger, Arvid Lunnemark",
-        "location": "San Francisco, California, United States",
-        "founded": 2022,
-        "fundingStage": "Series D",
-        "totalRaised": "$3.4B+",
-        "website": "https://anysphere.co"
-      },
-      "verified": {
-        "name": "Anysphere",
-        "description": "American software company offering Cursor, an AI-assisted software development service. Founded in 2022 by MIT students, the company achieved a $29.3 billion valuation and surpassed $1 billion in annual recurring revenue by late 2025.",
-        "founders": [
-          "Michael Truell",
-          "Sualeh Asif",
-          "Aman Sanger",
-          "Arvid Lunnemark"
-        ],
-        "location": "San Francisco, California, United States",
-        "founded_year": 2022,
-        "current_stage": "Series D",
-        "total_raised": "$3.3B+",
-        "valuation": "$29.3B",
-        "investors": [
-          "Accel",
-          "Coatue Management",
-          "Google",
-          "Nvidia",
-          "Thrive Capital",
-          "OpenAI Startup Fund"
-        ],
-        "website": "https://anysphere.co",
-        "sources_per_field": {
-          "name": [
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "valuation": [
-            1
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Series D funding round of $2.3B closed November 13, 2025, co-led by Accel and Coatue Management, resulting in $29.3B post-money valuation. Total raised calculation: $8M seed + $60M Series A + $900M Series C + $2.3B Series D = $3.268B, rounded to $3.3B+. Wikipedia indicates ARR exceeded $1B as of November 2025. As of April 21, 2026, xAI announced acquisition deal option for $60B or $10B for collaborative work."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$3.4B+",
-          "verified": "$3.3B+",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://anysphere.co"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Anysphere"
-        },
-        {
-          "idx": 2,
-          "src": "news (TechNode Global)",
-          "url": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
-        }
-      ],
-      "notes": "Series D funding round of $2.3B closed November 13, 2025, co-led by Accel and Coatue Management, resulting in $29.3B post-money valuation. Total raised calculation: $8M seed + $60M Series A + $900M Series C + $2.3B Series D = $3.268B, rounded to $3.3B+. Wikipedia indicates ARR exceeded $1B as of November 2025. As of April 21, 2026, xAI announced acquisition deal option for $60B or $10B for collaborative work."
-    },
-    {
-      "name": "Apex Space",
-      "current": {
-        "name": "Apex Space",
-        "founder": "Ian Cinnamon, Max Benassi",
-        "location": "Culver City, CA",
-        "founded": 2022,
-        "fundingStage": "Series D",
-        "totalRaised": "$200M",
-        "website": "https://apexspace.com"
-      },
-      "verified": {
-        "name": "Apex",
-        "description": "Productized satellite bus platforms manufactured at constellation scale. Apex manufactures standardized satellite platforms with configurable designs across multiple orbits (LEO, MEO, GEO) with peak annual production capacity of over 200 buses per year.",
-        "founders": [
-          "Ian Cinnamon",
-          "Max Benassi"
-        ],
-        "location": "Los Angeles, CA",
-        "founded_year": 2022,
-        "current_stage": "Series D",
-        "total_raised": "$200M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://apexspace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Database entry claims $400M in Series C+D funding and $1B+ valuation, but sources only verify $200M Series D raise. Database entry lists location as Culver City, CA; sources specify Los Angeles, CA (Factory One facility). No information found in sources about $45.9M Space Force contract or 200+ satellites/year production claim. No investor names listed in provided sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Culver City, CA",
-          "verified": "Los Angeles, CA",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://apexspace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://apexspace.com/about"
-        }
-      ],
-      "notes": "Database entry claims $400M in Series C+D funding and $1B+ valuation, but sources only verify $200M Series D raise. Database entry lists location as Culver City, CA; sources specify Los Angeles, CA (Factory One facility). No information found in sources about $45.9M Space Force contract or 200+ satellites/year production claim. No investor names listed in provided sources."
-    },
-    {
-      "name": "Apis Cor",
-      "current": {
-        "name": "Apis Cor",
-        "founder": "Nikita Cheniuntai",
-        "location": "Melbourne, FL",
-        "founded": 2014,
-        "fundingStage": "Seed",
-        "totalRaised": "$5.5M",
-        "website": null
-      },
-      "verified": {
-        "name": null,
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://apiscor.com",
-        "sources_per_field": {
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is a website for 'Apiscor, Inc.' - a managed IT services company ('Your Business Technology Partner'), not a 3D construction printing company. This appears to be a different company than the 'Apis Cor' described in the database entry. No information could be verified about 3D printing technology, construction, robotic systems, NASA Mars habitat prototype, founder Nikita Cheniuntai, Melbourne FL location, 2014 founding, or funding history from the provided source."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://apiscor.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://apiscor.com"
-        }
-      ],
-      "notes": "Source [0] is a website for 'Apiscor, Inc.' - a managed IT services company ('Your Business Technology Partner'), not a 3D construction printing company. This appears to be a different company than the 'Apis Cor' described in the database entry. No information could be verified about 3D printing technology, construction, robotic systems, NASA Mars habitat prototype, founder Nikita Cheniuntai, Melbourne FL location, 2014 founding, or funding history from the provided source."
-    },
-    {
-      "name": "Argotec",
-      "current": {
-        "name": "Argotec",
-        "founder": "David Avino",
-        "location": "Turin, Italy",
-        "founded": 2008,
-        "fundingStage": "Growth",
-        "totalRaised": "Targeting \u20ac75M",
-        "website": null
-      },
-      "verified": {
-        "name": "Argotec",
-        "description": "Italian aerospace engineering company specializing in small satellite production (up to 200 kg) and astronaut comfort solutions in space.",
-        "founders": [
-          "David Avino"
-        ],
-        "location": "Turin, Italy",
-        "founded_year": 2008,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.argotecgroup.com/",
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "website": [
-            2
-          ]
-        },
-        "notes": "Database entry references 'Argotec' as polymer film company, but sources [0], [1], [2] describe Argotec S.r.l as aerospace/microsatellite company founded 2008 in Turin. Source [0] and [1] describe engineered polymer products but identify company as 'Argotec, a Mativ brand' - suggesting possible brand/acquisition distinction. Wikipedia [2] is consistent Italian aerospace company. No sources verify \u20ac75M funding target, ArgoMoon as NASA mission satellite is confirmed [2], IRIDE constellation contract for 10 satellites confirmed [2] but not specific 'seven satellites' or 2025 launch date."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://www.argotecgroup.com/",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://argotec.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://argotec.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Argotec"
-        }
-      ],
-      "notes": "Database entry references 'Argotec' as polymer film company, but sources [0], [1], [2] describe Argotec S.r.l as aerospace/microsatellite company founded 2008 in Turin. Source [0] and [1] describe engineered polymer products but identify company as 'Argotec, a Mativ brand' - suggesting possible brand/acquisition distinction. Wikipedia [2] is consistent Italian aerospace company. No sources verify \u20ac75M funding target, ArgoMoon as NASA mission satellite is confirmed [2], IRIDE constellation contract for 10 satellites confirmed [2] but not specific 'seven satellites' or 2025 launch date."
-    },
-    {
-      "name": "Array Labs",
-      "current": {
-        "name": "Array Labs",
-        "founder": "Andrew Peterson, Jose Isaac Robledo",
-        "location": "Palo Alto, CA",
-        "founded": 2021,
-        "fundingStage": "Series A",
-        "totalRaised": "$35M",
-        "website": null
-      },
-      "verified": {
-        "name": null,
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://arraylabs.com",
-        "sources_per_field": {
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is a web development/site maintenance company (ArrayLabs, LLC) offering WordPress, Joomla, and open-source web services. This does NOT match the database entry describing a satellite constellation/3D mapping company. These appear to be completely different companies with the same name. No information in sources verifies any claims in the database entry (founders, location, founding year, funding, or business model)."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://arraylabs.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://arraylabs.com"
-        }
-      ],
-      "notes": "Source [0] is a web development/site maintenance company (ArrayLabs, LLC) offering WordPress, Joomla, and open-source web services. This does NOT match the database entry describing a satellite constellation/3D mapping company. These appear to be completely different companies with the same name. No information in sources verifies any claims in the database entry (founders, location, founding year, funding, or business model)."
-    },
-    {
-      "name": "AstroForge",
-      "current": {
-        "name": "AstroForge",
-        "founder": "Matt Gialich, Jose Acain",
-        "location": "Huntington Beach, California",
-        "founded": 2022,
-        "fundingStage": "Series A",
-        "totalRaised": "$53M",
-        "website": "https://www.astroforge.com"
-      },
-      "verified": {
-        "name": "AstroForge",
-        "description": "Aerospace company developing asteroid mining technologies to extract platinum-group metals from near-Earth asteroids. The company builds spacecraft for deep space missions to identify and process metallic asteroids.",
-        "founders": [
-          "Matt Gialich",
-          "Jose Acain"
-        ],
-        "location": "Huntington Beach, California, United States",
-        "founded_year": 2022,
-        "current_stage": "Private",
-        "total_raised": "$53M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.astroforge.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Wikipedia states founded January 10, 2022 and mentions $13M seed funding. Database entry claims $53M total raised but this is not supported by provided sources. Odin mission launched February 27, 2025 (Wikipedia) but website states February 26, 2025. Wikipedia reports Odin lost on March 6, 2025 due to ground station failures. No co-founder Jose Acain mentioned in About Us page (source 1), only Matt Gialich listed as CEO and Co-Founder, but Wikipedia confirms both founders."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Huntington Beach, California",
-          "verified": "Huntington Beach, California, United States",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "fundingStage",
-          "current": "Series A",
-          "verified": "Private",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.astroforge.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.astroforge.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/AstroForge"
-        }
-      ],
-      "notes": "Wikipedia states founded January 10, 2022 and mentions $13M seed funding. Database entry claims $53M total raised but this is not supported by provided sources. Odin mission launched February 27, 2025 (Wikipedia) but website states February 26, 2025. Wikipedia reports Odin lost on March 6, 2025 due to ground station failures. No co-founder Jose Acain mentioned in About Us page (source 1), only Matt Gialich listed as CEO and Co-Founder, but Wikipedia confirms both founders."
-    },
-    {
-      "name": "Augury",
-      "current": {
-        "name": "Augury",
-        "founder": "Gal Shaul, Saar Yoskovitz",
-        "location": "New York, NY",
-        "founded": 2011,
-        "fundingStage": "Series F",
-        "totalRaised": "$361M",
-        "website": "https://www.augury.com"
-      },
-      "verified": {
-        "name": "Augury",
-        "description": "Provides AI-driven industrial IoT solutions for predictive maintenance and process optimization in manufacturing. The company offers Machine Health prescriptive AI diagnostics and Process Health optimization (acquired Seebo in 2022).",
-        "founders": [
-          "Gal Shaul",
-          "Saar Yoskovitz"
-        ],
-        "location": null,
-        "founded_year": 2011,
-        "current_stage": "Series F",
-        "total_raised": "$75M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.augury.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [1] states 'Augury closes Series F funding' in 2025 and 'We raise $75M' - this is the most recent funding information. Wikipedia source [2] is about Roman religious augury practice, not the company, so it was disregarded. Database entry shows $361M total raised and mentions Series F, but sources only support the $75M Series F round from 2025. Location data not found in sources despite database entry stating 'New York, NY'. No valuation data found in sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$361M",
-          "verified": "$75M",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.augury.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.augury.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Augury"
-        }
-      ],
-      "notes": "Source [1] states 'Augury closes Series F funding' in 2025 and 'We raise $75M' - this is the most recent funding information. Wikipedia source [2] is about Roman religious augury practice, not the company, so it was disregarded. Database entry shows $361M total raised and mentions Series F, but sources only support the $75M Series F round from 2025. Location data not found in sources despite database entry stating 'New York, NY'. No valuation data found in sources."
-    }
-  ],
+  "changesProposed": [],
   "unverifiable": [
     {
       "name": "44.01",
@@ -1337,31 +32,335 @@
       "reason": "no public sources accessible"
     },
     {
+      "name": "ABL Bio",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ACSL",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ADASI",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AIM Intelligent Machines",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "AIR",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AMP Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ANYbotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AQT",
+      "reason": "no public sources accessible"
+    },
+    {
       "name": "ARC Clean Technology",
       "reason": "no public sources accessible"
     },
     {
+      "name": "AST SpaceMobile",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Aalo Atomics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Aalyria",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AbCellera",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Abridge",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Aclarity",
-      "reason": "no public sources accessible"
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Addionics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Aeon Industrial",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Aepnus Technology",
       "reason": "no public sources accessible"
     },
     {
+      "name": "Aerospacelab",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Aestus Industries",
       "reason": "no public sources accessible"
     },
     {
-      "name": "Ambient Photonics",
-      "reason": "no public sources accessible"
+      "name": "Aeva Technologies",
+      "reason": "Claude extraction failed"
     },
     {
-      "name": "Ambient.ai",
-      "reason": "no public sources accessible"
+      "name": "Agile Robots",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Agility Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Agnikul Cosmos",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Airship Industries",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Akaer",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Akash Systems",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Albedo",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Alef Aeronautics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Alice & Bob",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AlixLabs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Allen Control Systems",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Alpha School",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Alpine Eagle",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Alto Neuroscience",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Altos Labs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Amber Bio",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Amca",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Amogy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Amperon",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Andrenam",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Andromeda Surgical",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Anduril Industries",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Antares",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Anthrogen",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Antora Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AnySignal",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Anyon Systems",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Apex Space",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Apis Cor",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Applied Intuition",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Apptronik",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Arbe Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Arbor Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Arc Boats",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Archer Aviation",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Archer Materials",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Arena AI",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Argotec",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Ark Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Armada",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Array Labs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Artimus Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Asimov",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Astera Labs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Astro Mechanica",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AstroForge",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Astrolab",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Astrolight",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Astroscale",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Asylon Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Atom Bodies",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Atom Computing",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Atomic AI",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Atomic Industries",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Atomic Machines",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Atomic Semi",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Augury",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Aurelius Systems",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Auterion",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Avalanche Energy",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Axelspace",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Axial Composites",
       "reason": "no public sources accessible"
     }
   ]
