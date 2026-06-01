@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-05-31";
+const LAST_UPDATED = "2026-06-01";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -51521,23 +51521,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-05-31 22:08
+// Last updated: 2026-06-01 00:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "A SpaceX/Tesla merger could trigger Musk's $1T pay package automatically", source: "Electrek", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "SpaceX", headline: "SpaceX awarded $6.45B in Space Force contracts ahead of IPO", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "NASA Hosts SpaceX Crew-11 Astronauts for Public Event at Headquarters", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "2d ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Anthropic", headline: "The Week's 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "2d ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Waymo", headline: "Podcast: Tesla Robotaxi numbers, Ferrari's controversial Luce launches, Waymo Ojai, and more", source: "Electrek", time: "2d ago", impact: "medium", unread: false },
-  { id: 8, type: "contract", company: "SpaceX", headline: "SpaceX wins $4.16B Space Force contract to detect airborne moving targets", source: "Breaking Defense", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "How Has Anthropic Become the Top AI Company?", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Focused Energy", headline: "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot", source: "Tech.eu", time: "2d ago", impact: "high", unread: false },
-  { id: 11, type: "milestone", company: "Humanoid", headline: "NIST proposes a baseline performance benchmark for humanoid robots", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Blue Origin", headline: "Blue Origin Rocket Explodes in Fiery Setback", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Deterrence", headline: "Contriving Imaginary Gaps in Nuclear Deterrence", source: "War on the Rocks", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Anthropic", headline: "GIC, Temasek anchor Singapore's investment in Anthropic's $65B Series H round", source: "TechNode Global", time: "2d ago", impact: "high", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Elon facing backlash over Tesla SpaceX merger talks, but solar actually isn't", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "A SpaceX/Tesla merger could trigger Musk's $1T pay package automatically", source: "Electrek", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "FAA documents outline SpaceX plans for Starfall reentry vehicles", source: "SpaceNews", time: "14h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Blue Origin", headline: "Blue Origin gets national security launch task order hours before New Glenn explosion", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "SpaceX", headline: "SpaceX awarded $6.45B in Space Force contracts ahead of IPO", source: "TechCrunch", time: "2d ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Anthropic", headline: "The Week's 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "2d ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Waymo", headline: "Podcast: Tesla Robotaxi numbers, Ferrari's controversial Luce launches, Waymo Ojai, and more", source: "Electrek", time: "2d ago", impact: "medium", unread: false },
+  { id: 9, type: "contract", company: "SpaceX", headline: "SpaceX wins $4.16B Space Force contract to detect airborne moving targets", source: "Breaking Defense", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "SpaceX", headline: "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking", source: "SpaceNews", time: "2d ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "How Has Anthropic Become the Top AI Company?", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Focused Energy", headline: "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot", source: "Tech.eu", time: "2d ago", impact: "high", unread: false },
+  { id: 13, type: "milestone", company: "Humanoid", headline: "NIST proposes a baseline performance benchmark for humanoid robots", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Blue Origin", headline: "Blue Origin Rocket Explodes in Fiery Setback", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Deterrence", headline: "Contriving Imaginary Gaps in Nuclear Deterrence", source: "War on the Rocks", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
