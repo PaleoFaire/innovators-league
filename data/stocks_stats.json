@@ -5,100 +5,90 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 13.92,
+      "avg_change": 19.05,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 15.79,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -2.01,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 5.7,
+      "avg_change": 4.11,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.91,
+      "avg_change": 11.85,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.77,
+      "avg_change": -0.08,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 18.45,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.75,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.65,
+      "avg_change": 15.54,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 9.74,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": 8.76,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 8.7,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 6.83,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ASRHF",
-      "Astroscale",
-      32.8
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      23.75
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      28.01
+      "PLTR",
+      "Palantir",
+      19.05
     ],
     [
-      "IONQ",
-      "IonQ",
-      22.38
+      "RIVN",
+      "Rivian",
+      18.71
     ],
     [
-      "PL",
-      "Planet Labs",
-      20.39
+      "TEM",
+      "Tempus AI",
+      17.77
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      17.85
+      "SMR",
+      "NuScale Power",
+      16.1
     ]
   ],
   "topLosers": [
     [
-      "SATL",
-      "Satellogic",
-      -1.35
-    ],
-    [
-      "9348.T",
-      "ispace",
-      -1.51
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      -3.81
+      "RGTI",
+      "Rigetti Computing",
+      -2.5
     ],
     [
       "IDEAFORGE.NS",
@@ -106,10 +96,20 @@
       -5.82
     ],
     [
+      "RKLB",
+      "Rocket Lab",
+      -6.74
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -16.26
+    ],
+    [
       "LNZA",
       "LanzaTech",
-      -20.92
+      -22.91
     ]
   ],
-  "lastUpdated": "2026-06-01 11:43:06"
+  "lastUpdated": "2026-06-01 17:48:35"
 }
