@@ -1,15 +1,15 @@
 {
-  "date": "2026-05-31",
-  "display_date": "May 31, 2026",
-  "generated_at": "2026-05-31T11:05:44.243821+00:00",
-  "cutoff": "2026-05-24T11:05:44.243821+00:00",
-  "section_count": 7,
-  "total_items": 297,
+  "date": "2026-06-01",
+  "display_date": "Jun 01, 2026",
+  "generated_at": "2026-06-01T16:09:54.292573+00:00",
+  "cutoff": "2026-05-25T16:09:54.292573+00:00",
+  "section_count": 8,
+  "total_items": 303,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 45,
+      "count": 44,
       "items": [
         {
           "company": "Scale AI",
@@ -84,9 +84,23 @@
       ]
     },
     {
+      "title": "New Funding Rounds",
+      "icon": "\ud83d\udcb0",
+      "count": 1,
+      "items": [
+        {
+          "company": "Matter",
+          "amount": "$14M",
+          "round": "Funding Round",
+          "investor": "Undisclosed",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 28,
+      "count": 29,
       "items": [
         {
           "company": "Virgin Galactic",
@@ -107,6 +121,13 @@
           "form": "8-K",
           "description": "path-20260528.htm",
           "date": "2026-05-28",
+          "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260601.htm",
+          "date": "2026-06-01",
           "isIPO": false
         },
         {
@@ -135,13 +156,6 @@
           "form": "8-K",
           "description": "ea0291524-8k_zoomcar.htm",
           "date": "2026-05-26",
-          "isIPO": false
-        },
-        {
-          "company": "Rocket Lab",
-          "form": "4",
-          "description": "xslF345X06/edgardoc.xml",
-          "date": "2026-05-28",
           "isIPO": false
         }
       ]
@@ -180,90 +194,73 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 34,
+      "count": 55,
       "items": [
         {
-          "title": "Regulation for Federal Financial Assistance",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Management and Budget Office",
-            "Health and Human Services Department",
-            "Agriculture Department"
-          ],
-          "significant": false,
-          "date": "2026-05-29"
-        },
-        {
-          "title": "Special Conditions: Honeywell International Inc., Boeing Model 757-200 Series Airplanes; Electronic System Security Prot",
-          "type": "Rule",
-          "agencies": [
-            "Transportation Department",
-            "Federal Aviation Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-01"
-        },
-        {
-          "title": "Airworthiness Directives; The Boeing Company Airplanes",
-          "type": "Rule",
-          "agencies": [
-            "Transportation Department",
-            "Federal Aviation Administration"
-          ],
-          "significant": false,
-          "date": "2026-05-29"
-        },
-        {
-          "title": "Space Bureau Seeks Comment on GSO Reference Links",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Federal Communications Commission"
-          ],
-          "significant": false,
-          "date": "2026-05-28"
-        },
-        {
-          "title": "Information Collection Being Reviewed by the Federal Communications Commission",
-          "type": "Notice",
-          "agencies": [
-            "Federal Communications Commission"
-          ],
-          "significant": false,
-          "date": "2026-05-28"
-        },
-        {
-          "title": "NuFuels Inc.; Crownpoint Uranium Project In-Situ Recovery Facility; License Renewal Application",
+          "title": "Southern Nuclear Operating Company, Inc.; Edwin I. Hatch Nuclear Plant, Units 1 and 2; Exemption",
           "type": "Notice",
           "agencies": [
             "Nuclear Regulatory Commission"
           ],
           "significant": false,
+          "date": "2026-06-01"
+        },
+        {
+          "title": "Sunshine Act Meetings",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-05-29"
+        },
+        {
+          "title": "Revisions to the Blanket Certificate Program",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Energy Department",
+            "Federal Energy Regulatory Commission"
+          ],
+          "significant": false,
           "date": "2026-05-27"
+        },
+        {
+          "title": "University of Illinois Urbana-Champaign; Construction Permit Application",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-05-26"
+        },
+        {
+          "title": "Town Hall Meetings To Provide Input on Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Rulemaking",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Homeland Security Department"
+          ],
+          "significant": false,
+          "date": "2026-05-26"
+        },
+        {
+          "title": "Biweekly Notice; Applications and Amendments to Facility Operating Licenses and Combined Licenses Involving No Significa",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-05-26"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 33,
+      "count": 23,
       "items": [
         {
           "title": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
           "source": "TechCrunch",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "contract"
-        },
-        {
-          "title": "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
-          "source": "TechCrunch",
-          "company": "Groq",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking",
-          "source": "SpaceNews",
           "company": "SpaceX",
           "impact": "high",
           "type": "contract"
@@ -283,46 +280,51 @@
           "type": "funding"
         },
         {
-          "title": "Observable Space raises $90 million and wins Space Force contract for optical systems",
-          "source": "SpaceNews",
-          "company": "Observable Space",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "SpaceX and SpaceXAI Are Changing Quickly. Understanding Profits and Growth and IPO Price Action",
-          "source": "Next Big Future",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
           "title": "Anthropic Nears $1T Valuation And Leapfrogs OpenAI On Unicorn Board With $65B Funding Round",
           "source": "Crunchbase News",
           "company": "Anthropic",
           "impact": "high",
           "type": "funding"
+        },
+        {
+          "title": "Tesla (TSLA) and SpaceX merger would be Musk&#8217;s 4th billion-dollar self-deal",
+          "source": "Electrek",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters",
+          "source": "Defense News",
+          "company": "Deterrence",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "Revolut, Mistral and Wayve back six-figure \u201cBuilt in Europe\u201d campaign",
+          "source": "Tech.eu",
+          "company": "Wayve",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "A SpaceX/Tesla merger could trigger Musk&#8217;s $1T pay package automatically",
+          "source": "Electrek",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 44,
+      "count": 38,
       "items": [
         {
-          "title": "The dead economy theory",
-          "score": 1281,
-          "comments": 1386,
-          "companies": [
-            "HEO"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48324712"
-        },
-        {
           "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
-          "score": 845,
-          "comments": 298,
+          "score": 994,
+          "comments": 368,
           "companies": [
             "Matic Robotics",
             "Photonic Inc"
@@ -330,40 +332,50 @@
           "url": "https://news.ycombinator.com/item?id=48341578"
         },
         {
-          "title": "SQLite is all you need for durable workflows",
-          "score": 681,
-          "comments": 373,
+          "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
+          "score": 709,
+          "comments": 401,
           "companies": [
-            "Dunia"
+            "Rigetti Computing"
           ],
-          "url": "https://news.ycombinator.com/item?id=48326802"
-        },
-        {
-          "title": "Danish pension fund excludes SpaceX citing governance and valuation",
-          "score": 458,
-          "comments": 12,
-          "companies": [
-            "SpaceX"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48333820"
-        },
-        {
-          "title": "Notes from the Mistral AI Now Summit",
-          "score": 458,
-          "comments": 200,
-          "companies": [
-            "Mistral AI"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48325340"
+          "url": "https://news.ycombinator.com/item?id=48345840"
         },
         {
           "title": "OpenRouter raises $113M Series B",
-          "score": 417,
-          "comments": 198,
+          "score": 454,
+          "comments": 247,
           "companies": [
             "Fortera"
           ],
           "url": "https://news.ycombinator.com/item?id=48338660"
+        },
+        {
+          "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
+          "score": 419,
+          "comments": 471,
+          "companies": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48336233"
+        },
+        {
+          "title": "United Airlines 767 returns to Newark after Bluetooth name sparks alert",
+          "score": 375,
+          "comments": 750,
+          "companies": [
+            "Hubble Network"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48345248"
+        },
+        {
+          "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
+          "score": 351,
+          "comments": 165,
+          "companies": [
+            "Runway"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48340910"
         }
       ]
     },
@@ -373,43 +385,37 @@
       "count": 109,
       "items": [
         {
-          "title": "Pluvicto\u2122 demonstrated consistent efficacy across key patient subgroups in metastatic hormone-sensitive prostate cancer",
+          "title": "Vaxart Files Definitive Proxy Statement and Mails Letter to Shareholders",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Orion Pharma announces first results from Phase 1/2 TEADES trial with TEAD inhibitor ODM-212 in patients with advanced s",
+          "title": "Jiuzi Holdings Announces AI Intelligent Imaging Platform Achieves Milestone Progress and Advances Toward Commercial Depl",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Orion Pharma julkisti ensimm\u00e4iset tulokset Faasi 1/2 TEADES-tutkimuksesta ODM-212-molekyylill\u00e4 (TEAD-est\u00e4j\u00e4) potilailla,",
+          "title": "Greenwich LifeSciences Presents FLAMINGO-01 Phase III Trial Open Label Data Published at ASCO Meeting 2026",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Eikon Therapeutics Presents Data on Clinical-Stage Programs at the 2026 Annual Meeting of the American Society of Clinic",
-          "source": "globenewswire_all",
-          "companies": [
-            "Eikon Therapeutics",
-            "Zipline",
-            "Kinova Robotics",
-            "Asimov",
-            "Profluent"
-          ]
-        },
-        {
-          "title": "Global Data for BioNTech and Bristol Myers Squibb\u2019s PD-L1xVEGF-A Bispecific Pumitamig Shows Encouraging Efficacy in Pati",
+          "title": "Osisko Development Announces Closings of Additional US$75 Million Aggregate Principal Amount of 4.125% Convertible Senio",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Globale Daten der ROSETTA Lung-02-Studie: Ermutigende Wirksamkeit f\u00fcr BioNTechs und Bristol Myers Squibbs bispezifischen",
+          "title": "Alpha Cash Cardholders To Get $2.50 Back Monthly on Certain Transit in 11 U.S. Cities",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "Ealixir Expands Media Presence Through Affaritaliani Regional Publishing Initiative",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-05-31-9833628a7331"
+  "brief_id": "brief-2026-06-01-61d5f2c08389"
 }
