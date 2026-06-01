@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-05-31 10:05:28 UTC
+// Last updated: 2026-06-01 14:20:44 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -35,7 +35,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cambridge Aerospace",
         "sector": "Defense & Security",
-        "bid_fit_score": 17.5,
+        "bid_fit_score": 17.6,
         "matched_terms": [
           "counter",
           "uas",
@@ -45,7 +45,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Aurelius Systems",
         "sector": "Defense & Security",
-        "bid_fit_score": 14.7,
+        "bid_fit_score": 14.8,
         "matched_terms": [
           "counter",
           "defense"
@@ -92,7 +92,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Nordic Air Defence",
         "sector": "Defense & Security",
-        "bid_fit_score": 11.5,
+        "bid_fit_score": 11.6,
         "matched_terms": [
           "uas",
           "counter",
@@ -124,7 +124,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Hypersonix Launch Systems",
         "sector": "Defense & Security",
-        "bid_fit_score": 20.2,
+        "bid_fit_score": 20.1,
         "matched_terms": [
           "hypersonic",
           "flight",
@@ -134,16 +134,25 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Astro Mechanica",
         "sector": "Supersonic & Hypersonic",
-        "bid_fit_score": 17.5,
+        "bid_fit_score": 17.3,
         "matched_terms": [
           "hypersonic",
           "flight"
         ]
       },
       {
+        "company": "constellr",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 16.4,
+        "matched_terms": [
+          "thermal",
+          "defense"
+        ]
+      },
+      {
         "company": "Venus Aerospace",
         "sector": "Supersonic & Hypersonic",
-        "bid_fit_score": 16.5,
+        "bid_fit_score": 16.3,
         "matched_terms": [
           "hypersonic",
           "vehicles",
@@ -151,18 +160,9 @@ const SBIR_TOPICS_AUTO = [
         ]
       },
       {
-        "company": "constellr",
-        "sector": "Space & Aerospace",
-        "bid_fit_score": 16.3,
-        "matched_terms": [
-          "thermal",
-          "defense"
-        ]
-      },
-      {
         "company": "Hermeus",
         "sector": "Supersonic & Hypersonic",
-        "bid_fit_score": 16.1,
+        "bid_fit_score": 15.8,
         "matched_terms": [
           "hypersonic"
         ]
@@ -170,7 +170,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "POLARIS Raumflugzeuge",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 14.7,
+        "bid_fit_score": 14.5,
         "matched_terms": [
           "hypersonic"
         ]
@@ -178,7 +178,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Stratolaunch",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 14.3,
+        "bid_fit_score": 14.1,
         "matched_terms": [
           "hypersonic",
           "flight"
@@ -187,7 +187,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Terrahaptix",
         "sector": "Defense & Security",
-        "bid_fit_score": 12.2,
+        "bid_fit_score": 12.1,
         "matched_terms": [
           "defense",
           "protection"
@@ -220,7 +220,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Exodys Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 35.3,
+        "bid_fit_score": 35.4,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -240,7 +240,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Valar Atomics",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 27.2,
+        "bid_fit_score": 27.3,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -250,7 +250,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "General Matter",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 26.1,
+        "bid_fit_score": 26.3,
         "matched_terms": [
           "nuclear",
           "haleu",
@@ -260,7 +260,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Oklo",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 23.1,
+        "bid_fit_score": 23.3,
         "matched_terms": [
           "nuclear",
           "energy"
@@ -269,7 +269,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "The Nuclear Company",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 22.5,
+        "bid_fit_score": 22.6,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -279,7 +279,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Radiant",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 22.0,
+        "bid_fit_score": 22.1,
         "matched_terms": [
           "nuclear",
           "energy",
@@ -289,7 +289,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Elementl Power",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 20.9,
+        "bid_fit_score": 21.1,
         "matched_terms": [
           "nuclear",
           "energy"
@@ -321,7 +321,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "CX2 Industries",
         "sector": "Defense & Security",
-        "bid_fit_score": 25.8,
+        "bid_fit_score": 25.9,
         "matched_terms": [
           "electronic",
           "warfare",
@@ -351,7 +351,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "SatRev",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 13.2,
+        "bid_fit_score": 13.3,
         "matched_terms": [
           "time",
           "real"
@@ -420,7 +420,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "QuamCore",
         "sector": "Quantum Computing",
-        "bid_fit_score": 27.9,
+        "bid_fit_score": 28.0,
         "matched_terms": [
           "fault",
           "tolerant",
@@ -430,7 +430,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Horizon Quantum Computing",
         "sector": "Quantum Computing",
-        "bid_fit_score": 22.1,
+        "bid_fit_score": 22.3,
         "matched_terms": [
           "quantum",
           "computing",
@@ -440,17 +440,17 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Anyon Systems",
         "sector": "Quantum Computing",
-        "bid_fit_score": 21.6,
+        "bid_fit_score": 21.7,
         "matched_terms": [
           "quantum",
           "computing",
-          "correction"
+          "error"
         ]
       },
       {
         "company": "Quantum Motion",
         "sector": "Quantum Computing",
-        "bid_fit_score": 21.1,
+        "bid_fit_score": 21.2,
         "matched_terms": [
           "quantum",
           "computing"
@@ -459,7 +459,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Quantinuum",
         "sector": "Quantum Computing",
-        "bid_fit_score": 20.4,
+        "bid_fit_score": 20.5,
         "matched_terms": [
           "quantum",
           "computing"
@@ -468,7 +468,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Nu Quantum",
         "sector": "Quantum Computing",
-        "bid_fit_score": 20.4,
+        "bid_fit_score": 20.5,
         "matched_terms": [
           "quantum",
           "computing",
@@ -478,7 +478,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Quantum Art",
         "sector": "Quantum Computing",
-        "bid_fit_score": 20.3,
+        "bid_fit_score": 20.4,
         "matched_terms": [
           "quantum",
           "computing",
@@ -488,7 +488,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Classiq",
         "sector": "Quantum Computing",
-        "bid_fit_score": 20.1,
+        "bid_fit_score": 20.2,
         "matched_terms": [
           "quantum",
           "hardware",
@@ -570,7 +570,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Panthalassa",
         "sector": "Climate & Energy",
-        "bid_fit_score": 10.9,
+        "bid_fit_score": 11.0,
         "matched_terms": [
           "energy",
           "water"
@@ -589,7 +589,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "WeaveGrid",
         "sector": "Climate & Energy",
-        "bid_fit_score": 9.4,
+        "bid_fit_score": 9.5,
         "matched_terms": [
           "energy",
           "infrastructure",
@@ -622,7 +622,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cascade Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 28.4,
+        "bid_fit_score": 28.3,
         "matched_terms": [
           "deep",
           "space",
@@ -632,7 +632,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Bellatrix Aerospace",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 23.1,
+        "bid_fit_score": 22.9,
         "matched_terms": [
           "propulsion",
           "space"
@@ -641,7 +641,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Viridian Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 18.8,
+        "bid_fit_score": 18.6,
         "matched_terms": [
           "propulsion",
           "space"
@@ -659,7 +659,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Portal Space Systems",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 17.5,
+        "bid_fit_score": 17.4,
         "matched_terms": [
           "space",
           "propulsion"
@@ -668,7 +668,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Galadyne",
         "sector": "Defense & Security",
-        "bid_fit_score": 17.0,
+        "bid_fit_score": 16.9,
         "matched_terms": [
           "propulsion"
         ]
@@ -676,7 +676,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Pulsar Fusion",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 16.5,
+        "bid_fit_score": 16.4,
         "matched_terms": [
           "propulsion",
           "space"
@@ -685,7 +685,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Morpheus Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 16.5,
+        "bid_fit_score": 16.4,
         "matched_terms": [
           "propulsion",
           "space"
@@ -716,7 +716,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Nuclearn.ai",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 19.7,
+        "bid_fit_score": 19.8,
         "matched_terms": [
           "nuclear",
           "plants",
@@ -726,7 +726,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Pacific Fusion",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 18.5,
+        "bid_fit_score": 18.6,
         "matched_terms": [
           "fusion",
           "nuclear",
@@ -736,7 +736,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Realta Fusion",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 17.5,
+        "bid_fit_score": 17.6,
         "matched_terms": [
           "fusion",
           "nuclear",
@@ -746,7 +746,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Exodys Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 16.9,
+        "bid_fit_score": 17.0,
         "matched_terms": [
           "nuclear",
           "energy"
@@ -755,7 +755,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Thea Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 16.6,
+        "bid_fit_score": 16.7,
         "matched_terms": [
           "fusion",
           "nuclear",
@@ -765,7 +765,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Tokamak Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 16.3,
+        "bid_fit_score": 16.4,
         "matched_terms": [
           "fusion",
           "nuclear",
@@ -775,7 +775,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "First Light Fusion",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 16.1,
+        "bid_fit_score": 16.2,
         "matched_terms": [
           "fusion",
           "nuclear",
@@ -785,7 +785,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "EX-Fusion",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 15.7,
+        "bid_fit_score": 15.8,
         "matched_terms": [
           "fusion",
           "nuclear",
@@ -819,7 +819,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Poseidon Aerospace",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 21.1,
+        "bid_fit_score": 21.0,
         "matched_terms": [
           "maritime",
           "naval",
@@ -859,7 +859,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Ocean Infinity",
         "sector": "Ocean & Maritime",
-        "bid_fit_score": 14.2,
+        "bid_fit_score": 14.1,
         "matched_terms": [
           "maritime",
           "autonomous",
@@ -888,7 +888,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Saildrone",
         "sector": "Defense & Security",
-        "bid_fit_score": 12.7,
+        "bid_fit_score": 12.6,
         "matched_terms": [
           "maritime",
           "defense",
@@ -929,7 +929,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Anthrogen",
         "sector": "Biotech & Health",
-        "bid_fit_score": 13.3,
+        "bid_fit_score": 13.4,
         "matched_terms": [
           "engineered",
           "biotech",
@@ -949,7 +949,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cache Energy",
         "sector": "Climate & Energy",
-        "bid_fit_score": 12.0,
+        "bid_fit_score": 12.1,
         "matched_terms": [
           "duration",
           "long"
@@ -958,7 +958,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Scout Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 11.7,
+        "bid_fit_score": 11.6,
         "matched_terms": [
           "space",
           "processing"
@@ -967,7 +967,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Colossal Biosciences",
         "sector": "Biotech & Health",
-        "bid_fit_score": 11.4,
+        "bid_fit_score": 11.5,
         "matched_terms": [
           "biotech",
           "biology",

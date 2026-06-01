@@ -1,20 +1,11 @@
 [
   {
-    "date": "2026-05-30",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-41",
-    "payload": "Starlink Group 17-41",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a7341350-789e-4f61-99a4-a61ebc40c05b/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-05-30",
-    "vehicle": "Long March 2D | 4 x SatNet test satellites",
-    "payload": "4 x SatNet test satellites",
-    "pad": "Launch Complex 3 (LC-3/LA-1), Xichang Satellite Launch Center, People's Republic of China",
+    "date": "2026-06-01",
+    "vehicle": "Long March 12B | Demo Flight (SpaceSail Polar Group #10)",
+    "payload": "Demo Flight (SpaceSail Polar Group #10)",
+    "pad": "Long March 12 series Pad, Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0ab3587d-bb8c-4515-a321-2ec154840659/?format=json",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/459225a2-dc1a-43d7-8c2c-78f9552b0a05/?format=json",
     "trackedCompany": null
   },
   {
@@ -235,15 +226,6 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "Long March 12B | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Long March 12 series Pad, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/459225a2-dc1a-43d7-8c2c-78f9552b0a05/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
     "vehicle": "Themis Demonstrator | T1H-1",
     "payload": "T1H-1",
     "pad": "Launch Complex 3B, Esrange Space Center",
@@ -447,6 +429,24 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
+    "payload": "O3b mPower 11-13",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
+    "payload": "5x Astranis MicroGEO",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d373ca659/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]

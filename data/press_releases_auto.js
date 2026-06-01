@@ -1,6 +1,7 @@
 // Auto-updated press releases
-// Last updated: 2026-05-31 09:39:04 UTC
+// Last updated: 2026-06-01 12:26:16 UTC
 const PRESS_RELEASES = [
+  { title: "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters", date: "2026-06-01", companies: "Deterrence", categories: "", source: "defensenews" },
   { title: "FAA documents outline SpaceX plans for Starfall reentry vehicles", date: "2026-05-31", companies: "SpaceX, Figure AI, Inversion Space", categories: "ipo", source: "spacenews" },
   { title: "Blue Origin gets national security launch task order hours before New Glenn explosion", date: "2026-05-30", companies: "Blue Origin, Figure AI, Cape", categories: "ipo", source: "spacenews" },
   { title: "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking", date: "2026-05-29", companies: "SpaceX, Figure AI, Array Labs", categories: "funding, contract", source: "spacenews" },
@@ -12,5 +13,4 @@ const PRESS_RELEASES = [
   { title: "DIU ups Hermeus contract for high-speed drone", date: "2026-05-28", companies: "Hermeus", categories: "contract", source: "breakingdefense" },
   { title: "SpaceX Launches New Starship V3 For First Time", date: "2026-05-23", companies: "SpaceX", categories: "funding, product", source: "spacepolicyonline" },
   { title: "It’s a Scrub for First Flight of Starship V3, But SpaceX Has Other News", date: "2026-05-22", companies: "SpaceX", categories: "milestone, ipo", source: "spacepolicyonline" },
-  { title: "Eikon Therapeutics Presents Data on Clinical-Stage Programs at the 2026 Annual Meeting of the Americ", date: "", companies: "Eikon Therapeutics, Zipline, Kinova Robotics", categories: "", source: "globenewswire_all" },
 ];
