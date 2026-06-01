@@ -1,107 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-06-01T18:44:48.875Z
+// Last updated: 2026-06-01T22:13:50.041Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1780339488875,
+    "id": 1780352030041,
+    "type": "funding",
+    "company": "Mach Industries",
+    "headline": "Defense tech darling Mach Industries hits $1.8B valuation, a 4x jump in a year",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/06/01/defense-tech-darling-mach-industries-hits-1-8b-valuation-a-4x-jump-in-a-year/"
+  },
+  {
+    "id": 1780352030042,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Water access is now a risk factor in SpaceX&#8217;s IPO",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "3h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/"
   },
   {
-    "id": 1780339488876,
+    "id": 1780352030043,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic Files Confidentially For IPO",
     "source": "Crunchbase News",
-    "time": "1h ago",
+    "time": "4h ago",
     "impact": "high",
     "unread": true,
     "link": "https://news.crunchbase.com/public/ai-unicorn-anthropic-files-confidentially-for-ipo/"
   },
   {
-    "id": 1780339488877,
+    "id": 1780352030044,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic Confidentially Files for What Could Be the Largest IPO Ever",
     "source": "Wired",
-    "time": "1h ago",
+    "time": "4h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/"
   },
   {
-    "id": 1780339488878,
+    "id": 1780352030045,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic files to go public",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/"
   },
   {
-    "id": 1780339488879,
+    "id": 1780352030046,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX says it may issue &#8216;significant&#8217; equity in &#8216;future transactions&#8217;",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "6h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/06/01/spacex-says-it-may-issue-significant-equity-in-future-transactions/"
   },
   {
-    "id": 1780339488880,
+    "id": 1780352030047,
     "type": "news",
     "company": "OpenAI",
     "headline": "An OpenAI model solved a famous math problem that stumped humans for 80 years",
     "source": "Ars Technica Space",
-    "time": "7h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/"
   },
   {
-    "id": 1780339488881,
+    "id": 1780352030048,
     "type": "news",
     "company": "Deterrence",
     "headline": "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters",
     "source": "Defense News",
-    "time": "8h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/global/europe/2026/06/01/norway-becomes-ninth-country-to-sign-up-for-french-nuclear-deterrence-as-trust-in-us-falters/"
   },
   {
-    "id": 1780339488882,
+    "id": 1780352030049,
     "type": "news",
     "company": "Wayve",
     "headline": "Revolut, Mistral and Wayve back six-figure “Built in Europe” campaign",
     "source": "Tech.eu",
-    "time": "11h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/06/01/revolut-mistral-and-wayve-back-six-figure-built-in-europe-campaign/"
   },
   {
-    "id": 1780339488883,
+    "id": 1780352030050,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Will the US Golden Dome Be Golden for $5-20B Per Year for SpaceX ?",
     "source": "Next Big Future",
-    "time": "14h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/05/will-the-us-golden-dome-be-golden-for-10-30b-per-year-for-spacex.html"
   },
   {
-    "id": 1780339488884,
+    "id": 1780352030051,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "A SpaceX/Tesla merger could trigger Musk&#8217;s $1T pay package automatically",
@@ -112,29 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/31/a-spacex-tesla-merger-could-trigger-musks-1t-pay-package-automatically/"
   },
   {
-    "id": 1780339488885,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "FAA documents outline SpaceX plans for Starfall reentry vehicles",
-    "source": "SpaceNews",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/faa-documents-outline-spacex-plans-for-starfall-reentry-vehicles/"
-  },
-  {
-    "id": 1780339488886,
-    "type": "ipo",
-    "company": "Blue Origin",
-    "headline": "Blue Origin gets national security launch task order hours before New Glenn explosion",
-    "source": "SpaceNews",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/blue-origin-gets-national-security-launch-task-order-hours-before-new-glenn-explosion/"
-  },
-  {
-    "id": 1780339488887,
+    "id": 1780352030052,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?",
@@ -145,40 +134,40 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/05/30/is-spacex-tesla-100-gigawatt-year-us-solar-system-production-plan-realistic/"
   },
   {
-    "id": 1780339488888,
+    "id": 1780352030053,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NASA Hosts SpaceX Crew-11 Astronauts for Public Event at Headquarters",
     "source": "NASA Breaking News",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nasa.gov/news-release/nasa-hosts-spacex-crew-11-astronauts-for-public-event-at-headquarters/"
   },
   {
-    "id": 1780339488889,
+    "id": 1780352030054,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla &#038; SpaceX Merger Getting Real",
     "source": "CleanTechnica",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/05/29/tesla-spacex-merger-getting-real/"
   },
   {
-    "id": 1780339488890,
+    "id": 1780352030055,
     "type": "funding",
     "company": "Anthropic",
     "headline": "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds",
     "source": "Crunchbase News",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"
   },
   {
-    "id": 1780339488891,
+    "id": 1780352030056,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Podcast: Tesla Robotaxi numbers, Ferrari&#8217;s controversial Luce launches, Waymo Ojai, and more",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/05/29/podcast-tesla-robotaxi-numbers-ferraris-controversial-luce-launches-waymo-ojai-and-more/"
   },
   {
-    "id": 1780339488892,
+    "id": 1780352030057,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX wins $4.16B Space Force contract to detect airborne moving targets",
@@ -200,18 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/05/spacex-wins-4-16b-space-force-contract-to-detect-airborne-moving-targets/"
   },
   {
-    "id": 1780339488893,
-    "type": "contract",
-    "company": "SpaceX",
-    "headline": "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking",
-    "source": "SpaceNews",
-    "time": "3d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://spacenews.com/space-force-awards-spacex-4-16-billion-to-build-satellite-network-for-airborne-target-tracking/"
-  },
-  {
-    "id": 1780339488894,
+    "id": 1780352030058,
     "type": "news",
     "company": "Anthropic",
     "headline": "How Has Anthropic Become the Top AI Company?",
@@ -220,5 +198,27 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/05/how-has-anthropic-become-the-top-ai-company.html"
+  },
+  {
+    "id": 1780352030059,
+    "type": "funding",
+    "company": "Focused Energy",
+    "headline": "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot",
+    "source": "Tech.eu",
+    "time": "3d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://tech.eu/2026/05/29/focused-energy-raises-240m-truelayer-acquires-in3-london-regains-top-spot/"
+  },
+  {
+    "id": 1780352030060,
+    "type": "milestone",
+    "company": "Humanoid",
+    "headline": "NIST proposes a baseline performance benchmark for humanoid robots",
+    "source": "The Robot Report",
+    "time": "3d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.therobotreport.com/nist-proposes-a-baseline-performance-benchmark-for-humanoid-robots/"
   }
 ];
