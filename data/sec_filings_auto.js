@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-05-31 08:51:32 UTC
+// Last updated: 2026-06-01 11:43:16 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-06-01", description: "qbts-20260601.htm", isIPO: false, ticker: "QBTS" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050512.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050510.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050507.xml", isIPO: false, ticker: "LUNR" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779489026.xml", isIPO: false, ticker: "AUR" },
   { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487888.xml", isIPO: false, ticker: "AUR" },
   { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487710.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487621.xml", isIPO: false, ticker: "AUR" },
 ];

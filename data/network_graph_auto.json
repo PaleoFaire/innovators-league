@@ -4204,6 +4204,81 @@
       "id": "Alpha School",
       "sector": "AI & Software",
       "thesisCluster": ""
+    },
+    {
+      "id": "Sierra Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CesiumAstro",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "JetZero",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "X-Bow Systems",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lyten",
+      "sector": "Materials",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vulcan Elements",
+      "sector": "Materials",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Xona Space Systems",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Electra.aero",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Loft Orbital",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Compound Eye",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ThinkOrbital",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Viken Detection",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Havoc AI",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Noveon Magnetics",
+      "sector": "Materials",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Code Metal",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
     }
   ],
   "edges": [
@@ -4950,6 +5025,11 @@
     {
       "src": "Astroscale",
       "dst": "Orbit Fab",
+      "type": "competitor"
+    },
+    {
+      "src": "Radian Aerospace",
+      "dst": "Sierra Space",
       "type": "competitor"
     },
     {
@@ -9107,9 +9187,9 @@
     }
   ],
   "counts": {
-    "total_nodes": 841,
-    "total_edges": 844,
-    "competitor_edges": 166,
+    "total_nodes": 856,
+    "total_edges": 845,
+    "competitor_edges": 167,
     "thesis_edges": 678,
     "alumni_edges": 0
   }
