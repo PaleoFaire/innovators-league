@@ -1,355 +1,73 @@
 {
-  "generatedAt": "2026-05-25T11:11:44+00:00",
+  "generatedAt": "2026-06-01T12:36:08+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
   "cohortSize": 89,
-  "newExtractionsThisRun": 53,
+  "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 71,
-    "changesProposed": 4,
-    "unverifiable": 14
+    "cleared": 18,
+    "changesProposed": 5,
+    "unverifiable": 66
   },
   "cleared": [
-    "1X Technologies",
-    "ABL Bio",
-    "AIR",
     "ARX Robotics",
-    "Aeon Industrial",
-    "Aerospacelab",
-    "Aeva Technologies",
-    "Agile Robots",
     "AiDash",
-    "AlixLabs",
-    "Allen Control Systems",
-    "Amber Bio",
-    "Anduril Industries",
-    "Apis Cor",
-    "Applied Intuition",
-    "Archer Materials",
     "Ares Industries",
-    "Ark Robotics",
-    "Asimov",
-    "Astranis",
     "Axelera AI",
-    "Axelspace",
-    "Ayar Labs",
-    "BRINC Drones",
-    "Basecamp Research",
-    "Baykar",
     "Bedrock Robotics",
-    "Bethlehem Steel Corp",
-    "Blackshark.ai",
     "Blykalla",
-    "Boom Supersonic",
-    "BotBuilt",
-    "Built Robotics",
-    "CORE POWER",
-    "Cailabs",
-    "Calogena",
-    "Candela",
-    "Cascade Space",
     "Cellares",
-    "Cerebras",
-    "Chariot Defense",
     "Chef Robotics",
-    "ClearSpace",
     "Cognition",
-    "Collaborative Robotics",
     "Corintis",
     "Cresilon",
     "Crusoe Energy",
-    "Cuby Technologies",
-    "DEEPX",
-    "DefSecIntel",
-    "Defense Unicorns",
-    "Dexterity",
-    "Dhruva Space",
-    "Dream Security",
     "Dusty Robotics",
-    "Electric Hydrogen",
-    "Elroy Air",
     "Endurosat",
-    "Enovix",
     "Epirus",
-    "Epoch Biodesign",
-    "Evolv Technology",
-    "Exodys Energy",
-    "Fire Point",
     "First Resonance",
-    "Floodbase",
-    "FlyBy Robotics",
     "Forge Nano",
-    "Fortem Technologies",
-    "Fortera"
+    "Fortem Technologies"
   ],
   "changesProposed": [
     {
-      "name": "ADASI",
+      "name": "1X Technologies",
       "current": {
-        "name": "ADASI",
-        "founder": "EDGE Group",
-        "location": "Abu Dhabi, UAE",
-        "founded": 2010,
-        "fundingStage": "Sovereign (EDGE)",
-        "totalRaised": "Sovereign-funded",
-        "website": null
-      },
-      "verified": {
-        "name": null,
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://adasi.ai",
-        "sources_per_field": {
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] describes a Japanese marketing/advertising platform (AI Image Generator, ad management tool) with Google Ads and Facebook Ads integration. This does NOT match the database entry describing ADASI as a UAE national UAV manufacturer. The source appears to be a different company entirely with the same or similar name. No information about UAVs, EDGE Group, Abu Dhabi, or military/defense applications found in provided sources. Cannot verify database entry claims."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://adasi.ai",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://adasi.ai"
-        }
-      ],
-      "notes": "Source [0] describes a Japanese marketing/advertising platform (AI Image Generator, ad management tool) with Google Ads and Facebook Ads integration. This does NOT match the database entry describing ADASI as a UAE national UAV manufacturer. The source appears to be a different company entirely with the same or similar name. No information about UAVs, EDGE Group, Abu Dhabi, or military/defense applications found in provided sources. Cannot verify database entry claims."
-    },
-    {
-      "name": "Electra",
-      "current": {
-        "name": "Electra",
-        "founder": "Sandeep Nijhawan, Quoc Pham",
-        "location": "Boulder, CO",
-        "founded": 2020,
+        "name": "1X Technologies",
+        "founder": "Bernt \u00d8ivind B\u00f8rnich",
+        "location": "Palo Alto, CA",
+        "founded": 2014,
         "fundingStage": "Series B",
-        "totalRaised": "$299M",
-        "website": null
+        "totalRaised": "$123.5M",
+        "website": "https://1xtechnologies.com"
       },
       "verified": {
-        "name": null,
-        "description": null,
-        "founders": null,
-        "location": "Brooklyn, NY",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://electra.com",
-        "sources_per_field": {
-          "location": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Sources provided describe two different companies named 'Electra': (1) Electra Research Inc., a kitchen appliance company that manufactures 120V induction stoves with integrated battery backup, located in Brooklyn, NY (sources 0-1); (2) Greek mythology character Electra (source 2). The database entry references an iron ore refining company using electrochemistry, which does not match either source. No information found about founders Sandeep Nijhawan or Quoc Pham, Series B funding, $299M raised, or iron/steel decarbonization technology in provided sources. Only verifiable facts from sources 0-1 are location (Brooklyn, NY per source 1: 'Electra Research Inc. 35 Meadow St. Ste 313 Brooklyn, NY 11206') and website (https://electra.com)."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Boulder, CO",
-          "verified": "Brooklyn, NY",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://electra.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://electra.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://electra.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Electra"
-        }
-      ],
-      "notes": "Sources provided describe two different companies named 'Electra': (1) Electra Research Inc., a kitchen appliance company that manufactures 120V induction stoves with integrated battery backup, located in Brooklyn, NY (sources 0-1); (2) Greek mythology character Electra (source 2). The database entry references an iron ore refining company using electrochemistry, which does not match either source. No information found about founders Sandeep Nijhawan or Quoc Pham, Series B funding, $299M raised, or iron/steel decarbonization technology in provided sources. Only verifiable facts from sources 0-1 are location (Brooklyn, NY per source 1: 'Electra Research Inc. 35 Meadow St. Ste 313 Brooklyn, NY 11206') and website (https://electra.com)."
-    },
-    {
-      "name": "Fairmat",
-      "current": {
-        "name": "Fairmat",
-        "founder": "Benjamin Saada",
-        "location": "Paris, France",
-        "founded": 2020,
-        "fundingStage": "Series B",
-        "totalRaised": "~\u20ac95M ($103M)",
-        "website": null
-      },
-      "verified": {
-        "name": "Fairmat",
-        "description": "A reg-tech company providing solutions to simplify and automate regulatory processes management, specializing in KID on PRIIPs generation and maintenance support for insurance and banking markets.",
+        "name": "1X Technologies",
+        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures bipedal humanoid robots including the NEO model designed for private home use.",
         "founders": [
-          "Matteo Tesser",
-          "Matteo Carradori"
+          "Bernt \u00d8ivind B\u00f8rnich"
         ],
-        "location": "Verona, Italy",
-        "founded_year": 2008,
-        "current_stage": null,
-        "total_raised": null,
+        "location": "Palo Alto, California",
+        "founded_year": 2014,
+        "current_stage": "Series B",
+        "total_raised": "$123.5M",
         "valuation": null,
-        "investors": null,
-        "website": "https://fairmat.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "The database entry appears to describe a different company (carbon fiber composite recycling with AI robotics). The sources provided describe Fairmat as a regulatory technology (reg-tech) company founded in 2008 specializing in financial software and compliance solutions, not a robotics/recycling company. The founder 'Benjamin Saada' from the database entry is not mentioned in any sources. Location is identified as Verona based on a March 2026 news item, though the company's primary website and operations appear Italy-focused. No information found in sources regarding funding, valuation, or current stage."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Benjamin Saada",
-          "verified": "Matteo Tesser, Matteo Carradori",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "location",
-          "current": "Paris, France",
-          "verified": "Verona, Italy",
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "founded",
-          "current": 2020,
-          "verified": 2008,
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://fairmat.com",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://fairmat.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://fairmat.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fairmat"
-        }
-      ],
-      "notes": "The database entry appears to describe a different company (carbon fiber composite recycling with AI robotics). The sources provided describe Fairmat as a regulatory technology (reg-tech) company founded in 2008 specializing in financial software and compliance solutions, not a robotics/recycling company. The founder 'Benjamin Saada' from the database entry is not mentioned in any sources. Location is identified as Verona based on a March 2026 news item, though the company's primary website and operations appear Italy-focused. No information found in sources regarding funding, valuation, or current stage."
-    },
-    {
-      "name": "Figure AI",
-      "current": {
-        "name": "Figure AI",
-        "founder": "Brett Adcock",
-        "location": "San Jose, CA",
-        "founded": 2022,
-        "fundingStage": "Series C",
-        "totalRaised": "$1B+",
-        "website": "https://www.figure.ai"
-      },
-      "verified": {
-        "name": "Figure AI",
-        "description": "American robotics company developing general-purpose humanoid robots controlled via artificial intelligence. The company has developed three generations of humanoid robots (Figure 01-03) and vision-language-action models for industrial and household applications.",
-        "founders": [
-          "Brett Adcock"
-        ],
-        "location": "San Jose, California, U.S.",
-        "founded_year": 2022,
-        "current_stage": "Series C",
-        "total_raised": "$1B+",
-        "valuation": "$39B",
         "investors": [
-          "Jeff Bezos",
-          "Microsoft",
-          "Nvidia",
-          "Intel",
-          "Amazon",
-          "OpenAI",
-          "Brookfield Asset Management",
-          "Macquarie Capital",
-          "Qualcomm",
-          "Salesforce",
-          "Parkway Venture Capital",
-          "T-Mobile"
+          "OpenAI Startup Fund",
+          "Tiger Global",
+          "Sandwater",
+          "Alliance Ventures",
+          "Skagerak Capital",
+          "EQT Ventures",
+          "Samsung NEXT",
+          "Nistad Group"
         ],
-        "website": "https://www.figure.ai",
+        "website": "https://1xtechnologies.com",
         "sources_per_field": {
           "name": [
-            0,
-            1,
             2
           ],
           "description": [
-            1,
             2
           ],
           "founders": [
@@ -367,7 +85,94 @@
           "total_raised": [
             2
           ],
-          "valuation": [
+          "investors": [
+            2
+          ],
+          "website": [
+            1
+          ]
+        },
+        "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Palo Alto, CA",
+          "verified": "Palo Alto, California",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://1xtechnologies.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://1xtechnologies.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
+        }
+      ],
+      "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M."
+    },
+    {
+      "name": "Astranis",
+      "current": {
+        "name": "Astranis",
+        "founder": "John Gedmark, Ryan McLinko",
+        "location": "San Francisco, CA",
+        "founded": 2015,
+        "fundingStage": "Series D",
+        "totalRaised": "$350M+",
+        "website": "https://astranis.com"
+      },
+      "verified": {
+        "name": "Astranis",
+        "description": "American satellite company specializing in small, radiation-hardened geostationary communications satellites for high orbits. Astranis builds dedicated satellite networks for government and commercial customers.",
+        "founders": [
+          "John Gedmark",
+          "Ryan McLinko"
+        ],
+        "location": "San Francisco, California",
+        "founded_year": 2015,
+        "current_stage": null,
+        "total_raised": "$350M+",
+        "valuation": null,
+        "investors": [
+          "BlackRock",
+          "Venrock",
+          "Andreessen Horowitz"
+        ],
+        "website": "https://astranis.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "total_raised": [
             2
           ],
           "investors": [
@@ -379,13 +184,13 @@
             2
           ]
         },
-        "notes": "Company initially raised $70M in May 2023 (source 2). In February 2024, secured $675M at $2.6B valuation from consortium including Bezos, Microsoft, Nvidia, Intel, Amazon, and OpenAI (source 2). Announced partnership with OpenAI which ended after one year (source 2). In September 2025, exceeded $1B in Series C funding, raising valuation to $39B (source 2). Figure 02 deployed commercially for industrial use starting August 2024 (source 2). Figure 03 introduced October 2025 for home applications (source 2)."
+        "notes": "Founded October 20, 2015. Part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of Wikipedia source, company is private with 250+ employees (2023). Current stage not explicitly stated in sources."
       },
       "changes": [
         {
           "field": "location",
-          "current": "San Jose, CA",
-          "verified": "San Jose, California, U.S.",
+          "current": "San Francisco, CA",
+          "verified": "San Francisco, California",
           "sources": [
             2
           ]
@@ -395,20 +200,297 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.figure.ai"
+          "url": "https://astranis.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.figure.ai/company"
+          "url": "https://astranis.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Figure_AI"
+          "url": "https://en.wikipedia.org/wiki/Astranis"
         }
       ],
-      "notes": "Company initially raised $70M in May 2023 (source 2). In February 2024, secured $675M at $2.6B valuation from consortium including Bezos, Microsoft, Nvidia, Intel, Amazon, and OpenAI (source 2). Announced partnership with OpenAI which ended after one year (source 2). In September 2025, exceeded $1B in Series C funding, raising valuation to $39B (source 2). Figure 02 deployed commercially for industrial use starting August 2024 (source 2). Figure 03 introduced October 2025 for home applications (source 2)."
+      "notes": "Founded October 20, 2015. Part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of Wikipedia source, company is private with 250+ employees (2023). Current stage not explicitly stated in sources."
+    },
+    {
+      "name": "Boom Supersonic",
+      "current": {
+        "name": "Boom Supersonic",
+        "founder": "Blake Scholl, Joe Wilding, Josh Krall",
+        "location": "Denver, CO",
+        "founded": 2014,
+        "fundingStage": "Series B",
+        "totalRaised": "$600M+",
+        "website": "https://boomsupersonic.com"
+      },
+      "verified": {
+        "name": "Boom Supersonic",
+        "description": "American aerospace company developing the Overture, a proposed supersonic airliner designed to cruise at Mach 1.7. The company has built and flight-tested the XB-1 demonstrator, which broke the sound barrier on January 28, 2025.",
+        "founders": [
+          "Blake Scholl",
+          "Joe Wilding",
+          "Josh Krall"
+        ],
+        "location": "Denver, Colorado",
+        "founded_year": 2014,
+        "current_stage": null,
+        "total_raised": "$600M+",
+        "valuation": null,
+        "investors": [
+          "Y Combinator",
+          "Sam Altman",
+          "Paul Graham",
+          "Alex Gerko",
+          "Michael Moritz",
+          "Bessemer Venture Partners",
+          "Seraph Group",
+          "Continuity Fund",
+          "RRE Ventures",
+          "Palm Drive Ventures",
+          "8VC",
+          "Caffeinated Capital",
+          "Japan Airlines",
+          "NEOM Investment Fund"
+        ],
+        "website": "https://boomsupersonic.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "XB-1 became first privately funded aircraft to break the sound barrier on January 28, 2025, reaching Mach 1.122. Company has 130 orders/pre-orders from United Airlines, American Airlines, and Japan Airlines for Overture. Headquarters listed as Centennial, Colorado in Wikipedia; company founded in Denver, Colorado in 2014."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Denver, CO",
+          "verified": "Denver, Colorado",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://boomsupersonic.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://boomsupersonic.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boom_Supersonic"
+        }
+      ],
+      "notes": "XB-1 became first privately funded aircraft to break the sound barrier on January 28, 2025, reaching Mach 1.122. Company has 130 orders/pre-orders from United Airlines, American Airlines, and Japan Airlines for Overture. Headquarters listed as Centennial, Colorado in Wikipedia; company founded in Denver, Colorado in 2014."
+    },
+    {
+      "name": "Built Robotics",
+      "current": {
+        "name": "Built Robotics",
+        "founder": "Noah Ready-Campbell, Andrew Liang",
+        "location": "San Francisco, CA",
+        "founded": 2016,
+        "fundingStage": "Series C",
+        "totalRaised": "$112M",
+        "website": "https://builtrobotics.com"
+      },
+      "verified": {
+        "name": "Built Robotics",
+        "description": "A San Francisco-based startup that develops software and hardware to automate construction equipment, including an aftermarket kit called the Exosystem that adds autonomous robotic capabilities to heavy equipment through GPS, cameras, and artificial intelligence.",
+        "founders": [
+          "Noah Ready-Campbell",
+          "Andrew Liang"
+        ],
+        "location": "San Francisco, California",
+        "founded_year": 2016,
+        "current_stage": "Series C",
+        "total_raised": "$112M",
+        "valuation": null,
+        "investors": [
+          "Tiger Global",
+          "Next47",
+          "NEA",
+          "Founders Fund",
+          "Building Ventures",
+          "Presidio Ventures",
+          "Lemnos"
+        ],
+        "website": "https://builtrobotics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Wikipedia states total raised is $112M across Series A, B, and C. Database entry lists $137M which cannot be verified from these sources. Company acquired Roin Technologies in 2023."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Francisco, CA",
+          "verified": "San Francisco, California",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://builtrobotics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://builtrobotics.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Built_Robotics"
+        }
+      ],
+      "notes": "Wikipedia states total raised is $112M across Series A, B, and C. Database entry lists $137M which cannot be verified from these sources. Company acquired Roin Technologies in 2023."
+    },
+    {
+      "name": "Dexterity",
+      "current": {
+        "name": "Dexterity",
+        "founder": "Samir Menon, Robert Sun, Kevin Chavez, Ben Varkey Benjamin, Talbot Morris-Downing, Cuthbert Sun",
+        "location": "Redwood City, CA",
+        "founded": 2017,
+        "fundingStage": "Series B",
+        "totalRaised": "$291M",
+        "website": "https://dexterity.com"
+      },
+      "verified": {
+        "name": "Dexterity",
+        "description": "AI-powered robotics company that develops physical AI systems for autonomous handling and logistics operations. The company's AI systems give robots human-like dexterity to operate in unstructured physical environments.",
+        "founders": [
+          "Samir Menon",
+          "Robert Sun",
+          "Kevin Chavez",
+          "Ben Varkey Benjamin",
+          "Talbot Morris-Downing",
+          "Cuthbert Sun"
+        ],
+        "location": "Redwood City, California",
+        "founded_year": 2017,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://dexterity.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [2] is Wikipedia article on 'Fine motor skill' and is not relevant to the company Dexterity. Company has reached 100 million autonomous in-production actions as of 2025 according to source [1]. Current stage, total raised, valuation, and specific investor names could not be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Redwood City, CA",
+          "verified": "Redwood City, California",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://dexterity.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://dexterity.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dexterity"
+        }
+      ],
+      "notes": "Source [2] is Wikipedia article on 'Fine motor skill' and is not relevant to the company Dexterity. Company has reached 100 million autonomous in-production actions as of 2025 according to source [1]. Current stage, total raised, valuation, and specific investor names could not be verified from provided sources."
     }
   ],
   "unverifiable": [
@@ -421,19 +503,151 @@
       "reason": "no public sources accessible"
     },
     {
+      "name": "ABL Bio",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ADASI",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AIR",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "ARC Clean Technology",
       "reason": "no public sources accessible"
+    },
+    {
+      "name": "Aeon Industrial",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Aerospacelab",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Aestus Industries",
       "reason": "no public sources accessible"
     },
     {
+      "name": "Aeva Technologies",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Agile Robots",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AlixLabs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Allen Control Systems",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Amber Bio",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Anduril Industries",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Apis Cor",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Applied Intuition",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Archer Materials",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Ark Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Asimov",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Atomic AI",
       "reason": "no public sources accessible"
     },
     {
+      "name": "Axelspace",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Ayar Labs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "BRINC Drones",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Basecamp Research",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Baykar",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Bethlehem Steel Corp",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Blackshark.ai",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "BotBuilt",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "CORE POWER",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Cailabs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Calogena",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Cambridge Aerospace",
+      "reason": "no public sources accessible"
+    },
+    {
+      "name": "Candela",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Cascade Space",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Cerebras",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Chariot Defense",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ClearSpace",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Collaborative Robotics",
       "reason": "no public sources accessible"
     },
     {
@@ -441,12 +655,32 @@
       "reason": "no public sources accessible"
     },
     {
+      "name": "Cuby Technologies",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "DEEPX",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "DIRAC",
       "reason": "no public sources accessible"
     },
     {
+      "name": "DefSecIntel",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Defense Unicorns",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Dendra Systems",
       "reason": "no public sources accessible"
+    },
+    {
+      "name": "Dhruva Space",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Digantara",
@@ -457,16 +691,72 @@
       "reason": "no public sources accessible"
     },
     {
+      "name": "Dream Security",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Electra",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Electric Hydrogen",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Elroy Air",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Emelody",
       "reason": "no public sources accessible"
     },
     {
+      "name": "Enovix",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Ephos",
-      "reason": "no public sources accessible"
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Epoch Biodesign",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Evolv Technology",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Exodys Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Fairmat",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Figure AI",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Finwave Semiconductor",
       "reason": "no public sources accessible"
+    },
+    {
+      "name": "Fire Point",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Floodbase",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "FlyBy Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Fortera",
+      "reason": "Claude extraction failed"
     }
   ]
 }
