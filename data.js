@@ -52671,23 +52671,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-02 15:00
+// Last updated: 2026-06-02 18:48
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Blue Origin", headline: "Blue Origin plans to launch New Glenn again this year after explosion", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Endurosat", headline: "Spacetech EnduroSat eyes $200m Series C months after last round, sources say", source: "Sifted", time: "2h ago", impact: "high", unread: true },
-  { id: 3, type: "funding", company: "Mistral AI", headline: "Backed by Mistral AI founders, NP Company secures '6M pre-seed to advance AI for engineering", source: "Tech.eu", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Pacific Fusion", headline: "Pacific Fusion's latest prototype packs 440 gigawatts into an 80-nanosecond burst", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Mach Industries", headline: "Defense tech darling Mach Industries hits $1.8B valuation, a 4x jump in a year", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "SpaceX", headline: "Water access is now a risk factor in SpaceX's IPO", source: "TechCrunch", time: "20h ago", impact: "high", unread: false },
-  { id: 7, type: "ipo", company: "Anthropic", headline: "Anthropic Files Confidentially For IPO", source: "Crunchbase News", time: "21h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "Anthropic", headline: "Anthropic Confidentially Files for What Could Be the Largest IPO Ever", source: "Wired", time: "21h ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "Anthropic", headline: "Anthropic files to go public", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "An OpenAI model solved a famous math problem that stumped humans for 80 years", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Deterrence", headline: "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Wayve", headline: "Revolut, Mistral and Wayve back six-figure 'Built in Europe' campaign", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "A SpaceX/Tesla merger could trigger Musk's $1T pay package automatically", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Focused Energy", headline: "Focused Energy raises whopping $240M Series A for laser-powered fusion tech", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "Flush With Cash From OpenAI, Opal Is Making an AI-Powered Audio Gadget", source: "Wired", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Blue Origin", headline: "Blue Origin plans to launch New Glenn again this year after explosion", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Endurosat", headline: "Spacetech EnduroSat eyes $200m Series C months after last round, sources say", source: "Sifted", time: "6h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Mistral AI", headline: "Backed by Mistral AI founders, NP Company secures '6M pre-seed to advance AI for engineering", source: "Tech.eu", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Anthropic", headline: "Anthropic Files Confidentially For IPO", source: "Crunchbase News", time: "1d ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "Anthropic", headline: "Anthropic Confidentially Files for What Could Be the Largest IPO Ever", source: "Wired", time: "1d ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "An OpenAI model solved a famous math problem that stumped humans for 80 years", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Deterrence", headline: "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Wayve", headline: "Revolut, Mistral and Wayve back six-figure 'Built in Europe' campaign", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "Will the US Golden Dome Be Golden for $5-20B Per Year for SpaceX ?", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "A SpaceX/Tesla merger could trigger Musk's $1T pay package automatically", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Anthropic", headline: "The Week's 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
