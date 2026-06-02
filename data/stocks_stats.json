@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 12.37,
+      "avg_change": 11.4,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -6.72,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -6.6,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.0,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 1.57,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.23,
+      "avg_change": 8.75,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.27,
+      "avg_change": -0.23,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.47,
+      "avg_change": 8.99,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.52,
+      "avg_change": 10.02,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 8.18,
+      "avg_change": 8.94,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.86,
+      "avg_change": 6.27,
       "count": 3
     }
   },
@@ -61,49 +61,49 @@
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      22.05
+      21.55
     ],
     [
       "RIVN",
       "Rivian",
-      19.35
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      13.86
+      20.15
     ],
     [
       "SMR",
       "NuScale Power",
-      13.45
+      14.16
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      12.93
+      "LUNR",
+      "Intuitive Machines",
+      13.51
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      12.38
     ]
   ],
   "topLosers": [
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -4.0
+      "9348.T",
+      "ispace",
+      -2.83
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -13.95
+      -13.88
     ],
     [
       "LNZA",
       "LanzaTech",
-      -15.42
+      -18.69
     ],
     [
       "SATL",
       "Satellogic",
-      -18.11
+      -19.18
     ],
     [
       "ASRHF",
@@ -111,5 +111,5 @@
       -22.03
     ]
   ],
-  "lastUpdated": "2026-06-02 16:40:53"
+  "lastUpdated": "2026-06-02 20:54:38"
 }
