@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.67,
+      "avg_change": -4.02,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 4.25,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 3.74,
       "count": 7
     },
     "nuclear": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      -2.99
+      "9348.T",
+      "ispace",
+      -3.67
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      -5.82
+      -4.59
     ],
     [
       "RKLB",
@@ -111,5 +111,5 @@
       -23.29
     ]
   ],
-  "lastUpdated": "2026-06-01 21:37:56"
+  "lastUpdated": "2026-06-02 04:19:02"
 }
