@@ -225,12 +225,39 @@
     "isIPO": false
   },
   {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "4",
-    "date": "2026-01-06",
-    "description": "xslF345X05/wk-form4_1767748866.xml",
-    "accessionNumber": "0001840244-26-000001",
+    "date": "2026-06-01",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000082",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "4",
+    "date": "2026-06-01",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000081",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "4",
+    "date": "2026-06-01",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000080",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "4",
+    "date": "2026-06-01",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000079",
     "isIPO": false
   },
   {
@@ -447,33 +474,6 @@
     "date": "2026-03-12",
     "description": "rklb-20260312.htm",
     "accessionNumber": "0001819994-26-000016",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-03-09",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000025",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-03-04",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000022",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-03-04",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000021",
     "isIPO": false
   },
   {
@@ -1410,6 +1410,15 @@
     "date": "2025-07-17",
     "description": "xslF345X05/form4-07172025_080701.xml",
     "accessionNumber": "0001415889-25-019972",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
+    "form": "8-K",
+    "date": "2026-06-01",
+    "description": "tm2616017d1_8k.htm",
+    "accessionNumber": "0001104659-26-068890",
     "isIPO": false
   },
   {
@@ -2949,24 +2958,6 @@
     "date": "2026-03-16",
     "description": "xslF345X05/wk-form4_1773698323.xml",
     "accessionNumber": "0001855623-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773353795.xml",
-    "accessionNumber": "0001445637-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-10",
-    "description": "xslF345X05/wk-form4_1773188710.xml",
-    "accessionNumber": "0002080997-26-000002",
     "isIPO": false
   },
   {
@@ -4548,6 +4539,24 @@
     "company": "Rigetti Computing",
     "ticker": "RGTI",
     "form": "4",
+    "date": "2026-06-01",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000777",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
+    "date": "2026-06-01",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000776",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
     "date": "2026-05-26",
     "description": "xslF345X06/form4.xml",
     "accessionNumber": "0001123292-26-000745",
@@ -4770,21 +4779,12 @@
     "isIPO": false
   },
   {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2025-09-22",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-25-000456",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2025-09-18",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-25-000450",
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-06-01",
+    "description": "qbts-20260601.htm",
+    "accessionNumber": "0001907982-26-000078",
     "isIPO": false
   },
   {

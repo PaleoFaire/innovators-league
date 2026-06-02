@@ -1,6 +1,14 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-01 11:43:16 UTC
+// Last updated: 2026-06-02 10:43:39 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Intuitive Machines", form: "8-K", date: "2026-06-01", description: "tm2616017d1_8k.htm", isIPO: false, ticker: "LUNR" },
+  { company: "Rigetti Computing", form: "4", date: "2026-06-01", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
+  { company: "Rigetti Computing", form: "4", date: "2026-06-01", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-06-01", description: "qbts-20260601.htm", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-06-01", description: "qbts-20260601.htm", isIPO: false, ticker: "QBTS" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050512.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050510.xml", isIPO: false, ticker: "LUNR" },
@@ -43,12 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "4", date: "2026-05-22", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-05-22", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "BlackSky Technology", form: "8-K", date: "2026-05-22", description: "bksy-20260522.htm", isIPO: false, ticker: "BKSY" },
-  { company: "Upstart Holdings", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779482026.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779481999.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779481960.xml", isIPO: false, ticker: "UPST" },
-  { company: "Rigetti Computing", form: "4", date: "2026-05-22", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779482332.xml", isIPO: false, ticker: "QBTS" },
-  { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779489026.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487888.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-05-22", description: "xslF345X06/wk-form4_1779487710.xml", isIPO: false, ticker: "AUR" },
 ];

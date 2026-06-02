@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T11:44:25.230916Z",
+  "generated_at": "2026-06-02T10:44:45.034905Z",
   "takes": [
     {
       "author": "Next Big Future",
@@ -65,11 +65,31 @@
       "author": "TechCrunch",
       "role": "Industry signal",
       "company": "SpaceX",
-      "text": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
-      "date": "Fri, 29 Ma",
+      "text": "Water access is now a risk factor in SpaceX&#8217;s IPO",
+      "date": "Mon, 01 Ju",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/",
-      "signal_type": "contract"
+      "source_url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
+      "signal_type": "hire"
+    },
+    {
+      "author": "Crunchbase News",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "Anthropic Files Confidentially For IPO",
+      "date": "Mon, 01 Ju",
+      "source": "news",
+      "source_url": "https://news.crunchbase.com/public/ai-unicorn-anthropic-files-confidentially-for-ipo/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Wired",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "Anthropic Confidentially Files for What Could Be the Largest IPO Ever",
+      "date": "Mon, 01 Ju",
+      "source": "news",
+      "source_url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/",
+      "signal_type": "ipo"
     },
     {
       "author": "Tech.eu",
@@ -95,7 +115,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 9,
+    "from_news": 11,
     "from_press": 0
   }
 }

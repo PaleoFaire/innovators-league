@@ -32,7 +32,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "category": "Quantum Computing",
@@ -55,7 +55,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -78,7 +78,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "category": "Space & Aerospace",
@@ -101,29 +101,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-01"
-  },
-  {
-    "category": "AI & Autonomy",
-    "icon": "\ud83e\udd16",
-    "budgetLineItem": "AI & Autonomy \u2014 federal activity index",
-    "change": "flat",
-    "changeNum": 0,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 1,
-    "billsTracked": 0,
-    "rulesTracked": 1,
-    "description": "0 bill(s) + 1 federal-register action(s) touching AI & Autonomy in the last 90 days. Activity index 1 \u2014 flat relative trend.",
-    "examples": [
-      {
-        "type": "federal_register",
-        "title": "NIST Artificial Intelligence Consortium",
-        "agency": "",
-        "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   }
 ]

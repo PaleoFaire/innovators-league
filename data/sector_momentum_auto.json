@@ -1,21 +1,21 @@
 [
   {
-    "sector": "Space & Aerospace",
-    "momentum": 72,
+    "sector": "AI & Software",
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Will the US Golden Dome Be Golden for $5-20B Per Year for Sp",
-      "A SpaceX/Tesla merger could trigger Musk&#8217;s $1T pay pac",
-      "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Pro"
+      "Anthropic Files Confidentially For IPO",
+      "Anthropic Confidentially Files for What Could Be the Largest",
+      "Anthropic files to go public"
     ],
-    "fundingQ": "$2.2B",
+    "fundingQ": "$78.3B",
     "components": {
-      "funding": 78,
-      "news": 100,
+      "funding": 100,
+      "news": 60,
       "hiring": 0,
-      "market": 100
+      "market": 50
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Nuclear Energy",
@@ -33,15 +33,33 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 60,
+    "trend": "accelerating",
+    "catalysts": [
+      "Water access is now a risk factor in SpaceX&#8217;s IPO",
+      "Anthropic Confidentially Files for What Could Be the Largest",
+      "SpaceX says it may issue &#8216;significant&#8217; equity in"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 100,
+      "hiring": 0,
+      "market": 36
+    },
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Defense & Security",
     "momentum": 59,
     "trend": "steady",
     "catalysts": [
+      "Defense tech darling Mach Industries hits $1.8B valuation, a",
       "Contriving Imaginary Gaps in Nuclear Deterrence",
-      "DIU ups Hermeus contract for high-speed drone",
       "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
     ],
     "fundingQ": "$32.5B",
@@ -51,7 +69,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Climate & Energy",
@@ -69,29 +87,11 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-01"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 55,
-    "trend": "accelerating",
-    "catalysts": [
-      "The Week\u2019s 10 Biggest Funding Rounds: Anthropic Dominates In",
-      "How Has Anthropic Become the Top AI Company?",
-      "GIC, Temasek anchor Singapore&#8217;s investment in Anthropi"
-    ],
-    "fundingQ": "$78.1B",
-    "components": {
-      "funding": 100,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 52,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
       "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Pro",
@@ -101,18 +101,18 @@
     "fundingQ": "$8.2B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "DIU ups Hermeus contract for high-speed drone"
+      "Defense tech darling Mach Industries hits $1.8B valuation, a"
     ],
     "fundingQ": "$12.7B",
     "components": {
@@ -121,14 +121,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Supersonic & Hypersonic",
     "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "DIU ups Hermeus contract for high-speed drone"
+      "Defense tech darling Mach Industries hits $1.8B valuation, a"
     ],
     "fundingQ": "$1.8B",
     "components": {
@@ -137,7 +137,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Ocean & Maritime",
@@ -153,29 +153,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 31,
+    "momentum": 32,
     "trend": "declining",
     "catalysts": [
-      "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
+      "Anthropic Files Confidentially For IPO",
       "The Week\u2019s 10 Biggest Funding Rounds: Anthropic Dominates In",
       "Anthropic Nears $1T Valuation And Leapfrogs OpenAI On Unicor"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 25,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
       "Revolut, Mistral and Wayve back six-figure \u201cBuilt in Europe\u201d",
@@ -185,11 +185,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Transportation",
@@ -205,23 +205,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-01"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Consumer Tech",
@@ -239,7 +223,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 67
+    },
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Housing & Construction",
@@ -255,7 +255,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -271,6 +271,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-01"
+    "lastUpdated": "2026-06-02"
   }
 ]
