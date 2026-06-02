@@ -52246,25 +52246,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-02 05:56
-// Auto-generated real-time signals
-// Last updated: 2026-06-02
+// Last updated: 2026-06-02 10:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Mach Industries", headline: "Defense tech darling Mach Industries hits $1.8B valuation, a 4x jump in a year", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "SpaceX", headline: "Water access is now a risk factor in SpaceX&#8217;s IPO", source: "TechCrunch", time: "16h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "Anthropic", headline: "Anthropic Files Confidentially For IPO", source: "Crunchbase News", time: "17h ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "Anthropic", headline: "Anthropic Confidentially Files for What Could Be the Largest IPO Ever", source: "Wired", time: "17h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Anthropic", headline: "Anthropic files to go public", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX says it may issue &#8216;significant&#8217; equity in &#8216;future transactions&#8217;", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "An OpenAI model solved a famous math problem that stumped humans for 80 years", source: "Ars Technica Space", time: "23h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Deterrence", headline: "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Wayve", headline: "Revolut, Mistral and Wayve back six-figure “Built in Europe” campaign", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "Will the US Golden Dome Be Golden for $5-20B Per Year for SpaceX ?", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "A SpaceX/Tesla merger could trigger Musk&#8217;s $1T pay package automatically", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "Tesla &#038; SpaceX Merger Getting Real", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Anthropic", headline: "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Waymo", headline: "Podcast: Tesla Robotaxi numbers, Ferrari&#8217;s controversial Luce launches, Waymo Ojai, and more", source: "Electrek", time: "3d ago", impact: "medium", unread: false },
+  { id: 1, type: "ipo", company: "Vast", headline: "France to fly two astronauts on Vast missions", source: "SpaceNews", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Mach Industries", headline: "Defense tech darling Mach Industries hits $1.8B valuation, a 4x jump in a year", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "SpaceX", headline: "Water access is now a risk factor in SpaceX's IPO", source: "TechCrunch", time: "16h ago", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "Anthropic", headline: "Anthropic Files Confidentially For IPO", source: "Crunchbase News", time: "17h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "Anthropic", headline: "Anthropic Confidentially Files for What Could Be the Largest IPO Ever", source: "Wired", time: "17h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "Anthropic", headline: "Anthropic files to go public", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX says it may issue 'significant' equity in 'future transactions'", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "An OpenAI model solved a famous math problem that stumped humans for 80 years", source: "Ars Technica Space", time: "23h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Deterrence", headline: "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Wayve", headline: "Revolut, Mistral and Wayve back six-figure 'Built in Europe' campaign", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "Will the US Golden Dome Be Golden for $5-20B Per Year for SpaceX ?", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "A SpaceX/Tesla merger could trigger Musk's $1T pay package automatically", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "FAA documents outline SpaceX plans for Starfall reentry vehicles", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin gets national security launch task order hours before New Glenn explosion", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
