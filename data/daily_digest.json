@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T18:48:31.397828+00:00",
+  "generatedAt": "2026-06-02T21:55:32.169750+00:00",
   "date": "2026-06-02",
   "dateDisplay": "Tuesday, June 02, 2026",
   "sections": {
@@ -79,13 +79,6 @@
     ],
     "marketMovers": [
       {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.62,
-        "changePercent": 22.05,
-        "change": 0.65
-      },
-      {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 14.65,
@@ -93,46 +86,53 @@
         "change": -4.14
       },
       {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.61,
+        "changePercent": 21.55,
+        "change": 0.64
+      },
+      {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 17.18,
-        "changePercent": 19.35,
-        "change": 2.79
+        "price": 17.29,
+        "changePercent": 20.15,
+        "change": 2.9
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 8.79,
-        "changePercent": -18.11,
-        "change": -1.95
+        "price": 8.68,
+        "changePercent": -19.18,
+        "change": -2.06
       },
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 6.2,
-        "changePercent": -15.42,
-        "change": -1.13
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 123.23,
-        "changePercent": -13.95,
-        "change": -19.97
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 39.69,
-        "changePercent": 13.86,
-        "change": 4.83
+        "price": 5.96,
+        "changePercent": -18.69,
+        "change": -1.37
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 13.86,
-        "changePercent": 13.45,
-        "change": 1.64
+        "price": 13.95,
+        "changePercent": 14.16,
+        "change": 1.73
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 123.32,
+        "changePercent": -13.88,
+        "change": -19.88
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 39.57,
+        "changePercent": 13.51,
+        "change": 4.71
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RXRX +22.1%"
+    "topMover": "ASRHF -22.0%"
   }
 }
