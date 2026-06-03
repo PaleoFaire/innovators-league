@@ -40619,6 +40619,23 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     source: "NatSec100 2026",
     addedDate: "2026-06-01",
     tags: ["natsec100-2026"]
+  },
+  {
+    name: "Project Omega",
+    founded: 2025,
+    sector: "Nuclear Energy",
+    description: "Newport, Rhode Island nuclear startup founded by Stafford Sheehan (ex-Air Company, Forbes 30 Under 30) that emerged from stealth in February 2026 with a $12M oversubscribed seed led by Starship Ventures to recycle U.S. spent nuclear fuel into long-duration power sources. First product is a strontium-90 nuclear battery; holds a ~$2M ARPA-E contract.",
+    founder: "Stafford Sheehan",
+    location: "Newport, RI",
+    state: "RI",
+    website: "https://projectomega.com",
+    fundingStage: "Seed",
+    totalRaised: "$12M",
+    keyCustomers: "U.S. Department of Energy (ARPA-E contract); pending Department of War contract",
+    techApproach: "Molten-salt separation and refining of spent LWR fuel to recover fissionable uranium plus by-products like Sr-90.",
+    source: "Black Flag 100",
+    addedDate: "2026-06-01",
+    tags: ["black-flag-100", "user-restored"]
   }
 ];
 
