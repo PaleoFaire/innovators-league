@@ -1,5 +1,20 @@
 [
   {
+    "company": "Galvanick",
+    "totalRaised": "$17.1B+",
+    "totalRaisedRaw": 17090.0,
+    "lastRound": "Series N",
+    "lastRoundAmount": "$12B",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "NEA",
+      "Undisclosed",
+      "Index Ventures"
+    ],
+    "roundCount": 4
+  },
+  {
     "company": "OpenStar",
     "totalRaised": "$15.0B+",
     "totalRaisedRaw": 15000.0,
@@ -11,6 +26,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "SHIELD Technology Partners",
+    "totalRaised": "$14.6B+",
+    "totalRaisedRaw": 14600.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$14.6B",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Shield AI",
@@ -151,32 +179,18 @@
     "roundCount": 2
   },
   {
-    "company": "Galvanick",
-    "totalRaised": "$5.1B+",
-    "totalRaisedRaw": 5090.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$4.9B",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Index Ventures"
-    ],
-    "roundCount": 3
-  },
-  {
     "company": "Focused Energy",
-    "totalRaised": "$4.7B+",
-    "totalRaisedRaw": 4740.0,
-    "lastRound": "Funding Round",
+    "totalRaised": "$5.0B+",
+    "totalRaisedRaw": 4980.0,
+    "lastRound": "Series A",
     "lastRoundAmount": "$240M",
-    "lastRoundDate": "2026-05",
+    "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed",
       "Kleiner Perkins"
     ],
-    "roundCount": 3
+    "roundCount": 4
   },
   {
     "company": "Commonwealth Fusion Systems",
@@ -532,6 +546,19 @@
     "roundCount": 1
   },
   {
+    "company": "Impulse Space",
+    "totalRaised": "$500M+",
+    "totalRaisedRaw": 500.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Axiom Space",
     "totalRaised": "$500M+",
     "totalRaisedRaw": 500.0,
@@ -556,6 +583,21 @@
       "Undisclosed"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Endurosat",
+    "totalRaised": "$448M+",
+    "totalRaisedRaw": 448.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$200M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "a16z",
+      "NEA"
+    ],
+    "roundCount": 4
   },
   {
     "company": "Helion",
@@ -583,6 +625,19 @@
       "a16z"
     ],
     "roundCount": 6
+  },
+  {
+    "company": "Oxford Quantum Circuits",
+    "totalRaised": "$350M+",
+    "totalRaisedRaw": 350.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$350M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Bedrock Robotics",
@@ -651,21 +706,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Endurosat",
-    "totalRaised": "$248M+",
-    "totalRaisedRaw": 248.0,
-    "lastRound": "Seed",
-    "lastRoundAmount": "$16M",
-    "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "a16z",
-      "NEA",
-      "Undisclosed"
-    ],
-    "roundCount": 3
   },
   {
     "company": "Built Robotics",
@@ -1005,6 +1045,19 @@
     "roundCount": 1
   },
   {
+    "company": "Layup Parts",
+    "totalRaised": "$42M+",
+    "totalRaisedRaw": 42.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$42M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Dragonfly Aerospace",
     "totalRaised": "$41M+",
     "totalRaisedRaw": 41.0,
@@ -1097,6 +1150,19 @@
     "roundCount": 1
   },
   {
+    "company": "Together AI",
+    "totalRaised": "$20M+",
+    "totalRaisedRaw": 20.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$20M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Scout Space",
     "totalRaised": "$18M+",
     "totalRaisedRaw": 18.0,
@@ -1162,6 +1228,19 @@
     "roundCount": 1
   },
   {
+    "company": "Bear Robotics",
+    "totalRaised": "$10M+",
+    "totalRaisedRaw": 10.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$10M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "GHGSat",
     "totalRaised": "$10M+",
     "totalRaisedRaw": 10.0,
@@ -1217,14 +1296,15 @@
     "company": "Anthropic",
     "totalRaised": "$0",
     "totalRaisedRaw": 0,
-    "lastRound": "Series H",
-    "lastRoundAmount": "$65B",
-    "lastRoundDate": "2026-05",
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$92B",
+    "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
+      "NEA",
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Labelbox",

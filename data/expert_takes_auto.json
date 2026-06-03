@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-06-02T10:44:45.034905Z",
+  "generated_at": "2026-06-03T11:08:41.430553Z",
   "takes": [
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Critical Insights Days Before the SPACEX IPO",
-      "date": "Wed, 27 Ma",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/05/critical-insights-days-before-the-spacex-ipo.html",
-      "signal_type": "ipo"
-    },
     {
       "author": "Electrek",
       "role": "Industry signal",
@@ -30,6 +20,26 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone",
       "signal_type": "ipo"
+    },
+    {
+      "author": "Sifted",
+      "role": "Industry signal",
+      "company": "Oxford Quantum Circuits",
+      "text": "Oxford Quantum Circuits raises blockbuster $350m Series C",
+      "date": "Wed, 03 Ju",
+      "source": "news",
+      "source_url": "https://sifted.eu/articles/oxford-quantum-circuits-series-c/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "Sifted",
+      "role": "Industry signal",
+      "company": "Endurosat",
+      "text": "Spacetech EnduroSat eyes $200m Series C months after last round, sources say",
+      "date": "Tue, 02 Ju",
+      "source": "news",
+      "source_url": "https://sifted.eu/articles/endurosat-fundraise-spacetech/",
+      "signal_type": "funding"
     },
     {
       "author": "Next Big Future",
@@ -62,16 +72,6 @@
       "signal_type": "ipo"
     },
     {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Water access is now a risk factor in SpaceX&#8217;s IPO",
-      "date": "Mon, 01 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
-      "signal_type": "hire"
-    },
-    {
       "author": "Crunchbase News",
       "role": "Industry signal",
       "company": "Anthropic",
@@ -90,32 +90,12 @@
       "source": "news",
       "source_url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Focused Energy",
-      "text": "Focused Energy raises $240M, TrueLayer acquires In3,  and London regains top spot",
-      "date": "Fri, 29 Ma",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/05/29/focused-energy-raises-240m-truelayer-acquires-in3-london-regains-top-spot/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "TechNode Global",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "GIC, Temasek anchor Singapore&#8217;s investment in Anthropic&#8217;s $65B Series H round",
-      "date": "Fri, 29 Ma",
-      "source": "news",
-      "source_url": "https://technode.global/2026/05/29/gic-temasek-anchor-singapores-investment-in-anthropics-65b-series-h-round/",
-      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 11,
+    "from_news": 9,
     "from_press": 0
   }
 }

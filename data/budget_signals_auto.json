@@ -32,7 +32,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-02"
+    "lastUpdated": "2026-06-03"
   },
   {
     "category": "Quantum Computing",
@@ -55,7 +55,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-02"
+    "lastUpdated": "2026-06-03"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -78,7 +78,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-02"
+    "lastUpdated": "2026-06-03"
   },
   {
     "category": "Space & Aerospace",
@@ -101,6 +101,29 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-02"
+    "lastUpdated": "2026-06-03"
+  },
+  {
+    "category": "Cybersecurity",
+    "icon": "\ud83d\udd10",
+    "budgetLineItem": "Cybersecurity \u2014 federal activity index",
+    "change": "flat",
+    "changeNum": 0,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 1,
+    "billsTracked": 0,
+    "rulesTracked": 1,
+    "description": "0 bill(s) + 1 federal-register action(s) touching Cybersecurity in the last 90 days. Activity index 1 \u2014 flat relative trend.",
+    "examples": [
+      {
+        "type": "federal_register",
+        "title": "Agency Information Collection Activities: State and Local Cybersecurity Grant Pr",
+        "agency": "",
+        "date": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-06-03"
   }
 ]
