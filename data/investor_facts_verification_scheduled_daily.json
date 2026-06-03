@@ -1,24 +1,164 @@
 {
-  "generatedAt": "2026-06-02T10:05:58+00:00",
+  "generatedAt": "2026-06-03T10:47:27+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 2,
-  "newExtractionsThisRun": 0,
+  "cohortSize": 3,
+  "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 0,
-    "changesProposed": 0,
-    "unverifiable": 2
+    "cleared": 2,
+    "changesProposed": 1,
+    "unverifiable": 0
   },
-  "cleared": [],
-  "changesProposed": [],
-  "unverifiable": [
+  "cleared": [
+    "Alumni Ventures",
+    "Future Ventures"
+  ],
+  "changesProposed": [
     {
-      "name": "Alumni Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Future Ventures",
-      "reason": "Claude extraction failed"
+      "name": "Engine Ventures",
+      "current": {
+        "name": "Engine Ventures",
+        "shortName": "Engine",
+        "aum": "$1B+",
+        "flagshipFund": "Engine Ventures Fund III",
+        "founded": 2016,
+        "hq": "Cambridge, MA",
+        "website": "https://engine.xyz"
+      },
+      "verified": {
+        "name": "Engine Ventures",
+        "short_name": "Engine",
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": 2023,
+        "hq": "Cambridge, MA",
+        "key_partners": null,
+        "sector_focus": [
+          "Applied AI & ML",
+          "Computing",
+          "Mobility",
+          "Autonomous Systems / Robotics",
+          "Energy",
+          "Natural Resources",
+          "Biotech / Life Sciences",
+          "Food / Agriculture",
+          "Quantum Computing",
+          "Carbon Capture / CCUS",
+          "Manufacturing",
+          "Space",
+          "Climate",
+          "Materials",
+          "Water / Oceans"
+        ],
+        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "website": "https://engine.xyz",
+        "sources_per_field": {
+          "name": [
+            3
+          ],
+          "short_name": [
+            0
+          ],
+          "founded_year": [
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "sector_focus": [
+            1
+          ],
+          "thesis": [
+            3
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator in 2023. Sources [0] and [1] are primarily about The Engine nonprofit (founded 2016), not Engine Ventures. The sector focus list is extracted from The Engine's resident company filter categories at source [1], which reflects the broader ecosystem. No current senior partners for Engine Ventures are explicitly named in sources. AUM and flagship fund information are not verifiable from provided sources."
+      },
+      "changes": [
+        {
+          "field": "founded",
+          "current": 2016,
+          "verified": 2023,
+          "sources": [
+            3
+          ]
+        },
+        {
+          "field": "sectorFocus",
+          "current": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS"
+          ],
+          "verified": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS",
+            "Manufacturing",
+            "Space",
+            "Climate",
+            "Materials",
+            "Water / Oceans"
+          ],
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing. In 2023, the investment fund separated from The Engine nonprofit incubator and rebranded as a venture capital firm.",
+          "verified": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "sources": [
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://engine.xyz"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://engine.xyz/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/companies",
+          "url": "https://engine.xyz/companies"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        },
+        {
+          "idx": 4,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/06/02/backed-by-mistral-ai-founders-np-company-secures-eur6m-pre-seed-to-advance-ai-for-engineering/"
+        }
+      ],
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator in 2023. Sources [0] and [1] are primarily about The Engine nonprofit (founded 2016), not Engine Ventures. The sector focus list is extracted from The Engine's resident company filter categories at source [1], which reflects the broader ecosystem. No current senior partners for Engine Ventures are explicitly named in sources. AUM and flagship fund information are not verifiable from provided sources."
     }
-  ]
+  ],
+  "unverifiable": []
 }
