@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-02T23:55:23.251460+00:00",
-  "date": "2026-06-02",
-  "dateDisplay": "Tuesday, June 02, 2026",
+  "generatedAt": "2026-06-03T05:04:25.598984+00:00",
+  "date": "2026-06-03",
+  "dateDisplay": "Wednesday, June 03, 2026",
   "sections": {
     "govActivity": [
       {
@@ -81,9 +81,9 @@
       {
         "ticker": "ASRHF",
         "company": "Astroscale",
-        "price": 14.65,
-        "changePercent": -22.03,
-        "change": -4.14
+        "price": 14.28,
+        "changePercent": -24.0,
+        "change": -4.51
       },
       {
         "ticker": "RXRX",
@@ -114,6 +114,13 @@
         "change": -1.37
       },
       {
+        "ticker": "9348.T",
+        "company": "ispace",
+        "price": 589.0,
+        "changePercent": -15.74,
+        "change": -110.0
+      },
+      {
         "ticker": "SMR",
         "company": "NuScale Power",
         "price": 13.95,
@@ -126,13 +133,6 @@
         "price": 123.32,
         "changePercent": -13.88,
         "change": -19.88
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 39.57,
-        "changePercent": 13.51,
-        "change": 4.71
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASRHF -22.0%"
+    "topMover": "ASRHF -24.0%"
   }
 }

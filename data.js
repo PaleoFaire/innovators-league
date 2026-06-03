@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-02";
+const LAST_UPDATED = "2026-06-03";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -52671,23 +52671,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-02 23:55
+// Last updated: 2026-06-03 05:04
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Oxford Quantum Circuits", headline: "Oxford Quantum Circuits raises blockbuster $350m Series C", source: "Sifted", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Focused Energy", headline: "Focused Energy raises whopping $240M Series A for laser-powered fusion tech", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "Flush With Cash From OpenAI, Opal Is Making an AI-Powered Audio Gadget", source: "Wired", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Vast", headline: "UK explores Vast space station mission for astronaut with physical disability", source: "SpaceNews", time: "11h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Impulse Space", headline: "Impulse Space raises $500 million", source: "SpaceNews", time: "11h ago", impact: "high", unread: true },
-  { id: 6, type: "funding", company: "Endurosat", headline: "Spacetech EnduroSat eyes $200m Series C months after last round, sources say", source: "Sifted", time: "11h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "Mistral AI", headline: "Backed by Mistral AI founders, NP Company secures '6M pre-seed to advance AI for engineering", source: "Tech.eu", time: "12h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Vast", headline: "France to fly two astronauts on Vast missions", source: "SpaceNews", time: "22h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Anthropic", headline: "Anthropic Files Confidentially For IPO", source: "Crunchbase News", time: "1d ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "Anthropic", headline: "Anthropic Confidentially Files for What Could Be the Largest IPO Ever", source: "Wired", time: "1d ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "An OpenAI model solved a famous math problem that stumped humans for 80 years", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Deterrence", headline: "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Wayve", headline: "Revolut, Mistral and Wayve back six-figure 'Built in Europe' campaign", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "A SpaceX/Tesla merger could trigger Musk's $1T pay package automatically", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "FAA documents outline SpaceX plans for Starfall reentry vehicles", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "Waymo Rolls Out the Ojai!", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Oxford Quantum Circuits", headline: "Oxford Quantum Circuits raises blockbuster $350m Series C", source: "Sifted", time: "4h ago", impact: "high", unread: true },
+  { id: 3, type: "funding", company: "Focused Energy", headline: "Focused Energy raises whopping $240M Series A for laser-powered fusion tech", source: "TechCrunch", time: "12h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "Flush With Cash From OpenAI, Opal Is Making an AI-Powered Audio Gadget", source: "Wired", time: "13h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Endurosat", headline: "Spacetech EnduroSat eyes $200m Series C months after last round, sources say", source: "Sifted", time: "16h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "Mistral AI", headline: "Backed by Mistral AI founders, NP Company secures '6M pre-seed to advance AI for engineering", source: "Tech.eu", time: "17h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Anthropic", headline: "Anthropic Files Confidentially For IPO", source: "Crunchbase News", time: "1d ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "Anthropic", headline: "Anthropic Confidentially Files for What Could Be the Largest IPO Ever", source: "Wired", time: "1d ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "An OpenAI model solved a famous math problem that stumped humans for 80 years", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Deterrence", headline: "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Wayve", headline: "Revolut, Mistral and Wayve back six-figure 'Built in Europe' campaign", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "A SpaceX/Tesla merger could trigger Musk's $1T pay package automatically", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "Is SpaceX &#038; Tesla 100-Gigawatt/Year US Solar System Production Plan Realistic?", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Anthropic", headline: "The Week's 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds", source: "Crunchbase News", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Waymo", headline: "Podcast: Tesla Robotaxi numbers, Ferrari's controversial Luce launches, Waymo Ojai, and more", source: "Electrek", time: "4d ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
