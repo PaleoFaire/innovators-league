@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-06-02 11:25:24 UTC",
+    "generated_at": "2026-06-03 12:06:36 UTC",
     "total_targets": 116,
-    "with_excerpts": 106,
+    "with_excerpts": 105,
     "sources": [
       "none",
       "sec_edgar",
@@ -341,13 +341,11 @@
     {
       "ticker": "HEI",
       "company": "Heico",
-      "quarter": "2026-Q2",
-      "date": "2026-05-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/46619/000004661926000016/0000046619-26-000016-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://heico.com/investors/",
+      "source": "none"
     },
     {
       "ticker": "TDY",
@@ -474,11 +472,11 @@
       "ticker": "PANW",
       "company": "Palo Alto Networks",
       "quarter": "2026-Q2",
-      "date": "2026-02-17",
+      "date": "2026-06-02",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000005/0001327567-26-000005-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000015/0001327567-26-000015-index.htm",
       "source": "sec_edgar"
     },
     {

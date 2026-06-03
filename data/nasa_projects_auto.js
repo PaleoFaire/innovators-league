@@ -1,16 +1,16 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-06-02 11:10:58 UTC
+// Last updated: 2026-06-03 11:50:27 UTC
 const NASA_PROJECTS = [
   { id: 158440, title: "ICE CHILL: Integrated Cryo-operable Electronics to Condition Hibernation for Imp", status: "Active", center: "Glenn Research Center", techArea: "", lastUpdated: "05/29/26" },
   { id: 158367, title: "BrainStack: An Orbital Laboratory for AI/ML processors-including the first fligh", status: "Completed", center: "Ames Research Center", techArea: "", lastUpdated: "05/29/26" },
   { id: 158366, title: "Windybird: Animal-borne Wind Velocity Measurements at the Planetary Boundary Lay", status: "Completed", center: "Ames Research Center", techArea: "", lastUpdated: "05/29/26" },
   { id: 158020, title: "Compact Optical Method for Long-range, Inexpensive Network Communication (COMLIN", status: "Completed", center: "Johnson Space Center", techArea: "", lastUpdated: "05/29/26" },
   { id: 158015, title: "Strong Thermoset Regolith UV-Curable Composite Technology (STRUCT)", status: "Completed", center: "Ames Research Center", techArea: "", lastUpdated: "05/29/26" },
+  { id: 183961, title: "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics", status: "Active", center: "Ames Research Center", techArea: "Flight Performance and Analysis", lastUpdated: "05/28/26" },
   { id: 183925, title: "High Lift (High Solidity) Rotor Blades for Mars Helicopters", status: "Active", center: "Ames Research Center", techArea: "Above-Surface Mobility", lastUpdated: "05/28/26" },
   { id: 183924, title: "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescope", status: "Active", center: "Ames Research Center", techArea: "Quantum Computer", lastUpdated: "05/28/26" },
-  { id: 183961, title: "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics", status: "Active", center: "Ames Research Center", techArea: "Flight Performance and Analysis", lastUpdated: "05/28/26" },
-  { id: 183956, title: "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "05/28/26" },
   { id: 183952, title: "CoOptiSense – Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "05/28/26" },
+  { id: 183956, title: "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "05/28/26" },
   { id: 157886, title: "Water Processor Assembly Upgrades", status: "Active", center: "Johnson Space Center", techArea: "Other Human Health, Life Support, and Habitation Systems", lastUpdated: "05/27/26" },
   { id: 157884, title: "Additively Manufactured Condensing Heat Exchanger", status: "Active", center: "Johnson Space Center", techArea: "Other Human Health, Life Support, and Habitation Systems", lastUpdated: "05/27/26" },
   { id: 157866, title: "Earth Independent Operations Vehicle Systems", status: "Active", center: "Marshall Space Flight Center", techArea: "Flight Computing and Avionics", lastUpdated: "05/27/26" },
@@ -21,7 +21,6 @@ const NASA_PROJECTS = [
   { id: 184866, title: "Surface Power Exchange Vehicle Interface", status: "Active", center: "Johnson Space Center", techArea: "Aerospace Power and Energy Storage", lastUpdated: "05/27/26" },
   { id: 184865, title: "Advanced Energy Management System", status: "Active", center: "Glenn Research Center", techArea: "Aerospace Power and Energy Storage", lastUpdated: "05/27/26" },
   { id: 96991, title: "IntraVenous Fluid GENeration for Exploration Missions Mini", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/21/26" },
-  { id: 184934, title: "Spatial Disorientation Trainer", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "05/21/26" },
   { id: 147009, title: "Friction Stir Adjoined Blank-Forming On Revolutionary Machinery", status: "Completed", center: "Langley Research Center", techArea: "Manufacturing Processes", lastUpdated: "05/21/26" },
   { id: 147004, title: "Carbothermal Reduction Demonstration", status: "Completed", center: "Johnson Space Center", techArea: "Resource Processing for Production of Mission Consumables", lastUpdated: "05/21/26" },
   { id: 116320, title: "ISRU Pilot Excavator", status: "Completed", center: "Kennedy Space Center", techArea: "Resource Acquisition, Isolation, and Preparation", lastUpdated: "05/21/26" },
@@ -31,4 +30,5 @@ const NASA_PROJECTS = [
   { id: 184676, title: "Cold Avionics Study", status: "Completed", center: "Langley Research Center", techArea: "Avionics Component Technologies", lastUpdated: "05/21/26" },
   { id: 184673, title: "Dust Tolerant Connectors and High Voltage AC Cable Development", status: "Active", center: "Glenn Research Center", techArea: "Advanced Electronic Parts", lastUpdated: "05/20/26" },
   { id: 184672, title: "Solid Oxide Fuel Cell Task", status: "Active", center: "Glenn Research Center", techArea: "Solids", lastUpdated: "05/20/26" },
+  { id: 184671, title: "Solar Array Dust Removal", status: "Active", center: "Jet Propulsion Laboratory", techArea: "Photovoltaic Electrical Power", lastUpdated: "05/20/26" },
 ];

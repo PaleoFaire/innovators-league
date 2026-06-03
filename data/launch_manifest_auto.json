@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-06-03",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-43",
-    "payload": "Starlink Group 10-43",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/cfff5e89-af2e-46b1-9446-7b0f18de4ef7/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-03",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-47",
     "payload": "Starlink Group 17-47",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/4936311a-af7c-4b05-8d7b-3eea59fc0f11/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-04",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-43",
+    "payload": "Starlink Group 10-43",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/cfff5e89-af2e-46b1-9446-7b0f18de4ef7/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -87,6 +87,24 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/c7b7e18f-1b42-467e-a8ed-181fb58080e8/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-11",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-54",
+    "payload": "Starlink Group 10-54",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/229267d8-74ca-4d0b-8711-b2efe621fc6b/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-14",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-54",
+    "payload": "Starlink Group 17-54",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bad5ea8c-8b17-4cb3-a063-d427fb092275/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -351,6 +369,15 @@
     "trackedCompany": "Rocket Lab"
   },
   {
+    "date": "2026-08-30",
+    "vehicle": "Falcon Heavy | Nancy Grace Roman Space Telescope",
+    "payload": "Nancy Grace Roman Space Telescope",
+    "pad": "Launch Complex 39A, Kennedy Space Center, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/521f3a1c-f977-4306-9b7f-495858719adf/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-08-31",
     "vehicle": "Ariane 62 | MTG-I2",
     "payload": "MTG-I2",
@@ -388,15 +415,6 @@
   },
   {
     "date": "2026-08-31",
-    "vehicle": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-    "payload": "Nancy Grace Roman Space Telescope",
-    "pad": "Launch Complex 39A, Kennedy Space Center, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/521f3a1c-f977-4306-9b7f-495858719adf/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-31",
     "vehicle": "Long March 5 | Chang'e 7",
     "payload": "Chang'e 7",
     "pad": "101, Wenchang Space Launch Site, People's Republic of China",
@@ -429,24 +447,6 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "payload": "O3b mPower 11-13",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-    "payload": "5x Astranis MicroGEO",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d373ca659/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]
