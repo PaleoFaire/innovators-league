@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.6,
+      "avg_change": -8.72,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.57,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 1.32,
       "count": 7
     },
     "nuclear": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "9348.T",
-      "ispace",
-      -2.83
-    ],
-    [
       "RKLB",
       "Rocket Lab",
       -13.88
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -15.74
     ],
     [
       "LNZA",
@@ -108,8 +108,8 @@
     [
       "ASRHF",
       "Astroscale",
-      -22.03
+      -24.0
     ]
   ],
-  "lastUpdated": "2026-06-02 20:54:38"
+  "lastUpdated": "2026-06-03 04:45:39"
 }
