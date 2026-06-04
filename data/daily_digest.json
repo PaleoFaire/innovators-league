@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-03T23:53:04.026425+00:00",
-  "date": "2026-06-03",
-  "dateDisplay": "Wednesday, June 03, 2026",
+  "generatedAt": "2026-06-04T04:57:10.912500+00:00",
+  "date": "2026-06-04",
+  "dateDisplay": "Thursday, June 04, 2026",
   "sections": {
     "govActivity": [
       {
@@ -107,6 +107,13 @@
         "change": -1.93
       },
       {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 13.85,
+        "changePercent": -17.97,
+        "change": -3.03
+      },
+      {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
         "price": 107.73,
@@ -121,18 +128,11 @@
         "change": -6.51
       },
       {
-        "ticker": "9348.T",
-        "company": "ispace",
-        "price": 587.0,
-        "changePercent": -16.02,
-        "change": -112.0
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 14.28,
-        "changePercent": -15.42,
-        "change": -2.6
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 43.13,
+        "changePercent": -14.56,
+        "change": -7.35
       }
     ],
     "regulatory": [

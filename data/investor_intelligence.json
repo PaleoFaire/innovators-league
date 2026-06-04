@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-03T23:53:34+00:00",
+  "generatedAt": "2026-06-04T04:57:57+00:00",
   "stats": {
-    "companies": 857,
+    "companies": 876,
     "vcFirms": 31,
     "uniqueClusters": 92,
     "totalInvestments": 236
@@ -3321,6 +3321,11 @@
         "company": "Canada Rocket Company",
         "cluster": "sovereign-launch",
         "founder": "Hugh Kolias, David Tenny"
+      },
+      {
+        "company": "Mesh Optical Technologies",
+        "cluster": null,
+        "founder": "Travis Brashears, Cameron Ramos, Serena Grown-Haeberli"
       }
     ],
     "NASA": [
@@ -3347,6 +3352,11 @@
         "company": "MatX",
         "cluster": "ai-semiconductor-architecture",
         "founder": "Reiner Pope"
+      },
+      {
+        "company": "Periodic Labs",
+        "cluster": null,
+        "founder": "Liam Fedus, Ekin Dogus Cubuk"
       }
     ],
     "Tesla": [
@@ -3354,6 +3364,16 @@
         "company": "Mytra",
         "cluster": null,
         "founder": "Chris Walti"
+      },
+      {
+        "company": "Union",
+        "cluster": null,
+        "founder": "Will Somerindyke, Jon Reiland, Joe Musselman"
+      },
+      {
+        "company": "Odin Dynamics",
+        "cluster": null,
+        "founder": "Jon Haase, Amir Khan"
       }
     ],
     "OpenAI": [
@@ -3361,6 +3381,18 @@
         "company": "Sunday Robotics",
         "cluster": "general-purpose-robot",
         "founder": "Xiongyi Cui, Linxi Fan"
+      },
+      {
+        "company": "Periodic Labs",
+        "cluster": null,
+        "founder": "Liam Fedus, Ekin Dogus Cubuk"
+      }
+    ],
+    "Google Brain": [
+      {
+        "company": "Periodic Labs",
+        "cluster": null,
+        "founder": "Liam Fedus, Ekin Dogus Cubuk"
       }
     ]
   },
