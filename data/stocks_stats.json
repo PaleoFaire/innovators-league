@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.72,
+      "avg_change": -1.14,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -18.08,
+      "avg_change": -19.83,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -3.55,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -5.66,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.87,
+      "avg_change": -4.75,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.55,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -1.34,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.53,
+      "avg_change": -7.78,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 5.72,
+      "avg_change": 3.48,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 7.72,
+      "avg_change": 6.93,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 1.18,
+      "avg_change": 1.86,
       "count": 3
     }
   },
@@ -61,12 +61,12 @@
     [
       "RIVN",
       "Rivian",
-      20.49
+      19.21
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      14.53
+      10.17
     ],
     [
       "IDEAFORGE.NS",
@@ -74,42 +74,42 @@
       6.51
     ],
     [
-      "TEM",
-      "Tempus AI",
-      3.96
-    ],
-    [
       "ALAB",
       "Astera Labs",
-      1.58
+      2.54
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      2.06
     ]
   ],
   "topLosers": [
     [
-      "ASRHF",
-      "Astroscale",
-      -16.57
-    ],
-    [
-      "9348.T",
-      "ispace",
-      -17.29
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -18.86
+      "SATL",
+      "Satellogic",
+      -17.36
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -20.33
+      -18.97
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -19.39
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -24.1
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -24.74
+      -26.41
     ]
   ],
-  "lastUpdated": "2026-06-04 15:23:48"
+  "lastUpdated": "2026-06-04 20:10:49"
 }
