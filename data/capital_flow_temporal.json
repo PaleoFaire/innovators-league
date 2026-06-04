@@ -1,6 +1,249 @@
 {
-  "generatedAt": "2026-06-04T08:57:25+00:00",
+  "generatedAt": "2026-06-04T12:10:04+00:00",
   "matrix": {
+    "logistics-supply-chain": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 4999995,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Dexterity",
+            "amount": 4999995,
+            "date": "2026-06-03",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "green-manufacturing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 1647200,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Helios",
+            "amount": 1647200,
+            "date": "2026-06-03",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "space-propulsion-engines": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 499832346,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Impulse Space",
+            "amount": 499832346,
+            "date": "2026-06-02",
+            "source": "formd",
+            "investors": [
+              "Founders Fund",
+              "Lux Capital",
+              "RTX Ventures",
+              "Airbus Ventures",
+              "Space Capital"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Lux Capital"
+        ]
+      }
+    },
+    "space-launch-small-intl": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 2025980,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Latitude",
+            "amount": 2025980,
+            "date": "2026-05-26",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "data-center-infrastructure": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 156185204,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Armada",
+            "amount": 156185204,
+            "date": "2026-05-26",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
+        ]
+      }
+    },
+    "robotics-construction-mining": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Terranova",
+            "amount": 0,
+            "date": "2026-05-26",
+            "source": "formd",
+            "investors": [
+              "Outlander",
+              "Congruent Ventures",
+              "GoAhead Ventures",
+              "Gothams",
+              "Ponderosa (Galvanize Climate)"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Bedrock Robotics",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": [
+              "Eclipse Ventures",
+              "8VC",
+              "Valor Equity Partners",
+              "Two Sigma Ventures",
+              "NVentures (NVIDIA)",
+              "CapitalG",
+              "Crossbeam Venture Partners",
+              "Tishman Speyer",
+              "Atreides Management",
+              "Samsara Ventures",
+              "Xora Innovation",
+              "Emergence Capital Partners",
+              "C4 Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "8VC",
+          "Eclipse Ventures",
+          "Valor Equity Partners"
+        ]
+      }
+    },
+    "logistics-robotics": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 535500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Slip Robotics",
+            "amount": 535500,
+            "date": "2026-05-22",
+            "source": "formd",
+            "investors": [
+              "DCVC"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "manufacturing-reshoring": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 129500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Nox Metals",
+            "amount": 129500,
+            "date": "2026-05-22",
+            "source": "formd",
+            "investors": [
+              "Y Combinator",
+              "8090 Industries",
+              "Anorak Ventures",
+              "Behind Genius Ventures",
+              "Detroit Venture Partners",
+              "E1 Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Hadrian",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": [
+              "137 Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -274,6 +517,7 @@
           }
         ],
         "investors": [
+          "Bessemer Venture Partners",
           "Khosla Ventures"
         ]
       },
@@ -370,6 +614,7 @@
           }
         ],
         "investors": [
+          "Bessemer Venture Partners",
           "Founders Fund",
           "In-Q-Tel",
           "Khosla Ventures"
@@ -580,25 +825,6 @@
         ]
       }
     },
-    "manufacturing-reshoring": {
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Hadrian",
-            "amount": null,
-            "date": "2025-08",
-            "source": "recentEvent",
-            "investors": [
-              "137 Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
     "fusion-magnetic-confinement": {
       "2025-Q4": {
         "deals": 1,
@@ -679,41 +905,6 @@
           "General Catalyst",
           "Lightspeed Venture Partners",
           "Lowercarbon Capital"
-        ]
-      }
-    },
-    "data-center-infrastructure": {
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Crusoe Energy",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Valor Equity Partners",
-              "Mubadala Capital",
-              "Founders Fund",
-              "Lowercarbon Capital",
-              "Spark Capital",
-              "Tiger Global Management",
-              "NVIDIA",
-              "Bain Capital Ventures",
-              "Fidelity Management",
-              "Atreides Management",
-              "1789 Capital",
-              "Salesforce Ventures",
-              "T. Rowe Price"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Lowercarbon Capital",
-          "Valor Equity Partners"
         ]
       }
     },
@@ -851,41 +1042,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "robotics-construction-mining": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Bedrock Robotics",
-            "amount": null,
-            "date": "2026-02",
-            "source": "recentEvent",
-            "investors": [
-              "Eclipse Ventures",
-              "8VC",
-              "Valor Equity Partners",
-              "Two Sigma Ventures",
-              "NVentures (NVIDIA)",
-              "CapitalG",
-              "Crossbeam Venture Partners",
-              "Tishman Speyer",
-              "Atreides Management",
-              "Samsara Ventures",
-              "Xora Innovation",
-              "Emergence Capital Partners",
-              "C4 Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "8VC",
-          "Eclipse Ventures",
-          "Valor Equity Partners"
-        ]
       }
     },
     "additive-manufacturing": {
@@ -1053,6 +1209,12 @@
     "Founders Fund": {
       "2026-Q2": [
         {
+          "company": "Impulse Space",
+          "cluster": "space-propulsion-engines",
+          "date": "2026-06-02",
+          "source": "formd"
+        },
+        {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
           "date": "2026-05",
@@ -1076,6 +1238,36 @@
           "company": "Crusoe Energy",
           "cluster": "data-center-infrastructure",
           "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Lux Capital": {
+      "2026-Q2": [
+        {
+          "company": "Impulse Space",
+          "cluster": "space-propulsion-engines",
+          "date": "2026-06-02",
+          "source": "formd"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Physical Intelligence",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1130,30 +1322,6 @@
           "company": "Bedrock Robotics",
           "cluster": "robotics-construction-mining",
           "date": "2026-02",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Lux Capital": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Physical Intelligence",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1218,6 +1386,24 @@
           "company": "Hermeus",
           "cluster": "supersonic-hypersonic-transport",
           "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Bessemer Venture Partners": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Boom Supersonic",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-04",
           "source": "recentEvent"
         }
       ]
@@ -1374,11 +1560,11 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 50,
-    "totalUSDSold": 0,
-    "uniqueClusters": 33,
+    "totalDealsTracked": 58,
+    "totalUSDSold": 665355725,
+    "uniqueClusters": 38,
     "uniqueQuarters": 8,
-    "uniqueVCs": 17,
+    "uniqueVCs": 18,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"

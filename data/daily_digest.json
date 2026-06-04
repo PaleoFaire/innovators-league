@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T08:56:31.117084+00:00",
+  "generatedAt": "2026-06-04T12:09:20.527095+00:00",
   "date": "2026-06-04",
   "dateDisplay": "Thursday, June 04, 2026",
   "sections": {
@@ -114,6 +114,13 @@
         "change": -3.03
       },
       {
+        "ticker": "9348.T",
+        "company": "ispace",
+        "price": 555.0,
+        "changePercent": -17.29,
+        "change": -116.0
+      },
+      {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
         "price": 107.73,
@@ -126,13 +133,6 @@
         "price": 33.83,
         "changePercent": -16.14,
         "change": -6.51
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 43.13,
-        "changePercent": -14.56,
-        "change": -7.35
       }
     ],
     "regulatory": [
@@ -160,23 +160,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Leveraging Prior Knowledge in the Development of Human Gene Therapy Products Inc",
-        "date": "2026-06-03",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11054"
+        "title": "Louisiana Energy Services, LLC, dba Urenco USA; National Enrichment Facility; Ex",
+        "date": "2026-06-04",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11192"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Notice Announcing Fund for the Improvement of Postsecondary Education-Postsecond",
-        "date": "2026-06-03",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11110"
+        "title": "Regulatory Guide: Acceptability of ASME OM-2 Code, Component Testing Requirement",
+        "date": "2026-06-04",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11191"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Standards Participation and Representation Kudos (SPARK) Pilot Program",
-        "date": "2026-06-03",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11098"
+        "title": "Arizona Public Service Company; Palo Verde Nuclear Generating Station, Units 1, ",
+        "date": "2026-06-04",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11137"
       }
     ],
     "patents": [
