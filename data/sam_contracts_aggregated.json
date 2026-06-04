@@ -50,7 +50,7 @@
         "awardAmount": "$37M"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Palantir",
@@ -107,7 +107,7 @@
         "awardAmount": "$86M"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Skydio",
@@ -161,13 +161,12 @@
         "awardAmount": "$110K"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Radiant",
-    "opportunityCount": 12,
+    "opportunityCount": 11,
     "agencies": [
-      "Department of Agriculture",
       "Department of Defense",
       "Department of Health and Human Services",
       "Department of Homeland Security",
@@ -218,7 +217,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Shield AI",
@@ -270,7 +269,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Castelion",
@@ -321,7 +320,7 @@
         "awardAmount": "$685K"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Axiom Space",
@@ -373,7 +372,7 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Sierra Space",
@@ -425,11 +424,11 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Varda Space",
-    "opportunityCount": 5,
+    "opportunityCount": 4,
     "agencies": [
       "Department of Defense"
     ],
@@ -466,61 +465,9 @@
         "type": null,
         "noticeId": "FA945326FX002",
         "awardAmount": "$160K"
-      },
-      {
-        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
-        "agency": "Department of Defense",
-        "postedDate": "2025-12-29",
-        "type": null,
-        "noticeId": "HQ085926FF090",
-        "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-03"
-  },
-  {
-    "company": "Rocket Lab",
-    "opportunityCount": 4,
-    "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2023-03-29",
-        "type": null,
-        "noticeId": "80KSC023FA107",
-        "awardAmount": "$40M"
-      },
-      {
-        "title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2026-05-28",
-        "type": null,
-        "noticeId": "80AFRC26FA041",
-        "awardAmount": "$433K"
-      },
-      {
-        "title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2026-02-23",
-        "type": null,
-        "noticeId": "80GSFC26C0008",
-        "awardAmount": "$391K"
-      },
-      {
-        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
-        "agency": "Department of Defense",
-        "postedDate": "2025-12-29",
-        "type": null,
-        "noticeId": "HQ085926FE799",
-        "awardAmount": "$500"
-      }
-    ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Planet Labs",
@@ -565,7 +512,42 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
+  },
+  {
+    "company": "Rocket Lab",
+    "opportunityCount": 3,
+    "agencies": [
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2023-03-29",
+        "type": null,
+        "noticeId": "80KSC023FA107",
+        "awardAmount": "$40M"
+      },
+      {
+        "title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2026-05-28",
+        "type": null,
+        "noticeId": "80AFRC26FA041",
+        "awardAmount": "$433K"
+      },
+      {
+        "title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2026-02-23",
+        "type": null,
+        "noticeId": "80GSFC26C0008",
+        "awardAmount": "$391K"
+      }
+    ],
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Capella Space",
@@ -601,7 +583,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Scale AI",
@@ -636,7 +618,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "BlackSky",
@@ -663,7 +645,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Epirus",
@@ -682,26 +664,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-03"
-  },
-  {
-    "company": "Saronic",
-    "opportunityCount": 1,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
-        "agency": "Department of Defense",
-        "postedDate": "2025-12-29",
-        "type": null,
-        "noticeId": "HQ085926FE712",
-        "awardAmount": "$500"
-      }
-    ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Vannevar Labs",
@@ -720,7 +683,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   },
   {
     "company": "Relativity Space",
@@ -739,6 +702,6 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-04"
   }
 ]

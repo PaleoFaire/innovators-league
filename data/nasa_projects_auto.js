@@ -1,16 +1,16 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-06-03 11:50:27 UTC
+// Last updated: 2026-06-04 10:33:10 UTC
 const NASA_PROJECTS = [
   { id: 158440, title: "ICE CHILL: Integrated Cryo-operable Electronics to Condition Hibernation for Imp", status: "Active", center: "Glenn Research Center", techArea: "", lastUpdated: "05/29/26" },
   { id: 158367, title: "BrainStack: An Orbital Laboratory for AI/ML processors-including the first fligh", status: "Completed", center: "Ames Research Center", techArea: "", lastUpdated: "05/29/26" },
   { id: 158366, title: "Windybird: Animal-borne Wind Velocity Measurements at the Planetary Boundary Lay", status: "Completed", center: "Ames Research Center", techArea: "", lastUpdated: "05/29/26" },
   { id: 158020, title: "Compact Optical Method for Long-range, Inexpensive Network Communication (COMLIN", status: "Completed", center: "Johnson Space Center", techArea: "", lastUpdated: "05/29/26" },
   { id: 158015, title: "Strong Thermoset Regolith UV-Curable Composite Technology (STRUCT)", status: "Completed", center: "Ames Research Center", techArea: "", lastUpdated: "05/29/26" },
-  { id: 183961, title: "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics", status: "Active", center: "Ames Research Center", techArea: "Flight Performance and Analysis", lastUpdated: "05/28/26" },
   { id: 183925, title: "High Lift (High Solidity) Rotor Blades for Mars Helicopters", status: "Active", center: "Ames Research Center", techArea: "Above-Surface Mobility", lastUpdated: "05/28/26" },
-  { id: 183924, title: "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescope", status: "Active", center: "Ames Research Center", techArea: "Quantum Computer", lastUpdated: "05/28/26" },
   { id: 183952, title: "CoOptiSense – Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "05/28/26" },
   { id: 183956, title: "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "05/28/26" },
+  { id: 183924, title: "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescope", status: "Active", center: "Ames Research Center", techArea: "Quantum Computer", lastUpdated: "05/28/26" },
+  { id: 183961, title: "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics", status: "Active", center: "Ames Research Center", techArea: "Flight Performance and Analysis", lastUpdated: "05/28/26" },
   { id: 157886, title: "Water Processor Assembly Upgrades", status: "Active", center: "Johnson Space Center", techArea: "Other Human Health, Life Support, and Habitation Systems", lastUpdated: "05/27/26" },
   { id: 157884, title: "Additively Manufactured Condensing Heat Exchanger", status: "Active", center: "Johnson Space Center", techArea: "Other Human Health, Life Support, and Habitation Systems", lastUpdated: "05/27/26" },
   { id: 157866, title: "Earth Independent Operations Vehicle Systems", status: "Active", center: "Marshall Space Flight Center", techArea: "Flight Computing and Avionics", lastUpdated: "05/27/26" },

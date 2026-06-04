@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-06-03 11:48:49 UTC
-// Total signals: 44 | Companies matched: 182
+// Last updated: 2026-06-04 10:31:20 UTC
+// Total signals: 44 | Companies matched: 183
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -2324,6 +2324,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Voya Energy",
+        "score": 18,
+        "matchReasons": [
+          "tag: energy",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Skeleton Technologies",
         "score": 16,
         "matchReasons": [
@@ -2353,6 +2361,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Base Power",
       "Form Energy",
       "Peak Energy",
+      "Voya Energy",
       "Skeleton Technologies",
       "Ouros Energy",
       "Lunar Energy"
@@ -5652,6 +5661,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Long-Duration Energy Storage Technologies"
     ]
   },
+  "Voya Energy": {
+    "name": "Voya Energy",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 18,
+    "topSignals": [
+      "Long-Duration Energy Storage Technologies"
+    ]
+  },
   "Skeleton Technologies": {
     "name": "Skeleton Technologies",
     "govPullScore": 25,
@@ -6482,6 +6503,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 182,
-  "lastUpdated": "2026-06-03 11:48:49 UTC"
+  "companiesMatched": 183,
+  "lastUpdated": "2026-06-04 10:31:20 UTC"
 };

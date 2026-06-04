@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-06-03 12:06:36 UTC",
+    "generated_at": "2026-06-04 10:47:52 UTC",
     "total_targets": 116,
-    "with_excerpts": 105,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -341,11 +341,13 @@
     {
       "ticker": "HEI",
       "company": "Heico",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://heico.com/investors/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-05-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/46619/000004661926000016/0000046619-26-000016-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TDY",
@@ -461,11 +463,11 @@
       "ticker": "CRWD",
       "company": "CrowdStrike",
       "quarter": "2026-Q2",
-      "date": "2025-12-02",
+      "date": "2026-06-03",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000033/0001535527-25-000033-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000025/0001535527-26-000025-index.htm",
       "source": "sec_edgar"
     },
     {

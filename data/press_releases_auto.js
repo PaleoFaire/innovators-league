@@ -1,6 +1,8 @@
 // Auto-updated press releases
-// Last updated: 2026-06-03 11:49:41 UTC
+// Last updated: 2026-06-04 10:31:43 UTC
 const PRESS_RELEASES = [
+  { title: "SpaceX to raise at least $75 billion in IPO", date: "2026-06-04", companies: "SpaceX, Figure AI", categories: "funding, ipo", source: "spacenews" },
+  { title: "AST SpaceMobile sees New Glenn setback delaying initial commercial service into 2027", date: "2026-06-03", companies: "AST SpaceMobile, Figure AI, Blue Origin", categories: "ipo", source: "spacenews" },
   { title: "Muon Space unveils Starship-class satellite platform for orbital data centers", date: "2026-06-03", companies: "Muon Space, SpaceX, Figure AI", categories: "product, ipo", source: "spacenews" },
   { title: "Blue Origin seeks to resume New Glenn launches by year’s end", date: "2026-06-03", companies: "Blue Origin, Figure AI", categories: "product, ipo", source: "spacenews" },
   { title: "UK explores Vast space station mission for astronaut with physical disability", date: "2026-06-02", companies: "Vast, Figure AI, Axiom Space", categories: "ipo", source: "spacenews" },
@@ -9,7 +11,7 @@ const PRESS_RELEASES = [
   { title: "GDOTS and Deterrence enter into agreement for deploying AI in manufacturing across DIB", date: "2026-06-02", companies: "Deterrence, Field AI", categories: "partnership", source: "insidedefense" },
   { title: "Norway becomes ninth country to sign up for French nuclear deterrence as trust in US falters", date: "2026-06-01", companies: "Deterrence", categories: "", source: "defensenews" },
   { title: "FAA documents outline SpaceX plans for Starfall reentry vehicles", date: "2026-05-31", companies: "SpaceX, Figure AI, Inversion Space", categories: "ipo", source: "spacenews" },
-  { title: "Blue Origin gets national security launch task order hours before New Glenn explosion", date: "2026-05-30", companies: "Blue Origin, Figure AI, Cape", categories: "ipo", source: "spacenews" },
-  { title: "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking", date: "2026-05-29", companies: "SpaceX, Figure AI, Array Labs", categories: "funding, contract", source: "spacenews" },
-  { title: "New Glenn rocket explodes on Cape Canaveral pad", date: "2026-05-29", companies: "Cape, Figure AI, Blue Origin", categories: "ipo", source: "spacenews" },
+  { title: "Blue Origin’s New Glenn Rocket Explodes During Pre-Launch Test", date: "2026-05-29", companies: "Blue Origin", categories: "", source: "spacepolicyonline" },
+  { title: "SpaceX Launches New Starship V3 For First Time", date: "2026-05-23", companies: "SpaceX", categories: "funding, product", source: "spacepolicyonline" },
+  { title: "X-energy Reports First Quarter 2026 Results", date: "", companies: "X-Energy", categories: "milestone", source: "globenewswire_all" },
 ];

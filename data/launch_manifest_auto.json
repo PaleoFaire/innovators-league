@@ -37,11 +37,11 @@
   },
   {
     "date": "2026-06-07",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-35",
-    "payload": "Starlink Group 10-35",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-43",
+    "payload": "Starlink Group 17-43",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/114577dc-7617-461c-aaeb-9bd0f64b5a4b/?format=json",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/af8d71dd-f439-47b3-91ed-57f959a581e0/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -52,6 +52,15 @@
     "provider": "Agency for Defense Development",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-06-08",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-35",
+    "payload": "Starlink Group 10-35",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/114577dc-7617-461c-aaeb-9bd0f64b5a4b/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-06-10",
@@ -90,7 +99,7 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-06-11",
+    "date": "2026-06-12",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-54",
     "payload": "Starlink Group 10-54",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
@@ -439,14 +448,5 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | Crew-13",
-    "payload": "Crew-13",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
-    "trackedCompany": "SpaceX"
   }
 ]

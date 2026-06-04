@@ -116,6 +116,61 @@
     ]
   },
   {
+    "prime": "General Dynamics",
+    "ticker": "GD",
+    "totalCompanies": 7,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Counter-drone systems"
+      },
+      {
+        "company": "HawkEye 360",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "RF geolocation for intel missions"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Mission Command software"
+      },
+      {
+        "company": "Shield AI",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "V-BAT autonomy for GCS integration"
+      },
+      {
+        "company": "Union",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "general dynamics"
+      },
+      {
+        "company": "general",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1219.8M",
+        "agency": "Department of State",
+        "evidence": "IGF::OT::IGF THE PURPOSE OF THIS ACTION IS TO ESTABLISH A NEW CONTRACT WITH GENERAL DYNAMICS INFORMATION TECHNOLOGY FOR GLOBAL SUPPLY CHAIN MANAGEMENT, LOGISTICS AND TECHNOLOGY DEVELOPMENT SERVICES TO",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA12C0130_1900_-NONE-_-NONE-"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1248.4M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE SPACE NETWORK (SN) CONSISTS OF A SPACE SEGMENT COMPRISED OF THE TRACKING AND DATA RELAY SATELLITES (TDRSS), AND A GROUND SEGMENT (SNGS). THE SN PROVIDES THE CAPABILITY FOR GLOBAL SPACE-TO-GROUND T",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10DB04C_8000_-NONE-_-NONE-"
+      }
+    ]
+  },
+  {
     "prime": "L3Harris",
     "ticker": "LHX",
     "totalCompanies": 6,
@@ -207,55 +262,6 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Autonomous maritime systems"
-      }
-    ]
-  },
-  {
-    "prime": "General Dynamics",
-    "ticker": "GD",
-    "totalCompanies": 6,
-    "portfolio": [
-      {
-        "company": "Anduril",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Counter-drone systems"
-      },
-      {
-        "company": "HawkEye 360",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "RF geolocation for intel missions"
-      },
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Mission Command software"
-      },
-      {
-        "company": "Shield AI",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "V-BAT autonomy for GCS integration"
-      },
-      {
-        "company": "general",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1219.8M",
-        "agency": "Department of State",
-        "evidence": "IGF::OT::IGF THE PURPOSE OF THIS ACTION IS TO ESTABLISH A NEW CONTRACT WITH GENERAL DYNAMICS INFORMATION TECHNOLOGY FOR GLOBAL SUPPLY CHAIN MANAGEMENT, LOGISTICS AND TECHNOLOGY DEVELOPMENT SERVICES TO",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA12C0130_1900_-NONE-_-NONE-"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1248.4M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE SPACE NETWORK (SN) CONSISTS OF A SPACE SEGMENT COMPRISED OF THE TRACKING AND DATA RELAY SATELLITES (TDRSS), AND A GROUND SEGMENT (SNGS). THE SN PROVIDES THE CAPABILITY FOR GLOBAL SPACE-TO-GROUND T",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10DB04C_8000_-NONE-_-NONE-"
       }
     ]
   },
