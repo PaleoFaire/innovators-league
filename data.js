@@ -41002,21 +41002,6 @@ const VC_FIRMS = [
     insight: "GC has transformed from a traditional VC into a global financial services company under CEO Hemant Taneja. Acquired Summa Health (hospital chain), merged with La Famiglia (Europe) and Venture Highway (India), and agreed to acquire Janus Henderson for $7.4B. Their $40B+ AUM and deep tech allocation are growing rapidly."
   },
   {
-    name: "Alumni Ventures",
-    shortName: "AV",
-    aum: "$1.5B+",
-    flagshipFund: "Deep Tech Fund",
-    founded: 2014,
-    hq: "Manchester, NH",
-    thesis: "Alumni Ventures provides accredited investors and institutions access to professionally-managed, diversified venture portfolios by co-investing alongside leading VC firms. The firm operates exclusively as a co-investor, not leading rounds or taking board seats.",
-    keyPartners: ["Mike Collins", "James Gill"],
-    sectorFocus: ["AI & Software", "Defense & Security", "Energy & Climate"],
-    portfolioCompanies: ["Precision Neuroscience", "Anduril Industries", "Boom Supersonic", "Magdrive", "Astro Mechanica", "SpaceX", "D-Wave Quantum", "Rigetti Computing", "Cover", "Valar Atomics", "LeoLabs", "Primer AI", "AlixLabs", "DIRAC", "Formic", "Fortastra", "ZeroAvia", "Lumafield", "Fortera", "Overland AI", "Black Semiconductor", "Trilobio", "Aalo Atomics", "Mainspring Energy", "Venus Aerospace", "Rebellions", "Atom Computing", "Divergent", "Quilter", "Commonwealth Fusion Systems", "Atomic Industries", "Ursa Major Technologies", "Nascent Materials", "Q-CTRL", "Rebellion Defense", "Impulse Space", "CarbonCapture Inc.", "Groq", "Fleet Space Technologies", "Nucleus Genomics", "X-Energy", "Xanadu Quantum Technologies", "Andromeda Surgical", "Atomic Machines", "Quantum Machines", "Slingshot Aerospace", "Pano AI", "Firestorm Labs", "Asylon Robotics", "Kinova Robotics", "FleetZero", "Proxima Fusion", "Astranis", "Terranova", "NetworkOcean", "Reaction Dynamics", "Neko Health", "Dronamics", "Picogrid", "Finwave Semiconductor", "SkySafe", "Pacific Fusion", "Deep Atomic", "Hubble Network", "Re:Build Manufacturing", "Chef Robotics", "Galvanick", "Copenhagen Atomics", "Northwood Space", "Sage Geosystems", "Atomic Semi", "Agility Robotics", "Starpath Robotics", "Osmo", "Axiom Space", "Zeromark", "Varda Space Industries", "Swarm Aero", "Radiant", "Avalanche Energy", "Agnikul Cosmos", "Machina Labs", "Aurelius Systems", "Kepler Communications"],
-    signal: "watch",
-    website: "https://av.vc",
-    insight: "Alumni Ventures has quietly become one of the most active VCs in America by deal count, using university alumni networks for both fundraising and deal flow. Their Deep Tech Fund gives retail-adjacent investors exposure to frontier technology through institutional-quality deal access."
-  },
-  {
     name: "Lux Capital",
     shortName: "Lux",
     aum: "$7B+",
@@ -41090,21 +41075,6 @@ const VC_FIRMS = [
     signal: "hot",
     website: "https://shieldcap.com",
     insight: "Shield Capital bridges the gap between Silicon Valley and the Pentagon like no other fund. Both Raj Shah and Michael Brown are former DIU directors, giving them unmatched government procurement expertise. Their commercial VC approach ensures portfolio companies build real businesses, not just government-dependent contractors."
-  },
-  {
-    name: "Bedrock Capital",
-    shortName: "Bedrock",
-    aum: "$2B+",
-    flagshipFund: "Bedrock Fund IV",
-    founded: 2018,
-    hq: "Austin, TX",
-    thesis: "Investing in 'narrative violations' — companies that challenge prevailing market assumptions. Multi-stage, industry-agnostic with notable defense and industrial positions.",
-    keyPartners: ["Geoff Lewis", "Eric Stromberg"],
-    sectorFocus: ["Defense & Security", "AI & Software", "Fintech"],
-    portfolioCompanies: ["Epirus", "Flock Safety", "Mach Industries"],
-    signal: "established",
-    website: "https://bedrockcap.com",
-    insight: "Bedrock's 'narrative violations' thesis produced some legendary wins: early OpenAI, Flock Safety at $7.5B (2025). They're willing to bet against consensus — exactly what frontier tech requires. Grew from $127M in 2018 to $2B+ today."
   },
   {
     name: "Riot Ventures",
@@ -41182,36 +41152,6 @@ const VC_FIRMS = [
     insight: "Engine (formerly The Engine at MIT) pioneered the Tough Tech investing category. Their proximity to MIT and deep science networks give them first access to breakthrough technologies that take years to commercialize but create massive moats."
   },
   {
-    name: "Flagship Pioneering",
-    shortName: "Flagship",
-    aum: "$14B",
-    flagshipFund: "Flagship Pioneering Fund VIII",
-    founded: 1999,
-    hq: "Cambridge, MA",
-    thesis: "Flagship Pioneering invests in and incubates biotechnology, life sciences, health and sustainability companies. The firm both funds and incubates companies through a unique venture creation model.",
-    keyPartners: ["Noubar Afeyan"],
-    sectorFocus: ["Biotechnology", "Life Sciences", "Health", "Sustainability"],
-    portfolioCompanies: ["Lila Sciences"],
-    signal: "established",
-    website: "https://flagshippioneering.com",
-    insight: "Flagship's venture creation model is unique in biotech — they don't invest in founders, they create companies from scratch. Moderna alone validated the entire model. Their internal ideation process generates IP before a company even exists."
-  },
-  {
-    name: "Construct Capital",
-    shortName: "Construct",
-    aum: "$750M",
-    flagshipFund: "Construct Capital Fund II",
-    founded: 2020,
-    hq: "San Francisco, CA",
-    thesis: "Construct invests in foundational industries where disruptive technologies have not been applied despite decades of neglect. From manufacturing to logistics and defense to energy, these sectors are the backbone of GDP but have experienced chronic under-investment in innovation.",
-    keyPartners: ["Dayna Grayson", "Rachel Holt"],
-    sectorFocus: ["Supply Chain", "Critical Infrastructure", "Production", "Energy Transition", "Core Software", "Augmenting Workers"],
-    portfolioCompanies: ["Cowboy Space Corporation", "Amca", "Hadrian", "Swarm Aero"],
-    signal: "rising",
-    website: "https://constructcap.com",
-    insight: "Construct Capital focuses on the unsexy but critical infrastructure layer — manufacturing, logistics, and defense supply chain. Their thesis that foundational industries are ripe for tech-driven transformation is playing out as reshoring accelerates."
-  },
-  {
     name: "Playground Global",
     shortName: "Playground",
     aum: "$1.2B",
@@ -41285,36 +41225,6 @@ const VC_FIRMS = [
     signal: "established",
     website: "https://future.ventures",
     insight: "Steve Jurvetson's track record includes the first VC checks into SpaceX and Tesla. Future Ventures' 15-year fund structure gives them the patience to back truly transformative science that others consider too long-horizon."
-  },
-  {
-    name: "Coatue Management",
-    shortName: "Coatue",
-    aum: "$70B+",
-    flagshipFund: "Coatue Growth Fund IV LP",
-    founded: 1999,
-    hq: "New York, NY",
-    thesis: "Coatue invests in both public and private markets with a focus on technology, media, telecommunications, consumer and healthcare sectors. The firm operates multiple strategies including venture, growth, and tactical investing across early-stage to late-stage companies.",
-    keyPartners: ["Philippe Laffont", "Thomas Laffont"],
-    sectorFocus: ["Technology", "Media", "Telecommunications", "Consumer", "Healthcare"],
-    portfolioCompanies: ["Agility Robotics", "Anduril Industries", "Applied Intuition", "Joby Aviation", "Relativity Space", "SpaceX"],
-    signal: "established",
-    website: "https://coatue.com",
-    insight: "Coatue's $54B+ AUM makes it one of the largest crossover funds writing checks into frontier tech. When Coatue moves into defense and hard tech at scale, it signals institutional capital validating the sector."
-  },
-  {
-    name: "D1 Capital Partners",
-    shortName: "D1",
-    aum: "$24B",
-    flagshipFund: "D1 Capital Partners Fund",
-    founded: 2018,
-    hq: "New York, NY",
-    thesis: "D1 Capital Partners invests in public and private markets globally. In private markets, the firm primarily takes later-stage non-controlling stakes in growth companies to support their expansion. The firm employs a global long/short equity strategy in public markets focusing on generating medium- to long-term returns.",
-    keyPartners: ["Daniel Sundheim"],
-    sectorFocus: ["Consumer", "Business Services", "Financial Services", "Healthcare", "Industrials", "Real Estate", "Technology", "Media and Telecommunication"],
-    portfolioCompanies: ["Anduril Industries", "Groq", "Hadrian", "Kela", "SpaceX", "Wayve"],
-    signal: "established",
-    website: "https://d1cap.com",
-    insight: "Dan Sundheim's D1 is one of the largest private holders of SpaceX, reportedly making it roughly a third of their private portfolio. That level of concentration in a single frontier tech company is a massive signal of conviction."
   },
   {
     name: "Lightspeed Venture Partners",
