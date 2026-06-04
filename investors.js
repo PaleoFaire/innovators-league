@@ -297,10 +297,12 @@ function renderVCCards(firms) {
           vcShownCount = VC_INITIAL_COUNT;
           grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-        const cached = lastRenderedFirms;
-        lastRenderedFirms = null;
-        renderVCCards(cached);
-        lastRenderedFirms = cached;
+        // Re-render with the same array reference — the guard inside
+        // renderVCCards() compares by identity, so passing the cached
+        // array preserves the new vcShownCount. (Previously this code
+        // nulled out lastRenderedFirms before the call, which tripped
+        // the guard and reset the count back to 20 every click.)
+        renderVCCards(lastRenderedFirms);
       });
     }
   }

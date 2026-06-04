@@ -313,10 +313,12 @@ function renderAlertsFeed(signals) {
         alertsFeedShownCount = ALERTS_FEED_INITIAL;
         container.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
-      var cached = lastRenderedAlertSignals;
-      lastRenderedAlertSignals = null;
-      renderAlertsFeed(cached);
-      lastRenderedAlertSignals = cached;
+      // Re-render with the same array reference — the guard inside
+      // renderAlertsFeed() compares by identity, so passing the cached
+      // array preserves the new alertsFeedShownCount. (Previously this
+      // code nulled out lastRenderedAlertSignals before the call, which
+      // tripped the guard and reset the count every click.)
+      renderAlertsFeed(lastRenderedAlertSignals);
     });
   }
 }
