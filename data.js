@@ -53285,23 +53285,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-04 04:57
+// Last updated: 2026-06-04 08:56
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Atom Computing", headline: "Microsoft, Atom Computing, EeroQ update their quantum computing progress", source: "Ars Technica Space", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Mach Industries", headline: "Autonomous defense manufacturer Mach Industries raises $300M", source: "The Robot Report", time: "7h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "xAI", headline: "xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity", source: "Wired", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Blue Origin", headline: "Blue Origin Should Be Able to Launch Again By End of 2026", source: "Next Big Future", time: "15h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Anthropic", headline: "Anthropic Funding Pushed Startup Investment To Near-Record Levels In May As Exit Market Reopened", source: "Crunchbase News", time: "17h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "What's Worth More Than Cash in San Francisco Real Estate? Anthropic Stock", source: "Wired", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Oxford Quantum Circuits", headline: "Oxford Quantum Circuits lands 'coming-of-age' '260M funding round", source: "Tech.eu", time: "20h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Humanoid", headline: "Vietnam's conglomerate Vingroup launches humanoid robots on global stage", source: "TechNode Global", time: "20h ago", impact: "medium", unread: false },
-  { id: 10, type: "funding", company: "SpaceX", headline: "Morningstar Analyst Mostly Ignores SpaceX Biggest Current and Future Businesses", source: "Next Big Future", time: "23h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Waymo Rolls Out the Ojai!", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Oxford Quantum Circuits", headline: "Oxford Quantum Circuits raises blockbuster $350m Series C", source: "Sifted", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "Flush With Cash From OpenAI, Opal Is Making an AI-Powered Audio Gadget", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Endurosat", headline: "Spacetech EnduroSat eyes $200m Series C months after last round, sources say", source: "Sifted", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "funding", company: "Mistral AI", headline: "Backed by Mistral AI founders, NP Company secures '6M pre-seed to advance AI for engineering", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "SpaceX", headline: "SpaceX to raise at least $75 billion in IPO", source: "SpaceNews", time: "6h ago", impact: "high", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons", source: "Wired", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Atom Computing", headline: "Microsoft, Atom Computing, EeroQ update their quantum computing progress", source: "Ars Technica Space", time: "10h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Mach Industries", headline: "Autonomous defense manufacturer Mach Industries raises $300M", source: "The Robot Report", time: "11h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile sees New Glenn setback delaying initial commercial service into 2027", source: "SpaceNews", time: "11h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "xAI", headline: "xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity", source: "Wired", time: "14h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Blue Origin", headline: "Blue Origin Should Be Able to Launch Again By End of 2026", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Muon Space", headline: "Muon Space unveils Starship-class satellite platform for orbital data centers", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Anthropic", headline: "Anthropic Funding Pushed Startup Investment To Near-Record Levels In May As Exit Market Reopened", source: "Crunchbase News", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "Blue Origin", headline: "Blue Origin seeks to resume New Glenn launches by year's end", source: "SpaceNews", time: "22h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "What's Worth More Than Cash in San Francisco Real Estate? Anthropic Stock", source: "Wired", time: "22h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Oxford Quantum Circuits", headline: "Oxford Quantum Circuits lands 'coming-of-age' '260M funding round", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Humanoid", headline: "Vietnam's conglomerate Vingroup launches humanoid robots on global stage", source: "TechNode Global", time: "1d ago", impact: "medium", unread: false },
+  { id: 14, type: "funding", company: "SpaceX", headline: "Morningstar Analyst Mostly Ignores SpaceX Biggest Current and Future Businesses", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo Rolls Out the Ojai!", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

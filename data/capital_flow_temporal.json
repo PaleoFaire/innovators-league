@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T04:57:57+00:00",
+  "generatedAt": "2026-06-04T08:57:25+00:00",
   "matrix": {
     "autonomy-drone-military": {
       "2026-Q2": {
@@ -25,7 +25,6 @@
         ],
         "investors": [
           "8VC",
-          "D1 Capital Partners",
           "Founders Fund",
           "General Catalyst",
           "Lux Capital",
@@ -396,7 +395,6 @@
           }
         ],
         "investors": [
-          "Alumni Ventures",
           "Lowercarbon Capital"
         ]
       }
@@ -681,36 +679,6 @@
           "General Catalyst",
           "Lightspeed Venture Partners",
           "Lowercarbon Capital"
-        ]
-      }
-    },
-    "ai-foundation-models": {
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Groq",
-            "amount": null,
-            "date": "2025-08",
-            "source": "recentEvent",
-            "investors": [
-              "Social Capital",
-              "Tiger Global Management",
-              "D1 Capital Partners",
-              "Infinitum",
-              "The Spruce House Partnership",
-              "Addition",
-              "GCM Grosvenor",
-              "X\u207f",
-              "Firebolt Ventures",
-              "General Global Capital"
-            ]
-          }
-        ],
-        "investors": [
-          "D1 Capital Partners"
         ]
       }
     },
@@ -1216,24 +1184,6 @@
         }
       ]
     },
-    "D1 Capital Partners": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q3": [
-        {
-          "company": "Groq",
-          "cluster": "ai-foundation-models",
-          "date": "2025-08",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Riot Ventures": {
       "2026-Q1": [
         {
@@ -1302,16 +1252,6 @@
           "company": "Skild AI",
           "cluster": "ai-robotics-embodied",
           "date": "2026-01",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Alumni Ventures": {
-      "2024-Q1": [
-        {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
           "source": "recentEvent"
         }
       ]
@@ -1434,11 +1374,11 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 51,
+    "totalDealsTracked": 50,
     "totalUSDSold": 0,
-    "uniqueClusters": 34,
+    "uniqueClusters": 33,
     "uniqueQuarters": 8,
-    "uniqueVCs": 19,
+    "uniqueVCs": 17,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"

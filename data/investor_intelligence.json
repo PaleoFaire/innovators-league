@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-04T04:57:57+00:00",
+  "generatedAt": "2026-06-04T08:57:24+00:00",
   "stats": {
-    "companies": 876,
-    "vcFirms": 31,
-    "uniqueClusters": 92,
-    "totalInvestments": 236
+    "companies": 873,
+    "vcFirms": 25,
+    "uniqueClusters": 91,
+    "totalInvestments": 224
   },
   "concentration": {
     "Founders Fund": {
@@ -537,32 +537,6 @@
         ]
       }
     },
-    "D1 Capital Partners": {
-      "autonomy-drone-military": {
-        "count": 1,
-        "companies": [
-          "Anduril Industries"
-        ]
-      },
-      "ai-foundation-models": {
-        "count": 1,
-        "companies": [
-          "Groq"
-        ]
-      },
-      "ai-autonomous-driving": {
-        "count": 1,
-        "companies": [
-          "Wayve"
-        ]
-      },
-      "defense-ew-rf-cyber": {
-        "count": 1,
-        "companies": [
-          "Kela"
-        ]
-      }
-    },
     "Riot Ventures": {
       "autonomy-drone-military": {
         "count": 1,
@@ -769,44 +743,6 @@
         "count": 1,
         "companies": [
           "REGENT Craft"
-        ]
-      }
-    },
-    "Alumni Ventures": {
-      "defense-ew-rf-cyber": {
-        "count": 1,
-        "companies": [
-          "Picogrid"
-        ]
-      },
-      "nuclear-microreactor": {
-        "count": 1,
-        "companies": [
-          "Aalo Atomics"
-        ]
-      },
-      "supersonic-hypersonic-transport": {
-        "count": 1,
-        "companies": [
-          "Astro Mechanica"
-        ]
-      },
-      "robotics-cobots-warehouse": {
-        "count": 1,
-        "companies": [
-          "Formic"
-        ]
-      },
-      "consumer-hardware": {
-        "count": 1,
-        "companies": [
-          "Osmo"
-        ]
-      },
-      "electric-propulsion": {
-        "count": 1,
-        "companies": [
-          "Magdrive"
         ]
       }
     },
@@ -1239,20 +1175,6 @@
         ]
       }
     },
-    "Construct Capital": {
-      "manufacturing-reshoring": {
-        "count": 1,
-        "companies": [
-          "Amca"
-        ]
-      },
-      "orbital-data-centers": {
-        "count": 1,
-        "companies": [
-          "Cowboy Space Corporation"
-        ]
-      }
-    },
     "Breakthrough Energy Ventures": {
       "synfuels-solar": {
         "count": 1,
@@ -1411,27 +1333,27 @@
       {
         "vc": "Founders Fund",
         "count": 2,
-        "share": 0.2222
+        "share": 0.25
       },
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.1111
+        "share": 0.125
       },
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.1111
+        "share": 0.125
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.1111
+        "share": 0.125
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.1111
+        "share": 0.125
       }
     ],
     "nuclear-services-fuel": [
@@ -1474,27 +1396,22 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Alumni Ventures",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "In-Q-Tel",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "ai-code-generation": [
@@ -1518,27 +1435,27 @@
       {
         "vc": "Founders Fund",
         "count": 3,
-        "share": 0.3333
+        "share": 0.375
       },
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.1111
+        "share": 0.125
       },
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.1111
+        "share": 0.125
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.1111
+        "share": 0.125
       },
       {
         "vc": "Caffeinated Capital",
         "count": 1,
-        "share": 0.1111
+        "share": 0.125
       }
     ],
     "biotech-cell-reprogramming": [
@@ -1608,27 +1525,27 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.125
+        "share": 0.1667
       },
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.125
+        "share": 0.1667
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.125
-      },
-      {
-        "vc": "D1 Capital Partners",
-        "count": 1,
-        "share": 0.125
+        "share": 0.1667
       },
       {
         "vc": "Sequoia Capital",
         "count": 1,
-        "share": 0.125
+        "share": 0.1667
+      },
+      {
+        "vc": "Point72 Ventures",
+        "count": 1,
+        "share": 0.1667
       }
     ],
     "green-steel-metals": [
@@ -1805,17 +1722,12 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Alumni Ventures",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "In-Q-Tel",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "vtol-munitions": [
@@ -1900,27 +1812,22 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "D1 Capital Partners",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Eclipse Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "ai-defense-intelligence": [
@@ -1990,27 +1897,22 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Sequoia Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lightspeed Venture Partners",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Alumni Ventures",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "ai-semiconductor-architecture": [
@@ -2213,17 +2115,12 @@
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Alumni Ventures",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "disaggregated-ai": [
@@ -2237,22 +2134,17 @@
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.25
+        "share": 0.3333
       },
       {
         "vc": "Riot Ventures",
         "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Alumni Ventures",
-        "count": 1,
-        "share": 0.25
+        "share": 0.3333
       },
       {
         "vc": "Harpoon Ventures",
         "count": 1,
-        "share": 0.25
+        "share": 0.3333
       }
     ],
     "battery-infrastructure": [
@@ -2287,13 +2179,6 @@
     "autonomous-aviation": [
       {
         "vc": "Valor Equity Partners",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "ai-foundation-models": [
-      {
-        "vc": "D1 Capital Partners",
         "count": 1,
         "share": 1.0
       }
@@ -2602,18 +2487,6 @@
         "share": 1.0
       }
     ],
-    "orbital-data-centers": [
-      {
-        "vc": "Construct Capital",
-        "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.5
-      }
-    ],
     "geothermal-next-gen": [
       {
         "vc": "Breakthrough Energy Ventures",
@@ -2624,6 +2497,13 @@
         "vc": "Engine Ventures",
         "count": 1,
         "share": 0.5
+      }
+    ],
+    "orbital-data-centers": [
+      {
+        "vc": "Breakthrough Energy Ventures",
+        "count": 1,
+        "share": 1.0
       }
     ],
     "battery-advanced-chemistry": [
@@ -3163,44 +3043,6 @@
       ]
     },
     {
-      "vc": "Alumni Ventures",
-      "recentCount": 2,
-      "totalCount": 6,
-      "score": 2.949,
-      "topCluster": "defense-ew-rf-cyber",
-      "recentExamples": [
-        {
-          "company": "Magdrive",
-          "cluster": "electric-propulsion",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Osmo",
-          "cluster": "consumer-hardware",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
-      "vc": "D1 Capital Partners",
-      "recentCount": 2,
-      "totalCount": 4,
-      "score": 2.439,
-      "topCluster": "autonomy-drone-military",
-      "recentExamples": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "Kela",
-          "cluster": "defense-ew-rf-cyber",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
       "vc": "Shield Capital",
       "recentCount": 2,
       "totalCount": 3,
@@ -3281,14 +3123,6 @@
       "totalCount": 2,
       "score": 0.0,
       "topCluster": "ai-robotics-embodied",
-      "recentExamples": []
-    },
-    {
-      "vc": "Construct Capital",
-      "recentCount": 0,
-      "totalCount": 2,
-      "score": 0.0,
-      "topCluster": "manufacturing-reshoring",
       "recentExamples": []
     },
     {
@@ -3399,19 +3233,19 @@
   "topClusters": [
     {
       "cluster": "autonomy-drone-military",
-      "investmentCount": 9
+      "investmentCount": 8
     },
     {
       "cluster": "manufacturing-reshoring",
-      "investmentCount": 9
-    },
-    {
-      "cluster": "defense-ew-rf-cyber",
       "investmentCount": 8
     },
     {
       "cluster": "fusion-inertial-laser",
       "investmentCount": 7
+    },
+    {
+      "cluster": "defense-ew-rf-cyber",
+      "investmentCount": 6
     },
     {
       "cluster": "ai-drug-discovery",
@@ -3420,10 +3254,6 @@
     {
       "cluster": "ai-robotics-embodied",
       "investmentCount": 6
-    },
-    {
-      "cluster": "supersonic-hypersonic-transport",
-      "investmentCount": 5
     },
     {
       "cluster": "data-center-infrastructure",
@@ -3442,20 +3272,16 @@
       "investmentCount": 5
     },
     {
-      "cluster": "ai-autonomous-driving",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "robotics-cobots-warehouse",
-      "investmentCount": 5
-    },
-    {
       "cluster": "autonomy-maritime",
       "investmentCount": 5
     },
     {
       "cluster": "carbon-capture-utilization",
       "investmentCount": 5
+    },
+    {
+      "cluster": "supersonic-hypersonic-transport",
+      "investmentCount": 4
     },
     {
       "cluster": "semiconductor-advanced-materials",
@@ -3482,7 +3308,11 @@
       "investmentCount": 4
     },
     {
-      "cluster": "nuclear-microreactor",
+      "cluster": "ai-autonomous-driving",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "robotics-cobots-warehouse",
       "investmentCount": 4
     },
     {
@@ -3502,10 +3332,6 @@
       "investmentCount": 3
     },
     {
-      "cluster": "electric-propulsion",
-      "investmentCount": 3
-    },
-    {
       "cluster": "energy-storage-thermal-gravity",
       "investmentCount": 3
     },
@@ -3514,7 +3340,15 @@
       "investmentCount": 3
     },
     {
-      "cluster": "consumer-hardware",
+      "cluster": "nuclear-microreactor",
+      "investmentCount": 3
+    },
+    {
+      "cluster": "synfuels-solar",
+      "investmentCount": 3
+    },
+    {
+      "cluster": "fusion-magnetic-confinement",
       "investmentCount": 3
     }
   ]
