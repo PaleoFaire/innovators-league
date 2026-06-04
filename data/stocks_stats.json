@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -17.49,
+      "avg_change": -17.63,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -1.2,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.12,
       "count": 7
     },
     "nuclear": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -16.14
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
       -16.87
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -17.97
     ],
     [
       "SATL",
@@ -111,5 +111,5 @@
       -23.65
     ]
   ],
-  "lastUpdated": "2026-06-03 21:20:18"
+  "lastUpdated": "2026-06-04 04:23:39"
 }
