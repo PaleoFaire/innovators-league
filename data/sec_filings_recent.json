@@ -1596,9 +1596,9 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
-    "date": "2026-06-02",
-    "description": "xslF345X06/wk-form4_1780434549.xml",
-    "accessionNumber": "0002021786-26-000013",
+    "date": "2026-06-03",
+    "description": "xslF345X06/wk-form4_1780518303.xml",
+    "accessionNumber": "0001855623-26-000013",
     "isIPO": false
   },
   {
@@ -1608,6 +1608,15 @@
     "date": "2026-06-02",
     "description": "xslF345X06/wk-form4_1780434614.xml",
     "accessionNumber": "0002021433-26-000013",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-06-02",
+    "description": "xslF345X06/wk-form4_1780434549.xml",
+    "accessionNumber": "0002021786-26-000013",
     "isIPO": false
   },
   {
@@ -1911,6 +1920,24 @@
     "company": "C3.ai",
     "ticker": "AI",
     "form": "4",
+    "date": "2026-06-03",
+    "description": "xslF345X06/wk-form4_1780522981.xml",
+    "accessionNumber": "0001577526-26-000058",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "8-K",
+    "date": "2026-06-03",
+    "description": "ai-20260603.htm",
+    "accessionNumber": "0001577526-26-000056",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "4",
     "date": "2026-05-19",
     "description": "xslF345X06/wk-form4_1779231038.xml",
     "accessionNumber": "0001577526-26-000051",
@@ -2056,6 +2083,15 @@
     "ticker": "UPST",
     "form": "4",
     "date": "2026-06-02",
+    "description": "xslF345X06/wk-form4_1780432530.xml",
+    "accessionNumber": "0001440624-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-06-02",
     "description": "xslF345X06/wk-form4_1780432501.xml",
     "accessionNumber": "0001481735-26-000006",
     "isIPO": false
@@ -2094,15 +2130,6 @@
     "date": "2026-06-02",
     "description": "xslF345X06/wk-form4_1780432337.xml",
     "accessionNumber": "0001833761-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2026-06-02",
-    "description": "xslF345X06/wk-form4_1780432530.xml",
-    "accessionNumber": "0001440624-26-000005",
     "isIPO": false
   },
   {
@@ -2526,6 +2553,15 @@
     "date": "2026-03-17",
     "description": "bakkt-20260316.htm",
     "accessionNumber": "0001628280-26-018400",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
+    "date": "2026-06-03",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000801",
     "isIPO": false
   },
   {
@@ -4068,24 +4104,6 @@
     "isIPO": false
   },
   {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "10-K",
-    "date": "2026-03-05",
-    "description": "tlsi-20251231.htm",
-    "accessionNumber": "0001628280-26-015163",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "8-K",
-    "date": "2026-03-05",
-    "description": "tlsi-20260305.htm",
-    "accessionNumber": "0001628280-26-015155",
-    "isIPO": false
-  },
-  {
     "company": "Tempus AI",
     "ticker": "TEM",
     "form": "10-Q",
@@ -4425,51 +4443,6 @@
     "date": "2026-03-19",
     "description": "tm269292d1_8k.htm",
     "accessionNumber": "0001104659-26-031794",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-05",
-    "description": "xslF345X05/wk-form4_1772748676.xml",
-    "accessionNumber": "0001891517-26-000012",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-05",
-    "description": "xslF345X05/wk-form4_1772748653.xml",
-    "accessionNumber": "0001890925-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-05",
-    "description": "xslF345X05/wk-form4_1772748631.xml",
-    "accessionNumber": "0001262742-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-05",
-    "description": "xslF345X05/wk-form4_1772748609.xml",
-    "accessionNumber": "0001189130-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-05",
-    "description": "xslF345X05/wk-form4_1772748582.xml",
-    "accessionNumber": "0001943929-26-000005",
     "isIPO": false
   },
   {

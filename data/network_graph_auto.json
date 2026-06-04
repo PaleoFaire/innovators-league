@@ -986,11 +986,6 @@
       "thesisCluster": "autonomous-heavy-lift"
     },
     {
-      "id": "Groq",
-      "sector": "AI & Software",
-      "thesisCluster": "ai-foundation-models"
-    },
-    {
       "id": "Skild AI",
       "sector": "AI & Software",
       "thesisCluster": "ai-robotics-embodied"
@@ -3871,11 +3866,6 @@
       "thesisCluster": "defense-robotics-ai"
     },
     {
-      "id": "DZYNE Technologies",
-      "sector": "Defense & Security",
-      "thesisCluster": "autonomous-aircraft"
-    },
-    {
       "id": "SiFly",
       "sector": "Defense & Security",
       "thesisCluster": "non-china-drones"
@@ -4056,11 +4046,6 @@
       "thesisCluster": ""
     },
     {
-      "id": "CX2",
-      "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
       "id": "Windborne",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -4138,7 +4123,7 @@
     {
       "id": "Terra Industries",
       "sector": "Defense & Security",
-      "thesisCluster": ""
+      "thesisCluster": "defense-autonomous-systems"
     },
     {
       "id": "Wispr AI",
@@ -4183,11 +4168,6 @@
     {
       "id": "Halo",
       "sector": "Chips & Semiconductors",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Spartan",
-      "sector": "Defense & Security",
       "thesisCluster": ""
     },
     {
@@ -4278,6 +4258,186 @@
     {
       "id": "Code Metal",
       "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Project Omega",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "9 Mothers",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Albacore",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "American Housing Corporation",
+      "sector": "Housing & Construction",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Atom Limbs",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Bohr Systems",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Heaviside",
+      "sector": "Defense & Security",
+      "thesisCluster": "defense-munitions"
+    },
+    {
+      "id": "Maglut Heavy Industries",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mesh Optical Technologies",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Periodic Labs",
+      "sector": "AI & Software",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ulysses Ecosystem Engineering",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Western Chemicals",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zephyr Fusion",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lace Lithography",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Citra Space Corporation",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Star Catcher",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Union",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Swan",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Volund Manufacturing",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Foundry Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Odin Dynamics",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mind Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Vector Defense",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Westmag",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Voya Energy",
+      "sector": "Energy & Climate",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Inertia Enterprises",
+      "sector": "Energy & Climate",
+      "thesisCluster": ""
+    },
+    {
+      "id": "World Labs",
+      "sector": "AI & Software",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Foxglove",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "BlackSea Technologies",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CuspAI",
+      "sector": "AI & Software",
+      "thesisCluster": ""
+    },
+    {
+      "id": "HawkEye 360",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Strata Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Orbital Operations",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Orbital Inc.",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sift Stack",
+      "sector": "AI & Software",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SpaceX-alumni-hub",
+      "sector": "alumni",
       "thesisCluster": ""
     }
   ],
@@ -4440,11 +4600,6 @@
     {
       "src": "Cerebras",
       "dst": "Etched",
-      "type": "competitor"
-    },
-    {
-      "src": "Cerebras",
-      "dst": "Groq",
       "type": "competitor"
     },
     {
@@ -4965,11 +5120,6 @@
     {
       "src": "Hailo",
       "dst": "Mythic",
-      "type": "competitor"
-    },
-    {
-      "src": "Groq",
-      "dst": "Positron AI",
       "type": "competitor"
     },
     {
@@ -8832,6 +8982,18 @@
       "cluster": "defense-munitions"
     },
     {
+      "src": "Galadyne",
+      "dst": "Heaviside",
+      "type": "thesis",
+      "cluster": "defense-munitions"
+    },
+    {
+      "src": "Aeon Industrial",
+      "dst": "Heaviside",
+      "type": "thesis",
+      "cluster": "defense-munitions"
+    },
+    {
       "src": "BotBuilt",
       "dst": "Rugged Robotics",
       "type": "thesis",
@@ -9184,13 +9346,18 @@
       "dst": "Rondo Energy",
       "type": "thesis",
       "cluster": "thermal-storage"
+    },
+    {
+      "src": "SpaceX-alumni-hub",
+      "dst": "Orbital Operations",
+      "type": "alumni"
     }
   ],
   "counts": {
-    "total_nodes": 856,
-    "total_edges": 845,
-    "competitor_edges": 167,
-    "thesis_edges": 678,
-    "alumni_edges": 0
+    "total_nodes": 888,
+    "total_edges": 846,
+    "competitor_edges": 165,
+    "thesis_edges": 680,
+    "alumni_edges": 1
   }
 }

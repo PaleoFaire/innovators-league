@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T11:08:41.430553Z",
+  "generated_at": "2026-06-04T10:02:58.074744Z",
   "takes": [
     {
       "author": "Electrek",
@@ -20,6 +20,16 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone",
       "signal_type": "ipo"
+    },
+    {
+      "author": "The Robot Report",
+      "role": "Industry signal",
+      "company": "Mach Industries",
+      "text": "Autonomous defense manufacturer Mach Industries raises $300M",
+      "date": "Wed, 03 Ju",
+      "source": "news",
+      "source_url": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/",
+      "signal_type": "funding"
     },
     {
       "author": "Sifted",
@@ -52,16 +62,6 @@
       "signal_type": "ipo"
     },
     {
-      "author": "Crunchbase News",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic Nears $1T Valuation And Leapfrogs OpenAI On Unicorn Board With $65B Funding Round",
-      "date": "Thu, 28 Ma",
-      "source": "news",
-      "source_url": "https://news.crunchbase.com/ai/anthropic-nears-1t-valuation-65b-seriesh/",
-      "signal_type": "funding"
-    },
-    {
       "author": "Canary Media",
       "role": "Industry signal",
       "company": "Fervo Energy",
@@ -80,22 +80,12 @@
       "source": "news",
       "source_url": "https://news.crunchbase.com/public/ai-unicorn-anthropic-files-confidentially-for-ipo/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic Confidentially Files for What Could Be the Largest IPO Ever",
-      "date": "Mon, 01 Ju",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/",
-      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 9,
+    "from_news": 8,
     "from_press": 0
   }
 }

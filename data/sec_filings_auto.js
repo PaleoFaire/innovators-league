@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-03 11:07:39 UTC
+// Last updated: 2026-06-04 10:01:51 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-06-03", description: "xslF345X06/wk-form4_1780518303.xml", isIPO: false, ticker: "OKLO" },
+  { company: "C3.ai", form: "4", date: "2026-06-03", description: "xslF345X06/wk-form4_1780522981.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "8-K", date: "2026-06-03", description: "ai-20260603.htm", isIPO: false, ticker: "AI" },
+  { company: "Rigetti Computing", form: "4", date: "2026-06-03", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
   { company: "Palantir Technologies", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780445944.xml", isIPO: false, ticker: "PLTR" },
   { company: "Rocket Lab", form: "4", date: "2026-06-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-06-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
@@ -19,14 +23,14 @@ const SEC_FILINGS_LIVE = [
   { company: "NuScale Power", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780433431.xml", isIPO: false, ticker: "SMR" },
   { company: "NuScale Power", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780433325.xml", isIPO: false, ticker: "SMR" },
   { company: "NuScale Power", form: "8-K", date: "2026-06-02", description: "smr-20260529.htm", isIPO: false, ticker: "SMR" },
-  { company: "Oklo", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780434549.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780434614.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780434549.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432530.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432501.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432466.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432427.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432402.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432337.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432530.xml", isIPO: false, ticker: "UPST" },
   { company: "Rivian", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780431637.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-05-28", description: "spce-20260528.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Upstart Holdings", form: "8-K", date: "2026-05-28", description: "upst-20260528.htm", isIPO: false, ticker: "UPST" },
-  { company: "UiPath", form: "8-K", date: "2026-05-28", description: "path-20260528.htm", isIPO: false, ticker: "PATH" },
 ];
