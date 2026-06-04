@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T19:28:28.572103+00:00",
+  "generatedAt": "2026-06-04T21:49:20.786753+00:00",
   "date": "2026-06-04",
   "dateDisplay": "Thursday, June 04, 2026",
   "sections": {
@@ -81,30 +81,44 @@
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 34.4,
-        "changePercent": -24.74,
-        "change": -11.3
+        "price": 33.63,
+        "changePercent": -26.41,
+        "change": -12.07
       },
       {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 18.32,
-        "changePercent": 20.49,
-        "change": 3.12
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 117.93,
-        "changePercent": -20.33,
-        "change": -30.1
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 12.6,
+        "changePercent": -24.1,
+        "change": -4.0
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 107.99,
-        "changePercent": -18.86,
-        "change": -25.1
+        "price": 107.29,
+        "changePercent": -19.39,
+        "change": -25.8
+      },
+      {
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 18.12,
+        "changePercent": 19.21,
+        "change": 2.92
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 119.95,
+        "changePercent": -18.97,
+        "change": -28.08
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 8.14,
+        "changePercent": -17.36,
+        "change": -1.71
       },
       {
         "ticker": "9348.T",
@@ -114,25 +128,11 @@
         "change": -116.0
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 13.85,
-        "changePercent": -16.57,
-        "change": -2.75
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 8.4,
-        "changePercent": -14.72,
-        "change": -1.45
-      },
-      {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.94,
-        "changePercent": 14.53,
-        "change": 0.5
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 43.53,
+        "changePercent": -15.32,
+        "change": -7.87
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LUNR -24.7%"
+    "topMover": "LUNR -26.4%"
   }
 }

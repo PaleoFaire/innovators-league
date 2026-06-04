@@ -53881,23 +53881,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-04 19:28
+// Last updated: 2026-06-04 21:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Helion", headline: "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "A burglar used a Waymo to steal yoga clothes in San Francisco &#8212; and got away with it", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo's spent robotaxi batteries will be used as grid storage", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX's xAI  just bought another $269M of Tesla Megapacks", source: "Electrek", time: "6h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "Used Waymo robotaxi batteries become backup storage for power grids", source: "Ars Technica Space", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Waymo's retired robotaxi batteries are heading back to work", source: "Electrek", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons", source: "Wired", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Atom Computing", headline: "Microsoft, Atom Computing, EeroQ update their quantum computing progress", source: "Ars Technica Space", time: "21h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Mach Industries", headline: "Autonomous defense manufacturer Mach Industries raises $300M", source: "The Robot Report", time: "21h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "xAI", headline: "xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Blue Origin", headline: "Blue Origin Should Be Able to Launch Again By End of 2026", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic Funding Pushed Startup Investment To Near-Record Levels In May As Exit Market Reopened", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "What's Worth More Than Cash in San Francisco Real Estate? Anthropic Stock", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Oxford Quantum Circuits", headline: "Oxford Quantum Circuits lands 'coming-of-age' '260M funding round", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Humanoid", headline: "Vietnam's conglomerate Vingroup launches humanoid robots on global stage", source: "TechNode Global", time: "1d ago", impact: "medium", unread: false },
+  { id: 1, type: "funding", company: "Helion", headline: "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "A burglar used a Waymo to steal yoga clothes in San Francisco &#8212; and got away with it", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "AstroForge", headline: "AstroForge completes DeepSpace-2 spacecraft", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo's spent robotaxi batteries will be used as grid storage", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX's xAI  just bought another $269M of Tesla Megapacks", source: "Electrek", time: "8h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Waymo", headline: "Used Waymo robotaxi batteries become backup storage for power grids", source: "Ars Technica Space", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Waymo's retired robotaxi batteries are heading back to work", source: "Electrek", time: "10h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "SpaceX", headline: "SpaceX to raise at least $75 billion in IPO", source: "SpaceNews", time: "18h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons", source: "Wired", time: "20h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Atom Computing", headline: "Microsoft, Atom Computing update their quantum computing progress", source: "Ars Technica Space", time: "23h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Mach Industries", headline: "Autonomous defense manufacturer Mach Industries raises $300M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile sees New Glenn setback delaying initial commercial service into 2027", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "xAI", headline: "xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "Blue Origin", headline: "Blue Origin Should Be Able to Launch Again By End of 2026", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Muon Space", headline: "Muon Space unveils Starship-class satellite platform for orbital data centers", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
