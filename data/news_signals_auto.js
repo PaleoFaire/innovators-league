@@ -1,107 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-06-04T16:26:15.116Z
+// Last updated: 2026-06-04T19:28:18.582Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1780590375116,
+    "id": 1780601298582,
+    "type": "funding",
+    "company": "Helion",
+    "headline": "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "high",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/"
+  },
+  {
+    "id": 1780601298583,
     "type": "news",
     "company": "Waymo",
     "headline": "A burglar used a Waymo to steal yoga clothes in San Francisco &#8212; and got away with it",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/04/a-burglar-used-a-waymo-to-steal-yoga-clothes-in-sf-and-got-away-with-it/"
   },
   {
-    "id": 1780590375117,
+    "id": 1780601298584,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo&#8217;s spent robotaxi batteries will be used as grid storage",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/04/waymos-spent-robotaxi-batteries-will-be-used-as-grid-storage/"
   },
   {
-    "id": 1780590375118,
+    "id": 1780601298585,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX&#8217;s xAI  just bought another $269M of Tesla Megapacks",
     "source": "Electrek",
-    "time": "3h ago",
+    "time": "6h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://electrek.co/2026/06/04/spacex-xai-269-million-tesla-megapack-purchase-s1-filing/"
   },
   {
-    "id": 1780590375119,
+    "id": 1780601298586,
     "type": "news",
     "company": "Waymo",
     "headline": "Used Waymo robotaxi batteries become backup storage for power grids",
     "source": "Ars Technica Space",
-    "time": "5h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/"
   },
   {
-    "id": 1780590375120,
+    "id": 1780601298587,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo’s retired robotaxi batteries are heading back to work",
     "source": "Electrek",
-    "time": "5h ago",
+    "time": "8h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://electrek.co/2026/06/04/waymo-retired-robotaxi-batteries-are-heading-back-to-work-b2u/"
   },
   {
-    "id": 1780590375121,
+    "id": 1780601298588,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons",
     "source": "Wired",
-    "time": "15h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/"
   },
   {
-    "id": 1780590375122,
+    "id": 1780601298589,
     "type": "news",
     "company": "Atom Computing",
     "headline": "Microsoft, Atom Computing, EeroQ update their quantum computing progress",
     "source": "Ars Technica Space",
-    "time": "18h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/"
   },
   {
-    "id": 1780590375123,
+    "id": 1780601298590,
     "type": "funding",
     "company": "Mach Industries",
     "headline": "Autonomous defense manufacturer Mach Industries raises $300M",
     "source": "The Robot Report",
-    "time": "18h ago",
+    "time": "21h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/"
   },
   {
-    "id": 1780590375124,
+    "id": 1780601298591,
     "type": "news",
     "company": "xAI",
     "headline": "xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity",
     "source": "Wired",
-    "time": "21h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/xai-asks-court-to-strip-alleged-grok-deepfake-nudes-victims-of-anonymity/"
   },
   {
-    "id": 1780590375125,
+    "id": 1780601298592,
     "type": "hire",
     "company": "Blue Origin",
     "headline": "Blue Origin Should Be Able to Launch Again By End of 2026",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/06/blue-origin-should-be-able-to-launch-again-by-end-of-2026.html"
   },
   {
-    "id": 1780590375126,
+    "id": 1780601298593,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Anthropic Funding Pushed Startup Investment To Near-Record Levels In May As Exit Market Reopened",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/monthly-vc-funding-recap-ai-may-2026/"
   },
   {
-    "id": 1780590375127,
+    "id": 1780601298594,
     "type": "news",
     "company": "Anthropic",
     "headline": "What’s Worth More Than Cash in San Francisco Real Estate? Anthropic Stock",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/whats-worth-more-than-san-francisco-real-estate-anthropic-stock/"
   },
   {
-    "id": 1780590375128,
+    "id": 1780601298595,
     "type": "funding",
     "company": "Oxford Quantum Circuits",
     "headline": "Oxford Quantum Circuits lands “coming-of-age” £260M funding round",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/06/03/oxford-quantum-circuits-lands-coming-of-age-ps260m-funding-round/"
   },
   {
-    "id": 1780590375129,
+    "id": 1780601298596,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "Vietnam&#8217;s conglomerate Vingroup launches humanoid robots on global stage",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/06/03/vietnams-conglomerate-vingroup-launches-humanoid-robots-on-global-stage/"
   },
   {
-    "id": 1780590375130,
+    "id": 1780601298597,
     "type": "funding",
     "company": "SpaceX",
     "headline": "Morningstar Analyst Mostly Ignores SpaceX Biggest Current and Future Businesses",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/06/morningstar-analyst-mostly-ignores-spacex-biggest-current-and-future-businesses.html"
   },
   {
-    "id": 1780590375131,
+    "id": 1780601298598,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Rolls Out the Ojai!",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/06/02/waymo-rolls-out-the-ojai/"
   },
   {
-    "id": 1780590375132,
+    "id": 1780601298599,
     "type": "funding",
     "company": "Oxford Quantum Circuits",
     "headline": "Oxford Quantum Circuits raises blockbuster $350m Series C",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/oxford-quantum-circuits-series-c/"
   },
   {
-    "id": 1780590375133,
+    "id": 1780601298600,
     "type": "funding",
     "company": "Endurosat",
     "headline": "Spacetech EnduroSat eyes $200m Series C months after last round, sources say",
@@ -200,25 +211,14 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/endurosat-fundraise-spacetech/"
   },
   {
-    "id": 1780590375134,
+    "id": 1780601298601,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic Files Confidentially For IPO",
     "source": "Crunchbase News",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "high",
     "unread": false,
     "link": "https://news.crunchbase.com/public/ai-unicorn-anthropic-files-confidentially-for-ipo/"
-  },
-  {
-    "id": 1780590375135,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "An OpenAI model solved a famous math problem that stumped humans for 80 years",
-    "source": "Ars Technica Space",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/"
   }
 ];
