@@ -1,108 +1,109 @@
 {
-  "generatedAt": "2026-06-03T10:46:53+00:00",
+  "generatedAt": "2026-06-04T09:45:54+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 37,
-  "newExtractionsThisRun": 37,
+  "cohortSize": 32,
+  "newExtractionsThisRun": 32,
   "summary": {
-    "cleared": 21,
-    "changesProposed": 16,
+    "cleared": 23,
+    "changesProposed": 9,
     "unverifiable": 0
   },
   "cleared": [
-    "AnySignal",
+    "Astera Labs",
+    "Axiom Space",
+    "Blue Origin",
     "Crusoe Energy",
-    "Divergent",
-    "Durin",
+    "Deterrence",
     "Endurosat",
     "HEO",
-    "Hadrian",
     "Humanoid",
-    "Machina Labs",
-    "Matic Robotics",
-    "Orbital Composites",
+    "Muon Space",
+    "Oxford Quantum Circuits",
+    "Palantir",
     "Percepto",
+    "Photonic Inc",
     "Pivotal",
     "Quantum-Systems",
     "Rebellions",
-    "Solid Power",
+    "Rivian",
+    "Space Forge",
     "Standard Nuclear",
-    "True Anomaly",
     "Vast",
+    "Waymo",
     "X-Energy",
     "ideaForge"
   ],
   "changesProposed": [
     {
-      "name": "Astera Labs",
+      "name": "AST SpaceMobile",
       "current": {
-        "name": "Astera Labs",
-        "founder": "Jitendra Mohan, Sanjay Gajendra, Casey Morrison",
-        "location": "San Jose, CA",
+        "name": "AST SpaceMobile",
+        "founder": "Abel Avellan",
+        "location": "Midland, TX",
         "founded": 2017,
         "fundingStage": "Public",
-        "totalRaised": "$100M+",
-        "website": "https://asteralabs.com"
+        "totalRaised": "$2B+",
+        "website": "https://astspacemobile.com"
       },
       "verified": {
-        "name": "Astera Labs",
-        "description": "Fabless semiconductor manufacturer specializing in high-speed connectivity solutions for data centers and AI infrastructure. The company designs PCIe, CXL, Ethernet, and other semiconductor-based solutions to address data, memory, and networking bottlenecks.",
+        "name": "AST SpaceMobile",
+        "description": "Publicly traded satellite designer and manufacturer building the SpaceMobile constellation, a space-based cellular broadband network designed to connect directly to standard, unmodified smartphones to deliver 4G and 5G coverage globally.",
         "founders": [
-          "Jitendra Mohan",
-          "Sanjay Gajendra",
-          "Casey Morrison"
+          "Abel Avellan"
         ],
-        "location": "San Jose, California, United States",
+        "location": "Midland, Texas, U.S.",
         "founded_year": 2017,
         "current_stage": "Public",
-        "total_raised": null,
+        "total_raised": "$2B+",
         "valuation": null,
         "investors": [
-          "Intel Capital",
-          "Fidelity Investments",
-          "Sutter Hill Ventures"
+          "Vodafone",
+          "Rakuten",
+          "Samsung Next",
+          "American Tower",
+          "Cisneros"
         ],
-        "website": "https://asteralabs.com",
+        "website": "https://ast-science.com",
         "sources_per_field": {
           "name": [
             0,
-            1,
-            2
+            1
           ],
           "description": [
-            2
+            1
           ],
           "founders": [
-            0,
-            2
+            1
           ],
           "location": [
-            2
+            1
           ],
           "founded_year": [
-            2
+            1
           ],
           "current_stage": [
-            2
+            1
+          ],
+          "total_raised": [
+            1
           ],
           "investors": [
-            2
+            1
           ],
           "website": [
-            0,
-            1,
-            2
+            1
           ]
         },
-        "notes": "Company went public on Nasdaq (ticker: ALAB) in March 2024. Wikipedia source indicates initial founding location was Santa Clara, California in 2017, with headquarters later relocated to San Jose in June 2025. Sources 3 and 4 are unrelated news articles and were not used for verification."
+        "notes": "Founded as AST & Science LLC in May 2017; became AST SpaceMobile via SPAC merger in April 2021 and began trading on Nasdaq. Wikipedia lists website as ast-science.com while company website header shows astspacemobile.com; both are verified in sources."
       },
       "changes": [
         {
           "field": "location",
-          "current": "San Jose, CA",
-          "verified": "San Jose, California, United States",
+          "current": "Midland, TX",
+          "verified": "Midland, Texas, U.S.",
           "sources": [
-            2
+            1
           ]
         }
       ],
@@ -110,58 +111,51 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://asteralabs.com"
+          "url": "https://astspacemobile.com"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://asteralabs.com/about"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AST_SpaceMobile"
         },
         {
           "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Astera_Labs"
-        },
-        {
-          "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/morningstar-analyst-mostly-ignores-spacex-biggest-current-and-future-businesses.html"
-        },
-        {
-          "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/anthropic-costs-and-profit-margins.html"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/ast-spacemobile-sees-new-glenn-setback-delaying-initial-commercial-service-into-2027/"
         }
       ],
-      "notes": "Company went public on Nasdaq (ticker: ALAB) in March 2024. Wikipedia source indicates initial founding location was Santa Clara, California in 2017, with headquarters later relocated to San Jose in June 2025. Sources 3 and 4 are unrelated news articles and were not used for verification."
+      "notes": "Founded as AST & Science LLC in May 2017; became AST SpaceMobile via SPAC merger in April 2021 and began trading on Nasdaq. Wikipedia lists website as ast-science.com while company website header shows astspacemobile.com; both are verified in sources."
     },
     {
-      "name": "Axiom Space",
+      "name": "Atom Computing",
       "current": {
-        "name": "Axiom Space",
-        "founder": "Michael T. Suffredini, Kam Ghaffarian",
-        "location": "Houston, TX",
-        "founded": 2016,
-        "fundingStage": "Series C",
-        "totalRaised": "$350M",
-        "website": "https://axiomspace.com"
+        "name": "Atom Computing",
+        "founder": "Ben Bloom, Jonathan King",
+        "location": "Berkeley, CA",
+        "founded": 2018,
+        "fundingStage": "Series B",
+        "totalRaised": "$60M",
+        "website": "https://atom-computing.com"
       },
       "verified": {
-        "name": "Axiom Space",
-        "description": "American privately funded aerospace company developing commercial space station infrastructure and providing human spaceflight services. Operates missions to the International Space Station while developing Axiom Station, a modular commercial space station planned for the late 2020s.",
+        "name": "Atom Computing",
+        "description": "Quantum computing company developing gate-based quantum computers using arrays of optically-trapped neutral atoms. The company has announced over 1,000-qubit systems and is collaborating with Microsoft on fault-tolerant logical qubits.",
         "founders": [
-          "Michael T. Suffredini",
-          "Kam Ghaffarian"
+          "Ben Bloom",
+          "Jonathan King"
         ],
-        "location": "Houston, Texas, United States",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": "$350M",
+        "location": "Berkeley, California",
+        "founded_year": 2018,
+        "current_stage": "Series B",
+        "total_raised": "$60M",
         "valuation": null,
         "investors": [
-          "4iG Group"
+          "Innovation Endeavors",
+          "Venrock",
+          "Third Point Ventures",
+          "DCVC"
         ],
-        "website": "https://axiomspace.com",
+        "website": "https://atom-computing.com",
         "sources_per_field": {
           "name": [
             0,
@@ -169,6 +163,7 @@
             2
           ],
           "description": [
+            0,
             1,
             2
           ],
@@ -177,6 +172,7 @@
             2
           ],
           "location": [
+            0,
             1,
             2
           ],
@@ -185,261 +181,77 @@
             2
           ],
           "current_stage": [
+            1,
             2
           ],
           "total_raised": [
-            0
-          ],
-          "investors": [
+            1,
             2
           ],
-          "website": [
-            0,
+          "investors": [
             1
           ]
         },
-        "notes": "Source [0] announces $350M financing secured February 12, 2026. Source [2] reports December 2025 definitive agreement for $100M equity investment from 4iG Group in two tranches through March 2026. Valuation not found in sources. Michael Suffredini served as CEO and President until 2024; Jonathan W. Cirtain is current CEO as of source [1]."
+        "notes": "Wikipedia entry mentions Rob Hayes served as CEO in 2021, but company website identifies Ben Bloom as Founder & CEO and Rob Hays as CEO & President with different spelling. The database entry references a 2025 sale of Magne system to QuNorth, but this is not verified in provided sources. Company website shows press release dated May 21, 2026 regarding $100M Letter of Intent with U.S. Department of Commerce, and June 3, 2026 announcements about quantum error correction, indicating sources are from future dates relative to Wikipedia's last update."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Houston, TX",
-          "verified": "Houston, Texas, United States",
+          "current": "Berkeley, CA",
+          "verified": "Berkeley, California",
           "sources": [
+            0,
             1,
             2
           ]
-        },
-        {
-          "field": "fundingStage",
-          "current": "Series C",
-          "verified": "Private",
-          "sources": [
-            2
-          ]
         }
       ],
       "sources": [
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://axiomspace.com"
+          "url": "https://atom-computing.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://axiomspace.com/about"
+          "url": "https://atom-computing.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Axiom_Space"
+          "url": "https://en.wikipedia.org/wiki/Atom_Computing"
         },
         {
           "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/uk-explores-vast-space-station-mission-for-astronaut-with-physical-disability/"
-        },
-        {
-          "idx": 4,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/france-to-fly-two-astronauts-on-vast-missions/"
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/"
         }
       ],
-      "notes": "Source [0] announces $350M financing secured February 12, 2026. Source [2] reports December 2025 definitive agreement for $100M equity investment from 4iG Group in two tranches through March 2026. Valuation not found in sources. Michael Suffredini served as CEO and President until 2024; Jonathan W. Cirtain is current CEO as of source [1]."
-    },
-    {
-      "name": "Blue Origin",
-      "current": {
-        "name": "Blue Origin",
-        "founder": "Jeff Bezos",
-        "location": "Kent, WA",
-        "founded": 2000,
-        "fundingStage": "Private",
-        "totalRaised": "$10B+",
-        "website": "https://blueorigin.com"
-      },
-      "verified": {
-        "name": "Blue Origin",
-        "description": "Private American aerospace company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket. The company supplies engines for other vehicles and is developing the Blue Moon lunar lander for NASA's Artemis program.",
-        "founders": [
-          "Jeff Bezos"
-        ],
-        "location": "Kent, Washington, United States",
-        "founded_year": 2000,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://blueorigin.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists total_raised as $10B+ and valuation as $30B+, but these figures are not mentioned in provided sources. CEO is Dave Limp (as of September 2023). Company paused New Shepard tourism launches in January 2026 to focus on Artemis lunar landing efforts. New Glenn experienced catastrophic explosion on May 28, 2026 during static fire test."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Kent, WA",
-          "verified": "Kent, Washington, United States",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Blue_Origin"
-        },
-        {
-          "idx": 1,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/blue-origin-gets-national-security-launch-task-order-hours-before-new-glenn-explosion/"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/new-glenn-rocket-explodes-on-cape-canaveral-pad/"
-        }
-      ],
-      "notes": "Database entry lists total_raised as $10B+ and valuation as $30B+, but these figures are not mentioned in provided sources. CEO is Dave Limp (as of September 2023). Company paused New Shepard tourism launches in January 2026 to focus on Artemis lunar landing efforts. New Glenn experienced catastrophic explosion on May 28, 2026 during static fire test."
-    },
-    {
-      "name": "Deterrence",
-      "current": {
-        "name": "Deterrence",
-        "founder": "Dhruva Rajendra, Henry Olgers",
-        "location": "Fremont, CA",
-        "founded": 2023,
-        "fundingStage": "Seed",
-        "totalRaised": "$10M+",
-        "website": "https://deterrence.com"
-      },
-      "verified": {
-        "name": "Deterrence Defense, Inc.",
-        "description": "Builds autonomous manufacturing systems with robotics, multi-modal sensing, and AI-driven optimization for defense industrial production. The Armory\u2122 Platform enables continuous learning and process improvements across manufacturing facilities.",
-        "founders": [
-          "Dhruva Rajendra",
-          "Brian Jones",
-          "Henry Olgers"
-        ],
-        "location": null,
-        "founded_year": 2024,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://deterrence.com",
-        "sources_per_field": {
-          "name": [
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry listed founded year as 2023, but source [1] explicitly states company was 'Founded' in 2024. Source [1] identifies three founders (Dhruva Rajendra, Brian Jones, Henry Olgers); database entry listed only two (Dhruva Rajendra, Henry Olgers) and omitted Brian Jones. Location (Fremont, CA) and funding details from database entry could not be verified in provided sources. Sources [2] and [3] are about nuclear deterrence policy, not this company."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Dhruva Rajendra, Henry Olgers",
-          "verified": "Dhruva Rajendra, Brian Jones, Henry Olgers",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "founded",
-          "current": 2023,
-          "verified": 2024,
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://deterrence.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://deterrence.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (Defense News)",
-          "url": "https://www.defensenews.com/global/europe/2026/06/01/norway-becomes-ninth-country-to-sign-up-for-french-nuclear-deterrence-as-trust-in-us-falters/"
-        },
-        {
-          "idx": 3,
-          "src": "news (War on the Rocks)",
-          "url": "https://warontherocks.com/contriving-imaginary-gaps-in-nuclear-deterrence/"
-        },
-        {
-          "idx": 4,
-          "src": "news (War on the Rocks)",
-          "url": "https://warontherocks.com/practice-makes-deterrence-indias-next-nuclear-challenge-at-sea/"
-        }
-      ],
-      "notes": "Database entry listed founded year as 2023, but source [1] explicitly states company was 'Founded' in 2024. Source [1] identifies three founders (Dhruva Rajendra, Brian Jones, Henry Olgers); database entry listed only two (Dhruva Rajendra, Henry Olgers) and omitted Brian Jones. Location (Fremont, CA) and funding details from database entry could not be verified in provided sources. Sources [2] and [3] are about nuclear deterrence policy, not this company."
+      "notes": "Wikipedia entry mentions Rob Hayes served as CEO in 2021, but company website identifies Ben Bloom as Founder & CEO and Rob Hays as CEO & President with different spelling. The database entry references a 2025 sale of Magne system to QuNorth, but this is not verified in provided sources. Company website shows press release dated May 21, 2026 regarding $100M Letter of Intent with U.S. Department of Commerce, and June 3, 2026 announcements about quantum error correction, indicating sources are from future dates relative to Wikipedia's last update."
     },
     {
       "name": "Fervo Energy",
       "current": {
         "name": "Fervo Energy",
         "founder": "Tim Latimer, Jack Norbeck",
-        "location": "Houston, TX",
+        "location": "Houston, Texas, U.S.",
         "founded": 2017,
         "fundingStage": "IPO",
-        "totalRaised": "$1.89B",
+        "totalRaised": "$1.5B+",
         "website": "https://fervoenergy.com"
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. The company developed Project Red, its first commercial pilot geothermal plant, and is developing Cape Station in Utah.",
+        "description": "Geothermal energy company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling and distributed fiber optic sensing technologies. Operates Project Red demonstration facility in Nevada and is developing Cape Station in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
         ],
         "location": "Houston, Texas, U.S.",
         "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": "$1.5B+",
+        "current_stage": "Public",
+        "total_raised": "$1.89B",
         "valuation": null,
         "investors": [
           "B Capital",
@@ -450,109 +262,54 @@
         "website": "https://fervoenergy.com",
         "sources_per_field": {
           "name": [
-            0
+            0,
+            1,
+            2
           ],
           "description": [
-            0
+            0,
+            1,
+            2
           ],
           "founders": [
-            0
+            2
           ],
           "location": [
-            0
+            2
           ],
           "founded_year": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Wikipedia lists company as Private, contradicting database entry stating IPO stage. Sources [1] and [2] reference IPO but provide no detail in provided excerpts. Most recent funding was Series E ($462M) in November 2025 led by B Capital. Database entry claims $1.89B total raised; Wikipedia states 'over $1.5 billion in equity, debt and grant funding' as of the Series E announcement."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Houston, TX",
-          "verified": "Houston, Texas, U.S.",
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$1.89B",
-          "verified": "$1.5B+",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
-        },
-        {
-          "idx": 1,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
-        },
-        {
-          "idx": 2,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
-        }
-      ],
-      "notes": "Wikipedia lists company as Private, contradicting database entry stating IPO stage. Sources [1] and [2] reference IPO but provide no detail in provided excerpts. Most recent funding was Series E ($462M) in November 2025 led by B Capital. Database entry claims $1.89B total raised; Wikipedia states 'over $1.5 billion in equity, debt and grant funding' as of the Series E announcement."
-    },
-    {
-      "name": "Focused Energy",
-      "current": {
-        "name": "Focused Energy",
-        "founder": "Thomas Forner, Markus Roth",
-        "location": "Austin, TX",
-        "founded": 2021,
-        "fundingStage": "Series A",
-        "totalRaised": "$80M+",
-        "website": null
-      },
-      "verified": {
-        "name": "Focused Energy",
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": "Series A",
-        "total_raised": "$240M",
-        "valuation": null,
-        "investors": null,
-        "website": null,
-        "sources_per_field": {
-          "name": [
-            0
+            2
           ],
           "current_stage": [
             0
           ],
           "total_raised": [
             0
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
           ]
         },
-        "notes": "Only one source provided; insufficient to verify founders, location, founded_year, investors, website, or description. The $240M figure from source [0] contradicts the database entry of '$80M+'. Source [0] headline explicitly states '$240M Series A'."
+        "notes": "Company went public on May 17, 2026 (per source 0 newsroom articles dated May 17, 2026). Wikipedia source [2] lists company type as 'Private' but this predates the IPO announcement in source [0]. IPO raised $1.89B according to source [0] headline. Series E funding of $462M mentioned in source [2] from November 2025, but total_raised figure of $1.89B from IPO is more recent."
       },
       "changes": [
         {
+          "field": "fundingStage",
+          "current": "IPO",
+          "verified": "Public",
+          "sources": [
+            0
+          ]
+        },
+        {
           "field": "totalRaised",
-          "current": "$80M+",
-          "verified": "$240M",
+          "current": "$1.5B+",
+          "verified": "$1.89B",
           "sources": [
             0
           ]
@@ -561,33 +318,53 @@
       "sources": [
         {
           "idx": 0,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/02/focused-energy-raises-whopping-240m-series-a-for-laser-powered-fusion-tech/"
+          "src": "company_website",
+          "url": "https://fervoenergy.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://fervoenergy.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
+        },
+        {
+          "idx": 3,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
+        },
+        {
+          "idx": 4,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
         }
       ],
-      "notes": "Only one source provided; insufficient to verify founders, location, founded_year, investors, website, or description. The $240M figure from source [0] contradicts the database entry of '$80M+'. Source [0] headline explicitly states '$240M Series A'."
+      "notes": "Company went public on May 17, 2026 (per source 0 newsroom articles dated May 17, 2026). Wikipedia source [2] lists company type as 'Private' but this predates the IPO announcement in source [0]. IPO raised $1.89B according to source [0] headline. Series E funding of $462M mentioned in source [2] from November 2025, but total_raised figure of $1.89B from IPO is more recent."
     },
     {
       "name": "Impulse Space",
       "current": {
         "name": "Impulse Space",
         "founder": "Tom Mueller",
-        "location": "Redondo Beach, CA",
+        "location": "Redondo Beach, California, United States",
         "founded": 2021,
-        "fundingStage": "Series C",
-        "totalRaised": "$525M",
+        "fundingStage": "SPAC",
+        "totalRaised": "$1.025B",
         "website": "https://impulsespace.com"
       },
       "verified": {
         "name": "Impulse Space",
-        "description": "A space company developing in-space transportation technology including orbital transfer vehicles (Mira and Helios) and rocket engines to move satellites and payloads throughout space.",
+        "description": "Develops in-space mobility infrastructure including orbital transfer vehicles (Helios, Mira) and spacecraft propulsion systems to transport payloads across and between orbits.",
         "founders": [
           "Tom Mueller"
         ],
         "location": "Redondo Beach, California, United States",
         "founded_year": 2021,
-        "current_stage": "Series D",
-        "total_raised": "$1.025B",
+        "current_stage": null,
+        "total_raised": "$1.525B",
         "valuation": null,
         "investors": [
           "Founders Fund",
@@ -619,9 +396,6 @@
             1,
             2
           ],
-          "current_stage": [
-            1
-          ],
           "total_raised": [
             1,
             3
@@ -630,30 +404,13 @@
             2
           ]
         },
-        "notes": "Series D funding of $500M was raised in June 2026 (per source [1] press release dated JUN 3 2026). Total raised calculation: $30M seed (2022) + $45M Series A (2023) + $150M Series B (2024) + $300M Series C (2025) + $500M Series D (2026) = $1.025B. Database entry listed $300M Series C as most recent but sources indicate Series D occurred in 2026."
+        "notes": "Source [1] shows funding progression: $30M seed (2022), $45M Series A (2023), $150M Series B (2024), $300M Series C (2025), and $500M Series D (2026). Total verified: $1.025B + $500M = $1.525B. Current stage cannot be verified from sources (database entry lists 'SPAC' but this is not confirmed in sources). Valuation not stated in sources."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Redondo Beach, CA",
-          "verified": "Redondo Beach, California, United States",
-          "sources": [
-            1,
-            2
-          ]
-        },
-        {
-          "field": "fundingStage",
-          "current": "Series C",
-          "verified": "Series D",
-          "sources": [
-            1
-          ]
-        },
-        {
           "field": "totalRaised",
-          "current": "$525M",
-          "verified": "$1.025B",
+          "current": "$1.025B",
+          "verified": "$1.525B",
           "sources": [
             1,
             3
@@ -682,322 +439,55 @@
           "url": "https://spacenews.com/impulse-space-raises-500-million/"
         }
       ],
-      "notes": "Series D funding of $500M was raised in June 2026 (per source [1] press release dated JUN 3 2026). Total raised calculation: $30M seed (2022) + $45M Series A (2023) + $150M Series B (2024) + $300M Series C (2025) + $500M Series D (2026) = $1.025B. Database entry listed $300M Series C as most recent but sources indicate Series D occurred in 2026."
+      "notes": "Source [1] shows funding progression: $30M seed (2022), $45M Series A (2023), $150M Series B (2024), $300M Series C (2025), and $500M Series D (2026). Total verified: $1.025B + $500M = $1.525B. Current stage cannot be verified from sources (database entry lists 'SPAC' but this is not confirmed in sources). Valuation not stated in sources."
     },
     {
-      "name": "Observable Space",
+      "name": "Mach Industries",
       "current": {
-        "name": "Observable Space",
-        "founder": "Dan Roelker, Rick Hedrick",
-        "location": "Los Angeles, CA",
-        "founded": 2025,
-        "fundingStage": "Series A",
-        "totalRaised": "$20M+",
-        "website": null
+        "name": "Mach Industries",
+        "founder": "Ethan Thornton",
+        "location": "Huntington Beach, CA",
+        "founded": 2023,
+        "fundingStage": "Series B",
+        "totalRaised": "$100M+",
+        "website": "https://machindustries.com"
       },
       "verified": {
-        "name": "Observable Space",
-        "description": "A company that develops optical systems for laser communications and space domain awareness.",
+        "name": "Mach Industries",
+        "description": "Aerospace and defense company developing vertical takeoff cruise missiles, unmanned systems, and propulsion components for defense applications.",
         "founders": null,
         "location": null,
         "founded_year": null,
         "current_stage": null,
-        "total_raised": "$90M",
-        "valuation": null,
+        "total_raised": "$300M",
+        "valuation": "$1.8B",
         "investors": null,
-        "website": null,
+        "website": "https://machindustries.com",
         "sources_per_field": {
           "name": [
             0
           ],
           "description": [
-            0
-          ],
-          "total_raised": [
-            0
-          ]
-        },
-        "notes": "Only one source provided. Unable to verify: founders (Dan Roelker, Rick Hedrick), location (Los Angeles, CA), founded year (2025), current stage (Series A), or investors. Database entry claims $20M+ but source states $90M raised\u2014using verified figure from source."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$20M+",
-          "verified": "$90M",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/observable-space-raises-90-million-and-wins-space-force-contract-for-optical-systems/"
-        }
-      ],
-      "notes": "Only one source provided. Unable to verify: founders (Dan Roelker, Rick Hedrick), location (Los Angeles, CA), founded year (2025), current stage (Series A), or investors. Database entry claims $20M+ but source states $90M raised\u2014using verified figure from source."
-    },
-    {
-      "name": "Oxford Quantum Circuits",
-      "current": {
-        "name": "Oxford Quantum Circuits",
-        "founder": "Peter Leek",
-        "location": "Oxford, UK",
-        "founded": 2017,
-        "fundingStage": "Series B",
-        "totalRaised": "$100M+",
-        "website": "https://oxfordquantumcircuits.com"
-      },
-      "verified": {
-        "name": "Oxford Quantum Circuits",
-        "description": "Builds superconducting quantum computers using proprietary Coaxmon architecture and dual-rail Dimon qubit technology. Europe's first Quantum-Compute-as-a-Service provider and first to deploy quantum computers into commercial data centres.",
-        "founders": [
-          "Peter Leek"
-        ],
-        "location": "Oxford, UK",
-        "founded_year": 2017,
-        "current_stage": "Series C",
-        "total_raised": "$350M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://oxfordquantumcircuits.com",
-        "sources_per_field": {
-          "name": [
             0,
             1
           ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            0,
-            3
-          ],
           "total_raised": [
-            3
+            2
+          ],
+          "valuation": [
+            0
           ],
           "website": [
             0
           ]
         },
-        "notes": "Source [2] mentions \u00a3260M funding round (approximately $330M USD equivalent), but source [3] (more recent, Sifted) reports $350M Series C, which is preferred as most specific and recent. Database entry mentioned Ilana Wisby stepping down as CEO in May 2024 and Gerald Mullally as interim CEO, but these details cannot be verified from provided sources."
+        "notes": "Valuation of $1.8B cited in TechCrunch article linked on company website (source 0). Most recent funding round of $300M from source 2. Database entry lists founder 'Ethan Thornton' but this is not explicitly stated in provided sources as founder/co-founder. Founded year 2023 in database cannot be verified from sources. Location 'Huntington Beach, CA' cannot be verified from sources."
       },
       "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series B",
-          "verified": "Series C",
-          "sources": [
-            0,
-            3
-          ]
-        },
         {
           "field": "totalRaised",
           "current": "$100M+",
-          "verified": "$350M",
-          "sources": [
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://oxfordquantumcircuits.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://oxfordquantumcircuits.com/company"
-        },
-        {
-          "idx": 2,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/06/03/oxford-quantum-circuits-lands-coming-of-age-ps260m-funding-round/"
-        },
-        {
-          "idx": 3,
-          "src": "news (Sifted)",
-          "url": "https://sifted.eu/articles/oxford-quantum-circuits-series-c/"
-        }
-      ],
-      "notes": "Source [2] mentions \u00a3260M funding round (approximately $330M USD equivalent), but source [3] (more recent, Sifted) reports $350M Series C, which is preferred as most specific and recent. Database entry mentioned Ilana Wisby stepping down as CEO in May 2024 and Gerald Mullally as interim CEO, but these details cannot be verified from provided sources."
-    },
-    {
-      "name": "Palantir",
-      "current": {
-        "name": "Palantir",
-        "founder": "Peter Thiel, Alex Karp, Stephen Cohen, Joe Lonsdale, Nathan Gettings",
-        "location": "Miami, FL",
-        "founded": 2003,
-        "fundingStage": "Public",
-        "totalRaised": "$3B+ (pre-IPO)",
-        "website": "https://palantir.com"
-      },
-      "verified": {
-        "name": "Palantir Technologies Inc.",
-        "description": "An American publicly traded company that develops data integration and analytics software. The company's customer base includes federal agencies, state and local governments, international organizations, and private companies.",
-        "founders": [
-          "Peter Thiel",
-          "Stephen Cohen",
-          "Alex Karp",
-          "Joe Lonsdale",
-          "Nathan Gettings"
-        ],
-        "location": "Miami, Florida, U.S.",
-        "founded_year": 2003,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "In-Q-Tel",
-          "Oakhouse Partners",
-          "REV"
-        ],
-        "website": "https://palantir.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1], [2], and [3] are about unrelated companies (Vast, Impulse Space) and contain no information about Palantir. Only source [0] (Wikipedia) provides verified information about Palantir. Total raised amount and current valuation cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Miami, FL",
-          "verified": "Miami, Florida, U.S.",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Palantir"
-        },
-        {
-          "idx": 1,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/uk-explores-vast-space-station-mission-for-astronaut-with-physical-disability/"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/impulse-space-raises-500-million/"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/france-to-fly-two-astronauts-on-vast-missions/"
-        }
-      ],
-      "notes": "Source [1], [2], and [3] are about unrelated companies (Vast, Impulse Space) and contain no information about Palantir. Only source [0] (Wikipedia) provides verified information about Palantir. Total raised amount and current valuation cannot be verified from provided sources."
-    },
-    {
-      "name": "Rivian",
-      "current": {
-        "name": "Rivian",
-        "founder": "R. J. Scaringe",
-        "location": "Irvine, CA",
-        "founded": 2009,
-        "fundingStage": "Public",
-        "totalRaised": "$13.5B",
-        "website": "https://rivian.com"
-      },
-      "verified": {
-        "name": "Rivian",
-        "description": "American electric vehicle manufacturer that produces electric pickup trucks (R1T), SUVs (R1S), and delivery vans on a skateboard platform. The company went public in November 2021.",
-        "founders": [
-          "R. J. Scaringe"
-        ],
-        "location": "Irvine, California",
-        "founded_year": 2009,
-        "current_stage": "Public",
-        "total_raised": "$13.5B",
-        "valuation": null,
-        "investors": [
-          "Amazon",
-          "Abdul Latif Jameel",
-          "Volkswagen Group",
-          "Ford Motor Company"
-        ],
-        "website": "https://rivian.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Wikipedia states company was 'founded in Rockledge, Florida in 2009' but is now 'based in Irvine, California.' Founded as Mainstream Motors, renamed to Avera Automotive, then Rivian Automotive in 2011. Current database entry lists Irvine as location; Wikipedia confirms this is current headquarters. IPO occurred November 10, 2021 at $78.00 per share, valued at $66.5 billion initially. Ford reduced stake from 12% to approximately 1.6% by end of 2022."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Irvine, CA",
-          "verified": "Irvine, California",
+          "verified": "$300M",
           "sources": [
             2
           ]
@@ -1007,183 +497,79 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://rivian.com"
+          "url": "https://machindustries.com"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://rivian.com/about"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mach_Industries"
         },
         {
           "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Rivian"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/27/rivian-r2-officially-launches-june-9-order-invites-first-deliveries-demo-drives/"
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/"
         }
       ],
-      "notes": "Wikipedia states company was 'founded in Rockledge, Florida in 2009' but is now 'based in Irvine, California.' Founded as Mainstream Motors, renamed to Avera Automotive, then Rivian Automotive in 2011. Current database entry lists Irvine as location; Wikipedia confirms this is current headquarters. IPO occurred November 10, 2021 at $78.00 per share, valued at $66.5 billion initially. Ford reduced stake from 12% to approximately 1.6% by end of 2022."
+      "notes": "Valuation of $1.8B cited in TechCrunch article linked on company website (source 0). Most recent funding round of $300M from source 2. Database entry lists founder 'Ethan Thornton' but this is not explicitly stated in provided sources as founder/co-founder. Founded year 2023 in database cannot be verified from sources. Location 'Huntington Beach, CA' cannot be verified from sources."
     },
     {
-      "name": "Skeleton Technologies",
+      "name": "Mara",
       "current": {
-        "name": "Skeleton Technologies",
-        "founder": "Taavi Madiberk",
-        "location": "Tallinn, Estonia",
-        "founded": 2009,
-        "fundingStage": "Series E",
-        "totalRaised": "$200M+",
+        "name": "Mara",
+        "founder": "Daniel Kofman",
+        "location": "San Francisco, CA",
+        "founded": 2024,
+        "fundingStage": "Seed",
+        "totalRaised": "",
         "website": null
       },
       "verified": {
-        "name": "Skeleton Technologies",
-        "description": "Estonian energy storage developer and manufacturer of graphene-based supercapacitors for transportation, grid, and industrial applications. Operates manufacturing facilities in Germany and Estonia with headquarters in Tallinn.",
-        "founders": [
-          "Oliver Ahlberg",
-          "Taavi Madiberk",
-          "Jaan Leis",
-          "Anti Perkson"
-        ],
-        "location": "Tallinn, Estonia",
-        "founded_year": 2009,
-        "current_stage": null,
+        "name": null,
+        "description": null,
+        "founders": null,
+        "location": "Hallandale Beach, Florida",
+        "founded_year": null,
+        "current_stage": "Public",
         "total_raised": null,
         "valuation": null,
-        "investors": [
-          "Siemens",
-          "Marubeni",
-          "CBMM",
-          "KIC InnoEnergy",
-          "European Innovation Council"
-        ],
-        "website": null,
+        "investors": null,
+        "website": "https://mara.com",
         "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
           "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "investors": [
-            2
-          ]
-        },
-        "notes": "Sources 0 and 1 are domain sale pages for skeletontechnologies.com and do not contain company information. All verified information extracted from Wikipedia source [2]. The most recent financing mentioned in Wikipedia is 108 million euros raised in 2023 from Siemens, Marubeni, and CBMM, but this is described as part of scale-up rather than a defined funding round stage."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Taavi Madiberk",
-          "verified": "Oliver Ahlberg, Taavi Madiberk, Jaan Leis, Anti Perkson",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://skeletontechnologies.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://skeletontechnologies.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Skeleton_Technologies"
-        },
-        {
-          "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/06/02/backed-by-mistral-ai-founders-np-company-secures-eur6m-pre-seed-to-advance-ai-for-engineering/"
-        }
-      ],
-      "notes": "Sources 0 and 1 are domain sale pages for skeletontechnologies.com and do not contain company information. All verified information extracted from Wikipedia source [2]. The most recent financing mentioned in Wikipedia is 108 million euros raised in 2023 from Siemens, Marubeni, and CBMM, but this is described as part of scale-up rather than a defined funding round stage."
-    },
-    {
-      "name": "Space Forge",
-      "current": {
-        "name": "Space Forge",
-        "founder": "Joshua Western, Andrew Bacon",
-        "location": "Cardiff, UK",
-        "founded": 2018,
-        "fundingStage": "Series A",
-        "totalRaised": "$22.6M",
-        "website": "https://spaceforge.co.uk"
-      },
-      "verified": {
-        "name": "Space Forge",
-        "description": "British aerospace manufacturing company developing reusable on-orbit fabrication capabilities to enable production of semiconductors and alloys in microgravity using the ForgeStar platform.",
-        "founders": [
-          "Joshua Western",
-          "Andrew Bacon"
-        ],
-        "location": "Cardiff, United Kingdom",
-        "founded_year": 2018,
-        "current_stage": "Series A",
-        "total_raised": "$22.6M",
-        "valuation": null,
-        "investors": [
-          "Type One Ventures",
-          "Space Fund",
-          "NATO Innovation Fund",
-          "World Fund",
-          "British Business Bank"
-        ],
-        "website": "https://spaceforge.co.uk",
-        "sources_per_field": {
-          "name": [
-            0,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
+            0
           ],
           "current_stage": [
-            2
+            0
           ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
+          "website": [
+            0
           ]
         },
-        "notes": "Series A funding of \u00a322.6 million announced in July 2024 per Wikipedia. ForgeStar-0 failed to achieve orbit on 9 January 2023; ForgeStar-1 successfully launched 27 June 2025."
+        "notes": "Database entry describes 'Mara' as autonomous robotic defense systems company, but sources [0] and [1] describe MARA Holdings Inc. as a digital energy/AI infrastructure company operating data centers and power systems (NASDAQ: MARA, publicly traded). Source [2] references Mach Industries (different company), not MARA. No founder 'Daniel Kofman' mentioned in sources. No founded year 2024 found. Database entry appears to describe a different company entirely."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Cardiff, UK",
-          "verified": "Cardiff, United Kingdom",
+          "current": "San Francisco, CA",
+          "verified": "Hallandale Beach, Florida",
           "sources": [
-            2
+            0
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Seed",
+          "verified": "Public",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://mara.com",
+          "sources": [
+            0
           ]
         }
       ],
@@ -1191,32 +577,27 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://spaceforge.co.uk"
+          "url": "https://mara.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://spaceforge.co.uk/team"
+          "url": "https://mara.com/about-us"
         },
         {
           "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Space_Forge"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/faa-documents-outline-spacex-plans-for-starfall-reentry-vehicles/"
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/"
         }
       ],
-      "notes": "Series A funding of \u00a322.6 million announced in July 2024 per Wikipedia. ForgeStar-0 failed to achieve orbit on 9 January 2023; ForgeStar-1 successfully launched 27 June 2025."
+      "notes": "Database entry describes 'Mara' as autonomous robotic defense systems company, but sources [0] and [1] describe MARA Holdings Inc. as a digital energy/AI infrastructure company operating data centers and power systems (NASDAQ: MARA, publicly traded). Source [2] references Mach Industries (different company), not MARA. No founder 'Daniel Kofman' mentioned in sources. No founded year 2024 found. Database entry appears to describe a different company entirely."
     },
     {
       "name": "SpaceX",
       "current": {
         "name": "SpaceX",
         "founder": "Elon Musk",
-        "location": "Starbase, TX",
+        "location": "Starbase, Texas, U.S.",
         "founded": 2002,
         "fundingStage": "Series G",
         "totalRaised": "$10B+",
@@ -1224,13 +605,13 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace, telecommunications, and artificial intelligence company that manufactures rockets, spacecraft, and satellite systems. Headquartered at Starbase in Texas and founded in 2002, SpaceX develops reusable launch vehicles and operates the Starlink satellite internet constellation.",
+        "description": "SpaceX is a private American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Starbase, Texas. The company develops reusable launch vehicles, spacecraft, and satellite constellation technology.",
         "founders": [
           "Elon Musk"
         ],
         "location": "Starbase, Texas, U.S.",
         "founded_year": 2002,
-        "current_stage": "Private",
+        "current_stage": "Pre-IPO",
         "total_raised": null,
         "valuation": "$800B",
         "investors": null,
@@ -1261,21 +642,13 @@
             1
           ]
         },
-        "notes": "Source 0 is a domain sales page and provides no company information. Source 1 (Wikipedia) states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was 'valued SpaceX at $800 billion' based on a 2025 share offer. Current database entry lists 'Series G' stage and '$10B+' raised, but sources do not specify funding stage or total capital raised with sufficient detail to verify these claims."
+        "notes": "Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes 'a 2025 offer to buy internal shares valued SpaceX at $800 billion.' Source [2] references a planned IPO raising at least $75B with valuation over $1.75T, but this appears to be speculative/projected and conflicts with the verified $800B valuation from actual internal share offers cited in Wikipedia. Total_raised field set to null because sources do not provide a specific cumulative fundraising amount."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Starbase, TX",
-          "verified": "Starbase, Texas, U.S.",
-          "sources": [
-            1
-          ]
-        },
-        {
           "field": "fundingStage",
           "current": "Series G",
-          "verified": "Private",
+          "verified": "Pre-IPO",
           "sources": [
             1
           ]
@@ -1294,28 +667,145 @@
         },
         {
           "idx": 2,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/morningstar-analyst-mostly-ignores-spacex-biggest-current-and-future-businesses.html"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-to-raise-at-least-75-billion-in-ipo/"
         },
         {
           "idx": 3,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/muon-space-unveils-starship-class-satellite-platform-for-orbital-data-centers/"
         },
         {
           "idx": 4,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/05/will-the-us-golden-dome-be-golden-for-10-30b-per-year-for-spacex.html"
+          "url": "https://www.nextbigfuture.com/2026/06/morningstar-analyst-mostly-ignores-spacex-biggest-current-and-future-businesses.html"
         }
       ],
-      "notes": "Source 0 is a domain sales page and provides no company information. Source 1 (Wikipedia) states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and was 'valued SpaceX at $800 billion' based on a 2025 share offer. Current database entry lists 'Series G' stage and '$10B+' raised, but sources do not specify funding stage or total capital raised with sufficient detail to verify these claims."
+      "notes": "Wikipedia states SpaceX 'is expected to have an initial public offering (IPO) in 2026' and notes 'a 2025 offer to buy internal shares valued SpaceX at $800 billion.' Source [2] references a planned IPO raising at least $75B with valuation over $1.75T, but this appears to be speculative/projected and conflicts with the verified $800B valuation from actual internal share offers cited in Wikipedia. Total_raised field set to null because sources do not provide a specific cumulative fundraising amount."
+    },
+    {
+      "name": "Starcloud",
+      "current": {
+        "name": "Starcloud",
+        "founder": "Philip Johnston, Ezra Feilden, Adi Oltean",
+        "location": "Redmond, WA",
+        "founded": 2024,
+        "fundingStage": "SPAC",
+        "totalRaised": "$170M",
+        "website": "https://www.starcloud.com"
+      },
+      "verified": {
+        "name": "Starcloud",
+        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. Launched Starcloud-1 satellite with Nvidia H100 GPU in November 2025.",
+        "founders": [
+          "Philip Johnston",
+          "Ezra Feilden",
+          "Adi Oltean"
+        ],
+        "location": "Redmond, Washington, USA",
+        "founded_year": 2024,
+        "current_stage": "Series A",
+        "total_raised": "$170M",
+        "valuation": "$1.1B",
+        "investors": [
+          "Benchmark",
+          "EQT Ventures",
+          "Sequoia",
+          "A16z",
+          "In-Q-Tel",
+          "NFX",
+          "Plug and Play",
+          "Y Combinator"
+        ],
+        "website": "https://www.starcloud.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            0,
+            1,
+            2
+          ],
+          "location": [
+            0,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            2
+          ]
+        },
+        "notes": "Originally founded as Lumen Orbit in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Became fastest unicorn in Y Combinator history at 17 months after completing program (March 2026). Series A funding announced March 30, 2026."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Redmond, WA",
+          "verified": "Redmond, Washington, USA",
+          "sources": [
+            0,
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "SPAC",
+          "verified": "Series A",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.starcloud.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.starcloud.com/about-us"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Starcloud"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/muon-space-unveils-starship-class-satellite-platform-for-orbital-data-centers/"
+        }
+      ],
+      "notes": "Originally founded as Lumen Orbit in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Became fastest unicorn in Y Combinator history at 17 months after completing program (March 2026). Series A funding announced March 30, 2026."
     },
     {
       "name": "Varda Space Industries",
       "current": {
         "name": "Varda Space Industries",
         "founder": "Will Bruey, Delian Asparouhov",
-        "location": "El Segundo, CA",
+        "location": "El Segundo, California, United States",
         "founded": 2021,
         "fundingStage": "Series C",
         "totalRaised": "$131M",
@@ -1323,7 +813,7 @@
       },
       "verified": {
         "name": "Varda Space Industries",
-        "description": "An American space manufacturing company that designs, builds, and flies spacecraft to process pharmaceuticals in microgravity and return them to Earth via reentry capsules. The company focuses on small molecule crystallization and targets applications in pharmaceuticals, fiber optics, and computer chips.",
+        "description": "American privately held space manufacturing company that designs, builds, and flies spacecraft to process pharmaceuticals in microgravity and return them to Earth via reentry capsules.",
         "founders": [
           "Will Bruey",
           "Delian Asparouhov"
@@ -1373,26 +863,11 @@
           "investors": [
             1,
             2
-          ],
-          "website": [
-            0,
-            1,
-            2
           ]
         },
-        "notes": "Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry lists $187M Series C, but this is not verified in provided sources. Most recent verified funding is $90M Series B from April 2024 per source [2]."
+        "notes": "Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry claims Series C with $187M, but this cannot be verified in provided sources. Latest verifiable funding round from sources is Series B ($90M in April 2024)."
       },
       "changes": [
-        {
-          "field": "location",
-          "current": "El Segundo, CA",
-          "verified": "El Segundo, California, United States",
-          "sources": [
-            0,
-            1,
-            2
-          ]
-        },
         {
           "field": "fundingStage",
           "current": "Series C",
@@ -1429,112 +904,7 @@
           "url": "https://www.fiercebiotech.com/biotech/asco-telix-tees-pivotal-test-pluvicto-challenger-while-eyeing-white-space-radio-therapy"
         }
       ],
-      "notes": "Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry lists $187M Series C, but this is not verified in provided sources. Most recent verified funding is $90M Series B from April 2024 per source [2]."
-    },
-    {
-      "name": "Waymo",
-      "current": {
-        "name": "Waymo",
-        "founder": "Sebastian Thrun, Anthony Levandowski",
-        "location": "Mountain View, CA",
-        "founded": 2016,
-        "fundingStage": "Pre-IPO",
-        "totalRaised": "$16B+",
-        "website": "https://waymo.com"
-      },
-      "verified": {
-        "name": "Waymo",
-        "description": "An autonomous driving technology company that operates public commercial robotaxi services in multiple US metropolitan areas and internationally. As of March 2026, Waymo operates in 10 US metropolitan areas with over 3,700 robotaxis in service, providing 500,000 paid rides per week.",
-        "founders": [
-          "Sebastian Thrun",
-          "Anthony Levandowski"
-        ],
-        "location": "Mountain View, California",
-        "founded_year": 2016,
-        "current_stage": "Pre-IPO",
-        "total_raised": "$16B",
-        "valuation": "$126B",
-        "investors": null,
-        "website": "https://waymo.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Wikipedia states Waymo was founded December 13, 2016 as an independent company (spun out from Google/Alphabet); traces origins to Stanford Racing Team (2004-2007) and Google Self-Driving Car Project (January 17, 2009). In February 2026, raised $16B at $126B valuation. As of March 2026, provides 500,000 paid rides per week with 200 million fully autonomous miles logged. The database entry claims 200K+ paid rides per week, but Wikipedia source states 500,000 paid rides per week as of March 2026."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Mountain View, CA",
-          "verified": "Mountain View, California",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://waymo.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://waymo.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Waymo"
-        },
-        {
-          "idx": 3,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/06/02/waymo-rolls-out-the-ojai/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/29/podcast-tesla-robotaxi-numbers-ferraris-controversial-luce-launches-waymo-ojai-and-more/"
-        },
-        {
-          "idx": 5,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/05/28/waymo-ojai-robotaxi-rides-6th-gen-driver/"
-        }
-      ],
-      "notes": "Wikipedia states Waymo was founded December 13, 2016 as an independent company (spun out from Google/Alphabet); traces origins to Stanford Racing Team (2004-2007) and Google Self-Driving Car Project (January 17, 2009). In February 2026, raised $16B at $126B valuation. As of March 2026, provides 500,000 paid rides per week with 200 million fully autonomous miles logged. The database entry claims 200K+ paid rides per week, but Wikipedia source states 500,000 paid rides per week as of March 2026."
+      "notes": "Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry claims Series C with $187M, but this cannot be verified in provided sources. Latest verifiable funding round from sources is Series B ($90M in April 2024)."
     }
   ],
   "unverifiable": []
