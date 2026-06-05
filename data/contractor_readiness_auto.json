@@ -123,7 +123,7 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 24643,
+    "estimatedHeadcount": 24729,
     "headcountFormatted": "24K+"
   },
   {
@@ -393,8 +393,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1514,
-    "headcountFormatted": "1,514+"
+    "estimatedHeadcount": 1729,
+    "headcountFormatted": "1,729+"
   },
   {
     "company": "Rigetti Computing",
@@ -683,8 +683,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2143,
-    "headcountFormatted": "2,143+"
+    "estimatedHeadcount": 2157,
+    "headcountFormatted": "2,157+"
   },
   {
     "company": "Apex Space",
@@ -1374,38 +1374,6 @@
     "headcountFormatted": ""
   },
   {
-    "company": "Rebellion Defense",
-    "sector": "Defense & Security",
-    "readinessScore": 73,
-    "govTractionScore": 7,
-    "compositeScore": 69.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": true,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
-    "company": "Kodiak Robotics",
-    "sector": "Defense & Security",
-    "readinessScore": 73,
-    "govTractionScore": 7,
-    "compositeScore": 69.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": true,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 829,
-    "headcountFormatted": "850+"
-  },
-  {
     "company": "PILGRIM",
     "sector": "Defense & Security",
     "readinessScore": 73,
@@ -1594,8 +1562,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2043,
-    "headcountFormatted": "2,043+"
+    "estimatedHeadcount": 2114,
+    "headcountFormatted": "2,114+"
   },
   {
     "company": "Northwood Space",
@@ -1715,6 +1683,22 @@
     "readinessScore": 70,
     "govTractionScore": 7,
     "compositeScore": 64.5,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
+    "company": "Rebellion Defense",
+    "sector": "Defense & Security",
+    "readinessScore": 70,
+    "govTractionScore": 7,
+    "compositeScore": 69.5,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {
@@ -2382,22 +2366,6 @@
     "headcountFormatted": ""
   },
   {
-    "company": "Improbable Defence",
-    "sector": "Defense & Security",
-    "readinessScore": 63,
-    "govTractionScore": 6,
-    "compositeScore": 69.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": true,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "Thunder Tiger",
     "sector": "Defense & Security",
     "readinessScore": 63,
@@ -2958,6 +2926,22 @@
     "headcountFormatted": ""
   },
   {
+    "company": "Improbable Defence",
+    "sector": "Defense & Security",
+    "readinessScore": 60,
+    "govTractionScore": 6,
+    "compositeScore": 69.5,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
     "company": "MBRYONICS",
     "sector": "Space & Aerospace",
     "readinessScore": 60,
@@ -3267,6 +3251,22 @@
     "readinessScore": 60,
     "govTractionScore": 6,
     "compositeScore": 67.0,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
+    "company": "HEO",
+    "sector": "Space & Aerospace",
+    "readinessScore": 60,
+    "govTractionScore": 6,
+    "compositeScore": 71.5,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {

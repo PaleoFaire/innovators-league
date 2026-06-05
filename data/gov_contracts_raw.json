@@ -181,6 +181,18 @@
   },
   {
     "company": "Anduril",
+    "awardId": "M6785426F0032",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 19476264.39,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2025-12-19",
+    "endDate": "2026-09-03",
+    "description": "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT."
+  },
+  {
+    "company": "Anduril",
     "awardId": "FA228025F0035",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 19425000.0,
@@ -202,18 +214,6 @@
     "startDate": "2025-02-10",
     "endDate": "2026-10-31",
     "description": "MARITIME DEFEAT"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "M6785426F0032",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 18921264.39,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2025-12-19",
-    "endDate": "2026-09-03",
-    "description": "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT."
   },
   {
     "company": "Anduril",
@@ -1381,6 +1381,18 @@
   },
   {
     "company": "Anduril Industries",
+    "awardId": "M6785426F0032",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 19476264.39,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2025-12-19",
+    "endDate": "2026-09-03",
+    "description": "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT."
+  },
+  {
+    "company": "Anduril Industries",
     "awardId": "FA228025F0035",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 19425000.0,
@@ -1402,18 +1414,6 @@
     "startDate": "2025-02-10",
     "endDate": "2026-10-31",
     "description": "MARITIME DEFEAT"
-  },
-  {
-    "company": "Anduril Industries",
-    "awardId": "M6785426F0032",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 18921264.39,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2025-12-19",
-    "endDate": "2026-09-03",
-    "description": "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT."
   },
   {
     "company": "Anduril Industries",
@@ -3553,6 +3553,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W9128Z26FA002",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 954382.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-05",
+    "endDate": "2027-03-05",
+    "description": "THE REQUIREMENT IS AN AI-BASED SUPPLY CLASS IX STOCKAGE DETERMINATION AND FORECASTING APPLICATION TO SUPPORT THE CHIEF STAFF OF THE ARMY (CSA) SPONSORED PROJECT ARIA: WS360 SUPPLY CHAIN CAPABILITY."
+  },
+  {
+    "company": "Palantir",
     "awardId": "W519TC26FA158",
     "recipientName": "PALANTIR USG INC",
     "amount": 954382.0,
@@ -3706,18 +3718,6 @@
     "startDate": "2025-03-14",
     "endDate": "2025-11-30",
     "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE CAPABILITY DROP (CD) 2 DATA FABRIC AND ANALYTICS REQUIREMENT: 2 LOW COMPLEXITY DATA INTEGRATION AND 2 EXERCISE SUPPORT."
-  },
-  {
-    "company": "Palantir",
-    "awardId": "47QACA26F0050",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 300000.0,
-    "agency": "General Services Administration",
-    "subAgency": "Federal Acquisition Service",
-    "awardType": null,
-    "startDate": "2026-01-05",
-    "endDate": "2026-04-04",
-    "description": "SBA FRAUD PREVENTION PILOT AND BOOTCAMP"
   },
   {
     "company": "Palantir Technologies",
@@ -4729,6 +4729,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W9128Z26FA002",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 954382.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-05",
+    "endDate": "2027-03-05",
+    "description": "THE REQUIREMENT IS AN AI-BASED SUPPLY CLASS IX STOCKAGE DETERMINATION AND FORECASTING APPLICATION TO SUPPORT THE CHIEF STAFF OF THE ARMY (CSA) SPONSORED PROJECT ARIA: WS360 SUPPLY CHAIN CAPABILITY."
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "W519TC26FA158",
     "recipientName": "PALANTIR USG INC",
     "amount": 954382.0,
@@ -4906,18 +4918,6 @@
     "startDate": "2026-04-06",
     "endDate": "2026-06-05",
     "description": "SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) FRAUD IDENTIFICATION AND CASE WORKFLOW PLATFORM PILOT PROGRAM"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W912CM26FA009",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 188093.15,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-03-02",
-    "endDate": "2026-09-29",
-    "description": "PALANTIR- MAVEN SMART SYSTEMS (MSS) FIELD SERVICE REPRESENTATIVE (FSR) SUPPORT FOR FORT KNOX, FIFTH CORP"
   },
   {
     "company": "Space Exploration Technologies",
@@ -7040,7 +7040,7 @@
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
     "startDate": "2025-12-18",
-    "endDate": "2026-01-07",
+    "endDate": "2027-01-07",
     "description": "ADVANCED SPACESUIT REGULATOR (ASR)"
   },
   {

@@ -1,48 +1,63 @@
 {
-  "generated_at": "2026-06-04T10:02:58.331387Z",
+  "generated_at": "2026-06-05T10:00:25.270783Z",
   "platform": {
-    "companiesTracked": 887,
-    "sectorsMonitored": 18,
-    "totalCapitalRaisedTracked": "$310.5B",
-    "totalValuationTracked": "$1970.1B",
-    "companiesWithValuation": 153,
+    "companiesTracked": 924,
+    "sectorsMonitored": 19,
+    "totalCapitalRaisedTracked": "$373.6B",
+    "totalValuationTracked": "$2026.5B",
+    "companiesWithValuation": 163,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
-    "dealsTracked": 181,
-    "newsItemsTracked": 41,
-    "dataPointsUpdated": "35,480+"
+    "dealsTracked": 185,
+    "newsItemsTracked": 51,
+    "dataPointsUpdated": "36,960+"
   },
   "topFunds": [
     {
       "fund": "NVIDIA",
-      "portfolio_count": 21,
+      "portfolio_count": 28,
       "companies": [
         "Ayar Labs",
+        "Black Forest Labs",
+        "Cartesia",
         "Crusoe Energy",
         "Emerald AI",
         "Etched",
         "Figure AI",
         "Foxglove",
         "Freeform",
-        "Genesis Therapeutics",
-        "HUMAIN",
-        "Humanoid"
+        "Genesis Therapeutics"
       ]
     },
     {
       "fund": "Founders Fund",
-      "portfolio_count": 12,
+      "portfolio_count": 13,
       "companies": [
         "Amca",
         "Crusoe Energy",
         "General Matter",
         "Impulse Space",
         "Nominal",
+        "Onodrim Industries",
         "Senra Systems",
         "Shinkei",
         "Strata Robotics",
-        "Until",
-        "Varda Space Industries"
+        "Until"
+      ]
+    },
+    {
+      "fund": "a16z",
+      "portfolio_count": 9,
+      "companies": [
+        "Amca",
+        "Black Forest Labs",
+        "CX2 Industries",
+        "Galadyne",
+        "Genesis Therapeutics",
+        "Periodic Labs",
+        "Senra Systems",
+        "Ulysses Robotics",
+        "Westmag"
       ]
     },
     {
@@ -61,17 +76,17 @@
       ]
     },
     {
-      "fund": "a16z",
+      "fund": "Breakthrough Energy",
       "portfolio_count": 8,
       "companies": [
-        "Amca",
-        "CX2 Industries",
-        "Galadyne",
-        "Genesis Therapeutics",
-        "Periodic Labs",
-        "Senra Systems",
-        "Ulysses Robotics",
-        "Westmag"
+        "H2Pro",
+        "LuxWall",
+        "Mission Zero Technologies",
+        "Pacific Fusion",
+        "Planted Solar",
+        "Summit Nanotech",
+        "Sygaldry Technologies",
+        "Tempo"
       ]
     },
     {
@@ -88,27 +103,48 @@
       ]
     },
     {
-      "fund": "Breakthrough Energy",
-      "portfolio_count": 7,
+      "fund": "NATO Innovation Fund",
+      "portfolio_count": 6,
       "companies": [
-        "H2Pro",
-        "LuxWall",
-        "Mission Zero Technologies",
-        "Pacific Fusion",
-        "Planted Solar",
-        "RedoxBlox",
-        "Summit Nanotech"
+        "ARX Robotics",
+        "Frankenburg Technologies",
+        "Isar Aerospace",
+        "Kelluu",
+        "Portal Biotech",
+        "Stark Defence"
       ]
     },
     {
       "fund": "8VC",
-      "portfolio_count": 5,
+      "portfolio_count": 6,
       "companies": [
         "Cambium",
+        "Gallatin AI",
         "Stark Defence",
         "Terra Industries",
         "Terrahaptix",
         "Wispr AI"
+      ]
+    },
+    {
+      "fund": "General Catalyst",
+      "portfolio_count": 5,
+      "companies": [
+        "Collaborative Robotics",
+        "Onodrim Industries",
+        "Pacific Fusion",
+        "Together AI",
+        "Vital Lyfe"
+      ]
+    },
+    {
+      "fund": "In-Q-Tel",
+      "portfolio_count": 4,
+      "companies": [
+        "Anello Photonics",
+        "Lambda",
+        "Stark Defence",
+        "Vast"
       ]
     },
     {
@@ -122,16 +158,6 @@
       ]
     },
     {
-      "fund": "NATO Innovation Fund",
-      "portfolio_count": 4,
-      "companies": [
-        "ARX Robotics",
-        "Frankenburg Technologies",
-        "Isar Aerospace",
-        "Stark Defence"
-      ]
-    },
-    {
       "fund": "Sequoia Capital",
       "portfolio_count": 4,
       "companies": [
@@ -139,6 +165,15 @@
         "Keen Technologies",
         "Nuvacore",
         "Sunflower Labs"
+      ]
+    },
+    {
+      "fund": "Lightspeed",
+      "portfolio_count": 3,
+      "companies": [
+        "Cartesia",
+        "Castelion",
+        "Telesat Lightspeed"
       ]
     },
     {
@@ -151,20 +186,11 @@
       ]
     },
     {
-      "fund": "General Catalyst",
-      "portfolio_count": 3,
-      "companies": [
-        "Collaborative Robotics",
-        "Pacific Fusion",
-        "Vital Lyfe"
-      ]
-    },
-    {
-      "fund": "Lightspeed",
+      "fund": "Valor Equity",
       "portfolio_count": 2,
       "companies": [
-        "Castelion",
-        "Telesat Lightspeed"
+        "Chaos Industries",
+        "Magrathea Metals"
       ]
     },
     {
@@ -173,14 +199,6 @@
       "companies": [
         "Allen Control Systems",
         "Hyfix"
-      ]
-    },
-    {
-      "fund": "In-Q-Tel",
-      "portfolio_count": 2,
-      "companies": [
-        "Stark Defence",
-        "Vast"
       ]
     },
     {
@@ -214,30 +232,23 @@
         "Kipu Quantum",
         "Starcloud"
       ]
-    },
-    {
-      "fund": "Valor Equity",
-      "portfolio_count": 1,
-      "companies": [
-        "Chaos Industries"
-      ]
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 154,
-    "Defense & Security": 132,
-    "Robotics & Manufacturing": 127,
+    "Space & Aerospace": 156,
+    "Defense & Security": 146,
+    "Robotics & Manufacturing": 131,
     "Climate & Energy": 118,
     "Chips & Semiconductors": 70,
     "Biotech & Health": 69,
     "Nuclear Energy": 53,
     "Quantum Computing": 43,
     "Drones & Autonomous": 33,
+    "AI & Software": 32,
     "Transportation": 23,
-    "AI & Software": 22,
     "Ocean & Maritime": 12,
     "Housing & Construction": 9,
     "Consumer Tech": 8,
-    "Infrastructure & Logistics": 5
+    "Energy & Climate": 8
   }
 }

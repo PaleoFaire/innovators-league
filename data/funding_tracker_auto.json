@@ -258,25 +258,38 @@
     "roundCount": 2
   },
   {
+    "company": "SpaceX",
+    "totalRaised": "$2.0B+",
+    "totalRaisedRaw": 2000.0,
+    "lastRound": "IPO",
+    "lastRoundAmount": "$75B",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
+    "company": "ICON",
+    "totalRaised": "$2.0B+",
+    "totalRaisedRaw": 2000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$2B",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Benchmark"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Tenstorrent",
     "totalRaised": "$2.0B+",
     "totalRaisedRaw": 2000.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$2B",
     "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "SpaceX",
-    "totalRaised": "$2.0B+",
-    "totalRaisedRaw": 2000.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$2B",
-    "lastRoundDate": "2026-04",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
@@ -509,6 +522,19 @@
     "roundCount": 1
   },
   {
+    "company": "Axiom Space",
+    "totalRaised": "$675M+",
+    "totalRaisedRaw": 675.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$175M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Quantinuum",
     "totalRaised": "$665M+",
     "totalRaisedRaw": 665.0,
@@ -559,10 +585,10 @@
     "roundCount": 1
   },
   {
-    "company": "Axiom Space",
+    "company": "Wandelbots",
     "totalRaised": "$500M+",
     "totalRaisedRaw": 500.0,
-    "lastRound": "Series T",
+    "lastRound": "Series G",
     "lastRoundAmount": "$500M",
     "lastRoundDate": "2026-03",
     "valuation": "",
@@ -572,12 +598,12 @@
     "roundCount": 1
   },
   {
-    "company": "Wandelbots",
-    "totalRaised": "$500M+",
-    "totalRaisedRaw": 500.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$500M",
-    "lastRoundDate": "2026-03",
+    "company": "Photonic Inc",
+    "totalRaised": "$465M+",
+    "totalRaisedRaw": 465.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$465M",
+    "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"

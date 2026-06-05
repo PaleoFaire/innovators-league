@@ -1,6 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-04 10:01:51 UTC
+// Last updated: 2026-06-05 09:59:26 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "UiPath", form: "10-Q", date: "2026-06-04", description: "path-20260430.htm", isIPO: false, ticker: "PATH" },
+  { company: "IonQ", form: "8-K", date: "2026-06-04", description: "bakkt-20260603.htm", isIPO: false, ticker: "IONQ" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-06-04", description: "xslF345X06/wk-form4_1780608003.xml", isIPO: false, ticker: "QBTS" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-06-04", description: "xslF345X06/wk-form4_1780607095.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-06-04", description: "xslF345X06/wk-form4_1780607089.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Aurora Innovation", form: "4", date: "2026-06-04", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "AUR" },
+  { company: "Tempus AI", form: "8-K", date: "2026-06-04", description: "vnt-20260604.htm", isIPO: false, ticker: "TEM" },
   { company: "Oklo", form: "4", date: "2026-06-03", description: "xslF345X06/wk-form4_1780518303.xml", isIPO: false, ticker: "OKLO" },
   { company: "C3.ai", form: "4", date: "2026-06-03", description: "xslF345X06/wk-form4_1780522981.xml", isIPO: false, ticker: "AI" },
   { company: "C3.ai", form: "8-K", date: "2026-06-03", description: "ai-20260603.htm", isIPO: false, ticker: "AI" },
@@ -44,11 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050512.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050510.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050507.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050505.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050501.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Rivian", form: "4", date: "2026-05-29", description: "xslF345X06/wk-form4_1780086784.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-05-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
 ];

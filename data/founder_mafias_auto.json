@@ -1,12 +1,12 @@
 [
   {
     "mafia": "Y Combinator",
-    "count": 8,
+    "count": 10,
     "companies": [
       {
         "company": "Wardstone",
         "sector": "Space & Aerospace",
-        "totalRaised": "",
+        "totalRaised": "$5M",
         "valuation": ""
       },
       {
@@ -50,9 +50,21 @@
         "sector": "Nuclear Energy",
         "totalRaised": "",
         "valuation": ""
+      },
+      {
+        "company": "Maritime Fusion",
+        "sector": "Energy & Climate",
+        "totalRaised": "$4.5M",
+        "valuation": ""
+      },
+      {
+        "company": "Atmo",
+        "sector": "AI & Software",
+        "totalRaised": "$29.1M",
+        "valuation": ""
       }
     ],
-    "description": "8 companies with founding-team links to Y Combinator."
+    "description": "10 companies with founding-team links to Y Combinator."
   },
   {
     "mafia": "SpaceX Mafia",
@@ -85,19 +97,13 @@
       {
         "company": "Panthalassa",
         "sector": "Climate & Energy",
-        "totalRaised": "Undisclosed",
+        "totalRaised": "$140M+",
         "valuation": ""
       },
       {
         "company": "Mesh Optical Technologies",
         "sector": "Chips & Semiconductors",
-        "totalRaised": "$58.7M",
-        "valuation": ""
-      },
-      {
-        "company": "Orbital Operations",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$8.8M",
+        "totalRaised": "$50M",
         "valuation": ""
       },
       {
@@ -105,13 +111,19 @@
         "sector": "AI & Software",
         "totalRaised": "$67M",
         "valuation": ""
+      },
+      {
+        "company": "Ethos Space",
+        "sector": "Space & Aerospace",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
       }
     ],
     "description": "8 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Google/DeepMind",
-    "count": 4,
+    "count": 7,
     "companies": [
       {
         "company": "Built Robotics",
@@ -122,7 +134,7 @@
       {
         "company": "MatX",
         "sector": "Chips & Semiconductors",
-        "totalRaised": "$130M",
+        "totalRaised": "$500M+",
         "valuation": ""
       },
       {
@@ -136,9 +148,58 @@
         "sector": "AI & Software",
         "totalRaised": "$300M",
         "valuation": ""
+      },
+      {
+        "company": "Reflection AI",
+        "sector": "AI & Software",
+        "totalRaised": "$2B",
+        "valuation": "$8B"
+      },
+      {
+        "company": "Dyna Robotics",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$120M",
+        "valuation": ""
+      },
+      {
+        "company": "Archetype AI",
+        "sector": "AI & Software",
+        "totalRaised": "$13M",
+        "valuation": ""
       }
     ],
-    "description": "4 companies with founding-team links to Google/DeepMind."
+    "description": "7 companies with founding-team links to Google/DeepMind."
+  },
+  {
+    "mafia": "Palantir Mafia",
+    "count": 4,
+    "companies": [
+      {
+        "company": "Cape",
+        "sector": "Defense & Security",
+        "totalRaised": "$195M",
+        "valuation": ""
+      },
+      {
+        "company": "Gallatin AI",
+        "sector": "Defense & Security",
+        "totalRaised": "$15M",
+        "valuation": ""
+      },
+      {
+        "company": "Govini",
+        "sector": "Defense & Security",
+        "totalRaised": "$174M",
+        "valuation": ""
+      },
+      {
+        "company": "Onodrim Industries",
+        "sector": "Defense & Security",
+        "totalRaised": "\u20ac40M",
+        "valuation": ""
+      }
+    ],
+    "description": "4 companies with founding-team links to Palantir."
   },
   {
     "mafia": "Tesla Mafia",
@@ -153,7 +214,7 @@
       {
         "company": "Heron Power",
         "sector": "Climate & Energy",
-        "totalRaised": "$140M",
+        "totalRaised": "$178M+",
         "valuation": ""
       },
       {
@@ -183,5 +244,24 @@
       }
     ],
     "description": "2 companies with founding-team links to MIT CSAIL Spinouts."
+  },
+  {
+    "mafia": "Anduril Mafia",
+    "count": 2,
+    "companies": [
+      {
+        "company": "Chariot Defense",
+        "sector": "Defense & Security",
+        "totalRaised": "$41M",
+        "valuation": ""
+      },
+      {
+        "company": "Breaker Industries",
+        "sector": "Defense & Security",
+        "totalRaised": "$6M",
+        "valuation": ""
+      }
+    ],
+    "description": "2 companies with founding-team links to Anduril."
   }
 ]

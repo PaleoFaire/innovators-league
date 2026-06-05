@@ -4178,6 +4178,15 @@
   {
     "company": "UiPath",
     "ticker": "PATH",
+    "form": "10-Q",
+    "date": "2026-06-04",
+    "description": "path-20260430.htm",
+    "accessionNumber": "0001734722-26-000041",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
     "form": "8-K",
     "date": "2026-05-28",
     "description": "path-20260528.htm",
@@ -4473,12 +4482,12 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2025-12-16",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-25-000043",
+    "company": "IonQ",
+    "ticker": "IONQ",
+    "form": "8-K",
+    "date": "2026-06-04",
+    "description": "bakkt-20260603.htm",
+    "accessionNumber": "0001628280-26-040634",
     "isIPO": false
   },
   {
@@ -4934,6 +4943,15 @@
   {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-06-04",
+    "description": "xslF345X06/wk-form4_1780608003.xml",
+    "accessionNumber": "0001453942-26-000010",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "8-K",
     "date": "2026-06-01",
     "description": "qbts-20260601.htm",
@@ -5211,12 +5229,21 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-02-19",
-    "description": "qbts-20260219.htm",
-    "accessionNumber": "0001907982-26-000020",
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-04",
+    "description": "xslF345X06/wk-form4_1780607095.xml",
+    "accessionNumber": "0002060594-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-04",
+    "description": "xslF345X06/wk-form4_1780607089.xml",
+    "accessionNumber": "0001856094-26-000008",
     "isIPO": false
   },
   {
@@ -6906,6 +6933,15 @@
     "company": "Aurora Innovation",
     "ticker": "AUR",
     "form": "4",
+    "date": "2026-06-04",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001552781-26-000357",
+    "isIPO": false
+  },
+  {
+    "company": "Aurora Innovation",
+    "ticker": "AUR",
+    "form": "4",
     "date": "2026-05-28",
     "description": "xslF345X06/wk-form4_1780010880.xml",
     "accessionNumber": "0001519339-26-000006",
@@ -7152,24 +7188,6 @@
     "date": "2026-01-02",
     "description": "xslF345X05/wk-form4_1767389577.xml",
     "accessionNumber": "0001828108-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
-    "form": "4",
-    "date": "2025-12-17",
-    "description": "xslF345X05/wk-form4_1766022522.xml",
-    "accessionNumber": "0001869013-25-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
-    "form": "4",
-    "date": "2025-11-26",
-    "description": "xslF345X05/wk-form4_1764166149.xml",
-    "accessionNumber": "0001828108-25-000162",
     "isIPO": false
   },
   {
@@ -8003,6 +8021,15 @@
   {
     "company": "Tempus AI",
     "ticker": "TEM",
+    "form": "8-K",
+    "date": "2026-06-04",
+    "description": "vnt-20260604.htm",
+    "accessionNumber": "0001628280-26-040769",
+    "isIPO": false
+  },
+  {
+    "company": "Tempus AI",
+    "ticker": "TEM",
     "form": "10-Q",
     "date": "2026-05-07",
     "description": "vnt-20260403.htm",
@@ -8322,15 +8349,6 @@
     "date": "2025-05-29",
     "description": "vnt-20250527.htm",
     "accessionNumber": "0001786842-25-000046",
-    "isIPO": false
-  },
-  {
-    "company": "Tempus AI",
-    "ticker": "TEM",
-    "form": "4",
-    "date": "2025-05-28",
-    "description": "xslF345X05/wk-form4_1748463276.xml",
-    "accessionNumber": "0001786842-25-000044",
     "isIPO": false
   },
   {

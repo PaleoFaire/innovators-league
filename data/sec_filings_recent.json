@@ -1584,15 +1584,6 @@
     "isIPO": false
   },
   {
-    "company": "NuScale Power",
-    "ticker": "SMR",
-    "form": "4",
-    "date": "2026-03-06",
-    "description": "xslF345X05/wk-form4_1772832037.xml",
-    "accessionNumber": "0001822966-26-000031",
-    "isIPO": false
-  },
-  {
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
@@ -2297,6 +2288,15 @@
   {
     "company": "UiPath",
     "ticker": "PATH",
+    "form": "10-Q",
+    "date": "2026-06-04",
+    "description": "path-20260430.htm",
+    "accessionNumber": "0001734722-26-000041",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
     "form": "8-K",
     "date": "2026-05-28",
     "description": "path-20260528.htm",
@@ -2382,6 +2382,15 @@
     "date": "2026-03-11",
     "description": "path-20260305.htm",
     "accessionNumber": "0001734722-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
+    "form": "8-K",
+    "date": "2026-06-04",
+    "description": "bakkt-20260603.htm",
+    "accessionNumber": "0001628280-26-040634",
     "isIPO": false
   },
   {
@@ -2702,6 +2711,15 @@
   {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-06-04",
+    "description": "xslF345X06/wk-form4_1780608003.xml",
+    "accessionNumber": "0001453942-26-000010",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "8-K",
     "date": "2026-06-01",
     "description": "qbts-20260601.htm",
@@ -2943,12 +2961,21 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
     "form": "4",
-    "date": "2026-03-06",
-    "description": "xslF345X05/wk-form4_1772832653.xml",
-    "accessionNumber": "0001346345-26-000002",
+    "date": "2026-06-04",
+    "description": "xslF345X06/wk-form4_1780607095.xml",
+    "accessionNumber": "0002060594-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-04",
+    "description": "xslF345X06/wk-form4_1780607089.xml",
+    "accessionNumber": "0001856094-26-000008",
     "isIPO": false
   },
   {
@@ -3702,6 +3729,15 @@
     "company": "Aurora Innovation",
     "ticker": "AUR",
     "form": "4",
+    "date": "2026-06-04",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001552781-26-000357",
+    "isIPO": false
+  },
+  {
+    "company": "Aurora Innovation",
+    "ticker": "AUR",
+    "form": "4",
     "date": "2026-05-28",
     "description": "xslF345X06/wk-form4_1780010880.xml",
     "accessionNumber": "0001519339-26-000006",
@@ -4101,6 +4137,15 @@
     "date": "2026-03-20",
     "description": "xslF345X06/wk-form4_1774038323.xml",
     "accessionNumber": "0001628280-26-020186",
+    "isIPO": false
+  },
+  {
+    "company": "Tempus AI",
+    "ticker": "TEM",
+    "form": "8-K",
+    "date": "2026-06-04",
+    "description": "vnt-20260604.htm",
+    "accessionNumber": "0001628280-26-040769",
     "isIPO": false
   },
   {
@@ -4560,24 +4605,6 @@
     "date": "2026-03-12",
     "description": "tra-20260312.htm",
     "accessionNumber": "0001628280-26-017372",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "8-K",
-    "date": "2026-03-06",
-    "description": "tra-20260302.htm",
-    "accessionNumber": "0001628280-26-015471",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "10-K",
-    "date": "2026-03-06",
-    "description": "tra-20251231.htm",
-    "accessionNumber": "0001628280-26-015450",
     "isIPO": false
   },
   {
