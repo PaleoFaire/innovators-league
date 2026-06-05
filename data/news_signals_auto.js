@@ -1,140 +1,151 @@
 // Auto-generated news signals
-// Last updated: 2026-06-05T20:05:34.437Z
+// Last updated: 2026-06-05T21:41:25.802Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1780689934437,
+    "id": 1780695685801,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "Jacking Up Electricity Prices So You Don&#8217;t Have To Think — SpaceX Edition",
+    "source": "CleanTechnica",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://cleantechnica.com/2026/06/05/jacking-up-electricity-prices-so-you-dont-have-to-think-spacex-edition/"
+  },
+  {
+    "id": 1780695685802,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla pushes Roadster demo to August as SpaceX thruster work continues",
     "source": "Electrek",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "low",
     "unread": true,
     "link": "https://electrek.co/2026/06/05/tesla-roadster-demo-delayed-august-spacex-thruster/"
   },
   {
-    "id": 1780689934438,
+    "id": 1780695685803,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Google will pay SpaceX $920M per month for compute",
     "source": "TechCrunch",
-    "time": "1h ago",
+    "time": "2h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
   },
   {
-    "id": 1780689934439,
+    "id": 1780695685804,
     "type": "ipo",
     "company": "D-Orbit",
     "headline": "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service",
     "source": "SpaceNews",
-    "time": "1h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/leaf-space-partners-with-d-orbit-and-endurosat-to-test-connectivity-service/"
   },
   {
-    "id": 1780689934440,
+    "id": 1780695685805,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NASA briefly sheltered space station astronauts in SpaceX&#8217;s Dragon due to leaks",
     "source": "TechCrunch",
-    "time": "5h ago",
+    "time": "6h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/05/nasa-briefly-sheltered-space-station-astronauts-in-spacexs-dragon-due-to-leaks/"
   },
   {
-    "id": 1780689934441,
+    "id": 1780695685806,
     "type": "news",
     "company": "Anthropic",
     "headline": "NSA said to be readying Anthropic&#8217;s Mythos for use in cyber operations",
     "source": "TechCrunch",
-    "time": "5h ago",
+    "time": "7h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations/"
   },
   {
-    "id": 1780689934442,
+    "id": 1780695685807,
     "type": "funding",
     "company": "Blue Origin",
     "headline": "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money",
     "source": "Ars Technica Space",
-    "time": "5h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/space/2026/06/rocket-report-blue-origin-explosion-still-making-headlines-impulse-raises-money/"
   },
   {
-    "id": 1780689934443,
+    "id": 1780695685808,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "The European investors set to win big from Anthropic’s $1tn+ IPO",
     "source": "Sifted",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "high",
     "unread": false,
     "link": "https://sifted.eu/articles/european-investors-win-anthropic-ipo/"
   },
   {
-    "id": 1780689934444,
+    "id": 1780695685809,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI and Anthropic May Be Rivals, but Investors Aren’t Picking Sides",
     "source": "Wired",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides/"
   },
   {
-    "id": 1780689934445,
+    "id": 1780695685810,
     "type": "funding",
     "company": "Axiom Space",
     "headline": "Axiom Space adds more than $175 million to funding round",
     "source": "SpaceNews",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "medium",
     "unread": false,
     "link": "https://spacenews.com/axiom-space-adds-more-than-175-million-to-funding-round/"
   },
   {
-    "id": 1780689934446,
+    "id": 1780695685812,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin rocket explosion shows ‘fragility’ of national-security launch plans",
     "source": "Defense One",
-    "time": "16h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/defense-systems/2026/06/blue-origin-rocket-explosion-launch-plans/413993/"
   },
   {
-    "id": 1780689934447,
+    "id": 1780695685813,
     "type": "hire",
     "company": "Substrate",
     "headline": "Korea&#8217;s LG already invests $10.6B in Vietnam, to build semiconductor substrate factory in Hai Phong",
     "source": "TechNode Global",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://technode.global/2026/06/05/koreas-lg-already-invests-10-6b-in-vietnam-to-build-semiconductor-substrate-factory-in-hai-phong/"
   },
   {
-    "id": 1780689934448,
+    "id": 1780695685814,
     "type": "hire",
     "company": "Anthropic",
     "headline": "Ahead of its IPO, Anthropic&#8217;s Daniela Amodei shrugs off doubts about AI&#8217;s returns",
     "source": "TechCrunch",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/"
   },
   {
-    "id": 1780689934449,
+    "id": 1780695685815,
     "type": "ipo",
     "company": "AstroForge",
     "headline": "AstroForge completes DeepSpace-2 spacecraft",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/astroforge-completes-deepspace-2-spacecraft/"
   },
   {
-    "id": 1780689934450,
+    "id": 1780695685816,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX&#8217;s xAI  just bought another $269M of Tesla Megapacks",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/06/04/spacex-xai-269-million-tesla-megapack-purchase-s1-filing/"
   },
   {
-    "id": 1780689934451,
+    "id": 1780695685817,
     "type": "news",
     "company": "Waymo",
     "headline": "Used Waymo robotaxi batteries become backup storage for power grids",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/"
   },
   {
-    "id": 1780689934452,
+    "id": 1780695685818,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo’s retired robotaxi batteries are heading back to work",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/06/04/waymo-retired-robotaxi-batteries-are-heading-back-to-work-b2u/"
   },
   {
-    "id": 1780689934453,
+    "id": 1780695685819,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX to raise at least $75 billion in IPO",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-to-raise-at-least-75-billion-in-ipo/"
   },
   {
-    "id": 1780689934454,
+    "id": 1780695685820,
     "type": "news",
     "company": "Atom Computing",
     "headline": "Microsoft, Atom Computing update their quantum computing progress",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/"
   },
   {
-    "id": 1780689934455,
+    "id": 1780695685821,
     "type": "funding",
     "company": "Mach Industries",
     "headline": "Autonomous defense manufacturer Mach Industries raises $300M",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/"
-  },
-  {
-    "id": 1780689934456,
-    "type": "ipo",
-    "company": "AST SpaceMobile",
-    "headline": "AST SpaceMobile sees New Glenn setback delaying initial commercial service into 2027",
-    "source": "SpaceNews",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/ast-spacemobile-sees-new-glenn-setback-delaying-initial-commercial-service-into-2027/"
   }
 ];
