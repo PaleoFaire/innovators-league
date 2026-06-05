@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-05T04:41:31+00:00",
+  "generatedAt": "2026-06-05T08:50:28+00:00",
   "stats": {
-    "companies": 887,
+    "companies": 924,
     "vcFirms": 27,
     "uniqueClusters": 95,
     "totalInvestments": 231
@@ -1129,7 +1129,7 @@
         "count": 2,
         "companies": [
           "Arbor Energy",
-          "Cemvita Factory"
+          "Cemvita"
         ]
       },
       "data-center-infrastructure": {
@@ -3291,12 +3291,17 @@
       {
         "company": "Orbital Operations",
         "cluster": null,
-        "founder": "Undisclosed (ex-SpaceX team)"
+        "founder": "Ben Schleuniger, Ross Doherty"
       },
       {
         "company": "Sift Stack",
         "cluster": null,
-        "founder": "Karthik Gollapudi, Alex Saroyan"
+        "founder": "Karthik Gollapudi, Austin Spiegel"
+      },
+      {
+        "company": "Perennial Autonomy",
+        "cluster": null,
+        "founder": "Eric Schmidt (backer), team from SpaceX/Google/Apple"
       }
     ],
     "NASA": [
@@ -3315,7 +3320,7 @@
       {
         "company": "Tenstorrent",
         "cluster": "ai-hardware-inference",
-        "founder": "Milos Trajkovic"
+        "founder": "Ljubisa Bajic, Ivan Hamer, Milos Trajkovic"
       }
     ],
     "Google": [
@@ -3327,19 +3332,24 @@
       {
         "company": "MatX",
         "cluster": "ai-semiconductor-architecture",
-        "founder": "Reiner Pope"
+        "founder": "Reiner Pope, Mike Gunter"
       },
       {
         "company": "Periodic Labs",
         "cluster": null,
         "founder": "Liam Fedus, Ekin Dogus Cubuk"
+      },
+      {
+        "company": "Archetype AI",
+        "cluster": null,
+        "founder": "Ivan Poupyrev, Brandon Barbello, Leonardo Giusti, Jaime Lien, Nicholas Gillian"
       }
     ],
     "Tesla": [
       {
         "company": "Mytra",
         "cluster": null,
-        "founder": "Chris Walti"
+        "founder": "Chris Walti, Ahmad Baitalmal"
       },
       {
         "company": "Union",
@@ -3350,13 +3360,23 @@
         "company": "Odin Dynamics",
         "cluster": null,
         "founder": "Jon Haase, Amir Khan"
+      },
+      {
+        "company": "Maritime Fusion",
+        "cluster": null,
+        "founder": "Ex-Tesla engineering team (undisclosed)"
+      },
+      {
+        "company": "Foundation Robotics",
+        "cluster": null,
+        "founder": "Sankaet Pathak, Arjun Sethi, Mike LeBlanc"
       }
     ],
     "OpenAI": [
       {
         "company": "Sunday Robotics",
         "cluster": "general-purpose-robot",
-        "founder": "Xiongyi Cui, Linxi Fan"
+        "founder": "Tony Zhao, Cheng Chi"
       },
       {
         "company": "Periodic Labs",
@@ -3369,6 +3389,47 @@
         "company": "Periodic Labs",
         "cluster": null,
         "founder": "Liam Fedus, Ekin Dogus Cubuk"
+      }
+    ],
+    "Palantir": [
+      {
+        "company": "Cape",
+        "cluster": null,
+        "founder": "John Doyle, Gavin Uhma"
+      },
+      {
+        "company": "Gallatin AI",
+        "cluster": null,
+        "founder": "Woody Glier, Daniel Buchmueller, Brian Ballard"
+      },
+      {
+        "company": "Govini",
+        "cluster": null,
+        "founder": "Eric Gillespie"
+      },
+      {
+        "company": "Onodrim Industries",
+        "cluster": null,
+        "founder": "Aistis \u0160imaitis, Alexander Blessing, Christian Garrett"
+      }
+    ],
+    "Amazon": [
+      {
+        "company": "Gallatin AI",
+        "cluster": null,
+        "founder": "Woody Glier, Daniel Buchmueller, Brian Ballard"
+      }
+    ],
+    "DeepMind": [
+      {
+        "company": "Reflection AI",
+        "cluster": null,
+        "founder": "Misha Laskin, Ioannis Antonoglou"
+      },
+      {
+        "company": "Dyna Robotics",
+        "cluster": null,
+        "founder": "Lindon Gao, York Yang, Jason Ma"
       }
     ]
   },
