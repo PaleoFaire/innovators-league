@@ -1,7 +1,7 @@
 {
   "script": "fetch_podcast_mentions.py",
-  "started_at": "2026-06-04T10:31:18.821747+00:00",
-  "finished_at": "2026-06-04T10:31:43.929887+00:00",
+  "started_at": "2026-06-05T10:38:39.700687+00:00",
+  "finished_at": "2026-06-05T10:39:01.405836+00:00",
   "lookback_days": 30,
   "podcasts": [
     {
@@ -13,7 +13,7 @@
     {
       "podcast": "All-In",
       "url": "https://allinchamathjason.libsyn.com/rss",
-      "episodes_fetched": 380,
+      "episodes_fetched": 381,
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "error": "all retries failed"
     }
   ],
-  "total_episodes": 2112,
-  "total_mentions": 352,
+  "total_episodes": 2113,
+  "total_mentions": 343,
   "ok": true
 }

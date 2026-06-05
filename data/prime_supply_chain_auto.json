@@ -2,13 +2,19 @@
   {
     "prime": "Lockheed Martin",
     "ticker": "LMT",
-    "totalCompanies": 9,
+    "totalCompanies": 11,
     "portfolio": [
       {
         "company": "Anduril",
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Team-of-teams program"
+      },
+      {
+        "company": "Anello Photonics",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "lockheed martin"
       },
       {
         "company": "Divergent",
@@ -33,6 +39,15 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Hypersonic propulsion development"
+      },
+      {
+        "company": "Integrate",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$2032.3M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE GOVERNMENT IS PROCURING THE NEXT-GENERATION GEOSTATIONARY OPERATIONAL ENVIRONMENTAL SATELLITES (GOES) SERIES TO CONTINUE ITS MISSION THROUGH NEW REQUIREMENTS SPECIFIED IN THE GOES-R LEVEL I REQUIR",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG09HR00C_8000_-NONE-_-NONE-"
       },
       {
         "company": "Nano Nuclear Energy",
@@ -66,13 +81,22 @@
   {
     "prime": "Northrop Grumman",
     "ticker": "NOC",
-    "totalCompanies": 7,
+    "totalCompanies": 8,
     "portfolio": [
       {
         "company": "Anduril",
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Sentry/Lattice integration"
+      },
+      {
+        "company": "Integrate",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$584.3M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE CONTRACTOR SHALL PROVIDE ALL PERSONNEL, FACILITIES, EQUIPMENT, MATERIAL, AND SERVICES NECESSARY TO DESIGN, DEVELOP, MANUFACTURE, INTEGRATE, TEST, AND DELIVER THE HARDWARE, DOCUMENTATION, AND SERVI",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG11XA04C_8000_-NONE-_-NONE-"
       },
       {
         "company": "Observable Space",
@@ -118,7 +142,7 @@
   {
     "prime": "General Dynamics",
     "ticker": "GD",
-    "totalCompanies": 7,
+    "totalCompanies": 8,
     "portfolio": [
       {
         "company": "Anduril",
@@ -131,6 +155,15 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "RF geolocation for intel missions"
+      },
+      {
+        "company": "Integrate",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$262.9M",
+        "agency": "Department of Defense",
+        "evidence": "DESIGN, DEVELOP, INTEGRATE NAVY SYSTEMS",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002419C6407_9700_-NONE-_-NONE-"
       },
       {
         "company": "Palantir",
@@ -268,13 +301,22 @@
   {
     "prime": "SAIC",
     "ticker": "SAIC",
-    "totalCompanies": 5,
+    "totalCompanies": 6,
     "portfolio": [
       {
         "company": "AIR",
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "saic"
+      },
+      {
+        "company": "Integrate",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$905K",
+        "agency": "Department of Transportation",
+        "evidence": "BAA CALL 004  DEVELOPMENT OF NON-SYSTEM SPECIFIC TECHNOLOGY TO INTEGRATE UNMANNED AIRCRAFT SYSTEMS (UAS) INTO THE NAS",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_697DCK23C00313_6920_-NONE-_-NONE-"
       },
       {
         "company": "Palantir",
@@ -306,41 +348,19 @@
     ]
   },
   {
-    "prime": "Boeing Defense",
-    "ticker": "BA",
-    "totalCompanies": 4,
-    "portfolio": [
-      {
-        "company": "Dynamo Air",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "boeing phantom works"
-      },
-      {
-        "company": "Hermeus",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Hypersonic vehicle cooperation"
-      },
-      {
-        "company": "Loft Federal",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Satellite services"
-      },
-      {
-        "company": "Virgin Galactic",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Commercial space systems"
-      }
-    ]
-  },
-  {
     "prime": "BAE Systems",
     "ticker": "BAESY",
-    "totalCompanies": 4,
+    "totalCompanies": 5,
     "portfolio": [
+      {
+        "company": "Integrate",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$307.8M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE WOMA REQUIREMENT WAS ISSUED AS A FULL AND OPEN COMPETITIVE PROCUREMENT TO DESIGN, ANALYZE, DEVELOP, FABRICATE, INTEGRATE, TEST, AND EVALUATE THE WIDE FIELD INSTRUMENT (WFI) OPTO-MECHANICAL ASSEMBL",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC18C0083_8000_-NONE-_-NONE-"
+      },
       {
         "company": "Rebellion Defense",
         "relationship": "partnership",
@@ -370,6 +390,37 @@
         "agency": "National Aeronautics and Space Administration",
         "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
         "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
+      }
+    ]
+  },
+  {
+    "prime": "Boeing Defense",
+    "ticker": "BA",
+    "totalCompanies": 4,
+    "portfolio": [
+      {
+        "company": "Dynamo Air",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "boeing phantom works"
+      },
+      {
+        "company": "Hermeus",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Hypersonic vehicle cooperation"
+      },
+      {
+        "company": "Loft Federal",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Satellite services"
+      },
+      {
+        "company": "Virgin Galactic",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Commercial space systems"
       }
     ]
   },

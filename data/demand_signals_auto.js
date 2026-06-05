@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-06-04 10:31:20 UTC
-// Total signals: 44 | Companies matched: 183
+// Last updated: 2026-06-05 10:38:34 UTC
+// Total signals: 44 | Companies matched: 184
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -819,6 +819,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Foundation Robotics",
+        "score": 30,
+        "matchReasons": [
+          "tag: humanoid",
+          "tag: defense",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Forterra",
         "score": 26,
         "matchReasons": [
@@ -875,27 +884,19 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: ai",
           "tag: defense"
         ]
-      },
-      {
-        "name": "Zeromark",
-        "score": 20,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
       }
     ],
     "relevantCompanies": [
       "Humanoid",
       "Rune Technologies",
+      "Foundation Robotics",
       "Forterra",
       "Overland AI",
       "Anduril Industries",
       "Shield AI",
       "Swift Beat",
       "Physical Intelligence",
-      "Palantir",
-      "Zeromark"
+      "Palantir"
     ]
   },
   {
@@ -2757,6 +2758,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Integrate",
+        "score": 26,
+        "matchReasons": [
+          "tag: defense",
+          "tag: classified",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Anduril Industries",
         "score": 22,
         "matchReasons": [
@@ -2811,27 +2821,19 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: defense",
           "tag: ai"
         ]
-      },
-      {
-        "name": "Blackshark.ai",
-        "score": 20,
-        "matchReasons": [
-          "tag: defense",
-          "tag: ai"
-        ]
       }
     ],
     "relevantCompanies": [
       "Second Front Systems",
       "Palantir",
+      "Integrate",
       "Anduril Industries",
       "Shield AI",
       "Parry Labs",
       "Zeromark",
       "Rune Technologies",
       "Swift Beat",
-      "Tytan Technologies",
-      "Blackshark.ai"
+      "Tytan Technologies"
     ]
   },
   {
@@ -3008,6 +3010,13 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Atom",
+        "score": 40,
+        "matchReasons": [
+          "name: Atom"
+        ]
+      },
+      {
         "name": "Infleqtion",
         "score": 30,
         "matchReasons": [
@@ -3044,6 +3053,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Vermeer",
+        "score": 26,
+        "matchReasons": [
+          "tag: defense",
+          "tag: gps-denied",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Anduril Industries",
         "score": 24,
         "matchReasons": [
@@ -3075,35 +3093,19 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: quantum sensing",
           "cluster: quantum-sensing"
         ]
-      },
-      {
-        "name": "Deepnight",
-        "score": 20,
-        "matchReasons": [
-          "tag: sensors",
-          "tag: defense"
-        ]
-      },
-      {
-        "name": "Long Wall",
-        "score": 16,
-        "matchReasons": [
-          "tag: defense",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Atom",
       "Infleqtion",
       "Forterra",
       "Theseus",
       "QuantumDiamonds",
+      "Vermeer",
       "Anduril Industries",
       "Picogrid",
       "Andrenam",
-      "NVision Imaging Technologies",
-      "Deepnight",
-      "Long Wall"
+      "NVision Imaging Technologies"
     ]
   },
   {
@@ -4099,8 +4101,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
 const GOV_PULL_SCORES_AUTO = {
   "Zeromark": {
     "name": "Zeromark",
-    "govPullScore": 71,
-    "matchCount": 7,
+    "govPullScore": 65,
+    "matchCount": 6,
     "topAgencies": [
       "Chief Digital and AI Office (CDAO)",
       "Defense Innovation Unit (DIU)",
@@ -4108,7 +4110,7 @@ const GOV_PULL_SCORES_AUTO = {
       "NSA Cybersecurity Directorate",
       "SOCOM"
     ],
-    "avgRelevance": 28,
+    "avgRelevance": 29,
     "topSignals": [
       "Autonomous Counter-UAS Systems for Base Defense",
       "Soldier-Portable Directed Energy for Counter-Drone",
@@ -4678,6 +4680,18 @@ const GOV_PULL_SCORES_AUTO = {
       "General-Purpose Robotics for Military Logistics",
       "Autonomous Logistics Resupply Vehicles",
       "AI-Powered Intelligence Fusion Platform"
+    ]
+  },
+  "Foundation Robotics": {
+    "name": "Foundation Robotics",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Defense Innovation Unit (DIU)"
+    ],
+    "avgRelevance": 30,
+    "topSignals": [
+      "General-Purpose Robotics for Military Logistics"
     ]
   },
   "Forterra": {
@@ -5936,6 +5950,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Enterprise AI/ML Data Platform"
     ]
   },
+  "Integrate": {
+    "name": "Integrate",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Chief Digital and AI Office (CDAO)"
+    ],
+    "avgRelevance": 26,
+    "topSignals": [
+      "Enterprise AI/ML Data Platform"
+    ]
+  },
   "Parry Labs": {
     "name": "Parry Labs",
     "govPullScore": 16,
@@ -5944,18 +5970,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Chief Digital and AI Office (CDAO)"
     ],
     "avgRelevance": 22,
-    "topSignals": [
-      "Enterprise AI/ML Data Platform"
-    ]
-  },
-  "Blackshark.ai": {
-    "name": "Blackshark.ai",
-    "govPullScore": 16,
-    "matchCount": 1,
-    "topAgencies": [
-      "Chief Digital and AI Office (CDAO)"
-    ],
-    "avgRelevance": 20,
     "topSignals": [
       "Enterprise AI/ML Data Platform"
     ]
@@ -6092,6 +6106,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Quantum Networking and Entanglement Distribution"
     ]
   },
+  "Atom": {
+    "name": "Atom",
+    "govPullScore": 21,
+    "matchCount": 1,
+    "topAgencies": [
+      "DARPA"
+    ],
+    "avgRelevance": 40,
+    "topSignals": [
+      "Quantum Sensing for Position, Navigation, and Timing"
+    ]
+  },
   "Infleqtion": {
     "name": "Infleqtion",
     "govPullScore": 18,
@@ -6116,6 +6142,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Quantum Sensing for Position, Navigation, and Timing"
     ]
   },
+  "Vermeer": {
+    "name": "Vermeer",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "DARPA"
+    ],
+    "avgRelevance": 26,
+    "topSignals": [
+      "Quantum Sensing for Position, Navigation, and Timing"
+    ]
+  },
   "NVision Imaging Technologies": {
     "name": "NVision Imaging Technologies",
     "govPullScore": 16,
@@ -6124,30 +6162,6 @@ const GOV_PULL_SCORES_AUTO = {
       "DARPA"
     ],
     "avgRelevance": 22,
-    "topSignals": [
-      "Quantum Sensing for Position, Navigation, and Timing"
-    ]
-  },
-  "Deepnight": {
-    "name": "Deepnight",
-    "govPullScore": 16,
-    "matchCount": 1,
-    "topAgencies": [
-      "DARPA"
-    ],
-    "avgRelevance": 20,
-    "topSignals": [
-      "Quantum Sensing for Position, Navigation, and Timing"
-    ]
-  },
-  "Long Wall": {
-    "name": "Long Wall",
-    "govPullScore": 15,
-    "matchCount": 1,
-    "topAgencies": [
-      "DARPA"
-    ],
-    "avgRelevance": 16,
     "topSignals": [
       "Quantum Sensing for Position, Navigation, and Timing"
     ]
@@ -6503,6 +6517,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 183,
-  "lastUpdated": "2026-06-04 10:31:20 UTC"
+  "companiesMatched": 184,
+  "lastUpdated": "2026-06-05 10:38:34 UTC"
 };
