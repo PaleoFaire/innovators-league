@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T18:05:14.854486+00:00",
+  "generatedAt": "2026-06-05T20:05:43.773742+00:00",
   "date": "2026-06-05",
   "dateDisplay": "Friday, June 05, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 33.82,
-        "changePercent": -33.87,
-        "change": -17.32
+        "price": 32.05,
+        "changePercent": -37.34,
+        "change": -19.09
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 30.73,
-        "changePercent": -29.88,
-        "change": -13.09
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 12.78,
-        "changePercent": -23.04,
-        "change": -3.83
+        "price": 29.35,
+        "changePercent": -33.04,
+        "change": -14.48
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 7.54,
-        "changePercent": -20.66,
-        "change": -1.96
+        "price": 7.12,
+        "changePercent": -25.13,
+        "change": -2.39
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 114.95,
-        "changePercent": -19.88,
-        "change": -28.53
+        "price": 110.08,
+        "changePercent": -23.28,
+        "change": -33.4
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 57.02,
+        "changePercent": -20.88,
+        "change": -15.05
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 23.86,
+        "changePercent": -20.82,
+        "change": -6.28
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.21,
-        "changePercent": -18.15,
-        "change": -0.49
+        "price": 2.15,
+        "changePercent": -20.19,
+        "change": -0.55
       },
       {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 945.0,
-        "changePercent": 17.3,
-        "change": 139.4
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 24.18,
-        "changePercent": -16.27,
-        "change": -4.7
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 9.55,
+        "changePercent": -19.75,
+        "change": -2.35
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PL -33.9%"
+    "topMover": "PL -37.3%"
   }
 }
