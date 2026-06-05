@@ -9,39 +9,39 @@
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -19.83,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -16.58,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -5.66,
+      "avg_change": -4.39,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.75,
+      "avg_change": -4.74,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -1.34,
+      "avg_change": -1.29,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.78,
+      "avg_change": -7.76,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.48,
+      "avg_change": 3.58,
       "count": 3
     },
     "transportation": {
@@ -64,24 +64,24 @@
       19.21
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      10.17
-    ],
-    [
       "IDEAFORGE.NS",
       "ideaForge",
-      6.51
+      17.3
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      10.47
+    ],
+    [
+      "9348.T",
+      "ispace",
+      4.42
     ],
     [
       "ALAB",
       "Astera Labs",
       2.54
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      2.06
     ]
   ],
   "topLosers": [
@@ -103,7 +103,7 @@
     [
       "ASRHF",
       "Astroscale",
-      -24.1
+      -23.04
     ],
     [
       "LUNR",
@@ -111,5 +111,5 @@
       -26.41
     ]
   ],
-  "lastUpdated": "2026-06-04 20:10:49"
+  "lastUpdated": "2026-06-05 04:06:53"
 }
