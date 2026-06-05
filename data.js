@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-04";
+const LAST_UPDATED = "2026-06-05";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -53881,23 +53881,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-04 23:16
+// Last updated: 2026-06-05 04:40
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Anthropic", headline: "Ahead of its IPO, Anthropic's Daniela Amodei shrugs off doubts about AI's returns", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Helion", headline: "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "A burglar used a Waymo to steal yoga clothes in San Francisco &#8212; and got away with it", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "Waymo's spent robotaxi batteries will be used as grid storage", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX's xAI  just bought another $269M of Tesla Megapacks", source: "Electrek", time: "10h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Used Waymo robotaxi batteries become backup storage for power grids", source: "Ars Technica Space", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Waymo", headline: "Waymo's retired robotaxi batteries are heading back to work", source: "Electrek", time: "12h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Atom Computing", headline: "Microsoft, Atom Computing update their quantum computing progress", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Mach Industries", headline: "Autonomous defense manufacturer Mach Industries raises $300M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "xAI", headline: "xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic Funding Pushed Startup Investment To Near-Record Levels In May As Exit Market Reopened", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "What's Worth More Than Cash in San Francisco Real Estate? Anthropic Stock", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Oxford Quantum Circuits", headline: "Oxford Quantum Circuits lands 'coming-of-age' '260M funding round", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Humanoid", headline: "Vietnam's conglomerate Vingroup launches humanoid robots on global stage", source: "TechNode Global", time: "1d ago", impact: "medium", unread: false },
+  { id: 1, type: "ipo", company: "Blue Origin", headline: "Blue Origin rocket explosion shows 'fragility' of national-security launch plans", source: "Defense One", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Substrate", headline: "Korea's LG already invests $10.6B in Vietnam, to build semiconductor substrate factory in Hai Phong", source: "TechNode Global", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Anthropic", headline: "Ahead of its IPO, Anthropic's Daniela Amodei shrugs off doubts about AI's returns", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
+  { id: 4, type: "funding", company: "Helion", headline: "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft", source: "TechCrunch", time: "9h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "A burglar used a Waymo to steal yoga clothes in San Francisco &#8212; and got away with it", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "AstroForge", headline: "AstroForge completes DeepSpace-2 spacecraft", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Waymo's spent robotaxi batteries will be used as grid storage", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX's xAI  just bought another $269M of Tesla Megapacks", source: "Electrek", time: "15h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Waymo", headline: "Used Waymo robotaxi batteries become backup storage for power grids", source: "Ars Technica Space", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Waymo", headline: "Waymo's retired robotaxi batteries are heading back to work", source: "Electrek", time: "17h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "SpaceX", headline: "SpaceX to raise at least $75 billion in IPO", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Atom Computing", headline: "Microsoft, Atom Computing update their quantum computing progress", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Mach Industries", headline: "Autonomous defense manufacturer Mach Industries raises $300M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "ipo", company: "AST SpaceMobile", headline: "AST SpaceMobile sees New Glenn setback delaying initial commercial service into 2027", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
