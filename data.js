@@ -55857,13 +55857,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-06 18:15
+// Last updated: 2026-06-06 20:16
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "21h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "22h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "23h ago", impact: "medium", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "23h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "1d ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "1d ago", impact: "medium", unread: true },
   { id: 6, type: "ipo", company: "D-Orbit", headline: "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "SpaceX", headline: "NASA briefly sheltered space station astronauts in SpaceX's Dragon due to leaks", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "Anthropic", headline: "NSA said to be readying Anthropic's Mythos for use in cyber operations", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
