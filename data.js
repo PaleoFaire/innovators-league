@@ -55409,18 +55409,18 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-06 04:14
+// Last updated: 2026-06-06 07:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "9h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "D-Orbit", headline: "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service", source: "SpaceNews", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "NASA briefly sheltered space station astronauts in SpaceX's Dragon due to leaks", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "NSA said to be readying Anthropic's Mythos for use in cyber operations", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Blue Origin", headline: "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money", source: "Ars Technica Space", time: "13h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Anthropic", headline: "The European investors set to win big from Anthropic's $1tn+ IPO", source: "Sifted", time: "16h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic May Be Rivals, but Investors Aren't Picking Sides", source: "Wired", time: "17h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Axiom Space", headline: "Axiom Space adds more than $175 million to funding round", source: "SpaceNews", time: "21h ago", impact: "medium", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "10h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "12h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "12h ago", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "D-Orbit", headline: "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service", source: "SpaceNews", time: "13h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "NASA briefly sheltered space station astronauts in SpaceX's Dragon due to leaks", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "NSA said to be readying Anthropic's Mythos for use in cyber operations", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Blue Origin", headline: "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money", source: "Ars Technica Space", time: "17h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Anthropic", headline: "The European investors set to win big from Anthropic's $1tn+ IPO", source: "Sifted", time: "20h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic May Be Rivals, but Investors Aren't Picking Sides", source: "Wired", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Axiom Space", headline: "Axiom Space adds more than $175 million to funding round", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
   { id: 11, type: "ipo", company: "Blue Origin", headline: "Blue Origin rocket explosion shows 'fragility' of national-security launch plans", source: "Defense One", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "hire", company: "Substrate", headline: "Korea's LG already invests $10.6B in Vietnam, to build semiconductor substrate factory in Hai Phong", source: "TechNode Global", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "hire", company: "Anthropic", headline: "Ahead of its IPO, Anthropic's Daniela Amodei shrugs off doubts about AI's returns", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
