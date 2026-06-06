@@ -1,6 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-05 09:59:26 UTC
+// Last updated: 2026-06-06 08:39:01 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-06-05", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-06-05", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-06-05", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "8-K", date: "2026-06-05", description: "rklb-20260603.htm", isIPO: false, ticker: "RKLB" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-06-05", description: "xslF345X06/wk-form4_1780693763.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-06-05", description: "xslF345X06/wk-form4_1780693735.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-06-05", description: "xslF345X06/wk-form4_1780693701.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-06-05", description: "xslF345X06/wk-form4_1780693661.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-06-05", description: "xslF345X06/wk-form4_1780693599.xml", isIPO: false, ticker: "QBTS" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-06-05", description: "xslF345X06/wk-form4_1780693380.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-06-05", description: "xslF345X06/wk-form4_1780693375.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Rivian", form: "4", date: "2026-06-05", description: "xslF345X06/wk-form4_1780689760.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Satellogic", form: "8-K", date: "2026-06-05", description: "ea0293836-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "UiPath", form: "10-Q", date: "2026-06-04", description: "path-20260430.htm", isIPO: false, ticker: "PATH" },
   { company: "IonQ", form: "8-K", date: "2026-06-04", description: "bakkt-20260603.htm", isIPO: false, ticker: "IONQ" },
   { company: "D-Wave Quantum", form: "4", date: "2026-06-04", description: "xslF345X06/wk-form4_1780608003.xml", isIPO: false, ticker: "QBTS" },
@@ -38,17 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432427.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432402.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780432337.xml", isIPO: false, ticker: "UPST" },
-  { company: "Rivian", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780431637.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-06-01", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Intuitive Machines", form: "8-K", date: "2026-06-01", description: "tm2616017d1_8k.htm", isIPO: false, ticker: "LUNR" },
-  { company: "Rigetti Computing", form: "4", date: "2026-06-01", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "Rigetti Computing", form: "4", date: "2026-06-01", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-06-01", description: "qbts-20260601.htm", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-06-01", description: "qbts-20260601.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050512.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050510.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-05-29", description: "xslF345X06/form4-05292026_050507.xml", isIPO: false, ticker: "LUNR" },
 ];

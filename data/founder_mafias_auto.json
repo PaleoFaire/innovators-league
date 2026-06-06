@@ -202,6 +202,31 @@
     "description": "4 companies with founding-team links to Palantir."
   },
   {
+    "mafia": "Amazon/AWS Mafia",
+    "count": 3,
+    "companies": [
+      {
+        "company": "EdgeRunner AI",
+        "sector": "Defense & Security",
+        "totalRaised": "$17.5M",
+        "valuation": ""
+      },
+      {
+        "company": "Dominion Dynamics",
+        "sector": "Defense & Security",
+        "totalRaised": "$18M",
+        "valuation": ""
+      },
+      {
+        "company": "Gallatin AI",
+        "sector": "Defense & Security",
+        "totalRaised": "$15M",
+        "valuation": ""
+      }
+    ],
+    "description": "3 companies with founding-team links to Amazon/AWS."
+  },
+  {
     "mafia": "Tesla Mafia",
     "count": 3,
     "companies": [

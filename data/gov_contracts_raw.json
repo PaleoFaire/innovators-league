@@ -613,6 +613,18 @@
   },
   {
     "company": "Anduril",
+    "awardId": "M6785425F0093",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 5191901.39,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2025-03-17",
+    "endDate": "2035-03-16",
+    "description": "I-CSUAS DELIVERY AND INSTALLATION PROCUREMENT - JBAB"
+  },
+  {
+    "company": "Anduril",
     "awardId": "W911W625FA007",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 5104579.85,
@@ -622,18 +634,6 @@
     "startDate": "2025-09-01",
     "endDate": "2026-08-31",
     "description": "SEE ATTACHMENT 0001, SOW LE - ALTIUS 700 FOR DEMONSTRATION TO 4"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "M6785425F0093",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 5092336.39,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2025-03-17",
-    "endDate": "2035-03-16",
-    "description": "I-CSUAS DELIVERY AND INSTALLATION PROCUREMENT - JBAB"
   },
   {
     "company": "Anduril",
@@ -1813,6 +1813,18 @@
   },
   {
     "company": "Anduril Industries",
+    "awardId": "M6785425F0093",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 5191901.39,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2025-03-17",
+    "endDate": "2035-03-16",
+    "description": "I-CSUAS DELIVERY AND INSTALLATION PROCUREMENT - JBAB"
+  },
+  {
+    "company": "Anduril Industries",
     "awardId": "W911W625FA007",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 5104579.85,
@@ -1822,18 +1834,6 @@
     "startDate": "2025-09-01",
     "endDate": "2026-08-31",
     "description": "SEE ATTACHMENT 0001, SOW LE - ALTIUS 700 FOR DEMONSTRATION TO 4"
-  },
-  {
-    "company": "Anduril Industries",
-    "awardId": "M6785425F0093",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 5092336.39,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2025-03-17",
-    "endDate": "2035-03-16",
-    "description": "I-CSUAS DELIVERY AND INSTALLATION PROCUREMENT - JBAB"
   },
   {
     "company": "Anduril Industries",
@@ -2727,7 +2727,7 @@
     "company": "Palantir",
     "awardId": "36C10B25F0313",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 31552195.81,
+    "amount": 32895512.47,
     "agency": "Department of Veterans Affairs",
     "subAgency": "Department of Veterans Affairs",
     "awardType": null,
@@ -3325,6 +3325,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W56KGY26F0020",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 2743943.68,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-06",
+    "endDate": "2026-04-06",
+    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE CAPABILITY DROP 1 REQUIREMENT: ANNUAL SOFTWARE SUSTAINMENT/ANNUAL SOFTWARE MAINTENANCE LICENSES"
+  },
+  {
+    "company": "Palantir",
     "awardId": "W911NF25FA022",
     "recipientName": "PALANTIR USG INC",
     "amount": 2619372.0,
@@ -3708,18 +3720,6 @@
     "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE ARMY INTELLIGENCE APPLICATIONS, ALL SOURCE II: HYDRA ENGINEERING CHANGE PROPOSAL"
   },
   {
-    "company": "Palantir",
-    "awardId": "W56KGY25F0068",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 319001.6,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-03-14",
-    "endDate": "2025-11-30",
-    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE CAPABILITY DROP (CD) 2 DATA FABRIC AND ANALYTICS REQUIREMENT: 2 LOW COMPLEXITY DATA INTEGRATION AND 2 EXERCISE SUPPORT."
-  },
-  {
     "company": "Palantir Technologies",
     "awardId": "W911QX24F0053",
     "recipientName": "PALANTIR USG INC",
@@ -3927,7 +3927,7 @@
     "company": "Palantir Technologies",
     "awardId": "36C10B25F0313",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 31552195.81,
+    "amount": 32895512.47,
     "agency": "Department of Veterans Affairs",
     "subAgency": "Department of Veterans Affairs",
     "awardType": null,
@@ -4501,6 +4501,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W56KGY26F0020",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 2743943.68,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-06",
+    "endDate": "2026-04-06",
+    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE CAPABILITY DROP 1 REQUIREMENT: ANNUAL SOFTWARE SUSTAINMENT/ANNUAL SOFTWARE MAINTENANCE LICENSES"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "W911NF25FA022",
     "recipientName": "PALANTIR USG INC",
     "amount": 2619372.0,
@@ -4906,18 +4918,6 @@
     "startDate": "2026-01-05",
     "endDate": "2026-04-04",
     "description": "SBA FRAUD PREVENTION PILOT AND BOOTCAMP"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "12314426F0120",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 250000.0,
-    "agency": "Department of Agriculture",
-    "subAgency": "Office of the Chief Financial Officer",
-    "awardType": null,
-    "startDate": "2026-04-06",
-    "endDate": "2026-06-05",
-    "description": "SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) FRAUD IDENTIFICATION AND CASE WORKFLOW PLATFORM PILOT PROGRAM"
   },
   {
     "company": "Space Exploration Technologies",
@@ -6073,15 +6073,15 @@
   },
   {
     "company": "Skydio",
-    "awardId": "12639525F0680",
+    "awardId": "140D0426F0630",
     "recipientName": "SKYDIO, INC",
-    "amount": 79199.25,
-    "agency": "Department of Agriculture",
-    "subAgency": "Animal and Plant Health Inspection Service",
+    "amount": 72703.9,
+    "agency": "Department of the Interior",
+    "subAgency": "Departmental Offices",
     "awardType": null,
-    "startDate": "2025-05-22",
-    "endDate": "2025-08-22",
-    "description": "DELIVERY ORDER FOR UAS, UAS PARTS, AND UAS ACCESSORIES"
+    "startDate": "2026-06-04",
+    "endDate": "2027-04-12",
+    "description": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)"
   },
   {
     "company": "Skydio",
@@ -6106,6 +6106,18 @@
     "startDate": "2025-12-15",
     "endDate": "2026-10-13",
     "description": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL"
+  },
+  {
+    "company": "Skydio",
+    "awardId": "140D0426F0637",
+    "recipientName": "SKYDIO, INC",
+    "amount": 46987.55,
+    "agency": "Department of the Interior",
+    "subAgency": "Departmental Offices",
+    "awardType": null,
+    "startDate": "2026-06-04",
+    "endDate": "2027-06-04",
+    "description": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)"
   },
   {
     "company": "Skydio",
@@ -6346,18 +6358,6 @@
     "startDate": "2025-08-14",
     "endDate": "2026-08-13",
     "description": "TITLE: SKYDIO SOFTWARE FOR SKYDIOX2-8DD8. EULA, TERMS OF USE AND ONE YEAR LIMITED WARRANTY ATTACHED PER VENDOR REQUEST. REQUESTOR: DAVID D HAYUNGA POP DATES: 08/14/2025 TO 08/13/2026"
-  },
-  {
-    "company": "Skydio",
-    "awardId": "15DD0A25P00000014",
-    "recipientName": "SKYDIO, INC",
-    "amount": 1999.0,
-    "agency": "Department of Justice",
-    "subAgency": "Drug Enforcement Administration",
-    "awardType": null,
-    "startDate": "2025-06-07",
-    "endDate": "2026-06-06",
-    "description": "TITLE: SKYDIO ENTERPRISE SOFTWARE FOR SKYDIOX2-2EZ8. EULA, TERMS OF USE AND ONE YEAR LIMITED WARRANTY ATTACHED PER VENDOR REQUEST. POP DATES: 06/07/2025 TO 06/06/2026"
   },
   {
     "company": "Skydio",
@@ -7513,6 +7513,18 @@
   },
   {
     "company": "BlackSky",
+    "awardId": "FA238526FB002",
+    "recipientName": "BLACKSKY GEOSPATIAL SOLUTIONS, LLC",
+    "amount": 2100000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-03-06",
+    "endDate": "2030-03-05",
+    "description": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT"
+  },
+  {
+    "company": "BlackSky",
     "awardId": "N0002424CS073",
     "recipientName": "BLACKSKY GEOSPATIAL SOLUTIONS, LLC",
     "amount": 1836661.0,
@@ -7534,18 +7546,6 @@
     "startDate": "2024-10-01",
     "endDate": "2026-04-01",
     "description": "BLACKSKY DIRECT TO PHASE 2"
-  },
-  {
-    "company": "BlackSky",
-    "awardId": "N6833520C0095",
-    "recipientName": "TERAVEC TECHNOLOGIES LLC",
-    "amount": 1299594.68,
-    "agency": "Department of Defense",
-    "subAgency": "Defense Contract Management Agency",
-    "awardType": null,
-    "startDate": "2019-10-23",
-    "endDate": "2021-11-01",
-    "description": "RESEARCH AND DEVELOPMENT"
   },
   {
     "company": "BlackSky",

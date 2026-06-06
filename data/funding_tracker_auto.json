@@ -55,6 +55,19 @@
     "roundCount": 2
   },
   {
+    "company": "Tenstorrent",
+    "totalRaised": "$12.0B+",
+    "totalRaisedRaw": 12000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$10B",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Durin",
     "totalRaised": "$12.0B+",
     "totalRaisedRaw": 12000.0,
@@ -280,19 +293,6 @@
     "valuation": "",
     "leadInvestors": [
       "Benchmark"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Tenstorrent",
-    "totalRaised": "$2.0B+",
-    "totalRaisedRaw": 2000.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$2B",
-    "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -874,6 +874,19 @@
     "valuation": "$1.5B",
     "leadInvestors": [
       "Founders Fund"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Watershed",
+    "totalRaised": "$100M+",
+    "totalRaisedRaw": 100.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$100M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

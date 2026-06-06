@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-05T10:00:25.270783Z",
+  "generated_at": "2026-06-06T08:39:54.601628Z",
   "platform": {
-    "companiesTracked": 924,
-    "sectorsMonitored": 19,
-    "totalCapitalRaisedTracked": "$373.6B",
+    "companiesTracked": 934,
+    "sectorsMonitored": 20,
+    "totalCapitalRaisedTracked": "$373.9B",
     "totalValuationTracked": "$2026.5B",
     "companiesWithValuation": 163,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
-    "dealsTracked": 185,
-    "newsItemsTracked": 51,
-    "dataPointsUpdated": "36,960+"
+    "dealsTracked": 187,
+    "newsItemsTracked": 50,
+    "dataPointsUpdated": "37,360+"
   },
   "topFunds": [
     {
@@ -235,8 +235,8 @@
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 156,
-    "Defense & Security": 146,
+    "Space & Aerospace": 157,
+    "Defense & Security": 150,
     "Robotics & Manufacturing": 131,
     "Climate & Energy": 118,
     "Chips & Semiconductors": 70,
@@ -247,8 +247,8 @@
     "AI & Software": 32,
     "Transportation": 23,
     "Ocean & Maritime": 12,
+    "Energy & Climate": 11,
     "Housing & Construction": 9,
-    "Consumer Tech": 8,
-    "Energy & Climate": 8
+    "Consumer Tech": 8
   }
 }

@@ -1,6 +1,56 @@
 {
   "nodes": [
     {
+      "id": "Smack Technologies",
+      "sector": "Defense & Security",
+      "thesisCluster": "ai-national-security"
+    },
+    {
+      "id": "Twenty",
+      "sector": "Defense & Security",
+      "thesisCluster": "offensive-cyber-ai"
+    },
+    {
+      "id": "EdgeRunner AI",
+      "sector": "Defense & Security",
+      "thesisCluster": "edge-ai-defense"
+    },
+    {
+      "id": "Dominion Dynamics",
+      "sector": "Defense & Security",
+      "thesisCluster": "arctic-defense"
+    },
+    {
+      "id": "Peak Quantum",
+      "sector": "Quantum",
+      "thesisCluster": "superconducting-quantum"
+    },
+    {
+      "id": "Diraq",
+      "sector": "Quantum",
+      "thesisCluster": "silicon-spin-quantum"
+    },
+    {
+      "id": "PAVE Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "in-space-propulsion"
+    },
+    {
+      "id": "Phoenix Tailings",
+      "sector": "Energy & Climate",
+      "thesisCluster": "rare-earth-refining"
+    },
+    {
+      "id": "Hyperscale Power",
+      "sector": "Energy & Climate",
+      "thesisCluster": "data-center-power"
+    },
+    {
+      "id": "Atana Elements",
+      "sector": "Energy & Climate",
+      "thesisCluster": "critical-minerals-exploration"
+    },
+    {
       "id": "Anduril Industries",
       "sector": "Defense & Security",
       "thesisCluster": "autonomy-drone-military"
@@ -5453,6 +5503,18 @@
       "type": "competitor"
     },
     {
+      "src": "Anyon Systems",
+      "dst": "Peak Quantum",
+      "type": "thesis",
+      "cluster": "superconducting-quantum"
+    },
+    {
+      "src": "Diraq",
+      "dst": "Quobly",
+      "type": "thesis",
+      "cluster": "silicon-spin-quantum"
+    },
+    {
       "src": "Chaos Industries",
       "dst": "Epirus",
       "type": "thesis",
@@ -9510,10 +9572,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 924,
-    "total_edges": 842,
+    "total_nodes": 934,
+    "total_edges": 844,
     "competitor_edges": 166,
-    "thesis_edges": 676,
+    "thesis_edges": 678,
     "alumni_edges": 0
   }
 }

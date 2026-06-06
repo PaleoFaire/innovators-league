@@ -1,12 +1,30 @@
 [
   {
+    "sector": "AI & Software",
+    "momentum": 60,
+    "trend": "accelerating",
+    "catalysts": [
+      "NSA said to be readying Anthropic&#8217;s Mythos for use in",
+      "The European investors set to win big from Anthropic\u2019s $1tn+",
+      "OpenAI and Anthropic May Be Rivals, but Investors Aren\u2019t Pic"
+    ],
+    "fundingQ": "$170.3B",
+    "components": {
+      "funding": 100,
+      "news": 60,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-06"
+  },
+  {
     "sector": "Space & Aerospace",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Axiom Space adds more than $175 million to funding round",
-      "Blue Origin rocket explosion shows \u2018fragility\u2019 of national-s",
-      "AstroForge completes DeepSpace-2 spacecraft"
+      "Jacking Up Electricity Prices So You Don&#8217;t Have To Thi",
+      "Tesla pushes Roadster demo to August as SpaceX thruster work",
+      "Google will pay SpaceX $920M per month for compute"
     ],
     "fundingQ": "$77.7B",
     "components": {
@@ -15,79 +33,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 59,
+    "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
       "Korea&#8217;s LG already invests $10.6B in Vietnam, to build",
-      "A burglar used a Waymo to steal yoga clothes in San Francisc",
-      "Waymo&#8217;s spent robotaxi batteries will be used as grid"
+      "Used Waymo robotaxi batteries become backup storage for powe",
+      "Waymo\u2019s retired robotaxi batteries are heading back to work"
     ],
     "fundingQ": "$8.2B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-05"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 58,
-    "trend": "accelerating",
-    "catalysts": [
-      "Korea&#8217;s LG already invests $10.6B in Vietnam, to build",
-      "Ahead of its IPO, Anthropic&#8217;s Daniela Amodei shrugs of",
-      "Anthropic Funding Pushed Startup Investment To Near-Record L"
-    ],
-    "fundingQ": "$170.3B",
-    "components": {
-      "funding": 100,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-05"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 47,
-    "trend": "steady",
-    "catalysts": [
-      "Autonomous defense manufacturer Mach Industries raises $300M",
-      "Contriving Imaginary Gaps in Nuclear Deterrence",
-      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
-    ],
-    "fundingQ": "$32.8B",
-    "components": {
-      "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 39
-    },
-    "lastUpdated": "2026-06-05"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Helion, the Sam Altman-backed fusion startup, raises $465M t",
-      "Norway becomes ninth country to sign up for French nuclear d",
-      "Contriving Imaginary Gaps in Nuclear Deterrence"
-    ],
-    "fundingQ": "$4.8B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 22
-    },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
   },
   {
     "sector": "Drones & Autonomous",
@@ -103,7 +67,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -119,7 +83,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
   },
   {
     "sector": "Ocean & Maritime",
@@ -135,48 +99,66 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 39,
+    "trend": "steady",
+    "catalysts": [
+      "Autonomous defense manufacturer Mach Industries raises $300M",
+      "Contriving Imaginary Gaps in Nuclear Deterrence",
+      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
+    ],
+    "fundingQ": "$32.8B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-06"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 39,
+    "trend": "steady",
+    "catalysts": [
+      "Contriving Imaginary Gaps in Nuclear Deterrence",
+      "X-energy gets federal environmental approval for Texas nucle",
+      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at"
+    ],
+    "fundingQ": "$4.8B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-06"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 44,
+    "momentum": 34,
     "trend": "steady",
     "catalysts": [
-      "Waymo&#8217;s spent robotaxi batteries will be used as grid",
       "Blue Origin Should Be Able to Launch Again By End of 2026",
-      "Elon facing backlash over Tesla SpaceX merger talks, but sol"
+      "Elon facing backlash over Tesla SpaceX merger talks, but sol",
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
-      "market": 44
+      "market": 0
     },
-    "lastUpdated": "2026-06-05"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 31,
-    "trend": "declining",
-    "catalysts": [
-      "Anthropic Files Confidentially For IPO",
-      "The Week\u2019s 10 Biggest Funding Rounds: Anthropic Dominates In",
-      "Waymo starts offering rides in new Ojai robotaxi with 6th-ge"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 30,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 22,
-    "trend": "rising",
+    "momentum": 20,
+    "trend": "declining",
     "catalysts": [
       "Axiom Space adds more than $175 million to funding round",
       "AstroForge completes DeepSpace-2 spacecraft",
@@ -185,15 +167,66 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Used Waymo robotaxi batteries become backup storage for powe",
+      "Waymo\u2019s retired robotaxi batteries are heading back to work"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-06"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Tesla pushes Roadster demo to August as SpaceX thruster work",
+      "Anthropic Files Confidentially For IPO",
+      "Waymo starts offering rides in new Ojai robotaxi with 6th-ge"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 30,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-06"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "NASA briefly sheltered space station astronauts in SpaceX&#8"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-06"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 16,
+    "momentum": 2,
     "trend": "declining",
     "catalysts": [
       "Korea&#8217;s LG already invests $10.6B in Vietnam, to build",
@@ -204,76 +237,41 @@
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 69
+      "market": 0
     },
-    "lastUpdated": "2026-06-05"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian R2 officially launches June 9 &#8211; order invites,"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 62
-    },
-    "lastUpdated": "2026-06-05"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo&#8217;s spent robotaxi batteries will be used as grid",
-      "Used Waymo robotaxi batteries become backup storage for powe",
-      "Waymo\u2019s retired robotaxi batteries are heading back to work"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-05"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 4,
+    "momentum": 2,
     "trend": "declining",
     "catalysts": [
       "Microsoft, Atom Computing update their quantum computing pro",
-      "Oxford Quantum Circuits lands \u201ccoming-of-age\u201d \u00a3260M funding",
       "Oxford Quantum Circuits raises blockbuster $350m Series C"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-05"
+    "lastUpdated": "2026-06-06"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-06"
   }
 ]
