@@ -11,19 +11,19 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -21.16,
+      "avg_change": -21.1,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -10.31,
+      "avg_change": -10.79,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.29,
+      "avg_change": -16.23,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -20.24,
+      "avg_change": -20.37,
       "count": 3
     },
     "biotech": {
@@ -88,7 +88,7 @@
     [
       "IONQ",
       "IonQ",
-      -20.88
+      -21.22
     ],
     [
       "RKLB",
@@ -103,13 +103,13 @@
     [
       "LUNR",
       "Intuitive Machines",
-      -33.04
+      -33.01
     ],
     [
       "PL",
       "Planet Labs",
-      -37.34
+      -37.0
     ]
   ],
-  "lastUpdated": "2026-06-05 20:01:02"
+  "lastUpdated": "2026-06-06 03:50:55"
 }
