@@ -1,117 +1,84 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-06-05T09:35:23+00:00  
+**Generated:** 2026-06-06T08:28:42+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 42 companies  
+**Cohort size:** 39 companies  
 
-**New Claude extractions this run:** 42  
+**New Claude extractions this run:** 39  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 30 | 71% |
-| 🔧 Changes proposed | 12 | 29% |
+| ✅ Cleared (data matches sources) | 32 | 82% |
+| 🔧 Changes proposed | 7 | 18% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (12 companies)
+## 🔧 Proposed Changes (7 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
 ### AMP Robotics
 
-- **`location`:** `Louisville, CO` → `Colorado`  
+- **`location`:** `Colorado` → `Colorado, USA`  
   Sources: [company_about](https://amprobotics.com/about)
 
-  **Notes:** Source [2] (Electrek article about Waymo batteries) is not relevant to AMP Robotics and was not used. Database entry lists founder as 'Matanya Horowitz' and founded year as '2014', but these cannot be verified from provided sources. Database lists Series C stage and $180M+ raised, but these cannot be verified from provided sources. About page mentions 'hundreds of systems installed across three continents' but no specific founding year or funding stage information found in sources.
+  **Notes:** Source [2] (Electrek article about Waymo batteries) is not relevant to AMP Robotics and was not used. No founders explicitly named in sources. No founding year specified in sources despite database entry claiming 2014. No funding or investor information found in provided sources. No current stage information found in sources.
 
-### AstroForge
+### Astera Labs
 
-- **`location`:** `Huntington Beach, CA` → `Huntington Beach, California, United States`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/AstroForge)
+- **`totalRaised`:** `$700M+` → `$713M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Astera_Labs)
 
-  **Notes:** Wikipedia source [2] mentions $13 million in seed funding but database entry shows $53M total raised. Wikipedia also references a $40 million raise in August 2024 (source [2] footnote 9), which would total approximately $53M. Company headquarters also listed as 'Seal Beach' on source [0], but Wikipedia and database confirm Huntington Beach, California. Odin spacecraft launched February 27, 2025 and was declared lost on March 6, 2025. DeepSpace-2 planned for Q4 2026 launch.
-
-### Atom Computing
-
-- **`totalRaised`:** `$100M+` → `$60M`  
-  Sources: [company_about](https://atom-computing.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Atom_Computing)
-
-  **Notes:** Series B funding of $60M closed in January 2022 per source [1]. Rob Hays is identified as CEO & President in source [1], though Ben Bloom is listed as Founder & CEO. Microsoft partnership announced late 2024 with logical qubits demonstrated. Source [3] URL provided but content not fully visible in extraction.
+  **Notes:** Company went public on NASDAQ under ticker ALAB in March 2024. Wikipedia indicates IPO raised $713M at $5.5B valuation. Headquarters relocated to San Jose in June 2025, tripling in size.
 
 ### Cape
 
 - **`founder`:** `John Doyle, Gavin Uhma` → `John Doyle`  
   Sources: [company_about](https://www.cape.co/about)
 
-  **Notes:** Source [2] (Wikipedia) is about the clothing item 'cape' and is not relevant. Source [3] (Defense One) is about Blue Origin and is not relevant. Founded year 2022 in database entry but not verified in provided sources. Series C stage and $195M total raised from database entry could not be verified in provided sources. Second co-founder 'Gavin Uhma' from database entry could not be verified in provided sources. Only John Doyle explicitly named as founder/CEO in sources [0, 1]. A* Capital and Fifth Down Capital, FDVC, Karman Ventures, Point72, XYZ listed visually in source [1] but not explicitly named as investors in text.
+  **Notes:** Only John Doyle explicitly named as founder/CEO in sources. Source [2] is Wikipedia article about clothing capes (not relevant). Source [3] is about Blue Origin (not relevant). Database entry lists 'Gavin Uhma' as co-founder but this is not verified in provided sources. Series C stage and $195M total raised from database entry cannot be verified from these sources.
 
-### Endurosat
+### D-Orbit
 
-- **`founder`:** `Raycho Raychev, Stanimir Gantchev` → `Raycho Raychev`  
-  Sources: [company_about](https://endurosat.com/about)
+- **`location`:** `Como, Italy` → `Italy`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/D-Orbit)
+- **`fundingStage`:** `Series D` → `Series C`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/D-Orbit)
+- **`totalRaised`:** `$219M+` → `$166M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/D-Orbit)
 
-  **Notes:** Source [1] confirms Raycho Raychev as Founder & CEO; only one founder explicitly named in sources. Source [2] mentions Series C fundraising but does not provide current stage confirmation or total amount raised. Founded year confirmed as 2015 from timeline in source [1] ('Company founded in an attic apartment'). Location inferred as Sofia, Bulgaria based on company operations but not explicitly stated in provided sources.
+  **Notes:** Most recent funding round is Series C completed September 27, 2024 for €150 million (US$166 million). Wikipedia notes a planned 2022 SPAC merger with $1.4bn valuation was cancelled. Company has subsidiaries in Portugal, UK, and USA (D-Orbit USA joint venture established July 2024).
 
 ### Fervo Energy
 
-- **`totalRaised`:** `$1.89B IPO` → `$1.5B+`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Fervo_Energy)
+- **`fundingStage`:** `IPO` → `Public`  
+  Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** Wikipedia source (index 0) lists company as 'Private' as of the article date, contradicting the database entry's claim of a May 2026 IPO. The IPO sources (indices 1-2) are headlines only with no accessible content to verify IPO details. Most recent verifiable funding is $462 million Series E in November 2025 led by B Capital. Cape Station expected to come online by 2026.
-
-### Form Energy
-
-- **`location`:** `Somerville, MA` → `Somerville, MA, US`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Form_Energy)
-
-  **Notes:** Source [1] (TechCrunch article about Waymo batteries) does not contain relevant information about Form Energy and was not used. Wikipedia source provides comprehensive verified information but does not specify current funding stage or latest valuation.
-
-### Helion
-
-- **`investors`:** `[]` → `['Sam Altman']`  
-  Sources: [news (TechCrunch)](https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/)
-
-  **Notes:** Only one source provided (TechCrunch article). Article confirms $465M fundraise (differs from database entry of $425M Series F) and 2028 Microsoft power plant delivery commitment. Cannot verify other fields (founders, location, founded_year, total_raised, valuation, stage) without additional sources. Sam Altman identified as backer/investor.
-
-### Impulse Space
-
-- **`fundingStage`:** `SPAC` → `Private`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Impulse_Space)
-
-  **Notes:** Recent $500M Series D funding announced in June 2026 (source [3] and [4]) brings total raised to approximately $1.525B, but valuation not explicitly stated in sources. Company has completed three LEO Express missions (launched 2023, 2025, 2025) per source [1].
-
-### PsiQuantum
-
-- **`location`:** `Palo Alto, CA` → `Palo Alto, California, US`  
-  Sources: [company_about](https://psiquantum.com/about) · [wikipedia](https://en.wikipedia.org/wiki/PsiQuantum)
-- **`totalRaised`:** `$1.6B+` → `$1.415B`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/PsiQuantum)
-
-  **Notes:** March 2025: raised $750M at $6B valuation (source 2). May 2026: signed $100M Letter of Intent with U.S. Department of Commerce (source 0). Facilities include HQ in Palo Alto CA, operations in Milpitas CA, Daresbury UK, Malta NY (GlobalFoundries), Chicago IL (IQMP), Queensland Australia (Moreton Bay Central and Brisbane Test & Validation Lab) (source 1). Australian Commonwealth and Queensland governments invested A$940 million in 2024 (source 2). Total raised calculation: $665M (July 2021) + $750M (March 2025) = $1.415B
+  **Notes:** IPO completed May 13, 2026 on Nasdaq (ticker FRVO) raising $1.89B according to source 0 newsroom headlines dated May 17, 2026. Wikipedia source [2] lists company as 'Private' but this appears outdated given IPO completion date in source 0. Series E funding of $462 million received November 2025 per source 2.
 
 ### SpaceX
 
-- **`fundingStage`:** `Series G` → `Pre-IPO`  
+- **`fundingStage`:** `IPO` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Source [1] Wikipedia states 'SpaceX is not publicly traded but is expected to have an initial public offering (IPO) in 2026.' Source [3] indicates upcoming IPO plans to raise at least $75 billion at valuation exceeding $1.75 trillion, but this is future-oriented and not yet verified as current status. The database entry claims IPO at $1.5T valuation, but source [1] cites $800B valuation from 2025 share offer and source [3] projects $1.75T+ in IPO filing.
+  **Notes:** Source [1] indicates SpaceX is expected to have an IPO in 2026, but as of the sources provided, it remains a private company. The database entry claims 'IPO' as current stage and lists $1.5T valuation as preparation target, but Wikipedia cites $800B valuation from 2025 share offer and states IPO is expected in 2026, not yet completed. Sources [2], [3], and [4] are news articles discussing electricity, Tesla roadster delays, and Google compute deal respectively—none contain verifiable company facts about SpaceX itself.
 
-### Vast
+### Starcloud
 
-- **`location`:** `Los Angeles, CA` → `Long Beach, CA`  
-  Sources: [company_website](https://www.vastspace.com)
+- **`fundingStage`:** `SPAC` → `Series A`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Haven Demo launched November 2025 on Bandwagon-4 rideshare and was deorbited in February 2026. Haven-1 launch date specified as 2027 on website (not May 2026 as in database entry). Max Haot is CEO; Launcher was acquired by Vast. No specific founding year, total funding amount, valuation, or investor names could be verified from sources.
+  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024 and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A funding announced March 30, 2026. Fastest unicorn in Y Combinator history (17 months from demo day).
 
 ---
 
-## ✅ Cleared (30 companies)
+## ✅ Cleared (32 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -119,36 +86,37 @@ Sample (first 30):
 
 - AST SpaceMobile
 - Asimov
-- Astera Labs
+- AstroForge
+- Atom Computing
 - Axiom Space
 - Blue Origin
 - Crusoe Energy
 - Deterrence
-- EnerVenue
+- Endurosat
 - HEO
 - Humanoid
 - ICON
 - Mach Industries
 - Mara
 - Muon Space
+- Osmo
 - Oxford Quantum Circuits
 - Palantir
 - Percepto
 - Photonic Inc
 - Pivotal
 - Profluent
+- PsiQuantum
 - Rebellions
-- Rivian
 - Solid Power
 - Standard Nuclear
-- Starcloud
 - Substrate
+- Vast
 - Waymo
 - X-Energy
-- Zettascale
-- ideaForge
+- *...and 2 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-06-05T09:35:23+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-06-06T08:28:42+00:00*
