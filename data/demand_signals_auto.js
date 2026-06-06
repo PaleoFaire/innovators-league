@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-06-05 10:38:34 UTC
-// Total signals: 44 | Companies matched: 184
+// Last updated: 2026-06-06 09:15:19 UTC
+// Total signals: 44 | Companies matched: 185
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -1445,6 +1445,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "PAVE Space",
+        "score": 22,
+        "matchReasons": [
+          "tag: space propulsion",
+          "tag: cislunar"
+        ]
+      },
+      {
         "name": "Antares",
         "score": 22,
         "matchReasons": [
@@ -1494,6 +1502,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
+      "PAVE Space",
       "Antares",
       "The Exploration Company",
       "Portal Space Systems",
@@ -5038,6 +5047,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Fission Power Systems for Lunar Surface Operations"
     ]
   },
+  "PAVE Space": {
+    "name": "PAVE Space",
+    "govPullScore": 14,
+    "matchCount": 1,
+    "topAgencies": [
+      "NASA"
+    ],
+    "avgRelevance": 22,
+    "topSignals": [
+      "Advanced In-Space Propulsion Technologies"
+    ]
+  },
   "Portal Space Systems": {
     "name": "Portal Space Systems",
     "govPullScore": 12,
@@ -6517,6 +6538,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 184,
-  "lastUpdated": "2026-06-05 10:38:34 UTC"
+  "companiesMatched": 185,
+  "lastUpdated": "2026-06-06 09:15:19 UTC"
 };

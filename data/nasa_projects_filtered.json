@@ -91,26 +91,9 @@
     "website": ""
   },
   {
-    "id": 183924,
-    "title": "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescopes",
-    "description": "Capability Need/Knowledge Gap:   Improved imaging of dim astrophysics phenomena, particularly for habitable Earth-like exoplanets, and higher precision, particularly for Mars mapping and deep-space navigation. Related to Civil Space Shortfalls 1598 and 1604, as well as 1626     Objectives: Improve imaging, including reducing the number of samples required to achieve given resolution, through advancing  Quantum-Enhanced Very Long Baseline Interferometry (QE-VLBI)",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Quantum Computer",
-    "partners": [
-      "Ames Research Center",
-      "Glenn Research Center",
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183956,
-    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
-    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
+    "id": 183952,
+    "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
+    "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
     "status": "Active",
     "startDate": "Nov 2025",
     "endDate": "Sep 2026",
@@ -118,7 +101,8 @@
     "center": "Ames Research Center",
     "technologyArea": "Robot Navigation and Path Planning",
     "partners": [
-      "Ames Research Center"
+      "Ames Research Center",
+      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
@@ -139,18 +123,19 @@
     "website": ""
   },
   {
-    "id": 183952,
-    "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
-    "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
+    "id": 183924,
+    "title": "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescopes",
+    "description": "Capability Need/Knowledge Gap:   Improved imaging of dim astrophysics phenomena, particularly for habitable Earth-like exoplanets, and higher precision, particularly for Mars mapping and deep-space navigation. Related to Civil Space Shortfalls 1598 and 1604, as well as 1626     Objectives: Improve imaging, including reducing the number of samples required to achieve given resolution, through advancing  Quantum-Enhanced Very Long Baseline Interferometry (QE-VLBI)",
     "status": "Active",
     "startDate": "Nov 2025",
     "endDate": "Sep 2026",
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
-    "technologyArea": "Robot Navigation and Path Planning",
+    "technologyArea": "Quantum Computer",
     "partners": [
       "Ames Research Center",
-      "Jet Propulsion Laboratory"
+      "Glenn Research Center",
+      "Goddard Space Flight Center"
     ],
     "website": ""
   },
@@ -164,6 +149,21 @@
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
     "technologyArea": "Above-Surface Mobility",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183956,
+    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
+    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
     "partners": [
       "Ames Research Center"
     ],

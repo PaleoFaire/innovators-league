@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-06-05 11:07:48 UTC
-// Total: 4 filings across 4 companies
+// Last updated: 2026-06-06 09:57:26 UTC
+// Total: 8 filings across 7 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-06-05T11:07:48.103667+00:00",
+  "generated_at": "2026-06-06T09:57:26.408870+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 4,
+  "total_filings": 8,
   "filings": [
     {
       "company": "Dexterity",
@@ -72,6 +72,74 @@ const FORM_D_FILINGS = {
       "amount_sold": "499832346",
       "amount_remaining": "167655",
       "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Star Catcher",
+      "issuer_name": "Star Catcher Industries Inc",
+      "form": "D",
+      "filed_date": "2026-06-01",
+      "cik": "2136299",
+      "accession": "0002136299-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136299&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002136299-26-000001",
+      "offering_amount": "64999966",
+      "amount_sold": "64999966",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Atom",
+      "issuer_name": "Atom Partners LP",
+      "form": "D",
+      "filed_date": "2026-06-01",
+      "cik": "1741621",
+      "accession": "0000905148-26-002762",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001741621&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000905148-26-002762",
+      "offering_amount": "Indefinite",
+      "amount_sold": "188609682",
+      "amount_remaining": "Indefinite",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Atom",
+      "issuer_name": "Atom Overseas Ltd",
+      "form": "D",
+      "filed_date": "2026-06-01",
+      "cik": "1741567",
+      "accession": "0000905148-26-002761",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001741567&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000905148-26-002761",
+      "offering_amount": "Indefinite",
+      "amount_sold": "1788090302",
+      "amount_remaining": "Indefinite",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Lambda",
+      "issuer_name": "Lambda Labs Mar 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-05-28",
+      "cik": "2122831",
+      "accession": "0002122831-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002122831&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002122831-26-000001",
+      "offering_amount": "90000",
+      "amount_sold": "90000",
+      "amount_remaining": "0",
+      "securities_type": "",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false

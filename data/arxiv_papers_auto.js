@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-06-05 10:38:59 UTC
+// Last updated: 2026-06-06 09:17:40 UTC
 const ARXIV_PAPERS = [
   { id: "2606.06493v1", title: "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers", category: "Artificial Intelligence", published: "2026-06-04", sectors: "robotics", authors: "Lizhi Yang, Junheng Li, Nehar Poddar et al." },
   { id: "2606.06491v1", title: "TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies", category: "Artificial Intelligence", published: "2026-06-04", sectors: "robotics", authors: "Dong Jing, Jingchen Nie, Tianqi Zhang et al." },

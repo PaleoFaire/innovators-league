@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-06-04",
-    "vehicle": "Long March 6A | SpaceSail Polar Group #11",
-    "payload": "SpaceSail Polar Group #11",
-    "pad": "Launch Complex 9A, Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/5db6b0f1-446d-4209-824f-1187e1b6d212/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-05",
-    "vehicle": "Long March 8 | SpaceSail Polar Group #12",
-    "payload": "SpaceSail Polar Group #12",
-    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/3dd21d77-a37d-419c-86fb-8591fe256583/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-06-07",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-43",
     "payload": "Starlink Group 17-43",
@@ -117,6 +99,15 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-06-17",
+    "vehicle": "Ariane 64 Block 2 | Amazon Leo (LE-03)",
+    "payload": "Amazon Leo (LE-03)",
+    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed8ccd18-b530-4f55-92ae-bda89ac2985c/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-06-23",
     "vehicle": "Long March 7A | Unknown Payload",
     "payload": "Unknown Payload",
@@ -195,15 +186,6 @@
     "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
     "provider": "Isar Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Ariane 64 Block 2 | Amazon Leo (LE-03)",
-    "payload": "Amazon Leo (LE-03)",
-    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed8ccd18-b530-4f55-92ae-bda89ac2985c/?format=json",
     "trackedCompany": null
   },
   {
@@ -405,6 +387,15 @@
     "trackedCompany": "Rocket Lab"
   },
   {
+    "date": "2026-08-27",
+    "vehicle": "Ariane 62 | MTG-I2",
+    "payload": "MTG-I2",
+    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a57aed97-b94f-42e1-905e-9421dbd96ac8/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-08-30",
     "vehicle": "Falcon Heavy | Nancy Grace Roman Space Telescope",
     "payload": "Nancy Grace Roman Space Telescope",
@@ -412,15 +403,6 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/521f3a1c-f977-4306-9b7f-495858719adf/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-31",
-    "vehicle": "Ariane 62 | MTG-I2",
-    "payload": "MTG-I2",
-    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a57aed97-b94f-42e1-905e-9421dbd96ac8/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-08-31",
@@ -448,5 +430,23 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/c703fab3-2ce4-4cf1-861d-754da3f3ad42/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-08-31",
+    "vehicle": "Long March 5 | Chang'e 7",
+    "payload": "Chang'e 7",
+    "pad": "101, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9d402fb6-9115-424d-b6f0-bd3b13ee310e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-09",
+    "vehicle": "Vega-C | Sentinel-3C & FLEX",
+    "payload": "Sentinel-3C & FLEX",
+    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
+    "provider": "Avio S.p.A",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
+    "trackedCompany": null
   }
 ]

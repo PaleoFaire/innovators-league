@@ -1,7 +1,7 @@
 // Auto-generated ARPA-E project data
-// Last updated: 2026-06-05 10:39:37 UTC
+// Last updated: 2026-06-06 09:16:21 UTC
 // Total projects: 300 | Active: 153
-// Private companies: 104 | Known TIL: 25
+// Private companies: 104 | Known TIL: 29
 // Unique organizations: 204 | Total funding: $836,305,366
 const ARPA_E_PROJECTS_AUTO = [
   {
@@ -2718,7 +2718,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "1,600,000",
     programAcronym: "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
     technologyAreas: ["Resources"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -2731,7 +2731,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "1,600,000",
     programAcronym: "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
     technologyAreas: ["Resources"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -2939,7 +2939,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "1,275,000",
     programAcronym: "Mining Innovations for New Energy Resilience",
     technologyAreas: ["Manufacturing", "Industrial Efficiency", "Other - Resources", "Resources"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
@@ -3108,7 +3108,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "1,000,000",
     programAcronym: "Revolutionizing Ore to Steel to Impact Energy",
     technologyAreas: ["Manufacturing", "Industrial Efficiency", "Other - Industrial Efficiency"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: true,
   },
   {
