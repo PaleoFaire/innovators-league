@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-05T23:18:16.122668+00:00",
-  "date": "2026-06-05",
-  "dateDisplay": "Friday, June 05, 2026",
+  "generatedAt": "2026-06-06T04:14:04.981791+00:00",
+  "date": "2026-06-06",
+  "dateDisplay": "Saturday, June 06, 2026",
   "sections": {
     "govActivity": [
       {
@@ -81,16 +81,16 @@
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 32.05,
-        "changePercent": -37.34,
-        "change": -19.09
+        "price": 32.22,
+        "changePercent": -37.0,
+        "change": -18.92
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 29.35,
-        "changePercent": -33.04,
-        "change": -14.48
+        "price": 29.36,
+        "changePercent": -33.01,
+        "change": -14.47
       },
       {
         "ticker": "SATL",
@@ -109,23 +109,23 @@
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 57.02,
-        "changePercent": -20.88,
-        "change": -15.05
+        "price": 56.78,
+        "changePercent": -21.22,
+        "change": -15.29
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 23.86,
-        "changePercent": -20.82,
-        "change": -6.28
+        "price": 23.85,
+        "changePercent": -20.87,
+        "change": -6.29
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.15,
-        "changePercent": -20.19,
-        "change": -0.55
+        "price": 2.16,
+        "changePercent": -20.0,
+        "change": -0.54
       },
       {
         "ticker": "JOBY",
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PL -37.3%"
+    "topMover": "PL -37.0%"
   }
 }
