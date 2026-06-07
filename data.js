@@ -56516,11 +56516,11 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-07 11:56
+// Last updated: 2026-06-07 14:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "20h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "21h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "22h ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
