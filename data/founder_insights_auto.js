@@ -1,12 +1,288 @@
 // Auto-generated from founder_insights_auto.json
-// Last updated: 2026-05-31T11:08:52+00:00
+// Last updated: 2026-06-07T11:11:18+00:00
 const FOUNDER_INSIGHTS_AUTO = {
-  "generatedAt": "2026-05-31T11:08:52+00:00",
+  "generatedAt": "2026-06-07T11:11:18+00:00",
   "model": "claude-haiku-4-5",
-  "companiesProcessed": 140,
-  "companiesWithInsights": 0,
-  "totalInsights": 0,
-  "newClaudeCallsThisRun": 140,
-  "byCompany": {}
+  "companiesProcessed": 160,
+  "companiesWithInsights": 11,
+  "totalInsights": 22,
+  "newClaudeCallsThisRun": 160,
+  "byCompany": {
+    "SpaceX": {
+      "founder": "Elon Musk",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:08:03+00:00",
+      "insights": [
+        {
+          "quote": "The case for SpaceX: Compounding launch monopoly and Starlink",
+          "topic": "Business strategy",
+          "source_type": "podcast",
+          "source_name": "All-In",
+          "url": "https://allinchamathjason.libsyn.com/thomas-laffont-the-4t-ai-ipo-wave-2026s-unicorn-economy-and-the-10x-paradox",
+          "date": "2026-06-04",
+          "paraphrased": true
+        },
+        {
+          "quote": "SpaceX-Anthropic deal, Elon Web Services, SpaceX IPO valuation",
+          "topic": "Strategic partnerships",
+          "source_type": "podcast",
+          "source_name": "All-In",
+          "url": "https://allinchamathjason.libsyn.com/elons-anthropic-deal-the-next-ai-monopoly-fda-for-ai-panic-trading-the-ai-boom",
+          "date": "2026-05-08",
+          "paraphrased": true
+        },
+        {
+          "quote": "SpaceX cold gas thruster system that Tesla claims will allow the Roadster to achieve extreme acceleration and even lift off the ground",
+          "topic": "Technology development",
+          "source_type": "news",
+          "source_name": "Electrek",
+          "url": "https://electrek.co/2026/06/05/tesla-roadster-demo-delayed-august-spacex-thruster",
+          "date": "2026-06-05",
+          "paraphrased": true
+        },
+        {
+          "quote": "CEO Elon Musk has previously suggested his company would reserve the Colossus 2 data center for xAI",
+          "topic": "Data center strategy",
+          "source_type": "news",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+          "date": "2026-06-05",
+          "paraphrased": true
+        }
+      ]
+    },
+    "Harbinger": {
+      "founder": "John Harris, Phillip Weicker, Will Eberts",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:08:12+00:00",
+      "insights": [
+        {
+          "quote": "Harbinger has always built for the toughest commercial missions, and the Warfighter's mission is the toughest of all. Partnering with American Rheinmetall, one of the most capable ground systems integrators serving the DoW, allows us to bring our autonomy-ready platform at a price point that makes true attritable mass possible. Together, we can give Soldiers robotic systems that are affordable enough to be everywhere they're needed, and tough enough to do the job when they get there. Most importantly, by taking the driver out of the vehicle with advanced autonomy and teleoperation, we can keep service men and women out of harm's way.",
+          "topic": "Military autonomy strategy",
+          "source_type": "news",
+          "source_name": "Electrek",
+          "url": "https://electrek.co/2026/06/06/harbinger-gears-up-for-war-with-autonomous-military-truck-program/",
+          "date": "2026-06-06",
+          "paraphrased": false
+        }
+      ]
+    },
+    "Scale AI": {
+      "founder": "Alexandr Wang, Lucy Guo",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:08:46+00:00",
+      "insights": [
+        {
+          "quote": "Wang seemed nervous hashing out the strategy in the studio, and we both keep circling the same puzzle: Meta has endless compute and top talent in Nat Fried",
+          "topic": "Meta AI strategy",
+          "source_type": "podcast",
+          "source_name": "Core Memory",
+          "url": "https://www.corememory.com/p/openai-musk-verdict-schmidt-booed-grok-taxes",
+          "date": "2026-05-22",
+          "paraphrased": true
+        }
+      ]
+    },
+    "Palantir": {
+      "founder": "Peter Thiel, Alex Karp, Stephen Cohen, Joe Lonsdale, Nathan Gettings",
+      "ticker": "NYSE: PLTR",
+      "lastUpdated": "2026-06-07T11:08:59+00:00",
+      "insights": [
+        {
+          "quote": "We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
+          "topic": "Maven Edge capability, autonomous coordination",
+          "source_type": "earnings",
+          "source_name": "Palantir Technologies 2025-Q4 earnings call",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+          "date": "2026-02-02",
+          "paraphrased": false
+        },
+        {
+          "quote": "Alex Karp, co-founder and CEO of Palantir Technologies, discusses the evolution of artificial intelligence (AI) adoption, noting a shift from skepticism to widespread recognition of its value, while cautioning against unproductive overuse.",
+          "topic": "AI adoption trajectory, productive vs unproductive use",
+          "source_type": "podcast",
+          "source_name": "TBPN",
+          "url": "https://share.transistor.fm/s/47c63ce6",
+          "date": "2026-06-04",
+          "paraphrased": true
+        }
+      ]
+    },
+    "Planet Labs": {
+      "founder": "Chris Boshuizen, William Marshall, Robbie Schingler",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:09:19+00:00",
+      "insights": [
+        {
+          "quote": "Both CEOs on going public: Impact on employees, customers, and business operations",
+          "topic": "IPO impact",
+          "source_type": "podcast",
+          "source_name": "All-In",
+          "url": "https://allinchamathjason.libsyn.com/the-ipo-comeback-why-tech-giants-are-finally-going-public-all-in-liquidity-ipo-panel",
+          "date": "2026-06-06",
+          "paraphrased": true
+        },
+        {
+          "quote": "Timelines for datacenters in space",
+          "topic": "space infrastructure",
+          "source_type": "podcast",
+          "source_name": "All-In",
+          "url": "https://allinchamathjason.libsyn.com/the-ipo-comeback-why-tech-giants-are-finally-going-public-all-in-liquidity-ipo-panel",
+          "date": "2026-06-06",
+          "paraphrased": true
+        },
+        {
+          "quote": "How Founder/CEOs think about liquidity on the road to going public",
+          "topic": "founder liquidity strategy",
+          "source_type": "podcast",
+          "source_name": "All-In",
+          "url": "https://allinchamathjason.libsyn.com/the-ipo-comeback-why-tech-giants-are-finally-going-public-all-in-liquidity-ipo-panel",
+          "date": "2026-06-06",
+          "paraphrased": true
+        }
+      ]
+    },
+    "Rocket Lab": {
+      "founder": "Peter Beck",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:09:27+00:00",
+      "insights": [
+        {
+          "quote": "The priority will always be to bring a reliable rocket to market, even if it means taking a few extra months.",
+          "topic": "reliability over speed",
+          "source_type": "earnings",
+          "source_name": "Rocket Lab Q4 2025 Earnings Call",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/",
+          "date": "2026-02-26",
+          "paraphrased": false
+        }
+      ]
+    },
+    "Waymo": {
+      "founder": "Sebastian Thrun, Anthony Levandowski",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:09:33+00:00",
+      "insights": [
+        {
+          "quote": "Through this partnership, we can repurpose our batteries for local grid storage and ensure our batteries continue to provide economic and environmental value to the community long after they've retired from the road.",
+          "topic": "battery second-life strategy",
+          "source_type": "news",
+          "source_name": "Electrek",
+          "url": "https://electrek.co/2026/06/04/waymo-retired-robotaxi-batteries-are-heading-back-to-work-b2u/",
+          "date": "2026-06-04",
+          "paraphrased": false
+        },
+        {
+          "quote": "That's when we look to these second-life applications, because there's still a lot of life left in the battery",
+          "topic": "battery lifecycle management",
+          "source_type": "news",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/",
+          "date": "2026-06-04",
+          "paraphrased": false
+        },
+        {
+          "quote": "Waymo's 'proactive maintenance' for its autonomous vehicles includes identifying opportunities to 'refresh the battery to improve efficiency overall for our fleet'",
+          "topic": "fleet maintenance strategy",
+          "source_type": "news",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/",
+          "date": "2026-06-04",
+          "paraphrased": true
+        }
+      ]
+    },
+    "Fervo Energy": {
+      "founder": "Tim Latimer, Jack Norbeck",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:10:16+00:00",
+      "insights": [
+        {
+          "quote": "Fervo makes geothermal energy viable in far more places by harnessing horizontal drilling techniques borrowed from the oil-and-gas industry, for which its CEO and co-founder, Tim Latimer, previously worked.",
+          "topic": "Technology approach",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone",
+          "date": "2026-05-13",
+          "paraphrased": true
+        },
+        {
+          "quote": "Fervo makes use of horizontal-drilling techniques honed in the shale oil and gas sector, where its CEO, Tim Latimer, worked before co-founding the company in 2017 alongside Jack Norbeck.",
+          "topic": "Founding and background",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
+          "date": "2026-04-20",
+          "paraphrased": true
+        },
+        {
+          "quote": "We are very, very focused on deploying megawatt",
+          "topic": "Deployment strategy",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone",
+          "date": "2026-05-13",
+          "paraphrased": false
+        }
+      ]
+    },
+    "Cerebras": {
+      "founder": "Andrew Feldman, Gary Lauterbach, Michael James, Sean Lie, Jean-Philippe Fricker",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:10:19+00:00",
+      "insights": [
+        {
+          "quote": "Why we are not in an infrastructure bubble and it is just the start",
+          "topic": "infrastructure market opportunity",
+          "source_type": "podcast",
+          "source_name": "20VC",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-cerebras-ceo-on-the-future-of-data-centres-token-costs-and-memory-we-are-not-in-an-infra-bubble-dario-got-a-bad-deal-with-elon-for-compute-should-us-companies-sell-to-china-why-most-layoffs-are-ai-washed-with-andrew-feldman",
+          "date": null,
+          "paraphrased": true
+        }
+      ]
+    },
+    "Axiom Space": {
+      "founder": "Michael T. Suffredini, Kam Ghaffarian",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:10:25+00:00",
+      "insights": [
+        {
+          "quote": "Investor interest in this round outpaced what we set out to raise, which speaks to the moment we're in",
+          "topic": "funding momentum, market timing",
+          "source_type": "news",
+          "source_name": "SpaceNews",
+          "url": "https://spacenews.com/axiom-space-adds-more-than-175-million-to-funding-round/",
+          "date": "2026-06-05",
+          "paraphrased": false
+        },
+        {
+          "quote": "Axiom appreciates NASA's decision to continue the Commercial LEO Destinations program under its established framework. Cooperation between private industry and NASA is paramount to preserving the continuous U.S. human presence in LEO",
+          "topic": "NASA partnership strategy",
+          "source_type": "news",
+          "source_name": "SpaceNews",
+          "url": "https://spacenews.com/axiom-space-adds-more-than-175-million-to-funding-round/",
+          "date": "2026-06-05",
+          "paraphrased": false
+        }
+      ]
+    },
+    "Endurosat": {
+      "founder": "Raycho Raychev",
+      "ticker": null,
+      "lastUpdated": "2026-06-07T11:10:49+00:00",
+      "insights": [
+        {
+          "quote": "EnduroSat, meanwhile, emphasized the potential to expand its mission-as-a-service offering by introducing an always-on connectivity layer that is increasingly in demand from customers.",
+          "topic": "mission-as-a-service expansion",
+          "source_type": "news",
+          "source_name": "SpaceNews",
+          "url": "https://spacenews.com/leaf-space-partners-with-d-orbit-and-endurosat-to-test-connectivity-service/",
+          "date": "2026-05-27",
+          "paraphrased": true
+        }
+      ]
+    }
+  }
 };
 if (typeof window !== 'undefined') window.FOUNDER_INSIGHTS_AUTO = FOUNDER_INSIGHTS_AUTO;

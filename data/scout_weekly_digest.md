@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-05-31
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-06-07
 
-**Roster:** 992 companies tracked  ·  **Screened this cycle:** 235  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1078 companies tracked  ·  **Screened this cycle:** 268  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -130,15 +130,15 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 - **[All-In]** [CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win](https://allinchamathjason.libsyn.com/ca-governor-candidate-steve-hilton-on-why-california-is-destroying-itself-how-a-republican-can-win)
 - **[Core Memory]** [The Startup Trying to Save Us From AI Bioweapons- EP 74 Hannu Rajaniemi](https://www.corememory.com/p/red-queen-bio-hannu-rajaniemi-ai-biosecurity)
 - **[TBPN]** [Google I/O: Day 1 Reactions, Goldman to Lead SpaceX IPO | Diet TBPN](https://share.transistor.fm/s/6d130aef)
-- **[TBPN]** [Google I/O Reactions, Large IPOs Incoming, Figma's AI Assistant | Dylan Field, Brian Chesky, Feross Aboukhadijeh, Tae Ki](https://share.transistor.fm/s/375903d7)
 - **[Core Memory]** [The Freshman Who Took Down Stanford's President And Its Perfect Image - EP 72 Theo Baker](https://www.corememory.com/p/the-freshman-who-took-down-stanford-theo-baker)
 - **[Invest Like the Best]** [Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]](https://colossus.com/episode/watts-and-wafers/)
 - **[Core Memory]** [The Very Wild, Very Real Plan To Build AI Data Centers In The Ocean - EP 65 Garth Sheldon-Coulson](https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth)
 - **[Core Memory]** [Meta's AI Chief On AI Beef, New Models And Life With Zuck - EP 71 Alex Wang](https://www.corememory.com/p/metas-ai-chief-alex-wang-muse-spark-ai-wars)
 - **[Invest Like the Best]** [Krishna Rao - Anthropic's CFO on Compute, Scaling to $30B ARR, and the Returns to Frontier Intelligence - [Invest Like t](https://colossus.com/episode/cone-of-uncertainty/)
 - **[All-In]** [Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race](https://allinchamathjason.libsyn.com/josh-shapiro-on-trump-iran-war-chaos-israels-failure-the-economy-and-2028-race)
+- **[Core Memory]** [The Company Helping Paralyzed People Move And Thrive Again - EP 64 Dave Marver](https://www.corememory.com/p/the-company-helping-paralyzed-people)
 
 ---
 
 
-*Generated 2026-05-31T11:00:06+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-06-07T11:07:45+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
