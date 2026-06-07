@@ -1,41 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-06-07T00:13:21.526Z
+// Last updated: 2026-06-07T05:46:02.195Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1780791201526,
+    "id": 1780811162195,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
     "source": "TechCrunch",
-    "time": "3h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"
   },
   {
-    "id": 1780791201527,
+    "id": 1780811162196,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Trump administration might take an equity stake in OpenAI",
     "source": "TechCrunch",
-    "time": "7h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/"
   },
   {
-    "id": 1780791201528,
+    "id": 1780811162197,
     "type": "news",
     "company": "Harbinger",
     "headline": "Harbinger gears up for war with autonomous military truck program",
     "source": "Electrek",
-    "time": "8h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://electrek.co/2026/06/06/harbinger-gears-up-for-war-with-autonomous-military-truck-program/"
   },
   {
-    "id": 1780791201529,
+    "id": 1780811162198,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Jacking Up Electricity Prices So You Don&#8217;t Have To Think — SpaceX Edition",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/06/05/jacking-up-electricity-prices-so-you-dont-have-to-think-spacex-edition/"
   },
   {
-    "id": 1780791201530,
+    "id": 1780811162199,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla pushes Roadster demo to August as SpaceX thruster work continues",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/06/05/tesla-roadster-demo-delayed-august-spacex-thruster/"
   },
   {
-    "id": 1780791201531,
+    "id": 1780811162200,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Google will pay SpaceX $920M per month for compute",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
   },
   {
-    "id": 1780791201532,
+    "id": 1780811162201,
     "type": "ipo",
     "company": "D-Orbit",
     "headline": "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/leaf-space-partners-with-d-orbit-and-endurosat-to-test-connectivity-service/"
   },
   {
-    "id": 1780791201533,
+    "id": 1780811162202,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NASA briefly sheltered space station astronauts in SpaceX&#8217;s Dragon due to leaks",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/05/nasa-briefly-sheltered-space-station-astronauts-in-spacexs-dragon-due-to-leaks/"
   },
   {
-    "id": 1780791201534,
+    "id": 1780811162203,
     "type": "news",
     "company": "Anthropic",
     "headline": "NSA said to be readying Anthropic&#8217;s Mythos for use in cyber operations",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations/"
   },
   {
-    "id": 1780791201535,
+    "id": 1780811162204,
     "type": "funding",
     "company": "Blue Origin",
     "headline": "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/06/rocket-report-blue-origin-explosion-still-making-headlines-impulse-raises-money/"
   },
   {
-    "id": 1780791201536,
+    "id": 1780811162205,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "The European investors set to win big from Anthropic’s $1tn+ IPO",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/european-investors-win-anthropic-ipo/"
   },
   {
-    "id": 1780791201537,
+    "id": 1780811162206,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI and Anthropic May Be Rivals, but Investors Aren’t Picking Sides",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides/"
   },
   {
-    "id": 1780791201538,
+    "id": 1780811162207,
     "type": "funding",
     "company": "Axiom Space",
     "headline": "Axiom Space adds more than $175 million to funding round",
@@ -145,29 +145,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/axiom-space-adds-more-than-175-million-to-funding-round/"
   },
   {
-    "id": 1780791201539,
+    "id": 1780811162208,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin rocket explosion shows ‘fragility’ of national-security launch plans",
     "source": "Defense One",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/defense-systems/2026/06/blue-origin-rocket-explosion-launch-plans/413993/"
   },
   {
-    "id": 1780791201540,
+    "id": 1780811162209,
     "type": "hire",
     "company": "Substrate",
     "headline": "Korea&#8217;s LG already invests $10.6B in Vietnam, to build semiconductor substrate factory in Hai Phong",
     "source": "TechNode Global",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://technode.global/2026/06/05/koreas-lg-already-invests-10-6b-in-vietnam-to-build-semiconductor-substrate-factory-in-hai-phong/"
   },
   {
-    "id": 1780791201541,
+    "id": 1780811162210,
     "type": "ipo",
     "company": "AstroForge",
     "headline": "AstroForge completes DeepSpace-2 spacecraft",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/astroforge-completes-deepspace-2-spacecraft/"
   },
   {
-    "id": 1780791201542,
+    "id": 1780811162211,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX&#8217;s xAI  just bought another $269M of Tesla Megapacks",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/06/04/spacex-xai-269-million-tesla-megapack-purchase-s1-filing/"
   },
   {
-    "id": 1780791201543,
+    "id": 1780811162212,
     "type": "news",
     "company": "Waymo",
     "headline": "Used Waymo robotaxi batteries become backup storage for power grids",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/"
   },
   {
-    "id": 1780791201544,
+    "id": 1780811162213,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo’s retired robotaxi batteries are heading back to work",
@@ -211,12 +211,12 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/06/04/waymo-retired-robotaxi-batteries-are-heading-back-to-work-b2u/"
   },
   {
-    "id": 1780791201545,
+    "id": 1780811162214,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX to raise at least $75 billion in IPO",
     "source": "SpaceNews",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "high",
     "unread": false,
     "link": "https://spacenews.com/spacex-to-raise-at-least-75-billion-in-ipo/"

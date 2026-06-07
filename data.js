@@ -55857,11 +55857,11 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-07 00:13
+// Last updated: 2026-06-07 05:46
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "8h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "14h ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
@@ -55872,8 +55872,8 @@ const COMPANY_SIGNALS = [
   { id: 11, type: "ipo", company: "Anthropic", headline: "The European investors set to win big from Anthropic's $1tn+ IPO", source: "Sifted", time: "1d ago", impact: "high", unread: false },
   { id: 12, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic May Be Rivals, but Investors Aren't Picking Sides", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "funding", company: "Axiom Space", headline: "Axiom Space adds more than $175 million to funding round", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin rocket explosion shows 'fragility' of national-security launch plans", source: "Defense One", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Substrate", headline: "Korea's LG already invests $10.6B in Vietnam, to build semiconductor substrate factory in Hai Phong", source: "TechNode Global", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin rocket explosion shows 'fragility' of national-security launch plans", source: "Defense One", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Substrate", headline: "Korea's LG already invests $10.6B in Vietnam, to build semiconductor substrate factory in Hai Phong", source: "TechNode Global", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
