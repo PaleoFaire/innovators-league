@@ -1,79 +1,140 @@
 {
-  "generated_at": "2026-05-31T10:11:25.316260+00:00",
-  "week_ending": "2026-05-31",
+  "generated_at": "2026-06-07T10:25:25.709355+00:00",
+  "week_ending": "2026-06-07",
   "window_days": 7,
-  "events_processed": 8,
-  "companies_touched": 7,
-  "companies_moved": 0,
-  "companies_unchanged": 2,
-  "movers_up_top20": [],
+  "events_processed": 9,
+  "companies_touched": 9,
+  "companies_moved": 3,
+  "companies_unchanged": 3,
+  "movers_up_top20": [
+    {
+      "company": "IonQ",
+      "delta": 4.0,
+      "new_composite": 93.0,
+      "old_composite": 89.0,
+      "new_tier": "elite",
+      "reasons": [
+        "[exec_hire_star] "
+      ]
+    },
+    {
+      "company": "NuScale Power",
+      "delta": 1.5,
+      "new_composite": 74.5,
+      "old_composite": 73.0,
+      "new_tier": "leader",
+      "reasons": [
+        "[exec_hire_star] "
+      ]
+    },
+    {
+      "company": "Intuitive Machines",
+      "delta": 1.5,
+      "new_composite": 61.5,
+      "old_composite": 60.0,
+      "new_tier": "strong",
+      "reasons": [
+        "[exec_hire_star] "
+      ]
+    }
+  ],
   "movers_down_top10": [],
-  "tier_crossings": [],
-  "first_time_elite": [],
+  "tier_crossings": [
+    {
+      "company": "IonQ",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 93.0,
+      "reasons": [
+        "[exec_hire_star] "
+      ],
+      "first_time_elite": true
+    }
+  ],
+  "first_time_elite": [
+    {
+      "company": "IonQ",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 93.0,
+      "reasons": [
+        "[exec_hire_star] "
+      ],
+      "first_time_elite": true
+    }
+  ],
   "top_headlines": [
     {
-      "company": "Anthropic",
-      "type": "funding_mega",
-      "detail": "Funding Round $65B",
-      "date": "2026-05-28",
-      "source": "funding_feed",
-      "url": ""
-    },
-    {
-      "company": "Anthropic",
-      "type": "funding_mega",
-      "detail": "Series H $65B",
-      "date": "2026-05-29",
-      "source": "funding_feed",
-      "url": ""
-    },
-    {
-      "company": "Virgin Galactic",
+      "company": "Rocket Lab",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-28",
+      "date": "2026-06-05",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001706946-26-000085%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Upstart Holdings",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-28",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001647639-26-000050%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "UiPath",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-28",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001734722-26-000037%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "D-Wave Quantum",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-26",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000071%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Aurora Innovation",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-05-26",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001828108-26-000057%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001819994-26-000056%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "Satellogic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-05-26",
+      "date": "2026-06-05",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-060781%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-065928%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "IonQ",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-04",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-040634%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Tempus AI",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-04",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-040769%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "C3.ai",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-03",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001577526-26-000056%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Virgin Galactic",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-02",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001193125-26-252565%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "NuScale Power",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-02",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001822966-26-000058%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Intuitive Machines",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-01",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-068890%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "D-Wave Quantum",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-01",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000078%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {

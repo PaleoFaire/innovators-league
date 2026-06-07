@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-31T10:11:27Z",
-  "company_count": 841,
+  "generated_at": "2026-06-07T10:25:27Z",
+  "company_count": 934,
   "checks": {
     "acquisition_language": [
       {
@@ -8,6 +8,13 @@
         "current_stage": "pre-ipo",
         "pattern_hit": "\\bmerged with\\b",
         "excerpt": "…r inference workloads. south korea's first ai chip unicorn. merged with sk telecom's sapeon korea (december 2024); raised $400m pre…",
+        "action": "Change fundingStage to \"Acquired\" and add acquiredBy field"
+      },
+      {
+        "name": "Rain AI",
+        "current_stage": "series a",
+        "pattern_hit": "\\bacquisition by\\b",
+        "excerpt": "…ped down; $150m series b failed in 2024; reportedly seeking acquisition by openai / nvidia / microsoft as of may 2025; only a $3m brid…",
         "action": "Change fundingStage to \"Acquired\" and add acquiredBy field"
       }
     ],
@@ -23,17 +30,12 @@
     ],
     "spac_staleness": [
       {
-        "name": "Anduril Industries",
+        "name": "Impulse Space",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       },
       {
         "name": "Intuitive Machines",
-        "current_stage": "SPAC",
-        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
-      },
-      {
-        "name": "Galvanick",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       },
@@ -51,23 +53,18 @@
         "name": "Starcloud",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
-      },
-      {
-        "name": "Skyrora",
-        "current_stage": "SPAC",
-        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       }
     ],
     "missing_websites": [
       {
         "name": "Epirus",
         "sector": "Defense & Security",
-        "founder": "Andy Lowery"
+        "founder": "Nathan Mintz, Bo Marr, Joe Lonsdale, John Tenet"
       },
       {
         "name": "Chaos Industries",
         "sector": "Defense & Security",
-        "founder": "John Tenet, Bo Marr"
+        "founder": "John Tenet, Gordon Kraft"
       },
       {
         "name": "CX2 Industries",
@@ -182,7 +179,7 @@
       {
         "name": "Cover",
         "sector": "Housing & Construction",
-        "founder": "Alexis Rivas"
+        "founder": "Alexis Rivas, Jemuel Joseph"
       },
       {
         "name": "Navier",
@@ -242,7 +239,7 @@
       {
         "name": "Atomic Industries",
         "sector": "Robotics & Manufacturing",
-        "founder": "Aaron Slodov, Lou Young Jr"
+        "founder": "Aaron Slodov, Austin Bishop, Lou Young Jr"
       },
       {
         "name": "Quilter",
@@ -287,17 +284,12 @@
       {
         "name": "True Anomaly",
         "sector": "Defense & Security",
-        "founder": "Even Rogers"
+        "founder": "Evan Rogers, Kyle Zakrzewski, Daniel Brunski, Tom Nichols"
       },
       {
         "name": "Theseus",
         "sector": "Defense & Security",
         "founder": "Carl Schoeller, Ian Laffey, Sacha Lévy"
-      },
-      {
-        "name": "Mara",
-        "sector": "Defense & Security",
-        "founder": "Daniel Kofman"
       },
       {
         "name": "Focused Energy",
@@ -352,7 +344,7 @@
       {
         "name": "Sunfire",
         "sector": "Climate & Energy",
-        "founder": "Nils Aldag"
+        "founder": "Carl Berninghausen, Nils Aldag, Christian von Olshausen"
       },
       {
         "name": "planqc",
@@ -382,7 +374,7 @@
       {
         "name": "Skeleton Technologies",
         "sector": "Climate & Energy",
-        "founder": "Taavi Madiberk"
+        "founder": "Oliver Ahlberg, Taavi Madiberk, Jaan Leis, Anti Perkson"
       },
       {
         "name": "Quantum Machines",
@@ -577,7 +569,7 @@
       {
         "name": "Poseidon Aerospace",
         "sector": "Space & Aerospace",
-        "founder": "David Zagaynov"
+        "founder": "David Zagaynov, Parker Tenney, Isaac Baumstark"
       },
       {
         "name": "General Galactic",
@@ -602,10 +594,10 @@
       {
         "name": "Fourth Power",
         "sector": "Climate & Energy",
-        "founder": "Asegun Henry"
+        "founder": "Asegun Henry, Arvin Ganesan"
       },
       {
-        "name": "Cemvita Factory",
+        "name": "Cemvita",
         "sector": "Climate & Energy",
         "founder": "Moji Karimi"
       },
@@ -692,7 +684,7 @@
       {
         "name": "Gallox Semiconductors",
         "sector": "Chips & Semiconductors",
-        "founder": "Jon McCandless"
+        "founder": "Jon McCandless, Debdeep Jena"
       },
       {
         "name": "Vertical Semiconductor",
@@ -702,17 +694,17 @@
       {
         "name": "Krevera",
         "sector": "Robotics & Manufacturing",
-        "founder": "Edward Schneeweiss"
+        "founder": "Edward Schneeweiss, Sebastian Schneeweiss"
       },
       {
         "name": "Photonium",
         "sector": "Chips & Semiconductors",
-        "founder": "Jennifer Song"
+        "founder": "Jennifer Song, Adam Mhatre"
       },
       {
         "name": "Drafter",
         "sector": "Robotics & Manufacturing",
-        "founder": "Chris Barton"
+        "founder": "Chris Barton, Peter Atkin"
       },
       {
         "name": "Strider Technologies",
@@ -727,7 +719,7 @@
       {
         "name": "Positron AI",
         "sector": "Chips & Semiconductors",
-        "founder": "Thomas Sohmers, Mitesh Agrawal, Edward Kmett"
+        "founder": "Thomas Sohmers, Barrett Woodside, Edward Kmett"
       },
       {
         "name": "Xsight Labs",
@@ -747,7 +739,7 @@
       {
         "name": "Precision AI",
         "sector": "Drones & Autonomous",
-        "founder": "Sreeram Raghavan, Matt Borzilleri"
+        "founder": "Daniel McCann"
       },
       {
         "name": "Dendra Systems",
@@ -767,7 +759,7 @@
       {
         "name": "Strand Therapeutics",
         "sector": "Biotech & Health",
-        "founder": "Jake Becraft, Tasuku Kitada"
+        "founder": "Jake Becraft, Tasuku Kitada, Ron Weiss"
       },
       {
         "name": "Rivet Industries",
@@ -797,12 +789,12 @@
       {
         "name": "Blackshark.ai",
         "sector": "Defense & Security",
-        "founder": "Michael Putz"
+        "founder": "Brad Young, Michael Putz, Thomas Richter Trummer"
       },
       {
         "name": "Improbable Defence",
         "sector": "Defense & Security",
-        "founder": "Herman Narula"
+        "founder": "Joe Robinson"
       },
       {
         "name": "Stegra",
@@ -937,12 +929,12 @@
       {
         "name": "Telexistence",
         "sector": "Robotics & Manufacturing",
-        "founder": "Jin Tomioka, Ken Tomoyose, Susumu Tachi"
+        "founder": "Jin Tomioka, Ken Tomoyose"
       },
       {
         "name": "EX-Fusion",
         "sector": "Nuclear Energy",
-        "founder": "Kazuki Matsuo, Shinsuke Fujioka"
+        "founder": "Kazuki Matsuo, Shinsuke Fujioka, Yoshitaka Mori"
       },
       {
         "name": "FuriosaAI",
@@ -1107,17 +1099,12 @@
       {
         "name": "Axibo AI",
         "sector": "Robotics & Manufacturing",
-        "founder": "Ishaan Mehta"
+        "founder": "Anoop Gadhrri, Sohaib Al-Emara, Reiner Schmidt"
       },
       {
         "name": "Epic Aerospace",
         "sector": "Space & Aerospace",
         "founder": "Ignacio Belieres Montero"
-      },
-      {
-        "name": "Akaer",
-        "sector": "Space & Aerospace",
-        "founder": "José Roberto Catarino (Cesar Silva CEO)"
       },
       {
         "name": "CubeSpace",
@@ -1182,12 +1169,12 @@
       {
         "name": "Space Machines Company",
         "sector": "Space & Aerospace",
-        "founder": "Rajat Kulshrestha"
+        "founder": "Rajat Kulshrestha, George Freney"
       },
       {
         "name": "HEO",
         "sector": "Space & Aerospace",
-        "founder": "William Crowe"
+        "founder": "William Crowe, Hiranya Jayakody"
       },
       {
         "name": "Asterra",
@@ -1225,11 +1212,6 @@
         "founder": "Colby Adcock, Collin Otis"
       },
       {
-        "name": "DZYNE Technologies",
-        "sector": "Defense & Security",
-        "founder": "Matt McCue"
-      },
-      {
         "name": "Hyfix",
         "sector": "Defense & Security",
         "founder": "Undisclosed"
@@ -1252,7 +1234,7 @@
       {
         "name": "Sunday Robotics",
         "sector": "Robotics & Manufacturing",
-        "founder": "Xiongyi Cui, Linxi Fan"
+        "founder": "Tony Zhao, Cheng Chi"
       },
       {
         "name": "Pivotal",
@@ -1275,11 +1257,6 @@
         "founder": "Tom Miller, Fred Manby, Matthew Welborn"
       },
       {
-        "name": "Rondo Energy",
-        "sector": "Climate & Energy",
-        "founder": "John O'Donnell, Eric Trusiewicz"
-      },
-      {
         "name": "Nuclearn.ai",
         "sector": "Nuclear Energy",
         "founder": "Bradley Fox"
@@ -1293,11 +1270,6 @@
         "name": "Lodge Systems",
         "sector": "Defense & Security",
         "founder": "Stuart Lodge"
-      },
-      {
-        "name": "Terra Industries",
-        "sector": "Defense & Security",
-        "founder": "Nathan Nwachuku"
       },
       {
         "name": "AIM Intelligent Machines",
@@ -1323,29 +1295,37 @@
         "name": "ISEE",
         "sector": "Drones & Autonomous",
         "founder": "Yibiao Zhao"
+      },
+      {
+        "name": "Strata Robotics",
+        "sector": "Robotics & Manufacturing",
+        "founder": "Undisclosed"
       }
     ],
     "stage_vocabulary": {
-      "Series A": 224,
-      "Series B": 180,
-      "Seed": 136,
-      "Series C": 86,
-      "Public": 55,
-      "Series D": 34,
+      "Series A": 255,
+      "Series B": 187,
+      "Seed": 161,
+      "Series C": 98,
+      "Public": 56,
+      "Series D": 36,
       "Growth": 24,
-      "Series E": 16,
-      "Series G": 12,
-      "Pre-Seed": 11,
+      "Pre-Seed": 15,
+      "Series E": 15,
+      "Series G": 13,
       "Late Stage": 10,
+      "Series F": 8,
       "Private": 8,
-      "SPAC": 7,
-      "Series F": 6,
+      "IPO": 5,
+      "SPAC": 5,
       "Pre-IPO": 5,
-      "IPO": 4,
-      "Acquired": 3,
       "Public (KOSDAQ)": 3,
+      "Series B-2": 2,
+      "Acquired": 2,
       "Bootstrapped": 2,
       "Public (Tokyo)": 2,
+      "Series D+": 2,
+      "Series H": 1,
       "Series B2": 1,
       "Series A-1": 1,
       "Pre-Series B": 1,
@@ -1354,13 +1334,26 @@
       "Sovereign (EDGE)": 1,
       "Sovereign (PIF)": 1,
       "Private (Baykar-aligned)": 1,
-      "Series D+": 1,
       "Public (TSX)": 1,
       "Public (GPW)": 1,
       "Series B+": 1,
-      "Seed+": 1
+      "Seed+": 1,
+      "Stealth": 1,
+      "Platform / strategic": 1,
+      "Series F+": 1,
+      "Government Contract": 1,
+      "Seed + SAFE": 1,
+      "Seed (stealth)": 1,
+      "Growth + Offtake": 1
     },
     "web_probes": [
+      {
+        "kind": "dead_website",
+        "name": "Atana Elements",
+        "url": "https://atanaelements.com",
+        "status": 403,
+        "action": "Website returns error code. Verify company is still operating."
+      },
       {
         "kind": "rebrand_suspect",
         "name": "Anduril Industries",
@@ -1474,11 +1467,11 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
-        "kind": "rebrand_suspect",
+        "kind": "unreachable_website",
         "name": "AMP Robotics",
-        "old_url": "https://amprobotics.com",
-        "new_url": "https://ampsortation.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+        "url": "https://amprobotics.com",
+        "error": "ReadTimeout",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
@@ -1510,7 +1503,7 @@
       },
       {
         "kind": "rebrand_suspect",
-        "name": "Kodiak Robotics",
+        "name": "Kodiak AI",
         "old_url": "https://kodiakrobotics.com",
         "new_url": "https://kodiak.ai/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
@@ -1551,13 +1544,6 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "rebrand_suspect",
-        "name": "Crusoe Energy",
-        "old_url": "https://crusoeenergy.com",
-        "new_url": "https://www.crusoe.ai/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
         "kind": "dead_website",
         "name": "Redwood Materials",
         "url": "https://redwoodmaterials.com",
@@ -1565,17 +1551,17 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
+        "kind": "unreachable_website",
+        "name": "Nuro",
+        "url": "https://nuro.ai",
+        "error": "ReadTimeout",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
         "kind": "rebrand_suspect",
         "name": "Archer Aviation",
         "old_url": "https://archeraviation.com",
         "new_url": "https://archer.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Whisper Aero",
-        "old_url": "https://whisperaero.com",
-        "new_url": "https://www.whisper.aero/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
@@ -1598,27 +1584,13 @@
         "old_url": "https://spaceforge.co.uk",
         "new_url": "https://www.spaceforge.com/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Black Semiconductor",
-        "old_url": "https://blacksemiconductor.com",
-        "new_url": "https://www.blacksemi.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Renaissance Fusion",
-        "old_url": "https://renaissancefusion.com",
-        "new_url": "https://renfusion.eu/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       }
     ]
   },
   "summary": {
-    "p0_issues": 26,
-    "p1_issues": 18,
-    "missing_websites": 253,
-    "distinct_stages": 33
+    "p0_issues": 22,
+    "p1_issues": 17,
+    "missing_websites": 249,
+    "distinct_stages": 42
   }
 }

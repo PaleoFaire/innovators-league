@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T11:05:34.170648+00:00",
+  "generated_at": "2026-06-07T11:22:35.943268+00:00",
   "source_status": "seeded",
   "filings": [
     {
@@ -96,7 +96,7 @@
       "bureau": "IB",
       "location": "San Francisco, CA",
       "url": "https://fcc.report/IBFS/SAT-STA-2026-03-00112",
-      "matched_company": null
+      "matched_company": "Cape"
     },
     {
       "filing_id": "ELS-2026-03-0422",
@@ -149,7 +149,7 @@
   ],
   "summary": {
     "total": 12,
-    "matched_to_tracked_company": 10,
+    "matched_to_tracked_company": 11,
     "by_bureau": {
       "OET": 7,
       "IB": 5

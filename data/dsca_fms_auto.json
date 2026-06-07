@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T11:05:35.024482+00:00",
+  "generated_at": "2026-06-07T11:22:36.844606+00:00",
   "source_status": "seeded",
   "notifications": [
     {
@@ -59,7 +59,9 @@
       ],
       "notification_date": "2026-01-23",
       "summary": "Japan requested commercial SAR imagery subscription and terminal infrastructure \u2014 Capella named as data provider sub.",
-      "matched_companies": []
+      "matched_companies": [
+        "Cape"
+      ]
     },
     {
       "notification_id": "Transmittal 26-03",
@@ -144,7 +146,9 @@
       ],
       "notification_date": "2026-04-03",
       "summary": "India requested 31\u00d7 MQ-9B platforms with sensors and Hellfire/GBU-38 integration.",
-      "matched_companies": []
+      "matched_companies": [
+        "Atom"
+      ]
     },
     {
       "notification_id": "Transmittal 26-10",
@@ -220,6 +224,14 @@
       "total_value_m": 480
     },
     {
+      "company": "Cape",
+      "appearances": 1,
+      "countries": [
+        "Japan"
+      ],
+      "total_value_m": 830
+    },
+    {
       "company": "Epirus",
       "appearances": 1,
       "countries": [
@@ -236,6 +248,14 @@
       "total_value_m": 310
     },
     {
+      "company": "Atom",
+      "appearances": 1,
+      "countries": [
+        "India"
+      ],
+      "total_value_m": 3800
+    },
+    {
       "company": "Planet Labs",
       "appearances": 1,
       "countries": [
@@ -248,6 +268,6 @@
     "total_notifications": 12,
     "total_value_usd_m": 12060,
     "unique_countries": 11,
-    "tracked_company_appearances": 6
+    "tracked_company_appearances": 8
   }
 }
