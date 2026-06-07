@@ -56516,19 +56516,19 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-07 16:24
+// Last updated: 2026-06-07 18:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI is still working on that 'super app'", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Star Power ' Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo Sending Used EV Batteries to Community Clean Energy", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
-  { id: 10, type: "ipo", company: "D-Orbit", headline: "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "NASA briefly sheltered space station astronauts in SpaceX's Dragon due to leaks", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SPACEX Is Winning AI Cloud NOW. More AI Revenue than Amazon and Google", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI is still working on that 'super app'", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Star Power ' Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "2h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo Sending Used EV Batteries to Community Clean Energy", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "21h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
+  { id: 11, type: "ipo", company: "D-Orbit", headline: "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "funding", company: "Blue Origin", headline: "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money", source: "Ars Technica Space", time: "2d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "Anthropic", headline: "The European investors set to win big from Anthropic's $1tn+ IPO", source: "Sifted", time: "2d ago", impact: "high", unread: false },
   { id: 14, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic May Be Rivals, but Investors Aren't Picking Sides", source: "Wired", time: "2d ago", impact: "low", unread: false },
