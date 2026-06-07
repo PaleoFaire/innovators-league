@@ -1,21 +1,21 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 60,
+    "momentum": 61,
     "trend": "accelerating",
     "catalysts": [
-      "NSA said to be readying Anthropic&#8217;s Mythos for use in",
-      "The European investors set to win big from Anthropic\u2019s $1tn+",
-      "OpenAI and Anthropic May Be Rivals, but Investors Aren\u2019t Pic"
+      "OpenAI unveils Lockdown Mode to protect sensitive data from",
+      "The Trump administration might take an equity stake in OpenA",
+      "NSA said to be readying Anthropic&#8217;s Mythos for use in"
     ],
     "fundingQ": "$170.3B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Space & Aerospace",
@@ -33,41 +33,42 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 55,
-    "trend": "accelerating",
+    "momentum": 54,
+    "trend": "steady",
     "catalysts": [
+      "Harbinger gears up for war with autonomous military truck pr",
       "Korea&#8217;s LG already invests $10.6B in Vietnam, to build",
-      "Used Waymo robotaxi batteries become backup storage for powe",
-      "Waymo\u2019s retired robotaxi batteries are heading back to work"
+      "Used Waymo robotaxi batteries become backup storage for powe"
     ],
     "fundingQ": "$8.2B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 46,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
+      "Harbinger gears up for war with autonomous military truck pr",
       "Autonomous defense manufacturer Mach Industries raises $300M"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -83,7 +84,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Ocean & Maritime",
@@ -99,25 +100,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 39,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
+      "Harbinger gears up for war with autonomous military truck pr",
       "Autonomous defense manufacturer Mach Industries raises $300M",
-      "Contriving Imaginary Gaps in Nuclear Deterrence",
-      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
+      "Contriving Imaginary Gaps in Nuclear Deterrence"
     ],
     "fundingQ": "$32.8B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Nuclear Energy",
@@ -135,7 +136,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Climate & Energy",
@@ -153,7 +154,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Consumer Tech",
@@ -171,7 +172,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -188,25 +189,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-06"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Tesla pushes Roadster demo to August as SpaceX thruster work",
-      "Anthropic Files Confidentially For IPO",
-      "Waymo starts offering rides in new Ojai robotaxi with 6th-ge"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 30,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Housing & Construction",
@@ -222,7 +205,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 8,
+    "trend": "declining",
+    "catalysts": [
+      "Tesla pushes Roadster demo to August as SpaceX thruster work",
+      "Anthropic Files Confidentially For IPO",
+      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -239,7 +240,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Quantum Computing",
@@ -256,7 +257,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   },
   {
     "sector": "Transportation",
@@ -272,6 +273,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
   }
 ]
