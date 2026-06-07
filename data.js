@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-06";
+const LAST_UPDATED = "2026-06-07";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -55857,11 +55857,11 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-06 22:11
+// Last updated: 2026-06-07 00:13
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "6h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "8h ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
