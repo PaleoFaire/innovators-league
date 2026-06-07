@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-06-06 09:15:25 UTC
+// Last updated: 2026-06-07 09:53:37 UTC
 const PRESS_RELEASES = [
   { title: "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service", date: "2026-06-05", companies: "D-Orbit, Endurosat, Figure AI", categories: "funding, partnership", source: "spacenews" },
   { title: "Axiom Space adds more than $175 million to funding round", date: "2026-06-05", companies: "Axiom Space, Vast, Figure AI", categories: "funding, ipo", source: "spacenews" },
