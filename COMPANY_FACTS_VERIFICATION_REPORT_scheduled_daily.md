@@ -1,104 +1,81 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-06-06T08:28:42+00:00  
+**Generated:** 2026-06-07T08:48:30+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 39 companies  
+**Cohort size:** 38 companies  
 
-**New Claude extractions this run:** 39  
+**New Claude extractions this run:** 38  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 32 | 82% |
-| 🔧 Changes proposed | 7 | 18% |
+| ✅ Cleared (data matches sources) | 34 | 89% |
+| 🔧 Changes proposed | 4 | 11% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (7 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
-
-### AMP Robotics
-
-- **`location`:** `Colorado` → `Colorado, USA`  
-  Sources: [company_about](https://amprobotics.com/about)
-
-  **Notes:** Source [2] (Electrek article about Waymo batteries) is not relevant to AMP Robotics and was not used. No founders explicitly named in sources. No founding year specified in sources despite database entry claiming 2014. No funding or investor information found in provided sources. No current stage information found in sources.
-
-### Astera Labs
-
-- **`totalRaised`:** `$700M+` → `$713M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Astera_Labs)
-
-  **Notes:** Company went public on NASDAQ under ticker ALAB in March 2024. Wikipedia indicates IPO raised $713M at $5.5B valuation. Headquarters relocated to San Jose in June 2025, tripling in size.
-
-### Cape
-
-- **`founder`:** `John Doyle, Gavin Uhma` → `John Doyle`  
-  Sources: [company_about](https://www.cape.co/about)
-
-  **Notes:** Only John Doyle explicitly named as founder/CEO in sources. Source [2] is Wikipedia article about clothing capes (not relevant). Source [3] is about Blue Origin (not relevant). Database entry lists 'Gavin Uhma' as co-founder but this is not verified in provided sources. Series C stage and $195M total raised from database entry cannot be verified from these sources.
-
-### D-Orbit
-
-- **`location`:** `Como, Italy` → `Italy`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/D-Orbit)
-- **`fundingStage`:** `Series D` → `Series C`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/D-Orbit)
-- **`totalRaised`:** `$219M+` → `$166M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/D-Orbit)
-
-  **Notes:** Most recent funding round is Series C completed September 27, 2024 for €150 million (US$166 million). Wikipedia notes a planned 2022 SPAC merger with $1.4bn valuation was cancelled. Company has subsidiaries in Portugal, UK, and USA (D-Orbit USA joint venture established July 2024).
 
 ### Fervo Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** IPO completed May 13, 2026 on Nasdaq (ticker FRVO) raising $1.89B according to source 0 newsroom headlines dated May 17, 2026. Wikipedia source [2] lists company as 'Private' but this appears outdated given IPO completion date in source 0. Series E funding of $462 million received November 2025 per source 2.
+  **Notes:** Wikipedia source lists company as 'Private' but website and newsroom items from May 2026 confirm IPO completion. Wikipedia article dated February 2026 predates the IPO announcement. Website newsroom items dated May 17, 2026 report IPO raising $1.89B, but this specific valuation figure cannot be verified from provided sources. Most recent Series E funding of $462M documented in November 2025 per Wikipedia.
+
+### Muon Space
+
+- **`location`:** `Mountain View, CA` → `Mountain View, California`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Muon_Space)
+
+  **Notes:** Wikipedia source [2] states approximately $35 million raised by July 2023, but database entry claims $188M total including $44.6M Space Force SBIR December 2025. The $60M from customer contracts mentioned in Wikipedia [2] for Muon Halo is distinct from equity funding. Cannot verify the $188M total raised figure or December 2025 Space Force SBIR amount from provided sources. Current stage cannot be verified from sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Source [1] indicates SpaceX is expected to have an IPO in 2026, but as of the sources provided, it remains a private company. The database entry claims 'IPO' as current stage and lists $1.5T valuation as preparation target, but Wikipedia cites $800B valuation from 2025 share offer and states IPO is expected in 2026, not yet completed. Sources [2], [3], and [4] are news articles discussing electricity, Tesla roadster delays, and Google compute deal respectively—none contain verifiable company facts about SpaceX itself.
+  **Notes:** Wikipedia source [1] states SpaceX is expected to have an IPO in 2026, but company is currently private. 2025 internal share valuation of $800B cited in source [1]. Founded in El Segundo, California in March 2002 per source [1], now headquartered at Starbase, Texas. Sources [2], [3], [4] are news articles discussing recent business activity but contain no verifiable facts about company fundamentals.
 
 ### Starcloud
 
 - **`fundingStage`:** `SPAC` → `Series A`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024 and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A funding announced March 30, 2026. Fastest unicorn in Y Combinator history (17 months from demo day).
+  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025. Achieved unicorn status in March 2026, becoming the fastest unicorn in Y Combinator history at 17 months after completing the program.
 
 ---
 
-## ✅ Cleared (32 companies)
+## ✅ Cleared (34 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
+- AMP Robotics
 - AST SpaceMobile
 - Asimov
+- Astera Labs
 - AstroForge
 - Atom Computing
 - Axiom Space
 - Blue Origin
-- Crusoe Energy
+- Cape
+- D-Orbit
 - Deterrence
 - Endurosat
-- HEO
+- Harbinger
 - Humanoid
 - ICON
 - Mach Industries
 - Mara
-- Muon Space
 - Osmo
 - Oxford Quantum Circuits
 - Palantir
@@ -112,11 +89,9 @@ Sample (first 30):
 - Standard Nuclear
 - Substrate
 - Vast
-- Waymo
-- X-Energy
-- *...and 2 more*
+- *...and 4 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-06-06T08:28:42+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-06-07T08:48:30+00:00*

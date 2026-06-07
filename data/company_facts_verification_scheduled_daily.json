@@ -1,30 +1,32 @@
 {
-  "generatedAt": "2026-06-06T08:28:42+00:00",
+  "generatedAt": "2026-06-07T08:48:30+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 39,
-  "newExtractionsThisRun": 39,
+  "cohortSize": 38,
+  "newExtractionsThisRun": 38,
   "summary": {
-    "cleared": 32,
-    "changesProposed": 7,
+    "cleared": 34,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
+    "AMP Robotics",
     "AST SpaceMobile",
     "Asimov",
+    "Astera Labs",
     "AstroForge",
     "Atom Computing",
     "Axiom Space",
     "Blue Origin",
-    "Crusoe Energy",
+    "Cape",
+    "D-Orbit",
     "Deterrence",
     "Endurosat",
-    "HEO",
+    "Harbinger",
     "Humanoid",
     "ICON",
     "Mach Industries",
     "Mara",
-    "Muon Space",
     "Osmo",
     "Oxford Quantum Circuits",
     "Palantir",
@@ -45,400 +47,6 @@
   ],
   "changesProposed": [
     {
-      "name": "AMP Robotics",
-      "current": {
-        "name": "AMP Robotics",
-        "founder": "Matanya Horowitz",
-        "location": "Colorado",
-        "founded": 2014,
-        "fundingStage": "Series C",
-        "totalRaised": "$180M+",
-        "website": "https://amprobotics.com"
-      },
-      "verified": {
-        "name": "AMP Robotics",
-        "description": "Company that designs, builds, and operates AI-powered waste sorting facilities to process single-stream recycling and municipal solid waste using artificial intelligence and automation.",
-        "founders": null,
-        "location": "Colorado, USA",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://amprobotics.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "location": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [2] (Electrek article about Waymo batteries) is not relevant to AMP Robotics and was not used. No founders explicitly named in sources. No founding year specified in sources despite database entry claiming 2014. No funding or investor information found in provided sources. No current stage information found in sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Colorado",
-          "verified": "Colorado, USA",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://amprobotics.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://amprobotics.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/06/04/waymo-retired-robotaxi-batteries-are-heading-back-to-work-b2u/"
-        }
-      ],
-      "notes": "Source [2] (Electrek article about Waymo batteries) is not relevant to AMP Robotics and was not used. No founders explicitly named in sources. No founding year specified in sources despite database entry claiming 2014. No funding or investor information found in provided sources. No current stage information found in sources."
-    },
-    {
-      "name": "Astera Labs",
-      "current": {
-        "name": "Astera Labs",
-        "founder": "Jitendra Mohan, Sanjay Gajendra, Casey Morrison",
-        "location": "San Jose, California, United States",
-        "founded": 2017,
-        "fundingStage": "Public",
-        "totalRaised": "$700M+",
-        "website": "https://asteralabs.com"
-      },
-      "verified": {
-        "name": "Astera Labs",
-        "description": "American fabless semiconductor manufacturer specializing in high-speed connectivity solutions for data centers and AI infrastructure. The company designs PCIe, CXL, Ethernet, and other semiconductor-based solutions to address data, memory, and networking bottlenecks.",
-        "founders": [
-          "Jitendra Mohan",
-          "Sanjay Gajendra",
-          "Casey Morrison"
-        ],
-        "location": "San Jose, California, United States",
-        "founded_year": 2017,
-        "current_stage": "Public",
-        "total_raised": "$713M",
-        "valuation": "$5.5B",
-        "investors": [
-          "Intel Capital",
-          "Sutter Hill Ventures",
-          "Fidelity Investments"
-        ],
-        "website": "https://asteralabs.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            0,
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company went public on NASDAQ under ticker ALAB in March 2024. Wikipedia indicates IPO raised $713M at $5.5B valuation. Headquarters relocated to San Jose in June 2025, tripling in size."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$700M+",
-          "verified": "$713M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://asteralabs.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://asteralabs.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Astera_Labs"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechNode Global)",
-          "url": "https://technode.global/2026/06/05/koreas-lg-already-invests-10-6b-in-vietnam-to-build-semiconductor-substrate-factory-in-hai-phong/"
-        },
-        {
-          "idx": 4,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/muon-space-unveils-starship-class-satellite-platform-for-orbital-data-centers/"
-        },
-        {
-          "idx": 5,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/morningstar-analyst-mostly-ignores-spacex-biggest-current-and-future-businesses.html"
-        }
-      ],
-      "notes": "Company went public on NASDAQ under ticker ALAB in March 2024. Wikipedia indicates IPO raised $713M at $5.5B valuation. Headquarters relocated to San Jose in June 2025, tripling in size."
-    },
-    {
-      "name": "Cape",
-      "current": {
-        "name": "Cape",
-        "founder": "John Doyle, Gavin Uhma",
-        "location": "Arlington, VA",
-        "founded": 2022,
-        "fundingStage": "Series C",
-        "totalRaised": "$195M",
-        "website": "https://www.cape.co"
-      },
-      "verified": {
-        "name": "Cape",
-        "description": "Privacy-first mobile carrier that operates its own cloud-based mobile core with SIM cards and offers secure cellular service with features including IMSI rotation and protection against location tracking and SIM-swap attacks.",
-        "founders": [
-          "John Doyle"
-        ],
-        "location": "Arlington, VA",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Andreessen Horowitz",
-          "Bain Capital",
-          "Costanoa",
-          "IVP",
-          "A* Capital"
-        ],
-        "website": "https://www.cape.co",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Only John Doyle explicitly named as founder/CEO in sources. Source [2] is Wikipedia article about clothing capes (not relevant). Source [3] is about Blue Origin (not relevant). Database entry lists 'Gavin Uhma' as co-founder but this is not verified in provided sources. Series C stage and $195M total raised from database entry cannot be verified from these sources."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "John Doyle, Gavin Uhma",
-          "verified": "John Doyle",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.cape.co"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.cape.co/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cape"
-        },
-        {
-          "idx": 3,
-          "src": "news (Defense One)",
-          "url": "https://www.defenseone.com/defense-systems/2026/06/blue-origin-rocket-explosion-launch-plans/413993/"
-        }
-      ],
-      "notes": "Only John Doyle explicitly named as founder/CEO in sources. Source [2] is Wikipedia article about clothing capes (not relevant). Source [3] is about Blue Origin (not relevant). Database entry lists 'Gavin Uhma' as co-founder but this is not verified in provided sources. Series C stage and $195M total raised from database entry cannot be verified from these sources."
-    },
-    {
-      "name": "D-Orbit",
-      "current": {
-        "name": "D-Orbit",
-        "founder": "Luca Rossettini, Renato Panesi",
-        "location": "Como, Italy",
-        "founded": 2011,
-        "fundingStage": "Series D",
-        "totalRaised": "$219M+",
-        "website": "https://dorbit.space"
-      },
-      "verified": {
-        "name": "D-Orbit",
-        "description": "Private Italian aerospace company providing space logistics and orbital transportation services, including last-mile delivery of satellites using their ION Satellite Carrier orbital transfer vehicle.",
-        "founders": [
-          "Luca Rossettini",
-          "Renato Panesi"
-        ],
-        "location": "Italy",
-        "founded_year": 2011,
-        "current_stage": "Series C",
-        "total_raised": "$166M",
-        "valuation": null,
-        "investors": [
-          "Marubeni Corporation",
-          "CDP Venture Capital",
-          "Seraphim Space",
-          "Indaco Venture Partners",
-          "Neva SGR",
-          "Primo Ventures",
-          "Avantgarde",
-          "Iberis Capital",
-          "European Innovation Council (EIC) Fund",
-          "Phaistos Investment Fund",
-          "Terna Forward",
-          "United Ventures",
-          "European Investment Bank",
-          "European Investment Fund"
-        ],
-        "website": "https://dorbit.space",
-        "sources_per_field": {
-          "name": [
-            0,
-            2
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            2
-          ]
-        },
-        "notes": "Most recent funding round is Series C completed September 27, 2024 for \u20ac150 million (US$166 million). Wikipedia notes a planned 2022 SPAC merger with $1.4bn valuation was cancelled. Company has subsidiaries in Portugal, UK, and USA (D-Orbit USA joint venture established July 2024)."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Como, Italy",
-          "verified": "Italy",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "fundingStage",
-          "current": "Series D",
-          "verified": "Series C",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$219M+",
-          "verified": "$166M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://dorbit.space"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://dorbit.space/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/D-Orbit"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/leaf-space-partners-with-d-orbit-and-endurosat-to-test-connectivity-service/"
-        }
-      ],
-      "notes": "Most recent funding round is Series C completed September 27, 2024 for \u20ac150 million (US$166 million). Wikipedia notes a planned 2022 SPAC merger with $1.4bn valuation was cancelled. Company has subsidiaries in Portugal, UK, and USA (D-Orbit USA joint venture established July 2024)."
-    },
-    {
       "name": "Fervo Energy",
       "current": {
         "name": "Fervo Energy",
@@ -451,7 +59,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company based in Houston, Texas that develops enhanced geothermal systems (EGS) using horizontal drilling techniques. Operates Project Red in Nevada and is developing Cape Station in Utah.",
+        "description": "A geothermal energy company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques to generate 24/7 carbon-free baseload electricity. The company operates Project Red in Nevada and is developing Cape Station in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -475,6 +83,7 @@
           ],
           "description": [
             0,
+            1,
             2
           ],
           "founders": [
@@ -500,7 +109,7 @@
             2
           ]
         },
-        "notes": "IPO completed May 13, 2026 on Nasdaq (ticker FRVO) raising $1.89B according to source 0 newsroom headlines dated May 17, 2026. Wikipedia source [2] lists company as 'Private' but this appears outdated given IPO completion date in source 0. Series E funding of $462 million received November 2025 per source 2."
+        "notes": "Wikipedia source lists company as 'Private' but website and newsroom items from May 2026 confirm IPO completion. Wikipedia article dated February 2026 predates the IPO announcement. Website newsroom items dated May 17, 2026 report IPO raising $1.89B, but this specific valuation figure cannot be verified from provided sources. Most recent Series E funding of $462M documented in November 2025 per Wikipedia."
       },
       "changes": [
         {
@@ -539,7 +148,96 @@
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
         }
       ],
-      "notes": "IPO completed May 13, 2026 on Nasdaq (ticker FRVO) raising $1.89B according to source 0 newsroom headlines dated May 17, 2026. Wikipedia source [2] lists company as 'Private' but this appears outdated given IPO completion date in source 0. Series E funding of $462 million received November 2025 per source 2."
+      "notes": "Wikipedia source lists company as 'Private' but website and newsroom items from May 2026 confirm IPO completion. Wikipedia article dated February 2026 predates the IPO announcement. Website newsroom items dated May 17, 2026 report IPO raising $1.89B, but this specific valuation figure cannot be verified from provided sources. Most recent Series E funding of $462M documented in November 2025 per Wikipedia."
+    },
+    {
+      "name": "Muon Space",
+      "current": {
+        "name": "Muon Space",
+        "founder": "Jonny Dyer, Dan McCleese, Paul Day, Reuben Rohrschneider, Pascal Stang",
+        "location": "Mountain View, CA",
+        "founded": 2021,
+        "fundingStage": "Series B",
+        "totalRaised": "$188M",
+        "website": "https://muonspace.com"
+      },
+      "verified": {
+        "name": "Muon Space",
+        "description": "American aerospace company that designs, builds, and operates satellite constellations for climate monitoring and other missions using an integrated technology platform called Muon Halo.",
+        "founders": [
+          "Jonny Dyer",
+          "Dan McCleese",
+          "Paul Day",
+          "Reuben Rohrschneider",
+          "Pascal Stang"
+        ],
+        "location": "Mountain View, California",
+        "founded_year": 2021,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://muonspace.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source [2] states approximately $35 million raised by July 2023, but database entry claims $188M total including $44.6M Space Force SBIR December 2025. The $60M from customer contracts mentioned in Wikipedia [2] for Muon Halo is distinct from equity funding. Cannot verify the $188M total raised figure or December 2025 Space Force SBIR amount from provided sources. Current stage cannot be verified from sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Mountain View, CA",
+          "verified": "Mountain View, California",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://muonspace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://muonspace.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muon_Space"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/muon-space-unveils-starship-class-satellite-platform-for-orbital-data-centers/"
+        }
+      ],
+      "notes": "Wikipedia source [2] states approximately $35 million raised by July 2023, but database entry claims $188M total including $44.6M Space Force SBIR December 2025. The $60M from customer contracts mentioned in Wikipedia [2] for Muon Halo is distinct from equity funding. Cannot verify the $188M total raised figure or December 2025 Space Force SBIR amount from provided sources. Current stage cannot be verified from sources."
     },
     {
       "name": "SpaceX",
@@ -554,7 +252,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American aerospace and AI company founded in 2002 that develops rockets, spacecraft, and satellite constellations. SpaceX conducts more orbital launches annually than any other launch provider and operates the Starlink satellite internet constellation.",
+        "description": "American aerospace and AI company headquartered at Starbase in Starbase, Texas. SpaceX manufactures rockets, spacecraft, and operates the Starlink satellite constellation.",
         "founders": [
           "Elon Musk"
         ],
@@ -591,7 +289,7 @@
             1
           ]
         },
-        "notes": "Source [1] indicates SpaceX is expected to have an IPO in 2026, but as of the sources provided, it remains a private company. The database entry claims 'IPO' as current stage and lists $1.5T valuation as preparation target, but Wikipedia cites $800B valuation from 2025 share offer and states IPO is expected in 2026, not yet completed. Sources [2], [3], and [4] are news articles discussing electricity, Tesla roadster delays, and Google compute deal respectively\u2014none contain verifiable company facts about SpaceX itself."
+        "notes": "Wikipedia source [1] states SpaceX is expected to have an IPO in 2026, but company is currently private. 2025 internal share valuation of $800B cited in source [1]. Founded in El Segundo, California in March 2002 per source [1], now headquartered at Starbase, Texas. Sources [2], [3], [4] are news articles discussing recent business activity but contain no verifiable facts about company fundamentals."
       },
       "changes": [
         {
@@ -630,7 +328,7 @@
           "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
         }
       ],
-      "notes": "Source [1] indicates SpaceX is expected to have an IPO in 2026, but as of the sources provided, it remains a private company. The database entry claims 'IPO' as current stage and lists $1.5T valuation as preparation target, but Wikipedia cites $800B valuation from 2025 share offer and states IPO is expected in 2026, not yet completed. Sources [2], [3], and [4] are news articles discussing electricity, Tesla roadster delays, and Google compute deal respectively\u2014none contain verifiable company facts about SpaceX itself."
+      "notes": "Wikipedia source [1] states SpaceX is expected to have an IPO in 2026, but company is currently private. 2025 internal share valuation of $800B cited in source [1]. Founded in El Segundo, California in March 2002 per source [1], now headquartered at Starbase, Texas. Sources [2], [3], [4] are news articles discussing recent business activity but contain no verifiable facts about company fundamentals."
     },
     {
       "name": "Starcloud",
@@ -645,7 +343,7 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In November 2025, the company launched Starcloud-1 equipped with an Nvidia H100 GPU.",
+        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In November 2025, Starcloud launched its first test satellite, Starcloud-1, equipped with a Nvidia H100 GPU.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
@@ -664,7 +362,6 @@
         "sources_per_field": {
           "name": [
             0,
-            1,
             2
           ],
           "description": [
@@ -696,11 +393,10 @@
           ],
           "website": [
             0,
-            1,
             2
           ]
         },
-        "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024 and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A funding announced March 30, 2026. Fastest unicorn in Y Combinator history (17 months from demo day)."
+        "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025. Achieved unicorn status in March 2026, becoming the fastest unicorn in Y Combinator history at 17 months after completing the program."
       },
       "changes": [
         {
@@ -734,7 +430,7 @@
           "url": "https://spacenews.com/muon-space-unveils-starship-class-satellite-platform-for-orbital-data-centers/"
         }
       ],
-      "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024 and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A funding announced March 30, 2026. Fastest unicorn in Y Combinator history (17 months from demo day)."
+      "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025. Achieved unicorn status in March 2026, becoming the fastest unicorn in Y Combinator history at 17 months after completing the program."
     }
   ],
   "unverifiable": []
