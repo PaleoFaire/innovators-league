@@ -1,10 +1,253 @@
 [
   {
+    "id": 48442075,
+    "title": "How much of Thermo Fisher's antibody data has been manipulated?",
+    "url": "https://reeserichardson.blog/2026/05/28/how-much-of-thermo-fishers-antibody-data-has-been-manipulated/",
+    "score": 44,
+    "comments": 10,
+    "author": "mhrmsn",
+    "time": 1780901766,
+    "date": "2026-06-08",
+    "companies": [
+      "LabGenius"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48442075",
+    "source": "top"
+  },
+  {
+    "id": 48442503,
+    "title": "The EU Open Source Strategy",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy",
+    "score": 82,
+    "comments": 39,
+    "author": "vrganj",
+    "time": 1780905601,
+    "date": "2026-06-08",
+    "companies": [
+      "Kyutai",
+      "Together AI",
+      "Agility Robotics",
+      "Xanadu Quantum Technologies",
+      "Auterion",
+      "Tenstorrent"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48442503",
+    "source": "top"
+  },
+  {
+    "id": 48394799,
+    "title": "Zig Structs of Arrays (2024)",
+    "url": "https://andreashohmann.com/zig-struct-of-arrays/",
+    "score": 8,
+    "comments": 1,
+    "author": "Tomte",
+    "time": 1780554516,
+    "date": "2026-06-04",
+    "companies": [
+      "Array Labs"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48394799",
+    "source": "top"
+  },
+  {
+    "id": 48440448,
+    "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+    "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+    "score": 297,
+    "comments": 145,
+    "author": "yogthos",
+    "time": 1780882770,
+    "date": "2026-06-08",
+    "companies": [
+      "OpenAI",
+      "Atomic Industries"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48440448",
+    "source": "top"
+  },
+  {
+    "id": 48443258,
+    "title": "Replies to comments on my \"LLMs are eroding my career\" post",
+    "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
+    "score": 60,
+    "comments": 68,
+    "author": "omblivion",
+    "time": 1780912323,
+    "date": "2026-06-08",
+    "companies": [],
+    "keywords": [
+      "LLM"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=48443258",
+    "source": "top"
+  },
+  {
+    "id": 48440008,
+    "title": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
+    "url": "https://github.com/melastmohican/rust-rpico2-embassy-examples",
+    "score": 129,
+    "comments": 18,
+    "author": "melastmohican",
+    "time": 1780877865,
+    "date": "2026-06-08",
+    "companies": [
+      "Matter"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48440008",
+    "source": "top"
+  },
+  {
+    "id": 48443135,
+    "title": "Config Files That Run Code: Supply Chain Security Blindspot",
+    "url": "https://safedep.io/config-files-that-run-code/",
+    "score": 4,
+    "comments": 0,
+    "author": "signa11",
+    "time": 1780911319,
+    "date": "2026-06-08",
+    "companies": [
+      "Fortastra",
+      "Bronco AI",
+      "Percepto",
+      "ideaForge",
+      "Cape"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443135",
+    "source": "top"
+  },
+  {
+    "id": 48433756,
+    "title": "Show HN: Lathe \u2013 Use LLMs to learn a new domain, not skip past it",
+    "url": "https://github.com/devenjarvis/lathe",
+    "score": 329,
+    "comments": 58,
+    "author": "devenjarvis",
+    "time": 1780831006,
+    "date": "2026-06-07",
+    "companies": [
+      "Xtend",
+      "Built Robotics",
+      "Anthropic"
+    ],
+    "keywords": [
+      "LLM"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=48433756",
+    "source": "top"
+  },
+  {
+    "id": 48394587,
+    "title": "A discovery about GCC's unidirectional rotation algorithm",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20260603-00/?p=112378",
+    "score": 28,
+    "comments": 10,
+    "author": "soheilpro",
+    "time": 1780552762,
+    "date": "2026-06-04",
+    "companies": [
+      "Photonic Inc",
+      "Cover"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48394587",
+    "source": "top"
+  },
+  {
+    "id": 48434312,
+    "title": "LLMs are eroding my software engineering career and I don't know what to do",
+    "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+    "score": 1010,
+    "comments": 960,
+    "author": "poisonfountain",
+    "time": 1780836569,
+    "date": "2026-06-07",
+    "companies": [],
+    "keywords": [
+      "LLM"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=48434312",
+    "source": "top"
+  },
+  {
+    "id": 48425413,
+    "title": "Giant Floating Victorian Drydock",
+    "url": "https://mastermariners.org.au/stories-from-the-past/6481-the-world-s-largest-floating-dry-dock-was-towed-across-the-atlantic-to-bermuda-in-1869",
+    "score": 29,
+    "comments": 17,
+    "author": "dtj1123",
+    "time": 1780755728,
+    "date": "2026-06-06",
+    "companies": [
+      "Orbital Marine Power",
+      "Arc Boats",
+      "Thalassa Robotics",
+      "Seaborg Technologies"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48425413",
+    "source": "top"
+  },
+  {
+    "id": 48440610,
+    "title": "Texas grid flags risks as data centers, crypto sites fail voltage tests",
+    "url": "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/",
+    "score": 118,
+    "comments": 82,
+    "author": "1vuio0pswjnm7",
+    "time": 1780884340,
+    "date": "2026-06-08",
+    "companies": [
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48440610",
+    "source": "top"
+  },
+  {
+    "id": 48427480,
+    "title": "Cloning a Sennheiser BA2015 battery pack",
+    "url": "https://blog.brixit.nl/cloning-a-sennheiser-ba2015-accu-pack/",
+    "score": 132,
+    "comments": 19,
+    "author": "zdw",
+    "time": 1780769800,
+    "date": "2026-06-06",
+    "companies": [
+      "Impulse Labs"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48427480",
+    "source": "top"
+  },
+  {
+    "id": 48436819,
+    "title": "Powering up a module from the IBM 604: an electronic calculator from 1948",
+    "url": "https://www.righto.com/2026/06/ibm-604-thyraton-tube-module.html",
+    "score": 88,
+    "comments": 28,
+    "author": "elpocko",
+    "time": 1780852692,
+    "date": "2026-06-07",
+    "companies": [
+      "Rocket Lab"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48436819",
+    "source": "top"
+  },
+  {
     "id": 48431981,
     "title": "I design with Claude more than Figma now",
     "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
-    "score": 155,
-    "comments": 117,
+    "score": 290,
+    "comments": 251,
     "author": "MrBuddyCasino",
     "time": 1780808664,
     "date": "2026-06-07",
@@ -16,436 +259,98 @@
     "source": "top"
   },
   {
-    "id": 48431286,
-    "title": "Field of clones: How horse replicas came to dominate polo",
-    "url": "https://knowablemagazine.org/content/article/technology/2026/cloned-polo-horses",
-    "score": 84,
-    "comments": 41,
-    "author": "gscott",
-    "time": 1780800397,
+    "id": 48443410,
+    "title": "History of CentOS",
+    "url": "https://www.theregister.com/os-platforms/2026/06/08/history-of-centos-how-a-biochemists-linux-hobby-project-became-the-enterprise-worlds-default-operating-system/5251530",
+    "score": 6,
+    "comments": 0,
+    "author": "sohkamyung",
+    "time": 1780913651,
+    "date": "2026-06-08",
+    "companies": [
+      "Watershed",
+      "Databricks",
+      "Ada"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443410",
+    "source": "top"
+  },
+  {
+    "id": 48440360,
+    "title": "7.8 magnitude earthquake shakes part of southern Philippines. Tsunami possible",
+    "url": "https://www.yahoo.com/news/weather-news/articles/as--philippines-earthquake-001322726.html",
+    "score": 96,
+    "comments": 28,
+    "author": "mikhael",
+    "time": 1780881741,
+    "date": "2026-06-08",
+    "companies": [
+      "Muon Space",
+      "Earth AI"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48440360",
+    "source": "top"
+  },
+  {
+    "id": 48434436,
+    "title": "Anthropic, please ship an official Claude Desktop for Linux",
+    "url": "https://github.com/anthropics/claude-code/issues/65697",
+    "score": 503,
+    "comments": 283,
+    "author": "predkambrij",
+    "time": 1780837612,
     "date": "2026-06-07",
     "companies": [
-      "Field AI"
+      "Anthropic"
     ],
     "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48431286",
-    "source": "top"
-  },
-  {
-    "id": 48428025,
-    "title": "Ntsc-rs \u2013 open-source video emulation of analog TV and VHS artifacts",
-    "url": "https://ntsc.rs/",
-    "score": 346,
-    "comments": 92,
-    "author": "gregsadetsky",
-    "time": 1780773466,
-    "date": "2026-06-06",
-    "companies": [
-      "Kyutai",
-      "Together AI",
-      "Runway",
-      "Auterion"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48428025",
-    "source": "top"
-  },
-  {
-    "id": 48416264,
-    "title": "Harness engineering: Leveraging Codex in an agent-first world",
-    "url": "https://openai.com/index/harness-engineering/",
-    "score": 195,
-    "comments": 123,
-    "author": "pramodbiligiri",
-    "time": 1780683606,
-    "date": "2026-06-05",
-    "companies": [
-      "Altos Labs",
-      "OpenAI",
-      "Retro Biosciences"
-    ],
-    "keywords": [
-      "AGI"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48416264",
-    "source": "top"
-  },
-  {
-    "id": 48405815,
-    "title": "Introducing Boron Buckyballs: Theory that B80 cages can\u2019t be made is disproved",
-    "url": "https://cen.acs.org/materials/nanomaterials/buckyballs-boron-buckminster-fullerene-nanomaterials/104/web/2026/06",
-    "score": 84,
-    "comments": 21,
-    "author": "crescit_eundo",
-    "time": 1780613928,
-    "date": "2026-06-04",
-    "companies": [
-      "Space Forge",
-      "HEO"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48405815",
-    "source": "top"
-  },
-  {
-    "id": 48410427,
-    "title": "Arithmetic Without Numbers \u2013 How LLMs Do Math",
-    "url": "https://alvaro-videla.com/llm-arithmetic-internals/article_interactive/article.html",
-    "score": 22,
-    "comments": 7,
-    "author": "old_sound",
-    "time": 1780654779,
-    "date": "2026-06-05",
-    "companies": [],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48410427",
-    "source": "top"
-  },
-  {
-    "id": 48430282,
-    "title": "Human-Like Neural Nets by Catapulting",
-    "url": "https://gwern.net/llm-catapult",
-    "score": 38,
-    "comments": 9,
-    "author": "telotortium",
-    "time": 1780789536,
-    "date": "2026-06-06",
-    "companies": [
-      "Neura Robotics"
-    ],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48430282",
+    "hn_url": "https://news.ycombinator.com/item?id=48434436",
     "source": "top"
   },
   {
     "id": 48427643,
     "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
     "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
-    "score": 594,
-    "comments": 209,
+    "score": 698,
+    "comments": 258,
     "author": "speckx",
     "time": 1780770927,
     "date": "2026-06-06",
     "companies": [
       "Percepto",
-      "ideaForge",
       "Ada",
-      "Cape"
+      "Cape",
+      "ideaForge"
     ],
     "keywords": [],
     "hn_url": "https://news.ycombinator.com/item?id=48427643",
-    "source": "top"
-  },
-  {
-    "id": 48417490,
-    "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
-    "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
-    "score": 244,
-    "comments": 824,
-    "author": "toephu2",
-    "time": 1780689996,
-    "date": "2026-06-05",
-    "companies": [
-      "Scale AI",
-      "Crusoe Energy",
-      "xAI",
-      "SpaceX",
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48417490",
-    "source": "top"
-  },
-  {
-    "id": 48395648,
-    "title": "Show HN: Free animated icon library for Vue",
-    "url": "https://respeak-io.github.io/lucide-motion-vue/",
-    "score": 29,
-    "comments": 6,
-    "author": "evolabs",
-    "time": 1780560441,
-    "date": "2026-06-04",
-    "companies": [
-      "ICON",
-      "Fortera"
-    ],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48395648",
-    "source": "top"
-  },
-  {
-    "id": 48406174,
-    "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
-    "url": "",
-    "score": 620,
-    "comments": 1013,
-    "author": "andrehacker",
-    "time": 1780616540,
-    "date": "2026-06-04",
-    "companies": [
-      "OpenAI"
-    ],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48406174",
-    "source": "top"
-  },
-  {
-    "id": 48372138,
-    "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincar\u00e9 disk",
-    "url": "https://uonr.github.io/poincake/",
-    "score": 165,
-    "comments": 29,
-    "author": "uonr",
-    "time": 1780416506,
-    "date": "2026-06-02",
-    "companies": [
-      "Matic Robotics",
-      "Sakana AI"
-    ],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48372138",
-    "source": "top"
-  },
-  {
-    "id": 48431952,
-    "title": "The circus freaks of open source",
-    "url": "https://drewdevault.com/blog/Circus-freaks-of-FOSS/",
-    "score": 85,
-    "comments": 31,
-    "author": "keyle",
-    "time": 1780808222,
-    "date": "2026-06-07",
-    "companies": [
-      "Xanadu Quantum Technologies",
-      "Tenstorrent"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48431952",
-    "source": "top"
-  },
-  {
-    "id": 48430871,
-    "title": "HateArena \u2013 A free and open source arena shooter",
-    "url": "https://github.com/hatearena/hate",
-    "score": 20,
-    "comments": 3,
-    "author": "death_eternal",
-    "time": 1780795597,
-    "date": "2026-06-07",
-    "companies": [
-      "Xanadu Quantum Technologies",
-      "Tenstorrent"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48430871",
-    "source": "top"
-  },
-  {
-    "id": 48432117,
-    "title": "Learn from my lesson, don't take your pre seed through stripe = Account Closure",
-    "url": "",
-    "score": 21,
-    "comments": 2,
-    "author": "pureyang",
-    "time": 1780810405,
-    "date": "2026-06-07",
-    "companies": [
-      "Figure AI",
-      "Anthropic"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48432117",
-    "source": "top"
-  },
-  {
-    "id": 48389360,
-    "title": "How LLMs work",
-    "url": "https://www.0xkato.xyz/how-llms-actually-work/",
-    "score": 884,
-    "comments": 243,
-    "author": "0xkato",
-    "time": 1780517713,
-    "date": "2026-06-03",
-    "companies": [],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48389360",
-    "source": "top"
+    "source": "best"
   },
   {
     "id": 48427523,
     "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
     "url": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
-    "score": 517,
-    "comments": 399,
+    "score": 593,
+    "comments": 496,
     "author": "MilnerRoute",
     "time": 1780770066,
     "date": "2026-06-06",
     "companies": [
       "Percepto",
-      "ideaForge",
-      "Cape"
+      "Cape",
+      "ideaForge"
     ],
     "keywords": [],
     "hn_url": "https://news.ycombinator.com/item?id=48427523",
-    "source": "top"
-  },
-  {
-    "id": 48430070,
-    "title": "Context Sculpting",
-    "url": "https://perceptiontheory.bearblog.dev/context-sculpting/",
-    "score": 17,
-    "comments": 6,
-    "author": "perceptronblues",
-    "time": 1780788001,
-    "date": "2026-06-06",
-    "companies": [
-      "HEO"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48430070",
-    "source": "top"
-  },
-  {
-    "id": 48396783,
-    "title": "Summer of '85: DOSBOS is rejected by ANALOG Computing",
-    "url": "https://www.goto10retro.com/p/summer-of-85-dosbos-is-rejected-by",
-    "score": 57,
-    "comments": 15,
-    "author": "ibobev",
-    "time": 1780570027,
-    "date": "2026-06-04",
-    "companies": [
-      "Retro Biosciences"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48396783",
-    "source": "top"
-  },
-  {
-    "id": 48421442,
-    "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
-    "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
-    "score": 1411,
-    "comments": 483,
-    "author": "maltalex",
-    "time": 1780720716,
-    "date": "2026-06-06",
-    "companies": [
-      "Anthropic",
-      "SpaceX",
-      "OpenAI"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48421442",
-    "source": "best"
-  },
-  {
-    "id": 48413500,
-    "title": "New method turns ocean water into drinking water, without waste",
-    "url": "https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/",
-    "score": 505,
-    "comments": 206,
-    "author": "speckx",
-    "time": 1780671843,
-    "date": "2026-06-05",
-    "companies": [
-      "Osmo",
-      "Vital Lyfe",
-      "Captura",
-      "AMP Robotics",
-      "Rainmaker",
-      "Endurance Energy"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48413500",
-    "source": "best"
-  },
-  {
-    "id": 48411635,
-    "title": "Did Claude increase bugs in rsync?",
-    "url": "https://alexispurslane.github.io/rsync-analysis/",
-    "score": 500,
-    "comments": 516,
-    "author": "logicprog",
-    "time": 1780663413,
-    "date": "2026-06-05",
-    "companies": [
-      "Vannevar Labs",
-      "Anthropic"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48411635",
-    "source": "best"
-  },
-  {
-    "id": 48414367,
-    "title": "pg_durable: Microsoft open sources in-database durable execution",
-    "url": "https://github.com/microsoft/pg_durable",
-    "score": 463,
-    "comments": 105,
-    "author": "coffeemug",
-    "time": 1780675197,
-    "date": "2026-06-05",
-    "companies": [
-      "Xanadu Quantum Technologies",
-      "Photonic Inc",
-      "Tenstorrent"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48414367",
-    "source": "best"
-  },
-  {
-    "id": 48422798,
-    "title": "GrapheneOS user reported to authorities for using GrapheneOS",
-    "url": "https://discuss.grapheneos.org/d/36134-grapheneos-user-reported-to-authorities-for-using-grapheneos",
-    "score": 441,
-    "comments": 457,
-    "author": "Cider9986",
-    "time": 1780735439,
-    "date": "2026-06-06",
-    "companies": [
-      "Black Semiconductor"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48422798",
-    "source": "best"
-  },
-  {
-    "id": 48420827,
-    "title": "Ask HN: Why is the HN crowd so anti-AI?",
-    "url": "",
-    "score": 415,
-    "comments": 677,
-    "author": "Ekami",
-    "time": 1780713111,
-    "date": "2026-06-06",
-    "companies": [
-      "Anthropic",
-      "Matter"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48420827",
     "source": "best"
   },
   {
     "id": 48423990,
     "title": "Google will pay SpaceX $920M per month for compute",
     "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
-    "score": 409,
+    "score": 414,
     "comments": 2,
     "author": "ramanan",
     "time": 1780746375,
@@ -458,93 +363,46 @@
     "source": "best"
   },
   {
-    "id": 48414653,
-    "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
-    "score": 398,
-    "comments": 124,
-    "author": "theanonymousone",
-    "time": 1780676328,
-    "date": "2026-06-05",
-    "companies": [
-      "Claros"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48414653",
-    "source": "best"
-  },
-  {
-    "id": 48414027,
-    "title": "Conventional Commits encourages focus on the wrong things",
-    "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
-    "score": 362,
-    "comments": 261,
-    "author": "jsve",
-    "time": 1780673978,
-    "date": "2026-06-05",
-    "companies": [
-      "Vention"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48414027",
-    "source": "best"
-  },
-  {
-    "id": 48413295,
-    "title": "Dutch gov't will only allow European company to operate DigiD platform",
-    "url": "https://nltimes.nl/2026/06/05/dutch-govt-will-allow-european-company-operate-digid-platform",
-    "score": 283,
-    "comments": 97,
-    "author": "TechTechTech",
-    "time": 1780670924,
-    "date": "2026-06-05",
-    "companies": [
-      "Endurosat"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48413295",
-    "source": "best"
-  },
-  {
-    "id": 48422993,
-    "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
-    "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
-    "score": 210,
-    "comments": 92,
-    "author": "nikcub",
-    "time": 1780737469,
+    "id": 48428025,
+    "title": "Ntsc-rs \u2013 open-source video emulation of analog TV and VHS artifacts",
+    "url": "https://ntsc.rs/",
+    "score": 410,
+    "comments": 123,
+    "author": "gregsadetsky",
+    "time": 1780773466,
     "date": "2026-06-06",
     "companies": [
-      "Percepto",
-      "ideaForge",
-      "Cape"
+      "Auterion",
+      "Together AI",
+      "Runway",
+      "Kyutai"
     ],
     "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48422993",
+    "hn_url": "https://news.ycombinator.com/item?id=48428025",
     "source": "best"
   },
   {
-    "id": 48411510,
-    "title": "Programmers will document for Claude, but not for each other",
-    "url": "https://blog.plover.com/2026/03/09/#documentation-wins-2",
+    "id": 48435584,
+    "title": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2849122",
     "score": 185,
-    "comments": 157,
-    "author": "surprisetalk",
-    "time": 1780662617,
-    "date": "2026-06-05",
+    "comments": 82,
+    "author": "supermatou",
+    "time": 1780844890,
+    "date": "2026-06-07",
     "companies": [
-      "Anthropic"
+      "Durin"
     ],
     "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48411510",
+    "hn_url": "https://news.ycombinator.com/item?id=48435584",
     "source": "best"
   },
   {
     "id": 48425982,
     "title": "Python JIT project was asked to pause development",
     "url": "https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638",
-    "score": 166,
-    "comments": 86,
+    "score": 178,
+    "comments": 96,
     "author": "kbumsik",
     "time": 1780759809,
     "date": "2026-06-06",
@@ -556,400 +414,574 @@
     "source": "best"
   },
   {
-    "id": 48413629,
-    "title": "Ask HN: What is your (AI) dev tech stack / workflow?",
-    "url": "",
-    "score": 151,
-    "comments": 130,
-    "author": "dv35z",
-    "time": 1780672434,
-    "date": "2026-06-05",
-    "companies": [
-      "Kyutai",
-      "Figure AI",
-      "Pivotal",
-      "Auterion",
-      "Daylight Computer",
-      "Runway",
-      "Together AI",
-      "Dunia"
-    ],
-    "keywords": [
-      "LLM",
-      "AGI"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48413629",
-    "source": "best"
-  },
-  {
-    "id": 48415987,
-    "title": "Cloudflare CEO is lying to you about the bot traffic jump",
-    "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
-    "score": 149,
-    "comments": 135,
-    "author": "speckx",
-    "time": 1780682179,
-    "date": "2026-06-05",
-    "companies": [
-      "Rigetti Computing"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48415987",
-    "source": "best"
-  },
-  {
-    "id": 48409955,
-    "title": "Show HN: Lowfat \u2013 pluggable CLI filter that saved 91.8% of my LLM tokens",
-    "url": "https://github.com/zdk/lowfat",
-    "score": 149,
-    "comments": 75,
-    "author": "zdkaster",
-    "time": 1780650642,
-    "date": "2026-06-05",
-    "companies": [
-      "Ada",
-      "Built Robotics",
-      "Bedrock Energy",
-      "Bedrock Robotics",
-      "Matter",
-      "Terraform Industries",
-      "Databricks",
-      "Watershed"
-    ],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48409955",
-    "source": "best"
-  },
-  {
-    "id": 48421079,
-    "title": "The back cover of C++: The Language raises questions not answered by front cover",
-    "url": "https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391",
-    "score": 148,
-    "comments": 49,
-    "author": "paulmooreparks",
-    "time": 1780716227,
-    "date": "2026-06-06",
-    "companies": [
-      "Photonic Inc",
-      "Cover"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48421079",
-    "source": "best"
-  },
-  {
-    "id": 48416635,
-    "title": "Transformers are inherently succinct",
-    "url": "https://openreview.net/pdf?id=Yxz92UuPLQ",
-    "score": 141,
-    "comments": 41,
-    "author": "brandonb",
-    "time": 1780685426,
-    "date": "2026-06-05",
-    "companies": [
-      "Cohere"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48416635",
-    "source": "best"
-  },
-  {
-    "id": 48433327,
-    "title": "Show HN: YourMemory, agentic memory is a pruning problem, not a hoarding problem",
-    "url": "https://yourmemoryai.vercel.app/",
-    "score": 2,
-    "comments": 0,
-    "author": "SachitRafa",
-    "time": 1780825782,
+    "id": 48431286,
+    "title": "Field of clones: How horse replicas came to dominate polo",
+    "url": "https://knowablemagazine.org/content/article/technology/2026/cloned-polo-horses",
+    "score": 165,
+    "comments": 84,
+    "author": "gscott",
+    "time": 1780800397,
     "date": "2026-06-07",
     "companies": [
-      "Ada",
-      "The Boring Company",
-      "Blumen Systems",
-      "Quantum Machines",
-      "Percepto",
-      "Pipedream",
-      "Crusoe Energy",
-      "Fortastra",
-      "Databricks",
-      "Terranova",
-      "Together AI",
-      "Watershed",
-      "Durin"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48433327",
-    "source": "new"
-  },
-  {
-    "id": 48433292,
-    "title": "Klarna CMO created an AI \"venting machine\" of himself",
-    "url": "https://www.businessinsider.com/klarna-cmo-built-ai-replica-himself-colleagues-vent-at-2026-5",
-    "score": 1,
-    "comments": 0,
-    "author": "navs",
-    "time": 1780825298,
-    "date": "2026-06-07",
-    "companies": [
-      "Built Robotics"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48433292",
-    "source": "new"
-  },
-  {
-    "id": 48433268,
-    "title": "Show HN: Best setup local LLM found for a 5090 (llama.cpp fork + turboquant)",
-    "url": "https://local-llm.utop.workers.dev/",
-    "score": 1,
-    "comments": 0,
-    "author": "utopman",
-    "time": 1780824962,
-    "date": "2026-06-07",
-    "companies": [
-      "Quilter",
-      "Humane",
-      "Diode",
-      "Modal",
-      "QuantWare"
-    ],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48433268",
-    "source": "new"
-  },
-  {
-    "id": 48433196,
-    "title": "SourceHut Disrupted by LLM Crawlers",
-    "url": "https://status.sr.ht/issues/2026-06-06-llms-again/",
-    "score": 4,
-    "comments": 0,
-    "author": "BrunoBernardino",
-    "time": 1780823963,
-    "date": "2026-06-07",
-    "companies": [],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48433196",
-    "source": "new"
-  },
-  {
-    "id": 48433171,
-    "title": "Ask HN: What do you currently use for AI coding (personal or professional)?",
-    "url": "",
-    "score": 1,
-    "comments": 0,
-    "author": "joelthelion",
-    "time": 1780823690,
-    "date": "2026-06-07",
-    "companies": [
-      "Anysphere"
-    ],
-    "keywords": [
-      "LLM"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48433171",
-    "source": "new"
-  },
-  {
-    "id": 48433127,
-    "title": "I've Built 4 Products \u2013 Traffic Has Killed All of Them. Organic Growth Strategy?",
-    "url": "",
-    "score": 1,
-    "comments": 1,
-    "author": "Clikdeo",
-    "time": 1780823104,
-    "date": "2026-06-07",
-    "companies": [
-      "Built Robotics"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48433127",
-    "source": "new"
-  },
-  {
-    "id": 48433101,
-    "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
-    "url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
-    "score": 3,
-    "comments": 0,
-    "author": "latexr",
-    "time": 1780822904,
-    "date": "2026-06-07",
-    "companies": [
-      "OpenAI"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48433101",
-    "source": "new"
-  },
-  {
-    "id": 48433056,
-    "title": "DentaQuest Data Breach Analysis",
-    "url": "https://www.rescana.com/post/dentaquest-data-breach-analysis-shinyhunters-leak-exposes-pii-and-phi-of-2-6-million-members-in-2026",
-    "score": 3,
-    "comments": 0,
-    "author": "01-_-",
-    "time": 1780822135,
-    "date": "2026-06-07",
-    "companies": [
-      "Vannevar Labs"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48433056",
-    "source": "new"
-  },
-  {
-    "id": 48433054,
-    "title": "Rodents in the Attic (Small C64 demo) [video]",
-    "url": "https://www.youtube.com/watch?v=fbXIdK3o3NU",
-    "score": 1,
-    "comments": 0,
-    "author": "atesti",
-    "time": 1780822123,
-    "date": "2026-06-07",
-    "companies": [
-      "Runway"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48433054",
-    "source": "new"
-  },
-  {
-    "id": 48433020,
-    "title": "Science and Society need more interaction instead of mere communication",
-    "url": "https://elephantinthelab.org/science-and-society-need-more-interaction-instead-of-mere-communication-an-interview-with-volker-meyer-guckel/",
-    "score": 1,
-    "comments": 0,
-    "author": "jruohonen",
-    "time": 1780821759,
-    "date": "2026-06-07",
-    "companies": [
-      "goTenna"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48433020",
-    "source": "new"
-  },
-  {
-    "id": 48432990,
-    "title": "Ask HN: Who here still codes without AI, and why?",
-    "url": "",
-    "score": 1,
-    "comments": 0,
-    "author": "jakemanger",
-    "time": 1780821423,
-    "date": "2026-06-07",
-    "companies": [
-      "Anysphere",
-      "Anthropic"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48432990",
-    "source": "new"
-  },
-  {
-    "id": 48432946,
-    "title": "From the Legendary Lft: Microcontroller Magic (\"Sum Ergo Demonstro\") [video]",
-    "url": "https://www.youtube.com/watch?v=0_9YS2tsdYc",
-    "score": 1,
-    "comments": 0,
-    "author": "ttsiodras",
-    "time": 1780820722,
-    "date": "2026-06-07",
-    "companies": [
-      "Runway"
-    ],
-    "keywords": [
-      "AGI"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=48432946",
-    "source": "new"
-  },
-  {
-    "id": 48432908,
-    "title": "The world of Japanese train melodies [video]",
-    "url": "https://www.youtube.com/watch?v=-KxQIEhsFQk",
-    "score": 1,
-    "comments": 0,
-    "author": "vinhnx",
-    "time": 1780820317,
-    "date": "2026-06-07",
-    "companies": [
-      "Runway"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48432908",
-    "source": "new"
-  },
-  {
-    "id": 48432898,
-    "title": "C++: The Programming Language Cover Raises Unanswered Questions",
-    "url": "https://devblogs.microsoft.com/oldnewthing/20260401-00/?p=112180",
-    "score": 2,
-    "comments": 0,
-    "author": "birdculture",
-    "time": 1780820161,
-    "date": "2026-06-07",
-    "companies": [
-      "Photonic Inc",
-      "Cover"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48432898",
-    "source": "new"
-  },
-  {
-    "id": 48432882,
-    "title": "Using the Screen Capture API to record a browser window",
-    "url": "https://alexwlchan.net/2026/record-browser-video/",
-    "score": 2,
-    "comments": 0,
-    "author": "Tomte",
-    "time": 1780819956,
-    "date": "2026-06-07",
-    "companies": [
-      "Runway"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48432882",
-    "source": "new"
-  },
-  {
-    "id": 48432796,
-    "title": "The Grad Student Who Broke Microplastics Research",
-    "url": "https://drstanfield.com/en-eu/blogs/articles/the-grad-student-who-broke-microplastics-research",
-    "score": 2,
-    "comments": 0,
-    "author": "mpweiher",
-    "time": 1780818891,
-    "date": "2026-06-07",
-    "companies": [
-      "Sakana AI",
       "Field AI"
     ],
     "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48432796",
+    "hn_url": "https://news.ycombinator.com/item?id=48431286",
+    "source": "best"
+  },
+  {
+    "id": 48436246,
+    "title": "The gamers taking on the industry to stop it switching off games",
+    "url": "https://www.bbc.com/news/articles/c8e8e7g0r82o",
+    "score": 141,
+    "comments": 142,
+    "author": "Brajeshwar",
+    "time": 1780849014,
+    "date": "2026-06-07",
+    "companies": [
+      "Dust"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48436246",
+    "source": "best"
+  },
+  {
+    "id": 48431952,
+    "title": "The circus freaks of open source",
+    "url": "https://drewdevault.com/blog/Circus-freaks-of-FOSS/",
+    "score": 118,
+    "comments": 43,
+    "author": "keyle",
+    "time": 1780808222,
+    "date": "2026-06-07",
+    "companies": [
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48431952",
+    "source": "best"
+  },
+  {
+    "id": 48439348,
+    "title": "Firefox Merges Support for Vulkan Video Decoding",
+    "url": "https://www.phoronix.com/news/Firefox-Vulkan-Video-Merged",
+    "score": 112,
+    "comments": 19,
+    "author": "Bender",
+    "time": 1780872096,
+    "date": "2026-06-07",
+    "companies": [
+      "Runway"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48439348",
+    "source": "best"
+  },
+  {
+    "id": 48444077,
+    "title": "Show HN: Vui \u2013 open-source voice mode",
+    "url": "https://twitter.com/harrycblum/status/2062308968228147254",
+    "score": 1,
+    "comments": 0,
+    "author": "bazlan",
+    "time": 1780918810,
+    "date": "2026-06-08",
+    "companies": [
+      "Kyutai",
+      "Matic Robotics",
+      "Together AI",
+      "Xanadu Quantum Technologies",
+      "Auterion",
+      "Tenstorrent"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48444077",
     "source": "new"
   },
   {
-    "id": 48432766,
-    "title": "Spotify no OAuth,no premium web API fetching",
+    "id": 48444059,
+    "title": "When did we decide lines of code was a measure of productivity?",
+    "url": "https://medium.com/@mooseyanon/when-did-we-decide-lines-of-code-was-a-measure-of-productivity-e146568c71d2",
+    "score": 1,
+    "comments": 0,
+    "author": "arm93",
+    "time": 1780918658,
+    "date": "2026-06-08",
+    "companies": [
+      "Day.ai"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48444059",
+    "source": "new"
+  },
+  {
+    "id": 48444057,
+    "title": "Productivity Effects Across Generations of AI Coding Tools [pdf]",
+    "url": "https://www.nber.org/system/files/working_papers/w35275/w35275.pdf",
+    "score": 1,
+    "comments": 0,
+    "author": "robin_reala",
+    "time": 1780918629,
+    "date": "2026-06-08",
+    "companies": [
+      "Day.ai",
+      "Anysphere"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48444057",
+    "source": "new"
+  },
+  {
+    "id": 48444035,
+    "title": "A Case for Simulation-Driven Resilience in Agentic Data Systems",
+    "url": "http://muratbuffalo.blogspot.com/2026/06/a-case-for-simulation-driven-resilience.html",
+    "score": 1,
+    "comments": 0,
+    "author": "eigenBasis",
+    "time": 1780918428,
+    "date": "2026-06-08",
+    "companies": [
+      "Waabi",
+      "Wardstone",
+      "Applied Intuition",
+      "Slingshot Aerospace"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48444035",
+    "source": "new"
+  },
+  {
+    "id": 48444025,
+    "title": "Show HN: AI agents shouldn't just be for developers",
     "url": "",
     "score": 1,
     "comments": 0,
-    "author": "nntlol",
-    "time": 1780818416,
-    "date": "2026-06-07",
+    "author": "cheikhshift",
+    "time": 1780918344,
+    "date": "2026-06-08",
     "companies": [
-      "Built Robotics"
+      "Dust",
+      "Rigetti Computing"
     ],
     "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=48432766",
+    "hn_url": "https://news.ycombinator.com/item?id=48444025",
+    "source": "new"
+  },
+  {
+    "id": 48444018,
+    "title": "Chinese court cases reveal most trafficked rhino horns come from Southern Africa",
+    "url": "https://news.mongabay.com/2026/04/chinese-court-cases-reveal-most-trafficked-rhino-horns-come-from-southern-africa/",
+    "score": 1,
+    "comments": 0,
+    "author": "PaulHoule",
+    "time": 1780918311,
+    "date": "2026-06-08",
+    "companies": [
+      "Reveal Technology"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48444018",
+    "source": "new"
+  },
+  {
+    "id": 48444008,
+    "title": "With Copilot pricing exploding, how to not break the bank with AI coding?",
+    "url": "",
+    "score": 1,
+    "comments": 0,
+    "author": "rietie",
+    "time": 1780918239,
+    "date": "2026-06-08",
+    "companies": [
+      "Anysphere"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48444008",
+    "source": "new"
+  },
+  {
+    "id": 48443989,
+    "title": "China expands its spy networks across the European Union and beyond",
+    "url": "https://english.elpais.com/international/2026-06-07/china-expands-its-spy-networks-across-the-european-union-and-beyond.html",
+    "score": 2,
+    "comments": 0,
+    "author": "robtherobber",
+    "time": 1780918120,
+    "date": "2026-06-08",
+    "companies": [
+      "Endurosat"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443989",
+    "source": "new"
+  },
+  {
+    "id": 48443976,
+    "title": "Qualcomm Gets the Lenovo Yoga Slim 7x Snapdragon X2 Working on Linux",
+    "url": "https://www.phoronix.com/news/Lenovo-Yoga-Slim-7x-Gen11-Linux",
+    "score": 1,
+    "comments": 0,
+    "author": "cromka",
+    "time": 1780918023,
+    "date": "2026-06-08",
+    "companies": [
+      "SpaceX"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443976",
+    "source": "new"
+  },
+  {
+    "id": 48443968,
+    "title": "Reality-mimicking AI fuels spike in scams, Visa cyberthreat finds",
+    "url": "https://www.nbcboston.com/video/on-air/as-seen-on/reality-mimicking-ai-fuels-spike-in-scams-visa-cyberthreat-finds/3957365/",
+    "score": 1,
+    "comments": 1,
+    "author": "1vuio0pswjnm7",
+    "time": 1780917978,
+    "date": "2026-06-08",
+    "companies": [
+      "Runway",
+      "LanzaTech"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443968",
+    "source": "new"
+  },
+  {
+    "id": 48443946,
+    "title": "Attempting to regulate an industry when they control the communication pathways",
+    "url": "",
+    "score": 3,
+    "comments": 0,
+    "author": "rando77",
+    "time": 1780917804,
+    "date": "2026-06-08",
+    "companies": [
+      "Photonic Inc",
+      "Dust",
+      "goTenna"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443946",
+    "source": "new"
+  },
+  {
+    "id": 48443924,
+    "title": "Has Microsoft Lost Its Mojo (Again)?",
+    "url": "https://www.wired.com/story/has-microsoft-lost-its-mojo-again/",
+    "score": 3,
+    "comments": 0,
+    "author": "1vuio0pswjnm7",
+    "time": 1780917670,
+    "date": "2026-06-08",
+    "companies": [
+      "Photonic Inc"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443924",
+    "source": "new"
+  },
+  {
+    "id": 48443907,
+    "title": "Charlie Bites, Badgers Dance and a Lettuce Endures in This Archive of Web Memes",
+    "url": "https://www.nytimes.com/2026/06/08/technology/uk-video-memes-archive-tape.html",
+    "score": 1,
+    "comments": 0,
+    "author": "_tk_",
+    "time": 1780917520,
+    "date": "2026-06-08",
+    "companies": [
+      "Runway"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443907",
+    "source": "new"
+  },
+  {
+    "id": 48443876,
+    "title": "SlimTide Capsules: Don't Buy Until You Read This Real Truth",
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/slimtide-capsules-updated-warning-2026-192100591.html",
+    "score": 1,
+    "comments": 0,
+    "author": "wasufady",
+    "time": 1780917308,
+    "date": "2026-06-08",
+    "companies": [
+      "Andromeda Surgical"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443876",
+    "source": "new"
+  },
+  {
+    "id": 48443875,
+    "title": "Making Claude a chemist (NMR spectroscopy)",
+    "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+    "score": 2,
+    "comments": 0,
+    "author": "logifail",
+    "time": 1780917301,
+    "date": "2026-06-08",
+    "companies": [
+      "Sakana AI",
+      "Anthropic"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443875",
+    "source": "new"
+  },
+  {
+    "id": 48443861,
+    "title": "Uber Opens London Waitlist for Wayve Robotaxis Ahead of Launch",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-08/uber-opens-london-waitlist-for-wayve-robotaxis-ahead-of-launch",
+    "score": 1,
+    "comments": 0,
+    "author": "helsinkiandrew",
+    "time": 1780917190,
+    "date": "2026-06-08",
+    "companies": [
+      "Waymo",
+      "Zoox",
+      "Wayve"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443861",
+    "source": "new"
+  },
+  {
+    "id": 48443856,
+    "title": "Founders Fund Mafia game (feat Sam Altman, Palmer Luckey, Bryan Johnson) [video]",
+    "url": "https://www.youtube.com/watch?v=EDCwQe7P8T0",
+    "score": 1,
+    "comments": 0,
+    "author": "liboshen",
+    "time": 1780917144,
+    "date": "2026-06-08",
+    "companies": [
+      "Runway"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443856",
+    "source": "new"
+  },
+  {
+    "id": 48443786,
+    "title": "The Security Mindset (2008)",
+    "url": "https://www.schneier.com/blog/archives/2008/03/the_security_mi_1.html",
+    "score": 2,
+    "comments": 0,
+    "author": "ColinWright",
+    "time": 1780916665,
+    "date": "2026-06-08",
+    "companies": [
+      "Percepto",
+      "Cape",
+      "ideaForge"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443786",
+    "source": "new"
+  },
+  {
+    "id": 48443737,
+    "title": "Designing the HF CLI for both humans and agents",
+    "url": "https://huggingface.co/blog/hf-cli-for-agents",
+    "score": 1,
+    "comments": 0,
+    "author": "victormustar",
+    "time": 1780916271,
+    "date": "2026-06-08",
+    "companies": [
+      "Hugging Face"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443737",
+    "source": "new"
+  },
+  {
+    "id": 48443717,
+    "title": "Let us filter AI slop, you cowards",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/942909/let-us-filter-ai-slop-google-youtube-meta-instagram-tiktok",
+    "score": 6,
+    "comments": 1,
+    "author": "1vuio0pswjnm7",
+    "time": 1780916121,
+    "date": "2026-06-08",
+    "companies": [
+      "Reveal Technology",
+      "Vannevar Labs",
+      "Rebellion Defense",
+      "Umbra"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443717",
+    "source": "new"
+  },
+  {
+    "id": 48443686,
+    "title": "Show HN: I built S3 from scratch in Go \u2013 open-source, one-command deploy",
+    "url": "https://github.com/aman179102/distributed-file-storage-service",
+    "score": 1,
+    "comments": 0,
+    "author": "aman179102",
+    "time": 1780915897,
+    "date": "2026-06-08",
+    "companies": [
+      "Kyutai",
+      "Together AI",
+      "Bear Robotics",
+      "Xanadu Quantum Technologies",
+      "Auterion",
+      "Built Robotics",
+      "Tenstorrent"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443686",
+    "source": "new"
+  },
+  {
+    "id": 48443635,
+    "title": "Reinventing Entropy \u2013 Compression and Intelligence Part 1 [video]",
+    "url": "https://www.youtube.com/watch?v=l6DKRf-fAAM",
+    "score": 2,
+    "comments": 0,
+    "author": "317070",
+    "time": 1780915409,
+    "date": "2026-06-08",
+    "companies": [
+      "Runway",
+      "Umbra",
+      "Reveal Technology",
+      "Vannevar Labs",
+      "Rebellion Defense"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443635",
+    "source": "new"
+  },
+  {
+    "id": 48443601,
+    "title": "Skills for Real Engineers. Straight from my .claude directory",
+    "url": "https://github.com/mattpocock/skills",
+    "score": 1,
+    "comments": 0,
+    "author": "thunderbong",
+    "time": 1780915083,
+    "date": "2026-06-08",
+    "companies": [
+      "Anthropic"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443601",
+    "source": "new"
+  },
+  {
+    "id": 48443593,
+    "title": "Show HN: Monitoring Confidential Inference Providers",
+    "url": "https://confidentialinference.net/attestation",
+    "score": 1,
+    "comments": 0,
+    "author": "aaaljaz",
+    "time": 1780914978,
+    "date": "2026-06-08",
+    "companies": [
+      "Etched",
+      "ICON",
+      "Rebellions",
+      "Groq"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443593",
+    "source": "new"
+  },
+  {
+    "id": 48443577,
+    "title": "The Night My Sega Dreamcast Called the Cops [video]",
+    "url": "https://www.youtube.com/watch?v=uTagIZUs-u0",
+    "score": 1,
+    "comments": 0,
+    "author": "truxs",
+    "time": 1780914866,
+    "date": "2026-06-08",
+    "companies": [
+      "Runway",
+      "Amca"
+    ],
+    "keywords": [
+      "AGI"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=48443577",
+    "source": "new"
+  },
+  {
+    "id": 48443570,
+    "title": "The Boot Chain of a RISC-V Board: From Silicon to Ubuntu 26.04",
+    "url": "https://blog.ludovic.dev/2026/06/08/spacemit-k3-boot-process.html",
+    "score": 3,
+    "comments": 0,
+    "author": "luhenry",
+    "time": 1780914810,
+    "date": "2026-06-08",
+    "companies": [
+      "ICON",
+      "Conductor Quantum",
+      "Tenstorrent"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443570",
+    "source": "new"
+  },
+  {
+    "id": 48443558,
+    "title": "Driverless Trucks Are Here\u2013and They're Delivering Bags of Doritos",
+    "url": "https://www.wsj.com/business/logistics/driverless-trucks-are-hereand-theyre-delivering-bags-of-doritos-ee4495f0",
+    "score": 1,
+    "comments": 0,
+    "author": "JumpCrisscross",
+    "time": 1780914713,
+    "date": "2026-06-08",
+    "companies": [
+      "Pipedream",
+      "Exotec",
+      "Locus Robotics",
+      "Outrider",
+      "Air Space Intelligence",
+      "Bronco AI",
+      "Fortastra",
+      "Mujin",
+      "Einride",
+      "Rune Technologies",
+      "Dexterity",
+      "Manna Aero",
+      "Dronamics",
+      "Flexport",
+      "Parallel Systems",
+      "Agility Robotics",
+      "Aurora Innovation",
+      "Rivian"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443558",
+    "source": "new"
+  },
+  {
+    "id": 48443548,
+    "title": "FleetPing \u2013 WhatsApp inspections for small fleets",
+    "url": "https://fleetping.app/",
+    "score": 1,
+    "comments": 0,
+    "author": "surajitfp",
+    "time": 1780914665,
+    "date": "2026-06-08",
+    "companies": [
+      "Lumafield",
+      "ANYbotics",
+      "Percepto"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=48443548",
     "source": "new"
   }
 ]

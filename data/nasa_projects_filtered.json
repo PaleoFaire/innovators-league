@@ -107,6 +107,21 @@
     "website": ""
   },
   {
+    "id": 183956,
+    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
+    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 183925,
     "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
     "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
@@ -134,21 +149,6 @@
     "partners": [
       "Ames Research Center",
       "University of Portland"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183956,
-    "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
-    "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Robot Navigation and Path Planning",
-    "partners": [
-      "Ames Research Center"
     ],
     "website": ""
   },

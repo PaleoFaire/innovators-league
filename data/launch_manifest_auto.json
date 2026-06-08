@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-06-07",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-43",
-    "payload": "Starlink Group 17-43",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/af8d71dd-f439-47b3-91ed-57f959a581e0/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-06-08",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-35",
     "payload": "Starlink Group 10-35",
@@ -24,24 +15,6 @@
     "pad": "Launch Area 96A, Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "LandSpace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/93cd9d2d-d8e2-49a1-8a85-a0eb8aef4804/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-10",
-    "vehicle": "H3-30 | H3-30 Test Flight",
-    "payload": "H3-30 Test Flight",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e1a3b702-464f-435d-8c1f-ade9be196b77/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-10",
-    "vehicle": "Long March 5 | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "101, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/2670e4f1-d58b-4787-9c3f-f9eb03349513/?format=json",
     "trackedCompany": null
   },
   {
@@ -63,6 +36,24 @@
     "trackedCompany": "Rocket Lab"
   },
   {
+    "date": "2026-06-11",
+    "vehicle": "Long March 5 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "101, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2670e4f1-d58b-4787-9c3f-f9eb03349513/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-06-12",
+    "vehicle": "H3-30 | H3-30 Test Flight",
+    "payload": "H3-30 Test Flight",
+    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
+    "provider": "Mitsubishi Heavy Industries",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e1a3b702-464f-435d-8c1f-ade9be196b77/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-06-12",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-54",
     "payload": "Starlink Group 10-54",
@@ -79,6 +70,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/bad5ea8c-8b17-4cb3-a063-d427fb092275/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-15",
+    "vehicle": "Kinetica 1 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "CAS Space",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ffc0aee1-fdd7-4638-b098-9d0c01b40663/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-06-16",
@@ -106,6 +106,15 @@
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ed8ccd18-b530-4f55-92ae-bda89ac2985c/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-06-17",
+    "vehicle": "Electron | Ten Owl Of Ten (StriX Launch 10)",
+    "payload": "Ten Owl Of Ten (StriX Launch 10)",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
+    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-06-23",
@@ -340,15 +349,6 @@
     "provider": "United Launch Alliance",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9eb09815-c237-4fdd-9057-5b161131240c/?format=json",
     "trackedCompany": "ULA"
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "Electron | StriX Launch 10",
-    "payload": "StriX Launch 10",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
-    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-07-31",

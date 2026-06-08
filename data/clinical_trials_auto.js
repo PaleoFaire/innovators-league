@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-06-07 09:53:44 UTC
+// Last updated: 2026-06-08 11:47:03 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05552755", title: "Evaluate REC-4881 in Participants With Familial Adenomatous Polyposis (FAP)", status: "RECRUITING", phase: "PHASE1, PHASE2", sponsor: "Recursion Pharmaceuticals Inc.", conditions: "Familial Adenomatous Polyposis", enrollment: 67, lastUpdated: "2026-06-05" },
   { nctId: "NCT01132937", title: "Evaluation, Pathogenesis, and Outcome of Subjects With or Suspected Traumatic Br", status: "COMPLETED", phase: "N/A", sponsor: "National Institute of Neurological Disorders and Stroke (NINDS)", conditions: "Traumatic Brain Injury", enrollment: 886, lastUpdated: "2026-06-05" },
