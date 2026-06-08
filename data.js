@@ -56735,21 +56735,19 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-08 06:00
-// Auto-generated real-time signals
-// Last updated: 2026-06-08
+// Last updated: 2026-06-08 11:14
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "Waymo", headline: "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
   { id: 2, type: "funding", company: "Scale AI", headline: "BeatpulseLabs raises $1.8M pre-seed to scale AI training data", source: "Tech.eu", time: "2h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn&#8217;t Take SpaceX Public — Two Things That Changed His Mind", source: "CleanTechnica", time: "16h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn't Take SpaceX Public ' Two Things That Changed His Mind", source: "CleanTechnica", time: "16h ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "SPACEX Is Winning AI Cloud NOW. More AI Revenue than Amazon and Google", source: "Next Big Future", time: "17h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI is still working on that ‘super app’", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Star Power — Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "19h ago", impact: "high", unread: false },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI is still working on that 'super app'", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Star Power ' Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "19h ago", impact: "high", unread: false },
   { id: 7, type: "news", company: "Waymo", headline: "Waymo Sending Used EV Batteries to Community Clean Energy", source: "CleanTechnica", time: "20h ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don&#8217;t Have To Think — SpaceX Edition", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "2d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "SpaceX", headline: "Google will pay SpaceX $920M per month for compute", source: "TechCrunch", time: "2d ago", impact: "medium", unread: false },
   { id: 14, type: "ipo", company: "D-Orbit", headline: "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
