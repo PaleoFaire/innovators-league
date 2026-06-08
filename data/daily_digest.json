@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T19:28:33.016200+00:00",
+  "generatedAt": "2026-06-08T21:57:37.547479+00:00",
   "date": "2026-06-08",
   "dateDisplay": "Monday, June 08, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 31.68,
-        "changePercent": -31.82,
-        "change": -14.79
-      },
-      {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 7.63,
-        "changePercent": 25.99,
-        "change": 1.58
+        "price": 32.74,
+        "changePercent": -29.53,
+        "change": -13.72
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 29.8,
-        "changePercent": -22.01,
-        "change": -8.41
+        "price": 29.73,
+        "changePercent": -22.18,
+        "change": -8.48
+      },
+      {
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 7.26,
+        "changePercent": 19.8,
+        "change": 1.2
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.15,
-        "changePercent": -20.56,
-        "change": -0.56
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 9.65,
-        "changePercent": -19.38,
-        "change": -2.32
+        "price": 2.17,
+        "changePercent": -19.63,
+        "change": -0.53
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 7.04,
-        "changePercent": -18.86,
-        "change": -1.63
+        "price": 6.99,
+        "changePercent": -19.38,
+        "change": -1.68
+      },
+      {
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 9.7,
+        "changePercent": -18.96,
+        "change": -2.27
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 10.79,
-        "changePercent": -16.33,
-        "change": -2.11
+        "price": 10.76,
+        "changePercent": -16.52,
+        "change": -2.13
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 5.72,
-        "changePercent": -16.3,
-        "change": -1.12
+        "price": 5.73,
+        "changePercent": -16.23,
+        "change": -1.11
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PL -31.8%"
+    "topMover": "PL -29.5%"
   }
 }
