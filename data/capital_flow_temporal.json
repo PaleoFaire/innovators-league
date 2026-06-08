@@ -1,66 +1,6 @@
 {
-  "generatedAt": "2026-06-08T11:15:13+00:00",
+  "generatedAt": "2026-06-08T16:13:12+00:00",
   "matrix": {
-    "logistics-supply-chain": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 4999995,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Dexterity",
-            "amount": 4999995,
-            "date": "2026-06-03",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "green-manufacturing": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 1647200,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Helios",
-            "amount": 1647200,
-            "date": "2026-06-03",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "space-propulsion-engines": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 499832346,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Impulse Space",
-            "amount": 499832346,
-            "date": "2026-06-02",
-            "source": "formd",
-            "investors": [
-              "Founders Fund",
-              "Lux Capital",
-              "RTX Ventures",
-              "Airbus Ventures",
-              "Space Capital"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Lux Capital"
-        ]
-      }
-    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -1117,12 +1057,6 @@
     "Founders Fund": {
       "2026-Q2": [
         {
-          "company": "Impulse Space",
-          "cluster": "space-propulsion-engines",
-          "date": "2026-06-02",
-          "source": "formd"
-        },
-        {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
           "date": "2026-05",
@@ -1146,36 +1080,6 @@
           "company": "Crusoe Energy",
           "cluster": "data-center-infrastructure",
           "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Lux Capital": {
-      "2026-Q2": [
-        {
-          "company": "Impulse Space",
-          "cluster": "space-propulsion-engines",
-          "date": "2026-06-02",
-          "source": "formd"
-        },
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Physical Intelligence",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1230,6 +1134,30 @@
           "company": "Bedrock Robotics",
           "cluster": "robotics-construction-mining",
           "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Lux Capital": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Physical Intelligence",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1468,9 +1396,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 53,
-    "totalUSDSold": 506479541,
-    "uniqueClusters": 36,
+    "totalDealsTracked": 50,
+    "totalUSDSold": 0,
+    "uniqueClusters": 33,
     "uniqueQuarters": 8,
     "uniqueVCs": 18,
     "quarterRange": [

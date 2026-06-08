@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T11:14:26.702890+00:00",
+  "generatedAt": "2026-06-08T16:12:05.182171+00:00",
   "date": "2026-06-08",
   "dateDisplay": "Monday, June 08, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 32.22,
-        "changePercent": -37.0,
-        "change": -18.92
+        "price": 31.68,
+        "changePercent": -31.82,
+        "change": -14.79
+      },
+      {
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 7.63,
+        "changePercent": 25.99,
+        "change": 1.58
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 29.36,
-        "changePercent": -33.01,
-        "change": -14.47
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 7.12,
-        "changePercent": -25.13,
-        "change": -2.39
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 110.08,
-        "changePercent": -23.28,
-        "change": -33.4
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 56.78,
-        "changePercent": -21.22,
-        "change": -15.29
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 23.85,
-        "changePercent": -20.87,
-        "change": -6.29
+        "price": 29.8,
+        "changePercent": -22.01,
+        "change": -8.41
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.16,
-        "changePercent": -20.0,
-        "change": -0.54
+        "price": 2.15,
+        "changePercent": -20.56,
+        "change": -0.56
       },
       {
         "ticker": "JOBY",
         "company": "Joby Aviation",
-        "price": 9.55,
-        "changePercent": -19.75,
-        "change": -2.35
+        "price": 9.65,
+        "changePercent": -19.38,
+        "change": -2.32
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 7.04,
+        "changePercent": -18.86,
+        "change": -1.63
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 10.79,
+        "changePercent": -16.33,
+        "change": -2.11
+      },
+      {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 5.72,
+        "changePercent": -16.3,
+        "change": -1.12
       }
     ],
     "regulatory": [
@@ -174,9 +174,9 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Reforming the High-Cost Program for an All-IP Future, Connect America Fund: A Na",
+        "title": "Clarification of Discretionary Employment Authorization for Certain Aliens",
         "date": "2026-06-05",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11353"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11285"
       }
     ],
     "patents": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PL -37.0%"
+    "topMover": "PL -31.8%"
   }
 }
