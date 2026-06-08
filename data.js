@@ -56516,13 +56516,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-08 00:18
+// Last updated: 2026-06-08 06:00
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn't Take SpaceX Public ' Two Things That Changed His Mind", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SPACEX Is Winning AI Cloud NOW. More AI Revenue than Amazon and Google", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI is still working on that 'super app'", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Star Power ' Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "8h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "Waymo Sending Used EV Batteries to Community Clean Energy", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn't Take SpaceX Public ' Two Things That Changed His Mind", source: "CleanTechnica", time: "11h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SPACEX Is Winning AI Cloud NOW. More AI Revenue than Amazon and Google", source: "Next Big Future", time: "12h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI is still working on that 'super app'", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Star Power ' Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "14h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "Waymo Sending Used EV Batteries to Community Clean Energy", source: "CleanTechnica", time: "15h ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "OpenAI", headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "OpenAI", headline: "The Trump administration might take an equity stake in OpenAI", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "1d ago", impact: "low", unread: false },
