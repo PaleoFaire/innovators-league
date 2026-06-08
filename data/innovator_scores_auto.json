@@ -132,6 +132,18 @@
     "note": "Critical infrastructure is nation-state priority everywhere. Dream's NSO-alumni team moves faster than any incumbent. \u00b7 $100M+ at $1.5B"
   },
   {
+    "company": "IonQ",
+    "techMoat": 8,
+    "momentum": 10,
+    "teamPedigree": 9,
+    "marketGravity": 9,
+    "capitalEfficiency": 10,
+    "govTraction": 10,
+    "composite": 93.0,
+    "tier": "elite",
+    "note": "Trapped-ion quantum computing using individual ytterbium atoms suspended in electromagnetic fields for high-fidelity gate operations \u2014 Public \u00b7 $600M+ raised \u00b7 $11B+ val"
+  },
+  {
     "company": "Varda Space Industries",
     "techMoat": 10,
     "momentum": 10,
@@ -250,18 +262,6 @@
     "composite": 89.0,
     "tier": "exceptional",
     "note": "Saronic's 'shipyard as startup' model is revolutionary \u2014 they're building autonomous naval vessels on software development timelines, not traditional shipbuilding cycles. The Navy desperately needs this speed. \u00b7 $2.6B at $9.25B"
-  },
-  {
-    "company": "IonQ",
-    "techMoat": 8,
-    "momentum": 10,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 10,
-    "govTraction": 10,
-    "composite": 89.0,
-    "tier": "exceptional",
-    "note": "Trapped-ion quantum computing using individual ytterbium atoms suspended in electromagnetic fields for high-fidelity gate operations \u2014 Public \u00b7 $600M+ raised \u00b7 $11B+ val"
   },
   {
     "company": "Rigetti Computing",
@@ -561,7 +561,7 @@
     "govTraction": 10,
     "composite": 83.0,
     "tier": "exceptional",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s largest Earth-imaging satellite fleet capturing the entire planet daily at 3m resolution for change detection \u2014 Public \u00b7 $700M+ raised \u00b7 $7B+ val"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s largest Earth-imaging satellite fleet capturing the entire planet daily at 3m resolution for change detection \u2014 Public \u00b7 $700M+ raised \u00b7 $7B+ val"
   },
   {
     "company": "Swift Beat",
@@ -1740,6 +1740,18 @@
     "note": "Game Warden platform accelerating deployment of commercial software into DoD classified environments \u2014 Series B \u00b7 $90M+ raised"
   },
   {
+    "company": "NuScale Power",
+    "techMoat": 8,
+    "momentum": 10,
+    "teamPedigree": 8,
+    "marketGravity": 6,
+    "capitalEfficiency": 7,
+    "govTraction": 5,
+    "composite": 74.5,
+    "tier": "leader",
+    "note": "VOYGR light water SMR \u2014 first SMR design to receive NRC certification, scaling proven PWR technology to smaller modules \u2014 Public \u00b7 $600M+ raised"
+  },
+  {
     "company": "ICEYE",
     "techMoat": 7,
     "momentum": 9,
@@ -1749,7 +1761,7 @@
     "govTraction": 8,
     "composite": 74.5,
     "tier": "leader",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s largest commercial SAR constellation providing persistent radar imaging for flood monitoring, defense, and maritime tracking \u2014 Series E \u00b7 $686M+ raised \u00b7 $2.8B val"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s largest commercial SAR constellation providing persistent radar imaging for flood monitoring, defense, and maritime tracking \u2014 Series E \u00b7 $686M+ raised \u00b7 $2.8B val"
   },
   {
     "company": "Kepler Communications",
@@ -2100,18 +2112,6 @@
     "note": "Photonic interconnects replacing copper with fiber-optic data pathways between chips, enabling 100x bandwidth at lower power \u2014 Series C \u00b7 $420M+ raised"
   },
   {
-    "company": "NuScale Power",
-    "techMoat": 8,
-    "momentum": 10,
-    "teamPedigree": 7,
-    "marketGravity": 6,
-    "capitalEfficiency": 7,
-    "govTraction": 5,
-    "composite": 73.0,
-    "tier": "leader",
-    "note": "VOYGR light water SMR \u2014 first SMR design to receive NRC certification, scaling proven PWR technology to smaller modules \u2014 Public \u00b7 $600M+ raised"
-  },
-  {
     "company": "Satellogic",
     "techMoat": 7,
     "momentum": 9,
@@ -2121,7 +2121,7 @@
     "govTraction": 5,
     "composite": 73.0,
     "tier": "leader",
-    "note": "Sub-meter resolution Earth observation satellites at low cost, building Latin America\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first commercial imaging constellation \u2014 Public \u00b7 $100M+ raised"
+    "note": "Sub-meter resolution Earth observation satellites at low cost, building Latin America\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first commercial imaging constellation \u2014 Public \u00b7 $100M+ raised"
   },
   {
     "company": "GHGSat",
@@ -2409,7 +2409,7 @@
     "govTraction": 6,
     "composite": 72.0,
     "tier": "leader",
-    "note": "Spectrum launch vehicle \u2014 Europe\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s commercial answer to Falcon 9 economics for dedicated small and medium satellite missions \u2014 Series C \u00b7 $616M+ raised \u00b7 $1B+ val"
+    "note": "Spectrum launch vehicle \u2014 Europe\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s commercial answer to Falcon 9 economics for dedicated small and medium satellite missions \u2014 Series C \u00b7 $616M+ raised \u00b7 $1B+ val"
   },
   {
     "company": "Starpath Robotics",
@@ -3537,7 +3537,7 @@
     "govTraction": 5,
     "composite": 69.0,
     "tier": "strong",
-    "note": "Combined SAR and AIS satellite constellation \u2014 world\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first dual-sensor platform for comprehensive maritime surveillance \u2014 Seed \u00b7 $8M raised \u00b7 Undisclosed val"
+    "note": "Combined SAR and AIS satellite constellation \u2014 world\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first dual-sensor platform for comprehensive maritime surveillance \u2014 Seed \u00b7 $8M raised \u00b7 Undisclosed val"
   },
   {
     "company": "Galadyne",
@@ -5073,7 +5073,7 @@
     "govTraction": 7,
     "composite": 64.5,
     "tier": "strong",
-    "note": "FLEX modular lunar rover designed for diverse payload transport and operations on the Moon\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s surface \u2014 Series A \u00b7 $40M+ raised"
+    "note": "FLEX modular lunar rover designed for diverse payload transport and operations on the Moon\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s surface \u2014 Series A \u00b7 $40M+ raised"
   },
   {
     "company": "Armada",
@@ -6213,7 +6213,7 @@
     "govTraction": 5,
     "composite": 62.0,
     "tier": "strong",
-    "note": "India\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first private rocket company reaching space with Vikram series using 3D-printed engines and solid-liquid hybrid stages \u2014 Series C \u00b7 $95M+ raised"
+    "note": "India\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first private rocket company reaching space with Vikram series using 3D-printed engines and solid-liquid hybrid stages \u2014 Series C \u00b7 $95M+ raised"
   },
   {
     "company": "Tenstorrent",
@@ -6372,6 +6372,18 @@
     "note": "Underground microreactors deployed in one-mile-deep boreholes using natural geology as containment and shielding \u2014 Seed \u00b7 $30M raised"
   },
   {
+    "company": "Intuitive Machines",
+    "techMoat": 7,
+    "momentum": 3,
+    "teamPedigree": 9,
+    "marketGravity": 6,
+    "capitalEfficiency": 6,
+    "govTraction": 7,
+    "composite": 61.5,
+    "tier": "strong",
+    "note": "Lunar lander and services company \u2014 first American company to land on the Moon since Apollo via Nova-C lander \u2014 SPAC"
+  },
+  {
     "company": "Atom Computing",
     "techMoat": 8,
     "momentum": 8,
@@ -6429,7 +6441,7 @@
     "govTraction": 5,
     "composite": 61.5,
     "tier": "strong",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first single-piece 3D-printed semi-cryogenic rocket engine enabling customizable, on-demand small satellite launches from India \u2014 Series B \u00b7 $40M+ raised"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first single-piece 3D-printed semi-cryogenic rocket engine enabling customizable, on-demand small satellite launches from India \u2014 Series B \u00b7 $40M+ raised"
   },
   {
     "company": "Quantum Brilliance",
@@ -6766,18 +6778,6 @@
     "composite": 60.5,
     "tier": "strong",
     "note": "Custom processor architecture tracking and propagating probability distributions through every computation natively in hardware at orders-of-magnitude lower cost than Monte Carlo \u2014 Seed \u00b7 $10M raised"
-  },
-  {
-    "company": "Intuitive Machines",
-    "techMoat": 7,
-    "momentum": 3,
-    "teamPedigree": 8,
-    "marketGravity": 6,
-    "capitalEfficiency": 6,
-    "govTraction": 7,
-    "composite": 60.0,
-    "tier": "strong",
-    "note": "Lunar lander and services company \u2014 first American company to land on the Moon since Apollo via Nova-C lander \u2014 SPAC"
   },
   {
     "company": "Astro Mechanica",
@@ -7305,7 +7305,7 @@
     "govTraction": 4,
     "composite": 59.0,
     "tier": "promising",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first cargo drone airline operating large fixed-wing drones for middle-mile logistics at one-tenth of air freight cost \u2014 Series A \u00b7 $43.2M raised \u2014 First EU drone airline license approval"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s first cargo drone airline operating large fixed-wing drones for middle-mile logistics at one-tenth of air freight cost \u2014 Series A \u00b7 $43.2M raised \u2014 First EU drone airline license approval"
   },
   {
     "company": "Osaro",
@@ -8709,7 +8709,7 @@
     "govTraction": 3,
     "composite": 52.5,
     "tier": "promising",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s most powerful tidal turbine (O2) generating clean electricity from predictable ocean tidal currents \u2014 Growth \u00b7 $50M+ raised"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s most powerful tidal turbine (O2) generating clean electricity from predictable ocean tidal currents \u2014 Growth \u00b7 $50M+ raised"
   },
   {
     "company": "ZeroAvia",
@@ -8865,7 +8865,7 @@
     "govTraction": 3,
     "composite": 52.0,
     "tier": "promising",
-    "note": "2D semiconductor using Molybdenum Disulfide (MoS2) instead of silicon for transistors, enabling continued Moore\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s Law scaling \u2014 Seed \u00b7 $10M+ raised"
+    "note": "2D semiconductor using Molybdenum Disulfide (MoS2) instead of silicon for transistors, enabling continued Moore\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s Law scaling \u2014 Seed \u00b7 $10M+ raised"
   },
   {
     "company": "Atomic Semi",
@@ -9381,7 +9381,7 @@
     "govTraction": 1,
     "composite": 47.5,
     "tier": "emerging",
-    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s leading 3D construction printer (BOD2) extruding concrete layer by layer to build structures in under 24 hours \u2014 Series A \u00b7 $46M raised \u2014 GE partnership for wind turbine base 3D printing"
+    "note": "World\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s leading 3D construction printer (BOD2) extruding concrete layer by layer to build structures in under 24 hours \u2014 Series A \u00b7 $46M raised \u2014 GE partnership for wind turbine base 3D printing"
   },
   {
     "company": "Rhoman Aerospace",
@@ -9828,6 +9828,54 @@
     "note": "Notable team pedigree. Composite: 38/100."
   },
   {
+    "company": "Cambium",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 38.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
+    "company": "Fulfil",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 38.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
+    "company": "Compound Eye",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 38.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
+    "company": "Foxglove",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 38.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
     "company": "Sift Stack",
     "techMoat": 3,
     "momentum": 3,
@@ -9864,6 +9912,18 @@
     "note": "Large addressable market. Composite: 38/100."
   },
   {
+    "company": "Sereact",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 38.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
     "company": "Shine Technologies",
     "techMoat": 3,
     "momentum": 3,
@@ -9877,6 +9937,30 @@
   },
   {
     "company": "Epsilon3",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 37.5,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
+    "company": "AIM Intelligent Machines",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 37.5,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
+    "company": "JITX",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -9913,6 +9997,18 @@
   },
   {
     "company": "Star Catcher",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 37.5,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
+    "company": "Mind Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -9973,6 +10069,30 @@
   },
   {
     "company": "Sygaldry Technologies",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 37.5,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
+    "company": "Foundation Robotics",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 37.5,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 38/100."
+  },
+  {
+    "company": "Dyna Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10236,6 +10356,42 @@
     "note": "Large addressable market. Composite: 37/100."
   },
   {
+    "company": "Genesis AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 37/100."
+  },
+  {
+    "company": "Lumaril",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 37/100."
+  },
+  {
+    "company": "Keen Technologies",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 37/100."
+  },
+  {
     "company": "Lyten",
     "techMoat": 3,
     "momentum": 3,
@@ -10272,7 +10428,55 @@
     "note": "Notable team pedigree. Composite: 37/100."
   },
   {
+    "company": "Maglut Heavy Industries",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 37/100."
+  },
+  {
     "company": "Periodic Labs",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 37/100."
+  },
+  {
+    "company": "Foundry Robotics",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 37/100."
+  },
+  {
+    "company": "Westmag",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 37/100."
+  },
+  {
+    "company": "Strata Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10297,6 +10501,18 @@
   },
   {
     "company": "Orbital Inc.",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 6,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Large addressable market. Composite: 37/100."
+  },
+  {
+    "company": "Hybron",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11700,30 +11916,6 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
-    "company": "Cambium",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 36.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Fulfil",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 36.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
     "company": "Sunflower Labs",
     "techMoat": 3,
     "momentum": 3,
@@ -11748,42 +11940,6 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
-    "company": "Compound Eye",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 36.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Foxglove",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 36.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Sereact",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 36.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
     "company": "Diraq",
     "techMoat": 3,
     "momentum": 3,
@@ -11796,43 +11952,7 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
-    "company": "AIM Intelligent Machines",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 36.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "JITX",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 36.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
     "company": "Vulcan Elements",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 36.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Mind Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11869,30 +11989,6 @@
   },
   {
     "company": "Stardust Solutions",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 36.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Foundation Robotics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 36.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Dyna Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12000,48 +12096,12 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
-    "company": "Genesis AI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
     "company": "Echodyne",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 4,
     "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Lumaril",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Keen Technologies",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 3.5,
     "govTraction": 2,
     "composite": 35.5,
     "tier": "early",
@@ -12060,36 +12120,12 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
-    "company": "Maglut Heavy Industries",
+    "company": "Western Chemicals",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Foundry Robotics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Westmag",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 3.5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
     "govTraction": 2,
     "composite": 35.5,
     "tier": "early",
@@ -12114,18 +12150,6 @@
     "teamPedigree": 5,
     "marketGravity": 4,
     "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
-    "company": "Strata Robotics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 3.5,
     "govTraction": 2,
     "composite": 35.5,
     "tier": "early",
@@ -12180,18 +12204,6 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
-    "company": "Hybron",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 5,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 35.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
-  },
-  {
     "company": "Kratos Defense",
     "techMoat": 3,
     "momentum": 3,
@@ -12216,6 +12228,30 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
+    "company": "Cemvita",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 35.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 35/100."
+  },
+  {
+    "company": "Panthalassa",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 35.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 35/100."
+  },
+  {
     "company": "Arena AI",
     "techMoat": 3,
     "momentum": 3,
@@ -12229,6 +12265,18 @@
   },
   {
     "company": "Deep Sentinel",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 35.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 35/100."
+  },
+  {
+    "company": "LuxWall",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12313,6 +12361,66 @@
   },
   {
     "company": "EdgeRunner AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Windborne",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Spiritus",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Caelux",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Planted Solar",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Tempo",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12516,18 +12624,6 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Western Chemicals",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
     "company": "Zephyr Fusion",
     "techMoat": 3,
     "momentum": 3,
@@ -12634,102 +12730,6 @@
     "composite": 34.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Cemvita",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Panthalassa",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "LuxWall",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Windborne",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Spiritus",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Caelux",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Planted Solar",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Tempo",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
   },
   {
     "company": "Until",
