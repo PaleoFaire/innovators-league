@@ -1,17 +1,20 @@
 {
-  "generatedAt": "2026-06-06T08:28:50+00:00",
+  "generatedAt": "2026-06-08T10:21:18+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 1,
-  "newExtractionsThisRun": 1,
+  "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 1,
+    "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 0
+    "unverifiable": 1
   },
-  "cleared": [
-    "Future Ventures"
-  ],
+  "cleared": [],
   "changesProposed": [],
-  "unverifiable": []
+  "unverifiable": [
+    {
+      "name": "Future Ventures",
+      "reason": "Claude extraction failed"
+    }
+  ]
 }

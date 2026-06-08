@@ -1,97 +1,63 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-06-07T08:48:30+00:00  
+**Generated:** 2026-06-08T10:21:10+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 38 companies  
+**Cohort size:** 39 companies  
 
-**New Claude extractions this run:** 38  
+**New Claude extractions this run:** 0  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 34 | 89% |
-| 🔧 Changes proposed | 4 | 11% |
-| ❓ Unverifiable | 0 | 0% |
+| ✅ Cleared (data matches sources) | 0 | 0% |
+| 🔧 Changes proposed | 0 | 0% |
+| ❓ Unverifiable | 39 | 100% |
 
 ---
 
-## 🔧 Proposed Changes (4 companies)
+## ❓ Unverifiable (39 companies)
 
-Review each change and reply with which ones to apply. **Source-cited diffs:**
+Couldn't fetch authoritative sources. Per Stephen's rule, we leave these as-is rather than guess. May want to flag for manual research or removal from DB.
 
-### Fervo Energy
-
-- **`fundingStage`:** `IPO` → `Public`  
-  Sources: [company_website](https://fervoenergy.com)
-
-  **Notes:** Wikipedia source lists company as 'Private' but website and newsroom items from May 2026 confirm IPO completion. Wikipedia article dated February 2026 predates the IPO announcement. Website newsroom items dated May 17, 2026 report IPO raising $1.89B, but this specific valuation figure cannot be verified from provided sources. Most recent Series E funding of $462M documented in November 2025 per Wikipedia.
-
-### Muon Space
-
-- **`location`:** `Mountain View, CA` → `Mountain View, California`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Muon_Space)
-
-  **Notes:** Wikipedia source [2] states approximately $35 million raised by July 2023, but database entry claims $188M total including $44.6M Space Force SBIR December 2025. The $60M from customer contracts mentioned in Wikipedia [2] for Muon Halo is distinct from equity funding. Cannot verify the $188M total raised figure or December 2025 Space Force SBIR amount from provided sources. Current stage cannot be verified from sources.
-
-### SpaceX
-
-- **`fundingStage`:** `IPO` → `Private`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
-
-  **Notes:** Wikipedia source [1] states SpaceX is expected to have an IPO in 2026, but company is currently private. 2025 internal share valuation of $800B cited in source [1]. Founded in El Segundo, California in March 2002 per source [1], now headquartered at Starbase, Texas. Sources [2], [3], [4] are news articles discussing recent business activity but contain no verifiable facts about company fundamentals.
-
-### Starcloud
-
-- **`fundingStage`:** `SPAC` → `Series A`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
-
-  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025. Achieved unicorn status in March 2026, becoming the fastest unicorn in Y Combinator history at 17 months after completing the program.
+- **AMP Robotics** — *Claude extraction failed*
+- **AST SpaceMobile** — *Claude extraction failed*
+- **Asimov** — *Claude extraction failed*
+- **Astera Labs** — *Claude extraction failed*
+- **AstroForge** — *Claude extraction failed*
+- **Atom Computing** — *Claude extraction failed*
+- **Axiom Space** — *Claude extraction failed*
+- **Blue Origin** — *Claude extraction failed*
+- **Cape** — *Claude extraction failed*
+- **Crusoe Energy** — *Claude extraction failed*
+- **D-Orbit** — *Claude extraction failed*
+- **Deterrence** — *Claude extraction failed*
+- **Endurosat** — *Claude extraction failed*
+- **Fervo Energy** — *Claude extraction failed*
+- **HEO** — *Claude extraction failed*
+- **Harbinger** — *Claude extraction failed*
+- **Humanoid** — *Claude extraction failed*
+- **ICON** — *Claude extraction failed*
+- **Mach Industries** — *Claude extraction failed*
+- **Mara** — *Claude extraction failed*
+- **Muon Space** — *Claude extraction failed*
+- **Oxford Quantum Circuits** — *Claude extraction failed*
+- **Palantir** — *Claude extraction failed*
+- **Percepto** — *Claude extraction failed*
+- **Photonic Inc** — *Claude extraction failed*
+- **Pivotal** — *Claude extraction failed*
+- **Profluent** — *Claude extraction failed*
+- **PsiQuantum** — *Claude extraction failed*
+- **Rebellions** — *Claude extraction failed*
+- **Solid Power** — *Claude extraction failed*
+- *...and 9 more*
 
 ---
-
-## ✅ Cleared (34 companies)
-
-Data matches sources for these companies — **no changes needed**.
-
-Sample (first 30):
-
-- AMP Robotics
-- AST SpaceMobile
-- Asimov
-- Astera Labs
-- AstroForge
-- Atom Computing
-- Axiom Space
-- Blue Origin
-- Cape
-- D-Orbit
-- Deterrence
-- Endurosat
-- Harbinger
-- Humanoid
-- ICON
-- Mach Industries
-- Mara
-- Osmo
-- Oxford Quantum Circuits
-- Palantir
-- Percepto
-- Photonic Inc
-- Pivotal
-- Profluent
-- PsiQuantum
-- Rebellions
-- Solid Power
-- Standard Nuclear
-- Substrate
-- Vast
-- *...and 4 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-06-07T08:48:30+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-06-08T10:21:10+00:00*

@@ -1,437 +1,172 @@
 {
-  "generatedAt": "2026-06-07T08:48:30+00:00",
+  "generatedAt": "2026-06-08T10:21:10+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 38,
-  "newExtractionsThisRun": 38,
+  "cohortSize": 39,
+  "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 34,
-    "changesProposed": 4,
-    "unverifiable": 0
+    "cleared": 0,
+    "changesProposed": 0,
+    "unverifiable": 39
   },
-  "cleared": [
-    "AMP Robotics",
-    "AST SpaceMobile",
-    "Asimov",
-    "Astera Labs",
-    "AstroForge",
-    "Atom Computing",
-    "Axiom Space",
-    "Blue Origin",
-    "Cape",
-    "D-Orbit",
-    "Deterrence",
-    "Endurosat",
-    "Harbinger",
-    "Humanoid",
-    "ICON",
-    "Mach Industries",
-    "Mara",
-    "Osmo",
-    "Oxford Quantum Circuits",
-    "Palantir",
-    "Percepto",
-    "Photonic Inc",
-    "Pivotal",
-    "Profluent",
-    "PsiQuantum",
-    "Rebellions",
-    "Solid Power",
-    "Standard Nuclear",
-    "Substrate",
-    "Vast",
-    "Waymo",
-    "X-Energy",
-    "Zettascale",
-    "ideaForge"
-  ],
-  "changesProposed": [
+  "cleared": [],
+  "changesProposed": [],
+  "unverifiable": [
+    {
+      "name": "AMP Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AST SpaceMobile",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Asimov",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Astera Labs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AstroForge",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Atom Computing",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Axiom Space",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Blue Origin",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Cape",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Crusoe Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "D-Orbit",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Deterrence",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Endurosat",
+      "reason": "Claude extraction failed"
+    },
     {
       "name": "Fervo Energy",
-      "current": {
-        "name": "Fervo Energy",
-        "founder": "Tim Latimer, Jack Norbeck",
-        "location": "Houston, Texas, U.S.",
-        "founded": 2017,
-        "fundingStage": "IPO",
-        "totalRaised": "$1.5B+",
-        "website": "https://fervoenergy.com"
-      },
-      "verified": {
-        "name": "Fervo Energy",
-        "description": "A geothermal energy company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques to generate 24/7 carbon-free baseload electricity. The company operates Project Red in Nevada and is developing Cape Station in Utah.",
-        "founders": [
-          "Tim Latimer",
-          "Jack Norbeck"
-        ],
-        "location": "Houston, Texas, U.S.",
-        "founded_year": 2017,
-        "current_stage": "Public",
-        "total_raised": "$1.5B+",
-        "valuation": null,
-        "investors": [
-          "B Capital",
-          "Breakthrough Energy",
-          "Centaurus Capital",
-          "Congruent Ventures"
-        ],
-        "website": "https://fervoenergy.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            2
-          ]
-        },
-        "notes": "Wikipedia source lists company as 'Private' but website and newsroom items from May 2026 confirm IPO completion. Wikipedia article dated February 2026 predates the IPO announcement. Website newsroom items dated May 17, 2026 report IPO raising $1.89B, but this specific valuation figure cannot be verified from provided sources. Most recent Series E funding of $462M documented in November 2025 per Wikipedia."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "IPO",
-          "verified": "Public",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://fervoenergy.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://fervoenergy.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
-        },
-        {
-          "idx": 3,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
-        },
-        {
-          "idx": 4,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
-        }
-      ],
-      "notes": "Wikipedia source lists company as 'Private' but website and newsroom items from May 2026 confirm IPO completion. Wikipedia article dated February 2026 predates the IPO announcement. Website newsroom items dated May 17, 2026 report IPO raising $1.89B, but this specific valuation figure cannot be verified from provided sources. Most recent Series E funding of $462M documented in November 2025 per Wikipedia."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "HEO",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Harbinger",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Humanoid",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ICON",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Mach Industries",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Mara",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Muon Space",
-      "current": {
-        "name": "Muon Space",
-        "founder": "Jonny Dyer, Dan McCleese, Paul Day, Reuben Rohrschneider, Pascal Stang",
-        "location": "Mountain View, CA",
-        "founded": 2021,
-        "fundingStage": "Series B",
-        "totalRaised": "$188M",
-        "website": "https://muonspace.com"
-      },
-      "verified": {
-        "name": "Muon Space",
-        "description": "American aerospace company that designs, builds, and operates satellite constellations for climate monitoring and other missions using an integrated technology platform called Muon Halo.",
-        "founders": [
-          "Jonny Dyer",
-          "Dan McCleese",
-          "Paul Day",
-          "Reuben Rohrschneider",
-          "Pascal Stang"
-        ],
-        "location": "Mountain View, California",
-        "founded_year": 2021,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://muonspace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Wikipedia source [2] states approximately $35 million raised by July 2023, but database entry claims $188M total including $44.6M Space Force SBIR December 2025. The $60M from customer contracts mentioned in Wikipedia [2] for Muon Halo is distinct from equity funding. Cannot verify the $188M total raised figure or December 2025 Space Force SBIR amount from provided sources. Current stage cannot be verified from sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Mountain View, CA",
-          "verified": "Mountain View, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://muonspace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://muonspace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Muon_Space"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/muon-space-unveils-starship-class-satellite-platform-for-orbital-data-centers/"
-        }
-      ],
-      "notes": "Wikipedia source [2] states approximately $35 million raised by July 2023, but database entry claims $188M total including $44.6M Space Force SBIR December 2025. The $60M from customer contracts mentioned in Wikipedia [2] for Muon Halo is distinct from equity funding. Cannot verify the $188M total raised figure or December 2025 Space Force SBIR amount from provided sources. Current stage cannot be verified from sources."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Oxford Quantum Circuits",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Palantir",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Percepto",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Photonic Inc",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Pivotal",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Profluent",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "PsiQuantum",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Rebellions",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Solid Power",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "SpaceX",
-      "current": {
-        "name": "SpaceX",
-        "founder": "Elon Musk",
-        "location": "Starbase, Texas, U.S.",
-        "founded": 2002,
-        "fundingStage": "IPO",
-        "totalRaised": "$10B+",
-        "website": "https://spacex.com"
-      },
-      "verified": {
-        "name": "SpaceX",
-        "description": "American aerospace and AI company headquartered at Starbase in Starbase, Texas. SpaceX manufactures rockets, spacecraft, and operates the Starlink satellite constellation.",
-        "founders": [
-          "Elon Musk"
-        ],
-        "location": "Starbase, Texas, U.S.",
-        "founded_year": 2002,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": "$800B",
-        "investors": null,
-        "website": "https://spacex.com",
-        "sources_per_field": {
-          "name": [
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "valuation": [
-            1
-          ],
-          "website": [
-            1
-          ]
-        },
-        "notes": "Wikipedia source [1] states SpaceX is expected to have an IPO in 2026, but company is currently private. 2025 internal share valuation of $800B cited in source [1]. Founded in El Segundo, California in March 2002 per source [1], now headquartered at Starbase, Texas. Sources [2], [3], [4] are news articles discussing recent business activity but contain no verifiable facts about company fundamentals."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "IPO",
-          "verified": "Private",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://spacex.ai"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/SpaceX"
-        },
-        {
-          "idx": 2,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/06/05/jacking-up-electricity-prices-so-you-dont-have-to-think-spacex-edition/"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/06/05/tesla-roadster-demo-delayed-august-spacex-thruster/"
-        },
-        {
-          "idx": 4,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
-        }
-      ],
-      "notes": "Wikipedia source [1] states SpaceX is expected to have an IPO in 2026, but company is currently private. 2025 internal share valuation of $800B cited in source [1]. Founded in El Segundo, California in March 2002 per source [1], now headquartered at Starbase, Texas. Sources [2], [3], [4] are news articles discussing recent business activity but contain no verifiable facts about company fundamentals."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Standard Nuclear",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Starcloud",
-      "current": {
-        "name": "Starcloud",
-        "founder": "Philip Johnston, Ezra Feilden, Adi Oltean",
-        "location": "Redmond, Washington, USA",
-        "founded": 2024,
-        "fundingStage": "SPAC",
-        "totalRaised": "$170M",
-        "website": "https://www.starcloud.com"
-      },
-      "verified": {
-        "name": "Starcloud",
-        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In November 2025, Starcloud launched its first test satellite, Starcloud-1, equipped with a Nvidia H100 GPU.",
-        "founders": [
-          "Philip Johnston",
-          "Ezra Feilden",
-          "Adi Oltean"
-        ],
-        "location": "Redmond, Washington, USA",
-        "founded_year": 2024,
-        "current_stage": "Series A",
-        "total_raised": "$170M",
-        "valuation": "$1.1B",
-        "investors": [
-          "Benchmark",
-          "EQT Ventures"
-        ],
-        "website": "https://www.starcloud.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            0,
-            1,
-            2
-          ],
-          "location": [
-            0,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            2
-          ]
-        },
-        "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025. Achieved unicorn status in March 2026, becoming the fastest unicorn in Y Combinator history at 17 months after completing the program."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "SPAC",
-          "verified": "Series A",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.starcloud.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.starcloud.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Starcloud"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/muon-space-unveils-starship-class-satellite-platform-for-orbital-data-centers/"
-        }
-      ],
-      "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025. Achieved unicorn status in March 2026, becoming the fastest unicorn in Y Combinator history at 17 months after completing the program."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Substrate",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Vast",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Waymo",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "X-Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Zettascale",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ideaForge",
+      "reason": "Claude extraction failed"
     }
-  ],
-  "unverifiable": []
+  ]
 }
