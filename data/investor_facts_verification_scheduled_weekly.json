@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-01T12:38:01+00:00",
+  "generatedAt": "2026-06-08T11:58:51+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
-  "cohortSize": 12,
+  "cohortSize": 11,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 12
+    "unverifiable": 11
   },
   "cleared": [],
   "changesProposed": [],
@@ -18,10 +18,6 @@
     },
     {
       "name": "Cantos Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Construct Capital",
       "reason": "Claude extraction failed"
     },
     {

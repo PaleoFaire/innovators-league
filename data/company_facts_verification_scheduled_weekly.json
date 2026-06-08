@@ -1,18 +1,20 @@
 {
-  "generatedAt": "2026-06-01T12:36:08+00:00",
+  "generatedAt": "2026-06-08T11:56:54+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
-  "cohortSize": 89,
+  "cohortSize": 90,
   "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 18,
-    "changesProposed": 5,
-    "unverifiable": 66
+    "cleared": 16,
+    "changesProposed": 2,
+    "unverifiable": 72
   },
   "cleared": [
+    "1X Technologies",
     "ARX Robotics",
     "AiDash",
     "Ares Industries",
+    "Astranis",
     "Axelera AI",
     "Bedrock Robotics",
     "Blykalla",
@@ -21,209 +23,20 @@
     "Cognition",
     "Corintis",
     "Cresilon",
-    "Crusoe Energy",
     "Dusty Robotics",
-    "Endurosat",
     "Epirus",
-    "First Resonance",
-    "Forge Nano",
-    "Fortem Technologies"
+    "First Resonance"
   ],
   "changesProposed": [
-    {
-      "name": "1X Technologies",
-      "current": {
-        "name": "1X Technologies",
-        "founder": "Bernt \u00d8ivind B\u00f8rnich",
-        "location": "Palo Alto, CA",
-        "founded": 2014,
-        "fundingStage": "Series B",
-        "totalRaised": "$123.5M",
-        "website": "https://1xtechnologies.com"
-      },
-      "verified": {
-        "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures bipedal humanoid robots including the NEO model designed for private home use.",
-        "founders": [
-          "Bernt \u00d8ivind B\u00f8rnich"
-        ],
-        "location": "Palo Alto, California",
-        "founded_year": 2014,
-        "current_stage": "Series B",
-        "total_raised": "$123.5M",
-        "valuation": null,
-        "investors": [
-          "OpenAI Startup Fund",
-          "Tiger Global",
-          "Sandwater",
-          "Alliance Ventures",
-          "Skagerak Capital",
-          "EQT Ventures",
-          "Samsung NEXT",
-          "Nistad Group"
-        ],
-        "website": "https://1xtechnologies.com",
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            1
-          ]
-        },
-        "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Palo Alto, CA",
-          "verified": "Palo Alto, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://1xtechnologies.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://1xtechnologies.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
-        }
-      ],
-      "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Wikipedia sources refer to the robotics company. Sources [0] and [1] describe a different 1X Technologies LLC (a wire and cable distributor founded 2015 in Sheridan, Wyoming) - these are distinct companies and sources [0] and [1] are not used for verification. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M."
-    },
-    {
-      "name": "Astranis",
-      "current": {
-        "name": "Astranis",
-        "founder": "John Gedmark, Ryan McLinko",
-        "location": "San Francisco, CA",
-        "founded": 2015,
-        "fundingStage": "Series D",
-        "totalRaised": "$350M+",
-        "website": "https://astranis.com"
-      },
-      "verified": {
-        "name": "Astranis",
-        "description": "American satellite company specializing in small, radiation-hardened geostationary communications satellites for high orbits. Astranis builds dedicated satellite networks for government and commercial customers.",
-        "founders": [
-          "John Gedmark",
-          "Ryan McLinko"
-        ],
-        "location": "San Francisco, California",
-        "founded_year": 2015,
-        "current_stage": null,
-        "total_raised": "$350M+",
-        "valuation": null,
-        "investors": [
-          "BlackRock",
-          "Venrock",
-          "Andreessen Horowitz"
-        ],
-        "website": "https://astranis.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Founded October 20, 2015. Part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of Wikipedia source, company is private with 250+ employees (2023). Current stage not explicitly stated in sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://astranis.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://astranis.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Astranis"
-        }
-      ],
-      "notes": "Founded October 20, 2015. Part of Y Combinator Winter 2016 cohort. First MicroGEO satellite (Arcturus) launched April 30, 2023. As of Wikipedia source, company is private with 250+ employees (2023). Current stage not explicitly stated in sources."
-    },
     {
       "name": "Boom Supersonic",
       "current": {
         "name": "Boom Supersonic",
         "founder": "Blake Scholl, Joe Wilding, Josh Krall",
-        "location": "Denver, CO",
+        "location": "Denver, Colorado",
         "founded": 2014,
-        "fundingStage": "Series B",
-        "totalRaised": "$600M+",
+        "fundingStage": "Series D",
+        "totalRaised": "$900M+",
         "website": "https://boomsupersonic.com"
       },
       "verified": {
@@ -287,9 +100,9 @@
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Denver, CO",
-          "verified": "Denver, Colorado",
+          "field": "totalRaised",
+          "current": "$900M+",
+          "verified": "$600M+",
           "sources": [
             2
           ]
@@ -322,7 +135,7 @@
         "location": "San Francisco, CA",
         "founded": 2016,
         "fundingStage": "Series C",
-        "totalRaised": "$112M",
+        "totalRaised": "$112M+",
         "website": "https://builtrobotics.com"
       },
       "verified": {
@@ -408,89 +221,6 @@
         }
       ],
       "notes": "Wikipedia states total raised is $112M across Series A, B, and C. Database entry lists $137M which cannot be verified from these sources. Company acquired Roin Technologies in 2023."
-    },
-    {
-      "name": "Dexterity",
-      "current": {
-        "name": "Dexterity",
-        "founder": "Samir Menon, Robert Sun, Kevin Chavez, Ben Varkey Benjamin, Talbot Morris-Downing, Cuthbert Sun",
-        "location": "Redwood City, CA",
-        "founded": 2017,
-        "fundingStage": "Series B",
-        "totalRaised": "$291M",
-        "website": "https://dexterity.com"
-      },
-      "verified": {
-        "name": "Dexterity",
-        "description": "AI-powered robotics company that develops physical AI systems for autonomous handling and logistics operations. The company's AI systems give robots human-like dexterity to operate in unstructured physical environments.",
-        "founders": [
-          "Samir Menon",
-          "Robert Sun",
-          "Kevin Chavez",
-          "Ben Varkey Benjamin",
-          "Talbot Morris-Downing",
-          "Cuthbert Sun"
-        ],
-        "location": "Redwood City, California",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://dexterity.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [2] is Wikipedia article on 'Fine motor skill' and is not relevant to the company Dexterity. Company has reached 100 million autonomous in-production actions as of 2025 according to source [1]. Current stage, total raised, valuation, and specific investor names could not be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Redwood City, CA",
-          "verified": "Redwood City, California",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://dexterity.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://dexterity.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dexterity"
-        }
-      ],
-      "notes": "Source [2] is Wikipedia article on 'Fine motor skill' and is not relevant to the company Dexterity. Company has reached 100 million autonomous in-production actions as of 2025 according to source [1]. Current stage, total raised, valuation, and specific investor names could not be verified from provided sources."
     }
   ],
   "unverifiable": [
@@ -575,6 +305,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Atana Elements",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Atomic AI",
       "reason": "no public sources accessible"
     },
@@ -604,7 +338,7 @@
     },
     {
       "name": "Blackshark.ai",
-      "reason": "Claude extraction failed"
+      "reason": "no public sources accessible"
     },
     {
       "name": "BotBuilt",
@@ -655,6 +389,10 @@
       "reason": "no public sources accessible"
     },
     {
+      "name": "Crusoe Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Cuby Technologies",
       "reason": "Claude extraction failed"
     },
@@ -679,6 +417,10 @@
       "reason": "no public sources accessible"
     },
     {
+      "name": "Dexterity",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Dhruva Space",
       "reason": "Claude extraction failed"
     },
@@ -687,11 +429,23 @@
       "reason": "no public sources accessible"
     },
     {
+      "name": "Diraq",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Distalmotion",
       "reason": "no public sources accessible"
     },
     {
+      "name": "Dominion Dynamics",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Dream Security",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "EdgeRunner AI",
       "reason": "Claude extraction failed"
     },
     {
@@ -709,6 +463,10 @@
     {
       "name": "Emelody",
       "reason": "no public sources accessible"
+    },
+    {
+      "name": "Endurosat",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Enovix",
@@ -752,10 +510,6 @@
     },
     {
       "name": "FlyBy Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Fortera",
       "reason": "Claude extraction failed"
     }
   ]

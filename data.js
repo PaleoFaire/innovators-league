@@ -25391,7 +25391,7 @@ tags: ["ground stations", "satellite comms", "space"],
     lat: 39.7392,
     lng: -104.9849,
     fundingStage: "Series D",
-    totalRaised: "$900M+",
+    totalRaised: "$600M+",
     valuation: "$1.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/dude-wheres-my-supersonic-jet",
         thesisCluster: "supersonic-hypersonic-transport",
@@ -31227,7 +31227,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     sector: "Robotics & Manufacturing",
     description: "Autonomous earthmoving and pile-driving robots for utility-scale solar build-out — RPD 35 robotic pile driver installs ~300 piles/day with a 2-person crew (5x faster than manual). Exosystem retrofits any excavator into an autonomous machine. Founded by Noah Ready-Campbell (ex-Google) and Andrew Liang; NEA-led $15M Series A (2017) plus $64M Series C led by Tiger Global (2022) for ~$112M+ total. Built's fleet has helped install over 2 GW of US solar capacity.",
     founder: "Noah Ready-Campbell, Andrew Liang",
-    location: "San Francisco, CA",
+    location: "San Francisco, California",
     state: "CA",
     lat: 37.7898,
     lng: -122.4018,
@@ -44398,7 +44398,7 @@ const VC_FIRMS = [
     thesis: "8VC invests in technology platforms that transform industries across infrastructure, biology, healthcare, government & defense, and logistics. The firm partners with entrepreneurs to build technologies that create lasting economic and societal value.",
     keyPartners: ["Joe Lonsdale", "Drew Oetting", "Jake Medwell"],
     sectorFocus: ["Infrastructure IT", "Biology", "Healthcare", "Government & Defense", "Logistics"],
-    portfolioCompanies: ["Aeon Industrial", "Anduril Industries", "Apex Space", "Ares Industries", "Atomic AI", "Bedrock Robotics", "CX2", "CX2 Industries", "Cambium", "Chaos Industries", "Cognition", "Epirus", "Hadrian", "Joby Aviation", "Mach Industries", "Mammoth Biosciences", "Orangewood Labs", "Overland AI", "Saildrone", "Saronic", "Senra Systems", "Shield AI", "Stark Defence", "Terra Industries", "The Boring Company", "Vannevar Labs", "Wispr AI"],
+    portfolioCompanies: ["Aeon Industrial", "Anduril Industries", "Apex Space", "Ares Industries", "Atomic AI", "Bedrock Robotics", "CX2", "CX2 Industries", "Cambium", "Chaos Industries", "Cognition", "Epirus", "Gallatin AI", "Hadrian", "Joby Aviation", "Mach Industries", "Mammoth Biosciences", "Orangewood Labs", "Overland AI", "Saildrone", "Saronic", "Senra Systems", "Shield AI", "Stark Defence", "Terra Industries", "The Boring Company", "Vannevar Labs", "Wispr AI"],
     signal: "established",
     website: "https://8vc.com",
     insight: "Joe Lonsdale's 8VC embodies the 'American Dynamism' ethos with a Texas twist. Their portfolio leans heavily into defense and industrial transformation, leveraging Lonsdale's Palantir network to source deals other VCs miss. Deep conviction in the defense tech thesis."
@@ -44413,7 +44413,7 @@ const VC_FIRMS = [
     thesis: "Founders Fund focuses on ambitious projects that resolve real challenges and create transformative technology. The firm has gradually developed from early-stage consumer internet into a primary backer of hard tech, defense technology, space exploration, artificial intelligence, and biotech.",
     keyPartners: ["Peter Thiel", "Luke Nosek", "Mike Solana", "Trae Stephens", "Lauren Gross", "Scott Nolan", "Napoleon Ta"],
     sectorFocus: ["Hard Tech", "Defense Technology", "Space Technology", "Artificial Intelligence", "Biotech"],
-    portfolioCompanies: ["Akash Systems", "Amca", "Anduril Industries", "Ares Industries", "Armada", "Astroscale", "Avalanche Energy", "Biofire", "Boom Supersonic", "Built Robotics", "Cognition", "Crusoe Energy", "D-Wave Quantum", "DIRAC", "Endurosat", "Finwave Semiconductor", "Flock Safety", "Foundry Lab", "Fractile", "Gecko Robotics", "General Matter", "Hadrian", "Hermeus", "ICON", "Impulse Labs", "Impulse Space", "Infleqtion", "Magdrive", "Multiply Labs", "Neros", "Neuralink", "New Limit", "Nominal", "NuScale Power", "Nucleus Genomics", "Palantir", "PsiQuantum", "REGENT Craft", "Rebellions", "Relativity Space", "Senra Systems", "Solugen", "SpaceX", "Stark Defence", "Substrate", "The Boring Company", "Ultima Genomics", "Until", "Valinor Enterprises", "Valthos", "Varda Space Industries", "Zettascale"],
+    portfolioCompanies: ["Akash Systems", "Amca", "Anduril Industries", "Ares Industries", "Armada", "Astroscale", "Avalanche Energy", "Biofire", "Boom Supersonic", "Built Robotics", "Cognition", "Crusoe Energy", "D-Wave Quantum", "DIRAC", "Endurosat", "Finwave Semiconductor", "Flock Safety", "Foundry Lab", "Fractile", "Gecko Robotics", "General Matter", "Hadrian", "Hermeus", "ICON", "Impulse Labs", "Impulse Space", "Infleqtion", "Magdrive", "Multiply Labs", "Neros", "Neuralink", "New Limit", "Nominal", "NuScale Power", "Nucleus Genomics", "Onodrim Industries", "Palantir", "PsiQuantum", "REGENT Craft", "Rebellions", "Relativity Space", "Scale AI", "Senra Systems", "Solugen", "SpaceX", "Stark Defence", "Strata Robotics", "Substrate", "The Boring Company", "Ultima Genomics", "Until", "Valinor Enterprises", "Valthos", "Varda Space Industries", "Voya Energy", "Westmag", "Zettascale"],
     signal: "established",
     website: "https://foundersfund.com",
     insight: "Founders Fund remains the intellectual center of contrarian hard tech investing. Peter Thiel's conviction that 'we live in a world of bits, not atoms' drove the fund's early SpaceX, Palantir, and Anduril bets. Trae Stephens and Delian Asparouhov now lead the defense tech thesis, having essentially created the category."
@@ -44428,7 +44428,7 @@ const VC_FIRMS = [
     thesis: "Khosla Ventures invests in technology-based economic disruption across numerous industries, seeking unfair advantages through proprietary technological advances and business model innovations. The firm believes AI has the power to disrupt economic models and invests in deep tech where it can be early, bold and impactful.",
     keyPartners: ["Vinod Khosla", "Samir Kaul", "Keith Rabois", "Sven Strohband", "David Weiden"],
     sectorFocus: ["Consumer", "Enterprise", "Fintech", "Frontier", "MedTech & Diagnostics", "Digital Health", "Therapeutics", "Sustainability"],
-    portfolioCompanies: ["Akash Systems", "Caelux", "Collaborative Robotics", "Commonwealth Fusion Systems", "Compound Eye", "Crusoe Energy", "Helion", "Hermeus", "Limelight Steel", "Mach Industries", "Mainspring Energy", "Mariana Minerals", "New Limit", "Nominal", "Physical Intelligence", "Quaise Energy", "RedoxBlox", "Rocket Lab", "Sagence", "Spiritus", "Starcloud", "TerraPower", "Terraform Industries", "Ultima Genomics", "Varda Space Industries", "Vivodyne", "Waabi", "Windborne", "Zeta Surgical"],
+    portfolioCompanies: ["Akash Systems", "Caelux", "Collaborative Robotics", "Commonwealth Fusion Systems", "Compound Eye", "Crusoe Energy", "Helion", "Hermeus", "Limelight Steel", "Mach Industries", "Mainspring Energy", "Mariana Minerals", "New Limit", "Nominal", "Physical Intelligence", "Quaise Energy", "RedoxBlox", "Rocket Lab", "Sagence", "Spiritus", "Starcloud", "Tempo", "TerraPower", "Terraform Industries", "Ultima Genomics", "Varda Space Industries", "Vivodyne", "Waabi", "Windborne", "Zeta Surgical"],
     signal: "established",
     website: "https://khoslaventures.com",
     insight: "Vinod Khosla's willingness to make 'black swan' bets sets his fund apart. Early OpenAI investor, fusion energy pioneer backer (Helion, CFS), and consistent contrarian — Khosla has built arguably the deepest deep tech portfolio in the world. His philosophy: 'My willingness to fail gives me the ability to succeed.'"
@@ -44473,7 +44473,7 @@ const VC_FIRMS = [
     thesis: "Eclipse invests in entrepreneurs building the next generation of companies in the physical economy — the industries that determine resilience, competitiveness, and security.",
     keyPartners: ["Aidan Madigan-Curtis", "Charly Mwangi", "Angela Hayward", "Greg Reichow", "Joe Fath"],
     sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Housing & Construction"],
-    portfolioCompanies: ["Arc Boats", "Augury", "Bedrock Robotics", "Blue Water Autonomy", "Enovix", "Gecko Robotics", "Genesis AI", "Hadrian", "Machina Labs", "Simbe Robotics", "The Nuclear Company", "True Anomaly", "VulcanForms", "Wayve"],
+    portfolioCompanies: ["Arc Boats", "Augury", "Bedrock Robotics", "Blue Water Autonomy", "Enovix", "Foxglove", "Gecko Robotics", "Genesis AI", "Hadrian", "Machina Labs", "Simbe Robotics", "The Nuclear Company", "True Anomaly", "VulcanForms", "Wayve"],
     signal: "rising",
     website: "https://eclipse.capital",
     insight: "Eclipse's 'industrial transformation' focus means they see what consumer-tech VCs miss: the massive opportunity in modernizing America's industrial base. Their portfolio companies are literally rebuilding how things are manufactured, inspected, and maintained."
@@ -44488,7 +44488,7 @@ const VC_FIRMS = [
     thesis: "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI and backing founders globally.",
     keyPartners: ["Hemant Taneja", "Ken Chenault", "Jeannette zu Fürstenberg"],
     sectorFocus: ["Artificial Intelligence", "Defense & Government", "Energy & Infrastructure", "Industrials & Manufacturing", "Healthcare", "Fintech", "Enterprise", "Consumer"],
-    portfolioCompanies: ["Chariot Defense", "Substrate", "Senra Systems", "Relativity Space", "Mainspring Energy", "Anduril Industries", "Darkhive", "Standard Bots", "Claros", "Applied Intuition", "Collaborative Robotics", "Helsing", "Evolv Technology", "Charm Industrial", "Re:Build Manufacturing", "MatX", "Valinor Enterprises", "Vannevar Labs", "ideaForge", "Pacific Fusion", "Nominal", "ICEYE", "Altos Labs", "Castelion"],
+    portfolioCompanies: ["Altos Labs", "Anduril Industries", "Applied Intuition", "Castelion", "Chariot Defense", "Charm Industrial", "Claros", "Collaborative Robotics", "Darkhive", "Evolv Technology", "Helsing", "ICEYE", "Mainspring Energy", "MatX", "Nominal", "Onodrim Industries", "Pacific Fusion", "Re:Build Manufacturing", "Relativity Space", "Senra Systems", "Standard Bots", "Substrate", "Together AI", "Twenty", "Valinor Enterprises", "Vannevar Labs", "ideaForge"],
     signal: "rising",
     website: "https://generalcatalyst.com",
     insight: "GC has transformed from a traditional VC into a global financial services company under CEO Hemant Taneja. Acquired Summa Health (hospital chain), merged with La Famiglia (Europe) and Venture Highway (India), and agreed to acquire Janus Henderson for $7.4B. Their $40B+ AUM and deep tech allocation are growing rapidly."
@@ -44503,7 +44503,7 @@ const VC_FIRMS = [
     thesis: "Lux invests in emerging science and technology ventures at the outermost edges of what is possible. The firm backs founders building transformative companies in atoms, not just bits, working at the intersection of new and not-yet-imagined technologies decades into the future.",
     keyPartners: ["Josh Wolfe", "Peter Hébert", "Deena Shakir", "Shahin Farshchi", "Brandon Reeves", "Grace Isford", "Shaq Vayda", "David Yang", "Lan Jiang", "Tess van Stekelenburg"],
     sectorFocus: ["Artificial Intelligence", "Data & AI", "Defense", "Biology", "Neuroscience", "Manufacturing", "Robotics", "Space", "Sensing"],
-    portfolioCompanies: ["Amca", "Anduril Industries", "Applied Intuition", "Ares Industries", "Astranis", "Cognichip", "Cognition", "Collaborative Robotics", "Colossal Biosciences", "Deep Sentinel", "Durin", "Echodyne", "Epsilon3", "Evolv Technology", "Formic", "Hadrian", "Impulse Space", "Kela", "Looking Glass", "Lumaril", "Majestic Labs", "Medra", "Multiply Labs", "Nominal", "Osmo", "Performance Drone Works", "Physical Intelligence", "Reflect Orbital", "Relativity Space", "Rigetti Computing", "Saildrone", "Saronic", "Until", "Valthos", "Varda Space Industries", "Xaira Therapeutics"],
+    portfolioCompanies: ["Amca", "Anduril Industries", "Applied Intuition", "Ares Industries", "Astranis", "Cognichip", "Cognition", "Collaborative Robotics", "Colossal Biosciences", "Deep Sentinel", "Durin", "Echodyne", "Epsilon3", "Evolv Technology", "Formic", "Hadrian", "Impulse Space", "Kela", "Looking Glass", "Lumaril", "Majestic Labs", "Medra", "Multiply Labs", "Nominal", "Osmo", "Performance Drone Works", "Physical Intelligence", "Reflect Orbital", "Relativity Space", "Rigetti Computing", "Saildrone", "Saronic", "Together AI", "Until", "Valthos", "Varda Space Industries", "Westmag", "Xaira Therapeutics"],
     signal: "established",
     website: "https://luxcapital.com",
     insight: "Josh Wolfe's Lux Capital is the intellectual godfather of deep tech venture capital. His 'invest in the future that sci-fi promised' philosophy produced category-defining bets on Anduril, and his prolific Twitter/X presence makes Lux the most visible deep tech brand. Their ability to identify paradigm shifts before they're obvious — from defense autonomy to space manufacturing — is unmatched."
@@ -44518,7 +44518,7 @@ const VC_FIRMS = [
     thesis: "Harpoon invests in audacious founders building across AI, deep tech, software infrastructure, and cybersecurity. Founded in 2018 by a two-time Olympic medalist and former Navy SEAL, the firm operates on the belief that technology will define geopolitics.",
     keyPartners: ["Larsen Jensen"],
     sectorFocus: ["AI", "Cybersecurity", "Deep Tech", "Software Infrastructure", "Aerospace / Defense", "Energy / Materials", "Biotech / Biosecurity"],
-    portfolioCompanies: ["Aalo Atomics", "Astranis", "Castelion", "Firestorm Labs", "General Galactic", "Glyphic Biotechnologies", "MatX", "Salient Motion", "Solugen"],
+    portfolioCompanies: ["Aalo Atomics", "Astranis", "Castelion", "Firestorm Labs", "General Galactic", "Glyphic Biotechnologies", "MatX", "Orbital Operations", "Salient Motion", "Solugen", "Vector Defense"],
     signal: "rising",
     website: "https://harpoon.vc",
     insight: "Larsen Jensen's journey from Olympic swimmer to Navy SEAL to VC gives Harpoon a rare edge: they understand both what operators need in the field AND what makes technology investable. Their dual-use focus — commercial products with defense applications — hits the sweet spot of the current defense tech cycle. 79 investments and 23 exits show consistent execution."
@@ -44533,7 +44533,7 @@ const VC_FIRMS = [
     thesis: "Lowercarbon backs companies that slash CO2 emissions, remove carbon from the atmosphere, and buy time to address climate change. The firm funds three investment buckets: slashing new CO2 emissions across energy, transportation, industrial materials and agriculture; sucking up carbon from the atmosphere; and technologies to cool the planet.",
     keyPartners: ["Chris Sacca", "Crystal Sacca", "Clay Dumas", "Ryan Orbuch", "Shuo Yang", "Shawn Xu", "Caie Kelley", "Lauren Faber O'Connor"],
     sectorFocus: ["Climate & Energy", "Carbon Removal", "Clean Energy"],
-    portfolioCompanies: ["Antora Energy", "Arbor Energy", "Arc Boats", "Astro Mechanica", "Avalanche Energy", "Carbyon", "Cemvita Factory", "Charm Industrial", "Commonwealth Fusion Systems", "Crusoe Energy", "Epoch Biodesign", "Fuse Energy", "Heart Aerospace", "Heirloom Carbon", "Lilac Solutions", "Living Carbon", "Overview Energy", "Pacific Fusion", "Panthalassa", "Renaissance Fusion", "Thea Energy", "Twelve", "Xcimer Energy", "Zap Energy"],
+    portfolioCompanies: ["Antora Energy", "Arbor Energy", "Arc Boats", "Astro Mechanica", "Atana Elements", "Avalanche Energy", "Carbyon", "Cemvita", "Cemvita Factory", "Charm Industrial", "Commonwealth Fusion Systems", "Crusoe Energy", "Epoch Biodesign", "Fuse Energy", "Heart Aerospace", "Heirloom Carbon", "Lilac Solutions", "Living Carbon", "Overview Energy", "Pacific Fusion", "Panthalassa", "Renaissance Fusion", "Stardust Solutions", "Sublime Systems", "Thea Energy", "Twelve", "Ulysses Ecosystem Engineering", "Xcimer Energy", "Zap Energy"],
     signal: "established",
     website: "https://lowercarbon.com",
     insight: "Chris Sacca built one of the most successful venture funds in history (early Uber, Twitter, Instagram) then went all-in on climate. Lowercarbon's $2B+ AUM and dedicated fusion fund make it the most capitalized pure-play climate deep tech investor. Their willingness to back nuclear fusion, ocean carbon removal, and other frontier climate tech gives them deal flow other funds can't access. The second fusion fund (2025) signals doubling down on the energy transition."
@@ -44578,7 +44578,7 @@ const VC_FIRMS = [
     thesis: "Backing founders building critical infrastructure for the physical world — defense, space, robotics, and industrial technology. Early-stage conviction in companies where atoms meet bits.",
     keyPartners: ["Will Coffield", "Stephen Marcus"],
     sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Space & Aerospace"],
-    portfolioCompanies: ["Blue Water Autonomy", "Deterrence", "Elementary Robotics", "Endurosat", "Karman Industries", "Lumafield", "Parallel Systems", "Rugged Robotics", "Shield AI", "Simbe Robotics", "True Anomaly", "Valar Atomics"],
+    portfolioCompanies: ["Blue Water Autonomy", "Deterrence", "Elementary Robotics", "Endurosat", "Integrate", "Karman Industries", "Lumafield", "Parallel Systems", "Rugged Robotics", "Shield AI", "Sift Stack", "Simbe Robotics", "True Anomaly", "Valar Atomics"],
     signal: "established",
     website: "https://riot.vc",
     insight: "Riot Ventures has scaled from a $10M first fund to over $1B in AUM, becoming one of the most connected hard tech investors in LA. Voted onto the LA Hard Tech 50 panel alongside Lux and Sequoia. Co-founders Will Coffield and Stephen Marcus deploy from $500K seed checks to $100M growth investments across defense, space, and industrial robotics."
@@ -44608,7 +44608,7 @@ const VC_FIRMS = [
     thesis: "Valor invests in technology and technology-enabled companies that innovate and disrupt existing industries. The firm applies operational growth methodology, working alongside management teams to optimize supply chains, processes, and business operations from seed through IPO.",
     keyPartners: ["Antonio Gracias", "Jon Shulkin", "Juan Sabater"],
     sectorFocus: ["Energy & Climate", "Space & Aerospace", "Autonomous Vehicles & Drones", "Defense & Security"],
-    portfolioCompanies: ["Aalo Atomics", "Anduril Industries", "Base Power", "Bedrock Ocean", "Bedrock Robotics", "Chaos Industries", "Crusoe Energy", "Extropic", "Harbinger", "Impulse Space", "Osmo", "Pyka", "SpaceX", "Substrate", "The Boring Company"],
+    portfolioCompanies: ["Aalo Atomics", "Anduril Industries", "Base Power", "Bedrock Ocean", "Bedrock Robotics", "Chaos Industries", "Crusoe Energy", "Extropic", "Harbinger", "Impulse Space", "Magrathea Metals", "Osmo", "Pyka", "SpaceX", "Substrate", "The Boring Company"],
     signal: "established",
     website: "https://valorep.com",
     insight: "Antonio Gracias served on Tesla's board for over a decade (2007-2021) and remains on SpaceX's board — one of the most operationally experienced hard tech investors alive. Headquartered in Chicago with $17.5B+ AUM across growth equity, seed, and specialty vehicles. Valor doesn't just write checks — they embed operators."
@@ -44623,7 +44623,7 @@ const VC_FIRMS = [
     thesis: "Technologies that can each reduce 500M+ tons CO2/year. Patient capital with 20-year fund life backing science-based climate solutions across the entire energy value chain.",
     keyPartners: ["Bill Gates", "Carmichael Roberts", "Eric Toone"],
     sectorFocus: ["Energy & Climate", "Nuclear Energy", "Advanced Manufacturing", "Space & Aerospace"],
-    portfolioCompanies: ["Boston Metal", "Brimstone", "CarbonCure Technologies", "Commonwealth Fusion Systems", "Cowboy Space Corporation", "Electric Hydrogen", "Fervo Energy", "FleetZero", "Form Energy", "Fourth Power", "Graphyte", "Heart Aerospace", "Heron Power", "Hertha Metals", "IonQ", "KoBold Metals", "Koloma", "Lilac Solutions", "LuxWall", "Mariana Minerals", "Pacific Fusion", "Planted Solar", "QuantumScape", "RedoxBlox", "Redwood Materials", "Stoke Space", "Terraform Industries", "VEIR", "Xcimer Energy", "ZeroAvia"],
+    portfolioCompanies: ["Boston Metal", "Brimstone", "CarbonCure Technologies", "Commonwealth Fusion Systems", "Cowboy Space Corporation", "Electric Hydrogen", "Fervo Energy", "FleetZero", "Form Energy", "Fourth Power", "Graphyte", "Heart Aerospace", "Heron Power", "Hertha Metals", "IonQ", "KoBold Metals", "Koloma", "Lilac Solutions", "LuxWall", "Mariana Minerals", "Pacific Fusion", "Planted Solar", "QuantumScape", "RedoxBlox", "Redwood Materials", "Rondo Energy", "Stoke Space", "Sygaldry Technologies", "Tempo", "Terraform Industries", "VEIR", "Xcimer Energy", "ZeroAvia"],
     signal: "established",
     website: "https://breakthroughenergy.org",
     insight: "Bill Gates' Breakthrough Energy is the most patient and science-rigorous climate investor. Their 500M-ton CO2 reduction threshold ensures every investment targets planetary-scale impact. The $14B platform spans ventures, fellowships, and policy advocacy."
@@ -44638,7 +44638,7 @@ const VC_FIRMS = [
     thesis: "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
     keyPartners: ["Katie Rae", "Reed Sturtevant"],
     sectorFocus: ["Applied AI & ML", "Computing", "Mobility", "Autonomous Systems / Robotics", "Energy", "Natural Resources", "Biotech / Life Sciences", "Food / Agriculture", "Quantum Computing", "Carbon Capture / CCUS"],
-    portfolioCompanies: ["Boston Metal", "Commonwealth Fusion Systems", "Form Energy", "ISEE", "Lilac Solutions", "Overview Energy", "Quaise Energy", "RISE Robotics", "Sublime Systems", "VEIR"],
+    portfolioCompanies: ["Boston Metal", "Commonwealth Fusion Systems", "DG Matrix", "Form Energy", "ISEE", "Lilac Solutions", "Overview Energy", "Quaise Energy", "RISE Robotics", "Sublime Systems", "VEIR"],
     signal: "rising",
     website: "https://engine.xyz",
     insight: "Engine (formerly The Engine at MIT) pioneered the Tough Tech investing category. Their proximity to MIT and deep science networks give them first access to breakthrough technologies that take years to commercialize but create massive moats."
@@ -44668,7 +44668,7 @@ const VC_FIRMS = [
     thesis: "In-Q-Tel identifies and invests in startups developing cutting-edge technologies to serve United States national security interests. The firm bridges the gap between technology needs of intelligence and defense communities and innovative capabilities of the private sector through technology development agreements and equity investments.",
     keyPartners: ["Steve Bowsher"],
     sectorFocus: ["Space", "Biotechnology", "Microelectronics", "Energy", "AI", "Cyber", "Life Sciences", "Hardware"],
-    portfolioCompanies: ["Anduril Industries", "Blackshark.ai", "Cerebras", "ClearSpace", "Colossal Biosciences", "D-Wave Quantum", "Groq", "Havoc AI", "Hermeus", "ICEYE", "Infleqtion", "Kela", "Morpheus Space", "Palantir", "Planet Labs", "Pragmatic Semiconductor", "QuantWare", "Skild AI", "Skydio", "Stark Defence", "Stoke Space", "Substrate", "Synchron", "Vast", "Vatn Systems", "Xanadu Quantum Technologies"],
+    portfolioCompanies: ["Anduril Industries", "Anello Photonics", "Blackshark.ai", "Cerebras", "ClearSpace", "Colossal Biosciences", "D-Wave Quantum", "Groq", "Havoc AI", "Hermeus", "ICEYE", "Infleqtion", "Kela", "Lambda", "Morpheus Space", "Palantir", "Phoenix Tailings", "Planet Labs", "Pragmatic Semiconductor", "QuantWare", "Skild AI", "Skydio", "Stark Defence", "Stoke Space", "Substrate", "Synchron", "Twenty", "Vast", "Vatn Systems", "Xanadu Quantum Technologies"],
     signal: "established",
     website: "https://www.iqt.org",
     insight: "In-Q-Tel is the CIA's venture arm and the original government VC. Their investment signals what the intelligence community considers strategically critical. An IQT investment is both capital and a stamp of national security relevance."
@@ -44683,7 +44683,7 @@ const VC_FIRMS = [
     thesis: "Thematic-driven investors backing ambitious founders who are building for big outcomes across critical domains. The firm brings deep sector insights, partnership, and hands-on support from seed to pre-IPO to help build enduring companies.",
     keyPartners: ["Steve Cohen"],
     sectorFocus: ["Artificial Intelligence", "Consumer", "Defense Tech"],
-    portfolioCompanies: ["Apex Space", "Atomic Industries", "Blackshark.ai", "CX2 Industries", "Overland AI", "REGENT Craft", "Rune Technologies", "Saronic", "Shield AI", "Starfish Space", "Stoke Space", "Vannevar Labs"],
+    portfolioCompanies: ["Apex Space", "Atomic Industries", "Blackshark.ai", "CX2 Industries", "Overland AI", "REGENT Craft", "Rune Technologies", "Saronic", "Shield AI", "Smack Technologies", "Starfish Space", "Stoke Space", "Vannevar Labs", "Vector Defense"],
     signal: "rising",
     website: "https://point72.com/ventures",
     insight: "Steve Cohen's Point72 launched a dedicated Deterrence Fund, signaling that the hedge fund world sees defense tech as a generational investment opportunity. Their quantitative DNA brings a unique analytical lens to defense investing."
@@ -44698,7 +44698,7 @@ const VC_FIRMS = [
     thesis: "Caffeinated leads seed and Series A rounds and invests throughout the life of technology companies. The firm supports founders building category-defining companies across all sectors.",
     keyPartners: ["Raymond Tonsing", "Varun Gupta", "Matthew Volosin"],
     sectorFocus: ["Defense & Security", "Space & Aerospace", "Nuclear Energy"],
-    portfolioCompanies: ["Amca", "Saronic", "Varda Space Industries"],
+    portfolioCompanies: ["Amca", "Saronic", "Twenty", "Varda Space Industries"],
     signal: "rising",
     website: "https://caffeinatedcapital.com",
     insight: "Caffeinated takes concentrated positions in frontier defense and space companies. Their portfolio includes some of the most ambitious hardware companies in the ecosystem, from autonomous warships (Saronic) to space manufacturing (Varda)."
@@ -44713,7 +44713,7 @@ const VC_FIRMS = [
     thesis: "Future Ventures focuses on seed and early-stage investments in trailblazing, purpose-driven entrepreneurs with unique ideas that have the potential to reinvent entire industries.",
     keyPartners: ["Steve Jurvetson", "Maryanna Saenko", "NICO Enriquez"],
     sectorFocus: ["Space & Aerospace", "Nuclear Energy", "Quantum Computing", "Biotech & Medical"],
-    portfolioCompanies: ["Commonwealth Fusion Systems", "D-Wave Quantum", "Mojo Vision", "Mythic", "Planet Labs", "SpaceX", "The Boring Company", "Verdant Robotics", "Xona Space Systems"],
+    portfolioCompanies: ["Commonwealth Fusion Systems", "D-Wave Quantum", "Lace Lithography", "Mojo Vision", "Mythic", "Planet Labs", "SpaceX", "The Boring Company", "Verdant Robotics", "Xona Space Systems"],
     signal: "established",
     website: "https://future.ventures",
     insight: "Steve Jurvetson's track record includes the first VC checks into SpaceX and Tesla. Future Ventures' 15-year fund structure gives them the patience to back truly transformative science that others consider too long-horizon."
@@ -44728,7 +44728,7 @@ const VC_FIRMS = [
     thesis: "For over twenty years Lightspeed has been the first investor and an early backer of some of the most innovative companies in the world. The firm stands behind companies with high conviction from Seed to Series F and beyond.",
     keyPartners: ["Arif Janmohamed", "Barry Eggers", "Peter Nieh", "Ravi Mhatre", "Guru Chahal"],
     sectorFocus: ["Defense & Security", "AI & Software", "Space & Aerospace", "Semiconductors"],
-    portfolioCompanies: ["Anduril Industries", "Base Power", "Castelion", "Helion", "Helsing", "Pacific Fusion", "RobCo", "Saronic", "Skild AI", "Xaira Therapeutics"],
+    portfolioCompanies: ["Anduril Industries", "Base Power", "Cartesia", "Castelion", "Helion", "Helsing", "Nominal", "Pacific Fusion", "RobCo", "Saronic", "Skild AI", "Vector Defense", "Xaira Therapeutics"],
     signal: "hot",
     website: "https://lsvp.com",
     insight: "Lightspeed's $9B fundraise in December 2025 — the largest in its history — signals a massive deployment runway for frontier tech. They've emerged as the go-to growth investor for hypersonic and autonomous weapons, leading both Castelion rounds and Saronic's Series B. Guru Chahal's defense thesis is increasingly central to the firm's AI practice."
@@ -44758,7 +44758,7 @@ const VC_FIRMS = [
     thesis: "Bessemer invests across deep tech, defense, aerospace, AI, healthcare, and consumer. The dedicated Deep Tech & Defense roadmap is led by partners with named operational pedigree — Lori Garver (ex-NASA Deputy Administrator), Tess Hatch (ex-SpaceX), Dr. Ray Johnson (ex-Lockheed CTO) — making Bessemer the only Tier-1 generalist with a publicly named space-engineering bench. Active in physical AI, robotics infrastructure, defense autonomy, and fusion energy.",
     keyPartners: ["Byron Deeter", "David Cowan", "Alex Ferrara", "Tess Hatch", "Lori Garver", "Ray Johnson", "Mary D'Onofrio"],
     sectorFocus: ["Deep Tech & Defense", "Aerospace", "Robotics & Physical AI", "Fusion Energy", "AI Infrastructure", "Cybersecurity", "Industrial OT"],
-    portfolioCompanies: ["Boom Supersonic", "Auterion", "Sila Nanotechnologies", "Rigetti Computing", "Saronic", "Xanadu Quantum Technologies", "Foxglove", "Mind Robotics", "The Exploration Company", "Inertia Enterprises", "Vannevar Labs", "Wayve", "Rocket Lab", "Waymo", "ANYbotics", "Reveal Technology", "LeoLabs", "Deep Isolation", "Forterra", "Solar Foods", "SunDrive Solar", "Abridge", "Armada", "DNA Script", "Astrolab", "Silicon Box"],
+    portfolioCompanies: ["ANYbotics", "Abridge", "Armada", "Astrolab", "Auterion", "Boom Supersonic", "Breaker Industries", "DEFCON AI", "DNA Script", "Deep Isolation", "Dominion Dynamics", "Forterra", "Foxglove", "Inertia Enterprises", "LeoLabs", "Mind Robotics", "NODA AI", "Onebrief", "Reveal Technology", "Rigetti Computing", "Rocket Lab", "Saronic", "Sila Nanotechnologies", "Silicon Box", "Solar Foods", "SunDrive Solar", "The Exploration Company", "TurbineOne", "Vannevar Labs", "Waymo", "Wayve", "Xanadu Quantum Technologies"],
     signal: "established",
     website: "https://www.bvp.com",
     insight: "Bessemer is the only Tier-1 generalist with a publicly named space-engineering bench — Lori Garver (ex-NASA Deputy Admin), Tess Hatch (ex-SpaceX), Ray Johnson (ex-Lockheed CTO). They led Rocket Lab Series B (still the canonical space VC win), back Rigetti and Xanadu in quantum, and in 2026 led the $450M Series A in Inertia Enterprises — the largest commercial laser-fusion bet yet. When Bessemer commits engineering-partner capital to a hard-tech category, the category gets legitimized."
@@ -44773,7 +44773,7 @@ const VC_FIRMS = [
     thesis: "Razor's Edge is the longest-tenured pure defense / national-security specialist VC. Mandate is mission-critical capabilities for DoD and the intelligence community — space, autonomy, cyber, AI, RF/SIGINT, energy for defense, and a distinctive 'platform incubation' model where the fund builds vertically integrated defense primes from scratch (BlackSea Technologies, BlackVe).",
     keyPartners: ["Mark Spoto", "Steve Bowsher (board advisor)", "Brett Tucker", "Mark D'Aria"],
     sectorFocus: ["Defense Autonomy", "Space / RF SIGINT", "Cybersecurity", "AI for Defense", "Naval Autonomy", "Maritime Domain Awareness", "Government-grade IT"],
-    portfolioCompanies: ["X-Bow Systems", "HawkEye 360", "BlackSea Technologies", "BlackSky", "BlackVe", "Integer Technologies", "mPower Technology", "Expedition Technology", "Ursa Space Systems", "Corsha", "Dark Wolf Solutions", "Talon Defense"],
+    portfolioCompanies: ["BlackSea Technologies", "BlackSky", "BlackVe", "Corsha", "Dark Wolf Solutions", "Expedition Technology", "HawkEye 360", "Integer Technologies", "Talon Defense", "Ursa Space Systems", "X-Bow Systems", "Zeno Power", "mPower Technology"],
     signal: "established",
     website: "https://www.razorsvc.com",
     insight: "Razor's Edge is the longest-tenured pure defense / national-security specialist VC, with the deepest DC-Belt sourcing network. Their distinctive 'platform incubation' model — they don't just invest, they build vertically integrated defense primes from scratch (BlackSea Technologies' GARC USV program has $160M+ Navy obligations scaling to $212M; BlackVe builds sovereign-space mission systems across LEO/MEO/HEO/GEO/xGEO) — produces dealflow no other VC can replicate. When they commit, the IC pays attention."
