@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -13.42,
+      "avg_change": -15.32,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -21.39,
+      "avg_change": -13.83,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -12.59,
+      "avg_change": -11.95,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.23,
+      "avg_change": -13.21,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.26,
+      "avg_change": 0.17,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -20.37,
+      "avg_change": -11.98,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.37,
+      "avg_change": -8.3,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -4.98,
+      "avg_change": -0.18,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -6.67,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.86,
       "count": 3
     }
   },
   "topGainers": [
+    [
+      "LNZA",
+      "LanzaTech",
+      25.99
+    ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
       13.25
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      6.98
+      "ALAB",
+      "Astera Labs",
+      8.61
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      2.98
     ],
     [
       "9348.T",
       "ispace",
       2.57
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      0.31
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      -2.86
     ]
   ],
   "topLosers": [
     [
-      "IONQ",
-      "IonQ",
-      -21.22
-    ],
-    [
-      "RKLB",
-      "Rocket Lab",
-      -23.28
-    ],
-    [
       "SATL",
       "Satellogic",
-      -25.13
+      -18.86
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      -19.38
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -20.56
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -33.01
+      -22.01
     ],
     [
       "PL",
       "Planet Labs",
-      -37.0
+      -31.82
     ]
   ],
-  "lastUpdated": "2026-06-08 11:03:44"
+  "lastUpdated": "2026-06-08 16:00:13"
 }
