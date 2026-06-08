@@ -57155,15 +57155,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-08 21:57
+// Last updated: 2026-06-08 23:18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic", source: "Wired", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "Anthropic", headline: "Following Anthropic, OpenAI files confidentially for IPO", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Scale AI", headline: "How defense teams can scale AI without increasing data risk", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Anthropic", headline: "Trump memo on AI aims to avoid repeat of Anthropic debacle", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Scale AI", headline: "BeatpulseLabs raises $1.8M pre-seed to scale AI training data", source: "Tech.eu", time: "13h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn't Take SpaceX Public ' Two Things That Changed His Mind", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SPACEX Is Winning AI Cloud NOW. More AI Revenue than Amazon and Google", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "OpenAI", headline: "As OpenAI files for IPO, Sam Altman's eye-scanning company is doing layoffs, report says", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic", source: "Wired", time: "1h ago", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "Anthropic", headline: "OpenAI files confidentially for IPO, following Anthropic", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Scale AI", headline: "How defense teams can scale AI without increasing data risk", source: "Breaking Defense", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "Anthropic", headline: "Trump memo on AI aims to avoid repeat of Anthropic debacle", source: "Breaking Defense", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Scale AI", headline: "BeatpulseLabs raises $1.8M pre-seed to scale AI training data", source: "Tech.eu", time: "15h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn't Take SpaceX Public ' Two Things That Changed His Mind", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "SpaceX", headline: "Star Power ' Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
   { id: 9, type: "news", company: "Waymo", headline: "Waymo Sending Used EV Batteries to Community Clean Energy", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "2d ago", impact: "low", unread: false },
