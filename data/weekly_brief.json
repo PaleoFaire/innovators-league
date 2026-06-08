@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-07",
-  "display_date": "Jun 07, 2026",
-  "generated_at": "2026-06-07T11:22:45.309482+00:00",
-  "cutoff": "2026-05-31T11:22:45.309482+00:00",
-  "section_count": 8,
-  "total_items": 368,
+  "date": "2026-06-08",
+  "display_date": "Jun 08, 2026",
+  "generated_at": "2026-06-08T14:14:03.276957+00:00",
+  "cutoff": "2026-06-01T14:14:03.276957+00:00",
+  "section_count": 7,
+  "total_items": 328,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 36,
+      "count": 37,
       "items": [
         {
           "company": "Scale AI",
@@ -19,46 +19,11 @@
           "tier": "early"
         },
         {
-          "company": "LuxWall",
-          "current": 33.5,
-          "previous": 38.0,
-          "change": -4.5,
-          "tier": "early"
-        },
-        {
-          "company": "Windborne",
-          "current": 33.0,
-          "previous": 37.5,
-          "change": -4.5,
-          "tier": "early"
-        },
-        {
-          "company": "Spiritus",
-          "current": 33.0,
-          "previous": 37.5,
-          "change": -4.5,
-          "tier": "early"
-        },
-        {
-          "company": "Caelux",
-          "current": 33.0,
-          "previous": 37.5,
-          "change": -4.5,
-          "tier": "early"
-        },
-        {
-          "company": "Planted Solar",
-          "current": 33.0,
-          "previous": 37.5,
-          "change": -4.5,
-          "tier": "early"
-        },
-        {
-          "company": "Panthalassa",
-          "current": 33.5,
-          "previous": 37.5,
-          "change": -4.0,
-          "tier": "early"
+          "company": "IonQ",
+          "current": 93.0,
+          "previous": 89.0,
+          "change": 4.0,
+          "tier": "elite"
         },
         {
           "company": "Together AI",
@@ -80,103 +45,54 @@
           "previous": 38.5,
           "change": -3.0,
           "tier": "early"
-        }
-      ]
-    },
-    {
-      "title": "New Funding Rounds",
-      "icon": "\ud83d\udcb0",
-      "count": 22,
-      "items": [
-        {
-          "company": "Impulse Space",
-          "amount": "$500M",
-          "round": "SPAC",
-          "investor": "Undisclosed",
-          "date": "2026-06"
         },
         {
-          "company": "Photonic Inc",
-          "amount": "$465M",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-06"
+          "company": "Viken Detection",
+          "current": 35.5,
+          "previous": 38.5,
+          "change": -3.0,
+          "tier": "early"
         },
         {
-          "company": "Oxford Quantum Circuits",
-          "amount": "$350M",
-          "round": "Series C",
-          "investor": "Undisclosed",
-          "date": "2026-06"
+          "company": "Kratos Defense",
+          "current": 35.5,
+          "previous": 38.5,
+          "change": -3.0,
+          "tier": "early"
         },
         {
-          "company": "Mara",
-          "amount": "$300M",
-          "round": "Funding Round",
-          "investor": "Accel",
-          "date": "2026-06"
+          "company": "Regulatory Alerts",
+          "current": 35.5,
+          "previous": 38.5,
+          "change": -3.0,
+          "tier": "early"
         },
         {
-          "company": "Scale AI",
-          "amount": "$250M",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-06"
+          "company": "Arena AI",
+          "current": 35.0,
+          "previous": 38.0,
+          "change": -3.0,
+          "tier": "early"
         },
         {
-          "company": "Focused Energy",
-          "amount": "$240M",
-          "round": "Series A",
-          "investor": "Undisclosed",
-          "date": "2026-06"
-        },
-        {
-          "company": "Endurosat",
-          "amount": "$200M",
-          "round": "Series C",
-          "investor": "Undisclosed",
-          "date": "2026-06"
-        },
-        {
-          "company": "Together AI",
-          "amount": "$200M",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-06"
-        },
-        {
-          "company": "Axiom Space",
-          "amount": "$175M",
-          "round": "Series G",
-          "investor": "Undisclosed",
-          "date": "2026-06"
-        },
-        {
-          "company": "Watershed",
-          "amount": "$100M",
-          "round": "Series G",
-          "investor": "Undisclosed",
-          "date": "2026-06"
+          "company": "Deep Sentinel",
+          "current": 35.0,
+          "previous": 38.0,
+          "change": -3.0,
+          "tier": "early"
         }
       ]
     },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 60,
+      "count": 51,
       "items": [
         {
           "company": "Rocket Lab",
           "form": "8-K",
           "description": "rklb-20260603.htm",
           "date": "2026-06-05",
-          "isIPO": false
-        },
-        {
-          "company": "Intuitive Machines",
-          "form": "8-K",
-          "description": "tm2616017d1_8k.htm",
-          "date": "2026-06-01",
           "isIPO": false
         },
         {
@@ -208,17 +124,24 @@
           "isIPO": false
         },
         {
-          "company": "D-Wave Quantum",
+          "company": "Tempus AI",
           "form": "8-K",
-          "description": "qbts-20260601.htm",
-          "date": "2026-06-01",
+          "description": "vnt-20260604.htm",
+          "date": "2026-06-04",
           "isIPO": false
         },
         {
-          "company": "D-Wave Quantum",
+          "company": "Satellogic",
           "form": "8-K",
-          "description": "qbts-20260601.htm",
-          "date": "2026-06-01",
+          "description": "ea0293836-8k_zoomcar.htm",
+          "date": "2026-06-05",
+          "isIPO": false
+        },
+        {
+          "company": "UiPath",
+          "form": "10-Q",
+          "description": "path-20260430.htm",
+          "date": "2026-06-04",
           "isIPO": false
         }
       ]
@@ -251,70 +174,84 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 37,
+      "count": 40,
       "items": [
         {
-          "title": "Leveraging Prior Knowledge in the Development of Human Gene Therapy Products Incorporating Genome Editing; Draft Guidanc",
+          "title": "Arms Sales Notification",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-03"
-        },
-        {
-          "title": "Approval and Promulgation of Air Quality Implementation Plans; Wyoming; Regional Haze Federal Implementation Plan",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Environmental Protection Agency"
+            "Defense Department",
+            ""
           ],
           "significant": false,
           "date": "2026-06-08"
         },
         {
-          "title": "Promoting Advanced Artificial Intelligence Innovation and Security",
-          "type": "Presidential Document",
-          "agencies": [
-            "Executive Office of the President"
-          ],
-          "significant": false,
-          "date": "2026-06-05"
-        },
-        {
-          "title": "Reforming the High-Cost Program for an All-IP Future, Connect America Fund: A National Broadband Plan for Our Future Hig",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Federal Communications Commission"
-          ],
-          "significant": false,
-          "date": "2026-06-05"
-        },
-        {
-          "title": "DNP Select Income Fund Inc., et al.",
+          "title": "Policy Statement on Mandatory Hearings for Reactor Licensing",
           "type": "Notice",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-06-05"
+          "date": "2026-06-08"
         },
         {
-          "title": "Notice Announcing Fund for the Improvement of Postsecondary Education-Postsecondary Student Success Grants Program Compe",
+          "title": "Constellation Energy Generation, LLC; Christopher M. Crane Clean Energy Center; Draft Environmental Assessment and Draft",
           "type": "Notice",
           "agencies": [
-            "Education Department"
+            ""
           ],
           "significant": false,
-          "date": "2026-06-03"
+          "date": "2026-06-08"
+        },
+        {
+          "title": "Louisiana Energy Services, LLC, dba Urenco USA; National Enrichment Facility; Exemption",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-06-04"
+        },
+        {
+          "title": "Regulatory Guide: Acceptability of ASME OM-2 Code, Component Testing Requirements at Nuclear Facilities",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-06-04"
+        },
+        {
+          "title": "Notice of Determination and Request for Comments Concerning Action Pursuant to Section 301: Brazil's Acts, Policies, and",
+          "type": "Notice",
+          "agencies": [
+            "Trade Representative, Office of United States"
+          ],
+          "significant": false,
+          "date": "2026-06-04"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 35,
+      "count": 33,
       "items": [
+        {
+          "title": "BeatpulseLabs raises $1.8M pre-seed to scale AI training data",
+          "source": "Tech.eu",
+          "company": "Scale AI",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Star Power \u2014 Pulling Back The Curtain On The SpaceX IPO",
+          "source": "CleanTechnica",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
         {
           "title": "The European investors set to win big from Anthropic\u2019s $1tn+ IPO",
           "source": "Sifted",
@@ -344,13 +281,6 @@
           "type": "funding"
         },
         {
-          "title": "Spacetech EnduroSat eyes $200m Series C months after last round, sources say",
-          "source": "Sifted",
-          "company": "Endurosat",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
           "title": "Anthropic Files Confidentially For IPO",
           "source": "Crunchbase News",
           "company": "Anthropic",
@@ -358,16 +288,9 @@
           "type": "ipo"
         },
         {
-          "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+          "title": "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London",
           "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "The Trump administration might take an equity stake in OpenAI",
-          "source": "TechCrunch",
-          "company": "OpenAI",
+          "company": "Waymo",
           "impact": "low",
           "type": "news"
         }
@@ -376,66 +299,67 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 67,
+      "count": 56,
       "items": [
         {
-          "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
-          "score": 993,
-          "comments": 500,
+          "title": "LLMs are eroding my software engineering career and I don't know what to do",
+          "score": 1010,
+          "comments": 960,
+          "companies": [],
+          "url": "https://news.ycombinator.com/item?id=48434312"
+        },
+        {
+          "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+          "score": 698,
+          "comments": 258,
+          "companies": [
+            "Percepto",
+            "Ada",
+            "Cape",
+            "ideaForge"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48427643"
+        },
+        {
+          "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+          "score": 593,
+          "comments": 496,
+          "companies": [
+            "Percepto",
+            "Cape",
+            "ideaForge"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48427523"
+        },
+        {
+          "title": "Anthropic, please ship an official Claude Desktop for Linux",
+          "score": 503,
+          "comments": 283,
+          "companies": [
+            "Anthropic"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48434436"
+        },
+        {
+          "title": "Google will pay SpaceX $920M per month for compute",
+          "score": 414,
+          "comments": 2,
           "companies": [
             "SpaceX"
           ],
-          "url": "https://news.ycombinator.com/item?id=48405718"
+          "url": "https://news.ycombinator.com/item?id=48423990"
         },
         {
-          "title": "VoidZero Is Joining Cloudflare",
-          "score": 674,
-          "comments": 301,
-          "companies": [
-            "Rigetti Computing"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48398055"
-        },
-        {
-          "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
-          "score": 522,
-          "comments": 141,
+          "title": "Ntsc-rs \u2013 open-source video emulation of analog TV and VHS artifacts",
+          "score": 410,
+          "comments": 123,
           "companies": [
             "Auterion",
-            "Kyutai",
-            "Anthropic",
             "Together AI",
-            "Cover"
+            "Runway",
+            "Kyutai"
           ],
-          "url": "https://news.ycombinator.com/item?id=48403980"
-        },
-        {
-          "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
-          "score": 510,
-          "comments": 685,
-          "companies": [
-            "Anthropic"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48400842"
-        },
-        {
-          "title": "Did Claude increase bugs in rsync?",
-          "score": 406,
-          "comments": 420,
-          "companies": [
-            "Vannevar Labs",
-            "Anthropic"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48411635"
-        },
-        {
-          "title": "Wind and solar generated more power than gas globally in April 2026",
-          "score": 400,
-          "comments": 384,
-          "companies": [
-            "Terraform Industries"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48399332"
+          "url": "https://news.ycombinator.com/item?id=48428025"
         }
       ]
     },
@@ -445,37 +369,37 @@
       "count": 108,
       "items": [
         {
-          "title": "Jura Provides Update on Dutch Attachment Proceedings",
+          "title": "Investeringsforeningen Multi Manager Invest - oph\u00e6velse af suspension",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "InterPrivate Investment Partners V, Inc. Announces Closing of $201.25 Million Initial Public Offering",
+          "title": "Nocera Inc. (Nasdaq:NCRA) Advances AI and Acquisition Strategy Through Binding Venture Platform Agreement with U.S.-Base",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "McFarlane Lake Mining Provides Update on Investor Relations and Marketing Service Engagements",
+          "title": "Fairfax Announces Acquisition of Additional Orla Mining Ltd. Common Shares",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Argo Corporation Announces Closing of Strategic Investment",
+          "title": "AMAYA BIG SKY CAPITAL ANNOUNCES RESIGNATION OF DIRECTOR",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Bluejay Diagnostics Announces Closing of Up to $23.7 Million Private Placement Priced At-The-Market Under Nasdaq Rules",
+          "title": "DEMIRE: Gro\u00dfaktion\u00e4re starten strukturierten Verkaufsprozess",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Purecore Announces up to $1.5 Million Non-Brokered Private Placement",
+          "title": "DEMIRE: Major shareholders launch structured sale process",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-06-07-1abcb86589d9"
+  "brief_id": "brief-2026-06-08-74f6e362e393"
 }
