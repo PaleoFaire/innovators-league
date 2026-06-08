@@ -1,25 +1,48 @@
 [
   {
-    "title": "Uber, Wayve, and Waymo are headed toward a robotaxi showdown in London",
-    "link": "https://techcrunch.com/2026/06/08/uber-wayve-and-waymo-are-headed-towards-a-robotaxi-showdown-in-london/",
-    "description": "Uber customers in the U.K. can now join an interest list to increase their chances of being matched with a Wayve robotaxi.",
-    "pubDate": "Mon, 08 Jun 2026 11:00:00 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Waymo",
+    "title": "How defense teams can scale AI without increasing data risk",
+    "link": "https://breakingdefense.com/2026/06/how-defense-teams-can-scale-ai-without-increasing-data-risk/",
+    "description": "[Sponsored] AI is expanding the mission data footprint across defense environments, increasing the need for scalable, layered data-at-rest (DAR) protection.",
+    "pubDate": "Mon, 08 Jun 2026 19:05:08 +0000",
+    "category": "Networks & Digital Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Scale AI",
     "matchedCompanies": [
-      "Waymo",
-      "Wayve",
-      "Zoox"
+      "Scale AI"
     ],
     "sectors": [
-      "ai",
-      "transportation"
+      "defense"
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "Just now"
+  },
+  {
+    "title": "Trump memo on AI aims to avoid repeat of Anthropic debacle",
+    "link": "https://breakingdefense.com/2026/06/trump-memo-on-ai-aims-to-avoid-repeat-of-anthropic-debacle/",
+    "description": "The “National Security Presidential Memorandum” urges closer collaboration with AI companies — as long as they’re compliant with Pentagon demands — and orders a sweeping revision of Biden-era guardrails on military AI.",
+    "pubDate": "Mon, 08 Jun 2026 18:28:36 +0000",
+    "category": "Networks & Digital Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Cape",
+      "Rebellion Defense",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "ai",
+      "climate",
+      "defense",
+      "autonomous"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "Just now"
   },
   {
     "title": "BeatpulseLabs raises $1.8M pre-seed to scale AI training data",
@@ -40,7 +63,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "7h ago"
+    "time": "11h ago"
   },
   {
     "title": "Elon Musk Said He Wouldn&#8217;t Take SpaceX Public — Two Things That Changed His Mind",
@@ -59,26 +82,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "21h ago"
-  },
-  {
-    "title": "OpenAI is still working on that ‘super app’",
-    "link": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
-    "description": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
-    "pubDate": "Sun, 07 Jun 2026 16:23:22 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Star Power — Pulling Back The Curtain On The SpaceX IPO",
@@ -115,44 +119,6 @@
     "sectors": [
       "ai",
       "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
-    "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-    "description": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
-    "pubDate": "Sat, 06 Jun 2026 20:32:24 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "The Trump administration might take an equity stake in OpenAI",
-    "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
-    "description": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
-    "pubDate": "Sat, 06 Jun 2026 16:17:21 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
     ],
     "type": "news",
     "impact": "low",
@@ -233,7 +199,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money",
@@ -529,7 +495,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "6d ago"
+    "time": "6/1/2026"
   },
   {
     "title": "An OpenAI model solved a famous math problem that stumped humans for 80 years",
@@ -568,27 +534,6 @@
     "type": "ipo",
     "impact": "low",
     "time": "5/31/2026"
-  },
-  {
-    "title": "Podcast: Tesla Robotaxi numbers, Ferrari&#8217;s controversial Luce launches, Waymo Ojai, and more",
-    "link": "https://electrek.co/2026/05/29/podcast-tesla-robotaxi-numbers-ferraris-controversial-luce-launches-waymo-ojai-and-more/",
-    "description": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we discuss Tesla’s alarming Robotaxi numbers, Ferrari’s controversial Luce, Waymo Ojai, and more.\n\n\n\nToday’s episode is sponsored by GM Energy. If you want to experienc",
-    "pubDate": "Fri, 29 May 2026 18:26:12 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Zoox"
-    ],
-    "sectors": [
-      "ai",
-      "transportation"
-    ],
-    "type": "milestone",
-    "impact": "medium",
-    "time": "5/29/2026"
   },
   {
     "title": "Contriving Imaginary Gaps in Nuclear Deterrence",
