@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -12.97,
+      "avg_change": -13.21,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -20.37,
+      "avg_change": -20.89,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -14.58,
+      "avg_change": -15.4,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -24.01,
+      "avg_change": -24.39,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.62,
+      "avg_change": -3.7,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -21.14,
+      "avg_change": -22.93,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.68,
+      "avg_change": -6.66,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -7.35,
+      "avg_change": -7.71,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.55,
+      "avg_change": -6.45,
       "count": 3
     }
   },
@@ -61,7 +61,7 @@
     [
       "LNZA",
       "LanzaTech",
-      22.32
+      32.21
     ],
     [
       "IDEAFORGE.NS",
@@ -74,42 +74,42 @@
       -1.02
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      -3.51
-    ],
-    [
       "TEM",
       "Tempus AI",
-      -5.08
+      -1.61
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -3.95
     ]
   ],
   "topLosers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      -24.67
-    ],
-    [
       "SATL",
       "Satellogic",
-      -27.32
+      -26.04
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      -26.75
     ],
     [
       "SMR",
       "NuScale Power",
-      -27.35
+      -28.35
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -30.0
+      -30.58
     ],
     [
       "PL",
       "Planet Labs",
-      -34.15
+      -35.27
     ]
   ],
-  "lastUpdated": "2026-06-09 15:17:38"
+  "lastUpdated": "2026-06-09 20:11:52"
 }
