@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T19:24:01.092430+00:00",
+  "generatedAt": "2026-06-09T21:55:24.343223+00:00",
   "date": "2026-06-09",
   "dateDisplay": "Tuesday, June 09, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 31.66,
-        "changePercent": -34.15,
-        "change": -16.43
+        "price": 31.13,
+        "changePercent": -35.27,
+        "change": -16.96
+      },
+      {
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 7.88,
+        "changePercent": 32.21,
+        "change": 1.92
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 27.7,
-        "changePercent": -30.0,
-        "change": -11.87
+        "price": 27.47,
+        "changePercent": -30.58,
+        "change": -12.1
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 10.13,
-        "changePercent": -27.35,
-        "change": -3.81
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.31,
-        "changePercent": -27.32,
-        "change": -2.37
+        "price": 9.99,
+        "changePercent": -28.35,
+        "change": -3.96
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 20.25,
-        "changePercent": -24.67,
-        "change": -6.63
+        "price": 19.69,
+        "changePercent": -26.75,
+        "change": -7.19
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 6.42,
+        "changePercent": -26.04,
+        "change": -2.26
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 88.71,
+        "changePercent": -24.93,
+        "change": -29.46
       },
       {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 56.13,
-        "changePercent": -23.6,
-        "change": -17.34
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 9.2,
-        "changePercent": -22.49,
-        "change": -2.67
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 2.81,
-        "changePercent": -22.45,
-        "change": -0.81
+        "price": 56.47,
+        "changePercent": -23.14,
+        "change": -17.0
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PL -34.1%"
+    "topMover": "PL -35.3%"
   }
 }
