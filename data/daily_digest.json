@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-08T23:18:11.998615+00:00",
-  "date": "2026-06-08",
-  "dateDisplay": "Monday, June 08, 2026",
+  "generatedAt": "2026-06-09T04:17:48.738934+00:00",
+  "date": "2026-06-09",
+  "dateDisplay": "Tuesday, June 09, 2026",
   "sections": {
     "govActivity": [
       {
@@ -93,6 +93,13 @@
         "change": -8.48
       },
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 618000.0,
+        "changePercent": -21.67,
+        "change": -171000.0
+      },
+      {
         "ticker": "LNZA",
         "company": "LanzaTech",
         "price": 7.26,
@@ -126,13 +133,6 @@
         "price": 10.76,
         "changePercent": -16.52,
         "change": -2.13
-      },
-      {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 5.73,
-        "changePercent": -16.23,
-        "change": -1.11
       }
     ],
     "regulatory": [
