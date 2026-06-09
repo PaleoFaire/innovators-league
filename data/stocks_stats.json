@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -14.14,
+      "avg_change": -14.16,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -13.28,
+      "avg_change": -13.04,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.04,
+      "avg_change": -8.88,
       "count": 3
     },
     "transportation": {
@@ -66,7 +66,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      11.42
+      12.47
     ],
     [
       "ALAB",
@@ -81,7 +81,7 @@
     [
       "9348.T",
       "ispace",
-      -0.85
+      -1.02
     ]
   ],
   "topLosers": [
@@ -98,7 +98,7 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -21.67
+      -21.04
     ],
     [
       "LUNR",
@@ -111,5 +111,5 @@
       -29.53
     ]
   ],
-  "lastUpdated": "2026-06-09 03:52:47"
+  "lastUpdated": "2026-06-09 09:53:29"
 }
