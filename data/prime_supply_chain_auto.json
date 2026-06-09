@@ -204,6 +204,55 @@
     ]
   },
   {
+    "prime": "Raytheon / RTX",
+    "ticker": "RTX",
+    "totalCompanies": 7,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Lattice integration partnership"
+      },
+      {
+        "company": "Divergent",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      },
+      {
+        "company": "Epirus",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "High-power microwave counter-drone"
+      },
+      {
+        "company": "Observable Space",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Joint mission systems software"
+      },
+      {
+        "company": "Saronic Technologies",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomous maritime systems"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      }
+    ]
+  },
+  {
     "prime": "L3Harris",
     "ticker": "LHX",
     "totalCompanies": 6,
@@ -252,49 +301,6 @@
         "agency": "Department of Commerce",
         "evidence": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2",
         "url": "https://www.usaspending.gov/award/CONT_AWD_DOCDG133E09CN0094_1330_-NONE-_-NONE-"
-      }
-    ]
-  },
-  {
-    "prime": "Raytheon / RTX",
-    "ticker": "RTX",
-    "totalCompanies": 6,
-    "portfolio": [
-      {
-        "company": "Anduril",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Lattice integration partnership"
-      },
-      {
-        "company": "Divergent",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "raytheon"
-      },
-      {
-        "company": "Epirus",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "High-power microwave counter-drone"
-      },
-      {
-        "company": "Observable Space",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "raytheon"
-      },
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Joint mission systems software"
-      },
-      {
-        "company": "Saronic Technologies",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Autonomous maritime systems"
       }
     ]
   },
@@ -394,40 +400,9 @@
     ]
   },
   {
-    "prime": "Boeing Defense",
-    "ticker": "BA",
-    "totalCompanies": 4,
-    "portfolio": [
-      {
-        "company": "Dynamo Air",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "boeing phantom works"
-      },
-      {
-        "company": "Hermeus",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Hypersonic vehicle cooperation"
-      },
-      {
-        "company": "Loft Federal",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Satellite services"
-      },
-      {
-        "company": "Virgin Galactic",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Commercial space systems"
-      }
-    ]
-  },
-  {
     "prime": "Leidos",
     "ticker": "LDOS",
-    "totalCompanies": 4,
+    "totalCompanies": 5,
     "portfolio": [
       {
         "company": "HawkEye 360",
@@ -448,6 +423,12 @@
         "evidence": "Defense AI platform support"
       },
       {
+        "company": "Volund Manufacturing",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "leidos"
+      },
+      {
         "company": "space",
         "relationship": "gov contract",
         "source": "USAspending.gov",
@@ -455,6 +436,31 @@
         "agency": "National Aeronautics and Space Administration",
         "evidence": "THE FACILITIES DEVELOPMENT AND OPERATIONS CONTRACT(FDOC) SPECIFIES TECHNICAL, MANAGERIAL, AND ADMINSTRATIVE WORK NEEDED TO ENSURE THE AVAILABLITITY, INTEGRITY, AND RELIABILITY OF MISSIONOPERATIONS FAC",
         "url": "https://www.usaspending.gov/award/CONT_AWD_NNJ09HD46C_8000_-NONE-_-NONE-"
+      }
+    ]
+  },
+  {
+    "prime": "Boeing Defense",
+    "ticker": "BA",
+    "totalCompanies": 3,
+    "portfolio": [
+      {
+        "company": "Hermeus",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Hypersonic vehicle cooperation"
+      },
+      {
+        "company": "Loft Federal",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Satellite services"
+      },
+      {
+        "company": "Virgin Galactic",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Commercial space systems"
       }
     ]
   }

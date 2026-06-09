@@ -167,36 +167,6 @@
     "website": ""
   },
   {
-    "id": 183949,
-    "title": "Enabling Automated Production of Near-Net Shape Felted TPS up to 2m Scale",
-    "description": "Proposed Goals/Objectives:  The proposed effort will automate needling processes for all variants in the Materials Engineered for Re-entry using Innovative Needling Operations (MERINO) family of TPS.   (1) Apply the (currently idle) multi-million-dollar Robotic Arm facility in N210 for optimized fiber placement and felt production,   (2) Radically increase production rates and reduce variability of material properties,   (3) Fabricate a large (~2m) near-net shape MERINO-LD part that fully utiliz",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183945,
-    "title": "FY26 IRAD : Detection and Characterization of Single Mag-EC ELISAConstructs for Ultra-Low LOD Life Detection",
-    "description": "Proposed Goals/Objectives:  Our goal is to better understand the physics governing Mag-EC ELISA detection.  Our hypothesis is that we will be able to measure individual bead constructs as they impact an electrode surface. Further, we believe that we can leverage this phenomenon by using a large amount of Mag-EC ELISA constructs to ensure capture target molecules throughout the solution and rapidly draw all the constructs to the electrode for detection.   If we can successfully develop analytical",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Medical Diagnosis and Prognosis",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
     "id": 183928,
     "title": "Enabling a high-contrast imaging testbed for Habitable Worlds Observatory",
     "description": "Proposed Goals/Objectives: Enable a high-contrast imaging testbed for NASA\u2019s Habitable Worlds Observatory (HWO) by re-utilizing and upgrading the SOFIA vacuum chamber. HWO will be the first observatory to directly image Earth-like planets around sun-like stars and search for signs of life with a goal of finding 25 habitable planets.",
@@ -206,6 +176,53 @@
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
     "technologyArea": "Optical Components",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183924,
+    "title": "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescopes",
+    "description": "Capability Need/Knowledge Gap:   Improved imaging of dim astrophysics phenomena, particularly for habitable Earth-like exoplanets, and higher precision, particularly for Mars mapping and deep-space navigation. Related to Civil Space Shortfalls 1598 and 1604, as well as 1626     Objectives: Improve imaging, including reducing the number of samples required to achieve given resolution, through advancing  Quantum-Enhanced Very Long Baseline Interferometry (QE-VLBI)",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Quantum Computer",
+    "partners": [
+      "Ames Research Center",
+      "Glenn Research Center",
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183973,
+    "title": "AIR (Ames Infrared) Imager Maturation",
+    "description": " Proposed Goals/Objectives:   Goal: Continue maturation of the versatile cost-effective Ames IR (AIR) imager; a tunable and robust hyperspectral imager with a spectral range from the visible to near infrared wavelengths to the short wavelength infrared (~0.4-2.1 \u03bcm). AIR is an in-house, first of its kind compact imager for space-based applications with no moving parts and low power/mass/cost; benefits exploration of our solar system, aligning with the NASA strategic documents, decadal survey, an",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Optical Components",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183949,
+    "title": "Enabling Automated Production of Near-Net Shape Felted TPS up to 2m Scale",
+    "description": "Proposed Goals/Objectives:  The proposed effort will automate needling processes for all variants in the Materials Engineered for Re-entry using Innovative Needling Operations (MERINO) family of TPS.   (1) Apply the (currently idle) multi-million-dollar Robotic Arm facility in N210 for optimized fiber placement and felt production,   (2) Radically increase production rates and reduce variability of material properties,   (3) Fabricate a large (~2m) near-net shape MERINO-LD part that fully utiliz",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Entry, Descent, and Landing",
     "partners": [
       "Ames Research Center"
     ],
@@ -227,33 +244,17 @@
     "website": ""
   },
   {
-    "id": 183937,
-    "title": "TABS: Transfer-line Acoustic Bubble Sensing",
-    "description": "Capability Need/Knowledge Gap:    There's a critical need to detect harmful bubbles inside opaque cryogenic transfer lines for NTP missions, as current methods can't, risking turbopump failure and engine restarts. A real-time detection capability is missing.   Objectives:    Calibrate acoustic sensors on a water rig using video ground truth; derive a conservative bubble/no[1]bubble alarm threshold (\u0394\u0393) based on N\u2082 bubbles; benchmark this alarm's yes/no detection against video data.",
+    "id": 183971,
+    "title": "IMPedance Analysis & Certification Technnology",
+    "description": "Proposed Goals/Objectives:  (1) Integrate EIT with TPS certification,  (2) Extend 2D EIT to system scale (>24\u201d).      Stretch: develop impedance correlation models for other TPS material properties (thermal conductivity, phase, strain) via impedance spectra to enhance EIT cert. & diagnostic capabilities.     Vision: Low cost and rapid in-situ certification of heatshields at any scale including Human M2M missions.",
     "status": "Active",
     "startDate": "Nov 2025",
     "endDate": "Sep 2026",
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
-    "technologyArea": "In-Space Propellant Storage and Use",
+    "technologyArea": "Entry, Descent, and Landing",
     "partners": [
       "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183952,
-    "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
-    "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Robot Navigation and Path Planning",
-    "partners": [
-      "Ames Research Center",
-      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
@@ -273,6 +274,36 @@
     "website": ""
   },
   {
+    "id": 183945,
+    "title": "FY26 IRAD : Detection and Characterization of Single Mag-EC ELISAConstructs for Ultra-Low LOD Life Detection",
+    "description": "Proposed Goals/Objectives:  Our goal is to better understand the physics governing Mag-EC ELISA detection.  Our hypothesis is that we will be able to measure individual bead constructs as they impact an electrode surface. Further, we believe that we can leverage this phenomenon by using a large amount of Mag-EC ELISA constructs to ensure capture target molecules throughout the solution and rapidly draw all the constructs to the electrode for detection.   If we can successfully develop analytical",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Medical Diagnosis and Prognosis",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183931,
+    "title": "Radiation Biomarker Detection in Breath",
+    "description": "Proposed Goals/Objectives:   Spaceflight health monitoring lacks compact, high-sensitivity tools to detect biomarkers of radiation-induced oxidative stress in real time. We aim to advance our carbon nanotube (CNT) sensor system for detecting radiation-induced volatile organic compounds (VOCs) by optimizing both hardware and software to increase sensitivity and specificity. FY26 work will enhance hardware, software, and sample handling; implement selective sensor filtering; and add calibration to",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Medical Diagnosis and Prognosis",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 183925,
     "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
     "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
@@ -282,36 +313,6 @@
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
     "technologyArea": "Above-Surface Mobility",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183973,
-    "title": "AIR (Ames Infrared) Imager Maturation",
-    "description": " Proposed Goals/Objectives:   Goal: Continue maturation of the versatile cost-effective Ames IR (AIR) imager; a tunable and robust hyperspectral imager with a spectral range from the visible to near infrared wavelengths to the short wavelength infrared (~0.4-2.1 \u03bcm). AIR is an in-house, first of its kind compact imager for space-based applications with no moving parts and low power/mass/cost; benefits exploration of our solar system, aligning with the NASA strategic documents, decadal survey, an",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Optical Components",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183936,
-    "title": "FY26 ARIA: Multi-Analyte Prediction of Bone Fracture",
-    "description": "Proposed Goals/Objectives:   There is a need for longitudinal monitoring of body\u2019s physiological response, such as bone quality, to spaceflight. Traditional bone biomarkers have known limitations, thus the need for investigation of novel biomarkers of skeletal health. MicroRNA (miRNA) are short, noncoding sequences that regulate gene expression, including during osteoblast, osteocyte, and osteoclast differentiation.     The objective of the continuation proposal is to expand the sample size and ",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Medical Diagnosis and Prognosis",
     "partners": [
       "Ames Research Center"
     ],
@@ -334,9 +335,24 @@
     "website": ""
   },
   {
-    "id": 183931,
-    "title": "Radiation Biomarker Detection in Breath",
-    "description": "Proposed Goals/Objectives:   Spaceflight health monitoring lacks compact, high-sensitivity tools to detect biomarkers of radiation-induced oxidative stress in real time. We aim to advance our carbon nanotube (CNT) sensor system for detecting radiation-induced volatile organic compounds (VOCs) by optimizing both hardware and software to increase sensitivity and specificity. FY26 work will enhance hardware, software, and sample handling; implement selective sensor filtering; and add calibration to",
+    "id": 183937,
+    "title": "TABS: Transfer-line Acoustic Bubble Sensing",
+    "description": "Capability Need/Knowledge Gap:    There's a critical need to detect harmful bubbles inside opaque cryogenic transfer lines for NTP missions, as current methods can't, risking turbopump failure and engine restarts. A real-time detection capability is missing.   Objectives:    Calibrate acoustic sensors on a water rig using video ground truth; derive a conservative bubble/no[1]bubble alarm threshold (\u0394\u0393) based on N\u2082 bubbles; benchmark this alarm's yes/no detection against video data.",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "In-Space Propellant Storage and Use",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183936,
+    "title": "FY26 ARIA: Multi-Analyte Prediction of Bone Fracture",
+    "description": "Proposed Goals/Objectives:   There is a need for longitudinal monitoring of body\u2019s physiological response, such as bone quality, to spaceflight. Traditional bone biomarkers have known limitations, thus the need for investigation of novel biomarkers of skeletal health. MicroRNA (miRNA) are short, noncoding sequences that regulate gene expression, including during osteoblast, osteocyte, and osteoclast differentiation.     The objective of the continuation proposal is to expand the sample size and ",
     "status": "Active",
     "startDate": "Nov 2025",
     "endDate": "Sep 2026",
@@ -349,34 +365,18 @@
     "website": ""
   },
   {
-    "id": 183971,
-    "title": "IMPedance Analysis & Certification Technnology",
-    "description": "Proposed Goals/Objectives:  (1) Integrate EIT with TPS certification,  (2) Extend 2D EIT to system scale (>24\u201d).      Stretch: develop impedance correlation models for other TPS material properties (thermal conductivity, phase, strain) via impedance spectra to enhance EIT cert. & diagnostic capabilities.     Vision: Low cost and rapid in-situ certification of heatshields at any scale including Human M2M missions.",
+    "id": 183952,
+    "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
+    "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
     "status": "Active",
     "startDate": "Nov 2025",
     "endDate": "Sep 2026",
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183924,
-    "title": "Improved Efficiency Quantum-Enhanced Very Long Baseline Interferometry Telescopes",
-    "description": "Capability Need/Knowledge Gap:   Improved imaging of dim astrophysics phenomena, particularly for habitable Earth-like exoplanets, and higher precision, particularly for Mars mapping and deep-space navigation. Related to Civil Space Shortfalls 1598 and 1604, as well as 1626     Objectives: Improve imaging, including reducing the number of samples required to achieve given resolution, through advancing  Quantum-Enhanced Very Long Baseline Interferometry (QE-VLBI)",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Quantum Computer",
+    "technologyArea": "Robot Navigation and Path Planning",
     "partners": [
       "Ames Research Center",
-      "Glenn Research Center",
-      "Goddard Space Flight Center"
+      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },

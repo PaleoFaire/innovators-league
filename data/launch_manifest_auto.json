@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-06-08",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-35",
-    "payload": "Starlink Group 10-35",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/114577dc-7617-461c-aaeb-9bd0f64b5a4b/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-06-09",
     "vehicle": "Zhuque-2E Block 2 | Unknown Payload",
     "payload": "Unknown Payload",
@@ -117,6 +108,15 @@
     "trackedCompany": "Rocket Lab"
   },
   {
+    "date": "2026-06-20",
+    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+    "payload": "Globalstar 2-R Mission 1 (x 9)",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-06-23",
     "vehicle": "Long March 7A | Unknown Payload",
     "payload": "Unknown Payload",
@@ -141,15 +141,6 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/c3f48f48-0e0a-4bca-917e-de494cfca35b/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-    "payload": "Globalstar 2-R Mission 1 (x 9)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -447,6 +438,15 @@
     "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
     "provider": "Avio S.p.A",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-09",
+    "vehicle": "Soyuz 2.1b | Progress MS-35 (96P)",
+    "payload": "Progress MS-35 (96P)",
+    "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
+    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
   }
 ]
