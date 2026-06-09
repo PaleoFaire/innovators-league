@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -13.65,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -14.14,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -11.8,
+      "avg_change": -13.28,
       "count": 7
     },
     "nuclear": {
@@ -66,7 +66,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      13.25
+      11.42
     ],
     [
       "ALAB",
@@ -74,22 +74,17 @@
       8.2
     ],
     [
-      "9348.T",
-      "ispace",
-      2.57
-    ],
-    [
       "RIVN",
       "Rivian",
       -0.65
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -0.85
     ]
   ],
   "topLosers": [
-    [
-      "JOBY",
-      "Joby Aviation",
-      -18.96
-    ],
     [
       "SATL",
       "Satellogic",
@@ -99,6 +94,11 @@
       "EVTL",
       "Vertical Aerospace",
       -19.63
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -21.67
     ],
     [
       "LUNR",
@@ -111,5 +111,5 @@
       -29.53
     ]
   ],
-  "lastUpdated": "2026-06-08 20:23:53"
+  "lastUpdated": "2026-06-09 03:52:47"
 }
