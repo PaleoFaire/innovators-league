@@ -1,8 +1,38 @@
 [
   {
     "mafia": "Y Combinator",
-    "count": 10,
+    "count": 15,
     "companies": [
+      {
+        "company": "Beyond Reach Labs",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$500K + $175M+ LOIs",
+        "valuation": ""
+      },
+      {
+        "company": "Blackstar",
+        "sector": "AI & Software",
+        "totalRaised": "$12M",
+        "valuation": ""
+      },
+      {
+        "company": "Theseus",
+        "sector": "Defense & Security",
+        "totalRaised": "$4.3M",
+        "valuation": ""
+      },
+      {
+        "company": "Zettascale",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$3M+",
+        "valuation": ""
+      },
+      {
+        "company": "NetworkOcean",
+        "sector": "Ocean & Maritime",
+        "totalRaised": "$1M",
+        "valuation": ""
+      },
       {
         "company": "Wardstone",
         "sector": "Space & Aerospace",
@@ -48,7 +78,7 @@
       {
         "company": "Zephyr Fusion",
         "sector": "Nuclear Energy",
-        "totalRaised": "",
+        "totalRaised": "$500K",
         "valuation": ""
       },
       {
@@ -64,12 +94,24 @@
         "valuation": ""
       }
     ],
-    "description": "10 companies with founding-team links to Y Combinator."
+    "description": "15 companies with founding-team links to Y Combinator."
   },
   {
     "mafia": "SpaceX Mafia",
-    "count": 8,
+    "count": 10,
     "companies": [
+      {
+        "company": "Lux Aeterna",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$14M",
+        "valuation": ""
+      },
+      {
+        "company": "Long Wall",
+        "sector": "Defense & Security",
+        "totalRaised": "$544M",
+        "valuation": ""
+      },
       {
         "company": "Starpath Robotics",
         "sector": "Space & Aerospace",
@@ -119,12 +161,24 @@
         "valuation": ""
       }
     ],
-    "description": "8 companies with founding-team links to SpaceX."
+    "description": "10 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Google/DeepMind",
-    "count": 7,
+    "count": 9,
     "companies": [
+      {
+        "company": "Phaidra",
+        "sector": "AI & Software",
+        "totalRaised": "$120M",
+        "valuation": ""
+      },
+      {
+        "company": "Core Automation",
+        "sector": "AI & Software",
+        "totalRaised": "Targeting $500M-$1B at $4-5B+ val",
+        "valuation": ""
+      },
       {
         "company": "Built Robotics",
         "sector": "Robotics & Manufacturing",
@@ -168,12 +222,18 @@
         "valuation": ""
       }
     ],
-    "description": "7 companies with founding-team links to Google/DeepMind."
+    "description": "9 companies with founding-team links to Google/DeepMind."
   },
   {
     "mafia": "Palantir Mafia",
-    "count": 4,
+    "count": 5,
     "companies": [
+      {
+        "company": "NetworkOcean",
+        "sector": "Ocean & Maritime",
+        "totalRaised": "$1M",
+        "valuation": ""
+      },
       {
         "company": "Cape",
         "sector": "Defense & Security",
@@ -199,12 +259,49 @@
         "valuation": ""
       }
     ],
-    "description": "4 companies with founding-team links to Palantir."
+    "description": "5 companies with founding-team links to Palantir."
+  },
+  {
+    "mafia": "OpenAI Mafia",
+    "count": 4,
+    "companies": [
+      {
+        "company": "Core Automation",
+        "sector": "AI & Software",
+        "totalRaised": "Targeting $500M-$1B at $4-5B+ val",
+        "valuation": ""
+      },
+      {
+        "company": "Blackstar",
+        "sector": "AI & Software",
+        "totalRaised": "$12M",
+        "valuation": ""
+      },
+      {
+        "company": "Besxar Space Industries",
+        "sector": "Space & Aerospace",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
+      },
+      {
+        "company": "Periodic Labs",
+        "sector": "AI & Software",
+        "totalRaised": "$300M",
+        "valuation": ""
+      }
+    ],
+    "description": "4 companies with founding-team links to OpenAI."
   },
   {
     "mafia": "Amazon/AWS Mafia",
-    "count": 3,
+    "count": 4,
     "companies": [
+      {
+        "company": "Lux Aeterna",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$14M",
+        "valuation": ""
+      },
       {
         "company": "EdgeRunner AI",
         "sector": "Defense & Security",
@@ -224,7 +321,32 @@
         "valuation": ""
       }
     ],
-    "description": "3 companies with founding-team links to Amazon/AWS."
+    "description": "4 companies with founding-team links to Amazon/AWS."
+  },
+  {
+    "mafia": "Anduril Mafia",
+    "count": 3,
+    "companies": [
+      {
+        "company": "Chariot Defense",
+        "sector": "Defense & Security",
+        "totalRaised": "$41M",
+        "valuation": ""
+      },
+      {
+        "company": "Volund Manufacturing",
+        "sector": "Defense & Security",
+        "totalRaised": "$12M",
+        "valuation": ""
+      },
+      {
+        "company": "Breaker Industries",
+        "sector": "Defense & Security",
+        "totalRaised": "$6M",
+        "valuation": ""
+      }
+    ],
+    "description": "3 companies with founding-team links to Anduril."
   },
   {
     "mafia": "Tesla Mafia",
@@ -271,22 +393,41 @@
     "description": "2 companies with founding-team links to MIT CSAIL Spinouts."
   },
   {
-    "mafia": "Anduril Mafia",
+    "mafia": "Apple Mafia",
     "count": 2,
     "companies": [
       {
-        "company": "Chariot Defense",
-        "sector": "Defense & Security",
-        "totalRaised": "$41M",
-        "valuation": ""
+        "company": "Tenstorrent",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$1B+",
+        "valuation": "$2.7B"
       },
       {
-        "company": "Breaker Industries",
+        "company": "Volund Manufacturing",
         "sector": "Defense & Security",
-        "totalRaised": "$6M",
+        "totalRaised": "$12M",
         "valuation": ""
       }
     ],
-    "description": "2 companies with founding-team links to Anduril."
+    "description": "2 companies with founding-team links to Apple."
+  },
+  {
+    "mafia": "Blue Origin Mafia",
+    "count": 2,
+    "companies": [
+      {
+        "company": "Volund Manufacturing",
+        "sector": "Defense & Security",
+        "totalRaised": "$12M",
+        "valuation": ""
+      },
+      {
+        "company": "Interlune",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$23M",
+        "valuation": ""
+      }
+    ],
+    "description": "2 companies with founding-team links to Blue Origin."
   }
 ]

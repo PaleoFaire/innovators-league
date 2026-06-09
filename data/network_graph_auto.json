@@ -1,6 +1,91 @@
 {
   "nodes": [
     {
+      "id": "Aventra",
+      "sector": "Defense & Security",
+      "thesisCluster": "long-range-precision-strike"
+    },
+    {
+      "id": "Auriga Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "electromagnetic-launch"
+    },
+    {
+      "id": "Radical AI",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": "autonomous-materials-science"
+    },
+    {
+      "id": "Slate Auto",
+      "sector": "Transportation",
+      "thesisCluster": "affordable-american-ev"
+    },
+    {
+      "id": "Phaidra",
+      "sector": "AI & Software",
+      "thesisCluster": "rl-industrial-cooling"
+    },
+    {
+      "id": "Chai Discovery",
+      "sector": "Biotech & Health",
+      "thesisCluster": "ai-molecular-discovery"
+    },
+    {
+      "id": "Impossible Metals",
+      "sector": "Climate & Energy",
+      "thesisCluster": "deep-seabed-mining"
+    },
+    {
+      "id": "Sphere Semi",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": "ai-analog-chips"
+    },
+    {
+      "id": "Core Automation",
+      "sector": "AI & Software",
+      "thesisCluster": "continual-learning-ai"
+    },
+    {
+      "id": "Beyond Reach Labs",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "deployable-space-power"
+    },
+    {
+      "id": "Teradar",
+      "sector": "Defense & Security",
+      "thesisCluster": "terahertz-sensing"
+    },
+    {
+      "id": "Lux Aeterna",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "reusable-satellites"
+    },
+    {
+      "id": "Reditus Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "reusable-satellites"
+    },
+    {
+      "id": "Monarch Quantum",
+      "sector": "Quantum Computing",
+      "thesisCluster": "photonic-quantum-infrastructure"
+    },
+    {
+      "id": "Spaceium",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "in-space-servicing"
+    },
+    {
+      "id": "Blackstar",
+      "sector": "AI & Software",
+      "thesisCluster": "ai-native-hardware"
+    },
+    {
+      "id": "Besxar Space Industries",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "orbital-semiconductor-manufacturing"
+    },
+    {
       "id": "Smack Technologies",
       "sector": "Defense & Security",
       "thesisCluster": "ai-national-security"
@@ -572,12 +657,12 @@
     },
     {
       "id": "Shinkei",
-      "sector": "Consumer Tech",
+      "sector": "Robotics & Manufacturing",
       "thesisCluster": "robotics-agriculture"
     },
     {
       "id": "Vital Lyfe",
-      "sector": "Consumer Tech",
+      "sector": "Climate & Energy",
       "thesisCluster": "consumer-hardware"
     },
     {
@@ -1121,11 +1206,6 @@
       "thesisCluster": "battery-infrastructure"
     },
     {
-      "id": "EnerVenue",
-      "sector": "Climate & Energy",
-      "thesisCluster": "battery-advanced-chemistry"
-    },
-    {
       "id": "Charm Industrial",
       "sector": "Climate & Energy",
       "thesisCluster": "carbon-capture-utilization"
@@ -1192,7 +1272,7 @@
     },
     {
       "id": "Whisper Aero",
-      "sector": "Consumer Tech",
+      "sector": "Space & Aerospace",
       "thesisCluster": "consumer-hardware"
     },
     {
@@ -1499,11 +1579,6 @@
       "id": "Innospace",
       "sector": "Space & Aerospace",
       "thesisCluster": "space-launch-small-intl"
-    },
-    {
-      "id": "Rainbow Robotics",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": "humanoid-robotics"
     },
     {
       "id": "Skyroot Aerospace",
@@ -2079,11 +2154,6 @@
       "id": "Solid Power",
       "sector": "Climate & Energy",
       "thesisCluster": "battery-advanced-chemistry"
-    },
-    {
-      "id": "Rain AI",
-      "sector": "Chips & Semiconductors",
-      "thesisCluster": "ai-hardware-inference"
     },
     {
       "id": "Skyrora",
@@ -2684,11 +2754,6 @@
       "id": "Transmutex",
       "sector": "Nuclear Energy",
       "thesisCluster": "nuclear-advanced"
-    },
-    {
-      "id": "Velo3D",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": "additive-manufacturing"
     },
     {
       "id": "MightyFly",
@@ -3316,11 +3381,6 @@
       "thesisCluster": "micro-eo-sat"
     },
     {
-      "id": "Bone AI",
-      "sector": "Defense & Security",
-      "thesisCluster": "multi-domain-autonomy"
-    },
-    {
       "id": "Neuromeka",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "cobot-humanoid"
@@ -3489,11 +3549,6 @@
       "id": "Speedata",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "analytics-silicon"
-    },
-    {
-      "id": "Teramount",
-      "sector": "Chips & Semiconductors",
-      "thesisCluster": "copackaged-optics"
     },
     {
       "id": "Hailo",
@@ -4669,6 +4724,31 @@
       "id": "Portal Biotech",
       "sector": "Bio & Health",
       "thesisCluster": ""
+    },
+    {
+      "id": "OpenAI-alumni-hub",
+      "sector": "alumni",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SpaceX-alumni-hub",
+      "sector": "alumni",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Palantir-alumni-hub",
+      "sector": "alumni",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Anduril-alumni-hub",
+      "sector": "alumni",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tesla-alumni-hub",
+      "sector": "alumni",
+      "thesisCluster": ""
     }
   ],
   "edges": [
@@ -5501,6 +5581,12 @@
       "src": "Apis Cor",
       "dst": "ICON",
       "type": "competitor"
+    },
+    {
+      "src": "Lux Aeterna",
+      "dst": "Reditus Space",
+      "type": "thesis",
+      "cluster": "reusable-satellites"
     },
     {
       "src": "Anyon Systems",
@@ -6637,6 +6723,144 @@
       "cluster": "ai-autonomous-driving"
     },
     {
+      "src": "Agility Robotics",
+      "dst": "Figure AI",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Artimus Robotics",
+      "dst": "Figure AI",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Figure AI",
+      "dst": "Humanoid",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Axibo AI",
+      "dst": "Figure AI",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Agility Robotics",
+      "dst": "Apptronik",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Agility Robotics",
+      "dst": "Artimus Robotics",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Agility Robotics",
+      "dst": "Humanoid",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Agility Robotics",
+      "dst": "Axibo AI",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Apptronik",
+      "dst": "Neura Robotics",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Apptronik",
+      "dst": "Artimus Robotics",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "1X Technologies",
+      "dst": "Apptronik",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Apptronik",
+      "dst": "Humanoid",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Apptronik",
+      "dst": "Axibo AI",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Artimus Robotics",
+      "dst": "Neura Robotics",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "1X Technologies",
+      "dst": "Neura Robotics",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Humanoid",
+      "dst": "Neura Robotics",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Axibo AI",
+      "dst": "Neura Robotics",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "1X Technologies",
+      "dst": "Artimus Robotics",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Artimus Robotics",
+      "dst": "Humanoid",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Artimus Robotics",
+      "dst": "Axibo AI",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "1X Technologies",
+      "dst": "Humanoid",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "1X Technologies",
+      "dst": "Axibo AI",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
+      "src": "Axibo AI",
+      "dst": "Humanoid",
+      "type": "thesis",
+      "cluster": "humanoid-robotics"
+    },
+    {
       "src": "Atom Bodies",
       "dst": "Neuralink",
       "type": "thesis",
@@ -7477,6 +7701,168 @@
       "cluster": "evtol-air-taxi"
     },
     {
+      "src": "Cerebras",
+      "dst": "Extropic",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Cerebras",
+      "dst": "Zettascale",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Cerebras",
+      "dst": "d-Matrix",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Cerebras",
+      "dst": "Rebellions",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Cerebras",
+      "dst": "Tenstorrent",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Cerebras",
+      "dst": "DEEPX",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Etched",
+      "dst": "Extropic",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Etched",
+      "dst": "Zettascale",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Etched",
+      "dst": "d-Matrix",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Etched",
+      "dst": "Rebellions",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Etched",
+      "dst": "Tenstorrent",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "DEEPX",
+      "dst": "Etched",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Extropic",
+      "dst": "Zettascale",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Extropic",
+      "dst": "d-Matrix",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Extropic",
+      "dst": "Rebellions",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Extropic",
+      "dst": "Tenstorrent",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "DEEPX",
+      "dst": "Extropic",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Zettascale",
+      "dst": "d-Matrix",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Rebellions",
+      "dst": "Zettascale",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Tenstorrent",
+      "dst": "Zettascale",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "DEEPX",
+      "dst": "Zettascale",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Rebellions",
+      "dst": "d-Matrix",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Tenstorrent",
+      "dst": "d-Matrix",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "DEEPX",
+      "dst": "d-Matrix",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "Rebellions",
+      "dst": "Tenstorrent",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "DEEPX",
+      "dst": "Rebellions",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
+      "src": "DEEPX",
+      "dst": "Tenstorrent",
+      "type": "thesis",
+      "cluster": "ai-hardware-inference"
+    },
+    {
       "src": "Cover",
       "dst": "Cuby Technologies",
       "type": "thesis",
@@ -8239,12 +8625,6 @@
       "cluster": "energy-storage-thermal-gravity"
     },
     {
-      "src": "EnerVenue",
-      "dst": "Form Energy",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
       "src": "Form Energy",
       "dst": "Verkor",
       "type": "thesis",
@@ -8276,42 +8656,6 @@
     },
     {
       "src": "Form Energy",
-      "dst": "Nascent Materials",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "EnerVenue",
-      "dst": "Verkor",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "EnerVenue",
-      "dst": "QuantumScape",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "EnerVenue",
-      "dst": "Solid Power",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "EnerVenue",
-      "dst": "Ouros Energy",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "EnerVenue",
-      "dst": "Forge Nano",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "EnerVenue",
       "dst": "Nascent Materials",
       "type": "thesis",
       "cluster": "battery-advanced-chemistry"
@@ -9569,13 +9913,48 @@
       "dst": "Rondo Energy",
       "type": "thesis",
       "cluster": "thermal-storage"
+    },
+    {
+      "src": "OpenAI-alumni-hub",
+      "dst": "Core Automation",
+      "type": "alumni"
+    },
+    {
+      "src": "OpenAI-alumni-hub",
+      "dst": "Blackstar",
+      "type": "alumni"
+    },
+    {
+      "src": "SpaceX-alumni-hub",
+      "dst": "Lux Aeterna",
+      "type": "alumni"
+    },
+    {
+      "src": "SpaceX-alumni-hub",
+      "dst": "Long Wall",
+      "type": "alumni"
+    },
+    {
+      "src": "Palantir-alumni-hub",
+      "dst": "NetworkOcean",
+      "type": "alumni"
+    },
+    {
+      "src": "Anduril-alumni-hub",
+      "dst": "Volund Manufacturing",
+      "type": "alumni"
+    },
+    {
+      "src": "Tesla-alumni-hub",
+      "dst": "Odin Dynamics",
+      "type": "alumni"
     }
   ],
   "counts": {
-    "total_nodes": 934,
-    "total_edges": 844,
+    "total_nodes": 950,
+    "total_edges": 895,
     "competitor_edges": 166,
-    "thesis_edges": 678,
-    "alumni_edges": 0
+    "thesis_edges": 722,
+    "alumni_edges": 7
   }
 }
