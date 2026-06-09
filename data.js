@@ -57341,23 +57341,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-09 04:17
+// Last updated: 2026-06-09 08:37
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Hugging Face", headline: "Exclusive: Github and Hugging Face founders back AI agent startup Zaro's $5.1m raise", source: "Sifted", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Wayve", headline: "Stellantis Gets Its Hands-Free, Door-to-Door Driving Partner ' Wayve", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Silicon Box", headline: "Singapore's Silicon Box secures $78M financing to accelerate growth in advanced packaging", source: "TechNode Global", time: "2h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "OpenAI", headline: "As OpenAI files for IPO, Sam Altman's eye-scanning company is doing layoffs, report says", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic", source: "Wired", time: "6h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "Anthropic", headline: "OpenAI files confidentially for IPO, following Anthropic", source: "TechCrunch", time: "6h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Scale AI", headline: "How defense teams can scale AI without increasing data risk", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Anthropic", headline: "Trump memo on AI aims to avoid repeat of Anthropic debacle", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Scale AI", headline: "BeatpulseLabs raises $1.8M pre-seed to scale AI training data", source: "Tech.eu", time: "20h ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn't Take SpaceX Public ' Two Things That Changed His Mind", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Star Power ' Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Waymo Sending Used EV Batteries to Community Clean Energy", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Jacking Up Electricity Prices So You Don't Have To Think ' SpaceX Edition", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Tesla pushes Roadster demo to August as SpaceX thruster work continues", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "ICEYE", headline: "Finnish satellite startup Iceye raises '1bn amid spacetech funding boost", source: "Sifted", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Hugging Face", headline: "Exclusive: Github and Hugging Face founders back AI agent startup Zaro's $5.1m raise", source: "Sifted", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Wayve", headline: "Stellantis Gets Its Hands-Free, Door-to-Door Driving Partner ' Wayve", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Silicon Box", headline: "Singapore's Silicon Box secures $78M financing to accelerate growth in advanced packaging", source: "TechNode Global", time: "6h ago", impact: "medium", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Elon Details SpaceX AI Data Center in Space Details and Roadmap", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "OpenAI", headline: "As OpenAI files for IPO, Sam Altman's eye-scanning company is doing layoffs, report says", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "What are you Missing about SpaceX and the IPO? Winning Before AI Data Centers in Space", source: "Next Big Future", time: "10h ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic", source: "Wired", time: "11h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "Anthropic", headline: "OpenAI files confidentially for IPO, following Anthropic", source: "TechCrunch", time: "11h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Scale AI", headline: "How defense teams can scale AI without increasing data risk", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Anthropic", headline: "Trump memo on AI aims to avoid repeat of Anthropic debacle", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Scale AI", headline: "BeatpulseLabs raises $1.8M pre-seed to scale AI training data", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn't Take SpaceX Public ' Two Things That Changed His Mind", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SPACEX Is Winning AI Cloud NOW. More AI Revenue than Amazon and Google", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Star Power ' Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

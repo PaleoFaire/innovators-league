@@ -1,65 +1,25 @@
 {
-  "generatedAt": "2026-06-09T04:18:27+00:00",
+  "generatedAt": "2026-06-09T08:38:57+00:00",
   "stats": {
-    "companies": 934,
+    "companies": 944,
     "vcFirms": 27,
-    "uniqueClusters": 100,
-    "totalInvestments": 238
+    "uniqueClusters": 103,
+    "totalInvestments": 241
   },
   "concentration": {
-    "Point72 Ventures": {
-      "ai-national-security": {
-        "count": 1,
-        "companies": [
-          "Smack Technologies"
-        ]
-      },
-      "defense-ew-rf-cyber": {
-        "count": 1,
-        "companies": [
-          "CX2 Industries"
-        ]
-      },
-      "space-satellites-buses": {
-        "count": 1,
-        "companies": [
-          "Apex Space"
-        ]
-      },
-      "autonomy-ground-vehicles": {
-        "count": 1,
-        "companies": [
-          "Overland AI"
-        ]
-      },
-      "maritime-electric-transport": {
-        "count": 1,
-        "companies": [
-          "REGENT Craft"
-        ]
-      }
-    },
-    "Caffeinated Capital": {
-      "offensive-cyber-ai": {
-        "count": 1,
-        "companies": [
-          "Twenty"
-        ]
-      },
-      "autonomy-maritime": {
-        "count": 1,
-        "companies": [
-          "Saronic"
-        ]
-      },
-      "manufacturing-reshoring": {
-        "count": 1,
-        "companies": [
-          "Amca"
-        ]
-      }
-    },
     "General Catalyst": {
+      "affordable-american-ev": {
+        "count": 1,
+        "companies": [
+          "Slate Auto"
+        ]
+      },
+      "ai-molecular-discovery": {
+        "count": 1,
+        "companies": [
+          "Chai Discovery"
+        ]
+      },
       "offensive-cyber-ai": {
         "count": 1,
         "companies": [
@@ -154,6 +114,72 @@
         "count": 1,
         "companies": [
           "Evolv Technology"
+        ]
+      }
+    },
+    "Engine Ventures": {
+      "terahertz-sensing": {
+        "count": 1,
+        "companies": [
+          "Teradar"
+        ]
+      },
+      "geothermal-next-gen": {
+        "count": 1,
+        "companies": [
+          "Quaise Energy"
+        ]
+      }
+    },
+    "Point72 Ventures": {
+      "ai-national-security": {
+        "count": 1,
+        "companies": [
+          "Smack Technologies"
+        ]
+      },
+      "defense-ew-rf-cyber": {
+        "count": 1,
+        "companies": [
+          "CX2 Industries"
+        ]
+      },
+      "space-satellites-buses": {
+        "count": 1,
+        "companies": [
+          "Apex Space"
+        ]
+      },
+      "autonomy-ground-vehicles": {
+        "count": 1,
+        "companies": [
+          "Overland AI"
+        ]
+      },
+      "maritime-electric-transport": {
+        "count": 1,
+        "companies": [
+          "REGENT Craft"
+        ]
+      }
+    },
+    "Caffeinated Capital": {
+      "offensive-cyber-ai": {
+        "count": 1,
+        "companies": [
+          "Twenty"
+        ]
+      },
+      "autonomy-maritime": {
+        "count": 1,
+        "companies": [
+          "Saronic"
+        ]
+      },
+      "manufacturing-reshoring": {
+        "count": 1,
+        "companies": [
+          "Amca"
         ]
       }
     },
@@ -1344,14 +1370,6 @@
         ]
       }
     },
-    "Engine Ventures": {
-      "geothermal-next-gen": {
-        "count": 1,
-        "companies": [
-          "Quaise Energy"
-        ]
-      }
-    },
     "Cantos Ventures": {
       "carbon-capture-utilization": {
         "count": 1,
@@ -1417,104 +1435,28 @@
     }
   },
   "specialists": {
-    "ai-national-security": [
+    "affordable-american-ev": [
       {
-        "vc": "Point72 Ventures",
+        "vc": "General Catalyst",
         "count": 1,
         "share": 1.0
       }
     ],
-    "defense-ew-rf-cyber": [
+    "ai-molecular-discovery": [
       {
-        "vc": "Point72 Ventures",
+        "vc": "General Catalyst",
         "count": 1,
-        "share": 0.1667
-      },
-      {
-        "vc": "In-Q-Tel",
-        "count": 1,
-        "share": 0.1667
-      },
-      {
-        "vc": "Founders Fund",
-        "count": 1,
-        "share": 0.1667
-      },
-      {
-        "vc": "8VC",
-        "count": 1,
-        "share": 0.1667
-      },
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 0.1667
-      }
-    ],
-    "space-satellites-buses": [
-      {
-        "vc": "Point72 Ventures",
-        "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "8VC",
-        "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Shield Capital",
-        "count": 1,
-        "share": 0.3333
-      }
-    ],
-    "autonomy-ground-vehicles": [
-      {
-        "vc": "Point72 Ventures",
-        "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "8VC",
-        "count": 1,
-        "share": 0.5
-      }
-    ],
-    "maritime-electric-transport": [
-      {
-        "vc": "Point72 Ventures",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Lowercarbon Capital",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Founders Fund",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Eclipse Ventures",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.2
+        "share": 1.0
       }
     ],
     "offensive-cyber-ai": [
       {
-        "vc": "Caffeinated Capital",
+        "vc": "General Catalyst",
         "count": 1,
         "share": 0.3333
       },
       {
-        "vc": "General Catalyst",
+        "vc": "Caffeinated Capital",
         "count": 1,
         "share": 0.3333
       },
@@ -1522,60 +1464,6 @@
         "vc": "In-Q-Tel",
         "count": 1,
         "share": 0.3333
-      }
-    ],
-    "autonomy-maritime": [
-      {
-        "vc": "Caffeinated Capital",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "In-Q-Tel",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "8VC",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Valor Equity Partners",
-        "count": 1,
-        "share": 0.2
-      }
-    ],
-    "manufacturing-reshoring": [
-      {
-        "vc": "Founders Fund",
-        "count": 3,
-        "share": 0.375
-      },
-      {
-        "vc": "Caffeinated Capital",
-        "count": 1,
-        "share": 0.125
-      },
-      {
-        "vc": "General Catalyst",
-        "count": 1,
-        "share": 0.125
-      },
-      {
-        "vc": "8VC",
-        "count": 1,
-        "share": 0.125
-      },
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 0.125
       }
     ],
     "autonomy-drone-military": [
@@ -1657,6 +1545,33 @@
         "vc": "Khosla Ventures",
         "count": 1,
         "share": 0.2
+      }
+    ],
+    "manufacturing-reshoring": [
+      {
+        "vc": "Founders Fund",
+        "count": 3,
+        "share": 0.375
+      },
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.125
+      },
+      {
+        "vc": "Caffeinated Capital",
+        "count": 1,
+        "share": 0.125
+      },
+      {
+        "vc": "8VC",
+        "count": 1,
+        "share": 0.125
+      },
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.125
       }
     ],
     "data-center-infrastructure": [
@@ -1849,6 +1764,142 @@
         "vc": "Lux Capital",
         "count": 1,
         "share": 0.5
+      }
+    ],
+    "terahertz-sensing": [
+      {
+        "vc": "Engine Ventures",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
+    "geothermal-next-gen": [
+      {
+        "vc": "Engine Ventures",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "Breakthrough Energy Ventures",
+        "count": 1,
+        "share": 0.5
+      }
+    ],
+    "ai-national-security": [
+      {
+        "vc": "Point72 Ventures",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
+    "defense-ew-rf-cyber": [
+      {
+        "vc": "Point72 Ventures",
+        "count": 1,
+        "share": 0.1667
+      },
+      {
+        "vc": "In-Q-Tel",
+        "count": 1,
+        "share": 0.1667
+      },
+      {
+        "vc": "Founders Fund",
+        "count": 1,
+        "share": 0.1667
+      },
+      {
+        "vc": "8VC",
+        "count": 1,
+        "share": 0.1667
+      },
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.1667
+      }
+    ],
+    "space-satellites-buses": [
+      {
+        "vc": "Point72 Ventures",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "8VC",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Shield Capital",
+        "count": 1,
+        "share": 0.3333
+      }
+    ],
+    "autonomy-ground-vehicles": [
+      {
+        "vc": "Point72 Ventures",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "8VC",
+        "count": 1,
+        "share": 0.5
+      }
+    ],
+    "maritime-electric-transport": [
+      {
+        "vc": "Point72 Ventures",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Lowercarbon Capital",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Founders Fund",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Eclipse Ventures",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Breakthrough Energy Ventures",
+        "count": 1,
+        "share": 0.2
+      }
+    ],
+    "autonomy-maritime": [
+      {
+        "vc": "Caffeinated Capital",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "In-Q-Tel",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "8VC",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.2
+      },
+      {
+        "vc": "Valor Equity Partners",
+        "count": 1,
+        "share": 0.2
       }
     ],
     "rare-earth-refining": [
@@ -2644,18 +2695,6 @@
         "share": 1.0
       }
     ],
-    "geothermal-next-gen": [
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Engine Ventures",
-        "count": 1,
-        "share": 0.5
-      }
-    ],
     "orbital-data-centers": [
       {
         "vc": "Breakthrough Energy Ventures",
@@ -2745,6 +2784,40 @@
           "company": "Magdrive",
           "cluster": "electric-propulsion",
           "addedDate": "2026-04"
+        }
+      ]
+    },
+    {
+      "vc": "General Catalyst",
+      "recentCount": 11,
+      "totalCount": 18,
+      "score": 12.412,
+      "topCluster": "affordable-american-ev",
+      "recentExamples": [
+        {
+          "company": "Nominal",
+          "cluster": "ai-saas-enterprise",
+          "addedDate": "2026-06-04 refresh"
+        },
+        {
+          "company": "Slate Auto",
+          "cluster": "affordable-american-ev",
+          "addedDate": "2026-06"
+        },
+        {
+          "company": "Chai Discovery",
+          "cluster": "ai-molecular-discovery",
+          "addedDate": "2026-06"
+        },
+        {
+          "company": "Twenty",
+          "cluster": "offensive-cyber-ai",
+          "addedDate": "2026-06"
+        },
+        {
+          "company": "MatX",
+          "cluster": "ai-semiconductor-architecture",
+          "addedDate": "2026-03"
         }
       ]
     },
@@ -2881,40 +2954,6 @@
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
           "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
-      "vc": "General Catalyst",
-      "recentCount": 9,
-      "totalCount": 16,
-      "score": 10.588,
-      "topCluster": "offensive-cyber-ai",
-      "recentExamples": [
-        {
-          "company": "Nominal",
-          "cluster": "ai-saas-enterprise",
-          "addedDate": "2026-06-04 refresh"
-        },
-        {
-          "company": "Twenty",
-          "cluster": "offensive-cyber-ai",
-          "addedDate": "2026-06"
-        },
-        {
-          "company": "MatX",
-          "cluster": "ai-semiconductor-architecture",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Chariot Defense",
-          "cluster": "defense-power-systems",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Evolv Technology",
-          "cluster": "defense-security-ai",
-          "addedDate": "2026-03"
         }
       ]
     },
@@ -3305,6 +3344,20 @@
       ]
     },
     {
+      "vc": "Engine Ventures",
+      "recentCount": 1,
+      "totalCount": 2,
+      "score": 1.099,
+      "topCluster": "terahertz-sensing",
+      "recentExamples": [
+        {
+          "company": "Teradar",
+          "cluster": "terahertz-sensing",
+          "addedDate": "2026-06"
+        }
+      ]
+    },
+    {
       "vc": "Prime Movers Lab",
       "recentCount": 1,
       "totalCount": 2,
@@ -3353,30 +3406,100 @@
       "score": 0.0,
       "topCluster": "ai-robotics-embodied",
       "recentExamples": []
-    },
-    {
-      "vc": "Engine Ventures",
-      "recentCount": 0,
-      "totalCount": 1,
-      "score": 0.0,
-      "topCluster": "geothermal-next-gen",
-      "recentExamples": []
     }
   ],
   "pedigree": {
-    "Amazon": [
+    "MIT": [
       {
-        "company": "Dominion Dynamics",
-        "cluster": "arctic-defense",
-        "founder": "Eliot Pence (CEO, led Anduril International 2018-2022), Mitch Carkner (COO, ex-CEO Decisive, ex-Amazon/IBM, Canadian Forces vet)"
+        "company": "Radical AI",
+        "cluster": "autonomous-materials-science",
+        "founder": "Joseph F. Krause (CEO, ex-Army Research Lab neuromorphic semiconductor researcher, ex-AlleyCorp deep-tech investor, US Army National Guard vet), Jorge Colindres (President, ex-AlleyCorp), Prof. Gerbrand Ceder (CSO, UC Berkeley materials science professor, ex-MIT R.P. Simmons Professor 25 years)"
+      }
+    ],
+    "Google": [
+      {
+        "company": "Phaidra",
+        "cluster": "rl-industrial-cooling",
+        "founder": "Jim Gao (CEO, ex-Google DeepMind led industrial AI program incl. famous Google data center cooling project), Vedavyas Panneershelvam (primary engineer on AlphaGo at DeepMind), Katherine Hoffman (operations, ex-Trane Technologies + Raytheon)"
       },
       {
-        "company": "Gallatin AI",
+        "company": "Core Automation",
+        "cluster": "continual-learning-ai",
+        "founder": "Jerry Tworek (CEO, ex-OpenAI VP of Research; led o1/o3 reasoning models, 7 yrs OpenAI), Rohan Anil (Co-founder, ex-Anthropic, ex-Google DeepMind), Joanne Jang (Co-founder, ex-OpenAI General Manager 2021-2026)"
+      },
+      {
+        "company": "Built Robotics",
+        "cluster": "robotics-construction-mining",
+        "founder": "Noah Ready-Campbell, Andrew Liang"
+      },
+      {
+        "company": "MatX",
+        "cluster": "ai-semiconductor-architecture",
+        "founder": "Reiner Pope, Mike Gunter"
+      },
+      {
+        "company": "Periodic Labs",
         "cluster": null,
-        "founder": "Woody Glier, Daniel Buchmueller, Brian Ballard"
+        "founder": "Liam Fedus, Ekin Dogus Cubuk"
+      },
+      {
+        "company": "Archetype AI",
+        "cluster": null,
+        "founder": "Ivan Poupyrev, Brandon Barbello, Leonardo Giusti, Jaime Lien, Nicholas Gillian"
+      }
+    ],
+    "OpenAI": [
+      {
+        "company": "Core Automation",
+        "cluster": "continual-learning-ai",
+        "founder": "Jerry Tworek (CEO, ex-OpenAI VP of Research; led o1/o3 reasoning models, 7 yrs OpenAI), Rohan Anil (Co-founder, ex-Anthropic, ex-Google DeepMind), Joanne Jang (Co-founder, ex-OpenAI General Manager 2021-2026)"
+      },
+      {
+        "company": "Blackstar",
+        "cluster": "ai-native-hardware",
+        "founder": "Daniel Edrisian (Founder/CEO, ex-OpenAI Codex engineer; previously founded Alex YC W24, an Xcode AI coding assistant acqui-hired by OpenAI Sept 2025; UC Berkeley EECS)"
+      },
+      {
+        "company": "Sunday Robotics",
+        "cluster": "general-purpose-robot",
+        "founder": "Tony Zhao, Cheng Chi"
+      },
+      {
+        "company": "Periodic Labs",
+        "cluster": null,
+        "founder": "Liam Fedus, Ekin Dogus Cubuk"
+      }
+    ],
+    "Anthropic": [
+      {
+        "company": "Core Automation",
+        "cluster": "continual-learning-ai",
+        "founder": "Jerry Tworek (CEO, ex-OpenAI VP of Research; led o1/o3 reasoning models, 7 yrs OpenAI), Rohan Anil (Co-founder, ex-Anthropic, ex-Google DeepMind), Joanne Jang (Co-founder, ex-OpenAI General Manager 2021-2026)"
+      }
+    ],
+    "DeepMind": [
+      {
+        "company": "Core Automation",
+        "cluster": "continual-learning-ai",
+        "founder": "Jerry Tworek (CEO, ex-OpenAI VP of Research; led o1/o3 reasoning models, 7 yrs OpenAI), Rohan Anil (Co-founder, ex-Anthropic, ex-Google DeepMind), Joanne Jang (Co-founder, ex-OpenAI General Manager 2021-2026)"
+      },
+      {
+        "company": "Reflection AI",
+        "cluster": null,
+        "founder": "Misha Laskin, Ioannis Antonoglou"
+      },
+      {
+        "company": "Dyna Robotics",
+        "cluster": null,
+        "founder": "Lindon Gao, York Yang, Jason Ma"
       }
     ],
     "SpaceX": [
+      {
+        "company": "Lux Aeterna",
+        "cluster": "reusable-satellites",
+        "founder": "Brian Taylor (Founder/CEO, ex-SpaceX Starlink engineer, ex-Amazon Project Kuiper, ex-Loft Orbital)"
+      },
       {
         "company": "Andrenam",
         "cluster": "autonomy-maritime",
@@ -3418,16 +3541,21 @@
         "founder": "Eric Schmidt (backer), team from SpaceX/Google/Apple"
       }
     ],
-    "NASA": [
+    "Amazon": [
       {
-        "company": "EnerVenue",
-        "cluster": "battery-advanced-chemistry",
-        "founder": "Yi Cui"
+        "company": "Lux Aeterna",
+        "cluster": "reusable-satellites",
+        "founder": "Brian Taylor (Founder/CEO, ex-SpaceX Starlink engineer, ex-Amazon Project Kuiper, ex-Loft Orbital)"
       },
       {
-        "company": "Persona AI",
-        "cluster": "industrial-humanoid",
-        "founder": "Nic Radford, Jerry Pratt"
+        "company": "Dominion Dynamics",
+        "cluster": "arctic-defense",
+        "founder": "Eliot Pence (CEO, led Anduril International 2018-2022), Mitch Carkner (COO, ex-CEO Decisive, ex-Amazon/IBM, Canadian Forces vet)"
+      },
+      {
+        "company": "Gallatin AI",
+        "cluster": null,
+        "founder": "Woody Glier, Daniel Buchmueller, Brian Ballard"
       }
     ],
     "Apple": [
@@ -3435,28 +3563,6 @@
         "company": "Tenstorrent",
         "cluster": "ai-hardware-inference",
         "founder": "Ljubisa Bajic, Ivan Hamer, Milos Trajkovic"
-      }
-    ],
-    "Google": [
-      {
-        "company": "Built Robotics",
-        "cluster": "robotics-construction-mining",
-        "founder": "Noah Ready-Campbell, Andrew Liang"
-      },
-      {
-        "company": "MatX",
-        "cluster": "ai-semiconductor-architecture",
-        "founder": "Reiner Pope, Mike Gunter"
-      },
-      {
-        "company": "Periodic Labs",
-        "cluster": null,
-        "founder": "Liam Fedus, Ekin Dogus Cubuk"
-      },
-      {
-        "company": "Archetype AI",
-        "cluster": null,
-        "founder": "Ivan Poupyrev, Brandon Barbello, Leonardo Giusti, Jaime Lien, Nicholas Gillian"
       }
     ],
     "Tesla": [
@@ -3486,16 +3592,11 @@
         "founder": "Sankaet Pathak, Arjun Sethi, Mike LeBlanc"
       }
     ],
-    "OpenAI": [
+    "NASA": [
       {
-        "company": "Sunday Robotics",
-        "cluster": "general-purpose-robot",
-        "founder": "Tony Zhao, Cheng Chi"
-      },
-      {
-        "company": "Periodic Labs",
-        "cluster": null,
-        "founder": "Liam Fedus, Ekin Dogus Cubuk"
+        "company": "Persona AI",
+        "cluster": "industrial-humanoid",
+        "founder": "Nic Radford, Jerry Pratt"
       }
     ],
     "Google Brain": [
@@ -3526,18 +3627,6 @@
         "cluster": null,
         "founder": "Aistis \u0160imaitis, Alexander Blessing, Christian Garrett"
       }
-    ],
-    "DeepMind": [
-      {
-        "company": "Reflection AI",
-        "cluster": null,
-        "founder": "Misha Laskin, Ioannis Antonoglou"
-      },
-      {
-        "company": "Dyna Robotics",
-        "cluster": null,
-        "founder": "Lindon Gao, York Yang, Jason Ma"
-      }
     ]
   },
   "topClusters": [
@@ -3566,14 +3655,6 @@
       "investmentCount": 6
     },
     {
-      "cluster": "maritime-electric-transport",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "autonomy-maritime",
-      "investmentCount": 5
-    },
-    {
       "cluster": "space-launch-large",
       "investmentCount": 5
     },
@@ -3583,6 +3664,14 @@
     },
     {
       "cluster": "data-center-infrastructure",
+      "investmentCount": 5
+    },
+    {
+      "cluster": "maritime-electric-transport",
+      "investmentCount": 5
+    },
+    {
+      "cluster": "autonomy-maritime",
       "investmentCount": 5
     },
     {
@@ -3626,15 +3715,15 @@
       "investmentCount": 4
     },
     {
-      "cluster": "space-satellites-buses",
-      "investmentCount": 3
-    },
-    {
       "cluster": "offensive-cyber-ai",
       "investmentCount": 3
     },
     {
       "cluster": "energy-storage-thermal-gravity",
+      "investmentCount": 3
+    },
+    {
+      "cluster": "space-satellites-buses",
       "investmentCount": 3
     },
     {
