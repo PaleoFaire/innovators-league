@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-09T08:38:57+00:00",
+  "generatedAt": "2026-06-09T12:13:29+00:00",
   "stats": {
-    "companies": 944,
+    "companies": 945,
     "vcFirms": 27,
     "uniqueClusters": 103,
     "totalInvestments": 241
@@ -3511,9 +3511,9 @@
         "founder": "Jonathan Criss, Andrew Harner"
       },
       {
-        "company": "Dynamo Air",
-        "cluster": "autonomous-heavy-lift",
-        "founder": "Ethan Alexander"
+        "company": "Long Wall",
+        "cluster": "defense-munitions-energetics",
+        "founder": "Dan Piemont (CEO; ex-SpaceX, ex-Morgan Stanley), Harry O'Hanley (ex-SpaceX, ex-Morgan Stanley)"
       },
       {
         "company": "Canada Rocket Company",
@@ -3558,11 +3558,50 @@
         "founder": "Woody Glier, Daniel Buchmueller, Brian Ballard"
       }
     ],
+    "Microsoft": [
+      {
+        "company": "Zettascale",
+        "cluster": "ai-hardware-inference",
+        "founder": "Elias Almqvist (CEO; self-taught engineer, Chalmers University CS/CE dropout at 21), Prithvi Raj (CTO; MEng Computational Stats + ML Cambridge; ex-Microsoft)"
+      }
+    ],
+    "Palantir": [
+      {
+        "company": "NetworkOcean",
+        "cluster": "data-center-infrastructure",
+        "founder": "Sam Mendel (CEO; serial founder, prior exit of a creator-hiring marketplace), Eric Kim (CTO; ex-Palantir, Merge; Cornell)"
+      },
+      {
+        "company": "Cape",
+        "cluster": null,
+        "founder": "John Doyle"
+      },
+      {
+        "company": "Gallatin AI",
+        "cluster": null,
+        "founder": "Woody Glier, Daniel Buchmueller, Brian Ballard"
+      },
+      {
+        "company": "Govini",
+        "cluster": null,
+        "founder": "Eric Gillespie"
+      },
+      {
+        "company": "Onodrim Industries",
+        "cluster": null,
+        "founder": "Aistis \u0160imaitis, Alexander Blessing, Christian Garrett"
+      }
+    ],
     "Apple": [
       {
         "company": "Tenstorrent",
         "cluster": "ai-hardware-inference",
         "founder": "Ljubisa Bajic, Ivan Hamer, Milos Trajkovic"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "cluster": null,
+        "founder": "Eric Hostetler (CEO; ex-Anduril, ex-Oakley, ex-Apple), Steven Stanley (CTO; ex-Aerojet Rocketdyne, ex-Blue Origin), Ken Spaulding (CMO; ex-Vescio Threading, ex-Zodiac Engineering), James Sonntag (COO; ex-Yeti, ex-Oakley, ex-Fox Racing)"
       }
     ],
     "Tesla": [
@@ -3579,7 +3618,7 @@
       {
         "company": "Odin Dynamics",
         "cluster": null,
-        "founder": "Jon Haase, Amir Khan"
+        "founder": "Amir Khan (CEO; ex-Tesla Model S Plaid powertrain architect, ex-Supernal powertrain lead, ex-Arc Boats), Jon Haase (23-yr USN; ex-Commander EOD Mobile Unit Two; ex-Program Manager PMS 408 unmanned undersea program)"
       },
       {
         "company": "Maritime Fusion",
@@ -3604,28 +3643,6 @@
         "company": "Periodic Labs",
         "cluster": null,
         "founder": "Liam Fedus, Ekin Dogus Cubuk"
-      }
-    ],
-    "Palantir": [
-      {
-        "company": "Cape",
-        "cluster": null,
-        "founder": "John Doyle"
-      },
-      {
-        "company": "Gallatin AI",
-        "cluster": null,
-        "founder": "Woody Glier, Daniel Buchmueller, Brian Ballard"
-      },
-      {
-        "company": "Govini",
-        "cluster": null,
-        "founder": "Eric Gillespie"
-      },
-      {
-        "company": "Onodrim Industries",
-        "cluster": null,
-        "founder": "Aistis \u0160imaitis, Alexander Blessing, Christian Garrett"
       }
     ]
   },

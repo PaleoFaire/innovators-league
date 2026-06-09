@@ -57886,27 +57886,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-09 08:37
-// Auto-generated real-time signals
-// Last updated: 2026-06-09
-// Auto-generated real-time signals
-// Last updated: 2026-06-09
+// Last updated: 2026-06-09 12:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Isar Aerospace", headline: "Isar Aerospace raises €270m to scale launch operations", source: "Sifted", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "ICEYE", headline: "Finnish satellite startup Iceye raises €1bn amid spacetech funding boost", source: "Sifted", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Hugging Face", headline: "Exclusive: Github and Hugging Face founders back AI agent startup Zaro’s $5.1m raise", source: "Sifted", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Wayve", headline: "Stellantis Gets Its Hands-Free, Door-to-Door Driving Partner — Wayve", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Silicon Box", headline: "Singapore&#8217;s Silicon Box secures $78M financing to accelerate growth in advanced packaging", source: "TechNode Global", time: "8h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "OpenAI", headline: "As OpenAI files for IPO, Sam Altman&#8217;s eye-scanning company is doing layoffs, report says", source: "TechCrunch", time: "11h ago", impact: "high", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic", source: "Wired", time: "12h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "Anthropic", headline: "OpenAI files confidentially for IPO, following Anthropic", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Scale AI", headline: "How defense teams can scale AI without increasing data risk", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Anthropic", headline: "Trump memo on AI aims to avoid repeat of Anthropic debacle", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Scale AI", headline: "BeatpulseLabs raises $1.8M pre-seed to scale AI training data", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn&#8217;t Take SpaceX Public — Two Things That Changed His Mind", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "Star Power — Pulling Back The Curtain On The SpaceX IPO", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Waymo", headline: "Waymo Sending Used EV Batteries to Community Clean Energy", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Harbinger", headline: "Harbinger gears up for war with autonomous military truck program", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "ICEYE", headline: "Iceye raises 1 billion euros to expand SAR satellite systems", source: "SpaceNews", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "AI Services And Robotics Lead Diverse Crop Of 29 New May Unicorns As SpaceX, Anthropic And OpenAI Line Up Blockbuster Ex", source: "Crunchbase News", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Isar Aerospace", headline: "Isar Aerospace raises 270 million euros for global launch expansion", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "funding", company: "Isar Aerospace", headline: "Isar Aerospace raises '270m to scale launch operations", source: "Sifted", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "ICEYE", headline: "Finnish satellite startup Iceye raises '1bn amid spacetech funding boost", source: "Sifted", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Hugging Face", headline: "Exclusive: Github and Hugging Face founders back AI agent startup Zaro's $5.1m raise", source: "Sifted", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Wayve", headline: "Stellantis Gets Its Hands-Free, Door-to-Door Driving Partner ' Wayve", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Silicon Box", headline: "Singapore's Silicon Box secures $78M financing to accelerate growth in advanced packaging", source: "TechNode Global", time: "10h ago", impact: "medium", unread: false },
+  { id: 9, type: "ipo", company: "OpenAI", headline: "As OpenAI files for IPO, Sam Altman's eye-scanning company is doing layoffs, report says", source: "TechCrunch", time: "13h ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic", source: "Wired", time: "14h ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "Anthropic", headline: "OpenAI files confidentially for IPO, following Anthropic", source: "TechCrunch", time: "14h ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "Scale AI", headline: "How defense teams can scale AI without increasing data risk", source: "Breaking Defense", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Anthropic", headline: "Trump memo on AI aims to avoid repeat of Anthropic debacle", source: "Breaking Defense", time: "17h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Scale AI", headline: "BeatpulseLabs raises $1.8M pre-seed to scale AI training data", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Elon Musk Said He Wouldn't Take SpaceX Public ' Two Things That Changed His Mind", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
