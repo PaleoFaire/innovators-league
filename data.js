@@ -24381,6 +24381,26 @@ const SECTORS = {
 
 const COMPANIES = [
   {
+    name: "Aventra",
+    founded: 2024,
+    sector: "Defense & Security",
+    description: "Builds low-cost modular glide-and-guidance kits ('Piranha') that wrap existing unguided munitions (e.g., 81mm mortars), deployed from stratospheric balloons at ~80,000-90,000 ft riding high-altitude winds to strike targets up to ~600 miles (headline max ~3,000 miles). AI-based terminal guidance is GPS-independent; per-shot cost claimed 100-400x cheaper than Tomahawk-class munitions. Emerged from stealth Oct 1, 2025 with $3M Seed led by Lavrock Ventures; technology validated through operations in Ukraine.",
+    founder: "Michael Weigand (CEO, co-founder + ex-CGO Shift5; 8 yrs US Army Airborne/Ranger Infantry + first cohort Army Cyber; USMA West Point CS), Brian Retherford (CFO/COO, ex-Army Cyber; USMA + MIT Sloan MBA), Jessup Meng (CRO, ex-Army Cyber; Northeastern Intl Affairs + UW Foster MBA)",
+    location: "Herndon, VA",
+    state: "VA",
+    lat: 38.9696,
+    lng: -77.3861,
+    fundingStage: "Seed",
+    totalRaised: "$3M",
+    thesisCluster: "long-range-precision-strike",
+    techApproach: "Modular Piranha glide-kit converts dumb munitions to AI-guided weapons; stratospheric balloon launch + high-altitude wind transit enables 600-3000 mi range at 100-400x lower cost than Tomahawk",
+    tags: ["long-range precision strike", "glide munitions", "stratospheric launch", "ex-Army Cyber", "Ukraine-validated"],
+    signal: "hot",
+    addedDate: "2026-06",
+    website: "https://www.aventra.io",
+    investors: ["Lavrock Ventures"]
+  },
+  {
     name: "Auriga Space",
     founded: 2022,
     sector: "Space & Aerospace",
