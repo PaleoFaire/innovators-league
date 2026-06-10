@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-09T09:02:17+00:00",
+  "generatedAt": "2026-06-10T09:44:15+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 35,
+  "cohortSize": 45,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 35
+    "unverifiable": 45
   },
   "cleared": [],
   "changesProposed": [],
@@ -17,19 +17,19 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "AnySignal",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Astera Labs",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "AstroForge",
+      "name": "Asylon Robotics",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Atom Computing",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Axiom Space",
       "reason": "Claude extraction failed"
     },
     {
@@ -53,6 +53,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Dexterity",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Endurosat",
       "reason": "Claude extraction failed"
     },
@@ -61,11 +65,15 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "HEO",
+      "name": "Hadrian",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Harbinger",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Humanoid",
       "reason": "Claude extraction failed"
     },
     {
@@ -77,11 +85,19 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Isar Aerospace",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Mach Industries",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Mara",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Orbital Composites",
       "reason": "Claude extraction failed"
     },
     {
@@ -97,15 +113,27 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "PierSight",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Pivotal",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "PsiQuantum",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Rebellion Defense",
+      "name": "Rivian",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Rebellions",
+      "name": "Rocket Factory Augsburg",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Saildrone",
       "reason": "Claude extraction failed"
     },
     {
@@ -117,6 +145,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Skyrora",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Solid Power",
       "reason": "Claude extraction failed"
     },
@@ -125,7 +157,15 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Standard Bots",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Standard Nuclear",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Together AI",
       "reason": "Claude extraction failed"
     },
     {
