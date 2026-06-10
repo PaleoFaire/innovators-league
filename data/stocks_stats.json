@@ -9,21 +9,21 @@
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -20.89,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -19.67,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -15.4,
+      "avg_change": -16.5,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -24.39,
+      "avg_change": -24.38,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -22.93,
+      "avg_change": -22.9,
       "count": 3
     },
     "biotech": {
@@ -64,14 +64,14 @@
       32.21
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      12.57
-    ],
-    [
       "9348.T",
       "ispace",
-      -1.02
+      5.23
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      4.97
     ],
     [
       "TEM",
@@ -98,7 +98,7 @@
     [
       "SMR",
       "NuScale Power",
-      -28.35
+      -28.32
     ],
     [
       "LUNR",
@@ -108,8 +108,8 @@
     [
       "PL",
       "Planet Labs",
-      -35.27
+      -35.18
     ]
   ],
-  "lastUpdated": "2026-06-09 20:11:52"
+  "lastUpdated": "2026-06-10 04:03:47"
 }
