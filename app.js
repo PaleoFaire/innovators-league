@@ -8939,7 +8939,9 @@ function renderIL30Showcase() {
   if (!container) return;
   if (typeof INNOVATORS_LEAGUE_30 === 'undefined' || typeof COMPANIES === 'undefined') return;
 
-  var il30Names = INNOVATORS_LEAGUE_30;
+  var il30Names = INNOVATORS_LEAGUE_30.slice().sort(function(a, b) {
+    return a.localeCompare(b, undefined, { sensitivity: 'base' });
+  });
   var html = '';
 
   il30Names.forEach(function(name, idx) {
