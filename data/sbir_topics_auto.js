@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-06-09 10:46:49 UTC
+// Last updated: 2026-06-10 11:05:40 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -25,7 +25,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Alpine Eagle",
         "sector": "Defense & Security",
-        "bid_fit_score": 26.7,
+        "bid_fit_score": 26.6,
         "matched_terms": [
           "uas",
           "counter",
@@ -134,7 +134,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Astro Mechanica",
         "sector": "Supersonic & Hypersonic",
-        "bid_fit_score": 17.0,
+        "bid_fit_score": 16.9,
         "matched_terms": [
           "hypersonic",
           "flight"
@@ -250,7 +250,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "General Matter",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 26.6,
+        "bid_fit_score": 26.5,
         "matched_terms": [
           "nuclear",
           "haleu",
@@ -541,7 +541,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Xage Security",
         "sector": "Defense & Security",
-        "bid_fit_score": 11.9,
+        "bid_fit_score": 11.8,
         "matched_terms": [
           "infrastructure",
           "cyber",
@@ -621,7 +621,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cascade Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 27.5,
+        "bid_fit_score": 27.4,
         "matched_terms": [
           "deep",
           "space",
@@ -649,7 +649,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Starpath Robotics",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 18.0,
+        "bid_fit_score": 17.9,
         "matched_terms": [
           "space",
           "deep"
@@ -658,7 +658,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Portal Space Systems",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 17.3,
+        "bid_fit_score": 17.2,
         "matched_terms": [
           "space",
           "propulsion"
@@ -747,7 +747,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Exodys Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 17.3,
+        "bid_fit_score": 17.2,
         "matched_terms": [
           "nuclear",
           "energy"
@@ -756,7 +756,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Thea Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 16.6,
+        "bid_fit_score": 16.5,
         "matched_terms": [
           "fusion",
           "nuclear",
@@ -786,7 +786,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Oklo",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 15.8,
+        "bid_fit_score": 15.7,
         "matched_terms": [
           "nuclear",
           "energy"
@@ -942,8 +942,8 @@ const SBIR_TOPICS_AUTO = [
         "bid_fit_score": 13.2,
         "matched_terms": [
           "biotech",
-          "synthetic",
-          "biology"
+          "biology",
+          "synthetic"
         ]
       },
       {

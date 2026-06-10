@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-06-09 10:25:31 UTC
+// Last updated: 2026-06-10 10:45:43 UTC
 // Total grants: 628 | Known companies: 11 | SBIR: 17
-// Total funding tracked: $387,674,396
+// Total funding tracked: $388,263,665
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -664,6 +664,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "The progress of type 1 diabetes research has been limited by the accessibility of the target organ, the pancreas. The recent progress in the design and manufacturing of microfluidic platform has allow",
     terms: ["Address", "Adoption", "Allogenic", "Animal Model", "Animals", "Antibodies", "Antigen-Presenting Cells", "Antigens"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Cortical basis of complex motor sequences in humans for neural interfaces",
+    organization: "STANFORD UNIVERSITY",
+    orgState: "CA",
+    piName: "JAIMIE M HENDERSON",
+    fiscalYear: 2025,
+    awardAmount: 1192902,
+    activityCode: "U01",
+    isSbir: false,
+    abstract: "PROJECT SUMMARY Intracortical brain-computer interfaces (iBCIs) can restore lost function for people with severe speech and motor impairment (SSMI) due to neurological injury or disease. Despite treme",
+    terms: ["Algorithms", "Animals", "Area", "Artificial Arm", "Bilateral", "Body part", "Brain", "Cellular Phone"],
     isKnownCompany: false,
   },
   {
@@ -2861,19 +2874,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Title: Microfluidic Isolation and Deep Learning-based Profiling of Subtypes of Circulating Tumor Cells during Epithelial Mesenchymal Transition Project Summary/Abstract Circulating tumor cells (CTCs) ",
     terms: ["Antibodies", "Area", "Artificial Intelligence platform", "Belief", "Biological Assay", "Biological Sciences", "Biomedical Engineering", "Blood"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Dissecting neocortical field potential dynamics using optical voltage imaging in genetically targeted cell-types",
-    organization: "STANFORD UNIVERSITY",
-    orgState: "CA",
-    piName: "MARK J SCHNITZER",
-    fiscalYear: 2025,
-    awardAmount: 603633,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "Measurements of cortical field potentials are widely used throughout basic and clinical neuroscience, including in electroencephalography (EEG), electrocorticography (ECoG) and local field potential (",
-    terms: ["Anesthesia procedures", "Animals", "Area", "Astrocytes", "BRAIN initiative", "Behavior", "Biofeedback", "Brain"],
     isKnownCompany: false,
   },
   {

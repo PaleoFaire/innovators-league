@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-06-09",
-    "vehicle": "Zhuque-2E Block 2 | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Launch Area 96A, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/93cd9d2d-d8e2-49a1-8a85-a0eb8aef4804/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-10",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-44",
-    "payload": "Starlink Group 17-44",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/c7b7e18f-1b42-467e-a8ed-181fb58080e8/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-06-11",
     "vehicle": "HASTE | Curveball",
     "payload": "Curveball",
@@ -34,6 +16,15 @@
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/2670e4f1-d58b-4787-9c3f-f9eb03349513/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-06-11",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-44",
+    "payload": "Starlink Group 17-44",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c7b7e18f-1b42-467e-a8ed-181fb58080e8/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-06-12",
@@ -54,7 +45,16 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-06-14",
+    "date": "2026-06-15",
+    "vehicle": "Kinetica 1 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "CAS Space",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ffc0aee1-fdd7-4638-b098-9d0c01b40663/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-06-15",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-54",
     "payload": "Starlink Group 17-54",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -64,11 +64,11 @@
   },
   {
     "date": "2026-06-15",
-    "vehicle": "Kinetica 1 | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "CAS Space",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ffc0aee1-fdd7-4638-b098-9d0c01b40663/?format=json",
+    "vehicle": "Spectrum | Onward and Upward",
+    "payload": "Onward and Upward",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
     "trackedCompany": null
   },
   {
@@ -88,6 +88,24 @@
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/756a042f-3da8-4a21-bb42-5996fc148050/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-06-17",
+    "vehicle": "Falcon 9 Block 5 | BlueBird Block 2 #3-5",
+    "payload": "BlueBird Block 2 #3-5",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c3f48f48-0e0a-4bca-917e-de494cfca35b/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-17",
+    "vehicle": "Falcon 9 Block 5 | NROL-179",
+    "payload": "NROL-179",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5d4099bf-a0be-4f54-b236-b6ab3aed4146/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-06-17",
@@ -136,15 +154,6 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | BlueBird Block 2 #3-5",
-    "payload": "BlueBird Block 2 #3-5",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/c3f48f48-0e0a-4bca-917e-de494cfca35b/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
     "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
     "payload": "GISAT-1A (EOS-05)",
     "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
@@ -177,15 +186,6 @@
     "pad": "ADD Offshore launch platform, Sea Launch",
     "provider": "Agency for Defense Development",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Spectrum | Onward and Upward",
-    "payload": "Onward and Upward",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
     "trackedCompany": null
   },
   {
