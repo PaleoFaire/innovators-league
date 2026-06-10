@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-09T23:23:28.736954+00:00",
-  "date": "2026-06-09",
-  "dateDisplay": "Tuesday, June 09, 2026",
+  "generatedAt": "2026-06-10T04:38:40.141296+00:00",
+  "date": "2026-06-10",
+  "dateDisplay": "Wednesday, June 10, 2026",
   "sections": {
     "govActivity": [
       {
@@ -81,9 +81,9 @@
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 31.13,
-        "changePercent": -35.27,
-        "change": -16.96
+        "price": 31.17,
+        "changePercent": -35.18,
+        "change": -16.92
       },
       {
         "ticker": "LNZA",
@@ -102,9 +102,9 @@
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 9.99,
-        "changePercent": -28.35,
-        "change": -3.96
+        "price": 10.0,
+        "changePercent": -28.32,
+        "change": -3.95
       },
       {
         "ticker": "RGTI",
@@ -130,9 +130,9 @@
       {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 56.47,
-        "changePercent": -23.14,
-        "change": -17.0
+        "price": 56.48,
+        "changePercent": -23.13,
+        "change": -16.99
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PL -35.3%"
+    "topMover": "PL -35.2%"
   }
 }

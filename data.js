@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-09";
+const LAST_UPDATED = "2026-06-10";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -57806,23 +57806,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-09 23:23
+// Last updated: 2026-06-10 04:38
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Saildrone", headline: "Coast Guard, Saildrone team up in northern waters to boost border security, surveillance", source: "Breaking Defense", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Rivian", headline: "Rivian starts deliveries of its all-important R2 SUV", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo buys Apple's abandoned self-driving car proving ground for $220M", source: "Electrek", time: "9h ago", impact: "medium", unread: true },
-  { id: 4, type: "funding", company: "Standard Bots", headline: "Standard Bots raises $200M to expand U.S. manufacturing footprint", source: "The Robot Report", time: "10h ago", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "ICEYE", headline: "ICEYE raises '450M at '10B+ valuation as demand for sovereign space intelligence accelerates", source: "Tech.eu", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Dexterity", headline: "Beyond Dexterity: Why Contact May Define the Next Era of Robotics", source: "IEEE Spectrum", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "ICEYE", headline: "Iceye raises 1 billion euros to expand SAR satellite systems", source: "SpaceNews", time: "11h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "AI Services And Robotics Lead Diverse Crop Of 29 New May Unicorns As SpaceX, Anthropic And OpenAI Line Up Blockbuster Ex", source: "Crunchbase News", time: "12h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Isar Aerospace", headline: "Isar Aerospace raises 270 million euros for global launch expansion", source: "SpaceNews", time: "12h ago", impact: "medium", unread: false },
-  { id: 10, type: "funding", company: "Isar Aerospace", headline: "Isar Aerospace raises '270m to scale launch operations", source: "Sifted", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "ICEYE", headline: "Finnish satellite startup Iceye raises '1bn amid spacetech funding boost", source: "Sifted", time: "14h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Hugging Face", headline: "Exclusive: Github and Hugging Face founders back AI agent startup Zaro's $5.1m raise", source: "Sifted", time: "18h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Wayve", headline: "Stellantis Gets Its Hands-Free, Door-to-Door Driving Partner ' Wayve", source: "CleanTechnica", time: "20h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Silicon Box", headline: "Singapore's Silicon Box secures $78M financing to accelerate growth in advanced packaging", source: "TechNode Global", time: "21h ago", impact: "medium", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic", source: "Wired", time: "1d ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "Humanoid", headline: "Germany's Infineon, Vietnam's VinRobotics to jointly to develop humanoid robots", source: "TechNode Global", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Saildrone", headline: "Coast Guard, Saildrone team up in northern waters to boost border security, surveillance", source: "Breaking Defense", time: "9h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Rivian", headline: "Rivian starts deliveries of its all-important R2 SUV", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo buys Apple's abandoned self-driving car proving ground for $220M", source: "Electrek", time: "14h ago", impact: "medium", unread: true },
+  { id: 5, type: "funding", company: "Standard Bots", headline: "Standard Bots raises $200M to expand U.S. manufacturing footprint", source: "The Robot Report", time: "15h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "ICEYE", headline: "ICEYE raises '450M at '10B+ valuation as demand for sovereign space intelligence accelerates", source: "Tech.eu", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Dexterity", headline: "Beyond Dexterity: Why Contact May Define the Next Era of Robotics", source: "IEEE Spectrum", time: "15h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "ICEYE", headline: "Iceye raises 1 billion euros to expand SAR satellite systems", source: "SpaceNews", time: "17h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "AI Services And Robotics Lead Diverse Crop Of 29 New May Unicorns As SpaceX, Anthropic And OpenAI Line Up Blockbuster Ex", source: "Crunchbase News", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Isar Aerospace", headline: "Isar Aerospace raises 270 million euros for global launch expansion", source: "SpaceNews", time: "18h ago", impact: "medium", unread: false },
+  { id: 11, type: "funding", company: "Isar Aerospace", headline: "Isar Aerospace raises '270m to scale launch operations", source: "Sifted", time: "18h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "ICEYE", headline: "Finnish satellite startup Iceye raises '1bn amid spacetech funding boost", source: "Sifted", time: "20h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Hugging Face", headline: "Exclusive: Github and Hugging Face founders back AI agent startup Zaro's $5.1m raise", source: "Sifted", time: "23h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Wayve", headline: "Stellantis Gets Its Hands-Free, Door-to-Door Driving Partner ' Wayve", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Silicon Box", headline: "Singapore's Silicon Box secures $78M financing to accelerate growth in advanced packaging", source: "TechNode Global", time: "1d ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
