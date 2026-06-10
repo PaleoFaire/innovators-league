@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -6.91,
+      "avg_change": -8.43,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -14.41,
+      "avg_change": -14.99,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -14.06,
+      "avg_change": -15.34,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.72,
+      "avg_change": -19.2,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.29,
+      "avg_change": 0.01,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.66,
+      "avg_change": -17.3,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.82,
+      "avg_change": -5.32,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -11.9,
+      "avg_change": -14.57,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.33,
+      "avg_change": -10.76,
       "count": 3
     }
   },
@@ -61,12 +61,12 @@
     [
       "LNZA",
       "LanzaTech",
-      35.96
+      36.7
     ],
     [
       "TEM",
       "Tempus AI",
-      7.23
+      4.15
     ],
     [
       "9348.T",
@@ -81,35 +81,35 @@
     [
       "NVDA",
       "NVIDIA",
-      -5.38
+      -6.67
     ]
   ],
   "topLosers": [
-    [
-      "JOBY",
-      "Joby Aviation",
-      -20.38
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -20.74
-    ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       -21.63
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      -21.64
+      "JOBY",
+      "Joby Aviation",
+      -22.48
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -22.66
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -24.29
     ],
     [
       "PL",
       "Planet Labs",
-      -28.67
+      -28.77
     ]
   ],
-  "lastUpdated": "2026-06-10 15:44:21"
+  "lastUpdated": "2026-06-10 20:36:00"
 }
