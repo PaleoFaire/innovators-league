@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -13.21,
+      "avg_change": -6.91,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -19.85,
+      "avg_change": -14.41,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -17.02,
+      "avg_change": -14.06,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -24.38,
+      "avg_change": -15.72,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.7,
+      "avg_change": 1.29,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -22.9,
+      "avg_change": -14.66,
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -6.52,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -3.82,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -7.71,
+      "avg_change": -11.9,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.45,
+      "avg_change": -9.33,
       "count": 3
     }
   },
@@ -61,7 +61,12 @@
     [
       "LNZA",
       "LanzaTech",
-      32.21
+      35.96
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      7.23
     ],
     [
       "9348.T",
@@ -74,42 +79,37 @@
       1.86
     ],
     [
-      "TEM",
-      "Tempus AI",
-      -1.61
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -3.95
+      "NVDA",
+      "NVIDIA",
+      -5.38
     ]
   ],
   "topLosers": [
     [
-      "SATL",
-      "Satellogic",
-      -26.04
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      -26.75
+      "JOBY",
+      "Joby Aviation",
+      -20.38
     ],
     [
       "SMR",
       "NuScale Power",
-      -28.32
+      -20.74
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -21.63
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -30.58
+      -21.64
     ],
     [
       "PL",
       "Planet Labs",
-      -35.18
+      -28.67
     ]
   ],
-  "lastUpdated": "2026-06-10 10:09:38"
+  "lastUpdated": "2026-06-10 15:44:21"
 }
