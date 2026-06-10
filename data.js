@@ -58111,23 +58111,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-10 16:41
+// Last updated: 2026-06-10 19:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Neura Robotics", headline: "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qualcomm", source: "Sifted", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Neura Robotics", headline: "NEURA Robotics to raise up to $1.4B in Series C funding for physical AI", source: "The Robot Report", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "funding", company: "Neura Robotics", headline: "NEURA Robotics secures up to $1.4B Series C to scale physical AI and cognitive robotics platform", source: "Tech.eu", time: "1h ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "The three hard-tech moonshots fueling SpaceX's unbelievable IPO", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "LeoLabs", headline: "LeoLabs deploys mobile space-tracking radar in Indo-Pacific", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Reflex Aerospace", headline: "Arkadia Space to supply thrusters for Reflex Aerospace satellite", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Why two SpaceX alumni are betting on solar and batteries to power the AI craze", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Waymo", headline: "Waymo says it built a better benchmark for comparing robotaxis to humans", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Humanoid", headline: "Germany's Infineon, Vietnam's VinRobotics to jointly to develop humanoid robots", source: "TechNode Global", time: "13h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Saildrone", headline: "Coast Guard, Saildrone team up in northern waters to boost border security, surveillance", source: "Breaking Defense", time: "21h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Waymo buys Apple's abandoned self-driving car proving ground for $220M", source: "Electrek", time: "1d ago", impact: "medium", unread: false },
-  { id: 12, type: "funding", company: "Standard Bots", headline: "Standard Bots raises $200M to expand U.S. manufacturing footprint", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "funding", company: "ICEYE", headline: "ICEYE raises '450M at '10B+ valuation as demand for sovereign space intelligence accelerates", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Dexterity", headline: "Beyond Dexterity: Why Contact May Define the Next Era of Robotics", source: "IEEE Spectrum", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "ICEYE", headline: "Iceye raises 1 billion euros to expand SAR satellite systems", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "ICEYE", headline: "ICEYE, Rheinmetall form German joint venture for space-based ISR", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "The Indian government got cold feet on Starlink just before SpaceX's IPO", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 3, type: "funding", company: "Neura Robotics", headline: "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qualcomm", source: "Sifted", time: "3h ago", impact: "high", unread: true },
+  { id: 4, type: "funding", company: "Neura Robotics", headline: "NEURA Robotics to raise up to $1.4B in Series C funding for physical AI", source: "The Robot Report", time: "3h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Neura Robotics", headline: "NEURA Robotics secures up to $1.4B Series C to scale physical AI and cognitive robotics platform", source: "Tech.eu", time: "4h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "The three hard-tech moonshots fueling SpaceX's unbelievable IPO", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "LeoLabs", headline: "LeoLabs deploys mobile space-tracking radar in Indo-Pacific", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Reflex Aerospace", headline: "Arkadia Space to supply thrusters for Reflex Aerospace satellite", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "Why 2 SpaceX alumni are betting on solar and batteries to power the AI craze", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Waymo", headline: "Waymo says it built a better benchmark for comparing robotaxis to humans", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Humanoid", headline: "Germany's Infineon, Vietnam's VinRobotics to jointly to develop humanoid robots", source: "TechNode Global", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Saildrone", headline: "Coast Guard, Saildrone team up in northern waters to boost border security, surveillance", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Waymo buys Apple's abandoned self-driving car proving ground for $220M", source: "Electrek", time: "1d ago", impact: "medium", unread: false },
+  { id: 14, type: "funding", company: "Standard Bots", headline: "Standard Bots raises $200M to expand U.S. manufacturing footprint", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "funding", company: "ICEYE", headline: "ICEYE raises '450M at '10B+ valuation as demand for sovereign space intelligence accelerates", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
