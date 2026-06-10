@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T12:31:38.052679+00:00",
+  "generatedAt": "2026-06-10T16:41:49.093727+00:00",
   "date": "2026-06-10",
   "dateDisplay": "Wednesday, June 10, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 31.17,
-        "changePercent": -35.18,
-        "change": -16.92
-      },
-      {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 7.88,
-        "changePercent": 32.21,
-        "change": 1.92
+        "price": 7.41,
+        "changePercent": 35.96,
+        "change": 1.96
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 30.77,
+        "changePercent": -28.67,
+        "change": -12.37
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 27.47,
-        "changePercent": -30.58,
-        "change": -12.1
+        "price": 26.51,
+        "changePercent": -21.64,
+        "change": -7.32
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 598000.0,
+        "changePercent": -21.63,
+        "change": -165000.0
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 10.0,
-        "changePercent": -28.32,
-        "change": -3.95
+        "price": 9.72,
+        "changePercent": -20.74,
+        "change": -2.54
       },
       {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 19.69,
-        "changePercent": -26.75,
-        "change": -7.19
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 9.1,
+        "changePercent": -20.38,
+        "change": -2.33
+      },
+      {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 5.22,
+        "changePercent": -20.06,
+        "change": -1.31
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 6.42,
-        "changePercent": -26.04,
-        "change": -2.26
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 88.71,
-        "changePercent": -24.93,
-        "change": -29.46
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 56.48,
-        "changePercent": -23.13,
-        "change": -16.99
+        "price": 6.28,
+        "changePercent": -19.96,
+        "change": -1.56
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PL -35.2%"
+    "topMover": "LNZA +36.0%"
   }
 }
