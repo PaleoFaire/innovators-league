@@ -581,11 +581,6 @@
       "thesisCluster": "autonomy-delivery-logistics"
     },
     {
-      "id": "Thoron",
-      "sector": "Drones & Autonomous",
-      "thesisCluster": "autonomy-drone-military"
-    },
-    {
       "id": "Airship Industries",
       "sector": "Drones & Autonomous",
       "thesisCluster": "autonomy-delivery-logistics"
@@ -982,11 +977,6 @@
     },
     {
       "id": "Second Front Systems",
-      "sector": "Defense & Security",
-      "thesisCluster": "ai-defense-intelligence"
-    },
-    {
-      "id": "Rebellion Defense",
       "sector": "Defense & Security",
       "thesisCluster": "ai-defense-intelligence"
     },
@@ -1569,11 +1559,6 @@
       "id": "Rapidus",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "chiplet-packaging-foundry"
-    },
-    {
-      "id": "Rebellions",
-      "sector": "Chips & Semiconductors",
-      "thesisCluster": "ai-hardware-inference"
     },
     {
       "id": "Innospace",
@@ -3614,11 +3599,6 @@
       "id": "Fergani Space",
       "sector": "Space & Aerospace",
       "thesisCluster": "turkish-space"
-    },
-    {
-      "id": "Aleph Farms",
-      "sector": "Biotech & Health",
-      "thesisCluster": "cultivated-meat"
     },
     {
       "id": "Tritone Technologies",
@@ -5841,6 +5821,168 @@
       "cluster": "defense-munitions-energetics"
     },
     {
+      "src": "Reveal Technology",
+      "dst": "Vannevar Labs",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Rune Technologies",
+      "dst": "Vannevar Labs",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Helsing",
+      "dst": "Vannevar Labs",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Second Front Systems",
+      "dst": "Vannevar Labs",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Modern Intelligence",
+      "dst": "Vannevar Labs",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Parry Labs",
+      "dst": "Vannevar Labs",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Reveal Technology",
+      "dst": "Rune Technologies",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Helsing",
+      "dst": "Reveal Technology",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Reveal Technology",
+      "dst": "Second Front Systems",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Primer AI",
+      "dst": "Reveal Technology",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Modern Intelligence",
+      "dst": "Reveal Technology",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Parry Labs",
+      "dst": "Reveal Technology",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Helsing",
+      "dst": "Rune Technologies",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Rune Technologies",
+      "dst": "Second Front Systems",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Primer AI",
+      "dst": "Rune Technologies",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Modern Intelligence",
+      "dst": "Rune Technologies",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Parry Labs",
+      "dst": "Rune Technologies",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Helsing",
+      "dst": "Second Front Systems",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Helsing",
+      "dst": "Primer AI",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Helsing",
+      "dst": "Modern Intelligence",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Helsing",
+      "dst": "Parry Labs",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Primer AI",
+      "dst": "Second Front Systems",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Modern Intelligence",
+      "dst": "Second Front Systems",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Parry Labs",
+      "dst": "Second Front Systems",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Modern Intelligence",
+      "dst": "Primer AI",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Parry Labs",
+      "dst": "Primer AI",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
+      "src": "Modern Intelligence",
+      "dst": "Parry Labs",
+      "type": "thesis",
+      "cluster": "ai-defense-intelligence"
+    },
+    {
       "src": "Radiant",
       "dst": "Valar Atomics",
       "type": "thesis",
@@ -7720,12 +7862,6 @@
     },
     {
       "src": "Cerebras",
-      "dst": "Rebellions",
-      "type": "thesis",
-      "cluster": "ai-hardware-inference"
-    },
-    {
-      "src": "Cerebras",
       "dst": "Tenstorrent",
       "type": "thesis",
       "cluster": "ai-hardware-inference"
@@ -7756,12 +7892,6 @@
     },
     {
       "src": "Etched",
-      "dst": "Rebellions",
-      "type": "thesis",
-      "cluster": "ai-hardware-inference"
-    },
-    {
-      "src": "Etched",
       "dst": "Tenstorrent",
       "type": "thesis",
       "cluster": "ai-hardware-inference"
@@ -7786,12 +7916,6 @@
     },
     {
       "src": "Extropic",
-      "dst": "Rebellions",
-      "type": "thesis",
-      "cluster": "ai-hardware-inference"
-    },
-    {
-      "src": "Extropic",
       "dst": "Tenstorrent",
       "type": "thesis",
       "cluster": "ai-hardware-inference"
@@ -7809,12 +7933,6 @@
       "cluster": "ai-hardware-inference"
     },
     {
-      "src": "Rebellions",
-      "dst": "Zettascale",
-      "type": "thesis",
-      "cluster": "ai-hardware-inference"
-    },
-    {
       "src": "Tenstorrent",
       "dst": "Zettascale",
       "type": "thesis",
@@ -7827,12 +7945,6 @@
       "cluster": "ai-hardware-inference"
     },
     {
-      "src": "Rebellions",
-      "dst": "d-Matrix",
-      "type": "thesis",
-      "cluster": "ai-hardware-inference"
-    },
-    {
       "src": "Tenstorrent",
       "dst": "d-Matrix",
       "type": "thesis",
@@ -7841,18 +7953,6 @@
     {
       "src": "DEEPX",
       "dst": "d-Matrix",
-      "type": "thesis",
-      "cluster": "ai-hardware-inference"
-    },
-    {
-      "src": "Rebellions",
-      "dst": "Tenstorrent",
-      "type": "thesis",
-      "cluster": "ai-hardware-inference"
-    },
-    {
-      "src": "DEEPX",
-      "dst": "Rebellions",
       "type": "thesis",
       "cluster": "ai-hardware-inference"
     },
@@ -9951,10 +10051,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 950,
-    "total_edges": 895,
+    "total_nodes": 946,
+    "total_edges": 915,
     "competitor_edges": 166,
-    "thesis_edges": 722,
+    "thesis_edges": 742,
     "alumni_edges": 7
   }
 }

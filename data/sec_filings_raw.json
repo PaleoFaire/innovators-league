@@ -2,6 +2,15 @@
   {
     "company": "Palantir Technologies",
     "ticker": "PLTR",
+    "form": "8-K",
+    "date": "2026-06-09",
+    "description": "pltr-20260603.htm",
+    "accessionNumber": "0001321655-26-000033",
+    "isIPO": false
+  },
+  {
+    "company": "Palantir Technologies",
+    "ticker": "PLTR",
     "form": "4",
     "date": "2026-06-08",
     "description": "xslF345X06/wk-form4_1780963392.xml",
@@ -507,6 +516,15 @@
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
     "form": "4",
+    "date": "2026-06-09",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-028024",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "4",
     "date": "2026-06-08",
     "description": "xslF345X06/ownership.xml",
     "accessionNumber": "0001493152-26-027782",
@@ -807,15 +825,6 @@
     "date": "2026-02-20",
     "description": "form8-k.htm",
     "accessionNumber": "0001493152-26-007626",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-02-17",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001493152-26-007213",
     "isIPO": false
   },
   {
@@ -2553,15 +2562,6 @@
     "date": "2025-12-09",
     "description": "d80839d8k.htm",
     "accessionNumber": "0001193125-25-311947",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "10-Q",
-    "date": "2025-11-13",
-    "description": "spce-20250930.htm",
-    "accessionNumber": "0001706946-25-000150",
     "isIPO": false
   },
   {
@@ -8691,6 +8691,15 @@
     "date": "2026-03-05",
     "description": "xslF345X05/wk-form4_1772748582.xml",
     "accessionNumber": "0001943929-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "8-K",
+    "date": "2026-06-09",
+    "description": "tra-20260609.htm",
+    "accessionNumber": "0001628280-26-041919",
     "isIPO": false
   },
   {

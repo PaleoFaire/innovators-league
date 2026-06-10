@@ -2,6 +2,15 @@
   {
     "company": "Palantir Technologies",
     "ticker": "PLTR",
+    "form": "8-K",
+    "date": "2026-06-09",
+    "description": "pltr-20260603.htm",
+    "accessionNumber": "0001321655-26-000033",
+    "isIPO": false
+  },
+  {
+    "company": "Palantir Technologies",
+    "ticker": "PLTR",
     "form": "4",
     "date": "2026-06-08",
     "description": "xslF345X06/wk-form4_1780963392.xml",
@@ -429,6 +438,15 @@
     "date": "2026-03-30",
     "description": "g085462_8k-rocket.htm",
     "accessionNumber": "0001753926-26-000568",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "4",
+    "date": "2026-06-09",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-028024",
     "isIPO": false
   },
   {
@@ -1077,42 +1095,6 @@
     "date": "2026-03-12",
     "description": "tm268606d1_8k.htm",
     "accessionNumber": "0001104659-26-026624",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/form4-03112026_040309.xml",
-    "accessionNumber": "0002008109-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/form4-03112026_040307.xml",
-    "accessionNumber": "0002028314-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/form4-03112026_040305.xml",
-    "accessionNumber": "0001922681-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/form4-03112026_040303.xml",
-    "accessionNumber": "0001641790-26-000002",
     "isIPO": false
   },
   {
@@ -2097,15 +2079,6 @@
     "isIPO": false
   },
   {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "10-Q",
-    "date": "2026-03-11",
-    "description": "ai-20260131.htm",
-    "accessionNumber": "0001577526-26-000024",
-    "isIPO": false
-  },
-  {
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "4",
@@ -2403,15 +2376,6 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "8-K",
-    "date": "2026-03-11",
-    "description": "path-20260305.htm",
-    "accessionNumber": "0001734722-26-000007",
-    "isIPO": false
-  },
-  {
     "company": "IonQ",
     "ticker": "IONQ",
     "form": "8-K",
@@ -2706,33 +2670,6 @@
     "date": "2026-03-20",
     "description": "tm269465d1_8k.htm",
     "accessionNumber": "0001104659-26-032720",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-26-000403",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-26-000402",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-26-000401",
     "isIPO": false
   },
   {
@@ -3249,24 +3186,6 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/wk-form4_1773265281.xml",
-    "accessionNumber": "0001601830-26-000049",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-03-11",
-    "description": "xslF345X05/wk-form4_1773265272.xml",
-    "accessionNumber": "0001601830-26-000048",
-    "isIPO": false
-  },
-  {
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
     "form": "4",
@@ -3723,15 +3642,6 @@
     "date": "2026-03-17",
     "description": "xslF345X05/wk-form4_1773788086.xml",
     "accessionNumber": "0001611597-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "10-K",
-    "date": "2026-03-11",
-    "description": "skyt-20251228.htm",
-    "accessionNumber": "0001819974-26-000009",
     "isIPO": false
   },
   {
@@ -4596,6 +4506,15 @@
     "date": "2026-03-19",
     "description": "tm269292d1_8k.htm",
     "accessionNumber": "0001104659-26-031794",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "8-K",
+    "date": "2026-06-09",
+    "description": "tra-20260609.htm",
+    "accessionNumber": "0001628280-26-041919",
     "isIPO": false
   },
   {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T09:54:15.434150Z",
+  "generated_at": "2026-06-10T10:11:03.219845Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -19,6 +19,26 @@
       "date": "Wed, 03 Ju",
       "source": "news",
       "source_url": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "The Robot Report",
+      "role": "Industry signal",
+      "company": "Standard Bots",
+      "text": "Standard Bots raises $200M to expand U.S. manufacturing footprint",
+      "date": "Tue, 09 Ju",
+      "source": "news",
+      "source_url": "https://www.therobotreport.com/standard-bots-raises-200m-expand-u-s-manufacturing-footprint/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "ICEYE",
+      "text": "Iceye raises 1 billion euros to expand SAR satellite systems",
+      "date": "Tue, 09 Ju",
+      "source": "news",
+      "source_url": "https://spacenews.com/iceye-raises-1-billion-euros-to-expand-sar-satellite-systems/",
       "signal_type": "funding"
     },
     {
@@ -42,13 +62,13 @@
       "signal_type": "ipo"
     },
     {
-      "author": "TechCrunch",
+      "author": "Next Big Future",
       "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "As OpenAI files for IPO, Sam Altman&#8217;s eye-scanning company is doing layoffs, report says",
+      "company": "SpaceX",
+      "text": "What are you Missing about SpaceX and the IPO? Winning Before AI Data Centers in Space",
       "date": "Mon, 08 Ju",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "source_url": "https://www.nextbigfuture.com/2026/06/what-are-you-missing-about-spacex-and-the-ipo-winning-before-ai-data-centers-in-space.html",
       "signal_type": "ipo"
     },
     {
@@ -59,36 +79,6 @@
       "date": "Mon, 08 Ju",
       "source": "news",
       "source_url": "https://www.wired.com/story/openai-confidentially-files-for-ipo/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "OpenAI files confidentially for IPO, following Anthropic",
-      "date": "Mon, 08 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Scale AI",
-      "text": "BeatpulseLabs raises $1.8M pre-seed to scale AI training data",
-      "date": "Mon, 08 Ju",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/06/08/beatpulselabs-raises-18m-pre-seed-to-scale-ai-training-data/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "Crunchbase News",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic Files Confidentially For IPO",
-      "date": "Mon, 01 Ju",
-      "source": "news",
-      "source_url": "https://news.crunchbase.com/public/ai-unicorn-anthropic-files-confidentially-for-ipo/",
       "signal_type": "ipo"
     },
     {
@@ -105,7 +95,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 10,
+    "from_news": 9,
     "from_press": 0
   }
 }

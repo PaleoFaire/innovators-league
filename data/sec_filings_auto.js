@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-09 09:53:08 UTC
+// Last updated: 2026-06-10 10:09:52 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "8-K", date: "2026-06-09", description: "pltr-20260603.htm", isIPO: false, ticker: "PLTR" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-06-09", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Astera Labs", form: "8-K", date: "2026-06-09", description: "tra-20260609.htm", isIPO: false, ticker: "ALAB" },
   { company: "Palantir Technologies", form: "4", date: "2026-06-08", description: "xslF345X06/wk-form4_1780963392.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-06-08", description: "xslF345X06/wk-form4_1780963351.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-06-08", description: "xslF345X06/wk-form4_1780963311.xml", isIPO: false, ticker: "PLTR" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-06-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-06-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-06-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-06-02", description: "d127675d8k.htm", isIPO: false, ticker: "SPCE" },
-  { company: "NuScale Power", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780433922.xml", isIPO: false, ticker: "SMR" },
-  { company: "NuScale Power", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780433854.xml", isIPO: false, ticker: "SMR" },
 ];
