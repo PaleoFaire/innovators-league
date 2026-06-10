@@ -1,78 +1,6 @@
 {
-  "generatedAt": "2026-06-10T08:58:02+00:00",
+  "generatedAt": "2026-06-10T12:32:22+00:00",
   "matrix": {
-    "brain-computer-interface": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 65000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Occam",
-            "amount": 65000,
-            "date": "2026-06-08",
-            "source": "formd",
-            "investors": [
-              "Julian Capital",
-              "Ada Ventures",
-              "HOF Capital",
-              "Reinforced Ventures",
-              "Rolling Fun"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Neuralink",
-            "amount": null,
-            "date": "2026-03",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "logistics-supply-chain": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 4999995,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Dexterity",
-            "amount": 4999995,
-            "date": "2026-06-03",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "green-manufacturing": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 1647200,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Helios",
-            "amount": 1647200,
-            "date": "2026-06-03",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -576,6 +504,23 @@
             "name": "Neura Robotics",
             "amount": null,
             "date": "2025-12",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "brain-computer-interface": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Neuralink",
+            "amount": null,
+            "date": "2026-03",
             "source": "recentEvent",
             "investors": []
           }
@@ -1451,9 +1396,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 53,
-    "totalUSDSold": 6712195,
-    "uniqueClusters": 35,
+    "totalDealsTracked": 50,
+    "totalUSDSold": 0,
+    "uniqueClusters": 33,
     "uniqueQuarters": 8,
     "uniqueVCs": 18,
     "quarterRange": [
