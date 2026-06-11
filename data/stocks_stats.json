@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -16.53,
+      "avg_change": -16.46,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -16.09,
+      "avg_change": -15.81,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -5.32,
+      "avg_change": -6.77,
       "count": 3
     },
     "transportation": {
@@ -69,9 +69,9 @@
       4.15
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -5.45
+      "9348.T",
+      "ispace",
+      -6.34
     ],
     [
       "NVDA",
@@ -79,9 +79,9 @@
       -6.67
     ],
     [
-      "9348.T",
-      "ispace",
-      -6.83
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -7.84
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -28.77
     ]
   ],
-  "lastUpdated": "2026-06-11 04:17:52"
+  "lastUpdated": "2026-06-11 10:43:15"
 }
