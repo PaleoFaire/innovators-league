@@ -58711,23 +58711,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-11 21:27
+// Last updated: 2026-06-11 23:45
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "Meet the OpenAI Engineer Leading ChatGPT's Biggest Transformation Yet", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "SpaceX", headline: "SpaceX is Already an AI Leader &#8211; AI Cloud Revenue Leader in 2027", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX officially prices shares at $135 in the largest IPO ever", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX SPV investors won't know their true holdings until post-IPO lock-ups lift", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "milestone", company: "Saronic", headline: "Saronic, Castelion to pair Marauder MUSV with Blackbeard hypersonic capability", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Waymo", headline: "Waymo launches $30/month 'Premier' membership with priority pickups and cashback", source: "Electrek", time: "4h ago", impact: "medium", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Quantum Space's military SPAC is trying to catch SpaceX's IPO wave", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
-  { id: 8, type: "milestone", company: "Waymo", headline: "Waymo launches a loyalty program with 10% cash back and free cancellations", source: "TechCrunch", time: "5h ago", impact: "medium", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "What Must You Know Before the SpaceX IPO?", source: "Next Big Future", time: "6h ago", impact: "high", unread: false },
-  { id: 10, type: "funding", company: "Endurance Energy", headline: "Endurance Energy raises $54M to harness a massive untapped energy source", source: "TechCrunch", time: "7h ago", impact: "high", unread: false },
-  { id: 11, type: "ipo", company: "Rocket Lab", headline: "K2 Space, Rocket Lab win key supplier roles in Space Force satcom program", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic taps TCS to scale its enterprise AI deployments", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "People Living Near xAI's Dirty Data Centers Are Furious About the SpaceX IPO", source: "Wired", time: "11h ago", impact: "high", unread: false },
-  { id: 14, type: "milestone", company: "Anthropic", headline: "Anthropic's Dario Amodei has just one direct report", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "Anthropic Walks Back Policy That Could Have 'Sabotaged' AI Researchers Using Claude", source: "Wired", time: "18h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Why You Might Already Own SpaceX Shares, Siri's AI Makeover, and Knicks Owner's Surveillance Machine", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "Meet the OpenAI Engineer Leading ChatGPT's Biggest Transformation Yet", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "SpaceX", headline: "SpaceX is Already an AI Leader &#8211; AI Cloud Revenue Leader in 2027", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX officially prices shares at $135 in the largest IPO ever", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX SPV investors won't know their true holdings until post-IPO lock-ups lift", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
+  { id: 6, type: "milestone", company: "Saronic", headline: "Saronic, Castelion to pair Marauder MUSV with Blackbeard hypersonic capability", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Waymo", headline: "Waymo launches $30/month 'Premier' membership with priority pickups and cashback", source: "Electrek", time: "6h ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "Quantum Space's military SPAC is trying to catch SpaceX's IPO wave", source: "TechCrunch", time: "6h ago", impact: "high", unread: false },
+  { id: 9, type: "milestone", company: "Waymo", headline: "Waymo launches a loyalty program with 10% cash back and free cancellations", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "What Must You Know Before the SpaceX IPO?", source: "Next Big Future", time: "8h ago", impact: "high", unread: false },
+  { id: 11, type: "funding", company: "Endurance Energy", headline: "Endurance Energy raises $54M to harness a massive untapped energy source", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
+  { id: 12, type: "ipo", company: "Rocket Lab", headline: "K2 Space, Rocket Lab win key supplier roles in Space Force satcom program", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Anthropic taps TCS to scale its enterprise AI deployments", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "People Living Near xAI's Dirty Data Centers Are Furious About the SpaceX IPO", source: "Wired", time: "14h ago", impact: "high", unread: false },
+  { id: 15, type: "milestone", company: "Anthropic", headline: "Anthropic's Dario Amodei has just one direct report", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
