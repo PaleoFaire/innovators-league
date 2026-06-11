@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T06:00:58+00:00",
+  "generatedAt": "2026-06-11T10:53:57+00:00",
   "matrix": {
     "autonomy-drone-military": {
       "2026-Q2": {
@@ -478,9 +478,9 @@
     },
     "humanoid-robotics": {
       "2025-Q4": {
-        "deals": 2,
+        "deals": 1,
         "totalSold": null,
-        "companiesWithUnknownAmount": 2,
+        "companiesWithUnknownAmount": 1,
         "companies": [
           {
             "name": "Figure AI",
@@ -499,11 +499,19 @@
               "Qualcomm",
               "Salesforce"
             ]
-          },
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
           {
             "name": "Neura Robotics",
             "amount": null,
-            "date": "2025-12",
+            "date": "2026-06",
             "source": "recentEvent",
             "investors": []
           }
