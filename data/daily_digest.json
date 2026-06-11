@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T00:24:08.846224+00:00",
+  "generatedAt": "2026-06-11T06:00:04.176932+00:00",
   "date": "2026-06-11",
   "dateDisplay": "Thursday, June 11, 2026",
   "sections": {
@@ -114,13 +114,6 @@
         "change": -2.57
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 598000.0,
-        "changePercent": -21.63,
-        "change": -165000.0
-      },
-      {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
         "price": 26.54,
@@ -133,6 +126,13 @@
         "price": 7.0,
         "changePercent": -20.09,
         "change": -1.76
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 6.28,
+        "changePercent": -19.9,
+        "change": -1.56
       }
     ],
     "regulatory": [
