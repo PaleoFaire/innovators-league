@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-10T09:44:15+00:00",
+  "generatedAt": "2026-06-11T10:08:23+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 45,
+  "cohortSize": 39,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 45
+    "unverifiable": 39
   },
   "cleared": [],
   "changesProposed": [],
@@ -41,14 +41,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Crusoe Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "D-Orbit",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Deterrence",
       "reason": "Claude extraction failed"
     },
@@ -57,11 +49,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Endurosat",
+      "name": "Fervo Energy",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Fervo Energy",
+      "name": "Firehawk Aerospace",
       "reason": "Claude extraction failed"
     },
     {
@@ -81,11 +73,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "ICON",
+      "name": "Isar Aerospace",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Isar Aerospace",
+      "name": "LeoLabs",
       "reason": "Claude extraction failed"
     },
     {
@@ -93,7 +85,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Mara",
+      "name": "Neura Robotics",
       "reason": "Claude extraction failed"
     },
     {
@@ -121,11 +113,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "PsiQuantum",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Rivian",
+      "name": "Reflex Aerospace",
       "reason": "Claude extraction failed"
     },
     {
@@ -134,14 +122,6 @@
     },
     {
       "name": "Saildrone",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Scale AI",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Silicon Box",
       "reason": "Claude extraction failed"
     },
     {
@@ -169,7 +149,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Vast",
+      "name": "Ursa Major Technologies",
       "reason": "Claude extraction failed"
     },
     {
@@ -182,10 +162,6 @@
     },
     {
       "name": "X-Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Zettascale",
       "reason": "Claude extraction failed"
     },
     {
