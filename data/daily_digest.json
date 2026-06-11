@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T14:48:35.968350+00:00",
+  "generatedAt": "2026-06-11T18:23:11.624335+00:00",
   "date": "2026-06-11",
   "dateDisplay": "Thursday, June 11, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 7.45,
-        "changePercent": 36.7,
-        "change": 2.0
-      },
-      {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 30.72,
-        "changePercent": -28.77,
-        "change": -12.41
+        "price": 32.69,
+        "changePercent": -24.9,
+        "change": -10.84
+      },
+      {
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 6.96,
+        "changePercent": -23.29,
+        "change": -2.12
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 9.29,
-        "changePercent": -24.29,
-        "change": -2.98
+        "price": 9.42,
+        "changePercent": -21.5,
+        "change": -2.58
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
         "price": 5.05,
-        "changePercent": -22.66,
-        "change": -1.48
+        "changePercent": -20.77,
+        "change": -1.33
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.02,
+        "changePercent": -20.53,
+        "change": -0.78
       },
       {
         "ticker": "JOBY",
         "company": "Joby Aviation",
-        "price": 8.86,
-        "changePercent": -22.48,
-        "change": -2.57
+        "price": 8.91,
+        "changePercent": -20.02,
+        "change": -2.23
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 26.54,
-        "changePercent": -21.56,
-        "change": -7.29
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 19.99,
+        "changePercent": -17.26,
+        "change": -4.17
       },
       {
-        "ticker": "QS",
-        "company": "QuantumScape",
-        "price": 7.0,
-        "changePercent": -20.09,
-        "change": -1.76
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.28,
-        "changePercent": -19.9,
-        "change": -1.56
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 2.77,
+        "changePercent": -16.42,
+        "change": -0.54
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA +36.7%"
+    "topMover": "PL -24.9%"
   }
 }
