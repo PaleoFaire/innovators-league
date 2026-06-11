@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T10:11:03.219845Z",
+  "generated_at": "2026-06-11T10:45:04.017269Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -12,14 +12,54 @@
       "signal_type": "ipo"
     },
     {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "The Indian government got cold feet on Starlink just before SpaceX&#8217;s IPO",
+      "date": "Wed, 10 Ju",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/06/10/the-indian-government-got-cold-feet-on-starlink-just-before-spacexs-ipo/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Sifted",
+      "role": "Industry signal",
+      "company": "Neura Robotics",
+      "text": "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qualcomm",
+      "date": "Wed, 10 Ju",
+      "source": "news",
+      "source_url": "https://sifted.eu/articles/neura-robotics-1-4bn-series-c/",
+      "signal_type": "funding"
+    },
+    {
       "author": "The Robot Report",
       "role": "Industry signal",
-      "company": "Mach Industries",
-      "text": "Autonomous defense manufacturer Mach Industries raises $300M",
-      "date": "Wed, 03 Ju",
+      "company": "Neura Robotics",
+      "text": "NEURA Robotics to raise up to $1.4B in Series C funding for physical AI",
+      "date": "Wed, 10 Ju",
       "source": "news",
-      "source_url": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/",
+      "source_url": "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/",
       "signal_type": "funding"
+    },
+    {
+      "author": "Tech.eu",
+      "role": "Industry signal",
+      "company": "Neura Robotics",
+      "text": "NEURA Robotics secures up to $1.4B Series C to scale physical AI and cognitive robotics platform",
+      "date": "Wed, 10 Ju",
+      "source": "news",
+      "source_url": "https://tech.eu/2026/06/10/neura-robotics-secures-up-to-14b-series-c-to-scale-physical-ai-and-cognitive-robotics-platform/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "The three hard-tech moonshots fueling SpaceX&#8217;s unbelievable IPO",
+      "date": "Wed, 10 Ju",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
+      "signal_type": "ipo"
     },
     {
       "author": "The Robot Report",
@@ -42,13 +82,23 @@
       "signal_type": "funding"
     },
     {
-      "author": "CleanTechnica",
+      "author": "Wired",
       "role": "Industry signal",
       "company": "SpaceX",
-      "text": "Star Power \u2014 Pulling Back The Curtain On The SpaceX IPO",
-      "date": "Sun, 07 Ju",
+      "text": "People Living Near xAI\u2019s Dirty Data Centers Are Furious About the SpaceX IPO",
+      "date": "Thu, 11 Ju",
       "source": "news",
-      "source_url": "https://cleantechnica.com/2026/06/07/star-power-pulling-back-the-curtain-on-the-spacex-ipo/",
+      "source_url": "https://www.wired.com/story/spacex-ipo-how-people-living-near-xai-data-centers-feel/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "Why SpaceX Needed $75 Billion from the IPO and Changed Strategy for AI in 2027 and Beyond",
+      "date": "Thu, 11 Ju",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/06/why-spacex-needed-75-billion-from-the-ipo-and-changed-strategy-for-ai-in-2027-and-beyond.html",
       "signal_type": "ipo"
     },
     {
@@ -70,32 +120,12 @@
       "source": "news",
       "source_url": "https://www.nextbigfuture.com/2026/06/what-are-you-missing-about-spacex-and-the-ipo-winning-before-ai-data-centers-in-space.html",
       "signal_type": "ipo"
-    },
-    {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic",
-      "date": "Mon, 08 Ju",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/openai-confidentially-files-for-ipo/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Sifted",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "The European investors set to win big from Anthropic\u2019s $1tn+ IPO",
-      "date": "Fri, 05 Ju",
-      "source": "news",
-      "source_url": "https://sifted.eu/articles/european-investors-win-anthropic-ipo/",
-      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 9,
+    "from_news": 12,
     "from_press": 0
   }
 }

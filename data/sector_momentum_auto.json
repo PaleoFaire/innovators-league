@@ -1,12 +1,30 @@
 [
   {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 60,
+    "trend": "accelerating",
+    "catalysts": [
+      "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qu",
+      "NEURA Robotics to raise up to $1.4B in Series C funding for",
+      "NEURA Robotics secures up to $1.4B Series C to scale physica"
+    ],
+    "fundingQ": "$8.2B",
+    "components": {
+      "funding": 100,
+      "news": 60,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-11"
+  },
+  {
     "sector": "Space & Aerospace",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Rivian starts deliveries of its all-important R2 SUV",
-      "ICEYE raises \u20ac450M at \u20ac10B+ valuation as demand for sovereig",
-      "Iceye raises 1 billion euros to expand SAR satellite systems"
+      "People Living Near xAI\u2019s Dirty Data Centers Are Furious Abou",
+      "Why SpaceX Needed $75 Billion from the IPO and Changed Strat",
+      "xAI fired an engineer who raised alarms about Grok safety, n"
     ],
     "fundingQ": "$77.7B",
     "components": {
@@ -15,47 +33,29 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-10"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 59,
-    "trend": "accelerating",
-    "catalysts": [
-      "Waymo says it built a better benchmark for comparing robotax",
-      "Waymo buys Apple&#8217;s abandoned self-driving car proving",
-      "Standard Bots raises $200M to expand U.S. manufacturing foot"
-    ],
-    "fundingQ": "$8.2B",
-    "components": {
-      "funding": 100,
-      "news": 55,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "AI & Software",
-    "momentum": 54,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
+      "Anthropic Walks Back Policy That Could Have \u2018Sabotaged\u2019 AI R",
       "AI Services And Robotics Lead Diverse Crop Of 29 New May Uni",
-      "OpenAI Confidentially Files for IPO on the Heels of SpaceX a",
-      "How defense teams can scale AI without increasing data risk"
+      "SPACEX Is Winning AI Cloud NOW. More AI Revenue than Amazon"
     ],
     "fundingQ": "$170.8B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 50,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
       "Coast Guard, Saildrone team up in northern waters to boost b",
@@ -65,27 +65,11 @@
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-10"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Autonomous defense manufacturer Mach Industries raises $300M"
-    ],
-    "fundingQ": "$1.8B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,25 +85,41 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "Active supersonic & hypersonic ecosystem"
+    ],
+    "fundingQ": "$1.8B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 42,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
-      "How defense teams can scale AI without increasing data risk",
-      "Trump memo on AI aims to avoid repeat of Anthropic debacle",
-      "Harbinger gears up for war with autonomous military truck pr"
+      "Harbinger gears up for war with autonomous military truck pr",
+      "Contriving Imaginary Gaps in Nuclear Deterrence",
+      "When Refusal Doesn\u2019t Matter: Operation Epic Fury and the Ero"
     ],
     "fundingQ": "$32.8B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Nuclear Energy",
@@ -137,43 +137,43 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 34,
+    "momentum": 33,
     "trend": "steady",
     "catalysts": [
-      "Waymo Sending Used EV Batteries to Community Clean Energy",
       "Blue Origin Should Be Able to Launch Again By End of 2026",
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal",
+      "Fervo Energy unveils new power plant details in IPO filing"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 22,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
-      "Coast Guard, Saildrone team up in northern waters to boost b",
-      "Waymo buys Apple&#8217;s abandoned self-driving car proving",
-      "Standard Bots raises $200M to expand U.S. manufacturing foot"
+      "NEURA Robotics to raise up to $1.4B in Series C funding for",
+      "LeoLabs deploys mobile space-tracking radar in Indo-Pacific",
+      "Arkadia Space to supply thrusters for Reflex Aerospace satel"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -190,27 +190,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-10"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 9,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
       "ICEYE raises \u20ac450M at \u20ac10B+ valuation as demand for sovereig",
@@ -222,41 +206,59 @@
       "funding": 9,
       "news": 25,
       "hiring": 0,
-      "market": 0
+      "market": 9
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
-    "sector": "Transportation",
-    "momentum": 4,
+    "sector": "Housing & Construction",
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Rivian starts deliveries of its all-important R2 SUV"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-10"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "What are you Missing about SpaceX and the IPO? Winning Befor"
+      "Anthropic Walks Back Policy That Could Have \u2018Sabotaged\u2019 AI R"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 5,
       "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-11"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qu",
+      "NEURA Robotics secures up to $1.4B Series C to scale physica",
+      "What are you Missing about SpaceX and the IPO? Winning Befor"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-11"
   },
   {
     "sector": "Quantum Computing",
@@ -272,6 +274,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   }
 ]

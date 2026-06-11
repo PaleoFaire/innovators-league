@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
+    "change": "+15%",
+    "changeNum": 15,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 4,
+    "activityIndex": 5,
     "billsTracked": 2,
-    "rulesTracked": 2,
-    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
+    "rulesTracked": 3,
+    "description": "2 bill(s) + 3 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 5 \u2014 +15% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -26,19 +26,25 @@
       },
       {
         "type": "federal_register",
-        "title": "Policy Statement on Mandatory Hearings for Reactor Licensing",
+        "title": "Holtec Decommissioning International, LLC; Oyster Creek Nuclear Generating Stati",
         "agency": "",
         "date": ""
       },
       {
         "type": "federal_register",
-        "title": "Arizona Public Service Company; Palo Verde Nuclear Generating Station, Units 1, ",
+        "title": "Nebraska Public Power District; Cooper Nuclear Station; Subsequent License Renew",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Policy Statement on Mandatory Hearings for Reactor Licensing",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "category": "Quantum Computing",
@@ -61,7 +67,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -84,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   },
   {
     "category": "Space & Aerospace",
@@ -107,6 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-10"
+    "lastUpdated": "2026-06-11"
   }
 ]

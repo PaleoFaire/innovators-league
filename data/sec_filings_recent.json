@@ -711,15 +711,6 @@
     "isIPO": false
   },
   {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001493152-26-009925",
-    "isIPO": false
-  },
-  {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
     "form": "8-K",
@@ -798,42 +789,6 @@
     "date": "2026-03-17",
     "description": "bksy-20251231.htm",
     "accessionNumber": "0001753539-26-000032",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773347324.xml",
-    "accessionNumber": "0001753539-26-000025",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773347259.xml",
-    "accessionNumber": "0001753539-26-000023",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773347186.xml",
-    "accessionNumber": "0001753539-26-000021",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773346751.xml",
-    "accessionNumber": "0001753539-26-000019",
     "isIPO": false
   },
   {
@@ -1089,15 +1044,6 @@
     "isIPO": false
   },
   {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "8-K",
-    "date": "2026-03-12",
-    "description": "tm268606d1_8k.htm",
-    "accessionNumber": "0001104659-26-026624",
-    "isIPO": false
-  },
-  {
     "company": "Momentus",
     "ticker": "MNTS",
     "form": "10-Q",
@@ -1194,6 +1140,15 @@
     "date": "2026-03-16",
     "description": "apre-20260316x8k.htm",
     "accessionNumber": "0001104659-26-028046",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-06-10",
+    "description": "spce-20260610.htm",
+    "accessionNumber": "0001706946-26-000092",
     "isIPO": false
   },
   {
@@ -2559,6 +2514,42 @@
     "company": "Rigetti Computing",
     "ticker": "RGTI",
     "form": "4",
+    "date": "2026-06-10",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000855",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
+    "date": "2026-06-10",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000854",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
+    "date": "2026-06-10",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000853",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
+    "date": "2026-06-10",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000852",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
     "date": "2026-06-03",
     "description": "xslF345X06/form4.xml",
     "accessionNumber": "0001123292-26-000801",
@@ -2670,6 +2661,24 @@
     "date": "2026-03-20",
     "description": "tm269465d1_8k.htm",
     "accessionNumber": "0001104659-26-032720",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-06-10",
+    "description": "xslF345X06/wk-form4_1781122056.xml",
+    "accessionNumber": "0001907982-26-000088",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-06-10",
+    "description": "xslF345X06/wk-form4_1781122029.xml",
+    "accessionNumber": "0001907982-26-000087",
     "isIPO": false
   },
   {
@@ -3462,51 +3471,6 @@
     "date": "2026-03-16",
     "description": "xslF345X05/form4-03172026_120305.xml",
     "accessionNumber": "0002036956-26-000009",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/form4-03132026_120358.xml",
-    "accessionNumber": "0001797669-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/form4-03132026_120301.xml",
-    "accessionNumber": "0001882348-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/form4-03132026_120302.xml",
-    "accessionNumber": "0002016416-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/form4-03132026_120355.xml",
-    "accessionNumber": "0002036956-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "8-K",
-    "date": "2026-03-12",
-    "description": "achr-20260309.htm",
-    "accessionNumber": "0001824502-26-000024",
     "isIPO": false
   },
   {
@@ -4626,15 +4590,6 @@
     "isIPO": false
   },
   {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "8-K",
-    "date": "2026-03-12",
-    "description": "tra-20260312.htm",
-    "accessionNumber": "0001628280-26-017372",
-    "isIPO": false
-  },
-  {
     "company": "Satellogic",
     "ticker": "SATL",
     "form": "8-K",
@@ -4695,15 +4650,6 @@
     "date": "2026-04-15",
     "description": "ea0286487-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-044116",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2026-03-12",
-    "description": "ea0281156-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-26-026843",
     "isIPO": false
   }
 ]
