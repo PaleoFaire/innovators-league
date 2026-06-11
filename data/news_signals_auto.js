@@ -1,107 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-06-10T22:12:33.083Z
+// Last updated: 2026-06-11T00:24:00.327Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1781129553083,
+    "id": 1781137440327,
+    "type": "funding",
+    "company": "xAI",
+    "headline": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/"
+  },
+  {
+    "id": 1781137440328,
     "type": "ipo",
     "company": "ICEYE",
     "headline": "ICEYE, Rheinmetall form German joint venture for space-based ISR",
     "source": "Breaking Defense",
-    "time": "5h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://breakingdefense.com/2026/06/iceye-rhenmetall-form-german-joint-venture-for-space-based-isr/"
   },
   {
-    "id": 1781129553084,
+    "id": 1781137440329,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "The Indian government got cold feet on Starlink just before SpaceX&#8217;s IPO",
     "source": "TechCrunch",
-    "time": "5h ago",
+    "time": "7h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/10/the-indian-government-got-cold-feet-on-starlink-just-before-spacexs-ipo/"
   },
   {
-    "id": 1781129553085,
+    "id": 1781137440330,
     "type": "funding",
     "company": "Neura Robotics",
     "headline": "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qualcomm",
     "source": "Sifted",
-    "time": "5h ago",
+    "time": "8h ago",
     "impact": "high",
     "unread": true,
     "link": "https://sifted.eu/articles/neura-robotics-1-4bn-series-c/"
   },
   {
-    "id": 1781129553086,
+    "id": 1781137440331,
     "type": "funding",
     "company": "Neura Robotics",
     "headline": "NEURA Robotics to raise up to $1.4B in Series C funding for physical AI",
     "source": "The Robot Report",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/"
   },
   {
-    "id": 1781129553087,
+    "id": 1781137440332,
     "type": "funding",
     "company": "Neura Robotics",
     "headline": "NEURA Robotics secures up to $1.4B Series C to scale physical AI and cognitive robotics platform",
     "source": "Tech.eu",
-    "time": "6h ago",
+    "time": "9h ago",
     "impact": "high",
-    "unread": true,
+    "unread": false,
     "link": "https://tech.eu/2026/06/10/neura-robotics-secures-up-to-14b-series-c-to-scale-physical-ai-and-cognitive-robotics-platform/"
   },
   {
-    "id": 1781129553088,
+    "id": 1781137440333,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "The three hard-tech moonshots fueling SpaceX&#8217;s unbelievable IPO",
     "source": "TechCrunch",
-    "time": "7h ago",
+    "time": "9h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/"
   },
   {
-    "id": 1781129553089,
+    "id": 1781137440334,
     "type": "ipo",
     "company": "LeoLabs",
     "headline": "LeoLabs deploys mobile space-tracking radar in Indo-Pacific",
     "source": "SpaceNews",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/leolabs-deploys-mobile-space-tracking-radar-in-indo-pacific/"
   },
   {
-    "id": 1781129553090,
+    "id": 1781137440335,
     "type": "ipo",
     "company": "Reflex Aerospace",
     "headline": "Arkadia Space to supply thrusters for Reflex Aerospace satellite",
     "source": "SpaceNews",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/arkadia-space-to-supply-thrusters-for-reflex-aerospace-satellite/"
   },
   {
-    "id": 1781129553091,
+    "id": 1781137440336,
     "type": "news",
     "company": "Humanoid",
     "headline": "Germany&#8217;s Infineon, Vietnam&#8217;s VinRobotics to jointly to develop humanoid robots",
     "source": "TechNode Global",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://technode.global/2026/06/10/germanys-infineon-vietnams-vinrobotics-to-jointly-to-develop-humanoid-robots/"
   },
   {
-    "id": 1781129553092,
+    "id": 1781137440337,
     "type": "news",
     "company": "Saildrone",
     "headline": "Coast Guard, Saildrone team up in northern waters to boost border security, surveillance",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/06/coast-guard-saildrone-team-up-in-northern-waters-to-boost-border-security-surveillance/"
   },
   {
-    "id": 1781129553093,
+    "id": 1781137440338,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo buys Apple&#8217;s abandoned self-driving car proving ground for $220M",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/06/09/waymo-buys-apple-project-titan-proving-ground-220-million/"
   },
   {
-    "id": 1781129553094,
+    "id": 1781137440339,
     "type": "funding",
     "company": "Standard Bots",
     "headline": "Standard Bots raises $200M to expand U.S. manufacturing footprint",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/standard-bots-raises-200m-expand-u-s-manufacturing-footprint/"
   },
   {
-    "id": 1781129553095,
+    "id": 1781137440340,
     "type": "funding",
     "company": "ICEYE",
     "headline": "ICEYE raises €450M at €10B+ valuation as demand for sovereign space intelligence accelerates",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/06/09/iceye-raises-eur450m-at-eur10b-valuation-as-demand-for-sovereign-space-intelligence-accelerates/"
   },
   {
-    "id": 1781129553096,
+    "id": 1781137440341,
     "type": "news",
     "company": "Dexterity",
     "headline": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation"
   },
   {
-    "id": 1781129553097,
+    "id": 1781137440342,
     "type": "funding",
     "company": "ICEYE",
     "headline": "Iceye raises 1 billion euros to expand SAR satellite systems",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/iceye-raises-1-billion-euros-to-expand-sar-satellite-systems/"
   },
   {
-    "id": 1781129553098,
+    "id": 1781137440343,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "AI Services And Robotics Lead Diverse Crop Of 29 New May Unicorns As SpaceX, Anthropic And OpenAI Line Up Blockbuster Ex",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/new-unicorn-startups-may-2026-openai-anthropic-ipos-spacex-robotics/"
   },
   {
-    "id": 1781129553099,
+    "id": 1781137440344,
     "type": "funding",
     "company": "Isar Aerospace",
     "headline": "Isar Aerospace raises 270 million euros for global launch expansion",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/isar-aerospace-raises-270-million-euros-for-global-launch-expansion/"
   },
   {
-    "id": 1781129553100,
+    "id": 1781137440345,
     "type": "funding",
     "company": "Isar Aerospace",
     "headline": "Isar Aerospace raises €270m to scale launch operations",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/isar-aerospace-raises-e270m-to-scale-launch-operations/"
   },
   {
-    "id": 1781129553101,
+    "id": 1781137440346,
     "type": "funding",
     "company": "ICEYE",
     "headline": "Finnish satellite startup Iceye raises €1bn amid spacetech funding boost",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://sifted.eu/articles/iceye-fundraise-spacetech-satellite/"
-  },
-  {
-    "id": 1781129553102,
-    "type": "funding",
-    "company": "Hugging Face",
-    "headline": "Exclusive: Github and Hugging Face founders back AI agent startup Zaro’s $5.1m raise",
-    "source": "Sifted",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://sifted.eu/articles/zaro-thomas-wolf-cherry-ventures/"
   }
 ];
