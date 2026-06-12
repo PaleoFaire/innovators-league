@@ -58711,23 +58711,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-12 04:55
+// Last updated: 2026-06-12 09:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX's IPO: 'It shows us what we're missing in Europe'", source: "Sifted", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Why You Might Already Own SpaceX Shares, Siri's AI Makeover, and Knicks Owner's Surveillance Machine", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "OpenAI", headline: "Meet the OpenAI Engineer Leading ChatGPT's Biggest Transformation Yet", source: "Wired", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "SpaceX", headline: "SpaceX is Already an AI Leader &#8211; AI Cloud Revenue Leader in 2027", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX officially prices shares at $135 in the largest IPO ever", source: "TechCrunch", time: "8h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX SPV investors won't know their true holdings until post-IPO lock-ups lift", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
-  { id: 7, type: "milestone", company: "Saronic", headline: "Saronic, Castelion to pair Marauder MUSV with Blackbeard hypersonic capability", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Waymo", headline: "Waymo launches $30/month 'Premier' membership with priority pickups and cashback", source: "Electrek", time: "11h ago", impact: "medium", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Quantum Space's military SPAC is trying to catch SpaceX's IPO wave", source: "TechCrunch", time: "11h ago", impact: "high", unread: false },
-  { id: 10, type: "milestone", company: "Waymo", headline: "Waymo launches a loyalty program with 10% cash back and free cancellations", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "What Must You Know Before the SpaceX IPO?", source: "Next Big Future", time: "13h ago", impact: "high", unread: false },
-  { id: 12, type: "funding", company: "Endurance Energy", headline: "Endurance Energy raises $54M to harness a massive untapped energy source", source: "TechCrunch", time: "14h ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "Rocket Lab", headline: "K2 Space, Rocket Lab win key supplier roles in Space Force satcom program", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic taps TCS to scale its enterprise AI deployments", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "People Living Near xAI's Dirty Data Centers Are Furious About the SpaceX IPO", source: "Wired", time: "19h ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Puts Elon Musk's 'Extreme' Ownership to the Test", source: "Wired", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX IPO in Hours. Going to the Moon, $200+", source: "Next Big Future", time: "3h ago", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX's IPO: 'It shows us what we're missing in Europe'", source: "Sifted", time: "4h ago", impact: "high", unread: true },
+  { id: 4, type: "milestone", company: "Waymo", headline: "Waymo: Aim to Become &#8220;World's Most Trusted Driver&#8221; and &#8220;New Reference Model for Human Collision Avoida", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Why You Might Already Own SpaceX Shares, Siri's AI Makeover, and Knicks Owner's Surveillance Machine", source: "Wired", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "OpenAI", headline: "Meet the OpenAI Engineer Leading ChatGPT's Biggest Transformation Yet", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "SpaceX", headline: "SpaceX is Already an AI Leader &#8211; AI Cloud Revenue Leader in 2027", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX officially prices shares at $135 in the largest IPO ever", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX SPV investors won't know their true holdings until post-IPO lock-ups lift", source: "TechCrunch", time: "13h ago", impact: "high", unread: false },
+  { id: 10, type: "milestone", company: "Saronic", headline: "Saronic, Castelion to pair Marauder MUSV with Blackbeard hypersonic capability", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Waymo", headline: "Waymo launches $30/month 'Premier' membership with priority pickups and cashback", source: "Electrek", time: "15h ago", impact: "medium", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "Quantum Space's military SPAC is trying to catch SpaceX's IPO wave", source: "TechCrunch", time: "16h ago", impact: "high", unread: false },
+  { id: 13, type: "milestone", company: "Waymo", headline: "Waymo launches a loyalty program with 10% cash back and free cancellations", source: "TechCrunch", time: "17h ago", impact: "medium", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "What Must You Know Before the SpaceX IPO?", source: "Next Big Future", time: "17h ago", impact: "high", unread: false },
+  { id: 15, type: "funding", company: "Endurance Energy", headline: "Endurance Energy raises $54M to harness a massive untapped energy source", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
