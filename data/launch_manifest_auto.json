@@ -1,24 +1,6 @@
 [
   {
     "date": "2026-06-11",
-    "vehicle": "HASTE | Curveball",
-    "payload": "Curveball",
-    "pad": "Rocket Lab Launch Complex 2 (Launch Area 0 C), Wallops Flight Facility, Virginia, USA",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e6cefffc-19a6-4a4b-a7f0-ebe907d5a6aa/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-06-11",
-    "vehicle": "Long March 5 | TJSW-25",
-    "payload": "TJSW-25",
-    "pad": "101, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/2670e4f1-d58b-4787-9c3f-f9eb03349513/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-11",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-44",
     "payload": "Starlink Group 17-44",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -181,8 +163,8 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "Pegasus XL | Swift Rescue Mission",
-    "payload": "Swift Rescue Mission",
+    "vehicle": "Pegasus XL | Swift Boost Mission",
+    "payload": "Swift Boost Mission",
     "pad": "Kwajalein Atoll, Air launch to orbit",
     "provider": "Northrop Grumman Space Systems",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
@@ -447,6 +429,24 @@
     "pad": "101, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9d402fb6-9115-424d-b6f0-bd3b13ee310e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-09",
+    "vehicle": "Vega-C | Sentinel-3C & FLEX",
+    "payload": "Sentinel-3C & FLEX",
+    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
+    "provider": "Avio S.p.A",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-09",
+    "vehicle": "Soyuz 2.1b | Progress MS-35 (96P)",
+    "payload": "Progress MS-35 (96P)",
+    "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
+    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
   }
 ]

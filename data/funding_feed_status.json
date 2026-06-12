@@ -1,10 +1,10 @@
 {
   "script": "fetch_funding_rss.py",
-  "started_at": "2026-06-11T11:15:31.150776+00:00",
-  "finished_at": "2026-06-11T11:15:34.802136+00:00",
+  "started_at": "2026-06-12T10:55:11.137006+00:00",
+  "finished_at": "2026-06-12T10:55:15.256175+00:00",
   "companies_tracked": 695,
   "total_items_fetched": 148,
-  "total_deals_extracted": 0,
+  "total_deals_extracted": 1,
   "feeds": [
     {
       "source": "TechCrunch",

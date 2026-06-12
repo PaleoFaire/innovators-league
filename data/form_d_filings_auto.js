@@ -1,13 +1,47 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-06-11 11:33:14 UTC
-// Total: 1 filings across 1 companies
+// Last updated: 2026-06-12 11:22:58 UTC
+// Total: 6 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-06-11T11:33:14.706253+00:00",
+  "generated_at": "2026-06-12T11:22:58.143627+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 1,
+  "total_filings": 6,
   "filings": [
+    {
+      "company": "Peak Energy",
+      "issuer_name": "Peak Energy 38 a Series of Denver Ventures I LLC",
+      "form": "D",
+      "filed_date": "2026-06-11",
+      "cik": "2138716",
+      "accession": "0002138716-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002138716&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002138716-26-000001",
+      "offering_amount": "1916250",
+      "amount_sold": "1916250",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Union",
+      "issuer_name": "Union Peak Ventures I, L.P",
+      "form": "D",
+      "filed_date": "2026-06-11",
+      "cik": "2123865",
+      "accession": "0002123865-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002123865&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002123865-26-000001",
+      "offering_amount": "25000000",
+      "amount_sold": "0",
+      "amount_remaining": "25000000",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Swan",
       "issuer_name": "Swan Echo Investments, LLC",
@@ -22,6 +56,57 @@ const FORM_D_FILINGS = {
       "amount_remaining": "9900000",
       "securities_type": "Debt",
       "exemption": "04",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Mach Industries",
+      "issuer_name": "Mach Industries Series C May 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-06-09",
+      "cik": "2135914",
+      "accession": "0002135914-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002135914&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002135914-26-000001",
+      "offering_amount": "16635388",
+      "amount_sold": "16635388",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "CesiumAstro",
+      "issuer_name": "CesiumAstro Inc",
+      "form": "D",
+      "filed_date": "2026-06-09",
+      "cik": "1707363",
+      "accession": "0001707363-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707363&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001707363-26-000001",
+      "offering_amount": "270514997",
+      "amount_sold": "270514997",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Occam",
+      "issuer_name": "Occam Edge, Inc",
+      "form": "D",
+      "filed_date": "2026-06-08",
+      "cik": "2138986",
+      "accession": "0002138986-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002138986&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002138986-26-000001",
+      "offering_amount": "2000000",
+      "amount_sold": "65000",
+      "amount_remaining": "1935000",
+      "securities_type": "",
+      "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false
     }
