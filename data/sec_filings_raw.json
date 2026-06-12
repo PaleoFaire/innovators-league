@@ -810,24 +810,6 @@
     "isIPO": false
   },
   {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "8-K",
-    "date": "2026-02-23",
-    "description": "form8-k.htm",
-    "accessionNumber": "0001493152-26-007772",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "8-K",
-    "date": "2026-02-20",
-    "description": "form8-k.htm",
-    "accessionNumber": "0001493152-26-007626",
-    "isIPO": false
-  },
-  {
     "company": "Planet Labs",
     "ticker": "PL",
     "form": "8-K",
@@ -1194,15 +1176,6 @@
     "date": "2025-11-06",
     "description": "bksy-20250930.htm",
     "accessionNumber": "0001753539-25-000107",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "8-K",
-    "date": "2025-11-06",
-    "description": "bksy-20251106.htm",
-    "accessionNumber": "0001753539-25-000103",
     "isIPO": false
   },
   {
@@ -3918,6 +3891,15 @@
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "4",
+    "date": "2026-06-11",
+    "description": "xslF345X06/wk-form4_1781208871.xml",
+    "accessionNumber": "0001832808-26-000012",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
     "date": "2026-06-02",
     "description": "xslF345X06/wk-form4_1780432530.xml",
     "accessionNumber": "0001440624-26-000005",
@@ -4511,6 +4493,15 @@
   {
     "company": "IonQ",
     "ticker": "IONQ",
+    "form": "4",
+    "date": "2026-06-11",
+    "description": "xslF345X06/wk-form4_1781211044.xml",
+    "accessionNumber": "0001628280-26-042553",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "8-K",
     "date": "2026-06-04",
     "description": "bakkt-20260603.htm",
@@ -4722,6 +4713,15 @@
     "date": "2026-01-20",
     "description": "d51133d8k.htm",
     "accessionNumber": "0001193125-26-015873",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "8-K",
+    "date": "2026-06-11",
+    "description": "tm2617136d1_8k.htm",
+    "accessionNumber": "0001104659-26-072623",
     "isIPO": false
   },
   {
@@ -4965,24 +4965,6 @@
     "date": "2025-12-10",
     "description": "xslF345X05/form4.xml",
     "accessionNumber": "0001123292-25-000731",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2025-11-21",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-25-000667",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2025-11-21",
-    "description": "xslF345X05/form4.xml",
-    "accessionNumber": "0001123292-25-000666",
     "isIPO": false
   },
   {
@@ -5994,15 +5976,6 @@
     "isIPO": false
   },
   {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-09",
-    "description": "xslF345X05/form4-03102026_120314.xml",
-    "accessionNumber": "0002016416-26-000004",
-    "isIPO": false
-  },
-  {
     "company": "Joby Aviation",
     "ticker": "JOBY",
     "form": "4",
@@ -6495,15 +6468,6 @@
     "date": "2025-06-13",
     "description": "xslF345X05/form4-06132025_050604.xml",
     "accessionNumber": "0001415889-25-017230",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2025-06-13",
-    "description": "xslF345X05/form4-06132025_050601.xml",
-    "accessionNumber": "0001415889-25-017228",
     "isIPO": false
   },
   {
@@ -8732,6 +8696,33 @@
   {
     "company": "Astera Labs",
     "ticker": "ALAB",
+    "form": "4",
+    "date": "2026-06-11",
+    "description": "xslF345X06/wk-form4_1781224941.xml",
+    "accessionNumber": "0001628280-26-042627",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "4",
+    "date": "2026-06-11",
+    "description": "xslF345X06/wk-form4_1781224919.xml",
+    "accessionNumber": "0001628280-26-042626",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "4",
+    "date": "2026-06-11",
+    "description": "xslF345X06/wk-form4_1781224904.xml",
+    "accessionNumber": "0001628280-26-042625",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
     "form": "8-K",
     "date": "2026-06-09",
     "description": "tra-20260609.htm",
@@ -9060,33 +9051,6 @@
     "date": "2025-05-22",
     "description": "xslF345X05/wk-form4_1747947094.xml",
     "accessionNumber": "0001857853-25-000073",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "4",
-    "date": "2025-05-22",
-    "description": "xslF345X05/wk-form4_1747947065.xml",
-    "accessionNumber": "0001857853-25-000072",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "8-K",
-    "date": "2025-05-22",
-    "description": "tra-20250520.htm",
-    "accessionNumber": "0001857853-25-000066",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "8-K",
-    "date": "2025-05-19",
-    "description": "tra-20250515.htm",
-    "accessionNumber": "0001857853-25-000062",
     "isIPO": false
   },
   {

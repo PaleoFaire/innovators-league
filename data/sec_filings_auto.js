@@ -1,6 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-11 10:43:56 UTC
+// Last updated: 2026-06-12 10:20:25 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Upstart Holdings", form: "4", date: "2026-06-11", description: "xslF345X06/wk-form4_1781208871.xml", isIPO: false, ticker: "UPST" },
+  { company: "IonQ", form: "4", date: "2026-06-11", description: "xslF345X06/wk-form4_1781211044.xml", isIPO: false, ticker: "IONQ" },
+  { company: "Rigetti Computing", form: "8-K", date: "2026-06-11", description: "tm2617136d1_8k.htm", isIPO: false, ticker: "RGTI" },
+  { company: "Astera Labs", form: "4", date: "2026-06-11", description: "xslF345X06/wk-form4_1781224941.xml", isIPO: false, ticker: "ALAB" },
+  { company: "Astera Labs", form: "4", date: "2026-06-11", description: "xslF345X06/wk-form4_1781224919.xml", isIPO: false, ticker: "ALAB" },
+  { company: "Astera Labs", form: "4", date: "2026-06-11", description: "xslF345X06/wk-form4_1781224904.xml", isIPO: false, ticker: "ALAB" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-06-10", description: "spce-20260610.htm", isIPO: false, ticker: "SPCE" },
   { company: "Rigetti Computing", form: "4", date: "2026-06-10", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
   { company: "Rigetti Computing", form: "4", date: "2026-06-10", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-06-04", description: "xslF345X06/wk-form4_1780607095.xml", isIPO: false, ticker: "RXRX" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-06-04", description: "xslF345X06/wk-form4_1780607089.xml", isIPO: false, ticker: "RXRX" },
   { company: "Aurora Innovation", form: "4", date: "2026-06-04", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "AUR" },
-  { company: "Tempus AI", form: "8-K", date: "2026-06-04", description: "vnt-20260604.htm", isIPO: false, ticker: "TEM" },
-  { company: "Oklo", form: "4", date: "2026-06-03", description: "xslF345X06/wk-form4_1780518303.xml", isIPO: false, ticker: "OKLO" },
-  { company: "C3.ai", form: "4", date: "2026-06-03", description: "xslF345X06/wk-form4_1780522981.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "8-K", date: "2026-06-03", description: "ai-20260603.htm", isIPO: false, ticker: "AI" },
-  { company: "Rigetti Computing", form: "4", date: "2026-06-03", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "Palantir Technologies", form: "4", date: "2026-06-02", description: "xslF345X06/wk-form4_1780445944.xml", isIPO: false, ticker: "PLTR" },
 ];
