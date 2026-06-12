@@ -58950,23 +58950,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-12 16:25
+// Last updated: 2026-06-12 19:15
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Why SpaceX IPO could spark a '$200bn private markets boom'", source: "Sifted", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX, Anthropic, and OpenAI's hot IPO summer", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Elon Musk becomes the world's first trillionaire after SpaceX's historic IPO", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX opens at $150, an 11% pop for the most anticipated debut in history", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Neura Robotics", headline: "NEURA Robotics secures up to $1.4B, Bending Spoons files for US IPO, and UK PM unveils '400M chip plan", source: "Tech.eu", time: "1h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX IPO: Everything you need to know", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "SpaceX", headline: "SpaceX Launches Largest IPO Of All Time", source: "Crunchbase News", time: "3h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "You Probably Won't Get Rich Off the SpaceX IPO", source: "Wired", time: "6h ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Puts Elon Musk's 'Extreme' Ownership to the Test", source: "Wired", time: "7h ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX IPO in Hours. Going to the Moon, $200+", source: "Next Big Future", time: "11h ago", impact: "high", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX's IPO: 'It shows us what we're missing in Europe'", source: "Sifted", time: "11h ago", impact: "high", unread: false },
-  { id: 12, type: "milestone", company: "Waymo", headline: "Waymo: Aim to Become &#8220;World's Most Trusted Driver&#8221; and &#8220;New Reference Model for Human Collision Avoida", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "Why You Might Already Own SpaceX Shares, Siri's AI Makeover, and Knicks Owner's Surveillance Machine", source: "Wired", time: "16h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "OpenAI", headline: "Meet the OpenAI Engineer Leading ChatGPT's Biggest Transformation Yet", source: "Wired", time: "19h ago", impact: "low", unread: false },
-  { id: 15, type: "contract", company: "SpaceX", headline: "SpaceX is Already an AI Leader &#8211; AI Cloud Revenue Leader in 2027", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX IPO: Live updates on everything you need to know", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX shares soar 30% midday, vaulting it to top six most valuable U.S. companies", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Why SpaceX IPO could spark a '$200bn private markets boom'", source: "Sifted", time: "2h ago", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Robinhood sees 'record-breaking' traffic after SpaceX stock debuts", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX, Anthropic, and OpenAI's hot IPO summer", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Elon Musk becomes the world's first trillionaire after SpaceX's historic IPO", source: "TechCrunch", time: "3h ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "Neura Robotics", headline: "NEURA Robotics secures up to $1.4B, Bending Spoons files for US IPO, and UK PM unveils '400M chip plan", source: "Tech.eu", time: "4h ago", impact: "high", unread: false },
+  { id: 8, type: "funding", company: "SpaceX", headline: "SpaceX Shares Rocket Higher After Largest IPO Of All Time", source: "Crunchbase News", time: "6h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "You Probably Won't Get Rich Off the SpaceX IPO", source: "Wired", time: "9h ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Puts Elon Musk's 'Extreme' Ownership to the Test", source: "Wired", time: "10h ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX's IPO: 'It shows us what we're missing in Europe'", source: "Sifted", time: "14h ago", impact: "high", unread: false },
+  { id: 12, type: "milestone", company: "Waymo", headline: "Waymo: Aim to Become &#8220;World's Most Trusted Driver&#8221; and &#8220;New Reference Model for Human Collision Avoida", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "Why You Might Already Own SpaceX Shares, Siri's AI Makeover, and Knicks Owner's Surveillance Machine", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "OpenAI", headline: "Meet the OpenAI Engineer Leading ChatGPT's Biggest Transformation Yet", source: "Wired", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX officially prices shares at $135 in the largest IPO ever", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
