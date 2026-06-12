@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-11T23:45:33.211496+00:00",
-  "date": "2026-06-11",
-  "dateDisplay": "Thursday, June 11, 2026",
+  "generatedAt": "2026-06-12T04:55:15.549926+00:00",
+  "date": "2026-06-12",
+  "dateDisplay": "Friday, June 12, 2026",
   "sections": {
     "govActivity": [
       {
@@ -121,18 +121,18 @@
         "change": -1.78
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 605000.0,
-        "changePercent": -15.27,
-        "change": -109000.0
-      },
-      {
         "ticker": "SLDP",
         "company": "Solid Power",
         "price": 2.83,
         "changePercent": -14.76,
         "change": -0.49
+      },
+      {
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 20.63,
+        "changePercent": -14.61,
+        "change": -3.53
       }
     ],
     "regulatory": [
