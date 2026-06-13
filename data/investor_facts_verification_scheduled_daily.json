@@ -1,19 +1,23 @@
 {
-  "generatedAt": "2026-06-12T10:01:02+00:00",
+  "generatedAt": "2026-06-13T08:50:22+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 1,
+  "cohortSize": 2,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 1
+    "unverifiable": 2
   },
   "cleared": [],
   "changesProposed": [],
   "unverifiable": [
     {
       "name": "Engine Ventures",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Sequoia Capital",
       "reason": "Claude extraction failed"
     }
   ]

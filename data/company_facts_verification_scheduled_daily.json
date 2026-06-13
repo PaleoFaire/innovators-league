@@ -1,19 +1,23 @@
 {
-  "generatedAt": "2026-06-12T10:00:46+00:00",
+  "generatedAt": "2026-06-13T08:49:56+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 45,
+  "cohortSize": 36,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 45
+    "unverifiable": 36
   },
   "cleared": [],
   "changesProposed": [],
   "unverifiable": [
     {
-      "name": "AMP Robotics",
+      "name": "1X Technologies",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Agility Robotics",
       "reason": "Claude extraction failed"
     },
     {
@@ -21,15 +25,15 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "AnySignal",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Astera Labs",
+      "name": "Apptronik",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Asylon Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Axiom Space",
       "reason": "Claude extraction failed"
     },
     {
@@ -45,6 +49,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Cover",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Crusoe Energy",
       "reason": "Claude extraction failed"
     },
@@ -57,23 +65,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Endurance Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Fervo Energy",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Firehawk Aerospace",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "FleetZero",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Hadrian",
       "reason": "Claude extraction failed"
     },
     {
@@ -85,23 +81,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "ICEYE",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Isar Aerospace",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "K2 Space",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "LeoLabs",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Mach Industries",
       "reason": "Claude extraction failed"
     },
     {
@@ -117,7 +97,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Orbital Composites",
+      "name": "Palantir",
       "reason": "Claude extraction failed"
     },
     {
@@ -125,11 +105,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Pivotal",
+      "name": "Photonic Inc",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Reflex Aerospace",
+      "name": "Pivotal",
       "reason": "Claude extraction failed"
     },
     {
@@ -145,10 +125,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Solid Power",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "SpaceX",
       "reason": "Claude extraction failed"
     },
@@ -161,19 +137,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Starpath Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Tekever",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Together AI",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Ursa Major Technologies",
       "reason": "Claude extraction failed"
     },
     {
