@@ -1,5 +1,26 @@
 [
   {
+    "id": 182201,
+    "title": "Frozen Return Samples to Earth",
+    "description": "<p>FROSTE is focused on providing the Science community with mobile deep-cryogenic stowage of samples collected on the lunar or Martian surfaces and environmentally controlled accommodation back to Earth for scientific research. One of the Moon 2 Mars program objectives is to satisfy the Lunar/Planetary Science goals that address high-priority planetary science questions. These goals are best addressed by on-site human explorers on and around the Moon and Mars, facilitated by surface and orbitin",
+    "status": "Active",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2026",
+    "lastUpdated": "06/12/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Cryogenic Systems",
+    "partners": [
+      "Marshall Space Flight Center",
+      "Glenn Research Center",
+      "Goddard Institute of Space Studies",
+      "Johnson Space Center",
+      "Kennedy Space Center",
+      "The University of Tennessee-Knoxville",
+      "The University of Texas at El Paso"
+    ],
+    "website": ""
+  },
+  {
     "id": 184870,
     "title": "autoNGC CAPSTONE Flight Experiment Completion",
     "description": "<p>The NASA/GSFC-developed autonomy flight software, autoNGC (autonomous Navigation, Guidance and Control), is scheduled for flight testing on the Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment (CAPSTONE) extended mission during fiscal year 2026. The flight test will advance autoNGC to TRL 7 for autonomous onboard navigation and guidance capabilities in the cislunar environment, with particular emphasis on the lunar Gateway near-rectilinear halo orbit (NRH",
@@ -16,78 +37,20 @@
     "website": ""
   },
   {
-    "id": 146764,
-    "title": "S-Band Augmented Forward Service (AFS) Receiver for Lunar Navigation",
-    "description": "<p>Lunar users, whether on the surface or in orbit, need access to PNT services to determine their position, execute maneuvers and maintain accurate time to meet mission objectives. Space assets typically receive PNT services through point-to-point links with Earth ground stations or Relay satellites using ranging, Doppler tracking and messaging schemes. However, to enable users to receive GPS-like global PNT services independent of dedicated communications links, the Lunar Augmented Navigation ",
+    "id": 157688,
+    "title": "A real-time seismic detection technology for the Moon and beyond",
+    "description": "<p>The objective of this effort is to develop a real-time seismic detection technology using machine learning signal change detection for both lander-side decision-making for telemetry prioritization and rapid assessment of incoming streamed data on Earth. The technology (<strong>CORGI</strong>, short for <strong>CO</strong>ntinous <strong>R</strong>ealtime monitorin<strong>G</strong> <strong>I</strong>nfrastructure) will be modular, able to integrate diverse detection algorithms, instrument typ",
     "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Revolutionary PNT Technologies",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117116,
-    "title": "Towards Dynamic Configuration for a Cloud Evolution Targeting Radar System",
-    "description": "<p>We explore a novel scanning cloud radar concept for observing the evolution of low-level clouds and convective initiation in a targeted manner. Results from high resolution cloud model simulations will be used to perform a trade study to define measurement requirements and help inform design specifications of radar system with a metasurface antenna for electronic steerable beam scanning in two dimensions. A key goal of the study is to identify enabling technology to develop a new measurement ",
-    "status": "Completed",
-    "startDate": "Oct 2022",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 146791,
-    "title": "Investigation of Data Augmentation Techniques for Machine Learning Performance on Mass Spectrometry Data",
-    "description": "<p>Mass spectrometers are powerful instruments that aim to identify unknown compounds via their molecular weight, as well as perform quantitative analysis, and have been essential to space missions since the 1970s through today (<em>e.g.</em>, JUICE, Dragonfly, Europa Clipper). As identified in the Planetary Decadal Survey, missions targeting remote planetary bodies <strong>will face limited data rates and volumes</strong> and <strong>will require onboard science autonomy to optimize science ret",
-    "status": "Completed",
-    "startDate": "Oct 2023",
+    "startDate": "Oct 2024",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
     "technologyArea": "Software, Modeling, Simulation, and Information Processing",
     "partners": [
       "Goddard Space Flight Center",
-      "Tyto Athene, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 156901,
-    "title": "Volumetric 3D Mapping of Complex Dielectric Permittivity of Mars via Laboratory Multi-orientation Analysis of Mars Meteorites with Direct Implications for Future Mars Exploration, Part II",
-    "description": "<p>The goal of this effort is to develop and establish a new and unique, <em>non-destructive</em> methodology for the three-dimensional (3-D) characterization of the <strong>complex dielectric permittivity</strong> (CDP) of arbitrary shaped planetary rocks and Earth analog samples. Our work will set a path to produce the first world-class type facility for the 3-D \u201cmapping\u201d of the isotropic and anisotropic dielectric properties of a variety of rock and soil samples, relevant to Synthetic Apertur",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Other Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157718,
-    "title": "Bi-Directional High Altitude Aircraft Atmospheric Lidar Instrument Performance Improvement",
-    "description": "<p>Stratospheric aerosols can have large effects on both the radiative balance of the planet and atmospheric composition. In this region of the atmosphere, aerosols are predominantly sulfate, much of them volcanic in origin. Analogously, explosive pyrocumulonimbus (pyroCb) convection from extreme midlatitude and boreal forest fire events can directly inject aerosols into the stratosphere. After injection, volcanic and pyroCb aerosols can persist for many months in the stratosphere; however, the ",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
+      "California Institute of Technology",
+      "NVIDIA",
+      "University of Maryland-College Park"
     ],
     "website": ""
   },
@@ -117,6 +80,81 @@
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
     "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157638,
+    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
+    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117116,
+    "title": "Towards Dynamic Configuration for a Cloud Evolution Targeting Radar System",
+    "description": "<p>We explore a novel scanning cloud radar concept for observing the evolution of low-level clouds and convective initiation in a targeted manner. Results from high resolution cloud model simulations will be used to perform a trade study to define measurement requirements and help inform design specifications of radar system with a metasurface antenna for electronic steerable beam scanning in two dimensions. A key goal of the study is to identify enabling technology to develop a new measurement ",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 156901,
+    "title": "Volumetric 3D Mapping of Complex Dielectric Permittivity of Mars via Laboratory Multi-orientation Analysis of Mars Meteorites with Direct Implications for Future Mars Exploration, Part II",
+    "description": "<p>The goal of this effort is to develop and establish a new and unique, <em>non-destructive</em> methodology for the three-dimensional (3-D) characterization of the <strong>complex dielectric permittivity</strong> (CDP) of arbitrary shaped planetary rocks and Earth analog samples. Our work will set a path to produce the first world-class type facility for the 3-D \u201cmapping\u201d of the isotropic and anisotropic dielectric properties of a variety of rock and soil samples, relevant to Synthetic Apertur",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Other Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157704,
+    "title": "Implementing a hardware acceleration for the lunar gravity model",
+    "description": "<p>The objective of this IRAD is to develop, implement, test and verify the 150x150 lunar gravity model for orbit determination (OD) and prediction on the FPGA during the fiscal year 2025. The goal of this task is to meet the Lunar Reconnaissance Orbiter (LRO) requirements for OD and prediction accuracy, which are 500 meters total position root mean squared (RMS) and 18 meters radial RMS for definitive ephemeris accuracy and predicted orbit accuracy less than 800 meters root sum squared (RSS) ov",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Onboard Navigation Algorithms",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 146761,
+    "title": "LExSO Lidar Laser Development",
+    "description": "<p>We propose to demonstrate the new laser capabilities required for spectroscopic infrared reflectance measurement for high sensitivity mapping of water ice as well as for high-resolution topographic mapping.<br />  </p> ",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Air, Water, Microbial, and Acoustic Sensors",
     "partners": [
       "Goddard Space Flight Center"
     ],
@@ -153,63 +191,46 @@
     "website": ""
   },
   {
-    "id": 157638,
-    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
-    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
+    "id": 146764,
+    "title": "S-Band Augmented Forward Service (AFS) Receiver for Lunar Navigation",
+    "description": "<p>Lunar users, whether on the surface or in orbit, need access to PNT services to determine their position, execute maneuvers and maintain accurate time to meet mission objectives. Space assets typically receive PNT services through point-to-point links with Earth ground stations or Relay satellites using ranging, Doppler tracking and messaging schemes. However, to enable users to receive GPS-like global PNT services independent of dedicated communications links, the Lunar Augmented Navigation ",
     "status": "Completed",
-    "startDate": "May 2024",
+    "startDate": "Oct 2023",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
+    "technologyArea": "Revolutionary PNT Technologies",
     "partners": [
       "Goddard Space Flight Center"
     ],
     "website": ""
   },
   {
-    "id": 157688,
-    "title": "A real-time seismic detection technology for the Moon and beyond",
-    "description": "<p>The objective of this effort is to develop a real-time seismic detection technology using machine learning signal change detection for both lander-side decision-making for telemetry prioritization and rapid assessment of incoming streamed data on Earth. The technology (<strong>CORGI</strong>, short for <strong>CO</strong>ntinous <strong>R</strong>ealtime monitorin<strong>G</strong> <strong>I</strong>nfrastructure) will be modular, able to integrate diverse detection algorithms, instrument typ",
+    "id": 146791,
+    "title": "Investigation of Data Augmentation Techniques for Machine Learning Performance on Mass Spectrometry Data",
+    "description": "<p>Mass spectrometers are powerful instruments that aim to identify unknown compounds via their molecular weight, as well as perform quantitative analysis, and have been essential to space missions since the 1970s through today (<em>e.g.</em>, JUICE, Dragonfly, Europa Clipper). As identified in the Planetary Decadal Survey, missions targeting remote planetary bodies <strong>will face limited data rates and volumes</strong> and <strong>will require onboard science autonomy to optimize science ret",
     "status": "Completed",
-    "startDate": "Oct 2024",
+    "startDate": "Oct 2023",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
     "technologyArea": "Software, Modeling, Simulation, and Information Processing",
     "partners": [
       "Goddard Space Flight Center",
-      "California Institute of Technology",
-      "NVIDIA",
-      "University of Maryland-College Park"
+      "Tyto Athene, LLC"
     ],
     "website": ""
   },
   {
-    "id": 146761,
-    "title": "LExSO Lidar Laser Development",
-    "description": "<p>We propose to demonstrate the new laser capabilities required for spectroscopic infrared reflectance measurement for high sensitivity mapping of water ice as well as for high-resolution topographic mapping.<br />  </p> ",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Air, Water, Microbial, and Acoustic Sensors",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157704,
-    "title": "Implementing a hardware acceleration for the lunar gravity model",
-    "description": "<p>The objective of this IRAD is to develop, implement, test and verify the 150x150 lunar gravity model for orbit determination (OD) and prediction on the FPGA during the fiscal year 2025. The goal of this task is to meet the Lunar Reconnaissance Orbiter (LRO) requirements for OD and prediction accuracy, which are 500 meters total position root mean squared (RMS) and 18 meters radial RMS for definitive ephemeris accuracy and predicted orbit accuracy less than 800 meters root sum squared (RSS) ov",
+    "id": 157718,
+    "title": "Bi-Directional High Altitude Aircraft Atmospheric Lidar Instrument Performance Improvement",
+    "description": "<p>Stratospheric aerosols can have large effects on both the radiative balance of the planet and atmospheric composition. In this region of the atmosphere, aerosols are predominantly sulfate, much of them volcanic in origin. Analogously, explosive pyrocumulonimbus (pyroCb) convection from extreme midlatitude and boreal forest fire events can directly inject aerosols into the stratosphere. After injection, volcanic and pyroCb aerosols can persist for many months in the stratosphere; however, the ",
     "status": "Completed",
     "startDate": "Oct 2024",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Onboard Navigation Algorithms",
+    "technologyArea": "Sensors and Instruments",
     "partners": [
       "Goddard Space Flight Center"
     ],
@@ -307,37 +328,6 @@
     "website": ""
   },
   {
-    "id": 183925,
-    "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
-    "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Above-Surface Mobility",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183952,
-    "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
-    "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/28/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Robot Navigation and Path Planning",
-    "partners": [
-      "Ames Research Center",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
     "id": 183956,
     "title": "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles",
     "description": "Capability Need/Knowledge Gap: ESDMD, SMD, and STMD have all highly ranked the gap in high progress rate autonomous surface mobility. Systems must travel at unprecedented speeds using new sensing and computing, requiring more capable algorithms.   Objectives: Train faster and more capable onboard localization algorithms to learn models for combining camera images and lidar scans leveraging recent advances in model-based learning from terrestrial robotics",
@@ -347,6 +337,21 @@
     "lastUpdated": "05/28/26",
     "center": "Ames Research Center",
     "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183925,
+    "title": "High Lift (High Solidity) Rotor Blades for Mars Helicopters",
+    "description": "Capability Need/Knowledge Gap:   To enable Mars helicopters that can carry more science payload, rotors that have higher blade area (high solidity) are necessary. There is little research for Earth-based helicopters with high solidity.        Objectives:  (1) Develop design guidelines and rotor designs for high solidity rotors for Mars helicopters,  (2) Show and publish high solidity blade impact on heli performance and exploration capabilities",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Above-Surface Mobility",
     "partners": [
       "Ames Research Center"
     ],
@@ -382,6 +387,22 @@
       "Ames Research Center",
       "Glenn Research Center",
       "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183952,
+    "title": "CoOptiSense \u2013 Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation",
+    "description": "Capability Need/Knowledge Gap:  (1) Next-gen rover missions will utilize both cameras & LIDAR to navigate, but traditional sensor fusion approaches collect too much 3D data for real-time processing.  (2) Active cooperation between camera & LIDAR can generate optimized 3D maps, with dense useful data in crucial areas and less wasted measurement overall.        Objectives: Demonstrate cooperative camera-LIDAR fusion for navigation: using complementary sensors to collect 3D data where its needed mo",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "05/28/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robot Navigation and Path Planning",
+    "partners": [
+      "Ames Research Center",
+      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
@@ -1293,27 +1314,6 @@
     "partners": [
       "Langley Research Center",
       "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 116287,
-    "title": "Tethered Power Systems for Lunar Mobility and Power Transmission",
-    "description": "<div style=\"font-family:'segoe ui';font-size:11pt\"><p style=\"margin:0\">\u200bThe\u00a0Tethered Power Systems for Lunar Mobility and Power Transmission (TYMPO) Project\u00a0will develop a novel tether-based power transmission system\u00a0to provide power over several meters to several kilometers to serve remote loads. The designed end-to-end tether power system will efficiently (> 90 %) deliver power (100 W \u2013 10 kW) and communications across long (< 10 km) tethers to enable high-power transmission capabilities for f",
-    "status": "Active",
-    "startDate": "Mar 2021",
-    "endDate": "Sep 2026",
-    "lastUpdated": "05/20/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Distribution and Transmission",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "Apogee Semiconductor, Inc.",
-      "Glenair",
-      "Linden Photonics",
-      "TE Connectivity",
-      "University of California-Berkeley",
-      "ZIN Technologies Inc."
     ],
     "website": ""
   }

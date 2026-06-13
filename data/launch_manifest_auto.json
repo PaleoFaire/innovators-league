@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-06-11",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-44",
-    "payload": "Starlink Group 17-44",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/c7b7e18f-1b42-467e-a8ed-181fb58080e8/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-12",
-    "vehicle": "H3-30 | H3-30 Test Flight",
-    "payload": "H3-30 Test Flight",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e1a3b702-464f-435d-8c1f-ade9be196b77/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-06-12",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-54",
     "payload": "Starlink Group 10-54",
@@ -315,6 +297,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-07-03",
+    "vehicle": "Atlas V 551 | Amazon Leo (LA-08)",
+    "payload": "Amazon Leo (LA-08)",
+    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9eb09815-c237-4fdd-9057-5b161131240c/?format=json",
+    "trackedCompany": "ULA"
+  },
+  {
     "date": "2026-07-14",
     "vehicle": "Soyuz 2.1a | Soyuz MS-29",
     "payload": "Soyuz MS-29",
@@ -331,15 +322,6 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/599ba2df-7483-4b2f-a083-2b5ddc06e069/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "Atlas V 551 | Amazon Leo (LA-08)",
-    "payload": "Amazon Leo (LA-08)",
-    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9eb09815-c237-4fdd-9057-5b161131240c/?format=json",
-    "trackedCompany": "ULA"
   },
   {
     "date": "2026-07-31",
@@ -448,5 +430,23 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | Crew-13",
+    "payload": "Crew-13",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
+    "payload": "O3b mPower 11-13",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]

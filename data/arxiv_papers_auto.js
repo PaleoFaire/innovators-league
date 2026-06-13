@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-06-12 10:55:42 UTC
+// Last updated: 2026-06-13 09:48:47 UTC
 const ARXIV_PAPERS = [
   { id: "2606.13677v1", title: "Mana: Dexterous Manipulation of Articulated Tools", category: "Artificial Intelligence", published: "2026-06-11", sectors: "robotics", authors: "Zhao-Heng Yin, Guanya Shi, Pieter Abbeel et al." },
   { id: "2606.13670v1", title: "Automated reproducibility assessments in the social and behavioral sciences using large language mod", category: "Artificial Intelligence", published: "2026-06-11", sectors: "ai", authors: "Tobias Holtdirk, Pietro Marcolongo, Anna Steinberg Schulten et al." },
