@@ -1,74 +1,50 @@
 {
-  "generatedAt": "2026-06-13T08:29:52+00:00",
+  "generatedAt": "2026-06-13T11:23:21+00:00",
   "matrix": {
-    "defense-munitions-energetics": {
+    "nuclear-microreactor": {
       "2026-Q2": {
         "deals": 1,
-        "totalSold": 16635388,
+        "totalSold": null,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
-            "name": "Mach Industries",
-            "amount": 16635388,
-            "date": "2026-06-09",
+            "name": "Aalo Atomics",
+            "amount": 0,
+            "date": "2026-06-12",
             "source": "formd",
-            "investors": []
+            "investors": [
+              "Valor Equity Partners",
+              "Fine Structure Ventures",
+              "Hitachi Ventures",
+              "NRG Energy",
+              "Vamos Ventures",
+              "Tishman Speyer",
+              "Kindred Ventures",
+              "50Y",
+              "Harpoon Ventures",
+              "Crescent Enterprises",
+              "Crosscut Ventures",
+              "Alumni Ventures",
+              "MCJ Collective",
+              "Gaingels",
+              "Nucleation Capital"
+            ]
           }
         ],
-        "investors": []
+        "investors": [
+          "Harpoon Ventures",
+          "Valor Equity Partners"
+        ]
       },
-      "2025-Q1": {
+      "2025-Q2": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
         "companies": [
           {
-            "name": "Allen Control Systems",
+            "name": "Radiant",
             "amount": null,
-            "date": "2025-03",
-            "source": "recentEvent",
-            "investors": [
-              "Craft Ventures",
-              "Inspired Capital",
-              "Rally Ventures",
-              "State of Wisconsin Investment Board"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "brain-computer-interface": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 65000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Occam",
-            "amount": 65000,
-            "date": "2026-06-08",
-            "source": "formd",
-            "investors": [
-              "Julian Capital",
-              "Ada Ventures",
-              "HOF Capital",
-              "Reinforced Ventures",
-              "Rolling Fun"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Neuralink",
-            "amount": null,
-            "date": "2026-03",
+            "date": "2025-06",
             "source": "recentEvent",
             "investors": []
           }
@@ -241,18 +217,23 @@
         ]
       }
     },
-    "nuclear-microreactor": {
-      "2025-Q2": {
+    "defense-munitions-energetics": {
+      "2025-Q1": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
         "companies": [
           {
-            "name": "Radiant",
+            "name": "Allen Control Systems",
             "amount": null,
-            "date": "2025-06",
+            "date": "2025-03",
             "source": "recentEvent",
-            "investors": []
+            "investors": [
+              "Craft Ventures",
+              "Inspired Capital",
+              "Rally Ventures",
+              "State of Wisconsin Investment Board"
+            ]
           }
         ],
         "investors": []
@@ -565,6 +546,23 @@
             "name": "Neura Robotics",
             "amount": null,
             "date": "2026-06",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "brain-computer-interface": {
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Neuralink",
+            "amount": null,
+            "date": "2026-03",
             "source": "recentEvent",
             "investors": []
           }
@@ -1098,6 +1096,48 @@
     }
   },
   "vcAttribution": {
+    "Valor Equity Partners": {
+      "2026-Q2": [
+        {
+          "company": "Aalo Atomics",
+          "cluster": "nuclear-microreactor",
+          "date": "2026-06-12",
+          "source": "formd"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Harpoon Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Aalo Atomics",
+          "cluster": "nuclear-microreactor",
+          "date": "2026-06-12",
+          "source": "formd"
+        }
+      ]
+    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1202,32 +1242,6 @@
           "company": "Physical Intelligence",
           "cluster": "ai-robotics-embodied",
           "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Valor Equity Partners": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "date": "2026-02",
           "source": "recentEvent"
         }
       ]
@@ -1440,11 +1454,11 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 52,
-    "totalUSDSold": 16700388,
+    "totalDealsTracked": 51,
+    "totalUSDSold": 0,
     "uniqueClusters": 33,
     "uniqueQuarters": 8,
-    "uniqueVCs": 18,
+    "uniqueVCs": 19,
     "quarterRange": [
       "2024-Q1",
       "2026-Q2"
