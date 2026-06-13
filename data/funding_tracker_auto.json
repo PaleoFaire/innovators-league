@@ -41,6 +41,20 @@
     "roundCount": 1
   },
   {
+    "company": "SpaceX",
+    "totalRaised": "$14.0B+",
+    "totalRaisedRaw": 14000.0,
+    "lastRound": "IPO",
+    "lastRoundAmount": "$75B",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "NEA"
+    ],
+    "roundCount": 3
+  },
+  {
     "company": "Shield AI",
     "totalRaised": "$13.2B+",
     "totalRaisedRaw": 13240.0,
@@ -277,19 +291,6 @@
     "lastRound": "SPAC",
     "lastRoundAmount": "$90M",
     "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "SpaceX",
-    "totalRaised": "$2.0B+",
-    "totalRaisedRaw": 2000.0,
-    "lastRound": "IPO",
-    "lastRoundAmount": "$75B",
-    "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
@@ -715,6 +716,19 @@
     "valuation": "$5.4B",
     "leadInvestors": [
       "Sam Altman"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Modal",
+    "totalRaised": "$400M+",
+    "totalRaisedRaw": 400.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$400M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

@@ -1,57 +1,57 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 61,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Waymo: Aim to Become &#8220;World\u2019s Most Trusted Driver&#822",
-      "Waymo launches $30/month &#8216;Premier&#8217; membership wi",
-      "Waymo launches a loyalty program with 10% cash back and free"
+      "Robotics Summit panel explores the state of humanoid robot d",
+      "NEURA Robotics secures up to $1.4B, Bending Spoons files for",
+      "Waymo: Aim to Become &#8220;World\u2019s Most Trusted Driver&#822"
     ],
     "fundingQ": "$8.2B",
     "components": {
       "funding": 100,
-      "news": 65,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "You Probably Won\u2019t Get Rich Off the SpaceX IPO",
-      "SpaceX IPO Puts Elon Musk\u2019s \u2018Extreme\u2019 Ownership to the Test",
-      "SpaceX IPO in Hours. Going to the Moon, $200+"
+      "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and B",
+      "SpaceX IPO: Live updates on everything you need to know",
+      "SpaceX shares rise nearly 20% in historic IPO"
     ],
-    "fundingQ": "$77.7B",
+    "fundingQ": "$89.7B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "AI & Software",
-    "momentum": 50,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "Meet the OpenAI Engineer Leading ChatGPT\u2019s Biggest Transform",
-      "Anthropic taps TCS to scale its enterprise AI deployments",
-      "Anthropic Walks Back Policy That Could Have \u2018Sabotaged\u2019 AI R"
+      "Anthropic&#8217;s safety warnings may have just backfired \u2014",
+      "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and B",
+      "SpaceX, Anthropic, and OpenAI\u2019s hot IPO summer"
     ],
     "fundingQ": "$170.8B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Drones & Autonomous",
@@ -68,7 +68,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -85,46 +85,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 48,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Saronic, Castelion to pair Marauder MUSV with Blackbeard hyp",
-      "Endurance Energy raises $54M to harness a massive untapped e"
+      "Saronic, Castelion to pair Marauder MUSV with Blackbeard hyp"
     ],
     "fundingQ": "$10.8B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-12"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 42,
-    "trend": "steady",
-    "catalysts": [
-      "Saronic, Castelion to pair Marauder MUSV with Blackbeard hyp",
-      "Quantum Space&#8217;s military SPAC is trying to catch Space",
-      "K2 Space, Rocket Lab win key supplier roles in Space Force s"
-    ],
-    "fundingQ": "$32.8B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 39,
+    "momentum": 42,
     "trend": "steady",
     "catalysts": [
       "Contriving Imaginary Gaps in Nuclear Deterrence",
@@ -136,35 +117,70 @@
       "funding": 100,
       "news": 15,
       "hiring": 0,
+      "market": 16
+    },
+    "lastUpdated": "2026-06-13"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 41,
+    "trend": "steady",
+    "catalysts": [
+      "Saronic, Castelion to pair Marauder MUSV with Blackbeard hyp",
+      "K2 Space, Rocket Lab win key supplier roles in Space Force s",
+      "Harbinger gears up for war with autonomous military truck pr"
+    ],
+    "fundingQ": "$32.8B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 32,
-    "trend": "steady",
+    "momentum": 31,
+    "trend": "rising",
     "catalysts": [
-      "Endurance Energy raises $54M to harness a massive untapped e",
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 25,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX, Anthropic, and OpenAI\u2019s hot IPO summer",
+      "NEURA Robotics secures up to $1.4B, Bending Spoons files for",
+      "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qu"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "SpaceX IPO in Hours. Going to the Moon, $200+",
-      "Endurance Energy raises $54M to harness a massive untapped e",
-      "K2 Space, Rocket Lab win key supplier roles in Space Force s"
+      "SpaceX IPO: Live updates on everything you need to know",
+      "SpaceX shares rise nearly 20% in historic IPO",
+      "Robotics Summit panel explores the state of humanoid robot d"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -173,81 +189,79 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-12"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX is Already an AI Leader &#8211; AI Cloud Revenue Lead",
-      "Anthropic Walks Back Policy That Could Have \u2018Sabotaged\u2019 AI R"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-12"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Used Waymo robotaxi batteries become backup storage for powe",
-      "Waymo\u2019s retired robotaxi batteries are heading back to work"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 9,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
       "K2 Space, Rocket Lab win key supplier roles in Space Force s",
-      "Elon Details SpaceX AI Data Center in Space Details and Road",
-      "Tesla pushes Roadster demo to August as SpaceX thruster work"
+      "Tesla pushes Roadster demo to August as SpaceX thruster work",
+      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 40
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 7,
+    "sector": "Housing & Construction",
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qu",
-      "NEURA Robotics secures up to $1.4B Series C to scale physica",
-      "What are you Missing about SpaceX and the IPO? Winning Befor"
+      "SpaceX IPO: Live updates on everything you need to know",
+      "NASA to Cover 34th SpaceX Resupply Mission Space Station Dep",
+      "SpaceX is Already an AI Leader &#8211; AI Cloud Revenue Lead"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 16
+      "market": 50
     },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 54
+    },
+    "lastUpdated": "2026-06-13"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-13"
   },
   {
     "sector": "Transportation",
-    "momentum": 2,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -257,24 +271,8 @@
       "funding": 7,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 17
     },
-    "lastUpdated": "2026-06-12"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Quantum Space&#8217;s military SPAC is trying to catch Space"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   }
 ]

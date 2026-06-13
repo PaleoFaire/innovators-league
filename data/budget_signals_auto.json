@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 4,
+    "activityIndex": 2,
     "billsTracked": 2,
-    "rulesTracked": 2,
-    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
+    "rulesTracked": 0,
+    "description": "2 bill(s) + 0 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -23,22 +23,10 @@
         "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
         "number": "S2226",
         "status": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Holtec Decommissioning International, LLC; Oyster Creek Nuclear Generating Stati",
-        "agency": "",
-        "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Nebraska Public Power District; Cooper Nuclear Station; Subsequent License Renew",
-        "agency": "",
-        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "category": "Space & Aerospace",
@@ -61,13 +49,13 @@
       },
       {
         "type": "federal_register",
-        "title": "Name of Information Collection: NASA To Research, Evaluate, Assess, and Treat (T",
+        "title": "Name of Information Collection: NASA International Space Apps Challenge Applicat",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "category": "Quantum Computing",
@@ -90,7 +78,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -113,6 +101,29 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-12"
+    "lastUpdated": "2026-06-13"
+  },
+  {
+    "category": "Biotech & Health",
+    "icon": "\ud83e\uddec",
+    "budgetLineItem": "Biotech & Health \u2014 federal activity index",
+    "change": "flat",
+    "changeNum": 0,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 1,
+    "billsTracked": 0,
+    "rulesTracked": 1,
+    "description": "0 bill(s) + 1 federal-register action(s) touching Biotech & Health in the last 90 days. Activity index 1 \u2014 flat relative trend.",
+    "examples": [
+      {
+        "type": "federal_register",
+        "title": "National Institute of Biomedical Imaging and Bioengineering; Notice of Meeting",
+        "agency": "",
+        "date": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-06-13"
   }
 ]
