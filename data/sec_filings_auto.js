@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-13 09:22:35 UTC
+// Last updated: 2026-06-14 09:41:47 UTC
 const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-06-12", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781294677.xml", isIPO: false, ticker: "BKSY" },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T09:23:25.921326Z",
+  "generated_at": "2026-06-14T09:42:46.491504Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -50,26 +50,6 @@
       "source": "news",
       "source_url": "https://www.therobotreport.com/standard-bots-raises-200m-expand-u-s-manufacturing-footprint/",
       "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX officially prices shares at $135 in the largest IPO ever",
-      "date": "Thu, 11 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX SPV investors won&#8217;t know their true holdings until post-IPO lock-ups lift",
-      "date": "Thu, 11 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/06/11/spacex-spv-investors-wont-know-their-true-holdings-until-post-ipo-lock-ups-lift/",
-      "signal_type": "ipo"
     },
     {
       "author": "Next Big Future",
@@ -199,6 +179,26 @@
       "date": "Fri, 12 Ju",
       "source": "news",
       "source_url": "https://www.wired.com/story/you-probably-wont-get-rich-off-the-spacex-ipo/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Wired",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX IPO Puts Elon Musk\u2019s \u2018Extreme\u2019 Ownership to the Test",
+      "date": "Fri, 12 Ju",
+      "source": "news",
+      "source_url": "https://www.wired.com/story/spacex-is-now-a-public-company/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX IPO in Hours. Going to the Moon, $200+",
+      "date": "Fri, 12 Ju",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/06/spacex-ipo-in-hours-going-to-the-moon-200.html",
       "signal_type": "ipo"
     }
   ],
