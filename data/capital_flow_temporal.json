@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T09:51:24+00:00",
+  "generatedAt": "2026-06-14T12:06:45+00:00",
   "matrix": {
     "nuclear-microreactor": {
       "2026-Q2": {
@@ -46,6 +46,115 @@
             "amount": null,
             "date": "2025-06",
             "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "defense-munitions-energetics": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 16635388,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Mach Industries",
+            "amount": 16635388,
+            "date": "2026-06-09",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Allen Control Systems",
+            "amount": null,
+            "date": "2025-03",
+            "source": "recentEvent",
+            "investors": [
+              "Craft Ventures",
+              "Inspired Capital",
+              "Rally Ventures",
+              "State of Wisconsin Investment Board"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "brain-computer-interface": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 65000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Occam",
+            "amount": 65000,
+            "date": "2026-06-08",
+            "source": "formd",
+            "investors": [
+              "Julian Capital",
+              "Ada Ventures",
+              "HOF Capital",
+              "Reinforced Ventures",
+              "Rolling Fun"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Neuralink",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "logistics-supply-chain": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 4999995,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Dexterity",
+            "amount": 4999995,
+            "date": "2026-06-03",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "green-manufacturing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 1647200,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Helios",
+            "amount": 1647200,
+            "date": "2026-06-03",
+            "source": "formd",
             "investors": []
           }
         ],
@@ -215,28 +324,6 @@
           "8VC",
           "Caffeinated Capital"
         ]
-      }
-    },
-    "defense-munitions-energetics": {
-      "2025-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Allen Control Systems",
-            "amount": null,
-            "date": "2025-03",
-            "source": "recentEvent",
-            "investors": [
-              "Craft Ventures",
-              "Inspired Capital",
-              "Rally Ventures",
-              "State of Wisconsin Investment Board"
-            ]
-          }
-        ],
-        "investors": []
       }
     },
     "nuclear-services-fuel": {
@@ -546,23 +633,6 @@
             "name": "Neura Robotics",
             "amount": null,
             "date": "2026-06",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "brain-computer-interface": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Neuralink",
-            "amount": null,
-            "date": "2026-03",
             "source": "recentEvent",
             "investors": []
           }
@@ -1454,9 +1524,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 51,
-    "totalUSDSold": 0,
-    "uniqueClusters": 33,
+    "totalDealsTracked": 55,
+    "totalUSDSold": 23347583,
+    "uniqueClusters": 35,
     "uniqueQuarters": 8,
     "uniqueVCs": 19,
     "quarterRange": [
