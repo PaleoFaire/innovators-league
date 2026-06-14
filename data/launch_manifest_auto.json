@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-06-12",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-54",
-    "payload": "Starlink Group 10-54",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/229267d8-74ca-4d0b-8711-b2efe621fc6b/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-06-15",
     "vehicle": "Kinetica 1 | Unknown Payload",
     "payload": "Unknown Payload",
@@ -42,6 +33,24 @@
     "pad": "Launch Complex 2 (LC-2), Xichang Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/0ff43072-5407-425b-8c8d-6bca068143b9/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-06-17",
+    "vehicle": "Long March 12 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/756a042f-3da8-4a21-bb42-5996fc148050/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-06-17",
+    "vehicle": "Kuaizhou 11 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Area 95A, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "ExPace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/cf655887-1cc5-4ef5-b8be-2821d5af17c9/?format=json",
     "trackedCompany": null
   },
   {
@@ -124,24 +133,6 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
-    "payload": "GISAT-1A (EOS-05)",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Long March 12 | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/756a042f-3da8-4a21-bb42-5996fc148050/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-06-30",
@@ -253,15 +244,6 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "RFA One | Maiden Flight",
-    "payload": "Maiden Flight",
-    "pad": "Launch Pad Fredo, SaxaVord Spaceport",
-    "provider": "Rocket Factory Augsburg",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/91b13c6c-4525-496d-997b-3521bb6a4cd8/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
     "vehicle": "Long March 10B | Demo Flight",
     "payload": "Demo Flight",
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
@@ -277,24 +259,6 @@
     "provider": "Deep Blue Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a8d8d683-3ab0-40ab-beb0-e66bb55afd91/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Soyuz 2.1b | 16 x Rassvet-3",
-    "payload": "16 x Rassvet-3",
-    "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/aafe107e-46d8-420c-bcb9-192069d80893/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Starship | Flight 13",
-    "payload": "Flight 13",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-07-03",
@@ -343,12 +307,30 @@
   },
   {
     "date": "2026-07-31",
+    "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
+    "payload": "GISAT-1A (EOS-05)",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-31",
     "vehicle": "H3-24 | HTV-X2",
     "payload": "HTV-X2",
     "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
     "provider": "Mitsubishi Heavy Industries",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a2234679-5efe-4a00-9aff-cf82dbac22b0/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-07-31",
+    "vehicle": "Starship | Flight 13",
+    "payload": "Flight 13",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-08-15",
@@ -447,6 +429,24 @@
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
+    "payload": "5x Astranis MicroGEO",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d373ca659/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | MRV-1",
+    "payload": "MRV-1",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0f6780cf-edae-4d7c-99d6-ce7de784d140/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]
