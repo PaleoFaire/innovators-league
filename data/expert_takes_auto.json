@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T09:42:46.491504Z",
+  "generated_at": "2026-06-14T10:46:35.474912Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -52,36 +52,6 @@
       "signal_type": "funding"
     },
     {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "What Must You Know Before the SpaceX IPO?",
-      "date": "Thu, 11 Ju",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/06/what-must-you-know-before-the-spacex-ipo.html",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Why SpaceX Needed $75 Billion from the IPO and Changed Strategy for AI in 2027 and Beyond",
-      "date": "Thu, 11 Ju",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/06/why-spacex-needed-75-billion-from-the-ipo-and-changed-strategy-for-ai-in-2027-and-beyond.html",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and Big Venture Capitalists",
-      "date": "Sat, 13 Ju",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/06/spacex-ipo-up-20-and-brian-wang-analysis-ahead-of-bg2-and-big-venture-capitalists.html",
-      "signal_type": "ipo"
-    },
-    {
       "author": "TechCrunch",
       "role": "Industry signal",
       "company": "SpaceX",
@@ -120,16 +90,6 @@
       "source": "news",
       "source_url": "https://sifted.eu/articles/spacex-secondaries-ipo/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX IPO Day Started at $150 and is Now $175",
-      "date": "Fri, 12 Ju",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/06/spacex-ipo-day-started-at-150-and-is-now-174.html",
-      "signal_type": "funding"
     },
     {
       "author": "TechCrunch",
@@ -192,20 +152,20 @@
       "signal_type": "ipo"
     },
     {
-      "author": "Next Big Future",
+      "author": "Sifted",
       "role": "Industry signal",
       "company": "SpaceX",
-      "text": "SpaceX IPO in Hours. Going to the Moon, $200+",
+      "text": "SpaceX\u2019s IPO: \u2018It shows us what we\u2019re missing in Europe\u2019",
       "date": "Fri, 12 Ju",
       "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/06/spacex-ipo-in-hours-going-to-the-moon-200.html",
+      "source_url": "https://sifted.eu/articles/spacex-ipo-spacetech-europe/",
       "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 20,
+    "from_news": 16,
     "from_press": 0
   }
 }

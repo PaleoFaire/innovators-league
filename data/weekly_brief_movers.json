@@ -1,27 +1,26 @@
 {
-  "week_ending": "2026-06-07",
-  "generated_at": "2026-06-07T10:25:25.709355+00:00",
+  "week_ending": "2026-06-14",
+  "generated_at": "2026-06-14T10:46:33.616110+00:00",
   "lede": "3 companies moved up, 1 reached elite tier, 0 major contract wins",
   "top_3_up": [
-    "IonQ: 89.0 \u2192 93.0 (+4.0) \u2014 [exec_hire_star] ",
-    "NuScale Power: 73.0 \u2192 74.5 (+1.5) \u2014 [exec_hire_star] ",
-    "Intuitive Machines: 60.0 \u2192 61.5 (+1.5) \u2014 [exec_hire_star] "
+    "Rigetti Computing: 89.0 \u2192 93.0 (+4.0) \u2014 [exec_hire_star] ",
+    "Astera Labs: 75.5 \u2192 79.5 (+4.0) \u2014 [exec_hire_star] ",
+    "Oklo: 90.0 \u2192 91.5 (+1.5) \u2014 [exec_hire_star] "
   ],
   "first_time_elite": [
-    "IonQ"
+    "Rigetti Computing"
   ],
   "tier_upgrades": [
-    "IonQ: exceptional \u2192 elite"
+    "Rigetti Computing: exceptional \u2192 elite"
   ],
   "notable_headlines": [
-    "[exec_hire_star] Rocket Lab: ",
-    "[exec_hire_star] Satellogic: ",
-    "[exec_hire_star] IonQ: ",
-    "[exec_hire_star] Tempus AI: ",
-    "[exec_hire_star] C3.ai: ",
+    "[ipo] SpaceX: IPO $75B",
+    "[exec_hire_star] Ginkgo Bioworks: ",
+    "[exec_hire_star] Rigetti Computing: ",
     "[exec_hire_star] Virgin Galactic: ",
-    "[exec_hire_star] NuScale Power: ",
-    "[exec_hire_star] Intuitive Machines: ",
+    "[exec_hire_star] Palantir Technologies: ",
+    "[exec_hire_star] Astera Labs: ",
+    "[exec_hire_star] Oklo: ",
     "[exec_hire_star] D-Wave Quantum: "
   ]
 }

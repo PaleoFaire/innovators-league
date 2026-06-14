@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-06-07T10:25:27Z",
-  "company_count": 934,
+  "generated_at": "2026-06-14T10:46:35Z",
+  "company_count": 941,
   "checks": {
-    "acquisition_language": [
-      {
-        "name": "Rebellions",
-        "current_stage": "pre-ipo",
-        "pattern_hit": "\\bmerged with\\b",
-        "excerpt": "…r inference workloads. south korea's first ai chip unicorn. merged with sk telecom's sapeon korea (december 2024); raised $400m pre…",
-        "action": "Change fundingStage to \"Acquired\" and add acquiredBy field"
-      },
-      {
-        "name": "Rain AI",
-        "current_stage": "series a",
-        "pattern_hit": "\\bacquisition by\\b",
-        "excerpt": "…ped down; $150m series b failed in 2024; reportedly seeking acquisition by openai / nvidia / microsoft as of may 2025; only a $3m brid…",
-        "action": "Change fundingStage to \"Acquired\" and add acquiredBy field"
-      }
-    ],
+    "acquisition_language": [],
     "defunct_language": [],
     "ipo_mismatches": [
       {
@@ -36,6 +21,11 @@
       },
       {
         "name": "Intuitive Machines",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "Endurance Energy",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       },
@@ -162,11 +152,6 @@
         "founder": "Daniel Kultran, Grant Verstandig"
       },
       {
-        "name": "Thoron",
-        "sector": "Drones & Autonomous",
-        "founder": "Thayne Kollmorgen"
-      },
-      {
         "name": "Etched",
         "sector": "Chips & Semiconductors",
         "founder": "Gavin Uberti, Chris Zhu, Robert Wachen"
@@ -188,12 +173,12 @@
       },
       {
         "name": "Shinkei",
-        "sector": "Consumer Tech",
+        "sector": "Robotics & Manufacturing",
         "founder": "Saif Khawaja, Reed Ginsberg"
       },
       {
         "name": "Vital Lyfe",
-        "sector": "Consumer Tech",
+        "sector": "Climate & Energy",
         "founder": "Jonathan Criss, Andrew Harner"
       },
       {
@@ -289,7 +274,7 @@
       {
         "name": "Theseus",
         "sector": "Defense & Security",
-        "founder": "Carl Schoeller, Ian Laffey, Sacha Lévy"
+        "founder": "Carl Schoeller (CEO, BS Mech Eng Stanford), Ian Laffey (CTO, Software Engineering McGill), Sacha Lévy (CTO, fmr Yale CS PhD researcher; B.Eng McGill)"
       },
       {
         "name": "Focused Energy",
@@ -322,24 +307,19 @@
         "founder": "Nicholas Flanders, Etosha Cave, Kendra Kuhl"
       },
       {
-        "name": "EnerVenue",
-        "sector": "Climate & Energy",
-        "founder": "Yi Cui"
-      },
-      {
         "name": "Zettascale",
         "sector": "Chips & Semiconductors",
-        "founder": "Elias Almqvist, Prithvi Raj"
+        "founder": "Elias Almqvist (CEO; self-taught engineer, Chalmers University CS/CE dropout at 21), Prithvi Raj (CTO; MEng Computational Stats + ML Cambridge; ex-Microsoft)"
       },
       {
         "name": "Lumina Vehicles",
         "sector": "Robotics & Manufacturing",
-        "founder": "Ahmed Shubber, Federico Di Palma"
+        "founder": "Ahmed Shubber (CEO; Fairfield U double-major mech + biomedical eng), Federico Di Palma (Co-founder)"
       },
       {
         "name": "Thalassa Robotics",
         "sector": "Ocean & Maritime",
-        "founder": "Vatsal Varma, Arjun Prabhakar, Bryan Tan"
+        "founder": "Arjun Prabhakar (CEO/Co-Founder), Vatsal Varma (CTO; ex-Qualcomm; BS CS+Physics Duke), Bryan Tan (COO; ex-UBS, Commvault, IRC; BA Econ Berkeley)"
       },
       {
         "name": "Sunfire",
@@ -417,11 +397,6 @@
         "founder": "Atsuyoshi Koike"
       },
       {
-        "name": "Rebellions",
-        "sector": "Chips & Semiconductors",
-        "founder": "Sunghyun Park"
-      },
-      {
         "name": "ideaForge",
         "sector": "Drones & Autonomous",
         "founder": "Ankit Mehta"
@@ -464,7 +439,7 @@
       {
         "name": "Long Wall",
         "sector": "Defense & Security",
-        "founder": "Dan Piemont, Harry O'Hanley"
+        "founder": "Dan Piemont (CEO; ex-SpaceX, ex-Morgan Stanley), Harry O'Hanley (ex-SpaceX, ex-Morgan Stanley)"
       },
       {
         "name": "GrayMatter Robotics",
@@ -625,11 +600,6 @@
         "name": "Solid Power",
         "sector": "Climate & Energy",
         "founder": "Doug Campbell"
-      },
-      {
-        "name": "Rain AI",
-        "sector": "Chips & Semiconductors",
-        "founder": "Gordon Wilson"
       },
       {
         "name": "Axial Composites",
@@ -950,11 +920,6 @@
         "name": "Nara Space Technology",
         "sector": "Space & Aerospace",
         "founder": "Park Jae-pil"
-      },
-      {
-        "name": "Bone AI",
-        "sector": "Defense & Security",
-        "founder": "DK Lee"
       },
       {
         "name": "Digantara",
@@ -1303,31 +1268,33 @@
       }
     ],
     "stage_vocabulary": {
-      "Series A": 255,
-      "Series B": 187,
-      "Seed": 161,
+      "Series A": 257,
+      "Series B": 188,
+      "Seed": 158,
       "Series C": 98,
-      "Public": 56,
+      "Public": 54,
       "Series D": 36,
       "Growth": 24,
-      "Pre-Seed": 15,
+      "Pre-Seed": 23,
       "Series E": 15,
-      "Series G": 13,
-      "Late Stage": 10,
+      "Series G": 12,
+      "Late Stage": 11,
       "Series F": 8,
       "Private": 8,
+      "SPAC": 6,
       "IPO": 5,
-      "SPAC": 5,
-      "Pre-IPO": 5,
+      "Pre-IPO": 4,
+      "Bootstrapped": 3,
       "Public (KOSDAQ)": 3,
       "Series B-2": 2,
-      "Acquired": 2,
-      "Bootstrapped": 2,
       "Public (Tokyo)": 2,
       "Series D+": 2,
+      "Stealth": 1,
+      "Stealth-exit": 1,
       "Series H": 1,
       "Series B2": 1,
       "Series A-1": 1,
+      "Public (Frankfurt: H2O)": 1,
       "Pre-Series B": 1,
       "Public (INVZ)": 1,
       "Public (ADX)": 1,
@@ -1338,7 +1305,6 @@
       "Public (GPW)": 1,
       "Series B+": 1,
       "Seed+": 1,
-      "Stealth": 1,
       "Platform / strategic": 1,
       "Series F+": 1,
       "Government Contract": 1,
@@ -1376,6 +1342,13 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
+        "kind": "unreachable_website",
+        "name": "Intuitive Machines",
+        "url": "https://intuitivemachines.com",
+        "error": "SSLError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
         "kind": "rebrand_suspect",
         "name": "Astro Mechanica",
         "old_url": "https://astromechanica.com",
@@ -1404,11 +1377,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "dead_website",
+        "kind": "unreachable_website",
         "name": "Extropic",
         "url": "https://extropic.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "dead_website",
@@ -1498,7 +1471,7 @@
         "kind": "rebrand_suspect",
         "name": "Primer AI",
         "old_url": "https://primerai.com",
-        "new_url": "https://primer.ai/",
+        "new_url": "https://www.primer.ai/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
@@ -1516,11 +1489,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "dead_website",
+        "kind": "unreachable_website",
         "name": "Outpost Space",
         "url": "https://outpostspace.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "dead_website",
@@ -1544,11 +1517,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "dead_website",
+        "kind": "unreachable_website",
         "name": "Redwood Materials",
         "url": "https://redwoodmaterials.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "unreachable_website",
@@ -1563,34 +1536,13 @@
         "old_url": "https://archeraviation.com",
         "new_url": "https://archer.com/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "QuEra Computing",
-        "old_url": "https://quera-computing.com",
-        "new_url": "https://www.quera.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Oxford Quantum Circuits",
-        "old_url": "https://oxfordquantumcircuits.com",
-        "new_url": "https://oqc.tech",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Space Forge",
-        "old_url": "https://spaceforge.co.uk",
-        "new_url": "https://www.spaceforge.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       }
     ]
   },
   "summary": {
-    "p0_issues": 22,
-    "p1_issues": 17,
-    "missing_websites": 249,
-    "distinct_stages": 42
+    "p0_issues": 17,
+    "p1_issues": 15,
+    "missing_websites": 244,
+    "distinct_stages": 43
   }
 }

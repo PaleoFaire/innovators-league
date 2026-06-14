@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T11:22:36.844606+00:00",
+  "generated_at": "2026-06-14T12:00:13.084210+00:00",
   "source_status": "seeded",
   "notifications": [
     {
@@ -105,9 +105,7 @@
       ],
       "notification_date": "2026-03-05",
       "summary": "ROK requested UGV platforms + autonomy stack \u2014 first notification featuring Bone AI as a named sub.",
-      "matched_companies": [
-        "Bone AI"
-      ]
+      "matched_companies": []
     },
     {
       "notification_id": "Transmittal 26-07",
@@ -240,14 +238,6 @@
       "total_value_m": 220
     },
     {
-      "company": "Bone AI",
-      "appearances": 1,
-      "countries": [
-        "South Korea"
-      ],
-      "total_value_m": 310
-    },
-    {
       "company": "Atom",
       "appearances": 1,
       "countries": [
@@ -268,6 +258,6 @@
     "total_notifications": 12,
     "total_value_usd_m": 12060,
     "unique_countries": 11,
-    "tracked_company_appearances": 8
+    "tracked_company_appearances": 7
   }
 }
