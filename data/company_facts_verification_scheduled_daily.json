@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-13T08:49:56+00:00",
+  "generatedAt": "2026-06-14T09:04:35+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 36,
+  "cohortSize": 33,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 36
+    "unverifiable": 33
   },
   "cleared": [],
   "changesProposed": [],
@@ -33,10 +33,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Axiom Space",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Blue Origin",
       "reason": "Claude extraction failed"
     },
@@ -46,10 +42,6 @@
     },
     {
       "name": "Castelion",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cover",
       "reason": "Claude extraction failed"
     },
     {
@@ -138,10 +130,6 @@
     },
     {
       "name": "Tekever",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Vast",
       "reason": "Claude extraction failed"
     },
     {
