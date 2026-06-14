@@ -1,14 +1,14 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-06-07T11:07:45+00:00
+// Last updated: 2026-06-14T11:32:50+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-06-07T11:07:45+00:00",
-  "weekOf": "2026-06-07",
+  "generatedAt": "2026-06-14T11:32:50+00:00",
+  "weekOf": "2026-06-14",
   "summary": {
-    "rosterSize": 1078,
-    "candidatesScreened": 268,
+    "rosterSize": 1092,
+    "candidatesScreened": 260,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 156
+    "rejected": 148
   },
   "topPicks": [
     {
@@ -450,7 +450,7 @@ const SCOUT_BRIEFING_AUTO = {
       ]
     },
     {
-      "name": "Flexport",
+      "name": "Celero Communications",
       "score": 28.0,
       "dimensions": {
         "capital_quality": 15,
@@ -467,26 +467,26 @@ const SCOUT_BRIEFING_AUTO = {
       "suggestedSector": null,
       "signals": [
         {
-          "name": "Flexport",
-          "source": "VC portfolio: Founders Fund",
-          "sourceWeight": 35,
-          "vc": "Founders Fund",
-          "date": "2026-03-16",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Founders Fund portfolio on 2026-03-16"
-        },
-        {
-          "name": "Flexport",
+          "name": "Celero Communications",
           "source": "VC portfolio: AV",
           "sourceWeight": 35,
           "vc": "AV",
           "date": "2026-03-16",
           "verifyUrl": "portfolio_page",
           "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Celero Communications",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
         }
       ]
     }
   ],
-  "rejectedCount": 156
+  "rejectedCount": 148
 };
 if (typeof window !== 'undefined') window.SCOUT_BRIEFING_AUTO = SCOUT_BRIEFING_AUTO;

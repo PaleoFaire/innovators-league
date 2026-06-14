@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-06-07
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-06-14
 
-**Roster:** 1078 companies tracked  ·  **Screened this cycle:** 268  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1092 companies tracked  ·  **Screened this cycle:** 260  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -119,7 +119,7 @@ Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 - **GINKGO BIOWORKS, INC.** *(Defense & Security)* — DARPA — score 28/70
 - **GOODRICH CORPORATION** *(Defense & Security)* — DARPA — score 28/70
 - **TELEDYNE SCIENTIFIC & IMAGING, LLC** *(Defense & Security)* — DARPA — score 28/70
-- **Flexport** *(—)* — VC portfolio — score 28/70
+- **Celero Communications** *(—)* — VC portfolio — score 28/70
 
 ---
 
@@ -129,16 +129,16 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 
 - **[All-In]** [CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win](https://allinchamathjason.libsyn.com/ca-governor-candidate-steve-hilton-on-why-california-is-destroying-itself-how-a-republican-can-win)
 - **[Core Memory]** [The Startup Trying to Save Us From AI Bioweapons- EP 74 Hannu Rajaniemi](https://www.corememory.com/p/red-queen-bio-hannu-rajaniemi-ai-biosecurity)
-- **[TBPN]** [Google I/O: Day 1 Reactions, Goldman to Lead SpaceX IPO | Diet TBPN](https://share.transistor.fm/s/6d130aef)
 - **[Core Memory]** [The Freshman Who Took Down Stanford's President And Its Perfect Image - EP 72 Theo Baker](https://www.corememory.com/p/the-freshman-who-took-down-stanford-theo-baker)
 - **[Invest Like the Best]** [Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]](https://colossus.com/episode/watts-and-wafers/)
 - **[Core Memory]** [The Very Wild, Very Real Plan To Build AI Data Centers In The Ocean - EP 65 Garth Sheldon-Coulson](https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth)
 - **[Core Memory]** [Meta's AI Chief On AI Beef, New Models And Life With Zuck - EP 71 Alex Wang](https://www.corememory.com/p/metas-ai-chief-alex-wang-muse-spark-ai-wars)
 - **[Invest Like the Best]** [Krishna Rao - Anthropic's CFO on Compute, Scaling to $30B ARR, and the Returns to Frontier Intelligence - [Invest Like t](https://colossus.com/episode/cone-of-uncertainty/)
-- **[All-In]** [Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race](https://allinchamathjason.libsyn.com/josh-shapiro-on-trump-iran-war-chaos-israels-failure-the-economy-and-2028-race)
-- **[Core Memory]** [The Company Helping Paralyzed People Move And Thrive Again - EP 64 Dave Marver](https://www.corememory.com/p/the-company-helping-paralyzed-people)
+- **[All-In]** [Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner](https://allinchamathjason.libsyn.com/senators-john-fetterman-and-dave-mccormick-bipartisanship-money-in-dc-datacenters-graham-platner)
+- **[TBPN]** [Cloudflare CEO Predicts AI Agents Will Outnumber Humans 1,000-to-1](https://share.transistor.fm/s/b5f0e80c)
+- **[TBPN]** [Social Network Sequel Trailer,  Fable 5 Sparks Safety Debate, SpaceX IPO Watch | Diet TBPN](https://share.transistor.fm/s/094f4b56)
 
 ---
 
 
-*Generated 2026-06-07T11:07:45+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-06-14T11:32:50+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
