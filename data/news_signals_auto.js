@@ -1,52 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-06-14T18:18:55.467Z
+// Last updated: 2026-06-14T20:22:18.064Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1781461135467,
+    "id": 1781468538064,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "TechCrunch Mobility: SpaceX rockets past Tesla",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/14/techcrunch-mobility-spacex-rockets-past-tesla/"
   },
   {
-    "id": 1781461135468,
+    "id": 1781468538065,
     "type": "news",
     "company": "Anthropic",
     "headline": "As Anthropic suspends access to new models, India debates its AI future",
     "source": "TechCrunch",
-    "time": "15h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/"
   },
   {
-    "id": 1781461135469,
+    "id": 1781468538066,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
     "source": "TechCrunch",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/"
   },
   {
-    "id": 1781461135470,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "Is Echostar a Way to Get SpaceX at $80-113 Per Share ?",
-    "source": "Next Big Future",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://www.nextbigfuture.com/2026/06/is-echostar-a-way-to-get-spacex-at-80-113-per-share.html"
-  },
-  {
-    "id": 1781461135471,
+    "id": 1781468538067,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI faces investigation from state attorneys general",
@@ -57,29 +46,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/"
   },
   {
-    "id": 1781461135472,
+    "id": 1781468538068,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
     "source": "TechCrunch",
     "time": "1d ago",
     "impact": "low",
-    "unread": false,
+    "unread": true,
     "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/"
   },
   {
-    "id": 1781461135473,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and Big Venture Capitalists",
-    "source": "Next Big Future",
-    "time": "1d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/06/spacex-ipo-up-20-and-brian-wang-analysis-ahead-of-bg2-and-big-venture-capitalists.html"
-  },
-  {
-    "id": 1781461135474,
+    "id": 1781468538069,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX IPO: Live updates on everything you need to know",
@@ -90,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/"
   },
   {
-    "id": 1781461135475,
+    "id": 1781468538070,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX shares rise nearly 20% in historic IPO",
@@ -101,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-shares-rise-nearly-20-in-historic-ipo/"
   },
   {
-    "id": 1781461135476,
+    "id": 1781468538071,
     "type": "news",
     "company": "Humanoid",
     "headline": "Robotics Summit panel explores the state of humanoid robot design",
@@ -112,29 +90,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/robotics-summit-panel-explores-state-humanoid-robot-design/"
   },
   {
-    "id": 1781461135477,
+    "id": 1781468538072,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX IPO closes up 19% and delivers the world&#8217;s first trillionaire",
     "source": "TechCrunch",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/06/12/spacex-ipo-closes-up-19-and-delivers-the-worlds-first-trillionaire/"
   },
   {
-    "id": 1781461135478,
+    "id": 1781468538073,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX president Gwynne Shotwell just gave another hint at a Tesla merger",
     "source": "TechCrunch",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/06/12/spacex-president-gwynne-shotwell-just-gave-another-hint-at-a-tesla-merger/"
   },
   {
-    "id": 1781461135479,
+    "id": 1781468538074,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Why SpaceX IPO could spark a ‘$200bn private markets boom’",
@@ -145,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/spacex-secondaries-ipo/"
   },
   {
-    "id": 1781461135480,
+    "id": 1781468538075,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Robinhood sees &#8216;record-breaking&#8217; traffic after SpaceX stock debuts",
@@ -156,29 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/12/robinhood-sees-record-breaking-traffic-after-spacex-stock-debuts/"
   },
   {
-    "id": 1781461135481,
-    "type": "funding",
-    "company": "SpaceX",
-    "headline": "SpaceX IPO Day Started at $150 and is Now $175",
-    "source": "Next Big Future",
-    "time": "2d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/06/spacex-ipo-day-started-at-150-and-is-now-174.html"
-  },
-  {
-    "id": 1781461135482,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
-    "source": "TechCrunch",
-    "time": "2d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/"
-  },
-  {
-    "id": 1781461135483,
+    "id": 1781468538076,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NASA to Cover 34th SpaceX Resupply Mission Space Station Departure",
@@ -189,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/news-release/nasa-to-cover-34th-spacex-resupply-mission-space-station-departure/"
   },
   {
-    "id": 1781461135484,
+    "id": 1781468538077,
     "type": "funding",
     "company": "Neura Robotics",
     "headline": "NEURA Robotics secures up to $1.4B, Bending Spoons files for US IPO, and UK PM unveils £400M chip plan",
@@ -200,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/06/12/neura-robotics-secures-up-to-1-4b-bending-spoons-files-for-us-ipo-and-uk-pm-unveils-400m-chip-plan/"
   },
   {
-    "id": 1781461135485,
+    "id": 1781468538078,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX Shares Close Up 19% After Largest IPO Of All Time",
@@ -211,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/public/spacex-record-breaking-ipo-spcx/"
   },
   {
-    "id": 1781461135486,
+    "id": 1781468538079,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "You Probably Won’t Get Rich Off the SpaceX IPO",
@@ -220,5 +176,49 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://www.wired.com/story/you-probably-wont-get-rich-off-the-spacex-ipo/"
+  },
+  {
+    "id": 1781468538080,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX IPO Puts Elon Musk’s ‘Extreme’ Ownership to the Test",
+    "source": "Wired",
+    "time": "2d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://www.wired.com/story/spacex-is-now-a-public-company/"
+  },
+  {
+    "id": 1781468538081,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX’s IPO: ‘It shows us what we’re missing in Europe’",
+    "source": "Sifted",
+    "time": "2d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://sifted.eu/articles/spacex-ipo-spacetech-europe/"
+  },
+  {
+    "id": 1781468538082,
+    "type": "milestone",
+    "company": "Waymo",
+    "headline": "Waymo: Aim to Become &#8220;World’s Most Trusted Driver&#8221; and &#8220;New Reference Model for Human Collision Avoida",
+    "source": "CleanTechnica",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://cleantechnica.com/2026/06/11/waymo-new-reference-model-for-human-collision-avoidance-and-aim-to-become-worlds-most-trusted-driver/"
+  },
+  {
+    "id": 1781468538083,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "Why You Might Already Own SpaceX Shares, Siri’s AI Makeover, and Knicks Owner’s Surveillance Machine",
+    "source": "Wired",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.wired.com/story/uncanny-valley-podcast-why-you-might-already-own-spacex-shares-siri-ai-makeover-knicks-owner-surveillance-machine/"
   }
 ];
