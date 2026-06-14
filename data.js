@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-13";
+const LAST_UPDATED = "2026-06-14";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -59586,14 +59586,14 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-13 22:13
+// Last updated: 2026-06-14 00:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Anthropic", headline: "Amazon CEO reportedly raised Anthropic model concerns before government crackdown", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Is Echostar a Way to Get SpaceX at $80-113 Per Share ?", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI faces investigation from state attorneys general", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic's safety warnings may have just backfired ' the government has pulled the plug on its most powerful AI", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and Big Venture Capitalists", source: "Next Big Future", time: "21h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX IPO: Live updates on everything you need to know", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
+  { id: 1, type: "funding", company: "Anthropic", headline: "Amazon CEO reportedly raised Anthropic model concerns before government crackdown", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "Is Echostar a Way to Get SpaceX at $80-113 Per Share ?", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI faces investigation from state attorneys general", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic's safety warnings may have just backfired ' the government has pulled the plug on its most powerful AI", source: "TechCrunch", time: "21h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and Big Venture Capitalists", source: "Next Big Future", time: "23h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX IPO: Live updates on everything you need to know", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
   { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX shares rise nearly 20% in historic IPO", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
   { id: 8, type: "news", company: "Humanoid", headline: "Robotics Summit panel explores the state of humanoid robot design", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX IPO closes up 19% and delivers the world's first trillionaire", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
