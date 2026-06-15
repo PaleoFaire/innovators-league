@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-06-14 10:17:45 UTC
+// Last updated: 2026-06-15 12:55:26 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT07211178", title: "Evaluating Minimal Residual Disease (MRD) Through Longitudinal Circulating Tumor", status: "RECRUITING", phase: "N/A", sponsor: "Tempus AI", conditions: "Breast Cancer, TNBC - Triple-Negative Breast Cance", enrollment: 900, lastUpdated: "2026-06-12" },
   { nctId: "NCT05257551", title: "TEMPUS Small Cell Lung Cancer OBSERVATIONAL STUDY (Sculptor)", status: "RECRUITING", phase: "N/A", sponsor: "Tempus AI", conditions: "Small Cell Lung Cancer", enrollment: 200, lastUpdated: "2026-06-12" },

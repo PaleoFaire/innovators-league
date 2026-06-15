@@ -50,7 +50,7 @@
         "awardAmount": "$25M"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Palantir",
@@ -108,7 +108,7 @@
         "awardAmount": "$86M"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Skydio",
@@ -163,7 +163,7 @@
         "awardAmount": "$130K"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Radiant",
@@ -219,7 +219,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Shield AI",
@@ -271,7 +271,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Castelion",
@@ -322,7 +322,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Axiom Space",
@@ -374,7 +374,7 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Sierra Space",
@@ -426,7 +426,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Varda Space",
@@ -469,52 +469,7 @@
         "awardAmount": "$160K"
       }
     ],
-    "lastUpdated": "2026-06-14"
-  },
-  {
-    "company": "Planet Labs",
-    "opportunityCount": 4,
-    "agencies": [
-      "Department of Defense",
-      "Department of the Interior",
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-11-25",
-        "type": null,
-        "noticeId": "80HQTR25FA066",
-        "awardAmount": "$14M"
-      },
-      {
-        "title": "PLANET LABS DAILY IMAGERY",
-        "agency": "Department of the Interior",
-        "postedDate": "2022-12-30",
-        "type": null,
-        "noticeId": "140S0323F0001",
-        "awardAmount": "$291K"
-      },
-      {
-        "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
-        "agency": "Department of the Interior",
-        "postedDate": "2026-05-07",
-        "type": null,
-        "noticeId": "140G0326P0132",
-        "awardAmount": "$60K"
-      },
-      {
-        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
-        "agency": "Department of Defense",
-        "postedDate": "2025-12-29",
-        "type": null,
-        "noticeId": "HQ085926FF415",
-        "awardAmount": "$500"
-      }
-    ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Rocket Lab",
@@ -549,7 +504,44 @@
         "awardAmount": "$391K"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
+  },
+  {
+    "company": "Planet Labs",
+    "opportunityCount": 3,
+    "agencies": [
+      "Department of Defense",
+      "Department of the Interior",
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2025-11-25",
+        "type": null,
+        "noticeId": "80HQTR25FA066",
+        "awardAmount": "$14M"
+      },
+      {
+        "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
+        "agency": "Department of the Interior",
+        "postedDate": "2026-05-07",
+        "type": null,
+        "noticeId": "140G0326P0132",
+        "awardAmount": "$60K"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FF415",
+        "awardAmount": "$500"
+      }
+    ],
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Capella Space",
@@ -585,42 +577,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-14"
-  },
-  {
-    "company": "BlackSky",
-    "opportunityCount": 3,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "BLACKSKY GLOBAL MOVING TARGET ENGAGEMENT",
-        "agency": "Department of Defense",
-        "postedDate": "2024-03-15",
-        "type": null,
-        "noticeId": "FA945324C0001",
-        "awardAmount": "$4M"
-      },
-      {
-        "title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT",
-        "agency": "Department of Defense",
-        "postedDate": "2026-03-06",
-        "type": null,
-        "noticeId": "FA238526FB002",
-        "awardAmount": "$2M"
-      },
-      {
-        "title": "BLACKSKY DIRECT TO PHASE 2",
-        "agency": "Department of Defense",
-        "postedDate": "2024-10-01",
-        "type": null,
-        "noticeId": "FA238524CB039",
-        "awardAmount": "$2M"
-      }
-    ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Scale AI",
@@ -655,7 +612,34 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
+  },
+  {
+    "company": "BlackSky",
+    "opportunityCount": 2,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "BLACKSKY GLOBAL MOVING TARGET ENGAGEMENT",
+        "agency": "Department of Defense",
+        "postedDate": "2024-03-15",
+        "type": null,
+        "noticeId": "FA945324C0001",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT",
+        "agency": "Department of Defense",
+        "postedDate": "2026-03-06",
+        "type": null,
+        "noticeId": "FA238526FB002",
+        "awardAmount": "$2M"
+      }
+    ],
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Epirus",
@@ -674,7 +658,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Vannevar Labs",
@@ -693,7 +677,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   },
   {
     "company": "Relativity Space",
@@ -712,6 +696,6 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-15"
   }
 ]
