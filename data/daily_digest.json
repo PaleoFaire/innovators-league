@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T18:44:39.343723+00:00",
+  "generatedAt": "2026-06-15T21:47:47.104122+00:00",
   "date": "2026-06-15",
   "dateDisplay": "Monday, June 15, 2026",
   "sections": {
@@ -81,23 +81,9 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 5.2,
-        "changePercent": -21.09,
-        "change": -1.39
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 11.68,
-        "changePercent": -15.85,
-        "change": -2.2
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 367.15,
-        "changePercent": 15.8,
-        "change": 50.09
+        "price": 5.88,
+        "changePercent": -19.01,
+        "change": -1.38
       },
       {
         "ticker": "9348.T",
@@ -107,11 +93,25 @@
         "change": -78.0
       },
       {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 82.41,
-        "changePercent": -11.96,
-        "change": -11.19
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 25.76,
+        "changePercent": -13.37,
+        "change": -3.97
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 389.2,
+        "changePercent": 12.38,
+        "change": 42.87
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 547.26,
+        "changePercent": 11.61,
+        "change": 56.93
       },
       {
         "ticker": "IDEAFORGE.NS",
@@ -121,18 +121,18 @@
         "change": -100.05
       },
       {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 511.57,
-        "changePercent": 9.69,
-        "change": 45.19
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 118.2,
+        "changePercent": -9.7,
+        "change": -12.7
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 26.62,
-        "changePercent": -9.33,
-        "change": -2.74
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 660000.0,
+        "changePercent": 8.2,
+        "change": 50000.0
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -21.1%"
+    "topMover": "LNZA -19.0%"
   }
 }

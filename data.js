@@ -60684,23 +60684,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-15 18:44
+// Last updated: 2026-06-15 21:47
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX is public: Everything you need to know post-IPO", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "NASA's SpaceX CRS-34 Dragon Returns Packed with Space Station Science", source: "NASA Breaking News", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Einride", headline: "Autonomous freight developer Einride goes public via SPAC", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "The Case that SpaceX Shares are Halfprice Inside of Echostar", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "SpaceX", headline: "SpaceX's biggest-ever IPO just grew to $85.7 billion raised", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Elon Says $1 Trillion Revenue for SpaceX in 2030 Like I Have Projected", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "TechCrunch Mobility: SpaceX rockets past Tesla", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "As Anthropic suspends access to new models, India debates its AI future", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Is Echostar a Way to Get SpaceX at $80-113 Per Share ?", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic suspends top AI models after US export-control order", source: "Defense One", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and Big Venture Capitalists", source: "Next Big Future", time: "2d ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX shares rise nearly 20% in historic IPO", source: "SpaceNews", time: "2d ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Humanoid", headline: "Robotics Summit panel explores the state of humanoid robot design", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Why SpaceX IPO could spark a '$200bn private markets boom'", source: "Sifted", time: "3d ago", impact: "high", unread: false },
-  { id: 15, type: "funding", company: "SpaceX", headline: "SpaceX IPO Day Started at $150 and is Now $175", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX 6th Biggest Most Valuable and Tesla 10th", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "SpaceX", headline: "SpaceX is at $194 and About $2.52 Trillion in Valuation", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Anthropic", headline: "How the Commerce crackdown on Anthropic could impact the Pentagon: Experts", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX is public: Everything you need to know post-IPO", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "NASA's SpaceX CRS-34 Dragon Returns Packed with Space Station Science", source: "NASA Breaking News", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Einride", headline: "Autonomous freight developer Einride goes public via SPAC", source: "The Robot Report", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "The Case that SpaceX Shares are Halfprice Inside of Echostar", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "SpaceX", headline: "SpaceX's biggest-ever IPO just grew to $85.7 billion raised", source: "TechCrunch", time: "7h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "Elon Says $1 Trillion Revenue for SpaceX in 2030 Like I Have Projected", source: "Next Big Future", time: "15h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "TechCrunch Mobility: SpaceX rockets past Tesla", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "As Anthropic suspends access to new models, India debates its AI future", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "Is Echostar a Way to Get SpaceX at $80-113 Per Share ?", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Anthropic suspends top AI models after US export-control order", source: "Defense One", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and Big Venture Capitalists", source: "Next Big Future", time: "2d ago", impact: "high", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX shares rise nearly 20% in historic IPO", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
