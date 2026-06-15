@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-14 09:41:47 UTC
+// Last updated: 2026-06-15 12:24:28 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-06-15", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-06-12", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781294677.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781294638.xml", isIPO: false, ticker: "BKSY" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Tempus AI", form: "4", date: "2026-06-08", description: "xslF345X06/wk-form4_1780916910.xml", isIPO: false, ticker: "TEM" },
   { company: "Tempus AI", form: "4", date: "2026-06-08", description: "xslF345X06/wk-form4_1780916873.xml", isIPO: false, ticker: "TEM" },
   { company: "Tempus AI", form: "4", date: "2026-06-08", description: "xslF345X06/wk-form4_1780916828.xml", isIPO: false, ticker: "TEM" },
-  { company: "Tempus AI", form: "4", date: "2026-06-08", description: "xslF345X06/wk-form4_1780916784.xml", isIPO: false, ticker: "TEM" },
 ];

@@ -443,6 +443,15 @@
   {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
+    "form": "8-K",
+    "date": "2026-06-15",
+    "description": "form8-k.htm",
+    "accessionNumber": "0001493152-26-028544",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
     "form": "4",
     "date": "2026-06-12",
     "description": "xslF345X06/ownership.xml",
@@ -1131,42 +1140,6 @@
     "date": "2026-03-30",
     "description": "tm2610566d1_8k.htm",
     "accessionNumber": "0001104659-26-036821",
-    "isIPO": false
-  },
-  {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "4",
-    "date": "2026-03-16",
-    "description": "xslF345X05/tm268953-2_4seq1.xml",
-    "accessionNumber": "0001104659-26-028656",
-    "isIPO": false
-  },
-  {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "4",
-    "date": "2026-03-16",
-    "description": "xslF345X05/tm268953-1_4seq1.xml",
-    "accessionNumber": "0001104659-26-028653",
-    "isIPO": false
-  },
-  {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "10-K",
-    "date": "2026-03-16",
-    "description": "apre-20251231x10k.htm",
-    "accessionNumber": "0001104659-26-028068",
-    "isIPO": false
-  },
-  {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "8-K",
-    "date": "2026-03-16",
-    "description": "apre-20260316x8k.htm",
-    "accessionNumber": "0001104659-26-028046",
     "isIPO": false
   },
   {
@@ -1890,24 +1863,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-16",
-    "description": "xslF345X05/wk-form4_1773699478.xml",
-    "accessionNumber": "0002021433-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-16",
-    "description": "xslF345X05/wk-form4_1773699334.xml",
-    "accessionNumber": "0002021786-26-000004",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "4",
@@ -1968,15 +1923,6 @@
     "date": "2026-03-17",
     "description": "xslF345X05/wk-form4_1773774736.xml",
     "accessionNumber": "0001628280-26-018633",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2026-03-16",
-    "description": "leu-20260310.htm",
-    "accessionNumber": "0001628280-26-017957",
     "isIPO": false
   },
   {
@@ -3543,42 +3489,6 @@
     "date": "2026-03-19",
     "description": "achr-20260313.htm",
     "accessionNumber": "0001824502-26-000027",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-16",
-    "description": "xslF345X05/form4-03172026_120314.xml",
-    "accessionNumber": "0001797669-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-16",
-    "description": "xslF345X05/form4-03172026_120313.xml",
-    "accessionNumber": "0001882348-26-000009",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-16",
-    "description": "xslF345X05/form4-03172026_120315.xml",
-    "accessionNumber": "0002016416-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "4",
-    "date": "2026-03-16",
-    "description": "xslF345X05/form4-03172026_120305.xml",
-    "accessionNumber": "0002036956-26-000009",
     "isIPO": false
   },
   {
