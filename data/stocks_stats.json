@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.56,
+      "avg_change": -1.29,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -9.62,
+      "avg_change": -7.34,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -2.63,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": -0.31,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -2.82,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.35,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.14,
+      "avg_change": -9.5,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.44,
+      "avg_change": 1.13,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.57,
+      "avg_change": -0.97,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 3.23,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -0.2,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.51,
+      "avg_change": 8.61,
       "count": 3
     }
   },
@@ -61,12 +61,12 @@
     [
       "ALAB",
       "Astera Labs",
-      15.8
+      12.38
     ],
     [
       "AMD",
       "AMD",
-      9.69
+      11.61
     ],
     [
       "277810.KQ",
@@ -74,26 +74,31 @@
       8.2
     ],
     [
-      "TSLA",
-      "Tesla",
-      3.95
-    ],
-    [
       "TEM",
       "Tempus AI",
-      2.99
+      7.68
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      4.3
     ]
   ],
   "topLosers": [
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -9.7
+    ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
       -10.37
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -11.96
+      "LUNR",
+      "Intuitive Machines",
+      -13.37
     ],
     [
       "9348.T",
@@ -101,15 +106,10 @@
       -13.43
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -15.85
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      -21.09
+      -19.01
     ]
   ],
-  "lastUpdated": "2026-06-15 12:23:31"
+  "lastUpdated": "2026-06-15 21:09:25"
 }
