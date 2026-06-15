@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T06:32:55.962543+00:00",
+  "generatedAt": "2026-06-15T13:23:05.808111+00:00",
   "date": "2026-06-15",
   "dateDisplay": "Monday, June 15, 2026",
   "sections": {
@@ -102,9 +102,9 @@
       {
         "ticker": "9348.T",
         "company": "ispace",
-        "price": 501.0,
-        "changePercent": -13.77,
-        "change": -80.0
+        "price": 503.0,
+        "changePercent": -13.43,
+        "change": -78.0
       },
       {
         "ticker": "ASTS",
@@ -114,18 +114,11 @@
         "change": -11.19
       },
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 114.8,
-        "changePercent": -11.9,
-        "change": -15.5
-      },
-      {
         "ticker": "IDEAFORGE.NS",
         "company": "ideaForge",
-        "price": 860.05,
-        "changePercent": -10.87,
-        "change": -104.85
+        "price": 864.85,
+        "changePercent": -10.37,
+        "change": -100.05
       },
       {
         "ticker": "AMD",
@@ -133,6 +126,13 @@
         "price": 511.57,
         "changePercent": 9.69,
         "change": 45.19
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 26.62,
+        "changePercent": -9.33,
+        "change": -2.74
       }
     ],
     "regulatory": [
@@ -160,9 +160,9 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Energy Conservation Program: Energy Conservation Standards for Distribution Tran",
+        "title": "Palisades SMR, LLC; Pioneer Units 1 and 2; Phased Construction Permit Applicatio",
         "date": "2026-06-15",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11971"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11915"
       },
       {
         "kind": "Federal Register",
@@ -174,9 +174,9 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Renewal of Department of Defense Federal Advisory Committees-Education for Seapo",
+        "title": "Energy Conservation Program: Energy Conservation Standards for Distribution Tran",
         "date": "2026-06-15",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11925"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11971"
       }
     ],
     "patents": [
