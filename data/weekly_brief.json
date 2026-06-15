@@ -1,16 +1,30 @@
 {
-  "date": "2026-06-14",
-  "display_date": "Jun 14, 2026",
-  "generated_at": "2026-06-14T12:00:26.724506+00:00",
-  "cutoff": "2026-06-07T12:00:26.724506+00:00",
+  "date": "2026-06-15",
+  "display_date": "Jun 15, 2026",
+  "generated_at": "2026-06-15T15:50:28.317241+00:00",
+  "cutoff": "2026-06-08T15:50:28.317241+00:00",
   "section_count": 7,
-  "total_items": 311,
+  "total_items": 298,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 15,
+      "count": 18,
       "items": [
+        {
+          "company": "Rigetti Computing",
+          "current": 93.0,
+          "previous": 89.0,
+          "change": 4.0,
+          "tier": "elite"
+        },
+        {
+          "company": "Astera Labs",
+          "current": 79.5,
+          "previous": 75.5,
+          "change": 4.0,
+          "tier": "leader"
+        },
         {
           "company": "Velaura AI",
           "current": 32.5,
@@ -66,33 +80,26 @@
           "previous": 28.5,
           "change": 3.0,
           "tier": "early"
-        },
-        {
-          "company": "Mesh Optical Technologies",
-          "current": 31.5,
-          "previous": 28.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Lace Lithography",
-          "current": 31.5,
-          "previous": 28.5,
-          "change": 3.0,
-          "tier": "early"
         }
       ]
     },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 51,
+      "count": 37,
       "items": [
         {
           "company": "Palantir Technologies",
           "form": "8-K",
           "description": "pltr-20260603.htm",
           "date": "2026-06-09",
+          "isIPO": false
+        },
+        {
+          "company": "AST SpaceMobile",
+          "form": "8-K",
+          "description": "form8-k.htm",
+          "date": "2026-06-15",
           "isIPO": false
         },
         {
@@ -103,24 +110,10 @@
           "isIPO": false
         },
         {
-          "company": "Oklo",
-          "form": "8-K",
-          "description": "oklo-20260603.htm",
-          "date": "2026-06-08",
-          "isIPO": false
-        },
-        {
           "company": "Rigetti Computing",
           "form": "8-K",
           "description": "tm2617136d1_8k.htm",
           "date": "2026-06-11",
-          "isIPO": false
-        },
-        {
-          "company": "D-Wave Quantum",
-          "form": "8-K",
-          "description": "qbts-20260604.htm",
-          "date": "2026-06-08",
           "isIPO": false
         },
         {
@@ -138,10 +131,17 @@
           "isIPO": false
         },
         {
-          "company": "Palantir Technologies",
+          "company": "AST SpaceMobile",
           "form": "4",
-          "description": "xslF345X06/wk-form4_1780963392.xml",
-          "date": "2026-06-08",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-06-12",
+          "isIPO": false
+        },
+        {
+          "company": "AST SpaceMobile",
+          "form": "4",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-06-09",
           "isIPO": false
         }
       ]
@@ -174,69 +174,76 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 51,
+      "count": 47,
       "items": [
         {
-          "title": "Self-Regulatory Organizations; Nasdaq GEMX, LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To",
+          "title": "Sunshine Act Meetings",
           "type": "Notice",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-06-15"
+        },
+        {
+          "title": "Palisades SMR, LLC; Pioneer Units 1 and 2; Phased Construction Permit Application; Limited Work Authorization; Notice of",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-06-15"
+        },
+        {
+          "title": "Interim Staff Guidance: Security Requirements for Nonpower Production and Utilization Facility Applicants and Licensees",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
           "date": "2026-06-12"
         },
         {
-          "title": "Self-Regulatory Organizations; Nasdaq PHLX LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To ",
+          "title": "Regulatory Guide: Guidance for Technology-Inclusive Risk-Informed Change Evaluation",
           "type": "Notice",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-06-12"
+          "date": "2026-06-11"
         },
         {
-          "title": "Self-Regulatory Organizations; Nasdaq ISE, LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To ",
+          "title": "Holtec Decommissioning International, LLC; Oyster Creek Nuclear Generating Station; Environmental Assessment and Finding",
           "type": "Notice",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-06-12"
+          "date": "2026-06-10"
         },
         {
-          "title": "Self-Regulatory Organizations; Nasdaq MRX, LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To ",
+          "title": "Nebraska Public Power District; Cooper Nuclear Station; Subsequent License Renewal Application",
           "type": "Notice",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-06-12"
-        },
-        {
-          "title": "Self-Regulatory Organizations; The Nasdaq Stock Market LLC; Notice of Filing and Immediate Effectiveness of Proposed Rul",
-          "type": "Notice",
-          "agencies": [
-            "Securities and Exchange Commission"
-          ],
-          "significant": false,
-          "date": "2026-06-12"
-        },
-        {
-          "title": "Self-Regulatory Organizations; Nasdaq Texas, LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change T",
-          "type": "Notice",
-          "agencies": [
-            "Securities and Exchange Commission"
-          ],
-          "significant": false,
-          "date": "2026-06-12"
+          "date": "2026-06-10"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 31,
+      "count": 32,
       "items": [
+        {
+          "title": "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and Big Venture Capitalists",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
         {
           "title": "SpaceX IPO: Live updates on everything you need to know",
           "source": "TechCrunch",
@@ -252,13 +259,6 @@
           "type": "ipo"
         },
         {
-          "title": "SpaceX IPO closes up 19% and delivers the world&#8217;s first trillionaire",
-          "source": "TechCrunch",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
           "title": "Why SpaceX IPO could spark a \u2018$200bn private markets boom\u2019",
           "source": "Sifted",
           "company": "SpaceX",
@@ -266,18 +266,11 @@
           "type": "ipo"
         },
         {
-          "title": "SpaceX, Anthropic, and OpenAI\u2019s hot IPO summer",
-          "source": "TechCrunch",
+          "title": "SpaceX IPO Day Started at $150 and is Now $175",
+          "source": "Next Big Future",
           "company": "SpaceX",
           "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "Elon Musk becomes the world&#8217;s first trillionaire after SpaceX&#8217;s historic IPO",
-          "source": "TechCrunch",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
+          "type": "funding"
         },
         {
           "title": "NEURA Robotics secures up to $1.4B, Bending Spoons files for US IPO, and UK PM unveils \u00a3400M chip pl",
@@ -292,77 +285,77 @@
           "company": "SpaceX",
           "impact": "high",
           "type": "funding"
+        },
+        {
+          "title": "You Probably Won\u2019t Get Rich Off the SpaceX IPO",
+          "source": "Wired",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 53,
+      "count": 54,
       "items": [
         {
-          "title": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
-          "score": 3081,
-          "comments": 2244,
-          "companies": [
-            "Anthropic",
-            "Palantir"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48511072"
-        },
-        {
-          "title": "Open source AI must win",
-          "score": 1537,
-          "comments": 467,
-          "companies": [
-            "Xanadu Quantum Technologies",
-            "Tenstorrent"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48511908"
-        },
-        {
-          "title": "CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers",
-          "score": 968,
-          "comments": 210,
-          "companies": [
-            "Insitro",
-            "Herasight",
-            "Orchid",
-            "Oxford Nanopore Technologies",
-            "Mammoth Biosciences",
-            "DNA Script",
-            "Nucleus Genomics",
-            "Medra"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48505231"
-        },
-        {
           "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
-          "score": 689,
-          "comments": 506,
+          "score": 787,
+          "comments": 594,
           "companies": [
             "Anthropic"
           ],
           "url": "https://news.ycombinator.com/item?id=48519092"
         },
         {
-          "title": "Electric motors with no rare earths",
-          "score": 686,
-          "comments": 209,
+          "title": "Curl will not accept vulnerability reports during July 2026",
+          "score": 526,
+          "comments": 211,
           "companies": [
-            "Earth AI"
+            "Durin"
           ],
-          "url": "https://news.ycombinator.com/item?id=48510010"
+          "url": "https://news.ycombinator.com/item?id=48537165"
         },
         {
-          "title": "There is a shadow hanging over this Fable thing",
-          "score": 472,
-          "comments": 466,
+          "title": "New pancreatic cancer drug might open the door to much longer survival times",
+          "score": 433,
+          "comments": 156,
           "companies": [
-            "Watershed",
-            "Carbon Robotics"
+            "Reveal Technology"
           ],
-          "url": "https://news.ycombinator.com/item?id=48513536"
+          "url": "https://news.ycombinator.com/item?id=48517199"
+        },
+        {
+          "title": "Windows 11 users are tired of MS account requirements creeping into everything",
+          "score": 426,
+          "comments": 277,
+          "companies": [
+            "Osmo",
+            "Photonic Inc"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48533101"
+        },
+        {
+          "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
+          "score": 380,
+          "comments": 101,
+          "companies": [
+            "Built Robotics",
+            "Kyutai",
+            "Together AI",
+            "Runway",
+            "Auterion"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48528029"
+        },
+        {
+          "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+          "score": 369,
+          "comments": 194,
+          "companies": [],
+          "url": "https://news.ycombinator.com/item?id=48528371"
         }
       ]
     },
@@ -372,37 +365,37 @@
       "count": 107,
       "items": [
         {
-          "title": "Celldex Presents Positive First-in-Human Results from Phase 1 Study of Novel Bispecific CDX-622 at the European Academy ",
+          "title": "NVRO Metals Signs Heads of Agreement with Transamine for Proposed Copper Cathode Offtake and Financing Package of up to ",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Legend Biotech Establishes Clinical Proof-of-Concept for LB2501, a Potential First-in-Class In Vivo CD19/CD20 Dual-Targe",
+          "title": "Cannabix Technologies Announces Deployment of Marijuana Breath Test (MBT) with Major Industrial Operator in Quebec",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Air Canada and the IAMAW Reach Tentative Agreement on New Contract",
+          "title": "ENDO 2026 Oral Presentation Highlights Comparative Clinical Data for Entera\u2019s Breakthrough Single Tablet EB613 (First-in",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Air\u00a0Canada et l\u2019AIMTA concluent une entente de principe sur une nouvelle convention collective",
+          "title": "Wearable Devices to Unveil GenAI-Powered Intent-Based Interface Platform and Next-Gen Mudra Pro Flagship at AWE 2026",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Phase 3 Data Show TransCon\u00ae PTH Replicated Systemic Actions of Endogenous PTH Through Week 182 in Adults with Hypoparath",
+          "title": "Cr\u00e9dit Agricole Brie Picardie : d\u00e9claration hebdomadaire - Rachats r\u00e9alis\u00e9s dans les conditions de l'article 5 du R\u00e8glem",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Genmab Announces Epcoritamab Monotherapy and Epcoritamab-Based Combination Regimens Demonstrate High Response Rates in E",
+          "title": "BlockchAIn Announces Corporate Name Change to AIB Data Centers Inc.",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-06-14-420646b0a674"
+  "brief_id": "brief-2026-06-15-ffbbb85d4516"
 }
