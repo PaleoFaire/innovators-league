@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T00:20:01.171872+00:00",
+  "generatedAt": "2026-06-15T06:32:55.962543+00:00",
   "date": "2026-06-15",
   "dateDisplay": "Monday, June 15, 2026",
   "sections": {
@@ -100,6 +100,13 @@
         "change": 50.09
       },
       {
+        "ticker": "9348.T",
+        "company": "ispace",
+        "price": 501.0,
+        "changePercent": -13.77,
+        "change": -80.0
+      },
+      {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
         "price": 82.41,
@@ -114,25 +121,18 @@
         "change": -15.5
       },
       {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 860.05,
+        "changePercent": -10.87,
+        "change": -104.85
+      },
+      {
         "ticker": "AMD",
         "company": "AMD",
         "price": 511.57,
         "changePercent": 9.69,
         "change": 45.19
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 26.62,
-        "changePercent": -9.33,
-        "change": -2.74
-      },
-      {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 5.08,
-        "changePercent": -8.3,
-        "change": -0.46
       }
     ],
     "regulatory": [
