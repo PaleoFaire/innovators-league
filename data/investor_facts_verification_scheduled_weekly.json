@@ -1,60 +1,350 @@
 {
-  "generatedAt": "2026-06-08T11:58:51+00:00",
+  "generatedAt": "2026-06-15T13:06:23+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
   "cohortSize": 11,
-  "newExtractionsThisRun": 0,
+  "newExtractionsThisRun": 11,
   "summary": {
-    "cleared": 0,
-    "changesProposed": 0,
-    "unverifiable": 11
+    "cleared": 8,
+    "changesProposed": 3,
+    "unverifiable": 0
   },
-  "cleared": [],
-  "changesProposed": [],
-  "unverifiable": [
-    {
-      "name": "Caffeinated Capital",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cantos Ventures",
-      "reason": "Claude extraction failed"
-    },
+  "cleared": [
+    "Caffeinated Capital",
+    "Cantos Ventures",
+    "Eclipse Ventures",
+    "General Catalyst",
+    "Harpoon Ventures",
+    "Lightspeed Venture Partners",
+    "Point72 Ventures",
+    "Shield Capital"
+  ],
+  "changesProposed": [
     {
       "name": "DCVC",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Eclipse Ventures",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "DCVC",
+        "shortName": "DCVC",
+        "aum": "$4B+",
+        "flagshipFund": "DCVC Fund VI",
+        "founded": 2011,
+        "hq": "Palo Alto, CA",
+        "website": "https://dcvc.com"
+      },
+      "verified": {
+        "name": "DCVC",
+        "short_name": "DCVC",
+        "aum": "$4B+",
+        "flagship_fund": null,
+        "founded_year": null,
+        "hq": "Palo Alto, CA",
+        "key_partners": [
+          "Matthew Ocko",
+          "Zachary Bogue",
+          "Dr. John Hamer",
+          "Dr. Kiersten Stead",
+          "Spencer Punter",
+          "Alan Cohen",
+          "James Hardiman",
+          "Jason Pontin",
+          "Dr. Rachel Slaybaugh",
+          "Ali Tamaseb",
+          "Milo Werner",
+          "Dr. Justin Kern"
+        ],
+        "sector_focus": [
+          "AI",
+          "Climate",
+          "Engineering",
+          "Materials Science",
+          "Robotics",
+          "Space",
+          "Water",
+          "Biology",
+          "Defense and Security"
+        ],
+        "thesis": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and deep technology.",
+        "website": "https://dcvc.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "short_name": [
+            0,
+            1,
+            2
+          ],
+          "aum": [
+            1
+          ],
+          "hq": [
+            1
+          ],
+          "key_partners": [
+            2
+          ],
+          "sector_focus": [
+            1
+          ],
+          "thesis": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Founded year not explicitly stated in sources, only '15 Years Active' mentioned in source 1. Full canonical name is 'Data Collective' per source 1. Firm comprises 13 funds to date with 6 flagship funds (source 1). DCVC Bio established in 2018 as dedicated life sciences investment vehicle (source 1)."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and AI.",
+          "verified": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and deep technology.",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://dcvc.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://dcvc.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://dcvc.com/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/companies",
+          "url": "https://dcvc.com/companies"
+        }
+      ],
+      "notes": "Founded year not explicitly stated in sources, only '15 Years Active' mentioned in source 1. Full canonical name is 'Data Collective' per source 1. Firm comprises 13 funds to date with 6 flagship funds (source 1). DCVC Bio established in 2018 as dedicated life sciences investment vehicle (source 1)."
     },
     {
       "name": "Engine Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "General Catalyst",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Harpoon Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Lightspeed Venture Partners",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Point72 Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Shield Capital",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Engine Ventures",
+        "shortName": "Engine",
+        "aum": "$1B+",
+        "flagshipFund": "Engine Ventures Fund III",
+        "founded": 2023,
+        "hq": "Cambridge, MA",
+        "website": "https://engine.xyz"
+      },
+      "verified": {
+        "name": "Engine Ventures",
+        "short_name": "Engine",
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": 2023,
+        "hq": "Cambridge, MA",
+        "key_partners": null,
+        "sector_focus": [
+          "Applied AI & ML",
+          "Computing",
+          "Mobility",
+          "Autonomous Systems / Robotics",
+          "Energy",
+          "Natural Resources",
+          "Biotech / Life Sciences",
+          "Food / Agriculture",
+          "Quantum Computing",
+          "Carbon Capture / CCUS",
+          "Manufacturing",
+          "Space",
+          "Climate",
+          "Materials",
+          "Water / Oceans"
+        ],
+        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "website": "https://engine.xyz",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            3
+          ],
+          "short_name": [
+            0
+          ],
+          "founded_year": [
+            1,
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "sector_focus": [
+            1
+          ],
+          "thesis": [
+            3
+          ],
+          "website": [
+            0,
+            1,
+            3
+          ]
+        },
+        "notes": "Engine Ventures spun out as separate investment firm from The Engine nonprofit in 2023. The Engine itself is a 501(c)(3) nonprofit incubator/accelerator founded by MIT in 2016. Sources do not provide AUM, current flagship fund name, or current senior partner names for Engine Ventures specifically. Key distinction: Engine Ventures (investment firm) separated from The Engine (nonprofit accelerator) in 2023."
+      },
+      "changes": [
+        {
+          "field": "sectorFocus",
+          "current": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS"
+          ],
+          "verified": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS",
+            "Manufacturing",
+            "Space",
+            "Climate",
+            "Materials",
+            "Water / Oceans"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://engine.xyz"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://engine.xyz/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/companies",
+          "url": "https://engine.xyz/companies"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        }
+      ],
+      "notes": "Engine Ventures spun out as separate investment firm from The Engine nonprofit in 2023. The Engine itself is a 501(c)(3) nonprofit incubator/accelerator founded by MIT in 2016. Sources do not provide AUM, current flagship fund name, or current senior partner names for Engine Ventures specifically. Key distinction: Engine Ventures (investment firm) separated from The Engine (nonprofit accelerator) in 2023."
     },
     {
       "name": "Thrive Capital Management, LLC",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Thrive Capital Management, LLC",
+        "shortName": "Thrive Capital",
+        "aum": "$50B+",
+        "flagshipFund": "Thrive Capital Partners IX",
+        "founded": 2009,
+        "hq": "New York City, New York, U.S.",
+        "website": "https://thrivecap.com"
+      },
+      "verified": {
+        "name": "Thrive Capital Management, LLC",
+        "short_name": "Thrive Capital",
+        "aum": "$50B+",
+        "flagship_fund": "Thrive Capital Partners IX",
+        "founded_year": 2009,
+        "hq": "New York City, New York, U.S.",
+        "key_partners": [
+          "Joshua Kushner",
+          "Nitin Nohria"
+        ],
+        "sector_focus": [
+          "Software",
+          "Internet"
+        ],
+        "thesis": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies. It simultaneously maintains participation across early-stage, growth, and late-stage investment rounds.",
+        "website": "https://thrivecap.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "short_name": [
+            0
+          ],
+          "aum": [
+            0
+          ],
+          "flagship_fund": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "hq": [
+            0
+          ],
+          "key_partners": [
+            0
+          ],
+          "sector_focus": [
+            0
+          ],
+          "thesis": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "In 2022, Nitin Nohria, former dean of Harvard Business School, became the firm's first executive chairman. Thrive announced in August 2024 that it raised over $5 billion for Thrive IX, split between a $4 billion late-stage fund and a $1 billion early-stage fund. As of 2026, Thrive Capital Partners X was raised with $10B+ in committed capital."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies. It simultaneously maintains participation across early-stage, growth, and late-stage investments.",
+          "verified": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies. It simultaneously maintains participation across early-stage, growth, and late-stage investment rounds.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thrive_Capital_Management%2C_LLC"
+        }
+      ],
+      "notes": "In 2022, Nitin Nohria, former dean of Harvard Business School, became the firm's first executive chairman. Thrive announced in August 2024 that it raised over $5 billion for Thrive IX, split between a $4 billion late-stage fund and a $1 billion early-stage fund. As of 2026, Thrive Capital Partners X was raised with $10B+ in committed capital."
     }
-  ]
+  ],
+  "unverifiable": []
 }
