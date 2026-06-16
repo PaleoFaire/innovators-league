@@ -1,5 +1,19 @@
 [
   {
+    "company": "SpaceX",
+    "totalRaised": "$19.0B+",
+    "totalRaisedRaw": 19000.0,
+    "lastRound": "IPO",
+    "lastRoundAmount": "$75B",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "NEA"
+    ],
+    "roundCount": 5
+  },
+  {
     "company": "Galvanick",
     "totalRaised": "$17.1B+",
     "totalRaisedRaw": 17090.0,
@@ -39,20 +53,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "SpaceX",
-    "totalRaised": "$14.0B+",
-    "totalRaisedRaw": 14000.0,
-    "lastRound": "IPO",
-    "lastRoundAmount": "$75B",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "NEA"
-    ],
-    "roundCount": 3
   },
   {
     "company": "Shield AI",
@@ -815,6 +815,20 @@
     "roundCount": 1
   },
   {
+    "company": "Scale AI",
+    "totalRaised": "$262M+",
+    "totalRaisedRaw": 261.8,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$250M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Accel"
+    ],
+    "roundCount": 3
+  },
+  {
     "company": "Hadrian",
     "totalRaised": "$260M+",
     "totalRaisedRaw": 260.0,
@@ -828,11 +842,11 @@
     "roundCount": 1
   },
   {
-    "company": "Scale AI",
-    "totalRaised": "$252M+",
-    "totalRaisedRaw": 251.8,
+    "company": "Bear Robotics",
+    "totalRaised": "$244M+",
+    "totalRaisedRaw": 244.0,
     "lastRound": "Funding Round",
-    "lastRoundAmount": "$250M",
+    "lastRoundAmount": "$10M",
     "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
@@ -1150,6 +1164,19 @@
     "roundCount": 3
   },
   {
+    "company": "Amca",
+    "totalRaised": "$62M+",
+    "totalRaisedRaw": 62.5,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$62.5M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "ideaForge",
     "totalRaised": "$61M+",
     "totalRaisedRaw": 61.0,
@@ -1365,19 +1392,6 @@
     "totalRaisedRaw": 14.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$14M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Bear Robotics",
-    "totalRaised": "$10M+",
-    "totalRaisedRaw": 10.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$10M",
     "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [

@@ -1,110 +1,61 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 60,
-    "trend": "accelerating",
-    "catalysts": [
-      "Robotics Summit panel explores the state of humanoid robot d",
-      "NEURA Robotics secures up to $1.4B, Bending Spoons files for",
-      "Waymo: Aim to Become &#8220;World\u2019s Most Trusted Driver&#822"
-    ],
-    "fundingQ": "$8.2B",
-    "components": {
-      "funding": 100,
-      "news": 60,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-15"
-  },
-  {
     "sector": "Space & Aerospace",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Elon Says $1 Trillion Revenue for SpaceX in 2030 Like I Have",
-      "TechCrunch Mobility: SpaceX rockets past Tesla",
-      "Is Echostar a Way to Get SpaceX at $80-113 Per Share ?"
+      "WhyBrilliant raises \u20ac1M to scale AI job matching, backed by",
+      "SpaceX 6th Biggest Most Valuable and Tesla 10th",
+      "SpaceX is at $213 and About $2.8 Trillion in Valuation"
     ],
-    "fundingQ": "$89.7B",
+    "fundingQ": "$180.4B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 58,
+    "trend": "accelerating",
+    "catalysts": [
+      "PSYONIC partners with ABB Robotics to apply human touch to r",
+      "Autonomous freight developer Einride goes public via SPAC",
+      "Robotics Summit panel explores the state of humanoid robot d"
+    ],
+    "fundingQ": "$8.2B",
+    "components": {
+      "funding": 100,
+      "news": 50,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-16"
   },
   {
     "sector": "AI & Software",
-    "momentum": 54,
-    "trend": "steady",
+    "momentum": 56,
+    "trend": "accelerating",
     "catalysts": [
-      "As Anthropic suspends access to new models, India debates it",
-      "Amazon CEO reportedly raised Anthropic model concerns before",
-      "OpenAI faces investigation from state attorneys general"
+      "Anthropic&#8217;s Claude narrows gap with ChatGPT among Sing",
+      "Rainbow Crops raises \u20ac9.7M to scale AI-powered crop engineer",
+      "WhyBrilliant raises \u20ac1M to scale AI job matching, backed by"
     ],
     "fundingQ": "$170.8B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-15"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 48,
-    "trend": "steady",
-    "catalysts": [
-      "Waymo buys Apple&#8217;s abandoned self-driving car proving",
-      "Harbinger gears up for war with autonomous military truck pr"
-    ],
-    "fundingQ": "$12.7B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-15"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Saronic, Castelion to pair Marauder MUSV with Blackbeard hyp"
-    ],
-    "fundingQ": "$1.8B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-15"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Saronic, Castelion to pair Marauder MUSV with Blackbeard hyp"
-    ],
-    "fundingQ": "$10.8B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 42,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
       "Contriving Imaginary Gaps in Nuclear Deterrence",
@@ -116,119 +67,152 @@
       "funding": 100,
       "news": 15,
       "hiring": 0,
-      "market": 16
+      "market": 60
     },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 41,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "Saronic, Castelion to pair Marauder MUSV with Blackbeard hyp",
-      "K2 Space, Rocket Lab win key supplier roles in Space Force s",
-      "Harbinger gears up for war with autonomous military truck pr"
+      "DOJ Lawyers Argue xAI Is \u2018Vital\u2019 for National Security in NA",
+      "How the Commerce crackdown on Anthropic could impact the Pen",
+      "K2 Space, Rocket Lab win key supplier roles in Space Force s"
     ],
     "fundingQ": "$32.8B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
-      "market": 0
+      "market": 37
     },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "Autonomous freight developer Einride goes public via SPAC",
+      "Waymo buys Apple&#8217;s abandoned self-driving car proving",
+      "Harbinger gears up for war with autonomous military truck pr"
+    ],
+    "fundingQ": "$12.7B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-16"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 46,
+    "trend": "steady",
+    "catalysts": [
+      "NASA\u2019s SpaceX CRS-34 Dragon Returns Packed with Space Statio"
+    ],
+    "fundingQ": "$10.8B",
+    "components": {
+      "funding": 100,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-16"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "Active supersonic & hypersonic ecosystem"
+    ],
+    "fundingQ": "$1.8B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-16"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 31,
-    "trend": "rising",
+    "momentum": 32,
+    "trend": "steady",
     "catalysts": [
+      "The Case that SpaceX Shares are Halfprice Inside of Echostar",
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 25,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
+      "How the Commerce crackdown on Anthropic could impact the Pen",
       "Anthropic suspends top AI models after US export-control ord",
-      "NEURA Robotics secures up to $1.4B, Bending Spoons files for",
-      "Neura Robotics raises $1.4bn backed by Amazon, Nvidia and Qu"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-06-15"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX IPO: Live updates on everything you need to know",
-      "SpaceX shares rise nearly 20% in historic IPO",
-      "Robotics Summit panel explores the state of humanoid robot d"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-15"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 17,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI faces investigation from state attorneys general",
-      "K2 Space, Rocket Lab win key supplier roles in Space Force s",
-      "Tesla pushes Roadster demo to August as SpaceX thruster work"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 25,
-      "hiring": 0,
-      "market": 40
-    },
-    "lastUpdated": "2026-06-15"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX IPO: Live updates on everything you need to know",
-      "NASA to Cover 34th SpaceX Resupply Mission Space Station Dep",
-      "SpaceX is Already an AI Leader &#8211; AI Cloud Revenue Lead"
+      "NEURA Robotics secures up to $1.4B, Bending Spoons files for"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-06-16"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "K2 Space, Rocket Lab win key supplier roles in Space Force s",
+      "Tesla pushes Roadster demo to August as SpaceX thruster work",
+      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 15,
+      "hiring": 0,
+      "market": 84
+    },
+    "lastUpdated": "2026-06-16"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 22,
+    "trend": "rising",
+    "catalysts": [
+      "Rainbow Crops raises \u20ac9.7M to scale AI-powered crop engineer",
+      "PSYONIC partners with ABB Robotics to apply human touch to r",
+      "SpaceX is public: Everything you need to know post-IPO"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 50,
+      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -238,29 +222,45 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 54
+      "market": 61
     },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
+    "sector": "Housing & Construction",
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active infrastructure & logistics ecosystem"
+      "SpaceX is public: Everything you need to know post-IPO"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic&#8217;s Claude narrows gap with ChatGPT among Sing"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-16"
   },
   {
     "sector": "Transportation",
-    "momentum": 6,
+    "momentum": 9,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -270,8 +270,8 @@
       "funding": 7,
       "news": 0,
       "hiring": 0,
-      "market": 17
+      "market": 35
     },
-    "lastUpdated": "2026-06-15"
+    "lastUpdated": "2026-06-16"
   }
 ]

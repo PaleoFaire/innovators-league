@@ -37,6 +37,18 @@
   },
   {
     "company": "Anduril",
+    "awardId": "W9128Z26FA005",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 87713060.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-16",
+    "endDate": "2027-03-15",
+    "description": "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED INSTALLATION, SYSTEMS INTEGRATION, SPECIALIZED TRAINING, AND TECHNICAL SUPPORT SE"
+  },
+  {
+    "company": "Anduril",
     "awardId": "70B02C25F00000926",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 50734262.78,
@@ -1186,18 +1198,6 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "H9240225FE010",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 256022.78,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-06-24",
-    "endDate": "2026-05-22",
-    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Anduril Industries",
@@ -1237,6 +1237,18 @@
   },
   {
     "company": "Anduril Industries",
+    "awardId": "W9128Z26FA005",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 87713060.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-16",
+    "endDate": "2027-03-15",
+    "description": "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED INSTALLATION, SYSTEMS INTEGRATION, SPECIALIZED TRAINING, AND TECHNICAL SUPPORT SE"
+  },
+  {
+    "company": "Anduril Industries",
     "awardId": "70B02C25F00000926",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 50734262.78,
@@ -2386,18 +2398,6 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
-  },
-  {
-    "company": "Anduril Industries",
-    "awardId": "H9240225FE010",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 256022.78,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-06-24",
-    "endDate": "2026-05-22",
-    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Shield AI",
@@ -2641,6 +2641,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W519TC25F0331",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 70230171.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-08-20",
+    "endDate": "2026-08-19",
+    "description": "FORSCOM TASK ORDER 1"
+  },
+  {
+    "company": "Palantir",
     "awardId": "W519TC26F0012",
     "recipientName": "PALANTIR USG INC",
     "amount": 68919805.47,
@@ -2662,18 +2674,6 @@
     "startDate": "2026-01-30",
     "endDate": "2027-01-29",
     "description": "OPERATIONAL LEVEL -"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W519TC25F0331",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 51997500.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-08-20",
-    "endDate": "2026-09-30",
-    "description": "FORSCOM TASK ORDER 1"
   },
   {
     "company": "Palantir",
@@ -3841,6 +3841,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W519TC25F0331",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 70230171.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-08-20",
+    "endDate": "2026-08-19",
+    "description": "FORSCOM TASK ORDER 1"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "W519TC26F0012",
     "recipientName": "PALANTIR USG INC",
     "amount": 68919805.47,
@@ -3862,18 +3874,6 @@
     "startDate": "2026-01-30",
     "endDate": "2027-01-29",
     "description": "OPERATIONAL LEVEL -"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W519TC25F0331",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 51997500.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-08-20",
-    "endDate": "2026-09-30",
-    "description": "FORSCOM TASK ORDER 1"
   },
   {
     "company": "Palantir Technologies",
@@ -5336,7 +5336,7 @@
     "subAgency": "Department of the Air Force",
     "awardType": null,
     "startDate": "2025-04-30",
-    "endDate": "2027-09-07",
+    "endDate": "2028-09-06",
     "description": "NATIONAL SECURITY SPACE LAUNCH (NSSL) PHASE 3 LANE 2 LAUNCH SERVICES"
   },
   {

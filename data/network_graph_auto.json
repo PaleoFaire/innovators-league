@@ -4706,12 +4706,12 @@
       "thesisCluster": ""
     },
     {
-      "id": "OpenAI-alumni-hub",
+      "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
     },
     {
-      "id": "SpaceX-alumni-hub",
+      "id": "OpenAI-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
     },
@@ -10015,16 +10015,6 @@
       "cluster": "thermal-storage"
     },
     {
-      "src": "OpenAI-alumni-hub",
-      "dst": "Core Automation",
-      "type": "alumni"
-    },
-    {
-      "src": "OpenAI-alumni-hub",
-      "dst": "Blackstar",
-      "type": "alumni"
-    },
-    {
       "src": "SpaceX-alumni-hub",
       "dst": "Lux Aeterna",
       "type": "alumni"
@@ -10032,6 +10022,11 @@
     {
       "src": "SpaceX-alumni-hub",
       "dst": "Long Wall",
+      "type": "alumni"
+    },
+    {
+      "src": "OpenAI-alumni-hub",
+      "dst": "Blackstar",
       "type": "alumni"
     },
     {
@@ -10052,9 +10047,9 @@
   ],
   "counts": {
     "total_nodes": 946,
-    "total_edges": 915,
+    "total_edges": 914,
     "competitor_edges": 166,
     "thesis_edges": 742,
-    "alumni_edges": 7
+    "alumni_edges": 6
   }
 }
