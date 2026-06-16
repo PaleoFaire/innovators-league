@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T05:23:47.511376+00:00",
+  "generatedAt": "2026-06-16T11:29:07.471081+00:00",
   "date": "2026-06-16",
   "dateDisplay": "Tuesday, June 16, 2026",
   "sections": {
@@ -95,9 +95,9 @@
       {
         "ticker": "9348.T",
         "company": "ispace",
-        "price": 475.0,
-        "changePercent": -17.68,
-        "change": -102.0
+        "price": 468.0,
+        "changePercent": -18.89,
+        "change": -109.0
       },
       {
         "ticker": "LUNR",
@@ -121,18 +121,18 @@
         "change": 56.93
       },
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 118.2,
-        "changePercent": -9.7,
-        "change": -12.7
-      },
-      {
         "ticker": "TEM",
         "company": "Tempus AI",
         "price": 52.32,
         "changePercent": 7.68,
         "change": 3.73
+      },
+      {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 117.0,
+        "changePercent": -7.07,
+        "change": -8.9
       }
     ],
     "regulatory": [
