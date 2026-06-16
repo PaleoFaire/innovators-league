@@ -5,95 +5,95 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.29,
+      "avg_change": -0.82,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -10.89,
+      "avg_change": -12.03,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -0.29,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 0.81,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.35,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 2.08,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.5,
+      "avg_change": -11.61,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.13,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 4.71,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.1,
+      "avg_change": 0.34,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -0.2,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 1.42,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.61,
+      "avg_change": 6.28,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "AMD",
+      "AMD",
+      9.7
+    ],
+    [
       "ALAB",
       "Astera Labs",
-      12.38
-    ],
-    [
-      "AMD",
-      "AMD",
-      11.61
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      7.68
+      8.74
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      4.3
+      7.24
     ],
     [
-      "OKLO",
-      "Oklo",
-      3.05
+      "TEM",
+      "Tempus AI",
+      6.98
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      4.88
     ]
   ],
   "topLosers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -7.07
+      "PL",
+      "Planet Labs",
+      -10.23
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -13.37
+      -14.74
     ],
     [
       "9348.T",
@@ -101,15 +101,15 @@
       -18.89
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      -19.01
-    ],
-    [
       "ASRHF",
       "Astroscale",
-      -24.3
+      -29.68
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -30.52
     ]
   ],
-  "lastUpdated": "2026-06-16 11:19:16"
+  "lastUpdated": "2026-06-16 17:02:24"
 }
