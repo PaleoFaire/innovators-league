@@ -60937,23 +60937,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-16 21:14
+// Last updated: 2026-06-16 23:41
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "Waymo taps fleet giant Element to scale its robotaxi service", source: "Electrek", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "SpaceX", headline: "SpaceX valuation balloons to $2.6T, briefly passes Amazon", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Mach Industries", headline: "Mach Industries wins DIU contract for maritime, long-range strike drone", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Matter", headline: "'Dangerous' AI Models Are Coming No Matter What", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Acquires AI Coding Tool Cursor For $60B In Year's Largest Startup M&#038;A Deal", source: "Crunchbase News", time: "3h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX is public: Everything you need to know post-IPO", source: "TechCrunch", time: "5h ago", impact: "high", unread: false },
-  { id: 7, type: "contract", company: "xAI", headline: "DOJ claims xAI's unpermitted gas turbines are a matter of 'national, economic, and energy security'", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Industry and academia call on administration to free Anthropic's AI model", source: "Defense One", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Built Robotics", headline: "Built Robotics, Penn xLAB to develop physical AI for construction", source: "The Robot Report", time: "10h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "Anthropic's Claude narrows gap with ChatGPT among Singapore startups as AI becomes core infrastructure", source: "TechNode Global", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Scale AI", headline: "Rainbow Crops raises '9.7M to scale AI-powered crop engineering", source: "Tech.eu", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Scale AI", headline: "WhyBrilliant raises '1M to scale AI job matching, backed by Merantix", source: "Tech.eu", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Scale AI", headline: "Lightbringer raises $10M to scale AI-powered patent services", source: "Tech.eu", time: "14h ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "Dexterity", headline: "PSYONIC partners with ABB Robotics to apply human touch to robot dexterity", source: "The Robot Report", time: "17h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "Waymo taps fleet giant Element to scale its robotaxi service", source: "Electrek", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "SpaceX", headline: "SpaceX valuation balloons to $2.6T, briefly passes Amazon", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "OpenAI", headline: "ChatGPT to debut on Pentagon's GenAI.mil in 'early July', OpenAI says", source: "Defense One", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Mach Industries", headline: "Mach Industries wins DIU contract for maritime, long-range strike drone", source: "Breaking Defense", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Matter", headline: "'Dangerous' AI Models Are Coming No Matter What", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX Acquires AI Coding Tool Cursor For $60B In Year's Largest Startup M&#038;A Deal", source: "Crunchbase News", time: "6h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX is public: Everything you need to know post-IPO", source: "TechCrunch", time: "7h ago", impact: "high", unread: false },
+  { id: 8, type: "contract", company: "xAI", headline: "DOJ claims xAI's unpermitted gas turbines are a matter of 'national, economic, and energy security'", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Industry and academia call on administration to free Anthropic's AI model", source: "Defense One", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Built Robotics", headline: "Built Robotics, Penn xLAB to develop physical AI for construction", source: "The Robot Report", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic's Claude narrows gap with ChatGPT among Singapore startups as AI becomes core infrastructure", source: "TechNode Global", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Scale AI", headline: "Rainbow Crops raises '9.7M to scale AI-powered crop engineering", source: "Tech.eu", time: "15h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Scale AI", headline: "WhyBrilliant raises '1M to scale AI job matching, backed by Merantix", source: "Tech.eu", time: "16h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Scale AI", headline: "Lightbringer raises $10M to scale AI-powered patent services", source: "Tech.eu", time: "16h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
