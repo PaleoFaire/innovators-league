@@ -1,35 +1,32 @@
 {
-  "generatedAt": "2026-06-15T11:47:55+00:00",
+  "generatedAt": "2026-06-16T10:56:20+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 34,
-  "newExtractionsThisRun": 34,
+  "cohortSize": 26,
+  "newExtractionsThisRun": 26,
   "summary": {
-    "cleared": 24,
-    "changesProposed": 10,
+    "cleared": 21,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
     "1X Technologies",
     "Agility Robotics",
-    "Andrenam",
-    "Asylon Robotics",
+    "Apptronik",
+    "Atom Bodies",
     "Axiom Space",
     "Blue Origin",
     "Cape",
-    "Cover",
     "Deterrence",
     "Dexterity",
-    "FleetZero",
+    "Galvanick",
     "Harbinger",
     "Humanoid",
-    "Navier",
     "Palantir",
     "Percepto",
-    "Pivotal",
-    "Saronic",
+    "Rocket Lab",
+    "Space Forge",
     "Standard Nuclear",
-    "Tekever",
     "Vast",
     "Waymo",
     "X-Energy",
@@ -37,159 +34,67 @@
   ],
   "changesProposed": [
     {
-      "name": "Apptronik",
+      "name": "Einride",
       "current": {
-        "name": "Apptronik",
-        "founder": "Jeff Cardenas, Nick Paine",
-        "location": "Austin, TX",
+        "name": "Einride",
+        "founder": "Robert Falck, Filip Lilja, Linn\u00e9a Kornehed",
+        "location": "Stockholm, Sweden",
         "founded": 2016,
-        "fundingStage": "Series A",
-        "totalRaised": "$935M+",
-        "website": "https://apptronik.com"
+        "fundingStage": "Series C",
+        "totalRaised": "$752M+",
+        "website": "https://www.einride.tech"
       },
       "verified": {
-        "name": "Apptronik",
-        "description": "Apptronik develops Apollo, a general-purpose humanoid robot designed for logistics, manufacturing, and retail applications including case picking, palletization, and trailer unloading.",
+        "name": "Einride",
+        "description": "Swedish transport company specializing in electric and autonomous trucks without driver cabs, remotely controlled by operators. The company provides an integrated platform connecting autonomous vehicles, electric freight transport, charging infrastructure, and AI-powered software.",
         "founders": [
-          "Jeff Cardenas"
+          "Robert Falck",
+          "Filip Lilja",
+          "Linn\u00e9a Kornehed"
         ],
-        "location": "Austin, TX",
+        "location": "Stockholm, Sweden",
         "founded_year": 2016,
-        "current_stage": null,
+        "current_stage": "Public",
         "total_raised": null,
         "valuation": null,
         "investors": null,
-        "website": "https://apptronik.com",
+        "website": "https://www.einride.tech",
         "sources_per_field": {
           "name": [
-            0
+            0,
+            1,
+            2
           ],
           "description": [
-            0,
-            1
-          ],
-          "founders": [
+            2,
             0
           ],
+          "founders": [
+            2
+          ],
           "location": [
-            1
+            2
           ],
           "founded_year": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Only Jeff Cardenas is explicitly named as founder/CEO in provided sources. Nick Paine mentioned in database entry but not verified in sources provided. Database entry claims Series A $350M and total $935M+ raised, but no funding information appears in provided sources. Source [2] title only, no content provided to verify additional details."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Jeff Cardenas, Nick Paine",
-          "verified": "Jeff Cardenas",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://apptronik.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://apptronik.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/robotics-summit-panel-explores-state-humanoid-robot-design/"
-        }
-      ],
-      "notes": "Only Jeff Cardenas is explicitly named as founder/CEO in provided sources. Nick Paine mentioned in database entry but not verified in sources provided. Database entry claims Series A $350M and total $935M+ raised, but no funding information appears in provided sources. Source [2] title only, no content provided to verify additional details."
-    },
-    {
-      "name": "Castelion",
-      "current": {
-        "name": "Castelion",
-        "founder": "Bryon Hargis, Sean Pitt, Andrew Kreitz",
-        "location": "Torrance, CA",
-        "founded": 2022,
-        "fundingStage": "Series B",
-        "totalRaised": "$450M",
-        "website": "https://castelion.com"
-      },
-      "verified": {
-        "name": "Castelion",
-        "description": "Castelion designs, tests, and manufactures hypersonic strike systems for the U.S. Department of Defense, combining rapid iteration, vertical integration, and scalable manufacturing to deliver affordable, high-performance weapons.",
-        "founders": [
-          "Bryon Hargis",
-          "Sean Pitt",
-          "Andrew Kreitz"
-        ],
-        "location": "Torrance, CA",
-        "founded_year": null,
-        "current_stage": "Series A",
-        "total_raised": "$100M",
-        "valuation": null,
-        "investors": [
-          "Lightspeed Venture Partners",
-          "a16z",
-          "Lavrock Ventures",
-          "Cantos",
-          "First In",
-          "BlueYard Capital",
-          "Interlagos",
-          "Silicon Valley Bank"
-        ],
-        "website": "https://castelion.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
+            1,
+            2
           ],
           "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "investors": [
-            1
+            3
           ],
           "website": [
             0
           ]
         },
-        "notes": "Database entry lists Series B with $350M raise, but sources cite Series A announced January 2025 with $100M total capital raise including $70M Series A and $30M venture debt. Sources mention Blackbeard as a product (referenced in Breaking Defense article about maritime launch demonstration). No founding year explicitly stated in sources."
+        "notes": "Company went public via SPAC according to source 3. Wikipedia confirms 2016 founding and three named founders. The database entry listed 'Series C' stage, but source [3] indicates the company has gone public via SPAC merger. No specific financial figures (total_raised or valuation) could be verified from the provided sources."
       },
       "changes": [
         {
           "field": "fundingStage",
-          "current": "Series B",
-          "verified": "Series A",
+          "current": "Series C",
+          "verified": "Public",
           "sources": [
-            1
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$450M",
-          "verified": "$100M",
-          "sources": [
-            1
+            3
           ]
         }
       ],
@@ -197,20 +102,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://castelion.com"
+          "url": "https://www.einride.tech"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://castelion.com/about"
+          "url": "https://www.einride.tech/about"
         },
         {
           "idx": 2,
-          "src": "news (Breaking Defense)",
-          "url": "https://breakingdefense.com/2026/06/saronic-castelion-to-pair-marauder-musv-with-blackbeard-hypersonic-capability/"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Einride"
+        },
+        {
+          "idx": 3,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/"
         }
       ],
-      "notes": "Database entry lists Series B with $350M raise, but sources cite Series A announced January 2025 with $100M total capital raise including $70M Series A and $30M venture debt. Sources mention Blackbeard as a product (referenced in Breaking Defense article about maritime launch demonstration). No founding year explicitly stated in sources."
+      "notes": "Company went public via SPAC according to source 3. Wikipedia confirms 2016 founding and three named founders. The database entry listed 'Series C' stage, but source [3] indicates the company has gone public via SPAC merger. No specific financial figures (total_raised or valuation) could be verified from the provided sources."
     },
     {
       "name": "Fervo Energy",
@@ -225,7 +135,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "A geothermal company that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. The company operates Project Red in Nevada and is developing Cape Station in Utah.",
+        "description": "A geothermal energy company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas. Operates Project Red in Nevada and is developing Cape Station in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -249,6 +159,7 @@
             2
           ],
           "description": [
+            0,
             2
           ],
           "founders": [
@@ -274,7 +185,7 @@
             2
           ]
         },
-        "notes": "Company went public in May 2026 (confirmed by news headlines in source 0 dated May 17, 2026). Wikipedia source lists company as 'Private' but appears outdated given IPO occurred after Wikipedia article last update. Latest Series E funding of $462M in November 2025 is documented in source 2, but this predates the IPO."
+        "notes": "Company went public in May 2026 based on newsroom entries dated May 17, 2026 in source [0]. Wikipedia source [2] lists company as 'Private' but this predates the IPO announcement. Most recent Series E funding of $462M occurred in November 2025 per source [2]."
       },
       "changes": [
         {
@@ -308,22 +219,22 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
         }
       ],
-      "notes": "Company went public in May 2026 (confirmed by news headlines in source 0 dated May 17, 2026). Wikipedia source lists company as 'Private' but appears outdated given IPO occurred after Wikipedia article last update. Latest Series E funding of $462M in November 2025 is documented in source 2, but this predates the IPO."
+      "notes": "Company went public in May 2026 based on newsroom entries dated May 17, 2026 in source [0]. Wikipedia source [2] lists company as 'Private' but this predates the IPO announcement. Most recent Series E funding of $462M occurred in November 2025 per source [2]."
     },
     {
       "name": "K2 Space",
       "current": {
         "name": "K2 Space",
         "founder": "Karan Kunjur, Neel Kunjur",
-        "location": "Torrance, CA",
+        "location": "Torrance, US",
         "founded": 2022,
         "fundingStage": "Series C",
-        "totalRaised": "$250M+",
+        "totalRaised": "$110M",
         "website": "https://k2space.com"
       },
       "verified": {
         "name": "K2 Space",
-        "description": "K2 Space builds high-power satellite platforms, with Mega Class satellites delivering 20kW of power. The company designs satellites for deployment across LEO, MEO, and GEO orbits.",
+        "description": "K2 Space designs and builds high-power satellite platforms for LEO, MEO, and GEO orbits. The company's Mega Class platform delivers 20kW of power with 3000kg payload mass capacity.",
         "founders": [
           "Karan Kunjur",
           "Neel Kunjur"
@@ -359,30 +270,13 @@
             0
           ]
         },
-        "notes": "Website indicates $110M Series B funding announced January 15, 2025. Database entry shows conflicting total_raised ($250M+ vs $110M) and stage (Series C vs Series B); most recent source indicates Series B with $110M. Founded year not explicitly stated in sources despite database entry showing 2022. Mega Class platform specified as 20kW (not 30kW as in database entry). CEO Karan Kunjur and CTO Neel Kunjur explicitly named as co-founders."
+        "notes": "Database entry claims $360M raised and Series C stage, but sources only verify $110M raised (Series B as of February 2025). Founded year 2022 in database entry cannot be verified from provided sources. Mega Class platform specs from source [0]: 20kW power, 3000kg payload mass (not the 30kW mentioned in database entry)."
       },
       "changes": [
-        {
-          "field": "location",
-          "current": "Torrance, CA",
-          "verified": "Torrance, US",
-          "sources": [
-            0,
-            1
-          ]
-        },
         {
           "field": "fundingStage",
           "current": "Series C",
           "verified": "Series B",
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$250M+",
-          "verified": "$110M",
           "sources": [
             0
           ]
@@ -405,77 +299,7 @@
           "url": "https://spacenews.com/k2-space-rocket-lab-win-key-supplier-roles-in-space-force-satcom-program/"
         }
       ],
-      "notes": "Website indicates $110M Series B funding announced January 15, 2025. Database entry shows conflicting total_raised ($250M+ vs $110M) and stage (Series C vs Series B); most recent source indicates Series B with $110M. Founded year not explicitly stated in sources despite database entry showing 2022. Mega Class platform specified as 20kW (not 30kW as in database entry). CEO Karan Kunjur and CTO Neel Kunjur explicitly named as co-founders."
-    },
-    {
-      "name": "Mara",
-      "current": {
-        "name": "Mara",
-        "founder": "Daniel Kofman (CEO; prior tactical FPV drones for DHS, first DoD contract at 22), Sriram Raghu (CTO; prior solutions for Anduril, US Air Force, NOAA, Ukrainian Army)",
-        "location": "San Francisco, CA",
-        "founded": 2024,
-        "fundingStage": "Pre-Seed",
-        "totalRaised": "$1.6M",
-        "website": "https://mara.inc"
-      },
-      "verified": {
-        "name": "Mara",
-        "description": "Develops autonomous counter-drone defense systems. Its product Spike is a portable air defense system designed to detect and defeat FPV drone attacks in RF-contested and GPS-denied environments.",
-        "founders": [
-          "Daniel Kofman",
-          "Sriram Raghu"
-        ],
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://mara.inc",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [2] from Breaking Defense discusses Saronic and Castelion (unrelated companies) and does not contain information about Mara. Company website footer shows copyright 2026, which is a future date. Database entry claims founded 2024, pre-seed stage, and $1.6M raised, but these cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Daniel Kofman (CEO; prior tactical FPV drones for DHS, first DoD contract at 22), Sriram Raghu (CTO; prior solutions for Anduril, US Air Force, NOAA, Ukrainian Army)",
-          "verified": "Daniel Kofman, Sriram Raghu",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://mara.inc"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://mara.inc/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (Breaking Defense)",
-          "url": "https://breakingdefense.com/2026/06/saronic-castelion-to-pair-marauder-musv-with-blackbeard-hypersonic-capability/"
-        }
-      ],
-      "notes": "Source [2] from Breaking Defense discusses Saronic and Castelion (unrelated companies) and does not contain information about Mara. Company website footer shows copyright 2026, which is a future date. Database entry claims founded 2024, pre-seed stage, and $1.6M raised, but these cannot be verified from provided sources."
+      "notes": "Database entry claims $360M raised and Series C stage, but sources only verify $110M raised (Series B as of February 2025). Founded year 2022 in database entry cannot be verified from provided sources. Mega Class platform specs from source [0]: 20kW power, 3000kg payload mass (not the 30kW mentioned in database entry)."
     },
     {
       "name": "Neura Robotics",
@@ -484,13 +308,13 @@
         "founder": "David Reger",
         "location": "Metzingen, Germany",
         "founded": 2019,
-        "fundingStage": "Series B",
-        "totalRaised": "$123.3M",
+        "fundingStage": "Series C",
+        "totalRaised": "$1.4B",
         "website": "https://www.neura-robotics.com"
       },
       "verified": {
         "name": "Neura Robotics",
-        "description": "German robotics company founded in 2019 that develops cognitive robots, collaborative robots, and humanoid robots designed to work alongside humans in manufacturing, logistics, and healthcare.",
+        "description": "German robotics company founded in 2019 that designs and manufactures cognitive and collaborative robots, including humanoid robots, with in-house development of AI, control software, sensor technology and mechanical components.",
         "founders": [
           "David Reger"
         ],
@@ -499,7 +323,13 @@
         "current_stage": "Series C",
         "total_raised": "$1.4B",
         "valuation": null,
-        "investors": null,
+        "investors": [
+          "Tether",
+          "Qualcomm Technologies",
+          "Amazon",
+          "NVIDIA",
+          "imec.xpa"
+        ],
         "website": "https://www.neura-robotics.com",
         "sources_per_field": {
           "name": [
@@ -508,7 +338,7 @@
             2
           ],
           "description": [
-            2
+            1
           ],
           "founders": [
             1,
@@ -523,34 +353,33 @@
             2
           ],
           "current_stage": [
-            1
+            4,
+            5
           ],
           "total_raised": [
-            1
+            3,
+            4,
+            5
           ],
-          "website": [
-            0,
-            1,
-            2
+          "investors": [
+            5
           ]
         },
-        "notes": "Company is in Series C funding round. Sources indicate 'up to $1.4B' in Series C funding. Wikipedia mentions January 2025 Series B of \u20ac120M ($123.3M), but company website and news sources [3,4,5] reference Series C round of up to $1.4B. The most recent funding stage appears to be Series C. Database entry lists conflicting total_raised figures ($123.3M vs \u20ac281M); most recent verified amount from sources is $1.4B for Series C."
+        "notes": "Series B funding of \u20ac120 million ($123.3 million) announced in January 2025 per source 2. Series C funding up to $1.4B announced in June 2026 per sources 3, 4, 5. Database entry valuation of \u20ac2.6B could not be verified from provided sources. Multiple funding rounds documented: July 2023 - $55M (source 2), January 2025 - \u20ac120M Series B (sources 1, 2), June 2026 - up to $1.4B Series C (sources 3, 4, 5)."
       },
       "changes": [
         {
-          "field": "fundingStage",
-          "current": "Series B",
-          "verified": "Series C",
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Tether",
+            "Qualcomm Technologies",
+            "Amazon",
+            "NVIDIA",
+            "imec.xpa"
+          ],
           "sources": [
-            1
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$123.3M",
-          "verified": "$1.4B",
-          "sources": [
-            1
+            5
           ]
         }
       ],
@@ -558,12 +387,12 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.neura-robotics.com"
+          "url": "https://neura-robotics.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.neura-robotics.com/about"
+          "url": "https://neura-robotics.com/company"
         },
         {
           "idx": 2,
@@ -577,210 +406,16 @@
         },
         {
           "idx": 4,
-          "src": "news (Sifted)",
-          "url": "https://sifted.eu/articles/neura-robotics-1-4bn-series-c/"
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/"
         },
         {
           "idx": 5,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/"
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/06/10/neura-robotics-secures-up-to-14b-series-c-to-scale-physical-ai-and-cognitive-robotics-platform/"
         }
       ],
-      "notes": "Company is in Series C funding round. Sources indicate 'up to $1.4B' in Series C funding. Wikipedia mentions January 2025 Series B of \u20ac120M ($123.3M), but company website and news sources [3,4,5] reference Series C round of up to $1.4B. The most recent funding stage appears to be Series C. Database entry lists conflicting total_raised figures ($123.3M vs \u20ac281M); most recent verified amount from sources is $1.4B for Series C."
-    },
-    {
-      "name": "Rocket Lab",
-      "current": {
-        "name": "Rocket Lab",
-        "founder": "Peter Beck",
-        "location": "Long Beach, CA",
-        "founded": 2006,
-        "fundingStage": "Public",
-        "totalRaised": "",
-        "website": "https://www.rocketlabcorp.com"
-      },
-      "verified": {
-        "name": "Rocket Lab",
-        "description": "Rocket Lab is a publicly traded aerospace manufacturer and launch service provider whose Electron orbital rocket has completed over 75 missions as of January 2026, making it the most prolific small-lift launch vehicle in operation globally. The company also manufactures satellite buses, spacecraft, and components including star trackers, reaction wheels, and flight software.",
-        "founders": [
-          "Peter Beck"
-        ],
-        "location": "Long Beach, California, USA",
-        "founded_year": 2006,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Khosla Ventures",
-          "Bessemer Venture Partners",
-          "Lockheed Martin",
-          "Data Collective",
-          "Promus Ventures",
-          "Future Fund"
-        ],
-        "website": "https://www.rocketlabcorp.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "investors": [
-            2
-          ]
-        },
-        "notes": "Company went public on Nasdaq in August 2021 via SPAC merger. Founded in Auckland, New Zealand in 2006, relocated headquarters to Huntington Beach, California in 2013, then moved to Long Beach in 2020. Has acquired six companies: Sinclair Interplanetary (2020), Advanced Solutions Inc (2021), Planetary Systems Corporation (2021), SolAero Holdings (2022), Geost LLC (2025), and Mynaric AG (2026). Database entry claims about 2025 launches (18 successful), $816M SDA contract, and market cap tripled to $37B could not be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Long Beach, CA",
-          "verified": "Long Beach, California, USA",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.rocketlabcorp.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.rocketlabcorp.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Rocket_Lab"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/k2-space-rocket-lab-win-key-supplier-roles-in-space-force-satcom-program/"
-        },
-        {
-          "idx": 4,
-          "src": "earnings (Rocket Lab 2025-Q4)",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/"
-        }
-      ],
-      "notes": "Company went public on Nasdaq in August 2021 via SPAC merger. Founded in Auckland, New Zealand in 2006, relocated headquarters to Huntington Beach, California in 2013, then moved to Long Beach in 2020. Has acquired six companies: Sinclair Interplanetary (2020), Advanced Solutions Inc (2021), Planetary Systems Corporation (2021), SolAero Holdings (2022), Geost LLC (2025), and Mynaric AG (2026). Database entry claims about 2025 launches (18 successful), $816M SDA contract, and market cap tripled to $37B could not be verified from provided sources."
-    },
-    {
-      "name": "Saildrone",
-      "current": {
-        "name": "Saildrone",
-        "founder": "Richard Jenkins",
-        "location": "Alameda, CA",
-        "founded": 2012,
-        "fundingStage": "Series D",
-        "totalRaised": "$300M+",
-        "website": "https://saildrone.com"
-      },
-      "verified": {
-        "name": "Saildrone",
-        "description": "Saildrone manufactures uncrewed surface vehicles (USVs) powered by wind and solar energy for maritime intelligence, surveillance, ocean mapping, and climate monitoring. The company operates multiple platform variants including Spectre, Surveyor, Voyager, and Explorer.",
-        "founders": [
-          "Richard Jenkins"
-        ],
-        "location": "Alameda, CA",
-        "founded_year": 2009,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "BOND",
-          "XN",
-          "Standard Investments",
-          "Emerson Collective",
-          "Crowley Maritime Corporation",
-          "Capricorn's Technology Impact Fund",
-          "Lux Capital",
-          "Social Capital",
-          "Tribe Capital",
-          "The Schmidt Family Foundation",
-          "Exor Seeds"
-        ],
-        "website": "https://saildrone.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "investors": [
-            1
-          ]
-        },
-        "notes": "Founded year is based on the earliest operational date mentioned: 2009 when patented wing technology was developed (greenbird project). The company expanded to Europe in 2025 with Copenhagen headquarters. Richard Jenkins is identified as 'Founder & CEO' in source [1]."
-      },
-      "changes": [
-        {
-          "field": "founded",
-          "current": 2012,
-          "verified": 2009,
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://saildrone.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://saildrone.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Saildrone"
-        },
-        {
-          "idx": 3,
-          "src": "news (Breaking Defense)",
-          "url": "https://breakingdefense.com/2026/06/saronic-castelion-to-pair-marauder-musv-with-blackbeard-hypersonic-capability/"
-        }
-      ],
-      "notes": "Founded year is based on the earliest operational date mentioned: 2009 when patented wing technology was developed (greenbird project). The company expanded to Europe in 2025 with Copenhagen headquarters. Richard Jenkins is identified as 'Founder & CEO' in source [1]."
+      "notes": "Series B funding of \u20ac120 million ($123.3 million) announced in January 2025 per source 2. Series C funding up to $1.4B announced in June 2026 per sources 3, 4, 5. Database entry valuation of \u20ac2.6B could not be verified from provided sources. Multiple funding rounds documented: July 2023 - $55M (source 2), January 2025 - \u20ac120M Series B (sources 1, 2), June 2026 - up to $1.4B Series C (sources 3, 4, 5)."
     },
     {
       "name": "SpaceX",
@@ -795,15 +430,15 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "An American public spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Starbase, Texas. Since its founding in 2002, SpaceX has made advances in rocket propulsion, reusable launch vehicles, human spaceflight, and satellite constellation technology.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company founded by Elon Musk in 2002. The company develops reusable launch vehicles, spacecraft, and operates the Starlink satellite constellation.",
         "founders": [
           "Elon Musk"
         ],
         "location": "Starbase, Texas, U.S.",
         "founded_year": 2002,
         "current_stage": "Public",
-        "total_raised": null,
-        "valuation": "$2.0T+",
+        "total_raised": "$85.7B",
+        "valuation": null,
         "investors": [
           "Alphabet Inc."
         ],
@@ -827,8 +462,8 @@
           "current_stage": [
             0
           ],
-          "valuation": [
-            0
+          "total_raised": [
+            3
           ],
           "investors": [
             0
@@ -837,7 +472,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, valued above $2 trillion. Current database entry claims 'Preparing for IPO' which contradicts verified source showing IPO already occurred. Valuation of $800B in database entry is outdated."
+        "notes": "Wikipedia states IPO occurred on June 12, 2026 raising $75 billion; TechCrunch source [3] reports final IPO amount grew to $85.7 billion when underwriters maxed out share purchases. Database entry claims $1.5T valuation and 'preparing for IPO' but sources confirm IPO already completed. Database valuation of $800B cannot be verified from sources."
       },
       "changes": [
         {
@@ -849,13 +484,11 @@
           ]
         },
         {
-          "field": "investors",
-          "current": "[]",
-          "verified": [
-            "Alphabet Inc."
-          ],
+          "field": "totalRaised",
+          "current": "$10B+",
+          "verified": "$85.7B",
           "sources": [
-            0
+            3
           ]
         }
       ],
@@ -867,112 +500,21 @@
         },
         {
           "idx": 1,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/elon-says-1-trillion-revenue-for-spacex-in-2030-like-i-have-projected.html"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/"
         },
         {
           "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/14/techcrunch-mobility-spacex-rockets-past-tesla/"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/missions/station/iss-research/nasas-spacex-crs-34-dragon-returns-packed-with-space-station-science/"
         },
         {
           "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/is-echostar-a-way-to-get-spacex-at-80-113-per-share.html"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/06/15/spacexs-biggest-ever-ipo-just-grew-to-85-7-billion-raised/"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, valued above $2 trillion. Current database entry claims 'Preparing for IPO' which contradicts verified source showing IPO already occurred. Valuation of $800B in database entry is outdated."
-    },
-    {
-      "name": "Standard Bots",
-      "current": {
-        "name": "Standard Bots",
-        "founder": "Evan Beard, David Golden",
-        "location": "New York, NY",
-        "founded": 2011,
-        "fundingStage": "Series B",
-        "totalRaised": "$63M",
-        "website": "https://standardbots.com"
-      },
-      "verified": {
-        "name": "Standard Bots",
-        "description": "AI-native collaborative robots designed and assembled in the USA. The company develops vertically integrated robots with AI-powered software for industrial automation tasks.",
-        "founders": [
-          "Evan Beard",
-          "David Golden"
-        ],
-        "location": null,
-        "founded_year": null,
-        "current_stage": "Series B",
-        "total_raised": "$200M",
-        "valuation": null,
-        "investors": [
-          "General Catalyst",
-          "Amazon Industrial Fund",
-          "Samsung Next",
-          "Lachy Groom",
-          "Quiet Capital",
-          "Box Group",
-          "Zeno Partners"
-        ],
-        "website": "https://standardbots.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "current_stage": [
-            1,
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [2] reports $200M raised (most recent), while source [1] mentions $63M Series B from July 2024. Source [0] references $63M figure. Location cannot be verified from sources (database entry mentions Glen Cove, NY and New York, NY but not confirmed in provided sources). Founded year 2011 cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$63M",
-          "verified": "$200M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://standardbots.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://standardbots.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/standard-bots-raises-200m-expand-u-s-manufacturing-footprint/"
-        }
-      ],
-      "notes": "Source [2] reports $200M raised (most recent), while source [1] mentions $63M Series B from July 2024. Source [0] references $63M figure. Location cannot be verified from sources (database entry mentions Glen Cove, NY and New York, NY but not confirmed in provided sources). Founded year 2011 cannot be verified from provided sources."
+      "notes": "Wikipedia states IPO occurred on June 12, 2026 raising $75 billion; TechCrunch source [3] reports final IPO amount grew to $85.7 billion when underwriters maxed out share purchases. Database entry claims $1.5T valuation and 'preparing for IPO' but sources confirm IPO already completed. Database valuation of $800B cannot be verified from sources."
     }
   ],
   "unverifiable": []
