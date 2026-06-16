@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T11:29:07.471081+00:00",
+  "generatedAt": "2026-06-16T17:16:09.143943+00:00",
   "date": "2026-06-16",
   "dateDisplay": "Tuesday, June 16, 2026",
   "sections": {
@@ -79,18 +79,18 @@
     ],
     "marketMovers": [
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 9.3,
-        "changePercent": -24.3,
-        "change": -2.99
-      },
-      {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 5.88,
-        "changePercent": -19.01,
-        "change": -1.38
+        "price": 5.47,
+        "changePercent": -30.52,
+        "change": -2.41
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 8.64,
+        "changePercent": -29.68,
+        "change": -3.65
       },
       {
         "ticker": "9348.T",
@@ -102,37 +102,37 @@
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 25.76,
-        "changePercent": -13.37,
-        "change": -3.97
+        "price": 23.42,
+        "changePercent": -14.74,
+        "change": -4.05
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 389.2,
-        "changePercent": 12.38,
-        "change": 42.87
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 27.98,
+        "changePercent": -10.23,
+        "change": -3.19
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 547.26,
-        "changePercent": 11.61,
-        "change": 56.93
+        "price": 521.62,
+        "changePercent": 9.7,
+        "change": 46.11
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 52.32,
-        "changePercent": 7.68,
-        "change": 3.73
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 371.56,
+        "changePercent": 8.74,
+        "change": 29.86
       },
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 117.0,
-        "changePercent": -7.07,
-        "change": -8.9
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 21.11,
+        "changePercent": 7.24,
+        "change": 1.42
       }
     ],
     "regulatory": [
@@ -160,23 +160,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Palisades SMR, LLC; Pioneer Units 1 and 2; Phased Construction Permit Applicatio",
-        "date": "2026-06-15",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11915"
+        "title": "Fee Schedules; Fee Recovery for Fiscal Year 2026",
+        "date": "2026-06-16",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-12067"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "International Traffic in Arms Regulations (ITAR): Part 130 Changes To Reduce Rep",
-        "date": "2026-06-15",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-12019"
+        "title": "Assistance to Foreign Atomic Energy Activities",
+        "date": "2026-06-16",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-12066"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Energy Conservation Program: Energy Conservation Standards for Distribution Tran",
-        "date": "2026-06-15",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-11971"
+        "title": "Radio Broadcasting Services; Selmer, Tennessee",
+        "date": "2026-06-16",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-12043"
       }
     ],
     "patents": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASRHF -24.3%"
+    "topMover": "LNZA -30.5%"
   }
 }

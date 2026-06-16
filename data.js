@@ -60937,25 +60937,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-16 11:29
-// Auto-generated real-time signals
-// Last updated: 2026-06-16
+// Last updated: 2026-06-16 17:16
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "news", company: "Built Robotics", headline: "Built Robotics, Penn xLAB to develop physical AI for construction", source: "The Robot Report", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic&#8217;s Claude narrows gap with ChatGPT among Singapore startups as AI becomes core infrastructure", source: "TechNode Global", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Scale AI", headline: "Rainbow Crops raises €9.7M to scale AI-powered crop engineering", source: "Tech.eu", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Scale AI", headline: "WhyBrilliant raises €1M to scale AI job matching, backed by Merantix", source: "Tech.eu", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Scale AI", headline: "Lightbringer raises $10M to scale AI-powered patent services", source: "Tech.eu", time: "4h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Dexterity", headline: "PSYONIC partners with ABB Robotics to apply human touch to robot dexterity", source: "The Robot Report", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "xAI", headline: "DOJ Lawyers Argue xAI Is ‘Vital’ for National Security in NAACP Lawsuit", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Anthropic", headline: "The US government&#8217;s Anthropic models ban was never about an AI jailbreak", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX 6th Biggest Most Valuable and Tesla 10th", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "SpaceX", headline: "SpaceX is at $213 and About $2.8 Trillion in Valuation", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Anthropic", headline: "How the Commerce crackdown on Anthropic could impact the Pentagon: Experts", source: "Breaking Defense", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX is public: Everything you need to know post-IPO", source: "TechCrunch", time: "16h ago", impact: "high", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "NASA’s SpaceX CRS-34 Dragon Returns Packed with Space Station Science", source: "NASA Breaking News", time: "17h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Einride", headline: "Autonomous freight developer Einride goes public via SPAC", source: "The Robot Report", time: "18h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX is public: Everything you need to know post-IPO", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 2, type: "contract", company: "xAI", headline: "DOJ claims xAI's unpermitted gas turbines are a matter of 'national, economic, and energy security'", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "SpaceX", headline: "SpaceX passes Amazon as valuation balloons to $2.7T", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Built Robotics", headline: "Built Robotics, Penn xLAB to develop physical AI for construction", source: "The Robot Report", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic's Claude narrows gap with ChatGPT among Singapore startups as AI becomes core infrastructure", source: "TechNode Global", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Scale AI", headline: "Rainbow Crops raises '9.7M to scale AI-powered crop engineering", source: "Tech.eu", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Scale AI", headline: "WhyBrilliant raises '1M to scale AI job matching, backed by Merantix", source: "Tech.eu", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Scale AI", headline: "Lightbringer raises $10M to scale AI-powered patent services", source: "Tech.eu", time: "10h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Dexterity", headline: "PSYONIC partners with ABB Robotics to apply human touch to robot dexterity", source: "The Robot Report", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "xAI", headline: "DOJ Lawyers Argue xAI Is 'Vital' for National Security in NAACP Lawsuit", source: "Wired", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Anthropic", headline: "The US government's Anthropic models ban was never about an AI jailbreak", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX 6th Biggest Most Valuable and Tesla 10th", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "SpaceX", headline: "SpaceX is at $213 and About $2.8 Trillion in Valuation", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "Anthropic", headline: "How the Commerce crackdown on Anthropic could impact the Pentagon: Experts", source: "Breaking Defense", time: "22h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
