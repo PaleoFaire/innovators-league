@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.34,
+      "avg_change": -10.71,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -0.31,
+      "avg_change": -0.58,
       "count": 7
     },
     "nuclear": {
@@ -69,11 +69,6 @@
       11.61
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      8.2
-    ],
-    [
       "TEM",
       "Tempus AI",
       7.68
@@ -82,6 +77,11 @@
       "RGTI",
       "Rigetti Computing",
       4.3
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      3.05
     ]
   ],
   "topLosers": [
@@ -91,11 +91,6 @@
       -9.7
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -10.37
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
       -13.37
@@ -103,13 +98,18 @@
     [
       "9348.T",
       "ispace",
-      -13.43
+      -17.68
     ],
     [
       "LNZA",
       "LanzaTech",
       -19.01
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -24.3
     ]
   ],
-  "lastUpdated": "2026-06-15 21:09:25"
+  "lastUpdated": "2026-06-16 04:46:09"
 }
