@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.82,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.89,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -12.03,
+      "avg_change": -12.91,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 0.81,
+      "avg_change": 0.59,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.08,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.3,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.61,
+      "avg_change": -10.74,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 4.71,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.83,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.34,
+      "avg_change": -1.11,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 1.42,
+      "avg_change": 1.64,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 6.28,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 4.06,
       "count": 3
     }
   },
@@ -61,39 +61,39 @@
     [
       "AMD",
       "AMD",
-      9.7
+      6.68
     ],
     [
       "ALAB",
       "Astera Labs",
-      8.74
+      5.86
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      7.24
+      4.82
     ],
     [
       "TEM",
       "Tempus AI",
-      6.98
+      3.56
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      4.88
+      "ACHR",
+      "Archer Aviation",
+      2.26
     ]
   ],
   "topLosers": [
     [
       "PL",
       "Planet Labs",
-      -10.23
+      -9.5
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -14.74
+      -14.96
     ],
     [
       "9348.T",
@@ -101,15 +101,15 @@
       -18.89
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -29.68
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      -30.52
+      -24.62
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -32.04
     ]
   ],
-  "lastUpdated": "2026-06-16 17:02:24"
+  "lastUpdated": "2026-06-16 20:57:11"
 }
