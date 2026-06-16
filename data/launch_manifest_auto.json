@@ -1,15 +1,6 @@
 [
   {
     "date": "2026-06-15",
-    "vehicle": "Kinetica 1 | 8 x Jilin-1",
-    "payload": "8 x Jilin-1",
-    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "CAS Space",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ffc0aee1-fdd7-4638-b098-9d0c01b40663/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-15",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-54",
     "payload": "Starlink Group 17-54",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -18,18 +9,9 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-06-15",
-    "vehicle": "Spectrum | Onward and Upward",
-    "payload": "Onward and Upward",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-06-16",
-    "vehicle": "Long March 3B/E | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 3B/E | Shijian 31",
+    "payload": "Shijian 31",
     "pad": "Launch Complex 2 (LC-2), Xichang Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/0ff43072-5407-425b-8c8d-6bca068143b9/?format=json",
@@ -91,20 +73,20 @@
   },
   {
     "date": "2026-06-20",
-    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-    "payload": "Globalstar 2-R Mission 1 (x 9)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-20",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-28",
     "payload": "Starlink Group 17-28",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/de5fbae3-66b9-4bbf-8938-4d55f3318c07/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-21",
+    "vehicle": "Falcon 9 Block 5 | Project Starfall Demonstration Mission",
+    "payload": "Project Starfall Demonstration Mission",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/74bf8472-9ba1-42d6-9245-b014f8e91de9/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -136,6 +118,15 @@
   },
   {
     "date": "2026-06-30",
+    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+    "payload": "Globalstar 2-R Mission 1 (x 9)",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-30",
     "vehicle": "Pegasus XL | Swift Boost Mission",
     "payload": "Swift Boost Mission",
     "pad": "Kwajalein Atoll, Air launch to orbit",
@@ -159,6 +150,15 @@
     "pad": "ADD Offshore launch platform, Sea Launch",
     "provider": "Agency for Defense Development",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Spectrum | Onward and Upward",
+    "payload": "Onward and Upward",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
     "trackedCompany": null
   },
   {
@@ -244,15 +244,6 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "Long March 10B | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1e79a5e9-c02c-470f-882f-884120100fef/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
     "vehicle": "Nebula-1 | Demo Flight",
     "payload": "Demo Flight",
     "pad": "Land Launch Pad 1, Haiyang Oriental Spaceport",
@@ -321,6 +312,15 @@
     "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
     "provider": "Mitsubishi Heavy Industries",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a2234679-5efe-4a00-9aff-cf82dbac22b0/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-31",
+    "vehicle": "Long March 10B | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1e79a5e9-c02c-470f-882f-884120100fef/?format=json",
     "trackedCompany": null
   },
   {

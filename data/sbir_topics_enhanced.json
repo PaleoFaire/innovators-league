@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T13:18:36.210428+00:00",
+  "generated_at": "2026-06-16T12:41:08.640792+00:00",
   "total_topics": 10,
   "topics": [
     {
@@ -351,7 +351,7 @@
         {
           "company": "SatRev",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 13.0,
+          "bid_fit_score": 13.1,
           "matched_terms": [
             "time",
             "real"
@@ -621,7 +621,7 @@
         {
           "company": "Cascade Space",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 27.4,
+          "bid_fit_score": 27.5,
           "matched_terms": [
             "deep",
             "space",
@@ -727,7 +727,7 @@
         {
           "company": "Pacific Fusion",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 18.3,
+          "bid_fit_score": 18.4,
           "matched_terms": [
             "fusion",
             "nuclear",
@@ -737,7 +737,7 @@
         {
           "company": "Realta Fusion",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 17.3,
+          "bid_fit_score": 17.4,
           "matched_terms": [
             "fusion",
             "nuclear",
@@ -756,7 +756,7 @@
         {
           "company": "Thea Energy",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 16.5,
+          "bid_fit_score": 16.6,
           "matched_terms": [
             "fusion",
             "nuclear",
@@ -776,7 +776,7 @@
         {
           "company": "First Light Fusion",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 16.0,
+          "bid_fit_score": 16.1,
           "matched_terms": [
             "fusion",
             "nuclear",
@@ -842,8 +842,8 @@
           "bid_fit_score": 19.6,
           "matched_terms": [
             "maritime",
-            "swarm",
-            "undersea"
+            "undersea",
+            "swarm"
           ]
         },
         {
@@ -933,7 +933,7 @@
           "matched_terms": [
             "engineered",
             "biotech",
-            "biology"
+            "synthetic"
           ]
         },
         {
@@ -966,21 +966,21 @@
           ]
         },
         {
+          "company": "Orbital Operations",
+          "sector": "Space & Aerospace",
+          "bid_fit_score": 11.3,
+          "matched_terms": [
+            "missions",
+            "space",
+            "duration"
+          ]
+        },
+        {
           "company": "Exodys Energy",
           "sector": "Nuclear Energy",
           "bid_fit_score": 11.2,
           "matched_terms": [
             "waste"
-          ]
-        },
-        {
-          "company": "Orbital Operations",
-          "sector": "Space & Aerospace",
-          "bid_fit_score": 11.2,
-          "matched_terms": [
-            "missions",
-            "space",
-            "duration"
           ]
         },
         {

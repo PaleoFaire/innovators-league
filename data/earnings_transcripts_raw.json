@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-06-15 13:13:50 UTC",
+    "generated_at": "2026-06-16 12:36:47 UTC",
     "total_targets": 116,
-    "with_excerpts": 105,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -713,11 +713,13 @@
     {
       "ticker": "MDB",
       "company": "MongoDB",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.mongodb.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-05-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026039150/0001628280-26-039150-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ROK",
