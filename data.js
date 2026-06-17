@@ -61579,23 +61579,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-17 20:25
+// Last updated: 2026-06-17 22:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic becomes first AI startup to join the Frontier carbon removal coalition", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Humanoid", headline: "Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "xAI", headline: "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Huge AI Revenue Growth Mirrors Micron But Will Be Bigger", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "xAI", headline: "Trump's DOJ intervenes to keep Musk's xAI gas turbines polluting Memphis", source: "Electrek", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Humanoid", headline: "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1", source: "The Robot Report", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX alum nabs $22M to turn rocket engines into geothermal power plants", source: "TechCrunch", time: "6h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "Humanoid", headline: "The Secret to Marathon-Winning Humanoid Robots", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Abridge", headline: "STAT+: Is Abridge's 'patient centered' claim a bridge too far?", source: "STAT News", time: "8h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Palantir", headline: "Former Palantir employees raise $60M for AI enterprise startup Conduct", source: "Tech.eu", time: "8h ago", impact: "high", unread: false },
-  { id: 11, type: "funding", company: "Dawn Aerospace", headline: "Dawn Aerospace raises $25 million", source: "SpaceNews", time: "8h ago", impact: "high", unread: false },
-  { id: 12, type: "hire", company: "Anthropic", headline: "Mistral CEO pitches open source AI days after Anthropic ban: 'We exist outside of state control'", source: "Sifted", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Dust", headline: "Dozens of dust devils hidden in plain sight", source: "ESA News", time: "11h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Scale AI", headline: "Flagright secures $12.5M Series A to scale AI compliance platform", source: "Tech.eu", time: "12h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "Waymo taps fleet giant Element to scale its robotaxi service", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Relativity Space", headline: "Relativity Space to privately develop Mars orbiter mission", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "SpaceX", headline: "Roelof Botha joins SpaceX's board of directors", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic becomes first AI startup to join the Frontier carbon removal coalition", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Humanoid", headline: "Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital", source: "Wired", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "xAI", headline: "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "xAI", headline: "Trump's DOJ intervenes to keep Musk's xAI gas turbines polluting Memphis", source: "Electrek", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Humanoid", headline: "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1", source: "The Robot Report", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX alum nabs $22M to turn rocket engines into geothermal power plants", source: "TechCrunch", time: "9h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Humanoid", headline: "The Secret to Marathon-Winning Humanoid Robots", source: "IEEE Spectrum", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Abridge", headline: "STAT+: Is Abridge's 'patient centered' claim a bridge too far?", source: "STAT News", time: "10h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Palantir", headline: "Former Palantir employees raise $60M for AI enterprise startup Conduct", source: "Tech.eu", time: "10h ago", impact: "high", unread: false },
+  { id: 12, type: "funding", company: "Dawn Aerospace", headline: "Dawn Aerospace raises $25 million", source: "SpaceNews", time: "11h ago", impact: "high", unread: false },
+  { id: 13, type: "hire", company: "Anthropic", headline: "Mistral CEO pitches open source AI days after Anthropic ban: 'We exist outside of state control'", source: "Sifted", time: "12h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Dust", headline: "Dozens of dust devils hidden in plain sight", source: "ESA News", time: "13h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Scale AI", headline: "Flagright secures $12.5M Series A to scale AI compliance platform", source: "Tech.eu", time: "14h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
