@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -12.91,
+      "avg_change": -12.47,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 0.59,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 2.36,
       "count": 7
     },
     "nuclear": {
@@ -64,6 +64,11 @@
       6.68
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      5.98
+    ],
+    [
       "ALAB",
       "Astera Labs",
       5.86
@@ -74,14 +79,9 @@
       4.82
     ],
     [
-      "TEM",
-      "Tempus AI",
-      3.56
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      2.26
+      "277810.KQ",
+      "Rainbow Robotics",
+      4.35
     ]
   ],
   "topLosers": [
@@ -98,7 +98,7 @@
     [
       "9348.T",
       "ispace",
-      -18.89
+      -15.8
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -32.04
     ]
   ],
-  "lastUpdated": "2026-06-16 20:57:11"
+  "lastUpdated": "2026-06-17 04:26:25"
 }
