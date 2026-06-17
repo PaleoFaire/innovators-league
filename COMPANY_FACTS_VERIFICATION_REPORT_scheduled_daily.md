@@ -1,20 +1,20 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-06-16T10:56:20+00:00  
+**Generated:** 2026-06-17T10:27:52+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 26 companies  
+**Cohort size:** 30 companies  
 
-**New Claude extractions this run:** 26  
+**New Claude extractions this run:** 30  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 21 | 81% |
-| 🔧 Changes proposed | 5 | 19% |
+| ✅ Cleared (data matches sources) | 25 | 83% |
+| 🔧 Changes proposed | 5 | 17% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
@@ -23,46 +23,46 @@
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Einride
-
-- **`fundingStage`:** `Series C` → `Public`  
-  Sources: [news (The Robot Report)](https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/)
-
-  **Notes:** Company went public via SPAC according to source 3. Wikipedia confirms 2016 founding and three named founders. The database entry listed 'Series C' stage, but source [3] indicates the company has gone public via SPAC merger. No specific financial figures (total_raised or valuation) could be verified from the provided sources.
-
 ### Fervo Energy
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** Company went public in May 2026 based on newsroom entries dated May 17, 2026 in source [0]. Wikipedia source [2] lists company as 'Private' but this predates the IPO announcement. Most recent Series E funding of $462M occurred in November 2025 per source [2].
+  **Notes:** Wikipedia source (index 2) lists company as 'Private' but website newsroom and IPO-related articles from May 2026 indicate public status. IPO details (date, valuation, amount raised at IPO) cannot be verified from provided sources as Canary Media article title references IPO milestone but content not fully provided.
 
-### K2 Space
+### PLD Space
 
-- **`fundingStage`:** `Series C` → `Series B`  
-  Sources: [company_website](https://k2space.com)
+- **`totalRaised`:** `€350M+` → `€120M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/PLD_Space)
 
-  **Notes:** Database entry claims $360M raised and Series C stage, but sources only verify $110M raised (Series B as of February 2025). Founded year 2022 in database entry cannot be verified from provided sources. Mega Class platform specs from source [0]: 20kW power, 3000kg payload mass (not the 30kW mentioned in database entry).
+  **Notes:** Source [1] is about Mars Express dust devils and is not relevant to PLD Space. Database entry claims €350M+ total raised and SPAC stage, but Wikipedia only confirms €120M raised as of June 1, 2024. Series C and venture debt funding mentioned in database entry are not found in provided sources. Miura 1 successfully launched October 7, 2023 per Wikipedia.
 
-### Neura Robotics
+### Scale AI
 
-- **`investors`:** `[]` → `['Tether', 'Qualcomm Technologies', 'Amazon', 'NVIDIA', 'ime`  
-  Sources: [news (Tech.eu)](https://tech.eu/2026/06/10/neura-robotics-secures-up-to-14b-series-c-to-scale-physical-ai-and-cognitive-robotics-platform/)
+- **`fundingStage`:** `Series F+` → `Private`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
 
-  **Notes:** Series B funding of €120 million ($123.3 million) announced in January 2025 per source 2. Series C funding up to $1.4B announced in June 2026 per sources 3, 4, 5. Database entry valuation of €2.6B could not be verified from provided sources. Multiple funding rounds documented: July 2023 - $55M (source 2), January 2025 - €120M Series B (sources 1, 2), June 2026 - up to $1.4B Series C (sources 3, 4, 5).
+  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for approximately $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced as CEO by Jason Droege. Wikipedia indicates Meta owns 49% as of 2025. The database entry's $15.9B total_raised figure cannot be verified from these sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
-- **`totalRaised`:** `$10B+` → `$85.7B`  
-  Sources: [news (TechCrunch)](https://techcrunch.com/2026/06/15/spacexs-biggest-ever-ipo-just-grew-to-85-7-billion-raised/)
+- **`totalRaised`:** `$85.7B` → `$86B`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia states IPO occurred on June 12, 2026 raising $75 billion; TechCrunch source [3] reports final IPO amount grew to $85.7 billion when underwriters maxed out share purchases. Database entry claims $1.5T valuation and 'preparing for IPO' but sources confirm IPO already completed. Database valuation of $800B cannot be verified from sources.
+  **Notes:** IPO occurred on June 12, 2026, raising $86 billion. Wikipedia source indicates valuation of $2.6T post-IPO (from TechCrunch). Current database entry claims IPO at $1.5T valuation and $800B pre-IPO valuation, both contradicted by sources. Alphabet Inc. holds 6% equity per Wikipedia.
+
+### Tenstorrent
+
+- **`founder`:** `Ljubisa Bajic, Ivan Hamer, Milos Trajkovic` → `Milos Trajkovic`  
+  Sources: [company_about](https://tenstorrent.com/about)
+
+  **Notes:** Only Milos Trajkovic is explicitly named as a Co-Founder in source [1]. Jim Keller is listed as CEO but not identified as a founder. The database entry lists 'Ljubisa Bajic' and 'Ivan Hamer' as founders, but these names do not appear in the provided sources. Founded year, location, funding stage, total raised, valuation, and investors cannot be verified from the provided sources.
 
 ---
 
-## ✅ Cleared (21 companies)
+## ✅ Cleared (25 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -70,27 +70,31 @@ Sample (first 30):
 
 - 1X Technologies
 - Agility Robotics
+- Andrenam
 - Apptronik
 - Atom Bodies
-- Axiom Space
-- Blue Origin
+- Built Robotics
 - Cape
 - Deterrence
 - Dexterity
-- Galvanick
+- Einride
+- FleetZero
 - Harbinger
 - Humanoid
+- Mach Industries
+- Navier
+- Neura Robotics
 - Palantir
 - Percepto
-- Rocket Lab
-- Space Forge
+- Saildrone
 - Standard Nuclear
-- Vast
+- Tekever
 - Waymo
 - X-Energy
+- Xanadu Quantum Technologies
 - ideaForge
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-06-16T10:56:20+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-06-17T10:27:52+00:00*

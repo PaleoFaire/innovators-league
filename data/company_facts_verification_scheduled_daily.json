@@ -1,127 +1,42 @@
 {
-  "generatedAt": "2026-06-16T10:56:20+00:00",
+  "generatedAt": "2026-06-17T10:27:52+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 26,
-  "newExtractionsThisRun": 26,
+  "cohortSize": 30,
+  "newExtractionsThisRun": 30,
   "summary": {
-    "cleared": 21,
+    "cleared": 25,
     "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
     "1X Technologies",
     "Agility Robotics",
+    "Andrenam",
     "Apptronik",
     "Atom Bodies",
-    "Axiom Space",
-    "Blue Origin",
+    "Built Robotics",
     "Cape",
     "Deterrence",
     "Dexterity",
-    "Galvanick",
+    "Einride",
+    "FleetZero",
     "Harbinger",
     "Humanoid",
+    "Mach Industries",
+    "Navier",
+    "Neura Robotics",
     "Palantir",
     "Percepto",
-    "Rocket Lab",
-    "Space Forge",
+    "Saildrone",
     "Standard Nuclear",
-    "Vast",
+    "Tekever",
     "Waymo",
     "X-Energy",
+    "Xanadu Quantum Technologies",
     "ideaForge"
   ],
   "changesProposed": [
-    {
-      "name": "Einride",
-      "current": {
-        "name": "Einride",
-        "founder": "Robert Falck, Filip Lilja, Linn\u00e9a Kornehed",
-        "location": "Stockholm, Sweden",
-        "founded": 2016,
-        "fundingStage": "Series C",
-        "totalRaised": "$752M+",
-        "website": "https://www.einride.tech"
-      },
-      "verified": {
-        "name": "Einride",
-        "description": "Swedish transport company specializing in electric and autonomous trucks without driver cabs, remotely controlled by operators. The company provides an integrated platform connecting autonomous vehicles, electric freight transport, charging infrastructure, and AI-powered software.",
-        "founders": [
-          "Robert Falck",
-          "Filip Lilja",
-          "Linn\u00e9a Kornehed"
-        ],
-        "location": "Stockholm, Sweden",
-        "founded_year": 2016,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.einride.tech",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2,
-            0
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            3
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Company went public via SPAC according to source 3. Wikipedia confirms 2016 founding and three named founders. The database entry listed 'Series C' stage, but source [3] indicates the company has gone public via SPAC merger. No specific financial figures (total_raised or valuation) could be verified from the provided sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series C",
-          "verified": "Public",
-          "sources": [
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.einride.tech"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.einride.tech/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Einride"
-        },
-        {
-          "idx": 3,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/"
-        }
-      ],
-      "notes": "Company went public via SPAC according to source 3. Wikipedia confirms 2016 founding and three named founders. The database entry listed 'Series C' stage, but source [3] indicates the company has gone public via SPAC merger. No specific financial figures (total_raised or valuation) could be verified from the provided sources."
-    },
     {
       "name": "Fervo Energy",
       "current": {
@@ -135,7 +50,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "A geothermal energy company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas. Operates Project Red in Nevada and is developing Cape Station in Utah.",
+        "description": "A geothermal company based in Houston, Texas that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. The company operates Project Red in Nevada and is developing Cape Station in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -185,7 +100,7 @@
             2
           ]
         },
-        "notes": "Company went public in May 2026 based on newsroom entries dated May 17, 2026 in source [0]. Wikipedia source [2] lists company as 'Private' but this predates the IPO announcement. Most recent Series E funding of $462M occurred in November 2025 per source [2]."
+        "notes": "Wikipedia source (index 2) lists company as 'Private' but website newsroom and IPO-related articles from May 2026 indicate public status. IPO details (date, valuation, amount raised at IPO) cannot be verified from provided sources as Canary Media article title references IPO milestone but content not fully provided."
       },
       "changes": [
         {
@@ -219,33 +134,37 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
         }
       ],
-      "notes": "Company went public in May 2026 based on newsroom entries dated May 17, 2026 in source [0]. Wikipedia source [2] lists company as 'Private' but this predates the IPO announcement. Most recent Series E funding of $462M occurred in November 2025 per source [2]."
+      "notes": "Wikipedia source (index 2) lists company as 'Private' but website newsroom and IPO-related articles from May 2026 indicate public status. IPO details (date, valuation, amount raised at IPO) cannot be verified from provided sources as Canary Media article title references IPO milestone but content not fully provided."
     },
     {
-      "name": "K2 Space",
+      "name": "PLD Space",
       "current": {
-        "name": "K2 Space",
-        "founder": "Karan Kunjur, Neel Kunjur",
-        "location": "Torrance, US",
-        "founded": 2022,
-        "fundingStage": "Series C",
-        "totalRaised": "$110M",
-        "website": "https://k2space.com"
+        "name": "PLD Space",
+        "founder": "Ra\u00fal Torres, Ra\u00fal Verd\u00fa, Jos\u00e9 Enrique Mart\u00ednez",
+        "location": "Elche, Spain",
+        "founded": 2011,
+        "fundingStage": "SPAC",
+        "totalRaised": "\u20ac350M+",
+        "website": "https://pldspace.com"
       },
       "verified": {
-        "name": "K2 Space",
-        "description": "K2 Space designs and builds high-power satellite platforms for LEO, MEO, and GEO orbits. The company's Mega Class platform delivers 20kW of power with 3000kg payload mass capacity.",
+        "name": "PLD Space",
+        "description": "Spanish company developing partially-reusable launch vehicles called Miura 1 and Miura 5. Miura 1 is a suborbital sounding rocket; Miura 5 is designed to deliver up to 900 kg of payload to low Earth orbit.",
         "founders": [
-          "Karan Kunjur",
-          "Neel Kunjur"
+          "Ra\u00fal Torres",
+          "Ra\u00fal Verd\u00fa",
+          "Jos\u00e9 Enrique Mart\u00ednez"
         ],
-        "location": "Torrance, US",
-        "founded_year": null,
-        "current_stage": "Series B",
-        "total_raised": "$110M",
+        "location": "Elche, Spain",
+        "founded_year": 2011,
+        "current_stage": null,
+        "total_raised": "\u20ac120M",
         "valuation": null,
-        "investors": null,
-        "website": "https://k2space.com",
+        "investors": [
+          "GMV",
+          "Arcano partners"
+        ],
+        "website": "https://pldspace.com/en/",
         "sources_per_field": {
           "name": [
             0
@@ -254,29 +173,31 @@
             0
           ],
           "founders": [
-            1
+            0
           ],
           "location": [
-            0,
-            1
+            0
           ],
-          "current_stage": [
+          "founded_year": [
             0
           ],
           "total_raised": [
+            0
+          ],
+          "investors": [
             0
           ],
           "website": [
             0
           ]
         },
-        "notes": "Database entry claims $360M raised and Series C stage, but sources only verify $110M raised (Series B as of February 2025). Founded year 2022 in database entry cannot be verified from provided sources. Mega Class platform specs from source [0]: 20kW power, 3000kg payload mass (not the 30kW mentioned in database entry)."
+        "notes": "Source [1] is about Mars Express dust devils and is not relevant to PLD Space. Database entry claims \u20ac350M+ total raised and SPAC stage, but Wikipedia only confirms \u20ac120M raised as of June 1, 2024. Series C and venture debt funding mentioned in database entry are not found in provided sources. Miura 1 successfully launched October 7, 2023 per Wikipedia."
       },
       "changes": [
         {
-          "field": "fundingStage",
-          "current": "Series C",
-          "verified": "Series B",
+          "field": "totalRaised",
+          "current": "\u20ac350M+",
+          "verified": "\u20ac120M",
           "sources": [
             0
           ]
@@ -285,52 +206,51 @@
       "sources": [
         {
           "idx": 0,
-          "src": "company_website",
-          "url": "https://k2space.com"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PLD_Space"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://k2space.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/k2-space-rocket-lab-win-key-supplier-roles-in-space-force-satcom-program/"
+          "src": "news (ESA News)",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Dozens_of_dust_devils_hidden_in_plain_sight"
         }
       ],
-      "notes": "Database entry claims $360M raised and Series C stage, but sources only verify $110M raised (Series B as of February 2025). Founded year 2022 in database entry cannot be verified from provided sources. Mega Class platform specs from source [0]: 20kW power, 3000kg payload mass (not the 30kW mentioned in database entry)."
+      "notes": "Source [1] is about Mars Express dust devils and is not relevant to PLD Space. Database entry claims \u20ac350M+ total raised and SPAC stage, but Wikipedia only confirms \u20ac120M raised as of June 1, 2024. Series C and venture debt funding mentioned in database entry are not found in provided sources. Miura 1 successfully launched October 7, 2023 per Wikipedia."
     },
     {
-      "name": "Neura Robotics",
+      "name": "Scale AI",
       "current": {
-        "name": "Neura Robotics",
-        "founder": "David Reger",
-        "location": "Metzingen, Germany",
-        "founded": 2019,
-        "fundingStage": "Series C",
-        "totalRaised": "$1.4B",
-        "website": "https://www.neura-robotics.com"
+        "name": "Scale AI",
+        "founder": "Alexandr Wang, Lucy Guo",
+        "location": "San Francisco, CA",
+        "founded": 2016,
+        "fundingStage": "Series F+",
+        "totalRaised": "$15.9B",
+        "website": "https://scale.com"
       },
       "verified": {
-        "name": "Neura Robotics",
-        "description": "German robotics company founded in 2019 that designs and manufactures cognitive and collaborative robots, including humanoid robots, with in-house development of AI, control software, sensor technology and mechanical components.",
+        "name": "Scale AI",
+        "description": "An artificial intelligence infrastructure and software company that provides high-quality training data, RLHF services, LLM evaluations, and full-stack AI systems for enterprises and governments. The company powers frontier AI models and deploys AI applications for military and commercial use cases.",
         "founders": [
-          "David Reger"
+          "Alexandr Wang",
+          "Lucy Guo"
         ],
-        "location": "Metzingen, Germany",
-        "founded_year": 2019,
-        "current_stage": "Series C",
-        "total_raised": "$1.4B",
-        "valuation": null,
+        "location": "San Francisco, CA",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": "$29B",
         "investors": [
-          "Tether",
-          "Qualcomm Technologies",
-          "Amazon",
-          "NVIDIA",
-          "imec.xpa"
+          "Meta Platforms",
+          "Accel",
+          "Founders Fund",
+          "Index Ventures",
+          "Tiger Global",
+          "Dragoneer Investment Group",
+          "Greenoaks",
+          "Amazon"
         ],
-        "website": "https://www.neura-robotics.com",
+        "website": "https://scale.com",
         "sources_per_field": {
           "name": [
             0,
@@ -338,10 +258,10 @@
             2
           ],
           "description": [
-            1
+            1,
+            2
           ],
           "founders": [
-            1,
             2
           ],
           "location": [
@@ -353,33 +273,30 @@
             2
           ],
           "current_stage": [
-            4,
-            5
+            2
           ],
-          "total_raised": [
-            3,
-            4,
-            5
+          "valuation": [
+            1,
+            2
           ],
           "investors": [
-            5
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
           ]
         },
-        "notes": "Series B funding of \u20ac120 million ($123.3 million) announced in January 2025 per source 2. Series C funding up to $1.4B announced in June 2026 per sources 3, 4, 5. Database entry valuation of \u20ac2.6B could not be verified from provided sources. Multiple funding rounds documented: July 2023 - $55M (source 2), January 2025 - \u20ac120M Series B (sources 1, 2), June 2026 - up to $1.4B Series C (sources 3, 4, 5)."
+        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for approximately $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced as CEO by Jason Droege. Wikipedia indicates Meta owns 49% as of 2025. The database entry's $15.9B total_raised figure cannot be verified from these sources."
       },
       "changes": [
         {
-          "field": "investors",
-          "current": "[]",
-          "verified": [
-            "Tether",
-            "Qualcomm Technologies",
-            "Amazon",
-            "NVIDIA",
-            "imec.xpa"
-          ],
+          "field": "fundingStage",
+          "current": "Series F+",
+          "verified": "Private",
           "sources": [
-            5
+            2
           ]
         }
       ],
@@ -387,35 +304,35 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://neura-robotics.com"
+          "url": "https://scale.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://neura-robotics.com/company"
+          "url": "https://scale.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Neura_Robotics"
+          "url": "https://en.wikipedia.org/wiki/Scale_AI"
         },
         {
           "idx": 3,
           "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/06/12/neura-robotics-secures-up-to-1-4b-bending-spoons-files-for-us-ipo-and-uk-pm-unveils-400m-chip-plan/"
+          "url": "https://tech.eu/2026/06/17/flagright-secures-125m-series-a-to-scale-ai-compliance-platform/"
         },
         {
           "idx": 4,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/"
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/06/16/rainbow-crops-raises-eur97m-to-scale-ai-powered-crop-engineering/"
         },
         {
           "idx": 5,
           "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/06/10/neura-robotics-secures-up-to-14b-series-c-to-scale-physical-ai-and-cognitive-robotics-platform/"
+          "url": "https://tech.eu/2026/06/16/whybrilliant-raises-eur1m-to-scale-ai-job-matching-backed-by-merantix/"
         }
       ],
-      "notes": "Series B funding of \u20ac120 million ($123.3 million) announced in January 2025 per source 2. Series C funding up to $1.4B announced in June 2026 per sources 3, 4, 5. Database entry valuation of \u20ac2.6B could not be verified from provided sources. Multiple funding rounds documented: July 2023 - $55M (source 2), January 2025 - \u20ac120M Series B (sources 1, 2), June 2026 - up to $1.4B Series C (sources 3, 4, 5)."
+      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for approximately $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced as CEO by Jason Droege. Wikipedia indicates Meta owns 49% as of 2025. The database entry's $15.9B total_raised figure cannot be verified from these sources."
     },
     {
       "name": "SpaceX",
@@ -425,20 +342,20 @@
         "location": "Starbase, Texas, U.S.",
         "founded": 2002,
         "fundingStage": "IPO",
-        "totalRaised": "$10B+",
+        "totalRaised": "$85.7B",
         "website": "https://spacex.com"
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company founded by Elon Musk in 2002. The company develops reusable launch vehicles, spacecraft, and operates the Starlink satellite constellation.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company founded by Elon Musk in 2002. SpaceX conducts more orbital launches annually than any other launch provider and operates the Starlink satellite internet constellation.",
         "founders": [
           "Elon Musk"
         ],
         "location": "Starbase, Texas, U.S.",
         "founded_year": 2002,
         "current_stage": "Public",
-        "total_raised": "$85.7B",
-        "valuation": null,
+        "total_raised": "$86B",
+        "valuation": "$2.6T",
         "investors": [
           "Alphabet Inc."
         ],
@@ -463,7 +380,10 @@
             0
           ],
           "total_raised": [
-            3
+            0
+          ],
+          "valuation": [
+            1
           ],
           "investors": [
             0
@@ -472,7 +392,7 @@
             0
           ]
         },
-        "notes": "Wikipedia states IPO occurred on June 12, 2026 raising $75 billion; TechCrunch source [3] reports final IPO amount grew to $85.7 billion when underwriters maxed out share purchases. Database entry claims $1.5T valuation and 'preparing for IPO' but sources confirm IPO already completed. Database valuation of $800B cannot be verified from sources."
+        "notes": "IPO occurred on June 12, 2026, raising $86 billion. Wikipedia source indicates valuation of $2.6T post-IPO (from TechCrunch). Current database entry claims IPO at $1.5T valuation and $800B pre-IPO valuation, both contradicted by sources. Alphabet Inc. holds 6% equity per Wikipedia."
       },
       "changes": [
         {
@@ -485,10 +405,10 @@
         },
         {
           "field": "totalRaised",
-          "current": "$10B+",
-          "verified": "$85.7B",
+          "current": "$85.7B",
+          "verified": "$86B",
           "sources": [
-            3
+            0
           ]
         }
       ],
@@ -501,20 +421,96 @@
         {
           "idx": 1,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/"
+          "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/"
         },
         {
           "idx": 2,
-          "src": "news (NASA Breaking News)",
-          "url": "https://www.nasa.gov/missions/station/iss-research/nasas-spacex-crs-34-dragon-returns-packed-with-space-station-science/"
+          "src": "news (Crunchbase News)",
+          "url": "https://news.crunchbase.com/ma/spcx-acquires-ai-coding-cursor-largest-startup-ma-deal-2026/"
         },
         {
           "idx": 3,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/15/spacexs-biggest-ever-ipo-just-grew-to-85-7-billion-raised/"
+          "url": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/"
         }
       ],
-      "notes": "Wikipedia states IPO occurred on June 12, 2026 raising $75 billion; TechCrunch source [3] reports final IPO amount grew to $85.7 billion when underwriters maxed out share purchases. Database entry claims $1.5T valuation and 'preparing for IPO' but sources confirm IPO already completed. Database valuation of $800B cannot be verified from sources."
+      "notes": "IPO occurred on June 12, 2026, raising $86 billion. Wikipedia source indicates valuation of $2.6T post-IPO (from TechCrunch). Current database entry claims IPO at $1.5T valuation and $800B pre-IPO valuation, both contradicted by sources. Alphabet Inc. holds 6% equity per Wikipedia."
+    },
+    {
+      "name": "Tenstorrent",
+      "current": {
+        "name": "Tenstorrent",
+        "founder": "Ljubisa Bajic, Ivan Hamer, Milos Trajkovic",
+        "location": "Santa Clara, CA",
+        "founded": 2016,
+        "fundingStage": "Series D",
+        "totalRaised": "$1B+",
+        "website": "https://tenstorrent.com"
+      },
+      "verified": {
+        "name": "Tenstorrent",
+        "description": "Designs AI processors and provides open-source compiler tools for AI workloads. The company develops hardware accelerators and software platforms for AI computing at scale.",
+        "founders": [
+          "Milos Trajkovic"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://tenstorrent.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Only Milos Trajkovic is explicitly named as a Co-Founder in source [1]. Jim Keller is listed as CEO but not identified as a founder. The database entry lists 'Ljubisa Bajic' and 'Ivan Hamer' as founders, but these names do not appear in the provided sources. Founded year, location, funding stage, total raised, valuation, and investors cannot be verified from the provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Ljubisa Bajic, Ivan Hamer, Milos Trajkovic",
+          "verified": "Milos Trajkovic",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://tenstorrent.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://tenstorrent.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tenstorrent"
+        },
+        {
+          "idx": 3,
+          "src": "news (Sifted)",
+          "url": "https://sifted.eu/articles/mistral-arthur-mensch-open-source-anthropic/"
+        }
+      ],
+      "notes": "Only Milos Trajkovic is explicitly named as a Co-Founder in source [1]. Jim Keller is listed as CEO but not identified as a founder. The database entry lists 'Ljubisa Bajic' and 'Ivan Hamer' as founders, but these names do not appear in the provided sources. Founded year, location, funding stage, total raised, valuation, and investors cannot be verified from the provided sources."
     }
   ],
   "unverifiable": []
