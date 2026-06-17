@@ -61579,23 +61579,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-17 13:50
+// Last updated: 2026-06-17 17:13
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX alum nabs $22M to turn rocket engines into geothermal power plants", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Humanoid", headline: "The Secret to Marathon-Winning Humanoid Robots", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Abridge", headline: "STAT+: Is Abridge's 'patient centered' claim a bridge too far?", source: "STAT News", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Palantir", headline: "Former Palantir employees raise $60M for AI enterprise startup Conduct", source: "Tech.eu", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "Dawn Aerospace", headline: "Dawn Aerospace raises $25 million", source: "SpaceNews", time: "2h ago", impact: "high", unread: true },
-  { id: 6, type: "hire", company: "Anthropic", headline: "Mistral CEO pitches open source AI days after Anthropic ban: 'We exist outside of state control'", source: "Sifted", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Dust", headline: "Dozens of dust devils hidden in plain sight", source: "ESA News", time: "4h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Scale AI", headline: "Flagright secures $12.5M Series A to scale AI compliance platform", source: "Tech.eu", time: "5h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "Waymo taps fleet giant Element to scale its robotaxi service", source: "Electrek", time: "17h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "SpaceX", headline: "SpaceX valuation balloons to $2.6T, briefly passes Amazon", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "OpenAI", headline: "ChatGPT to debut on Pentagon's GenAI.mil in 'early July', OpenAI says", source: "Defense One", time: "17h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Mach Industries", headline: "Mach Industries wins DIU contract for maritime, long-range strike drone", source: "Breaking Defense", time: "19h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Matter", headline: "'Dangerous' AI Models Are Coming No Matter What", source: "Wired", time: "19h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Acquires AI Coding Tool Cursor For $60B In Year's Largest Startup M&#038;A Deal", source: "Crunchbase News", time: "20h ago", impact: "high", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX is public: Everything you need to know post-IPO", source: "TechCrunch", time: "21h ago", impact: "high", unread: false },
+  { id: 1, type: "contract", company: "xAI", headline: "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Huge AI Revenue Growth Mirrors Micron But Will Be Bigger", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "xAI", headline: "Trump's DOJ intervenes to keep Musk's xAI gas turbines polluting Memphis", source: "Electrek", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Humanoid", headline: "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1", source: "The Robot Report", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX alum nabs $22M to turn rocket engines into geothermal power plants", source: "TechCrunch", time: "3h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Humanoid", headline: "The Secret to Marathon-Winning Humanoid Robots", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Abridge", headline: "STAT+: Is Abridge's 'patient centered' claim a bridge too far?", source: "STAT News", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Palantir", headline: "Former Palantir employees raise $60M for AI enterprise startup Conduct", source: "Tech.eu", time: "5h ago", impact: "high", unread: false },
+  { id: 9, type: "funding", company: "Dawn Aerospace", headline: "Dawn Aerospace raises $25 million", source: "SpaceNews", time: "5h ago", impact: "high", unread: false },
+  { id: 10, type: "hire", company: "Anthropic", headline: "Mistral CEO pitches open source AI days after Anthropic ban: 'We exist outside of state control'", source: "Sifted", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Dust", headline: "Dozens of dust devils hidden in plain sight", source: "ESA News", time: "8h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Scale AI", headline: "Flagright secures $12.5M Series A to scale AI compliance platform", source: "Tech.eu", time: "9h ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Waymo taps fleet giant Element to scale its robotaxi service", source: "Electrek", time: "20h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "SpaceX", headline: "SpaceX valuation balloons to $2.6T, briefly passes Amazon", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "OpenAI", headline: "ChatGPT to debut on Pentagon's GenAI.mil in 'early July', OpenAI says", source: "Defense One", time: "21h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

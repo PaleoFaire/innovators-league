@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T13:50:14.475072+00:00",
+  "generatedAt": "2026-06-17T17:13:53.300927+00:00",
   "date": "2026-06-17",
   "dateDisplay": "Wednesday, June 17, 2026",
   "sections": {
@@ -82,15 +82,22 @@
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 8.35,
-        "changePercent": -32.04,
-        "change": -3.94
+        "changePercent": -27.39,
+        "change": -3.15
       },
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 5.94,
-        "changePercent": -24.62,
-        "change": -1.94
+        "price": 5.91,
+        "changePercent": -20.68,
+        "change": -1.54
+      },
+      {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 26.61,
+        "changePercent": 20.3,
+        "change": 4.49
       },
       {
         "ticker": "9348.T",
@@ -100,39 +107,32 @@
         "change": -103.0
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 23.36,
-        "changePercent": -14.96,
-        "change": -4.11
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 28.21,
-        "changePercent": -9.5,
-        "change": -2.96
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 82.25,
-        "changePercent": -7.28,
-        "change": -6.46
-      },
-      {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 115.2,
-        "changePercent": -7.17,
-        "change": -8.9
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 384.17,
+        "changePercent": 16.11,
+        "change": 53.31
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 507.29,
-        "changePercent": 6.68,
-        "change": 31.78
+        "price": 523.13,
+        "changePercent": 15.63,
+        "change": 70.73
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 23.21,
+        "changePercent": -12.53,
+        "change": -3.32
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 10.44,
+        "changePercent": 12.33,
+        "change": 1.15
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASRHF -32.0%"
+    "topMover": "ASRHF -27.4%"
   }
 }
