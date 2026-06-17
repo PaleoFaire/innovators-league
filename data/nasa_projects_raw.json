@@ -1,5 +1,102 @@
 [
   {
+    "id": 157628,
+    "title": "Spacesuit Fit & Injury Technologies",
+    "description": "<p>Exploration (Lunar and Mars) surface Extravehicular Activities (EVA)s will have physically and cognitively demanding tasks for crew with high injury risk. In addition, crews will perform a larger quantity of EVAs with far less rest between EVAs than ever before. The Spacesuit Fit &amp; Injury Technologies (SFIT) work develops suit-independent, generalizable tools to predict, monitor, and mitigate EVA crewmember injury. The SFIT project will prioritize technology development based on the Injur",
+    "status": "Active",
+    "startDate": "Oct 2019",
+    "endDate": "Sep 2030",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Johnson Space Center",
+      "Glenn Research Center",
+      "Exploration Systems Development Mission Directorate"
+    ],
+    "website": ""
+  },
+  {
+    "id": 184879,
+    "title": "Advanced Trace Contaminant Control",
+    "description": "<p>\u00a0</p><p>Trace Contaminant Control (TCC) is typically activated carbon and some level of catalyst to adsorb and react contaminants in the air phase. The current state-of-the-art carbon dioxide (CO2) removal sorbents utilize amines that rely on a hard vacuum to desorb during an Extravehicular Activity (EVA). Some sorbents also act to remove some trace contaminants. This may be severely limited on Mars due to the atmosphere. Therefore, Mars will require new methods, sorbents, and testing of the ",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2028",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Portable Life Support System",
+    "partners": [
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 184881,
+    "title": "Mars Portable Life Support System Testbed",
+    "description": "<p>To get from Moon to Mars, development of a Mars-centered spacesuit to support extravehicular activity (EVA) must begin now. In an effort towards this goal, setup of a Mars Portable Life Support System (PLSS) team to evaluate schematics for a Mars Extravehicular Mobility Unit (MxEMU) is underway. As part of a previous study, a wide range of potential architectures were evaluated and compared to determine leading options for a Martian PLSS.</p><p><br />Going forward, these schematics will infor",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2031",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Portable Life Support System",
+    "partners": [
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157177,
+    "title": "Crew Health And Performance Exploration Analog",
+    "description": "<p>Missions for Moon to Mars are very different from missions to the ISS due to length of isolation and confinement, distance from Earth, and the resource restrictions that will be applied to the crew. Artemis Program vehicles have limited mass allocations for food and other consumables. Given the increased distance to Mars and timeline for return, programs need to understand the impacts of restrictions within realistic constraints on health and performance to inform risk/resource trades prior t",
+    "status": "Active",
+    "startDate": "Jun 2020",
+    "endDate": "Sep 2027",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Behavioral Health and Performance",
+    "partners": [
+      "Johnson Space Center",
+      "ABG AllTraq",
+      "Ames Research Center",
+      "Bjarke Ingels Group",
+      "Gratuitous Sets Laboratories",
+      "ICON",
+      "Kennedy Space Center",
+      "Marshall Space Flight Center",
+      "Pneuhaus",
+      "Skypersonic",
+      "Human Research Program"
+    ],
+    "website": ""
+  },
+  {
+    "id": 184738,
+    "title": "Crew Health And Performance Exploration Analog (CHAPEA) Mission 2",
+    "description": "<p>Missions for Moon to Mars are very different from missions to the ISS due to length of isolation and confinement, distance from Earth, and the resource restrictions that will be applied to the crew. Artemis Program vehicles have limited mass allocations for food and other consumables. Given the increased distance to Mars and timeline for return, programs need to understand the impacts of restrictions within realistic constraints on health and performance to inform risk/resource trades prior t",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2027",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Johnson Space Center",
+      "ABG AllTraq",
+      "Ames Research Center",
+      "Bjarke Ingels Group",
+      "Gratuitous Sets Laboratories",
+      "ICON",
+      "Kennedy Space Center",
+      "Marshall Space Flight Center",
+      "Pneuhaus",
+      "Skypersonic",
+      "Mars Campaign Office"
+    ],
+    "website": ""
+  },
+  {
     "id": 183977,
     "title": "Joint Observations Integrated Network : Modular software components to support the DOME's multi-mission data processing needs",
     "description": "This project supports Goddard ESD's DOME approach, advances GSFC 2040 Vector 3's vision for pioneering data integration and supports a more integrated and efficient approach to Earth science and mission operations. We aim to overcome challenges posed by data heterogeneity and disaggregation to enable more comprehensive scientific understanding and support advanced mission concepts. To do this, we propose to develop the Joint Observations Integrated Network (JOIN), a software system for combining",
@@ -1528,6 +1625,98 @@
     "website": ""
   },
   {
+    "id": 117126,
+    "title": "3D Atmospheric Formaldehyde Profiler",
+    "description": "<p>Formaldehyde (HCHO) has been a key target for NASA\u2019s upper atmospheric and tropospheric chemistry research programs because of its role in various atmospheric oxidative processes involving greenhouse gases. Additionally, there has been recent interest in detecting HCHO in the Martian atmosphere as it serves as a marker for methane concentration. To this end, we propose to build and test a high-power 353 nm fiber laser transmitter based on large mode area fiber technology that will serve as an",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Lasers",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157703,
+    "title": "Evaluating COTS Hardware for Gasless Sounding Rocket Payload Attitude Control",
+    "description": "<p>Gas released by current sounding rocket payload attitude control systems (ACS) has the potential to interfere with some types of science instruments. Previous IRAD work was done to design a gasless reaction wheel ACS that would work for a sounding rocket payload, during which it was determined that commercial off the shelf (COTS) reaction wheels would not be well suited for a full payload due to the larger moments of inertia (MoI) and limited flight durations of sounding rocket payloads. Howe",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Wallops Flight Facility",
+    "technologyArea": "Dynamics Analysis, Modeling, and Simulation Tools",
+    "partners": [
+      "Wallops Flight Facility",
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157722,
+    "title": "Metamaterial Metaoptic Optical Frame Step-2 Proposal",
+    "description": "<p>This IRAD project focuses on developing a cutting-edge metamaterial metaoptic optical frame for advanced imaging and sensing applications. By leveraging the unique properties of metamaterials, the frame will control light propagation in unprecedented ways, enabling superior optical performance in terms of resolution, compactness, and wavelength range. The project aims to design and fabricate a lightweight, highly efficient optical system that integrates seamlessly with various devices, offeri",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Large Apertures",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Brigham Young University-Provo"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157687,
+    "title": "High-Resolution Plasma Analyzer for Ions",
+    "description": "<p>HYPERION is a top-hat electrostatic plasma analyzer to measure ionospheric plasmas and unprecedented mass and energy resolution. This IRAD will create an ion optics design for a high mass resolution plasma spectrometer.\u00a0</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Field and Particle Detectors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157714,
+    "title": "Assessing Plant Canopy Energy Balance, Evapotranspiration, and Vegetation Stress with 3D Surface Temperatures Derived from New G-LiHT TIR Imagery",
+    "description": "<p>The drivers and responses of vegetation three-dimensional structure and functioning to ongoing global change, land-use, and altered disturbance regimes is not well understood, but play an important role in regulating land-atmosphere interactions and ecosystem-atmosphere exchange of CO2, CH4, heat and water vapor. A critical uncertainty relates to the complex interplay between vegetation structure and the emergent functioning and surface energy balance over space and time. To address this crit",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 146764,
+    "title": "S-Band Augmented Forward Service (AFS) Receiver for Lunar Navigation",
+    "description": "<p>Lunar users, whether on the surface or in orbit, need access to PNT services to determine their position, execute maneuvers and maintain accurate time to meet mission objectives. Space assets typically receive PNT services through point-to-point links with Earth ground stations or Relay satellites using ranging, Doppler tracking and messaging schemes. However, to enable users to receive GPS-like global PNT services independent of dedicated communications links, the Lunar Augmented Navigation ",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Revolutionary PNT Technologies",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 157688,
     "title": "A real-time seismic detection technology for the Moon and beyond",
     "description": "<p>The objective of this effort is to develop a real-time seismic detection technology using machine learning signal change detection for both lander-side decision-making for telemetry prioritization and rapid assessment of incoming streamed data on Earth. The technology (<strong>CORGI</strong>, short for <strong>CO</strong>ntinous <strong>R</strong>ealtime monitorin<strong>G</strong> <strong>I</strong>nfrastructure) will be modular, able to integrate diverse detection algorithms, instrument typ",
@@ -1546,86 +1735,9 @@
     "website": ""
   },
   {
-    "id": 157683,
-    "title": "Advancement of High-Resolution Gamma-ray Spectrometer",
-    "description": "<p>We are developing a high-resolution gamma-ray spectrometer for the purpose of studying solar flare gamma-ray line emission in the ~0.5-10 MeV range. We are employing a cutting edge CeBr3 scintillator which has high photoelectric effect cross sections in the MeV range read out by silicon photomultipliers. We will use the high-heritage readout electronics built for the BurstCube mission updated for CeBr3 signals. The primary effort will be to update the readout electronics and signal processing",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Other Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Science Mission Directorate"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117126,
-    "title": "3D Atmospheric Formaldehyde Profiler",
-    "description": "<p>Formaldehyde (HCHO) has been a key target for NASA\u2019s upper atmospheric and tropospheric chemistry research programs because of its role in various atmospheric oxidative processes involving greenhouse gases. Additionally, there has been recent interest in detecting HCHO in the Martian atmosphere as it serves as a marker for methane concentration. To this end, we propose to build and test a high-power 353 nm fiber laser transmitter based on large mode area fiber technology that will serve as an",
-    "status": "Completed",
-    "startDate": "Oct 2022",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Lasers",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117116,
-    "title": "Towards Dynamic Configuration for a Cloud Evolution Targeting Radar System",
-    "description": "<p>We explore a novel scanning cloud radar concept for observing the evolution of low-level clouds and convective initiation in a targeted manner. Results from high resolution cloud model simulations will be used to perform a trade study to define measurement requirements and help inform design specifications of radar system with a metasurface antenna for electronic steerable beam scanning in two dimensions. A key goal of the study is to identify enabling technology to develop a new measurement ",
-    "status": "Completed",
-    "startDate": "Oct 2022",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157680,
-    "title": "Next Generation High-Bandwidth Telemetery and Accompanying Agile Multi-Instrument Smart Interface for Sounding Rocket Experiments",
-    "description": "<p>Our main objective is to develop a next generation centralized multi- instrument GSE that has the interface capability to use the 40 Mbps down link newly available at Wallops while remaining flexible enough to easily adapt to many instruments using documented procedures.</p>",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157208,
-    "title": "Tandem Ion Mass Spectrometer (TIMS): High Efficiency Multi-Stop Design",
-    "description": "<p>Build a prototype of our Tandem Ion Mass Spectrometer (TIMS), that can separate the mass and charge of atomic ions and can separate atomic and molecular ions of similar mass-per-charge ratio (M/Q). This prototype TIMS currently has the opportunity to fly on a sounding rocket in FY25 as a technology demonstration instrument. One of the main innovative aspects of TIMS is the capability of a really low noise floor, allowing for the detection of minor ion species in a variety of plasma environmen",
-    "status": "Completed",
-    "startDate": "May 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Wallops Flight Facility"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157679,
-    "title": "Deci-Hz Interferometric Space Antenna",
-    "description": "<p>Gravitational-wave (GW) astrophysics has begun in earnest with the early successes of LIGO, and the substantial progress of the LISA mission toward launch in the 2030s. The unexplored \u201cDeci-Hz\u201d (dHz) band lies in between LISA and LIGO, containing guaranteed early warning of multi-messenger LIGO stellar origin compact binaries of black holes (SOBH) and neutron stars (BNS), potentially exciting additional sources like double-white dwarf systems merging to cause Type Ia supernovae, intermediate ",
+    "id": 157653,
+    "title": "Robust Split Electrical Control Design for Microshutter Arrays",
+    "description": "<p>The proposed work will upgrade the Next-Generation Microshutter Array 3-electrode design to a 4-electrode design to reduce voltage requirements from a 100-150 V range to an anticipated 60 V to open up currently limited electrical hardware options and elevate shutter actuation reliability to maintain long lifetime shutter success rate of shutters on long-duration science missions. A new fabrication process using bonded silicon-on-insulator (BSOI) wafers will be developed to fabricate verticall",
     "status": "Completed",
     "startDate": "Oct 2024",
     "endDate": "Sep 2025",
@@ -1657,412 +1769,18 @@
     "website": ""
   },
   {
-    "id": 146761,
-    "title": "LExSO Lidar Laser Development",
-    "description": "<p>We propose to demonstrate the new laser capabilities required for spectroscopic infrared reflectance measurement for high sensitivity mapping of water ice as well as for high-resolution topographic mapping.<br />  </p> ",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Air, Water, Microbial, and Acoustic Sensors",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157023,
-    "title": "Model-Based Safety and Mission Assurance Implementation (MBSMAI) and Testing",
-    "description": "<p>This is a cross-cutting process feasibility and improvement investment for digitally enabling SMA mission support capabilities and leverages Digital Engineering (DE) platforms (i.e., modeling tools and more) and capabilities from previous NASA investments. Model-Based Safety and Mission Assurance Implementation (MBSMAI) will answer the questions: <em>Is Model-Based Engineering/Digital Engineering (MBE/DE) valid and usable for all SMA Engineering disciplines? What is needed to enable model-bas",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157638,
-    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
-    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
-    "status": "Completed",
-    "startDate": "May 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157682,
-    "title": "Advanced Langmuir Probe for Measurements in high atomic oxygen environments",
-    "description": "<p>This IRAD develops an Advanced Langmuir Probe (ALP) for flight on low perigee satellites carried out within high atomic oxygen environments such as Goddard\u2019s proposed Atmosphere-Space Transition Region Explorer (ASTRE). This task consists of advancing Goddard\u2019s existing Langmuir probe instrumentation to enable accurate swept I-V curves with minimum hysteresis in a highly atomic oxygen environment by optimizing the surface properties of the probe and by developing high voltage circuitry to ena",
+    "id": 157683,
+    "title": "Advancement of High-Resolution Gamma-ray Spectrometer",
+    "description": "<p>We are developing a high-resolution gamma-ray spectrometer for the purpose of studying solar flare gamma-ray line emission in the ~0.5-10 MeV range. We are employing a cutting edge CeBr3 scintillator which has high photoelectric effect cross sections in the MeV range read out by silicon photomultipliers. We will use the high-heritage readout electronics built for the BurstCube mission updated for CeBr3 signals. The primary effort will be to update the readout electronics and signal processing",
     "status": "Completed",
     "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157715,
-    "title": "cFS Multithread Parallelization Capability",
-    "description": "<p>This project proposes to update the cFS Operating System Abstraction Layer (OSAL) to add SMP capabilities for use with each of the operating systems supported by cFS: Linux, RTEMS, and VxWorks. While cFS was originally created for single-core systems, there\u2019s growing interest in multi-core usage and NASA has started to utilize multi-core processors for its space missions such as the GR712 (2 cores) used in Plankton, Aerosol, Cloud, ocean Ecosystem\u2019s (PACE) Modular Unified Space Technology Avi",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Frameworks, Languages, Tools, and Standards",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157722,
-    "title": "Metamaterial Metaoptic Optical Frame Step-2 Proposal",
-    "description": "<p>This IRAD project focuses on developing a cutting-edge metamaterial metaoptic optical frame for advanced imaging and sensing applications. By leveraging the unique properties of metamaterials, the frame will control light propagation in unprecedented ways, enabling superior optical performance in terms of resolution, compactness, and wavelength range. The project aims to design and fabricate a lightweight, highly efficient optical system that integrates seamlessly with various devices, offeri",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Large Apertures",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Brigham Young University-Provo"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157703,
-    "title": "Evaluating COTS Hardware for Gasless Sounding Rocket Payload Attitude Control",
-    "description": "<p>Gas released by current sounding rocket payload attitude control systems (ACS) has the potential to interfere with some types of science instruments. Previous IRAD work was done to design a gasless reaction wheel ACS that would work for a sounding rocket payload, during which it was determined that commercial off the shelf (COTS) reaction wheels would not be well suited for a full payload due to the larger moments of inertia (MoI) and limited flight durations of sounding rocket payloads. Howe",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Wallops Flight Facility",
-    "technologyArea": "Dynamics Analysis, Modeling, and Simulation Tools",
-    "partners": [
-      "Wallops Flight Facility",
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117153,
-    "title": "A-STEP: The AstroPix Sounding rocket Technology dEmonstration Payload",
-    "description": "<p><strong>CMOS Monolithic Active Pixel Sensors (APSs) are low power, easy to fabricate, and can improve the sensitivity of gamma-ray telescopes in the keV to MeV energy regimes by an order of magnitude compared to current silicon technologies. GSFC\u2019s investment in previous IRADs has yielded a successful ROSES proposal (APRA) that funded the development of such detectors for use in space, and a Roman Technology Fellowship (RTF) to develop an APS instrument as a hosted payload. The team has ident",
-    "status": "Completed",
-    "startDate": "Oct 2022",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
     "technologyArea": "Other Sensors and Instruments",
     "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157714,
-    "title": "Assessing Plant Canopy Energy Balance, Evapotranspiration, and Vegetation Stress with 3D Surface Temperatures Derived from New G-LiHT TIR Imagery",
-    "description": "<p>The drivers and responses of vegetation three-dimensional structure and functioning to ongoing global change, land-use, and altered disturbance regimes is not well understood, but play an important role in regulating land-atmosphere interactions and ecosystem-atmosphere exchange of CO2, CH4, heat and water vapor. A critical uncertainty relates to the complex interplay between vegetation structure and the emergent functioning and surface energy balance over space and time. To address this crit",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 105782,
-    "title": "Fabrication and Evaluation for the Rad-Hard Housekeeping Slave Node (RH-HKSN) ASIC for Power System Electronics",
-    "description": "<p>This project aims to aggressively reduce the size of the Power System Electronics (PSE), low-voltage telemetry, and housekeeping (HK) electronics. The goal is to combine multiple discrete analog, digital, and mixed-signal devices into a single smart, radiation hardened, system-on-a-chip (SOC) chip solution. Ultimately this effort seeks to produce a flight worthy rad-hard device that will replace several discrete components in current and future PSE designs thus reducing the size, mass, power,",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Other Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157704,
-    "title": "Implementing a hardware acceleration for the lunar gravity model",
-    "description": "<p>The objective of this IRAD is to develop, implement, test and verify the 150x150 lunar gravity model for orbit determination (OD) and prediction on the FPGA during the fiscal year 2025. The goal of this task is to meet the Lunar Reconnaissance Orbiter (LRO) requirements for OD and prediction accuracy, which are 500 meters total position root mean squared (RMS) and 18 meters radial RMS for definitive ephemeris accuracy and predicted orbit accuracy less than 800 meters root sum squared (RSS) ov",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Onboard Navigation Algorithms",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 96740,
-    "title": "Standardizing a Data and Power System for GSFC Long-Duration Balloon Flights",
-    "description": "<p>We propose to develop an optical detection technique that can be used to measure NO2 with a balloon-borne sonde (in a follow-on IRAD). This IRAD, we intend to see if this measurement works in a lab environment.</p> ",
-    "status": "Completed",
-    "startDate": "Oct 2020",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 146791,
-    "title": "Investigation of Data Augmentation Techniques for Machine Learning Performance on Mass Spectrometry Data",
-    "description": "<p>Mass spectrometers are powerful instruments that aim to identify unknown compounds via their molecular weight, as well as perform quantitative analysis, and have been essential to space missions since the 1970s through today (<em>e.g.</em>, JUICE, Dragonfly, Europa Clipper). As identified in the Planetary Decadal Survey, missions targeting remote planetary bodies <strong>will face limited data rates and volumes</strong> and <strong>will require onboard science autonomy to optimize science ret",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
       "Goddard Space Flight Center",
-      "Tyto Athene, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157693,
-    "title": "Text-to-Spaceship: Revolutionizing Mission Development through AI and Evolved Systems",
-    "description": "<p>This proposal aims to revolutionize NASA Goddard's mission development by infusing AI and computational design to accelerate development cycles and realize game-changing performance improvements. It will establish a comprehensive Text-to-Spaceship framework for integrating AI into all aspects of mission development, facilitating the transition to AI-enabled automation with human collaboration. Evolved Systems, a key component of the Text-to-Spaceship framework, will automate the design of com",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Mission Architecture, Systems Analysis, and Concept Development",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 146775,
-    "title": "Testing and Extension of Onboard Maneuver Planning Algorithms",
-    "description": "<p>The goal of this IRAD is to develop a flight software (FSW) implementation of a maneuver planning algorithm to include in Goddard\u2019s software for autonomous navigation, guidance, and control, called autoNGC. The primary focus of this early-stage innovation is in-house development of maneuver planning FSW, and a secondary focus is cooperating with other NASA centers to assess the potential for incorporating their maneuver planning FSW tools within autoNGC. Developing an autonomous maneuver plan",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Targeting Algorithms",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Johnson Space Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 146784,
-    "title": "Using Earth-based Observations to Bootstrap Expected Signatures of Exoplanets",
-    "description": "<p>While multi-dimensional physical-chemical models of the upper atmospheres of Earth, Venus and Mars have been developed, they suffer from the many approximations that are related to the pure knowledge of network reaction and reaction rates ignited due to energetic particle precipitation. The major objective of the proposed research is to conduct a comprehensive and inter-disciplinary theory guided experimental study of Earth\u2019s atmospheric chemistry irradiated by the energetic electrons and pro",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Science Modeling",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157653,
-    "title": "Robust Split Electrical Control Design for Microshutter Arrays",
-    "description": "<p>The proposed work will upgrade the Next-Generation Microshutter Array 3-electrode design to a 4-electrode design to reduce voltage requirements from a 100-150 V range to an anticipated 60 V to open up currently limited electrical hardware options and elevate shutter actuation reliability to maintain long lifetime shutter success rate of shutters on long-duration science missions. A new fabrication process using bonded silicon-on-insulator (BSOI) wafers will be developed to fabricate verticall",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157957,
-    "title": "Enable cloud liquid water path (CLWP) measurements with a broad-band digital system on HIWRAP",
-    "description": "<p>This project is to develop a radiometric capability on the High Altitude Wind and Rain Airborne Profiler (HIWRAP) radar while modernizing its digital system and simplifying its RF design. This work replaces the existing command and data handling (C&DH) system, digital receiver, power distribution unit, and intermediate frequency (IF) boxes with a single electronics box containing on-hand radar processing modules, a single-board computer, and some supporting electronics.</p>",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157211,
-    "title": "Micro Magnetometers for Science",
-    "description": "<p>We propose to investigate the possibility of using commercially available magneto-resistive and/or magnetic-inductive sensors (e.g. the magnetometers typically used in smart phones) to conduct scientifically useful measurements in extremely resource-constrained space environments (i.e. mission designs where the available mass and power are &lt;&lt; 1 kg and &lt;&lt; 1 W).</p> ",
-    "status": "Completed",
-    "startDate": "May 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157207,
-    "title": "Alignment and integration support for a new high-contrast integral field spectrograph",
-    "description": "<p>An integral field spectrograph (IFS) camera may help fulfill the exoplanet characterization goals of a future Habitable Worlds Observatory. We will design a next-generation IFS prototype to be installed at on the DST2 coronagraph testbed at JPL's High Contrast Imaging Testbed facility. This new IFS will support TRL 4-5 demonstrations of IFS operation with coronagraphs at contrast levels needed to obtain the spectrum of an Earth-like exoplanet.</p><p>During 2023-2024 our team leveraged our eng",
-    "status": "Completed",
-    "startDate": "May 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Optical Components",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157660,
-    "title": "A Microwave Land Surface Emissivity Model for the Hyperspectral Future",
-    "description": "<p>This project proposes the development of a surface emissivity model to be used in PBL investigations using new hyperspectral microwave technology, with further applications to precipitation via the GPM constellation and general atmospheric remote sensing in the microwave. An upcoming field campaign being led by GSFC will test such technology in anticipation of a pathfinder spaceborne mission to fly in three years with a goal of demonstrating atmospheric sounding in the planetary boundary laye",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Science Modeling",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157699,
-    "title": "Long-Wave Infrared Upgrades for the CHARMS Refractometer",
-    "description": "<p>This project will extend the measurement capabilities of the Cryogenic High Accuracy Refraction Measuring System (CHARMS) facility into the long wave infrared (LWIR) spectral region. The CHARMS refractometer is one of the distinctive<s>s</s> capabilities within the Optics Branch at GSFC. This refractometer was originally developed in the early 2000\u2019s to provide highly accurate cryogenic index of refraction measurements of the various glass materials that were used in the Near-Infrared Camera ",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 146744,
-    "title": "UV Contrast Performance and Yield Improvement of the NGMSA for Use on HWO",
-    "description": "<p>We will be following a plan of work that follows on from FY23 IRAD work to measure the contrast performance of next generation micro shutter arrays (NGMSAs), as well as an investigation of electrostatic repeatability issues associated with shutter open/close and manufacture shorts in the silicon structure. Our work will demonstrate not only the performance of the device but the control and manufacturability of the shutters and their blades as well as control of the light shield structure to p",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Optical Components",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 146756,
-    "title": "Antenna-Coupled MIR/FIR Detectors for High Sensitivity Applications",
-    "description": "<p>This is an effort to develop antenna-coupled detectors for mid- and far- infrared high sensitivity astrophysics applications. The effort will unite multiple relevant technology achievements to extend this detector technology to higher frequencies and more sensitive detectors.</p> ",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Detectors and Focal Planes",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 146764,
-    "title": "S-Band Augmented Forward Service (AFS) Receiver for Lunar Navigation",
-    "description": "<p>Lunar users, whether on the surface or in orbit, need access to PNT services to determine their position, execute maneuvers and maintain accurate time to meet mission objectives. Space assets typically receive PNT services through point-to-point links with Earth ground stations or Relay satellites using ranging, Doppler tracking and messaging schemes. However, to enable users to receive GPS-like global PNT services independent of dedicated communications links, the Lunar Augmented Navigation ",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Revolutionary PNT Technologies",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157668,
-    "title": "Space-Borne Ultra Low Noise Clock \u2013 High TRL Engineering module for VBLI telescope and High Precision Clock Enabled Astrophysics",
-    "description": "<p>1.Development of an Ultra-high stability space qualified clock and clock synchronization system for science applications</p><p>2.System will service mission of Very Long Baseline Interferometry (VLBI) in ground-to-space or space-to-space configurations.</p>",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 156901,
-    "title": "Volumetric 3D Mapping of Complex Dielectric Permittivity of Mars via Laboratory Multi-orientation Analysis of Mars Meteorites with Direct Implications for Future Mars Exploration, Part II",
-    "description": "<p>The goal of this effort is to develop and establish a new and unique, <em>non-destructive</em> methodology for the three-dimensional (3-D) characterization of the <strong>complex dielectric permittivity</strong> (CDP) of arbitrary shaped planetary rocks and Earth analog samples. Our work will set a path to produce the first world-class type facility for the 3-D \u201cmapping\u201d of the isotropic and anisotropic dielectric properties of a variety of rock and soil samples, relevant to Synthetic Apertur",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Other Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
+      "Science Mission Directorate"
     ],
     "website": ""
   },
@@ -2079,6 +1797,21 @@
     "partners": [
       "Goddard Space Flight Center",
       "Science Mission Directorate"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157638,
+    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
+    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
     ],
     "website": ""
   },
@@ -2113,15 +1846,379 @@
     "website": ""
   },
   {
-    "id": 157687,
-    "title": "High-Resolution Plasma Analyzer for Ions",
-    "description": "<p>HYPERION is a top-hat electrostatic plasma analyzer to measure ionospheric plasmas and unprecedented mass and energy resolution. This IRAD will create an ion optics design for a high mass resolution plasma spectrometer.\u00a0</p>",
+    "id": 157682,
+    "title": "Advanced Langmuir Probe for Measurements in high atomic oxygen environments",
+    "description": "<p>This IRAD develops an Advanced Langmuir Probe (ALP) for flight on low perigee satellites carried out within high atomic oxygen environments such as Goddard\u2019s proposed Atmosphere-Space Transition Region Explorer (ASTRE). This task consists of advancing Goddard\u2019s existing Langmuir probe instrumentation to enable accurate swept I-V curves with minimum hysteresis in a highly atomic oxygen environment by optimizing the surface properties of the probe and by developing high voltage circuitry to ena",
     "status": "Completed",
     "startDate": "Oct 2024",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Field and Particle Detectors",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157699,
+    "title": "Long-Wave Infrared Upgrades for the CHARMS Refractometer",
+    "description": "<p>This project will extend the measurement capabilities of the Cryogenic High Accuracy Refraction Measuring System (CHARMS) facility into the long wave infrared (LWIR) spectral region. The CHARMS refractometer is one of the distinctive<s>s</s> capabilities within the Optics Branch at GSFC. This refractometer was originally developed in the early 2000\u2019s to provide highly accurate cryogenic index of refraction measurements of the various glass materials that were used in the Near-Infrared Camera ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 156901,
+    "title": "Volumetric 3D Mapping of Complex Dielectric Permittivity of Mars via Laboratory Multi-orientation Analysis of Mars Meteorites with Direct Implications for Future Mars Exploration, Part II",
+    "description": "<p>The goal of this effort is to develop and establish a new and unique, <em>non-destructive</em> methodology for the three-dimensional (3-D) characterization of the <strong>complex dielectric permittivity</strong> (CDP) of arbitrary shaped planetary rocks and Earth analog samples. Our work will set a path to produce the first world-class type facility for the 3-D \u201cmapping\u201d of the isotropic and anisotropic dielectric properties of a variety of rock and soil samples, relevant to Synthetic Apertur",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Other Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117116,
+    "title": "Towards Dynamic Configuration for a Cloud Evolution Targeting Radar System",
+    "description": "<p>We explore a novel scanning cloud radar concept for observing the evolution of low-level clouds and convective initiation in a targeted manner. Results from high resolution cloud model simulations will be used to perform a trade study to define measurement requirements and help inform design specifications of radar system with a metasurface antenna for electronic steerable beam scanning in two dimensions. A key goal of the study is to identify enabling technology to develop a new measurement ",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157208,
+    "title": "Tandem Ion Mass Spectrometer (TIMS): High Efficiency Multi-Stop Design",
+    "description": "<p>Build a prototype of our Tandem Ion Mass Spectrometer (TIMS), that can separate the mass and charge of atomic ions and can separate atomic and molecular ions of similar mass-per-charge ratio (M/Q). This prototype TIMS currently has the opportunity to fly on a sounding rocket in FY25 as a technology demonstration instrument. One of the main innovative aspects of TIMS is the capability of a really low noise floor, allowing for the detection of minor ion species in a variety of plasma environmen",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Wallops Flight Facility"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157715,
+    "title": "cFS Multithread Parallelization Capability",
+    "description": "<p>This project proposes to update the cFS Operating System Abstraction Layer (OSAL) to add SMP capabilities for use with each of the operating systems supported by cFS: Linux, RTEMS, and VxWorks. While cFS was originally created for single-core systems, there\u2019s growing interest in multi-core usage and NASA has started to utilize multi-core processors for its space missions such as the GR712 (2 cores) used in Plankton, Aerosol, Cloud, ocean Ecosystem\u2019s (PACE) Modular Unified Space Technology Avi",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Frameworks, Languages, Tools, and Standards",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 146775,
+    "title": "Testing and Extension of Onboard Maneuver Planning Algorithms",
+    "description": "<p>The goal of this IRAD is to develop a flight software (FSW) implementation of a maneuver planning algorithm to include in Goddard\u2019s software for autonomous navigation, guidance, and control, called autoNGC. The primary focus of this early-stage innovation is in-house development of maneuver planning FSW, and a secondary focus is cooperating with other NASA centers to assess the potential for incorporating their maneuver planning FSW tools within autoNGC. Developing an autonomous maneuver plan",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Targeting Algorithms",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157679,
+    "title": "Deci-Hz Interferometric Space Antenna",
+    "description": "<p>Gravitational-wave (GW) astrophysics has begun in earnest with the early successes of LIGO, and the substantial progress of the LISA mission toward launch in the 2030s. The unexplored \u201cDeci-Hz\u201d (dHz) band lies in between LISA and LIGO, containing guaranteed early warning of multi-messenger LIGO stellar origin compact binaries of black holes (SOBH) and neutron stars (BNS), potentially exciting additional sources like double-white dwarf systems merging to cause Type Ia supernovae, intermediate ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 146756,
+    "title": "Antenna-Coupled MIR/FIR Detectors for High Sensitivity Applications",
+    "description": "<p>This is an effort to develop antenna-coupled detectors for mid- and far- infrared high sensitivity astrophysics applications. The effort will unite multiple relevant technology achievements to extend this detector technology to higher frequencies and more sensitive detectors.</p> ",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Detectors and Focal Planes",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 146744,
+    "title": "UV Contrast Performance and Yield Improvement of the NGMSA for Use on HWO",
+    "description": "<p>We will be following a plan of work that follows on from FY23 IRAD work to measure the contrast performance of next generation micro shutter arrays (NGMSAs), as well as an investigation of electrostatic repeatability issues associated with shutter open/close and manufacture shorts in the silicon structure. Our work will demonstrate not only the performance of the device but the control and manufacturability of the shutters and their blades as well as control of the light shield structure to p",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Optical Components",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117153,
+    "title": "A-STEP: The AstroPix Sounding rocket Technology dEmonstration Payload",
+    "description": "<p><strong>CMOS Monolithic Active Pixel Sensors (APSs) are low power, easy to fabricate, and can improve the sensitivity of gamma-ray telescopes in the keV to MeV energy regimes by an order of magnitude compared to current silicon technologies. GSFC\u2019s investment in previous IRADs has yielded a successful ROSES proposal (APRA) that funded the development of such detectors for use in space, and a Roman Technology Fellowship (RTF) to develop an APS instrument as a hosted payload. The team has ident",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Other Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157693,
+    "title": "Text-to-Spaceship: Revolutionizing Mission Development through AI and Evolved Systems",
+    "description": "<p>This proposal aims to revolutionize NASA Goddard's mission development by infusing AI and computational design to accelerate development cycles and realize game-changing performance improvements. It will establish a comprehensive Text-to-Spaceship framework for integrating AI into all aspects of mission development, facilitating the transition to AI-enabled automation with human collaboration. Evolved Systems, a key component of the Text-to-Spaceship framework, will automate the design of com",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Mission Architecture, Systems Analysis, and Concept Development",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 146791,
+    "title": "Investigation of Data Augmentation Techniques for Machine Learning Performance on Mass Spectrometry Data",
+    "description": "<p>Mass spectrometers are powerful instruments that aim to identify unknown compounds via their molecular weight, as well as perform quantitative analysis, and have been essential to space missions since the 1970s through today (<em>e.g.</em>, JUICE, Dragonfly, Europa Clipper). As identified in the Planetary Decadal Survey, missions targeting remote planetary bodies <strong>will face limited data rates and volumes</strong> and <strong>will require onboard science autonomy to optimize science ret",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Tyto Athene, LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 146784,
+    "title": "Using Earth-based Observations to Bootstrap Expected Signatures of Exoplanets",
+    "description": "<p>While multi-dimensional physical-chemical models of the upper atmospheres of Earth, Venus and Mars have been developed, they suffer from the many approximations that are related to the pure knowledge of network reaction and reaction rates ignited due to energetic particle precipitation. The major objective of the proposed research is to conduct a comprehensive and inter-disciplinary theory guided experimental study of Earth\u2019s atmospheric chemistry irradiated by the energetic electrons and pro",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Science Modeling",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157704,
+    "title": "Implementing a hardware acceleration for the lunar gravity model",
+    "description": "<p>The objective of this IRAD is to develop, implement, test and verify the 150x150 lunar gravity model for orbit determination (OD) and prediction on the FPGA during the fiscal year 2025. The goal of this task is to meet the Lunar Reconnaissance Orbiter (LRO) requirements for OD and prediction accuracy, which are 500 meters total position root mean squared (RMS) and 18 meters radial RMS for definitive ephemeris accuracy and predicted orbit accuracy less than 800 meters root sum squared (RSS) ov",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Onboard Navigation Algorithms",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157660,
+    "title": "A Microwave Land Surface Emissivity Model for the Hyperspectral Future",
+    "description": "<p>This project proposes the development of a surface emissivity model to be used in PBL investigations using new hyperspectral microwave technology, with further applications to precipitation via the GPM constellation and general atmospheric remote sensing in the microwave. An upcoming field campaign being led by GSFC will test such technology in anticipation of a pathfinder spaceborne mission to fly in three years with a goal of demonstrating atmospheric sounding in the planetary boundary laye",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Science Modeling",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 105782,
+    "title": "Fabrication and Evaluation for the Rad-Hard Housekeeping Slave Node (RH-HKSN) ASIC for Power System Electronics",
+    "description": "<p>This project aims to aggressively reduce the size of the Power System Electronics (PSE), low-voltage telemetry, and housekeeping (HK) electronics. The goal is to combine multiple discrete analog, digital, and mixed-signal devices into a single smart, radiation hardened, system-on-a-chip (SOC) chip solution. Ultimately this effort seeks to produce a flight worthy rad-hard device that will replace several discrete components in current and future PSE designs thus reducing the size, mass, power,",
+    "status": "Completed",
+    "startDate": "Oct 2021",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Other Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157957,
+    "title": "Enable cloud liquid water path (CLWP) measurements with a broad-band digital system on HIWRAP",
+    "description": "<p>This project is to develop a radiometric capability on the High Altitude Wind and Rain Airborne Profiler (HIWRAP) radar while modernizing its digital system and simplifying its RF design. This work replaces the existing command and data handling (C&DH) system, digital receiver, power distribution unit, and intermediate frequency (IF) boxes with a single electronics box containing on-hand radar processing modules, a single-board computer, and some supporting electronics.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96740,
+    "title": "Standardizing a Data and Power System for GSFC Long-Duration Balloon Flights",
+    "description": "<p>We propose to develop an optical detection technique that can be used to measure NO2 with a balloon-borne sonde (in a follow-on IRAD). This IRAD, we intend to see if this measurement works in a lab environment.</p> ",
+    "status": "Completed",
+    "startDate": "Oct 2020",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157023,
+    "title": "Model-Based Safety and Mission Assurance Implementation (MBSMAI) and Testing",
+    "description": "<p>This is a cross-cutting process feasibility and improvement investment for digitally enabling SMA mission support capabilities and leverages Digital Engineering (DE) platforms (i.e., modeling tools and more) and capabilities from previous NASA investments. Model-Based Safety and Mission Assurance Implementation (MBSMAI) will answer the questions: <em>Is Model-Based Engineering/Digital Engineering (MBE/DE) valid and usable for all SMA Engineering disciplines? What is needed to enable model-bas",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157207,
+    "title": "Alignment and integration support for a new high-contrast integral field spectrograph",
+    "description": "<p>An integral field spectrograph (IFS) camera may help fulfill the exoplanet characterization goals of a future Habitable Worlds Observatory. We will design a next-generation IFS prototype to be installed at on the DST2 coronagraph testbed at JPL's High Contrast Imaging Testbed facility. This new IFS will support TRL 4-5 demonstrations of IFS operation with coronagraphs at contrast levels needed to obtain the spectrum of an Earth-like exoplanet.</p><p>During 2023-2024 our team leveraged our eng",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Optical Components",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157211,
+    "title": "Micro Magnetometers for Science",
+    "description": "<p>We propose to investigate the possibility of using commercially available magneto-resistive and/or magnetic-inductive sensors (e.g. the magnetometers typically used in smart phones) to conduct scientifically useful measurements in extremely resource-constrained space environments (i.e. mission designs where the available mass and power are &lt;&lt; 1 kg and &lt;&lt; 1 W).</p> ",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157680,
+    "title": "Next Generation High-Bandwidth Telemetery and Accompanying Agile Multi-Instrument Smart Interface for Sounding Rocket Experiments",
+    "description": "<p>Our main objective is to develop a next generation centralized multi- instrument GSE that has the interface capability to use the 40 Mbps down link newly available at Wallops while remaining flexible enough to easily adapt to many instruments using documented procedures.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 146761,
+    "title": "LExSO Lidar Laser Development",
+    "description": "<p>We propose to demonstrate the new laser capabilities required for spectroscopic infrared reflectance measurement for high sensitivity mapping of water ice as well as for high-resolution topographic mapping.<br />  </p> ",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Air, Water, Microbial, and Acoustic Sensors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157668,
+    "title": "Space-Borne Ultra Low Noise Clock \u2013 High TRL Engineering module for VBLI telescope and High Precision Clock Enabled Astrophysics",
+    "description": "<p>1.Development of an Ultra-high stability space qualified clock and clock synchronization system for science applications</p><p>2.System will service mission of Very Long Baseline Interferometry (VLBI) in ground-to-space or space-to-space configurations.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
     "partners": [
       "Goddard Space Flight Center"
     ],
@@ -2276,89 +2373,6 @@
     "technologyArea": "",
     "partners": [
       "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157994,
-    "title": "An Off Planet Laundromat",
-    "description": "<p>The overall goal of this technology program is to develop methods to clean clothes, soft spacesuit materials, wearable sensors, and next generation materials that could enhance mission capabilities in the future if they could be cleaned. Specifically, we propose to explore two innovative technologies for space applications: the use of an ozone technology or liquid CO2.</p>",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "05/29/26",
-    "center": "Ames Research Center",
-    "technologyArea": "",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157886,
-    "title": "Water Processor Assembly Upgrades",
-    "description": "<p>WPA upgrades, contracted to Boeing with subcontractor Collins Aerospace, have focused on addressing siloxanes and their conversion to DMSD (dimethylsilanediol) in waste water, as well as extending hardware life. The first major upgrade focused on the Multi-Filtration Bed (MF Bed). The MF Bed ORU was upgraded to make use of new synthetic charcoal which has a better capacity for DMSD, IRN-67 material was removed in order to eliminate a leachate problem affecting the EMU sublimator, and the conf",
-    "status": "Active",
-    "startDate": "Aug 2018",
-    "endDate": "Dec 2029",
-    "lastUpdated": "05/27/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Other Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Johnson Space Center",
-      "Collins Aerospace",
-      "Marshall Space Flight Center",
-      "The Boeing Company"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157885,
-    "title": "Urine Processor Assembly Upgrades",
-    "description": "<p>The UPA is being upgraded by NASA to correct design weaknesses and improve maintainability. There are multiple projects within the UPA upgrades effort, and they are in varying stages of completion.</p><p>The Distillation Assembly (DA) was updated to improve bearing material, reduce a leak path, and make use of an upgraded toothed gear belt to extend life. The upgraded DA was installed on 9/10/2020 and is operating at 350% of legacy expected lifespan. </p><p>The upgrade that is still in work i",
-    "status": "Active",
-    "startDate": "Oct 2018",
-    "endDate": "Dec 2028",
-    "lastUpdated": "05/27/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Water Recovery and Management",
-    "partners": [
-      "Johnson Space Center",
-      "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157884,
-    "title": "Additively Manufactured Condensing Heat Exchanger",
-    "description": "<p>Robust and reliable condensing heat exchangers (CHX) are needed to control temperature and humidity in the cabin which ensures human health and comfort and maintains electrical/mechanical equipment. Over time, system degradation caused by contamination can result in a compromised ability to collect moisture. Microbial growth on the surface can result in a risk to crew health. Both can cause problems for downstream equipment as well as maintaining the environment. A system that is robust again",
-    "status": "Active",
-    "startDate": "May 2022",
-    "endDate": "Jun 2030",
-    "lastUpdated": "05/27/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Other Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Johnson Space Center",
-      "Collins Aerospace",
-      "The Boeing Company"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157866,
-    "title": "Earth Independent Operations Vehicle Systems",
-    "description": "<p>The Vehicle Systems (VS) Portfolio within the MCO EIO Domain is responsible for the maturation of hardware elements that will provide data and computational power to enable increasingly Earth-independent spacecraft and systems. The VS Portfolio will allow for development and testing of spacecraft subsystems to gain greater insight into nominal operations, anomalies, and failures. Existing and future testbeds across the agency will be assessed for ease of technological injection via increasing",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2031",
-    "lastUpdated": "05/27/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Flight Computing and Avionics",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Ames Research Center",
-      "Glenn Research Center"
     ],
     "website": ""
   }

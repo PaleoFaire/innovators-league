@@ -1,26 +1,8 @@
 [
   {
-    "date": "2026-06-15",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-54",
-    "payload": "Starlink Group 17-54",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/bad5ea8c-8b17-4cb3-a063-d427fb092275/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-16",
-    "vehicle": "Long March 3B/E | Shijian 31",
-    "payload": "Shijian 31",
-    "pad": "Launch Complex 2 (LC-2), Xichang Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0ff43072-5407-425b-8c8d-6bca068143b9/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-06-17",
-    "vehicle": "Long March 12 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 12 | SatNet LEO Group 22",
+    "payload": "SatNet LEO Group 22",
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/756a042f-3da8-4a21-bb42-5996fc148050/?format=json",
@@ -54,15 +36,6 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-06-17",
-    "vehicle": "Electron | Ten Owl Of Ten (StriX Launch 10)",
-    "payload": "Ten Owl Of Ten (StriX Launch 10)",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
     "date": "2026-06-18",
     "vehicle": "Falcon 9 Block 5 | NROL-179",
     "payload": "NROL-179",
@@ -70,6 +43,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5d4099bf-a0be-4f54-b236-b6ab3aed4146/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-18",
+    "vehicle": "Spectrum | Onward and Upward",
+    "payload": "Onward and Upward",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-06-20",
@@ -108,6 +90,24 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-06-27",
+    "vehicle": "Pegasus XL | Swift Boost Mission",
+    "payload": "Swift Boost Mission",
+    "pad": "Kwajalein Atoll, Air launch to orbit",
+    "provider": "Northrop Grumman Space Systems",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
+    "trackedCompany": "Northrop Grumman"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Electron | Ten Owl Of Ten (StriX Launch 10)",
+    "payload": "Ten Owl Of Ten (StriX Launch 10)",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
     "date": "2026-06-30",
     "vehicle": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
     "payload": "The Grain Goddess Provides (iQPS Launch 7)",
@@ -127,15 +127,6 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "Pegasus XL | Swift Boost Mission",
-    "payload": "Swift Boost Mission",
-    "pad": "Kwajalein Atoll, Air launch to orbit",
-    "provider": "Northrop Grumman Space Systems",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
-    "trackedCompany": "Northrop Grumman"
-  },
-  {
-    "date": "2026-06-30",
     "vehicle": "Smart Dragon 3 | Unknown Payload",
     "payload": "Unknown Payload",
     "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
@@ -150,15 +141,6 @@
     "pad": "ADD Offshore launch platform, Sea Launch",
     "provider": "Agency for Defense Development",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Spectrum | Onward and Upward",
-    "payload": "Onward and Upward",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
     "trackedCompany": null
   },
   {
@@ -442,11 +424,29 @@
   },
   {
     "date": "2026-09-30",
+    "vehicle": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "payload": "Amazon Leo (LV-01)",
+    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef9850ad-1096-425b-9d27-f7bbd186e61a/?format=json",
+    "trackedCompany": "ULA"
+  },
+  {
+    "date": "2026-09-30",
     "vehicle": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
     "payload": "5x Astranis MicroGEO",
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d373ca659/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | MRV-1",
+    "payload": "MRV-1",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0f6780cf-edae-4d7c-99d6-ce7de784d140/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]

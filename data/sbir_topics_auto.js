@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-06-16 12:41:08 UTC
+// Last updated: 2026-06-17 11:45:13 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -842,8 +842,8 @@ const SBIR_TOPICS_AUTO = [
         "bid_fit_score": 19.6,
         "matched_terms": [
           "maritime",
-          "undersea",
-          "swarm"
+          "swarm",
+          "undersea"
         ]
       },
       {
@@ -942,8 +942,8 @@ const SBIR_TOPICS_AUTO = [
         "bid_fit_score": 13.2,
         "matched_terms": [
           "biotech",
-          "synthetic",
-          "biology"
+          "biology",
+          "synthetic"
         ]
       },
       {

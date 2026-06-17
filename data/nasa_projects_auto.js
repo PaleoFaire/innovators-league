@@ -1,6 +1,11 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-06-16 12:00:34 UTC
+// Last updated: 2026-06-17 11:26:38 UTC
 const NASA_PROJECTS = [
+  { id: 157628, title: "Spacesuit Fit & Injury Technologies", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "06/16/26" },
+  { id: 184879, title: "Advanced Trace Contaminant Control", status: "Active", center: "Johnson Space Center", techArea: "Portable Life Support System", lastUpdated: "06/16/26" },
+  { id: 184881, title: "Mars Portable Life Support System Testbed", status: "Active", center: "Johnson Space Center", techArea: "Portable Life Support System", lastUpdated: "06/16/26" },
+  { id: 157177, title: "Crew Health And Performance Exploration Analog", status: "Active", center: "Johnson Space Center", techArea: "Behavioral Health and Performance", lastUpdated: "06/16/26" },
+  { id: 184738, title: "Crew Health And Performance Exploration Analog (CHAPEA) Mission 2", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "06/16/26" },
   { id: 183934, title: "Volatile Release from Mars/Lunar Regolith by Mechanical Agitation ", status: "Active", center: "Kennedy Space Center", techArea: "Resource Acquisition, Isolation, and Preparation", lastUpdated: "06/15/26" },
   { id: 183978, title: "Development of a COMPact Space weather Sensor payload", status: "Active", center: "Goddard Space Flight Center", techArea: "In Situ Instruments and Sensors", lastUpdated: "06/15/26" },
   { id: 183985, title: "(GCA-1 with L3Harris): Lunar and Martian Regolith Testing of Antenna Systems and", status: "Active", center: "Goddard Space Flight Center", techArea: "", lastUpdated: "06/15/26" },
@@ -26,9 +31,4 @@ const NASA_PROJECTS = [
   { id: 183969, title: "Lunar and Planetary Plume Surface Interaction Environmental Test Rig", status: "Active", center: "Langley Research Center", techArea: "Materials", lastUpdated: "06/15/26" },
   { id: 183967, title: "Turbomachinery Liquefaction Demonstration with a Recuperator", status: "Active", center: "Marshall Space Flight Center", techArea: "Exploration Destination Systems", lastUpdated: "06/15/26" },
   { id: 183965, title: "AI- and Modeling-Optimized Acoustic Mufflers for Next-Generation Spacesuits and ", status: "Active", center: "Johnson Space Center", techArea: "Environmental Control and Life Support Systems and Habitation Systems", lastUpdated: "06/15/26" },
-  { id: 183960, title: "VESPEr: Vapor Experiment for Space and Planetary Exploration", status: "Active", center: "Langley Research Center", techArea: "In Situ Instruments and Sensors", lastUpdated: "06/15/26" },
-  { id: 183958, title: "Smart and Efficient Filters for Moon to Mars ", status: "Active", center: "Glenn Research Center", techArea: "Environmental Control and Life Support Systems and Habitation Systems", lastUpdated: "06/15/26" },
-  { id: 183950, title: "Surviving Lunar Night with Solid State Battery Systems", status: "Active", center: "Langley Research Center", techArea: "Electrochemical Storage: Batteries", lastUpdated: "06/15/26" },
-  { id: 183947, title: "Simulated Inspection Mechanics for Artificial Intelligence Defect Detection", status: "Active", center: "Langley Research Center", techArea: "Surface Construction and Assembly", lastUpdated: "06/15/26" },
-  { id: 183939, title: "Generic Granular Feedstock Beneficiation System for Planetary Surface Constructi", status: "Active", center: "Glenn Research Center", techArea: "Resource Acquisition, Isolation, and Preparation", lastUpdated: "06/15/26" },
 ];

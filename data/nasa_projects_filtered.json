@@ -1,5 +1,102 @@
 [
   {
+    "id": 157628,
+    "title": "Spacesuit Fit & Injury Technologies",
+    "description": "<p>Exploration (Lunar and Mars) surface Extravehicular Activities (EVA)s will have physically and cognitively demanding tasks for crew with high injury risk. In addition, crews will perform a larger quantity of EVAs with far less rest between EVAs than ever before. The Spacesuit Fit &amp; Injury Technologies (SFIT) work develops suit-independent, generalizable tools to predict, monitor, and mitigate EVA crewmember injury. The SFIT project will prioritize technology development based on the Injur",
+    "status": "Active",
+    "startDate": "Oct 2019",
+    "endDate": "Sep 2030",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Johnson Space Center",
+      "Glenn Research Center",
+      "Exploration Systems Development Mission Directorate"
+    ],
+    "website": ""
+  },
+  {
+    "id": 184879,
+    "title": "Advanced Trace Contaminant Control",
+    "description": "<p>\u00a0</p><p>Trace Contaminant Control (TCC) is typically activated carbon and some level of catalyst to adsorb and react contaminants in the air phase. The current state-of-the-art carbon dioxide (CO2) removal sorbents utilize amines that rely on a hard vacuum to desorb during an Extravehicular Activity (EVA). Some sorbents also act to remove some trace contaminants. This may be severely limited on Mars due to the atmosphere. Therefore, Mars will require new methods, sorbents, and testing of the ",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2028",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Portable Life Support System",
+    "partners": [
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 184881,
+    "title": "Mars Portable Life Support System Testbed",
+    "description": "<p>To get from Moon to Mars, development of a Mars-centered spacesuit to support extravehicular activity (EVA) must begin now. In an effort towards this goal, setup of a Mars Portable Life Support System (PLSS) team to evaluate schematics for a Mars Extravehicular Mobility Unit (MxEMU) is underway. As part of a previous study, a wide range of potential architectures were evaluated and compared to determine leading options for a Martian PLSS.</p><p><br />Going forward, these schematics will infor",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2031",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Portable Life Support System",
+    "partners": [
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157177,
+    "title": "Crew Health And Performance Exploration Analog",
+    "description": "<p>Missions for Moon to Mars are very different from missions to the ISS due to length of isolation and confinement, distance from Earth, and the resource restrictions that will be applied to the crew. Artemis Program vehicles have limited mass allocations for food and other consumables. Given the increased distance to Mars and timeline for return, programs need to understand the impacts of restrictions within realistic constraints on health and performance to inform risk/resource trades prior t",
+    "status": "Active",
+    "startDate": "Jun 2020",
+    "endDate": "Sep 2027",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Behavioral Health and Performance",
+    "partners": [
+      "Johnson Space Center",
+      "ABG AllTraq",
+      "Ames Research Center",
+      "Bjarke Ingels Group",
+      "Gratuitous Sets Laboratories",
+      "ICON",
+      "Kennedy Space Center",
+      "Marshall Space Flight Center",
+      "Pneuhaus",
+      "Skypersonic",
+      "Human Research Program"
+    ],
+    "website": ""
+  },
+  {
+    "id": 184738,
+    "title": "Crew Health And Performance Exploration Analog (CHAPEA) Mission 2",
+    "description": "<p>Missions for Moon to Mars are very different from missions to the ISS due to length of isolation and confinement, distance from Earth, and the resource restrictions that will be applied to the crew. Artemis Program vehicles have limited mass allocations for food and other consumables. Given the increased distance to Mars and timeline for return, programs need to understand the impacts of restrictions within realistic constraints on health and performance to inform risk/resource trades prior t",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2027",
+    "lastUpdated": "06/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Johnson Space Center",
+      "ABG AllTraq",
+      "Ames Research Center",
+      "Bjarke Ingels Group",
+      "Gratuitous Sets Laboratories",
+      "ICON",
+      "Kennedy Space Center",
+      "Marshall Space Flight Center",
+      "Pneuhaus",
+      "Skypersonic",
+      "Mars Campaign Office"
+    ],
+    "website": ""
+  },
+  {
     "id": 183934,
     "title": "Volatile Release from Mars/Lunar Regolith by Mechanical Agitation ",
     "description": "Proposal will investigate the extent to which mechanical agitation causes release of simulated solar wind particles implanted in lunar regolith simulant by crushing or grinding the material, or by normal surface operations such as excavation, geotechnical testing, or regolith conveying.",
@@ -676,6 +773,21 @@
     "website": ""
   },
   {
+    "id": 146764,
+    "title": "S-Band Augmented Forward Service (AFS) Receiver for Lunar Navigation",
+    "description": "<p>Lunar users, whether on the surface or in orbit, need access to PNT services to determine their position, execute maneuvers and maintain accurate time to meet mission objectives. Space assets typically receive PNT services through point-to-point links with Earth ground stations or Relay satellites using ranging, Doppler tracking and messaging schemes. However, to enable users to receive GPS-like global PNT services independent of dedicated communications links, the Lunar Augmented Navigation ",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Revolutionary PNT Technologies",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 157688,
     "title": "A real-time seismic detection technology for the Moon and beyond",
     "description": "<p>The objective of this effort is to develop a real-time seismic detection technology using machine learning signal change detection for both lander-side decision-making for telemetry prioritization and rapid assessment of incoming streamed data on Earth. The technology (<strong>CORGI</strong>, short for <strong>CO</strong>ntinous <strong>R</strong>ealtime monitorin<strong>G</strong> <strong>I</strong>nfrastructure) will be modular, able to integrate diverse detection algorithms, instrument typ",
@@ -694,11 +806,11 @@
     "website": ""
   },
   {
-    "id": 117116,
-    "title": "Towards Dynamic Configuration for a Cloud Evolution Targeting Radar System",
-    "description": "<p>We explore a novel scanning cloud radar concept for observing the evolution of low-level clouds and convective initiation in a targeted manner. Results from high resolution cloud model simulations will be used to perform a trade study to define measurement requirements and help inform design specifications of radar system with a metasurface antenna for electronic steerable beam scanning in two dimensions. A key goal of the study is to identify enabling technology to develop a new measurement ",
+    "id": 157638,
+    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
+    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
     "status": "Completed",
-    "startDate": "Oct 2022",
+    "startDate": "May 2024",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
@@ -709,26 +821,11 @@
     "website": ""
   },
   {
-    "id": 146761,
-    "title": "LExSO Lidar Laser Development",
-    "description": "<p>We propose to demonstrate the new laser capabilities required for spectroscopic infrared reflectance measurement for high sensitivity mapping of water ice as well as for high-resolution topographic mapping.<br />  </p> ",
+    "id": 157718,
+    "title": "Bi-Directional High Altitude Aircraft Atmospheric Lidar Instrument Performance Improvement",
+    "description": "<p>Stratospheric aerosols can have large effects on both the radiative balance of the planet and atmospheric composition. In this region of the atmosphere, aerosols are predominantly sulfate, much of them volcanic in origin. Analogously, explosive pyrocumulonimbus (pyroCb) convection from extreme midlatitude and boreal forest fire events can directly inject aerosols into the stratosphere. After injection, volcanic and pyroCb aerosols can persist for many months in the stratosphere; however, the ",
     "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Air, Water, Microbial, and Acoustic Sensors",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157638,
-    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
-    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
-    "status": "Completed",
-    "startDate": "May 2024",
+    "startDate": "Oct 2024",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
@@ -754,33 +851,32 @@
     "website": ""
   },
   {
-    "id": 157704,
-    "title": "Implementing a hardware acceleration for the lunar gravity model",
-    "description": "<p>The objective of this IRAD is to develop, implement, test and verify the 150x150 lunar gravity model for orbit determination (OD) and prediction on the FPGA during the fiscal year 2025. The goal of this task is to meet the Lunar Reconnaissance Orbiter (LRO) requirements for OD and prediction accuracy, which are 500 meters total position root mean squared (RMS) and 18 meters radial RMS for definitive ephemeris accuracy and predicted orbit accuracy less than 800 meters root sum squared (RSS) ov",
+    "id": 156901,
+    "title": "Volumetric 3D Mapping of Complex Dielectric Permittivity of Mars via Laboratory Multi-orientation Analysis of Mars Meteorites with Direct Implications for Future Mars Exploration, Part II",
+    "description": "<p>The goal of this effort is to develop and establish a new and unique, <em>non-destructive</em> methodology for the three-dimensional (3-D) characterization of the <strong>complex dielectric permittivity</strong> (CDP) of arbitrary shaped planetary rocks and Earth analog samples. Our work will set a path to produce the first world-class type facility for the 3-D \u201cmapping\u201d of the isotropic and anisotropic dielectric properties of a variety of rock and soil samples, relevant to Synthetic Apertur",
     "status": "Completed",
-    "startDate": "Oct 2024",
+    "startDate": "Oct 2023",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Onboard Navigation Algorithms",
+    "technologyArea": "Other Sensors and Instruments",
     "partners": [
       "Goddard Space Flight Center"
     ],
     "website": ""
   },
   {
-    "id": 146791,
-    "title": "Investigation of Data Augmentation Techniques for Machine Learning Performance on Mass Spectrometry Data",
-    "description": "<p>Mass spectrometers are powerful instruments that aim to identify unknown compounds via their molecular weight, as well as perform quantitative analysis, and have been essential to space missions since the 1970s through today (<em>e.g.</em>, JUICE, Dragonfly, Europa Clipper). As identified in the Planetary Decadal Survey, missions targeting remote planetary bodies <strong>will face limited data rates and volumes</strong> and <strong>will require onboard science autonomy to optimize science ret",
+    "id": 117116,
+    "title": "Towards Dynamic Configuration for a Cloud Evolution Targeting Radar System",
+    "description": "<p>We explore a novel scanning cloud radar concept for observing the evolution of low-level clouds and convective initiation in a targeted manner. Results from high resolution cloud model simulations will be used to perform a trade study to define measurement requirements and help inform design specifications of radar system with a metasurface antenna for electronic steerable beam scanning in two dimensions. A key goal of the study is to identify enabling technology to develop a new measurement ",
     "status": "Completed",
-    "startDate": "Oct 2023",
+    "startDate": "Oct 2022",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "technologyArea": "Sensors and Instruments",
     "partners": [
-      "Goddard Space Flight Center",
-      "Tyto Athene, LLC"
+      "Goddard Space Flight Center"
     ],
     "website": ""
   },
@@ -801,6 +897,22 @@
     "website": ""
   },
   {
+    "id": 146791,
+    "title": "Investigation of Data Augmentation Techniques for Machine Learning Performance on Mass Spectrometry Data",
+    "description": "<p>Mass spectrometers are powerful instruments that aim to identify unknown compounds via their molecular weight, as well as perform quantitative analysis, and have been essential to space missions since the 1970s through today (<em>e.g.</em>, JUICE, Dragonfly, Europa Clipper). As identified in the Planetary Decadal Survey, missions targeting remote planetary bodies <strong>will face limited data rates and volumes</strong> and <strong>will require onboard science autonomy to optimize science ret",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Tyto Athene, LLC"
+    ],
+    "website": ""
+  },
+  {
     "id": 146784,
     "title": "Using Earth-based Observations to Bootstrap Expected Signatures of Exoplanets",
     "description": "<p>While multi-dimensional physical-chemical models of the upper atmospheres of Earth, Venus and Mars have been developed, they suffer from the many approximations that are related to the pure knowledge of network reaction and reaction rates ignited due to energetic particle precipitation. The major objective of the proposed research is to conduct a comprehensive and inter-disciplinary theory guided experimental study of Earth\u2019s atmospheric chemistry irradiated by the energetic electrons and pro",
@@ -810,6 +922,21 @@
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
     "technologyArea": "Science Modeling",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157704,
+    "title": "Implementing a hardware acceleration for the lunar gravity model",
+    "description": "<p>The objective of this IRAD is to develop, implement, test and verify the 150x150 lunar gravity model for orbit determination (OD) and prediction on the FPGA during the fiscal year 2025. The goal of this task is to meet the Lunar Reconnaissance Orbiter (LRO) requirements for OD and prediction accuracy, which are 500 meters total position root mean squared (RMS) and 18 meters radial RMS for definitive ephemeris accuracy and predicted orbit accuracy less than 800 meters root sum squared (RSS) ov",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Onboard Navigation Algorithms",
     "partners": [
       "Goddard Space Flight Center"
     ],
@@ -831,45 +958,15 @@
     "website": ""
   },
   {
-    "id": 146764,
-    "title": "S-Band Augmented Forward Service (AFS) Receiver for Lunar Navigation",
-    "description": "<p>Lunar users, whether on the surface or in orbit, need access to PNT services to determine their position, execute maneuvers and maintain accurate time to meet mission objectives. Space assets typically receive PNT services through point-to-point links with Earth ground stations or Relay satellites using ranging, Doppler tracking and messaging schemes. However, to enable users to receive GPS-like global PNT services independent of dedicated communications links, the Lunar Augmented Navigation ",
+    "id": 146761,
+    "title": "LExSO Lidar Laser Development",
+    "description": "<p>We propose to demonstrate the new laser capabilities required for spectroscopic infrared reflectance measurement for high sensitivity mapping of water ice as well as for high-resolution topographic mapping.<br />  </p> ",
     "status": "Completed",
     "startDate": "Oct 2023",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Revolutionary PNT Technologies",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 156901,
-    "title": "Volumetric 3D Mapping of Complex Dielectric Permittivity of Mars via Laboratory Multi-orientation Analysis of Mars Meteorites with Direct Implications for Future Mars Exploration, Part II",
-    "description": "<p>The goal of this effort is to develop and establish a new and unique, <em>non-destructive</em> methodology for the three-dimensional (3-D) characterization of the <strong>complex dielectric permittivity</strong> (CDP) of arbitrary shaped planetary rocks and Earth analog samples. Our work will set a path to produce the first world-class type facility for the 3-D \u201cmapping\u201d of the isotropic and anisotropic dielectric properties of a variety of rock and soil samples, relevant to Synthetic Apertur",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Other Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157718,
-    "title": "Bi-Directional High Altitude Aircraft Atmospheric Lidar Instrument Performance Improvement",
-    "description": "<p>Stratospheric aerosols can have large effects on both the radiative balance of the planet and atmospheric composition. In this region of the atmosphere, aerosols are predominantly sulfate, much of them volcanic in origin. Analogously, explosive pyrocumulonimbus (pyroCb) convection from extreme midlatitude and boreal forest fire events can directly inject aerosols into the stratosphere. After injection, volcanic and pyroCb aerosols can persist for many months in the stratosphere; however, the ",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
+    "technologyArea": "Air, Water, Microbial, and Acoustic Sensors",
     "partners": [
       "Goddard Space Flight Center"
     ],
@@ -963,58 +1060,6 @@
     "technologyArea": "",
     "partners": [
       "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157886,
-    "title": "Water Processor Assembly Upgrades",
-    "description": "<p>WPA upgrades, contracted to Boeing with subcontractor Collins Aerospace, have focused on addressing siloxanes and their conversion to DMSD (dimethylsilanediol) in waste water, as well as extending hardware life. The first major upgrade focused on the Multi-Filtration Bed (MF Bed). The MF Bed ORU was upgraded to make use of new synthetic charcoal which has a better capacity for DMSD, IRN-67 material was removed in order to eliminate a leachate problem affecting the EMU sublimator, and the conf",
-    "status": "Active",
-    "startDate": "Aug 2018",
-    "endDate": "Dec 2029",
-    "lastUpdated": "05/27/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Other Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Johnson Space Center",
-      "Collins Aerospace",
-      "Marshall Space Flight Center",
-      "The Boeing Company"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157884,
-    "title": "Additively Manufactured Condensing Heat Exchanger",
-    "description": "<p>Robust and reliable condensing heat exchangers (CHX) are needed to control temperature and humidity in the cabin which ensures human health and comfort and maintains electrical/mechanical equipment. Over time, system degradation caused by contamination can result in a compromised ability to collect moisture. Microbial growth on the surface can result in a risk to crew health. Both can cause problems for downstream equipment as well as maintaining the environment. A system that is robust again",
-    "status": "Active",
-    "startDate": "May 2022",
-    "endDate": "Jun 2030",
-    "lastUpdated": "05/27/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Other Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Johnson Space Center",
-      "Collins Aerospace",
-      "The Boeing Company"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157866,
-    "title": "Earth Independent Operations Vehicle Systems",
-    "description": "<p>The Vehicle Systems (VS) Portfolio within the MCO EIO Domain is responsible for the maturation of hardware elements that will provide data and computational power to enable increasingly Earth-independent spacecraft and systems. The VS Portfolio will allow for development and testing of spacecraft subsystems to gain greater insight into nominal operations, anomalies, and failures. Existing and future testbeds across the agency will be assessed for ease of technological injection via increasing",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2031",
-    "lastUpdated": "05/27/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Flight Computing and Avionics",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Ames Research Center",
-      "Glenn Research Center"
     ],
     "website": ""
   }
