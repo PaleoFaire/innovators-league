@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 3,
+    "activityIndex": 4,
     "billsTracked": 2,
-    "rulesTracked": 1,
-    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
+    "rulesTracked": 2,
+    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -26,13 +26,19 @@
       },
       {
         "type": "federal_register",
+        "title": "Nebraska Public Power District; Cooper Nuclear Station; Notice of Intent To Cond",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
         "title": "Palisades SMR, LLC; Pioneer Units 1 and 2; Phased Construction Permit Applicatio",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-16"
+    "lastUpdated": "2026-06-17"
   },
   {
     "category": "Space & Aerospace",
@@ -55,13 +61,13 @@
       },
       {
         "type": "federal_register",
-        "title": "Name of Information Collection: NASA International Space Apps Challenge Applicat",
+        "title": "Name of Information Collection: NASA Small Business Supplier Development Program",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-16"
+    "lastUpdated": "2026-06-17"
   },
   {
     "category": "Quantum Computing",
@@ -84,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-16"
+    "lastUpdated": "2026-06-17"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -107,29 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-16"
-  },
-  {
-    "category": "Biotech & Health",
-    "icon": "\ud83e\uddec",
-    "budgetLineItem": "Biotech & Health \u2014 federal activity index",
-    "change": "flat",
-    "changeNum": 0,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 1,
-    "billsTracked": 0,
-    "rulesTracked": 1,
-    "description": "0 bill(s) + 1 federal-register action(s) touching Biotech & Health in the last 90 days. Activity index 1 \u2014 flat relative trend.",
-    "examples": [
-      {
-        "type": "federal_register",
-        "title": "National Institute of Biomedical Imaging and Bioengineering; Notice of Meeting",
-        "agency": "",
-        "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-16"
+    "lastUpdated": "2026-06-17"
   }
 ]

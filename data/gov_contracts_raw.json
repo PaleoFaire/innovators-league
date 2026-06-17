@@ -565,18 +565,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "M6785424F1029",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 6464227.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2024-04-09",
-    "endDate": "2025-04-08",
-    "description": "DELIVERY ORDER #1 (CONTRACT MINIMUM) FOR ORGANIC PRECISION FIRES - LIGHT"
-  },
-  {
-    "company": "Anduril",
     "awardId": "H9240224F0069",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 6414500.0,
@@ -1198,6 +1186,18 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240225FE010",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 256022.78,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-06-24",
+    "endDate": "2026-05-22",
+    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Anduril Industries",
@@ -1765,18 +1765,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "M6785424F1029",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 6464227.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2024-04-09",
-    "endDate": "2025-04-08",
-    "description": "DELIVERY ORDER #1 (CONTRACT MINIMUM) FOR ORGANIC PRECISION FIRES - LIGHT"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "H9240224F0069",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 6414500.0,
@@ -2398,6 +2386,18 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
+  },
+  {
+    "company": "Anduril Industries",
+    "awardId": "H9240225FE010",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 256022.78,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-06-24",
+    "endDate": "2026-05-22",
+    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Shield AI",
@@ -3493,6 +3493,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W519TC26FA070",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 1334000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-12-15",
+    "endDate": "2026-12-14",
+    "description": "PALANTIR TIER 4 CONTINUOUS LIFECYCLE MANAGEMENT"
+  },
+  {
+    "company": "Palantir",
     "awardId": "W91QVN26FA191",
     "recipientName": "PALANTIR USG INC",
     "amount": 1301476.8,
@@ -3526,18 +3538,6 @@
     "startDate": "2022-02-01",
     "endDate": "2022-12-31",
     "description": "EDNY PALANTIR, BASE"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W519TC26FA070",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 1000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-12-15",
-    "endDate": "2026-12-14",
-    "description": "PALANTIR TIER 4 CONTINUOUS LIFECYCLE MANAGEMENT"
   },
   {
     "company": "Palantir",
@@ -4657,6 +4657,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W519TC26FA070",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 1334000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-12-15",
+    "endDate": "2026-12-14",
+    "description": "PALANTIR TIER 4 CONTINUOUS LIFECYCLE MANAGEMENT"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "W91QVN26FA191",
     "recipientName": "PALANTIR USG INC",
     "amount": 1301476.8,
@@ -4690,18 +4702,6 @@
     "startDate": "2022-02-01",
     "endDate": "2022-12-31",
     "description": "EDNY PALANTIR, BASE"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W519TC26FA070",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 1000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-12-15",
-    "endDate": "2026-12-14",
-    "description": "PALANTIR TIER 4 CONTINUOUS LIFECYCLE MANAGEMENT"
   },
   {
     "company": "Palantir Technologies",
@@ -5216,7 +5216,7 @@
     "subAgency": "Department of the Air Force",
     "awardType": null,
     "startDate": "2022-05-26",
-    "endDate": "2025-10-03",
+    "endDate": "2026-07-13",
     "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2 LAUNCH SERVICES"
   },
   {
@@ -5353,6 +5353,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "FA254126FB019",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 65199670.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2025-12-12",
+    "endDate": "2027-09-29",
+    "description": "COMMERCIAL SATELLITE COMMUNICATIONS SERVICE AND HARDWARE."
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "FA881126FB007",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 65000000.0,
@@ -5362,18 +5374,6 @@
     "startDate": "2026-01-12",
     "endDate": "2028-06-12",
     "description": "LAUNCH SERVICE FOR NROL-86"
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "FA254126FB019",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 62882770.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-12-12",
-    "endDate": "2027-09-29",
-    "description": "COMMERCIAL SATELLITE COMMUNICATIONS SERVICE AND HARDWARE."
   },
   {
     "company": "Space Exploration Technologies",
@@ -5439,7 +5439,7 @@
     "company": "Space Exploration Technologies",
     "awardId": "FA254126FB022",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 20615000.0,
+    "amount": 21095000.0,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,
@@ -6708,6 +6708,18 @@
     "description": "GAME WARDEN PLATFORM LICENSE"
   },
   {
+    "company": "Hadrian",
+    "awardId": "W911RQ26CA011",
+    "recipientName": "HADRIAN AUTOMATION, INC.",
+    "amount": 39200000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-17",
+    "endDate": "2027-03-16",
+    "description": "DATA RIGHTS AND INTELLECTUAL PROPERTY"
+  },
+  {
     "company": "Rocket Lab",
     "awardId": "80KSC023FA107",
     "recipientName": "ROCKET LAB USA INC",
@@ -7102,18 +7114,6 @@
     "startDate": "2024-09-26",
     "endDate": "2025-11-30",
     "description": "ENIAC CLOUD  THE FIRST SPACE HARDENED MULTI CLOUD EDGE COMPUTING PLATFORM IMPLEMENTATION PARTNERS"
-  },
-  {
-    "company": "Sierra Space",
-    "awardId": "80JSC025FA027",
-    "recipientName": "SIERRA SPACE CORP",
-    "amount": 152889.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2024-12-05",
-    "endDate": "2025-10-31",
-    "description": "BASELINE REPAIRS FOR ECS S/NS 002 AND 003 ARE REQUIRED AS OUTLINED IN CONTRACT 80JSC023DA011 STATEMENT OF WORK (SOW) SECTION 3.12, ECS BASELINE REPAIR."
   },
   {
     "company": "Sierra Space",
@@ -7628,7 +7628,7 @@
     "subAgency": "Centers for Medicare and Medicaid Services",
     "awardType": null,
     "startDate": "2024-03-08",
-    "endDate": "2026-06-01",
+    "endDate": "2027-03-07",
     "description": "ASHEPS CONTRACT"
   },
   {
