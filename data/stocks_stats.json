@@ -5,95 +5,95 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.89,
+      "avg_change": 3.54,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -12.76,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -9.48,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 2.48,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 6.01,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.3,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 14.64,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -10.74,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -6.72,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.83,
+      "avg_change": 2.89,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.62,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.62,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 1.64,
+      "avg_change": 8.45,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 4.06,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 11.55,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "AMD",
-      "AMD",
-      6.68
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      6.68
+      "NNE",
+      "Nano Nuclear Energy",
+      20.3
     ],
     [
       "ALAB",
       "Astera Labs",
-      5.86
+      16.11
     ],
     [
-      "RGTI",
-      "Rigetti Computing",
-      4.82
+      "AMD",
+      "AMD",
+      15.63
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      4.52
+      "SMR",
+      "NuScale Power",
+      12.33
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      12.16
     ]
   ],
   "topLosers": [
     [
       "PL",
       "Planet Labs",
-      -9.5
+      -7.13
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -14.96
+      -12.53
     ],
     [
       "9348.T",
@@ -103,13 +103,13 @@
     [
       "LNZA",
       "LanzaTech",
-      -24.62
+      -20.68
     ],
     [
       "ASRHF",
       "Astroscale",
-      -32.04
+      -27.39
     ]
   ],
-  "lastUpdated": "2026-06-17 11:03:53"
+  "lastUpdated": "2026-06-17 15:42:25"
 }
