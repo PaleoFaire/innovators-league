@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T17:13:53.300927+00:00",
+  "generatedAt": "2026-06-17T20:25:59.092351+00:00",
   "date": "2026-06-17",
   "dateDisplay": "Wednesday, June 17, 2026",
   "sections": {
@@ -88,16 +88,9 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 5.91,
-        "changePercent": -20.68,
-        "change": -1.54
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 26.61,
-        "changePercent": 20.3,
-        "change": 4.49
+        "price": 5.71,
+        "changePercent": -23.36,
+        "change": -1.74
       },
       {
         "ticker": "9348.T",
@@ -107,32 +100,39 @@
         "change": -103.0
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 384.17,
-        "changePercent": 16.11,
-        "change": 53.31
-      },
-      {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 523.13,
-        "changePercent": 15.63,
-        "change": 70.73
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 25.31,
+        "changePercent": 14.45,
+        "change": 3.2
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 23.21,
-        "changePercent": -12.53,
-        "change": -3.32
+        "price": 22.72,
+        "changePercent": -14.38,
+        "change": -3.82
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 512.48,
+        "changePercent": 13.28,
+        "change": 60.08
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 374.68,
+        "changePercent": 13.24,
+        "change": 43.82
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 10.44,
-        "changePercent": 12.33,
-        "change": 1.15
+        "price": 10.36,
+        "changePercent": 11.52,
+        "change": 1.07
       }
     ],
     "regulatory": [
