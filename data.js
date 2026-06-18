@@ -61579,23 +61579,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-18 00:22
+// Last updated: 2026-06-18 06:03
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "The Korean Telecom Giant at the Center of Anthropic's Mythos Controversy", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Relativity Space", headline: "Relativity Space to privately develop Mars orbiter mission", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "SpaceX", headline: "Roelof Botha joins SpaceX's board of directors", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic becomes first AI startup to join the Frontier carbon removal coalition", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Humanoid", headline: "Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "xAI", headline: "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Huge AI Revenue Growth Mirrors Micron But Will Be Bigger", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "xAI", headline: "Trump's DOJ intervenes to keep Musk's xAI gas turbines polluting Memphis", source: "Electrek", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Humanoid", headline: "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1", source: "The Robot Report", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX alum nabs $22M to turn rocket engines into geothermal power plants", source: "TechCrunch", time: "10h ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "Humanoid", headline: "The Secret to Marathon-Winning Humanoid Robots", source: "IEEE Spectrum", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Abridge", headline: "STAT+: Is Abridge's 'patient centered' claim a bridge too far?", source: "STAT News", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Palantir", headline: "Former Palantir employees raise $60M for AI enterprise startup Conduct", source: "Tech.eu", time: "12h ago", impact: "high", unread: false },
-  { id: 14, type: "funding", company: "Dawn Aerospace", headline: "Dawn Aerospace raises $25 million", source: "SpaceNews", time: "12h ago", impact: "high", unread: false },
-  { id: 15, type: "hire", company: "Anthropic", headline: "Mistral CEO pitches open source AI days after Anthropic ban: 'We exist outside of state control'", source: "Sifted", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Anthropic", headline: "'This will unveil the ground truth': Why the Anthropic ban could benefit European AI", source: "Sifted", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "SpaceX", headline: "How SpaceX Matches the Micron Setup for a fast 10X to $2000. Revenue multipliers for Next Levels for SpaceX", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Going for Orbit in August and September", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "The Korean Telecom Giant at the Center of Anthropic's Mythos Controversy", source: "Wired", time: "7h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Relativity Space", headline: "Relativity Space to privately develop Mars orbiter mission", source: "SpaceNews", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "SpaceX", headline: "Roelof Botha joins SpaceX's board of directors", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic becomes first AI startup to join the Frontier carbon removal coalition", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Humanoid", headline: "Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "xAI", headline: "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Huge AI Revenue Growth Mirrors Micron But Will Be Bigger", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "xAI", headline: "Trump's DOJ intervenes to keep Musk's xAI gas turbines polluting Memphis", source: "Electrek", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Humanoid", headline: "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1", source: "The Robot Report", time: "16h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Humanoid", headline: "The Secret to Marathon-Winning Humanoid Robots", source: "IEEE Spectrum", time: "17h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Abridge", headline: "STAT+: Is Abridge's 'patient centered' claim a bridge too far?", source: "STAT News", time: "18h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Palantir", headline: "Former Palantir employees raise $60M for AI enterprise startup Conduct", source: "Tech.eu", time: "18h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
