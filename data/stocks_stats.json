@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.39,
+      "avg_change": -9.44,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 3.37,
+      "avg_change": 3.65,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.39,
+      "avg_change": -0.64,
       "count": 3
     },
     "transportation": {
@@ -98,7 +98,7 @@
     [
       "9348.T",
       "ispace",
-      -14.7
+      -15.06
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -27.39
     ]
   ],
-  "lastUpdated": "2026-06-18 04:19:43"
+  "lastUpdated": "2026-06-18 10:25:45"
 }
