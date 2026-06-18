@@ -1,5 +1,65 @@
 [
   {
+    "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
+    "link": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/",
+    "description": "",
+    "pubDate": "Thu, 18 Jun 2026 17:42:18 +0000",
+    "category": "Biz & IT",
+    "source": "Ars Technica",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
+    "link": "https://www.defenseone.com/threats/2026/06/spacex-ipo-investors-china-secretly-acquired-stakes/414275/",
+    "description": "One previously unreported SpaceX investor has ties to Chinese military contractors. The information was revealed only after ProPublica went to court to obtain it.",
+    "pubDate": "Thu, 18 Jun 2026 13:05:30 -0400",
+    "category": "Threats",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "contract",
+    "impact": "high",
+    "time": "1h ago"
+  },
+  {
+    "title": "DOJ intervenes on behalf of xAI in data center gas turbine lawsuit",
+    "link": "https://www.utilitydive.com/news/doj-intervenes-xai-data-center-gas-turbine-lawsuit/823267/",
+    "description": "&lt;figure&gt;&lt;div&gt;&lt;img src=\"https://imgproxy.divecdn.com/HW3x5SEiFrElThd2q6labrXGPN8RI8_C4uc35UCuYtg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjE3ODUyNTI4LmpwZw==.webp\"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;The Department of Defense said the xAI",
+    "pubDate": "Thu, 18 Jun 2026 10:09:43 -0400",
+    "category": "",
+    "source": "Utility Dive",
+    "feedCategory": "energy",
+    "matchedCompany": "xAI",
+    "matchedCompanies": [
+      "xAI",
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "ai",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Into Freeway Construction Zones",
     "link": "https://www.wired.com/story/waymo-recalls-robotaxis-over-risk-theyll-drive-at-speed-into-freeway-construction-zones/",
     "description": "The company's latest recall of 3,871 vehicles follows incidents of its autonomous cars prioritizing other hazards or failing to recognize closed construction zones altogether.",
@@ -16,7 +76,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Richtech Robotics launches livestream for ADAM AI-powered humanoid",
@@ -35,7 +95,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
@@ -54,7 +114,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Blue Origin begins rebuilding New Glenn pad",
@@ -73,7 +133,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "Former Palantir healthcare head raises £10M for NHS AI agent startup",
@@ -96,7 +156,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "Cargofy lands $6M to scale AI workers for logistics",
@@ -115,7 +175,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "7h ago"
+    "time": "11h ago"
   },
   {
     "title": "NASA picks Eric Schmidt&#8217;s rocket company for Mars mission, setting up a race with SpaceX",
@@ -135,29 +195,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "7h ago"
-  },
-  {
-    "title": "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Will Use Cursor to Get Ahead",
-    "link": "https://www.nextbigfuture.com/2026/06/anthropic-used-cursor-use-data-to-get-ahead-so-spacexai-will-use-cursor-to-get-ahead.html",
-    "description": "Insider Jason Calcanis said Anthropic stabbed Cursor in the back. Anthropic allegedly used massive Cursor user data/token consumption to train and improve their own internal coding capabilities (Claude Code or similar). They then restricted or cut off Cursor’s access to their models. This left Curso",
-    "pubDate": "Thu, 18 Jun 2026 06:10:27 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "SpaceX",
-      "xAI"
-    ],
-    "sectors": [
-      "ai",
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "8h ago"
+    "time": "11h ago"
   },
   {
     "title": "‘This will unveil the ground truth’: Why the Anthropic ban could benefit European AI",
@@ -177,45 +215,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
-  },
-  {
-    "title": "How SpaceX Matches the Micron Setup for a fast 10X to $2000. Revenue multipliers for Next Levels for SpaceX",
-    "link": "https://www.nextbigfuture.com/2026/06/how-spacex-matches-the-micron-setup-for-a-fast-10x-to-2000-revenue-multipliers-for-next-levels-for-spacex.html",
-    "description": "SPACEX is undervalued if it follows the revenue and profit surge of Micron, it will be quickly 10X share price over 12-24 months. SPACEX is 4 Months away from boostings its AI revenue from $1 billion per year in April to $33 billion per year runrate in October 2026. Gigawatts times Billions per GW =",
-    "pubDate": "Thu, 18 Jun 2026 02:18:54 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "11h ago"
-  },
-  {
-    "title": "SpaceX Starship Going for Orbit in August and September",
-    "link": "https://www.nextbigfuture.com/2026/06/spacex-starship-going-for-orbit-in-august-and-september.html",
-    "description": "SpaceX President Gwynne Shotwell launch roadmap for Starship • Flight 13: July • Flight 14: August. SpaceX intends to attempt a full orbital injection • Flying from cape canaveral • Post-Flight 14 Cadence: SpaceX plans to transition to an unprecedented launch rate of flying every single month for 20",
-    "pubDate": "Thu, 18 Jun 2026 02:10:01 +0000",
-    "category": "Technology",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "12h ago"
+    "time": "13h ago"
   },
   {
     "title": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy",
@@ -234,7 +234,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "19h ago"
   },
   {
     "title": "Relativity Space to privately develop Mars orbiter mission",
@@ -253,7 +253,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "Roelof Botha joins SpaceX&#8217;s board of directors",
@@ -272,33 +272,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "17h ago"
-  },
-  {
-    "title": "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
-    "link": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
-    "description": "Anthropic has joined the Frontier coalition, which received another $915M in pledges to fund carbon removal projects.",
-    "pubDate": "Wed, 17 Jun 2026 18:30:56 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Arbor Energy",
-      "Heirloom Carbon",
-      "Charm Industrial",
-      "Climeworks",
-      "CarbonCapture Inc.",
-      "Graphyte"
-    ],
-    "sectors": [
-      "ai",
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
   },
   {
     "title": "Operating a Humanoid With Your Body Is a Hot Job in China’s Hardware Capital",
@@ -317,7 +291,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "23h ago"
   },
   {
     "title": "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi",
@@ -336,26 +310,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "21h ago"
-  },
-  {
-    "title": "SpaceX Huge AI Revenue Growth Mirrors Micron But Will Be Bigger",
-    "link": "https://www.nextbigfuture.com/2026/06/spacex-has-visible-huge-ai-revenue-growth-like-micron-had-in-early-2025.html",
-    "description": "Micron (MU) delivered one of the most dramatic AI-driven turnarounds in recent memory. In calendar 2024 / early fiscal 2025, quarterly revenue sat in the $5–8B range while the stock traded mostly between $80–$150. By mid-2026, quarterly revenue had exploded past $15B (hitting $23.86B in one quarter)",
-    "pubDate": "Wed, 17 Jun 2026 15:37:40 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Trump&#8217;s DOJ intervenes to keep Musk&#8217;s xAI gas turbines polluting Memphis",
@@ -379,7 +334,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1",
@@ -419,25 +374,6 @@
     "sectors": [
       "robotics",
       "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "STAT+: Is Abridge’s ‘patient centered’ claim a bridge too far?",
-    "link": "https://www.statnews.com/2026/06/17/is-scribe-developer-abridge-patient-centered-ai-prognosis/?utm_campaign=rss",
-    "description": "In this edition of AI Prognosis, Brittany Trang takes a close look at ambient scribe developer Abridge's claim about being patient-centered.",
-    "pubDate": "Wed, 17 Jun 2026 12:01:22 +0000",
-    "category": "AI Prognosis",
-    "source": "STAT News",
-    "feedCategory": "biotech",
-    "matchedCompany": "Abridge",
-    "matchedCompanies": [
-      "Abridge"
-    ],
-    "sectors": [
-      "biotech"
     ],
     "type": "news",
     "impact": "low",
@@ -591,34 +527,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Mach Industries wins DIU contract for maritime, long-range strike drone",
-    "link": "https://breakingdefense.com/2026/06/mach-industries-wins-diu-contract-for-maritime-long-range-strike-drone/",
-    "description": "The Navy is seeking an unmanned aerial system that can operate from ships without a large flight deck to conduct long-range strikes. ",
-    "pubDate": "Tue, 16 Jun 2026 18:14:00 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Mach Industries",
-    "matchedCompanies": [
-      "Mach Industries",
-      "Andrenam",
-      "Navier",
-      "Saildrone",
-      "FleetZero",
-      "Tekever",
-      "Dust"
-    ],
-    "sectors": [
-      "defense",
-      "transportation",
-      "autonomous",
-      "ai"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "SpaceX Acquires AI Coding Tool Cursor For $60B In Year’s Largest Startup M&#038;A Deal",
     "link": "https://news.crunchbase.com/ma/spcx-acquires-ai-coding-cursor-largest-startup-ma-deal-2026/",
     "description": "The acquisition of Cursor gives SpaceX a foothold into the enterprise software development market, where AI-assisted coding has taken off and led large companies to significantly pare back their reliance on human engineers.",
@@ -637,7 +545,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Industry and academia call on administration to free Anthropic’s AI model",
@@ -673,26 +581,6 @@
     ],
     "sectors": [
       "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Anthropic&#8217;s Claude narrows gap with ChatGPT among Singapore startups as AI becomes core infrastructure",
-    "link": "https://technode.global/2026/06/16/anthropics-claude-narrows-gap-with-chatgpt-among-singapore-startups-as-ai-becomes-core-infrastructure/",
-    "description": "Anthropic's Claude has rapidly gained ground on OpenAI's ChatGPT among Singapore startups, with its customer base growing 258 percent year-on-year and total spend increasing 17 times, according to new data from Singapore-based financial platform Aspire.",
-    "pubDate": "Tue, 16 Jun 2026 09:08:33 +0000",
-    "category": "AI",
-    "source": "TechNode Global",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
     ],
     "type": "news",
     "impact": "low",
@@ -737,7 +625,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Anthropic suspends top AI models after US export-control order",
@@ -756,7 +644,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Waymo launches $30/month &#8216;Premier&#8217; membership with priority pickups and cashback",
@@ -775,7 +663,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "6d ago"
+    "time": "6/11/2026"
   },
   {
     "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
@@ -891,25 +779,6 @@
     "type": "ipo",
     "impact": "high",
     "time": "5/13/2026"
-  },
-  {
-    "title": "Practice Makes Deterrence: India’s Next Nuclear Challenge at Sea",
-    "link": "https://warontherocks.com/practice-makes-deterrence-indias-next-nuclear-challenge-at-sea/",
-    "description": "When India&#8217;s third ballistic missile-carrying, nuclear-powered submarine &#8212; the INS Aridhaman &#8212; entered service on April 3, 2026, it marked a milestone decades in the making.With three boomers, India can now reliably always maintain at least one on deterrent patrol, thus completing ",
-    "pubDate": "Tue, 05 May 2026 07:30:16 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Deterrence",
-    "matchedCompanies": [
-      "Deterrence"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "5/5/2026"
   },
   {
     "title": "<a href=\"/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-abcellera\" hreflang=\"en\">Jazz, AbCellera strike TCE discovery and development deal worth up to $820M per drug</a>",
