@@ -1,6 +1,7 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-06-17 11:26:38 UTC
+// Last updated: 2026-06-18 11:04:08 UTC
 const NASA_PROJECTS = [
+  { id: 157744, title: "Crew Health and Performance Integrated Data System Platform", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "06/17/26" },
   { id: 157628, title: "Spacesuit Fit & Injury Technologies", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "06/16/26" },
   { id: 184879, title: "Advanced Trace Contaminant Control", status: "Active", center: "Johnson Space Center", techArea: "Portable Life Support System", lastUpdated: "06/16/26" },
   { id: 184881, title: "Mars Portable Life Support System Testbed", status: "Active", center: "Johnson Space Center", techArea: "Portable Life Support System", lastUpdated: "06/16/26" },
@@ -30,5 +31,4 @@ const NASA_PROJECTS = [
   { id: 183972, title: "CLIDE Camera", status: "Active", center: "Marshall Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "06/15/26" },
   { id: 183969, title: "Lunar and Planetary Plume Surface Interaction Environmental Test Rig", status: "Active", center: "Langley Research Center", techArea: "Materials", lastUpdated: "06/15/26" },
   { id: 183967, title: "Turbomachinery Liquefaction Demonstration with a Recuperator", status: "Active", center: "Marshall Space Flight Center", techArea: "Exploration Destination Systems", lastUpdated: "06/15/26" },
-  { id: 183965, title: "AI- and Modeling-Optimized Acoustic Mufflers for Next-Generation Spacesuits and ", status: "Active", center: "Johnson Space Center", techArea: "Environmental Control and Life Support Systems and Habitation Systems", lastUpdated: "06/15/26" },
 ];

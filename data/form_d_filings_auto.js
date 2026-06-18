@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-06-17 11:45:11 UTC
-// Total: 2 filings across 2 companies
+// Last updated: 2026-06-18 11:58:02 UTC
+// Total: 3 filings across 3 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-06-17T11:45:11.043367+00:00",
+  "generated_at": "2026-06-18T11:58:02.749916+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 2,
+  "total_filings": 3,
   "filings": [
     {
       "company": "Humanoid",
@@ -21,6 +21,23 @@ const FORM_D_FILINGS = {
       "amount_sold": "1470101",
       "amount_remaining": "0",
       "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "AMP Robotics",
+      "issuer_name": "AMP Robotics Corp",
+      "form": "D",
+      "filed_date": "2026-06-17",
+      "cik": "1699390",
+      "accession": "0001699390-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699390&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001699390-26-000002",
+      "offering_amount": "75000000",
+      "amount_sold": "52500000",
+      "amount_remaining": "22500000",
+      "securities_type": "Debt",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false

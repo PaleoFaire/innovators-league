@@ -1,6 +1,10 @@
 // Auto-updated press releases
-// Last updated: 2026-06-17 11:24:56 UTC
+// Last updated: 2026-06-18 11:02:39 UTC
 const PRESS_RELEASES = [
+  { title: "Blue Origin begins rebuilding New Glenn pad", date: "2026-06-18", companies: "Blue Origin, Figure AI", categories: "ipo", source: "spacenews" },
+  { title: "Relativity Space to privately develop Mars orbiter mission", date: "2026-06-17", companies: "Relativity Space, Figure AI", categories: "ipo", source: "spacenews" },
+  { title: "Dawn Aerospace raises $25 million", date: "2026-06-17", companies: "Dawn Aerospace, Figure AI, Hadrian", categories: "funding, ipo", source: "spacenews" },
+  { title: "3D printing company Divergent to produce Tomahawk structure at new factory, CEO says", date: "2026-06-17", companies: "Divergent", categories: "hiring", source: "breakingdefense" },
+  { title: "Jazz zeroes in on next-gen T cell engagers with AbCellera deal", date: "2026-06-17", companies: "AbCellera, Figure AI", categories: "funding, partnership", source: "biopharmadive" },
   { title: "Mach Industries wins DIU contract for maritime, long-range strike drone", date: "2026-06-16", companies: "Mach Industries, Andrenam, Navier", categories: "contract", source: "breakingdefense" },
-  { title: "SpaceX shares rise nearly 20% in historic IPO", date: "2026-06-12", companies: "SpaceX, Figure AI", categories: "ipo", source: "spacenews" },
 ];

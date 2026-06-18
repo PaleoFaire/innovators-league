@@ -1,5 +1,22 @@
 [
   {
+    "id": 157744,
+    "title": "Crew Health and Performance Integrated Data System Platform",
+    "description": "<p>Future exploration missions to Mars will have increased need for crew autonomy. Crew Health & Performance (CHP) related data on the ISS is currently downlinked manually and is in disparate locations, which limits crew autonomy for future missions.  The CHP-IDSP project is developing a backend data system platform that grants the ability to seamlessly collect, store, process, and display CHP-related data for exploration missions. This platform allows for integration of data and advanced analyt",
+    "status": "Active",
+    "startDate": "Oct 2021",
+    "endDate": "Sep 2029",
+    "lastUpdated": "06/17/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Johnson Space Center",
+      "Ames Research Center",
+      "Human Research Program"
+    ],
+    "website": ""
+  },
+  {
     "id": 157628,
     "title": "Spacesuit Fit & Injury Technologies",
     "description": "<p>Exploration (Lunar and Mars) surface Extravehicular Activities (EVA)s will have physically and cognitively demanding tasks for crew with high injury risk. In addition, crews will perform a larger quantity of EVAs with far less rest between EVAs than ever before. The Spacesuit Fit &amp; Injury Technologies (SFIT) work develops suit-independent, generalizable tools to predict, monitor, and mitigate EVA crewmember injury. The SFIT project will prioritize technology development based on the Injur",
@@ -788,99 +805,6 @@
     "website": ""
   },
   {
-    "id": 157688,
-    "title": "A real-time seismic detection technology for the Moon and beyond",
-    "description": "<p>The objective of this effort is to develop a real-time seismic detection technology using machine learning signal change detection for both lander-side decision-making for telemetry prioritization and rapid assessment of incoming streamed data on Earth. The technology (<strong>CORGI</strong>, short for <strong>CO</strong>ntinous <strong>R</strong>ealtime monitorin<strong>G</strong> <strong>I</strong>nfrastructure) will be modular, able to integrate diverse detection algorithms, instrument typ",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Goddard Space Flight Center",
-      "California Institute of Technology",
-      "NVIDIA",
-      "University of Maryland-College Park"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157638,
-    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
-    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
-    "status": "Completed",
-    "startDate": "May 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157718,
-    "title": "Bi-Directional High Altitude Aircraft Atmospheric Lidar Instrument Performance Improvement",
-    "description": "<p>Stratospheric aerosols can have large effects on both the radiative balance of the planet and atmospheric composition. In this region of the atmosphere, aerosols are predominantly sulfate, much of them volcanic in origin. Analogously, explosive pyrocumulonimbus (pyroCb) convection from extreme midlatitude and boreal forest fire events can directly inject aerosols into the stratosphere. After injection, volcanic and pyroCb aerosols can persist for many months in the stratosphere; however, the ",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157682,
-    "title": "Advanced Langmuir Probe for Measurements in high atomic oxygen environments",
-    "description": "<p>This IRAD develops an Advanced Langmuir Probe (ALP) for flight on low perigee satellites carried out within high atomic oxygen environments such as Goddard\u2019s proposed Atmosphere-Space Transition Region Explorer (ASTRE). This task consists of advancing Goddard\u2019s existing Langmuir probe instrumentation to enable accurate swept I-V curves with minimum hysteresis in a highly atomic oxygen environment by optimizing the surface properties of the probe and by developing high voltage circuitry to ena",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 156901,
-    "title": "Volumetric 3D Mapping of Complex Dielectric Permittivity of Mars via Laboratory Multi-orientation Analysis of Mars Meteorites with Direct Implications for Future Mars Exploration, Part II",
-    "description": "<p>The goal of this effort is to develop and establish a new and unique, <em>non-destructive</em> methodology for the three-dimensional (3-D) characterization of the <strong>complex dielectric permittivity</strong> (CDP) of arbitrary shaped planetary rocks and Earth analog samples. Our work will set a path to produce the first world-class type facility for the 3-D \u201cmapping\u201d of the isotropic and anisotropic dielectric properties of a variety of rock and soil samples, relevant to Synthetic Apertur",
-    "status": "Completed",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Other Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117116,
-    "title": "Towards Dynamic Configuration for a Cloud Evolution Targeting Radar System",
-    "description": "<p>We explore a novel scanning cloud radar concept for observing the evolution of low-level clouds and convective initiation in a targeted manner. Results from high resolution cloud model simulations will be used to perform a trade study to define measurement requirements and help inform design specifications of radar system with a metasurface antenna for electronic steerable beam scanning in two dimensions. A key goal of the study is to identify enabling technology to develop a new measurement ",
-    "status": "Completed",
-    "startDate": "Oct 2022",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/11/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
     "id": 146775,
     "title": "Testing and Extension of Onboard Maneuver Planning Algorithms",
     "description": "<p>The goal of this IRAD is to develop a flight software (FSW) implementation of a maneuver planning algorithm to include in Goddard\u2019s software for autonomous navigation, guidance, and control, called autoNGC. The primary focus of this early-stage innovation is in-house development of maneuver planning FSW, and a secondary focus is cooperating with other NASA centers to assess the potential for incorporating their maneuver planning FSW tools within autoNGC. Developing an autonomous maneuver plan",
@@ -909,6 +833,84 @@
     "partners": [
       "Goddard Space Flight Center",
       "Tyto Athene, LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157688,
+    "title": "A real-time seismic detection technology for the Moon and beyond",
+    "description": "<p>The objective of this effort is to develop a real-time seismic detection technology using machine learning signal change detection for both lander-side decision-making for telemetry prioritization and rapid assessment of incoming streamed data on Earth. The technology (<strong>CORGI</strong>, short for <strong>CO</strong>ntinous <strong>R</strong>ealtime monitorin<strong>G</strong> <strong>I</strong>nfrastructure) will be modular, able to integrate diverse detection algorithms, instrument typ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Goddard Space Flight Center",
+      "California Institute of Technology",
+      "NVIDIA",
+      "University of Maryland-College Park"
+    ],
+    "website": ""
+  },
+  {
+    "id": 156901,
+    "title": "Volumetric 3D Mapping of Complex Dielectric Permittivity of Mars via Laboratory Multi-orientation Analysis of Mars Meteorites with Direct Implications for Future Mars Exploration, Part II",
+    "description": "<p>The goal of this effort is to develop and establish a new and unique, <em>non-destructive</em> methodology for the three-dimensional (3-D) characterization of the <strong>complex dielectric permittivity</strong> (CDP) of arbitrary shaped planetary rocks and Earth analog samples. Our work will set a path to produce the first world-class type facility for the 3-D \u201cmapping\u201d of the isotropic and anisotropic dielectric properties of a variety of rock and soil samples, relevant to Synthetic Apertur",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Other Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157957,
+    "title": "Enable cloud liquid water path (CLWP) measurements with a broad-band digital system on HIWRAP",
+    "description": "<p>This project is to develop a radiometric capability on the High Altitude Wind and Rain Airborne Profiler (HIWRAP) radar while modernizing its digital system and simplifying its RF design. This work replaces the existing command and data handling (C&DH) system, digital receiver, power distribution unit, and intermediate frequency (IF) boxes with a single electronics box containing on-hand radar processing modules, a single-board computer, and some supporting electronics.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117116,
+    "title": "Towards Dynamic Configuration for a Cloud Evolution Targeting Radar System",
+    "description": "<p>We explore a novel scanning cloud radar concept for observing the evolution of low-level clouds and convective initiation in a targeted manner. Results from high resolution cloud model simulations will be used to perform a trade study to define measurement requirements and help inform design specifications of radar system with a metasurface antenna for electronic steerable beam scanning in two dimensions. A key goal of the study is to identify enabling technology to develop a new measurement ",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157638,
+    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
+    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
     ],
     "website": ""
   },
@@ -943,15 +945,30 @@
     "website": ""
   },
   {
-    "id": 157957,
-    "title": "Enable cloud liquid water path (CLWP) measurements with a broad-band digital system on HIWRAP",
-    "description": "<p>This project is to develop a radiometric capability on the High Altitude Wind and Rain Airborne Profiler (HIWRAP) radar while modernizing its digital system and simplifying its RF design. This work replaces the existing command and data handling (C&DH) system, digital receiver, power distribution unit, and intermediate frequency (IF) boxes with a single electronics box containing on-hand radar processing modules, a single-board computer, and some supporting electronics.</p>",
+    "id": 157718,
+    "title": "Bi-Directional High Altitude Aircraft Atmospheric Lidar Instrument Performance Improvement",
+    "description": "<p>Stratospheric aerosols can have large effects on both the radiative balance of the planet and atmospheric composition. In this region of the atmosphere, aerosols are predominantly sulfate, much of them volcanic in origin. Analogously, explosive pyrocumulonimbus (pyroCb) convection from extreme midlatitude and boreal forest fire events can directly inject aerosols into the stratosphere. After injection, volcanic and pyroCb aerosols can persist for many months in the stratosphere; however, the ",
     "status": "Completed",
     "startDate": "Oct 2024",
     "endDate": "Sep 2025",
     "lastUpdated": "06/11/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157682,
+    "title": "Advanced Langmuir Probe for Measurements in high atomic oxygen environments",
+    "description": "<p>This IRAD develops an Advanced Langmuir Probe (ALP) for flight on low perigee satellites carried out within high atomic oxygen environments such as Goddard\u2019s proposed Atmosphere-Space Transition Region Explorer (ASTRE). This task consists of advancing Goddard\u2019s existing Langmuir probe instrumentation to enable accurate swept I-V curves with minimum hysteresis in a highly atomic oxygen environment by optimizing the surface properties of the probe and by developing high voltage circuitry to ena",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/11/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
     "partners": [
       "Goddard Space Flight Center"
     ],
@@ -1007,51 +1024,6 @@
     "id": 158367,
     "title": "BrainStack: An Orbital Laboratory for AI/ML processors-including the first flight of NASA High Performance Spacecraft Computing (HPSC) Platform",
     "description": "<p>This project builds upon previously flown experiments on TES-10, 13. They hosted the first LEO demonstration of a neuromorphic processor and NVIDIA GPU. These devices have been superceeded by powerful new variations but have yet to be flown in space. Previously developed TES-OS will be used to simplify the otherwise challenging interface between various candidate processors and TES-core avionics. This, combined with TES-n bus power/thermal hardware permits a modular platform for hosted AI/ML ",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "05/29/26",
-    "center": "Ames Research Center",
-    "technologyArea": "",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158366,
-    "title": "Windybird: Animal-borne Wind Velocity Measurements at the Planetary Boundary Layer",
-    "description": "<p>This project aims to develop and calibrate a 5-hole Pitot tube for bird-borne biologgers to measure wind velocity. This innovation will enhance in-situ wind data collection, validate satellite measurements, and improve understanding of atmospheric and oceanographic processes. It also has potential applications in meteorology and biopneumatic robotics.</p>",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "05/29/26",
-    "center": "Ames Research Center",
-    "technologyArea": "",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158020,
-    "title": "Compact Optical Method for Long-range, Inexpensive Network Communication (COMLINC)",
-    "description": "<p>This project starts the development of a small, low-cost optical comm system for direct LEO and/or Lunar to Earth data downlinks.</p>",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Oct 2025",
-    "lastUpdated": "05/29/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "",
-    "partners": [
-      "Johnson Space Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158015,
-    "title": "Strong Thermoset Regolith UV-Curable Composite Technology (STRUCT)",
-    "description": "<p>The project aims to develop a UV-curable resin-regolith composite for manufacturing lunar infrastructure, such as landing pads, using in-situ resources. This approach reduces reliance on Earth-supplied materials and energy, potentially lowering mission mass and energy consumption, while leveraging past innovations and partnerships.</p>",
     "status": "Completed",
     "startDate": "Oct 2024",
     "endDate": "Sep 2025",
