@@ -61837,25 +61837,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-18 10:42
-// Auto-generated real-time signals
-// Last updated: 2026-06-18
+// Last updated: 2026-06-18 14:16
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Palantir", headline: "Former Palantir healthcare head raises £10M for NHS AI agent startup", source: "Tech.eu", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Scale AI", headline: "Cargofy lands $6M to scale AI workers for logistics", source: "Tech.eu", time: "3h ago", impact: "medium", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "NASA picks Eric Schmidt&#8217;s rocket company for Mars mission, setting up a race with SpaceX", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Anthropic", headline: "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Will Use Cursor to Get Ahead", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "‘This will unveil the ground truth’: Why the Anthropic ban could benefit European AI", source: "Sifted", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "SpaceX", headline: "How SpaceX Matches the Micron Setup for a fast 10X to $2000. Revenue multipliers for Next Levels for SpaceX", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Going for Orbit in August and September", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy", source: "Wired", time: "11h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Relativity Space", headline: "Relativity Space to privately develop Mars orbiter mission", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "SpaceX", headline: "Roelof Botha joins SpaceX&#8217;s board of directors", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "Anthropic becomes first AI startup to join the Frontier carbon removal coalition", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Humanoid", headline: "Operating a Humanoid With Your Body Is a Hot Job in China’s Hardware Capital", source: "Wired", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "xAI", headline: "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Huge AI Revenue Growth Mirrors Micron But Will Be Bigger", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "xAI", headline: "Trump&#8217;s DOJ intervenes to keep Musk&#8217;s xAI gas turbines polluting Memphis", source: "Electrek", time: "19h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Waymo", headline: "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Into Freeway Construction Zones", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Humanoid", headline: "Richtech Robotics launches livestream for ADAM AI-powered humanoid", source: "The Robot Report", time: "1h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Blue Origin", headline: "Blue Origin begins rebuilding New Glenn pad", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Palantir", headline: "Former Palantir healthcare head raises '10M for NHS AI agent startup", source: "Tech.eu", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Scale AI", headline: "Cargofy lands $6M to scale AI workers for logistics", source: "Tech.eu", time: "7h ago", impact: "medium", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "NASA picks Eric Schmidt's rocket company for Mars mission, setting up a race with SpaceX", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Anthropic", headline: "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Will Use Cursor to Get Ahead", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "'This will unveil the ground truth': Why the Anthropic ban could benefit European AI", source: "Sifted", time: "9h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "SpaceX", headline: "How SpaceX Matches the Micron Setup for a fast 10X to $2000. Revenue multipliers for Next Levels for SpaceX", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Going for Orbit in August and September", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "The Korean Telecom Giant at the Center of Anthropic's Mythos Controversy", source: "Wired", time: "15h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Relativity Space", headline: "Relativity Space to privately develop Mars orbiter mission", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "SpaceX", headline: "Roelof Botha joins SpaceX's board of directors", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "Anthropic becomes first AI startup to join the Frontier carbon removal coalition", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

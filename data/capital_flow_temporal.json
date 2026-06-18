@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T10:43:37+00:00",
+  "generatedAt": "2026-06-18T14:17:26+00:00",
   "matrix": {
     "humanoid-robotics": {
       "2026-Q2": {
@@ -52,6 +52,95 @@
               "Qualcomm",
               "Salesforce"
             ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "robotics-cobots-warehouse": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 52500000,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "AMP Robotics",
+            "amount": 52500000,
+            "date": "2026-06-17",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "Orangewood Labs",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Gecko Robotics",
+            "amount": null,
+            "date": "2025-07",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "RobCo",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Sequoia Capital",
+              "Kindred Capital",
+              "Promus Ventures",
+              "Lightspeed Venture Partners",
+              "Lingotto Innovation",
+              "Greenfield Partners",
+              "Leitmotif",
+              "The Friedkin Group",
+              "Torsten Reil"
+            ]
+          }
+        ],
+        "investors": [
+          "Lightspeed Venture Partners",
+          "Sequoia Capital"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "GrayMatter Robotics",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "Collaborative Robotics",
+            "amount": null,
+            "date": "2025-04",
+            "source": "recentEvent",
+            "investors": []
           }
         ],
         "investors": []
@@ -758,88 +847,6 @@
         ]
       }
     },
-    "robotics-cobots-warehouse": {
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Gecko Robotics",
-            "amount": null,
-            "date": "2025-07",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "RobCo",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Sequoia Capital",
-              "Kindred Capital",
-              "Promus Ventures",
-              "Lightspeed Venture Partners",
-              "Lingotto Innovation",
-              "Greenfield Partners",
-              "Leitmotif",
-              "The Friedkin Group",
-              "Torsten Reil"
-            ]
-          }
-        ],
-        "investors": [
-          "Lightspeed Venture Partners",
-          "Sequoia Capital"
-        ]
-      },
-      "2025-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "GrayMatter Robotics",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": []
-          },
-          {
-            "name": "Collaborative Robotics",
-            "amount": null,
-            "date": "2025-04",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Orangewood Labs",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-delivery-logistics": {
       "2025-Q3": {
         "deals": 1,
@@ -1441,8 +1448,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 52,
-    "totalUSDSold": 1470101,
+    "totalDealsTracked": 53,
+    "totalUSDSold": 53970101,
     "uniqueClusters": 33,
     "uniqueQuarters": 8,
     "uniqueVCs": 18,
