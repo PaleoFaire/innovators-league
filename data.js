@@ -61837,23 +61837,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-18 21:25
+// Last updated: 2026-06-18 23:52
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "OpenAI", headline: "OpenAI is bringing on some big guns in the lead-up to its IPO", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 2, type: "news", company: "QuantumScape", headline: "Honda and QuantumScape (QS) team up to make solid-state batteries", source: "Electrek", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Before SpaceX IPO, investors in China secretly acquired stakes", source: "Ars Technica", time: "3h ago", impact: "high", unread: true },
-  { id: 4, type: "contract", company: "SpaceX", headline: "Before SpaceX IPO, investors in China secretly acquired stakes", source: "Defense One", time: "4h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "xAI", headline: "DOJ intervenes on behalf of xAI in data center gas turbine lawsuit", source: "Utility Dive", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Waymo", headline: "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Into Freeway Construction Zones", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Humanoid", headline: "Richtech Robotics launches livestream for ADAM AI-powered humanoid", source: "The Robot Report", time: "8h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "Waymo", headline: "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Blue Origin", headline: "Blue Origin begins rebuilding New Glenn pad", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Palantir", headline: "Former Palantir healthcare head raises '10M for NHS AI agent startup", source: "Tech.eu", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Scale AI", headline: "Cargofy lands $6M to scale AI workers for logistics", source: "Tech.eu", time: "14h ago", impact: "medium", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "'This will unveil the ground truth': Why the Anthropic ban could benefit European AI", source: "Sifted", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "The Korean Telecom Giant at the Center of Anthropic's Mythos Controversy", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Relativity Space", headline: "Relativity Space to privately develop Mars orbiter mission", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Humanoid", headline: "Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "OpenAI", headline: "OpenAI is bringing on some big guns in the lead-up to its IPO", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
+  { id: 2, type: "news", company: "QuantumScape", headline: "Honda and QuantumScape (QS) team up to make solid-state batteries", source: "Electrek", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Before SpaceX IPO, investors in China secretly acquired stakes", source: "Ars Technica", time: "6h ago", impact: "high", unread: true },
+  { id: 4, type: "contract", company: "SpaceX", headline: "Before SpaceX IPO, investors in China secretly acquired stakes", source: "Defense One", time: "6h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "xAI", headline: "DOJ intervenes on behalf of xAI in data center gas turbine lawsuit", source: "Utility Dive", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Waymo", headline: "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Into Freeway Construction Zones", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Humanoid", headline: "Richtech Robotics launches livestream for ADAM AI-powered humanoid", source: "The Robot Report", time: "11h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Waymo", headline: "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Blue Origin", headline: "Blue Origin begins rebuilding New Glenn pad", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Palantir", headline: "Former Palantir healthcare head raises '10M for NHS AI agent startup", source: "Tech.eu", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Scale AI", headline: "Cargofy lands $6M to scale AI workers for logistics", source: "Tech.eu", time: "16h ago", impact: "medium", unread: false },
+  { id: 12, type: "ipo", company: "Anthropic", headline: "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Will Use Cursor to Get Ahead", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "'This will unveil the ground truth': Why the Anthropic ban could benefit European AI", source: "Sifted", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "SpaceX", headline: "How SpaceX Matches the Micron Setup for a fast 10X to $2000. Revenue multipliers for Next Levels for SpaceX", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Going for Orbit in August and September", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
