@@ -1,15 +1,17 @@
 {
-  "generatedAt": "2026-06-17T10:28:05+00:00",
+  "generatedAt": "2026-06-18T10:09:02+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 1,
-  "newExtractionsThisRun": 1,
+  "cohortSize": 2,
+  "newExtractionsThisRun": 2,
   "summary": {
-    "cleared": 0,
+    "cleared": 1,
     "changesProposed": 1,
     "unverifiable": 0
   },
-  "cleared": [],
+  "cleared": [
+    "Sequoia Capital"
+  ],
   "changesProposed": [
     {
       "name": "Engine Ventures",
@@ -52,12 +54,14 @@
         "sources_per_field": {
           "name": [
             0,
+            1,
             3
           ],
           "short_name": [
             0
           ],
           "founded_year": [
+            1,
             3
           ],
           "hq": [
@@ -70,10 +74,11 @@
             3
           ],
           "website": [
-            0
+            0,
+            1
           ]
         },
-        "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit in 2023. The Engine is a nonprofit incubator and accelerator founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or named senior partners for Engine Ventures specifically."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine is a 501(c)(3) nonprofit founded by MIT in 2016. Sources do not verify AUM, flagship fund name, or current senior partners for Engine Ventures specifically. Key people listed in Wikipedia are for The Engine organization, not Engine Ventures investment firm."
       },
       "changes": [
         {
@@ -144,7 +149,7 @@
           "url": "https://tech.eu/2026/06/16/rainbow-crops-raises-eur97m-to-scale-ai-powered-crop-engineering/"
         }
       ],
-      "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit in 2023. The Engine is a nonprofit incubator and accelerator founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or named senior partners for Engine Ventures specifically."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine is a 501(c)(3) nonprofit founded by MIT in 2016. Sources do not verify AUM, flagship fund name, or current senior partners for Engine Ventures specifically. Key people listed in Wikipedia are for The Engine organization, not Engine Ventures investment firm."
     }
   ],
   "unverifiable": []
