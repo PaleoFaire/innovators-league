@@ -1,5 +1,89 @@
 [
   {
+    "title": "Former Palantir healthcare head raises £10M for NHS AI agent startup",
+    "link": "https://tech.eu/2026/06/18/former-palantir-healthcare-head-raises-16m-for-nhs-ai-agent-startup/",
+    "description": "A London-based startup founded by a former Palantir healthcare executive who worked in scores of NHS hospitals during Covid has raised £9.7m in a funding round.The funding round in Frontier Health was...",
+    "pubDate": "Thu, 18 Jun 2026 10:24:05 +0000",
+    "category": "Artificial Intelligence",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir",
+      "Andromeda Surgical",
+      "Durin"
+    ],
+    "sectors": [
+      "ai",
+      "biotech",
+      "infrastructure"
+    ],
+    "type": "funding",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Cargofy lands $6M to scale AI workers for logistics",
+    "link": "https://tech.eu/2026/06/18/cargofy-lands-6m-to-scale-ai-workers-for-logistics/",
+    "description": "Logisticstechnology company Cargofy has raised $11 million in a Series A funding round,consisting of $6 million in primary capital and $5 million in secondarytransactions. The round was led by u.ventu...",
+    "pubDate": "Thu, 18 Jun 2026 07:00:00 +0000",
+    "category": "Logistics &amp; Transportation",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Scale AI",
+    "matchedCompanies": [
+      "Scale AI"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "3h ago"
+  },
+  {
+    "title": "NASA picks Eric Schmidt&#8217;s rocket company for Mars mission, setting up a race with SpaceX",
+    "link": "https://techcrunch.com/2026/06/17/nasa-picks-eric-schmidts-rocket-company-for-mars-mission-setting-up-a-race-with-spacex/",
+    "description": "Relativity Space—a rocket maker acquired by former Google executive chair Eric Schmidt last year after stumbling on the path to orbit—might just beat SpaceX to Mars.",
+    "pubDate": "Thu, 18 Jun 2026 06:26:24 +0000",
+    "category": "Space",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Relativity Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
+    "title": "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Will Use Cursor to Get Ahead",
+    "link": "https://www.nextbigfuture.com/2026/06/anthropic-used-cursor-use-data-to-get-ahead-so-spacexai-will-use-cursor-to-get-ahead.html",
+    "description": "Insider Jason Calcanis said Anthropic stabbed Cursor in the back. Anthropic allegedly used massive Cursor user data/token consumption to train and improve their own internal coding capabilities (Claude Code or similar). They then restricted or cut off Cursor’s access to their models. This left Curso",
+    "pubDate": "Thu, 18 Jun 2026 06:10:27 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "SpaceX",
+      "xAI"
+    ],
+    "sectors": [
+      "ai",
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
     "title": "‘This will unveil the ground truth’: Why the Anthropic ban could benefit European AI",
     "link": "https://sifted.eu/articles/anthropic-ban-domyn-uljan-sharka/",
     "description": "",
@@ -17,7 +101,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "How SpaceX Matches the Micron Setup for a fast 10X to $2000. Revenue multipliers for Next Levels for SpaceX",
@@ -36,7 +120,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "3h ago"
+    "time": "8h ago"
   },
   {
     "title": "SpaceX Starship Going for Orbit in August and September",
@@ -55,7 +139,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "8h ago"
   },
   {
     "title": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy",
@@ -74,7 +158,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "11h ago"
   },
   {
     "title": "Relativity Space to privately develop Mars orbiter mission",
@@ -93,7 +177,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "9h ago"
+    "time": "13h ago"
   },
   {
     "title": "Roelof Botha joins SpaceX&#8217;s board of directors",
@@ -112,7 +196,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "9h ago"
+    "time": "13h ago"
   },
   {
     "title": "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
@@ -138,7 +222,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "15h ago"
   },
   {
     "title": "Operating a Humanoid With Your Body Is a Hot Job in China’s Hardware Capital",
@@ -157,7 +241,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "16h ago"
   },
   {
     "title": "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi",
@@ -176,7 +260,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "SpaceX Huge AI Revenue Growth Mirrors Micron But Will Be Bigger",
@@ -195,7 +279,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "Trump&#8217;s DOJ intervenes to keep Musk&#8217;s xAI gas turbines polluting Memphis",
@@ -219,7 +303,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1",
@@ -238,7 +322,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "The Secret to Marathon-Winning Humanoid Robots",
@@ -262,7 +346,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "22h ago"
   },
   {
     "title": "STAT+: Is Abridge’s ‘patient centered’ claim a bridge too far?",
@@ -281,7 +365,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Former Palantir employees raise $60M for AI enterprise startup Conduct",
@@ -300,7 +384,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Dawn Aerospace raises $25 million",
@@ -325,7 +409,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Mistral CEO pitches open source AI days after Anthropic ban: ‘We exist outside of state control’",
@@ -348,7 +432,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Dozens of dust devils hidden in plain sight",
@@ -369,7 +453,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Flagright secures $12.5M Series A to scale AI compliance platform",
@@ -388,7 +472,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Waymo taps fleet giant Element to scale its robotaxi service",
@@ -558,64 +642,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Rainbow Crops raises €9.7M to scale AI-powered crop engineering",
-    "link": "https://tech.eu/2026/06/16/rainbow-crops-raises-eur97m-to-scale-ai-powered-crop-engineering/",
-    "description": "Belgian agritech startup Rainbow Crops has raised €9.7million in an oversubscribed seed funding round to advance its crop engineeringplatform, expand its application across multiple crops, and grow it...",
-    "pubDate": "Tue, 16 Jun 2026 08:00:00 +0000",
-    "category": "Agritech",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Scale AI",
-    "matchedCompanies": [
-      "Scale AI"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "WhyBrilliant raises €1M to scale AI job matching, backed by Merantix",
-    "link": "https://tech.eu/2026/06/16/whybrilliant-raises-eur1m-to-scale-ai-job-matching-backed-by-merantix/",
-    "description": "Berlin-based hiring platform WhyBrilliant has launched publicly with€1 million in pre-seed funding from Merantix. The company is developing anAI-powered recruitment platform designed to help professio...",
-    "pubDate": "Tue, 16 Jun 2026 07:15:00 +0000",
-    "category": "HRtech",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Scale AI",
-    "matchedCompanies": [
-      "Scale AI"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Lightbringer raises $10M to scale AI-powered patent services",
-    "link": "https://tech.eu/2026/06/16/lightbringer-raises-10m-to-scale-ai-powered-patent-services/",
-    "description": "Swedish legaltech startupLightbringer has raised $10 million in Series A funding to accelerate thedevelopment of its AI-powered patent platform and support its expansion intothe US market. The round w...",
-    "pubDate": "Tue, 16 Jun 2026 07:01:00 +0000",
-    "category": "Legaltech",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Scale AI",
-    "matchedCompanies": [
-      "Scale AI"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "PSYONIC partners with ABB Robotics to apply human touch to robot dexterity",

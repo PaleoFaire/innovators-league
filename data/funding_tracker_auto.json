@@ -311,6 +311,20 @@
     "roundCount": 2
   },
   {
+    "company": "Parallel Systems",
+    "totalRaised": "$2.0B+",
+    "totalRaisedRaw": 2006.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$6M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Sequoia"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "ICON",
     "totalRaised": "$2.0B+",
     "totalRaisedRaw": 2000.0,
@@ -320,19 +334,6 @@
     "valuation": "",
     "leadInvestors": [
       "Benchmark"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Parallel Systems",
-    "totalRaised": "$2.0B+",
-    "totalRaisedRaw": 2000.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$2B",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Sequoia"
     ],
     "roundCount": 1
   },
@@ -535,6 +536,19 @@
     "roundCount": 1
   },
   {
+    "company": "Watershed",
+    "totalRaised": "$910M+",
+    "totalRaisedRaw": 910.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$100M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 3
+  },
+  {
     "company": "Neuralink",
     "totalRaised": "$880M+",
     "totalRaisedRaw": 880.0,
@@ -554,19 +568,6 @@
     "totalRaisedRaw": 868.0,
     "lastRound": "Series A",
     "lastRoundAmount": "$850M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Watershed",
-    "totalRaised": "$850M+",
-    "totalRaisedRaw": 850.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$100M",
     "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
@@ -1341,6 +1342,32 @@
     "lastRound": "Series O",
     "lastRoundAmount": "$30M",
     "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "LabGenius",
+    "totalRaised": "$27M+",
+    "totalRaisedRaw": 27.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$27M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Khosla Ventures"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Orbit2Orbit",
+    "totalRaised": "$25M+",
+    "totalRaisedRaw": 25.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$25M",
+    "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"

@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-06-17T11:05:14.209403Z",
+  "generated_at": "2026-06-18T10:27:33.990156Z",
   "takes": [
+    {
+      "author": "Tech.eu",
+      "role": "Industry signal",
+      "company": "Palantir",
+      "text": "Former Palantir employees raise $60M for AI enterprise startup Conduct",
+      "date": "Wed, 17 Ju",
+      "source": "news",
+      "source_url": "https://tech.eu/2026/06/17/former-palantir-employees-raise-60m-for-ai-enterprise-startup-conduct/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "Dawn Aerospace",
+      "text": "Dawn Aerospace raises $25 million",
+      "date": "Wed, 17 Ju",
+      "source": "news",
+      "source_url": "https://spacenews.com/dawn-aerospace-raises-25-million/",
+      "signal_type": "funding"
+    },
     {
       "author": "Canary Media",
       "role": "Industry signal",
@@ -22,26 +42,6 @@
       "signal_type": "ipo"
     },
     {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX is public: Everything you need to know post-IPO",
-      "date": "Tue, 16 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Scale AI",
-      "text": "Lightbringer raises $10M to scale AI-powered patent services",
-      "date": "Tue, 16 Ju",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/06/16/lightbringer-raises-10m-to-scale-ai-powered-patent-services/",
-      "signal_type": "funding"
-    },
-    {
       "author": "SpaceNews",
       "role": "Industry signal",
       "company": "SpaceX",
@@ -50,26 +50,6 @@
       "source": "news",
       "source_url": "https://spacenews.com/spacex-shares-rise-nearly-20-in-historic-ipo/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "Sifted",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Why SpaceX IPO could spark a \u2018$200bn private markets boom\u2019",
-      "date": "Fri, 12 Ju",
-      "source": "news",
-      "source_url": "https://sifted.eu/articles/spacex-secondaries-ipo/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Neura Robotics",
-      "text": "NEURA Robotics secures up to $1.4B, Bending Spoons files for US IPO, and UK PM unveils \u00a3400M chip plan",
-      "date": "Fri, 12 Ju",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/06/12/neura-robotics-secures-up-to-1-4b-bending-spoons-files-for-us-ipo-and-uk-pm-unveils-400m-chip-plan/",
-      "signal_type": "funding"
     },
     {
       "author": "Crunchbase News",
@@ -85,7 +65,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 8,
+    "from_news": 6,
     "from_press": 0
   }
 }

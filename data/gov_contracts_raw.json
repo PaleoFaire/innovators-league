@@ -3529,6 +3529,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W519TC26F0043",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 1085000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-01-30",
+    "endDate": "2027-01-29",
+    "description": "MAVEN SMART SYSTEM (MSS)"
+  },
+  {
+    "company": "Palantir",
     "awardId": "15JPSS22F00000269",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 1038450.72,
@@ -3622,18 +3634,6 @@
     "startDate": "2025-04-02",
     "endDate": "2025-09-30",
     "description": "NEW OCPO TASK ORDER"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W519TC26F0043",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 485000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-01-30",
-    "endDate": "2027-01-29",
-    "description": "MAVEN SMART SYSTEM (MSS)"
   },
   {
     "company": "Palantir",
@@ -4693,6 +4693,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W519TC26F0043",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 1085000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-01-30",
+    "endDate": "2027-01-29",
+    "description": "MAVEN SMART SYSTEM (MSS)"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "15JPSS22F00000269",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 1038450.72,
@@ -4786,18 +4798,6 @@
     "startDate": "2025-04-02",
     "endDate": "2025-09-30",
     "description": "NEW OCPO TASK ORDER"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W519TC26F0043",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 485000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-01-30",
-    "endDate": "2027-01-29",
-    "description": "MAVEN SMART SYSTEM (MSS)"
   },
   {
     "company": "Palantir Technologies",
@@ -5355,7 +5355,7 @@
     "company": "Space Exploration Technologies",
     "awardId": "FA254126FB019",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 65199670.0,
+    "amount": 65349670.0,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,

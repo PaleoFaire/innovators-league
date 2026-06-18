@@ -1,6 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-17 11:04:13 UTC
+// Last updated: 2026-06-18 10:26:24 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-06-17", description: "xslF345X06/wk-form4_1781740835.xml", isIPO: false, ticker: "PLTR" },
+  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-8_4seq1.xml", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-7_4seq1.xml", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-6_4seq1.xml", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-5_4seq1.xml", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-4_4seq1.xml", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-3_4seq1.xml", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-2_4seq1.xml", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-1_4seq1.xml", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "8-K", date: "2026-06-17", description: "tm2618205d1_8k.htm", isIPO: false, ticker: "MNTS" },
+  { company: "C3.ai", form: "4", date: "2026-06-17", description: "xslF345X06/wk-form4_1781740351.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-06-17", description: "xslF345X06/wk-form4_1781740305.xml", isIPO: false, ticker: "AI" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-06-17", description: "xslF345X06/wk-form4_1781730449.xml", isIPO: false, ticker: "RXRX" },
   { company: "AST SpaceMobile", form: "4", date: "2026-06-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-06-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-06-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
@@ -38,17 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "BlackSky Technology", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781294677.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781294638.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781294565.xml", isIPO: false, ticker: "BKSY" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781297605.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781297577.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781297564.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781297551.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781297539.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781297528.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781297513.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Ginkgo Bioworks", form: "8-K", date: "2026-06-12", description: "dna-20260611.htm", isIPO: false, ticker: "DNA" },
-  { company: "Joby Aviation", form: "4", date: "2026-06-12", description: "xslF345X06/form4-06132026_120647.xml", isIPO: false, ticker: "JOBY" },
-  { company: "Joby Aviation", form: "4", date: "2026-06-12", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "JOBY" },
-  { company: "Joby Aviation", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781298759.xml", isIPO: false, ticker: "JOBY" },
-  { company: "Joby Aviation", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781298561.xml", isIPO: false, ticker: "JOBY" },
-  { company: "Joby Aviation", form: "4", date: "2026-06-12", description: "xslF345X06/wk-form4_1781298479.xml", isIPO: false, ticker: "JOBY" },
 ];
