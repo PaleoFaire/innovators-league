@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T18:09:23.832617+00:00",
+  "generatedAt": "2026-06-18T21:25:43.733441+00:00",
   "date": "2026-06-18",
   "dateDisplay": "Thursday, June 18, 2026",
   "sections": {
@@ -79,13 +79,6 @@
     ],
     "marketMovers": [
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 22.2,
-        "changePercent": -27.55,
-        "change": -8.44
-      },
-      {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 8.35,
@@ -93,39 +86,46 @@
         "change": -3.15
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.87,
-        "changePercent": -22.01,
-        "change": -1.65
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 22.85,
+        "changePercent": -25.42,
+        "change": -7.79
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 11.66,
-        "changePercent": 21.89,
-        "change": 2.09
+        "price": 11.74,
+        "changePercent": 22.68,
+        "change": 2.17
       },
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 27.16,
-        "changePercent": -20.52,
-        "change": -7.01
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 79.58,
-        "changePercent": -18.43,
-        "change": -17.98
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 6.03,
+        "changePercent": -19.81,
+        "change": -1.49
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 27.86,
-        "changePercent": 18.28,
-        "change": 4.3
+        "price": 28.21,
+        "changePercent": 19.79,
+        "change": 4.66
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 28.23,
+        "changePercent": -17.38,
+        "change": -5.94
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 80.66,
+        "changePercent": -17.32,
+        "change": -16.9
       },
       {
         "ticker": "9348.T",
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LUNR -27.6%"
+    "topMover": "ASRHF -27.4%"
   }
 }
