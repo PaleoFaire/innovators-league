@@ -11,19 +11,19 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.84,
+      "avg_change": -9.39,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 4.33,
+      "avg_change": 3.37,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.62,
+      "avg_change": 11.55,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.22,
+      "avg_change": -0.25,
       "count": 3
     },
     "biotech": {
@@ -76,7 +76,7 @@
     [
       "SMR",
       "NuScale Power",
-      11.52
+      11.3
     ],
     [
       "RIVN",
@@ -98,7 +98,7 @@
     [
       "9348.T",
       "ispace",
-      -17.88
+      -14.7
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -27.39
     ]
   ],
-  "lastUpdated": "2026-06-17 20:18:47"
+  "lastUpdated": "2026-06-18 04:19:43"
 }
