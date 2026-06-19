@@ -1,448 +1,48 @@
 {
-  "generatedAt": "2026-06-18T10:08:40+00:00",
+  "generatedAt": "2026-06-19T10:15:57+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 44,
-  "newExtractionsThisRun": 44,
+  "cohortSize": 37,
+  "newExtractionsThisRun": 37,
   "summary": {
-    "cleared": 33,
-    "changesProposed": 11,
+    "cleared": 31,
+    "changesProposed": 6,
     "unverifiable": 0
   },
   "cleared": [
     "1X Technologies",
+    "AbCellera",
     "Agility Robotics",
-    "Andrenam",
+    "Andromeda Surgical",
+    "AnySignal",
     "Apptronik",
-    "Arbor Energy",
+    "Astera Labs",
     "Atom Bodies",
+    "Blue Origin",
     "Built Robotics",
     "Cape",
-    "CarbonCapture Inc.",
-    "Charm Industrial",
+    "Dawn Aerospace",
     "Deterrence",
     "Dexterity",
+    "Durin",
     "Einride",
-    "FleetZero",
     "Hadrian",
     "Harbinger",
     "Humanoid",
-    "Mach Industries",
     "Mara",
-    "Navier",
     "Orbital Composites",
     "PLD Space",
     "Palantir",
     "Percepto",
-    "Saildrone",
-    "Scale AI",
+    "Relativity Space",
+    "Solid Power",
     "Standard Nuclear",
-    "Tekever",
     "Tenstorrent",
     "Waymo",
     "X-Energy",
-    "Xanadu Quantum Technologies",
     "ideaForge"
   ],
   "changesProposed": [
-    {
-      "name": "AbCellera",
-      "current": {
-        "name": "AbCellera",
-        "founder": "Carl Hansen, V\u00e9ronique Lecault, Kevin Heyries, Daniel Da Costa, Kathleen Lisaingo, Oleh Petriv",
-        "location": "Vancouver, Canada",
-        "founded": 2012,
-        "fundingStage": "Public",
-        "totalRaised": "IPO",
-        "website": "https://abcellera.com"
-      },
-      "verified": {
-        "name": "AbCellera Biologics Inc.",
-        "description": "Vancouver-based biotechnology company that discovers and develops antibody therapeutics using a proprietary microfluidic platform for single-cell analysis. The company has transitioned from a partnership-focused model to advancing its own pipeline of internal antibody drug programs across multiple therapeutic areas.",
-        "founders": [
-          "Carl Hansen",
-          "V\u00e9ronique Lecault",
-          "Kevin Heyries",
-          "Daniel Da Costa",
-          "Kathleen Lisaingo",
-          "Oleh Petriv"
-        ],
-        "location": "Vancouver, British Columbia, Canada",
-        "founded_year": 2012,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://abcellera.com",
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Company is publicly traded on Nasdaq under ticker ABCL. In 2023, made strategic decision to shift focus from partnerships to advancing internal and co-development programs. Multiple clinical programs in development as of 2025 (ABCL635, ABCL575, ABCL688)."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Vancouver, Canada",
-          "verified": "Vancouver, British Columbia, Canada",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://abcellera.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://abcellera.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/AbCellera"
-        },
-        {
-          "idx": 3,
-          "src": "news (FierceBiotech)",
-          "url": "https://www.fiercebiotech.com/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-abcellera"
-        }
-      ],
-      "notes": "Company is publicly traded on Nasdaq under ticker ABCL. In 2023, made strategic decision to shift focus from partnerships to advancing internal and co-development programs. Multiple clinical programs in development as of 2025 (ABCL635, ABCL575, ABCL688)."
-    },
-    {
-      "name": "Abridge",
-      "current": {
-        "name": "Abridge",
-        "founder": "Shiv Rao, Zack Lipton",
-        "location": "Pittsburgh, PA",
-        "founded": 2018,
-        "fundingStage": "Series E",
-        "totalRaised": "$1.2B+",
-        "website": "https://abridge.com"
-      },
-      "verified": {
-        "name": "Abridge",
-        "description": "AI platform that transforms clinical conversations into structured documentation and clinical insights for healthcare providers. Trusted by 300+ health systems to reduce clinician documentation burden.",
-        "founders": [
-          "Shiv Rao"
-        ],
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://abridge.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [2] (Wikipedia) refers to a village in Essex, England\u2014not the company. Only Shiv Rao explicitly named as 'CEO, Co-Founder' in source [1]; Zack Lipton from database entry is not mentioned in provided sources. Founded year, location, funding stage, total raised, valuation, and investor list could not be verified from these sources."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Shiv Rao, Zack Lipton",
-          "verified": "Shiv Rao",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://abridge.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://abridge.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Abridge"
-        },
-        {
-          "idx": 3,
-          "src": "news (STAT News)",
-          "url": "https://www.statnews.com/2026/06/17/is-scribe-developer-abridge-patient-centered-ai-prognosis/?utm_campaign=rss"
-        }
-      ],
-      "notes": "Source [2] (Wikipedia) refers to a village in Essex, England\u2014not the company. Only Shiv Rao explicitly named as 'CEO, Co-Founder' in source [1]; Zack Lipton from database entry is not mentioned in provided sources. Founded year, location, funding stage, total raised, valuation, and investor list could not be verified from these sources."
-    },
-    {
-      "name": "AnySignal",
-      "current": {
-        "name": "AnySignal",
-        "founder": "John Malsbury, Ricky Medina, Jeffrey R Osborne",
-        "location": "El Segundo, CA",
-        "founded": 2022,
-        "fundingStage": "Series A",
-        "totalRaised": "$34M+",
-        "website": "https://anysignal.com"
-      },
-      "verified": {
-        "name": "AnySignal",
-        "description": "End-to-end RF platform for spectrum supremacy across aerospace and national security applications, with capabilities in communications, electronic warfare, autonomous systems, and radar.",
-        "founders": null,
-        "location": "Los Angeles, CA",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://anysignal.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1] is about Dawn Aerospace, not AnySignal, and cannot be used. Database entry lists founders (John Malsbury, Ricky Medina, Jeffrey R Osborne), founded year (2022), stage (Series A), and total_raised ($34M+), but none of these are verifiable from the provided sources. Website content does not include founder names, founding year, funding stage, or investment amounts."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "El Segundo, CA",
-          "verified": "Los Angeles, CA",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://anysignal.com"
-        },
-        {
-          "idx": 1,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/dawn-aerospace-raises-25-million/"
-        }
-      ],
-      "notes": "Source [1] is about Dawn Aerospace, not AnySignal, and cannot be used. Database entry lists founders (John Malsbury, Ricky Medina, Jeffrey R Osborne), founded year (2022), stage (Series A), and total_raised ($34M+), but none of these are verifiable from the provided sources. Website content does not include founder names, founding year, funding stage, or investment amounts."
-    },
-    {
-      "name": "Climeworks",
-      "current": {
-        "name": "Climeworks",
-        "founder": "Christoph Gebald, Jan Wurzbacher",
-        "location": "Zurich, Switzerland",
-        "founded": 2009,
-        "fundingStage": "Series F",
-        "totalRaised": "$1B+",
-        "website": "https://climeworks.com"
-      },
-      "verified": {
-        "name": "Climeworks",
-        "description": "Swiss company specializing in direct air capture and sequestration technology that removes CO2 directly from the ambient air through an adsorption-desorption process. The company operates commercial direct air capture facilities including large-scale plants in Iceland called Orca and Mammoth.",
-        "founders": [
-          "Jan Wurzbacher",
-          "Christoph Gebald"
-        ],
-        "location": "Z\u00fcrich, Switzerland",
-        "founded_year": 2009,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://climeworks.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Wikipedia confirms founding in November 2009. Company operates Mammoth plant in Iceland (launched May 2024) with capacity to capture up to 36,000 tons of CO2 annually. Unicorn status achieved after April 2022 $650M funding round (per Wikipedia). Source [0] is company website with limited verifiable detail. Source [2] mentions Frontier carbon removal coalition but provides no company-specific financial data. Database entry claims Series F stage, $1B+ raised, and specific investors, but these cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Zurich, Switzerland",
-          "verified": "Z\u00fcrich, Switzerland",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://climeworks.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Climeworks"
-        },
-        {
-          "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/"
-        }
-      ],
-      "notes": "Wikipedia confirms founding in November 2009. Company operates Mammoth plant in Iceland (launched May 2024) with capacity to capture up to 36,000 tons of CO2 annually. Unicorn status achieved after April 2022 $650M funding round (per Wikipedia). Source [0] is company website with limited verifiable detail. Source [2] mentions Frontier carbon removal coalition but provides no company-specific financial data. Database entry claims Series F stage, $1B+ raised, and specific investors, but these cannot be verified from provided sources."
-    },
-    {
-      "name": "Dawn Aerospace",
-      "current": {
-        "name": "Dawn Aerospace",
-        "founder": "Stefan Powell, Jeroen Wink, James Powell, Robert Werner, Tobias Knop",
-        "location": "Delft, Netherlands",
-        "founded": 2017,
-        "fundingStage": "Series B",
-        "totalRaised": "$30M+",
-        "website": "https://dawnaerospace.com"
-      },
-      "verified": {
-        "name": "Dawn Aerospace",
-        "description": "A space transportation company building in-space propulsion systems using non-toxic propellants and a reusable suborbital spaceplane called Aurora.",
-        "founders": [
-          "Stefan Powell",
-          "Jeroen Wink",
-          "James Powell",
-          "Robert Werner",
-          "Tobias Knop"
-        ],
-        "location": "Delft, Netherlands",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": "$25M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://dawnaerospace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "total_raised": [
-            3
-          ]
-        },
-        "notes": "Company operates dual headquarters in Delft, Netherlands and Christchurch, New Zealand with 4 global locations. Wikipedia states $30M raised (ref 1 in Wiki citing NBR article) but SpaceNews source [3] reports $25M raised most recently. Using most recent specific figure from source [3]. Current stage unclear from sources - Wikipedia lists company as 'PrivateIndustry' (c. 2022) but no current Series funding stage explicitly stated in any source."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$30M+",
-          "verified": "$25M",
-          "sources": [
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://dawnaerospace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://dawnaerospace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dawn_Aerospace"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/dawn-aerospace-raises-25-million/"
-        }
-      ],
-      "notes": "Company operates dual headquarters in Delft, Netherlands and Christchurch, New Zealand with 4 global locations. Wikipedia states $30M raised (ref 1 in Wiki citing NBR article) but SpaceNews source [3] reports $25M raised most recently. Using most recent specific figure from source [3]. Current stage unclear from sources - Wikipedia lists company as 'PrivateIndustry' (c. 2022) but no current Series funding stage explicitly stated in any source."
-    },
     {
       "name": "Fervo Energy",
       "current": {
@@ -456,7 +56,7 @@
       },
       "verified": {
         "name": "Fervo Energy",
-        "description": "Geothermal energy company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas. Operates Project Red in Nevada and Cape Station in Utah.",
+        "description": "Geothermal energy company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques. Operates Project Red in Nevada and is developing Cape Station in Utah.",
         "founders": [
           "Tim Latimer",
           "Jack Norbeck"
@@ -476,7 +76,6 @@
         "sources_per_field": {
           "name": [
             0,
-            1,
             2
           ],
           "description": [
@@ -502,11 +101,10 @@
             2
           ],
           "website": [
-            0,
             2
           ]
         },
-        "notes": "Wikipedia article (source 2) lists company as 'Private' but multiple sources (0, 2) reference IPO completion in May 2026. Wikipedia appears outdated; company website (source 0) newsroom confirms IPO with headlines dated May 17-18, 2026. Dr. Jack Norbeck identified as CTO in source 2."
+        "notes": "Company went public in May 2026 (referenced in source 0 newsroom items dated May 17, 2026). Wikipedia source [2] confirms founders as Tim Latimer (CEO, mechanical engineer) and Dr. Jack Norbeck (CTO). Series E funding of $462M noted in November 2025 per source [2]. IPO date mentioned in source [0] but specific valuation at IPO not found in provided sources."
       },
       "changes": [
         {
@@ -540,213 +138,38 @@
           "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
         }
       ],
-      "notes": "Wikipedia article (source 2) lists company as 'Private' but multiple sources (0, 2) reference IPO completion in May 2026. Wikipedia appears outdated; company website (source 0) newsroom confirms IPO with headlines dated May 17-18, 2026. Dr. Jack Norbeck identified as CTO in source 2."
+      "notes": "Company went public in May 2026 (referenced in source 0 newsroom items dated May 17, 2026). Wikipedia source [2] confirms founders as Tim Latimer (CEO, mechanical engineer) and Dr. Jack Norbeck (CTO). Series E funding of $462M noted in November 2025 per source [2]. IPO date mentioned in source [0] but specific valuation at IPO not found in provided sources."
     },
     {
-      "name": "Graphyte",
+      "name": "QuantumScape",
       "current": {
-        "name": "Graphyte",
-        "founder": "Barclay Rogers",
-        "location": "Pine Bluff, AR",
-        "founded": 2023,
-        "fundingStage": "Series A",
-        "totalRaised": "$57M",
-        "website": "https://graphyte.com"
+        "name": "QuantumScape",
+        "founder": "Jagdeep Singh, Tim Holme, Fritz Prinz",
+        "location": "San Jose, CA",
+        "founded": 2010,
+        "fundingStage": "Public",
+        "totalRaised": "$2B+",
+        "website": "https://quantumscape.com"
       },
       "verified": {
-        "name": "Graphyte",
-        "description": "A company that sequesters carbon by converting agricultural and timber residues into dense blocks that are dried, compressed, and stored underground for over 1,000 years.",
+        "name": "QuantumScape",
+        "description": "American company researching and developing solid-state rechargeable lithium metal batteries for use in electric cars. The company's batteries are designed to enable greater energy density, faster charging and enhanced safety.",
         "founders": [
-          "Bill Gates"
+          "Jagdeep Singh",
+          "Tim Holme",
+          "Fritz Prinz"
         ],
-        "location": "Pine Bluff, Arkansas",
-        "founded_year": 2023,
-        "current_stage": "Series A",
-        "total_raised": "$30M",
-        "valuation": null,
-        "investors": [
-          "Breakthrough Energy Ventures",
-          "Prelude Ventures",
-          "Carbon Direct Capital",
-          "Overture"
-        ],
-        "website": "https://graphyte.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "investors": [
-            1
-          ]
-        },
-        "notes": "Wikipedia lists Bill Gates as founder/backer; database entry lists Barclay Rogers as founder. Wikipedia specifies $30M Series A in July 2024, contradicting database entry of $57M total raised. Database valuation of $200M could not be verified in sources. Source [2] is about Anthropic and does not contain relevant Graphyte information."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Barclay Rogers",
-          "verified": "Bill Gates",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "location",
-          "current": "Pine Bluff, AR",
-          "verified": "Pine Bluff, Arkansas",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$57M",
-          "verified": "$30M",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://graphyte.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Graphyte"
-        },
-        {
-          "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/"
-        }
-      ],
-      "notes": "Wikipedia lists Bill Gates as founder/backer; database entry lists Barclay Rogers as founder. Wikipedia specifies $30M Series A in July 2024, contradicting database entry of $57M total raised. Database valuation of $200M could not be verified in sources. Source [2] is about Anthropic and does not contain relevant Graphyte information."
-    },
-    {
-      "name": "Heirloom Carbon",
-      "current": {
-        "name": "Heirloom Carbon",
-        "founder": "Shashank Samala",
-        "location": "Brisbane, CA",
-        "founded": 2020,
-        "fundingStage": "Series B",
-        "totalRaised": "$150M+",
-        "website": "https://heirloomcarbon.com"
-      },
-      "verified": {
-        "name": "Heirloom",
-        "description": "Uses limestone-based enhanced mineralization to accelerate natural carbon mineralization for direct air capture of CO2 from the atmosphere. Operates commercial DAC facilities in California and Louisiana powered by 100% renewable energy.",
-        "founders": null,
-        "location": "Central Valley, California",
-        "founded_year": null,
-        "current_stage": null,
+        "location": "San Jose, California, U.S.",
+        "founded_year": 2010,
+        "current_stage": "Public",
         "total_raised": null,
         "valuation": null,
-        "investors": null,
-        "website": "https://heirloomcarbon.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1] is about Anthropic, not Heirloom, and provides no verifiable information about Heirloom. Current database entry contains founder name, location (Brisbane, CA), founding year (2020), stage (Series B), and total_raised ($150M+) but none of these are supported by provided sources. Company website does not mention founder names, founding year, funding stage, or total capital raised."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Brisbane, CA",
-          "verified": "Central Valley, California",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://heirloomcarbon.com"
-        },
-        {
-          "idx": 1,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/"
-        }
-      ],
-      "notes": "Source [1] is about Anthropic, not Heirloom, and provides no verifiable information about Heirloom. Current database entry contains founder name, location (Brisbane, CA), founding year (2020), stage (Series B), and total_raised ($150M+) but none of these are supported by provided sources. Company website does not mention founder names, founding year, funding stage, or total capital raised."
-    },
-    {
-      "name": "Relativity Space",
-      "current": {
-        "name": "Relativity Space",
-        "founder": "Tim Ellis, Jordan Noone",
-        "location": "Long Beach, CA",
-        "founded": 2015,
-        "fundingStage": "Private",
-        "totalRaised": "$1.335B",
-        "website": "https://relativityspace.com"
-      },
-      "verified": {
-        "name": "Relativity Space",
-        "description": "American aerospace manufacturing company developing launch vehicles and rocket engines for commercial orbital launch services. Developing Terran R, a partially reusable medium-to-heavy-lift launch vehicle.",
-        "founders": [
-          "Tim Ellis",
-          "Jordan Noone"
-        ],
-        "location": "Long Beach, California, US",
-        "founded_year": 2015,
-        "current_stage": "Private",
-        "total_raised": "$1.335B",
-        "valuation": "$4.2B",
         "investors": [
-          "Baillie Gifford",
-          "Blackrock",
-          "BOND",
-          "Coatue",
-          "Fidelity",
-          "General Catalyst",
-          "ICONIQ Capital",
-          "K5 Global",
-          "Mark Cuban",
-          "Playground Global",
-          "Social Capital",
-          "Tiger Global",
-          "Tribe Capital",
-          "Y Combinator"
+          "Volkswagen Group",
+          "Bill Gates",
+          "Qatar Investment Authority"
         ],
-        "website": "https://relativityspace.com",
+        "website": "https://www.quantumscape.com",
         "sources_per_field": {
           "name": [
             0,
@@ -762,18 +185,14 @@
             2
           ],
           "location": [
+            0,
+            1,
             2
           ],
           "founded_year": [
             2
           ],
           "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
             2
           ],
           "investors": [
@@ -785,14 +204,16 @@
             2
           ]
         },
-        "notes": "Eric Schmidt replaced Tim Ellis as CEO in March 2025, taking a controlling interest. Company has contract backlog of over $2.9B as of March 2025. Founded year differs from database entry (2015 vs 2016); Wikipedia and database cite 2015. Database entry noted $1.6B in launch contracts; Wikipedia cites $2.9B+ in contract backlog as of March 2025 and source [1] mentions $3B+ in pre-sold launch contracts."
+        "notes": "Company went public in 2020 through SPAC merger with Kensington Capital Acquisition Corp, listing on NASDAQ under symbol QS. Founded at Stanford University on May 14, 2010."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Long Beach, CA",
-          "verified": "Long Beach, California, US",
+          "current": "San Jose, CA",
+          "verified": "San Jose, California, U.S.",
           "sources": [
+            0,
+            1,
             2
           ]
         }
@@ -801,25 +222,138 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://relativityspace.com"
+          "url": "https://quantumscape.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://relativityspace.com/about"
+          "url": "https://quantumscape.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Relativity_Space"
+          "url": "https://en.wikipedia.org/wiki/QuantumScape"
         },
         {
           "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/relativity-space-to-privately-develop-mars-orbiter-mission/"
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/06/18/honda-quantumscape-qs-team-up-solid-state-batteries/"
         }
       ],
-      "notes": "Eric Schmidt replaced Tim Ellis as CEO in March 2025, taking a controlling interest. Company has contract backlog of over $2.9B as of March 2025. Founded year differs from database entry (2015 vs 2016); Wikipedia and database cite 2015. Database entry noted $1.6B in launch contracts; Wikipedia cites $2.9B+ in contract backlog as of March 2025 and source [1] mentions $3B+ in pre-sold launch contracts."
+      "notes": "Company went public in 2020 through SPAC merger with Kensington Capital Acquisition Corp, listing on NASDAQ under symbol QS. Founded at Stanford University on May 14, 2010."
+    },
+    {
+      "name": "Scale AI",
+      "current": {
+        "name": "Scale AI",
+        "founder": "Alexandr Wang, Lucy Guo",
+        "location": "San Francisco, CA",
+        "founded": 2016,
+        "fundingStage": "Private",
+        "totalRaised": "$15.9B",
+        "website": "https://scale.com"
+      },
+      "verified": {
+        "name": "Scale AI",
+        "description": "An artificial intelligence infrastructure and software company that provides high-quality training data, RLHF services, LLM evaluation, and full-stack AI systems for enterprises and governments. The company powers data annotation and AI model development for frontier AI applications.",
+        "founders": [
+          "Alexandr Wang",
+          "Lucy Guo"
+        ],
+        "location": "San Francisco, California",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": "$29B",
+        "investors": [
+          "Meta Platforms",
+          "Accel",
+          "Founders Fund",
+          "Index Ventures",
+          "Tiger Global",
+          "Dragoneer Investment Group",
+          "Greenoaks",
+          "Amazon"
+        ],
+        "website": "https://scale.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "valuation": [
+            1,
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Lucy Guo was fired in 2018 according to Wikipedia but is still listed as founder. Wikipedia lists current ownership as Meta Platforms (49%). The database entry's total_raised of $15.9B cannot be verified from these sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Francisco, CA",
+          "verified": "San Francisco, California",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://scale.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://scale.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scale_AI"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/06/18/cargofy-lands-6m-to-scale-ai-workers-for-logistics/"
+        },
+        {
+          "idx": 4,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/06/17/flagright-secures-125m-series-a-to-scale-ai-compliance-platform/"
+        }
+      ],
+      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Lucy Guo was fired in 2018 according to Wikipedia but is still listed as founder. Wikipedia lists current ownership as Meta Platforms (49%). The database entry's total_raised of $15.9B cannot be verified from these sources."
     },
     {
       "name": "SpaceX",
@@ -834,7 +368,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company that operates orbital launches, the Starlink satellite constellation, and artificial intelligence services. SpaceX is credited with advances in reusable launch vehicles and significantly cheaper launch operations compared to NASA.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider. The company operates three divisions: Space, Connectivity (Starlink), and Artificial Intelligence.",
         "founders": [
           "Elon Musk"
         ],
@@ -876,7 +410,7 @@
             0
           ]
         },
-        "notes": "IPO occurred on June 12, 2026. Wikipedia source dated as of May 2026 update. Database entry claims $1.5T valuation and IPO status, but sources only confirm $86B raised in IPO and public status; no valuation figure found in sources. Database entry lists 'IPO' as stage - corrected to 'Public' per schema requirements."
+        "notes": "Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry references a $1.5T valuation and 'Preparing for IPO' but Wikipedia shows the IPO has already occurred. Database claims of 165 Falcon 9 launches in 2025 and Starlink serving 9M+ customers cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -896,21 +430,21 @@
         },
         {
           "idx": 1,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/how-spacex-matches-the-micron-setup-for-a-fast-10x-to-2000-revenue-multipliers-for-next-levels-for-spacex.html"
+          "src": "news (Ars Technica)",
+          "url": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/"
         },
         {
           "idx": 2,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/spacex-starship-going-for-orbit-in-august-and-september.html"
+          "src": "news (Defense One)",
+          "url": "https://www.defenseone.com/threats/2026/06/spacex-ipo-investors-china-secretly-acquired-stakes/414275/"
         },
         {
           "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/06/anthropic-used-cursor-use-data-to-get-ahead-so-spacexai-will-use-cursor-to-get-ahead.html"
         }
       ],
-      "notes": "IPO occurred on June 12, 2026. Wikipedia source dated as of May 2026 update. Database entry claims $1.5T valuation and IPO status, but sources only confirm $86B raised in IPO and public status; no valuation figure found in sources. Database entry lists 'IPO' as stage - corrected to 'Public' per schema requirements."
+      "notes": "Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry references a $1.5T valuation and 'Preparing for IPO' but Wikipedia shows the IPO has already occurred. Database claims of 165 Falcon 9 launches in 2025 and Starlink serving 9M+ customers cannot be verified from provided sources."
     },
     {
       "name": "Varda Space Industries",
@@ -977,7 +511,7 @@
             2
           ]
         },
-        "notes": "Wikipedia indicates $90M Series B funding in April 2024. Database entry claims $187M Series C from Founders Fund and Khosla Ventures in 2025, but this is not verified in provided sources. Source [3] is unrelated to Varda (Jazz Pharmaceuticals/AbCellera deal) and was not used."
+        "notes": "Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry claims Series C with $187M, but sources only confirm Series B. W-2 landed in South Australia on 28 February 2025; W-3 launched 14 March 2025 and reentered 14 May 2025; W-4 launched 24 June 2025."
       },
       "changes": [
         {
@@ -1011,7 +545,97 @@
           "url": "https://www.fiercebiotech.com/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-abcellera"
         }
       ],
-      "notes": "Wikipedia indicates $90M Series B funding in April 2024. Database entry claims $187M Series C from Founders Fund and Khosla Ventures in 2025, but this is not verified in provided sources. Source [3] is unrelated to Varda (Jazz Pharmaceuticals/AbCellera deal) and was not used."
+      "notes": "Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry claims Series C with $187M, but sources only confirm Series B. W-2 landed in South Australia on 28 February 2025; W-3 launched 14 March 2025 and reentered 14 May 2025; W-4 launched 24 June 2025."
+    },
+    {
+      "name": "Xanadu Quantum Technologies",
+      "current": {
+        "name": "Xanadu Quantum Technologies",
+        "founder": "Christian Weedbrook",
+        "location": "Toronto, Canada",
+        "founded": 2016,
+        "fundingStage": "Public",
+        "totalRaised": "$245M",
+        "website": "https://xanadu.ai"
+      },
+      "verified": {
+        "name": "Xanadu Quantum Technologies",
+        "description": "Canadian quantum computing hardware and software company that develops cloud-accessible photonic quantum computers and open-source software for quantum machine learning.",
+        "founders": [
+          "Christian Weedbrook"
+        ],
+        "location": "Toronto, Ontario, Canada",
+        "founded_year": 2016,
+        "current_stage": "Public",
+        "total_raised": "$245M",
+        "valuation": null,
+        "investors": [
+          "Bessemer Venture Partners",
+          "Capricorn Investment Group",
+          "Tiger Global Management",
+          "In-Q-Tel",
+          "Business Development Bank of Canada",
+          "OMERS Ventures",
+          "Georgian",
+          "Real Ventures",
+          "Golden Ventures",
+          "Radical Ventures"
+        ],
+        "website": "https://xanadu.ai",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Traded on TSX: XNDU and Nasdaq: XNDU. Source [1] is about Mistral AI and is not relevant to Xanadu."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Toronto, Canada",
+          "verified": "Toronto, Ontario, Canada",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xanadu_Quantum_Technologies"
+        },
+        {
+          "idx": 1,
+          "src": "news (Sifted)",
+          "url": "https://sifted.eu/articles/mistral-arthur-mensch-open-source-anthropic/"
+        }
+      ],
+      "notes": "Traded on TSX: XNDU and Nasdaq: XNDU. Source [1] is about Mistral AI and is not relevant to Xanadu."
     }
   ],
   "unverifiable": []
