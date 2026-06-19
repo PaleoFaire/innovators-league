@@ -62332,11 +62332,11 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-19 21:15
+// Last updated: 2026-06-19 23:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Solar Foods", headline: "Solar Foods bags '77.8M package, '500M defence and dual-use growth fund EDM launched, and warning for Europe's silicon p", source: "Tech.eu", time: "6h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Blue Origin", headline: "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars", source: "Ars Technica Space", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Electric Sheep", headline: "Do dragons dream of electric sheep?", source: "Inside Quantum Technology", time: "8h ago", impact: "low", unread: true },
+  { id: 1, type: "funding", company: "Solar Foods", headline: "Solar Foods bags '77.8M package, '500M defence and dual-use growth fund EDM launched, and warning for Europe's silicon p", source: "Tech.eu", time: "8h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Blue Origin", headline: "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars", source: "Ars Technica Space", time: "9h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Electric Sheep", headline: "Do dragons dream of electric sheep?", source: "Inside Quantum Technology", time: "10h ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "OpenAI", headline: "OpenAI is bringing on some big guns in the lead-up to its IPO", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
   { id: 5, type: "news", company: "QuantumScape", headline: "Honda and QuantumScape (QS) team up to make 'game-changing' solid-state batteries", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "Before SpaceX IPO, investors in China secretly acquired stakes", source: "Ars Technica", time: "1d ago", impact: "high", unread: false },
