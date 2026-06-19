@@ -1,29 +1,11 @@
 [
   {
-    "date": "2026-06-17",
-    "vehicle": "Ariane 64 Block 2 | Amazon Leo (LE-03)",
-    "payload": "Amazon Leo (LE-03)",
-    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed8ccd18-b530-4f55-92ae-bda89ac2985c/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-06-19",
     "vehicle": "Falcon 9 Block 5 | NROL-179",
     "payload": "NROL-179",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5d4099bf-a0be-4f54-b236-b6ab3aed4146/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-21",
-    "vehicle": "Falcon 9 Block 5 | Project Starfall Demonstration Mission",
-    "payload": "Project Starfall Demonstration Mission",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/74bf8472-9ba1-42d6-9245-b014f8e91de9/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -43,6 +25,15 @@
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/f72c6ea1-dc44-4f0e-bb51-1c52eff9efe8/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-06-23",
+    "vehicle": "Falcon 9 Block 5 | Project Starfall Demonstration Mission",
+    "payload": "Project Starfall Demonstration Mission",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/74bf8472-9ba1-42d6-9245-b014f8e91de9/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-06-25",
@@ -207,7 +198,7 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "vehicle": "Atlas V 551 | Amazon Leo (LA-08)",
     "payload": "Amazon Leo (LA-08)",
     "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
@@ -447,6 +438,15 @@
     "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
     "provider": "Firefly Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d1a3807e-f304-467c-a095-e08b86924347/?format=json",
+    "trackedCompany": "Firefly Aerospace"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Firefly Alpha Block 2 | VICTUS HAZE Jackal",
+    "payload": "VICTUS HAZE Jackal",
+    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
+    "provider": "Firefly Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/875ba957-be5f-42bd-8a6e-ed98254f572a/?format=json",
     "trackedCompany": "Firefly Aerospace"
   }
 ]

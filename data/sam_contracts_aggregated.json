@@ -50,7 +50,7 @@
         "awardAmount": "$37M"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Palantir",
@@ -108,7 +108,7 @@
         "awardAmount": "$86M"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Skydio",
@@ -163,7 +163,7 @@
         "awardAmount": "$130K"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Radiant",
@@ -219,7 +219,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Shield AI",
@@ -271,7 +271,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Axiom Space",
@@ -288,7 +288,7 @@
         "postedDate": "2022-09-08",
         "type": null,
         "noticeId": "80JSC022FA103",
-        "awardAmount": "$385M"
+        "awardAmount": "$395M"
       },
       {
         "title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION",
@@ -323,7 +323,58 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
+  },
+  {
+    "company": "Sierra Space",
+    "opportunityCount": 5,
+    "agencies": [
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) ",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2019-05-02",
+        "type": null,
+        "noticeId": "80HQTR19C0019",
+        "awardAmount": "$12M"
+      },
+      {
+        "title": "ADVANCED SPACESUIT REGULATOR (ASR)",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2025-12-18",
+        "type": null,
+        "noticeId": "80JSC026C0002",
+        "awardAmount": "$6M"
+      },
+      {
+        "title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2025-04-30",
+        "type": null,
+        "noticeId": "80HQTR25CA008",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIODE (LED) (BRIC-LED)",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2025-06-18",
+        "type": null,
+        "noticeId": "80JSC025FA117",
+        "awardAmount": "$68K"
+      },
+      {
+        "title": "IMPLEMENTS A SOLUTION FROM THE INITIAL TROUBLESHOOTING OF THE BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIOD",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2026-05-26",
+        "type": null,
+        "noticeId": "80JSC026FA103",
+        "awardAmount": "$43K"
+      }
+    ],
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Castelion",
@@ -366,50 +417,7 @@
         "awardAmount": "$1M"
       }
     ],
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "company": "Sierra Space",
-    "opportunityCount": 4,
-    "agencies": [
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "ADVANCED SPACESUIT REGULATOR (ASR)",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-12-18",
-        "type": null,
-        "noticeId": "80JSC026C0002",
-        "awardAmount": "$6M"
-      },
-      {
-        "title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-04-30",
-        "type": null,
-        "noticeId": "80HQTR25CA008",
-        "awardAmount": "$4M"
-      },
-      {
-        "title": "BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIODE (LED) (BRIC-LED)",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-06-18",
-        "type": null,
-        "noticeId": "80JSC025FA117",
-        "awardAmount": "$68K"
-      },
-      {
-        "title": "IMPLEMENTS A SOLUTION FROM THE INITIAL TROUBLESHOOTING OF THE BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIOD",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2026-05-26",
-        "type": null,
-        "noticeId": "80JSC026FA103",
-        "awardAmount": "$43K"
-      }
-    ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Varda Space",
@@ -452,7 +460,7 @@
         "awardAmount": "$160K"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Rocket Lab",
@@ -487,7 +495,42 @@
         "awardAmount": "$391K"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
+  },
+  {
+    "company": "BlackSky",
+    "opportunityCount": 3,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "BLACKSKY DIRECT TO PHASE 2",
+        "agency": "Department of Defense",
+        "postedDate": "2024-10-01",
+        "type": null,
+        "noticeId": "FA238524CB039",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "BLACKSKY GLOBAL MOVING TARGET ENGAGEMENT",
+        "agency": "Department of Defense",
+        "postedDate": "2024-03-15",
+        "type": null,
+        "noticeId": "FA945324C0001",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT",
+        "agency": "Department of Defense",
+        "postedDate": "2026-03-06",
+        "type": null,
+        "noticeId": "FA238526FB002",
+        "awardAmount": "$2M"
+      }
+    ],
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Planet Labs",
@@ -515,7 +558,7 @@
         "awardAmount": "$60K"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Capella Space",
@@ -543,34 +586,7 @@
         "awardAmount": "$209K"
       }
     ],
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "company": "BlackSky",
-    "opportunityCount": 2,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "BLACKSKY GLOBAL MOVING TARGET ENGAGEMENT",
-        "agency": "Department of Defense",
-        "postedDate": "2024-03-15",
-        "type": null,
-        "noticeId": "FA945324C0001",
-        "awardAmount": "$4M"
-      },
-      {
-        "title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT",
-        "agency": "Department of Defense",
-        "postedDate": "2026-03-06",
-        "type": null,
-        "noticeId": "FA238526FB002",
-        "awardAmount": "$2M"
-      }
-    ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Scale AI",
@@ -597,7 +613,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Vannevar Labs",
@@ -616,7 +632,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Hadrian",
@@ -635,7 +651,7 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "company": "Relativity Space",
@@ -654,6 +670,6 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   }
 ]

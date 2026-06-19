@@ -253,6 +253,26 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Scaling Up Cost-Effective Grid Modernization",
+    "organization": "Switched Source LLC",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Chicago , IL",
+    "state": "IL",
+    "awardAmount": 8560000,
+    "awardFormatted": "8,560,000",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Transmission & Distribution",
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Chloride-Based Volatility for Waste Reduction and/or Reuse of Metallic-, Oxide- and Salt-Based Reactor Fuels",
     "organization": "TerraPower",
     "orgType": "Private Company",
@@ -310,6 +330,27 @@
       "Power Generation"
     ],
     "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Cryogen-Free Ultra-High Field Superconducting Electric Motor",
+    "organization": "Hinetics",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Champaign, IL",
+    "state": "IL",
+    "awardAmount": 5754096,
+    "awardFormatted": "5,754,096",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Other - Transportation",
+      "Transportation",
+      "Power Systems"
+    ],
+    "isKnownCompany": false,
     "isPrivateCompany": true
   },
   {
@@ -442,6 +483,28 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Eight Inch GaN-on-Si Super Junction Devices for Next Generation Power Electronics",
+    "organization": "Massachusetts Institute of Technology (MIT)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 4973760,
+    "awardFormatted": "4,973,760",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Other - Transportation",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Highly Efficient Electrochemical Oxide Reduction for U/TRU Recovery from LWR Fuel",
     "organization": "Argonne National Laboratory (ANL)",
     "orgType": "National Laboratory",
@@ -457,6 +520,26 @@
     "technologyAreas": [
       "Nuclear Fission",
       "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Microgrid Control/Coordination Co-Design (MicroC3)",
+    "organization": "North Carolina State University (NC State)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Raleigh, NC",
+    "state": "NC",
+    "awardAmount": 4828980,
+    "awardFormatted": "4,828,980",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Transmission & Distribution",
+      "Grid"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -644,25 +727,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Cascaded Resonance-InsensiTIve QuAsi-two-Level SiC Valve Modules (CRITIQAL)",
-    "organization": "Florida State University",
-    "orgType": "",
-    "orgWebsite": [],
-    "status": "Selected",
-    "location": "Tallahasee, FL",
-    "state": "FL",
-    "awardAmount": 4100000,
-    "awardFormatted": "4,100,000",
-    "releaseDate": "Mar 17 2026",
-    "programName": "DC-GRIDS",
-    "programAcronym": "Disruptive DC Converters for Grid Resilient Infrastructure to Deliver Secure energy",
-    "technologyAreas": [
-      "Grid"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Quantum Computing for Modeling Nuclear Quantum Effects in PEM Fuel Cells and Electrolyzers",
     "organization": "Quantinuum, LLC ",
     "orgType": "Private Company",
@@ -706,6 +770,25 @@
       "Power Generation"
     ],
     "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Automated Geological Appraisal Technology and Explorer System (AGATES) ",
+    "organization": "Baker Hughes Energy Transition LLC",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Houston, TX",
+    "state": "TX",
+    "awardAmount": 4000000,
+    "awardFormatted": "4,000,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
     "isPrivateCompany": true
   },
   {
@@ -891,6 +974,44 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Developing Downhole Mineralogy Logging Sensors to Accelerate Critical Mineral Exploration Enabled by AI Models and High-Throughput Core Data ",
+    "organization": "Sandia National Laboratories",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Alburquerque, NM",
+    "state": "NM",
+    "awardAmount": 3800000,
+    "awardFormatted": "3,800,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Rapid, high-resolution ore sensing with an active, multi-GeV muon source from a compact, deployable, laser-plasma electron accelerator ",
+    "organization": "Lawrence Berkeley National Laboratory (LBNL)",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Berkeley, CA",
+    "state": "CA",
+    "awardAmount": 3800000,
+    "awardFormatted": "3,800,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Electro-Hydraulic Fracturing for Enhanced Geothermal Systems",
     "organization": "Eden GeoPower",
     "orgType": "Private Company",
@@ -1014,25 +1135,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Battery-Inspired, Electrified System for Precision Resource Recovery from Wastewater",
-    "organization": "Roca Water, Inc.",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Selected",
-    "location": "Alameda, CA",
-    "state": "CA",
-    "awardAmount": 3705859,
-    "awardFormatted": "3,705,859",
-    "releaseDate": "Mar 17 2026",
-    "programName": "RECOVER",
-    "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
-    "technologyAreas": [
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": true
-  },
-  {
     "title": "SPEEDWORM: Swift, Portable, and Efficient Electrical undergrounDing using a Waterfree, cOmpact, and Reliable Machine",
     "organization": "GE Vernova Advanced Research",
     "orgType": "Private Company",
@@ -1071,6 +1173,25 @@
     ],
     "isKnownCompany": true,
     "isPrivateCompany": true
+  },
+  {
+    "title": "Cased-hole Associated-particle Dual Imager for Lithology and Logging Anomaly Correction (CADILLAC) ",
+    "organization": "University of Michigan",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Ann Arbor, MI",
+    "state": "MI",
+    "awardAmount": 3600000,
+    "awardFormatted": "3,600,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "Advanced Facility Design and AI/ML Enabled Safeguards to Establish Secure, Economical Recycling of Fast Reactor Fuels",
@@ -1131,6 +1252,26 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "In-Silico Heterogeneous Catalyst Design for GHG Reduction via Bulk Chemicals",
+    "organization": "Copernic Catalysts",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 3579478,
+    "awardFormatted": "3,579,478",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Fuels",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
   },
   {
     "title": "Modular Design and Additive Manufacturing of Interlocking Superinsulation Panel from Bio-based Feedstock for Autonomous Construction",
@@ -1214,6 +1355,63 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
+  },
+  {
+    "title": "DEEP - Deep-sea Exploration Efficiency Project ",
+    "organization": "Wetstone Exploration",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "New York, NY",
+    "state": "NY",
+    "awardAmount": 3500000,
+    "awardFormatted": "3,500,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "MIDAS - Muon Imaging and Distributed Acoustic Sensing ",
+    "organization": "KoBold Metals Company",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Berkeley, CA",
+    "state": "CA",
+    "awardAmount": 3500000,
+    "awardFormatted": "3,500,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "RAPTOR - Rapid Analysis of Precious and Targeted Ores with Rotary drilling ",
+    "organization": "Texas A&M Engineering Experiment Station",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Bryan, TX",
+    "state": "TX",
+    "awardAmount": 3500000,
+    "awardFormatted": "3,500,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "Prefab Modular Liquid-cooled Micro Data Center",
@@ -1401,6 +1599,46 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Incorporating Record-Breaking Catalysts in Electrospun Bipolar Membranes",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Golden, CO",
+    "state": "CO",
+    "awardAmount": 3365668,
+    "awardFormatted": "3,365,668",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "High Current 10kV DC Superconducting Transmission Lines and Grid Architecture",
+    "organization": "VEIR",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "WOBURN, MA",
+    "state": "MA",
+    "awardAmount": 3332932,
+    "awardFormatted": "3,332,932",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Transmission & Distribution",
+      "Grid"
+    ],
+    "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Ultra-Efficient and Ultra-Rapid Electro-Thermal Pulse Deicing, Defrosting, and Desnowing for Renewable Energy and Electrified Aircraft Systems",
     "organization": "University of Illinois, Urbana-Champaign (UIUC)",
     "orgType": "University",
@@ -1478,6 +1716,45 @@
     "technologyAreas": [
       "Computing",
       "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Ionomer-Free Electrodes for Ultrahigh Power Density Fuel Cells",
+    "organization": "Carnegie Mellon University (CMU)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Pittsburgh, PA",
+    "state": "PA",
+    "awardAmount": 3220309,
+    "awardFormatted": "3,220,309",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Rapid Advanced Geochemical Vectoring for Ore Body Evaluation ",
+    "organization": "Halliburton & Technology Partners LLC",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Spring, TX",
+    "state": "TX",
+    "awardAmount": 3200000,
+    "awardFormatted": "3,200,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
@@ -1650,23 +1927,23 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Integrated Lithium and Magnesium Recovery from Oil and Gas Produced Water ",
-    "organization": "Princeton Critical Minerals",
-    "orgType": "Private Company",
+    "title": "Rapid Adaptive Pre-Screening and Integrated Downhole Sensing for Rare Earth Elements (RAPID-REE) ",
+    "organization": "South Dakota School of Mines and Technology",
+    "orgType": "University",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "Newark, NJ",
-    "state": "NJ",
+    "location": "Rapid City, SD",
+    "state": "SD",
     "awardAmount": 3100000,
     "awardFormatted": "3,100,000",
-    "releaseDate": "Mar 17 2026",
-    "programName": "RECOVER",
-    "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
     "technologyAreas": [
       "Resources"
     ],
     "isKnownCompany": false,
-    "isPrivateCompany": true
+    "isPrivateCompany": false
   },
   {
     "title": "Complexion Engineered Nanocrystalline Tungsten Alloy Plasma Facing Materials for Long-Pulse Tokamak Operation",
@@ -1837,6 +2114,44 @@
     "isPrivateCompany": false
   },
   {
+    "title": "MAPS: Machine-guided Analysis of Phase-space for Strong Spins ",
+    "organization": "University of Oregon",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Eugene, OR",
+    "state": "OR",
+    "awardAmount": 3000000,
+    "awardFormatted": "3,000,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Needles in Materials Haystack: Physics-Guided Discovery of Powerful Rare-Earth Magnets ",
+    "organization": "University of Virginia",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Charlottesville, VA",
+    "state": "VA",
+    "awardAmount": 3000000,
+    "awardFormatted": "3,000,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Compact and Resilient Multiport Modular Converter for Next-Generation HVDC Stations ",
     "organization": "Georgia Institute of Technology (Georgia Tech)",
     "orgType": "University",
@@ -1856,32 +2171,13 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Low-Cost, Selective Iridium and Platinum Recovery from Mining and Produced Wastewaters via Porous Polymer Sorbent Processes ",
-    "organization": "ChemFinity Technologies",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Selected",
-    "location": "Brooklyn, NY",
-    "state": "NY",
-    "awardAmount": 3000000,
-    "awardFormatted": "3,000,000",
-    "releaseDate": "Mar 17 2026",
-    "programName": "RECOVER",
-    "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
-    "technologyAreas": [
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": true
-  },
-  {
-    "title": "Innovative Biocatalysts through Protein Engineering and Synthetic Biology for Efficient, Highly Selective, and Scalable Recovery of Rare Earth Elements ",
-    "organization": "University of California, Davis (UC Davis)",
+    "title": "Ammonia and Phosphorus Fractionation from Anaerobic Digesters with Ceramic Membrane Distillation",
+    "organization": "University of Connecticut",
     "orgType": "University",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "Davis, CA",
-    "state": "CA",
+    "location": "Storrs, CT",
+    "state": "CT",
     "awardAmount": 3000000,
     "awardFormatted": "3,000,000",
     "releaseDate": "Oct 30 2025",
@@ -1913,13 +2209,13 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Ammonia and Phosphorus Fractionation from Anaerobic Digesters with Ceramic Membrane Distillation",
-    "organization": "University of Connecticut",
+    "title": "Innovative Biocatalysts through Protein Engineering and Synthetic Biology for Efficient, Highly Selective, and Scalable Recovery of Rare Earth Elements ",
+    "organization": "University of California, Davis (UC Davis)",
     "orgType": "University",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "Storrs, CT",
-    "state": "CT",
+    "location": "Davis, CA",
+    "state": "CA",
     "awardAmount": 3000000,
     "awardFormatted": "3,000,000",
     "releaseDate": "Oct 30 2025",
@@ -1996,6 +2292,65 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Non-neutron Transmutation of Used Nuclear Fuel",
+    "organization": "Argonne National Laboratory (ANL)",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Lemont, IL",
+    "state": "IL",
+    "awardAmount": 3000000,
+    "awardFormatted": "3,000,000",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "SPIN: Strong Permanent-magnetic Intermetallic Nitrides",
+    "organization": "National Laboratory of the Rockies",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Golden, CO",
+    "state": "CO",
+    "awardAmount": 2999774,
+    "awardFormatted": "2,999,774",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Scalable Manufacturing of High-Entropy Alloy Catalysts for Ammonia Oxidation",
+    "organization": "HighT-Tech",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Rockville, MD",
+    "state": "MD",
+    "awardAmount": 2994607,
+    "awardFormatted": "2,994,607",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Manufacturing",
+      "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Catalyst Acceleration and Testing via AI and Language to Yield Scalable Transformations (CATALYST) ",
     "organization": "University of Rochester",
     "orgType": "University",
@@ -2070,6 +2425,25 @@
       "Resources",
       "Power Electronics",
       "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Directed Discovery of Ultra High-Performance Magnets ",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Oak Ridge, TN",
+    "state": "TN",
+    "awardAmount": 2984236,
+    "awardFormatted": "2,984,236",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -2279,6 +2653,25 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Multi-port iso-MMC: A Converter Station Architecture for Multi-directional Power Routing Electric Grid    Superhighway",
+    "organization": "University of Wisconsin-Madison (UW-Madison)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Madison, WI",
+    "state": "WI",
+    "awardAmount": 2900000,
+    "awardFormatted": "2,900,000",
+    "releaseDate": "Mar 17 2026",
+    "programName": "DC-GRIDS",
+    "programAcronym": "Disruptive DC Converters for Grid Resilient Infrastructure to Deliver Secure energy",
+    "technologyAreas": [
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Quantifying the Potential and Risks of Large-scale Macroalgae Cultivation and Purposeful Sequestration as a Viable CO2 Reduction (CDR) Strategy",
     "organization": "University of California, Santa Barbara (UC Santa Barbara)",
     "orgType": "University",
@@ -2314,6 +2707,25 @@
     "technologyAreas": [
       "Nuclear Fission",
       "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "GAMBIT: Guided AI for Magnetic Boride/carbide Intermetallic Technologies ",
+    "organization": "University of Houston",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Houston, TX",
+    "state": "TX",
+    "awardAmount": 2882166,
+    "awardFormatted": "2,882,166",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -2646,6 +3058,25 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Nitrogen and Phosphorus Recovery via Intensified Microbial Extraction (N-PRIME): A Biotechnological Approach for Valorization of Municipal Wastewater",
+    "organization": "Northwestern University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Chicago, IL",
+    "state": "IL",
+    "awardAmount": 2718183,
+    "awardFormatted": "2,718,183",
+    "releaseDate": "Oct 30 2025",
+    "programName": "RECOVER",
+    "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Self-powered Wireless Hybrid Density/Level Sensing with Differential Pressure Sensors for Safeguarding and Monitoring of Electrochemical Processing of Nuclear Spent Fuel",
     "organization": "University of North Texas (UNT)",
     "orgType": "University",
@@ -2708,6 +3139,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Manufacturing High-Yield Investment Castings with Minimal-Energy",
+    "organization": "General Electric (GE) Global Research",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Niskayuna, NY",
+    "state": "NY",
+    "awardAmount": 2696056,
+    "awardFormatted": "2,696,056",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Manufacturing",
+      "Industrial Efficiency"
+    ],
+    "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Rapid State of Health Diagnosis by Model-Enabled Pulse Form Sequence",
     "organization": "University of Michigan",
     "orgType": "University",
@@ -2723,6 +3174,25 @@
     "technologyAreas": [
       "Batteries",
       "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "MAGNUMS: Machine-learning Assisted Generation of Novel Ultra-strong Magnets via Synthesis ",
+    "organization": "Iowa State University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Ames, IA",
+    "state": "IA",
+    "awardAmount": 2677500,
+    "awardFormatted": "2,677,500",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -2868,25 +3338,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Robust and Regenerable Biosorbent for Selective Recovery of Rare Earth Elements from Aqueous Waste Streams",
-    "organization": "University of Illinois, Urbana-Champaign (UIUC)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Selected",
-    "location": "Champaign, IL",
-    "state": "IL",
-    "awardAmount": 2556969,
-    "awardFormatted": "2,556,969",
-    "releaseDate": "Mar 17 2026",
-    "programName": "RECOVER",
-    "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
-    "technologyAreas": [
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Achieving 1% Assay of Special Nuclear Materials in 2 Minutes with Microcalorimeter-Array Gamma-Ray Spectroscopy",
     "organization": "University of Colorado, Boulder (CU-Boulder)",
     "orgType": "University",
@@ -2966,9 +3417,28 @@
     "isPrivateCompany": true
   },
   {
+    "title": "High-Throughput Terahertz Time-Domain Spectroscopy for Rare Earth Element Sensing ",
+    "organization": "University of California, Los Angeles (UCLA)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Los Angeles, CA",
+    "state": "CA",
+    "awardAmount": 2500000,
+    "awardFormatted": "2,500,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Dual-use Converter-in-Fluid Integrated Vertical-stack kilo-ampere SiC Submodule Valve for Next-generation High-Density HVDC Converter Station ",
     "organization": "Virginia Polytechnic Institute and State University",
-    "orgType": "",
+    "orgType": "University",
     "orgWebsite": [],
     "status": "Selected",
     "location": "Blacksburg, VA",
@@ -2992,6 +3462,25 @@
     "status": "Selected",
     "location": "East Lansing, MI",
     "state": "MI",
+    "awardAmount": 2500000,
+    "awardFormatted": "2,500,000",
+    "releaseDate": "Mar 17 2026",
+    "programName": "DC-GRIDS",
+    "programAcronym": "Disruptive DC Converters for Grid Resilient Infrastructure to Deliver Secure energy",
+    "technologyAreas": [
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Dual-use Converter-in-Fluid Integrated Vertical-stack kilo-ampere SiC Submodule Valve for Next-generation High-Density HVDC Converter Station ",
+    "organization": "Virginia Polytechnic Institute and State University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Blacksburg, VA",
+    "state": "VA",
     "awardAmount": 2500000,
     "awardFormatted": "2,500,000",
     "releaseDate": "Mar 17 2026",
@@ -3173,6 +3662,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Energy Efficient Manufacturing of Lightweight Composite Architected Structures for Transporation Vehicles",
+    "organization": "University of Delaware (UD)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Newark, DE",
+    "state": "DE",
+    "awardAmount": 2500000,
+    "awardFormatted": "2,500,000",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Other - Transportation",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "TRIGER: Timed RF Integrated Gating for Energy Regulation",
     "organization": "RTX Technology Research Center",
     "orgType": "Private Company",
@@ -3259,23 +3768,61 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Selective Recovery of Critical Metals from Produced Water Using Engineered Ferritin Protein Nanocages",
-    "organization": "Carrollo Engineers, Inc.",
-    "orgType": "Private Company",
+    "title": "Quantum Accurate Machine Learning for Magnet Discovery ",
+    "organization": "Harvard University",
+    "orgType": "University",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "Costa Mesa, CA",
-    "state": "CA",
-    "awardAmount": 2423292,
-    "awardFormatted": "2,423,292",
-    "releaseDate": "Oct 30 2025",
-    "programName": "RECOVER",
-    "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 2461177,
+    "awardFormatted": "2,461,177",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
     "technologyAreas": [
       "Resources"
     ],
     "isKnownCompany": false,
-    "isPrivateCompany": true
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Powerful bulk magnets by accelerated computational discovery and solid-state fabrication",
+    "organization": "Massachusetts Institute of Technology (MIT)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 2450000,
+    "awardFormatted": "2,450,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Multimodal Generative AI for Ultra-Powerful Magnet Discovery ",
+    "organization": "Massachusetts Institute of Technology (MIT)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 2446484,
+    "awardFormatted": "2,446,484",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "Selective Recovery of Critical Metals from Produced Water Using Engineered Ferritin Protein Nanocages",
@@ -3312,6 +3859,25 @@
     "technologyAreas": [
       "Nuclear Fission",
       "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Searching and Validating New Magnetic Materials with Superior Performances",
+    "organization": "University of Minnesota (UMN)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Minneapolis, MN",
+    "state": "MN",
+    "awardAmount": 2413500,
+    "awardFormatted": "2,413,500",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -3392,6 +3958,26 @@
     "programName": "RECOVER",
     "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
     "technologyAreas": [],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Precipitation Strengthened Ni-Based Alloys for Liquid Salt Containment and Transport in Energy Systems",
+    "organization": "Oak Ridge National Laboratory (ORNL)",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Oak Ridge, TN",
+    "state": "TN",
+    "awardAmount": 2400000,
+    "awardFormatted": "2,400,000",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
     "isKnownCompany": false,
     "isPrivateCompany": false
   },
@@ -3544,6 +4130,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Nitrogen Fertilizer: New Strategies for Low-energy, High-Efficiency Production and Use",
+    "organization": "Massachusetts Institute of Technology (MIT)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 2256346,
+    "awardFormatted": "2,256,346",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Biomass",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Carbon-negative Ready-mix Concrete Building Components Through Direct Air Capture",
     "organization": "University of Wisconsin-Madison (UW-Madison)",
     "orgType": "University",
@@ -3564,6 +4170,26 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "Highly Scalable Virtual Power Plant (VPP) Platform for Mass Storage and EV Deployments",
+    "organization": "AutoGrid Systems, Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Redwood Shores, CA",
+    "state": "CA",
+    "awardAmount": 2250000,
+    "awardFormatted": "2,250,000",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Transmission & Distribution",
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
   },
   {
     "title": "All-Optical Control of Isolated High Voltage Power Systems Using Integrated Electronic, Photonic, and Microfabricated Sensing and Breaker Technology",
@@ -3588,6 +4214,28 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Assessment of the CO2 Mineralization Potential of  Tamarack's Ultramafic Bowl-Shaped Intrusion",
+    "organization": "Rio Tinto Services",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "South Jordan, UT",
+    "state": "UT",
+    "awardAmount": 2222202,
+    "awardFormatted": "2,222,202",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Other - Industrial Efficiency",
+      "Industrial Efficiency",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Superconducting Nb3Sn Cavities for Efficient and Reliable 10 MW Proton Linacs",
     "organization": "Jefferson Science Associates, LLC",
     "orgType": "",
@@ -3603,6 +4251,68 @@
     "technologyAreas": [
       "Nuclear Fission",
       "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "V6EM: UAV-Based Controlled-Source Electromagnetics for Rapid Ore Characterization ",
+    "organization": "Deep Blue Geophysics, LLC ",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Los Angeles, CA",
+    "state": "CA",
+    "awardAmount": 2200000,
+    "awardFormatted": "2,200,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "A Hybrid Electrochemical and Catalytic Compression System for Direct Generation of High-Pressure Hydrogen at 700 Bar",
+    "organization": "California Institute of Technology (Caltech)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Pasadena, CA",
+    "state": "CA",
+    "awardAmount": 2176574,
+    "awardFormatted": "2,176,574",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Fuels",
+      "Transportation",
+      "Storage",
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Surfactant-Free Multiphase Forming of Fiber Composite Products for Significant Reduction in Energy and CO2 Emission",
+    "organization": "Georgia Institute of Technology (Georgia Tech)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Atlanta, GA",
+    "state": "GA",
+    "awardAmount": 2161054,
+    "awardFormatted": "2,161,054",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Manufacturing",
+      "Industrial Efficiency",
+      "Other - Industrial Efficiency"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -3648,6 +4358,26 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "Remotely Installed Anchorages for Floating Offshore Wind and Other Offshore Renewables Cost Reduction",
+    "organization": "Makai Ocean Engineering",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Waimanalo, HI",
+    "state": "HI",
+    "awardAmount": 2105454,
+    "awardFormatted": "2,105,454",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Renewables",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
   },
   {
     "title": "Fast Electrowinning via Rotors for Responsible Iron Creation (FERRIC)",
@@ -3733,6 +4463,45 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Longer Wavelength Lasers for Inertial Fusion Energy with Laser-Plasma Instability Control: Machine Learning Optimum Spike Trains of Uneven Duration and Delay (STUD Pulses)",
+    "organization": "Polymath Research",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Pleasanton, CA",
+    "state": "CA",
+    "awardAmount": 2012032,
+    "awardFormatted": "2,012,032",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Nuclear Fusion",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Rapid In Situ Core Characterization Using Synthetic Biology ",
+    "organization": "Fieldstone Bio, Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Woburn, MA",
+    "state": "MA",
+    "awardAmount": 2000000,
+    "awardFormatted": "2,000,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "OMNI-TERMINAL: Power Electronics and AI Enabled Open Source MT-HVDC ",
     "organization": "OMNIPOWER, INC",
     "orgType": "Private Company",
@@ -3750,6 +4519,44 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
+  },
+  {
+    "title": "OMNI-TERMINAL: Power Electronics and AI Enabled Open Source MT-HVDC ",
+    "organization": "OMNIPOWER, INC",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Los Angeles, CA",
+    "state": "CA",
+    "awardAmount": 2000000,
+    "awardFormatted": "2,000,000",
+    "releaseDate": "Mar 17 2026",
+    "programName": "DC-GRIDS",
+    "programAcronym": "Disruptive DC Converters for Grid Resilient Infrastructure to Deliver Secure energy",
+    "technologyAreas": [
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Biomimetic Membranes for Electrochemical Nutrient and Mineral Recovery from Wastewaters",
+    "organization": "University of Texas at Austin (UT Austin)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Austin, TX",
+    "state": "TX",
+    "awardAmount": 2000000,
+    "awardFormatted": "2,000,000",
+    "releaseDate": "Oct 30 2025",
+    "programName": "RECOVER",
+    "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "CO2mposite: Recycling of CO2, Carbon Fiber Waste, and Biomaterials into Composite Panels for Lower Embodied Carbon Building Materials",
@@ -3940,6 +4747,25 @@
     "isPrivateCompany": false
   },
   {
+    "title": "BiDFET Enabled Scalable Modular Submodules for MT-HVDC Converter Station ",
+    "organization": "North Carolina   State University (NC State)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Raleigh, NC",
+    "state": "NC",
+    "awardAmount": 1900000,
+    "awardFormatted": "1,900,000",
+    "releaseDate": "Mar 17 2026",
+    "programName": "DC-GRIDS",
+    "programAcronym": "Disruptive DC Converters for Grid Resilient Infrastructure to Deliver Secure energy",
+    "technologyAreas": [
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Additive Manufacturing of Amorphous Metal Soft Magnetic Composites",
     "organization": "Stanford University",
     "orgType": "University",
@@ -4065,6 +4891,25 @@
       "Transportation",
       "Manufacturing",
       "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Large-Scale Hybrid HVDC/MTDC Assessment Platform for Converter Design and Interoperability",
+    "organization": "Argonne National Laboratory (ANL)",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Lemont, IL",
+    "state": "IL",
+    "awardAmount": 1800000,
+    "awardFormatted": "1,800,000",
+    "releaseDate": "Mar 17 2026",
+    "programName": "DC-GRIDS",
+    "programAcronym": "Disruptive DC Converters for Grid Resilient Infrastructure to Deliver Secure energy",
+    "technologyAreas": [
+      "Grid"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -4290,25 +5135,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "SELECT: Selective Extraction via Ligand-Enhanced Complexation and Thermal separation",
-    "organization": "Phoenix Tailings",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Selected",
-    "location": "Woburn, MA",
-    "state": "MA",
-    "awardAmount": 1600000,
-    "awardFormatted": "1,600,000",
-    "releaseDate": "Oct 30 2025",
-    "programName": "RECOVER",
-    "programAcronym": "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
-    "technologyAreas": [
-      "Resources"
-    ],
-    "isKnownCompany": true,
-    "isPrivateCompany": true
-  },
-  {
     "title": "Design of Complex High-Performance Armor Materials",
     "organization": "Lawrence Livermore National Laboratory (LLNL)",
     "orgType": "National Laboratory",
@@ -4448,6 +5274,64 @@
     "technologyAreas": [
       "Nuclear Fusion",
       "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Lithium Ion Bobbin Cells for Grid Scale Energy Storage",
+    "organization": "Columbia University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "New York, NY",
+    "state": "NY",
+    "awardAmount": 1498533,
+    "awardFormatted": "1,498,533",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Storage",
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "FUSION: 5f-electron Ultra-Strong Intermetallic Magnets through Optimized Novel Phases",
+    "organization": "University of Central Florida",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Orlando, FL",
+    "state": "FL",
+    "awardAmount": 1495378,
+    "awardFormatted": "1,495,378",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Uranium Based Permanent Magnets ",
+    "organization": "Idaho National Laboratory (INL)",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Idaho Falls, ID",
+    "state": "ID",
+    "awardAmount": 1493176,
+    "awardFormatted": "1,493,176",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -4596,6 +5480,25 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Acoustic Classification of Polymetallic Nodules on the Deep Ocean Seabed",
+    "organization": "University of Texas at Austin (UT Austin)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Austin, TX",
+    "state": "TX",
+    "awardAmount": 1300000,
+    "awardFormatted": "1,300,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "ROCKS",
+    "programAcronym": "Reliable Ore Characterization with Keystone Sensing",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Sub-One PUE through Silicon Cooling Efficiency",
     "organization": "JetCool Technologies",
     "orgType": "Private Company",
@@ -4673,6 +5576,26 @@
       "Manufacturing",
       "Industrial Efficiency",
       "Other - Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "A Zero-Emission Process for Direct Reduction of Iron by Hydrogen Plasma in a Rotary Kiln Reactor",
+    "organization": "Argonne National Laboratory (ANL)",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Lemont, IL",
+    "state": "IL",
+    "awardAmount": 1199998,
+    "awardFormatted": "1,199,998",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Other - Industrial Efficiency",
+      "Industrial Efficiency"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -4844,25 +5767,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Glass Innovations for Future Thermal Savings (GIFTS) ",
-    "organization": "Alfred University",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Selected",
-    "location": "Alfred, NY",
-    "state": "NY",
-    "awardAmount": 1000000,
-    "awardFormatted": "1,000,000",
-    "releaseDate": "Jan 22 2026",
-    "programName": "GLASING",
-    "programAcronym": "Galvanizing Leaps in Advanced Super INsulating Glass",
-    "technologyAreas": [
-      "Industrial Efficiency"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Innovative Technology Enabling Affordable R-10 Windows",
     "organization": "V-Glass, Inc. ",
     "orgType": "Private Company",
@@ -4880,6 +5784,25 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
+  },
+  {
+    "title": "Glass Innovations for Future Thermal Savings (GIFTS) ",
+    "organization": "Alfred University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Alfred, NY",
+    "state": "NY",
+    "awardAmount": 1000000,
+    "awardFormatted": "1,000,000",
+    "releaseDate": "Jan 22 2026",
+    "programName": "GLASING",
+    "programAcronym": "Galvanizing Leaps in Advanced Super INsulating Glass",
+    "technologyAreas": [
+      "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "Novel Electrolytic Direct Reduced Iron Production",
@@ -4944,6 +5867,30 @@
     ],
     "isKnownCompany": true,
     "isPrivateCompany": true
+  },
+  {
+    "title": "Mini-PulPS: Miniaturized Pulsed Power Systems for Mission Critical Applications",
+    "organization": "University of Houston",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Houston, TX",
+    "state": "TX",
+    "awardAmount": 965028,
+    "awardFormatted": "965,028",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Chemicals & Fuels",
+      "Resources",
+      "Other - Industrial Efficiency",
+      "Industrial Efficiency",
+      "Renewables",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "Strong and CO2 Consuming Living Wood for Buildings",
@@ -5090,6 +6037,44 @@
     "technologyAreas": [
       "Transmission & Distribution",
       "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Development of High Moment Magnets Through Rational Structure Mining ",
+    "organization": "Colorado School of Mines",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Golden, CO",
+    "state": "CO",
+    "awardAmount": 715592,
+    "awardFormatted": "715,592",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Motifs to Magnets: Ultra-strong Magnets Through Wyckoff and Lego-like Design ",
+    "organization": "Rensselaer Polytechnic Institute",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Troy, NY",
+    "state": "NY",
+    "awardAmount": 700000,
+    "awardFormatted": "700,000",
+    "releaseDate": "Jun 18 2026",
+    "programName": "MAGNITO",
+    "programAcronym": "Magnetic Acceleration Generating New Innovations and Tactical Outcomes",
+    "technologyAreas": [
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
