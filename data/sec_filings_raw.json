@@ -264,6 +264,15 @@
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000105",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "4",
     "date": "2026-06-05",
     "description": "xslF345X06/edgardoc.xml",
     "accessionNumber": "0002001011-26-000095",
@@ -2934,15 +2943,6 @@
     "isIPO": false
   },
   {
-    "company": "NuScale Power",
-    "ticker": "SMR",
-    "form": "4",
-    "date": "2026-02-17",
-    "description": "xslF345X05/wk-form4_1771363214.xml",
-    "accessionNumber": "0001124198-26-000016",
-    "isIPO": false
-  },
-  {
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
@@ -3224,6 +3224,24 @@
   {
     "company": "Centrus Energy",
     "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "leu-20260618.htm",
+    "accessionNumber": "0001628280-26-044386",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "leu-20260618.htm",
+    "accessionNumber": "0001628280-26-044360",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
     "form": "4",
     "date": "2026-05-11",
     "description": "xslF345X06/wk-form4_1778530670.xml",
@@ -3417,33 +3435,6 @@
     "date": "2025-08-19",
     "description": "leu-20250804.htm",
     "accessionNumber": "0001065059-25-000078",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2025-08-18",
-    "description": "leu-20250818.htm",
-    "accessionNumber": "0001065059-25-000075",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2025-08-14",
-    "description": "leu-20250813.htm",
-    "accessionNumber": "0001065059-25-000072",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "4",
-    "date": "2025-08-13",
-    "description": "xslF345X05/wk-form4_1755122854.xml",
-    "accessionNumber": "0001065059-25-000070",
     "isIPO": false
   },
   {
@@ -5123,6 +5114,15 @@
   {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "qbts-20260618.htm",
+    "accessionNumber": "0001907982-26-000090",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "4",
     "date": "2026-06-16",
     "description": "xslF345X06/wk-form4_1781645694.xml",
@@ -5427,12 +5427,12 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "DEF 14A",
-    "date": "2026-04-23",
-    "description": "qbts-20260422.htm",
-    "accessionNumber": "0001907982-26-000040",
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "rxrx-20260617.htm",
+    "accessionNumber": "0001601830-26-000080",
     "isIPO": false
   },
   {
@@ -5685,15 +5685,6 @@
     "date": "2026-03-04",
     "description": "xslF345X05/wk-form4_1772660322.xml",
     "accessionNumber": "0001601830-26-000045",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "10-K",
-    "date": "2026-02-25",
-    "description": "rxrx-20251231.htm",
-    "accessionNumber": "0001601830-26-000039",
     "isIPO": false
   },
   {
@@ -6420,6 +6411,69 @@
     "company": "Agrify Corporation",
     "ticker": "AGFY",
     "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080640.xml",
+    "accessionNumber": "0001971464-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080602.xml",
+    "accessionNumber": "0001938929-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080612.xml",
+    "accessionNumber": "0002055480-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080612.xml",
+    "accessionNumber": "0000926012-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080613.xml",
+    "accessionNumber": "0001834250-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080652.xml",
+    "accessionNumber": "0002044319-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "ea0295164-8k_rythm.htm",
+    "accessionNumber": "0001213900-26-069851",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
     "date": "2026-06-15",
     "description": "xslF345X06/form4-06152026_040601.xml",
     "accessionNumber": "0000926012-26-000002",
@@ -6639,69 +6693,6 @@
     "date": "2025-08-27",
     "description": "xslF345X05/ownership.xml",
     "accessionNumber": "0001213900-25-081184",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "8-K",
-    "date": "2025-08-27",
-    "description": "ea0254695-8k_agrify.htm",
-    "accessionNumber": "0001213900-25-081148",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "10-Q",
-    "date": "2025-08-08",
-    "description": "ea0249858-10q_agrify.htm",
-    "accessionNumber": "0001213900-25-073302",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2025-06-30",
-    "description": "xslF345X05/form4-06302025_040602.xml",
-    "accessionNumber": "0001415889-25-018503",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2025-06-24",
-    "description": "xslF345X05/form4-06242025_080604.xml",
-    "accessionNumber": "0001415889-25-018104",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2025-06-13",
-    "description": "xslF345X05/form4-06132025_090620.xml",
-    "accessionNumber": "0001415889-25-017252",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2025-06-13",
-    "description": "xslF345X05/form4-06132025_090600.xml",
-    "accessionNumber": "0001415889-25-017249",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2025-06-13",
-    "description": "xslF345X05/form4-06132025_050643.xml",
-    "accessionNumber": "0001415889-25-017247",
     "isIPO": false
   },
   {
@@ -8601,15 +8592,6 @@
     "date": "2025-08-18",
     "description": "xslF345X05/wk-form4_1755518462.xml",
     "accessionNumber": "0001786842-25-000068",
-    "isIPO": false
-  },
-  {
-    "company": "Tempus AI",
-    "ticker": "TEM",
-    "form": "10-Q",
-    "date": "2025-07-31",
-    "description": "vnt-20250627.htm",
-    "accessionNumber": "0001786842-25-000065",
     "isIPO": false
   },
   {

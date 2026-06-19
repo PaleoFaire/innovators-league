@@ -1,84 +1,83 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 60,
+    "sector": "Robotics & Manufacturing",
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Cargofy lands $6M to scale AI workers for logistics",
-      "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Wil",
-      "\u2018This will unveil the ground truth\u2019: Why the Anthropic ban c"
+      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int",
+      "Richtech Robotics launches livestream for ADAM AI-powered hu",
+      "Operating a Humanoid With Your Body Is a Hot Job in China\u2019s"
     ],
-    "fundingQ": "$170.9B",
+    "fundingQ": "$8.2B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 59,
-    "trend": "steady",
-    "catalysts": [
-      "Contriving Imaginary Gaps in Nuclear Deterrence",
-      "X-energy gets federal environmental approval for Texas nucle",
-      "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at"
-    ],
-    "fundingQ": "$4.8B",
-    "components": {
-      "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
+    "sector": "AI & Software",
     "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Operating a Humanoid With Your Body Is a Hot Job in China\u2019s",
-      "Autonomique deploys semi-humanoid robots and AI at Canadian",
-      "The Secret to Marathon-Winning Humanoid Robots"
+      "OpenAI is bringing on some big guns in the lead-up to its IP",
+      "Cargofy lands $6M to scale AI workers for logistics",
+      "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Wil"
     ],
-    "fundingQ": "$8.2B",
+    "fundingQ": "$170.9B",
     "components": {
       "funding": 100,
       "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 58,
+    "trend": "steady",
+    "catalysts": [
+      "Contriving Imaginary Gaps in Nuclear Deterrence",
+      "X-energy gets federal environmental approval for Texas nucle"
+    ],
+    "fundingQ": "$4.8B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-06-19"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 56,
+    "momentum": 52,
     "trend": "accelerating",
     "catalysts": [
-      "Former Palantir healthcare head raises \u00a310M for NHS AI agent",
-      "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi",
-      "The Secret to Marathon-Winning Humanoid Robots"
+      "Before SpaceX IPO, investors in China secretly acquired stak",
+      "DOJ intervenes on behalf of xAI in data center gas turbine l",
+      "Former Palantir healthcare head raises \u00a310M for NHS AI agent"
     ],
     "fundingQ": "$32.8B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
-      "market": 53
+      "market": 30
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 52,
     "trend": "accelerating",
     "catalysts": [
-      "NASA picks Eric Schmidt&#8217;s rocket company for Mars miss",
-      "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Wil",
-      "How SpaceX Matches the Micron Setup for a fast 10X to $2000."
+      "Before SpaceX IPO, investors in China secretly acquired stak",
+      "Richtech Robotics launches livestream for ADAM AI-powered hu",
+      "Blue Origin begins rebuilding New Glenn pad"
     ],
     "fundingQ": "$180.4B",
     "components": {
@@ -87,84 +86,82 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 49,
-    "trend": "steady",
-    "catalysts": [
-      "Mach Industries wins DIU contract for maritime, long-range s",
-      "Autonomous freight developer Einride goes public via SPAC",
-      "Waymo buys Apple&#8217;s abandoned self-driving car proving"
-    ],
-    "fundingQ": "$12.7B",
-    "components": {
-      "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Mach Industries wins DIU contract for maritime, long-range s"
-    ],
-    "fundingQ": "$1.8B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Mach Industries wins DIU contract for maritime, long-range s"
-    ],
-    "fundingQ": "$10.8B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 40,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Anthropic becomes first AI startup to join the Frontier carb",
       "Dozens of dust devils hidden in plain sight",
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
-      "market": 36
+      "market": 100
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 48,
+    "trend": "steady",
+    "catalysts": [
+      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int",
+      "Autonomous freight developer Einride goes public via SPAC"
+    ],
+    "fundingQ": "$12.7B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-19"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "Active supersonic & hypersonic ecosystem"
+    ],
+    "fundingQ": "$1.8B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-19"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "Active ocean & maritime ecosystem"
+    ],
+    "fundingQ": "$10.8B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-19"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 24,
     "trend": "rising",
     "catalysts": [
-      "Relativity Space to privately develop Mars orbiter mission",
-      "DOJ Rushes To Help xAI Pollute The Skies Over Mississippi",
-      "Autonomique deploys semi-humanoid robots and AI at Canadian"
+      "Richtech Robotics launches livestream for ADAM AI-powered hu",
+      "Blue Origin begins rebuilding New Glenn pad",
+      "Relativity Space to privately develop Mars orbiter mission"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -173,14 +170,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 22,
     "trend": "declining",
     "catalysts": [
-      "\u2018Dangerous\u2019 AI Models Are Coming No Matter What",
+      "Richtech Robotics launches livestream for ADAM AI-powered hu",
       "Anthropic suspends top AI models after US export-control ord"
     ],
     "fundingQ": "$0M",
@@ -190,7 +187,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "Former Palantir healthcare head raises \u00a310M for NHS AI agent",
+      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
+      "<a href=\"/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-a"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 15,
+      "hiring": 0,
+      "market": 75
+    },
+    "lastUpdated": "2026-06-19"
   },
   {
     "sector": "Transportation",
@@ -206,74 +221,56 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 18,
+    "sector": "Quantum Computing",
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Former Palantir healthcare head raises \u00a310M for NHS AI agent",
-      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
-      "<a href=\"/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-a"
+      "Honda and QuantumScape (QS) team up to make &#8216;game-chan"
     ],
-    "fundingQ": "$230M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 9,
-      "news": 15,
+      "funding": 0,
+      "news": 5,
       "hiring": 0,
-      "market": 55
+      "market": 66
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int",
       "Built Robotics, Penn xLAB to develop physical AI for constru",
       "<a href=\"/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-a"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 12,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Cargofy lands $6M to scale AI workers for logistics",
-      "Anthropic&#8217;s Claude narrows gap with ChatGPT among Sing"
+      "Cargofy lands $6M to scale AI workers for logistics"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 48
-    },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   }
 ]

@@ -7,10 +7,10 @@
     "changeNum": 15,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 6,
+    "activityIndex": 8,
     "billsTracked": 2,
-    "rulesTracked": 4,
-    "description": "2 bill(s) + 4 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 6 \u2014 +15% relative trend.",
+    "rulesTracked": 6,
+    "description": "2 bill(s) + 6 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 8 \u2014 +15% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -26,25 +26,25 @@
       },
       {
         "type": "federal_register",
-        "title": "Nebraska Public Power District; Cooper Nuclear Station; Notice of Intent To Cond",
+        "title": "Southern Nuclear Operating Company, Inc.; Edwin I. Hatch Nuclear Plant, Units 1 ",
         "agency": "",
         "date": ""
       },
       {
         "type": "federal_register",
-        "title": "Palisades SMR, LLC; Pioneer Units 1 and 2; Phased Construction Permit Applicatio",
+        "title": "In the Matter of STP Nuclear Operating Company; South Texas Project, Units 1 and",
         "agency": "",
         "date": ""
       },
       {
         "type": "federal_register",
-        "title": "Holtec Decommissioning International, LLC; Oyster Creek Nuclear Generating Stati",
+        "title": "737th Meeting of the Advisory Committee on Reactor Safeguards (ACRS)",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "category": "Quantum Computing",
@@ -67,7 +67,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -90,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   },
   {
     "category": "Space & Aerospace",
@@ -113,6 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
   }
 ]

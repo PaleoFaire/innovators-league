@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T10:27:33.990156Z",
+  "generated_at": "2026-06-19T10:45:05.284882Z",
   "takes": [
     {
       "author": "Tech.eu",
@@ -42,30 +42,49 @@
       "signal_type": "ipo"
     },
     {
-      "author": "SpaceNews",
+      "author": "TechCrunch",
       "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX shares rise nearly 20% in historic IPO",
-      "date": "Fri, 12 Ju",
+      "company": "OpenAI",
+      "text": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "date": "Thu, 18 Ju",
       "source": "news",
-      "source_url": "https://spacenews.com/spacex-shares-rise-nearly-20-in-historic-ipo/",
+      "source_url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
       "signal_type": "ipo"
     },
     {
-      "author": "Crunchbase News",
+      "author": "Ars Technica",
       "role": "Industry signal",
       "company": "SpaceX",
-      "text": "SpaceX Shares Close Up 19% After Largest IPO Of All Time",
-      "date": "Fri, 12 Ju",
+      "text": "Before SpaceX IPO, investors in China secretly acquired stakes",
+      "date": "Thu, 18 Ju",
       "source": "news",
-      "source_url": "https://news.crunchbase.com/public/spacex-record-breaking-ipo-spcx/",
-      "signal_type": "funding"
+      "source_url": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Defense One",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "Before SpaceX IPO, investors in China secretly acquired stakes",
+      "date": "Thu, 18 Ju",
+      "source": "news",
+      "source_url": "https://www.defenseone.com/threats/2026/06/spacex-ipo-investors-china-secretly-acquired-stakes/414275/",
+      "signal_type": "contract"
+    },
+    {
+      "author": "breakingdefense",
+      "role": "Executive commentary",
+      "company": "Divergent",
+      "text": "3D printing company Divergent to produce Tomahawk structure at new factory, CEO says",
+      "date": "2026-06-17",
+      "source": "press",
+      "source_url": "https://breakingdefense.com/2026/06/3d-printing-company-divergent-to-produce-tomahawk-structure-at-new-factory-ceo-says/"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 6,
-    "from_press": 0
+    "from_news": 7,
+    "from_press": 1
   }
 }

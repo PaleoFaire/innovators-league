@@ -241,18 +241,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "FA228023C0007",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 17911000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2023-04-20",
-    "endDate": "2025-12-31",
-    "description": "ANDURIL SWARMING- SWARMING DEV AND INTEGRATION EVENTS"
-  },
-  {
-    "company": "Anduril",
     "awardId": "H9240226FE009",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 16981160.0,
@@ -1090,6 +1078,18 @@
     "startDate": "2025-08-04",
     "endDate": "2026-08-03",
     "description": "MSV PULSAR BUYOUT"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "FA868826FB002",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 664630.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-02-20",
+    "endDate": "2026-06-20",
+    "description": "TANKER PLATFORM AGNOSTIC KINETIC SELF DEFENSE STUDY"
   },
   {
     "company": "Anduril",
@@ -1441,18 +1441,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "FA228023C0007",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 17911000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2023-04-20",
-    "endDate": "2025-12-31",
-    "description": "ANDURIL SWARMING- SWARMING DEV AND INTEGRATION EVENTS"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "H9240226FE009",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 16981160.0,
@@ -2290,6 +2278,18 @@
     "startDate": "2025-08-04",
     "endDate": "2026-08-03",
     "description": "MSV PULSAR BUYOUT"
+  },
+  {
+    "company": "Anduril Industries",
+    "awardId": "FA868826FB002",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 664630.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-02-20",
+    "endDate": "2026-06-20",
+    "description": "TANKER PLATFORM AGNOSTIC KINETIC SELF DEFENSE STUDY"
   },
   {
     "company": "Anduril Industries",
@@ -6181,18 +6181,6 @@
   },
   {
     "company": "Skydio",
-    "awardId": "140D0425F0601",
-    "recipientName": "SKYDIO, INC",
-    "amount": 28268.7,
-    "agency": "Department of the Interior",
-    "subAgency": "Departmental Offices",
-    "awardType": null,
-    "startDate": "2025-06-18",
-    "endDate": "2026-06-17",
-    "description": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL"
-  },
-  {
-    "company": "Skydio",
     "awardId": "12639526F0626",
     "recipientName": "SKYDIO, INC",
     "amount": 27429.7,
@@ -6939,7 +6927,7 @@
     "company": "Axiom Space",
     "awardId": "80JSC022FA103",
     "recipientName": "AXIOM SPACE INC",
-    "amount": 385265576.0,
+    "amount": 395433324.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -7023,7 +7011,7 @@
     "company": "Sierra Space",
     "awardId": "80HQTR19C0019",
     "recipientName": "SIERRA SPACE CORP",
-    "amount": 11259254.0,
+    "amount": 12494436.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -7489,6 +7477,18 @@
   },
   {
     "company": "BlackSky",
+    "awardId": "FA238524CB039",
+    "recipientName": "BLACKSKY GEOSPATIAL SOLUTIONS, LLC",
+    "amount": 3646498.89,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2024-10-01",
+    "endDate": "2028-04-01",
+    "description": "BLACKSKY DIRECT TO PHASE 2"
+  },
+  {
+    "company": "BlackSky",
     "awardId": "FA945324C0001",
     "recipientName": "BLACKSKY GEOSPATIAL SOLUTIONS, LLC",
     "amount": 3538098.0,
@@ -7522,18 +7522,6 @@
     "startDate": "2024-09-18",
     "endDate": "2027-09-11",
     "description": "BASE"
-  },
-  {
-    "company": "BlackSky",
-    "awardId": "FA238524CB039",
-    "recipientName": "BLACKSKY GEOSPATIAL SOLUTIONS, LLC",
-    "amount": 1649990.89,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-10-01",
-    "endDate": "2026-04-01",
-    "description": "BLACKSKY DIRECT TO PHASE 2"
   },
   {
     "company": "BlackSky",
@@ -8002,6 +7990,18 @@
     "startDate": "2025-04-16",
     "endDate": "2025-06-20",
     "description": "BOSTON DYNAMICS REFURBISHED SPOT ROBOT ENTERPRISE PACKAGES, SPOT ENTERPRISE PLATFORM WITH ARMS TO INCLUDE SAMSUNG TAB ACTIVE 3 TABLETS, CHARGERS, BATTERIES, SPARES, SPOT CALIBRATION BOARDS, AND SPOT C"
+  },
+  {
+    "company": "Boston Dynamics",
+    "awardId": "1333ND24PNB730286",
+    "recipientName": "BOSTON DYNAMICS, INC.",
+    "amount": 91880.0,
+    "agency": "Department of Commerce",
+    "subAgency": "National Institute of Standards and Technology",
+    "awardType": null,
+    "startDate": "2024-08-01",
+    "endDate": "2027-07-31",
+    "description": "SPOT ROBOT AND ARM MAINTENANCE SERVICE AS WELL AS SPARE PARTS"
   },
   {
     "company": "Boston Dynamics",

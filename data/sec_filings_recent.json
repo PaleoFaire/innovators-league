@@ -183,6 +183,15 @@
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000105",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "4",
     "date": "2026-06-05",
     "description": "xslF345X06/edgardoc.xml",
     "accessionNumber": "0002001011-26-000095",
@@ -2009,6 +2018,24 @@
   {
     "company": "Centrus Energy",
     "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "leu-20260618.htm",
+    "accessionNumber": "0001628280-26-044386",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "leu-20260618.htm",
+    "accessionNumber": "0001628280-26-044360",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
     "form": "4",
     "date": "2026-05-11",
     "description": "xslF345X06/wk-form4_1778530670.xml",
@@ -2835,12 +2862,12 @@
     "isIPO": false
   },
   {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "8-K",
-    "date": "2026-03-20",
-    "description": "tm269465d1_8k.htm",
-    "accessionNumber": "0001104659-26-032720",
+    "date": "2026-06-18",
+    "description": "qbts-20260618.htm",
+    "accessionNumber": "0001907982-26-000090",
     "isIPO": false
   },
   {
@@ -3150,12 +3177,12 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "DEF 14A",
-    "date": "2026-04-23",
-    "description": "qbts-20260422.htm",
-    "accessionNumber": "0001907982-26-000040",
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "rxrx-20260617.htm",
+    "accessionNumber": "0001601830-26-000080",
     "isIPO": false
   },
   {
@@ -3801,6 +3828,69 @@
     "company": "Agrify Corporation",
     "ticker": "AGFY",
     "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080640.xml",
+    "accessionNumber": "0001971464-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080602.xml",
+    "accessionNumber": "0001938929-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080612.xml",
+    "accessionNumber": "0002055480-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080612.xml",
+    "accessionNumber": "0000926012-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080613.xml",
+    "accessionNumber": "0001834250-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
+    "date": "2026-06-18",
+    "description": "xslF345X06/form4-06182026_080652.xml",
+    "accessionNumber": "0002044319-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "8-K",
+    "date": "2026-06-18",
+    "description": "ea0295164-8k_rythm.htm",
+    "accessionNumber": "0001213900-26-069851",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "4",
     "date": "2026-06-15",
     "description": "xslF345X06/form4-06152026_040601.xml",
     "accessionNumber": "0000926012-26-000002",
@@ -4209,51 +4299,6 @@
     "date": "2026-03-31",
     "description": "tlsi-20260330.htm",
     "accessionNumber": "0001628280-26-022124",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2026-03-20",
-    "description": "xslF345X06/wk-form4_1774038352.xml",
-    "accessionNumber": "0001628280-26-020190",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2026-03-20",
-    "description": "xslF345X06/wk-form4_1774038346.xml",
-    "accessionNumber": "0001628280-26-020189",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2026-03-20",
-    "description": "xslF345X06/wk-form4_1774038338.xml",
-    "accessionNumber": "0001628280-26-020188",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2026-03-20",
-    "description": "xslF345X06/wk-form4_1774038332.xml",
-    "accessionNumber": "0001628280-26-020187",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2026-03-20",
-    "description": "xslF345X06/wk-form4_1774038323.xml",
-    "accessionNumber": "0001628280-26-020186",
     "isIPO": false
   },
   {
