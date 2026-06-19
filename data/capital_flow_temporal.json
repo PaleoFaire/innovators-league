@@ -1,170 +1,12 @@
 {
-  "generatedAt": "2026-06-19T10:54:10+00:00",
+  "generatedAt": "2026-06-19T14:19:05+00:00",
   "matrix": {
-    "humanoid-robotics": {
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": 1470101,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Humanoid",
-            "amount": 1470101,
-            "date": "2026-06-17",
-            "source": "formd",
-            "investors": []
-          },
-          {
-            "name": "Neura Robotics",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Tether",
-              "Qualcomm Technologies",
-              "Amazon",
-              "NVIDIA",
-              "imec.xpa"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "robotics-cobots-warehouse": {
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": 52500000,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "AMP Robotics",
-            "amount": 52500000,
-            "date": "2026-06-17",
-            "source": "formd",
-            "investors": []
-          },
-          {
-            "name": "Orangewood Labs",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Gecko Robotics",
-            "amount": null,
-            "date": "2025-07",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "RobCo",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Sequoia Capital",
-              "Kindred Capital",
-              "Promus Ventures",
-              "Lightspeed Venture Partners",
-              "Lingotto Innovation",
-              "Greenfield Partners",
-              "Leitmotif",
-              "The Friedkin Group",
-              "Torsten Reil"
-            ]
-          }
-        ],
-        "investors": [
-          "Lightspeed Venture Partners",
-          "Sequoia Capital"
-        ]
-      },
-      "2025-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "GrayMatter Robotics",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": []
-          },
-          {
-            "name": "Collaborative Robotics",
-            "amount": null,
-            "date": "2025-04",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-drone-military": {
       "2026-Q2": {
-        "deals": 2,
+        "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
         "companies": [
-          {
-            "name": "Shield AI",
-            "amount": 0,
-            "date": "2026-06-16",
-            "source": "formd",
-            "investors": [
-              "Andreessen Horowitz",
-              "Breyer Capital",
-              "Silicon Valley Bank",
-              "U.S. Innovation Technology Fund (USIT)",
-              "Riot Ventures"
-            ]
-          },
           {
             "name": "Anduril Industries",
             "amount": null,
@@ -186,7 +28,6 @@
           "Founders Fund",
           "General Catalyst",
           "Lux Capital",
-          "Riot Ventures",
           "Valor Equity Partners"
         ]
       },
@@ -637,6 +478,55 @@
         "investors": []
       }
     },
+    "humanoid-robotics": {
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Tether",
+              "Qualcomm Technologies",
+              "Amazon",
+              "NVIDIA",
+              "imec.xpa"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "brain-computer-interface": {
       "2026-Q1": {
         "deals": 1,
@@ -845,6 +735,88 @@
           "Lowercarbon Capital",
           "Valor Equity Partners"
         ]
+      }
+    },
+    "robotics-cobots-warehouse": {
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Gecko Robotics",
+            "amount": null,
+            "date": "2025-07",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "RobCo",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Sequoia Capital",
+              "Kindred Capital",
+              "Promus Ventures",
+              "Lightspeed Venture Partners",
+              "Lingotto Innovation",
+              "Greenfield Partners",
+              "Leitmotif",
+              "The Friedkin Group",
+              "Torsten Reil"
+            ]
+          }
+        ],
+        "investors": [
+          "Lightspeed Venture Partners",
+          "Sequoia Capital"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "GrayMatter Robotics",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "Collaborative Robotics",
+            "amount": null,
+            "date": "2025-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Orangewood Labs",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
       }
     },
     "autonomy-delivery-logistics": {
@@ -1098,24 +1070,6 @@
     }
   },
   "vcAttribution": {
-    "Riot Ventures": {
-      "2026-Q2": [
-        {
-          "company": "Shield AI",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-06-16",
-          "source": "formd"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Shield AI",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1246,6 +1200,16 @@
           "company": "Bedrock Robotics",
           "cluster": "robotics-construction-mining",
           "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Riot Ventures": {
+      "2026-Q1": [
+        {
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1448,8 +1412,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 53,
-    "totalUSDSold": 53970101,
+    "totalDealsTracked": 50,
+    "totalUSDSold": 0,
     "uniqueClusters": 33,
     "uniqueQuarters": 8,
     "uniqueVCs": 18,
