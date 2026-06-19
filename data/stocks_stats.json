@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -18.42,
+      "avg_change": -17.32,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.1,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 1.68,
       "count": 7
     },
     "nuclear": {
@@ -101,15 +101,15 @@
       -19.81
     ],
     [
+      "ASRHF",
+      "Astroscale",
+      -24.43
+    ],
+    [
       "LUNR",
       "Intuitive Machines",
       -25.42
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      -27.39
     ]
   ],
-  "lastUpdated": "2026-06-18 20:30:42"
+  "lastUpdated": "2026-06-19 04:47:29"
 }
