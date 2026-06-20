@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T10:16:15+00:00",
+  "generatedAt": "2026-06-20T08:43:59+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 1,
@@ -51,10 +51,9 @@
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
+            0,
+            1,
             3
-          ],
-          "short_name": [
-            0
           ],
           "founded_year": [
             3
@@ -73,7 +72,7 @@
             1
           ]
         },
-        "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a nonprofit incubator/accelerator founded by MIT in 2016. Wikipedia sources refer to 'Engine Ventures' as the VC fund entity that separated in 2023. No current AUM figure or specific flagship fund name found in sources. No current senior partner names explicitly listed on firm's website or Wikipedia."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a nonprofit incubator and accelerator founded by MIT in 2016. Sources do not provide current AUM for Engine Ventures, flagship fund name, or named senior partners. Database entry shows founded_year as 2023 (correct per source [3]: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures'), but AUM of $1B+ and flagship fund name cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -139,7 +138,7 @@
           "url": "https://news.crunchbase.com/ma/spcx-acquires-ai-coding-cursor-largest-startup-ma-deal-2026/"
         }
       ],
-      "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a nonprofit incubator/accelerator founded by MIT in 2016. Wikipedia sources refer to 'Engine Ventures' as the VC fund entity that separated in 2023. No current AUM figure or specific flagship fund name found in sources. No current senior partner names explicitly listed on firm's website or Wikipedia."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a nonprofit incubator and accelerator founded by MIT in 2016. Sources do not provide current AUM for Engine Ventures, flagship fund name, or named senior partners. Database entry shows founded_year as 2023 (correct per source [3]: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures'), but AUM of $1B+ and flagship fund name cannot be verified from provided sources."
     }
   ],
   "unverifiable": []

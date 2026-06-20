@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-19T10:15:57+00:00",
+  "generatedAt": "2026-06-20T08:43:44+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
   "cohortSize": 37,
   "newExtractionsThisRun": 37,
   "summary": {
-    "cleared": 31,
-    "changesProposed": 6,
+    "cleared": 32,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
@@ -21,65 +21,231 @@
     "Blue Origin",
     "Built Robotics",
     "Cape",
-    "Dawn Aerospace",
     "Deterrence",
     "Dexterity",
     "Durin",
-    "Einride",
+    "Fervo Energy",
     "Hadrian",
-    "Harbinger",
     "Humanoid",
     "Mara",
     "Orbital Composites",
-    "PLD Space",
     "Palantir",
     "Percepto",
+    "QuantumScape",
     "Relativity Space",
+    "Scale AI",
+    "Solar Foods",
     "Solid Power",
     "Standard Nuclear",
     "Tenstorrent",
     "Waymo",
     "X-Energy",
+    "Xanadu Quantum Technologies",
     "ideaForge"
   ],
   "changesProposed": [
     {
-      "name": "Fervo Energy",
+      "name": "Dawn Aerospace",
       "current": {
-        "name": "Fervo Energy",
-        "founder": "Tim Latimer, Jack Norbeck",
-        "location": "Houston, Texas, U.S.",
+        "name": "Dawn Aerospace",
+        "founder": "Stefan Powell, Jeroen Wink, James Powell, Robert Werner, Tobias Knop",
+        "location": "Delft, Netherlands",
         "founded": 2017,
-        "fundingStage": "IPO",
-        "totalRaised": "$1.5B+",
-        "website": "https://fervoenergy.com"
+        "fundingStage": "Series B",
+        "totalRaised": "$25M",
+        "website": "https://dawnaerospace.com"
       },
       "verified": {
-        "name": "Fervo Energy",
-        "description": "Geothermal energy company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques. Operates Project Red in Nevada and is developing Cape Station in Utah.",
+        "name": "Dawn Aerospace",
+        "description": "Space transportation company building non-toxic, refuelable satellite propulsion systems and a reusable uncrewed suborbital spaceplane (Aurora). The company manufactures chemical propulsion systems for satellites and is developing in-space refueling capabilities.",
         "founders": [
-          "Tim Latimer",
-          "Jack Norbeck"
+          "Stefan Powell",
+          "Jeroen Wink",
+          "James Powell",
+          "Robert Werner",
+          "Tobias Knop"
         ],
-        "location": "Houston, Texas, U.S.",
+        "location": "Delft, Netherlands and Christchurch, New Zealand",
         "founded_year": 2017,
-        "current_stage": "Public",
-        "total_raised": "$1.5B+",
+        "current_stage": null,
+        "total_raised": "$25M",
         "valuation": null,
-        "investors": [
-          "B Capital",
-          "Breakthrough Energy",
-          "Centaurus Capital",
-          "Congruent Ventures"
-        ],
-        "website": "https://fervoenergy.com",
+        "investors": null,
+        "website": "https://dawnaerospace.com",
         "sources_per_field": {
           "name": [
             0,
+            1,
             2
           ],
           "description": [
             0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "total_raised": [
+            3
+          ]
+        },
+        "notes": "Company operates from four global locations (Netherlands, New Zealand, France, USA) as of August 2025. The Aurora spaceplane achieved supersonic flight on November 12, 2024, reaching Mach 1.1 and 82,000 ft altitude. Wikipedia lists 120+ employees (August 2025); company website states 130+ people. Current stage not explicitly stated in sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Delft, Netherlands",
+          "verified": "Delft, Netherlands and Christchurch, New Zealand",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://dawnaerospace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://dawnaerospace.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dawn_Aerospace"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/dawn-aerospace-raises-25-million/"
+        }
+      ],
+      "notes": "Company operates from four global locations (Netherlands, New Zealand, France, USA) as of August 2025. The Aurora spaceplane achieved supersonic flight on November 12, 2024, reaching Mach 1.1 and 82,000 ft altitude. Wikipedia lists 120+ employees (August 2025); company website states 130+ people. Current stage not explicitly stated in sources."
+    },
+    {
+      "name": "ICON",
+      "current": {
+        "name": "ICON",
+        "founder": "Jason Ballard, Alex Le Roux, Evan Loomis",
+        "location": "Austin, TX",
+        "founded": 2017,
+        "fundingStage": "Series C",
+        "totalRaised": "$450M+",
+        "website": "https://icon.com"
+      },
+      "verified": {
+        "name": null,
+        "description": null,
+        "founders": [
+          "Kennan Frost"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Founders Fund",
+          "Mark Chen",
+          "Saquon Barkley",
+          "Roman Khan"
+        ],
+        "website": "https://icon.com",
+        "sources_per_field": {
+          "founders": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Sources describe two different companies both named 'Icon': (1) Icon the Human Admaker - a UGC ad creation platform founded by Kennan Frost (previously founded Skio); (2) ICON - a 3D concrete printing technology company mentioned in Wikipedia disambiguation page. The provided database entry appears to describe the 3D-printed homes company, but the sources provided (0-1) only document the UGC ad platform. Source [2] Wikipedia lists 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is about Solar Foods, not Icon. Unable to verify the database entry claims about 3D-printed homes, DoD/NASA contracts, $450M raised, $2B valuation, or the founders Jason Ballard, Alex Le Roux, and Evan Loomis from these sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Jason Ballard, Alex Le Roux, Evan Loomis",
+          "verified": "Kennan Frost",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://icon.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://icon.com/team"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ICON"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/06/19/solar-foods-bags-77-8m-package-500m-defence-and-dual-use-growth-fund-edm-launched-and-warning-for-europe-s-silicon-photonics/"
+        }
+      ],
+      "notes": "Sources describe two different companies both named 'Icon': (1) Icon the Human Admaker - a UGC ad creation platform founded by Kennan Frost (previously founded Skio); (2) ICON - a 3D concrete printing technology company mentioned in Wikipedia disambiguation page. The provided database entry appears to describe the 3D-printed homes company, but the sources provided (0-1) only document the UGC ad platform. Source [2] Wikipedia lists 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is about Solar Foods, not Icon. Unable to verify the database entry claims about 3D-printed homes, DoD/NASA contracts, $450M raised, $2B valuation, or the founders Jason Ballard, Alex Le Roux, and Evan Loomis from these sources."
+    },
+    {
+      "name": "Rivian",
+      "current": {
+        "name": "Rivian",
+        "founder": "R. J. Scaringe",
+        "location": "Irvine, California",
+        "founded": 2009,
+        "fundingStage": "Public",
+        "totalRaised": "$13.5B",
+        "website": "https://rivian.com"
+      },
+      "verified": {
+        "name": "Rivian Automotive, Inc.",
+        "description": "American electric vehicle manufacturer founded in 2009 that produces an electric sport utility vehicle (SUV), a pickup truck (R1T), and an electric delivery van on a skateboard platform.",
+        "founders": [
+          "RJ Scaringe"
+        ],
+        "location": "Irvine, California, U.S.",
+        "founded_year": 2009,
+        "current_stage": "Public",
+        "total_raised": "$13.5B",
+        "valuation": null,
+        "investors": [
+          "Amazon",
+          "Abdul Latif Jameel",
+          "Volkswagen Group",
+          "Ford Motor Company"
+        ],
+        "website": "https://rivian.com",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
             2
           ],
           "founders": [
@@ -92,7 +258,7 @@
             2
           ],
           "current_stage": [
-            0
+            2
           ],
           "total_raised": [
             2
@@ -101,119 +267,25 @@
             2
           ],
           "website": [
-            2
-          ]
-        },
-        "notes": "Company went public in May 2026 (referenced in source 0 newsroom items dated May 17, 2026). Wikipedia source [2] confirms founders as Tim Latimer (CEO, mechanical engineer) and Dr. Jack Norbeck (CTO). Series E funding of $462M noted in November 2025 per source [2]. IPO date mentioned in source [0] but specific valuation at IPO not found in provided sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "IPO",
-          "verified": "Public",
-          "sources": [
             0
           ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://fervoenergy.com"
         },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://fervoenergy.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
-        },
-        {
-          "idx": 3,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
-        }
-      ],
-      "notes": "Company went public in May 2026 (referenced in source 0 newsroom items dated May 17, 2026). Wikipedia source [2] confirms founders as Tim Latimer (CEO, mechanical engineer) and Dr. Jack Norbeck (CTO). Series E funding of $462M noted in November 2025 per source [2]. IPO date mentioned in source [0] but specific valuation at IPO not found in provided sources."
-    },
-    {
-      "name": "QuantumScape",
-      "current": {
-        "name": "QuantumScape",
-        "founder": "Jagdeep Singh, Tim Holme, Fritz Prinz",
-        "location": "San Jose, CA",
-        "founded": 2010,
-        "fundingStage": "Public",
-        "totalRaised": "$2B+",
-        "website": "https://quantumscape.com"
-      },
-      "verified": {
-        "name": "QuantumScape",
-        "description": "American company researching and developing solid-state rechargeable lithium metal batteries for use in electric cars. The company's batteries are designed to enable greater energy density, faster charging and enhanced safety.",
-        "founders": [
-          "Jagdeep Singh",
-          "Tim Holme",
-          "Fritz Prinz"
-        ],
-        "location": "San Jose, California, U.S.",
-        "founded_year": 2010,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Volkswagen Group",
-          "Bill Gates",
-          "Qatar Investment Authority"
-        ],
-        "website": "https://www.quantumscape.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            0,
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company went public in 2020 through SPAC merger with Kensington Capital Acquisition Corp, listing on NASDAQ under symbol QS. Founded at Stanford University on May 14, 2010."
+        "notes": "Founded in Rockledge, Florida in 2009 as Mainstream Motors, renamed to Avera Automotive, then Rivian Automotive in 2011. Company went public on Nasdaq (RIVN) on November 10, 2021. Wikipedia article states the company raised 'over US$13.5 billion in financing following its initial public offering in November 2021.' Valuation at IPO was $66.5 billion at offering price but $100 billion on first trading day; no current verified valuation provided in sources."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "San Jose, CA",
-          "verified": "San Jose, California, U.S.",
+          "field": "founder",
+          "current": "R. J. Scaringe",
+          "verified": "RJ Scaringe",
           "sources": [
-            0,
-            1,
+            2
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Irvine, California",
+          "verified": "Irvine, California, U.S.",
+          "sources": [
             2
           ]
         }
@@ -222,138 +294,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://quantumscape.com"
+          "url": "https://rivian.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://quantumscape.com/about"
+          "url": "https://rivian.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/QuantumScape"
+          "url": "https://en.wikipedia.org/wiki/Rivian"
         },
         {
           "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/06/18/honda-quantumscape-qs-team-up-solid-state-batteries/"
+          "src": "news (CleanTechnica)",
+          "url": "https://cleantechnica.com/2026/06/19/rivian-to-challenge-tesla-fsd-later-this-year-ceo-thinks/"
         }
       ],
-      "notes": "Company went public in 2020 through SPAC merger with Kensington Capital Acquisition Corp, listing on NASDAQ under symbol QS. Founded at Stanford University on May 14, 2010."
-    },
-    {
-      "name": "Scale AI",
-      "current": {
-        "name": "Scale AI",
-        "founder": "Alexandr Wang, Lucy Guo",
-        "location": "San Francisco, CA",
-        "founded": 2016,
-        "fundingStage": "Private",
-        "totalRaised": "$15.9B",
-        "website": "https://scale.com"
-      },
-      "verified": {
-        "name": "Scale AI",
-        "description": "An artificial intelligence infrastructure and software company that provides high-quality training data, RLHF services, LLM evaluation, and full-stack AI systems for enterprises and governments. The company powers data annotation and AI model development for frontier AI applications.",
-        "founders": [
-          "Alexandr Wang",
-          "Lucy Guo"
-        ],
-        "location": "San Francisco, California",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": "$29B",
-        "investors": [
-          "Meta Platforms",
-          "Accel",
-          "Founders Fund",
-          "Index Ventures",
-          "Tiger Global",
-          "Dragoneer Investment Group",
-          "Greenoaks",
-          "Amazon"
-        ],
-        "website": "https://scale.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "valuation": [
-            1,
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Lucy Guo was fired in 2018 according to Wikipedia but is still listed as founder. Wikipedia lists current ownership as Meta Platforms (49%). The database entry's total_raised of $15.9B cannot be verified from these sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://scale.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://scale.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Scale_AI"
-        },
-        {
-          "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/06/18/cargofy-lands-6m-to-scale-ai-workers-for-logistics/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/06/17/flagright-secures-125m-series-a-to-scale-ai-compliance-platform/"
-        }
-      ],
-      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Lucy Guo was fired in 2018 according to Wikipedia but is still listed as founder. Wikipedia lists current ownership as Meta Platforms (49%). The database entry's total_raised of $15.9B cannot be verified from these sources."
+      "notes": "Founded in Rockledge, Florida in 2009 as Mainstream Motors, renamed to Avera Automotive, then Rivian Automotive in 2011. Company went public on Nasdaq (RIVN) on November 10, 2021. Wikipedia article states the company raised 'over US$13.5 billion in financing following its initial public offering in November 2021.' Valuation at IPO was $66.5 billion at offering price but $100 billion on first trading day; no current verified valuation provided in sources."
     },
     {
       "name": "SpaceX",
@@ -368,7 +327,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider. The company operates three divisions: Space, Connectivity (Starlink), and Artificial Intelligence.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink, a communications satellite company.",
         "founders": [
           "Elon Musk"
         ],
@@ -410,7 +369,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry references a $1.5T valuation and 'Preparing for IPO' but Wikipedia shows the IPO has already occurred. Database claims of 165 Falcon 9 launches in 2025 and Starlink serving 9M+ customers cannot be verified from provided sources."
+        "notes": "Wikipedia indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry claims an IPO valuation of $1.5T and stage of 'IPO' (preparing), but Wikipedia states the IPO already occurred and was the largest in history. No recent valuation figure found in sources to verify the $1.5T or $800B claims. Database entry about '165 Falcon 9 launches in 2025' and '81% of all mass' cannot be verified from these sources."
       },
       "changes": [
         {
@@ -430,21 +389,21 @@
         },
         {
           "idx": 1,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/06/tesla-spacex-merger-announcement-and-vote-could-happen-over-next-3-months.html"
+        },
+        {
+          "idx": 2,
           "src": "news (Ars Technica)",
           "url": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/"
         },
         {
-          "idx": 2,
+          "idx": 3,
           "src": "news (Defense One)",
           "url": "https://www.defenseone.com/threats/2026/06/spacex-ipo-investors-china-secretly-acquired-stakes/414275/"
-        },
-        {
-          "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/anthropic-used-cursor-use-data-to-get-ahead-so-spacexai-will-use-cursor-to-get-ahead.html"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry references a $1.5T valuation and 'Preparing for IPO' but Wikipedia shows the IPO has already occurred. Database claims of 165 Falcon 9 launches in 2025 and Starlink serving 9M+ customers cannot be verified from provided sources."
+      "notes": "Wikipedia indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry claims an IPO valuation of $1.5T and stage of 'IPO' (preparing), but Wikipedia states the IPO already occurred and was the largest in history. No recent valuation figure found in sources to verify the $1.5T or $800B claims. Database entry about '165 Falcon 9 launches in 2025' and '81% of all mass' cannot be verified from these sources."
     },
     {
       "name": "Varda Space Industries",
@@ -471,8 +430,8 @@
         "valuation": null,
         "investors": [
           "Khosla Ventures",
-          "Lux Capital",
           "Founders Fund",
+          "Lux Capital",
           "Caffeinated Capital",
           "General Catalyst",
           "Also Capital"
@@ -511,7 +470,7 @@
             2
           ]
         },
-        "notes": "Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry claims Series C with $187M, but sources only confirm Series B. W-2 landed in South Australia on 28 February 2025; W-3 launched 14 March 2025 and reentered 14 May 2025; W-4 launched 24 June 2025."
+        "notes": "Wikipedia indicates $42M Series A in July 2021 and $90M Series B in April 2024, totaling $131M verified. Database entry claims $187M Series C, but sources only document Series B. No Series C funding found in provided sources. Database claim of 5 missions in 2025 partially verified: W-2 (January 2025), W-3 (March 2025), W-4 (June 2025) confirmed in Wikipedia, but only 3 missions explicitly detailed."
       },
       "changes": [
         {
@@ -545,97 +504,7 @@
           "url": "https://www.fiercebiotech.com/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-abcellera"
         }
       ],
-      "notes": "Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry claims Series C with $187M, but sources only confirm Series B. W-2 landed in South Australia on 28 February 2025; W-3 launched 14 March 2025 and reentered 14 May 2025; W-4 launched 24 June 2025."
-    },
-    {
-      "name": "Xanadu Quantum Technologies",
-      "current": {
-        "name": "Xanadu Quantum Technologies",
-        "founder": "Christian Weedbrook",
-        "location": "Toronto, Canada",
-        "founded": 2016,
-        "fundingStage": "Public",
-        "totalRaised": "$245M",
-        "website": "https://xanadu.ai"
-      },
-      "verified": {
-        "name": "Xanadu Quantum Technologies",
-        "description": "Canadian quantum computing hardware and software company that develops cloud-accessible photonic quantum computers and open-source software for quantum machine learning.",
-        "founders": [
-          "Christian Weedbrook"
-        ],
-        "location": "Toronto, Ontario, Canada",
-        "founded_year": 2016,
-        "current_stage": "Public",
-        "total_raised": "$245M",
-        "valuation": null,
-        "investors": [
-          "Bessemer Venture Partners",
-          "Capricorn Investment Group",
-          "Tiger Global Management",
-          "In-Q-Tel",
-          "Business Development Bank of Canada",
-          "OMERS Ventures",
-          "Georgian",
-          "Real Ventures",
-          "Golden Ventures",
-          "Radical Ventures"
-        ],
-        "website": "https://xanadu.ai",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Traded on TSX: XNDU and Nasdaq: XNDU. Source [1] is about Mistral AI and is not relevant to Xanadu."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Toronto, Canada",
-          "verified": "Toronto, Ontario, Canada",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Xanadu_Quantum_Technologies"
-        },
-        {
-          "idx": 1,
-          "src": "news (Sifted)",
-          "url": "https://sifted.eu/articles/mistral-arthur-mensch-open-source-anthropic/"
-        }
-      ],
-      "notes": "Traded on TSX: XNDU and Nasdaq: XNDU. Source [1] is about Mistral AI and is not relevant to Xanadu."
+      "notes": "Wikipedia indicates $42M Series A in July 2021 and $90M Series B in April 2024, totaling $131M verified. Database entry claims $187M Series C, but sources only document Series B. No Series C funding found in provided sources. Database claim of 5 missions in 2025 partially verified: W-2 (January 2025), W-3 (March 2025), W-4 (June 2025) confirmed in Wikipedia, but only 3 missions explicitly detailed."
     }
   ],
   "unverifiable": []

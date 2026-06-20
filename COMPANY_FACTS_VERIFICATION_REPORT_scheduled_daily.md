@@ -1,6 +1,6 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-06-19T10:15:57+00:00  
+**Generated:** 2026-06-20T08:43:44+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
@@ -13,61 +13,56 @@
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 31 | 84% |
-| 🔧 Changes proposed | 6 | 16% |
+| ✅ Cleared (data matches sources) | 32 | 86% |
+| 🔧 Changes proposed | 5 | 14% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (5 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Fervo Energy
+### Dawn Aerospace
 
-- **`fundingStage`:** `IPO` → `Public`  
-  Sources: [company_website](https://fervoenergy.com)
+- **`location`:** `Delft, Netherlands` → `Delft, Netherlands and Christchurch, New Zealand`  
+  Sources: [company_about](https://dawnaerospace.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Dawn_Aerospace)
 
-  **Notes:** Company went public in May 2026 (referenced in source 0 newsroom items dated May 17, 2026). Wikipedia source [2] confirms founders as Tim Latimer (CEO, mechanical engineer) and Dr. Jack Norbeck (CTO). Series E funding of $462M noted in November 2025 per source [2]. IPO date mentioned in source [0] but specific valuation at IPO not found in provided sources.
+  **Notes:** Company operates from four global locations (Netherlands, New Zealand, France, USA) as of August 2025. The Aurora spaceplane achieved supersonic flight on November 12, 2024, reaching Mach 1.1 and 82,000 ft altitude. Wikipedia lists 120+ employees (August 2025); company website states 130+ people. Current stage not explicitly stated in sources.
 
-### QuantumScape
+### ICON
 
-- **`location`:** `San Jose, CA` → `San Jose, California, U.S.`  
-  Sources: [company_website](https://quantumscape.com) · [company_about](https://quantumscape.com/about) · [wikipedia](https://en.wikipedia.org/wiki/QuantumScape)
+- **`founder`:** `Jason Ballard, Alex Le Roux, Evan Loomis` → `Kennan Frost`  
+  Sources: [company_website](https://icon.com)
 
-  **Notes:** Company went public in 2020 through SPAC merger with Kensington Capital Acquisition Corp, listing on NASDAQ under symbol QS. Founded at Stanford University on May 14, 2010.
+  **Notes:** Sources describe two different companies both named 'Icon': (1) Icon the Human Admaker - a UGC ad creation platform founded by Kennan Frost (previously founded Skio); (2) ICON - a 3D concrete printing technology company mentioned in Wikipedia disambiguation page. The provided database entry appears to describe the 3D-printed homes company, but the sources provided (0-1) only document the UGC ad platform. Source [2] Wikipedia lists 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is about Solar Foods, not Icon. Unable to verify the database entry claims about 3D-printed homes, DoD/NASA contracts, $450M raised, $2B valuation, or the founders Jason Ballard, Alex Le Roux, and Evan Loomis from these sources.
 
-### Scale AI
+### Rivian
 
-- **`location`:** `San Francisco, CA` → `San Francisco, California`  
-  Sources: [company_about](https://scale.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
+- **`founder`:** `R. J. Scaringe` → `RJ Scaringe`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rivian)
+- **`location`:** `Irvine, California` → `Irvine, California, U.S.`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rivian)
 
-  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Lucy Guo was fired in 2018 according to Wikipedia but is still listed as founder. Wikipedia lists current ownership as Meta Platforms (49%). The database entry's total_raised of $15.9B cannot be verified from these sources.
+  **Notes:** Founded in Rockledge, Florida in 2009 as Mainstream Motors, renamed to Avera Automotive, then Rivian Automotive in 2011. Company went public on Nasdaq (RIVN) on November 10, 2021. Wikipedia article states the company raised 'over US$13.5 billion in financing following its initial public offering in November 2021.' Valuation at IPO was $66.5 billion at offering price but $100 billion on first trading day; no current verified valuation provided in sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry references a $1.5T valuation and 'Preparing for IPO' but Wikipedia shows the IPO has already occurred. Database claims of 165 Falcon 9 launches in 2025 and Starlink serving 9M+ customers cannot be verified from provided sources.
+  **Notes:** Wikipedia indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry claims an IPO valuation of $1.5T and stage of 'IPO' (preparing), but Wikipedia states the IPO already occurred and was the largest in history. No recent valuation figure found in sources to verify the $1.5T or $800B claims. Database entry about '165 Falcon 9 launches in 2025' and '81% of all mass' cannot be verified from these sources.
 
 ### Varda Space Industries
 
 - **`fundingStage`:** `Series C` → `Series B`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Varda_Space_Industries)
 
-  **Notes:** Wikipedia indicates Series B funding of $90M announced in April 2024. Database entry claims Series C with $187M, but sources only confirm Series B. W-2 landed in South Australia on 28 February 2025; W-3 launched 14 March 2025 and reentered 14 May 2025; W-4 launched 24 June 2025.
-
-### Xanadu Quantum Technologies
-
-- **`location`:** `Toronto, Canada` → `Toronto, Ontario, Canada`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Xanadu_Quantum_Technologies)
-
-  **Notes:** Traded on TSX: XNDU and Nasdaq: XNDU. Source [1] is about Mistral AI and is not relevant to Xanadu.
+  **Notes:** Wikipedia indicates $42M Series A in July 2021 and $90M Series B in April 2024, totaling $131M verified. Database entry claims $187M Series C, but sources only document Series B. No Series C funding found in provided sources. Database claim of 5 missions in 2025 partially verified: W-2 (January 2025), W-3 (March 2025), W-4 (June 2025) confirmed in Wikipedia, but only 3 missions explicitly detailed.
 
 ---
 
-## ✅ Cleared (31 companies)
+## ✅ Cleared (32 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -84,28 +79,28 @@ Sample (first 30):
 - Blue Origin
 - Built Robotics
 - Cape
-- Dawn Aerospace
 - Deterrence
 - Dexterity
 - Durin
-- Einride
+- Fervo Energy
 - Hadrian
-- Harbinger
 - Humanoid
 - Mara
 - Orbital Composites
-- PLD Space
 - Palantir
 - Percepto
+- QuantumScape
 - Relativity Space
+- Scale AI
+- Solar Foods
 - Solid Power
 - Standard Nuclear
 - Tenstorrent
 - Waymo
 - X-Energy
-- *...and 1 more*
+- *...and 2 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-06-19T10:15:57+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-06-20T08:43:44+00:00*
