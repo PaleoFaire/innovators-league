@@ -1,39 +1,21 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 59,
-    "trend": "accelerating",
-    "catalysts": [
-      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int",
-      "Richtech Robotics launches livestream for ADAM AI-powered hu",
-      "Operating a Humanoid With Your Body Is a Hot Job in China\u2019s"
-    ],
-    "fundingQ": "$8.2B",
-    "components": {
-      "funding": 100,
-      "news": 55,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-19"
-  },
-  {
-    "sector": "AI & Software",
     "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI is bringing on some big guns in the lead-up to its IP",
-      "Cargofy lands $6M to scale AI workers for logistics",
-      "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Wil"
+      "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks",
+      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int",
+      "Richtech Robotics launches livestream for ADAM AI-powered hu"
     ],
-    "fundingQ": "$170.9B",
+    "fundingQ": "$8.2B",
     "components": {
       "funding": 100,
       "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Nuclear Energy",
@@ -50,7 +32,43 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 55,
+    "trend": "accelerating",
+    "catalysts": [
+      "OpenAI is bringing on some big guns in the lead-up to its IP",
+      "Cargofy lands $6M to scale AI workers for logistics",
+      "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Wil"
+    ],
+    "fundingQ": "$170.9B",
+    "components": {
+      "funding": 100,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-20"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 55,
+    "trend": "accelerating",
+    "catalysts": [
+      "Tesla SpaceX Merger Announcement and Vote Could Happen Over",
+      "Solar Foods bags \u20ac77.8M package, \u20ac500M defence and dual-use",
+      "Rocket Report: Rebuild begins at Blue Origin launch pad; Rel"
+    ],
+    "fundingQ": "$180.4B",
+    "components": {
+      "funding": 100,
+      "news": 80,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Defense & Security",
@@ -68,32 +86,14 @@
       "hiring": 0,
       "market": 30
     },
-    "lastUpdated": "2026-06-19"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 52,
-    "trend": "accelerating",
-    "catalysts": [
-      "Before SpaceX IPO, investors in China secretly acquired stak",
-      "Richtech Robotics launches livestream for ADAM AI-powered hu",
-      "Blue Origin begins rebuilding New Glenn pad"
-    ],
-    "fundingQ": "$180.4B",
-    "components": {
-      "funding": 100,
-      "news": 70,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Climate & Energy",
     "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Dozens of dust devils hidden in plain sight",
+      "Solar Foods bags \u20ac77.8M package, \u20ac500M defence and dual-use",
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
     "fundingQ": "$1.3B",
@@ -103,24 +103,23 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 48,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int",
-      "Autonomous freight developer Einride goes public via SPAC"
+      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -136,7 +135,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Ocean & Maritime",
@@ -152,16 +151,50 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "Solar Foods bags \u20ac77.8M package, \u20ac500M defence and dual-use",
+      "Richtech Robotics launches livestream for ADAM AI-powered hu",
+      "Anthropic suspends top AI models after US export-control ord"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-06-20"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 24,
     "trend": "rising",
     "catalysts": [
+      "Tesla SpaceX Merger Announcement and Vote Could Happen Over",
       "Richtech Robotics launches livestream for ADAM AI-powered hu",
-      "Blue Origin begins rebuilding New Glenn pad",
-      "Relativity Space to privately develop Mars orbiter mission"
+      "Blue Origin begins rebuilding New Glenn pad"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -170,24 +203,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-19"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Richtech Robotics launches livestream for ADAM AI-powered hu",
-      "Anthropic suspends top AI models after US export-control ord"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Biotech & Health",
@@ -205,57 +221,42 @@
       "hiring": 0,
       "market": 75
     },
-    "lastUpdated": "2026-06-19"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 14,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "Do dragons dream of electric sheep?",
       "Honda and QuantumScape (QS) team up to make &#8216;game-chan"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 66
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 14,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
+      "Tesla SpaceX Merger Announcement and Vote Could Happen Over",
       "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int",
-      "Built Robotics, Penn xLAB to develop physical AI for constru",
-      "<a href=\"/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-a"
+      "Built Robotics, Penn xLAB to develop physical AI for constru"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -271,6 +272,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-19"
+    "lastUpdated": "2026-06-20"
   }
 ]

@@ -147,7 +147,7 @@
     "company": "Anduril",
     "awardId": "FA882024FB003",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 25006126.32,
+    "amount": 26006126.32,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,
@@ -1347,7 +1347,7 @@
     "company": "Anduril Industries",
     "awardId": "FA882024FB003",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 25006126.32,
+    "amount": 26006126.32,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,
@@ -2725,6 +2725,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "12314426F0217",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 27921024.0,
+    "agency": "Department of Agriculture",
+    "subAgency": "Office of the Chief Financial Officer",
+    "awardType": null,
+    "startDate": "2026-06-22",
+    "endDate": "2027-06-21",
+    "description": "PALANTIR SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) SECURE NETWORK STARLIGHT PLATFORM IN SUPPORT OF USDA FOOD AND NUTRITION ADMINISTRATION"
+  },
+  {
+    "company": "Palantir",
     "awardId": "W900KK25FA125",
     "recipientName": "PALANTIR USG INC",
     "amount": 26743465.76,
@@ -3061,6 +3073,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "47QACA26F0278",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 6746802.0,
+    "agency": "General Services Administration",
+    "subAgency": "Federal Acquisition Service",
+    "awardType": null,
+    "startDate": "2026-06-18",
+    "endDate": "2027-06-17",
+    "description": "COVID RELIEF LOANS AND GRANTS ANALYSIS AND ADJUDICATION AND GCBD CERTIFICATION COMPLIANCE AND FRAUD ANALYSIS"
+  },
+  {
+    "company": "Palantir",
     "awardId": "2023H225F00144",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 6594996.0,
@@ -3373,6 +3397,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W9128Z25FA010",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 2480000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-09-22",
+    "endDate": "2026-06-20",
+    "description": "PALANTIR PLATFORM EVALUATION LICENSES FOR DISA FINANCIAL OPERATIONS IN ACCORDANCE WITH THE ARMY PALANTIR ENTERPRISE AGREEMENT IDIQ CONTRACT W519TC-25-D-0039. ALL TERMS AND CONDITIONS OF W519TC-25-D-00"
+  },
+  {
+    "company": "Palantir",
     "awardId": "205AE925F00178",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 2385980.5,
@@ -3430,18 +3466,6 @@
     "startDate": "2025-03-16",
     "endDate": "2026-03-15",
     "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING ITEMS IN SUPPORT OF THE ARMY CAPABILITY DROP 2 SYSTEM: FIELD SERVICE ENGINEER SUPPORT FOR CONUS, GERMANY, AND PACOM."
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W9128Z25FA010",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 2000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-09-22",
-    "endDate": "2026-03-21",
-    "description": "PALANTIR PLATFORM EVALUATION LICENSES FOR DISA FINANCIAL OPERATIONS IN ACCORDANCE WITH THE ARMY PALANTIR ENTERPRISE AGREEMENT IDIQ CONTRACT W519TC-25-D-0039. ALL TERMS AND CONDITIONS OF W519TC-25-D-00"
   },
   {
     "company": "Palantir",
@@ -3696,30 +3720,6 @@
     "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE INTELLIGENCE SYSTEMS AND ANALYTICS CAPABILITY DROP 1 CAPABILITY: HYDRA ENGINEERING CHANGE PROPOSAL."
   },
   {
-    "company": "Palantir",
-    "awardId": "W56KGY25F0125",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 374972.13,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-07-29",
-    "endDate": "2025-10-27",
-    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE ARMY INTELLIGENCE APPLICATIONS, ALL SOURCE II: HYDRA ENGINEERING CHANGE PROPOSAL"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W56KGY25F0068",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 319001.6,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-03-14",
-    "endDate": "2025-11-30",
-    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE CAPABILITY DROP (CD) 2 DATA FABRIC AND ANALYTICS REQUIREMENT: 2 LOW COMPLEXITY DATA INTEGRATION AND 2 EXERCISE SUPPORT."
-  },
-  {
     "company": "Palantir Technologies",
     "awardId": "W911QX24F0053",
     "recipientName": "PALANTIR USG INC",
@@ -3922,6 +3922,18 @@
     "startDate": "2025-09-30",
     "endDate": "2026-09-29",
     "description": "NATIONAL CENTER FOR VETERANS ANALYSIS AND STATISTICS PLATFORM"
+  },
+  {
+    "company": "Palantir Technologies",
+    "awardId": "12314426F0217",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 27921024.0,
+    "agency": "Department of Agriculture",
+    "subAgency": "Office of the Chief Financial Officer",
+    "awardType": null,
+    "startDate": "2026-06-22",
+    "endDate": "2027-06-21",
+    "description": "PALANTIR SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) SECURE NETWORK STARLIGHT PLATFORM IN SUPPORT OF USDA FOOD AND NUTRITION ADMINISTRATION"
   },
   {
     "company": "Palantir Technologies",
@@ -4225,6 +4237,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "47QACA26F0278",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 6746802.0,
+    "agency": "General Services Administration",
+    "subAgency": "Federal Acquisition Service",
+    "awardType": null,
+    "startDate": "2026-06-18",
+    "endDate": "2027-06-17",
+    "description": "COVID RELIEF LOANS AND GRANTS ANALYSIS AND ADJUDICATION AND GCBD CERTIFICATION COMPLIANCE AND FRAUD ANALYSIS"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "2023H225F00144",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 6594996.0,
@@ -4537,6 +4561,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W9128Z25FA010",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 2480000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-09-22",
+    "endDate": "2026-06-20",
+    "description": "PALANTIR PLATFORM EVALUATION LICENSES FOR DISA FINANCIAL OPERATIONS IN ACCORDANCE WITH THE ARMY PALANTIR ENTERPRISE AGREEMENT IDIQ CONTRACT W519TC-25-D-0039. ALL TERMS AND CONDITIONS OF W519TC-25-D-00"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "205AE925F00178",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 2385980.5,
@@ -4594,18 +4630,6 @@
     "startDate": "2025-03-16",
     "endDate": "2026-03-15",
     "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING ITEMS IN SUPPORT OF THE ARMY CAPABILITY DROP 2 SYSTEM: FIELD SERVICE ENGINEER SUPPORT FOR CONUS, GERMANY, AND PACOM."
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W9128Z25FA010",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 2000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-09-22",
-    "endDate": "2026-03-21",
-    "description": "PALANTIR PLATFORM EVALUATION LICENSES FOR DISA FINANCIAL OPERATIONS IN ACCORDANCE WITH THE ARMY PALANTIR ENTERPRISE AGREEMENT IDIQ CONTRACT W519TC-25-D-0039. ALL TERMS AND CONDITIONS OF W519TC-25-D-00"
   },
   {
     "company": "Palantir Technologies",
@@ -4894,30 +4918,6 @@
     "startDate": "2026-01-05",
     "endDate": "2026-04-04",
     "description": "SBA FRAUD PREVENTION PILOT AND BOOTCAMP"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "12314426F0120",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 250000.0,
-    "agency": "Department of Agriculture",
-    "subAgency": "Office of the Chief Financial Officer",
-    "awardType": null,
-    "startDate": "2026-04-06",
-    "endDate": "2026-06-18",
-    "description": "SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) FRAUD IDENTIFICATION AND CASE WORKFLOW PLATFORM PILOT PROGRAM"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W912CM26FA009",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 188093.15,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-03-02",
-    "endDate": "2026-09-29",
-    "description": "PALANTIR- MAVEN SMART SYSTEMS (MSS) FIELD SERVICE REPRESENTATIVE (FSR) SUPPORT FOR FORT KNOX, FIFTH CORP"
   },
   {
     "company": "Space Exploration Technologies",
@@ -7820,7 +7820,7 @@
     "subAgency": "Defense Logistics Agency",
     "awardType": null,
     "startDate": "2024-02-27",
-    "endDate": "2026-08-20",
+    "endDate": "2024-10-28",
     "description": "8510471321!COMPUTER SUBASSEMBL"
   },
   {
