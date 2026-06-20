@@ -1,63 +1,63 @@
 // Auto-generated news signals
-// Last updated: 2026-06-20T09:23:37.277Z
+// Last updated: 2026-06-20T11:24:01.923Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1781947417277,
+    "id": 1781954641923,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla SpaceX Merger Announcement and Vote Could Happen Over Next 3 Months",
     "source": "Next Big Future",
-    "time": "2h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/06/tesla-spacex-merger-announcement-and-vote-could-happen-over-next-3-months.html"
   },
   {
-    "id": 1781947417278,
+    "id": 1781954641924,
     "type": "hire",
     "company": "Rivian",
     "headline": "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks",
     "source": "CleanTechnica",
-    "time": "5h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/06/19/rivian-to-challenge-tesla-fsd-later-this-year-ceo-thinks/"
   },
   {
-    "id": 1781947417279,
+    "id": 1781954641925,
     "type": "funding",
     "company": "Solar Foods",
     "headline": "Solar Foods bags €77.8M package, €500M defence and dual-use growth fund EDM launched, and warning for Europe's silicon p",
     "source": "Tech.eu",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": true,
     "link": "https://tech.eu/2026/06/19/solar-foods-bags-77-8m-package-500m-defence-and-dual-use-growth-fund-edm-launched-and-warning-for-europe-s-silicon-photonics/"
   },
   {
-    "id": 1781947417280,
+    "id": 1781954641926,
     "type": "milestone",
     "company": "Blue Origin",
     "headline": "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars",
     "source": "Ars Technica Space",
-    "time": "19h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/"
   },
   {
-    "id": 1781947417281,
+    "id": 1781954641927,
     "type": "news",
     "company": "Electric Sheep",
     "headline": "Do dragons dream of electric sheep?",
     "source": "Inside Quantum Technology",
-    "time": "20h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.insidequantumtechnology.com/news-archive/do-dragons-dream-of-electric-sheep/"
   },
   {
-    "id": 1781947417282,
+    "id": 1781954641928,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "OpenAI is bringing on some big guns in the lead-up to its IPO",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/"
   },
   {
-    "id": 1781947417283,
+    "id": 1781954641929,
     "type": "news",
     "company": "QuantumScape",
     "headline": "Honda and QuantumScape (QS) team up to make &#8216;game-changing&#8217; solid-state batteries",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/06/18/honda-quantumscape-qs-team-up-solid-state-batteries/"
   },
   {
-    "id": 1781947417284,
+    "id": 1781954641930,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Before SpaceX IPO, investors in China secretly acquired stakes",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/"
   },
   {
-    "id": 1781947417285,
+    "id": 1781954641931,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Before SpaceX IPO, investors in China secretly acquired stakes",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/threats/2026/06/spacex-ipo-investors-china-secretly-acquired-stakes/414275/"
   },
   {
-    "id": 1781947417286,
+    "id": 1781954641932,
     "type": "news",
     "company": "xAI",
     "headline": "DOJ intervenes on behalf of xAI in data center gas turbine lawsuit",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.utilitydive.com/news/doj-intervenes-xai-data-center-gas-turbine-lawsuit/823267/"
   },
   {
-    "id": 1781947417287,
+    "id": 1781954641933,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Into Freeway Construction Zones",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/waymo-recalls-robotaxis-over-risk-theyll-drive-at-speed-into-freeway-construction-zones/"
   },
   {
-    "id": 1781947417288,
+    "id": 1781954641934,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "Richtech Robotics launches livestream for ADAM AI-powered humanoid",
@@ -134,29 +134,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/richtech-robotics-launches-livestream-adam-ai-powered-humanoid/"
   },
   {
-    "id": 1781947417289,
+    "id": 1781954641935,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin begins rebuilding New Glenn pad",
     "source": "SpaceNews",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/blue-origin-begins-rebuilding-new-glenn-pad/"
   },
   {
-    "id": 1781947417290,
+    "id": 1781954641936,
     "type": "funding",
     "company": "Palantir",
     "headline": "Former Palantir healthcare head raises £10M for NHS AI agent startup",
     "source": "Tech.eu",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/06/18/former-palantir-healthcare-head-raises-16m-for-nhs-ai-agent-startup/"
   },
   {
-    "id": 1781947417291,
+    "id": 1781954641937,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Cargofy lands $6M to scale AI workers for logistics",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/06/18/cargofy-lands-6m-to-scale-ai-workers-for-logistics/"
   },
   {
-    "id": 1781947417292,
+    "id": 1781954641938,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Will Use Cursor to Get Ahead",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/06/anthropic-used-cursor-use-data-to-get-ahead-so-spacexai-will-use-cursor-to-get-ahead.html"
   },
   {
-    "id": 1781947417293,
+    "id": 1781954641939,
     "type": "news",
     "company": "Anthropic",
     "headline": "‘This will unveil the ground truth’: Why the Anthropic ban could benefit European AI",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/anthropic-ban-domyn-uljan-sharka/"
   },
   {
-    "id": 1781947417294,
+    "id": 1781954641940,
     "type": "hire",
     "company": "SpaceX",
     "headline": "How SpaceX Matches the Micron Setup for a fast 10X to $2000. Revenue multipliers for Next Levels for SpaceX",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/06/how-spacex-matches-the-micron-setup-for-a-fast-10x-to-2000-revenue-multipliers-for-next-levels-for-spacex.html"
   },
   {
-    "id": 1781947417295,
+    "id": 1781954641941,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Going for Orbit in August and September",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/06/spacex-starship-going-for-orbit-in-august-and-september.html"
   },
   {
-    "id": 1781947417296,
+    "id": 1781954641942,
     "type": "ipo",
     "company": "Relativity Space",
     "headline": "Relativity Space to privately develop Mars orbiter mission",
