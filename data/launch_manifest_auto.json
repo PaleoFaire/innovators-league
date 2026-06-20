@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-06-19",
-    "vehicle": "Falcon 9 Block 5 | NROL-179",
-    "payload": "NROL-179",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/5d4099bf-a0be-4f54-b236-b6ab3aed4146/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-06-21",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-28",
     "payload": "Starlink Group 17-28",
@@ -52,6 +43,15 @@
     "provider": "Northrop Grumman Space Systems",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
     "trackedCompany": "Northrop Grumman"
+  },
+  {
+    "date": "2026-06-28",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-40",
+    "payload": "Starlink Group 17-40",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0740c699-9877-4331-8aef-4e29ea6281c0/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-06-30",
@@ -106,69 +106,6 @@
     "provider": "Isar Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
-    "payload": "SDA Tranche 1 Tracking Layer A",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/2d0472b9-463d-49c8-afb1-7925e49a3368/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
-    "payload": "SDA Tranche 1 Tracking Layer C",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/dca8749f-1552-485a-8061-f1ad79055b8d/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
-    "payload": "SDA Tranche 1 Tracking Layer E",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "payload": "SDA Tranche 1 Transport Layer A",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer D",
-    "payload": "SDA Tranche 1 Transport Layer D",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/4541ce85-0e38-42ac-a9a0-20474bb5f2cd/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
-    "payload": "SDA Tranche 1 Transport Layer E",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d9adedc4-8fa1-4a36-84f9-43b8893a6865/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer F",
-    "payload": "SDA Tranche 1 Transport Layer F",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/c5783e2b-d458-4b99-9936-4043c236190b/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-06-30",
@@ -411,6 +348,69 @@
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/0f6780cf-edae-4d7c-99d6-ce7de784d140/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+    "payload": "SDA Tranche 1 Tracking Layer A",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2d0472b9-463d-49c8-afb1-7925e49a3368/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
+    "payload": "SDA Tranche 1 Tracking Layer C",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dca8749f-1552-485a-8061-f1ad79055b8d/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
+    "payload": "SDA Tranche 1 Tracking Layer E",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+    "payload": "SDA Tranche 1 Transport Layer A",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer D",
+    "payload": "SDA Tranche 1 Transport Layer D",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4541ce85-0e38-42ac-a9a0-20474bb5f2cd/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
+    "payload": "SDA Tranche 1 Transport Layer E",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d9adedc4-8fa1-4a36-84f9-43b8893a6865/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer F",
+    "payload": "SDA Tranche 1 Transport Layer F",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c5783e2b-d458-4b99-9936-4043c236190b/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
