@@ -1,132 +1,118 @@
 {
-  "generated_at": "2026-06-14T10:46:33.616110+00:00",
-  "week_ending": "2026-06-14",
+  "generated_at": "2026-06-21T11:13:00.676847+00:00",
+  "week_ending": "2026-06-21",
   "window_days": 7,
-  "events_processed": 8,
-  "companies_touched": 8,
+  "events_processed": 9,
+  "companies_touched": 9,
   "companies_moved": 3,
-  "companies_unchanged": 2,
+  "companies_unchanged": 1,
   "movers_up_top20": [
     {
-      "company": "Rigetti Computing",
-      "delta": 4.0,
-      "new_composite": 93.0,
-      "old_composite": 89.0,
-      "new_tier": "elite",
-      "reasons": [
-        "[exec_hire_star] "
-      ]
-    },
-    {
-      "company": "Astera Labs",
-      "delta": 4.0,
-      "new_composite": 79.5,
-      "old_composite": 75.5,
-      "new_tier": "leader",
-      "reasons": [
-        "[exec_hire_star] "
-      ]
-    },
-    {
-      "company": "Oklo",
+      "company": "Recursion Pharmaceuticals",
       "delta": 1.5,
-      "new_composite": 91.5,
-      "old_composite": 90.0,
-      "new_tier": "elite",
+      "new_composite": 66.5,
+      "old_composite": 65.0,
+      "new_tier": "strong",
+      "reasons": [
+        "[exec_hire_star] "
+      ]
+    },
+    {
+      "company": "Joby Aviation",
+      "delta": 1.5,
+      "new_composite": 69.5,
+      "old_composite": 68.0,
+      "new_tier": "strong",
+      "reasons": [
+        "[exec_hire_star] "
+      ]
+    },
+    {
+      "company": "AST SpaceMobile",
+      "delta": 1.5,
+      "new_composite": 72.5,
+      "old_composite": 71.0,
+      "new_tier": "leader",
       "reasons": [
         "[exec_hire_star] "
       ]
     }
   ],
   "movers_down_top10": [],
-  "tier_crossings": [
-    {
-      "company": "Rigetti Computing",
-      "from_tier": "exceptional",
-      "to_tier": "elite",
-      "new_composite": 93.0,
-      "reasons": [
-        "[exec_hire_star] "
-      ],
-      "first_time_elite": true
-    }
-  ],
-  "first_time_elite": [
-    {
-      "company": "Rigetti Computing",
-      "from_tier": "exceptional",
-      "to_tier": "elite",
-      "new_composite": 93.0,
-      "reasons": [
-        "[exec_hire_star] "
-      ],
-      "first_time_elite": true
-    }
-  ],
+  "tier_crossings": [],
+  "first_time_elite": [],
   "top_headlines": [
     {
-      "company": "SpaceX",
-      "type": "ipo",
-      "detail": "IPO $75B",
-      "date": "2026-06-11",
-      "source": "funding_feed",
-      "url": ""
-    },
-    {
-      "company": "Ginkgo Bioworks",
+      "company": "Centrus Energy",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-12",
+      "date": "2026-06-18",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-042932%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Rigetti Computing",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-11",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-072623%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Virgin Galactic",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-10",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001706946-26-000092%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Palantir Technologies",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-09",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001321655-26-000033%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Astera Labs",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-09",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-041919%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Oklo",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-08",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001849056-26-000028%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-044386%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "D-Wave Quantum",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-08",
+      "date": "2026-06-18",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000084%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000090%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Recursion Pharmaceuticals",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-18",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001601830-26-000080%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Agrify Corporation",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-18",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-069851%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Momentus",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-17",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-075151%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "C3.ai",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-16",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001577526-26-000063%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Joby Aviation",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-16",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001819974-26-000024%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "AST SpaceMobile",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-15",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001493152-26-028544%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Virgin Galactic",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-06-15",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001706946-26-000111%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {

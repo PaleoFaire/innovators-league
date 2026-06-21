@@ -1,83 +1,83 @@
 {
-  "date": "2026-06-15",
-  "display_date": "Jun 15, 2026",
-  "generated_at": "2026-06-15T15:50:28.317241+00:00",
-  "cutoff": "2026-06-08T15:50:28.317241+00:00",
-  "section_count": 7,
-  "total_items": 298,
+  "date": "2026-06-21",
+  "display_date": "Jun 21, 2026",
+  "generated_at": "2026-06-21T12:12:34.867344+00:00",
+  "cutoff": "2026-06-14T12:12:34.867344+00:00",
+  "section_count": 6,
+  "total_items": 310,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 18,
+      "count": 16,
       "items": [
         {
-          "company": "Rigetti Computing",
-          "current": 93.0,
-          "previous": 89.0,
-          "change": 4.0,
-          "tier": "elite"
-        },
-        {
-          "company": "Astera Labs",
-          "current": 79.5,
-          "previous": 75.5,
-          "change": 4.0,
-          "tier": "leader"
-        },
-        {
-          "company": "Velaura AI",
-          "current": 32.5,
-          "previous": 29.5,
+          "company": "Scale AI",
+          "current": 47.0,
+          "previous": 44.0,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Western Chemicals",
-          "current": 32.5,
-          "previous": 35.5,
-          "change": -3.0,
-          "tier": "early"
-        },
-        {
-          "company": "NVIDIA",
-          "current": 32.5,
-          "previous": 29.5,
+          "company": "Project Omega",
+          "current": 37.0,
+          "previous": 34.0,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Sagence",
-          "current": 32.0,
-          "previous": 29.0,
+          "company": "Zephyr Fusion",
+          "current": 37.0,
+          "previous": 34.0,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Halo",
-          "current": 32.0,
-          "previous": 29.0,
+          "company": "Cemvita",
+          "current": 36.5,
+          "previous": 33.5,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Mojo Vision",
-          "current": 32.0,
-          "previous": 29.0,
+          "company": "Panthalassa",
+          "current": 36.5,
+          "previous": 33.5,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Cognichip",
-          "current": 31.5,
-          "previous": 28.5,
+          "company": "LuxWall",
+          "current": 36.5,
+          "previous": 33.5,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Looking Glass",
-          "current": 31.5,
-          "previous": 28.5,
+          "company": "Windborne",
+          "current": 36.0,
+          "previous": 33.0,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Spiritus",
+          "current": 36.0,
+          "previous": 33.0,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Caelux",
+          "current": 36.0,
+          "previous": 33.0,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Planted Solar",
+          "current": 36.0,
+          "previous": 33.0,
           "change": 3.0,
           "tier": "early"
         }
@@ -86,15 +86,8 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 37,
+      "count": 58,
       "items": [
-        {
-          "company": "Palantir Technologies",
-          "form": "8-K",
-          "description": "pltr-20260603.htm",
-          "date": "2026-06-09",
-          "isIPO": false
-        },
         {
           "company": "AST SpaceMobile",
           "form": "8-K",
@@ -103,71 +96,53 @@
           "isIPO": false
         },
         {
+          "company": "Momentus",
+          "form": "8-K",
+          "description": "tm2618205d1_8k.htm",
+          "date": "2026-06-17",
+          "isIPO": false
+        },
+        {
           "company": "Virgin Galactic",
           "form": "8-K",
-          "description": "spce-20260610.htm",
-          "date": "2026-06-10",
+          "description": "spce-20260611.htm",
+          "date": "2026-06-15",
           "isIPO": false
         },
         {
-          "company": "Rigetti Computing",
+          "company": "Centrus Energy",
           "form": "8-K",
-          "description": "tm2617136d1_8k.htm",
-          "date": "2026-06-11",
+          "description": "leu-20260618.htm",
+          "date": "2026-06-18",
           "isIPO": false
         },
         {
-          "company": "Ginkgo Bioworks",
+          "company": "Centrus Energy",
           "form": "8-K",
-          "description": "dna-20260611.htm",
-          "date": "2026-06-12",
+          "description": "leu-20260618.htm",
+          "date": "2026-06-18",
           "isIPO": false
         },
         {
-          "company": "Astera Labs",
+          "company": "C3.ai",
           "form": "8-K",
-          "description": "tra-20260609.htm",
-          "date": "2026-06-09",
+          "description": "ai-20260611.htm",
+          "date": "2026-06-16",
           "isIPO": false
         },
         {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-06-12",
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260618.htm",
+          "date": "2026-06-18",
           "isIPO": false
         },
         {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-06-09",
+          "company": "Recursion Pharmaceuticals",
+          "form": "8-K",
+          "description": "rxrx-20260617.htm",
+          "date": "2026-06-18",
           "isIPO": false
-        }
-      ]
-    },
-    {
-      "title": "Contract Opportunities",
-      "icon": "\ud83c\udfe2",
-      "count": 3,
-      "items": [
-        {
-          "title": "SIP TO128 1ST QUARTER HARDWARE BUY",
-          "agency": "",
-          "value": "",
-          "date": "2026-08-06"
-        },
-        {
-          "title": "NEW DELIVER ORDER IN THE AMOUNT OF $130,498.30 FOR UAS WITH A DELIVERY DATE OF 11/7/26. THIS REQUIREMENT IS IN SUPPORT O",
-          "agency": "",
-          "value": "",
-          "date": "2026-06-10"
-        },
-        {
-          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
-          "agency": "",
-          "value": "",
-          "date": "2026-06-10"
         }
       ]
     },
@@ -177,225 +152,223 @@
       "count": 47,
       "items": [
         {
-          "title": "Sunshine Act Meetings",
-          "type": "Notice",
+          "title": "EPCRA Hazardous Chemical Inventory Reporting Requirements: Conformity With the 2024 OSHA Hazard Communication Standard",
+          "type": "Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Environmental Protection Agency"
           ],
           "significant": false,
-          "date": "2026-06-15"
+          "date": "2026-06-22"
         },
         {
-          "title": "Palisades SMR, LLC; Pioneer Units 1 and 2; Phased Construction Permit Application; Limited Work Authorization; Notice of",
+          "title": "National Airspace System Advisory Committee (Previously Known as the NextGen Advisory Committee)",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-06-15"
+          "date": "2026-06-18"
         },
         {
-          "title": "Interim Staff Guidance: Security Requirements for Nonpower Production and Utilization Facility Applicants and Licensees",
+          "title": "Petition for Exemption; Summary of Petition Received; Amor Fati Industries Corp",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-06-12"
+          "date": "2026-06-16"
         },
         {
-          "title": "Regulatory Guide: Guidance for Technology-Inclusive Risk-Informed Change Evaluation",
-          "type": "Notice",
+          "title": "Flag Day and National Flag Week, 2026",
+          "type": "Presidential Document",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Executive Office of the President"
           ],
           "significant": false,
-          "date": "2026-06-11"
+          "date": "2026-06-18"
         },
         {
-          "title": "Holtec Decommissioning International, LLC; Oyster Creek Nuclear Generating Station; Environmental Assessment and Finding",
+          "title": "Environmental Impact Statements; Notice of Availability",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Environmental Protection Agency"
           ],
           "significant": false,
-          "date": "2026-06-10"
+          "date": "2026-06-18"
         },
         {
-          "title": "Nebraska Public Power District; Cooper Nuclear Station; Subsequent License Renewal Application",
+          "title": "Authorization of Emergency Use for Two Animal Drugs for the Prevention and Treatment of New World Screwworm; Availabilit",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Health and Human Services Department",
+            "Food and Drug Administration"
           ],
           "significant": false,
-          "date": "2026-06-10"
+          "date": "2026-06-18"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 32,
+      "count": 34,
       "items": [
         {
-          "title": "SpaceX IPO Up 20% and Brian Wang Analysis Ahead of BG2 and Big Venture Capitalists",
-          "source": "Next Big Future",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "SpaceX IPO: Live updates on everything you need to know",
+          "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
           "source": "TechCrunch",
+          "company": "OpenAI",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
+          "source": "Ars Technica",
           "company": "SpaceX",
           "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "SpaceX shares rise nearly 20% in historic IPO",
-          "source": "SpaceNews",
+          "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
+          "source": "Defense One",
           "company": "SpaceX",
           "impact": "high",
-          "type": "ipo"
+          "type": "contract"
         },
         {
-          "title": "Why SpaceX IPO could spark a \u2018$200bn private markets boom\u2019",
-          "source": "Sifted",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "SpaceX IPO Day Started at $150 and is Now $175",
-          "source": "Next Big Future",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "NEURA Robotics secures up to $1.4B, Bending Spoons files for US IPO, and UK PM unveils \u00a3400M chip pl",
+          "title": "Former Palantir employees raise $60M for AI enterprise startup Conduct",
           "source": "Tech.eu",
-          "company": "Neura Robotics",
+          "company": "Palantir",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "SpaceX Shares Close Up 19% After Largest IPO Of All Time",
+          "title": "Dawn Aerospace raises $25 million",
+          "source": "SpaceNews",
+          "company": "Dawn Aerospace",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "SpaceX Acquires AI Coding Tool Cursor For $60B In Year\u2019s Largest Startup M&#038;A Deal",
           "source": "Crunchbase News",
           "company": "SpaceX",
           "impact": "high",
-          "type": "funding"
+          "type": "ipo"
         },
         {
-          "title": "You Probably Won\u2019t Get Rich Off the SpaceX IPO",
-          "source": "Wired",
+          "title": "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE",
+          "source": "Next Big Future",
           "company": "SpaceX",
-          "impact": "high",
+          "impact": "low",
           "type": "ipo"
+        },
+        {
+          "title": "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics",
+          "source": "The Robot Report",
+          "company": "GrayMatter Robotics",
+          "impact": "low",
+          "type": "news"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 54,
+      "count": 49,
       "items": [
         {
-          "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
-          "score": 787,
-          "comments": 594,
+          "title": "Hyundai buys Boston Dynamics",
+          "score": 943,
+          "comments": 392,
           "companies": [
-            "Anthropic"
+            "Rainbow Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=48519092"
+          "url": "https://news.ycombinator.com/item?id=48600312"
         },
         {
-          "title": "Curl will not accept vulnerability reports during July 2026",
-          "score": 526,
-          "comments": 211,
+          "title": "Norway imposes near ban on AI in elementary school",
+          "score": 798,
+          "comments": 571,
           "companies": [
-            "Durin"
+            "Alpha School"
           ],
-          "url": "https://news.ycombinator.com/item?id=48537165"
+          "url": "https://news.ycombinator.com/item?id=48600093"
         },
         {
-          "title": "New pancreatic cancer drug might open the door to much longer survival times",
-          "score": 433,
-          "comments": 156,
+          "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
+          "score": 527,
+          "comments": 253,
           "companies": [
-            "Reveal Technology"
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48517199"
+          "url": "https://news.ycombinator.com/item?id=48600167"
         },
         {
-          "title": "Windows 11 users are tired of MS account requirements creeping into everything",
-          "score": 426,
-          "comments": 277,
-          "companies": [
-            "Osmo",
-            "Photonic Inc"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48533101"
-        },
-        {
-          "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
-          "score": 380,
-          "comments": 101,
-          "companies": [
-            "Built Robotics",
-            "Kyutai",
-            "Together AI",
-            "Runway",
-            "Auterion"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48528029"
-        },
-        {
-          "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "score": 369,
-          "comments": 194,
+          "title": "The Wholesale Plagiarism of Obscure Sorrows",
+          "score": 370,
+          "comments": 147,
           "companies": [],
-          "url": "https://news.ycombinator.com/item?id=48528371"
+          "url": "https://news.ycombinator.com/item?id=48611411"
+        },
+        {
+          "title": "I Stored a Website in a Favicon",
+          "score": 301,
+          "comments": 105,
+          "companies": [
+            "ICON"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48606619"
+        },
+        {
+          "title": "VPN ban update for UK households as government looks at 'age-gate'",
+          "score": 298,
+          "comments": 341,
+          "companies": [
+            "Palantir"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48609385"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 107,
+      "count": 106,
       "items": [
         {
-          "title": "NVRO Metals Signs Heads of Agreement with Transamine for Proposed Copper Cathode Offtake and Financing Package of up to ",
+          "title": "FREELANDER 8 Makes First Public Appearance Ahead of Official Abu Dhabi Launch",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Cannabix Technologies Announces Deployment of Marijuana Breath Test (MBT) with Major Industrial Operator in Quebec",
+          "title": "Bunker Hill Mining Announces Director Resignation",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "ENDO 2026 Oral Presentation Highlights Comparative Clinical Data for Entera\u2019s Breakthrough Single Tablet EB613 (First-in",
+          "title": "America\u2019s Car-Mart, Inc. Announces Agreement with Lenders to Support Ongoing Strategic Review Process",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Wearable Devices to Unveil GenAI-Powered Intent-Based Interface Platform and Next-Gen Mudra Pro Flagship at AWE 2026",
+          "title": "Conifex Announces Voting Results",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Cr\u00e9dit Agricole Brie Picardie : d\u00e9claration hebdomadaire - Rachats r\u00e9alis\u00e9s dans les conditions de l'article 5 du R\u00e8glem",
+          "title": "Dynacor Group Appoints New CEO as AGM Backs Director Nominees",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "BlockchAIn Announces Corporate Name Change to AIB Data Centers Inc.",
+          "title": "Groupe Dynacor nomme un nouveau chef de la direction, alors que l'AGA soutient les candidats au conseil d'administration",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-06-15-ffbbb85d4516"
+  "brief_id": "brief-2026-06-21-28c7d6e0a917"
 }

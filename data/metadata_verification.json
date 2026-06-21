@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T10:46:35Z",
+  "generated_at": "2026-06-21T11:13:02Z",
   "company_count": 941,
   "checks": {
     "acquisition_language": [],
@@ -1269,18 +1269,18 @@
     ],
     "stage_vocabulary": {
       "Series A": 257,
-      "Series B": 188,
-      "Seed": 158,
+      "Series B": 186,
+      "Seed": 159,
       "Series C": 98,
       "Public": 54,
       "Series D": 36,
       "Growth": 24,
       "Pre-Seed": 23,
       "Series E": 15,
-      "Series G": 12,
+      "Series G": 13,
       "Late Stage": 11,
+      "Private": 9,
       "Series F": 8,
-      "Private": 8,
       "SPAC": 6,
       "IPO": 5,
       "Pre-IPO": 4,
@@ -1306,13 +1306,19 @@
       "Series B+": 1,
       "Seed+": 1,
       "Platform / strategic": 1,
-      "Series F+": 1,
       "Government Contract": 1,
       "Seed + SAFE": 1,
       "Seed (stealth)": 1,
       "Growth + Offtake": 1
     },
     "web_probes": [
+      {
+        "kind": "rebrand_suspect",
+        "name": "Dominion Dynamics",
+        "old_url": "https://dominion-dynamics.com",
+        "new_url": "https://www.defendthedominion.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
       {
         "kind": "dead_website",
         "name": "Atana Elements",
@@ -1377,11 +1383,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "dead_website",
         "name": "Extropic",
         "url": "https://extropic.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "dead_website",
@@ -1440,11 +1446,11 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "rebrand_suspect",
         "name": "AMP Robotics",
-        "url": "https://amprobotics.com",
-        "error": "ReadTimeout",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "old_url": "https://amprobotics.com",
+        "new_url": "https://ampsortation.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
         "kind": "rebrand_suspect",
@@ -1489,11 +1495,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "dead_website",
         "name": "Outpost Space",
         "url": "https://outpostspace.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "dead_website",
@@ -1517,18 +1523,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "dead_website",
         "name": "Redwood Materials",
         "url": "https://redwoodmaterials.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
-      },
-      {
-        "kind": "unreachable_website",
-        "name": "Nuro",
-        "url": "https://nuro.ai",
-        "error": "ReadTimeout",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "rebrand_suspect",
@@ -1540,9 +1539,9 @@
     ]
   },
   "summary": {
-    "p0_issues": 17,
-    "p1_issues": 15,
+    "p0_issues": 19,
+    "p1_issues": 18,
     "missing_websites": 244,
-    "distinct_stages": 43
+    "distinct_stages": 42
   }
 }
