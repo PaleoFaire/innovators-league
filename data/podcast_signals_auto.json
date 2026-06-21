@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-14T11:26:41+00:00",
+  "generatedAt": "2026-06-21T11:41:53+00:00",
   "lookbackDays": 60,
   "sources": [
     {
       "name": "Core Memory",
       "host": "Ashlee Vance",
       "url": "https://www.corememory.com/feed/podcast/320996.rss",
-      "totalItems": 77,
-      "recentItems": 13
+      "totalItems": 79,
+      "recentItems": 12
     },
     {
       "name": "Acquired",
@@ -20,21 +20,21 @@
       "name": "Invest Like the Best",
       "host": "Patrick O'Shaughnessy",
       "url": "https://feeds.megaphone.fm/investlikethebest",
-      "totalItems": 583,
+      "totalItems": 584,
       "recentItems": 10
     },
     {
       "name": "20VC",
       "host": "Harry Stebbings",
       "url": "https://thetwentyminutevc.libsyn.com/rss",
-      "totalItems": 1469,
+      "totalItems": 1472,
       "recentItems": 26
     },
     {
       "name": "All-In",
       "host": "Chamath/Jason/Sacks/Friedberg",
       "url": "https://allinchamathjason.libsyn.com/rss",
-      "totalItems": 390,
+      "totalItems": 391,
       "recentItems": 22
     },
     {
@@ -48,13 +48,35 @@
       "name": "TBPN",
       "host": "John Coogan + Jordi Hays",
       "url": "https://feeds.transistor.fm/technology-brother",
-      "totalItems": 567,
-      "recentItems": 82
+      "totalItems": 577,
+      "recentItems": 83
     }
   ],
   "totalRawSignals": 39,
-  "uniqueCandidates": 37,
+  "uniqueCandidates": 35,
   "candidates": [
+    {
+      "name": "Gavin Baker",
+      "score": 17.5,
+      "episodes": [
+        {
+          "podcast": "Invest Like the Best",
+          "host": "Patrick O'Shaughnessy",
+          "title": "Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]",
+          "url": "https://colossus.com/episode/watts-and-wafers/",
+          "date": "Wed, 20 May 2026 08:00:00 -0000",
+          "context": "Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]"
+        },
+        {
+          "podcast": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "Gavin Baker: SpaceX Might Be the Greatest Company of All Time",
+          "url": "https://share.transistor.fm/s/fbe1f5b4",
+          "date": "Mon, 15 Jun 2026 13:18:06 -0700",
+          "context": "Gavin Baker: SpaceX Might Be the Greatest Company of All Time"
+        }
+      ]
+    },
     {
       "name": "FULL INTERVIEW",
       "score": 16.15,
@@ -92,16 +114,24 @@
       ]
     },
     {
-      "name": "Ulysses",
-      "score": 10.0,
+      "name": "Best",
+      "score": 9.799999999999999,
       "episodes": [
         {
-          "podcast": "Core Memory",
-          "host": "Ashlee Vance",
-          "title": "The $50,000 Underwater Drone - EP 66 Ulysses",
-          "url": "https://www.corememory.com/p/ulysses-ocean-drones-andreessen-horowitz-series-a",
-          "date": "Thu, 16 Apr 2026 14:19:05 GMT",
-          "context": "The $50,000 Underwater Drone - EP 66 Ulysses"
+          "podcast": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-why-remote-work-is-white-collar-fraud-why-revenge-and-patriotism-are-the-best-founder-traits-two-questions-every-founder-needs-to-ask-the-wild-story-of-raising-1bn-from-masa-son-in-an-hour-long-meeting-with-ryan-peterson-founder-flexport",
+          "date": "Sat, 20 Jun 2026 07:07:00 +0000",
+          "context": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou"
+        },
+        {
+          "podcast": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: What I Learned from 100 of the Best CEOs in the World | What I Learned from Staying with Mr Beast for 3 Weeks | How We Will Spend More on Tokens than Salaries with Cliff Weitzman, Speechify",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-what-i-learned-from-100-of-the-best-ceos-in-the-world-what-i-learned-from-staying-with-mr-beast-for-3-weeks-how-we-will-spend-more-on-tokens-than-salaries-with-cliff-weitzman-speechify",
+          "date": "Sat, 09 May 2026 07:07:00 +0000",
+          "context": "20VC: What I Learned from 100 of the Best CEOs in the World | What I Learned from Staying with Mr Beast for 3 Weeks | How We Will Spend More on Tokens than Salaries with Cliff Weitzman, Speechify"
         }
       ]
     },
@@ -184,20 +214,6 @@
       ]
     },
     {
-      "name": "Gavin Baker",
-      "score": 8.0,
-      "episodes": [
-        {
-          "podcast": "Invest Like the Best",
-          "host": "Patrick O'Shaughnessy",
-          "title": "Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]",
-          "url": "https://colossus.com/episode/watts-and-wafers/",
-          "date": "Wed, 20 May 2026 08:00:00 -0000",
-          "context": "Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]"
-        }
-      ]
-    },
-    {
       "name": "Krishna Rao",
       "score": 8.0,
       "episodes": [
@@ -222,6 +238,20 @@
           "url": "https://colossus.com/episode/supply-demand-of-tokens/",
           "date": "Thu, 23 Apr 2026 08:00:00 -0000",
           "context": "Dylan Patel - The Infinite Demand for Tokens, Claude Mythos, and Supply Constraints - [Invest Like the Best, EP.469]"
+        }
+      ]
+    },
+    {
+      "name": "Max Hodak Live",
+      "score": 7.0,
+      "episodes": [
+        {
+          "podcast": "Core Memory",
+          "host": "Ashlee Vance",
+          "title": "The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event",
+          "url": "https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science",
+          "date": "Wed, 17 Jun 2026 15:11:18 GMT",
+          "context": "The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event"
         }
       ]
     },
@@ -310,20 +340,6 @@
       ]
     },
     {
-      "name": "Box",
-      "score": 7.0,
-      "episodes": [
-        {
-          "podcast": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Everyone is Wrong; We Will Have More Developers in Five Years | Why Frontier Labs Will Be Way More Valuable Than They Are Today | Are SaaS Companies Cooked: Which Thrive & Which Die with Aaron L",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-everyone-is-wrong-we-will-have-more-developers-in-five-years-why-frontier-labs-will-be-way-more-valuable-than-they-are-today-are-saas-companies-cooked-which-thrive-which-die-with-aaron-levie-founder-at-box",
-          "date": "Mon, 20 Apr 2026 07:07:00 +0000",
-          "context": "20VC: Everyone is Wrong; We Will Have More Developers in Five Years | Why Frontier Labs Will Be Way More Valuable Than They Are Today | Are SaaS Companies Cooked: Which Thrive & Which Die with Aaron L"
-        }
-      ]
-    },
-    {
       "name": "Build",
       "score": 6.6499999999999995,
       "episodes": [
@@ -352,16 +368,16 @@
       ]
     },
     {
-      "name": "Verizon",
-      "score": 6.6499999999999995,
+      "name": "Kareem Amin",
+      "score": 5.6000000000000005,
       "episodes": [
         {
-          "podcast": "TBPN",
-          "host": "John Coogan + Jordi Hays",
-          "title": "Marc Benioff vs. Verizon CEO Dan Schulman on AI, Blue Origin\u2019s Latest Flight | Diet TBPN",
-          "url": "https://share.transistor.fm/s/beb1082d",
-          "date": "Mon, 20 Apr 2026 16:30:51 -0700",
-          "context": "Marc Benioff vs. Verizon CEO Dan Schulman on AI, Blue Origin\u2019s Latest Flight | Diet TBPN"
+          "podcast": "Invest Like the Best",
+          "host": "Patrick O'Shaughnessy",
+          "title": "Kareem Amin - The Unusual Approach to Company Building - [Invest Like the Best, EP.478]",
+          "url": "https://colossus.com/episode/courage-truth-justice/",
+          "date": "Tue, 16 Jun 2026 08:00:00 -0000",
+          "context": "Kareem Amin - The Unusual Approach to Company Building - [Invest Like the Best, EP.478]"
         }
       ]
     },
@@ -422,6 +438,20 @@
       ]
     },
     {
+      "name": "Two Questions Every",
+      "score": 4.8999999999999995,
+      "episodes": [
+        {
+          "podcast": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-why-remote-work-is-white-collar-fraud-why-revenge-and-patriotism-are-the-best-founder-traits-two-questions-every-founder-needs-to-ask-the-wild-story-of-raising-1bn-from-masa-son-in-an-hour-long-meeting-with-ryan-peterson-founder-flexport",
+          "date": "Sat, 20 Jun 2026 07:07:00 +0000",
+          "context": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou"
+        }
+      ]
+    },
+    {
       "name": "Mercor",
       "score": 4.8999999999999995,
       "episodes": [
@@ -460,20 +490,6 @@
           "url": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
           "date": "Mon, 18 May 2026 07:07:00 +0000",
           "context": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Sh"
-        }
-      ]
-    },
-    {
-      "name": "Best",
-      "score": 4.8999999999999995,
-      "episodes": [
-        {
-          "podcast": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: What I Learned from 100 of the Best CEOs in the World | What I Learned from Staying with Mr Beast for 3 Weeks | How We Will Spend More on Tokens than Salaries with Cliff Weitzman, Speechify",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-what-i-learned-from-100-of-the-best-ceos-in-the-world-what-i-learned-from-staying-with-mr-beast-for-3-weeks-how-we-will-spend-more-on-tokens-than-salaries-with-cliff-weitzman-speechify",
-          "date": "Sat, 09 May 2026 07:07:00 +0000",
-          "context": "20VC: What I Learned from 100 of the Best CEOs in the World | What I Learned from Staying with Mr Beast for 3 Weeks | How We Will Spend More on Tokens than Salaries with Cliff Weitzman, Speechify"
         }
       ]
     },
@@ -520,20 +536,6 @@
       ]
     },
     {
-      "name": "Anti-Fund",
-      "score": 4.8999999999999995,
-      "episodes": [
-        {
-          "podcast": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
-          "context": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T"
-        }
-      ]
-    },
-    {
       "name": "Reactions",
       "score": 4.75,
       "episodes": [
@@ -544,20 +546,6 @@
           "url": "https://share.transistor.fm/s/cfd222b6",
           "date": "Tue, 26 May 2026 16:58:24 -0700",
           "context": "Reactions: Ferrari\u2019s First EV, The Enhanced Games | Diet TBPN"
-        }
-      ]
-    },
-    {
-      "name": "New",
-      "score": 4.75,
-      "episodes": [
-        {
-          "podcast": "TBPN",
-          "host": "John Coogan + Jordi Hays",
-          "title": "Apple\u2019s New CEO John Ternus, Ferrari\u2019s First EV | Diet TBPN",
-          "url": "https://share.transistor.fm/s/31bf2962",
-          "date": "Tue, 21 Apr 2026 17:05:46 -0700",
-          "context": "Apple\u2019s New CEO John Ternus, Ferrari\u2019s First EV | Diet TBPN"
         }
       ]
     },
@@ -592,14 +580,6 @@
   ],
   "rawEpisodes": [
     {
-      "podcast": "All-In",
-      "host": "Chamath/Jason/Sacks/Friedberg",
-      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
-      "url": "https://allinchamathjason.libsyn.com/ca-governor-candidate-steve-hilton-on-why-california-is-destroying-itself-how-a-republican-can-win",
-      "date": "Wed, 29 Apr 2026 15:14:00 +0000",
-      "summary": "(0:00) Intro: Steve Hilton is a Republican Brit Running for CA Governor   (8:34) Zero Tax Under $100K and a 7.5% Flat Rate: Is It Fiscally Possible?   (27:52) Why CA Homes Cost 3x More to Build (Unions, CEQA, and Climate Dogma)   (44:50) Why CA Schools Spend the Most but Get the Worst Results   (50:02) Crime, Homelessness, and the Failure to Enforce Laws That Already Exist   (1:01:34) Can a Republ"
-    },
-    {
       "podcast": "Core Memory",
       "host": "Ashlee Vance",
       "title": "The Startup Trying to Save Us From AI Bioweapons- EP 74 Hannu Rajaniemi",
@@ -624,12 +604,28 @@
       "summary": "\n         My guest today is  Gavin Baker , founding partner and CIO of Atreides Management, and this is our sixth conversation. \n The central theme is watts and wafers, the two physical constraints that in Gavin's view will dictate the next phase of AI. \n On power, he thinks the near-term shortage starts to ease in 2027 and 2028 as new sources of energy come online, and that orbital compute solves"
     },
     {
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "Snap SPECS, Taste Labs Timeline Turmoil, AI Execs at G7 | Diet TBPN",
+      "url": "https://share.transistor.fm/s/0e942686",
+      "date": "Wed, 17 Jun 2026 17:24:25 -0700",
+      "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
+    },
+    {
       "podcast": "Core Memory",
       "host": "Ashlee Vance",
-      "title": "The Very Wild, Very Real Plan To Build AI Data Centers In The Ocean - EP 65 Garth Sheldon-Coulson",
-      "url": "https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth",
-      "date": "Wed, 15 Apr 2026 14:44:53 GMT",
-      "summary": "We\u2019re in a moment of insatiable desire for more energy and more computing. And so the ideas of how to provide said energy and computing are getting ever more adventurous. Case in point:  Panthalassa , which is the subject of this week\u2019s episode, alongside our guest Garth Sheldon-Coulson, the company\u2019s co-founder and CEO. Panthalassa makes an object that it calls a node and that looks like a giant "
+      "title": "The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event",
+      "url": "https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science",
+      "date": "Wed, 17 Jun 2026 15:11:18 GMT",
+      "summary": "Max Hodak is back. The co-founder and CEO of Science Corp. joined me for our first-ever live podcast recording, which took place at the Brex headquarters in San Francisco. Thanks so much to all the Core Memory subscribers who turned up. Max walked us through Science\u2019s technology aimed at restoring vision in the blind, and the company\u2019s new product lines focused on organ transplants and extending t"
+    },
+    {
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "Snap Specs, Taste, Midjourney Hardware | Eric Newcomer, Merrill Lutsky, Carter Reum, Swami Sivasubramanian, Thomas Suarez, Mark Gurman, Ryan Daniels, Isaiah Granet",
+      "url": "https://share.transistor.fm/s/e959c3d4",
+      "date": "Wed, 17 Jun 2026 14:30:14 -0700",
+      "summary": "\n         (01:48) - Snap Specs\n \n (17:39) - Midjourney Hardware\n \n (18:56) - Taste Labs\n \n (29:27) - Eric Newcomer, an American journalist and founder of the \"Newcomer\" newsletter, discusses his transition from traditional media to independent journalism, emphasizing the importance of building trust and transparency with his audience. He highlights the challenges and opportunities in covering Sili"
     },
     {
       "podcast": "Core Memory",
@@ -712,22 +708,6 @@
       "summary": "We\u2019re in the midst of a new nuclear energy boom. Start-ups \u2013 both fusion and fission \u2013 abound, and the U.S. government has cleared the way to build again. Meanwhile, China is racing ahead with nuclear plans that dwarf those of the rest of the world combined. As with any boom cycle, there is a lot of hype and a lot to understand if you want to get a handle on what\u2019s real and what\u2019s not. And so, we "
     },
     {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "Microsoft Takes on Frontier AI with Project Solara, OpenClaw, and More at Build 2026 | Diet TBPN",
-      "url": "https://share.transistor.fm/s/c856ad83",
-      "date": "Wed, 03 Jun 2026 15:37:38 -0700",
-      "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
-    },
-    {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "Microsoft Chases the Frontier, SUNO on Fire, Project Solara | Mikey Shulman, Samir Chaudry, Tom Farley, Nikesh Arora, Henri Stern, Alex Good",
-      "url": "https://share.transistor.fm/s/e066c7b5",
-      "date": "Wed, 03 Jun 2026 14:03:20 -0700",
-      "summary": "\n         (00:35) - Microsoft Chases the Frontier\n \n (05:00) - Project Solara\n \n (16:19) - Mikey Shulman, representing Suno, discusses the company's recent achievement of raising over $400 million, led by Bond, highlighting significant traction and progress in user engagement and retention. He emphasizes the importance of retention as a key metric, noting that improvements in the product have led "
-    },
-    {
       "podcast": "Invest Like the Best",
       "host": "Patrick O'Shaughnessy",
       "title": "Dara Khosrowshahi - Uber's Bet on AVs, AI, and Building a Super-App - [Invest Like the Best, EP.476]",
@@ -776,20 +756,28 @@
       "summary": "Andrew Feldman is the co-founder and CEO of Cerebras Systems. This month, Cerebras went public achieving a market cap of $70BN, the largest semiconductor IPO in history. Cerebras has a massive commercial backlog with a monumental, multi-year $20 billion compute agreement from OpenAI.   AGENDA:\u00a0   05:58 - Why we are not in an infrastructure bubble and it is just the start   08:00 - Sam Altman's sup"
     },
     {
-      "podcast": "Core Memory",
-      "host": "Ashlee Vance",
-      "title": "The Great Reset At OpenAI \u2014 EP 67 Sam Altman And Greg Brockman",
-      "url": "https://www.corememory.com/p/the-great-reset-at-openai-ep-67-sam-altman-greg-brockman",
-      "date": "Tue, 21 Apr 2026 13:24:11 GMT",
-      "summary": "Sam Altman and Greg Brockman came on Core Memory together for a ten-year look back at OpenAI. It\u2019s also the first time they\u2019ve done a media podcast together. We juiced every second of our 90 minutes with the cofounders of OpenAI. We got into the company restructuring. Why Sora got cut. Why the social network is dead. The \u201cpersonal AGI\u201d that knows your calendar and your taste and books the concert "
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "SpaceX Takes Off, Cursor's Wild Rise, Snap Bets on AR Glasses | Diet TBPN",
+      "url": "https://share.transistor.fm/s/f1414ff8",
+      "date": "Tue, 16 Jun 2026 18:42:30 -0700",
+      "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
+    },
+    {
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "YC Demo Day Lightning Round, New Snap AR Glasses, SpaceX Rips | Garry Tan, Andrew Lee, Stamatios Floratos, Hugo Frisk, Efra\u00edn Torres, Russell Smith, Payton Case, Akshay Trikha, Diana Hu, Harj Taggar, ",
+      "url": "https://share.transistor.fm/s/233fa238",
+      "date": "Tue, 16 Jun 2026 14:22:50 -0700",
+      "summary": "\n         (01:05) - SpaceX Rips\n \n (08:00) - Andrew Lee, co-founder of Firebase (acquired by Google in 2014), discusses his latest venture, Tasklet, an AI agent platform that integrates with various work tools to automate workflows. He highlights Tasklet's rapid growth, achieving a $7 million run rate, and its ability to dynamically generate integrations using AI, enabling connections to both publ"
     },
     {
       "podcast": "Invest Like the Best",
       "host": "Patrick O'Shaughnessy",
-      "title": "Alex Karnal - The Trillion-Dollar Health Revolution - [Invest Like the Best, EP.468]",
-      "url": "https://colossus.com/episode/trillion-dollar-health-revolution/",
-      "date": "Tue, 21 Apr 2026 08:00:00 -0000",
-      "summary": "\n         My guest today is  Alex Karnal . Alex is the co-founder and managing partner of  Braidwell , a life sciences investment firm he built after spending 15 years at Deerfield Management.  \n The frame we use throughout the episode is the health stack. Alex talks about how most of the diseases that will claim most of our lives are already addressable with medicines that exist today. We work th"
+      "title": "Kareem Amin - The Unusual Approach to Company Building - [Invest Like the Best, EP.478]",
+      "url": "https://colossus.com/episode/courage-truth-justice/",
+      "date": "Tue, 16 Jun 2026 08:00:00 -0000",
+      "summary": "\n         My guest today is  Kareem Amin , co-founder and CEO of Clay. Clay has become one of the fastest-growing software companies of the last few years, valued at over four billion dollars. It helps companies find their best customers and reach them at scale. \n But this conversation is about a lot more than Clay. Kareem is one of the most original thinkers I know.\u00a0 \n We talk about the statues h"
     },
     {
       "podcast": "All-In",
@@ -856,36 +844,12 @@
       "summary": "Jacob Kimmel returns to the show. And he might have cured the hangover and liver disease. NBD. Kimmel is the co-founder and president of NewLimit and one of the deepest thinkers in the longevity field. His company has been working to reverse the aging process in the body and has seen some stunning results with a new therapy that undoes liver damage in mice. We\u2019re talking old mice that shrug off th"
     },
     {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "Google Raises $80B, Confidential IPO 101, OpenAI Expands Codex | Diet TBPN",
-      "url": "https://share.transistor.fm/s/ae0a0300",
-      "date": "Tue, 02 Jun 2026 15:45:18 -0700",
-      "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
-    },
-    {
       "podcast": "All-In",
       "host": "Chamath/Jason/Sacks/Friedberg",
       "title": "OpenAI CFO Sarah Friar: IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
       "url": "https://allinchamathjason.libsyn.com/openai-cfo-sarah-friar-on-ipo-ai-rivalries-new-device-and-spending-100b-on-compute",
       "date": "Tue, 02 Jun 2026 14:31:00 +0000",
       "summary": "(0:00) OpenAI CFO Sarah Friar joins the show!   (0:31) How OpenAI thinks about its IPO timeline   (3:31) OpenAI, Anthropic, Google: The AI arms race   (7:43) Navigating the compute crunch and AI bottlenecks, device preview!   (15:53) OpenAI's economics   (26:08) Push into chips, the cloud   (29:32) OpenAI's ad business and strategy   Thanks to our partners for making this possible!   EY - Agentic "
-    },
-    {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "Google Taps Berkshire, Confidential IPO Filings, Putin's Longevity | Jack Doohan, Shreya Murthy, Nate Cavanaugh & Justin Fox, Thomas Mueller, Edward Kim, Brynn Putnam",
-      "url": "https://share.transistor.fm/s/51d955de",
-      "date": "Tue, 02 Jun 2026 13:59:11 -0700",
-      "summary": "\n         (00:21) - Google Taps Berkshire\n \n (24:37) - Berkshire Bets on Housing\n \n (38:54) - History of Confidential IPO Filings\n \n (46:33) - Jack Doohan, an Australian racing driver, discusses his journey from karting in Australia to becoming a Formula One driver, including his early move to Europe at 13 and his progression through the racing ranks. He shares the challenges he faced, such as bei"
-    },
-    {
-      "podcast": "20VC",
-      "host": "Harry Stebbings",
-      "title": "20VC: Anthropic Raises $45BN but Falls Short on Compute | OpenAI Crushes with GPT5.5 and Codex: Back in the Game? | China Blocks Manus $2BN Deal to Meta | Thoma Bravo Hand Back Medallia Keys to Credit",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-raises-45bn-but-falls-short-on-compute-openai-crushes-with-gpt55-and-codex-back-in-the-game-china-blocks-manus-2bn-deal-to-meta-thoma-bravo-hand-back-medallia-keys-to-creditors-why-google-is-a-bigger-buy-than-ever-before",
-      "date": "Thu, 30 Apr 2026 07:07:00 +0000",
-      "summary": "AGENDA:   00:00 $45B Floods into Anthropic from Google & Amazon   05:10 OpenAI Misses Growth Targets \u2014 Is This a Real Problem?   08:40 The Rise of AI Agents: Why Humans No Longer Pick Models   12:05 \"Compute \u2260 Revenue\": The First Crack in the AI Business Model   20:30 China Blocks $2B Manus Deal \u2014 AI Cold War Escalates   34:10 Why Google May Be the Biggest Winner in AI Infrastructure   41:50 The D"
     },
     {
       "podcast": "Invest Like the Best",
@@ -920,12 +884,36 @@
       "summary": "AGENDA: \u00a0   00:00 \u2013 Anthropic Eyes $900B Valuation & Andre Karpathy's Shock Move   04:46 \u2013 Unpacking Anthropic's $30 Billion War Chest   10:52 \u2013 The True Cost of AI Tokens: Is Salesforce Spending Too Much?   15:59 \u2013 The Bear Case for Token Growth & Why Software Leaders Must Adapt   22:56 \u2013 Public Tech Rebound: Figma & Datadog Crush Expectations   26:59 \u2013 The Death of Traditional Web Builders? The "
     },
     {
-      "podcast": "Core Memory",
-      "host": "Ashlee Vance",
-      "title": "The $50,000 Underwater Drone - EP 66 Ulysses",
-      "url": "https://www.corememory.com/p/ulysses-ocean-drones-andreessen-horowitz-series-a",
-      "date": "Thu, 16 Apr 2026 14:19:05 GMT",
-      "summary": "Guinness. Sharks. American manufacturing. These are a few of the interests I share with the founders of Ulysses, a San Francisco startup building autonomous underwater drones. The idea for Ulysses started when one of the four co-founders was on a surf trip and learned how much of humanity depends on a single marine plant:  the humble seagrass . He spent a weekend designing a robot to plant it. Two"
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "Midjourney Goes Medical, Noam Shazeer & Dean Ball Join OpenAI | Diet TBPN",
+      "url": "https://share.transistor.fm/s/957bef2c",
+      "date": "Thu, 18 Jun 2026 18:56:32 -0700",
+      "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
+    },
+    {
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "Jake Paul Thinks We'll Live Forever",
+      "url": "https://share.transistor.fm/s/4ed8418d",
+      "date": "Thu, 18 Jun 2026 15:20:23 -0700",
+      "summary": "\n         This is our full conversation with Jake Paul. We discuss Anti Fund's new $100M+ fund, why they're doubling down on AI, defense, robotics, and frontier technology, how Jake Paul built a media empire from Vine to boxing, the future of Most Valuable Promotions and women's boxing, what separates great founders from great celebrities, and why they're betting that the next wave of value creati"
+    },
+    {
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "Midjourney Medical, AI Talent Wars 2.0, Jake Paul Joins | Derek Thompson, Rene Haas, Robert Slaughter, Rob Reid, Thais Castello Branco, David Senra, Jake Paul & Geoffrey Woo",
+      "url": "https://share.transistor.fm/s/6eb6780f",
+      "date": "Thu, 18 Jun 2026 15:05:43 -0700",
+      "summary": "\n         (01:34) - Midjourney Medical\n \n (25:50) - AI Talent Wars 2.0\n \n (31:58) - Derek Thompson, co-author of *Abundance* and host of the *Plain English* podcast, discusses the stagnation in chair design over millennia, noting that chairs have maintained a consistent form since ancient times. He reflects on the challenges of implementing the \"abundance agenda\" from his book, highlighting mixed "
+    },
+    {
+      "podcast": "20VC",
+      "host": "Harry Stebbings",
+      "title": "20VC: SpaceX Soars to $2.7TRN | Anthropic's Fable Banned by US Government | Wix and Adobe Hit All-Time Lows | Mistral Raising at $20BN and The Case for Sovereign Models | Fin Acquired by Salesforce fo",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-spacex-soars-to-27trn-anthropics-fable-banned-by-us-government-wix-and-adobe-hit-all-time-lows-mistral-raising-at-20bn-and-the-case-for-sovereign-models-fin-acquired-by-salesforce-for-36bn",
+      "date": "Thu, 18 Jun 2026 07:07:00 +0000",
+      "summary": "AGENDA:     00:00 \u2014 SpaceX Completes the Largest IPO in History   03:45 \u2014 Elon Musk Adds a Warren Buffett Fortune in 24 Hours   20:45 \u2014 Anthropic's Claude Fable Launches Monday, Gets Banned by Thursday   25:00 \u2014 Washington Declares War on Frontier AI   39:00 \u2014 Europe's Sovereign AI Push Accelerates as Mistral Targets $20B   43:30 \u2014 Benchmark Admits Its Biggest Miss: Passing on the Model Labs   45:"
     },
     {
       "podcast": "20VC",
@@ -974,30 +962,6 @@
       "url": "https://allinchamathjason.libsyn.com/thomas-laffont-the-4t-ai-ipo-wave-2026s-unicorn-economy-and-the-10x-paradox",
       "date": "Thu, 04 Jun 2026 18:23:00 +0000",
       "summary": "(0:00) Coatue's Thomas Laffont joins the Besties!   (0:30) Public markets are back as AI is dominates the \"Unicorn Economy\"   (5:15) The $4T AI IPO explosion   (7:48) The case for SpaceX: Compounding launch monopoly and Starlink   (10:38) The 10x Paradox: Why we're seeing unprecedented scaling   (15:33) Segmenting AI markets and future impact   (18:32) Bestie Q&A: Power Law in AI, future of VC, wh"
-    },
-    {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "Palantir CEO Alex Karp on Tokenmaxxing & Taste",
-      "url": "https://share.transistor.fm/s/14a1df49",
-      "date": "Thu, 04 Jun 2026 15:45:53 -0700",
-      "summary": "\n         This is our full conversation with Alex Karp, recorded live at AIPCon 10. We discuss why he believes taste is the most important competitive advantage in the age of AI, how enterprises are struggling to turn AI hype into real business value, why \"tokenmaxxing\" and AI overuse can distract companies from solving meaningful problems, and the growing risk of AI regulation and nationalization"
-    },
-    {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "Palantir's AIPCon 10, Ramp Hits $44B, 60 Minutes Considers Rogan | Diet TBPN",
-      "url": "https://share.transistor.fm/s/e1fdba90",
-      "date": "Thu, 04 Jun 2026 14:55:25 -0700",
-      "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
-    },
-    {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "\ud83d\udd34 Alex Karp LIVE from AIPCon 10 | Alex Karp, Peter Zaffino, Chad Wahlquist, Sam Berry",
-      "url": "https://share.transistor.fm/s/47c63ce6",
-      "date": "Thu, 04 Jun 2026 13:52:42 -0700",
-      "summary": "\n         (00:00) - - Live from Palantir's AIPCon 10\n \n (12:38) - - Ramp raises $750M at $44B valuation\n \n (15:19) - - Timeline reactions\n \n (23:57) - - Alex Karp, co-founder and CEO of Palantir Technologies, discusses the evolution of artificial intelligence (AI) adoption, noting a shift from skepticism to widespread recognition of its value, while cautioning against unproductive overuse. He emph"
     },
     {
       "podcast": "20VC",
@@ -1050,6 +1014,14 @@
     {
       "podcast": "20VC",
       "host": "Harry Stebbings",
+      "title": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-why-remote-work-is-white-collar-fraud-why-revenge-and-patriotism-are-the-best-founder-traits-two-questions-every-founder-needs-to-ask-the-wild-story-of-raising-1bn-from-masa-son-in-an-hour-long-meeting-with-ryan-peterson-founder-flexport",
+      "date": "Sat, 20 Jun 2026 07:07:00 +0000",
+      "summary": "Ryan Peterson is the Founder & CEO @ Flexport, the logistics darling of the venture capital world that has raised $900M+ with the last round valuing the company at $8BN. Today, the company does $450M in revenue growing 30% YoY.\u00a0   AGENDA:\u00a0   00:00 \u2014 Why Does Ryan Petersen Call Remote Work \"White Collar Fraud\"?   08:30 \u2014 Does Having More Money Actually Make You a Better Founder?   11:40 \u2014 When Will"
+    },
+    {
+      "podcast": "20VC",
+      "host": "Harry Stebbings",
       "title": "20VC: Lessons from Jensen Huang on \"Founder Mode\" | How to Know if OpenAI or Anthropic Will Kill your Company | How USV Liking Music Made Them $1BN on an Investment | The Five Year Desert to Product M",
       "url": "https://thetwentyminutevc.libsyn.com/20vc-lessons-from-jensen-huang-on-founder-mode-how-to-know-if-openai-or-anthropic-will-kill-your-company-how-usv-liking-music-made-them-1bn-on-an-investment-the-five-year-desert-to-product-market-fit-a-53bn-valuation-with-shiv-rao-abridge",
       "date": "Sat, 16 May 2026 07:07:00 +0000",
@@ -1098,18 +1070,42 @@
     {
       "podcast": "20VC",
       "host": "Harry Stebbings",
-      "title": "20VC: Inside Clay's Sales Playbook Scaling to $100M ARR | How to Set Sales Comp Plans | How to Read Sales Talent Linkedin Profiles | What Profiles to Hire & Fire | How to Increase Performance and Spee",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-inside-clays-sales-playbook-scaling-to-100m-arr-how-to-set-sales-comp-plans-how-to-read-sales-talent-linkedin-profiles-what-profiles-to-hire-fire-how-to-increase-performance-and-speed-in-sales-teams-with-becca-lindquist",
-      "date": "Sat, 02 May 2026 07:07:00 +0000",
-      "summary": "Becca Lindquist is Head of Sales at Clay, one of the fastest-growing AI companies to reach $100M+ ARR. She previously helped scale dbt Labs into a category-defining data platform, building and leading high-performing sales teams. Before that, she was an early sales leader at Heap, where she played a key role in scaling the GTM motion.   AGENDA:   00:00 Why most sales reps plateau\u2014and when you shou"
-    },
-    {
-      "podcast": "20VC",
-      "host": "Harry Stebbings",
       "title": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Sh",
       "url": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
       "date": "Mon, 18 May 2026 07:07:00 +0000",
       "summary": "Josh Browder is my favourite emerging manager. As the Founder of Browder Capital he has been the first check into unicorns like Micro1,  Owner.com  and Yuzu Health to name a few. He turned his Thiel Fellowship Grant of $100K into a whopping $10M angel portfolio. All new investments move into Josh's Four Seasons Residence where he then trains them on company building. They are only allowed to leave"
+    },
+    {
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "Anthropic Drama, Meta Now Tokenminning, Fox's $22B Roku Deal | Diet TBPN",
+      "url": "https://share.transistor.fm/s/df1a29b3",
+      "date": "Mon, 15 Jun 2026 17:07:52 -0700",
+      "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
+    },
+    {
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "Freedom 250 Recap with Bo Nickal, The Hand Anthropic Was Dealt, Fox Buys Roku | Bo Nickal, Gavin Baker, Leif Abraham, Aaron Ginn, Rafael Vivas",
+      "url": "https://share.transistor.fm/s/07ad1b46",
+      "date": "Mon, 15 Jun 2026 13:51:19 -0700",
+      "summary": "\n         (00:57) - Freedom 250 Recap\n \n (04:43) - Bo Nickal, a former Penn State wrestling champion turned UFC middleweight fighter, recently secured a first-round knockout victory over Kyle Daukaus at UFC Freedom 250, held on the White House South Lawn. In the conversation, Nickal discusses his early awareness of the event, having known seven months prior that he would be on the card, which allo"
+    },
+    {
+      "podcast": "TBPN",
+      "host": "John Coogan + Jordi Hays",
+      "title": "Gavin Baker: SpaceX Might Be the Greatest Company of All Time",
+      "url": "https://share.transistor.fm/s/fbe1f5b4",
+      "date": "Mon, 15 Jun 2026 13:18:06 -0700",
+      "summary": "\n         This is our full conversation with Gavin Baker. We discuss the aftermath of the SpaceX IPO, why he believes SpaceX could become the most important company of all time, how AI infrastructure and \"token factories\" are reshaping capital markets, why sovereign AI strategies may struggle to compete with frontier labs, and what the future of data centers, orbital compute, and the AI endgame co"
+    },
+    {
+      "podcast": "20VC",
+      "host": "Harry Stebbings",
+      "title": "20VC: Micron Will Be More Valuable Than Meta | How Export Controls Helped Not Hurt China | Power is the Bottleneck to AI | Why Dario Has Done a Disservice to AI with his Labour Replacement Messaging w",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-micron-will-be-more-valuable-than-meta-how-export-controls-helped-not-hurt-china-power-is-the-bottleneck-to-ai-why-dario-has-done-a-disservice-to-ai-with-his-labour-replacement-messaging-with-aravind-srinivas-founder-perplexity",
+      "date": "Mon, 15 Jun 2026 07:09:00 +0000",
+      "summary": "Aravind Srinivas is the Founder and CEO of Perplexity, one of the fastest-growing AI companies in the world. Since the start of the year, Perplexity has tripled revenue to well over $500M in ARR. Aravind has raised over $1BN for the company with reported valuations reaching $20BN.\u00a0   AGENDA:\u00a0   05:40 \u2013 \"Perplexity Changed Google More Than Any PM Ever Has\"   10:15 \u2013 Why Search Is Not the Future of "
     },
     {
       "podcast": "20VC",
@@ -1136,44 +1132,12 @@
       "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
     },
     {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "WWDC Reactions, Jobs Up Stocks Down, VC Horror Stories | Will Marshall, Baroness Dambisa Moyo, Samuel Hume, David Kirtley, Pete Florence, Jordan Bramble",
-      "url": "https://share.transistor.fm/s/3d5315dd",
-      "date": "Mon, 08 Jun 2026 14:43:16 -0700",
-      "summary": "\n         (01:13) - WWDC Reactions\n \n (19:30) - Jobs Up Stocks Down\n \n (23:45) - VC Horror Stories\n \n (40:40) - Will Marshall, co-founder and CEO of Planet, discusses the company's mission to make global change visible and actionable through a fleet of over 200 Earth-imaging satellites that capture daily images of the entire landmass at approximately 3-meter resolution. He explains their verticall"
-    },
-    {
       "podcast": "20VC",
       "host": "Harry Stebbings",
       "title": "20VC: Nebius Co-Founder on AI Infrastructure Bubbles | The Real Impact of Open Source on OpenAI & Anthropic | How Price Elastic is Demand for Compute | Could Nebius Sell 10x More Compute If They Had I",
       "url": "https://thetwentyminutevc.libsyn.com/20vc-nebius-co-founder-on-ai-infrastructure-bubbles-the-real-impact-of-open-source-on-openai-anthropic-how-price-elastic-is-demand-for-compute-could-nebius-sell-10x-more-compute-if-they-had-it-more-with-roman-chernin",
       "date": "Mon, 08 Jun 2026 07:07:00 +0000",
       "summary": "Roman Chernin is Co-Founder and Chief Business Officer of  Nebius , one of the fastest-growing AI infrastructure companies in the world. Today, Nebius operates some of the largest AI compute clusters globally and serves leading AI labs, enterprises, and developers. Today, Nebius has a market cap of $57BN.\u00a0   AGENDA:\u00a0   00:00 \u2014 Why AI Infrastructure Is Not a Bubble   05:00 \u2014 The Real Impact of Open"
-    },
-    {
-      "podcast": "20VC",
-      "host": "Harry Stebbings",
-      "title": "20VC: Shopify's Tobi L\u00fctke on How AI is a Scapegoat for Mass Layoffs & What Will Labour Markets Be in the Future | Why We Need More Scrutiny on Charitable Giving, Governments are Bad at What They Do a",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-shopifys-tobi-ltke-on-how-ai-is-a-scapegoat-for-mass-layoffs-what-will-labour-markets-be-in-the-future-why-we-need-more-scrutiny-on-charitable-giving-governments-are-bad-at-what-they-do-and-trump-derangement-syndrome-in-canada",
-      "date": "Mon, 04 May 2026 07:07:00 +0000",
-      "summary": "Tobi L\u00fctke is the co-founder and CEO of Shopify, the global e-commerce titan with a $160 billion market cap. Under his leadership, the company generates over $7 billion in annual revenue and has seen its valuation grow nearly 100x since its 2015 IPO. Today, Shopify has over 8,000 employees and AI now generates over 50% of the Shopify's code.\u00a0   AGENDA:   00:10:36 - The $160 billion CEO who did not"
-    },
-    {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "YouTubers Win at the Box Office, Bernie Wants Public Stake in AI, Anthropic Files S-1 | Diet TBPN",
-      "url": "https://share.transistor.fm/s/4f61dcab",
-      "date": "Mon, 01 Jun 2026 16:48:37 -0700",
-      "summary": "\n         Diet TBPN delivers the best of today\u2019s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11\u20132 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as \u201cSilicon Valley\u2019s newest obsession,\u201d the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Sat"
-    },
-    {
-      "podcast": "TBPN",
-      "host": "John Coogan + Jordi Hays",
-      "title": "YouTubers Win the Box Office, Salesforce on a Tear, Bernie Sanders: A.I. is a Public Resource | Adam Iscoe, Danial Jameel, Mike Schroepfer, Nico Ferreyra, Sue Khim, Bernie Su",
-      "url": "https://share.transistor.fm/s/07ff1b7d",
-      "date": "Mon, 01 Jun 2026 14:11:25 -0700",
-      "summary": "\n         (01:05) - YouTubers Win the Box Office\n \n (32:48) - \ud835\udd4f Timeline Reactions\n \n (35:40) - Bernie Wants Public Stake in AI\n \n (49:03) - Anthropic IPO\n \n (50:04) - Salesforce Invests $2B in France\n \n (51:03) - Salesforce on a Tear\n \n (55:37) - \ud835\udd4f Timeline Reactions\n \n (59:39) - Adam Iscoe, a journalist formerly with The New Yorker, has covered diverse topics including mental illness, contempora"
     },
     {
       "podcast": "20VC",
@@ -1214,6 +1178,22 @@
       "url": "https://www.corememory.com/p/openai-musk-verdict-schmidt-booed-grok-taxes",
       "date": "Fri, 22 May 2026 09:52:46 GMT",
       "summary": "We are back with another episode of Ashlee and Kylie gossiping about the latest in Silicon Valley. First, a re-cap of our  Alexandr Wang  interview \u2014 his first real sit-down in eleven months \u2014 and what it actually revealed about Meta\u2019s AI play. Wang seemed nervous hashing out the strategy in the studio, and we both keep circling the same puzzle: Meta has endless compute and top talent in Nat Fried"
+    },
+    {
+      "podcast": "All-In",
+      "host": "Chamath/Jason/Sacks/Friedberg",
+      "title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "url": "https://allinchamathjason.libsyn.com/worlds-first-trillionaire-anthropic-fable-banned-the-new-oligarchs-iran-peace-deal",
+      "date": "Fri, 19 Jun 2026 22:07:00 +0000",
+      "summary": "(0:00) Bestie intros!   (2:41) The New Oligarchs, America's incoming politburo, and learned helplessness   (14:18) SpaceX's record breaking IPO, $60B Cursor acquisition, and trillionaire reactions   (33:34) Behind the scenes of Anthropic's Fable ban   (1:01:18) Claude psychoanalyzes its creator, Dario Amodei   (1:14:31) Iran War MOU and the market impact   Apply for Summit 2026:   https://allin.co"
+    },
+    {
+      "podcast": "Core Memory",
+      "host": "Ashlee Vance",
+      "title": "Body Scanners, Banned Models, and DeepMind's Space Game Obsession - EP 78 Ashlee Vance And Kylie Robison",
+      "url": "https://www.corememory.com/p/body-scanners-banned-models-and-deepminds-midjourney-mri-rafa",
+      "date": "Fri, 19 Jun 2026 17:11:24 GMT",
+      "summary": "Did Kylie and I attend the Midjourney Scanner event? Yes,  we did . Did Kylie compare notes on her skincare routine with Bryan Johnson at the event? Also, yes. Meanwhile, I formed more wrinkles by downing cocktails while all this happened. Since the Midjourney pivot into medical devices and health spas is all the rage, we had no choice but to dive right in on this week\u2019s episode. We also explored "
     },
     {
       "podcast": "All-In",

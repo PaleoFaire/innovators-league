@@ -1,9 +1,827 @@
 {
-  "generatedAt": "2026-06-14T11:32:49+00:00",
+  "generatedAt": "2026-06-21T11:44:13+00:00",
   "model": "claude-haiku-4-5",
   "rosterSize": 1734,
-  "rawItemsConsidered": 100,
-  "newExtractionsThisRun": 100,
-  "uniqueCandidates": 0,
-  "candidates": []
+  "rawItemsConsidered": 95,
+  "newExtractionsThisRun": 95,
+  "uniqueCandidates": 31,
+  "candidates": [
+    {
+      "name": "Cerebras Systems",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Cerebras CEO on the Future of Data Centres, Token Costs and Memory | We are Not in an Infra Bubble & Dario Got a Bad Deal with Elon for Compute | Should US Companies Sell to China & Why Most Lay",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-cerebras-ceo-on-the-future-of-data-centres-token-costs-and-memory-we-are-not-in-an-infra-bubble-dario-got-a-bad-deal-with-elon-for-compute-should-us-companies-sell-to-china-why-most-layoffs-are-ai-washed-with-andrew-feldman",
+          "date": "Tue, 26 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Chips & Semiconductors"
+      ],
+      "founders": [
+        "Andrew Feldman"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Semiconductor company designing custom AI compute chips and systems, recently went public with a $20B multi-year compute agreement from OpenAI."
+    },
+    {
+      "name": "Corgi Insurance",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Corgi Insurance: The Most Intense Workplace Culture in America: 7 Days Per Week, Founder Sleeps in Office, Corgi Cafe Open 24 Hours a Day, 60% of First 30 Employees Have Corgi Tattoos | The Jour",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-corgi-insurance-the-most-intense-workplace-culture-in-america-7-days-per-week-founder-sleeps-in-office-corgi-cafe-open-24-hours-a-day-60-of-first-30-employees-have-corgi-tattoos-the-journey-from-0-to-26bn-valuation-in-just-2-years",
+          "date": "Sat, 30 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Nico Laqua"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An AI-native insurance carrier built specifically for startups."
+    },
+    {
+      "name": "Factory",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20Sales: The $100M CRO Bubble: Why Anthropic Are Causing a Comp Crisis | Why You Should Never Hire From Salesforce or Service Now | How to Hire, Train and Forecase in a World of AI with Chad Peets and",
+          "url": "https://thetwentyminutevc.libsyn.com/20sales-the-100m-cro-bubble-why-anthropic-are-causing-a-comp-crisis-why-you-should-never-hire-from-salesforce-or-service-now-how-to-hire-train-and-forecase-in-a-world-of-ai-with-chad-peets-and-chris-degnan",
+          "date": "Sat, 23 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        },
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Who Wins the Model War: OpenAI, Anthropic or Open-Source | Token Maxing, AI Hangovers & The Coming ROI Reckoning | Labour Displacement Fears are BS & Overblown | From Physicist to Sequoia Founde",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-who-wins-the-model-war-openai-anthropic-or-open-source-token-maxing-ai-hangovers-the-coming-roi-reckoning-labour-displacement-fears-are-bs-overblown-from-physicist-to-sequoia-founder-with-matan-grinberg-founder-factory",
+          "date": "Sat, 13 Jun 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Matan Grinberg"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A software development or manufacturing automation company that Chad Peets has partnered with to build sales teams in a world of AI."
+    },
+    {
+      "name": "Mercor",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Mercor CEO on Why Application Layer Companies Have No Defensibility, The Model is the Product | Token Spend Will Exceed Headcount Spend in 5 Years | The True Cost of Hiring AI Researchers in the",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-mercor-ceo-on-why-application-layer-companies-have-no-defensibility-the-model-is-the-product-token-spend-will-exceed-headcount-spend-in-5-years-the-true-cost-of-hiring-ai-researchers-in-the-valley-today-with-brendan-foody",
+          "date": "Mon, 01 Jun 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Brendan Foody"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Data provider serving major AI labs including OpenAI, supplying critical training data and resources to frontier AI companies."
+    },
+    {
+      "name": "Nebius",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Nebius Co-Founder on AI Infrastructure Bubbles | The Real Impact of Open Source on OpenAI & Anthropic | How Price Elastic is Demand for Compute | Could Nebius Sell 10x More Compute If They Had I",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-nebius-co-founder-on-ai-infrastructure-bubbles-the-real-impact-of-open-source-on-openai-anthropic-how-price-elastic-is-demand-for-compute-could-nebius-sell-10x-more-compute-if-they-had-it-more-with-roman-chernin",
+          "date": "Mon, 08 Jun 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Roman Chernin"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI infrastructure company operating large compute clusters and providing compute services to AI labs, enterprises, and developers."
+    },
+    {
+      "name": "Perplexity",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Micron Will Be More Valuable Than Meta | How Export Controls Helped Not Hurt China | Power is the Bottleneck to AI | Why Dario Has Done a Disservice to AI with his Labour Replacement Messaging w",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-micron-will-be-more-valuable-than-meta-how-export-controls-helped-not-hurt-china-power-is-the-bottleneck-to-ai-why-dario-has-done-a-disservice-to-ai-with-his-labour-replacement-messaging-with-aravind-srinivas-founder-perplexity",
+          "date": "Mon, 15 Jun 2026 07:09:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Aravind Srinivas"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI-powered search and information retrieval platform that has grown to over $500M ARR and is challenging traditional search paradigms."
+    },
+    {
+      "name": "Phantom Neuro",
+      "discoveries": [
+        {
+          "source": "Core Memory",
+          "host": "Ashlee Vance",
+          "title": "The Cyborgs Commeth - EP 69 Connor Glass",
+          "url": "https://www.corememory.com/p/the-cyborgs-commeth-connor-glass-phantom-neuro-bci",
+          "date": "Fri, 01 May 2026 15:56:51 GMT",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Robotics & Manufacturing"
+      ],
+      "founders": [
+        "Connor Glass"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "Core Memory"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Develops implantable human-machine interfaces that enable amputees to control robotic limbs using neural signals from their brain."
+    },
+    {
+      "name": "Science Corp",
+      "discoveries": [
+        {
+          "source": "Core Memory",
+          "host": "Ashlee Vance",
+          "title": "The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event",
+          "url": "https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science",
+          "date": "Wed, 17 Jun 2026 15:11:18 GMT",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [
+        "Max Hodak"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "Core Memory"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Biotech company developing technology to restore vision in the blind and working on organ transplant and life extension products."
+    },
+    {
+      "name": "Speechify",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: What I Learned from 100 of the Best CEOs in the World | What I Learned from Staying with Mr Beast for 3 Weeks | How We Will Spend More on Tokens than Salaries with Cliff Weitzman, Speechify",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-what-i-learned-from-100-of-the-best-ceos-in-the-world-what-i-learned-from-staying-with-mr-beast-for-3-weeks-how-we-will-spend-more-on-tokens-than-salaries-with-cliff-weitzman-speechify",
+          "date": "Sat, 09 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Cliff Weitzman"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Voice AI agent that converts text to speech, used by 60M+ people with accessibility features for dyslexia and ADHD."
+    },
+    {
+      "name": "Tasklet",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "YC Demo Day Lightning Round, New Snap AR Glasses, SpaceX Rips | Garry Tan, Andrew Lee, Stamatios Floratos, Hugo Frisk, Efra\u00edn Torres, Russell Smith, Payton Case, Akshay Trikha, Diana Hu, Harj Taggar, ",
+          "url": "https://share.transistor.fm/s/233fa238",
+          "date": "Tue, 16 Jun 2026 14:22:50 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Andrew Lee"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An AI agent platform that integrates with various work tools to automate workflows and dynamically generate integrations using AI."
+    },
+    {
+      "name": "Macrodata Labs",
+      "discoveries": [
+        {
+          "source": "Latent Space (swyx)",
+          "host": "",
+          "title": "[AINews] Loopcraft: The Art of Stacking Loops",
+          "url": "https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking",
+          "date": "Fri, 12 Jun 2026 05:34:09 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "Robotics & Manufacturing"
+      ],
+      "founders": [],
+      "stealthSignal": true,
+      "confidence": "medium",
+      "sources": [
+        "Latent Space (swyx)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Infrastructure startup building tools for robotics data loops, dataset observability, and dependency tracing."
+    },
+    {
+      "name": "Aktis Oncology",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+          "url": "https://allinchamathjason.libsyn.com/all-ins-best-ideas-pitch-competition-4-investors-present-their-top-trades-live",
+          "date": "Fri, 12 Jun 2026 01:25:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An oncology-focused biotech company developing novel cancer therapeutics."
+    },
+    {
+      "name": "Clicky",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "The Social Reckoning Reactions, Fable 5 Sparks Safety Debate, \ud835\udd4f Timeline Reactions | Farza Majeed, Trent Simonian, Sridhar Ramaswamy, Matthew Prince, Vinod Khosla, Ranjan Rajagopalan, Markie Wagner, B",
+          "url": "https://share.transistor.fm/s/a414a9a1",
+          "date": "Wed, 10 Jun 2026 14:40:01 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Farza Majeed"
+      ],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An AI assistant that executes user commands on computers with real-time GPT responses and integration with multimodal models for screen understanding."
+    },
+    {
+      "name": "Cyera",
+      "discoveries": [
+        {
+          "source": "Newcomer (Eric Newcomer)",
+          "host": "",
+          "title": "David Sacks' Warning About Anthropic Regulatory Pleas Misses the Mark & SpaceX Asks Investors to Dream Big in Mega IPO",
+          "url": "https://www.newcomer.co/p/david-sacks-warning-about-anthropic",
+          "date": "Fri, 12 Jun 2026 15:37:33 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "Defense & Security"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Newcomer (Eric Newcomer)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Cybersecurity or data protection startup for enterprise defense."
+    },
+    {
+      "name": "Datadog",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Andrej Karpathy Joins Anthropic & Anthropic Raises $30BN at $900BN Price | SpaceX Files S1: How Does it Trade | Cerebras Smashes Day 1: What it Means for IPOs | Why Mass Layoffs Are More Worryin",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-andrej-karpathy-joins-anthropic-anthropic-raises-30bn-at-900bn-price-spacex-files-s1-how-does-it-trade-cerebras-smashes-day-1-what-it-means-for-ipos-why-mass-layoffs-are-more-worrying-than-anyone-sees",
+          "date": "Thu, 21 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Monitoring and observability platform that exceeded earnings expectations."
+    },
+    {
+      "name": "Figma",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Andrej Karpathy Joins Anthropic & Anthropic Raises $30BN at $900BN Price | SpaceX Files S1: How Does it Trade | Cerebras Smashes Day 1: What it Means for IPOs | Why Mass Layoffs Are More Worryin",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-andrej-karpathy-joins-anthropic-anthropic-raises-30bn-at-900bn-price-spacex-files-s1-how-does-it-trade-cerebras-smashes-day-1-what-it-means-for-ipos-why-mass-layoffs-are-more-worrying-than-anyone-sees",
+          "date": "Thu, 21 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Design and collaboration platform that beat market expectations, likely incorporating AI capabilities."
+    },
+    {
+      "name": "GEODNET",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+          "url": "https://allinchamathjason.libsyn.com/all-ins-best-ideas-pitch-competition-4-investors-present-their-top-trades-live",
+          "date": "Fri, 12 Jun 2026 01:25:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A positioning and mapping infrastructure network leveraging satellite and terrestrial signals for high-precision geolocation services."
+    },
+    {
+      "name": "Harvey",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20Sales: The $100M CRO Bubble: Why Anthropic Are Causing a Comp Crisis | Why You Should Never Hire From Salesforce or Service Now | How to Hire, Train and Forecase in a World of AI with Chad Peets and",
+          "url": "https://thetwentyminutevc.libsyn.com/20sales-the-100m-cro-bubble-why-anthropic-are-causing-a-comp-crisis-why-you-should-never-hire-from-salesforce-or-service-now-how-to-hire-train-and-forecase-in-a-world-of-ai-with-chad-peets-and-chris-degnan",
+          "date": "Sat, 23 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An AI-powered legal technology platform that Chad Peets has partnered with to build sales teams."
+    },
+    {
+      "name": "Legora",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20Product: Inside Legora's Tech Stack: Why Token Maxing is Failing Enterprise Startups with Jacob Lauritzen, CTO @ Legora",
+          "url": "https://thetwentyminutevc.libsyn.com/20productinside-legoras-tech-stack-why-token-maxing-is-failing-enterprise-startups-with-jacob-lauritzen-cto-legora",
+          "date": "Sat, 06 Jun 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        },
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Inside Legora: $100M ARR in 18 Months | Jude Law Generated $50M in Sales Pipeline: The Economics Broken Down | Competing Against Harvey, the 800 Pound Gorilla | Why Legora is Undervalued at $5.5",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-inside-legora-100m-arr-in-18-months-jude-law-generated-50m-in-sales-pipeline-the-economics-broken-down-competing-against-harvey-the-800-pound-gorilla-why-legora-is-undervalued-at-55bn-with-patrick-forquer-cro-legora",
+          "date": "Mon, 11 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Enterprise software company that reached $100M ARR in 18 months and is tracking toward $250M ARR, competing in a space with established players."
+    },
+    {
+      "name": "Poetic",
+      "discoveries": [
+        {
+          "source": "Newcomer (Eric Newcomer)",
+          "host": "",
+          "title": "David Sacks' Warning About Anthropic Regulatory Pleas Misses the Mark & SpaceX Asks Investors to Dream Big in Mega IPO",
+          "url": "https://www.newcomer.co/p/david-sacks-warning-about-anthropic",
+          "date": "Fri, 12 Jun 2026 15:37:33 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Newcomer (Eric Newcomer)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Enterprise AI automation startup using natural language or AI-driven workflows."
+    },
+    {
+      "name": "Radical",
+      "discoveries": [
+        {
+          "source": "Latent Space (swyx)",
+          "host": "",
+          "title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
+          "url": "https://www.latent.space/p/radical-ai",
+          "date": "Wed, 17 Jun 2026 17:58:06 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Joseph Krause"
+      ],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Latent Space (swyx)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Builds self-driving labs that use AI scientists to generate hypotheses and conduct automated research in closed-loop systems, treating experimental data as a core competitive moat."
+    },
+    {
+      "name": "SkyPilot",
+      "discoveries": [
+        {
+          "source": "Latent Space (swyx)",
+          "host": "",
+          "title": "[AINews] Fable and Mythos officially too dangerous to release",
+          "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+          "date": "Sat, 13 Jun 2026 04:30:52 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Latent Space (swyx)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Infrastructure platform for running untrusted LLM-generated code safely in sandboxed Kubernetes environments."
+    },
+    {
+      "name": "Spacesail",
+      "discoveries": [
+        {
+          "source": "Rest of World",
+          "host": "",
+          "title": "China builds a rival satellite constellation as SpaceX goes public",
+          "url": "https://restofworld.org/2026/spacesail-spacex-starlink-competition-ipo/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "date": "Thu, 11 Jun 2026 10:00:00 +0000",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "Space & Aerospace"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Rest of World"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Chinese satellite constellation company building a rival network to compete with SpaceX's Starlink."
+    },
+    {
+      "name": "Yuzu Health",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Sh",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
+          "date": "Mon, 18 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A health-focused startup that received early investment from Josh Browder as a first-check investor."
+    },
+    {
+      "name": "Albion River",
+      "discoveries": [
+        {
+          "source": "Invest Like the Best",
+          "host": "Patrick O'Shaughnessy",
+          "title": "Darren Farber on Iran, China, and the Rise of Neoprimes - [Invest Like the Best, EP.474]",
+          "url": "https://colossus.com/episode/the-new-rules-of-war/",
+          "date": "Tue, 26 May 2026 08:00:00 -0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Defense & Security"
+      ],
+      "founders": [
+        "Darren Farber"
+      ],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "Invest Like the Best"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A defense-focused investment firm managing capital for frontier defense technology companies."
+    },
+    {
+      "name": "Anti Fund",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "Jake Paul Thinks We'll Live Forever",
+          "url": "https://share.transistor.fm/s/4ed8418d",
+          "date": "Thu, 18 Jun 2026 15:20:23 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A venture fund focused on AI, defense, robotics, and frontier technology investments."
+    },
+    {
+      "name": "Micro1",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Sh",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
+          "date": "Mon, 18 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A portfolio company backed by Josh Browder as an early-stage investor, sector unclear from context but mentioned as unicorn-track company."
+    },
+    {
+      "name": "Ona",
+      "discoveries": [
+        {
+          "source": "Newcomer (Eric Newcomer)",
+          "host": "",
+          "title": "David Sacks' Warning About Anthropic Regulatory Pleas Misses the Mark & SpaceX Asks Investors to Dream Big in Mega IPO",
+          "url": "https://www.newcomer.co/p/david-sacks-warning-about-anthropic",
+          "date": "Fri, 12 Jun 2026 15:37:33 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "Newcomer (Eric Newcomer)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Healthcare or medical data analytics company addressing frontier health challenges."
+    },
+    {
+      "name": "Owner.com",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Sh",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
+          "date": "Mon, 18 May 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An early-stage startup that received first-check investment from Josh Browder and was mentored at his Four Seasons residence."
+    },
+    {
+      "name": "Prometheus",
+      "discoveries": [
+        {
+          "source": "Newcomer (Eric Newcomer)",
+          "host": "",
+          "title": "David Sacks' Warning About Anthropic Regulatory Pleas Misses the Mark & SpaceX Asks Investors to Dream Big in Mega IPO",
+          "url": "https://www.newcomer.co/p/david-sacks-warning-about-anthropic",
+          "date": "Fri, 12 Jun 2026 15:37:33 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "Newcomer (Eric Newcomer)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Enterprise AI or monitoring platform for critical infrastructure."
+    },
+    {
+      "name": "Taste Labs",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "Snap Specs, Taste, Midjourney Hardware | Eric Newcomer, Merrill Lutsky, Carter Reum, Swami Sivasubramanian, Thomas Suarez, Mark Gurman, Ryan Daniels, Isaiah Granet",
+          "url": "https://share.transistor.fm/s/e959c3d4",
+          "date": "Wed, 17 Jun 2026 14:30:14 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A company working on taste-related technology or products, mentioned as a discussion topic in the podcast."
+    }
+  ]
 }

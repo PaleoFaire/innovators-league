@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:26:06+00:00",
+  "generatedAt": "2026-06-21T11:40:54+00:00",
   "lookbackDays": 14,
   "sources": [
     {
@@ -12,13 +12,13 @@
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 6
     },
     {
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 16
+      "recentItems": 12
     },
     {
       "name": "Construction Physics (Brian Potter)",
@@ -30,37 +30,37 @@
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 2
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 0
+      "recentItems": 1
     },
     {
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 4
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
       "url": "https://brief.bismarckanalysis.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 0
     },
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 18,
-      "recentItems": 14
+      "totalItems": 17,
+      "recentItems": 9
     },
     {
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 11
+      "recentItems": 10
     },
     {
       "name": "404 Media",
@@ -84,43 +84,12 @@
       "name": "Platformer (Casey Newton)",
       "url": "https://www.platformer.news/rss",
       "totalItems": 15,
-      "recentItems": 4
+      "recentItems": 3
     }
   ],
-  "totalRawSignals": 54,
-  "uniqueCandidateCount": 53,
+  "totalRawSignals": 28,
+  "uniqueCandidateCount": 28,
   "candidates": [
-    {
-      "name": "American",
-      "totalScore": 15.6,
-      "sourceCount": 2,
-      "signals": [
-        {
-          "name": "American",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "in  @MiniMax_AI Ecosystem, hardware, and industrial capacity Westmag emerged from stealth to build  American robot actuators and drone motors , with  $11M raised  led by a16z and participation from Fo",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        },
-        {
-          "name": "American",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "e , just one week after the same company  launched its much larger Marauder , which it  built in an American shipyard (America is supposed to be bad at shipbuilding) in under a year. If that\u2019s what Am",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #197",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-197",
-          "articleDate": "Fri, 12 Jun 2026 12:58:11 GMT"
-        }
-      ]
-    },
     {
       "name": "Spacesail",
       "totalScore": 13.8,
@@ -160,44 +129,6 @@
       ]
     },
     {
-      "name": "Fittingly",
-      "totalScore": 13.6,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Fittingly",
-          "score": 13.6,
-          "frontierTechScore": 4,
-          "mentions": 1,
-          "context": "uest  was the lead on NVIDIA Cosmos over a year ago, discussing training videogen and world models. Fittingly, Cosmos 3 launched  today, unifying language, image, video, audio and action in a  Mixture",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
-          "articleUrl": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
-          "articleDate": "Tue, 02 Jun 2026 03:28:10 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Cosmos",
-      "totalScore": 13.6,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Cosmos",
-          "score": 13.6,
-          "frontierTechScore": 4,
-          "mentions": 1,
-          "context": "he lead on NVIDIA Cosmos over a year ago, discussing training videogen and world models. Fittingly, Cosmos 3 launched  today, unifying language, image, video, audio and action in a  Mixture-of-Transfo",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
-          "articleUrl": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
-          "articleDate": "Tue, 02 Jun 2026 03:28:10 GMT"
-        }
-      ]
-    },
-    {
       "name": "Poetic",
       "totalScore": 12.6,
       "sourceCount": 1,
@@ -213,6 +144,63 @@
           "articleTitle": "David Sacks' Warning About Anthropic Regulatory Pleas Misses the Mark & SpaceX Asks Investors to Dream Big in Mega IPO",
           "articleUrl": "https://www.newcomer.co/p/david-sacks-warning-about-anthropic",
           "articleDate": "Fri, 12 Jun 2026 15:37:33 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Origin",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Origin",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "j_UW  and skepticism/speculation about xAI\u2019s broader strategy  @kimmonismus . Cursor also launched  Origin , a new code storage/git hosting product designed for  agent workloads , merge conflict handl",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
+          "articleUrl": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
+          "articleDate": "Wed, 17 Jun 2026 05:37:40 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Flue",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Flue",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "hain JS added  stream transformers  for in-flight modification/redaction of agent streams  @bromann Flue 1.0 Beta launched as a TypeScript framework for agents/workflows/channels with durable recovery",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
+          "articleUrl": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
+          "articleDate": "Wed, 17 Jun 2026 05:37:40 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Beta",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Beta",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "dded  stream transformers  for in-flight modification/redaction of agent streams  @bromann Flue 1.0 Beta launched as a TypeScript framework for agents/workflows/channels with durable recovery and no L",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
+          "articleUrl": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
+          "articleDate": "Wed, 17 Jun 2026 05:37:40 GMT"
         }
       ]
     },
@@ -255,173 +243,21 @@
       ]
     },
     {
-      "name": "Arena",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Arena",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "g agent and a local model simulate the user. Evaluation also shifted toward real-world agent work.  Arena  launched  Agent Arena / Agent Mode , measuring agentic performance from  millions of live ses",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-          "articleDate": "Fri, 05 Jun 2026 06:44:49 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Agent Arena",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Agent Arena",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "al model simulate the user. Evaluation also shifted toward real-world agent work.  Arena  launched  Agent Arena / Agent Mode , measuring agentic performance from  millions of live sessions  with tools",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-          "articleDate": "Fri, 05 Jun 2026 06:44:49 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Agent Mode",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Agent Mode",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ate the user. Evaluation also shifted toward real-world agent work.  Arena  launched  Agent Arena / Agent Mode , measuring agentic performance from  millions of live sessions  with tools like web sear",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-          "articleDate": "Fri, 05 Jun 2026 06:44:49 GMT"
-        }
-      ]
-    },
-    {
-      "name": "WAI Anima",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "WAI Anima",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ck figures, while the rest were generated in Anima, and the author says they are looking forward to WAI Anima.  Commenters praised Anima\u2019s multi-character composition and prompt adherence, with one co",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-          "articleDate": "Fri, 05 Jun 2026 06:44:49 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Commenters",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Commenters",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "while the rest were generated in Anima, and the author says they are looking forward to WAI Anima.  Commenters praised Anima\u2019s multi-character composition and prompt adherence, with one comparing it f",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-          "articleDate": "Fri, 05 Jun 2026 06:44:49 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Anima",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Anima",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " generated in Anima, and the author says they are looking forward to WAI Anima.  Commenters praised Anima\u2019s multi-character composition and prompt adherence, with one comparing it favorably to  NovelA",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-          "articleDate": "Fri, 05 Jun 2026 06:44:49 GMT"
-        }
-      ]
-    },
-    {
-      "name": "MAI",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "MAI",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "superintelligence\u201d Facts vs. opinions Factual claims in the tweet set Microsoft launched  seven new MAI models  at Build:  @MicrosoftAI Official metrics for MAI-Thinking-1:  35B active MoE ,  256K con",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Build",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Build",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ce\u201d Facts vs. opinions Factual claims in the tweet set Microsoft launched  seven new MAI models  at Build:  @MicrosoftAI Official metrics for MAI-Thinking-1:  35B active MoE ,  256K context ,  97% AIM",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Mixture",
+      "name": "An SDL",
       "totalScore": 9.35,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Mixture",
+          "name": "An SDL",
           "score": 9.35,
           "frontierTechScore": 4,
           "mentions": 1,
-          "context": "odels. Fittingly, Cosmos 3 launched  today, unifying language, image, video, audio and action in a  Mixture-of-Transformers architecture  that pairs an autoregressive reasoner with a diffusion generat",
+          "context": "driving labs at Radical. Joseph argues that experimental data is the true \u201cmoat\u201d in this industry.  An SDL functions as a closed-loop system where an AI scientist generates hypotheses, and automated r",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
-          "articleUrl": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
-          "articleDate": "Tue, 02 Jun 2026 03:28:10 GMT"
+          "articleTitle": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
+          "articleUrl": "https://www.latent.space/p/radical-ai",
+          "articleDate": "Wed, 17 Jun 2026 17:58:06 GMT"
         }
       ]
     },
@@ -441,25 +277,6 @@
           "articleTitle": "Weekly Dose of Optimism #197",
           "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-197",
           "articleDate": "Fri, 12 Jun 2026 12:58:11 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Morris Chang",
-      "totalScore": 8.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Morris Chang",
-          "score": 8.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "n to the motors and actuators, respectively. But in 1987, a former Texas Instruments engineer named Morris Chang launched TSMC, which offered to fab everyone else\u2019s chips for them. Nvidia, founded six",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "America Spins on Westmag",
-          "articleUrl": "https://www.notboring.co/p/westmag",
-          "articleDate": "Tue, 02 Jun 2026 15:34:10 GMT"
         }
       ]
     },
@@ -502,25 +319,6 @@
       ]
     },
     {
-      "name": "Texas Instruments",
-      "totalScore": 7.8,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Texas Instruments",
-          "score": 7.8,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": "stems to vertically integrate down to the motors and actuators, respectively. But in 1987, a former Texas Instruments engineer named Morris Chang launched TSMC, which offered to fab everyone else\u2019s ch",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "America Spins on Westmag",
-          "articleUrl": "https://www.notboring.co/p/westmag",
-          "articleDate": "Tue, 02 Jun 2026 15:34:10 GMT"
-        }
-      ]
-    },
-    {
       "name": "Subscribe",
       "totalScore": 6.3,
       "sourceCount": 1,
@@ -536,44 +334,6 @@
           "articleTitle": "David Sacks' Warning About Anthropic Regulatory Pleas Misses the Mark & SpaceX Asks Investors to Dream Big in Mega IPO",
           "articleUrl": "https://www.newcomer.co/p/david-sacks-warning-about-anthropic",
           "articleDate": "Fri, 12 Jun 2026 15:37:33 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Why",
-      "totalScore": 6.3,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Why",
-          "score": 6.3,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": " iteration What Bryon learned in his first week at SpaceX (after 12 years in traditional aerospace) Why building a carrier-based, air-launched hypersonic missile as a first product was the hard but ri",
-          "source": "The Generalist (Mario Gabriele)",
-          "sourceUrl": "https://www.generalist.com/feed",
-          "articleTitle": "What America Is Missing Between Sanctions and Nuclear War (Bryon Hargis, Co-Founder & CEO of Castelion)",
-          "articleUrl": "https://www.generalist.com/p/what-america-is-missing-between-sanctions",
-          "articleDate": "Tue, 02 Jun 2026 12:04:31 GMT"
-        }
-      ]
-    },
-    {
-      "name": "How",
-      "totalScore": 6.3,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "How",
-          "score": 6.3,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "g a carrier-based, air-launched hypersonic missile as a first product was the hard but right choice How focusing on manufacturability and cost over maximum capability can produce more effective deterr",
-          "source": "The Generalist (Mario Gabriele)",
-          "sourceUrl": "https://www.generalist.com/feed",
-          "articleTitle": "What America Is Missing Between Sanctions and Nuclear War (Bryon Hargis, Co-Founder & CEO of Castelion)",
-          "articleUrl": "https://www.generalist.com/p/what-america-is-missing-between-sanctions",
-          "articleDate": "Tue, 02 Jun 2026 12:04:31 GMT"
         }
       ]
     },
@@ -768,211 +528,21 @@
       ]
     },
     {
-      "name": "Evaluation",
-      "totalScore": 5.95,
+      "name": "American",
+      "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Evaluation",
-          "score": 5.95,
-          "frontierTechScore": 2,
+          "name": "American",
+          "score": 5.4,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": " session traces  by having an open model play the coding agent and a local model simulate the user. Evaluation also shifted toward real-world agent work.  Arena  launched  Agent Arena / Agent Mode , m",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-          "articleDate": "Fri, 05 Jun 2026 06:44:49 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Facts",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Facts",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "029 @mustafasuleyman  summarized the company\u2019s philosophical theme as  \u201cHumanist superintelligence\u201d Facts vs. opinions Factual claims in the tweet set Microsoft launched  seven new MAI models  at Buil",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Factual",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Factual",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "n  summarized the company\u2019s philosophical theme as  \u201cHumanist superintelligence\u201d Facts vs. opinions Factual claims in the tweet set Microsoft launched  seven new MAI models  at Build:  @MicrosoftAI Of",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "MicrosoftAI Official",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "MicrosoftAI Official",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " vs. opinions Factual claims in the tweet set Microsoft launched  seven new MAI models  at Build:  @MicrosoftAI Official metrics for MAI-Thinking-1:  35B active MoE ,  256K context ,  97% AIME 2025 , ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "MAI-Thinking",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "MAI-Thinking",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "he tweet set Microsoft launched  seven new MAI models  at Build:  @MicrosoftAI Official metrics for MAI-Thinking-1:  35B active MoE ,  256K context ,  97% AIME 2025 ,  53% SWE-Bench Pro , and blind hu",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Ecosystem",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Ecosystem",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "er operation, and MSA reducing attention\u2019s share of decode time from  ~30% to ~5% , in  @MiniMax_AI Ecosystem, hardware, and industrial capacity Westmag emerged from stealth to build  American robot a",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Lux",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Lux",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "t actuators and drone motors , with  $11M raised  led by a16z and participation from Founders Fund, Lux, NFDG, Menlo and others, in  @boxcardavid ,  @packyM , and  @oyhsu PyTorch noted NVIDIA adoption",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "NFDG",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "NFDG",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "uators and drone motors , with  $11M raised  led by a16z and participation from Founders Fund, Lux, NFDG, Menlo and others, in  @boxcardavid ,  @packyM , and  @oyhsu PyTorch noted NVIDIA adoption of  ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Menlo",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Menlo",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " and drone motors , with  $11M raised  led by a16z and participation from Founders Fund, Lux, NFDG, Menlo and others, in  @boxcardavid ,  @packyM , and  @oyhsu PyTorch noted NVIDIA adoption of  OpenMD",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-          "articleUrl": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-          "articleDate": "Wed, 03 Jun 2026 05:49:02 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Cosmos Coalition",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Cosmos Coalition",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ll-stack release\u2014 weights, code, datasets, and fine-tuning recipes \u2014with NVIDIA also launching the  Cosmos Coalition  alongside partners including  Runway  to build an open ecosystem for world models ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
-          "articleUrl": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
-          "articleDate": "Tue, 02 Jun 2026 03:28:10 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Stargate Michigan",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Stargate Michigan",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "cs to reduce network power and failures in large AI clusters  @LambdaAPI .  OpenAI  also announced  Stargate Michigan , a planned  1GW  data center using closed-loop cooling and paired with workforce/",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
-          "articleUrl": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
-          "articleDate": "Tue, 02 Jun 2026 03:28:10 GMT"
+          "context": "e , just one week after the same company  launched its much larger Marauder , which it  built in an American shipyard (America is supposed to be bad at shipbuilding) in under a year. If that\u2019s what Am",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #197",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-197",
+          "articleDate": "Fri, 12 Jun 2026 12:58:11 GMT"
         }
       ]
     },
@@ -1049,63 +619,6 @@
           "articleTitle": "Expanding the Radius of Daily Life",
           "articleUrl": "https://www.notboring.co/p/expanding-the-radius-of-daily-life",
           "articleDate": "Mon, 08 Jun 2026 13:04:26 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Defense",
-      "totalScore": 3.5,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Defense",
-          "score": 3.5,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18\nOn Thursday",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
-          "articleUrl": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
-          "articleDate": "Thu, 04 Jun 2026 21:30:00 +0000"
-        }
-      ]
-    },
-    {
-      "name": "StrictlyVC Los Angeles",
-      "totalScore": 3.5,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "StrictlyVC Los Angeles",
-          "score": 3.5,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18\nOn Thursday, June 18, at The Aerospace Corporation Campus, investo",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
-          "articleUrl": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
-          "articleDate": "Thu, 04 Jun 2026 21:30:00 +0000"
-        }
-      ]
-    },
-    {
-      "name": "On Thursday",
-      "totalScore": 3.5,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "On Thursday",
-          "score": 3.5,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18\nOn Thursday, June 18, at The Aerospace Corporation Campus, investors, founders, and tech leaders wil",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
-          "articleUrl": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
-          "articleDate": "Thu, 04 Jun 2026 21:30:00 +0000"
         }
       ]
     }
