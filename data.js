@@ -50937,6 +50937,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-06-20
 // Auto-updated IPO pipeline — Last updated: 2026-06-21
 // Auto-updated IPO pipeline — Last updated: 2026-06-21
+// Auto-updated IPO pipeline — Last updated: 2026-06-21
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -53714,6 +53715,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-06-21
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-06-21
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-06-21
 const DEAL_TRACKER = [
   { company: "Matter", investor: "Undisclosed", amount: "$14M", round: "Funding Round", date: "2026-06", valuation: "", leadOrParticipant: "lead" },
   { company: "Zoox", investor: "Undisclosed", amount: "$1.8B", round: "Funding Round", date: "2026-06", valuation: "", leadOrParticipant: "lead" },
@@ -55076,6 +55079,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-06-19
 // Auto-updated revenue intelligence — Last updated: 2026-06-20
 // Auto-updated revenue intelligence — Last updated: 2026-06-20
+// Auto-updated revenue intelligence — Last updated: 2026-06-21
 // Auto-updated revenue intelligence — Last updated: 2026-06-21
 // Auto-updated revenue intelligence — Last updated: 2026-06-21
 const REVENUE_INTEL = [
@@ -57921,6 +57925,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-06-21
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-06-21
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-06-21
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$3.3B+", contractCount: 200, agencies: ["Department of Energy", "Department of Defense", "Department of Homeland Security"], lastUpdated: "2026-06-21" },
   { company: "Palantir", totalGovValue: "$4.5B+", contractCount: 200, agencies: ["Department of State", "Department of Defense", "Department of Agriculture", "Department of Health and Human Services", "General Services Administration"], lastUpdated: "2026-06-21" },
@@ -59427,6 +59433,8 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-06-21
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-06-21
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-06-21
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 120, velocity: "55-65/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 45, velocity: "17-27/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -60510,6 +60518,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-06-20
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-06-20
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-06-21
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-06-21
 // Auto-updated news feed (curated + auto-detected)
@@ -63156,6 +63166,8 @@ const DATA_QUALITY = {
 // Last updated: 2026-06-21 10:37
 // Auto-generated real-time signals
 // Last updated: 2026-06-21
+// Auto-generated real-time signals
+// Last updated: 2026-06-21
 const COMPANY_SIGNALS = [
   { id: 1, type: "ipo", company: "SpaceX", headline: "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE", source: "Next Big Future", time: "18h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "GrayMatter Robotics", headline: "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics", source: "The Robot Report", time: "20h ago", impact: "low", unread: true },
@@ -63619,6 +63631,8 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-06-21
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-06-21
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-06-21
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -64041,6 +64055,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-06-20
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-06-20
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-06-21
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-06-21
 // Auto-recalibrated contractor readiness scores
