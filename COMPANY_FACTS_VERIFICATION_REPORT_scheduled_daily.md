@@ -1,20 +1,20 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-06-20T08:43:44+00:00  
+**Generated:** 2026-06-21T09:39:33+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 37 companies  
+**Cohort size:** 41 companies  
 
-**New Claude extractions this run:** 37  
+**New Claude extractions this run:** 41  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 32 | 86% |
-| 🔧 Changes proposed | 5 | 14% |
+| ✅ Cleared (data matches sources) | 36 | 88% |
+| 🔧 Changes proposed | 5 | 12% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
@@ -23,46 +23,46 @@
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Dawn Aerospace
+### Agility Robotics
 
-- **`location`:** `Delft, Netherlands` → `Delft, Netherlands and Christchurch, New Zealand`  
-  Sources: [company_about](https://dawnaerospace.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Dawn_Aerospace)
+- **`location`:** `Salem, OR` → `Salem, Oregon`  
+  Sources: [company_about](https://agilityrobotics.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Agility_Robotics)
 
-  **Notes:** Company operates from four global locations (Netherlands, New Zealand, France, USA) as of August 2025. The Aurora spaceplane achieved supersonic flight on November 12, 2024, reaching Mach 1.1 and 82,000 ft altitude. Wikipedia lists 120+ employees (August 2025); company website states 130+ people. Current stage not explicitly stated in sources.
+  **Notes:** Company announced a rebrand to 'Agility' on March 5, 2026 per Wikipedia source [2]. Sources do not contain verified information on funding stage, total raised, valuation, or specific investors. Database entry mentions 'Series D' and '$400M+' but these cannot be verified from provided sources.
 
-### ICON
+### Fervo Energy
 
-- **`founder`:** `Jason Ballard, Alex Le Roux, Evan Loomis` → `Kennan Frost`  
-  Sources: [company_website](https://icon.com)
+- **`fundingStage`:** `IPO` → `Public`  
+  Sources: [company_website](https://fervoenergy.com)
 
-  **Notes:** Sources describe two different companies both named 'Icon': (1) Icon the Human Admaker - a UGC ad creation platform founded by Kennan Frost (previously founded Skio); (2) ICON - a 3D concrete printing technology company mentioned in Wikipedia disambiguation page. The provided database entry appears to describe the 3D-printed homes company, but the sources provided (0-1) only document the UGC ad platform. Source [2] Wikipedia lists 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is about Solar Foods, not Icon. Unable to verify the database entry claims about 3D-printed homes, DoD/NASA contracts, $450M raised, $2B valuation, or the founders Jason Ballard, Alex Le Roux, and Evan Loomis from these sources.
+  **Notes:** Company went public in May 2026 based on newsroom references in source 0 (headlines dated May 17, 2026). Wikipedia source 2 lists company as 'Private' but appears outdated. Most recent Series E funding of $462M in November 2025 led by B Capital per source 2.
 
-### Rivian
+### Gecko Robotics
 
-- **`founder`:** `R. J. Scaringe` → `RJ Scaringe`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rivian)
-- **`location`:** `Irvine, California` → `Irvine, California, U.S.`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rivian)
+- **`totalRaised`:** `$300M+` → `$125M`  
+  Sources: [company_about](https://geckorobotics.com/about-us)
 
-  **Notes:** Founded in Rockledge, Florida in 2009 as Mainstream Motors, renamed to Avera Automotive, then Rivian Automotive in 2011. Company went public on Nasdaq (RIVN) on November 10, 2021. Wikipedia article states the company raised 'over US$13.5 billion in financing following its initial public offering in November 2021.' Valuation at IPO was $66.5 billion at offering price but $100 billion on first trading day; no current verified valuation provided in sources.
+  **Notes:** Series D funding round occurred in June 2025, raising $125M and valuing the company at $1.25B. Company operates internationally with offices in Houston, Boston, New York City, Washington DC, and Abu Dhabi in addition to Pittsburgh headquarters. Source [2] is about GrayMatter Robotics, not Gecko Robotics, and was not used.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The current database entry claims an IPO valuation of $1.5T and stage of 'IPO' (preparing), but Wikipedia states the IPO already occurred and was the largest in history. No recent valuation figure found in sources to verify the $1.5T or $800B claims. Database entry about '165 Falcon 9 launches in 2025' and '81% of all mass' cannot be verified from these sources.
+  **Notes:** IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Database entry claims $1.5T valuation and IPO stage designation, but sources only confirm $86B raised in IPO and that company is now Public (Nasdaq: SPCX). No valuation figure found in sources. Database entry claims 165 Falcon 9 launches in 2025 and 81% of mass to orbit - not verified in provided sources.
 
 ### Varda Space Industries
 
 - **`fundingStage`:** `Series C` → `Series B`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Varda_Space_Industries)
+- **`totalRaised`:** `$131M` → `$132M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Varda_Space_Industries)
 
-  **Notes:** Wikipedia indicates $42M Series A in July 2021 and $90M Series B in April 2024, totaling $131M verified. Database entry claims $187M Series C, but sources only document Series B. No Series C funding found in provided sources. Database claim of 5 missions in 2025 partially verified: W-2 (January 2025), W-3 (March 2025), W-4 (June 2025) confirmed in Wikipedia, but only 3 missions explicitly detailed.
+  **Notes:** Wikipedia states $42M Series A in July 2021 and $90M Series B in April 2024, totaling $132M. Database entry claims $187M Series C and $131M total raised, which cannot be verified from provided sources. Database entry lists 5 missions in 2025; Wikipedia confirms W-2, W-3, W-4 launches in 2025 and W-1 in 2023. No Series C funding is mentioned in any source.
 
 ---
 
-## ✅ Cleared (32 companies)
+## ✅ Cleared (36 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -70,37 +70,37 @@ Sample (first 30):
 
 - 1X Technologies
 - AbCellera
-- Agility Robotics
 - Andromeda Surgical
 - AnySignal
 - Apptronik
+- Ares Industries
 - Astera Labs
-- Atom Bodies
 - Blue Origin
 - Built Robotics
 - Cape
+- Dawn Aerospace
 - Deterrence
 - Dexterity
 - Durin
-- Fervo Energy
+- GrayMatter Robotics
 - Hadrian
 - Humanoid
+- ICON
+- Karman Industries
 - Mara
 - Orbital Composites
 - Palantir
 - Percepto
 - QuantumScape
 - Relativity Space
+- Rivian
 - Scale AI
 - Solar Foods
 - Solid Power
-- Standard Nuclear
-- Tenstorrent
-- Waymo
-- X-Energy
-- *...and 2 more*
+- Solugen
+- *...and 6 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-06-20T08:43:44+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-06-21T09:39:34+00:00*
