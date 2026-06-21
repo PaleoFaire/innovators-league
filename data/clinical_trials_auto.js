@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-06-20 09:55:20 UTC
+// Last updated: 2026-06-21 10:23:21 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT01175993", title: "Effects of Rapid-Resisted Exercise and Bright Light Therapy on Ambulatory Adults", status: "COMPLETED", phase: "PHASE1, PHASE2", sponsor: "National Institutes of Health Clinical Center (CC)", conditions: "Adult, Traumatic Brain Injury, fMRI", enrollment: 34, lastUpdated: "2026-06-18" },
   { nctId: "NCT04503278", title: "A Clinical Study of the Safety and Effectiveness of an Investigational Cell Ther", status: "ACTIVE_NOT_RECRUITING", phase: "PHASE1", sponsor: "BioNTech Cell & Gene Therapies GmbH", conditions: "Solid Tumor", enrollment: 214, lastUpdated: "2026-06-18" },
