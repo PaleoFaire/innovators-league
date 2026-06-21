@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-20";
+const LAST_UPDATED = "2026-06-21";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -62722,10 +62722,10 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-20 22:17
+// Last updated: 2026-06-21 00:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "GrayMatter Robotics", headline: "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics", source: "The Robot Report", time: "8h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Rivian", headline: "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks", source: "CleanTechnica", time: "18h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "GrayMatter Robotics", headline: "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics", source: "The Robot Report", time: "10h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Rivian", headline: "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks", source: "CleanTechnica", time: "20h ago", impact: "low", unread: true },
   { id: 3, type: "funding", company: "Solar Foods", headline: "Solar Foods bags '77.8M package, '500M defence and dual-use growth fund EDM launched, and warning for Europe's silicon p", source: "Tech.eu", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "milestone", company: "Blue Origin", headline: "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "Electric Sheep", headline: "Do dragons dream of electric sheep?", source: "Inside Quantum Technology", time: "1d ago", impact: "low", unread: true },
