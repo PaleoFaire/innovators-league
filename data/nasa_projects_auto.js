@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-06-21 10:24:50 UTC
+// Last updated: 2026-06-22 12:40:19 UTC
 const NASA_PROJECTS = [
   { id: 183680, title: "Laser-Based Measurements of Electron Properties in Hall Effect Thrusters with No", status: "Active", center: "University of Michigan-Ann Arbor", techArea: "Electrostatic Propulsion", lastUpdated: "06/19/26" },
   { id: 183706, title: "Kinetic Modeling of Carbon Mass Loss in Nuclear Thermal Propulsion", status: "Active", center: "University of California-Irvine", techArea: "Nuclear Thermal Propulsion", lastUpdated: "06/19/26" },

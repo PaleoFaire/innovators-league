@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-06-21 10:23:36 UTC
+// Last updated: 2026-06-22 12:39:43 UTC
 const ARXIV_PAPERS = [
   { id: "2606.20560v1", title: "How Transparent is DiffusionGemma?", category: "Artificial Intelligence", published: "2026-06-18", sectors: "nuclear", authors: "Joshua Engels, Callum McDougall, Bilal Chughtai et al." },
   { id: "2606.20532v1", title: "How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech", category: "Artificial Intelligence", published: "2026-06-18", sectors: "nuclear, ai", authors: "Nityanand Mathur, Hamees Sayed, Wasim Madha et al." },
