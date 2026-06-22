@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T05:22:54+00:00",
+  "generatedAt": "2026-06-22T12:22:33+00:00",
   "matrix": {
     "autonomy-drone-military": {
       "2026-Q2": {
@@ -479,15 +479,15 @@
       }
     },
     "humanoid-robotics": {
-      "2025-Q4": {
-        "deals": 1,
+      "2026-Q2": {
+        "deals": 2,
         "totalSold": null,
-        "companiesWithUnknownAmount": 1,
+        "companiesWithUnknownAmount": 2,
         "companies": [
           {
             "name": "Figure AI",
             "amount": null,
-            "date": "2025-12",
+            "date": "2026-06",
             "source": "recentEvent",
             "investors": [
               "Jeff Bezos",
@@ -501,15 +501,7 @@
               "Qualcomm",
               "Salesforce"
             ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
+          },
           {
             "name": "Neura Robotics",
             "amount": null,
