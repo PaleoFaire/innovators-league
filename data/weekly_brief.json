@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-21",
-  "display_date": "Jun 21, 2026",
-  "generated_at": "2026-06-21T12:12:34.867344+00:00",
-  "cutoff": "2026-06-14T12:12:34.867344+00:00",
-  "section_count": 6,
-  "total_items": 310,
+  "date": "2026-06-22",
+  "display_date": "Jun 22, 2026",
+  "generated_at": "2026-06-22T15:26:39.010814+00:00",
+  "cutoff": "2026-06-15T15:26:39.010814+00:00",
+  "section_count": 7,
+  "total_items": 256,
   "sections": [
     {
       "title": "Top Score Movers",
@@ -86,27 +86,13 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 58,
+      "count": 39,
       "items": [
-        {
-          "company": "AST SpaceMobile",
-          "form": "8-K",
-          "description": "form8-k.htm",
-          "date": "2026-06-15",
-          "isIPO": false
-        },
         {
           "company": "Momentus",
           "form": "8-K",
           "description": "tm2618205d1_8k.htm",
           "date": "2026-06-17",
-          "isIPO": false
-        },
-        {
-          "company": "Virgin Galactic",
-          "form": "8-K",
-          "description": "spce-20260611.htm",
-          "date": "2026-06-15",
           "isIPO": false
         },
         {
@@ -143,16 +129,79 @@
           "description": "rxrx-20260617.htm",
           "date": "2026-06-18",
           "isIPO": false
+        },
+        {
+          "company": "Joby Aviation",
+          "form": "8-K",
+          "description": "skyt-20260616x8k.htm",
+          "date": "2026-06-16",
+          "isIPO": false
+        },
+        {
+          "company": "Agrify Corporation",
+          "form": "8-K",
+          "description": "ea0295164-8k_rythm.htm",
+          "date": "2026-06-18",
+          "isIPO": false
+        }
+      ]
+    },
+    {
+      "title": "Contract Opportunities",
+      "icon": "\ud83c\udfe2",
+      "count": 2,
+      "items": [
+        {
+          "title": "SIP TO128 1ST QUARTER HARDWARE BUY",
+          "agency": "",
+          "value": "",
+          "date": "2026-08-06"
+        },
+        {
+          "title": "PALANTIR SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) SECURE NETWORK STARLIGHT PLATFORM IN SUPPORT OF USDA FOOD AND ",
+          "agency": "",
+          "value": "",
+          "date": "2026-06-22"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 47,
+      "count": 22,
       "items": [
         {
-          "title": "EPCRA Hazardous Chemical Inventory Reporting Requirements: Conformity With the 2024 OSHA Hazard Communication Standard",
+          "title": "City of Spokane; Notice of Scoping Comment Sessions and Environmental Site Review",
+          "type": "Notice",
+          "agencies": [
+            "Energy Department",
+            "Federal Energy Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-06-22"
+        },
+        {
+          "title": "Permitted Payment Stablecoin Issuer Customer Identification Program",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Treasury Department",
+            "Financial Crimes Enforcement Network"
+          ],
+          "significant": false,
+          "date": "2026-06-22"
+        },
+        {
+          "title": "Public Notice: Design Challenge for National Memorial to Fallen Highway Workers in Work Zones",
+          "type": "Notice",
+          "agencies": [
+            "Transportation Department",
+            "Federal Highway Administration"
+          ],
+          "significant": false,
+          "date": "2026-06-22"
+        },
+        {
+          "title": "Congressional Review Act Revocation of 2024 Amendments to the National Emission Standards for Hazardous Air Pollutants: ",
           "type": "Rule",
           "agencies": [
             "Environmental Protection Agency"
@@ -161,67 +210,30 @@
           "date": "2026-06-22"
         },
         {
-          "title": "National Airspace System Advisory Committee (Previously Known as the NextGen Advisory Committee)",
-          "type": "Notice",
-          "agencies": [
-            "Transportation Department",
-            "Federal Aviation Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-18"
-        },
-        {
-          "title": "Petition for Exemption; Summary of Petition Received; Amor Fati Industries Corp",
-          "type": "Notice",
-          "agencies": [
-            "Transportation Department",
-            "Federal Aviation Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-16"
-        },
-        {
-          "title": "Flag Day and National Flag Week, 2026",
-          "type": "Presidential Document",
-          "agencies": [
-            "Executive Office of the President"
-          ],
-          "significant": false,
-          "date": "2026-06-18"
-        },
-        {
-          "title": "Environmental Impact Statements; Notice of Availability",
-          "type": "Notice",
+          "title": "Air Plan Approval; OR; Update to Materials Incorporated by Reference",
+          "type": "Rule",
           "agencies": [
             "Environmental Protection Agency"
           ],
           "significant": false,
-          "date": "2026-06-18"
+          "date": "2026-06-22"
         },
         {
-          "title": "Authorization of Emergency Use for Two Animal Drugs for the Prevention and Treatment of New World Screwworm; Availabilit",
+          "title": "Self-Regulatory Organizations; NYSE Texas, Inc.; Notice of Filing of Proposed Rule Change To Add a New Partial Cabinet S",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Securities and Exchange Commission"
           ],
           "significant": false,
-          "date": "2026-06-18"
+          "date": "2026-06-22"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 34,
+      "count": 29,
       "items": [
-        {
-          "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
-          "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "high",
-          "type": "ipo"
-        },
         {
           "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
           "source": "Ars Technica",
@@ -237,25 +249,32 @@
           "type": "contract"
         },
         {
-          "title": "Former Palantir employees raise $60M for AI enterprise startup Conduct",
-          "source": "Tech.eu",
-          "company": "Palantir",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Dawn Aerospace raises $25 million",
-          "source": "SpaceNews",
-          "company": "Dawn Aerospace",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
           "title": "SpaceX Acquires AI Coding Tool Cursor For $60B In Year\u2019s Largest Startup M&#038;A Deal",
           "source": "Crunchbase News",
           "company": "SpaceX",
           "impact": "high",
           "type": "ipo"
+        },
+        {
+          "title": "Astroscale raises funding to support growth strategy",
+          "source": "SpaceNews",
+          "company": "Astroscale",
+          "impact": "low",
+          "type": "funding"
+        },
+        {
+          "title": "Sea Limited, OpenAI to jointly expand AI access for e-commerce Shopee users, sellers",
+          "source": "TechNode Global",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+          "source": "TechCrunch",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "milestone"
         },
         {
           "title": "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE",
@@ -276,55 +295,57 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 49,
+      "count": 42,
       "items": [
         {
-          "title": "Hyundai buys Boston Dynamics",
-          "score": 943,
-          "comments": 392,
+          "title": "Identity verification on Claude",
+          "score": 802,
+          "comments": 668,
           "companies": [
-            "Rainbow Robotics"
+            "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=48600312"
+          "url": "https://news.ycombinator.com/item?id=48618455"
         },
         {
-          "title": "Norway imposes near ban on AI in elementary school",
-          "score": 798,
-          "comments": 571,
+          "title": "Loupe \u2013 A iOS app that raises awareness about what native apps can see",
+          "score": 530,
+          "comments": 230,
           "companies": [
-            "Alpha School"
+            "Sakana AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48600093"
+          "url": "https://news.ycombinator.com/item?id=48608645"
         },
         {
-          "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
-          "score": 527,
-          "comments": 253,
+          "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
+          "score": 444,
+          "comments": 143,
           "companies": [
-            "OpenAI"
+            "Physical Intelligence",
+            "Skild AI",
+            "Covariant"
           ],
-          "url": "https://news.ycombinator.com/item?id=48600167"
+          "url": "https://news.ycombinator.com/item?id=48622778"
         },
         {
           "title": "The Wholesale Plagiarism of Obscure Sorrows",
-          "score": 370,
-          "comments": 147,
+          "score": 403,
+          "comments": 164,
           "companies": [],
           "url": "https://news.ycombinator.com/item?id=48611411"
         },
         {
-          "title": "I Stored a Website in a Favicon",
-          "score": 301,
-          "comments": 105,
+          "title": "Windows 11 New Media Player Uses 3.5x More RAM, Charges for Popular Video Codecs",
+          "score": 317,
+          "comments": 176,
           "companies": [
-            "ICON"
+            "Runway"
           ],
-          "url": "https://news.ycombinator.com/item?id=48606619"
+          "url": "https://news.ycombinator.com/item?id=48609343"
         },
         {
           "title": "VPN ban update for UK households as government looks at 'age-gate'",
-          "score": 298,
-          "comments": 341,
+          "score": 305,
+          "comments": 360,
           "companies": [
             "Palantir"
           ],
@@ -338,37 +359,37 @@
       "count": 106,
       "items": [
         {
-          "title": "FREELANDER 8 Makes First Public Appearance Ahead of Official Abu Dhabi Launch",
+          "title": "Transactions in connection with share buyback programme",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Bunker Hill Mining Announces Director Resignation",
+          "title": "Investeringsforeningen ValueInvest Danmark \u2013 Prospekt",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "America\u2019s Car-Mart, Inc. Announces Agreement with Lenders to Support Ongoing Strategic Review Process",
+          "title": "SEALSQ\u2019s QS7001 Post-Quantum Secure Element Aligned with New ANSSI Post Quantum Mandate",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Conifex Announces Voting Results",
+          "title": "Patriot Bank Expands into Palm Beach and the South Florida Market",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Dynacor Group Appoints New CEO as AGM Backs Director Nominees",
+          "title": "NeoVolta Confirms FEOC Compliance at Georgia Manufacturing Facility; Commissioning on Track for End of August",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Groupe Dynacor nomme un nouveau chef de la direction, alors que l'AGA soutient les candidats au conseil d'administration",
+          "title": "Achieve Life Sciences Receives Complete Response Letter from FDA for Cytisinicline NDA",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-06-21-28c7d6e0a917"
+  "brief_id": "brief-2026-06-22-fb5d7911abd9"
 }
