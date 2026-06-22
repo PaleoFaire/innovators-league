@@ -63237,25 +63237,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-22 12:21
-// Auto-generated real-time signals
-// Last updated: 2026-06-22
+// Last updated: 2026-06-22 17:44
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Astroscale", headline: "Astroscale raises funding to support growth strategy", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "Sea Limited, OpenAI to jointly expand AI access for e-commerce Shopee users, sellers", source: "TechNode Global", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Anthropic", headline: "When the Trump administration cracks down on Anthropic, who benefits?", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "GrayMatter Robotics", headline: "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics", source: "The Robot Report", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Tesla SpaceX Merger Announcement and Vote Could Happen Over Next 3 Months", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Rivian", headline: "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Solar Foods", headline: "Solar Foods bags €77.8M package, €500M defence and dual-use growth fund EDM launched, and warning for Europe's silicon p", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Blue Origin", headline: "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars", source: "Ars Technica Space", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Electric Sheep", headline: "Do dragons dream of electric sheep?", source: "Inside Quantum Technology", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "QuantumScape", headline: "Honda and QuantumScape (QS) team up to make &#8216;game-changing&#8217; solid-state batteries", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Before SpaceX IPO, investors in China secretly acquired stakes", source: "Ars Technica", time: "3d ago", impact: "high", unread: false },
-  { id: 13, type: "contract", company: "SpaceX", headline: "Before SpaceX IPO, investors in China secretly acquired stakes", source: "Defense One", time: "3d ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "xAI", headline: "DOJ intervenes on behalf of xAI in data center gas turbine lawsuit", source: "Utility Dive", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Humanoid", headline: "Richtech Robotics launches livestream for ADAM AI-powered humanoid", source: "The Robot Report", time: "3d ago", impact: "medium", unread: false },
+  { id: 1, type: "milestone", company: "Anthropic", headline: "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic's Mythos", source: "Wired", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX inks compute deal with Reflection AI, an open source AI lab", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Has Another $150 Million Per Month Deal", source: "Next Big Future", time: "Just now", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "Cover", headline: "NASA to Cover US Spacewalk 95, Host Preview News Conference", source: "NASA Breaking News", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Nearfield Instruments", headline: "Dutch chip gear maker Nearfield Instruments raises $380M", source: "Tech.eu", time: "4h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "Astroscale", headline: "Astroscale raises funding to support growth strategy", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "Sea Limited, OpenAI to jointly expand AI access for e-commerce Shopee users, sellers", source: "TechNode Global", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Anthropic", headline: "When the Trump administration cracks down on Anthropic, who benefits?", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "GrayMatter Robotics", headline: "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "Tesla SpaceX Merger Announcement and Vote Could Happen Over Next 3 Months", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Rivian", headline: "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Solar Foods", headline: "Solar Foods bags '77.8M package, '500M defence and dual-use growth fund EDM launched, and warning for Europe's silicon p", source: "Tech.eu", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Blue Origin", headline: "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars", source: "Ars Technica Space", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Electric Sheep", headline: "Do dragons dream of electric sheep?", source: "Inside Quantum Technology", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
