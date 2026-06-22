@@ -1,23 +1,5 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 58,
-    "trend": "accelerating",
-    "catalysts": [
-      "Defense manufacturing readiness hinges on autonomous finishi",
-      "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks",
-      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int"
-    ],
-    "fundingQ": "$8.2B",
-    "components": {
-      "funding": 100,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-21"
-  },
-  {
     "sector": "Nuclear Energy",
     "momentum": 58,
     "trend": "steady",
@@ -32,47 +14,47 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-21"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 56,
-    "trend": "accelerating",
-    "catalysts": [
-      "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE",
-      "Tesla SpaceX Merger Announcement and Vote Could Happen Over",
-      "Solar Foods bags \u20ac77.8M package, \u20ac500M defence and dual-use"
-    ],
-    "fundingQ": "$180.4B",
-    "components": {
-      "funding": 100,
-      "news": 85,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "AI & Software",
-    "momentum": 55,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI is bringing on some big guns in the lead-up to its IP",
-      "Cargofy lands $6M to scale AI workers for logistics",
-      "Anthropic Used Cursor Use Data to Get Ahead, So SpaceXAI Wil"
+      "Sea Limited, OpenAI to jointly expand AI access for e-commer",
+      "When the Trump administration cracks down on Anthropic, who",
+      "Cargofy lands $6M to scale AI workers for logistics"
     ],
     "fundingQ": "$170.9B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "Defense manufacturing readiness hinges on autonomous finishi",
+      "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks",
+      "Richtech Robotics launches livestream for ADAM AI-powered hu"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 54,
+    "momentum": 52,
     "trend": "accelerating",
     "catalysts": [
       "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE",
@@ -82,11 +64,11 @@
     "fundingQ": "$32.8B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 30
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Climate & Energy",
@@ -103,25 +85,42 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 51,
+    "trend": "accelerating",
+    "catalysts": [
+      "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE",
+      "Tesla SpaceX Merger Announcement and Vote Could Happen Over",
+      "Solar Foods bags \u20ac77.8M package, \u20ac500M defence and dual-use"
+    ],
+    "fundingQ": "$180.4B",
+    "components": {
+      "funding": 100,
+      "news": 65,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 49,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
       "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE",
-      "Defense manufacturing readiness hinges on autonomous finishi",
-      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int"
+      "Defense manufacturing readiness hinges on autonomous finishi"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -137,7 +136,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Ocean & Maritime",
@@ -153,7 +152,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -171,7 +170,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Transportation",
@@ -187,30 +186,30 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 22,
+    "momentum": 23,
     "trend": "declining",
     "catalysts": [
       "Former Palantir healthcare head raises \u00a310M for NHS AI agent",
       "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat",
-      "<a href=\"/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-a"
+      "<a href=\"/biotech/definiums-lsd-formula-produces-best-data-e"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 75
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 22,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
       "Defense manufacturing readiness hinges on autonomous finishi",
       "Tesla SpaceX Merger Announcement and Vote Could Happen Over",
@@ -219,11 +218,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Quantum Computing",
@@ -240,25 +239,24 @@
       "hiring": 0,
       "market": 66
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 15,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Tesla SpaceX Merger Announcement and Vote Could Happen Over",
-      "Waymo Recalls Robotaxis Over Risk They'll Drive at Speed Int",
-      "Built Robotics, Penn xLAB to develop physical AI for constru"
+      "<a href=\"/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-a"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -274,6 +272,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-21"
+    "lastUpdated": "2026-06-22"
   }
 ]
