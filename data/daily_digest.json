@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:44:52.829279+00:00",
+  "generatedAt": "2026-06-22T21:09:36.568492+00:00",
   "date": "2026-06-22",
   "dateDisplay": "Monday, June 22, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 22.85,
-        "changePercent": -25.42,
-        "change": -7.79
-      },
-      {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 8.69,
-        "changePercent": -24.43,
-        "change": -2.81
+        "changePercent": -25.6,
+        "change": -2.99
       },
       {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 11.74,
-        "changePercent": 22.68,
-        "change": 2.17
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.03,
-        "changePercent": -19.81,
-        "change": -1.49
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 28.21,
-        "changePercent": 19.79,
-        "change": 4.66
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 28.23,
-        "changePercent": -17.38,
-        "change": -5.94
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 80.66,
-        "changePercent": -17.32,
-        "change": -16.9
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 6.23,
+        "changePercent": 19.81,
+        "change": 1.03
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 417.07,
-        "changePercent": 13.5,
-        "change": 49.6
+        "price": 439.66,
+        "changePercent": 19.75,
+        "change": 72.51
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 21.99,
+        "changePercent": -17.39,
+        "change": -4.63
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.67,
+        "changePercent": -14.79,
+        "change": -0.99
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 11.24,
+        "changePercent": 13.65,
+        "change": 1.35
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 573000.0,
+        "changePercent": -13.18,
+        "change": -87000.0
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 73.19,
+        "changePercent": -11.19,
+        "change": -9.22
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LUNR -25.4%"
+    "topMover": "ASRHF -25.6%"
   }
 }
