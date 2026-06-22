@@ -1,535 +1,176 @@
 {
-  "generatedAt": "2026-06-21T09:39:33+00:00",
+  "generatedAt": "2026-06-22T11:37:06+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 41,
-  "newExtractionsThisRun": 41,
+  "cohortSize": 40,
+  "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 36,
-    "changesProposed": 5,
-    "unverifiable": 0
+    "cleared": 0,
+    "changesProposed": 0,
+    "unverifiable": 40
   },
-  "cleared": [
-    "1X Technologies",
-    "AbCellera",
-    "Andromeda Surgical",
-    "AnySignal",
-    "Apptronik",
-    "Ares Industries",
-    "Astera Labs",
-    "Blue Origin",
-    "Built Robotics",
-    "Cape",
-    "Dawn Aerospace",
-    "Deterrence",
-    "Dexterity",
-    "Durin",
-    "GrayMatter Robotics",
-    "Hadrian",
-    "Humanoid",
-    "ICON",
-    "Karman Industries",
-    "Mara",
-    "Orbital Composites",
-    "Palantir",
-    "Percepto",
-    "QuantumScape",
-    "Relativity Space",
-    "Rivian",
-    "Scale AI",
-    "Solar Foods",
-    "Solid Power",
-    "Solugen",
-    "Standard Nuclear",
-    "Tenstorrent",
-    "Waymo",
-    "X-Energy",
-    "Xanadu Quantum Technologies",
-    "ideaForge"
-  ],
-  "changesProposed": [
+  "cleared": [],
+  "changesProposed": [],
+  "unverifiable": [
+    {
+      "name": "1X Technologies",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AbCellera",
+      "reason": "Claude extraction failed"
+    },
     {
       "name": "Agility Robotics",
-      "current": {
-        "name": "Agility Robotics",
-        "founder": "Jonathan Hurst, Damion Shelton, Mikhail Jones",
-        "location": "Salem, OR",
-        "founded": 2015,
-        "fundingStage": "Series D",
-        "totalRaised": "$400M+",
-        "website": "https://agilityrobotics.com"
-      },
-      "verified": {
-        "name": "Agility Robotics",
-        "description": "A humanoid robotics company that develops and manufactures Digit, a bipedal robot for warehouse and logistics automation. Digit has been deployed commercially and is assembled in Salem, Oregon.",
-        "founders": [
-          "Jonathan Hurst",
-          "Damion Shelton",
-          "Mikhail Jones"
-        ],
-        "location": "Salem, Oregon",
-        "founded_year": 2015,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://agilityrobotics.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company announced a rebrand to 'Agility' on March 5, 2026 per Wikipedia source [2]. Sources do not contain verified information on funding stage, total raised, valuation, or specific investors. Database entry mentions 'Series D' and '$400M+' but these cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Salem, OR",
-          "verified": "Salem, Oregon",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://agilityrobotics.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://agilityrobotics.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Agility_Robotics"
-        },
-        {
-          "idx": 3,
-          "src": "news (IEEE Spectrum)",
-          "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon"
-        }
-      ],
-      "notes": "Company announced a rebrand to 'Agility' on March 5, 2026 per Wikipedia source [2]. Sources do not contain verified information on funding stage, total raised, valuation, or specific investors. Database entry mentions 'Series D' and '$400M+' but these cannot be verified from provided sources."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Andromeda Surgical",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "AnySignal",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Apptronik",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Ares Industries",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Astera Labs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Blue Origin",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Cape",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Dawn Aerospace",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Deterrence",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Dexterity",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Durin",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Fervo Energy",
-      "current": {
-        "name": "Fervo Energy",
-        "founder": "Tim Latimer, Jack Norbeck",
-        "location": "Houston, Texas, U.S.",
-        "founded": 2017,
-        "fundingStage": "IPO",
-        "totalRaised": "$1.5B+",
-        "website": "https://fervoenergy.com"
-      },
-      "verified": {
-        "name": "Fervo Energy",
-        "description": "Geothermal company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques adapted from oil and gas. Operates Project Red in Nevada and Cape Station in Utah.",
-        "founders": [
-          "Tim Latimer",
-          "Jack Norbeck"
-        ],
-        "location": "Houston, Texas, U.S.",
-        "founded_year": 2017,
-        "current_stage": "Public",
-        "total_raised": "$1.5B+",
-        "valuation": null,
-        "investors": [
-          "B Capital",
-          "Breakthrough Energy",
-          "Centaurus Capital",
-          "Congruent Ventures"
-        ],
-        "website": "https://fervoenergy.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            2
-          ]
-        },
-        "notes": "Company went public in May 2026 based on newsroom references in source 0 (headlines dated May 17, 2026). Wikipedia source 2 lists company as 'Private' but appears outdated. Most recent Series E funding of $462M in November 2025 led by B Capital per source 2."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "IPO",
-          "verified": "Public",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://fervoenergy.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://fervoenergy.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
-        },
-        {
-          "idx": 3,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
-        }
-      ],
-      "notes": "Company went public in May 2026 based on newsroom references in source 0 (headlines dated May 17, 2026). Wikipedia source 2 lists company as 'Private' but appears outdated. Most recent Series E funding of $462M in November 2025 led by B Capital per source 2."
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Gecko Robotics",
-      "current": {
-        "name": "Gecko Robotics",
-        "founder": "Jake Loosararian, Troy Demmer",
-        "location": "Pittsburgh, PA",
-        "founded": 2013,
-        "fundingStage": "Series D",
-        "totalRaised": "$300M+",
-        "website": "https://geckorobotics.com"
-      },
-      "verified": {
-        "name": "Gecko Robotics",
-        "description": "AI-powered wall-climbing robots that inspect critical infrastructure including power plants, refineries, and pipelines. The company's Cantilever platform provides high-fidelity physical data and analytics for asset health monitoring across energy, manufacturing, defense, and other industries.",
-        "founders": [
-          "Jake Loosararian",
-          "Troy Demmer"
-        ],
-        "location": "Pittsburgh, PA",
-        "founded_year": 2013,
-        "current_stage": "Series D",
-        "total_raised": "$125M",
-        "valuation": "$1.25B",
-        "investors": null,
-        "website": "https://geckorobotics.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "valuation": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Series D funding round occurred in June 2025, raising $125M and valuing the company at $1.25B. Company operates internationally with offices in Houston, Boston, New York City, Washington DC, and Abu Dhabi in addition to Pittsburgh headquarters. Source [2] is about GrayMatter Robotics, not Gecko Robotics, and was not used."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$300M+",
-          "verified": "$125M",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://geckorobotics.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://geckorobotics.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/"
-        }
-      ],
-      "notes": "Series D funding round occurred in June 2025, raising $125M and valuing the company at $1.25B. Company operates internationally with offices in Houston, Boston, New York City, Washington DC, and Abu Dhabi in addition to Pittsburgh headquarters. Source [2] is about GrayMatter Robotics, not Gecko Robotics, and was not used."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "GrayMatter Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Hadrian",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Humanoid",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ICON",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Karman Industries",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Mara",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Orbital Composites",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Palantir",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Percepto",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "QuantumScape",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Relativity Space",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Rivian",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Scale AI",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Solar Foods",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Solid Power",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Solugen",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "SpaceX",
-      "current": {
-        "name": "SpaceX",
-        "founder": "Elon Musk",
-        "location": "Starbase, Texas, U.S.",
-        "founded": 2002,
-        "fundingStage": "IPO",
-        "totalRaised": "$86B",
-        "website": "https://spacex.com"
-      },
-      "verified": {
-        "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider. Operates three divisions: Space, Connectivity (Starlink), and Artificial Intelligence (Grok).",
-        "founders": [
-          "Elon Musk"
-        ],
-        "location": "Starbase, Texas, U.S.",
-        "founded_year": 2002,
-        "current_stage": "Public",
-        "total_raised": "$86B",
-        "valuation": null,
-        "investors": [
-          "Alphabet Inc."
-        ],
-        "website": "https://spacex.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Database entry claims $1.5T valuation and IPO stage designation, but sources only confirm $86B raised in IPO and that company is now Public (Nasdaq: SPCX). No valuation figure found in sources. Database entry claims 165 Falcon 9 launches in 2025 and 81% of mass to orbit - not verified in provided sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "IPO",
-          "verified": "Public",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/SpaceX"
-        },
-        {
-          "idx": 1,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/3-days-until-spacex-gamechanger-anything-anywhere.html"
-        },
-        {
-          "idx": 2,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/06/tesla-spacex-merger-announcement-and-vote-could-happen-over-next-3-months.html"
-        },
-        {
-          "idx": 3,
-          "src": "news (Ars Technica)",
-          "url": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/"
-        }
-      ],
-      "notes": "IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Database entry claims $1.5T valuation and IPO stage designation, but sources only confirm $86B raised in IPO and that company is now Public (Nasdaq: SPCX). No valuation figure found in sources. Database entry claims 165 Falcon 9 launches in 2025 and 81% of mass to orbit - not verified in provided sources."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Standard Nuclear",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Tenstorrent",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Varda Space Industries",
-      "current": {
-        "name": "Varda Space Industries",
-        "founder": "Will Bruey, Delian Asparouhov",
-        "location": "El Segundo, California, United States",
-        "founded": 2021,
-        "fundingStage": "Series C",
-        "totalRaised": "$131M",
-        "website": "https://varda.com"
-      },
-      "verified": {
-        "name": "Varda Space Industries",
-        "description": "American privately held space research company that designs, builds, and flies spacecraft to process pharmaceuticals in microgravity and return them to Earth via reentry capsules.",
-        "founders": [
-          "Will Bruey",
-          "Delian Asparouhov"
-        ],
-        "location": "El Segundo, California, United States",
-        "founded_year": 2021,
-        "current_stage": "Series B",
-        "total_raised": "$132M",
-        "valuation": null,
-        "investors": [
-          "Khosla Ventures",
-          "Lux Capital",
-          "Founders Fund",
-          "Caffeinated Capital",
-          "General Catalyst",
-          "Also Capital"
-        ],
-        "website": "https://varda.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            0,
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            1,
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Wikipedia states $42M Series A in July 2021 and $90M Series B in April 2024, totaling $132M. Database entry claims $187M Series C and $131M total raised, which cannot be verified from provided sources. Database entry lists 5 missions in 2025; Wikipedia confirms W-2, W-3, W-4 launches in 2025 and W-1 in 2023. No Series C funding is mentioned in any source."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series C",
-          "verified": "Series B",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$131M",
-          "verified": "$132M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://varda.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://varda.com/company"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Varda_Space_Industries"
-        },
-        {
-          "idx": 3,
-          "src": "news (FierceBiotech)",
-          "url": "https://www.fiercebiotech.com/biotech/jazz-gets-pocket-792m-biobucks-drug-deal-abcellera"
-        }
-      ],
-      "notes": "Wikipedia states $42M Series A in July 2021 and $90M Series B in April 2024, totaling $132M. Database entry claims $187M Series C and $131M total raised, which cannot be verified from provided sources. Database entry lists 5 missions in 2025; Wikipedia confirms W-2, W-3, W-4 launches in 2025 and W-1 in 2023. No Series C funding is mentioned in any source."
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Waymo",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "X-Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Xanadu Quantum Technologies",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ideaForge",
+      "reason": "Claude extraction failed"
     }
-  ],
-  "unverifiable": []
+  ]
 }

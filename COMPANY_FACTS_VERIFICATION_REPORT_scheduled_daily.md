@@ -1,106 +1,63 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-06-21T09:39:33+00:00  
+**Generated:** 2026-06-22T11:37:06+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 41 companies  
+**Cohort size:** 40 companies  
 
-**New Claude extractions this run:** 41  
+**New Claude extractions this run:** 0  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 36 | 88% |
-| 🔧 Changes proposed | 5 | 12% |
-| ❓ Unverifiable | 0 | 0% |
+| ✅ Cleared (data matches sources) | 0 | 0% |
+| 🔧 Changes proposed | 0 | 0% |
+| ❓ Unverifiable | 40 | 100% |
 
 ---
 
-## 🔧 Proposed Changes (5 companies)
+## ❓ Unverifiable (40 companies)
 
-Review each change and reply with which ones to apply. **Source-cited diffs:**
+Couldn't fetch authoritative sources. Per Stephen's rule, we leave these as-is rather than guess. May want to flag for manual research or removal from DB.
 
-### Agility Robotics
-
-- **`location`:** `Salem, OR` → `Salem, Oregon`  
-  Sources: [company_about](https://agilityrobotics.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Agility_Robotics)
-
-  **Notes:** Company announced a rebrand to 'Agility' on March 5, 2026 per Wikipedia source [2]. Sources do not contain verified information on funding stage, total raised, valuation, or specific investors. Database entry mentions 'Series D' and '$400M+' but these cannot be verified from provided sources.
-
-### Fervo Energy
-
-- **`fundingStage`:** `IPO` → `Public`  
-  Sources: [company_website](https://fervoenergy.com)
-
-  **Notes:** Company went public in May 2026 based on newsroom references in source 0 (headlines dated May 17, 2026). Wikipedia source 2 lists company as 'Private' but appears outdated. Most recent Series E funding of $462M in November 2025 led by B Capital per source 2.
-
-### Gecko Robotics
-
-- **`totalRaised`:** `$300M+` → `$125M`  
-  Sources: [company_about](https://geckorobotics.com/about-us)
-
-  **Notes:** Series D funding round occurred in June 2025, raising $125M and valuing the company at $1.25B. Company operates internationally with offices in Houston, Boston, New York City, Washington DC, and Abu Dhabi in addition to Pittsburgh headquarters. Source [2] is about GrayMatter Robotics, not Gecko Robotics, and was not used.
-
-### SpaceX
-
-- **`fundingStage`:** `IPO` → `Public`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
-
-  **Notes:** IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Database entry claims $1.5T valuation and IPO stage designation, but sources only confirm $86B raised in IPO and that company is now Public (Nasdaq: SPCX). No valuation figure found in sources. Database entry claims 165 Falcon 9 launches in 2025 and 81% of mass to orbit - not verified in provided sources.
-
-### Varda Space Industries
-
-- **`fundingStage`:** `Series C` → `Series B`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Varda_Space_Industries)
-- **`totalRaised`:** `$131M` → `$132M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Varda_Space_Industries)
-
-  **Notes:** Wikipedia states $42M Series A in July 2021 and $90M Series B in April 2024, totaling $132M. Database entry claims $187M Series C and $131M total raised, which cannot be verified from provided sources. Database entry lists 5 missions in 2025; Wikipedia confirms W-2, W-3, W-4 launches in 2025 and W-1 in 2023. No Series C funding is mentioned in any source.
+- **1X Technologies** — *Claude extraction failed*
+- **AbCellera** — *Claude extraction failed*
+- **Agility Robotics** — *Claude extraction failed*
+- **Andromeda Surgical** — *Claude extraction failed*
+- **AnySignal** — *Claude extraction failed*
+- **Apptronik** — *Claude extraction failed*
+- **Ares Industries** — *Claude extraction failed*
+- **Astera Labs** — *Claude extraction failed*
+- **Blue Origin** — *Claude extraction failed*
+- **Cape** — *Claude extraction failed*
+- **Dawn Aerospace** — *Claude extraction failed*
+- **Deterrence** — *Claude extraction failed*
+- **Dexterity** — *Claude extraction failed*
+- **Durin** — *Claude extraction failed*
+- **Fervo Energy** — *Claude extraction failed*
+- **Gecko Robotics** — *Claude extraction failed*
+- **GrayMatter Robotics** — *Claude extraction failed*
+- **Hadrian** — *Claude extraction failed*
+- **Humanoid** — *Claude extraction failed*
+- **ICON** — *Claude extraction failed*
+- **Karman Industries** — *Claude extraction failed*
+- **Mara** — *Claude extraction failed*
+- **Orbital Composites** — *Claude extraction failed*
+- **Palantir** — *Claude extraction failed*
+- **Percepto** — *Claude extraction failed*
+- **QuantumScape** — *Claude extraction failed*
+- **Relativity Space** — *Claude extraction failed*
+- **Rivian** — *Claude extraction failed*
+- **Scale AI** — *Claude extraction failed*
+- **Solar Foods** — *Claude extraction failed*
+- *...and 10 more*
 
 ---
-
-## ✅ Cleared (36 companies)
-
-Data matches sources for these companies — **no changes needed**.
-
-Sample (first 30):
-
-- 1X Technologies
-- AbCellera
-- Andromeda Surgical
-- AnySignal
-- Apptronik
-- Ares Industries
-- Astera Labs
-- Blue Origin
-- Built Robotics
-- Cape
-- Dawn Aerospace
-- Deterrence
-- Dexterity
-- Durin
-- GrayMatter Robotics
-- Hadrian
-- Humanoid
-- ICON
-- Karman Industries
-- Mara
-- Orbital Composites
-- Palantir
-- Percepto
-- QuantumScape
-- Relativity Space
-- Rivian
-- Scale AI
-- Solar Foods
-- Solid Power
-- Solugen
-- *...and 6 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-06-21T09:39:34+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-06-22T11:37:06+00:00*
