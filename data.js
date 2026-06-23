@@ -63653,23 +63653,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-23 15:58
+// Last updated: 2026-06-23 18:06
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Frontier Climate adds Anthropic to buyers group, makes new financing pledge", source: "Utility Dive", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Satellogic", headline: "Satellogic partners with SynMax to build intelligence services around upcoming Merlin constellation", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Baykar", headline: "Leonardo, Baykar tout in-flight control of Kizilelma drone from a M-346 jet trainer", source: "Defense News", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit", source: "Ars Technica Space", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Anthropic", headline: "Tandem Health CEO: 'We're not dependent on OpenAI or Anthropic'", source: "Sifted", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX Orbital Travel and Orbital Hotels Need Starfall &#8211; Getting Back Safe and Cheap is Exciting", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI launches new initiative to help find and patch open source bugs", source: "TechCrunch", time: "15h ago", impact: "medium", unread: false },
-  { id: 8, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches satellite for U.S. Space Force Victus Haze responsive space exercise", source: "SpaceNews", time: "19h ago", impact: "medium", unread: false },
-  { id: 9, type: "funding", company: "Groq", headline: "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia's $20B not-acqui-hire deal", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Bear Robotics", headline: "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities", source: "The Robot Report", time: "20h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Anthropic", headline: "Three things to watch amid Anthropic's latest feud with the government", source: "MIT Tech Review", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Anthropic", headline: "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic's Mythos", source: "Wired", time: "22h ago", impact: "medium", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX inks compute deal with Reflection AI, an open source AI lab", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Has Another $150 Million Per Month Deal", source: "Next Big Future", time: "23h ago", impact: "medium", unread: false },
-  { id: 15, type: "funding", company: "Nearfield Instruments", headline: "Dutch chip gear maker Nearfield Instruments raises $380M", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Starfall and Future Human-rated Versions", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Has Successful Starfall Demo", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic's Claude Tag is learning your company, one Slack message at a time", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "XAI and Cursor Strategy to Catch Up and Beat Anthropic in Coding", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Frontier Climate adds Anthropic to buyers group, makes new financing pledge", source: "Utility Dive", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Satellogic", headline: "Satellogic partners with SynMax to build intelligence services around upcoming Merlin constellation", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Baykar", headline: "Leonardo, Baykar tout in-flight control of Kizilelma drone from a M-346 jet trainer", source: "Defense News", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit", source: "Ars Technica Space", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "Anthropic", headline: "Tandem Health CEO: 'We're not dependent on OpenAI or Anthropic'", source: "Sifted", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Orbital Travel and Orbital Hotels Need Starfall &#8211; Getting Back Safe and Cheap is Exciting", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "OpenAI", headline: "OpenAI launches new initiative to help find and patch open source bugs", source: "TechCrunch", time: "17h ago", impact: "medium", unread: false },
+  { id: 12, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches satellite for U.S. Space Force Victus Haze responsive space exercise", source: "SpaceNews", time: "21h ago", impact: "medium", unread: false },
+  { id: 13, type: "funding", company: "Groq", headline: "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia's $20B not-acqui-hire deal", source: "TechCrunch", time: "21h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Bear Robotics", headline: "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities", source: "The Robot Report", time: "22h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Anthropic", headline: "Three things to watch amid Anthropic's latest feud with the government", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
