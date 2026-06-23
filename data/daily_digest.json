@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-22T23:38:28.453261+00:00",
-  "date": "2026-06-22",
-  "dateDisplay": "Monday, June 22, 2026",
+  "generatedAt": "2026-06-23T04:14:51.887874+00:00",
+  "date": "2026-06-23",
+  "dateDisplay": "Tuesday, June 23, 2026",
   "sections": {
     "govActivity": [
       {
@@ -81,9 +81,9 @@
       {
         "ticker": "ASRHF",
         "company": "Astroscale",
-        "price": 8.69,
-        "changePercent": -25.6,
-        "change": -2.99
+        "price": 8.22,
+        "changePercent": -29.61,
+        "change": -3.46
       },
       {
         "ticker": "LNZA",
@@ -107,6 +107,13 @@
         "change": -4.63
       },
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 512000.0,
+        "changePercent": -16.88,
+        "change": -104000.0
+      },
+      {
         "ticker": "SATL",
         "company": "Satellogic",
         "price": 5.67,
@@ -119,13 +126,6 @@
         "price": 11.24,
         "changePercent": 13.65,
         "change": 1.35
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 573000.0,
-        "changePercent": -13.18,
-        "change": -87000.0
       },
       {
         "ticker": "ASTS",
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASRHF -25.6%"
+    "topMover": "ASRHF -29.6%"
   }
 }
