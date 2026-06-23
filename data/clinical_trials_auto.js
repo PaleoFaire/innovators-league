@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-06-22 12:39:32 UTC
+// Last updated: 2026-06-23 10:25:17 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT07392372", title: "A Clinical Trial Investigating the Safety and Biological Activity of the Antibod", status: "RECRUITING", phase: "PHASE1", sponsor: "BioNTech SE", conditions: "HIV -1 Infection", enrollment: 67, lastUpdated: "2026-06-22" },
   { nctId: "NCT01175993", title: "Effects of Rapid-Resisted Exercise and Bright Light Therapy on Ambulatory Adults", status: "COMPLETED", phase: "PHASE1, PHASE2", sponsor: "National Institutes of Health Clinical Center (CC)", conditions: "Adult, Traumatic Brain Injury, fMRI", enrollment: 34, lastUpdated: "2026-06-18" },

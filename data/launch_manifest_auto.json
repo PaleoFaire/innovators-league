@@ -1,17 +1,8 @@
 [
   {
-    "date": "2026-06-21",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-28",
-    "payload": "Starlink Group 17-28",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/de5fbae3-66b9-4bbf-8938-4d55f3318c07/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-06-23",
-    "vehicle": "Long March 7A | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 7A | TJSW-26A",
+    "payload": "TJSW-26A",
     "pad": "201, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/f72c6ea1-dc44-4f0e-bb51-1c52eff9efe8/?format=json",
@@ -54,6 +45,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-06-29",
+    "vehicle": "Falcon 9 Block 5 | Sirius SXM-11",
+    "payload": "Sirius SXM-11",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ce3db8f7-ba9b-4a2a-953c-c6c6ee926541/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-06-30",
     "vehicle": "Electron | Ten Owl Of Ten (StriX Launch 10)",
     "payload": "Ten Owl Of Ten (StriX Launch 10)",
@@ -70,15 +70,6 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-    "payload": "Globalstar 2-R Mission 1 (x 9)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-06-30",
@@ -109,15 +100,6 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "Falcon 9 Block 5 | Sirius SXM-11",
-    "payload": "Sirius SXM-11",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ce3db8f7-ba9b-4a2a-953c-c6c6ee926541/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-06-30",
     "vehicle": "Themis Demonstrator | T1H-1",
     "payload": "T1H-1",
     "pad": "Launch Complex 3B, Esrange Space Center",
@@ -133,6 +115,15 @@
     "provider": "Deep Blue Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a8d8d683-3ab0-40ab-beb0-e66bb55afd91/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-07-02",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-46",
+    "payload": "Starlink Group 17-46",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/491122a3-3eff-42db-aff3-424b3431fc0b/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-07-02",
@@ -168,6 +159,15 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/56a85c82-ea71-449b-828c-b583f6f4a18b/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-31",
+    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+    "payload": "Globalstar 2-R Mission 1 (x 9)",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
     "trackedCompany": "SpaceX"
   },
   {

@@ -50,7 +50,7 @@
         "awardAmount": "$37M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Palantir",
@@ -73,7 +73,7 @@
         "postedDate": "2025-10-15",
         "type": null,
         "noticeId": "W9128Z26FA001",
-        "awardAmount": "$293M"
+        "awardAmount": "$443M"
       },
       {
         "title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS",
@@ -108,7 +108,7 @@
         "awardAmount": "$86M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Skydio",
@@ -163,7 +163,7 @@
         "awardAmount": "$110K"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Radiant",
@@ -219,7 +219,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Shield AI",
@@ -271,7 +271,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Axiom Space",
@@ -323,7 +323,7 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Sierra Space",
@@ -374,7 +374,7 @@
         "awardAmount": "$43K"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Castelion",
@@ -417,7 +417,7 @@
         "awardAmount": "$1M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Varda Space",
@@ -460,7 +460,7 @@
         "awardAmount": "$160K"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Rocket Lab",
@@ -495,7 +495,44 @@
         "awardAmount": "$391K"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
+  },
+  {
+    "company": "Planet Labs",
+    "opportunityCount": 3,
+    "agencies": [
+      "Department of Defense",
+      "Department of the Interior",
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2025-11-25",
+        "type": null,
+        "noticeId": "80HQTR25FA066",
+        "awardAmount": "$14M"
+      },
+      {
+        "title": "SATELLITE IMAGERY DATA SUBSCRIPTION",
+        "agency": "Department of Defense",
+        "postedDate": "2026-03-18",
+        "type": null,
+        "noticeId": "N6600126P6067",
+        "awardAmount": "$7M"
+      },
+      {
+        "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
+        "agency": "Department of the Interior",
+        "postedDate": "2026-05-07",
+        "type": null,
+        "noticeId": "140G0326P0132",
+        "awardAmount": "$60K"
+      }
+    ],
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "BlackSky",
@@ -530,35 +567,42 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
-    "company": "Planet Labs",
-    "opportunityCount": 2,
+    "company": "Scale AI",
+    "opportunityCount": 3,
     "agencies": [
-      "Department of the Interior",
-      "National Aeronautics and Space Administration"
+      "Department of Defense"
     ],
     "types": [],
     "recentOpportunities": [
       {
-        "title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-11-25",
+        "title": "AGENTIC ARTIFICIAL INTELLIGENCE FOR THE E-4C/SURVIVABLE AIRBORNE OPERATIONS CENTER (SAOC) PROGRAM",
+        "agency": "Department of Defense",
+        "postedDate": "2026-02-27",
         "type": null,
-        "noticeId": "80HQTR25FA066",
-        "awardAmount": "$14M"
+        "noticeId": "FA875126C0001",
+        "awardAmount": "$5M"
       },
       {
-        "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
-        "agency": "Department of the Interior",
-        "postedDate": "2026-05-07",
+        "title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY",
+        "agency": "Department of Defense",
+        "postedDate": "2025-08-26",
         "type": null,
-        "noticeId": "140G0326P0132",
-        "awardAmount": "$60K"
+        "noticeId": "W911QX25FA054",
+        "awardAmount": "$2M"
+      },
+      {
+        "title": "BASE YEAR TASK ORDER AWARDED TO SCALE AI UNDER THEIR INDEFINITE DELIVERY INDEFINITE QUANTITY IDIQ FOR EMERGENT IVBAA0001",
+        "agency": "Department of Defense",
+        "postedDate": "2024-09-27",
+        "type": null,
+        "noticeId": "SP470124F0355",
+        "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Capella Space",
@@ -586,34 +630,7 @@
         "awardAmount": "$209K"
       }
     ],
-    "lastUpdated": "2026-06-22"
-  },
-  {
-    "company": "Scale AI",
-    "opportunityCount": 2,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "AGENTIC ARTIFICIAL INTELLIGENCE FOR THE E-4C/SURVIVABLE AIRBORNE OPERATIONS CENTER (SAOC) PROGRAM",
-        "agency": "Department of Defense",
-        "postedDate": "2026-02-27",
-        "type": null,
-        "noticeId": "FA875126C0001",
-        "awardAmount": "$5M"
-      },
-      {
-        "title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY",
-        "agency": "Department of Defense",
-        "postedDate": "2025-08-26",
-        "type": null,
-        "noticeId": "W911QX25FA054",
-        "awardAmount": "$2M"
-      }
-    ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Vannevar Labs",
@@ -632,7 +649,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Hadrian",
@@ -651,7 +668,7 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   },
   {
     "company": "Relativity Space",
@@ -670,6 +687,6 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-06-22"
+    "lastUpdated": "2026-06-23"
   }
 ]

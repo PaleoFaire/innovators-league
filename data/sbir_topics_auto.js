@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-06-22 13:07:58 UTC
+// Last updated: 2026-06-23 10:43:13 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -124,7 +124,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Hypersonix Launch Systems",
         "sector": "Defense & Security",
-        "bid_fit_score": 19.6,
+        "bid_fit_score": 19.5,
         "matched_terms": [
           "hypersonic",
           "flight",
@@ -240,7 +240,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Valar Atomics",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 27.5,
+        "bid_fit_score": 27.4,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -269,7 +269,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "The Nuclear Company",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 22.9,
+        "bid_fit_score": 22.8,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -289,7 +289,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Elementl Power",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 21.4,
+        "bid_fit_score": 21.3,
         "matched_terms": [
           "nuclear",
           "energy"
@@ -479,7 +479,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Alice & Bob",
         "sector": "Quantum Computing",
-        "bid_fit_score": 19.2,
+        "bid_fit_score": 19.1,
         "matched_terms": [
           "quantum",
           "computing",
@@ -489,7 +489,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Riverlane",
         "sector": "Quantum Computing",
-        "bid_fit_score": 19.0,
+        "bid_fit_score": 18.9,
         "matched_terms": [
           "quantum",
           "error",
@@ -621,7 +621,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cascade Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 27.5,
+        "bid_fit_score": 27.6,
         "matched_terms": [
           "deep",
           "space",
@@ -649,7 +649,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Starpath Robotics",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 17.9,
+        "bid_fit_score": 18.0,
         "matched_terms": [
           "space",
           "deep"
@@ -819,21 +819,11 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Poseidon Aerospace",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 20.6,
+        "bid_fit_score": 20.7,
         "matched_terms": [
           "maritime",
           "naval",
           "autonomous"
-        ]
-      },
-      {
-        "company": "Saronic",
-        "sector": "Defense & Security",
-        "bid_fit_score": 19.6,
-        "matched_terms": [
-          "naval",
-          "autonomous",
-          "maritime"
         ]
       },
       {
@@ -844,6 +834,16 @@ const SBIR_TOPICS_AUTO = [
           "maritime",
           "swarm",
           "undersea"
+        ]
+      },
+      {
+        "company": "Saronic",
+        "sector": "Defense & Security",
+        "bid_fit_score": 19.6,
+        "matched_terms": [
+          "naval",
+          "autonomous",
+          "maritime"
         ]
       },
       {
@@ -933,7 +933,7 @@ const SBIR_TOPICS_AUTO = [
         "matched_terms": [
           "engineered",
           "biotech",
-          "biology"
+          "synthetic"
         ]
       },
       {
@@ -942,14 +942,14 @@ const SBIR_TOPICS_AUTO = [
         "bid_fit_score": 13.2,
         "matched_terms": [
           "biotech",
-          "biology",
-          "synthetic"
+          "synthetic",
+          "biology"
         ]
       },
       {
         "company": "Colossal Biosciences",
         "sector": "Biotech & Health",
-        "bid_fit_score": 11.7,
+        "bid_fit_score": 11.8,
         "matched_terms": [
           "biotech",
           "biology",
@@ -959,7 +959,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Scout Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 11.6,
+        "bid_fit_score": 11.5,
         "matched_terms": [
           "space",
           "processing"

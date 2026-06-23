@@ -1,5 +1,5 @@
 // Auto-generated demand signals data
-// Last updated: 2026-06-22 12:39:21 UTC
+// Last updated: 2026-06-23 10:25:54 UTC
 // Total signals: 44 | Companies matched: 185
 
 const GOV_DEMAND_SIGNALS_AUTO = [
@@ -3019,13 +3019,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Atom",
-        "score": 40,
-        "matchReasons": [
-          "name: Atom"
-        ]
-      },
-      {
         "name": "Infleqtion",
         "score": 30,
         "matchReasons": [
@@ -3102,10 +3095,17 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: quantum sensing",
           "cluster: quantum-sensing"
         ]
+      },
+      {
+        "name": "Deepnight",
+        "score": 20,
+        "matchReasons": [
+          "tag: sensors",
+          "tag: defense"
+        ]
       }
     ],
     "relevantCompanies": [
-      "Atom",
       "Infleqtion",
       "Forterra",
       "Theseus",
@@ -3114,7 +3114,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Picogrid",
       "Andrenam",
-      "NVision Imaging Technologies"
+      "NVision Imaging Technologies",
+      "Deepnight"
     ]
   },
   {
@@ -6127,18 +6128,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Quantum Networking and Entanglement Distribution"
     ]
   },
-  "Atom": {
-    "name": "Atom",
-    "govPullScore": 21,
-    "matchCount": 1,
-    "topAgencies": [
-      "DARPA"
-    ],
-    "avgRelevance": 40,
-    "topSignals": [
-      "Quantum Sensing for Position, Navigation, and Timing"
-    ]
-  },
   "Infleqtion": {
     "name": "Infleqtion",
     "govPullScore": 18,
@@ -6183,6 +6172,18 @@ const GOV_PULL_SCORES_AUTO = {
       "DARPA"
     ],
     "avgRelevance": 22,
+    "topSignals": [
+      "Quantum Sensing for Position, Navigation, and Timing"
+    ]
+  },
+  "Deepnight": {
+    "name": "Deepnight",
+    "govPullScore": 16,
+    "matchCount": 1,
+    "topAgencies": [
+      "DARPA"
+    ],
+    "avgRelevance": 20,
     "topSignals": [
       "Quantum Sensing for Position, Navigation, and Timing"
     ]
@@ -6539,5 +6540,5 @@ const DEMAND_SIGNALS_STATS = {
     "Environmental Protection Agency (EPA)": 1
   },
   "companiesMatched": 185,
-  "lastUpdated": "2026-06-22 12:39:21 UTC"
+  "lastUpdated": "2026-06-23 10:25:54 UTC"
 };
