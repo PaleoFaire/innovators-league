@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -12.87,
+      "avg_change": -12.96,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.77,
+      "avg_change": -2.41,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -1.07,
+      "avg_change": -1.66,
       "count": 3
     },
     "transportation": {
@@ -96,14 +96,14 @@
       -14.79
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -16.88
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
       -17.39
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -18.34
     ],
     [
       "ASRHF",
@@ -111,5 +111,5 @@
       -29.61
     ]
   ],
-  "lastUpdated": "2026-06-23 03:53:58"
+  "lastUpdated": "2026-06-23 09:48:37"
 }
