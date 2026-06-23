@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-23T08:35:34+00:00",
+  "generatedAt": "2026-06-23T12:13:14+00:00",
   "stats": {
-    "companies": 941,
+    "companies": 939,
     "vcFirms": 27,
     "uniqueClusters": 103,
-    "totalInvestments": 241
+    "totalInvestments": 242
   },
   "concentration": {
     "General Catalyst": {
@@ -370,6 +370,12 @@
         "count": 1,
         "companies": [
           "Renaissance Fusion"
+        ]
+      },
+      "autonomy-maritime": {
+        "count": 1,
+        "companies": [
+          "Ulysses Robotics"
         ]
       },
       "space-based-power": {
@@ -1879,27 +1885,27 @@
       {
         "vc": "Caffeinated Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.1667
       },
       {
         "vc": "In-Q-Tel",
         "count": 1,
-        "share": 0.2
+        "share": 0.1667
+      },
+      {
+        "vc": "Lowercarbon Capital",
+        "count": 1,
+        "share": 0.1667
       },
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.2
+        "share": 0.1667
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Valor Equity Partners",
-        "count": 1,
-        "share": 0.2
+        "share": 0.1667
       }
     ],
     "rare-earth-refining": [
@@ -2788,6 +2794,40 @@
       ]
     },
     {
+      "vc": "Lowercarbon Capital",
+      "recentCount": 11,
+      "totalCount": 21,
+      "score": 13.03,
+      "topCluster": "fusion-alternative",
+      "recentExamples": [
+        {
+          "company": "Sublime Systems",
+          "cluster": "cement-green",
+          "addedDate": "2026-06-04 refresh"
+        },
+        {
+          "company": "Atana Elements",
+          "cluster": "critical-minerals-exploration",
+          "addedDate": "2026-06"
+        },
+        {
+          "company": "Epoch Biodesign",
+          "cluster": "synthetic-biology",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Carbyon",
+          "cluster": "direct-air-capture",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Thea Energy",
+          "cluster": "stellarator-fusion",
+          "addedDate": "2026-04"
+        }
+      ]
+    },
+    {
       "vc": "General Catalyst",
       "recentCount": 11,
       "totalCount": 18,
@@ -2852,40 +2892,6 @@
           "company": "Rocket Lab",
           "cluster": "space-launch-large",
           "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
-      "vc": "Lowercarbon Capital",
-      "recentCount": 10,
-      "totalCount": 20,
-      "score": 12.12,
-      "topCluster": "fusion-alternative",
-      "recentExamples": [
-        {
-          "company": "Sublime Systems",
-          "cluster": "cement-green",
-          "addedDate": "2026-06-04 refresh"
-        },
-        {
-          "company": "Atana Elements",
-          "cluster": "critical-minerals-exploration",
-          "addedDate": "2026-06"
-        },
-        {
-          "company": "Epoch Biodesign",
-          "cluster": "synthetic-biology",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Carbyon",
-          "cluster": "direct-air-capture",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Thea Energy",
-          "cluster": "stellarator-fusion",
-          "addedDate": "2026-04"
         }
       ]
     },
@@ -3659,6 +3665,10 @@
       "investmentCount": 6
     },
     {
+      "cluster": "autonomy-maritime",
+      "investmentCount": 6
+    },
+    {
       "cluster": "ai-robotics-embodied",
       "investmentCount": 6
     },
@@ -3680,10 +3690,6 @@
     },
     {
       "cluster": "maritime-electric-transport",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "autonomy-maritime",
       "investmentCount": 5
     },
     {
