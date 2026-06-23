@@ -765,24 +765,6 @@
     "isIPO": false
   },
   {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-03-24",
-    "description": "xslF345X06/ownership.xml",
-    "accessionNumber": "0001493152-26-012442",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-03-24",
-    "description": "xslF345X06/ownership.xml",
-    "accessionNumber": "0001493152-26-012441",
-    "isIPO": false
-  },
-  {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
     "form": "4",
@@ -1266,6 +1248,15 @@
     "date": "2026-03-30",
     "description": "tm2610566d1_8k.htm",
     "accessionNumber": "0001104659-26-036821",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-06-22",
+    "description": "d106173d8k.htm",
+    "accessionNumber": "0001193125-26-276740",
     "isIPO": false
   },
   {
@@ -1982,6 +1973,69 @@
   {
     "company": "Centrus Energy",
     "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782175513.xml",
+    "accessionNumber": "0001628280-26-044790",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782175430.xml",
+    "accessionNumber": "0001628280-26-044789",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782175365.xml",
+    "accessionNumber": "0001628280-26-044788",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782175306.xml",
+    "accessionNumber": "0001628280-26-044787",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782175257.xml",
+    "accessionNumber": "0001628280-26-044786",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782175213.xml",
+    "accessionNumber": "0001628280-26-044785",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782175158.xml",
+    "accessionNumber": "0001628280-26-044784",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
     "form": "8-K",
     "date": "2026-06-18",
     "description": "leu-20260618.htm",
@@ -2655,12 +2709,12 @@
     "isIPO": false
   },
   {
-    "company": "IonQ",
-    "ticker": "IONQ",
-    "form": "8-K",
-    "date": "2026-03-24",
-    "description": "bakkt-20260324.htm",
-    "accessionNumber": "0001628280-26-020821",
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-000916",
     "isIPO": false
   },
   {
@@ -3138,6 +3192,69 @@
     "date": "2026-04-29",
     "description": "qbts-20260429.htm",
     "accessionNumber": "0001907982-26-000046",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782160357.xml",
+    "accessionNumber": "0001601830-26-000088",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782160351.xml",
+    "accessionNumber": "0001601830-26-000087",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782160342.xml",
+    "accessionNumber": "0001601830-26-000086",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782160336.xml",
+    "accessionNumber": "0001601830-26-000085",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782160331.xml",
+    "accessionNumber": "0001601830-26-000084",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782160325.xml",
+    "accessionNumber": "0001601830-26-000083",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-06-22",
+    "description": "xslF345X06/wk-form4_1782160319.xml",
+    "accessionNumber": "0001601830-26-000082",
     "isIPO": false
   },
   {
@@ -4632,33 +4749,6 @@
     "date": "2026-04-02",
     "description": "rivn-20260402.htm",
     "accessionNumber": "0001874178-26-000012",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-24",
-    "description": "xslF345X06/wk-form4_1774384845.xml",
-    "accessionNumber": "0001890925-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-24",
-    "description": "xslF345X06/wk-form4_1774384826.xml",
-    "accessionNumber": "0001262742-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-24",
-    "description": "xslF345X06/wk-form4_1774384805.xml",
-    "accessionNumber": "0001943929-26-000008",
     "isIPO": false
   },
   {

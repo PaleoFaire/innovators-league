@@ -841,6 +841,18 @@
   },
   {
     "company": "Anduril",
+    "awardId": "FA882026FB002",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 2503452.69,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-03-23",
+    "endDate": "2027-09-23",
+    "description": "FOLLOW-ON SINGLE AWARD FOR LATTICED MESHED NETWORKING CAPABILITIES, TASK ORDER TO ENABLE AGILE LIKE CONTINUOUS DEVELOPMENT EXERCISES."
+  },
+  {
+    "company": "Anduril",
     "awardId": "H9240225FE004",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1963617.81,
@@ -1186,18 +1198,6 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "H9240225FE010",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 256022.78,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-06-24",
-    "endDate": "2026-05-22",
-    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Anduril Industries",
@@ -2041,6 +2041,18 @@
   },
   {
     "company": "Anduril Industries",
+    "awardId": "FA882026FB002",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 2503452.69,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-03-23",
+    "endDate": "2027-09-23",
+    "description": "FOLLOW-ON SINGLE AWARD FOR LATTICED MESHED NETWORKING CAPABILITIES, TASK ORDER TO ENABLE AGILE LIKE CONTINUOUS DEVELOPMENT EXERCISES."
+  },
+  {
+    "company": "Anduril Industries",
     "awardId": "H9240225FE004",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1963617.81,
@@ -2388,18 +2400,6 @@
     "description": "SIP TO 121 - GENERATORS"
   },
   {
-    "company": "Anduril Industries",
-    "awardId": "H9240225FE010",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 256022.78,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-06-24",
-    "endDate": "2026-05-22",
-    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
-  },
-  {
     "company": "Shield AI",
     "awardId": "70Z02326F93130005",
     "recipientName": "SHIELD AI INC",
@@ -2521,6 +2521,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W9128Z26FA001",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 442883216.67,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-10-15",
+    "endDate": "2029-05-31",
+    "description": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039"
+  },
+  {
+    "company": "Palantir",
     "awardId": "W911QX24F0053",
     "recipientName": "PALANTIR USG INC",
     "amount": 292680689.24,
@@ -2530,18 +2542,6 @@
     "startDate": "2024-06-18",
     "endDate": "2026-05-31",
     "description": "TASK ORDER #1 FOR MAVEN SMART SYSTEM - USER INTERFACE/USER EXPERIENCE (UI/UX) PROTOTYPE"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W9128Z26FA001",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 292612755.49,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-10-15",
-    "endDate": "2029-05-31",
-    "description": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039"
   },
   {
     "company": "Palantir",
@@ -3721,6 +3721,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W9128Z26FA001",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 442883216.67,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-10-15",
+    "endDate": "2029-05-31",
+    "description": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "W911QX24F0053",
     "recipientName": "PALANTIR USG INC",
     "amount": 292680689.24,
@@ -3730,18 +3742,6 @@
     "startDate": "2024-06-18",
     "endDate": "2026-05-31",
     "description": "TASK ORDER #1 FOR MAVEN SMART SYSTEM - USER INTERFACE/USER EXPERIENCE (UI/UX) PROTOTYPE"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W9128Z26FA001",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 292612755.49,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-10-15",
-    "endDate": "2029-05-31",
-    "description": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039"
   },
   {
     "company": "Palantir Technologies",
@@ -5523,12 +5523,12 @@
     "company": "Space Exploration Technologies",
     "awardId": "FA881824FB020",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 2538250.0,
+    "amount": 2262885.0,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,
     "startDate": "2024-05-23",
-    "endDate": "2028-03-31",
+    "endDate": "2028-07-08",
     "description": "THE SPACE TEST PROGRAM (STP) REQUIRES CONTRACT SERVICES TO IDENTIFY, DEVELOP, AND PROCURE COMMERCIAL RIDESHARE SERVICES FOR TWO (2) SPONSORED SPACE VEHICLES (SVS), AN ESPA CLASS AND 6U SVS."
   },
   {
@@ -5641,6 +5641,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "FA254126FB049",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 130579.4,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-03-24",
+    "endDate": "2027-03-23",
+    "description": "THE PURPOSE OF THIS REQUIREMENT IS TO PROVIDE STARLINK LOCAL PRIORITY SERVICE FOR THE WHITE HOUSE COMMUNICATIONS AGENCY (WHCA)."
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "69056723P000010",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 65550.0,
@@ -5746,6 +5758,18 @@
     "startDate": "2025-04-01",
     "endDate": "2027-03-31",
     "description": "STARLINK COMMERCIAL INTERNET AT USCG SECTOR WESTERN ALASKA"
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "N0017326P1322",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 3960.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2026-03-23",
+    "endDate": "2027-03-24",
+    "description": "MONTHLY SERVICE FOR STARLINK EQUIPMENT"
   },
   {
     "company": "Space Exploration Technologies",
@@ -7309,6 +7333,18 @@
   },
   {
     "company": "Planet Labs",
+    "awardId": "N6600126P6067",
+    "recipientName": "PLANET LABS FEDERAL, INC.",
+    "amount": 7499999.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2026-03-18",
+    "endDate": "2026-04-01",
+    "description": "SATELLITE IMAGERY DATA SUBSCRIPTION"
+  },
+  {
+    "company": "Planet Labs",
     "awardId": "N6600125P6016",
     "recipientName": "PLANET LABS FEDERAL, INC.",
     "amount": 6709212.74,
@@ -7916,7 +7952,7 @@
     "subAgency": "Defense Logistics Agency",
     "awardType": null,
     "startDate": "2024-09-27",
-    "endDate": "2026-03-26",
+    "endDate": "2026-04-09",
     "description": "BASE YEAR TASK ORDER AWARDED TO SCALE AI UNDER THEIR INDEFINITE DELIVERY INDEFINITE QUANTITY IDIQ FOR EMERGENT IVBAA0001-22 HACKATHON AMENDMENT 15 FOR LARGE LANGUAGE MODELS (LLM) FOR THE DEFENSE LOGIS"
   },
   {
