@@ -63653,23 +63653,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-23 12:12
+// Last updated: 2026-06-23 15:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Satellogic", headline: "Satellogic partners with SynMax to build intelligence services around upcoming Merlin constellation", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Baykar", headline: "Leonardo, Baykar tout in-flight control of Kizilelma drone from a M-346 jet trainer", source: "Defense News", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit", source: "Ars Technica Space", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Anthropic", headline: "Tandem Health CEO: 'We're not dependent on OpenAI or Anthropic'", source: "Sifted", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Orbital Travel and Orbital Hotels Need Starfall &#8211; Getting Back Safe and Cheap is Exciting", source: "Next Big Future", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "OpenAI", headline: "OpenAI launches new initiative to help find and patch open source bugs", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
-  { id: 7, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches satellite for U.S. Space Force Victus Haze responsive space exercise", source: "SpaceNews", time: "15h ago", impact: "medium", unread: false },
-  { id: 8, type: "funding", company: "Groq", headline: "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia's $20B not-acqui-hire deal", source: "TechCrunch", time: "15h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Bear Robotics", headline: "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities", source: "The Robot Report", time: "16h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Anthropic", headline: "Three things to watch amid Anthropic's latest feud with the government", source: "MIT Tech Review", time: "18h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Anthropic", headline: "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic's Mythos", source: "Wired", time: "19h ago", impact: "medium", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX inks compute deal with Reflection AI, an open source AI lab", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Has Another $150 Million Per Month Deal", source: "Next Big Future", time: "19h ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "Cover", headline: "NASA to Cover US Spacewalk 95, Host Preview News Conference", source: "NASA Breaking News", time: "19h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Nearfield Instruments", headline: "Dutch chip gear maker Nearfield Instruments raises $380M", source: "Tech.eu", time: "22h ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "Anthropic", headline: "Frontier Climate adds Anthropic to buyers group, makes new financing pledge", source: "Utility Dive", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Satellogic", headline: "Satellogic partners with SynMax to build intelligence services around upcoming Merlin constellation", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Baykar", headline: "Leonardo, Baykar tout in-flight control of Kizilelma drone from a M-346 jet trainer", source: "Defense News", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit", source: "Ars Technica Space", time: "10h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Anthropic", headline: "Tandem Health CEO: 'We're not dependent on OpenAI or Anthropic'", source: "Sifted", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX Orbital Travel and Orbital Hotels Need Starfall &#8211; Getting Back Safe and Cheap is Exciting", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI launches new initiative to help find and patch open source bugs", source: "TechCrunch", time: "15h ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches satellite for U.S. Space Force Victus Haze responsive space exercise", source: "SpaceNews", time: "19h ago", impact: "medium", unread: false },
+  { id: 9, type: "funding", company: "Groq", headline: "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia's $20B not-acqui-hire deal", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Bear Robotics", headline: "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities", source: "The Robot Report", time: "20h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Anthropic", headline: "Three things to watch amid Anthropic's latest feud with the government", source: "MIT Tech Review", time: "21h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Anthropic", headline: "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic's Mythos", source: "Wired", time: "22h ago", impact: "medium", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX inks compute deal with Reflection AI, an open source AI lab", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Has Another $150 Million Per Month Deal", source: "Next Big Future", time: "23h ago", impact: "medium", unread: false },
+  { id: 15, type: "funding", company: "Nearfield Instruments", headline: "Dutch chip gear maker Nearfield Instruments raises $380M", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T12:12:42.018543+00:00",
+  "generatedAt": "2026-06-23T15:58:58.435977+00:00",
   "date": "2026-06-23",
   "dateDisplay": "Tuesday, June 23, 2026",
   "sections": {
@@ -79,27 +79,6 @@
     ],
     "marketMovers": [
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 8.22,
-        "changePercent": -29.61,
-        "change": -3.46
-      },
-      {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 6.23,
-        "changePercent": 19.81,
-        "change": 1.03
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 439.66,
-        "changePercent": 19.75,
-        "change": 72.51
-      },
-      {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
         "price": 503000.0,
@@ -109,30 +88,51 @@
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 21.99,
-        "changePercent": -17.39,
-        "change": -4.63
+        "price": 21.2,
+        "changePercent": -17.7,
+        "change": -4.56
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
         "price": 5.67,
-        "changePercent": -14.79,
-        "change": -0.99
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 11.24,
-        "changePercent": 13.65,
-        "change": 1.35
+        "changePercent": -15.32,
+        "change": -1.03
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 73.19,
-        "changePercent": -11.19,
-        "change": -9.22
+        "price": 75.43,
+        "changePercent": -13.86,
+        "change": -12.14
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "price": 119.03,
+        "changePercent": -11.64,
+        "change": -15.68
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 8.22,
+        "changePercent": -11.6,
+        "change": -1.08
+      },
+      {
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 14.88,
+        "changePercent": -10.76,
+        "change": -1.79
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 97.96,
+        "changePercent": -10.33,
+        "change": -11.29
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASRHF -29.6%"
+    "topMover": "277810.KQ -18.3%"
   }
 }
