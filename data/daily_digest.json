@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T18:06:30.937005+00:00",
+  "generatedAt": "2026-06-23T20:20:01.589667+00:00",
   "date": "2026-06-23",
   "dateDisplay": "Tuesday, June 23, 2026",
   "sections": {
@@ -79,6 +79,13 @@
     ],
     "marketMovers": [
       {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 20.95,
+        "changePercent": -18.67,
+        "change": -4.81
+      },
+      {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
         "price": 503000.0,
@@ -86,32 +93,32 @@
         "change": -113000.0
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 21.2,
-        "changePercent": -17.7,
-        "change": -4.56
-      },
-      {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 5.67,
-        "changePercent": -15.32,
-        "change": -1.03
+        "price": 5.56,
+        "changePercent": -16.89,
+        "change": -1.13
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 75.43,
-        "changePercent": -13.86,
-        "change": -12.14
+        "price": 72.87,
+        "changePercent": -16.79,
+        "change": -14.7
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 119.03,
-        "changePercent": -11.64,
-        "change": -15.68
+        "price": 116.7,
+        "changePercent": -13.37,
+        "change": -18.01
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 95.12,
+        "changePercent": -12.93,
+        "change": -14.13
       },
       {
         "ticker": "ASRHF",
@@ -121,18 +128,11 @@
         "change": -1.08
       },
       {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 14.88,
-        "changePercent": -10.76,
-        "change": -1.79
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 97.96,
-        "changePercent": -10.33,
-        "change": -11.29
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.79,
+        "changePercent": -11.39,
+        "change": -0.23
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "277810.KQ -18.3%"
+    "topMover": "LUNR -18.7%"
   }
 }
