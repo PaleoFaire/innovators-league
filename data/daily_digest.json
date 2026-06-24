@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:11:46.630228+00:00",
+  "generatedAt": "2026-06-24T19:58:56.939015+00:00",
   "date": "2026-06-24",
   "dateDisplay": "Wednesday, June 24, 2026",
   "sections": {
@@ -79,6 +79,27 @@
     ],
     "marketMovers": [
       {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.01,
+        "changePercent": -18.32,
+        "change": -1.12
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 86.0,
+        "changePercent": -17.81,
+        "change": -18.63
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 19.21,
+        "changePercent": -17.77,
+        "change": -4.15
+      },
+      {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
         "price": 515000.0,
@@ -86,25 +107,11 @@
         "change": -110000.0
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 19.64,
-        "changePercent": -15.92,
-        "change": -3.72
-      },
-      {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 69.27,
-        "changePercent": -15.78,
-        "change": -12.98
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.19,
-        "changePercent": -15.47,
-        "change": -0.95
+        "price": 68.55,
+        "changePercent": -16.66,
+        "change": -13.7
       },
       {
         "ticker": "ASRHF",
@@ -114,25 +121,18 @@
         "change": -1.25
       },
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 89.02,
-        "changePercent": -14.92,
-        "change": -15.61
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 409.78,
-        "changePercent": 13.29,
-        "change": 48.07
-      },
-      {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 115.93,
-        "changePercent": -13.0,
-        "change": -17.32
+        "price": 113.7,
+        "changePercent": -14.67,
+        "change": -19.55
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.88,
+        "changePercent": -11.97,
+        "change": -0.25
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "277810.KQ -17.6%"
+    "topMover": "SATL -18.3%"
   }
 }

@@ -64127,23 +64127,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-24 17:11
+// Last updated: 2026-06-24 19:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics plans to go public via SPAC in a $2.5B deal", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Zoox", headline: "Zoox upgrades its robotaxi as it prepares for commercial service", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI unveils its first custom chip, built by Broadcom", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Vast", headline: "Vast signs additional partners for commercial space station microgravity research", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Agility Robotics", headline: "Humanoid maker Agility Robotics to go public through SPAC merger", source: "The Robot Report", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX launches secretive Starfall reentry demo mission", source: "SpaceNews", time: "5h ago", impact: "medium", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "NGSO trade association launches without industry giant SpaceX", source: "SpaceNews", time: "7h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Shield AI", headline: "Poland buys V-Bat UAVs from Shield AI for naval forces", source: "Breaking Defense", time: "20h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Anthropic", headline: "After betting the firm on Anthropic, Menlo Ventures raises victorious $3B fund", source: "TechCrunch", time: "21h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Vention", headline: "Vention collaborates with FANUC and Universal Robots on software-defined automation", source: "The Robot Report", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic Backer Menlo Ventures Raises $3B In New Funds To Back AI Startups Across Stages", source: "Crunchbase News", time: "22h ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Starfall and Future Human-rated Versions", source: "Next Big Future", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics plans to go public via SPAC in a $2.5B deal", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Zoox", headline: "Zoox upgrades its robotaxi as it prepares for commercial service", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI unveils its first custom chip, built by Broadcom", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Vast", headline: "Vast signs additional partners for commercial space station microgravity research", source: "SpaceNews", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Agility Robotics", headline: "Humanoid maker Agility Robotics to go public through SPAC merger", source: "The Robot Report", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX launches secretive Starfall reentry demo mission", source: "SpaceNews", time: "8h ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "NGSO trade association launches without industry giant SpaceX", source: "SpaceNews", time: "9h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Shield AI", headline: "Poland buys V-Bat UAVs from Shield AI for naval forces", source: "Breaking Defense", time: "23h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Anthropic", headline: "After betting the firm on Anthropic, Menlo Ventures raises victorious $3B fund", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Vention", headline: "Vention collaborates with FANUC and Universal Robots on software-defined automation", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic Backer Menlo Ventures Raises $3B In New Funds To Back AI Startups Across Stages", source: "Crunchbase News", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Starfall and Future Human-rated Versions", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Has Successful Starfall Demo", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "Anthropic's Claude Tag is learning your company, one Slack message at a time", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "XAI and Cursor Strategy to Catch Up and Beat Anthropic in Coding", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
