@@ -1,6 +1,26 @@
 {
   "nodes": [
     {
+      "id": "Tobe Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "The Red Metal Company",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Resolute Grid",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Standard Electron",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
       "id": "Aventra",
       "sector": "Defense & Security",
       "thesisCluster": "long-range-precision-strike"
@@ -4361,11 +4381,6 @@
       "thesisCluster": ""
     },
     {
-      "id": "Atom",
-      "sector": "Biotech & Health",
-      "thesisCluster": ""
-    },
-    {
       "id": "Bohr Systems",
       "sector": "Defense & Security",
       "thesisCluster": ""
@@ -4388,11 +4403,6 @@
     {
       "id": "Periodic Labs",
       "sector": "AI & Software",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Ulysses Ecosystem Engineering",
-      "sector": "Ocean & Maritime",
       "thesisCluster": ""
     },
     {
@@ -10046,7 +10056,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 946,
+    "total_nodes": 948,
     "total_edges": 914,
     "competitor_edges": 166,
     "thesis_edges": 742,

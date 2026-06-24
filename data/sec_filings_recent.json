@@ -462,6 +462,15 @@
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
     "form": "4",
+    "date": "2026-06-23",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-029685",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "4",
     "date": "2026-06-16",
     "description": "xslF345X06/ownership.xml",
     "accessionNumber": "0001493152-26-028952",
@@ -1512,15 +1521,6 @@
     "isIPO": false
   },
   {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "4",
-    "date": "2026-03-25",
-    "description": "xslF345X06/wk-form4_1774471227.xml",
-    "accessionNumber": "0001955335-26-000005",
-    "isIPO": false
-  },
-  {
     "company": "NuScale Power",
     "ticker": "SMR",
     "form": "4",
@@ -1974,6 +1974,51 @@
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "4",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782259296.xml",
+    "accessionNumber": "0001628280-26-045020",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782259141.xml",
+    "accessionNumber": "0001628280-26-045018",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782258957.xml",
+    "accessionNumber": "0001628280-26-045015",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782258840.xml",
+    "accessionNumber": "0001628280-26-045013",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782255664.xml",
+    "accessionNumber": "0001628280-26-045010",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "4",
     "date": "2026-06-22",
     "description": "xslF345X06/wk-form4_1782175513.xml",
     "accessionNumber": "0001628280-26-044790",
@@ -2238,15 +2283,6 @@
     "date": "2026-03-31",
     "description": "xslF345X06/wk-form4_1774995012.xml",
     "accessionNumber": "0001577526-26-000036",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "8-K",
-    "date": "2026-03-25",
-    "description": "ai-20260324.htm",
-    "accessionNumber": "0001577526-26-000034",
     "isIPO": false
   },
   {
@@ -2526,24 +2562,6 @@
     "date": "2026-04-01",
     "description": "xslF345X06/primarydocument.xml",
     "accessionNumber": "0001855778-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "8-K",
-    "date": "2026-03-25",
-    "description": "path-20260324.htm",
-    "accessionNumber": "0001734722-26-000015",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "10-K",
-    "date": "2026-03-25",
-    "description": "path-20260131.htm",
-    "accessionNumber": "0001734722-26-000012",
     "isIPO": false
   },
   {
@@ -3462,24 +3480,6 @@
     "date": "2026-04-02",
     "description": "xslF345X06/wk-form4_1775163374.xml",
     "accessionNumber": "0001837016-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "8-K",
-    "date": "2026-03-25",
-    "description": "rxrx-20260325.htm",
-    "accessionNumber": "0001601830-26-000054",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-03-25",
-    "description": "xslF345X06/wk-form4_1774470960.xml",
-    "accessionNumber": "0001601830-26-000052",
     "isIPO": false
   },
   {
@@ -4491,39 +4491,57 @@
     "isIPO": false
   },
   {
-    "company": "Tempus AI",
-    "ticker": "TEM",
+    "company": "Rivian",
+    "ticker": "RIVN",
     "form": "4",
-    "date": "2026-03-25",
-    "description": "xslF345X06/wk-form4_1774474027.xml",
-    "accessionNumber": "0001628280-26-021086",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782247085.xml",
+    "accessionNumber": "0001561290-26-000007",
     "isIPO": false
   },
   {
-    "company": "Tempus AI",
-    "ticker": "TEM",
+    "company": "Rivian",
+    "ticker": "RIVN",
     "form": "4",
-    "date": "2026-03-25",
-    "description": "xslF345X06/wk-form4_1774473932.xml",
-    "accessionNumber": "0001628280-26-021085",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782247057.xml",
+    "accessionNumber": "0001189130-26-000007",
     "isIPO": false
   },
   {
-    "company": "Tempus AI",
-    "ticker": "TEM",
+    "company": "Rivian",
+    "ticker": "RIVN",
     "form": "4",
-    "date": "2026-03-25",
-    "description": "xslF345X06/wk-form4_1774473847.xml",
-    "accessionNumber": "0001628280-26-021084",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782247028.xml",
+    "accessionNumber": "0001607879-26-000004",
     "isIPO": false
   },
   {
-    "company": "Tempus AI",
-    "ticker": "TEM",
+    "company": "Rivian",
+    "ticker": "RIVN",
     "form": "4",
-    "date": "2026-03-25",
-    "description": "xslF345X06/wk-form4_1774473735.xml",
-    "accessionNumber": "0001628280-26-021080",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782246975.xml",
+    "accessionNumber": "0001891037-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "4",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782246904.xml",
+    "accessionNumber": "0001891751-26-000006",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "4",
+    "date": "2026-06-23",
+    "description": "xslF345X06/wk-form4_1782246842.xml",
+    "accessionNumber": "0002066491-26-000009",
     "isIPO": false
   },
   {
@@ -4884,6 +4902,15 @@
     "date": "2026-03-27",
     "description": "tra-20260326.htm",
     "accessionNumber": "0001628280-26-021539",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-06-23",
+    "description": "ea0295693-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-071110",
     "isIPO": false
   },
   {

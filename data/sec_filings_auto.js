@@ -1,6 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-23 09:50:05 UTC
+// Last updated: 2026-06-24 09:38:02 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "4", date: "2026-06-23", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782259296.xml", isIPO: false, ticker: "LEU" },
+  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782259141.xml", isIPO: false, ticker: "LEU" },
+  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782258957.xml", isIPO: false, ticker: "LEU" },
+  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782258840.xml", isIPO: false, ticker: "LEU" },
+  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782255664.xml", isIPO: false, ticker: "LEU" },
+  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782247085.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782247057.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782247028.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782246975.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782246904.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782246842.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Satellogic", form: "8-K", date: "2026-06-23", description: "ea0295693-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-06-22", description: "d106173d8k.htm", isIPO: false, ticker: "SPCE" },
   { company: "Centrus Energy", form: "4", date: "2026-06-22", description: "xslF345X06/wk-form4_1782175513.xml", isIPO: false, ticker: "LEU" },
   { company: "Centrus Energy", form: "4", date: "2026-06-22", description: "xslF345X06/wk-form4_1782175430.xml", isIPO: false, ticker: "LEU" },
@@ -38,17 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-3_4seq1.xml", isIPO: false, ticker: "MNTS" },
   { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-2_4seq1.xml", isIPO: false, ticker: "MNTS" },
   { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-1_4seq1.xml", isIPO: false, ticker: "MNTS" },
-  { company: "Momentus", form: "8-K", date: "2026-06-17", description: "tm2618205d1_8k.htm", isIPO: false, ticker: "MNTS" },
-  { company: "C3.ai", form: "4", date: "2026-06-17", description: "xslF345X06/wk-form4_1781740351.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-06-17", description: "xslF345X06/wk-form4_1781740305.xml", isIPO: false, ticker: "AI" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-06-17", description: "xslF345X06/wk-form4_1781730449.xml", isIPO: false, ticker: "RXRX" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-06-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-06-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-06-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-06-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-06-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-16", description: "xslF345X06/wk-form4_1781640796.xml", isIPO: false, ticker: "SPCE" },
-  { company: "C3.ai", form: "8-K", date: "2026-06-16", description: "ai-20260611.htm", isIPO: false, ticker: "AI" },
-  { company: "Rigetti Computing", form: "4", date: "2026-06-16", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-06-16", description: "xslF345X06/wk-form4_1781645694.xml", isIPO: false, ticker: "QBTS" },
 ];

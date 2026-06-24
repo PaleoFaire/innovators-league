@@ -1,25 +1,130 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 59,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Tandem Health CEO: \u2018We\u2019re not dependent on OpenAI or Anthrop",
-      "OpenAI launches new initiative to help find and patch open s",
-      "AI chipmaker Groq confirms $650M raise, re-staffs after Nvid"
+      "After betting the firm on Anthropic, Menlo Ventures raises v",
+      "Anthropic Backer Menlo Ventures Raises $3B In New Funds To B",
+      "Anthropic\u2019s Claude Tag is learning your company, one Slack m"
     ],
-    "fundingQ": "$190.9B",
+    "fundingQ": "$193.9B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-23"
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 55,
+    "trend": "accelerating",
+    "catalysts": [
+      "Vention collaborates with FANUC and Universal Robots on soft",
+      "SpaceX Has Successful Starfall Demo",
+      "Bear Robotics acquires Kinisi Robotics to boost its physical"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 51,
+    "trend": "accelerating",
+    "catalysts": [
+      "SpaceX Starfall and Future Human-rated Versions",
+      "SpaceX Has Successful Starfall Demo",
+      "Satellogic partners with SynMax to build intelligence servic"
+    ],
+    "fundingQ": "$180.4B",
+    "components": {
+      "funding": 100,
+      "news": 65,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "Poland buys V-Bat UAVs from Shield AI for naval forces",
+      "Leonardo, Baykar tout in-flight control of Kizilelma drone f",
+      "Defense manufacturing readiness hinges on autonomous finishi"
+    ],
+    "fundingQ": "$12.7B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 47,
+    "trend": "steady",
+    "catalysts": [
+      "Frontier Climate adds Anthropic to buyers group, makes new f",
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
+    ],
+    "fundingQ": "$1.3B",
+    "components": {
+      "funding": 84,
+      "news": 10,
+      "hiring": 0,
+      "market": 76
+    },
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 46,
+    "trend": "steady",
+    "catalysts": [
+      "Poland buys V-Bat UAVs from Shield AI for naval forces"
+    ],
+    "fundingQ": "$10.8B",
+    "components": {
+      "funding": 100,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 45,
+    "trend": "accelerating",
+    "catalysts": [
+      "Poland buys V-Bat UAVs from Shield AI for naval forces",
+      "Satellogic partners with SynMax to build intelligence servic",
+      "Defense manufacturing readiness hinges on autonomous finishi"
+    ],
+    "fundingQ": "$33.8B",
+    "components": {
+      "funding": 100,
+      "news": 40,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-24"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 59,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
       "Astroscale raises funding to support growth strategy",
@@ -31,96 +136,9 @@
       "funding": 100,
       "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 31
     },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 55,
-    "trend": "accelerating",
-    "catalysts": [
-      "Bear Robotics acquires Kinisi Robotics to boost its physical",
-      "Dutch chip gear maker Nearfield Instruments raises $380M",
-      "Defense manufacturing readiness hinges on autonomous finishi"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Solar Foods bags \u20ac77.8M package, \u20ac500M defence and dual-use",
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
-    ],
-    "fundingQ": "$1.3B",
-    "components": {
-      "funding": 84,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 51,
-    "trend": "accelerating",
-    "catalysts": [
-      "With Starfall, SpaceX eyes an edge in global cargo delivery",
-      "OpenAI launches new initiative to help find and patch open s",
-      "Rocket Lab launches satellite for U.S. Space Force Victus Ha"
-    ],
-    "fundingQ": "$180.4B",
-    "components": {
-      "funding": 100,
-      "news": 65,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Defense manufacturing readiness hinges on autonomous finishi"
-    ],
-    "fundingQ": "$12.7B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 45,
-    "trend": "accelerating",
-    "catalysts": [
-      "Defense manufacturing readiness hinges on autonomous finishi",
-      "Before SpaceX IPO, investors in China secretly acquired stak",
-      "DOJ intervenes on behalf of xAI in data center gas turbine l"
-    ],
-    "fundingQ": "$33.8B",
-    "components": {
-      "funding": 100,
-      "news": 40,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-23"
+    "lastUpdated": "2026-06-24"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -136,110 +154,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "Active ocean & maritime ecosystem"
-    ],
-    "fundingQ": "$10.8B",
-    "components": {
-      "funding": 100,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 28,
-    "trend": "declining",
-    "catalysts": [
-      "AI chipmaker Groq confirms $650M raise, re-staffs after Nvid",
-      "SpaceX inks compute deal with Reflection AI, an open source",
-      "Dutch chip gear maker Nearfield Instruments raises $380M"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-06-23"
+    "lastUpdated": "2026-06-24"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 21,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "Rocket Lab launches satellite for U.S. Space Force Victus Ha",
-      "Bear Robotics acquires Kinisi Robotics to boost its physical",
-      "Three things to watch amid Anthropic\u2019s latest feud with the"
+      "Vention collaborates with FANUC and Universal Robots on soft",
+      "Satellogic partners with SynMax to build intelligence servic",
+      "Rocket Lab launches satellite for U.S. Space Force Victus Ha"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Tandem Health CEO: \u2018We\u2019re not dependent on OpenAI or Anthrop",
-      "Former Palantir healthcare head raises \u00a310M for NHS AI agent",
-      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 20,
-      "hiring": 0,
-      "market": 55
-    },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "Do dragons dream of electric sheep?",
-      "Honda and QuantumScape (QS) team up to make &#8216;game-chan"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 75
-    },
-    "lastUpdated": "2026-06-23"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 17,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 66
-    },
-    "lastUpdated": "2026-06-23"
+    "lastUpdated": "2026-06-24"
   },
   {
     "sector": "Housing & Construction",
@@ -255,7 +188,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-23"
+    "lastUpdated": "2026-06-24"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -271,6 +204,73 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-23"
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 9,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic Backer Menlo Ventures Raises $3B In New Funds To B",
+      "Tandem Health CEO: \u2018We\u2019re not dependent on OpenAI or Anthrop",
+      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 25,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 21
+    },
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian To Challenge Tesla FSD Later This Year, CEO Thinks"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Do dragons dream of electric sheep?",
+      "Honda and QuantumScape (QS) team up to make &#8216;game-chan"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-24"
   }
 ]
