@@ -1,15 +1,6 @@
 [
   {
     "date": "2026-06-23",
-    "vehicle": "Long March 7A | TJSW-26A",
-    "payload": "TJSW-26A",
-    "pad": "201, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f72c6ea1-dc44-4f0e-bb51-1c52eff9efe8/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-23",
     "vehicle": "Falcon 9 Block 5 | Project Starfall Demonstration Mission",
     "payload": "Project Starfall Demonstration Mission",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
@@ -54,6 +45,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-06-29",
+    "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "ADD Offshore launch platform, Sea Launch",
+    "provider": "Agency for Defense Development",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-06-30",
     "vehicle": "Electron | Ten Owl Of Ten (StriX Launch 10)",
     "payload": "Ten Owl Of Ten (StriX Launch 10)",
@@ -78,24 +78,6 @@
     "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
     "provider": "China Rocket Co. Ltd.",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "ADD Offshore launch platform, Sea Launch",
-    "provider": "Agency for Defense Development",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Spectrum | Onward and Upward",
-    "payload": "Onward and Upward",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
     "trackedCompany": null
   },
   {
@@ -135,6 +117,15 @@
     "trackedCompany": "ULA"
   },
   {
+    "date": "2026-07-03",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-50",
+    "payload": "Starlink Group 10-50",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1ef27ca1-af91-48bb-b934-3da5abd9f711/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-07-14",
     "vehicle": "Soyuz 2.1a | Soyuz MS-29",
     "payload": "Soyuz MS-29",
@@ -151,15 +142,6 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/599ba2df-7483-4b2f-a083-2b5ddc06e069/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "Falcon 9 Block 5 | BlueBird Block 2 #6-8",
-    "payload": "BlueBird Block 2 #6-8",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/56a85c82-ea71-449b-828c-b583f6f4a18b/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-07-31",
@@ -204,6 +186,15 @@
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/1e79a5e9-c02c-470f-882f-884120100fef/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-31",
+    "vehicle": "Spectrum | Onward and Upward",
+    "payload": "Onward and Upward",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
     "trackedCompany": null
   },
   {
@@ -259,6 +250,15 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9f5a4cb6-63f9-47e1-9512-b468bae2a8e6/?format=json",
     "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-08-31",
+    "vehicle": "Falcon 9 Block 5 | BlueBird Block 2 #6-8",
+    "payload": "BlueBird Block 2 #6-8",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/56a85c82-ea71-449b-828c-b583f6f4a18b/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-08-31",

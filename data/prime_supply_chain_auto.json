@@ -140,70 +140,6 @@
     ]
   },
   {
-    "prime": "General Dynamics",
-    "ticker": "GD",
-    "totalCompanies": 8,
-    "portfolio": [
-      {
-        "company": "Anduril",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Counter-drone systems"
-      },
-      {
-        "company": "HawkEye 360",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "RF geolocation for intel missions"
-      },
-      {
-        "company": "Integrate",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$262.9M",
-        "agency": "Department of Defense",
-        "evidence": "DESIGN, DEVELOP, INTEGRATE NAVY SYSTEMS",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002419C6407_9700_-NONE-_-NONE-"
-      },
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Mission Command software"
-      },
-      {
-        "company": "Shield AI",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "V-BAT autonomy for GCS integration"
-      },
-      {
-        "company": "Union",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "general dynamics"
-      },
-      {
-        "company": "general",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1219.8M",
-        "agency": "Department of State",
-        "evidence": "IGF::OT::IGF THE PURPOSE OF THIS ACTION IS TO ESTABLISH A NEW CONTRACT WITH GENERAL DYNAMICS INFORMATION TECHNOLOGY FOR GLOBAL SUPPLY CHAIN MANAGEMENT, LOGISTICS AND TECHNOLOGY DEVELOPMENT SERVICES TO",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA12C0130_1900_-NONE-_-NONE-"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1248.4M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE SPACE NETWORK (SN) CONSISTS OF A SPACE SEGMENT COMPRISED OF THE TRACKING AND DATA RELAY SATELLITES (TDRSS), AND A GROUND SEGMENT (SNGS). THE SN PROVIDES THE CAPABILITY FOR GLOBAL SPACE-TO-GROUND T",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10DB04C_8000_-NONE-_-NONE-"
-      }
-    ]
-  },
-  {
     "prime": "Raytheon / RTX",
     "ticker": "RTX",
     "totalCompanies": 7,
@@ -253,54 +189,57 @@
     ]
   },
   {
-    "prime": "L3Harris",
-    "ticker": "LHX",
-    "totalCompanies": 6,
+    "prime": "General Dynamics",
+    "ticker": "GD",
+    "totalCompanies": 7,
     "portfolio": [
       {
         "company": "Anduril",
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
-        "evidence": "Counter-UAS partnership (Pulsar)"
+        "evidence": "Counter-drone systems"
       },
       {
-        "company": "Cover",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$240.7M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE CONTRACTOR SHALL PROVIDE THE PERSONNEL. MATERIALS, AND FACILITIES NECESSARY TO DESIGN. DEVELOP, INTEGRATE, TEST AND SUPPORT GOES IMAGER AND SOUNDER INSTRUMENTS; SUPPORT INSTRUMENT INTEGRATION INTO",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_GSFC0199609DNAS596090_8000_-NONE-_-NONE-"
+        "company": "HawkEye 360",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "RF geolocation for intel missions"
       },
       {
-        "company": "Halo",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$84.0M",
-        "agency": "Department of Defense",
-        "evidence": "AIRBORNE SENSORS (ABS) SUPPORT FOR THE MDA TEST PROGRAM - NEW TASK ORDER FOR HIGH ALTITUDE OBSERVATORY (HALO) FLEET RENEWAL, HALO-II REPLACEMENT (HALO-IIR) AND HALO-III REPLACEMENT (HALO-IIIR), AIRCRA",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_HQ014718F0105_9700_HQ014711D0014_9700"
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Mission Command software"
       },
       {
         "company": "Shield AI",
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
-        "evidence": "Autonomous systems integration"
+        "evidence": "V-BAT autonomy for GCS integration"
       },
       {
-        "company": "True Anomaly",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Space domain awareness"
+        "company": "Union",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "general dynamics"
+      },
+      {
+        "company": "general",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1219.8M",
+        "agency": "Department of State",
+        "evidence": "IGF::OT::IGF THE PURPOSE OF THIS ACTION IS TO ESTABLISH A NEW CONTRACT WITH GENERAL DYNAMICS INFORMATION TECHNOLOGY FOR GLOBAL SUPPLY CHAIN MANAGEMENT, LOGISTICS AND TECHNOLOGY DEVELOPMENT SERVICES TO",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA12C0130_1900_-NONE-_-NONE-"
       },
       {
         "company": "space",
         "relationship": "gov contract",
         "source": "USAspending.gov",
-        "amount": "$1826.1M",
-        "agency": "Department of Commerce",
-        "evidence": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_DOCDG133E09CN0094_1330_-NONE-_-NONE-"
+        "amount": "$1248.4M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE SPACE NETWORK (SN) CONSISTS OF A SPACE SEGMENT COMPRISED OF THE TRACKING AND DATA RELAY SATELLITES (TDRSS), AND A GROUND SEGMENT (SNGS). THE SN PROVIDES THE CAPABILITY FOR GLOBAL SPACE-TO-GROUND T",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10DB04C_8000_-NONE-_-NONE-"
       }
     ]
   },
@@ -350,6 +289,49 @@
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "saic"
+      }
+    ]
+  },
+  {
+    "prime": "L3Harris",
+    "ticker": "LHX",
+    "totalCompanies": 5,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Counter-UAS partnership (Pulsar)"
+      },
+      {
+        "company": "Cover",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$240.7M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE CONTRACTOR SHALL PROVIDE THE PERSONNEL. MATERIALS, AND FACILITIES NECESSARY TO DESIGN. DEVELOP, INTEGRATE, TEST AND SUPPORT GOES IMAGER AND SOUNDER INSTRUMENTS; SUPPORT INSTRUMENT INTEGRATION INTO",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_GSFC0199609DNAS596090_8000_-NONE-_-NONE-"
+      },
+      {
+        "company": "Shield AI",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomous systems integration"
+      },
+      {
+        "company": "True Anomaly",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Space domain awareness"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1826.1M",
+        "agency": "Department of Commerce",
+        "evidence": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOCDG133E09CN0094_1330_-NONE-_-NONE-"
       }
     ]
   },

@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-06-23 10:25:54 UTC
-// Total signals: 44 | Companies matched: 185
+// Last updated: 2026-06-24 10:10:51 UTC
+// Total signals: 44 | Companies matched: 186
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -2318,6 +2318,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Resolute Grid",
+        "score": 20,
+        "matchReasons": [
+          "tag: grid",
+          "tag: energy"
+        ]
+      },
+      {
         "name": "Form Energy",
         "score": 20,
         "matchReasons": [
@@ -2369,6 +2377,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "relevantCompanies": [
       "AIR",
       "Base Power",
+      "Resolute Grid",
       "Form Energy",
       "Peak Energy",
       "Voya Energy",
@@ -5673,6 +5682,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Long-Duration Energy Storage Technologies"
     ]
   },
+  "Resolute Grid": {
+    "name": "Resolute Grid",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Long-Duration Energy Storage Technologies"
+    ]
+  },
   "Form Energy": {
     "name": "Form Energy",
     "govPullScore": 18,
@@ -6539,6 +6560,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 185,
-  "lastUpdated": "2026-06-23 10:25:54 UTC"
+  "companiesMatched": 186,
+  "lastUpdated": "2026-06-24 10:10:51 UTC"
 };

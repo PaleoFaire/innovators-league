@@ -1,6 +1,11 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-06-23 10:26:42 UTC
+// Last updated: 2026-06-24 10:12:13 UTC
 const NASA_PROJECTS = [
+  { id: 184851, title: "Surface Power Cable Manipulation Test Campaign", status: "Active", center: "Johnson Space Center", techArea: "Surface Umbilicals and Interfaces", lastUpdated: "06/23/26" },
+  { id: 184850, title: "O2/CH4 Catalytic Heater for Lunar Night Survival​", status: "Active", center: "Johnson Space Center", techArea: "Heating Systems", lastUpdated: "06/23/26" },
+  { id: 184849, title: "MIDAS-MACG: Modular Interoperable Distributed Avionics and Software for Multi-Ax", status: "Active", center: "Johnson Space Center", techArea: "Modularity, Commonality, and Interfaces", lastUpdated: "06/23/26" },
+  { id: 184899, title: "Brine Processor Assembly", status: "Active", center: "Johnson Space Center", techArea: "Water Recovery and Management", lastUpdated: "06/23/26" },
+  { id: 93175, title: "RFID Enabled Autonomous Logistics Management", status: "Active", center: "Johnson Space Center", techArea: "Logistics Management", lastUpdated: "06/23/26" },
   { id: 183679, title: "Towards On-Demand Planetary Landing through On-Board Autonomous Mapping and Cros", status: "Active", center: "Carnegie Mellon University", techArea: "EDL Guidance Algorithms", lastUpdated: "06/22/26" },
   { id: 158490, title: "Strain-balanced superlattices for radiation-hard solar cells in extreme conditio", status: "Active", center: "University of Illinois at Urbana-Champaign", techArea: "Photovoltaic Electrical Power", lastUpdated: "06/22/26" },
   { id: 183692, title: "State Representations for Measurement Fusion and Uncertainty Propagation in Cisl", status: "Active", center: "The University of Texas at Austin", techArea: "Rendezvous, Proximity Operations, and Capture Trajectory Design and Orbit Determination", lastUpdated: "06/22/26" },
@@ -26,9 +31,4 @@ const NASA_PROJECTS = [
   { id: 158634, title: "Engineering Cyanobacteria for Chemical Bioproduction on Mars", status: "Active", center: "Georgia Institute of Technology-Main Campus", techArea: "Resource Processing for Production of Mission Consumables", lastUpdated: "06/19/26" },
   { id: 158487, title: "Electrochemical Impedance Sensors for Microbial Monitoring in Spacecraft Wastewa", status: "Active", center: "Montana State University - Bozeman", techArea: "Water Recovery and Management", lastUpdated: "06/19/26" },
   { id: 158635, title: "Dry Film Lubricants for Heaterless Actuators", status: "Active", center: "University of California-Merced", techArea: "Surface Mobility", lastUpdated: "06/19/26" },
-  { id: 183678, title: "Dexterous Manipulation via Vision-Intent-Action Models", status: "Active", center: "Rice University", techArea: "Dexterous Manipulation", lastUpdated: "06/19/26" },
-  { id: 158683, title: "Development of Transient Modeling Capabilities for Liquid Core Nuclear Thermal P", status: "Active", center: "Massachusetts Institute of Technology", techArea: "Nuclear Thermal Propulsion", lastUpdated: "06/19/26" },
-  { id: 183669, title: "Development of Radiation Tolerant Additively Manufactured Refractory Composition", status: "Active", center: "University of Wisconsin-Madison", techArea: "Materials for Extreme Environments", lastUpdated: "06/19/26" },
-  { id: 158679, title: "Development of an Electrodeless Magnetoplasmadynamic Thruster", status: "Active", center: "University of Michigan-Ann Arbor", techArea: "Electrostatic Propulsion", lastUpdated: "06/19/26" },
-  { id: 158603, title: "Development and validation of a ground-based spacecraft docking simulator with v", status: "Active", center: "Texas A & M University-College Station", techArea: "Medical Diagnosis and Prognosis", lastUpdated: "06/19/26" },
 ];

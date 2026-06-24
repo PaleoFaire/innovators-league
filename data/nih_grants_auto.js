@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-06-23 10:25:10 UTC
-// Total grants: 636 | Known companies: 17 | SBIR: 17
-// Total funding tracked: $402,229,648
+// Last updated: 2026-06-24 10:11:01 UTC
+// Total grants: 636 | Known companies: 16 | SBIR: 17
+// Total funding tracked: $402,597,333
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -1015,6 +1015,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: true,
     abstract: "Cancer remains a leading cause of death worldwide. Targeted agents have dramatically improved the prognosis of over 30 cancer types, but are fundamentally limited by the evolution of resistance. Curre",
     terms: ["Acceleration", "Amino Acid Substitution", "Antineoplastic Agents", "Architecture", "Bioinformatics", "Businesses", "Cancer Patient", "Cause of Death"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Next generation anti-cancer drugdelivering cement for bone metastasis patients",
+    organization: "CURER INC",
+    orgState: "MA",
+    piName: "Hae Lin  Jang",
+    fiscalYear: 2025,
+    awardAmount: 1000000,
+    activityCode: "R42",
+    isSbir: false,
+    abstract: "Abstract Our mission is to develop an innovative anti-cancer drug delivering bone cement for bone metastasis patients, which can be injected into metastasis-caused bone degeneration sites in a minimal",
+    terms: ["Address", "American", "Antineoplastic Agents", "Antitumor Drug Screening Assays", "Area", "Binding", "Bone Cements", "Bone Growth"],
     isKnownCompany: false,
   },
   {
@@ -2329,19 +2342,6 @@ const NIH_GRANTS_AUTO = [
     abstract: "Glioblastoma (GBM) is the most common primary brain tumor in adults and one of the most aggressive cancers currently without effective treatment. Recent clinical trial results from our group, employin",
     terms: ["Adult", "Aftercare", "Animal Model", "Antigens", "Attention", "Autologous", "Automobile Driving", "Basic Science"],
     isKnownCompany: false,
-  },
-  {
-    title: "Host genetics, early-life microbiome, and childhood asthma: MARC-43 Boston",
-    organization: "MASSACHUSETTS GENERAL HOSPITAL",
-    orgState: "MA",
-    piName: "CARLOS ARTURO CAMARGO",
-    fiscalYear: 2026,
-    awardAmount: 668574,
-    activityCode: "UH3",
-    isSbir: false,
-    abstract: "Recent studies report probabilistic associations between the early-life microbiome and various child health outcomes (e.g., obesity, asthma), suggesting potential insights into pathogenesis and subseq",
-    terms: ["0 year old", "2 year old", "4 year old", "6 year old", "Affect", "Airway Disease", "Area", "Asthma"],
-    isKnownCompany: true,
   },
   {
     title: "Naturalistic electrical stimulation strategies for effective visual cortical prostheses",
