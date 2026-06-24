@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:05:24.279988+00:00",
+  "generatedAt": "2026-06-24T04:19:53.488730+00:00",
   "date": "2026-06-24",
   "dateDisplay": "Wednesday, June 24, 2026",
   "sections": {
@@ -79,6 +79,13 @@
     ],
     "marketMovers": [
       {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 7.1,
+        "changePercent": -23.66,
+        "change": -2.2
+      },
+      {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
         "price": 20.95,
@@ -88,9 +95,9 @@
       {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
-        "price": 503000.0,
-        "changePercent": -18.34,
-        "change": -113000.0
+        "price": 509000.0,
+        "changePercent": -18.56,
+        "change": -116000.0
       },
       {
         "ticker": "SATL",
@@ -119,13 +126,6 @@
         "price": 95.12,
         "changePercent": -12.93,
         "change": -14.13
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 8.22,
-        "changePercent": -11.6,
-        "change": -1.08
       },
       {
         "ticker": "DRSHF",
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LUNR -18.7%"
+    "topMover": "ASRHF -23.7%"
   }
 }
