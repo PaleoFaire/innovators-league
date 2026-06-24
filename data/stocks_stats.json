@@ -11,19 +11,19 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -13.09,
+      "avg_change": -14.3,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -7.44,
+      "avg_change": -7.04,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.88,
+      "avg_change": -2.82,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.49,
+      "avg_change": -5.46,
       "count": 3
     },
     "biotech": {
@@ -64,14 +64,14 @@
       2.63
     ],
     [
+      "SMR",
+      "NuScale Power",
+      2.07
+    ],
+    [
       "ALAB",
       "Astera Labs",
       2.01
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      1.94
     ],
     [
       "AUR",
@@ -81,15 +81,10 @@
     [
       "JOBY",
       "Joby Aviation",
-      -1.4
+      -1.24
     ]
   ],
   "topLosers": [
-    [
-      "PLTR",
-      "Palantir",
-      -13.37
-    ],
     [
       "ASTS",
       "AST SpaceMobile",
@@ -103,13 +98,18 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -18.34
+      -18.56
     ],
     [
       "LUNR",
       "Intuitive Machines",
       -18.67
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -23.66
     ]
   ],
-  "lastUpdated": "2026-06-23 20:11:32"
+  "lastUpdated": "2026-06-24 03:55:10"
 }
