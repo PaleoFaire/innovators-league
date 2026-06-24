@@ -64127,23 +64127,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-24 11:51
+// Last updated: 2026-06-24 14:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX launches secretive Starfall reentry demo mission", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "NGSO trade association launches without industry giant SpaceX", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Shield AI", headline: "Poland buys V-Bat UAVs from Shield AI for naval forces", source: "Breaking Defense", time: "15h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Anthropic", headline: "After betting the firm on Anthropic, Menlo Ventures raises victorious $3B fund", source: "TechCrunch", time: "16h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Vention", headline: "Vention collaborates with FANUC and Universal Robots on software-defined automation", source: "The Robot Report", time: "16h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Anthropic", headline: "Anthropic Backer Menlo Ventures Raises $3B In New Funds To Back AI Startups Across Stages", source: "Crunchbase News", time: "16h ago", impact: "high", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Starfall and Future Human-rated Versions", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Has Successful Starfall Demo", source: "Next Big Future", time: "18h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic's Claude Tag is learning your company, one Slack message at a time", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "XAI and Cursor Strategy to Catch Up and Beat Anthropic in Coding", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "Frontier Climate adds Anthropic to buyers group, makes new financing pledge", source: "Utility Dive", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Satellogic", headline: "Satellogic partners with SynMax to build intelligence services around upcoming Merlin constellation", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Baykar", headline: "Leonardo, Baykar tout in-flight control of Kizilelma drone from a M-346 jet trainer", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Anthropic", headline: "Tandem Health CEO: 'We're not dependent on OpenAI or Anthropic'", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Vast", headline: "Vast signs additional partners for commercial space station microgravity research", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Agility Robotics", headline: "Humanoid maker Agility Robotics to go public through SPAC merger", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Stripe, Anthropic and OpenAI are backing an effort to stop respiratory infections", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX launches secretive Starfall reentry demo mission", source: "SpaceNews", time: "3h ago", impact: "medium", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "NGSO trade association launches without industry giant SpaceX", source: "SpaceNews", time: "4h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Shield AI", headline: "Poland buys V-Bat UAVs from Shield AI for naval forces", source: "Breaking Defense", time: "18h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Anthropic", headline: "After betting the firm on Anthropic, Menlo Ventures raises victorious $3B fund", source: "TechCrunch", time: "18h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Vention", headline: "Vention collaborates with FANUC and Universal Robots on software-defined automation", source: "The Robot Report", time: "18h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Anthropic", headline: "Anthropic Backer Menlo Ventures Raises $3B In New Funds To Back AI Startups Across Stages", source: "Crunchbase News", time: "19h ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starfall and Future Human-rated Versions", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Has Successful Starfall Demo", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic's Claude Tag is learning your company, one Slack message at a time", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "XAI and Cursor Strategy to Catch Up and Beat Anthropic in Coding", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Frontier Climate adds Anthropic to buyers group, makes new financing pledge", source: "Utility Dive", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Satellogic", headline: "Satellogic partners with SynMax to build intelligence services around upcoming Merlin constellation", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

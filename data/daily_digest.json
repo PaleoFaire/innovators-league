@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T11:51:59.700259+00:00",
+  "generatedAt": "2026-06-24T14:49:43.872813+00:00",
   "date": "2026-06-24",
   "dateDisplay": "Wednesday, June 24, 2026",
   "sections": {
@@ -79,20 +79,6 @@
     ],
     "marketMovers": [
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 7.1,
-        "changePercent": -23.66,
-        "change": -2.2
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 20.95,
-        "changePercent": -18.67,
-        "change": -4.81
-      },
-      {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
         "price": 515000.0,
@@ -100,39 +86,53 @@
         "change": -110000.0
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.56,
-        "changePercent": -16.89,
-        "change": -1.13
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 19.64,
+        "changePercent": -15.92,
+        "change": -3.72
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 72.87,
-        "changePercent": -16.79,
-        "change": -14.7
+        "price": 69.27,
+        "changePercent": -15.78,
+        "change": -12.98
       },
       {
-        "ticker": "PLTR",
-        "company": "Palantir",
-        "price": 116.7,
-        "changePercent": -13.37,
-        "change": -18.01
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.19,
+        "changePercent": -15.47,
+        "change": -0.95
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 7.1,
+        "changePercent": -14.97,
+        "change": -1.25
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 95.12,
-        "changePercent": -12.93,
-        "change": -14.13
+        "price": 89.02,
+        "changePercent": -14.92,
+        "change": -15.61
       },
       {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 1.79,
-        "changePercent": -11.39,
-        "change": -0.23
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 409.78,
+        "changePercent": 13.29,
+        "change": 48.07
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "price": 115.93,
+        "changePercent": -13.0,
+        "change": -17.32
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASRHF -23.7%"
+    "topMover": "277810.KQ -17.6%"
   }
 }
