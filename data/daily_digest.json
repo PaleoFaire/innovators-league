@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-24T23:14:49.169371+00:00",
-  "date": "2026-06-24",
-  "dateDisplay": "Wednesday, June 24, 2026",
+  "generatedAt": "2026-06-25T04:18:01.115793+00:00",
+  "date": "2026-06-25",
+  "dateDisplay": "Thursday, June 25, 2026",
   "sections": {
     "govActivity": [
       {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.01,
-        "changePercent": -18.32,
-        "change": -1.12
-      },
-      {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 86.0,
-        "changePercent": -17.81,
-        "change": -18.63
+        "price": 85.41,
+        "changePercent": -18.37,
+        "change": -19.22
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 19.21,
-        "changePercent": -17.77,
-        "change": -4.15
+        "price": 19.13,
+        "changePercent": -18.11,
+        "change": -4.23
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 515000.0,
-        "changePercent": -17.6,
-        "change": -110000.0
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.04,
+        "changePercent": -17.92,
+        "change": -1.1
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 68.55,
-        "changePercent": -16.66,
-        "change": -13.7
+        "price": 68.01,
+        "changePercent": -17.31,
+        "change": -14.24
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 7.1,
-        "changePercent": -14.97,
-        "change": -1.25
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 517000.0,
+        "changePercent": -15.93,
+        "change": -98000.0
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 113.7,
-        "changePercent": -14.67,
-        "change": -19.55
+        "price": 113.5,
+        "changePercent": -14.82,
+        "change": -19.75
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.88,
-        "changePercent": -11.97,
-        "change": -0.25
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 797.0,
+        "changePercent": -14.43,
+        "change": -134.45
+      },
+      {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.72,
+        "changePercent": -14.25,
+        "change": -0.28
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SATL -18.3%"
+    "topMover": "RKLB -18.4%"
   }
 }
