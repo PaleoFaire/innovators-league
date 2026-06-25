@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-25T04:18:43+00:00",
+  "generatedAt": "2026-06-25T08:30:13+00:00",
   "stats": {
-    "companies": 943,
+    "companies": 950,
     "vcFirms": 27,
     "uniqueClusters": 103,
     "totalInvestments": 242
@@ -3453,17 +3453,12 @@
       {
         "company": "Core Automation",
         "cluster": "continual-learning-ai",
-        "founder": "Gerald Depew, Daniel C. Rozok"
+        "founder": "Jerry Tworek, Joanne Jang, Julia Villagra, Rohan Anil"
       },
       {
         "company": "Blackstar",
         "cluster": "ai-native-hardware",
         "founder": "Daniel Edrisian (Founder/CEO, ex-OpenAI Codex engineer; previously founded Alex YC W24, an Xcode AI coding assistant acqui-hired by OpenAI Sept 2025; UC Berkeley EECS)"
-      },
-      {
-        "company": "Sunday Robotics",
-        "cluster": "general-purpose-robot",
-        "founder": "Tony Zhao, Cheng Chi"
       },
       {
         "company": "Periodic Labs",
@@ -3475,14 +3470,14 @@
       {
         "company": "Core Automation",
         "cluster": "continual-learning-ai",
-        "founder": "Gerald Depew, Daniel C. Rozok"
+        "founder": "Jerry Tworek, Joanne Jang, Julia Villagra, Rohan Anil"
       }
     ],
     "DeepMind": [
       {
         "company": "Core Automation",
         "cluster": "continual-learning-ai",
-        "founder": "Gerald Depew, Daniel C. Rozok"
+        "founder": "Jerry Tworek, Joanne Jang, Julia Villagra, Rohan Anil"
       },
       {
         "company": "Reflection AI",
@@ -3624,7 +3619,7 @@
       {
         "company": "Maritime Fusion",
         "cluster": null,
-        "founder": "Ex-Tesla engineering team (undisclosed)"
+        "founder": "Justin Cohen, Jason Kaufmann"
       },
       {
         "company": "Foundation Robotics",
@@ -3637,6 +3632,13 @@
         "company": "Persona AI",
         "cluster": "industrial-humanoid",
         "founder": "Nic Radford, Jerry Pratt"
+      }
+    ],
+    "Stanford": [
+      {
+        "company": "Sunday Robotics",
+        "cluster": "general-purpose-robot",
+        "founder": "Tony Zhao, Cheng Chi"
       }
     ],
     "Google Brain": [
