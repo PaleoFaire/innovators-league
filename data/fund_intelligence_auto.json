@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-24T09:38:56.104342Z",
+  "generated_at": "2026-06-25T09:30:49.869278Z",
   "platform": {
-    "companiesTracked": 943,
+    "companiesTracked": 950,
     "sectorsMonitored": 20,
-    "totalCapitalRaisedTracked": "$451.7B",
+    "totalCapitalRaisedTracked": "$451.9B",
     "totalValuationTracked": "$2026.9B",
     "companiesWithValuation": 163,
     "govContractsTracked": 30,
     "sbirAwardsTracked": 342,
     "dealsTracked": 223,
-    "newsItemsTracked": 40,
-    "dataPointsUpdated": "37,720+"
+    "newsItemsTracked": 45,
+    "dataPointsUpdated": "38,000+"
   },
   "topFunds": [
     {
       "fund": "NVIDIA",
-      "portfolio_count": 29,
+      "portfolio_count": 28,
       "companies": [
         "Ayar Labs",
         "Black Forest Labs",
@@ -31,18 +31,18 @@
     },
     {
       "fund": "Founders Fund",
-      "portfolio_count": 13,
+      "portfolio_count": 12,
       "companies": [
         "Amca",
         "Crusoe Energy",
         "General Matter",
-        "Impulse Space",
         "Nominal",
         "Onodrim Industries",
         "Senra Systems",
         "Shinkei",
         "Strata Robotics",
-        "Until"
+        "Until",
+        "Varda Space Industries"
       ]
     },
     {
@@ -77,20 +77,6 @@
       ]
     },
     {
-      "fund": "Breakthrough Energy",
-      "portfolio_count": 8,
-      "companies": [
-        "H2Pro",
-        "LuxWall",
-        "Mission Zero Technologies",
-        "Pacific Fusion",
-        "Planted Solar",
-        "Summit Nanotech",
-        "Sygaldry Technologies",
-        "Tempo"
-      ]
-    },
-    {
       "fund": "Khosla Ventures",
       "portfolio_count": 7,
       "companies": [
@@ -101,6 +87,19 @@
         "Spiritus",
         "Varda Space Industries",
         "Windborne"
+      ]
+    },
+    {
+      "fund": "Breakthrough Energy",
+      "portfolio_count": 7,
+      "companies": [
+        "H2Pro",
+        "LuxWall",
+        "Mission Zero Technologies",
+        "Pacific Fusion",
+        "Planted Solar",
+        "Sygaldry Technologies",
+        "Tempo"
       ]
     },
     {
@@ -116,18 +115,6 @@
       ]
     },
     {
-      "fund": "8VC",
-      "portfolio_count": 6,
-      "companies": [
-        "Cambium",
-        "Gallatin AI",
-        "Stark Defence",
-        "Terra Industries",
-        "Terrahaptix",
-        "Wispr AI"
-      ]
-    },
-    {
       "fund": "General Catalyst",
       "portfolio_count": 5,
       "companies": [
@@ -136,6 +123,17 @@
         "Pacific Fusion",
         "Together AI",
         "Vital Lyfe"
+      ]
+    },
+    {
+      "fund": "8VC",
+      "portfolio_count": 5,
+      "companies": [
+        "Cambium",
+        "Gallatin AI",
+        "Stark Defence",
+        "Terra Industries",
+        "Terrahaptix"
       ]
     },
     {
@@ -178,28 +176,27 @@
       ]
     },
     {
-      "fund": "Thrive Capital",
-      "portfolio_count": 3,
-      "companies": [
-        "Isomorphic Labs",
-        "Mesh Optical Technologies",
-        "Physical Intelligence"
-      ]
-    },
-    {
-      "fund": "Valor Equity",
-      "portfolio_count": 2,
-      "companies": [
-        "Chaos Industries",
-        "Magrathea Metals"
-      ]
-    },
-    {
       "fund": "Craft Ventures",
       "portfolio_count": 2,
       "companies": [
         "Allen Control Systems",
         "Hyfix"
+      ]
+    },
+    {
+      "fund": "Thrive Capital",
+      "portfolio_count": 2,
+      "companies": [
+        "Isomorphic Labs",
+        "Physical Intelligence"
+      ]
+    },
+    {
+      "fund": "Peter Thiel",
+      "portfolio_count": 2,
+      "companies": [
+        "New Limit",
+        "Panthalassa"
       ]
     },
     {
@@ -236,13 +233,13 @@
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 164,
+    "Space & Aerospace": 165,
     "Defense & Security": 150,
-    "Robotics & Manufacturing": 131,
-    "Climate & Energy": 123,
+    "Robotics & Manufacturing": 132,
+    "Climate & Energy": 126,
     "Biotech & Health": 68,
     "Chips & Semiconductors": 68,
-    "Nuclear Energy": 53,
+    "Nuclear Energy": 54,
     "Quantum Computing": 44,
     "AI & Software": 35,
     "Drones & Autonomous": 32,

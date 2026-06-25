@@ -1,7 +1,7 @@
 [
   {
     "mafia": "Y Combinator",
-    "count": 15,
+    "count": 17,
     "companies": [
       {
         "company": "Beyond Reach Labs",
@@ -58,6 +58,18 @@
         "valuation": ""
       },
       {
+        "company": "Ultra Robotics",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$3M+",
+        "valuation": ""
+      },
+      {
+        "company": "Anthrogen",
+        "sector": "Biotech & Health",
+        "totalRaised": "$4M",
+        "valuation": ""
+      },
+      {
         "company": "BurnBot",
         "sector": "Climate & Energy",
         "totalRaised": "$25M",
@@ -94,12 +106,30 @@
         "valuation": ""
       }
     ],
-    "description": "15 companies with founding-team links to Y Combinator."
+    "description": "17 companies with founding-team links to Y Combinator."
   },
   {
     "mafia": "SpaceX Mafia",
-    "count": 10,
+    "count": 13,
     "companies": [
+      {
+        "company": "Plantd Materials",
+        "sector": "Materials",
+        "totalRaised": "$42M",
+        "valuation": ""
+      },
+      {
+        "company": "Critical Energy",
+        "sector": "Climate & Energy",
+        "totalRaised": "$22M",
+        "valuation": ""
+      },
+      {
+        "company": "Electric Era",
+        "sector": "Climate & Energy",
+        "totalRaised": "$11.5M",
+        "valuation": ""
+      },
       {
         "company": "Lux Aeterna",
         "sector": "Space & Aerospace",
@@ -161,7 +191,7 @@
         "valuation": ""
       }
     ],
-    "description": "10 companies with founding-team links to SpaceX."
+    "description": "13 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Google/DeepMind",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T09:38:55.958090Z",
+  "generated_at": "2026-06-25T09:30:49.590059Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -10,16 +10,6 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone",
       "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "After betting the firm on Anthropic, Menlo Ventures raises victorious $3B fund",
-      "date": "Tue, 23 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
-      "signal_type": "funding"
     },
     {
       "author": "Crunchbase News",
@@ -55,7 +45,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 4,
     "from_press": 0
   }
 }

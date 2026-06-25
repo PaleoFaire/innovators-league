@@ -1,6 +1,41 @@
 {
   "nodes": [
     {
+      "id": "Plantd Materials",
+      "sector": "Materials",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Critical Loop",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Critical Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Farcast",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "1872",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Applied Atomics",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Electric Era",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
       "id": "Tobe Energy",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -10056,7 +10091,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 948,
+    "total_nodes": 955,
     "total_edges": 914,
     "competitor_edges": 166,
     "thesis_edges": 742,

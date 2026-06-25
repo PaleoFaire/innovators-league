@@ -105,8 +105,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 729,
-    "headcountFormatted": "750+"
+    "estimatedHeadcount": 800,
+    "headcountFormatted": "800+"
   },
   {
     "company": "SpaceX",
@@ -123,7 +123,7 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 25457,
+    "estimatedHeadcount": 25486,
     "headcountFormatted": "25K+"
   },
   {
@@ -159,8 +159,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1200,
-    "headcountFormatted": "1,200+"
+    "estimatedHeadcount": 1243,
+    "headcountFormatted": "1,243+"
   },
   {
     "company": "Relativity Space",
@@ -213,8 +213,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1186,
-    "headcountFormatted": "1,186+"
+    "estimatedHeadcount": 1214,
+    "headcountFormatted": "1,214+"
   },
   {
     "company": "Hermeus",
@@ -393,8 +393,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1614,
-    "headcountFormatted": "1,614+"
+    "estimatedHeadcount": 1586,
+    "headcountFormatted": "1,586+"
   },
   {
     "company": "Rigetti Computing",
@@ -558,7 +558,7 @@
     "agencies": [],
     "keyIndicators": {
       "clearance": false,
-      "itar_compliant": false,
+      "itar_compliant": true,
       "cmmc_level_3": false
     },
     "estimatedHeadcount": 0,
@@ -633,8 +633,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2357,
-    "headcountFormatted": "2,357+"
+    "estimatedHeadcount": 2414,
+    "headcountFormatted": "2,414+"
   },
   {
     "company": "Mythic",
@@ -683,8 +683,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2200,
-    "headcountFormatted": "2,200+"
+    "estimatedHeadcount": 2286,
+    "headcountFormatted": "2,286+"
   },
   {
     "company": "Apex Space",
@@ -874,43 +874,11 @@
     "headcountFormatted": ""
   },
   {
-    "company": "Valinor Enterprises",
-    "sector": "Defense & Security",
-    "readinessScore": 83,
-    "govTractionScore": 8,
-    "compositeScore": 69.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": true,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "Raphe mPhibr",
     "sector": "Defense & Security",
     "readinessScore": 83,
     "govTractionScore": 8,
     "compositeScore": 87.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": true,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
-    "company": "Scout AI",
-    "sector": "Defense & Security",
-    "readinessScore": 83,
-    "govTractionScore": 8,
-    "compositeScore": 82.5,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {
@@ -1146,6 +1114,22 @@
     "headcountFormatted": ""
   },
   {
+    "company": "Valinor Enterprises",
+    "sector": "Defense & Security",
+    "readinessScore": 80,
+    "govTractionScore": 8,
+    "compositeScore": 69.5,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
     "company": "Cambridge Aerospace",
     "sector": "Defense & Security",
     "readinessScore": 80,
@@ -1279,6 +1263,22 @@
     "readinessScore": 80,
     "govTractionScore": 8,
     "compositeScore": 76.5,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
+    "company": "Scout AI",
+    "sector": "Defense & Security",
+    "readinessScore": 80,
+    "govTractionScore": 8,
+    "compositeScore": 82.5,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {
@@ -1544,8 +1544,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2186,
-    "headcountFormatted": "2,186+"
+    "estimatedHeadcount": 2214,
+    "headcountFormatted": "2,214+"
   },
   {
     "company": "Northwood Space",
@@ -2300,6 +2300,22 @@
     "headcountFormatted": ""
   },
   {
+    "company": "Improbable Defence",
+    "sector": "Defense & Security",
+    "readinessScore": 63,
+    "govTractionScore": 6,
+    "compositeScore": 69.5,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": true,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
     "company": "Thunder Tiger",
     "sector": "Defense & Security",
     "readinessScore": 63,
@@ -2616,8 +2632,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 171,
-    "headcountFormatted": "150+"
+    "estimatedHeadcount": 229,
+    "headcountFormatted": "250+"
   },
   {
     "company": "Destinus",
@@ -2648,8 +2664,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1314,
-    "headcountFormatted": "1,314+"
+    "estimatedHeadcount": 1329,
+    "headcountFormatted": "1,329+"
   },
   {
     "company": "Delian Alliance Industries",
@@ -2881,22 +2897,6 @@
     "readinessScore": 60,
     "govTractionScore": 6,
     "compositeScore": 63.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
-    "company": "Improbable Defence",
-    "sector": "Defense & Security",
-    "readinessScore": 60,
-    "govTractionScore": 6,
-    "compositeScore": 69.5,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {
