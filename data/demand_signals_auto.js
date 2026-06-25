@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-06-24 10:10:51 UTC
-// Total signals: 44 | Companies matched: 186
+// Last updated: 2026-06-25 09:58:54 UTC
+// Total signals: 44 | Companies matched: 187
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -2265,6 +2265,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Critical Energy",
+        "score": 20,
+        "matchReasons": [
+          "tag: geothermal",
+          "tag: energy"
+        ]
+      },
+      {
         "name": "Endurance Energy",
         "score": 16,
         "matchReasons": [
@@ -2278,6 +2286,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Mazama",
       "Zanskar",
       "Sage Geosystems",
+      "Critical Energy",
       "Endurance Energy"
     ]
   },
@@ -5658,6 +5667,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Clean Hydrogen Hub Expansion"
     ]
   },
+  "Critical Energy": {
+    "name": "Critical Energy",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Enhanced Geothermal Systems Demonstration"
+    ]
+  },
   "Endurance Energy": {
     "name": "Endurance Energy",
     "govPullScore": 17,
@@ -6560,6 +6581,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 186,
-  "lastUpdated": "2026-06-24 10:10:51 UTC"
+  "companiesMatched": 187,
+  "lastUpdated": "2026-06-25 09:58:54 UTC"
 };
