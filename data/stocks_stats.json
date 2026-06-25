@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -13.06,
+      "avg_change": -12.8,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.09,
+      "avg_change": -8.65,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.92,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 2.34,
       "count": 3
     },
     "transportation": {
@@ -79,16 +79,16 @@
       2.73
     ],
     [
-      "AMD",
-      "AMD",
-      2.45
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      2.71
     ]
   ],
   "topLosers": [
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -15.93
+      -16.1
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -18.37
     ]
   ],
-  "lastUpdated": "2026-06-25 03:56:26"
+  "lastUpdated": "2026-06-25 09:29:04"
 }
