@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:18:08.198651+00:00",
+  "generatedAt": "2026-06-26T05:17:00.030200+00:00",
   "date": "2026-06-26",
   "dateDisplay": "Friday, June 26, 2026",
   "sections": {
@@ -103,8 +103,15 @@
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
         "price": 1.7,
-        "changePercent": -20.79,
-        "change": -0.45
+        "changePercent": -20.56,
+        "change": -0.44
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 470000.0,
+        "changePercent": -20.34,
+        "change": -120000.0
       },
       {
         "ticker": "NNE",
@@ -126,13 +133,6 @@
         "price": 18.7,
         "changePercent": -17.69,
         "change": -4.02
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 516000.0,
-        "changePercent": -16.1,
-        "change": -99000.0
       }
     ],
     "regulatory": [

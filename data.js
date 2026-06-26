@@ -64915,23 +64915,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-26 00:18
+// Last updated: 2026-06-26 05:16
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "OpenAI", headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins NASA award for three Electron launches", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Zoox", headline: "Zoox Introduces Next-Generation Robotaxi", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Rocket Lab", headline: "NASA Selects Rocket Lab to Launch Sun, Earth Science Missions", source: "NASA Breaking News", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Base Power", headline: "a16z-backed Base Power is offering cheaper electricity to the power grid that needs it most", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic's Claude is winning over paid consumers, a market owned by ChatGPT", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Databricks", headline: "Databricks' former AI chief thinks he can cut AI's power bill by 1,000x", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Roboneers", headline: "ARX Robotics and Roboneers form ARX Industries to scale unmanned ground vehicle production", source: "Tech.eu", time: "8h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Scale AI", headline: "What it actually takes to scale AI in Europe: 'The best founders aren't building for the next funding round'", source: "Sifted", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "ICEYE", headline: "ICEYE to double radar-satellite capacity by late 2027 as demand surges", source: "Defense News", time: "15h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Waymo", headline: "Waymo Shares Stunning Safety Update", source: "CleanTechnica", time: "20h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "ClearSpace", headline: "Shield Space and ClearSpace partner to defend satellites from orbital threats", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Vast", headline: "Vast signs additional partners for commercial space station microgravity research", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Agility Robotics", headline: "Humanoid maker Agility Robotics to go public through SPAC merger", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic Thinks Its Own Success Is Key to Making AI Safe", source: "Wired", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "OpenAI", headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "SpaceX", headline: "SpaceX StarShip 40 Progressing to a Static Fire", source: "Next Big Future", time: "5h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data", source: "Wired", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins NASA award for three Electron launches", source: "SpaceNews", time: "6h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Zoox", headline: "Zoox Introduces Next-Generation Robotaxi", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "OpenAI", headline: "NY Times Reporting OpenAI May Delay IPO to 2027", source: "Next Big Future", time: "7h ago", impact: "high", unread: false },
+  { id: 8, type: "milestone", company: "Rocket Lab", headline: "NASA Selects Rocket Lab to Launch Sun, Earth Science Missions", source: "NASA Breaking News", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Base Power", headline: "a16z-backed Base Power is offering cheaper electricity to the power grid that needs it most", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic's Claude is winning over paid consumers, a market owned by ChatGPT", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Databricks", headline: "Databricks' former AI chief thinks he can cut AI's power bill by 1,000x", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Roboneers", headline: "ARX Robotics and Roboneers form ARX Industries to scale unmanned ground vehicle production", source: "Tech.eu", time: "13h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Scale AI", headline: "What it actually takes to scale AI in Europe: 'The best founders aren't building for the next funding round'", source: "Sifted", time: "14h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "ICEYE", headline: "ICEYE to double radar-satellite capacity by late 2027 as demand surges", source: "Defense News", time: "20h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Waymo", headline: "Waymo Shares Stunning Safety Update", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

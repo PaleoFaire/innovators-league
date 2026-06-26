@@ -1,5 +1,24 @@
 [
   {
+    "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe",
+    "link": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/",
+    "description": "Anthropic's critics argue it's rapidly accumulating power. The company says that's what responsible AI development looks like.",
+    "pubDate": "Fri, 26 Jun 2026 00:49:13 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
     "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
     "link": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
     "description": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
@@ -16,12 +35,31 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "Just now"
+    "time": "5h ago"
+  },
+  {
+    "title": "SpaceX StarShip 40 Progressing to a Static Fire",
+    "link": "https://www.nextbigfuture.com/2026/06/spacex-starship-40-progressing-to-a-static-fire.html",
+    "description": "Spacex Starship 40 rolled out to Massey’s on June 23–24. It successfully completed an engine igniter test on June 24. Today, SpaceX has been doing multiple propellant loading cycles as part of the static fire campaign. There was an earlier attempt (or series of attempts) today that ended with detank",
+    "pubDate": "Thu, 25 Jun 2026 23:27:55 +0000",
+    "category": "Energy",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "5h ago"
   },
   {
     "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data",
     "link": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/",
-    "description": "Amazon-owned MGM Studios’ decision to drop the OpenAI movie is just part of AI and film industries becoming increasingly intertwined. On Uncanny Valley, we take a look at where this is all headed.",
+    "description": "The decision by Amazon-owned MGM Studios to drop the OpenAI movie is just part of AI and film industries becoming increasingly intertwined. On Uncanny Valley, we look at where this is all headed.",
     "pubDate": "Thu, 25 Jun 2026 23:13:45 +0000",
     "category": "Business",
     "source": "Wired",
@@ -39,7 +77,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "6h ago"
   },
   {
     "title": "Rocket Lab wins NASA award for three Electron launches",
@@ -58,7 +96,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "1h ago"
+    "time": "6h ago"
   },
   {
     "title": "Zoox Introduces Next-Generation Robotaxi",
@@ -79,7 +117,29 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "7h ago"
+  },
+  {
+    "title": "NY Times Reporting OpenAI May Delay IPO to 2027",
+    "link": "https://www.nextbigfuture.com/2026/06/ny-times-reporting-openai-may-delay-ipo-to-2027.html",
+    "description": "SpaceX recently completed the largest IPO ever, raising more than $85 billion and debuting at a ~$1.77 trillion valuation. Shares have since pulled back (a common post-IPO pattern, especially in volatile markets), but the raise was enormous. xAI is part of that story because of the earlier integrati",
+    "pubDate": "Thu, 25 Jun 2026 21:38:27 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "SpaceX",
+      "xAI"
+    ],
+    "sectors": [
+      "ai",
+      "space"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "7h ago"
   },
   {
     "title": "NASA Selects Rocket Lab to Launch Sun, Earth Science Missions",
@@ -100,7 +160,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4h ago"
+    "time": "9h ago"
   },
   {
     "title": "a16z-backed Base Power is offering cheaper electricity to the power grid that needs it most",
@@ -119,7 +179,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "11h ago"
   },
   {
     "title": "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
@@ -138,7 +198,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "11h ago"
   },
   {
     "title": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
@@ -159,7 +219,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "12h ago"
   },
   {
     "title": "ARX Robotics and Roboneers form ARX Industries to scale unmanned ground vehicle production",
@@ -180,7 +240,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "13h ago"
   },
   {
     "title": "What it actually takes to scale AI in Europe: ‘The best founders aren’t building for the next funding round’",
@@ -199,7 +259,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "9h ago"
+    "time": "14h ago"
   },
   {
     "title": "ICEYE to double radar-satellite capacity by late 2027 as demand surges",
@@ -218,7 +278,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "20h ago"
   },
   {
     "title": "Waymo Shares Stunning Safety Update",
@@ -238,7 +298,31 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
+  },
+  {
+    "title": "Merging SpaceX and Tesla Will Win AGI and Make More Money for Tesla Investors",
+    "link": "https://www.nextbigfuture.com/2026/06/merging-spacex-and-tesla-will-win-agi-and-make-more-money-for-tesla-investors.html",
+    "description": "SpaceX + xAI + Tesla to WIN AGI Not Robotaxi. AGI supremacy. 2. Why merge at all? Because AI is WAY BIGGER than Robotaxi. Merging creates:$140B+ combined cash for AI spending Frictionless capital allocation (no board votes, no transfer pricing, no negotiations) One P&#038;L, one balance sheet = Elon",
+    "pubDate": "Thu, 25 Jun 2026 02:19:15 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Waymo",
+      "Zoox",
+      "xAI"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "transportation"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
   },
   {
     "title": "Shield Space and ClearSpace partner to defend satellites from orbital threats",
@@ -413,6 +497,47 @@
     "time": "2d ago"
   },
   {
+    "title": "SpaceX Starfall and Future Human-rated Versions",
+    "link": "https://www.nextbigfuture.com/2026/06/spacex-starfall-and-future-human-rated-versions.html",
+    "description": "Starfall is SpaceX’s new uncrewed disk-shaped cargo return capsule (launched on its first demo flight today, June 23, 2026, aboard a Falcon 9). It is a flat, low-profile vehicle (~3.1 m diameter × 0.75 m tall) designed for rapid, high-volume return of up to ~1,000 kg of payload from orbit — especial",
+    "pubDate": "Tue, 23 Jun 2026 17:55:07 +0000",
+    "category": "Science",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Outpost Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "SpaceX Has Successful Starfall Demo",
+    "link": "https://www.nextbigfuture.com/2026/06/spacex-has-successful-starfall-demo.html",
+    "description": "Today SpaceX deployed and demonstrated the Starfall low cost capsule return system. This a demo of a new vehicle that will enable affordable, routine access to the microgravity environment for scientific research and in-space manufacturing. After demonstrating controlled flight, the spacecraft will ",
+    "pubDate": "Tue, 23 Jun 2026 17:02:11 +0000",
+    "category": "Energy",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Varda Space Industries",
+      "Space Forge"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
     "title": "Leonardo, Baykar tout in-flight control of Kizilelma drone from a M-346 jet trainer",
     "link": "https://www.defensenews.com/global/europe/2026/06/23/leonardo-baykar-tout-in-flight-control-of-kizilelma-drone-from-a-m-346-jet-trainer/",
     "description": "Following an autonomous taxi and take-off, the Kizilelma autonomously linked to the M-346 using “an advanced radio frequency data exchange system.\"",
@@ -468,7 +593,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities",
@@ -637,25 +762,6 @@
     "type": "news",
     "impact": "low",
     "time": "6/17/2026"
-  },
-  {
-    "title": "ChatGPT to debut on Pentagon's GenAI.mil in ‘early July’, OpenAI says",
-    "link": "https://www.defenseone.com/defense-systems/2026/06/chatgpt-debut-pentagon-openai/414237/",
-    "description": "It will be the latest model available for sensitive but unclassified work on the platform.",
-    "pubDate": "Tue, 16 Jun 2026 16:02:00 -0400",
-    "category": "Defense Systems",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "6/16/2026"
   },
   {
     "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
