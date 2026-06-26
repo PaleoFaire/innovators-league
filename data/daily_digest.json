@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T12:19:43.671113+00:00",
+  "generatedAt": "2026-06-26T15:29:04.603133+00:00",
   "date": "2026-06-26",
   "dateDisplay": "Friday, June 26, 2026",
   "sections": {
@@ -79,32 +79,39 @@
     ],
     "marketMovers": [
       {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 20.0,
+        "changePercent": -29.1,
+        "change": -8.21
+      },
+      {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.58,
-        "changePercent": -25.77,
-        "change": -1.59
+        "price": 4.63,
+        "changePercent": -23.22,
+        "change": -1.4
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 80.69,
-        "changePercent": -25.27,
-        "change": -27.29
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 65.62,
-        "changePercent": -23.19,
-        "change": -19.81
+        "price": 84.5,
+        "changePercent": -21.2,
+        "change": -22.74
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 1.7,
-        "changePercent": -20.56,
-        "change": -0.44
+        "price": 1.74,
+        "changePercent": -19.3,
+        "change": -0.41
+      },
+      {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.55,
+        "changePercent": -18.64,
+        "change": -0.35
       },
       {
         "ticker": "277810.KQ",
@@ -114,25 +121,18 @@
         "change": -110000.0
       },
       {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 20.65,
-        "changePercent": -18.41,
-        "change": -4.66
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 50.36,
+        "changePercent": -17.67,
+        "change": -10.81
       },
       {
-        "ticker": "PLTR",
-        "company": "Palantir",
-        "price": 107.27,
-        "changePercent": -17.88,
-        "change": -23.36
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 18.7,
-        "changePercent": -17.69,
-        "change": -4.02
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 7.25,
+        "changePercent": -16.57,
+        "change": -1.44
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SATL -25.8%"
+    "topMover": "NNE -29.1%"
   }
 }
