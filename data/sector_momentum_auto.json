@@ -1,65 +1,65 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 59,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Merging SpaceX and Tesla Will Win AGI and Make More Money fo",
-      "Agility Robotics plans to go public via SPAC in a $2.5B deal",
-      "Zoox upgrades its robotaxi as it prepares for commercial ser"
+      "Waymo Launches in Nashville",
+      "Zoox Introduces Next-Generation Robotaxi",
+      "ARX Robotics and Roboneers form ARX Industries to scale unma"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 56,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "ICEYE to double radar-satellite capacity by late 2027 as dem",
-      "Merging SpaceX and Tesla Will Win AGI and Make More Money fo",
-      "Shield Space and ClearSpace partner to defend satellites fro"
+      "Waymo Launches in Nashville",
+      "SpaceX StarShip 40 Progressing to a Static Fire",
+      "Rocket Lab wins NASA award for three Electron launches"
     ],
-    "fundingQ": "$180.4B",
+    "fundingQ": "$265.4B",
     "components": {
       "funding": 100,
-      "news": 85,
+      "news": 90,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "AI & Software",
-    "momentum": 55,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Cerebras stock plunges after earnings as CEO says margin out",
-      "OpenAI unveils its first custom chip, built by Broadcom",
-      "Stripe, Anthropic, and OpenAI are backing an effort to stop"
+      "Anthropic Thinks Its Own Success Is Key to Making AI Safe",
+      "The White House is asking OpenAI to slow roll the release of",
+      "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fig"
     ],
-    "fundingQ": "$193.9B",
+    "fundingQ": "$196.2B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 49,
     "trend": "steady",
     "catalysts": [
+      "ARX Robotics and Roboneers form ARX Industries to scale unma",
       "Shield Space and ClearSpace partner to defend satellites fro",
-      "Poland buys V-Bat UAVs from Shield AI for naval forces",
       "Leonardo, Baykar tout in-flight control of Kizilelma drone f"
     ],
     "fundingQ": "$12.7B",
@@ -69,14 +69,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Climate & Energy",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Frontier Climate adds Anthropic to buyers group, makes new f",
+      "NASA Selects Rocket Lab to Launch Sun, Earth Science Mission",
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
     "fundingQ": "$1.3B",
@@ -84,42 +84,9 @@
       "funding": 84,
       "news": 10,
       "hiring": 0,
-      "market": 79
+      "market": 83
     },
-    "lastUpdated": "2026-06-25"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Poland buys V-Bat UAVs from Shield AI for naval forces"
-    ],
-    "fundingQ": "$10.8B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-25"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "Contriving Imaginary Gaps in Nuclear Deterrence",
-      "X-energy gets federal environmental approval for Texas nucle"
-    ],
-    "fundingQ": "$4.8B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 37
-    },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -135,52 +102,85 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "Active ocean & maritime ecosystem"
+    ],
+    "fundingQ": "$10.8B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 44,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
-      "Poland buys V-Bat UAVs from Shield AI for naval forces",
-      "Satellogic partners with SynMax to build intelligence servic",
-      "Before SpaceX IPO, investors in China secretly acquired stak"
+      "Before SpaceX IPO, investors in China secretly acquired stak",
+      "The Secret to Marathon-Winning Humanoid Robots",
+      "Contriving Imaginary Gaps in Nuclear Deterrence"
     ],
     "fundingQ": "$33.8B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 20,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 38,
+    "trend": "steady",
+    "catalysts": [
+      "Contriving Imaginary Gaps in Nuclear Deterrence",
+      "X-energy gets federal environmental approval for Texas nucle"
+    ],
+    "fundingQ": "$4.8B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 25,
+    "momentum": 31,
     "trend": "declining",
     "catalysts": [
-      "Agility Robotics plans to go public via SPAC in a $2.5B deal",
-      "Anthropic Backer Menlo Ventures Raises $3B In New Funds To B",
-      "Tandem Health CEO: \u2018We\u2019re not dependent on OpenAI or Anthrop"
+      "Zoox Introduces Next-Generation Robotaxi",
+      "Databricks\u2019 former AI chief thinks he can cut AI\u2019s power bil",
+      "Anthropic Backer Menlo Ventures Raises $3B In New Funds To B"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
       "news": 30,
       "hiring": 0,
-      "market": 72
+      "market": 100
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 24,
     "trend": "rising",
     "catalysts": [
-      "Shield Space and ClearSpace partner to defend satellites fro",
-      "Vast signs additional partners for commercial space station",
-      "Humanoid maker Agility Robotics to go public through SPAC me"
+      "Waymo Launches in Nashville",
+      "Rocket Lab wins NASA award for three Electron launches",
+      "Anthropic&#8217;s Claude is winning over paid consumers, a m"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -189,40 +189,40 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 18,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Cerebras stock plunges after earnings as CEO says margin out",
-      "OpenAI unveils its first custom chip, built by Broadcom"
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 69
+    },
+    "lastUpdated": "2026-06-26"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "a16z-backed Base Power is offering cheaper electricity to th",
+      "<a href=\"/cro/icon-names-microsoft-tech-partner-q1-results-g"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 80
-    },
-    "lastUpdated": "2026-06-25"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "<a href=\"/cro/icon-names-microsoft-tech-partner-q1-results-g"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Housing & Construction",
@@ -238,11 +238,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 3,
+    "momentum": 2,
     "trend": "declining",
     "catalysts": [
       "Do dragons dream of electric sheep?",
@@ -253,9 +253,9 @@
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 4
+      "market": 0
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   {
     "sector": "Transportation",
@@ -271,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   }
 ]

@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-25 09:29:49 UTC
+// Last updated: 2026-06-26 09:34:49 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Satellogic", form: "8-K", date: "2026-06-25", description: "ea0295875-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "C3.ai", form: "10-K", date: "2026-06-24", description: "ai-20260430.htm", isIPO: false, ticker: "AI" },
   { company: "AST SpaceMobile", form: "4", date: "2026-06-23", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782259296.xml", isIPO: false, ticker: "LEU" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-5_4seq1.xml", isIPO: false, ticker: "MNTS" },
   { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-4_4seq1.xml", isIPO: false, ticker: "MNTS" },
   { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-3_4seq1.xml", isIPO: false, ticker: "MNTS" },
-  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-2_4seq1.xml", isIPO: false, ticker: "MNTS" },
 ];

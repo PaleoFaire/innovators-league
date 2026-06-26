@@ -1057,18 +1057,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "H9240225FE009",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 737150.8,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-06-18",
-    "endDate": "2025-12-17",
-    "description": "BAL CHATRI 2 (BC2) AND ASSOCIATED ACCESSORY KITS."
-  },
-  {
-    "company": "Anduril",
     "awardId": "FA238525CB029",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 725000.0,
@@ -1198,6 +1186,18 @@
     "startDate": "2025-09-29",
     "endDate": "2026-02-27",
     "description": "SPARE PARTS PACKAGE"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240225FE029",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 268622.88,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-09-16",
+    "endDate": "2025-12-15",
+    "description": "SIP TO 121 - GENERATORS"
   },
   {
     "company": "Anduril Industries",
@@ -2257,18 +2257,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "H9240225FE009",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 737150.8,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-06-18",
-    "endDate": "2025-12-17",
-    "description": "BAL CHATRI 2 (BC2) AND ASSOCIATED ACCESSORY KITS."
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "FA238525CB029",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 725000.0,
@@ -2400,6 +2388,18 @@
     "description": "SPARE PARTS PACKAGE"
   },
   {
+    "company": "Anduril Industries",
+    "awardId": "H9240225FE029",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 268622.88,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-09-16",
+    "endDate": "2025-12-15",
+    "description": "SIP TO 121 - GENERATORS"
+  },
+  {
     "company": "Shield AI",
     "awardId": "70Z02326F93130005",
     "recipientName": "SHIELD AI INC",
@@ -2408,7 +2408,7 @@
     "subAgency": "U.S. Coast Guard",
     "awardType": null,
     "startDate": "2026-02-27",
-    "endDate": "2026-06-26",
+    "endDate": "2026-12-31",
     "description": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO."
   },
   {
@@ -2674,6 +2674,18 @@
     "startDate": "2026-01-30",
     "endDate": "2027-01-29",
     "description": "OPERATIONAL LEVEL -"
+  },
+  {
+    "company": "Palantir",
+    "awardId": "70CTD026FC0000018",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 45848616.8,
+    "agency": "Department of Homeland Security",
+    "subAgency": "U.S. Immigration and Customs Enforcement",
+    "awardType": null,
+    "startDate": "2026-06-26",
+    "endDate": "2027-06-25",
+    "description": "THIS ORDER PROVIDES HOMELAND SECURITY INVESTIGATIONS SYSTEM MODERNIZATION FOR THE INVESTIGATIVE CASE MANAGEMENT AND INVESTIGATIVE ANALYTICS ON THE CASE MANAGEMENT AND ANALYTICS PLATFORM IN SUPPORT OF "
   },
   {
     "company": "Palantir",
@@ -3708,18 +3720,6 @@
     "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE INTELLIGENCE SYSTEMS AND ANALYTICS CAPABILITY DROP 1 CAPABILITY: HYDRA ENGINEERING CHANGE PROPOSAL."
   },
   {
-    "company": "Palantir",
-    "awardId": "W56KGY25F0125",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 374972.13,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-07-29",
-    "endDate": "2025-10-27",
-    "description": "THIS DELIVERY ORDER IS TO PROCURE THE FOLLOWING IN SUPPORT OF THE ARMY INTELLIGENCE APPLICATIONS, ALL SOURCE II: HYDRA ENGINEERING CHANGE PROPOSAL"
-  },
-  {
     "company": "Palantir Technologies",
     "awardId": "W9128Z26FA001",
     "recipientName": "PALANTIR USG INC",
@@ -3874,6 +3874,18 @@
     "startDate": "2026-01-30",
     "endDate": "2027-01-29",
     "description": "OPERATIONAL LEVEL -"
+  },
+  {
+    "company": "Palantir Technologies",
+    "awardId": "70CTD026FC0000018",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 45848616.8,
+    "agency": "Department of Homeland Security",
+    "subAgency": "U.S. Immigration and Customs Enforcement",
+    "awardType": null,
+    "startDate": "2026-06-26",
+    "endDate": "2027-06-25",
+    "description": "THIS ORDER PROVIDES HOMELAND SECURITY INVESTIGATIONS SYSTEM MODERNIZATION FOR THE INVESTIGATIVE CASE MANAGEMENT AND INVESTIGATIVE ANALYTICS ON THE CASE MANAGEMENT AND ANALYTICS PLATFORM IN SUPPORT OF "
   },
   {
     "company": "Palantir Technologies",
@@ -4908,18 +4920,6 @@
     "description": "SBA FRAUD PREVENTION PILOT AND BOOTCAMP"
   },
   {
-    "company": "Palantir Technologies",
-    "awardId": "12314426F0120",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 250000.0,
-    "agency": "Department of Agriculture",
-    "subAgency": "Office of the Chief Financial Officer",
-    "awardType": null,
-    "startDate": "2026-04-06",
-    "endDate": "2026-06-18",
-    "description": "SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) FRAUD IDENTIFICATION AND CASE WORKFLOW PLATFORM PILOT PROGRAM"
-  },
-  {
     "company": "Space Exploration Technologies",
     "awardId": "80MSFC20C0034",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
@@ -4978,18 +4978,6 @@
     "startDate": "2024-09-11",
     "endDate": "2026-09-29",
     "description": "SBS003512 BEST EFFORT"
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "FA881124FB023",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 183438742.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-07-25",
-    "endDate": "2028-01-29",
-    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2 LAUNCH SERVICES"
   },
   {
     "company": "Space Exploration Technologies",
@@ -6217,6 +6205,18 @@
   },
   {
     "company": "Skydio",
+    "awardId": "140D0426F0706",
+    "recipientName": "SKYDIO, INC",
+    "amount": 28678.95,
+    "agency": "Department of the Interior",
+    "subAgency": "Departmental Offices",
+    "awardType": null,
+    "startDate": "2026-06-24",
+    "endDate": "2027-04-30",
+    "description": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)"
+  },
+  {
+    "company": "Skydio",
     "awardId": "12639526F0626",
     "recipientName": "SKYDIO, INC",
     "amount": 27429.7,
@@ -6696,18 +6696,6 @@
     "description": "MEX-PD-RESEARCH CAMPAIGNS-FY25"
   },
   {
-    "company": "Primer",
-    "awardId": "N6833525F0043",
-    "recipientName": "PRIMER FEDERAL INC",
-    "amount": 2382355.27,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2025-01-14",
-    "endDate": "2026-05-14",
-    "description": "SBIR PHASE II R&D"
-  },
-  {
     "company": "Second Front Systems",
     "awardId": "FA228025F0036",
     "recipientName": "SECOND FRONT SYSTEMS, INC.",
@@ -7114,18 +7102,6 @@
     "startDate": "2024-10-25",
     "endDate": "2026-10-25",
     "description": "THE PURPOSE OF THIS EFFORT IS THE DESIGN, MANUFACTURING, AND DEVELOPMENT TESTING FOR LOW LEAKAGE VALVES CONCEPTS USED TO PRIMARILY SERVICE LIQUID HYDROGEN IN-SPACE APPLICATIONS. THESE IN-SPACE APPLICA"
-  },
-  {
-    "company": "Sierra Space",
-    "awardId": "80JSC024FA190",
-    "recipientName": "SIERRA SPACE CORP",
-    "amount": 841605.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2024-09-06",
-    "endDate": "2025-06-30",
-    "description": "SUPPORT THE REQUIRED SUSTAINING ENGINEERING FOR THE ADVANCED PLANT HABITAT (APH)."
   },
   {
     "company": "Sierra Space",
