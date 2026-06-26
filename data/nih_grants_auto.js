@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-06-25 09:59:04 UTC
+// Last updated: 2026-06-26 10:11:10 UTC
 // Total grants: 636 | Known companies: 16 | SBIR: 17
-// Total funding tracked: $402,611,032
+// Total funding tracked: $401,846,333
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -1015,19 +1015,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: true,
     abstract: "Cancer remains a leading cause of death worldwide. Targeted agents have dramatically improved the prognosis of over 30 cancer types, but are fundamentally limited by the evolution of resistance. Curre",
     terms: ["Acceleration", "Amino Acid Substitution", "Antineoplastic Agents", "Architecture", "Bioinformatics", "Businesses", "Cancer Patient", "Cause of Death"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Next generation anti-cancer drugdelivering cement for bone metastasis patients",
-    organization: "CURER INC",
-    orgState: "MA",
-    piName: "Hae Lin  Jang",
-    fiscalYear: 2025,
-    awardAmount: 1000000,
-    activityCode: "R42",
-    isSbir: false,
-    abstract: "Abstract Our mission is to develop an innovative anti-cancer drug delivering bone cement for bone metastasis patients, which can be injected into metastasis-caused bone degeneration sites in a minimal",
-    terms: ["Address", "American", "Antineoplastic Agents", "Antitumor Drug Screening Assays", "Area", "Binding", "Bone Cements", "Bone Growth"],
     isKnownCompany: false,
   },
   {
@@ -3901,6 +3888,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY Diffuse large B-cell lymphoma (DLBCL) and follicular lymphoma (FL) arise from germinal center (GC) B cells; a stage at which precursor B cells undergo rounds of proliferation, edit the",
     terms: ["Actomyosin", "Affect", "Affinity", "Antigens", "Automobile Driving", "B cell differentiation", "B-Cell Activation", "B-Cell Lymphomas"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Bacterial biosensors for the prevention of gastrointestinal cancers",
+    organization: "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+    orgState: "CA",
+    piName: "JEFF M HASTY",
+    fiscalYear: 2026,
+    awardAmount: 511174,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Project Summary One-third of all cancer related deaths world-wide result from gastrointestinal (GI) cancers, including colorectal (CRC) and pancreatic cancer (PC). Soberingly, 50,000 Americans die eve",
+    terms: ["Acceleration", "Address", "Adjuvant Therapy", "American", "Anaerobic Bacteria", "Australia", "Bacteria", "Benign"],
     isKnownCompany: false,
   },
 ];

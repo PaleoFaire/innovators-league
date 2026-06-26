@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-06-25 09:59:52 UTC
+// Last updated: 2026-06-26 10:12:47 UTC
 const NASA_PROJECTS = [
   { id: 184851, title: "Surface Power Cable Manipulation Test Campaign", status: "Active", center: "Johnson Space Center", techArea: "Surface Umbilicals and Interfaces", lastUpdated: "06/23/26" },
   { id: 184850, title: "O2/CH4 Catalytic Heater for Lunar Night Survival​", status: "Active", center: "Johnson Space Center", techArea: "Heating Systems", lastUpdated: "06/23/26" },

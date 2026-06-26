@@ -1,12 +1,12 @@
 [
   {
-    "date": "2026-06-25",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-45",
-    "payload": "Starlink Group 17-45",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a4fb0d1a-2655-4552-b950-f2f6340ef85a/?format=json",
-    "trackedCompany": "SpaceX"
+    "date": "2026-06-26",
+    "vehicle": "Electron | Ten Owl Of Ten (StriX Launch 10)",
+    "payload": "Ten Owl Of Ten (StriX Launch 10)",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
+    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-06-27",
@@ -46,48 +46,12 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "Electron | Ten Owl Of Ten (StriX Launch 10)",
-    "payload": "Ten Owl Of Ten (StriX Launch 10)",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-06-30",
     "vehicle": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
     "payload": "The Grain Goddess Provides (iQPS Launch 7)",
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Smart Dragon 3 | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
-    "provider": "China Rocket Co. Ltd.",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Themis Demonstrator | T1H-1",
-    "payload": "T1H-1",
-    "pad": "Launch Complex 3B, Esrange Space Center",
-    "provider": "European Space Agency",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/3b94ad50-3505-496e-8a95-b0bc4c0dadc6/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
-    "vehicle": "Nebula-1 | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Land Launch Pad 1, Haiyang Oriental Spaceport",
-    "provider": "Deep Blue Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a8d8d683-3ab0-40ab-beb0-e66bb55afd91/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-07-02",
@@ -114,6 +78,24 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/1ef27ca1-af91-48bb-b934-3da5abd9f711/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-06",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-48",
+    "payload": "Starlink Group 17-48",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/135fb199-a39e-48cc-ba27-0aecd96ba9f8/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-09",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-42",
+    "payload": "Starlink Group 10-42",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/62d4cd48-ed28-418b-b58c-526781a50a39/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -177,6 +159,15 @@
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/1e79a5e9-c02c-470f-882f-884120100fef/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-31",
+    "vehicle": "Smart Dragon 3 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
+    "provider": "China Rocket Co. Ltd.",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
     "trackedCompany": null
   },
   {
@@ -280,20 +271,20 @@
   },
   {
     "date": "2026-09-09",
-    "vehicle": "Vega-C | Sentinel-3C & FLEX",
-    "payload": "Sentinel-3C & FLEX",
-    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
-    "provider": "Avio S.p.A",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-09",
     "vehicle": "Soyuz 2.1b | Progress MS-35 (96P)",
     "payload": "Progress MS-35 (96P)",
     "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-11",
+    "vehicle": "Vega-C | Sentinel-3C & FLEX",
+    "payload": "Sentinel-3C & FLEX",
+    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
+    "provider": "Avio S.p.A",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
     "trackedCompany": null
   },
   {
@@ -424,6 +415,15 @@
   },
   {
     "date": "2026-09-30",
+    "vehicle": "Firefly Alpha Block 2 | ConnectedCosmos Launch 1",
+    "payload": "ConnectedCosmos Launch 1",
+    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
+    "provider": "Firefly Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/875ba957-be5f-42bd-8a6e-ed98254f572a/?format=json",
+    "trackedCompany": "Firefly Aerospace"
+  },
+  {
+    "date": "2026-09-30",
     "vehicle": "Firefly Alpha Block 2 | QuickSounder",
     "payload": "QuickSounder",
     "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
@@ -433,20 +433,20 @@
   },
   {
     "date": "2026-09-30",
-    "vehicle": "Firefly Alpha Block 2 | VICTUS HAZE Jackal",
-    "payload": "VICTUS HAZE Jackal",
-    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
-    "provider": "Firefly Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/875ba957-be5f-42bd-8a6e-ed98254f572a/?format=json",
-    "trackedCompany": "Firefly Aerospace"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "HANBIT-Nano | Flight 2",
-    "payload": "Flight 2",
+    "vehicle": "HANBIT-Nano | InnoSat-0",
+    "payload": "InnoSat-0",
     "pad": "HANBIT Pad, Alc\u00e2ntara Space Center, Federative Republic of Brazil",
     "provider": "Innospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7c891a0b-7194-4425-8cfd-2e8c75af2924/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "LVM-3 | Gaganyaan-1",
+    "payload": "Gaganyaan-1",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dfac5ab7-7017-454f-b6cf-eeed277a97b5/?format=json",
     "trackedCompany": null
   }
 ]

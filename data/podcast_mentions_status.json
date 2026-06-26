@@ -1,7 +1,7 @@
 {
   "script": "fetch_podcast_mentions.py",
-  "started_at": "2026-06-25T09:58:48.021685+00:00",
-  "finished_at": "2026-06-25T09:59:10.471556+00:00",
+  "started_at": "2026-06-26T10:11:12.876184+00:00",
+  "finished_at": "2026-06-26T10:11:37.082738+00:00",
   "lookback_days": 30,
   "podcasts": [
     {
@@ -72,6 +72,6 @@
     }
   ],
   "total_episodes": 2125,
-  "total_mentions": 371,
+  "total_mentions": 376,
   "ok": true
 }

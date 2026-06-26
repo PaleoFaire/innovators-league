@@ -1,29 +1,11 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-06-25 10:23:14 UTC
-// Total: 1 filings across 1 companies
+// Last updated: 2026-06-26 10:29:15 UTC
+// Total: 0 filings across 0 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-06-25T10:23:14.654218+00:00",
+  "generated_at": "2026-06-26T10:29:15.311542+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 1,
-  "filings": [
-    {
-      "company": "Figure AI",
-      "issuer_name": "FIGURE AI III A SERIES OF VUVP FUND LLC",
-      "form": "D",
-      "filed_date": "2026-06-24",
-      "cik": "2140934",
-      "accession": "0002140934-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002140934&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002140934-26-000001",
-      "offering_amount": "Indefinite",
-      "amount_sold": "1777728",
-      "amount_remaining": "Indefinite",
-      "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    }
-  ]
+  "total_filings": 0,
+  "filings": []
 };
