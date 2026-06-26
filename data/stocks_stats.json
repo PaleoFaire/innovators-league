@@ -9,21 +9,21 @@
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -15.59,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -16.6,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -10.68,
+      "avg_change": -11.26,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.38,
+      "avg_change": -11.43,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.98,
+      "avg_change": -7.01,
       "count": 3
     },
     "biotech": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -18.41
+      "277810.KQ",
+      "Rainbow Robotics",
+      -20.34
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -20.79
+      -20.56
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -25.77
     ]
   ],
-  "lastUpdated": "2026-06-25 20:06:24"
+  "lastUpdated": "2026-06-26 04:03:20"
 }
