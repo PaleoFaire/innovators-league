@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -12.47,
+      "avg_change": -12.42,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -13.35,
+      "avg_change": -14.1,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -11.74,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -13.65,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -20.48,
+      "avg_change": -20.7,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -8.61,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.91,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.5,
+      "avg_change": -12.09,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.84,
+      "avg_change": 8.27,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.93,
+      "avg_change": -5.25,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.66,
+      "avg_change": -6.18,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "LNZA",
+      "LanzaTech",
+      13.25
+    ],
+    [
       "TEM",
       "Tempus AI",
-      10.38
+      9.78
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      8.67
+      8.51
     ],
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      4.46
+      6.52
     ],
     [
       "AUR",
       "Aurora Innovation",
-      3.74
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      -0.97
+      -0.08
     ]
   ],
   "topLosers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -18.64
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -19.3
+      "DRSHF",
+      "DroneShield",
+      -22.31
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -21.2
+      -22.79
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -23.02
     ],
     [
       "SATL",
       "Satellogic",
-      -23.22
+      -24.71
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -29.1
+      -29.46
     ]
   ],
-  "lastUpdated": "2026-06-26 14:33:18"
+  "lastUpdated": "2026-06-26 19:54:54"
 }
