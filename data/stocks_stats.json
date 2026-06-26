@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -17.88,
+      "avg_change": -12.47,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -16.66,
+      "avg_change": -13.35,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -11.02,
+      "avg_change": -11.74,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.43,
+      "avg_change": -20.48,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.23,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -8.61,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.01,
+      "avg_change": -10.5,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.34,
+      "avg_change": 7.84,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.98,
+      "avg_change": -6.93,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.93,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -6.66,
       "count": 3
     }
   },
@@ -61,27 +61,27 @@
     [
       "TEM",
       "Tempus AI",
-      12.46
+      10.38
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      7.4
+      8.67
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      6.22
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      4.46
     ],
     [
-      "AMD",
-      "AMD",
-      3.92
+      "AUR",
+      "Aurora Innovation",
+      3.74
     ],
     [
-      "QS",
-      "QuantumScape",
-      3.33
+      "PL",
+      "Planet Labs",
+      -0.97
     ]
   ],
   "topLosers": [
@@ -93,23 +93,23 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      -20.56
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -23.19
+      -19.3
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -25.27
+      -21.2
     ],
     [
       "SATL",
       "Satellogic",
-      -25.77
+      -23.22
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      -29.1
     ]
   ],
-  "lastUpdated": "2026-06-26 09:34:38"
+  "lastUpdated": "2026-06-26 14:33:18"
 }
