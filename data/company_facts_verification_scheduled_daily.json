@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-25T08:52:18+00:00",
+  "generatedAt": "2026-06-26T08:55:00+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 50,
+  "cohortSize": 46,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 50
+    "unverifiable": 46
   },
   "cleared": [],
   "changesProposed": [],
@@ -37,11 +37,15 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Asylon Robotics",
+      "name": "Astera Labs",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Axiom Space",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Base Power",
       "reason": "Claude extraction failed"
     },
     {
@@ -53,15 +57,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "CX2 Industries",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Cape",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cerebras",
       "reason": "Claude extraction failed"
     },
     {
@@ -85,10 +81,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Distributed Spectrum",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Fervo Energy",
       "reason": "Claude extraction failed"
     },
@@ -102,6 +94,10 @@
     },
     {
       "name": "Humanoid",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ICEYE",
       "reason": "Claude extraction failed"
     },
     {
@@ -129,10 +125,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Pivotal",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Profluent",
       "reason": "Claude extraction failed"
     },
@@ -145,19 +137,19 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Roboneers",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Rocket Lab",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Satellogic",
+      "name": "Scale AI",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Senra Systems",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Shield AI",
       "reason": "Claude extraction failed"
     },
     {
@@ -178,14 +170,6 @@
     },
     {
       "name": "Standard Nuclear",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Tenna Systems",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "True Anomaly",
       "reason": "Claude extraction failed"
     },
     {

@@ -1,17 +1,21 @@
 {
-  "generatedAt": "2026-06-25T08:52:46+00:00",
+  "generatedAt": "2026-06-26T08:55:35+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 3,
+  "cohortSize": 4,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 3
+    "unverifiable": 4
   },
   "cleared": [],
   "changesProposed": [],
   "unverifiable": [
+    {
+      "name": "Andreessen Horowitz",
+      "reason": "Claude extraction failed"
+    },
     {
       "name": "Engine Ventures",
       "reason": "Claude extraction failed"
