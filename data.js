@@ -65144,9 +65144,7 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-26 05:16
-// Auto-generated real-time signals
-// Last updated: 2026-06-26
+// Last updated: 2026-06-26 09:45
 const COMPANY_SIGNALS = [
   { id: 1, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: true },
   { id: 2, type: "news", company: "Anthropic", headline: "Anthropic Thinks Its Own Success Is Key to Making AI Safe", source: "Wired", time: "8h ago", impact: "low", unread: true },
@@ -65154,14 +65152,14 @@ const COMPANY_SIGNALS = [
   { id: 4, type: "funding", company: "SpaceX", headline: "SpaceX StarShip 40 Progressing to a Static Fire", source: "Next Big Future", time: "10h ago", impact: "medium", unread: true },
   { id: 5, type: "news", company: "OpenAI", headline: "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data", source: "Wired", time: "10h ago", impact: "low", unread: true },
   { id: 6, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins NASA award for three Electron launches", source: "SpaceNews", time: "11h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "Zoox", headline: "Zoox Introduces Next-Generation Robotaxi", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "OpenAI", headline: "NY Times Reporting OpenAI May Delay IPO to 2027", source: "Next Big Future", time: "11h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Zoox", headline: "Zoox Introduces Next-Generation Robotaxi", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "OpenAI", headline: "NY Times Reporting OpenAI May Delay IPO to 2027", source: "Next Big Future", time: "12h ago", impact: "high", unread: false },
   { id: 9, type: "milestone", company: "Rocket Lab", headline: "NASA Selects Rocket Lab to Launch Sun, Earth Science Missions", source: "NASA Breaking News", time: "13h ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Base Power", headline: "a16z-backed Base Power is offering cheaper electricity to the power grid that needs it most", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Databricks", headline: "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "Anthropic's Claude is winning over paid consumers, a market owned by ChatGPT", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Databricks", headline: "Databricks' former AI chief thinks he can cut AI's power bill by 1,000x", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Roboneers", headline: "ARX Robotics and Roboneers form ARX Industries to scale unmanned ground vehicle production", source: "Tech.eu", time: "17h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Scale AI", headline: "What it actually takes to scale AI in Europe: ‘The best founders aren’t building for the next funding round’", source: "Sifted", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Scale AI", headline: "What it actually takes to scale AI in Europe: 'The best founders aren't building for the next funding round'", source: "Sifted", time: "18h ago", impact: "low", unread: false },
   { id: 15, type: "news", company: "ICEYE", headline: "ICEYE to double radar-satellite capacity by late 2027 as demand surges", source: "Defense News", time: "1d ago", impact: "low", unread: false },
 ];
 

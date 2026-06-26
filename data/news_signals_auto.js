@@ -1,8 +1,8 @@
 // Auto-generated news signals
-// Last updated: 2026-06-26T09:34:44.434Z
+// Last updated: 2026-06-26T09:45:24.075Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1782466484434,
+    "id": 1782467124075,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Launches in Nashville",
@@ -13,7 +13,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/06/25/waymo-launches-in-nashville-2/"
   },
   {
-    "id": 1782466484435,
+    "id": 1782467124076,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic Thinks Its Own Success Is Key to Making AI Safe",
@@ -24,7 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/"
   },
   {
-    "id": 1782466484436,
+    "id": 1782467124077,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/"
   },
   {
-    "id": 1782466484437,
+    "id": 1782467124078,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX StarShip 40 Progressing to a Static Fire",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/06/spacex-starship-40-progressing-to-a-static-fire.html"
   },
   {
-    "id": 1782466484438,
+    "id": 1782467124079,
     "type": "news",
     "company": "OpenAI",
     "headline": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/"
   },
   {
-    "id": 1782466484439,
+    "id": 1782467124080,
     "type": "contract",
     "company": "Rocket Lab",
     "headline": "Rocket Lab wins NASA award for three Electron launches",
@@ -68,29 +68,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-wins-nasa-award-for-three-electron-launches/"
   },
   {
-    "id": 1782466484440,
+    "id": 1782467124081,
     "type": "news",
     "company": "Zoox",
     "headline": "Zoox Introduces Next-Generation Robotaxi",
     "source": "CleanTechnica",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/06/25/zoox-introduces-next-generation-robotaxi/"
   },
   {
-    "id": 1782466484441,
+    "id": 1782467124082,
     "type": "funding",
     "company": "OpenAI",
     "headline": "NY Times Reporting OpenAI May Delay IPO to 2027",
     "source": "Next Big Future",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/06/ny-times-reporting-openai-may-delay-ipo-to-2027.html"
   },
   {
-    "id": 1782466484442,
+    "id": 1782467124083,
     "type": "milestone",
     "company": "Rocket Lab",
     "headline": "NASA Selects Rocket Lab to Launch Sun, Earth Science Missions",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/missions/tsis-2/nasa-selects-rocket-lab-to-launch-sun-earth-science-missions/"
   },
   {
-    "id": 1782466484443,
+    "id": 1782467124084,
     "type": "news",
     "company": "Base Power",
     "headline": "a16z-backed Base Power is offering cheaper electricity to the power grid that needs it most",
@@ -112,18 +112,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/25/a16z-backed-base-power-is-offering-cheaper-electricity-to-the-power-grid-that-needs-it-most/"
   },
   {
-    "id": 1782466484444,
+    "id": 1782467124085,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
     "source": "TechCrunch",
-    "time": "15h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/"
   },
   {
-    "id": 1782466484445,
+    "id": 1782467124086,
     "type": "news",
     "company": "Databricks",
     "headline": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/"
   },
   {
-    "id": 1782466484446,
+    "id": 1782467124087,
     "type": "news",
     "company": "Roboneers",
     "headline": "ARX Robotics and Roboneers form ARX Industries to scale unmanned ground vehicle production",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/06/25/arx-robotics-and-roboneers-form-arx-industries-to-scale-unmanned-ground-vehicle-production/"
   },
   {
-    "id": 1782466484447,
+    "id": 1782467124088,
     "type": "funding",
     "company": "Scale AI",
     "headline": "What it actually takes to scale AI in Europe: ‘The best founders aren’t building for the next funding round’",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/scale-ai-in-europe-brnd/"
   },
   {
-    "id": 1782466484448,
+    "id": 1782467124089,
     "type": "news",
     "company": "ICEYE",
     "headline": "ICEYE to double radar-satellite capacity by late 2027 as demand surges",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/global/europe/2026/06/25/iceye-to-double-radar-satellite-capacity-by-late-2027-as-demand-surges/"
   },
   {
-    "id": 1782466484449,
+    "id": 1782467124090,
     "type": "funding",
     "company": "Waymo",
     "headline": "Waymo Shares Stunning Safety Update",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/06/24/waymo-shares-stunning-safety-update/"
   },
   {
-    "id": 1782466484450,
+    "id": 1782467124091,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Merging SpaceX and Tesla Will Win AGI and Make More Money for Tesla Investors",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/06/merging-spacex-and-tesla-will-win-agi-and-make-more-money-for-tesla-investors.html"
   },
   {
-    "id": 1782466484451,
+    "id": 1782467124092,
     "type": "ipo",
     "company": "ClearSpace",
     "headline": "Shield Space and ClearSpace partner to defend satellites from orbital threats",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/shield-space-and-clearspace-partner-to-defend-satellites-from-orbital-threats/"
   },
   {
-    "id": 1782466484452,
+    "id": 1782467124093,
     "type": "ipo",
     "company": "Vast",
     "headline": "Vast signs additional partners for commercial space station microgravity research",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/vast-signs-additional-partners-for-commercial-space-station-microgravity-research/"
   },
   {
-    "id": 1782466484453,
+    "id": 1782467124094,
     "type": "ipo",
     "company": "Agility Robotics",
     "headline": "Humanoid maker Agility Robotics to go public through SPAC merger",
