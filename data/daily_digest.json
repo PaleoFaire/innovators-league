@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-26T23:16:30.551747+00:00",
-  "date": "2026-06-26",
-  "dateDisplay": "Friday, June 26, 2026",
+  "generatedAt": "2026-06-27T04:10:28.953784+00:00",
+  "date": "2026-06-27",
+  "dateDisplay": "Saturday, June 27, 2026",
   "sections": {
     "govActivity": [
       {
@@ -81,37 +81,37 @@
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 19.9,
-        "changePercent": -29.46,
-        "change": -8.31
+        "price": 19.87,
+        "changePercent": -29.56,
+        "change": -8.34
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.54,
-        "changePercent": -24.71,
-        "change": -1.49
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.66,
-        "changePercent": -23.02,
-        "change": -0.49
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 82.8,
-        "changePercent": -22.79,
-        "change": -24.44
+        "price": 4.62,
+        "changePercent": -23.38,
+        "change": -1.41
       },
       {
         "ticker": "DRSHF",
         "company": "DroneShield",
-        "price": 1.48,
-        "changePercent": -22.31,
-        "change": -0.43
+        "price": 1.47,
+        "changePercent": -22.83,
+        "change": -0.44
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.67,
+        "changePercent": -22.33,
+        "change": -0.48
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 84.54,
+        "changePercent": -21.17,
+        "change": -22.7
       },
       {
         "ticker": "277810.KQ",
@@ -121,18 +121,18 @@
         "change": -110000.0
       },
       {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 49.9,
-        "changePercent": -18.42,
-        "change": -11.27
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 7.11,
+        "changePercent": 18.5,
+        "change": 1.11
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 7.25,
-        "changePercent": -16.57,
-        "change": -1.44
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 50.0,
+        "changePercent": -18.26,
+        "change": -11.17
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "NNE -29.5%"
+    "topMover": "NNE -29.6%"
   }
 }

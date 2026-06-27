@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-26";
+const LAST_UPDATED = "2026-06-27";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -65364,23 +65364,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-26 23:16
+// Last updated: 2026-06-27 04:10
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn't be the norm", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "OpenAI", headline: "OpenAI poaches Uber India chief to lead its biggest market outside the US", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI Has New AI Models. Here's Why You Can't Use Them", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "It's not about Anthropic vs. OpenAI anymore", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions", source: "MIT Tech Review", time: "11h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "19h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic Thinks Its Own Success Is Key to Making AI Safe", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "OpenAI", headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "SpaceX", headline: "SpaceX StarShip 40 Progressing to a Static Fire", source: "Next Big Future", time: "23h ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins NASA award for three Electron launches", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Zoox", headline: "Zoox Introduces Next-Generation Robotaxi", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "SpaceX", headline: "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "5h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn't be the norm", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "OpenAI", headline: "OpenAI poaches Uber India chief to lead its biggest market outside the US", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Has New AI Models. Here's Why You Can't Use Them", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "It's not about Anthropic vs. OpenAI anymore", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions", source: "MIT Tech Review", time: "16h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic Thinks Its Own Success Is Key to Making AI Safe", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "OpenAI", headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "SpaceX", headline: "SpaceX StarShip 40 Progressing to a Static Fire", source: "Next Big Future", time: "1d ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data", source: "Wired", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
