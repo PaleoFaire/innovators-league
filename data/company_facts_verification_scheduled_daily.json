@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-26T08:55:00+00:00",
+  "generatedAt": "2026-06-27T08:30:31+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 46,
+  "cohortSize": 40,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 46
+    "unverifiable": 40
   },
   "cleared": [],
   "changesProposed": [],
@@ -45,19 +45,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Base Power",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Baykar",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Blue Origin",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cape",
       "reason": "Claude extraction failed"
     },
     {
@@ -74,10 +62,6 @@
     },
     {
       "name": "Deterrence",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Dexterity",
       "reason": "Claude extraction failed"
     },
     {
@@ -113,11 +97,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Outpost Space",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Percepto",
+      "name": "Palantir",
       "reason": "Claude extraction failed"
     },
     {
@@ -161,10 +141,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Space Forge",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "SpaceX",
       "reason": "Claude extraction failed"
     },
@@ -173,7 +149,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Varda Space Industries",
+      "name": "Starpath Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Synspective",
       "reason": "Claude extraction failed"
     },
     {
@@ -190,10 +170,6 @@
     },
     {
       "name": "X-Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "ideaForge",
       "reason": "Claude extraction failed"
     }
   ]
