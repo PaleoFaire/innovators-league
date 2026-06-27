@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-27T07:53:24+00:00",
+  "generatedAt": "2026-06-27T10:18:22+00:00",
   "windowPastDays": 365,
   "windowFutureDays": 730,
   "todayUTC": "2026-06-27",
-  "totalEvents": 232,
+  "totalEvents": 233,
   "bySource": {
     "fda": 3,
     "trial": 91,
@@ -12,29 +12,626 @@
     "fcc": 12,
     "fedreg": 30,
     "doe": 12,
-    "formd": 0,
+    "formd": 1,
     "sbir": 10,
     "earnings": 22,
     "conf": 10
   },
   "byType": {
+    "nrc": 33,
+    "fedreg": 24,
+    "fda": 5,
     "trial": 91,
     "conf": 10,
     "faa": 22,
-    "nrc": 33,
-    "fedreg": 23,
-    "doe": 14,
-    "fda": 4,
+    "formd": 1,
     "sbir": 10,
     "fcc": 12,
+    "doe": 12,
     "earnings": 13
   },
   "byImportance": {
+    "urgent": 25,
     "high": 2,
     "medium": 2,
-    "low": 228
+    "low": 204
   },
   "events": [
+    {
+      "id": "8a62c72e3cb3ddc0",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "Kairos Power \u2014 NRC: Hermes (35MWth FLiBe-cooled test reactor) (Approved)",
+      "description": "Status: Construction Permit Issued (Dec 2023) \u2014 construction underway at Oak Ridge \u00b7 Docket: NRC-50-611",
+      "companies": [
+        "Kairos Power"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Kairos Power",
+        "design": "Hermes (35MWth FLiBe-cooled test reactor)",
+        "stage": "Approved",
+        "status": "Construction Permit Issued (Dec 2023) \u2014 construction underway at Oak Ridge",
+        "docketId": "NRC-50-611",
+        "nextMilestone": "2027 Operating License Application for Hermes demo",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "338400b81fe6e187",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "NuScale Power \u2014 NRC: US460 / VOYGR SMR (Approved)",
+      "description": "Status: Design Certification Approved \u2014 77MWe uprate under review \u00b7 Docket: NRC-52-050",
+      "companies": [
+        "NuScale Power"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
+      "raw": {
+        "company": "NuScale Power",
+        "design": "US460 / VOYGR SMR",
+        "stage": "Approved",
+        "status": "Design Certification Approved \u2014 77MWe uprate under review",
+        "docketId": "NRC-52-050",
+        "nextMilestone": "2026-Q4 Standard Design Approval for 77MWe uprate",
+        "url": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "6b835f2af6fc4114",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "Oklo \u2014 NRC: Aurora Powerhouse (15MWe compact fast reactor) (Combined License Application)",
+      "description": "Status: Combined License Application Under Review (Resubmitted 2024) \u00b7 Docket: NRC-52-049",
+      "companies": [
+        "Oklo"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Oklo",
+        "design": "Aurora Powerhouse (15MWe compact fast reactor)",
+        "stage": "Combined License Application",
+        "status": "Combined License Application Under Review (Resubmitted 2024)",
+        "docketId": "NRC-52-049",
+        "nextMilestone": "2026-Q3 ASLB hearing / Safety Evaluation Report draft",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "73f4f0f83d037e2b",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "GE Hitachi \u2014 NRC: BWRX-300 SMR (Construction Permit)",
+      "description": "Status: Construction Permit Application being prepared (TVA Clinch River) \u00b7 Docket: NRC-CP-BWRX300",
+      "companies": [
+        "GE Hitachi"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "GE Hitachi",
+        "design": "BWRX-300 SMR",
+        "stage": "Construction Permit",
+        "status": "Construction Permit Application being prepared (TVA Clinch River)",
+        "docketId": "NRC-CP-BWRX300",
+        "nextMilestone": "2026-Q4 Construction Permit Application filing",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "65342cf81f03e5fa",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "TerraPower \u2014 NRC: Natrium (345MWe sodium-cooled fast reactor) (Construction Permit)",
+      "description": "Status: Construction Permit Application Under Review (Kemmerer, WY) \u00b7 Docket: NRC-50-612",
+      "companies": [
+        "TerraPower"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "TerraPower",
+        "design": "Natrium (345MWe sodium-cooled fast reactor)",
+        "stage": "Construction Permit",
+        "status": "Construction Permit Application Under Review (Kemmerer, WY)",
+        "docketId": "NRC-50-612",
+        "nextMilestone": "2026-Q4 Construction Permit decision",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "4a0f5f05030b0dd3",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "Westinghouse \u2014 NRC: AP300 SMR (scaled AP1000) (Design Certification Application)",
+      "description": "Status: Standard Design Approval application anticipated \u00b7 Docket: NRC-DCA-AP300",
+      "companies": [
+        "Westinghouse"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Westinghouse",
+        "design": "AP300 SMR (scaled AP1000)",
+        "stage": "Design Certification Application",
+        "status": "Standard Design Approval application anticipated",
+        "docketId": "NRC-DCA-AP300",
+        "nextMilestone": "2026-Q4 Standard Design Approval submittal",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "b0083872b1a6f144",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "Aalo Atomics \u2014 NRC: Aalo-1 Sodium-cooled microreactor (Pre-application)",
+      "description": "Status: Pre-application engagement; non-nuclear demo underway \u00b7 Docket: NRC-PRE-APP-AALO",
+      "companies": [
+        "Aalo Atomics"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Aalo Atomics",
+        "design": "Aalo-1 Sodium-cooled microreactor",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; non-nuclear demo underway",
+        "docketId": "NRC-PRE-APP-AALO",
+        "nextMilestone": "2027 Construction Permit Application target",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "d60e5ba15f6c0c10",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "BWXT Advanced Technologies \u2014 NRC: BWXT Advanced Nuclear Reactor (microreactor / Project Pele) (Pre-application)",
+      "description": "Status: Pre-application engagement; DOD Pele transportable reactor Critical Design Review complete \u00b7 Docket: NRC-PRE-APP-BWXT",
+      "companies": [
+        "BWXT Advanced Technologies"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "BWXT Advanced Technologies",
+        "design": "BWXT Advanced Nuclear Reactor (microreactor / Project Pele)",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; DOD Pele transportable reactor Critical Design Review complete",
+        "docketId": "NRC-PRE-APP-BWXT",
+        "nextMilestone": "2026-Q3 NRC regulatory pathway white paper",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "eb231e82727e8b47",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "General Atomics EMS \u2014 NRC: EM2 Fast Modular Reactor (Pre-application)",
+      "description": "Status: Pre-application; GA-led DOE ARDP Risk Reduction partner \u00b7 Docket: NRC-PRE-APP-GA",
+      "companies": [
+        "General Atomics EMS"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "General Atomics EMS",
+        "design": "EM2 Fast Modular Reactor",
+        "stage": "Pre-application",
+        "status": "Pre-application; GA-led DOE ARDP Risk Reduction partner",
+        "docketId": "NRC-PRE-APP-GA",
+        "nextMilestone": "2027 Construction Permit Application target",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "f81bbe9ba1016325",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "Holtec International \u2014 NRC: SMR-300 (light-water SMR) (Pre-application)",
+      "description": "Status: Pre-application engagement; DOE cost-share awarded 2024 \u00b7 Docket: NRC-PRE-APP-HOLTEC",
+      "companies": [
+        "Holtec International"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Holtec International",
+        "design": "SMR-300 (light-water SMR)",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; DOE cost-share awarded 2024",
+        "docketId": "NRC-PRE-APP-HOLTEC",
+        "nextMilestone": "2026-Q4 Construction Permit Application (Palisades site)",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "47fe36ec44844c46",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "Last Energy \u2014 NRC: PWR-20 (20MWe modular reactor) (Pre-application)",
+      "description": "Status: Pre-application engagement; European orders prioritized first \u00b7 Docket: NRC-PRE-APP-LASTE",
+      "companies": [
+        "Last Energy"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Last Energy",
+        "design": "PWR-20 (20MWe modular reactor)",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; European orders prioritized first",
+        "docketId": "NRC-PRE-APP-LASTE",
+        "nextMilestone": "2027 U.S. Construction Permit pathway",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "762dbc4cdc8fdd18",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "Nano Nuclear Energy \u2014 NRC: ZEUS / ODIN transportable microreactors (Pre-application)",
+      "description": "Status: Pre-application engagement begun post-IPO \u00b7 Docket: NRC-PRE-APP-NNE",
+      "companies": [
+        "Nano Nuclear Energy"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Nano Nuclear Energy",
+        "design": "ZEUS / ODIN transportable microreactors",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement begun post-IPO",
+        "docketId": "NRC-PRE-APP-NNE",
+        "nextMilestone": "2026-Q4 Pre-Application Readiness Assessment",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "e2731c069753647c",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "Radiant Industries \u2014 NRC: Kaleidos portable 1MWe microreactor (Pre-application)",
+      "description": "Status: Pre-application engagement; DOE DOME test-bed demo planned \u00b7 Docket: NRC-PRE-APP-RADI",
+      "companies": [
+        "Radiant Industries"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "Radiant Industries",
+        "design": "Kaleidos portable 1MWe microreactor",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; DOE DOME test-bed demo planned",
+        "docketId": "NRC-PRE-APP-RADI",
+        "nextMilestone": "2026-Q4 Fueled test at INL DOME",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "0e5a0343b0b6984d",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "USNC (Ultra Safe Nuclear) \u2014 NRC: Micro Modular Reactor (MMR) \u2014 5MWe HTGR (Pre-application)",
+      "description": "Status: Pre-application meetings; Canadian CNSC licensing leads NRC \u00b7 Docket: NRC-PRE-APP-USNC",
+      "companies": [
+        "USNC (Ultra Safe Nuclear)"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "USNC (Ultra Safe Nuclear)",
+        "design": "Micro Modular Reactor (MMR) \u2014 5MWe HTGR",
+        "stage": "Pre-application",
+        "status": "Pre-application meetings; Canadian CNSC licensing leads NRC",
+        "docketId": "NRC-PRE-APP-USNC",
+        "nextMilestone": "2026-Q4 U.S. Construction Permit Application (University of Illinois demo)",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "36f5c28a16792f4c",
+      "date": "2026-06-27",
+      "type": "nrc",
+      "title": "X-energy \u2014 NRC: Xe-100 (80MWe HTGR pebble-bed) (Pre-application)",
+      "description": "Status: Pre-application engagement; Dow Chemical host site selected \u00b7 Docket: NRC-52-050-XE100",
+      "companies": [
+        "X-energy"
+      ],
+      "sector": "nuclear",
+      "source": "NRC Licensing tracker",
+      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "raw": {
+        "company": "X-energy",
+        "design": "Xe-100 (80MWe HTGR pebble-bed)",
+        "stage": "Pre-application",
+        "status": "Pre-application engagement; Dow Chemical host site selected",
+        "docketId": "NRC-52-050-XE100",
+        "nextMilestone": "2026-Q4 Construction Permit Application expected",
+        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+        "lastUpdated": "2026-06-27"
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "dda0b18c8ba4c0ed",
+      "date": "2026-06-29",
+      "type": "fedreg",
+      "title": "Technical Guidelines for the Production of Regenerative Agricultural Biofuel Fee",
+      "description": "Agriculture Department, Energy and Environmental Policy Office \u00b7 Sectors: ai \u00b7 Type: Rule",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-13092",
+      "raw": {
+        "docNum": "2026-13092",
+        "title": "Technical Guidelines for the Production of Regenerative Agricultural Biofuel Fee",
+        "type": "Rule",
+        "date": "2026-06-29",
+        "agencies": "Agriculture Department, Energy and Environmental Policy Office",
+        "sectors": "ai",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "fe13b27c91b2059c",
+      "date": "2026-06-29",
+      "type": "fedreg",
+      "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammal",
+      "description": "Commerce Department, National Oceanic and Atmospheric Administration \u00b7 Sectors: defense, ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-13055",
+      "raw": {
+        "docNum": "2026-13055",
+        "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammal",
+        "type": "Notice",
+        "date": "2026-06-29",
+        "agencies": "Commerce Department, National Oceanic and Atmospheric Administration",
+        "sectors": "defense, ai",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "a557bd78826c92a4",
+      "date": "2026-06-29",
+      "type": "fda",
+      "title": "Establishment Registration and Product Listing for Tobacco Products",
+      "description": "Health and Human Services Department, Food and Drug Administration \u00b7 Type: Proposed Rule",
+      "companies": [],
+      "sector": "bio",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-13047",
+      "raw": {
+        "docNum": "2026-13047",
+        "title": "Establishment Registration and Product Listing for Tobacco Products",
+        "type": "Proposed Rule",
+        "date": "2026-06-29",
+        "agencies": "Health and Human Services Department, Food and Drug Administration",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "883e2283d55a2b57",
+      "date": "2026-06-29",
+      "type": "fedreg",
+      "title": "National Institute of Environmental Health Sciences; Notice of Meeting",
+      "description": "Health and Human Services Department, National Institutes of Health \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-12993",
+      "raw": {
+        "docNum": "2026-12993",
+        "title": "National Institute of Environmental Health Sciences; Notice of Meeting",
+        "type": "Notice",
+        "date": "2026-06-29",
+        "agencies": "Health and Human Services Department, National Institutes of Health",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "0c32fa482d822e13",
+      "date": "2026-06-29",
+      "type": "fedreg",
+      "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Geophys",
+      "description": "Commerce Department, National Oceanic and Atmospheric Administration \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-12986",
+      "raw": {
+        "docNum": "2026-12986",
+        "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Geophys",
+        "type": "Notice",
+        "date": "2026-06-29",
+        "agencies": "Commerce Department, National Oceanic and Atmospheric Administration",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "44d3f76966d913e2",
+      "date": "2026-06-29",
+      "type": "fedreg",
+      "title": "Administrative Leave for Workforce Realignment and Other Purposes",
+      "description": "Personnel Management Office \u00b7 Type: Proposed Rule",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-13073",
+      "raw": {
+        "docNum": "2026-13073",
+        "title": "Administrative Leave for Workforce Realignment and Other Purposes",
+        "type": "Proposed Rule",
+        "date": "2026-06-29",
+        "agencies": "Personnel Management Office",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "8ba3bdef93ef68fc",
+      "date": "2026-06-29",
+      "type": "fedreg",
+      "title": "Alien Registration Form and Evidence of Registration",
+      "description": "Homeland Security Department \u00b7 Type: Rule",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-13057",
+      "raw": {
+        "docNum": "2026-13057",
+        "title": "Alien Registration Form and Evidence of Registration",
+        "type": "Rule",
+        "date": "2026-06-29",
+        "agencies": "Homeland Security Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "cca16a25bbd02c8d",
+      "date": "2026-06-29",
+      "type": "nrc",
+      "title": "Constellation Energy Generation, LLC; R.E. Ginna Nuclear Power Plant; Subsequent",
+      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "nuclear",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-13026",
+      "raw": {
+        "docNum": "2026-13026",
+        "title": "Constellation Energy Generation, LLC; R.E. Ginna Nuclear Power Plant; Subsequent",
+        "type": "Notice",
+        "date": "2026-06-29",
+        "agencies": "Nuclear Regulatory Commission",
+        "sectors": "defense, nuclear",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "3523ffac1d66143a",
+      "date": "2026-06-29",
+      "type": "fda",
+      "title": "Cellular, Tissue, and Gene Therapies Advisory Committee; Notice of Meeting; Esta",
+      "description": "Health and Human Services Department, Food and Drug Administration \u00b7 Sectors: biotech \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "bio",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-13096",
+      "raw": {
+        "docNum": "2026-13096",
+        "title": "Cellular, Tissue, and Gene Therapies Advisory Committee; Notice of Meeting; Esta",
+        "type": "Notice",
+        "date": "2026-06-29",
+        "agencies": "Health and Human Services Department, Food and Drug Administration",
+        "sectors": "biotech",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
+    {
+      "id": "57da7325551c07ae",
+      "date": "2026-06-29",
+      "type": "fedreg",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management",
+      "description": "Commerce Department, National Oceanic and Atmospheric Administration \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-13091",
+      "raw": {
+        "docNum": "2026-13091",
+        "title": "Agency Information Collection Activities; Submission to the Office of Management",
+        "type": "Notice",
+        "date": "2026-06-29",
+        "agencies": "Commerce Department, National Oceanic and Atmospheric Administration",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 2,
+      "importance": "urgent"
+    },
     {
       "id": "e0d079f1d49114e5",
       "date": "2026-07-01",
@@ -884,7 +1481,7 @@
         "nextMilestone": "FAA Environmental Review",
         "nextMilestoneDate": "2026-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2026-12-01",
           "event": "Terran R First Flight",
@@ -1075,7 +1672,7 @@
         "nextMilestone": "Type Certificate (Autonomous)",
         "nextMilestoneDate": "2027-01-01",
         "note": "Boeing-backed. First fully autonomous air taxi seeking FAA TC.",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2027-01-01",
           "event": "Type Certificate (Autonomous)",
@@ -1131,7 +1728,7 @@
         "nextMilestone": "Type Certificate (Autonomous)",
         "nextMilestoneDate": "2027-01-01",
         "note": "Boeing-backed. First fully autonomous air taxi seeking FAA TC.",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": 188,
       "importance": "low"
@@ -1187,7 +1784,7 @@
         "nextMilestone": "EASA Type Certificate",
         "nextMilestoneDate": "2027-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2027-01-01",
           "event": "EASA Type Certificate",
@@ -1248,7 +1845,7 @@
         "nextMilestone": "EASA Type Certificate",
         "nextMilestoneDate": "2027-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": 188,
       "importance": "low"
@@ -1817,40 +2414,6 @@
       "importance": "low"
     },
     {
-      "id": "ba95fa4d90ef3d66",
-      "date": "2027-05-01",
-      "type": "trial",
-      "title": "Baylor College of Medicine: Clinical and Molecular Biomarker Studies in RAI1 (Retinoic Acid-Induced 1) -Rela (Phase N/A)",
-      "description": "Phase N/A \u00b7 RECRUITING \u00b7 RAI1 Gene 17P11.2 Deletion+Duplication",
-      "companies": [
-        "Baylor College of Medicine"
-      ],
-      "sector": "bio",
-      "source": "ClinicalTrials.gov",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06274164",
-      "raw": {
-        "nctId": "NCT06274164",
-        "title": "Clinical and Molecular Biomarker Studies in RAI1 (Retinoic Acid-Induced 1) -Related Disorders",
-        "status": "RECRUITING",
-        "phase": "N/A",
-        "startDate": "2024-03-13",
-        "completionDate": "2027-05",
-        "sponsor": "Baylor College of Medicine",
-        "conditions": [
-          "RAI1 Gene 17P11.2 Deletion+Duplication"
-        ],
-        "interventions": [
-          "Electroencephalography/Polysomnography (EEG/PSG)",
-          "Skin Biopsy",
-          "Blood draw"
-        ],
-        "lastUpdated": "2026-06-03",
-        "enrollment": 90
-      },
-      "daysOut": 308,
-      "importance": "low"
-    },
-    {
       "id": "fd0a7f58f7e83249",
       "date": "2027-05-01",
       "type": "trial",
@@ -2099,7 +2662,7 @@
         "nextMilestone": "EASA Type Certificate",
         "nextMilestoneDate": "2027-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2027-06-01",
           "event": "FAA Validation",
@@ -2129,7 +2692,7 @@
         "docketId": "NRC-50-611",
         "nextMilestone": "2027 Operating License Application for Hermes demo",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": 339,
       "importance": "low"
@@ -2154,7 +2717,7 @@
         "docketId": "NRC-PRE-APP-AALO",
         "nextMilestone": "2027 Construction Permit Application target",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": 339,
       "importance": "low"
@@ -2179,7 +2742,7 @@
         "docketId": "NRC-PRE-APP-GA",
         "nextMilestone": "2027 Construction Permit Application target",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": 339,
       "importance": "low"
@@ -2204,7 +2767,7 @@
         "docketId": "NRC-PRE-APP-LASTE",
         "nextMilestone": "2027 U.S. Construction Permit pathway",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": 339,
       "importance": "low"
@@ -2569,6 +3132,38 @@
       "importance": "low"
     },
     {
+      "id": "1a1c112d2b7e1d9a",
+      "date": "2027-12-01",
+      "type": "trial",
+      "title": "King's College London: EMBRACE- BLOOM - Building Literacy and Outcomes Through Observation and Monitori (Phase N/A)",
+      "description": "Phase N/A \u00b7 NOT_YET_RECRUITING \u00b7 Pregnancy",
+      "companies": [
+        "King's College London"
+      ],
+      "sector": "bio",
+      "source": "ClinicalTrials.gov",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07623096",
+      "raw": {
+        "nctId": "NCT07623096",
+        "title": "EMBRACE- BLOOM - Building Literacy and Outcomes Through Observation and Monitoring: Information Needs and Wearable Data in Pregnancy Couples",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "N/A",
+        "startDate": "2026-06",
+        "completionDate": "2027-12",
+        "sponsor": "King's College London",
+        "conditions": [
+          "Pregnancy"
+        ],
+        "interventions": [
+          "Questionnaires"
+        ],
+        "lastUpdated": "2026-06-03",
+        "enrollment": 1000
+      },
+      "daysOut": 522,
+      "importance": "low"
+    },
+    {
       "id": "5a340f525615ec21",
       "date": "2027-12-01",
       "type": "trial",
@@ -2813,7 +3408,7 @@
         "nextMilestone": "Darkhorse Piloted Prototype",
         "nextMilestoneDate": "2028-01-01",
         "note": "USAF contract for Presidential & Executive Airlift rapid transport.",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2028-01-01",
           "event": "Darkhorse Piloted Prototype",
@@ -2874,7 +3469,7 @@
         "nextMilestone": "Darkhorse Piloted Prototype",
         "nextMilestoneDate": "2028-01-01",
         "note": "USAF contract for Presidential & Executive Airlift rapid transport.",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": 553,
       "importance": "low"
@@ -3372,381 +3967,6 @@
       "importance": "low"
     },
     {
-      "id": "c49bd4ffd0c96d49",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Kairos Power \u2014 NRC: Hermes (35MWth FLiBe-cooled test reactor) (Approved)",
-      "description": "Status: Construction Permit Issued (Dec 2023) \u2014 construction underway at Oak Ridge \u00b7 Docket: NRC-50-611",
-      "companies": [
-        "Kairos Power"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Kairos Power",
-        "design": "Hermes (35MWth FLiBe-cooled test reactor)",
-        "stage": "Approved",
-        "status": "Construction Permit Issued (Dec 2023) \u2014 construction underway at Oak Ridge",
-        "docketId": "NRC-50-611",
-        "nextMilestone": "2027 Operating License Application for Hermes demo",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "d54d7f0e149fa414",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "NuScale Power \u2014 NRC: US460 / VOYGR SMR (Approved)",
-      "description": "Status: Design Certification Approved \u2014 77MWe uprate under review \u00b7 Docket: NRC-52-050",
-      "companies": [
-        "NuScale Power"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
-      "raw": {
-        "company": "NuScale Power",
-        "design": "US460 / VOYGR SMR",
-        "stage": "Approved",
-        "status": "Design Certification Approved \u2014 77MWe uprate under review",
-        "docketId": "NRC-52-050",
-        "nextMilestone": "2026-Q4 Standard Design Approval for 77MWe uprate",
-        "url": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "8d08808f77a240d3",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Oklo \u2014 NRC: Aurora Powerhouse (15MWe compact fast reactor) (Combined License Application)",
-      "description": "Status: Combined License Application Under Review (Resubmitted 2024) \u00b7 Docket: NRC-52-049",
-      "companies": [
-        "Oklo"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Oklo",
-        "design": "Aurora Powerhouse (15MWe compact fast reactor)",
-        "stage": "Combined License Application",
-        "status": "Combined License Application Under Review (Resubmitted 2024)",
-        "docketId": "NRC-52-049",
-        "nextMilestone": "2026-Q3 ASLB hearing / Safety Evaluation Report draft",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "1aa0a711e90c6ca5",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "GE Hitachi \u2014 NRC: BWRX-300 SMR (Construction Permit)",
-      "description": "Status: Construction Permit Application being prepared (TVA Clinch River) \u00b7 Docket: NRC-CP-BWRX300",
-      "companies": [
-        "GE Hitachi"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "GE Hitachi",
-        "design": "BWRX-300 SMR",
-        "stage": "Construction Permit",
-        "status": "Construction Permit Application being prepared (TVA Clinch River)",
-        "docketId": "NRC-CP-BWRX300",
-        "nextMilestone": "2026-Q4 Construction Permit Application filing",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "d7fd6944b9cfd7d1",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "TerraPower \u2014 NRC: Natrium (345MWe sodium-cooled fast reactor) (Construction Permit)",
-      "description": "Status: Construction Permit Application Under Review (Kemmerer, WY) \u00b7 Docket: NRC-50-612",
-      "companies": [
-        "TerraPower"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "TerraPower",
-        "design": "Natrium (345MWe sodium-cooled fast reactor)",
-        "stage": "Construction Permit",
-        "status": "Construction Permit Application Under Review (Kemmerer, WY)",
-        "docketId": "NRC-50-612",
-        "nextMilestone": "2026-Q4 Construction Permit decision",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "2c9a018d2d0313fd",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Westinghouse \u2014 NRC: AP300 SMR (scaled AP1000) (Design Certification Application)",
-      "description": "Status: Standard Design Approval application anticipated \u00b7 Docket: NRC-DCA-AP300",
-      "companies": [
-        "Westinghouse"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Westinghouse",
-        "design": "AP300 SMR (scaled AP1000)",
-        "stage": "Design Certification Application",
-        "status": "Standard Design Approval application anticipated",
-        "docketId": "NRC-DCA-AP300",
-        "nextMilestone": "2026-Q4 Standard Design Approval submittal",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "e5e67afbeb696788",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Aalo Atomics \u2014 NRC: Aalo-1 Sodium-cooled microreactor (Pre-application)",
-      "description": "Status: Pre-application engagement; non-nuclear demo underway \u00b7 Docket: NRC-PRE-APP-AALO",
-      "companies": [
-        "Aalo Atomics"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Aalo Atomics",
-        "design": "Aalo-1 Sodium-cooled microreactor",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; non-nuclear demo underway",
-        "docketId": "NRC-PRE-APP-AALO",
-        "nextMilestone": "2027 Construction Permit Application target",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "951bbb3e4509b864",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "BWXT Advanced Technologies \u2014 NRC: BWXT Advanced Nuclear Reactor (microreactor / Project Pele) (Pre-application)",
-      "description": "Status: Pre-application engagement; DOD Pele transportable reactor Critical Design Review complete \u00b7 Docket: NRC-PRE-APP-BWXT",
-      "companies": [
-        "BWXT Advanced Technologies"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "BWXT Advanced Technologies",
-        "design": "BWXT Advanced Nuclear Reactor (microreactor / Project Pele)",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; DOD Pele transportable reactor Critical Design Review complete",
-        "docketId": "NRC-PRE-APP-BWXT",
-        "nextMilestone": "2026-Q3 NRC regulatory pathway white paper",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "5d8dd94c1740d0da",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "General Atomics EMS \u2014 NRC: EM2 Fast Modular Reactor (Pre-application)",
-      "description": "Status: Pre-application; GA-led DOE ARDP Risk Reduction partner \u00b7 Docket: NRC-PRE-APP-GA",
-      "companies": [
-        "General Atomics EMS"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "General Atomics EMS",
-        "design": "EM2 Fast Modular Reactor",
-        "stage": "Pre-application",
-        "status": "Pre-application; GA-led DOE ARDP Risk Reduction partner",
-        "docketId": "NRC-PRE-APP-GA",
-        "nextMilestone": "2027 Construction Permit Application target",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "30e5670fd0ad234b",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Holtec International \u2014 NRC: SMR-300 (light-water SMR) (Pre-application)",
-      "description": "Status: Pre-application engagement; DOE cost-share awarded 2024 \u00b7 Docket: NRC-PRE-APP-HOLTEC",
-      "companies": [
-        "Holtec International"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Holtec International",
-        "design": "SMR-300 (light-water SMR)",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; DOE cost-share awarded 2024",
-        "docketId": "NRC-PRE-APP-HOLTEC",
-        "nextMilestone": "2026-Q4 Construction Permit Application (Palisades site)",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "b63edfc816492004",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Last Energy \u2014 NRC: PWR-20 (20MWe modular reactor) (Pre-application)",
-      "description": "Status: Pre-application engagement; European orders prioritized first \u00b7 Docket: NRC-PRE-APP-LASTE",
-      "companies": [
-        "Last Energy"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Last Energy",
-        "design": "PWR-20 (20MWe modular reactor)",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; European orders prioritized first",
-        "docketId": "NRC-PRE-APP-LASTE",
-        "nextMilestone": "2027 U.S. Construction Permit pathway",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "a2d12fbd683c1197",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Nano Nuclear Energy \u2014 NRC: ZEUS / ODIN transportable microreactors (Pre-application)",
-      "description": "Status: Pre-application engagement begun post-IPO \u00b7 Docket: NRC-PRE-APP-NNE",
-      "companies": [
-        "Nano Nuclear Energy"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Nano Nuclear Energy",
-        "design": "ZEUS / ODIN transportable microreactors",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement begun post-IPO",
-        "docketId": "NRC-PRE-APP-NNE",
-        "nextMilestone": "2026-Q4 Pre-Application Readiness Assessment",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "8c83949eba62d92f",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Radiant Industries \u2014 NRC: Kaleidos portable 1MWe microreactor (Pre-application)",
-      "description": "Status: Pre-application engagement; DOE DOME test-bed demo planned \u00b7 Docket: NRC-PRE-APP-RADI",
-      "companies": [
-        "Radiant Industries"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "Radiant Industries",
-        "design": "Kaleidos portable 1MWe microreactor",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; DOE DOME test-bed demo planned",
-        "docketId": "NRC-PRE-APP-RADI",
-        "nextMilestone": "2026-Q4 Fueled test at INL DOME",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "31c8f0be79d335e9",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "USNC (Ultra Safe Nuclear) \u2014 NRC: Micro Modular Reactor (MMR) \u2014 5MWe HTGR (Pre-application)",
-      "description": "Status: Pre-application meetings; Canadian CNSC licensing leads NRC \u00b7 Docket: NRC-PRE-APP-USNC",
-      "companies": [
-        "USNC (Ultra Safe Nuclear)"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "USNC (Ultra Safe Nuclear)",
-        "design": "Micro Modular Reactor (MMR) \u2014 5MWe HTGR",
-        "stage": "Pre-application",
-        "status": "Pre-application meetings; Canadian CNSC licensing leads NRC",
-        "docketId": "NRC-PRE-APP-USNC",
-        "nextMilestone": "2026-Q4 U.S. Construction Permit Application (University of Illinois demo)",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "f3c379609da5278d",
-      "date": "2026-06-26",
-      "type": "nrc",
-      "title": "X-energy \u2014 NRC: Xe-100 (80MWe HTGR pebble-bed) (Pre-application)",
-      "description": "Status: Pre-application engagement; Dow Chemical host site selected \u00b7 Docket: NRC-52-050-XE100",
-      "companies": [
-        "X-energy"
-      ],
-      "sector": "nuclear",
-      "source": "NRC Licensing tracker",
-      "sourceUrl": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "raw": {
-        "company": "X-energy",
-        "design": "Xe-100 (80MWe HTGR pebble-bed)",
-        "stage": "Pre-application",
-        "status": "Pre-application engagement; Dow Chemical host site selected",
-        "docketId": "NRC-52-050-XE100",
-        "nextMilestone": "2026-Q4 Construction Permit Application expected",
-        "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
       "id": "bdcc1387de0054b3",
       "date": "2026-06-26",
       "type": "fedreg",
@@ -3945,22 +4165,22 @@
       "importance": "low"
     },
     {
-      "id": "6319a9af3b526e61",
+      "id": "f55f91f24c2e4084",
       "date": "2026-06-26",
-      "type": "doe",
-      "title": "Commission Information Collection Activities (Ferc-725b). Comment Request; Errat",
-      "description": "Energy Department, Federal Energy Regulatory Commission \u00b7 Type: Notice",
+      "type": "fedreg",
+      "title": "Unaccompanied Children Program Foundational Rule; Sponsor Assessment Update To I",
+      "description": "Health and Human Services Department, Children and Families Administration \u00b7 Sectors: ai \u00b7 Type: Proposed Rule",
       "companies": [],
-      "sector": "energy",
+      "sector": "other",
       "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12917",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-12946",
       "raw": {
-        "docNum": "2026-12917",
-        "title": "Commission Information Collection Activities (Ferc-725b). Comment Request; Errat",
-        "type": "Notice",
+        "docNum": "2026-12946",
+        "title": "Unaccompanied Children Program Foundational Rule; Sponsor Assessment Update To I",
+        "type": "Proposed Rule",
         "date": "2026-06-26",
-        "agencies": "Energy Department, Federal Energy Regulatory Commission",
-        "sectors": "",
+        "agencies": "Health and Human Services Department, Children and Families Administration",
+        "sectors": "ai",
         "significant": false
       },
       "daysOut": -1,
@@ -3989,6 +4209,28 @@
       "importance": "low"
     },
     {
+      "id": "b77bd5d55ad16f3a",
+      "date": "2026-06-26",
+      "type": "fedreg",
+      "title": "Agency Information Collection Activities: Proposed Request",
+      "description": "Social Security Administration \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-12890",
+      "raw": {
+        "docNum": "2026-12890",
+        "title": "Agency Information Collection Activities: Proposed Request",
+        "type": "Notice",
+        "date": "2026-06-26",
+        "agencies": "Social Security Administration",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
       "id": "7405eaff46d1a906",
       "date": "2026-06-26",
       "type": "nrc",
@@ -4011,45 +4253,55 @@
       "importance": "low"
     },
     {
-      "id": "1b972c13759d567e",
+      "id": "e1c69d7d8a9dc446",
       "date": "2026-06-26",
-      "type": "fda",
-      "title": "Revocation of Three Authorizations of Emergency Use of In Vitro Diagnostic Devic",
-      "description": "Health and Human Services Department, Food and Drug Administration \u00b7 Sectors: drones, ai \u00b7 Type: Notice",
+      "type": "fedreg",
+      "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT",
+      "description": "Environmental Protection Agency \u00b7 Sectors: ai \u00b7 Type: Rule",
       "companies": [],
-      "sector": "bio",
+      "sector": "other",
       "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12906",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-12920",
       "raw": {
-        "docNum": "2026-12906",
-        "title": "Revocation of Three Authorizations of Emergency Use of In Vitro Diagnostic Devic",
-        "type": "Notice",
+        "docNum": "2026-12920",
+        "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT",
+        "type": "Rule",
         "date": "2026-06-26",
-        "agencies": "Health and Human Services Department, Food and Drug Administration",
-        "sectors": "drones, ai",
+        "agencies": "Environmental Protection Agency",
+        "sectors": "ai",
         "significant": false
       },
       "daysOut": -1,
       "importance": "low"
     },
     {
-      "id": "1a899371865ec401",
+      "id": "7bc4f3bd0299afe2",
       "date": "2026-06-26",
-      "type": "nrc",
-      "title": "Sunset Provisions",
-      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear, ai \u00b7 Type: Proposed Rule",
-      "companies": [],
-      "sector": "nuclear",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12887",
+      "type": "formd",
+      "title": "Cambium \u2014 Form D: $0 sold",
+      "description": "Securities: Equity \u00b7 Exemption: 06b \u00b7 CIK: 2136863",
+      "companies": [
+        "Cambium"
+      ],
+      "sector": "other",
+      "source": "SEC EDGAR Form D",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136863&type=D&dateb=&owner=include&count=10",
       "raw": {
-        "docNum": "2026-12887",
-        "title": "Sunset Provisions",
-        "type": "Proposed Rule",
-        "date": "2026-06-26",
-        "agencies": "Nuclear Regulatory Commission",
-        "sectors": "defense, nuclear, ai",
-        "significant": false
+        "company": "Cambium",
+        "issuer_name": "Cambium Capital Jacaranda LP",
+        "form": "D",
+        "filed_date": "2026-06-26",
+        "cik": "2136863",
+        "accession": "0002136863-26-000001",
+        "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136863&type=D&dateb=&owner=include&count=10",
+        "adsh_raw": "0002136863-26-000001",
+        "offering_amount": "Indefinite",
+        "amount_sold": "0",
+        "amount_remaining": "Indefinite",
+        "securities_type": "Equity",
+        "exemption": "06b",
+        "first_sale_date": "",
+        "is_safe": false
       },
       "daysOut": -1,
       "importance": "low"
@@ -4121,50 +4373,6 @@
       "importance": "low"
     },
     {
-      "id": "2fd482556f72cff0",
-      "date": "2026-06-25",
-      "type": "fedreg",
-      "title": "Information Collection Being Reviewed by the Federal Communications Commission U",
-      "description": "Federal Communications Commission \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12803",
-      "raw": {
-        "docNum": "2026-12803",
-        "title": "Information Collection Being Reviewed by the Federal Communications Commission U",
-        "type": "Notice",
-        "date": "2026-06-25",
-        "agencies": "Federal Communications Commission",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "3e2d326fc210255f",
-      "date": "2026-06-25",
-      "type": "doe",
-      "title": "Combined Notice of Filings #1",
-      "description": "Energy Department, Federal Energy Regulatory Commission \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "energy",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12800",
-      "raw": {
-        "docNum": "2026-12800",
-        "title": "Combined Notice of Filings #1",
-        "type": "Notice",
-        "date": "2026-06-25",
-        "agencies": "Energy Department, Federal Energy Regulatory Commission",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
       "id": "6e228f64e7b887e2",
       "date": "2026-06-25",
       "type": "fedreg",
@@ -4209,201 +4417,25 @@
       "importance": "low"
     },
     {
-      "id": "1f7e6f0c67ef2283",
+      "id": "be6c548c36581e3d",
       "date": "2026-06-25",
       "type": "fedreg",
-      "title": "Agricultural Foreign Investment Disclosure Act of 1978",
-      "description": "Agriculture Department \u00b7 Type: Proposed Rule",
+      "title": "Financial Data Transparency Act Joint Data Standards",
+      "description": "Treasury Department, Comptroller of the Currency \u00b7 Sectors: ai \u00b7 Type: Rule",
       "companies": [],
       "sector": "other",
       "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12808",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-12787",
       "raw": {
-        "docNum": "2026-12808",
-        "title": "Agricultural Foreign Investment Disclosure Act of 1978",
-        "type": "Proposed Rule",
-        "date": "2026-06-25",
-        "agencies": "Agriculture Department",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "1da1d7feb4eb0ec9",
-      "date": "2026-06-25",
-      "type": "fedreg",
-      "title": "Civil Monetary Penalty Inflation Adjustment",
-      "description": "Railroad Retirement Board \u00b7 Sectors: ai \u00b7 Type: Rule",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12805",
-      "raw": {
-        "docNum": "2026-12805",
-        "title": "Civil Monetary Penalty Inflation Adjustment",
+        "docNum": "2026-12787",
+        "title": "Financial Data Transparency Act Joint Data Standards",
         "type": "Rule",
         "date": "2026-06-25",
-        "agencies": "Railroad Retirement Board",
+        "agencies": "Treasury Department, Comptroller of the Currency",
         "sectors": "ai",
         "significant": false
       },
       "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "ece56cb4e4070fbf",
-      "date": "2026-06-25",
-      "type": "fedreg",
-      "title": "Procurement List; Additions and Deletions",
-      "description": "Committee for Purchase From People Who Are Blind or Severely Disabled \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12785",
-      "raw": {
-        "docNum": "2026-12785",
-        "title": "Procurement List; Additions and Deletions",
-        "type": "Notice",
-        "date": "2026-06-25",
-        "agencies": "Committee for Purchase From People Who Are Blind or Severely Disabled",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "62cdfd2b895b7073",
-      "date": "2026-06-25",
-      "type": "fedreg",
-      "title": "Pesticide Registration Maintenance Fee; Requested and Proposed Cancellations of ",
-      "description": "Environmental Protection Agency \u00b7 Sectors: ai \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12752",
-      "raw": {
-        "docNum": "2026-12752",
-        "title": "Pesticide Registration Maintenance Fee; Requested and Proposed Cancellations of ",
-        "type": "Notice",
-        "date": "2026-06-25",
-        "agencies": "Environmental Protection Agency",
-        "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "4b5815d0ed9a0bf7",
-      "date": "2026-06-25",
-      "type": "fedreg",
-      "title": "Government Owned Inventions Available for License: C8166-45 Cell Line",
-      "description": "Health and Human Services Department, National Institutes of Health \u00b7 Sectors: ai, biotech \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12843",
-      "raw": {
-        "docNum": "2026-12843",
-        "title": "Government Owned Inventions Available for License: C8166-45 Cell Line",
-        "type": "Notice",
-        "date": "2026-06-25",
-        "agencies": "Health and Human Services Department, National Institutes of Health",
-        "sectors": "ai, biotech",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "03827d0f260a12e3",
-      "date": "2026-06-25",
-      "type": "fedreg",
-      "title": "Ensuring Consistent and Rigorous Standards for the Senior Executive Service Cand",
-      "description": "Personnel Management Office \u00b7 Sectors: ai \u00b7 Type: Rule",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12811",
-      "raw": {
-        "docNum": "2026-12811",
-        "title": "Ensuring Consistent and Rigorous Standards for the Senior Executive Service Cand",
-        "type": "Rule",
-        "date": "2026-06-25",
-        "agencies": "Personnel Management Office",
-        "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "26e27e49c6fc8fa2",
-      "date": "2026-06-24",
-      "type": "fedreg",
-      "title": "Establishing the Digital Opportunity Data Collection; Modernizing the FCC Form 4",
-      "description": "Federal Communications Commission \u00b7 Sectors: space, ai \u00b7 Type: Rule",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12766",
-      "raw": {
-        "docNum": "2026-12766",
-        "title": "Establishing the Digital Opportunity Data Collection; Modernizing the FCC Form 4",
-        "type": "Rule",
-        "date": "2026-06-24",
-        "agencies": "Federal Communications Commission",
-        "sectors": "space, ai",
-        "significant": false
-      },
-      "daysOut": -3,
-      "importance": "low"
-    },
-    {
-      "id": "71bea5fa48d70553",
-      "date": "2026-06-24",
-      "type": "fedreg",
-      "title": "Enterprise Duty To Serve Underserved Markets",
-      "description": "Federal Housing Finance Agency \u00b7 Type: Proposed Rule",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12750",
-      "raw": {
-        "docNum": "2026-12750",
-        "title": "Enterprise Duty To Serve Underserved Markets",
-        "type": "Proposed Rule",
-        "date": "2026-06-24",
-        "agencies": "Federal Housing Finance Agency",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": -3,
-      "importance": "low"
-    },
-    {
-      "id": "b1d66de58d2822ee",
-      "date": "2026-06-24",
-      "type": "fedreg",
-      "title": "Safety Standard for Lithium-Ion Batteries Used in Micromobility Products and Ele",
-      "description": "Consumer Product Safety Commission \u00b7 Sectors: ai \u00b7 Type: Proposed Rule",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-12749",
-      "raw": {
-        "docNum": "2026-12749",
-        "title": "Safety Standard for Lithium-Ion Batteries Used in Micromobility Products and Ele",
-        "type": "Proposed Rule",
-        "date": "2026-06-24",
-        "agencies": "Consumer Product Safety Commission",
-        "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": -3,
       "importance": "low"
     },
     {
@@ -4566,7 +4598,7 @@
         "nextMilestone": "Type Certificate Expected",
         "nextMilestoneDate": "2026-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2026-06-01",
           "event": "Part 135 Commercial Operations",
@@ -4632,7 +4664,7 @@
         "nextMilestone": "Type Certificate Expected",
         "nextMilestoneDate": "2025-12-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2026-06-01",
           "event": "Launch Commercial Service (LA)",
@@ -4693,7 +4725,7 @@
         "nextMilestone": "Neutron FAA Launch License Application",
         "nextMilestoneDate": "2025-12-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2026-06-01",
           "event": "Neutron First Flight",
@@ -4723,7 +4755,7 @@
         "docketId": "NRC-52-050",
         "nextMilestone": "2026-Q4 Standard Design Approval for 77MWe uprate",
         "url": "https://www.nrc.gov/reactors/new-reactors/smr/nuscale.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4748,7 +4780,7 @@
         "docketId": "NRC-52-049",
         "nextMilestone": "2026-Q3 ASLB hearing / Safety Evaluation Report draft",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4773,7 +4805,7 @@
         "docketId": "NRC-CP-BWRX300",
         "nextMilestone": "2026-Q4 Construction Permit Application filing",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4798,7 +4830,7 @@
         "docketId": "NRC-50-612",
         "nextMilestone": "2026-Q4 Construction Permit decision",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4823,7 +4855,7 @@
         "docketId": "NRC-DCA-AP300",
         "nextMilestone": "2026-Q4 Standard Design Approval submittal",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4848,7 +4880,7 @@
         "docketId": "NRC-PRE-APP-BWXT",
         "nextMilestone": "2026-Q3 NRC regulatory pathway white paper",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4873,7 +4905,7 @@
         "docketId": "NRC-PRE-APP-HOLTEC",
         "nextMilestone": "2026-Q4 Construction Permit Application (Palisades site)",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4898,7 +4930,7 @@
         "docketId": "NRC-PRE-APP-NNE",
         "nextMilestone": "2026-Q4 Pre-Application Readiness Assessment",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4923,7 +4955,7 @@
         "docketId": "NRC-PRE-APP-RADI",
         "nextMilestone": "2026-Q4 Fueled test at INL DOME",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4948,7 +4980,7 @@
         "docketId": "NRC-PRE-APP-USNC",
         "nextMilestone": "2026-Q4 U.S. Construction Permit Application (University of Illinois demo)",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -4973,7 +5005,7 @@
         "docketId": "NRC-52-050-XE100",
         "nextMilestone": "2026-Q4 Construction Permit Application expected",
         "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -26,
       "importance": "low"
@@ -6626,7 +6658,7 @@
         "nextMilestone": "Urban Delivery Operations",
         "nextMilestoneDate": "2026-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2026-01-01",
           "event": "Urban Delivery Operations",
@@ -6687,7 +6719,7 @@
         "nextMilestone": "Urban Delivery Operations",
         "nextMilestoneDate": "2026-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -177,
       "importance": "low"
@@ -6753,7 +6785,7 @@
         "nextMilestone": "Type Certificate Expected",
         "nextMilestoneDate": "2026-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2026-01-01",
           "event": "Type Certificate Expected",
@@ -6824,7 +6856,7 @@
         "nextMilestone": "Type Certificate Expected",
         "nextMilestoneDate": "2026-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -177,
       "importance": "low"
@@ -6880,7 +6912,7 @@
         "nextMilestone": "FAA Environmental Review",
         "nextMilestoneDate": "2026-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2026-01-01",
           "event": "FAA Environmental Review",
@@ -6941,7 +6973,7 @@
         "nextMilestone": "FAA Environmental Review",
         "nextMilestoneDate": "2026-01-01",
         "note": "",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -177,
       "importance": "low"
@@ -7191,7 +7223,7 @@
         "nextMilestone": "Type Certificate Expected",
         "nextMilestoneDate": "2025-12-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2025-12-01",
           "event": "Type Certificate Expected",
@@ -7257,7 +7289,7 @@
         "nextMilestone": "Type Certificate Expected",
         "nextMilestoneDate": "2025-12-01",
         "note": "",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -208,
       "importance": "low"
@@ -7313,7 +7345,7 @@
         "nextMilestone": "Neutron FAA Launch License Application",
         "nextMilestoneDate": "2025-12-01",
         "note": "",
-        "lastUpdated": "2026-06-26",
+        "lastUpdated": "2026-06-27",
         "_milestone": {
           "date": "2025-12-01",
           "event": "Neutron FAA Launch License Application",
@@ -7374,7 +7406,7 @@
         "nextMilestone": "Neutron FAA Launch License Application",
         "nextMilestoneDate": "2025-12-01",
         "note": "",
-        "lastUpdated": "2026-06-26"
+        "lastUpdated": "2026-06-27"
       },
       "daysOut": -208,
       "importance": "low"
