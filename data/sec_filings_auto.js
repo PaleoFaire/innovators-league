@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-26 09:34:49 UTC
+// Last updated: 2026-06-27 08:41:12 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Intuitive Machines", form: "4", date: "2026-06-26", description: "xslF345X06/form4-06262026_050631.xml", isIPO: false, ticker: "LUNR" },
+  { company: "IonQ", form: "8-K", date: "2026-06-26", description: "bakkt-20260625.htm", isIPO: false, ticker: "IONQ" },
+  { company: "Rivian", form: "8-K", date: "2026-06-26", description: "rivn-20260622.htm", isIPO: false, ticker: "RIVN" },
+  { company: "Satellogic", form: "DEF 14A", date: "2026-06-26", description: "ea0296034-def14a_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Satellogic", form: "8-K", date: "2026-06-25", description: "ea0295875-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "C3.ai", form: "10-K", date: "2026-06-24", description: "ai-20260430.htm", isIPO: false, ticker: "AI" },
   { company: "AST SpaceMobile", form: "4", date: "2026-06-23", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-06-17", description: "xslF345X06/wk-form4_1781740835.xml", isIPO: false, ticker: "PLTR" },
   { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-8_4seq1.xml", isIPO: false, ticker: "MNTS" },
   { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-7_4seq1.xml", isIPO: false, ticker: "MNTS" },
-  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-6_4seq1.xml", isIPO: false, ticker: "MNTS" },
-  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-5_4seq1.xml", isIPO: false, ticker: "MNTS" },
-  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-4_4seq1.xml", isIPO: false, ticker: "MNTS" },
-  { company: "Momentus", form: "4", date: "2026-06-17", description: "xslF345X06/tm2618211-3_4seq1.xml", isIPO: false, ticker: "MNTS" },
 ];

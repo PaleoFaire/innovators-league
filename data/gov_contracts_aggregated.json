@@ -1,7 +1,7 @@
 [
   {
     "company": "Anduril",
-    "totalGovValue": "$3.4B+",
+    "totalGovValue": "$3.3B+",
     "contractCount": 200,
     "agencies": [
       "Department of Defense",
@@ -40,17 +40,17 @@
         "date": "2025-09-19"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Palantir",
     "totalGovValue": "$4.9B+",
     "contractCount": 200,
     "agencies": [
+      "Department of Transportation",
       "Department of Defense",
-      "Department of Justice",
-      "Department of Veterans Affairs",
-      "Department of the Treasury",
+      "Department of Housing and Urban Development",
+      "Department of Health and Human Services",
       "Department of Agriculture"
     ],
     "recentContracts": [
@@ -85,18 +85,18 @@
         "date": "2026-04-18"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "SpaceX",
     "totalGovValue": "$10.8B+",
     "contractCount": 77,
     "agencies": [
-      "Department of Defense",
-      "Department of Justice",
-      "Department of Veterans Affairs",
       "Department of Transportation",
-      "National Aeronautics and Space Administration"
+      "Department of Defense",
+      "Department of Veterans Affairs",
+      "National Aeronautics and Space Administration",
+      "Department of State"
     ],
     "recentContracts": [
       {
@@ -130,7 +130,7 @@
         "date": "2024-09-11"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Skydio",
@@ -139,8 +139,8 @@
     "agencies": [
       "Department of Defense",
       "Department of Labor",
-      "Department of Justice",
       "Department of Agriculture",
+      "National Aeronautics and Space Administration",
       "Department of State"
     ],
     "recentContracts": [
@@ -175,18 +175,18 @@
         "date": "2026-02-04"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Radiant",
     "totalGovValue": "$45M+",
     "contractCount": 23,
     "agencies": [
-      "Department of Labor",
       "Department of Defense",
-      "Department of the Treasury",
-      "Department of Veterans Affairs",
-      "Department of Agriculture"
+      "Department of Labor",
+      "Department of Health and Human Services",
+      "Department of Agriculture",
+      "Department of the Treasury"
     ],
     "recentContracts": [
       {
@@ -220,7 +220,7 @@
         "date": "2024-09-30"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Rocket Lab",
@@ -262,7 +262,7 @@
         "date": "2025-09-26"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Neros",
@@ -303,17 +303,17 @@
         "date": "2026-01-27"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Planet Labs",
     "totalGovValue": "$38M+",
     "contractCount": 12,
     "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration",
       "Department of the Interior",
-      "Department of Commerce"
+      "Department of Defense",
+      "Department of Commerce",
+      "National Aeronautics and Space Administration"
     ],
     "recentContracts": [
       {
@@ -347,7 +347,7 @@
         "date": "2025-06-17"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Sierra Space",
@@ -389,7 +389,7 @@
         "date": "2025-04-30"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Shield AI",
@@ -431,7 +431,7 @@
         "date": "2025-12-08"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Castelion",
@@ -472,7 +472,7 @@
         "date": "2025-04-05"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Varda Space Industries",
@@ -514,7 +514,7 @@
         "date": "2025-11-25"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Scale AI",
@@ -555,7 +555,7 @@
         "date": "2025-02-24"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Axiom Space",
@@ -597,7 +597,7 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "BlackSky",
@@ -639,7 +639,7 @@
         "date": "2025-08-29"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Ginkgo Bioworks",
@@ -681,7 +681,7 @@
         "date": "2024-09-06"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Impulse Space",
@@ -693,7 +693,7 @@
     ],
     "recentContracts": [
       {
-        "amount": 24273000.0,
+        "amount": 24811900.5,
         "agency": "Department of Defense",
         "description": "IMPULSE SPACE SBIR PHASE III",
         "date": "2024-10-03"
@@ -723,7 +723,7 @@
         "date": "2025-09-22"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Capella Space",
@@ -759,16 +759,16 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Boston Dynamics",
     "totalGovValue": "$1M+",
     "contractCount": 4,
     "agencies": [
+      "Department of Commerce",
       "Department of Defense",
       "Department of Health and Human Services",
-      "Department of Commerce",
       "Department of Homeland Security"
     ],
     "recentContracts": [
@@ -797,7 +797,7 @@
         "date": "2026-04-19"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Second Front Systems",
@@ -826,15 +826,15 @@
         "date": "2024-09-30"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Muon Space",
     "totalGovValue": "$4M+",
     "contractCount": 3,
     "agencies": [
-      "Department of Commerce",
-      "Department of Defense"
+      "Department of Defense",
+      "Department of Commerce"
     ],
     "recentContracts": [
       {
@@ -856,15 +856,15 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Vannevar Labs",
     "totalGovValue": "$13M+",
     "contractCount": 2,
     "agencies": [
-      "Department of Defense",
-      "Department of State"
+      "Department of State",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -880,7 +880,7 @@
         "date": "2025-09-19"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Epirus",
@@ -897,7 +897,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Saronic",
@@ -914,7 +914,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Chaos Industries",
@@ -931,7 +931,7 @@
         "date": "2023-12-18"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Hadrian",
@@ -948,7 +948,7 @@
         "date": "2026-03-17"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Relativity Space",
@@ -965,7 +965,7 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Albedo",
@@ -982,7 +982,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   },
   {
     "company": "Anthropic",
@@ -999,6 +999,6 @@
         "date": "2026-02-11"
       }
     ],
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-27"
   }
 ]
