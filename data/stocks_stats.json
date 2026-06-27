@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -12.42,
+      "avg_change": -12.1,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -14.1,
+      "avg_change": -13.65,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -13.65,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -13.47,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -20.7,
+      "avg_change": -20.6,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.91,
+      "avg_change": -0.74,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.09,
+      "avg_change": -11.55,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.27,
+      "avg_change": 8.64,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -5.25,
+      "avg_change": -5.29,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.18,
+      "avg_change": -5.88,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "LNZA",
       "LanzaTech",
-      13.25
+      18.5
     ],
     [
       "TEM",
       "Tempus AI",
-      9.78
+      10.42
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      8.51
+      8.98
     ],
     [
       "ONT.L",
@@ -81,35 +81,35 @@
     [
       "AUR",
       "Aurora Innovation",
-      -0.08
+      1.27
     ]
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      -22.31
-    ],
-    [
       "RKLB",
       "Rocket Lab",
-      -22.79
+      -21.17
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -23.02
+      -22.33
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -22.83
     ],
     [
       "SATL",
       "Satellogic",
-      -24.71
+      -23.38
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -29.46
+      -29.56
     ]
   ],
-  "lastUpdated": "2026-06-26 19:54:54"
+  "lastUpdated": "2026-06-27 03:47:04"
 }
