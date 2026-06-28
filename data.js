@@ -65597,12 +65597,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-28 00:11
+// Last updated: 2026-06-28 05:24
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Apple Vision Pro exec is reportedly leaving for OpenAI", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Anthropic", headline: "Asian AI startups launch Mythos-like  models as Anthropic's export ban drags on", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "SpaceX", headline: "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "Apple Vision Pro exec is reportedly leaving for OpenAI", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Anthropic", headline: "Asian AI startups launch Mythos-like  models as Anthropic's export ban drags on", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "SpaceX", headline: "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
   { id: 6, type: "news", company: "OpenAI", headline: "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn't be the norm", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "hire", company: "OpenAI", headline: "OpenAI poaches Uber India chief to lead its biggest market outside the US", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
@@ -65611,9 +65611,9 @@ const COMPANY_SIGNALS = [
   { id: 10, type: "news", company: "Anthropic", headline: "It's not about Anthropic vs. OpenAI anymore", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "OpenAI", headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic Thinks Its Own Success Is Key to Making AI Safe", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "OpenAI", headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "2d ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic Thinks Its Own Success Is Key to Making AI Safe", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "SpaceX", headline: "SpaceX StarShip 40 Progressing to a Static Fire", source: "Next Big Future", time: "2d ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
