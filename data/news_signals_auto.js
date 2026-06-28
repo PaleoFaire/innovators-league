@@ -1,8 +1,8 @@
 // Auto-generated news signals
-// Last updated: 2026-06-28T21:11:54.169Z
+// Last updated: 2026-06-28T23:12:46.535Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1782681114169,
+    "id": 1782688366534,
     "type": "news",
     "company": "OpenAI",
     "headline": "Apple Vision Pro exec is reportedly leaving for OpenAI",
@@ -13,7 +13,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/"
   },
   {
-    "id": 1782681114170,
+    "id": 1782688366535,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Asian AI startups launch Mythos-like  models as Anthropic&#8217;s export ban drags on",
@@ -24,7 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"
   },
   {
-    "id": 1782681114171,
+    "id": 1782688366536,
     "type": "funding",
     "company": "SpaceX",
     "headline": "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/"
   },
   {
-    "id": 1782681114172,
+    "id": 1782688366537,
     "type": "news",
     "company": "Anthropic",
     "headline": "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations",
@@ -46,18 +46,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/anthropic-restores-access-to-mythos/"
   },
   {
-    "id": 1782681114173,
+    "id": 1782688366538,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab launches 10th Synspective satellite",
     "source": "SpaceNews",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "medium",
     "unread": true,
     "link": "https://spacenews.com/rocket-lab-launches-10th-synspective-satellite/"
   },
   {
-    "id": 1782681114174,
+    "id": 1782688366539,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/"
   },
   {
-    "id": 1782681114175,
+    "id": 1782688366540,
     "type": "hire",
     "company": "OpenAI",
     "headline": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/"
   },
   {
-    "id": 1782681114176,
+    "id": 1782688366541,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/"
   },
   {
-    "id": 1782681114177,
+    "id": 1782688366542,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Has New AI Models. Here’s Why You Can’t Use Them",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/"
   },
   {
-    "id": 1782681114178,
+    "id": 1782688366543,
     "type": "news",
     "company": "Deterrence",
     "headline": "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/not-imaginary-the-deterrence-gap-is-real-and-america-needs-low-yield-nukes/"
   },
   {
-    "id": 1782681114179,
+    "id": 1782688366545,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/"
   },
   {
-    "id": 1782681114180,
+    "id": 1782688366546,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Launches in Nashville",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/06/25/waymo-launches-in-nashville-2/"
   },
   {
-    "id": 1782681114181,
+    "id": 1782688366547,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX StarShip 40 Progressing to a Static Fire",
@@ -145,40 +145,40 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/06/spacex-starship-40-progressing-to-a-static-fire.html"
   },
   {
-    "id": 1782681114182,
+    "id": 1782688366548,
     "type": "contract",
     "company": "Rocket Lab",
     "headline": "Rocket Lab wins NASA award for three Electron launches",
     "source": "SpaceNews",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "medium",
     "unread": false,
     "link": "https://spacenews.com/rocket-lab-wins-nasa-award-for-three-electron-launches/"
   },
   {
-    "id": 1782681114183,
+    "id": 1782688366549,
     "type": "news",
     "company": "Zoox",
     "headline": "Zoox Introduces Next-Generation Robotaxi",
     "source": "CleanTechnica",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/06/25/zoox-introduces-next-generation-robotaxi/"
   },
   {
-    "id": 1782681114184,
+    "id": 1782688366550,
     "type": "funding",
     "company": "OpenAI",
     "headline": "NY Times Reporting OpenAI May Delay IPO to 2027",
     "source": "Next Big Future",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/06/ny-times-reporting-openai-may-delay-ipo-to-2027.html"
   },
   {
-    "id": 1782681114185,
+    "id": 1782688366551,
     "type": "news",
     "company": "Roboneers",
     "headline": "ARX Robotics and Roboneers form ARX Industries to scale unmanned ground vehicle production",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/06/25/arx-robotics-and-roboneers-form-arx-industries-to-scale-unmanned-ground-vehicle-production/"
   },
   {
-    "id": 1782681114186,
+    "id": 1782688366552,
     "type": "funding",
     "company": "Scale AI",
     "headline": "What it actually takes to scale AI in Europe: ‘The best founders aren’t building for the next funding round’",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/scale-ai-in-europe-brnd/"
   },
   {
-    "id": 1782681114187,
+    "id": 1782688366553,
     "type": "news",
     "company": "ICEYE",
     "headline": "ICEYE to double radar-satellite capacity by late 2027 as demand surges",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/global/europe/2026/06/25/iceye-to-double-radar-satellite-capacity-by-late-2027-as-demand-surges/"
   },
   {
-    "id": 1782681114188,
+    "id": 1782688366554,
     "type": "funding",
     "company": "Waymo",
     "headline": "Waymo Shares Stunning Safety Update",
