@@ -66457,10 +66457,10 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-28 11:53
+// Last updated: 2026-06-28 14:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Apple Vision Pro exec is reportedly leaving for OpenAI", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Anthropic", headline: "Asian AI startups launch Mythos-like  models as Anthropic's export ban drags on", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "Apple Vision Pro exec is reportedly leaving for OpenAI", source: "TechCrunch", time: "21h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Anthropic", headline: "Asian AI startups launch Mythos-like  models as Anthropic's export ban drags on", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "funding", company: "SpaceX", headline: "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
@@ -66470,7 +66470,7 @@ const COMPANY_SIGNALS = [
   { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Has New AI Models. Here's Why You Can't Use Them", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Anthropic", headline: "It's not about Anthropic vs. OpenAI anymore", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
   { id: 13, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "2d ago", impact: "medium", unread: false },
   { id: 14, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins NASA award for three Electron launches", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
   { id: 15, type: "news", company: "Zoox", headline: "Zoox Introduces Next-Generation Robotaxi", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
