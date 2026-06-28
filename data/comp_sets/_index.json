@@ -1,131 +1,186 @@
 {
-  "generatedAt": "2026-06-21T12:29:41+00:00",
-  "totalCompanies": 938,
+  "generatedAt": "2026-06-28T11:42:57+00:00",
+  "totalCompanies": 947,
   "byCompany": {
+    "plantd-materials": {
+      "name": "Plantd Materials",
+      "file": "comp_sets/plantd-materials.json",
+      "size": 1618
+    },
+    "critical-loop": {
+      "name": "Critical Loop",
+      "file": "comp_sets/critical-loop.json",
+      "size": 4328
+    },
+    "critical-energy": {
+      "name": "Critical Energy",
+      "file": "comp_sets/critical-energy.json",
+      "size": 4282
+    },
+    "farcast": {
+      "name": "Farcast",
+      "file": "comp_sets/farcast.json",
+      "size": 5674
+    },
+    "1872": {
+      "name": "1872",
+      "file": "comp_sets/1872.json",
+      "size": 4075
+    },
+    "applied-atomics": {
+      "name": "Applied Atomics",
+      "file": "comp_sets/applied-atomics.json",
+      "size": 4560
+    },
+    "electric-era": {
+      "name": "Electric Era",
+      "file": "comp_sets/electric-era.json",
+      "size": 4321
+    },
+    "tobe-energy": {
+      "name": "Tobe Energy",
+      "file": "comp_sets/tobe-energy.json",
+      "size": 4281
+    },
+    "the-red-metal-company": {
+      "name": "The Red Metal Company",
+      "file": "comp_sets/the-red-metal-company.json",
+      "size": 4292
+    },
+    "resolute-grid": {
+      "name": "Resolute Grid",
+      "file": "comp_sets/resolute-grid.json",
+      "size": 3904
+    },
+    "standard-electron": {
+      "name": "Standard Electron",
+      "file": "comp_sets/standard-electron.json",
+      "size": 3570
+    },
     "aventra": {
       "name": "Aventra",
       "file": "comp_sets/aventra.json",
-      "size": 6395
+      "size": 4867
     },
     "auriga-space": {
       "name": "Auriga Space",
       "file": "comp_sets/auriga-space.json",
-      "size": 6999
+      "size": 5682
     },
     "radical-ai": {
       "name": "Radical AI",
       "file": "comp_sets/radical-ai.json",
-      "size": 5987
+      "size": 4379
     },
     "slate-auto": {
       "name": "Slate Auto",
       "file": "comp_sets/slate-auto.json",
-      "size": 5299
+      "size": 3849
     },
     "phaidra": {
       "name": "Phaidra",
       "file": "comp_sets/phaidra.json",
-      "size": 5843
+      "size": 4476
     },
     "chai-discovery": {
       "name": "Chai Discovery",
       "file": "comp_sets/chai-discovery.json",
-      "size": 6733
+      "size": 5405
     },
     "impossible-metals": {
       "name": "Impossible Metals",
       "file": "comp_sets/impossible-metals.json",
-      "size": 5978
+      "size": 4507
     },
     "sphere-semi": {
       "name": "Sphere Semi",
       "file": "comp_sets/sphere-semi.json",
-      "size": 6787
+      "size": 5185
     },
     "core-automation": {
       "name": "Core Automation",
       "file": "comp_sets/core-automation.json",
-      "size": 5011
+      "size": 3465
     },
     "beyond-reach-labs": {
       "name": "Beyond Reach Labs",
       "file": "comp_sets/beyond-reach-labs.json",
-      "size": 6805
+      "size": 5405
     },
     "teradar": {
       "name": "Teradar",
       "file": "comp_sets/teradar.json",
-      "size": 6104
+      "size": 4743
     },
     "lux-aeterna": {
       "name": "Lux Aeterna",
       "file": "comp_sets/lux-aeterna.json",
-      "size": 6918
+      "size": 5441
     },
     "reditus-space": {
       "name": "Reditus Space",
       "file": "comp_sets/reditus-space.json",
-      "size": 6992
+      "size": 5543
     },
     "monarch-quantum": {
       "name": "Monarch Quantum",
       "file": "comp_sets/monarch-quantum.json",
-      "size": 5997
+      "size": 4391
     },
     "spaceium": {
       "name": "Spaceium",
       "file": "comp_sets/spaceium.json",
-      "size": 7054
+      "size": 5590
     },
     "blackstar": {
       "name": "Blackstar",
       "file": "comp_sets/blackstar.json",
-      "size": 5514
+      "size": 4031
     },
     "besxar-space-industries": {
       "name": "Besxar Space Industries",
       "file": "comp_sets/besxar-space-industries.json",
-      "size": 6597
+      "size": 5058
     },
     "smack-technologies": {
       "name": "Smack Technologies",
       "file": "comp_sets/smack-technologies.json",
-      "size": 6147
+      "size": 4686
     },
     "twenty": {
       "name": "Twenty",
       "file": "comp_sets/twenty.json",
-      "size": 6187
+      "size": 4623
     },
     "edgerunner-ai": {
       "name": "EdgeRunner AI",
       "file": "comp_sets/edgerunner-ai.json",
-      "size": 6076
+      "size": 4627
     },
     "dominion-dynamics": {
       "name": "Dominion Dynamics",
       "file": "comp_sets/dominion-dynamics.json",
-      "size": 6146
+      "size": 4746
     },
     "peak-quantum": {
       "name": "Peak Quantum",
       "file": "comp_sets/peak-quantum.json",
-      "size": 1328
+      "size": 1324
     },
     "diraq": {
       "name": "Diraq",
       "file": "comp_sets/diraq.json",
-      "size": 3086
+      "size": 1721
     },
     "pave-space": {
       "name": "PAVE Space",
       "file": "comp_sets/pave-space.json",
-      "size": 6947
+      "size": 5505
     },
     "phoenix-tailings": {
       "name": "Phoenix Tailings",
       "file": "comp_sets/phoenix-tailings.json",
-      "size": 2493
+      "size": 1062
     },
     "hyperscale-power": {
       "name": "Hyperscale Power",
@@ -135,822 +190,822 @@
     "atana-elements": {
       "name": "Atana Elements",
       "file": "comp_sets/atana-elements.json",
-      "size": 3267
+      "size": 1775
     },
     "anduril-industries": {
       "name": "Anduril Industries",
       "file": "comp_sets/anduril-industries.json",
-      "size": 5391
+      "size": 3883
     },
     "shield-ai": {
       "name": "Shield AI",
       "file": "comp_sets/shield-ai.json",
-      "size": 5962
+      "size": 4593
     },
     "epirus": {
       "name": "Epirus",
       "file": "comp_sets/epirus.json",
-      "size": 5920
+      "size": 4571
     },
     "saronic": {
       "name": "Saronic",
       "file": "comp_sets/saronic.json",
-      "size": 6097
+      "size": 4589
     },
     "neros": {
       "name": "Neros",
       "file": "comp_sets/neros.json",
-      "size": 6145
+      "size": 4722
     },
     "chaos-industries": {
       "name": "Chaos Industries",
       "file": "comp_sets/chaos-industries.json",
-      "size": 6032
+      "size": 4577
     },
     "castelion": {
       "name": "Castelion",
       "file": "comp_sets/castelion.json",
-      "size": 6113
+      "size": 4730
     },
     "cx2-industries": {
       "name": "CX2 Industries",
       "file": "comp_sets/cx2-industries.json",
-      "size": 6143
+      "size": 4657
     },
     "picogrid": {
       "name": "Picogrid",
       "file": "comp_sets/picogrid.json",
-      "size": 6051
+      "size": 4666
     },
     "skydio": {
       "name": "Skydio",
       "file": "comp_sets/skydio.json",
-      "size": 5967
+      "size": 4707
     },
     "allen-control-systems": {
       "name": "Allen Control Systems",
       "file": "comp_sets/allen-control-systems.json",
-      "size": 6086
+      "size": 4720
     },
     "mach-industries": {
       "name": "Mach Industries",
       "file": "comp_sets/mach-industries.json",
-      "size": 6124
+      "size": 4687
     },
     "andrenam": {
       "name": "Andrenam",
       "file": "comp_sets/andrenam.json",
-      "size": 5938
+      "size": 4665
     },
     "vannevar-labs": {
       "name": "Vannevar Labs",
       "file": "comp_sets/vannevar-labs.json",
-      "size": 6056
+      "size": 4725
     },
     "blue-water-autonomy": {
       "name": "Blue Water Autonomy",
       "file": "comp_sets/blue-water-autonomy.json",
-      "size": 6084
+      "size": 4689
     },
     "valar-atomics": {
       "name": "Valar Atomics",
       "file": "comp_sets/valar-atomics.json",
-      "size": 6035
+      "size": 4643
     },
     "radiant": {
       "name": "Radiant",
       "file": "comp_sets/radiant.json",
-      "size": 6040
+      "size": 4637
     },
     "aalo-atomics": {
       "name": "Aalo Atomics",
       "file": "comp_sets/aalo-atomics.json",
-      "size": 6085
+      "size": 4639
     },
     "antares": {
       "name": "Antares",
       "file": "comp_sets/antares.json",
-      "size": 6010
+      "size": 4650
     },
     "general-matter": {
       "name": "General Matter",
       "file": "comp_sets/general-matter.json",
-      "size": 5928
+      "size": 4623
     },
     "kairos-power": {
       "name": "Kairos Power",
       "file": "comp_sets/kairos-power.json",
-      "size": 5969
+      "size": 4639
     },
     "x-energy": {
       "name": "X-Energy",
       "file": "comp_sets/x-energy.json",
-      "size": 6032
+      "size": 4590
     },
     "oklo": {
       "name": "Oklo",
       "file": "comp_sets/oklo.json",
-      "size": 5629
+      "size": 4089
     },
     "last-energy": {
       "name": "Last Energy",
       "file": "comp_sets/last-energy.json",
-      "size": 5974
+      "size": 4618
     },
     "deep-fission": {
       "name": "Deep Fission",
       "file": "comp_sets/deep-fission.json",
-      "size": 5825
+      "size": 4125
     },
     "terrapower": {
       "name": "TerraPower",
       "file": "comp_sets/terrapower.json",
-      "size": 6098
+      "size": 4670
     },
     "standard-nuclear": {
       "name": "Standard Nuclear",
       "file": "comp_sets/standard-nuclear.json",
-      "size": 5954
+      "size": 4619
     },
     "the-nuclear-company": {
       "name": "The Nuclear Company",
       "file": "comp_sets/the-nuclear-company.json",
-      "size": 6197
+      "size": 4654
     },
     "exodys-energy": {
       "name": "Exodys Energy",
       "file": "comp_sets/exodys-energy.json",
-      "size": 5964
+      "size": 4590
     },
     "spacex": {
       "name": "SpaceX",
       "file": "comp_sets/spacex.json",
-      "size": 6449
+      "size": 4895
     },
     "rocket-lab": {
       "name": "Rocket Lab",
       "file": "comp_sets/rocket-lab.json",
-      "size": 6687
+      "size": 5302
     },
     "apex-space": {
       "name": "Apex Space",
       "file": "comp_sets/apex-space.json",
-      "size": 7249
+      "size": 5816
     },
     "varda-space-industries": {
       "name": "Varda Space Industries",
       "file": "comp_sets/varda-space-industries.json",
-      "size": 7165
+      "size": 5788
     },
     "astroforge": {
       "name": "AstroForge",
       "file": "comp_sets/astroforge.json",
-      "size": 7154
+      "size": 5768
     },
     "reflect-orbital": {
       "name": "Reflect Orbital",
       "file": "comp_sets/reflect-orbital.json",
-      "size": 7101
+      "size": 5749
     },
     "relativity-space": {
       "name": "Relativity Space",
       "file": "comp_sets/relativity-space.json",
-      "size": 6955
+      "size": 5457
     },
     "impulse-space": {
       "name": "Impulse Space",
       "file": "comp_sets/impulse-space.json",
-      "size": 6837
+      "size": 5430
     },
     "k2-space": {
       "name": "K2 Space",
       "file": "comp_sets/k2-space.json",
-      "size": 7346
+      "size": 5870
     },
     "vast": {
       "name": "Vast",
       "file": "comp_sets/vast.json",
-      "size": 7084
+      "size": 5766
     },
     "northwood-space": {
       "name": "Northwood Space",
       "file": "comp_sets/northwood-space.json",
-      "size": 7142
+      "size": 5706
     },
     "astranis": {
       "name": "Astranis",
       "file": "comp_sets/astranis.json",
-      "size": 7309
+      "size": 5809
     },
     "viridian-space": {
       "name": "Viridian Space",
       "file": "comp_sets/viridian-space.json",
-      "size": 6963
+      "size": 5425
     },
     "observable-space": {
       "name": "Observable Space",
       "file": "comp_sets/observable-space.json",
-      "size": 7195
+      "size": 5748
     },
     "firefly-aerospace": {
       "name": "Firefly Aerospace",
       "file": "comp_sets/firefly-aerospace.json",
-      "size": 6669
+      "size": 5308
     },
     "intuitive-machines": {
       "name": "Intuitive Machines",
       "file": "comp_sets/intuitive-machines.json",
-      "size": 6407
+      "size": 4971
     },
     "boom-supersonic": {
       "name": "Boom Supersonic",
       "file": "comp_sets/boom-supersonic.json",
-      "size": 3721
+      "size": 2361
     },
     "hermeus": {
       "name": "Hermeus",
       "file": "comp_sets/hermeus.json",
-      "size": 3854
+      "size": 2375
     },
     "astro-mechanica": {
       "name": "Astro Mechanica",
       "file": "comp_sets/astro-mechanica.json",
-      "size": 4280
+      "size": 2664
     },
     "venus-aerospace": {
       "name": "Venus Aerospace",
       "file": "comp_sets/venus-aerospace.json",
-      "size": 4182
+      "size": 2648
     },
     "physical-intelligence": {
       "name": "Physical Intelligence",
       "file": "comp_sets/physical-intelligence.json",
-      "size": 5784
+      "size": 4327
     },
     "waymo": {
       "name": "Waymo",
       "file": "comp_sets/waymo.json",
-      "size": 5279
+      "size": 3818
     },
     "figure-ai": {
       "name": "Figure AI",
       "file": "comp_sets/figure-ai.json",
-      "size": 5778
+      "size": 4261
     },
     "neuralink": {
       "name": "Neuralink",
       "file": "comp_sets/neuralink.json",
-      "size": 5334
+      "size": 4069
     },
     "field-ai": {
       "name": "Field AI",
       "file": "comp_sets/field-ai.json",
-      "size": 5315
+      "size": 3940
     },
     "nominal": {
       "name": "Nominal",
       "file": "comp_sets/nominal.json",
-      "size": 5340
+      "size": 3950
     },
     "palantir": {
       "name": "Palantir",
       "file": "comp_sets/palantir.json",
-      "size": 4963
+      "size": 4248
     },
     "cognition": {
       "name": "Cognition",
       "file": "comp_sets/cognition.json",
-      "size": 5784
+      "size": 4367
     },
     "hadrian": {
       "name": "Hadrian",
       "file": "comp_sets/hadrian.json",
-      "size": 5928
+      "size": 4525
     },
     "machina-labs": {
       "name": "Machina Labs",
       "file": "comp_sets/machina-labs.json",
-      "size": 6061
+      "size": 4663
     },
     "dirac": {
       "name": "DIRAC",
       "file": "comp_sets/dirac.json",
-      "size": 5446
+      "size": 4126
     },
     "formic": {
       "name": "Formic",
       "file": "comp_sets/formic.json",
-      "size": 5897
+      "size": 4546
     },
     "rangeview": {
       "name": "Rangeview",
       "file": "comp_sets/rangeview.json",
-      "size": 5698
+      "size": 4158
     },
     "senra-systems": {
       "name": "Senra Systems",
       "file": "comp_sets/senra-systems.json",
-      "size": 5907
+      "size": 4563
     },
     "salient-motion": {
       "name": "Salient Motion",
       "file": "comp_sets/salient-motion.json",
-      "size": 5892
+      "size": 4545
     },
     "divergent": {
       "name": "Divergent",
       "file": "comp_sets/divergent.json",
-      "size": 5890
+      "size": 4536
     },
     "amca": {
       "name": "Amca",
       "file": "comp_sets/amca.json",
-      "size": 5935
+      "size": 4544
     },
     "altos-labs": {
       "name": "Altos Labs",
       "file": "comp_sets/altos-labs.json",
-      "size": 6360
+      "size": 4902
     },
     "retro-biosciences": {
       "name": "Retro Biosciences",
       "file": "comp_sets/retro-biosciences.json",
-      "size": 6592
+      "size": 5240
     },
     "new-limit": {
       "name": "New Limit",
       "file": "comp_sets/new-limit.json",
-      "size": 6427
+      "size": 5168
     },
     "atom-bodies": {
       "name": "Atom Bodies",
       "file": "comp_sets/atom-bodies.json",
-      "size": 6654
+      "size": 5232
     },
     "mammoth-biosciences": {
       "name": "Mammoth Biosciences",
       "file": "comp_sets/mammoth-biosciences.json",
-      "size": 6623
+      "size": 5245
     },
     "nucleus-genomics": {
       "name": "Nucleus Genomics",
       "file": "comp_sets/nucleus-genomics.json",
-      "size": 6629
+      "size": 5185
     },
     "orchid": {
       "name": "Orchid",
       "file": "comp_sets/orchid.json",
-      "size": 6639
+      "size": 5168
     },
     "herasight": {
       "name": "Herasight",
       "file": "comp_sets/herasight.json",
-      "size": 6160
+      "size": 4849
     },
     "terraform-industries": {
       "name": "Terraform Industries",
       "file": "comp_sets/terraform-industries.json",
-      "size": 5744
+      "size": 4381
     },
     "commonwealth-fusion-systems": {
       "name": "Commonwealth Fusion Systems",
       "file": "comp_sets/commonwealth-fusion-systems.json",
-      "size": 5543
+      "size": 4140
     },
     "fervo-energy": {
       "name": "Fervo Energy",
       "file": "comp_sets/fervo-energy.json",
-      "size": 5201
+      "size": 3661
     },
     "xcimer-energy": {
       "name": "Xcimer Energy",
       "file": "comp_sets/xcimer-energy.json",
-      "size": 5918
+      "size": 4440
     },
     "helion": {
       "name": "Helion",
       "file": "comp_sets/helion.json",
-      "size": 5905
+      "size": 4526
     },
     "tae-technologies": {
       "name": "TAE Technologies",
       "file": "comp_sets/tae-technologies.json",
-      "size": 5747
+      "size": 4405
     },
     "mazama": {
       "name": "Mazama",
       "file": "comp_sets/mazama.json",
-      "size": 5823
+      "size": 4396
     },
     "quaise-energy": {
       "name": "Quaise Energy",
       "file": "comp_sets/quaise-energy.json",
-      "size": 5804
+      "size": 4419
     },
     "captura": {
       "name": "Captura",
       "file": "comp_sets/captura.json",
-      "size": 5814
+      "size": 4366
     },
     "base-power": {
       "name": "Base Power",
       "file": "comp_sets/base-power.json",
-      "size": 5544
+      "size": 4390
     },
     "karman-industries": {
       "name": "Karman Industries",
       "file": "comp_sets/karman-industries.json",
-      "size": 5840
+      "size": 4342
     },
     "claros": {
       "name": "Claros",
       "file": "comp_sets/claros.json",
-      "size": 5688
+      "size": 4322
     },
     "zipline": {
       "name": "Zipline",
       "file": "comp_sets/zipline.json",
-      "size": 4220
+      "size": 2900
     },
     "joby-aviation": {
       "name": "Joby Aviation",
       "file": "comp_sets/joby-aviation.json",
-      "size": 4480
+      "size": 3049
     },
     "rainmaker": {
       "name": "Rainmaker",
       "file": "comp_sets/rainmaker.json",
-      "size": 5244
+      "size": 3716
     },
     "airship-industries": {
       "name": "Airship Industries",
       "file": "comp_sets/airship-industries.json",
-      "size": 4458
+      "size": 2966
     },
     "cerebras": {
       "name": "Cerebras",
       "file": "comp_sets/cerebras.json",
-      "size": 6255
+      "size": 4961
     },
     "etched": {
       "name": "Etched",
       "file": "comp_sets/etched.json",
-      "size": 6699
+      "size": 5265
     },
     "extropic": {
       "name": "Extropic",
       "file": "comp_sets/extropic.json",
-      "size": 6672
+      "size": 5269
     },
     "lightmatter": {
       "name": "Lightmatter",
       "file": "comp_sets/lightmatter.json",
-      "size": 6774
+      "size": 5446
     },
     "substrate": {
       "name": "Substrate",
       "file": "comp_sets/substrate.json",
-      "size": 6827
+      "size": 5388
     },
     "lab-91": {
       "name": "Lab 91",
       "file": "comp_sets/lab-91.json",
-      "size": 6494
+      "size": 5008
     },
     "cuby-technologies": {
       "name": "Cuby Technologies",
       "file": "comp_sets/cuby-technologies.json",
-      "size": 3508
+      "size": 2074
     },
     "cover": {
       "name": "Cover",
       "file": "comp_sets/cover.json",
-      "size": 3560
+      "size": 2071
     },
     "the-boring-company": {
       "name": "The Boring Company",
       "file": "comp_sets/the-boring-company.json",
-      "size": 4127
+      "size": 2604
     },
     "pipedream": {
       "name": "Pipedream",
       "file": "comp_sets/pipedream.json",
-      "size": 5211
+      "size": 3730
     },
     "navier": {
       "name": "Navier",
       "file": "comp_sets/navier.json",
-      "size": 4270
+      "size": 2846
     },
     "arc-boats": {
       "name": "Arc Boats",
       "file": "comp_sets/arc-boats.json",
-      "size": 5163
+      "size": 3682
     },
     "matic-robotics": {
       "name": "Matic Robotics",
       "file": "comp_sets/matic-robotics.json",
-      "size": 2628
+      "size": 1343
     },
     "shinkei": {
       "name": "Shinkei",
       "file": "comp_sets/shinkei.json",
-      "size": 6023
+      "size": 4546
     },
     "vital-lyfe": {
       "name": "Vital Lyfe",
       "file": "comp_sets/vital-lyfe.json",
-      "size": 5651
+      "size": 4327
     },
     "forterra": {
       "name": "Forterra",
       "file": "comp_sets/forterra.json",
-      "size": 6042
+      "size": 4673
     },
     "auterion": {
       "name": "Auterion",
       "file": "comp_sets/auterion.json",
-      "size": 6068
+      "size": 4687
     },
     "firehawk-aerospace": {
       "name": "Firehawk Aerospace",
       "file": "comp_sets/firehawk-aerospace.json",
-      "size": 6006
+      "size": 4652
     },
     "reveal-technology": {
       "name": "Reveal Technology",
       "file": "comp_sets/reveal-technology.json",
-      "size": 6033
+      "size": 4655
     },
     "galvanick": {
       "name": "Galvanick",
       "file": "comp_sets/galvanick.json",
-      "size": 6133
+      "size": 4716
     },
     "skysafe": {
       "name": "SkySafe",
       "file": "comp_sets/skysafe.json",
-      "size": 6043
+      "size": 4662
     },
     "distributed-spectrum": {
       "name": "Distributed Spectrum",
       "file": "comp_sets/distributed-spectrum.json",
-      "size": 6119
+      "size": 4702
     },
     "aurelius-systems": {
       "name": "Aurelius Systems",
       "file": "comp_sets/aurelius-systems.json",
-      "size": 6201
+      "size": 4692
     },
     "darkhive": {
       "name": "Darkhive",
       "file": "comp_sets/darkhive.json",
-      "size": 6066
+      "size": 4631
     },
     "deterrence": {
       "name": "Deterrence",
       "file": "comp_sets/deterrence.json",
-      "size": 6109
+      "size": 4688
     },
     "deepnight": {
       "name": "Deepnight",
       "file": "comp_sets/deepnight.json",
-      "size": 6122
+      "size": 4663
     },
     "zeromark": {
       "name": "Zeromark",
       "file": "comp_sets/zeromark.json",
-      "size": 6097
+      "size": 4655
     },
     "rune-technologies": {
       "name": "Rune Technologies",
       "file": "comp_sets/rune-technologies.json",
-      "size": 6043
+      "size": 4670
     },
     "biofire": {
       "name": "Biofire",
       "file": "comp_sets/biofire.json",
-      "size": 6136
+      "size": 4633
     },
     "firestorm-labs": {
       "name": "Firestorm Labs",
       "file": "comp_sets/firestorm-labs.json",
-      "size": 5891
+      "size": 4643
     },
     "aalyria": {
       "name": "Aalyria",
       "file": "comp_sets/aalyria.json",
-      "size": 7165
+      "size": 5833
     },
     "anysignal": {
       "name": "AnySignal",
       "file": "comp_sets/anysignal.json",
-      "size": 7257
+      "size": 5752
     },
     "turion-space": {
       "name": "Turion Space",
       "file": "comp_sets/turion-space.json",
-      "size": 7070
+      "size": 5714
     },
     "umbra": {
       "name": "Umbra",
       "file": "comp_sets/umbra.json",
-      "size": 7096
+      "size": 5691
     },
     "albedo": {
       "name": "Albedo",
       "file": "comp_sets/albedo.json",
-      "size": 7205
+      "size": 5704
     },
     "blue-origin": {
       "name": "Blue Origin",
       "file": "comp_sets/blue-origin.json",
-      "size": 6797
+      "size": 5372
     },
     "axiom-space": {
       "name": "Axiom Space",
       "file": "comp_sets/axiom-space.json",
-      "size": 7206
+      "size": 5809
     },
     "astrolab": {
       "name": "Astrolab",
       "file": "comp_sets/astrolab.json",
-      "size": 7201
+      "size": 5721
     },
     "array-labs": {
       "name": "Array Labs",
       "file": "comp_sets/array-labs.json",
-      "size": 7179
+      "size": 5742
     },
     "armada": {
       "name": "Armada",
       "file": "comp_sets/armada.json",
-      "size": 7107
+      "size": 5684
     },
     "cowboy-space-corporation": {
       "name": "Cowboy Space Corporation",
       "file": "comp_sets/cowboy-space-corporation.json",
-      "size": 7362
+      "size": 5834
     },
     "applied-intuition": {
       "name": "Applied Intuition",
       "file": "comp_sets/applied-intuition.json",
-      "size": 5735
+      "size": 4315
     },
     "agility-robotics": {
       "name": "Agility Robotics",
       "file": "comp_sets/agility-robotics.json",
-      "size": 5962
+      "size": 4486
     },
     "apptronik": {
       "name": "Apptronik",
       "file": "comp_sets/apptronik.json",
-      "size": 5920
+      "size": 4570
     },
     "bright-machines": {
       "name": "Bright Machines",
       "file": "comp_sets/bright-machines.json",
-      "size": 5975
+      "size": 4564
     },
     "atomic-industries": {
       "name": "Atomic Industries",
       "file": "comp_sets/atomic-industries.json",
-      "size": 6029
+      "size": 4581
     },
     "re-build-manufacturing": {
       "name": "Re:Build Manufacturing",
       "file": "comp_sets/re-build-manufacturing.json",
-      "size": 6007
+      "size": 4614
     },
     "amp-robotics": {
       "name": "AMP Robotics",
       "file": "comp_sets/amp-robotics.json",
-      "size": 5966
+      "size": 4549
     },
     "diode": {
       "name": "Diode",
       "file": "comp_sets/diode.json",
-      "size": 5509
+      "size": 4144
     },
     "quilter": {
       "name": "Quilter",
       "file": "comp_sets/quilter.json",
-      "size": 6014
+      "size": 4537
     },
     "science-corporation": {
       "name": "Science Corporation",
       "file": "comp_sets/science-corporation.json",
-      "size": 6764
+      "size": 5281
     },
     "andromeda-surgical": {
       "name": "Andromeda Surgical",
       "file": "comp_sets/andromeda-surgical.json",
-      "size": 6384
+      "size": 4887
     },
     "solugen": {
       "name": "Solugen",
       "file": "comp_sets/solugen.json",
-      "size": 5780
+      "size": 4452
     },
     "exowatt": {
       "name": "Exowatt",
       "file": "comp_sets/exowatt.json",
-      "size": 5751
+      "size": 4379
     },
     "antora-energy": {
       "name": "Antora Energy",
       "file": "comp_sets/antora-energy.json",
-      "size": 5801
+      "size": 4487
     },
     "form-energy": {
       "name": "Form Energy",
       "file": "comp_sets/form-energy.json",
-      "size": 5892
+      "size": 4450
     },
     "brimstone": {
       "name": "Brimstone",
       "file": "comp_sets/brimstone.json",
-      "size": 5724
+      "size": 4386
     },
     "boston-metal": {
       "name": "Boston Metal",
       "file": "comp_sets/boston-metal.json",
-      "size": 5762
+      "size": 4396
     },
     "avalanche-energy": {
       "name": "Avalanche Energy",
       "file": "comp_sets/avalanche-energy.json",
-      "size": 5731
+      "size": 4392
     },
     "bedrock-energy": {
       "name": "Bedrock Energy",
       "file": "comp_sets/bedrock-energy.json",
-      "size": 5726
+      "size": 4399
     },
     "arbor-energy": {
       "name": "Arbor Energy",
       "file": "comp_sets/arbor-energy.json",
-      "size": 5676
+      "size": 4375
     },
     "endurance-energy": {
       "name": "Endurance Energy",
       "file": "comp_sets/endurance-energy.json",
-      "size": 5212
+      "size": 3619
     },
     "aepnus-technology": {
       "name": "Aepnus Technology",
       "file": "comp_sets/aepnus-technology.json",
-      "size": 5740
+      "size": 4337
     },
     "manna-aero": {
       "name": "Manna Aero",
       "file": "comp_sets/manna-aero.json",
-      "size": 5230
+      "size": 3801
     },
     "asylon-robotics": {
       "name": "Asylon Robotics",
       "file": "comp_sets/asylon-robotics.json",
-      "size": 5228
+      "size": 3820
     },
     "atom-computing": {
       "name": "Atom Computing",
       "file": "comp_sets/atom-computing.json",
-      "size": 6726
+      "size": 5342
     },
     "atomic-semi": {
       "name": "Atomic Semi",
       "file": "comp_sets/atomic-semi.json",
-      "size": 6327
+      "size": 4991
     },
     "atomic-machines": {
       "name": "Atomic Machines",
       "file": "comp_sets/atomic-machines.json",
-      "size": 6674
+      "size": 5273
     },
     "bedrock-ocean": {
       "name": "Bedrock Ocean",
       "file": "comp_sets/bedrock-ocean.json",
-      "size": 3036
+      "size": 1253
     },
     "standard-subsea": {
       "name": "Standard Subsea",
       "file": "comp_sets/standard-subsea.json",
-      "size": 3146
+      "size": 1767
     },
     "clippership": {
       "name": "Clippership",
       "file": "comp_sets/clippership.json",
-      "size": 3226
+      "size": 1785
     },
     "amperon": {
       "name": "Amperon",
       "file": "comp_sets/amperon.json",
-      "size": 3066
+      "size": 1731
     },
     "durin": {
       "name": "Durin",
       "file": "comp_sets/durin.json",
-      "size": 3492
+      "size": 2069
     },
     "watoga-technologies": {
       "name": "Watoga Technologies",
@@ -960,327 +1015,327 @@
     "daylight-computer": {
       "name": "Daylight Computer",
       "file": "comp_sets/daylight-computer.json",
-      "size": 2732
+      "size": 1308
     },
     "helsing": {
       "name": "Helsing",
       "file": "comp_sets/helsing.json",
-      "size": 6070
+      "size": 4678
     },
     "saildrone": {
       "name": "Saildrone",
       "file": "comp_sets/saildrone.json",
-      "size": 5936
+      "size": 4639
     },
     "overland-ai": {
       "name": "Overland AI",
       "file": "comp_sets/overland-ai.json",
-      "size": 6008
+      "size": 4666
     },
     "second-front-systems": {
       "name": "Second Front Systems",
       "file": "comp_sets/second-front-systems.json",
-      "size": 6213
+      "size": 4705
     },
     "primer-ai": {
       "name": "Primer AI",
       "file": "comp_sets/primer-ai.json",
-      "size": 6018
+      "size": 4632
     },
     "true-anomaly": {
       "name": "True Anomaly",
       "file": "comp_sets/true-anomaly.json",
-      "size": 5639
+      "size": 4364
     },
     "kodiak-ai": {
       "name": "Kodiak AI",
       "file": "comp_sets/kodiak-ai.json",
-      "size": 6035
+      "size": 4702
     },
     "theseus": {
       "name": "Theseus",
       "file": "comp_sets/theseus.json",
-      "size": 6289
+      "size": 4789
     },
     "mara": {
       "name": "Mara",
       "file": "comp_sets/mara.json",
-      "size": 5808
+      "size": 4341
     },
     "flock-safety": {
       "name": "Flock Safety",
       "file": "comp_sets/flock-safety.json",
-      "size": 5980
+      "size": 4589
     },
     "icarus": {
       "name": "Icarus",
       "file": "comp_sets/icarus.json",
-      "size": 5932
+      "size": 4492
     },
     "pilgrim": {
       "name": "PILGRIM",
       "file": "comp_sets/pilgrim.json",
-      "size": 6089
+      "size": 4645
     },
     "nuscale-power": {
       "name": "NuScale Power",
       "file": "comp_sets/nuscale-power.json",
-      "size": 5819
+      "size": 4131
     },
     "zap-energy": {
       "name": "Zap Energy",
       "file": "comp_sets/zap-energy.json",
-      "size": 6411
+      "size": 4997
     },
     "type-one-energy": {
       "name": "Type One Energy",
       "file": "comp_sets/type-one-energy.json",
-      "size": 6124
+      "size": 4642
     },
     "focused-energy": {
       "name": "Focused Energy",
       "file": "comp_sets/focused-energy.json",
-      "size": 6070
+      "size": 4622
     },
     "nano-nuclear-energy": {
       "name": "Nano Nuclear Energy",
       "file": "comp_sets/nano-nuclear-energy.json",
-      "size": 5872
+      "size": 4515
     },
     "pacific-fusion": {
       "name": "Pacific Fusion",
       "file": "comp_sets/pacific-fusion.json",
-      "size": 6011
+      "size": 4629
     },
     "fuse-energy": {
       "name": "Fuse Energy",
       "file": "comp_sets/fuse-energy.json",
-      "size": 6092
+      "size": 4610
     },
     "stoke-space": {
       "name": "Stoke Space",
       "file": "comp_sets/stoke-space.json",
-      "size": 7102
+      "size": 5816
     },
     "muon-space": {
       "name": "Muon Space",
       "file": "comp_sets/muon-space.json",
-      "size": 7127
+      "size": 5740
     },
     "planet-labs": {
       "name": "Planet Labs",
       "file": "comp_sets/planet-labs.json",
-      "size": 6532
+      "size": 5348
     },
     "astroscale": {
       "name": "Astroscale",
       "file": "comp_sets/astroscale.json",
-      "size": 6626
+      "size": 5313
     },
     "outpost-space": {
       "name": "Outpost Space",
       "file": "comp_sets/outpost-space.json",
-      "size": 6922
+      "size": 5412
     },
     "longshot-space": {
       "name": "Longshot Space",
       "file": "comp_sets/longshot-space.json",
-      "size": 6803
+      "size": 5425
     },
     "proteus-space": {
       "name": "Proteus Space",
       "file": "comp_sets/proteus-space.json",
-      "size": 7335
+      "size": 5922
     },
     "ursa-major-technologies": {
       "name": "Ursa Major Technologies",
       "file": "comp_sets/ursa-major-technologies.json",
-      "size": 7104
+      "size": 5731
     },
     "ast-spacemobile": {
       "name": "AST SpaceMobile",
       "file": "comp_sets/ast-spacemobile.json",
-      "size": 6827
+      "size": 5397
     },
     "destinus": {
       "name": "Destinus",
       "file": "comp_sets/destinus.json",
-      "size": 6037
+      "size": 4692
     },
     "dynamo-air": {
       "name": "Dynamo Air",
       "file": "comp_sets/dynamo-air.json",
-      "size": 6547
+      "size": 4975
     },
     "skild-ai": {
       "name": "Skild AI",
       "file": "comp_sets/skild-ai.json",
-      "size": 5679
+      "size": 4281
     },
     "crusoe-energy": {
       "name": "Crusoe Energy",
       "file": "comp_sets/crusoe-energy.json",
-      "size": 5591
+      "size": 4210
     },
     "gecko-robotics": {
       "name": "Gecko Robotics",
       "file": "comp_sets/gecko-robotics.json",
-      "size": 5835
+      "size": 4467
     },
     "terranova": {
       "name": "Terranova",
       "file": "comp_sets/terranova.json",
-      "size": 5525
+      "size": 4125
     },
     "carbon-robotics": {
       "name": "Carbon Robotics",
       "file": "comp_sets/carbon-robotics.json",
-      "size": 5980
+      "size": 4551
     },
     "terran-robotics": {
       "name": "Terran Robotics",
       "file": "comp_sets/terran-robotics.json",
-      "size": 5723
+      "size": 4148
     },
     "recursion-pharmaceuticals": {
       "name": "Recursion Pharmaceuticals",
       "file": "comp_sets/recursion-pharmaceuticals.json",
-      "size": 6237
+      "size": 4852
     },
     "insitro": {
       "name": "Insitro",
       "file": "comp_sets/insitro.json",
-      "size": 6468
+      "size": 5138
     },
     "eikon-therapeutics": {
       "name": "Eikon Therapeutics",
       "file": "comp_sets/eikon-therapeutics.json",
-      "size": 6610
+      "size": 5175
     },
     "colossal-biosciences": {
       "name": "Colossal Biosciences",
       "file": "comp_sets/colossal-biosciences.json",
-      "size": 6488
+      "size": 5148
     },
     "medra": {
       "name": "Medra",
       "file": "comp_sets/medra.json",
-      "size": 6705
+      "size": 5165
     },
     "abridge": {
       "name": "Abridge",
       "file": "comp_sets/abridge.json",
-      "size": 6577
+      "size": 5197
     },
     "heirloom-carbon": {
       "name": "Heirloom Carbon",
       "file": "comp_sets/heirloom-carbon.json",
-      "size": 5856
+      "size": 4479
     },
     "twelve": {
       "name": "Twelve",
       "file": "comp_sets/twelve.json",
-      "size": 5758
+      "size": 4402
     },
     "kobold-metals": {
       "name": "KoBold Metals",
       "file": "comp_sets/kobold-metals.json",
-      "size": 6025
+      "size": 4544
     },
     "sublime-systems": {
       "name": "Sublime Systems",
       "file": "comp_sets/sublime-systems.json",
-      "size": 5798
+      "size": 4484
     },
     "redwood-materials": {
       "name": "Redwood Materials",
       "file": "comp_sets/redwood-materials.json",
-      "size": 5856
+      "size": 4355
     },
     "charm-industrial": {
       "name": "Charm Industrial",
       "file": "comp_sets/charm-industrial.json",
-      "size": 5963
+      "size": 4481
     },
     "impulse-labs": {
       "name": "Impulse Labs",
       "file": "comp_sets/impulse-labs.json",
-      "size": 5788
+      "size": 4363
     },
     "mariana-minerals": {
       "name": "Mariana Minerals",
       "file": "comp_sets/mariana-minerals.json",
-      "size": 5682
+      "size": 4387
     },
     "nuro": {
       "name": "Nuro",
       "file": "comp_sets/nuro.json",
-      "size": 4076
+      "size": 2872
     },
     "archer-aviation": {
       "name": "Archer Aviation",
       "file": "comp_sets/archer-aviation.json",
-      "size": 4521
+      "size": 3065
     },
     "psiquantum": {
       "name": "PsiQuantum",
       "file": "comp_sets/psiquantum.json",
-      "size": 6387
+      "size": 5059
     },
     "astera-labs": {
       "name": "Astera Labs",
       "file": "comp_sets/astera-labs.json",
-      "size": 6427
+      "size": 5019
     },
     "zettascale": {
       "name": "Zettascale",
       "file": "comp_sets/zettascale.json",
-      "size": 6542
+      "size": 5155
     },
     "d-matrix": {
       "name": "d-Matrix",
       "file": "comp_sets/d-matrix.json",
-      "size": 6688
+      "size": 5370
     },
     "inversion-space": {
       "name": "Inversion Space",
       "file": "comp_sets/inversion-space.json",
-      "size": 3719
+      "size": 2286
     },
     "lumina-vehicles": {
       "name": "Lumina Vehicles",
       "file": "comp_sets/lumina-vehicles.json",
-      "size": 6088
+      "size": 4631
     },
     "fleetzero": {
       "name": "FleetZero",
       "file": "comp_sets/fleetzero.json",
-      "size": 5357
+      "size": 3728
     },
     "whisper-aero": {
       "name": "Whisper Aero",
       "file": "comp_sets/whisper-aero.json",
-      "size": 7034
+      "size": 5733
     },
     "ionq": {
       "name": "IonQ",
       "file": "comp_sets/ionq.json",
-      "size": 5881
+      "size": 4522
     },
     "rigetti-computing": {
       "name": "Rigetti Computing",
       "file": "comp_sets/rigetti-computing.json",
-      "size": 5753
+      "size": 4506
     },
     "quera-computing": {
       "name": "QuEra Computing",
       "file": "comp_sets/quera-computing.json",
-      "size": 6059
+      "size": 4609
     },
     "networkocean": {
       "name": "NetworkOcean",
       "file": "comp_sets/networkocean.json",
-      "size": 3286
+      "size": 1848
     },
     "thalassa-robotics": {
       "name": "Thalassa Robotics",
@@ -1290,547 +1345,547 @@
     "fortastra": {
       "name": "Fortastra",
       "file": "comp_sets/fortastra.json",
-      "size": 7274
+      "size": 5853
     },
     "earth-ai": {
       "name": "Earth AI",
       "file": "comp_sets/earth-ai.json",
-      "size": 3156
+      "size": 1747
     },
     "wardstone": {
       "name": "Wardstone",
       "file": "comp_sets/wardstone.json",
-      "size": 6874
+      "size": 5427
     },
     "tokamak-energy": {
       "name": "Tokamak Energy",
       "file": "comp_sets/tokamak-energy.json",
-      "size": 6155
+      "size": 4620
     },
     "first-light-fusion": {
       "name": "First Light Fusion",
       "file": "comp_sets/first-light-fusion.json",
-      "size": 6034
+      "size": 4622
     },
     "newcleo": {
       "name": "Newcleo",
       "file": "comp_sets/newcleo.json",
-      "size": 6086
+      "size": 4643
     },
     "wayve": {
       "name": "Wayve",
       "file": "comp_sets/wayve.json",
-      "size": 5686
+      "size": 4310
     },
     "vertical-aerospace": {
       "name": "Vertical Aerospace",
       "file": "comp_sets/vertical-aerospace.json",
-      "size": 4231
+      "size": 2417
     },
     "oxford-nanopore-technologies": {
       "name": "Oxford Nanopore Technologies",
       "file": "comp_sets/oxford-nanopore-technologies.json",
-      "size": 6162
+      "size": 4753
     },
     "oxford-quantum-circuits": {
       "name": "Oxford Quantum Circuits",
       "file": "comp_sets/oxford-quantum-circuits.json",
-      "size": 5894
+      "size": 4518
     },
     "orbital-marine-power": {
       "name": "Orbital Marine Power",
       "file": "comp_sets/orbital-marine-power.json",
-      "size": 2664
+      "size": 1285
     },
     "zeroavia": {
       "name": "ZeroAvia",
       "file": "comp_sets/zeroavia.json",
-      "size": 5165
+      "size": 3704
     },
     "space-forge": {
       "name": "Space Forge",
       "file": "comp_sets/space-forge.json",
-      "size": 7118
+      "size": 5739
     },
     "isar-aerospace": {
       "name": "Isar Aerospace",
       "file": "comp_sets/isar-aerospace.json",
-      "size": 7151
+      "size": 5821
     },
     "quantum-systems": {
       "name": "Quantum-Systems",
       "file": "comp_sets/quantum-systems.json",
-      "size": 6119
+      "size": 4724
     },
     "proxima-fusion": {
       "name": "Proxima Fusion",
       "file": "comp_sets/proxima-fusion.json",
-      "size": 5639
+      "size": 4168
     },
     "marvel-fusion": {
       "name": "Marvel Fusion",
       "file": "comp_sets/marvel-fusion.json",
-      "size": 6028
+      "size": 4622
     },
     "rocket-factory-augsburg": {
       "name": "Rocket Factory Augsburg",
       "file": "comp_sets/rocket-factory-augsburg.json",
-      "size": 7195
+      "size": 5730
     },
     "black-semiconductor": {
       "name": "Black Semiconductor",
       "file": "comp_sets/black-semiconductor.json",
-      "size": 6367
+      "size": 4921
     },
     "sunfire": {
       "name": "Sunfire",
       "file": "comp_sets/sunfire.json",
-      "size": 5610
+      "size": 4173
     },
     "planqc": {
       "name": "planqc",
       "file": "comp_sets/planqc.json",
-      "size": 6039
+      "size": 4534
     },
     "pasqal": {
       "name": "Pasqal",
       "file": "comp_sets/pasqal.json",
-      "size": 5563
+      "size": 4064
     },
     "exotec": {
       "name": "Exotec",
       "file": "comp_sets/exotec.json",
-      "size": 5685
+      "size": 4373
     },
     "renaissance-fusion": {
       "name": "Renaissance Fusion",
       "file": "comp_sets/renaissance-fusion.json",
-      "size": 6126
+      "size": 4630
     },
     "verkor": {
       "name": "Verkor",
       "file": "comp_sets/verkor.json",
-      "size": 5485
+      "size": 4082
     },
     "dna-script": {
       "name": "DNA Script",
       "file": "comp_sets/dna-script.json",
-      "size": 6685
+      "size": 5214
     },
     "alice-bob": {
       "name": "Alice & Bob",
       "file": "comp_sets/alice-bob.json",
-      "size": 6136
+      "size": 4546
     },
     "latitude": {
       "name": "Latitude",
       "file": "comp_sets/latitude.json",
-      "size": 6756
+      "size": 5355
     },
     "einride": {
       "name": "Einride",
       "file": "comp_sets/einride.json",
-      "size": 3958
+      "size": 2405
     },
     "neko-health": {
       "name": "Neko Health",
       "file": "comp_sets/neko-health.json",
-      "size": 6506
+      "size": 5150
     },
     "iceye": {
       "name": "ICEYE",
       "file": "comp_sets/iceye.json",
-      "size": 7085
+      "size": 5648
     },
     "iqm-quantum-computers": {
       "name": "IQM Quantum Computers",
       "file": "comp_sets/iqm-quantum-computers.json",
-      "size": 5464
+      "size": 4054
     },
     "solar-foods": {
       "name": "Solar Foods",
       "file": "comp_sets/solar-foods.json",
-      "size": 6125
+      "size": 4786
     },
     "climeworks": {
       "name": "Climeworks",
       "file": "comp_sets/climeworks.json",
-      "size": 5774
+      "size": 4386
     },
     "anybotics": {
       "name": "ANYbotics",
       "file": "comp_sets/anybotics.json",
-      "size": 6057
+      "size": 4699
     },
     "synhelion": {
       "name": "Synhelion",
       "file": "comp_sets/synhelion.json",
-      "size": 5684
+      "size": 4373
     },
     "saltfoss-energy": {
       "name": "Saltfoss Energy",
       "file": "comp_sets/saltfoss-energy.json",
-      "size": 6027
+      "size": 4604
     },
     "copenhagen-atomics": {
       "name": "Copenhagen Atomics",
       "file": "comp_sets/copenhagen-atomics.json",
-      "size": 5926
+      "size": 4668
     },
     "t1-energy-formerly-freyr-battery": {
       "name": "T1 Energy (formerly FREYR Battery)",
       "file": "comp_sets/t1-energy-formerly-freyr-battery.json",
-      "size": 5171
+      "size": 3703
     },
     "quantware": {
       "name": "QuantWare",
       "file": "comp_sets/quantware.json",
-      "size": 6041
+      "size": 4543
     },
     "pld-space": {
       "name": "PLD Space",
       "file": "comp_sets/pld-space.json",
-      "size": 6452
+      "size": 4989
     },
     "d-orbit": {
       "name": "D-Orbit",
       "file": "comp_sets/d-orbit.json",
-      "size": 7183
+      "size": 5873
     },
     "skeleton-technologies": {
       "name": "Skeleton Technologies",
       "file": "comp_sets/skeleton-technologies.json",
-      "size": 5291
+      "size": 3683
     },
     "quantum-machines": {
       "name": "Quantum Machines",
       "file": "comp_sets/quantum-machines.json",
-      "size": 5829
+      "size": 4541
     },
     "xtend": {
       "name": "Xtend",
       "file": "comp_sets/xtend.json",
-      "size": 6112
+      "size": 4665
     },
     "percepto": {
       "name": "Percepto",
       "file": "comp_sets/percepto.json",
-      "size": 4661
+      "size": 3241
     },
     "ramon-space": {
       "name": "Ramon.Space",
       "file": "comp_sets/ramon-space.json",
-      "size": 7250
+      "size": 5714
     },
     "wiliot": {
       "name": "Wiliot",
       "file": "comp_sets/wiliot.json",
-      "size": 6859
+      "size": 5402
     },
     "tevel-aerobotics": {
       "name": "Tevel Aerobotics",
       "file": "comp_sets/tevel-aerobotics.json",
-      "size": 5198
+      "size": 3788
     },
     "ispace": {
       "name": "ispace",
       "file": "comp_sets/ispace.json",
-      "size": 6844
+      "size": 5385
     },
     "kyoto-fusioneering": {
       "name": "Kyoto Fusioneering",
       "file": "comp_sets/kyoto-fusioneering.json",
-      "size": 6053
+      "size": 4604
     },
     "gitai": {
       "name": "GITAI",
       "file": "comp_sets/gitai.json",
-      "size": 5856
+      "size": 4531
     },
     "mujin": {
       "name": "Mujin",
       "file": "comp_sets/mujin.json",
-      "size": 5949
+      "size": 4542
     },
     "rapidus": {
       "name": "Rapidus",
       "file": "comp_sets/rapidus.json",
-      "size": 6456
+      "size": 5031
     },
     "innospace": {
       "name": "Innospace",
       "file": "comp_sets/innospace.json",
-      "size": 6742
+      "size": 5386
     },
     "skyroot-aerospace": {
       "name": "Skyroot Aerospace",
       "file": "comp_sets/skyroot-aerospace.json",
-      "size": 7326
+      "size": 5899
     },
     "agnikul-cosmos": {
       "name": "Agnikul Cosmos",
       "file": "comp_sets/agnikul-cosmos.json",
-      "size": 6973
+      "size": 5747
     },
     "pixxel": {
       "name": "Pixxel",
       "file": "comp_sets/pixxel.json",
-      "size": 7196
+      "size": 5689
     },
     "ideaforge": {
       "name": "ideaForge",
       "file": "comp_sets/ideaforge.json",
-      "size": 4226
+      "size": 2748
     },
     "xanadu-quantum-technologies": {
       "name": "Xanadu Quantum Technologies",
       "file": "comp_sets/xanadu-quantum-technologies.json",
-      "size": 6085
+      "size": 4624
     },
     "terrestrial-energy": {
       "name": "Terrestrial Energy",
       "file": "comp_sets/terrestrial-energy.json",
-      "size": 5660
+      "size": 4117
     },
     "tenstorrent": {
       "name": "Tenstorrent",
       "file": "comp_sets/tenstorrent.json",
-      "size": 6526
+      "size": 5253
     },
     "carboncure-technologies": {
       "name": "CarbonCure Technologies",
       "file": "comp_sets/carboncure-technologies.json",
-      "size": 5842
+      "size": 4390
     },
     "fleet-space-technologies": {
       "name": "Fleet Space Technologies",
       "file": "comp_sets/fleet-space-technologies.json",
-      "size": 7393
+      "size": 5907
     },
     "quantum-brilliance": {
       "name": "Quantum Brilliance",
       "file": "comp_sets/quantum-brilliance.json",
-      "size": 5977
+      "size": 4530
     },
     "droneshield": {
       "name": "DroneShield",
       "file": "comp_sets/droneshield.json",
-      "size": 5345
+      "size": 3834
     },
     "sundrive-solar": {
       "name": "SunDrive Solar",
       "file": "comp_sets/sundrive-solar.json",
-      "size": 5755
+      "size": 4359
     },
     "silicon-box": {
       "name": "Silicon Box",
       "file": "comp_sets/silicon-box.json",
-      "size": 6653
+      "size": 5360
     },
     "satellogic": {
       "name": "Satellogic",
       "file": "comp_sets/satellogic.json",
-      "size": 6834
+      "size": 5412
     },
     "dawn-aerospace": {
       "name": "Dawn Aerospace",
       "file": "comp_sets/dawn-aerospace.json",
-      "size": 7139
+      "size": 5738
     },
     "dragonfly-aerospace": {
       "name": "Dragonfly Aerospace",
       "file": "comp_sets/dragonfly-aerospace.json",
-      "size": 7033
+      "size": 5456
     },
     "solinftec": {
       "name": "Solinftec",
       "file": "comp_sets/solinftec.json",
-      "size": 6257
+      "size": 4827
     },
     "neura-robotics": {
       "name": "Neura Robotics",
       "file": "comp_sets/neura-robotics.json",
-      "size": 5950
+      "size": 4555
     },
     "tekever": {
       "name": "Tekever",
       "file": "comp_sets/tekever.json",
-      "size": 4642
+      "size": 3229
     },
     "dronamics": {
       "name": "Dronamics",
       "file": "comp_sets/dronamics.json",
-      "size": 5143
+      "size": 3736
     },
     "monumental": {
       "name": "Monumental",
       "file": "comp_sets/monumental.json",
-      "size": 5987
+      "size": 4560
     },
     "robco": {
       "name": "RobCo",
       "file": "comp_sets/robco.json",
-      "size": 6000
+      "size": 4568
     },
     "deep-isolation": {
       "name": "Deep Isolation",
       "file": "comp_sets/deep-isolation.json",
-      "size": 6019
+      "size": 4626
     },
     "grain-weevil": {
       "name": "Grain Weevil",
       "file": "comp_sets/grain-weevil.json",
-      "size": 5563
+      "size": 4138
     },
     "na-o-technologies": {
       "name": "Na\u00efo Technologies",
       "file": "comp_sets/na-o-technologies.json",
-      "size": 5608
+      "size": 4229
     },
     "delian-alliance-industries": {
       "name": "Delian Alliance Industries",
       "file": "comp_sets/delian-alliance-industries.json",
-      "size": 6212
+      "size": 4737
     },
     "cobod": {
       "name": "Cobod",
       "file": "comp_sets/cobod.json",
-      "size": 3858
+      "size": 2263
     },
     "prusa-research": {
       "name": "Prusa Research",
       "file": "comp_sets/prusa-research.json",
-      "size": 5312
+      "size": 3666
     },
     "deep-atomic": {
       "name": "Deep Atomic",
       "file": "comp_sets/deep-atomic.json",
-      "size": 5553
+      "size": 4066
     },
     "rhoman-aerospace": {
       "name": "Rhoman Aerospace",
       "file": "comp_sets/rhoman-aerospace.json",
-      "size": 4333
+      "size": 2981
     },
     "long-wall": {
       "name": "Long Wall",
       "file": "comp_sets/long-wall.json",
-      "size": 6146
+      "size": 4651
     },
     "bedrock-robotics": {
       "name": "Bedrock Robotics",
       "file": "comp_sets/bedrock-robotics.json",
-      "size": 6133
+      "size": 4693
     },
     "graymatter-robotics": {
       "name": "GrayMatter Robotics",
       "file": "comp_sets/graymatter-robotics.json",
-      "size": 6162
+      "size": 4677
     },
     "orbital-composites": {
       "name": "Orbital Composites",
       "file": "comp_sets/orbital-composites.json",
-      "size": 5560
+      "size": 4160
     },
     "multiply-labs": {
       "name": "Multiply Labs",
       "file": "comp_sets/multiply-labs.json",
-      "size": 6717
+      "size": 5201
     },
     "aidash": {
       "name": "AiDash",
       "file": "comp_sets/aidash.json",
-      "size": 2449
+      "size": 1014
     },
     "pano-ai": {
       "name": "Pano AI",
       "file": "comp_sets/pano-ai.json",
-      "size": 5756
+      "size": 4430
     },
     "collaborative-robotics": {
       "name": "Collaborative Robotics",
       "file": "comp_sets/collaborative-robotics.json",
-      "size": 6071
+      "size": 4651
     },
     "orangewood-labs": {
       "name": "Orangewood Labs",
       "file": "comp_sets/orangewood-labs.json",
-      "size": 6006
+      "size": 4575
     },
     "trilobio": {
       "name": "Trilobio",
       "file": "comp_sets/trilobio.json",
-      "size": 6358
+      "size": 4869
     },
     "starpath-robotics": {
       "name": "Starpath Robotics",
       "file": "comp_sets/starpath-robotics.json",
-      "size": 6958
+      "size": 5758
     },
     "droneforge": {
       "name": "DroneForge",
       "file": "comp_sets/droneforge.json",
-      "size": 4305
+      "size": 2905
     },
     "built-robotics": {
       "name": "Built Robotics",
       "file": "comp_sets/built-robotics.json",
-      "size": 5968
+      "size": 4563
     },
     "chef-robotics": {
       "name": "Chef Robotics",
       "file": "comp_sets/chef-robotics.json",
-      "size": 6040
+      "size": 4572
     },
     "dexterity": {
       "name": "Dexterity",
       "file": "comp_sets/dexterity.json",
-      "size": 6170
+      "size": 4734
     },
     "floodbase": {
       "name": "Floodbase",
       "file": "comp_sets/floodbase.json",
-      "size": 5748
+      "size": 4376
     },
     "harbinger": {
       "name": "Harbinger",
       "file": "comp_sets/harbinger.json",
-      "size": 5279
+      "size": 3702
     },
     "leolabs": {
       "name": "LeoLabs",
       "file": "comp_sets/leolabs.json",
-      "size": 7154
+      "size": 5695
     },
     "liminal-insights": {
       "name": "Liminal Insights",
       "file": "comp_sets/liminal-insights.json",
-      "size": 5850
+      "size": 4395
     },
     "locus-robotics": {
       "name": "Locus Robotics",
       "file": "comp_sets/locus-robotics.json",
-      "size": 5828
+      "size": 4537
     },
     "lumafield": {
       "name": "Lumafield",
       "file": "comp_sets/lumafield.json",
-      "size": 4557
+      "size": 4577
     },
     "modern-intelligence": {
       "name": "Modern Intelligence",
       "file": "comp_sets/modern-intelligence.json",
-      "size": 4671
+      "size": 4700
     },
     "osaro": {
       "name": "Osaro",
       "file": "comp_sets/osaro.json",
-      "size": 4672
+      "size": 4673
     },
     "outrider": {
       "name": "Outrider",
       "file": "comp_sets/outrider.json",
-      "size": 4438
+      "size": 4439
     },
     "parallel-systems": {
       "name": "Parallel Systems",
@@ -1850,12 +1905,12 @@
     "slingshot-aerospace": {
       "name": "Slingshot Aerospace",
       "file": "comp_sets/slingshot-aerospace.json",
-      "size": 5781
+      "size": 5779
     },
     "swarm-aero": {
       "name": "Swarm Aero",
       "file": "comp_sets/swarm-aero.json",
-      "size": 4687
+      "size": 4688
     },
     "weavegrid": {
       "name": "WeaveGrid",
@@ -1875,57 +1930,57 @@
     "d-wave-quantum": {
       "name": "D-Wave Quantum",
       "file": "comp_sets/d-wave-quantum.json",
-      "size": 4562
+      "size": 4558
     },
     "photonic-inc": {
       "name": "Photonic Inc",
       "file": "comp_sets/photonic-inc.json",
-      "size": 4238
+      "size": 4234
     },
     "nord-quantique": {
       "name": "Nord Quantique",
       "file": "comp_sets/nord-quantique.json",
-      "size": 4045
+      "size": 4041
     },
     "kepler-communications": {
       "name": "Kepler Communications",
       "file": "comp_sets/kepler-communications.json",
-      "size": 5932
+      "size": 5930
     },
     "ghgsat": {
       "name": "GHGSat",
       "file": "comp_sets/ghgsat.json",
-      "size": 5401
+      "size": 5399
     },
     "reaction-dynamics": {
       "name": "Reaction Dynamics",
       "file": "comp_sets/reaction-dynamics.json",
-      "size": 5372
+      "size": 5370
     },
     "kinova-robotics": {
       "name": "Kinova Robotics",
       "file": "comp_sets/kinova-robotics.json",
-      "size": 4184
+      "size": 4185
     },
     "arc-clean-technology": {
       "name": "ARC Clean Technology",
       "file": "comp_sets/arc-clean-technology.json",
-      "size": 4621
+      "size": 4622
     },
     "kela": {
       "name": "Kela",
       "file": "comp_sets/kela.json",
-      "size": 4672
+      "size": 4673
     },
     "endurosat": {
       "name": "Endurosat",
       "file": "comp_sets/endurosat.json",
-      "size": 5864
+      "size": 5862
     },
     "skyryse": {
       "name": "Skyryse",
       "file": "comp_sets/skyryse.json",
-      "size": 5772
+      "size": 5770
     },
     "dusty-robotics": {
       "name": "Dusty Robotics",
@@ -1955,7 +2010,7 @@
     "egenesis": {
       "name": "eGenesis",
       "file": "comp_sets/egenesis.json",
-      "size": 5225
+      "size": 5223
     },
     "osmo": {
       "name": "Osmo",
@@ -1965,62 +2020,62 @@
     "vivodyne": {
       "name": "Vivodyne",
       "file": "comp_sets/vivodyne.json",
-      "size": 5189
+      "size": 5187
     },
     "cellares": {
       "name": "Cellares",
       "file": "comp_sets/cellares.json",
-      "size": 5222
+      "size": 5220
     },
     "labgenius": {
       "name": "LabGenius",
       "file": "comp_sets/labgenius.json",
-      "size": 4838
+      "size": 4836
     },
     "mission-barns": {
       "name": "Mission Barns",
       "file": "comp_sets/mission-barns.json",
-      "size": 5281
+      "size": 5279
     },
     "cresilon": {
       "name": "Cresilon",
       "file": "comp_sets/cresilon.json",
-      "size": 5264
+      "size": 5262
     },
     "flyby-robotics": {
       "name": "FlyBy Robotics",
       "file": "comp_sets/flyby-robotics.json",
-      "size": 4671
+      "size": 4672
     },
     "ulysses-robotics": {
       "name": "Ulysses Robotics",
       "file": "comp_sets/ulysses-robotics.json",
-      "size": 4598
+      "size": 4599
     },
     "poseidon-aerospace": {
       "name": "Poseidon Aerospace",
       "file": "comp_sets/poseidon-aerospace.json",
-      "size": 5447
+      "size": 5445
     },
     "swift-beat": {
       "name": "Swift Beat",
       "file": "comp_sets/swift-beat.json",
-      "size": 4637
+      "size": 4638
     },
     "parry-labs": {
       "name": "Parry Labs",
       "file": "comp_sets/parry-labs.json",
-      "size": 4684
+      "size": 4686
     },
     "fortem-technologies": {
       "name": "Fortem Technologies",
       "file": "comp_sets/fortem-technologies.json",
-      "size": 4721
+      "size": 4722
     },
     "hexium": {
       "name": "Hexium",
       "file": "comp_sets/hexium.json",
-      "size": 4573
+      "size": 4574
     },
     "general-galactic": {
       "name": "General Galactic",
@@ -2030,12 +2085,12 @@
     "ares-industries": {
       "name": "Ares Industries",
       "file": "comp_sets/ares-industries.json",
-      "size": 4566
+      "size": 4567
     },
     "starcloud": {
       "name": "Starcloud",
       "file": "comp_sets/starcloud.json",
-      "size": 5438
+      "size": 5436
     },
     "steady-energy": {
       "name": "Steady Energy",
@@ -2050,12 +2105,12 @@
     "graphyte": {
       "name": "Graphyte",
       "file": "comp_sets/graphyte.json",
-      "size": 4509
+      "size": 4513
     },
     "zeta-surgical": {
       "name": "Zeta Surgical",
       "file": "comp_sets/zeta-surgical.json",
-      "size": 4870
+      "size": 4868
     },
     "electric-hydrogen": {
       "name": "Electric Hydrogen",
@@ -2065,17 +2120,17 @@
     "tenna-systems": {
       "name": "Tenna Systems",
       "file": "comp_sets/tenna-systems.json",
-      "size": 4620
+      "size": 4621
     },
     "vatn-systems": {
       "name": "Vatn Systems",
       "file": "comp_sets/vatn-systems.json",
-      "size": 4583
+      "size": 4584
     },
     "hubble-network": {
       "name": "Hubble Network",
       "file": "comp_sets/hubble-network.json",
-      "size": 5850
+      "size": 5848
     },
     "sage-geosystems": {
       "name": "Sage Geosystems",
@@ -2090,42 +2145,42 @@
     "asimov": {
       "name": "Asimov",
       "file": "comp_sets/asimov.json",
-      "size": 5181
+      "size": 5179
     },
     "cemvita": {
       "name": "Cemvita",
       "file": "comp_sets/cemvita.json",
-      "size": 4420
+      "size": 4433
     },
     "q-ctrl": {
       "name": "Q-CTRL",
       "file": "comp_sets/q-ctrl.json",
-      "size": 4488
+      "size": 4484
     },
     "hidden-level": {
       "name": "Hidden Level",
       "file": "comp_sets/hidden-level.json",
-      "size": 4697
+      "size": 4698
     },
     "clearspace": {
       "name": "ClearSpace",
       "file": "comp_sets/clearspace.json",
-      "size": 5634
+      "size": 5632
     },
     "profluent": {
       "name": "Profluent",
       "file": "comp_sets/profluent.json",
-      "size": 5135
+      "size": 5133
     },
     "fairmat": {
       "name": "Fairmat",
       "file": "comp_sets/fairmat.json",
-      "size": 4654
+      "size": 4655
     },
     "infleqtion": {
       "name": "Infleqtion",
       "file": "comp_sets/infleqtion.json",
-      "size": 4527
+      "size": 4507
     },
     "elroy-air": {
       "name": "Elroy Air",
@@ -2140,12 +2195,12 @@
     "skyrora": {
       "name": "Skyrora",
       "file": "comp_sets/skyrora.json",
-      "size": 5434
+      "size": 5432
     },
     "quantinuum": {
       "name": "Quantinuum",
       "file": "comp_sets/quantinuum.json",
-      "size": 4150
+      "size": 4146
     },
     "core-power": {
       "name": "CORE POWER",
@@ -2155,12 +2210,12 @@
     "wandelbots": {
       "name": "Wandelbots",
       "file": "comp_sets/wandelbots.json",
-      "size": 4172
+      "size": 4173
     },
     "alixlabs": {
       "name": "AlixLabs",
       "file": "comp_sets/alixlabs.json",
-      "size": 4921
+      "size": 4920
     },
     "openstar": {
       "name": "OpenStar",
@@ -2170,17 +2225,17 @@
     "qilimanjaro": {
       "name": "Qilimanjaro",
       "file": "comp_sets/qilimanjaro.json",
-      "size": 4577
+      "size": 4573
     },
     "quix-quantum": {
       "name": "QuiX Quantum",
       "file": "comp_sets/quix-quantum.json",
-      "size": 4001
+      "size": 4012
     },
     "semiqon": {
       "name": "SemiQon",
       "file": "comp_sets/semiqon.json",
-      "size": 4004
+      "size": 4033
     },
     "regent-craft": {
       "name": "REGENT Craft",
@@ -2190,92 +2245,92 @@
     "archer-materials": {
       "name": "Archer Materials",
       "file": "comp_sets/archer-materials.json",
-      "size": 4522
+      "size": 4518
     },
     "deepx": {
       "name": "DEEPX",
       "file": "comp_sets/deepx.json",
-      "size": 5355
+      "size": 5354
     },
     "piersight": {
       "name": "PierSight",
       "file": "comp_sets/piersight.json",
-      "size": 5400
+      "size": 5412
     },
     "axial-composites": {
       "name": "Axial Composites",
       "file": "comp_sets/axial-composites.json",
-      "size": 4137
+      "size": 4151
     },
     "layup-parts": {
       "name": "Layup Parts",
       "file": "comp_sets/layup-parts.json",
-      "size": 4143
+      "size": 4144
     },
     "nox-metals": {
       "name": "Nox Metals",
       "file": "comp_sets/nox-metals.json",
-      "size": 4140
+      "size": 4141
     },
     "duranium": {
       "name": "Duranium",
       "file": "comp_sets/duranium.json",
-      "size": 4104
+      "size": 4128
     },
     "macrofab": {
       "name": "MacroFab",
       "file": "comp_sets/macrofab.json",
-      "size": 4537
+      "size": 4538
     },
     "finwave-semiconductor": {
       "name": "Finwave Semiconductor",
       "file": "comp_sets/finwave-semiconductor.json",
-      "size": 5268
+      "size": 5275
     },
     "osh-cut": {
       "name": "OSH Cut",
       "file": "comp_sets/osh-cut.json",
-      "size": 3640
+      "size": 3660
     },
     "rmfg": {
       "name": "RMFG",
       "file": "comp_sets/rmfg.json",
-      "size": 4125
+      "size": 4126
     },
     "emelody": {
       "name": "Emelody",
       "file": "comp_sets/emelody.json",
-      "size": 4137
+      "size": 4138
     },
     "hlabs": {
       "name": "HLabs",
       "file": "comp_sets/hlabs.json",
-      "size": 4130
+      "size": 4131
     },
     "rise-robotics": {
       "name": "RISE Robotics",
       "file": "comp_sets/rise-robotics.json",
-      "size": 4561
+      "size": 4562
     },
     "artimus-robotics": {
       "name": "Artimus Robotics",
       "file": "comp_sets/artimus-robotics.json",
-      "size": 4197
+      "size": 4198
     },
     "corvex-systems": {
       "name": "Corvex Systems",
       "file": "comp_sets/corvex-systems.json",
-      "size": 4142
+      "size": 4143
     },
     "foundry-lab": {
       "name": "Foundry Lab",
       "file": "comp_sets/foundry-lab.json",
-      "size": 4541
+      "size": 4542
     },
     "aestus-industries": {
       "name": "Aestus Industries",
       "file": "comp_sets/aestus-industries.json",
-      "size": 4554
+      "size": 4555
     },
     "ouros-energy": {
       "name": "Ouros Energy",
@@ -2295,77 +2350,77 @@
     "freeform": {
       "name": "Freeform",
       "file": "comp_sets/freeform.json",
-      "size": 4666
+      "size": 4667
     },
     "vuecason": {
       "name": "Vuecason",
       "file": "comp_sets/vuecason.json",
-      "size": 4117
+      "size": 4118
     },
     "radian-forge": {
       "name": "Radian Forge",
       "file": "comp_sets/radian-forge.json",
-      "size": 4122
+      "size": 4123
     },
     "seurat-technologies": {
       "name": "Seurat Technologies",
       "file": "comp_sets/seurat-technologies.json",
-      "size": 4560
+      "size": 4561
     },
     "vulcanforms": {
       "name": "VulcanForms",
       "file": "comp_sets/vulcanforms.json",
-      "size": 4166
+      "size": 4184
     },
     "lumotive": {
       "name": "Lumotive",
       "file": "comp_sets/lumotive.json",
-      "size": 5324
+      "size": 5323
     },
     "ouster": {
       "name": "Ouster",
       "file": "comp_sets/ouster.json",
-      "size": 4892
+      "size": 4891
     },
     "aeva-technologies": {
       "name": "Aeva Technologies",
       "file": "comp_sets/aeva-technologies.json",
-      "size": 4897
+      "size": 4907
     },
     "voyant-photonics": {
       "name": "Voyant Photonics",
       "file": "comp_sets/voyant-photonics.json",
-      "size": 5269
+      "size": 5268
     },
     "standard-bots": {
       "name": "Standard Bots",
       "file": "comp_sets/standard-bots.json",
-      "size": 4686
+      "size": 4687
     },
     "path-robotics": {
       "name": "Path Robotics",
       "file": "comp_sets/path-robotics.json",
-      "size": 4468
+      "size": 4469
     },
     "cohesive-robotics": {
       "name": "Cohesive Robotics",
       "file": "comp_sets/cohesive-robotics.json",
-      "size": 4153
+      "size": 4154
     },
     "ultra-robotics": {
       "name": "Ultra Robotics",
       "file": "comp_sets/ultra-robotics.json",
-      "size": 4127
+      "size": 4183
     },
     "gallox-semiconductors": {
       "name": "Gallox Semiconductors",
       "file": "comp_sets/gallox-semiconductors.json",
-      "size": 5024
+      "size": 5023
     },
     "vertical-semiconductor": {
       "name": "Vertical Semiconductor",
       "file": "comp_sets/vertical-semiconductor.json",
-      "size": 5045
+      "size": 5044
     },
     "maverickx": {
       "name": "MaverickX",
@@ -2375,62 +2430,62 @@
     "first-resonance": {
       "name": "First Resonance",
       "file": "comp_sets/first-resonance.json",
-      "size": 4550
+      "size": 4551
     },
     "krevera": {
       "name": "Krevera",
       "file": "comp_sets/krevera.json",
-      "size": 4142
+      "size": 4143
     },
     "photonium": {
       "name": "Photonium",
       "file": "comp_sets/photonium.json",
-      "size": 4998
+      "size": 4997
     },
     "mbodi-ai": {
       "name": "Mbodi AI",
       "file": "comp_sets/mbodi-ai.json",
-      "size": 4147
+      "size": 4148
     },
     "drafter": {
       "name": "Drafter",
       "file": "comp_sets/drafter.json",
-      "size": 4126
+      "size": 4127
     },
     "obsidia-semiconductor": {
       "name": "OBSIDIA Semiconductor",
       "file": "comp_sets/obsidia-semiconductor.json",
-      "size": 4526
+      "size": 4525
     },
     "cascade-space": {
       "name": "Cascade Space",
       "file": "comp_sets/cascade-space.json",
-      "size": 5422
+      "size": 5420
     },
     "marathon-fusion": {
       "name": "Marathon Fusion",
       "file": "comp_sets/marathon-fusion.json",
-      "size": 4591
+      "size": 4592
     },
     "genfab-co": {
       "name": "GenFab Co",
       "file": "comp_sets/genfab-co.json",
-      "size": 4121
+      "size": 4122
     },
     "occam": {
       "name": "Occam",
       "file": "comp_sets/occam.json",
-      "size": 4859
+      "size": 4857
     },
     "blitzpanel": {
       "name": "Blitzpanel",
       "file": "comp_sets/blitzpanel.json",
-      "size": 3640
+      "size": 3641
     },
     "matx": {
       "name": "MatX",
       "file": "comp_sets/matx.json",
-      "size": 5332
+      "size": 5331
     },
     "amogy": {
       "name": "Amogy",
@@ -2440,7 +2495,7 @@
     "chariot-defense": {
       "name": "Chariot Defense",
       "file": "comp_sets/chariot-defense.json",
-      "size": 4646
+      "size": 4647
     },
     "intramotev": {
       "name": "Intramotev",
@@ -2450,12 +2505,12 @@
     "pickle-robot-company": {
       "name": "Pickle Robot Company",
       "file": "comp_sets/pickle-robot-company.json",
-      "size": 4712
+      "size": 4713
     },
     "augury": {
       "name": "Augury",
       "file": "comp_sets/augury.json",
-      "size": 4182
+      "size": 4183
     },
     "lunar-energy": {
       "name": "Lunar Energy",
@@ -2485,102 +2540,102 @@
     "slip-robotics": {
       "name": "Slip Robotics",
       "file": "comp_sets/slip-robotics.json",
-      "size": 4695
+      "size": 4696
     },
     "remedy-robotics": {
       "name": "Remedy Robotics",
       "file": "comp_sets/remedy-robotics.json",
-      "size": 4559
+      "size": 4560
     },
     "verdant-robotics": {
       "name": "Verdant Robotics",
       "file": "comp_sets/verdant-robotics.json",
-      "size": 4551
+      "size": 4567
     },
     "galadyne": {
       "name": "Galadyne",
       "file": "comp_sets/galadyne.json",
-      "size": 4328
+      "size": 4329
     },
     "simbe-robotics": {
       "name": "Simbe Robotics",
       "file": "comp_sets/simbe-robotics.json",
-      "size": 4572
+      "size": 4573
     },
     "velaura-ai": {
       "name": "Velaura AI",
       "file": "comp_sets/velaura-ai.json",
-      "size": 5386
+      "size": 5423
     },
     "rugged-robotics": {
       "name": "Rugged Robotics",
       "file": "comp_sets/rugged-robotics.json",
-      "size": 4567
+      "size": 4568
     },
     "elementary-robotics": {
       "name": "Elementary Robotics",
       "file": "comp_sets/elementary-robotics.json",
-      "size": 4555
+      "size": 4556
     },
     "aeon-industrial": {
       "name": "Aeon Industrial",
       "file": "comp_sets/aeon-industrial.json",
-      "size": 4684
+      "size": 4685
     },
     "anthrogen": {
       "name": "Anthrogen",
       "file": "comp_sets/anthrogen.json",
-      "size": 4865
+      "size": 4863
     },
     "overview-energy": {
       "name": "Overview Energy",
       "file": "comp_sets/overview-energy.json",
-      "size": 5429
+      "size": 5427
     },
     "living-carbon": {
       "name": "Living Carbon",
       "file": "comp_sets/living-carbon.json",
-      "size": 5198
+      "size": 5196
     },
     "sorcerer": {
       "name": "Sorcerer",
       "file": "comp_sets/sorcerer.json",
-      "size": 5431
+      "size": 5429
     },
     "solideon": {
       "name": "Solideon",
       "file": "comp_sets/solideon.json",
-      "size": 4137
+      "size": 4138
     },
     "zeno-power": {
       "name": "Zeno Power",
       "file": "comp_sets/zeno-power.json",
-      "size": 5687
+      "size": 5710
     },
     "ayar-labs": {
       "name": "Ayar Labs",
       "file": "comp_sets/ayar-labs.json",
-      "size": 4087
+      "size": 4198
     },
     "nextsilicon": {
       "name": "NextSilicon",
       "file": "comp_sets/nextsilicon.json",
-      "size": 4293
+      "size": 4296
     },
     "horizon-quantum-computing": {
       "name": "Horizon Quantum Computing",
       "file": "comp_sets/horizon-quantum-computing.json",
-      "size": 4621
+      "size": 4617
     },
     "phasecraft": {
       "name": "Phasecraft",
       "file": "comp_sets/phasecraft.json",
-      "size": 4515
+      "size": 4511
     },
     "nvision-imaging-technologies": {
       "name": "NVision Imaging Technologies",
       "file": "comp_sets/nvision-imaging-technologies.json",
-      "size": 5258
+      "size": 5269
     },
     "ideon-technologies": {
       "name": "Ideon Technologies",
@@ -2590,27 +2645,27 @@
     "chemify": {
       "name": "Chemify",
       "file": "comp_sets/chemify.json",
-      "size": 5265
+      "size": 5263
     },
     "unspun": {
       "name": "Unspun",
       "file": "comp_sets/unspun.json",
-      "size": 4561
+      "size": 4562
     },
     "evolv-technology": {
       "name": "Evolv Technology",
       "file": "comp_sets/evolv-technology.json",
-      "size": 3866
+      "size": 3867
     },
     "sabanto": {
       "name": "Sabanto",
       "file": "comp_sets/sabanto.json",
-      "size": 4530
+      "size": 4531
     },
     "burnbot": {
       "name": "BurnBot",
       "file": "comp_sets/burnbot.json",
-      "size": 4359
+      "size": 4380
     },
     "enovix": {
       "name": "Enovix",
@@ -2625,37 +2680,37 @@
     "akash-systems": {
       "name": "Akash Systems",
       "file": "comp_sets/akash-systems.json",
-      "size": 5699
+      "size": 5697
     },
     "defense-unicorns": {
       "name": "Defense Unicorns",
       "file": "comp_sets/defense-unicorns.json",
-      "size": 4732
+      "size": 4733
     },
     "strider-technologies": {
       "name": "Strider Technologies",
       "file": "comp_sets/strider-technologies.json",
-      "size": 4705
+      "size": 4706
     },
     "xage-security": {
       "name": "Xage Security",
       "file": "comp_sets/xage-security.json",
-      "size": 4669
+      "size": 4670
     },
     "mythic": {
       "name": "Mythic",
       "file": "comp_sets/mythic.json",
-      "size": 5271
+      "size": 5270
     },
     "positron-ai": {
       "name": "Positron AI",
       "file": "comp_sets/positron-ai.json",
-      "size": 5272
+      "size": 5271
     },
     "xsight-labs": {
       "name": "Xsight Labs",
       "file": "comp_sets/xsight-labs.json",
-      "size": 5295
+      "size": 5294
     },
     "electra": {
       "name": "Electra",
@@ -2670,22 +2725,22 @@
     "evozyne": {
       "name": "Evozyne",
       "file": "comp_sets/evozyne.json",
-      "size": 5250
+      "size": 5248
     },
     "alto-neuroscience": {
       "name": "Alto Neuroscience",
       "file": "comp_sets/alto-neuroscience.json",
-      "size": 4841
+      "size": 4839
     },
     "glyphic-biotechnologies": {
       "name": "Glyphic Biotechnologies",
       "file": "comp_sets/glyphic-biotechnologies.json",
-      "size": 5173
+      "size": 5171
     },
     "biobot-analytics": {
       "name": "Biobot Analytics",
       "file": "comp_sets/biobot-analytics.json",
-      "size": 5242
+      "size": 5240
     },
     "zeitview": {
       "name": "Zeitview",
@@ -2695,12 +2750,12 @@
     "roam-robotics": {
       "name": "Roam Robotics",
       "file": "comp_sets/roam-robotics.json",
-      "size": 4552
+      "size": 4553
     },
     "bethlehem-steel-corp": {
       "name": "Bethlehem Steel Corp",
       "file": "comp_sets/bethlehem-steel-corp.json",
-      "size": 4122
+      "size": 4123
     },
     "seneca": {
       "name": "Seneca",
@@ -2710,32 +2765,32 @@
     "1x-technologies": {
       "name": "1X Technologies",
       "file": "comp_sets/1x-technologies.json",
-      "size": 4667
+      "size": 4668
     },
     "gravitics": {
       "name": "Gravitics",
       "file": "comp_sets/gravitics.json",
-      "size": 5372
+      "size": 5370
     },
     "orbit-fab": {
       "name": "Orbit Fab",
       "file": "comp_sets/orbit-fab.json",
-      "size": 5691
+      "size": 5689
     },
     "radian-aerospace": {
       "name": "Radian Aerospace",
       "file": "comp_sets/radian-aerospace.json",
-      "size": 5416
+      "size": 5414
     },
     "lunar-outpost": {
       "name": "Lunar Outpost",
       "file": "comp_sets/lunar-outpost.json",
-      "size": 5723
+      "size": 5721
     },
     "transmutex": {
       "name": "Transmutex",
       "file": "comp_sets/transmutex.json",
-      "size": 4601
+      "size": 4602
     },
     "mightyfly": {
       "name": "MightyFly",
@@ -2765,17 +2820,17 @@
     "near-space-labs": {
       "name": "Near Space Labs",
       "file": "comp_sets/near-space-labs.json",
-      "size": 5645
+      "size": 5643
     },
     "atomic-ai": {
       "name": "Atomic AI",
       "file": "comp_sets/atomic-ai.json",
-      "size": 5133
+      "size": 5131
     },
     "ultima-genomics": {
       "name": "Ultima Genomics",
       "file": "comp_sets/ultima-genomics.json",
-      "size": 5146
+      "size": 5144
     },
     "helios": {
       "name": "Helios",
@@ -2790,22 +2845,22 @@
     "amber-bio": {
       "name": "Amber Bio",
       "file": "comp_sets/amber-bio.json",
-      "size": 4812
+      "size": 4810
     },
     "manifold-bio": {
       "name": "Manifold Bio",
       "file": "comp_sets/manifold-bio.json",
-      "size": 5150
+      "size": 5148
     },
     "strand-therapeutics": {
       "name": "Strand Therapeutics",
       "file": "comp_sets/strand-therapeutics.json",
-      "size": 5266
+      "size": 5264
     },
     "signaloid": {
       "name": "Signaloid",
       "file": "comp_sets/signaloid.json",
-      "size": 4951
+      "size": 4950
     },
     "apis-cor": {
       "name": "Apis Cor",
@@ -2815,27 +2870,27 @@
     "valinor-enterprises": {
       "name": "Valinor Enterprises",
       "file": "comp_sets/valinor-enterprises.json",
-      "size": 4631
+      "size": 4632
     },
     "rivet-industries": {
       "name": "Rivet Industries",
       "file": "comp_sets/rivet-industries.json",
-      "size": 4262
+      "size": 4263
     },
     "starfish-space": {
       "name": "Starfish Space",
       "file": "comp_sets/starfish-space.json",
-      "size": 5663
+      "size": 5661
     },
     "valthos": {
       "name": "Valthos",
       "file": "comp_sets/valthos.json",
-      "size": 4634
+      "size": 4635
     },
     "reliable-robotics": {
       "name": "Reliable Robotics",
       "file": "comp_sets/reliable-robotics.json",
-      "size": 5846
+      "size": 5844
     },
     "koloma": {
       "name": "Koloma",
@@ -2845,7 +2900,7 @@
     "heart-aerospace": {
       "name": "Heart Aerospace",
       "file": "comp_sets/heart-aerospace.json",
-      "size": 5668
+      "size": 5666
     },
     "peak-energy": {
       "name": "Peak Energy",
@@ -2870,82 +2925,82 @@
     "mytra": {
       "name": "Mytra",
       "file": "comp_sets/mytra.json",
-      "size": 4501
+      "size": 4502
     },
     "hertha-metals": {
       "name": "Hertha Metals",
       "file": "comp_sets/hertha-metals.json",
-      "size": 4500
+      "size": 4501
     },
     "synchron": {
       "name": "Synchron",
       "file": "comp_sets/synchron.json",
-      "size": 5142
+      "size": 5140
     },
     "lila-sciences": {
       "name": "Lila Sciences",
       "file": "comp_sets/lila-sciences.json",
-      "size": 5167
+      "size": 5165
     },
     "freenome": {
       "name": "Freenome",
       "file": "comp_sets/freenome.json",
-      "size": 4829
+      "size": 4827
     },
     "precision-neuroscience": {
       "name": "Precision Neuroscience",
       "file": "comp_sets/precision-neuroscience.json",
-      "size": 5252
+      "size": 5250
     },
     "arx-robotics": {
       "name": "ARX Robotics",
       "file": "comp_sets/arx-robotics.json",
-      "size": 4603
+      "size": 4604
     },
     "frankenburg-technologies": {
       "name": "Frankenburg Technologies",
       "file": "comp_sets/frankenburg-technologies.json",
-      "size": 4275
+      "size": 4276
     },
     "tytan-technologies": {
       "name": "Tytan Technologies",
       "file": "comp_sets/tytan-technologies.json",
-      "size": 4244
+      "size": 4264
     },
     "blackshark-ai": {
       "name": "Blackshark.ai",
       "file": "comp_sets/blackshark-ai.json",
-      "size": 4633
+      "size": 4634
     },
     "improbable-defence": {
       "name": "Improbable Defence",
       "file": "comp_sets/improbable-defence.json",
-      "size": 4302
+      "size": 4303
     },
     "aerospacelab": {
       "name": "Aerospacelab",
       "file": "comp_sets/aerospacelab.json",
-      "size": 5284
+      "size": 5282
     },
     "the-exploration-company": {
       "name": "The Exploration Company",
       "file": "comp_sets/the-exploration-company.json",
-      "size": 5674
+      "size": 5672
     },
     "hyimpulse": {
       "name": "HyImpulse",
       "file": "comp_sets/hyimpulse.json",
-      "size": 5335
+      "size": 5333
     },
     "exolaunch": {
       "name": "Exolaunch",
       "file": "comp_sets/exolaunch.json",
-      "size": 4952
+      "size": 4950
     },
     "open-cosmos": {
       "name": "Open Cosmos",
       "file": "comp_sets/open-cosmos.json",
-      "size": 5405
+      "size": 5403
     },
     "stegra": {
       "name": "Stegra",
@@ -2975,62 +3030,62 @@
     "isomorphic-labs": {
       "name": "Isomorphic Labs",
       "file": "comp_sets/isomorphic-labs.json",
-      "size": 4284
+      "size": 4282
     },
     "basecamp-research": {
       "name": "Basecamp Research",
       "file": "comp_sets/basecamp-research.json",
-      "size": 5245
+      "size": 5243
     },
     "splicebio": {
       "name": "SpliceBio",
       "file": "comp_sets/splicebio.json",
-      "size": 5232
+      "size": 5230
     },
     "sipearl": {
       "name": "SiPearl",
       "file": "comp_sets/sipearl.json",
-      "size": 4835
+      "size": 4834
     },
     "eleqtron": {
       "name": "eleQtron",
       "file": "comp_sets/eleqtron.json",
-      "size": 3927
+      "size": 3970
     },
     "riverlane": {
       "name": "Riverlane",
       "file": "comp_sets/riverlane.json",
-      "size": 4468
+      "size": 4464
     },
     "poolside": {
       "name": "Poolside",
       "file": "comp_sets/poolside.json",
-      "size": 4257
+      "size": 4260
     },
     "nomagic": {
       "name": "Nomagic",
       "file": "comp_sets/nomagic.json",
-      "size": 4651
+      "size": 4652
     },
     "nu-quantum": {
       "name": "Nu Quantum",
       "file": "comp_sets/nu-quantum.json",
-      "size": 4498
+      "size": 4494
     },
     "fractile": {
       "name": "Fractile",
       "file": "comp_sets/fractile.json",
-      "size": 5341
+      "size": 5340
     },
     "pragmatic-semiconductor": {
       "name": "Pragmatic Semiconductor",
       "file": "comp_sets/pragmatic-semiconductor.json",
-      "size": 5355
+      "size": 5354
     },
     "porotech": {
       "name": "Porotech",
       "file": "comp_sets/porotech.json",
-      "size": 5266
+      "size": 5265
     },
     "oxa": {
       "name": "Oxa",
@@ -3040,7 +3095,7 @@
     "humanoid": {
       "name": "Humanoid",
       "file": "comp_sets/humanoid.json",
-      "size": 4133
+      "size": 4134
     },
     "nyobolt": {
       "name": "Nyobolt",
@@ -3050,32 +3105,32 @@
     "pulsar-fusion": {
       "name": "Pulsar Fusion",
       "file": "comp_sets/pulsar-fusion.json",
-      "size": 5684
+      "size": 5682
     },
     "magdrive": {
       "name": "Magdrive",
       "file": "comp_sets/magdrive.json",
-      "size": 5416
+      "size": 5414
     },
     "cambridge-aerospace": {
       "name": "Cambridge Aerospace",
       "file": "comp_sets/cambridge-aerospace.json",
-      "size": 4694
+      "size": 4690
     },
     "hadean": {
       "name": "Hadean",
       "file": "comp_sets/hadean.json",
-      "size": 4680
+      "size": 4681
     },
     "adarga": {
       "name": "Adarga",
       "file": "comp_sets/adarga.json",
-      "size": 4668
+      "size": 4669
     },
     "isembard": {
       "name": "Isembard",
       "file": "comp_sets/isembard.json",
-      "size": 4542
+      "size": 4543
     },
     "mission-zero-technologies": {
       "name": "Mission Zero Technologies",
@@ -3085,17 +3140,17 @@
     "epoch-biodesign": {
       "name": "Epoch Biodesign",
       "file": "comp_sets/epoch-biodesign.json",
-      "size": 5185
+      "size": 5183
     },
     "mbryonics": {
       "name": "MBRYONICS",
       "file": "comp_sets/mbryonics.json",
-      "size": 5345
+      "size": 5343
     },
     "blykalla": {
       "name": "Blykalla",
       "file": "comp_sets/blykalla.json",
-      "size": 4616
+      "size": 4617
     },
     "candela": {
       "name": "Candela",
@@ -3110,177 +3165,177 @@
     "reorbit": {
       "name": "ReOrbit",
       "file": "comp_sets/reorbit.json",
-      "size": 5363
+      "size": 5361
     },
     "nordic-air-defence": {
       "name": "Nordic Air Defence",
       "file": "comp_sets/nordic-air-defence.json",
-      "size": 4325
+      "size": 4326
     },
     "krattworks": {
       "name": "KrattWorks",
       "file": "comp_sets/krattworks.json",
-      "size": 4317
+      "size": 4318
     },
     "defsecintel": {
       "name": "DefSecIntel",
       "file": "comp_sets/defsecintel.json",
-      "size": 4277
+      "size": 4278
     },
     "kvertus": {
       "name": "Kvertus",
       "file": "comp_sets/kvertus.json",
-      "size": 3844
+      "size": 3845
     },
     "fire-point": {
       "name": "Fire Point",
       "file": "comp_sets/fire-point.json",
-      "size": 4332
+      "size": 4333
     },
     "vyriy-drone": {
       "name": "Vyriy Drone",
       "file": "comp_sets/vyriy-drone.json",
-      "size": 4318
+      "size": 4319
     },
     "skyeton": {
       "name": "Skyeton",
       "file": "comp_sets/skyeton.json",
-      "size": 3819
+      "size": 3820
     },
     "himera": {
       "name": "HIMERA",
       "file": "comp_sets/himera.json",
-      "size": 4664
+      "size": 4665
     },
     "ark-robotics": {
       "name": "Ark Robotics",
       "file": "comp_sets/ark-robotics.json",
-      "size": 4313
+      "size": 4314
     },
     "wb-group": {
       "name": "WB Group",
       "file": "comp_sets/wb-group.json",
-      "size": 3862
+      "size": 3863
     },
     "creotech-instruments": {
       "name": "Creotech Instruments",
       "file": "comp_sets/creotech-instruments.json",
-      "size": 5427
+      "size": 5425
     },
     "satrev": {
       "name": "SatRev",
       "file": "comp_sets/satrev.json",
-      "size": 5384
+      "size": 5382
     },
     "kp-labs": {
       "name": "KP Labs",
       "file": "comp_sets/kp-labs.json",
-      "size": 5364
+      "size": 5362
     },
     "primoco-uav": {
       "name": "Primoco UAV",
       "file": "comp_sets/primoco-uav.json",
-      "size": 3844
+      "size": 3845
     },
     "astrolight": {
       "name": "Astrolight",
       "file": "comp_sets/astrolight.json",
-      "size": 4916
+      "size": 4914
     },
     "quandela": {
       "name": "Quandela",
       "file": "comp_sets/quandela.json",
-      "size": 4064
+      "size": 4060
     },
     "quobly": {
       "name": "Quobly",
       "file": "comp_sets/quobly.json",
-      "size": 4049
+      "size": 4045
     },
     "c12-quantum-electronics": {
       "name": "C12 Quantum Electronics",
       "file": "comp_sets/c12-quantum-electronics.json",
-      "size": 4530
+      "size": 4526
     },
     "harmattan-ai": {
       "name": "Harmattan AI",
       "file": "comp_sets/harmattan-ai.json",
-      "size": 4722
+      "size": 4723
     },
     "comand-ai": {
       "name": "Comand AI",
       "file": "comp_sets/comand-ai.json",
-      "size": 4334
+      "size": 4331
     },
     "unseenlabs": {
       "name": "Unseenlabs",
       "file": "comp_sets/unseenlabs.json",
-      "size": 5537
+      "size": 5535
     },
     "cailabs": {
       "name": "Cailabs",
       "file": "comp_sets/cailabs.json",
-      "size": 5541
+      "size": 5539
     },
     "beyond-aero": {
       "name": "Beyond Aero",
       "file": "comp_sets/beyond-aero.json",
-      "size": 3754
+      "size": 3751
     },
     "stellaria": {
       "name": "Stellaria",
       "file": "comp_sets/stellaria.json",
-      "size": 4103
+      "size": 4105
     },
     "jimmy-energy": {
       "name": "Jimmy Energy",
       "file": "comp_sets/jimmy-energy.json",
-      "size": 4110
+      "size": 4111
     },
     "diamfab": {
       "name": "DiamFab",
       "file": "comp_sets/diamfab.json",
-      "size": 4516
+      "size": 4515
     },
     "sateliot": {
       "name": "Sateliot",
       "file": "comp_sets/sateliot.json",
-      "size": 5351
+      "size": 5349
     },
     "kreios-space": {
       "name": "Kreios Space",
       "file": "comp_sets/kreios-space.json",
-      "size": 4994
+      "size": 4992
     },
     "argotec": {
       "name": "Argotec",
       "file": "comp_sets/argotec.json",
-      "size": 4910
+      "size": 4908
     },
     "ephos": {
       "name": "Ephos",
       "file": "comp_sets/ephos.json",
-      "size": 4539
+      "size": 4538
     },
     "aavantgarde-bio": {
       "name": "AAVantgarde Bio",
       "file": "comp_sets/aavantgarde-bio.json",
-      "size": 5304
+      "size": 5302
     },
     "genespire": {
       "name": "Genespire",
       "file": "comp_sets/genespire.json",
-      "size": 5276
+      "size": 5274
     },
     "nearfield-instruments": {
       "name": "Nearfield Instruments",
       "file": "comp_sets/nearfield-instruments.json",
-      "size": 5428
+      "size": 5362
     },
     "axelera-ai": {
       "name": "Axelera AI",
       "file": "comp_sets/axelera-ai.json",
-      "size": 5337
+      "size": 5336
     },
     "leydenjar-technologies": {
       "name": "LeydenJar Technologies",
@@ -3295,37 +3350,37 @@
     "synspective": {
       "name": "Synspective",
       "file": "comp_sets/synspective.json",
-      "size": 5394
+      "size": 5392
     },
     "iqps": {
       "name": "iQPS",
       "file": "comp_sets/iqps.json",
-      "size": 5424
+      "size": 5422
     },
     "axelspace": {
       "name": "Axelspace",
       "file": "comp_sets/axelspace.json",
-      "size": 5286
+      "size": 5284
     },
     "pale-blue": {
       "name": "Pale Blue",
       "file": "comp_sets/pale-blue.json",
-      "size": 5754
+      "size": 5752
     },
     "telexistence": {
       "name": "Telexistence",
       "file": "comp_sets/telexistence.json",
-      "size": 4684
+      "size": 4685
     },
     "helical-fusion": {
       "name": "Helical Fusion",
       "file": "comp_sets/helical-fusion.json",
-      "size": 4630
+      "size": 4631
     },
     "ex-fusion": {
       "name": "EX-Fusion",
       "file": "comp_sets/ex-fusion.json",
-      "size": 4634
+      "size": 4635
     },
     "terra-drone": {
       "name": "Terra Drone",
@@ -3340,97 +3395,97 @@
     "qunasys": {
       "name": "QunaSys",
       "file": "comp_sets/qunasys.json",
-      "size": 4500
+      "size": 4496
     },
     "furiosaai": {
       "name": "FuriosaAI",
       "file": "comp_sets/furiosaai.json",
-      "size": 5378
+      "size": 5377
     },
     "perigee-aerospace": {
       "name": "Perigee Aerospace",
       "file": "comp_sets/perigee-aerospace.json",
-      "size": 5663
+      "size": 5661
     },
     "contec": {
       "name": "Contec",
       "file": "comp_sets/contec.json",
-      "size": 4905
+      "size": 4903
     },
     "nara-space-technology": {
       "name": "Nara Space Technology",
       "file": "comp_sets/nara-space-technology.json",
-      "size": 5424
+      "size": 5422
     },
     "neuromeka": {
       "name": "Neuromeka",
       "file": "comp_sets/neuromeka.json",
-      "size": 3644
+      "size": 3645
     },
     "thunder-tiger": {
       "name": "Thunder Tiger",
       "file": "comp_sets/thunder-tiger.json",
-      "size": 3836
+      "size": 3840
     },
     "abl-bio": {
       "name": "ABL Bio",
       "file": "comp_sets/abl-bio.json",
-      "size": 4335
+      "size": 4333
     },
     "digantara": {
       "name": "Digantara",
       "file": "comp_sets/digantara.json",
-      "size": 5705
+      "size": 5703
     },
     "raphe-mphibr": {
       "name": "Raphe mPhibr",
       "file": "comp_sets/raphe-mphibr.json",
-      "size": 4694
+      "size": 4695
     },
     "sagar-defence-engineering": {
       "name": "Sagar Defence Engineering",
       "file": "comp_sets/sagar-defence-engineering.json",
-      "size": 4669
+      "size": 4699
     },
     "newspace-research": {
       "name": "Newspace Research",
       "file": "comp_sets/newspace-research.json",
-      "size": 4686
+      "size": 4687
     },
     "tonbo-imaging": {
       "name": "Tonbo Imaging",
       "file": "comp_sets/tonbo-imaging.json",
-      "size": 4685
+      "size": 4686
     },
     "bellatrix-aerospace": {
       "name": "Bellatrix Aerospace",
       "file": "comp_sets/bellatrix-aerospace.json",
-      "size": 4947
+      "size": 4945
     },
     "dhruva-space": {
       "name": "Dhruva Space",
       "file": "comp_sets/dhruva-space.json",
-      "size": 5405
+      "size": 5403
     },
     "satsure": {
       "name": "SatSure",
       "file": "comp_sets/satsure.json",
-      "size": 5314
+      "size": 5312
     },
     "galaxeye": {
       "name": "GalaxEye",
       "file": "comp_sets/galaxeye.json",
-      "size": 5733
+      "size": 5731
     },
     "mindgrove-technologies": {
       "name": "Mindgrove Technologies",
       "file": "comp_sets/mindgrove-technologies.json",
-      "size": 4935
+      "size": 4934
     },
     "netrasemi": {
       "name": "Netrasemi",
       "file": "comp_sets/netrasemi.json",
-      "size": 4927
+      "size": 4926
     },
     "lohum-cleantech": {
       "name": "Lohum Cleantech",
@@ -3450,42 +3505,42 @@
     "hypersonix-launch-systems": {
       "name": "Hypersonix Launch Systems",
       "file": "comp_sets/hypersonix-launch-systems.json",
-      "size": 4687
+      "size": 4688
     },
     "gilmour-space-technologies": {
       "name": "Gilmour Space Technologies",
       "file": "comp_sets/gilmour-space-technologies.json",
-      "size": 5330
+      "size": 5328
     },
     "southern-launch": {
       "name": "Southern Launch",
       "file": "comp_sets/southern-launch.json",
-      "size": 4917
+      "size": 4915
     },
     "silicon-quantum-computing": {
       "name": "Silicon Quantum Computing",
       "file": "comp_sets/silicon-quantum-computing.json",
-      "size": 4007
+      "size": 4003
     },
     "swarmfarm-robotics": {
       "name": "SwarmFarm Robotics",
       "file": "comp_sets/swarmfarm-robotics.json",
-      "size": 4324
+      "size": 4325
     },
     "greenroom-robotics": {
       "name": "Greenroom Robotics",
       "file": "comp_sets/greenroom-robotics.json",
-      "size": 4293
+      "size": 4319
     },
     "cortical-labs": {
       "name": "Cortical Labs",
       "file": "comp_sets/cortical-labs.json",
-      "size": 4174
+      "size": 4177
     },
     "ocius-technology": {
       "name": "Ocius Technology",
       "file": "comp_sets/ocius-technology.json",
-      "size": 4366
+      "size": 4367
     },
     "sicona-battery-technologies": {
       "name": "Sicona Battery Technologies",
@@ -3495,47 +3550,47 @@
     "heven-aerotech": {
       "name": "Heven AeroTech",
       "file": "comp_sets/heven-aerotech.json",
-      "size": 4706
+      "size": 4707
     },
     "quantum-art": {
       "name": "Quantum Art",
       "file": "comp_sets/quantum-art.json",
-      "size": 4503
+      "size": 4510
     },
     "quamcore": {
       "name": "QuamCore",
       "file": "comp_sets/quamcore.json",
-      "size": 4470
+      "size": 4466
     },
     "qedma": {
       "name": "Qedma",
       "file": "comp_sets/qedma.json",
-      "size": 4505
+      "size": 4501
     },
     "q-factor": {
       "name": "Q-Factor",
       "file": "comp_sets/q-factor.json",
-      "size": 4540
+      "size": 4536
     },
     "classiq": {
       "name": "Classiq",
       "file": "comp_sets/classiq.json",
-      "size": 4532
+      "size": 4528
     },
     "majestic-labs": {
       "name": "Majestic Labs",
       "file": "comp_sets/majestic-labs.json",
-      "size": 5284
+      "size": 5283
     },
     "speedata": {
       "name": "Speedata",
       "file": "comp_sets/speedata.json",
-      "size": 5399
+      "size": 5398
     },
     "hailo": {
       "name": "Hailo",
       "file": "comp_sets/hailo.json",
-      "size": 5328
+      "size": 5327
     },
     "h2pro": {
       "name": "H2Pro",
@@ -3545,7 +3600,7 @@
     "addionics": {
       "name": "Addionics",
       "file": "comp_sets/addionics.json",
-      "size": 4456
+      "size": 4472
     },
     "storedot": {
       "name": "StoreDot",
@@ -3565,47 +3620,47 @@
     "innoviz-technologies": {
       "name": "Innoviz Technologies",
       "file": "comp_sets/innoviz-technologies.json",
-      "size": 2424
+      "size": 2471
     },
     "spectralx": {
       "name": "SpectralX",
       "file": "comp_sets/spectralx.json",
-      "size": 4289
+      "size": 4311
     },
     "space42": {
       "name": "Space42",
       "file": "comp_sets/space42.json",
-      "size": 4932
+      "size": 4930
     },
     "adasi": {
       "name": "ADASI",
       "file": "comp_sets/adasi.json",
-      "size": 3823
+      "size": 3824
     },
     "humain": {
       "name": "HUMAIN",
       "file": "comp_sets/humain.json",
-      "size": 3450
+      "size": 3453
     },
     "baykar": {
       "name": "Baykar",
       "file": "comp_sets/baykar.json",
-      "size": 3840
+      "size": 3841
     },
     "fergani-space": {
       "name": "Fergani Space",
       "file": "comp_sets/fergani-space.json",
-      "size": 4942
+      "size": 4940
     },
     "tritone-technologies": {
       "name": "Tritone Technologies",
       "file": "comp_sets/tritone-technologies.json",
-      "size": 4321
+      "size": 4322
     },
     "ranovus": {
       "name": "Ranovus",
       "file": "comp_sets/ranovus.json",
-      "size": 4518
+      "size": 4517
     },
     "nano-one-materials": {
       "name": "Nano One Materials",
@@ -3615,32 +3670,32 @@
     "nordspace": {
       "name": "NordSpace",
       "file": "comp_sets/nordspace.json",
-      "size": 5718
+      "size": 5716
     },
     "canada-rocket-company": {
       "name": "Canada Rocket Company",
       "file": "comp_sets/canada-rocket-company.json",
-      "size": 5428
+      "size": 5426
     },
     "wyvern": {
       "name": "Wyvern",
       "file": "comp_sets/wyvern.json",
-      "size": 5758
+      "size": 5756
     },
     "anyon-systems": {
       "name": "Anyon Systems",
       "file": "comp_sets/anyon-systems.json",
-      "size": 3988
+      "size": 3984
     },
     "axibo-ai": {
       "name": "Axibo AI",
       "file": "comp_sets/axibo-ai.json",
-      "size": 3663
+      "size": 3664
     },
     "epic-aerospace": {
       "name": "Epic Aerospace",
       "file": "comp_sets/epic-aerospace.json",
-      "size": 5394
+      "size": 5392
     },
     "summit-nanotech": {
       "name": "Summit Nanotech",
@@ -3650,112 +3705,112 @@
     "simera-sense": {
       "name": "Simera Sense",
       "file": "comp_sets/simera-sense.json",
-      "size": 5685
+      "size": 5683
     },
     "cubespace": {
       "name": "CubeSpace",
       "file": "comp_sets/cubespace.json",
-      "size": 4912
+      "size": 4939
     },
     "stratek-global": {
       "name": "Stratek Global",
       "file": "comp_sets/stratek-global.json",
-      "size": 4072
+      "size": 4073
     },
     "terrahaptix": {
       "name": "Terrahaptix",
       "file": "comp_sets/terrahaptix.json",
-      "size": 4655
+      "size": 4657
     },
     "stark-defence": {
       "name": "Stark Defence",
       "file": "comp_sets/stark-defence.json",
-      "size": 4588
+      "size": 4589
     },
     "alpine-eagle": {
       "name": "Alpine Eagle",
       "file": "comp_sets/alpine-eagle.json",
-      "size": 4333
+      "size": 4334
     },
     "agile-robots": {
       "name": "Agile Robots",
       "file": "comp_sets/agile-robots.json",
-      "size": 4193
+      "size": 4194
     },
     "reflex-aerospace": {
       "name": "Reflex Aerospace",
       "file": "comp_sets/reflex-aerospace.json",
-      "size": 5396
+      "size": 5415
     },
     "ororatech": {
       "name": "OroraTech",
       "file": "comp_sets/ororatech.json",
-      "size": 5378
+      "size": 5376
     },
     "polaris-raumflugzeuge": {
       "name": "POLARIS Raumflugzeuge",
       "file": "comp_sets/polaris-raumflugzeuge.json",
-      "size": 5387
+      "size": 5385
     },
     "constellr": {
       "name": "constellr",
       "file": "comp_sets/constellr.json",
-      "size": 5372
+      "size": 5370
     },
     "morpheus-space": {
       "name": "Morpheus Space",
       "file": "comp_sets/morpheus-space.json",
-      "size": 5755
+      "size": 5753
     },
     "gauss-fusion": {
       "name": "Gauss Fusion",
       "file": "comp_sets/gauss-fusion.json",
-      "size": 4092
+      "size": 4093
     },
     "kipu-quantum": {
       "name": "Kipu Quantum",
       "file": "comp_sets/kipu-quantum.json",
-      "size": 4045
+      "size": 4041
     },
     "parityqc": {
       "name": "ParityQC",
       "file": "comp_sets/parityqc.json",
-      "size": 3997
+      "size": 3993
     },
     "aqt": {
       "name": "AQT",
       "file": "comp_sets/aqt.json",
-      "size": 3992
+      "size": 3988
     },
     "quantumdiamonds": {
       "name": "QuantumDiamonds",
       "file": "comp_sets/quantumdiamonds.json",
-      "size": 4084
+      "size": 4080
     },
     "corintis": {
       "name": "Corintis",
       "file": "comp_sets/corintis.json",
-      "size": 5268
+      "size": 5267
     },
     "distalmotion": {
       "name": "Distalmotion",
       "file": "comp_sets/distalmotion.json",
-      "size": 4171
+      "size": 4172
     },
     "mimic-robotics": {
       "name": "Mimic Robotics",
       "file": "comp_sets/mimic-robotics.json",
-      "size": 4147
+      "size": 4211
     },
     "tubulis": {
       "name": "Tubulis",
       "file": "comp_sets/tubulis.json",
-      "size": 4868
+      "size": 4866
     },
     "deepdrive": {
       "name": "DeepDrive",
       "file": "comp_sets/deepdrive.json",
-      "size": 3695
+      "size": 3790
     },
     "kraftblock": {
       "name": "Kraftblock",
@@ -3770,32 +3825,32 @@
     "quantum-motion": {
       "name": "Quantum Motion",
       "file": "comp_sets/quantum-motion.json",
-      "size": 4529
+      "size": 4525
     },
     "monumo": {
       "name": "Monumo",
       "file": "comp_sets/monumo.json",
-      "size": 5350
+      "size": 5349
     },
     "xmos": {
       "name": "XMOS",
       "file": "comp_sets/xmos.json",
-      "size": 4529
+      "size": 4528
     },
     "causaly": {
       "name": "Causaly",
       "file": "comp_sets/causaly.json",
-      "size": 5283
+      "size": 5281
     },
     "vyoma": {
       "name": "Vyoma",
       "file": "comp_sets/vyoma.json",
-      "size": 5366
+      "size": 5382
     },
     "atmos-space-cargo": {
       "name": "Atmos Space Cargo",
       "file": "comp_sets/atmos-space-cargo.json",
-      "size": 5795
+      "size": 5793
     },
     "theion": {
       "name": "Theion",
@@ -3810,97 +3865,97 @@
     "orbem": {
       "name": "Orbem",
       "file": "comp_sets/orbem.json",
-      "size": 4936
+      "size": 4934
     },
     "calogena": {
       "name": "Calogena",
       "file": "comp_sets/calogena.json",
-      "size": 4086
+      "size": 4087
     },
     "hexana": {
       "name": "Hexana",
       "file": "comp_sets/hexana.json",
-      "size": 4067
+      "size": 4068
     },
     "fossa-systems": {
       "name": "Fossa Systems",
       "file": "comp_sets/fossa-systems.json",
-      "size": 5405
+      "size": 5403
     },
     "spaceforest": {
       "name": "SpaceForest",
       "file": "comp_sets/spaceforest.json",
-      "size": 4927
+      "size": 4949
     },
     "robotwin": {
       "name": "RoboTwin",
       "file": "comp_sets/robotwin.json",
-      "size": 3692
+      "size": 3693
     },
     "ukrspecsystems": {
       "name": "Ukrspecsystems",
       "file": "comp_sets/ukrspecsystems.json",
-      "size": 3848
+      "size": 3849
     },
     "roboneers": {
       "name": "Roboneers",
       "file": "comp_sets/roboneers.json",
-      "size": 4327
+      "size": 4328
     },
     "cellcolabs": {
       "name": "Cellcolabs",
       "file": "comp_sets/cellcolabs.json",
-      "size": 5177
+      "size": 5175
     },
     "space-machines-company": {
       "name": "Space Machines Company",
       "file": "comp_sets/space-machines-company.json",
-      "size": 5402
+      "size": 5400
     },
     "heo": {
       "name": "HEO",
       "file": "comp_sets/heo.json",
-      "size": 5726
+      "size": 5724
     },
     "manastu-space": {
       "name": "Manastu Space",
       "file": "comp_sets/manastu-space.json",
-      "size": 5739
+      "size": 5737
     },
     "kneron": {
       "name": "Kneron",
       "file": "comp_sets/kneron.json",
-      "size": 5332
+      "size": 5318
     },
     "dream-security": {
       "name": "Dream Security",
       "file": "comp_sets/dream-security.json",
-      "size": 4734
+      "size": 4735
     },
     "asterra": {
       "name": "Asterra",
       "file": "comp_sets/asterra.json",
-      "size": 5714
+      "size": 5712
     },
     "vention": {
       "name": "Vention",
       "file": "comp_sets/vention.json",
-      "size": 4547
+      "size": 4548
     },
     "kraken-robotics": {
       "name": "Kraken Robotics",
       "file": "comp_sets/kraken-robotics.json",
-      "size": 3823
+      "size": 3824
     },
     "telesat-lightspeed": {
       "name": "Telesat Lightspeed",
       "file": "comp_sets/telesat-lightspeed.json",
-      "size": 5413
+      "size": 5411
     },
     "abcellera": {
       "name": "AbCellera",
       "file": "comp_sets/abcellera.json",
-      "size": 4769
+      "size": 4767
     },
     "svante": {
       "name": "Svante",
@@ -3915,82 +3970,82 @@
     "hypernova-space-technologies": {
       "name": "Hypernova Space Technologies",
       "file": "comp_sets/hypernova-space-technologies.json",
-      "size": 5752
+      "size": 5750
     },
     "sambanova-systems": {
       "name": "SambaNova Systems",
       "file": "comp_sets/sambanova-systems.json",
-      "size": 5291
+      "size": 5290
     },
     "credo-semiconductor": {
       "name": "Credo Semiconductor",
       "file": "comp_sets/credo-semiconductor.json",
-      "size": 4918
+      "size": 4917
     },
     "polar-semiconductor": {
       "name": "Polar Semiconductor",
       "file": "comp_sets/polar-semiconductor.json",
-      "size": 5078
+      "size": 5168
     },
     "lightelligence": {
       "name": "Lightelligence",
       "file": "comp_sets/lightelligence.json",
-      "size": 5046
+      "size": 5045
     },
     "scout-ai": {
       "name": "Scout AI",
       "file": "comp_sets/scout-ai.json",
-      "size": 4665
+      "size": 4666
     },
     "sifly": {
       "name": "SiFly",
       "file": "comp_sets/sifly.json",
-      "size": 4625
+      "size": 4626
     },
     "hyfix": {
       "name": "Hyfix",
       "file": "comp_sets/hyfix.json",
-      "size": 4645
+      "size": 4658
     },
     "red-6": {
       "name": "Red 6",
       "file": "comp_sets/red-6.json",
-      "size": 3811
+      "size": 3812
     },
     "portal-space-systems": {
       "name": "Portal Space Systems",
       "file": "comp_sets/portal-space-systems.json",
-      "size": 5785
+      "size": 5783
     },
     "stratolaunch": {
       "name": "Stratolaunch",
       "file": "comp_sets/stratolaunch.json",
-      "size": 5321
+      "size": 5319
     },
     "scout-space": {
       "name": "Scout Space",
       "file": "comp_sets/scout-space.json",
-      "size": 5729
+      "size": 5737
     },
     "persona-ai": {
       "name": "Persona AI",
       "file": "comp_sets/persona-ai.json",
-      "size": 4140
+      "size": 4141
     },
     "reflex-robotics": {
       "name": "Reflex Robotics",
       "file": "comp_sets/reflex-robotics.json",
-      "size": 4164
+      "size": 4165
     },
     "nimble-robotics": {
       "name": "Nimble Robotics",
       "file": "comp_sets/nimble-robotics.json",
-      "size": 4529
+      "size": 4530
     },
     "sunday-robotics": {
       "name": "Sunday Robotics",
       "file": "comp_sets/sunday-robotics.json",
-      "size": 4158
+      "size": 4159
     },
     "pivotal": {
       "name": "Pivotal",
@@ -4005,12 +4060,12 @@
     "tomorrow-io": {
       "name": "Tomorrow.io",
       "file": "comp_sets/tomorrow-io.json",
-      "size": 5751
+      "size": 5735
     },
     "sofar-ocean": {
       "name": "Sofar Ocean",
       "file": "comp_sets/sofar-ocean.json",
-      "size": 1027
+      "size": 1016
     },
     "ocean-infinity": {
       "name": "Ocean Infinity",
@@ -4020,27 +4075,27 @@
     "icon": {
       "name": "ICON",
       "file": "comp_sets/icon.json",
-      "size": 1007
+      "size": 1040
     },
     "xaira-therapeutics": {
       "name": "Xaira Therapeutics",
       "file": "comp_sets/xaira-therapeutics.json",
-      "size": 5212
+      "size": 5210
     },
     "genesis-therapeutics": {
       "name": "Genesis Therapeutics",
       "file": "comp_sets/genesis-therapeutics.json",
-      "size": 5289
+      "size": 5287
     },
     "nabla-bio": {
       "name": "Nabla Bio",
       "file": "comp_sets/nabla-bio.json",
-      "size": 5217
+      "size": 5215
     },
     "iambic-therapeutics": {
       "name": "Iambic Therapeutics",
       "file": "comp_sets/iambic-therapeutics.json",
-      "size": 5313
+      "size": 5311
     },
     "rondo-energy": {
       "name": "Rondo Energy",
@@ -4050,7 +4105,7 @@
     "thea-energy": {
       "name": "Thea Energy",
       "file": "comp_sets/thea-energy.json",
-      "size": 4609
+      "size": 4610
     },
     "sila-nanotechnologies": {
       "name": "Sila Nanotechnologies",
@@ -4060,22 +4115,22 @@
     "realta-fusion": {
       "name": "Realta Fusion",
       "file": "comp_sets/realta-fusion.json",
-      "size": 4652
+      "size": 4653
     },
     "mitra-chem": {
       "name": "Mitra Chem",
       "file": "comp_sets/mitra-chem.json",
-      "size": 4462
+      "size": 4457
     },
     "curio-solutions": {
       "name": "Curio Solutions",
       "file": "comp_sets/curio-solutions.json",
-      "size": 4611
+      "size": 4612
     },
     "nuclearn-ai": {
       "name": "Nuclearn.ai",
       "file": "comp_sets/nuclearn-ai.json",
-      "size": 4598
+      "size": 4616
     },
     "emerald-ai": {
       "name": "Emerald AI",
@@ -4085,37 +4140,37 @@
     "elementl-power": {
       "name": "Elementl Power",
       "file": "comp_sets/elementl-power.json",
-      "size": 4610
+      "size": 4651
     },
     "panthalassa": {
       "name": "Panthalassa",
       "file": "comp_sets/panthalassa.json",
-      "size": 4485
+      "size": 4499
     },
     "brinc-drones": {
       "name": "BRINC Drones",
       "file": "comp_sets/brinc-drones.json",
-      "size": 4708
+      "size": 4709
     },
     "lodge-systems": {
       "name": "Lodge Systems",
       "file": "comp_sets/lodge-systems.json",
-      "size": 3817
+      "size": 3818
     },
     "until": {
       "name": "Until",
       "file": "comp_sets/until.json",
-      "size": 5146
+      "size": 5144
     },
     "genesis-ai": {
       "name": "Genesis AI",
       "file": "comp_sets/genesis-ai.json",
-      "size": 4114
+      "size": 4132
     },
     "arena-ai": {
       "name": "Arena AI",
       "file": "comp_sets/arena-ai.json",
-      "size": 4638
+      "size": 4639
     },
     "windborne": {
       "name": "Windborne",
@@ -4125,12 +4180,12 @@
     "sagence": {
       "name": "Sagence",
       "file": "comp_sets/sagence.json",
-      "size": 5276
+      "size": 5275
     },
     "spiritus": {
       "name": "Spiritus",
       "file": "comp_sets/spiritus.json",
-      "size": 4317
+      "size": 4330
     },
     "caelux": {
       "name": "Caelux",
@@ -4140,12 +4195,12 @@
     "echodyne": {
       "name": "Echodyne",
       "file": "comp_sets/echodyne.json",
-      "size": 4661
+      "size": 4662
     },
     "epsilon3": {
       "name": "Epsilon3",
       "file": "comp_sets/epsilon3.json",
-      "size": 5678
+      "size": 5676
     },
     "performance-drone-works": {
       "name": "Performance Drone Works",
@@ -4155,22 +4210,22 @@
     "lumaril": {
       "name": "Lumaril",
       "file": "comp_sets/lumaril.json",
-      "size": 4071
+      "size": 4072
     },
     "cognichip": {
       "name": "Cognichip",
       "file": "comp_sets/cognichip.json",
-      "size": 5202
+      "size": 5201
     },
     "looking-glass": {
       "name": "Looking Glass",
       "file": "comp_sets/looking-glass.json",
-      "size": 5206
+      "size": 5205
     },
     "deep-sentinel": {
       "name": "Deep Sentinel",
       "file": "comp_sets/deep-sentinel.json",
-      "size": 4635
+      "size": 4636
     },
     "luxwall": {
       "name": "LuxWall",
@@ -4190,57 +4245,57 @@
     "cambium": {
       "name": "Cambium",
       "file": "comp_sets/cambium.json",
-      "size": 4641
+      "size": 4642
     },
     "terra-industries": {
       "name": "Terra Industries",
       "file": "comp_sets/terra-industries.json",
-      "size": 4624
+      "size": 4625
     },
     "wispr-ai": {
       "name": "Wispr AI",
       "file": "comp_sets/wispr-ai.json",
-      "size": 5135
+      "size": 5145
     },
     "aim-intelligent-machines": {
       "name": "AIM Intelligent Machines",
       "file": "comp_sets/aim-intelligent-machines.json",
-      "size": 4525
+      "size": 4526
     },
     "fulfil": {
       "name": "Fulfil",
       "file": "comp_sets/fulfil.json",
-      "size": 4614
+      "size": 4615
     },
     "unconventional-ai": {
       "name": "Unconventional AI",
       "file": "comp_sets/unconventional-ai.json",
-      "size": 4966
+      "size": 5006
     },
     "sunflower-labs": {
       "name": "Sunflower Labs",
       "file": "comp_sets/sunflower-labs.json",
-      "size": 3758
+      "size": 3793
     },
     "jitx": {
       "name": "JITX",
       "file": "comp_sets/jitx.json",
-      "size": 4488
+      "size": 4532
     },
     "keen-technologies": {
       "name": "Keen Technologies",
       "file": "comp_sets/keen-technologies.json",
-      "size": 4108
+      "size": 4109
     },
     "nuvacore": {
       "name": "Nuvacore",
       "file": "comp_sets/nuvacore.json",
-      "size": 4443
+      "size": 4442
     },
     "halo": {
       "name": "Halo",
       "file": "comp_sets/halo.json",
-      "size": 5276
+      "size": 5309
     },
     "isee": {
       "name": "ISEE",
@@ -4250,22 +4305,22 @@
     "mojo-vision": {
       "name": "Mojo Vision",
       "file": "comp_sets/mojo-vision.json",
-      "size": 5290
+      "size": 5305
     },
     "alpha-school": {
       "name": "Alpha School",
       "file": "comp_sets/alpha-school.json",
-      "size": 3765
+      "size": 3768
     },
     "sierra-space": {
       "name": "Sierra Space",
       "file": "comp_sets/sierra-space.json",
-      "size": 5795
+      "size": 5793
     },
     "cesiumastro": {
       "name": "CesiumAstro",
       "file": "comp_sets/cesiumastro.json",
-      "size": 5824
+      "size": 5822
     },
     "jetzero": {
       "name": "JetZero",
@@ -4275,7 +4330,7 @@
     "x-bow-systems": {
       "name": "X-Bow Systems",
       "file": "comp_sets/x-bow-systems.json",
-      "size": 4668
+      "size": 4669
     },
     "lyten": {
       "name": "Lyten",
@@ -4290,7 +4345,7 @@
     "xona-space-systems": {
       "name": "Xona Space Systems",
       "file": "comp_sets/xona-space-systems.json",
-      "size": 5849
+      "size": 5847
     },
     "electra-aero": {
       "name": "Electra.aero",
@@ -4300,27 +4355,27 @@
     "loft-orbital": {
       "name": "Loft Orbital",
       "file": "comp_sets/loft-orbital.json",
-      "size": 5826
+      "size": 5824
     },
     "compound-eye": {
       "name": "Compound Eye",
       "file": "comp_sets/compound-eye.json",
-      "size": 4635
+      "size": 4636
     },
     "thinkorbital": {
       "name": "ThinkOrbital",
       "file": "comp_sets/thinkorbital.json",
-      "size": 5385
+      "size": 5383
     },
     "viken-detection": {
       "name": "Viken Detection",
       "file": "comp_sets/viken-detection.json",
-      "size": 4665
+      "size": 4666
     },
     "havoc-ai": {
       "name": "Havoc AI",
       "file": "comp_sets/havoc-ai.json",
-      "size": 1506
+      "size": 1250
     },
     "noveon-magnetics": {
       "name": "Noveon Magnetics",
@@ -4330,17 +4385,17 @@
     "code-metal": {
       "name": "Code Metal",
       "file": "comp_sets/code-metal.json",
-      "size": 4724
+      "size": 4725
     },
     "project-omega": {
       "name": "Project Omega",
       "file": "comp_sets/project-omega.json",
-      "size": 4521
+      "size": 4522
     },
     "9-mothers": {
       "name": "9 Mothers",
       "file": "comp_sets/9-mothers.json",
-      "size": 4640
+      "size": 4641
     },
     "albacore": {
       "name": "Albacore",
@@ -4352,40 +4407,30 @@
       "file": "comp_sets/american-housing-corporation.json",
       "size": 1750
     },
-    "atom": {
-      "name": "Atom",
-      "file": "comp_sets/atom.json",
-      "size": 4795
-    },
     "bohr-systems": {
       "name": "Bohr Systems",
       "file": "comp_sets/bohr-systems.json",
-      "size": 3878
+      "size": 3879
     },
     "heaviside": {
       "name": "Heaviside",
       "file": "comp_sets/heaviside.json",
-      "size": 4593
+      "size": 4594
     },
     "maglut-heavy-industries": {
       "name": "Maglut Heavy Industries",
       "file": "comp_sets/maglut-heavy-industries.json",
-      "size": 3795
+      "size": 3796
     },
     "mesh-optical-technologies": {
       "name": "Mesh Optical Technologies",
       "file": "comp_sets/mesh-optical-technologies.json",
-      "size": 5274
+      "size": 5273
     },
     "periodic-labs": {
       "name": "Periodic Labs",
       "file": "comp_sets/periodic-labs.json",
-      "size": 3915
-    },
-    "ulysses-ecosystem-engineering": {
-      "name": "Ulysses Ecosystem Engineering",
-      "file": "comp_sets/ulysses-ecosystem-engineering.json",
-      "size": 1561
+      "size": 3918
     },
     "western-chemicals": {
       "name": "Western Chemicals",
@@ -4395,42 +4440,42 @@
     "zephyr-fusion": {
       "name": "Zephyr Fusion",
       "file": "comp_sets/zephyr-fusion.json",
-      "size": 4760
+      "size": 4761
     },
     "lace-lithography": {
       "name": "Lace Lithography",
       "file": "comp_sets/lace-lithography.json",
-      "size": 5237
+      "size": 5236
     },
     "citra-space-corporation": {
       "name": "Citra Space Corporation",
       "file": "comp_sets/citra-space-corporation.json",
-      "size": 5705
+      "size": 5719
     },
     "star-catcher": {
       "name": "Star Catcher",
       "file": "comp_sets/star-catcher.json",
-      "size": 5720
+      "size": 5718
     },
     "union": {
       "name": "Union",
       "file": "comp_sets/union.json",
-      "size": 4645
+      "size": 4646
     },
     "swan": {
       "name": "Swan",
       "file": "comp_sets/swan.json",
-      "size": 4610
+      "size": 4636
     },
     "volund-manufacturing": {
       "name": "Volund Manufacturing",
       "file": "comp_sets/volund-manufacturing.json",
-      "size": 4858
+      "size": 4859
     },
     "foundry-robotics": {
       "name": "Foundry Robotics",
       "file": "comp_sets/foundry-robotics.json",
-      "size": 4109
+      "size": 4110
     },
     "odin-dynamics": {
       "name": "Odin Dynamics",
@@ -4440,17 +4485,17 @@
     "mind-robotics": {
       "name": "Mind Robotics",
       "file": "comp_sets/mind-robotics.json",
-      "size": 4534
+      "size": 4506
     },
     "vector-defense": {
       "name": "Vector Defense",
       "file": "comp_sets/vector-defense.json",
-      "size": 4606
+      "size": 4646
     },
     "westmag": {
       "name": "Westmag",
       "file": "comp_sets/westmag.json",
-      "size": 4088
+      "size": 4106
     },
     "voya-energy": {
       "name": "Voya Energy",
@@ -4465,127 +4510,127 @@
     "world-labs": {
       "name": "World Labs",
       "file": "comp_sets/world-labs.json",
-      "size": 4173
+      "size": 4176
     },
     "foxglove": {
       "name": "Foxglove",
       "file": "comp_sets/foxglove.json",
-      "size": 4634
+      "size": 4635
     },
     "blacksea-technologies": {
       "name": "BlackSea Technologies",
       "file": "comp_sets/blacksea-technologies.json",
-      "size": 3868
+      "size": 3869
     },
     "cuspai": {
       "name": "CuspAI",
       "file": "comp_sets/cuspai.json",
-      "size": 4125
+      "size": 4128
     },
     "hawkeye-360": {
       "name": "HawkEye 360",
       "file": "comp_sets/hawkeye-360.json",
-      "size": 4882
+      "size": 4880
     },
     "strata-robotics": {
       "name": "Strata Robotics",
       "file": "comp_sets/strata-robotics.json",
-      "size": 4102
+      "size": 4113
     },
     "orbital-operations": {
       "name": "Orbital Operations",
       "file": "comp_sets/orbital-operations.json",
-      "size": 5394
+      "size": 5392
     },
     "orbital-inc": {
       "name": "Orbital Inc.",
       "file": "comp_sets/orbital-inc.json",
-      "size": 4885
+      "size": 4882
     },
     "sift-stack": {
       "name": "Sift Stack",
       "file": "comp_sets/sift-stack.json",
-      "size": 4268
+      "size": 4271
     },
     "cape": {
       "name": "Cape",
       "file": "comp_sets/cape.json",
-      "size": 4647
+      "size": 4648
     },
     "lambda": {
       "name": "Lambda",
       "file": "comp_sets/lambda.json",
-      "size": 4110
+      "size": 4200
     },
     "noda-ai": {
       "name": "NODA AI",
       "file": "comp_sets/noda-ai.json",
-      "size": 4565
+      "size": 4566
     },
     "turbineone": {
       "name": "TurbineOne",
       "file": "comp_sets/turbineone.json",
-      "size": 4704
+      "size": 4706
     },
     "onebrief": {
       "name": "Onebrief",
       "file": "comp_sets/onebrief.json",
-      "size": 4551
+      "size": 4552
     },
     "defcon-ai": {
       "name": "DEFCON AI",
       "file": "comp_sets/defcon-ai.json",
-      "size": 4649
+      "size": 4650
     },
     "breaker-industries": {
       "name": "Breaker Industries",
       "file": "comp_sets/breaker-industries.json",
-      "size": 4660
+      "size": 4661
     },
     "scale-ai": {
       "name": "Scale AI",
       "file": "comp_sets/scale-ai.json",
-      "size": 3975
+      "size": 3978
     },
     "together-ai": {
       "name": "Together AI",
       "file": "comp_sets/together-ai.json",
-      "size": 4123
+      "size": 4126
     },
     "maritime-fusion": {
       "name": "Maritime Fusion",
       "file": "comp_sets/maritime-fusion.json",
-      "size": 1677
+      "size": 1666
     },
     "atmo": {
       "name": "Atmo",
       "file": "comp_sets/atmo.json",
-      "size": 4111
+      "size": 4114
     },
     "integrate": {
       "name": "Integrate",
       "file": "comp_sets/integrate.json",
-      "size": 4591
+      "size": 4592
     },
     "gallatin-ai": {
       "name": "Gallatin AI",
       "file": "comp_sets/gallatin-ai.json",
-      "size": 4651
+      "size": 4652
     },
     "kelluu": {
       "name": "Kelluu",
       "file": "comp_sets/kelluu.json",
-      "size": 4242
+      "size": 4256
     },
     "reflection-ai": {
       "name": "Reflection AI",
       "file": "comp_sets/reflection-ai.json",
-      "size": 4101
+      "size": 4104
     },
     "sygaldry-technologies": {
       "name": "Sygaldry Technologies",
       "file": "comp_sets/sygaldry-technologies.json",
-      "size": 4141
+      "size": 4144
     },
     "stardust-solutions": {
       "name": "Stardust Solutions",
@@ -4595,77 +4640,77 @@
     "govini": {
       "name": "Govini",
       "file": "comp_sets/govini.json",
-      "size": 4285
+      "size": 4286
     },
     "vermeer": {
       "name": "Vermeer",
       "file": "comp_sets/vermeer.json",
-      "size": 4587
+      "size": 4588
     },
     "foundation-robotics": {
       "name": "Foundation Robotics",
       "file": "comp_sets/foundation-robotics.json",
-      "size": 4520
+      "size": 4521
     },
     "perennial-autonomy": {
       "name": "Perennial Autonomy",
       "file": "comp_sets/perennial-autonomy.json",
-      "size": 3872
+      "size": 3873
     },
     "anello-photonics": {
       "name": "Anello Photonics",
       "file": "comp_sets/anello-photonics.json",
-      "size": 3804
+      "size": 3805
     },
     "hybron": {
       "name": "Hybron",
       "file": "comp_sets/hybron.json",
-      "size": 4090
+      "size": 4091
     },
     "onodrim-industries": {
       "name": "Onodrim Industries",
       "file": "comp_sets/onodrim-industries.json",
-      "size": 4328
+      "size": 4329
     },
     "interlune": {
       "name": "Interlune",
       "file": "comp_sets/interlune.json",
-      "size": 4892
+      "size": 4890
     },
     "phantom-space": {
       "name": "Phantom Space",
       "file": "comp_sets/phantom-space.json",
-      "size": 4908
+      "size": 4906
     },
     "ethos-space": {
       "name": "Ethos Space",
       "file": "comp_sets/ethos-space.json",
-      "size": 4897
+      "size": 4909
     },
     "black-forest-labs": {
       "name": "Black Forest Labs",
       "file": "comp_sets/black-forest-labs.json",
-      "size": 4310
+      "size": 4313
     },
     "cartesia": {
       "name": "Cartesia",
       "file": "comp_sets/cartesia.json",
-      "size": 4298
+      "size": 4301
     },
     "sereact": {
       "name": "Sereact",
       "file": "comp_sets/sereact.json",
-      "size": 4631
+      "size": 4632
     },
     "dyna-robotics": {
       "name": "Dyna Robotics",
       "file": "comp_sets/dyna-robotics.json",
-      "size": 4528
+      "size": 4529
     },
     "archetype-ai": {
       "name": "Archetype AI",
       "file": "comp_sets/archetype-ai.json",
-      "size": 3945
+      "size": 3948
     },
     "shine-technologies": {
       "name": "Shine Technologies",
@@ -4685,7 +4730,7 @@
     "sandboxaq": {
       "name": "SandboxAQ",
       "file": "comp_sets/sandboxaq.json",
-      "size": 4094
+      "size": 4189
     },
     "portal-biotech": {
       "name": "Portal Biotech",
