@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T08:30:31+00:00",
+  "generatedAt": "2026-06-28T08:44:35+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 40,
+  "cohortSize": 43,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 40
+    "unverifiable": 43
   },
   "cleared": [],
   "changesProposed": [],
@@ -97,6 +97,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Outpost Space",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Palantir",
       "reason": "Claude extraction failed"
     },
@@ -141,6 +145,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Space Forge",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "SpaceX",
       "reason": "Claude extraction failed"
     },
@@ -154,6 +162,10 @@
     },
     {
       "name": "Synspective",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Varda Space Industries",
       "reason": "Claude extraction failed"
     },
     {
