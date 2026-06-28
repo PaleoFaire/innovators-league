@@ -66435,7 +66435,7 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-28 19:41
+// Last updated: 2026-06-28 21:12
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "OpenAI", headline: "Apple Vision Pro exec is reportedly leaving for OpenAI", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "milestone", company: "Anthropic", headline: "Asian AI startups launch Mythos-like  models as Anthropic's export ban drags on", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
