@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-27";
+const LAST_UPDATED = "2026-06-28";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -65597,13 +65597,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-27 22:11
+// Last updated: 2026-06-28 00:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Apple Vision Pro exec is reportedly leaving for OpenAI", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Anthropic", headline: "Asian AI startups launch Mythos-like  models as Anthropic's export ban drags on", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "SpaceX", headline: "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh", source: "TechCrunch", time: "21h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "21h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "23h ago", impact: "medium", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "Apple Vision Pro exec is reportedly leaving for OpenAI", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Anthropic", headline: "Asian AI startups launch Mythos-like  models as Anthropic's export ban drags on", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "SpaceX", headline: "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "23h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
   { id: 6, type: "news", company: "OpenAI", headline: "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn't be the norm", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "hire", company: "OpenAI", headline: "OpenAI poaches Uber India chief to lead its biggest market outside the US", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "SpaceX", headline: "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
@@ -65613,7 +65613,7 @@ const COMPANY_SIGNALS = [
   { id: 12, type: "news", company: "OpenAI", headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
   { id: 14, type: "news", company: "Anthropic", headline: "Anthropic Thinks Its Own Success Is Key to Making AI Safe", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "OpenAI", headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "OpenAI", headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
