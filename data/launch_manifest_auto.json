@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-06-26",
-    "vehicle": "Electron | Ten Owl Of Ten (StriX Launch 10)",
-    "payload": "Ten Owl Of Ten (StriX Launch 10)",
-    "pad": "Rocket Lab Launch Complex 1B, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
     "date": "2026-06-28",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-40",
     "payload": "Starlink Group 17-40",
@@ -447,6 +438,15 @@
     "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
     "provider": "Firefly Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/875ba957-be5f-42bd-8a6e-ed98254f572a/?format=json",
+    "trackedCompany": "Firefly Aerospace"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Firefly Alpha Block 2 | QuickSounder",
+    "payload": "QuickSounder",
+    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
+    "provider": "Firefly Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d1a3807e-f304-467c-a095-e08b86924347/?format=json",
     "trackedCompany": "Firefly Aerospace"
   }
 ]

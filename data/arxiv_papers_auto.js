@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-06-27 09:19:56 UTC
+// Last updated: 2026-06-28 09:50:14 UTC
 const ARXIV_PAPERS = [
   { id: "2606.27334v1", title: "Language-Based Digital Twins for Elderly Cognitive Assistance", category: "Artificial Intelligence", published: "2026-06-25", sectors: "ai", authors: "Mohammad Mehdi Hosseini, Mohammad H. Mahoor, Hiroko H. Dodge" },
   { id: "2606.27321v1", title: "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders", category: "Artificial Intelligence", published: "2026-06-25", sectors: "ai", authors: "Nathanaël Jacquier, Maria Vakalopoulou, Mahdi S. Hosseini" },

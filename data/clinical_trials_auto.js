@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-06-27 09:19:48 UTC
+// Last updated: 2026-06-28 09:49:59 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT07361510", title: "A Study to Evaluate the Efficacy of Pumitamig Versus Pembrolizumab in Participan", status: "RECRUITING", phase: "PHASE3", sponsor: "Bristol-Myers Squibb", conditions: "Non-Small Cell Lung Cancer (NSCLC)", enrollment: 750, lastUpdated: "2026-06-26" },
   { nctId: "NCT07221149", title: "A Study to Evaluate the Safety and Efficacy of Pumitamig in Combination With Che", status: "RECRUITING", phase: "PHASE2, PHASE3", sponsor: "Bristol-Myers Squibb", conditions: "Untreated Advanced or Metastatic Gastric, Gastroes", enrollment: 690, lastUpdated: "2026-06-26" },

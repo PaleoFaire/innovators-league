@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-06-27 09:19:40 UTC
+// Last updated: 2026-06-28 09:49:56 UTC
 const PRESS_RELEASES = [
   { title: "Rocket Lab launches 10th Synspective satellite", date: "2026-06-26", companies: "Rocket Lab, Synspective, Figure AI", categories: "product, ipo", source: "spacenews" },
   { title: "Rocket Lab wins NASA award for three Electron launches", date: "2026-06-25", companies: "Rocket Lab, Figure AI", categories: "contract, product", source: "spacenews" },

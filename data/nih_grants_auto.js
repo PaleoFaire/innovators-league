@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-06-27 09:19:41 UTC
-// Total grants: 636 | Known companies: 17 | SBIR: 17
-// Total funding tracked: $402,243,347
+// Last updated: 2026-06-28 09:50:04 UTC
+// Total grants: 636 | Known companies: 16 | SBIR: 17
+// Total funding tracked: $401,860,032
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -2331,19 +2331,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Host genetics, early-life microbiome, and childhood asthma: MARC-43 Boston",
-    organization: "MASSACHUSETTS GENERAL HOSPITAL",
-    orgState: "MA",
-    piName: "CARLOS ARTURO CAMARGO",
-    fiscalYear: 2026,
-    awardAmount: 668574,
-    activityCode: "UH3",
-    isSbir: false,
-    abstract: "Recent studies report probabilistic associations between the early-life microbiome and various child health outcomes (e.g., obesity, asthma), suggesting potential insights into pathogenesis and subseq",
-    terms: ["0 year old", "2 year old", "4 year old", "6 year old", "Affect", "Airway Disease", "Area", "Asthma"],
-    isKnownCompany: true,
-  },
-  {
     title: "Naturalistic electrical stimulation strategies for effective visual cortical prostheses",
     organization: "UNIVERSITY OF PENNSYLVANIA",
     orgState: "PA",
@@ -3901,6 +3888,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY Diffuse large B-cell lymphoma (DLBCL) and follicular lymphoma (FL) arise from germinal center (GC) B cells; a stage at which precursor B cells undergo rounds of proliferation, edit the",
     terms: ["Actomyosin", "Affect", "Affinity", "Antigens", "Automobile Driving", "B cell differentiation", "B-Cell Activation", "B-Cell Lymphomas"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Bacterial biosensors for the prevention of gastrointestinal cancers",
+    organization: "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+    orgState: "CA",
+    piName: "JEFF M HASTY",
+    fiscalYear: 2026,
+    awardAmount: 511174,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Project Summary One-third of all cancer related deaths world-wide result from gastrointestinal (GI) cancers, including colorectal (CRC) and pancreatic cancer (PC). Soberingly, 50,000 Americans die eve",
+    terms: ["Acceleration", "Address", "Adjuvant Therapy", "American", "Anaerobic Bacteria", "Australia", "Bacteria", "Benign"],
     isKnownCompany: false,
   },
 ];
