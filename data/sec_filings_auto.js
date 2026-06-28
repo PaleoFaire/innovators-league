@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-06-27 08:41:12 UTC
+// Last updated: 2026-06-28 09:16:31 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Intuitive Machines", form: "4", date: "2026-06-26", description: "xslF345X06/form4-06262026_050631.xml", isIPO: false, ticker: "LUNR" },
   { company: "IonQ", form: "8-K", date: "2026-06-26", description: "bakkt-20260625.htm", isIPO: false, ticker: "IONQ" },
