@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-06-21
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-06-28
 
-**Roster:** 1092 companies tracked  ·  **Screened this cycle:** 262  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1101 companies tracked  ·  **Screened this cycle:** 216  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -128,6 +128,7 @@ Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 Recent episodes from the scout's podcast sources. Scan titles for company names the LLM may have missed.
 
 - **[Core Memory]** [The Startup Trying to Save Us From AI Bioweapons- EP 74 Hannu Rajaniemi](https://www.corememory.com/p/red-queen-bio-hannu-rajaniemi-ai-biosecurity)
+- **[Core Memory]** [The Manufacturing Phenomenon That Is SendCutSend - EP 79 Jim Belosic](https://www.corememory.com/p/the-manufacturing-phenomenon-sendcutsend-jim-belosic)
 - **[Core Memory]** [The Freshman Who Took Down Stanford's President And Its Perfect Image - EP 72 Theo Baker](https://www.corememory.com/p/the-freshman-who-took-down-stanford-theo-baker)
 - **[Invest Like the Best]** [Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]](https://colossus.com/episode/watts-and-wafers/)
 - **[TBPN]** [Snap SPECS, Taste Labs Timeline Turmoil, AI Execs at G7 | Diet TBPN](https://share.transistor.fm/s/0e942686)
@@ -136,9 +137,8 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 - **[Core Memory]** [Meta's AI Chief On AI Beef, New Models And Life With Zuck - EP 71 Alex Wang](https://www.corememory.com/p/metas-ai-chief-alex-wang-muse-spark-ai-wars)
 - **[Invest Like the Best]** [Krishna Rao - Anthropic's CFO on Compute, Scaling to $30B ARR, and the Returns to Frontier Intelligence - [Invest Like t](https://colossus.com/episode/cone-of-uncertainty/)
 - **[All-In]** [Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner](https://allinchamathjason.libsyn.com/senators-john-fetterman-and-dave-mccormick-bipartisanship-money-in-dc-datacenters-graham-platner)
-- **[TBPN]** [Cloudflare CEO Predicts AI Agents Will Outnumber Humans 1,000-to-1](https://share.transistor.fm/s/b5f0e80c)
 
 ---
 
 
-*Generated 2026-06-21T11:44:13+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-06-28T11:08:50+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
