@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T09:17:41.004995Z",
+  "generated_at": "2026-06-28T10:24:28.272446Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -19,16 +19,6 @@
       "date": "Tue, 23 Ju",
       "source": "news",
       "source_url": "https://news.crunchbase.com/venture/menlo-ventures-raise-ai-startup-funding-across-stages-anthropic/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "NY Times Reporting OpenAI May Delay IPO to 2027",
-      "date": "Thu, 25 Ju",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/06/ny-times-reporting-openai-may-delay-ipo-to-2027.html",
       "signal_type": "funding"
     },
     {
@@ -55,7 +45,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 4,
     "from_press": 0
   }
 }

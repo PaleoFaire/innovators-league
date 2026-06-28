@@ -1,84 +1,84 @@
 {
-  "date": "2026-06-22",
-  "display_date": "Jun 22, 2026",
-  "generated_at": "2026-06-22T15:26:39.010814+00:00",
-  "cutoff": "2026-06-15T15:26:39.010814+00:00",
+  "date": "2026-06-28",
+  "display_date": "Jun 28, 2026",
+  "generated_at": "2026-06-28T11:36:12.527302+00:00",
+  "cutoff": "2026-06-21T11:36:12.527302+00:00",
   "section_count": 7,
-  "total_items": 256,
+  "total_items": 308,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 16,
+      "count": 29,
       "items": [
         {
-          "company": "Scale AI",
-          "current": 47.0,
-          "previous": 44.0,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
           "company": "Project Omega",
-          "current": 37.0,
-          "previous": 34.0,
-          "change": 3.0,
+          "current": 34.0,
+          "previous": 37.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Zephyr Fusion",
-          "current": 37.0,
-          "previous": 34.0,
-          "change": 3.0,
+          "current": 34.0,
+          "previous": 37.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Cemvita",
-          "current": 36.5,
-          "previous": 33.5,
-          "change": 3.0,
+          "current": 33.5,
+          "previous": 36.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Panthalassa",
-          "current": 36.5,
-          "previous": 33.5,
-          "change": 3.0,
+          "current": 33.5,
+          "previous": 36.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "LuxWall",
-          "current": 36.5,
-          "previous": 33.5,
-          "change": 3.0,
+          "current": 33.5,
+          "previous": 36.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Windborne",
-          "current": 36.0,
-          "previous": 33.0,
-          "change": 3.0,
+          "current": 33.0,
+          "previous": 36.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Spiritus",
-          "current": 36.0,
-          "previous": 33.0,
-          "change": 3.0,
+          "current": 33.0,
+          "previous": 36.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Caelux",
-          "current": 36.0,
-          "previous": 33.0,
-          "change": 3.0,
+          "current": 33.0,
+          "previous": 36.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Planted Solar",
-          "current": 36.0,
-          "previous": 33.0,
-          "change": 3.0,
+          "current": 33.0,
+          "previous": 36.0,
+          "change": -3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Tempo",
+          "current": 33.0,
+          "previous": 36.0,
+          "change": -3.0,
           "tier": "early"
         }
       ]
@@ -86,62 +86,62 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 39,
+      "count": 35,
       "items": [
         {
-          "company": "Momentus",
+          "company": "Virgin Galactic",
           "form": "8-K",
-          "description": "tm2618205d1_8k.htm",
-          "date": "2026-06-17",
+          "description": "d106173d8k.htm",
+          "date": "2026-06-22",
           "isIPO": false
         },
         {
-          "company": "Centrus Energy",
+          "company": "IonQ",
           "form": "8-K",
-          "description": "leu-20260618.htm",
-          "date": "2026-06-18",
+          "description": "bakkt-20260625.htm",
+          "date": "2026-06-26",
           "isIPO": false
         },
         {
-          "company": "Centrus Energy",
+          "company": "Rivian",
           "form": "8-K",
-          "description": "leu-20260618.htm",
-          "date": "2026-06-18",
+          "description": "rivn-20260622.htm",
+          "date": "2026-06-26",
+          "isIPO": false
+        },
+        {
+          "company": "Satellogic",
+          "form": "8-K",
+          "description": "ea0295875-8k_zoomcar.htm",
+          "date": "2026-06-25",
+          "isIPO": false
+        },
+        {
+          "company": "Satellogic",
+          "form": "8-K",
+          "description": "ea0295693-8k_zoomcar.htm",
+          "date": "2026-06-23",
           "isIPO": false
         },
         {
           "company": "C3.ai",
-          "form": "8-K",
-          "description": "ai-20260611.htm",
-          "date": "2026-06-16",
+          "form": "10-K",
+          "description": "ai-20260430.htm",
+          "date": "2026-06-24",
           "isIPO": false
         },
         {
-          "company": "D-Wave Quantum",
-          "form": "8-K",
-          "description": "qbts-20260618.htm",
-          "date": "2026-06-18",
+          "company": "AST SpaceMobile",
+          "form": "4",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-06-23",
           "isIPO": false
         },
         {
-          "company": "Recursion Pharmaceuticals",
-          "form": "8-K",
-          "description": "rxrx-20260617.htm",
-          "date": "2026-06-18",
-          "isIPO": false
-        },
-        {
-          "company": "Joby Aviation",
-          "form": "8-K",
-          "description": "skyt-20260616x8k.htm",
-          "date": "2026-06-16",
-          "isIPO": false
-        },
-        {
-          "company": "Agrify Corporation",
-          "form": "8-K",
-          "description": "ea0295164-8k_rythm.htm",
-          "date": "2026-06-18",
+          "company": "Intuitive Machines",
+          "form": "4",
+          "description": "xslF345X06/form4-06262026_050631.xml",
+          "date": "2026-06-26",
           "isIPO": false
         }
       ]
@@ -149,7 +149,7 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 2,
+      "count": 5,
       "items": [
         {
           "title": "SIP TO128 1ST QUARTER HARDWARE BUY",
@@ -158,74 +158,95 @@
           "date": "2026-08-06"
         },
         {
+          "title": "THIS ORDER PROVIDES HOMELAND SECURITY INVESTIGATIONS SYSTEM MODERNIZATION FOR THE INVESTIGATIVE CASE MANAGEMENT AND INVE",
+          "agency": "",
+          "value": "",
+          "date": "2026-06-26"
+        },
+        {
           "title": "PALANTIR SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) SECURE NETWORK STARLIGHT PLATFORM IN SUPPORT OF USDA FOOD AND ",
           "agency": "",
           "value": "",
           "date": "2026-06-22"
+        },
+        {
+          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
+          "agency": "",
+          "value": "",
+          "date": "2026-06-23"
+        },
+        {
+          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
+          "agency": "",
+          "value": "",
+          "date": "2026-06-24"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 22,
+      "count": 51,
       "items": [
         {
-          "title": "City of Spokane; Notice of Scoping Comment Sessions and Environmental Site Review",
-          "type": "Notice",
+          "title": "Technical Guidelines for the Production of Regenerative Agricultural Biofuel Feedstocks",
+          "type": "Rule",
           "agencies": [
-            "Energy Department",
-            "Federal Energy Regulatory Commission"
+            "Agriculture Department",
+            "Energy and Environmental Policy Office"
           ],
           "significant": false,
-          "date": "2026-06-22"
+          "date": "2026-06-29"
         },
         {
-          "title": "Permitted Payment Stablecoin Issuer Customer Identification Program",
+          "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Turnagain Marine Constru",
+          "type": "Notice",
+          "agencies": [
+            "Commerce Department",
+            "National Oceanic and Atmospheric Administration"
+          ],
+          "significant": false,
+          "date": "2026-06-29"
+        },
+        {
+          "title": "Establishment Registration and Product Listing for Tobacco Products",
           "type": "Proposed Rule",
           "agencies": [
-            "Treasury Department",
-            "Financial Crimes Enforcement Network"
+            "Health and Human Services Department",
+            "Food and Drug Administration"
           ],
           "significant": false,
-          "date": "2026-06-22"
+          "date": "2026-06-29"
         },
         {
-          "title": "Public Notice: Design Challenge for National Memorial to Fallen Highway Workers in Work Zones",
+          "title": "National Institute of Environmental Health Sciences; Notice of Meeting",
           "type": "Notice",
           "agencies": [
-            "Transportation Department",
-            "Federal Highway Administration"
+            "Health and Human Services Department",
+            "National Institutes of Health"
           ],
           "significant": false,
-          "date": "2026-06-22"
+          "date": "2026-06-29"
         },
         {
-          "title": "Congressional Review Act Revocation of 2024 Amendments to the National Emission Standards for Hazardous Air Pollutants: ",
-          "type": "Rule",
-          "agencies": [
-            "Environmental Protection Agency"
-          ],
-          "significant": false,
-          "date": "2026-06-22"
-        },
-        {
-          "title": "Air Plan Approval; OR; Update to Materials Incorporated by Reference",
-          "type": "Rule",
-          "agencies": [
-            "Environmental Protection Agency"
-          ],
-          "significant": false,
-          "date": "2026-06-22"
-        },
-        {
-          "title": "Self-Regulatory Organizations; NYSE Texas, Inc.; Notice of Filing of Proposed Rule Change To Add a New Partial Cabinet S",
+          "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Geophysical Surveys Related to Oil and Gas Acti",
           "type": "Notice",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Commerce Department",
+            "National Oceanic and Atmospheric Administration"
           ],
           "significant": false,
-          "date": "2026-06-22"
+          "date": "2026-06-29"
+        },
+        {
+          "title": "Process for Authorizing Seasonal Migratory Game Bird Hunting",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Interior Department",
+            "Fish and Wildlife Service"
+          ],
+          "significant": false,
+          "date": "2026-06-26"
         }
       ]
     },
@@ -235,161 +256,171 @@
       "count": 29,
       "items": [
         {
-          "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
-          "source": "Ars Technica",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
-          "source": "Defense One",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "contract"
-        },
-        {
-          "title": "SpaceX Acquires AI Coding Tool Cursor For $60B In Year\u2019s Largest Startup M&#038;A Deal",
+          "title": "Anthropic Backer Menlo Ventures Raises $3B In New Funds To Back AI Startups Across Stages",
           "source": "Crunchbase News",
-          "company": "SpaceX",
+          "company": "Anthropic",
           "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "Astroscale raises funding to support growth strategy",
-          "source": "SpaceNews",
-          "company": "Astroscale",
-          "impact": "low",
           "type": "funding"
         },
         {
-          "title": "Sea Limited, OpenAI to jointly expand AI access for e-commerce Shopee users, sellers",
-          "source": "TechNode Global",
+          "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+          "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
           "type": "news"
         },
         {
-          "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+          "title": "Asian AI startups launch Mythos-like  models as Anthropic&#8217;s export ban drags on",
           "source": "TechCrunch",
           "company": "Anthropic",
           "impact": "low",
           "type": "milestone"
         },
         {
-          "title": "3 Days Until SPACEX Gamechanger. ANYTHING. ANYWHERE",
-          "source": "Next Big Future",
+          "title": "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
+          "source": "TechCrunch",
           "company": "SpaceX",
           "impact": "low",
+          "type": "funding"
+        },
+        {
+          "title": "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations",
+          "source": "Wired",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "Rocket Lab launches 10th Synspective satellite",
+          "source": "SpaceNews",
+          "company": "Rocket Lab",
+          "impact": "medium",
           "type": "ipo"
         },
         {
-          "title": "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics",
-          "source": "The Robot Report",
-          "company": "GrayMatter Robotics",
+          "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn\u2019t be the norm",
+          "source": "TechCrunch",
+          "company": "OpenAI",
           "impact": "low",
           "type": "news"
+        },
+        {
+          "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+          "source": "TechCrunch",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "hire"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 42,
+      "count": 52,
       "items": [
         {
-          "title": "Identity verification on Claude",
-          "score": 802,
-          "comments": 668,
+          "title": "Om Malik has died",
+          "score": 1312,
+          "comments": 163,
           "companies": [
+            "Conductor Quantum",
+            "ICON"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48678852"
+        },
+        {
+          "title": "U.S. government will decide who gets to use GPT-5.6",
+          "score": 1013,
+          "comments": 1066,
+          "companies": [
+            "Palantir",
+            "OpenAI"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48690101"
+        },
+        {
+          "title": "Previewing GPT\u20115.6 Sol: a next-generation model",
+          "score": 992,
+          "comments": 620,
+          "companies": [
+            "OpenAI",
+            "Grain Weevil",
+            "Skyryse",
+            "Beacon AI",
+            "Biofire"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48689028"
+        },
+        {
+          "title": "We all depend on open source. We will defend it together",
+          "score": 450,
+          "comments": 220,
+          "companies": [
+            "Together AI",
+            "Tenstorrent",
+            "Xanadu Quantum Technologies"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48682737"
+        },
+        {
+          "title": "U.S. allows Anthropic to release Mythos AI to \u2018trusted\u2019 US organizations",
+          "score": 423,
+          "comments": 459,
+          "companies": [
+            "Palantir",
             "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=48618455"
+          "url": "https://news.ycombinator.com/item?id=48692995"
         },
         {
-          "title": "Loupe \u2013 A iOS app that raises awareness about what native apps can see",
-          "score": 530,
-          "comments": 230,
+          "title": "We can still stop California's 3D printer surveillance scheme",
+          "score": 391,
+          "comments": 132,
           "companies": [
-            "Sakana AI"
+            "Asylon Robotics",
+            "ideaForge"
           ],
-          "url": "https://news.ycombinator.com/item?id=48608645"
-        },
-        {
-          "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
-          "score": 444,
-          "comments": 143,
-          "companies": [
-            "Physical Intelligence",
-            "Skild AI",
-            "Covariant"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48622778"
-        },
-        {
-          "title": "The Wholesale Plagiarism of Obscure Sorrows",
-          "score": 403,
-          "comments": 164,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=48611411"
-        },
-        {
-          "title": "Windows 11 New Media Player Uses 3.5x More RAM, Charges for Popular Video Codecs",
-          "score": 317,
-          "comments": 176,
-          "companies": [
-            "Runway"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48609343"
-        },
-        {
-          "title": "VPN ban update for UK households as government looks at 'age-gate'",
-          "score": 305,
-          "comments": 360,
-          "companies": [
-            "Palantir"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48609385"
+          "url": "https://news.ycombinator.com/item?id=48692051"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 106,
+      "count": 107,
       "items": [
         {
-          "title": "Transactions in connection with share buyback programme",
+          "title": "Jura Announces Commencement of Drilling in Maru Lease",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Investeringsforeningen ValueInvest Danmark \u2013 Prospekt",
+          "title": "UPDATE: Rogers Sugar Announces Extention of Collective Agreement at Taber Refinery",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "SEALSQ\u2019s QS7001 Post-Quantum Secure Element Aligned with New ANSSI Post Quantum Mandate",
+          "title": "Space Exploration Technologies Corporation to Join the Nasdaq-100 Index\u00ae Beginning July 7, 2026",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Patriot Bank Expands into Palm Beach and the South Florida Market",
+          "title": "Western Uranium & Vanadium Announces Results of 2026 AGM",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "NeoVolta Confirms FEOC Compliance at Georgia Manufacturing Facility; Commissioning on Track for End of August",
+          "title": "ISC Announces Shareholder and Court Approval of All-Cash Transaction With Plenary Americas",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Achieve Life Sciences Receives Complete Response Letter from FDA for Cytisinicline NDA",
+          "title": "XMax Announces Up to Approximately US$25 million in AI API-Related Service Contracts and Expansion into GPU-as-a-Service",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-06-22-fb5d7911abd9"
+  "brief_id": "brief-2026-06-28-eba931c4b007"
 }

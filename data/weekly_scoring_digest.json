@@ -1,38 +1,18 @@
 {
-  "generated_at": "2026-06-21T11:13:00.676847+00:00",
-  "week_ending": "2026-06-21",
+  "generated_at": "2026-06-28T10:24:25.770422+00:00",
+  "week_ending": "2026-06-28",
   "window_days": 7,
-  "events_processed": 9,
-  "companies_touched": 9,
-  "companies_moved": 3,
-  "companies_unchanged": 1,
+  "events_processed": 7,
+  "companies_touched": 5,
+  "companies_moved": 1,
+  "companies_unchanged": 2,
   "movers_up_top20": [
     {
-      "company": "Recursion Pharmaceuticals",
+      "company": "IonQ",
       "delta": 1.5,
-      "new_composite": 66.5,
-      "old_composite": 65.0,
-      "new_tier": "strong",
-      "reasons": [
-        "[exec_hire_star] "
-      ]
-    },
-    {
-      "company": "Joby Aviation",
-      "delta": 1.5,
-      "new_composite": 69.5,
-      "old_composite": 68.0,
-      "new_tier": "strong",
-      "reasons": [
-        "[exec_hire_star] "
-      ]
-    },
-    {
-      "company": "AST SpaceMobile",
-      "delta": 1.5,
-      "new_composite": 72.5,
-      "old_composite": 71.0,
-      "new_tier": "leader",
+      "new_composite": 94.5,
+      "old_composite": 93.0,
+      "new_tier": "elite",
       "reasons": [
         "[exec_hire_star] "
       ]
@@ -43,76 +23,60 @@
   "first_time_elite": [],
   "top_headlines": [
     {
-      "company": "Centrus Energy",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-18",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-044386%22&dateRange=custom&forms=8-K"
+      "company": "Anthropic",
+      "type": "funding_mega",
+      "detail": "Funding Round $3B",
+      "date": "2026-06-23",
+      "source": "funding_feed",
+      "url": ""
     },
     {
-      "company": "D-Wave Quantum",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-18",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000090%22&dateRange=custom&forms=8-K"
+      "company": "Anthropic",
+      "type": "funding_mega",
+      "detail": "Seed $3B",
+      "date": "2026-06-23",
+      "source": "funding_feed",
+      "url": ""
     },
     {
-      "company": "Recursion Pharmaceuticals",
+      "company": "IonQ",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-18",
+      "date": "2026-06-26",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001601830-26-000080%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-045627%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Agrify Corporation",
+      "company": "Rivian",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-18",
+      "date": "2026-06-26",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-069851%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001874178-26-000045%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Momentus",
+      "company": "Satellogic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-17",
+      "date": "2026-06-25",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-075151%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-071905%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "C3.ai",
+      "company": "Satellogic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-16",
+      "date": "2026-06-23",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001577526-26-000063%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Joby Aviation",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-16",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001819974-26-000024%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "AST SpaceMobile",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-06-15",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001493152-26-028544%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-071110%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "Virgin Galactic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-15",
+      "date": "2026-06-22",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001706946-26-000111%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001193125-26-276740%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {
