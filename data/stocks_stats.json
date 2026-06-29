@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -12.1,
+      "avg_change": -3.19,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -12.73,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -2.42,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -11.98,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -10.54,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -20.6,
+      "avg_change": -13.52,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.74,
+      "avg_change": 4.27,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.55,
+      "avg_change": -8.8,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.06,
+      "avg_change": 13.62,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -5.29,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": 3.92,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.88,
+      "avg_change": -4.67,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "LNZA",
       "LanzaTech",
-      18.5
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      10.78
+      26.81
     ],
     [
       "TEM",
       "Tempus AI",
-      10.42
+      18.01
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      8.98
+      14.81
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      1.27
+      "ASTS",
+      "AST SpaceMobile",
+      11.37
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      9.11
     ]
   ],
   "topLosers": [
     [
-      "RKLB",
-      "Rocket Lab",
-      -21.17
+      "ACHR",
+      "Archer Aviation",
+      -13.17
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      -13.54
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -14.85
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -22.33
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      -22.83
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -23.38
+      -18.51
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -29.56
+      -18.6
     ]
   ],
-  "lastUpdated": "2026-06-29 11:07:22"
+  "lastUpdated": "2026-06-29 15:53:55"
 }
