@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-06-28";
+const LAST_UPDATED = "2026-06-29";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -66735,12 +66735,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-28 23:12
+// Last updated: 2026-06-29 04:52
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "OpenAI", headline: "Apple Vision Pro exec is reportedly leaving for OpenAI", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "milestone", company: "Anthropic", headline: "Asian AI startups launch Mythos-like  models as Anthropic's export ban drags on", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "SpaceX", headline: "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "1d ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "SpaceX", headline: "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "2d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "2d ago", impact: "medium", unread: true },
   { id: 6, type: "news", company: "OpenAI", headline: "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn't be the norm", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "hire", company: "OpenAI", headline: "OpenAI poaches Uber India chief to lead its biggest market outside the US", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
@@ -66748,8 +66748,8 @@ const COMPANY_SIGNALS = [
   { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Has New AI Models. Here's Why You Can't Use Them", source: "Wired", time: "2d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", time: "2d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "OpenAI", headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "2d ago", impact: "medium", unread: false },
-  { id: 13, type: "funding", company: "SpaceX", headline: "SpaceX StarShip 40 Progressing to a Static Fire", source: "Next Big Future", time: "2d ago", impact: "medium", unread: false },
+  { id: 12, type: "milestone", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "3d ago", impact: "medium", unread: false },
+  { id: 13, type: "funding", company: "SpaceX", headline: "SpaceX StarShip 40 Progressing to a Static Fire", source: "Next Big Future", time: "3d ago", impact: "medium", unread: false },
   { id: 14, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins NASA award for three Electron launches", source: "SpaceNews", time: "3d ago", impact: "medium", unread: false },
   { id: 15, type: "news", company: "Zoox", headline: "Zoox Introduces Next-Generation Robotaxi", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
 ];
