@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -12.76,
+      "avg_change": -12.73,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -12.37,
+      "avg_change": -11.98,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.64,
+      "avg_change": 10.06,
       "count": 3
     },
     "transportation": {
@@ -64,6 +64,11 @@
       18.5
     ],
     [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      10.78
+    ],
+    [
       "TEM",
       "Tempus AI",
       10.42
@@ -72,11 +77,6 @@
       "RXRX",
       "Recursion Pharmaceuticals",
       8.98
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      6.52
     ],
     [
       "AUR",
@@ -111,5 +111,5 @@
       -29.56
     ]
   ],
-  "lastUpdated": "2026-06-29 04:17:01"
+  "lastUpdated": "2026-06-29 11:07:22"
 }
