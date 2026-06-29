@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-28T10:24:27.327935Z",
+  "generated_at": "2026-06-29T11:09:17.900802Z",
   "platform": {
-    "companiesTracked": 950,
+    "companiesTracked": 964,
     "sectorsMonitored": 20,
-    "totalCapitalRaisedTracked": "$451.9B",
+    "totalCapitalRaisedTracked": "$456.7B",
     "totalValuationTracked": "$2026.9B",
     "companiesWithValuation": 163,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
     "dealsTracked": 227,
-    "newsItemsTracked": 42,
-    "dataPointsUpdated": "38,000+"
+    "newsItemsTracked": 43,
+    "dataPointsUpdated": "38,560+"
   },
   "topFunds": [
     {
@@ -103,6 +103,18 @@
       ]
     },
     {
+      "fund": "General Catalyst",
+      "portfolio_count": 6,
+      "companies": [
+        "Alsym Energy",
+        "Collaborative Robotics",
+        "Onodrim Industries",
+        "Pacific Fusion",
+        "Together AI",
+        "Vital Lyfe"
+      ]
+    },
+    {
       "fund": "NATO Innovation Fund",
       "portfolio_count": 6,
       "companies": [
@@ -112,17 +124,6 @@
         "Kelluu",
         "Portal Biotech",
         "Stark Defence"
-      ]
-    },
-    {
-      "fund": "General Catalyst",
-      "portfolio_count": 5,
-      "companies": [
-        "Collaborative Robotics",
-        "Onodrim Industries",
-        "Pacific Fusion",
-        "Together AI",
-        "Vital Lyfe"
       ]
     },
     {
@@ -233,19 +234,19 @@
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 165,
+    "Space & Aerospace": 166,
     "Defense & Security": 150,
-    "Robotics & Manufacturing": 132,
-    "Climate & Energy": 126,
-    "Biotech & Health": 68,
-    "Chips & Semiconductors": 68,
+    "Robotics & Manufacturing": 135,
+    "Climate & Energy": 129,
+    "Chips & Semiconductors": 71,
+    "Biotech & Health": 69,
     "Nuclear Energy": 54,
-    "Quantum Computing": 44,
+    "Quantum Computing": 45,
     "AI & Software": 35,
-    "Drones & Autonomous": 32,
+    "Drones & Autonomous": 33,
     "Transportation": 24,
+    "Ocean & Maritime": 12,
     "Energy & Climate": 11,
-    "Ocean & Maritime": 11,
     "Housing & Construction": 9,
     "Consumer Tech": 5
   }

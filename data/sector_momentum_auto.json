@@ -1,7 +1,7 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 62,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
       "Apple Vision Pro exec is reportedly leaving for OpenAI",
@@ -11,15 +11,15 @@
     "fundingQ": "$196.2B",
     "components": {
       "funding": 100,
-      "news": 70,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 60,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
       "Asian AI startups launch Mythos-like  models as Anthropic&#8",
@@ -29,29 +29,29 @@
     "fundingQ": "$265.4B",
     "components": {
       "funding": 100,
-      "news": 100,
+      "news": 90,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 58,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
+      "This Humanoid Robot Is a Terrifyingly Competent Office Inter",
       "Waymo Launches in Nashville",
-      "Zoox Introduces Next-Generation Robotaxi",
-      "ARX Robotics and Roboneers form ARX Industries to scale unma"
+      "Zoox Introduces Next-Generation Robotaxi"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Drones & Autonomous",
@@ -68,7 +68,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -84,7 +84,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Ocean & Maritime",
@@ -100,7 +100,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Defense & Security",
@@ -118,25 +118,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 39,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
+      "A New Force Posture Concept for Europeanizing Extended Nucle",
       "Not Imaginary: The Deterrence Gap is Real and America Needs",
-      "Contriving Imaginary Gaps in Nuclear Deterrence",
-      "X-energy gets federal environmental approval for Texas nucle"
+      "Contriving Imaginary Gaps in Nuclear Deterrence"
     ],
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Climate & Energy",
@@ -152,7 +152,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Biotech & Health",
@@ -170,11 +170,11 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 25,
+    "momentum": 24,
     "trend": "rising",
     "catalysts": [
       "Apple Vision Pro exec is reportedly leaving for OpenAI",
@@ -184,11 +184,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 60,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Housing & Construction",
@@ -204,7 +204,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -220,7 +220,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "This Humanoid Robot Is a Terrifyingly Competent Office Inter",
+      "Why everyone from OpenAI to SpaceX is building their own chi"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Quantum Computing",
@@ -237,7 +254,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "sector": "Transportation",
@@ -253,22 +270,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-28"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Why everyone from OpenAI to SpaceX is building their own chi"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   }
 ]

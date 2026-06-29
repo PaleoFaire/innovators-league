@@ -123,7 +123,7 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 25686,
+    "estimatedHeadcount": 25700,
     "headcountFormatted": "25K+"
   },
   {
@@ -633,8 +633,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2471,
-    "headcountFormatted": "2,471+"
+    "estimatedHeadcount": 2486,
+    "headcountFormatted": "2,486+"
   },
   {
     "company": "Mythic",
@@ -2268,22 +2268,6 @@
     "headcountFormatted": ""
   },
   {
-    "company": "FlyBy Robotics",
-    "sector": "Defense & Security",
-    "readinessScore": 63,
-    "govTractionScore": 6,
-    "compositeScore": 68.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": true,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "Blackshark.ai",
     "sector": "Defense & Security",
     "readinessScore": 63,
@@ -2664,8 +2648,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1300,
-    "headcountFormatted": "1,300+"
+    "estimatedHeadcount": 1286,
+    "headcountFormatted": "1,286+"
   },
   {
     "company": "Delian Alliance Industries",
@@ -2753,6 +2737,22 @@
     "readinessScore": 60,
     "govTractionScore": 6,
     "compositeScore": 70.5,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
+    "company": "FlyBy Robotics",
+    "sector": "Defense & Security",
+    "readinessScore": 60,
+    "govTractionScore": 6,
+    "compositeScore": 68.0,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {
