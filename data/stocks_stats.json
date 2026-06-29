@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -3.19,
+      "avg_change": -3.18,
       "count": 1
     },
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -2.42,
+      "avg_change": 0.81,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -10.54,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -9.76,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.52,
+      "avg_change": -11.76,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 4.27,
+      "avg_change": 6.52,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.8,
+      "avg_change": -6.4,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.62,
+      "avg_change": 15.31,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 3.92,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 6.5,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.67,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.68,
       "count": 3
     }
   },
@@ -61,39 +61,39 @@
     [
       "LNZA",
       "LanzaTech",
-      26.81
+      26.97
     ],
     [
       "TEM",
       "Tempus AI",
-      18.01
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      14.81
+      21.86
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      11.37
+      18.55
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      16.04
     ],
     [
       "RIVN",
       "Rivian",
-      9.11
+      11.32
     ]
   ],
   "topLosers": [
     [
-      "ACHR",
-      "Archer Aviation",
-      -13.17
-    ],
-    [
       "JOBY",
       "Joby Aviation",
-      -13.54
+      -12.69
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -13.81
     ],
     [
       "ASRHF",
@@ -103,13 +103,13 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      -18.51
+      -16.83
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -18.6
+      -16.85
     ]
   ],
-  "lastUpdated": "2026-06-29 15:53:55"
+  "lastUpdated": "2026-06-29 20:04:01"
 }
