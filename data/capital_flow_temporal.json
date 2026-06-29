@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T09:55:38+00:00",
+  "generatedAt": "2026-06-29T14:14:36+00:00",
   "matrix": {
     "medical-devices-surgical": {
       "2026-Q2": {
@@ -74,6 +74,47 @@
           "Lowercarbon Capital",
           "Valor Equity Partners"
         ]
+      }
+    },
+    "humanoid-robotics": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": 1777728,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": 1777728,
+            "date": "2026-06-24",
+            "source": "formd",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          },
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Tether",
+              "Qualcomm Technologies",
+              "Amazon",
+              "NVIDIA",
+              "imec.xpa"
+            ]
+          }
+        ],
+        "investors": []
       }
     },
     "autonomy-drone-military": {
@@ -548,47 +589,6 @@
             "date": "2026-02",
             "source": "recentEvent",
             "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "humanoid-robotics": {
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          },
-          {
-            "name": "Neura Robotics",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Tether",
-              "Qualcomm Technologies",
-              "Amazon",
-              "NVIDIA",
-              "imec.xpa"
-            ]
           }
         ],
         "investors": []
@@ -1451,7 +1451,7 @@
   },
   "stats": {
     "totalDealsTracked": 52,
-    "totalUSDSold": 29229199,
+    "totalUSDSold": 31006927,
     "uniqueClusters": 34,
     "uniqueQuarters": 8,
     "uniqueVCs": 18,
