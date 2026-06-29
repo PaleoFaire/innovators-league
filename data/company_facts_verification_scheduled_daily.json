@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-28T08:44:35+00:00",
+  "generatedAt": "2026-06-29T10:25:29+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 43,
+  "cohortSize": 41,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 43
+    "unverifiable": 41
   },
   "cleared": [],
   "changesProposed": [],
@@ -37,10 +37,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Astera Labs",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Axiom Space",
       "reason": "Claude extraction failed"
     },
@@ -62,6 +58,10 @@
     },
     {
       "name": "Deterrence",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Durin",
       "reason": "Claude extraction failed"
     },
     {
@@ -94,10 +94,6 @@
     },
     {
       "name": "Mara",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Outpost Space",
       "reason": "Claude extraction failed"
     },
     {
@@ -145,10 +141,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Space Forge",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "SpaceX",
       "reason": "Claude extraction failed"
     },
@@ -165,10 +157,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Varda Space Industries",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Vast",
       "reason": "Claude extraction failed"
     },
@@ -182,6 +170,10 @@
     },
     {
       "name": "X-Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Xtend",
       "reason": "Claude extraction failed"
     }
   ]
