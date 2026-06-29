@@ -1,17 +1,18 @@
 {
-  "generatedAt": "2026-06-22T12:50:03+00:00",
+  "generatedAt": "2026-06-29T12:00:24+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
-  "cohortSize": 90,
+  "cohortSize": 91,
   "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 16,
+    "cleared": 15,
     "changesProposed": 0,
-    "unverifiable": 74
+    "unverifiable": 76
   },
   "cleared": [
     "ARX Robotics",
     "AiDash",
+    "Ares Industries",
     "Astranis",
     "Axelera AI",
     "Bedrock Robotics",
@@ -22,10 +23,8 @@
     "Chef Robotics",
     "Cognition",
     "Corintis",
-    "Cresilon",
-    "Dusty Robotics",
-    "Endurosat",
-    "Epirus"
+    "Dexterity",
+    "Dusty Robotics"
   ],
   "changesProposed": [],
   "unverifiable": [
@@ -39,7 +38,7 @@
     },
     {
       "name": "AAVantgarde Bio",
-      "reason": "no public sources accessible"
+      "reason": "Claude extraction failed"
     },
     {
       "name": "ABL Bio",
@@ -78,11 +77,19 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "AheadComputing",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "AlixLabs",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Allen Control Systems",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Alsym Energy",
       "reason": "Claude extraction failed"
     },
     {
@@ -102,15 +109,15 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Applied Atomics",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Applied Intuition",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Archer Materials",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Ares Industries",
       "reason": "Claude extraction failed"
     },
     {
@@ -123,7 +130,7 @@
     },
     {
       "name": "Atana Elements",
-      "reason": "no public sources accessible"
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Atomic AI",
@@ -131,6 +138,10 @@
     },
     {
       "name": "Auriga Space",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Aurora Innovation",
       "reason": "Claude extraction failed"
     },
     {
@@ -206,6 +217,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Cellino",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Cerebras",
       "reason": "Claude extraction failed"
     },
@@ -223,7 +238,7 @@
     },
     {
       "name": "Collaborative Robotics",
-      "reason": "no public sources accessible"
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Core Automation",
@@ -234,7 +249,23 @@
       "reason": "no public sources accessible"
     },
     {
+      "name": "Cresilon",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Critical Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Critical Loop",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Crusoe Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "CubeFabs",
       "reason": "Claude extraction failed"
     },
     {
@@ -260,10 +291,6 @@
     {
       "name": "Dendra Systems",
       "reason": "no public sources accessible"
-    },
-    {
-      "name": "Dexterity",
-      "reason": "Claude extraction failed"
     },
     {
       "name": "Dhruva Space",
@@ -303,26 +330,6 @@
     },
     {
       "name": "Electric Hydrogen",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Elroy Air",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Emelody",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "Enovix",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Ephos",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Epoch Biodesign",
       "reason": "Claude extraction failed"
     }
   ]
