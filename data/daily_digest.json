@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T17:44:42.500629+00:00",
+  "generatedAt": "2026-06-29T20:09:34.616176+00:00",
   "date": "2026-06-29",
   "dateDisplay": "Monday, June 29, 2026",
   "sections": {
@@ -81,30 +81,44 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 7.9,
-        "changePercent": 26.81,
-        "change": 1.67
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 20.87,
-        "changePercent": -18.6,
-        "change": -4.77
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.7,
-        "changePercent": -18.51,
-        "change": -0.39
+        "price": 7.91,
+        "changePercent": 26.97,
+        "change": 1.68
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 56.47,
-        "changePercent": 18.01,
-        "change": 8.62
+        "price": 58.31,
+        "changePercent": 21.86,
+        "change": 10.46
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 86.77,
+        "changePercent": 18.55,
+        "change": 13.58
+      },
+      {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 21.32,
+        "changePercent": -16.85,
+        "change": -4.32
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.73,
+        "changePercent": -16.83,
+        "change": -0.35
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.69,
+        "changePercent": 16.04,
+        "change": 0.51
       },
       {
         "ticker": "ASRHF",
@@ -114,25 +128,11 @@
         "change": -1.22
       },
       {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.65,
-        "changePercent": 14.81,
-        "change": 0.47
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 8.53,
-        "changePercent": -13.54,
-        "change": -1.33
-      },
-      {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 4.71,
-        "changePercent": -13.17,
-        "change": -0.71
+        "price": 4.68,
+        "changePercent": -13.81,
+        "change": -0.75
       }
     ],
     "regulatory": [
@@ -202,6 +202,6 @@
     "moverCount": 8,
     "regCount": 3,
     "patentCount": 6,
-    "topMover": "LNZA +26.8%"
+    "topMover": "LNZA +27.0%"
   }
 }
