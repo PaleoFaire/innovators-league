@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-28",
-  "display_date": "Jun 28, 2026",
-  "generated_at": "2026-06-28T11:36:12.527302+00:00",
-  "cutoff": "2026-06-21T11:36:12.527302+00:00",
-  "section_count": 7,
-  "total_items": 308,
+  "date": "2026-06-29",
+  "display_date": "Jun 29, 2026",
+  "generated_at": "2026-06-29T14:10:49.446401+00:00",
+  "cutoff": "2026-06-22T14:10:49.446401+00:00",
+  "section_count": 6,
+  "total_items": 232,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 29,
+      "count": 31,
       "items": [
         {
           "company": "Project Omega",
@@ -86,15 +86,8 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 35,
+      "count": 19,
       "items": [
-        {
-          "company": "Virgin Galactic",
-          "form": "8-K",
-          "description": "d106173d8k.htm",
-          "date": "2026-06-22",
-          "isIPO": false
-        },
         {
           "company": "IonQ",
           "form": "8-K",
@@ -143,6 +136,13 @@
           "description": "xslF345X06/form4-06262026_050631.xml",
           "date": "2026-06-26",
           "isIPO": false
+        },
+        {
+          "company": "Centrus Energy",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1782259296.xml",
+          "date": "2026-06-23",
+          "isIPO": false
         }
       ]
     },
@@ -164,10 +164,10 @@
           "date": "2026-06-26"
         },
         {
-          "title": "PALANTIR SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) SECURE NETWORK STARLIGHT PLATFORM IN SUPPORT OF USDA FOOD AND ",
+          "title": "PROCUREMENT OF SKYDIO X10 DRONES AND ASSOCIATED EQUIPMENT.",
           "agency": "",
           "value": "",
-          "date": "2026-06-22"
+          "date": "2026-06-26"
         },
         {
           "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
@@ -184,83 +184,37 @@
       ]
     },
     {
-      "title": "Federal Register",
-      "icon": "\ud83c\udfdb\ufe0f",
-      "count": 51,
-      "items": [
-        {
-          "title": "Technical Guidelines for the Production of Regenerative Agricultural Biofuel Feedstocks",
-          "type": "Rule",
-          "agencies": [
-            "Agriculture Department",
-            "Energy and Environmental Policy Office"
-          ],
-          "significant": false,
-          "date": "2026-06-29"
-        },
-        {
-          "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Turnagain Marine Constru",
-          "type": "Notice",
-          "agencies": [
-            "Commerce Department",
-            "National Oceanic and Atmospheric Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-29"
-        },
-        {
-          "title": "Establishment Registration and Product Listing for Tobacco Products",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-29"
-        },
-        {
-          "title": "National Institute of Environmental Health Sciences; Notice of Meeting",
-          "type": "Notice",
-          "agencies": [
-            "Health and Human Services Department",
-            "National Institutes of Health"
-          ],
-          "significant": false,
-          "date": "2026-06-29"
-        },
-        {
-          "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Geophysical Surveys Related to Oil and Gas Acti",
-          "type": "Notice",
-          "agencies": [
-            "Commerce Department",
-            "National Oceanic and Atmospheric Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-29"
-        },
-        {
-          "title": "Process for Authorizing Seasonal Migratory Game Bird Hunting",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Interior Department",
-            "Fish and Wildlife Service"
-          ],
-          "significant": false,
-          "date": "2026-06-26"
-        }
-      ]
-    },
-    {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 29,
+      "count": 30,
       "items": [
+        {
+          "title": "NY Times Reporting OpenAI May Delay IPO to 2027",
+          "source": "Next Big Future",
+          "company": "OpenAI",
+          "impact": "high",
+          "type": "funding"
+        },
         {
           "title": "Anthropic Backer Menlo Ventures Raises $3B In New Funds To Back AI Startups Across Stages",
           "source": "Crunchbase News",
           "company": "Anthropic",
           "impact": "high",
           "type": "funding"
+        },
+        {
+          "title": "This Humanoid Robot Is a Terrifyingly Competent Office Intern",
+          "source": "Wired",
+          "company": "Humanoid",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence",
+          "source": "War on the Rocks",
+          "company": "Deterrence",
+          "impact": "low",
+          "type": "news"
         },
         {
           "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
@@ -289,138 +243,113 @@
           "company": "Anthropic",
           "impact": "low",
           "type": "news"
-        },
-        {
-          "title": "Rocket Lab launches 10th Synspective satellite",
-          "source": "SpaceNews",
-          "company": "Rocket Lab",
-          "impact": "medium",
-          "type": "ipo"
-        },
-        {
-          "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn\u2019t be the norm",
-          "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
-          "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "hire"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 52,
+      "count": 53,
       "items": [
         {
-          "title": "Om Malik has died",
-          "score": 1312,
-          "comments": 163,
+          "title": "GLM 5.2 beats Claude in our benchmarks",
+          "score": 900,
+          "comments": 414,
           "companies": [
-            "Conductor Quantum",
-            "ICON"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48678852"
-        },
-        {
-          "title": "U.S. government will decide who gets to use GPT-5.6",
-          "score": 1013,
-          "comments": 1066,
-          "companies": [
-            "Palantir",
-            "OpenAI"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48690101"
-        },
-        {
-          "title": "Previewing GPT\u20115.6 Sol: a next-generation model",
-          "score": 992,
-          "comments": 620,
-          "companies": [
-            "OpenAI",
-            "Grain Weevil",
-            "Skyryse",
-            "Beacon AI",
-            "Biofire"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48689028"
-        },
-        {
-          "title": "We all depend on open source. We will defend it together",
-          "score": 450,
-          "comments": 220,
-          "companies": [
-            "Together AI",
-            "Tenstorrent",
-            "Xanadu Quantum Technologies"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48682737"
-        },
-        {
-          "title": "U.S. allows Anthropic to release Mythos AI to \u2018trusted\u2019 US organizations",
-          "score": 423,
-          "comments": 459,
-          "companies": [
-            "Palantir",
             "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=48692995"
+          "url": "https://news.ycombinator.com/item?id=48709670"
         },
         {
-          "title": "We can still stop California's 3D printer surveillance scheme",
-          "score": 391,
-          "comments": 132,
+          "title": "EU to legislate about Chat Control behind closed doors",
+          "score": 675,
+          "comments": 393,
           "companies": [
-            "Asylon Robotics",
-            "ideaForge"
+            "goTenna"
           ],
-          "url": "https://news.ycombinator.com/item?id=48692051"
+          "url": "https://news.ycombinator.com/item?id=48707719"
+        },
+        {
+          "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No \u2013 88",
+          "score": 553,
+          "comments": 222,
+          "companies": [
+            "Together AI",
+            "Auterion",
+            "Xanadu Quantum Technologies",
+            "Kyutai",
+            "Tenstorrent"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48713832"
+        },
+        {
+          "title": "I used Claude Code to get a second opinion on my MRI",
+          "score": 456,
+          "comments": 593,
+          "companies": [
+            "Vannevar Labs",
+            "Anthropic"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48708941"
+        },
+        {
+          "title": "Professor denounces mass AI fraud on an exam at Brown",
+          "score": 434,
+          "comments": 570,
+          "companies": [
+            "Synthesis",
+            "Alpha School"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48708991"
+        },
+        {
+          "title": "Flock cameras track more than your license plate, and they're spreading fast",
+          "score": 368,
+          "comments": 285,
+          "companies": [
+            "Flock Safety"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48707673"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 107,
+      "count": 94,
       "items": [
         {
-          "title": "Jura Announces Commencement of Drilling in Maru Lease",
+          "title": "Correction: VivoPower Selects Global AI Industry Leader as Preferred Tenant for Lease of Norway Operational Data Center",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "UPDATE: Rogers Sugar Announces Extention of Collective Agreement at Taber Refinery",
+          "title": "Helus Pharma Reports Recent Business Highlights and Fiscal Year 2026 Financial Results",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Space Exploration Technologies Corporation to Join the Nasdaq-100 Index\u00ae Beginning July 7, 2026",
+          "title": "BrainsWay Presents Positive Data from Largest Real-World Study of Deep TMS\u2122 in Patients with Comorbid PTSD and Major Dep",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Western Uranium & Vanadium Announces Results of 2026 AGM",
+          "title": "AVANTE ANNOUNCES AGREEMENT WITH TARGET PARK TO DEPLOY MAST UNITS IN ABOVE-GROUND PARKING FACILITIES ACROSS CANADA AND TH",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "ISC Announces Shareholder and Court Approval of All-Cash Transaction With Plenary Americas",
+          "title": "Almadex Announces Sale of El Cobre NSR Royalty",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "XMax Announces Up to Approximately US$25 million in AI API-Related Service Contracts and Expansion into GPU-as-a-Service",
+          "title": "Xilio Therapeutics Appoints Ben Harshbarger as Chief Legal Officer",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-06-28-eba931c4b007"
+  "brief_id": "brief-2026-06-29-3728bdf1dd24"
 }
