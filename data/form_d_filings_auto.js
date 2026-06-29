@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-06-28 10:26:05 UTC
-// Total: 3 filings across 3 companies
+// Last updated: 2026-06-29 12:08:46 UTC
+// Total: 4 filings across 4 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-06-28T10:26:05.556476+00:00",
+  "generated_at": "2026-06-29T12:08:46.005483+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 3,
+  "total_filings": 4,
   "filings": [
     {
       "company": "Cambium",
@@ -54,6 +54,23 @@ const FORM_D_FILINGS = {
       "offering_amount": "230000",
       "amount_sold": "230000",
       "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Figure AI",
+      "issuer_name": "FIGURE AI III A SERIES OF VUVP FUND LLC",
+      "form": "D",
+      "filed_date": "2026-06-24",
+      "cik": "2140934",
+      "accession": "0002140934-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002140934&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002140934-26-000001",
+      "offering_amount": "Indefinite",
+      "amount_sold": "1777728",
+      "amount_remaining": "Indefinite",
       "securities_type": "",
       "exemption": "06b",
       "first_sale_date": "",
