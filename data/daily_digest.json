@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T09:55:49.954633+00:00",
+  "generatedAt": "2026-06-30T12:18:10.010313+00:00",
   "date": "2026-06-30",
   "dateDisplay": "Tuesday, June 30, 2026",
   "sections": {
@@ -12,15 +12,6 @@
         "description": "CENTRALIZE FARM PRODUCTION & CONSERVATION IT SYSTEMS, AUTOMATE PROCESSES, AND INTEGRATE DATA FOR BETTER EFFICIENCY PER T",
         "date": "2026-04-18",
         "url": "https://sam.gov/opp/12314426F0126/view"
-      },
-      {
-        "company": "Palantir",
-        "amount": "$86M",
-        "amount_raw": 86000000.0,
-        "agency": "Department of Homeland Security",
-        "description": "THIS ORDER PROVIDES ENFORCEMENT REMOVAL OPERATIONS MODERNIZATION AND OPERATIONAL CAPABILITY FOR THE ENFORCEMENT CASE MAN",
-        "date": "2026-05-05",
-        "url": "https://sam.gov/opp/70CTD026FC0000012/view"
       },
       {
         "company": "Shield AI",
@@ -156,6 +147,27 @@
         "title": "",
         "date": "2025-07-15",
         "url": "https://www.fda.gov/news-events"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "Radar Data Pilot Program",
+        "date": "2026-06-30",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-13211"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "Suitability and Fitness",
+        "date": "2026-06-30",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-13154"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammal",
+        "date": "2026-06-29",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-13055"
       }
     ],
     "patents": [
@@ -198,9 +210,9 @@
     ]
   },
   "stats": {
-    "contractCount": 8,
+    "contractCount": 7,
     "moverCount": 8,
-    "regCount": 3,
+    "regCount": 6,
     "patentCount": 6,
     "topMover": "LNZA +27.0%"
   }

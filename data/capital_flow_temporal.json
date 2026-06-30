@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-06-30T09:56:33+00:00",
+  "generatedAt": "2026-06-30T12:19:00+00:00",
   "matrix": {
+    "critical-minerals": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 34369684,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Lilac Solutions",
+            "amount": 34369684,
+            "date": "2026-06-29",
+            "source": "formd",
+            "investors": [
+              "Mercuria",
+              "Lowercarbon Capital",
+              "Breakthrough Energy Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Breakthrough Energy Ventures",
+          "Lowercarbon Capital"
+        ]
+      }
+    },
     "medical-devices-surgical": {
       "2026-Q2": {
         "deals": 1,
@@ -112,6 +136,23 @@
               "NVIDIA",
               "imec.xpa"
             ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "personal-evtol": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Pivotal",
+            "amount": 0,
+            "date": "2026-06-22",
+            "source": "formd",
+            "investors": []
           }
         ],
         "investors": []
@@ -1102,6 +1143,58 @@
     }
   },
   "vcAttribution": {
+    "Lowercarbon Capital": {
+      "2026-Q2": [
+        {
+          "company": "Lilac Solutions",
+          "cluster": "critical-minerals",
+          "date": "2026-06-29",
+          "source": "formd"
+        }
+      ],
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Breakthrough Energy Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Lilac Solutions",
+          "cluster": "critical-minerals",
+          "date": "2026-06-29",
+          "source": "formd"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Khosla Ventures": {
       "2026-Q2": [
         {
@@ -1332,32 +1425,6 @@
         }
       ]
     },
-    "Lowercarbon Capital": {
-      "2024-Q1": [
-        {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Thrive Capital Management, LLC": {
       "2026-Q1": [
         {
@@ -1388,16 +1455,6 @@
           "company": "RobCo",
           "cluster": "robotics-cobots-warehouse",
           "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Breakthrough Energy Ventures": {
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1450,9 +1507,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 52,
-    "totalUSDSold": 31006927,
-    "uniqueClusters": 34,
+    "totalDealsTracked": 54,
+    "totalUSDSold": 65376611,
+    "uniqueClusters": 36,
     "uniqueQuarters": 8,
     "uniqueVCs": 18,
     "quarterRange": [
