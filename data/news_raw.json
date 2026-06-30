@@ -1,5 +1,82 @@
 [
   {
+    "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+    "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+    "description": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
+    "pubDate": "Tue, 30 Jun 2026 18:00:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "Just now"
+  },
+  {
+    "title": "STAT+: Anthropic releases Claude Science, a product aimed at researchers, the pharma industry",
+    "link": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/?utm_campaign=rss",
+    "description": "Anthropic released Claude Science, an application that optimizes its large language model for scientists and, especially, those doing research at pharma companies.",
+    "pubDate": "Tue, 30 Jun 2026 17:00:00 +0000",
+    "category": "Biotech",
+    "source": "STAT News",
+    "feedCategory": "biotech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Dust"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Tesla and SpaceX Shaping Demand and Supply of 20% of US Energy Grid",
+    "link": "https://www.nextbigfuture.com/2026/06/tesla-and-spacex-shaping-demand-and-supply-of-20-of-us-energy-grid.html",
+    "description": "The six charts are daily load curves (duck-curve style) with a red horizontal line likely representing average/baseload demand or a target firm threshold. In the video, Tesla experts explain how batteries and the VPP can shape energy demand. The shaded area is the net load (demand minus variable gen",
+    "pubDate": "Tue, 30 Jun 2026 16:25:58 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Blue Origin still doesn&#8217;t know why its New Glenn rocket blew up last month",
+    "link": "https://techcrunch.com/2026/06/30/blue-origin-still-doesnt-know-why-its-new-glenn-rocket-blew-up-last-month/",
+    "description": "But the company is still claiming that New Glenn will return to flight this year.",
+    "pubDate": "Tue, 30 Jun 2026 16:09:57 +0000",
+    "category": "Space",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Blue Origin",
+    "matchedCompanies": [
+      "Blue Origin"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
     "link": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
     "description": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
@@ -17,7 +94,7 @@
     ],
     "type": "milestone",
     "impact": "high",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "Overland AI nets Marine Corps autonomous ground vehicle contract",
@@ -36,7 +113,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "Tesla and SpaceX Can Fix US Energy Grid to Get More Gigawatts for AI",
@@ -55,7 +132,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "Vast names Isakowitz as a senior adviser",
@@ -81,7 +158,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Exclusive: Meta and OpenAI alumni seek $400m for new AI lab",
@@ -100,7 +177,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Insights behind Kinisi’s acquisition by Bear Robotics",
@@ -119,7 +196,7 @@
     ],
     "type": "hire",
     "impact": "high",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "Impulse Space is a Unicorn with Key SpaceX Alumni to Transform Post Launch Service",
@@ -142,7 +219,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "17h ago"
+    "time": "20h ago"
   },
   {
     "title": "Rocket Lab to buy satellite communications firm Iridium",
@@ -165,7 +242,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "18h ago"
+    "time": "21h ago"
   },
   {
     "title": "Waymo and Uber quietly part ways in Phoenix",
@@ -184,7 +261,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "20h ago"
+    "time": "23h ago"
   },
   {
     "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
@@ -205,7 +282,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "23h ago"
   },
   {
     "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
@@ -226,7 +303,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Beck: Iridium acquisition the “logical next step” for Rocket Lab",
@@ -368,7 +445,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes",
@@ -409,25 +486,6 @@
     "time": "4d ago"
   },
   {
-    "title": "SpaceX StarShip 40 Progressing to a Static Fire",
-    "link": "https://www.nextbigfuture.com/2026/06/spacex-starship-40-progressing-to-a-static-fire.html",
-    "description": "Spacex Starship 40 rolled out to Massey’s on June 23–24. It successfully completed an engine igniter test on June 24. Today, SpaceX has been doing multiple propellant loading cycles as part of the static fire campaign. There was an earlier attempt (or series of attempts) today that ended with detank",
-    "pubDate": "Thu, 25 Jun 2026 23:27:55 +0000",
-    "category": "Energy",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "4d ago"
-  },
-  {
     "title": "Rocket Lab wins NASA award for three Electron launches",
     "link": "https://spacenews.com/rocket-lab-wins-nasa-award-for-three-electron-launches/",
     "description": "\nNASA has selected Rocket Lab to launch a pair of science missions on three Electron rockets in 2027.\nThe post Rocket Lab wins NASA award for three Electron launches appeared first on SpaceNews.",
@@ -465,7 +523,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "What it actually takes to scale AI in Europe: ‘The best founders aren’t building for the next funding round’",
