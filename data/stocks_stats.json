@@ -11,19 +11,19 @@
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.81,
+      "avg_change": 0.93,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -9.76,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -6.9,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.76,
+      "avg_change": -11.74,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.4,
+      "avg_change": -6.43,
       "count": 3
     },
     "biotech": {
@@ -88,7 +88,7 @@
     [
       "JOBY",
       "Joby Aviation",
-      -12.69
+      -12.47
     ],
     [
       "ACHR",
@@ -103,7 +103,7 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      -16.83
+      -16.35
     ],
     [
       "NNE",
@@ -111,5 +111,5 @@
       -16.85
     ]
   ],
-  "lastUpdated": "2026-06-29 20:04:01"
+  "lastUpdated": "2026-06-30 03:58:26"
 }
