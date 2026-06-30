@@ -67025,23 +67025,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-06-30 00:13
+// Last updated: 2026-06-30 05:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Bear Robotics", headline: "Insights behind Kinisi's acquisition by Bear Robotics", source: "The Robot Report", time: "1h ago", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "SpaceX", headline: "Impulse Space is a Unicorn with Key SpaceX Alumni to Transform Post Launch Service", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to buy satellite communications firm Iridium", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Waymo", headline: "Waymo and Uber quietly part ways in Phoenix", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Humanoid", headline: "BMW Group deploys Figure 03 humanoid after tests with previous version", source: "The Robot Report", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Rocket Lab", headline: "Beck: Iridium acquisition the 'logical next step' for Rocket Lab", source: "SpaceNews", time: "8h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab continues buying spree by acquiring satellite company Iridium", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to acquire Iridium", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Humanoid", headline: "This Humanoid Robot Is a Terrifyingly Competent Office Intern", source: "Wired", time: "16h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Deterrence", headline: "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence", source: "War on the Rocks", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "3d ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI Has New AI Models. Here's Why You Can't Use Them", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "Bear Robotics", headline: "Insights behind Kinisi's acquisition by Bear Robotics", source: "The Robot Report", time: "6h ago", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to buy satellite communications firm Iridium", source: "Breaking Defense", time: "8h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo and Uber quietly part ways in Phoenix", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Humanoid", headline: "BMW Group deploys Figure 03 humanoid after tests with previous version", source: "The Robot Report", time: "11h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Rocket Lab", headline: "Beck: Iridium acquisition the 'logical next step' for Rocket Lab", source: "SpaceNews", time: "13h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab continues buying spree by acquiring satellite company Iridium", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to acquire Iridium", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Humanoid", headline: "This Humanoid Robot Is a Terrifyingly Competent Office Intern", source: "Wired", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Deterrence", headline: "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence", source: "War on the Rocks", time: "21h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations", source: "Wired", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 10th Synspective satellite", source: "SpaceNews", time: "3d ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI Has New AI Models. Here's Why You Can't Use Them", source: "Wired", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions", source: "MIT Tech Review", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
