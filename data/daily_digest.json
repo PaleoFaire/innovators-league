@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:06:24.570613+00:00",
+  "generatedAt": "2026-06-30T20:13:13.016022+00:00",
   "date": "2026-06-30",
   "dateDisplay": "Tuesday, June 30, 2026",
   "sections": {
@@ -70,60 +70,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 7.67,
-        "changePercent": 33.23,
-        "change": 1.91
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 88.86,
+        "changePercent": 21.94,
+        "change": 15.99
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 497.33,
-        "changePercent": 25.27,
-        "change": 100.31
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 87.41,
-        "changePercent": 19.95,
-        "change": 14.53
+        "price": 483.02,
+        "changePercent": 21.66,
+        "change": 86.0
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 57.11,
-        "changePercent": 17.49,
-        "change": 8.5
+        "price": 57.93,
+        "changePercent": 19.17,
+        "change": 9.32
       },
       {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.7,
-        "changePercent": 17.12,
-        "change": 0.54
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 6.82,
+        "changePercent": 18.4,
+        "change": 1.06
       },
       {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 17.16,
-        "changePercent": 15.28,
-        "change": 2.27
+        "price": 17.35,
+        "changePercent": 16.52,
+        "change": 2.46
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.67,
+        "changePercent": 16.14,
+        "change": 0.51
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 32.25,
-        "changePercent": 13.04,
-        "change": 3.72
+        "price": 33.13,
+        "changePercent": 16.12,
+        "change": 4.6
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 1.79,
-        "changePercent": -11.44,
-        "change": -0.23
+        "price": 1.74,
+        "changePercent": -14.11,
+        "change": -0.28
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA +33.2%"
+    "topMover": "ASTS +21.9%"
   }
 }
