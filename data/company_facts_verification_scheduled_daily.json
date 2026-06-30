@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-29T10:25:29+00:00",
+  "generatedAt": "2026-06-30T08:58:03+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 41,
+  "cohortSize": 25,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 41
+    "unverifiable": 25
   },
   "cleared": [],
   "changesProposed": [],
@@ -25,35 +25,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Antares",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Apptronik",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Asimov",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Axiom Space",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Blue Origin",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "ClearSpace",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Collaborative Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "D-Orbit",
       "reason": "Claude extraction failed"
     },
     {
@@ -69,11 +45,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "GITAI",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Gecko Robotics",
+      "name": "Figure AI",
       "reason": "Claude extraction failed"
     },
     {
@@ -85,11 +57,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "ICON",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Karman Industries",
+      "name": "Kepler Communications",
       "reason": "Claude extraction failed"
     },
     {
@@ -98,18 +66,6 @@
     },
     {
       "name": "Palantir",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Photonic Inc",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Profluent",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "QuantumScape",
       "reason": "Claude extraction failed"
     },
     {
@@ -129,18 +85,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Senra Systems",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Solid Power",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Solugen",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "SpaceX",
       "reason": "Claude extraction failed"
     },
@@ -149,19 +93,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Starpath Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Synspective",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Vast",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Vention",
+      "name": "Vertical Aerospace",
       "reason": "Claude extraction failed"
     },
     {
