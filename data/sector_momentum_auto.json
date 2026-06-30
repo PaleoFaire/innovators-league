@@ -1,74 +1,75 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 60,
-    "trend": "accelerating",
-    "catalysts": [
-      "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "Asian AI startups launch Mythos-like  models as Anthropic&#8",
-      "Trump Administration Allows Anthropic to Release  Mythos to"
-    ],
-    "fundingQ": "$196.2B",
-    "components": {
-      "funding": 100,
-      "news": 60,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-29"
-  },
-  {
     "sector": "Space & Aerospace",
-    "momentum": 58,
+    "momentum": 76,
     "trend": "accelerating",
     "catalysts": [
-      "Asian AI startups launch Mythos-like  models as Anthropic&#8",
-      "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
-      "Rocket Lab launches 10th Synspective satellite"
+      "Impulse Space is a Unicorn with Key SpaceX Alumni to Transfo",
+      "Rocket Lab to buy satellite communications firm Iridium",
+      "Waymo and Uber quietly part ways in Phoenix"
     ],
-    "fundingQ": "$265.4B",
+    "fundingQ": "$266.2B",
     "components": {
       "funding": 100,
-      "news": 90,
+      "news": 85,
       "hiring": 0,
-      "market": 0
+      "market": 100
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 56,
+    "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "This Humanoid Robot Is a Terrifyingly Competent Office Inter",
-      "Waymo Launches in Nashville",
-      "Zoox Introduces Next-Generation Robotaxi"
+      "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
+      "Waymo and Uber quietly part ways in Phoenix",
+      "BMW Group deploys Figure 03 humanoid after tests with previo"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 48,
+    "sector": "AI & Software",
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
-      "ARX Robotics and Roboneers form ARX Industries to scale unma",
-      "Shield Space and ClearSpace partner to defend satellites fro"
+      "Anthropic and Gov. Newsom forge deal allowing California gov",
+      "Trump Administration Allows Anthropic to Release  Mythos to",
+      "OpenAI Has New AI Models. Here\u2019s Why You Can\u2019t Use Them"
     ],
-    "fundingQ": "$12.7B",
+    "fundingQ": "$195.2B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 46,
+    "trend": "steady",
+    "catalysts": [
+      "Rocket Lab to buy satellite communications firm Iridium",
+      "Not Imaginary: The Deterrence Gap is Real and America Needs",
+      "Before SpaceX IPO, investors in China secretly acquired stak"
+    ],
+    "fundingQ": "$12.0B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 18
+    },
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -84,7 +85,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Ocean & Maritime",
@@ -93,32 +94,14 @@
     "catalysts": [
       "Active ocean & maritime ecosystem"
     ],
-    "fundingQ": "$10.8B",
+    "fundingQ": "$1.8B",
     "components": {
       "funding": 100,
       "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-29"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 41,
-    "trend": "steady",
-    "catalysts": [
-      "Not Imaginary: The Deterrence Gap is Real and America Needs",
-      "Before SpaceX IPO, investors in China secretly acquired stak",
-      "The Secret to Marathon-Winning Humanoid Robots"
-    ],
-    "fundingQ": "$33.8B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Nuclear Energy",
@@ -136,11 +119,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 31,
+    "momentum": 40,
     "trend": "rising",
     "catalysts": [
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
@@ -150,126 +133,140 @@
       "funding": 84,
       "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 47
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 28,
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
-      "Zoox Introduces Next-Generation Robotaxi",
       "Anthropic Backer Menlo Ventures Raises $3B In New Funds To B",
       "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
     ],
-    "fundingQ": "$230M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 9,
-      "news": 20,
+      "funding": 0,
+      "news": 10,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 24,
-    "trend": "rising",
+    "momentum": 20,
+    "trend": "declining",
     "catalysts": [
-      "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "Rocket Lab launches 10th Synspective satellite",
-      "Why everyone from OpenAI to SpaceX is building their own chi"
+      "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
+      "BMW Group deploys Figure 03 humanoid after tests with previo",
+      "Beck: Iridium acquisition the \u201clogical next step\u201d for Rocket"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 55,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo and Uber quietly part ways in Phoenix",
+      "ARX Robotics and Roboneers form ARX Industries to scale unma"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Asian AI startups launch Mythos-like  models as Anthropic&#8"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "<a href=\"/cro/icon-names-microsoft-tech-partner-q1-results-g"
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-06-30"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 8,
+    "trend": "declining",
+    "catalysts": [
+      "This Humanoid Robot Is a Terrifyingly Competent Office Inter"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 50
+      "market": 33
     },
-    "lastUpdated": "2026-06-29"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "This Humanoid Robot Is a Terrifyingly Competent Office Inter",
-      "Why everyone from OpenAI to SpaceX is building their own chi"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 2,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "Do dragons dream of electric sheep?",
-      "Honda and QuantumScape (QS) team up to make &#8216;game-chan"
+      "Do dragons dream of electric sheep?"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   },
   {
     "sector": "Transportation",
-    "momentum": 2,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
     ],
-    "fundingQ": "$40M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 7,
+      "funding": 0,
       "news": 0,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
   }
 ]

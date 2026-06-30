@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T11:09:17.648071Z",
+  "generated_at": "2026-06-30T09:47:17.987032Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -50,12 +50,32 @@
       "source": "news",
       "source_url": "https://www.defenseone.com/threats/2026/06/spacex-ipo-investors-china-secretly-acquired-stakes/414275/",
       "signal_type": "contract"
+    },
+    {
+      "author": "The Robot Report",
+      "role": "Industry signal",
+      "company": "Bear Robotics",
+      "text": "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
+      "date": "Mon, 29 Ju",
+      "source": "news",
+      "source_url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
+      "signal_type": "hire"
+    },
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "Rocket Lab",
+      "text": "Beck: Iridium acquisition the \u201clogical next step\u201d for Rocket Lab",
+      "date": "Mon, 29 Ju",
+      "source": "news",
+      "source_url": "https://spacenews.com/beck-iridium-acquisition-the-logical-next-step-for-rocket-lab/",
+      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 7,
     "from_press": 0
   }
 }

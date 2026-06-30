@@ -124,17 +124,17 @@
   {
     "company": "Rebellions",
     "totalRaised": "$10.2B+",
-    "totalRaisedRaw": 10160.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$2.2B",
-    "lastRoundDate": "2026-05",
+    "totalRaisedRaw": 10191.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$31M",
+    "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed",
       "Founders Fund",
       "NEA"
     ],
-    "roundCount": 7
+    "roundCount": 8
   },
   {
     "company": "Zettascale",
@@ -459,6 +459,19 @@
     "roundCount": 2
   },
   {
+    "company": "Impulse Space",
+    "totalRaised": "$1.5B+",
+    "totalRaisedRaw": 1500.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Neura Robotics",
     "totalRaised": "$1.4B+",
     "totalRaisedRaw": 1400.0,
@@ -705,19 +718,6 @@
     "lastRoundDate": "2026-01",
     "valuation": "$1.35B",
     "leadInvestors": [],
-    "roundCount": 1
-  },
-  {
-    "company": "Impulse Space",
-    "totalRaised": "$500M+",
-    "totalRaisedRaw": 500.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$500M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
     "roundCount": 1
   },
   {
@@ -1025,6 +1025,19 @@
       "Founders Fund"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Anysphere",
+    "totalRaised": "$142M+",
+    "totalRaisedRaw": 142.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$7M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
   },
   {
     "company": "Kodiak Robotics",
@@ -1478,19 +1491,6 @@
       "Undisclosed"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Anysphere",
-    "totalRaised": "$7M+",
-    "totalRaisedRaw": 7.0,
-    "lastRound": "Seed",
-    "lastRoundAmount": "$7M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
   },
   {
     "company": "Hugging Face",

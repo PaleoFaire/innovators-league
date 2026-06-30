@@ -263,6 +263,15 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-06-29",
+    "description": "g085783_8k.htm",
+    "accessionNumber": "0001753926-26-001085",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "4",
     "date": "2026-06-18",
     "description": "xslF345X06/edgardoc.xml",
@@ -519,24 +528,6 @@
     "date": "2026-04-14",
     "description": "g085683_8k.htm",
     "accessionNumber": "0001753926-26-000654",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "DEF 14A",
-    "date": "2026-04-06",
-    "description": "rklb-20260406.htm",
-    "accessionNumber": "0001628280-26-023922",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "8-K",
-    "date": "2026-03-30",
-    "description": "g085462_8k-rocket.htm",
-    "accessionNumber": "0001753926-26-000568",
     "isIPO": false
   },
   {
@@ -1524,6 +1515,15 @@
     "company": "Intuitive Machines",
     "ticker": "LUNR",
     "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/form4-06292026_100628.xml",
+    "accessionNumber": "0001641792-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
+    "form": "4",
     "date": "2026-06-26",
     "description": "xslF345X06/form4-06262026_050631.xml",
     "accessionNumber": "0001641794-26-000002",
@@ -1878,15 +1878,6 @@
     "date": "2025-11-10",
     "description": "tm2530657d1_8k.htm",
     "accessionNumber": "0001104659-25-108716",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2025-10-24",
-    "description": "xslF345X05/form4-10242025_071024.xml",
-    "accessionNumber": "0001104659-25-102113",
     "isIPO": false
   },
   {
@@ -4376,6 +4367,69 @@
   {
     "company": "UiPath",
     "ticker": "PATH",
+    "form": "8-K",
+    "date": "2026-06-29",
+    "description": "path-20260625.htm",
+    "accessionNumber": "0001734722-26-000043",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001366702-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001856713-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001536302-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001517205-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001615459-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0002008967-26-000009",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
     "form": "10-Q",
     "date": "2026-06-04",
     "description": "path-20260430.htm",
@@ -4644,39 +4698,39 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "4",
-    "date": "2025-12-23",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-25-000049",
+    "date": "2026-06-29",
+    "description": "xslF345X06/wk-form4_1782771550.xml",
+    "accessionNumber": "0001628280-26-046110",
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "4",
-    "date": "2025-12-19",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-25-000046",
+    "date": "2026-06-29",
+    "description": "xslF345X06/wk-form4_1782771218.xml",
+    "accessionNumber": "0001628280-26-046107",
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "4",
-    "date": "2025-12-18",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-25-000045",
+    "date": "2026-06-29",
+    "description": "xslF345X06/wk-form4_1782771056.xml",
+    "accessionNumber": "0001628280-26-046105",
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "4",
-    "date": "2025-12-17",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-25-000044",
+    "date": "2026-06-29",
+    "description": "xslF345X06/wk-form4_1782770902.xml",
+    "accessionNumber": "0001628280-26-046103",
     "isIPO": false
   },
   {
@@ -4893,15 +4947,6 @@
     "date": "2026-02-27",
     "description": "xslF345X05/ownership.xml",
     "accessionNumber": "0001193125-26-083334",
-    "isIPO": false
-  },
-  {
-    "company": "IonQ",
-    "ticker": "IONQ",
-    "form": "8-K",
-    "date": "2026-01-20",
-    "description": "d43240d8k.htm",
-    "accessionNumber": "0001193125-26-016077",
     "isIPO": false
   },
   {
@@ -7482,6 +7527,15 @@
     "company": "LanzaTech",
     "ticker": "LNZA",
     "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/wk-form4_1782765207.xml",
+    "accessionNumber": "0001628280-26-046015",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
     "date": "2026-05-19",
     "description": "xslF345X06/wk-form4_1779221287.xml",
     "accessionNumber": "0001628280-26-036427",
@@ -7800,24 +7854,6 @@
     "date": "2026-01-12",
     "description": "tlsi-20260112.htm",
     "accessionNumber": "0001628280-26-001743",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2025-11-25",
-    "description": "xslF345X05/wk-form4_1764105353.xml",
-    "accessionNumber": "0001981787-25-000004",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2025-11-25",
-    "description": "xslF345X05/wk-form4_1764104159.xml",
-    "accessionNumber": "0001992151-25-000004",
     "isIPO": false
   },
   {
@@ -8310,6 +8346,15 @@
     "company": "Tempus AI",
     "ticker": "TEM",
     "form": "4",
+    "date": "2026-06-29",
+    "description": "xslF345X06/wk-form4_1782732164.xml",
+    "accessionNumber": "0001628280-26-045881",
+    "isIPO": false
+  },
+  {
+    "company": "Tempus AI",
+    "ticker": "TEM",
+    "form": "4",
     "date": "2026-06-08",
     "description": "xslF345X06/wk-form4_1780916946.xml",
     "accessionNumber": "0001628280-26-041381",
@@ -8646,15 +8691,6 @@
     "date": "2025-09-29",
     "description": "xslF345X05/wk-form4_1759144336.xml",
     "accessionNumber": "0001628280-25-043000",
-    "isIPO": false
-  },
-  {
-    "company": "Tempus AI",
-    "ticker": "TEM",
-    "form": "4",
-    "date": "2025-08-18",
-    "description": "xslF345X05/wk-form4_1755518462.xml",
-    "accessionNumber": "0001786842-25-000068",
     "isIPO": false
   },
   {
@@ -9582,15 +9618,6 @@
     "date": "2025-06-30",
     "description": "ea0246595-10k_zoomcar.htm",
     "accessionNumber": "0001213900-25-059675",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2025-06-18",
-    "description": "ea0246085-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-25-055667",
     "isIPO": false
   }
 ]

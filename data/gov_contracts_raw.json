@@ -2557,6 +2557,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W519TC26F0012",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 145033091.2,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-12-11",
+    "endDate": "2026-12-15",
+    "description": "ARMY VANTAGE DATA ANALYTICS PLATFORM."
+  },
+  {
+    "company": "Palantir",
     "awardId": "W519TC25C0008",
     "recipientName": "PALANTIR USG INC",
     "amount": 103425091.06,
@@ -2650,18 +2662,6 @@
     "startDate": "2025-08-20",
     "endDate": "2026-08-19",
     "description": "FORSCOM TASK ORDER 1"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W519TC26F0012",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 68919805.47,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-12-11",
-    "endDate": "2026-12-15",
-    "description": "ARMY VANTAGE DATA ANALYTICS PLATFORM."
   },
   {
     "company": "Palantir",
@@ -3757,6 +3757,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "W519TC26F0012",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 145033091.2,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-12-11",
+    "endDate": "2026-12-15",
+    "description": "ARMY VANTAGE DATA ANALYTICS PLATFORM."
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "W519TC25C0008",
     "recipientName": "PALANTIR USG INC",
     "amount": 103425091.06,
@@ -3850,18 +3862,6 @@
     "startDate": "2025-08-20",
     "endDate": "2026-08-19",
     "description": "FORSCOM TASK ORDER 1"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "W519TC26F0012",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 68919805.47,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-12-11",
-    "endDate": "2026-12-15",
-    "description": "ARMY VANTAGE DATA ANALYTICS PLATFORM."
   },
   {
     "company": "Palantir Technologies",
@@ -5125,6 +5125,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "FA881126FB006",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 101063578.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-01-09",
+    "endDate": "2027-01-09",
+    "description": "PHASE 3 LANE 1 LAUNCH SERVICE TASK ORDER (LSTO) FOR NTO-5"
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "FA881123F0023",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 100122399.42,
@@ -5281,18 +5293,6 @@
   },
   {
     "company": "Space Exploration Technologies",
-    "awardId": "FA881126FB006",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 84340292.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2026-01-09",
-    "endDate": "2028-02-29",
-    "description": "PHASE 3 LANE 1 LAUNCH SERVICE TASK ORDER (LSTO) FOR NTO-5"
-  },
-  {
-    "company": "Space Exploration Technologies",
     "awardId": "FA881125FB020",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 82859439.0,
@@ -5360,7 +5360,7 @@
     "subAgency": "Department of the Air Force",
     "awardType": null,
     "startDate": "2026-01-12",
-    "endDate": "2028-06-12",
+    "endDate": "2027-01-12",
     "description": "LAUNCH SERVICE FOR NROL-86"
   },
   {
