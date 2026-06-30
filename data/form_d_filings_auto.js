@@ -1,13 +1,47 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-06-29 12:08:46 UTC
-// Total: 4 filings across 4 companies
+// Last updated: 2026-06-30 10:47:10 UTC
+// Total: 7 filings across 7 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-06-29T12:08:46.005483+00:00",
+  "generated_at": "2026-06-30T10:47:10.521364+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 4,
+  "total_filings": 7,
   "filings": [
+    {
+      "company": "Halo",
+      "issuer_name": "Halo Capital Co III LLC",
+      "form": "D",
+      "filed_date": "2026-06-29",
+      "cik": "2142530",
+      "accession": "0002142530-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002142530&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002142530-26-000001",
+      "offering_amount": "Indefinite",
+      "amount_sold": "0",
+      "amount_remaining": "Indefinite",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Lilac Solutions",
+      "issuer_name": "Lilac Solutions, Inc",
+      "form": "D",
+      "filed_date": "2026-06-29",
+      "cik": "1746097",
+      "accession": "0001746097-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001746097&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001746097-26-000003",
+      "offering_amount": "46684541",
+      "amount_sold": "34369684",
+      "amount_remaining": "12314857",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Cambium",
       "issuer_name": "Cambium Capital Jacaranda LP",
@@ -73,6 +107,23 @@ const FORM_D_FILINGS = {
       "amount_remaining": "Indefinite",
       "securities_type": "",
       "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Pivotal",
+      "issuer_name": "Pivotal Investment Fund, LLC",
+      "form": "D",
+      "filed_date": "2026-06-22",
+      "cik": "2141528",
+      "accession": "0002141528-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002141528&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002141528-26-000001",
+      "offering_amount": "20000000",
+      "amount_sold": "0",
+      "amount_remaining": "20000000",
+      "securities_type": "Equity",
+      "exemption": "06c",
       "first_sale_date": "",
       "is_safe": false
     }
