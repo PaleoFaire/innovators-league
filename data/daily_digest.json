@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T12:18:10.010313+00:00",
+  "generatedAt": "2026-06-30T15:37:08.869621+00:00",
   "date": "2026-06-30",
   "dateDisplay": "Tuesday, June 30, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 7.91,
-        "changePercent": 26.97,
-        "change": 1.68
+        "price": 7.67,
+        "changePercent": 33.23,
+        "change": 1.91
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 58.31,
-        "changePercent": 21.86,
-        "change": 10.46
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 497.33,
+        "changePercent": 25.27,
+        "change": 100.31
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 86.77,
-        "changePercent": 18.55,
-        "change": 13.58
+        "price": 87.41,
+        "changePercent": 19.95,
+        "change": 14.53
       },
       {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 21.32,
-        "changePercent": -16.85,
-        "change": -4.32
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.74,
-        "changePercent": -16.35,
-        "change": -0.34
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 57.11,
+        "changePercent": 17.49,
+        "change": 8.5
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
-        "price": 3.69,
-        "changePercent": 16.04,
-        "change": 0.51
+        "price": 3.7,
+        "changePercent": 17.12,
+        "change": 0.54
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 7.0,
-        "changePercent": -14.85,
-        "change": -1.22
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 17.16,
+        "changePercent": 15.28,
+        "change": 2.27
       },
       {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 4.68,
-        "changePercent": -13.81,
-        "change": -0.75
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 32.25,
+        "changePercent": 13.04,
+        "change": 3.72
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.79,
+        "changePercent": -11.44,
+        "change": -0.23
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA +27.0%"
+    "topMover": "LNZA +33.2%"
   }
 }

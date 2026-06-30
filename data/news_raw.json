@@ -1,5 +1,89 @@
 [
   {
+    "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
+    "link": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+    "description": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
+    "pubDate": "Tue, 30 Jun 2026 15:00:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "Overland AI nets Marine Corps autonomous ground vehicle contract",
+    "link": "https://breakingdefense.com/2026/06/overland-ai-nets-marine-corps-autonomous-ground-vehicle-contract/",
+    "description": "The autonomous ground vehicle is not intended to replace the JLTV, according to Overland AI CEO Byron Boots. ",
+    "pubDate": "Tue, 30 Jun 2026 14:30:48 +0000",
+    "category": "Land Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Overland AI",
+    "matchedCompanies": [
+      "Overland AI"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Tesla and SpaceX Can Fix US Energy Grid to Get More Gigawatts for AI",
+    "link": "https://www.nextbigfuture.com/2026/06/tesla-and-spacex-can-fix-us-energy-grid-to-get-more-gigawatts-for-ai.html",
+    "description": "AI is all about building Gigawatts on Earth or in Space faster and powering millions of AI chips with them to deliver more AI tokens and more powerful AI. Tesla and SpaceX are not just consumers of power — they are becoming active shapers of the grid through hardware scale, software intelligence (Au",
+    "pubDate": "Tue, 30 Jun 2026 14:14:38 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Vast names Isakowitz as a senior adviser",
+    "link": "https://spacenews.com/vast-names-isakowitz-as-a-senior-adviser/",
+    "description": "\nCommercial space station developer Vast named the former president and chief executive of The Aerospace Corp. as an adviser while the company awaits the next phase of a NASA program.\nThe post Vast names Isakowitz as a senior adviser appeared first on SpaceNews.",
+    "pubDate": "Tue, 30 Jun 2026 13:00:00 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Vast",
+    "matchedCompanies": [
+      "Vast",
+      "Hadrian",
+      "AnySignal",
+      "Axiom Space",
+      "Elodin",
+      "Orbital Composites"
+    ],
+    "sectors": [
+      "space",
+      "robotics",
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "Exclusive: Meta and OpenAI alumni seek $400m for new AI lab",
     "link": "https://sifted.eu/articles/aire-openai-meta-aire-fundraise/",
     "description": "",
@@ -16,7 +100,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "Insights behind Kinisi’s acquisition by Bear Robotics",
@@ -35,7 +119,7 @@
     ],
     "type": "hire",
     "impact": "high",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "Impulse Space is a Unicorn with Key SpaceX Alumni to Transform Post Launch Service",
@@ -58,12 +142,12 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "14h ago"
+    "time": "17h ago"
   },
   {
     "title": "Rocket Lab to buy satellite communications firm Iridium",
     "link": "https://breakingdefense.com/2026/06/rocket-lab-to-buy-satellite-communications-firm-iridium/",
-    "description": "&#8220;Vertical integration is at the heart of this combination – the ability to build, launch, and operate our own spacecraft quickly and cost-effectively,&#8221; a Rocket Lab spokesperson told Breaking Defense. ",
+    "description": "&#8220;Vertical integration is at the heart of this combination ― the ability to build, launch, and operate our own spacecraft quickly and cost-effectively,&#8221; a Rocket Lab spokesperson told Breaking Defense. ",
     "pubDate": "Mon, 29 Jun 2026 20:47:26 +0000",
     "category": "Space",
     "source": "Breaking Defense",
@@ -81,7 +165,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "15h ago"
+    "time": "18h ago"
   },
   {
     "title": "Waymo and Uber quietly part ways in Phoenix",
@@ -100,7 +184,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "17h ago"
+    "time": "20h ago"
   },
   {
     "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
@@ -121,7 +205,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "21h ago"
   },
   {
     "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
@@ -142,7 +226,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "18h ago"
+    "time": "21h ago"
   },
   {
     "title": "Beck: Iridium acquisition the “logical next step” for Rocket Lab",
@@ -161,27 +245,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "20h ago"
-  },
-  {
-    "title": "Rocket Lab continues buying spree by acquiring satellite company Iridium",
-    "link": "https://techcrunch.com/2026/06/29/rocket-lab-continues-buying-spree-by-acquiring-satellite-company-iridium/",
-    "description": "The all-stock deal values Iridium at $8 billion and gives Rocket Lab even more firepower to compete against Amazon and SpaceX.",
-    "pubDate": "Mon, 29 Jun 2026 15:02:07 +0000",
-    "category": "Space",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Rocket Lab",
-    "matchedCompanies": [
-      "Rocket Lab",
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Rocket Lab to acquire Iridium",
@@ -323,7 +387,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
@@ -383,28 +447,6 @@
     "time": "4d ago"
   },
   {
-    "title": "NY Times Reporting OpenAI May Delay IPO to 2027",
-    "link": "https://www.nextbigfuture.com/2026/06/ny-times-reporting-openai-may-delay-ipo-to-2027.html",
-    "description": "SpaceX recently completed the largest IPO ever, raising more than $85 billion and debuting at a ~$1.77 trillion valuation. Shares have since pulled back (a common post-IPO pattern, especially in volatile markets), but the raise was enormous. xAI is part of that story because of the earlier integrati",
-    "pubDate": "Thu, 25 Jun 2026 21:38:27 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "SpaceX",
-      "xAI"
-    ],
-    "sectors": [
-      "ai",
-      "space"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "4d ago"
-  },
-  {
     "title": "ARX Robotics and Roboneers form ARX Industries to scale unmanned ground vehicle production",
     "link": "https://tech.eu/2026/06/25/arx-robotics-and-roboneers-form-arx-industries-to-scale-unmanned-ground-vehicle-production/",
     "description": "German company ARX Robotics and Ukraine's Roboneers today announced the formation of ARX Industries, a joint venture to industrialise the mass production of unmanned ground vehicles. The new entity wi...",
@@ -442,7 +484,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "ICEYE to double radar-satellite capacity by late 2027 as demand surges",
@@ -462,51 +504,6 @@
     "type": "news",
     "impact": "low",
     "time": "5d ago"
-  },
-  {
-    "title": "Merging SpaceX and Tesla Will Win AGI and Make More Money for Tesla Investors",
-    "link": "https://www.nextbigfuture.com/2026/06/merging-spacex-and-tesla-will-win-agi-and-make-more-money-for-tesla-investors.html",
-    "description": "SpaceX + xAI + Tesla to WIN AGI Not Robotaxi. AGI supremacy. 2. Why merge at all? Because AI is WAY BIGGER than Robotaxi. Merging creates:$140B+ combined cash for AI spending Frictionless capital allocation (no board votes, no transfer pricing, no negotiations) One P&#038;L, one balance sheet = Elon",
-    "pubDate": "Thu, 25 Jun 2026 02:19:15 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Waymo",
-      "Zoox",
-      "xAI"
-    ],
-    "sectors": [
-      "space",
-      "ai",
-      "transportation"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Anthropic Backer Menlo Ventures Raises $3B In New Funds To Back AI Startups Across Stages",
-    "link": "https://news.crunchbase.com/venture/menlo-ventures-raise-ai-startup-funding-across-stages-anthropic/",
-    "description": "Venture firm Menlo Ventures has raised $3 billion across two new funds, the largest capital raise in its 50-year history, to invest in AI startups from seed through growth stage. The firm says the new capital will target companies in sectors from enterprise tools to healthcare.",
-    "pubDate": "Tue, 23 Jun 2026 19:06:49 +0000",
-    "category": "Artificial intelligence",
-    "source": "Crunchbase News",
-    "feedCategory": "funding",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Andromeda Surgical"
-    ],
-    "sectors": [
-      "ai",
-      "biotech"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "6d ago"
   },
   {
     "title": "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit",
@@ -582,25 +579,6 @@
       "space"
     ],
     "type": "ipo",
-    "impact": "high",
-    "time": "6/18/2026"
-  },
-  {
-    "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
-    "link": "https://www.defenseone.com/threats/2026/06/spacex-ipo-investors-china-secretly-acquired-stakes/414275/",
-    "description": "One previously unreported SpaceX investor has ties to Chinese military contractors. The information was revealed only after ProPublica went to court to obtain it.",
-    "pubDate": "Thu, 18 Jun 2026 13:05:30 -0400",
-    "category": "Threats",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "contract",
     "impact": "high",
     "time": "6/18/2026"
   },
