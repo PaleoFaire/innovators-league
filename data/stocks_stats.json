@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.03,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 11.61,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.78,
+      "avg_change": 13.42,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -3.78,
+      "avg_change": 1.33,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.23,
+      "avg_change": -5.01,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 5.05,
+      "avg_change": 5.74,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -7.1,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.38,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 14.93,
+      "avg_change": 16.48,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 13.37,
+      "avg_change": 16.25,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 11.14,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 5.65,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "ASTS",
       "AST SpaceMobile",
-      21.94
+      25.48
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      21.66
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      19.17
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      18.4
+      "PL",
+      "Planet Labs",
+      24.85
     ],
     [
       "RIVN",
       "Rivian",
-      16.52
+      18.75
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      18.58
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      18.03
     ]
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -8.5
+      "JOBY",
+      "Joby Aviation",
+      -2.53
     ],
     [
-      "RGTI",
-      "Rigetti Computing",
-      -9.21
+      "DRSHF",
+      "DroneShield",
+      -2.92
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -9.9
+      -3.27
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -4.01
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -11.55
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -13.86
+      -10.67
     ]
   ],
-  "lastUpdated": "2026-07-01 09:55:46"
+  "lastUpdated": "2026-07-01 14:44:31"
 }
