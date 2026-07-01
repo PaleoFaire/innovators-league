@@ -68066,25 +68066,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-01 10:05
-// Auto-generated real-time signals
-// Last updated: 2026-07-01
+// Last updated: 2026-07-01 12:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Trump drops restrictions on Anthropic&#8217;s Mythos and Fable models", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Wayve", headline: "Wayve launches $85M employee tender offer at $8.5B valuation", source: "TechCrunch", time: "8h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "The Trump Administration Is Lifting Its Export Controls on Anthropic’s Mythos and Fable AI Models", source: "Wired", time: "10h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "STAT+: AI company Anthropic announces it will begin developing drugs of its own", source: "STAT News", time: "11h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Joby Aviation", headline: "Toyota &#038; Joby Aviation Are Really Trying To Build &#8220;Air Mobility for All&#8221; — Or So They Say", source: "CleanTechnica", time: "11h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Claude Science is Anthropic’s newest flagship product", source: "MIT Tech Review", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Went From $5.09 Billion Net Loss in 2024 to $38.53 Billion Net Loss in 2025", source: "CleanTechnica", time: "12h ago", impact: "high", unread: false },
-  { id: 8, type: "hire", company: "Realta Fusion", headline: "Realta Fusion generates electricity directly from a fusion reaction, an apparent first", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Anthropic", headline: "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents", source: "TechCrunch", time: "16h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "STAT+: Anthropic releases Claude Science, a product aimed at researchers, the pharma industry", source: "STAT News", time: "17h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Blue Origin", headline: "Blue Origin still doesn&#8217;t know why its New Glenn rocket blew up last month", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Anthropic", headline: "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
-  { id: 13, type: "contract", company: "Overland AI", headline: "Overland AI nets Marine Corps autonomous ground vehicle contract", source: "Breaking Defense", time: "19h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Vast", headline: "Vast names Isakowitz as a senior adviser", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "Exclusive: Meta and OpenAI alumni seek $400m for new AI lab", source: "Sifted", time: "21h ago", impact: "medium", unread: false },
+  { id: 1, type: "milestone", company: "Anthropic", headline: "The Download: Anthropic launches Claude Science, and California's carbon manure math", source: "MIT Tech Review", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "SpaceX", headline: "The SpaceX IPO tells one story. Here is the more important one.", source: "SpaceNews", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Scale AI", headline: "Ex-DeepMind researchers land record Creandum funding to scale AI agents for Nasdaq", source: "Tech.eu", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "Trump drops restrictions on Anthropic's Mythos and Fable models", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Wayve", headline: "Wayve launches $85M employee tender offer at $8.5B valuation", source: "TechCrunch", time: "10h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "The Trump Administration Is Lifting Its Export Controls on Anthropic's Mythos and Fable AI Models", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "STAT+: AI company Anthropic announces it will begin developing drugs of its own", source: "STAT News", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Joby Aviation", headline: "Toyota &#038; Joby Aviation Are Really Trying To Build &#8220;Air Mobility for All&#8221; ' Or So They Say", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "Claude Science is Anthropic's newest flagship product", source: "MIT Tech Review", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI Went From $5.09 Billion Net Loss in 2024 to $38.53 Billion Net Loss in 2025", source: "CleanTechnica", time: "15h ago", impact: "high", unread: false },
+  { id: 13, type: "hire", company: "Realta Fusion", headline: "Realta Fusion generates electricity directly from a fusion reaction, an apparent first", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Anthropic", headline: "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents", source: "TechCrunch", time: "18h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "STAT+: Anthropic releases Claude Science, a product aimed at researchers, the pharma industry", source: "STAT News", time: "19h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
