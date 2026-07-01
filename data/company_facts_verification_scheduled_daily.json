@@ -1,59 +1,332 @@
 {
-  "generatedAt": "2026-06-30T08:58:03+00:00",
+  "generatedAt": "2026-07-01T09:31:15+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 25,
-  "newExtractionsThisRun": 0,
+  "cohortSize": 35,
+  "newExtractionsThisRun": 11,
   "summary": {
-    "cleared": 0,
-    "changesProposed": 0,
-    "unverifiable": 25
+    "cleared": 8,
+    "changesProposed": 3,
+    "unverifiable": 24
   },
-  "cleared": [],
-  "changesProposed": [],
-  "unverifiable": [
-    {
-      "name": "1X Technologies",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Agility Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Andromeda Surgical",
-      "reason": "Claude extraction failed"
-    },
+  "cleared": [
+    "1X Technologies",
+    "Agility Robotics",
+    "AnySignal",
+    "Axiom Space",
+    "Blue Origin",
+    "Deterrence",
+    "Durin",
+    "Hadrian"
+  ],
+  "changesProposed": [
     {
       "name": "Apptronik",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Blue Origin",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Deterrence",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Durin",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Apptronik",
+        "founder": "Jeff Cardenas, Nick Paine, Luis Sentis",
+        "location": "Austin, TX",
+        "founded": 2016,
+        "fundingStage": "Series A",
+        "totalRaised": "$935M+",
+        "website": "https://apptronik.com"
+      },
+      "verified": {
+        "name": "Apptronik",
+        "description": "Apptronik is a spinout from the Human Centered Robotics Lab at the University of Texas at Austin that builds humanoid robots. Apollo is a general-purpose humanoid robot designed for tasks in logistics, manufacturing, and retail.",
+        "founders": [
+          "Jeff Cardenas"
+        ],
+        "location": "Austin, TX",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://apptronik.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Sources [2] and [3] are about other companies (Flexion Robotics and Honor Lightning) and do not contain information about Apptronik. Database entry claims Series A $350M in February 2025 and total raised $935M+, but these specific details are not verifiable in provided sources. Only Jeff Cardenas is explicitly named as CEO/founder in sources; Nick Paine and Luis Sentis mentioned in database entry but not verified in provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Jeff Cardenas, Nick Paine, Luis Sentis",
+          "verified": "Jeff Cardenas",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://apptronik.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://apptronik.com/about-us"
+        },
+        {
+          "idx": 2,
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/"
+        },
+        {
+          "idx": 3,
+          "src": "news (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon"
+        }
+      ],
+      "notes": "Sources [2] and [3] are about other companies (Flexion Robotics and Honor Lightning) and do not contain information about Apptronik. Database entry claims Series A $350M in February 2025 and total raised $935M+, but these specific details are not verifiable in provided sources. Only Jeff Cardenas is explicitly named as CEO/founder in sources; Nick Paine and Luis Sentis mentioned in database entry but not verified in provided sources."
     },
     {
       "name": "Fervo Energy",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Fervo Energy",
+        "founder": "Tim Latimer, Jack Norbeck",
+        "location": "Houston, Texas, U.S.",
+        "founded": 2017,
+        "fundingStage": "IPO",
+        "totalRaised": "$1.5B+",
+        "website": "https://fervoenergy.com"
+      },
+      "verified": {
+        "name": "Fervo Energy",
+        "description": "A geothermal company that develops enhanced geothermal systems (EGS) using horizontal drilling techniques to generate 24/7 carbon-free baseload electricity. The company operates Project Red in Nevada and is developing Cape Station in Utah.",
+        "founders": [
+          "Tim Latimer",
+          "Jack Norbeck"
+        ],
+        "location": "Houston, Texas, U.S.",
+        "founded_year": 2017,
+        "current_stage": "Public",
+        "total_raised": "$1.5B+",
+        "valuation": null,
+        "investors": [
+          "B Capital",
+          "Breakthrough Energy",
+          "Centaurus Capital",
+          "Congruent Ventures"
+        ],
+        "website": "https://fervoenergy.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "IPO occurred in May 2026 (confirmed by website newsroom dated May 17, 2026: 'A Start-Up Aiming to Make Geothermal Energy Mainstream Goes Public'). Series E funding of $462 million received in November 2025. Wikipedia lists company as 'Private' but this contradicts the May 2026 IPO announcement on the company website; current stage reflects public status post-IPO."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "IPO",
+          "verified": "Public",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://fervoenergy.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://fervoenergy.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
+        },
+        {
+          "idx": 3,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone"
+        }
+      ],
+      "notes": "IPO occurred in May 2026 (confirmed by website newsroom dated May 17, 2026: 'A Start-Up Aiming to Make Geothermal Energy Mainstream Goes Public'). Series E funding of $462 million received in November 2025. Wikipedia lists company as 'Private' but this contradicts the May 2026 IPO announcement on the company website; current stage reflects public status post-IPO."
     },
     {
       "name": "Figure AI",
-      "reason": "Claude extraction failed"
-    },
+      "current": {
+        "name": "Figure AI",
+        "founder": "Brett Adcock",
+        "location": "San Jose, CA",
+        "founded": 2022,
+        "fundingStage": "Series C",
+        "totalRaised": "$1B+",
+        "website": "https://www.figure.ai"
+      },
+      "verified": {
+        "name": "Figure AI",
+        "description": "An American robotics company developing general-purpose humanoid robots controlled via artificial intelligence. The company has developed three generations of humanoid robots (Figure 01-03) and vision-language-action models for industrial and household applications.",
+        "founders": [
+          "Brett Adcock"
+        ],
+        "location": "San Jose, California, U.S.",
+        "founded_year": 2022,
+        "current_stage": "Series C",
+        "total_raised": "$1B+",
+        "valuation": "$39B",
+        "investors": [
+          "Jeff Bezos",
+          "Microsoft",
+          "Nvidia",
+          "Intel",
+          "Amazon",
+          "OpenAI",
+          "Brookfield Asset Management",
+          "Macquarie Capital",
+          "Qualcomm",
+          "Salesforce",
+          "T-Mobile",
+          "Parkway Venture Capital"
+        ],
+        "website": "https://www.figure.ai",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            2
+          ]
+        },
+        "notes": "Company announced Series C funding exceeding $1 billion in September 2025, raising valuation to $39 billion. Partnership with OpenAI ended after one year (2024-2025). Figure 02 has been deployed in BMW manufacturing facilities and demonstrated household task capabilities with Helix 02."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Jose, CA",
+          "verified": "San Jose, California, U.S.",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.figure.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.figure.ai/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Figure_AI"
+        },
+        {
+          "idx": 3,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
+        },
+        {
+          "idx": 4,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002140934&type=D&dateb=&owner=include&count=10"
+        }
+      ],
+      "notes": "Company announced Series C funding exceeding $1 billion in September 2025, raising valuation to $39 billion. Partnership with OpenAI ended after one year (2024-2025). Figure 02 has been deployed in BMW manufacturing facilities and demonstrated household task capabilities with Helix 02."
+    }
+  ],
+  "unverifiable": [
     {
       "name": "Humanoid",
       "reason": "Claude extraction failed"
     },
     {
       "name": "ICEYE",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Impulse Space",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Joby Aviation",
       "reason": "Claude extraction failed"
     },
     {
@@ -65,7 +338,23 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Nuro",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Orbital Composites",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Overland AI",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Palantir",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Realta Fusion",
       "reason": "Claude extraction failed"
     },
     {
@@ -81,10 +370,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Scale AI",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "SpaceX",
       "reason": "Claude extraction failed"
     },
@@ -93,7 +378,15 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Starpath Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Synspective",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Vast",
       "reason": "Claude extraction failed"
     },
     {
@@ -101,7 +394,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Waymo",
+      "name": "Wayve",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Whisper Aero",
       "reason": "Claude extraction failed"
     },
     {
