@@ -1,30 +1,12 @@
 [
   {
-    "date": "2026-06-30",
-    "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "ADD Offshore launch platform, Sea Launch",
-    "provider": "Agency for Defense Development",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
+    "date": "2026-07-01",
     "vehicle": "Pegasus XL | Swift Boost Mission",
     "payload": "Swift Boost Mission",
     "pad": "Kwajalein Atoll, Air launch to orbit",
     "provider": "Northrop Grumman Space Systems",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
     "trackedCompany": "Northrop Grumman"
-  },
-  {
-    "date": "2026-07-01",
-    "vehicle": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
-    "payload": "The Grain Goddess Provides (iQPS Launch 7)",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
-    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-07-01",
@@ -154,6 +136,15 @@
   },
   {
     "date": "2026-07-31",
+    "vehicle": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
+    "payload": "The Grain Goddess Provides (iQPS Launch 7)",
+    "pad": "Rocket Lab Launch Complex 1A, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-07-31",
     "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
     "payload": "Globalstar 2-R Mission 1 (x 9)",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
@@ -186,6 +177,15 @@
     "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
     "provider": "China Rocket Co. Ltd.",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-31",
+    "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "ADD Offshore launch platform, Sea Launch",
+    "provider": "Agency for Defense Development",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
     "trackedCompany": null
   },
   {

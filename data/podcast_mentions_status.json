@@ -1,7 +1,7 @@
 {
   "script": "fetch_podcast_mentions.py",
-  "started_at": "2026-06-30T10:20:13.023102+00:00",
-  "finished_at": "2026-06-30T10:20:36.375611+00:00",
+  "started_at": "2026-07-01T10:35:22.993807+00:00",
+  "finished_at": "2026-07-01T10:35:45.261711+00:00",
   "lookback_days": 30,
   "podcasts": [
     {
@@ -25,7 +25,7 @@
     {
       "podcast": "Lex Fridman",
       "url": "https://lexfridman.com/feed/podcast/",
-      "episodes_fetched": 498,
+      "episodes_fetched": 499,
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "error": "all retries failed"
     }
   ],
-  "total_episodes": 2127,
-  "total_mentions": 400,
+  "total_episodes": 2128,
+  "total_mentions": 389,
   "ok": true
 }

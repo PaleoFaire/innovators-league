@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-06-30 10:20:21 UTC
+// Last updated: 2026-07-01 10:35:29 UTC
 // Total grants: 632 | Known companies: 16 | SBIR: 16
-// Total funding tracked: $398,882,917
+// Total funding tracked: $399,633,917
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -989,6 +989,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: true,
     abstract: "Cancer remains a leading cause of death worldwide. Targeted agents have dramatically improved the prognosis of over 30 cancer types, but are fundamentally limited by the evolution of resistance. Curre",
     terms: ["Acceleration", "Amino Acid Substitution", "Antineoplastic Agents", "Architecture", "Bioinformatics", "Businesses", "Cancer Patient", "Cause of Death"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Next generation anti-cancer drugdelivering cement for bone metastasis patients",
+    organization: "CURER INC",
+    orgState: "MA",
+    piName: "Hae Lin  Jang",
+    fiscalYear: 2025,
+    awardAmount: 1000000,
+    activityCode: "R42",
+    isSbir: false,
+    abstract: "Abstract Our mission is to develop an innovative anti-cancer drug delivering bone cement for bone metastasis patients, which can be injected into metastasis-caused bone degeneration sites in a minimal",
+    terms: ["Address", "American", "Antineoplastic Agents", "Antitumor Drug Screening Assays", "Area", "Binding", "Bone Cements", "Bone Growth"],
     isKnownCompany: false,
   },
   {
@@ -3888,19 +3901,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Summary Abstract  This application puts for the notion of a brain-gut- retinal axis that becomes dysfunctional in diabetic retinopathy (DR). The innate immune system has been strongly implicated in th",
     terms: ["Ablation", "Acceleration", "Adaptive Immune System", "Adrenergic Receptor", "Anatomy", "Animals", "Area", "Bacterial Infections"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Fluorescent Redox Indicators to Image Oxidative Stress in Alzheimer's Disease",
-    organization: "UNIVERSITY OF VIRGINIA",
-    orgState: "VA",
-    piName: "Huiwang  Ai",
-    fiscalYear: 2026,
-    awardAmount: 524596,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "Abstract Alzheimer's disease (AD) and other age-related neurodegenerative disorders have become a global health and social challenge. Although the exact cause of AD is still under investigation, among",
-    terms: ["Acceleration", "Acute", "Aducanumab", "Alzheimer's Disease", "Alzheimer's Disease Pathway", "Alzheimer's disease model", "Alzheimer's disease therapy", "Amyloid beta-Protein"],
     isKnownCompany: false,
   },
 ];
