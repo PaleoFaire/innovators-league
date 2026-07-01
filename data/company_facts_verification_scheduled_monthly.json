@@ -1,35 +1,44 @@
 {
-  "generatedAt": "2026-06-01T13:53:39+00:00",
+  "generatedAt": "2026-07-01T11:38:15+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_monthly.json",
   "cohortSize": 95,
   "newExtractionsThisRun": 0,
   "summary": {
-    "cleared": 10,
+    "cleared": 7,
     "changesProposed": 0,
-    "unverifiable": 85
+    "unverifiable": 88
   },
   "cleared": [
-    "1X Technologies",
     "ARX Robotics",
     "Adarga",
     "AiDash",
-    "Aleph Farms",
     "Ares Industries",
     "Asterra",
     "Astranis",
-    "Atmos Space Cargo",
-    "Axelera AI"
+    "Atmos Space Cargo"
   ],
   "changesProposed": [],
   "unverifiable": [
+    {
+      "name": "1872",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "1X Technologies",
+      "reason": "Claude extraction failed"
+    },
     {
       "name": "44.01",
       "reason": "no public sources accessible"
     },
     {
+      "name": "9 Mothers",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "AAVantgarde Bio",
-      "reason": "no public sources accessible"
+      "reason": "Claude extraction failed"
     },
     {
       "name": "ABL Bio",
@@ -93,7 +102,7 @@
     },
     {
       "name": "Addionics",
-      "reason": "Claude extraction failed"
+      "reason": "no public sources accessible"
     },
     {
       "name": "Aeon Industrial",
@@ -128,15 +137,19 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "AheadComputing",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Airship Industries",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Akaer",
+      "name": "Akash Systems",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Akash Systems",
+      "name": "Albacore",
       "reason": "Claude extraction failed"
     },
     {
@@ -168,6 +181,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Alsym Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Alto Neuroscience",
       "reason": "Claude extraction failed"
     },
@@ -181,6 +198,10 @@
     },
     {
       "name": "Amca",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "American Housing Corporation",
       "reason": "Claude extraction failed"
     },
     {
@@ -201,6 +222,10 @@
     },
     {
       "name": "Anduril Industries",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Anello Photonics",
       "reason": "Claude extraction failed"
     },
     {
@@ -232,6 +257,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Applied Atomics",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Applied Intuition",
       "reason": "Claude extraction failed"
     },
@@ -257,6 +286,10 @@
     },
     {
       "name": "Archer Materials",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Archetype AI",
       "reason": "Claude extraction failed"
     },
     {
@@ -316,6 +349,14 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Atana Elements",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Atmo",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Atom Bodies",
       "reason": "Claude extraction failed"
     },
@@ -329,38 +370,6 @@
     },
     {
       "name": "Atomic Industries",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Atomic Machines",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Atomic Semi",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Augury",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Aurelius Systems",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Auterion",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Avalanche Energy",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "Axelspace",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Axial Composites",
       "reason": "no public sources accessible"
     }
   ]

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-01T13:59:03+00:00",
+  "generatedAt": "2026-07-01T11:42:00+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_monthly.json",
-  "cohortSize": 31,
+  "cohortSize": 27,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 31
+    "unverifiable": 27
   },
   "cleared": [],
   "changesProposed": [],
@@ -17,15 +17,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Alumni Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Andreessen Horowitz",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Bedrock Capital",
+      "name": "Bessemer Venture Partners",
       "reason": "Claude extraction failed"
     },
     {
@@ -41,18 +37,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Coatue Management",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Construct Capital",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "D1 Capital Partners",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "DCVC",
       "reason": "Claude extraction failed"
     },
@@ -62,10 +46,6 @@
     },
     {
       "name": "Engine Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Flagship Pioneering",
       "reason": "Claude extraction failed"
     },
     {
@@ -114,6 +94,10 @@
     },
     {
       "name": "Prime Movers Lab",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Razor's Edge Ventures",
       "reason": "Claude extraction failed"
     },
     {
