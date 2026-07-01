@@ -9,21 +9,21 @@
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 8.19,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 7.68,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.34,
+      "avg_change": -4.3,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.26,
+      "avg_change": -9.23,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.11,
+      "avg_change": -7.1,
       "count": 3
     },
     "biotech": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      -8.94
+      "OKLO",
+      "Oklo",
+      -8.5
     ],
     [
       "RGTI",
@@ -98,7 +98,7 @@
     [
       "ACHR",
       "Archer Aviation",
-      -9.83
+      -9.9
     ],
     [
       "NNE",
@@ -108,8 +108,8 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      -14.11
+      -13.86
     ]
   ],
-  "lastUpdated": "2026-06-30 20:04:09"
+  "lastUpdated": "2026-07-01 04:13:15"
 }
