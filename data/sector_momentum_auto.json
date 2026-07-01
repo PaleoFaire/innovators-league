@@ -4,9 +4,9 @@
     "momentum": 76,
     "trend": "accelerating",
     "catalysts": [
-      "Impulse Space is a Unicorn with Key SpaceX Alumni to Transfo",
-      "Rocket Lab to buy satellite communications firm Iridium",
-      "Waymo and Uber quietly part ways in Phoenix"
+      "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "Anthropic launches Claude Sonnet 5 as a cheaper way to run a",
+      "Tesla and SpaceX Shaping Demand and Supply of 20% of US Ener"
     ],
     "fundingQ": "$266.2B",
     "components": {
@@ -15,61 +15,61 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-30"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 55,
-    "trend": "accelerating",
-    "catalysts": [
-      "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
-      "Waymo and Uber quietly part ways in Phoenix",
-      "BMW Group deploys Figure 03 humanoid after tests with previo"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "AI & Software",
-    "momentum": 54,
-    "trend": "steady",
+    "momentum": 59,
+    "trend": "accelerating",
     "catalysts": [
-      "Anthropic and Gov. Newsom forge deal allowing California gov",
-      "Trump Administration Allows Anthropic to Release  Mythos to",
-      "OpenAI Has New AI Models. Here\u2019s Why You Can\u2019t Use Them"
+      "Trump drops restrictions on Anthropic&#8217;s Mythos and Fab",
+      "The Trump Administration Is Lifting Its Export Controls on A",
+      "STAT+: AI company Anthropic announces it will begin developi"
     ],
     "fundingQ": "$195.2B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 46,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
       "Rocket Lab to buy satellite communications firm Iridium",
       "Not Imaginary: The Deterrence Gap is Real and America Needs",
-      "Before SpaceX IPO, investors in China secretly acquired stak"
+      "The Secret to Marathon-Winning Humanoid Robots"
     ],
     "fundingQ": "$12.0B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
-      "market": 18
+      "market": 50
     },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 50,
+    "trend": "steady",
+    "catalysts": [
+      "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
+      "BMW Group deploys Figure 03 humanoid after tests with previo",
+      "This Humanoid Robot Is a Terrifyingly Competent Office Inter"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -85,7 +85,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,29 +101,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-30"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 40,
-    "trend": "steady",
-    "catalysts": [
-      "A New Force Posture Concept for Europeanizing Extended Nucle",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs",
-      "Contriving Imaginary Gaps in Nuclear Deterrence"
-    ],
-    "fundingQ": "$4.8B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 40,
+    "momentum": 44,
     "trend": "rising",
     "catalysts": [
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
@@ -133,52 +115,107 @@
       "funding": 84,
       "news": 5,
       "hiring": 0,
-      "market": 47
+      "market": 69
     },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 41,
+    "trend": "steady",
+    "catalysts": [
+      "Realta Fusion generates electricity directly from a fusion r",
+      "A New Force Posture Concept for Europeanizing Extended Nucle",
+      "Not Imaginary: The Deterrence Gap is Real and America Needs"
+    ],
+    "fundingQ": "$4.8B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 22,
+    "momentum": 26,
     "trend": "declining",
     "catalysts": [
-      "Anthropic Backer Menlo Ventures Raises $3B In New Funds To B",
-      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
+      "STAT+: AI company Anthropic announces it will begin developi",
+      "Claude Science is Anthropic\u2019s newest flagship product",
+      "Realta Fusion generates electricity directly from a fusion r"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 25,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 20,
+    "sector": "Chips & Semiconductors",
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
-      "BMW Group deploys Figure 03 humanoid after tests with previo",
-      "Beck: Iridium acquisition the \u201clogical next step\u201d for Rocket"
+      "Trump drops restrictions on Anthropic&#8217;s Mythos and Fab",
+      "The Trump Administration Is Lifting Its Export Controls on A",
+      "Tesla and SpaceX Can Fix US Energy Grid to Get More Gigawatt"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 40,
+      "news": 20,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-07-01"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 25,
+    "trend": "rising",
+    "catalysts": [
+      "Trump drops restrictions on Anthropic&#8217;s Mythos and Fab",
+      "Realta Fusion generates electricity directly from a fusion r",
+      "STAT+: Anthropic releases Claude Science, a product aimed at"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "Drones & Autonomous",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Toyota &#038; Joby Aviation Are Really Trying To Build &#822",
+      "Claude Science is Anthropic\u2019s newest flagship product",
+      "Overland AI nets Marine Corps autonomous ground vehicle cont"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-01"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Waymo and Uber quietly part ways in Phoenix",
-      "ARX Robotics and Roboneers form ARX Industries to scale unma"
+      "Tesla and SpaceX Shaping Demand and Supply of 20% of US Ener",
+      "Tesla and SpaceX Can Fix US Energy Grid to Get More Gigawatt"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -187,7 +224,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Toyota &#038; Joby Aviation Are Really Trying To Build &#822"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "Housing & Construction",
@@ -203,39 +256,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-06-30"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active infrastructure & logistics ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-06-30"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 8,
-    "trend": "declining",
-    "catalysts": [
-      "This Humanoid Robot Is a Terrifyingly Competent Office Inter"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 33
-    },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
   },
   {
     "sector": "Quantum Computing",
@@ -251,22 +272,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-06-30"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-01"
   }
 ]

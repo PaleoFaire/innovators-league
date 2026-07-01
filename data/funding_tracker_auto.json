@@ -29,6 +29,21 @@
     "roundCount": 4
   },
   {
+    "company": "Rebellions",
+    "totalRaised": "$15.2B+",
+    "totalRaisedRaw": 15191.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$31M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Founders Fund",
+      "NEA"
+    ],
+    "roundCount": 9
+  },
+  {
     "company": "OpenStar",
     "totalRaised": "$15.0B+",
     "totalRaisedRaw": 15000.0,
@@ -122,21 +137,6 @@
     "roundCount": 2
   },
   {
-    "company": "Rebellions",
-    "totalRaised": "$10.2B+",
-    "totalRaisedRaw": 10191.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$31M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Founders Fund",
-      "NEA"
-    ],
-    "roundCount": 8
-  },
-  {
     "company": "Zettascale",
     "totalRaised": "$10.0B+",
     "totalRaisedRaw": 10000.0,
@@ -175,6 +175,19 @@
       "Undisclosed"
     ],
     "roundCount": 3
+  },
+  {
+    "company": "Wayve",
+    "totalRaised": "$8.5B+",
+    "totalRaisedRaw": 8500.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$8.5B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Anduril Industries",
