@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T12:42:57.759249+00:00",
+  "generatedAt": "2026-07-01T15:48:06.174698+00:00",
   "date": "2026-07-01",
   "dateDisplay": "Wednesday, July 01, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 88.86,
-        "changePercent": 21.94,
-        "change": 15.99
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 483.02,
-        "changePercent": 21.66,
-        "change": 86.0
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 57.93,
-        "changePercent": 19.17,
-        "change": 9.32
-      },
-      {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 6.82,
-        "changePercent": 18.4,
-        "change": 1.06
-      },
-      {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 17.35,
-        "changePercent": 16.52,
-        "change": 2.46
-      },
-      {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.67,
-        "changePercent": 16.14,
-        "change": 0.51
+        "price": 85.34,
+        "changePercent": 25.48,
+        "change": 17.33
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 33.13,
-        "changePercent": 16.12,
-        "change": 4.6
+        "price": 32.84,
+        "changePercent": 24.85,
+        "change": 6.54
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.74,
-        "changePercent": -13.86,
-        "change": -0.28
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 17.39,
+        "changePercent": 18.75,
+        "change": 2.75
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.83,
+        "changePercent": 18.58,
+        "change": 0.6
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 61.31,
+        "changePercent": 18.03,
+        "change": 9.37
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 99.71,
+        "changePercent": 16.74,
+        "change": 14.3
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.81,
+        "changePercent": 15.3,
+        "change": 0.77
+      },
+      {
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 7.1,
+        "changePercent": 13.96,
+        "change": 0.87
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASTS +21.9%"
+    "topMover": "ASTS +25.5%"
   }
 }
