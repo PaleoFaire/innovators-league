@@ -9,21 +9,21 @@
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 11.16,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 11.62,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.16,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": 0.26,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.62,
+      "avg_change": -4.65,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.04,
+      "avg_change": -2.06,
       "count": 3
     },
     "biotech": {
@@ -86,19 +86,19 @@
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -2.91
-    ],
-    [
       "IONQ",
       "IonQ",
-      -4.07
+      -4.1
     ],
     [
       "RGTI",
       "Rigetti Computing",
       -4.35
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -4.65
     ],
     [
       "JOBY",
@@ -111,5 +111,5 @@
       -10.37
     ]
   ],
-  "lastUpdated": "2026-07-01 20:01:57"
+  "lastUpdated": "2026-07-02 03:54:23"
 }
