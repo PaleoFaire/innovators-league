@@ -1,17 +1,8 @@
 [
   {
     "date": "2026-07-01",
-    "vehicle": "Pegasus XL | Swift Boost Mission",
-    "payload": "Swift Boost Mission",
-    "pad": "Kwajalein Atoll, Air launch to orbit",
-    "provider": "Northrop Grumman Space Systems",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
-    "trackedCompany": "Northrop Grumman"
-  },
-  {
-    "date": "2026-07-01",
-    "vehicle": "Long March 4C | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 4B | Haiyang 2E",
+    "payload": "Haiyang 2E",
     "pad": "Launch Area 94 (SLS-2 / 603), Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/2bedbf8c-8df2-4e24-8397-8c2a08fab581/?format=json",
@@ -37,21 +28,12 @@
   },
   {
     "date": "2026-07-02",
-    "vehicle": "Long March 8A | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/888e0de3-ce4d-4daf-8140-bb0d3a4c8245/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-07-03",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-50",
-    "payload": "Starlink Group 10-50",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1ef27ca1-af91-48bb-b934-3da5abd9f711/?format=json",
-    "trackedCompany": "SpaceX"
+    "vehicle": "Pegasus XL | Swift Boost Mission",
+    "payload": "Swift Boost Mission",
+    "pad": "Kwajalein Atoll, Air launch to orbit",
+    "provider": "Northrop Grumman Space Systems",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
+    "trackedCompany": "Northrop Grumman"
   },
   {
     "date": "2026-07-04",
@@ -61,6 +43,24 @@
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9e0f6efb-4742-4ba3-9fd4-4ea218576c71/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-07-05",
+    "vehicle": "Long March 8A | SpaceSail Polar Group TBD",
+    "payload": "SpaceSail Polar Group TBD",
+    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/888e0de3-ce4d-4daf-8140-bb0d3a4c8245/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-05",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-50",
+    "payload": "Starlink Group 10-50",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1ef27ca1-af91-48bb-b934-3da5abd9f711/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-07-07",
@@ -207,6 +207,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-07-31",
+    "vehicle": "Vikram-I | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "Satish Dhawan Space Centre First Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Skyroot Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/10fa7952-f00b-4292-80a2-4207e208844e/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-08-06",
     "vehicle": "H3-22 | Michibiki 7 (QZS-7)",
     "payload": "Michibiki 7 (QZS-7)",
@@ -214,15 +223,6 @@
     "provider": "Mitsubishi Heavy Industries",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/b89ab080-66c3-4831-85a9-38d85da71d30/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-08-15",
-    "vehicle": "Electron | Aspera",
-    "payload": "Aspera",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0d6ad64c-3aed-4041-b095-e1d951bc6d29/?format=json",
-    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-08-27",
