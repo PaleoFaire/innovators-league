@@ -1,66 +1,83 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 76,
+    "momentum": 74,
     "trend": "accelerating",
     "catalysts": [
-      "Wayve launches $85M employee tender offer at $8.5B valuation",
-      "Anthropic launches Claude Sonnet 5 as a cheaper way to run a",
-      "Tesla and SpaceX Shaping Demand and Supply of 20% of US Ener"
+      "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data C",
+      "SpaceX has an AI device prototype, and it sure sounds phone-",
+      "Meta, like SpaceX, looks to turn excess AI compute into cash"
     ],
     "fundingQ": "$266.2B",
     "components": {
       "funding": 100,
-      "news": 85,
+      "news": 75,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 60,
+    "trend": "steady",
+    "catalysts": [
+      "Not Imaginary: The Deterrence Gap is Real and America Needs",
+      "The Secret to Marathon-Winning Humanoid Robots",
+      "Contriving Imaginary Gaps in Nuclear Deterrence"
+    ],
+    "fundingQ": "$12.0B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-07-02"
   },
   {
     "sector": "AI & Software",
     "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Trump drops restrictions on Anthropic&#8217;s Mythos and Fab",
-      "The Trump Administration Is Lifting Its Export Controls on A",
-      "STAT+: AI company Anthropic announces it will begin developi"
+      "Anthropic Added a New Security Measure to Get Back Into the",
+      "STAT+: The moment Anthropic convinced me it\u2019s serious about",
+      "The Download: Anthropic launches Claude Science, and Califor"
     ],
-    "fundingQ": "$195.2B",
+    "fundingQ": "$195.7B",
     "components": {
       "funding": 100,
       "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   },
   {
-    "sector": "Defense & Security",
-    "momentum": 51,
+    "sector": "Climate & Energy",
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Rocket Lab to buy satellite communications firm Iridium",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs",
-      "The Secret to Marathon-Winning Humanoid Robots"
+      "The Download: Anthropic launches Claude Science, and Califor",
+      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
-    "fundingQ": "$12.0B",
+    "fundingQ": "$1.3B",
     "components": {
-      "funding": 100,
-      "news": 25,
+      "funding": 84,
+      "news": 10,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 50,
     "trend": "steady",
     "catalysts": [
+      "Apptronik unveils Apollo 2 and a flagship data collection an",
       "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
-      "BMW Group deploys Figure 03 humanoid after tests with previo",
-      "This Humanoid Robot Is a Terrifyingly Competent Office Inter"
+      "BMW Group deploys Figure 03 humanoid after tests with previo"
     ],
     "fundingQ": "$27.0B",
     "components": {
@@ -69,7 +86,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 46,
+    "trend": "steady",
+    "catalysts": [
+      "A New Force Posture Concept for Europeanizing Extended Nucle",
+      "Not Imaginary: The Deterrence Gap is Real and America Needs",
+      "Contriving Imaginary Gaps in Nuclear Deterrence"
+    ],
+    "fundingQ": "$4.8B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 32
+    },
+    "lastUpdated": "2026-07-02"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -85,7 +120,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,50 +136,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-01"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 44,
-    "trend": "rising",
-    "catalysts": [
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
-    ],
-    "fundingQ": "$1.3B",
-    "components": {
-      "funding": 84,
-      "news": 5,
-      "hiring": 0,
-      "market": 69
-    },
-    "lastUpdated": "2026-07-01"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 41,
-    "trend": "steady",
-    "catalysts": [
-      "Realta Fusion generates electricity directly from a fusion r",
-      "A New Force Posture Concept for Europeanizing Extended Nucle",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs"
-    ],
-    "fundingQ": "$4.8B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   },
   {
     "sector": "Biotech & Health",
     "momentum": 26,
     "trend": "declining",
     "catalysts": [
+      "The Download: Anthropic launches Claude Science, and Califor",
       "STAT+: AI company Anthropic announces it will begin developi",
-      "Claude Science is Anthropic\u2019s newest flagship product",
-      "Realta Fusion generates electricity directly from a fusion r"
+      "Claude Science is Anthropic\u2019s newest flagship product"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -153,43 +154,77 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 26,
+    "trend": "rising",
+    "catalysts": [
+      "Apptronik unveils Apollo 2 and a flagship data collection an",
+      "Latitude plans to conduct first launch from Oman",
+      "Blue Origin outlines new launch pad approach as it pushes to"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 65,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-02"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 25,
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
+      "Anthropic Added a New Security Measure to Get Back Into the",
       "Trump drops restrictions on Anthropic&#8217;s Mythos and Fab",
-      "The Trump Administration Is Lifting Its Export Controls on A",
-      "Tesla and SpaceX Can Fix US Energy Grid to Get More Gigawatt"
+      "The Trump Administration Is Lifting Its Export Controls on A"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 100
+      "market": 87
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 25,
-    "trend": "rising",
+    "sector": "Transportation",
+    "momentum": 18,
+    "trend": "declining",
     "catalysts": [
-      "Trump drops restrictions on Anthropic&#8217;s Mythos and Fab",
-      "Realta Fusion generates electricity directly from a fusion r",
-      "STAT+: Anthropic releases Claude Science, a product aimed at"
+      "Toyota &#038; Joby Aviation Are Really Trying To Build &#822"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 60,
+      "news": 5,
+      "hiring": 0,
+      "market": 83
+    },
+    "lastUpdated": "2026-07-02"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data C",
+      "Meta, like SpaceX, looks to turn excess AI compute into cash",
+      "Tesla and SpaceX Shaping Demand and Supply of 20% of US Ener"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   },
   {
     "sector": "Drones & Autonomous",
@@ -207,31 +242,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Tesla and SpaceX Shaping Demand and Supply of 20% of US Ener",
-      "Tesla and SpaceX Can Fix US Energy Grid to Get More Gigawatt"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-01"
-  },
-  {
-    "sector": "Transportation",
+    "sector": "Housing & Construction",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Toyota &#038; Joby Aviation Are Really Trying To Build &#822"
+      "The SpaceX IPO tells one story. Here is the more important o"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -240,27 +258,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-01"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 1,
+    "momentum": 7,
     "trend": "declining",
     "catalysts": [
       "Do dragons dream of electric sheep?"
@@ -270,8 +272,8 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 29
     },
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-07-02"
   }
 ]

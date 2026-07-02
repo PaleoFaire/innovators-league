@@ -1,6 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-01 09:56:32 UTC
+// Last updated: 2026-07-02 09:18:58 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936927.xml", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936870.xml", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936799.xml", isIPO: false, ticker: "SMR" },
+  { company: "C3.ai", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782945826.xml", isIPO: false, ticker: "AI" },
+  { company: "Aurora Innovation", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782941562.xml", isIPO: false, ticker: "AUR" },
+  { company: "LanzaTech", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936285.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936164.xml", isIPO: false, ticker: "LNZA" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852950.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852932.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852918.xml", isIPO: false, ticker: "BKSY" },
@@ -44,11 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-06-23", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782259296.xml", isIPO: false, ticker: "LEU" },
   { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782259141.xml", isIPO: false, ticker: "LEU" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782258957.xml", isIPO: false, ticker: "LEU" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782258840.xml", isIPO: false, ticker: "LEU" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782255664.xml", isIPO: false, ticker: "LEU" },
-  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782247085.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782247057.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782247028.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782246975.xml", isIPO: false, ticker: "RIVN" },
 ];

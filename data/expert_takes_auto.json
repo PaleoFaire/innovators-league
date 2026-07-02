@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:57:51.754691Z",
+  "generated_at": "2026-07-02T09:20:00.353289Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -12,6 +12,26 @@
       "signal_type": "ipo"
     },
     {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Together AI",
+      "text": "Neocloud Together AI raises $800M, leaps to $8.3B valuation",
+      "date": "Wed, 01 Ju",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "The SpaceX IPO tells one story. Here is the more important one.",
+      "date": "Wed, 01 Ju",
+      "source": "news",
+      "source_url": "https://spacenews.com/the-spacex-ipo-tells-one-story-here-is-the-more-important-one/",
+      "signal_type": "funding"
+    },
+    {
       "author": "CleanTechnica",
       "role": "Industry signal",
       "company": "OpenAI",
@@ -20,16 +40,6 @@
       "source": "news",
       "source_url": "https://cleantechnica.com/2026/06/30/openai-went-from-5-09-billion-net-loss-in-2024-to-38-53-billion-net-loss-in-2025/",
       "signal_type": "news"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
-      "date": "Tue, 30 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-      "signal_type": "milestone"
     },
     {
       "author": "Ars Technica",
@@ -65,7 +75,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 6,
+    "from_news": 7,
     "from_press": 0
   }
 }

@@ -1,5 +1,18 @@
 [
   {
+    "company": "Tenstorrent",
+    "totalRaised": "$20.3B+",
+    "totalRaisedRaw": 20300.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$8.3B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 3
+  },
+  {
     "company": "SpaceX",
     "totalRaised": "$19.0B+",
     "totalRaisedRaw": 19000.0,
@@ -80,19 +93,6 @@
     "leadInvestors": [
       "Undisclosed",
       "L3Harris"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Tenstorrent",
-    "totalRaised": "$12.0B+",
-    "totalRaisedRaw": 12000.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$10B",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 2
   },
@@ -312,6 +312,20 @@
     "roundCount": 3
   },
   {
+    "company": "Scale AI",
+    "totalRaised": "$3.1B+",
+    "totalRaisedRaw": 3096.3,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Accel"
+    ],
+    "roundCount": 7
+  },
+  {
     "company": "Andromeda Surgical",
     "totalRaised": "$3.0B+",
     "totalRaisedRaw": 3035.0,
@@ -336,20 +350,6 @@
       "Undisclosed"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Scale AI",
-    "totalRaised": "$2.6B+",
-    "totalRaisedRaw": 2596.3,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$250M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Accel"
-    ],
-    "roundCount": 6
   },
   {
     "company": "True Anomaly",
@@ -645,16 +645,16 @@
   },
   {
     "company": "Watershed",
-    "totalRaised": "$910M+",
-    "totalRaisedRaw": 910.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$100M",
-    "lastRoundDate": "2026-06",
+    "totalRaised": "$940M+",
+    "totalRaisedRaw": 940.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$30M",
+    "lastRoundDate": "2026-07",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 3
+    "roundCount": 4
   },
   {
     "company": "Neuralink",
