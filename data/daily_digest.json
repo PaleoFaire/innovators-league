@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T18:40:53.900873+00:00",
+  "generatedAt": "2026-07-02T20:24:36.832203+00:00",
   "date": "2026-07-02",
   "dateDisplay": "Thursday, July 02, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 87.54,
-        "changePercent": 33.4,
-        "change": 21.92
+        "price": 83.28,
+        "changePercent": 26.91,
+        "change": 17.66
       },
       {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 19.45,
-        "changePercent": 30.92,
-        "change": 4.59
+        "price": 18.7,
+        "changePercent": 25.81,
+        "change": 3.84
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 105.3,
-        "changePercent": 30.5,
-        "change": 24.61
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.89,
-        "changePercent": 28.71,
-        "change": 1.31
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 32.91,
-        "changePercent": 24.12,
-        "change": 6.39
-      },
-      {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 6.78,
-        "changePercent": 22.83,
-        "change": 1.26
+        "price": 99.39,
+        "changePercent": 23.18,
+        "change": 18.7
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 131.63,
-        "changePercent": 22.71,
-        "change": 24.36
+        "price": 129.33,
+        "changePercent": 20.56,
+        "change": 22.06
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.42,
+        "changePercent": 18.34,
+        "change": 0.84
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 31.03,
+        "changePercent": 17.05,
+        "change": 4.52
+      },
+      {
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 6.42,
+        "changePercent": 16.3,
+        "change": 0.9
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
-        "price": 3.87,
-        "changePercent": 15.72,
-        "change": 0.53
+        "price": 3.79,
+        "changePercent": 13.47,
+        "change": 0.45
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASTS +33.4%"
+    "topMover": "ASTS +26.9%"
   }
 }
