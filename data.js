@@ -68066,22 +68066,22 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-02 00:16
+// Last updated: 2026-07-02 05:05
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data Centers Using Modular Power and AI", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX has an AI device prototype, and it sure sounds phone-ish", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Together AI", headline: "Neocloud Together AI raises $800M, leaps to $8.3B valuation", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic Added a New Security Measure to Get Back Into the Trump Administration's Good Graces", source: "Wired", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "STAT+: The moment Anthropic convinced me it's serious about science", source: "STAT News", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Meta, like SpaceX, looks to turn excess AI compute into cash", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Apptronik", headline: "Apptronik unveils Apollo 2 and a flagship data collection and training facility", source: "The Robot Report", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Anthropic", headline: "The Download: Anthropic launches Claude Science, and California's carbon manure math", source: "MIT Tech Review", time: "12h ago", impact: "medium", unread: false },
-  { id: 9, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "SpaceX", headline: "The SpaceX IPO tells one story. Here is the more important one.", source: "SpaceNews", time: "13h ago", impact: "high", unread: false },
-  { id: 12, type: "funding", company: "Scale AI", headline: "Ex-DeepMind researchers land record Creandum funding to scale AI agents for Nasdaq", source: "Tech.eu", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "Trump drops restrictions on Anthropic's Mythos and Fable models", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Wayve", headline: "Wayve launches $85M employee tender offer at $8.5B valuation", source: "TechCrunch", time: "22h ago", impact: "medium", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data Centers Using Modular Power and AI", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX has an AI device prototype, and it sure sounds phone-ish", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Together AI", headline: "Neocloud Together AI raises $800M, leaps to $8.3B valuation", source: "TechCrunch", time: "10h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic Added a New Security Measure to Get Back Into the Trump Administration's Good Graces", source: "Wired", time: "13h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "STAT+: The moment Anthropic convinced me it's serious about science", source: "STAT News", time: "13h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Meta, like SpaceX, looks to turn excess AI compute into cash", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Apptronik", headline: "Apptronik unveils Apollo 2 and a flagship data collection and training facility", source: "The Robot Report", time: "16h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Anthropic", headline: "The Download: Anthropic launches Claude Science, and California's carbon manure math", source: "MIT Tech Review", time: "16h ago", impact: "medium", unread: false },
+  { id: 9, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "SpaceX", headline: "The SpaceX IPO tells one story. Here is the more important one.", source: "SpaceNews", time: "18h ago", impact: "high", unread: false },
+  { id: 12, type: "funding", company: "Scale AI", headline: "Ex-DeepMind researchers land record Creandum funding to scale AI agents for Nasdaq", source: "Tech.eu", time: "18h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Trump drops restrictions on Anthropic's Mythos and Fable models", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Wayve", headline: "Wayve launches $85M employee tender offer at $8.5B valuation", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
   { id: 15, type: "news", company: "Anthropic", headline: "The Trump Administration Is Lifting Its Export Controls on Anthropic's Mythos and Fable AI Models", source: "Wired", time: "1d ago", impact: "low", unread: false },
 ];
 
