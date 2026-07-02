@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 11.62,
+      "avg_change": 11.42,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": 0.26,
+      "avg_change": -0.13,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 15.02,
+      "avg_change": 11.12,
       "count": 3
     },
     "transportation": {
@@ -96,14 +96,14 @@
       -4.35
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -4.65
-    ],
-    [
       "JOBY",
       "Joby Aviation",
       -4.74
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -6.01
     ],
     [
       "NNE",
@@ -111,5 +111,5 @@
       -10.37
     ]
   ],
-  "lastUpdated": "2026-07-02 03:54:23"
+  "lastUpdated": "2026-07-02 09:18:46"
 }
