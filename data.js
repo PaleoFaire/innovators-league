@@ -68513,16 +68513,16 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-02 14:23
+// Last updated: 2026-07-02 16:57
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Dexterity", headline: "Why you should combine robot dexterity with mechanical positioning for complex assembly operations", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Rivian", headline: "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook", source: "Electrek", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Built Robotics", headline: "Blattner awards Built Robotics $75M contract for physical AI to help meet energy demand", source: "The Robot Report", time: "3h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data Centers Using Modular Power and AI", source: "Next Big Future", time: "16h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX has an AI device prototype, and it sure sounds phone-ish", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Together AI", headline: "Neocloud Together AI raises $800M, leaps to $8.3B valuation", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic Added a New Security Measure to Get Back Into the Trump Administration's Good Graces", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "STAT+: The moment Anthropic convinced me it's serious about science", source: "STAT News", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "OpenAI", headline: "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Dexterity", headline: "Why you should combine robot dexterity with mechanical positioning for complex assembly operations", source: "The Robot Report", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Rivian", headline: "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook", source: "Electrek", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data Centers Using Modular Power and AI", source: "Next Big Future", time: "19h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX has an AI device prototype, and it sure sounds phone-ish", source: "TechCrunch", time: "22h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Together AI", headline: "Neocloud Together AI raises $800M, leaps to $8.3B valuation", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic Added a New Security Measure to Get Back Into the Trump Administration's Good Graces", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "STAT+: The moment Anthropic convinced me it's serious about science", source: "STAT News", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Apptronik", headline: "Apptronik unveils Apollo 2 and a flagship data collection and training facility", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "milestone", company: "Anthropic", headline: "The Download: Anthropic launches Claude Science, and California's carbon manure math", source: "MIT Tech Review", time: "1d ago", impact: "medium", unread: false },
   { id: 11, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
