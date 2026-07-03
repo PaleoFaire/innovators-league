@@ -1,15 +1,15 @@
 {
   "script": "fetch_funding_rss.py",
-  "started_at": "2026-07-02T09:49:45.317675+00:00",
-  "finished_at": "2026-07-02T09:49:49.142754+00:00",
+  "started_at": "2026-07-03T09:47:41.075570+00:00",
+  "finished_at": "2026-07-03T09:47:45.084874+00:00",
   "companies_tracked": 695,
-  "total_items_fetched": 148,
+  "total_items_fetched": 149,
   "total_deals_extracted": 1,
   "feeds": [
     {
       "source": "TechCrunch",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "items_fetched": 18,
+      "items_fetched": 19,
       "error": null
     },
     {
