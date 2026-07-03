@@ -1,74 +1,85 @@
 // Auto-generated news signals
-// Last updated: 2026-07-02T22:14:42.415Z
+// Last updated: 2026-07-03T00:15:09.184Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1783030482415,
+    "id": 1783037709183,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic is discussing a new custom chip with Samsung",
     "source": "TechCrunch",
-    "time": "3h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
   },
   {
-    "id": 1783030482416,
+    "id": 1783037709184,
     "type": "contract",
     "company": "Isar Aerospace",
     "headline": "Isar Aerospace to launch German-built Planet imaging satellite",
     "source": "SpaceNews",
-    "time": "3h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/isar-aerospace-to-launch-german-built-planet-imaging-satellite/"
   },
   {
-    "id": 1783030482417,
+    "id": 1783037709186,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
     "source": "Wired",
-    "time": "4h ago",
+    "time": "6h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/"
   },
   {
-    "id": 1783030482418,
+    "id": 1783037709187,
     "type": "hire",
     "company": "OpenAI",
     "headline": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
     "source": "TechCrunch",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
   },
   {
-    "id": 1783030482419,
+    "id": 1783037709188,
     "type": "news",
     "company": "Dexterity",
     "headline": "Why you should combine robot dexterity with mechanical positioning for complex assembly operations",
     "source": "The Robot Report",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/"
   },
   {
-    "id": 1783030482420,
+    "id": 1783037709189,
     "type": "funding",
     "company": "Rivian",
     "headline": "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook",
     "source": "Electrek",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/07/02/rivian-tops-q2-delivery-numbers-and-raises-full-year-2026-outlook/"
   },
   {
-    "id": 1783030482421,
+    "id": 1783037709190,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data Centers Using Modular Power and AI",
+    "source": "Next Big Future",
+    "time": "1d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/07/tesla-and-spacex-can-get100-gigawatts-of-power-for-ai-data-centers-using-modular-power-and-ai.html"
+  },
+  {
+    "id": 1783037709191,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic Added a New Security Measure to Get Back Into the Trump Administration’s Good Graces",
@@ -79,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces/"
   },
   {
-    "id": 1783030482422,
+    "id": 1783037709192,
     "type": "news",
     "company": "Anthropic",
     "headline": "STAT+: The moment Anthropic convinced me it’s serious about science",
@@ -90,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.statnews.com/2026/07/01/anthropic-claude-science-convinced-me-its-serious-ai-prognosis/?utm_campaign=rss"
   },
   {
-    "id": 1783030482423,
+    "id": 1783037709193,
     "type": "news",
     "company": "Apptronik",
     "headline": "Apptronik unveils Apollo 2 and a flagship data collection and training facility",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/"
   },
   {
-    "id": 1783030482424,
+    "id": 1783037709194,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "The Download: Anthropic launches Claude Science, and California&#8217;s carbon manure math",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/"
   },
   {
-    "id": 1783030482425,
+    "id": 1783037709195,
     "type": "ipo",
     "company": "Latitude",
     "headline": "Latitude plans to conduct first launch from Oman",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/latitude-plans-to-conduct-first-launch-from-oman/"
   },
   {
-    "id": 1783030482426,
+    "id": 1783037709196,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/blue-origin-outlines-new-launch-pad-approach-as-it-pushes-to-return-new-glenn-to-flight/"
   },
   {
-    "id": 1783030482427,
+    "id": 1783037709197,
     "type": "funding",
     "company": "SpaceX",
     "headline": "The SpaceX IPO tells one story. Here is the more important one.",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/the-spacex-ipo-tells-one-story-here-is-the-more-important-one/"
   },
   {
-    "id": 1783030482428,
+    "id": 1783037709198,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Ex-DeepMind researchers land record Creandum funding to scale AI agents for Nasdaq",
@@ -156,18 +167,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/01/ex-deepmind-researchers-land-record-creandum-funding-to-scale-ai-agents-for-nasdaq/"
   },
   {
-    "id": 1783030482429,
+    "id": 1783037709199,
     "type": "news",
     "company": "Joby Aviation",
     "headline": "Toyota &#038; Joby Aviation Are Really Trying To Build &#8220;Air Mobility for All&#8221; — Or So They Say",
     "source": "CleanTechnica",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/06/30/toyota-joby-aviation-are-really-trying-to-build-air-mobility-for-all/"
   },
   {
-    "id": 1783030482430,
+    "id": 1783037709200,
     "type": "news",
     "company": "Anthropic",
     "headline": "Claude Science is Anthropic’s newest flagship product",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
   },
   {
-    "id": 1783030482431,
+    "id": 1783037709201,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Went From $5.09 Billion Net Loss in 2024 to $38.53 Billion Net Loss in 2025",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/06/30/openai-went-from-5-09-billion-net-loss-in-2024-to-38-53-billion-net-loss-in-2025/"
   },
   {
-    "id": 1783030482432,
+    "id": 1783037709202,
     "type": "ipo",
     "company": "Vast",
     "headline": "Vast names Isakowitz as a senior adviser",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/vast-names-isakowitz-as-a-senior-adviser/"
   },
   {
-    "id": 1783030482433,
+    "id": 1783037709203,
     "type": "news",
     "company": "OpenAI",
     "headline": "Exclusive: Meta and OpenAI alumni seek $400m for new AI lab",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "medium",
     "unread": false,
     "link": "https://sifted.eu/articles/aire-openai-meta-aire-fundraise/"
-  },
-  {
-    "id": 1783030482434,
-    "type": "hire",
-    "company": "Bear Robotics",
-    "headline": "Insights behind Kinisi’s acquisition by Bear Robotics",
-    "source": "The Robot Report",
-    "time": "2d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/"
   }
 ];
