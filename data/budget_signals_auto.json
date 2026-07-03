@@ -1,40 +1,5 @@
 [
   {
-    "category": "Nuclear Energy",
-    "icon": "\u269b\ufe0f",
-    "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 3,
-    "billsTracked": 2,
-    "rulesTracked": 1,
-    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Fusion Energy Innovation Act",
-        "number": "HR5100",
-        "status": ""
-      },
-      {
-        "type": "bill",
-        "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
-        "number": "S2226",
-        "status": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Constellation Energy Generation, LLC; R.E. Ginna Nuclear Power Plant; Subsequent",
-        "agency": "",
-        "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-02"
-  },
-  {
     "category": "Autonomous Systems & Drones",
     "icon": "\ud83d\udef8",
     "budgetLineItem": "Autonomous Systems & Drones \u2014 federal activity index",
@@ -55,48 +20,71 @@
       },
       {
         "type": "federal_register",
-        "title": "Safety Zone; Aerial Drone Displays, Upper Bay, New York, NY",
+        "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a ",
         "agency": "",
         "date": ""
       },
       {
         "type": "federal_register",
-        "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a ",
+        "title": "Safety Zone; Aerial Drone Displays, Upper Bay, New York, NY",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-02"
+    "lastUpdated": "2026-07-03"
   },
   {
-    "category": "Quantum Computing",
-    "icon": "\u26a1",
-    "budgetLineItem": "Quantum Computing \u2014 federal activity index",
+    "category": "Nuclear Energy",
+    "icon": "\u269b\ufe0f",
+    "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
     "change": "+5%",
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
     "activityIndex": 2,
+    "billsTracked": 2,
+    "rulesTracked": 0,
+    "description": "2 bill(s) + 0 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Fusion Energy Innovation Act",
+        "number": "HR5100",
+        "status": ""
+      },
+      {
+        "type": "bill",
+        "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
+        "number": "S2226",
+        "status": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-07-03"
+  },
+  {
+    "category": "Quantum Computing",
+    "icon": "\u26a1",
+    "budgetLineItem": "Quantum Computing \u2014 federal activity index",
+    "change": "flat",
+    "changeNum": 0,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 1,
     "billsTracked": 1,
-    "rulesTracked": 1,
-    "description": "1 bill(s) + 1 federal-register action(s) touching Quantum Computing in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "rulesTracked": 0,
+    "description": "1 bill(s) + 0 federal-register action(s) touching Quantum Computing in the last 90 days. Activity index 1 \u2014 flat relative trend.",
     "examples": [
       {
         "type": "bill",
         "title": "Quantum Network Infrastructure Act",
         "number": "S3200",
         "status": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Ushering in the Next Frontier of Quantum Innovation",
-        "agency": "",
-        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-02"
+    "lastUpdated": "2026-07-03"
   },
   {
     "category": "Space & Aerospace",
@@ -119,6 +107,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-02"
+    "lastUpdated": "2026-07-03"
   }
 ]

@@ -418,6 +418,19 @@
     "roundCount": 1
   },
   {
+    "company": "Steady Energy",
+    "totalRaised": "$1.8B+",
+    "totalRaisedRaw": 1750.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$1.75B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Saildrone",
     "totalRaised": "$1.8B+",
     "totalRaisedRaw": 1750.0,
@@ -1221,14 +1234,15 @@
     "company": "Amca",
     "totalRaised": "$62M+",
     "totalRaisedRaw": 62.5,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$62.5M",
-    "lastRoundDate": "2026-06",
+    "lastRound": "IPO",
+    "lastRoundAmount": "$510B",
+    "lastRoundDate": "2026-07",
     "valuation": "",
     "leadInvestors": [
+      "Accel",
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "ideaForge",
@@ -1277,6 +1291,19 @@
     "lastRound": "Series A",
     "lastRoundAmount": "$50M",
     "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Pivotal",
+    "totalRaised": "$47M+",
+    "totalRaisedRaw": 46.6,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$46.6M",
+    "lastRoundDate": "2026-07",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"

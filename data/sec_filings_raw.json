@@ -837,15 +837,6 @@
     "isIPO": false
   },
   {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-03-26",
-    "description": "xslF345X06/ownership.xml",
-    "accessionNumber": "0001493152-26-013023",
-    "isIPO": false
-  },
-  {
     "company": "Planet Labs",
     "ticker": "PL",
     "form": "8-K",
@@ -3000,6 +2991,24 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/wk-form4_1783022795.xml",
+    "accessionNumber": "0002021433-26-000015",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/wk-form4_1783022704.xml",
+    "accessionNumber": "0002021786-26-000015",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-06-15",
     "description": "xslF345X06/wk-form4_1781556496.xml",
     "accessionNumber": "0001849056-26-000034",
@@ -3258,12 +3267,12 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-03-30",
-    "description": "xslF345X06/wk-form4_1774907147.xml",
-    "accessionNumber": "0001445637-26-000006",
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-07-02",
+    "description": "leu-20260630.htm",
+    "accessionNumber": "0001628280-26-046801",
     "isIPO": false
   },
   {
@@ -3828,6 +3837,15 @@
     "company": "C3.ai",
     "ticker": "AI",
     "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/wk-form4_1783027532.xml",
+    "accessionNumber": "0001577526-26-000083",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "4",
     "date": "2026-07-01",
     "description": "xslF345X06/wk-form4_1782945826.xml",
     "accessionNumber": "0001577526-26-000081",
@@ -4119,15 +4137,6 @@
     "date": "2026-01-02",
     "description": "xslF345X05/form4-01022026_110135.xml",
     "accessionNumber": "0002085719-26-000001",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2025-12-18",
-    "description": "xslF345X05/form4-12182025_111239.xml",
-    "accessionNumber": "0001031530-25-000016",
     "isIPO": false
   },
   {
@@ -4430,6 +4439,51 @@
   {
     "company": "UiPath",
     "ticker": "PATH",
+    "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0002127293-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001855764-26-000008",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001855764-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001855778-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001543401-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
     "form": "8-K",
     "date": "2026-06-29",
     "description": "path-20260625.htm",
@@ -4722,42 +4776,6 @@
     "date": "2026-01-06",
     "description": "xslF345X05/primarydocument.xml",
     "accessionNumber": "0001855767-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-01-05",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-01-02",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-26-000001",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2025-12-31",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-25-000051",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2025-12-29",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-25-000050",
     "isIPO": false
   },
   {
@@ -5601,6 +5619,24 @@
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/wk-form4_1783026949.xml",
+    "accessionNumber": "0001601830-26-000092",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-07-02",
+    "description": "xslF345X06/wk-form4_1783026941.xml",
+    "accessionNumber": "0001601830-26-000091",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
     "date": "2026-06-22",
     "description": "xslF345X06/wk-form4_1782160357.xml",
     "accessionNumber": "0001601830-26-000088",
@@ -5856,24 +5892,6 @@
     "date": "2026-04-02",
     "description": "xslF345X06/wk-form4_1775163383.xml",
     "accessionNumber": "0001852075-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-04-02",
-    "description": "xslF345X06/wk-form4_1775163374.xml",
-    "accessionNumber": "0001837016-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "8-K",
-    "date": "2026-03-25",
-    "description": "rxrx-20260325.htm",
-    "accessionNumber": "0001601830-26-000054",
     "isIPO": false
   },
   {
@@ -8769,6 +8787,15 @@
     "company": "Rivian",
     "ticker": "RIVN",
     "form": "8-K",
+    "date": "2026-07-02",
+    "description": "rivn-20260702.htm",
+    "accessionNumber": "0001874178-26-000048",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "8-K",
     "date": "2026-06-26",
     "description": "rivn-20260622.htm",
     "accessionNumber": "0001874178-26-000045",
@@ -9078,15 +9105,6 @@
     "date": "2026-03-24",
     "description": "xslF345X06/wk-form4_1774384805.xml",
     "accessionNumber": "0001943929-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-03-19",
-    "description": "xslF345X06/wk-form4_1773952319.xml",
-    "accessionNumber": "0001891517-26-000015",
     "isIPO": false
   },
   {

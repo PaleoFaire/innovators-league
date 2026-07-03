@@ -1,6 +1,18 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-02 09:18:58 UTC
+// Last updated: 2026-07-03 09:24:54 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783022795.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783022704.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Centrus Energy", form: "8-K", date: "2026-07-02", description: "leu-20260630.htm", isIPO: false, ticker: "LEU" },
+  { company: "C3.ai", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783027532.xml", isIPO: false, ticker: "AI" },
+  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783026949.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783026941.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Rivian", form: "8-K", date: "2026-07-02", description: "rivn-20260702.htm", isIPO: false, ticker: "RIVN" },
   { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936927.xml", isIPO: false, ticker: "SMR" },
   { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936870.xml", isIPO: false, ticker: "SMR" },
   { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936799.xml", isIPO: false, ticker: "SMR" },
@@ -39,16 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "IonQ", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782771550.xml", isIPO: false, ticker: "IONQ" },
   { company: "IonQ", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782771218.xml", isIPO: false, ticker: "IONQ" },
   { company: "IonQ", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782771056.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782770902.xml", isIPO: false, ticker: "IONQ" },
-  { company: "LanzaTech", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782765207.xml", isIPO: false, ticker: "LNZA" },
-  { company: "Tempus AI", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782732164.xml", isIPO: false, ticker: "TEM" },
-  { company: "Intuitive Machines", form: "4", date: "2026-06-26", description: "xslF345X06/form4-06262026_050631.xml", isIPO: false, ticker: "LUNR" },
-  { company: "IonQ", form: "8-K", date: "2026-06-26", description: "bakkt-20260625.htm", isIPO: false, ticker: "IONQ" },
-  { company: "Rivian", form: "8-K", date: "2026-06-26", description: "rivn-20260622.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Satellogic", form: "DEF 14A", date: "2026-06-26", description: "ea0296034-def14a_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Satellogic", form: "8-K", date: "2026-06-25", description: "ea0295875-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "C3.ai", form: "10-K", date: "2026-06-24", description: "ai-20260430.htm", isIPO: false, ticker: "AI" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-06-23", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782259296.xml", isIPO: false, ticker: "LEU" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-23", description: "xslF345X06/wk-form4_1782259141.xml", isIPO: false, ticker: "LEU" },
 ];
