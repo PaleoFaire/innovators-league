@@ -68847,23 +68847,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-03 11:39
+// Last updated: 2026-07-03 14:27
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic is discussing a new custom chip with Samsung", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace to launch German-built Planet imaging satellite", source: "SpaceNews", time: "17h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Can Cursor Remain a Platform for OpenAI and Anthropic's Models Inside SpaceX?", source: "Wired", time: "17h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "OpenAI", headline: "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Dexterity", headline: "Why you should combine robot dexterity with mechanical positioning for complex assembly operations", source: "The Robot Report", time: "23h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Rivian", headline: "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook", source: "Electrek", time: "23h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data Centers Using Modular Power and AI", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic Added a New Security Measure to Get Back Into the Trump Administration's Good Graces", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "STAT+: The moment Anthropic convinced me it's serious about science", source: "STAT News", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Apptronik", headline: "Apptronik unveils Apollo 2 and a flagship data collection and training facility", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Anthropic", headline: "The Download: Anthropic launches Claude Science, and California's carbon manure math", source: "MIT Tech Review", time: "1d ago", impact: "medium", unread: false },
-  { id: 12, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "SpaceX", headline: "The SpaceX IPO tells one story. Here is the more important one.", source: "SpaceNews", time: "2d ago", impact: "high", unread: false },
-  { id: 15, type: "funding", company: "Scale AI", headline: "Ex-DeepMind researchers land record Creandum funding to scale AI agents for Nasdaq", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Waymo", headline: "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens Do Idiotic Things in Waymos", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "Anthropic is discussing a new custom chip with Samsung", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace to launch German-built Planet imaging satellite", source: "SpaceNews", time: "20h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Can Cursor Remain a Platform for OpenAI and Anthropic's Models Inside SpaceX?", source: "Wired", time: "20h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "OpenAI", headline: "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Dexterity", headline: "Why you should combine robot dexterity with mechanical positioning for complex assembly operations", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Rivian", headline: "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data Centers Using Modular Power and AI", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic Added a New Security Measure to Get Back Into the Trump Administration's Good Graces", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "STAT+: The moment Anthropic convinced me it's serious about science", source: "STAT News", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Apptronik", headline: "Apptronik unveils Apollo 2 and a flagship data collection and training facility", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Anthropic", headline: "The Download: Anthropic launches Claude Science, and California's carbon manure math", source: "MIT Tech Review", time: "2d ago", impact: "medium", unread: false },
+  { id: 13, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "SpaceX", headline: "The SpaceX IPO tells one story. Here is the more important one.", source: "SpaceNews", time: "2d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
