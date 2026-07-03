@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-02T08:45:39+00:00",
+  "generatedAt": "2026-07-03T08:51:33+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 36,
+  "cohortSize": 33,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 36
+    "unverifiable": 33
   },
   "cleared": [],
   "changesProposed": [],
@@ -49,6 +49,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Dexterity",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Durin",
       "reason": "Claude extraction failed"
     },
@@ -69,6 +73,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Isar Aerospace",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Joby Aviation",
       "reason": "Claude extraction failed"
     },
@@ -85,10 +93,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Overland AI",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Palantir",
       "reason": "Claude extraction failed"
     },
@@ -97,7 +101,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Photonic Inc",
+      "name": "Rivian",
       "reason": "Claude extraction failed"
     },
     {
@@ -117,18 +121,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Starcloud",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Tenstorrent",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Together AI",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Vast",
       "reason": "Claude extraction failed"
     },
@@ -142,10 +134,6 @@
     },
     {
       "name": "X-Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Xanadu Quantum Technologies",
       "reason": "Claude extraction failed"
     },
     {
