@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 6.76,
+      "avg_change": 6.88,
       "count": 3
     },
     "transportation": {
@@ -86,6 +86,11 @@
   ],
   "topLosers": [
     [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -2.98
+    ],
+    [
       "NNE",
       "Nano Nuclear Energy",
       -3.0
@@ -101,15 +106,10 @@
       -3.08
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -3.33
-    ],
-    [
       "JOBY",
       "Joby Aviation",
       -4.28
     ]
   ],
-  "lastUpdated": "2026-07-03 14:14:11"
+  "lastUpdated": "2026-07-03 19:28:29"
 }
