@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 2.75,
+      "avg_change": 2.79,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 7.04,
+      "avg_change": 6.76,
       "count": 3
     },
     "transportation": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "IONQ",
-      "IonQ",
-      -2.85
-    ],
-    [
       "NNE",
       "Nano Nuclear Energy",
       -3.0
@@ -106,10 +101,15 @@
       -3.08
     ],
     [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -3.33
+    ],
+    [
       "JOBY",
       "Joby Aviation",
       -4.28
     ]
   ],
-  "lastUpdated": "2026-07-03 09:24:37"
+  "lastUpdated": "2026-07-03 14:14:11"
 }
