@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T00:15:18.398175+00:00",
+  "generatedAt": "2026-07-03T04:50:33.604396+00:00",
   "date": "2026-07-03",
   "dateDisplay": "Friday, July 03, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 83.28,
-        "changePercent": 26.91,
-        "change": 17.66
+        "price": 85.13,
+        "changePercent": 29.73,
+        "change": 19.51
       },
       {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 18.7,
-        "changePercent": 25.81,
-        "change": 3.84
+        "price": 18.63,
+        "changePercent": 25.37,
+        "change": 3.77
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 99.39,
-        "changePercent": 23.18,
-        "change": 18.7
+        "price": 100.46,
+        "changePercent": 24.5,
+        "change": 19.77
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 129.33,
-        "changePercent": 20.56,
-        "change": 22.06
+        "price": 129.3,
+        "changePercent": 20.54,
+        "change": 22.03
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 5.42,
-        "changePercent": 18.34,
-        "change": 0.84
+        "price": 5.43,
+        "changePercent": 18.56,
+        "change": 0.85
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 31.03,
-        "changePercent": 17.05,
-        "change": 4.52
+        "price": 31.38,
+        "changePercent": 18.37,
+        "change": 4.87
       },
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 6.42,
-        "changePercent": 16.3,
-        "change": 0.9
+        "price": 6.31,
+        "changePercent": 14.31,
+        "change": 0.79
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
-        "price": 3.79,
-        "changePercent": 13.47,
-        "change": 0.45
+        "price": 3.8,
+        "changePercent": 13.77,
+        "change": 0.46
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASTS +26.9%"
+    "topMover": "ASTS +29.7%"
   }
 }
