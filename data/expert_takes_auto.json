@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T09:30:54.351173Z",
+  "generated_at": "2026-07-04T09:16:07.691484Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -50,22 +50,12 @@
       "source": "news",
       "source_url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
       "signal_type": "hire"
-    },
-    {
-      "author": "SpaceNews",
-      "role": "Industry signal",
-      "company": "Rocket Lab",
-      "text": "Beck: Iridium acquisition the \u201clogical next step\u201d for Rocket Lab",
-      "date": "Mon, 29 Ju",
-      "source": "news",
-      "source_url": "https://spacenews.com/beck-iridium-acquisition-the-logical-next-step-for-rocket-lab/",
-      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 6,
+    "from_news": 5,
     "from_press": 0
   }
 }
