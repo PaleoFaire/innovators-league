@@ -69056,13 +69056,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-04 18:09
+// Last updated: 2026-07-04 20:13
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "OpenAI", headline: "What is Mistral AI? Everything to know about the OpenAI competitor", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 1, type: "funding", company: "OpenAI", headline: "What is Mistral AI? Everything to know about the OpenAI competitor", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone", source: "Ars Technica Space", time: "1d ago", impact: "medium", unread: true },
   { id: 3, type: "milestone", company: "Waymo", headline: "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens Do Idiotic Things in Waymos", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic is discussing a new custom chip with Samsung", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace to launch German-built Planet imaging satellite", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic is discussing a new custom chip with Samsung", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace to launch German-built Planet imaging satellite", source: "SpaceNews", time: "2d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "Can Cursor Remain a Platform for OpenAI and Anthropic's Models Inside SpaceX?", source: "Wired", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "Dexterity", headline: "Why you should combine robot dexterity with mechanical positioning for complex assembly operations", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
   { id: 8, type: "funding", company: "Rivian", headline: "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook", source: "Electrek", time: "2d ago", impact: "low", unread: false },
