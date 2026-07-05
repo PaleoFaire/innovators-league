@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-06-28T10:24:28Z",
-  "company_count": 950,
+  "generated_at": "2026-07-05T10:07:40Z",
+  "company_count": 964,
   "checks": {
-    "acquisition_language": [
-      {
-        "name": "Tubulis",
-        "current_stage": "series c",
-        "pattern_hit": "\\bacquired by\\b",
-        "excerpt": "next-generation antibody-drug conjugates for solid tumors; acquired by gilead sciences in 2026 for $3.15b upfront (up to $5b). adc…",
-        "action": "Change fundingStage to \"Acquired\" and add acquiredBy field"
-      }
-    ],
+    "acquisition_language": [],
     "defunct_language": [],
     "ipo_mismatches": [
       {
@@ -279,7 +271,7 @@
       {
         "name": "Second Front Systems",
         "sector": "Defense & Security",
-        "founder": "Peter Dixon, Tyler Sweatt"
+        "founder": "Peter Dixon, Mark Butler, Nate Hughes"
       },
       {
         "name": "True Anomaly",
@@ -484,7 +476,7 @@
       {
         "name": "Starpath Robotics",
         "sector": "Space & Aerospace",
-        "founder": "Saurav Shroff, Mihir Gondhalekar"
+        "founder": "Saurav Shroff, Mihir Gondhalekar, Jason Zang"
       },
       {
         "name": "DroneForge",
@@ -624,7 +616,7 @@
       {
         "name": "Emelody",
         "sector": "Robotics & Manufacturing",
-        "founder": "Jon Thomas"
+        "founder": "Jon Thomas, Elizabeth Johnson"
       },
       {
         "name": "HLabs",
@@ -734,7 +726,7 @@
       {
         "name": "Helios",
         "sector": "Climate & Energy",
-        "founder": "Jonathan Geifman, Dor Blum"
+        "founder": "Jonathan Geifman, Elad Geffen, Guy Amir, John Hausner, Ohad Hallak"
       },
       {
         "name": "Strand Therapeutics",
@@ -844,7 +836,7 @@
       {
         "name": "KP Labs",
         "sector": "Space & Aerospace",
-        "founder": "Grzegorz Kasprowicz"
+        "founder": "Krzysztof Pacan"
       },
       {
         "name": "Primoco UAV",
@@ -1159,7 +1151,7 @@
       {
         "name": "Svante",
         "sector": "Climate & Energy",
-        "founder": "Claude Letourneau"
+        "founder": "Brett Henkel"
       },
       {
         "name": "MineSense Technologies",
@@ -1264,7 +1256,7 @@
       {
         "name": "Nuvacore",
         "sector": "Chips & Semiconductors",
-        "founder": "Gerard Williams III"
+        "founder": "Gerard Williams III, John Bruno, Ram Srinivasan"
       },
       {
         "name": "ISEE",
@@ -1278,21 +1270,21 @@
       }
     ],
     "stage_vocabulary": {
-      "Series A": 260,
-      "Series B": 187,
-      "Seed": 163,
-      "Series C": 97,
-      "Public": 53,
-      "Series D": 37,
+      "Series A": 264,
+      "Series B": 189,
+      "Seed": 164,
+      "Series C": 99,
+      "Public": 54,
+      "Series D": 38,
       "Growth": 24,
       "Pre-Seed": 23,
-      "Series E": 16,
-      "Series G": 13,
+      "Series E": 17,
+      "Series G": 14,
       "Late Stage": 11,
       "Private": 9,
       "Series F": 8,
+      "IPO": 6,
       "SPAC": 6,
-      "IPO": 5,
       "Pre-IPO": 4,
       "Bootstrapped": 3,
       "Public (KOSDAQ)": 3,
@@ -1322,6 +1314,13 @@
       "Growth + Offtake": 1
     },
     "web_probes": [
+      {
+        "kind": "unreachable_website",
+        "name": "Core Automation",
+        "url": "https://coreautomation.ai",
+        "error": "SSLError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
       {
         "kind": "rebrand_suspect",
         "name": "Dominion Dynamics",
@@ -1456,17 +1455,24 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
-        "kind": "rebrand_suspect",
+        "kind": "unreachable_website",
         "name": "AMP Robotics",
-        "old_url": "https://amprobotics.com",
-        "new_url": "https://ampsortation.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+        "url": "https://amprobotics.com",
+        "error": "ReadTimeout",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
         "name": "Antora Energy",
         "old_url": "https://antoraenergy.com",
         "new_url": "https://www.antora.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Atomic Semi",
+        "old_url": "https://atomicsemi.com",
+        "new_url": "https://fab2.com/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
@@ -1531,19 +1537,12 @@
         "old_url": "https://destinus.ch",
         "new_url": "https://www.destinus.com/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "dead_website",
-        "name": "Redwood Materials",
-        "url": "https://redwoodmaterials.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
       }
     ]
   },
   "summary": {
-    "p0_issues": 20,
-    "p1_issues": 18,
+    "p0_issues": 19,
+    "p1_issues": 17,
     "missing_websites": 243,
     "distinct_stages": 42
   }

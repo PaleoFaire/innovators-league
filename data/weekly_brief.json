@@ -1,147 +1,203 @@
 {
-  "date": "2026-06-29",
-  "display_date": "Jun 29, 2026",
-  "generated_at": "2026-06-29T14:10:49.446401+00:00",
-  "cutoff": "2026-06-22T14:10:49.446401+00:00",
-  "section_count": 6,
-  "total_items": 232,
+  "date": "2026-07-05",
+  "display_date": "Jul 05, 2026",
+  "generated_at": "2026-07-05T10:58:29.816878+00:00",
+  "cutoff": "2026-06-28T10:58:29.816878+00:00",
+  "section_count": 8,
+  "total_items": 331,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 31,
+      "count": 49,
       "items": [
         {
-          "company": "Project Omega",
-          "current": 34.0,
-          "previous": 37.0,
-          "change": -3.0,
+          "company": "Aurora Innovation",
+          "current": 33.0,
+          "previous": 39.0,
+          "change": -6.0,
           "tier": "early"
         },
         {
-          "company": "Zephyr Fusion",
-          "current": 34.0,
-          "previous": 37.0,
-          "change": -3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Cemvita",
-          "current": 33.5,
+          "company": "Performance Drone Works",
+          "current": 30.5,
           "previous": 36.5,
-          "change": -3.0,
+          "change": -6.0,
           "tier": "early"
         },
         {
-          "company": "Panthalassa",
-          "current": 33.5,
+          "company": "Sunflower Labs",
+          "current": 30.5,
           "previous": 36.5,
-          "change": -3.0,
+          "change": -6.0,
           "tier": "early"
         },
         {
-          "company": "LuxWall",
-          "current": 33.5,
+          "company": "ISEE",
+          "current": 30.5,
           "previous": 36.5,
-          "change": -3.0,
+          "change": -6.0,
           "tier": "early"
         },
         {
-          "company": "Windborne",
-          "current": 33.0,
-          "previous": 36.0,
-          "change": -3.0,
+          "company": "Scale AI",
+          "current": 43.0,
+          "previous": 47.0,
+          "change": -4.0,
           "tier": "early"
         },
         {
-          "company": "Spiritus",
-          "current": 33.0,
+          "company": "Onebrief",
+          "current": 39.0,
           "previous": 36.0,
-          "change": -3.0,
+          "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Caelux",
-          "current": 33.0,
-          "previous": 36.0,
-          "change": -3.0,
+          "company": "Kodiak AI",
+          "current": 38.5,
+          "previous": 35.5,
+          "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Planted Solar",
-          "current": 33.0,
-          "previous": 36.0,
-          "change": -3.0,
+          "company": "BRINC Drones",
+          "current": 38.5,
+          "previous": 35.5,
+          "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Tempo",
-          "current": 33.0,
-          "previous": 36.0,
-          "change": -3.0,
+          "company": "Echodyne",
+          "current": 38.5,
+          "previous": 35.5,
+          "change": 3.0,
           "tier": "early"
+        },
+        {
+          "company": "Viken Detection",
+          "current": 38.5,
+          "previous": 35.5,
+          "change": 3.0,
+          "tier": "early"
+        }
+      ]
+    },
+    {
+      "title": "New Funding Rounds",
+      "icon": "\ud83d\udcb0",
+      "count": 7,
+      "items": [
+        {
+          "company": "Amca",
+          "amount": "$510B",
+          "round": "IPO",
+          "investor": "Accel",
+          "date": "2026-07"
+        },
+        {
+          "company": "Scale AI",
+          "amount": "$500M",
+          "round": "Funding Round",
+          "investor": "Undisclosed",
+          "date": "2026-07"
+        },
+        {
+          "company": "Pivotal",
+          "amount": "$46.6M",
+          "round": "Funding Round",
+          "investor": "Undisclosed",
+          "date": "2026-07"
+        },
+        {
+          "company": "Watershed",
+          "amount": "$30M",
+          "round": "Funding Round",
+          "investor": "Undisclosed",
+          "date": "2026-07"
+        },
+        {
+          "company": "Wayve",
+          "amount": "$8.5B",
+          "round": "Funding Round",
+          "investor": "Undisclosed",
+          "date": "2026-07"
+        },
+        {
+          "company": "Tenstorrent",
+          "amount": "$8.3B",
+          "round": "Funding Round",
+          "investor": "Undisclosed",
+          "date": "2026-07"
+        },
+        {
+          "company": "Steady Energy",
+          "amount": "$1.75B",
+          "round": "Series G",
+          "investor": "Undisclosed",
+          "date": "2026-07"
         }
       ]
     },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 19,
+      "count": 53,
       "items": [
         {
-          "company": "IonQ",
+          "company": "Rocket Lab",
           "form": "8-K",
-          "description": "bakkt-20260625.htm",
-          "date": "2026-06-26",
+          "description": "g085783_8k.htm",
+          "date": "2026-06-29",
+          "isIPO": false
+        },
+        {
+          "company": "Centrus Energy",
+          "form": "8-K",
+          "description": "leu-20260630.htm",
+          "date": "2026-07-02",
+          "isIPO": false
+        },
+        {
+          "company": "UiPath",
+          "form": "8-K",
+          "description": "path-20260625.htm",
+          "date": "2026-06-29",
+          "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260630.htm",
+          "date": "2026-06-30",
+          "isIPO": false
+        },
+        {
+          "company": "Archer Aviation",
+          "form": "8-K",
+          "description": "achr-20260626.htm",
+          "date": "2026-06-30",
           "isIPO": false
         },
         {
           "company": "Rivian",
           "form": "8-K",
-          "description": "rivn-20260622.htm",
-          "date": "2026-06-26",
+          "description": "rivn-20260702.htm",
+          "date": "2026-07-02",
           "isIPO": false
         },
         {
-          "company": "Satellogic",
-          "form": "8-K",
-          "description": "ea0295875-8k_zoomcar.htm",
-          "date": "2026-06-25",
-          "isIPO": false
-        },
-        {
-          "company": "Satellogic",
-          "form": "8-K",
-          "description": "ea0295693-8k_zoomcar.htm",
-          "date": "2026-06-23",
-          "isIPO": false
-        },
-        {
-          "company": "C3.ai",
-          "form": "10-K",
-          "description": "ai-20260430.htm",
-          "date": "2026-06-24",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
+          "company": "BlackSky Technology",
           "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-06-23",
+          "description": "xslF345X06/wk-form4_1782852950.xml",
+          "date": "2026-06-30",
           "isIPO": false
         },
         {
-          "company": "Intuitive Machines",
+          "company": "BlackSky Technology",
           "form": "4",
-          "description": "xslF345X06/form4-06262026_050631.xml",
-          "date": "2026-06-26",
-          "isIPO": false
-        },
-        {
-          "company": "Centrus Energy",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1782259296.xml",
-          "date": "2026-06-23",
+          "description": "xslF345X06/wk-form4_1782852932.xml",
+          "date": "2026-06-30",
           "isIPO": false
         }
       ]
@@ -149,207 +205,243 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 5,
+      "count": 1,
       "items": [
         {
           "title": "SIP TO128 1ST QUARTER HARDWARE BUY",
           "agency": "",
           "value": "",
           "date": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "title": "Federal Register",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "count": 45,
+      "items": [
+        {
+          "title": "Cellular, Tissue, and Gene Therapies Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request fo",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "Food and Drug Administration"
+          ],
+          "significant": false,
+          "date": "2026-06-29"
         },
         {
-          "title": "THIS ORDER PROVIDES HOMELAND SECURITY INVESTIGATIONS SYSTEM MODERNIZATION FOR THE INVESTIGATIVE CASE MANAGEMENT AND INVE",
-          "agency": "",
-          "value": "",
-          "date": "2026-06-26"
+          "title": "Federal Plan Requirements for Other Solid Waste Incineration Units That Commenced Construction on or Before August 31, 2",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Environmental Protection Agency"
+          ],
+          "significant": false,
+          "date": "2026-07-02"
         },
         {
-          "title": "PROCUREMENT OF SKYDIO X10 DRONES AND ASSOCIATED EQUIPMENT.",
-          "agency": "",
-          "value": "",
-          "date": "2026-06-26"
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
+          "agencies": [
+            "Veterans Affairs Department"
+          ],
+          "significant": false,
+          "date": "2026-07-02"
         },
         {
-          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
-          "agency": "",
-          "value": "",
-          "date": "2026-06-23"
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
+          "agencies": [
+            "Housing and Urban Development Department"
+          ],
+          "significant": false,
+          "date": "2026-06-29"
         },
         {
-          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
-          "agency": "",
-          "value": "",
-          "date": "2026-06-24"
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
+          "agencies": [
+            "Agriculture Department",
+            "Food and Nutrition Administration"
+          ],
+          "significant": false,
+          "date": "2026-06-29"
+        },
+        {
+          "title": "Counter-UAS Authority for State, Local, Tribal, and Territorial Law Enforcement and Correctional Agencies",
+          "type": "Rule",
+          "agencies": [
+            "Homeland Security Department",
+            "Justice Department"
+          ],
+          "significant": false,
+          "date": "2026-07-06"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 30,
+      "count": 20,
       "items": [
         {
-          "title": "NY Times Reporting OpenAI May Delay IPO to 2027",
-          "source": "Next Big Future",
-          "company": "OpenAI",
+          "title": "The SpaceX IPO tells one story. Here is the more important one.",
+          "source": "SpaceNews",
+          "company": "SpaceX",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "Anthropic Backer Menlo Ventures Raises $3B In New Funds To Back AI Startups Across Stages",
-          "source": "Crunchbase News",
-          "company": "Anthropic",
+          "title": "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
+          "source": "The Robot Report",
+          "company": "Bear Robotics",
           "impact": "high",
-          "type": "funding"
+          "type": "hire"
         },
         {
-          "title": "This Humanoid Robot Is a Terrifyingly Competent Office Intern",
-          "source": "Wired",
-          "company": "Humanoid",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence",
-          "source": "War on the Rocks",
-          "company": "Deterrence",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+          "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
           "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
-          "type": "news"
+          "type": "funding"
         },
         {
-          "title": "Asian AI startups launch Mythos-like  models as Anthropic&#8217;s export ban drags on",
-          "source": "TechCrunch",
-          "company": "Anthropic",
-          "impact": "low",
+          "title": "Rocket Report: Indian startup nears first launch; SpaceX&#039;s millenary milestone",
+          "source": "Ars Technica Space",
+          "company": "SpaceX",
+          "impact": "medium",
+          "type": "ipo"
+        },
+        {
+          "title": "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens Do Idiotic Things in Waymos",
+          "source": "CleanTechnica",
+          "company": "Waymo",
+          "impact": "medium",
           "type": "milestone"
         },
         {
-          "title": "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
+          "title": "Anthropic is discussing a new custom chip with Samsung",
           "source": "TechCrunch",
-          "company": "SpaceX",
-          "impact": "low",
-          "type": "funding"
-        },
-        {
-          "title": "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations",
-          "source": "Wired",
           "company": "Anthropic",
           "impact": "low",
           "type": "news"
+        },
+        {
+          "title": "Isar Aerospace to launch German-built Planet imaging satellite",
+          "source": "SpaceNews",
+          "company": "Isar Aerospace",
+          "impact": "low",
+          "type": "contract"
+        },
+        {
+          "title": "Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?",
+          "source": "Wired",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 53,
+      "count": 48,
       "items": [
         {
-          "title": "GLM 5.2 beats Claude in our benchmarks",
-          "score": 900,
-          "comments": 414,
+          "title": "Leaking YouTube creators' private videos",
+          "score": 611,
+          "comments": 334,
           "companies": [
-            "Anthropic"
+            "Runway"
           ],
-          "url": "https://news.ycombinator.com/item?id=48709670"
+          "url": "https://news.ycombinator.com/item?id=48786781"
         },
         {
-          "title": "EU to legislate about Chat Control behind closed doors",
-          "score": 675,
-          "comments": 393,
-          "companies": [
-            "goTenna"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48707719"
-        },
-        {
-          "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No \u2013 88",
-          "score": 553,
-          "comments": 222,
+          "title": "Valve open-source the Steam Machine e-ink screen so you can make your own",
+          "score": 595,
+          "comments": 113,
           "companies": [
             "Together AI",
-            "Auterion",
-            "Xanadu Quantum Technologies",
+            "Daylight Computer",
             "Kyutai",
-            "Tenstorrent"
+            "Auterion"
           ],
-          "url": "https://news.ycombinator.com/item?id=48713832"
+          "url": "https://news.ycombinator.com/item?id=48774518"
         },
         {
-          "title": "I used Claude Code to get a second opinion on my MRI",
-          "score": 456,
-          "comments": 593,
+          "title": "Costco is the anti-Amazon",
+          "score": 552,
+          "comments": 549,
           "companies": [
-            "Vannevar Labs",
-            "Anthropic"
+            "Vannevar Labs"
           ],
-          "url": "https://news.ycombinator.com/item?id=48708941"
+          "url": "https://news.ycombinator.com/item?id=48776044"
         },
         {
-          "title": "Professor denounces mass AI fraud on an exam at Brown",
-          "score": 434,
-          "comments": 570,
+          "title": "Espionage Against the European Parliament",
+          "score": 417,
+          "comments": 126,
           "companies": [
-            "Synthesis",
-            "Alpha School"
+            "Sakana AI",
+            "Endurosat"
           ],
-          "url": "https://news.ycombinator.com/item?id=48708991"
+          "url": "https://news.ycombinator.com/item?id=48779683"
         },
         {
-          "title": "Flock cameras track more than your license plate, and they're spreading fast",
-          "score": 368,
-          "comments": 285,
+          "title": "Jamesob's guide to running SOTA LLMs locally",
+          "score": 398,
+          "comments": 180,
+          "companies": [],
+          "url": "https://news.ycombinator.com/item?id=48775921"
+        },
+        {
+          "title": "Leanstral 1.5: Proof abundance for all",
+          "score": 364,
+          "comments": 99,
           "companies": [
-            "Flock Safety"
+            "Mistral AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48707673"
+          "url": "https://news.ycombinator.com/item?id=48780801"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 94,
+      "count": 108,
       "items": [
         {
-          "title": "Correction: VivoPower Selects Global AI Industry Leader as Preferred Tenant for Lease of Norway Operational Data Center",
+          "title": "iFLYTEK Officially Launches Open Platform in Central Asia, Positioning Uzbekistan as a New Regional AI Hub",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Helus Pharma Reports Recent Business Highlights and Fiscal Year 2026 Financial Results",
+          "title": "Alarum Technologies Announces Temporary Operational Pause of Certain Network Services",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "BrainsWay Presents Positive Data from Largest Real-World Study of Deep TMS\u2122 in Patients with Comorbid PTSD and Major Dep",
+          "title": "IT security incident in North Media\u2019s Swedish subsidiary SDR",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "AVANTE ANNOUNCES AGREEMENT WITH TARGET PARK TO DEPLOY MAST UNITS IN ABOVE-GROUND PARKING FACILITIES ACROSS CANADA AND TH",
+          "title": "IT-sikkerhedsh\u00e6ndelse i North Medias svenske datterselskab SDR",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Almadex Announces Sale of El Cobre NSR Royalty",
+          "title": "Chery Auto's Rosslyn Plant Opens in South Africa, LEPAS Rides Momentum to Accelerate Local Expansion",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Xilio Therapeutics Appoints Ben Harshbarger as Chief Legal Officer",
+          "title": "Scope Ratings assigns AA- long -term ratings to the Republic of Iceland with Stable Outlook",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-06-29-3728bdf1dd24"
+  "brief_id": "brief-2026-07-05-8a8cb85c2e3b"
 }
