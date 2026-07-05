@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T09:16:07.691484Z",
+  "generated_at": "2026-07-05T09:12:33.887771Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -20,16 +20,6 @@
       "source": "news",
       "source_url": "https://spacenews.com/the-spacex-ipo-tells-one-story-here-is-the-more-important-one/",
       "signal_type": "funding"
-    },
-    {
-      "author": "CleanTechnica",
-      "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "OpenAI Went From $5.09 Billion Net Loss in 2024 to $38.53 Billion Net Loss in 2025",
-      "date": "Tue, 30 Ju",
-      "source": "news",
-      "source_url": "https://cleantechnica.com/2026/06/30/openai-went-from-5-09-billion-net-loss-in-2024-to-38-53-billion-net-loss-in-2025/",
-      "signal_type": "news"
     },
     {
       "author": "Ars Technica",
@@ -55,7 +45,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 4,
     "from_press": 0
   }
 }
