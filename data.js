@@ -67480,51 +67480,36 @@ const INNOVATOR_50_META = {
 // Order reflects Stephen's curation; sector groupings are inline comments
 // for human readers and do not affect downstream behaviour.
 const INNOVATORS_LEAGUE_30 = [
-  // Defense
-  "Neros",
+  "Airship Industries",
+  "Andrenam",
+  "Antares",
+  "Apex Space",
+  "Astro Mechanica",
+  "AstroForge",
+  "Bedrock Robotics",
+  "Cuby Technologies",
   "CX2 Industries",
+  "Durin",
+  "Extropic",
+  "Fortastra",
+  "Galadyne",
+  "Hermeus",
+  "Neros",
+  "Osmo",
   "Picogrid",
   "PILGRIM",
-  "Galadyne",
-  // Nuclear
-  "Valar Atomics",
-  "Aalo Atomics",
-  // Aerospace / Space
-  "Apex Space",
-  "Varda Space Industries",
-  "Fortastra",
-  "AstroForge",
-  // Hypersonic
-  "Astro Mechanica",
-  "Hermeus",
-  // Manufacturing
-  "Machina Labs",
-  "Senra Systems",
-  "Rangeview",
-  // Infrastructure
-  "The Boring Company",
-  // Biotech
-  "Atom Bodies",
-  "Osmo",
-  // Housing
-  "Cuby Technologies",
-  // Mining
-  "Durin",
-  // Robotics
-  "Bedrock Robotics",
-  // Ocean
-  "Ulysses Robotics",
   "Poseidon Aerospace",
-  // Transport
-  "Zipline",
-  "Airship Industries",
-  // Semiconductors
-  "Extropic",
-  // Geoengineering
-  "Terranova",
+  "Rangeview",
+  "Senra Systems",
   "Terraform Industries",
-  // Education / AI-native
-  "Alpha School"
+  "Terran Robotics",
+  "Terranova",
+  "The Boring Company",
+  "Ulysses Robotics",
+  "Valar Atomics",
+  "Varda Space Industries",
+  "Vital Lyfe",
+  "Zipline"
 ];
 
 const INNOVATOR_50 = [
