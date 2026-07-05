@@ -50,7 +50,7 @@
         "awardAmount": "$37M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Palantir",
@@ -107,7 +107,7 @@
         "awardAmount": "$95M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Skydio",
@@ -162,17 +162,16 @@
         "awardAmount": "$110K"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Radiant",
-    "opportunityCount": 12,
+    "opportunityCount": 11,
     "agencies": [
       "Department of Defense",
       "Department of Health and Human Services",
       "Department of Homeland Security",
       "Department of Labor",
-      "Department of the Interior",
       "Department of the Treasury"
     ],
     "types": [],
@@ -218,7 +217,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Shield AI",
@@ -270,7 +269,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Axiom Space",
@@ -322,7 +321,7 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Sierra Space",
@@ -373,7 +372,7 @@
         "awardAmount": "$43K"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Varda Space",
@@ -416,7 +415,7 @@
         "awardAmount": "$160K"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Castelion",
@@ -451,7 +450,7 @@
         "awardAmount": "$1M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Rocket Lab",
@@ -486,44 +485,7 @@
         "awardAmount": "$391K"
       }
     ],
-    "lastUpdated": "2026-07-03"
-  },
-  {
-    "company": "Planet Labs",
-    "opportunityCount": 3,
-    "agencies": [
-      "Department of Defense",
-      "Department of the Interior",
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-11-25",
-        "type": null,
-        "noticeId": "80HQTR25FA066",
-        "awardAmount": "$14M"
-      },
-      {
-        "title": "SATELLITE IMAGERY DATA SUBSCRIPTION",
-        "agency": "Department of Defense",
-        "postedDate": "2026-03-18",
-        "type": null,
-        "noticeId": "N6600126P6067",
-        "awardAmount": "$7M"
-      },
-      {
-        "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
-        "agency": "Department of the Interior",
-        "postedDate": "2026-05-07",
-        "type": null,
-        "noticeId": "140G0326P0132",
-        "awardAmount": "$60K"
-      }
-    ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Scale AI",
@@ -558,7 +520,35 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
+  },
+  {
+    "company": "Planet Labs",
+    "opportunityCount": 2,
+    "agencies": [
+      "Department of Defense",
+      "Department of the Interior"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "SATELLITE IMAGERY DATA SUBSCRIPTION",
+        "agency": "Department of Defense",
+        "postedDate": "2026-03-18",
+        "type": null,
+        "noticeId": "N6600126P6067",
+        "awardAmount": "$7M"
+      },
+      {
+        "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
+        "agency": "Department of the Interior",
+        "postedDate": "2026-05-07",
+        "type": null,
+        "noticeId": "140G0326P0132",
+        "awardAmount": "$60K"
+      }
+    ],
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Capella Space",
@@ -586,7 +576,7 @@
         "awardAmount": "$209K"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "BlackSky",
@@ -613,7 +603,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Vannevar Labs",
@@ -632,7 +622,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Hadrian",
@@ -651,7 +641,7 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   },
   {
     "company": "Relativity Space",
@@ -670,6 +660,6 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-05"
   }
 ]
