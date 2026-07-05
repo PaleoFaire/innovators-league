@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-04T08:27:05+00:00",
+  "generatedAt": "2026-07-05T08:42:47+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 32,
+  "cohortSize": 27,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 32
+    "unverifiable": 27
   },
   "cleared": [],
   "changesProposed": [],
@@ -34,10 +34,6 @@
     },
     {
       "name": "Blue Origin",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cape",
       "reason": "Claude extraction failed"
     },
     {
@@ -77,10 +73,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Joby Aviation",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Latitude",
       "reason": "Claude extraction failed"
     },
@@ -90,14 +82,6 @@
     },
     {
       "name": "Orbital Composites",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Palantir",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Percepto",
       "reason": "Claude extraction failed"
     },
     {
@@ -113,11 +97,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Vast",
+      "name": "Tenstorrent",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Vertical Aerospace",
+      "name": "Vast",
       "reason": "Claude extraction failed"
     },
     {
@@ -125,19 +109,15 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Whisper Aero",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "X-Energy",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Xtend",
+      "name": "Xanadu Quantum Technologies",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "ideaForge",
+      "name": "Xtend",
       "reason": "Claude extraction failed"
     }
   ]
