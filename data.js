@@ -69056,9 +69056,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-05 04:13
+// Last updated: 2026-07-05 08:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "OpenAI", headline: "What is Mistral AI? Everything to know about the OpenAI competitor", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 1, type: "funding", company: "OpenAI", headline: "What is Mistral AI? Everything to know about the OpenAI competitor", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone", source: "Ars Technica Space", time: "1d ago", impact: "medium", unread: true },
   { id: 3, type: "milestone", company: "Waymo", headline: "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens Do Idiotic Things in Waymos", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: true },
   { id: 4, type: "news", company: "Anthropic", headline: "Anthropic is discussing a new custom chip with Samsung", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
