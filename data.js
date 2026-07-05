@@ -69820,10 +69820,10 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-05 13:59
+// Last updated: 2026-07-05 15:19
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Dexterity", headline: "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "OpenAI", headline: "What is Mistral AI? Everything to know about the OpenAI competitor", source: "TechCrunch", time: "22h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Dexterity", headline: "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity", source: "The Robot Report", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "OpenAI", headline: "What is Mistral AI? Everything to know about the OpenAI competitor", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
   { id: 3, type: "ipo", company: "SpaceX", headline: "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone", source: "Ars Technica Space", time: "2d ago", impact: "medium", unread: true },
   { id: 4, type: "milestone", company: "Waymo", headline: "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens Do Idiotic Things in Waymos", source: "CleanTechnica", time: "2d ago", impact: "medium", unread: true },
   { id: 5, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace to launch German-built Planet imaging satellite", source: "SpaceNews", time: "2d ago", impact: "low", unread: true },
@@ -69831,7 +69831,7 @@ const COMPANY_SIGNALS = [
   { id: 7, type: "news", company: "Dexterity", headline: "Why you should combine robot dexterity with mechanical positioning for complex assembly operations", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
   { id: 8, type: "funding", company: "Rivian", headline: "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook", source: "Electrek", time: "3d ago", impact: "low", unread: false },
   { id: 9, type: "ipo", company: "SpaceX", headline: "TESLA and SPACEX Can Get100 GIGAWATTS of Power for AI Data Centers Using Modular Power and AI", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "STAT+: The moment Anthropic convinced me it's serious about science", source: "STAT News", time: "3d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "STAT+: The moment Anthropic convinced me it's serious about science", source: "STAT News", time: "4d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Apptronik", headline: "Apptronik unveils Apollo 2 and a flagship data collection and training facility", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
   { id: 12, type: "milestone", company: "Anthropic", headline: "The Download: Anthropic launches Claude Science, and California's carbon manure math", source: "MIT Tech Review", time: "4d ago", impact: "medium", unread: false },
   { id: 13, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "4d ago", impact: "low", unread: false },
