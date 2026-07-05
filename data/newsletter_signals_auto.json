@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-06-28T11:02:08+00:00",
+  "generatedAt": "2026-07-05T11:01:09+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 4
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 7
+      "recentItems": 5
     },
     {
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 15
+      "recentItems": 20
     },
     {
       "name": "Construction Physics (Brian Potter)",
@@ -30,19 +30,19 @@
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 5
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 0
     },
     {
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 2
+      "recentItems": 3
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
@@ -53,14 +53,14 @@
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 18,
+      "totalItems": 19,
       "recentItems": 14
     },
     {
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 9
+      "recentItems": 8
     },
     {
       "name": "404 Media",
@@ -78,18 +78,132 @@
       "name": "Stratechery (Ben Thompson)",
       "url": "https://stratechery.com/feed/",
       "totalItems": 10,
-      "recentItems": 10
+      "recentItems": 6
     },
     {
       "name": "Platformer (Casey Newton)",
       "url": "https://www.platformer.news/rss",
       "totalItems": 15,
-      "recentItems": 2
+      "recentItems": 3
     }
   ],
-  "totalRawSignals": 9,
-  "uniqueCandidateCount": 9,
+  "totalRawSignals": 30,
+  "uniqueCandidateCount": 29,
   "candidates": [
+    {
+      "name": "LangChain",
+      "totalScore": 16.15,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "LangChain",
+          "score": 16.15,
+          "frontierTechScore": 2,
+          "mentions": 2,
+          "context": "red memory  as a simple, extensible substrate, and that idea rapidly turned into product releases.  LangChain  launched  OpenWiki , a tool to generate and maintain agent-consumable codebase docs with ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "OpenWiki",
+      "totalScore": 16.15,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "OpenWiki",
+          "score": 16.15,
+          "frontierTechScore": 2,
+          "mentions": 2,
+          "context": "le, extensible substrate, and that idea rapidly turned into product releases.  LangChain  launched  OpenWiki , a tool to generate and maintain agent-consumable codebase docs with  openwiki --init   @B",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "ARIA",
+      "totalScore": 11.9,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "ARIA",
+          "score": 11.9,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "rd. Several other releases fit the same trend toward specialized infrastructure:  @wandb  launched  ARIA , an autoresearch agent inside W&B;  @agenticin  promoted  Micro-Agent  routing; and  @fitsumre",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "FLARE-AI",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "FLARE-AI",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "imulations  @RekaAILabs . There is also a push toward better reporting pipelines for AI failures :  FLARE-AI , launched with a coalition spanning cyber and AI safety researchers, aims to standardize  ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Nano Banana",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Nano Banana",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "chase17 ,  @BraceSproul ) Models, benchmarks, and media releases Google launched two media models:  Nano Banana 2 Lite  for images and  Gemini Omni Flash  for video generation/editing. Reported specs ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+          "articleUrl": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
+          "articleDate": "Wed, 01 Jul 2026 03:01:09 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Devin Fusion",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Devin Fusion",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "stems continues to move from \u201cpick the best model\u201d to  harness engineering .  @cognition  launched  Devin Fusion , a hybrid-model coding harness claiming  35% cost reduction  while maintaining \u201cFable-",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+        }
+      ]
+    },
     {
       "name": "Sail",
       "totalScore": 10.2,
@@ -148,78 +262,78 @@
       ]
     },
     {
-      "name": "Origin",
-      "totalScore": 10.2,
+      "name": "GLM",
+      "totalScore": 7.65,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Origin",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "GLM",
+          "score": 7.65,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "j_UW  and skepticism/speculation about xAI\u2019s broader strategy  @kimmonismus . Cursor also launched  Origin , a new code storage/git hosting product designed for  agent workloads , merge conflict handl",
+          "context": "neration at 98.7% quality retention . Open model ecosystem momentum :  @Zai_org launching ZCode for GLM-5.2  and  @TogetherCompute announcing its $800M Series C at an $8.3B valuation . High-signal too",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
-          "articleUrl": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
-          "articleDate": "Wed, 17 Jun 2026 05:37:40 GMT"
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
         }
       ]
     },
     {
-      "name": "Flue",
-      "totalScore": 10.2,
+      "name": "TogetherCompute",
+      "totalScore": 7.65,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Flue",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "TogetherCompute",
+          "score": 7.65,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "hain JS added  stream transformers  for in-flight modification/redaction of agent streams  @bromann Flue 1.0 Beta launched as a TypeScript framework for agents/workflows/channels with durable recovery",
+          "context": "7% quality retention . Open model ecosystem momentum :  @Zai_org launching ZCode for GLM-5.2  and  @TogetherCompute announcing its $800M Series C at an $8.3B valuation . High-signal tooling and knowle",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
-          "articleUrl": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
-          "articleDate": "Wed, 17 Jun 2026 05:37:40 GMT"
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
         }
       ]
     },
     {
-      "name": "Beta",
-      "totalScore": 10.2,
+      "name": "High",
+      "totalScore": 7.65,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Beta",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "High",
+          "score": 7.65,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "dded  stream transformers  for in-flight modification/redaction of agent streams  @bromann Flue 1.0 Beta launched as a TypeScript framework for agents/workflows/channels with durable recovery and no L",
+          "context": "hing ZCode for GLM-5.2  and  @TogetherCompute announcing its $800M Series C at an $8.3B valuation . High-signal tooling and knowledge-layer releases :  @LangChain/OpenWiki  and  @cognition/Devin Secur",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
-          "articleUrl": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
-          "articleDate": "Wed, 17 Jun 2026 05:37:40 GMT"
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
         }
       ]
     },
     {
-      "name": "An SDL",
-      "totalScore": 9.35,
+      "name": "Micro-Agent",
+      "totalScore": 7.65,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "An SDL",
-          "score": 9.35,
-          "frontierTechScore": 4,
+          "name": "Micro-Agent",
+          "score": 7.65,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "driving labs at Radical. Joseph argues that experimental data is the true \u201cmoat\u201d in this industry.  An SDL functions as a closed-loop system where an AI scientist generates hypotheses, and automated r",
+          "context": " infrastructure:  @wandb  launched  ARIA , an autoresearch agent inside W&B;  @agenticin  promoted  Micro-Agent  routing; and  @fitsumreda  introduced  Nemotron-TwoTower , which clones an AR LLM into ",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
-          "articleUrl": "https://www.latent.space/p/radical-ai",
-          "articleDate": "Wed, 17 Jun 2026 17:58:06 GMT"
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
         }
       ]
     },
@@ -243,6 +357,234 @@
       ]
     },
     {
+      "name": "Security",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Security",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "n-in patterns, and code-enforced orchestration\u2014showed up repeatedly across products and benchmarks. Security, Evaluation, and Agentic MapReduce Cognition\u2019s Devin Security Swarm is one of the clearer e",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Evaluation",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "rns, and code-enforced orchestration\u2014showed up repeatedly across products and benchmarks. Security, Evaluation, and Agentic MapReduce Cognition\u2019s Devin Security Swarm is one of the clearer examples of",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Agentic MapReduce Cognition",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Agentic MapReduce Cognition",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "forced orchestration\u2014showed up repeatedly across products and benchmarks. Security, Evaluation, and Agentic MapReduce Cognition\u2019s Devin Security Swarm is one of the clearer examples of agent architect",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "ZCode",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "ZCode",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " faster generation at 98.7% quality retention . Open model ecosystem momentum :  @Zai_org launching ZCode for GLM-5.2  and  @TogetherCompute announcing its $800M Series C at an $8.3B valuation . High-",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+        }
+      ]
+    },
+    {
+      "name": "BraceSproul",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "BraceSproul",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "at the hard part is not the storage backend but the condensation/retrieval process ( @hwchase17 ,  @BraceSproul ) Models, benchmarks, and media releases Google launched two media models:  Nano Banana ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+          "articleUrl": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
+          "articleDate": "Wed, 01 Jul 2026 03:01:09 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Models",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Models",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "rt is not the storage backend but the condensation/retrieval process ( @hwchase17 ,  @BraceSproul ) Models, benchmarks, and media releases Google launched two media models:  Nano Banana 2 Lite  for im",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+          "articleUrl": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
+          "articleDate": "Wed, 01 Jul 2026 03:01:09 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Lite",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Lite",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "aceSproul ) Models, benchmarks, and media releases Google launched two media models:  Nano Banana 2 Lite  for images and  Gemini Omni Flash  for video generation/editing. Reported specs included  <4s ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+          "articleUrl": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
+          "articleDate": "Wed, 01 Jul 2026 03:01:09 GMT"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "DeepSeek",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "uctized , not just discussed:  @cline  launched a  $9.99/mo  pass for discounted access to GLM 5.2, DeepSeek, Kimi, MiniMax, Qwen, etc.;  @cognition  introduced  Devin Fusion , claiming  35% lower cos",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Kimi",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Kimi",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "not just discussed:  @cline  launched a  $9.99/mo  pass for discounted access to GLM 5.2, DeepSeek, Kimi, MiniMax, Qwen, etc.;  @cognition  introduced  Devin Fusion , claiming  35% lower cost  for \u201cFa",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "MiniMax",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "st discussed:  @cline  launched a  $9.99/mo  pass for discounted access to GLM 5.2, DeepSeek, Kimi, MiniMax, Qwen, etc.;  @cognition  introduced  Devin Fusion , claiming  35% lower cost  for \u201cFable-le",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Arena",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Arena",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "rid-model harness. Arena crossed meaningful commercial scale :  @arena  and  @ml_angelopoulos  said Arena reached  $100M ARR run rate  eight months after launching its evaluation product, with a platf",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "ARR",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "ARR",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ena crossed meaningful commercial scale :  @arena  and  @ml_angelopoulos  said Arena reached  $100M ARR run rate  eight months after launching its evaluation product, with a platform now emphasizing p",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] not much happened today",
+          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+        }
+      ]
+    },
+    {
       "name": "Benchmarks",
       "totalScore": 5.95,
       "sourceCount": 1,
@@ -258,6 +600,44 @@
           "articleTitle": "[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack",
           "articleUrl": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive",
           "articleDate": "Wed, 24 Jun 2026 07:14:26 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Doug Bernauer",
+      "totalScore": 5.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Doug Bernauer",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "r a decade. In 2023, we invested in  Radiant , a microreactor startup founded by ex-SpaceX engineer Doug Bernauer. Doug started Radiant to tackle a bottleneck of his own: if we wanted to power a Mars ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "America's Next 250",
+          "articleUrl": "https://www.notboring.co/p/americas-next-250",
+          "articleDate": "Thu, 02 Jul 2026 14:06:26 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Doug",
+      "totalScore": 5.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Doug",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "2023, we invested in  Radiant , a microreactor startup founded by ex-SpaceX engineer Doug Bernauer. Doug started Radiant to tackle a bottleneck of his own: if we wanted to power a Mars civilization, w",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "America's Next 250",
+          "articleUrl": "https://www.notboring.co/p/americas-next-250",
+          "articleDate": "Thu, 02 Jul 2026 14:06:26 GMT"
         }
       ]
     }

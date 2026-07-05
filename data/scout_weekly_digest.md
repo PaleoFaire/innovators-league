@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-06-28
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-07-05
 
-**Roster:** 1101 companies tracked  ·  **Screened this cycle:** 216  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1115 companies tracked  ·  **Screened this cycle:** 236  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -119,7 +119,7 @@ Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 - **GINKGO BIOWORKS, INC.** *(Defense & Security)* — DARPA — score 28/70
 - **GOODRICH CORPORATION** *(Defense & Security)* — DARPA — score 28/70
 - **TELEDYNE SCIENTIFIC & IMAGING, LLC** *(Defense & Security)* — DARPA — score 28/70
-- **Celero Communications** *(—)* — VC portfolio — score 28/70
+- **Labelbox** *(—)* — VC portfolio — score 28/70
 
 ---
 
@@ -141,4 +141,4 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 ---
 
 
-*Generated 2026-06-28T11:08:50+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-07-05T11:08:28+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
