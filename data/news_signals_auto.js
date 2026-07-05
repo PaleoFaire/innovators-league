@@ -1,19 +1,30 @@
 // Auto-generated news signals
-// Last updated: 2026-07-05T19:37:08.725Z
+// Last updated: 2026-07-05T21:12:25.916Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1783280228725,
+    "id": 1783285945916,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "WORLDCHANGING SpaceX Will Deliver Anything Anywhere",
+    "source": "Next Big Future",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.nextbigfuture.com/2026/07/worldchanging-spacex-will-deliver-anything-anywhere.html"
+  },
+  {
+    "id": 1783285945917,
     "type": "news",
     "company": "Dexterity",
     "headline": "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity",
     "source": "The Robot Report",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/"
   },
   {
-    "id": 1783280228726,
+    "id": 1783285945918,
     "type": "funding",
     "company": "OpenAI",
     "headline": "What is Mistral AI? Everything to know about the OpenAI competitor",
@@ -24,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
   },
   {
-    "id": 1783280228727,
+    "id": 1783285945919,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Rocket Report: Indian startup nears first launch; SpaceX&#039;s millenary milestone",
@@ -35,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/"
   },
   {
-    "id": 1783280228728,
+    "id": 1783285945920,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens Do Idiotic Things in Waymos",
@@ -46,18 +57,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/07/03/waymo-uber-partnership-ends-in-phoenix-while-teens-do-idiotic-things-in-waymos/"
   },
   {
-    "id": 1783280228729,
+    "id": 1783285945921,
     "type": "contract",
     "company": "Isar Aerospace",
     "headline": "Isar Aerospace to launch German-built Planet imaging satellite",
     "source": "SpaceNews",
     "time": "3d ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://spacenews.com/isar-aerospace-to-launch-german-built-planet-imaging-satellite/"
   },
   {
-    "id": 1783280228730,
+    "id": 1783285945922,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
@@ -68,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/"
   },
   {
-    "id": 1783280228731,
+    "id": 1783285945923,
     "type": "news",
     "company": "Dexterity",
     "headline": "Why you should combine robot dexterity with mechanical positioning for complex assembly operations",
@@ -79,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/"
   },
   {
-    "id": 1783280228732,
+    "id": 1783285945924,
     "type": "funding",
     "company": "Rivian",
     "headline": "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook",
@@ -90,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/07/02/rivian-tops-q2-delivery-numbers-and-raises-full-year-2026-outlook/"
   },
   {
-    "id": 1783280228733,
+    "id": 1783285945925,
     "type": "news",
     "company": "Anthropic",
     "headline": "STAT+: The moment Anthropic convinced me it’s serious about science",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.statnews.com/2026/07/01/anthropic-claude-science-convinced-me-its-serious-ai-prognosis/?utm_campaign=rss"
   },
   {
-    "id": 1783280228734,
+    "id": 1783285945926,
     "type": "news",
     "company": "Apptronik",
     "headline": "Apptronik unveils Apollo 2 and a flagship data collection and training facility",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/"
   },
   {
-    "id": 1783280228735,
+    "id": 1783285945927,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "The Download: Anthropic launches Claude Science, and California&#8217;s carbon manure math",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/"
   },
   {
-    "id": 1783280228736,
+    "id": 1783285945928,
     "type": "ipo",
     "company": "Latitude",
     "headline": "Latitude plans to conduct first launch from Oman",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/latitude-plans-to-conduct-first-launch-from-oman/"
   },
   {
-    "id": 1783280228737,
+    "id": 1783285945929,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/blue-origin-outlines-new-launch-pad-approach-as-it-pushes-to-return-new-glenn-to-flight/"
   },
   {
-    "id": 1783280228738,
+    "id": 1783285945930,
     "type": "funding",
     "company": "SpaceX",
     "headline": "The SpaceX IPO tells one story. Here is the more important one.",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/the-spacex-ipo-tells-one-story-here-is-the-more-important-one/"
   },
   {
-    "id": 1783280228739,
+    "id": 1783285945931,
     "type": "news",
     "company": "Anthropic",
     "headline": "Claude Science is Anthropic’s newest flagship product",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
   },
   {
-    "id": 1783280228740,
+    "id": 1783285945932,
     "type": "ipo",
     "company": "Vast",
     "headline": "Vast names Isakowitz as a senior adviser",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/vast-names-isakowitz-as-a-senior-adviser/"
   },
   {
-    "id": 1783280228741,
+    "id": 1783285945933,
     "type": "hire",
     "company": "Bear Robotics",
     "headline": "Insights behind Kinisi’s acquisition by Bear Robotics",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/"
   },
   {
-    "id": 1783280228742,
+    "id": 1783285945934,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "BMW Group deploys Figure 03 humanoid after tests with previous version",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
   },
   {
-    "id": 1783280228743,
+    "id": 1783285945935,
     "type": "news",
     "company": "Deterrence",
     "headline": "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://warontherocks.com/a-new-force-posture-concept-for-europeanizing-extended-nuclear-deterrence/"
-  },
-  {
-    "id": 1783280228744,
-    "type": "news",
-    "company": "Deterrence",
-    "headline": "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes",
-    "source": "War on the Rocks",
-    "time": "6/26/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://warontherocks.com/not-imaginary-the-deterrence-gap-is-real-and-america-needs-low-yield-nukes/"
   }
 ];
