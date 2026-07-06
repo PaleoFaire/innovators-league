@@ -1,55 +1,6 @@
 {
-  "generatedAt": "2026-07-06T09:07:33+00:00",
+  "generatedAt": "2026-07-06T12:57:24+00:00",
   "matrix": {
-    "additive-manufacturing": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 1366315,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Divergent",
-            "amount": 1366315,
-            "date": "2026-07-02",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Orbital Composites",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "carbon-capture-utilization": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 53494015,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Captura",
-            "amount": 53494015,
-            "date": "2026-07-02",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -949,6 +900,23 @@
         ]
       }
     },
+    "additive-manufacturing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Orbital Composites",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
     "ai-computer-vision-sensing": {
       "2025-Q1": {
         "deals": 1,
@@ -1436,14 +1404,14 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 52,
-    "totalUSDSold": 54860330,
-    "uniqueClusters": 34,
-    "uniqueQuarters": 9,
+    "totalDealsTracked": 50,
+    "totalUSDSold": 0,
+    "uniqueClusters": 33,
+    "uniqueQuarters": 8,
     "uniqueVCs": 18,
     "quarterRange": [
       "2024-Q1",
-      "2026-Q3"
+      "2026-Q2"
     ]
   },
   "caveats": [
