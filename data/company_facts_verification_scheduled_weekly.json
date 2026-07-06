@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T12:00:24+00:00",
+  "generatedAt": "2026-07-06T11:30:41+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
   "cohortSize": 91,
@@ -23,7 +23,7 @@
     "Chef Robotics",
     "Cognition",
     "Corintis",
-    "Dexterity",
+    "Cresilon",
     "Dusty Robotics"
   ],
   "changesProposed": [],
@@ -238,7 +238,7 @@
     },
     {
       "name": "Collaborative Robotics",
-      "reason": "Claude extraction failed"
+      "reason": "no public sources accessible"
     },
     {
       "name": "Core Automation",
@@ -247,10 +247,6 @@
     {
       "name": "Creotech Instruments",
       "reason": "no public sources accessible"
-    },
-    {
-      "name": "Cresilon",
-      "reason": "Claude extraction failed"
     },
     {
       "name": "Critical Energy",
@@ -291,6 +287,10 @@
     {
       "name": "Dendra Systems",
       "reason": "no public sources accessible"
+    },
+    {
+      "name": "Dexterity",
+      "reason": "Claude extraction failed"
     },
     {
       "name": "Dhruva Space",
