@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-07-05 09:33:07 UTC
+// Last updated: 2026-07-06 11:19:27 UTC
 const ARXIV_PAPERS = [
   { id: "2607.02512v1", title: "Program-as-Weights: A Programming Paradigm for Fuzzy Functions", category: "Artificial Intelligence", published: "2026-07-02", sectors: "ai", authors: "Wentao Zhang, Liliana Hotsko, Woojeong Kim et al." },
   { id: "2607.02509v1", title: "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning", category: "Artificial Intelligence", published: "2026-07-02", sectors: "ai", authors: "Yanjun Zhao, Ruizhong Qiu, Tianxin Wei et al." },

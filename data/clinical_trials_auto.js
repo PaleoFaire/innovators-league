@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-07-05 09:32:52 UTC
+// Last updated: 2026-07-06 11:19:17 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06911632", title: "Multi-site Study of the Clinical Impact of an AI-assisted Approach to Referring ", status: "RECRUITING", phase: "NA", sponsor: "Tempus AI", conditions: "Pulmonary Hypertension, Interstitial Lung Disease ", enrollment: 900, lastUpdated: "2026-07-02" },
   { nctId: "NCT04724369", title: "Open-Label Study of 18F-mFBG for Imaging Neuroblastoma", status: "ACTIVE_NOT_RECRUITING", phase: "PHASE3", sponsor: "Innervate Radiopharmaceuticals LLC (Formerly: Illumina Radiopharmaceuticals LLC)", conditions: "Neuroblastoma", enrollment: 43, lastUpdated: "2026-07-02" },

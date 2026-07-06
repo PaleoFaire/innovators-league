@@ -1,17 +1,8 @@
 [
   {
     "date": "2026-07-05",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-50",
-    "payload": "Starlink Group 10-50",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1ef27ca1-af91-48bb-b934-3da5abd9f711/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-07-05",
-    "vehicle": "Long March 8A | SpaceSail Polar Group TBD",
-    "payload": "SpaceSail Polar Group TBD",
+    "vehicle": "Long March 8A | SpaceSail Polar Group #14",
+    "payload": "SpaceSail Polar Group #14",
     "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/888e0de3-ce4d-4daf-8140-bb0d3a4c8245/?format=json",
@@ -447,6 +438,15 @@
     "pad": "Launch Pad Fredo, SaxaVord Spaceport",
     "provider": "Rocket Factory Augsburg",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/91b13c6c-4525-496d-997b-3521bb6a4cd8/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Themis Demonstrator | T1H-1",
+    "payload": "T1H-1",
+    "pad": "Launch Complex 3B, Esrange Space Center",
+    "provider": "European Space Agency",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3b94ad50-3505-496e-8a95-b0bc4c0dadc6/?format=json",
     "trackedCompany": null
   }
 ]
