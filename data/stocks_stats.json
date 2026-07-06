@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 17.65,
+      "avg_change": 17.36,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 6.72,
+      "avg_change": 5.44,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.41,
+      "avg_change": 6.84,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.99,
+      "avg_change": 0.12,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -1.77,
+      "avg_change": -5.24,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.36,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -1.3,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.32,
+      "avg_change": 7.83,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 17.68,
+      "avg_change": 19.7,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.56,
+      "avg_change": 5.96,
       "count": 3
     }
   },
@@ -61,39 +61,39 @@
     [
       "RIVN",
       "Rivian",
-      26.65
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      19.76
+      28.85
     ],
     [
       "PLTR",
       "Palantir",
-      17.65
+      17.36
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      17.01
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      15.27
     ],
     [
       "PL",
       "Planet Labs",
-      16.62
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      14.29
+      14.04
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -2.52
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
-      -4.08
+      -4.55
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -4.92
     ],
     [
       "ASRHF",
@@ -108,8 +108,8 @@
     [
       "LNZA",
       "LanzaTech",
-      -10.76
+      -18.0
     ]
   ],
-  "lastUpdated": "2026-07-06 15:41:15"
+  "lastUpdated": "2026-07-06 20:03:56"
 }
