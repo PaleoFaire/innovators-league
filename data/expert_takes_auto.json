@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T10:07:39.764279Z",
+  "generated_at": "2026-07-06T10:46:17.878885Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -40,12 +40,22 @@
       "source": "news",
       "source_url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
       "signal_type": "hire"
+    },
+    {
+      "author": "TechNode Global",
+      "role": "Industry signal",
+      "company": "Substrate",
+      "text": "Korea&#8217;s LG Innotek to begin building $1B semiconductor substrate plant in Vietnam&#8217;s Hai Phong in Q3/2026",
+      "date": "Mon, 06 Ju",
+      "source": "news",
+      "source_url": "https://technode.global/2026/07/06/koreas-lg-innotek-to-begin-building-1b-semiconductor-substrate-plant-in-vietnams-hai-phong-in-q3-2026/",
+      "signal_type": "hire"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 5,
     "from_press": 0
   }
 }
