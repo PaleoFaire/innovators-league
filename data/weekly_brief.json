@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-05",
-  "display_date": "Jul 05, 2026",
-  "generated_at": "2026-07-05T10:58:29.816878+00:00",
-  "cutoff": "2026-06-28T10:58:29.816878+00:00",
+  "date": "2026-07-06",
+  "display_date": "Jul 06, 2026",
+  "generated_at": "2026-07-06T13:51:39.675226+00:00",
+  "cutoff": "2026-06-29T13:51:39.675226+00:00",
   "section_count": 8,
-  "total_items": 331,
+  "total_items": 296,
   "sections": [
     {
       "title": "Top Score Movers",
@@ -142,27 +142,13 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 53,
+      "count": 38,
       "items": [
-        {
-          "company": "Rocket Lab",
-          "form": "8-K",
-          "description": "g085783_8k.htm",
-          "date": "2026-06-29",
-          "isIPO": false
-        },
         {
           "company": "Centrus Energy",
           "form": "8-K",
           "description": "leu-20260630.htm",
           "date": "2026-07-02",
-          "isIPO": false
-        },
-        {
-          "company": "UiPath",
-          "form": "8-K",
-          "description": "path-20260625.htm",
-          "date": "2026-06-29",
           "isIPO": false
         },
         {
@@ -199,6 +185,20 @@
           "description": "xslF345X06/wk-form4_1782852932.xml",
           "date": "2026-06-30",
           "isIPO": false
+        },
+        {
+          "company": "BlackSky Technology",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1782852918.xml",
+          "date": "2026-06-30",
+          "isIPO": false
+        },
+        {
+          "company": "BlackSky Technology",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1782852908.xml",
+          "date": "2026-06-30",
+          "isIPO": false
         }
       ]
     },
@@ -218,55 +218,8 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 45,
+      "count": 39,
       "items": [
-        {
-          "title": "Cellular, Tissue, and Gene Therapies Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request fo",
-          "type": "Notice",
-          "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-29"
-        },
-        {
-          "title": "Federal Plan Requirements for Other Solid Waste Incineration Units That Commenced Construction on or Before August 31, 2",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Environmental Protection Agency"
-          ],
-          "significant": false,
-          "date": "2026-07-02"
-        },
-        {
-          "title": "Privacy Act of 1974; System of Records",
-          "type": "Notice",
-          "agencies": [
-            "Veterans Affairs Department"
-          ],
-          "significant": false,
-          "date": "2026-07-02"
-        },
-        {
-          "title": "Privacy Act of 1974; System of Records",
-          "type": "Notice",
-          "agencies": [
-            "Housing and Urban Development Department"
-          ],
-          "significant": false,
-          "date": "2026-06-29"
-        },
-        {
-          "title": "Privacy Act of 1974; System of Records",
-          "type": "Notice",
-          "agencies": [
-            "Agriculture Department",
-            "Food and Nutrition Administration"
-          ],
-          "significant": false,
-          "date": "2026-06-29"
-        },
         {
           "title": "Counter-UAS Authority for State, Local, Tribal, and Territorial Law Enforcement and Correctional Agencies",
           "type": "Rule",
@@ -276,14 +229,71 @@
           ],
           "significant": false,
           "date": "2026-07-06"
+        },
+        {
+          "title": "Enabling Supersonic Overland Flight",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Transportation Department",
+            "Federal Aviation Administration"
+          ],
+          "significant": false,
+          "date": "2026-07-02"
+        },
+        {
+          "title": "Radar Data Pilot Program",
+          "type": "Notice",
+          "agencies": [
+            "Transportation Department",
+            "Federal Aviation Administration"
+          ],
+          "significant": false,
+          "date": "2026-06-30"
+        },
+        {
+          "title": "Marine Mammals; File No. 29287",
+          "type": "Notice",
+          "agencies": [
+            "Commerce Department",
+            "National Oceanic and Atmospheric Administration"
+          ],
+          "significant": false,
+          "date": "2026-06-30"
+        },
+        {
+          "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a Fixed Site Facility; Extension of Commen",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Transportation Department",
+            "Federal Aviation Administration"
+          ],
+          "significant": false,
+          "date": "2026-06-30"
+        },
+        {
+          "title": "Fingerprint and Photograph Requirements for Firearms Applications",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Justice Department",
+            "Alcohol, Tobacco, Firearms, and Explosives Bureau"
+          ],
+          "significant": false,
+          "date": "2026-07-06"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 20,
+      "count": 19,
       "items": [
+        {
+          "title": "Korea&#8217;s LG Innotek to begin building $1B semiconductor substrate plant in Vietnam&#8217;s Hai ",
+          "source": "TechNode Global",
+          "company": "Substrate",
+          "impact": "high",
+          "type": "hire"
+        },
         {
           "title": "The SpaceX IPO tells one story. Here is the more important one.",
           "source": "SpaceNews",
@@ -299,149 +309,143 @@
           "type": "hire"
         },
         {
+          "title": "STAT+: I spoke to Anthropic\u2019s CEO about how AI may affect biotech. Here\u2019s what I learned",
+          "source": "STAT News",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "hire"
+        },
+        {
+          "title": "This humanoid robotics company is going public, but its CEO isn&#8217;t promising a robot in your ho",
+          "source": "TechCrunch",
+          "company": "Humanoid",
+          "impact": "low",
+          "type": "funding"
+        },
+        {
+          "title": "WORLDCHANGING SpaceX Will Deliver Anything Anywhere",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
+        },
+        {
+          "title": "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity",
+          "source": "The Robot Report",
+          "company": "Dexterity",
+          "impact": "low",
+          "type": "news"
+        },
+        {
           "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
           "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
           "type": "funding"
-        },
-        {
-          "title": "Rocket Report: Indian startup nears first launch; SpaceX&#039;s millenary milestone",
-          "source": "Ars Technica Space",
-          "company": "SpaceX",
-          "impact": "medium",
-          "type": "ipo"
-        },
-        {
-          "title": "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens Do Idiotic Things in Waymos",
-          "source": "CleanTechnica",
-          "company": "Waymo",
-          "impact": "medium",
-          "type": "milestone"
-        },
-        {
-          "title": "Anthropic is discussing a new custom chip with Samsung",
-          "source": "TechCrunch",
-          "company": "Anthropic",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "Isar Aerospace to launch German-built Planet imaging satellite",
-          "source": "SpaceNews",
-          "company": "Isar Aerospace",
-          "impact": "low",
-          "type": "contract"
-        },
-        {
-          "title": "Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?",
-          "source": "Wired",
-          "company": "SpaceX",
-          "impact": "low",
-          "type": "ipo"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 48,
+      "count": 50,
       "items": [
         {
           "title": "Leaking YouTube creators' private videos",
-          "score": 611,
-          "comments": 334,
+          "score": 679,
+          "comments": 391,
           "companies": [
             "Runway"
           ],
           "url": "https://news.ycombinator.com/item?id=48786781"
         },
         {
-          "title": "Valve open-source the Steam Machine e-ink screen so you can make your own",
-          "score": 595,
-          "comments": 113,
+          "title": "It's not about physical vs. digital games, it's about ownership",
+          "score": 536,
+          "comments": 390,
           "companies": [
-            "Together AI",
-            "Daylight Computer",
-            "Kyutai",
-            "Auterion"
+            "Agility Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=48774518"
+          "url": "https://news.ycombinator.com/item?id=48794750"
         },
         {
-          "title": "Costco is the anti-Amazon",
-          "score": 552,
-          "comments": 549,
+          "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+          "score": 366,
+          "comments": 148,
           "companies": [
-            "Vannevar Labs"
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48776044"
+          "url": "https://news.ycombinator.com/item?id=48789428"
         },
         {
-          "title": "Espionage Against the European Parliament",
-          "score": 417,
-          "comments": 126,
+          "title": "Potential session/cache leakage between workspace instances or consumer accounts",
+          "score": 313,
+          "comments": 132,
           "companies": [
-            "Sakana AI",
-            "Endurosat"
+            "Anthropic",
+            "Matic Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=48779683"
+          "url": "https://news.ycombinator.com/item?id=48785485"
         },
         {
-          "title": "Jamesob's guide to running SOTA LLMs locally",
-          "score": 398,
-          "comments": 180,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=48775921"
+          "title": "GPT-5.6 Sol Ultra will be in Codex",
+          "score": 306,
+          "comments": 251,
+          "companies": [
+            "OpenAI"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48799614"
         },
         {
-          "title": "Leanstral 1.5: Proof abundance for all",
-          "score": 364,
-          "comments": 99,
+          "title": "Starring the Computer",
+          "score": 242,
+          "comments": 55,
           "companies": [
-            "Mistral AI"
+            "Daylight Computer"
           ],
-          "url": "https://news.ycombinator.com/item?id=48780801"
+          "url": "https://news.ycombinator.com/item?id=48796093"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 108,
+      "count": 93,
       "items": [
         {
-          "title": "iFLYTEK Officially Launches Open Platform in Central Asia, Positioning Uzbekistan as a New Regional AI Hub",
+          "title": "Keel Infrastructure Appoints Ganesh Aiyer as President",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Alarum Technologies Announces Temporary Operational Pause of Certain Network Services",
+          "title": "Transactions in connection with share buyback programme",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "IT security incident in North Media\u2019s Swedish subsidiary SDR",
+          "title": "Prospect Capital Completes Investment in ShipOffers",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "IT-sikkerhedsh\u00e6ndelse i North Medias svenske datterselskab SDR",
+          "title": "Invivyd Announces Receipt of Twelve Months\u2019 Advanced Notice of Emergency Use Authorization (EUA) Termination for PEMGARD",
+          "source": "globenewswire_all",
+          "companies": [
+            "Twelve"
+          ]
+        },
+        {
+          "title": "Quantum Cyber Addresses Short Seller Biased Report",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Chery Auto's Rosslyn Plant Opens in South Africa, LEPAS Rides Momentum to Accelerate Local Expansion",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "Scope Ratings assigns AA- long -term ratings to the Republic of Iceland with Stable Outlook",
+          "title": "VERAXA Biotech Provides Business Update and Further Details on\u00a0Partnering Strategy and Development Timelines",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-07-05-8a8cb85c2e3b"
+  "brief_id": "brief-2026-07-06-8f0dd2813217"
 }
