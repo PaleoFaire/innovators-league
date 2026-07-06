@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 13.75,
+      "avg_change": 13.43,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 2.78,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 1.42,
       "count": 7
     },
     "nuclear": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -2.98
-    ],
-    [
       "NNE",
       "Nano Nuclear Energy",
       -3.0
@@ -109,7 +104,12 @@
       "JOBY",
       "Joby Aviation",
       -4.28
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -9.01
     ]
   ],
-  "lastUpdated": "2026-07-05 19:23:45"
+  "lastUpdated": "2026-07-06 03:54:19"
 }
