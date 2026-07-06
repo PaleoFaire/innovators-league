@@ -70097,23 +70097,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-06 12:56
+// Last updated: 2026-07-06 16:25
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Substrate", headline: "Korea's LG Innotek to begin building $1B semiconductor substrate plant in Vietnam's Hai Phong in Q3/2026", source: "TechNode Global", time: "2h ago", impact: "high", unread: true },
-  { id: 2, type: "hire", company: "Anthropic", headline: "STAT+: I spoke to Anthropic's CEO about how AI may affect biotech. Here's what I learned", source: "STAT News", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Humanoid", headline: "This humanoid robotics company is going public, but its CEO isn't promising a robot in your home anytime soon", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "WORLDCHANGING SpaceX Will Deliver Anything Anywhere", source: "Next Big Future", time: "16h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "Substrate", headline: "Korea's LG Innotek to begin building $1B semiconductor substrate plant in Vietnam's Hai Phong in Q3/2026", source: "TechNode Global", time: "5h ago", impact: "high", unread: true },
+  { id: 2, type: "hire", company: "Anthropic", headline: "STAT+: I spoke to Anthropic's CEO about how AI may affect biotech. Here's what I learned", source: "STAT News", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Humanoid", headline: "This humanoid robotics company is going public, but its CEO isn't promising a robot in your home anytime soon", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "WORLDCHANGING SpaceX Will Deliver Anything Anywhere", source: "Next Big Future", time: "20h ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "Dexterity", headline: "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity", source: "The Robot Report", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "OpenAI", headline: "What is Mistral AI? Everything to know about the OpenAI competitor", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone", source: "Ars Technica Space", time: "2d ago", impact: "medium", unread: false },
+  { id: 6, type: "funding", company: "OpenAI", headline: "What is Mistral AI? Everything to know about the OpenAI competitor", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone", source: "Ars Technica Space", time: "3d ago", impact: "medium", unread: false },
   { id: 8, type: "milestone", company: "Waymo", headline: "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens Do Idiotic Things in Waymos", source: "CleanTechnica", time: "3d ago", impact: "medium", unread: false },
   { id: 9, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace to launch German-built Planet imaging satellite", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "Can Cursor Remain a Platform for OpenAI and Anthropic's Models Inside SpaceX?", source: "Wired", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Dexterity", headline: "Why you should combine robot dexterity with mechanical positioning for complex assembly operations", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
   { id: 12, type: "funding", company: "Rivian", headline: "Rivian tops Q2 delivery numbers and raises full-year 2026 outlook", source: "Electrek", time: "4d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Apptronik", headline: "Apptronik unveils Apollo 2 and a flagship data collection and training facility", source: "The Robot Report", time: "5d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Anthropic", headline: "The Download: Anthropic launches Claude Science, and California's carbon manure math", source: "MIT Tech Review", time: "5d ago", impact: "medium", unread: false },
-  { id: 15, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "5d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Latitude", headline: "Latitude plans to conduct first launch from Oman", source: "SpaceNews", time: "5d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight", source: "SpaceNews", time: "5d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
