@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-05T08:42:47+00:00",
+  "generatedAt": "2026-07-06T09:57:59+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 27,
+  "cohortSize": 29,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 27
+    "unverifiable": 29
   },
   "cleared": [],
   "changesProposed": [],
@@ -37,10 +37,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Crusoe Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Deterrence",
       "reason": "Claude extraction failed"
     },
@@ -61,6 +57,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Gecko Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Hadrian",
       "reason": "Claude extraction failed"
     },
@@ -70,6 +70,10 @@
     },
     {
       "name": "Isar Aerospace",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Karman Industries",
       "reason": "Claude extraction failed"
     },
     {
@@ -86,6 +90,10 @@
     },
     {
       "name": "Rivian",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Solugen",
       "reason": "Claude extraction failed"
     },
     {
