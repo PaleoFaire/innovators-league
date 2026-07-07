@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T17:24:27.660504+00:00",
+  "generatedAt": "2026-07-07T20:07:47.605834+00:00",
   "date": "2026-07-07",
   "dateDisplay": "Tuesday, July 07, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 5.6,
-        "changePercent": -29.2,
-        "change": -2.31
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 44.3,
-        "changePercent": -17.78,
-        "change": -9.58
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 378.64,
-        "changePercent": -16.96,
-        "change": -77.32
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 17.56,
-        "changePercent": -16.26,
-        "change": -3.41
-      },
-      {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 16.32,
-        "changePercent": -16.08,
-        "change": -3.12
+        "price": 5.78,
+        "changePercent": -26.93,
+        "change": -2.13
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 134.23,
-        "changePercent": 16.02,
-        "change": 18.53
+        "price": 134.37,
+        "changePercent": 16.14,
+        "change": 18.67
       },
       {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 8.74,
-        "changePercent": -14.81,
-        "change": -1.52
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 382.89,
+        "changePercent": -16.03,
+        "change": -73.07
       },
       {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 18.18,
-        "changePercent": -14.72,
-        "change": -3.14
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 45.38,
+        "changePercent": -15.79,
+        "change": -8.51
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 83.41,
+        "changePercent": -14.9,
+        "change": -14.6
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 17.85,
+        "changePercent": -14.88,
+        "change": -3.12
+      },
+      {
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 16.55,
+        "changePercent": -14.87,
+        "change": -2.89
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 4.82,
+        "changePercent": -14.54,
+        "change": -0.82
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -29.2%"
+    "topMover": "LNZA -26.9%"
   }
 }
