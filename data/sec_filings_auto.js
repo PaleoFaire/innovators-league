@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-06 10:44:45 UTC
+// Last updated: 2026-07-07 09:49:26 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Intuitive Machines", form: "8-K", date: "2026-07-06", description: "tm2619787d1_8k.htm", isIPO: false, ticker: "LUNR" },
+  { company: "Oklo", form: "4", date: "2026-07-06", description: "xslF345X06/wk-form4_1783368855.xml", isIPO: false, ticker: "OKLO" },
+  { company: "LanzaTech", form: "4", date: "2026-07-06", description: "xslF345X06/wk-form4_1783368070.xml", isIPO: false, ticker: "LNZA" },
+  { company: "Rivian", form: "8-K", date: "2026-07-06", description: "tm2619783d1_8k.htm", isIPO: false, ticker: "RIVN" },
+  { company: "Satellogic", form: "8-K", date: "2026-07-06", description: "ea0297007-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Oklo", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783022795.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783022704.xml", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "8-K", date: "2026-07-02", description: "leu-20260630.htm", isIPO: false, ticker: "LEU" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "IonQ", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782771550.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782771218.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-06-29", description: "xslF345X06/wk-form4_1782771056.xml", isIPO: false, ticker: "IONQ" },
 ];

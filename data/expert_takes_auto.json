@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T10:46:17.878885Z",
+  "generated_at": "2026-07-07T09:50:35.201483Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -12,16 +12,6 @@
       "signal_type": "ipo"
     },
     {
-      "author": "SpaceNews",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "The SpaceX IPO tells one story. Here is the more important one.",
-      "date": "Wed, 01 Ju",
-      "source": "news",
-      "source_url": "https://spacenews.com/the-spacex-ipo-tells-one-story-here-is-the-more-important-one/",
-      "signal_type": "funding"
-    },
-    {
       "author": "Ars Technica",
       "role": "Industry signal",
       "company": "SpaceX",
@@ -30,16 +20,6 @@
       "source": "news",
       "source_url": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "The Robot Report",
-      "role": "Industry signal",
-      "company": "Bear Robotics",
-      "text": "Insights behind Kinisi\u2019s acquisition by Bear Robotics",
-      "date": "Mon, 29 Ju",
-      "source": "news",
-      "source_url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
-      "signal_type": "hire"
     },
     {
       "author": "TechNode Global",
@@ -55,7 +35,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 3,
     "from_press": 0
   }
 }

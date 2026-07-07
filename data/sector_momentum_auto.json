@@ -1,93 +1,93 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 69,
+    "momentum": 65,
     "trend": "accelerating",
     "catalysts": [
-      "WORLDCHANGING SpaceX Will Deliver Anything Anywhere",
-      "Rocket Report: Indian startup nears first launch; SpaceX&#03",
-      "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens D"
+      "Isar Aerospace signs agreement for Canadian launch site",
+      "Blue Origin continues work on lunar landers during recovery",
+      "SpaceX Share Price Catalysts"
     ],
     "fundingQ": "$266.2B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 40,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 60,
+    "momentum": 59,
     "trend": "steady",
     "catalysts": [
+      "Isar Aerospace signs agreement for Canadian launch site",
       "Not Imaginary: The Deterrence Gap is Real and America Needs",
-      "The Secret to Marathon-Winning Humanoid Robots",
       "Contriving Imaginary Gaps in Nuclear Deterrence"
     ],
     "fundingQ": "$12.0B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 56,
-    "trend": "accelerating",
+    "momentum": 54,
+    "trend": "steady",
     "catalysts": [
+      "Kraken Robotics acquires Covelya Group for $615M",
       "This humanoid robotics company is going public, but its CEO",
-      "Humanoid says KinetIQ Ascend reinforcement learning approach",
-      "Waymo &#038; Uber Partnership Ends in Phoenix, While Teens D"
+      "Humanoid says KinetIQ Ascend reinforcement learning approach"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "Korea&#8217;s LG Innotek to begin building $1B semiconductor",
-      "STAT+: I spoke to Anthropic\u2019s CEO about how AI may affect bi",
-      "What is Mistral AI? Everything to know about the OpenAI comp"
-    ],
-    "fundingQ": "$195.7B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Nuclear Energy",
     "momentum": 50,
     "trend": "steady",
     "catalysts": [
+      "Google backs Proxima Fusion in \u20ac411m raise",
       "A New Force Posture Concept for Europeanizing Extended Nucle",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs",
-      "Contriving Imaginary Gaps in Nuclear Deterrence"
+      "Not Imaginary: The Deterrence Gap is Real and America Needs"
     ],
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
-      "market": 48
+      "market": 44
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "Your family&#8217;s $300 stake in OpenAI",
+      "Korea&#8217;s LG Innotek to begin building $1B semiconductor",
+      "STAT+: I spoke to Anthropic\u2019s CEO about how AI may affect bi"
+    ],
+    "fundingQ": "$195.7B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -103,7 +103,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Ocean & Maritime",
@@ -119,60 +119,56 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 40,
-    "trend": "steady",
+    "momentum": 43,
+    "trend": "rising",
     "catalysts": [
-      "The Download: Anthropic launches Claude Science, and Califor",
       "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
     ],
     "fundingQ": "$1.3B",
     "components": {
       "funding": 84,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
-      "market": 42
+      "market": 61
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 24,
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
       "STAT+: I spoke to Anthropic\u2019s CEO about how AI may affect bi",
-      "The Download: Anthropic launches Claude Science, and Califor",
       "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 22,
-    "trend": "rising",
+    "sector": "Chips & Semiconductors",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
-      "Humanoid says KinetIQ Ascend reinforcement learning approach",
-      "Isar Aerospace to launch German-built Planet imaging satelli",
-      "Why you should combine robot dexterity with mechanical posit"
+      "Korea&#8217;s LG Innotek to begin building $1B semiconductor"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 5,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Transportation",
@@ -188,15 +184,33 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Isar Aerospace signs agreement for Canadian launch site",
+      "Kraken Robotics acquires Covelya Group for $615M",
+      "Blue Origin continues work on lunar landers during recovery"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Korea&#8217;s LG Innotek to begin building $1B semiconductor",
-      "The SpaceX IPO tells one story. Here is the more important o"
+      "Blue Origin continues work on lunar landers during recovery",
+      "Korea&#8217;s LG Innotek to begin building $1B semiconductor"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -205,23 +219,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Korea&#8217;s LG Innotek to begin building $1B semiconductor"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 46
-    },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Drones & Autonomous",
@@ -237,7 +235,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -253,11 +251,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 8,
+    "momentum": 7,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -267,8 +265,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 41
+      "market": 37
     },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
   }
 ]
