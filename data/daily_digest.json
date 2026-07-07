@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T12:04:09.031460+00:00",
+  "generatedAt": "2026-07-07T15:07:34.155721+00:00",
   "date": "2026-07-07",
   "dateDisplay": "Tuesday, July 07, 2026",
   "sections": {
@@ -70,60 +70,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 20.14,
-        "changePercent": 28.85,
-        "change": 4.51
-      },
-      {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 5.83,
-        "changePercent": -18.0,
-        "change": -1.28
+        "price": 5.6,
+        "changePercent": -29.2,
+        "change": -2.31
       },
       {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 1.73,
-        "changePercent": 17.69,
-        "change": 0.26
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 44.3,
+        "changePercent": -17.78,
+        "change": -9.58
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 378.64,
+        "changePercent": -16.96,
+        "change": -77.32
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 17.56,
+        "changePercent": -16.26,
+        "change": -3.41
+      },
+      {
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 16.32,
+        "changePercent": -16.08,
+        "change": -3.12
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 132.54,
-        "changePercent": 17.36,
-        "change": 19.61
+        "price": 134.23,
+        "changePercent": 16.02,
+        "change": 18.53
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.92,
-        "changePercent": 14.97,
-        "change": 0.25
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 8.74,
+        "changePercent": -14.81,
+        "change": -1.52
       },
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 30.86,
-        "changePercent": 14.0,
-        "change": 3.79
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 80.64,
-        "changePercent": 12.86,
-        "change": 9.19
-      },
-      {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.96,
-        "changePercent": 12.5,
-        "change": 0.44
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 18.18,
+        "changePercent": -14.72,
+        "change": -3.14
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RIVN +28.9%"
+    "topMover": "LNZA -29.2%"
   }
 }
