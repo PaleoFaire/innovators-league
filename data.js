@@ -70535,23 +70535,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-07 15:07
+// Last updated: 2026-07-07 17:24
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Humanoid", headline: "Ex-Tesla Optimus scientist unveils European humanoid robot startup", source: "Electrek", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Humanoid", headline: "Tesollo initiates IPO process while developing humanoid hands", source: "The Robot Report", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "The Download: your stake in OpenAI, and the Treasury's AI warning", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "SpaceX", headline: "SpaceX satellite wins test Pentagon's commitment to competition", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace signs agreement for Canadian launch site", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Proxima Fusion", headline: "Google backs Proxima Fusion in '411m raise", source: "Sifted", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Kraken Robotics", headline: "Kraken Robotics acquires Covelya Group for $615M", source: "The Robot Report", time: "18h ago", impact: "medium", unread: false },
-  { id: 8, type: "ipo", company: "Blue Origin", headline: "Blue Origin continues work on lunar landers during recovery from New Glenn explosion", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "OpenAI", headline: "Your family's $300 stake in OpenAI", source: "MIT Tech Review", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "SpaceX", headline: "SpaceX Share Price Catalysts", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Substrate", headline: "Korea's LG Innotek to begin building $1B semiconductor substrate plant in Vietnam's Hai Phong in Q3/2026", source: "TechNode Global", time: "1d ago", impact: "high", unread: false },
-  { id: 12, type: "hire", company: "Anthropic", headline: "STAT+: I spoke to Anthropic's CEO about how AI may affect biotech. Here's what I learned", source: "STAT News", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "WORLDCHANGING SpaceX Will Deliver Anything Anywhere", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Dexterity", headline: "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone", source: "Ars Technica Space", time: "4d ago", impact: "medium", unread: false },
+  { id: 1, type: "funding", company: "SpaceX", headline: "SpaceX launches Transporter-17 amid concerns about rideshare program's future", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Files with FCC for 100,000 V3 Satellite Constellation to 100X Bandwidth", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Humanoid", headline: "Ex-Tesla Optimus scientist unveils European humanoid robot startup", source: "Electrek", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Humanoid", headline: "Tesollo initiates IPO process while developing humanoid hands", source: "The Robot Report", time: "4h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "The Download: your stake in OpenAI, and the Treasury's AI warning", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "SpaceX", headline: "SpaceX satellite wins test Pentagon's commitment to competition", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace signs agreement for Canadian launch site", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Proxima Fusion", headline: "Google backs Proxima Fusion in '411m raise", source: "Sifted", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Kraken Robotics", headline: "Kraken Robotics acquires Covelya Group for $615M", source: "The Robot Report", time: "20h ago", impact: "medium", unread: false },
+  { id: 10, type: "ipo", company: "Blue Origin", headline: "Blue Origin continues work on lunar landers during recovery from New Glenn explosion", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "OpenAI", headline: "Your family's $300 stake in OpenAI", source: "MIT Tech Review", time: "23h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "SpaceX", headline: "SpaceX Share Price Catalysts", source: "Next Big Future", time: "23h ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Substrate", headline: "Korea's LG Innotek to begin building $1B semiconductor substrate plant in Vietnam's Hai Phong in Q3/2026", source: "TechNode Global", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "hire", company: "Anthropic", headline: "STAT+: I spoke to Anthropic's CEO about how AI may affect biotech. Here's what I learned", source: "STAT News", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "WORLDCHANGING SpaceX Will Deliver Anything Anywhere", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
