@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2026-07-07T08:31:48+00:00",
+  "generatedAt": "2026-07-07T12:04:57+00:00",
   "matrix": {
+    "additive-manufacturing": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 1366315,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Divergent",
+            "amount": 1366315,
+            "date": "2026-07-02",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Orbital Composites",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "carbon-capture-utilization": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 53494015,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Captura",
+            "amount": 53494015,
+            "date": "2026-07-02",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "consumer-evtol": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 5999990,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "AIR",
+            "amount": 5999990,
+            "date": "2026-06-30",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "critical-minerals": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": 34369684,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Lilac Solutions",
+            "amount": 34369684,
+            "date": "2026-06-29",
+            "source": "formd",
+            "investors": [
+              "Mercuria",
+              "Lowercarbon Capital",
+              "Breakthrough Energy Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Breakthrough Energy Ventures",
+          "Lowercarbon Capital"
+        ]
+      }
+    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -900,23 +990,6 @@
         ]
       }
     },
-    "additive-manufacturing": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Orbital Composites",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "ai-computer-vision-sensing": {
       "2025-Q1": {
         "deals": 1,
@@ -1062,6 +1135,58 @@
     }
   },
   "vcAttribution": {
+    "Lowercarbon Capital": {
+      "2026-Q2": [
+        {
+          "company": "Lilac Solutions",
+          "cluster": "critical-minerals",
+          "date": "2026-06-29",
+          "source": "formd"
+        }
+      ],
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Breakthrough Energy Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Lilac Solutions",
+          "cluster": "critical-minerals",
+          "date": "2026-06-29",
+          "source": "formd"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1286,32 +1411,6 @@
         }
       ]
     },
-    "Lowercarbon Capital": {
-      "2024-Q1": [
-        {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Thrive Capital Management, LLC": {
       "2026-Q1": [
         {
@@ -1342,16 +1441,6 @@
           "company": "RobCo",
           "cluster": "robotics-cobots-warehouse",
           "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Breakthrough Energy Ventures": {
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1404,14 +1493,14 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 50,
-    "totalUSDSold": 0,
-    "uniqueClusters": 33,
-    "uniqueQuarters": 8,
+    "totalDealsTracked": 54,
+    "totalUSDSold": 95230004,
+    "uniqueClusters": 36,
+    "uniqueQuarters": 9,
     "uniqueVCs": 18,
     "quarterRange": [
       "2024-Q1",
-      "2026-Q2"
+      "2026-Q3"
     ]
   },
   "caveats": [
