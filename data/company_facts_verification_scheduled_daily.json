@@ -1,21 +1,17 @@
 {
-  "generatedAt": "2026-07-06T09:57:59+00:00",
+  "generatedAt": "2026-07-07T09:25:23+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 29,
+  "cohortSize": 30,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 29
+    "unverifiable": 30
   },
   "cleared": [],
   "changesProposed": [],
   "unverifiable": [
-    {
-      "name": "1X Technologies",
-      "reason": "Claude extraction failed"
-    },
     {
       "name": "Agility Robotics",
       "reason": "Claude extraction failed"
@@ -29,11 +25,19 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Axiom Space",
+      "name": "Astera Labs",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Blue Origin",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Crusoe Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "D-Orbit",
       "reason": "Claude extraction failed"
     },
     {
@@ -53,10 +57,6 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Figure AI",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Gecko Robotics",
       "reason": "Claude extraction failed"
     },
@@ -69,6 +69,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "ICON",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Isar Aerospace",
       "reason": "Claude extraction failed"
     },
@@ -77,15 +81,19 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Latitude",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Mara",
+      "name": "Kraken Robotics",
       "reason": "Claude extraction failed"
     },
     {
       "name": "Orbital Composites",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Proxima Fusion",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "PsiQuantum",
       "reason": "Claude extraction failed"
     },
     {
@@ -105,11 +113,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Tenstorrent",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Vast",
+      "name": "Substrate",
       "reason": "Claude extraction failed"
     },
     {
@@ -121,11 +125,11 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Xanadu Quantum Technologies",
+      "name": "Xtend",
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Xtend",
+      "name": "Zettascale",
       "reason": "Claude extraction failed"
     }
   ]
