@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-07-05",
-    "vehicle": "Long March 8A | SpaceSail Polar Group #14",
-    "payload": "SpaceSail Polar Group #14",
-    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/888e0de3-ce4d-4daf-8140-bb0d3a4c8245/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-07-07",
     "vehicle": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
     "payload": "Transporter 17 (Dedicated SSO Rideshare)",
@@ -69,6 +60,15 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e09f254f-18bc-4985-963e-6075fa3d7a1c/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-14",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-45",
+    "payload": "Starlink Group 10-45",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9999a3a3-b15d-4ee3-b70f-acf00d10d912/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -150,15 +150,6 @@
     "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "H3-24 | HTV-X2",
-    "payload": "HTV-X2",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a2234679-5efe-4a00-9aff-cf82dbac22b0/?format=json",
     "trackedCompany": null
   },
   {
@@ -447,6 +438,15 @@
     "pad": "Launch Complex 3B, Esrange Space Center",
     "provider": "European Space Agency",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/3b94ad50-3505-496e-8a95-b0bc4c0dadc6/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-10-07",
+    "vehicle": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+    "payload": "Amazon Leo (LE-04)",
+    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7bdc412b-c965-4517-a131-f57a01189803/?format=json",
     "trackedCompany": null
   }
 ]

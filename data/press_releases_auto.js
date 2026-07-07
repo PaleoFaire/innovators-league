@@ -1,10 +1,8 @@
 // Auto-updated press releases
-// Last updated: 2026-07-06 11:19:08 UTC
+// Last updated: 2026-07-07 10:15:42 UTC
 const PRESS_RELEASES = [
+  { title: "Isar Aerospace signs agreement for Canadian launch site", date: "2026-07-07", companies: "Isar Aerospace, Figure AI, Hadrian", categories: "partnership, ipo", source: "spacenews" },
+  { title: "Blue Origin continues work on lunar landers during recovery from New Glenn explosion", date: "2026-07-06", companies: "Blue Origin, Figure AI, ispace", categories: "ipo", source: "spacenews" },
+  { title: "Iridium folds Aireon aviation safety service into Rocket Lab-bound business", date: "2026-07-06", companies: "Rocket Lab, Figure AI, Biofire", categories: "ipo", source: "spacenews" },
   { title: "Isar Aerospace to launch German-built Planet imaging satellite", date: "2026-07-02", companies: "Isar Aerospace, Figure AI, Hadrian", categories: "ipo", source: "spacenews" },
-  { title: "Latitude plans to conduct first launch from Oman", date: "2026-07-01", companies: "Latitude, Figure AI", categories: "milestone, ipo", source: "spacenews" },
-  { title: "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight", date: "2026-07-01", companies: "Blue Origin, Figure AI", categories: "ipo", source: "spacenews" },
-  { title: "The SpaceX IPO tells one story. Here is the more important one.", date: "2026-07-01", companies: "SpaceX, Figure AI", categories: "ipo", source: "spacenews" },
-  { title: "Invivyd Announces Receipt of Twelve Months’ Advanced Notice of Emergency Use Authorization (EUA) Ter", date: "", companies: "Twelve", categories: "product", source: "globenewswire_all" },
-  { title: "Can-Fite Achieves Key Pivotal Phase 3 Psoriasis Milestone with Completion of Patient Enrolment for t", date: "", companies: "Pivotal, Vannevar Labs", categories: "milestone", source: "globenewswire_all" },
 ];
