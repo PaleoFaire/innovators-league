@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T00:16:06.085555+00:00",
+  "generatedAt": "2026-07-07T05:00:32.528300+00:00",
   "date": "2026-07-07",
   "dateDisplay": "Tuesday, July 07, 2026",
   "sections": {
@@ -84,6 +84,13 @@
         "change": -1.28
       },
       {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.73,
+        "changePercent": 17.69,
+        "change": 0.26
+      },
+      {
         "ticker": "PLTR",
         "company": "Palantir",
         "price": 132.54,
@@ -91,25 +98,18 @@
         "change": 19.61
       },
       {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 1.72,
-        "changePercent": 17.01,
-        "change": 0.25
-      },
-      {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 1.93,
-        "changePercent": 15.27,
-        "change": 0.26
+        "price": 1.92,
+        "changePercent": 14.97,
+        "change": 0.25
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 30.87,
-        "changePercent": 14.04,
-        "change": 3.8
+        "price": 30.86,
+        "changePercent": 14.0,
+        "change": 3.79
       },
       {
         "ticker": "ASTS",
