@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 16.02,
+      "avg_change": 16.14,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.69,
+      "avg_change": -10.46,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -1.42,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.36,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.37,
+      "avg_change": -11.14,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.67,
+      "avg_change": -14.93,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.69,
+      "avg_change": -14.08,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.89,
+      "avg_change": 1.3,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 1.57,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -2.04,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -8.36,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -6.45,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "PLTR",
       "Palantir",
-      16.02
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      5.52
+      16.14
     ],
     [
       "ACHR",
       "Archer Aviation",
-      4.83
+      5.13
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      4.34
+      4.07
     ],
     [
-      "RIVN",
-      "Rivian",
-      3.84
+      "TEM",
+      "Tempus AI",
+      3.05
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      2.87
     ]
   ],
   "topLosers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      -16.08
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
-      -16.26
+      -14.88
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      -16.96
+      "RKLB",
+      "Rocket Lab",
+      -14.9
     ],
     [
       "IONQ",
       "IonQ",
-      -17.78
+      -15.79
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -16.03
     ],
     [
       "LNZA",
       "LanzaTech",
-      -29.2
+      -26.93
     ]
   ],
-  "lastUpdated": "2026-07-07 14:44:09"
+  "lastUpdated": "2026-07-07 20:01:21"
 }
