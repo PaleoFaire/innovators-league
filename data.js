@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-07-06";
+const LAST_UPDATED = "2026-07-07";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -70097,15 +70097,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-06 22:20
+// Last updated: 2026-07-07 00:16
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Kraken Robotics", headline: "Kraken Robotics acquires Covelya Group for $615M", source: "The Robot Report", time: "1h ago", impact: "medium", unread: true },
-  { id: 2, type: "ipo", company: "Blue Origin", headline: "Blue Origin continues work on lunar landers during recovery from New Glenn explosion", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "OpenAI", headline: "Your family's $300 stake in OpenAI", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "SpaceX", headline: "SpaceX Share Price Catalysts", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Substrate", headline: "Korea's LG Innotek to begin building $1B semiconductor substrate plant in Vietnam's Hai Phong in Q3/2026", source: "TechNode Global", time: "11h ago", impact: "high", unread: true },
-  { id: 6, type: "hire", company: "Anthropic", headline: "STAT+: I spoke to Anthropic's CEO about how AI may affect biotech. Here's what I learned", source: "STAT News", time: "13h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Humanoid", headline: "This humanoid robotics company is going public, but its CEO isn't promising a robot in your home anytime soon", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Kraken Robotics", headline: "Kraken Robotics acquires Covelya Group for $615M", source: "The Robot Report", time: "3h ago", impact: "medium", unread: true },
+  { id: 2, type: "ipo", company: "Blue Origin", headline: "Blue Origin continues work on lunar landers during recovery from New Glenn explosion", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "OpenAI", headline: "Your family's $300 stake in OpenAI", source: "MIT Tech Review", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "SpaceX", headline: "SpaceX Share Price Catalysts", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Substrate", headline: "Korea's LG Innotek to begin building $1B semiconductor substrate plant in Vietnam's Hai Phong in Q3/2026", source: "TechNode Global", time: "13h ago", impact: "high", unread: true },
+  { id: 6, type: "hire", company: "Anthropic", headline: "STAT+: I spoke to Anthropic's CEO about how AI may affect biotech. Here's what I learned", source: "STAT News", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Humanoid", headline: "This humanoid robotics company is going public, but its CEO isn't promising a robot in your home anytime soon", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "SpaceX", headline: "WORLDCHANGING SpaceX Will Deliver Anything Anywhere", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Dexterity", headline: "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone", source: "Ars Technica Space", time: "3d ago", impact: "medium", unread: false },
