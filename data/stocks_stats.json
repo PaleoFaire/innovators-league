@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 17.36,
+      "avg_change": 16.02,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 5.5,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -9.69,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 5.33,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -1.42,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.15,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -13.37,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -5.24,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -15.67,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -1.32,
+      "avg_change": -15.69,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 7.12,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.89,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 19.7,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": 1.57,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.96,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -8.36,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RIVN",
-      "Rivian",
-      28.85
+      "PLTR",
+      "Palantir",
+      16.02
     ],
     [
       "DRSHF",
       "DroneShield",
-      17.69
+      5.52
     ],
     [
-      "PLTR",
-      "Palantir",
-      17.36
+      "ACHR",
+      "Archer Aviation",
+      4.83
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      14.97
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      4.34
     ],
     [
-      "PL",
-      "Planet Labs",
-      14.0
+      "RIVN",
+      "Rivian",
+      3.84
     ]
   ],
   "topLosers": [
     [
+      "RGTI",
+      "Rigetti Computing",
+      -16.08
+    ],
+    [
       "LUNR",
       "Intuitive Machines",
-      -4.55
+      -16.26
     ],
     [
-      "SMR",
-      "NuScale Power",
-      -4.85
+      "ALAB",
+      "Astera Labs",
+      -16.96
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -6.29
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -11.46
+      "IONQ",
+      "IonQ",
+      -17.78
     ],
     [
       "LNZA",
       "LanzaTech",
-      -18.0
+      -29.2
     ]
   ],
-  "lastUpdated": "2026-07-07 09:49:12"
+  "lastUpdated": "2026-07-07 14:44:09"
 }
