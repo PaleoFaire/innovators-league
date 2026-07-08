@@ -71041,23 +71041,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-08 16:45
+// Last updated: 2026-07-08 18:23
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $90M Series B to build a new kind of rocket engine", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "Stoke Space", headline: "Former OpenAI exec Kevin Weil is now on the board of Stoke Space", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $91 million to scale rocket engine technology", source: "SpaceNews", time: "4h ago", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "Scale AI", headline: "Polysense raises $10.7M to scale AI quality control for food manufacturers", source: "Tech.eu", time: "6h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Free Waymo Rides in California? You Can Thank a Regulatory Quirk", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Impulse Space", headline: "Space Force adds Relativity, Impulse Space to national security launch program", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "D-Orbit", headline: "D-Orbit signs launch-services contract with ArkEdge Space", source: "SpaceNews", time: "15h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "SpaceX", headline: "More Pentagon Satellite Contracts for SpaceX and New Cursor Model Tomorrow", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI's Chief Futurist Is Leaving the Company", source: "Wired", time: "19h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "Why the rise of open source AI isn't hurting Anthropic &#8230; yet", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", time: "22h ago", impact: "high", unread: false },
-  { id: 13, type: "funding", company: "SpaceX", headline: "SpaceX launches Transporter-17 amid concerns about rideshare program's future", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Files with FCC for 100,000 V3 Satellite Constellation to 100X Bandwidth", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Humanoid", headline: "Ex-Tesla Optimus scientist unveils European humanoid robot startup", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI releases new voice models for more natural live conversations", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "BOMBSHELLS In Morgan Stanley Adam Jonas SpaceX Analysis Up to 2028 or 2030", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $90M Series B to build a new kind of rocket engine", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "Stoke Space", headline: "Former OpenAI exec Kevin Weil is now on the board of Stoke Space", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $91 million to scale rocket engine technology", source: "SpaceNews", time: "6h ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "Scale AI", headline: "Polysense raises $10.7M to scale AI quality control for food manufacturers", source: "Tech.eu", time: "8h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Waymo", headline: "Free Waymo Rides in California? You Can Thank a Regulatory Quirk", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Impulse Space", headline: "Space Force adds Relativity, Impulse Space to national security launch program", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "D-Orbit", headline: "D-Orbit signs launch-services contract with ArkEdge Space", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "SpaceX", headline: "More Pentagon Satellite Contracts for SpaceX and New Cursor Model Tomorrow", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI's Chief Futurist Is Leaving the Company", source: "Wired", time: "20h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Why the rise of open source AI isn't hurting Anthropic &#8230; yet", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", time: "23h ago", impact: "high", unread: false },
+  { id: 15, type: "funding", company: "SpaceX", headline: "SpaceX launches Transporter-17 amid concerns about rideshare program's future", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
