@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-07-07",
-    "vehicle": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
-    "payload": "Transporter 17 (Dedicated SSO Rideshare)",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a6db1e67-5860-47c9-a674-adc0f35b62e0/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-07-09",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-42",
     "payload": "Starlink Group 10-42",
@@ -54,7 +45,7 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-13",
+    "date": "2026-07-14",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 15-14",
     "payload": "Starlink Group 15-14",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -79,6 +70,15 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a556b963-0f36-4660-95a8-fdffdba653e2/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-07-14",
+    "vehicle": "Starship | Flight 13",
+    "payload": "Flight 13",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-07-17",
@@ -171,15 +171,6 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-31",
-    "vehicle": "Starship | Flight 13",
-    "payload": "Flight 13",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-08-06",
     "vehicle": "H3-22 | Michibiki 7 (QZS-7)",
     "payload": "Michibiki 7 (QZS-7)",
@@ -240,6 +231,15 @@
     "pad": "101, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9d402fb6-9115-424d-b6f0-bd3b13ee310e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-31",
+    "vehicle": "RFA One | Maiden Flight",
+    "payload": "Maiden Flight",
+    "pad": "Launch Pad Fredo, SaxaVord Spaceport",
+    "provider": "Rocket Factory Augsburg",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/91b13c6c-4525-496d-997b-3521bb6a4cd8/?format=json",
     "trackedCompany": null
   },
   {
@@ -424,15 +424,6 @@
   },
   {
     "date": "2026-09-30",
-    "vehicle": "RFA One | Maiden Flight",
-    "payload": "Maiden Flight",
-    "pad": "Launch Pad Fredo, SaxaVord Spaceport",
-    "provider": "Rocket Factory Augsburg",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/91b13c6c-4525-496d-997b-3521bb6a4cd8/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-30",
     "vehicle": "Themis Demonstrator | T1H-1",
     "payload": "T1H-1",
     "pad": "Launch Complex 3B, Esrange Space Center",
@@ -448,5 +439,14 @@
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7bdc412b-c965-4517-a131-f57a01189803/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Electron | StriX Launch 12",
+    "payload": "StriX Launch 12",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
+    "trackedCompany": "Rocket Lab"
   }
 ]

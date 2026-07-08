@@ -68,6 +68,26 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Domestic Manufacturing of Sodium-Ion Batteries",
+    "organization": "Natron Energy, Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Cancelled",
+    "location": "Santa Clara, CA",
+    "state": "CA",
+    "awardAmount": 19883951,
+    "awardFormatted": "19,883,951",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Storage",
+      "Grid"
+    ],
+    "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Passively Controlled Floating Wind Platforms for Low-cost Energy",
     "organization": "Kent Houston Offshore Engineering",
     "orgType": "Private Company",
@@ -187,6 +207,46 @@
       "Transportation"
     ],
     "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Next-Generation Lithium Metal Anode Cells",
+    "organization": "24M Technologies",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 10944727,
+    "awardFormatted": "10,944,727",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Batteries",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Scale-up Technology for Accelerated Adoption of High-Capacity Silicon Anodes in Mass Market Electric Vehicles",
+    "organization": "Sila Nanotechnologies, Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Alameda, CA",
+    "state": "CA",
+    "awardAmount": 10000000,
+    "awardFormatted": "10,000,000",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Batteries",
+      "Transportation"
+    ],
+    "isKnownCompany": true,
     "isPrivateCompany": true
   },
   {
@@ -374,6 +434,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Phase II: New Environmental-Thermal Barrier Coatings for Ultrahigh Temperature Alloys",
+    "organization": "University of Maryland (UMD)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "College Park, MD",
+    "state": "MD",
+    "awardAmount": 5600000,
+    "awardFormatted": "5,600,000",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Breeding and Mechanisms to Maximize Yield at 45% Current Nitrogen Level",
     "organization": "Colorado State University",
     "orgType": "",
@@ -451,6 +531,26 @@
       "Power Generation"
     ],
     "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Basin-SCAN: Basin Scale Continuous Oil and Gas Emissions Mitigation Network",
+    "organization": "LongPath Technologies Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Boulder, CO",
+    "state": "CO",
+    "awardAmount": 5000000,
+    "awardFormatted": "5,000,000",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
     "isPrivateCompany": true
   },
   {
@@ -607,6 +707,26 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Scaling Disruptive Methane Leak Detection and Quantification",
+    "organization": "Bridger Photonics, Inc.",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Bozeman, MT",
+    "state": "MT",
+    "awardAmount": 4572000,
+    "awardFormatted": "4,572,000",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Quantum Computing for Hydrogen Fuel Production ",
     "organization": "Phasecraft, Inc.",
     "orgType": "Private Company",
@@ -727,6 +847,28 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Carbon-Negative Chemical Production Platform",
+    "organization": "LanzaTech",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Skokie, IL",
+    "state": "IL",
+    "awardAmount": 4160263,
+    "awardFormatted": "4,160,263",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Machine learning Assisted Generation of Next-generation Electronic and Thermodynamic Innovations through Quantum Computing (MAGNETIQC) ",
     "organization": "Lawrence Livermore National Laboratory (LLNL)",
     "orgType": "National Laboratory",
@@ -791,6 +933,28 @@
     ],
     "isKnownCompany": true,
     "isPrivateCompany": true
+  },
+  {
+    "title": "Bioenergy Production Based on an Engineered Mixotrophic Consortium for Enhanced CO2 Fixation",
+    "organization": "University of Delaware (UD)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Newark, DE",
+    "state": "DE",
+    "awardAmount": 4002577,
+    "awardFormatted": "4,002,577",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "Automated Geological Appraisal Technology and Explorer System (AGATES) ",
@@ -994,6 +1158,28 @@
     "isPrivateCompany": true
   },
   {
+    "title": "ULTIMATE Refractory Alloy Innovations for Superior Efficiency (RAISE)",
+    "organization": "General Electric (GE) Global Research",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Niskayuna, NY",
+    "state": "NY",
+    "awardAmount": 3805494,
+    "awardFormatted": "3,805,494",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Developing Downhole Mineralogy Logging Sensors to Accelerate Critical Mineral Exploration Enabled by AI Models and High-Throughput Core Data ",
     "organization": "Sandia National Laboratories",
     "orgType": "National Laboratory",
@@ -1150,6 +1336,28 @@
     "technologyAreas": [
       "Transmission & Distribution",
       "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Designing Novel Multicomponent Niobium Alloys for High Temperature: Integrated Design, Rapid Processing & Validation Approach",
+    "organization": "University of Utah",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Salt Lake City, UT",
+    "state": "UT",
+    "awardAmount": 3694826,
+    "awardFormatted": "3,694,826",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Power Systems",
+      "Transportation"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -1456,6 +1664,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Saving Energy In Commercial and Industrial Refrigeration Systems Using Radiative Sky Cooling",
+    "organization": "SkyCool Systems, Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Mountain View, CA",
+    "state": "CA",
+    "awardAmount": 3494653,
+    "awardFormatted": "3,494,653",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Heating & Cooling",
+      "Buildings"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Multi-Objective Optimization Software for COOLERCHIPS",
     "organization": "University of Maryland (UMD)",
     "orgType": "University",
@@ -1515,6 +1743,28 @@
     ],
     "isKnownCompany": true,
     "isPrivateCompany": true
+  },
+  {
+    "title": "Acetate as a Platform for Carbon-Negative Production of Renewable Fuels and Chemicals",
+    "organization": "University of Wisconsin-Madison (UW-Madison)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Madison, WI",
+    "state": "WI",
+    "awardAmount": 3421197,
+    "awardFormatted": "3,421,197",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "MATRICY: Matrix Engineered TRISO Compacts Enabling Advanced Reactor Fuel Cycles",
@@ -1742,7 +1992,7 @@
   },
   {
     "title": "Rapid Advanced Geochemical Vectoring for Ore Body Evaluation ",
-    "organization": "Halliburton & Technology Partners LLC",
+    "organization": "Halliburton Technology Partners LLC",
     "orgType": "Private Company",
     "orgWebsite": [],
     "status": "Selected",
@@ -1841,6 +2091,28 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "Concurrent Design of a Multimaterial Niobium Alloy System for Next-generation Turbine Applications",
+    "organization": "QuesTek Innovations",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Evanston, IL",
+    "state": "IL",
+    "awardAmount": 3149638,
+    "awardFormatted": "3,149,638",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
   },
   {
     "title": "Optically Controlled 20 kV Gallium Oxide Power Switches for Grid Resiliency",
@@ -2752,6 +3024,28 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Circularizing Industries by Raising Carbon Efficiency",
+    "organization": "Circe Bioscience",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Somerville, MA",
+    "state": "MA",
+    "awardAmount": 2870000,
+    "awardFormatted": "2,870,000",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Electrochemical Lithium and Nickel Extraction with Concurrent Carbon Dioxide Mineralization (Phase 2)",
     "organization": "University of California, Davis (UC Davis)",
     "orgType": "University",
@@ -2830,6 +3124,28 @@
       "Manufacturing",
       "Industrial Efficiency",
       "Other - Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Formate as an Energy Source to Allow Sugar Fermentation with No Net CO2 Generation: Integration of Electrochemistry with Fermentation",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Golden, CO",
+    "state": "CO",
+    "awardAmount": 2838575,
+    "awardFormatted": "2,838,575",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -3198,6 +3514,28 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Disruptive Technology for Carbon Negative Commodity Biochemicals",
+    "organization": "Stanford University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Stanford, CA",
+    "state": "CA",
+    "awardAmount": 2672672,
+    "awardFormatted": "2,672,672",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Other - Agriculture & Bioenergy",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Development of Robust Anode Materials for the Electrochemical Recovery of Actinide Elements from the Used Nuclear Fuel",
     "organization": "Idaho National Laboratory (INL)",
     "orgType": "National Laboratory",
@@ -3213,6 +3551,26 @@
     "technologyAreas": [
       "Nuclear Fission",
       "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Phase II: Additive Manufacturing of Ultrahigh Temperature Refractory Metal Alloys",
+    "organization": "University of Wisconsin-Madison",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Madison, WI",
+    "state": "WI",
+    "awardAmount": 2633573,
+    "awardFormatted": "2,633,573",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -4318,6 +4676,28 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Carbon-Efficient Conversion of Carboxylic Acids to Fuels and Chemicals",
+    "organization": "University of California, Irvine (UC Irvine)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Irvine, CA",
+    "state": "CA",
+    "awardAmount": 2152961,
+    "awardFormatted": "2,152,961",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Other - Agriculture & Bioenergy",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Mesh Network of Soil Sensors for Greenhouse Gas Monitoring of Biofuel Agriculture",
     "organization": "University of California, Berkeley (UC Berkeley)",
     "orgType": "University",
@@ -4355,6 +4735,28 @@
       "Biomass",
       "Agriculture & Bioenergy",
       "Other - Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Zero-Carbon Biofuels: An Optimized Two-Stage System for High Productivity Conversion of CO2 to Liquid Fuels",
+    "organization": "Massachusetts Institute of Technology (MIT)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 2108532,
+    "awardFormatted": "2,108,532",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -4788,6 +5190,28 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Development of Carbon-Conserving Biosynthetic Systems Co-Utilizing C1 and Biomass Derived Feedstocks",
+    "organization": "ZymoChem",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Cancelled",
+    "location": "San Leandro, CA",
+    "state": "CA",
+    "awardAmount": 1896791,
+    "awardFormatted": "1,896,791",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Developing Advanced NMR Techniques to Predict and Monitor CO2 Storage and Mineralization for Enhanced Mining Exploration and Operation",
     "organization": "Harvard University",
     "orgType": "University",
@@ -5037,6 +5461,50 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Self-Assembling Cell-Free Systems for Scalable Bioconversion",
+    "organization": "University of Washington (UW)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Seattle, WA",
+    "state": "WA",
+    "awardAmount": 1663896,
+    "awardFormatted": "1,663,896",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Other - Agriculture & Bioenergy",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Carbon Negative Chemical with Synthetic Biochemistry",
+    "organization": "Invizyne Technologies",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Monrovia, CA",
+    "state": "CA",
+    "awardAmount": 1657763,
+    "awardFormatted": "1,657,763",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Other - Agriculture & Bioenergy",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "PURE HARVES2T: Produced water Utilization for Recovery of Energy materials\u2014High-value Advanced Resource Valorization using Emerging Switchable Solvent Technologies",
     "organization": "Columbia University",
     "orgType": "University",
@@ -5071,6 +5539,26 @@
     "technologyAreas": [
       "Computing",
       "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Phase II: Batch-wise Improvement in Reduced Design Space using a Holistic Optimization Technique (BIRDSHOT)",
+    "organization": "Texas A&M University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "College Station, TX",
+    "state": "TX",
+    "awardAmount": 1635813,
+    "awardFormatted": "1,635,813",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -5157,6 +5645,28 @@
     "isPrivateCompany": false
   },
   {
+    "title": "A Novel Integrated Fermentation Process with Engineered Microbial Consortia for Butanol Production from Lignocellulose Sugars without CO2 Emission",
+    "organization": "The Ohio State University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Columbus, OH",
+    "state": "OH",
+    "awardAmount": 1586632,
+    "awardFormatted": "1,586,632",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Improved Volatile and Semi-volatile Radionuclide Off-Gas Management",
     "organization": "Mainstream Engineering",
     "orgType": "Private Company",
@@ -5175,6 +5685,28 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
+  },
+  {
+    "title": "A Microbial Consortium Enabling Complete Feedstock Conversion",
+    "organization": "University of California, Berkeley (UC Berkeley)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Berkeley, CA",
+    "state": "CA",
+    "awardAmount": 1574965,
+    "awardFormatted": "1,574,965",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "Lifted-Flame Combustion for High-Hydrogen Reheat Gas Turbines",
@@ -5601,6 +6133,50 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Batch-wise Improvement in Reduced Design Space using a Holistic Optimization Technique (BIRDSHOT)",
+    "organization": "Texas A&M University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "College Station, TX",
+    "state": "TX",
+    "awardAmount": 1199634,
+    "awardFormatted": "1,199,634",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Computationally Guided ODS Refractory HEAs via Additive Manufacturing",
+    "organization": "Raytheon Technologies Research Center",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "East Hartford, CT",
+    "state": "CT",
+    "awardAmount": 1199165,
+    "awardFormatted": "1,199,165",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Ultra Light-weight Bidirectional DC-DC Converters for Electric Aircrafts",
     "organization": "University of California, Berkeley (UC Berkeley)",
     "orgType": "University",
@@ -5685,6 +6261,28 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Cell-free Bioelectrocatalytic Platform for Carbon Dioxide Reduction",
+    "organization": "University of Minnesota (UMN)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Minneapolis, MN",
+    "state": "MN",
+    "awardAmount": 1096776,
+    "awardFormatted": "1,096,776",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Other - Agriculture & Bioenergy",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "An Entirely Wood Floor System Designed for Carbon Negativity, Future Adaptability, and End of Life De/Re/Construction",
     "organization": "Clemson University",
     "orgType": "University",
@@ -5723,6 +6321,50 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
+  },
+  {
+    "title": "Development of a Bio-electrochemical Hybrid Fermentation Technology for the Carbon Conserving Production of Industrial Chemicals",
+    "organization": "ZymoChem",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "San Leandro, CA",
+    "state": "CA",
+    "awardAmount": 1053000,
+    "awardFormatted": "1,053,000",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "High Entropy Rare-earth Oxide (HERO) Coatings for Refractory Alloys",
+    "organization": "University of Virginia (UVA)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Charlottesville, VA",
+    "state": "VA",
+    "awardAmount": 1030000,
+    "awardFormatted": "1,030,000",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "EINSTEIN: Enhanced Integrated Nuclear Systems for Transmutation and Efficient Isolation of Nuclides",
@@ -6080,6 +6722,48 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Environmental Protection Coating System for Refractory Metal Alloys (EPCS for RMAs)",
+    "organization": "Raytheon Technologies Research Center",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "East Hartford, CT",
+    "state": "CT",
+    "awardAmount": 678043,
+    "awardFormatted": "678,043",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Enabling Technology - Reducing Greenhouse Gas Emissions and Energy Demands via Scaling Advanced 3D Culture Bioreactors",
+    "organization": "Cambridge Crops",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Somerville, MA",
+    "state": "MA",
+    "awardAmount": 658113,
+    "awardFormatted": "658,113",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Agriculture & Bioenergy",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "SOTERIA - Carbon Negative Bioconcrete Unit Production Concept",
     "organization": "Biomason",
     "orgType": "Private Company",
@@ -6118,6 +6802,50 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "Selective Thermal Emission Coatings for Improved Turbine Performance",
+    "organization": "Pacific Northwest National Laboratory (PNNL)",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Richland, WA",
+    "state": "WA",
+    "awardAmount": 599999,
+    "awardFormatted": "599,999",
+    "releaseDate": "Apr 21 2020",
+    "programName": "ULTIMATE",
+    "programAcronym": "Ultrahigh Temperature Impervious Materials Advancing Turbine Efficiency",
+    "technologyAreas": [
+      "Materials",
+      "Resources",
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Functional Engineering of a Photosynthetic Desalination Pump Circuit",
+    "organization": "Phytodetectors",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Wellington, CO",
+    "state": "CO",
+    "awardAmount": 561092,
+    "awardFormatted": "561,092",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Agriculture & Bioenergy",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
   },
   {
     "title": "Advancing Horizontal Directional Drilling for Rapid Undergrounding of Electrical Utilities",
@@ -6530,6 +7258,172 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Extremely Fast and Efficient Direct Contact Ultrasonic Drying for Roll To Roll Manufacturing",
+    "organization": "Ultrasonic Technology Solutions",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Knoxville, TN",
+    "state": "TN",
+    "awardAmount": 500000,
+    "awardFormatted": "500,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Industrial Efficiency",
+      "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Advanced Catalyst Manufacturing Enabled by Direct Joule Heating",
+    "organization": "HighT-Tech",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Rockville, MD",
+    "state": "MD",
+    "awardAmount": 500000,
+    "awardFormatted": "500,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Fuels",
+      "Transportation",
+      "Storage",
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Rechargeable Carbon-oxygen Battery: A New Class of Ultra Low-cost, Lightweight Energy Storage Technology",
+    "organization": "Noon Energy",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Palo Alto, CA",
+    "state": "CA",
+    "awardAmount": 500000,
+    "awardFormatted": "500,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Storage",
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Plasma Guns for Magnetized Fuel Targets for PJMIF",
+    "organization": "HyperJet Fusion",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Chantilly , VA",
+    "state": "VA",
+    "awardAmount": 500000,
+    "awardFormatted": "500,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Nuclear Fusion",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Transformation of Carbon Emissions to High-Value Products through a Two-Step Electrochemical Platform",
+    "organization": "Lectrolyst",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Newark, DE",
+    "state": "DE",
+    "awardAmount": 500000,
+    "awardFormatted": "500,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Fuels",
+      "Transportation",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Nanoionics Enabled Proton Conducting Ionomers",
+    "organization": "Celadyne Technologies",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Austin, TX",
+    "state": "TX",
+    "awardAmount": 500000,
+    "awardFormatted": "500,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Liquid or Gaseous Fuels",
+      "Power Generation",
+      "Power Systems",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Co-Generation of Low-Energy, CO2-Free Hydrogen and Ordinary Portland Cement from Ca-Rich Basalts",
+    "organization": "Brimstone Energy",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Berkeley, CA",
+    "state": "CA",
+    "awardAmount": 500000,
+    "awardFormatted": "500,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Industrial Efficiency",
+      "Industrial Efficiency"
+    ],
+    "isKnownCompany": true,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Space Division Multiplexing with Multi-Core Fiber for Energy Efficient Integrated Photonic Networking Technologies",
+    "organization": "Ultra-low Loss Technologies",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Santa Barbara, CA",
+    "state": "CA",
+    "awardAmount": 500000,
+    "awardFormatted": "500,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Computing",
+      "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Mixed Polyester Deconstruction & Monomer Recovery to Enable a Circular Bioeconomy",
     "organization": "National Renewable Energy Laboratory (NREL)",
     "orgType": "",
@@ -6568,6 +7462,28 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "Chemically Engineered Process for Enhanced Carbon Mineralization Potential",
+    "organization": "Community Energy",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Montgomeryville, PA",
+    "state": "PA",
+    "awardAmount": 499999,
+    "awardFormatted": "499,999",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Industrial Efficiency",
+      "Industrial Efficiency",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
   },
   {
     "title": "Active, Virtual And resistive Transformers for Transmission and Distribution (T&D) systems, And Resources (AVATAR)",
@@ -6650,6 +7566,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Electro-swing Adsorption for High Efficiency Direct Air Capture",
+    "organization": "Verdox",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Winchester, MA",
+    "state": "MA",
+    "awardAmount": 499900,
+    "awardFormatted": "499,900",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Tailoring Bipolar Membrane Interfaces to Boost Direct Borohydride Fuel Cell Performance for Marine Transportation Applications",
     "organization": "University of Alabama",
     "orgType": "University",
@@ -6668,6 +7604,26 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "Real-time, In-situ Sensing of Sediment Properties for Environmental Monitoring of Deep-Sea Polymetallic Nodule Mining Real-time, In-situ Sensing of Sediment Properties for Environmental Monitoring of Deep-Sea Polymetallic Nodule Mining",
+    "organization": "Sequoia Scientific",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Belleveue, WA",
+    "state": "WA",
+    "awardAmount": 499694,
+    "awardFormatted": "499,694",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
   },
   {
     "title": "C1 Bioconversion Platform: Integrating Acetogenic Consortia for Circular Economy Solutions in Fuel Production and Industrial Efficiency",
@@ -6712,6 +7668,46 @@
     "isPrivateCompany": true
   },
   {
+    "title": "SeaSTAR: Selective Thalassic Ambulatory Retriever",
+    "organization": "Otherlab",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "San Francisco, CA",
+    "state": "CA",
+    "awardAmount": 498615,
+    "awardFormatted": "498,615",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Improved Nodule Collector Design to Mitigate Sediment Plumes ",
+    "organization": "Deep Reach Technology",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Houston, TX",
+    "state": "TX",
+    "awardAmount": 497397,
+    "awardFormatted": "497,397",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Ambient Production of Fertilizer Precursor",
     "organization": "Lawrence Berkeley National Laboratory (LBNL)",
     "orgType": "National Laboratory",
@@ -6732,6 +7728,68 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "CIRCE: Circularizing Industries by Raising Carbon Efficiency",
+    "organization": "Harvard University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Cancelled",
+    "location": "Cambridge, MA",
+    "state": "MA",
+    "awardAmount": 486340,
+    "awardFormatted": "486,340",
+    "releaseDate": "Sep 10 2020",
+    "programName": "ECOSynBio",
+    "programAcronym": "Energy and Carbon Optimized Synthesis for the Bioeconomy",
+    "technologyAreas": [
+      "Biofuels",
+      "Agriculture & Bioenergy",
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Highly Efficient Vacuum Smelting of Aluminum",
+    "organization": "UHV Technologies",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Lexington, KY",
+    "state": "KY",
+    "awardAmount": 250000,
+    "awardFormatted": "250,000",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Other - Industrial Efficiency",
+      "Industrial Efficiency"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Photosynthetic Microorganism-based Consortia to Capture Carbon and Build Soil Organic Matter",
+    "organization": "MOgene Green Chemicals",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Saint Louis, MO",
+    "state": "MO",
+    "awardAmount": 249999,
+    "awardFormatted": "249,999",
+    "releaseDate": "May 20 2020",
+    "programName": "Exploratory Topics",
+    "programAcronym": "Exploratory Topics",
+    "technologyAreas": [
+      "Chemicals & Fuels",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
   },
   {
     "title": "RECLAIM: Electrochemical Lithium and Nickel Extraction with Concurrent Carbon Dioxide Mineralization",

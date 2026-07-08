@@ -50,7 +50,7 @@
         "awardAmount": "$41M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Palantir",
@@ -107,7 +107,7 @@
         "awardAmount": "$95M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Skydio",
@@ -162,11 +162,11 @@
         "awardAmount": "$110K"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Radiant",
-    "opportunityCount": 11,
+    "opportunityCount": 10,
     "agencies": [
       "Department of Defense",
       "Department of Health and Human Services",
@@ -217,7 +217,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Shield AI",
@@ -269,7 +269,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Axiom Space",
@@ -321,7 +321,7 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Sierra Space",
@@ -372,50 +372,7 @@
         "awardAmount": "$43K"
       }
     ],
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "company": "Varda Space",
-    "opportunityCount": 4,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING",
-        "agency": "Department of Defense",
-        "postedDate": "2023-05-16",
-        "type": null,
-        "noticeId": "FA945323CA035",
-        "awardAmount": "$27M"
-      },
-      {
-        "title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.",
-        "agency": "Department of Defense",
-        "postedDate": "2024-12-30",
-        "type": null,
-        "noticeId": "FA945325FX010",
-        "awardAmount": "$9M"
-      },
-      {
-        "title": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.",
-        "agency": "Department of Defense",
-        "postedDate": "2026-01-30",
-        "type": null,
-        "noticeId": "FA945326FX010",
-        "awardAmount": "$4M"
-      },
-      {
-        "title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE",
-        "agency": "Department of Defense",
-        "postedDate": "2025-11-25",
-        "type": null,
-        "noticeId": "FA945326FX002",
-        "awardAmount": "$160K"
-      }
-    ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Castelion",
@@ -450,7 +407,7 @@
         "awardAmount": "$1M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Rocket Lab",
@@ -485,7 +442,7 @@
         "awardAmount": "$391K"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Scale AI",
@@ -520,7 +477,34 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
+  },
+  {
+    "company": "Varda Space",
+    "opportunityCount": 2,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.",
+        "agency": "Department of Defense",
+        "postedDate": "2026-01-30",
+        "type": null,
+        "noticeId": "FA945326FX010",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE",
+        "agency": "Department of Defense",
+        "postedDate": "2025-11-25",
+        "type": null,
+        "noticeId": "FA945326FX002",
+        "awardAmount": "$160K"
+      }
+    ],
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Planet Labs",
@@ -548,35 +532,7 @@
         "awardAmount": "$60K"
       }
     ],
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "company": "Capella Space",
-    "opportunityCount": 2,
-    "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "SYNTHETIC APERTURE RADAR FOR GOVERNMENT OPERATIONS (SARGO)",
-        "agency": "Department of Defense",
-        "postedDate": "2024-09-01",
-        "type": null,
-        "noticeId": "FA945324CX020",
-        "awardAmount": "$10M"
-      },
-      {
-        "title": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2025-11-25",
-        "type": null,
-        "noticeId": "80HQTR26FA010",
-        "awardAmount": "$209K"
-      }
-    ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "BlackSky",
@@ -603,7 +559,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Vannevar Labs",
@@ -622,7 +578,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Hadrian",
@@ -641,7 +597,7 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "company": "Relativity Space",
@@ -660,6 +616,25 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
+  },
+  {
+    "company": "Capella Space",
+    "opportunityCount": 1,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "SYNTHETIC APERTURE RADAR FOR GOVERNMENT OPERATIONS (SARGO)",
+        "agency": "Department of Defense",
+        "postedDate": "2024-09-01",
+        "type": null,
+        "noticeId": "FA945324CX020",
+        "awardAmount": "$10M"
+      }
+    ],
+    "lastUpdated": "2026-07-08"
   }
 ]
