@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -10.88,
+      "avg_change": -11.01,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -3.07,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": -2.39,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.3,
+      "avg_change": -1.52,
       "count": 3
     },
     "transportation": {
@@ -103,7 +103,7 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -16.67
+      -17.44
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -26.93
     ]
   ],
-  "lastUpdated": "2026-07-08 02:58:27"
+  "lastUpdated": "2026-07-08 08:35:01"
 }
