@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 10.07,
+      "avg_change": 13.16,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -12.04,
+      "avg_change": -14.07,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -4.38,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -5.18,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.18,
+      "avg_change": -10.95,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.55,
+      "avg_change": -10.74,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.74,
+      "avg_change": -14.05,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -2.6,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -4.24,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.96,
+      "avg_change": -4.96,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -10.19,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -9.14,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "PLTR",
       "Palantir",
-      10.07
+      13.16
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      2.49
     ],
     [
       "ACHR",
       "Archer Aviation",
-      4.44
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      2.72
+      2.43
     ],
     [
       "IDEAFORGE.NS",
@@ -79,37 +79,37 @@
       1.51
     ],
     [
-      "TEM",
-      "Tempus AI",
-      1.1
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      0.95
     ]
   ],
   "topLosers": [
-    [
-      "PL",
-      "Planet Labs",
-      -15.67
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -15.99
-    ],
-    [
-      "RKLB",
-      "Rocket Lab",
-      -16.94
-    ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       -17.44
     ],
     [
+      "SATL",
+      "Satellogic",
+      -18.09
+    ],
+    [
+      "RKLB",
+      "Rocket Lab",
+      -18.28
+    ],
+    [
       "ALAB",
       "Astera Labs",
-      -18.38
+      -18.66
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -20.73
     ]
   ],
-  "lastUpdated": "2026-07-08 14:22:16"
+  "lastUpdated": "2026-07-08 19:38:20"
 }
