@@ -9,21 +9,21 @@
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -10.46,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -10.88,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.36,
+      "avg_change": -3.07,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.14,
+      "avg_change": -11.12,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.08,
+      "avg_change": -14.1,
       "count": 3
     },
     "biotech": {
@@ -66,7 +66,7 @@
     [
       "ACHR",
       "Archer Aviation",
-      5.13
+      5.34
     ],
     [
       "RXRX",
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -14.88
-    ],
-    [
       "RKLB",
       "Rocket Lab",
       -14.9
@@ -98,7 +93,7 @@
     [
       "IONQ",
       "IonQ",
-      -15.79
+      -15.81
     ],
     [
       "ALAB",
@@ -106,10 +101,15 @@
       -16.03
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -16.67
+    ],
+    [
       "LNZA",
       "LanzaTech",
       -26.93
     ]
   ],
-  "lastUpdated": "2026-07-07 20:01:21"
+  "lastUpdated": "2026-07-08 02:58:27"
 }
