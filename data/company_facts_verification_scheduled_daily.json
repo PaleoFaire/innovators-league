@@ -1,17 +1,21 @@
 {
-  "generatedAt": "2026-07-07T09:25:23+00:00",
+  "generatedAt": "2026-07-08T08:10:14+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 30,
+  "cohortSize": 36,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 30
+    "unverifiable": 36
   },
   "cleared": [],
   "changesProposed": [],
   "unverifiable": [
+    {
+      "name": "1X Technologies",
+      "reason": "Claude extraction failed"
+    },
     {
       "name": "Agility Robotics",
       "reason": "Claude extraction failed"
@@ -26,6 +30,10 @@
     },
     {
       "name": "Astera Labs",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Asylon Robotics",
       "reason": "Claude extraction failed"
     },
     {
@@ -73,6 +81,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Inversion Space",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Isar Aerospace",
       "reason": "Claude extraction failed"
     },
@@ -97,6 +109,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Quaise Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Rivian",
       "reason": "Claude extraction failed"
     },
@@ -117,11 +133,15 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Waymo",
+      "name": "Tenstorrent",
       "reason": "Claude extraction failed"
     },
     {
       "name": "X-Energy",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Xanadu Quantum Technologies",
       "reason": "Claude extraction failed"
     },
     {
@@ -130,6 +150,10 @@
     },
     {
       "name": "Zettascale",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "ideaForge",
       "reason": "Claude extraction failed"
     }
   ]
