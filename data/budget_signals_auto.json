@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 2,
+    "activityIndex": 3,
     "billsTracked": 2,
-    "rulesTracked": 0,
-    "description": "2 bill(s) + 0 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "rulesTracked": 1,
+    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -23,10 +23,16 @@
         "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
         "number": "S2226",
         "status": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Tennessee Valley Authority; Clinch River Nuclear Site, Unit 1; Notice of Hearing",
+        "agency": "",
+        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -55,36 +61,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "category": "Space & Aerospace",
-    "icon": "\ud83d\ude80",
-    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 2,
-    "billsTracked": 1,
-    "rulesTracked": 1,
-    "description": "1 bill(s) + 1 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Commercial Space Launch Competitiveness Act Amendments",
-        "number": "HR3684",
-        "status": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Nondiscrimination in Federally Assisted Programs of NASA-Effectuation of Title V",
-        "agency": "",
-        "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
   },
   {
     "category": "Quantum Computing",
@@ -107,6 +84,29 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-08"
+  },
+  {
+    "category": "Space & Aerospace",
+    "icon": "\ud83d\ude80",
+    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
+    "change": "flat",
+    "changeNum": 0,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 1,
+    "billsTracked": 1,
+    "rulesTracked": 0,
+    "description": "1 bill(s) + 0 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 1 \u2014 flat relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Commercial Space Launch Competitiveness Act Amendments",
+        "number": "HR3684",
+        "status": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-07-08"
   }
 ]

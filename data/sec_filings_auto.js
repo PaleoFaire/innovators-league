@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-07 09:49:26 UTC
+// Last updated: 2026-07-08 08:35:04 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-07-07", description: "xslF345X06/wk-form4_1783468921.xml", isIPO: false, ticker: "PLTR" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-07-07", description: "qbts-20260707.htm", isIPO: false, ticker: "QBTS" },
   { company: "Intuitive Machines", form: "8-K", date: "2026-07-06", description: "tm2619787d1_8k.htm", isIPO: false, ticker: "LUNR" },
   { company: "Oklo", form: "4", date: "2026-07-06", description: "xslF345X06/wk-form4_1783368855.xml", isIPO: false, ticker: "OKLO" },
   { company: "LanzaTech", form: "4", date: "2026-07-06", description: "xslF345X06/wk-form4_1783368070.xml", isIPO: false, ticker: "LNZA" },
@@ -47,8 +49,6 @@ const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "8-K", date: "2026-06-29", description: "g085783_8k.htm", isIPO: false, ticker: "RKLB" },
   { company: "Intuitive Machines", form: "4", date: "2026-06-29", description: "xslF345X06/form4-06292026_100628.xml", isIPO: false, ticker: "LUNR" },
   { company: "UiPath", form: "8-K", date: "2026-06-29", description: "path-20260625.htm", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-06-29", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
 ];
