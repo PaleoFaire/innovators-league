@@ -70535,23 +70535,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-08 00:06
+// Last updated: 2026-07-08 03:37
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "SpaceX", headline: "More Pentagon Satellite Contracts for SpaceX and New Cursor Model Tomorrow", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI's Chief Futurist Is Leaving the Company", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "Why the rise of open source AI isn't hurting Anthropic &#8230; yet", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", time: "5h ago", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "SpaceX", headline: "SpaceX launches Transporter-17 amid concerns about rideshare program's future", source: "SpaceNews", time: "8h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX Files with FCC for 100,000 V3 Satellite Constellation to 100X Bandwidth", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Humanoid", headline: "Ex-Tesla Optimus scientist unveils European humanoid robot startup", source: "Electrek", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Humanoid", headline: "Tesollo initiates IPO process while developing humanoid hands", source: "The Robot Report", time: "10h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "The Download: your stake in OpenAI, and the Treasury's AI warning", source: "MIT Tech Review", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "SpaceX", headline: "SpaceX satellite wins test Pentagon's commitment to competition", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace signs agreement for Canadian launch site", source: "SpaceNews", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Proxima Fusion", headline: "Google backs Proxima Fusion in '411m raise", source: "Sifted", time: "17h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Kraken Robotics", headline: "Kraken Robotics acquires Covelya Group for $615M", source: "The Robot Report", time: "1d ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin continues work on lunar landers during recovery from New Glenn explosion", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "OpenAI", headline: "Your family's $300 stake in OpenAI", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "D-Orbit", headline: "D-Orbit signs launch-services contract with ArkEdge Space", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "SpaceX", headline: "More Pentagon Satellite Contracts for SpaceX and New Cursor Model Tomorrow", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI's Chief Futurist Is Leaving the Company", source: "Wired", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Why the rise of open source AI isn't hurting Anthropic &#8230; yet", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", time: "9h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "SpaceX", headline: "SpaceX launches Transporter-17 amid concerns about rideshare program's future", source: "SpaceNews", time: "12h ago", impact: "medium", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Files with FCC for 100,000 V3 Satellite Constellation to 100X Bandwidth", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Humanoid", headline: "Ex-Tesla Optimus scientist unveils European humanoid robot startup", source: "Electrek", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Humanoid", headline: "Tesollo initiates IPO process while developing humanoid hands", source: "The Robot Report", time: "14h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "The Download: your stake in OpenAI, and the Treasury's AI warning", source: "MIT Tech Review", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "SpaceX", headline: "SpaceX satellite wins test Pentagon's commitment to competition", source: "SpaceNews", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Isar Aerospace", headline: "Isar Aerospace signs agreement for Canadian launch site", source: "SpaceNews", time: "19h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Proxima Fusion", headline: "Google backs Proxima Fusion in '411m raise", source: "Sifted", time: "20h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Kraken Robotics", headline: "Kraken Robotics acquires Covelya Group for $615M", source: "The Robot Report", time: "1d ago", impact: "medium", unread: false },
+  { id: 15, type: "ipo", company: "Blue Origin", headline: "Blue Origin continues work on lunar landers during recovery from New Glenn explosion", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
