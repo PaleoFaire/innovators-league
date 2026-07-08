@@ -1,74 +1,85 @@
 // Auto-generated news signals
-// Last updated: 2026-07-08T08:34:50.328Z
+// Last updated: 2026-07-08T09:30:25.006Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1783499690328,
+    "id": 1783503025005,
+    "type": "news",
+    "company": "Waymo",
+    "headline": "Free Waymo Rides in California? You Can Thank a Regulatory Quirk",
+    "source": "Wired",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.wired.com/story/a-california-regulatory-quirk-means-free-waymo-rides/"
+  },
+  {
+    "id": 1783503025006,
     "type": "ipo",
     "company": "Impulse Space",
     "headline": "Space Force adds Relativity, Impulse Space to national security launch program",
     "source": "SpaceNews",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/space-force-adds-relativity-impulse-space-to-national-security-launch-program/"
   },
   {
-    "id": 1783499690329,
+    "id": 1783503025007,
     "type": "funding",
     "company": "D-Orbit",
     "headline": "D-Orbit signs launch-services contract with ArkEdge Space",
     "source": "SpaceNews",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/d-orbit-signs-launch-services-contract-with-arkedge-space/"
   },
   {
-    "id": 1783499690330,
+    "id": 1783503025008,
     "type": "contract",
     "company": "SpaceX",
     "headline": "More Pentagon Satellite Contracts for SpaceX and New Cursor Model Tomorrow",
     "source": "Next Big Future",
-    "time": "10h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/more-pentagon-satellite-contracts-for-spacex-and-new-cursor-model-tomorrow.html"
   },
   {
-    "id": 1783499690331,
+    "id": 1783503025009,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI’s Chief Futurist Is Leaving the Company",
     "source": "Wired",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/"
   },
   {
-    "id": 1783499690332,
+    "id": 1783503025010,
     "type": "news",
     "company": "Anthropic",
     "headline": "Why the rise of open source AI isn&#8217;t hurting Anthropic &#8230; yet",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"
   },
   {
-    "id": 1783499690333,
+    "id": 1783503025011,
     "type": "funding",
     "company": "Quaise Energy",
     "headline": "Quaise Energy raises $134M to fuel superhot geothermal ambitions",
     "source": "Canary Media",
-    "time": "14h ago",
+    "time": "15h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m"
   },
   {
-    "id": 1783499690334,
+    "id": 1783503025012,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX launches Transporter-17 amid concerns about rideshare program’s future",
@@ -79,62 +90,62 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future/"
   },
   {
-    "id": 1783499690335,
+    "id": 1783503025013,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Files with FCC for 100,000 V3 Satellite Constellation to 100X Bandwidth",
     "source": "Next Big Future",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/07/spacex-files-with-fcc-for-100000-v3-satellite-constellation-to-100x-bandwidth.html"
   },
   {
-    "id": 1783499690336,
+    "id": 1783503025014,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Ex-Tesla Optimus scientist unveils European humanoid robot startup",
     "source": "Electrek",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/"
   },
   {
-    "id": 1783499690337,
+    "id": 1783503025016,
     "type": "ipo",
     "company": "Humanoid",
     "headline": "Tesollo initiates IPO process while developing humanoid hands",
     "source": "The Robot Report",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/"
   },
   {
-    "id": 1783499690338,
+    "id": 1783503025017,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: your stake in OpenAI, and the Treasury&#8217;s AI warning",
     "source": "MIT Tech Review",
-    "time": "20h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/"
   },
   {
-    "id": 1783499690339,
+    "id": 1783503025018,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX satellite wins test Pentagon’s commitment to competition",
     "source": "SpaceNews",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/spacexs-wins-test-pentagons-commitment-to-competition/"
   },
   {
-    "id": 1783499690340,
+    "id": 1783503025019,
     "type": "contract",
     "company": "Isar Aerospace",
     "headline": "Isar Aerospace signs agreement for Canadian launch site",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/isar-aerospace-signs-agreement-for-canadian-launch-site/"
   },
   {
-    "id": 1783499690341,
+    "id": 1783503025020,
     "type": "funding",
     "company": "Proxima Fusion",
     "headline": "Google backs Proxima Fusion in €411m raise",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/google-proxima-fusion-411m-raise/"
   },
   {
-    "id": 1783499690342,
+    "id": 1783503025021,
     "type": "news",
     "company": "Kraken Robotics",
     "headline": "Kraken Robotics acquires Covelya Group for $615M",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/"
   },
   {
-    "id": 1783499690343,
+    "id": 1783503025022,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin continues work on lunar landers during recovery from New Glenn explosion",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/blue-origin-continues-work-on-lunar-landers-during-recovery-from-new-glenn-explosion/"
   },
   {
-    "id": 1783499690344,
+    "id": 1783503025023,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Your family&#8217;s $300 stake in OpenAI",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/"
   },
   {
-    "id": 1783499690345,
+    "id": 1783503025024,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX Share Price Catalysts",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/spacex-share-price-catalysts.html"
   },
   {
-    "id": 1783499690346,
+    "id": 1783503025025,
     "type": "hire",
     "company": "Substrate",
     "headline": "Korea&#8217;s LG Innotek to begin building $1B semiconductor substrate plant in Vietnam&#8217;s Hai Phong in Q3/2026",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://technode.global/2026/07/06/koreas-lg-innotek-to-begin-building-1b-semiconductor-substrate-plant-in-vietnams-hai-phong-in-q3-2026/"
-  },
-  {
-    "id": 1783499690347,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "WORLDCHANGING SpaceX Will Deliver Anything Anywhere",
-    "source": "Next Big Future",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/07/worldchanging-spacex-will-deliver-anything-anywhere.html"
   }
 ];
