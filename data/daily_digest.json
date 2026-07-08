@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T18:23:56.190857+00:00",
+  "generatedAt": "2026-07-08T20:24:55.384547+00:00",
   "date": "2026-07-08",
   "dateDisplay": "Wednesday, July 08, 2026",
   "sections": {
@@ -70,11 +70,32 @@
     ],
     "marketMovers": [
       {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 16.95,
+        "changePercent": -20.73,
+        "change": -4.44
+      },
+      {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 394.22,
-        "changePercent": -18.38,
-        "change": -88.8
+        "price": 392.89,
+        "changePercent": -18.66,
+        "change": -90.13
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 83.06,
+        "changePercent": -18.28,
+        "change": -18.59
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 4.68,
+        "changePercent": -18.09,
+        "change": -1.04
       },
       {
         "ticker": "277810.KQ",
@@ -84,46 +105,25 @@
         "change": -90500.0
       },
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 84.44,
-        "changePercent": -16.94,
-        "change": -17.22
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 17.97,
-        "changePercent": -15.99,
-        "change": -3.42
-      },
-      {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 27.94,
-        "changePercent": -15.67,
-        "change": -5.19
+        "price": 27.57,
+        "changePercent": -16.8,
+        "change": -5.57
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 45.58,
-        "changePercent": -14.43,
-        "change": -7.68
-      },
-      {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 5.86,
-        "changePercent": -14.08,
-        "change": -0.96
+        "price": 45.02,
+        "changePercent": -15.47,
+        "change": -8.24
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 76.65,
-        "changePercent": -13.74,
-        "change": -12.21
+        "price": 75.23,
+        "changePercent": -15.34,
+        "change": -13.63
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ALAB -18.4%"
+    "topMover": "LUNR -20.7%"
   }
 }
