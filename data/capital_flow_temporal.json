@@ -1,6 +1,115 @@
 {
-  "generatedAt": "2026-07-09T08:35:29+00:00",
+  "generatedAt": "2026-07-09T12:13:28+00:00",
   "matrix": {
+    "green-manufacturing": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 1927500,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Helios",
+            "amount": 1927500,
+            "date": "2026-07-08",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
+    "space-launch-large": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 22000000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Firefly Aerospace",
+            "amount": 22000000,
+            "date": "2026-07-08",
+            "source": "formd",
+            "investors": [
+              "Noosphere Ventures",
+              "DADA Holdings",
+              "AE Industrial Partners"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "SpaceX",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Alphabet Inc."
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Rocket Lab",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Khosla Ventures",
+              "Bessemer Venture Partners",
+              "Lockheed Martin",
+              "Data Collective",
+              "Promus Ventures",
+              "Future Fund"
+            ]
+          }
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "Khosla Ventures"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Relativity Space",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Baillie Gifford",
+              "Blackrock",
+              "BOND",
+              "Coatue",
+              "Fidelity",
+              "General Catalyst",
+              "ICONIQ Capital",
+              "K5 Global",
+              "Mark Cuban",
+              "Playground Global"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst",
+          "Playground Global"
+        ]
+      }
+    },
     "additive-manufacturing": {
       "2026-Q3": {
         "deals": 1,
@@ -88,81 +197,6 @@
         "investors": [
           "Breakthrough Energy Ventures",
           "Lowercarbon Capital"
-        ]
-      }
-    },
-    "medical-devices-surgical": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 28999199,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Cresilon",
-            "amount": 28999199,
-            "date": "2026-06-26",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "data-center-infrastructure": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 230000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Starcloud",
-            "amount": 230000,
-            "date": "2026-06-25",
-            "source": "formd",
-            "investors": [
-              "Benchmark",
-              "NVIDIA",
-              "DCVC",
-              "Khosla Ventures",
-              "Y Combinator"
-            ]
-          }
-        ],
-        "investors": [
-          "Khosla Ventures"
-        ]
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Crusoe Energy",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Valor Equity Partners",
-              "Mubadala Capital",
-              "Founders Fund",
-              "Lowercarbon Capital",
-              "Spark Capital",
-              "Tiger Global Management",
-              "NVIDIA",
-              "Bain Capital Ventures",
-              "Fidelity Management",
-              "Atreides Management",
-              "1789 Capital",
-              "Salesforce Ventures",
-              "T. Rowe Price"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Lowercarbon Capital",
-          "Valor Equity Partners"
         ]
       }
     },
@@ -400,79 +434,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "space-launch-large": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "SpaceX",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Alphabet Inc."
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Rocket Lab",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Khosla Ventures",
-              "Bessemer Venture Partners",
-              "Lockheed Martin",
-              "Data Collective",
-              "Promus Ventures",
-              "Future Fund"
-            ]
-          }
-        ],
-        "investors": [
-          "Bessemer Venture Partners",
-          "Khosla Ventures"
-        ]
-      },
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Relativity Space",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Baillie Gifford",
-              "Blackrock",
-              "BOND",
-              "Coatue",
-              "Fidelity",
-              "General Catalyst",
-              "ICONIQ Capital",
-              "K5 Global",
-              "Mark Cuban",
-              "Playground Global"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst",
-          "Playground Global"
-        ]
       }
     },
     "space-ground-comms": {
@@ -859,6 +820,41 @@
         ]
       }
     },
+    "data-center-infrastructure": {
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
+        ]
+      }
+    },
     "robotics-cobots-warehouse": {
       "2025-Q3": {
         "deals": 1,
@@ -1227,30 +1223,6 @@
         }
       ]
     },
-    "Khosla Ventures": {
-      "2026-Q2": [
-        {
-          "company": "Starcloud",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-06-25",
-          "source": "formd"
-        },
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1405,6 +1377,24 @@
         }
       ]
     },
+    "Khosla Ventures": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Bessemer Venture Partners": {
       "2025-Q4": [
         {
@@ -1540,7 +1530,7 @@
   },
   "stats": {
     "totalDealsTracked": 56,
-    "totalUSDSold": 124459203,
+    "totalUSDSold": 119157504,
     "uniqueClusters": 37,
     "uniqueQuarters": 9,
     "uniqueVCs": 18,
