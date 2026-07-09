@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.57,
+      "avg_change": 2.7,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.44,
+      "avg_change": -9.81,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.85,
+      "avg_change": -5.33,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.15,
+      "avg_change": -8.41,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.27,
+      "avg_change": -9.13,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.87,
+      "avg_change": -10.38,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.48,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.24,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.77,
+      "avg_change": -0.2,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.25,
+      "avg_change": 0.24,
       "count": 3
     }
   },
@@ -64,52 +64,52 @@
       12.89
     ],
     [
+      "RIVN",
+      "Rivian",
+      4.63
+    ],
+    [
       "IDEAFORGE.NS",
       "ideaForge",
       4.42
     ],
     [
+      "NVDA",
+      "NVIDIA",
+      3.17
+    ],
+    [
       "RXRX",
       "Recursion Pharmaceuticals",
-      4.22
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      3.49
-    ],
-    [
-      "AMD",
-      "AMD",
-      2.66
+      3.13
     ]
   ],
   "topLosers": [
     [
-      "PL",
-      "Planet Labs",
-      -12.13
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
-      -14.37
+      -13.73
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      -13.75
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -15.69
-    ],
-    [
-      "RKLB",
-      "Rocket Lab",
-      -16.21
+      -16.36
     ],
     [
       "SATL",
       "Satellogic",
-      -16.34
+      -16.7
+    ],
+    [
+      "RKLB",
+      "Rocket Lab",
+      -16.81
     ]
   ],
-  "lastUpdated": "2026-07-09 15:17:30"
+  "lastUpdated": "2026-07-09 19:51:56"
 }
