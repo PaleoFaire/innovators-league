@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -14.5,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -11.96,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.64,
+      "avg_change": -3.94,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.13,
+      "avg_change": -2.27,
       "count": 3
     },
     "transportation": {
@@ -64,6 +64,16 @@
       13.33
     ],
     [
+      "9348.T",
+      "ispace",
+      12.89
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      4.19
+    ],
+    [
       "ACHR",
       "Archer Aviation",
       2.33
@@ -72,16 +82,6 @@
       "NVDA",
       "NVIDIA",
       2.01
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      1.51
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      1.36
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -20.43
     ]
   ],
-  "lastUpdated": "2026-07-09 03:37:20"
+  "lastUpdated": "2026-07-09 09:48:17"
 }
