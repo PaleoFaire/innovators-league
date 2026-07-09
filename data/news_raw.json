@@ -1,5 +1,67 @@
 [
   {
+    "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+    "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+    "description": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+    "pubDate": "Thu, 09 Jul 2026 19:05:58 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Anthropic Wants You to Pay Up for Claude Fable 5",
+    "link": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
+    "description": "Claude subscribers must soon pay usage-based fees to access Anthropic’s best consumer AI model—a sign that the golden era of AI subscriptions is ending.",
+    "pubDate": "Thu, 09 Jul 2026 18:30:00 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Matic Robotics"
+    ],
+    "sectors": [
+      "ai",
+      "consumer"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "How did the government decide OpenAI&#8217;s frontier model was safe to release?",
+    "link": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+    "description": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
+    "pubDate": "Thu, 09 Jul 2026 18:22:39 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Palantir",
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "SpaceX Secretly Controls 45% of World&#8217;s Best AI Chips. Tripling Over the Next 12 Months",
     "link": "https://www.nextbigfuture.com/2026/07/spacex-secretly-controls-45-of-worlds-best-ai-chips-tripling-over-the-next-12-months.html",
     "description": "SpaceX already has their AI compute and energy problems solved. They will leverage this to win the battle for AI.",
@@ -16,7 +78,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "New bill would ban Tesla&#8217;s camera-only Robotaxi, not Waymo",
@@ -37,7 +99,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "Anthropic’s new Claude feature is quietly selling you on AI",
@@ -56,7 +118,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
@@ -78,7 +140,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Beyond da Vinci: Why versatile humanoid robots are the next frontier in surgery",
@@ -101,7 +163,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "7h ago"
   },
   {
     "title": "Blue Origin seeks to raise $10 billion in outside capital",
@@ -120,7 +182,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "6h ago"
+    "time": "8h ago"
   },
   {
     "title": "Chip testing startup QuantumDiamonds raises €15M in equity funding",
@@ -146,7 +208,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "11h ago"
+    "time": "13h ago"
   },
   {
     "title": "World Fund, IQ Capital among backers of €91m QuantumDiamonds round",
@@ -165,7 +227,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "14h ago"
   },
   {
     "title": "Waymo Hits Summer Break With Coast-to-Coast Expansion",
@@ -186,7 +248,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "15h ago"
+    "time": "17h ago"
   },
   {
     "title": "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quarter of the COST",
@@ -208,7 +270,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
+    "time": "18h ago"
   },
   {
     "title": "This Robotaxi Company Is Growing Its Share Of US Market — Not Waymo, Not Tesla",
@@ -231,7 +293,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "NVIDIA and Hugging Face bring new models and frameworks to LeRobot",
@@ -250,7 +312,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
   },
   {
     "title": "ispace to send larger payloads to the moon on SpaceX’s Starship",
@@ -270,35 +332,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "20h ago"
-  },
-  {
-    "title": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing",
-    "link": "https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/",
-    "description": "Like its U.S. counterpart, the European Chips Act aims to foster the semiconductor industry — in part thanks to state subsidies. One of the beneficiaries is QuantumDiamonds, a German startup that applies a novel approach to inspecting chips.",
-    "pubDate": "Wed, 08 Jul 2026 20:29:50 +0000",
-    "category": "Startups",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "QuantumDiamonds",
-    "matchedCompanies": [
-      "QuantumDiamonds",
-      "Conductor Quantum",
-      "PsiQuantum",
-      "Astera Labs",
-      "Zettascale",
-      "Dust",
-      "ICON"
-    ],
-    "sectors": [
-      "quantum",
-      "chips",
-      "ai",
-      "housing"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "22h ago"
   },
   {
     "title": "BOMBSHELLS In Morgan Stanley Adam Jonas SpaceX Analysis Up to 2028 or 2030",
@@ -489,7 +523,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "SpaceX launches Transporter-17 amid concerns about rideshare program’s future",
@@ -512,25 +546,6 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "2d ago"
-  },
-  {
-    "title": "SpaceX Files with FCC for 100,000 V3 Satellite Constellation to 100X Bandwidth",
-    "link": "https://www.nextbigfuture.com/2026/07/spacex-files-with-fcc-for-100000-v3-satellite-constellation-to-100x-bandwidth.html",
-    "description": "SpaceX has officially requested FCC approval to launch and operate a third-generation satellite constellation of 100,000 satellites, designed to power human connectivity and AI-fueled progress. SpaceX communication satellites will scale to a 100x increase in bandwidth. It will 50x cheaper $/Gbps whe",
-    "pubDate": "Tue, 07 Jul 2026 15:17:37 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
     "time": "2d ago"
   },
   {
