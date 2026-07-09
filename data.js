@@ -71041,23 +71041,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-09 05:00
+// Last updated: 2026-07-09 08:34
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "QuantumDiamonds", headline: "World Fund, IQ Capital among backers of '91m QuantumDiamonds round", source: "Sifted", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Waymo", headline: "Waymo Hits Summer Break With Coast-to-Coast Expansion", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: true },
-  { id: 3, type: "ipo", company: "Anthropic", headline: "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quarter of the COST", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "This Robotaxi Company Is Growing Its Share Of US Market ' Not Waymo, Not Tesla", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Hugging Face", headline: "NVIDIA and Hugging Face bring new models and frameworks to LeRobot", source: "The Robot Report", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "ispace to send larger payloads to the moon on SpaceX's Starship", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "QuantumDiamonds", headline: "With EU backing, QuantumDiamonds aims to speed up chip manufacturing", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI releases new voice models for more natural live conversations", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "BOMBSHELLS In Morgan Stanley Adam Jonas SpaceX Analysis Up to 2028 or 2030", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Waymo", headline: "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $91 million to scale rocket engine technology", source: "SpaceNews", time: "17h ago", impact: "high", unread: false },
-  { id: 12, type: "funding", company: "Scale AI", headline: "Polysense raises $10.7M to scale AI quality control for food manufacturers", source: "Tech.eu", time: "18h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "Free Waymo Rides in California? You Can Thank a Regulatory Quirk", source: "Wired", time: "20h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Impulse Space", headline: "Space Force adds Relativity, Impulse Space to national security launch program", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "D-Orbit", headline: "D-Orbit signs launch-services contract with ArkEdge Space", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "QuantumDiamonds", headline: "Chip testing startup QuantumDiamonds raises '15M in equity funding", source: "Tech.eu", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "QuantumDiamonds", headline: "World Fund, IQ Capital among backers of '91m QuantumDiamonds round", source: "Sifted", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo Hits Summer Break With Coast-to-Coast Expansion", source: "CleanTechnica", time: "6h ago", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "Anthropic", headline: "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quarter of the COST", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "This Robotaxi Company Is Growing Its Share Of US Market ' Not Waymo, Not Tesla", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Hugging Face", headline: "NVIDIA and Hugging Face bring new models and frameworks to LeRobot", source: "The Robot Report", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "ispace to send larger payloads to the moon on SpaceX's Starship", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "QuantumDiamonds", headline: "With EU backing, QuantumDiamonds aims to speed up chip manufacturing", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI releases new voice models for more natural live conversations", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "BOMBSHELLS In Morgan Stanley Adam Jonas SpaceX Analysis Up to 2028 or 2030", source: "Next Big Future", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Waymo", headline: "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $91 million to scale rocket engine technology", source: "SpaceNews", time: "20h ago", impact: "high", unread: false },
+  { id: 13, type: "funding", company: "Scale AI", headline: "Polysense raises $10.7M to scale AI quality control for food manufacturers", source: "Tech.eu", time: "22h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Waymo", headline: "Free Waymo Rides in California? You Can Thank a Regulatory Quirk", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Impulse Space", headline: "Space Force adds Relativity, Impulse Space to national security launch program", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
