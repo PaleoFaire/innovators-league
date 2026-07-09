@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T12:12:41.249376+00:00",
+  "generatedAt": "2026-07-09T16:06:33.842651+00:00",
   "date": "2026-07-09",
   "dateDisplay": "Thursday, July 09, 2026",
   "sections": {
@@ -70,60 +70,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 17.02,
-        "changePercent": -20.43,
-        "change": -4.37
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 393.16,
-        "changePercent": -18.6,
-        "change": -89.86
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 4.63,
+        "changePercent": -16.34,
+        "change": -0.91
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 83.35,
-        "changePercent": -18.0,
-        "change": -18.3
+        "price": 83.85,
+        "changePercent": -16.21,
+        "change": -16.22
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 4.73,
-        "changePercent": -17.31,
-        "change": -0.99
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 27.75,
-        "changePercent": -16.24,
-        "change": -5.38
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 17.03,
+        "changePercent": -15.69,
+        "change": -3.17
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 74.95,
-        "changePercent": -15.65,
-        "change": -13.91
+        "price": 73.73,
+        "changePercent": -14.37,
+        "change": -12.37
+      },
+      {
+        "ticker": "9348.T",
+        "company": "ispace",
+        "price": 508.0,
+        "changePercent": 12.89,
+        "change": 58.0
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 27.78,
+        "changePercent": -12.13,
+        "change": -3.83
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 45.08,
-        "changePercent": -15.36,
-        "change": -8.18
+        "price": 45.4,
+        "changePercent": -11.68,
+        "change": -6.0
       },
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 20.64,
-        "changePercent": -13.96,
-        "change": -3.35
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.25,
+        "changePercent": -11.53,
+        "change": -0.82
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LUNR -20.4%"
+    "topMover": "SATL -16.3%"
   }
 }

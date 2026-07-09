@@ -1,5 +1,69 @@
 [
   {
+    "title": "Anthropic’s new Claude feature is quietly selling you on AI",
+    "link": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
+    "description": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
+    "pubDate": "Thu, 09 Jul 2026 14:53:09 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
+    "link": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
+    "description": "Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000.",
+    "pubDate": "Thu, 09 Jul 2026 14:51:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "space",
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Beyond da Vinci: Why versatile humanoid robots are the next frontier in surgery",
+    "link": "https://www.therobotreport.com/beyond-da-vinci-why-versatile-humanoid-robots-are-next-frontier-surgery/",
+    "description": "For the first time, teleoperated humanoid robots successfully performed surgeries during a UC San Diego preclinical trial.\nThe post Beyond da Vinci: Why versatile humanoid robots are the next frontier in surgery appeared first on The Robot Report.",
+    "pubDate": "Thu, 09 Jul 2026 12:30:47 +0000",
+    "category": "Healthcare Robotics",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Humanoid",
+    "matchedCompanies": [
+      "Humanoid",
+      "Durin",
+      "Xtend"
+    ],
+    "sectors": [
+      "robotics",
+      "infrastructure",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Blue Origin seeks to raise $10 billion in outside capital",
     "link": "https://spacenews.com/blue-origin-seeks-to-raise-10-billion-in-outside-capital/",
     "description": "\nBlue Origin is planning to raise $10 billion in the company’s first outside investment to support its ambitions in launch services and satellite constellations.\nThe post Blue Origin seeks to raise $10 billion in outside capital appeared first on SpaceNews.",
@@ -16,7 +80,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Chip testing startup QuantumDiamonds raises €15M in equity funding",
@@ -42,7 +106,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "World Fund, IQ Capital among backers of €91m QuantumDiamonds round",
@@ -61,7 +125,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "11h ago"
   },
   {
     "title": "Waymo Hits Summer Break With Coast-to-Coast Expansion",
@@ -82,7 +146,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "10h ago"
+    "time": "13h ago"
   },
   {
     "title": "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quarter of the COST",
@@ -104,7 +168,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "11h ago"
+    "time": "15h ago"
   },
   {
     "title": "This Robotaxi Company Is Growing Its Share Of US Market — Not Waymo, Not Tesla",
@@ -127,7 +191,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "12h ago"
+    "time": "16h ago"
   },
   {
     "title": "NVIDIA and Hugging Face bring new models and frameworks to LeRobot",
@@ -146,7 +210,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "ispace to send larger payloads to the moon on SpaceX’s Starship",
@@ -166,7 +230,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing",
@@ -194,25 +258,6 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "15h ago"
-  },
-  {
-    "title": "OpenAI releases new voice models for more natural live conversations",
-    "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
-    "description": "OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation.",
-    "pubDate": "Wed, 08 Jul 2026 17:00:00 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "19h ago"
   },
   {
@@ -232,7 +277,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
+    "time": "23h ago"
   },
   {
     "title": "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;",
@@ -251,7 +296,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Venus Aerospace raises $91 million to scale rocket engine technology",
@@ -427,7 +472,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "SpaceX Files with FCC for 100,000 V3 Satellite Constellation to 100X Bandwidth",
@@ -446,7 +491,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Ex-Tesla Optimus scientist unveils European humanoid robot startup",
@@ -470,7 +515,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Tesollo initiates IPO process while developing humanoid hands",
@@ -489,7 +534,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Download: your stake in OpenAI, and the Treasury&#8217;s AI warning",
@@ -524,31 +569,6 @@
     ],
     "sectors": [
       "space"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Isar Aerospace signs agreement for Canadian launch site",
-    "link": "https://spacenews.com/isar-aerospace-signs-agreement-for-canadian-launch-site/",
-    "description": "\nIsar Aerospace has signed a contract to develop a Canadian launch site for its Spectrum rocket, an agreement linked to a deal to sell submarines to the Canadian military.\nThe post Isar Aerospace signs agreement for Canadian launch site appeared first on SpaceNews.",
-    "pubDate": "Tue, 07 Jul 2026 08:00:00 +0000",
-    "category": "Launch",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Isar Aerospace",
-    "matchedCompanies": [
-      "Isar Aerospace",
-      "Hadrian",
-      "AnySignal",
-      "Elodin",
-      "Orbital Composites"
-    ],
-    "sectors": [
-      "space",
-      "robotics",
-      "infrastructure"
     ],
     "type": "contract",
     "impact": "low",
@@ -593,27 +613,6 @@
     "time": "2d ago"
   },
   {
-    "title": "Blue Origin continues work on lunar landers during recovery from New Glenn explosion",
-    "link": "https://spacenews.com/blue-origin-continues-work-on-lunar-landers-during-recovery-from-new-glenn-explosion/",
-    "description": "\nBlue Origin is continuing to develop its Blue Moon lunar landers, with seven vehicles in production, while recovering from the New Glenn pad explosion more than a month ago.\nThe post Blue Origin continues work on lunar landers during recovery from New Glenn explosion appeared first on SpaceNews.",
-    "pubDate": "Mon, 06 Jul 2026 20:09:47 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Blue Origin",
-    "matchedCompanies": [
-      "Blue Origin",
-      "Durin"
-    ],
-    "sectors": [
-      "space",
-      "infrastructure"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "Your family&#8217;s $300 stake in OpenAI",
     "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
     "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial ",
@@ -629,28 +628,6 @@
       "ai"
     ],
     "type": "hire",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "SpaceX Share Price Catalysts",
-    "link": "https://www.nextbigfuture.com/2026/07/spacex-share-price-catalysts.html",
-    "description": "SpaceX will be able to shape its valuation with key execution on building out and monetizing AI data centers and executing on Starship and V3 satellite deployment.",
-    "pubDate": "Mon, 06 Jul 2026 17:48:07 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Crusoe Energy",
-      "D-Orbit"
-    ],
-    "sectors": [
-      "space",
-      "ai"
-    ],
-    "type": "funding",
     "impact": "low",
     "time": "2d ago"
   },
@@ -680,7 +657,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Rocket Report: Indian startup nears first launch; SpaceX&#039;s millenary milestone",
@@ -699,25 +676,6 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "5d ago"
-  },
-  {
-    "title": "Why you should combine robot dexterity with mechanical positioning for complex assembly operations",
-    "link": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
-    "description": "Experts are recognizing the importance of mechanical positioning and its impact on the machine’s mobility, range and speed.\nThe post Why you should combine robot dexterity with mechanical positioning for complex assembly operations appeared first on The Robot Report.",
-    "pubDate": "Thu, 02 Jul 2026 12:36:09 +0000",
-    "category": "Arms / Manipulators",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Dexterity",
-    "matchedCompanies": [
-      "Dexterity"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "6d ago"
   },
   {
@@ -737,7 +695,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "6d ago"
+    "time": "7/2/2026"
   },
   {
     "title": "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence",
