@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T08:36:12.199702Z",
+  "generated_at": "2026-07-09T09:48:51.068312Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -10,6 +10,26 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone",
       "signal_type": "ipo"
+    },
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "Venus Aerospace",
+      "text": "Venus Aerospace raises $91 million to scale rocket engine technology",
+      "date": "Wed, 08 Ju",
+      "source": "news",
+      "source_url": "https://spacenews.com/venus-aerospace-raises-91-million-to-scale-rocket-engine-technology/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "Tech.eu",
+      "role": "Industry signal",
+      "company": "Scale AI",
+      "text": "Polysense raises $10.7M to scale AI quality control for food manufacturers",
+      "date": "Wed, 08 Ju",
+      "source": "news",
+      "source_url": "https://tech.eu/2026/07/08/polysense-raises-107m-to-scale-ai-quality-control-for-food-manufacturers/",
+      "signal_type": "funding"
     },
     {
       "author": "Canary Media",
@@ -55,7 +75,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 7,
     "from_press": 0
   }
 }

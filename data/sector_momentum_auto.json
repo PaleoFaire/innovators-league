@@ -15,77 +15,78 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Robotics & Manufacturing",
+    "momentum": 60,
+    "trend": "accelerating",
+    "catalysts": [
+      "Waymo Hits Summer Break With Coast-to-Coast Expansion",
+      "This Robotaxi Company Is Growing Its Share Of US Market \u2014 No",
+      "NVIDIA and Hugging Face bring new models and frameworks to L"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 60,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-09"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 55,
+    "trend": "accelerating",
+    "catalysts": [
+      "Waymo Hits Summer Break With Coast-to-Coast Expansion",
+      "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quart",
+      "ispace to send larger payloads to the moon on SpaceX\u2019s Stars"
+    ],
+    "fundingQ": "$266.3B",
+    "components": {
+      "funding": 100,
+      "news": 80,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-09"
+  },
+  {
+    "sector": "AI & Software",
     "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Ex-Tesla Optimus scientist unveils European humanoid robot s",
-      "Tesollo initiates IPO process while developing humanoid hand",
-      "Kraken Robotics acquires Covelya Group for $615M"
+      "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quart",
+      "OpenAI releases new voice models for more natural live conve",
+      "Polysense raises $10.7M to scale AI quality control for food"
     ],
-    "fundingQ": "$27.0B",
+    "fundingQ": "$195.7B",
     "components": {
       "funding": 100,
       "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "OpenAI\u2019s Chief Futurist Is Leaving the Company",
-      "Why the rise of open source AI isn&#8217;t hurting Anthropic",
-      "The Download: your stake in OpenAI, and the Treasury&#8217;s"
-    ],
-    "fundingQ": "$195.7B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 50,
-    "trend": "accelerating",
-    "catalysts": [
-      "Space Force adds Relativity, Impulse Space to national secur",
-      "D-Orbit signs launch-services contract with ArkEdge Space",
-      "More Pentagon Satellite Contracts for SpaceX and New Cursor"
-    ],
-    "fundingQ": "$266.2B",
-    "components": {
-      "funding": 100,
-      "news": 60,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 46,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
+      "Venus Aerospace raises $91 million to scale rocket engine te",
       "Why you should combine robot dexterity with mechanical posit"
     ],
-    "fundingQ": "$1.8B",
+    "fundingQ": "$1.9B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,7 +102,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Nuclear Energy",
@@ -119,7 +120,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Climate & Energy",
@@ -136,42 +137,43 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 28,
-    "trend": "rising",
+    "momentum": 32,
+    "trend": "steady",
     "catalysts": [
-      "Space Force adds Relativity, Impulse Space to national secur",
-      "D-Orbit signs launch-services contract with ArkEdge Space",
-      "OpenAI\u2019s Chief Futurist Is Leaving the Company"
+      "This Robotaxi Company Is Growing Its Share Of US Market \u2014 No",
+      "NVIDIA and Hugging Face bring new models and frameworks to L",
+      "ispace to send larger payloads to the moon on SpaceX\u2019s Stars"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 70,
+      "news": 90,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 20,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;",
       "SpaceX Files with FCC for 100,000 V3 Satellite Constellation",
       "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
-      "market": 86
+      "market": 51
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Housing & Construction",
@@ -188,7 +190,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -204,7 +206,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Drones & Autonomous",
@@ -220,11 +222,47 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 6,
+    "trend": "declining",
+    "catalysts": [
+      "Chip testing startup QuantumDiamonds raises \u20ac15M in equity f",
+      "NVIDIA and Hugging Face bring new models and frameworks to L",
+      "With EU backing, QuantumDiamonds aims to speed up chip manuf"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-09"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Chip testing startup QuantumDiamonds raises \u20ac15M in equity f",
+      "World Fund, IQ Capital among backers of \u20ac91m QuantumDiamonds",
+      "With EU backing, QuantumDiamonds aims to speed up chip manuf"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-09"
   },
   {
     "sector": "Transportation",
-    "momentum": 10,
+    "momentum": 3,
     "trend": "declining",
     "catalysts": [
       "Rivian tops Q2 delivery numbers and raises full-year 2026 ou"
@@ -234,41 +272,8 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 42
+      "market": 8
     },
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "Ex-Tesla Optimus scientist unveils European humanoid robot s",
-      "Korea&#8217;s LG Innotek to begin building $1B semiconductor"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-09"
   }
 ]
