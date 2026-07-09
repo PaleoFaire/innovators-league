@@ -71357,23 +71357,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-09 21:36
+// Last updated: 2026-07-09 23:19
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Anthropic", headline: "Anthropic found a hidden space where Claude puzzles over concepts", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "New York Times says OpenAI hid evidence in ChatGPT copyright trial", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic Wants You to Pay Up for Claude Fable 5", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "How did the government decide OpenAI's frontier model was safe to release?", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Secretly Controls 45% of World's Best AI Chips. Tripling Over the Next 12 Months", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "New bill would ban Tesla's camera-only Robotaxi, not Waymo", source: "Electrek", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic's new Claude feature is quietly selling you on AI", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Humanoid", headline: "Beyond da Vinci: Why versatile humanoid robots are the next frontier in surgery", source: "The Robot Report", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Blue Origin", headline: "Blue Origin seeks to raise $10 billion in outside capital", source: "SpaceNews", time: "9h ago", impact: "high", unread: false },
-  { id: 11, type: "funding", company: "QuantumDiamonds", headline: "Chip testing startup QuantumDiamonds raises '15M in equity funding", source: "Tech.eu", time: "14h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "QuantumDiamonds", headline: "World Fund, IQ Capital among backers of '91m QuantumDiamonds round", source: "Sifted", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Waymo", headline: "Waymo Hits Summer Break With Coast-to-Coast Expansion", source: "CleanTechnica", time: "19h ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "Anthropic", headline: "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quarter of the COST", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "This Robotaxi Company Is Growing Its Share Of US Market ' Not Waymo, Not Tesla", source: "CleanTechnica", time: "22h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI launches its new family of models with GPT-5.6", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Anthropic", headline: "Elon Musk praises Mythos/Fable, promises not to 'cut off' Anthropic", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Anthropic", headline: "Anthropic found a hidden space where Claude puzzles over concepts", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "New York Times says OpenAI hid evidence in ChatGPT copyright trial", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic Wants You to Pay Up for Claude Fable 5", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "How did the government decide OpenAI's frontier model was safe to release?", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Secretly Controls 45% of World's Best AI Chips. Tripling Over the Next 12 Months", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Waymo", headline: "New bill would ban Tesla's camera-only Robotaxi, not Waymo", source: "Electrek", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic's new Claude feature is quietly selling you on AI", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Humanoid", headline: "Beyond da Vinci: Why versatile humanoid robots are the next frontier in surgery", source: "The Robot Report", time: "10h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Blue Origin", headline: "Blue Origin seeks to raise $10 billion in outside capital", source: "SpaceNews", time: "11h ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "QuantumDiamonds", headline: "Chip testing startup QuantumDiamonds raises '15M in equity funding", source: "Tech.eu", time: "16h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "QuantumDiamonds", headline: "World Fund, IQ Capital among backers of '91m QuantumDiamonds round", source: "Sifted", time: "18h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
