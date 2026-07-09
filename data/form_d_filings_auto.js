@@ -1,13 +1,64 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-07-08 09:33:58 UTC
-// Total: 8 filings across 8 companies
+// Last updated: 2026-07-09 10:41:20 UTC
+// Total: 9 filings across 8 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-07-08T09:33:58.234144+00:00",
+  "generated_at": "2026-07-09T10:41:20.644893+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 8,
+  "total_filings": 9,
   "filings": [
+    {
+      "company": "Helios",
+      "issuer_name": "Helios Coreshell Partners III, LLC",
+      "form": "D",
+      "filed_date": "2026-07-08",
+      "cik": "2144353",
+      "accession": "0002144353-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002144353&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002144353-26-000001",
+      "offering_amount": "1927500",
+      "amount_sold": "1927500",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Helios",
+      "issuer_name": "Helios Ridge Fund 1, LLC",
+      "form": "D",
+      "filed_date": "2026-07-08",
+      "cik": "2140141",
+      "accession": "0002140141-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002140141&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002140141-26-000001",
+      "offering_amount": "500000",
+      "amount_sold": "250000",
+      "amount_remaining": "250000",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Firefly Aerospace",
+      "issuer_name": "Firefly Aerospace Inc.  (FLY)",
+      "form": "D",
+      "filed_date": "2026-07-08",
+      "cik": "1860160",
+      "accession": "0001193125-26-298515",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001860160&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001193125-26-298515",
+      "offering_amount": "22000000",
+      "amount_sold": "22000000",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Divergent",
       "issuer_name": "Divergent April 2026 a Series of CGF2021 LLC",
@@ -106,40 +157,6 @@ const FORM_D_FILINGS = {
       "amount_sold": "0",
       "amount_remaining": "Indefinite",
       "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Cresilon",
-      "issuer_name": "Cresilon, Inc",
-      "form": "D",
-      "filed_date": "2026-06-26",
-      "cik": "1728054",
-      "accession": "0001728054-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001728054&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001728054-26-000002",
-      "offering_amount": "29000000",
-      "amount_sold": "28999199",
-      "amount_remaining": "801",
-      "securities_type": "Debt",
-      "exemption": "06c",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Starcloud",
-      "issuer_name": "Starcloud Space May 2026 a Series of CGF2021 LLC",
-      "form": "D",
-      "filed_date": "2026-06-25",
-      "cik": "2134571",
-      "accession": "0002134571-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134571&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002134571-26-000001",
-      "offering_amount": "230000",
-      "amount_sold": "230000",
-      "amount_remaining": "0",
-      "securities_type": "",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false

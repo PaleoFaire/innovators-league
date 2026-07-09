@@ -72,12 +72,21 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-14",
+    "date": "2026-07-15",
     "vehicle": "Starship | Flight 13",
     "payload": "Flight 13",
     "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-16",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
+    "payload": "SDA Tranche 1 Transport Layer E",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d9adedc4-8fa1-4a36-84f9-43b8893a6865/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -289,15 +298,6 @@
   },
   {
     "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-    "payload": "5x Astranis MicroGEO",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d373ca659/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-30",
     "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
     "payload": "SDA Tranche 1 Tracking Layer A",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -339,15 +339,6 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/4541ce85-0e38-42ac-a9a0-20474bb5f2cd/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
-    "payload": "SDA Tranche 1 Transport Layer E",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d9adedc4-8fa1-4a36-84f9-43b8893a6865/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -448,5 +439,14 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
     "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+    "payload": "Transporter 18 (Dedicated SSO Rideshare)",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/67213393-7983-4c06-8b44-b8c785a5ed79/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]
