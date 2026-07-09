@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 13.16,
+      "avg_change": 13.33,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -14.07,
+      "avg_change": -14.5,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -5.18,
+      "avg_change": -4.64,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.95,
+      "avg_change": -10.87,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.74,
+      "avg_change": -11.06,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.05,
+      "avg_change": -13.91,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.24,
+      "avg_change": -4.13,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.96,
+      "avg_change": -5.14,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -9.14,
+      "avg_change": -9.17,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "PLTR",
       "Palantir",
-      13.16
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      2.49
+      13.33
     ],
     [
       "ACHR",
       "Archer Aviation",
-      2.43
+      2.33
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      2.01
     ],
     [
       "IDEAFORGE.NS",
@@ -81,35 +81,35 @@
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      0.95
+      1.36
     ]
   ],
   "topLosers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -17.44
+      "PL",
+      "Planet Labs",
+      -16.24
     ],
     [
       "SATL",
       "Satellogic",
-      -18.09
+      -17.31
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -18.28
+      -18.0
     ],
     [
       "ALAB",
       "Astera Labs",
-      -18.66
+      -18.6
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -20.73
+      -20.43
     ]
   ],
-  "lastUpdated": "2026-07-08 19:38:20"
+  "lastUpdated": "2026-07-09 03:37:20"
 }
