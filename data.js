@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-07-08";
+const LAST_UPDATED = "2026-07-09";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -71041,23 +71041,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-08 22:13
+// Last updated: 2026-07-09 00:18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "ispace to send larger payloads to the moon on SpaceX's Starship", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "QuantumDiamonds", headline: "With EU backing, QuantumDiamonds aims to speed up chip manufacturing", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI releases new voice models for more natural live conversations", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "BOMBSHELLS In Morgan Stanley Adam Jonas SpaceX Analysis Up to 2028 or 2030", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $90M Series B to build a new kind of rocket engine", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $91 million to scale rocket engine technology", source: "SpaceNews", time: "10h ago", impact: "high", unread: false },
-  { id: 8, type: "funding", company: "Scale AI", headline: "Polysense raises $10.7M to scale AI quality control for food manufacturers", source: "Tech.eu", time: "12h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "Free Waymo Rides in California? You Can Thank a Regulatory Quirk", source: "Wired", time: "13h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Impulse Space", headline: "Space Force adds Relativity, Impulse Space to national security launch program", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "D-Orbit", headline: "D-Orbit signs launch-services contract with ArkEdge Space", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "SpaceX", headline: "More Pentagon Satellite Contracts for SpaceX and New Cursor Model Tomorrow", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI's Chief Futurist Is Leaving the Company", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "funding", company: "SpaceX", headline: "SpaceX launches Transporter-17 amid concerns about rideshare program's future", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "This Robotaxi Company Is Growing Its Share Of US Market ' Not Waymo, Not Tesla", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Hugging Face", headline: "NVIDIA and Hugging Face bring new models and frameworks to LeRobot", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "ispace to send larger payloads to the moon on SpaceX's Starship", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "QuantumDiamonds", headline: "With EU backing, QuantumDiamonds aims to speed up chip manufacturing", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI releases new voice models for more natural live conversations", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "BOMBSHELLS In Morgan Stanley Adam Jonas SpaceX Analysis Up to 2028 or 2030", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Venus Aerospace", headline: "Venus Aerospace raises $91 million to scale rocket engine technology", source: "SpaceNews", time: "12h ago", impact: "high", unread: false },
+  { id: 9, type: "funding", company: "Scale AI", headline: "Polysense raises $10.7M to scale AI quality control for food manufacturers", source: "Tech.eu", time: "14h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Waymo", headline: "Free Waymo Rides in California? You Can Thank a Regulatory Quirk", source: "Wired", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Impulse Space", headline: "Space Force adds Relativity, Impulse Space to national security launch program", source: "SpaceNews", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "D-Orbit", headline: "D-Orbit signs launch-services contract with ArkEdge Space", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "SpaceX", headline: "More Pentagon Satellite Contracts for SpaceX and New Cursor Model Tomorrow", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI's Chief Futurist Is Leaving the Company", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
