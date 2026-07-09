@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T16:06:46+00:00",
+  "generatedAt": "2026-07-09T18:06:14+00:00",
   "prices": {
     "ABB": {
       "ticker": "ABB",
@@ -9,156 +9,156 @@
     "ALB": {
       "ticker": "ALB",
       "name": "Albemarle Corporation",
-      "price": 128.58,
+      "price": 128.48,
       "currency": "USD",
-      "marketCap": 15164037641.524796,
-      "ytdReturn": -0.1021,
-      "y1Return": 0.841,
+      "marketCap": 15152243456.60881,
+      "ytdReturn": -0.1028,
+      "y1Return": 0.8395,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:49+00:00"
+      "lastUpdated": "2026-07-09T18:06:15+00:00"
     },
     "AMAT": {
       "ticker": "AMAT",
       "name": "Applied Materials, Inc.",
-      "price": 607.7,
+      "price": 598.525,
       "currency": "USD",
-      "marketCap": 482489155302.8876,
-      "ytdReturn": 1.2658,
-      "y1Return": 2.133,
+      "marketCap": 475204587224.52515,
+      "ytdReturn": 1.2316,
+      "y1Return": 2.0857,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:49+00:00"
+      "lastUpdated": "2026-07-09T18:06:15+00:00"
     },
     "AMPX": {
       "ticker": "AMPX",
       "name": "Amprius Technologies, Inc.",
-      "price": 11.93,
+      "price": 11.84,
       "currency": "USD",
-      "marketCap": 1689612181.3211823,
-      "ytdReturn": 0.365,
-      "y1Return": 1.0017,
+      "marketCap": 1676865714.4105911,
+      "ytdReturn": 0.3547,
+      "y1Return": 0.9866,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:50+00:00"
+      "lastUpdated": "2026-07-09T18:06:16+00:00"
     },
     "AMZN": {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 241.5,
+      "price": 244.05,
       "currency": "USD",
-      "marketCap": 2597841928794.0,
-      "ytdReturn": 0.0662,
-      "y1Return": 0.0852,
+      "marketCap": 2625272590683.8926,
+      "ytdReturn": 0.0775,
+      "y1Return": 0.0967,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:50+00:00"
+      "lastUpdated": "2026-07-09T18:06:16+00:00"
     },
     "ARKX": {
       "ticker": "ARKX",
       "name": "ARK Space & Defense Innovation ",
-      "price": 32.41,
+      "price": 32.46,
       "currency": "USD",
       "marketCap": null,
-      "ytdReturn": 0.0796,
-      "y1Return": 0.3337,
+      "ytdReturn": 0.0813,
+      "y1Return": 0.3358,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:51+00:00"
+      "lastUpdated": "2026-07-09T18:06:17+00:00"
     },
     "ASML": {
       "ticker": "ASML",
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1836.99,
+      "price": 1826.84,
       "currency": "USD",
-      "marketCap": 708008392664.5056,
-      "ytdReturn": 0.584,
-      "y1Return": 1.3147,
+      "marketCap": 704096393955.1447,
+      "ytdReturn": 0.5753,
+      "y1Return": 1.3019,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:52+00:00"
+      "lastUpdated": "2026-07-09T18:06:17+00:00"
     },
     "ASTS": {
       "ticker": "ASTS",
       "name": "AST SpaceMobile, Inc.",
-      "price": 73.4301,
+      "price": 73.23,
       "currency": "USD",
-      "marketCap": 21936976625.16243,
-      "ytdReturn": -0.1203,
-      "y1Return": 0.7278,
+      "marketCap": 21877198629.96177,
+      "ytdReturn": -0.1227,
+      "y1Return": 0.7231,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:53+00:00"
+      "lastUpdated": "2026-07-09T18:06:17+00:00"
     },
     "AVAV": {
       "ticker": "AVAV",
       "name": "AeroVironment, Inc.",
-      "price": 149.5,
+      "price": 151.32,
       "currency": "USD",
-      "marketCap": 7565900485.0,
-      "ytdReturn": -0.4164,
-      "y1Return": -0.3686,
+      "marketCap": 7658007470.264282,
+      "ytdReturn": -0.4093,
+      "y1Return": -0.3609,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:54+00:00"
+      "lastUpdated": "2026-07-09T18:06:18+00:00"
     },
     "AVGO": {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 400.92,
+      "price": 405.79,
       "currency": "USD",
-      "marketCap": 1907409116865.683,
-      "ytdReturn": 0.1576,
-      "y1Return": 0.4532,
+      "marketCap": 1930578509199.571,
+      "ytdReturn": 0.1716,
+      "y1Return": 0.4709,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:54+00:00"
+      "lastUpdated": "2026-07-09T18:06:18+00:00"
     },
     "BA": {
       "ticker": "BA",
       "name": "Boeing Company (The)",
-      "price": 223.652,
+      "price": 223.78,
       "currency": "USD",
-      "marketCap": 176305387255.3416,
-      "ytdReturn": -0.0181,
-      "y1Return": -0.013,
+      "marketCap": 176406294668.89688,
+      "ytdReturn": -0.0175,
+      "y1Return": -0.0124,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:55+00:00"
+      "lastUpdated": "2026-07-09T18:06:19+00:00"
     },
     "BAESY": {
       "ticker": "BAESY",
       "name": "BAE Systems PLC",
-      "price": 98.72,
+      "price": 98.86,
       "currency": "USD",
-      "marketCap": 72367330677.24426,
-      "ytdReturn": 0.0362,
-      "y1Return": -0.0275,
+      "marketCap": 72469958128.62213,
+      "ytdReturn": 0.0376,
+      "y1Return": -0.0261,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:56+00:00"
+      "lastUpdated": "2026-07-09T18:06:19+00:00"
     },
     "BE": {
       "ticker": "BE",
       "name": "Bloom Energy Corporation",
-      "price": 264.82,
+      "price": 265.225,
       "currency": "USD",
-      "marketCap": 75326427207.08911,
-      "ytdReturn": 1.6834,
-      "y1Return": 8.224,
+      "marketCap": 75441626626.4076,
+      "ytdReturn": 1.6875,
+      "y1Return": 8.2381,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:56+00:00"
+      "lastUpdated": "2026-07-09T18:06:20+00:00"
     },
     "BOTZ": {
       "ticker": "BOTZ",
       "name": "Global X Robotics & Artificial ",
-      "price": 36.605,
+      "price": 36.665,
       "currency": "USD",
       "marketCap": null,
-      "ytdReturn": -0.0024,
-      "y1Return": 0.1224,
+      "ytdReturn": -0.0007,
+      "y1Return": 0.1243,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:57+00:00"
+      "lastUpdated": "2026-07-09T18:06:20+00:00"
     },
     "BWXT": {
       "ticker": "BWXT",
       "name": "BWX Technologies, Inc.",
-      "price": 188.6,
+      "price": 188.73,
       "currency": "USD",
-      "marketCap": 17278523360.57144,
-      "ytdReturn": 0.0399,
-      "y1Return": 0.3787,
+      "marketCap": 17290432314.34999,
+      "ytdReturn": 0.0407,
+      "y1Return": 0.3797,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:57+00:00"
+      "lastUpdated": "2026-07-09T18:06:20+00:00"
     },
     "CCJ": {
       "ticker": "CCJ",
@@ -169,106 +169,106 @@
       "ytdReturn": -0.0212,
       "y1Return": 0.3509,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:58+00:00"
+      "lastUpdated": "2026-07-09T18:06:21+00:00"
     },
     "CEG": {
       "ticker": "CEG",
       "name": "Constellation Energy Corporatio",
-      "price": 248.68,
+      "price": 250.06,
       "currency": "USD",
-      "marketCap": 88804126972.06671,
-      "ytdReturn": -0.319,
-      "y1Return": -0.2117,
+      "marketCap": 89296929499.1889,
+      "ytdReturn": -0.3153,
+      "y1Return": -0.2073,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:59+00:00"
+      "lastUpdated": "2026-07-09T18:06:21+00:00"
     },
     "DE": {
       "ticker": "DE",
       "name": "Deere & Company",
-      "price": 600.945,
+      "price": 595.345,
       "currency": "USD",
-      "marketCap": 162217547843.70575,
-      "ytdReturn": 0.2945,
-      "y1Return": 0.1947,
+      "marketCap": 160807011888.99072,
+      "ytdReturn": 0.2824,
+      "y1Return": 0.1835,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:06:59+00:00"
+      "lastUpdated": "2026-07-09T18:06:22+00:00"
     },
     "DNN": {
       "ticker": "DNN",
       "name": "Denison Mines Corp",
-      "price": 3.18,
+      "price": 3.175,
       "currency": "USD",
-      "marketCap": 2877953999.5764003,
-      "ytdReturn": 0.0495,
-      "y1Return": 0.8817,
+      "marketCap": 2873428811.1954284,
+      "ytdReturn": 0.0479,
+      "y1Return": 0.8787,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:00+00:00"
+      "lastUpdated": "2026-07-09T18:06:22+00:00"
     },
     "EMR": {
       "ticker": "EMR",
       "name": "Emerson Electric Company",
-      "price": 139.0,
+      "price": 139.03,
       "currency": "USD",
-      "marketCap": 77853900000.0,
-      "ytdReturn": 0.0315,
-      "y1Return": 0.0105,
+      "marketCap": 77870702316.28418,
+      "ytdReturn": 0.0317,
+      "y1Return": 0.0107,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:01+00:00"
+      "lastUpdated": "2026-07-09T18:06:23+00:00"
     },
     "ENPH": {
       "ticker": "ENPH",
       "name": "Enphase Energy, Inc.",
-      "price": 45.19,
+      "price": 45.06,
       "currency": "USD",
-      "marketCap": 5955961380.802689,
-      "ytdReturn": 0.339,
-      "y1Return": 0.0546,
+      "marketCap": 5938827974.197311,
+      "ytdReturn": 0.3351,
+      "y1Return": 0.0516,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:01+00:00"
+      "lastUpdated": "2026-07-09T18:06:23+00:00"
     },
     "ENVX": {
       "ticker": "ENVX",
       "name": "Enovix Corporation",
-      "price": 5.475,
+      "price": 5.385,
       "currency": "USD",
-      "marketCap": 1194390063.1952667,
-      "ytdReturn": -0.3061,
-      "y1Return": -0.6009,
+      "marketCap": 1174756324.3313599,
+      "ytdReturn": -0.3175,
+      "y1Return": -0.6075,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:02+00:00"
+      "lastUpdated": "2026-07-09T18:06:23+00:00"
     },
     "EOSE": {
       "ticker": "EOSE",
       "name": "Eos Energy Enterprises, Inc.",
-      "price": 4.72,
+      "price": 4.61,
       "currency": "USD",
-      "marketCap": 1674665927.239553,
-      "ytdReturn": -0.6361,
-      "y1Return": 0.0129,
+      "marketCap": 1635637815.9611936,
+      "ytdReturn": -0.6446,
+      "y1Return": -0.0107,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:03+00:00"
+      "lastUpdated": "2026-07-09T18:06:24+00:00"
     },
     "FANUY": {
       "ticker": "FANUY",
       "name": "Fanuc Corporation",
-      "price": 21.5,
+      "price": 21.47,
       "currency": "USD",
-      "marketCap": 40125791807.0,
-      "ytdReturn": 0.0914,
-      "y1Return": 0.6513,
+      "marketCap": 40069801048.56258,
+      "ytdReturn": 0.0898,
+      "y1Return": 0.649,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:03+00:00"
+      "lastUpdated": "2026-07-09T18:06:24+00:00"
     },
     "FLNC": {
       "ticker": "FLNC",
       "name": "Fluence Energy, Inc.",
-      "price": 17.01,
+      "price": 16.855,
       "currency": "USD",
-      "marketCap": 2259123475.2981377,
-      "ytdReturn": -0.2608,
-      "y1Return": 0.9462,
+      "marketCap": 2238537603.1537247,
+      "ytdReturn": -0.2675,
+      "y1Return": 0.9285,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:04+00:00"
+      "lastUpdated": "2026-07-09T18:06:24+00:00"
     },
     "FREY": {
       "ticker": "FREY",
@@ -278,134 +278,134 @@
     "GD": {
       "ticker": "GD",
       "name": "General Dynamics Corporation",
-      "price": 371.91,
+      "price": 373.535,
       "currency": "USD",
-      "marketCap": 100575691837.51492,
-      "ytdReturn": 0.0973,
-      "y1Return": 0.2617,
+      "marketCap": 101015140891.38992,
+      "ytdReturn": 0.1021,
+      "y1Return": 0.2673,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:05+00:00"
+      "lastUpdated": "2026-07-09T18:06:26+00:00"
     },
     "GOOGL": {
       "ticker": "GOOGL",
       "name": "Alphabet Inc.",
-      "price": 353.05,
+      "price": 356.75,
       "currency": "USD",
-      "marketCap": 4308118294236.2583,
-      "ytdReturn": 0.1217,
-      "y1Return": 1.0046,
+      "marketCap": 4353267963770.75,
+      "ytdReturn": 0.1335,
+      "y1Return": 1.0256,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:06+00:00"
+      "lastUpdated": "2026-07-09T18:06:26+00:00"
     },
     "HEI": {
       "ticker": "HEI",
       "name": "Heico Corporation",
-      "price": 351.91,
+      "price": 353.3275,
       "currency": "USD",
-      "marketCap": 49147496680.51755,
-      "ytdReturn": 0.0694,
-      "y1Return": 0.1115,
+      "marketCap": 49345465240.00769,
+      "ytdReturn": 0.0737,
+      "y1Return": 0.1159,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:07+00:00"
+      "lastUpdated": "2026-07-09T18:06:27+00:00"
     },
     "INTU": {
       "ticker": "INTU",
       "name": "Intuit Inc.",
-      "price": 272.12,
+      "price": 271.365,
       "currency": "USD",
-      "marketCap": 74434887104.37012,
-      "ytdReturn": -0.5656,
-      "y1Return": -0.6435,
+      "marketCap": 74228365333.74023,
+      "ytdReturn": -0.5668,
+      "y1Return": -0.6445,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:07+00:00"
+      "lastUpdated": "2026-07-09T18:06:27+00:00"
     },
     "IRDM": {
       "ticker": "IRDM",
       "name": "Iridium Communications Inc",
-      "price": 51.065,
+      "price": 50.68,
       "currency": "USD",
-      "marketCap": 5410656884.171204,
-      "ytdReturn": 1.9019,
-      "y1Return": 0.6719,
+      "marketCap": 5369863897.295288,
+      "ytdReturn": 1.8801,
+      "y1Return": 0.6593,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:08+00:00"
+      "lastUpdated": "2026-07-09T18:06:27+00:00"
     },
     "ISRG": {
       "ticker": "ISRG",
       "name": "Intuitive Surgical, Inc.",
-      "price": 412.08,
+      "price": 413.155,
       "currency": "USD",
-      "marketCap": 145943419175.75543,
-      "ytdReturn": -0.2667,
-      "y1Return": -0.2197,
+      "marketCap": 146324148554.1823,
+      "ytdReturn": -0.2648,
+      "y1Return": -0.2177,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:09+00:00"
+      "lastUpdated": "2026-07-09T18:06:28+00:00"
     },
     "ITA": {
       "ticker": "ITA",
       "name": "iShares U.S. Aerospace & Defens",
-      "price": 240.21,
+      "price": 240.23,
       "currency": "USD",
       "marketCap": null,
-      "ytdReturn": 0.0834,
-      "y1Return": 0.278,
+      "ytdReturn": 0.0835,
+      "y1Return": 0.2781,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:09+00:00"
+      "lastUpdated": "2026-07-09T18:06:28+00:00"
     },
     "KLAC": {
       "ticker": "KLAC",
       "name": "KLA Corporation",
-      "price": 236.43,
+      "price": 232.535,
       "currency": "USD",
-      "marketCap": 308842638332.8546,
-      "ytdReturn": 0.8599,
-      "y1Return": 1.5775,
+      "marketCap": 303754710741.0727,
+      "ytdReturn": 0.8293,
+      "y1Return": 1.5351,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:10+00:00"
+      "lastUpdated": "2026-07-09T18:06:29+00:00"
     },
     "KTOS": {
       "ticker": "KTOS",
       "name": "Kratos Defense & Security Solut",
-      "price": 49.19,
+      "price": 49.135,
       "currency": "USD",
-      "marketCap": 9224107755.44049,
-      "ytdReturn": -0.3796,
-      "y1Return": 0.0689,
+      "marketCap": 9213794099.093933,
+      "ytdReturn": -0.3803,
+      "y1Return": 0.0677,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:11+00:00"
+      "lastUpdated": "2026-07-09T18:06:29+00:00"
     },
     "LAC": {
       "ticker": "LAC",
       "name": "Lithium Americas Corp.",
-      "price": 3.605,
+      "price": 3.595,
       "currency": "USD",
-      "marketCap": 1265580239.8859854,
-      "ytdReturn": -0.2442,
-      "y1Return": 0.3604,
+      "marketCap": 1262069618.453978,
+      "ytdReturn": -0.2463,
+      "y1Return": 0.3566,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:11+00:00"
+      "lastUpdated": "2026-07-09T18:06:30+00:00"
     },
     "LIT": {
       "ticker": "LIT",
       "name": "Global X Lithium & Battery Tech",
-      "price": 72.91,
+      "price": 73.0,
       "currency": "USD",
       "marketCap": null,
-      "ytdReturn": 0.1049,
-      "y1Return": 0.863,
+      "ytdReturn": 0.1063,
+      "y1Return": 0.8653,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:12+00:00"
+      "lastUpdated": "2026-07-09T18:06:30+00:00"
     },
     "LMT": {
       "ticker": "LMT",
       "name": "Lockheed Martin Corporation",
-      "price": 519.075,
+      "price": 517.87,
       "currency": "USD",
-      "marketCap": 119679807637.09717,
-      "ytdReturn": 0.0498,
-      "y1Return": 0.1437,
+      "marketCap": 119401974549.16113,
+      "ytdReturn": 0.0473,
+      "y1Return": 0.1411,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:13+00:00"
+      "lastUpdated": "2026-07-09T18:06:31+00:00"
     },
     "MAXR": {
       "ticker": "MAXR",
@@ -415,156 +415,156 @@
     "MBLY": {
       "ticker": "MBLY",
       "name": "Mobileye Global Inc.",
-      "price": 9.4,
+      "price": 9.525,
       "currency": "USD",
-      "marketCap": 7916549404.131483,
-      "ytdReturn": -0.163,
-      "y1Return": -0.4573,
+      "marketCap": 8021822671.756483,
+      "ytdReturn": -0.1518,
+      "y1Return": -0.4501,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:15+00:00"
+      "lastUpdated": "2026-07-09T18:06:32+00:00"
     },
     "META": {
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
-      "price": 610.635,
+      "price": 614.085,
       "currency": "USD",
-      "marketCap": 1550050139027.33,
-      "ytdReturn": -0.0595,
-      "y1Return": -0.164,
+      "marketCap": 1558807730412.7427,
+      "ytdReturn": -0.0542,
+      "y1Return": -0.1592,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:15+00:00"
+      "lastUpdated": "2026-07-09T18:06:32+00:00"
     },
     "MSFT": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 380.019,
+      "price": 381.01,
       "currency": "USD",
-      "marketCap": 2822946420272.0933,
-      "ytdReturn": -0.1929,
-      "y1Return": -0.2392,
+      "marketCap": 2830307979114.3477,
+      "ytdReturn": -0.1908,
+      "y1Return": -0.2372,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:16+00:00"
+      "lastUpdated": "2026-07-09T18:06:32+00:00"
     },
     "MU": {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "price": 1019.72,
+      "price": 1021.3851,
       "currency": "USD",
-      "marketCap": 1151664750850.03,
-      "ytdReturn": 2.2348,
-      "y1Return": 7.3553,
+      "marketCap": 1153545303496.0525,
+      "ytdReturn": 2.24,
+      "y1Return": 7.369,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:17+00:00"
+      "lastUpdated": "2026-07-09T18:06:33+00:00"
     },
     "NEE": {
       "ticker": "NEE",
       "name": "NextEra Energy, Inc.",
-      "price": 87.41,
+      "price": 87.18,
       "currency": "USD",
-      "marketCap": 182302771980.49493,
-      "ytdReturn": 0.0874,
-      "y1Return": 0.2123,
+      "marketCap": 181823075746.91626,
+      "ytdReturn": 0.0846,
+      "y1Return": 0.2091,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:18+00:00"
+      "lastUpdated": "2026-07-09T18:06:33+00:00"
     },
     "NNE": {
       "ticker": "NNE",
       "name": "Nano Nuclear Energy Inc.",
-      "price": 19.32,
+      "price": 19.28,
       "currency": "USD",
-      "marketCap": 1006994609.0936661,
-      "ytdReturn": -0.3003,
-      "y1Return": -0.4421,
+      "marketCap": 1004909785.7892513,
+      "ytdReturn": -0.3017,
+      "y1Return": -0.4433,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:18+00:00"
+      "lastUpdated": "2026-07-09T18:06:34+00:00"
     },
     "NOC": {
       "ticker": "NOC",
       "name": "Northrop Grumman Corporation",
-      "price": 530.59,
+      "price": 530.0001,
       "currency": "USD",
-      "marketCap": 75361545845.21558,
-      "ytdReturn": -0.0911,
-      "y1Return": 0.0563,
+      "marketCap": 75277759618.0708,
+      "ytdReturn": -0.0921,
+      "y1Return": 0.0551,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:19+00:00"
+      "lastUpdated": "2026-07-09T18:06:34+00:00"
     },
     "NVDA": {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 202.22,
+      "price": 203.3899,
       "currency": "USD",
-      "marketCap": 4897970649566.65,
-      "ytdReturn": 0.0709,
-      "y1Return": 0.2417,
+      "marketCap": 4926306588134.766,
+      "ytdReturn": 0.0771,
+      "y1Return": 0.2489,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:20+00:00"
+      "lastUpdated": "2026-07-09T18:06:35+00:00"
     },
     "OKLO": {
       "ticker": "OKLO",
       "name": "Oklo Inc.",
-      "price": 49.2,
+      "price": 49.07,
       "currency": "USD",
-      "marketCap": 8560356693.144588,
-      "ytdReturn": -0.3676,
-      "y1Return": -0.0877,
+      "marketCap": 8537737678.992165,
+      "ytdReturn": -0.3693,
+      "y1Return": -0.0901,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:20+00:00"
+      "lastUpdated": "2026-07-09T18:06:35+00:00"
     },
     "OXY": {
       "ticker": "OXY",
       "name": "Occidental Petroleum Corporatio",
-      "price": 52.21,
+      "price": 52.275,
       "currency": "USD",
-      "marketCap": 51929876828.594734,
-      "ytdReturn": 0.2435,
-      "y1Return": 0.1694,
+      "marketCap": 51994530512.46711,
+      "ytdReturn": 0.2451,
+      "y1Return": 0.1709,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:21+00:00"
+      "lastUpdated": "2026-07-09T18:06:36+00:00"
     },
     "PL": {
       "ticker": "PL",
       "name": "Planet Labs PBC",
-      "price": 27.7,
+      "price": 27.49,
       "currency": "USD",
-      "marketCap": 9872350242.113548,
-      "ytdReturn": 0.3572,
-      "y1Return": 3.0438,
+      "marketCap": 9797505358.165936,
+      "ytdReturn": 0.3469,
+      "y1Return": 3.0131,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:22+00:00"
+      "lastUpdated": "2026-07-09T18:06:36+00:00"
     },
     "PLTR": {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 126.59,
+      "price": 128.1,
       "currency": "USD",
-      "marketCap": 303475714389.2113,
-      "ytdReturn": -0.2459,
-      "y1Return": -0.1156,
+      "marketCap": 307095678885.7311,
+      "ytdReturn": -0.2369,
+      "y1Return": -0.105,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:22+00:00"
+      "lastUpdated": "2026-07-09T18:06:36+00:00"
     },
     "PLUG": {
       "ticker": "PLUG",
       "name": "Plug Power, Inc.",
-      "price": 2.4,
+      "price": 2.3999,
       "currency": "USD",
-      "marketCap": 3348165929.8441553,
+      "marketCap": 3348026233.481078,
       "ytdReturn": 0.0762,
       "y1Return": 0.3483,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:22+00:00"
+      "lastUpdated": "2026-07-09T18:06:37+00:00"
     },
     "QS": {
       "ticker": "QS",
       "name": "QuantumScape Corporation",
-      "price": 6.95,
+      "price": 7.0021,
       "currency": "USD",
-      "marketCap": 4275258160.870388,
-      "ytdReturn": -0.3716,
-      "y1Return": -0.1687,
+      "marketCap": 4307307331.027779,
+      "ytdReturn": -0.3669,
+      "y1Return": -0.1624,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:23+00:00"
+      "lastUpdated": "2026-07-09T18:06:37+00:00"
     },
     "RHM.DE": {
       "ticker": "RHM.DE",
@@ -575,161 +575,161 @@
       "ytdReturn": -0.3612,
       "y1Return": -0.45,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:24+00:00"
+      "lastUpdated": "2026-07-09T18:06:38+00:00"
     },
     "RKLB": {
       "ticker": "RKLB",
       "name": "Rocket Lab Corporation",
-      "price": 84.1101,
+      "price": 83.61,
       "currency": "USD",
-      "marketCap": 52553565311.96041,
-      "ytdReturn": 0.1069,
-      "y1Return": 1.149,
+      "marketCap": 52241093978.609085,
+      "ytdReturn": 0.1003,
+      "y1Return": 1.1362,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:24+00:00"
+      "lastUpdated": "2026-07-09T18:06:38+00:00"
     },
     "ROK": {
       "ticker": "ROK",
       "name": "Rockwell Automation, Inc.",
-      "price": 472.66,
+      "price": 472.145,
       "currency": "USD",
-      "marketCap": 52594747032.47739,
-      "ytdReturn": 0.1937,
-      "y1Return": 0.4088,
+      "marketCap": 52537439316.69284,
+      "ytdReturn": 0.1924,
+      "y1Return": 0.4072,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:25+00:00"
+      "lastUpdated": "2026-07-09T18:06:39+00:00"
     },
     "RTX": {
       "ticker": "RTX",
       "name": "RTX Corporation",
-      "price": 194.62,
+      "price": 194.955,
       "currency": "USD",
-      "marketCap": 262091522181.75732,
-      "ytdReturn": 0.0472,
-      "y1Return": 0.3526,
+      "marketCap": 262542670171.591,
+      "ytdReturn": 0.049,
+      "y1Return": 0.3549,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:26+00:00"
+      "lastUpdated": "2026-07-09T18:06:39+00:00"
     },
     "SMR": {
       "ticker": "SMR",
       "name": "NuScale Power Corporation",
-      "price": 9.128,
+      "price": 9.16,
       "currency": "USD",
-      "marketCap": 3159253695.259638,
-      "ytdReturn": -0.4403,
-      "y1Return": -0.7426,
+      "marketCap": 3170328937.7884483,
+      "ytdReturn": -0.4384,
+      "y1Return": -0.7417,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:26+00:00"
+      "lastUpdated": "2026-07-09T18:06:39+00:00"
     },
     "SOXX": {
       "ticker": "SOXX",
       "name": "iShares PHLX SOX Semiconductor ",
-      "price": 592.3,
+      "price": 589.125,
       "currency": "USD",
       "marketCap": null,
-      "ytdReturn": 0.8902,
-      "y1Return": 1.4376,
+      "ytdReturn": 0.8801,
+      "y1Return": 1.4245,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:27+00:00"
+      "lastUpdated": "2026-07-09T18:06:40+00:00"
     },
     "SPCE": {
       "ticker": "SPCE",
       "name": "Virgin Galactic Holdings, Inc.",
-      "price": 2.6998,
+      "price": 2.635,
       "currency": "USD",
-      "marketCap": 347024936.908257,
-      "ytdReturn": -0.1794,
-      "y1Return": -0.0722,
+      "marketCap": 338695718.399173,
+      "ytdReturn": -0.1991,
+      "y1Return": -0.0945,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:28+00:00"
+      "lastUpdated": "2026-07-09T18:06:40+00:00"
     },
     "STEM": {
       "ticker": "STEM",
       "name": "Stem, Inc.",
-      "price": 7.16,
+      "price": 7.1,
       "currency": "USD",
-      "marketCap": 64131782.113277435,
-      "ytdReturn": -0.5778,
-      "y1Return": -0.1742,
+      "marketCap": 63594365.4457984,
+      "ytdReturn": -0.5814,
+      "y1Return": -0.1811,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:28+00:00"
+      "lastUpdated": "2026-07-09T18:06:41+00:00"
     },
     "SYM": {
       "ticker": "SYM",
       "name": "Symbotic Inc.",
-      "price": 42.3,
+      "price": 42.965,
       "currency": "USD",
-      "marketCap": 5381211788.242344,
-      "ytdReturn": -0.3479,
-      "y1Return": -0.1031,
+      "marketCap": 5465810153.026531,
+      "ytdReturn": -0.3377,
+      "y1Return": -0.089,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:29+00:00"
+      "lastUpdated": "2026-07-09T18:06:41+00:00"
     },
     "TSLA": {
       "ticker": "TSLA",
       "name": "Tesla, Inc.",
-      "price": 400.2704,
+      "price": 404.6401,
       "currency": "USD",
-      "marketCap": 1503305042586.3115,
-      "ytdReturn": -0.0863,
-      "y1Return": 0.3528,
+      "marketCap": 1519716506023.7163,
+      "ytdReturn": -0.0763,
+      "y1Return": 0.3676,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:29+00:00"
+      "lastUpdated": "2026-07-09T18:06:41+00:00"
     },
     "TSM": {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 444.32,
+      "price": 440.37,
       "currency": "USD",
-      "marketCap": 2304454171443.0303,
-      "ytdReturn": 0.3974,
-      "y1Return": 0.9377,
+      "marketCap": 2283967535780.23,
+      "ytdReturn": 0.385,
+      "y1Return": 0.9205,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:30+00:00"
+      "lastUpdated": "2026-07-09T18:06:42+00:00"
     },
     "TXT": {
       "ticker": "TXT",
       "name": "Textron Inc.",
-      "price": 90.49,
+      "price": 90.945,
       "currency": "USD",
-      "marketCap": 15735213519.22306,
-      "ytdReturn": 0.04,
-      "y1Return": 0.0982,
+      "marketCap": 15814333323.978294,
+      "ytdReturn": 0.0452,
+      "y1Return": 0.1038,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:31+00:00"
+      "lastUpdated": "2026-07-09T18:06:42+00:00"
     },
     "UEC": {
       "ticker": "UEC",
       "name": "Uranium Energy Corp.",
-      "price": 10.365,
+      "price": 10.265,
       "currency": "USD",
-      "marketCap": 5129351960.322704,
-      "ytdReturn": -0.2094,
-      "y1Return": 0.7508,
+      "marketCap": 5032116505.798949,
+      "ytdReturn": -0.217,
+      "y1Return": 0.734,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:32+00:00"
+      "lastUpdated": "2026-07-09T18:06:43+00:00"
     },
     "URA": {
       "ticker": "URA",
       "name": "Global X Uranium ETF",
-      "price": 42.43,
+      "price": 42.435,
       "currency": "USD",
       "marketCap": null,
-      "ytdReturn": -0.0788,
-      "y1Return": 0.2103,
+      "ytdReturn": -0.0787,
+      "y1Return": 0.2105,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:32+00:00"
+      "lastUpdated": "2026-07-09T18:06:43+00:00"
     },
     "VST": {
       "ticker": "VST",
       "name": "Vistra Corp.",
-      "price": 159.17,
+      "price": 158.9275,
       "currency": "USD",
-      "marketCap": 53669332814.16046,
-      "ytdReturn": -0.034,
-      "y1Return": -0.1878,
+      "marketCap": 53587568535.268616,
+      "ytdReturn": -0.0355,
+      "y1Return": -0.1891,
       "ok": true,
-      "lastUpdated": "2026-07-09T16:07:33+00:00"
+      "lastUpdated": "2026-07-09T18:06:43+00:00"
     }
   },
   "summary": {
