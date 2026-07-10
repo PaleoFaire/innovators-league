@@ -1,16 +1,17 @@
 [
   {
     "company": "Tenstorrent",
-    "totalRaised": "$20.3B+",
-    "totalRaisedRaw": 20300.0,
+    "totalRaised": "$20.4B+",
+    "totalRaisedRaw": 20365.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$8.3B",
     "lastRoundDate": "2026-07",
     "valuation": "",
     "leadInvestors": [
-      "Undisclosed"
+      "Undisclosed",
+      "Benchmark"
     ],
-    "roundCount": 3
+    "roundCount": 4
   },
   {
     "company": "SpaceX",
@@ -161,6 +162,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Blue Origin",
+    "totalRaised": "$10.0B+",
+    "totalRaisedRaw": 10000.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$10B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Zettascale",
@@ -315,14 +329,14 @@
     "totalRaised": "$3.5B+",
     "totalRaisedRaw": 3500.0,
     "lastRound": "Funding Round",
-    "lastRoundAmount": "$92B",
-    "lastRoundDate": "2026-06",
+    "lastRoundAmount": "$40B",
+    "lastRoundDate": "2026-07",
     "valuation": "",
     "leadInvestors": [
-      "NEA",
-      "Undisclosed"
+      "Undisclosed",
+      "NEA"
     ],
-    "roundCount": 4
+    "roundCount": 5
   },
   {
     "company": "Together AI",
@@ -616,6 +630,19 @@
     "roundCount": 4
   },
   {
+    "company": "Watershed",
+    "totalRaised": "$1.0B+",
+    "totalRaisedRaw": 1040.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$30M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 5
+  },
+  {
     "company": "Cognition",
     "totalRaised": "$1.0B+",
     "totalRaisedRaw": 1004.6,
@@ -694,19 +721,6 @@
       "Undisclosed"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Watershed",
-    "totalRaised": "$940M+",
-    "totalRaisedRaw": 940.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$30M",
-    "lastRoundDate": "2026-07",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 4
   },
   {
     "company": "Neuralink",

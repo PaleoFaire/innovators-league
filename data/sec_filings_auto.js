@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-09 09:46:59 UTC
+// Last updated: 2026-07-10 09:41:47 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-09", description: "xslF345X06/wk-form4_1783634656.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Agrify Corporation", form: "DEF 14A", date: "2026-07-09", description: "ea0295890-02.htm", isIPO: false, ticker: "AGFY" },
+  { company: "Rivian", form: "8-K", date: "2026-07-09", description: "tm2617163d3_8k.htm", isIPO: false, ticker: "RIVN" },
   { company: "Rocket Lab", form: "4", date: "2026-07-08", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rivian", form: "4", date: "2026-07-08", description: "xslF345X06/wk-form4_1783558402.xml", isIPO: false, ticker: "RIVN" },
   { company: "Palantir Technologies", form: "4", date: "2026-07-07", description: "xslF345X06/wk-form4_1783468921.xml", isIPO: false, ticker: "PLTR" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120751.xml", isIPO: false, ticker: "ACHR" },
   { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120742.xml", isIPO: false, ticker: "ACHR" },
   { company: "Archer Aviation", form: "8-K", date: "2026-06-30", description: "achr-20260626.htm", isIPO: false, ticker: "ACHR" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-06-29", description: "g085783_8k.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Intuitive Machines", form: "4", date: "2026-06-29", description: "xslF345X06/form4-06292026_100628.xml", isIPO: false, ticker: "LUNR" },
-  { company: "UiPath", form: "8-K", date: "2026-06-29", description: "path-20260625.htm", isIPO: false, ticker: "PATH" },
 ];

@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 2,
+    "activityIndex": 3,
     "billsTracked": 2,
-    "rulesTracked": 0,
-    "description": "2 bill(s) + 0 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "rulesTracked": 1,
+    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -23,39 +23,16 @@
         "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
         "number": "S2226",
         "status": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "category": "Autonomous Systems & Drones",
-    "icon": "\ud83d\udef8",
-    "budgetLineItem": "Autonomous Systems & Drones \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 2,
-    "billsTracked": 1,
-    "rulesTracked": 1,
-    "description": "1 bill(s) + 1 federal-register action(s) touching Autonomous Systems & Drones in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Autonomous Vehicle Safety Act",
-        "number": "HR6001",
-        "status": ""
       },
       {
         "type": "federal_register",
-        "title": "Counter-UAS Authority for State, Local, Tribal, and Territorial Law Enforcement ",
+        "title": "Tennessee Valley Authority; Clinch River Nuclear Site, Unit 1; Notice of Hearing",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "category": "Quantum Computing",
@@ -78,7 +55,30 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
+  },
+  {
+    "category": "Autonomous Systems & Drones",
+    "icon": "\ud83d\udef8",
+    "budgetLineItem": "Autonomous Systems & Drones \u2014 federal activity index",
+    "change": "flat",
+    "changeNum": 0,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 1,
+    "billsTracked": 1,
+    "rulesTracked": 0,
+    "description": "1 bill(s) + 0 federal-register action(s) touching Autonomous Systems & Drones in the last 90 days. Activity index 1 \u2014 flat relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Autonomous Vehicle Safety Act",
+        "number": "HR6001",
+        "status": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-07-10"
   },
   {
     "category": "Space & Aerospace",
@@ -101,6 +101,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   }
 ]

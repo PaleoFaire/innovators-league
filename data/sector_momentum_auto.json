@@ -1,30 +1,30 @@
 [
   {
-    "sector": "Defense & Security",
-    "momentum": 62,
-    "trend": "steady",
+    "sector": "AI & Software",
+    "momentum": 61,
+    "trend": "accelerating",
     "catalysts": [
-      "Space Force adds Relativity, Impulse Space to national secur",
-      "More Pentagon Satellite Contracts for SpaceX and New Cursor",
-      "SpaceX satellite wins test Pentagon\u2019s commitment to competit"
+      "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for",
+      "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
+      "OpenAI launches its new family of models with GPT-5.6"
     ],
-    "fundingQ": "$12.0B",
+    "fundingQ": "$235.7B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 65,
       "hiring": 0,
-      "market": 100
+      "market": 50
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Waymo Hits Summer Break With Coast-to-Coast Expansion",
-      "This Robotaxi Company Is Growing Its Share Of US Market \u2014 No",
-      "NVIDIA and Hugging Face bring new models and frameworks to L"
+      "1X Neo Humanoid Robotics Hands Match Human Capability",
+      "New bill would ban Tesla&#8217;s camera-only Robotaxi, not W",
+      "Beyond da Vinci: Why versatile humanoid robots are the next"
     ],
     "fundingQ": "$27.0B",
     "components": {
@@ -33,60 +33,59 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "Space Force adds Relativity, Impulse Space to national secur",
+      "Not Imaginary: The Deterrence Gap is Real and America Needs",
+      "Contriving Imaginary Gaps in Nuclear Deterrence"
+    ],
+    "fundingQ": "$12.0B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 76
+    },
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 55,
+    "momentum": 51,
     "trend": "accelerating",
     "catalysts": [
-      "Waymo Hits Summer Break With Coast-to-Coast Expansion",
-      "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quart",
-      "ispace to send larger payloads to the moon on SpaceX\u2019s Stars"
+      "SpaceX Could Turn Dish\u2019s Abandoned 5G Network into the Ultim",
+      "OpenAI launches its new family of models with GPT-5.6",
+      "Anthropic found a hidden space where Claude puzzles over con"
     ],
     "fundingQ": "$266.3B",
     "components": {
       "funding": 100,
-      "news": 80,
+      "news": 65,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "SPACEXAI Grok 4.5 is as Good as Anthropic Opus BUT One-quart",
-      "OpenAI releases new voice models for more natural live conve",
-      "Polysense raises $10.7M to scale AI quality control for food"
-    ],
-    "fundingQ": "$195.7B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 48,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Venus Aerospace raises $91 million to scale rocket engine te",
-      "Why you should combine robot dexterity with mechanical posit"
+      "Venus Aerospace raises $91 million to scale rocket engine te"
     ],
     "fundingQ": "$1.9B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Ocean & Maritime",
@@ -102,7 +101,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Nuclear Energy",
@@ -120,77 +119,93 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 36,
+    "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit",
-      "Fervo Energy\u2019s IPO is a milestone for next-gen geothermal"
+      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 96,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 32,
-    "trend": "steady",
+    "momentum": 30,
+    "trend": "rising",
     "catalysts": [
-      "This Robotaxi Company Is Growing Its Share Of US Market \u2014 No",
-      "NVIDIA and Hugging Face bring new models and frameworks to L",
-      "ispace to send larger payloads to the moon on SpaceX\u2019s Stars"
+      "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for",
+      "OpenAI is shutting down Atlas, but its AI browser ambitions",
+      "Anthropic Wants You to Pay Up for Claude Fable 5"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 90,
+      "news": 80,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Elon Musk praises Mythos/Fable, promises not to &#8216;cut o",
+      "Anthropic Wants You to Pay Up for Claude Fable 5",
+      "SpaceX Secretly Controls 45% of World&#8217;s Best AI Chips."
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 52
+    },
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 14,
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;",
-      "SpaceX Files with FCC for 100,000 V3 Satellite Constellation",
-      "Elon Musk\u2019s xAI adds more unpermitted gas generators for dat"
+      "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
+      "Beyond da Vinci: Why versatile humanoid robots are the next",
+      "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
-      "market": 51
+      "market": 61
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Blue Origin continues work on lunar landers during recovery",
-      "Korea&#8217;s LG Innotek to begin building $1B semiconductor"
+      "SpaceX Could Turn Dish\u2019s Abandoned 5G Network into the Ultim"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -206,7 +221,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Drones & Autonomous",
@@ -222,47 +237,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "Chip testing startup QuantumDiamonds raises \u20ac15M in equity f",
-      "NVIDIA and Hugging Face bring new models and frameworks to L",
-      "With EU backing, QuantumDiamonds aims to speed up chip manuf"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Chip testing startup QuantumDiamonds raises \u20ac15M in equity f",
-      "World Fund, IQ Capital among backers of \u20ac91m QuantumDiamonds",
-      "With EU backing, QuantumDiamonds aims to speed up chip manuf"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
   },
   {
     "sector": "Transportation",
-    "momentum": 3,
+    "momentum": 7,
     "trend": "declining",
     "catalysts": [
       "Rivian tops Q2 delivery numbers and raises full-year 2026 ou"
@@ -272,8 +251,25 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 8
+      "market": 31
     },
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-10"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Chip testing startup QuantumDiamonds raises \u20ac15M in equity f",
+      "World Fund, IQ Capital among backers of \u20ac91m QuantumDiamonds"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-10"
   }
 ]
