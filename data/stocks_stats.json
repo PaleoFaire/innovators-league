@@ -3,65 +3,70 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 2.63,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -2.18,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -11.79,
+      "avg_change": -13.11,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -5.3,
+      "avg_change": -4.94,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.04,
+      "avg_change": -7.38,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.11,
+      "avg_change": -6.16,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.64,
+      "avg_change": -9.66,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.97,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -4.12,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.53,
+      "avg_change": 1.59,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.2,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 4.11,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RIVN",
-      "Rivian",
-      5.47
+      "NVDA",
+      "NVIDIA",
+      6.42
+    ],
+    [
+      "AMD",
+      "AMD",
+      5.82
     ],
     [
       "IDEAFORGE.NS",
@@ -69,47 +74,42 @@
       5.47
     ],
     [
-      "PLTR",
-      "Palantir",
-      2.63
+      "TSLA",
+      "Tesla",
+      3.64
     ],
     [
-      "NVDA",
-      "NVIDIA",
-      2.63
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      2.45
+      "ALAB",
+      "Astera Labs",
+      0.1
     ]
   ],
   "topLosers": [
     [
-      "PL",
-      "Planet Labs",
-      -13.95
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
-      -14.19
+      -14.92
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -16.34
+      -17.77
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      -18.19
     ],
     [
       "SATL",
       "Satellogic",
-      -16.79
+      -19.01
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -17.51
+      -20.18
     ]
   ],
-  "lastUpdated": "2026-07-10 09:41:55"
+  "lastUpdated": "2026-07-10 14:35:31"
 }
