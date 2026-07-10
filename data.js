@@ -38762,6 +38762,7 @@ tags: ["sensors", "integration", "autonomous", "defense"],
         thesisCluster: "autonomy-maritime",
     techApproach: "AI-powered distributed acoustic sensing for underwater and surface maritime security using networked hydrophone arrays",
 tags: ["maritime", "acoustic", "sensing", "defense"],
+    investors: ["First Round Capital", "Also Capital", "Long Journey Ventures", "Homebrew", "Colorado School of Mines Venture Fund"],
     website: "https://andrenam.com"
   },
   {
@@ -40747,7 +40748,8 @@ tags: ["fusion", "field-reversed", "energy"],
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "consumer-hardware",
     techApproach: "Modern portable desalination and water filtration using advanced membrane technology, designed by ex-SpaceX engineers",
-    tags: ["desalination", "water", "filtration"]
+    tags: ["desalination", "water", "filtration"],
+    investors: ["Interlagos", "General Catalyst", "Generational Partners", "Cantos", "Space VC", "Also Capital"]
   },
   {
     name: "Forterra",
