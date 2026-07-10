@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T11:13:30.746453+00:00",
+  "generatedAt": "2026-07-10T14:46:13.787297+00:00",
   "date": "2026-07-10",
   "dateDisplay": "Friday, July 10, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 82.55,
-        "changePercent": -17.51,
-        "change": -17.52
+        "price": 80.19,
+        "changePercent": -20.18,
+        "change": -20.27
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.61,
-        "changePercent": -16.79,
-        "change": -0.93
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 16.9,
-        "changePercent": -16.34,
-        "change": -3.3
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 73.88,
-        "changePercent": -14.19,
-        "change": -12.22
+        "price": 4.4,
+        "changePercent": -19.01,
+        "change": -1.03
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 27.2,
-        "changePercent": -13.95,
-        "change": -4.41
+        "price": 25.67,
+        "changePercent": -18.19,
+        "change": -5.71
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 16.1,
+        "changePercent": -17.77,
+        "change": -3.48
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 72.43,
+        "changePercent": -14.92,
+        "change": -12.7
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 44.77,
-        "changePercent": -12.9,
-        "change": -6.63
+        "price": 43.05,
+        "changePercent": -12.35,
+        "change": -6.06
       },
       {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.28,
-        "changePercent": -11.17,
-        "change": -0.79
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.69,
+        "changePercent": -8.92,
+        "change": -0.17
       },
       {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 9.03,
-        "changePercent": -11.03,
-        "change": -1.12
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 20.54,
+        "changePercent": -8.83,
+        "change": -1.99
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB -17.5%"
+    "topMover": "RKLB -20.2%"
   }
 }

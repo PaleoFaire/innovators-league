@@ -72053,23 +72053,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-10 11:13
+// Last updated: 2026-07-10 14:46
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Humanoid", headline: "1X Neo Humanoid Robotics Hands Match Human Capability", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI says GPT 5.6 is the 'preferred model' for Microsoft Copilot 365 amid breakup chatter", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Could Turn Dish's Abandoned 5G Network into the Ultimate Hybrid Mobile System", source: "Next Big Future", time: "10h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "OpenAI", headline: "Fidji Simo steps down from OpenAI's no. 2 role", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "OpenAI", headline: "OpenAI launches its new family of models with GPT-5.6", source: "TechCrunch", time: "12h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Anthropic", headline: "Elon Musk praises Mythos/Fable, promises not to 'cut off' Anthropic", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Anthropic", headline: "Anthropic found a hidden space where Claude puzzles over concepts", source: "MIT Tech Review", time: "14h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "New York Times says OpenAI hid evidence in ChatGPT copyright trial", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic Wants You to Pay Up for Claude Fable 5", source: "Wired", time: "16h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "How did the government decide OpenAI's frontier model was safe to release?", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Secretly Controls 45% of World's Best AI Chips. Tripling Over the Next 12 Months", source: "Next Big Future", time: "18h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "New bill would ban Tesla's camera-only Robotaxi, not Waymo", source: "Electrek", time: "18h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Humanoid", headline: "Beyond da Vinci: Why versatile humanoid robots are the next frontier in surgery", source: "The Robot Report", time: "22h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Blue Origin", headline: "Blue Origin seeks to raise $10 billion in outside capital", source: "SpaceNews", time: "23h ago", impact: "high", unread: false },
+  { id: 1, type: "funding", company: "Proxima Fusion", headline: "Nscale secures $1.4B, Proxima Fusion lands '411M, and Invest Europe sees VC rebound", source: "Tech.eu", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "OpenAI", headline: "The Download: Claude's inner workings and OpenAI's &#8220;super app&#8221;", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Humanoid", headline: "1X Neo Humanoid Robotics Hands Match Human Capability", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI says GPT 5.6 is the 'preferred model' for Microsoft Copilot 365 amid breakup chatter", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Could Turn Dish's Abandoned 5G Network into the Ultimate Hybrid Mobile System", source: "Next Big Future", time: "14h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "OpenAI", headline: "Fidji Simo steps down from OpenAI's No. 2 role", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI launches its new family of models with GPT-5.6", source: "TechCrunch", time: "16h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Anthropic", headline: "Elon Musk praises Mythos/Fable, promises not to 'cut off' Anthropic", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Anthropic", headline: "Anthropic found a hidden space where Claude puzzles over concepts", source: "MIT Tech Review", time: "18h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "New York Times says OpenAI hid evidence in ChatGPT copyright trial", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic Wants You to Pay Up for Claude Fable 5", source: "Wired", time: "20h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "How did the government decide OpenAI's frontier model was safe to release?", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Secretly Controls 45% of World's Best AI Chips. Tripling Over the Next 12 Months", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "New bill would ban Tesla's camera-only Robotaxi, not Waymo", source: "Electrek", time: "22h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
