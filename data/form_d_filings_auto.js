@@ -1,13 +1,47 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-07-09 10:41:20 UTC
+// Last updated: 2026-07-10 10:29:53 UTC
 // Total: 9 filings across 8 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-07-09T10:41:20.644893+00:00",
+  "generated_at": "2026-07-10T10:29:53.868896+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
   "total_filings": 9,
   "filings": [
+    {
+      "company": "Shield AI",
+      "issuer_name": "Shield AI May 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-07-09",
+      "cik": "2133771",
+      "accession": "0002133771-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133771&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002133771-26-000001",
+      "offering_amount": "252580",
+      "amount_sold": "252580",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Atmo",
+      "issuer_name": "Atmo Home Pre-Seed Sep 2025 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-07-09",
+      "cik": "2101027",
+      "accession": "0002101027-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002101027&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002101027-26-000002",
+      "offering_amount": "28500",
+      "amount_sold": "28500",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Helios",
       "issuer_name": "Helios Coreshell Partners III, LLC",
@@ -123,40 +157,6 @@ const FORM_D_FILINGS = {
       "amount_sold": "0",
       "amount_remaining": "Indefinite",
       "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Lilac Solutions",
-      "issuer_name": "Lilac Solutions, Inc",
-      "form": "D",
-      "filed_date": "2026-06-29",
-      "cik": "1746097",
-      "accession": "0001746097-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001746097&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001746097-26-000003",
-      "offering_amount": "46684541",
-      "amount_sold": "34369684",
-      "amount_remaining": "12314857",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Cambium",
-      "issuer_name": "Cambium Capital Jacaranda LP",
-      "form": "D",
-      "filed_date": "2026-06-26",
-      "cik": "2136863",
-      "accession": "0002136863-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136863&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002136863-26-000001",
-      "offering_amount": "Indefinite",
-      "amount_sold": "0",
-      "amount_remaining": "Indefinite",
-      "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false

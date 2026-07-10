@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-07-09",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-42",
-    "payload": "Starlink Group 10-42",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/62d4cd48-ed28-418b-b58c-526781a50a39/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-07-10",
     "vehicle": "Long March 10B | Demo Flight",
     "payload": "Demo Flight",
@@ -25,24 +16,6 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/135fb199-a39e-48cc-ba27-0aecd96ba9f8/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-07-12",
-    "vehicle": "Gravity-1 | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
-    "provider": "Orienspace Technology",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-07-12",
-    "vehicle": "Vikram-I | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Satish Dhawan Space Centre First Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Skyroot Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/10fa7952-f00b-4292-80a2-4207e208844e/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-07-14",
@@ -108,6 +81,15 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-07-18",
+    "vehicle": "Vikram-I | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "Satish Dhawan Space Centre First Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Skyroot Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/10fa7952-f00b-4292-80a2-4207e208844e/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-07-23",
     "vehicle": "Long March 3B/E | Unknown Payload",
     "payload": "Unknown Payload",
@@ -151,6 +133,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/0f6780cf-edae-4d7c-99d6-ce7de784d140/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-31",
+    "vehicle": "Gravity-1 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
+    "provider": "Orienspace Technology",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-07-31",
@@ -448,5 +439,14 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/67213393-7983-4c06-8b44-b8c785a5ed79/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "H3-24 | Martian Moon eXplorer (MMX)",
+    "payload": "Martian Moon eXplorer (MMX)",
+    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
+    "provider": "Mitsubishi Heavy Industries",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/?format=json",
+    "trackedCompany": null
   }
 ]
