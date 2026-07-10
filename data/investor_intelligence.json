@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-10T04:05:35+00:00",
+  "generatedAt": "2026-07-10T07:47:34+00:00",
   "stats": {
     "companies": 964,
     "vcFirms": 27,
     "uniqueClusters": 103,
-    "totalInvestments": 242
+    "totalInvestments": 243
   },
   "concentration": {
     "General Catalyst": {
@@ -60,6 +60,12 @@
         "count": 1,
         "companies": [
           "Substrate"
+        ]
+      },
+      "consumer-hardware": {
+        "count": 1,
+        "companies": [
+          "Vital Lyfe"
         ]
       },
       "ai-autonomous-driving": {
@@ -1629,6 +1635,23 @@
         "share": 0.25
       }
     ],
+    "consumer-hardware": [
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Lux Capital",
+        "count": 1,
+        "share": 0.3333
+      },
+      {
+        "vc": "Valor Equity Partners",
+        "count": 1,
+        "share": 0.3333
+      }
+    ],
     "ai-autonomous-driving": [
       {
         "vc": "General Catalyst",
@@ -2458,18 +2481,6 @@
         "share": 0.5
       }
     ],
-    "consumer-hardware": [
-      {
-        "vc": "Lux Capital",
-        "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Valor Equity Partners",
-        "count": 1,
-        "share": 0.5
-      }
-    ],
     "disaggregated-ai": [
       {
         "vc": "Lux Capital",
@@ -2830,8 +2841,8 @@
     {
       "vc": "General Catalyst",
       "recentCount": 11,
-      "totalCount": 18,
-      "score": 12.412,
+      "totalCount": 19,
+      "score": 12.628,
       "topCluster": "affordable-american-ev",
       "recentExamples": [
         {
@@ -3739,6 +3750,10 @@
       "investmentCount": 3
     },
     {
+      "cluster": "consumer-hardware",
+      "investmentCount": 3
+    },
+    {
       "cluster": "energy-storage-thermal-gravity",
       "investmentCount": 3
     },
@@ -3764,10 +3779,6 @@
     },
     {
       "cluster": "genomics",
-      "investmentCount": 3
-    },
-    {
-      "cluster": "nuclear-microreactor",
       "investmentCount": 3
     }
   ]
