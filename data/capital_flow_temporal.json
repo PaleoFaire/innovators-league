@@ -1,6 +1,151 @@
 {
-  "generatedAt": "2026-07-10T07:47:35+00:00",
+  "generatedAt": "2026-07-10T11:14:42+00:00",
   "matrix": {
+    "autonomy-drone-military": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 252580,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Shield AI",
+            "amount": 252580,
+            "date": "2026-07-09",
+            "source": "formd",
+            "investors": [
+              "Andreessen Horowitz",
+              "Breyer Capital",
+              "Silicon Valley Bank",
+              "U.S. Innovation Technology Fund (USIT)",
+              "Riot Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Riot Ventures"
+        ]
+      },
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Anduril Industries",
+            "amount": null,
+            "date": "2026-05",
+            "source": "recentEvent",
+            "investors": [
+              "Founders Fund",
+              "Andreessen Horowitz",
+              "General Catalyst",
+              "8VC",
+              "Lux Capital",
+              "Valor Equity Partners",
+              "D1 Capital Partners"
+            ]
+          }
+        ],
+        "investors": [
+          "8VC",
+          "Founders Fund",
+          "General Catalyst",
+          "Lux Capital",
+          "Valor Equity Partners"
+        ]
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Shield AI",
+            "amount": null,
+            "date": "2026-03",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Breyer Capital",
+              "Silicon Valley Bank",
+              "U.S. Innovation Technology Fund (USIT)",
+              "Riot Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Riot Ventures"
+        ]
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Skydio",
+            "amount": null,
+            "date": "2025-08",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Linse Capital",
+              "Next47",
+              "IVP",
+              "DoCoMo",
+              "Nvidia",
+              "Lockheed Martin",
+              "Walton Family Foundation",
+              "UP.Partners",
+              "Hercules Capital"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 3,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 3,
+        "companies": [
+          {
+            "name": "DroneForge",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": []
+          },
+          {
+            "name": "FlyBy Robotics",
+            "amount": null,
+            "date": "2025-11",
+            "source": "recentEvent",
+            "investors": [
+              "Mac Venture Capital",
+              "Weekend Fund",
+              "Anthemis",
+              "Evening Fund",
+              "Naval Ravikant",
+              "Balaji Srinivasan",
+              "Karen Pritzker",
+              "Gaingels",
+              "Ryan Hoover",
+              "Cliff Sirlin"
+            ]
+          },
+          {
+            "name": "Swift Beat",
+            "amount": null,
+            "date": "2025-12",
+            "source": "recentEvent",
+            "investors": [
+              "Eric Schmidt"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "green-manufacturing": {
       "2026-Q3": {
         "deals": 1,
@@ -171,152 +316,6 @@
             "date": "2026-06-30",
             "source": "formd",
             "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "critical-minerals": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 34369684,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Lilac Solutions",
-            "amount": 34369684,
-            "date": "2026-06-29",
-            "source": "formd",
-            "investors": [
-              "Mercuria",
-              "Lowercarbon Capital",
-              "Breakthrough Energy Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Breakthrough Energy Ventures",
-          "Lowercarbon Capital"
-        ]
-      }
-    },
-    "autonomy-drone-military": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Anduril Industries",
-            "amount": null,
-            "date": "2026-05",
-            "source": "recentEvent",
-            "investors": [
-              "Founders Fund",
-              "Andreessen Horowitz",
-              "General Catalyst",
-              "8VC",
-              "Lux Capital",
-              "Valor Equity Partners",
-              "D1 Capital Partners"
-            ]
-          }
-        ],
-        "investors": [
-          "8VC",
-          "Founders Fund",
-          "General Catalyst",
-          "Lux Capital",
-          "Valor Equity Partners"
-        ]
-      },
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Shield AI",
-            "amount": null,
-            "date": "2026-03",
-            "source": "recentEvent",
-            "investors": [
-              "Andreessen Horowitz",
-              "Breyer Capital",
-              "Silicon Valley Bank",
-              "U.S. Innovation Technology Fund (USIT)",
-              "Riot Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Riot Ventures"
-        ]
-      },
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Skydio",
-            "amount": null,
-            "date": "2025-08",
-            "source": "recentEvent",
-            "investors": [
-              "Andreessen Horowitz",
-              "Linse Capital",
-              "Next47",
-              "IVP",
-              "DoCoMo",
-              "Nvidia",
-              "Lockheed Martin",
-              "Walton Family Foundation",
-              "UP.Partners",
-              "Hercules Capital"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 3,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 3,
-        "companies": [
-          {
-            "name": "DroneForge",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": []
-          },
-          {
-            "name": "FlyBy Robotics",
-            "amount": null,
-            "date": "2025-11",
-            "source": "recentEvent",
-            "investors": [
-              "Mac Venture Capital",
-              "Weekend Fund",
-              "Anthemis",
-              "Evening Fund",
-              "Naval Ravikant",
-              "Balaji Srinivasan",
-              "Karen Pritzker",
-              "Gaingels",
-              "Ryan Hoover",
-              "Cliff Sirlin"
-            ]
-          },
-          {
-            "name": "Swift Beat",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": [
-              "Eric Schmidt"
-            ]
           }
         ],
         "investors": []
@@ -1171,54 +1170,20 @@
     }
   },
   "vcAttribution": {
-    "Lowercarbon Capital": {
-      "2026-Q2": [
+    "Riot Ventures": {
+      "2026-Q3": [
         {
-          "company": "Lilac Solutions",
-          "cluster": "critical-minerals",
-          "date": "2026-06-29",
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-07-09",
           "source": "formd"
         }
       ],
-      "2024-Q1": [
+      "2026-Q1": [
         {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Breakthrough Energy Ventures": {
-      "2026-Q2": [
-        {
-          "company": "Lilac Solutions",
-          "cluster": "critical-minerals",
-          "date": "2026-06-29",
-          "source": "formd"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1357,16 +1322,6 @@
         }
       ]
     },
-    "Riot Ventures": {
-      "2026-Q1": [
-        {
-          "company": "Shield AI",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Caffeinated Capital": {
       "2026-Q1": [
         {
@@ -1447,6 +1402,32 @@
         }
       ]
     },
+    "Lowercarbon Capital": {
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Thrive Capital Management, LLC": {
       "2026-Q1": [
         {
@@ -1477,6 +1458,16 @@
           "company": "RobCo",
           "cluster": "robotics-cobots-warehouse",
           "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Breakthrough Energy Ventures": {
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1530,8 +1521,8 @@
   },
   "stats": {
     "totalDealsTracked": 56,
-    "totalUSDSold": 119157504,
-    "uniqueClusters": 37,
+    "totalUSDSold": 85040400,
+    "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 18,
     "quarterRange": [
