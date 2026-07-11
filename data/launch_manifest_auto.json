@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-07-10",
-    "vehicle": "Long March 10B | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1e79a5e9-c02c-470f-882f-884120100fef/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-07-11",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-48",
     "payload": "Starlink Group 17-48",
@@ -90,6 +81,15 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-07-18",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-39",
+    "payload": "Starlink Group 17-39",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-07-23",
     "vehicle": "Long March 3B/E | Unknown Payload",
     "payload": "Unknown Payload",
@@ -97,6 +97,15 @@
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5421e43a-1623-40ac-9dac-201075064e24/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-07-23",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-51",
+    "payload": "Starlink Group 17-51",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5b2f05d7-9052-49fb-9bd7-2a05d4910576/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-07-31",
@@ -163,6 +172,15 @@
   },
   {
     "date": "2026-07-31",
+    "vehicle": "Soyuz 2.1b | 16 x Rassvet-3",
+    "payload": "16 x Rassvet-3",
+    "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
+    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/aafe107e-46d8-420c-bcb9-192069d80893/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-06",
     "vehicle": "Spectrum | Onward and Upward",
     "payload": "Onward and Upward",
     "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
@@ -240,6 +258,15 @@
     "pad": "Launch Pad Fredo, SaxaVord Spaceport",
     "provider": "Rocket Factory Augsburg",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/91b13c6c-4525-496d-997b-3521bb6a4cd8/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-31",
+    "vehicle": "Zhuque-3 | Flight 2",
+    "payload": "Flight 2",
+    "pad": "Launch Area 96B, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "LandSpace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef02e2cf-e617-4b38-a526-951ac9204b0a/?format=json",
     "trackedCompany": null
   },
   {
@@ -420,33 +447,6 @@
     "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7bdc412b-c965-4517-a131-f57a01189803/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-10-31",
-    "vehicle": "Electron | StriX Launch 12",
-    "payload": "StriX Launch 12",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-10-31",
-    "vehicle": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-    "payload": "Transporter 18 (Dedicated SSO Rideshare)",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/67213393-7983-4c06-8b44-b8c785a5ed79/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-10-31",
-    "vehicle": "H3-24 | Martian Moon eXplorer (MMX)",
-    "payload": "Martian Moon eXplorer (MMX)",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/?format=json",
     "trackedCompany": null
   }
 ]

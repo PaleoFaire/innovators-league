@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-07-10 10:12:51 UTC
+// Last updated: 2026-07-11 08:31:49 UTC
 const ARXIV_PAPERS = [
   { id: "2607.08754v1", title: "SLORR: Simple and Efficient In-Training Low-Rank Regularization", category: "Artificial Intelligence", published: "2026-07-09", sectors: "ai", authors: "David González-Martínez, Shiwei Liu" },
   { id: "2607.08745v1", title: "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding", category: "Artificial Intelligence", published: "2026-07-09", sectors: "ai", authors: "Siddharth Damodharan, Radhika Gupta, Ali Alshami et al." },
