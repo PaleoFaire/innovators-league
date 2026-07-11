@@ -1,6 +1,92 @@
 {
-  "generatedAt": "2026-07-11T06:23:09+00:00",
+  "generatedAt": "2026-07-11T08:55:26+00:00",
   "matrix": {
+    "humanoid-robotics": {
+      "2026-Q3": {
+        "deals": 2,
+        "totalSold": 5799672,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Neura Robotics",
+            "amount": 937505,
+            "date": "2026-07-10",
+            "source": "formd",
+            "investors": [
+              "Tether",
+              "Qualcomm Technologies",
+              "Amazon",
+              "NVIDIA",
+              "imec.xpa"
+            ]
+          },
+          {
+            "name": "Apptronik",
+            "amount": 4862167,
+            "date": "2026-07-10",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          },
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Tether",
+              "Qualcomm Technologies",
+              "Amazon",
+              "NVIDIA",
+              "imec.xpa"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "transport-electric-vehicles": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Harbinger",
+            "amount": 0,
+            "date": "2026-07-10",
+            "source": "formd",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
     "autonomy-drone-military": {
       "2026-Q3": {
         "deals": 1,
@@ -304,23 +390,6 @@
         "investors": []
       }
     },
-    "consumer-evtol": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": 5999990,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "AIR",
-            "amount": 5999990,
-            "date": "2026-06-30",
-            "source": "formd",
-            "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-counter-drone": {
       "2026-Q1": {
         "deals": 1,
@@ -598,47 +667,6 @@
             "date": "2026-02",
             "source": "recentEvent",
             "investors": []
-          }
-        ],
-        "investors": []
-      }
-    },
-    "humanoid-robotics": {
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          },
-          {
-            "name": "Neura Robotics",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Tether",
-              "Qualcomm Technologies",
-              "Amazon",
-              "NVIDIA",
-              "imec.xpa"
-            ]
           }
         ],
         "investors": []
@@ -1520,8 +1548,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 56,
-    "totalUSDSold": 85040400,
+    "totalDealsTracked": 58,
+    "totalUSDSold": 84840082,
     "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 18,
