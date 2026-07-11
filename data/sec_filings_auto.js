@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-10 09:41:47 UTC
+// Last updated: 2026-07-11 08:02:07 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-09", description: "xslF345X06/wk-form4_1783634656.xml", isIPO: false, ticker: "RXRX" },
   { company: "Agrify Corporation", form: "DEF 14A", date: "2026-07-09", description: "ea0295890-02.htm", isIPO: false, ticker: "AGFY" },

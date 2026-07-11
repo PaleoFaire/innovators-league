@@ -1,46 +1,64 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 61,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for",
-      "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
-      "OpenAI launches its new family of models with GPT-5.6"
-    ],
-    "fundingQ": "$235.7B",
-    "components": {
-      "funding": 100,
-      "news": 65,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-10"
-  },
-  {
     "sector": "Robotics & Manufacturing",
-    "momentum": 60,
+    "momentum": 64,
     "trend": "accelerating",
     "catalysts": [
-      "1X Neo Humanoid Robotics Hands Match Human Capability",
-      "New bill would ban Tesla&#8217;s camera-only Robotaxi, not W",
-      "Beyond da Vinci: Why versatile humanoid robots are the next"
+      "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here&#8217;",
+      "How Path Robotics uses AI to optimize robotic welding",
+      "XTEND secures U.S. patent for autonomous navigation technolo"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 59,
+    "trend": "accelerating",
+    "catalysts": [
+      "OpenAI\u2019s Head of Safety Is Leaving the Company",
+      "Apple sues OpenAI over alleged trade secret theft",
+      "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secret"
+    ],
+    "fundingQ": "$235.7B",
+    "components": {
+      "funding": 100,
+      "news": 55,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-11"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 50,
+    "trend": "accelerating",
+    "catalysts": [
+      "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here&#8217;",
+      "FCC approves first Reflect Orbital satellite",
+      "Technology and Plan for the Next 100K SpaceX Multi-Gigabit S"
+    ],
+    "fundingQ": "$266.3B",
+    "components": {
+      "funding": 100,
+      "news": 60,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 54,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Space Force adds Relativity, Impulse Space to national secur",
+      "Air Force pushing contractors to purge Anthropic by Sept. 1:",
       "Not Imaginary: The Deterrence Gap is Real and America Needs",
       "Contriving Imaginary Gaps in Nuclear Deterrence"
     ],
@@ -49,43 +67,25 @@
       "funding": 100,
       "news": 15,
       "hiring": 0,
-      "market": 76
+      "market": 31
     },
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 51,
-    "trend": "accelerating",
-    "catalysts": [
-      "SpaceX Could Turn Dish\u2019s Abandoned 5G Network into the Ultim",
-      "OpenAI launches its new family of models with GPT-5.6",
-      "Anthropic found a hidden space where Claude puzzles over con"
-    ],
-    "fundingQ": "$266.3B",
-    "components": {
-      "funding": 100,
-      "news": 65,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 46,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Venus Aerospace raises $91 million to scale rocket engine te"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$1.9B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,25 +101,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 41,
+    "momentum": 42,
     "trend": "steady",
     "catalysts": [
+      "Nscale secures $1.4B, Proxima Fusion lands \u20ac411M, and Invest",
       "Google backs Proxima Fusion in \u20ac411m raise",
-      "A New Force Posture Concept for Europeanizing Extended Nucle",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs"
+      "A New Force Posture Concept for Europeanizing Extended Nucle"
     ],
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Climate & Energy",
@@ -135,61 +135,59 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 30,
-    "trend": "rising",
+    "momentum": 34,
+    "trend": "steady",
     "catalysts": [
-      "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for",
-      "OpenAI is shutting down Atlas, but its AI browser ambitions",
-      "Anthropic Wants You to Pay Up for Claude Fable 5"
+      "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here&#8217;",
+      "FCC approves first Reflect Orbital satellite",
+      "How Path Robotics uses AI to optimize robotic welding"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 80,
+      "news": 95,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 18,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Elon Musk praises Mythos/Fable, promises not to &#8216;cut o",
       "Anthropic Wants You to Pay Up for Claude Fable 5",
-      "SpaceX Secretly Controls 45% of World&#8217;s Best AI Chips."
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 52
-    },
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 17,
-    "trend": "declining",
-    "catalysts": [
-      "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
-      "Beyond da Vinci: Why versatile humanoid robots are the next",
-      "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;"
+      "Chip testing startup QuantumDiamonds raises \u20ac15M in equity f",
+      "NVIDIA and Hugging Face bring new models and frameworks to L"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 61
+      "market": 100
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "XTEND secures U.S. patent for autonomous navigation technolo"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Housing & Construction",
@@ -205,14 +203,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "D-Orbit signs launch-services contract with ArkEdge Space"
+      "Raymond James Gives $800 SpaceX Price Target and Analyzing"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -221,39 +219,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 10,
+    "sector": "Biotech & Health",
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
-      "Active drones & autonomous ecosystem"
+      "Fidji Simo steps down from OpenAI&#8217;s No. 2 role",
+      "Beyond da Vinci: Why versatile humanoid robots are the next",
+      "Waymo Gets Scientific: &#8220;Not All Miles Are Equal&#8221;"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 2
     },
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 7,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian tops Q2 delivery numbers and raises full-year 2026 ou"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 31
-    },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
   },
   {
     "sector": "Quantum Computing",
@@ -270,6 +254,22 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-11"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-11"
   }
 ]
