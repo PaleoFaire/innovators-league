@@ -72345,18 +72345,18 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-11 18:01
+// Last updated: 2026-07-11 19:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI bets on families as ChatGPT goes deeper into households", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here's the Actual Math", source: "Next Big Future", time: "11h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI's Head of Safety Is Leaving the Company", source: "Wired", time: "16h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Reflect Orbital", headline: "FCC approves first Reflect Orbital satellite", source: "SpaceNews", time: "17h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Path Robotics", headline: "How Path Robotics uses AI to optimize robotic welding", source: "The Robot Report", time: "18h ago", impact: "low", unread: true },
-  { id: 6, type: "patent", company: "Xtend", headline: "XTEND secures U.S. patent for autonomous navigation technology", source: "The Robot Report", time: "20h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "Apple sues OpenAI over alleged trade secret theft", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets", source: "Wired", time: "21h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Humanoid", headline: "AI' Robotics raises $735M at $3B valuation for wheeled humanoid robots", source: "The Robot Report", time: "22h ago", impact: "high", unread: false },
-  { id: 10, type: "contract", company: "Anthropic", headline: "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo", source: "Breaking Defense", time: "22h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI bets on families as ChatGPT goes deeper into households", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here's the Actual Math", source: "Next Big Future", time: "12h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI's Head of Safety Is Leaving the Company", source: "Wired", time: "18h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Reflect Orbital", headline: "FCC approves first Reflect Orbital satellite", source: "SpaceNews", time: "18h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Path Robotics", headline: "How Path Robotics uses AI to optimize robotic welding", source: "The Robot Report", time: "20h ago", impact: "low", unread: true },
+  { id: 6, type: "patent", company: "Xtend", headline: "XTEND secures U.S. patent for autonomous navigation technology", source: "The Robot Report", time: "21h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "Apple sues OpenAI over alleged trade secret theft", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets", source: "Wired", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Humanoid", headline: "AI' Robotics raises $735M at $3B valuation for wheeled humanoid robots", source: "The Robot Report", time: "23h ago", impact: "high", unread: false },
+  { id: 10, type: "contract", company: "Anthropic", headline: "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "SpaceX", headline: "Technology and Plan for the Next 100K SpaceX Multi-Gigabit Satellies", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "Raymond James Gives $800 SpaceX Price Target and Analyzing", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "funding", company: "Proxima Fusion", headline: "Nscale secures $1.4B, Proxima Fusion lands '411M, and Invest Europe sees VC rebound", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
