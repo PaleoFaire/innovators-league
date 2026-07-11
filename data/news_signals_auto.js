@@ -1,162 +1,162 @@
 // Auto-generated news signals
-// Last updated: 2026-07-11T08:54:07.025Z
+// Last updated: 2026-07-11T10:21:41.319Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1783760047025,
+    "id": 1783765301319,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here&#8217;s the Actual Math",
     "source": "Next Big Future",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/spacex-will-be-worth-more-than-earth-not-crazy-heres-the-actual-math.html"
   },
   {
-    "id": 1783760047026,
+    "id": 1783765301320,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI’s Head of Safety Is Leaving the Company",
     "source": "Wired",
-    "time": "7h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/openai-head-of-safety-leaving/"
   },
   {
-    "id": 1783760047027,
+    "id": 1783765301321,
     "type": "ipo",
     "company": "Reflect Orbital",
     "headline": "FCC approves first Reflect Orbital satellite",
     "source": "SpaceNews",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/fcc-approves-first-reflect-orbital-satellite/"
   },
   {
-    "id": 1783760047028,
+    "id": 1783765301322,
     "type": "hire",
     "company": "Path Robotics",
     "headline": "How Path Robotics uses AI to optimize robotic welding",
     "source": "The Robot Report",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/how-path-robotics-uses-ai-optimize-robotic-welding/"
   },
   {
-    "id": 1783760047029,
+    "id": 1783765301323,
     "type": "patent",
     "company": "Xtend",
     "headline": "XTEND secures U.S. patent for autonomous navigation technology",
     "source": "The Robot Report",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/xtend-secures-u-s-patent-autonomous-navigation-technology/"
   },
   {
-    "id": 1783760047030,
+    "id": 1783765301324,
     "type": "news",
     "company": "OpenAI",
     "headline": "Apple sues OpenAI over alleged trade secret theft",
     "source": "TechCrunch",
-    "time": "11h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
   },
   {
-    "id": 1783760047031,
+    "id": 1783765301325,
     "type": "news",
     "company": "OpenAI",
     "headline": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
     "source": "Wired",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
   },
   {
-    "id": 1783760047032,
+    "id": 1783765301326,
     "type": "funding",
     "company": "Humanoid",
     "headline": "AI² Robotics raises $735M at $3B valuation for wheeled humanoid robots",
     "source": "The Robot Report",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/"
   },
   {
-    "id": 1783760047033,
+    "id": 1783765301327,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo",
     "source": "Breaking Defense",
-    "time": "13h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://breakingdefense.com/2026/07/air-force-pushing-contractors-to-purge-anthropic-by-sept-1-memo/"
   },
   {
-    "id": 1783760047034,
+    "id": 1783765301328,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Technology and Plan for the Next 100K SpaceX Multi-Gigabit Satellies",
     "source": "Next Big Future",
-    "time": "17h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/07/technology-and-plan-for-the-next-100k-spacex-multi-gigabit-satellies.html"
   },
   {
-    "id": 1783760047035,
+    "id": 1783765301329,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Raymond James Gives $800 SpaceX Price Target and Analyzing",
     "source": "Next Big Future",
-    "time": "17h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/07/raymond-james-gives-800-spacex-price-target-and-analyzing.html"
   },
   {
-    "id": 1783760047036,
+    "id": 1783765301330,
     "type": "funding",
     "company": "Proxima Fusion",
     "headline": "Nscale secures $1.4B, Proxima Fusion lands €411M, and Invest Europe sees VC rebound",
     "source": "Tech.eu",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/07/10/nscale-secures-14b-proxima-fusion-lands-eur411m-and-invest-europe-sees-vc-rebound/"
   },
   {
-    "id": 1783760047037,
+    "id": 1783765301331,
     "type": "hire",
     "company": "Hugging Face",
     "headline": "Hugging Face&#8217;s CEO on why companies are done renting their AI",
     "source": "TechCrunch",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/"
   },
   {
-    "id": 1783760047038,
+    "id": 1783765301332,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "The Download: Claude&#8217;s inner workings and OpenAI&#8217;s &#8220;super app&#8221;",
     "source": "MIT Tech Review",
-    "time": "20h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/"
   },
   {
-    "id": 1783760047039,
+    "id": 1783765301333,
     "type": "news",
     "company": "Humanoid",
     "headline": "1X Neo Humanoid Robotics Hands Match Human Capability",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/1x-neo-humanoid-robotics-hands-match-human-capability.html"
   },
   {
-    "id": 1783760047040,
+    "id": 1783765301334,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup chatter",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/"
   },
   {
-    "id": 1783760047041,
+    "id": 1783765301335,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Could Turn Dish’s Abandoned 5G Network into the Ultimate Hybrid Mobile System",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/spacex-could-turn-dishs-abandoned-5g-network-into-the-ultimate-hybrid-mobile-system.html"
   },
   {
-    "id": 1783760047042,
+    "id": 1783765301336,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Fidji Simo steps down from OpenAI&#8217;s No. 2 role",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/"
   },
   {
-    "id": 1783760047043,
+    "id": 1783765301337,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic found a hidden space where Claude puzzles over concepts",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
   },
   {
-    "id": 1783760047044,
+    "id": 1783765301338,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic Wants You to Pay Up for Claude Fable 5",
