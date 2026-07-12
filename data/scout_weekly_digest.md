@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-07-05
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-07-12
 
-**Roster:** 1115 companies tracked  ·  **Screened this cycle:** 236  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1115 companies tracked  ·  **Screened this cycle:** 237  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -131,14 +131,14 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 - **[Core Memory]** [The Manufacturing Phenomenon That Is SendCutSend - EP 79 Jim Belosic](https://www.corememory.com/p/the-manufacturing-phenomenon-sendcutsend-jim-belosic)
 - **[Core Memory]** [The Freshman Who Took Down Stanford's President And Its Perfect Image - EP 72 Theo Baker](https://www.corememory.com/p/the-freshman-who-took-down-stanford-theo-baker)
 - **[Invest Like the Best]** [Gavin Baker - Watts and Wafers - [Invest Like the Best, EP.473]](https://colossus.com/episode/watts-and-wafers/)
-- **[TBPN]** [Snap SPECS, Taste Labs Timeline Turmoil, AI Execs at G7 | Diet TBPN](https://share.transistor.fm/s/0e942686)
 - **[Core Memory]** [The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event](https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science)
-- **[TBPN]** [Snap Specs, Taste, Midjourney Hardware | Eric Newcomer, Merrill Lutsky, Carter Reum, Swami Sivasubramanian, Thomas Suare](https://share.transistor.fm/s/e959c3d4)
-- **[Core Memory]** [Meta's AI Chief On AI Beef, New Models And Life With Zuck - EP 71 Alex Wang](https://www.corememory.com/p/metas-ai-chief-alex-wang-muse-spark-ai-wars)
-- **[Invest Like the Best]** [Krishna Rao - Anthropic's CFO on Compute, Scaling to $30B ARR, and the Returns to Frontier Intelligence - [Invest Like t](https://colossus.com/episode/cone-of-uncertainty/)
 - **[All-In]** [Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner](https://allinchamathjason.libsyn.com/senators-john-fetterman-and-dave-mccormick-bipartisanship-money-in-dc-datacenters-graham-platner)
+- **[Core Memory]** [The Space Race Is So Back — EP 76 Ashlee Vance And Kylie Robison](https://www.corememory.com/p/the-space-race-is-so-back-ep-76-ashlee)
+- **[All-In]** [Dan Dreyfus: America's Critical Minerals Crisis is Here](https://allinchamathjason.libsyn.com/dan-dreyfus-americas-critical-minerals-crisis-is-here)
+- **[TBPN]** [Blue Origin Raises Capital, Getty-Shutterstock Deal Dies, GPT-5.6 Launches Tomorrow | Diet TBPN](https://share.transistor.fm/s/60d3d67b)
+- **[Core Memory]** [Quantum Everything Explained - EP 81 Prineha Narang](https://www.corememory.com/p/quantum-everything-explained-ep-81)
 
 ---
 
 
-*Generated 2026-07-05T11:08:28+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-07-12T10:30:00+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

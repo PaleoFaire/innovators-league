@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-05T11:01:09+00:00",
+  "generatedAt": "2026-07-12T10:23:18+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 5
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 3
     },
     {
       "name": "Latent Space (swyx)",
@@ -24,13 +24,13 @@
       "name": "Construction Physics (Brian Potter)",
       "url": "https://www.construction-physics.com/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 3
     },
     {
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 3
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
@@ -53,14 +53,14 @@
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 19,
-      "recentItems": 14
+      "totalItems": 17,
+      "recentItems": 17
     },
     {
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 8
+      "recentItems": 9
     },
     {
       "name": "404 Media",
@@ -78,18 +78,56 @@
       "name": "Stratechery (Ben Thompson)",
       "url": "https://stratechery.com/feed/",
       "totalItems": 10,
-      "recentItems": 6
+      "recentItems": 4
     },
     {
       "name": "Platformer (Casey Newton)",
       "url": "https://www.platformer.news/rss",
       "totalItems": 15,
-      "recentItems": 3
+      "recentItems": 4
     }
   ],
   "totalRawSignals": 30,
-  "uniqueCandidateCount": 29,
+  "uniqueCandidateCount": 30,
   "candidates": [
+    {
+      "name": "Muse Image",
+      "totalScore": 17.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Muse Image",
+          "score": 17.0,
+          "frontierTechScore": 6,
+          "mentions": 1,
+          "context": "\u2019s Muse Image/Muse Video push agentic generation into media : Meta Superintelligence Labs launched  Muse Image  and previewed  Muse Video  in announcements from  @AIatMeta ,  @alexandr_wang , and  @_t",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Muse Video",
+      "totalScore": 17.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Muse Video",
+          "score": 17.0,
+          "frontierTechScore": 6,
+          "mentions": 1,
+          "context": "sh agentic generation into media : Meta Superintelligence Labs launched  Muse Image  and previewed  Muse Video  in announcements from  @AIatMeta ,  @alexandr_wang , and  @_tim_brooks . The notable tec",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
+        }
+      ]
+    },
     {
       "name": "LangChain",
       "totalScore": 16.15,
@@ -129,21 +167,135 @@
       ]
     },
     {
-      "name": "ARIA",
+      "name": "Perceptron Egocentric",
+      "totalScore": 15.3,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Perceptron Egocentric",
+          "score": 15.3,
+          "frontierTechScore": 5,
+          "mentions": 1,
+          "context": "ernels and  128k context Robotics, multimodal systems, and AI-for-science @perceptroninc  launched  Perceptron Egocentric , an embodied reasoning/annotation system said to beat pipelines built on  Gem",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
+          "articleUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
+          "articleDate": "Fri, 10 Jul 2026 06:19:40 GMT"
+        }
+      ]
+    },
+    {
+      "name": "AIatMeta",
+      "totalScore": 12.75,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "AIatMeta",
+          "score": 12.75,
+          "frontierTechScore": 6,
+          "mentions": 1,
+          "context": "eta Superintelligence Labs launched  Muse Image  and previewed  Muse Video  in announcements from  @AIatMeta ,  @alexandr_wang , and  @_tim_brooks . The notable technical angle is not just image quali",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
+        }
+      ]
+    },
+    {
+      "name": "MoE",
       "totalScore": 11.9,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "ARIA",
+          "name": "MoE",
           "score": 11.9,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "rd. Several other releases fit the same trend toward specialized infrastructure:  @wandb  launched  ARIA , an autoresearch agent inside W&B;  @agenticin  promoted  Micro-Agent  routing; and  @fitsumre",
+          "context": " is preserving text intelligence while adding broad audio generation and understanding via a single MoE backbone. Cohere launched  Cohere Transcribe Arabic , described as the most accurate open-source",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Robotics",
+      "totalScore": 11.05,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Robotics",
+          "score": 11.05,
+          "frontierTechScore": 5,
+          "mentions": 1,
+          "context": "ported  Qwen3.6-35B-A3B-NVFP4  at  65 tok/s  on dual B60 with custom SYCL kernels and  128k context Robotics, multimodal systems, and AI-for-science @perceptroninc  launched  Perceptron Egocentric , a",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
+          "articleUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
+          "articleDate": "Fri, 10 Jul 2026 06:19:40 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Arabic ASR",
+      "totalScore": 11.05,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Arabic ASR",
+          "score": 11.05,
+          "frontierTechScore": 5,
+          "mentions": 1,
+          "context": "oE backbone. Cohere launched  Cohere Transcribe Arabic , described as the most accurate open-source Arabic ASR model, under  Apache 2.0 , with emphasis on  dialects ,  code-switching , and  Arabic-acc",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
+        }
+      ]
+    },
+    {
+      "name": "ManusAI",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "ManusAI",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "f  OpenWiki Brains  for proactive memory agents from  @BraceSproul ,  @hwchase17 , and  @colifran_ @ManusAI  launched  Branch , allowing parallel sessions that inherit full context @antigravity  descr",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
+          "articleUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
+          "articleDate": "Fri, 10 Jul 2026 06:19:40 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Branch",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Branch",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " for proactive memory agents from  @BraceSproul ,  @hwchase17 , and  @colifran_ @ManusAI  launched  Branch , allowing parallel sessions that inherit full context @antigravity  described investment in ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
+          "articleUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
+          "articleDate": "Fri, 10 Jul 2026 06:19:40 GMT"
         }
       ]
     },
@@ -186,78 +338,40 @@
       ]
     },
     {
-      "name": "Devin Fusion",
-      "totalScore": 10.2,
+      "name": "Seed",
+      "totalScore": 8.1,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Devin Fusion",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "Seed",
+          "score": 8.1,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "stems continues to move from \u201cpick the best model\u201d to  harness engineering .  @cognition  launched  Devin Fusion , a hybrid-model coding harness claiming  35% cost reduction  while maintaining \u201cFable-",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
+          "context": "and Meta  are all launching new foundation models \u2014 with some designed to compete mainly on price.  Seed valuations  for the  top 5% of startups  have entered the stratosphere. Chipmaker  SambaNova  r",
+          "source": "Newcomer (Eric Newcomer)",
+          "sourceUrl": "https://www.newcomer.co/feed",
+          "articleTitle": "Political Risk & Threat Analysis Expertise Are Hot Tickets in Silicon Valley as Trump & AI Shake the World Order",
+          "articleUrl": "https://www.newcomer.co/p/political-risk-and-threat-analysis",
+          "articleDate": "Fri, 10 Jul 2026 13:30:09 GMT"
         }
       ]
     },
     {
-      "name": "Sail",
-      "totalScore": 10.2,
+      "name": "Chipmaker  SambaNova",
+      "totalScore": 8.1,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Sail",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "Chipmaker  SambaNova",
+          "score": 8.1,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "oducts are optimizing specifically for  long-running agents  rather than interactive chat latency.  Sail  launched with  $80M  raised to provide low-cost inference and sandboxes for agents that run  d",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
-          "articleUrl": "https://www.latent.space/p/ainews-openai-reports-median-internal",
-          "articleDate": "Fri, 26 Jun 2026 01:12:30 GMT"
-        }
-      ]
-    },
-    {
-      "name": "ParallelKernelBench",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "ParallelKernelBench",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "elayed or imminent  @scaling01 ,  @scaling01 ,  @scaling01 Benchmarks, research, and systems papers ParallelKernelBench  launched to measure multi-GPU kernel generation, covering  87 problems  from re",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack",
-          "articleUrl": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive",
-          "articleDate": "Wed, 24 Jun 2026 07:14:26 GMT"
-        }
-      ]
-    },
-    {
-      "name": "GPU",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "GPU",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " @scaling01 Benchmarks, research, and systems papers ParallelKernelBench  launched to measure multi-GPU kernel generation, covering  87 problems  from real codebases including Megatron-LM, DeepSpeed, ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack",
-          "articleUrl": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive",
-          "articleDate": "Wed, 24 Jun 2026 07:14:26 GMT"
+          "context": "pete mainly on price.  Seed valuations  for the  top 5% of startups  have entered the stratosphere. Chipmaker  SambaNova  rakes in nine figures. A public twitter spat between  USVC  and  Anduril  high",
+          "source": "Newcomer (Eric Newcomer)",
+          "sourceUrl": "https://www.newcomer.co/feed",
+          "articleTitle": "Political Risk & Threat Analysis Expertise Are Hot Tickets in Silicon Valley as Trump & AI Shake the World Order",
+          "articleUrl": "https://www.newcomer.co/p/political-risk-and-threat-analysis",
+          "articleDate": "Fri, 10 Jul 2026 13:30:09 GMT"
         }
       ]
     },
@@ -319,40 +433,21 @@
       ]
     },
     {
-      "name": "Micro-Agent",
-      "totalScore": 7.65,
+      "name": "Oratomic",
+      "totalScore": 7.0,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Micro-Agent",
-          "score": 7.65,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": " infrastructure:  @wandb  launched  ARIA , an autoresearch agent inside W&B;  @agenticin  promoted  Micro-Agent  routing; and  @fitsumreda  introduced  Nemotron-TwoTower , which clones an AR LLM into ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "In April",
-      "totalScore": 6.0,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "In April",
-          "score": 6.0,
+          "name": "Oratomic",
+          "score": 7.0,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "a couple of agents you all have introduced over the past couple of months that intersect with jobs. In April, you launched one called Amazon Connect Talent, an AI recruiter that autonomously schedules",
-          "source": "Platformer (Casey Newton)",
-          "sourceUrl": "https://www.platformer.news/rss",
-          "articleTitle": "The CEO of AWS on why Amazon is hiring 11,000 interns and junior employees",
-          "articleUrl": "https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/",
-          "articleDate": "Wed, 24 Jun 2026 00:00:32 GMT"
+          "context": "bout  Brex right here . Narang Lab at UCLA:  https://naranglab.ucla.edu DCVC:  https://www.dcvc.com Oratomic (the Caltech neutral atom spinout):  https://www.oratomic.com Atom Computing:  https://atom",
+          "source": "Core Memory (Ashlee Vance)",
+          "sourceUrl": "https://www.corememory.com/feed",
+          "articleTitle": "Quantum Everything Explained - EP 81 Prineha Narang",
+          "articleUrl": "https://www.corememory.com/p/quantum-everything-explained-ep-81",
+          "articleDate": "Wed, 08 Jul 2026 15:16:16 GMT"
         }
       ]
     },
@@ -490,120 +585,6 @@
       ]
     },
     {
-      "name": "DeepSeek",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "DeepSeek",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "uctized , not just discussed:  @cline  launched a  $9.99/mo  pass for discounted access to GLM 5.2, DeepSeek, Kimi, MiniMax, Qwen, etc.;  @cognition  introduced  Devin Fusion , claiming  35% lower cos",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Kimi",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Kimi",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "not just discussed:  @cline  launched a  $9.99/mo  pass for discounted access to GLM 5.2, DeepSeek, Kimi, MiniMax, Qwen, etc.;  @cognition  introduced  Devin Fusion , claiming  35% lower cost  for \u201cFa",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "MiniMax",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "MiniMax",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "st discussed:  @cline  launched a  $9.99/mo  pass for discounted access to GLM 5.2, DeepSeek, Kimi, MiniMax, Qwen, etc.;  @cognition  introduced  Devin Fusion , claiming  35% lower cost  for \u201cFable-le",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Arena",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Arena",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "rid-model harness. Arena crossed meaningful commercial scale :  @arena  and  @ml_angelopoulos  said Arena reached  $100M ARR run rate  eight months after launching its evaluation product, with a platf",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "ARR",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "ARR",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ena crossed meaningful commercial scale :  @arena  and  @ml_angelopoulos  said Arena reached  $100M ARR run rate  eight months after launching its evaluation product, with a platform now emphasizing p",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-          "articleDate": "Tue, 30 Jun 2026 06:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Benchmarks",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Benchmarks",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": ", with disagreement over whether it was delayed or imminent  @scaling01 ,  @scaling01 ,  @scaling01 Benchmarks, research, and systems papers ParallelKernelBench  launched to measure multi-GPU kernel g",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack",
-          "articleUrl": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive",
-          "articleDate": "Wed, 24 Jun 2026 07:14:26 GMT"
-        }
-      ]
-    },
-    {
       "name": "Doug Bernauer",
       "totalScore": 5.4,
       "sourceCount": 1,
@@ -638,6 +619,44 @@
           "articleTitle": "America's Next 250",
           "articleUrl": "https://www.notboring.co/p/americas-next-250",
           "articleDate": "Thu, 02 Jul 2026 14:06:26 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Reddit",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Reddit",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " \u201cin the age of AI, spam, bot activity, and inauthentic content are top of mind for people who love Reddit (and humans).\u201d In the last few weeks, Reddit launched an ad campaign called \u201cpeople are best\u201d",
+          "source": "404 Media",
+          "sourceUrl": "https://www.404media.co/feed",
+          "articleTitle": "LinkedIn and X Are Flooded With AI Spam, Browsing Data Suggests",
+          "articleUrl": "https://www.404media.co/linkedin-and-x-are-flooded-with-ai-spam-browsing-data-suggests/",
+          "articleDate": "Thu, 09 Jul 2026 13:22:11 GMT"
+        }
+      ]
+    },
+    {
+      "name": "For Paradigm",
+      "totalScore": 3.5,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "For Paradigm",
+          "score": 3.5,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "Crypto VC firm Paradigm raises $1.2B to invest in \u2018technical frontier\u2019 startups\nFor Paradigm, the technical frontier will stretch beyond its cryptocurrency investment roots. This f",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Crypto VC firm Paradigm raises $1.2B to invest in \u2018technical frontier\u2019 startups",
+          "articleUrl": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/",
+          "articleDate": "Wed, 08 Jul 2026 16:29:35 +0000"
         }
       ]
     }

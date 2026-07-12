@@ -1,4 +1,4 @@
-// Founder DNA Index — Auto-generated 2026-07-05 11:45
+// Founder DNA Index — Auto-generated 2026-07-12 11:04
 // 964 company founder profiles + 20 sector aggregations + 30 serial founders
 // Cross-referenced from COMPANIES, FOUNDER_MAFIAS, INNOVATOR_SCORES
 // DO NOT EDIT — regenerate with: python3 scripts/generate_founder_dna.py
@@ -23776,8 +23776,8 @@ const FOUNDER_SERIAL_MAP = [
     ],
     "sectors": [
       "AI & Software",
-      "Transportation",
-      "Space & Aerospace"
+      "Space & Aerospace",
+      "Transportation"
     ],
     "totalCapitalRaisedM": 87975.0
   },
@@ -23789,8 +23789,8 @@ const FOUNDER_SERIAL_MAP = [
       "Axiom Space"
     ],
     "sectors": [
-      "Nuclear Energy",
-      "Space & Aerospace"
+      "Space & Aerospace",
+      "Nuclear Energy"
     ],
     "totalCapitalRaisedM": 1755.0
   },
@@ -23802,8 +23802,8 @@ const FOUNDER_SERIAL_MAP = [
       "DEFCON AI"
     ],
     "sectors": [
-      "Defense & Security",
-      "Climate & Energy"
+      "Climate & Energy",
+      "Defense & Security"
     ],
     "totalCapitalRaisedM": 159.0
   },
@@ -23837,8 +23837,8 @@ const FOUNDER_SERIAL_MAP = [
       "Palantir"
     ],
     "sectors": [
-      "Defense & Security",
-      "AI & Software"
+      "AI & Software",
+      "Defense & Security"
     ],
     "totalCapitalRaisedM": 3550.0
   },
@@ -23907,8 +23907,8 @@ const FOUNDER_SERIAL_MAP = [
       "Citra Space Corporation"
     ],
     "sectors": [
-      "Defense & Security",
-      "Space & Aerospace"
+      "Space & Aerospace",
+      "Defense & Security"
     ],
     "totalCapitalRaisedM": 1015.0
   },
@@ -23919,8 +23919,8 @@ const FOUNDER_SERIAL_MAP = [
       "Citra Space Corporation"
     ],
     "sectors": [
-      "Defense & Security",
-      "Space & Aerospace"
+      "Space & Aerospace",
+      "Defense & Security"
     ],
     "totalCapitalRaisedM": 1015.0
   },
@@ -23986,8 +23986,8 @@ const FOUNDER_SERIAL_MAP = [
       "Fortastra"
     ],
     "sectors": [
-      "Supersonic & Hypersonic",
-      "Space & Aerospace"
+      "Space & Aerospace",
+      "Supersonic & Hypersonic"
     ],
     "totalCapitalRaisedM": 508.0
   },
@@ -24021,8 +24021,8 @@ const FOUNDER_SERIAL_MAP = [
       "Frankenburg Technologies"
     ],
     "sectors": [
-      "Defense & Security",
-      "Climate & Energy"
+      "Climate & Energy",
+      "Defense & Security"
     ],
     "totalCapitalRaisedM": 432.0
   },
