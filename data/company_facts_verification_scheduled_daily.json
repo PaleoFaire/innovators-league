@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-11T07:42:18+00:00",
+  "generatedAt": "2026-07-12T08:01:02+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 31,
+  "cohortSize": 32,
   "newExtractionsThisRun": 0,
   "summary": {
     "cleared": 0,
     "changesProposed": 0,
-    "unverifiable": 31
+    "unverifiable": 32
   },
   "cleared": [],
   "changesProposed": [],
@@ -49,6 +49,10 @@
       "reason": "Claude extraction failed"
     },
     {
+      "name": "Gecko Robotics",
+      "reason": "Claude extraction failed"
+    },
+    {
       "name": "Humanoid",
       "reason": "Claude extraction failed"
     },
@@ -57,7 +61,7 @@
       "reason": "Claude extraction failed"
     },
     {
-      "name": "Kraken Robotics",
+      "name": "Karman Industries",
       "reason": "Claude extraction failed"
     },
     {
@@ -70,10 +74,6 @@
     },
     {
       "name": "Path Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Photonic Inc",
       "reason": "Claude extraction failed"
     },
     {
@@ -98,6 +98,10 @@
     },
     {
       "name": "Scale AI",
+      "reason": "Claude extraction failed"
+    },
+    {
+      "name": "Solugen",
       "reason": "Claude extraction failed"
     },
     {
