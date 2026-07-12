@@ -1,8 +1,8 @@
 // Auto-generated news signals
-// Last updated: 2026-07-12T17:12:14.839Z
+// Last updated: 2026-07-12T19:16:56.203Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1783876334838,
+    "id": 1783883816202,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI bets on families as ChatGPT goes deeper into households",
@@ -13,7 +13,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
   },
   {
-    "id": 1783876334839,
+    "id": 1783883816203,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here&#8217;s the Actual Math",
@@ -24,7 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/spacex-will-be-worth-more-than-earth-not-crazy-heres-the-actual-math.html"
   },
   {
-    "id": 1783876334840,
+    "id": 1783883816204,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI’s Head of Safety Is Leaving the Company",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-head-of-safety-leaving/"
   },
   {
-    "id": 1783876334841,
+    "id": 1783883816206,
     "type": "ipo",
     "company": "Reflect Orbital",
     "headline": "FCC approves first Reflect Orbital satellite",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/fcc-approves-first-reflect-orbital-satellite/"
   },
   {
-    "id": 1783876334842,
+    "id": 1783883816207,
     "type": "hire",
     "company": "Path Robotics",
     "headline": "How Path Robotics uses AI to optimize robotic welding",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/how-path-robotics-uses-ai-optimize-robotic-welding/"
   },
   {
-    "id": 1783876334843,
+    "id": 1783883816208,
     "type": "patent",
     "company": "Xtend",
     "headline": "XTEND secures U.S. patent for autonomous navigation technology",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/xtend-secures-u-s-patent-autonomous-navigation-technology/"
   },
   {
-    "id": 1783876334844,
+    "id": 1783883816209,
     "type": "news",
     "company": "OpenAI",
     "headline": "Apple sues OpenAI over alleged trade secret theft",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
   },
   {
-    "id": 1783876334845,
+    "id": 1783883816210,
     "type": "news",
     "company": "OpenAI",
     "headline": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
   },
   {
-    "id": 1783876334846,
+    "id": 1783883816211,
     "type": "funding",
     "company": "Humanoid",
     "headline": "AI² Robotics raises $735M at $3B valuation for wheeled humanoid robots",
@@ -101,18 +101,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/"
   },
   {
-    "id": 1783876334847,
+    "id": 1783883816212,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo",
     "source": "Breaking Defense",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://breakingdefense.com/2026/07/air-force-pushing-contractors-to-purge-anthropic-by-sept-1-memo/"
   },
   {
-    "id": 1783876334849,
+    "id": 1783883816213,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Technology and Plan for the Next 100K SpaceX Multi-Gigabit Satellies",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/technology-and-plan-for-the-next-100k-spacex-multi-gigabit-satellies.html"
   },
   {
-    "id": 1783876334850,
+    "id": 1783883816214,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Raymond James Gives $800 SpaceX Price Target and Analyzing",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/raymond-james-gives-800-spacex-price-target-and-analyzing.html"
   },
   {
-    "id": 1783876334851,
+    "id": 1783883816215,
     "type": "funding",
     "company": "Proxima Fusion",
     "headline": "Nscale secures $1.4B, Proxima Fusion lands €411M, and Invest Europe sees VC rebound",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/10/nscale-secures-14b-proxima-fusion-lands-eur411m-and-invest-europe-sees-vc-rebound/"
   },
   {
-    "id": 1783876334852,
+    "id": 1783883816216,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "The Download: Claude&#8217;s inner workings and OpenAI&#8217;s &#8220;super app&#8221;",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/"
   },
   {
-    "id": 1783876334853,
+    "id": 1783883816217,
     "type": "news",
     "company": "Humanoid",
     "headline": "1X Neo Humanoid Robotics Hands Match Human Capability",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/1x-neo-humanoid-robotics-hands-match-human-capability.html"
   },
   {
-    "id": 1783876334854,
+    "id": 1783883816218,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Could Turn Dish’s Abandoned 5G Network into the Ultimate Hybrid Mobile System",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/spacex-could-turn-dishs-abandoned-5g-network-into-the-ultimate-hybrid-mobile-system.html"
   },
   {
-    "id": 1783876334855,
+    "id": 1783883816219,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic found a hidden space where Claude puzzles over concepts",
@@ -189,18 +189,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
   },
   {
-    "id": 1783876334856,
+    "id": 1783883816220,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic Wants You to Pay Up for Claude Fable 5",
     "source": "Wired",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/"
   },
   {
-    "id": 1783876334857,
+    "id": 1783883816221,
     "type": "news",
     "company": "Waymo",
     "headline": "New bill would ban Tesla&#8217;s camera-only Robotaxi, not Waymo",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/07/09/new-jersey-bill-tesla-camera-robotaxi/"
   },
   {
-    "id": 1783876334858,
+    "id": 1783883816222,
     "type": "news",
     "company": "Humanoid",
     "headline": "Beyond da Vinci: Why versatile humanoid robots are the next frontier in surgery",
