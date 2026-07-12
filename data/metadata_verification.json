@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T10:07:40Z",
+  "generated_at": "2026-07-12T09:47:04Z",
   "company_count": 964,
   "checks": {
     "acquisition_language": [],
@@ -28,6 +28,16 @@
       },
       {
         "name": "Intuitive Machines",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "Venus Aerospace",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "Blue Origin",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       },
@@ -1271,20 +1281,20 @@
     ],
     "stage_vocabulary": {
       "Series A": 264,
-      "Series B": 189,
-      "Seed": 164,
+      "Series B": 187,
+      "Seed": 165,
       "Series C": 99,
       "Public": 54,
-      "Series D": 38,
+      "Series D": 37,
       "Growth": 24,
       "Pre-Seed": 23,
-      "Series E": 17,
+      "Series E": 18,
       "Series G": 14,
       "Late Stage": 11,
-      "Private": 9,
       "Series F": 8,
+      "Private": 8,
+      "SPAC": 8,
       "IPO": 6,
-      "SPAC": 6,
       "Pre-IPO": 4,
       "Bootstrapped": 3,
       "Public (KOSDAQ)": 3,
@@ -1314,13 +1324,6 @@
       "Growth + Offtake": 1
     },
     "web_probes": [
-      {
-        "kind": "unreachable_website",
-        "name": "Core Automation",
-        "url": "https://coreautomation.ai",
-        "error": "SSLError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
-      },
       {
         "kind": "rebrand_suspect",
         "name": "Dominion Dynamics",
@@ -1392,11 +1395,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "dead_website",
+        "kind": "unreachable_website",
         "name": "Extropic",
         "url": "https://extropic.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "dead_website",
@@ -1441,11 +1444,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "dead_website",
+        "kind": "unreachable_website",
         "name": "Rune Technologies",
         "url": "https://runetechnologies.co",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "dead_website",
@@ -1455,11 +1458,11 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "rebrand_suspect",
         "name": "AMP Robotics",
-        "url": "https://amprobotics.com",
-        "error": "ReadTimeout",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "old_url": "https://amprobotics.com",
+        "new_url": "https://ampsortation.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
         "kind": "rebrand_suspect",
@@ -1483,11 +1486,11 @@
         "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
-        "kind": "dead_website",
+        "kind": "unreachable_website",
         "name": "Overland AI",
         "url": "https://overlandai.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
@@ -1541,8 +1544,8 @@
     ]
   },
   "summary": {
-    "p0_issues": 19,
-    "p1_issues": 17,
+    "p0_issues": 20,
+    "p1_issues": 16,
     "missing_websites": 243,
     "distinct_stages": 42
   }

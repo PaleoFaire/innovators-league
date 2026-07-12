@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-05T10:07:37.721631+00:00",
-  "week_ending": "2026-07-05",
+  "generated_at": "2026-07-12T09:47:02.196902+00:00",
+  "week_ending": "2026-07-12",
   "window_days": 7,
-  "events_processed": 6,
-  "companies_touched": 6,
+  "events_processed": 5,
+  "companies_touched": 4,
   "companies_moved": 1,
   "companies_unchanged": 3,
   "movers_up_top20": [
     {
-      "company": "Archer Aviation",
+      "company": "Intuitive Machines",
       "delta": 1.5,
-      "new_composite": 69.5,
-      "old_composite": 68.0,
+      "new_composite": 63.0,
+      "old_composite": 61.5,
       "new_tier": "strong",
       "reasons": [
         "[exec_hire_star] "
@@ -23,52 +23,44 @@
   "first_time_elite": [],
   "top_headlines": [
     {
-      "company": "Centrus Energy",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-07-02",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-046801%22&dateRange=custom&forms=8-K"
-    },
-    {
       "company": "Rivian",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-07-02",
+      "date": "2026-07-09",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001874178-26-000048%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-081988%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "D-Wave Quantum",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-30",
+      "date": "2026-07-07",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000093%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000097%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Archer Aviation",
+      "company": "Intuitive Machines",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-30",
+      "date": "2026-07-06",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001824502-26-000046%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-080566%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Rocket Lab",
+      "company": "Rivian",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-29",
+      "date": "2026-07-06",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001753926-26-001085%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-080813%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "UiPath",
+      "company": "Satellogic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-06-29",
+      "date": "2026-07-06",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001734722-26-000043%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-075561%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {
