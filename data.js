@@ -73151,9 +73151,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-12 11:18
+// Last updated: 2026-07-12 13:46
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI bets on families as ChatGPT goes deeper into households", source: "TechCrunch", time: "21h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI bets on families as ChatGPT goes deeper into households", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here's the Actual Math", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "news", company: "OpenAI", headline: "OpenAI's Head of Safety Is Leaving the Company", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "Reflect Orbital", headline: "FCC approves first Reflect Orbital satellite", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
@@ -73167,7 +73167,7 @@ const COMPANY_SIGNALS = [
   { id: 12, type: "ipo", company: "SpaceX", headline: "Raymond James Gives $800 SpaceX Price Target and Analyzing", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "funding", company: "Proxima Fusion", headline: "Nscale secures $1.4B, Proxima Fusion lands '411M, and Invest Europe sees VC rebound", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "hire", company: "Hugging Face", headline: "Hugging Face's CEO on why companies are done renting their AI", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "OpenAI", headline: "The Download: Claude's inner workings and OpenAI's &#8220;super app&#8221;", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "OpenAI", headline: "The Download: Claude's inner workings and OpenAI's &#8220;super app&#8221;", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
