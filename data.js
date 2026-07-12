@@ -73151,7 +73151,7 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-12 16:06
+// Last updated: 2026-07-12 17:12
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "OpenAI", headline: "OpenAI bets on families as ChatGPT goes deeper into households", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here's the Actual Math", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
@@ -73166,8 +73166,8 @@ const COMPANY_SIGNALS = [
   { id: 11, type: "ipo", company: "SpaceX", headline: "Technology and Plan for the Next 100K SpaceX Multi-Gigabit Satellies", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "Raymond James Gives $800 SpaceX Price Target and Analyzing", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 13, type: "funding", company: "Proxima Fusion", headline: "Nscale secures $1.4B, Proxima Fusion lands '411M, and Invest Europe sees VC rebound", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Hugging Face", headline: "Hugging Face's CEO on why companies are done renting their AI", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "OpenAI", headline: "The Download: Claude's inner workings and OpenAI's &#8220;super app&#8221;", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "OpenAI", headline: "The Download: Claude's inner workings and OpenAI's &#8220;super app&#8221;", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Humanoid", headline: "1X Neo Humanoid Robotics Hands Match Human Capability", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
