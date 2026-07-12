@@ -1,5 +1,5 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-07-11 08:31:32 UTC
+// Last updated: 2026-07-12 08:56:38 UTC
 // Total grants: 635 | Known companies: 10 | SBIR: 15
 // Total funding tracked: $385,957,297
 const NIH_GRANTS_AUTO = [

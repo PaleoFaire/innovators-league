@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-07-11",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-48",
-    "payload": "Starlink Group 17-48",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/135fb199-a39e-48cc-ba27-0aecd96ba9f8/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-07-14",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 15-14",
     "payload": "Starlink Group 15-14",
@@ -36,21 +27,21 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-15",
-    "vehicle": "Starship | Flight 13",
-    "payload": "Flight 13",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-07-16",
     "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
     "payload": "SDA Tranche 1 Transport Layer E",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d9adedc4-8fa1-4a36-84f9-43b8893a6865/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-16",
+    "vehicle": "Starship | Flight 13",
+    "payload": "Flight 13",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -448,5 +439,14 @@
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7bdc412b-c965-4517-a131-f57a01189803/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Electron | StriX Launch 12",
+    "payload": "StriX Launch 12",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
+    "trackedCompany": "Rocket Lab"
   }
 ]

@@ -1093,180 +1093,680 @@
     "website": ""
   },
   {
-    "id": 145049,
-    "title": "Quantum Atomic Rydberg Radiometer for Earth Measurements",
-    "description": "Decades of operational and scientific mission experience have proven that microwave radiometers (MR) are invaluable for collecting accurate, frequent data resulting in atmospheric sounding and surface imaging measurements of a wide range of geophysical phenomena. Retrievals of atmospheric temperature and humidity profiles are obtained routinely from several MR (e.g. ATMS, AMSU, SSMI/S) using channels near the 60 GHz (V-band) oxygen and 183 GHz (G-band) water absorption features. These data, and ",
-    "status": "Completed",
-    "startDate": "Feb 2023",
-    "endDate": "Feb 2026",
-    "lastUpdated": "06/26/26",
-    "center": "ColdQuanta, Inc.",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "ColdQuanta, Inc.",
-      "Ball Aerospace & Technologies Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 145039,
-    "title": "Compact ultra-violet spectropolarimetry enabled by meta-grating technologies",
-    "description": "Significant differential absorption in the ultraviolet (UV) Huggins bands of ozone presents a variable, ozone specific polarimetric signature that can be discerned with sufficient sensitivity spectro-polarimetric measurements to separate the signature of harmful near surface ozone from the stronger signals of stratospheric ozone. As outlined as a 'most important' objective in the 2017 Earth Science Decadal survey, the earth science air quality community stands to benefit from tracking ozone in t",
-    "status": "Completed",
-    "startDate": "Mar 2023",
-    "endDate": "Mar 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "California Institute of Technology"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117181,
-    "title": "Embedded PNT Module for Distributed Radar Sensing",
-    "description": "Techniques for collecting interferometric synthetic aperture radar (SAR) data over multiple simulta-neous baselines, such as polarimetric interferometric and tomographic SAR (PolInSAR and TomoSAR), are emerging as key enablers for new insights into Surface Topography and Vegetation (STV) science. To fully realize the accuracy and resolution benefits of these distributed interferomet-ric techniques, however, the precise relative positioning and timing of the distributed sensing plat-forms must be",
-    "status": "Completed",
-    "startDate": "Jun 2022",
-    "endDate": "Feb 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Aloft Sensing, Inc.",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Aloft Sensing, Inc.",
-      "Wide Swath Research, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183283,
-    "title": "Hot Spot: High-Resolution Real-Time Wildfire Detection, Mapping, and Communication Relay System with Persistent Broad-Area Coverage",
-    "description": "As wildfires continue to surge in intensity and frequency, threatening communities and ecosystems, there is a pressing need for advanced detection and monitoring solutions. As wildfires change, so to must the technology solutions we use to sense and fight them. At the heart of this proposal lies the central objective: the development, advancement, and deployment of a cutting-edge sensor system for the overall management of wildfires. Envision this system as a vigilant sentinel, floating high abo",
-    "status": "Active",
-    "startDate": "Jul 2024",
-    "endDate": "Jul 2027",
-    "lastUpdated": "06/26/26",
-    "center": "Urban Sky Theory, Inc.",
-    "technologyArea": "Information Processing and Artificial Intelligence",
-    "partners": [
-      "Urban Sky Theory, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 117257,
-    "title": "High Resolution PBL Profiling with LEO-LEO Occultation",
-    "description": "The planetary boundary layer (PBL) has been recognized in the 2017-2027 Decadal Survey for Earth Science and Applications from Space [ESAS 2017] as a key Earth science targeted observable essential across multiple discipline areas. ESAS 2017 specifically called out high-resolution vertical profiles of temperature and water vapor as well as PBL height as the most important physical parameters to measure from space. While existing remote sensing technology such as GNSS radio occultation (RO) can p",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Mar 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157517,
-    "title": "Technology Development to Integrate Innovative Observation Capabilities into Coupled Wildfire Models for Improved Active Fire Forecasting",
-    "description": "Accurate wildfire and smoke modeling is extremely sensitive to the initial conditions: how dry are the fuels, where are the strongest winds, where is fire burning, and how high is the smoke being lofted? How and where these elements of the combustion triangle come together has a dramatic influence on the subsequent fire spread and smoke production. Current observational capabilities lack the coverage, resolution, and timeliness to produce the firefighter-scale forecasts that are needed to signif",
-    "status": "Active",
-    "startDate": "Sep 2023",
-    "endDate": "Aug 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Colorado State University-Fort Collins",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Colorado State University-Fort Collins"
-    ],
-    "website": ""
-  },
-  {
-    "id": 116130,
-    "title": "TransCal \u2013 An Innovative, Highly Accurate, Transmissive Radiometric Calibration Approach",
-    "description": "TransCal is an innovative calibration approach using Polymer Dispersed Liquid Crystal (PDLC) material to continue the precise solar diffuser based radiometric calibration used extensively in the Landsat program, while significantly reducing the size and complexity of the calibration subsystem. An essential aspect underlying the utility of the long-term Landsat data record is extensive pre-launch sensor characterization and on-orbit calibration. To improve on current earth remote sensing capabili",
-    "status": "Completed",
-    "startDate": "Oct 2020",
-    "endDate": "Dec 2024",
-    "lastUpdated": "06/26/26",
-    "center": "Ball Aerospace & Technologies Corporation",
-    "technologyArea": "Optical Components",
-    "partners": [
-      "Ball Aerospace & Technologies Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117239,
-    "title": "GEOS Visualization And Lagrangian dynamics Immersive eXtended Reality Tool for Scientific Discovery",
-    "description": "Traditionally, scientists view and analyze the results of calculated or measured observables with static 1-dimensional (1-D), 2-D or 3-D plots. It is difficult to identify, track and understand the evolution of key features in this framework due to poor viewing angles and the nature of flat computer screens. In addition, numerical models, such as the NASA Goddard Earth Observing System (GEOS) climate/weather model, are almost exclusively formulated and analyzed on Eulerian grids with fixed grid ",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Jan 2025",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Information Processing and Artificial Intelligence",
-    "partners": [
-      "NASA Headquarters",
-      "Goddard Space Flight Center",
-      "Morgan State University",
-      "University of Maryland-Baltimore County",
-      "University of Maryland-College Park",
-      "University of North Texas"
-    ],
-    "website": ""
-  },
-  {
-    "id": 116089,
-    "title": "Non-Volatile, Low Power, and High Density SiC Memory For Future Venus Missions",
-    "description": "The Hot Operating Temperature Technology 2021 Program goal \"is to develop and mature technologies that will enable, significantly enhance, or reduce technical risk for in-situ missions to high-temperature environments with temperatures of 500 degrees Celsius or higher for a period of at least 60 days\" including \"Low-Power Electrical Circuits (<1000 mW)\". One major technology gap for long term Venus surface exploration is low-power high density digital memory. This proposal directly addresses thi",
-    "status": "Completed",
-    "startDate": "Feb 2022",
-    "endDate": "Jan 2025",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "NASA Headquarters",
-      "Glenn Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117261,
-    "title": "A Framework for Global Cloud Resolving OSSEs",
-    "description": "Motivation: The larger vision of an Earth System Digital Twin (ESDT) set forth in the AIST solicitation calls for integrated Earth science frameworks that mirror the earth by a proxy digital construct that includes high resolution earth system models and data assimilation systems along with integrated set of analytic tools to enable the next generation of science discoveries and evidence-based decision making. Among the many applications of these frameworks is the design of future observing syst",
+    "id": 117312,
+    "title": "Digital Twin Infrastructure Model for Agricultural Applications",
+    "description": "Fully coupled Earth system models are fundamental to timely and accurate weather and climate change information. These process-based estimates are then used as critical inputs in a variety of end-use earth system environments. For example, agricultural models require inputs of precipitation, temperature and moisture conditions along with historical data as key weather parameters to develop estimates of field operations schedules, from seeding to harvesting, with fertilizer and herbicide treatmen",
     "status": "Completed",
     "startDate": "Aug 2022",
     "endDate": "Jul 2025",
     "lastUpdated": "06/26/26",
     "center": "NASA Headquarters",
-    "technologyArea": "Cloud Computing",
+    "technologyArea": "Modeling",
     "partners": [
       "NASA Headquarters",
       "Goddard Space Flight Center",
+      "USDA Agricultural Research Service",
+      "USDA National Agricultural Statistics Service"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183192,
+    "title": "A Spaceborne Vacuum Ultraviolet (VUV) Fourier Transform Spectrometer (FTS)",
+    "description": "Fourier transform spectroscopy is a powerful technique yielding unparalleled resolution at visible and Infrared (IR) wavelengths. Traditionally, a Fourier Transform Spectrometer (FTS) is based on a Michelson Interferometer, which utilizes transmissive beam splitters to separate incoming light for interferometry. This has limited FTSs to wavelengths above ~140 nm because transmissive optics become increasingly inefficient below this wavelength. Recently, a new all-reflective FTS was developed at ",
+    "status": "Active",
+    "startDate": "Mar 2024",
+    "endDate": "Feb 2027",
+    "lastUpdated": "06/26/26",
+    "center": "University of Colorado Boulder",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of Colorado Boulder",
+      "Synchrotron SOLEIL",
+      "University of Colorado Boulder Laboratory for Atmospheric and Space Physics"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157523,
+    "title": "Blue Laser for Ocean Lidar",
+    "description": "Develop a low-SWaP 486-nm laser transmitter for spaceborne ocean profiling",
+    "status": "Completed",
+    "startDate": "Mar 2021",
+    "endDate": "Dec 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Lasers",
+    "partners": [
+      "Langley Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183284,
+    "title": "Identify Best-fit and Optimize AI/ML models to support the Digital Twins related to Air Quality",
+    "description": "NSF IUCRC Center for Spatiotemporal Thinking, Computing, and Applications (STC), Project: The proposed work continues done last year in analyzing and comparing various Machine Learning techniques for air quality and GHG measurements analysis. In this continuation project, the following tasks will be completed: (1) Continue the systematic study of AI/ML algorithms for air quality analysis; (2) Create an open-source AI/ML toolkit for Air Quality and integrate it in the AIST AQACF and FireAlarm pro",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Jul 2025",
+    "lastUpdated": "06/26/26",
+    "center": "George Mason University",
+    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "George Mason University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182310,
+    "title": "SoOp verification for Rydberg MW sensor - Demonstration of multi-frequency (L and S band) radar remote sensing using a quantum Rydberg receiver instrument (IIP-24)",
+    "description": "Objectives for technology investment: \u2022 Snow Depth and Snow Water Equivalent Targeted Observables for Earth System Explorer \u2022 Snow measurement in mountain snow (P-L band) \u2022 Surface Topography and Vegetation for Decadal Survey Incubation \u2022 Vegetation water content profiling (vertical profiling with multi-frequency P-Ka band signals) \u2022 Soil moisture depth profiling (depth profiling to root zone soil moisture with multi-band I/VHF-C band) \u2022 Focus area: Coupling of the water and energy cycles  Key t",
+    "status": "Completed",
+    "startDate": "Jan 2025",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "partners": [
       "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
   {
-    "id": 183826,
-    "title": "A Magnetometer Based on Magneto-Optical Effects for Space Applications",
-    "description": "Accurate measurements of magnetic fields in geospace are necessary to address fundamental problems of modern space physics that have an important application in relation to human technological systems, and inform satellite design and operations. Future space exploration will benefit from highly sensitive magnetometers able to measure magnetic fields over a large range of frequencies. Although there are many magnetometer designs used in space in the past sixty years, two of the most common in his",
+    "id": 157521,
+    "title": "Sustainable Land Imaging - Technology: Integrated Photonic Imaging Spectrometer",
+    "description": "Northrop Grumman Aerospace Systems (NGAS) proposes to build and demonstrate an integrated photonic imaging instrument, which promises to revolutionize spectral sensing and offers a cost effective and sustainable path to future land imaging needs and architectures. The Landsat program has provided critical sensing of our Earth for over 40 years, delivering essential products and understanding of changing land use to scientists and users around the world. It is imperative that we continue and exte",
+    "status": "Completed",
+    "startDate": "Sep 2016",
+    "endDate": "Mar 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Northrop Grumman Systems Corporation",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Northrop Grumman Systems Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117255,
+    "title": "Terrestrial Environmental Rapid-Replicating Assimilation Hydrometeorology System: A machine-learning coupled water, energy, and vegetation terrestrial Earth System Digital Twin",
+    "description": "The Earth's environment is changing rapidly, resulting in more extreme weather and increased risk from weather and climate related phenomena. Land Surface Models (LSMs) are a critical component of climate and weather forecasting models, and are integral tools for regional drought monitoring, agricultural monitoring and prediction, famine early warning systems, and flood forecasting, among other things. A vital part of NASA's Earth Science mission includes supporting terrestrial models (LSMs) tha",
+    "status": "Completed",
+    "startDate": "Jul 2022",
+    "endDate": "Jul 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Science Systems and Applications, Inc.",
+    "technologyArea": "Information Processing and Artificial Intelligence",
+    "partners": [
+      "Science Systems and Applications, Inc.",
+      "The University of Alabama"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183300,
+    "title": "Solar wind Pickup Ion Composition Energy Spectrometer",
+    "description": "We propose developing a new heavy ion mass spectrometer as part of the Technology Development (TD) opportunity for the IMAP mission, which will be capable of resolvinglow-q pickup, thermal solar wind, and suprathermal ions in triple coincidence.",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2024",
+    "lastUpdated": "06/26/26",
+    "center": "University of Michigan-Ann Arbor",
+    "technologyArea": "Field and Particle Detectors",
+    "partners": [
+      "University of Michigan-Ann Arbor"
+    ],
+    "website": ""
+  },
+  {
+    "id": 185970,
+    "title": "Providing Impact via Large Language models for Access and Retrieval (PILLAR) Pilot Project Plan, Optimized for Rapid Results",
+    "description": "Vision Enable dramatically broader, faster, more rigorous, and more intuitive use of NASA Earth Science data by scientists, researchers, policy analysts, and commercial users without requiring deep mission-specific expertise.  Capability Enable modern and future LLM\u2019s to skillfully recommend and guide the usage of NASA Earth Science data sets for a broad variety of user needs.  Approach Demonstrate measurable improvement in LLM performance for Earth data discovery, access, and analysis by genera",
+    "status": "Active",
+    "startDate": "Sep 2025",
+    "endDate": "Aug 2028",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Intelligent Data Understanding",
+    "partners": [
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182377,
+    "title": "Development of next generation compact time-of-flight plasma instruments for heliophysics exploration.",
+    "description": "Key limiting factor in carbon foil based, mass-discriminating time-of-flight ion plasma instruments in the 0 eV to 10s of keV energy range (e.g., ion outflow, ion precipitation, plasmasphere, cloak, plasma sheet, lower ring current, magnetotail, and core solar wind populations) is the use of ulta-thin carbin foils. These foils drive instrument design, requiring significant post acceletation voltage (~15-25 kV, depending on science reqjuirements). These voltages require larger high voltage power ",
     "status": "Active",
     "startDate": "May 2025",
-    "endDate": "Apr 2028",
+    "endDate": "May 2028",
     "lastUpdated": "06/26/26",
-    "center": "University of Colorado Boulder",
+    "center": "",
     "technologyArea": "In Situ Instruments and Sensors",
     "partners": [
-      "University of Colorado Boulder",
-      "University of Colorado Boulder Laboratory for Atmospheric and Space Physics",
-      "University of Colorado Colorado Springs"
+      "Southwest Research Institute - San Antonio"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182385,
+    "title": "Veery: Flat-panel Scatterometer for Hourly Ocean Surface Vector Winds",
+    "description": "Current sources of ocean surface vector winds (OSVW) have significant limitations in temporal sampling. Without frequent, global OSVW, it's impossible to observe large-scale extreme weather systems at the level required to thoroughly understand them. These systems affect everyone on Earth and especially the most vulnerable. Increasing refresh of OSVW requires a satellite constellation. Current OSVW satellites cost too much to deploy and maintain a constellation. Passive OSVW satellites (reflecto",
+    "status": "Active",
+    "startDate": "Jul 2025",
+    "endDate": "Jul 2028",
+    "lastUpdated": "06/26/26",
+    "center": "Care Weather Technologies",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Care Weather Technologies",
+      "Brigham Young University-Provo",
+      "Florida State University",
+      "Marshall Space Flight Center",
+      "Northrop Grumman Space Systems",
+      "Rutgers University-New Brunswick"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157496,
+    "title": "ARCSTONE: Calibration of Lunar Spectral Reflectance from Space",
+    "description": "Calibration accuracy and long-term stability are the primary on-orbit performance metrics for all Earth observing sensors. The challenges in achieving the radiometric accuracy and stability levels over the long timescales that are needed for understanding complex systems such as Earth's weather and climate are well recognized by the science community, both nationally and internationally. These parameters are directly connected to the measurement accuracy and scientific value of Earth observing d",
+    "status": "Completed",
+    "startDate": "Aug 2021",
+    "endDate": "Mar 2026",
+    "lastUpdated": "06/26/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Langley Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117243,
+    "title": "Open Climate Workbench to support efficient and innovative analysis of NASA's high-resolution observations and modeling datasets",
+    "description": "We propose to develop an Analytic Collaborative Framework (ACF) that can power the processing flow of large and complex Earth science datasets and advance the scientific analysis of those datasets. In the proposed ACF development, we aim to address one of the current, fundamental challenges faced by the climate science community: bringing together vast amounts of both model and satellite observation data at different spatial and temporal resolutions in a high-performance, service-based cyberinfr",
+    "status": "Completed",
+    "startDate": "Aug 2022",
+    "endDate": "Aug 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Jet Propulsion Laboratory",
+      "The University of Texas at Dallas",
+      "University of Utah"
+    ],
+    "website": ""
+  },
+  {
+    "id": 97163,
+    "title": "Development of a Novel Magnetic Nano-Transmitter Plasma Wave Antenna",
+    "description": "We propose development of a novel magnetic loop antenna incorporating a high magnetic permeability ferrofluid core. The concept is based on a colloidal suspension of single-domain magnetic nanoparticles, which behave similar to a ferromagnet when driven by an AC magnetic field, but with very low coercivity and very low hysteresis loss. This proposal focuses on optimization of nanoparticle material selection and dipole geometry/configuration to develop a compact, high efficiency, low power labora",
+    "status": "Completed",
+    "startDate": "Mar 2021",
+    "endDate": "Sep 2024",
+    "lastUpdated": "06/26/26",
+    "center": "Naval Research Laboratory",
+    "technologyArea": "Field and Particle Detectors",
+    "partners": [
+      "Naval Research Laboratory",
+      "University of Maryland-College Park"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182354,
+    "title": "Integrating Explainable Machine Learning with Physics for Enhanced Wildfire Detection in Observation-Constrained Environments",
+    "description": "Satellite-based fire detection provides critical data for fire management, fire spread modeling, air quality forecasts, and assessments of fire impacts on ecosystems and communities. Current fire detection algorithms, whether physics-based or machine learning (ML)-based, frequently fail when wildfires are obscured by dense clouds or smoke, creating data gaps that degrade the quality of air quality and fire emissions estimates. Part of the problem is the lack of training data for fires beneath cl",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Mar 2026",
+    "lastUpdated": "06/26/26",
+    "center": "American University",
+    "technologyArea": "Fire Detection, Suppression, and Recovery",
+    "partners": [
+      "American University",
+      "Goddard Space Flight Center",
+      "NOAA National Environmental Satellite, Data, and Information Service"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182357,
+    "title": "Connecting a Broad Community to Earth System Digital Twin Technologies at the Interface of Atmospheric Composition with the Earth System",
+    "description": "Atmospheric chemistry models are essential components in the representation of the Earth system through Earth System Digital Twins (ESDTs) to interpret observations and enable predictions for a range of scientific investigations at the interface of atmospheric composition with the Earth system. These models must operate not only online as components of Earth system models (ESMs) but also offline, using meteorological data as input, because the user community relies on the more easily accessible ",
+    "status": "Active",
+    "startDate": "May 2025",
+    "endDate": "May 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Washington University in St Louis",
+    "technologyArea": "Modeling",
+    "partners": [
+      "Washington University in St Louis",
+      "Colorado State University-Fort Collins",
+      "Goddard Space Flight Center",
+      "Harvard University",
+      "Universities Space Research Association"
+    ],
+    "website": ""
+  },
+  {
+    "id": 116133,
+    "title": "Super Uncooled Multi-band Radiometer Sensor",
+    "description": "Leonardo DRS is pleased to provide a proposal for a Super Uncooled Multiband Radiometer Sensor (SUMRS) in response to the Sustained Landsat Imaging Technology (SLIT) RFP. DRS' offering builds upon the successful ESTO IIP MURI instrument which demonstrated that an uncooled bolometer based instrument is capable of meeting existing Landsat TIR performance expectations and is mature enough for use. Our MURI instrument used existing high TRL bolometers. Our proposed SUMRS instrument seeks to maximize",
+    "status": "Completed",
+    "startDate": "Oct 2020",
+    "endDate": "Dec 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Leonardo DRS",
+    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "partners": [
+      "Leonardo DRS",
+      "DRS NETWORK & IMAGING SYSTEMS, LLC",
+      "DRS Sensors & Targeting Systems, Inc.",
+      "Rochester Institute of Technology"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182393,
+    "title": "Rydberg Airborne Instrument Demonstration (RAID)",
+    "description": "We propose to demonstrate an airborne instrument that uses Rydberg atoms and satellite signals of opportunity (SoOp) with multiple frequencies to study dynamics and transients of the vertical profile of land surface wetness (LSW). LSW is quantified by measurements of the vertical profiles of soil moisture content (SMC) and vegetation water content (VWC), addressing key science needs in land surface hydrology (LSH). The SoOp signals with multiple frequencies spanning VHF/I-K bands provide sensiti",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2028",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Jet Propulsion Laboratory",
+      "Army Research Lab",
+      "National Institute of Standards and Technology",
+      "Rydberg Technologies LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182379,
+    "title": "Time series multi-modal foundation model for near-real-time land surface dynamics characterization in support of ESDT",
+    "description": "The soil moisture and fuel moisture content play critical roles in wildfire prediction, fire behavior simulation, emergency response, and air pollution estimation. However, current remote sensing algorithms for these parameters fall short of meeting the accuracy and near-real-time requirements of Earth System Digital Twins (ESDT) due to insufficient training samples and limited spatial-temporal resolution. Existing algorithms combining multi-modal observations often result in reduced temporal re",
+    "status": "Completed",
+    "startDate": "Dec 2024",
+    "endDate": "May 2026",
+    "lastUpdated": "06/26/26",
+    "center": "South Dakota State University",
+    "technologyArea": "Modeling",
+    "partners": [
+      "South Dakota State University",
+      "University of California-Santa Barbara"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182356,
+    "title": "Sterilizing Heat Infrared Emitting LED Device",
+    "description": "Planetary science missions are becoming more stringent and complex, leading to equally complex Planetary Protection (PP) requirements. Limited funding for PP technology development has made meeting these requirements challenging. Moreover, as demonstrated on Mars2020, the detection and validation of biosignatures require sterile tools for collection, storage, and end-to-end processing. In addition, many upcoming missions to icy moons and sample return missions will require clean instrumentation ",
+    "status": "Active",
+    "startDate": "Jan 2025",
+    "endDate": "Dec 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Honeybee Robotics, Ltd.",
+    "technologyArea": "Exploration Destination Systems",
+    "partners": [
+      "Honeybee Robotics, Ltd."
+    ],
+    "website": ""
+  },
+  {
+    "id": 182355,
+    "title": "DEMETER: DEMonstrating the Emerging Technology for measuring the Earth's Radiation - Advancing Technology Readiness Level to 6",
+    "description": "Earth's Radiation Budget (ERB) is the most fundamental measurement of the climate system. It describes how radiant energy is exchanged between Earth and space and how it is distributed within the climate system. Changes in ERB determine the rate at which Earth heats up or cools down and can lead to shifts in atmospheric and oceanic circulation patterns and greater frequency and intensity of extreme events (flooding/drought/etc.). The Instrument Technology Maturation effort proposed herein will a",
+    "status": "Active",
+    "startDate": "Mar 2025",
+    "endDate": "Mar 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Langley Research Center",
+      "Jet Propulsion Laboratory",
+      "novawurks.com",
+      "Quartus Engineering, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 117260,
+    "title": "Thematic Observation Search, Segmentation, Collation and Analysis system",
+    "description": "Over the years, AIST has supported the development of a large and diverse set of science software resources \u2013 technical algorithms, data ingestion and processing modules, visualization capabilities, cloud computing, immersive environments \u2013 for the analysis and representation of science data and scientific results for different instruments, missions and applications. These capabilities were mostly tailored for a particular mission or even a particular set of users such as mission personnel, scie",
+    "status": "Completed",
+    "startDate": "Aug 2022",
+    "endDate": "Aug 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Information Processing and Artificial Intelligence",
+    "partners": [
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117241,
+    "title": "Multi-path Fusion Machine Learning for New Observing System Design and Operations",
+    "description": "We propose to develop a system based on data fusion and multi-path neural network Machine Learning (ML) to aid in the design and operation of multi-sensor New Observing Systems (NOS). This involves building ML-enabled analytic tools and advanced computing environment capabilities for the creation of a NOS workflow that utilizes large amounts of diverse airborne and satellite observations. Rather than a ML model consisting of a single stack of layers with a single input, we will have multiple neu",
+    "status": "Completed",
+    "startDate": "Aug 2022",
+    "endDate": "Jan 2025",
+    "lastUpdated": "06/26/26",
+    "center": "NASA Headquarters",
+    "technologyArea": "High-Performance Data Analytics Platform",
+    "partners": [
+      "NASA Headquarters",
+      "Goddard Space Flight Center",
+      "University of Maryland-Baltimore County",
+      "University of Maryland-College Park",
+      "Virginia Polytechnic Institute and State University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182359,
+    "title": "Pilot Deployment of TERRAHydro: A framework, demonstration, and vision for Earth System Digital Twins",
+    "description": "Our project has two intertwined goals in its pursuit of developing the next generation of Earth System Digital Twins (ESDT): 1. Development of the Coupled Reusable Earth System Tensor (CREST) Framework: This AI-first framework provides the infrastructure for constructing, operating, and deploying large community-developed federated ESDTs. It takes a hierarchical graph-based approach to building Earth System Models (ESMs) that enables integration of traditional and AI-based models within the ESDT",
+    "status": "Active",
+    "startDate": "May 2025",
+    "endDate": "May 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Science Systems and Applications, Inc.",
+    "technologyArea": "Modeling",
+    "partners": [
+      "Science Systems and Applications, Inc.",
+      "The University of Alabama"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182360,
+    "title": "ExCALiBR: Extractor for Chemical Analysis of Lipid Biomarkers in Regolith",
+    "description": "Lipids are organic molecules of great interest for future NASA life detection missions. Lipids are essential for life as we know it, and likely also required for putative extraterrestrial organisms. These robust organics are also synthesized abiotically--though with a molecular distribution distinguishable from that characteristic of life--and survive for long periods of geological time. We developed a fluidic system (TRL-4) integrating capabilities and techniques used in traditional lab setting",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Oct 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Ames Research Center",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "Ames Research Center",
+      "Millennium Engineering and Integration Company",
+      "Universitaet Bern",
+      "University of Florida"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182358,
+    "title": "Next generation of Intelligent Meteorological Radar with Built-in Understanding of the Scenery (NIMBUS)",
+    "description": "We propose the development of NIMBUS (Next generation Intelligent Meteorological Radar with a Built-in Understanding of the Scenery), an ultra-compact multi-frequency Ka/W/G-band radar system with onboard intelligence. The radar instrument leverages three key technologies to reduce the size, weight and power and provide autonomous agility to enable observation of a broad range of atmospheric phenomena: (1) Radar-on-a-chip ultra-compact architecture, integrating millimeter-wave electronics into s",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2028",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Jet Propulsion Laboratory",
+      "University of California-San Diego"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183285,
+    "title": "MAGnetometers for Innovation and Capability",
+    "description": "MAGIC comprises five years of work to design, build, and test a next-generation Universityof Iowa built spaceflight fluxgate magnetometer. We will establish flight-heritage through a do-no-harmTechnical Demonstration as a hosted-payload on the UI-lead TRACERS SMEX mission that complementsthe existing UCLA magnetometer (enabling spacecraft field mitigation).",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2024",
+    "lastUpdated": "06/26/26",
+    "center": "University of Iowa",
+    "technologyArea": "Field and Particle Detectors",
+    "partners": [
+      "University of Iowa"
+    ],
+    "website": ""
+  },
+  {
+    "id": 185969,
+    "title": "Photonic Integrated Circuit/Photonic Lantern Expansion to Atmospheric Lidar Wavelengths",
+    "description": "Fabricate a coupled Photonic Lantern/Photonic Integrated Circuit lidar receiver to demonstrate filtering of aerosol scattering from molecular scattering.  The goal is to enable the High Spectral Resolution Lidar (HSRL) technique with significantly reduced cost, alignment requirements, and sensitivity to environment compared to the current interferometer design.",
+    "status": "Completed",
+    "startDate": "Jun 2025",
+    "endDate": "Jun 2026",
+    "lastUpdated": "06/26/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Langley Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183273,
+    "title": "Advanced X-Ray Microcalorimeters",
+    "description": "We propose a 3-year program to continue our successful research in developing advanced microcalorimeter technologies for space and laboratory X-ray astrophysics. Microcalorimeter arrays are a critical technology for imaging spectroscopy instruments, and many mission concepts in formulation are predicated on the continued development of this technology. Our proposed research program has 3 sub-packages: (i) transition-edge sensor (TES) and (ii) metallic microcalorimeter (MMC) development for next ",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/26/26",
+    "center": "NASA Headquarters",
+    "technologyArea": "Detectors and Focal Planes",
+    "partners": [
+      "NASA Headquarters"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117501,
+    "title": "Luminescence Imager for Exploration",
+    "description": "Goals and Objectives: This MatISSE effort will continue the maturation of the Luminescence Imager for Exploration (LIfE), an automated bright-field and epifluorescence microscope developed under the NASA Concepts for Ocean worlds Life Detection Technology (Luminescence Imager for Exploration; 2017-2018) and the Instrument Concepts for Europa Exploration-2 (Europa Luminescence Microscope; 2019-2022) programs. LIfE will be developed under MatISSE to TRL 5 (formally) as end-to-end system \"that can ",
+    "status": "Completed",
+    "startDate": "Feb 2023",
+    "endDate": "Jan 2026",
+    "lastUpdated": "06/26/26",
+    "center": "Ames Research Center",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "Ames Research Center",
+      "Desert Research Institute",
+      "Leiden Measurement Technology, LLC",
+      "University of Florida"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117502,
+    "title": "Extraterrestrial Molecular Indicators of Life Investigation",
+    "description": "Future missions to Mars, Europa, Enceladus, and beyond may seek the molecular signs of extraterrestrial life through chemical analysis of acquired samples. Particularly on ocean worlds such as Europa and Enceladus, samples may contain trace ocean-borne molecular biosignatures of extant life that may or may not share similarities to those of terrestrial life. In situ analyses must be prepared to detect and characterize a wide range of possible molecular species, structures, and patterns, typicall",
+    "status": "Completed",
+    "startDate": "Feb 2023",
+    "endDate": "Jan 2026",
+    "lastUpdated": "06/26/26",
+    "center": "NASA Headquarters",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "NASA Headquarters",
+      "Ames Research Center",
+      "CentraleSupelec",
+      "Danell Consulting, Inc.",
+      "Goddard Space Flight Center",
+      "Jet Propulsion Laboratory",
+      "KapScience LLC",
+      "Laboratoire Atmosph\u00e8res, Milieux, Observations Spatiales - Universit\u00e9 de Versailles Saint-Quentin",
+      "Laboratoire Interuniversitaire des Syst\u00e8mes Atmosph\u00e9riques",
+      "Mini-Mass Consulting, Inc.",
+      "University of Maryland-Baltimore County",
+      "University of Tulsa",
+      "University of Versailles Saint Quentin"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96945,
+    "title": "Stacked Miniaturized And Radiation Tolerant Intelligent Electronics (SMARTIE)",
+    "description": "With the desire of many current and future Space missions to utilize advanced artificial neural networks, high data bandwidth sensors, and perform real-time, on-board automated decisions new technology is needed to make available state-of-the-art compute capabilities. Irvine Sensors proposes a Stacked Miniaturized And Radiation Tolerant Intelligent Electronics (SMARTIE) technology that uses advanced packaging to integrate three, high performance, compute tiles into a folded-flex module consistin",
+    "status": "Completed",
+    "startDate": "Mar 2021",
+    "endDate": "Jun 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Irvine Sensors Corporation",
+    "technologyArea": "Sensing and Perception",
+    "partners": [
+      "Irvine Sensors Corporation",
+      "Jet Propulsion Laboratory",
+      "Northrop Grumman Systems Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183279,
+    "title": "Characterizing Neural-Network Classification Uncertainty Through Bayesian Statistics",
+    "description": "The team proposes a strategy, through probability modeling, for the systematic characterization of a deep neural network's (DNN's) classification uncertainty due to invariable under-sampling. In many practical classification applications, the labeled samples used for training a DNN is a small subset of the practically infinite (but countable) population set. The likelihood probability distribution, or likelihood in short, of sample x belonging to class y, i.e., p(x|y), derived from the set of la",
+    "status": "Active",
+    "startDate": "Apr 2024",
+    "endDate": "Mar 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Bayesics, LLC",
+    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Bayesics, LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 116084,
+    "title": "Metamaterial-based Super Spectral Filter Radiometers for Atmospheric Sounding of Temperature and Water Vapor",
+    "description": "Through metamaterial filter development, building and testing of a benchtop prototype sensor, and atmospheric retrieval studies, the concept of an ultra-compact IR sensor for measurements of temperature and water vapor in boundary layer will be built and its capabilities demonstrated. Metamaterial-based spectral filtering offers narrow passband spectral channels in a fast-optical system to provide performance matching that of a much larger spectrometer or interferometer-based systems. Retrieval ",
+    "status": "Completed",
+    "startDate": "Jan 2022",
+    "endDate": "Jun 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Atmospheric and Environmental Research, Inc.",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Atmospheric and Environmental Research, Inc.",
+      "Ball Aerospace & Technologies Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 185967,
+    "title": "Lidar Instrument for Salinity and Temperature detection in the Ocean (LISTO)",
+    "description": "Demonstrate the performance of an instrument capable of deriving vertical profiles of temperature and salinity. The work proposed here leverages capability and experience at both GSFC and LaRC, thereby increasing the likelihood of successfully achieving this measurement. The prototypes will be tank tested first with the ultimate goals of deploying them first on an aircraft and boats to demonstrate the feasibility and potential challenges to eventually have an instrument measuring these two varia",
+    "status": "Active",
+    "startDate": "Feb 2025",
+    "endDate": "Feb 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182275,
+    "title": "Gravitational Reference Advanced Technology Test In Space (GRATTIS)",
+    "description": "The Gravitational Reference Advanced Technology Test In Space (GRATTIS) mission will demonstrate the end-to-end functionality and sensitivity performance of the Simplified Gravitational Reference Sensor (S-GRS), an ultra-precise inertial sensor for future Earth geodesy missions. These sensors are used to measure or compensate for all non-gravitational accelerations of the host spacecraft so that they can be removed in the data analysis to recover spacecraft motion due to Earth?s gravity field, t",
+    "status": "Active",
+    "startDate": "Aug 2024",
+    "endDate": "Jul 2027",
+    "lastUpdated": "06/26/26",
+    "center": "University of Florida",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of Florida",
+      "Ball Aerospace & Technologies Corporation",
+      "CrossTrac Engineering, Inc.",
+      "Fibertek, Inc.",
+      "Texas A & M University-College Station"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96408,
+    "title": "Atmospheric Boundary-Layer Lidar PathfindEr (ABLE)",
+    "description": "The 2017 Decadal Survey for Earth Science Applications from Space (ESAS) identifies water vapor (WV) observations as synergetic and cross-cutting over five of six ESAS science and applications priorities. High vertical resolution profiles of WV within the Planetary Boundary Layer (PBL), as well as in the free troposphere, were identified more frequently than any other geophysical observables within ESAS, and given distinction as a \"Most Important Observable\" across most of the science panels. WV",
+    "status": "Completed",
+    "startDate": "May 2020",
+    "endDate": "Jan 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Langley Research Center",
+      "Freedom Photonics, LLC",
+      "Harvard University",
+      "Metis Technology Solutions, Inc.",
+      "nLight Photonics Corporation",
+      "NOAA Earth System Research Laboratories",
+      "University of Oklahoma-Norman Campus",
+      "University of Washington-Seattle Campus"
+    ],
+    "website": ""
+  },
+  {
+    "id": 94898,
+    "title": "Compact Total Irradiance Monitor Flight Demonstration",
+    "description": "The long-term balance between Earth\u2019s absorption of solar radiative energy and emission of radiation to space is a fundamental climate measurement required in the NRC\u2019s Decadal Survey report Earth Science and Applications from Space: National Imperatives for the Next Decade and Beyond. Total solar irradiance (TSI) has been measured from space by a 40-year uninterrupted sequence of instruments. We propose to build and fly a next-generation TSI instrument on a 6U CubeSat, the Compact Total Irradia",
+    "status": "Completed",
+    "startDate": "Sep 2018",
+    "endDate": "Feb 2025",
+    "lastUpdated": "06/26/26",
+    "center": "University of Colorado Boulder",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of Colorado Boulder"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117208,
+    "title": "Development of Grotifer: a CubeSat for Three-dimensional Electric Field Measurements",
+    "description": "Goal: We propose to design, build and test engineering prototypes of an electric field detector and central body attitude control system that fit in the design of a 27U CubeSat. The objective is to prove the viability of the full Grotifer concept through TRL5 within the H-TIDeS program. Grotifer is a CubeSat that will provide accurate (< 1mV/m) three-dimensional (3D) electric field (E-field) measurements in all environments of the heliosphere. Motivation: Developing Grotifer represents the best ",
+    "status": "Completed",
+    "startDate": "Feb 2022",
+    "endDate": "Feb 2026",
+    "lastUpdated": "06/26/26",
+    "center": "University of California-Berkeley",
+    "technologyArea": "Field and Particle Detectors",
+    "partners": [
+      "University of California-Berkeley",
+      "Montana State University - Bozeman",
+      "UC Berkeley Space Science Laboratory",
+      "University of California-Riverside"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182400,
+    "title": "TRL-6 Cross-Cutting Water Vapor and Methane DIAL Transmitter",
+    "description": "Characterizing the complex three-dimensional structure of water vapor in the troposphere from process (e.g., clouds, land atmosphere feedback, etc.) to global scales (convective organization and synoptic flow) with high vertical resolution and accuracy remains an unmet grand challenge called for by many disparate communities and consensus reports. Similarly, rising atmospheric methane concentrations make it a particularly attractive target for climate mitigation strategies, as it has a radiative",
+    "status": "Active",
+    "startDate": "Mar 2025",
+    "endDate": "Mar 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Langley Research Center",
+      "Fibertek, Inc.",
+      "Freedom Photonics, LLC",
+      "Lamont-Doherty Earth Observatory",
+      "LumenUs Scientific Solutions, LLC",
+      "nLight Photonics Corporation",
+      "NOAA Earth System Research Laboratories",
+      "University of Washington-Seattle Campus"
     ],
     "website": ""
   },
@@ -1290,718 +1790,6 @@
     "website": ""
   },
   {
-    "id": 145081,
-    "title": "Lightsheet Anomaly Resolution And Debris Observation - Neuromorphic",
-    "description": "The Lightsheet Anomaly Resolution And Debris Detection - Neuromorphic (LARSDO-N) proposal seeks to upgrade improve the LARADO system in two vital ways. The LARADO sensor is an on-orbit instrument designed to detect small debris (10mm to 0.1 mm) that too small to be seen from the ground but have enough kinetic energy to do serios or catastrophic damage to space assets. We call this category of debris \"lethal non-trackable\". Due to the growing debris population, increased capabilities to detect an",
-    "status": "Active",
-    "startDate": "Mar 2025",
-    "endDate": "Jul 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Naval Research Laboratory",
-    "technologyArea": "Detectors and Focal Planes",
-    "partners": [
-      "Naval Research Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117196,
-    "title": "Hyperspectral Capability for CoSMIR: Enhancing Capability for Future PBL Suborbital Campaigns and Enabling PBL Science from Space",
-    "description": "The NASA Planetary Boundary Layer (PBL) Incubation Study Team found that hyperspectral microwave sounders are an \"Essential Component\" of a future global PBL observing system due to their perceived ability to capture the three-dimensional structure of temperature and water vapor in the free troposphere. As such, significant resources have been directed at building this capability as part of a comprehensive technology portfolio targeting PBL science. In this proposed effort, we will upgrade the C",
-    "status": "Active",
-    "startDate": "Jun 2022",
-    "endDate": "Sep 2026",
-    "lastUpdated": "06/26/26",
-    "center": "University of Maryland-College Park",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of Maryland-College Park",
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157571,
-    "title": "UMIS: The Ultraviolet Micromirror Imaging Spectrograph",
-    "description": "We propose to demonstrate a prototype instrument to improve upon current capabilities in UV imaging spectroscopy for planetary science. The instrument is a UV micromirror spectrograph with a wide variety of potential applications including Discovery- and New Frontiers-class missions. The state-of-the-art UV imaging spectrographs, such as the SwRI-built Alice instruments (including Juno UVS, Rosetta Alice and LRO LAMP) and the LASP-built Cassini UVIS, MAVEN IUVS, and Hope EMUS, return useful data",
-    "status": "Active",
-    "startDate": "Jan 2023",
-    "endDate": "Jan 2027",
-    "lastUpdated": "06/26/26",
-    "center": "Planetary Science Institute",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Planetary Science Institute",
-      "Ball Aerospace & Technologies Corporation",
-      "University of Colorado Boulder",
-      "University of Colorado Boulder Laboratory for Atmospheric and Space Physics"
-    ],
-    "website": ""
-  },
-  {
-    "id": 116076,
-    "title": "Compact optomechanical accelerometers for space geodesy",
-    "description": "GRACE has fundamentally improved our understanding of the surface anomalies in Earth's gravitational field and its dynamics. However, GRACE has shown that certain technologies, such as low-frequency high-sensitivity accelerometers, require improvements in both sensitivity and reliability to ensure future high quality science outputs. Significant progress in the development of optomechanical sensing technologies has been achieved by the scientific community over the past decade. Building upon the",
-    "status": "Completed",
-    "startDate": "Feb 2022",
-    "endDate": "Dec 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Texas A&M Engineering Experiment Station",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "Texas A&M Engineering Experiment Station",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 96401,
-    "title": "Global L-band Active/Passive Observatory for Water Cycle Studies (GLOWS)",
-    "description": "The value of L-band measurements from the Soil Moisture Active Passive (SMAP) and Soil Moisture Ocean Salinity (SMOS) missions have shown the importance of L-band data record in Earth Sciences. An obstacle to this is the high cost of designing and flying the large antennas required for L-band observations. A new technique based on reflectarray antennas provides a path to smaller, lower-cost, simpler, large-aperture antennas for low frequency microwave (L-band) observation. Using this key technol",
-    "status": "Completed",
-    "startDate": "Apr 2020",
-    "endDate": "Sep 2024",
-    "lastUpdated": "06/26/26",
-    "center": "Brigham Young University-Provo",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Brigham Young University-Provo",
-      "Goddard Space Flight Center",
-      "MMA Design, LLC",
-      "novawurks.com"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182401,
-    "title": "A forecasting scheme for accelerated harmful algal bloom monitoring",
-    "description": "About half of the world's population lives within ~ 200 kilometers of coastlines near oceans or fresh waters. These coastal zones and their ecosystem services massively contribute to the well-being and economy of the immediate residents. The changing climate that bears extreme weather patterns (e.g., heatwaves, extended wet/dry periods), along with human developments (e.g., urbanization, intensified agriculture/aquaculture), pose significant risks to human settlements and coastal environments. O",
-    "status": "Active",
-    "startDate": "May 2025",
-    "endDate": "Nov 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Science Systems and Applications, Inc.",
-    "technologyArea": "Modeling",
-    "partners": [
-      "Science Systems and Applications, Inc.",
-      "Goddard Space Flight Center",
-      "Old Dominion University",
-      "University of Maryland Center for Environmental Science",
-      "University of Maryland, Baltimore",
-      "Virginia Institute of Marine Sciences"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182350,
-    "title": "Next-Generation Solar Neutron Tracking Instrument",
-    "description": "The goal of the SOlar Neutron TRACking (SONTRAC) two-year follow-on program is to advance the current instrument development to provide a fully-integrated neutron spectrometer that demonstrates suitability for SmallSAT opportunities. Neutrons play a significant role in space exploration and the science of the Moon and Sun. Solar eruptive events are known to produce secondaries in the form of \u03b3 rays, X-rays, and neutrons. While \u03b3 rays have been detected for decades by various missions, the detect",
-    "status": "Active",
-    "startDate": "May 2025",
-    "endDate": "Apr 2027",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "NASA Headquarters",
-      "Goddard Space Flight Center",
-      "University of Geneva",
-      "University of New Hampshire-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157506,
-    "title": "Miniaturized Lidar Sensor for Fire and PBL Payloads",
-    "description": "Advance design for UAV/drone-compatible micro-lidar sensor to provide vertical resolution for use with PBL and fire sensing payloads (for critical measurements of PBL height, plume height, injection height); mature design for IIP or FireTech proposal.",
-    "status": "Completed",
-    "startDate": "Sep 2022",
-    "endDate": "Feb 2023",
-    "lastUpdated": "06/26/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Lasers",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 145050,
-    "title": "Design for Atomic Gravity Gradiometer for Earth Research",
-    "description": "The Advanced Component Technology (ACT) program seeks technology development leading to subsystem-level spaceborne measurement techniques in support of the Science Mission Directorate's Earth Science Division. Under ACT, Vector Atomic proposes the Design for Atomic Gravity Gradiometer for Earth Research (DAGGER). Our goal is to demonstrate the enabling hardware for a high-performance, space-based atomic gradiometer. DAGGER can provide a rapid and low-cost route to deploying an atomic sensor in s",
-    "status": "Completed",
-    "startDate": "Jun 2023",
-    "endDate": "Jun 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Vector Atomic, Inc.",
-    "technologyArea": "Sensing and Perception",
-    "partners": [
-      "Vector Atomic, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 182365,
-    "title": "An Innovative Sunlight Denoising Technique To Improve Measurement Quality and Reduce Cost of Future Spaceborne Lidars",
-    "description": "Spaceborne lidar is a central part of the Earth science observing system. In the 2017 Decadal Survey, spaceborne lidar was emphasized to address numerous science questions in topical panels such as climate variability and change, weather, air quality, and marine and terrestrial ecosystems. Lidar systems were suggested in more than half of the Decadal Survey Designated/Explorer/IIP missions. The goal of this project is to develop a new approach to space lidar data analyses across disciplines, for",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Mar 2026",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Lasers",
-    "partners": [
-      "NASA Headquarters",
-      "Ames Research Center",
-      "BAE Systems Space and Mission Systems Inc.",
-      "Langley Research Center",
-      "Quantum Computing Inc.",
-      "Science Systems and Applications, Inc.",
-      "Stevens Institute of Technology"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182398,
-    "title": "CMOS-Based Millimeter-Wave Spectrometer for in-situ Sensing Applications",
-    "description": "Gas sensors that operate in the millimeter region of the electromagnetic spectrum represent a promising class of in situ instrumentation having numerous planetary science applications. These sensor platforms offer several unique capabilities including measurements over wide dynamic pressure ranges, fast acquisition speeds, and high selectivity to molecular species. Several technologies developed under the PICASSO program have allowed for significant reduction in the size and power consumption of",
-    "status": "Active",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2027",
-    "lastUpdated": "06/26/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory",
-      "University of Wisconsin-Madison"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185961,
-    "title": "AFFORD - Advanced Format and Feature Optimized ROIC Design",
-    "description": "The objective is to develop, fabricate and demonstrate novel ROICs for VIS-SWIR and TIR bands that meet and exceed needs of NASA\u2019s future earth science missions. This effort is to bring the current TRL-3 design to a TRL-5 level. This effort will advance the ROIC technology by incorporating more functionality into the each pixel by using 65nm process compared to the state of the art of present ROIC at 160nm. This is critical for all future detector work, as the current vendors are being acquired ",
-    "status": "Active",
-    "startDate": "Jul 2025",
-    "endDate": "Jul 2027",
-    "lastUpdated": "06/26/26",
-    "center": "SAAZ Micro Inc.",
-    "technologyArea": "Detectors and Focal Planes",
-    "partners": [
-      "SAAZ Micro Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 183294,
-    "title": "Next Generation X-ray Optics: High Resolution, Light Weight, and Low Cost",
-    "description": "We propose to continue developing an X-ray mirror technology to meet a critical need of many X-ray astrophysical missions being proposed, ranging from the flagship mission Lynx, to Probe missions such as AXIS, LEM, and HEX-P, MIDEX missions such as STAR-X, SMEX missions such as DAISI, and sounding rocket missions such as OGRE. Initiated in the late 1990s to support Constellation-X, which required a 15\" PSF, the objective of this technology development effort has become continually more ambitious",
-    "status": "Completed",
-    "startDate": "Oct 2022",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Optical Components",
-    "partners": [
-      "NASA Headquarters"
-    ],
-    "website": ""
-  },
-  {
-    "id": 116098,
-    "title": "Flexible Configuration Distributed Synthetic Aperture Digital Beamforming Radar",
-    "description": "We propose to develop technologies for a flexible, scalable, and adaptive distributed architecture for implementing synthetic aperture radar (SAR) systems, hereinafter referred to as \"FlexSAR,\" to address a number of targeted observables (TOs) identified by the 2017-2027 Decadal Survey. Considering the diversity of products needed to accommodate the Surface Topography and Vegetation (STV) TOs, and the resulting observational frequencies and modalities, a fundamentally new approach to realizing t",
-    "status": "Completed",
-    "startDate": "Jan 2022",
-    "endDate": "Jan 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Distributed Aperture",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "University of Southern California"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182394,
-    "title": "AI Climate Tipping-Point Simulator",
-    "description": "As the climate continues to become more unstable, the ability to predict when major shifts, or tipping points, in our climate system may occur is essential. Since their occurrence in climate models is challenged by the fact that they depend on a number of physical processes that are governed by poorly constrained parameters [1,2], predicting these shifts is computationally challenging (if not impossible) using traditional numerical methods. We propose to develop an artificial intelligence (AI) c",
-    "status": "Active",
-    "startDate": "May 2025",
-    "endDate": "Apr 2027",
-    "lastUpdated": "06/26/26",
-    "center": "Johns Hopkins University",
-    "technologyArea": "Modeling",
-    "partners": [
-      "Johns Hopkins University",
-      "Columbia University in the City of New York",
-      "Goddard Space Flight Center",
-      "Johns Hopkins University: Applied Physics Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182374,
-    "title": "Physics-Aware Quantum Neural Network Modeling of Earth Science Phenomena",
-    "description": "The increasing number of extreme weather events has also fueled a desire for accurate, in-time prediction tools. An example of recent research success lies in data-driven models for short-to-mid-term weather forecasting, which have outperformed traditional numerical weather predictions in hundreds of test cases [1, 2]. These results have sparked interest in high-resolution modeling of large-scale, complex phenomena for use in digital twins, such as NVIDIA's Earth-2 project and NASA's current Ear",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Apr 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Modeling",
-    "partners": [
-      "Ames Research Center",
-      "Universities Space Research Association"
-    ],
-    "website": ""
-  },
-  {
-    "id": 116131,
-    "title": "Versatile Computational Pixel Infrared Land Imager",
-    "description": "We propose to develop a revolutionary infrared focal plane array based on a computational pixel digital readout integrated circuit (D-ROIC) and a type-II superlattice (T2SL) dual-band unipolar barrier infrared detector (BIRD) capable of spectral coverage from the near infrared to the very long wavelength infrared. Focal plane arrays (FPAs) based on T2SL BIRD technology have consistently demonstrated high uniformity and operability, as well as excellent performance and cost-effectiveness. The D-R",
-    "status": "Completed",
-    "startDate": "Oct 2020",
-    "endDate": "Sep 2024",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Detectors and Focal Planes",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "California Institute of Technology",
-      "Copious Imaging, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182366,
-    "title": "MICA: Microfluidic Icy-World Chemistry Analyzer",
-    "description": "The Microfluidic Icy-World Chemistry Analyzer (MICA) is a critical habitability and environmental sensor array developed under the Instrument Concepts for Europa Exploration (ICEE-2) program for a landed Europa search-for-life mission. Fundamentally, MICA is a microfluidic implementation of the Wet Chemistry Laboratory (WCL), an array of electrochemical sensors that delivered key Phoenix Mars mission science findings. WCL provided chemical context clarifying our understanding of Mars mission res",
-    "status": "Active",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2027",
-    "lastUpdated": "06/26/26",
-    "center": "Ames Research Center",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "Ames Research Center",
-      "Jet Propulsion Laboratory",
-      "Tufts University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117182,
-    "title": "Deployable MetaLens for G-Band Earth Science Applications",
-    "description": "This proposal addresses the Decadal Survey Incubator (DSI) call for disruptive technologies that enable innovative SmallSat-based measurement techniques to meet Planetary Boundary Layer (PBL) science objectives. The key objective is to develop a deployable G-band high gain antenna that reduces instrument size, weight and power (SWaP) to enable a new measurement capability that is not currently feasible. Specifically, the 2019 NASA decadal survey incubation program focused on priority PBL science",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Dec 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "Opterus Research and Development, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 145045,
-    "title": "Metalens Origami Deployable Lidar Telescope",
-    "description": "Our team, responding to the ACT request for \"deployable telescope technologies that specifically use flat lens technologies for lidars,\" [A.46] will develop a segmented, deployable telescope prototype based on metalens technology, foldable, origami-inspired mechanical packaging and active optical aberration correction to enable small-sat implementation of large aperture optical instruments. Our flat lens technology is based on another ACT-requested technology \u2013 metasurfaces, enabling unprecedent",
-    "status": "Completed",
-    "startDate": "Apr 2023",
-    "endDate": "Mar 2026",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "NASA Headquarters",
-      "Brigham Young University-Provo",
-      "Goddard Space Flight Center",
-      "MMA Design, LLC",
-      "Pennsylvania State University-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182381,
-    "title": "OpGrav - Precise Small Body Mass Measurements during High-Speed Flybys",
-    "description": "We propose to mature an instrument that enables precise mass determination of small asteroids and comets during high-speed spacecraft flybys. Science Objectives: Mass is a fundamental property of an asteroid and is central to determining its density, composition, and porosity. These properties relate to the body's bulk composition, indicating whether the observed surface characteristics are homogeneous throughout. They also have implications for the asteroid's formation, extending to the early s",
-    "status": "Active",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2027",
-    "lastUpdated": "06/26/26",
-    "center": "Johns Hopkins University",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Johns Hopkins University",
-      "Goddard Space Flight Center",
-      "Johns Hopkins University: Applied Physics Laboratory",
-      "University of Colorado Boulder"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182372,
-    "title": "Mapping anthropogenic water cycle impacts in a future climate: A global digital twin for scenario-driven exploration",
-    "description": "Accurate representation of the hydrological cycle, especially in the context of climate change and human interventions (anthropogenic stressors), is crucial for ensuring robust quantitative assessments of water availability, climate risk, and effective management. The intricacies of non-linear processes inherent in the hydrological cycle are further compounded by the dynamic nature of climate processes and anthropogenic influences, governing the risks associated with water availability and extre",
-    "status": "Active",
-    "startDate": "Jun 2025",
-    "endDate": "Nov 2026",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Modeling",
-    "partners": [
-      "NASA Headquarters",
-      "Goddard Space Flight Center",
-      "Texas A & M University-College Station"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182378,
-    "title": "Plume Ice Capture of Organics : Sample collection for in situ biosignature analyses.",
-    "description": "The Plume Ice Capture of Organics (PICO) system integrates the collection of small ice particles with recovery and distribution of aqueous samples for in situ analyses. We propose to mature PICO engineering and performance in increasingly flight-like environments, focusing on potential Enceladus plume encounter scenarios. The proposed PICO development is relevant to the stated MatISSE priorities for instrumentation enabling in situ search for life/Astrobiology, with emphasis on sample manipulati",
-    "status": "Active",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2027",
-    "lastUpdated": "06/26/26",
-    "center": "University of California-Berkeley",
-    "technologyArea": "Exploration Destination Systems",
-    "partners": [
-      "University of California-Berkeley",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182349,
-    "title": "Line Survey and Density Sensitivity Studies in Support of Hinode, MUSE, and Solar-C",
-    "description": "OBJECTIVES: We will measure key atomic data used to analyze solar EUV spectra. Our work builds on expertise developed under our previous two H-TIDeS grants. Fe X traces 1 MK coronal gas. It has been observed by SERTS and EIS/Hinode and will be studied by EUVST/Solar-C. In addition to standard spectroscopic diagnostics, it offers a unique magnetic field diagnostic at 257.26 A. Our experiments have found significant errors in the Fe X line identifications. These hinder accurate interpretation of F",
-    "status": "Active",
-    "startDate": "May 2025",
-    "endDate": "Apr 2028",
-    "lastUpdated": "06/26/26",
-    "center": "",
-    "technologyArea": "",
-    "partners": [
-      "Columbia University in the City of New York",
-      "Lawrence Livermore National Laboratory",
-      "UC Berkeley Space Science Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183243,
-    "title": "Optics for Compact Two-dimensional Energetic Atom",
-    "description": "Science Goal: The overarching science goal of the 3-year Optics for Compact Two-dimensional Energetic Atom (OCTEA) imager project is to determine the dynamics of stormtime ring current (RC) loss. During geomagnetic storms, the interaction of the solar wind with the Earth's magnetic field can pump petaJoules of energy into the RC. This input energizes/transports RC particles, and can trigger space weather events affecting satellites, communications, power grids, or humans in space. The RC respons",
-    "status": "Active",
-    "startDate": "Mar 2024",
-    "endDate": "Feb 2027",
-    "lastUpdated": "06/26/26",
-    "center": "",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Southwest Research Institute - San Antonio"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182371,
-    "title": "Pix4DCloud: A Suite of Physics-Constrained Transformer Models to Retrieve 4D Clouds in Real World and Digital Twins",
-    "description": "Atmospheric clouds exhibit both vertical and horizontal structures. The 3D structure of clouds exerts over-arching impacts on the top-of-atmosphere (TOA) radiation budget and surface precipitation characteristics. Moreover, the vertical cloud structure also impacts quality of downstream tasks (e.g., aerosol, fire or ocean color retrievals). It is however extremely challenging to retrieve cloud vertical structures from spaceborne wide-swath passive sensors using physics-based models because of th",
-    "status": "Active",
-    "startDate": "Apr 2025",
-    "endDate": "Mar 2027",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Modeling",
-    "partners": [
-      "NASA Headquarters",
-      "American University",
-      "Columbia University in the City of New York",
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 145040,
-    "title": "Low Cost, Size, Weight, and Power, Radiation Hard, Time-of-Flight LiDAR or Infrared Radiometry System on a Chip for Earth Orbit and Planetary Missions",
-    "description": "The goal of the ACT program is to develop and demonstrate component and subsystem level technology that enhances earth observation remote sensing in new innovative ways while simultaneously reducing the cost, size, weight, and power (C-SWAP) requirements of the technology. NASA uses light detection and ranging (LiDAR) technology and infrared (IR) radiometry for atmospheric measurements, geographical data retrievals, ocean profiling, satellite validation, and algorithm development. LiDAR and radi",
-    "status": "Completed",
-    "startDate": "Mar 2023",
-    "endDate": "Feb 2026",
-    "lastUpdated": "06/26/26",
-    "center": "SenseICs Corporation",
-    "technologyArea": "Sensing and Perception",
-    "partners": [
-      "SenseICs Corporation",
-      "Jet Propulsion Laboratory",
-      "Ohio State University-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117500,
-    "title": "Seismometer to Investigate Interior Asteroid Structure",
-    "description": "Relevance: Seismic studies provide definitive knowledge of internal planetary structure. Despite several missions to small bodies, current knowledge of their interiors is still inferred and unknown in detail. Direct knowledge of the internal structure via seismology can address this knowledge gap and constrain theories about asteroid formation and evolution\u2014a priority goal in the Planetary Science and Astrobiology decadal strategy for 2023-2032 [Origins, Worlds, and Life 2022]. Knowledge of aste",
-    "status": "Completed",
-    "startDate": "Feb 2023",
-    "endDate": "Jan 2026",
-    "lastUpdated": "06/26/26",
-    "center": "University of Arizona",
-    "technologyArea": "In Situ Resource Use",
-    "partners": [
-      "University of Arizona",
-      "Honeybee Robotics, Ltd.",
-      "Johns Hopkins University",
-      "Southwest Research Institute - Boulder"
-    ],
-    "website": ""
-  },
-  {
-    "id": 96399,
-    "title": "Compact Hyperspectral Air Pollution Sensor-Demonstrator (CHAPS-D)",
-    "description": "Air pollution is responsible for ~7 million premature deaths every year. Past and current satellite missions in low Earth orbit have characterized air pollution distributions and established trends at fixed local solar times but in most cases cannot resolve individual emission sources without statistical post-analysis. Current and planned geostationary satellites will add diurnal information but lack global coverage. The Decadal Survey calls for a robust, comprehensive observing strategy for the",
-    "status": "Completed",
-    "startDate": "Jan 2020",
-    "endDate": "Jul 2024",
-    "lastUpdated": "06/26/26",
-    "center": "Johns Hopkins University",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Johns Hopkins University",
-      "Goddard Space Flight Center",
-      "Johns Hopkins University: Applied Physics Laboratory",
-      "Royal Netherlands Meteorological Institute",
-      "Universities Space Research Association"
-    ],
-    "website": ""
-  },
-  {
-    "id": 97159,
-    "title": "Study of coronal X-ray jet formation using advanced numerical simulations and laboratory experiments",
-    "description": "In this proposal, we propose to expand this work to demonstrate the validity of this model by a laboratory experiment and nonlinear HYM 3D simulations closely tied to our experiment. The high-resolution nonlinear simulations will allow to investigate numerically the mechanism that triggers the line-tied spheromak unstable, and demonstrate the field line opening and jet formation due to reconnection at the top of the tilting spheromak. In our initial study, we have learned that when flux-emergenc",
-    "status": "Completed",
-    "startDate": "Mar 2021",
-    "endDate": "Mar 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Princeton University",
-    "technologyArea": "Science Modeling",
-    "partners": [
-      "Princeton University",
-      "Princeton Plasma Physics Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182390,
-    "title": "A high geometric factor, 3D-Cylindrical And Tiny Spectrometer for fast plasma measurements on future missions",
-    "description": "All-sky, space plasma measurements are critical to understanding physical processes related to the solar wind and its interaction with the Earth's and planetary magnetospheres. We propose to develop a prototype of a low SWaP, \"fast\", electrostatic analyzer, the 3D Cylindrical And Tiny Spectrometer (3D-CATS). 3D-CATS will provide ion or electron velocity distribution functions (VDFs) covering a large fraction of the sky at 30ms time resolutions, determining bulk plasma moments with accuracies com",
-    "status": "Active",
-    "startDate": "Apr 2025",
-    "endDate": "Apr 2028",
-    "lastUpdated": "06/26/26",
-    "center": "",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "Southwest Research Institute - San Antonio"
-    ],
-    "website": ""
-  },
-  {
-    "id": 97179,
-    "title": "Development of an EMCCD space camera for UV spectroscopy: probing Nitric Oxide in the polar night",
-    "description": "GOAL: We propose to develop a novel ultraviolet (UV) instrument, compatible with a CubeSat spacecraft, that uses a delta-doped electron multiplying CCD (EMCCD) Camera System designed to measure nighttime lower thermospheric nitric oxide at 215 nm. With this instrument, we seek to address the following: 1) Determine the altitude profile of aurorally-induced nitric oxide. 2) Determine nitric oxide's peak altitude concentration. BACKGROUND: Nitric oxide is produced in the thermosphere/ionosphere by",
-    "status": "Completed",
-    "startDate": "Mar 2021",
-    "endDate": "Dec 2024",
-    "lastUpdated": "06/26/26",
-    "center": "Virginia Polytechnic Institute and State University",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Virginia Polytechnic Institute and State University",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 116073,
-    "title": "Microwave Barometric Radar and Sounder",
-    "description": "Atmospheric surface pressure and pressure profiles are essential variables in weather modeling and forecasting. Pressure gradients generate atmospheric motion and are essential to the air-sea heat exchange feedbacks within the planetary boundary layer (PBL) that lead to convective storms and heavy precipitation. Despite the importance of pressure and pressure gradients on meso-, synoptic-, and global-scale weather patterns, current technology relies almost entirely on buoy measurements over the ",
-    "status": "Completed",
-    "startDate": "Feb 2022",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "NASA Headquarters",
-      "Goddard Space Flight Center",
-      "Langley Research Center",
-      "Remote Sensing Solutions, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 182315,
-    "title": "Developing interface between Leach Gen III Camera Controller and Pandora V3 ground based spectroscopy instrument to evaluate novel DUV detectors in mission applications",
-    "description": "Proposed Objectives: This project aims to demonstrate visible light blind deep UV (DUV) detectors developed through Early Career Initiative (ECI) and GSFC IRAD funding. \u2022 Integrate DUV detectors into Pandora \u2022 Interface Pandora spectrometer with Leach imaging array controller \u2022 Demonstrate science measurements with DUV detectors ",
-    "status": "Completed",
-    "startDate": "Dec 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Detectors and Focal Planes",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182395,
-    "title": "HiMAP: High-resolution Metagrating spectropolarimeter for Aerosol Profiling",
-    "description": "The 2017 Earth Sciences Decadal Survey underscored the critical demand for global aerosol vertical distribution measurements in the troposphere and planetary boundary layer (PBL) through a wide-swath, low Earth orbit (LEO) instrument to enhance air quality predictions and advance our understanding of aerosols' impact on Earth's energy budget and climate. While traditional passive remote sensing technologies like MODIS, VIIRS, and TROPOMI offer global coverage of total aerosol column quantities, ",
-    "status": "Active",
-    "startDate": "Oct 2025",
-    "endDate": "Sep 2028",
-    "lastUpdated": "06/26/26",
-    "center": "University of Iowa",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of Iowa",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183825,
-    "title": "An Agile Radar System for High-Resolution 3-D Surface Topography and Vegetation Structure Measurements from Stratospheric and Distributed Platforms",
-    "description": "Interferometric synthetic aperture radar (InSAR) is a critical sensing modality for many Earth science investigations and has the capability of addressing key measurement gaps identified in NASA's Surface Topography and Vegetation (STV) Study Team Report (STR). When paired with the emerging category of stratospheric platforms (high-altitude pseudo satellites, or HAPS), a properly designed InSAR system provides a new measurement capability able to address the most stringent horizontal, vertical, ",
-    "status": "Active",
-    "startDate": "Sep 2025",
-    "endDate": "Sep 2028",
-    "lastUpdated": "06/26/26",
-    "center": "Aloft Sensing, Inc.",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Aloft Sensing, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 182306,
-    "title": "HPC Support for Weather, Climate, and Ocean Dynamics Digital Twins Experiment",
-    "description": "Earth Science Focus Area(s):  Ecosystem Change; Extending and Improving Weather and Air Quality Forecasts; Reducing Climate Uncertainty and Informing Societal Response.  Project Objectives:  Provide accelerated high performance computing (HPC), machine learning models and model construction workflows, analysis, and visualization support for demonstration projects that seek to build weather, climate and ocean dynamics focused modeling components that can rapidly infer system state based on user p",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Modeling",
-    "partners": [
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 145043,
-    "title": "Low-power Integrated Acousto-Optics for Atomic Quantum Sensors",
-    "description": "Quantum measurement techniques based on matter-wave interferometry have matured from early laboratory experiments into field-useable systems capable of precision remote sensing of Earth's gravitational field. The unprecedented sensitivity of atom-based gravimeters and gradiometers is further enhanced when operating in microgravity environments, opening the possibility for high-resolution gravity cartography from orbit. The strong potential for atom interferometry in space is exemplified by NASA'",
-    "status": "Completed",
-    "startDate": "Mar 2023",
-    "endDate": "Mar 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Yale University",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Yale University",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 116128,
-    "title": "Improved Radiometric calibration of land Imaging Systems",
-    "description": "The Improved Radiometric calibration of future land Imaging Systems (IRIS) project addresses a key SLI program objective by developing and demonstrating technology to reduce risk, cost, size, volume, mass, and development time for next generation SLI instruments, while meeting or exceeding current land imaging program capabilities. IRIS addresses this SLI objective in two different, but complementary ways. The first way involves designing and building an ultra-compact, full RMA spectrum (0.4-2.3",
-    "status": "Completed",
-    "startDate": "Oct 2020",
-    "endDate": "Sep 2024",
-    "lastUpdated": "06/26/26",
-    "center": "Raytheon Company",
-    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
-    "partners": [
-      "Raytheon Company"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185965,
-    "title": "Hyperspectral Radiometer",
-    "description": "Passive microwave radiometers are an important remote sensing tool for observing and understanding physical processes in Earth\u2019s oceans, atmosphere, land and cryosphere. They measure temperature, composition and water in all its forms, albeit at low spatial (20-60 of km) and spectral resolution. Models of the Earth system are continually evolving to higher spatial resolutions (sub-km scale) with less reliance on parameterizations in favor of physical models. Passive microwave sensor technology m",
-    "status": "Active",
-    "startDate": "Oct 2025",
-    "endDate": "Sep 2028",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 145080,
-    "title": "Next-Generation Solar Neutron Tracker",
-    "description": "The goal of the Next-generation SOlar Neutron TRACking (SONTRAC) proposal is to advance the current instrument development to provide a fully-integrated 6.4x6.4x16 cm3 prototype that demonstrates suitability for SmallSAT opportunities by the end of this three-year program. SONTRAC is based on state-of-the-art techniques for particle tracking using highly segmented scintillating fibers, coupled to silicon photomultipliers, and subsequently processed with modern ASICs. The proposed work is a natur",
-    "status": "Completed",
-    "startDate": "Feb 2023",
-    "endDate": "Jan 2026",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "NASA Headquarters",
-      "Goddard Space Flight Center",
-      "University of New Hampshire-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182314,
-    "title": "Towards dynamic configuration for a cloud evolution targeting radar system",
-    "description": "Towards dynamic configuration for a cloud evolution targeting radar system",
-    "status": "Completed",
-    "startDate": "Dec 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185973,
-    "title": "UAS-mounted Canopy Penetrating Radar-Tag System for Understory Fuel Sensing",
-    "description": "Pre-fire assessments and interventions, such as long-term fire projections, fuel treatments, and prescribed burning operations, rely heavily on the accurate characterization of forest fuels across large areas. However, remote sensing approaches offer limited vertical resolution to characterize understory fuels obscured by the canopy layer, resulting in errors sometimes even more than 100% in predicting fire perimeter and burned areas [1]. This proposal targets this challenge via a scalable and a",
-    "status": "Active",
-    "startDate": "Mar 2025",
-    "endDate": "Feb 2028",
-    "lastUpdated": "06/26/26",
-    "center": "University of Illinois at Urbana-Champaign",
-    "technologyArea": "Fire Detection, Suppression, and Recovery",
-    "partners": [
-      "University of Illinois at Urbana-Champaign"
-    ],
-    "website": ""
-  },
-  {
     "id": 96400,
     "title": "Breakthrough Technologies Enabling ESPA-Class SmallSat Implementation of Earth Science LIDAR Missions",
     "description": "Space-based lidars have made many key Earth science observations. They provide unique advantages of spatial, spectral and temporal resolution because they carry their own laser illumination source. Despite many highly successful missions, however, lidar instruments are not being flown regularly in Earth orbit due to their cost, size, power requirements, and risk. In this Instrument Concept Demonstration (ICD), our team proposes to develop an innovative combination of lidar technologies to help o",
@@ -2019,190 +1807,33 @@
     "website": ""
   },
   {
-    "id": 117202,
-    "title": "SLICE: Semi-supervised Learning from Images of a Changing Earth",
-    "description": "The field of computer vision (CV) is advancing rapidly, enabling significant accuracy improvements for image classification, segmentation, object detection problems. In particular, multiple self- and semi-supervised learning approaches have been published in recent years: \u2022 SimCLR (v2) from Google (A Simple Framework for Contrastive Learning of Visual Representations), \u2022. FLASH from University of Pennsylvania and Georgia Tech (Fast Learning via Auxiliary signals, Structured knowledge, and Human ",
+    "id": 116129,
+    "title": "Land Calibration Satellite - Breadboard",
+    "description": "The Land Imaging Community continues to demonstrate the value of improved sensor performance, with higher spatial resolution, temporal coverage, more spectral bands, and improved radiometry enabling broader science investigations and supporting increased societal benefits. The Community is pivoting toward increasing temporal coverage through data fusion from a constellation of sensors, including international and commercial assets \u2013 each with diverse strengths and weaknesses. However, integratin",
     "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Aug 2025",
+    "startDate": "Oct 2020",
+    "endDate": "Sep 2024",
     "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Simulation",
+    "center": "Ball Aerospace & Technologies Corporation",
+    "technologyArea": "Detectors and Focal Planes",
     "partners": [
-      "Jet Propulsion Laboratory",
-      "California Institute of Technology",
-      "Woods Hole Oceanographic Institution"
+      "Ball Aerospace & Technologies Corporation"
     ],
     "website": ""
   },
   {
-    "id": 117292,
-    "title": "Ecological Projection Analytic Collaborative Framework",
-    "description": "In this time of global heating and rapid climate change, Earth's ecosystems are under great stress for their survival and Earth's biodiversity is being rapidly reduced and widely redistributed. Despite the importance of biodiversity for humanity and the imminent nature of the threat, efforts to project these losses over the coming decades remain crude, especially contrasted with other processes of global importance such as relative sea level rise. As a discipline, ecological projection is still ",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Aug 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "Southern Methodist University",
-      "University of California-Berkeley",
-      "University of California-Los Angeles",
-      "University of Cincinnati-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117275,
-    "title": "A New Snow Observing Strategy in Support of Hydrological Science and Applications",
-    "description": "This proposal aims to develop a new observing strategy (NOS) for snow that considers the most critical snow data needs along with existing and expected observations, models, and a future snow satellite mission. The Snow Observing System (SOS) will be used to estimate SWE and snow melt throughout the season, targeting observations (e.g. peak SWE and the onset of melt) with the greatest impact to hydrological metrics as they occur in different regions. Snow is a seasonally evolving process that re",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Jul 2025",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "NASA Headquarters",
-      "Bayesics, LLC",
-      "Goddard Space Flight Center",
-      "National Center for Atmospheric Research",
-      "Rilee Systems Technologies LLC",
-      "Stevens Institute of Technology"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157504,
-    "title": "Multi-Frequency & Multi-Beam Metasurface Antennas for Spaceborne Millimeter-Wave Radars",
-    "description": "The team will tackle 2 topics (multi-frequency and multiple beams) where very little work has been done in the field of metasurface antennas. In the first year of the dual-frequency metasurface antenna work, the JPL team proposes to design a 1 m diameter antenna that operates at Ka- and W-band (light precipitation and cloud radar). In the second year, more theoretical work to introduce 3 frequencies on a single aperture will be added into the tasks, working in collaboration with UNC Charlotte. I",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Feb 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 145048,
-    "title": "Ultra RF",
-    "description": "Recently, techniques for ultra-wideband spectrometry have been proposed which would enable significant new science and could substantially simplify the complexity of atmospheric sensing instruments. Specifically, the \"Ultra-Wideband Photonic Spectrometer for PBL Sensing\" ACT-20 project is developing an RF photonic spectrometer for a millimeter wave radiometer back-end. Significantly, this RF photonic spectrometers should offer an order of magnitude increase in instantaneous RF bandwidths compare",
-    "status": "Completed",
-    "startDate": "Apr 2023",
-    "endDate": "Jan 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Northrop Grumman Systems Corporation",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Northrop Grumman Systems Corporation",
-      "Jet Propulsion Laboratory",
-      "Northrop Grumman Space Systems",
-      "Phase Sensitive Innovations, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 157494,
-    "title": "Pyro-atmosphere Infrared Sounder: Monitoring Fire Weather Conditions with a Sub-Kilometer Spatial-Resolution Hyperspectral Infrared Sounder",
-    "description": "Wildfire results in tremendous economic loss in the Continental United States, and the frequency of occurrence is increasing in a warming global climate. We propose to perform unprecedented measurements using a new hyperspectral infrared sounder (PIRS) on aircraft campaigns to demonstrate the capabilities of high spatially resolved temperature (T) and humidity (q) soundings on improvement in fire weather monitoring and forecasts during pre- and active-fire stages. We will obtain consultation and",
+    "id": 117196,
+    "title": "Hyperspectral Capability for CoSMIR: Enhancing Capability for Future PBL Suborbital Campaigns and Enabling PBL Science from Space",
+    "description": "The NASA Planetary Boundary Layer (PBL) Incubation Study Team found that hyperspectral microwave sounders are an \"Essential Component\" of a future global PBL observing system due to their perceived ability to capture the three-dimensional structure of temperature and water vapor in the free troposphere. As such, significant resources have been directed at building this capability as part of a comprehensive technology portfolio targeting PBL science. In this proposed effort, we will upgrade the C",
     "status": "Active",
-    "startDate": "Aug 2023",
-    "endDate": "Aug 2026",
+    "startDate": "Jun 2022",
+    "endDate": "Sep 2026",
     "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
+    "center": "University of Maryland-College Park",
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182368,
-    "title": "CHanneled IR Polarimeter (CHIRP)",
-    "description": "Clouds remain a major source of uncertainty in climate models; ice cloud properties are especially poorly constrained. Existing satellite retrievals of cloud ice involve significant microphysical and optical assumptions. In particular, ice water path (IWP) has been used as a tuning parameter in climate models to balance the top-of-atmosphere radiation budget. A lack of accurate ice cloud data in climate models generates uncertainty in projected warming, circulation, and precipitation shifts for ",
-    "status": "Active",
-    "startDate": "Jan 2025",
-    "endDate": "Jan 2028",
-    "lastUpdated": "06/26/26",
-    "center": "University of Arizona",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of Arizona",
-      "Goddard Space Flight Center",
-      "Jet Propulsion Laboratory",
-      "University of California-San Diego"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182392,
-    "title": "Event- and Feature-Based Observing System Design: Quantifying Science and Applications Benefit for Diverse Measurement Combinations",
-    "description": "There is an increasing need for observing systems that are not only global in scope, but also flexibly responsive to emerging events. In addition, new measurements must not only advance the state of science, but also serve the needs of applications end users. Furthermore, any new measurements will be made in the context of an observing system that is ever increasing in its diversity and complexity. The key challenge is to measure the benefits of proposed new measurements in the context of the cu",
-    "status": "Active",
-    "startDate": "Dec 2024",
-    "endDate": "Nov 2026",
-    "lastUpdated": "06/26/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Modeling",
-    "partners": [
-      "California Institute of Technology",
-      "Arizona State University-Tempe",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 96398,
-    "title": "Smart Ice Cloud Sensing",
-    "description": "We propose an instrument optimized for Smart Ice Cloud Sensing (SMICES) that will enable both multi-angle and multi-resolution measurements of cloud ice particles size and shape within the tropospheric temperature and water vapor profile context. This will improve understanding of tropospheric events including hurricanes, tropical deep convections, tornadoes and storms. SMICE will combine an active radar, with passive multi-band radiometers and sounders using an intelligent backend and control s",
-    "status": "Completed",
-    "startDate": "Mar 2020",
-    "endDate": "Jul 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Northrop Grumman Systems Corporation",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Northrop Grumman Systems Corporation",
-      "Aerospace Systems",
-      "Jet Propulsion Laboratory",
-      "Northrop Grumman Aerospace Systems"
-    ],
-    "website": ""
-  },
-  {
-    "id": 145041,
-    "title": "Earth-observing PIC \u2013 Component Development",
-    "description": "Imaging spectrometers based on photonic integrated circuits (PICs) are poised to take advantage of rapid advances in nanofabrication to revolutionize the capabilities of remote sensing instruments in Earth Science. Interferometric imagers based on PIC devices have long been envisioned as a revolutionary sensor technology that can dramatically reduce the size, weight, and power (SWaP) of optical instruments (sensors) by eliminating the need for a traditional telescope and active optics. Eliminati",
-    "status": "Completed",
-    "startDate": "Mar 2023",
-    "endDate": "Feb 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Lockheed Martin Inc.",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Lockheed Martin Inc.",
-      "Lockheed Martin Space Systems"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182308,
-    "title": "SOA development for Cs based quantum applications - To reduce the power requirement of lasers in the QGG system",
-    "description": "Objectives for technology investment: \u2022 Existing commercially available semiconductor lasers and optical amplifiers at visible wavelengths required for quantum sensors are extremely limited. \u2022 This effort seeks to develop visible-wavelength emitters custom-tailored for Cs- and Rb-based quantum systems with the goal of technology transfer to a domestic supplier.  Key Technology development under this effort \u2022 Development of Higher power SOAs \u2022 Development of optical interface for efficient in-out",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Sep 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Lasers",
-    "partners": [
-      "Jet Propulsion Laboratory"
+      "University of Maryland-College Park",
+      "Goddard Space Flight Center"
     ],
     "website": ""
   },
@@ -2226,185 +1857,71 @@
     "website": ""
   },
   {
-    "id": 96941,
-    "title": "Atomic drag-free accelerometer for non-gravitational forces in radiometric orbit determination and planetary science measurements",
-    "description": "We propose to further advance the technology maturity of the miniature atomic drag-free accelerometer that was first developed under the Planetary Instrument Definition and Development Program (PIDDP). The accelerometer uses free-fall atomic particles as proof masses and quantum wave interference for inertial force measurements. This novel type of accelerometer will provide unprecedented performance in both sensitivity and stability on-board an orbiter without the need for calibration. The accel",
-    "status": "Active",
-    "startDate": "Jan 2021",
-    "endDate": "Sep 2026",
+    "id": 117197,
+    "title": "Low-resource instrumentation for scientific measurements in planetary thermospheres",
+    "description": "The proposed work develops new instrumentation that will be capable of measuring winds in planetary atmospheres. The instruments measure the winds in situ, meaning they measure the winds at the location of their host spacecraft. The principles of measurement are well-known and have been utilized by instruments recently flown in space. The central objective of the proposed work is to miniaturize the previous instruments so that they can be hosted by small platforms, such as cubesats and other sma",
+    "status": "Completed",
+    "startDate": "Feb 2022",
+    "endDate": "Feb 2025",
     "lastUpdated": "06/26/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Sensors and Instruments",
+    "center": "University of New Hampshire-Main Campus",
+    "technologyArea": "In Situ Instruments and Sensors",
     "partners": [
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory"
+      "University of New Hampshire-Main Campus"
     ],
     "website": ""
   },
   {
-    "id": 182358,
-    "title": "Next generation of Intelligent Meteorological Radar with Built-in Understanding of the Scenery (NIMBUS)",
-    "description": "We propose the development of NIMBUS (Next generation Intelligent Meteorological Radar with a Built-in Understanding of the Scenery), an ultra-compact multi-frequency Ka/W/G-band radar system with onboard intelligence. The radar instrument leverages three key technologies to reduce the size, weight and power and provide autonomous agility to enable observation of a broad range of atmospheric phenomena: (1) Radar-on-a-chip ultra-compact architecture, integrating millimeter-wave electronics into s",
+    "id": 116080,
+    "title": "SNOWWI \u2014 Snow Water-equivalent Wide Swath Interferometer and Scatterometer",
+    "description": "In this response to the 2021 ESTO Instrument Incubator Program research announcement, the University of Massachusetts (UMass), the University of Michigan (UMich), Boise State University, and Capella Space are partnering to create an advancement in using snow surface and volume scattering characteristics for estimating the snowpack characteristics of Snow Water Equivalent (SWE), snow density and snow depth, all Essential Climate Variables (ECVs) that are used to quantify water resources, land- an",
     "status": "Active",
-    "startDate": "Oct 2025",
-    "endDate": "Sep 2028",
+    "startDate": "Mar 2022",
+    "endDate": "Jan 2027",
     "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
+    "center": "University of Massachusetts-Boston",
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "Jet Propulsion Laboratory",
-      "University of California-San Diego"
+      "University of Massachusetts-Boston",
+      "Army Cold Regions Research and Engineering Laboratory",
+      "Boise State University",
+      "Capella Space",
+      "University of Massachusetts-Amherst",
+      "University of Michigan-Ann Arbor"
     ],
     "website": ""
   },
   {
-    "id": 182353,
-    "title": "Machine-learning to improve cycling and forecasts with GEOS and expedite the evaluation of assimilating observations from new instruments.",
-    "description": "Primary Objective: This is a two-tiered effort to use machine learning (ML) surrogate models to: (i) accelerate integration of the GEOS Atmospheric Data Assimilation System (ADAS) to facilitate studying the potential improvement and impact resulting from the addition of new instruments to GEOS ADAS; and a demonstration of capability by (ii) generating forecasts of sea-surface-temperature and sea-ice to improve short- to mid-range (10-day) forecasts with GEOS. Motivation: Machine-Learning (ML) su",
-    "status": "Active",
-    "startDate": "Jun 2025",
-    "endDate": "May 2027",
-    "lastUpdated": "06/26/26",
-    "center": "Pennsylvania State University-Main Campus",
-    "technologyArea": "Modeling",
-    "partners": [
-      "Pennsylvania State University-Main Campus",
-      "Argonne National Laboratory",
-      "Goddard Space Flight Center",
-      "University of Chicago"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157523,
-    "title": "Blue Laser for Ocean Lidar",
-    "description": "Develop a low-SWaP 486-nm laser transmitter for spaceborne ocean profiling",
-    "status": "Completed",
-    "startDate": "Mar 2021",
-    "endDate": "Dec 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Lasers",
-    "partners": [
-      "Langley Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 96517,
-    "title": "Technology Development of High Speed CMOS Detectors and Multilayer Mirrors for Dynamic Solar Soft X-ray Spectral Imaging",
-    "description": "We propose to the H-TiDS ITDS 2019 call to further enhance capabilities for soft X-ray and EUV dynamic imaging. We will develop high speed readout back-illuminated CMOS soft X-ray (sxr) detectors to 1) mitigate saturation and blooming of solar flare images, 2) study high time cadence (0.05 second variations) phenomena, and 3) generate spectral images of active regions (ARs), coronal bright points (CBPs), small flares (A - B GOES class) and aspects of the quiet Sun (QS). The high speed read out d",
-    "status": "Completed",
-    "startDate": "Aug 2020",
-    "endDate": "Jul 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Smithsonian Institution",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Smithsonian Institution",
-      "Massachusetts Institute of Technology",
-      "Smithsonian Astrophysical Observatory",
-      "Software Assurance Office"
-    ],
-    "website": ""
-  },
-  {
-    "id": 145044,
-    "title": "Solid Underconstrained Multi-Frequency Deployable Antenna",
-    "description": "A solution for a high frequency (up to 240 GHz), wide bandwidth, deployable reflector is needed to enable a low-cost and platform-versatile approach for the integration of three key instruments in upcoming Earth Science space missions. Cloud and precipitation radar payloads require a ~2-meter antenna aperture to capture the evolution of atmospheric processes at high spatial resolution. Microwave radiometers require an antenna operating from 6 to 200 GHz with a \u2265 2-meter diameter conically scanni",
+    "id": 145051,
+    "title": "Metasurface Antenna for Cloud-Targeting Radar: W-Band Metasurface Cloud Sensor",
+    "description": "The Metasurface Antenna for Cloud Targeting Radar (MACTRad) component plans to enable the elusive study of time-resolved radar observations of clouds and precipitation. Most W-band (94GHz) spaceflight solutions do not provide the needed swath due to lower integration times resulting in reduced sensitivity. We plan to develop an electronically steered metasurface antenna targeting cloud radar applications that can dynamically track cloud features during a satellite overpass. In addition, V- and W",
     "status": "Completed",
     "startDate": "Mar 2023",
     "endDate": "Mar 2026",
     "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Mechanical Systems",
+    "center": "Metacept Systems",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "Jet Propulsion Laboratory",
-      "California Institute of Technology"
+      "Metacept Systems",
+      "Duke University",
+      "Goddard Space Flight Center"
     ],
     "website": ""
   },
   {
-    "id": 157514,
-    "title": "QGG Tech Demonstration",
-    "description": "This proposal is a follow-on effort to a current, JPL-led study directed by NASA ESTO on the topic of a Quantum Gravity Gradiometer Technology Pathfinder Demonstration. The current study, jointly conducted with NASA/GSFC, UT Austin, and in collaboration with a DLR/Airbus team, investigated and established a framework for a pathfinder demonstration, including performance targets, relevance to future science, development of two reference instrument concepts, and assessments of feasibility. In spri",
+    "id": 116097,
+    "title": "Rydberg Radar: A quantum architecture covering the radio window for multi-science signal of opportunity remote sensing with focus on land surface hydrology",
+    "description": "We propose a concept for a high sensitivity, dynamically tunable, and ultra-broad-band radar system, named Rydberg Radar, that dramatically improves over the state-of-art radar using quantum Rydberg atomic sensing. The Rydberg Radar instrument concept vastly improves the existing radar capability to study dynamics and transients of the Earth system by enabling a single-detector-based measurement covering the entire 'radio window' (0-30 GHz) in a small form-factor deployable-free architecture. Th",
     "status": "Completed",
-    "startDate": "Jan 2024",
-    "endDate": "Dec 2025",
+    "startDate": "Apr 2022",
+    "endDate": "Mar 2025",
     "lastUpdated": "06/26/26",
     "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Field and Particle Detectors",
-    "partners": [
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 96945,
-    "title": "Stacked Miniaturized And Radiation Tolerant Intelligent Electronics (SMARTIE)",
-    "description": "With the desire of many current and future Space missions to utilize advanced artificial neural networks, high data bandwidth sensors, and perform real-time, on-board automated decisions new technology is needed to make available state-of-the-art compute capabilities. Irvine Sensors proposes a Stacked Miniaturized And Radiation Tolerant Intelligent Electronics (SMARTIE) technology that uses advanced packaging to integrate three, high performance, compute tiles into a folded-flex module consistin",
-    "status": "Completed",
-    "startDate": "Mar 2021",
-    "endDate": "Jun 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Irvine Sensors Corporation",
-    "technologyArea": "Sensing and Perception",
-    "partners": [
-      "Irvine Sensors Corporation",
-      "Jet Propulsion Laboratory",
-      "Northrop Grumman Systems Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117314,
-    "title": "An Analytic Collaborative Framework for the Earth System Observatory Designated Observables",
-    "description": "MOTIVATION: NASA's Earth System Observatory ground breaking observations will provide critical measurements to address societal relevant problems in climate change, natural hazard mitigation, fighting forest fires, and improving real-time agricultural processes. Central to the ESO vision is the notion of Open-Source Science (OSS), a collaborative culture enabled by technology that promotes the open sharing of data, information, and knowledge aiming to facilitate and accelerate scientific underst",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Dec 2024",
-    "lastUpdated": "06/26/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "NASA Headquarters",
-      "California State University-Monterey Bay",
-      "Goddard Space Flight Center",
-      "Jet Propulsion Laboratory",
-      "University of Wisconsin-Madison"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117176,
-    "title": "Kernel Flows: emulating complex models for massive data sets",
-    "description": "Inference about atmospheric and surface phenomena from remote sensing data often requires computationally expensive empirical or physical models, and always requires uncertainty quantification (UQ). Running these models to predict or retrieve geophysical quantities for very large data sets is prohibitive, and Monte Carlo experiments for UQ, which involve rerunning these models many times, are out of the question except possibly for small case studies. These problems can be overcome with emulator",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Aug 2025",
-    "lastUpdated": "06/26/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "California Institute of Technology"
-    ],
-    "website": ""
-  },
-  {
-    "id": 97186,
-    "title": "The Solar Imaging Metasurface Polarimeter",
-    "description": "We propose to develop an imaging spectro-polarimeter capable of capturing 2D images of the Sun with full polarization information, over a narrow spectral band. This enables spectro-polarimetric studies of solar magnetism by measuring the full state of polarization over the entire region of interest with every camera frame, without the need for moving mechanisms (e.g., translating spectrograph slits or rotating polarization optics). The design exploits recent advances in nanophotonics enabling th",
-    "status": "Completed",
-    "startDate": "Aug 2021",
-    "endDate": "Jul 2025",
-    "lastUpdated": "06/26/26",
-    "center": "University Corporation for Atmospheric Research",
     "technologyArea": "Detectors and Focal Planes",
     "partners": [
-      "University Corporation for Atmospheric Research",
-      "Ball Aerospace & Technologies Corporation",
-      "Harvard University"
+      "Jet Propulsion Laboratory",
+      "Army Research Lab",
+      "National Institute of Standards and Technology"
     ],
     "website": ""
   },
@@ -2427,50 +1944,493 @@
     "website": ""
   },
   {
-    "id": 96313,
-    "title": "D-SHIELD: Distributed Spacecraft with Heuristic Intelligence to Enable Logistical Decisions",
-    "description": "Distributed Space Missions (DSMs) can increase measurement samples over multiple, spatio-temporal vantage points. Smaller spacecraft can now carry imager/radar payloads, even if constrained by power and data downlink. Large numbers of spacecraft increase responsiveness, revisit time and coverage, even with static payloads. Fully re-orientable payloads, tasked by autonomous decision-making, can further improve the capability to reactively observe phenomena. D-SHIELD is a suite of scalable softwar",
-    "status": "Completed",
-    "startDate": "Feb 2020",
-    "endDate": "Jun 2024",
+    "id": 157526,
+    "title": "Next Generation Radioisotope Thermoelectric Generator",
+    "description": "The Next Gen RTG Mod 1 Project, under NASA's Glenn Research Center in Cleveland, as part of the Space Science Project Office is funded by NASA's Science Mission Directorate, Planetary Science Division's Radioisotope Power Systems Program. The Next Gen RTG Mod 1 Project seeks to regain access to deep space destinations by providing NASA with a vacuum-rated radioisotope thermoelectric generator by re-establishing the production line of the legacy General Purpose Heat Source Radioisotope Thermoelec",
+    "status": "Active",
+    "startDate": "Oct 2020",
+    "endDate": "Sep 2026",
     "lastUpdated": "06/26/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Mission Architecture, Systems Analysis, and Concept Development",
+    "center": "Aerojet Rocketdyne Holdings, Inc.",
+    "technologyArea": "Static Energy Conversion",
     "partners": [
-      "Ames Research Center",
-      "BrainAid",
-      "California State University-Monterey Bay",
-      "Massachusetts Institute of Technology Lincoln Laboratory",
-      "Planet Inc.",
-      "Texas A & M University-College Station",
-      "University of Southern California"
+      "Aerojet Rocketdyne Holdings, Inc."
     ],
     "website": ""
   },
   {
-    "id": 117501,
-    "title": "Luminescence Imager for Exploration",
-    "description": "Goals and Objectives: This MatISSE effort will continue the maturation of the Luminescence Imager for Exploration (LIfE), an automated bright-field and epifluorescence microscope developed under the NASA Concepts for Ocean worlds Life Detection Technology (Luminescence Imager for Exploration; 2017-2018) and the Instrument Concepts for Europa Exploration-2 (Europa Luminescence Microscope; 2019-2022) programs. LIfE will be developed under MatISSE to TRL 5 (formally) as end-to-end system \"that can ",
-    "status": "Completed",
-    "startDate": "Feb 2023",
-    "endDate": "Jan 2026",
+    "id": 157571,
+    "title": "UMIS: The Ultraviolet Micromirror Imaging Spectrograph",
+    "description": "We propose to demonstrate a prototype instrument to improve upon current capabilities in UV imaging spectroscopy for planetary science. The instrument is a UV micromirror spectrograph with a wide variety of potential applications including Discovery- and New Frontiers-class missions. The state-of-the-art UV imaging spectrographs, such as the SwRI-built Alice instruments (including Juno UVS, Rosetta Alice and LRO LAMP) and the LASP-built Cassini UVIS, MAVEN IUVS, and Hope EMUS, return useful data",
+    "status": "Active",
+    "startDate": "Jan 2023",
+    "endDate": "Jan 2027",
     "lastUpdated": "06/26/26",
-    "center": "Ames Research Center",
+    "center": "Planetary Science Institute",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Planetary Science Institute",
+      "Ball Aerospace & Technologies Corporation",
+      "University of Colorado Boulder",
+      "University of Colorado Boulder Laboratory for Atmospheric and Space Physics"
+    ],
+    "website": ""
+  },
+  {
+    "id": 185971,
+    "title": "SLiFO3X/Tropospheric Ozone",
+    "description": "SLiFO3X/Tropospheric Ozone",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2028",
+    "lastUpdated": "06/26/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157483,
+    "title": "The airborne Compact Fire Imager (CFI) for measurements across the entire fire lifecycle",
+    "description": "Fires continue to grow hotter, faster, and more destructive in a warmer world. There is an urgent need for new observations of extreme fires to understand and anticipate rapid changes in fire risk, to detect and track individual fire events, and to evaluate fire impacts on ecosystems and communities. Here, we propose to develop a new instrument, the Compact Fire Imager (CFI), which will deliver unsaturated multi-spectral measurements at high spatial resolution in a form factor that is compatible",
+    "status": "Active",
+    "startDate": "Aug 2023",
+    "endDate": "Aug 2026",
+    "lastUpdated": "06/26/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 97153,
+    "title": "Increasing the dynamic range of spaceflight charged particle instruments",
+    "description": "Covering the dynamic range of the plasma ion fluxes over disparate regions of the heliosphere and over the full range of conditions, is a challenge. The difficulty is increased if more than one population is to be measured by the same instrument, or even if the same population is to be measured but at vastly different heliocentric distances. In this proposal, we propose a hardware system for achieving a large dynamic range by a single ion instrument that can be used to address the science goal o",
+    "status": "Completed",
+    "startDate": "Apr 2021",
+    "endDate": "Apr 2026",
+    "lastUpdated": "06/26/26",
+    "center": "University of New Hampshire-Main Campus",
     "technologyArea": "In Situ Instruments and Sensors",
     "partners": [
-      "Ames Research Center",
-      "Desert Research Institute",
-      "Leiden Measurement Technology, LLC",
-      "University of Florida"
+      "University of New Hampshire-Main Campus",
+      "Marshall Space Flight Center"
     ],
     "website": ""
   },
   {
-    "id": 117260,
-    "title": "Thematic Observation Search, Segmentation, Collation and Analysis system",
-    "description": "Over the years, AIST has supported the development of a large and diverse set of science software resources \u2013 technical algorithms, data ingestion and processing modules, visualization capabilities, cloud computing, immersive environments \u2013 for the analysis and representation of science data and scientific results for different instruments, missions and applications. These capabilities were mostly tailored for a particular mission or even a particular set of users such as mission personnel, scie",
+    "id": 157487,
+    "title": "Geodetic Reference Instrument Transponder for Small Satellites (GRITSS) Flight Demonstration (GRITSS-FD)",
+    "description": "Develop flight unit for Act-17 funded GRITSS instrument, integrate and test this unit on ISISpace 12U bus, launch, and operate the instrument for 12 months.",
+    "status": "Active",
+    "startDate": "Mar 2023",
+    "endDate": "Dec 2026",
+    "lastUpdated": "06/26/26",
+    "center": "University of Massachusetts-Lowell",
+    "technologyArea": "Other GN&C Technologies",
+    "partners": [
+      "University of Massachusetts-Lowell"
+    ],
+    "website": ""
+  },
+  {
+    "id": 185974,
+    "title": "WAMI for Support of Wildland Fire Science, Management, and Disaster Mitigation",
+    "description": "We propose to adapt and demonstrate a low-swap infrared wide area motion imagery (WAMI) system for support of the mission of fighting active fires. WAMI consists of low-rate, high-pixel-count video in the mid-wave infrared (MWIR) over large areas. While its applications have been primarily for defense and security domains, based on our conversations with USFS wildland fire management stakeholders in this effort, it is exceptionally well suited to fire detection and monitoring even in its current",
+    "status": "Active",
+    "startDate": "Jun 2025",
+    "endDate": "Jun 2028",
+    "lastUpdated": "06/26/26",
+    "center": "",
+    "technologyArea": "Fire Detection, Suppression, and Recovery",
+    "partners": [],
+    "website": ""
+  },
+  {
+    "id": 157518,
+    "title": "Active Cooling for Multispectral Earth Sensors (ACMES)",
+    "description": "The first technology is our Active Thermal Architectures (ATA), a complete end-to-end solution for active thermal control of cryogenic instruments on nano and small satellites. ATA consists of a two-stage cooling system with an integrated miniature tactical cryocooler forming the first stage and a micro-pumped fluid loop forming the second. Fluid is pumped between an internal heat exchanger and a radiator through a two-axis flexible rotary fluid joint. The radiator is deployed after launch and s",
+    "status": "Active",
+    "startDate": "Oct 2021",
+    "endDate": "Sep 2026",
+    "lastUpdated": "06/26/26",
+    "center": "Utah State University",
+    "technologyArea": "Thermal Control Components and Systems",
+    "partners": [
+      "Utah State University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96517,
+    "title": "Technology Development of High Speed CMOS Detectors and Multilayer Mirrors for Dynamic Solar Soft X-ray Spectral Imaging",
+    "description": "We propose to the H-TiDS ITDS 2019 call to further enhance capabilities for soft X-ray and EUV dynamic imaging. We will develop high speed readout back-illuminated CMOS soft X-ray (sxr) detectors to 1) mitigate saturation and blooming of solar flare images, 2) study high time cadence (0.05 second variations) phenomena, and 3) generate spectral images of active regions (ARs), coronal bright points (CBPs), small flares (A - B GOES class) and aspects of the quiet Sun (QS). The high speed read out d",
+    "status": "Completed",
+    "startDate": "Aug 2020",
+    "endDate": "Jul 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Smithsonian Institution",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Smithsonian Institution",
+      "Massachusetts Institute of Technology",
+      "Smithsonian Astrophysical Observatory",
+      "Software Assurance Office"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157520,
+    "title": "The Aerosol Radiometer for Global Observation of the Stratosphere (ARGOS) Instrument",
+    "description": "Stratospheric aerosols impact Earth's energy budget through their direct radiative effects. The magnitude and sign of this impact is highly uncertain and variable, owing to limited knowledge of aerosol particle properties and their spatial and temporal distributions. Perturbations to the naturally occurring background stratospheric aerosol layer are caused especially by volcanic eruptions and dramatic pyrocumulonimbus injections of smoke from large wildfire/thunderstorm complexes. These events h",
+    "status": "Active",
+    "startDate": "Sep 2021",
+    "endDate": "Sep 2026",
+    "lastUpdated": "06/26/26",
+    "center": "Science Systems and Applications, Inc.",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Science Systems and Applications, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 183800,
+    "title": "The Solar Transition Region UltraViolet Explorer",
+    "description": "We propose to design, build, and operate the Solar Transition Region UltraViolet Explorer (STRUVE) CubeSat mission. STRUVE is a slit-scanning, full-Stokes spectropolarimeter that observes the Sun from 259 to 281 nm with a spectral resolving power of 41,500 and high signal-to-noise (SNR). The spectrograph is a cross-dispersed Echelle type with design heritage from the Hubble Space Telescope (HST). The observed wavelength region contains the well-known Mg II h and k lines as well as a number of Fe",
+    "status": "Active",
+    "startDate": "Apr 2025",
+    "endDate": "Mar 2030",
+    "lastUpdated": "06/26/26",
+    "center": "University Corporation for Atmospheric Research",
+    "technologyArea": "",
+    "partners": [
+      "University Corporation for Atmospheric Research",
+      "Instituto de Astrof\u00edsica de Canarias",
+      "Lockheed Martin Solar & Astrophysics Lab",
+      "National Center for Atmospheric Research",
+      "University of Colorado Boulder"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183821,
+    "title": "Atmospheric Oxygen Cubesat Mission for Mesosphere Lower Thermosphere Wave Dynamics",
+    "description": "The Atmospheric Oxygen Cubesat (AtmOCube) mission aims to derive global distributions of mesoscale gravity waves (GWs) in the Mesosphere Lower Thermosphere (MLT), including their 3D wave vectors. The AtmOCube mission will consist of one 16U satellite with two monolithic spatial heterodyne interferometers (SHI) for atmospheric temperature sounding, both viewing O2 atmospheric band emission in the anti-ram direction. The AtmOCube mission shall demonstrate that 3D observations of temperature in thi",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Oct 2029",
+    "lastUpdated": "06/26/26",
+    "center": "University of Colorado Boulder",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of Colorado Boulder",
+      "Forschungszentrum J\u00fclich",
+      "High Altitude Observatory",
+      "NorthWest Research Associates",
+      "University of Colorado Boulder Laboratory for Atmospheric and Space Physics"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96937,
+    "title": "Radar on a Chip",
+    "description": "This proposal is a collaboration between OEwaves, UC-Davis, and NASA Goddard for design, development, and demonstration of a radar on chip based on photonics technology. Recent demonstration of a high performance widely tunable photonic local oscillator (LO) at OEwaves is the basis for an architecture to realize a radar receiver/transmitter system on a photonic integrated circuit (PIC). Photonic Integrated Circuit (PIC) technology provides the most competitive opportunity to reduce the size, wei",
+    "status": "Completed",
+    "startDate": "Mar 2021",
+    "endDate": "Dec 2023",
+    "lastUpdated": "06/26/26",
+    "center": "OEwaves, Inc.",
+    "technologyArea": "Sensing and Perception",
+    "partners": [
+      "OEwaves, Inc.",
+      "Goddard Space Flight Center",
+      "University of California-Davis"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182362,
+    "title": "An Earth System Digital Twin for Wildfire: Predicting Wildfire Progression and Behavior, and Its Downstream Impacts on Air Quality",
+    "description": "This proposal presents an Earth System Digital Twin (ESDT) for Wildfire, delivering an advanced and integrated system designed to enhance the accuracy, efficiency, and real-time responsiveness of wildfire forecasting and management. This wildfire ESDT utilizes a comprehensive set of technologies, including novel AI-based frameworks with near real-time high-resolution predictive models to forecast wildfire spread and progression in the future, as well as its downstream impact on air quality. Wild",
+    "status": "Active",
+    "startDate": "May 2025",
+    "endDate": "Apr 2027",
+    "lastUpdated": "06/26/26",
+    "center": "California State University Auxiliary Services, Inc",
+    "technologyArea": "Modeling",
+    "partners": [
+      "California State University Auxiliary Services, Inc",
+      "California State University-Los Angeles",
+      "City of Los Angeles",
+      "George Mason University",
+      "Jet Propulsion Laboratory",
+      "OpenAQ Inc"
+    ],
+    "website": ""
+  },
+  {
+    "id": 145049,
+    "title": "Quantum Atomic Rydberg Radiometer for Earth Measurements",
+    "description": "Decades of operational and scientific mission experience have proven that microwave radiometers (MR) are invaluable for collecting accurate, frequent data resulting in atmospheric sounding and surface imaging measurements of a wide range of geophysical phenomena. Retrievals of atmospheric temperature and humidity profiles are obtained routinely from several MR (e.g. ATMS, AMSU, SSMI/S) using channels near the 60 GHz (V-band) oxygen and 183 GHz (G-band) water absorption features. These data, and ",
+    "status": "Completed",
+    "startDate": "Feb 2023",
+    "endDate": "Feb 2026",
+    "lastUpdated": "06/26/26",
+    "center": "ColdQuanta, Inc.",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "ColdQuanta, Inc.",
+      "Ball Aerospace & Technologies Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182392,
+    "title": "Event- and Feature-Based Observing System Design: Quantifying Science and Applications Benefit for Diverse Measurement Combinations",
+    "description": "There is an increasing need for observing systems that are not only global in scope, but also flexibly responsive to emerging events. In addition, new measurements must not only advance the state of science, but also serve the needs of applications end users. Furthermore, any new measurements will be made in the context of an observing system that is ever increasing in its diversity and complexity. The key challenge is to measure the benefits of proposed new measurements in the context of the cu",
+    "status": "Active",
+    "startDate": "Dec 2024",
+    "endDate": "Nov 2026",
+    "lastUpdated": "06/26/26",
+    "center": "California Institute of Technology",
+    "technologyArea": "Modeling",
+    "partners": [
+      "California Institute of Technology",
+      "Arizona State University-Tempe",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183299,
+    "title": "Sediment Plumes and Blooms: Using Earth Observations and Modeling to Forecast Post-Fire impacts to Reservoir Water Quality and Quantity",
+    "description": "Our primary goal is to improve forecasting and long-term monitoring tools for watershed managers dealing with post-fire hydrological impacts on critical watersheds and reservoirs. Within the continental US, 67 of the 100 largest cities obtain their drinking water solely from surface sources. Thousands of smaller communities with limited budgets also rely on surface water. The majority of these headwater catchments are forested, some are in rangelands and grasslands ecosystems, and are subject to",
+    "status": "Active",
+    "startDate": "Jul 2024",
+    "endDate": "Jul 2027",
+    "lastUpdated": "06/26/26",
+    "center": "Michigan Technological University",
+    "technologyArea": "Modeling",
+    "partners": [
+      "Michigan Technological University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 185964,
+    "title": "Fuel-Driven Wildfire Risk Mapping Over CONUS to Guide Targeted Resources Allocation",
+    "description": "Dynamic factors such as precipitation, fuel accumulation, and live fuel moisture content all play a role in determining the risk of any given wildland area to fire potential, while evolving on differing timescales. Fuel compositions within a landscape may evolve slowly over decades or dramatically change within weeks depending on the fuel category (i.e., trees versus grasses). Likewise, LFMC can vary substantially within differing vegetation types at the same site due to plant physiological adap",
+    "status": "Active",
+    "startDate": "Aug 2025",
+    "endDate": "Jul 2028",
+    "lastUpdated": "06/26/26",
+    "center": "Massachusetts Institute of Technology Lincoln Laboratory",
+    "technologyArea": "Fire Detection, Suppression, and Recovery",
+    "partners": [
+      "Massachusetts Institute of Technology Lincoln Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182311,
+    "title": "Developing an AI/ML transfer learning module for a PBL novel observing system (PBL NOS)",
+    "description": "Proposed Objectives: \u2022 Develop fully functional framework to process CoSMIR-H products (q(z), T(z), PBLH) \u2022 Begin implementation of data fusion infrastructure for AURORA and future PBL multi-sensor architecture ",
+    "status": "Completed",
+    "startDate": "Jan 2025",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Intelligent Data Understanding",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182312,
+    "title": "Continuing the evolution of CASALS",
+    "description": "Proposed Objectives: \u2022 Quantify lidar performance from successful engineering flights against the design goals \u2022 Advance frequency doubling approach for producing green light of wide wavelength regime \u2022 Assess the feasibility of a lidar atmospheric channel based on Nov. 2024 flights. Appropriateness: This work is required to fill in the gaps of the CASALS STV roadmap that aren\u2019t supported by IRAD or planned for DSI. ",
+    "status": "Completed",
+    "startDate": "Dec 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Lasers",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183296,
+    "title": "ODIN - Optomechanical-Distributed instrument for Inertial sensing and Navigation",
+    "description": "We propose a technology demonstration space mission to validate ODIN, a novel optomechanical-distributed inertial sensing and navigation system. ODIN is an instrument of low cost, size, weight, and power (CSWaP), capable of providing linear acceleration and angular measurements at levels of 10^-9 ms^-2/\u221aHz and 50 \u03bcrad/\u221aHz, respectively, which are relevant for mass change. Inspired by our ongoing IIP project, ODIN utilizes in-plane dual-accelerometer systems and deploys six compact sub-assemblies",
+    "status": "Active",
+    "startDate": "Aug 2024",
+    "endDate": "Jul 2027",
+    "lastUpdated": "06/26/26",
+    "center": "University of Arizona",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of Arizona"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96522,
+    "title": "Development and Demonstration of an All Solid-State 4.7 THz spectrometer Enabling Measurements of Thermospheric Winds, Temperature, and O Density",
+    "description": "TeraHz Limb Sounder (TLS) is a low-mass, low-power, high spectral resolution heterodyne spectro-polarimeter operating in the TeraHz (THz) frequency regime designed to remotely measure thermospheric wind, temperature and atomic oxygen density profiles from a low-earth orbit platform. It resolves the Doppler line shapes of the atomic oxygen emissions at 2.06 THz (145 micron) and 4.7 THz (63 micron) and uses their polarimetric properties to improve its measurement precisions. Under the support of p",
+    "status": "Completed",
+    "startDate": "Mar 2020",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Johns Hopkins University",
+    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "partners": [
+      "Johns Hopkins University",
+      "Jet Propulsion Laboratory",
+      "Johns Hopkins University: Applied Physics Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157491,
+    "title": "Assessing Neighborhood Climate Risk and Daily Exposures in Cities",
+    "description": "The NASA Climate Impacts Group Urban Pillar will develop an urban-focused information system that enables city dwellers to explore the interactions between weather and climate risks and neighborhood-level hazards and the interconnectedness of urban systems.",
+    "status": "Completed",
+    "startDate": "Sep 2023",
+    "endDate": "Aug 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Goddard Institute of Space Studies",
+    "technologyArea": "Science Modeling",
+    "partners": [
+      "Goddard Institute of Space Studies"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183212,
+    "title": "A Miniature Solar Wind Sensor for future low-cost, constellation, and deep-space missions",
+    "description": "Providing solar wind parameters is critical to understanding the physical processes related to space weather and their impacts at Earth and other planets. CubeSats are now capable and flexible platforms that can be configured for a wide range of science mission profiles, either as a standalone platform, as a daughter spacecraft, or in swarms and constellations. We propose to develop and validate an extremely compact, low-power, and high-performance solar wind analyzer, the Miniature Solar WInd S",
+    "status": "Active",
+    "startDate": "Mar 2024",
+    "endDate": "Feb 2027",
+    "lastUpdated": "06/26/26",
+    "center": "",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "Southwest Research Institute - San Antonio"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96397,
+    "title": "SToRM SAR",
+    "description": "Observations at 1km horizontal resolution are needed to resolve the fine thermodynamic phase structure present in many severe storms, and support the weather process research needed for future convection-resolving weather models. SToRM SAR is an approach developed by BAE Systems and Colorado State University for a space-based 3D multi-static precipitation radar that employs agile micro-satellites operating synchronously in a distributed configuration to provide 1km horizontal spatial resolution ",
+    "status": "Completed",
+    "startDate": "Feb 2020",
+    "endDate": "Feb 2025",
+    "lastUpdated": "06/26/26",
+    "center": "BAE Systems Space and Mission Systems Inc.",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "BAE Systems Space and Mission Systems Inc.",
+      "Colorado State University-Fort Collins"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157510,
+    "title": "Wildfire Thermal Detection Instrument Development",
+    "description": "Planet Labs PBC (Planet) in collaboration with NASA Ames and JPL proposes to conduct a study to mature a low cost mass producible space-based fire detection thermal Earth observation imager. This study is to mature a space-based fire detection instrument as part of the active fire stage of the wildfire lifecycle. The study specifically focuses on validating the approach of leveraging a SWIR and/or MWIR thermal camera to perform real time fire detection from space. By validating the instrument an",
+    "status": "Completed",
+    "startDate": "Sep 2024",
+    "endDate": "Feb 2026",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Sensing and Perception",
+    "partners": [
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157513,
+    "title": "Dynamic Targeting",
+    "description": "The proposed work will extend Steve Chien's NOS-T prototype projects (as part of AIST-QRS-19-0007 and AIST-QRS-21-0001). Although it is the continuation of previous work, because those efforts were part of AIST-18 JPL Task Plan, this new \"augmentation\" will be recorded as a new task under the AIST-21 JPL Task Plan. This effort will mature dynamic targeting concepts, algorithms, and software to enable future missions to more effectively capture science data. Specifically, this effort will have th",
+    "status": "Completed",
+    "startDate": "Sep 2022",
+    "endDate": "Aug 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Intelligent Data Understanding",
+    "partners": [
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 116076,
+    "title": "Compact optomechanical accelerometers for space geodesy",
+    "description": "GRACE has fundamentally improved our understanding of the surface anomalies in Earth's gravitational field and its dynamics. However, GRACE has shown that certain technologies, such as low-frequency high-sensitivity accelerometers, require improvements in both sensitivity and reliability to ensure future high quality science outputs. Significant progress in the development of optomechanical sensing technologies has been achieved by the scientific community over the past decade. Building upon the",
+    "status": "Completed",
+    "startDate": "Feb 2022",
+    "endDate": "Dec 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Texas A&M Engineering Experiment Station",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "Texas A&M Engineering Experiment Station",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182391,
+    "title": "A Digital Twin Integrating Knowledge and AI for Understanding Carbon and Biodiversity Corridors in Central Africa",
+    "description": "Home to the world's second-largest contiguous rainforest, Central Africa is a crucial land carbon reservoir and the major habitat of thousands of endemic species of plants and wildlife. Past decades of land use activities have threatened Central Africa, resulting in the loss of millions of hectares of humid primary forest and fragmented landscapes. Carbon and biodiversity corridors, connecting protected habitats across landscapes, can mitigate the effects of land use and climate change on biodiv",
+    "status": "Active",
+    "startDate": "Aug 2025",
+    "endDate": "Aug 2027",
+    "lastUpdated": "06/26/26",
+    "center": "",
+    "technologyArea": "Modeling",
+    "partners": [
+      "Imazon",
+      "Northern Arizona University",
+      "University of Maryland-College Park",
+      "Yale University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117283,
+    "title": "Pixels for Public Health: Analytic Collaborative Framework to Enhance Coastal Resiliency of Vulnerable Populations in Hampton Roads, Virginia",
+    "description": "Increasing coastal flooding owing to sea level rise and climate-change drivers of extreme precipitation combine to threaten vulnerable communities, posing imminent as well as evolving dynamic threats given sea-level rise and climate changes. A diversity of social, economic and cultural vulnerabilities, and coping capacities exist across coastal communities, yet decision support systems for response and planning alike are disparate and siloed. Vulnerable urban communities contend with the legacy ",
     "status": "Completed",
     "startDate": "Aug 2022",
+    "endDate": "Jul 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Old Dominion University Research Foundation",
+    "technologyArea": "Simulation",
+    "partners": [
+      "Old Dominion University Research Foundation",
+      "Old Dominion University",
+      "Virginia Modeling, Analysis & Simulation Center - Old Dominion University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117170,
+    "title": "Fire Alarm: Science Data Platform for Wildfire and Air Quality",
+    "description": "Wildfires have become a grim indicator of the severity of the weather and climate extremes our planet is increasingly facing. The latest IPCC report describes the unprecedented rate at which the global climate has warmed in the last 200 years (UN News 2021), resulting in ocean temperature increases, rising sea levels, intense rains and floods, new records for heatwaves and droughts, and ever-growing stress on freshwater availability. The enhanced variability in precipitation and freshwater can c",
+    "status": "Completed",
+    "startDate": "Jan 2023",
     "endDate": "Aug 2025",
     "lastUpdated": "06/26/26",
     "center": "Jet Propulsion Laboratory",
@@ -2481,85 +2441,115 @@
     "website": ""
   },
   {
-    "id": 117255,
-    "title": "Terrestrial Environmental Rapid-Replicating Assimilation Hydrometeorology System: A machine-learning coupled water, energy, and vegetation terrestrial Earth System Digital Twin",
-    "description": "The Earth's environment is changing rapidly, resulting in more extreme weather and increased risk from weather and climate related phenomena. Land Surface Models (LSMs) are a critical component of climate and weather forecasting models, and are integral tools for regional drought monitoring, agricultural monitoring and prediction, famine early warning systems, and flood forecasting, among other things. A vital part of NASA's Earth Science mission includes supporting terrestrial models (LSMs) tha",
+    "id": 157501,
+    "title": "Flight Demonstration of Multiband Uncooled Radiometer",
+    "description": "Demonstrate a Two Band version of IIP-16 Multiband Uncooled Radiometer Instrument (MURI) Payload to be hosted on a LOFT Orbital SmallSat Bus. The two bands with CWL of 10.8um and 12.0um, closely match the TIRS bands that have historically been used on the LANDSAT TIRS instrument. The payload will be based on the already funded 6U CubeSat compatible demo hardware under IIP-16-0042 task.",
     "status": "Completed",
-    "startDate": "Jul 2022",
+    "startDate": "Apr 2021",
+    "endDate": "Sep 2024",
+    "lastUpdated": "06/26/26",
+    "center": "Leonardo DRS",
+    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "partners": [
+      "Leonardo DRS"
+    ],
+    "website": ""
+  },
+  {
+    "id": 97186,
+    "title": "The Solar Imaging Metasurface Polarimeter",
+    "description": "We propose to develop an imaging spectro-polarimeter capable of capturing 2D images of the Sun with full polarization information, over a narrow spectral band. This enables spectro-polarimetric studies of solar magnetism by measuring the full state of polarization over the entire region of interest with every camera frame, without the need for moving mechanisms (e.g., translating spectrograph slits or rotating polarization optics). The design exploits recent advances in nanophotonics enabling th",
+    "status": "Completed",
+    "startDate": "Aug 2021",
     "endDate": "Jul 2025",
     "lastUpdated": "06/26/26",
-    "center": "Science Systems and Applications, Inc.",
-    "technologyArea": "Information Processing and Artificial Intelligence",
-    "partners": [
-      "Science Systems and Applications, Inc.",
-      "The University of Alabama"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157493,
-    "title": "AI-enabled Drone Swarms for Fire Detection, Mapping, and Modeling",
-    "description": "Tremendous scientific and technology advances have been made in the past decade toward detecting, mapping, and predicting behavior of wildfires, mainly due to or building on the expansion in airborne and spaceborne remote sensing. These advances have left important gaps, including the ability to monitor a wildfire's minute by minute change and conditions in its near environment, to quickly yet accurately anticipate near-term dynamic fire behavior, and to integrate diverse sources of intelligence",
-    "status": "Active",
-    "startDate": "Oct 2023",
-    "endDate": "Sep 2026",
-    "lastUpdated": "06/26/26",
-    "center": "Clemson University",
-    "technologyArea": "Tactical Management of Air Vehicles",
-    "partners": [
-      "Clemson University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157616,
-    "title": "Laboratory XUV Spectroscopy: Increasing the Scientific Return of Solar Missions",
-    "description": "Unraveling the complex and poorly known physical mechanisms that govern coronal heating, solar wind acceleration, and the occurrence of dynamic events such as flares and coronal mass ejections (CMEs) is key to our understanding of the Sun and stars, space weather, and the interaction between stars and planets. There are many current, planned, and proposed missions aimed at answering these important questions by targeting the Extreme Ultraviolet/Soft X-ray (EUV/SXR or XUV) wavelength region, wher",
-    "status": "Active",
-    "startDate": "Mar 2024",
-    "endDate": "Feb 2027",
-    "lastUpdated": "06/26/26",
-    "center": "Smithsonian Astrophysical Observatory",
+    "center": "University Corporation for Atmospheric Research",
     "technologyArea": "Detectors and Focal Planes",
     "partners": [
-      "Smithsonian Astrophysical Observatory",
-      "Clemson University",
-      "Goddard Space Flight Center",
-      "Harvard University",
-      "University of Cambridge"
+      "University Corporation for Atmospheric Research",
+      "Ball Aerospace & Technologies Corporation",
+      "Harvard University"
     ],
     "website": ""
   },
   {
-    "id": 157486,
-    "title": "Smart Polyimide Expandable Collector to enable Investigations for Earth Science (SPECIES)",
-    "description": "The Smart Polyimide Expandable Collector to enable Investigations for Earth Science (SPECIES) project will design and fabricate deployable diffractive optics, specifically, Multi-layer Fresnel Zone Plates (MLFZPs), and a deployment mechanism with a path to space for lidar applications. The team at LaRC will now look to a commercial partner to fabricate a single deployment mechanism (MMA) and fabricate FZPs (Nexolve) from a mold created at LaRC. The goal is to develop 6\" FZP prototypes and then m",
+    "id": 145047,
+    "title": "Heterogeneous Integration of High Operating Temperature Barrier IR Detectors and Waveguides: Integrated Photonics for IR Hyperspectral Sensing",
+    "description": "Northrop Grumman (NG) and the Jet Propulsion Laboratory (JPL) propose to heterogeneously integrate JPL's High Operating Temperature Barrier Infrared Detectors (HOT-BIRD) with NG's infrared (IR) photonic waveguide chips forming the core component of a compact IR photonic spectrometer. Under the NASA ESTO SLI-T program, NG is developing a short wave IR photonic sensor, where an entire spectrometer (including optics, detectors, and readout electronics) can fit in a volume comparable to that occupie",
     "status": "Completed",
-    "startDate": "Jul 2021",
-    "endDate": "Jun 2026",
+    "startDate": "Mar 2023",
+    "endDate": "Feb 2026",
     "lastUpdated": "06/26/26",
-    "center": "Langley Research Center",
+    "center": "Northrop Grumman Systems Corporation",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Northrop Grumman Systems Corporation",
+      "Jet Propulsion Laboratory",
+      "Northrop Grumman Aerospace Systems"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96401,
+    "title": "Global L-band Active/Passive Observatory for Water Cycle Studies (GLOWS)",
+    "description": "The value of L-band measurements from the Soil Moisture Active Passive (SMAP) and Soil Moisture Ocean Salinity (SMOS) missions have shown the importance of L-band data record in Earth Sciences. An obstacle to this is the high cost of designing and flying the large antennas required for L-band observations. A new technique based on reflectarray antennas provides a path to smaller, lower-cost, simpler, large-aperture antennas for low frequency microwave (L-band) observation. Using this key technol",
+    "status": "Completed",
+    "startDate": "Apr 2020",
+    "endDate": "Sep 2024",
+    "lastUpdated": "06/26/26",
+    "center": "Brigham Young University-Provo",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Brigham Young University-Provo",
+      "Goddard Space Flight Center",
+      "MMA Design, LLC",
+      "novawurks.com"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182309,
+    "title": "Fery Grism prototype - Next Gen Atmospheric Gas Spectrometers & Solar Induced Fluorescence Imaging Spectrometers",
+    "description": "Objectives for technology investment: \u2022 Demonstrate that JPL can electron-beam fabricate aberration- corrected gratings on curved odd-shaped fused-silica prisms. This will enable the SIF imaging spectrometer design, and will be a significant step towards the OCO-neXt silicon Fery grism.  Key Technology development under this effort: \u2022 Fery grism prototype: E-beam fabrication of an aberration-corrected Fery grism for a SIF imaging spectrometer design.  After fabrication, the grism will be charact",
+    "status": "Completed",
+    "startDate": "Jan 2025",
+    "endDate": "Sep 2025",
+    "lastUpdated": "06/26/26",
+    "center": "Jet Propulsion Laboratory",
     "technologyArea": "Optical Components",
     "partners": [
-      "Langley Research Center"
+      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
   {
-    "id": 116079,
-    "title": "Advanced Co-Based Nanocrystalline Soft Magnetics for Extreme Temperature Inductor Applications",
-    "description": "The NASA Hot Operating Temperature Technology (HOTTech) program seeks to push existing state-of-art electronic component technologies beyond current capabilities, with targeted operating temperatures of 500C or greater for at least 60 earth days of operation to enable robotic exploration of high temperature environments such as the Venus surface, Mercury, or the deep atmosphere of Gas Giants. As active semiconductor devices realize high temperature capability, advances in passive electronic comp",
+    "id": 96314,
+    "title": "Predicting What We Breathe: Using Machine Learning to Understand Air Quality",
+    "description": "Every 7 seconds, someone dies from the effects of air pollution. Air pollution is responsible for 4.5 million deaths and 107.2 million disability-adjusted-life-years globally. With the percentage of the global population living in urban areas projected to increase from 54% in 2015 to 68% in 2050 and in the U.S. up to 89%, the prevention of a significant increase in air pollution-related loss of life requires comprehensive mitigation strategies, as well as forecast systems, to limit and reduce th",
     "status": "Completed",
-    "startDate": "Mar 2022",
+    "startDate": "May 2020",
+    "endDate": "Dec 2024",
+    "lastUpdated": "06/26/26",
+    "center": "University of Southern California",
+    "technologyArea": "Modeling",
+    "partners": [
+      "University of Southern California"
+    ],
+    "website": ""
+  },
+  {
+    "id": 116099,
+    "title": "Photonic Integrated Circuits in Space: The Hyperspectral Microwave Photonic Instrument",
+    "description": "Our Team's Hyperspectral Microwave Photonic Instrument (HyMPI) breaks away from 40-year old microwave sounding technology and breaks through to a new era of advanced measurements of Earth's atmospheric temperature and water vapor profiles. Hyperspectral (a few hundred to a few thousand channels) microwave sensors have been strongly advocated by numerous space and meteorological agencies worldwide, to augment Earth atmosphere sounding capability of temperature and water vapor from space. In gener",
+    "status": "Completed",
+    "startDate": "Feb 2022",
     "endDate": "Feb 2025",
     "lastUpdated": "06/26/26",
-    "center": "University of Pittsburgh-Pittsburgh Campus",
-    "technologyArea": "Materials",
+    "center": "NASA Headquarters",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "University of Pittsburgh-Pittsburgh Campus",
-      "CorePower Magnetics",
-      "Glenn Research Center",
-      "Raytheon Technologies Research Center"
+      "NASA Headquarters",
+      "Goddard Space Flight Center"
     ],
     "website": ""
   }

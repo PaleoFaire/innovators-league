@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-07-11 08:31:33 UTC
+// Last updated: 2026-07-12 08:56:40 UTC
 const PRESS_RELEASES = [
   { title: "FCC approves first Reflect Orbital satellite", date: "2026-07-11", companies: "Reflect Orbital, Figure AI, Array Labs", categories: "milestone, ipo", source: "spacenews" },
   { title: "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo", date: "2026-07-10", companies: "Anthropic", categories: "contract, hiring", source: "breakingdefense" },
