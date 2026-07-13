@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T11:22:51.875185+00:00",
+  "generatedAt": "2026-07-13T14:53:24.616543+00:00",
   "date": "2026-07-13",
   "dateDisplay": "Monday, July 13, 2026",
   "sections": {
@@ -61,60 +61,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 81.04,
-        "changePercent": -19.33,
-        "change": -19.42
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 40.19,
+        "changePercent": -17.77,
+        "change": -8.68
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 16.14,
-        "changePercent": -17.57,
-        "change": -3.44
+        "price": 15.83,
+        "changePercent": -16.2,
+        "change": -3.06
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 78.08,
+        "changePercent": -16.12,
+        "change": -15.01
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 19.05,
+        "changePercent": -15.55,
+        "change": -3.51
+      },
+      {
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 7.56,
+        "changePercent": -15.27,
+        "change": -1.36
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.64,
+        "changePercent": -14.58,
+        "change": -0.28
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 26.05,
-        "changePercent": -16.99,
-        "change": -5.33
+        "price": 26.39,
+        "changePercent": -14.5,
+        "change": -4.47
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.54,
-        "changePercent": -16.39,
-        "change": -0.89
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 73.32,
-        "changePercent": -13.87,
-        "change": -11.81
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 415000.0,
-        "changePercent": -13.54,
-        "change": -65000.0
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 42.86,
-        "changePercent": -12.74,
-        "change": -6.26
-      },
-      {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 110.3,
-        "changePercent": -12.32,
-        "change": -15.5
+        "price": 4.45,
+        "changePercent": -14.09,
+        "change": -0.73
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "RKLB -19.3%"
+    "topMover": "IONQ -17.8%"
   }
 }

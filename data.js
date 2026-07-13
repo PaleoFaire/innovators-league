@@ -73440,23 +73440,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-13 11:22
+// Last updated: 2026-07-13 14:53
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "Just now", impact: "high", unread: true },
-  { id: 4, type: "funding", company: "Helsing", headline: "European defencetech leader Helsing secures $1.8B Series E at $18B valuation", source: "Tech.eu", time: "2h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX gears up for Starship Flight 13", source: "SpaceNews", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI bets on families as ChatGPT goes deeper into households", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here's the Actual Math", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI's Head of Safety Is Leaving the Company", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Reflect Orbital", headline: "FCC approves first Reflect Orbital satellite", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Path Robotics", headline: "How Path Robotics uses AI to optimize robotic welding", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "patent", company: "Xtend", headline: "XTEND secures U.S. patent for autonomous navigation technology", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "Apple sues OpenAI over alleged trade secret theft", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Humanoid", headline: "AI' Robotics raises $735M at $3B valuation for wheeled humanoid robots", source: "The Robot Report", time: "2d ago", impact: "high", unread: false },
-  { id: 15, type: "contract", company: "Anthropic", headline: "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo", source: "Breaking Defense", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX cleared to fly Starship again after booster failure in May", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Auterion", headline: "Auterion , Ukrainian drone-maker Skyfall to supply 50,000 FPVs", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Uber's robotaxi lobbying effort puts it on a collision course with Waymo", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "4h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "4h ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "Helsing", headline: "European defencetech leader Helsing secures $1.8B Series E at $18B valuation", source: "Tech.eu", time: "5h ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX gears up for Starship Flight 13", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI bets on families as ChatGPT goes deeper into households", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here's the Actual Math", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI's Head of Safety Is Leaving the Company", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Reflect Orbital", headline: "FCC approves first Reflect Orbital satellite", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Path Robotics", headline: "How Path Robotics uses AI to optimize robotic welding", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "patent", company: "Xtend", headline: "XTEND secures U.S. patent for autonomous navigation technology", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "Apple sues OpenAI over alleged trade secret theft", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
