@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:30:41+00:00",
+  "generatedAt": "2026-07-13T10:24:15+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
   "cohortSize": 91,
@@ -130,7 +130,7 @@
     },
     {
       "name": "Atana Elements",
-      "reason": "Claude extraction failed"
+      "reason": "no public sources accessible"
     },
     {
       "name": "Atomic AI",
@@ -234,7 +234,7 @@
     },
     {
       "name": "ClearSpace",
-      "reason": "Claude extraction failed"
+      "reason": "no public sources accessible"
     },
     {
       "name": "Collaborative Robotics",
