@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-07-12";
+const LAST_UPDATED = "2026-07-13";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -73151,13 +73151,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-12 22:58
+// Last updated: 2026-07-13 00:02
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "OpenAI", headline: "OpenAI bets on families as ChatGPT goes deeper into households", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here's the Actual Math", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "news", company: "OpenAI", headline: "OpenAI's Head of Safety Is Leaving the Company", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "Reflect Orbital", headline: "FCC approves first Reflect Orbital satellite", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Path Robotics", headline: "How Path Robotics uses AI to optimize robotic welding", source: "The Robot Report", time: "1d ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Path Robotics", headline: "How Path Robotics uses AI to optimize robotic welding", source: "The Robot Report", time: "2d ago", impact: "low", unread: true },
   { id: 6, type: "patent", company: "Xtend", headline: "XTEND secures U.S. patent for autonomous navigation technology", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "OpenAI", headline: "Apple sues OpenAI over alleged trade secret theft", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "OpenAI", headline: "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets", source: "Wired", time: "2d ago", impact: "low", unread: false },
