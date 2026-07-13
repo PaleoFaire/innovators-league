@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T00:02:13.547440+00:00",
+  "generatedAt": "2026-07-13T03:46:27.484551+00:00",
   "date": "2026-07-13",
   "dateDisplay": "Monday, July 13, 2026",
   "sections": {
@@ -103,18 +103,18 @@
         "change": -6.26
       },
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 426000.0,
+        "changePercent": -11.25,
+        "change": -54000.0
+      },
+      {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
         "price": 20.09,
         "changePercent": -10.83,
         "change": -2.44
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.66,
-        "changePercent": -10.27,
-        "change": -0.19
       }
     ],
     "regulatory": [
