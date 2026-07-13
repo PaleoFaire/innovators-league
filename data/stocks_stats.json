@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -3.19,
+      "avg_change": -2.89,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -10.72,
+      "avg_change": -12.91,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.5,
+      "avg_change": -10.44,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.24,
+      "avg_change": -12.48,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -8.75,
+      "avg_change": -9.9,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.34,
+      "avg_change": -18.02,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.74,
+      "avg_change": -10.85,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -9.44,
+      "avg_change": -10.94,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.56,
+      "avg_change": -5.45,
       "count": 3
     }
   },
@@ -66,12 +66,12 @@
     [
       "NVDA",
       "NVIDIA",
-      6.06
+      4.15
     ],
     [
       "LNZA",
       "LanzaTech",
-      0.34
+      0.51
     ],
     [
       "9348.T",
@@ -79,37 +79,37 @@
       0.23
     ],
     [
-      "AMD",
-      "AMD",
-      -1.32
+      "ASRHF",
+      "Astroscale",
+      -2.16
     ]
   ],
   "topLosers": [
     [
-      "JOBY",
-      "Joby Aviation",
-      -15.27
+      "ALAB",
+      "Astera Labs",
+      -17.02
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -15.55
+      -17.75
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -16.12
+      -18.11
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -16.2
+      -20.09
     ],
     [
       "IONQ",
       "IonQ",
-      -17.77
+      -20.78
     ]
   ],
-  "lastUpdated": "2026-07-13 14:42:42"
+  "lastUpdated": "2026-07-13 19:27:30"
 }
