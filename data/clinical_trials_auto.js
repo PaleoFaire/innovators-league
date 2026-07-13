@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-07-12 08:56:44 UTC
+// Last updated: 2026-07-13 10:13:58 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05611632", title: "Does Screening With the Galleri Test in the NHS Reduce the Likelihood of a Late-", status: "ACTIVE_NOT_RECRUITING", phase: "NA", sponsor: "GRAIL, Inc.", conditions: "Cancer", enrollment: 142318, lastUpdated: "2026-07-10" },
   { nctId: "NCT01132937", title: "Evaluation, Pathogenesis, and Outcome of Subjects With or Suspected Traumatic Br", status: "COMPLETED", phase: "N/A", sponsor: "National Institute of Neurological Disorders and Stroke (NINDS)", conditions: "Traumatic Brain Injury", enrollment: 886, lastUpdated: "2026-07-10" },

@@ -46,15 +46,6 @@
   },
   {
     "date": "2026-07-17",
-    "vehicle": "Electron | LOXSAT 1",
-    "payload": "LOXSAT 1",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/599ba2df-7483-4b2f-a083-2b5ddc06e069/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-07-17",
     "vehicle": "Long March 7A | Unknown Payload",
     "payload": "Unknown Payload",
     "pad": "201, Wenchang Space Launch Site, People's Republic of China",
@@ -97,6 +88,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5b2f05d7-9052-49fb-9bd7-2a05d4910576/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-31",
+    "vehicle": "Electron | LOXSAT 1",
+    "payload": "LOXSAT 1",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/599ba2df-7483-4b2f-a083-2b5ddc06e069/?format=json",
+    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-07-31",

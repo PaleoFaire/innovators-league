@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-07-12 08:58:13 UTC
+// Last updated: 2026-07-13 10:15:33 UTC
 const NASA_PROJECTS = [
   { id: 184879, title: "Advanced Trace Contaminant Control", status: "Active", center: "Johnson Space Center", techArea: "Portable Life Support System", lastUpdated: "07/10/26" },
   { id: 157626, title: "Crew State & Risk Model", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "07/10/26" },
