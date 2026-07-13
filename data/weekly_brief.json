@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-12",
-  "display_date": "Jul 12, 2026",
-  "generated_at": "2026-07-12T11:00:52.786070+00:00",
-  "cutoff": "2026-07-05T11:00:52.786070+00:00",
+  "date": "2026-07-13",
+  "display_date": "Jul 13, 2026",
+  "generated_at": "2026-07-13T12:34:48.765039+00:00",
+  "cutoff": "2026-07-06T12:34:48.765039+00:00",
   "section_count": 6,
-  "total_items": 322,
+  "total_items": 318,
   "sections": [
     {
       "title": "Top Score Movers",
@@ -86,15 +86,8 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 12,
+      "count": 7,
       "items": [
-        {
-          "company": "Intuitive Machines",
-          "form": "8-K",
-          "description": "tm2619787d1_8k.htm",
-          "date": "2026-07-06",
-          "isIPO": false
-        },
         {
           "company": "D-Wave Quantum",
           "form": "8-K",
@@ -107,20 +100,6 @@
           "form": "8-K",
           "description": "tm2617163d3_8k.htm",
           "date": "2026-07-09",
-          "isIPO": false
-        },
-        {
-          "company": "Rivian",
-          "form": "8-K",
-          "description": "tm2619783d1_8k.htm",
-          "date": "2026-07-06",
-          "isIPO": false
-        },
-        {
-          "company": "Satellogic",
-          "form": "8-K",
-          "description": "ea0297007-8k_zoomcar.htm",
-          "date": "2026-07-06",
           "isIPO": false
         },
         {
@@ -138,10 +117,24 @@
           "isIPO": false
         },
         {
-          "company": "Oklo",
+          "company": "Recursion Pharmaceuticals",
           "form": "4",
-          "description": "xslF345X06/wk-form4_1783368855.xml",
-          "date": "2026-07-06",
+          "description": "xslF345X06/wk-form4_1783634656.xml",
+          "date": "2026-07-09",
+          "isIPO": false
+        },
+        {
+          "company": "Agrify Corporation",
+          "form": "DEF 14A",
+          "description": "ea0295890-02.htm",
+          "date": "2026-07-09",
+          "isIPO": false
+        },
+        {
+          "company": "Rivian",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1783558402.xml",
+          "date": "2026-07-08",
           "isIPO": false
         }
       ]
@@ -149,7 +142,7 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 46,
+      "count": 45,
       "items": [
         {
           "title": "Agency Information Collection Activities: Requests for Comments; Clearance of Renewed Approval of Information Collection",
@@ -162,51 +155,53 @@
           "date": "2026-07-13"
         },
         {
-          "title": "Privacy Act of 1974; System of Records",
+          "title": "Cellular, Tissue, and Gene Therapies Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request fo",
           "type": "Notice",
           "agencies": [
-            "Defense Department",
-            "Army Department"
+            "Health and Human Services Department",
+            "Food and Drug Administration"
+          ],
+          "significant": false,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Government Owned Invention Available for License: Method of Detecting Circulating Cell-Free HPV 6 and 11 DNA in Patients",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "National Institutes of Health"
+          ],
+          "significant": false,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Government Owned Invention Available for License: Generating Conditional and Reverse Conditional Loss-of-Function Allele",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "National Institutes of Health"
+          ],
+          "significant": false,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Re",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Health and Human Services Department",
+            "Centers for Medicare & Medicaid Services"
+          ],
+          "significant": false,
+          "date": "2026-07-07"
+        },
+        {
+          "title": "Sunshine Act Meetings",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
           "date": "2026-07-10"
-        },
-        {
-          "title": "Supplemental Disaster Assistance Programs, Marketing Assistance Loans, and Sugar Provisions",
-          "type": "Rule",
-          "agencies": [
-            "Agriculture Department",
-            "Commodity Credit Corporation"
-          ],
-          "significant": false,
-          "date": "2026-07-09"
-        },
-        {
-          "title": "Submission for OMB Review; Comment Request",
-          "type": "Notice",
-          "agencies": [
-            "Agriculture Department"
-          ],
-          "significant": false,
-          "date": "2026-07-09"
-        },
-        {
-          "title": "Procurement List; Proposed Additions and Deletions",
-          "type": "Notice",
-          "agencies": [
-            "Committee for Purchase From People Who Are Blind or Severely Disabled"
-          ],
-          "significant": false,
-          "date": "2026-07-09"
-        },
-        {
-          "title": "President's Board of Advisors on Historically Black Colleges and Universities (HBCUs); Notice of Charter Renewal",
-          "type": "Notice",
-          "agencies": [
-            "Education Department"
-          ],
-          "significant": false,
-          "date": "2026-07-09"
         }
       ]
     },
@@ -215,6 +210,27 @@
       "icon": "\ud83d\udcf0",
       "count": 35,
       "items": [
+        {
+          "title": "Helsing raises $1.8 billion in Europe\u2019s biggest defense-startup round",
+          "source": "Defense News",
+          "company": "Helsing",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Helsing raises $1.8bn backed by Goldman and Lightspeed",
+          "source": "Sifted",
+          "company": "Helsing",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "European defencetech leader Helsing secures $1.8B Series E at $18B valuation",
+          "source": "Tech.eu",
+          "company": "Helsing",
+          "impact": "high",
+          "type": "funding"
+        },
         {
           "title": "AI\u00b2 Robotics raises $735M at $3B valuation for wheeled humanoid robots",
           "source": "The Robot Report",
@@ -249,102 +265,66 @@
           "company": "Humanoid",
           "impact": "high",
           "type": "ipo"
-        },
-        {
-          "title": "OpenAI bets on families as ChatGPT goes deeper into households",
-          "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here&#8217;s the Actual Math",
-          "source": "Next Big Future",
-          "company": "SpaceX",
-          "impact": "low",
-          "type": "ipo"
-        },
-        {
-          "title": "OpenAI\u2019s Head of Safety Is Leaving the Company",
-          "source": "Wired",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "news"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 48,
+      "count": 50,
       "items": [
         {
-          "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-          "score": 1605,
-          "comments": 915,
+          "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+          "score": 594,
+          "comments": 323,
           "companies": [
-            "OpenAI",
-            "Flexport"
+            "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=48865019"
+          "url": "https://news.ycombinator.com/item?id=48883275"
         },
         {
-          "title": "Show HN: Getting GLM 5.2 running on my slow computer",
-          "score": 899,
-          "comments": 230,
+          "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+          "score": 477,
+          "comments": 173,
           "companies": [
-            "QuantWare",
-            "Quilter",
-            "Anthropic",
-            "Cape",
-            "Diode",
-            "ideaForge",
-            "Humane",
-            "Percepto"
+            "Vannevar Labs",
+            "xAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48842459"
+          "url": "https://news.ycombinator.com/item?id=48877371"
         },
         {
-          "title": "New York City to ban deceptive subscription practices",
-          "score": 631,
-          "comments": 329,
-          "companies": [
-            "Matic Robotics"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48863464"
+          "title": "I love LLMs, I hate hype",
+          "score": 427,
+          "comments": 270,
+          "companies": [],
+          "url": "https://news.ycombinator.com/item?id=48883343"
         },
         {
-          "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-          "score": 517,
-          "comments": 426,
-          "companies": [
-            "Cover",
-            "OpenAI"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48863490"
+          "title": "Mesh LLM: distributed AI computing on iroh",
+          "score": 339,
+          "comments": 87,
+          "companies": [],
+          "url": "https://news.ycombinator.com/item?id=48876505"
         },
         {
-          "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
-          "score": 391,
-          "comments": 178,
+          "title": "Show HN: Ant \u2013 A JavaScript runtime and ecosystem",
+          "score": 319,
+          "comments": 147,
           "companies": [
-            "Sakana AI",
-            "Relativity Space"
+            "Rocket Lab",
+            "Cohere",
+            "Built Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=48866134"
+          "url": "https://news.ycombinator.com/item?id=48875377"
         },
         {
-          "title": "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth",
-          "score": 302,
-          "comments": 1148,
+          "title": "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years",
+          "score": 272,
+          "comments": 114,
           "companies": [
-            "GHGSat",
-            "Floodbase",
-            "SpaceX",
-            "Array Labs",
-            "Armada"
+            "Sakana AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=48863064"
+          "url": "https://news.ycombinator.com/item?id=48834309"
         }
       ]
     },
@@ -354,37 +334,37 @@
       "count": 106,
       "items": [
         {
-          "title": "Super Intelligent Valet Parking (SIVP): FREELANDER 8 Enables Effortless Parking for Daily Use",
+          "title": "Krannich Solar adds Sigenergy to its product range",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Where Heritage Takes Form: The British Craftsmanship Behind FREELANDER 8\u2019s Exterior Design",
+          "title": "Compass Diversified Announces Amendments to Management Services Agreement Reducing Management Costs and Further Strength",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "HII Christens Guided Missile Destroyer George M. Neal (DDG 131)",
+          "title": "Heineken Holding N.V. reports transactions under its current  share buyback programme",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Discovery Announces Details of Second Quarter 2026 Results Conference Call and Webcast",
+          "title": "Cerrado Gold Reports Strong Q2 2026 Production Results at Its Minera Don Nicolas Mine in Argentina",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Banzai Announces Proposed Public Offering of Approximately $1 Million",
+          "title": "Enerflex Ltd. Announces Director Resignation",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Alamar Biosciences \u7684 NULISA \u6578\u64da\u5c07\u65bc AAIC 2026 \u4e0a\u8d85\u904e 140 \u5834\u79d1\u5b78\u7c21\u5831\u6703\u4e2d\u4eae\u76f8\uff0c\u7a81\u986f\u57fa\u65bc\u8840\u6db2\u7684\u963f\u8332\u6d77\u9ed8\u75c7\u751f\u7269\u6a19\u8a18\u5256\u6790\u4e4b\u6700\u65b0\u9032\u5c55",
+          "title": "Heineken N.V. reports the progress of transactions under its current share buyback programme",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-07-12-95f59b3bd73e"
+  "brief_id": "brief-2026-07-13-86fca26b24b4"
 }
