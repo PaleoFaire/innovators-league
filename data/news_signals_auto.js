@@ -1,118 +1,151 @@
 // Auto-generated news signals
-// Last updated: 2026-07-13T17:19:37.211Z
+// Last updated: 2026-07-13T19:40:09.905Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1783963177211,
+    "id": 1783971609905,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/"
+  },
+  {
+    "id": 1783971609906,
+    "type": "funding",
+    "company": "Anthropic",
+    "headline": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+    "source": "MIT Tech Review",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/"
+  },
+  {
+    "id": 1783971609907,
+    "type": "news",
+    "company": "Anthropic",
+    "headline": "HIGH Reasoning Sweet Spot for Anthropic Fable and OpenAI GPT 5.6",
+    "source": "Next Big Future",
+    "time": "2h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.nextbigfuture.com/2026/07/high-reasoning-sweet-spot-for-anthropic-fable-and-openai-gpt-5-6.html"
+  },
+  {
+    "id": 1783971609908,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "XAI Grok 4.5 Tracking Against Anthropic Opus 4.8",
     "source": "Next Big Future",
-    "time": "Just now",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/xai-grok-4-5-tracking-against-anthropic-opus-4-8.html"
   },
   {
-    "id": 1783963177212,
+    "id": 1783971609909,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "$400 Million Cell Tower Steal &#8211; How SpaceX Will Become the 4th Major US Carrier in 2027",
     "source": "Next Big Future",
-    "time": "Just now",
+    "time": "3h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/400-million-cell-tower-steal-how-spacex-will-become-the-4th-major-us-carrier-in-2027.html"
   },
   {
-    "id": 1783963177213,
+    "id": 1783971609910,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX cleared to fly Starship again after booster failure in May",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "5h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/07/13/spacex-cleared-to-fly-starship-again-after-booster-failure-in-may/"
   },
   {
-    "id": 1783963177214,
+    "id": 1783971609911,
     "type": "news",
     "company": "Auterion",
     "headline": "Auterion, Ukrainian drone-maker Skyfall to supply 50,000 FPVs",
     "source": "Breaking Defense",
-    "time": "4h ago",
+    "time": "6h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://breakingdefense.com/2026/07/auterion-ukrainian-drone-maker-skyfall-to-supply-50000-fpvs/"
   },
   {
-    "id": 1783963177215,
+    "id": 1783971609912,
     "type": "news",
     "company": "Waymo",
     "headline": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
     "source": "TechCrunch",
-    "time": "4h ago",
+    "time": "7h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/07/13/ubers-robotaxi-lobbying-effort-has-put-it-on-a-collision-course-with-waymo/"
   },
   {
-    "id": 1783963177216,
+    "id": 1783971609913,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team",
     "source": "Sifted",
-    "time": "5h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": false,
     "link": "https://sifted.eu/articles/anthropic-monzo-founder-tom-blomfield/"
   },
   {
-    "id": 1783963177217,
+    "id": 1783971609914,
     "type": "funding",
     "company": "Helsing",
     "headline": "Helsing raises $1.8 billion in Europe’s biggest defense-startup round",
     "source": "Defense News",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.defensenews.com/global/europe/2026/07/13/helsing-raises-18-billion-in-europes-biggest-defense-startup-round/"
   },
   {
-    "id": 1783963177218,
+    "id": 1783971609915,
     "type": "funding",
     "company": "Helsing",
     "headline": "Helsing raises $1.8bn backed by Goldman and Lightspeed",
     "source": "Sifted",
-    "time": "6h ago",
+    "time": "9h ago",
     "impact": "high",
     "unread": false,
     "link": "https://sifted.eu/articles/helsing-funding-round-goldman-lightspeed-jp-morgan/"
   },
   {
-    "id": 1783963177219,
+    "id": 1783971609916,
     "type": "funding",
     "company": "Helsing",
     "headline": "European defencetech leader Helsing secures $1.8B Series E at $18B valuation",
     "source": "Tech.eu",
-    "time": "8h ago",
+    "time": "10h ago",
     "impact": "high",
     "unread": false,
     "link": "https://tech.eu/2026/07/13/european-defence-ai-leader-helsing-secures-18b-series-e-at-18b-valuation/"
   },
   {
-    "id": 1783963177220,
+    "id": 1783971609917,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX gears up for Starship Flight 13",
     "source": "SpaceNews",
-    "time": "15h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/spacex-gears-up-for-starship-flight-13/"
   },
   {
-    "id": 1783963177221,
+    "id": 1783971609918,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI bets on families as ChatGPT goes deeper into households",
@@ -123,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
   },
   {
-    "id": 1783963177222,
+    "id": 1783971609919,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here&#8217;s the Actual Math",
@@ -134,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/spacex-will-be-worth-more-than-earth-not-crazy-heres-the-actual-math.html"
   },
   {
-    "id": 1783963177223,
+    "id": 1783971609920,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI’s Head of Safety Is Leaving the Company",
@@ -145,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-head-of-safety-leaving/"
   },
   {
-    "id": 1783963177224,
+    "id": 1783971609921,
     "type": "ipo",
     "company": "Reflect Orbital",
     "headline": "FCC approves first Reflect Orbital satellite",
@@ -156,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/fcc-approves-first-reflect-orbital-satellite/"
   },
   {
-    "id": 1783963177225,
+    "id": 1783971609922,
     "type": "hire",
     "company": "Path Robotics",
     "headline": "How Path Robotics uses AI to optimize robotic welding",
@@ -167,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/how-path-robotics-uses-ai-optimize-robotic-welding/"
   },
   {
-    "id": 1783963177226,
+    "id": 1783971609923,
     "type": "patent",
     "company": "Xtend",
     "headline": "XTEND secures U.S. patent for autonomous navigation technology",
@@ -178,18 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/xtend-secures-u-s-patent-autonomous-navigation-technology/"
   },
   {
-    "id": 1783963177227,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "Apple sues OpenAI over alleged trade secret theft",
-    "source": "TechCrunch",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
-  },
-  {
-    "id": 1783963177228,
+    "id": 1783971609924,
     "type": "news",
     "company": "OpenAI",
     "headline": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
@@ -198,27 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
-  },
-  {
-    "id": 1783963177229,
-    "type": "funding",
-    "company": "Humanoid",
-    "headline": "AI² Robotics raises $735M at $3B valuation for wheeled humanoid robots",
-    "source": "The Robot Report",
-    "time": "2d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/"
-  },
-  {
-    "id": 1783963177230,
-    "type": "contract",
-    "company": "Anthropic",
-    "headline": "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo",
-    "source": "Breaking Defense",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://breakingdefense.com/2026/07/air-force-pushing-contractors-to-purge-anthropic-by-sept-1-memo/"
   }
 ];

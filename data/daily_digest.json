@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T17:19:46.818465+00:00",
+  "generatedAt": "2026-07-13T19:40:19.346875+00:00",
   "date": "2026-07-13",
   "dateDisplay": "Monday, July 13, 2026",
   "sections": {
@@ -63,58 +63,58 @@
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 40.19,
-        "changePercent": -17.77,
-        "change": -8.68
+        "price": 38.72,
+        "changePercent": -20.78,
+        "change": -10.15
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 15.83,
-        "changePercent": -16.2,
-        "change": -3.06
+        "price": 15.1,
+        "changePercent": -20.09,
+        "change": -3.79
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 78.08,
-        "changePercent": -16.12,
-        "change": -15.01
+        "price": 76.23,
+        "changePercent": -18.11,
+        "change": -16.86
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 19.05,
-        "changePercent": -15.55,
-        "change": -3.51
+        "price": 18.55,
+        "changePercent": -17.75,
+        "change": -4.0
       },
       {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 7.56,
-        "changePercent": -15.27,
-        "change": -1.36
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 359.09,
+        "changePercent": -17.02,
+        "change": -73.65
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.64,
-        "changePercent": -14.58,
-        "change": -0.28
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 26.39,
-        "changePercent": -14.5,
-        "change": -4.47
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 67.06,
+        "changePercent": -16.85,
+        "change": -13.58
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.45,
-        "changePercent": -14.09,
-        "change": -0.73
+        "price": 4.32,
+        "changePercent": -16.7,
+        "change": -0.86
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 25.72,
+        "changePercent": -16.66,
+        "change": -5.14
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "IONQ -17.8%"
+    "topMover": "IONQ -20.8%"
   }
 }
