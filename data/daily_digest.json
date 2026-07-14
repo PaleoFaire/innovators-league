@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T00:00:52.423463+00:00",
+  "generatedAt": "2026-07-14T03:20:11.053344+00:00",
   "date": "2026-07-14",
   "dateDisplay": "Tuesday, July 14, 2026",
   "sections": {
@@ -63,58 +63,58 @@
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 38.72,
-        "changePercent": -20.78,
-        "change": -10.15
+        "price": 38.88,
+        "changePercent": -20.44,
+        "change": -9.99
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 15.1,
-        "changePercent": -20.09,
-        "change": -3.79
+        "price": 15.15,
+        "changePercent": -19.8,
+        "change": -3.74
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 76.23,
-        "changePercent": -18.11,
-        "change": -16.86
+        "price": 76.73,
+        "changePercent": -17.57,
+        "change": -16.36
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 18.55,
-        "changePercent": -17.75,
-        "change": -4.0
+        "price": 18.66,
+        "changePercent": -17.29,
+        "change": -3.9
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 359.09,
-        "changePercent": -17.02,
-        "change": -73.65
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.59,
+        "changePercent": -17.19,
+        "change": -0.33
       },
       {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 67.06,
-        "changePercent": -16.85,
-        "change": -13.58
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.3,
+        "changePercent": -16.67,
+        "change": -0.66
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.32,
-        "changePercent": -16.7,
-        "change": -0.86
+        "price": 4.33,
+        "changePercent": -16.41,
+        "change": -0.85
       },
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 25.72,
-        "changePercent": -16.66,
-        "change": -5.14
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 362.05,
+        "changePercent": -16.34,
+        "change": -70.69
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "IONQ -20.8%"
+    "topMover": "IONQ -20.4%"
   }
 }
