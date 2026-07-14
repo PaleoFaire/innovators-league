@@ -73440,23 +73440,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-14 03:20
+// Last updated: 2026-07-14 06:19
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "SpaceX", headline: "SpaceX Starship Flight 13 in 3 Days &#8211; Thursday July 13", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "Apple says former employee exploited 'rare' bug to download confidential files after leaving for OpenAI", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "The wildest allegations in Apple's trade secrets lawsuit against OpenAI", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Anthropic", headline: "What Anthropic's latest AI discovery does'and doesn't'show", source: "MIT Tech Review", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "HIGH Reasoning Sweet Spot for Anthropic Fable and OpenAI GPT 5.6", source: "Next Big Future", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Anthropic", headline: "XAI Grok 4.5 Tracking Against Anthropic Opus 4.8", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "$400 Million Cell Tower Steal &#8211; How SpaceX Will Become the 4th Major US Carrier in 2027", source: "Next Big Future", time: "10h ago", impact: "medium", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX cleared to fly Starship again after booster failure in May", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Auterion", headline: "Auterion, Ukrainian drone-maker Skyfall to supply 50,000 FPVs", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Uber's robotaxi lobbying effort puts it on a collision course with Waymo", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "16h ago", impact: "high", unread: false },
-  { id: 14, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "16h ago", impact: "high", unread: false },
-  { id: 15, type: "funding", company: "Helsing", headline: "European defencetech leader Helsing secures $1.8B Series E at $18B valuation", source: "Tech.eu", time: "18h ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "SpaceX", headline: "SpaceX Starship Flight 13 in 3 Days &#8211; Thursday July 13", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "Apple says former employee exploited 'rare' bug to download confidential files after leaving for OpenAI", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "The wildest allegations in Apple's trade secrets lawsuit against OpenAI", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Anthropic", headline: "What Anthropic's latest AI discovery does'and doesn't'show", source: "MIT Tech Review", time: "12h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "HIGH Reasoning Sweet Spot for Anthropic Fable and OpenAI GPT 5.6", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Anthropic", headline: "XAI Grok 4.5 Tracking Against Anthropic Opus 4.8", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "$400 Million Cell Tower Steal &#8211; How SpaceX Will Become the 4th Major US Carrier in 2027", source: "Next Big Future", time: "13h ago", impact: "medium", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX cleared to fly Starship again after booster failure in May", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Auterion", headline: "Auterion, Ukrainian drone-maker Skyfall to supply 50,000 FPVs", source: "Breaking Defense", time: "17h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Waymo", headline: "Uber's robotaxi lobbying effort puts it on a collision course with Waymo", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "18h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "19h ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "19h ago", impact: "high", unread: false },
+  { id: 15, type: "funding", company: "Helsing", headline: "European defencetech leader Helsing secures $1.8B Series E at $18B valuation", source: "Tech.eu", time: "21h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
