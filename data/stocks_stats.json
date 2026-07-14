@@ -3,80 +3,80 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -4.05,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.02,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.3,
+      "avg_change": -6.86,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.85,
+      "avg_change": -4.44,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.31,
+      "avg_change": -4.57,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.01,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.77,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.99,
+      "avg_change": -8.27,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.34,
+      "avg_change": -5.86,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.63,
+      "avg_change": 2.12,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 4.32,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.6,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "NVDA",
+      "NVIDIA",
+      7.68
+    ],
+    [
       "AMD",
       "AMD",
-      7.98
+      7.1
     ],
     [
       "RIVN",
       "Rivian",
-      6.52
+      5.7
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
       5.04
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      4.22
     ],
     [
       "9348.T",
@@ -86,19 +86,14 @@
   ],
   "topLosers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -9.07
+      "PL",
+      "Planet Labs",
+      -10.92
     ],
     [
-      "IONQ",
-      "IonQ",
-      -11.57
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -12.3
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -12.24
     ],
     [
       "277810.KQ",
@@ -106,10 +101,15 @@
       -12.84
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -13.93
+      "IONQ",
+      "IonQ",
+      -13.49
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -16.31
     ]
   ],
-  "lastUpdated": "2026-07-14 13:52:06"
+  "lastUpdated": "2026-07-14 19:24:58"
 }
