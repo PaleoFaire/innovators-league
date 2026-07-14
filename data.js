@@ -73789,23 +73789,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-14 21:07
+// Last updated: 2026-07-14 22:09
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Anthropic", headline: "Anthropic's newest ad is creeping people out", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "STAT+: Anthropic's Claude Science is coming for Kendall Square", source: "STAT News", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "13h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "19h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "SpaceX", headline: "SpaceX Starship Flight 13 in 3 Days &#8211; Thursday July 16", source: "Next Big Future", time: "23h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Anthropic", headline: "What Anthropic's latest AI discovery does'and doesn't'show", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "HIGH Reasoning Sweet Spot for Anthropic Fable and OpenAI GPT 5.6", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "1d ago", impact: "high", unread: false },
-  { id: 11, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "1d ago", impact: "high", unread: false },
-  { id: 12, type: "funding", company: "Helsing", headline: "European defencetech leader Helsing secures $1.8B Series E at $18B valuation", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX gears up for Starship Flight 13", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Reflect Orbital", headline: "FCC approves first Reflect Orbital satellite", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Path Robotics", headline: "How Path Robotics uses AI to optimize robotic welding", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI pushes back on Apple trade secret lawsuit", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI's new flagship model deletes files on its own, people keep warning", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Anthropic", headline: "Anthropic's newest ad is creeping people out", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "STAT+: Anthropic's Claude Science is coming for Kendall Square", source: "STAT News", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "20h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "SpaceX", headline: "SpaceX Starship Flight 13 in 3 Days &#8211; Thursday July 16", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Anthropic", headline: "What Anthropic's latest AI discovery does'and doesn't'show", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "HIGH Reasoning Sweet Spot for Anthropic Fable and OpenAI GPT 5.6", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "funding", company: "Helsing", headline: "European defencetech leader Helsing secures $1.8B Series E at $18B valuation", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
