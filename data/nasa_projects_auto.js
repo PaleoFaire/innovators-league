@@ -1,11 +1,11 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-07-13 10:15:33 UTC
+// Last updated: 2026-07-14 08:57:52 UTC
 const NASA_PROJECTS = [
+  { id: 182431, title: "High charge (Z) and Energy TRaNsport Physics Development", status: "Active", center: "Langley Research Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "07/13/26" },
   { id: 184879, title: "Advanced Trace Contaminant Control", status: "Active", center: "Johnson Space Center", techArea: "Portable Life Support System", lastUpdated: "07/10/26" },
   { id: 157626, title: "Crew State & Risk Model", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "07/10/26" },
   { id: 182437, title: "Lunar OutpOst Neutron Spectrometer", status: "Active", center: "Goddard Space Flight Center", techArea: "Monitoring Technology", lastUpdated: "07/10/26" },
   { id: 182433, title: "Integrated Solar Energetic Particle Warning System", status: "Active", center: "Johnson Space Center", techArea: "Space Weather Prediction", lastUpdated: "07/10/26" },
-  { id: 182431, title: "High charge (Z) and Energy TRaNsport Physics Development", status: "Active", center: "Langley Research Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "07/10/26" },
   { id: 157177, title: "Crew Health And Performance Exploration Analog", status: "Active", center: "Johnson Space Center", techArea: "Behavioral Health and Performance", lastUpdated: "07/10/26" },
   { id: 182790, title: "Mars Food Refrigeration", status: "Active", center: "Johnson Space Center", techArea: "Food Production, Processing, and Preservation", lastUpdated: "07/10/26" },
   { id: 97036, title: "Ohalo III, The First Operational Crop Production System and Prototype for a Mars", status: "Active", center: "Kennedy Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "07/10/26" },

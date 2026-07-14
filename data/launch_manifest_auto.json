@@ -63,12 +63,21 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-18",
+    "date": "2026-07-20",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-39",
     "payload": "Starlink Group 17-39",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-21",
+    "vehicle": "Falcon 9 Block 5 | MRV-1",
+    "payload": "MRV-1",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0f6780cf-edae-4d7c-99d6-ce7de784d140/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -81,7 +90,16 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-23",
+    "date": "2026-07-24",
+    "vehicle": "Long March 8A | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/12b9454b-d48b-4fd5-9c11-17c18f45dafe/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-24",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-51",
     "payload": "Starlink Group 17-51",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -123,15 +141,6 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "Falcon 9 Block 5 | MRV-1",
-    "payload": "MRV-1",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0f6780cf-edae-4d7c-99d6-ce7de784d140/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -439,14 +448,5 @@
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7bdc412b-c965-4517-a131-f57a01189803/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-10-31",
-    "vehicle": "Electron | StriX Launch 12",
-    "payload": "StriX Launch 12",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
-    "trackedCompany": "Rocket Lab"
   }
 ]
