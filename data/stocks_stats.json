@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -12.24,
+      "avg_change": -12.17,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -10.64,
+      "avg_change": -10.84,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.77,
+      "avg_change": -10.37,
       "count": 3
     },
     "transportation": {
@@ -61,7 +61,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      7.98
+      4.67
     ],
     [
       "NVDA",
@@ -71,7 +71,7 @@
     [
       "9348.T",
       "ispace",
-      2.34
+      2.8
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -20.44
     ]
   ],
-  "lastUpdated": "2026-07-14 02:45:46"
+  "lastUpdated": "2026-07-14 08:12:58"
 }
