@@ -73789,23 +73789,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-14 14:04
+// Last updated: 2026-07-14 15:37
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "12h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "Apple says former employee exploited 'rare' bug to download confidential files after leaving for OpenAI", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "The wildest allegations in Apple's trade secrets lawsuit against OpenAI", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Anthropic", headline: "What Anthropic's latest AI discovery does'and doesn't'show", source: "MIT Tech Review", time: "20h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX cleared to fly Starship again after booster failure in May", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Auterion", headline: "Auterion, Ukrainian drone-maker Skyfall to supply 50,000 FPVs", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "Uber's robotaxi lobbying effort puts it on a collision course with Waymo", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "1d ago", impact: "high", unread: false },
-  { id: 12, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "funding", company: "Helsing", headline: "European defencetech leader Helsing secures $1.8B Series E at $18B valuation", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX gears up for Starship Flight 13", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Reflect Orbital", headline: "FCC approves first Reflect Orbital satellite", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "14h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "SpaceX", headline: "SpaceX Starship Flight 13 in 3 Days &#8211; Thursday July 13", source: "Next Big Future", time: "18h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "Apple says former employee exploited 'rare' bug to download confidential files after leaving for OpenAI", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "The wildest allegations in Apple's trade secrets lawsuit against OpenAI", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Anthropic", headline: "What Anthropic's latest AI discovery does'and doesn't'show", source: "MIT Tech Review", time: "21h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "HIGH Reasoning Sweet Spot for Anthropic Fable and OpenAI GPT 5.6", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Anthropic", headline: "XAI Grok 4.5 Tracking Against Anthropic Opus 4.8", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "$400 Million Cell Tower Steal &#8211; How SpaceX Will Become the 4th Major US Carrier in 2027", source: "Next Big Future", time: "23h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "Auterion", headline: "Auterion, Ukrainian drone-maker Skyfall to supply 50,000 FPVs", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "funding", company: "Helsing", headline: "European defencetech leader Helsing secures $1.8B Series E at $18B valuation", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
