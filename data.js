@@ -73789,17 +73789,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-15 03:19
+// Last updated: 2026-07-15 06:23
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "OpenAI", headline: "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Tens of Billions in Time Value of AI Data Centers &#8211; More SpaceX AI Deals in 2026", source: "Next Big Future", time: "2h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI pushes back on Apple trade secret lawsuit", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI's new flagship model deletes files on its own, people keep warning", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic's newest ad is creeping people out", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "STAT+: Anthropic's Claude Science is coming for Kendall Square", source: "STAT News", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "19h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "OpenAI", headline: "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "Tens of Billions in Time Value of AI Data Centers &#8211; More SpaceX AI Deals in 2026", source: "Next Big Future", time: "6h ago", impact: "high", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI pushes back on Apple trade secret lawsuit", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI's new flagship model deletes files on its own, people keep warning", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic's newest ad is creeping people out", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "STAT+: Anthropic's Claude Science is coming for Kendall Square", source: "STAT News", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "18h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "22h ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "funding", company: "Anthropic", headline: "What Anthropic's latest AI discovery does'and doesn't'show", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "1d ago", impact: "low", unread: false },
