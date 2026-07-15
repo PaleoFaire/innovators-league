@@ -3,92 +3,97 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.48,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.78,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -9.2,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -8.66,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.33,
+      "avg_change": -0.84,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.79,
+      "avg_change": -3.53,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -2.54,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.26,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.69,
+      "avg_change": -10.92,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.78,
+      "avg_change": -3.41,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 2.23,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 6.04,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 2.75,
+      "avg_change": 0.31,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "NVDA",
-      "NVIDIA",
-      7.55
-    ],
-    [
-      "AMD",
-      "AMD",
-      6.2
-    ],
-    [
       "RIVN",
       "Rivian",
-      6.12
+      10.53
+    ],
+    [
+      "AMD",
+      "AMD",
+      6.27
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      3.54
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      3.5
+      2.31
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      1.05
+      "SLDP",
+      "Solid Power",
+      1.89
     ]
   ],
   "topLosers": [
     [
-      "PL",
-      "Planet Labs",
-      -10.82
+      "ASTS",
+      "AST SpaceMobile",
+      -10.65
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -10.99
     ],
     [
       "9348.T",
@@ -96,20 +101,15 @@
       -11.61
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -13.02
+      "LUNR",
+      "Intuitive Machines",
+      -12.81
     ],
     [
       "IONQ",
       "IonQ",
-      -13.38
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -16.47
+      -15.2
     ]
   ],
-  "lastUpdated": "2026-07-15 08:20:11"
+  "lastUpdated": "2026-07-15 13:50:16"
 }
