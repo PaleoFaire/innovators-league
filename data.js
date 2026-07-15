@@ -74270,23 +74270,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-15 17:25
+// Last updated: 2026-07-15 19:24
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Monumental", headline: "Robotics startup Monumental raises $32m backed by Khosla Ventures", source: "Sifted", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "milestone", company: "Anthropic", headline: "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Icarus", headline: "Icarus Robotics taps KULR to provide batteries for Space Station robots", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Monumental", headline: "Monumental secures $32M Series B to accelerate construction automation", source: "Tech.eu", time: "4h ago", impact: "medium", unread: true },
-  { id: 5, type: "hire", company: "Realta Fusion", headline: "Why Realta Fusion is building a fusion reactor at an old hot dog factory", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "SpaceX", headline: "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era", source: "TechCrunch", time: "6h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "OpenAI", headline: "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Neko Health", headline: "Neko Health raises $700M as demand grows for preventive health scans", source: "Tech.eu", time: "10h ago", impact: "high", unread: false },
-  { id: 9, type: "funding", company: "OpenAI", headline: "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B", source: "TechCrunch", time: "16h ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "Tens of Billions in Time Value of AI Data Centers &#8211; More SpaceX AI Deals in 2026", source: "Next Big Future", time: "17h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI pushes back on Apple trade secret lawsuit", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "19h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "Humanoid", headline: "Agility outlines six recommendations for U.S. humanoid robot policies", source: "The Robot Report", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "SpaceX", headline: "SpaceX Fourth Quarter 2026 Could Show Cashflow Positive", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Icarus", headline: "Icarus Robotics uses KULR technology to power JOY free-flying space robot", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "SpaceX", headline: "SpaceX slips below its $135 IPO price ahead of Starship launch", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "milestone", company: "OpenAI", headline: "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Monumental", headline: "Robotics startup Monumental raises $32m backed by Khosla Ventures", source: "Sifted", time: "2h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Anthropic", headline: "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Icarus", headline: "Icarus Robotics taps KULR to provide batteries for Space Station robots", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Monumental", headline: "Monumental secures $32M Series B to accelerate construction automation", source: "Tech.eu", time: "6h ago", impact: "medium", unread: false },
+  { id: 11, type: "funding", company: "OpenAI", headline: "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Neko Health", headline: "Neko Health raises $700M as demand grows for preventive health scans", source: "Tech.eu", time: "12h ago", impact: "high", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "Tens of Billions in Time Value of AI Data Centers &#8211; More SpaceX AI Deals in 2026", source: "Next Big Future", time: "19h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
