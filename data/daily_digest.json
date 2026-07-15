@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-14T23:59:33.765231+00:00",
-  "date": "2026-07-14",
-  "dateDisplay": "Tuesday, July 14, 2026",
+  "generatedAt": "2026-07-15T03:19:42.760956+00:00",
+  "date": "2026-07-15",
+  "dateDisplay": "Wednesday, July 15, 2026",
   "sections": {
     "govActivity": [
       {
@@ -63,58 +63,58 @@
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 14.94,
-        "changePercent": -16.31,
-        "change": -2.91
+        "price": 14.91,
+        "changePercent": -16.47,
+        "change": -2.94
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 39.24,
-        "changePercent": -13.49,
-        "change": -6.12
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 400500.0,
-        "changePercent": -12.84,
-        "change": -59000.0
+        "price": 39.29,
+        "changePercent": -13.38,
+        "change": -6.07
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
-        "price": 3.37,
-        "changePercent": -12.24,
-        "change": -0.47
+        "price": 3.34,
+        "changePercent": -13.02,
+        "change": -0.5
+      },
+      {
+        "ticker": "9348.T",
+        "company": "ispace",
+        "price": 442.0,
+        "changePercent": -12.99,
+        "change": -66.0
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 25.53,
-        "changePercent": -10.92,
-        "change": -3.13
+        "price": 25.56,
+        "changePercent": -10.82,
+        "change": -3.1
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.36,
-        "changePercent": -9.65,
-        "change": -0.46
+        "price": 4.31,
+        "changePercent": -10.58,
+        "change": -0.51
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 19.1,
-        "changePercent": -9.31,
-        "change": -1.96
+        "price": 18.95,
+        "changePercent": -10.02,
+        "change": -2.11
       },
       {
-        "ticker": "NVDA",
-        "company": "NVIDIA",
-        "price": 212.06,
-        "changePercent": 7.68,
-        "change": 15.13
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.64,
+        "changePercent": -8.38,
+        "change": -0.15
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LUNR -16.3%"
+    "topMover": "LUNR -16.5%"
   }
 }
