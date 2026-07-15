@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-14 08:14:26 UTC
+// Last updated: 2026-07-15 08:20:38 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-07-14", description: "qbts-20260714.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Satellogic", form: "10-K", date: "2026-07-14", description: "ea0296662-10k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-09", description: "xslF345X06/wk-form4_1783634656.xml", isIPO: false, ticker: "RXRX" },
   { company: "Agrify Corporation", form: "DEF 14A", date: "2026-07-09", description: "ea0295890-02.htm", isIPO: false, ticker: "AGFY" },
   { company: "Rivian", form: "8-K", date: "2026-07-09", description: "tm2617163d3_8k.htm", isIPO: false, ticker: "RIVN" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120709.xml", isIPO: false, ticker: "ACHR" },
   { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120753.xml", isIPO: false, ticker: "ACHR" },
   { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120751.xml", isIPO: false, ticker: "ACHR" },
-  { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120742.xml", isIPO: false, ticker: "ACHR" },
-  { company: "Archer Aviation", form: "8-K", date: "2026-06-30", description: "achr-20260626.htm", isIPO: false, ticker: "ACHR" },
 ];

@@ -1,5 +1,20 @@
 [
   {
+    "company": "Galvanick",
+    "totalRaised": "$21.5B+",
+    "totalRaisedRaw": 21490.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$4.4B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "NEA",
+      "Index Ventures"
+    ],
+    "roundCount": 5
+  },
+  {
     "company": "Tenstorrent",
     "totalRaised": "$20.4B+",
     "totalRaisedRaw": 20365.0,
@@ -26,21 +41,6 @@
       "NEA"
     ],
     "roundCount": 6
-  },
-  {
-    "company": "Galvanick",
-    "totalRaised": "$17.1B+",
-    "totalRaisedRaw": 17090.0,
-    "lastRound": "Series N",
-    "lastRoundAmount": "$12B",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "NEA",
-      "Undisclosed",
-      "Index Ventures"
-    ],
-    "roundCount": 4
   },
   {
     "company": "Fairmat",
@@ -447,6 +447,19 @@
     "roundCount": 2
   },
   {
+    "company": "Recursion Pharmaceuticals",
+    "totalRaised": "$2.0B+",
+    "totalRaisedRaw": 2000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$2B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "ICON",
     "totalRaised": "$2.0B+",
     "totalRaisedRaw": 2000.0,
@@ -737,6 +750,19 @@
     "roundCount": 1
   },
   {
+    "company": "New Limit",
+    "totalRaised": "$1.0B+",
+    "totalRaisedRaw": 1000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "General Catalyst"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Figure AI",
     "totalRaised": "$1.0B+",
     "totalRaisedRaw": 1000.0,
@@ -826,6 +852,19 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Truemed",
+    "totalRaised": "$700M+",
+    "totalRaisedRaw": 700.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$700M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Lightspeed Venture Partners"
     ],
     "roundCount": 1
   },

@@ -1395,15 +1395,6 @@
     "isIPO": false
   },
   {
-    "company": "NuScale Power",
-    "ticker": "SMR",
-    "form": "DEF 14A",
-    "date": "2026-04-15",
-    "description": "smr-20260415.htm",
-    "accessionNumber": "0001822966-26-000042",
-    "isIPO": false
-  },
-  {
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
@@ -1995,15 +1986,6 @@
     "date": "2026-04-16",
     "description": "xslF345X06/wk-form4_1776380818.xml",
     "accessionNumber": "0001577526-26-000044",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-04-15",
-    "description": "xslF345X06/wk-form4_1776290430.xml",
-    "accessionNumber": "0001577526-26-000042",
     "isIPO": false
   },
   {
@@ -2703,6 +2685,15 @@
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "8-K",
+    "date": "2026-07-14",
+    "description": "qbts-20260714.htm",
+    "accessionNumber": "0001907982-26-000099",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
     "date": "2026-07-07",
     "description": "qbts-20260707.htm",
     "accessionNumber": "0001907982-26-000097",
@@ -3273,15 +3264,6 @@
     "date": "2026-04-30",
     "description": "rxrx-20260428.htm",
     "accessionNumber": "0001601830-26-000064",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-04-24",
-    "description": "xslF345X06/wk-form4_1777062192.xml",
-    "accessionNumber": "0001856369-26-000013",
     "isIPO": false
   },
   {
@@ -4637,6 +4619,15 @@
   {
     "company": "Satellogic",
     "ticker": "SATL",
+    "form": "10-K",
+    "date": "2026-07-14",
+    "description": "ea0296662-10k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-078029",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
     "form": "8-K",
     "date": "2026-07-06",
     "description": "ea0297007-8k_zoomcar.htm",
@@ -4722,15 +4713,6 @@
     "date": "2026-04-21",
     "description": "ea0287153-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-046282",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2026-04-15",
-    "description": "ea0286487-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-26-044116",
     "isIPO": false
   }
 ]

@@ -1,30 +1,30 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 61,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Apple says former employee exploited &#8216;rare&#8217; bug",
-      "The wildest allegations in Apple\u2019s trade secrets lawsuit aga",
-      "What Anthropic\u2019s latest AI discovery does\u2014and doesn\u2019t\u2014show"
+      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
+      "OpenAI pushes back on Apple trade secret lawsuit",
+      "OpenAI&#8217;s new flagship model deletes files on its own,"
     ],
     "fundingQ": "$235.7B",
     "components": {
       "funding": 100,
-      "news": 65,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Uber\u2019s robotaxi lobbying effort puts it on a collision cours",
-      "SpaceX Will Be Worth More Than Earth. NOT CRAZY. Here&#8217;",
-      "How Path Robotics uses AI to optimize robotic welding"
+      "Key to Humanoid Progress: Managing the Power Behind the Robo",
+      "German UAV firm Helsing picks West Virginia for first US man",
+      "PsiQuantum has a plan to make a massive quantum computer out"
     ],
     "fundingQ": "$27.0B",
     "components": {
@@ -33,59 +33,41 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-14"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 49,
-    "trend": "accelerating",
-    "catalysts": [
-      "SpaceX is gearing up for Starship&#039;s 13th test flight la",
-      "SpaceX Starship Flight 13 in 3 Days &#8211; Thursday July 13",
-      "XAI Grok 4.5 Tracking Against Anthropic Opus 4.8"
-    ],
-    "fundingQ": "$266.3B",
-    "components": {
-      "funding": 100,
-      "news": 55,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 47,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Auterion, Ukrainian drone-maker Skyfall to supply 50,000 FPV",
       "Helsing raises $1.8 billion in Europe\u2019s biggest defense-star",
-      "Air Force pushing contractors to purge Anthropic by Sept. 1:"
+      "Not Imaginary: The Deterrence Gap is Real and America Needs",
+      "Contriving Imaginary Gaps in Nuclear Deterrence"
     ],
     "fundingQ": "$12.0B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 15,
       "hiring": 0,
-      "market": 31
+      "market": 45
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 45,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "PsiQuantum has a plan to make a massive quantum computer out"
     ],
     "fundingQ": "$1.9B",
     "components": {
       "funding": 100,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,11 +83,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 44,
+    "trend": "steady",
+    "catalysts": [
+      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
+      "Tens of Billions in Time Value of AI Data Centers &#8211; Mo",
+      "SpaceX is gearing up for Starship&#039;s 13th test flight la"
+    ],
+    "fundingQ": "$266.3B",
+    "components": {
+      "funding": 100,
+      "news": 35,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 41,
+    "momentum": 43,
     "trend": "steady",
     "catalysts": [
       "Nscale secures $1.4B, Proxima Fusion lands \u20ac411M, and Invest",
@@ -115,52 +115,88 @@
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 13
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 35,
+    "momentum": 37,
     "trend": "steady",
     "catalysts": [
+      "Tens of Billions in Time Value of AI Data Centers &#8211; Mo",
+      "Key to Humanoid Progress: Managing the Power Behind the Robo",
       "Quaise Energy raises $134M to fuel superhot geothermal ambit"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 96,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 29,
+    "momentum": 26,
     "trend": "rising",
     "catalysts": [
-      "Apple says former employee exploited &#8216;rare&#8217; bug",
-      "The wildest allegations in Apple\u2019s trade secrets lawsuit aga",
-      "What Anthropic\u2019s latest AI discovery does\u2014and doesn\u2019t\u2014show"
+      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
+      "OpenAI pushes back on Apple trade secret lawsuit",
+      "OpenAI&#8217;s new flagship model deletes files on its own,"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 75,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 25,
+    "trend": "rising",
+    "catalysts": [
+      "Neko Health raises $700M as demand grows for preventive heal",
+      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
+      "Beyond da Vinci: Why versatile humanoid robots are the next"
+    ],
+    "fundingQ": "$2.0B",
+    "components": {
+      "funding": 53,
+      "news": 25,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 17,
+    "trend": "declining",
+    "catalysts": [
+      "Ex-Tesla Optimus scientist unveils European humanoid robot s"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 77
+    },
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Auterion, Ukrainian drone-maker Skyfall to supply 50,000 FPV",
+      "German UAV firm Helsing picks West Virginia for first US man",
       "XTEND secures U.S. patent for autonomous navigation technolo"
     ],
     "fundingQ": "$0M",
@@ -170,23 +206,40 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
       "What Anthropic\u2019s latest AI discovery does\u2014and doesn\u2019t\u2014show"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 56
+    },
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -202,49 +255,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-14"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 5,
-    "trend": "declining",
-    "catalysts": [
-      "HIGH Reasoning Sweet Spot for Anthropic Fable and OpenAI GPT",
-      "Chip testing startup QuantumDiamonds raises \u20ac15M in equity f",
-      "NVIDIA and Hugging Face bring new models and frameworks to L"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "Chip testing startup QuantumDiamonds raises \u20ac15M in equity f",
-      "World Fund, IQ Capital among backers of \u20ac91m QuantumDiamonds"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-14"
-  },
-  {
-    "sector": "Biotech & Health",
     "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "Beyond da Vinci: Why versatile humanoid robots are the next"
+      "PsiQuantum has a plan to make a massive quantum computer out"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -253,22 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-14"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-14"
+    "lastUpdated": "2026-07-15"
   }
 ]
