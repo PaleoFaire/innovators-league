@@ -1,24 +1,6 @@
 [
   {
     "date": "2026-07-14",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 15-14",
-    "payload": "Starlink Group 15-14",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e09f254f-18bc-4985-963e-6075fa3d7a1c/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-07-14",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-45",
-    "payload": "Starlink Group 10-45",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9999a3a3-b15d-4ee3-b70f-acf00d10d912/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-07-14",
     "vehicle": "Soyuz 2.1a | Soyuz MS-29",
     "payload": "Soyuz MS-29",
     "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
@@ -448,5 +430,23 @@
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7bdc412b-c965-4517-a131-f57a01189803/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Electron | StriX Launch 12",
+    "payload": "StriX Launch 12",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+    "payload": "Transporter 18 (Dedicated SSO Rideshare)",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/67213393-7983-4c06-8b44-b8c785a5ed79/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]

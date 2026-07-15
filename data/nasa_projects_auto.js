@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-07-14 08:57:52 UTC
+// Last updated: 2026-07-15 09:04:01 UTC
 const NASA_PROJECTS = [
   { id: 182431, title: "High charge (Z) and Energy TRaNsport Physics Development", status: "Active", center: "Langley Research Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "07/13/26" },
   { id: 184879, title: "Advanced Trace Contaminant Control", status: "Active", center: "Johnson Space Center", techArea: "Portable Life Support System", lastUpdated: "07/10/26" },

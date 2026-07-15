@@ -1,13 +1,64 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-07-14 09:14:23 UTC
-// Total: 18 filings across 14 companies
+// Last updated: 2026-07-15 10:08:19 UTC
+// Total: 20 filings across 16 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-07-14T09:14:23.618994+00:00",
+  "generated_at": "2026-07-15T10:08:19.579323+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 18,
+  "total_filings": 20,
   "filings": [
+    {
+      "company": "Reveal Technology",
+      "issuer_name": "Reveal Technology, Inc",
+      "form": "D",
+      "filed_date": "2026-07-15",
+      "cik": "2069578",
+      "accession": "0002069578-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002069578&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002069578-26-000002",
+      "offering_amount": "Indefinite",
+      "amount_sold": "4600000",
+      "amount_remaining": "Indefinite",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Quaise Energy",
+      "issuer_name": "Quaise Energy, Inc",
+      "form": "D",
+      "filed_date": "2026-07-14",
+      "cik": "1813993",
+      "accession": "0001813993-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813993&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001813993-26-000003",
+      "offering_amount": "144065031",
+      "amount_sold": "133791666",
+      "amount_remaining": "10273365",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Cover",
+      "issuer_name": "Cover Genius Holdings, Inc",
+      "form": "D",
+      "filed_date": "2026-07-14",
+      "cik": "2131583",
+      "accession": "0001231919-26-000757",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002131583&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001231919-26-000757",
+      "offering_amount": "110950576",
+      "amount_sold": "110949875",
+      "amount_remaining": "701",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Helios",
       "issuer_name": "Helios Ridge Fund 1, LLC",
@@ -293,23 +344,6 @@ const FORM_D_FILINGS = {
       "amount_sold": "1366315",
       "amount_remaining": "0",
       "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Captura",
-      "issuer_name": "Captura Corp",
-      "form": "D",
-      "filed_date": "2026-07-02",
-      "cik": "1960098",
-      "accession": "0001960098-26-000004",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001960098&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001960098-26-000004",
-      "offering_amount": "60928518",
-      "amount_sold": "53494015",
-      "amount_remaining": "7434503",
-      "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false
