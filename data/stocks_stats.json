@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.78,
+      "avg_change": 1.02,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -8.66,
+      "avg_change": -10.21,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -0.84,
+      "avg_change": -2.48,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.53,
+      "avg_change": -5.24,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.26,
+      "avg_change": -0.73,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.92,
+      "avg_change": -13.57,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.41,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -3.9,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 6.04,
+      "avg_change": 3.43,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.31,
+      "avg_change": -2.02,
       "count": 3
     }
   },
@@ -61,17 +61,12 @@
     [
       "RIVN",
       "Rivian",
-      10.53
-    ],
-    [
-      "AMD",
-      "AMD",
-      6.27
+      6.57
     ],
     [
       "NVDA",
       "NVIDIA",
-      3.54
+      3.67
     ],
     [
       "IDEAFORGE.NS",
@@ -79,37 +74,42 @@
       2.31
     ],
     [
+      "AMD",
+      "AMD",
+      1.99
+    ],
+    [
       "SLDP",
       "Solid Power",
-      1.89
+      1.76
     ]
   ],
   "topLosers": [
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -10.65
+      "ALAB",
+      "Astera Labs",
+      -11.71
     ],
     [
-      "SATL",
-      "Satellogic",
-      -10.99
-    ],
-    [
-      "9348.T",
-      "ispace",
-      -11.61
+      "QBTS",
+      "D-Wave Quantum",
+      -12.31
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -12.81
+      -12.78
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -16.51
     ],
     [
       "IONQ",
       "IonQ",
-      -15.2
+      -17.69
     ]
   ],
-  "lastUpdated": "2026-07-15 13:50:16"
+  "lastUpdated": "2026-07-15 19:17:18"
 }
