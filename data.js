@@ -73999,25 +73999,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-15 06:23
-// Auto-generated real-time signals
-// Last updated: 2026-07-15
+// Last updated: 2026-07-15 09:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Neko Health", headline: "Neko Health raises $700M as demand grows for preventive health scans", source: "Tech.eu", time: "1h ago", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "OpenAI", headline: "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Tens of Billions in Time Value of AI Data Centers &#8211; More SpaceX AI Deals in 2026", source: "Next Big Future", time: "7h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI pushes back on Apple trade secret lawsuit", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI&#8217;s new flagship model deletes files on its own, people keep warning", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Anthropic", headline: "Anthropic&#8217;s newest ad is creeping people out", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "STAT+: Anthropic’s Claude Science is coming for Kendall Square", source: "STAT News", time: "16h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "20h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship&#039;s 13th test flight later this week", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Anthropic", headline: "What Anthropic’s latest AI discovery does—and doesn’t—show", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe’s biggest defense-startup round", source: "Defense News", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "funding", company: "Helsing", headline: "Helsing raises $1.8bn backed by Goldman and Lightspeed", source: "Sifted", time: "1d ago", impact: "high", unread: false },
+  { id: 1, type: "funding", company: "OpenAI", headline: "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Neko Health", headline: "Neko Health raises $700M as demand grows for preventive health scans", source: "Tech.eu", time: "2h ago", impact: "high", unread: true },
+  { id: 3, type: "funding", company: "OpenAI", headline: "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B", source: "TechCrunch", time: "8h ago", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Tens of Billions in Time Value of AI Data Centers &#8211; More SpaceX AI Deals in 2026", source: "Next Big Future", time: "8h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI pushes back on Apple trade secret lawsuit", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI's new flagship model deletes files on its own, people keep warning", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Anthropic", headline: "Anthropic's newest ad is creeping people out", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "STAT+: Anthropic's Claude Science is coming for Kendall Square", source: "STAT News", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Helsing", headline: "German UAV firm Helsing picks West Virginia for first US manufacturing", source: "Breaking Defense", time: "21h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Anthropic", headline: "What Anthropic's latest AI discovery does'and doesn't'show", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic recruits Monzo cofounder Tom Blomfield for AI compute team", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Helsing", headline: "Helsing raises $1.8 billion in Europe's biggest defense-startup round", source: "Defense News", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
