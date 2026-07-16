@@ -1,120 +1,978 @@
 {
-  "generatedAt": "2026-07-15T07:52:31+00:00",
+  "generatedAt": "2026-07-16T07:56:38+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 26,
-  "newExtractionsThisRun": 0,
+  "cohortSize": 25,
+  "newExtractionsThisRun": 25,
   "summary": {
-    "cleared": 0,
-    "changesProposed": 0,
-    "unverifiable": 26
+    "cleared": 15,
+    "changesProposed": 10,
+    "unverifiable": 0
   },
-  "cleared": [],
-  "changesProposed": [],
-  "unverifiable": [
-    {
-      "name": "1X Technologies",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Agility Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Apptronik",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Asimov",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Astera Labs",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Crusoe Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Deterrence",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Durin",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Helsing",
-      "reason": "Claude extraction failed"
-    },
+  "cleared": [
+    "1X Technologies",
+    "Agility Robotics",
+    "Apptronik",
+    "Asimov",
+    "Astera Labs",
+    "Axiom Space",
+    "Crusoe Energy",
+    "Deterrence",
+    "Durin",
+    "Helsing",
+    "Pivotal",
+    "Profluent",
+    "Vast",
+    "Waymo",
+    "Xtend"
+  ],
+  "changesProposed": [
     {
       "name": "Humanoid",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Humanoid",
+        "founder": "Artem Sokolov",
+        "location": "London, UK",
+        "founded": 2024,
+        "fundingStage": "Seed",
+        "totalRaised": "$50M",
+        "website": "https://thehumanoid.ai"
+      },
+      "verified": {
+        "name": "Humanoid",
+        "description": "Developer of humanoid robots including HMND 01 Alpha wheeled and bipedal models for industrial applications in warehousing, logistics, and manufacturing. The company has completed live trials with Siemens and secured deployment agreements with Schaeffler.",
+        "founders": [
+          "Artem Sokolov"
+        ],
+        "location": "London, United Kingdom",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://thehumanoid.ai",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded year not explicitly stated in sources despite database entry claiming 2024. Total raised and investor information from database entry ($50M founder-led capital) could not be verified from provided sources. Current stage cannot be verified. Website lists offices in London (HQ), Cambridge MA, and Burnaby BC."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "London, UK",
+          "verified": "London, United Kingdom",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://thehumanoid.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://thehumanoid.ai/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Humanoid"
+        },
+        {
+          "idx": 3,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/"
+        },
+        {
+          "idx": 4,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/key-to-humanoid-progress-managing-the-power-behind-the-robots/"
+        },
+        {
+          "idx": 5,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/"
+        }
+      ],
+      "notes": "Founded year not explicitly stated in sources despite database entry claiming 2024. Total raised and investor information from database entry ($50M founder-led capital) could not be verified from provided sources. Current stage cannot be verified. Website lists offices in London (HQ), Cambridge MA, and Burnaby BC."
     },
     {
       "name": "ICON",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "ICON",
+        "founder": "Jason Ballard, Evan Loomis, Alexander Le Roux",
+        "location": "Austin, TX",
+        "founded": 2017,
+        "fundingStage": "Series C",
+        "totalRaised": "$450M+",
+        "website": "https://icon.com"
+      },
+      "verified": {
+        "name": null,
+        "description": null,
+        "founders": [
+          "Kennan Frost"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Founders Fund",
+          "Mark Chen",
+          "Saquon Barkley",
+          "Roman Khan"
+        ],
+        "website": "https://icon.com",
+        "sources_per_field": {
+          "founders": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "The sources provided describe a company called 'Icon' that is 'The Human Admaker' - a UGC (User Generated Content) advertising service founded by Kennan Frost, not the 3D-printed homes company referenced in the database entry. The database entry appears to refer to a different company (ICON, the construction/3D printing firm). Source [2] is a Wikipedia disambiguation page listing multiple entities named 'Icon' including 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is about a European humanoid robot startup and is not relevant to either Icon company. The sources do not contain information supporting the database entry's claims about 3D-printed homes, DoD/NASA contracts, or the stated founders (Jason Ballard, Evan Loomis, Alexander Le Roux)."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Jason Ballard, Evan Loomis, Alexander Le Roux",
+          "verified": "Kennan Frost",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://icon.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://icon.com/team"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ICON"
+        },
+        {
+          "idx": 3,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/"
+        }
+      ],
+      "notes": "The sources provided describe a company called 'Icon' that is 'The Human Admaker' - a UGC (User Generated Content) advertising service founded by Kennan Frost, not the 3D-printed homes company referenced in the database entry. The database entry appears to refer to a different company (ICON, the construction/3D printing firm). Source [2] is a Wikipedia disambiguation page listing multiple entities named 'Icon' including 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is about a European humanoid robot startup and is not relevant to either Icon company. The sources do not contain information supporting the database entry's claims about 3D-printed homes, DoD/NASA contracts, or the stated founders (Jason Ballard, Evan Loomis, Alexander Le Roux)."
+    },
+    {
+      "name": "Icarus",
+      "current": {
+        "name": "Icarus",
+        "founder": "Henry Kwan (CEO, fmr Orbital \u2014 built spacecraft + space robots, helped win $935M NASA space habitat contract; fmr NASA flight sciences drone designer; M.S. Aerospace Engineering Georgia Tech; TS/SCI clearance)",
+        "location": "Los Angeles, CA",
+        "founded": 2023,
+        "fundingStage": "Seed",
+        "totalRaised": "",
+        "website": "https://www.icarus.one"
+      },
+      "verified": {
+        "name": "Icarus",
+        "description": "Designs and manufactures solar-powered, autonomous stratospheric aircraft operating above 60,000 feet for persistent surveillance and communications. Flagship platform APOLLO conducted flight testing in 2024.",
+        "founders": [
+          "Henry Kwan"
+        ],
+        "location": "Los Angeles, CA",
+        "founded_year": 2023,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Paul Graham"
+        ],
+        "website": "https://www.icarus.one",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [],
+          "total_raised": [],
+          "valuation": [],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Wikipedia source [2] is about Greek mythology and is not relevant to this company. News sources [3] and [4] refer to 'Icarus Robotics,' a different company based in New York developing space robots, not the stratospheric aircraft company. Only sources [0] and [1] are verified as the company website and about page. Current funding stage (Seed or otherwise) cannot be verified from provided sources. Y Combinator Fall 2025 acceptance mentioned in database entry but not found in provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Henry Kwan (CEO, fmr Orbital \u2014 built spacecraft + space robots, helped win $935M NASA space habitat contract; fmr NASA flight sciences drone designer; M.S. Aerospace Engineering Georgia Tech; TS/SCI clearance)",
+          "verified": "Henry Kwan",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Paul Graham"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.icarus.one"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.icarus.one/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Icarus"
+        },
+        {
+          "idx": 3,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/icarus-robotics-uses-kulr-technology-to-power-joy-free-flying-space-robot/"
+        },
+        {
+          "idx": 4,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/"
+        }
+      ],
+      "notes": "Wikipedia source [2] is about Greek mythology and is not relevant to this company. News sources [3] and [4] refer to 'Icarus Robotics,' a different company based in New York developing space robots, not the stratospheric aircraft company. Only sources [0] and [1] are verified as the company website and about page. Current funding stage (Seed or otherwise) cannot be verified from provided sources. Y Combinator Fall 2025 acceptance mentioned in database entry but not found in provided sources."
+    },
+    {
+      "name": "Monumental",
+      "current": {
+        "name": "Monumental",
+        "founder": "Salar al Khafaji, Sebastiaan Visser",
+        "location": "Amsterdam, Netherlands",
+        "founded": 2021,
+        "fundingStage": "Series A",
+        "totalRaised": "$25M",
+        "website": "https://www.monumental.co"
+      },
+      "verified": {
+        "name": "Monumental",
+        "description": "Amsterdam-based construction technology company developing autonomous robotics and software for the building industry.",
+        "founders": null,
+        "location": "Amsterdam, Netherlands",
+        "founded_year": null,
+        "current_stage": "Series B",
+        "total_raised": "$32M",
+        "valuation": null,
+        "investors": [
+          "Khosla Ventures"
+        ],
+        "website": null,
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            0,
+            1
+          ],
+          "investors": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry lists Series A with $25M raised, but sources indicate Series B with $32M raised led by Khosla Ventures. Founder names (Salar al Khafaji, Sebastiaan Visser) appear in database but are not explicitly mentioned as founders in provided sources, so excluded. Website not verified in sources. Founded year (2021) not found in provided sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series A",
+          "verified": "Series B",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$25M",
+          "verified": "$32M",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Khosla Ventures"
+          ],
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "news (Sifted)",
+          "url": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
+        },
+        {
+          "idx": 1,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/07/15/monumental-secures-32m-series-b-to-accelerate-construction-automation/"
+        }
+      ],
+      "notes": "Database entry lists Series A with $25M raised, but sources indicate Series B with $32M raised led by Khosla Ventures. Founder names (Salar al Khafaji, Sebastiaan Visser) appear in database but are not explicitly mentioned as founders in provided sources, so excluded. Website not verified in sources. Founded year (2021) not found in provided sources."
+    },
+    {
+      "name": "Neko Health",
+      "current": {
+        "name": "Neko Health",
+        "founder": "Daniel Ek, Hjalmar Nilsonne",
+        "location": "Stockholm, Sweden",
+        "founded": 2018,
+        "fundingStage": "Series B",
+        "totalRaised": "$326M+",
+        "website": "https://www.nekohealth.com"
+      },
+      "verified": {
+        "name": "Neko Health",
+        "description": "Medical technology company that co-founded by Daniel Ek and Hjalmar Nilsonne, offering non-invasive full-body scanning technology using sensors and artificial intelligence to collect and analyze health data.",
+        "founders": [
+          "Daniel Ek",
+          "Hjalmar Nilsonne"
+        ],
+        "location": "Stockholm, Sweden",
+        "founded_year": 2018,
+        "current_stage": "Series C",
+        "total_raised": "$700M",
+        "valuation": null,
+        "investors": [
+          "Lightspeed Venture Partners",
+          "O.G. Venture Partners"
+        ],
+        "website": "https://www.nekohealth.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            1,
+            2
+          ],
+          "total_raised": [
+            1,
+            2
+          ],
+          "investors": [
+            1,
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry listed Series B stage; sources [1] and [2] from 2026 indicate Series C funding round of $700M led by Lightspeed Venture Partners. Previous valuation of $1.8B and total raised of $326M+ cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series B",
+          "verified": "Series C",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$326M+",
+          "verified": "$700M",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Lightspeed Venture Partners",
+            "O.G. Venture Partners"
+          ],
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neko_Health"
+        },
+        {
+          "idx": 1,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/"
+        },
+        {
+          "idx": 2,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/07/15/neko-health-raises-700m-as-demand-grows-for-preventive-health-scans/"
+        }
+      ],
+      "notes": "Database entry listed Series B stage; sources [1] and [2] from 2026 indicate Series C funding round of $700M led by Lightspeed Venture Partners. Previous valuation of $1.8B and total raised of $326M+ cannot be verified from provided sources."
     },
     {
       "name": "Path Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Pivotal",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Profluent",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Proxima Fusion",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Path Robotics",
+        "founder": "Andy Lonsberry, Alex Lonsberry",
+        "location": "Columbus, OH",
+        "founded": 2014,
+        "fundingStage": "Series D",
+        "totalRaised": "$271M",
+        "website": "https://path-robotics.com"
+      },
+      "verified": {
+        "name": "Path Robotics",
+        "description": "AI-powered autonomous welding robots that use computer vision and a foundational AI model called Obsidian to enable real-time adaptation for welding across part-to-part variations without requiring CAD files or pre-programming.",
+        "founders": [
+          "Andy Lonsberry",
+          "Alex Lonsberry"
+        ],
+        "location": "Columbus, OH, USA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Drive Capital",
+          "Matter Venture Partners"
+        ],
+        "website": "https://path-robotics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Sources explicitly name Andy Lonsberry as Co-Founder and CEO and Alex Lonsberry as Co-Founder and CTO. Founded year could not be verified from these sources despite database entry stating 2014. Current funding stage, total raised amount ($271M in database vs $300M+ claim), and valuation could not be verified from provided sources. Sources mention Navy shipyard contracts and partnerships with Saronic and LAD."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Columbus, OH",
+          "verified": "Columbus, OH, USA",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Drive Capital",
+            "Matter Venture Partners"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://path-robotics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://path-robotics.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/how-path-robotics-uses-ai-optimize-robotic-welding/"
+        }
+      ],
+      "notes": "Sources explicitly name Andy Lonsberry as Co-Founder and CEO and Alex Lonsberry as Co-Founder and CTO. Founded year could not be verified from these sources despite database entry stating 2014. Current funding stage, total raised amount ($271M in database vs $300M+ claim), and valuation could not be verified from provided sources. Sources mention Navy shipyard contracts and partnerships with Saronic and LAD."
     },
     {
       "name": "PsiQuantum",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "PsiQuantum",
+        "founder": "Jeremy O'Brien, Terry Rudolph, Peter Shadbolt, Mark Thompson",
+        "location": "Palo Alto, California, US",
+        "founded": 2016,
+        "fundingStage": "Private",
+        "totalRaised": "$1.415B",
+        "website": "https://psiquantum.com"
+      },
+      "verified": {
+        "name": "PsiQuantum",
+        "description": "Quantum computing company developing utility-scale, fault-tolerant quantum computers using silicon photonics and semiconductor manufacturing processes.",
+        "founders": [
+          "Jeremy O'Brien",
+          "Terry Rudolph",
+          "Peter Shadbolt",
+          "Mark Thompson"
+        ],
+        "location": "Palo Alto, California, US",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": "$1B",
+        "valuation": null,
+        "investors": null,
+        "website": "https://psiquantum.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2,
+            1
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Series E funding of $1 billion announced in 2025 per Wikipedia source. Specific investor names and valuation could not be verified from provided sources. Wikipedia lists 500+ employees as of 2026."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$1.415B",
+          "verified": "$1B",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://psiquantum.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://psiquantum.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PsiQuantum"
+        },
+        {
+          "idx": 3,
+          "src": "news (MIT Tech Review)",
+          "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/"
+        }
+      ],
+      "notes": "Series E funding of $1 billion announced in 2025 per Wikipedia source. Specific investor names and valuation could not be verified from provided sources. Wikipedia lists 500+ employees as of 2026."
     },
     {
       "name": "Quaise Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "QuantumDiamonds",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Recursion Pharmaceuticals",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Quaise Energy",
+        "founder": "Carlos Araque, Matt Houde",
+        "location": "Cambridge, MA",
+        "founded": 2018,
+        "fundingStage": "Series A",
+        "totalRaised": "$75M+",
+        "website": "https://www.quaise.com"
+      },
+      "verified": {
+        "name": "Quaise Energy",
+        "description": "Develops millimeter wave drilling technology to access deep geothermal energy. Uses gyrotron-powered drilling to reach depths of 3-20 km and temperatures of 300-500\u00b0C for superhot geothermal power generation.",
+        "founders": [
+          "Carlos Araque",
+          "Matthew Houde"
+        ],
+        "location": "Cambridge, MA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": "$134M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.quaise.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "total_raised": [
+            2,
+            3
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Sources do not explicitly state founding year despite database entry claiming 2018. Leadership page (source 1) confirms Carlos Araque as 'President, CEO, and a co-founder' and Matthew Houde as 'Chief of Staff and a co-founder.' Current stage and valuation not found in sources. Investor names not explicitly listed in provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Carlos Araque, Matt Houde",
+          "verified": "Carlos Araque, Matthew Houde",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$75M+",
+          "verified": "$134M",
+          "sources": [
+            2,
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.quaise.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.quaise.com/company"
+        },
+        {
+          "idx": 2,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m"
+        },
+        {
+          "idx": 3,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813993&type=D&dateb=&owner=include&count=10"
+        }
+      ],
+      "notes": "Sources do not explicitly state founding year despite database entry claiming 2018. Leadership page (source 1) confirms Carlos Araque as 'President, CEO, and a co-founder' and Matthew Houde as 'Chief of Staff and a co-founder.' Current stage and valuation not found in sources. Investor names not explicitly listed in provided sources."
     },
     {
       "name": "Reflect Orbital",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Reflect Orbital",
+        "founder": "Ben Nowack, Tristan Semmelhack",
+        "location": "Hawthorne, CA",
+        "founded": 2021,
+        "fundingStage": "Series A",
+        "totalRaised": "$35.2M",
+        "website": "https://reflectorbital.com"
+      },
+      "verified": {
+        "name": "Reflect Orbital",
+        "description": "American space technology company that designs and builds satellites with large-scale deployable mirrors to redirect sunlight onto Earth's surface for responsive lighting and increased solar energy production.",
+        "founders": [
+          "Ben Nowack",
+          "Tristan Semmelhack"
+        ],
+        "location": "Hawthorne, California, United States",
+        "founded_year": 2021,
+        "current_stage": "Series A",
+        "total_raised": "$35.2M",
+        "valuation": null,
+        "investors": [
+          "Sequoia Capital",
+          "Lux Capital",
+          "Starship Ventures"
+        ],
+        "website": "https://reflectorbital.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Wikipedia states founding date as January 2021, but also mentions October 2021 in History section\u2014sources show January 2021 as primary founding date. First satellite E\u00e4rendil-1 scheduled for mid-2026 launch. FCC granted license for first satellite on July 9, 2026 per Wikipedia. Total funding as of 2026 update: $35.2M (includes $6.5M seed round September 2024, $20M Series A May 2025, and $1.25M SBIR contract June 2025)."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Hawthorne, CA",
+          "verified": "Hawthorne, California, United States",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://reflectorbital.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://reflectorbital.com/team"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reflect_Orbital"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/fcc-approves-first-reflect-orbital-satellite/"
+        }
+      ],
+      "notes": "Wikipedia states founding date as January 2021, but also mentions October 2021 in History section\u2014sources show January 2021 as primary founding date. First satellite E\u00e4rendil-1 scheduled for mid-2026 launch. FCC granted license for first satellite on July 9, 2026 per Wikipedia. Total funding as of 2026 update: $35.2M (includes $6.5M seed round September 2024, $20M Series A May 2025, and $1.25M SBIR contract June 2025)."
     },
     {
       "name": "SpaceX",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Standard Nuclear",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Waymo",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "X-Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Xtend",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Zettascale",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "SpaceX",
+        "founder": "Elon Musk",
+        "location": "Starbase, Texas, U.S.",
+        "founded": 2002,
+        "fundingStage": "IPO",
+        "totalRaised": "$86B",
+        "website": "https://spacex.com"
+      },
+      "verified": {
+        "name": "SpaceX",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink, a communications satellite constellation.",
+        "founders": [
+          "Elon Musk"
+        ],
+        "location": "Starbase, Texas, U.S.",
+        "founded_year": 2002,
+        "current_stage": "Public",
+        "total_raised": "$86B",
+        "valuation": null,
+        "investors": [
+          "Alphabet Inc."
+        ],
+        "website": "https://spacex.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86B. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (source notes 82% in one place, 85% in another\u2014using 85% as stated in main text). Company has three operating divisions: Space, Connectivity (Starlink), and Artificial Intelligence (Grok, X, data centers). No valuation figure found in sources; database entry claims $1.5T IPO valuation but this is not supported by provided sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "IPO",
+          "verified": "Public",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SpaceX"
+        },
+        {
+          "idx": 1,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-fourth-quarter-2026-could-show-cashflow-positive.html"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/"
+        },
+        {
+          "idx": 3,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/tens-of-billions-in-time-value-of-ai-data-centers.html"
+        }
+      ],
+      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86B. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (source notes 82% in one place, 85% in another\u2014using 85% as stated in main text). Company has three operating divisions: Space, Connectivity (Starlink), and Artificial Intelligence (Grok, X, data centers). No valuation figure found in sources; database entry claims $1.5T IPO valuation but this is not supported by provided sources."
     }
-  ]
+  ],
+  "unverifiable": []
 }
