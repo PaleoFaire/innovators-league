@@ -75293,17 +75293,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-16 14:12
+// Last updated: 2026-07-16 16:24
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Neko Health", headline: "Daniel Ek's body-scanning startup Neko Health raises another $700M", source: "TechCrunch", time: "18h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Humanoid", headline: "Agility outlines six recommendations for U.S. humanoid robot policies", source: "The Robot Report", time: "19h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "SpaceX", headline: "SpaceX Fourth Quarter 2026 Could Show Cashflow Positive", source: "Next Big Future", time: "19h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Icarus", headline: "Icarus Robotics uses KULR technology to power JOY free-flying space robot", source: "The Robot Report", time: "20h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "SpaceX", headline: "SpaceX falls to $135 IPO price ahead of Starship launch", source: "TechCrunch", time: "20h ago", impact: "high", unread: false },
-  { id: 8, type: "milestone", company: "OpenAI", headline: "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer", source: "MIT Tech Review", time: "21h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Monumental", headline: "Robotics startup Monumental raises $32m backed by Khosla Ventures", source: "Sifted", time: "21h ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "Why is OpenAI selling a ChatGPT basketball?", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Saronic", headline: "Saronic to start constructing new shipyard in Texas this year", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Moonshot's upcoming Kimi 3 is expected to close the gap with Anthropic's Opus 4.8", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Humanoid", headline: "Agility outlines six recommendations for U.S. humanoid robot policies", source: "The Robot Report", time: "21h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "SpaceX", headline: "SpaceX Fourth Quarter 2026 Could Show Cashflow Positive", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Icarus", headline: "Icarus Robotics uses KULR technology to power JOY free-flying space robot", source: "The Robot Report", time: "22h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "OpenAI", headline: "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer", source: "MIT Tech Review", time: "23h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Monumental", headline: "Robotics startup Monumental raises $32m backed by Khosla Ventures", source: "Sifted", time: "23h ago", impact: "high", unread: false },
   { id: 10, type: "ipo", company: "Icarus", headline: "Icarus Robotics taps KULR to provide batteries for Space Station robots", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "funding", company: "Monumental", headline: "Monumental secures $32M Series B to accelerate construction automation", source: "Tech.eu", time: "1d ago", impact: "medium", unread: false },
   { id: 12, type: "funding", company: "OpenAI", headline: "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss", source: "Wired", time: "1d ago", impact: "low", unread: false },
