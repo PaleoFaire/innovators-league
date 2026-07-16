@@ -452,6 +452,15 @@
   {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
+    "form": "8-K",
+    "date": "2026-07-15",
+    "description": "form8-k.htm",
+    "accessionNumber": "0001493152-26-033365",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
     "form": "4",
     "date": "2026-06-23",
     "description": "xslF345X06/ownership.xml",
@@ -681,15 +690,6 @@
     "date": "2026-04-20",
     "description": "form8-k.htm",
     "accessionNumber": "0001493152-26-018012",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-04-16",
-    "description": "xslF345X06/ownership.xml",
-    "accessionNumber": "0000950103-26-005837",
     "isIPO": false
   },
   {
@@ -1980,15 +1980,6 @@
     "isIPO": false
   },
   {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-04-16",
-    "description": "xslF345X06/wk-form4_1776380818.xml",
-    "accessionNumber": "0001577526-26-000044",
-    "isIPO": false
-  },
-  {
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "4",
@@ -2184,15 +2175,6 @@
     "date": "2026-05-05",
     "description": "upst-20260505.htm",
     "accessionNumber": "0001647639-26-000045",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "DEF 14A",
-    "date": "2026-04-16",
-    "description": "d177155ddef14a.htm",
-    "accessionNumber": "0001193125-26-158972",
     "isIPO": false
   },
   {
@@ -2684,6 +2666,42 @@
   {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-07-15",
+    "description": "xslF345X06/wk-form4_1784157529.xml",
+    "accessionNumber": "0001907982-26-000107",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-07-15",
+    "description": "xslF345X06/wk-form4_1784157501.xml",
+    "accessionNumber": "0001907982-26-000105",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-07-15",
+    "description": "xslF345X06/wk-form4_1784157457.xml",
+    "accessionNumber": "0001907982-26-000103",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-07-15",
+    "description": "xslF345X06/wk-form4_1784157422.xml",
+    "accessionNumber": "0001907982-26-000101",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "8-K",
     "date": "2026-07-14",
     "description": "qbts-20260714.htm",
@@ -3006,24 +3024,6 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-05-04",
-    "description": "qbts-20260430.htm",
-    "accessionNumber": "0001907982-26-000049",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-04-29",
-    "description": "qbts-20260429.htm",
-    "accessionNumber": "0001907982-26-000046",
-    "isIPO": false
-  },
-  {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
@@ -3255,15 +3255,6 @@
     "date": "2026-04-30",
     "description": "rxrx-20260430.htm",
     "accessionNumber": "0001601830-26-000065",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "8-K",
-    "date": "2026-04-30",
-    "description": "rxrx-20260428.htm",
-    "accessionNumber": "0001601830-26-000064",
     "isIPO": false
   },
   {
@@ -3651,15 +3642,6 @@
     "date": "2026-04-24",
     "description": "d207058d8k.htm",
     "accessionNumber": "0001193125-26-177666",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-04-16",
-    "description": "xslF345X06/wk-form4_1776373586.xml",
-    "accessionNumber": "0001856680-26-000018",
     "isIPO": false
   },
   {
@@ -4500,15 +4482,6 @@
     "isIPO": false
   },
   {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-04-16",
-    "description": "xslF345X06/wk-form4_1776372818.xml",
-    "accessionNumber": "0001891517-26-000021",
-    "isIPO": false
-  },
-  {
     "company": "Astera Labs",
     "ticker": "ALAB",
     "form": "4",
@@ -4614,6 +4587,24 @@
     "date": "2026-04-23",
     "description": "xslF345X06/wk-form4_1776987959.xml",
     "accessionNumber": "0001628280-26-026962",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "4",
+    "date": "2026-07-15",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001213900-26-078344",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "4",
+    "date": "2026-07-15",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001213900-26-078343",
     "isIPO": false
   },
   {

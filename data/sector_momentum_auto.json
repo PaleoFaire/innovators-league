@@ -1,12 +1,30 @@
 [
   {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 60,
+    "trend": "accelerating",
+    "catalysts": [
+      "Agility outlines six recommendations for U.S. humanoid robot",
+      "Icarus Robotics uses KULR technology to power JOY free-flyin",
+      "Robotics startup Monumental raises $32m backed by Khosla Ven"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 60,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-16"
+  },
+  {
     "sector": "AI & Software",
     "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
-      "OpenAI pushes back on Apple trade secret lawsuit",
-      "OpenAI&#8217;s new flagship model deletes files on its own,"
+      "Amid hardware legal battle, OpenAI releases a $230 keyboard",
+      "SpaceX Fourth Quarter 2026 Could Show Cashflow Positive",
+      "Meet GPT-Red: an LLM super-hacker OpenAI built to make its m"
     ],
     "fundingQ": "$235.7B",
     "components": {
@@ -15,43 +33,43 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-15"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 56,
-    "trend": "accelerating",
-    "catalysts": [
-      "Key to Humanoid Progress: Managing the Power Behind the Robo",
-      "German UAV firm Helsing picks West Virginia for first US man",
-      "PsiQuantum has a plan to make a massive quantum computer out"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 48,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
-      "Helsing raises $1.8 billion in Europe\u2019s biggest defense-star",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs",
-      "Contriving Imaginary Gaps in Nuclear Deterrence"
+      "Meet GPT-Red: an LLM super-hacker OpenAI built to make its m",
+      "Inside Ode with Anthropic, the startup betting AI services a",
+      "Helsing raises $1.8 billion in Europe\u2019s biggest defense-star"
     ],
     "fundingQ": "$12.0B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 25,
       "hiring": 0,
-      "market": 45
+      "market": 62
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 46,
+    "trend": "accelerating",
+    "catalysts": [
+      "SpaceX Fourth Quarter 2026 Could Show Cashflow Positive",
+      "Icarus Robotics uses KULR technology to power JOY free-flyin",
+      "SpaceX falls to $135 IPO price ahead of Starship launch"
+    ],
+    "fundingQ": "$266.3B",
+    "components": {
+      "funding": 100,
+      "news": 45,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -67,7 +85,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Ocean & Maritime",
@@ -83,120 +101,86 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-15"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 44,
-    "trend": "steady",
-    "catalysts": [
-      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
-      "Tens of Billions in Time Value of AI Data Centers &#8211; Mo",
-      "SpaceX is gearing up for Starship&#039;s 13th test flight la"
-    ],
-    "fundingQ": "$266.3B",
-    "components": {
-      "funding": 100,
-      "news": 35,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-15"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 43,
-    "trend": "steady",
-    "catalysts": [
-      "Nscale secures $1.4B, Proxima Fusion lands \u20ac411M, and Invest",
-      "A New Force Posture Concept for Europeanizing Extended Nucle",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs"
-    ],
-    "fundingQ": "$4.8B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 13
-    },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 37,
+    "momentum": 43,
     "trend": "steady",
     "catalysts": [
+      "Icarus Robotics uses KULR technology to power JOY free-flyin",
       "Tens of Billions in Time Value of AI Data Centers &#8211; Mo",
-      "Key to Humanoid Progress: Managing the Power Behind the Robo",
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+      "Key to Humanoid Progress: Managing the Power Behind the Robo"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 96,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 20
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 26,
-    "trend": "rising",
+    "sector": "Nuclear Energy",
+    "momentum": 41,
+    "trend": "steady",
     "catalysts": [
-      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
-      "OpenAI pushes back on Apple trade secret lawsuit",
-      "OpenAI&#8217;s new flagship model deletes files on its own,"
+      "A New Force Posture Concept for Europeanizing Extended Nucle",
+      "Not Imaginary: The Deterrence Gap is Real and America Needs",
+      "Contriving Imaginary Gaps in Nuclear Deterrence"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$4.8B",
     "components": {
-      "funding": 0,
-      "news": 65,
+      "funding": 100,
+      "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 10
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 25,
+    "momentum": 24,
     "trend": "rising",
     "catalysts": [
+      "Daniel Ek&#8217;s body-scanning startup Neko Health raises a",
       "Neko Health raises $700M as demand grows for preventive heal",
-      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
-      "Beyond da Vinci: Why versatile humanoid robots are the next"
+      "<a href=\"/biotech/summit-sells-failed-antibiotic-openai-back"
     ],
     "fundingQ": "$2.0B",
     "components": {
       "funding": 53,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 17,
-    "trend": "declining",
+    "sector": "Consumer Tech",
+    "momentum": 24,
+    "trend": "rising",
     "catalysts": [
-      "Ex-Tesla Optimus scientist unveils European humanoid robot s"
+      "Amid hardware legal battle, OpenAI releases a $230 keyboard",
+      "Agility outlines six recommendations for U.S. humanoid robot",
+      "Icarus Robotics uses KULR technology to power JOY free-flyin"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 55,
       "hiring": 0,
-      "market": 77
+      "market": 50
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "German UAV firm Helsing picks West Virginia for first US man",
+      "Monumental secures $32M Series B to accelerate construction",
       "XTEND secures U.S. patent for autonomous navigation technolo"
     ],
     "fundingQ": "$0M",
@@ -206,14 +190,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "OpenAI researcher Miles Wang in talks to launch AI drug disc",
+      "Monumental secures $32M Series B to accelerate construction",
       "What Anthropic\u2019s latest AI discovery does\u2014and doesn\u2019t\u2014show"
     ],
     "fundingQ": "$0M",
@@ -223,11 +207,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Transportation",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -237,9 +221,9 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 56
+      "market": 62
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -255,7 +239,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 8,
+    "trend": "declining",
+    "catalysts": [
+      "Ex-Tesla Optimus scientist unveils European humanoid robot s"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 35
+    },
+    "lastUpdated": "2026-07-16"
   },
   {
     "sector": "Quantum Computing",
@@ -271,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-15"
+    "lastUpdated": "2026-07-16"
   }
 ]

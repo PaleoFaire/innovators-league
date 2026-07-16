@@ -1,6 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-15 08:20:38 UTC
+// Last updated: 2026-07-16 08:20:01 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-07-15", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157529.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157501.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157457.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157422.xml", isIPO: false, ticker: "QBTS" },
+  { company: "Satellogic", form: "4", date: "2026-07-15", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "SATL" },
+  { company: "Satellogic", form: "4", date: "2026-07-15", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "SATL" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-07-14", description: "qbts-20260714.htm", isIPO: false, ticker: "QBTS" },
   { company: "Satellogic", form: "10-K", date: "2026-07-14", description: "ea0296662-10k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-09", description: "xslF345X06/wk-form4_1783634656.xml", isIPO: false, ticker: "RXRX" },
@@ -44,11 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782855289.xml", isIPO: false, ticker: "LEU" },
   { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782854767.xml", isIPO: false, ticker: "LEU" },
   { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782854753.xml", isIPO: false, ticker: "LEU" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782854737.xml", isIPO: false, ticker: "LEU" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782854704.xml", isIPO: false, ticker: "LEU" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-06-30", description: "qbts-20260630.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120715.xml", isIPO: false, ticker: "ACHR" },
-  { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120709.xml", isIPO: false, ticker: "ACHR" },
-  { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120753.xml", isIPO: false, ticker: "ACHR" },
-  { company: "Archer Aviation", form: "4", date: "2026-06-30", description: "xslF345X06/form4-07012026_120751.xml", isIPO: false, ticker: "ACHR" },
 ];
