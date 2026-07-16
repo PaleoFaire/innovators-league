@@ -1,5 +1,26 @@
 [
   {
+    "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
+    "link": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
+    "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring",
+    "pubDate": "Thu, 16 Jul 2026 12:10:00 +0000",
+    "category": "The Download",
+    "source": "MIT Tech Review",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Karman Industries"
+    ],
+    "sectors": [
+      "ai",
+      "climate"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "Daniel Ek&#8217;s body-scanning startup Neko Health raises another $700M",
     "link": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/",
     "description": "Neko Health has developed proprietary body-scanning technology, which it couples with bloodwork, to assess a person's health.",
@@ -16,7 +37,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
@@ -35,7 +56,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "Agility outlines six recommendations for U.S. humanoid robot policies",
@@ -59,7 +80,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "SpaceX Fourth Quarter 2026 Could Show Cashflow Positive",
@@ -81,7 +102,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "Icarus Robotics uses KULR technology to power JOY free-flying space robot",
@@ -100,7 +121,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
+    "time": "20h ago"
   },
   {
     "title": "SpaceX falls to $135 IPO price ahead of Starship launch",
@@ -119,7 +140,7 @@
     ],
     "type": "hire",
     "impact": "high",
-    "time": "17h ago"
+    "time": "20h ago"
   },
   {
     "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
@@ -138,7 +159,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "18h ago"
+    "time": "21h ago"
   },
   {
     "title": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
@@ -157,7 +178,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "18h ago"
+    "time": "21h ago"
   },
   {
     "title": "Icarus Robotics taps KULR to provide batteries for Space Station robots",
@@ -179,7 +200,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Monumental secures $32M Series B to accelerate construction automation",
@@ -200,7 +221,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss",
@@ -363,25 +384,6 @@
     "time": "3d ago"
   },
   {
-    "title": "SpaceX gears up for Starship Flight 13",
-    "link": "https://spacenews.com/spacex-gears-up-for-starship-flight-13/",
-    "description": "\nSpaceX plans to conduct its next Starship launch as soon as July 16 to test fixes to issues from the previous flight and deploy functioning Starlink satellites.\nThe post SpaceX gears up for Starship Flight 13 appeared first on SpaceNews.",
-    "pubDate": "Mon, 13 Jul 2026 01:44:44 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
     "title": "How Path Robotics uses AI to optimize robotic welding",
     "link": "https://www.therobotreport.com/how-path-robotics-uses-ai-optimize-robotic-welding/",
     "description": "CEO Andy Lonsberry explains how Path Robotics applies AI to welding, and UC San Diego professor Michael Yip discusses robot learning.\nThe post How Path Robotics uses AI to optimize robotic welding appeared first on The Robot Report.",
@@ -401,44 +403,6 @@
     "time": "5d ago"
   },
   {
-    "title": "XTEND secures U.S. patent for autonomous navigation technology",
-    "link": "https://www.therobotreport.com/xtend-secures-u-s-patent-autonomous-navigation-technology/",
-    "description": "XTEND said the newly granted patent expands its portfolio supporting autonomous navigation, operator assistance, and mission execution.\nThe post XTEND secures U.S. patent for autonomous navigation technology appeared first on The Robot Report.",
-    "pubDate": "Fri, 10 Jul 2026 21:31:28 +0000",
-    "category": "Controllers",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Xtend",
-    "matchedCompanies": [
-      "Xtend"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "patent",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "AI² Robotics raises $735M at $3B valuation for wheeled humanoid robots",
-    "link": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/",
-    "description": "Shenzhen’s Ai2 Robotics raised $735 million at a $2.8 billion valuation, backed by state, corporate, and financial giants.\nThe post AI² Robotics raises $735M at $3B valuation for wheeled humanoid robots appeared first on The Robot Report.",
-    "pubDate": "Fri, 10 Jul 2026 19:44:55 +0000",
-    "category": "Artificial Intelligence / Cognition",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "5d ago"
-  },
-  {
     "title": "The Download: Claude&#8217;s inner workings and OpenAI&#8217;s &#8220;super app&#8221;",
     "link": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
     "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anthropic has got the clearest glimpse yet at what’s really going on ins",
@@ -449,25 +413,6 @@
     "matchedCompany": "OpenAI",
     "matchedCompanies": [
       "OpenAI",
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-    "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-    "description": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the ",
-    "pubDate": "Thu, 09 Jul 2026 20:22:28 +0000",
-    "category": "Artificial intelligence",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
       "Anthropic"
     ],
     "sectors": [
