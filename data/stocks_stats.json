@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 1.16,
+      "avg_change": 1.2,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -9.26,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -14.48,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -4.3,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -5.73,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.56,
+      "avg_change": -14.18,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.89,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.39,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.71,
+      "avg_change": -16.86,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.54,
+      "avg_change": -9.72,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 3.47,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -4.64,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.48,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -8.24,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RIVN",
-      "Rivian",
-      6.84
-    ],
-    [
       "NVDA",
       "NVIDIA",
-      4.11
+      2.28
     ],
     [
-      "AMD",
-      "AMD",
-      2.27
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      1.68
+      "DRSHF",
+      "DroneShield",
+      1.9
     ],
     [
       "PLTR",
       "Palantir",
-      1.16
+      1.2
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -0.21
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -4.23
     ]
   ],
   "topLosers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -11.48
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -11.53
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
-      -12.75
+      -18.7
     ],
     [
       "SATL",
       "Satellogic",
-      -16.28
+      -18.76
     ],
     [
       "IONQ",
       "IonQ",
-      -16.79
+      -19.45
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -20.48
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -22.47
     ]
   ],
-  "lastUpdated": "2026-07-16 08:20:04"
+  "lastUpdated": "2026-07-16 14:01:48"
 }
