@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -8.84,
+      "avg_change": -9.26,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -3.2,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -4.3,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.95,
+      "avg_change": -5.54,
       "count": 3
     },
     "transportation": {
@@ -69,11 +69,6 @@
       4.11
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      2.31
-    ],
-    [
       "AMD",
       "AMD",
       2.27
@@ -82,6 +77,11 @@
       "SLDP",
       "Solid Power",
       1.68
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      1.16
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -16.79
     ]
   ],
-  "lastUpdated": "2026-07-16 02:50:58"
+  "lastUpdated": "2026-07-16 08:20:04"
 }
