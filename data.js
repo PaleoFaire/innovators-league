@@ -74270,23 +74270,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-16 00:05
+// Last updated: 2026-07-16 03:30
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Neko Health", headline: "Daniel Ek's body-scanning startup Neko Health raises another $700M", source: "TechCrunch", time: "4h ago", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Humanoid", headline: "Agility outlines six recommendations for U.S. humanoid robot policies", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Icarus", headline: "Icarus Robotics uses KULR technology to power JOY free-flying space robot", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "SpaceX", headline: "SpaceX falls to $135 IPO price ahead of Starship launch", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 6, type: "milestone", company: "OpenAI", headline: "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer", source: "MIT Tech Review", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Monumental", headline: "Robotics startup Monumental raises $32m backed by Khosla Ventures", source: "Sifted", time: "7h ago", impact: "high", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Anthropic", headline: "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Icarus", headline: "Icarus Robotics taps KULR to provide batteries for Space Station robots", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Monumental", headline: "Monumental secures $32M Series B to accelerate construction automation", source: "Tech.eu", time: "11h ago", impact: "medium", unread: false },
-  { id: 12, type: "funding", company: "OpenAI", headline: "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss", source: "Wired", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Neko Health", headline: "Neko Health raises $700M as demand grows for preventive health scans", source: "Tech.eu", time: "17h ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Neko Health", headline: "Daniel Ek's body-scanning startup Neko Health raises another $700M", source: "TechCrunch", time: "7h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Humanoid", headline: "Agility outlines six recommendations for U.S. humanoid robot policies", source: "The Robot Report", time: "8h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Icarus", headline: "Icarus Robotics uses KULR technology to power JOY free-flying space robot", source: "The Robot Report", time: "9h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "SpaceX", headline: "SpaceX falls to $135 IPO price ahead of Starship launch", source: "TechCrunch", time: "9h ago", impact: "high", unread: true },
+  { id: 6, type: "milestone", company: "OpenAI", headline: "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer", source: "MIT Tech Review", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Monumental", headline: "Robotics startup Monumental raises $32m backed by Khosla Ventures", source: "Sifted", time: "10h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Icarus", headline: "Icarus Robotics taps KULR to provide batteries for Space Station robots", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Monumental", headline: "Monumental secures $32M Series B to accelerate construction automation", source: "Tech.eu", time: "14h ago", impact: "medium", unread: false },
+  { id: 11, type: "funding", company: "OpenAI", headline: "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss", source: "Wired", time: "18h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Neko Health", headline: "Neko Health raises $700M as demand grows for preventive health scans", source: "Tech.eu", time: "21h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Humanoid", headline: "Key to Humanoid Progress: Managing the Power Behind the Robots", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "PsiQuantum", headline: "PsiQuantum has a plan to make a massive quantum computer out of light", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
