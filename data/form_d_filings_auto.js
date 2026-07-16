@@ -1,13 +1,30 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-07-15 10:08:19 UTC
-// Total: 20 filings across 16 companies
+// Last updated: 2026-07-16 09:31:53 UTC
+// Total: 21 filings across 15 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-07-15T10:08:19.579323+00:00",
+  "generated_at": "2026-07-16T09:31:53.927689+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 20,
+  "total_filings": 21,
   "filings": [
+    {
+      "company": "Etched",
+      "issuer_name": "Etched Angels IV July 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-07-15",
+      "cik": "2144879",
+      "accession": "0002144879-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002144879&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002144879-26-000001",
+      "offering_amount": "479550",
+      "amount_sold": "479550",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Reveal Technology",
       "issuer_name": "Reveal Technology, Inc",
@@ -19,6 +36,23 @@ const FORM_D_FILINGS = {
       "adsh_raw": "0002069578-26-000002",
       "offering_amount": "Indefinite",
       "amount_sold": "4600000",
+      "amount_remaining": "Indefinite",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Helios",
+      "issuer_name": "Helios Investors V, L.P",
+      "form": "D",
+      "filed_date": "2026-07-15",
+      "cik": "2074136",
+      "accession": "0000905148-26-003262",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074136&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000905148-26-003262",
+      "offering_amount": "Indefinite",
+      "amount_sold": "12250000",
       "amount_remaining": "Indefinite",
       "securities_type": "Equity",
       "exemption": "06b",
@@ -327,23 +361,6 @@ const FORM_D_FILINGS = {
       "amount_sold": "22000000",
       "amount_remaining": "0",
       "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Divergent",
-      "issuer_name": "Divergent April 2026 a Series of CGF2021 LLC",
-      "form": "D",
-      "filed_date": "2026-07-02",
-      "cik": "2132524",
-      "accession": "0002132524-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002132524&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002132524-26-000001",
-      "offering_amount": "1366315",
-      "amount_sold": "1366315",
-      "amount_remaining": "0",
-      "securities_type": "",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false

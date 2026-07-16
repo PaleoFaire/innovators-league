@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-07-14",
-    "vehicle": "Soyuz 2.1a | Soyuz MS-29",
-    "payload": "Soyuz MS-29",
-    "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a556b963-0f36-4660-95a8-fdffdba653e2/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-07-16",
     "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
     "payload": "SDA Tranche 1 Transport Layer E",
@@ -61,6 +52,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/0f6780cf-edae-4d7c-99d6-ce7de784d140/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-22",
+    "vehicle": "Gravity-1 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Yellow Sea (launch location 5), Haiyang Oriental Spaceport",
+    "provider": "Orienspace Technology",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-07-23",
@@ -124,15 +124,6 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "Gravity-1 | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
-    "provider": "Orienspace Technology",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-07-31",
@@ -448,5 +439,14 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/67213393-7983-4c06-8b44-b8c785a5ed79/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "H3-24 | Martian Moon eXplorer (MMX)",
+    "payload": "Martian Moon eXplorer (MMX)",
+    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
+    "provider": "Mitsubishi Heavy Industries",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/?format=json",
+    "trackedCompany": null
   }
 ]
