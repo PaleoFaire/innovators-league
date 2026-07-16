@@ -1,6 +1,65 @@
 {
-  "generatedAt": "2026-07-16T09:22:48+00:00",
+  "generatedAt": "2026-07-16T11:48:26+00:00",
   "matrix": {
+    "ai-hardware-inference": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 479550,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Etched",
+            "amount": 479550,
+            "date": "2026-07-15",
+            "source": "formd",
+            "investors": [
+              "Stripes",
+              "Primary Venture Partners",
+              "Positive Sum",
+              "VentureTech Alliance",
+              "Peter Thiel",
+              "Jane Street",
+              "Hudson River Trading",
+              "Jump Trading",
+              "Two Sigma",
+              "Ribbit Capital",
+              "Radical Ventures",
+              "Andrej Karpathy",
+              "Geoffrey Hinton",
+              "Fei-Fei Li",
+              "Stanley Druckenmiller"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Cerebras",
+            "amount": null,
+            "date": "2026-05",
+            "source": "recentEvent",
+            "investors": [
+              "Sam Altman",
+              "Andy Bechtolsheim",
+              "Greg Brockman",
+              "Adam D'Angelo",
+              "Mark Leslie",
+              "Nick McKeown",
+              "David Perlmutter",
+              "Saiyed Atiq Raza",
+              "Jeff Rothschild",
+              "Pradeep Sindhu"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "ai-defense-intelligence": {
       "2026-Q3": {
         "deals": 1,
@@ -32,6 +91,30 @@
               "True Ventures",
               "3Wire Partners",
               "Teamworthy Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "green-manufacturing": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 12250000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Helios",
+            "amount": 12250000,
+            "date": "2026-07-15",
+            "source": "formd",
+            "investors": [
+              "At One Ventures",
+              "Doral Energy-Tech Ventures",
+              "Metaplanet",
+              "Third Derivative",
+              "Kompas VC",
+              "OurCrowd"
             ]
           }
         ],
@@ -99,89 +182,6 @@
           "Khosla Ventures",
           "Valor Equity Partners"
         ]
-      }
-    },
-    "green-manufacturing": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 2250000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Helios",
-            "amount": 2250000,
-            "date": "2026-07-13",
-            "source": "formd",
-            "investors": [
-              "At One Ventures",
-              "Doral Energy-Tech Ventures",
-              "Metaplanet",
-              "Third Derivative",
-              "Kompas VC",
-              "OurCrowd"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "ai-hardware-inference": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 8760410,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Etched",
-            "amount": 8760410,
-            "date": "2026-07-13",
-            "source": "formd",
-            "investors": [
-              "Stripes",
-              "Primary Venture Partners",
-              "Positive Sum",
-              "VentureTech Alliance",
-              "Peter Thiel",
-              "Jane Street",
-              "Hudson River Trading",
-              "Jump Trading",
-              "Two Sigma",
-              "Ribbit Capital",
-              "Radical Ventures",
-              "Andrej Karpathy",
-              "Geoffrey Hinton",
-              "Fei-Fei Li",
-              "Stanley Druckenmiller"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Cerebras",
-            "amount": null,
-            "date": "2026-05",
-            "source": "recentEvent",
-            "investors": [
-              "Sam Altman",
-              "Andy Bechtolsheim",
-              "Greg Brockman",
-              "Adam D'Angelo",
-              "Mark Leslie",
-              "Nick McKeown",
-              "David Perlmutter",
-              "Saiyed Atiq Raza",
-              "Jeff Rothschild",
-              "Pradeep Sindhu"
-            ]
-          }
-        ],
-        "investors": []
       }
     },
     "satellite-earth-observation": {
@@ -584,44 +584,6 @@
           "General Catalyst",
           "Playground Global"
         ]
-      }
-    },
-    "additive-manufacturing": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 1366315,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Divergent",
-            "amount": 1366315,
-            "date": "2026-07-02",
-            "source": "formd",
-            "investors": [
-              "Rochefort Asset Management",
-              "Horizons Ventures",
-              "Altran Technologies",
-              "O Luxe Holdings",
-              "Shanghai Alliance Investment"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Orbital Composites",
-            "amount": null,
-            "date": "2026-04",
-            "source": "recentEvent",
-            "investors": []
-          }
-        ],
-        "investors": []
       }
     },
     "autonomy-counter-drone": {
@@ -1396,6 +1358,23 @@
         ]
       }
     },
+    "additive-manufacturing": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Orbital Composites",
+            "amount": null,
+            "date": "2026-04",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": []
+      }
+    },
     "ai-computer-vision-sensing": {
       "2025-Q1": {
         "deals": 1,
@@ -2122,8 +2101,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 64,
-    "totalUSDSold": 335474632,
+    "totalDealsTracked": 63,
+    "totalUSDSold": 335827457,
     "uniqueClusters": 38,
     "uniqueQuarters": 9,
     "uniqueVCs": 19,
