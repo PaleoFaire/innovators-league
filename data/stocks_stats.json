@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -17.18,
+      "avg_change": -17.34,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.94,
+      "avg_change": -7.45,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.69,
+      "avg_change": -12.29,
       "count": 3
     },
     "transportation": {
@@ -79,9 +79,9 @@
       -2.08
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -2.52
+      "TSLA",
+      "Tesla",
+      -3.81
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -25.54
     ]
   ],
-  "lastUpdated": "2026-07-17 02:53:26"
+  "lastUpdated": "2026-07-17 08:15:33"
 }
