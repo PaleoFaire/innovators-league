@@ -1,6 +1,133 @@
 {
-  "generatedAt": "2026-07-17T07:25:17+00:00",
+  "generatedAt": "2026-07-17T10:08:39+00:00",
   "matrix": {
+    "biotech-cell-reprogramming": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "New Limit",
+            "amount": 0,
+            "date": "2026-07-16",
+            "source": "formd",
+            "investors": [
+              "Kleiner Perkins",
+              "Dimension Capital",
+              "Founders Fund",
+              "Nat Friedman & Daniel Gross",
+              "Khosla Ventures",
+              "Human Capital",
+              "Eli Lilly & Company",
+              "Abstract Ventures",
+              "Duke University Management Company",
+              "S32"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Khosla Ventures"
+        ]
+      }
+    },
+    "ai-autonomous-driving": {
+      "2026-Q3": {
+        "deals": 2,
+        "totalSold": 9499989,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Nuro",
+            "amount": 9499989,
+            "date": "2026-07-16",
+            "source": "formd",
+            "investors": [
+              "Greylock Partners",
+              "Gaorong Capital",
+              "SoftBank Group",
+              "T. Rowe Price",
+              "Uber",
+              "Nvidia"
+            ]
+          },
+          {
+            "name": "Applied Intuition",
+            "amount": null,
+            "date": "2026-07",
+            "source": "recentEvent",
+            "investors": [
+              "Andreessen Horowitz",
+              "Fidelity Investments",
+              "Lux Capital",
+              "General Catalyst",
+              "BlackRock-managed funds",
+              "Kleiner Perkins",
+              "Franklin Templeton",
+              "Qatar Investment Authority"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst",
+          "Lux Capital"
+        ]
+      },
+      "2026-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Waymo",
+            "amount": null,
+            "date": "2026-02",
+            "source": "recentEvent",
+            "investors": [
+              "Alphabet",
+              "Andreessen Horowitz",
+              "Silver Lake",
+              "T. Rowe Price",
+              "Fidelity",
+              "Tiger Global",
+              "Perry Creek Capital",
+              "Dragoneer Investment Group",
+              "DST Global",
+              "Sequoia Capital",
+              "Kleiner Perkins",
+              "GV"
+            ]
+          }
+        ],
+        "investors": [
+          "Sequoia Capital"
+        ]
+      }
+    },
+    "autonomous-aviation": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Pyka",
+            "amount": 0,
+            "date": "2026-07-16",
+            "source": "formd",
+            "investors": [
+              "DCVC",
+              "Y Combinator",
+              "Valor Equity Partners"
+            ]
+          }
+        ],
+        "investors": [
+          "Valor Equity Partners"
+        ]
+      }
+    },
     "ai-hardware-inference": {
       "2026-Q3": {
         "deals": 1,
@@ -894,65 +1021,6 @@
         ]
       }
     },
-    "ai-autonomous-driving": {
-      "2026-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Waymo",
-            "amount": null,
-            "date": "2026-02",
-            "source": "recentEvent",
-            "investors": [
-              "Alphabet",
-              "Andreessen Horowitz",
-              "Silver Lake",
-              "T. Rowe Price",
-              "Fidelity",
-              "Tiger Global",
-              "Perry Creek Capital",
-              "Dragoneer Investment Group",
-              "DST Global",
-              "Sequoia Capital",
-              "Kleiner Perkins",
-              "GV"
-            ]
-          }
-        ],
-        "investors": [
-          "Sequoia Capital"
-        ]
-      },
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Applied Intuition",
-            "amount": null,
-            "date": "2026-07",
-            "source": "recentEvent",
-            "investors": [
-              "Andreessen Horowitz",
-              "Fidelity Investments",
-              "Lux Capital",
-              "General Catalyst",
-              "BlackRock-managed funds",
-              "Kleiner Perkins",
-              "Franklin Templeton",
-              "Qatar Investment Authority"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst",
-          "Lux Capital"
-        ]
-      }
-    },
     "brain-computer-interface": {
       "2026-Q1": {
         "deals": 1,
@@ -1579,18 +1647,14 @@
     }
   },
   "vcAttribution": {
-    "Engine Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Quaise Energy",
-          "cluster": "geothermal-next-gen",
-          "date": "2026-07-14",
-          "source": "formd"
-        }
-      ]
-    },
     "Founders Fund": {
       "2026-Q3": [
+        {
+          "company": "New Limit",
+          "cluster": "biotech-cell-reprogramming",
+          "date": "2026-07-16",
+          "source": "formd"
+        },
         {
           "company": "Cover",
           "cluster": "construction-modular",
@@ -1651,8 +1715,54 @@
         }
       ]
     },
+    "Khosla Ventures": {
+      "2026-Q3": [
+        {
+          "company": "New Limit",
+          "cluster": "biotech-cell-reprogramming",
+          "date": "2026-07-16",
+          "source": "formd"
+        },
+        {
+          "company": "Monumental",
+          "cluster": "construction-modular",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Valor Equity Partners": {
       "2026-Q3": [
+        {
+          "company": "Pyka",
+          "cluster": "autonomous-aviation",
+          "date": "2026-07-16",
+          "source": "formd"
+        },
         {
           "company": "Cover",
           "cluster": "construction-modular",
@@ -1702,6 +1812,16 @@
           "cluster": "industrial-decarb",
           "date": "2025-04",
           "source": "recentEvent"
+        }
+      ]
+    },
+    "Engine Ventures": {
+      "2026-Q3": [
+        {
+          "company": "Quaise Energy",
+          "cluster": "geothermal-next-gen",
+          "date": "2026-07-14",
+          "source": "formd"
         }
       ]
     },
@@ -1855,40 +1975,6 @@
           "company": "Saronic",
           "cluster": "autonomy-maritime",
           "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Khosla Ventures": {
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Monumental",
-          "cluster": "construction-modular",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -2101,9 +2187,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 63,
-    "totalUSDSold": 335827457,
-    "uniqueClusters": 38,
+    "totalDealsTracked": 66,
+    "totalUSDSold": 345327446,
+    "uniqueClusters": 40,
     "uniqueQuarters": 9,
     "uniqueVCs": 19,
     "quarterRange": [
