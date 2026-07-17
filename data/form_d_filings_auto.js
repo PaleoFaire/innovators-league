@@ -1,13 +1,64 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-07-16 09:31:53 UTC
-// Total: 21 filings across 15 companies
+// Last updated: 2026-07-17 09:32:16 UTC
+// Total: 24 filings across 18 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-07-16T09:31:53.927689+00:00",
+  "generated_at": "2026-07-17T09:32:16.072339+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 21,
+  "total_filings": 24,
   "filings": [
+    {
+      "company": "New Limit",
+      "issuer_name": "New Limit BBVC I, a Series of A Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-07-16",
+      "cik": "2142900",
+      "accession": "0002142900-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002142900&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002142900-26-000001",
+      "offering_amount": "Indefinite",
+      "amount_sold": "0",
+      "amount_remaining": "Indefinite",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Nuro",
+      "issuer_name": "Nuro Pouches, Inc",
+      "form": "D",
+      "filed_date": "2026-07-16",
+      "cik": "2108013",
+      "accession": "0002108013-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002108013&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002108013-26-000002",
+      "offering_amount": "17999909",
+      "amount_sold": "9499989",
+      "amount_remaining": "8499920",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Pyka",
+      "issuer_name": "Pyka PML SPV 2 LP",
+      "form": "D",
+      "filed_date": "2026-07-16",
+      "cik": "2134590",
+      "accession": "0001123292-26-001012",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134590&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001123292-26-001012",
+      "offering_amount": "Indefinite",
+      "amount_sold": "0",
+      "amount_remaining": "Indefinite",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Etched",
       "issuer_name": "Etched Angels IV July 2026 a Series of CGF2021 LLC",
