@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-16 08:20:01 UTC
+// Last updated: 2026-07-17 08:16:00 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "C3.ai", form: "4", date: "2026-07-16", description: "xslF345X06/wk-form4_1784234476.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-07-16", description: "xslF345X06/wk-form4_1784234443.xml", isIPO: false, ticker: "AI" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-07-15", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157529.xml", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157501.xml", isIPO: false, ticker: "QBTS" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Virgin Galactic", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782851346.xml", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782851322.xml", isIPO: false, ticker: "SPCE" },
   { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782855289.xml", isIPO: false, ticker: "LEU" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782854767.xml", isIPO: false, ticker: "LEU" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782854753.xml", isIPO: false, ticker: "LEU" },
 ];
