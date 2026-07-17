@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-07-16";
+const LAST_UPDATED = "2026-07-17";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -75293,20 +75293,20 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-16 23:04
+// Last updated: 2026-07-17 00:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX suddenly aborts second Starship V3 launch after ignition", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Scrubbed", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Blue Water Autonomy", headline: "Blue Water Autonomy, Saildrone launch lawsuits against Navy over MUSV Marketplace", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX launches 21 satellites for military data network", source: "SpaceNews", time: "2h ago", impact: "medium", unread: true },
-  { id: 5, type: "funding", company: "OpenAI", headline: "Founders Fund hires former OpenAI exec Ryan Beiermeister (and not because of her 'Mafia' skills)", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Here's Why Anthropic Is Pushing States to Regulate AI Faster", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Leader in Installed World's AI Chips &#8211; New AI Deals Soon", source: "Next Big Future", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "SpaceX", headline: "SpaceX AI Satellites Will Have 250 Kilowatts of Power", source: "Next Big Future", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "Why is OpenAI selling a ChatGPT basketball?", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Saronic", headline: "Saronic to start constructing new shipyard in Texas this year", source: "Breaking Defense", time: "8h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "Moonshot's upcoming Kimi 3 is expected to close the gap with Anthropic's Opus 4.8", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US", source: "MIT Tech Review", time: "10h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX suddenly aborts second Starship V3 launch after ignition", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Scrubbed", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Blue Water Autonomy", headline: "Blue Water Autonomy, Saildrone launch lawsuits against Navy over MUSV Marketplace", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX launches 21 satellites for military data network", source: "SpaceNews", time: "3h ago", impact: "medium", unread: true },
+  { id: 6, type: "funding", company: "OpenAI", headline: "Founders Fund hires former OpenAI exec Ryan Beiermeister (and not because of her 'Mafia' skills)", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Here's Why Anthropic Is Pushing States to Regulate AI Faster", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Leader in Installed World's AI Chips &#8211; New AI Deals Soon", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "SpaceX", headline: "SpaceX AI Satellites Will Have 250 Kilowatts of Power", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "Why is OpenAI selling a ChatGPT basketball?", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Saronic", headline: "Saronic to start constructing new shipyard in Texas this year", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US", source: "MIT Tech Review", time: "11h ago", impact: "low", unread: false },
   { id: 13, type: "hire", company: "Humanoid", headline: "Agility outlines six recommendations for U.S. humanoid robot policies", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "contract", company: "SpaceX", headline: "SpaceX Fourth Quarter 2026 Could Show Cashflow Positive", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 15, type: "ipo", company: "Icarus", headline: "Icarus Robotics uses KULR technology to power JOY free-flying space robot", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
