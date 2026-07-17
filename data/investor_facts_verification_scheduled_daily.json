@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-07-16T07:57:18+00:00",
+  "generatedAt": "2026-07-17T07:54:47+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 4,
   "newExtractionsThisRun": 4,
   "summary": {
-    "cleared": 2,
-    "changesProposed": 2,
+    "cleared": 1,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
-    "Future Ventures",
     "Lightspeed Venture Partners"
   ],
   "changesProposed": [
@@ -56,7 +55,6 @@
           "name": [
             0,
             1,
-            2,
             3
           ],
           "short_name": [
@@ -67,12 +65,12 @@
             3
           ],
           "hq": [
-            0,
             1,
             3
           ],
           "sector_focus": [
-            1
+            1,
+            2
           ],
           "thesis": [
             1,
@@ -80,11 +78,10 @@
           ],
           "website": [
             0,
-            1,
-            2
+            1
           ]
         },
-        "notes": "In 2023, the investment fund separated from The Engine nonprofit incubator/accelerator and rebranded as the venture capital firm Engine Ventures. Source [1] states: 'In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies.' Source [3] confirms: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' Key partners not listed on current firm website or Wikipedia; unable to verify current senior partners. AUM not specified in sources. No specific flagship fund name found. The Engine nonprofit (distinct entity) was founded in 2016 by MIT."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine (nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Source [4] is unrelated to Engine Ventures and was not used. Key partners and AUM could not be verified from provided sources. Founded year reflects 2023 spinout of Engine Ventures as distinct entity from The Engine nonprofit."
       },
       "changes": [
         {
@@ -119,16 +116,8 @@
             "Water / Oceans"
           ],
           "sources": [
-            1
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-          "verified": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-          "sources": [
             1,
-            3
+            2
           ]
         }
       ],
@@ -155,11 +144,118 @@
         },
         {
           "idx": 4,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/"
         }
       ],
-      "notes": "In 2023, the investment fund separated from The Engine nonprofit incubator/accelerator and rebranded as the venture capital firm Engine Ventures. Source [1] states: 'In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies.' Source [3] confirms: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' Key partners not listed on current firm website or Wikipedia; unable to verify current senior partners. AUM not specified in sources. No specific flagship fund name found. The Engine nonprofit (distinct entity) was founded in 2016 by MIT."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine (nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Source [4] is unrelated to Engine Ventures and was not used. Key partners and AUM could not be verified from provided sources. Founded year reflects 2023 spinout of Engine Ventures as distinct entity from The Engine nonprofit."
+    },
+    {
+      "name": "Founders Fund",
+      "current": {
+        "name": "Founders Fund",
+        "shortName": "Founders Fund",
+        "aum": "$17B+",
+        "flagshipFund": "Founders Fund Growth III",
+        "founded": 2005,
+        "hq": "San Francisco, California",
+        "website": "https://foundersfund.com"
+      },
+      "verified": {
+        "name": "Founders Fund",
+        "short_name": "Founders Fund",
+        "aum": "$17B+",
+        "flagship_fund": "Founders Fund Growth III",
+        "founded_year": 2005,
+        "hq": "San Francisco, California",
+        "key_partners": [
+          "Peter Thiel",
+          "Luke Nosek",
+          "Mike Solana",
+          "Trae Stephens",
+          "Lauren Gross",
+          "Scott Nolan",
+          "Napoleon Ta"
+        ],
+        "sector_focus": [
+          "Hard Tech",
+          "Defense Technology",
+          "Space Technology",
+          "Artificial Intelligence",
+          "Biotech"
+        ],
+        "thesis": "Founders Fund has gradually developed into a primary backer of hard tech, defense technology, space technology, artificial intelligence, and biotech. The firm focuses on ambitious projects that resolve real challenges and create transformative technology.",
+        "website": "https://foundersfund.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "short_name": [
+            0,
+            2
+          ],
+          "aum": [
+            2
+          ],
+          "flagship_fund": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "hq": [
+            2
+          ],
+          "key_partners": [
+            2
+          ],
+          "sector_focus": [
+            2
+          ],
+          "thesis": [
+            2
+          ],
+          "website": [
+            0,
+            2
+          ]
+        },
+        "notes": "In 2025, Founders Fund raised Founders Fund Growth III at $4.6 billion for late-stage investments. Ken Howery is listed as a founder but not in current key people list on Wikipedia. Ryan Beiermeister joined as partner in 2026 (per source 3)."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Founders Fund focuses on ambitious projects that resolve real challenges and create transformative technology. The firm has gradually developed from early-stage consumer internet into a primary backer of hard tech, defense technology, space exploration, artificial intelligence, and biotech.",
+          "verified": "Founders Fund has gradually developed into a primary backer of hard tech, defense technology, space technology, artificial intelligence, and biotech. The firm focuses on ambitious projects that resolve real challenges and create transformative technology.",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://foundersfund.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/portfolio",
+          "url": "https://foundersfund.com/portfolio"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Founders_Fund"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/16/founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills/"
+        }
+      ],
+      "notes": "In 2025, Founders Fund raised Founders Fund Growth III at $4.6 billion for late-stage investments. Ken Howery is listed as a founder but not in current key people list on Wikipedia. Ryan Beiermeister joined as partner in 2026 (per source 3)."
     },
     {
       "name": "Khosla Ventures",
@@ -196,7 +292,7 @@
           "Therapeutics",
           "Sustainability"
         ],
-        "thesis": "Khosla Ventures is passionate about technology-based economic disruption in many industries, seeking unfair advantages through proprietary technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and invests in deep tech where it can be early, bold and impactful.",
+        "thesis": "Khosla Ventures is passionate about technology-based economic disruption in many industries, seeking unfair advantages through proprietary and protected technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and change the way we lead our daily lives over the coming years. The firm invests in deep tech where it can be early, bold and impactful.",
         "website": "https://khoslaventures.com",
         "sources_per_field": {
           "name": [
@@ -216,6 +312,7 @@
             4
           ],
           "hq": [
+            0,
             1,
             4
           ],
@@ -223,7 +320,8 @@
             2
           ],
           "sector_focus": [
-            1
+            1,
+            3
           ],
           "thesis": [
             1
@@ -232,16 +330,17 @@
             0,
             1,
             2,
+            3,
             4
           ]
         },
-        "notes": "Keith Rabois returned to the firm as a managing director in February 2024 (source 4). Wikipedia lists AUM as of October 2021 at $15 billion; no more recent specific figure found in sources. Flagship fund name not explicitly identified in current sources."
+        "notes": "Keith Rabois returned to the firm as managing director in February 2024 per Wikipedia. Most recent AUM figure ($15B) is from October 2021 per Wikipedia. No current flagship fund name explicitly stated in sources; Wikipedia references 'eighth flagship fund' closed in November 2023 but specific fund name not provided."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Khosla Ventures invests in technology-based economic disruption across numerous industries, seeking unfair advantages through proprietary technological advances and business model innovations. The firm believes AI has the power to disrupt economic models and invests in deep tech where it can be early, bold and impactful.",
-          "verified": "Khosla Ventures is passionate about technology-based economic disruption in many industries, seeking unfair advantages through proprietary technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and invests in deep tech where it can be early, bold and impactful.",
+          "current": "Khosla Ventures is passionate about technology-based economic disruption in many industries, seeking unfair advantages through proprietary technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and invests in deep tech where it can be early, bold and impactful.",
+          "verified": "Khosla Ventures is passionate about technology-based economic disruption in many industries, seeking unfair advantages through proprietary and protected technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and change the way we lead our daily lives over the coming years. The firm invests in deep tech where it can be early, bold and impactful.",
           "sources": [
             1
           ]
@@ -279,7 +378,7 @@
           "url": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
         }
       ],
-      "notes": "Keith Rabois returned to the firm as a managing director in February 2024 (source 4). Wikipedia lists AUM as of October 2021 at $15 billion; no more recent specific figure found in sources. Flagship fund name not explicitly identified in current sources."
+      "notes": "Keith Rabois returned to the firm as managing director in February 2024 per Wikipedia. Most recent AUM figure ($15B) is from October 2021 per Wikipedia. No current flagship fund name explicitly stated in sources; Wikipedia references 'eighth flagship fund' closed in November 2023 but specific fund name not provided."
     }
   ],
   "unverifiable": []
