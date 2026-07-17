@@ -5,7 +5,7 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 3.74,
+      "avg_change": 4.18,
       "count": 1
     },
     "space": {
@@ -17,43 +17,43 @@
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.79,
+      "avg_change": -6.94,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.34,
+      "avg_change": -15.59,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.48,
+      "avg_change": -8.25,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -19.25,
+      "avg_change": -19.55,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.0,
+      "avg_change": -11.69,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -5.66,
+      "avg_change": -4.75,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -10.48,
+      "avg_change": -9.83,
       "count": 3
     }
   },
@@ -61,12 +61,12 @@
     [
       "PLTR",
       "Palantir",
-      3.74
+      4.18
     ],
     [
       "NVDA",
       "NVIDIA",
-      1.97
+      2.28
     ],
     [
       "DRSHF",
@@ -76,7 +76,7 @@
     [
       "SLDP",
       "Solid Power",
-      -1.67
+      -2.08
     ],
     [
       "ONT.L",
@@ -88,28 +88,28 @@
     [
       "LUNR",
       "Intuitive Machines",
-      -20.56
+      -20.47
     ],
     [
       "IONQ",
       "IonQ",
-      -21.44
+      -21.6
     ],
     [
       "SATL",
       "Satellogic",
-      -21.91
+      -22.56
     ],
     [
       "ALAB",
       "Astera Labs",
-      -24.07
+      -23.41
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -25.81
+      -25.54
     ]
   ],
-  "lastUpdated": "2026-07-16 19:18:08"
+  "lastUpdated": "2026-07-17 02:53:26"
 }
