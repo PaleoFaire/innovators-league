@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 4.18,
+      "avg_change": 1.85,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -17.34,
+      "avg_change": -17.25,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -7.45,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -8.62,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.59,
+      "avg_change": -18.15,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -8.25,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -5.27,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -19.55,
+      "avg_change": -19.33,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.29,
+      "avg_change": -12.01,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.75,
+      "avg_change": -5.62,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -9.83,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -17.36,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "PLTR",
       "Palantir",
-      4.18
+      1.85
     ],
     [
-      "NVDA",
-      "NVIDIA",
-      2.28
+      "LNZA",
+      "LanzaTech",
+      0.35
     ],
     [
       "DRSHF",
       "DroneShield",
-      0.63
+      -0.93
     ],
     [
       "SLDP",
       "Solid Power",
-      -2.08
+      -2.8
     ],
     [
-      "TSLA",
-      "Tesla",
-      -3.81
+      "RIVN",
+      "Rivian",
+      -3.95
     ]
   ],
   "topLosers": [
     [
       "LUNR",
       "Intuitive Machines",
-      -20.47
+      -20.2
     ],
     [
       "IONQ",
       "IonQ",
-      -21.6
+      -20.86
     ],
     [
       "SATL",
       "Satellogic",
-      -22.56
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -23.41
+      -23.57
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -25.54
+      -24.46
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -29.43
     ]
   ],
-  "lastUpdated": "2026-07-17 08:15:33"
+  "lastUpdated": "2026-07-17 13:46:28"
 }
