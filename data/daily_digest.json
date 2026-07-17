@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T00:07:56.684963+00:00",
+  "generatedAt": "2026-07-17T04:14:29.706899+00:00",
   "date": "2026-07-17",
   "dateDisplay": "Friday, July 17, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 54.81,
-        "changePercent": -25.81,
-        "change": -19.07
+        "price": 55.01,
+        "changePercent": -25.54,
+        "change": -18.87
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 316.95,
-        "changePercent": -24.07,
-        "change": -100.5
+        "price": 319.74,
+        "changePercent": -23.41,
+        "change": -97.71
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 3.6,
-        "changePercent": -21.91,
-        "change": -1.01
+        "price": 3.57,
+        "changePercent": -22.56,
+        "change": -1.04
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 35.17,
-        "changePercent": -21.44,
-        "change": -9.6
+        "price": 35.1,
+        "changePercent": -21.6,
+        "change": -9.67
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 13.43,
-        "changePercent": -20.56,
-        "change": -3.47
+        "price": 13.44,
+        "changePercent": -20.47,
+        "change": -3.46
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 17.05,
-        "changePercent": -19.42,
-        "change": -4.11
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 21.95,
-        "changePercent": -19.3,
-        "change": -5.25
+        "price": 16.92,
+        "changePercent": -20.04,
+        "change": -4.24
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
-        "price": 3.04,
-        "changePercent": -19.28,
-        "change": -0.72
+        "price": 3.02,
+        "changePercent": -19.68,
+        "change": -0.74
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 22.09,
+        "changePercent": -18.79,
+        "change": -5.11
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASTS -25.8%"
+    "topMover": "ASTS -25.5%"
   }
 }
