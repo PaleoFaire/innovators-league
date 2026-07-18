@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
+    "change": "+15%",
+    "changeNum": 15,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 3,
+    "activityIndex": 5,
     "billsTracked": 2,
-    "rulesTracked": 1,
-    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
+    "rulesTracked": 3,
+    "description": "2 bill(s) + 3 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 5 \u2014 +15% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -26,13 +26,25 @@
       },
       {
         "type": "federal_register",
+        "title": "Information Collection: NRC Form 361, Reactor Plant Event Notification Worksheet",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
         "title": "Reforming and Modernizing the NRC's Radiation Protection Framework",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-17"
+    "lastUpdated": "2026-07-18"
   },
   {
     "category": "Quantum Computing",
@@ -55,7 +67,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-17"
+    "lastUpdated": "2026-07-18"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -78,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-17"
+    "lastUpdated": "2026-07-18"
   },
   {
     "category": "Space & Aerospace",
@@ -101,29 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-17"
-  },
-  {
-    "category": "AI & Autonomy",
-    "icon": "\ud83e\udd16",
-    "budgetLineItem": "AI & Autonomy \u2014 federal activity index",
-    "change": "flat",
-    "changeNum": 0,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 1,
-    "billsTracked": 0,
-    "rulesTracked": 1,
-    "description": "0 bill(s) + 1 federal-register action(s) touching AI & Autonomy in the last 90 days. Activity index 1 \u2014 flat relative trend.",
-    "examples": [
-      {
-        "type": "federal_register",
-        "title": "Proposed Information Collection; ATUS Artificial Intelligence (AI) Questions",
-        "agency": "",
-        "date": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-07-17"
+    "lastUpdated": "2026-07-18"
   }
 ]

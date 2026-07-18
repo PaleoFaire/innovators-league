@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T08:17:11.063004Z",
+  "generated_at": "2026-07-18T07:59:19.299336Z",
   "takes": [
     {
       "author": "Sifted",
@@ -22,20 +22,70 @@
       "signal_type": "funding"
     },
     {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Databricks",
+      "text": "Databricks hits $188B valuation, extending its run as AI&#8217;s favorite second act",
+      "date": "Fri, 17 Ju",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Valar Atomics",
+      "text": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+      "date": "Fri, 17 Ju",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/",
+      "signal_type": "funding"
+    },
+    {
       "author": "Defense News",
       "role": "Industry signal",
-      "company": "Helsing",
-      "text": "Helsing raises $1.8 billion in Europe\u2019s biggest defense-startup round",
-      "date": "Mon, 13 Ju",
+      "company": "Saronic",
+      "text": "Saronic picks Brownsville, Texas, for $3 billion Port Alpha shipyard",
+      "date": "Fri, 17 Ju",
       "source": "news",
-      "source_url": "https://www.defensenews.com/global/europe/2026/07/13/helsing-raises-18-billion-in-europes-biggest-defense-startup-round/",
+      "source_url": "https://www.defensenews.com/industry/techwatch/2026/07/17/saronic-picks-brownsville-texas-for-3-billion-port-alpha-shipyard/",
+      "signal_type": "news"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "OpenAI",
+      "text": "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s IPO plans",
+      "date": "Fri, 17 Ju",
+      "source": "news",
+      "source_url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "$100+ Billion in Realized Value from the Temporary Anthropic AI Lead",
+      "date": "Fri, 17 Ju",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/07/100-billion-in-realized-value-from-the-temporary-anthropic-ai-lead.html",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Tech.eu",
+      "role": "Industry signal",
+      "company": "Helsing",
+      "text": "Helsing secures $1.8B Series E,  Uber acquiring Delivery Hero in \u20ac13B deal, and Revolut to launch US bank in 2027",
+      "date": "Fri, 17 Ju",
+      "source": "news",
+      "source_url": "https://tech.eu/2026/07/17/helsing-secures-1-8b-series-e-uber-acquiring-delivery-hero-in-13b-deal-and-revolut-to-launch-us-bank-in-2027/",
       "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 3,
+    "from_news": 8,
     "from_press": 0
   }
 }

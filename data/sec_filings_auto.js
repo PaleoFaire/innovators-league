@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-17 08:16:00 UTC
+// Last updated: 2026-07-18 07:58:03 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784333024.xml", isIPO: false, ticker: "PLTR" },
+  { company: "C3.ai", form: "8-K", date: "2026-07-17", description: "ai-20260714.htm", isIPO: false, ticker: "AI" },
+  { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784309188.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784309047.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784308874.xml", isIPO: false, ticker: "IONQ" },
   { company: "C3.ai", form: "4", date: "2026-07-16", description: "xslF345X06/wk-form4_1784234476.xml", isIPO: false, ticker: "AI" },
   { company: "C3.ai", form: "4", date: "2026-07-16", description: "xslF345X06/wk-form4_1784234443.xml", isIPO: false, ticker: "AI" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-07-15", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852950.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852932.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852918.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852908.xml", isIPO: false, ticker: "BKSY" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782851367.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782851346.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782851322.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Centrus Energy", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782855289.xml", isIPO: false, ticker: "LEU" },
 ];
