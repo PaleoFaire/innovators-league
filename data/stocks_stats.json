@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -14.01,
+      "avg_change": -13.37,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -6.58,
+      "avg_change": -6.82,
       "count": 7
     },
     "nuclear": {
@@ -79,9 +79,9 @@
       -2.79
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -2.8
+      "ASRHF",
+      "Astroscale",
+      -3.02
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -26.48
     ]
   ],
-  "lastUpdated": "2026-07-18 02:45:49"
+  "lastUpdated": "2026-07-18 07:57:48"
 }
