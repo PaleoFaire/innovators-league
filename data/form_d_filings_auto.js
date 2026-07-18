@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-07-17 09:32:16 UTC
-// Total: 24 filings across 18 companies
+// Last updated: 2026-07-18 09:09:19 UTC
+// Total: 22 filings across 17 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-07-17T09:32:16.072339+00:00",
+  "generated_at": "2026-07-18T09:09:19.602912+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 24,
+  "total_filings": 22,
   "filings": [
     {
       "company": "New Limit",
@@ -376,40 +376,6 @@ const FORM_D_FILINGS = {
       "adsh_raw": "0002144353-26-000001",
       "offering_amount": "1927500",
       "amount_sold": "1927500",
-      "amount_remaining": "0",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Helios",
-      "issuer_name": "Helios Ridge Fund 1, LLC",
-      "form": "D",
-      "filed_date": "2026-07-08",
-      "cik": "2140141",
-      "accession": "0002140141-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002140141&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002140141-26-000001",
-      "offering_amount": "500000",
-      "amount_sold": "250000",
-      "amount_remaining": "250000",
-      "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Firefly Aerospace",
-      "issuer_name": "Firefly Aerospace Inc.  (FLY)",
-      "form": "D",
-      "filed_date": "2026-07-08",
-      "cik": "1860160",
-      "accession": "0001193125-26-298515",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001860160&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001193125-26-298515",
-      "offering_amount": "22000000",
-      "amount_sold": "22000000",
       "amount_remaining": "0",
       "securities_type": "Equity",
       "exemption": "06b",

@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-07-17 09:02:04 UTC
+// Last updated: 2026-07-18 08:29:06 UTC
 const ARXIV_PAPERS = [
   { id: "2607.15275v1", title: "RoboTTT: Context Scaling for Robot Policies", category: "Artificial Intelligence", published: "2026-07-16", sectors: "ai", authors: "Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng et al." },
   { id: "2607.15257v1", title: "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration", category: "Artificial Intelligence", published: "2026-07-16", sectors: "ai", authors: "Yuyao Zhang, Junjie Gao, Zhengxian Wu et al." },
