@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 4.3,
+      "avg_change": 4.41,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -13.49,
+      "avg_change": -14.01,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -6.73,
+      "avg_change": -6.58,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.25,
+      "avg_change": -15.15,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.04,
+      "avg_change": -4.72,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.61,
+      "avg_change": -16.75,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.28,
+      "avg_change": -11.27,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.74,
+      "avg_change": -3.37,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.47,
+      "avg_change": -13.83,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "PLTR",
       "Palantir",
-      4.3
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      -0.22
+      4.41
     ],
     [
       "RIVN",
       "Rivian",
-      -0.97
+      -0.14
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -0.43
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -2.79
     ],
     [
       "DRSHF",
       "DroneShield",
       -2.8
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -3.72
     ]
   ],
   "topLosers": [
     [
-      "RKLB",
-      "Rocket Lab",
-      -16.26
+      "QBTS",
+      "D-Wave Quantum",
+      -16.72
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      -17.42
+      -17.28
     ],
     [
       "IONQ",
       "IonQ",
-      -19.02
+      -18.85
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -20.24
+      -21.17
     ],
     [
       "ALAB",
       "Astera Labs",
-      -27.46
+      -26.48
     ]
   ],
-  "lastUpdated": "2026-07-17 19:16:34"
+  "lastUpdated": "2026-07-18 02:45:49"
 }
