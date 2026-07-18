@@ -1,30 +1,30 @@
 // Auto-generated news signals
-// Last updated: 2026-07-18T21:57:08.220Z
+// Last updated: 2026-07-18T22:57:26.209Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1784411828220,
+    "id": 1784415446209,
     "type": "ipo",
     "company": "Skyroot Aerospace",
     "headline": "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
     "source": "SpaceNews",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch/"
   },
   {
-    "id": 1784411828221,
+    "id": 1784415446210,
     "type": "funding",
     "company": "Databricks",
     "headline": "Databricks hits $188B valuation, extending its run as AI&#8217;s favorite second act",
     "source": "TechCrunch",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/"
   },
   {
-    "id": 1784411828222,
+    "id": 1784415446211,
     "type": "news",
     "company": "Agility Robotics",
     "headline": "Agility Robotics plants its flag in Tesla&#8217;s backyard",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/"
   },
   {
-    "id": 1784411828223,
+    "id": 1784415446212,
     "type": "funding",
     "company": "Valar Atomics",
     "headline": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
   },
   {
-    "id": 1784411828224,
+    "id": 1784415446213,
     "type": "news",
     "company": "Saronic",
     "headline": "Saronic picks Brownsville, Texas, for $3 billion Port Alpha shipyard",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/07/17/saronic-picks-brownsville-texas-for-3-billion-port-alpha-shipyard/"
   },
   {
-    "id": 1784411828225,
+    "id": 1784415446214,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s IPO plans",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/"
   },
   {
-    "id": 1784411828226,
+    "id": 1784415446215,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "Weave Robotics launches Isaac, its first mobile humanoid robot",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
   },
   {
-    "id": 1784411828227,
+    "id": 1784415446216,
     "type": "funding",
     "company": "Helsing",
     "headline": "Helsing secures $1.8B Series E,  Uber acquiring Delivery Hero in €13B deal, and Revolut to launch US bank in 2027",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/17/helsing-secures-1-8b-series-e-uber-acquiring-delivery-hero-in-13b-deal-and-revolut-to-launch-us-bank-in-2027/"
   },
   {
-    "id": 1784411828228,
+    "id": 1784415446217,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX’s only problem is finding more space to work with",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacexs-only-problem-is-finding-more-space-to-work-with/"
   },
   {
-    "id": 1784411828229,
+    "id": 1784415446218,
     "type": "funding",
     "company": "Monumental",
     "headline": "With new funding, Monumental plans to bring its construction robots to the U.S.",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
   },
   {
-    "id": 1784411828230,
+    "id": 1784415446219,
     "type": "hire",
     "company": "Humanoid",
     "headline": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
   },
   {
-    "id": 1784411828231,
+    "id": 1784415446220,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX aborts Starship Flight 13 launch attempt",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/"
   },
   {
-    "id": 1784411828232,
+    "id": 1784415446221,
     "type": "milestone",
     "company": "Blue Water Autonomy",
     "headline": "Blue Water Autonomy, Saildrone launch lawsuits against Navy over MUSV Marketplace",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/07/blue-water-autonomy-saildrone-launch-lawsuits-against-navy-over-musv-marketplace/"
   },
   {
-    "id": 1784411828233,
+    "id": 1784415446222,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches 21 satellites for military data network",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-launches-21-satellites-for-military-data-network/"
   },
   {
-    "id": 1784411828234,
+    "id": 1784415446223,
     "type": "news",
     "company": "Anthropic",
     "headline": "Here’s Why Anthropic Is Pushing States to Regulate AI Faster",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster/"
   },
   {
-    "id": 1784411828235,
+    "id": 1784415446224,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/"
   },
   {
-    "id": 1784411828236,
+    "id": 1784415446225,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Agility outlines six recommendations for U.S. humanoid robot policies",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/"
   },
   {
-    "id": 1784411828237,
+    "id": 1784415446226,
     "type": "ipo",
     "company": "Icarus",
     "headline": "Icarus Robotics uses KULR technology to power JOY free-flying space robot",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/icarus-robotics-uses-kulr-technology-to-power-joy-free-flying-space-robot/"
   },
   {
-    "id": 1784411828238,
+    "id": 1784415446227,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
   },
   {
-    "id": 1784411828239,
+    "id": 1784415446228,
     "type": "funding",
     "company": "Monumental",
     "headline": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
