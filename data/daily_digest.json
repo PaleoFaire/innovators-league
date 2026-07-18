@@ -1,18 +1,9 @@
 {
-  "generatedAt": "2026-07-17T23:58:09.554495+00:00",
-  "date": "2026-07-17",
-  "dateDisplay": "Friday, July 17, 2026",
+  "generatedAt": "2026-07-18T03:18:24.651251+00:00",
+  "date": "2026-07-18",
+  "dateDisplay": "Saturday, July 18, 2026",
   "sections": {
     "govActivity": [
-      {
-        "company": "Palantir",
-        "amount": "$95M",
-        "amount_raw": 95000000.0,
-        "agency": "Department of Agriculture",
-        "description": "CENTRALIZE FARM PRODUCTION & CONSERVATION IT SYSTEMS, AUTOMATE PROCESSES, AND INTEGRATE DATA FOR BETTER EFFICIENCY PER T",
-        "date": "2026-04-18",
-        "url": "https://sam.gov/opp/12314426F0126/view"
-      },
       {
         "company": "Palantir",
         "amount": "$86M",
@@ -72,58 +63,58 @@
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 299.55,
-        "changePercent": -27.46,
-        "change": -113.42
+        "price": 303.62,
+        "changePercent": -26.48,
+        "change": -109.35
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 58.48,
-        "changePercent": -20.24,
-        "change": -14.84
+        "price": 57.8,
+        "changePercent": -21.17,
+        "change": -15.52
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 34.71,
-        "changePercent": -19.02,
-        "change": -8.15
+        "price": 34.78,
+        "changePercent": -18.85,
+        "change": -8.08
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
         "price": 2.94,
-        "changePercent": -17.42,
+        "changePercent": -17.28,
         "change": -0.62
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 67.86,
-        "changePercent": -16.26,
-        "change": -13.18
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 16.89,
-        "changePercent": -15.95,
-        "change": -3.2
+        "price": 16.73,
+        "changePercent": -16.72,
+        "change": -3.36
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 3.83,
-        "changePercent": -15.53,
-        "change": -0.71
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 67.62,
+        "changePercent": -16.56,
+        "change": -13.42
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 13.65,
-        "changePercent": -15.4,
-        "change": -2.49
+        "price": 13.52,
+        "changePercent": -16.23,
+        "change": -2.62
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 3.82,
+        "changePercent": -15.86,
+        "change": -0.72
       }
     ],
     "regulatory": [
@@ -210,10 +201,10 @@
     ]
   },
   "stats": {
-    "contractCount": 7,
+    "contractCount": 6,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ALAB -27.5%"
+    "topMover": "ALAB -26.5%"
   }
 }
