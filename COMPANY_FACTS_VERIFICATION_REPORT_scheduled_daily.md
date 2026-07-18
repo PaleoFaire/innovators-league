@@ -1,20 +1,20 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-17T07:54:04+00:00  
+**Generated:** 2026-07-18T07:29:33+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 25 companies  
+**Cohort size:** 27 companies  
 
-**New Claude extractions this run:** 25  
+**New Claude extractions this run:** 27  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 21 | 84% |
-| 🔧 Changes proposed | 4 | 16% |
+| ✅ Cleared (data matches sources) | 23 | 85% |
+| 🔧 Changes proposed | 4 | 15% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
@@ -28,32 +28,32 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`founder`:** `Henry Kwan (CEO, fmr Orbital — built spacecraft + space robo` → `Henry Kwan`  
   Sources: [company_about](https://www.icarus.one/about)
 
-  **Notes:** Source [2] is about Greek mythology (irrelevant). Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in New York developing space robots, not the stratospheric aircraft company. Y Combinator confirmed as investor via company website (source [1] mentions 'backed by world-class investors' with Paul Graham visible, indicating YC backing). Database entry mentions additional investors 'Beth Turner' and 'Cyrus Ventures' but these cannot be verified from provided sources.
-
-### Neko Health
-
-- **`totalRaised`:** `$326M+` → `$700M`  
-  Sources: [news (Tech.eu)](https://tech.eu/2026/07/15/neko-health-raises-700m-as-demand-grows-for-preventive-health-scans/)
-
-  **Notes:** Wikipedia source (0) indicates company emerged from stealth mode in 2023 and operates in Stockholm and London as of 2024. Valuation of $1.8B from database entry could not be verified in provided sources. Previous total_raised figure of $326M+ appears superseded by Series C round of $700M reported in source [1].
-
-### Quaise Energy
-
-- **`founder`:** `Carlos Araque, Matt Houde` → `Carlos Araque, Matthew Houde`  
-  Sources: [company_about](https://www.quaise.com/company)
-
-  **Notes:** Company website (source 0) and about page (source 1) do not explicitly state founding year or location, only reference to 'MIT' in database entry cannot be verified from provided sources. SEC Form D filing (source 3) shows amount raised as $133,791,666 (approximately $134M per source 2). Leadership page lists Carlos Araque as 'President, CEO, and a co-founder' and Matthew Houde as 'Chief of Staff and a co-founder'.
+  **Notes:** Source [2] is Wikipedia article about Greek mythology (not relevant). Sources [3] and [4] reference a different company 'Icarus Robotics' (space robots for ISS), not the stratospheric aircraft company. Only sources [0] and [1] are relevant to the aerospace company. Y Combinator confirmed as investor from company website; Paul Graham listed as backer on About page. Seed stage inferred from database entry but not explicitly stated in provided sources. Total raised and valuation not disclosed in sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Database entry claims $1.5T valuation and 'Preparing for IPO' but Wikipedia states SpaceX completed its IPO on June 12, 2026, raising $86B and is now traded on Nasdaq as SPCX. Database entry also claims valuation of $800B which cannot be verified from sources. Wikipedia indicates Elon Musk controls 85% voting power, not 82% as stated in database entry.
+  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, which raised $86 billion and was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% voting power via super-voting stock (Wikipedia states 82% in one place and 85% in another). SpaceX acquired xAI in 2026 per Wikipedia source.
+
+### Terran Robotics
+
+- **`location`:** `Bloomington, IN` → `Bloomington, Indiana`  
+  Sources: [company_about](https://terranrobotics.ai/about)
+
+  **Notes:** Founded in 2018 after receiving $256K NSF SBIR grant. Company operates lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company), not Terran Robotics, so excluded from verification.
+
+### Valar Atomics
+
+- **`founder`:** `Isaiah Taylor` → `Isaiah P. Taylor`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Valar_Atomics)
+
+  **Notes:** Database entry claimed $130M Series A and $149M total raised, but sources do not verify these figures. Source [2] indicates $6B valuation in funding talks as of July 2026. Location listed as 'El Segundo, CA' in database entry but not verified in sources; Ward-250 reactor is in Utah per source [0]. Database claim about 'first startup in history to split the atom' and 'zero-power criticality at Los Alamos' not found in sources.
 
 ---
 
-## ✅ Cleared (21 companies)
+## ✅ Cleared (23 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -62,21 +62,23 @@ Sample (first 30):
 - 1X Technologies
 - Agility Robotics
 - Apptronik
-- Asimov
 - Astera Labs
 - Axiom Space
 - Blue Water Autonomy
 - Deterrence
+- Divergent
 - Durin
 - Helsing
 - Humanoid
 - Karman Industries
+- Machina Labs
 - Monumental
-- Pivotal
-- Profluent
 - PsiQuantum
+- Quaise Energy
 - Saildrone
 - Saronic
+- Skeleton Technologies
+- Solid Power
 - Vast
 - Waymo
 - Xtend
@@ -84,4 +86,4 @@ Sample (first 30):
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-17T07:54:04+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-18T07:29:33+00:00*

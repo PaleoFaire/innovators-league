@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-17T07:54:04+00:00",
+  "generatedAt": "2026-07-18T07:29:33+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 25,
-  "newExtractionsThisRun": 25,
+  "cohortSize": 27,
+  "newExtractionsThisRun": 27,
   "summary": {
-    "cleared": 21,
+    "cleared": 23,
     "changesProposed": 4,
     "unverifiable": 0
   },
@@ -13,21 +13,23 @@
     "1X Technologies",
     "Agility Robotics",
     "Apptronik",
-    "Asimov",
     "Astera Labs",
     "Axiom Space",
     "Blue Water Autonomy",
     "Deterrence",
+    "Divergent",
     "Durin",
     "Helsing",
     "Humanoid",
     "Karman Industries",
+    "Machina Labs",
     "Monumental",
-    "Pivotal",
-    "Profluent",
     "PsiQuantum",
+    "Quaise Energy",
     "Saildrone",
     "Saronic",
+    "Skeleton Technologies",
+    "Solid Power",
     "Vast",
     "Waymo",
     "Xtend"
@@ -46,7 +48,7 @@
       },
       "verified": {
         "name": "Icarus",
-        "description": "Designs and manufactures solar-powered, autonomous stratospheric aircraft operating above 60,000 feet capable of weeks-long flight. Flagship platform APOLLO debuted in 2024 and conducts flight testing in the Mojave Desert.",
+        "description": "Designs and manufactures solar-powered, autonomous stratospheric aircraft operating above 60,000 feet for weeks-long missions. The flagship platform APOLLO is a fully solar-powered, autonomous aircraft that first flew in 2024.",
         "founders": [
           "Henry Kwan"
         ],
@@ -56,7 +58,8 @@
         "total_raised": null,
         "valuation": null,
         "investors": [
-          "Y Combinator"
+          "Y Combinator",
+          "Paul Graham"
         ],
         "website": "https://www.icarus.one",
         "sources_per_field": {
@@ -88,7 +91,7 @@
             1
           ]
         },
-        "notes": "Source [2] is about Greek mythology (irrelevant). Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in New York developing space robots, not the stratospheric aircraft company. Y Combinator confirmed as investor via company website (source [1] mentions 'backed by world-class investors' with Paul Graham visible, indicating YC backing). Database entry mentions additional investors 'Beth Turner' and 'Cyrus Ventures' but these cannot be verified from provided sources."
+        "notes": "Source [2] is Wikipedia article about Greek mythology (not relevant). Sources [3] and [4] reference a different company 'Icarus Robotics' (space robots for ISS), not the stratospheric aircraft company. Only sources [0] and [1] are relevant to the aerospace company. Y Combinator confirmed as investor from company website; Paul Graham listed as backer on About page. Seed stage inferred from database entry but not explicitly stated in provided sources. Total raised and valuation not disclosed in sources."
       },
       "changes": [
         {
@@ -127,168 +130,7 @@
           "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/"
         }
       ],
-      "notes": "Source [2] is about Greek mythology (irrelevant). Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in New York developing space robots, not the stratospheric aircraft company. Y Combinator confirmed as investor via company website (source [1] mentions 'backed by world-class investors' with Paul Graham visible, indicating YC backing). Database entry mentions additional investors 'Beth Turner' and 'Cyrus Ventures' but these cannot be verified from provided sources."
-    },
-    {
-      "name": "Neko Health",
-      "current": {
-        "name": "Neko Health",
-        "founder": "Daniel Ek, Hjalmar Nilsonne",
-        "location": "Stockholm, Sweden",
-        "founded": 2018,
-        "fundingStage": "Series C",
-        "totalRaised": "$326M+",
-        "website": "https://www.nekohealth.com"
-      },
-      "verified": {
-        "name": "Neko Health",
-        "description": "Medical technology company that co-founded by Daniel Ek and Hjalmar Nilsonne in 2018, offering non-invasive full-body scanning technology using sensors and artificial intelligence to collect and analyze health data.",
-        "founders": [
-          "Daniel Ek",
-          "Hjalmar Nilsonne"
-        ],
-        "location": "Stockholm, Sweden",
-        "founded_year": 2018,
-        "current_stage": "Series C",
-        "total_raised": "$700M",
-        "valuation": null,
-        "investors": [
-          "Lightspeed Venture Partners",
-          "O.G. Venture Partners"
-        ],
-        "website": null,
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "investors": [
-            1
-          ]
-        },
-        "notes": "Wikipedia source (0) indicates company emerged from stealth mode in 2023 and operates in Stockholm and London as of 2024. Valuation of $1.8B from database entry could not be verified in provided sources. Previous total_raised figure of $326M+ appears superseded by Series C round of $700M reported in source [1]."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$326M+",
-          "verified": "$700M",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Neko_Health"
-        },
-        {
-          "idx": 1,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/07/15/neko-health-raises-700m-as-demand-grows-for-preventive-health-scans/"
-        }
-      ],
-      "notes": "Wikipedia source (0) indicates company emerged from stealth mode in 2023 and operates in Stockholm and London as of 2024. Valuation of $1.8B from database entry could not be verified in provided sources. Previous total_raised figure of $326M+ appears superseded by Series C round of $700M reported in source [1]."
-    },
-    {
-      "name": "Quaise Energy",
-      "current": {
-        "name": "Quaise Energy",
-        "founder": "Carlos Araque, Matt Houde",
-        "location": "Cambridge, MA",
-        "founded": 2018,
-        "fundingStage": "Series A",
-        "totalRaised": "$134M",
-        "website": "https://www.quaise.com"
-      },
-      "verified": {
-        "name": "Quaise Energy",
-        "description": "Develops millimeter wave drilling technology to access deep geothermal energy at depths up to 20 km and temperatures up to 500\u00b0C. Uses gyrotron-powered drilling platform to vaporize boreholes through rock for superhot geothermal power generation.",
-        "founders": [
-          "Carlos Araque",
-          "Matthew Houde"
-        ],
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": "$134M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.quaise.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "total_raised": [
-            2,
-            3
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Company website (source 0) and about page (source 1) do not explicitly state founding year or location, only reference to 'MIT' in database entry cannot be verified from provided sources. SEC Form D filing (source 3) shows amount raised as $133,791,666 (approximately $134M per source 2). Leadership page lists Carlos Araque as 'President, CEO, and a co-founder' and Matthew Houde as 'Chief of Staff and a co-founder'."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Carlos Araque, Matt Houde",
-          "verified": "Carlos Araque, Matthew Houde",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.quaise.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.quaise.com/company"
-        },
-        {
-          "idx": 2,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m"
-        },
-        {
-          "idx": 3,
-          "src": "sec_form_d",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813993&type=D&dateb=&owner=include&count=10"
-        }
-      ],
-      "notes": "Company website (source 0) and about page (source 1) do not explicitly state founding year or location, only reference to 'MIT' in database entry cannot be verified from provided sources. SEC Form D filing (source 3) shows amount raised as $133,791,666 (approximately $134M per source 2). Leadership page lists Carlos Araque as 'President, CEO, and a co-founder' and Matthew Houde as 'Chief of Staff and a co-founder'."
+      "notes": "Source [2] is Wikipedia article about Greek mythology (not relevant). Sources [3] and [4] reference a different company 'Icarus Robotics' (space robots for ISS), not the stratospheric aircraft company. Only sources [0] and [1] are relevant to the aerospace company. Y Combinator confirmed as investor from company website; Paul Graham listed as backer on About page. Seed stage inferred from database entry but not explicitly stated in provided sources. Total raised and valuation not disclosed in sources."
     },
     {
       "name": "SpaceX",
@@ -303,7 +145,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates launch vehicles, Starlink satellite communications, and artificial intelligence divisions.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -345,7 +187,7 @@
             0
           ]
         },
-        "notes": "Database entry claims $1.5T valuation and 'Preparing for IPO' but Wikipedia states SpaceX completed its IPO on June 12, 2026, raising $86B and is now traded on Nasdaq as SPCX. Database entry also claims valuation of $800B which cannot be verified from sources. Wikipedia indicates Elon Musk controls 85% voting power, not 82% as stated in database entry."
+        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, which raised $86 billion and was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% voting power via super-voting stock (Wikipedia states 82% in one place and 85% in another). SpaceX acquired xAI in 2026 per Wikipedia source."
       },
       "changes": [
         {
@@ -366,20 +208,181 @@
         {
           "idx": 1,
           "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacexs-only-problem-is-finding-more-space-to-work-with/"
+        },
+        {
+          "idx": 2,
+          "src": "news (SpaceNews)",
           "url": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-launches-21-satellites-for-military-data-network/"
+        }
+      ],
+      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, which raised $86 billion and was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% voting power via super-voting stock (Wikipedia states 82% in one place and 85% in another). SpaceX acquired xAI in 2026 per Wikipedia source."
+    },
+    {
+      "name": "Terran Robotics",
+      "current": {
+        "name": "Terran Robotics",
+        "founder": "Zach Dwiel, Danny Weddle",
+        "location": "Bloomington, IN",
+        "founded": 2018,
+        "fundingStage": "Seed",
+        "totalRaised": "$256K",
+        "website": "https://terranrobotics.ai"
+      },
+      "verified": {
+        "name": "Terran Robotics",
+        "description": "Company building terraforming robots that use AI and robotics to construct adobe homes from earth materials at reduced cost compared to traditional construction methods.",
+        "founders": [
+          "Zach Dwiel",
+          "Danny Weddle"
+        ],
+        "location": "Bloomington, Indiana",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": "$256K",
+        "valuation": null,
+        "investors": null,
+        "website": "https://terranrobotics.ai",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Founded in 2018 after receiving $256K NSF SBIR grant. Company operates lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company), not Terran Robotics, so excluded from verification."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Bloomington, IN",
+          "verified": "Bloomington, Indiana",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://terranrobotics.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://terranrobotics.ai/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
+        }
+      ],
+      "notes": "Founded in 2018 after receiving $256K NSF SBIR grant. Company operates lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company), not Terran Robotics, so excluded from verification."
+    },
+    {
+      "name": "Valar Atomics",
+      "current": {
+        "name": "Valar Atomics",
+        "founder": "Isaiah Taylor",
+        "location": "El Segundo, CA",
+        "founded": 2023,
+        "fundingStage": "Series A",
+        "totalRaised": "$149M",
+        "website": "https://valaratomics.com"
+      },
+      "verified": {
+        "name": "Valar Atomics",
+        "description": "Nuclear energy company building high-temperature gas reactors (HTGR) on gigasites to produce hydrogen, data center power, industrial power, and clean hydrocarbon fuels.",
+        "founders": [
+          "Isaiah P. Taylor"
+        ],
+        "location": null,
+        "founded_year": 2023,
+        "current_stage": "Series A",
+        "total_raised": null,
+        "valuation": "$6B",
+        "investors": null,
+        "website": "https://valaratomics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            0
+          ],
+          "valuation": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry claimed $130M Series A and $149M total raised, but sources do not verify these figures. Source [2] indicates $6B valuation in funding talks as of July 2026. Location listed as 'El Segundo, CA' in database entry but not verified in sources; Ward-250 reactor is in Utah per source [0]. Database claim about 'first startup in history to split the atom' and 'zero-power criticality at Los Alamos' not found in sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Isaiah Taylor",
+          "verified": "Isaiah P. Taylor",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://valaratomics.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Valar_Atomics"
         },
         {
           "idx": 2,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/16/spacex-suddenly-aborts-second-starship-v3-launch-after-ignition/"
-        },
-        {
-          "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-13-launch-minutes-away.html"
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
         }
       ],
-      "notes": "Database entry claims $1.5T valuation and 'Preparing for IPO' but Wikipedia states SpaceX completed its IPO on June 12, 2026, raising $86B and is now traded on Nasdaq as SPCX. Database entry also claims valuation of $800B which cannot be verified from sources. Wikipedia indicates Elon Musk controls 85% voting power, not 82% as stated in database entry."
+      "notes": "Database entry claimed $130M Series A and $149M total raised, but sources do not verify these figures. Source [2] indicates $6B valuation in funding talks as of July 2026. Location listed as 'El Segundo, CA' in database entry but not verified in sources; Ward-250 reactor is in Utah per source [0]. Database claim about 'first startup in history to split the atom' and 'zero-power criticality at Los Alamos' not found in sources."
     }
   ],
   "unverifiable": []
