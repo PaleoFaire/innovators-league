@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T08:54:54+00:00",
+  "generatedAt": "2026-07-18T10:26:12+00:00",
   "matrix": {
     "biotech-cell-reprogramming": {
       "2026-Q3": {
@@ -621,98 +621,6 @@
         "investors": []
       }
     },
-    "space-launch-large": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 22000000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Firefly Aerospace",
-            "amount": 22000000,
-            "date": "2026-07-08",
-            "source": "formd",
-            "investors": [
-              "Noosphere Ventures",
-              "DADA Holdings",
-              "AE Industrial Partners"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "SpaceX",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Alphabet Inc."
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Rocket Lab",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Khosla Ventures",
-              "Bessemer Venture Partners",
-              "Lockheed Martin",
-              "Data Collective",
-              "Promus Ventures",
-              "Future Fund"
-            ]
-          }
-        ],
-        "investors": [
-          "Bessemer Venture Partners",
-          "Khosla Ventures"
-        ]
-      },
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Relativity Space",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Baillie Gifford",
-              "Blackrock",
-              "BOND",
-              "Coatue",
-              "Fidelity",
-              "General Catalyst",
-              "ICONIQ Capital",
-              "K5 Global",
-              "Mark Cuban",
-              "Playground Global"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst",
-          "Playground Global"
-        ]
-      }
-    },
     "autonomy-counter-drone": {
       "2026-Q1": {
         "deals": 1,
@@ -868,6 +776,79 @@
           }
         ],
         "investors": []
+      }
+    },
+    "space-launch-large": {
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "SpaceX",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Alphabet Inc."
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Rocket Lab",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Khosla Ventures",
+              "Bessemer Venture Partners",
+              "Lockheed Martin",
+              "Data Collective",
+              "Promus Ventures",
+              "Future Fund"
+            ]
+          }
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "Khosla Ventures"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Relativity Space",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Baillie Gifford",
+              "Blackrock",
+              "BOND",
+              "Coatue",
+              "Fidelity",
+              "General Catalyst",
+              "ICONIQ Capital",
+              "K5 Global",
+              "Mark Cuban",
+              "Playground Global"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst",
+          "Playground Global"
+        ]
       }
     },
     "space-ground-comms": {
@@ -2187,8 +2168,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 66,
-    "totalUSDSold": 345327446,
+    "totalDealsTracked": 65,
+    "totalUSDSold": 323327446,
     "uniqueClusters": 40,
     "uniqueQuarters": 9,
     "uniqueVCs": 19,
