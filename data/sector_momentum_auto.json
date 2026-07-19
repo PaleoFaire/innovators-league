@@ -1,23 +1,5 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 62,
-    "trend": "accelerating",
-    "catalysts": [
-      "Agility Robotics plants its flag in Tesla&#8217;s backyard",
-      "Weave Robotics launches Isaac, its first mobile humanoid rob",
-      "Humanoid Bot Kicking and Missing Like Conor McGregor"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 70,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-18"
-  },
-  {
     "sector": "Defense & Security",
     "momentum": 61,
     "trend": "steady",
@@ -33,43 +15,61 @@
       "hiring": 0,
       "market": 94
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 59,
+    "trend": "accelerating",
+    "catalysts": [
+      "Agility Robotics plants its flag in Tesla&#8217;s backyard",
+      "Weave Robotics launches Isaac, its first mobile humanoid rob",
+      "With new funding, Monumental plans to bring its construction"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 55,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "AI & Software",
-    "momentum": 55,
-    "trend": "accelerating",
+    "momentum": 51,
+    "trend": "steady",
     "catalysts": [
       "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s I",
-      "SpaceXAI Provides Near IMMEDIATE Gigawatt Scale AI Data Cent",
-      "$100+ Billion in Realized Value from the Temporary Anthropic"
+      "Here\u2019s Why Anthropic Is Pushing States to Regulate AI Faster",
+      "The Download: OpenAI unveils GPT-Red and heat pumps rise in"
     ],
     "fundingQ": "$235.7B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 50,
+    "momentum": 48,
     "trend": "accelerating",
     "catalysts": [
+      "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
       "Weave Robotics launches Isaac, its first mobile humanoid rob",
-      "SpaceXAI Provides Near IMMEDIATE Gigawatt Scale AI Data Cent",
-      "$100+ Billion in Realized Value from the Temporary Anthropic"
+      "Helsing secures $1.8B Series E,  Uber acquiring Delivery Her"
     ],
     "fundingQ": "$266.3B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 50,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Ocean & Maritime",
@@ -86,7 +86,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -102,7 +102,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Nuclear Energy",
@@ -120,7 +120,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Climate & Energy",
@@ -138,25 +138,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 24,
+    "momentum": 25,
     "trend": "rising",
     "catalysts": [
+      "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
       "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s I",
-      "Weave Robotics launches Isaac, its first mobile humanoid rob",
-      "SpaceX\u2019s only problem is finding more space to work with"
+      "Weave Robotics launches Isaac, its first mobile humanoid rob"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 55,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Biotech & Health",
@@ -172,7 +172,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Drones & Autonomous",
@@ -189,7 +189,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Housing & Construction",
@@ -206,40 +206,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "San Francisco mayor pushes for tougher rules after the Waymo"
+      "Active infrastructure & logistics ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-18"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "$100+ Billion in Realized Value from the Temporary Anthropic",
-      "Gavin Baker Says Kimi K3 is Bad for Anthropic and OpenAI but"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Transportation",
@@ -255,7 +238,7 @@
       "hiring": 0,
       "market": 8
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
   },
   {
     "sector": "Quantum Computing",
@@ -271,6 +254,22 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-18"
+    "lastUpdated": "2026-07-19"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-19"
   }
 ]
