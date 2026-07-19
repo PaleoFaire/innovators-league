@@ -1,59 +1,68 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-18T07:29:33+00:00  
+**Generated:** 2026-07-19T08:00:14+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 27 companies  
+**Cohort size:** 33 companies  
 
-**New Claude extractions this run:** 27  
+**New Claude extractions this run:** 33  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 23 | 85% |
-| 🔧 Changes proposed | 4 | 15% |
+| ✅ Cleared (data matches sources) | 28 | 85% |
+| 🔧 Changes proposed | 5 | 15% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (4 companies)
+## 🔧 Proposed Changes (5 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
+
+### ICON
+
+- **`founder`:** `Jason Ballard, Evan Loomis, Alexander Le Roux` → `Kennan Frost`  
+  Sources: [company_website](https://icon.com)
+
+  **Notes:** Database entry references a different ICON company (3D-printed homes). Source [0] and [1] describe Icon as a Human UGC advertising platform founded by Kennan Frost (who previously founded Skio with $8M raised and $105M cash exit). Sources do not provide founding year, location, funding amount, valuation, or current stage for this Icon company. Wikipedia [2] mentions 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is unrelated to Icon.
 
 ### Icarus
 
 - **`founder`:** `Henry Kwan (CEO, fmr Orbital — built spacecraft + space robo` → `Henry Kwan`  
   Sources: [company_about](https://www.icarus.one/about)
 
-  **Notes:** Source [2] is Wikipedia article about Greek mythology (not relevant). Sources [3] and [4] reference a different company 'Icarus Robotics' (space robots for ISS), not the stratospheric aircraft company. Only sources [0] and [1] are relevant to the aerospace company. Y Combinator confirmed as investor from company website; Paul Graham listed as backer on About page. Seed stage inferred from database entry but not explicitly stated in provided sources. Total raised and valuation not disclosed in sources.
+  **Notes:** Source [2] is Wikipedia article on Greek mythology and is not relevant to the company. Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in Napa, CA developing space robots, not the Icarus stratospheric aircraft company. Only sources [0] (company website) and [1] (company about page) are relevant. Y Combinator is mentioned on the about page with Paul Graham shown, indicating YC backing. Database entry references 'Fall 2025' YC batch, 'Beth Turner,' and 'Cyrus Ventures' as investors, but these cannot be verified from provided sources.
+
+### Rapidus
+
+- **`location`:** `Tokyo, Japan` → `Chiyoda, Tokyo, Japan`  
+  Sources: [company_about](https://www.rapidus.inc/about) · [wikipedia](https://en.wikipedia.org/wiki/Rapidus)
+
+  **Notes:** Company was established August 10, 2022 by eight Japanese companies with initial investment of 7.3 billion yen. Wikipedia lists 'Tetsuro Higashi' as Chairman (noted as formerly leading Tokyo Electron); company website lists 'Higashi Tetsuro' as 取締役会長 (Chairman). Wikipedia identifies 'Atsuyoshi Koike' as President/CEO (formerly led Western Digital's Japanese subsidiary); company website shows '小池淳義' as 代表取締役社長兼CEO. The database entry lists both as founders, which aligns with Wikipedia's description of them leading the company at establishment. Pilot line operations began April 2025; mass production target is 2027.
+
+### Skyroot Aerospace
+
+- **`location`:** `Hyderabad, India` → `Hyderabad, Telangana, India`  
+  Sources: [company_about](https://skyroot.in/about) · [wikipedia](https://en.wikipedia.org/wiki/Skyroot_Aerospace)
+- **`totalRaised`:** `$95M+` → `$160M`  
+  Sources: [company_about](https://skyroot.in/about)
+
+  **Notes:** Founded date: Wikipedia states 'Founded 12 June 2018' and source [1] states 'In 2018'. Total raised figure of $160M and valuation of $1.1B both from source [1]: 'Raised USD 160 million to date, at a valuation of USD 1.1 billion'. Source [2] (Wikipedia) references an earlier total of $95M from October 2023, but source [1] provides the most recent figure. Company successfully launched Vikram-1 to orbit on July 18, 2026 (per source [3]).
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, which raised $86 billion and was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% voting power via super-voting stock (Wikipedia states 82% in one place and 85% in another). SpaceX acquired xAI in 2026 per Wikipedia source.
-
-### Terran Robotics
-
-- **`location`:** `Bloomington, IN` → `Bloomington, Indiana`  
-  Sources: [company_about](https://terranrobotics.ai/about)
-
-  **Notes:** Founded in 2018 after receiving $256K NSF SBIR grant. Company operates lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company), not Terran Robotics, so excluded from verification.
-
-### Valar Atomics
-
-- **`founder`:** `Isaiah Taylor` → `Isaiah P. Taylor`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Valar_Atomics)
-
-  **Notes:** Database entry claimed $130M Series A and $149M total raised, but sources do not verify these figures. Source [2] indicates $6B valuation in funding talks as of July 2026. Location listed as 'El Segundo, CA' in database entry but not verified in sources; Ward-250 reactor is in Utah per source [0]. Database claim about 'first startup in history to split the atom' and 'zero-power criticality at Los Alamos' not found in sources.
+  **Notes:** Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one place and 85% in another; using 85% from narrative text). Sources [1], [2], [3] discuss SpaceX AI operations and expansion plans but do not provide independently verifiable founding, valuation, or stage information beyond what Wikipedia provides.
 
 ---
 
-## ✅ Cleared (23 companies)
+## ✅ Cleared (28 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -61,24 +70,29 @@ Sample (first 30):
 
 - 1X Technologies
 - Agility Robotics
+- AnySignal
 - Apptronik
 - Astera Labs
 - Axiom Space
+- Black Semiconductor
 - Blue Water Autonomy
+- Cerebras
 - Deterrence
-- Divergent
 - Durin
+- Hadrian
 - Helsing
 - Humanoid
 - Karman Industries
-- Machina Labs
+- Lab 91
 - Monumental
+- Orbital Composites
 - PsiQuantum
 - Quaise Energy
 - Saildrone
 - Saronic
-- Skeleton Technologies
-- Solid Power
+- Scale AI
+- Terran Robotics
+- Valar Atomics
 - Vast
 - Waymo
 - Xtend
@@ -86,4 +100,4 @@ Sample (first 30):
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-18T07:29:33+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-19T08:00:14+00:00*

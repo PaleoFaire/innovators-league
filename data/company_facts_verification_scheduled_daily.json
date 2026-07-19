@@ -1,40 +1,126 @@
 {
-  "generatedAt": "2026-07-18T07:29:33+00:00",
+  "generatedAt": "2026-07-19T08:00:14+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 27,
-  "newExtractionsThisRun": 27,
+  "cohortSize": 33,
+  "newExtractionsThisRun": 33,
   "summary": {
-    "cleared": 23,
-    "changesProposed": 4,
+    "cleared": 28,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
     "1X Technologies",
     "Agility Robotics",
+    "AnySignal",
     "Apptronik",
     "Astera Labs",
     "Axiom Space",
+    "Black Semiconductor",
     "Blue Water Autonomy",
+    "Cerebras",
     "Deterrence",
-    "Divergent",
     "Durin",
+    "Hadrian",
     "Helsing",
     "Humanoid",
     "Karman Industries",
-    "Machina Labs",
+    "Lab 91",
     "Monumental",
+    "Orbital Composites",
     "PsiQuantum",
     "Quaise Energy",
     "Saildrone",
     "Saronic",
-    "Skeleton Technologies",
-    "Solid Power",
+    "Scale AI",
+    "Terran Robotics",
+    "Valar Atomics",
     "Vast",
     "Waymo",
     "Xtend"
   ],
   "changesProposed": [
+    {
+      "name": "ICON",
+      "current": {
+        "name": "ICON",
+        "founder": "Jason Ballard, Evan Loomis, Alexander Le Roux",
+        "location": "Austin, TX",
+        "founded": 2017,
+        "fundingStage": "Series C",
+        "totalRaised": "$450M+",
+        "website": "https://icon.com"
+      },
+      "verified": {
+        "name": "Icon",
+        "description": "Human UGC (user-generated content) advertising platform that films and edits ads with real creators; offers Command Center software for tracking, reviewing, and managing UGC ad campaigns.",
+        "founders": [
+          "Kennan Frost"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Founders Fund",
+          "Mark Chen",
+          "Saquon Barkley",
+          "Roman Khan"
+        ],
+        "website": "https://icon.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            0
+          ],
+          "investors": [
+            0
+          ]
+        },
+        "notes": "Database entry references a different ICON company (3D-printed homes). Source [0] and [1] describe Icon as a Human UGC advertising platform founded by Kennan Frost (who previously founded Skio with $8M raised and $105M cash exit). Sources do not provide founding year, location, funding amount, valuation, or current stage for this Icon company. Wikipedia [2] mentions 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is unrelated to Icon."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Jason Ballard, Evan Loomis, Alexander Le Roux",
+          "verified": "Kennan Frost",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://icon.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://icon.com/team"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ICON"
+        },
+        {
+          "idx": 3,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/gavin-baker-says-kimi-k3-is-bad-for-anthropic-and-openai-but-good-for-others.html"
+        }
+      ],
+      "notes": "Database entry references a different ICON company (3D-printed homes). Source [0] and [1] describe Icon as a Human UGC advertising platform founded by Kennan Frost (who previously founded Skio with $8M raised and $105M cash exit). Sources do not provide founding year, location, funding amount, valuation, or current stage for this Icon company. Wikipedia [2] mentions 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is unrelated to Icon."
+    },
     {
       "name": "Icarus",
       "current": {
@@ -48,18 +134,17 @@
       },
       "verified": {
         "name": "Icarus",
-        "description": "Designs and manufactures solar-powered, autonomous stratospheric aircraft operating above 60,000 feet for weeks-long missions. The flagship platform APOLLO is a fully solar-powered, autonomous aircraft that first flew in 2024.",
+        "description": "Designs and manufactures solar-powered, autonomous stratospheric aircraft operating above 60,000 feet capable of weeks-long flight. The flagship platform APOLLO is a fully solar-powered autonomous aircraft that flew in 2024.",
         "founders": [
           "Henry Kwan"
         ],
         "location": "Los Angeles, CA",
         "founded_year": 2023,
-        "current_stage": "Seed",
+        "current_stage": null,
         "total_raised": null,
         "valuation": null,
         "investors": [
-          "Y Combinator",
-          "Paul Graham"
+          "Y Combinator"
         ],
         "website": "https://www.icarus.one",
         "sources_per_field": {
@@ -91,7 +176,7 @@
             1
           ]
         },
-        "notes": "Source [2] is Wikipedia article about Greek mythology (not relevant). Sources [3] and [4] reference a different company 'Icarus Robotics' (space robots for ISS), not the stratospheric aircraft company. Only sources [0] and [1] are relevant to the aerospace company. Y Combinator confirmed as investor from company website; Paul Graham listed as backer on About page. Seed stage inferred from database entry but not explicitly stated in provided sources. Total raised and valuation not disclosed in sources."
+        "notes": "Source [2] is Wikipedia article on Greek mythology and is not relevant to the company. Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in Napa, CA developing space robots, not the Icarus stratospheric aircraft company. Only sources [0] (company website) and [1] (company about page) are relevant. Y Combinator is mentioned on the about page with Paul Graham shown, indicating YC backing. Database entry references 'Fall 2025' YC batch, 'Beth Turner,' and 'Cyrus Ventures' as investors, but these cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -130,7 +215,228 @@
           "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/"
         }
       ],
-      "notes": "Source [2] is Wikipedia article about Greek mythology (not relevant). Sources [3] and [4] reference a different company 'Icarus Robotics' (space robots for ISS), not the stratospheric aircraft company. Only sources [0] and [1] are relevant to the aerospace company. Y Combinator confirmed as investor from company website; Paul Graham listed as backer on About page. Seed stage inferred from database entry but not explicitly stated in provided sources. Total raised and valuation not disclosed in sources."
+      "notes": "Source [2] is Wikipedia article on Greek mythology and is not relevant to the company. Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in Napa, CA developing space robots, not the Icarus stratospheric aircraft company. Only sources [0] (company website) and [1] (company about page) are relevant. Y Combinator is mentioned on the about page with Paul Graham shown, indicating YC backing. Database entry references 'Fall 2025' YC batch, 'Beth Turner,' and 'Cyrus Ventures' as investors, but these cannot be verified from provided sources."
+    },
+    {
+      "name": "Rapidus",
+      "current": {
+        "name": "Rapidus",
+        "founder": "Atsuyoshi Koike, Tetsuro Higashi",
+        "location": "Tokyo, Japan",
+        "founded": 2022,
+        "fundingStage": "Late Stage",
+        "totalRaised": "$5B+",
+        "website": "https://www.rapidus.inc"
+      },
+      "verified": {
+        "name": "Rapidus",
+        "description": "Japanese semiconductor manufacturer established to develop and produce 2nm logic semiconductor chips using GAA (Gate-All-Around) process technology. The company operates a research and manufacturing facility (IIM) in Chitose, Hokkaido with pilot line operations beginning in 2025 and mass production planned for 2027.",
+        "founders": [
+          "Tetsuro Higashi",
+          "Atsuyoshi Koike"
+        ],
+        "location": "Chiyoda, Tokyo, Japan",
+        "founded_year": 2022,
+        "current_stage": "Late Stage",
+        "total_raised": "$5B+",
+        "valuation": null,
+        "investors": [
+          "Government of Japan",
+          "Toyota Motor Corporation",
+          "Sony Group Corporation",
+          "SoftBank Corporation",
+          "NTT Inc.",
+          "NEC Corporation",
+          "Kioxia Corporation",
+          "MUFG Bank",
+          "Denso Corporation",
+          "Development Bank of Japan"
+        ],
+        "website": "https://www.rapidus.inc",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            0,
+            1
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            1,
+            2
+          ]
+        },
+        "notes": "Company was established August 10, 2022 by eight Japanese companies with initial investment of 7.3 billion yen. Wikipedia lists 'Tetsuro Higashi' as Chairman (noted as formerly leading Tokyo Electron); company website lists 'Higashi Tetsuro' as \u53d6\u7de0\u5f79\u4f1a\u9577 (Chairman). Wikipedia identifies 'Atsuyoshi Koike' as President/CEO (formerly led Western Digital's Japanese subsidiary); company website shows '\u5c0f\u6c60\u6df3\u7fa9' as \u4ee3\u8868\u53d6\u7de0\u5f79\u793e\u9577\u517cCEO. The database entry lists both as founders, which aligns with Wikipedia's description of them leading the company at establishment. Pilot line operations began April 2025; mass production target is 2027."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Tokyo, Japan",
+          "verified": "Chiyoda, Tokyo, Japan",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.rapidus.inc"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.rapidus.inc/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rapidus"
+        },
+        {
+          "idx": 3,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/gavin-baker-says-kimi-k3-is-bad-for-anthropic-and-openai-but-good-for-others.html"
+        }
+      ],
+      "notes": "Company was established August 10, 2022 by eight Japanese companies with initial investment of 7.3 billion yen. Wikipedia lists 'Tetsuro Higashi' as Chairman (noted as formerly leading Tokyo Electron); company website lists 'Higashi Tetsuro' as \u53d6\u7de0\u5f79\u4f1a\u9577 (Chairman). Wikipedia identifies 'Atsuyoshi Koike' as President/CEO (formerly led Western Digital's Japanese subsidiary); company website shows '\u5c0f\u6c60\u6df3\u7fa9' as \u4ee3\u8868\u53d6\u7de0\u5f79\u793e\u9577\u517cCEO. The database entry lists both as founders, which aligns with Wikipedia's description of them leading the company at establishment. Pilot line operations began April 2025; mass production target is 2027."
+    },
+    {
+      "name": "Skyroot Aerospace",
+      "current": {
+        "name": "Skyroot Aerospace",
+        "founder": "Pawan Kumar Chandana, Naga Bharath Daka",
+        "location": "Hyderabad, India",
+        "founded": 2018,
+        "fundingStage": "Series C",
+        "totalRaised": "$95M+",
+        "website": "https://skyroot.in"
+      },
+      "verified": {
+        "name": "Skyroot Aerospace",
+        "description": "Indian private aerospace manufacturer and commercial launch service provider developing small-lift launch vehicles for the small satellite market. The company became the first Indian private company to reach outer space with its Vikram-S suborbital rocket in November 2022.",
+        "founders": [
+          "Pawan Kumar Chandana",
+          "Naga Bharath Daka"
+        ],
+        "location": "Hyderabad, Telangana, India",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": "$160M",
+        "valuation": "$1.1B",
+        "investors": [
+          "Temasek Holdings",
+          "GIC",
+          "Greenko Group",
+          "Solar Industries",
+          "Sherpalo Ventures",
+          "Wami Capital",
+          "Worldquant Ventures",
+          "Graph Ventures",
+          "Sutton Capital",
+          "Vedanshu Investments"
+        ],
+        "website": "https://skyroot.in",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            2,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "total_raised": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
+          "investors": [
+            1,
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded date: Wikipedia states 'Founded 12 June 2018' and source [1] states 'In 2018'. Total raised figure of $160M and valuation of $1.1B both from source [1]: 'Raised USD 160 million to date, at a valuation of USD 1.1 billion'. Source [2] (Wikipedia) references an earlier total of $95M from October 2023, but source [1] provides the most recent figure. Company successfully launched Vikram-1 to orbit on July 18, 2026 (per source [3])."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Hyderabad, India",
+          "verified": "Hyderabad, Telangana, India",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$95M+",
+          "verified": "$160M",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://skyroot.in"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://skyroot.in/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Skyroot_Aerospace"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch/"
+        }
+      ],
+      "notes": "Founded date: Wikipedia states 'Founded 12 June 2018' and source [1] states 'In 2018'. Total raised figure of $160M and valuation of $1.1B both from source [1]: 'Raised USD 160 million to date, at a valuation of USD 1.1 billion'. Source [2] (Wikipedia) references an earlier total of $95M from October 2023, but source [1] provides the most recent figure. Company successfully launched Vikram-1 to orbit on July 18, 2026 (per source [3])."
     },
     {
       "name": "SpaceX",
@@ -145,7 +451,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company that operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -187,7 +493,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, which raised $86 billion and was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% voting power via super-voting stock (Wikipedia states 82% in one place and 85% in another). SpaceX acquired xAI in 2026 per Wikipedia source."
+        "notes": "Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one place and 85% in another; using 85% from narrative text). Sources [1], [2], [3] discuss SpaceX AI operations and expansion plans but do not provide independently verifiable founding, valuation, or stage information beyond what Wikipedia provides."
       },
       "changes": [
         {
@@ -207,182 +513,21 @@
         },
         {
           "idx": 1,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacexs-only-problem-is-finding-more-space-to-work-with/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/spacexai-provides-near-immediate-gigawatt-scale-ai-data-center-capacity.html"
         },
         {
           "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/100-billion-in-realized-value-from-the-temporary-anthropic-ai-lead.html"
         },
         {
           "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-launches-21-satellites-for-military-data-network/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-louisiana-launch-facility.html"
         }
       ],
-      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, which raised $86 billion and was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% voting power via super-voting stock (Wikipedia states 82% in one place and 85% in another). SpaceX acquired xAI in 2026 per Wikipedia source."
-    },
-    {
-      "name": "Terran Robotics",
-      "current": {
-        "name": "Terran Robotics",
-        "founder": "Zach Dwiel, Danny Weddle",
-        "location": "Bloomington, IN",
-        "founded": 2018,
-        "fundingStage": "Seed",
-        "totalRaised": "$256K",
-        "website": "https://terranrobotics.ai"
-      },
-      "verified": {
-        "name": "Terran Robotics",
-        "description": "Company building terraforming robots that use AI and robotics to construct adobe homes from earth materials at reduced cost compared to traditional construction methods.",
-        "founders": [
-          "Zach Dwiel",
-          "Danny Weddle"
-        ],
-        "location": "Bloomington, Indiana",
-        "founded_year": 2018,
-        "current_stage": null,
-        "total_raised": "$256K",
-        "valuation": null,
-        "investors": null,
-        "website": "https://terranrobotics.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Founded in 2018 after receiving $256K NSF SBIR grant. Company operates lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company), not Terran Robotics, so excluded from verification."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Bloomington, IN",
-          "verified": "Bloomington, Indiana",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://terranrobotics.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://terranrobotics.ai/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
-        }
-      ],
-      "notes": "Founded in 2018 after receiving $256K NSF SBIR grant. Company operates lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company), not Terran Robotics, so excluded from verification."
-    },
-    {
-      "name": "Valar Atomics",
-      "current": {
-        "name": "Valar Atomics",
-        "founder": "Isaiah Taylor",
-        "location": "El Segundo, CA",
-        "founded": 2023,
-        "fundingStage": "Series A",
-        "totalRaised": "$149M",
-        "website": "https://valaratomics.com"
-      },
-      "verified": {
-        "name": "Valar Atomics",
-        "description": "Nuclear energy company building high-temperature gas reactors (HTGR) on gigasites to produce hydrogen, data center power, industrial power, and clean hydrocarbon fuels.",
-        "founders": [
-          "Isaiah P. Taylor"
-        ],
-        "location": null,
-        "founded_year": 2023,
-        "current_stage": "Series A",
-        "total_raised": null,
-        "valuation": "$6B",
-        "investors": null,
-        "website": "https://valaratomics.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            0
-          ],
-          "valuation": [
-            2
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry claimed $130M Series A and $149M total raised, but sources do not verify these figures. Source [2] indicates $6B valuation in funding talks as of July 2026. Location listed as 'El Segundo, CA' in database entry but not verified in sources; Ward-250 reactor is in Utah per source [0]. Database claim about 'first startup in history to split the atom' and 'zero-power criticality at Los Alamos' not found in sources."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Isaiah Taylor",
-          "verified": "Isaiah P. Taylor",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://valaratomics.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Valar_Atomics"
-        },
-        {
-          "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
-        }
-      ],
-      "notes": "Database entry claimed $130M Series A and $149M total raised, but sources do not verify these figures. Source [2] indicates $6B valuation in funding talks as of July 2026. Location listed as 'El Segundo, CA' in database entry but not verified in sources; Ward-250 reactor is in Utah per source [0]. Database claim about 'first startup in history to split the atom' and 'zero-power criticality at Los Alamos' not found in sources."
+      "notes": "Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one place and 85% in another; using 85% from narrative text). Sources [1], [2], [3] discuss SpaceX AI operations and expansion plans but do not provide independently verifiable founding, valuation, or stage information beyond what Wikipedia provides."
     }
   ],
   "unverifiable": []
