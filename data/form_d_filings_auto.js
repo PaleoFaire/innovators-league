@@ -1,9 +1,9 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-07-18 09:09:19 UTC
+// Last updated: 2026-07-19 09:24:43 UTC
 // Total: 22 filings across 17 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-07-18T09:09:19.602912+00:00",
+  "generated_at": "2026-07-19T09:24:43.568888+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
   "total_filings": 22,

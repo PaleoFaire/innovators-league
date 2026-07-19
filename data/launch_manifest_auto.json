@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-07-18",
-    "vehicle": "Vikram-I | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Satish Dhawan Space Centre First Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Skyroot Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/10fa7952-f00b-4292-80a2-4207e208844e/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-07-20",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-39",
     "payload": "Starlink Group 17-39",
@@ -54,7 +45,7 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-24",
+    "date": "2026-07-23",
     "vehicle": "Kinetica 1 | Unknown Payload",
     "payload": "Unknown Payload",
     "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
@@ -115,15 +106,6 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
-    "payload": "GISAT-1A (EOS-05)",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-07-31",
@@ -370,6 +352,15 @@
   },
   {
     "date": "2026-09-30",
+    "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
+    "payload": "GISAT-1A (EOS-05)",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
     "vehicle": "HANBIT-Nano | InnoSat-0",
     "payload": "InnoSat-0",
     "pad": "HANBIT Pad, Alc\u00e2ntara Space Center, Federative Republic of Brazil",
@@ -448,5 +439,14 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-11-30",
+    "vehicle": "Firefly Alpha Block 2 | ConnectedCosmos Launch 2",
+    "payload": "ConnectedCosmos Launch 2",
+    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
+    "provider": "Firefly Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d47cbca4-48c1-455a-b357-f156833b189e/?format=json",
+    "trackedCompany": "Firefly Aerospace"
   }
 ]

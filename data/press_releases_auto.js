@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-07-18 08:28:47 UTC
+// Last updated: 2026-07-19 08:59:56 UTC
 const PRESS_RELEASES = [
   { title: "Skyroot Aerospace reaches orbit on first Vikram-1 launch", date: "2026-07-18", companies: "Skyroot Aerospace, Figure AI, Hadrian", categories: "milestone, ipo", source: "spacenews" },
   { title: "SpaceX’s only problem is finding more space to work with", date: "2026-07-17", companies: "SpaceX, Figure AI, Array Labs", categories: "ipo", source: "spacenews" },
