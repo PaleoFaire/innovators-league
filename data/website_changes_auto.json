@@ -1,28 +1,9 @@
 {
-  "generated_at": "2026-07-12T11:00:34.858384+00:00",
+  "generated_at": "2026-07-19T10:53:06.367808+00:00",
   "probed_count": 200,
-  "change_count": 4,
+  "change_count": 3,
   "recent_window_days": 90,
   "changes": [
-    {
-      "company": "Resolute Grid",
-      "url": "https://www.resolutegrid.com",
-      "snapshots_seen": 2,
-      "change_in_window": true,
-      "latest_snapshot": "20260611175516",
-      "latest_digest": "ODJZ3FKWHHFH4SHQCIATBTHFTHLVO4XC",
-      "prior_digest": "7FXCDTYGVELCD4PBGZ5QKRPPGS4RJ4GO",
-      "snapshots": [
-        {
-          "timestamp": "20260611175516",
-          "digest": "ODJZ3FKWHHFH4SHQCIATBTHFTHLVO4XC"
-        },
-        {
-          "timestamp": "20250404034105",
-          "digest": "7FXCDTYGVELCD4PBGZ5QKRPPGS4RJ4GO"
-        }
-      ]
-    },
     {
       "company": "Standard Electron",
       "url": "https://www.standardelectron.com",
@@ -47,52 +28,64 @@
       ]
     },
     {
-      "company": "Beyond Reach Labs",
-      "url": "https://beyondreachlabs.io",
-      "snapshots_seen": 5,
+      "company": "Sphere Semi",
+      "url": "https://www.spheresemi.com",
+      "snapshots_seen": 10,
       "change_in_window": true,
-      "latest_snapshot": "20260629110550",
-      "latest_digest": "CFFNPLZACIBXDGLQ3NH3AQVIA2AOTYYU",
-      "prior_digest": "DJZAQYLXHJID6HYRZW5AKQUPQDYCPSDX",
+      "latest_snapshot": "20260512132341",
+      "latest_digest": "TJB2SKXYUTSLUDE5OSDSN26IBXBIGN6W",
+      "prior_digest": "SIILJ3SRFE7RE6BYEJ57RIYXPZPLRE3B",
       "snapshots": [
         {
-          "timestamp": "20260629110550",
-          "digest": "CFFNPLZACIBXDGLQ3NH3AQVIA2AOTYYU"
+          "timestamp": "20260512132341",
+          "digest": "TJB2SKXYUTSLUDE5OSDSN26IBXBIGN6W"
         },
         {
-          "timestamp": "20260412194938",
-          "digest": "DJZAQYLXHJID6HYRZW5AKQUPQDYCPSDX"
+          "timestamp": "20260512043521",
+          "digest": "SIILJ3SRFE7RE6BYEJ57RIYXPZPLRE3B"
         },
         {
-          "timestamp": "20260310002112",
-          "digest": "WTWHVNXRTAZGEVEMOFTXPC7YZ5VO4ZLV"
+          "timestamp": "20260419050539",
+          "digest": "7STPPAFINNO5UYP6FFZPNQI2FGD4HFRJ"
         },
         {
-          "timestamp": "20250408150939",
-          "digest": "5TB5XSGDNJAFELUM36OUN73ASNI6KSBR"
+          "timestamp": "20260222191232",
+          "digest": "AKUJTIIVEDAINEBMQ433U4Q35F6ZUZ7V"
         },
         {
-          "timestamp": "20240726203555",
-          "digest": "XWH5VPPBRBV72F3L26YEDPX656D3CEHP"
+          "timestamp": "20251018133257",
+          "digest": "7STPPAFINNO5UYP6FFZPNQI2FGD4HFRJ"
         }
       ]
     },
     {
-      "company": "Standard Subsea",
-      "url": "https://www.standardsubsea.com/",
-      "snapshots_seen": 2,
+      "company": "Hyperscale Power",
+      "url": "https://www.hyperscale-power.com",
+      "snapshots_seen": 9,
       "change_in_window": true,
-      "latest_snapshot": "20260519092059",
-      "latest_digest": "CZSXZIEO26FVCLN3UXSNEFZT2RP32NQR",
-      "prior_digest": "AC33V3SFXUSXZST5DV3VFQIY7AVTHY7S",
+      "latest_snapshot": "20260520031950",
+      "latest_digest": "GH6PRK5ORAHU7DUPXBFJPZPD5T2KL37L",
+      "prior_digest": "F6AEB7AQZ23UPHCESQHTVLGVGVY2SLJT",
       "snapshots": [
         {
-          "timestamp": "20260519092059",
-          "digest": "CZSXZIEO26FVCLN3UXSNEFZT2RP32NQR"
+          "timestamp": "20260520031950",
+          "digest": "GH6PRK5ORAHU7DUPXBFJPZPD5T2KL37L"
         },
         {
-          "timestamp": "20260415031547",
-          "digest": "AC33V3SFXUSXZST5DV3VFQIY7AVTHY7S"
+          "timestamp": "20260418155113",
+          "digest": "F6AEB7AQZ23UPHCESQHTVLGVGVY2SLJT"
+        },
+        {
+          "timestamp": "20260402080829",
+          "digest": "QYIXMUBU3TDTPT4W7P4S7AWCL35LG7Z4"
+        },
+        {
+          "timestamp": "20260313060509",
+          "digest": "KVHIWHHUOCZH2HTSA36GCNBRSN32WJ7B"
+        },
+        {
+          "timestamp": "20260310142423",
+          "digest": "PIJY64RXQAV5UYCF2LKQSHCOYUBK5OKP"
         }
       ]
     }
@@ -101,33 +94,11 @@
     {
       "company": "The Bot Company",
       "url": "https://bot.co",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20190619143331",
-      "latest_digest": "ULCSL7UQB2XWQCD2FVR44LKMCHBJB2IX",
-      "prior_digest": "CP6P5HSRU4AX2L5NOYZK5Z7WHMS3RWFD",
-      "snapshots": [
-        {
-          "timestamp": "20190619143331",
-          "digest": "ULCSL7UQB2XWQCD2FVR44LKMCHBJB2IX"
-        },
-        {
-          "timestamp": "20181226222915",
-          "digest": "CP6P5HSRU4AX2L5NOYZK5Z7WHMS3RWFD"
-        },
-        {
-          "timestamp": "20180809023312",
-          "digest": "IQ2RAFUCS4N3WJE3527CD6YSUBKTYFQN"
-        },
-        {
-          "timestamp": "20180307002006",
-          "digest": "6FLC4AIJSVISBYRVKBVNS5VGQNPGOG4N"
-        },
-        {
-          "timestamp": "20170911134120",
-          "digest": "66JO4AKXVSLOPDG3EBYUUED5N57SQZ2T"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Span",
@@ -141,64 +112,20 @@
     {
       "company": "Eridu",
       "url": "https://eridu.ai/",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20250304053200",
-      "latest_digest": "IMYEFZ2PDVM2TTVH5JDXC6TSXDF4TCSC",
-      "prior_digest": "62H6GTW7HMI3LKKHBCPHIE3JX7MT3JCQ",
-      "snapshots": [
-        {
-          "timestamp": "20250304053200",
-          "digest": "IMYEFZ2PDVM2TTVH5JDXC6TSXDF4TCSC"
-        },
-        {
-          "timestamp": "20250108121210",
-          "digest": "62H6GTW7HMI3LKKHBCPHIE3JX7MT3JCQ"
-        },
-        {
-          "timestamp": "20241115080358",
-          "digest": "2FUHB4SWENJFI5DYDNEQHKWBJRN66B2Z"
-        },
-        {
-          "timestamp": "20241114171215",
-          "digest": "67XCDUECI7CT4FV4JGI5CXMTG3DNKSOS"
-        },
-        {
-          "timestamp": "20241007212724",
-          "digest": "CAWFG7YAABYP44QXYYRFCLA5LFMN72Z7"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Alsym Energy",
       "url": "https://www.alsym.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20220620090050",
-      "latest_digest": "LTOOTZUM6XSWGNGCCNHUXQJ376RN4CJJ",
-      "prior_digest": "ZATAKPMB76BWCXJDNUDVUP4FS64JSBF5",
-      "snapshots": [
-        {
-          "timestamp": "20220620090050",
-          "digest": "LTOOTZUM6XSWGNGCCNHUXQJ376RN4CJJ"
-        },
-        {
-          "timestamp": "20220610160129",
-          "digest": "ZATAKPMB76BWCXJDNUDVUP4FS64JSBF5"
-        },
-        {
-          "timestamp": "20211125174618",
-          "digest": "Z6UQKUN2IHLC75IAKIGXSAM4JE3K77P3"
-        },
-        {
-          "timestamp": "20160313105009",
-          "digest": "GAZSAJT4SVBGRY5YQB6KJVLHPV2BRT5C"
-        },
-        {
-          "timestamp": "20160109135654",
-          "digest": "Q7RV26RR4DYOEVDBDFVTVO7E46TCNPDT"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Tandem PV",
@@ -212,33 +139,11 @@
     {
       "company": "Quantum Source",
       "url": "https://www.qs-labs.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20221130045446",
-      "latest_digest": "DCLE3BDK7VEB4DVWURP2GIR2E3XF2AGA",
-      "prior_digest": "6DBR6TRLPCRQ7F4A5JXYPUJSPH5BLUR3",
-      "snapshots": [
-        {
-          "timestamp": "20221130045446",
-          "digest": "DCLE3BDK7VEB4DVWURP2GIR2E3XF2AGA"
-        },
-        {
-          "timestamp": "20220922140838",
-          "digest": "6DBR6TRLPCRQ7F4A5JXYPUJSPH5BLUR3"
-        },
-        {
-          "timestamp": "20220901174025",
-          "digest": "TUP4J5IS73QKU6KO35CO4RNQRPIJHT2W"
-        },
-        {
-          "timestamp": "20220831144208",
-          "digest": "GFGJHTGL3EEDIQRJME3I53UMOEMSQRVZ"
-        },
-        {
-          "timestamp": "20220803083518",
-          "digest": "V64FJUOUMZZ32ZG5VRCKZDK3XBQUGLIB"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Ursa Space Systems",
@@ -274,38 +179,126 @@
     {
       "company": "AheadComputing",
       "url": "https://www.aheadcomputing.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20240913093502",
+      "latest_digest": "JJ2SP5M3N6J5JGQLZ2ON3KQ6AN6G2SLN",
+      "prior_digest": "URMJ4B4ZJXNQQ4Z52OHIEEE5YKX7VRAN",
+      "snapshots": [
+        {
+          "timestamp": "20240913093502",
+          "digest": "JJ2SP5M3N6J5JGQLZ2ON3KQ6AN6G2SLN"
+        },
+        {
+          "timestamp": "20240910065242",
+          "digest": "URMJ4B4ZJXNQQ4Z52OHIEEE5YKX7VRAN"
+        },
+        {
+          "timestamp": "20240908091554",
+          "digest": "VVVKYCQ2XOXQNNWVPF3MNKNTPI7IYFXK"
+        },
+        {
+          "timestamp": "20240902190844",
+          "digest": "IRMO5T6ZJHPYDLC5OTBMQJ3DNK7LTDJX"
+        },
+        {
+          "timestamp": "20240829153424",
+          "digest": "5QAUEGVP3YGHSQMA2Q22Y5WO52GCFXCU"
+        }
+      ]
     },
     {
       "company": "Seasats",
       "url": "https://www.seasats.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20211027072710",
+      "latest_digest": "6UIKJIAXS6E6CRAG2YDAMSCGGDMKJ4UW",
+      "prior_digest": "N4NOGSBBCZ7VMIICHLX32ZTOZLR77DRD",
+      "snapshots": [
+        {
+          "timestamp": "20211027072710",
+          "digest": "6UIKJIAXS6E6CRAG2YDAMSCGGDMKJ4UW"
+        },
+        {
+          "timestamp": "20210927195911",
+          "digest": "N4NOGSBBCZ7VMIICHLX32ZTOZLR77DRD"
+        },
+        {
+          "timestamp": "20210716191356",
+          "digest": "QWOP6Q6Z6647UBI3DAZB3TXRM4UCLRIW"
+        },
+        {
+          "timestamp": "20210613050507",
+          "digest": "WCVJQABVY356EYO6VQSCTLB64DX7U6CZ"
+        },
+        {
+          "timestamp": "20210518143044",
+          "digest": "6C2KHCOSMI4FWQQZ34YGX525YFRQOQJ3"
+        }
+      ]
     },
     {
       "company": "Kinetic Automation",
       "url": "https://www.kinetic.auto/",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20230227081537",
+      "latest_digest": "ERVQB65NDICDXORPPNGSJV5G4ECSQVV5",
+      "prior_digest": "DCGJOAZCGIKDCTMXMD3GUYWVYHYGCNJL",
+      "snapshots": [
+        {
+          "timestamp": "20230227081537",
+          "digest": "ERVQB65NDICDXORPPNGSJV5G4ECSQVV5"
+        },
+        {
+          "timestamp": "20230127043736",
+          "digest": "DCGJOAZCGIKDCTMXMD3GUYWVYHYGCNJL"
+        },
+        {
+          "timestamp": "20221203090733",
+          "digest": "DAVBZC3UT5RLXLZAZ3YZRURVCNYIEIF6"
+        },
+        {
+          "timestamp": "20221007023642",
+          "digest": "AUT45YEUWSFRGOCFTS3YOV7CONQ4THZ7"
+        },
+        {
+          "timestamp": "20220816040037",
+          "digest": "JNMRX5QD76JXZZZ5ROHYORT3YJAF6HRC"
+        }
+      ]
     },
     {
       "company": "CubeFabs",
       "url": "https://cubefabs.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20250428184928",
+      "latest_digest": "X6L2PT5ID2KIWET2IHMTNLMBS7WCM7AT",
+      "prior_digest": "XVOXJ2TJ26RD3U25D7XKZQBGRYU3KNAM",
+      "snapshots": [
+        {
+          "timestamp": "20250428184928",
+          "digest": "X6L2PT5ID2KIWET2IHMTNLMBS7WCM7AT"
+        },
+        {
+          "timestamp": "20250307220242",
+          "digest": "XVOXJ2TJ26RD3U25D7XKZQBGRYU3KNAM"
+        },
+        {
+          "timestamp": "20250126112324",
+          "digest": "2I24VNTJI3XGWHNLZLRAJP4XNFZJOX3E"
+        },
+        {
+          "timestamp": "20240908210131",
+          "digest": "U4NSCYSAAQ26IU4CDIKWGXCOHVNT3432"
+        },
+        {
+          "timestamp": "20240612222450",
+          "digest": "7POTROQT2ST2SNCT2UIKUIG2H27VVJMW"
+        }
+      ]
     },
     {
       "company": "Aurora Innovation",
@@ -372,38 +365,126 @@
     {
       "company": "SendCutSend",
       "url": "https://sendcutsend.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20191130080735",
+      "latest_digest": "HLM3URTZA4JH7V4U2RN6MNI3NSQ2JDE4",
+      "prior_digest": "V6C4D3IEKEB6I2BASSVM57WJW5ZKFCKD",
+      "snapshots": [
+        {
+          "timestamp": "20191130080735",
+          "digest": "HLM3URTZA4JH7V4U2RN6MNI3NSQ2JDE4"
+        },
+        {
+          "timestamp": "20191120182239",
+          "digest": "V6C4D3IEKEB6I2BASSVM57WJW5ZKFCKD"
+        },
+        {
+          "timestamp": "20191031081525",
+          "digest": "N55QRVUPHY73CWUJNOLDWL4SMIQRX5JI"
+        },
+        {
+          "timestamp": "20191020022228",
+          "digest": "KN6SUKGDSVVW7ANVFKMKZP2F7XX6IQB6"
+        },
+        {
+          "timestamp": "20190917131933",
+          "digest": "KWMPAYD4YKCSIQVT3S53VYWVECHVXRV7"
+        }
+      ]
     },
     {
       "company": "Cellino",
       "url": "https://www.cellinobio.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20200811155059",
+      "latest_digest": "7QWFL6W6VXACOCRDFEUV3OELMZB2TOOF",
+      "prior_digest": "WGDUEYEEFCQAVZ3OKS4T653JCRIBD5KB",
+      "snapshots": [
+        {
+          "timestamp": "20200811155059",
+          "digest": "7QWFL6W6VXACOCRDFEUV3OELMZB2TOOF"
+        },
+        {
+          "timestamp": "20191117111215",
+          "digest": "WGDUEYEEFCQAVZ3OKS4T653JCRIBD5KB"
+        },
+        {
+          "timestamp": "20190922085006",
+          "digest": "PTNXVQHIQ36Z2WCLBGILEQJ4PC7TRW52"
+        },
+        {
+          "timestamp": "20190722183612",
+          "digest": "6RUGO4K4U7QTT37M7LSMINY3GRCRIEIS"
+        },
+        {
+          "timestamp": "20190722023020",
+          "digest": "6PJ3H2PIJK3BXEGX5JYYL4Y7DZYDWOXF"
+        }
+      ]
     },
     {
       "company": "Plantd Materials",
       "url": "https://www.plantdmaterials.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20220323195004",
+      "latest_digest": "WGGNJ6O5JTTFD6YI4NEOX66KF7ISRWMV",
+      "prior_digest": "BZ2UTEHQD32RBTYA67VI65V3YTSXUY64",
+      "snapshots": [
+        {
+          "timestamp": "20220323195004",
+          "digest": "WGGNJ6O5JTTFD6YI4NEOX66KF7ISRWMV"
+        },
+        {
+          "timestamp": "20220313021701",
+          "digest": "BZ2UTEHQD32RBTYA67VI65V3YTSXUY64"
+        },
+        {
+          "timestamp": "20220308175141",
+          "digest": "Y6J4JCS7FMVM3HNX3CAKUSW3QB4Y43PB"
+        },
+        {
+          "timestamp": "20211218191501",
+          "digest": "3BTGR6I3LEUY7RIOTFWMIF5WU27724HJ"
+        },
+        {
+          "timestamp": "20211202021819",
+          "digest": "MA56T2CU3TC3O7JDBVVZQL7GU66YTD2G"
+        }
+      ]
     },
     {
       "company": "Critical Loop",
       "url": "https://www.criticalloop.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20240611202327",
+      "latest_digest": "SRCHFAQW722FAXZ5R3B2P6PNAXYAT3KM",
+      "prior_digest": "35IVWRMFJY5LQ2DRIEOO234G56NQQ4DO",
+      "snapshots": [
+        {
+          "timestamp": "20240611202327",
+          "digest": "SRCHFAQW722FAXZ5R3B2P6PNAXYAT3KM"
+        },
+        {
+          "timestamp": "20240531175306",
+          "digest": "35IVWRMFJY5LQ2DRIEOO234G56NQQ4DO"
+        },
+        {
+          "timestamp": "20240324230250",
+          "digest": "3RR2NYQRBDAKUBRI7N7J2AU47SSFWD6J"
+        },
+        {
+          "timestamp": "20230124042838",
+          "digest": "IUZRDKUM3VTX5H2TEJC2LYKCZN4KWUQI"
+        },
+        {
+          "timestamp": "20230120094202",
+          "digest": "53A2VEUJ636I2OIIK7QGQPSDSJSJ2WFJ"
+        }
+      ]
     },
     {
       "company": "Critical Energy",
@@ -503,21 +584,11 @@
     {
       "company": "Resolute Grid",
       "url": "https://www.resolutegrid.com",
-      "snapshots_seen": 2,
-      "change_in_window": true,
-      "latest_snapshot": "20260611175516",
-      "latest_digest": "ODJZ3FKWHHFH4SHQCIATBTHFTHLVO4XC",
-      "prior_digest": "7FXCDTYGVELCD4PBGZ5QKRPPGS4RJ4GO",
-      "snapshots": [
-        {
-          "timestamp": "20260611175516",
-          "digest": "ODJZ3FKWHHFH4SHQCIATBTHFTHLVO4XC"
-        },
-        {
-          "timestamp": "20250404034105",
-          "digest": "7FXCDTYGVELCD4PBGZ5QKRPPGS4RJ4GO"
-        }
-      ]
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Standard Electron",
@@ -545,47 +616,157 @@
     {
       "company": "Aventra",
       "url": "https://www.aventra.io",
-      "snapshots_seen": 0,
+      "snapshots_seen": 5,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20251203105916",
+      "latest_digest": "PQ7QIVIWBE36VND6JCMN6SKA4GJATFQV",
+      "prior_digest": "X5F5FM37QFXHABYW2JF33ZRO2Q2QP77L",
+      "snapshots": [
+        {
+          "timestamp": "20251203105916",
+          "digest": "PQ7QIVIWBE36VND6JCMN6SKA4GJATFQV"
+        },
+        {
+          "timestamp": "20251104010916",
+          "digest": "X5F5FM37QFXHABYW2JF33ZRO2Q2QP77L"
+        },
+        {
+          "timestamp": "20250311215141",
+          "digest": "MA7WN6U6X6YEHVIIVXFBODHP7NJDQ7CH"
+        },
+        {
+          "timestamp": "20250311215133",
+          "digest": "LG2CG3XIVM3S47NFZZJQBLR52KWPVUGB"
+        },
+        {
+          "timestamp": "20240610231750",
+          "digest": "QCJYBQXJILWNRUH2ELGNBI6R3J7THYOF"
+        }
+      ]
     },
     {
       "company": "Auriga Space",
       "url": "https://www.aurigaspace.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20240902090516",
+      "latest_digest": "3ANYDQVKSBOWXJ7LCKRYZ7TTRFZZV3CX",
+      "prior_digest": "GADFH5OFY57EG3KYQAMYOQDVRIBCN2ZR",
+      "snapshots": [
+        {
+          "timestamp": "20240902090516",
+          "digest": "3ANYDQVKSBOWXJ7LCKRYZ7TTRFZZV3CX"
+        },
+        {
+          "timestamp": "20240805155811",
+          "digest": "GADFH5OFY57EG3KYQAMYOQDVRIBCN2ZR"
+        },
+        {
+          "timestamp": "20240726032025",
+          "digest": "DWH2HG4K3KSN5R5THBJBPF4WJ6FE6OFV"
+        },
+        {
+          "timestamp": "20240715183419",
+          "digest": "NDKOK22OGE6YMS7U2ZQVBE5XI427ZBT3"
+        },
+        {
+          "timestamp": "20240526120751",
+          "digest": "OJ6BJZ2TWISKTILNYY263HKM2WV445TL"
+        }
+      ]
     },
     {
       "company": "Radical AI",
       "url": "https://www.radical-ai.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20210423132029",
+      "latest_digest": "WM54QHK5GMQI2XAV2BD3LLO2JPP5MLN5",
+      "prior_digest": "T5U5IIX4XZQ6WDKSE444D4JBVZLHNAE7",
+      "snapshots": [
+        {
+          "timestamp": "20210423132029",
+          "digest": "WM54QHK5GMQI2XAV2BD3LLO2JPP5MLN5"
+        },
+        {
+          "timestamp": "20210121085723",
+          "digest": "T5U5IIX4XZQ6WDKSE444D4JBVZLHNAE7"
+        },
+        {
+          "timestamp": "20210116201826",
+          "digest": "KBFZY2B2HJWK2QGUBICGHCFX4553CJ57"
+        },
+        {
+          "timestamp": "20201201200950",
+          "digest": "74VSLT2XI2IWWRM32XWXHZ6FWND6XWLP"
+        },
+        {
+          "timestamp": "20201027054730",
+          "digest": "PDSQ2OZB56J4NUIL47ZFBDI2PC5VXW7X"
+        }
+      ]
     },
     {
       "company": "Slate Auto",
       "url": "https://www.slate.auto",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20240418062134",
+      "latest_digest": "D2UD32BNAFS4H6XQ37DODICHK6LEVXA5",
+      "prior_digest": "GUERQHGQTZJ5D4JX3BYNU7XQVNZDLWMF",
+      "snapshots": [
+        {
+          "timestamp": "20240418062134",
+          "digest": "D2UD32BNAFS4H6XQ37DODICHK6LEVXA5"
+        },
+        {
+          "timestamp": "20240418055159",
+          "digest": "GUERQHGQTZJ5D4JX3BYNU7XQVNZDLWMF"
+        },
+        {
+          "timestamp": "20240418055139",
+          "digest": "IYNMKR2W3IY366WZHHX2NBSCHDVLPSRY"
+        },
+        {
+          "timestamp": "20240418051713",
+          "digest": "DCUZ2ADDUEFNWNQNYGUJ3Z5XRX4DD7V6"
+        },
+        {
+          "timestamp": "20240418051653",
+          "digest": "N7CR6AY25L5NEIIBYN3XZFENLRI62P6W"
+        }
+      ]
     },
     {
       "company": "Phaidra",
       "url": "https://www.phaidra.ai",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20210815012524",
+      "latest_digest": "22WJAP32ZULDGYECDMXGLOJFPFMN3OSM",
+      "prior_digest": "D2QGGH2EA6FY3JCVT7OKYHDGGWREKZI6",
+      "snapshots": [
+        {
+          "timestamp": "20210815012524",
+          "digest": "22WJAP32ZULDGYECDMXGLOJFPFMN3OSM"
+        },
+        {
+          "timestamp": "20210724173617",
+          "digest": "D2QGGH2EA6FY3JCVT7OKYHDGGWREKZI6"
+        },
+        {
+          "timestamp": "20210614083416",
+          "digest": "ZBSWQ35MQGECIHSBS2VQ5ROXQ66DECNA"
+        },
+        {
+          "timestamp": "20210524173743",
+          "digest": "GFUE2LBB2DBNEIKNEUVKXWACW66NHCWM"
+        },
+        {
+          "timestamp": "20210516061838",
+          "digest": "KH4T2EOMVYAAFRXCKQ5U7F44DF5WTTNK"
+        }
+      ]
     },
     {
       "company": "Chai Discovery",
@@ -621,20 +802,64 @@
     {
       "company": "Impossible Metals",
       "url": "https://impossiblemetals.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20220926152409",
+      "latest_digest": "BZELSIBOUB4H5SI3E5MVUJIM3VAOQPCE",
+      "prior_digest": "Z66IOO6QJ5IMILDNFBOSEKTI5BYLFS56",
+      "snapshots": [
+        {
+          "timestamp": "20220926152409",
+          "digest": "BZELSIBOUB4H5SI3E5MVUJIM3VAOQPCE"
+        },
+        {
+          "timestamp": "20220925232646",
+          "digest": "Z66IOO6QJ5IMILDNFBOSEKTI5BYLFS56"
+        },
+        {
+          "timestamp": "20220924223820",
+          "digest": "Y222GGTAZKSN5GVBNK3FXHUDUV4HHILF"
+        },
+        {
+          "timestamp": "20220924012534",
+          "digest": "BZELSIBOUB4H5SI3E5MVUJIM3VAOQPCE"
+        },
+        {
+          "timestamp": "20220923221440",
+          "digest": "P4EQLMBERD2DZ6F3D34FQMVL476GV63H"
+        }
+      ]
     },
     {
       "company": "Sphere Semi",
       "url": "https://www.spheresemi.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "snapshots_seen": 10,
+      "change_in_window": true,
+      "latest_snapshot": "20260512132341",
+      "latest_digest": "TJB2SKXYUTSLUDE5OSDSN26IBXBIGN6W",
+      "prior_digest": "SIILJ3SRFE7RE6BYEJ57RIYXPZPLRE3B",
+      "snapshots": [
+        {
+          "timestamp": "20260512132341",
+          "digest": "TJB2SKXYUTSLUDE5OSDSN26IBXBIGN6W"
+        },
+        {
+          "timestamp": "20260512043521",
+          "digest": "SIILJ3SRFE7RE6BYEJ57RIYXPZPLRE3B"
+        },
+        {
+          "timestamp": "20260419050539",
+          "digest": "7STPPAFINNO5UYP6FFZPNQI2FGD4HFRJ"
+        },
+        {
+          "timestamp": "20260222191232",
+          "digest": "AKUJTIIVEDAINEBMQ433U4Q35F6ZUZ7V"
+        },
+        {
+          "timestamp": "20251018133257",
+          "digest": "7STPPAFINNO5UYP6FFZPNQI2FGD4HFRJ"
+        }
+      ]
     },
     {
       "company": "Core Automation",
@@ -648,16 +873,12 @@
     {
       "company": "Beyond Reach Labs",
       "url": "https://beyondreachlabs.io",
-      "snapshots_seen": 5,
-      "change_in_window": true,
-      "latest_snapshot": "20260629110550",
-      "latest_digest": "CFFNPLZACIBXDGLQ3NH3AQVIA2AOTYYU",
-      "prior_digest": "DJZAQYLXHJID6HYRZW5AKQUPQDYCPSDX",
+      "snapshots_seen": 4,
+      "change_in_window": false,
+      "latest_snapshot": "20260412194938",
+      "latest_digest": "DJZAQYLXHJID6HYRZW5AKQUPQDYCPSDX",
+      "prior_digest": "WTWHVNXRTAZGEVEMOFTXPC7YZ5VO4ZLV",
       "snapshots": [
-        {
-          "timestamp": "20260629110550",
-          "digest": "CFFNPLZACIBXDGLQ3NH3AQVIA2AOTYYU"
-        },
         {
           "timestamp": "20260412194938",
           "digest": "DJZAQYLXHJID6HYRZW5AKQUPQDYCPSDX"
@@ -710,64 +931,20 @@
     {
       "company": "Lux Aeterna",
       "url": "https://www.luxaeterna.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20170914184527",
-      "latest_digest": "NAVDMQZOHGL5B7JZDELBNKBZO4W3JZ2V",
-      "prior_digest": "3TJY6YRLRI2ZVQ62ECTRZDLMZTEOUNQD",
-      "snapshots": [
-        {
-          "timestamp": "20170914184527",
-          "digest": "NAVDMQZOHGL5B7JZDELBNKBZO4W3JZ2V"
-        },
-        {
-          "timestamp": "20090327103631",
-          "digest": "3TJY6YRLRI2ZVQ62ECTRZDLMZTEOUNQD"
-        },
-        {
-          "timestamp": "20071120140043",
-          "digest": "OXDNHCRFTSIF3PGV5NHFMLJFADW7AHAS"
-        },
-        {
-          "timestamp": "20050131002703",
-          "digest": "UXY4NGIFG3QIMAZ3HIQBDHFEADXCBNWI"
-        },
-        {
-          "timestamp": "20040413152813",
-          "digest": "V3ANU7EWR6KO3LNRA5M7WZDYKGMKMRAF"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Reditus Space",
       "url": "https://www.reditus.space",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20250621115557",
-      "latest_digest": "ZOBC32X2XMK4EMZ6VQILUXYKI2CLFTLW",
-      "prior_digest": "TEU7NAN6Q6BQZLUK6RCLXOI6KUAIYLW4",
-      "snapshots": [
-        {
-          "timestamp": "20250621115557",
-          "digest": "ZOBC32X2XMK4EMZ6VQILUXYKI2CLFTLW"
-        },
-        {
-          "timestamp": "20250515103844",
-          "digest": "TEU7NAN6Q6BQZLUK6RCLXOI6KUAIYLW4"
-        },
-        {
-          "timestamp": "20250429220022",
-          "digest": "FYVEOVBJUMUIWQ4Z3FRZYTHNDYLCRB5Q"
-        },
-        {
-          "timestamp": "20250417062557",
-          "digest": "4BRURUQPAELIED3GR5NB5J2GV34CMA4A"
-        },
-        {
-          "timestamp": "20250311005740",
-          "digest": "MAMLDQTHLIWWFKTOGUENWGQWH7C6LD5B"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Monarch Quantum",
@@ -839,29 +1016,95 @@
     {
       "company": "Twenty",
       "url": "https://twenty.io",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20260211001434",
+      "latest_digest": "WFGX4TKCVA3UGET4KIP3AMR6BLLB5RJ2",
+      "prior_digest": "6VVPDFBJDK4U2YNQRWBEDSRT6463HTYQ",
+      "snapshots": [
+        {
+          "timestamp": "20260211001434",
+          "digest": "WFGX4TKCVA3UGET4KIP3AMR6BLLB5RJ2"
+        },
+        {
+          "timestamp": "20260119091938",
+          "digest": "6VVPDFBJDK4U2YNQRWBEDSRT6463HTYQ"
+        },
+        {
+          "timestamp": "20251209235646",
+          "digest": "FTUKTQXTZ5RYOIZC37V5VWRAG47DI6DM"
+        },
+        {
+          "timestamp": "20251118094723",
+          "digest": "RZXQQZKPUI23X6NYONEF224IKC7K3TBP"
+        },
+        {
+          "timestamp": "20251017174156",
+          "digest": "TSCNSEHETAHK743NDTA7DA7VKEXQEL3X"
+        }
+      ]
     },
     {
       "company": "EdgeRunner AI",
       "url": "https://www.edgerunnerai.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20240816031207",
+      "latest_digest": "5XYW2GRC2EFFWBVRRWOYNI35ZGAEAMBW",
+      "prior_digest": "EGAU67L2CBLP5PCXMD6PKQTAS3L3XBR6",
+      "snapshots": [
+        {
+          "timestamp": "20240816031207",
+          "digest": "5XYW2GRC2EFFWBVRRWOYNI35ZGAEAMBW"
+        },
+        {
+          "timestamp": "20240813222625",
+          "digest": "EGAU67L2CBLP5PCXMD6PKQTAS3L3XBR6"
+        },
+        {
+          "timestamp": "20240812075953",
+          "digest": "ERNIIG3Z527XGESR6XSH4ZC4XG7PE47O"
+        },
+        {
+          "timestamp": "20240725155859",
+          "digest": "3UGOVOJVJ42PTUIHREDDNZQYOYSN4FVW"
+        },
+        {
+          "timestamp": "20240723144732",
+          "digest": "G4TNRIFADK3KONG453ZGUGXSNXLO67OI"
+        }
+      ]
     },
     {
       "company": "Dominion Dynamics",
       "url": "https://dominion-dynamics.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20260312102304",
+      "latest_digest": "UWFTZ3ORDZJUQQITT4WVSLAC5JXHZLXT",
+      "prior_digest": "O7245AUTUNLAAD7UZDMJ2XIKTLM7F4VI",
+      "snapshots": [
+        {
+          "timestamp": "20260312102304",
+          "digest": "UWFTZ3ORDZJUQQITT4WVSLAC5JXHZLXT"
+        },
+        {
+          "timestamp": "20260302012848",
+          "digest": "O7245AUTUNLAAD7UZDMJ2XIKTLM7F4VI"
+        },
+        {
+          "timestamp": "20260208073944",
+          "digest": "UWFTZ3ORDZJUQQITT4WVSLAC5JXHZLXT"
+        },
+        {
+          "timestamp": "20260124232940",
+          "digest": "AQ2EIZNDMIVIN5QVMN7WTDIEVMWSCTFH"
+        },
+        {
+          "timestamp": "20260119173258",
+          "digest": "QHDHDVAGZ34Z66AKRY6REKCZZGO3UHVJ"
+        }
+      ]
     },
     {
       "company": "Peak Quantum",
@@ -875,38 +1118,126 @@
     {
       "company": "Diraq",
       "url": "https://diraq.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20110202215112",
+      "latest_digest": "GJXCR7IBVUHOVLUQFRENVOOSWMP2S2U2",
+      "prior_digest": "L3CWBBILLEUFDEZB3VYUUUAFRGTNK2ZL",
+      "snapshots": [
+        {
+          "timestamp": "20110202215112",
+          "digest": "GJXCR7IBVUHOVLUQFRENVOOSWMP2S2U2"
+        },
+        {
+          "timestamp": "20100529214923",
+          "digest": "L3CWBBILLEUFDEZB3VYUUUAFRGTNK2ZL"
+        },
+        {
+          "timestamp": "20081011123826",
+          "digest": "U6ZIH325EAZEICAH4VBTIMHKUC72WLE2"
+        },
+        {
+          "timestamp": "20080511191517",
+          "digest": "H3KMF6QYNN4DAGC7BOXLNAINXUKQGI7K"
+        },
+        {
+          "timestamp": "20070111085052",
+          "digest": "EUCXXJ67URFLIJ25BV33QYQIOSS5FQ5G"
+        }
+      ]
     },
     {
       "company": "PAVE Space",
       "url": "https://pave.space",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20260402155330",
+      "latest_digest": "ROVVN3VVOHSPTJWD7AYDAOXV2N5VLF7M",
+      "prior_digest": "N2L7MV4YE4JZZGBNCWYU47SUEPWK6AC3",
+      "snapshots": [
+        {
+          "timestamp": "20260402155330",
+          "digest": "ROVVN3VVOHSPTJWD7AYDAOXV2N5VLF7M"
+        },
+        {
+          "timestamp": "20260323145047",
+          "digest": "N2L7MV4YE4JZZGBNCWYU47SUEPWK6AC3"
+        },
+        {
+          "timestamp": "20250403110113",
+          "digest": "2YPUX56E2MAPWNWYEN3A2HNNNLCTCDAV"
+        },
+        {
+          "timestamp": "20250328095254",
+          "digest": "WZGHGJS7RFT7TXOMYBIBHGCW3LW4JKLU"
+        },
+        {
+          "timestamp": "20250222013527",
+          "digest": "OVHSUJJ363QEONQ6EQZS6XXHBDGNAWVZ"
+        }
+      ]
     },
     {
       "company": "Phoenix Tailings",
       "url": "https://phoenixtailings.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20220120015203",
+      "latest_digest": "XG4HRD2V73ZBNX2WMD476LOQX7EJ6VZR",
+      "prior_digest": "DOQYPRTBIPSAYG4NDIO6DFMIKEWIU3QL",
+      "snapshots": [
+        {
+          "timestamp": "20220120015203",
+          "digest": "XG4HRD2V73ZBNX2WMD476LOQX7EJ6VZR"
+        },
+        {
+          "timestamp": "20210204203956",
+          "digest": "DOQYPRTBIPSAYG4NDIO6DFMIKEWIU3QL"
+        },
+        {
+          "timestamp": "20210114131323",
+          "digest": "LO5OJB2DMKOBAF4NJ6YX476ZMX4FGRE4"
+        },
+        {
+          "timestamp": "20210105042753",
+          "digest": "25OHYT3RVOUONEMUXB4MTKWSQSF4BZAR"
+        },
+        {
+          "timestamp": "20201120070323",
+          "digest": "X4NMIGDKBS4LH55Y44GT5SYB4E6IAVZP"
+        }
+      ]
     },
     {
       "company": "Hyperscale Power",
       "url": "https://www.hyperscale-power.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "snapshots_seen": 9,
+      "change_in_window": true,
+      "latest_snapshot": "20260520031950",
+      "latest_digest": "GH6PRK5ORAHU7DUPXBFJPZPD5T2KL37L",
+      "prior_digest": "F6AEB7AQZ23UPHCESQHTVLGVGVY2SLJT",
+      "snapshots": [
+        {
+          "timestamp": "20260520031950",
+          "digest": "GH6PRK5ORAHU7DUPXBFJPZPD5T2KL37L"
+        },
+        {
+          "timestamp": "20260418155113",
+          "digest": "F6AEB7AQZ23UPHCESQHTVLGVGVY2SLJT"
+        },
+        {
+          "timestamp": "20260402080829",
+          "digest": "QYIXMUBU3TDTPT4W7P4S7AWCL35LG7Z4"
+        },
+        {
+          "timestamp": "20260313060509",
+          "digest": "KVHIWHHUOCZH2HTSA36GCNBRSN32WJ7B"
+        },
+        {
+          "timestamp": "20260310142423",
+          "digest": "PIJY64RXQAV5UYCF2LKQSHCOYUBK5OKP"
+        }
+      ]
     },
     {
       "company": "Atana Elements",
@@ -920,15 +1251,68 @@
     {
       "company": "Anduril Industries",
       "url": "https://anduril.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20031009190044",
+      "latest_digest": "VS7QNL4BVHZIRO5JPN54I6NW4YDOCNU3",
+      "prior_digest": "OSVDOETGGAFH2H6XNTXD4NCUVESW2TAL",
+      "snapshots": [
+        {
+          "timestamp": "20031009190044",
+          "digest": "VS7QNL4BVHZIRO5JPN54I6NW4YDOCNU3"
+        },
+        {
+          "timestamp": "20020220105009",
+          "digest": "OSVDOETGGAFH2H6XNTXD4NCUVESW2TAL"
+        },
+        {
+          "timestamp": "20001017170826",
+          "digest": "LIGUGV76UHXH2I7Z6ZLZRFAY5F2UWIXQ"
+        },
+        {
+          "timestamp": "20000411124659",
+          "digest": "AW3SEW2W7Q2TKN4ZZ62RR2WX56LD6YD4"
+        },
+        {
+          "timestamp": "20000408161658",
+          "digest": "LIGUGV76UHXH2I7Z6ZLZRFAY5F2UWIXQ"
+        }
+      ]
     },
     {
       "company": "Shield AI",
       "url": "https://shield.ai",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20171025045708",
+      "latest_digest": "LVEFBVSDPHTULHZE75WSBWKMGEIPH6IT",
+      "prior_digest": "HWXRU4BP5C4SFDMDM2B66T3JRAISZ4PO",
+      "snapshots": [
+        {
+          "timestamp": "20171025045708",
+          "digest": "LVEFBVSDPHTULHZE75WSBWKMGEIPH6IT"
+        },
+        {
+          "timestamp": "20170814204332",
+          "digest": "HWXRU4BP5C4SFDMDM2B66T3JRAISZ4PO"
+        },
+        {
+          "timestamp": "20170706204225",
+          "digest": "JE6WHPYGNOEKJ2ES3XL6T4PJHC62FJ5A"
+        },
+        {
+          "timestamp": "20170621221136",
+          "digest": "TRM2KIMBG4KH4VXQN7WZPEKW7UUUGBAN"
+        },
+        {
+          "timestamp": "20170404131544",
+          "digest": "5VSAAF62OWKHMQ27PLO7VUZWBY4E6KZL"
+        }
+      ]
+    },
+    {
+      "company": "Epirus",
+      "url": "https://www.epirusinc.com",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
@@ -947,33 +1331,20 @@
     {
       "company": "Neros",
       "url": "https://www.neros.tech",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20240909170937",
-      "latest_digest": "PW345B2J2SDPJ7XKX2TTY7TZ4O6UGI3W",
-      "prior_digest": "ZDUIT4YYPE6TIKF44AOSK4NK66F3SRCV",
-      "snapshots": [
-        {
-          "timestamp": "20240909170937",
-          "digest": "PW345B2J2SDPJ7XKX2TTY7TZ4O6UGI3W"
-        },
-        {
-          "timestamp": "20240830082247",
-          "digest": "ZDUIT4YYPE6TIKF44AOSK4NK66F3SRCV"
-        },
-        {
-          "timestamp": "20240809042109",
-          "digest": "OE2JC74NU3HLEILEA7O23BWGCFWCMJGX"
-        },
-        {
-          "timestamp": "20240720124649",
-          "digest": "ZDUIT4YYPE6TIKF44AOSK4NK66F3SRCV"
-        },
-        {
-          "timestamp": "20240622060621",
-          "digest": "MZV3Z5FAIRRPHLWQUCRBYCSQO2RIFWIO"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Chaos Industries",
+      "url": "https://www.chaosinc.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Castelion",
@@ -985,13 +1356,44 @@
       "prior_digest": null
     },
     {
-      "company": "Picogrid",
-      "url": "https://picogrid.com",
+      "company": "CX2 Industries",
+      "url": "https://www.cx2.com",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
       "latest_digest": null,
       "prior_digest": null
+    },
+    {
+      "company": "Picogrid",
+      "url": "https://picogrid.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20230926174445",
+      "latest_digest": "NXS25DFDI44XFNRPWW46CKM324C7NUIN",
+      "prior_digest": "3L6EDBABSPHAIEZUDOI6HL324WBQY6MZ",
+      "snapshots": [
+        {
+          "timestamp": "20230926174445",
+          "digest": "NXS25DFDI44XFNRPWW46CKM324C7NUIN"
+        },
+        {
+          "timestamp": "20230711130559",
+          "digest": "3L6EDBABSPHAIEZUDOI6HL324WBQY6MZ"
+        },
+        {
+          "timestamp": "20230510135327",
+          "digest": "B6TEHPBKIYXK6PEOQW6JKHHBVBCAANTT"
+        },
+        {
+          "timestamp": "20230208033521",
+          "digest": "6AZKJVOCX3UE4IDNFJD2W37U2XMD24TR"
+        },
+        {
+          "timestamp": "20230124205849",
+          "digest": "V4KM6L4FPIIQ4ZUMLHSC6SN2FDNWPF2X"
+        }
+      ]
     },
     {
       "company": "Skydio",
@@ -1014,11 +1416,33 @@
     {
       "company": "Mach Industries",
       "url": "https://machindustries.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20230721195624",
+      "latest_digest": "WADW674VEDBZOBQUHQU7JTA4GFHL2IXQ",
+      "prior_digest": "OPSZXXDDNWCE4YIOA3JZ3WZDYLFC2VUB",
+      "snapshots": [
+        {
+          "timestamp": "20230721195624",
+          "digest": "WADW674VEDBZOBQUHQU7JTA4GFHL2IXQ"
+        },
+        {
+          "timestamp": "20230714205229",
+          "digest": "OPSZXXDDNWCE4YIOA3JZ3WZDYLFC2VUB"
+        },
+        {
+          "timestamp": "20230713222747",
+          "digest": "DKCTEFXQAPXHJYXXSUPDJN2SDSFWERZE"
+        },
+        {
+          "timestamp": "20230617112645",
+          "digest": "RZXXJZJPXVSLAP2KIJ26QJR5GH7QFZYC"
+        },
+        {
+          "timestamp": "20230611000726",
+          "digest": "627GTXQGH5WRNJ62FAEWO2D74AMKK2NY"
+        }
+      ]
     },
     {
       "company": "Andrenam",
@@ -1032,33 +1456,11 @@
     {
       "company": "Vannevar Labs",
       "url": "https://vannevarlabs.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20210515005925",
-      "latest_digest": "ZFANVRFI7NXSX4R6OQVGT6HQEADPZ7ZP",
-      "prior_digest": "MNSZ3C4CJVGXCPUSUDOLMOSQRM7NFNXQ",
-      "snapshots": [
-        {
-          "timestamp": "20210515005925",
-          "digest": "ZFANVRFI7NXSX4R6OQVGT6HQEADPZ7ZP"
-        },
-        {
-          "timestamp": "20201124064743",
-          "digest": "MNSZ3C4CJVGXCPUSUDOLMOSQRM7NFNXQ"
-        },
-        {
-          "timestamp": "20200723074619",
-          "digest": "TGBUJEKZIWNXF7L6WCCHICFRSAIYDFJI"
-        },
-        {
-          "timestamp": "20200618190700",
-          "digest": "XXCL5MECLC64MIFQIMSLWEFYLU47LJRQ"
-        },
-        {
-          "timestamp": "20200531043530",
-          "digest": "HXSH4ZWPIFRVLNUG33BQ3DALTK6DMBHU"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Blue Water Autonomy",
@@ -1079,8 +1481,26 @@
       "prior_digest": null
     },
     {
+      "company": "Radiant",
+      "url": "https://www.radiantnuclear.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
       "company": "Aalo Atomics",
       "url": "https://aaloatomics.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Antares",
+      "url": "https://antaresindustries.com",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
@@ -1108,6 +1528,37 @@
     {
       "company": "X-Energy",
       "url": "https://x-energy.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20141017051413",
+      "latest_digest": "CPSTD4GGU4C74YASPZNAD4OVGZJVJGW5",
+      "prior_digest": "33DBLCQ4WRU6CUM63I6A2SIJPMH6TH4R",
+      "snapshots": [
+        {
+          "timestamp": "20141017051413",
+          "digest": "CPSTD4GGU4C74YASPZNAD4OVGZJVJGW5"
+        },
+        {
+          "timestamp": "20140529013238",
+          "digest": "33DBLCQ4WRU6CUM63I6A2SIJPMH6TH4R"
+        },
+        {
+          "timestamp": "20140104010212",
+          "digest": "ACO3KAANQO6KONV3NBY5JHLPLVETMLXG"
+        },
+        {
+          "timestamp": "20090403161500",
+          "digest": "LERS2XSNCQIELDZBUASYAUHVYU7HFYRO"
+        },
+        {
+          "timestamp": "20040608224050",
+          "digest": "LQXR7NQ4CZJ7PQLE3IKRNYUQWWJ4RCDU"
+        }
+      ]
+    },
+    {
+      "company": "Oklo",
+      "url": "https://oklo.com",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
@@ -1117,20 +1568,64 @@
     {
       "company": "Last Energy",
       "url": "https://www.lastenergy.com/",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20220402042132",
+      "latest_digest": "7Z4PJS6VKKLIF4MLKSQUPDKGNQ54OLBV",
+      "prior_digest": "3GYUSKZYKV7TG67WLVDULBI6Z7AVVYBM",
+      "snapshots": [
+        {
+          "timestamp": "20220402042132",
+          "digest": "7Z4PJS6VKKLIF4MLKSQUPDKGNQ54OLBV"
+        },
+        {
+          "timestamp": "20220312232119",
+          "digest": "3GYUSKZYKV7TG67WLVDULBI6Z7AVVYBM"
+        },
+        {
+          "timestamp": "20220218101614",
+          "digest": "MKT2UR3TKIIO6EPT35QRM5XRHO4X5BOB"
+        },
+        {
+          "timestamp": "20220118123940",
+          "digest": "YGKG53Z6RZES3IT44PLPS6UEODLV7PKK"
+        },
+        {
+          "timestamp": "20211128135448",
+          "digest": "CHDCEJ3AMHT3CTMBNBTO7EBUHAV5CCTM"
+        }
+      ]
     },
     {
       "company": "Deep Fission",
       "url": "https://deepfission.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20240827115645",
+      "latest_digest": "4NVCIDSBOFXPL4V7JK4PSRJPYTZ4T3K6",
+      "prior_digest": "M3K2FV3TXUDEFFF24IF6KDG646YCIJQW",
+      "snapshots": [
+        {
+          "timestamp": "20240827115645",
+          "digest": "4NVCIDSBOFXPL4V7JK4PSRJPYTZ4T3K6"
+        },
+        {
+          "timestamp": "20240823092313",
+          "digest": "M3K2FV3TXUDEFFF24IF6KDG646YCIJQW"
+        },
+        {
+          "timestamp": "20240813020439",
+          "digest": "S2SWFTNUXIFW5STYTF4YWYWVRCU33DEH"
+        },
+        {
+          "timestamp": "20240716130248",
+          "digest": "V75ZZ3W4GNGPBCG56ICNGMCFXNQNUF56"
+        },
+        {
+          "timestamp": "20240607015547",
+          "digest": "TRE67WXT5NOHSPIVVSJXJEHASZ644IHY"
+        }
+      ]
     },
     {
       "company": "TerraPower",
@@ -1184,95 +1679,29 @@
     {
       "company": "Exodys Energy",
       "url": "https://exodysenergy.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20231203100843",
-      "latest_digest": "PUEBJD5XCQ4P2MXYFU5H4JAQIHUZV53V",
-      "prior_digest": "Q4ZZXWJ5F5FUYGVQWVLCHM4X2ZEFJXCH",
-      "snapshots": [
-        {
-          "timestamp": "20231203100843",
-          "digest": "PUEBJD5XCQ4P2MXYFU5H4JAQIHUZV53V"
-        },
-        {
-          "timestamp": "20230428125826",
-          "digest": "Q4ZZXWJ5F5FUYGVQWVLCHM4X2ZEFJXCH"
-        },
-        {
-          "timestamp": "20230424042056",
-          "digest": "2PJY7XL45OE2QKAHWXMKH7KTD7ILEJQY"
-        },
-        {
-          "timestamp": "20230410195450",
-          "digest": "FB2FYDN7QPU3PSMIZSHONLPYE2LMZYRD"
-        },
-        {
-          "timestamp": "20230313234248",
-          "digest": "EBZTKYUOLPXS2RTDF34ZFXOFQQ72MXAW"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "SpaceX",
       "url": "https://spacex.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20021120160302",
-      "latest_digest": "ZJZHXJ7PI2NBJBU5KXPFXJXUVS6NNTSO",
-      "prior_digest": "SXTL4MJPRV3Y44HOUZ2QVBMKEEC2GDPI",
-      "snapshots": [
-        {
-          "timestamp": "20021120160302",
-          "digest": "ZJZHXJ7PI2NBJBU5KXPFXJXUVS6NNTSO"
-        },
-        {
-          "timestamp": "20020928115507",
-          "digest": "SXTL4MJPRV3Y44HOUZ2QVBMKEEC2GDPI"
-        },
-        {
-          "timestamp": "20020923135422",
-          "digest": "3UGQEGQM7Y4C5AOHTJLGYTY5LNSVDNW2"
-        },
-        {
-          "timestamp": "20020806152323",
-          "digest": "5UUF5SAFV3ONHH5PF4SWWMVYZZYJGXGO"
-        },
-        {
-          "timestamp": "20010414030708",
-          "digest": "UGTOFL5ZN2WXQYMBQCTN24FXKB245HC6"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Rocket Lab",
       "url": "https://www.rocketlabcorp.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20250531002450",
-      "latest_digest": "DQ2K5HHGHSPT2ZHPRRQY5PGAKSEDGDFQ",
-      "prior_digest": "JHKWR3XAKOB2P4KUF4COBKS3FFTV6XKV",
-      "snapshots": [
-        {
-          "timestamp": "20250531002450",
-          "digest": "DQ2K5HHGHSPT2ZHPRRQY5PGAKSEDGDFQ"
-        },
-        {
-          "timestamp": "20250530233142",
-          "digest": "JHKWR3XAKOB2P4KUF4COBKS3FFTV6XKV"
-        },
-        {
-          "timestamp": "20250530022706",
-          "digest": "7FBDRDAVASYC2ULV3YUZCBLJD5MVMKMQ"
-        },
-        {
-          "timestamp": "20250530011326",
-          "digest": "DIKQ7CEUQ7FRC7XNP7BNGH3UZ5JFWTV3"
-        },
-        {
-          "timestamp": "20250529174215",
-          "digest": "7FK2ZSOSIG6QOBEF4SWJ3GEU2IFQ5QZS"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Apex Space",
@@ -1286,95 +1715,29 @@
     {
       "company": "Varda Space Industries",
       "url": "https://varda.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20201216225424",
-      "latest_digest": "EMOHXGRCNP4KN6UPY3QJMZ24ZL5GPQR6",
-      "prior_digest": "Z7PEH43CKKVENI4FYKNSO37BOB4QXZWA",
-      "snapshots": [
-        {
-          "timestamp": "20201216225424",
-          "digest": "EMOHXGRCNP4KN6UPY3QJMZ24ZL5GPQR6"
-        },
-        {
-          "timestamp": "20201215014153",
-          "digest": "Z7PEH43CKKVENI4FYKNSO37BOB4QXZWA"
-        },
-        {
-          "timestamp": "20161028161131",
-          "digest": "SAHRYJYRE2PFSYY4VSLAZ43BS7RLYSLR"
-        },
-        {
-          "timestamp": "20161021205951",
-          "digest": "W5RUB73JYRAWMXNO62EHJZRVFGKBS3VK"
-        },
-        {
-          "timestamp": "20160112114103",
-          "digest": "IQINX6KOHP2Y4OP4IISJGAALRJP6IGTR"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "AstroForge",
       "url": "https://www.astroforge.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20191116213116",
-      "latest_digest": "IURRYN7ODS2V52LRQ2VTTMYJB5IJOBMO",
-      "prior_digest": "FG4SNLAN44W54Z4ISKCYU7LLGAIQCPIO",
-      "snapshots": [
-        {
-          "timestamp": "20191116213116",
-          "digest": "IURRYN7ODS2V52LRQ2VTTMYJB5IJOBMO"
-        },
-        {
-          "timestamp": "20191018183843",
-          "digest": "FG4SNLAN44W54Z4ISKCYU7LLGAIQCPIO"
-        },
-        {
-          "timestamp": "20180419151625",
-          "digest": "SSB5WXVRAR4CIXDXXJMBAGAJCCSNDOUW"
-        },
-        {
-          "timestamp": "20180401001543",
-          "digest": "XCQFHEBGBPQBWNZOZFIQS4KERDM5AXPX"
-        },
-        {
-          "timestamp": "20170912163939",
-          "digest": "CKZHZ5LGMVDL7Y7UAGXEVWL5KQJ4R2MD"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Reflect Orbital",
       "url": "https://reflectorbital.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20240815030741",
-      "latest_digest": "TMCLWVFK4GKB2LCS2TY4IJ3ZGQD65MY4",
-      "prior_digest": "BXDYINM7H2T5QOZHBK4SICACNT234Z4D",
-      "snapshots": [
-        {
-          "timestamp": "20240815030741",
-          "digest": "TMCLWVFK4GKB2LCS2TY4IJ3ZGQD65MY4"
-        },
-        {
-          "timestamp": "20240612190924",
-          "digest": "BXDYINM7H2T5QOZHBK4SICACNT234Z4D"
-        },
-        {
-          "timestamp": "20240523205648",
-          "digest": "YNXVUWOPWNS5RCHRMIQG4P56L3V26CLG"
-        },
-        {
-          "timestamp": "20240515130653",
-          "digest": "U2EUCI2RETXO2ORYBG47H3GU7C3CIRH3"
-        },
-        {
-          "timestamp": "20240426042620",
-          "digest": "X5APNI73EKD452Y2ZP7ZRIBFOEZFODA7"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Relativity Space",
@@ -1441,11 +1804,33 @@
     {
       "company": "K2 Space",
       "url": "https://k2space.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20221206064302",
+      "latest_digest": "75VWDUUGCPXUS2VDU53M2Q2EBYHRSN56",
+      "prior_digest": "7EMYDWEIESMWHS2TBM5C2XDXHLPOIORB",
+      "snapshots": [
+        {
+          "timestamp": "20221206064302",
+          "digest": "75VWDUUGCPXUS2VDU53M2Q2EBYHRSN56"
+        },
+        {
+          "timestamp": "20220924220704",
+          "digest": "7EMYDWEIESMWHS2TBM5C2XDXHLPOIORB"
+        },
+        {
+          "timestamp": "20180806002922",
+          "digest": "RTK5RKR7HDPBEVLACILK5JX52JCK7HPO"
+        },
+        {
+          "timestamp": "20180116005001",
+          "digest": "GKVAESPN5VHCJPQYEF4G5Y3LAXBA5XPE"
+        },
+        {
+          "timestamp": "20161007051536",
+          "digest": "25YTEE7A3GRALYK4R4KP7K7GXPDVPMAV"
+        }
+      ]
     },
     {
       "company": "Vast",
@@ -1481,20 +1866,64 @@
     {
       "company": "Northwood Space",
       "url": "https://northwoodspace.io",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20240619193542",
+      "latest_digest": "NE77AC6BCFGPKMHXZIIITRZIRI6ZNM5N",
+      "prior_digest": "NT2CPDG2QCLP3WZJ565DRGQTPUARTVMF",
+      "snapshots": [
+        {
+          "timestamp": "20240619193542",
+          "digest": "NE77AC6BCFGPKMHXZIIITRZIRI6ZNM5N"
+        },
+        {
+          "timestamp": "20240522092451",
+          "digest": "NT2CPDG2QCLP3WZJ565DRGQTPUARTVMF"
+        },
+        {
+          "timestamp": "20240419173128",
+          "digest": "NE77AC6BCFGPKMHXZIIITRZIRI6ZNM5N"
+        },
+        {
+          "timestamp": "20240316052635",
+          "digest": "SLDG6H4NGZM5XOAJG2XINMOYHQ23B6IA"
+        },
+        {
+          "timestamp": "20240229113606",
+          "digest": "CLPG4K7BWQO4KC3EPQGVZAXX62GGPZVS"
+        }
+      ]
     },
     {
       "company": "Astranis",
       "url": "https://astranis.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20170618223100",
+      "latest_digest": "TO3SEJSL32QNHTIBDO2JPFFNDJI5C7DX",
+      "prior_digest": "DYDG2KCOLGZFVUEF45MV4C2XWW4NSVE3",
+      "snapshots": [
+        {
+          "timestamp": "20170618223100",
+          "digest": "TO3SEJSL32QNHTIBDO2JPFFNDJI5C7DX"
+        },
+        {
+          "timestamp": "20170617175324",
+          "digest": "DYDG2KCOLGZFVUEF45MV4C2XWW4NSVE3"
+        },
+        {
+          "timestamp": "20170207042425",
+          "digest": "WH27YZTXGIHDQHO2I4N4U4VJ44FQ3GLE"
+        },
+        {
+          "timestamp": "20161116160711",
+          "digest": "BDBRCMWFIOYWW5WIKFIG22RXPTK5SNF2"
+        },
+        {
+          "timestamp": "20161016083047",
+          "digest": "HDWLUX3SQTBFULHF7A6ZOWIJP3VEAWII"
+        }
+      ]
     },
     {
       "company": "Viridian Space",
@@ -1528,58 +1957,261 @@
       ]
     },
     {
+      "company": "Observable Space",
+      "url": "https://observable.space",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20250427034315",
+      "latest_digest": "CPMH5IUWXU3CLFUPF3442PJF3R2YTTLS",
+      "prior_digest": "NL6CMOSAR32CUHIDEWJWC4S6MKNXYU4E",
+      "snapshots": [
+        {
+          "timestamp": "20250427034315",
+          "digest": "CPMH5IUWXU3CLFUPF3442PJF3R2YTTLS"
+        },
+        {
+          "timestamp": "20250405095453",
+          "digest": "NL6CMOSAR32CUHIDEWJWC4S6MKNXYU4E"
+        },
+        {
+          "timestamp": "20250401115741",
+          "digest": "C4MHXOKV3ZJGQHRZZNVOWIHH2C7FFY4E"
+        },
+        {
+          "timestamp": "20250401104752",
+          "digest": "L5VIUXJOA36DWRRDEJGDZQZJJIBOMCAG"
+        },
+        {
+          "timestamp": "20250318172525",
+          "digest": "TF6T3RTFCUAEOXAGZGTPC7626XI5SGMN"
+        }
+      ]
+    },
+    {
       "company": "Firefly Aerospace",
       "url": "https://fireflyspace.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20150205230228",
+      "latest_digest": "KRXOV6Q7VEWYURHM3HIKVMVONITIOMYV",
+      "prior_digest": "N2JJM4LE6RGKZIPAPVWJBMOEWX4M2GUZ",
+      "snapshots": [
+        {
+          "timestamp": "20150205230228",
+          "digest": "KRXOV6Q7VEWYURHM3HIKVMVONITIOMYV"
+        },
+        {
+          "timestamp": "20150116052523",
+          "digest": "N2JJM4LE6RGKZIPAPVWJBMOEWX4M2GUZ"
+        },
+        {
+          "timestamp": "20141216140309",
+          "digest": "5VA67M2NRDUHAREHX2CIRU5CO7O3CQHM"
+        },
+        {
+          "timestamp": "20140822145508",
+          "digest": "3TUCYLREN73ZK3L5EGYPSXXRXRH5NMIX"
+        },
+        {
+          "timestamp": "20140609040059",
+          "digest": "ABVYAWHFRPCWR6BSBYOMNASYUKN6BHQA"
+        }
+      ]
     },
     {
       "company": "Intuitive Machines",
       "url": "https://intuitivemachines.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20171021031835",
+      "latest_digest": "OP4JK5AANXQP5IJND3KVLHKOXPQLZIO6",
+      "prior_digest": "XRFDPPTXVFEFXNUFRWN44VYGXCJIW43H",
+      "snapshots": [
+        {
+          "timestamp": "20171021031835",
+          "digest": "OP4JK5AANXQP5IJND3KVLHKOXPQLZIO6"
+        },
+        {
+          "timestamp": "20161107023756",
+          "digest": "XRFDPPTXVFEFXNUFRWN44VYGXCJIW43H"
+        },
+        {
+          "timestamp": "20160403035332",
+          "digest": "ZHFYKA2MMX2FKO274K37VAR3GFGCHVKA"
+        },
+        {
+          "timestamp": "20160215184652",
+          "digest": "MSM3IEHVKRVECNNWL2GRBURH6EW2FAGD"
+        },
+        {
+          "timestamp": "20160117135106",
+          "digest": "UBDO5K3XFNUHFRC5NOAF43RFU3NSEHID"
+        }
+      ]
     },
     {
       "company": "Boom Supersonic",
       "url": "https://boomsupersonic.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20170605135007",
+      "latest_digest": "PTLDLYHTDAMCNKYN6BH5QMKXAMI4WZ6W",
+      "prior_digest": "DYYLU736ZFL36RD6BBTY5HARU4REGZXQ",
+      "snapshots": [
+        {
+          "timestamp": "20170605135007",
+          "digest": "PTLDLYHTDAMCNKYN6BH5QMKXAMI4WZ6W"
+        },
+        {
+          "timestamp": "20170603212611",
+          "digest": "DYYLU736ZFL36RD6BBTY5HARU4REGZXQ"
+        },
+        {
+          "timestamp": "20170516054359",
+          "digest": "T3WRBEALOKNP4XSBKKFUL6GW3IYKO6OU"
+        },
+        {
+          "timestamp": "20170513072915",
+          "digest": "J4GDY656OTTVKCUGVYIKI52AF6ZGLAQD"
+        },
+        {
+          "timestamp": "20170429013526",
+          "digest": "T3WRBEALOKNP4XSBKKFUL6GW3IYKO6OU"
+        }
+      ]
     },
     {
       "company": "Hermeus",
       "url": "https://hermeus.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20190607083450",
+      "latest_digest": "LHL7E2JAVFU67GHNX7AEGGCQH5SJMW3D",
+      "prior_digest": "RXYXLOW625VJUFL4XGD54GH7NH7533P3",
+      "snapshots": [
+        {
+          "timestamp": "20190607083450",
+          "digest": "LHL7E2JAVFU67GHNX7AEGGCQH5SJMW3D"
+        },
+        {
+          "timestamp": "20190606090800",
+          "digest": "RXYXLOW625VJUFL4XGD54GH7NH7533P3"
+        },
+        {
+          "timestamp": "20190602034027",
+          "digest": "3IBWH2L2DWDWNOW4KLMNFITV6RCC6MFQ"
+        },
+        {
+          "timestamp": "20190601003047",
+          "digest": "OVDP5D6KTEJYSIVDA642OMC544YCYHSC"
+        },
+        {
+          "timestamp": "20190530215449",
+          "digest": "QLXEKM2OGFK3XZVFP6LHTBDNHTMXANZ4"
+        }
+      ]
     },
     {
       "company": "Astro Mechanica",
       "url": "https://astromechanica.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 1,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
+      "latest_snapshot": "20180827175031",
+      "latest_digest": "U2TCPW3AG4GCY2HHF445TZ2GEWXESMVN",
       "prior_digest": null
+    },
+    {
+      "company": "Venus Aerospace",
+      "url": "https://www.venusaero.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20210530035039",
+      "latest_digest": "743NHUFRC6FKSSN5ZZP2M4HNWMPIJUJU",
+      "prior_digest": "EVM2KCNHZY7L6RW7F24SLM6JDUOGIJ7F",
+      "snapshots": [
+        {
+          "timestamp": "20210530035039",
+          "digest": "743NHUFRC6FKSSN5ZZP2M4HNWMPIJUJU"
+        },
+        {
+          "timestamp": "20210529130826",
+          "digest": "EVM2KCNHZY7L6RW7F24SLM6JDUOGIJ7F"
+        },
+        {
+          "timestamp": "20210514173447",
+          "digest": "LKOMAX5PEMJVO5YJII7Z22O7HF5NPRUJ"
+        },
+        {
+          "timestamp": "20210417151724",
+          "digest": "VJJZX7LYISLQK3RFGVZGCVTLDKLE427O"
+        },
+        {
+          "timestamp": "20210306024422",
+          "digest": "JTAUDG5X7G4XUEYSOO37XMBWJRE247UG"
+        }
+      ]
+    },
+    {
+      "company": "Physical Intelligence",
+      "url": "https://www.pi.website",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20250612155425",
+      "latest_digest": "PXNNIFTWVJ2THW65MDPMOQ4FJOIFICTL",
+      "prior_digest": "Q3C3DJYUF3KMTIFJMRJRY2GD6BR2JSTY",
+      "snapshots": [
+        {
+          "timestamp": "20250612155425",
+          "digest": "PXNNIFTWVJ2THW65MDPMOQ4FJOIFICTL"
+        },
+        {
+          "timestamp": "20250609171054",
+          "digest": "Q3C3DJYUF3KMTIFJMRJRY2GD6BR2JSTY"
+        },
+        {
+          "timestamp": "20250517160150",
+          "digest": "EECOIZRIGSD5AICGQQRL6MWGZHSAQGPP"
+        },
+        {
+          "timestamp": "20250504094719",
+          "digest": "4BYXKOLXKWL6OOK3EKLZ52Q62PWTY2P5"
+        },
+        {
+          "timestamp": "20250428233523",
+          "digest": "NDQWKXE2XLM2RTBDLGGCKQ4RX2JBDRZB"
+        }
+      ]
     },
     {
       "company": "Waymo",
       "url": "https://waymo.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20120207075618",
+      "latest_digest": "R4ULCHRM7YPYFZWJ43H4P54I4DAHQUX2",
+      "prior_digest": "ISKJN7L6EDQOR3ZQLJKU5UA2WLX5FNUN",
+      "snapshots": [
+        {
+          "timestamp": "20120207075618",
+          "digest": "R4ULCHRM7YPYFZWJ43H4P54I4DAHQUX2"
+        },
+        {
+          "timestamp": "20100503025146",
+          "digest": "ISKJN7L6EDQOR3ZQLJKU5UA2WLX5FNUN"
+        },
+        {
+          "timestamp": "20091206180501",
+          "digest": "7YAORLTRPYFXESUQAOAOMQ4NNUZZRPBI"
+        },
+        {
+          "timestamp": "20090707003923",
+          "digest": "22C5XE4LHNGG6AHORAMBQM4QJ5VPXNDP"
+        },
+        {
+          "timestamp": "20080704174356",
+          "digest": "AZT45MRHOFZO2DPLKGPLOOYJ6JPL2X3P"
+        }
+      ]
     },
     {
       "company": "Figure AI",
@@ -1615,11 +2247,33 @@
     {
       "company": "Neuralink",
       "url": "https://neuralink.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20020523074810",
+      "latest_digest": "Z7BRCDW5CM6775M6GJV3JBAMHUTY2H3T",
+      "prior_digest": "NQCQEXBYLIBVWCADIC2CNHR5ZJZEWNET",
+      "snapshots": [
+        {
+          "timestamp": "20020523074810",
+          "digest": "Z7BRCDW5CM6775M6GJV3JBAMHUTY2H3T"
+        },
+        {
+          "timestamp": "20011129222154",
+          "digest": "NQCQEXBYLIBVWCADIC2CNHR5ZJZEWNET"
+        },
+        {
+          "timestamp": "20010202061800",
+          "digest": "SORDUTUN3T6M5WVBNNPSHQIXMQO73EG5"
+        },
+        {
+          "timestamp": "20001016213703",
+          "digest": "OHTUGCW7W4SMQUH64ONBW6H7HW43JAAD"
+        },
+        {
+          "timestamp": "20000609232946",
+          "digest": "4GJL67Q6XV47MVCJZBLLXTDUXY4ELLUS"
+        }
+      ]
     },
     {
       "company": "Field AI",
@@ -1633,33 +2287,11 @@
     {
       "company": "Nominal",
       "url": "https://nominal.io",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20240118061126",
-      "latest_digest": "BYK2RA5LWCS4IDRI2UU2ZZOUTFQA2JTR",
-      "prior_digest": "6L6WYFAVPE7LC2MZUFYWMPAE3ROFYPBW",
-      "snapshots": [
-        {
-          "timestamp": "20240118061126",
-          "digest": "BYK2RA5LWCS4IDRI2UU2ZZOUTFQA2JTR"
-        },
-        {
-          "timestamp": "20240117014319",
-          "digest": "6L6WYFAVPE7LC2MZUFYWMPAE3ROFYPBW"
-        },
-        {
-          "timestamp": "20240111190110",
-          "digest": "BYK2RA5LWCS4IDRI2UU2ZZOUTFQA2JTR"
-        },
-        {
-          "timestamp": "20230923235347",
-          "digest": "CKCJ4OIOYV3MZUTXHZVME3LDQ3DZ3FD4"
-        },
-        {
-          "timestamp": "20230603005046",
-          "digest": "SM5AFCZMX62YFYZSRCKYW57P2OMSXC4V"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Palantir",
@@ -1671,8 +2303,35 @@
       "prior_digest": null
     },
     {
+      "company": "Cognition",
+      "url": "https://cognition.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Hadrian",
+      "url": "https://www.hadrian.co",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
       "company": "Machina Labs",
       "url": "https://machinalabs.ai",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "DIRAC",
+      "url": "https://www.diracinc.com",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
@@ -1691,11 +2350,33 @@
     {
       "company": "Rangeview",
       "url": "https://rangeview.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20030218031036",
+      "latest_digest": "CXNZTI5BYWXHAVWEEDJYEDDM7W6EWWZ6",
+      "prior_digest": "LE5I5NQSCHNHUSPY7YCZOMTGJERQXG5V",
+      "snapshots": [
+        {
+          "timestamp": "20030218031036",
+          "digest": "CXNZTI5BYWXHAVWEEDJYEDDM7W6EWWZ6"
+        },
+        {
+          "timestamp": "20030214145059",
+          "digest": "LE5I5NQSCHNHUSPY7YCZOMTGJERQXG5V"
+        },
+        {
+          "timestamp": "20021126172119",
+          "digest": "RGF7XT3WOFHIHCDUHBCBMPNNWB4EO4VT"
+        },
+        {
+          "timestamp": "20020923095847",
+          "digest": "T4BB4QSXB26RBRAR645FBVJJTWEK3SDA"
+        },
+        {
+          "timestamp": "20020726065354",
+          "digest": "UNJAEDU6TUCB2ZAPMHO2WGIRLB5Y5GAO"
+        }
+      ]
     },
     {
       "company": "Senra Systems",
@@ -1716,39 +2397,35 @@
       "prior_digest": null
     },
     {
+      "company": "Divergent",
+      "url": "https://www.divergent3d.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
       "company": "Amca",
       "url": "https://amca.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20030210070608",
-      "latest_digest": "3RV4EL7ZYRLWWYA7VZQORCMTOXZMIGUO",
-      "prior_digest": "PJ2BNVF4CJCE7GEARZXMOMJGYQXJLMYX",
-      "snapshots": [
-        {
-          "timestamp": "20030210070608",
-          "digest": "3RV4EL7ZYRLWWYA7VZQORCMTOXZMIGUO"
-        },
-        {
-          "timestamp": "20020324041238",
-          "digest": "PJ2BNVF4CJCE7GEARZXMOMJGYQXJLMYX"
-        },
-        {
-          "timestamp": "20011201012313",
-          "digest": "TNN465DBUDBX4CAEPP3VPXS7QMCA3O2L"
-        },
-        {
-          "timestamp": "20010405120515",
-          "digest": "YC7NXTZXXIES23KNYPKEFUU2YEOCRCGJ"
-        },
-        {
-          "timestamp": "20010302131534",
-          "digest": "H3BQPVA27JVTFGA567WCP4JHWUBVABPW"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Altos Labs",
       "url": "https://altoslabs.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Retro Biosciences",
+      "url": "https://www.retro.bio",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
@@ -1776,33 +2453,11 @@
     {
       "company": "Mammoth Biosciences",
       "url": "https://mammoth.bio",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20180705112236",
-      "latest_digest": "RHVJZPPFVFWG2VGC6OJSQQ2MXWC5VKRN",
-      "prior_digest": "6R3FNQNGOAER5HOENCRSWENQ57Y7ZHRH",
-      "snapshots": [
-        {
-          "timestamp": "20180705112236",
-          "digest": "RHVJZPPFVFWG2VGC6OJSQQ2MXWC5VKRN"
-        },
-        {
-          "timestamp": "20180621203020",
-          "digest": "6R3FNQNGOAER5HOENCRSWENQ57Y7ZHRH"
-        },
-        {
-          "timestamp": "20180614034417",
-          "digest": "FSBYOPEM572TKSSD24VBNLEPLFBVNHLP"
-        },
-        {
-          "timestamp": "20180510114519",
-          "digest": "HW4YOZD4Y7TR55GH5QQGUTVYD5CPDCA2"
-        },
-        {
-          "timestamp": "20180507164035",
-          "digest": "SJ4XQCIHRUUZBHUCZF3HVQ3JGPT23XBC"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Nucleus Genomics",
@@ -1825,20 +2480,64 @@
     {
       "company": "Herasight",
       "url": "https://herasight.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20250808131641",
+      "latest_digest": "YKT2KX2GXX6NUOR5RN2HI7AHNIVLVKAD",
+      "prior_digest": "ZLTVADPG5XRAALS54SKYZR5MC7UQV4H4",
+      "snapshots": [
+        {
+          "timestamp": "20250808131641",
+          "digest": "YKT2KX2GXX6NUOR5RN2HI7AHNIVLVKAD"
+        },
+        {
+          "timestamp": "20250731220044",
+          "digest": "ZLTVADPG5XRAALS54SKYZR5MC7UQV4H4"
+        },
+        {
+          "timestamp": "20250730212532",
+          "digest": "BKEKVVPUQ57XGVVXOM6FH3ZNF6DAPG7O"
+        },
+        {
+          "timestamp": "20250730211816",
+          "digest": "CTG6KIOXAAKDJVWZOXS63M6M7IDP6B53"
+        },
+        {
+          "timestamp": "20250730200746",
+          "digest": "BZMZPUJ6TOBFFEM342U7SVVD3JM6BL3X"
+        }
+      ]
     },
     {
       "company": "Terraform Industries",
       "url": "https://terraformindustries.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20220625072303",
+      "latest_digest": "AT5ETODCSU4IGYQBI5ZSYWYUKSOBQXGW",
+      "prior_digest": "4BGHP7LWLM2MFMNRBP6IGYNSTKNPRDZD",
+      "snapshots": [
+        {
+          "timestamp": "20220625072303",
+          "digest": "AT5ETODCSU4IGYQBI5ZSYWYUKSOBQXGW"
+        },
+        {
+          "timestamp": "20220326172822",
+          "digest": "4BGHP7LWLM2MFMNRBP6IGYNSTKNPRDZD"
+        },
+        {
+          "timestamp": "20220311012908",
+          "digest": "6E6UABQFWLT4TO5MZDVXD45SYJ5ARJXH"
+        },
+        {
+          "timestamp": "20220206032218",
+          "digest": "WNTID2HEJZQJI3XX35AEZLYINHXNOT75"
+        },
+        {
+          "timestamp": "20220122213022",
+          "digest": "RUBDTPH5JF2VPBWC2RBPTD7FA62IVYAR"
+        }
+      ]
     },
     {
       "company": "Commonwealth Fusion Systems",
@@ -1874,11 +2573,33 @@
     {
       "company": "Fervo Energy",
       "url": "https://fervoenergy.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20200113204812",
+      "latest_digest": "LFLQMYRHHDXJ4BBVQQSQ7LP2LVQ5MJCV",
+      "prior_digest": "XYSZ5BFC2QKBC3EENWQYWC2N22NDAEXT",
+      "snapshots": [
+        {
+          "timestamp": "20200113204812",
+          "digest": "LFLQMYRHHDXJ4BBVQQSQ7LP2LVQ5MJCV"
+        },
+        {
+          "timestamp": "20200110061507",
+          "digest": "XYSZ5BFC2QKBC3EENWQYWC2N22NDAEXT"
+        },
+        {
+          "timestamp": "20191015150939",
+          "digest": "G4VVRM3REQSKKFC6OEKZEHS3XIEJVYCA"
+        },
+        {
+          "timestamp": "20190927071241",
+          "digest": "RL2ARNRE2TKNSSFQLWHPWRFIBXTIOMGG"
+        },
+        {
+          "timestamp": "20190921012037",
+          "digest": "6KS4ZM6OIZRDOBPW64SQAA74I6XAKKJ6"
+        }
+      ]
     },
     {
       "company": "Xcimer Energy",
@@ -1890,8 +2611,137 @@
       "prior_digest": null
     },
     {
+      "company": "Helion",
+      "url": "https://www.helionenergy.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20131224200102",
+      "latest_digest": "3EO72S3QSHEBNYLTYOVHP6CS4YIIOX22",
+      "prior_digest": "HYFC54K2Q7HWPAE4KMHN6TIC476QTPWY",
+      "snapshots": [
+        {
+          "timestamp": "20131224200102",
+          "digest": "3EO72S3QSHEBNYLTYOVHP6CS4YIIOX22"
+        },
+        {
+          "timestamp": "20131104035424",
+          "digest": "HYFC54K2Q7HWPAE4KMHN6TIC476QTPWY"
+        },
+        {
+          "timestamp": "20130122060118",
+          "digest": "FTNTV43LDNLR6VC33657WSE5GGH4FPOU"
+        },
+        {
+          "timestamp": "20120320180524",
+          "digest": "WX65EESGRMRDF4V3FJGUYLTA3RNGWTTO"
+        },
+        {
+          "timestamp": "20120108221119",
+          "digest": "22GYI5E6FCDVKF4WL4TCV6BEOT3S3T3I"
+        }
+      ]
+    },
+    {
+      "company": "TAE Technologies",
+      "url": "https://tae.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Mazama",
+      "url": "https://mazamaenergy.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20240729140917",
+      "latest_digest": "APLN3SAE7CVVVR4ZQR6IXDI5LPIV5U5N",
+      "prior_digest": "JVBB3V3YRUVJIB5QXFJWRXMJGDYONK4L",
+      "snapshots": [
+        {
+          "timestamp": "20240729140917",
+          "digest": "APLN3SAE7CVVVR4ZQR6IXDI5LPIV5U5N"
+        },
+        {
+          "timestamp": "20240729095705",
+          "digest": "JVBB3V3YRUVJIB5QXFJWRXMJGDYONK4L"
+        },
+        {
+          "timestamp": "20240725063602",
+          "digest": "H2LLPYG3ZXQS4MWDGLBD5HJ4COYF4XIA"
+        },
+        {
+          "timestamp": "20240723051348",
+          "digest": "W7UUINDMJLABE4NLM2VDS2JSHO3ZBS6C"
+        },
+        {
+          "timestamp": "20240722155546",
+          "digest": "SC2ZLS5SRLFH3RY7CUYWVWHAKWVFQRKF"
+        }
+      ]
+    },
+    {
+      "company": "Quaise Energy",
+      "url": "https://www.quaise.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20250707021545",
+      "latest_digest": "JPZDBVBKDUFLUXKTMPZ5DDEANWCHAITF",
+      "prior_digest": "UX52I2G57RUXCVGRNDGL75GTKUEG55SD",
+      "snapshots": [
+        {
+          "timestamp": "20250707021545",
+          "digest": "JPZDBVBKDUFLUXKTMPZ5DDEANWCHAITF"
+        },
+        {
+          "timestamp": "20240530040238",
+          "digest": "UX52I2G57RUXCVGRNDGL75GTKUEG55SD"
+        },
+        {
+          "timestamp": "20240416174840",
+          "digest": "VT4Q2ZFBNZUDGRIKCIGJ5RRG5BSQFSGC"
+        },
+        {
+          "timestamp": "20221219024344",
+          "digest": "PRUIZ7ZFNOMNXKE2ECGRQVFGMDJBNLG6"
+        },
+        {
+          "timestamp": "20211222024659",
+          "digest": "MHGHOBTI7GT4NSLHJQ43BB6R5CXQGS7A"
+        }
+      ]
+    },
+    {
+      "company": "Captura",
+      "url": "https://capturacorp.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Base Power",
+      "url": "https://www.basepowercompany.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
       "company": "Karman Industries",
       "url": "https://karmanindustries.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Claros",
+      "url": "https://www.claros.tech",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
@@ -1919,33 +2769,11 @@
     {
       "company": "Rainmaker",
       "url": "https://rainmaker.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20030203110011",
-      "latest_digest": "YYEA73NH3YX4Q2Z2LR3VH6XUULXMA6GG",
-      "prior_digest": "K4O5TY43F5TO5RGUHRSJQUJ5GQKDXBUR",
-      "snapshots": [
-        {
-          "timestamp": "20030203110011",
-          "digest": "YYEA73NH3YX4Q2Z2LR3VH6XUULXMA6GG"
-        },
-        {
-          "timestamp": "20001206233000",
-          "digest": "K4O5TY43F5TO5RGUHRSJQUJ5GQKDXBUR"
-        },
-        {
-          "timestamp": "20001109045300",
-          "digest": "QVKFI2O3LF6MCVHK2BFQRPWSF5SM2YCC"
-        },
-        {
-          "timestamp": "20000520034105",
-          "digest": "K4O5TY43F5TO5RGUHRSJQUJ5GQKDXBUR"
-        },
-        {
-          "timestamp": "20000302172543",
-          "digest": "QVKFI2O3LF6MCVHK2BFQRPWSF5SM2YCC"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Airship Industries",
@@ -1959,65 +2787,343 @@
     {
       "company": "Cerebras",
       "url": "https://cerebras.ai",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20240828053059",
+      "latest_digest": "TIVBJDO22OCDMPXY4FC6XC3Y3MQBMCSL",
+      "prior_digest": "23TTFXDTLY5IYVZ5SW7J55U3QHVRKNMM",
+      "snapshots": [
+        {
+          "timestamp": "20240828053059",
+          "digest": "TIVBJDO22OCDMPXY4FC6XC3Y3MQBMCSL"
+        },
+        {
+          "timestamp": "20240828015309",
+          "digest": "23TTFXDTLY5IYVZ5SW7J55U3QHVRKNMM"
+        },
+        {
+          "timestamp": "20240828004436",
+          "digest": "RFSPD3BRBDS74ROFNG7XECDAT4EPBHAA"
+        },
+        {
+          "timestamp": "20240827235350",
+          "digest": "LX3PP7CD4I6KWXFCRZ5PJF7C3E7BBHGM"
+        },
+        {
+          "timestamp": "20240827235233",
+          "digest": "IDBKQDSWRNMF7XLSSIZCEBBG4TO5PTG4"
+        }
+      ]
+    },
+    {
+      "company": "Etched",
+      "url": "https://www.etched.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20101115082737",
+      "latest_digest": "U6QMV25GQ7KQAKITRN5TH2LBVAUBYOAU",
+      "prior_digest": "L55FGINUXFMKSHWOGHZNRXOW5J67NJQD",
+      "snapshots": [
+        {
+          "timestamp": "20101115082737",
+          "digest": "U6QMV25GQ7KQAKITRN5TH2LBVAUBYOAU"
+        },
+        {
+          "timestamp": "20101015022140",
+          "digest": "L55FGINUXFMKSHWOGHZNRXOW5J67NJQD"
+        },
+        {
+          "timestamp": "20040204151759",
+          "digest": "OXYDCLXREXAMJS6AQR47MCBXXMBV3ZPZ"
+        },
+        {
+          "timestamp": "20031128083527",
+          "digest": "F3IWWAARVJNAHKDY4MRBZTOQXBDB5VB4"
+        },
+        {
+          "timestamp": "20030613081633",
+          "digest": "5LER2C2OYNDBJU5NCUUFE6PSID33WYFL"
+        }
+      ]
     },
     {
       "company": "Extropic",
       "url": "https://extropic.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20050208195601",
+      "latest_digest": "EX5DKT3TKLX7ZCOAGPEPTH7INNDSXMQB",
+      "prior_digest": "SU4JR4QOFLDI2RT3D3RGQJIF3B5TTXHN",
+      "snapshots": [
+        {
+          "timestamp": "20050208195601",
+          "digest": "EX5DKT3TKLX7ZCOAGPEPTH7INNDSXMQB"
+        },
+        {
+          "timestamp": "20041216211020",
+          "digest": "SU4JR4QOFLDI2RT3D3RGQJIF3B5TTXHN"
+        },
+        {
+          "timestamp": "20040828174209",
+          "digest": "F7YK6DM63NSR4JTO3RUIXH244RXDV2AE"
+        },
+        {
+          "timestamp": "20040605144039",
+          "digest": "JDDYZ2YRNWUIYF7V63JCYWMYASYOKP7F"
+        },
+        {
+          "timestamp": "20040413225814",
+          "digest": "YMQZMPXLPN3GZNM4EGF22V3QILE3HJI3"
+        }
+      ]
+    },
+    {
+      "company": "Lightmatter",
+      "url": "https://lightmatter.co",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20200929193431",
+      "latest_digest": "JGX66TNFGSBVWSN6WVJVEHJ3CMTGT5PW",
+      "prior_digest": "RKT63GEWDXQW4U5B4QWWDAXFOCVPQAGG",
+      "snapshots": [
+        {
+          "timestamp": "20200929193431",
+          "digest": "JGX66TNFGSBVWSN6WVJVEHJ3CMTGT5PW"
+        },
+        {
+          "timestamp": "20200820060029",
+          "digest": "RKT63GEWDXQW4U5B4QWWDAXFOCVPQAGG"
+        },
+        {
+          "timestamp": "20200726014517",
+          "digest": "OXSWKOKGZEFDBOVWBLG2ROXC5FZLDTQF"
+        },
+        {
+          "timestamp": "20200603225659",
+          "digest": "UF7NGGGRZLQQGS5J7BO5CUQSPH6JRLLI"
+        },
+        {
+          "timestamp": "20200320005929",
+          "digest": "57B7M7DHAD2MXBJES22P5N7Y7NGGFU6U"
+        }
+      ]
     },
     {
       "company": "Substrate",
       "url": "https://substrate.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20250622151507",
+      "latest_digest": "JK3VR2HOZDK7RP63OR7DTVGY63BHZ7DF",
+      "prior_digest": "QOZYUYM5X2Z3ISSU2MYF3C7X6FTHYT2H",
+      "snapshots": [
+        {
+          "timestamp": "20250622151507",
+          "digest": "JK3VR2HOZDK7RP63OR7DTVGY63BHZ7DF"
+        },
+        {
+          "timestamp": "20250512185552",
+          "digest": "QOZYUYM5X2Z3ISSU2MYF3C7X6FTHYT2H"
+        },
+        {
+          "timestamp": "20250419213508",
+          "digest": "TI27SHTFDX2ND5UNYU2A74DPMMCZVXN4"
+        },
+        {
+          "timestamp": "20250211203956",
+          "digest": "XUGEBRBYIHYLLKSKAKB52RZZN5MAT5CY"
+        },
+        {
+          "timestamp": "20220309104734",
+          "digest": "EPQGPYLEK4GRY24W3ZAAVSYO4Z4GRAEX"
+        }
+      ]
     },
     {
       "company": "Lab 91",
       "url": "https://lab91.co",
-      "snapshots_seen": 0,
+      "snapshots_seen": 9,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20250404070137",
+      "latest_digest": "INYC2HXXWJ4XJ5DBCC2JLTPYZ4IR4JEQ",
+      "prior_digest": "WHB7FA44INEODZP24G2OQV4YMGHPHAPC",
+      "snapshots": [
+        {
+          "timestamp": "20250404070137",
+          "digest": "INYC2HXXWJ4XJ5DBCC2JLTPYZ4IR4JEQ"
+        },
+        {
+          "timestamp": "20250115225329",
+          "digest": "WHB7FA44INEODZP24G2OQV4YMGHPHAPC"
+        },
+        {
+          "timestamp": "20240717142711",
+          "digest": "7O2TMJV4ZAWM376JAPCN3HQJ4FWOJ2OI"
+        },
+        {
+          "timestamp": "20220128233735",
+          "digest": "Y5FKZF77C4M5YVIEGTDXZRPGI5E7R5RJ"
+        },
+        {
+          "timestamp": "20211018212105",
+          "digest": "YSVJ4O6XJSC6OMIWZCL5FHA6JMVECR4H"
+        }
+      ]
     },
     {
       "company": "Cuby Technologies",
       "url": "https://cubytechnologies.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20230329172157",
+      "latest_digest": "QVFGDDOK36A4VAI5VU2RJ4K44PEGYYRM",
+      "prior_digest": "2CJ7UFGQ4QFB7JQNFRFPG3ELDOX7OQ3N",
+      "snapshots": [
+        {
+          "timestamp": "20230329172157",
+          "digest": "QVFGDDOK36A4VAI5VU2RJ4K44PEGYYRM"
+        },
+        {
+          "timestamp": "20230123222305",
+          "digest": "2CJ7UFGQ4QFB7JQNFRFPG3ELDOX7OQ3N"
+        },
+        {
+          "timestamp": "20230121035458",
+          "digest": "42REY52NISID5YHMPBSZ3WNF2O6MKPRD"
+        },
+        {
+          "timestamp": "20221111180523",
+          "digest": "3INZBX52CI5IZKL24GYKZTY6GSDDVAR5"
+        },
+        {
+          "timestamp": "20221001022136",
+          "digest": "GTP5TTBB5SPCVMF66Q2GW5G6ZPGI77AA"
+        }
+      ]
+    },
+    {
+      "company": "Cover",
+      "url": "https://www.buildcover.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20201111173903",
+      "latest_digest": "RYC6EADBZRHFC4EPWQUHH35VWJ5W4JSK",
+      "prior_digest": "GY3C7RTA5MOGWWUGIRCSQTWPH66HQYKJ",
+      "snapshots": [
+        {
+          "timestamp": "20201111173903",
+          "digest": "RYC6EADBZRHFC4EPWQUHH35VWJ5W4JSK"
+        },
+        {
+          "timestamp": "20200924180052",
+          "digest": "GY3C7RTA5MOGWWUGIRCSQTWPH66HQYKJ"
+        },
+        {
+          "timestamp": "20200901012056",
+          "digest": "X5SQUC4Q4QZPILE35NMGHO7FQRJJ3O2J"
+        },
+        {
+          "timestamp": "20200807030013",
+          "digest": "7KWXGXOQWANAC2ZY33LLFFQ2QBM7AGKO"
+        },
+        {
+          "timestamp": "20200716101751",
+          "digest": "YFIUX5VDEPRIXNQNC66QZN2VW6KYFJBX"
+        }
+      ]
     },
     {
       "company": "The Boring Company",
       "url": "https://theboringcompany.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20190101105633",
+      "latest_digest": "BU4YGFI35X3PEV62HXAIEJY4EP6VWF2S",
+      "prior_digest": "LSAUDNIGV5CDJ5RV35RF4IOKUAVPWZVP",
+      "snapshots": [
+        {
+          "timestamp": "20190101105633",
+          "digest": "BU4YGFI35X3PEV62HXAIEJY4EP6VWF2S"
+        },
+        {
+          "timestamp": "20180806105753",
+          "digest": "LSAUDNIGV5CDJ5RV35RF4IOKUAVPWZVP"
+        },
+        {
+          "timestamp": "20180321171625",
+          "digest": "7XMPNDLBCETM5BUQ2Q3WEVFN3L7H5T4F"
+        },
+        {
+          "timestamp": "20180120142532",
+          "digest": "BWWINAQG5E3T5GQT43DN56B5CDLXHUDE"
+        },
+        {
+          "timestamp": "20170913183133",
+          "digest": "2VFB7NZIX7IYV6ZRPA76RXMDU2IWGEOT"
+        }
+      ]
     },
     {
       "company": "Pipedream",
       "url": "https://pipedream.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20041211111639",
+      "latest_digest": "Z2RCC52OWKIL33VIUT4BRMGHECD4FRC3",
+      "prior_digest": "U7ULHIBJWYXF3SLHFKVBKD4FZE2DRTOA",
+      "snapshots": [
+        {
+          "timestamp": "20041211111639",
+          "digest": "Z2RCC52OWKIL33VIUT4BRMGHECD4FRC3"
+        },
+        {
+          "timestamp": "20040905010703",
+          "digest": "U7ULHIBJWYXF3SLHFKVBKD4FZE2DRTOA"
+        },
+        {
+          "timestamp": "20040903141429",
+          "digest": "76WGT2MPQ77MZMBEQVD5PJ53UJMM252H"
+        },
+        {
+          "timestamp": "20040518030014",
+          "digest": "TDFG6RSLO2GIDEL43S52ZAQXLN3NBKJC"
+        },
+        {
+          "timestamp": "20040412073935",
+          "digest": "NFMOZUT6OB4HNFKVC7CPPZM5ZKNIOOFW"
+        }
+      ]
+    },
+    {
+      "company": "Navier",
+      "url": "https://www.navierboat.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20220207142347",
+      "latest_digest": "SGJZGUNMMQNRY23OI53NMN76KFMQW4WU",
+      "prior_digest": "Z77ZAK6NT62LPDAFHCP4TJ4JCCUL53HB",
+      "snapshots": [
+        {
+          "timestamp": "20220207142347",
+          "digest": "SGJZGUNMMQNRY23OI53NMN76KFMQW4WU"
+        },
+        {
+          "timestamp": "20220127141621",
+          "digest": "Z77ZAK6NT62LPDAFHCP4TJ4JCCUL53HB"
+        },
+        {
+          "timestamp": "20220125181147",
+          "digest": "Q3BVBZ5W6MX34R2MXZ4UNMFHKQ6FYLBB"
+        },
+        {
+          "timestamp": "20220117090906",
+          "digest": "S2OLQ5FDS3FWGADLJT7BR4NROMLYELSP"
+        },
+        {
+          "timestamp": "20211118190834",
+          "digest": "6QJBG2VLXVYACY46JPTEJ4LVVOA76TVF"
+        }
+      ]
     },
     {
       "company": "Arc Boats",
@@ -2060,6 +3166,46 @@
       "prior_digest": null
     },
     {
+      "company": "Shinkei",
+      "url": "https://shinkei.systems",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20221129011550",
+      "latest_digest": "2VE3IPGIUKI3OOU5DLKJYROLNRAIMC76",
+      "prior_digest": "UKFLHK7FY2RUVGVHOLSEDCOFGHRCDUVY",
+      "snapshots": [
+        {
+          "timestamp": "20221129011550",
+          "digest": "2VE3IPGIUKI3OOU5DLKJYROLNRAIMC76"
+        },
+        {
+          "timestamp": "20220925030818",
+          "digest": "UKFLHK7FY2RUVGVHOLSEDCOFGHRCDUVY"
+        },
+        {
+          "timestamp": "20220921214823",
+          "digest": "DPNEIJFIFQSSRWUD2BEQOCWKJE4JN3PI"
+        },
+        {
+          "timestamp": "20220914222143",
+          "digest": "FI2KBR2BO5JIXK2ADJLH5GZ3XZYQIEZ3"
+        },
+        {
+          "timestamp": "20220828043213",
+          "digest": "UKFLHK7FY2RUVGVHOLSEDCOFGHRCDUVY"
+        }
+      ]
+    },
+    {
+      "company": "Vital Lyfe",
+      "url": "https://www.vital-lyfe.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
       "company": "Forterra",
       "url": "https://forterra.com",
       "snapshots_seen": 0,
@@ -2071,37 +3217,24 @@
     {
       "company": "Auterion",
       "url": "https://auterion.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20190719090300",
-      "latest_digest": "WOGP2E5SLRWJUVTAQ6ONRVQUXEX3PNVV",
-      "prior_digest": "HYDVM7BWL6PCFPUZPP7BABXRODVG52AO",
-      "snapshots": [
-        {
-          "timestamp": "20190719090300",
-          "digest": "WOGP2E5SLRWJUVTAQ6ONRVQUXEX3PNVV"
-        },
-        {
-          "timestamp": "20190415143836",
-          "digest": "HYDVM7BWL6PCFPUZPP7BABXRODVG52AO"
-        },
-        {
-          "timestamp": "20190119045551",
-          "digest": "3DXM65XYM3IQYVEEWIMXGX32YFTSBKFK"
-        },
-        {
-          "timestamp": "20181226172320",
-          "digest": "XUM24Z6632U77I5VEFPWDQIZSXE7W3RS"
-        },
-        {
-          "timestamp": "20181108035758",
-          "digest": "OL747VXVQ2M3AAXYGTHN3WGKFSUTXPTK"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Firehawk Aerospace",
       "url": "https://firehawkaerospace.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Reveal Technology",
+      "url": "https://www.revealtech.ai",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
@@ -2136,6 +3269,46 @@
       "prior_digest": null
     },
     {
+      "company": "Aurelius Systems",
+      "url": "https://www.aureliussystems.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20251012010436",
+      "latest_digest": "DDDWCE5NL5J5DBXNTTLHEWCIXSLJJU72",
+      "prior_digest": "CT4U2DVHVXSVMUBCUK5HDJIN7CPTDCYO",
+      "snapshots": [
+        {
+          "timestamp": "20251012010436",
+          "digest": "DDDWCE5NL5J5DBXNTTLHEWCIXSLJJU72"
+        },
+        {
+          "timestamp": "20251008133344",
+          "digest": "CT4U2DVHVXSVMUBCUK5HDJIN7CPTDCYO"
+        },
+        {
+          "timestamp": "20251007120404",
+          "digest": "7CG7C7JSPTT72Z3STWS5ETVCSODKGF2I"
+        },
+        {
+          "timestamp": "20250917235458",
+          "digest": "TR4LENF5H5VFOMZYNUYOYSBRBUVRNSWO"
+        },
+        {
+          "timestamp": "20250909164132",
+          "digest": "LAOQESJLJNGMZHWVCUX5QPYJVJTHGDHB"
+        }
+      ]
+    },
+    {
+      "company": "Darkhive",
+      "url": "https://www.darkhive.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
       "company": "Deterrence",
       "url": "https://deterrence.com",
       "snapshots_seen": 0,
@@ -2145,35 +3318,44 @@
       "prior_digest": null
     },
     {
-      "company": "Zeromark",
-      "url": "https://zeromark.com",
+      "company": "Deepnight",
+      "url": "https://www.deepnight.ai",
       "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": "20040328004936",
-      "latest_digest": "Z4Y6QJTDGDLPPMPJ34TQBKJY2FIDBD6S",
-      "prior_digest": "ZKKCCCJ76QCI3AGG6TVZYJC6L447A4QL",
+      "latest_snapshot": "20241207115844",
+      "latest_digest": "UCD4YTJBI23RFYWEDWROPGFNJPEFM2EY",
+      "prior_digest": "THJQGAASZXTZZPPYWYY5HT4VYWMGXL2K",
       "snapshots": [
         {
-          "timestamp": "20040328004936",
-          "digest": "Z4Y6QJTDGDLPPMPJ34TQBKJY2FIDBD6S"
+          "timestamp": "20241207115844",
+          "digest": "UCD4YTJBI23RFYWEDWROPGFNJPEFM2EY"
         },
         {
-          "timestamp": "20040129051933",
-          "digest": "ZKKCCCJ76QCI3AGG6TVZYJC6L447A4QL"
+          "timestamp": "20241120061054",
+          "digest": "THJQGAASZXTZZPPYWYY5HT4VYWMGXL2K"
         },
         {
-          "timestamp": "20040121171552",
-          "digest": "BGQMJELDGGY2HCTTHW5PNAAANCBNDGY5"
+          "timestamp": "20240922060242",
+          "digest": "CSEJI3M7FFSMUQPBC252QXYVOHR74B52"
         },
         {
-          "timestamp": "20031214191331",
-          "digest": "2XBIMNSMCB6O3PFNJ5XFQ2MWWSINZVBD"
+          "timestamp": "20240805094854",
+          "digest": "ZGW5HKMBCFMP7THV3U2BOXX2M33MOZRY"
         },
         {
-          "timestamp": "20031023122016",
-          "digest": "NBANJTJ24UIWLVFB7OVKFA62CNXLBMM6"
+          "timestamp": "20240617222843",
+          "digest": "3DL2H6UAYG6AJVY34C6QY2PAFIAJPRGO"
         }
       ]
+    },
+    {
+      "company": "Zeromark",
+      "url": "https://zeromark.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Rune Technologies",
@@ -2185,35 +3367,31 @@
       "prior_digest": null
     },
     {
+      "company": "Biofire",
+      "url": "https://smartgun.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Firestorm Labs",
+      "url": "https://launchfirestorm.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
       "company": "Aalyria",
       "url": "https://aalyria.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20230319171649",
-      "latest_digest": "QGKIWGEAKTUDYKGA5JT3DWI53DM7QRIG",
-      "prior_digest": "76SZVLPCEIURBI7HV6BQDOXLPL5STXCI",
-      "snapshots": [
-        {
-          "timestamp": "20230319171649",
-          "digest": "QGKIWGEAKTUDYKGA5JT3DWI53DM7QRIG"
-        },
-        {
-          "timestamp": "20221217220601",
-          "digest": "76SZVLPCEIURBI7HV6BQDOXLPL5STXCI"
-        },
-        {
-          "timestamp": "20221002140313",
-          "digest": "W3746ZC26PYW36FVRZ4BJP3TPEMRTLG7"
-        },
-        {
-          "timestamp": "20220921115658",
-          "digest": "I6XDZMGOULZHHJGPAT5T3BWWKIIXR4HA"
-        },
-        {
-          "timestamp": "20220916181012",
-          "digest": "W3746ZC26PYW36FVRZ4BJP3TPEMRTLG7"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "AnySignal",
@@ -2227,144 +3405,131 @@
     {
       "company": "Turion Space",
       "url": "https://turionspace.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Umbra",
+      "url": "https://umbra.space",
       "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": "20220809073825",
-      "latest_digest": "25KPKQST7XYZYXIKZ65OTSD7TYIDDCQW",
-      "prior_digest": "4BMZY5ZTH2HZ55GKVMUWHYUWLAKMTTS4",
+      "latest_snapshot": "20210510180544",
+      "latest_digest": "XQCY6XBHX4DW5TSUZ5AY3OI2QL3H7RAK",
+      "prior_digest": "PSUJBK6K7Z4764R4E7EODAHSNW67SM75",
       "snapshots": [
         {
-          "timestamp": "20220809073825",
-          "digest": "25KPKQST7XYZYXIKZ65OTSD7TYIDDCQW"
+          "timestamp": "20210510180544",
+          "digest": "XQCY6XBHX4DW5TSUZ5AY3OI2QL3H7RAK"
         },
         {
-          "timestamp": "20220705125353",
-          "digest": "4BMZY5ZTH2HZ55GKVMUWHYUWLAKMTTS4"
+          "timestamp": "20210428140701",
+          "digest": "PSUJBK6K7Z4764R4E7EODAHSNW67SM75"
         },
         {
-          "timestamp": "20220514000831",
-          "digest": "ZK7BFBPTLAWAGQ5TUYVXHGRMNSOX6BET"
+          "timestamp": "20210416160301",
+          "digest": "BM4ENQUMGHHO2ESNSLSXPODNX6X5X36N"
         },
         {
-          "timestamp": "20220407122219",
-          "digest": "WTHNW66AE53LO7WDRTLYVW4W3BQXN7MM"
+          "timestamp": "20210410185320",
+          "digest": "VTM44RCLVBT7ASKXGTH6UU46XZUDQXWD"
         },
         {
-          "timestamp": "20211206222222",
-          "digest": "SJNQILLDM27C4FWKSOWSEONBMCZKJNP4"
+          "timestamp": "20210326230603",
+          "digest": "EZR3G5XCFATKSWCEBM5LTOIAIMNSJWT3"
         }
       ]
     },
     {
       "company": "Albedo",
       "url": "https://albedo.com",
-      "snapshots_seen": 0,
+      "snapshots_seen": 10,
       "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
+      "latest_snapshot": "20070630152007",
+      "latest_digest": "V2JGGIFCYG5JPI2NNGN42XMPATPFEZUY",
+      "prior_digest": "4BGV737LUVUDMQ2GXEQDYN72O3FSJ7XU",
+      "snapshots": [
+        {
+          "timestamp": "20070630152007",
+          "digest": "V2JGGIFCYG5JPI2NNGN42XMPATPFEZUY"
+        },
+        {
+          "timestamp": "20070311212717",
+          "digest": "4BGV737LUVUDMQ2GXEQDYN72O3FSJ7XU"
+        },
+        {
+          "timestamp": "20060613055757",
+          "digest": "EKBH6NMXVDZ2LBYVM2TI75U7J7WQZBVI"
+        },
+        {
+          "timestamp": "20060402190019",
+          "digest": "WSRVJWKNEXUMGFPCHA3FG4J7QRLZKQ6P"
+        },
+        {
+          "timestamp": "20060309223918",
+          "digest": "ULVNS43UX7HHUQZM7ECAQCHUOZKG5Y6J"
+        }
+      ]
     },
     {
       "company": "Blue Origin",
       "url": "https://blueorigin.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20050607234336",
-      "latest_digest": "LLURLOLFVOBKRFSFETXZDNFTT2MMLAUX",
-      "prior_digest": "R6EPG4AMVD7ZNLF23ZF4UZGMGOV4DWUI",
-      "snapshots": [
-        {
-          "timestamp": "20050607234336",
-          "digest": "LLURLOLFVOBKRFSFETXZDNFTT2MMLAUX"
-        },
-        {
-          "timestamp": "20050115050123",
-          "digest": "R6EPG4AMVD7ZNLF23ZF4UZGMGOV4DWUI"
-        },
-        {
-          "timestamp": "20041111021226",
-          "digest": "PUNSLKL5ANTNJSJGZPRTOF6IT74VLU6F"
-        },
-        {
-          "timestamp": "20040411121612",
-          "digest": "XPEDKA5B3ZARY34EGGHLD6ZME64J4WRZ"
-        },
-        {
-          "timestamp": "20040212085433",
-          "digest": "S7JUYCYYIMQAS5C6UHXBTRKNA73YOG6A"
-        }
-      ]
-    },
-    {
-      "company": "Axiom Space",
-      "url": "https://axiomspace.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20150801053527",
-      "latest_digest": "CJLOUDDCBJLE4CLVBBO3ETSUIIDJ3LAY",
-      "prior_digest": "PWLFQ7TQ46SPQ3W4FME3PSXVZMIYDZGA",
-      "snapshots": [
-        {
-          "timestamp": "20150801053527",
-          "digest": "CJLOUDDCBJLE4CLVBBO3ETSUIIDJ3LAY"
-        },
-        {
-          "timestamp": "20141219201114",
-          "digest": "PWLFQ7TQ46SPQ3W4FME3PSXVZMIYDZGA"
-        },
-        {
-          "timestamp": "20081010152056",
-          "digest": "234WLKDXY5NP6WJKTHPHSSIM2JSIM4QB"
-        },
-        {
-          "timestamp": "20070627094328",
-          "digest": "BCRD6NMER42ZOPHVZ5EZRZK4H5ETGKYX"
-        },
-        {
-          "timestamp": "20070129001044",
-          "digest": "XXNLQ2NOR7QSVT2Y4KN463ATRBUM2OFB"
-        }
-      ]
-    },
-    {
-      "company": "Astrolab",
-      "url": "https://astrolab.co",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20150801035432",
-      "latest_digest": "J7NNU66YOIOSBHIOJW3YJFXDDTA6IEL4",
-      "prior_digest": "IKZPD3WQ6X62K63CERHN4MKS2YHUODSH",
-      "snapshots": [
-        {
-          "timestamp": "20150801035432",
-          "digest": "J7NNU66YOIOSBHIOJW3YJFXDDTA6IEL4"
-        },
-        {
-          "timestamp": "20141216200325",
-          "digest": "IKZPD3WQ6X62K63CERHN4MKS2YHUODSH"
-        },
-        {
-          "timestamp": "20140517032449",
-          "digest": "YRFQDWCMDB3L7NMG2O3ZJ3MGCXGYC74U"
-        },
-        {
-          "timestamp": "20130520075500",
-          "digest": "T2BQL5IJAFSHX7IOMVCAKAAFPUTKP5PZ"
-        },
-        {
-          "timestamp": "20130516123605",
-          "digest": "RGUEGBL7VCNWYSUU4V3RA6T2CGI53Y32"
-        }
-      ]
-    },
-    {
-      "company": "Array Labs",
-      "url": "https://arraylabs.com",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,
       "latest_digest": null,
       "prior_digest": null
+    },
+    {
+      "company": "Axiom Space",
+      "url": "https://axiomspace.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Astrolab",
+      "url": "https://astrolab.co",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Array Labs",
+      "url": "https://arraylabs.com",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20111110045215",
+      "latest_digest": "T2YM6ZQCBN22FPLJ6AWAVIII62ETLC2O",
+      "prior_digest": "XYVJVXNYADQRX4ALCNRLSF7MBT5666Q3",
+      "snapshots": [
+        {
+          "timestamp": "20111110045215",
+          "digest": "T2YM6ZQCBN22FPLJ6AWAVIII62ETLC2O"
+        },
+        {
+          "timestamp": "20110721204623",
+          "digest": "XYVJVXNYADQRX4ALCNRLSF7MBT5666Q3"
+        },
+        {
+          "timestamp": "20110130145018",
+          "digest": "ENZJSNH5EA5AVPFPX26OFJ2UUKPSA3WA"
+        },
+        {
+          "timestamp": "20101127083235",
+          "digest": "4ZNRGD3UHN2PSEIMDMDFIVD6NLRCHJJA"
+        },
+        {
+          "timestamp": "20101026003117",
+          "digest": "73L5J6NQ2KA2SSN5VQE7GPHNBXVZYH3K"
+        }
+      ]
     },
     {
       "company": "Armada",
@@ -2405,33 +3570,29 @@
     {
       "company": "Apptronik",
       "url": "https://apptronik.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20160903022352",
-      "latest_digest": "GEWSU6YUYMFHLIZ22BU3LP5AOS6EGPDT",
-      "prior_digest": "M5EUKVFER6O34CPSXV627M7DNXN7XO6E",
-      "snapshots": [
-        {
-          "timestamp": "20160903022352",
-          "digest": "GEWSU6YUYMFHLIZ22BU3LP5AOS6EGPDT"
-        },
-        {
-          "timestamp": "20160802210919",
-          "digest": "M5EUKVFER6O34CPSXV627M7DNXN7XO6E"
-        },
-        {
-          "timestamp": "20160702070251",
-          "digest": "FZG7BCABNRLHDSCMQ74I6RNNQYV5G7XS"
-        },
-        {
-          "timestamp": "20160531152655",
-          "digest": "67S2ITD3QRCIU2A4MM6X2OQTYKC4RS7N"
-        },
-        {
-          "timestamp": "20160430005532",
-          "digest": "X44YKHBVOPDUQV5CNB66C6JNZIUM4ECA"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Bright Machines",
+      "url": "https://www.brightmachines.com",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Atomic Industries",
+      "url": "https://atomic.industries",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Re:Build Manufacturing",
@@ -2459,6 +3620,46 @@
       "latest_snapshot": null,
       "latest_digest": null,
       "prior_digest": null
+    },
+    {
+      "company": "Quilter",
+      "url": "https://www.quilter.ai",
+      "snapshots_seen": 0,
+      "change_in_window": false,
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
+    },
+    {
+      "company": "Science Corporation",
+      "url": "https://science.xyz",
+      "snapshots_seen": 10,
+      "change_in_window": false,
+      "latest_snapshot": "20220627020859",
+      "latest_digest": "YR7Q5IXDJ3JBOSOGLXTGDJ7PL2C22RNZ",
+      "prior_digest": "NWH7P7RKI55NZGIMABJUDPZCNXIVSQNK",
+      "snapshots": [
+        {
+          "timestamp": "20220627020859",
+          "digest": "YR7Q5IXDJ3JBOSOGLXTGDJ7PL2C22RNZ"
+        },
+        {
+          "timestamp": "20220613052153",
+          "digest": "NWH7P7RKI55NZGIMABJUDPZCNXIVSQNK"
+        },
+        {
+          "timestamp": "20220525210132",
+          "digest": "YR7Q5IXDJ3JBOSOGLXTGDJ7PL2C22RNZ"
+        },
+        {
+          "timestamp": "20220513170529",
+          "digest": "NWH7P7RKI55NZGIMABJUDPZCNXIVSQNK"
+        },
+        {
+          "timestamp": "20220418201053",
+          "digest": "YR7Q5IXDJ3JBOSOGLXTGDJ7PL2C22RNZ"
+        }
+      ]
     },
     {
       "company": "Andromeda Surgical",
@@ -2494,33 +3695,11 @@
     {
       "company": "Solugen",
       "url": "https://solugen.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20050207153219",
-      "latest_digest": "LIZAETN277ICCKR7UHJVP24SZJQERGT2",
-      "prior_digest": "JSHVJXWXFO6P7HATYKGBK3USF45KNCKB",
-      "snapshots": [
-        {
-          "timestamp": "20050207153219",
-          "digest": "LIZAETN277ICCKR7UHJVP24SZJQERGT2"
-        },
-        {
-          "timestamp": "20040611112542",
-          "digest": "JSHVJXWXFO6P7HATYKGBK3USF45KNCKB"
-        },
-        {
-          "timestamp": "20040518152652",
-          "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ"
-        },
-        {
-          "timestamp": "20031021213913",
-          "digest": "Z6YQQH6WBYMY5XS3HEB6IT65CZGXREPH"
-        },
-        {
-          "timestamp": "20030809025843",
-          "digest": "RCB755KXDURCWGUBL5VVWHYVNZN6SDRX"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Exowatt",
@@ -2587,697 +3766,15 @@
     {
       "company": "Form Energy",
       "url": "https://formenergy.com",
-      "snapshots_seen": 10,
+      "snapshots_seen": 0,
       "change_in_window": false,
-      "latest_snapshot": "20190424205240",
-      "latest_digest": "XU4RVTP52ZJAQSESKQ4JXF2FO7TPOM6E",
-      "prior_digest": "LN2UF5KEAUSIL6G247DTHEBSY76C3CHU",
-      "snapshots": [
-        {
-          "timestamp": "20190424205240",
-          "digest": "XU4RVTP52ZJAQSESKQ4JXF2FO7TPOM6E"
-        },
-        {
-          "timestamp": "20190420212520",
-          "digest": "LN2UF5KEAUSIL6G247DTHEBSY76C3CHU"
-        },
-        {
-          "timestamp": "20190412221229",
-          "digest": "CPARKIV75X2RZVFPOU5W2QARXN667OBM"
-        },
-        {
-          "timestamp": "20190322223552",
-          "digest": "DICMJWHV4QTWNA7XUVZJQR754A3Z32XD"
-        },
-        {
-          "timestamp": "20190313210243",
-          "digest": "G44LNLAA2Y3IDHMMW4DIWQHABCGMEULF"
-        }
-      ]
+      "latest_snapshot": null,
+      "latest_digest": null,
+      "prior_digest": null
     },
     {
       "company": "Brimstone",
       "url": "https://brimstone.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "19990422064324",
-      "latest_digest": "BLVQGOJ423L3AUNOANWWTQUZXFSXKVFO",
-      "prior_digest": "WT6EYPYG7BOVISUJFG4AYMCNLI3FYZZ3",
-      "snapshots": [
-        {
-          "timestamp": "19990422064324",
-          "digest": "BLVQGOJ423L3AUNOANWWTQUZXFSXKVFO"
-        },
-        {
-          "timestamp": "19990125084924",
-          "digest": "WT6EYPYG7BOVISUJFG4AYMCNLI3FYZZ3"
-        },
-        {
-          "timestamp": "19981212012944",
-          "digest": "A2FMTMHBJSANTQ6FWODSA3WJGIM47TEJ"
-        },
-        {
-          "timestamp": "19981203043438",
-          "digest": "EH25AREDW532WORTFRQHRDGOSOP6LYAN"
-        },
-        {
-          "timestamp": "19980523065916",
-          "digest": "GRGQWUR6QHUWJDBQNYZC2IAI3PRQSKT7"
-        }
-      ]
-    },
-    {
-      "company": "Boston Metal",
-      "url": "https://bostonmetal.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20190107160257",
-      "latest_digest": "OAS4AXHZBK5WPGKXMX2ZQIA4BD3PCXPF",
-      "prior_digest": "VMBADJ2O7FHN2AHWO3YV4E2YQD6RZIWI",
-      "snapshots": [
-        {
-          "timestamp": "20190107160257",
-          "digest": "OAS4AXHZBK5WPGKXMX2ZQIA4BD3PCXPF"
-        },
-        {
-          "timestamp": "20181221034630",
-          "digest": "VMBADJ2O7FHN2AHWO3YV4E2YQD6RZIWI"
-        },
-        {
-          "timestamp": "20140516232956",
-          "digest": "XFOY27I2K7HUNWPQ5ESPRBSPSQKZX76T"
-        },
-        {
-          "timestamp": "20130530034909",
-          "digest": "GKSDRCVFOTXT5CX7TPKFKOCLUGZADGO3"
-        },
-        {
-          "timestamp": "20130530024825",
-          "digest": "2WFVJQ5SXQGB5MRJRJDCZSMXXX4XA3O3"
-        }
-      ]
-    },
-    {
-      "company": "Bedrock Energy",
-      "url": "https://bedrockenergy.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Endurance Energy",
-      "url": "https://enduranceenergy.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Asylon Robotics",
-      "url": "https://asylonrobotics.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Atom Computing",
-      "url": "https://atom-computing.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20190718063408",
-      "latest_digest": "6NQBWJUQCE5KNPFA5VPO6K3I6QVTMJ6T",
-      "prior_digest": "WL3BGROTR6SCWVVRJ7MDF63C6NQAW2SL",
-      "snapshots": [
-        {
-          "timestamp": "20190718063408",
-          "digest": "6NQBWJUQCE5KNPFA5VPO6K3I6QVTMJ6T"
-        },
-        {
-          "timestamp": "20190528163148",
-          "digest": "WL3BGROTR6SCWVVRJ7MDF63C6NQAW2SL"
-        },
-        {
-          "timestamp": "20190523152014",
-          "digest": "THVJWHMXUJWKFR3ER2L5SU7VU5Q2YNKV"
-        },
-        {
-          "timestamp": "20190501114902",
-          "digest": "VHFTVN6RM2LNTHWS4AHILB6IPK65DRAO"
-        },
-        {
-          "timestamp": "20190426190646",
-          "digest": "BK4PYUTPCHGSWG2QS7DYNW252ITYZUFX"
-        }
-      ]
-    },
-    {
-      "company": "Atomic Semi",
-      "url": "https://atomicsemi.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Atomic Machines",
-      "url": "https://atomicmachines.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Bedrock Ocean",
-      "url": "https://bedrockocean.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Standard Subsea",
-      "url": "https://www.standardsubsea.com/",
-      "snapshots_seen": 2,
-      "change_in_window": true,
-      "latest_snapshot": "20260519092059",
-      "latest_digest": "CZSXZIEO26FVCLN3UXSNEFZT2RP32NQR",
-      "prior_digest": "AC33V3SFXUSXZST5DV3VFQIY7AVTHY7S",
-      "snapshots": [
-        {
-          "timestamp": "20260519092059",
-          "digest": "CZSXZIEO26FVCLN3UXSNEFZT2RP32NQR"
-        },
-        {
-          "timestamp": "20260415031547",
-          "digest": "AC33V3SFXUSXZST5DV3VFQIY7AVTHY7S"
-        }
-      ]
-    },
-    {
-      "company": "Clippership",
-      "url": "https://clippership.co",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20251220234042",
-      "latest_digest": "HUEX3BA6CMY42TQE5IZFO6MH6DGFWGWD",
-      "prior_digest": "DKFHMOHPUSSUNTL2TT2CPLHG3RWKUDD3",
-      "snapshots": [
-        {
-          "timestamp": "20251220234042",
-          "digest": "HUEX3BA6CMY42TQE5IZFO6MH6DGFWGWD"
-        },
-        {
-          "timestamp": "20251220152415",
-          "digest": "DKFHMOHPUSSUNTL2TT2CPLHG3RWKUDD3"
-        },
-        {
-          "timestamp": "20250826141752",
-          "digest": "2LQAD3ROGRDLZVQYKG7B5OVZSOO5RQGD"
-        },
-        {
-          "timestamp": "20250720041332",
-          "digest": "QI5V7MJ25KPA3K6UELUZHGBKT4JZS5II"
-        },
-        {
-          "timestamp": "20250708171845",
-          "digest": "BFXPT33FGZJA7FG42A6OMTT4DFZMU5ED"
-        }
-      ]
-    },
-    {
-      "company": "Amperon",
-      "url": "https://amperon.co",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20210202222200",
-      "latest_digest": "W26WV5YKEZUTJNTV24K4CMRW6U6BNLNE",
-      "prior_digest": "6E3URVZWS6VSYGDMKYA4RCIP3CYWFDHG",
-      "snapshots": [
-        {
-          "timestamp": "20210202222200",
-          "digest": "W26WV5YKEZUTJNTV24K4CMRW6U6BNLNE"
-        },
-        {
-          "timestamp": "20210126150118",
-          "digest": "6E3URVZWS6VSYGDMKYA4RCIP3CYWFDHG"
-        },
-        {
-          "timestamp": "20201206080600",
-          "digest": "ZL7RDC7I6ELLXGWW47C5J2WRKOQMCPQG"
-        },
-        {
-          "timestamp": "20201127082634",
-          "digest": "6E3URVZWS6VSYGDMKYA4RCIP3CYWFDHG"
-        },
-        {
-          "timestamp": "20201023111413",
-          "digest": "6VLYWEHEB7RL6LO7EAFYTPZFBQUZLCWZ"
-        }
-      ]
-    },
-    {
-      "company": "Durin",
-      "url": "https://durin.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Watoga Technologies",
-      "url": "https://www.watoga.io/",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Daylight Computer",
-      "url": "https://daylightcomputer.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Saildrone",
-      "url": "https://saildrone.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Overland AI",
-      "url": "https://overlandai.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Primer AI",
-      "url": "https://primerai.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Kodiak AI",
-      "url": "https://kodiakrobotics.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Mara",
-      "url": "https://mara.inc",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Flock Safety",
-      "url": "https://flocksafety.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Icarus",
-      "url": "https://www.icarus.one",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20250820075838",
-      "latest_digest": "3BUPL74URNI4ROG2S6H6LVWWF5BIC6DS",
-      "prior_digest": "A2T55CCNPA43HHMBUDZSKEOXMQZAVKJ5",
-      "snapshots": [
-        {
-          "timestamp": "20250820075838",
-          "digest": "3BUPL74URNI4ROG2S6H6LVWWF5BIC6DS"
-        },
-        {
-          "timestamp": "20250608160850",
-          "digest": "A2T55CCNPA43HHMBUDZSKEOXMQZAVKJ5"
-        },
-        {
-          "timestamp": "20250425043150",
-          "digest": "QMFL4KZZB6TOREJOTZB6ANTEO4D7I7IB"
-        },
-        {
-          "timestamp": "20250421132439",
-          "digest": "HQVQEATZYDQZWRL6MF4DVXA62XNCTX46"
-        },
-        {
-          "timestamp": "20250416113111",
-          "digest": "QMFL4KZZB6TOREJOTZB6ANTEO4D7I7IB"
-        }
-      ]
-    },
-    {
-      "company": "PILGRIM",
-      "url": "https://pilgrim.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20000619021706",
-      "latest_digest": "LEYHMCQDPN4MEYG4EFOZPEXCDC63ECKW",
-      "prior_digest": "KX7J4LQNYJFCLNZ4MKD4KWD42M4JMUDD",
-      "snapshots": [
-        {
-          "timestamp": "20000619021706",
-          "digest": "LEYHMCQDPN4MEYG4EFOZPEXCDC63ECKW"
-        },
-        {
-          "timestamp": "20000510094151",
-          "digest": "KX7J4LQNYJFCLNZ4MKD4KWD42M4JMUDD"
-        },
-        {
-          "timestamp": "20000229194437",
-          "digest": "6V2EJJG3U4R73WEJTQ6ORMIGEVAK7NYW"
-        },
-        {
-          "timestamp": "19990208015604",
-          "digest": "Y46TX2XSPS6GQCTDO2XV2DK4HATMJ3GF"
-        },
-        {
-          "timestamp": "19990203043650",
-          "digest": "STBYXCV6M3K7TIATBNECVCXCFMGJZVUL"
-        }
-      ]
-    },
-    {
-      "company": "NuScale Power",
-      "url": "https://nuscalepower.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20100212054907",
-      "latest_digest": "SJ6JCD7GFLL3LNI2WW4FKRPSIBPOBQ4H",
-      "prior_digest": "4TEETCHGC2QDD4NG4BYZ7KFMQD4OLHRA",
-      "snapshots": [
-        {
-          "timestamp": "20100212054907",
-          "digest": "SJ6JCD7GFLL3LNI2WW4FKRPSIBPOBQ4H"
-        },
-        {
-          "timestamp": "20090223054402",
-          "digest": "4TEETCHGC2QDD4NG4BYZ7KFMQD4OLHRA"
-        },
-        {
-          "timestamp": "20081223081842",
-          "digest": "P3J7GLP6XWVSGM7XYCZUN6BENHE7QEHG"
-        },
-        {
-          "timestamp": "20081211125505",
-          "digest": "6ZXDLUHKFLC6JALCDKVCDZGZ7EDX3NSA"
-        },
-        {
-          "timestamp": "20081102071649",
-          "digest": "SVGNNNZYLXH4GQ63U2RQWCT5RVW4LEIF"
-        }
-      ]
-    },
-    {
-      "company": "Zap Energy",
-      "url": "https://zapenergy.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Type One Energy",
-      "url": "https://typeoneenergy.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Nano Nuclear Energy",
-      "url": "https://nanonuclearenergy.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20220927015612",
-      "latest_digest": "HF2SU2NKJRMENFSPW4SNEOBMHBHP5XK5",
-      "prior_digest": "CMSAXIVUDEXCXFISJOMWJHWJFRGMGEEJ",
-      "snapshots": [
-        {
-          "timestamp": "20220927015612",
-          "digest": "HF2SU2NKJRMENFSPW4SNEOBMHBHP5XK5"
-        },
-        {
-          "timestamp": "20220926153546",
-          "digest": "CMSAXIVUDEXCXFISJOMWJHWJFRGMGEEJ"
-        },
-        {
-          "timestamp": "20220925232815",
-          "digest": "ZJPMQLI6Z5IVYJXZ4A6PXSWEYRF7N6RA"
-        },
-        {
-          "timestamp": "20220924224004",
-          "digest": "GF5LQ6S7F4JUXPRTUVIEL5CITRHDNYJ3"
-        },
-        {
-          "timestamp": "20220924012600",
-          "digest": "CVWHG66W3T23RJI7T22UU6FK6T5RUZOW"
-        }
-      ]
-    },
-    {
-      "company": "Pacific Fusion",
-      "url": "https://pacificfusion.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20190806203253",
-      "latest_digest": "5IHBXLJZPU7IWB6K3UAERTAP4R7IFSKQ",
-      "prior_digest": "FJ6KSL6BUCLWU4ETA3A7IR54AXARYNR5",
-      "snapshots": [
-        {
-          "timestamp": "20190806203253",
-          "digest": "5IHBXLJZPU7IWB6K3UAERTAP4R7IFSKQ"
-        },
-        {
-          "timestamp": "20150331033220",
-          "digest": "FJ6KSL6BUCLWU4ETA3A7IR54AXARYNR5"
-        },
-        {
-          "timestamp": "20150228140700",
-          "digest": "OQSDOBJLZ75UWT6H3R7CDK52YNOKCMEV"
-        },
-        {
-          "timestamp": "20141218015951",
-          "digest": "LRNIAAMCBTKM5IPLY2XYBEZEMPUHTWT4"
-        },
-        {
-          "timestamp": "20140623080558",
-          "digest": "HLOOUJGJWHCH7QVAUQYCIA7RFU522YKR"
-        }
-      ]
-    },
-    {
-      "company": "Fuse Energy",
-      "url": "https://f.energy",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20240325201851",
-      "latest_digest": "HPLYAUX4PE6N6CR4VPEI47LEX5NMAKMK",
-      "prior_digest": "CE2SBBRIDDLWGZ6JZX2OR4VEBGEHYLWE",
-      "snapshots": [
-        {
-          "timestamp": "20240325201851",
-          "digest": "HPLYAUX4PE6N6CR4VPEI47LEX5NMAKMK"
-        },
-        {
-          "timestamp": "20240118212037",
-          "digest": "CE2SBBRIDDLWGZ6JZX2OR4VEBGEHYLWE"
-        },
-        {
-          "timestamp": "20231030182010",
-          "digest": "NG626DABRCS727ADKHOUPZX7BOMCDFXZ"
-        },
-        {
-          "timestamp": "20230526101830",
-          "digest": "LQAZES7V33MRAC757FUPVO4IQ2ZY5W7A"
-        },
-        {
-          "timestamp": "20230502121825",
-          "digest": "WVKK5ANSKSKR74D7JR7Y4FSJA4PMFWT3"
-        }
-      ]
-    },
-    {
-      "company": "Stoke Space",
-      "url": "https://www.stokespace.com/",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Muon Space",
-      "url": "https://muonspace.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Planet Labs",
-      "url": "https://planet.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Astroscale",
-      "url": "https://astroscale.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Outpost Space",
-      "url": "https://outpostspace.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Proteus Space",
-      "url": "https://proteus-space.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20231205232351",
-      "latest_digest": "OTHS74QF6JQCJ4C2N5KTKI3KAPIBU6ZM",
-      "prior_digest": "ECHZPL36VIMYXK3SLVR5W4KX4C63CZG7",
-      "snapshots": [
-        {
-          "timestamp": "20231205232351",
-          "digest": "OTHS74QF6JQCJ4C2N5KTKI3KAPIBU6ZM"
-        },
-        {
-          "timestamp": "20231016151405",
-          "digest": "ECHZPL36VIMYXK3SLVR5W4KX4C63CZG7"
-        },
-        {
-          "timestamp": "20231011121041",
-          "digest": "KK5QSMJN25PW2WUXSOQROC7P7VBTNCL6"
-        },
-        {
-          "timestamp": "20230522050240",
-          "digest": "DB5A5TRQEHAC3DEO5LGNYPC3KQGBCMG3"
-        },
-        {
-          "timestamp": "20230331220915",
-          "digest": "CUWEH5AKJJVZW4CPKAVRCDIGOSRHJS4X"
-        }
-      ]
-    },
-    {
-      "company": "Ursa Major Technologies",
-      "url": "https://ursamajor.com",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20211127055857",
-      "latest_digest": "CLXYJH73B5SSZH5SRQHKUR6TM6MFGVED",
-      "prior_digest": "KI6TJMAYCXLMQLORSLC4PO5LQZZCI7LI",
-      "snapshots": [
-        {
-          "timestamp": "20211127055857",
-          "digest": "CLXYJH73B5SSZH5SRQHKUR6TM6MFGVED"
-        },
-        {
-          "timestamp": "20141218075211",
-          "digest": "KI6TJMAYCXLMQLORSLC4PO5LQZZCI7LI"
-        },
-        {
-          "timestamp": "20080208105556",
-          "digest": "XK3BBHGUAPYCT7BR52ZXBBYKQJYXLLRY"
-        },
-        {
-          "timestamp": "20070509181136",
-          "digest": "JTC3CZHQNJFVRWYIUL6TLWTSXO62A57U"
-        },
-        {
-          "timestamp": "20050207124618",
-          "digest": "66VFJTS4R26VUKPVDAMWQNKPFJOGQPEI"
-        }
-      ]
-    },
-    {
-      "company": "AST SpaceMobile",
-      "url": "https://astspacemobile.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Destinus",
-      "url": "https://destinus.ch",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20220531032905",
-      "latest_digest": "UVW5PV55IXRGHVS6ZUX6LXM3EFSAFHIA",
-      "prior_digest": "Z2WZH6235GJJ77QG3FZFM2LLI7MCDHN5",
-      "snapshots": [
-        {
-          "timestamp": "20220531032905",
-          "digest": "UVW5PV55IXRGHVS6ZUX6LXM3EFSAFHIA"
-        },
-        {
-          "timestamp": "20220506093737",
-          "digest": "Z2WZH6235GJJ77QG3FZFM2LLI7MCDHN5"
-        },
-        {
-          "timestamp": "20220408144026",
-          "digest": "AOMMPEXXSIP4Q7QX3N6UCB7A5PFQEHLV"
-        },
-        {
-          "timestamp": "20220330074606",
-          "digest": "DIMCVVZH5QVADPAYULNE4AWVMGPWM2MF"
-        },
-        {
-          "timestamp": "20220101230245",
-          "digest": "AOMMPEXXSIP4Q7QX3N6UCB7A5PFQEHLV"
-        }
-      ]
-    },
-    {
-      "company": "Dynamo Air",
-      "url": "https://dynamoair.com",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,

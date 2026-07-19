@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-12T09:47:02.196902+00:00",
-  "week_ending": "2026-07-12",
+  "generated_at": "2026-07-19T09:48:09.292998+00:00",
+  "week_ending": "2026-07-19",
   "window_days": 7,
   "events_processed": 5,
-  "companies_touched": 4,
+  "companies_touched": 5,
   "companies_moved": 1,
-  "companies_unchanged": 3,
+  "companies_unchanged": 1,
   "movers_up_top20": [
     {
-      "company": "Intuitive Machines",
+      "company": "AST SpaceMobile",
       "delta": 1.5,
-      "new_composite": 63.0,
-      "old_composite": 61.5,
-      "new_tier": "strong",
+      "new_composite": 74.0,
+      "old_composite": 72.5,
+      "new_tier": "leader",
       "reasons": [
         "[exec_hire_star] "
       ]
@@ -23,44 +23,44 @@
   "first_time_elite": [],
   "top_headlines": [
     {
-      "company": "Rivian",
+      "company": "Databricks",
+      "type": "funding_mega",
+      "detail": "Funding Round $188B",
+      "date": "2026-07-17",
+      "source": "funding_feed",
+      "url": ""
+    },
+    {
+      "company": "OpenAI",
+      "type": "funding_mega",
+      "detail": "Funding Round $2B",
+      "date": "2026-07-15",
+      "source": "funding_feed",
+      "url": ""
+    },
+    {
+      "company": "C3.ai",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-07-09",
+      "date": "2026-07-17",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-081988%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001577526-26-000092%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "AST SpaceMobile",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-07-15",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001493152-26-033365%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "D-Wave Quantum",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-07-07",
+      "date": "2026-07-14",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000097%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Intuitive Machines",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-07-06",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-080566%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Rivian",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-07-06",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-080813%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Satellogic",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-07-06",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-075561%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000099%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {
