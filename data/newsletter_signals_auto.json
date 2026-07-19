@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-12T10:23:18+00:00",
+  "generatedAt": "2026-07-19T10:21:50+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 4
     },
     {
       "name": "Newcomer (Eric Newcomer)",
@@ -18,7 +18,7 @@
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 20
+      "recentItems": 13
     },
     {
       "name": "Construction Physics (Brian Potter)",
@@ -30,7 +30,7 @@
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 1
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
@@ -48,7 +48,7 @@
       "name": "Bismarck Brief (Samo Burja)",
       "url": "https://brief.bismarckanalysis.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 2
     },
     {
       "name": "TechCrunch \u00b7 Venture",
@@ -60,7 +60,7 @@
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 9
+      "recentItems": 10
     },
     {
       "name": "404 Media",
@@ -78,17 +78,17 @@
       "name": "Stratechery (Ben Thompson)",
       "url": "https://stratechery.com/feed/",
       "totalItems": 10,
-      "recentItems": 4
+      "recentItems": 8
     },
     {
       "name": "Platformer (Casey Newton)",
       "url": "https://www.platformer.news/rss",
       "totalItems": 15,
-      "recentItems": 4
+      "recentItems": 5
     }
   ],
-  "totalRawSignals": 30,
-  "uniqueCandidateCount": 30,
+  "totalRawSignals": 28,
+  "uniqueCandidateCount": 28,
   "candidates": [
     {
       "name": "Muse Image",
@@ -125,44 +125,6 @@
           "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
           "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
           "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
-        }
-      ]
-    },
-    {
-      "name": "LangChain",
-      "totalScore": 16.15,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "LangChain",
-          "score": 16.15,
-          "frontierTechScore": 2,
-          "mentions": 2,
-          "context": "red memory  as a simple, extensible substrate, and that idea rapidly turned into product releases.  LangChain  launched  OpenWiki , a tool to generate and maintain agent-consumable codebase docs with ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "OpenWiki",
-      "totalScore": 16.15,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "OpenWiki",
-          "score": 16.15,
-          "frontierTechScore": 2,
-          "mentions": 2,
-          "context": "le, extensible substrate, and that idea rapidly turned into product releases.  LangChain  launched  OpenWiki , a tool to generate and maintain agent-consumable codebase docs with  openwiki --init   @B",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
         }
       ]
     },
@@ -262,6 +224,63 @@
       ]
     },
     {
+      "name": "LTX",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "LTX",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ade  Lucy 2.5 Realtime  available over WebRTC for live video-to-video editing.  fal  also launched  LTX-2.3 Reframe  for aspect-ratio conversion with generated scene completion. Meta expanded media mo",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "articleUrl": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+          "articleDate": "Fri, 17 Jul 2026 01:46:36 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Reframe",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Reframe",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "y 2.5 Realtime  available over WebRTC for live video-to-video editing.  fal  also launched  LTX-2.3 Reframe  for aspect-ratio conversion with generated scene completion. Meta expanded media model dist",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "articleUrl": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+          "articleDate": "Fri, 17 Jul 2026 01:46:36 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Inkling",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Inkling",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "an  opt in/out  of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundation model family entry, positioning it as a cu",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+          "articleUrl": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+          "articleDate": "Thu, 16 Jul 2026 06:18:05 GMT"
+        }
+      ]
+    },
+    {
       "name": "ManusAI",
       "totalScore": 10.2,
       "sourceCount": 1,
@@ -300,40 +319,21 @@
       ]
     },
     {
-      "name": "FLARE-AI",
-      "totalScore": 10.2,
+      "name": "Walden Robotics",
+      "totalScore": 9.6,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "FLARE-AI",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "Walden Robotics",
+          "score": 9.6,
+          "frontierTechScore": 4,
           "mentions": 1,
-          "context": "imulations  @RekaAILabs . There is also a push toward better reporting pipelines for AI failures :  FLARE-AI , launched with a coalition spanning cyber and AI safety researchers, aims to standardize  ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Nano Banana",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Nano Banana",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "chase17 ,  @BraceSproul ) Models, benchmarks, and media releases Google launched two media models:  Nano Banana 2 Lite  for images and  Gemini Omni Flash  for video generation/editing. Reported specs ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
-          "articleUrl": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
-          "articleDate": "Wed, 01 Jul 2026 03:01:09 GMT"
+          "context": "ular-sized robots can raise money, too, and it seems like they can do more than that. On Wednesday, Walden Robotics came out of stealth with $300 million in seed funding at a $1.1 billion valuation co",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #202",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
+          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
         }
       ]
     },
@@ -376,63 +376,6 @@
       ]
     },
     {
-      "name": "GLM",
-      "totalScore": 7.65,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "GLM",
-          "score": 7.65,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "neration at 98.7% quality retention . Open model ecosystem momentum :  @Zai_org launching ZCode for GLM-5.2  and  @TogetherCompute announcing its $800M Series C at an $8.3B valuation . High-signal too",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "TogetherCompute",
-      "totalScore": 7.65,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "TogetherCompute",
-          "score": 7.65,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "7% quality retention . Open model ecosystem momentum :  @Zai_org launching ZCode for GLM-5.2  and  @TogetherCompute announcing its $800M Series C at an $8.3B valuation . High-signal tooling and knowle",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "High",
-      "totalScore": 7.65,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "High",
-          "score": 7.65,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "hing ZCode for GLM-5.2  and  @TogetherCompute announcing its $800M Series C at an $8.3B valuation . High-signal tooling and knowledge-layer releases :  @LangChain/OpenWiki  and  @cognition/Devin Secur",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
-        }
-      ]
-    },
-    {
       "name": "Oratomic",
       "totalScore": 7.0,
       "sourceCount": 1,
@@ -452,192 +395,211 @@
       ]
     },
     {
-      "name": "Security",
-      "totalScore": 5.95,
+      "name": "On Wednesday",
+      "totalScore": 6.6,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Security",
-          "score": 5.95,
-          "frontierTechScore": 2,
+          "name": "On Wednesday",
+          "score": 6.6,
+          "frontierTechScore": 4,
           "mentions": 1,
-          "context": "n-in patterns, and code-enforced orchestration\u2014showed up repeatedly across products and benchmarks. Security, Evaluation, and Agentic MapReduce Cognition\u2019s Devin Security Swarm is one of the clearer e",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+          "context": "n Robotics Regular-sized robots can raise money, too, and it seems like they can do more than that. On Wednesday, Walden Robotics came out of stealth with $300 million in seed funding at a $1.1 billio",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #202",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
+          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
         }
       ]
     },
     {
-      "name": "Evaluation",
-      "totalScore": 5.95,
+      "name": "Toyota Research Institute",
+      "totalScore": 6.6,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Evaluation",
-          "score": 5.95,
-          "frontierTechScore": 2,
+          "name": "Toyota Research Institute",
+          "score": 6.6,
+          "frontierTechScore": 4,
           "mentions": 1,
-          "context": "rns, and code-enforced orchestration\u2014showed up repeatedly across products and benchmarks. Security, Evaluation, and Agentic MapReduce Cognition\u2019s Devin Security Swarm is one of the clearer examples of",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+          "context": " North American Toyota factory, too.  The Toyota connection makes sense, because Walden spun out of Toyota Research Institute in January. CEO Russ Tedrake, an MIT professor who led TRI\u2019s robotics and ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #202",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
+          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
         }
       ]
     },
     {
-      "name": "Agentic MapReduce Cognition",
-      "totalScore": 5.95,
+      "name": "CEO Russ Tedrake",
+      "totalScore": 6.6,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Agentic MapReduce Cognition",
-          "score": 5.95,
-          "frontierTechScore": 2,
+          "name": "CEO Russ Tedrake",
+          "score": 6.6,
+          "frontierTechScore": 4,
           "mentions": 1,
-          "context": "forced orchestration\u2014showed up repeatedly across products and benchmarks. Security, Evaluation, and Agentic MapReduce Cognition\u2019s Devin Security Swarm is one of the clearer examples of agent architect",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+          "context": "The Toyota connection makes sense, because Walden spun out of Toyota Research Institute in January. CEO Russ Tedrake, an MIT professor who led TRI\u2019s robotics and machine learning team for nearly a dec",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #202",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
+          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
         }
       ]
     },
     {
-      "name": "ZCode",
+      "name": "Vids",
       "totalScore": 5.95,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "ZCode",
+          "name": "Vids",
           "score": 5.95,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": " faster generation at 98.7% quality retention . Open model ecosystem momentum :  @Zai_org launching ZCode for GLM-5.2  and  @TogetherCompute announcing its $800M Series C at an $8.3B valuation . High-",
+          "context": "ive minutes. Multimodal Video, Real-Time Media, and Creative Tooling Google pushed Gemini Omni into Vids :  Google  and  Google Workspace  launched  Gemini Omni  for video generation/editing in  Googl",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] not much happened today",
-          "articleUrl": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-          "articleDate": "Thu, 02 Jul 2026 07:10:14 GMT"
+          "articleTitle": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "articleUrl": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+          "articleDate": "Fri, 17 Jul 2026 01:46:36 GMT"
         }
       ]
     },
     {
-      "name": "BraceSproul",
+      "name": "WebRTC",
       "totalScore": 5.95,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "BraceSproul",
+          "name": "WebRTC",
           "score": 5.95,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "at the hard part is not the storage backend but the condensation/retrieval process ( @hwchase17 ,  @BraceSproul ) Models, benchmarks, and media releases Google launched two media models:  Nano Banana ",
+          "context": "y 2.5 , a more capable realtime live AI video editor;  fal  made  Lucy 2.5 Realtime  available over WebRTC for live video-to-video editing.  fal  also launched  LTX-2.3 Reframe  for aspect-ratio conve",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
-          "articleUrl": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
-          "articleDate": "Wed, 01 Jul 2026 03:01:09 GMT"
+          "articleTitle": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "articleUrl": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+          "articleDate": "Fri, 17 Jul 2026 01:46:36 GMT"
         }
       ]
     },
     {
-      "name": "Models",
+      "name": "What",
       "totalScore": 5.95,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Models",
+          "name": "What",
           "score": 5.95,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "rt is not the storage backend but the condensation/retrieval process ( @hwchase17 ,  @BraceSproul ) Models, benchmarks, and media releases Google launched two media models:  Nano Banana 2 Lite  for im",
+          "context": "News is now a section of Latent Space . You can  opt in/out  of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundati",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
-          "articleUrl": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
-          "articleDate": "Wed, 01 Jul 2026 03:01:09 GMT"
+          "articleTitle": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+          "articleUrl": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+          "articleDate": "Thu, 16 Jul 2026 06:18:05 GMT"
         }
       ]
     },
     {
-      "name": "Lite",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Lite",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "aceSproul ) Models, benchmarks, and media releases Google launched two media models:  Nano Banana 2 Lite  for images and  Gemini Omni Flash  for video generation/editing. Reported specs included  <4s ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
-          "articleUrl": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
-          "articleDate": "Wed, 01 Jul 2026 03:01:09 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Doug Bernauer",
+      "name": "Toyota",
       "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Doug Bernauer",
+          "name": "Toyota",
           "score": 5.4,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "r a decade. In 2023, we invested in  Radiant , a microreactor startup founded by ex-SpaceX engineer Doug Bernauer. Doug started Radiant to tackle a bottleneck of his own: if we wanted to power a Mars ",
+          "context": " $300 million in seed funding at a $1.1 billion valuation co-led by Deviation Capital and a trio of Toyota investors (Toyota Motor Corp, Toyota Invention Partners, and Toyota Ventures). Its robots are",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "America's Next 250",
-          "articleUrl": "https://www.notboring.co/p/americas-next-250",
-          "articleDate": "Thu, 02 Jul 2026 14:06:26 GMT"
+          "articleTitle": "Weekly Dose of Optimism #202",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
+          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
         }
       ]
     },
     {
-      "name": "Doug",
+      "name": "Toyota Motor Corp",
       "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Doug",
+          "name": "Toyota Motor Corp",
           "score": 5.4,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "2023, we invested in  Radiant , a microreactor startup founded by ex-SpaceX engineer Doug Bernauer. Doug started Radiant to tackle a bottleneck of his own: if we wanted to power a Mars civilization, w",
+          "context": "eed funding at a $1.1 billion valuation co-led by Deviation Capital and a trio of Toyota investors (Toyota Motor Corp, Toyota Invention Partners, and Toyota Ventures). Its robots are already doing use",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "America's Next 250",
-          "articleUrl": "https://www.notboring.co/p/americas-next-250",
-          "articleDate": "Thu, 02 Jul 2026 14:06:26 GMT"
+          "articleTitle": "Weekly Dose of Optimism #202",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
+          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
         }
       ]
     },
     {
-      "name": "Reddit",
-      "totalScore": 4.2,
+      "name": "Walden",
+      "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Reddit",
-          "score": 4.2,
+          "name": "Walden",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "ng useful work in a North American Toyota factory, too.  The Toyota connection makes sense, because Walden spun out of Toyota Research Institute in January. CEO Russ Tedrake, an MIT professor who led ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #202",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
+          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Hermes",
+      "totalScore": 3.5,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Hermes",
+          "score": 3.5,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": " \u201cin the age of AI, spam, bot activity, and inauthentic content are top of mind for people who love Reddit (and humans).\u201d In the last few weeks, Reddit launched an ad campaign called \u201cpeople are best\u201d",
-          "source": "404 Media",
-          "sourceUrl": "https://www.404media.co/feed",
-          "articleTitle": "LinkedIn and X Are Flooded With AI Spam, Browsing Data Suggests",
-          "articleUrl": "https://www.404media.co/linkedin-and-x-are-flooded-with-ai-spam-browsing-data-suggests/",
-          "articleDate": "Thu, 09 Jul 2026 13:22:11 GMT"
+          "context": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation\nThe company is raising ",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+          "articleUrl": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+          "articleDate": "Mon, 13 Jul 2026 23:31:18 +0000"
+        }
+      ]
+    },
+    {
+      "name": "Nous Research",
+      "totalScore": 3.5,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Nous Research",
+          "score": 3.5,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation\nThe company is raising at least $75 millio",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+          "articleUrl": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+          "articleDate": "Mon, 13 Jul 2026 23:31:18 +0000"
         }
       ]
     },
