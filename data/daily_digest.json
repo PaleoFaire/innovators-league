@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T00:04:22.303086+00:00",
+  "generatedAt": "2026-07-20T03:55:18.524549+00:00",
   "date": "2026-07-20",
   "dateDisplay": "Monday, July 20, 2026",
   "sections": {
@@ -73,6 +73,13 @@
         "change": -8.08
       },
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 373500.0,
+        "changePercent": -17.64,
+        "change": -80000.0
+      },
+      {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
         "price": 2.94,
@@ -99,13 +106,6 @@
         "price": 13.52,
         "changePercent": -16.23,
         "change": -2.62
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 3.82,
-        "changePercent": -15.86,
-        "change": -0.72
       }
     ],
     "regulatory": [
