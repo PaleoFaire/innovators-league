@@ -1,23 +1,16 @@
 {
-  "date": "2026-07-19",
-  "display_date": "Jul 19, 2026",
-  "generated_at": "2026-07-19T10:53:25.261605+00:00",
-  "cutoff": "2026-07-12T10:53:25.261605+00:00",
+  "date": "2026-07-20",
+  "display_date": "Jul 20, 2026",
+  "generated_at": "2026-07-20T12:20:25.760004+00:00",
+  "cutoff": "2026-07-13T12:20:25.760004+00:00",
   "section_count": 7,
-  "total_items": 306,
+  "total_items": 309,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
       "count": 64,
       "items": [
-        {
-          "company": "Scale AI",
-          "current": 43.0,
-          "previous": 47.0,
-          "change": -4.0,
-          "tier": "early"
-        },
         {
           "company": "Onebrief",
           "current": 39.0,
@@ -76,6 +69,13 @@
         },
         {
           "company": "Perennial Autonomy",
+          "current": 38.5,
+          "previous": 35.5,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Kratos Defense",
           "current": 38.5,
           "previous": 35.5,
           "change": 3.0,
@@ -162,71 +162,79 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 38,
+      "count": 37,
       "items": [
         {
-          "title": "Request for Nominations for Members To Serve on National Institute of Standards and Technology Federal Advisory Committe",
+          "title": "Pipeline Safety: Joint Meeting of the Gas and Liquid Pipeline Advisory Committees",
           "type": "Notice",
           "agencies": [
-            "Commerce Department",
-            "National Institute of Standards and Technology"
+            "Transportation Department",
+            "Pipeline and Hazardous Materials Safety Administration"
           ],
           "significant": false,
-          "date": "2026-07-20"
+          "date": "2026-07-17"
         },
         {
-          "title": "Endangered and Threatened Wildlife and Plants; Reclassification of the Hawaiian Stilt (Kukuluae'o or Ae'o) From Endanger",
-          "type": "Rule",
-          "agencies": [
-            "Interior Department",
-            "Fish and Wildlife Service"
-          ],
-          "significant": false,
-          "date": "2026-07-20"
-        },
-        {
-          "title": "Notice of Action: Brazil's Acts, Policies, and Practices Related to Digital Trade and Electronic Payment Services; Unfai",
-          "type": "Notice",
-          "agencies": [
-            "Trade Representative, Office of United States"
-          ],
-          "significant": false,
-          "date": "2026-07-20"
-        },
-        {
-          "title": "Public Charge Ground of Inadmissibility",
+          "title": "Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exc",
           "type": "Rule",
           "agencies": [
             "Homeland Security Department"
           ],
           "significant": false,
-          "date": "2026-07-20"
+          "date": "2026-07-17"
         },
         {
-          "title": "Public Hearing on Improving America's Maritime Seapower",
-          "type": "Notice",
+          "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices",
+          "type": "Proposed Rule",
           "agencies": [
-            "National Commission on the Future of the Navy"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-07-20"
+          "date": "2026-07-16"
         },
         {
-          "title": "Modifying the Grand Staircase-Escalante National Monument",
-          "type": "Presidential Document",
+          "title": "Enhanced Favorable Treatment for the United Arab Emirates Under the Export Administration Regulations",
+          "type": "Rule",
           "agencies": [
-            "Executive Office of the President"
+            "Commerce Department",
+            "Industry and Security Bureau"
+          ],
+          "significant": false,
+          "date": "2026-07-14"
+        },
+        {
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
+          "agencies": [
+            "Postal Service"
           ],
           "significant": false,
           "date": "2026-07-17"
+        },
+        {
+          "title": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Pa",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Health and Human Services Department",
+            "Centers for Medicare & Medicaid Services"
+          ],
+          "significant": false,
+          "date": "2026-07-16"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 30,
+      "count": 26,
       "items": [
+        {
+          "title": "SpaceX Is Secretly Winning the AI War on Earth \u2014 $82 Billion Run Rate Incoming",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "hire"
+        },
         {
           "title": "Databricks hits $188B valuation, extending its run as AI&#8217;s favorite second act",
           "source": "TechCrunch",
@@ -249,20 +257,6 @@
           "type": "news"
         },
         {
-          "title": "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s IPO plans",
-          "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "$100+ Billion in Realized Value from the Temporary Anthropic AI Lead",
-          "source": "Next Big Future",
-          "company": "Anthropic",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
           "title": "Helsing secures $1.8B Series E,  Uber acquiring Delivery Hero in \u20ac13B deal, and Revolut to launch US",
           "source": "Tech.eu",
           "company": "Helsing",
@@ -277,9 +271,16 @@
           "type": "funding"
         },
         {
-          "title": "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
-          "source": "SpaceNews",
-          "company": "Skyroot Aerospace",
+          "title": "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPUs and Racks",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "medium",
+          "type": "ipo"
+        },
+        {
+          "title": "SpaceX Starship Flight 13 Pushed to Friday July 24, 2026",
+          "source": "Next Big Future",
+          "company": "SpaceX",
           "impact": "low",
           "type": "ipo"
         }
@@ -288,71 +289,81 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 48,
+      "count": 56,
       "items": [
         {
+          "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+          "score": 2316,
+          "comments": 247,
+          "companies": [
+            "Quilter",
+            "Built Robotics",
+            "Cape",
+            "Fortera",
+            "QuantWare",
+            "Xanadu Quantum Technologies",
+            "Bear Robotics",
+            "Pano AI",
+            "Humane",
+            "Figure AI",
+            "Scale AI",
+            "Diode",
+            "Twelve Labs",
+            "Tenstorrent",
+            "Earth AI",
+            "Durin",
+            "Hive AI"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48968606"
+        },
+        {
           "title": "LG monitors silently install software through Windows Update without consent",
-          "score": 1118,
-          "comments": 572,
+          "score": 1202,
+          "comments": 616,
           "companies": [
             "Runway"
           ],
           "url": "https://news.ycombinator.com/item?id=48956688"
         },
         {
-          "title": "Thanks HN for 15 years of support and helping me find my life's work",
-          "score": 802,
-          "comments": 100,
+          "title": "Qwen 3.8",
+          "score": 879,
+          "comments": 606,
           "companies": [
-            "Built Robotics",
-            "Tenstorrent",
-            "Alpha School",
-            "Xanadu Quantum Technologies"
+            "Rigetti Computing"
           ],
-          "url": "https://news.ycombinator.com/item?id=48949551"
+          "url": "https://news.ycombinator.com/item?id=48966120"
         },
         {
           "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-          "score": 559,
-          "comments": 357,
+          "score": 592,
+          "comments": 386,
           "companies": [
-            "Fortera",
-            "OpenAI"
+            "OpenAI",
+            "Fortera"
           ],
           "url": "https://news.ycombinator.com/item?id=48957779"
         },
         {
-          "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
-          "score": 550,
-          "comments": 371,
+          "title": "Claude Code uses Bun written in Rust now",
+          "score": 517,
+          "comments": 683,
           "companies": [
-            "Matter",
-            "Asylon Robotics",
-            "Hippocratic AI",
-            "ideaForge"
+            "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=48952880"
+          "url": "https://news.ycombinator.com/item?id=48966569"
         },
         {
-          "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
-          "score": 526,
-          "comments": 303,
+          "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+          "score": 490,
+          "comments": 222,
           "companies": [
-            "Atmo",
-            "Earth AI",
-            "Planet Labs"
+            "QuantWare",
+            "Quilter",
+            "Diode",
+            "Humane"
           ],
-          "url": "https://news.ycombinator.com/item?id=48947560"
-        },
-        {
-          "title": "The state of open source AI",
-          "score": 479,
-          "comments": 351,
-          "companies": [
-            "Tenstorrent",
-            "Xanadu Quantum Technologies"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48947825"
+          "url": "https://news.ycombinator.com/item?id=48966713"
         }
       ]
     },
@@ -362,37 +373,37 @@
       "count": 109,
       "items": [
         {
-          "title": "4DMT Announces Positive 2-Year Data from PRISM Phase 2b Clinical Trial in a Broad Wet AMD Population",
+          "title": "Man Group PLC : Form 8.3 - Senior plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "UFC Names Meridian Holdings Official Sponsor of Fight Night Belgrade",
+          "title": "Webuy Expands China Inbound Travel Capabilities Through Strategic Partnership with Moyu Travel and MeetPanda",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "What Every XFLT Shareholder Needs to Know for XFLT's Proxy Contest",
+          "title": "Man Group PLC : Form 8.3 - JTC Plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Unexpected passing of Chief Financial Officer Rasmus Lund",
+          "title": "Man Group PLC : Form 8.3 - Gamma Communications Plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Uventet d\u00f8dsfald af Chief Financial Officer Rasmus Lund",
+          "title": "Man Group PLC : Form 8.3 - AMG Critical Materials N.V",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "LEPAS L4 EV Set to Launch: Celebrating Football's Defining Moments with Elegant Performance",
+          "title": "Man Group PLC : Form 8.3 - DCC Energy Plc",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-07-19-d936a3d11e22"
+  "brief_id": "brief-2026-07-20-9eadac192056"
 }
