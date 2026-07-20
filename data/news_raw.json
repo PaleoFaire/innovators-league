@@ -1,23 +1,87 @@
 [
   {
-    "title": "Inference startup Infinity raises $15M from Touring Capital, OpenAI and Athropic researchers",
+    "title": "Inference startup Infinity raises $15M from Touring Capital, OpenAI and Anthropic researchers",
     "link": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/",
     "description": "AI infrastructure company Infinity announced Monday a $15 million raise at a $100 million valuation from investors including Touring Capital, Principal VC, and researchers from companies such as OpenAI and Anthropic.",
     "pubDate": "Mon, 20 Jul 2026 15:15:00 +0000",
     "category": "Startups",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "OpenAI",
-      "Anthropic"
+      "Anthropic",
+      "OpenAI"
     ],
     "sectors": [
       "ai"
     ],
     "type": "funding",
     "impact": "high",
-    "time": "Just now"
+    "time": "2h ago"
+  },
+  {
+    "title": "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPU Racks from Foxconn",
+    "link": "https://www.nextbigfuture.com/2026/07/elon-musk-denies-report-spacex-was-buying-1-million-b300-gpus-and-racks.html",
+    "description": "There is a report that SpaceX has placed its first orders for Nvidia GB300-based AI servers to Taiwan’s Foxconn. SpaceX will buy 13,000 racks for about 1 million GPUs/ It is a deal worth an estimated US$52 billion, ($4M each rack). It is a Taiwan media report citing unnamed industry sources. SpaceX ",
+    "pubDate": "Mon, 20 Jul 2026 08:25:04 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Dust"
+    ],
+    "sectors": [
+      "space",
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "medium",
+    "time": "9h ago"
+  },
+  {
+    "title": "SpaceX Starship Flight 13 Pushed to Friday July 24, 2026",
+    "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-pushed-to-friday-july-24-2026.html",
+    "description": "SpaceX is now targeting to launch Starship’s thirteenth flight test Friday, July 24 Next Starship launch attempt on Friday https://t.co/eLZC60Eg91 &#8212; Elon Musk (@elonmusk) July 19, 2026",
+    "pubDate": "Mon, 20 Jul 2026 00:21:04 +0000",
+    "category": "Space",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "17h ago"
+  },
+  {
+    "title": "SpaceX Is Secretly Winning the AI War on Earth — $82 Billion Run Rate Incoming",
+    "link": "https://www.nextbigfuture.com/2026/07/spacex-is-secretly-winning-the-ai-war-on-earth-82-billion-run-rate-incoming.html",
+    "description": "A highly detailed, month-by-month financial model for xAI/SpaceX’s AI data center leasing business. This highlights three existing major leasing deals already in place worth $27.8 billion annualized. Google deal ramping to nearly $1 billion per month (fully online by October) and predicts 1–2 additi",
+    "pubDate": "Sun, 19 Jul 2026 15:08:55 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Astera Labs",
+      "Rebellions",
+      "xAI"
+    ],
+    "sectors": [
+      "space",
+      "chips",
+      "ai"
+    ],
+    "type": "hire",
+    "impact": "high",
+    "time": "1d ago"
   },
   {
     "title": "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
@@ -83,7 +147,34 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
+  },
+  {
+    "title": "SpaceXAI Provides Near IMMEDIATE Gigawatt Scale AI Data Center Capacity",
+    "link": "https://www.nextbigfuture.com/2026/07/spacexai-provides-near-immediate-gigawatt-scale-ai-data-center-capacity.html",
+    "description": "SpaceX AI leasing deals worth $28 billion annualized and earn roughly 3–5x more revenue per MW than traditional multi-year cloud commitments. SemiAnalysis explains that SpaceX is selling IMMEDIACY. If you need a lot of AI data center then you can get it now or in months. Anthropic got 300 MW usable ",
+    "pubDate": "Fri, 17 Jul 2026 15:41:21 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Scale AI",
+    "matchedCompanies": [
+      "Scale AI",
+      "SpaceX",
+      "Anthropic",
+      "Astera Labs",
+      "Rebellions",
+      "xAI"
+    ],
+    "sectors": [
+      "defense",
+      "space",
+      "ai",
+      "chips"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3d ago"
   },
   {
     "title": "Helsing secures $1.8B Series E,  Uber acquiring Delivery Hero in €13B deal, and Revolut to launch US bank in 2027",
@@ -266,7 +357,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
@@ -285,7 +376,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
@@ -304,7 +395,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Icarus Robotics taps KULR to provide batteries for Space Station robots",
