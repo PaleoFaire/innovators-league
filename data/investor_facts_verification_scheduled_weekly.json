@@ -1,60 +1,427 @@
 {
-  "generatedAt": "2026-07-13T10:26:10+00:00",
+  "generatedAt": "2026-07-20T10:00:11+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
   "cohortSize": 11,
-  "newExtractionsThisRun": 0,
+  "newExtractionsThisRun": 11,
   "summary": {
-    "cleared": 0,
-    "changesProposed": 0,
-    "unverifiable": 11
+    "cleared": 7,
+    "changesProposed": 4,
+    "unverifiable": 0
   },
-  "cleared": [],
-  "changesProposed": [],
-  "unverifiable": [
-    {
-      "name": "Caffeinated Capital",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cantos Ventures",
-      "reason": "Claude extraction failed"
-    },
+  "cleared": [
+    "Caffeinated Capital",
+    "Cantos Ventures",
+    "Eclipse Ventures",
+    "General Catalyst",
+    "Harpoon Ventures",
+    "Point72 Ventures",
+    "Shield Capital"
+  ],
+  "changesProposed": [
     {
       "name": "DCVC",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Eclipse Ventures",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "DCVC",
+        "shortName": "DCVC",
+        "aum": "$4B+",
+        "flagshipFund": "DCVC Fund VI",
+        "founded": 2011,
+        "hq": "Palo Alto, CA",
+        "website": "https://dcvc.com"
+      },
+      "verified": {
+        "name": "DCVC",
+        "short_name": "DCVC",
+        "aum": "$4B+",
+        "flagship_fund": null,
+        "founded_year": null,
+        "hq": "Palo Alto, CA",
+        "key_partners": [
+          "Matthew Ocko",
+          "Zachary Bogue",
+          "Dr. John Hamer",
+          "Dr. Kiersten Stead",
+          "Spencer Punter",
+          "James Hardiman",
+          "Jason Pontin",
+          "Dr. Rachel Slaybaugh",
+          "Ali Tamaseb",
+          "Milo Werner",
+          "Dr. Justin Kern",
+          "Alan Cohen"
+        ],
+        "sector_focus": [
+          "AI",
+          "Climate",
+          "Engineering",
+          "Materials Science",
+          "Robotics",
+          "Space",
+          "Water",
+          "Biology",
+          "Defense and Security"
+        ],
+        "thesis": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems using computational approaches and deep technology.",
+        "website": "https://dcvc.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "short_name": [
+            0,
+            1,
+            2
+          ],
+          "aum": [
+            1
+          ],
+          "hq": [
+            1
+          ],
+          "key_partners": [
+            2
+          ],
+          "sector_focus": [
+            1
+          ],
+          "thesis": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Founded year 2011 cannot be verified from sources; website states 'For 15 years' (as of 2026 content) suggesting 2011 but no explicit founding year stated. Sources describe 13 funds to date and six flagship funds, but no specific flagship fund name found. Partner Alan Cohen listed as Operating Partner on team page (source 2)."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems at the intersection of computational approaches and deep technology.",
+          "verified": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems using computational approaches and deep technology.",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://dcvc.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://dcvc.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://dcvc.com/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/companies",
+          "url": "https://dcvc.com/companies"
+        }
+      ],
+      "notes": "Founded year 2011 cannot be verified from sources; website states 'For 15 years' (as of 2026 content) suggesting 2011 but no explicit founding year stated. Sources describe 13 funds to date and six flagship funds, but no specific flagship fund name found. Partner Alan Cohen listed as Operating Partner on team page (source 2)."
     },
     {
       "name": "Engine Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "General Catalyst",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Harpoon Ventures",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Engine Ventures",
+        "shortName": "Engine",
+        "aum": "$1B+",
+        "flagshipFund": "Engine Ventures Fund III",
+        "founded": 2023,
+        "hq": "Cambridge, MA",
+        "website": "https://engine.xyz"
+      },
+      "verified": {
+        "name": "Engine Ventures",
+        "short_name": "Engine",
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": 2023,
+        "hq": "Cambridge, MA",
+        "key_partners": null,
+        "sector_focus": [
+          "Applied AI & ML",
+          "Computing",
+          "Mobility",
+          "Autonomous Systems / Robotics",
+          "Energy",
+          "Natural Resources",
+          "Biotech / Life Sciences",
+          "Food / Agriculture",
+          "Quantum Computing",
+          "Carbon Capture / CCUS"
+        ],
+        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "website": "https://engine.xyz",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            3
+          ],
+          "founded_year": [
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "sector_focus": [
+            1
+          ],
+          "thesis": [
+            3
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Engine Ventures is a separate venture capital firm that spun out from The Engine nonprofit in 2023. The Engine itself is a nonprofit incubator/accelerator founded by MIT in 2016. Wikipedia describes The Engine's investment fund separating and rebranding as Engine Ventures in 2023. No current AUM, flagship fund name, or key partner names could be verified from the provided sources. Source [4] is unrelated to Engine Ventures."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "verified": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "sources": [
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://engine.xyz"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://engine.xyz/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/companies",
+          "url": "https://engine.xyz/companies"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        },
+        {
+          "idx": 4,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/"
+        }
+      ],
+      "notes": "Engine Ventures is a separate venture capital firm that spun out from The Engine nonprofit in 2023. The Engine itself is a nonprofit incubator/accelerator founded by MIT in 2016. Wikipedia describes The Engine's investment fund separating and rebranding as Engine Ventures in 2023. No current AUM, flagship fund name, or key partner names could be verified from the provided sources. Source [4] is unrelated to Engine Ventures."
     },
     {
       "name": "Lightspeed Venture Partners",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Point72 Ventures",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Shield Capital",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Lightspeed Venture Partners",
+        "shortName": "Lightspeed",
+        "aum": "$9B+ (Dec 2025 raise)",
+        "flagshipFund": "Lightspeed Fund XIV",
+        "founded": 2000,
+        "hq": "Menlo Park, CA",
+        "website": "https://lsvp.com"
+      },
+      "verified": {
+        "name": "Lightspeed Venture Partners",
+        "short_name": "Lightspeed",
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": 2000,
+        "hq": "Menlo Park, CA",
+        "key_partners": [
+          "Barry Eggers",
+          "Peter Nieh",
+          "Ravi Mhatre",
+          "Guru Chahal"
+        ],
+        "sector_focus": null,
+        "thesis": "For over twenty years Lightspeed has been the first investor and an early backer of some of the most innovative companies in the world. The firm stands behind companies with high conviction from Seed to Series F and beyond.",
+        "website": "https://lsvp.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "short_name": [
+            0
+          ],
+          "founded_year": [
+            1
+          ],
+          "hq": [
+            1
+          ],
+          "key_partners": [
+            2
+          ],
+          "thesis": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Founded year 2000 cannot be verified from provided sources. Key partners extracted from team page listing only those with title 'Co-Founder' or 'Partner' (not 'Venture Partner'). Arif Janmohamed listed as 'Venture Partner' on team page, not current senior partner. AUM and flagship fund name not found in provided sources. Sector focus not explicitly listed in provided sources."
+      },
+      "changes": [
+        {
+          "field": "keyPartners",
+          "current": [
+            "Arif Janmohamed",
+            "Barry Eggers",
+            "Peter Nieh",
+            "Ravi Mhatre",
+            "Guru Chahal"
+          ],
+          "verified": [
+            "Barry Eggers",
+            "Peter Nieh",
+            "Ravi Mhatre",
+            "Guru Chahal"
+          ],
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://lsvp.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://lsvp.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://lsvp.com/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/portfolio",
+          "url": "https://lsvp.com/portfolio"
+        },
+        {
+          "idx": 4,
+          "src": "firm/companies",
+          "url": "https://lsvp.com/companies"
+        },
+        {
+          "idx": 5,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners"
+        }
+      ],
+      "notes": "Founded year 2000 cannot be verified from provided sources. Key partners extracted from team page listing only those with title 'Co-Founder' or 'Partner' (not 'Venture Partner'). Arif Janmohamed listed as 'Venture Partner' on team page, not current senior partner. AUM and flagship fund name not found in provided sources. Sector focus not explicitly listed in provided sources."
     },
     {
       "name": "Thrive Capital Management, LLC",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Thrive Capital Management, LLC",
+        "shortName": "Thrive Capital",
+        "aum": "$50B+",
+        "flagshipFund": "Thrive Capital Partners IX",
+        "founded": 2009,
+        "hq": "New York City, New York, U.S.",
+        "website": "https://thrivecap.com"
+      },
+      "verified": {
+        "name": "Thrive Capital Management, LLC",
+        "short_name": "Thrive Capital",
+        "aum": "$50B+",
+        "flagship_fund": "Thrive Capital Partners IX",
+        "founded_year": 2009,
+        "hq": "New York City, New York, U.S.",
+        "key_partners": [
+          "Joshua Kushner",
+          "Nitin Nohria"
+        ],
+        "sector_focus": [
+          "Software",
+          "Internet"
+        ],
+        "thesis": "Thrive Capital focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies, while simultaneously maintaining participation across early-stage, growth, and late-stage ventures.",
+        "website": "https://thrivecap.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "short_name": [
+            0
+          ],
+          "aum": [
+            0
+          ],
+          "flagship_fund": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "hq": [
+            0
+          ],
+          "key_partners": [
+            0
+          ],
+          "sector_focus": [
+            0
+          ],
+          "thesis": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "In August 2024, Thrive raised over $5 billion for Thrive IX, split between a $4 billion late-stage fund and a $1 billion early-stage fund. In February 2026, Thrive Capital raised $10B+ for Thrive Capital Partners X. Nitin Nohria became firm's first executive chairman in 2022."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Thrive Capital is an American venture capital firm that focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies. It simultaneously maintains participation across early-stage, growth, and late-stage investment rounds.",
+          "verified": "Thrive Capital focuses on software and internet investments. The firm invests heavily in fewer companies to provide closer relationships with founders and greater visibility into portfolio companies, while simultaneously maintaining participation across early-stage, growth, and late-stage ventures.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thrive_Capital_Management%2C_LLC"
+        }
+      ],
+      "notes": "In August 2024, Thrive raised over $5 billion for Thrive IX, split between a $4 billion late-stage fund and a $1 billion early-stage fund. In February 2026, Thrive Capital raised $10B+ for Thrive Capital Partners X. Nitin Nohria became firm's first executive chairman in 2022."
     }
-  ]
+  ],
+  "unverifiable": []
 }

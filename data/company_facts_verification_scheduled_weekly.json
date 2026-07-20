@@ -1,239 +1,1714 @@
 {
-  "generatedAt": "2026-07-13T10:24:15+00:00",
+  "generatedAt": "2026-07-20T09:57:59+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
   "cohortSize": 91,
-  "newExtractionsThisRun": 0,
+  "newExtractionsThisRun": 70,
   "summary": {
-    "cleared": 15,
-    "changesProposed": 0,
-    "unverifiable": 76
+    "cleared": 64,
+    "changesProposed": 20,
+    "unverifiable": 7
   },
   "cleared": [
-    "ARX Robotics",
+    "1X Technologies",
+    "44.01",
+    "AAVantgarde Bio",
+    "ABL Bio",
+    "Aeon Industrial",
+    "Aerospacelab",
+    "Aestus Industries",
+    "Aeva Technologies",
+    "Agile Robots",
     "AiDash",
+    "AlixLabs",
+    "Allen Control Systems",
+    "Amber Bio",
+    "Anduril Industries",
+    "Apis Cor",
+    "Archer Materials",
     "Ares Industries",
+    "Ark Robotics",
+    "Asimov",
     "Astranis",
-    "Axelera AI",
+    "Atana Elements",
+    "Atomic AI",
+    "Auriga Space",
+    "Aventra",
+    "Axelspace",
+    "Ayar Labs",
+    "BRINC Drones",
+    "Basecamp Research",
+    "Baykar",
     "Bedrock Robotics",
+    "Besxar Space Industries",
+    "Bethlehem Steel Corp",
+    "Blackstar",
     "Blykalla",
     "Boom Supersonic",
+    "BotBuilt",
     "Built Robotics",
+    "CORE POWER",
+    "Cailabs",
+    "Calogena",
+    "Candela",
+    "Cascade Space",
     "Cellares",
+    "Cerebras",
+    "Chariot Defense",
     "Chef Robotics",
     "Cognition",
     "Corintis",
+    "Creotech Instruments",
     "Cresilon",
-    "Dusty Robotics"
+    "Critical Energy",
+    "Critical Loop",
+    "Crusoe Energy",
+    "DEEPX",
+    "Defense Unicorns",
+    "Dexterity",
+    "Dhruva Space",
+    "Diraq",
+    "Dominion Dynamics",
+    "Dream Security",
+    "Dusty Robotics",
+    "Dynamo Air",
+    "EdgeRunner AI",
+    "Electra"
   ],
-  "changesProposed": [],
-  "unverifiable": [
-    {
-      "name": "1X Technologies",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "44.01",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "AAVantgarde Bio",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "ABL Bio",
-      "reason": "Claude extraction failed"
-    },
+  "changesProposed": [
     {
       "name": "ADASI",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "ADASI",
+        "founder": "EDGE Group",
+        "location": "Abu Dhabi, UAE",
+        "founded": 2010,
+        "fundingStage": "Sovereign (EDGE)",
+        "totalRaised": "Sovereign-funded",
+        "website": "https://adasi.ae"
+      },
+      "verified": {
+        "name": "ADASI",
+        "description": "Emirati defence and aerospace company specialising in autonomous and remotely operated unmanned systems for air, land and maritime domains. Headquartered in Abu Dhabi and a subsidiary of EDGE Group.",
+        "founders": null,
+        "location": "Abu Dhabi, United Arab Emirates",
+        "founded_year": 2007,
+        "current_stage": "Acquired",
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "EDGE Group"
+        ],
+        "website": "https://edgegroup.ae/adasi",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            1
+          ]
+        },
+        "notes": "Originally known as Abu Dhabi Autonomous Systems Investments. ADASI is a subsidiary of EDGE Group within the Platforms and Systems division, not an independent company. The database entry references UMEX 2026 products (Jeniah stealth UCAV, VORTEX-E counter-drone) which are not mentioned in Wikipedia source; Wikipedia's most recent product reference is Jernas-S and Jernas-M presented at Dubai Airshow November 2025. Source [0] appears to be an unrelated Japanese marketing platform also named 'Adasi' (https://adasi.ai), not the UAE defence company."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Abu Dhabi, UAE",
+          "verified": "Abu Dhabi, United Arab Emirates",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": 2010,
+          "verified": 2007,
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Sovereign (EDGE)",
+          "verified": "Acquired",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://adasi.ai"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ADASI"
+        }
+      ],
+      "notes": "Originally known as Abu Dhabi Autonomous Systems Investments. ADASI is a subsidiary of EDGE Group within the Platforms and Systems division, not an independent company. The database entry references UMEX 2026 products (Jeniah stealth UCAV, VORTEX-E counter-drone) which are not mentioned in Wikipedia source; Wikipedia's most recent product reference is Jernas-S and Jernas-M presented at Dubai Airshow November 2025. Source [0] appears to be an unrelated Japanese marketing platform also named 'Adasi' (https://adasi.ai), not the UAE defence company."
     },
     {
       "name": "AIR",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "AIR",
+        "founder": "Rani Plaut, Chen Rosen, Netanel Goldberg",
+        "location": "Pardes Hanna-Karkur, Israel",
+        "founded": 2017,
+        "fundingStage": "Series A",
+        "totalRaised": "$23M",
+        "website": "https://www.airev.aero"
+      },
+      "verified": {
+        "name": "AIR",
+        "description": "eVTOL aerospace OEM developing a Smart Aircraft platform with electric propulsion for private, cargo, and defense applications. Company has delivered heavy-lift uncrewed aircraft and has 3,700+ pre-orders across multiple markets.",
+        "founders": null,
+        "location": "Kfar Yona, Israel",
+        "founded_year": 2018,
+        "current_stage": "Series A",
+        "total_raised": "$23M",
+        "valuation": null,
+        "investors": [
+          "Entr\u00e9e Capital"
+        ],
+        "website": "https://www.airev.aero",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [1] states company was founded in 2018 ('From a clean sheet of paper in 2018'), contradicting database entry of 2017. Source [1] confirms $23M Series A from Entr\u00e9e Capital in Jul 2025. Founders names not explicitly listed in sources as founders/co-founders. Source [1] mentions 'Flying Full-Scale Since 2022' and 'Cargo aircraft delivered' with '20 more contracted.' Location identified as Kfar Yona, Israel from job listings in Source [1]."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Pardes Hanna-Karkur, Israel",
+          "verified": "Kfar Yona, Israel",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": 2017,
+          "verified": 2018,
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.airev.aero"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.airev.aero/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AIR"
+        }
+      ],
+      "notes": "Source [1] states company was founded in 2018 ('From a clean sheet of paper in 2018'), contradicting database entry of 2017. Source [1] confirms $23M Series A from Entr\u00e9e Capital in Jul 2025. Founders names not explicitly listed in sources as founders/co-founders. Source [1] mentions 'Flying Full-Scale Since 2022' and 'Cargo aircraft delivered' with '20 more contracted.' Location identified as Kfar Yona, Israel from job listings in Source [1]."
     },
     {
       "name": "ARC Clean Technology",
-      "reason": "no public sources accessible"
+      "current": {
+        "name": "ARC Clean Technology",
+        "founder": "Don Wolf",
+        "location": "Saint John, Canada",
+        "founded": null,
+        "fundingStage": "Series G",
+        "totalRaised": "$50M+",
+        "website": "https://www.arc-cleantech.com"
+      },
+      "verified": {
+        "name": "ARC Clean Technology",
+        "description": "Develops the ARC-100, a 100 MWe sodium-cooled fast reactor designed for baseload power generation in data centers, electrical grids, and industrial applications. The technology refines the design of EBR-II, which operated successfully at Idaho National Laboratory for over 30 years.",
+        "founders": null,
+        "location": "Washington, DC",
+        "founded_year": 2006,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.arc-cleantech.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry lists 'Saint John, Canada' as location but source [1] specifies 'Headquartered in Washington, DC, with operations in New Brunswick, Canada' and notes 'Canadian Operations: Saint John, New Brunswick'. Headquarters is Washington, DC. Database entry claims 'Series G' stage and '$50M+' raised, but these cannot be verified from provided sources. Database lists 'Don Wolf' as founder but source [1] does not name any founders explicitly. Website shows 'Series B Closed' as a completed milestone but current stage cannot be determined."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Saint John, Canada",
+          "verified": "Washington, DC",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2006,
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.arc-cleantech.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.arc-cleantech.com/about"
+        }
+      ],
+      "notes": "Database entry lists 'Saint John, Canada' as location but source [1] specifies 'Headquartered in Washington, DC, with operations in New Brunswick, Canada' and notes 'Canadian Operations: Saint John, New Brunswick'. Headquarters is Washington, DC. Database entry claims 'Series G' stage and '$50M+' raised, but these cannot be verified from provided sources. Database lists 'Don Wolf' as founder but source [1] does not name any founders explicitly. Website shows 'Series B Closed' as a completed milestone but current stage cannot be determined."
     },
     {
-      "name": "Aeon Industrial",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Aerospacelab",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Aestus Industries",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "Aeva Technologies",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Agile Robots",
-      "reason": "Claude extraction failed"
+      "name": "ARX Robotics",
+      "current": {
+        "name": "ARX Robotics",
+        "founder": "Marc Wietfeld",
+        "location": "Munich, Germany",
+        "founded": 2022,
+        "fundingStage": "Series A",
+        "totalRaised": "$106M+",
+        "website": "https://www.arx-robotics.com"
+      },
+      "verified": {
+        "name": "ARX Robotics",
+        "description": "ARX develops autonomous mobile robotics and a digitalization platform for modernizing legacy fleets. The company delivers software-defined systems for European defence forces across reconnaissance, firepower, clearance, surveillance, evacuation, and logistics missions.",
+        "founders": [
+          "Marc Wietfeld"
+        ],
+        "location": "Munich, Germany",
+        "founded_year": 2022,
+        "current_stage": "Series A",
+        "total_raised": "$51.15M",
+        "valuation": null,
+        "investors": [
+          "Project A Ventures",
+          "NATO Innovation Fund",
+          "Discovery Ventures",
+          "HV Capital",
+          "Omnes Capital",
+          "Speedinvest"
+        ],
+        "website": "https://www.arx-robotics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ]
+        },
+        "notes": "Founded as ARX Landsysteme, now operating as ARX Robotics. Total raised calculation: \u20ac1.15M Pre-Seed + \u20ac9M Seed + \u20ac31M Series A + \u20ac11M Series A Extension = \u20ac52.15M (approximately $51.15M USD equivalent based on source language). Series A extension occurred in 2025. London office opened in 2025."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$106M+",
+          "verified": "$51.15M",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.arx-robotics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.arx-robotics.com/about"
+        }
+      ],
+      "notes": "Founded as ARX Landsysteme, now operating as ARX Robotics. Total raised calculation: \u20ac1.15M Pre-Seed + \u20ac9M Seed + \u20ac31M Series A + \u20ac11M Series A Extension = \u20ac52.15M (approximately $51.15M USD equivalent based on source language). Series A extension occurred in 2025. London office opened in 2025."
     },
     {
       "name": "AheadComputing",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "AlixLabs",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Allen Control Systems",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "AheadComputing",
+        "founder": "Debbie Marr, Mark Dechene, Jonathan Pearce, Srikanth Srinivasan",
+        "location": "Portland, OR",
+        "founded": null,
+        "fundingStage": "Seed",
+        "totalRaised": "~$53M",
+        "website": "https://www.aheadcomputing.com"
+      },
+      "verified": {
+        "name": "AheadComputing",
+        "description": "Designs high-performance 64-bit RISC-V application processor cores for AI, data center, cloud, client, mobile, and edge workloads. Founded by former Intel CPU architects who license CPU core IP rather than fabricating chips.",
+        "founders": [
+          "Debbie Marr",
+          "Jonathan Pearce",
+          "Srikanth Srinivasan",
+          "Mark Dechene"
+        ],
+        "location": "Portland, Oregon, USA",
+        "founded_year": null,
+        "current_stage": "Seed",
+        "total_raised": "$51.5M",
+        "valuation": null,
+        "investors": [
+          "Eclipse Ventures",
+          "Toyota Ventures",
+          "Cambium",
+          "Maverick Capital",
+          "EPIQ Capital Group",
+          "Jim Keller",
+          "Corner",
+          "Trousdale Ventures"
+        ],
+        "website": "https://www.aheadcomputing.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0
+          ],
+          "current_stage": [],
+          "total_raised": [
+            0
+          ],
+          "investors": [],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Website mentions $21.5M raise and $30M Seed2 round (totaling $51.5M) as of April 1, 2026. Location Portland, OR mentioned in job postings on homepage. Database entry listed ~$53M; sources cite $21.5M + $30M = $51.5M."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Portland, OR",
+          "verified": "Portland, Oregon, USA",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "~$53M",
+          "verified": "$51.5M",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.aheadcomputing.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.aheadcomputing.com/team"
+        }
+      ],
+      "notes": "Website mentions $21.5M raise and $30M Seed2 round (totaling $51.5M) as of April 1, 2026. Location Portland, OR mentioned in job postings on homepage. Database entry listed ~$53M; sources cite $21.5M + $30M = $51.5M."
     },
     {
       "name": "Alsym Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Amber Bio",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Alsym Energy",
+        "founder": "Mukesh Chatter (co-founder & CEO), Kripa Varanasi (MIT professor); company about page also lists Nikhil Koratkar; some press lists Rahul Mukherjee as a co-found",
+        "location": "Malden, MA",
+        "founded": null,
+        "fundingStage": "Series C",
+        "totalRaised": "~$110-111M",
+        "website": "https://www.alsym.com"
+      },
+      "verified": {
+        "name": "Alsym Energy",
+        "description": "Alsym Energy is an American battery technology company focused on non-flammable, high-performance, sodium-ion batteries for energy storage. The company develops Na-Series sodium-ion batteries designed for grid-scale and stationary energy storage applications including AI data centers.",
+        "founders": [
+          "Mukesh Chatter"
+        ],
+        "location": "Malden, MA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.alsym.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Only Mukesh Chatter is explicitly identified as 'Co-Founder and CEO' in source [1]. The about page references leadership team but other individuals are listed with executive titles (COO, CFO, VP R&D) without founder designation. Database entry lists other potential co-founders but these cannot be verified from provided sources. No Series C stage, total raised amount, or valuation information found in sources. No investor list found in sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Mukesh Chatter (co-founder & CEO), Kripa Varanasi (MIT professor); company about page also lists Nikhil Koratkar; some press lists Rahul Mukherjee as a co-found",
+          "verified": "Mukesh Chatter",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.alsym.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.alsym.com/about"
+        }
+      ],
+      "notes": "Only Mukesh Chatter is explicitly identified as 'Co-Founder and CEO' in source [1]. The about page references leadership team but other individuals are listed with executive titles (COO, CFO, VP R&D) without founder designation. Database entry lists other potential co-founders but these cannot be verified from provided sources. No Series C stage, total raised amount, or valuation information found in sources. No investor list found in sources."
     },
     {
       "name": "American Housing Corporation",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Anduril Industries",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Apis Cor",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "American Housing Corporation",
+        "founder": "Bobby Fijan, Riley Meik, Harris Rothaermel, William Davis",
+        "location": "Austin, Texas, U.S.",
+        "founded": 2024,
+        "fundingStage": "Pre-Seed",
+        "totalRaised": "$200K",
+        "website": "https://www.americanhousing.com/"
+      },
+      "verified": {
+        "name": "American Housing Corporation",
+        "description": "Vertically integrated real estate developer and housing manufacturer that produces prefabricated rowhome components in factories and ships them in intermodal containers for on-site assembly.",
+        "founders": null,
+        "location": "Austin, Texas",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.americanhousing.com/",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] is the company website but does not contain explicit founder names, founding year, funding stage, total raised, valuation, or investor information. The website copyright shows '2026' which appears to be a future date and may indicate a demo/template site. Database entry lists founders and funding details that cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Austin, Texas, U.S.",
+          "verified": "Austin, Texas",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.americanhousing.com/"
+        }
+      ],
+      "notes": "Source [0] is the company website but does not contain explicit founder names, founding year, funding stage, total raised, valuation, or investor information. The website copyright shows '2026' which appears to be a future date and may indicate a demo/template site. Database entry lists founders and funding details that cannot be verified from provided sources."
     },
     {
       "name": "Applied Atomics",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Applied Atomics",
+        "founder": "Ben Kellie, Paul Keutelian, Mark Lambert",
+        "location": "Anchorage, AK",
+        "founded": null,
+        "fundingStage": "Seed",
+        "totalRaised": "$10.3M",
+        "website": "https://www.applied-atomics.com"
+      },
+      "verified": {
+        "name": "Applied Atomics",
+        "description": "Develops, builds, and operates medium modular nuclear fission plants at customer sites using BWX Technologies' licensed mPower small modular reactor technology, providing turnkey on-site baseload power for data centers and heavy industry.",
+        "founders": [
+          "Ben Kellie",
+          "Paul Keutelian"
+        ],
+        "location": "Anchorage, AK",
+        "founded_year": null,
+        "current_stage": "Seed",
+        "total_raised": "$8M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.applied-atomics.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry lists three founders (Ben Kellie, Paul Keutelian, Mark Lambert) but only Ben Kellie (CEO) and Paul Keutelian (CTO) are explicitly identified as founders in source [1]. Mark Lambert is not mentioned in provided sources. Database claims $10.3M raised; source [0] references '$8 million' in news section. Most recent funding figure from source [0] is $8M. Database entry mentions 'Anchorage HQ with an LA Arts District design/test studio' but only Anchorage location verified in sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Ben Kellie, Paul Keutelian, Mark Lambert",
+          "verified": "Ben Kellie, Paul Keutelian",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$10.3M",
+          "verified": "$8M",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.applied-atomics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.applied-atomics.com/team"
+        }
+      ],
+      "notes": "Database entry lists three founders (Ben Kellie, Paul Keutelian, Mark Lambert) but only Ben Kellie (CEO) and Paul Keutelian (CTO) are explicitly identified as founders in source [1]. Mark Lambert is not mentioned in provided sources. Database claims $10.3M raised; source [0] references '$8 million' in news section. Most recent funding figure from source [0] is $8M. Database entry mentions 'Anchorage HQ with an LA Arts District design/test studio' but only Anchorage location verified in sources."
     },
     {
       "name": "Applied Intuition",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Archer Materials",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Ark Robotics",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Asimov",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Atana Elements",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "Atomic AI",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "Auriga Space",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Applied Intuition",
+        "founder": "Qasar Younis, Peter Ludwig",
+        "location": "Mountain View, CA",
+        "founded": 2017,
+        "fundingStage": "Series A",
+        "totalRaised": "$600M+",
+        "website": "https://appliedintuition.com"
+      },
+      "verified": {
+        "name": "Applied Intuition",
+        "description": "Software platform and simulation tools for physical AI that power autonomous vehicles, industrial machines, and defense systems. The company provides an autonomy stack adapted across cars, trucks, industrial equipment and defense systems.",
+        "founders": [
+          "Qasar Younis",
+          "Peter Ludwig"
+        ],
+        "location": "Sunnyvale, California",
+        "founded_year": 2017,
+        "current_stage": "Series F",
+        "total_raised": "$600M+",
+        "valuation": "$15B",
+        "investors": [
+          "Andreessen Horowitz",
+          "Fidelity Investments",
+          "Lux Capital",
+          "General Catalyst",
+          "BlackRock-managed funds",
+          "Kleiner Perkins",
+          "Franklin Templeton",
+          "Qatar Investment Authority"
+        ],
+        "website": "https://appliedintuition.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry listed stage as 'Series A' but Wikipedia confirms Series F funding in June 2025. Database location was 'Mountain View, CA' but company about page states 'Headquartered in Sunnyvale, California'. Database entry mentioned EpiSci acquisition but no verification found in provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Mountain View, CA",
+          "verified": "Sunnyvale, California",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series A",
+          "verified": "Series F",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://appliedintuition.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://appliedintuition.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Applied_Intuition"
+        }
+      ],
+      "notes": "Database entry listed stage as 'Series A' but Wikipedia confirms Series F funding in June 2025. Database location was 'Mountain View, CA' but company about page states 'Headquartered in Sunnyvale, California'. Database entry mentioned EpiSci acquisition but no verification found in provided sources."
     },
     {
       "name": "Aurora Innovation",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Aurora Innovation",
+        "founder": "Chris Urmson, Sterling Anderson, J. Andrew (Drew) Bagnell",
+        "location": "Pittsburgh, PA",
+        "founded": null,
+        "fundingStage": "Public",
+        "totalRaised": "~$2.5B",
+        "website": "https://aurora.tech"
+      },
+      "verified": {
+        "name": "Aurora Innovation",
+        "description": "Aurora develops the Aurora Driver, a self-driving technology system designed for autonomous trucking that can be integrated into commercial vehicles to haul freight on public roads.",
+        "founders": [
+          "Chris Urmson",
+          "Sterling Anderson",
+          "Drew Bagnell"
+        ],
+        "location": "Pittsburgh, Pennsylvania",
+        "founded_year": 2017,
+        "current_stage": "Public",
+        "total_raised": null,
+        "valuation": "$2.0B",
+        "investors": [
+          "Sequoia Capital",
+          "Baillie Gifford",
+          "T. Rowe Price",
+          "Reinvent Technology Partners",
+          "Greylock",
+          "Index Ventures",
+          "Uber",
+          "Toyota"
+        ],
+        "website": "https://aurora.tech",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            1,
+            2
+          ]
+        },
+        "notes": "Company went public via SPAC merger with Reinvent Technology Partners Y in November 2021 (source 2). Sterling Anderson departed in May 2025 and joined General Motors in June 2025 (source 2). Wikipedia lists headquarters as both Pittsburgh, Pennsylvania and Mountain View, California (source 2)."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Chris Urmson, Sterling Anderson, J. Andrew (Drew) Bagnell",
+          "verified": "Chris Urmson, Sterling Anderson, Drew Bagnell",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Pittsburgh, PA",
+          "verified": "Pittsburgh, Pennsylvania",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2017,
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://aurora.tech"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://aurora.tech/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aurora_Innovation"
+        }
+      ],
+      "notes": "Company went public via SPAC merger with Reinvent Technology Partners Y in November 2021 (source 2). Sterling Anderson departed in May 2025 and joined General Motors in June 2025 (source 2). Wikipedia lists headquarters as both Pittsburgh, Pennsylvania and Mountain View, California (source 2)."
     },
     {
-      "name": "Aventra",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Axelspace",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Ayar Labs",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "BRINC Drones",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Basecamp Research",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Baykar",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Besxar Space Industries",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Bethlehem Steel Corp",
-      "reason": "Claude extraction failed"
+      "name": "Axelera AI",
+      "current": {
+        "name": "Axelera AI",
+        "founder": "Fabrizio Del Maffeo",
+        "location": "Eindhoven, Netherlands",
+        "founded": 2021,
+        "fundingStage": "Series B",
+        "totalRaised": "$200M+",
+        "website": "https://axelera.ai"
+      },
+      "verified": {
+        "name": "Axelera AI",
+        "description": "Netherlands-based chip company developing AI processing units (AIPUs) for edge inference applications including computer vision, robotics, and industrial use cases. The company develops proprietary digital in-memory computing (D-IMC) technology and offers products including Metis and Europa inference accelerators.",
+        "founders": null,
+        "location": "Eindhoven, Netherlands",
+        "founded_year": 2021,
+        "current_stage": "Series C",
+        "total_raised": "$450M+",
+        "valuation": null,
+        "investors": [
+          "European Innovation Council Fund",
+          "Innovation Industries",
+          "Invest-NL",
+          "Samsung Catalyst Fund",
+          "Verve Ventures",
+          "Bitfury",
+          "SFPIM",
+          "BlackRock",
+          "SiteGround Capital",
+          "CDP Venture Capital SGR",
+          "imec"
+        ],
+        "website": "https://axelera.ai",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1,
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded July 2021 as spin-off from imec (per source 1). Series C funding of $250M+ announced February 2026 (per source 1). Also received \u20ac61.6M grant from EuroHPC Joint Undertaking DARE project (per sources 1, 2). Total equity, grants and venture debt raised exceeds $450M since founding (per source 1). CEO is Fabrizio Del Maffeo (per source 2), but not explicitly listed as founder. Product roadmap includes Metis, Europa, and future Titania chiplet."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series B",
+          "verified": "Series C",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$200M+",
+          "verified": "$450M+",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://axelera.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://axelera.ai/about-us"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Axelera_AI"
+        }
+      ],
+      "notes": "Founded July 2021 as spin-off from imec (per source 1). Series C funding of $250M+ announced February 2026 (per source 1). Also received \u20ac61.6M grant from EuroHPC Joint Undertaking DARE project (per sources 1, 2). Total equity, grants and venture debt raised exceeds $450M since founding (per source 1). CEO is Fabrizio Del Maffeo (per source 2), but not explicitly listed as founder. Product roadmap includes Metis, Europa, and future Titania chiplet."
     },
     {
       "name": "Beyond Reach Labs",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Beyond Reach Labs",
+        "founder": "Mitchell Fogelson, Pele Collins",
+        "location": "Pittsburgh, PA",
+        "founded": 2023,
+        "fundingStage": "Pre-Seed",
+        "totalRaised": "$500K + $175M+ LOIs",
+        "website": "https://beyondreachlabs.io"
+      },
+      "verified": {
+        "name": "Beyond Reach Labs",
+        "description": "Builds deployable solar arrays that deliver orders-of-magnitude more power per launch for orbital applications. The company addresses structural dynamics limitations in space-based power systems to enable orbital data centers, commercial space stations, and lunar outposts.",
+        "founders": [
+          "Mitchell Fogelson",
+          "Pele Collins"
+        ],
+        "location": "Brooklyn, NY",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://beyondreachlabs.io",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry lists location as Pittsburgh, PA but current website footer shows Brooklyn, NY as address. Founders confirmed via website team page. No verified information available in sources for founded_year, current_stage, total_raised, valuation, or investors despite database entry claims."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Pittsburgh, PA",
+          "verified": "Brooklyn, NY",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://beyondreachlabs.io"
+        }
+      ],
+      "notes": "Database entry lists location as Pittsburgh, PA but current website footer shows Brooklyn, NY as address. Founders confirmed via website team page. No verified information available in sources for founded_year, current_stage, total_raised, valuation, or investors despite database entry claims."
     },
     {
       "name": "Blackshark.ai",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Blackstar",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "BotBuilt",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "CORE POWER",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cailabs",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Calogena",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cambridge Aerospace",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "Candela",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cascade Space",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Blackshark.ai",
+        "founder": "Brad Young, Michael Putz, Thomas Richter Trummer",
+        "location": "Graz, Austria",
+        "founded": 2020,
+        "fundingStage": "Series A",
+        "totalRaised": "$55M",
+        "website": "https://blackshark.ai"
+      },
+      "verified": {
+        "name": "Blackshark.ai",
+        "description": "AI geospatial intelligence platform that transforms satellite and aerial imagery into structured digital representations of the physical world for applications including disaster response, autonomous systems, and digital twins.",
+        "founders": null,
+        "location": null,
+        "founded_year": 2021,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "M12",
+          "Point72",
+          "In-Q-Tel"
+        ],
+        "website": "https://blackshark.ai",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "investors": [
+            0
+          ]
+        },
+        "notes": "Database entry lists founded year as 2020, but company website states 'Blackshark was founded in 2021'. Website citation takes precedence. Founders listed in database entry (Brad Young, Michael Putz, Thomas Richter Trummer) are not explicitly named as founders/co-founders in provided source, so cannot be verified. Database lists location as Graz, Austria and current_stage as Series A with $55M raised, but these cannot be verified from the provided source material."
+      },
+      "changes": [
+        {
+          "field": "founded",
+          "current": 2020,
+          "verified": 2021,
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://blackshark.ai"
+        }
+      ],
+      "notes": "Database entry lists founded year as 2020, but company website states 'Blackshark was founded in 2021'. Website citation takes precedence. Founders listed in database entry (Brad Young, Michael Putz, Thomas Richter Trummer) are not explicitly named as founders/co-founders in provided source, so cannot be verified. Database lists location as Graz, Austria and current_stage as Series A with $55M raised, but these cannot be verified from the provided source material."
     },
     {
       "name": "Cellino",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Cerebras",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Cellino",
+        "founder": "Nabiha Saklayen, Marinna Madrid, Matthias Wagner, Stan Wang",
+        "location": "Cambridge, MA",
+        "founded": null,
+        "fundingStage": "Series A",
+        "totalRaised": "~$125M",
+        "website": "https://www.cellinobio.com"
+      },
+      "verified": {
+        "name": "Cellino",
+        "description": "Cellino develops the Nebula platform, an AI-driven optical bioprocess system using laser cell management and deep learning to automate production of patient-specific induced pluripotent stem cell (iPSC) and tissue therapies.",
+        "founders": [
+          "Nabiha Saklayen",
+          "Marinna Madrid"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "8VC",
+          "Felicis Ventures",
+          "Humboldt Fund",
+          "Khosla Ventures",
+          "Leaps by Bayer",
+          "Engine Ventures"
+        ],
+        "website": "https://www.cellinobio.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Only two founders explicitly named as co-founders in sources (Nabiha Saklayen and Marinna Madrid). Current database entry lists Matthias Wagner and Stan Wang as founders but these names do not appear in provided sources. Location (Cambridge, MA), founded year, current stage, total raised, and valuation could not be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Nabiha Saklayen, Marinna Madrid, Matthias Wagner, Stan Wang",
+          "verified": "Nabiha Saklayen, Marinna Madrid",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.cellinobio.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.cellinobio.com/about-us"
+        }
+      ],
+      "notes": "Only two founders explicitly named as co-founders in sources (Nabiha Saklayen and Marinna Madrid). Current database entry lists Matthias Wagner and Stan Wang as founders but these names do not appear in provided sources. Location (Cambridge, MA), founded year, current stage, total raised, and valuation could not be verified from provided sources."
     },
     {
       "name": "Chai Discovery",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Chariot Defense",
-      "reason": "Claude extraction failed"
+      "current": {
+        "name": "Chai Discovery",
+        "founder": "Joshua Meier (CEO, ex-Chief AI Officer at Absci, ex-Senior Researcher at Meta/FAIR co-leading ESM/protein language modeling; CEO of Provita Pharma at age 16; Harvard CS), Jack Dent (President, met Meier first day of Harvard CS classes; previously led product/engineering teams at Stripe)",
+        "location": "San Francisco, CA",
+        "founded": 2024,
+        "fundingStage": "Series B",
+        "totalRaised": "$130M",
+        "website": "https://www.chaidiscovery.com"
+      },
+      "verified": {
+        "name": "Chai Discovery",
+        "description": "AI company building computer-aided design suite for molecules; models learn principles of biological structure and interaction to design new molecules from scratch.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": "Series C",
+        "total_raised": "$400M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.chaidiscovery.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry indicated Series B with $130M raised; source [0] announces Series C with $400M raised. Founder names, location, founded year, valuation, and investor list could not be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series B",
+          "verified": "Series C",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$130M",
+          "verified": "$400M",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.chaidiscovery.com"
+        }
+      ],
+      "notes": "Database entry indicated Series B with $130M raised; source [0] announces Series C with $400M raised. Founder names, location, founded year, valuation, and investor list could not be verified from provided sources."
     },
     {
       "name": "ClearSpace",
+      "current": {
+        "name": "ClearSpace",
+        "founder": "Luc Piguet",
+        "location": "Lausanne, Switzerland",
+        "founded": 2018,
+        "fundingStage": "Series A",
+        "totalRaised": "$36M",
+        "website": "https://clearspace.today"
+      },
+      "verified": {
+        "name": "ClearSpace",
+        "description": "In-orbit servicing company developing active debris removal, satellite inspection, and life-extension technologies. Commissioned by the European Space Agency to execute ClearSpace-1, the world's first active debris removal mission targeting the PROBA-1 satellite.",
+        "founders": [
+          "Luc Piguet",
+          "Muriel Richard"
+        ],
+        "location": "Luxembourg",
+        "founded_year": 2018,
+        "current_stage": "Series A+",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://clearspace.today",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry lists founded location as Lausanne, Switzerland, but source [1] states company is 'Founded in Switzerland in 2018 and headquartered in Luxembourg.' ClearSpace-1 launch date listed as 2028 in source [0], not 2026 as in database entry. Series A+ round closed in 2024 per source [1]; database entry only mentions Series A. Sources do not provide total_raised amount, specific investor names, or valuation figures."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Luc Piguet",
+          "verified": "Luc Piguet, Muriel Richard",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Lausanne, Switzerland",
+          "verified": "Luxembourg",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series A",
+          "verified": "Series A+",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://clearspace.today"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://clearspace.today/about"
+        }
+      ],
+      "notes": "Database entry lists founded location as Lausanne, Switzerland, but source [1] states company is 'Founded in Switzerland in 2018 and headquartered in Luxembourg.' ClearSpace-1 launch date listed as 2028 in source [0], not 2026 as in database entry. Series A+ round closed in 2024 per source [1]; database entry only mentions Series A. Sources do not provide total_raised amount, specific investor names, or valuation figures."
+    },
+    {
+      "name": "Core Automation",
+      "current": {
+        "name": "Core Automation",
+        "founder": "Jerry Tworek, Joanne Jang, Julia Villagra, Rohan Anil",
+        "location": "San Francisco, CA",
+        "founded": 2001,
+        "fundingStage": "Stealth",
+        "totalRaised": "Targeting $500M-$1B at $4-5B+ val",
+        "website": "https://coreautomation.ai"
+      },
+      "verified": {
+        "name": "Core Automation, Inc.",
+        "description": "California-based electrical engineering firm specializing in industrial facility electrical and control system design for food and beverage, pharmaceutical, and manufacturing environments.",
+        "founders": [
+          "Gerald Depew",
+          "Daniel C. Rozok"
+        ],
+        "location": "California, USA",
+        "founded_year": 2001,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://coreautomation.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0,
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "The provided sources describe a traditional industrial automation and electrical engineering firm founded in 2001, NOT the AI/frontier-tech company 'Core Automation' described in the database entry. The database entry references founders (Jerry Tworek, Joanne Jang, Julia Villagra, Rohan Anil), AI research focus (Ceres, continual learning), and ex-OpenAI/Anthropic/DeepMind personnel\u2014none of which appear in these sources. These are two completely different companies with the same name."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Jerry Tworek, Joanne Jang, Julia Villagra, Rohan Anil",
+          "verified": "Gerald Depew, Daniel C. Rozok",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "location",
+          "current": "San Francisco, CA",
+          "verified": "California, USA",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://coreautomation.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://coreautomation.com/company"
+        }
+      ],
+      "notes": "The provided sources describe a traditional industrial automation and electrical engineering firm founded in 2001, NOT the AI/frontier-tech company 'Core Automation' described in the database entry. The database entry references founders (Jerry Tworek, Joanne Jang, Julia Villagra, Rohan Anil), AI research focus (Ceres, continual learning), and ex-OpenAI/Anthropic/DeepMind personnel\u2014none of which appear in these sources. These are two completely different companies with the same name."
+    },
+    {
+      "name": "CubeFabs",
+      "current": {
+        "name": "CubeFabs",
+        "founder": "Matthew Putman (PhD, CEO; former Columbia materials science professor) and his father John Putman",
+        "location": "Brooklyn, NY",
+        "founded": null,
+        "fundingStage": "Series E",
+        "totalRaised": "~$182M",
+        "website": "https://cubefabs.com"
+      },
+      "verified": {
+        "name": "CubeFabs",
+        "description": "Industrial AI company that builds micro-factories and AI-driven technology to optimize manufacturing procedures for next-generation materials production. Formerly known as Nanotronics.",
+        "founders": null,
+        "location": "Brooklyn, NY",
+        "founded_year": 2010,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://cubefabs.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ]
+        },
+        "notes": "Company rebranded from Nanotronics to CubeFabs (confirmed in sources [0] and [1]). Headquarters located at Brooklyn Navy Yard. Founder names and funding details from database entry could not be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "founded",
+          "current": null,
+          "verified": 2010,
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://cubefabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://cubefabs.com/about"
+        }
+      ],
+      "notes": "Company rebranded from Nanotronics to CubeFabs (confirmed in sources [0] and [1]). Headquarters located at Brooklyn Navy Yard. Founder names and funding details from database entry could not be verified from provided sources."
+    },
+    {
+      "name": "DIRAC",
+      "current": {
+        "name": "DIRAC",
+        "founder": "Fil Aronshtein",
+        "location": "New York, NY",
+        "founded": 2022,
+        "fundingStage": "Seed",
+        "totalRaised": "$5M+",
+        "website": "https://www.diracinc.com"
+      },
+      "verified": {
+        "name": "Dirac",
+        "description": "AI-driven, model-based manufacturing platform that automates work instructions, MBOM, and BOP generation from CAD files for complex mechanical assemblies.",
+        "founders": null,
+        "location": "Manhattan, NY",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.diracinc.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Website refers to location as 'Manhattan, NY' not 'New York, NY'. No founder names, funding stage, total raised, valuation, or investor information found in provided sources. Database entry claims cannot be verified from these sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "New York, NY",
+          "verified": "Manhattan, NY",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.diracinc.com"
+        }
+      ],
+      "notes": "Website refers to location as 'Manhattan, NY' not 'New York, NY'. No founder names, funding stage, total raised, valuation, or investor information found in provided sources. Database entry claims cannot be verified from these sources."
+    },
+    {
+      "name": "Electric Hydrogen",
+      "current": {
+        "name": "Electric Hydrogen",
+        "founder": "Raffi Garabedian & David Eaglesham",
+        "location": "Natick, MA",
+        "founded": 2020,
+        "fundingStage": "Series C",
+        "totalRaised": "$380M",
+        "website": "https://eh2.com"
+      },
+      "verified": {
+        "name": "Electric Hydrogen",
+        "description": "Manufacturer of advanced electrolyzer plants for industrial-scale green hydrogen production. The company produces high-power electrolyzers integrated into standardized systems for heavy industry decarbonization applications.",
+        "founders": [
+          "Raffi Garabedian",
+          "David Eaglesham",
+          "Derek Warnick"
+        ],
+        "location": "Devens, MA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": "$700M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://eh2.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry lists founding year as 2020 and stage as Series C with $380M raised and $1B valuation, but these cannot be verified from provided sources. Source [1] confirms three co-founders (Garabedian, Eaglesham, Warnick), not two as in database entry. Latest funding information from source [1] indicates 'Over $700M raised' with no specific stage mentioned."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Raffi Garabedian & David Eaglesham",
+          "verified": "Raffi Garabedian, David Eaglesham, Derek Warnick",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Natick, MA",
+          "verified": "Devens, MA",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$380M",
+          "verified": "$700M",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://eh2.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://eh2.com/about"
+        }
+      ],
+      "notes": "Database entry lists founding year as 2020 and stage as Series C with $380M raised and $1B valuation, but these cannot be verified from provided sources. Source [1] confirms three co-founders (Garabedian, Eaglesham, Warnick), not two as in database entry. Latest funding information from source [1] indicates 'Over $700M raised' with no specific stage mentioned."
+    }
+  ],
+  "unverifiable": [
+    {
+      "name": "Cambridge Aerospace",
       "reason": "no public sources accessible"
     },
     {
@@ -241,96 +1716,24 @@
       "reason": "no public sources accessible"
     },
     {
-      "name": "Core Automation",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Creotech Instruments",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "Critical Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Critical Loop",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Crusoe Energy",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "CubeFabs",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Cuby Technologies",
       "reason": "no public sources accessible"
     },
     {
-      "name": "DEEPX",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "DIRAC",
-      "reason": "no public sources accessible"
-    },
-    {
       "name": "DefSecIntel",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Defense Unicorns",
-      "reason": "Claude extraction failed"
+      "reason": "no public sources accessible"
     },
     {
       "name": "Dendra Systems",
       "reason": "no public sources accessible"
     },
     {
-      "name": "Dexterity",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Dhruva Space",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Digantara",
       "reason": "no public sources accessible"
     },
     {
-      "name": "Diraq",
-      "reason": "Claude extraction failed"
-    },
-    {
       "name": "Distalmotion",
       "reason": "no public sources accessible"
-    },
-    {
-      "name": "Dominion Dynamics",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Dream Security",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Dynamo Air",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "EdgeRunner AI",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Electra",
-      "reason": "Claude extraction failed"
-    },
-    {
-      "name": "Electric Hydrogen",
-      "reason": "Claude extraction failed"
     }
   ]
 }
