@@ -50,7 +50,7 @@
         "awardAmount": "$42M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Palantir",
@@ -109,7 +109,7 @@
         "awardAmount": "$90M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Skydio",
@@ -164,7 +164,7 @@
         "awardAmount": "$110K"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Radiant",
@@ -219,7 +219,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Shield AI",
@@ -271,7 +271,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Sierra Space",
@@ -322,7 +322,7 @@
         "awardAmount": "$43K"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Axiom Space",
@@ -365,7 +365,7 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Castelion",
@@ -400,7 +400,7 @@
         "awardAmount": "$1M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Rocket Lab",
@@ -435,7 +435,44 @@
         "awardAmount": "$391K"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
+  },
+  {
+    "company": "Planet Labs",
+    "opportunityCount": 3,
+    "agencies": [
+      "Department of Commerce",
+      "Department of Defense",
+      "Department of the Interior"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "SATELLITE IMAGERY DATA SUBSCRIPTION",
+        "agency": "Department of Defense",
+        "postedDate": "2026-03-18",
+        "type": null,
+        "noticeId": "N6600126P6067",
+        "awardAmount": "$7M"
+      },
+      {
+        "title": "SATELLITE IMAGERY FOR THE SATELLITE ANALYSIS BRANCH",
+        "agency": "Department of Commerce",
+        "postedDate": "2024-08-12",
+        "type": null,
+        "noticeId": "1332KP24P0044",
+        "awardAmount": "$186K"
+      },
+      {
+        "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
+        "agency": "Department of the Interior",
+        "postedDate": "2026-05-07",
+        "type": null,
+        "noticeId": "140G0326P0132",
+        "awardAmount": "$60K"
+      }
+    ],
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Scale AI",
@@ -470,7 +507,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Varda Space",
@@ -497,35 +534,7 @@
         "awardAmount": "$160K"
       }
     ],
-    "lastUpdated": "2026-07-19"
-  },
-  {
-    "company": "Planet Labs",
-    "opportunityCount": 2,
-    "agencies": [
-      "Department of Defense",
-      "Department of the Interior"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "SATELLITE IMAGERY DATA SUBSCRIPTION",
-        "agency": "Department of Defense",
-        "postedDate": "2026-03-18",
-        "type": null,
-        "noticeId": "N6600126P6067",
-        "awardAmount": "$7M"
-      },
-      {
-        "title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION",
-        "agency": "Department of the Interior",
-        "postedDate": "2026-05-07",
-        "type": null,
-        "noticeId": "140G0326P0132",
-        "awardAmount": "$60K"
-      }
-    ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "BlackSky",
@@ -552,7 +561,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Vannevar Labs",
@@ -571,7 +580,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Hadrian",
@@ -590,7 +599,7 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Relativity Space",
@@ -609,7 +618,7 @@
         "awardAmount": "$225K"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "company": "Capella Space",
@@ -628,6 +637,6 @@
         "awardAmount": "$10M"
       }
     ],
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   }
 ]

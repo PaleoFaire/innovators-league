@@ -9,15 +9,6 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-07-20",
-    "vehicle": "Starship | Flight 13",
-    "payload": "Flight 13",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-07-21",
     "vehicle": "Falcon 9 Block 5 | MRV-1",
     "payload": "MRV-1",
@@ -43,6 +34,15 @@
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5421e43a-1623-40ac-9dac-201075064e24/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-07-23",
+    "vehicle": "Starship | Flight 13",
+    "payload": "Flight 13",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-07-23",

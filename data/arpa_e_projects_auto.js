@@ -1,5 +1,5 @@
 // Auto-generated ARPA-E project data
-// Last updated: 2026-07-19 09:02:38 UTC
+// Last updated: 2026-07-20 09:51:31 UTC
 // Total projects: 1724 | Active: 329
 // Private companies: 684 | Known TIL: 121
 // Unique organizations: 730 | Total funding: $4,350,880,179

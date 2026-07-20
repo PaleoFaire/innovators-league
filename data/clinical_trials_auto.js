@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-07-19 08:59:58 UTC
+// Last updated: 2026-07-20 09:48:00 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT07710521", title: "Comparing Two Moral Injury Treatments", status: "NOT_YET_RECRUITING", phase: "NA", sponsor: "VA Eastern Colorado Health Care System", conditions: "Moral Injury", enrollment: 180, lastUpdated: "2026-07-17" },
   { nctId: "NCT06185686", title: "Radiation Induced Alterations in Resting State Brain Networks in Pediatric Brain", status: "RECRUITING", phase: "N/A", sponsor: "Washington University School of Medicine", conditions: "Brain Tumor, Primary", enrollment: 16, lastUpdated: "2026-07-17" },
