@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T09:48:11.462564Z",
+  "generated_at": "2026-07-20T09:23:00.528673Z",
   "takes": [
     {
       "author": "Sifted",
@@ -20,6 +20,16 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m",
       "signal_type": "funding"
+    },
+    {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX Is Secretly Winning the AI War on Earth \u2014 $82 Billion Run Rate Incoming",
+      "date": "Sun, 19 Ju",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/07/spacex-is-secretly-winning-the-ai-war-on-earth-82-billion-run-rate-incoming.html",
+      "signal_type": "hire"
     },
     {
       "author": "TechCrunch",
@@ -52,26 +62,6 @@
       "signal_type": "news"
     },
     {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s IPO plans",
-      "date": "Fri, 17 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "$100+ Billion in Realized Value from the Temporary Anthropic AI Lead",
-      "date": "Fri, 17 Ju",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/07/100-billion-in-realized-value-from-the-temporary-anthropic-ai-lead.html",
-      "signal_type": "ipo"
-    },
-    {
       "author": "Tech.eu",
       "role": "Industry signal",
       "company": "Helsing",
@@ -85,7 +75,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 8,
+    "from_news": 7,
     "from_press": 0
   }
 }

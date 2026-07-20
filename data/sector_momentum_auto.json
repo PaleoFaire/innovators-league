@@ -1,7 +1,7 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 61,
+    "momentum": 60,
     "trend": "steady",
     "catalysts": [
       "Saronic picks Brownsville, Texas, for $3 billion Port Alpha",
@@ -11,15 +11,15 @@
     "fundingQ": "$12.0B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 94
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 59,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
       "Agility Robotics plants its flag in Tesla&#8217;s backyard",
@@ -29,47 +29,47 @@
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 52,
+    "trend": "accelerating",
+    "catalysts": [
+      "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPU",
+      "SpaceX Starship Flight 13 Pushed to Friday July 24, 2026",
+      "SpaceX Is Secretly Winning the AI War on Earth \u2014 $82 Billion"
+    ],
+    "fundingQ": "$266.3B",
+    "components": {
+      "funding": 100,
+      "news": 70,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "AI & Software",
-    "momentum": 51,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s I",
-      "Here\u2019s Why Anthropic Is Pushing States to Regulate AI Faster",
+      "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPU",
+      "SpaceXAI Provides Near IMMEDIATE Gigawatt Scale AI Data Cent",
       "The Download: OpenAI unveils GPT-Red and heat pumps rise in"
     ],
     "fundingQ": "$235.7B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-19"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 48,
-    "trend": "accelerating",
-    "catalysts": [
-      "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
-      "Weave Robotics launches Isaac, its first mobile humanoid rob",
-      "Helsing secures $1.8B Series E,  Uber acquiring Delivery Her"
-    ],
-    "fundingQ": "$266.3B",
-    "components": {
-      "funding": 100,
-      "news": 50,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Ocean & Maritime",
@@ -86,7 +86,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -102,11 +102,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 40,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
       "Nuclear startup Valar Atomics in talks to raise new funding",
@@ -116,11 +116,11 @@
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Climate & Energy",
@@ -138,25 +138,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 25,
+    "momentum": 22,
     "trend": "rising",
     "catalysts": [
       "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
-      "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s I",
-      "Weave Robotics launches Isaac, its first mobile humanoid rob"
+      "Weave Robotics launches Isaac, its first mobile humanoid rob",
+      "SpaceX\u2019s only problem is finding more space to work with"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 60,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Biotech & Health",
@@ -172,7 +172,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Drones & Autonomous",
@@ -189,24 +189,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "With new funding, Monumental plans to bring its construction",
-      "What Anthropic\u2019s latest AI discovery does\u2014and doesn\u2019t\u2014show"
+      "With new funding, Monumental plans to bring its construction"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -222,7 +221,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Transportation",
@@ -238,7 +237,23 @@
       "hiring": 0,
       "market": 8
     },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPU"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-20"
   },
   {
     "sector": "Quantum Computing",
@@ -254,22 +269,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-19"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active chips & semiconductors ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-20"
   }
 ]
