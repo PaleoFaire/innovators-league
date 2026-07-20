@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -6.82,
+      "avg_change": -8.21,
       "count": 7
     },
     "nuclear": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -16.72
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
       -17.28
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -17.64
     ],
     [
       "IONQ",
@@ -111,5 +111,5 @@
       -26.48
     ]
   ],
-  "lastUpdated": "2026-07-19 19:12:01"
+  "lastUpdated": "2026-07-20 03:29:42"
 }
