@@ -5,90 +5,100 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 4.41,
+      "avg_change": 2.11,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -13.37,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -11.0,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -7.89,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -2.98,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.15,
+      "avg_change": -10.22,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.72,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.92,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.75,
+      "avg_change": -8.95,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.09,
+      "avg_change": -11.03,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -3.37,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -2.08,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -13.83,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -6.06,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "PLTR",
-      "Palantir",
-      4.41
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      -0.14
+      "ACHR",
+      "Archer Aviation",
+      8.35
     ],
     [
       "SLDP",
       "Solid Power",
-      -0.43
+      2.47
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      -2.79
+      "PLTR",
+      "Palantir",
+      2.11
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -3.02
+      "AUR",
+      "Aurora Innovation",
+      1.49
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      0.87
     ]
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -17.28
+      "ALAB",
+      "Astera Labs",
+      -14.39
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -14.98
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -15.27
     ],
     [
       "277810.KQ",
@@ -96,20 +106,10 @@
       -17.31
     ],
     [
-      "IONQ",
-      "IonQ",
-      -18.85
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -21.17
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -26.48
+      "SATL",
+      "Satellogic",
+      -17.78
     ]
   ],
-  "lastUpdated": "2026-07-20 09:21:23"
+  "lastUpdated": "2026-07-20 14:14:02"
 }
