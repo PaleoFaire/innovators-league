@@ -1,19 +1,266 @@
 {
-  "generatedAt": "2026-07-19T08:00:46+00:00",
+  "generatedAt": "2026-07-20T08:40:40+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 3,
   "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 3,
-    "changesProposed": 0,
+    "cleared": 1,
+    "changesProposed": 2,
     "unverifiable": 0
   },
   "cleared": [
-    "Engine Ventures",
-    "Future Ventures",
-    "Khosla Ventures"
+    "Future Ventures"
   ],
-  "changesProposed": [],
+  "changesProposed": [
+    {
+      "name": "Engine Ventures",
+      "current": {
+        "name": "Engine Ventures",
+        "shortName": "Engine",
+        "aum": "$1B+",
+        "flagshipFund": "Engine Ventures Fund III",
+        "founded": 2023,
+        "hq": "Cambridge, MA",
+        "website": "https://engine.xyz"
+      },
+      "verified": {
+        "name": "Engine Ventures",
+        "short_name": "Engine",
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": 2023,
+        "hq": "Cambridge, MA",
+        "key_partners": null,
+        "sector_focus": [
+          "Applied AI & ML",
+          "Computing",
+          "Mobility",
+          "Autonomous Systems / Robotics",
+          "Energy",
+          "Natural Resources",
+          "Biotech / Life Sciences",
+          "Food / Agriculture",
+          "Quantum Computing",
+          "Carbon Capture / CCUS",
+          "Manufacturing",
+          "Space",
+          "Climate",
+          "Materials",
+          "Water / Oceans"
+        ],
+        "thesis": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "website": "https://engine.xyz",
+        "sources_per_field": {
+          "name": [
+            3
+          ],
+          "short_name": [
+            3
+          ],
+          "founded_year": [
+            1,
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "sector_focus": [
+            1
+          ],
+          "thesis": [
+            3
+          ],
+          "website": [
+            0,
+            1,
+            3
+          ]
+        },
+        "notes": "Engine Ventures is the venture capital investment firm that spun out from The Engine in 2023. The Engine itself is a nonprofit incubator and accelerator founded by MIT in 2016. Source [4] is not relevant to this firm. Key partners (Katie Rae, Reed Sturtevant) and AUM ($1B+) could not be verified from provided sources. The database entry lists 'Engine Ventures Fund III' as flagship fund, but this was not found in sources."
+      },
+      "changes": [
+        {
+          "field": "sectorFocus",
+          "current": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS"
+          ],
+          "verified": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS",
+            "Manufacturing",
+            "Space",
+            "Climate",
+            "Materials",
+            "Water / Oceans"
+          ],
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://engine.xyz"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://engine.xyz/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/companies",
+          "url": "https://engine.xyz/companies"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        },
+        {
+          "idx": 4,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/"
+        }
+      ],
+      "notes": "Engine Ventures is the venture capital investment firm that spun out from The Engine in 2023. The Engine itself is a nonprofit incubator and accelerator founded by MIT in 2016. Source [4] is not relevant to this firm. Key partners (Katie Rae, Reed Sturtevant) and AUM ($1B+) could not be verified from provided sources. The database entry lists 'Engine Ventures Fund III' as flagship fund, but this was not found in sources."
+    },
+    {
+      "name": "Khosla Ventures",
+      "current": {
+        "name": "Khosla Ventures",
+        "shortName": "KV",
+        "aum": "$15B+",
+        "flagshipFund": "Khosla Ventures IX",
+        "founded": 2004,
+        "hq": "Menlo Park, CA",
+        "website": "https://khoslaventures.com"
+      },
+      "verified": {
+        "name": "Khosla Ventures",
+        "short_name": "KV",
+        "aum": "$15B+",
+        "flagship_fund": null,
+        "founded_year": 2004,
+        "hq": "Menlo Park, CA",
+        "key_partners": [
+          "Vinod Khosla",
+          "Samir Kaul",
+          "Keith Rabois",
+          "Sven Strohband",
+          "David Weiden"
+        ],
+        "sector_focus": [
+          "Consumer",
+          "Enterprise",
+          "Fintech",
+          "Frontier",
+          "MedTech & Diagnostics",
+          "Digital Health",
+          "Therapeutics",
+          "Sustainability"
+        ],
+        "thesis": "Khosla Ventures is passionate about technology-based economic disruption in many industries. The firm seeks unfair advantages through proprietary and protected technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and change the way we lead our daily lives.",
+        "website": "https://khoslaventures.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            4
+          ],
+          "short_name": [
+            0
+          ],
+          "aum": [
+            4
+          ],
+          "flagship_fund": [],
+          "founded_year": [
+            4
+          ],
+          "hq": [
+            0,
+            4
+          ],
+          "key_partners": [
+            2
+          ],
+          "sector_focus": [
+            1
+          ],
+          "thesis": [
+            1
+          ],
+          "website": [
+            0,
+            4
+          ]
+        },
+        "notes": "Keith Rabois returned to the firm as managing director in February 2024 (source 4). AUM figure is from October 2021 per Wikipedia (source 4); more recent figures may exist but are not provided in sources."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Khosla Ventures is passionate about technology-based economic disruption in many industries. The firm seeks unfair advantages through proprietary and protected technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and change the way people lead their daily lives.",
+          "verified": "Khosla Ventures is passionate about technology-based economic disruption in many industries. The firm seeks unfair advantages through proprietary and protected technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and change the way we lead our daily lives.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://khoslaventures.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://khoslaventures.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://khoslaventures.com/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/portfolio",
+          "url": "https://khoslaventures.com/portfolio"
+        },
+        {
+          "idx": 4,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khosla_Ventures"
+        },
+        {
+          "idx": 5,
+          "src": "news (Sifted)",
+          "url": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
+        }
+      ],
+      "notes": "Keith Rabois returned to the firm as managing director in February 2024 (source 4). AUM figure is from October 2021 per Wikipedia (source 4); more recent figures may exist but are not provided in sources."
+    }
+  ],
   "unverifiable": []
 }

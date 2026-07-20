@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-19T08:00:14+00:00",
+  "generatedAt": "2026-07-20T08:40:04+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 33,
-  "newExtractionsThisRun": 33,
+  "cohortSize": 27,
+  "newExtractionsThisRun": 27,
   "summary": {
-    "cleared": 28,
-    "changesProposed": 5,
+    "cleared": 25,
+    "changesProposed": 2,
     "unverifiable": 0
   },
   "cleared": [
@@ -16,16 +16,14 @@
     "Apptronik",
     "Astera Labs",
     "Axiom Space",
-    "Black Semiconductor",
     "Blue Water Autonomy",
-    "Cerebras",
     "Deterrence",
     "Durin",
     "Hadrian",
     "Helsing",
     "Humanoid",
+    "Icarus",
     "Karman Industries",
-    "Lab 91",
     "Monumental",
     "Orbital Composites",
     "PsiQuantum",
@@ -33,411 +31,12 @@
     "Saildrone",
     "Saronic",
     "Scale AI",
-    "Terran Robotics",
+    "Skyroot Aerospace",
     "Valar Atomics",
     "Vast",
-    "Waymo",
     "Xtend"
   ],
   "changesProposed": [
-    {
-      "name": "ICON",
-      "current": {
-        "name": "ICON",
-        "founder": "Jason Ballard, Evan Loomis, Alexander Le Roux",
-        "location": "Austin, TX",
-        "founded": 2017,
-        "fundingStage": "Series C",
-        "totalRaised": "$450M+",
-        "website": "https://icon.com"
-      },
-      "verified": {
-        "name": "Icon",
-        "description": "Human UGC (user-generated content) advertising platform that films and edits ads with real creators; offers Command Center software for tracking, reviewing, and managing UGC ad campaigns.",
-        "founders": [
-          "Kennan Frost"
-        ],
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Founders Fund",
-          "Mark Chen",
-          "Saquon Barkley",
-          "Roman Khan"
-        ],
-        "website": "https://icon.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            0
-          ],
-          "investors": [
-            0
-          ]
-        },
-        "notes": "Database entry references a different ICON company (3D-printed homes). Source [0] and [1] describe Icon as a Human UGC advertising platform founded by Kennan Frost (who previously founded Skio with $8M raised and $105M cash exit). Sources do not provide founding year, location, funding amount, valuation, or current stage for this Icon company. Wikipedia [2] mentions 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is unrelated to Icon."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Jason Ballard, Evan Loomis, Alexander Le Roux",
-          "verified": "Kennan Frost",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://icon.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://icon.com/team"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/ICON"
-        },
-        {
-          "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/gavin-baker-says-kimi-k3-is-bad-for-anthropic-and-openai-but-good-for-others.html"
-        }
-      ],
-      "notes": "Database entry references a different ICON company (3D-printed homes). Source [0] and [1] describe Icon as a Human UGC advertising platform founded by Kennan Frost (who previously founded Skio with $8M raised and $105M cash exit). Sources do not provide founding year, location, funding amount, valuation, or current stage for this Icon company. Wikipedia [2] mentions 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is unrelated to Icon."
-    },
-    {
-      "name": "Icarus",
-      "current": {
-        "name": "Icarus",
-        "founder": "Henry Kwan (CEO, fmr Orbital \u2014 built spacecraft + space robots, helped win $935M NASA space habitat contract; fmr NASA flight sciences drone designer; M.S. Aerospace Engineering Georgia Tech; TS/SCI clearance)",
-        "location": "Los Angeles, CA",
-        "founded": 2023,
-        "fundingStage": "Seed",
-        "totalRaised": "",
-        "website": "https://www.icarus.one"
-      },
-      "verified": {
-        "name": "Icarus",
-        "description": "Designs and manufactures solar-powered, autonomous stratospheric aircraft operating above 60,000 feet capable of weeks-long flight. The flagship platform APOLLO is a fully solar-powered autonomous aircraft that flew in 2024.",
-        "founders": [
-          "Henry Kwan"
-        ],
-        "location": "Los Angeles, CA",
-        "founded_year": 2023,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Y Combinator"
-        ],
-        "website": "https://www.icarus.one",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [],
-          "total_raised": [],
-          "valuation": [],
-          "investors": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [2] is Wikipedia article on Greek mythology and is not relevant to the company. Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in Napa, CA developing space robots, not the Icarus stratospheric aircraft company. Only sources [0] (company website) and [1] (company about page) are relevant. Y Combinator is mentioned on the about page with Paul Graham shown, indicating YC backing. Database entry references 'Fall 2025' YC batch, 'Beth Turner,' and 'Cyrus Ventures' as investors, but these cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Henry Kwan (CEO, fmr Orbital \u2014 built spacecraft + space robots, helped win $935M NASA space habitat contract; fmr NASA flight sciences drone designer; M.S. Aerospace Engineering Georgia Tech; TS/SCI clearance)",
-          "verified": "Henry Kwan",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.icarus.one"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.icarus.one/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Icarus"
-        },
-        {
-          "idx": 3,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/icarus-robotics-uses-kulr-technology-to-power-joy-free-flying-space-robot/"
-        },
-        {
-          "idx": 4,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/"
-        }
-      ],
-      "notes": "Source [2] is Wikipedia article on Greek mythology and is not relevant to the company. Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in Napa, CA developing space robots, not the Icarus stratospheric aircraft company. Only sources [0] (company website) and [1] (company about page) are relevant. Y Combinator is mentioned on the about page with Paul Graham shown, indicating YC backing. Database entry references 'Fall 2025' YC batch, 'Beth Turner,' and 'Cyrus Ventures' as investors, but these cannot be verified from provided sources."
-    },
-    {
-      "name": "Rapidus",
-      "current": {
-        "name": "Rapidus",
-        "founder": "Atsuyoshi Koike, Tetsuro Higashi",
-        "location": "Tokyo, Japan",
-        "founded": 2022,
-        "fundingStage": "Late Stage",
-        "totalRaised": "$5B+",
-        "website": "https://www.rapidus.inc"
-      },
-      "verified": {
-        "name": "Rapidus",
-        "description": "Japanese semiconductor manufacturer established to develop and produce 2nm logic semiconductor chips using GAA (Gate-All-Around) process technology. The company operates a research and manufacturing facility (IIM) in Chitose, Hokkaido with pilot line operations beginning in 2025 and mass production planned for 2027.",
-        "founders": [
-          "Tetsuro Higashi",
-          "Atsuyoshi Koike"
-        ],
-        "location": "Chiyoda, Tokyo, Japan",
-        "founded_year": 2022,
-        "current_stage": "Late Stage",
-        "total_raised": "$5B+",
-        "valuation": null,
-        "investors": [
-          "Government of Japan",
-          "Toyota Motor Corporation",
-          "Sony Group Corporation",
-          "SoftBank Corporation",
-          "NTT Inc.",
-          "NEC Corporation",
-          "Kioxia Corporation",
-          "MUFG Bank",
-          "Denso Corporation",
-          "Development Bank of Japan"
-        ],
-        "website": "https://www.rapidus.inc",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            0,
-            1
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            1,
-            2
-          ]
-        },
-        "notes": "Company was established August 10, 2022 by eight Japanese companies with initial investment of 7.3 billion yen. Wikipedia lists 'Tetsuro Higashi' as Chairman (noted as formerly leading Tokyo Electron); company website lists 'Higashi Tetsuro' as \u53d6\u7de0\u5f79\u4f1a\u9577 (Chairman). Wikipedia identifies 'Atsuyoshi Koike' as President/CEO (formerly led Western Digital's Japanese subsidiary); company website shows '\u5c0f\u6c60\u6df3\u7fa9' as \u4ee3\u8868\u53d6\u7de0\u5f79\u793e\u9577\u517cCEO. The database entry lists both as founders, which aligns with Wikipedia's description of them leading the company at establishment. Pilot line operations began April 2025; mass production target is 2027."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Tokyo, Japan",
-          "verified": "Chiyoda, Tokyo, Japan",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.rapidus.inc"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.rapidus.inc/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Rapidus"
-        },
-        {
-          "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/gavin-baker-says-kimi-k3-is-bad-for-anthropic-and-openai-but-good-for-others.html"
-        }
-      ],
-      "notes": "Company was established August 10, 2022 by eight Japanese companies with initial investment of 7.3 billion yen. Wikipedia lists 'Tetsuro Higashi' as Chairman (noted as formerly leading Tokyo Electron); company website lists 'Higashi Tetsuro' as \u53d6\u7de0\u5f79\u4f1a\u9577 (Chairman). Wikipedia identifies 'Atsuyoshi Koike' as President/CEO (formerly led Western Digital's Japanese subsidiary); company website shows '\u5c0f\u6c60\u6df3\u7fa9' as \u4ee3\u8868\u53d6\u7de0\u5f79\u793e\u9577\u517cCEO. The database entry lists both as founders, which aligns with Wikipedia's description of them leading the company at establishment. Pilot line operations began April 2025; mass production target is 2027."
-    },
-    {
-      "name": "Skyroot Aerospace",
-      "current": {
-        "name": "Skyroot Aerospace",
-        "founder": "Pawan Kumar Chandana, Naga Bharath Daka",
-        "location": "Hyderabad, India",
-        "founded": 2018,
-        "fundingStage": "Series C",
-        "totalRaised": "$95M+",
-        "website": "https://skyroot.in"
-      },
-      "verified": {
-        "name": "Skyroot Aerospace",
-        "description": "Indian private aerospace manufacturer and commercial launch service provider developing small-lift launch vehicles for the small satellite market. The company became the first Indian private company to reach outer space with its Vikram-S suborbital rocket in November 2022.",
-        "founders": [
-          "Pawan Kumar Chandana",
-          "Naga Bharath Daka"
-        ],
-        "location": "Hyderabad, Telangana, India",
-        "founded_year": 2018,
-        "current_stage": null,
-        "total_raised": "$160M",
-        "valuation": "$1.1B",
-        "investors": [
-          "Temasek Holdings",
-          "GIC",
-          "Greenko Group",
-          "Solar Industries",
-          "Sherpalo Ventures",
-          "Wami Capital",
-          "Worldquant Ventures",
-          "Graph Ventures",
-          "Sutton Capital",
-          "Vedanshu Investments"
-        ],
-        "website": "https://skyroot.in",
-        "sources_per_field": {
-          "name": [
-            1
-          ],
-          "description": [
-            2,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "total_raised": [
-            1
-          ],
-          "valuation": [
-            1
-          ],
-          "investors": [
-            1,
-            2
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Founded date: Wikipedia states 'Founded 12 June 2018' and source [1] states 'In 2018'. Total raised figure of $160M and valuation of $1.1B both from source [1]: 'Raised USD 160 million to date, at a valuation of USD 1.1 billion'. Source [2] (Wikipedia) references an earlier total of $95M from October 2023, but source [1] provides the most recent figure. Company successfully launched Vikram-1 to orbit on July 18, 2026 (per source [3])."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Hyderabad, India",
-          "verified": "Hyderabad, Telangana, India",
-          "sources": [
-            1,
-            2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$95M+",
-          "verified": "$160M",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://skyroot.in"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://skyroot.in/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Skyroot_Aerospace"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch/"
-        }
-      ],
-      "notes": "Founded date: Wikipedia states 'Founded 12 June 2018' and source [1] states 'In 2018'. Total raised figure of $160M and valuation of $1.1B both from source [1]: 'Raised USD 160 million to date, at a valuation of USD 1.1 billion'. Source [2] (Wikipedia) references an earlier total of $95M from October 2023, but source [1] provides the most recent figure. Company successfully launched Vikram-1 to orbit on July 18, 2026 (per source [3])."
-    },
     {
       "name": "SpaceX",
       "current": {
@@ -451,7 +50,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok, X, data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -493,7 +92,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one place and 85% in another; using 85% from narrative text). Sources [1], [2], [3] discuss SpaceX AI operations and expansion plans but do not provide independently verifiable founding, valuation, or stage information beyond what Wikipedia provides."
+        "notes": "Wikipedia source indicates IPO occurred June 12, 2026, raising $86B and making it the largest IPO in history. Database entry claims 'preparing for IPO' but source confirms IPO already completed. Elon Musk ownership listed as 42% equity with 85% voting control in Wikipedia (database says 82% voting control\u2014discrepancy noted but 85% is from primary source). No valuation figure found in provided sources to verify the $1.65T claim."
       },
       "changes": [
         {
@@ -514,20 +113,100 @@
         {
           "idx": 1,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacexai-provides-near-immediate-gigawatt-scale-ai-data-center-capacity.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-pushed-to-friday-july-24-2026.html"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/100-billion-in-realized-value-from-the-temporary-anthropic-ai-lead.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-is-secretly-winning-the-ai-war-on-earth-82-billion-run-rate-incoming.html"
         },
         {
           "idx": 3,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-louisiana-launch-facility.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacexai-provides-near-immediate-gigawatt-scale-ai-data-center-capacity.html"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one place and 85% in another; using 85% from narrative text). Sources [1], [2], [3] discuss SpaceX AI operations and expansion plans but do not provide independently verifiable founding, valuation, or stage information beyond what Wikipedia provides."
+      "notes": "Wikipedia source indicates IPO occurred June 12, 2026, raising $86B and making it the largest IPO in history. Database entry claims 'preparing for IPO' but source confirms IPO already completed. Elon Musk ownership listed as 42% equity with 85% voting control in Wikipedia (database says 82% voting control\u2014discrepancy noted but 85% is from primary source). No valuation figure found in provided sources to verify the $1.65T claim."
+    },
+    {
+      "name": "Terran Robotics",
+      "current": {
+        "name": "Terran Robotics",
+        "founder": "Zach Dwiel, Danny Weddle",
+        "location": "Bloomington, IN",
+        "founded": 2018,
+        "fundingStage": "Seed",
+        "totalRaised": "$256K",
+        "website": "https://terranrobotics.ai"
+      },
+      "verified": {
+        "name": "Terran Robotics",
+        "description": "Company developing terraforming robots that combine robotics and adobe materials to construct residential homes and commercial structures. The company aims to address housing affordability through automated earthen construction methods.",
+        "founders": [
+          "Zach Dwiel",
+          "Danny Weddle"
+        ],
+        "location": "Bloomington, Indiana",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": "$256K",
+        "valuation": null,
+        "investors": null,
+        "website": "https://terranrobotics.ai",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [2] appears to be about a different company (Monumental) and does not contain information about Terran Robotics. Database entry lists 9 investors and $256K raised; the NSF SBIR grant of $256K is verified in source [1], but other investors cannot be verified from provided sources. Current stage cannot be verified as sources do not explicitly state funding round designation."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Bloomington, IN",
+          "verified": "Bloomington, Indiana",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://terranrobotics.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://terranrobotics.ai/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
+        }
+      ],
+      "notes": "Source [2] appears to be about a different company (Monumental) and does not contain information about Terran Robotics. Database entry lists 9 investors and $256K raised; the NSF SBIR grant of $256K is verified in source [1], but other investors cannot be verified from provided sources. Current stage cannot be verified as sources do not explicitly state funding round designation."
     }
   ],
   "unverifiable": []

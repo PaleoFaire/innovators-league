@@ -1,68 +1,45 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-19T08:00:14+00:00  
+**Generated:** 2026-07-20T08:40:04+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 33 companies  
+**Cohort size:** 27 companies  
 
-**New Claude extractions this run:** 33  
+**New Claude extractions this run:** 27  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 28 | 85% |
-| 🔧 Changes proposed | 5 | 15% |
+| ✅ Cleared (data matches sources) | 25 | 93% |
+| 🔧 Changes proposed | 2 | 7% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (5 companies)
+## 🔧 Proposed Changes (2 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
-
-### ICON
-
-- **`founder`:** `Jason Ballard, Evan Loomis, Alexander Le Roux` → `Kennan Frost`  
-  Sources: [company_website](https://icon.com)
-
-  **Notes:** Database entry references a different ICON company (3D-printed homes). Source [0] and [1] describe Icon as a Human UGC advertising platform founded by Kennan Frost (who previously founded Skio with $8M raised and $105M cash exit). Sources do not provide founding year, location, funding amount, valuation, or current stage for this Icon company. Wikipedia [2] mentions 'ICON, a 3D concrete printing technology company' but provides no details. Source [3] is unrelated to Icon.
-
-### Icarus
-
-- **`founder`:** `Henry Kwan (CEO, fmr Orbital — built spacecraft + space robo` → `Henry Kwan`  
-  Sources: [company_about](https://www.icarus.one/about)
-
-  **Notes:** Source [2] is Wikipedia article on Greek mythology and is not relevant to the company. Sources [3] and [4] refer to 'Icarus Robotics,' a different company based in Napa, CA developing space robots, not the Icarus stratospheric aircraft company. Only sources [0] (company website) and [1] (company about page) are relevant. Y Combinator is mentioned on the about page with Paul Graham shown, indicating YC backing. Database entry references 'Fall 2025' YC batch, 'Beth Turner,' and 'Cyrus Ventures' as investors, but these cannot be verified from provided sources.
-
-### Rapidus
-
-- **`location`:** `Tokyo, Japan` → `Chiyoda, Tokyo, Japan`  
-  Sources: [company_about](https://www.rapidus.inc/about) · [wikipedia](https://en.wikipedia.org/wiki/Rapidus)
-
-  **Notes:** Company was established August 10, 2022 by eight Japanese companies with initial investment of 7.3 billion yen. Wikipedia lists 'Tetsuro Higashi' as Chairman (noted as formerly leading Tokyo Electron); company website lists 'Higashi Tetsuro' as 取締役会長 (Chairman). Wikipedia identifies 'Atsuyoshi Koike' as President/CEO (formerly led Western Digital's Japanese subsidiary); company website shows '小池淳義' as 代表取締役社長兼CEO. The database entry lists both as founders, which aligns with Wikipedia's description of them leading the company at establishment. Pilot line operations began April 2025; mass production target is 2027.
-
-### Skyroot Aerospace
-
-- **`location`:** `Hyderabad, India` → `Hyderabad, Telangana, India`  
-  Sources: [company_about](https://skyroot.in/about) · [wikipedia](https://en.wikipedia.org/wiki/Skyroot_Aerospace)
-- **`totalRaised`:** `$95M+` → `$160M`  
-  Sources: [company_about](https://skyroot.in/about)
-
-  **Notes:** Founded date: Wikipedia states 'Founded 12 June 2018' and source [1] states 'In 2018'. Total raised figure of $160M and valuation of $1.1B both from source [1]: 'Raised USD 160 million to date, at a valuation of USD 1.1 billion'. Source [2] (Wikipedia) references an earlier total of $95M from October 2023, but source [1] provides the most recent figure. Company successfully launched Vikram-1 to orbit on July 18, 2026 (per source [3]).
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one place and 85% in another; using 85% from narrative text). Sources [1], [2], [3] discuss SpaceX AI operations and expansion plans but do not provide independently verifiable founding, valuation, or stage information beyond what Wikipedia provides.
+  **Notes:** Wikipedia source indicates IPO occurred June 12, 2026, raising $86B and making it the largest IPO in history. Database entry claims 'preparing for IPO' but source confirms IPO already completed. Elon Musk ownership listed as 42% equity with 85% voting control in Wikipedia (database says 82% voting control—discrepancy noted but 85% is from primary source). No valuation figure found in provided sources to verify the $1.65T claim.
+
+### Terran Robotics
+
+- **`location`:** `Bloomington, IN` → `Bloomington, Indiana`  
+  Sources: [company_about](https://terranrobotics.ai/about)
+
+  **Notes:** Source [2] appears to be about a different company (Monumental) and does not contain information about Terran Robotics. Database entry lists 9 investors and $256K raised; the NSF SBIR grant of $256K is verified in source [1], but other investors cannot be verified from provided sources. Current stage cannot be verified as sources do not explicitly state funding round designation.
 
 ---
 
-## ✅ Cleared (28 companies)
+## ✅ Cleared (25 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -74,16 +51,14 @@ Sample (first 30):
 - Apptronik
 - Astera Labs
 - Axiom Space
-- Black Semiconductor
 - Blue Water Autonomy
-- Cerebras
 - Deterrence
 - Durin
 - Hadrian
 - Helsing
 - Humanoid
+- Icarus
 - Karman Industries
-- Lab 91
 - Monumental
 - Orbital Composites
 - PsiQuantum
@@ -91,13 +66,12 @@ Sample (first 30):
 - Saildrone
 - Saronic
 - Scale AI
-- Terran Robotics
+- Skyroot Aerospace
 - Valar Atomics
 - Vast
-- Waymo
 - Xtend
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-19T08:00:14+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-20T08:40:04+00:00*
