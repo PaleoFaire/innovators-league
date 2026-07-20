@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T13:11:21.988676+00:00",
+  "generatedAt": "2026-07-20T15:56:41.701370+00:00",
   "date": "2026-07-20",
   "dateDisplay": "Monday, July 20, 2026",
   "sections": {
@@ -52,25 +52,11 @@
     ],
     "marketMovers": [
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 303.62,
-        "changePercent": -26.48,
-        "change": -109.35
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 57.8,
-        "changePercent": -21.17,
-        "change": -15.52
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 34.78,
-        "changePercent": -18.85,
-        "change": -8.08
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 3.56,
+        "changePercent": -17.78,
+        "change": -0.77
       },
       {
         "ticker": "277810.KQ",
@@ -80,32 +66,46 @@
         "change": -78500.0
       },
       {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 2.94,
-        "changePercent": -17.28,
-        "change": -0.62
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 57.26,
+        "changePercent": -15.27,
+        "change": -10.32
       },
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 16.73,
-        "changePercent": -16.72,
-        "change": -3.36
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 47.55,
+        "changePercent": -14.98,
+        "change": -8.38
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 309.94,
+        "changePercent": -14.39,
+        "change": -52.11
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 22.37,
+        "changePercent": -13.83,
+        "change": -3.59
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 67.62,
-        "changePercent": -16.56,
-        "change": -13.42
+        "price": 66.28,
+        "changePercent": -13.62,
+        "change": -10.45
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 13.52,
-        "changePercent": -16.23,
-        "change": -2.62
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 2.87,
+        "changePercent": -13.03,
+        "change": -0.43
       }
     ],
     "regulatory": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ALAB -26.5%"
+    "topMover": "SATL -17.8%"
   }
 }
