@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T18:11:31.686381+00:00",
+  "generatedAt": "2026-07-20T20:27:46.514996+00:00",
   "date": "2026-07-20",
   "dateDisplay": "Monday, July 20, 2026",
   "sections": {
@@ -54,9 +54,9 @@
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 3.56,
-        "changePercent": -17.78,
-        "change": -0.77
+        "price": 3.57,
+        "changePercent": -17.55,
+        "change": -0.76
       },
       {
         "ticker": "277810.KQ",
@@ -66,46 +66,46 @@
         "change": -78500.0
       },
       {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 5.31,
+        "changePercent": 16.7,
+        "change": 0.76
+      },
+      {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 57.26,
-        "changePercent": -15.27,
-        "change": -10.32
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 47.55,
-        "changePercent": -14.98,
-        "change": -8.38
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 309.94,
-        "changePercent": -14.39,
-        "change": -52.11
+        "price": 57.39,
+        "changePercent": -15.08,
+        "change": -10.19
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 22.37,
-        "changePercent": -13.83,
-        "change": -3.59
+        "price": 22.22,
+        "changePercent": -14.41,
+        "change": -3.74
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 311.04,
+        "changePercent": -14.09,
+        "change": -51.01
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 66.28,
-        "changePercent": -13.62,
-        "change": -10.45
+        "price": 66.2,
+        "changePercent": -13.72,
+        "change": -10.53
       },
       {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 2.87,
-        "changePercent": -13.03,
-        "change": -0.43
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 48.45,
+        "changePercent": -13.37,
+        "change": -7.48
       }
     ],
     "regulatory": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SATL -17.8%"
+    "topMover": "SATL -17.6%"
   }
 }
