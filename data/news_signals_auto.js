@@ -1,52 +1,52 @@
 // Auto-generated news signals
-// Last updated: 2026-07-20T20:27:36.388Z
+// Last updated: 2026-07-20T22:07:55.084Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1784579256388,
+    "id": 1784585275084,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI is scared of open-weight models. Should the US be?",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/"
   },
   {
-    "id": 1784579256389,
+    "id": 1784585275085,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Inference startup Infinity raises $15M from Touring Capital, OpenAI and Anthropic researchers",
     "source": "TechCrunch",
-    "time": "5h ago",
+    "time": "6h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/"
   },
   {
-    "id": 1784579256390,
+    "id": 1784585275086,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPU Racks from Foxconn",
     "source": "Next Big Future",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/elon-musk-denies-report-spacex-was-buying-1-million-b300-gpus-and-racks.html"
   },
   {
-    "id": 1784579256391,
+    "id": 1784585275087,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 13 Pushed to Friday July 24, 2026",
     "source": "Next Big Future",
-    "time": "20h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-pushed-to-friday-july-24-2026.html"
   },
   {
-    "id": 1784579256392,
+    "id": 1784585275088,
     "type": "hire",
     "company": "SpaceX",
     "headline": "SpaceX Is Secretly Winning the AI War on Earth — $82 Billion Run Rate Incoming",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/spacex-is-secretly-winning-the-ai-war-on-earth-82-billion-run-rate-incoming.html"
   },
   {
-    "id": 1784579256393,
+    "id": 1784585275089,
     "type": "ipo",
     "company": "Skyroot Aerospace",
     "headline": "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch/"
   },
   {
-    "id": 1784579256394,
+    "id": 1784585275090,
     "type": "news",
     "company": "Saronic",
     "headline": "Saronic picks Brownsville, Texas, for $3 billion Port Alpha shipyard",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/07/17/saronic-picks-brownsville-texas-for-3-billion-port-alpha-shipyard/"
   },
   {
-    "id": 1784579256395,
+    "id": 1784585275091,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "Weave Robotics launches Isaac, its first mobile humanoid robot",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
   },
   {
-    "id": 1784579256396,
+    "id": 1784585275092,
     "type": "ipo",
     "company": "Scale AI",
     "headline": "SpaceXAI Provides Near IMMEDIATE Gigawatt Scale AI Data Center Capacity",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/spacexai-provides-near-immediate-gigawatt-scale-ai-data-center-capacity.html"
   },
   {
-    "id": 1784579256397,
+    "id": 1784585275093,
     "type": "funding",
     "company": "Helsing",
     "headline": "Helsing secures $1.8B Series E,  Uber acquiring Delivery Hero in €13B deal, and Revolut to launch US bank in 2027",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/17/helsing-secures-1-8b-series-e-uber-acquiring-delivery-hero-in-13b-deal-and-revolut-to-launch-us-bank-in-2027/"
   },
   {
-    "id": 1784579256398,
+    "id": 1784585275094,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX’s only problem is finding more space to work with",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacexs-only-problem-is-finding-more-space-to-work-with/"
   },
   {
-    "id": 1784579256399,
+    "id": 1784585275095,
     "type": "funding",
     "company": "Monumental",
     "headline": "With new funding, Monumental plans to bring its construction robots to the U.S.",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
   },
   {
-    "id": 1784579256400,
+    "id": 1784585275096,
     "type": "hire",
     "company": "Humanoid",
     "headline": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
   },
   {
-    "id": 1784579256401,
+    "id": 1784585275097,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX aborts Starship Flight 13 launch attempt",
@@ -156,18 +156,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/"
   },
   {
-    "id": 1784579256402,
+    "id": 1784585275098,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches 21 satellites for military data network",
     "source": "SpaceNews",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "medium",
     "unread": false,
     "link": "https://spacenews.com/spacex-launches-21-satellites-for-military-data-network/"
   },
   {
-    "id": 1784579256403,
+    "id": 1784585275099,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/"
   },
   {
-    "id": 1784579256404,
+    "id": 1784585275100,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Agility outlines six recommendations for U.S. humanoid robot policies",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/"
   },
   {
-    "id": 1784579256405,
+    "id": 1784585275101,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
   },
   {
-    "id": 1784579256406,
+    "id": 1784585275102,
     "type": "funding",
     "company": "Monumental",
     "headline": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
   },
   {
-    "id": 1784579256407,
+    "id": 1784585275103,
     "type": "ipo",
     "company": "Icarus",
     "headline": "Icarus Robotics taps KULR to provide batteries for Space Station robots",
