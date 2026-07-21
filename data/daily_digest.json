@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T00:03:58.078093+00:00",
+  "generatedAt": "2026-07-21T03:34:30.875635+00:00",
   "date": "2026-07-21",
   "dateDisplay": "Tuesday, July 21, 2026",
   "sections": {
@@ -59,13 +59,6 @@
         "change": -0.76
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 375000.0,
-        "changePercent": -17.31,
-        "change": -78500.0
-      },
-      {
         "ticker": "ACHR",
         "company": "Archer Aviation",
         "price": 5.31,
@@ -75,37 +68,44 @@
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 57.39,
-        "changePercent": -15.08,
-        "change": -10.19
+        "price": 57.42,
+        "changePercent": -15.03,
+        "change": -10.16
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 22.22,
-        "changePercent": -14.41,
-        "change": -3.74
+        "price": 22.15,
+        "changePercent": -14.68,
+        "change": -3.81
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 311.04,
-        "changePercent": -14.09,
-        "change": -51.01
+        "price": 309.09,
+        "changePercent": -14.63,
+        "change": -52.96
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 66.2,
-        "changePercent": -13.72,
-        "change": -10.53
+        "price": 65.74,
+        "changePercent": -14.32,
+        "change": -10.99
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 48.45,
-        "changePercent": -13.37,
-        "change": -7.48
+        "price": 48.41,
+        "changePercent": -13.45,
+        "change": -7.52
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 2.89,
+        "changePercent": -12.42,
+        "change": -0.41
       }
     ],
     "regulatory": [
