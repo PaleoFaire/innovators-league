@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-20T08:40:04+00:00",
+  "generatedAt": "2026-07-21T08:08:34+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 27,
-  "newExtractionsThisRun": 27,
+  "cohortSize": 22,
+  "newExtractionsThisRun": 22,
   "summary": {
-    "cleared": 25,
-    "changesProposed": 2,
+    "cleared": 19,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
@@ -16,27 +16,105 @@
     "Apptronik",
     "Astera Labs",
     "Axiom Space",
-    "Blue Water Autonomy",
     "Deterrence",
     "Durin",
     "Hadrian",
     "Helsing",
     "Humanoid",
-    "Icarus",
     "Karman Industries",
     "Monumental",
     "Orbital Composites",
-    "PsiQuantum",
     "Quaise Energy",
-    "Saildrone",
     "Saronic",
-    "Scale AI",
     "Skyroot Aerospace",
-    "Valar Atomics",
     "Vast",
     "Xtend"
   ],
   "changesProposed": [
+    {
+      "name": "Icarus",
+      "current": {
+        "name": "Icarus",
+        "founder": "Henry Kwan (CEO, fmr Orbital \u2014 built spacecraft + space robots, helped win $935M NASA space habitat contract; fmr NASA flight sciences drone designer; M.S. Aerospace Engineering Georgia Tech; TS/SCI clearance)",
+        "location": "Los Angeles, CA",
+        "founded": 2023,
+        "fundingStage": "Seed",
+        "totalRaised": "",
+        "website": "https://www.icarus.one"
+      },
+      "verified": {
+        "name": "Icarus",
+        "description": "Builds autonomous, solar-powered stratospheric aircraft operating above 60,000 feet for weeks at a time. Flagship platform APOLLO is a fully solar-powered, autonomous aircraft that completed its first flight in 2024.",
+        "founders": [
+          "Henry Kwan"
+        ],
+        "location": "Los Angeles, CA",
+        "founded_year": 2023,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Y Combinator"
+        ],
+        "website": "https://www.icarus.one",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "investors": [
+            1
+          ]
+        },
+        "notes": "Source [2] is Wikipedia entry for Greek mythological figure Icarus, not the company. Source [3] refers to 'Icarus Robotics', a different company (NY-based space robotics startup), not the Icarus company in this database. Only sources [0] and [1] contain verified information about the aerospace company. Y Combinator mentioned as investor via Paul Graham image on About page [1]. Current stage, total raised, and valuation cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Henry Kwan (CEO, fmr Orbital \u2014 built spacecraft + space robots, helped win $935M NASA space habitat contract; fmr NASA flight sciences drone designer; M.S. Aerospace Engineering Georgia Tech; TS/SCI clearance)",
+          "verified": "Henry Kwan",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.icarus.one"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.icarus.one/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Icarus"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/"
+        }
+      ],
+      "notes": "Source [2] is Wikipedia entry for Greek mythological figure Icarus, not the company. Source [3] refers to 'Icarus Robotics', a different company (NY-based space robotics startup), not the Icarus company in this database. Only sources [0] and [1] contain verified information about the aerospace company. Y Combinator mentioned as investor via Paul Graham image on About page [1]. Current stage, total raised, and valuation cannot be verified from provided sources."
+    },
     {
       "name": "SpaceX",
       "current": {
@@ -50,7 +128,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok, X, data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. SpaceX operates three divisions conducting orbital launches, operating Starlink satellite communications, and artificial intelligence services.",
         "founders": [
           "Elon Musk"
         ],
@@ -92,7 +170,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates IPO occurred June 12, 2026, raising $86B and making it the largest IPO in history. Database entry claims 'preparing for IPO' but source confirms IPO already completed. Elon Musk ownership listed as 42% equity with 85% voting control in Wikipedia (database says 82% voting control\u2014discrepancy noted but 85% is from primary source). No valuation figure found in provided sources to verify the $1.65T claim."
+        "notes": "Company completed IPO on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia source indicates traded on Nasdaq as SPCX (Class A). Elon Musk owns 42% equity with 82% voting control (Wikipedia states 85% voting power via super-voting stock in one location, 82% in infobox). Sources [1], [2], [3] are news items about business activities but do not provide verified founding, stage, or financial information beyond what Wikipedia confirms."
       },
       "changes": [
         {
@@ -113,20 +191,20 @@
         {
           "idx": 1,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-pushed-to-friday-july-24-2026.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-starlink-communications-will-be-in-every-tesla-cybercab.html"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-is-secretly-winning-the-ai-war-on-earth-82-billion-run-rate-incoming.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-first-earning-rpoert-and-earning-call-is-august-4-2026.html"
         },
         {
           "idx": 3,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacexai-provides-near-immediate-gigawatt-scale-ai-data-center-capacity.html"
+          "url": "https://www.nextbigfuture.com/2026/07/elon-musk-denies-report-spacex-was-buying-1-million-b300-gpus-and-racks.html"
         }
       ],
-      "notes": "Wikipedia source indicates IPO occurred June 12, 2026, raising $86B and making it the largest IPO in history. Database entry claims 'preparing for IPO' but source confirms IPO already completed. Elon Musk ownership listed as 42% equity with 85% voting control in Wikipedia (database says 82% voting control\u2014discrepancy noted but 85% is from primary source). No valuation figure found in provided sources to verify the $1.65T claim."
+      "notes": "Company completed IPO on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia source indicates traded on Nasdaq as SPCX (Class A). Elon Musk owns 42% equity with 82% voting control (Wikipedia states 85% voting power via super-voting stock in one location, 82% in infobox). Sources [1], [2], [3] are news items about business activities but do not provide verified founding, stage, or financial information beyond what Wikipedia confirms."
     },
     {
       "name": "Terran Robotics",
@@ -141,21 +219,22 @@
       },
       "verified": {
         "name": "Terran Robotics",
-        "description": "Company developing terraforming robots that combine robotics and adobe materials to construct residential homes and commercial structures. The company aims to address housing affordability through automated earthen construction methods.",
+        "description": "Company building terraforming robots that use AI and robotics to construct adobe homes from earth materials at reduced cost compared to traditional construction methods.",
         "founders": [
           "Zach Dwiel",
           "Danny Weddle"
         ],
         "location": "Bloomington, Indiana",
         "founded_year": 2018,
-        "current_stage": null,
+        "current_stage": "Seed",
         "total_raised": "$256K",
         "valuation": null,
         "investors": null,
         "website": "https://terranrobotics.ai",
         "sources_per_field": {
           "name": [
-            0
+            0,
+            1
           ],
           "description": [
             0,
@@ -170,14 +249,18 @@
           "founded_year": [
             1
           ],
+          "current_stage": [
+            1
+          ],
           "total_raised": [
             1
           ],
           "website": [
-            0
+            0,
+            1
           ]
         },
-        "notes": "Source [2] appears to be about a different company (Monumental) and does not contain information about Terran Robotics. Database entry lists 9 investors and $256K raised; the NSF SBIR grant of $256K is verified in source [1], but other investors cannot be verified from provided sources. Current stage cannot be verified as sources do not explicitly state funding round designation."
+        "notes": "Founded in 2018 after Zach Dwiel built a prototype AI-driven mini-excavator and the company received a $256K NSF SBIR grant. Company operates out of lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company) and does not contain information about Terran Robotics."
       },
       "changes": [
         {
@@ -206,7 +289,7 @@
           "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
         }
       ],
-      "notes": "Source [2] appears to be about a different company (Monumental) and does not contain information about Terran Robotics. Database entry lists 9 investors and $256K raised; the NSF SBIR grant of $256K is verified in source [1], but other investors cannot be verified from provided sources. Current stage cannot be verified as sources do not explicitly state funding round designation."
+      "notes": "Founded in 2018 after Zach Dwiel built a prototype AI-driven mini-excavator and the company received a $256K NSF SBIR grant. Company operates out of lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company) and does not contain information about Terran Robotics."
     }
   ],
   "unverifiable": []
