@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T11:53:03.134777+00:00",
+  "generatedAt": "2026-07-21T14:11:24.389365+00:00",
   "date": "2026-07-21",
   "dateDisplay": "Tuesday, July 21, 2026",
   "sections": {
@@ -52,60 +52,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 3.57,
-        "changePercent": -17.55,
-        "change": -0.76
-      },
-      {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 5.31,
-        "changePercent": 16.7,
-        "change": 0.76
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 57.42,
-        "changePercent": -15.03,
-        "change": -10.16
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 22.15,
-        "changePercent": -14.68,
-        "change": -3.81
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 309.09,
-        "changePercent": -14.63,
-        "change": -52.96
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 49.54,
+        "changePercent": -15.56,
+        "change": -9.13
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 65.74,
-        "changePercent": -14.32,
-        "change": -10.99
+        "price": 67.55,
+        "changePercent": -14.29,
+        "change": -11.27
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 48.41,
-        "changePercent": -13.45,
-        "change": -7.52
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 3.78,
+        "changePercent": -12.3,
+        "change": -0.53
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 22.82,
+        "changePercent": -10.72,
+        "change": -2.74
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
-        "price": 2.89,
-        "changePercent": -12.42,
-        "change": -0.41
+        "price": 2.98,
+        "changePercent": -10.63,
+        "change": -0.35
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 61.64,
+        "changePercent": -10.43,
+        "change": -7.18
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 35.19,
+        "changePercent": -10.43,
+        "change": -4.1
+      },
+      {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 5.32,
+        "changePercent": 9.69,
+        "change": 0.47
       }
     ],
     "regulatory": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SATL -17.6%"
+    "topMover": "TEM -15.6%"
   }
 }
