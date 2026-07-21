@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-07-20 09:47:57 UTC
+// Last updated: 2026-07-21 09:20:15 UTC
 // Total grants: 632 | Known companies: 12 | SBIR: 20
-// Total funding tracked: $409,956,152
+// Total funding tracked: $409,702,565
 const NIH_GRANTS_AUTO = [
   {
     title: "The CRISPR Vision Program: Nonviral Genome Editing Platforms to Treat Inherited Retinal Channelopathies",
@@ -2305,19 +2305,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Mechanisms and therapeutic implications of human clonal hematopoiesis (CH) mutations",
-    organization: "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
-    orgState: "NY",
-    piName: "Eirini  Papapetrou",
-    fiscalYear: 2026,
-    awardAmount: 671875,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "PROJECT SUMMARY/ABSTRACT  In recent years, large-scale sequencing revealed that the presence of clonally expanded hematopoietic stem/progenitor cells in the bone marrow and blood of healthy individual",
-    terms: ["Acute Myelocytic Leukemia", "Advanced Malignant Neoplasm", "Affect", "Age", "Alleles", "Blood", "Blood Tests", "Bone Marrow"],
-    isKnownCompany: false,
-  },
-  {
     title: "Neuro-Immune mechanisms against skin-penetrating helminths",
     organization: "TULANE UNIVERSITY OF LOUISIANA",
     orgState: "LA",
@@ -3901,6 +3888,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY The long-term goal of this proposal is to utilize a biopolymer particle-based vaccine platform technology to develop a safe, effective multistage malaria vaccine that is ambient-temper",
     terms: ["Antibodies", "Antigens", "Artificial Intelligence enhanced", "Biomedical Engineering", "Biopolymers", "Blood", "CD8-Positive T-Lymphocytes", "Cells"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Novel strategies to mitigate cardiac damage and dysfunction following invasive pneumococcal disease",
+    organization: "LOUISIANA STATE UNIV HSC SHREVEPORT",
+    orgState: "LA",
+    piName: "Hind  Lal",
+    fiscalYear: 2026,
+    awardAmount: 547431,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "One-in-four adults hospitalized for community-acquired pneumonia (CAP) experiences a major adverse cardiac event (MACE). Critically, individuals who experience MACE are 4-5 times more likely to die th",
+    terms: ["Address", "Admission activity", "Adult", "Affect", "Animals", "Antibiotics", "Attenuated", "Automobile Driving"],
     isKnownCompany: false,
   },
 ];

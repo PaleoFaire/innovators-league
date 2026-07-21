@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-07-20",
+    "date": "2026-07-21",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-39",
     "payload": "Starlink Group 17-39",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -54,16 +54,7 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-07-24",
-    "vehicle": "Long March 8A | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/12b9454b-d48b-4fd5-9c11-17c18f45dafe/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-07-24",
+    "date": "2026-07-25",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-51",
     "payload": "Starlink Group 17-51",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -72,12 +63,30 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-52",
     "payload": "Starlink Group 17-52",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e7e55b53-6f69-4c22-9fc5-df00df653a3f/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-07-29",
+    "vehicle": "Long March 7A | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "201, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-30",
+    "vehicle": "Falcon 9 Block 5 | NROL-95",
+    "payload": "NROL-95",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/24675e3d-2458-48a3-8c70-5196e44d4dc3/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -109,15 +118,6 @@
   },
   {
     "date": "2026-07-31",
-    "vehicle": "Long March 7A | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "201, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-07-31",
     "vehicle": "Mir | Demo Flight",
     "payload": "Demo Flight",
     "pad": "ADD Offshore launch platform, Sea Launch",
@@ -144,6 +144,15 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-08-04",
+    "vehicle": "Long March 8A | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/12b9454b-d48b-4fd5-9c11-17c18f45dafe/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-08-06",
     "vehicle": "Spectrum | Onward and Upward",
     "payload": "Onward and Upward",
@@ -159,6 +168,33 @@
     "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
     "provider": "Mitsubishi Heavy Industries",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/b89ab080-66c3-4831-85a9-38d85da71d30/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-09",
+    "vehicle": "Long March 7A | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "201, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/cff704ab-8098-4f65-899e-50adaf908e59/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-17",
+    "vehicle": "Long March 12 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b0e7d1cc-24dd-4da4-bb60-b15b6791d08e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-24",
+    "vehicle": "Long March 5 | Chang'e 7",
+    "payload": "Chang'e 7",
+    "pad": "101, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9d402fb6-9115-424d-b6f0-bd3b13ee310e/?format=json",
     "trackedCompany": null
   },
   {
@@ -196,15 +232,6 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-31",
-    "vehicle": "Long March 5 | Chang'e 7",
-    "payload": "Chang'e 7",
-    "pad": "101, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9d402fb6-9115-424d-b6f0-bd3b13ee310e/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-08-31",
@@ -421,32 +448,5 @@
     "provider": "Mitsubishi Heavy Industries",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-11-24",
-    "vehicle": "Soyuz 2.1b | Progress MS-36 (97P)",
-    "payload": "Progress MS-36 (97P)",
-    "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/8dd5de11-831b-445f-86f0-bffefe0550d9/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-11-30",
-    "vehicle": "Falcon Heavy | Griffin Mission One",
-    "payload": "Griffin Mission One",
-    "pad": "Launch Complex 39A, Kennedy Space Center, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-11-30",
-    "vehicle": "Firefly Alpha Block 2 | ConnectedCosmos Launch 2",
-    "payload": "ConnectedCosmos Launch 2",
-    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
-    "provider": "Firefly Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d47cbca4-48c1-455a-b357-f156833b189e/?format=json",
-    "trackedCompany": "Firefly Aerospace"
   }
 ]
