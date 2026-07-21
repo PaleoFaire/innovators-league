@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T18:20:06.730699+00:00",
+  "generatedAt": "2026-07-21T20:21:56.995693+00:00",
   "date": "2026-07-21",
   "dateDisplay": "Tuesday, July 21, 2026",
   "sections": {
@@ -54,58 +54,58 @@
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 49.54,
-        "changePercent": -15.56,
-        "change": -9.13
+        "price": 48.32,
+        "changePercent": -17.64,
+        "change": -10.35
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 67.55,
-        "changePercent": -14.29,
-        "change": -11.27
+        "price": 68.67,
+        "changePercent": -12.87,
+        "change": -10.14
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 3.78,
-        "changePercent": -12.3,
-        "change": -0.53
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 22.82,
-        "changePercent": -10.72,
-        "change": -2.74
-      },
-      {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 2.98,
-        "changePercent": -10.63,
-        "change": -0.35
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 61.64,
-        "changePercent": -10.43,
-        "change": -7.18
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 317.31,
+        "changePercent": -12.29,
+        "change": -44.46
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 35.19,
-        "changePercent": -10.43,
-        "change": -4.1
+        "price": 35.26,
+        "changePercent": -10.26,
+        "change": -4.03
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 3.87,
+        "changePercent": -10.21,
+        "change": -0.44
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 23.01,
+        "changePercent": -9.98,
+        "change": -2.55
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.02,
+        "changePercent": -9.43,
+        "change": -0.31
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 5.32,
-        "changePercent": 9.69,
-        "change": 0.47
+        "price": 5.29,
+        "changePercent": 8.97,
+        "change": 0.44
       }
     ],
     "regulatory": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TEM -15.6%"
+    "topMover": "TEM -17.6%"
   }
 }
