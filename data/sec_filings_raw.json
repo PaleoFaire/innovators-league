@@ -543,6 +543,15 @@
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
     "form": "8-K",
+    "date": "2026-07-20",
+    "description": "form8-k.htm",
+    "accessionNumber": "0001493152-26-033912",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "8-K",
     "date": "2026-07-15",
     "description": "form8-k.htm",
     "accessionNumber": "0001493152-26-033365",
@@ -834,15 +843,6 @@
     "date": "2026-03-26",
     "description": "xslF345X06/ownership.xml",
     "accessionNumber": "0001493152-26-013026",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-03-26",
-    "description": "xslF345X06/ownership.xml",
-    "accessionNumber": "0001493152-26-013025",
     "isIPO": false
   },
   {
@@ -5634,15 +5634,6 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-05-04",
-    "description": "xslF345X06/wk-form4_1777928537.xml",
-    "accessionNumber": "0001098231-26-000007",
-    "isIPO": false
-  },
-  {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
@@ -5865,6 +5856,15 @@
     "date": "2026-05-06",
     "description": "rxrx-20260506.htm",
     "accessionNumber": "0001601830-26-000077",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
+    "date": "2026-07-20",
+    "description": "xslF345X06/wk-form4_1784581219.xml",
+    "accessionNumber": "0001628280-26-048832",
     "isIPO": false
   },
   {

@@ -1,195 +1,206 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 60,
+    "momentum": 57,
     "trend": "steady",
     "catalysts": [
       "Saronic picks Brownsville, Texas, for $3 billion Port Alpha",
-      "Blue Water Autonomy, Saildrone launch lawsuits against Navy",
-      "SpaceX launches 21 satellites for military data network"
+      "SpaceX launches 21 satellites for military data network",
+      "Meet GPT-Red: an LLM super-hacker OpenAI built to make its m"
     ],
     "fundingQ": "$12.0B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
-      "market": 94
+      "market": 87
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "Anthropic&#8217;s landmark $1.5B copyright settlement is app",
+      "OpenAI is scared of open-weight models. Should the US be?",
+      "Inference startup Infinity raises $15M from Touring Capital,"
+    ],
+    "fundingQ": "$235.7B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 58,
-    "trend": "accelerating",
+    "momentum": 52,
+    "trend": "steady",
     "catalysts": [
-      "Agility Robotics plants its flag in Tesla&#8217;s backyard",
+      "SpaceX Starlink Communications Will Be in Every Tesla Cyberc",
       "Weave Robotics launches Isaac, its first mobile humanoid rob",
       "With new funding, Monumental plans to bring its construction"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 52,
+    "momentum": 51,
     "trend": "accelerating",
     "catalysts": [
-      "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPU",
-      "SpaceX Starship Flight 13 Pushed to Friday July 24, 2026",
-      "SpaceX Is Secretly Winning the AI War on Earth \u2014 $82 Billion"
+      "SpaceX Starlink Communications Will Be in Every Tesla Cyberc",
+      "SpaceX First Earning Report and Earning Call is August 4 202",
+      "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Stat"
     ],
     "fundingQ": "$266.3B",
     "components": {
       "funding": 100,
-      "news": 70,
+      "news": 65,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-20"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 50,
-    "trend": "steady",
-    "catalysts": [
-      "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPU",
-      "SpaceXAI Provides Near IMMEDIATE Gigawatt Scale AI Data Cent",
-      "The Download: OpenAI unveils GPT-Red and heat pumps rise in"
-    ],
-    "fundingQ": "$235.7B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 48,
-    "trend": "steady",
-    "catalysts": [
-      "Saronic picks Brownsville, Texas, for $3 billion Port Alpha",
-      "Blue Water Autonomy, Saildrone launch lawsuits against Navy"
-    ],
-    "fundingQ": "$1.8B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-20"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
     "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "PsiQuantum has a plan to make a massive quantum computer out"
+      "Saronic picks Brownsville, Texas, for $3 billion Port Alpha"
     ],
-    "fundingQ": "$1.9B",
+    "fundingQ": "$1.8B",
     "components": {
       "funding": 100,
       "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "Active supersonic & hypersonic ecosystem"
+    ],
+    "fundingQ": "$1.9B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 39,
+    "momentum": 38,
     "trend": "steady",
     "catalysts": [
-      "Nuclear startup Valar Atomics in talks to raise new funding",
       "A New Force Posture Concept for Europeanizing Extended Nucle",
       "Not Imaginary: The Deterrence Gap is Real and America Needs"
     ],
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 37,
+    "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Icarus Robotics uses KULR technology to power JOY free-flyin",
-      "Key to Humanoid Progress: Managing the Power Behind the Robo",
       "Quaise Energy raises $134M to fuel superhot geothermal ambit"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 96,
-      "news": 15,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-20"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 22,
-    "trend": "rising",
-    "catalysts": [
-      "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
-      "Weave Robotics launches Isaac, its first mobile humanoid rob",
-      "SpaceX\u2019s only problem is finding more space to work with"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 19,
-    "trend": "rising",
+    "momentum": 35,
+    "trend": "steady",
     "catalysts": [
       "Active biotech & health ecosystem"
     ],
-    "fundingQ": "$2.0B",
+    "fundingQ": "$22.0B",
     "components": {
-      "funding": 53,
+      "funding": 100,
       "news": 0,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 12,
+    "sector": "Transportation",
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "Saronic picks Brownsville, Texas, for $3 billion Port Alpha",
-      "Blue Water Autonomy, Saildrone launch lawsuits against Navy"
+      "Active transportation ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-07-21"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic&#8217;s landmark $1.5B copyright settlement is app",
+      "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
+      "Weave Robotics launches Isaac, its first mobile humanoid rob"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Saronic picks Brownsville, Texas, for $3 billion Port Alpha"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Housing & Construction",
@@ -205,39 +216,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 10,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active infrastructure & logistics ecosystem"
+      "Inference startup Infinity raises $15M from Touring Capital,"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-20"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 8
-    },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -253,22 +248,22 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 1,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
-      "PsiQuantum has a plan to make a massive quantum computer out"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-20"
+    "lastUpdated": "2026-07-21"
   }
 ]

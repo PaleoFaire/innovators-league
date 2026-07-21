@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-20 09:21:39 UTC
+// Last updated: 2026-07-21 08:34:44 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-07-20", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-07-20", description: "xslF345X06/wk-form4_1784581219.xml", isIPO: false, ticker: "DNA" },
   { company: "Palantir Technologies", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784333024.xml", isIPO: false, ticker: "PLTR" },
   { company: "C3.ai", form: "8-K", date: "2026-07-17", description: "ai-20260714.htm", isIPO: false, ticker: "AI" },
   { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784309188.xml", isIPO: false, ticker: "IONQ" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "LanzaTech", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936285.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936164.xml", isIPO: false, ticker: "LNZA" },
   { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852950.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852932.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-06-30", description: "xslF345X06/wk-form4_1782852918.xml", isIPO: false, ticker: "BKSY" },
 ];

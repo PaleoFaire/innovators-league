@@ -453,6 +453,15 @@
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
     "form": "8-K",
+    "date": "2026-07-20",
+    "description": "form8-k.htm",
+    "accessionNumber": "0001493152-26-033912",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "8-K",
     "date": "2026-07-15",
     "description": "form8-k.htm",
     "accessionNumber": "0001493152-26-033365",
@@ -1215,24 +1224,6 @@
     "isIPO": false
   },
   {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "DEF 14A",
-    "date": "2026-04-21",
-    "description": "spce-20260421.htm",
-    "accessionNumber": "0001706946-26-000046",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "8-K",
-    "date": "2026-04-21",
-    "description": "spce-20260421.htm",
-    "accessionNumber": "0001706946-26-000045",
-    "isIPO": false
-  },
-  {
     "company": "NuScale Power",
     "ticker": "SMR",
     "form": "4",
@@ -1563,15 +1554,6 @@
     "date": "2026-04-30",
     "description": "xslF345X06/wk-form4_1777580079.xml",
     "accessionNumber": "0001058402-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "DEF 14A",
-    "date": "2026-04-21",
-    "description": "a2025proxy.htm",
-    "accessionNumber": "0001849056-26-000023",
     "isIPO": false
   },
   {
@@ -2637,15 +2619,6 @@
     "isIPO": false
   },
   {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "8-K",
-    "date": "2026-04-21",
-    "description": "tm2612288d1_8k.htm",
-    "accessionNumber": "0001104659-26-045994",
-    "isIPO": false
-  },
-  {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "4",
@@ -2997,15 +2970,6 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-05-04",
-    "description": "xslF345X06/wk-form4_1777928537.xml",
-    "accessionNumber": "0001098231-26-000007",
-    "isIPO": false
-  },
-  {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
@@ -3228,6 +3192,15 @@
     "date": "2026-05-06",
     "description": "rxrx-20260506.htm",
     "accessionNumber": "0001601830-26-000077",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
+    "date": "2026-07-20",
+    "description": "xslF345X06/wk-form4_1784581219.xml",
+    "accessionNumber": "0001628280-26-048832",
     "isIPO": false
   },
   {
@@ -4650,15 +4623,6 @@
     "date": "2026-05-12",
     "description": "ea0290407-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-055210",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2026-04-21",
-    "description": "ea0287153-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-26-046282",
     "isIPO": false
   }
 ]
