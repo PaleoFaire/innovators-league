@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.55,
+      "avg_change": -0.79,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.27,
+      "avg_change": -6.9,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -0.01,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 4.02,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.92,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.64,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.88,
+      "avg_change": -3.51,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.43,
+      "avg_change": -6.95,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.71,
+      "avg_change": -9.79,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.22,
+      "avg_change": -1.43,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.22,
+      "avg_change": -4.81,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      25.47
+    ],
+    [
       "ACHR",
       "Archer Aviation",
-      8.97
+      8.87
     ],
     [
       "AUR",
       "Aurora Innovation",
-      2.2
+      2.94
     ],
     [
       "RIVN",
       "Rivian",
-      0.26
+      1.49
     ],
     [
       "SMR",
       "NuScale Power",
-      -0.29
-    ],
-    [
-      "PLTR",
-      "Palantir",
-      -0.55
+      1.28
     ]
   ],
   "topLosers": [
     [
-      "SATL",
-      "Satellogic",
-      -10.21
+      "PL",
+      "Planet Labs",
+      -9.62
     ],
     [
       "IONQ",
       "IonQ",
-      -10.26
+      -9.62
     ],
     [
       "ALAB",
       "Astera Labs",
-      -12.29
+      -11.61
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -12.87
+      -12.3
     ],
     [
       "TEM",
       "Tempus AI",
-      -17.64
+      -16.52
     ]
   ],
-  "lastUpdated": "2026-07-21 19:36:54"
+  "lastUpdated": "2026-07-22 02:53:59"
 }
