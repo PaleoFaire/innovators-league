@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-21T08:08:34+00:00",
+  "generatedAt": "2026-07-22T08:09:30+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 22,
-  "newExtractionsThisRun": 22,
+  "cohortSize": 27,
+  "newExtractionsThisRun": 27,
   "summary": {
-    "cleared": 19,
-    "changesProposed": 3,
+    "cleared": 22,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
@@ -14,49 +14,48 @@
     "Agility Robotics",
     "AnySignal",
     "Apptronik",
-    "Astera Labs",
-    "Axiom Space",
+    "Destinus",
     "Deterrence",
     "Durin",
+    "Einride",
+    "Galvanick",
+    "Gecko Robotics",
     "Hadrian",
     "Helsing",
-    "Humanoid",
     "Karman Industries",
+    "Mach Industries",
     "Monumental",
     "Orbital Composites",
+    "Physical Intelligence",
     "Quaise Energy",
-    "Saronic",
+    "RobCo",
     "Skyroot Aerospace",
-    "Vast",
+    "Solugen",
     "Xtend"
   ],
   "changesProposed": [
     {
-      "name": "Icarus",
+      "name": "Firehawk Aerospace",
       "current": {
-        "name": "Icarus",
-        "founder": "Henry Kwan (CEO, fmr Orbital \u2014 built spacecraft + space robots, helped win $935M NASA space habitat contract; fmr NASA flight sciences drone designer; M.S. Aerospace Engineering Georgia Tech; TS/SCI clearance)",
-        "location": "Los Angeles, CA",
-        "founded": 2023,
-        "fundingStage": "Seed",
-        "totalRaised": "",
-        "website": "https://www.icarus.one"
+        "name": "Firehawk Aerospace",
+        "founder": "Will Edwards",
+        "location": "Addison, TX",
+        "founded": 2019,
+        "fundingStage": "Series A",
+        "totalRaised": "$25M+",
+        "website": "https://firehawkaerospace.com"
       },
       "verified": {
-        "name": "Icarus",
-        "description": "Builds autonomous, solar-powered stratospheric aircraft operating above 60,000 feet for weeks at a time. Flagship platform APOLLO is a fully solar-powered, autonomous aircraft that completed its first flight in 2024.",
-        "founders": [
-          "Henry Kwan"
-        ],
-        "location": "Los Angeles, CA",
-        "founded_year": 2023,
+        "name": "Firehawk Aerospace",
+        "description": "Developer of 3D-printed solid rocket motors, base bleed motors, and hybrid rocket engines for defense applications using additive manufacturing technology.",
+        "founders": null,
+        "location": "Lawton, Oklahoma",
+        "founded_year": null,
         "current_stage": null,
         "total_raised": null,
         "valuation": null,
-        "investors": [
-          "Y Combinator"
-        ],
-        "website": "https://www.icarus.one",
+        "investors": null,
+        "website": "https://firehawkaerospace.com",
         "sources_per_field": {
           "name": [
             0,
@@ -66,27 +65,24 @@
             0,
             1
           ],
-          "founders": [
-            1
-          ],
           "location": [
+            0,
             1
           ],
-          "founded_year": [
-            1
-          ],
-          "investors": [
+          "website": [
+            0,
             1
           ]
         },
-        "notes": "Source [2] is Wikipedia entry for Greek mythological figure Icarus, not the company. Source [3] refers to 'Icarus Robotics', a different company (NY-based space robotics startup), not the Icarus company in this database. Only sources [0] and [1] contain verified information about the aerospace company. Y Combinator mentioned as investor via Paul Graham image on About page [1]. Current stage, total raised, and valuation cannot be verified from provided sources."
+        "notes": "Database entry lists Addison, TX as location; however, sources [0] and [1] specify Lawton, Oklahoma facility as the primary manufacturing location. Founder name, founding year, funding stage, and investor details from database entry could not be verified from provided sources. Source [2] is unrelated to Firehawk Aerospace."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "Henry Kwan (CEO, fmr Orbital \u2014 built spacecraft + space robots, helped win $935M NASA space habitat contract; fmr NASA flight sciences drone designer; M.S. Aerospace Engineering Georgia Tech; TS/SCI clearance)",
-          "verified": "Henry Kwan",
+          "field": "location",
+          "current": "Addison, TX",
+          "verified": "Lawton, Oklahoma",
           "sources": [
+            0,
             1
           ]
         }
@@ -95,25 +91,129 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.icarus.one"
+          "url": "https://firehawkaerospace.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.icarus.one/about"
+          "url": "https://firehawkaerospace.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
+        }
+      ],
+      "notes": "Database entry lists Addison, TX as location; however, sources [0] and [1] specify Lawton, Oklahoma facility as the primary manufacturing location. Founder name, founding year, funding stage, and investor details from database entry could not be verified from provided sources. Source [2] is unrelated to Firehawk Aerospace."
+    },
+    {
+      "name": "Humanoid",
+      "current": {
+        "name": "Humanoid",
+        "founder": "Artem Sokolov",
+        "location": "London, United Kingdom",
+        "founded": 2024,
+        "fundingStage": "Seed",
+        "totalRaised": "$50M",
+        "website": "https://thehumanoid.ai"
+      },
+      "verified": {
+        "name": "Humanoid",
+        "description": "Humanoid develops industrial humanoid robots, including the HMND 01 Alpha Wheeled model, equipped with proprietary AI framework KinetIQ for autonomous task execution in warehouses, logistics, and manufacturing.",
+        "founders": [
+          "Artem Sokolov"
+        ],
+        "location": "London, United Kingdom",
+        "founded_year": null,
+        "current_stage": "Series A",
+        "total_raised": "$152M",
+        "valuation": "$1.35B",
+        "investors": null,
+        "website": "https://thehumanoid.ai",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "current_stage": [
+            3,
+            5
+          ],
+          "total_raised": [
+            3,
+            5
+          ],
+          "valuation": [
+            3,
+            5
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry stated $50M founder-led capital and Seed stage, but sources [3] and [5] confirm $152M Series A at $1.35B valuation. Founded year 2024 from database could not be verified in sources. Founder Artem Sokolov confirmed as team member with data engineering background; source [1] lists him but does not explicitly state 'founder' title, though database identifies him as such."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Seed",
+          "verified": "Series A",
+          "sources": [
+            3,
+            5
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$50M",
+          "verified": "$152M",
+          "sources": [
+            3,
+            5
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://thehumanoid.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://thehumanoid.ai/team"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Icarus"
+          "url": "https://en.wikipedia.org/wiki/Humanoid"
         },
         {
           "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/"
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/"
+        },
+        {
+          "idx": 4,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"
+        },
+        {
+          "idx": 5,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/"
         }
       ],
-      "notes": "Source [2] is Wikipedia entry for Greek mythological figure Icarus, not the company. Source [3] refers to 'Icarus Robotics', a different company (NY-based space robotics startup), not the Icarus company in this database. Only sources [0] and [1] contain verified information about the aerospace company. Y Combinator mentioned as investor via Paul Graham image on About page [1]. Current stage, total raised, and valuation cannot be verified from provided sources."
+      "notes": "Database entry stated $50M founder-led capital and Seed stage, but sources [3] and [5] confirm $152M Series A at $1.35B valuation. Founded year 2024 from database could not be verified in sources. Founder Artem Sokolov confirmed as team member with data engineering background; source [1] lists him but does not explicitly state 'founder' title, though database identifies him as such."
     },
     {
       "name": "SpaceX",
@@ -128,7 +228,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. SpaceX operates three divisions conducting orbital launches, operating Starlink satellite communications, and artificial intelligence services.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -170,7 +270,7 @@
             0
           ]
         },
-        "notes": "Company completed IPO on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia source indicates traded on Nasdaq as SPCX (Class A). Elon Musk owns 42% equity with 82% voting control (Wikipedia states 85% voting power via super-voting stock in one location, 82% in infobox). Sources [1], [2], [3] are news items about business activities but do not provide verified founding, stage, or financial information beyond what Wikipedia confirms."
+        "notes": "SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia entry indicates Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Database entry references $1.5T valuation and IPO status, but Wikipedia does not provide a current post-IPO valuation figure, only historical IPO details."
       },
       "changes": [
         {
@@ -190,21 +290,21 @@
         },
         {
           "idx": 1,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starlink-communications-will-be-in-every-tesla-cybercab.html"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-first-earning-rpoert-and-earning-call-is-august-4-2026.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-starlink-communications-will-be-in-every-tesla-cybercab.html"
         },
         {
           "idx": 3,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/elon-musk-denies-report-spacex-was-buying-1-million-b300-gpus-and-racks.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-first-earning-rpoert-and-earning-call-is-august-4-2026.html"
         }
       ],
-      "notes": "Company completed IPO on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia source indicates traded on Nasdaq as SPCX (Class A). Elon Musk owns 42% equity with 82% voting control (Wikipedia states 85% voting power via super-voting stock in one location, 82% in infobox). Sources [1], [2], [3] are news items about business activities but do not provide verified founding, stage, or financial information beyond what Wikipedia confirms."
+      "notes": "SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia entry indicates Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Database entry references $1.5T valuation and IPO status, but Wikipedia does not provide a current post-IPO valuation figure, only historical IPO details."
     },
     {
       "name": "Terran Robotics",
@@ -226,7 +326,7 @@
         ],
         "location": "Bloomington, Indiana",
         "founded_year": 2018,
-        "current_stage": "Seed",
+        "current_stage": null,
         "total_raised": "$256K",
         "valuation": null,
         "investors": null,
@@ -249,9 +349,6 @@
           "founded_year": [
             1
           ],
-          "current_stage": [
-            1
-          ],
           "total_raised": [
             1
           ],
@@ -260,7 +357,7 @@
             1
           ]
         },
-        "notes": "Founded in 2018 after Zach Dwiel built a prototype AI-driven mini-excavator and the company received a $256K NSF SBIR grant. Company operates out of lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company) and does not contain information about Terran Robotics."
+        "notes": "Source [2] is about a different company (Monumental) and contains no information about Terran Robotics. Database entry lists multiple investors, but these cannot be verified from provided sources. Current stage cannot be determined from sources provided."
       },
       "changes": [
         {
@@ -289,7 +386,98 @@
           "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
         }
       ],
-      "notes": "Founded in 2018 after Zach Dwiel built a prototype AI-driven mini-excavator and the company received a $256K NSF SBIR grant. Company operates out of lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company) and does not contain information about Terran Robotics."
+      "notes": "Source [2] is about a different company (Monumental) and contains no information about Terran Robotics. Database entry lists multiple investors, but these cannot be verified from provided sources. Current stage cannot be determined from sources provided."
+    },
+    {
+      "name": "Ursa Major Technologies",
+      "current": {
+        "name": "Ursa Major Technologies",
+        "founder": "Joe Laurienti",
+        "location": "Berthoud, CO",
+        "founded": 2015,
+        "fundingStage": "Series E",
+        "totalRaised": "$400M+",
+        "website": "https://ursamajor.com"
+      },
+      "verified": {
+        "name": "Ursa Major Technologies",
+        "description": "American aerospace company that produces rocket engines and propulsion systems for space launch, hypersonics, and defense applications. The company manufactures liquid oxygen/kerosene engines and solid rocket motors using additive manufacturing and modular design.",
+        "founders": [
+          "Joe Laurienti"
+        ],
+        "location": "Berthoud, Colorado, USA",
+        "founded_year": 2015,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Space Angels Network",
+          "BlackRock"
+        ],
+        "website": "https://ursamajor.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "Sources confirm Space Angels Network participation in 2017 Series A ($8M) and BlackRock leading Series C in December 2021 ($85M). Database entry lists 'Series E' and '$400M+' but no sources verify these claims. Wikipedia indicates company is 'Private' with no current acquisition or IPO status indicated."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Berthoud, CO",
+          "verified": "Berthoud, Colorado, USA",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://ursamajor.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://ursamajor.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ursa_Major_Technologies"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
+        }
+      ],
+      "notes": "Sources confirm Space Angels Network participation in 2017 Series A ($8M) and BlackRock leading Series C in December 2021 ($85M). Database entry lists 'Series E' and '$400M+' but no sources verify these claims. Wikipedia indicates company is 'Private' with no current acquisition or IPO status indicated."
     }
   ],
   "unverifiable": []

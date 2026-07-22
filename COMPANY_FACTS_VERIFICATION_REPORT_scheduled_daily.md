@@ -1,52 +1,68 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-21T08:08:34+00:00  
+**Generated:** 2026-07-22T08:09:30+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 22 companies  
+**Cohort size:** 27 companies  
 
-**New Claude extractions this run:** 22  
+**New Claude extractions this run:** 27  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 19 | 86% |
-| 🔧 Changes proposed | 3 | 14% |
+| ✅ Cleared (data matches sources) | 22 | 81% |
+| 🔧 Changes proposed | 5 | 19% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (3 companies)
+## 🔧 Proposed Changes (5 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Icarus
+### Firehawk Aerospace
 
-- **`founder`:** `Henry Kwan (CEO, fmr Orbital — built spacecraft + space robo` → `Henry Kwan`  
-  Sources: [company_about](https://www.icarus.one/about)
+- **`location`:** `Addison, TX` → `Lawton, Oklahoma`  
+  Sources: [company_website](https://firehawkaerospace.com) · [company_about](https://firehawkaerospace.com/about)
 
-  **Notes:** Source [2] is Wikipedia entry for Greek mythological figure Icarus, not the company. Source [3] refers to 'Icarus Robotics', a different company (NY-based space robotics startup), not the Icarus company in this database. Only sources [0] and [1] contain verified information about the aerospace company. Y Combinator mentioned as investor via Paul Graham image on About page [1]. Current stage, total raised, and valuation cannot be verified from provided sources.
+  **Notes:** Database entry lists Addison, TX as location; however, sources [0] and [1] specify Lawton, Oklahoma facility as the primary manufacturing location. Founder name, founding year, funding stage, and investor details from database entry could not be verified from provided sources. Source [2] is unrelated to Firehawk Aerospace.
+
+### Humanoid
+
+- **`fundingStage`:** `Seed` → `Series A`  
+  Sources: [news (The Robot Report)](https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/) · [news (Tech.eu)](https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/)
+- **`totalRaised`:** `$50M` → `$152M`  
+  Sources: [news (The Robot Report)](https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/) · [news (Tech.eu)](https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/)
+
+  **Notes:** Database entry stated $50M founder-led capital and Seed stage, but sources [3] and [5] confirm $152M Series A at $1.35B valuation. Founded year 2024 from database could not be verified in sources. Founder Artem Sokolov confirmed as team member with data engineering background; source [1] lists him but does not explicitly state 'founder' title, though database identifies him as such.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Company completed IPO on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia source indicates traded on Nasdaq as SPCX (Class A). Elon Musk owns 42% equity with 82% voting control (Wikipedia states 85% voting power via super-voting stock in one location, 82% in infobox). Sources [1], [2], [3] are news items about business activities but do not provide verified founding, stage, or financial information beyond what Wikipedia confirms.
+  **Notes:** SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia entry indicates Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Database entry references $1.5T valuation and IPO status, but Wikipedia does not provide a current post-IPO valuation figure, only historical IPO details.
 
 ### Terran Robotics
 
 - **`location`:** `Bloomington, IN` → `Bloomington, Indiana`  
   Sources: [company_about](https://terranrobotics.ai/about)
 
-  **Notes:** Founded in 2018 after Zach Dwiel built a prototype AI-driven mini-excavator and the company received a $256K NSF SBIR grant. Company operates out of lab in Bloomington, Indiana and Proto-Town near Austin, Texas. Source [2] is about Monumental (different company) and does not contain information about Terran Robotics.
+  **Notes:** Source [2] is about a different company (Monumental) and contains no information about Terran Robotics. Database entry lists multiple investors, but these cannot be verified from provided sources. Current stage cannot be determined from sources provided.
+
+### Ursa Major Technologies
+
+- **`location`:** `Berthoud, CO` → `Berthoud, Colorado, USA`  
+  Sources: [company_about](https://ursamajor.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Ursa_Major_Technologies)
+
+  **Notes:** Sources confirm Space Angels Network participation in 2017 Series A ($8M) and BlackRock leading Series C in December 2021 ($85M). Database entry lists 'Series E' and '$400M+' but no sources verify these claims. Wikipedia indicates company is 'Private' with no current acquisition or IPO status indicated.
 
 ---
 
-## ✅ Cleared (19 companies)
+## ✅ Cleared (22 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -56,23 +72,26 @@ Sample (first 30):
 - Agility Robotics
 - AnySignal
 - Apptronik
-- Astera Labs
-- Axiom Space
+- Destinus
 - Deterrence
 - Durin
+- Einride
+- Galvanick
+- Gecko Robotics
 - Hadrian
 - Helsing
-- Humanoid
 - Karman Industries
+- Mach Industries
 - Monumental
 - Orbital Composites
+- Physical Intelligence
 - Quaise Energy
-- Saronic
+- RobCo
 - Skyroot Aerospace
-- Vast
+- Solugen
 - Xtend
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-21T08:08:34+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-22T08:09:30+00:00*
