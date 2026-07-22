@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T23:59:57.694350+00:00",
-  "date": "2026-07-21",
-  "dateDisplay": "Tuesday, July 21, 2026",
+  "generatedAt": "2026-07-22T03:32:20.353331+00:00",
+  "date": "2026-07-22",
+  "dateDisplay": "Wednesday, July 22, 2026",
   "sections": {
     "govActivity": [
       {
@@ -52,60 +52,60 @@
     ],
     "marketMovers": [
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 502500.0,
+        "changePercent": 25.47,
+        "change": 102000.0
+      },
+      {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 48.32,
-        "changePercent": -17.64,
-        "change": -10.35
+        "price": 48.98,
+        "changePercent": -16.52,
+        "change": -9.69
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 68.67,
-        "changePercent": -12.87,
-        "change": -10.14
+        "price": 69.12,
+        "changePercent": -12.3,
+        "change": -9.69
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 317.31,
-        "changePercent": -12.29,
-        "change": -44.46
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 35.26,
-        "changePercent": -10.26,
-        "change": -4.03
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 3.87,
-        "changePercent": -10.21,
-        "change": -0.44
+        "price": 319.79,
+        "changePercent": -11.61,
+        "change": -41.99
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 23.01,
-        "changePercent": -9.98,
-        "change": -2.55
+        "price": 23.1,
+        "changePercent": -9.62,
+        "change": -2.46
       },
       {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.02,
-        "changePercent": -9.43,
-        "change": -0.31
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 35.51,
+        "changePercent": -9.62,
+        "change": -3.78
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 3.9,
+        "changePercent": -9.51,
+        "change": -0.41
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 5.29,
-        "changePercent": 8.97,
-        "change": 0.44
+        "price": 5.28,
+        "changePercent": 8.87,
+        "change": 0.43
       }
     ],
     "regulatory": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TEM -17.6%"
+    "topMover": "277810.KQ +25.5%"
   }
 }
