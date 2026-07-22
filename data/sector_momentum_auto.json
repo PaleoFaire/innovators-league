@@ -1,48 +1,12 @@
 [
   {
-    "sector": "Defense & Security",
-    "momentum": 57,
-    "trend": "steady",
-    "catalysts": [
-      "Saronic picks Brownsville, Texas, for $3 billion Port Alpha",
-      "SpaceX launches 21 satellites for military data network",
-      "Meet GPT-Red: an LLM super-hacker OpenAI built to make its m"
-    ],
-    "fundingQ": "$12.0B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 87
-    },
-    "lastUpdated": "2026-07-21"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Anthropic&#8217;s landmark $1.5B copyright settlement is app",
-      "OpenAI is scared of open-weight models. Should the US be?",
-      "Inference startup Infinity raises $15M from Touring Capital,"
-    ],
-    "fundingQ": "$235.7B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-21"
-  },
-  {
     "sector": "Robotics & Manufacturing",
     "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "SpaceX Starlink Communications Will Be in Every Tesla Cyberc",
-      "Weave Robotics launches Isaac, its first mobile humanoid rob",
-      "With new funding, Monumental plans to bring its construction"
+      "U.K.-based Humanoid secures $152M in Series A funding",
+      "Generative Bionics unveils humanoid robot with full-body tac",
+      "UK robotics startup Humanoid hits $1.35B valuation with $152"
     ],
     "fundingQ": "$27.0B",
     "components": {
@@ -51,41 +15,61 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "OpenAI Models Escaped Containment and Hacked Hugging Face",
+      "OpenAI says Hugging Face was breached by its pre-release mod"
+    ],
+    "fundingQ": "$235.7B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-22"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 51,
+    "momentum": 49,
     "trend": "accelerating",
     "catalysts": [
-      "SpaceX Starlink Communications Will Be in Every Tesla Cyberc",
-      "SpaceX First Earning Report and Earning Call is August 4 202",
-      "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Stat"
+      "SpaceX launches Northrop mission to extend the life of aging",
+      "Destinus unveils new counter-rocket interceptor",
+      "SpaceX Starlink Communications Will Be in Every Tesla Cyberc"
     ],
     "fundingQ": "$266.3B",
     "components": {
       "funding": 100,
-      "news": 65,
+      "news": 55,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   },
   {
-    "sector": "Ocean & Maritime",
-    "momentum": 46,
+    "sector": "Defense & Security",
+    "momentum": 47,
     "trend": "steady",
     "catalysts": [
-      "Saronic picks Brownsville, Texas, for $3 billion Port Alpha"
+      "Destinus unveils new counter-rocket interceptor",
+      "SpaceX launches 21 satellites for military data network",
+      "Not Imaginary: The Deterrence Gap is Real and America Needs"
     ],
-    "fundingQ": "$1.8B",
+    "fundingQ": "$12.0B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 42
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -101,11 +85,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "Active ocean & maritime ecosystem"
+    ],
+    "fundingQ": "$1.8B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-22"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 38,
+    "momentum": 44,
     "trend": "steady",
     "catalysts": [
       "A New Force Posture Concept for Europeanizing Extended Nucle",
@@ -116,9 +116,26 @@
       "funding": 100,
       "news": 10,
       "hiring": 0,
+      "market": 34
+    },
+    "lastUpdated": "2026-07-22"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 38,
+    "trend": "steady",
+    "catalysts": [
+      "Generative Bionics unveils humanoid robot with full-body tac",
+      "STAT+: Anthropic deepens work with\u00a0rare disease drugs"
+    ],
+    "fundingQ": "$22.0B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   },
   {
     "sector": "Climate & Energy",
@@ -134,27 +151,29 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 35,
-    "trend": "steady",
+    "sector": "Consumer Tech",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
-      "Active biotech & health ecosystem"
+      "U.K.-based Humanoid secures $152M in Series A funding",
+      "SpaceX launches Northrop mission to extend the life of aging",
+      "Generative Bionics unveils humanoid robot with full-body tac"
     ],
-    "fundingQ": "$22.0B",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 100,
-      "news": 0,
+      "funding": 0,
+      "news": 45,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   },
   {
     "sector": "Transportation",
-    "momentum": 20,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -164,43 +183,9 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 75
     },
-    "lastUpdated": "2026-07-21"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Anthropic&#8217;s landmark $1.5B copyright settlement is app",
-      "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
-      "Weave Robotics launches Isaac, its first mobile humanoid rob"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-21"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Saronic picks Brownsville, Texas, for $3 billion Port Alpha"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   },
   {
     "sector": "Housing & Construction",
@@ -216,14 +201,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Inference startup Infinity raises $15M from Touring Capital,"
+      "Destinus unveils new counter-rocket interceptor"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -232,23 +217,39 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 1,
+    "sector": "Drones & Autonomous",
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPU"
+      "Active drones & autonomous ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 2
+    },
+    "lastUpdated": "2026-07-22"
   },
   {
     "sector": "Quantum Computing",
@@ -264,6 +265,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-21"
+    "lastUpdated": "2026-07-22"
   }
 ]
