@@ -19,8 +19,8 @@
   },
   {
     "date": "2026-07-22",
-    "vehicle": "Gravity-1 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Gravity-1 | 9 satellites",
+    "payload": "9 satellites",
     "pad": "Yellow Sea (launch location 5), Haiyang Oriental Spaceport",
     "provider": "Orienspace Technology",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/?format=json",
@@ -123,15 +123,6 @@
     "pad": "ADD Offshore launch platform, Sea Launch",
     "provider": "Agency for Defense Development",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-07-31",
-    "vehicle": "Soyuz 2.1b | 16 x Rassvet-3",
-    "payload": "16 x Rassvet-3",
-    "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/aafe107e-46d8-420c-bcb9-192069d80893/?format=json",
     "trackedCompany": null
   },
   {
@@ -447,6 +438,15 @@
     "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
     "provider": "Mitsubishi Heavy Industries",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-11-24",
+    "vehicle": "Soyuz 2.1b | Progress MS-36 (97P)",
+    "payload": "Progress MS-36 (97P)",
+    "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
+    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8dd5de11-831b-445f-86f0-bffefe0550d9/?format=json",
     "trackedCompany": null
   }
 ]
