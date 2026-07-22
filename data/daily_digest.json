@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T11:55:46.912651+00:00",
+  "generatedAt": "2026-07-22T14:15:26.878812+00:00",
   "date": "2026-07-22",
   "dateDisplay": "Wednesday, July 22, 2026",
   "sections": {
@@ -70,51 +70,51 @@
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 48.98,
-        "changePercent": -16.52,
-        "change": -9.69
+        "price": 47.76,
+        "changePercent": -16.58,
+        "change": -9.49
       },
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 69.12,
-        "changePercent": -12.3,
-        "change": -9.69
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 319.79,
-        "changePercent": -11.61,
-        "change": -41.99
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 23.1,
-        "changePercent": -9.62,
-        "change": -2.46
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 35.51,
-        "changePercent": -9.62,
-        "change": -3.78
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 3.9,
-        "changePercent": -9.51,
-        "change": -0.41
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.76,
+        "changePercent": 12.82,
+        "change": 0.2
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
         "price": 5.28,
-        "changePercent": 8.87,
-        "change": 0.43
+        "changePercent": 10.46,
+        "change": 0.5
+      },
+      {
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.57,
+        "changePercent": 9.05,
+        "change": 0.55
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.02,
+        "changePercent": -8.73,
+        "change": -0.29
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 23.0,
+        "changePercent": -7.63,
+        "change": -1.9
+      },
+      {
+        "ticker": "9348.T",
+        "company": "ispace",
+        "price": 415.0,
+        "changePercent": -7.57,
+        "change": -34.0
       }
     ],
     "regulatory": [
