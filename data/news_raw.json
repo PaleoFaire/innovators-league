@@ -18,7 +18,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "U.K.-based Humanoid secures $152M in Series A funding",
@@ -46,7 +46,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "OpenAI Models Escaped Containment and Hacked Hugging Face",
@@ -68,7 +68,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "SpaceX launches Northrop mission to extend the life of aging satellites",
@@ -92,7 +92,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "OpenAI says Hugging Face was breached by its pre-release models",
@@ -112,7 +112,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing",
@@ -134,7 +134,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Einride bets $38M on EV charging as it scales electric trucking",
@@ -154,7 +154,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "8h ago"
+    "time": "11h ago"
   },
   {
     "title": "Destinus unveils new counter-rocket interceptor",
@@ -173,7 +173,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "13h ago"
+    "time": "16h ago"
   },
   {
     "title": "STAT+: Anthropic deepens work with rare disease drugs",
@@ -192,7 +192,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "UK robotics startup Humanoid hits $1.35B valuation with $152M Series A",
@@ -219,7 +219,45 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "14h ago"
+    "time": "17h ago"
+  },
+  {
+    "title": "SpaceX Starlink Communications Will Be in Every Tesla Cybercab",
+    "link": "https://www.nextbigfuture.com/2026/07/spacex-starlink-communications-will-be-in-every-tesla-cybercab.html",
+    "description": "SpaceX Starlink V5 satellite terminal directly integrated into the Cybercab’s roof structure (alongside the GPS antenna, 5G LTE antenna, FSD computer, and various cameras). This is a clean, factory-integrated design rather than the external Starlink Mini dishes spotted on earlier prototypes/testing ",
+    "pubDate": "Tue, 21 Jul 2026 01:29:10 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "SpaceX First Earning Report and Earning Call is August 4 2026",
+    "link": "https://www.nextbigfuture.com/2026/07/spacex-first-earning-rpoert-and-earning-call-is-august-4-2026.html",
+    "description": "SpaceX will post financial and operational results for the second quarter of 2026 after market close on Tuesday, August 4, 2026. SpaceX management will host a live audio-only webcast to discuss the results at 3:30 p.m. CT / 4:30 p.m. ET the same day. We will post our Q2 2026 financial and operationa",
+    "pubDate": "Mon, 20 Jul 2026 22:10:22 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
   },
   {
     "title": "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
@@ -386,25 +424,6 @@
     "type": "news",
     "impact": "low",
     "time": "5d ago"
-  },
-  {
-    "title": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
-    "link": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/",
-    "description": "",
-    "pubDate": "Wed, 15 Jul 2026 16:54:51 GMT",
-    "category": "",
-    "source": "Sifted",
-    "feedCategory": "startups",
-    "matchedCompany": "Monumental",
-    "matchedCompanies": [
-      "Monumental"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "6d ago"
   },
   {
     "title": "SpaceX is gearing up for Starship&#039;s 13th test flight later this week",
