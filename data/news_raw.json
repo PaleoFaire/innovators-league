@@ -1,5 +1,65 @@
 [
   {
+    "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+    "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+    "description": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible.",
+    "pubDate": "Wed, 22 Jul 2026 19:11:46 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Galvanick",
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai",
+      "defense"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "SpaceX Will Try to Launch Starship Tomorrow After Good Test Today",
+    "link": "https://www.nextbigfuture.com/2026/07/spacex-should-be-able-to-try-to-launch-starship-tomorrow.html",
+    "description": "NASASpaceflight’s said the bottom line is for SpaceX to say ‘good for Thursday. Based upon was their analysis, NSF was saying that after today’s successful pre-flight test on Booster 20, SpaceX is now in a position to green-light Thursday as the next launch attempt. The test went well enough that Sp",
+    "pubDate": "Wed, 22 Jul 2026 18:43:13 +0000",
+    "category": "Space",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Science Corporation&#8217;s vision-restoring chip wins EU approval",
+    "link": "https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval/",
+    "description": "\"The thing that the space needs is a company making $100 million a year of revenue,\" Science Corp. CEO Max Hodak said.",
+    "pubDate": "Wed, 22 Jul 2026 18:18:02 +0000",
+    "category": "Biotech & Health",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Science Corporation",
+    "matchedCompanies": [
+      "Science Corporation"
+    ],
+    "sectors": [
+      "biotech"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "OpenAI&#8217;s AI spending spree has ballooned to $750B",
     "link": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
     "description": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
@@ -16,7 +76,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "Vast establishes division for national security projects",
@@ -41,7 +101,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4h ago"
+    "time": "6h ago"
   },
   {
     "title": "OpenAI and Datadog leaders back AI deployment startup Arrakis",
@@ -60,7 +120,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "5h ago"
+    "time": "7h ago"
   },
   {
     "title": "The Download: NASA’s new space telescope and OpenAI&#8217;s autonomous hacker",
@@ -79,7 +139,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
+    "time": "8h ago"
   },
   {
     "title": "Relativity Space to expand Terran R production in Florida",
@@ -98,7 +158,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
+    "time": "8h ago"
   },
   {
     "title": "OpenAI models hack Hugging Face systems during internal testing",
@@ -120,7 +180,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "8h ago"
+    "time": "10h ago"
   },
   {
     "title": "Backed by France, Macron sees Germany as nuclear-deterrence ‘vanguard’ in Europe",
@@ -139,7 +199,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "10h ago"
   },
   {
     "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
@@ -160,7 +220,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "16h ago"
   },
   {
     "title": "U.K.-based Humanoid secures $152M in Series A funding",
@@ -188,7 +248,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "OpenAI Models Escaped Containment and Hacked Hugging Face",
@@ -210,7 +270,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
   },
   {
     "title": "SpaceX launches Northrop mission to extend the life of aging satellites",
@@ -234,27 +294,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "20h ago"
-  },
-  {
-    "title": "OpenAI says Hugging Face was breached by its pre-release models",
-    "link": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
-    "description": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
-    "pubDate": "Tue, 21 Jul 2026 20:56:55 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Hugging Face"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "22h ago"
   },
   {
     "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing",
@@ -275,25 +315,6 @@
       "robotics"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "22h ago"
-  },
-  {
-    "title": "Destinus unveils new counter-rocket interceptor",
-    "link": "https://breakingdefense.com/2026/07/destinus-unveils-new-counter-rocket-interceptor/",
-    "description": "The company is eyeing 2028 to launch mass production of the system, which is envisioned to protect critical military infrastructure such as command posts, air-defense radars and batteries, logistics hubs and ammunition stores.",
-    "pubDate": "Tue, 21 Jul 2026 14:27:19 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Destinus",
-    "matchedCompanies": [
-      "Destinus"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "milestone",
     "impact": "low",
     "time": "1d ago"
   },
@@ -341,25 +362,6 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "1d ago"
-  },
-  {
-    "title": "SpaceX Starlink Communications Will Be in Every Tesla Cybercab",
-    "link": "https://www.nextbigfuture.com/2026/07/spacex-starlink-communications-will-be-in-every-tesla-cybercab.html",
-    "description": "SpaceX Starlink V5 satellite terminal directly integrated into the Cybercab’s roof structure (alongside the GPS antenna, 5G LTE antenna, FSD computer, and various cameras). This is a clean, factory-integrated design rather than the external Starlink Mini dishes spotted on earlier prototypes/testing ",
-    "pubDate": "Tue, 21 Jul 2026 01:29:10 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "hire",
-    "impact": "low",
     "time": "1d ago"
   },
   {
