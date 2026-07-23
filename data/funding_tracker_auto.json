@@ -362,7 +362,7 @@
       "Undisclosed",
       "NEA"
     ],
-    "roundCount": 5
+    "roundCount": 6
   },
   {
     "company": "Together AI",
@@ -564,6 +564,19 @@
     "roundCount": 1
   },
   {
+    "company": "Teralta",
+    "totalRaised": "$1.7B+",
+    "totalRaisedRaw": 1700.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$1.7B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "a16z"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Nearfield Instruments",
     "totalRaised": "$1.6B+",
     "totalRaisedRaw": 1600.0,
@@ -642,6 +655,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Anysphere",
+    "totalRaised": "$1.5B+",
+    "totalRaisedRaw": 1472.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$130M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 4
   },
   {
     "company": "Proxima Fusion",
@@ -896,16 +922,17 @@
   },
   {
     "company": "Dusty Robotics",
-    "totalRaised": "$868M+",
-    "totalRaisedRaw": 868.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$850M",
-    "lastRoundDate": "2026-06",
+    "totalRaised": "$872M+",
+    "totalRaisedRaw": 871.5,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$3.5M",
+    "lastRoundDate": "2026-07",
     "valuation": "",
     "leadInvestors": [
+      "a16z",
       "Undisclosed"
     ],
-    "roundCount": 2
+    "roundCount": 3
   },
   {
     "company": "X-Energy",
@@ -1119,11 +1146,11 @@
     "roundCount": 1
   },
   {
-    "company": "Anysphere",
-    "totalRaised": "$272M+",
-    "totalRaisedRaw": 272.0,
-    "lastRound": "Series C",
-    "lastRoundAmount": "$130M",
+    "company": "Bear Robotics",
+    "totalRaised": "$284M+",
+    "totalRaisedRaw": 284.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$40M",
     "lastRoundDate": "2026-07",
     "valuation": "",
     "leadInvestors": [
@@ -1143,19 +1170,6 @@
       "a16z"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Bear Robotics",
-    "totalRaised": "$244M+",
-    "totalRaisedRaw": 244.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$10M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
   },
   {
     "company": "Built Robotics",
@@ -1636,6 +1650,19 @@
       "Undisclosed"
     ],
     "roundCount": 3
+  },
+  {
+    "company": "OpenAI",
+    "totalRaised": "$40M+",
+    "totalRaisedRaw": 40.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$40M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Accel"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Rivian",

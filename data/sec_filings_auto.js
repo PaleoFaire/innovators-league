@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-22 08:34:21 UTC
+// Last updated: 2026-07-23 08:36:00 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752694.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752629.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752600.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752563.xml", isIPO: false, ticker: "RIVN" },
   { company: "D-Wave Quantum", form: "4", date: "2026-07-21", description: "xslF345X06/wk-form4_1784671121.xml", isIPO: false, ticker: "QBTS" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-07-20", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-07-20", description: "xslF345X06/wk-form4_1784581219.xml", isIPO: false, ticker: "DNA" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936927.xml", isIPO: false, ticker: "SMR" },
   { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936870.xml", isIPO: false, ticker: "SMR" },
   { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936799.xml", isIPO: false, ticker: "SMR" },
-  { company: "C3.ai", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782945826.xml", isIPO: false, ticker: "AI" },
-  { company: "Aurora Innovation", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782941562.xml", isIPO: false, ticker: "AUR" },
-  { company: "LanzaTech", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936285.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936164.xml", isIPO: false, ticker: "LNZA" },
 ];
