@@ -1,96 +1,96 @@
 // Auto-generated news signals
-// Last updated: 2026-07-23T12:45:10.968Z
+// Last updated: 2026-07-23T15:18:04.713Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1784810710968,
+    "id": 1784819884713,
+    "type": "funding",
+    "company": "Etched",
+    "headline": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
+  },
+  {
+    "id": 1784819884714,
     "type": "funding",
     "company": "Scale AI",
     "headline": "PageMind raises €1.2M to scale AI for e-commerce product discovery",
     "source": "Tech.eu",
-    "time": "Just now",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://tech.eu/2026/07/23/pagemind-raises-eur12m-to-scale-ai-for-e-commerce-product-discovery/"
   },
   {
-    "id": 1784810710969,
+    "id": 1784819884715,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings call",
     "source": "Electrek",
-    "time": "12h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/"
   },
   {
-    "id": 1784810710970,
+    "id": 1784819884716,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
     "source": "TechCrunch",
-    "time": "17h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/"
   },
   {
-    "id": 1784810710971,
+    "id": 1784819884717,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Will Try to Launch Starship Tomorrow After Good Test Today",
     "source": "Next Big Future",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/spacex-should-be-able-to-try-to-launch-starship-tomorrow.html"
   },
   {
-    "id": 1784810710972,
+    "id": 1784819884718,
     "type": "hire",
     "company": "Science Corporation",
     "headline": "Science Corporation&#8217;s vision-restoring chip wins EU approval",
     "source": "TechCrunch",
-    "time": "18h ago",
+    "time": "21h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval/"
   },
   {
-    "id": 1784810710973,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI&#8217;s AI spending spree has ballooned to $750B",
-    "source": "TechCrunch",
-    "time": "20h ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/"
-  },
-  {
-    "id": 1784810710974,
+    "id": 1784819884719,
     "type": "ipo",
     "company": "Vast",
     "headline": "Vast establishes division for national security projects",
     "source": "SpaceNews",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/vast-establishes-division-for-national-security-projects/"
   },
   {
-    "id": 1784810710975,
+    "id": 1784819884720,
     "type": "funding",
     "company": "OpenAI",
     "headline": "OpenAI and Datadog leaders back AI deployment startup Arrakis",
     "source": "Tech.eu",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/07/22/openai-and-datadog-leaders-back-ai-deployment-startup-arrakis/"
   },
   {
-    "id": 1784810710976,
+    "id": 1784819884721,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "The Download: NASA’s new space telescope and OpenAI&#8217;s autonomous hacker",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/"
   },
   {
-    "id": 1784810710977,
+    "id": 1784819884722,
     "type": "ipo",
     "company": "Relativity Space",
     "headline": "Relativity Space to expand Terran R production in Florida",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/relativity-space-to-expand-terran-r-production-in-florida/"
   },
   {
-    "id": 1784810710978,
+    "id": 1784819884723,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI models hack Hugging Face systems during internal testing",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/openai-hack-hugging-face/"
   },
   {
-    "id": 1784810710979,
+    "id": 1784819884724,
     "type": "news",
     "company": "Deterrence",
     "headline": "Backed by France, Macron sees Germany as nuclear-deterrence ‘vanguard’ in Europe",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/global/europe/2026/07/22/backed-by-france-macron-sees-germany-as-nuclear-deterrence-vanguard-in-europe/"
   },
   {
-    "id": 1784810710980,
+    "id": 1784819884725,
     "type": "funding",
     "company": "Humanoid",
     "headline": "U.K.-based Humanoid secures $152M in Series A funding",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/"
   },
   {
-    "id": 1784810710981,
+    "id": 1784819884726,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI Models Escaped Containment and Hacked Hugging Face",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface/"
   },
   {
-    "id": 1784810710982,
+    "id": 1784819884727,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches Northrop mission to extend the life of aging satellites",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
   },
   {
-    "id": 1784810710983,
+    "id": 1784819884728,
     "type": "news",
     "company": "Humanoid",
     "headline": "Generative Bionics unveils humanoid robot with full-body tactile sensing",
@@ -178,29 +178,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"
   },
   {
-    "id": 1784810710984,
+    "id": 1784819884729,
     "type": "funding",
     "company": "Humanoid",
     "headline": "UK robotics startup Humanoid hits $1.35B valuation with $152M Series A",
     "source": "Tech.eu",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "medium",
     "unread": false,
     "link": "https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/"
   },
   {
-    "id": 1784810710985,
-    "type": "ipo",
-    "company": "Skyroot Aerospace",
-    "headline": "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
-    "source": "SpaceNews",
-    "time": "5d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch/"
-  },
-  {
-    "id": 1784810710986,
+    "id": 1784819884730,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "Weave Robotics launches Isaac, its first mobile humanoid robot",
@@ -211,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
   },
   {
-    "id": 1784810710987,
+    "id": 1784819884731,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX is gearing up for Starship&#039;s 13th test flight later this week",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/"
+  },
+  {
+    "id": 1784819884732,
+    "type": "funding",
+    "company": "Quaise Energy",
+    "headline": "Quaise Energy raises $134M to fuel superhot geothermal ambitions",
+    "source": "Canary Media",
+    "time": "7/7/2026",
+    "impact": "high",
+    "unread": false,
+    "link": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m"
   }
 ];
