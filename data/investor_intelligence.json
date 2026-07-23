@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-23T07:40:55+00:00",
+  "generatedAt": "2026-07-23T10:33:05+00:00",
   "stats": {
-    "companies": 964,
+    "companies": 978,
     "vcFirms": 27,
     "uniqueClusters": 135,
     "totalInvestments": 381
@@ -4773,6 +4773,21 @@
         "company": "Perennial Autonomy",
         "cluster": null,
         "founder": "Eric Schmidt (backer), team from SpaceX/Google/Apple"
+      },
+      {
+        "company": "Traysar",
+        "cluster": null,
+        "founder": "Yadin Soffer (CEO), Asher Katz, Gilad Adin"
+      },
+      {
+        "company": "TerraFirma",
+        "cluster": null,
+        "founder": "Noah Schochet (CEO), Noah McGuinness (CTO)"
+      },
+      {
+        "company": "Eclipse Space",
+        "cluster": null,
+        "founder": "Derek Huerta (CEO, ex-SpaceX senior manager of satellite payload engineering), Kyle Leveque (co-founder, ex-Astro Digital/Aquila Space, Cambrian Works)"
       }
     ],
     "Amazon": [
@@ -4884,6 +4899,13 @@
         "company": "Periodic Labs",
         "cluster": null,
         "founder": "Liam Fedus, Ekin Dogus Cubuk"
+      }
+    ],
+    "Uber": [
+      {
+        "company": "Atoms",
+        "cluster": null,
+        "founder": "Travis Kalanick"
       }
     ]
   },

@@ -1,9 +1,27 @@
 {
-  "generatedAt": "2026-07-23T07:39:55.293042+00:00",
+  "generatedAt": "2026-07-23T10:31:53.143691+00:00",
   "date": "2026-07-23",
   "dateDisplay": "Thursday, July 23, 2026",
   "sections": {
     "govActivity": [
+      {
+        "company": "Anduril",
+        "amount": "$62M",
+        "amount_raw": 62000000.0,
+        "agency": "Department of Homeland Security",
+        "description": "DO 23 O&S WITH SOW.",
+        "date": "2026-07-21",
+        "url": "https://sam.gov/opp/70B02C26F00000480/view"
+      },
+      {
+        "company": "Shield AI",
+        "amount": "$8M",
+        "amount_raw": 8000000.0,
+        "agency": "Department of Homeland Security",
+        "description": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION.",
+        "date": "2026-05-27",
+        "url": "https://sam.gov/opp/70Z02326F93130008/view"
+      },
       {
         "company": "Shield AI",
         "amount": "$5M",
@@ -61,18 +79,18 @@
     ],
     "marketMovers": [
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 508000.0,
+        "changePercent": 18.14,
+        "change": 78000.0
+      },
+      {
         "ticker": "TEM",
         "company": "Tempus AI",
         "price": 46.96,
         "changePercent": -17.97,
         "change": -10.29
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 483500.0,
-        "changePercent": 12.44,
-        "change": 53500.0
       },
       {
         "ticker": "RXRX",
@@ -142,23 +160,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammal",
-        "date": "2026-07-22",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-14816"
+        "title": "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Cr",
+        "date": "2026-07-23",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-15003"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-",
-        "date": "2026-07-22",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-14805"
+        "title": "Information Collection: NRC Form 313, Application for Materials License and NRC ",
+        "date": "2026-07-23",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-14916"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-",
-        "date": "2026-07-22",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-14780"
+        "title": "List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/W",
+        "date": "2026-07-23",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-14879"
       }
     ],
     "patents": [
@@ -201,10 +219,10 @@
     ]
   },
   "stats": {
-    "contractCount": 6,
+    "contractCount": 8,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TEM -18.0%"
+    "topMover": "277810.KQ +18.1%"
   }
 }

@@ -1,6 +1,132 @@
 {
-  "generatedAt": "2026-07-23T07:40:56+00:00",
+  "generatedAt": "2026-07-23T10:33:06+00:00",
   "matrix": {
+    "humanoid-robotics": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": 0,
+            "date": "2026-07-22",
+            "source": "formd",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          },
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Tether",
+              "Qualcomm Technologies",
+              "Amazon",
+              "NVIDIA",
+              "imec.xpa"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "data-center-infrastructure": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 46900000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Claros",
+            "amount": 46900000,
+            "date": "2026-07-22",
+            "source": "formd",
+            "investors": [
+              "General Catalyst",
+              "Red Cell Partners",
+              "Systemiq Capital",
+              "Aero X Ventures",
+              "Trenches Capital",
+              "VIPC"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst"
+        ]
+      },
+      "2025-Q4": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": null,
+            "date": "2025-10",
+            "source": "recentEvent",
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
+        ]
+      }
+    },
     "biotech-cell-reprogramming": {
       "2026-Q3": {
         "deals": 1,
@@ -363,108 +489,6 @@
               "ArcTern Ventures",
               "Litquidity Ventures",
               "The Coca-Cola System Sustainability Fund"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "defense-ew-rf-cyber": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 44999942,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Picogrid",
-            "amount": 44999942,
-            "date": "2026-07-13",
-            "source": "formd",
-            "investors": [
-              "Initialized Capital",
-              "Starburst Ventures",
-              "Credo Ventures",
-              "Giant Step Capital",
-              "Domino Ventures",
-              "Alumni Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "humanoid-robotics": {
-      "2026-Q3": {
-        "deals": 2,
-        "totalSold": 5799672,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Neura Robotics",
-            "amount": 937505,
-            "date": "2026-07-10",
-            "source": "formd",
-            "investors": [
-              "Tether",
-              "Qualcomm Technologies",
-              "Amazon",
-              "NVIDIA",
-              "imec.xpa"
-            ]
-          },
-          {
-            "name": "Apptronik",
-            "amount": 4862167,
-            "date": "2026-07-10",
-            "source": "formd",
-            "investors": [
-              "B Capital",
-              "Capital Factory",
-              "Google",
-              "Mercedes-Benz",
-              "PEAK6",
-              "AT&T Ventures",
-              "John Deere",
-              "Qatar Investment Authority"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          },
-          {
-            "name": "Neura Robotics",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Tether",
-              "Qualcomm Technologies",
-              "Amazon",
-              "NVIDIA",
-              "imec.xpa"
             ]
           }
         ],
@@ -1142,41 +1166,6 @@
         ]
       }
     },
-    "data-center-infrastructure": {
-      "2025-Q4": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Crusoe Energy",
-            "amount": null,
-            "date": "2025-10",
-            "source": "recentEvent",
-            "investors": [
-              "Valor Equity Partners",
-              "Mubadala Capital",
-              "Founders Fund",
-              "Lowercarbon Capital",
-              "Spark Capital",
-              "Tiger Global Management",
-              "NVIDIA",
-              "Bain Capital Ventures",
-              "Fidelity Management",
-              "Atreides Management",
-              "1789 Capital",
-              "Salesforce Ventures",
-              "T. Rowe Price"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Lowercarbon Capital",
-          "Valor Equity Partners"
-        ]
-      }
-    },
     "robotics-cobots-warehouse": {
       "2025-Q3": {
         "deals": 1,
@@ -1605,6 +1594,56 @@
     }
   },
   "vcAttribution": {
+    "General Catalyst": {
+      "2026-Q3": [
+        {
+          "company": "Claros",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07-22",
+          "source": "formd"
+        },
+        {
+          "company": "Cover",
+          "cluster": "construction-modular",
+          "date": "2026-07-14",
+          "source": "formd"
+        },
+        {
+          "company": "Applied Intuition",
+          "cluster": "ai-autonomous-driving",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Relativity Space",
+          "cluster": "space-launch-large",
+          "date": "2025-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Founders Fund": {
       "2026-Q3": [
         {
@@ -1780,50 +1819,6 @@
           "cluster": "geothermal-next-gen",
           "date": "2026-07-14",
           "source": "formd"
-        }
-      ]
-    },
-    "General Catalyst": {
-      "2026-Q3": [
-        {
-          "company": "Cover",
-          "cluster": "construction-modular",
-          "date": "2026-07-14",
-          "source": "formd"
-        },
-        {
-          "company": "Applied Intuition",
-          "cluster": "ai-autonomous-driving",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Relativity Space",
-          "cluster": "space-launch-large",
-          "date": "2025-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
         }
       ]
     },
@@ -2137,9 +2132,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 64,
-    "totalUSDSold": 323074866,
-    "uniqueClusters": 40,
+    "totalDealsTracked": 63,
+    "totalUSDSold": 319175252,
+    "uniqueClusters": 39,
     "uniqueQuarters": 9,
     "uniqueVCs": 19,
     "quarterRange": [
