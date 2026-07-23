@@ -1,63 +1,74 @@
 // Auto-generated news signals
-// Last updated: 2026-07-23T19:37:53.090Z
+// Last updated: 2026-07-23T21:14:35.722Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1784835473089,
+    "id": 1784841275722,
+    "type": "funding",
+    "company": "Humanoid",
+    "headline": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+    "source": "The Robot Report",
+    "time": "Just now",
+    "impact": "high",
+    "unread": true,
+    "link": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/"
+  },
+  {
+    "id": 1784841275723,
     "type": "milestone",
     "company": "Runway",
     "headline": "Runway launches AI model router as generative media gets crowded",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "4h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/"
   },
   {
-    "id": 1784835473090,
+    "id": 1784841275724,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI makes ChatGPT Health available to all US users",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/"
   },
   {
-    "id": 1784835473091,
+    "id": 1784841275725,
     "type": "funding",
     "company": "Etched",
     "headline": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
     "source": "TechCrunch",
-    "time": "4h ago",
+    "time": "6h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
   },
   {
-    "id": 1784835473092,
+    "id": 1784841275726,
     "type": "funding",
     "company": "Scale AI",
     "headline": "PageMind raises €1.2M to scale AI for e-commerce product discovery",
     "source": "Tech.eu",
-    "time": "7h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://tech.eu/2026/07/23/pagemind-raises-eur12m-to-scale-ai-for-e-commerce-product-discovery/"
   },
   {
-    "id": 1784835473093,
+    "id": 1784841275727,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings call",
     "source": "Electrek",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/"
   },
   {
-    "id": 1784835473094,
+    "id": 1784841275728,
     "type": "ipo",
     "company": "Vast",
     "headline": "Vast establishes division for national security projects",
@@ -68,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/vast-establishes-division-for-national-security-projects/"
   },
   {
-    "id": 1784835473095,
+    "id": 1784841275729,
     "type": "funding",
     "company": "OpenAI",
     "headline": "OpenAI and Datadog leaders back AI deployment startup Arrakis",
@@ -79,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/22/openai-and-datadog-leaders-back-ai-deployment-startup-arrakis/"
   },
   {
-    "id": 1784835473096,
+    "id": 1784841275730,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "The Download: NASA’s new space telescope and OpenAI&#8217;s autonomous hacker",
@@ -90,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/"
   },
   {
-    "id": 1784835473097,
+    "id": 1784841275731,
     "type": "ipo",
     "company": "Relativity Space",
     "headline": "Relativity Space to expand Terran R production in Florida",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/relativity-space-to-expand-terran-r-production-in-florida/"
   },
   {
-    "id": 1784835473098,
+    "id": 1784841275732,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI models hack Hugging Face systems during internal testing",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/openai-hack-hugging-face/"
   },
   {
-    "id": 1784835473099,
+    "id": 1784841275733,
     "type": "news",
     "company": "Deterrence",
     "headline": "Backed by France, Macron sees Germany as nuclear-deterrence ‘vanguard’ in Europe",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/global/europe/2026/07/22/backed-by-france-macron-sees-germany-as-nuclear-deterrence-vanguard-in-europe/"
   },
   {
-    "id": 1784835473100,
+    "id": 1784841275734,
     "type": "funding",
     "company": "Humanoid",
     "headline": "U.K.-based Humanoid secures $152M in Series A funding",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/"
   },
   {
-    "id": 1784835473101,
+    "id": 1784841275735,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI Models Escaped Containment and Hacked Hugging Face",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface/"
   },
   {
-    "id": 1784835473102,
+    "id": 1784841275736,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches Northrop mission to extend the life of aging satellites",
@@ -156,18 +167,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
   },
   {
-    "id": 1784835473103,
+    "id": 1784841275737,
     "type": "news",
     "company": "Humanoid",
     "headline": "Generative Bionics unveils humanoid robot with full-body tactile sensing",
     "source": "The Robot Report",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"
   },
   {
-    "id": 1784835473104,
+    "id": 1784841275738,
     "type": "funding",
     "company": "Humanoid",
     "headline": "UK robotics startup Humanoid hits $1.35B valuation with $152M Series A",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/"
   },
   {
-    "id": 1784835473105,
+    "id": 1784841275739,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX is gearing up for Starship&#039;s 13th test flight later this week",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/"
   },
   {
-    "id": 1784835473106,
+    "id": 1784841275740,
     "type": "funding",
     "company": "Quaise Energy",
     "headline": "Quaise Energy raises $134M to fuel superhot geothermal ambitions",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m"
   },
   {
-    "id": 1784835473107,
+    "id": 1784841275741,
     "type": "news",
     "company": "Deterrence",
     "headline": "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://warontherocks.com/a-new-force-posture-concept-for-europeanizing-extended-nuclear-deterrence/"
-  },
-  {
-    "id": 1784835473108,
-    "type": "news",
-    "company": "Deterrence",
-    "headline": "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes",
-    "source": "War on the Rocks",
-    "time": "6/26/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://warontherocks.com/not-imaginary-the-deterrence-gap-is-real-and-america-needs-low-yield-nukes/"
   }
 ];
