@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -7.03,
+      "avg_change": -6.87,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.12,
+      "avg_change": -5.53,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 5.02,
+      "avg_change": 3.85,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.49,
+      "avg_change": -0.62,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.64,
+      "avg_change": -6.02,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.11,
+      "avg_change": -4.24,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.66,
+      "avg_change": -9.84,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.48,
+      "avg_change": -4.33,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.03,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.49,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      19.48
+      12.44
     ],
     [
       "AUR",
       "Aurora Innovation",
-      10.22
+      9.8
     ],
     [
       "ACHR",
       "Archer Aviation",
-      8.16
-    ],
-    [
-      "AMD",
-      "AMD",
-      5.22
+      8.37
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      5.13
+      4.49
+    ],
+    [
+      "AMD",
+      "AMD",
+      4.38
     ]
   ],
   "topLosers": [
     [
       "RKLB",
       "Rocket Lab",
-      -8.28
+      -8.46
     ],
     [
       "QS",
       "QuantumScape",
-      -8.48
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -9.37
+      -8.71
     ],
     [
       "PL",
       "Planet Labs",
-      -10.12
+      -9.24
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -9.97
     ],
     [
       "TEM",
       "Tempus AI",
-      -18.01
+      -17.97
     ]
   ],
-  "lastUpdated": "2026-07-22 19:27:58"
+  "lastUpdated": "2026-07-23 03:15:20"
 }
