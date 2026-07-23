@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -7.93,
+      "avg_change": -8.97,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.57,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 2.11,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 9.12,
+      "avg_change": 5.68,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.32,
+      "avg_change": 8.02,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.41,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -6.52,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.87,
+      "avg_change": 1.19,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.85,
+      "avg_change": -7.35,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -9.11,
+      "avg_change": -10.96,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.18,
+      "avg_change": 2.65,
       "count": 3
     }
   },
@@ -64,52 +64,52 @@
       18.14
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      17.46
-    ],
-    [
       "SMR",
       "NuScale Power",
-      15.18
+      15.58
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      15.17
+      "ACHR",
+      "Archer Aviation",
+      14.14
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      11.62
+      7.4
+    ],
+    [
+      "AMD",
+      "AMD",
+      7.19
     ]
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      -4.43
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      -7.79
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -7.08
     ],
     [
       "PLTR",
       "Palantir",
-      -7.93
+      -8.97
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      -12.36
     ],
     [
       "TEM",
       "Tempus AI",
-      -13.17
+      -14.89
     ],
     [
       "TSLA",
       "Tesla",
-      -16.45
+      -18.05
     ]
   ],
-  "lastUpdated": "2026-07-23 14:09:21"
+  "lastUpdated": "2026-07-23 19:23:53"
 }
