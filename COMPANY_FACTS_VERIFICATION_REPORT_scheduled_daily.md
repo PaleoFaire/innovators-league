@@ -1,68 +1,63 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-22T08:09:30+00:00  
+**Generated:** 2026-07-23T08:12:56+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 27 companies  
+**Cohort size:** 28 companies  
 
-**New Claude extractions this run:** 27  
+**New Claude extractions this run:** 28  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 22 | 81% |
-| 🔧 Changes proposed | 5 | 19% |
+| ✅ Cleared (data matches sources) | 24 | 86% |
+| 🔧 Changes proposed | 4 | 14% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (5 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
-
-### Firehawk Aerospace
-
-- **`location`:** `Addison, TX` → `Lawton, Oklahoma`  
-  Sources: [company_website](https://firehawkaerospace.com) · [company_about](https://firehawkaerospace.com/about)
-
-  **Notes:** Database entry lists Addison, TX as location; however, sources [0] and [1] specify Lawton, Oklahoma facility as the primary manufacturing location. Founder name, founding year, funding stage, and investor details from database entry could not be verified from provided sources. Source [2] is unrelated to Firehawk Aerospace.
 
 ### Humanoid
 
 - **`fundingStage`:** `Seed` → `Series A`  
   Sources: [news (The Robot Report)](https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/) · [news (Tech.eu)](https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/)
-- **`totalRaised`:** `$50M` → `$152M`  
-  Sources: [news (The Robot Report)](https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/) · [news (Tech.eu)](https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/)
 
-  **Notes:** Database entry stated $50M founder-led capital and Seed stage, but sources [3] and [5] confirm $152M Series A at $1.35B valuation. Founded year 2024 from database could not be verified in sources. Founder Artem Sokolov confirmed as team member with data engineering background; source [1] lists him but does not explicitly state 'founder' title, though database identifies him as such.
+  **Notes:** Database entry claimed $50M founder-led capital and Seed stage; sources verify $152M Series A at $1.35B valuation instead. Wikipedia source [2] is about the term 'humanoid' generally, not the company, so not used. Source [1] lists Artem Sokolov in team archive but does not explicitly identify him as founder/co-founder; however combined with sources [3,5] context, he appears to be founder. No founding year found in sources.
+
+### Science Corporation
+
+- **`location`:** `Alameda, CA` → `Alameda, California`  
+  Sources: [company_about](https://science.xyz/company)
+- **`fundingStage`:** `Series B` → `Series C`  
+  Sources: [company_website](https://science.xyz)
+- **`totalRaised`:** `$200M+` → `$230M`  
+  Sources: [company_website](https://science.xyz)
+
+  **Notes:** Most recent funding round is Series C ($230M closed March 5, 2026 per source 0). Database entry listed Series B with $200M+, which is superseded by Series C figure. Founded year not explicitly stated in sources. Max Hodak is named as CEO and founder in source 1 leadership section. Investor names from database entry could not be verified in provided sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia entry indicates Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Database entry references $1.5T valuation and IPO status, but Wikipedia does not provide a current post-IPO valuation figure, only historical IPO details.
-
-### Terran Robotics
-
-- **`location`:** `Bloomington, IN` → `Bloomington, Indiana`  
-  Sources: [company_about](https://terranrobotics.ai/about)
-
-  **Notes:** Source [2] is about a different company (Monumental) and contains no information about Terran Robotics. Database entry lists multiple investors, but these cannot be verified from provided sources. Current stage cannot be determined from sources provided.
+  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, raising $86B. Database entry claims 'preparing for IPO' at $1.5T valuation, but sources confirm IPO already occurred and raised $86B, not $1.65T valuation. Valuation field left null as no current valuation figure found in sources.
 
 ### Ursa Major Technologies
 
-- **`location`:** `Berthoud, CO` → `Berthoud, Colorado, USA`  
-  Sources: [company_about](https://ursamajor.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Ursa_Major_Technologies)
+- **`totalRaised`:** `$400M+` → `$85M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Ursa_Major_Technologies)
 
-  **Notes:** Sources confirm Space Angels Network participation in 2017 Series A ($8M) and BlackRock leading Series C in December 2021 ($85M). Database entry lists 'Series E' and '$400M+' but no sources verify these claims. Wikipedia indicates company is 'Private' with no current acquisition or IPO status indicated.
+  **Notes:** Database entry lists Series E stage and $400M+ raised, but sources only verify Series C with $85M in December 2021. No evidence of later funding rounds in provided sources. Most recent specific funding information from Wikipedia is December 2021 Series C led by BlackRock.
 
 ---
 
-## ✅ Cleared (22 companies)
+## ✅ Cleared (24 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -72,26 +67,28 @@ Sample (first 30):
 - Agility Robotics
 - AnySignal
 - Apptronik
-- Destinus
+- Axiom Space
+- Cape
 - Deterrence
 - Durin
-- Einride
+- Firehawk Aerospace
 - Galvanick
 - Gecko Robotics
 - Hadrian
-- Helsing
 - Karman Industries
 - Mach Industries
-- Monumental
 - Orbital Composites
-- Physical Intelligence
+- Percepto
 - Quaise Energy
+- Relativity Space
 - RobCo
 - Skyroot Aerospace
 - Solugen
+- Vast
 - Xtend
+- ideaForge
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-22T08:09:30+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-23T08:12:56+00:00*

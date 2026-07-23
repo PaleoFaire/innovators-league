@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-22T08:09:30+00:00",
+  "generatedAt": "2026-07-23T08:12:56+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 27,
-  "newExtractionsThisRun": 27,
+  "cohortSize": 28,
+  "newExtractionsThisRun": 28,
   "summary": {
-    "cleared": 22,
-    "changesProposed": 5,
+    "cleared": 24,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
@@ -14,98 +14,28 @@
     "Agility Robotics",
     "AnySignal",
     "Apptronik",
-    "Destinus",
+    "Axiom Space",
+    "Cape",
     "Deterrence",
     "Durin",
-    "Einride",
+    "Firehawk Aerospace",
     "Galvanick",
     "Gecko Robotics",
     "Hadrian",
-    "Helsing",
     "Karman Industries",
     "Mach Industries",
-    "Monumental",
     "Orbital Composites",
-    "Physical Intelligence",
+    "Percepto",
     "Quaise Energy",
+    "Relativity Space",
     "RobCo",
     "Skyroot Aerospace",
     "Solugen",
-    "Xtend"
+    "Vast",
+    "Xtend",
+    "ideaForge"
   ],
   "changesProposed": [
-    {
-      "name": "Firehawk Aerospace",
-      "current": {
-        "name": "Firehawk Aerospace",
-        "founder": "Will Edwards",
-        "location": "Addison, TX",
-        "founded": 2019,
-        "fundingStage": "Series A",
-        "totalRaised": "$25M+",
-        "website": "https://firehawkaerospace.com"
-      },
-      "verified": {
-        "name": "Firehawk Aerospace",
-        "description": "Developer of 3D-printed solid rocket motors, base bleed motors, and hybrid rocket engines for defense applications using additive manufacturing technology.",
-        "founders": null,
-        "location": "Lawton, Oklahoma",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://firehawkaerospace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "location": [
-            0,
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Database entry lists Addison, TX as location; however, sources [0] and [1] specify Lawton, Oklahoma facility as the primary manufacturing location. Founder name, founding year, funding stage, and investor details from database entry could not be verified from provided sources. Source [2] is unrelated to Firehawk Aerospace."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Addison, TX",
-          "verified": "Lawton, Oklahoma",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://firehawkaerospace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://firehawkaerospace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
-        }
-      ],
-      "notes": "Database entry lists Addison, TX as location; however, sources [0] and [1] specify Lawton, Oklahoma facility as the primary manufacturing location. Founder name, founding year, funding stage, and investor details from database entry could not be verified from provided sources. Source [2] is unrelated to Firehawk Aerospace."
-    },
     {
       "name": "Humanoid",
       "current": {
@@ -114,12 +44,12 @@
         "location": "London, United Kingdom",
         "founded": 2024,
         "fundingStage": "Seed",
-        "totalRaised": "$50M",
+        "totalRaised": "$152M",
         "website": "https://thehumanoid.ai"
       },
       "verified": {
         "name": "Humanoid",
-        "description": "Humanoid develops industrial humanoid robots, including the HMND 01 Alpha Wheeled model, equipped with proprietary AI framework KinetIQ for autonomous task execution in warehouses, logistics, and manufacturing.",
+        "description": "AI-driven industrial humanoid robot company developing HMND 01 Alpha Wheeled for warehouse, logistics, and manufacturing applications. The robot features dual arms, proprietary KinetIQ AI framework, and operates autonomously with 15kg payload capacity.",
         "founders": [
           "Artem Sokolov"
         ],
@@ -135,13 +65,15 @@
             0
           ],
           "description": [
-            0
+            0,
+            1
           ],
           "founders": [
             1
           ],
           "location": [
-            1
+            0,
+            5
           ],
           "current_stage": [
             3,
@@ -159,22 +91,13 @@
             0
           ]
         },
-        "notes": "Database entry stated $50M founder-led capital and Seed stage, but sources [3] and [5] confirm $152M Series A at $1.35B valuation. Founded year 2024 from database could not be verified in sources. Founder Artem Sokolov confirmed as team member with data engineering background; source [1] lists him but does not explicitly state 'founder' title, though database identifies him as such."
+        "notes": "Database entry claimed $50M founder-led capital and Seed stage; sources verify $152M Series A at $1.35B valuation instead. Wikipedia source [2] is about the term 'humanoid' generally, not the company, so not used. Source [1] lists Artem Sokolov in team archive but does not explicitly identify him as founder/co-founder; however combined with sources [3,5] context, he appears to be founder. No founding year found in sources."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Seed",
           "verified": "Series A",
-          "sources": [
-            3,
-            5
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$50M",
-          "verified": "$152M",
           "sources": [
             3,
             5
@@ -213,7 +136,103 @@
           "url": "https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/"
         }
       ],
-      "notes": "Database entry stated $50M founder-led capital and Seed stage, but sources [3] and [5] confirm $152M Series A at $1.35B valuation. Founded year 2024 from database could not be verified in sources. Founder Artem Sokolov confirmed as team member with data engineering background; source [1] lists him but does not explicitly state 'founder' title, though database identifies him as such."
+      "notes": "Database entry claimed $50M founder-led capital and Seed stage; sources verify $152M Series A at $1.35B valuation instead. Wikipedia source [2] is about the term 'humanoid' generally, not the company, so not used. Source [1] lists Artem Sokolov in team archive but does not explicitly identify him as founder/co-founder; however combined with sources [3,5] context, he appears to be founder. No founding year found in sources."
+    },
+    {
+      "name": "Science Corporation",
+      "current": {
+        "name": "Science Corporation",
+        "founder": "Max Hodak",
+        "location": "Alameda, CA",
+        "founded": 2021,
+        "fundingStage": "Series B",
+        "totalRaised": "$200M+",
+        "website": "https://science.xyz"
+      },
+      "verified": {
+        "name": "Science Corporation",
+        "description": "Clinical-stage medical technology company developing brain-computer interfaces and vision restoration technology, including the PRIMA retinal implant for treating age-related macular degeneration.",
+        "founders": [
+          "Max Hodak"
+        ],
+        "location": "Alameda, California",
+        "founded_year": null,
+        "current_stage": "Series C",
+        "total_raised": "$230M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://science.xyz",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Most recent funding round is Series C ($230M closed March 5, 2026 per source 0). Database entry listed Series B with $200M+, which is superseded by Series C figure. Founded year not explicitly stated in sources. Max Hodak is named as CEO and founder in source 1 leadership section. Investor names from database entry could not be verified in provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Alameda, CA",
+          "verified": "Alameda, California",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series B",
+          "verified": "Series C",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$200M+",
+          "verified": "$230M",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://science.xyz"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://science.xyz/company"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval/"
+        }
+      ],
+      "notes": "Most recent funding round is Series C ($230M closed March 5, 2026 per source 0). Database entry listed Series B with $200M+, which is superseded by Series C figure. Founded year not explicitly stated in sources. Max Hodak is named as CEO and founder in source 1 leadership section. Investor names from database entry could not be verified in provided sources."
     },
     {
       "name": "SpaceX",
@@ -228,7 +247,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink, a communications satellite constellation.",
         "founders": [
           "Elon Musk"
         ],
@@ -270,7 +289,7 @@
             0
           ]
         },
-        "notes": "SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia entry indicates Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Database entry references $1.5T valuation and IPO status, but Wikipedia does not provide a current post-IPO valuation figure, only historical IPO details."
+        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86B. Database entry claims 'preparing for IPO' at $1.5T valuation, but sources confirm IPO already occurred and raised $86B, not $1.65T valuation. Valuation field left null as no current valuation figure found in sources."
       },
       "changes": [
         {
@@ -290,110 +309,28 @@
         },
         {
           "idx": 1,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starlink-communications-will-be-in-every-tesla-cybercab.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-should-be-able-to-try-to-launch-starship-tomorrow.html"
         },
         {
           "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-first-earning-rpoert-and-earning-call-is-august-4-2026.html"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
         }
       ],
-      "notes": "SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Wikipedia entry indicates Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Database entry references $1.5T valuation and IPO status, but Wikipedia does not provide a current post-IPO valuation figure, only historical IPO details."
-    },
-    {
-      "name": "Terran Robotics",
-      "current": {
-        "name": "Terran Robotics",
-        "founder": "Zach Dwiel, Danny Weddle",
-        "location": "Bloomington, IN",
-        "founded": 2018,
-        "fundingStage": "Seed",
-        "totalRaised": "$256K",
-        "website": "https://terranrobotics.ai"
-      },
-      "verified": {
-        "name": "Terran Robotics",
-        "description": "Company building terraforming robots that use AI and robotics to construct adobe homes from earth materials at reduced cost compared to traditional construction methods.",
-        "founders": [
-          "Zach Dwiel",
-          "Danny Weddle"
-        ],
-        "location": "Bloomington, Indiana",
-        "founded_year": 2018,
-        "current_stage": null,
-        "total_raised": "$256K",
-        "valuation": null,
-        "investors": null,
-        "website": "https://terranrobotics.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [2] is about a different company (Monumental) and contains no information about Terran Robotics. Database entry lists multiple investors, but these cannot be verified from provided sources. Current stage cannot be determined from sources provided."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Bloomington, IN",
-          "verified": "Bloomington, Indiana",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://terranrobotics.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://terranrobotics.ai/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
-        }
-      ],
-      "notes": "Source [2] is about a different company (Monumental) and contains no information about Terran Robotics. Database entry lists multiple investors, but these cannot be verified from provided sources. Current stage cannot be determined from sources provided."
+      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86B. Database entry claims 'preparing for IPO' at $1.5T valuation, but sources confirm IPO already occurred and raised $86B, not $1.65T valuation. Valuation field left null as no current valuation figure found in sources."
     },
     {
       "name": "Ursa Major Technologies",
       "current": {
         "name": "Ursa Major Technologies",
         "founder": "Joe Laurienti",
-        "location": "Berthoud, CO",
+        "location": "Berthoud, Colorado, USA",
         "founded": 2015,
         "fundingStage": "Series E",
         "totalRaised": "$400M+",
@@ -401,14 +338,14 @@
       },
       "verified": {
         "name": "Ursa Major Technologies",
-        "description": "American aerospace company that produces rocket engines and propulsion systems for space launch, hypersonics, and defense applications. The company manufactures liquid oxygen/kerosene engines and solid rocket motors using additive manufacturing and modular design.",
+        "description": "American aerospace company that produces rocket engines and propulsion systems for space launch, hypersonics, and defense applications. The company delivers liquid and solid rocket engines using additive manufacturing and modular design approaches.",
         "founders": [
           "Joe Laurienti"
         ],
         "location": "Berthoud, Colorado, USA",
         "founded_year": 2015,
         "current_stage": null,
-        "total_raised": null,
+        "total_raised": "$85M",
         "valuation": null,
         "investors": [
           "Space Angels Network",
@@ -438,19 +375,26 @@
             1,
             2
           ],
+          "total_raised": [
+            2
+          ],
           "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
             2
           ]
         },
-        "notes": "Sources confirm Space Angels Network participation in 2017 Series A ($8M) and BlackRock leading Series C in December 2021 ($85M). Database entry lists 'Series E' and '$400M+' but no sources verify these claims. Wikipedia indicates company is 'Private' with no current acquisition or IPO status indicated."
+        "notes": "Database entry lists Series E stage and $400M+ raised, but sources only verify Series C with $85M in December 2021. No evidence of later funding rounds in provided sources. Most recent specific funding information from Wikipedia is December 2021 Series C led by BlackRock."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Berthoud, CO",
-          "verified": "Berthoud, Colorado, USA",
+          "field": "totalRaised",
+          "current": "$400M+",
+          "verified": "$85M",
           "sources": [
-            1,
             2
           ]
         }
@@ -477,7 +421,7 @@
           "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
         }
       ],
-      "notes": "Sources confirm Space Angels Network participation in 2017 Series A ($8M) and BlackRock leading Series C in December 2021 ($85M). Database entry lists 'Series E' and '$400M+' but no sources verify these claims. Wikipedia indicates company is 'Private' with no current acquisition or IPO status indicated."
+      "notes": "Database entry lists Series E stage and $400M+ raised, but sources only verify Series C with $85M in December 2021. No evidence of later funding rounds in provided sources. Most recent specific funding information from Wikipedia is December 2021 Series C led by BlackRock."
     }
   ],
   "unverifiable": []
