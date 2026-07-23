@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T17:40:04.691470+00:00",
+  "generatedAt": "2026-07-23T19:38:03.439424+00:00",
   "date": "2026-07-23",
   "dateDisplay": "Thursday, July 23, 2026",
   "sections": {
@@ -86,53 +86,53 @@
         "change": 78000.0
       },
       {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 5.27,
-        "changePercent": 17.46,
-        "change": 0.78
-      },
-      {
         "ticker": "TSLA",
         "company": "Tesla",
-        "price": 326.73,
-        "changePercent": -16.45,
-        "change": -64.33
+        "price": 320.49,
+        "changePercent": -18.05,
+        "change": -70.57
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 8.8,
-        "changePercent": 15.18,
-        "change": 1.16
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.67,
-        "changePercent": 15.17,
-        "change": 0.22
+        "price": 8.83,
+        "changePercent": 15.58,
+        "change": 1.19
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 46.53,
-        "changePercent": -13.17,
-        "change": -7.06
+        "price": 45.61,
+        "changePercent": -14.89,
+        "change": -7.98
+      },
+      {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 5.12,
+        "changePercent": 14.14,
+        "change": 0.63
+      },
+      {
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 5.17,
+        "changePercent": -12.36,
+        "change": -0.73
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "price": 122.38,
+        "changePercent": -8.97,
+        "change": -12.06
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 61.4,
-        "changePercent": 11.62,
-        "change": 6.39
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.62,
-        "changePercent": 11.18,
-        "change": 0.67
+        "price": 59.08,
+        "changePercent": 7.4,
+        "change": 4.07
       }
     ],
     "regulatory": [
