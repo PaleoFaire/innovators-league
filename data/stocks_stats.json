@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 3.07,
+      "avg_change": 3.0,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 3.95,
+      "avg_change": 3.44,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.18,
+      "avg_change": -6.43,
       "count": 3
     },
     "transportation": {
@@ -69,11 +69,6 @@
       13.81
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      8.69
-    ],
-    [
       "AMD",
       "AMD",
       7.74
@@ -82,6 +77,11 @@
       "ASTS",
       "AST SpaceMobile",
       7.58
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      6.72
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -18.25
     ]
   ],
-  "lastUpdated": "2026-07-24 02:55:13"
+  "lastUpdated": "2026-07-24 08:32:26"
 }
