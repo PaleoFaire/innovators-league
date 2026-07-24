@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -8.97,
+      "avg_change": -8.23,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.11,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 3.07,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 5.68,
+      "avg_change": 3.95,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.02,
+      "avg_change": 8.34,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -6.52,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -7.0,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.19,
+      "avg_change": 1.15,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.35,
+      "avg_change": -7.18,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -10.96,
+      "avg_change": -10.97,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 2.65,
+      "avg_change": 3.55,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      18.14
-    ],
-    [
       "SMR",
       "NuScale Power",
-      15.58
+      15.31
     ],
     [
       "ACHR",
       "Archer Aviation",
-      14.14
+      13.81
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      8.69
+    ],
+    [
+      "AMD",
+      "AMD",
+      7.74
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      7.4
-    ],
-    [
-      "AMD",
-      "AMD",
-      7.19
+      7.58
     ]
   ],
   "topLosers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -7.08
-    ],
-    [
       "PLTR",
       "Palantir",
-      -8.97
+      -8.23
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -8.51
     ],
     [
       "QS",
       "QuantumScape",
-      -12.36
+      -13.38
     ],
     [
       "TEM",
       "Tempus AI",
-      -14.89
+      -14.14
     ],
     [
       "TSLA",
       "Tesla",
-      -18.05
+      -18.25
     ]
   ],
-  "lastUpdated": "2026-07-23 19:23:53"
+  "lastUpdated": "2026-07-24 02:55:13"
 }
