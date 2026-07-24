@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-07-23",
-    "vehicle": "Long March 3B/E | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 3B/E | Tianlian 2-06",
+    "payload": "Tianlian 2-06",
     "pad": "Launch Complex 2 (LC-2), Xichang Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5421e43a-1623-40ac-9dac-201075064e24/?format=json",
@@ -10,21 +10,21 @@
   },
   {
     "date": "2026-07-23",
+    "vehicle": "Kinetica 1 | 5 satellites",
+    "payload": "5 satellites",
+    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "CAS Space",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fa42624c-1e30-4b4b-a06b-59b6153bc4e5/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-24",
     "vehicle": "Starship | Flight 13",
     "payload": "Flight 13",
     "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-07-23",
-    "vehicle": "Kinetica 1 | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "CAS Space",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/fa42624c-1e30-4b4b-a06b-59b6153bc4e5/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-07-25",
@@ -51,6 +51,15 @@
     "pad": "201, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-07-30",
+    "vehicle": "Long March 6A | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Complex 9A, Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/394d2745-610b-409e-b4ea-2071a35f8668/?format=json",
     "trackedCompany": null
   },
   {
@@ -97,6 +106,15 @@
     "provider": "Agency for Defense Development",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-08-01",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-53",
+    "payload": "Starlink Group 17-53",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0448d030-5175-4c1f-bd0b-4f3f87072921/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-08-04",
@@ -430,23 +448,5 @@
     "provider": "Firefly Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d47cbca4-48c1-455a-b357-f156833b189e/?format=json",
     "trackedCompany": "Firefly Aerospace"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Electron | StriX Launch 13",
-    "payload": "StriX Launch 13",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e24bef7-c44b-4fdc-ba52-68545ce9457e/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Falcon 9 Block 5 | Blue Ghost Lunar Lander Mission 2",
-    "payload": "Blue Ghost Lunar Lander Mission 2",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/387aadc6-68ca-4090-9be7-d57603ad7c79/?format=json",
-    "trackedCompany": "SpaceX"
   }
 ]

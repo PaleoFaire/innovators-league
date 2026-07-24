@@ -2,7 +2,7 @@
   {
     "prime": "Lockheed Martin",
     "ticker": "LMT",
-    "totalCompanies": 11,
+    "totalCompanies": 12,
     "portfolio": [
       {
         "company": "Anduril",
@@ -39,6 +39,12 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "Hypersonic propulsion development"
+      },
+      {
+        "company": "INTALUS",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "lockheed martin"
       },
       {
         "company": "Integrate",

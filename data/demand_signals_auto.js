@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-07-23 09:16:22 UTC
-// Total signals: 44 | Companies matched: 187
+// Last updated: 2026-07-24 09:13:06 UTC
+// Total signals: 44 | Companies matched: 189
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -1335,6 +1335,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "TrustPoint",
+        "score": 18,
+        "matchReasons": [
+          "tag: leo constellation",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Apex Space",
         "score": 16,
         "matchReasons": [
@@ -1366,6 +1374,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Picogrid",
       "Synspective",
       "Aerospacelab",
+      "TrustPoint",
       "Apex Space",
       "Array Labs",
       "Endurosat"
@@ -2178,15 +2187,16 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Kairos Power",
-        "score": 22,
+        "name": "Blue Energy",
+        "score": 24,
         "matchReasons": [
+          "tag: nuclear",
           "tag: smr",
-          "tag: nuclear"
+          "techApproach overlap"
         ]
       },
       {
-        "name": "X-Energy",
+        "name": "Kairos Power",
         "score": 22,
         "matchReasons": [
           "tag: smr",
@@ -2203,8 +2213,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "TerraPower",
       "Copenhagen Atomics",
       "Steady Energy",
-      "Kairos Power",
-      "X-Energy"
+      "Blue Energy",
+      "Kairos Power"
     ]
   },
   {
@@ -3980,6 +3990,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: nuclear",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "INTALUS",
+        "score": 16,
+        "matchReasons": [
+          "tag: manufacturing",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
@@ -3987,7 +4005,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Valar Atomics",
       "Apis Cor",
       "Divergent",
-      "Newcleo"
+      "Newcleo",
+      "INTALUS"
     ]
   },
   {
@@ -4998,6 +5017,18 @@ const GOV_PULL_SCORES_AUTO = {
       "In-Space Assembly and Manufacturing"
     ]
   },
+  "TrustPoint": {
+    "name": "TrustPoint",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "U.S. Space Force"
+    ],
+    "avgRelevance": 18,
+    "topSignals": [
+      "Resilient Proliferated LEO Communications"
+    ]
+  },
   "Apex Space": {
     "name": "Apex Space",
     "govPullScore": 27,
@@ -5594,20 +5625,20 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced Small Modular Reactor Components"
     ]
   },
-  "Kairos Power": {
-    "name": "Kairos Power",
-    "govPullScore": 14,
+  "Blue Energy": {
+    "name": "Blue Energy",
+    "govPullScore": 15,
     "matchCount": 1,
     "topAgencies": [
       "Department of Energy (DOE)"
     ],
-    "avgRelevance": 22,
+    "avgRelevance": 24,
     "topSignals": [
       "Advanced Small Modular Reactor Components"
     ]
   },
-  "X-Energy": {
-    "name": "X-Energy",
+  "Kairos Power": {
+    "name": "Kairos Power",
     "govPullScore": 14,
     "matchCount": 1,
     "topAgencies": [
@@ -6478,6 +6509,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Additive Manufacturing for Energy Applications"
     ]
   },
+  "INTALUS": {
+    "name": "INTALUS",
+    "govPullScore": 15,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 16,
+    "topSignals": [
+      "Additive Manufacturing for Energy Applications"
+    ]
+  },
   "GHGSat": {
     "name": "GHGSat",
     "govPullScore": 20,
@@ -6581,6 +6624,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 187,
-  "lastUpdated": "2026-07-23 09:16:22 UTC"
+  "companiesMatched": 189,
+  "lastUpdated": "2026-07-24 09:13:06 UTC"
 };
