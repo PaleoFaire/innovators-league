@@ -1,154 +1,17 @@
 {
-  "generatedAt": "2026-07-22T08:09:50+00:00",
+  "generatedAt": "2026-07-24T08:09:16+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 1,
   "newExtractionsThisRun": 1,
   "summary": {
-    "cleared": 0,
-    "changesProposed": 1,
+    "cleared": 1,
+    "changesProposed": 0,
     "unverifiable": 0
   },
-  "cleared": [],
-  "changesProposed": [
-    {
-      "name": "Engine Ventures",
-      "current": {
-        "name": "Engine Ventures",
-        "shortName": "Engine",
-        "aum": "$1B+",
-        "flagshipFund": "Engine Ventures Fund III",
-        "founded": 2023,
-        "hq": "Cambridge, MA",
-        "website": "https://engine.xyz"
-      },
-      "verified": {
-        "name": "Engine Ventures",
-        "short_name": "Engine",
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": 2023,
-        "hq": "Cambridge, Massachusetts",
-        "key_partners": null,
-        "sector_focus": [
-          "Applied AI & ML",
-          "Computing",
-          "Mobility",
-          "Autonomous Systems / Robotics",
-          "Energy",
-          "Natural Resources",
-          "Biotech / Life Sciences",
-          "Food / Agriculture",
-          "Quantum Computing",
-          "Carbon Capture / CCUS",
-          "Manufacturing",
-          "Space",
-          "Climate",
-          "Materials",
-          "Water / Oceans"
-        ],
-        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-        "website": "https://engine.xyz",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            3
-          ],
-          "founded_year": [
-            1,
-            3
-          ],
-          "hq": [
-            3
-          ],
-          "sector_focus": [
-            1
-          ],
-          "thesis": [
-            3
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Engine Ventures is a separate venture capital firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The sources provided do not contain AUM figures, current partner names, or flagship fund name for Engine Ventures specifically. Source [4] is unrelated SpaceX content and was not used. The Wikipedia article references Engine Ventures' $398M fund raised in June 2023, but this is not cited in the provided excerpt and therefore not verified here."
-      },
-      "changes": [
-        {
-          "field": "hq",
-          "current": "Cambridge, MA",
-          "verified": "Cambridge, Massachusetts",
-          "sources": [
-            3
-          ]
-        },
-        {
-          "field": "sectorFocus",
-          "current": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS"
-          ],
-          "verified": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS",
-            "Manufacturing",
-            "Space",
-            "Climate",
-            "Materials",
-            "Water / Oceans"
-          ],
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://engine.xyz"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://engine.xyz/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/companies",
-          "url": "https://engine.xyz/companies"
-        },
-        {
-          "idx": 3,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
-        },
-        {
-          "idx": 4,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/"
-        }
-      ],
-      "notes": "Engine Ventures is a separate venture capital firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The sources provided do not contain AUM figures, current partner names, or flagship fund name for Engine Ventures specifically. Source [4] is unrelated SpaceX content and was not used. The Wikipedia article references Engine Ventures' $398M fund raised in June 2023, but this is not cited in the provided excerpt and therefore not verified here."
-    }
+  "cleared": [
+    "Shield Capital"
   ],
+  "changesProposed": [],
   "unverifiable": []
 }

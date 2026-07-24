@@ -1,63 +1,56 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-23T08:12:56+00:00  
+**Generated:** 2026-07-24T08:09:07+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 28 companies  
+**Cohort size:** 26 companies  
 
-**New Claude extractions this run:** 28  
+**New Claude extractions this run:** 26  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 24 | 86% |
-| 🔧 Changes proposed | 4 | 14% |
+| ✅ Cleared (data matches sources) | 23 | 88% |
+| 🔧 Changes proposed | 3 | 12% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (4 companies)
+## 🔧 Proposed Changes (3 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Humanoid
+### Etched
 
-- **`fundingStage`:** `Seed` → `Series A`  
-  Sources: [news (The Robot Report)](https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/) · [news (Tech.eu)](https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/)
-
-  **Notes:** Database entry claimed $50M founder-led capital and Seed stage; sources verify $152M Series A at $1.35B valuation instead. Wikipedia source [2] is about the term 'humanoid' generally, not the company, so not used. Source [1] lists Artem Sokolov in team archive but does not explicitly identify him as founder/co-founder; however combined with sources [3,5] context, he appears to be founder. No founding year found in sources.
-
-### Science Corporation
-
-- **`location`:** `Alameda, CA` → `Alameda, California`  
-  Sources: [company_about](https://science.xyz/company)
+- **`location`:** `Cupertino, CA` → `San Jose, CA`  
+  Sources: [company_website](https://www.etched.com)
 - **`fundingStage`:** `Series B` → `Series C`  
-  Sources: [company_website](https://science.xyz)
-- **`totalRaised`:** `$200M+` → `$230M`  
-  Sources: [company_website](https://science.xyz)
+  Sources: [company_website](https://www.etched.com)
+- **`totalRaised`:** `$620M+` → `$10.3B`  
+  Sources: [company_website](https://www.etched.com)
 
-  **Notes:** Most recent funding round is Series C ($230M closed March 5, 2026 per source 0). Database entry listed Series B with $200M+, which is superseded by Series C figure. Founded year not explicitly stated in sources. Max Hodak is named as CEO and founder in source 1 leadership section. Investor names from database entry could not be verified in provided sources.
+  **Notes:** Source [0] states 'We've raised $800M across four unannounced financings' but also announces '$10.3B Series C financing' at top of page, indicating recent Series C. Source [2] confirms $10.3B valuation and describes founders as 'three Harvard dropouts.' Location identified as San Jose from Source [0] mention of 'San Jose office' with factory and data center. Founded year cannot be verified from provided sources.
+
+### Scale AI
+
+- **`location`:** `San Francisco, California` → `San Francisco, California, United States`  
+  Sources: [company_about](https://scale.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
+
+  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Source [3] is about a different company (PageMind) and was not used.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, raising $86B. Database entry claims 'preparing for IPO' at $1.5T valuation, but sources confirm IPO already occurred and raised $86B, not $1.65T valuation. Valuation field left null as no current valuation figure found in sources.
-
-### Ursa Major Technologies
-
-- **`totalRaised`:** `$400M+` → `$85M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Ursa_Major_Technologies)
-
-  **Notes:** Database entry lists Series E stage and $400M+ raised, but sources only verify Series C with $85M in December 2021. No evidence of later funding rounds in provided sources. Most recent specific funding information from Wikipedia is December 2021 Series C led by BlackRock.
+  **Notes:** IPO occurred June 12, 2026. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. owns 6% equity according to Wikipedia. Database entry claims $1.5T IPO valuation and $1.65T current valuation, but no specific valuation figure found in provided sources; IPO raised $86B per Wikipedia.
 
 ---
 
-## ✅ Cleared (24 companies)
+## ✅ Cleared (23 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -65,25 +58,24 @@ Sample (first 30):
 
 - 1X Technologies
 - Agility Robotics
-- AnySignal
 - Apptronik
 - Axiom Space
 - Cape
 - Deterrence
+- Dexterity
 - Durin
 - Firehawk Aerospace
 - Galvanick
 - Gecko Robotics
-- Hadrian
+- Humanoid
 - Karman Industries
 - Mach Industries
-- Orbital Composites
 - Percepto
 - Quaise Energy
 - Relativity Space
 - RobCo
-- Skyroot Aerospace
 - Solugen
+- Ursa Major Technologies
 - Vast
 - Xtend
 - ideaForge
@@ -91,4 +83,4 @@ Sample (first 30):
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-23T08:12:56+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-24T08:09:07+00:00*

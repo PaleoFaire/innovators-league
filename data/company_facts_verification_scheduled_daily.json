@@ -1,181 +1,80 @@
 {
-  "generatedAt": "2026-07-23T08:12:56+00:00",
+  "generatedAt": "2026-07-24T08:09:07+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 28,
-  "newExtractionsThisRun": 28,
+  "cohortSize": 26,
+  "newExtractionsThisRun": 26,
   "summary": {
-    "cleared": 24,
-    "changesProposed": 4,
+    "cleared": 23,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
     "1X Technologies",
     "Agility Robotics",
-    "AnySignal",
     "Apptronik",
     "Axiom Space",
     "Cape",
     "Deterrence",
+    "Dexterity",
     "Durin",
     "Firehawk Aerospace",
     "Galvanick",
     "Gecko Robotics",
-    "Hadrian",
+    "Humanoid",
     "Karman Industries",
     "Mach Industries",
-    "Orbital Composites",
     "Percepto",
     "Quaise Energy",
     "Relativity Space",
     "RobCo",
-    "Skyroot Aerospace",
     "Solugen",
+    "Ursa Major Technologies",
     "Vast",
     "Xtend",
     "ideaForge"
   ],
   "changesProposed": [
     {
-      "name": "Humanoid",
+      "name": "Etched",
       "current": {
-        "name": "Humanoid",
-        "founder": "Artem Sokolov",
-        "location": "London, United Kingdom",
-        "founded": 2024,
-        "fundingStage": "Seed",
-        "totalRaised": "$152M",
-        "website": "https://thehumanoid.ai"
-      },
-      "verified": {
-        "name": "Humanoid",
-        "description": "AI-driven industrial humanoid robot company developing HMND 01 Alpha Wheeled for warehouse, logistics, and manufacturing applications. The robot features dual arms, proprietary KinetIQ AI framework, and operates autonomously with 15kg payload capacity.",
-        "founders": [
-          "Artem Sokolov"
-        ],
-        "location": "London, United Kingdom",
-        "founded_year": null,
-        "current_stage": "Series A",
-        "total_raised": "$152M",
-        "valuation": "$1.35B",
-        "investors": null,
-        "website": "https://thehumanoid.ai",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0,
-            5
-          ],
-          "current_stage": [
-            3,
-            5
-          ],
-          "total_raised": [
-            3,
-            5
-          ],
-          "valuation": [
-            3,
-            5
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry claimed $50M founder-led capital and Seed stage; sources verify $152M Series A at $1.35B valuation instead. Wikipedia source [2] is about the term 'humanoid' generally, not the company, so not used. Source [1] lists Artem Sokolov in team archive but does not explicitly identify him as founder/co-founder; however combined with sources [3,5] context, he appears to be founder. No founding year found in sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Seed",
-          "verified": "Series A",
-          "sources": [
-            3,
-            5
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://thehumanoid.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://thehumanoid.ai/team"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Humanoid"
-        },
-        {
-          "idx": 3,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/"
-        },
-        {
-          "idx": 4,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"
-        },
-        {
-          "idx": 5,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/"
-        }
-      ],
-      "notes": "Database entry claimed $50M founder-led capital and Seed stage; sources verify $152M Series A at $1.35B valuation instead. Wikipedia source [2] is about the term 'humanoid' generally, not the company, so not used. Source [1] lists Artem Sokolov in team archive but does not explicitly identify him as founder/co-founder; however combined with sources [3,5] context, he appears to be founder. No founding year found in sources."
-    },
-    {
-      "name": "Science Corporation",
-      "current": {
-        "name": "Science Corporation",
-        "founder": "Max Hodak",
-        "location": "Alameda, CA",
-        "founded": 2021,
+        "name": "Etched",
+        "founder": "Gavin Uberti, Chris Zhu, Robert Wachen",
+        "location": "Cupertino, CA",
+        "founded": 2022,
         "fundingStage": "Series B",
-        "totalRaised": "$200M+",
-        "website": "https://science.xyz"
+        "totalRaised": "$620M+",
+        "website": "https://www.etched.com"
       },
       "verified": {
-        "name": "Science Corporation",
-        "description": "Clinical-stage medical technology company developing brain-computer interfaces and vision restoration technology, including the PRIMA retinal implant for treating age-related macular degeneration.",
+        "name": "Etched",
+        "description": "AI hardware company building frontier inference clusters through co-designed chips, racks, and software. The company has developed Low Voltage Inference and Cluster Scale Memory technologies for efficient inference workloads.",
         "founders": [
-          "Max Hodak"
+          "Gavin Uberti",
+          "Robert Wachen",
+          "Chris Zhu"
         ],
-        "location": "Alameda, California",
+        "location": "San Jose, CA",
         "founded_year": null,
         "current_stage": "Series C",
-        "total_raised": "$230M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://science.xyz",
+        "total_raised": "$10.3B",
+        "valuation": "$10.3B",
+        "investors": [
+          "VentureTech Alliance"
+        ],
+        "website": "https://www.etched.com",
         "sources_per_field": {
           "name": [
-            0,
-            1
+            0
           ],
           "description": [
-            0,
-            1
+            0
           ],
           "founders": [
-            1
+            0
           ],
           "location": [
-            1
+            0
           ],
           "current_stage": [
             0
@@ -183,19 +82,25 @@
           "total_raised": [
             0
           ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            0
+          ],
           "website": [
             0
           ]
         },
-        "notes": "Most recent funding round is Series C ($230M closed March 5, 2026 per source 0). Database entry listed Series B with $200M+, which is superseded by Series C figure. Founded year not explicitly stated in sources. Max Hodak is named as CEO and founder in source 1 leadership section. Investor names from database entry could not be verified in provided sources."
+        "notes": "Source [0] states 'We've raised $800M across four unannounced financings' but also announces '$10.3B Series C financing' at top of page, indicating recent Series C. Source [2] confirms $10.3B valuation and describes founders as 'three Harvard dropouts.' Location identified as San Jose from Source [0] mention of 'San Jose office' with factory and data center. Founded year cannot be verified from provided sources."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Alameda, CA",
-          "verified": "Alameda, California",
+          "current": "Cupertino, CA",
+          "verified": "San Jose, CA",
           "sources": [
-            1
+            0
           ]
         },
         {
@@ -208,8 +113,8 @@
         },
         {
           "field": "totalRaised",
-          "current": "$200M+",
-          "verified": "$230M",
+          "current": "$620M+",
+          "verified": "$10.3B",
           "sources": [
             0
           ]
@@ -219,20 +124,132 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://science.xyz"
+          "url": "https://www.etched.com"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://science.xyz/company"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Etched"
         },
         {
           "idx": 2,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval/"
+          "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
+        },
+        {
+          "idx": 3,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002144879&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "Most recent funding round is Series C ($230M closed March 5, 2026 per source 0). Database entry listed Series B with $200M+, which is superseded by Series C figure. Founded year not explicitly stated in sources. Max Hodak is named as CEO and founder in source 1 leadership section. Investor names from database entry could not be verified in provided sources."
+      "notes": "Source [0] states 'We've raised $800M across four unannounced financings' but also announces '$10.3B Series C financing' at top of page, indicating recent Series C. Source [2] confirms $10.3B valuation and describes founders as 'three Harvard dropouts.' Location identified as San Jose from Source [0] mention of 'San Jose office' with factory and data center. Founded year cannot be verified from provided sources."
+    },
+    {
+      "name": "Scale AI",
+      "current": {
+        "name": "Scale AI",
+        "founder": "Alexandr Wang, Lucy Guo",
+        "location": "San Francisco, California",
+        "founded": 2016,
+        "fundingStage": "Private",
+        "totalRaised": "$15.9B",
+        "website": "https://scale.com"
+      },
+      "verified": {
+        "name": "Scale AI",
+        "description": "American artificial intelligence infrastructure and software company offering data annotation, RLHF services, large language model evaluation, and enterprise software suites to build and deploy AI applications.",
+        "founders": [
+          "Alexandr Wang",
+          "Lucy Guo"
+        ],
+        "location": "San Francisco, California, United States",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": "$29B",
+        "investors": [
+          "Meta Platforms",
+          "Accel",
+          "Founders Fund",
+          "Index Ventures",
+          "Tiger Global",
+          "Coatue",
+          "Dragoneer",
+          "Amazon"
+        ],
+        "website": "https://scale.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "valuation": [
+            1,
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Source [3] is about a different company (PageMind) and was not used."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Francisco, California",
+          "verified": "San Francisco, California, United States",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://scale.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://scale.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scale_AI"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/07/23/pagemind-raises-eur12m-to-scale-ai-for-e-commerce-product-discovery/"
+        }
+      ],
+      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Source [3] is about a different company (PageMind) and was not used."
     },
     {
       "name": "SpaceX",
@@ -247,7 +264,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink, a communications satellite constellation.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -289,7 +306,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86B. Database entry claims 'preparing for IPO' at $1.5T valuation, but sources confirm IPO already occurred and raised $86B, not $1.65T valuation. Valuation field left null as no current valuation figure found in sources."
+        "notes": "IPO occurred June 12, 2026. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. owns 6% equity according to Wikipedia. Database entry claims $1.5T IPO valuation and $1.65T current valuation, but no specific valuation figure found in provided sources; IPO raised $86B per Wikipedia."
       },
       "changes": [
         {
@@ -309,119 +326,21 @@
         },
         {
           "idx": 1,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-pushed-to-friday-because-of-weather.html"
+        },
+        {
+          "idx": 2,
           "src": "news (Electrek)",
           "url": "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/"
         },
         {
-          "idx": 2,
+          "idx": 3,
           "src": "news (Next Big Future)",
           "url": "https://www.nextbigfuture.com/2026/07/spacex-should-be-able-to-try-to-launch-starship-tomorrow.html"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
         }
       ],
-      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86B. Database entry claims 'preparing for IPO' at $1.5T valuation, but sources confirm IPO already occurred and raised $86B, not $1.65T valuation. Valuation field left null as no current valuation figure found in sources."
-    },
-    {
-      "name": "Ursa Major Technologies",
-      "current": {
-        "name": "Ursa Major Technologies",
-        "founder": "Joe Laurienti",
-        "location": "Berthoud, Colorado, USA",
-        "founded": 2015,
-        "fundingStage": "Series E",
-        "totalRaised": "$400M+",
-        "website": "https://ursamajor.com"
-      },
-      "verified": {
-        "name": "Ursa Major Technologies",
-        "description": "American aerospace company that produces rocket engines and propulsion systems for space launch, hypersonics, and defense applications. The company delivers liquid and solid rocket engines using additive manufacturing and modular design approaches.",
-        "founders": [
-          "Joe Laurienti"
-        ],
-        "location": "Berthoud, Colorado, USA",
-        "founded_year": 2015,
-        "current_stage": null,
-        "total_raised": "$85M",
-        "valuation": null,
-        "investors": [
-          "Space Angels Network",
-          "BlackRock"
-        ],
-        "website": "https://ursamajor.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Database entry lists Series E stage and $400M+ raised, but sources only verify Series C with $85M in December 2021. No evidence of later funding rounds in provided sources. Most recent specific funding information from Wikipedia is December 2021 Series C led by BlackRock."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$400M+",
-          "verified": "$85M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://ursamajor.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://ursamajor.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ursa_Major_Technologies"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/"
-        }
-      ],
-      "notes": "Database entry lists Series E stage and $400M+ raised, but sources only verify Series C with $85M in December 2021. No evidence of later funding rounds in provided sources. Most recent specific funding information from Wikipedia is December 2021 Series C led by BlackRock."
+      "notes": "IPO occurred June 12, 2026. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. owns 6% equity according to Wikipedia. Database entry claims $1.5T IPO valuation and $1.65T current valuation, but no specific valuation figure found in provided sources; IPO raised $86B per Wikipedia."
     }
   ],
   "unverifiable": []
