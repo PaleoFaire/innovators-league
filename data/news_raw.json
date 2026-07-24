@@ -1,23 +1,63 @@
 [
   {
+    "title": "SpaceX Starship 13 is 6 Minutes from Launch",
+    "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-13-is-6-minutes-from-launch.html",
+    "description": "Watch Starship&#39;s thirteenth flight test https://t.co/qkYYJiX24h &#8212; SpaceX (@SpaceX) July 23, 2026",
+    "pubDate": "Fri, 24 Jul 2026 22:45:35 +0000",
+    "category": "Energy",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Anthropic Opus 5 Built ISS Tracker",
+    "link": "https://www.nextbigfuture.com/2026/07/anthropic-opus-5-built-iss-tracker.html",
+    "description": "Anthropic Opus 5 was asked to build an ISS space station tracker and the UI and technical capabilities were good. The position matched a commercial site tracking the ISS. Dan Shipper breaks down where it struggled, why complex skills can make it stop early, and the counterintuitive setting that impr",
+    "pubDate": "Fri, 24 Jul 2026 18:59:24 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "ai",
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
     "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
     "link": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
-    "description": "AI coding startup Cognition has acquired Poke, the AI assistant you text like a friend, in a deal valuing the startup in the low nine figures. The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistant",
+    "description": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
     "pubDate": "Fri, 24 Jul 2026 18:07:32 +0000",
-    "category": "Apps",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Cognition",
     "matchedCompanies": [
-      "Cognition",
-      "Anysphere"
+      "Cognition"
     ],
     "sectors": [
       "ai"
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models",
@@ -37,7 +77,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Anthropic launches Opus 5",
@@ -56,7 +96,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "4h ago"
+    "time": "6h ago"
   },
   {
     "title": "OpenAI&#8217;s own model went rogue before Kimi had Wall Street sweating",
@@ -76,26 +116,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4h ago"
-  },
-  {
-    "title": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis",
-    "link": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
-    "description": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Mississippi. The annex to a reimbursable Space Act Agreement signed earlier this month",
-    "pubDate": "Fri, 24 Jul 2026 15:30:21 +0000",
-    "category": "Missions",
-    "source": "NASA Breaking News",
-    "feedCategory": "space",
-    "matchedCompany": "Blue Origin",
-    "matchedCompanies": [
-      "Blue Origin"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "5h ago"
+    "time": "6h ago"
   },
   {
     "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
@@ -114,7 +135,27 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "10h ago"
+  },
+  {
+    "title": "OpenAI GPT 6 Escaped Sandbox to Hack HuggingFace, Chinese Model Used to Investigate",
+    "link": "https://www.nextbigfuture.com/2026/07/openai-gpt-6-escaped-sandbox-to-hack-huggingface-chinese-model-used-to-investigate.html",
+    "description": "OpenAI’s own advanced AI models, probably GPT6, autonomously broke out of a restricted testing environment and launched a real-world cyberattack against Hugging Face. It did this to fulfill its directed goal to get better score on a hacking test. OpenAI publicly admitted responsibility on or around ",
+    "pubDate": "Fri, 24 Jul 2026 00:32:28 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "22h ago"
   },
   {
     "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
@@ -134,6 +175,27 @@
     ],
     "type": "funding",
     "impact": "high",
+    "time": "1d ago"
+  },
+  {
+    "title": "SpaceX Starship Flight 13 Pushed to Friday Because of Weather",
+    "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-pushed-to-friday-because-of-weather.html",
+    "description": "Now targeting Friday, July 24 for Starship’s thirteenth flight test, due to weather. A key objective for the flight test is to get clear imagery from the ground of Starship’s heatshield as it flies at a higher dynamic pressure during ascent, which won&#8217;t be possible with today&#8217;s weather c",
+    "pubDate": "Thu, 23 Jul 2026 20:38:04 +0000",
+    "category": "Space",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Durin"
+    ],
+    "sectors": [
+      "space",
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
     "time": "1d ago"
   },
   {
@@ -345,7 +407,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "SpaceX launches Northrop mission to extend the life of aging satellites",
@@ -369,7 +431,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing",

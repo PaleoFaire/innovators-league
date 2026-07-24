@@ -80875,23 +80875,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-24 21:13
+// Last updated: 2026-07-24 23:10
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cognition", headline: "Why Cognition bought Poke: AI personality is becoming a competitive advantage", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Anthropic", headline: "Anthropic launches Opus 5", source: "TechCrunch", time: "4h ago", impact: "medium", unread: true },
-  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI's own model went rogue before Kimi had Wall Street sweating", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Blue Origin", headline: "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis", source: "NASA Breaking News", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Neura Robotics", headline: "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI", source: "The Robot Report", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Humanoid", headline: "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 8, type: "funding", company: "Scale AI", headline: "PageMind raises '1.2M to scale AI for e-commerce product discovery", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings call", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Vast", headline: "Vast establishes division for national security projects", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "OpenAI", headline: "OpenAI and Datadog leaders back AI deployment startup Arrakis", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "OpenAI", headline: "The Download: NASA's new space telescope and OpenAI's autonomous hacker", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Relativity Space", headline: "Relativity Space to expand Terran R production in Florida", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "OpenAI", headline: "OpenAI models hack Hugging Face systems during internal testing", source: "Sifted", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Deterrence", headline: "Backed by France, Macron sees Germany as nuclear-deterrence 'vanguard' in Europe", source: "Defense News", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 is 6 Minutes from Launch", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Anthropic", headline: "Anthropic Opus 5 Built ISS Tracker", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cognition", headline: "Why Cognition bought Poke: AI personality is becoming a competitive advantage", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Anthropic", headline: "Anthropic launches Opus 5", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
+  { id: 6, type: "milestone", company: "OpenAI", headline: "OpenAI's own model went rogue before Kimi had Wall Street sweating", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Neura Robotics", headline: "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI", source: "The Robot Report", time: "10h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "OpenAI", headline: "OpenAI GPT 6 Escaped Sandbox to Hack HuggingFace, Chinese Model Used to Investigate", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Humanoid", headline: "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Flight 13 Pushed to Friday Because of Weather", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Scale AI", headline: "PageMind raises '1.2M to scale AI for e-commerce product discovery", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings call", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Vast", headline: "Vast establishes division for national security projects", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "OpenAI", headline: "OpenAI and Datadog leaders back AI deployment startup Arrakis", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "OpenAI", headline: "The Download: NASA's new space telescope and OpenAI's autonomous hacker", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
