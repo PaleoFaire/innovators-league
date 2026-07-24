@@ -1,5 +1,20 @@
 [
   {
+    "company": "Rebellions",
+    "totalRaised": "$25.5B+",
+    "totalRaisedRaw": 25491.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$10.3B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Founders Fund",
+      "NEA"
+    ],
+    "roundCount": 10
+  },
+  {
     "company": "Galvanick",
     "totalRaised": "$21.5B+",
     "totalRaisedRaw": 21490.0,
@@ -54,21 +69,6 @@
       "Undisclosed"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Rebellions",
-    "totalRaised": "$15.2B+",
-    "totalRaisedRaw": 15191.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$31M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Founders Fund",
-      "NEA"
-    ],
-    "roundCount": 9
   },
   {
     "company": "OpenStar",
@@ -1307,6 +1307,19 @@
     "totalRaisedRaw": 130.0,
     "lastRound": "Series A",
     "lastRoundAmount": "$130M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Dexterity",
+    "totalRaised": "$105M+",
+    "totalRaisedRaw": 105.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$105M",
     "lastRoundDate": "2026-07",
     "valuation": "",
     "leadInvestors": [

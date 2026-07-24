@@ -983,6 +983,15 @@
   {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
+    "form": "DEF 14A",
+    "date": "2026-07-23",
+    "description": "bksy-20260723.htm",
+    "accessionNumber": "0001753539-26-000108",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
     "form": "4",
     "date": "2026-06-30",
     "description": "xslF345X06/wk-form4_1782852950.xml",
@@ -1239,15 +1248,6 @@
     "date": "2025-12-12",
     "description": "xslF345X05/wk-form4_1765573588.xml",
     "accessionNumber": "0001753539-25-000140",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2025-12-12",
-    "description": "xslF345X05/wk-form4_1765573535.xml",
-    "accessionNumber": "0001753539-25-000138",
     "isIPO": false
   },
   {
@@ -1905,6 +1905,15 @@
     "date": "2025-11-10",
     "description": "acdc-20250930.htm",
     "accessionNumber": "0001193125-25-274194",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
+    "form": "8-K",
+    "date": "2026-07-23",
+    "description": "tm2621205d1_8k.htm",
+    "accessionNumber": "0001104659-26-086254",
     "isIPO": false
   },
   {
@@ -9452,6 +9461,15 @@
   {
     "company": "Satellogic",
     "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-07-23",
+    "description": "ea0299090-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-081020",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
     "form": "4",
     "date": "2026-07-15",
     "description": "xslF345X06/ownership.xml",
@@ -9690,15 +9708,6 @@
     "date": "2025-08-08",
     "description": "ea0252461-8k_zoomcar.htm",
     "accessionNumber": "0001213900-25-073658",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2025-08-01",
-    "description": "ea0251312-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-25-070632",
     "isIPO": false
   }
 ]

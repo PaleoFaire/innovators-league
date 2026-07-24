@@ -180,15 +180,6 @@
     "isIPO": false
   },
   {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "DEF 14A",
-    "date": "2026-04-24",
-    "description": "pltr-20260423.htm",
-    "accessionNumber": "0001321655-26-000019",
-    "isIPO": false
-  },
-  {
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "4",
@@ -695,6 +686,15 @@
   {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
+    "form": "DEF 14A",
+    "date": "2026-07-23",
+    "description": "bksy-20260723.htm",
+    "accessionNumber": "0001753539-26-000108",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
     "form": "4",
     "date": "2026-06-30",
     "description": "xslF345X06/wk-form4_1782852950.xml",
@@ -915,6 +915,15 @@
     "date": "2026-04-27",
     "description": "tm2532185-5_def14a.htm",
     "accessionNumber": "0001104659-26-049044",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
+    "form": "8-K",
+    "date": "2026-07-23",
+    "description": "tm2621205d1_8k.htm",
+    "accessionNumber": "0001104659-26-086254",
     "isIPO": false
   },
   {
@@ -1212,15 +1221,6 @@
     "date": "2026-04-30",
     "description": "spce-20260430.htm",
     "accessionNumber": "0001706946-26-000057",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "8-K",
-    "date": "2026-04-24",
-    "description": "spce-20260424.htm",
-    "accessionNumber": "0001706946-26-000052",
     "isIPO": false
   },
   {
@@ -1752,15 +1752,6 @@
     "date": "2026-05-05",
     "description": "leu-20260505.htm",
     "accessionNumber": "0001628280-26-030674",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "DEF 14A",
-    "date": "2026-04-24",
-    "description": "leu-20260424.htm",
-    "accessionNumber": "0001628280-26-027241",
     "isIPO": false
   },
   {
@@ -2589,15 +2580,6 @@
     "date": "2026-05-11",
     "description": "rgti-20260511x8k.htm",
     "accessionNumber": "0001104659-26-058635",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "DEF 14A",
-    "date": "2026-04-24",
-    "description": "tm261606-2_def14a.htm",
-    "accessionNumber": "0001104659-26-048555",
     "isIPO": false
   },
   {
@@ -3537,15 +3519,6 @@
     "isIPO": false
   },
   {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "8-K",
-    "date": "2026-04-24",
-    "description": "d207058d8k.htm",
-    "accessionNumber": "0001193125-26-177666",
-    "isIPO": false
-  },
-  {
     "company": "Agrify Corporation",
     "ticker": "AGFY",
     "form": "DEF 14A",
@@ -4365,15 +4338,6 @@
     "isIPO": false
   },
   {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-04-24",
-    "description": "xslF345X06/wk-form4_1777063417.xml",
-    "accessionNumber": "0001890925-26-000010",
-    "isIPO": false
-  },
-  {
     "company": "Astera Labs",
     "ticker": "ALAB",
     "form": "4",
@@ -4470,6 +4434,15 @@
     "date": "2026-04-27",
     "description": "cook-20260427.htm",
     "accessionNumber": "0001628280-26-027524",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-07-23",
+    "description": "ea0299090-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-081020",
     "isIPO": false
   },
   {

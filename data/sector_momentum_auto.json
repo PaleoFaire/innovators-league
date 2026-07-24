@@ -1,43 +1,25 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 52,
-    "trend": "steady",
+    "sector": "Space & Aerospace",
+    "momentum": 65,
+    "trend": "accelerating",
     "catalysts": [
-      "How OpenAI\u2019s human mistake led to the AI-powered hack on Hug",
-      "OpenAI&#8217;s AI spending spree has ballooned to $750B",
-      "OpenAI and Datadog leaders back AI deployment startup Arraki"
+      "OpenAI GPT 6 Escaped Sandbox to Hack HuggingFace, Chinese Mo",
+      "SpaceX Starship Flight 13 Pushed to Friday Because of Weathe",
+      "Runway launches AI model router as generative media gets cro"
     ],
-    "fundingQ": "$282.7B",
+    "fundingQ": "$266.3B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 50,
       "hiring": 0,
-      "market": 50
+      "market": 87
     },
-    "lastUpdated": "2026-07-23"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "Relativity Space to expand Terran R production in Florida",
-      "U.K.-based Humanoid secures $152M in Series A funding",
-      "Generative Bionics unveils humanoid robot with full-body tac"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 50,
+    "momentum": 59,
     "trend": "steady",
     "catalysts": [
       "Backed by France, Macron sees Germany as nuclear-deterrence",
@@ -49,27 +31,45 @@
       "funding": 100,
       "news": 15,
       "hiring": 0,
-      "market": 56
+      "market": 100
     },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 48,
+    "sector": "AI & Software",
+    "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca",
-      "SpaceX Will Try to Launch Starship Tomorrow After Good Test",
-      "Science Corporation&#8217;s vision-restoring chip wins EU ap"
+      "OpenAI GPT 6 Escaped Sandbox to Hack HuggingFace, Chinese Mo",
+      "OpenAI makes ChatGPT Health available to all US users",
+      "AI chip startup Etched defies skeptics, hits $10.3B valuatio"
     ],
-    "fundingQ": "$266.3B",
+    "fundingQ": "$282.7B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 40,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "Holiday Robotics raises $105M for its FRIDAY wheeled humanoi",
+      "Relativity Space to expand Terran R production in Florida",
+      "U.K.-based Humanoid secures $152M in Series A funding"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -85,7 +85,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Ocean & Maritime",
@@ -101,7 +101,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 40,
+    "trend": "steady",
+    "catalysts": [
+      "Runway launches AI model router as generative media gets cro",
+      "OpenAI makes ChatGPT Health available to all US users",
+      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca"
+    ],
+    "fundingQ": "$22.0B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Defense & Security",
@@ -118,24 +136,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-23"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 38,
-    "trend": "steady",
-    "catalysts": [
-      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca",
-      "Generative Bionics unveils humanoid robot with full-body tac"
-    ],
-    "fundingQ": "$22.0B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Climate & Energy",
@@ -151,29 +152,29 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 21,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca",
-      "Science Corporation&#8217;s vision-restoring chip wins EU ap",
-      "Vast establishes division for national security projects"
+      "Holiday Robotics raises $105M for its FRIDAY wheeled humanoi",
+      "OpenAI makes ChatGPT Health available to all US users",
+      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Transportation",
-    "momentum": 12,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -183,77 +184,46 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 61
+      "market": 93
     },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "AI chip startup Etched defies skeptics, hits $10.3B valuatio"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 86
+    },
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "OpenAI GPT 6 Escaped Sandbox to Hack HuggingFace, Chinese Mo",
       "The Download: NASA\u2019s new space telescope and OpenAI&#8217;s"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-23"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI&#8217;s AI spending spree has ballooned to $750B"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-23"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Science Corporation&#8217;s vision-restoring chip wins EU ap"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 45
-    },
-    "lastUpdated": "2026-07-23"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 2,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -263,8 +233,40 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 8
+      "market": 62
     },
-    "lastUpdated": "2026-07-23"
+    "lastUpdated": "2026-07-24"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "PageMind raises \u20ac1.2M to scale AI for e-commerce product dis"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-24"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-24"
   }
 ]

@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-07-23T08:37:17.359940Z",
+  "generated_at": "2026-07-24T08:33:39.591704Z",
   "takes": [
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "OpenAI&#8217;s AI spending spree has ballooned to $750B",
-      "date": "Wed, 22 Ju",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
-      "signal_type": "news"
-    },
     {
       "author": "Canary Media",
       "role": "Industry signal",
@@ -19,6 +9,16 @@
       "date": "Tue, 07 Ju",
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m",
+      "signal_type": "funding"
+    },
+    {
+      "author": "The Robot Report",
+      "role": "Industry signal",
+      "company": "Humanoid",
+      "text": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+      "date": "Thu, 23 Ju",
+      "source": "news",
+      "source_url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
       "signal_type": "funding"
     }
   ],

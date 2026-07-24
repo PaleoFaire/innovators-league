@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-23 08:36:00 UTC
+// Last updated: 2026-07-24 08:32:13 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "BlackSky Technology", form: "DEF 14A", date: "2026-07-23", description: "bksy-20260723.htm", isIPO: false, ticker: "BKSY" },
+  { company: "Momentus", form: "8-K", date: "2026-07-23", description: "tm2621205d1_8k.htm", isIPO: false, ticker: "MNTS" },
+  { company: "Satellogic", form: "8-K", date: "2026-07-23", description: "ea0299090-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752694.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752629.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752600.xml", isIPO: false, ticker: "RIVN" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783026949.xml", isIPO: false, ticker: "RXRX" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783026941.xml", isIPO: false, ticker: "RXRX" },
   { company: "Rivian", form: "8-K", date: "2026-07-02", description: "rivn-20260702.htm", isIPO: false, ticker: "RIVN" },
-  { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936927.xml", isIPO: false, ticker: "SMR" },
-  { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936870.xml", isIPO: false, ticker: "SMR" },
-  { company: "NuScale Power", form: "4", date: "2026-07-01", description: "xslF345X06/wk-form4_1782936799.xml", isIPO: false, ticker: "SMR" },
 ];

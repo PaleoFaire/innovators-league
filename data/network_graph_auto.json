@@ -4821,6 +4821,76 @@
       "thesisCluster": ""
     },
     {
+      "id": "Singularity",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Traysar",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Walden Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TerraFirma",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Blue Energy",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Rebellions",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "UFORCE",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Eclipse Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Gritt",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "INTALUS",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Oxide Computer Company",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TrustPoint",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ForSight Robotics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Atoms",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -10140,6 +10210,11 @@
       "type": "alumni"
     },
     {
+      "src": "SpaceX-alumni-hub",
+      "dst": "Eclipse Space",
+      "type": "alumni"
+    },
+    {
       "src": "OpenAI-alumni-hub",
       "dst": "Blackstar",
       "type": "alumni"
@@ -10161,10 +10236,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 969,
-    "total_edges": 914,
+    "total_nodes": 983,
+    "total_edges": 915,
     "competitor_edges": 166,
     "thesis_edges": 742,
-    "alumni_edges": 6
+    "alumni_edges": 7
   }
 }

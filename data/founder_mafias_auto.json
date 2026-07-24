@@ -110,7 +110,7 @@
   },
   {
     "mafia": "SpaceX Mafia",
-    "count": 13,
+    "count": 15,
     "companies": [
       {
         "company": "Plantd Materials",
@@ -189,9 +189,21 @@
         "sector": "Space & Aerospace",
         "totalRaised": "Undisclosed",
         "valuation": ""
+      },
+      {
+        "company": "TerraFirma",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$115M",
+        "valuation": "Undisclosed"
+      },
+      {
+        "company": "Eclipse Space",
+        "sector": "Space & Aerospace",
+        "totalRaised": "Undisclosed",
+        "valuation": "Undisclosed"
       }
     ],
-    "description": "13 companies with founding-team links to SpaceX."
+    "description": "15 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Google/DeepMind",

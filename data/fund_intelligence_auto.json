@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-23T08:37:17.657437Z",
+  "generated_at": "2026-07-24T08:33:40.048883Z",
   "platform": {
-    "companiesTracked": 964,
+    "companiesTracked": 978,
     "sectorsMonitored": 19,
-    "totalCapitalRaisedTracked": "$457.0B",
-    "totalValuationTracked": "$1126.7B",
-    "companiesWithValuation": 106,
+    "totalCapitalRaisedTracked": "$470.9B",
+    "totalValuationTracked": "$1131.6B",
+    "companiesWithValuation": 110,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
-    "dealsTracked": 290,
-    "newsItemsTracked": 22,
-    "dataPointsUpdated": "38,560+"
+    "dealsTracked": 292,
+    "newsItemsTracked": 24,
+    "dataPointsUpdated": "39,120+"
   },
   "topFunds": [
     {
@@ -47,9 +47,10 @@
     },
     {
       "fund": "a16z",
-      "portfolio_count": 10,
+      "portfolio_count": 11,
       "companies": [
         "Amca",
+        "Atoms",
         "Black Forest Labs",
         "CX2 Industries",
         "Galadyne",
@@ -57,13 +58,12 @@
         "Mara",
         "Periodic Labs",
         "Senra Systems",
-        "Ulysses Robotics",
-        "Westmag"
+        "Ulysses Robotics"
       ]
     },
     {
       "fund": "Lux Capital",
-      "portfolio_count": 9,
+      "portfolio_count": 10,
       "companies": [
         "Cognichip",
         "Deep Sentinel",
@@ -73,17 +73,19 @@
         "Lumaril",
         "Performance Drone Works",
         "Terra Industries",
-        "Terrahaptix"
+        "Terrahaptix",
+        "Traysar"
       ]
     },
     {
       "fund": "Khosla Ventures",
-      "portfolio_count": 7,
+      "portfolio_count": 8,
       "companies": [
         "Caelux",
         "Foundry Robotics",
         "Nomagic",
         "Sagence",
+        "Singularity",
         "Spiritus",
         "Varda Space Industries",
         "Windborne"
@@ -177,6 +179,15 @@
       ]
     },
     {
+      "fund": "Kleiner Perkins",
+      "portfolio_count": 3,
+      "companies": [
+        "Cartesia",
+        "TerraFirma",
+        "Together AI"
+      ]
+    },
+    {
       "fund": "Craft Ventures",
       "portfolio_count": 2,
       "companies": [
@@ -223,24 +234,16 @@
         "Agile Robots",
         "Wayve"
       ]
-    },
-    {
-      "fund": "Benchmark",
-      "portfolio_count": 2,
-      "companies": [
-        "Kipu Quantum",
-        "Starcloud"
-      ]
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 166,
-    "Defense & Security": 150,
+    "Space & Aerospace": 168,
+    "Defense & Security": 153,
+    "Robotics & Manufacturing": 140,
     "Climate & Energy": 140,
-    "Robotics & Manufacturing": 135,
-    "Chips & Semiconductors": 71,
-    "Biotech & Health": 69,
-    "Nuclear Energy": 54,
+    "Chips & Semiconductors": 73,
+    "Biotech & Health": 70,
+    "Nuclear Energy": 55,
     "Quantum Computing": 45,
     "AI & Software": 35,
     "Drones & Autonomous": 33,
