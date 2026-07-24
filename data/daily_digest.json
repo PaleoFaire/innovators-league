@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T00:07:23.348343+00:00",
+  "generatedAt": "2026-07-24T03:36:57.936102+00:00",
   "date": "2026-07-24",
   "dateDisplay": "Friday, July 24, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 508000.0,
-        "changePercent": 18.14,
-        "change": 78000.0
-      },
-      {
         "ticker": "TSLA",
         "company": "Tesla",
-        "price": 320.49,
-        "changePercent": -18.05,
-        "change": -70.57
+        "price": 319.69,
+        "changePercent": -18.25,
+        "change": -71.37
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 8.83,
-        "changePercent": 15.58,
-        "change": 1.19
+        "price": 8.81,
+        "changePercent": 15.31,
+        "change": 1.17
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 45.61,
-        "changePercent": -14.89,
-        "change": -7.98
+        "price": 46.01,
+        "changePercent": -14.14,
+        "change": -7.58
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 5.12,
-        "changePercent": 14.14,
-        "change": 0.63
+        "price": 5.11,
+        "changePercent": 13.81,
+        "change": 0.62
       },
       {
         "ticker": "QS",
         "company": "QuantumScape",
-        "price": 5.17,
-        "changePercent": -12.36,
-        "change": -0.73
+        "price": 5.12,
+        "changePercent": -13.38,
+        "change": -0.79
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 431500.0,
+        "changePercent": 8.69,
+        "change": 34500.0
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 2.15,
+        "changePercent": -8.51,
+        "change": -0.2
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 122.38,
-        "changePercent": -8.97,
-        "change": -12.06
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 59.08,
-        "changePercent": 7.4,
-        "change": 4.07
+        "price": 123.37,
+        "changePercent": -8.23,
+        "change": -11.07
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "277810.KQ +18.1%"
+    "topMover": "TSLA -18.2%"
   }
 }
