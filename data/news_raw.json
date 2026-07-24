@@ -1,5 +1,106 @@
 [
   {
+    "title": "Anthropic Opus 5 Built ISS Tracker",
+    "link": "https://www.nextbigfuture.com/2026/07/anthropic-opus-5-built-iss-tracker.html",
+    "description": "Anthropic Opus 5 was asked to build an ISS space station tracker and the UI and technical capabilities were good. The position matched a commercial site tracking the ISS. Dan Shipper breaks down where it struggled, why complex skills can make it stop early, and the counterintuitive setting that impr",
+    "pubDate": "Fri, 24 Jul 2026 18:59:24 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "ai",
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+    "link": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+    "description": "AI coding startup Cognition has acquired Poke, the AI assistant you text like a friend, in a deal valuing the startup in the low nine figures. The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistant",
+    "pubDate": "Fri, 24 Jul 2026 18:07:32 +0000",
+    "category": "TC",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Cognition",
+    "matchedCompanies": [
+      "Cognition",
+      "Anysphere"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models",
+    "link": "https://www.wired.com/story/uncanny-valley-podcast/",
+    "description": "On this episode of Uncanny Valley, we dive into accusations that China’s Moonshot AI stole from  Anthropic, and how the US Army needs to cut back on AI use.",
+    "pubDate": "Fri, 24 Jul 2026 17:53:01 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Anthropic launches Opus 5",
+    "link": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+    "description": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
+    "pubDate": "Fri, 24 Jul 2026 17:00:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "2h ago"
+  },
+  {
+    "title": "OpenAI&#8217;s own model went rogue before Kimi had Wall Street sweating",
+    "link": "https://techcrunch.com/video/openais-own-model-went-rogue-before-kimi-had-wall-street-sweating/",
+    "description": "Chinese AI lab Moonshot&#8217;s&#160;open model Kimi went viral this week&#160;for reasons that had less to do with the model itself and more to do with&#160;how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to ",
+    "pubDate": "Fri, 24 Jul 2026 16:50:08 +0000",
+    "category": "",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Dust"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis",
     "link": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
     "description": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Mississippi. The annex to a reimbursable Space Act Agreement signed earlier this month",
@@ -16,7 +117,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
@@ -35,7 +136,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "7h ago"
   },
   {
     "title": "OpenAI GPT 6 Escaped Sandbox to Hack HuggingFace, Chinese Model Used to Investigate",
@@ -55,7 +156,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
@@ -75,7 +176,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "20h ago"
+    "time": "22h ago"
   },
   {
     "title": "SpaceX Starship Flight 13 Pushed to Friday Because of Weather",
@@ -96,7 +197,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "21h ago"
+    "time": "23h ago"
   },
   {
     "title": "PageMind raises €1.2M to scale AI for e-commerce product discovery",
@@ -153,7 +254,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Vast establishes division for national security projects",
