@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -6.6,
+      "avg_change": -7.15,
       "count": 1
     },
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.44,
+      "avg_change": -3.57,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.25,
+      "avg_change": -0.35,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.18,
+      "avg_change": -0.01,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -8.22,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -9.11,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.82,
+      "avg_change": -2.8,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.89,
+      "avg_change": -7.38,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -14.09,
+      "avg_change": -13.53,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.25,
+      "avg_change": 1.1,
       "count": 3
     }
   },
@@ -61,22 +61,22 @@
     [
       "ACHR",
       "Archer Aviation",
-      8.56
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      6.02
-    ],
-    [
-      "AMD",
-      "AMD",
-      5.43
+      7.43
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       5.42
+    ],
+    [
+      "AMD",
+      "AMD",
+      5.28
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      4.79
     ],
     [
       "ASRHF",
@@ -88,28 +88,28 @@
     [
       "RIVN",
       "Rivian",
-      -9.42
+      -9.25
     ],
     [
       "SLDP",
       "Solid Power",
-      -10.17
+      -9.96
     ],
     [
       "QS",
       "QuantumScape",
-      -14.85
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      -17.69
+      -16.64
     ],
     [
       "TSLA",
       "Tesla",
-      -18.77
+      -17.81
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -18.64
     ]
   ],
-  "lastUpdated": "2026-07-24 19:29:43"
+  "lastUpdated": "2026-07-25 02:54:01"
 }
