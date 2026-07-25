@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-24T23:10:20.564394+00:00",
-  "date": "2026-07-24",
-  "dateDisplay": "Friday, July 24, 2026",
+  "generatedAt": "2026-07-25T03:30:42.064807+00:00",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, July 25, 2026",
   "sections": {
     "govActivity": [
       {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "TSLA",
-        "company": "Tesla",
-        "price": 309.36,
-        "changePercent": -18.77,
-        "change": -71.48
-      },
-      {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 43.19,
-        "changePercent": -17.69,
-        "change": -9.28
+        "price": 42.69,
+        "changePercent": -18.64,
+        "change": -9.78
+      },
+      {
+        "ticker": "TSLA",
+        "company": "Tesla",
+        "price": 313.03,
+        "changePercent": -17.81,
+        "change": -67.81
       },
       {
         "ticker": "QS",
         "company": "QuantumScape",
-        "price": 4.99,
-        "changePercent": -14.85,
-        "change": -0.87
+        "price": 4.88,
+        "changePercent": -16.64,
+        "change": -0.98
       },
       {
         "ticker": "SLDP",
         "company": "Solid Power",
         "price": 2.08,
-        "changePercent": -10.17,
+        "changePercent": -9.96,
         "change": -0.23
       },
       {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 15.81,
-        "changePercent": -9.42,
-        "change": -1.64
-      },
-      {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 4.82,
-        "changePercent": 8.56,
-        "change": 0.38
+        "price": 15.84,
+        "changePercent": -9.25,
+        "change": -1.61
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 20.55,
-        "changePercent": -8.52,
-        "change": -1.91
+        "price": 20.47,
+        "changePercent": -8.9,
+        "change": -2.0
+      },
+      {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 4.77,
+        "changePercent": 7.43,
+        "change": 0.33
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 123.64,
-        "changePercent": -6.6,
-        "change": -8.73
+        "price": 122.92,
+        "changePercent": -7.15,
+        "change": -9.46
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TSLA -18.8%"
+    "topMover": "TEM -18.6%"
   }
 }
