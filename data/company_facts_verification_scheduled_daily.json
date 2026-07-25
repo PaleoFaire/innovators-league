@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-24T08:09:07+00:00",
+  "generatedAt": "2026-07-25T07:52:46+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 26,
-  "newExtractionsThisRun": 26,
+  "cohortSize": 29,
+  "newExtractionsThisRun": 29,
   "summary": {
-    "cleared": 23,
+    "cleared": 26,
     "changesProposed": 3,
     "unverifiable": 0
   },
@@ -15,6 +15,8 @@
     "Apptronik",
     "Axiom Space",
     "Cape",
+    "Cognition",
+    "Dawn Aerospace",
     "Deterrence",
     "Dexterity",
     "Durin",
@@ -24,6 +26,7 @@
     "Humanoid",
     "Karman Industries",
     "Mach Industries",
+    "Neura Robotics",
     "Percepto",
     "Quaise Energy",
     "Relativity Space",
@@ -36,33 +39,29 @@
   ],
   "changesProposed": [
     {
-      "name": "Etched",
+      "name": "Blue Origin",
       "current": {
-        "name": "Etched",
-        "founder": "Gavin Uberti, Chris Zhu, Robert Wachen",
-        "location": "Cupertino, CA",
-        "founded": 2022,
-        "fundingStage": "Series B",
-        "totalRaised": "$620M+",
-        "website": "https://www.etched.com"
+        "name": "Blue Origin",
+        "founder": "Jeff Bezos",
+        "location": "Kent, Washington, United States",
+        "founded": 2000,
+        "fundingStage": "SPAC",
+        "totalRaised": "$10B+",
+        "website": "https://blueorigin.com"
       },
       "verified": {
-        "name": "Etched",
-        "description": "AI hardware company building frontier inference clusters through co-designed chips, racks, and software. The company has developed Low Voltage Inference and Cluster Scale Memory technologies for efficient inference workloads.",
+        "name": "Blue Origin",
+        "description": "Private American space technology company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and is developing the Blue Moon human lunar lander for NASA's Artemis program.",
         "founders": [
-          "Gavin Uberti",
-          "Robert Wachen",
-          "Chris Zhu"
+          "Jeff Bezos"
         ],
-        "location": "San Jose, CA",
-        "founded_year": null,
-        "current_stage": "Series C",
-        "total_raised": "$10.3B",
-        "valuation": "$10.3B",
-        "investors": [
-          "VentureTech Alliance"
-        ],
-        "website": "https://www.etched.com",
+        "location": "Kent, Washington, United States",
+        "founded_year": 2000,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://blueorigin.com",
         "sources_per_field": {
           "name": [
             0
@@ -76,45 +75,23 @@
           "location": [
             0
           ],
+          "founded_year": [
+            0
+          ],
           "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
             0
           ],
           "website": [
             0
           ]
         },
-        "notes": "Source [0] states 'We've raised $800M across four unannounced financings' but also announces '$10.3B Series C financing' at top of page, indicating recent Series C. Source [2] confirms $10.3B valuation and describes founders as 'three Harvard dropouts.' Location identified as San Jose from Source [0] mention of 'San Jose office' with factory and data center. Founded year cannot be verified from provided sources."
+        "notes": "Wikipedia lists company as 'Private' not 'SPAC' as in database entry. No total_raised, valuation, or specific investor information found in sources. Current CEO is Dave Limp (as of September 2023)."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Cupertino, CA",
-          "verified": "San Jose, CA",
-          "sources": [
-            0
-          ]
-        },
-        {
           "field": "fundingStage",
-          "current": "Series B",
-          "verified": "Series C",
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$620M+",
-          "verified": "$10.3B",
+          "current": "SPAC",
+          "verified": "Private",
           "sources": [
             0
           ]
@@ -123,26 +100,16 @@
       "sources": [
         {
           "idx": 0,
-          "src": "company_website",
-          "url": "https://www.etched.com"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_Origin"
         },
         {
           "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Etched"
-        },
-        {
-          "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
-        },
-        {
-          "idx": 3,
-          "src": "sec_form_d",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002144879&type=D&dateb=&owner=include&count=10"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/"
         }
       ],
-      "notes": "Source [0] states 'We've raised $800M across four unannounced financings' but also announces '$10.3B Series C financing' at top of page, indicating recent Series C. Source [2] confirms $10.3B valuation and describes founders as 'three Harvard dropouts.' Location identified as San Jose from Source [0] mention of 'San Jose office' with factory and data center. Founded year cannot be verified from provided sources."
+      "notes": "Wikipedia lists company as 'Private' not 'SPAC' as in database entry. No total_raised, valuation, or specific investor information found in sources. Current CEO is Dave Limp (as of September 2023)."
     },
     {
       "name": "Scale AI",
@@ -157,7 +124,7 @@
       },
       "verified": {
         "name": "Scale AI",
-        "description": "American artificial intelligence infrastructure and software company offering data annotation, RLHF services, large language model evaluation, and enterprise software suites to build and deploy AI applications.",
+        "description": "An artificial intelligence infrastructure and software company that provides high-quality training data, RLHF services, LLM evaluation, and enterprise software suites to build and deploy AI applications.",
         "founders": [
           "Alexandr Wang",
           "Lucy Guo"
@@ -168,13 +135,14 @@
         "total_raised": null,
         "valuation": "$29B",
         "investors": [
-          "Meta Platforms",
+          "Meta",
           "Accel",
           "Founders Fund",
           "Index Ventures",
           "Tiger Global",
           "Coatue",
           "Dragoneer",
+          "Greenoaks",
           "Amazon"
         ],
         "website": "https://scale.com",
@@ -214,7 +182,7 @@
             2
           ]
         },
-        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Source [3] is about a different company (PageMind) and was not used."
+        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced by Jason Droege as CEO. Company remains independent. Lucy Guo was fired in 2018 but is listed as co-founder."
       },
       "changes": [
         {
@@ -249,7 +217,7 @@
           "url": "https://tech.eu/2026/07/23/pagemind-raises-eur12m-to-scale-ai-for-e-commerce-product-discovery/"
         }
       ],
-      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder and former CEO Alexandr Wang joined Meta as part of the deal and was replaced by Jason Droege as CEO. Source [3] is about a different company (PageMind) and was not used."
+      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced by Jason Droege as CEO. Company remains independent. Lucy Guo was fired in 2018 but is listed as co-founder."
     },
     {
       "name": "SpaceX",
@@ -264,7 +232,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -306,7 +274,7 @@
             0
           ]
         },
-        "notes": "IPO occurred June 12, 2026. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. owns 6% equity according to Wikipedia. Database entry claims $1.5T IPO valuation and $1.65T current valuation, but no specific valuation figure found in provided sources; IPO raised $86B per Wikipedia."
+        "notes": "SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. As of May 2026, Falcon 9 launches averaged approximately three missions per week with nearly 650 booster landings and reflights completed. No valuation figure could be verified from sources provided; database entry claims $1.65T but this is not supported by the Wikipedia article which does not state a current valuation."
       },
       "changes": [
         {
@@ -327,20 +295,20 @@
         {
           "idx": 1,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-flight-13-pushed-to-friday-because-of-weather.html"
+          "url": "https://www.nextbigfuture.com/2026/07/miracle-survival-spacex-starship-13.html"
         },
         {
           "idx": 2,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-conducts-13th-starship-test-flight/"
         },
         {
           "idx": 3,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-should-be-able-to-try-to-launch-starship-tomorrow.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-returns-intact.html"
         }
       ],
-      "notes": "IPO occurred June 12, 2026. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. owns 6% equity according to Wikipedia. Database entry claims $1.5T IPO valuation and $1.65T current valuation, but no specific valuation figure found in provided sources; IPO raised $86B per Wikipedia."
+      "notes": "SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. As of May 2026, Falcon 9 launches averaged approximately three missions per week with nearly 650 booster landings and reflights completed. No valuation figure could be verified from sources provided; database entry claims $1.65T but this is not supported by the Wikipedia article which does not state a current valuation."
     }
   ],
   "unverifiable": []
