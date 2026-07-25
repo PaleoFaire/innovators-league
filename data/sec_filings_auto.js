@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-24 08:32:13 UTC
+// Last updated: 2026-07-25 08:11:21 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-07-24", description: "xslF345X06/wk-form4_1784937605.xml", isIPO: false, ticker: "PLTR" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-07-24", description: "qbts-20260724.htm", isIPO: false, ticker: "QBTS" },
   { company: "BlackSky Technology", form: "DEF 14A", date: "2026-07-23", description: "bksy-20260723.htm", isIPO: false, ticker: "BKSY" },
   { company: "Momentus", form: "8-K", date: "2026-07-23", description: "tm2621205d1_8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "Satellogic", form: "8-K", date: "2026-07-23", description: "ea0299090-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783026949.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783026941.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Rivian", form: "8-K", date: "2026-07-02", description: "rivn-20260702.htm", isIPO: false, ticker: "RIVN" },
 ];

@@ -3,6 +3,15 @@
     "company": "Palantir Technologies",
     "ticker": "PLTR",
     "form": "4",
+    "date": "2026-07-24",
+    "description": "xslF345X06/wk-form4_1784937605.xml",
+    "accessionNumber": "0001705189-26-000013",
+    "isIPO": false
+  },
+  {
+    "company": "Palantir Technologies",
+    "ticker": "PLTR",
+    "form": "4",
     "date": "2026-07-17",
     "description": "xslF345X06/wk-form4_1784333024.xml",
     "accessionNumber": "0001823952-26-000018",
@@ -267,15 +276,6 @@
     "date": "2026-02-24",
     "description": "xslF345X05/wk-form4_1771981764.xml",
     "accessionNumber": "0001823920-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "4",
-    "date": "2026-02-24",
-    "description": "xslF345X05/wk-form4_1771981719.xml",
-    "accessionNumber": "0001823951-26-000006",
     "isIPO": false
   },
   {
@@ -834,15 +834,6 @@
     "date": "2026-04-02",
     "description": "xslF345X06/ownership.xml",
     "accessionNumber": "0001493152-26-015012",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-03-26",
-    "description": "xslF345X06/ownership.xml",
-    "accessionNumber": "0001493152-26-013026",
     "isIPO": false
   },
   {
@@ -5294,6 +5285,15 @@
   {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-07-24",
+    "description": "qbts-20260724.htm",
+    "accessionNumber": "0001907982-26-000109",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "4",
     "date": "2026-07-21",
     "description": "xslF345X06/wk-form4_1784671121.xml",
@@ -5604,42 +5604,6 @@
     "date": "2026-05-14",
     "description": "xslF345X06/wk-form4_1778793189.xml",
     "accessionNumber": "0002129321-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-05-14",
-    "description": "xslF345X06/wk-form4_1778793093.xml",
-    "accessionNumber": "0001098231-26-000009",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-05-13",
-    "description": "qbts-20260512.htm",
-    "accessionNumber": "0001907982-26-000061",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "10-Q",
-    "date": "2026-05-12",
-    "description": "qbts-20260331.htm",
-    "accessionNumber": "0001907982-26-000059",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-05-12",
-    "description": "qbts-20260512.htm",
-    "accessionNumber": "0001907982-26-000057",
     "isIPO": false
   },
   {
@@ -9699,15 +9663,6 @@
     "date": "2025-08-14",
     "description": "ea0252027-10q_zoomcar.htm",
     "accessionNumber": "0001213900-25-076590",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2025-08-08",
-    "description": "ea0252461-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-25-073658",
     "isIPO": false
   }
 ]
