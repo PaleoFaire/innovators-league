@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T06:26:12+00:00",
+  "generatedAt": "2026-07-25T09:06:41+00:00",
   "matrix": {
     "space-launch-small-intl": {
       "2026-Q3": {
@@ -965,9 +965,9 @@
         ]
       },
       "2026-Q3": {
-        "deals": 1,
+        "deals": 2,
         "totalSold": null,
-        "companiesWithUnknownAmount": 1,
+        "companiesWithUnknownAmount": 2,
         "companies": [
           {
             "name": "RobCo",
@@ -984,6 +984,19 @@
               "Leitmotif",
               "The Friedkin Group",
               "Torsten Reil"
+            ]
+          },
+          {
+            "name": "Orangewood Labs",
+            "amount": null,
+            "date": "2026-07",
+            "source": "recentEvent",
+            "investors": [
+              "Y Combinator",
+              "7percent Ventures",
+              "Schox Ventures",
+              "VentureSouq",
+              "KSK Angel Fund"
             ]
           }
         ],
@@ -1042,27 +1055,6 @@
           "Lux Capital",
           "Sequoia Capital"
         ]
-      },
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Orangewood Labs",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Y Combinator",
-              "7percent Ventures",
-              "Schox Ventures",
-              "VentureSouq",
-              "KSK Angel Fund"
-            ]
-          }
-        ],
-        "investors": []
       }
     },
     "autonomy-delivery-logistics": {
