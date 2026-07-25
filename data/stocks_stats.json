@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.57,
+      "avg_change": -3.42,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.35,
+      "avg_change": -0.16,
       "count": 7
     },
     "nuclear": {
@@ -81,7 +81,7 @@
     [
       "ASRHF",
       "Astroscale",
-      2.13
+      3.2
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -18.64
     ]
   ],
-  "lastUpdated": "2026-07-25 02:54:01"
+  "lastUpdated": "2026-07-25 08:11:05"
 }
