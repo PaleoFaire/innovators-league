@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-07-24 09:13:40 UTC
+// Last updated: 2026-07-25 08:53:39 UTC
 const ARXIV_PAPERS = [
   { id: "2607.21577v1", title: "Synthetic data generation framework for quality control automation in gravure printing", category: "Artificial Intelligence", published: "2026-07-23", sectors: "ai", authors: "Korota Arsène Coulibaly, Mohamed Hamlich, Khalid Hmali et al." },
   { id: "2607.21558v1", title: "Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning", category: "Artificial Intelligence", published: "2026-07-23", sectors: "ai", authors: "Baihui Wang, Bernard Koch" },
