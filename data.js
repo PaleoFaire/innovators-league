@@ -81077,21 +81077,21 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-25 15:12
+// Last updated: 2026-07-25 17:09
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days", source: "Wired", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Miracle Survival SpaceX Starship 13", source: "Next Big Future", time: "11h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX conducts 13th Starship test flight", source: "SpaceNews", time: "14h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Returns Intact", source: "Next Big Future", time: "14h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "I tried out OpenAI's new AI keypad ' which will be fun for some coders and slightly mystifying to everyone else", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX launches new V3 Starlink satellites but suffers another booster failure", source: "TechCrunch", time: "15h ago", impact: "medium", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Mission Was Perfect", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Anthropic", headline: "Anthropic Opus 5 Built ISS Tracker", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Cognition", headline: "Why Cognition bought Poke: AI personality is becoming a competitive advantage", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "China-US AI Race Escalates, OpenAI Models Break Free, and Why You Should Check Your Car Alarm", source: "Wired", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Anthropic", headline: "Anthropic launches Opus 5", source: "TechCrunch", time: "22h ago", impact: "medium", unread: false },
-  { id: 13, type: "milestone", company: "OpenAI", headline: "OpenAI's own model went rogue before Kimi had Wall Street sweating", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days", source: "Wired", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Miracle Survival SpaceX Starship 13", source: "Next Big Future", time: "13h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX conducts 13th Starship test flight", source: "SpaceNews", time: "16h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Returns Intact", source: "Next Big Future", time: "16h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "I tried out OpenAI's new AI keypad ' which will be fun for some coders and slightly mystifying to everyone else", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX launches new V3 Starlink satellites but suffers another booster failure", source: "TechCrunch", time: "17h ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Mission Was Perfect", source: "Next Big Future", time: "18h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Anthropic", headline: "Anthropic Opus 5 Built ISS Tracker", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Cognition", headline: "Why Cognition bought Poke: AI personality is becoming a competitive advantage", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "China-US AI Race Escalates, OpenAI Models Break Free, and Why You Should Check Your Car Alarm", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Anthropic", headline: "Anthropic launches Opus 5", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
+  { id: 13, type: "milestone", company: "OpenAI", headline: "OpenAI's own model went rogue before Kimi had Wall Street sweating", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Neura Robotics", headline: "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 15, type: "ipo", company: "OpenAI", headline: "OpenAI GPT 6 Escaped Sandbox to Hack HuggingFace, Chinese Model Used to Investigate", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
