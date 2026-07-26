@@ -82459,12 +82459,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-26 19:23
+// Last updated: 2026-07-26 21:05
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "OpenAI", headline: "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "OpenAI", headline: "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days", source: "Wired", time: "1d ago", impact: "low", unread: false },
