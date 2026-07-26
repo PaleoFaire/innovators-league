@@ -1,70 +1,11 @@
 {
-  "generatedAt": "2026-07-19T10:24:53+00:00",
+  "generatedAt": "2026-07-26T10:42:17+00:00",
   "model": "claude-haiku-4-5",
-  "rosterSize": 1771,
+  "rosterSize": 1686,
   "rawItemsConsidered": 94,
   "newExtractionsThisRun": 94,
-  "uniqueCandidates": 28,
+  "uniqueCandidates": 31,
   "candidates": [
-    {
-      "name": "Legora",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20Product: Inside Legora's Tech Stack: Why Token Maxing is Failing Enterprise Startups with Jacob Lauritzen, CTO @ Legora",
-          "url": "https://thetwentyminutevc.libsyn.com/20productinside-legoras-tech-stack-why-token-maxing-is-failing-enterprise-startups-with-jacob-lauritzen-cto-legora",
-          "date": "Sat, 06 Jun 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        },
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
-          "url": "https://allinchamathjason.libsyn.com/the-trillion-dollar-industries-ai-is-disrupting-voice-law-the-end-of-the-billable-hour",
-          "date": "Mon, 13 Jul 2026 22:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "20VC",
-        "All-In"
-      ],
-      "sourceCount": 2,
-      "multiSource": true,
-      "description": "B2B enterprise software company focused on optimizing AI token usage and computational efficiency for large language models."
-    },
-    {
-      "name": "Walden Robotics",
-      "discoveries": [
-        {
-          "source": "Not Boring (Packy McCormick)",
-          "host": "",
-          "title": "Weekly Dose of Optimism #202",
-          "url": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
-          "date": "Fri, 17 Jul 2026 11:43:07 GMT",
-          "kind": "newsletter_article"
-        }
-      ],
-      "sectors": [
-        "Robotics & Manufacturing"
-      ],
-      "founders": [],
-      "stealthSignal": true,
-      "confidence": "high",
-      "sources": [
-        "Not Boring (Packy McCormick)"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A robotics company that emerged from stealth with significant funding, focused on building humanoid or general-purpose robots."
-    },
     {
       "name": "Bloom Energy",
       "discoveries": [
@@ -90,7 +31,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Distributed power generation company supplying electricity infrastructure to AI data centers and other enterprises."
+      "description": "Distributed power generation company supplying electricity infrastructure to AI data centers and other industrial customers."
+    },
+    {
+      "name": "Bluecore Energy",
+      "discoveries": [
+        {
+          "source": "TechCrunch \u00b7 Venture",
+          "host": "",
+          "title": "Bluecore Energy raises $10M to build portable nuclear reactors on barges",
+          "url": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/",
+          "date": "Tue, 21 Jul 2026 13:20:00 +0000",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "Nuclear Energy"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "TechCrunch \u00b7 Venture"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Develops portable nuclear reactors that can be deployed on barges for distributed maritime and remote energy generation."
+    },
+    {
+      "name": "CloudWalk",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "Inside Travis Kalanick\u2019s Wild New AI Company",
+          "url": "https://share.transistor.fm/s/9736f886",
+          "date": "Wed, 22 Jul 2026 14:00:20 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Travis Kalanick"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Industrial AI company focused on autonomous systems and robotics applications including mining automation and food production optimization."
     },
     {
       "name": "Coherence",
@@ -117,7 +110,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops implantable devices that track and treat cancer tumors with precision monitoring and treatment delivery."
+      "description": "Develops implantable devices that track and treat cancer tumors with precision monitoring and targeted intervention."
+    },
+    {
+      "name": "Curative",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
+          "date": "Sat, 18 Jul 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [
+        "Fred Turner"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Scaled from COVID testing operations to a unicorn health insurance business."
+    },
+    {
+      "name": "ElevenLabs",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+          "url": "https://allinchamathjason.libsyn.com/the-trillion-dollar-industries-ai-is-disrupting-voice-law-the-end-of-the-billable-hour",
+          "date": "Mon, 13 Jul 2026 22:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI voice generation and synthesis platform with $600M ARR and 600 employees, competing in voice technology against OpenAI and Anthropic."
     },
     {
       "name": "Factory",
@@ -144,7 +189,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI research lab building autonomous software engineering capabilities to enable developers to write and maintain code at scale."
+      "description": "An AI research lab bringing autonomy to software engineering through autonomous AI agents."
+    },
+    {
+      "name": "Fireworks",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
+          "date": "Thu, 23 Jul 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI infrastructure company that raised $1.5B, focusing on enabling AI applications and model deployment."
+    },
+    {
+      "name": "Fireworks AI",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Are OpenAI and Anthropic Overvalued? The Open-Source AI Reality | How Token Costs Will Fall 10x And Usage Will Explode 100x | The Future Is Not One AGI; It's Millions of Specialised Models with ",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-are-openai-and-anthropic-overvalued-the-open-source-ai-reality-how-token-costs-will-fall-10x-and-usage-will-explode-100x-the-future-is-not-one-agi-its-millions-of-specialised-models-with-lin-qiao-founder-and-ceo-fireworks",
+          "date": "Mon, 20 Jul 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Lin Qiao"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Specialized intelligence and AI inference platform enabling efficient deployment and optimization of language models."
     },
     {
       "name": "Glean",
@@ -171,17 +268,42 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Enterprise AI platform that leverages proprietary data to power intelligent workplace applications."
+      "description": "Enterprise AI platform that leverages organizational data to provide intelligent search and insights across company information systems."
     },
     {
-      "name": "Nebius",
+      "name": "Legora",
       "discoveries": [
         {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Nebius Co-Founder on AI Infrastructure Bubbles | The Real Impact of Open Source on OpenAI & Anthropic | How Price Elastic is Demand for Compute | Could Nebius Sell 10x More Compute If They Had I",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-nebius-co-founder-on-ai-infrastructure-bubbles-the-real-impact-of-open-source-on-openai-anthropic-how-price-elastic-is-demand-for-compute-could-nebius-sell-10x-more-compute-if-they-had-it-more-with-roman-chernin",
-          "date": "Mon, 08 Jun 2026 07:07:00 +0000",
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+          "url": "https://allinchamathjason.libsyn.com/the-trillion-dollar-industries-ai-is-disrupting-voice-law-the-end-of-the-billable-hour",
+          "date": "Mon, 13 Jul 2026 22:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Hypergrowth legal AI startup using narrow AI models to disrupt traditional law firms and challenge the billable hour model."
+    },
+    {
+      "name": "Lovable",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+          "url": "https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding",
+          "date": "Wed, 15 Jul 2026 20:55:00 +0000",
           "kind": "podcast_episode"
         }
       ],
@@ -189,8 +311,33 @@
         "AI & Compute"
       ],
       "founders": [
-        "Roman Chernin"
+        "Anton Osika"
       ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI-powered platform enabling rapid application development at scale, positioning itself to dramatically reduce software builder costs."
+    },
+    {
+      "name": "Mercor",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
+          "date": "Sat, 25 Jul 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
       "stealthSignal": false,
       "confidence": "high",
       "sources": [
@@ -198,7 +345,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI infrastructure company operating large-scale compute clusters serving AI labs, enterprises, and developers globally."
+      "description": "AI-training and expert-data marketplace that powers frontier-model development, with $2BN ARR as of June."
     },
     {
       "name": "Nous Research",
@@ -223,32 +370,34 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI company developing Hermes agents for autonomous task execution and reasoning."
+      "description": "AI company building Hermes agents for autonomous task execution and reasoning."
     },
     {
-      "name": "Oratomic",
+      "name": "Odyssey",
       "discoveries": [
         {
-          "source": "Core Memory (Ashlee Vance)",
-          "host": "",
-          "title": "Quantum Everything Explained - EP 81 Prineha Narang",
-          "url": "https://www.corememory.com/p/quantum-everything-explained-ep-81",
-          "date": "Wed, 08 Jul 2026 15:16:16 GMT",
-          "kind": "newsletter_article"
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "AMD CEO Lisa Su Live on TBPN | Oliver Cameron, Mohammad Norouzi, Anjney Midha, Lisa Su",
+          "url": "https://share.transistor.fm/s/c0a83c4d",
+          "date": "Thu, 23 Jul 2026 14:16:09 -0700",
+          "kind": "podcast_episode"
         }
       ],
       "sectors": [
-        "Quantum Computing"
+        "AI & Compute"
       ],
-      "founders": [],
+      "founders": [
+        "Oliver Cameron"
+      ],
       "stealthSignal": false,
       "confidence": "high",
       "sources": [
-        "Core Memory (Ashlee Vance)"
+        "TBPN"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Caltech spinout focused on neutral atom quantum computing technology."
+      "description": "Develops foundational world models\u2014AI systems capable of understanding physics, causality, and human behavior for robotics, gaming, and autonomous vehicles."
     },
     {
       "name": "Perplexity",
@@ -275,7 +424,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Fast-growing AI company that has tripled revenue to $500M+ ARR and is disrupting search through AI-powered answers."
+      "description": "AI-powered search and information retrieval company that has significantly disrupted traditional search with conversational interfaces."
     },
     {
       "name": "Science Corp",
@@ -302,7 +451,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Biotech company developing technology to restore vision in the blind and working on organ transplant and life extension product lines."
+      "description": "Biotech company developing technology to restore vision in the blind and working on organ transplant and life extension products."
     },
     {
       "name": "Sierra",
@@ -329,7 +478,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Enterprise AI company providing forward-deployed AI solutions for Fortune 50 companies, focused on customer-facing applications."
+      "description": "Enterprise AI company that deploys forward-engineered AI agents for Fortune 50 companies, with $150M+ ARR."
     },
     {
       "name": "Thinking Machines",
@@ -354,32 +503,34 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI company launching its first frontier model."
+      "description": "An AI company launching their first model, appearing to be early-stage or newly public."
     },
     {
-      "name": "Aktis Oncology",
+      "name": "Augustus Bank",
       "discoveries": [
         {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-          "url": "https://allinchamathjason.libsyn.com/all-ins-best-ideas-pitch-competition-4-investors-present-their-top-trades-live",
-          "date": "Fri, 12 Jun 2026 01:25:00 +0000",
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "China's AI Push Sounds Alarms, Airplane Seat Debate, Chris Best Joins | Ferdinand Dabitz, Kaiwei Tang, Steven Schwartz, Katie Roof, Zavain Dar, Chad Edwards",
+          "url": "https://share.transistor.fm/s/025a4d7f",
+          "date": "Tue, 21 Jul 2026 14:00:20 -0700",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
-        "Biotech & Health"
+        "Other"
       ],
-      "founders": [],
+      "founders": [
+        "Ferdinand Dabitz"
+      ],
       "stealthSignal": false,
       "confidence": "medium",
       "sources": [
-        "All-In"
+        "TBPN"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An oncology-focused biotech company developing novel cancer therapeutics."
+      "description": "A fintech company focused on modernizing correspondent banking and dollarization infrastructure globally."
     },
     {
       "name": "Base44",
@@ -404,7 +555,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI application-building platform focused on low-code/no-code development, acquired by Wix."
+      "description": "An AI application-building platform focused on low-code/no-code development that was acquired by Wix."
     },
     {
       "name": "Chip",
@@ -429,7 +580,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An autonomous robot car/vehicle company for mobility or logistics applications."
+      "description": "A robotics company developing autonomous vehicle or robot car technology."
     },
     {
       "name": "CoreWeave",
@@ -454,34 +605,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Infrastructure provider for AI compute, potentially positioned as a compute platform similar to what Meta may be building."
-    },
-    {
-      "name": "Curative",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
-          "date": "Sat, 18 Jul 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [
-        "Fred Turner"
-      ],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A health company that scaled from COVID testing operations to a unicorn-valued health insurance business."
+      "description": "A compute infrastructure provider that appears to be benefiting from Meta's pivot toward providing AI compute services."
     },
     {
       "name": "FOMO",
@@ -496,7 +620,7 @@
         }
       ],
       "sectors": [
-        "AI & Compute"
+        "Other"
       ],
       "founders": [
         "Paul Erlanger"
@@ -508,32 +632,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Social-first trading platform for on-chain investing built on blockchain technology."
-    },
-    {
-      "name": "GEODNET",
-      "discoveries": [
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-          "url": "https://allinchamathjason.libsyn.com/all-ins-best-ideas-pitch-competition-4-investors-present-their-top-trades-live",
-          "date": "Fri, 12 Jun 2026 01:25:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A decentralized network leveraging satellite positioning and geospatial data infrastructure for autonomous systems and location-based services."
+      "description": "A social-first trading platform focused on on-chain investing and decentralized finance."
     },
     {
       "name": "Kalshi",
@@ -558,86 +657,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A prediction market platform valued at $40B, positioning itself for IPO with consumer-focused trading mechanisms."
+      "description": "A prediction market platform that has reached a $40B valuation and is preparing for an IPO."
     },
     {
-      "name": "Lovable",
+      "name": "OpenRouter",
       "discoveries": [
         {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-          "url": "https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding",
-          "date": "Wed, 15 Jul 2026 20:55:00 +0000",
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
+          "date": "Thu, 23 Jul 2026 07:07:00 +0000",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
         "AI & Compute"
-      ],
-      "founders": [
-        "Anton Osika"
-      ],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "AI-powered platform enabling rapid application development through vibe coding, claiming to generate one million new apps per week."
-    },
-    {
-      "name": "Perceptron Inc",
-      "discoveries": [
-        {
-          "source": "Latent Space (swyx)",
-          "host": "",
-          "title": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
-          "url": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
-          "date": "Fri, 10 Jul 2026 06:19:40 GMT",
-          "kind": "newsletter_article"
-        }
-      ],
-      "sectors": [
-        "Robotics & Manufacturing"
       ],
       "founders": [],
       "stealthSignal": false,
       "confidence": "medium",
       "sources": [
-        "Latent Space (swyx)"
+        "20VC"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops embodied AI reasoning and annotation systems for robotics and multimodal applications."
-    },
-    {
-      "name": "Prime Intellect",
-      "discoveries": [
-        {
-          "source": "TBPN",
-          "host": "John Coogan + Jordi Hays",
-          "title": "GPT-5.6 Sol Reactions, Coatue Bets Big on Blue Origin, Cheaper Vision Pro Delayed | Vincent Weisser, Ben Thompson, Rodrigo Liang, Alana Palmedo, Byron Boots, Will Mayer, Tucker Brown",
-          "url": "https://share.transistor.fm/s/bed12620",
-          "date": "Wed, 08 Jul 2026 14:27:33 -0700",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [
-        "Vincent Weisser"
-      ],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "TBPN"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "AI infrastructure or compute company founded by Vincent Weisser, recently announced significant Series funding."
+      "description": "AI routing layer platform that aggregates access to multiple frontier AI models."
     },
     {
       "name": "Rubrik",
@@ -664,57 +709,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Cloud infrastructure company focused on data management and protection that achieved public market status."
-    },
-    {
-      "name": "SambaNova",
-      "discoveries": [
-        {
-          "source": "Newcomer (Eric Newcomer)",
-          "host": "",
-          "title": "Political Risk & Threat Analysis Expertise Are Hot Tickets in Silicon Valley as Trump & AI Shake the World Order",
-          "url": "https://www.newcomer.co/p/political-risk-and-threat-analysis",
-          "date": "Fri, 10 Jul 2026 13:30:09 GMT",
-          "kind": "newsletter_article"
-        }
-      ],
-      "sectors": [
-        "Chips & Semiconductors"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "Newcomer (Eric Newcomer)"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A chipmaker developing semiconductor solutions, likely for AI/compute acceleration."
-    },
-    {
-      "name": "Albion River",
-      "discoveries": [
-        {
-          "source": "Invest Like the Best",
-          "host": "Patrick O'Shaughnessy",
-          "title": "Darren Farber on Iran, China, and the Rise of Neoprimes - [Invest Like the Best, EP.474]",
-          "url": "https://colossus.com/episode/the-new-rules-of-war/",
-          "date": "Tue, 26 May 2026 08:00:00 -0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Defense & Security"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "Invest Like the Best"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A defense-focused investment firm managing capital for frontier-tech startups in the defense sector."
+      "description": "Cloud infrastructure company focused on data management and backup solutions that went public via IPO."
     },
     {
       "name": "Codex Micro",
@@ -740,6 +735,83 @@
       "sourceCount": 1,
       "multiSource": false,
       "description": "A semiconductor or microelectronics company focused on advanced chip design or manufacturing."
+    },
+    {
+      "name": "GEODNET",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+          "url": "https://allinchamathjason.libsyn.com/all-ins-best-ideas-pitch-competition-4-investors-present-their-top-trades-live",
+          "date": "Fri, 12 Jun 2026 01:25:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A decentralized network leveraging distributed computing resources, pitched as a frontier investment opportunity by Multicoin Capital."
+    },
+    {
+      "name": "Ramp",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "HackingFace, White House $5B AI Science Bet, Travis Kalanick Joins | Veeral Patel, Lin Qiao, Jason Fried, Travis Kalanick, Max Hodak",
+          "url": "https://share.transistor.fm/s/e6decec8",
+          "date": "Wed, 22 Jul 2026 13:56:49 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Financial operations platform that developed Ramp Router, an internal tool for optimizing AI model selection and token cost management for enterprises."
+    },
+    {
+      "name": "Travis Kalanick's robotics company",
+      "discoveries": [
+        {
+          "source": "TechCrunch \u00b7 Venture",
+          "host": "",
+          "title": "Travis Kalanick\u2019s robotics company raises $1.7B, led by a16z",
+          "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+          "date": "Wed, 22 Jul 2026 18:50:44 +0000",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "Robotics & Manufacturing"
+      ],
+      "founders": [
+        "Travis Kalanick"
+      ],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TechCrunch \u00b7 Venture"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A robotics startup founded by Uber's former CEO that secured a major funding round from a16z and Uber."
     }
   ]
 }

@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-07-19T10:21:50+00:00",
+  "generatedAt": "2026-07-26T10:39:32+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 5
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 6
     },
     {
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 13
+      "recentItems": 14
     },
     {
       "name": "Construction Physics (Brian Potter)",
       "url": "https://www.construction-physics.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 4
     },
     {
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 0
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
@@ -42,25 +42,25 @@
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 4
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
       "url": "https://brief.bismarckanalysis.com/feed",
       "totalItems": 20,
-      "recentItems": 2
+      "recentItems": 1
     },
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 17,
-      "recentItems": 17
+      "totalItems": 19,
+      "recentItems": 19
     },
     {
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 10
+      "recentItems": 11
     },
     {
       "name": "404 Media",
@@ -87,139 +87,44 @@
       "recentItems": 5
     }
   ],
-  "totalRawSignals": 28,
-  "uniqueCandidateCount": 28,
+  "totalRawSignals": 35,
+  "uniqueCandidateCount": 35,
   "candidates": [
     {
-      "name": "Muse Image",
-      "totalScore": 17.0,
+      "name": "FLUX",
+      "totalScore": 45.9,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Muse Image",
-          "score": 17.0,
-          "frontierTechScore": 6,
-          "mentions": 1,
-          "context": "\u2019s Muse Image/Muse Video push agentic generation into media : Meta Superintelligence Labs launched  Muse Image  and previewed  Muse Video  in announcements from  @AIatMeta ,  @alexandr_wang , and  @_t",
+          "name": "FLUX",
+          "score": 45.9,
+          "frontierTechScore": 4,
+          "mentions": 4,
+          "context": "t wants to build competitive code models without relying on closed ecosystems. Multimodal Frontier: FLUX 3, Robotics Transfer, and New Audio/TTS Systems Black Forest Labs\u2019 FLUX 3 expands the multimoda",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
+          "articleTitle": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+          "articleUrl": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+          "articleDate": "Fri, 24 Jul 2026 04:30:12 GMT"
         }
       ]
     },
     {
-      "name": "Muse Video",
-      "totalScore": 17.0,
+      "name": "Bluecore Energy",
+      "totalScore": 14.0,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Muse Video",
-          "score": 17.0,
-          "frontierTechScore": 6,
-          "mentions": 1,
-          "context": "sh agentic generation into media : Meta Superintelligence Labs launched  Muse Image  and previewed  Muse Video  in announcements from  @AIatMeta ,  @alexandr_wang , and  @_tim_brooks . The notable tec",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Perceptron Egocentric",
-      "totalScore": 15.3,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Perceptron Egocentric",
-          "score": 15.3,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": "ernels and  128k context Robotics, multimodal systems, and AI-for-science @perceptroninc  launched  Perceptron Egocentric , an embodied reasoning/annotation system said to beat pipelines built on  Gem",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
-          "articleUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
-          "articleDate": "Fri, 10 Jul 2026 06:19:40 GMT"
-        }
-      ]
-    },
-    {
-      "name": "AIatMeta",
-      "totalScore": 12.75,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "AIatMeta",
-          "score": 12.75,
-          "frontierTechScore": 6,
-          "mentions": 1,
-          "context": "eta Superintelligence Labs launched  Muse Image  and previewed  Muse Video  in announcements from  @AIatMeta ,  @alexandr_wang , and  @_tim_brooks . The notable technical angle is not just image quali",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
-        }
-      ]
-    },
-    {
-      "name": "MoE",
-      "totalScore": 11.9,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "MoE",
-          "score": 11.9,
+          "name": "Bluecore Energy",
+          "score": 14.0,
           "frontierTechScore": 3,
-          "mentions": 1,
-          "context": " is preserving text intelligence while adding broad audio generation and understanding via a single MoE backbone. Cohere launched  Cohere Transcribe Arabic , described as the most accurate open-source",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Robotics",
-      "totalScore": 11.05,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Robotics",
-          "score": 11.05,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": "ported  Qwen3.6-35B-A3B-NVFP4  at  65 tok/s  on dual B60 with custom SYCL kernels and  128k context Robotics, multimodal systems, and AI-for-science @perceptroninc  launched  Perceptron Egocentric , a",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
-          "articleUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
-          "articleDate": "Fri, 10 Jul 2026 06:19:40 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Arabic ASR",
-      "totalScore": 11.05,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Arabic ASR",
-          "score": 11.05,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": "oE backbone. Cohere launched  Cohere Transcribe Arabic , described as the most accurate open-source Arabic ASR model, under  Apache 2.0 , with emphasis on  dialects ,  code-switching , and  Arabic-acc",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-          "articleUrl": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-          "articleDate": "Wed, 08 Jul 2026 02:20:25 GMT"
+          "mentions": 2,
+          "context": "Bluecore Energy raises $10M to build portable nuclear reactors on barges\nMaritime nuclear energy sta",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Bluecore Energy raises $10M to build portable nuclear reactors on barges",
+          "articleUrl": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/",
+          "articleDate": "Tue, 21 Jul 2026 13:20:00 +0000"
         }
       ]
     },
@@ -262,6 +167,25 @@
       ]
     },
     {
+      "name": "Thinking Machines Lab",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Thinking Machines Lab",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "section of Latent Space . You can  opt in/out  of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundation model famil",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+          "articleUrl": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+          "articleDate": "Thu, 16 Jul 2026 06:18:05 GMT"
+        }
+      ]
+    },
+    {
       "name": "Inkling",
       "totalScore": 10.2,
       "sourceCount": 1,
@@ -281,116 +205,116 @@
       ]
     },
     {
-      "name": "ManusAI",
-      "totalScore": 10.2,
+      "name": "Multimodal Frontier",
+      "totalScore": 9.35,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "ManusAI",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "f  OpenWiki Brains  for proactive memory agents from  @BraceSproul ,  @hwchase17 , and  @colifran_ @ManusAI  launched  Branch , allowing parallel sessions that inherit full context @antigravity  descr",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
-          "articleUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
-          "articleDate": "Fri, 10 Jul 2026 06:19:40 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Branch",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Branch",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " for proactive memory agents from  @BraceSproul ,  @hwchase17 , and  @colifran_ @ManusAI  launched  Branch , allowing parallel sessions that inherit full context @antigravity  described investment in ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
-          "articleUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
-          "articleDate": "Fri, 10 Jul 2026 06:19:40 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Walden Robotics",
-      "totalScore": 9.6,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Walden Robotics",
-          "score": 9.6,
+          "name": "Multimodal Frontier",
+          "score": 9.35,
           "frontierTechScore": 4,
           "mentions": 1,
-          "context": "ular-sized robots can raise money, too, and it seems like they can do more than that. On Wednesday, Walden Robotics came out of stealth with $300 million in seed funding at a $1.1 billion valuation co",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #202",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
-          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
+          "context": "oor for every lab that wants to build competitive code models without relying on closed ecosystems. Multimodal Frontier: FLUX 3, Robotics Transfer, and New Audio/TTS Systems Black Forest Labs\u2019 FLUX 3 ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+          "articleUrl": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+          "articleDate": "Fri, 24 Jul 2026 04:30:12 GMT"
         }
       ]
     },
     {
-      "name": "Seed",
-      "totalScore": 8.1,
+      "name": "Robotics Transfer",
+      "totalScore": 9.35,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Seed",
-          "score": 8.1,
+          "name": "Robotics Transfer",
+          "score": 9.35,
+          "frontierTechScore": 4,
+          "mentions": 1,
+          "context": "to build competitive code models without relying on closed ecosystems. Multimodal Frontier: FLUX 3, Robotics Transfer, and New Audio/TTS Systems Black Forest Labs\u2019 FLUX 3 expands the multimodal fronti",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+          "articleUrl": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+          "articleDate": "Fri, 24 Jul 2026 04:30:12 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Travis Kalanick",
+      "totalScore": 9.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Travis Kalanick",
+          "score": 9.0,
+          "frontierTechScore": 3,
+          "mentions": 2,
+          "context": "Travis Kalanick\u2019s robotics company raises $1.7B, led by a16z\nUber is also investing in Travis Kalani",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Travis Kalanick\u2019s robotics company raises $1.7B, led by a16z",
+          "articleUrl": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+          "articleDate": "Wed, 22 Jul 2026 18:50:44 +0000"
+        }
+      ]
+    },
+    {
+      "name": "AravSrinivas",
+      "totalScore": 7.65,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "AravSrinivas",
+          "score": 7.65,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "and Meta  are all launching new foundation models \u2014 with some designed to compete mainly on price.  Seed valuations  for the  top 5% of startups  have entered the stratosphere. Chipmaker  SambaNova  r",
-          "source": "Newcomer (Eric Newcomer)",
-          "sourceUrl": "https://www.newcomer.co/feed",
-          "articleTitle": "Political Risk & Threat Analysis Expertise Are Hot Tickets in Silicon Valley as Trump & AI Shake the World Order",
-          "articleUrl": "https://www.newcomer.co/p/political-risk-and-threat-analysis",
-          "articleDate": "Fri, 10 Jul 2026 13:30:09 GMT"
+          "context": "xity released a  CLI usable inside any harness , useful for enabling coding agents to use the web  @AravSrinivas . On the vision/robotics side,  @wightmanr  shared a  closed-loop visual servoing demo ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+          "articleUrl": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+          "articleDate": "Sat, 25 Jul 2026 07:25:38 GMT"
         }
       ]
     },
     {
-      "name": "Chipmaker  SambaNova",
-      "totalScore": 8.1,
+      "name": "Model",
+      "totalScore": 7.65,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Chipmaker  SambaNova",
-          "score": 8.1,
+          "name": "Model",
+          "score": 7.65,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "pete mainly on price.  Seed valuations  for the  top 5% of startups  have entered the stratosphere. Chipmaker  SambaNova  rakes in nine figures. A public twitter spat between  USVC  and  Anduril  high",
-          "source": "Newcomer (Eric Newcomer)",
-          "sourceUrl": "https://www.newcomer.co/feed",
-          "articleTitle": "Political Risk & Threat Analysis Expertise Are Hot Tickets in Silicon Valley as Trump & AI Shake the World Order",
-          "articleUrl": "https://www.newcomer.co/p/political-risk-and-threat-analysis",
-          "articleDate": "Fri, 10 Jul 2026 13:30:09 GMT"
+          "context": "ics side,  @wightmanr  shared a  closed-loop visual servoing demo in Python  across two frameworks. Model behavior, identity leakage, and ecosystem comparisons A MATS-associated blogpost tested whethe",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+          "articleUrl": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+          "articleDate": "Sat, 25 Jul 2026 07:25:38 GMT"
         }
       ]
     },
     {
-      "name": "Oratomic",
-      "totalScore": 7.0,
+      "name": "Indians",
+      "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Oratomic",
-          "score": 7.0,
+          "name": "Indians",
+          "score": 7.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "bout  Brex right here . Narang Lab at UCLA:  https://naranglab.ucla.edu DCVC:  https://www.dcvc.com Oratomic (the Caltech neutral atom spinout):  https://www.oratomic.com Atom Computing:  https://atom",
-          "source": "Core Memory (Ashlee Vance)",
-          "sourceUrl": "https://www.corememory.com/feed",
-          "articleTitle": "Quantum Everything Explained - EP 81 Prineha Narang",
-          "articleUrl": "https://www.corememory.com/p/quantum-everything-explained-ep-81",
-          "articleDate": "Wed, 08 Jul 2026 15:16:16 GMT"
+          "context": "India, aside from a few MAGA anon accounts who totally would have launched a rocket to orbit if the Indians hadn\u2019t taken the job.  Chak De, India! \ud83c\uddee\ud83c\uddf3  (4) Science: A New Golden Age Director Michael Kr",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #203",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
+          "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
         }
       ]
     },
@@ -448,6 +372,63 @@
           "articleTitle": "Weekly Dose of Optimism #202",
           "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
           "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Multiple",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Multiple",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "scrutiny, strong anecdotal coding-agent praise, and renewed debate about frontier model evaluation. Multiple tweets explicitly discuss  Claude Opus 5  as a newly launched model and compare it to other",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+          "articleUrl": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+          "articleDate": "Sat, 25 Jul 2026 07:25:38 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Stack",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Stack",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "efense tooling: see  @LoubnaBenAllal1 ,  @lvwerra , and commentary from  @eliebakouch  noting prior Stack versions were used in many disclosed code-model training mixtures. Distillation remains the li",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+          "articleUrl": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+          "articleDate": "Fri, 24 Jul 2026 04:30:12 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Code",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Code",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "loper Tooling and Runtime Infrastructure: Desktop Agents, Sandboxes, and Cloud Orchestration Claude Code gets an iOS simulator loop :  @ClaudeDevs  launched a strong developer experience update:  Clau",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] AI Cybersecurity becomes top of mind",
+          "articleUrl": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+          "articleDate": "Wed, 22 Jul 2026 03:27:29 GMT"
         }
       ]
     },
@@ -566,6 +547,177 @@
       ]
     },
     {
+      "name": "Maritime",
+      "totalScore": 4.5,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Maritime",
+          "score": 4.5,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "Bluecore Energy raises $10M to build portable nuclear reactors on barges\nMaritime nuclear energy startup Bluecore Energy has raised $10 million in a pre-seed funding round l",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Bluecore Energy raises $10M to build portable nuclear reactors on barges",
+          "articleUrl": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/",
+          "articleDate": "Tue, 21 Jul 2026 13:20:00 +0000"
+        }
+      ]
+    },
+    {
+      "name": "Slauson",
+      "totalScore": 4.5,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Slauson",
+          "score": 4.5,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "me nuclear energy startup Bluecore Energy has raised $10 million in a pre-seed funding round led by Slauson & Co.",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Bluecore Energy raises $10M to build portable nuclear reactors on barges",
+          "articleUrl": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/",
+          "articleDate": "Tue, 21 Jul 2026 13:20:00 +0000"
+        }
+      ]
+    },
+    {
+      "name": "Six",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Six",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "minutes. Skyroot\u2019s speed is impressive. India opened its space sector to private companies in 2020. Six years later, a startup founded by former Indian Space Research Organization engineers (ISRO is I",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #203",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
+          "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Indian Space Research",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Indian Space Research",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " opened its space sector to private companies in 2020. Six years later, a startup founded by former Indian Space Research Organization engineers (ISRO is India\u2019s NASA) has joined the very small club o",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #203",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
+          "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Organization",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Organization",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "or to private companies in 2020. Six years later, a startup founded by former Indian Space Research Organization engineers (ISRO is India\u2019s NASA) has joined the very small club of private companies th",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #203",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
+          "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
+        }
+      ]
+    },
+    {
+      "name": "ISRO",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "ISRO",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "in 2020. Six years later, a startup founded by former Indian Space Research Organization engineers (ISRO is India\u2019s NASA) has joined the very small club of private companies that have built a rocket a",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #203",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
+          "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
+        }
+      ]
+    },
+    {
+      "name": "NASA",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "NASA",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "rs later, a startup founded by former Indian Space Research Organization engineers (ISRO is India\u2019s NASA) has joined the very small club of private companies that have built a rocket and put useful pa",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #203",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
+          "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
+        }
+      ]
+    },
+    {
+      "name": "MAGA",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "MAGA",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "pany has done the same. Communism fall hard. Most of the world is happy for India, aside from a few MAGA anon accounts who totally would have launched a rocket to orbit if the Indians hadn\u2019t taken the",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #203",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
+          "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Chak De",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Chak De",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "on accounts who totally would have launched a rocket to orbit if the Indians hadn\u2019t taken the job.  Chak De, India! \ud83c\uddee\ud83c\uddf3  (4) Science: A New Golden Age Director Michael Kratsios On Tuesday, White House ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #203",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
+          "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
+        }
+      ]
+    },
+    {
       "name": "Hermes",
       "totalScore": 3.5,
       "sourceCount": 1,
@@ -600,25 +752,6 @@
           "articleTitle": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
           "articleUrl": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
           "articleDate": "Mon, 13 Jul 2026 23:31:18 +0000"
-        }
-      ]
-    },
-    {
-      "name": "For Paradigm",
-      "totalScore": 3.5,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "For Paradigm",
-          "score": 3.5,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "Crypto VC firm Paradigm raises $1.2B to invest in \u2018technical frontier\u2019 startups\nFor Paradigm, the technical frontier will stretch beyond its cryptocurrency investment roots. This f",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Crypto VC firm Paradigm raises $1.2B to invest in \u2018technical frontier\u2019 startups",
-          "articleUrl": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/",
-          "articleDate": "Wed, 08 Jul 2026 16:29:35 +0000"
         }
       ]
     }
