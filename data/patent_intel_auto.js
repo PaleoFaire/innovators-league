@@ -1,5 +1,5 @@
 // Auto-generated patent intelligence data
-// Last updated: 2026-07-19 09:48:26 UTC
+// Last updated: 2026-07-26 09:55:04 UTC
 // Source: USPTO PatentsView + Google Patents + curated seed
 // Seed values are approximations (±20%) of public USPTO portfolios.
 // Each company links to a live USPTO/Google Patents search URL.
@@ -8,7 +8,7 @@ const PATENT_INTEL_AUTO = [
     "company": "Tesla",
     "sector": "ev",
     "patentCount": 3200,
-    "recentPatents": 527,
+    "recentPatents": 458,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Battery cells",
@@ -21,50 +21,50 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 125
+        "filings": 89
       },
       {
         "quarter": "2024-Q2",
-        "filings": 142
+        "filings": 99
       },
       {
         "quarter": "2024-Q3",
-        "filings": 135
+        "filings": 107
       },
       {
         "quarter": "2024-Q4",
-        "filings": 133
+        "filings": 121
       },
       {
         "quarter": "2025-Q1",
-        "filings": 124
+        "filings": 112
       },
       {
         "quarter": "2025-Q2",
-        "filings": 137
+        "filings": 106
       },
       {
         "quarter": "2025-Q3",
-        "filings": 133
+        "filings": 118
       },
       {
         "quarter": "2025-Q4",
-        "filings": 133
+        "filings": 122
       }
     ],
-    "qoqChange": "+0.0%",
-    "qoqChangeNum": 0.0,
+    "qoqChange": "+3.4%",
+    "qoqChangeNum": 3.4,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Tesla%20Inc&oq=Tesla%20Inc",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Tesla%20Inc%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Ginkgo Bioworks",
     "sector": "biotech",
     "patentCount": 680,
-    "recentPatents": 145,
+    "recentPatents": 140,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Cell programming",
@@ -76,66 +76,11 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 34
-      },
-      {
-        "quarter": "2024-Q2",
-        "filings": 35
-      },
-      {
-        "quarter": "2024-Q3",
-        "filings": 33
-      },
-      {
-        "quarter": "2024-Q4",
-        "filings": 35
-      },
-      {
-        "quarter": "2025-Q1",
-        "filings": 35
-      },
-      {
-        "quarter": "2025-Q2",
-        "filings": 36
-      },
-      {
-        "quarter": "2025-Q3",
-        "filings": 35
-      },
-      {
-        "quarter": "2025-Q4",
-        "filings": 39
-      }
-    ],
-    "qoqChange": "+11.4%",
-    "qoqChangeNum": 11.4,
-    "trend": "steady",
-    "sourceUrl": "https://patents.google.com/?assignee=Ginkgo%20Bioworks&oq=Ginkgo%20Bioworks",
-    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Ginkgo%20Bioworks%22",
-    "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
-  },
-  {
-    "company": "Waymo",
-    "sector": "autonomy",
-    "patentCount": 450,
-    "recentPatents": 132,
-    "latestPatentDate": "2025-Q4",
-    "technologyAreas": [
-      "LiDAR perception",
-      "Motion planning",
-      "HD maps",
-      "Teleoperation"
-    ],
-    "keyPatents": [],
-    "quarters": [
-      {
-        "quarter": "2024-Q1",
         "filings": 39
       },
       {
         "quarter": "2024-Q2",
-        "filings": 36
+        "filings": 38
       },
       {
         "quarter": "2024-Q3",
@@ -147,11 +92,66 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q1",
-        "filings": 36
+        "filings": 37
       },
       {
         "quarter": "2025-Q2",
-        "filings": 33
+        "filings": 35
+      },
+      {
+        "quarter": "2025-Q3",
+        "filings": 32
+      },
+      {
+        "quarter": "2025-Q4",
+        "filings": 36
+      }
+    ],
+    "qoqChange": "+12.5%",
+    "qoqChangeNum": 12.5,
+    "trend": "steady",
+    "sourceUrl": "https://patents.google.com/?assignee=Ginkgo%20Bioworks&oq=Ginkgo%20Bioworks",
+    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Ginkgo%20Bioworks%22",
+    "dataSource": "curated_seed",
+    "lastUpdated": "2026-07-26"
+  },
+  {
+    "company": "Waymo",
+    "sector": "autonomy",
+    "patentCount": 450,
+    "recentPatents": 137,
+    "latestPatentDate": "2025-Q4",
+    "technologyAreas": [
+      "LiDAR perception",
+      "Motion planning",
+      "HD maps",
+      "Teleoperation"
+    ],
+    "keyPatents": [],
+    "quarters": [
+      {
+        "quarter": "2024-Q1",
+        "filings": 45
+      },
+      {
+        "quarter": "2024-Q2",
+        "filings": 40
+      },
+      {
+        "quarter": "2024-Q3",
+        "filings": 43
+      },
+      {
+        "quarter": "2024-Q4",
+        "filings": 43
+      },
+      {
+        "quarter": "2025-Q1",
+        "filings": 39
+      },
+      {
+        "quarter": "2025-Q2",
+        "filings": 35
       },
       {
         "quarter": "2025-Q3",
@@ -168,13 +168,13 @@ const PATENT_INTEL_AUTO = [
     "sourceUrl": "https://patents.google.com/?assignee=Waymo%20LLC&oq=Waymo%20LLC",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Waymo%20LLC%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Tempus AI",
     "sector": "biotech",
     "patentCount": 320,
-    "recentPatents": 116,
+    "recentPatents": 105,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Clinical genomics",
@@ -186,35 +186,35 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 19
-      },
-      {
-        "quarter": "2024-Q2",
-        "filings": 22
-      },
-      {
-        "quarter": "2024-Q3",
-        "filings": 24
-      },
-      {
-        "quarter": "2024-Q4",
         "filings": 25
       },
       {
+        "quarter": "2024-Q2",
+        "filings": 26
+      },
+      {
+        "quarter": "2024-Q3",
+        "filings": 27
+      },
+      {
+        "quarter": "2024-Q4",
+        "filings": 27
+      },
+      {
         "quarter": "2025-Q1",
-        "filings": 28
+        "filings": 25
       },
       {
         "quarter": "2025-Q2",
-        "filings": 30
+        "filings": 24
       },
       {
         "quarter": "2025-Q3",
-        "filings": 29
+        "filings": 28
       },
       {
         "quarter": "2025-Q4",
-        "filings": 29
+        "filings": 28
       }
     ],
     "qoqChange": "+0.0%",
@@ -223,13 +223,13 @@ const PATENT_INTEL_AUTO = [
     "sourceUrl": "https://patents.google.com/?assignee=Tempus%20Labs&oq=Tempus%20Labs",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Tempus%20Labs%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Rivian",
     "sector": "ev",
     "patentCount": 280,
-    "recentPatents": 102,
+    "recentPatents": 99,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Skateboard platform",
@@ -245,46 +245,46 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q2",
-        "filings": 19
-      },
-      {
-        "quarter": "2024-Q3",
-        "filings": 20
-      },
-      {
-        "quarter": "2024-Q4",
         "filings": 21
       },
       {
+        "quarter": "2024-Q3",
+        "filings": 21
+      },
+      {
+        "quarter": "2024-Q4",
+        "filings": 23
+      },
+      {
         "quarter": "2025-Q1",
-        "filings": 24
+        "filings": 25
       },
       {
         "quarter": "2025-Q2",
-        "filings": 27
+        "filings": 25
       },
       {
         "quarter": "2025-Q3",
-        "filings": 26
+        "filings": 24
       },
       {
         "quarter": "2025-Q4",
         "filings": 25
       }
     ],
-    "qoqChange": "-3.8%",
-    "qoqChangeNum": -3.8,
+    "qoqChange": "+4.2%",
+    "qoqChangeNum": 4.2,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Rivian%20Automotive&oq=Rivian%20Automotive",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Rivian%20Automotive%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Aurora Innovation",
     "sector": "autonomy",
     "patentCount": 280,
-    "recentPatents": 76,
+    "recentPatents": 85,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Trucking autonomy",
@@ -295,50 +295,50 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 17
+        "filings": 20
       },
       {
         "quarter": "2024-Q2",
-        "filings": 17
+        "filings": 19
       },
       {
         "quarter": "2024-Q3",
-        "filings": 19
+        "filings": 21
       },
       {
         "quarter": "2024-Q4",
-        "filings": 19
+        "filings": 20
       },
       {
         "quarter": "2025-Q1",
-        "filings": 18
+        "filings": 20
       },
       {
         "quarter": "2025-Q2",
-        "filings": 17
+        "filings": 21
       },
       {
         "quarter": "2025-Q3",
-        "filings": 19
+        "filings": 23
       },
       {
         "quarter": "2025-Q4",
-        "filings": 22
+        "filings": 21
       }
     ],
-    "qoqChange": "+15.8%",
-    "qoqChangeNum": 15.8,
+    "qoqChange": "-8.7%",
+    "qoqChangeNum": -8.7,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Aurora%20Innovation&oq=Aurora%20Innovation",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Aurora%20Innovation%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Recursion Pharmaceuticals",
     "sector": "biotech",
     "patentCount": 260,
-    "recentPatents": 80,
+    "recentPatents": 65,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Phenotypic drug discovery",
@@ -349,50 +349,50 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 17
+        "filings": 12
       },
       {
         "quarter": "2024-Q2",
-        "filings": 18
+        "filings": 12
       },
       {
         "quarter": "2024-Q3",
-        "filings": 20
+        "filings": 13
       },
       {
         "quarter": "2024-Q4",
-        "filings": 20
+        "filings": 13
       },
       {
         "quarter": "2025-Q1",
-        "filings": 22
+        "filings": 14
       },
       {
         "quarter": "2025-Q2",
-        "filings": 21
+        "filings": 15
       },
       {
         "quarter": "2025-Q3",
-        "filings": 19
+        "filings": 17
       },
       {
         "quarter": "2025-Q4",
-        "filings": 18
+        "filings": 19
       }
     ],
-    "qoqChange": "-5.3%",
-    "qoqChangeNum": -5.3,
+    "qoqChange": "+11.8%",
+    "qoqChangeNum": 11.8,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Recursion%20Pharmaceuticals&oq=Recursion%20Pharmaceuticals",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Recursion%20Pharmaceuticals%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Joby Aviation",
     "sector": "evtol",
     "patentCount": 220,
-    "recentPatents": 78,
+    "recentPatents": 68,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Tilt-rotor eVTOL",
@@ -404,50 +404,50 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 8
+        "filings": 9
       },
       {
         "quarter": "2024-Q2",
-        "filings": 10
+        "filings": 11
       },
       {
         "quarter": "2024-Q3",
-        "filings": 13
+        "filings": 12
       },
       {
         "quarter": "2024-Q4",
-        "filings": 14
+        "filings": 12
       },
       {
         "quarter": "2025-Q1",
-        "filings": 14
+        "filings": 13
       },
       {
         "quarter": "2025-Q2",
-        "filings": 18
+        "filings": 15
       },
       {
         "quarter": "2025-Q3",
-        "filings": 23
+        "filings": 18
       },
       {
         "quarter": "2025-Q4",
-        "filings": 23
+        "filings": 22
       }
     ],
-    "qoqChange": "+0.0%",
-    "qoqChangeNum": 0.0,
+    "qoqChange": "+22.2%",
+    "qoqChangeNum": 22.2,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Joby%20Aviation&oq=Joby%20Aviation",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Joby%20Aviation%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "D-Wave Quantum",
     "sector": "quantum",
     "patentCount": 220,
-    "recentPatents": 68,
+    "recentPatents": 53,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Quantum annealing",
@@ -458,50 +458,50 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 23
+        "filings": 16
       },
       {
         "quarter": "2024-Q2",
-        "filings": 20
-      },
-      {
-        "quarter": "2024-Q3",
-        "filings": 18
-      },
-      {
-        "quarter": "2024-Q4",
-        "filings": 18
-      },
-      {
-        "quarter": "2025-Q1",
-        "filings": 18
-      },
-      {
-        "quarter": "2025-Q2",
-        "filings": 18
-      },
-      {
-        "quarter": "2025-Q3",
         "filings": 17
       },
       {
-        "quarter": "2025-Q4",
+        "quarter": "2024-Q3",
         "filings": 15
+      },
+      {
+        "quarter": "2024-Q4",
+        "filings": 15
+      },
+      {
+        "quarter": "2025-Q1",
+        "filings": 14
+      },
+      {
+        "quarter": "2025-Q2",
+        "filings": 14
+      },
+      {
+        "quarter": "2025-Q3",
+        "filings": 12
+      },
+      {
+        "quarter": "2025-Q4",
+        "filings": 13
       }
     ],
-    "qoqChange": "-11.8%",
-    "qoqChangeNum": -11.8,
+    "qoqChange": "+8.3%",
+    "qoqChangeNum": 8.3,
     "trend": "mature",
     "sourceUrl": "https://patents.google.com/?assignee=D-Wave%20Systems&oq=D-Wave%20Systems",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22D-Wave%20Systems%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Palantir Technologies",
     "sector": "defense",
     "patentCount": 180,
-    "recentPatents": 50,
+    "recentPatents": 67,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Data integration",
@@ -513,50 +513,50 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 10
+        "filings": 15
       },
       {
         "quarter": "2024-Q2",
-        "filings": 10
+        "filings": 17
       },
       {
         "quarter": "2024-Q3",
-        "filings": 10
+        "filings": 16
       },
       {
         "quarter": "2024-Q4",
-        "filings": 10
+        "filings": 18
       },
       {
         "quarter": "2025-Q1",
-        "filings": 11
+        "filings": 17
       },
       {
         "quarter": "2025-Q2",
-        "filings": 12
+        "filings": 17
       },
       {
         "quarter": "2025-Q3",
-        "filings": 13
+        "filings": 16
       },
       {
         "quarter": "2025-Q4",
-        "filings": 14
+        "filings": 17
       }
     ],
-    "qoqChange": "+7.7%",
-    "qoqChangeNum": 7.7,
+    "qoqChange": "+6.2%",
+    "qoqChangeNum": 6.2,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Palantir%20Technologies%20Inc&oq=Palantir%20Technologies%20Inc",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Palantir%20Technologies%20Inc%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "NuScale Power",
     "sector": "nuclear",
     "patentCount": 180,
-    "recentPatents": 57,
+    "recentPatents": 46,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Small modular reactor",
@@ -567,44 +567,44 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 11
-      },
-      {
-        "quarter": "2024-Q2",
         "filings": 12
       },
       {
+        "quarter": "2024-Q2",
+        "filings": 11
+      },
+      {
         "quarter": "2024-Q3",
-        "filings": 13
+        "filings": 11
       },
       {
         "quarter": "2024-Q4",
-        "filings": 14
+        "filings": 12
       },
       {
         "quarter": "2025-Q1",
-        "filings": 15
+        "filings": 11
       },
       {
         "quarter": "2025-Q2",
-        "filings": 15
+        "filings": 11
       },
       {
         "quarter": "2025-Q3",
-        "filings": 14
+        "filings": 11
       },
       {
         "quarter": "2025-Q4",
         "filings": 13
       }
     ],
-    "qoqChange": "-7.1%",
-    "qoqChangeNum": -7.1,
+    "qoqChange": "+18.2%",
+    "qoqChangeNum": 18.2,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=NuScale%20Power&oq=NuScale%20Power",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22NuScale%20Power%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Rigetti Computing",
@@ -621,19 +621,19 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 10
+        "filings": 12
       },
       {
         "quarter": "2024-Q2",
-        "filings": 11
+        "filings": 13
       },
       {
         "quarter": "2024-Q3",
-        "filings": 12
+        "filings": 13
       },
       {
         "quarter": "2024-Q4",
-        "filings": 12
+        "filings": 13
       },
       {
         "quarter": "2025-Q1",
@@ -641,7 +641,7 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q2",
-        "filings": 14
+        "filings": 13
       },
       {
         "quarter": "2025-Q3",
@@ -649,22 +649,22 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q4",
-        "filings": 13
+        "filings": 14
       }
     ],
-    "qoqChange": "-7.1%",
-    "qoqChangeNum": -7.1,
+    "qoqChange": "+0.0%",
+    "qoqChangeNum": 0.0,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Rigetti%20%26%20Co&oq=Rigetti%20%26%20Co",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Rigetti%20%26%20Co%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Zipline",
     "sector": "evtol",
     "patentCount": 165,
-    "recentPatents": 58,
+    "recentPatents": 62,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Delivery drones",
@@ -676,15 +676,15 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 9
+        "filings": 7
       },
       {
         "quarter": "2024-Q2",
-        "filings": 10
+        "filings": 7
       },
       {
         "quarter": "2024-Q3",
-        "filings": 11
+        "filings": 9
       },
       {
         "quarter": "2024-Q4",
@@ -692,7 +692,7 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q1",
-        "filings": 11
+        "filings": 13
       },
       {
         "quarter": "2025-Q2",
@@ -700,26 +700,26 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q3",
-        "filings": 15
+        "filings": 16
       },
       {
         "quarter": "2025-Q4",
-        "filings": 18
+        "filings": 19
       }
     ],
-    "qoqChange": "+20.0%",
-    "qoqChangeNum": 20.0,
+    "qoqChange": "+18.8%",
+    "qoqChangeNum": 18.8,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Zipline%20International&oq=Zipline%20International",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Zipline%20International%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Archer Aviation",
     "sector": "evtol",
     "patentCount": 140,
-    "recentPatents": 55,
+    "recentPatents": 62,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Midnight eVTOL",
@@ -735,46 +735,46 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q2",
-        "filings": 8
+        "filings": 7
       },
       {
         "quarter": "2024-Q3",
-        "filings": 8
+        "filings": 9
       },
       {
         "quarter": "2024-Q4",
-        "filings": 10
-      },
-      {
-        "quarter": "2025-Q1",
         "filings": 11
       },
       {
-        "quarter": "2025-Q2",
-        "filings": 13
-      },
-      {
-        "quarter": "2025-Q3",
+        "quarter": "2025-Q1",
         "filings": 14
       },
       {
+        "quarter": "2025-Q2",
+        "filings": 14
+      },
+      {
+        "quarter": "2025-Q3",
+        "filings": 16
+      },
+      {
         "quarter": "2025-Q4",
-        "filings": 17
+        "filings": 18
       }
     ],
-    "qoqChange": "+21.4%",
-    "qoqChangeNum": 21.4,
+    "qoqChange": "+12.5%",
+    "qoqChangeNum": 12.5,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Archer%20Aviation&oq=Archer%20Aviation",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Archer%20Aviation%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "SpaceX",
     "sector": "space",
     "patentCount": 120,
-    "recentPatents": 58,
+    "recentPatents": 70,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Reusable launch vehicles",
@@ -797,11 +797,11 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 10
+        "filings": 8
       },
       {
         "quarter": "2024-Q2",
-        "filings": 10
+        "filings": 8
       },
       {
         "quarter": "2024-Q3",
@@ -809,38 +809,38 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q4",
-        "filings": 11
+        "filings": 13
       },
       {
         "quarter": "2025-Q1",
-        "filings": 12
-      },
-      {
-        "quarter": "2025-Q2",
         "filings": 14
       },
       {
+        "quarter": "2025-Q2",
+        "filings": 17
+      },
+      {
         "quarter": "2025-Q3",
-        "filings": 15
+        "filings": 19
       },
       {
         "quarter": "2025-Q4",
-        "filings": 17
+        "filings": 20
       }
     ],
-    "qoqChange": "+13.3%",
-    "qoqChangeNum": 13.3,
+    "qoqChange": "+5.3%",
+    "qoqChangeNum": 5.3,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Space%20Exploration%20Technologies%20Corp&oq=Space%20Exploration%20Technologies%20Corp",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Space%20Exploration%20Technologies%20Corp%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Skydio",
     "sector": "defense",
     "patentCount": 120,
-    "recentPatents": 43,
+    "recentPatents": 55,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Autonomous drones",
@@ -852,50 +852,50 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 8
+        "filings": 13
       },
       {
         "quarter": "2024-Q2",
-        "filings": 9
+        "filings": 15
       },
       {
         "quarter": "2024-Q3",
-        "filings": 9
+        "filings": 14
       },
       {
         "quarter": "2024-Q4",
-        "filings": 9
+        "filings": 13
       },
       {
         "quarter": "2025-Q1",
-        "filings": 10
+        "filings": 14
       },
       {
         "quarter": "2025-Q2",
-        "filings": 10
+        "filings": 14
       },
       {
         "quarter": "2025-Q3",
-        "filings": 11
+        "filings": 13
       },
       {
         "quarter": "2025-Q4",
-        "filings": 12
+        "filings": 14
       }
     ],
-    "qoqChange": "+9.1%",
-    "qoqChangeNum": 9.1,
+    "qoqChange": "+7.7%",
+    "qoqChangeNum": 7.7,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Skydio%20Inc&oq=Skydio%20Inc",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Skydio%20Inc%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Terran Orbital",
     "sector": "space",
     "patentCount": 110,
-    "recentPatents": 44,
+    "recentPatents": 48,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Satellite manufacturing",
@@ -906,19 +906,19 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 10
+        "filings": 12
       },
       {
         "quarter": "2024-Q2",
-        "filings": 9
+        "filings": 11
       },
       {
         "quarter": "2024-Q3",
-        "filings": 10
+        "filings": 11
       },
       {
         "quarter": "2024-Q4",
-        "filings": 10
+        "filings": 11
       },
       {
         "quarter": "2025-Q1",
@@ -926,30 +926,30 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q2",
-        "filings": 11
+        "filings": 12
       },
       {
         "quarter": "2025-Q3",
-        "filings": 11
+        "filings": 12
       },
       {
         "quarter": "2025-Q4",
-        "filings": 11
+        "filings": 13
       }
     ],
-    "qoqChange": "+0.0%",
-    "qoqChangeNum": 0.0,
+    "qoqChange": "+8.3%",
+    "qoqChangeNum": 8.3,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Terran%20Orbital&oq=Terran%20Orbital",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Terran%20Orbital%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "IonQ",
     "sector": "quantum",
     "patentCount": 110,
-    "recentPatents": 53,
+    "recentPatents": 42,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Trapped-ion quantum computing",
@@ -964,46 +964,46 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q2",
-        "filings": 7
+        "filings": 5
       },
       {
         "quarter": "2024-Q3",
-        "filings": 9
+        "filings": 5
       },
       {
         "quarter": "2024-Q4",
-        "filings": 10
+        "filings": 7
       },
       {
         "quarter": "2025-Q1",
-        "filings": 11
+        "filings": 8
       },
       {
         "quarter": "2025-Q2",
-        "filings": 13
+        "filings": 9
       },
       {
         "quarter": "2025-Q3",
-        "filings": 14
+        "filings": 12
       },
       {
         "quarter": "2025-Q4",
-        "filings": 15
+        "filings": 13
       }
     ],
-    "qoqChange": "+7.1%",
-    "qoqChangeNum": 7.1,
+    "qoqChange": "+8.3%",
+    "qoqChangeNum": 8.3,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=IonQ%20Inc&oq=IonQ%20Inc",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22IonQ%20Inc%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Planet Labs",
     "sector": "space",
     "patentCount": 95,
-    "recentPatents": 32,
+    "recentPatents": 39,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Earth-observation CubeSats",
@@ -1019,46 +1019,46 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q2",
-        "filings": 6
+        "filings": 8
       },
       {
         "quarter": "2024-Q3",
-        "filings": 7
+        "filings": 8
       },
       {
         "quarter": "2024-Q4",
-        "filings": 8
+        "filings": 9
       },
       {
         "quarter": "2025-Q1",
-        "filings": 7
+        "filings": 9
       },
       {
         "quarter": "2025-Q2",
-        "filings": 8
+        "filings": 10
       },
       {
         "quarter": "2025-Q3",
-        "filings": 8
+        "filings": 10
       },
       {
         "quarter": "2025-Q4",
-        "filings": 9
+        "filings": 10
       }
     ],
-    "qoqChange": "+12.5%",
-    "qoqChangeNum": 12.5,
+    "qoqChange": "+0.0%",
+    "qoqChangeNum": 0.0,
     "trend": "steady",
     "sourceUrl": "https://patents.google.com/?assignee=Planet%20Labs%20PBC&oq=Planet%20Labs%20PBC",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Planet%20Labs%20PBC%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "AST SpaceMobile",
     "sector": "space",
     "patentCount": 85,
-    "recentPatents": 43,
+    "recentPatents": 50,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Space-based cellular broadband",
@@ -1081,7 +1081,7 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q4",
-        "filings": 9
+        "filings": 8
       },
       {
         "quarter": "2025-Q1",
@@ -1089,30 +1089,30 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q2",
-        "filings": 10
-      },
-      {
-        "quarter": "2025-Q3",
         "filings": 11
       },
       {
+        "quarter": "2025-Q3",
+        "filings": 14
+      },
+      {
         "quarter": "2025-Q4",
-        "filings": 13
+        "filings": 16
       }
     ],
-    "qoqChange": "+18.2%",
-    "qoqChangeNum": 18.2,
+    "qoqChange": "+14.3%",
+    "qoqChangeNum": 14.3,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=AST%20%26%20Science&oq=AST%20%26%20Science",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22AST%20%26%20Science%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "PsiQuantum",
     "sector": "quantum",
     "patentCount": 85,
-    "recentPatents": 40,
+    "recentPatents": 37,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Photonic quantum computing",
@@ -1123,23 +1123,23 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 3
-      },
-      {
-        "quarter": "2024-Q2",
-        "filings": 4
-      },
-      {
-        "quarter": "2024-Q3",
         "filings": 5
       },
       {
-        "quarter": "2024-Q4",
+        "quarter": "2024-Q2",
         "filings": 6
       },
       {
-        "quarter": "2025-Q1",
+        "quarter": "2024-Q3",
+        "filings": 6
+      },
+      {
+        "quarter": "2024-Q4",
         "filings": 7
+      },
+      {
+        "quarter": "2025-Q1",
+        "filings": 8
       },
       {
         "quarter": "2025-Q2",
@@ -1147,26 +1147,26 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q3",
-        "filings": 11
+        "filings": 9
       },
       {
         "quarter": "2025-Q4",
-        "filings": 13
+        "filings": 11
       }
     ],
-    "qoqChange": "+18.2%",
-    "qoqChangeNum": 18.2,
+    "qoqChange": "+22.2%",
+    "qoqChangeNum": 22.2,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=PsiQuantum%20Corp&oq=PsiQuantum%20Corp",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22PsiQuantum%20Corp%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Astranis",
     "sector": "space",
     "patentCount": 80,
-    "recentPatents": 42,
+    "recentPatents": 39,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "GEO small satellites",
@@ -1177,7 +1177,7 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 4
+        "filings": 5
       },
       {
         "quarter": "2024-Q2",
@@ -1193,34 +1193,34 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q1",
-        "filings": 9
+        "filings": 8
       },
       {
         "quarter": "2025-Q2",
-        "filings": 10
+        "filings": 9
       },
       {
         "quarter": "2025-Q3",
-        "filings": 11
+        "filings": 10
       },
       {
         "quarter": "2025-Q4",
         "filings": 12
       }
     ],
-    "qoqChange": "+9.1%",
-    "qoqChangeNum": 9.1,
+    "qoqChange": "+20.0%",
+    "qoqChangeNum": 20.0,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Astranis%20Space%20Technologies&oq=Astranis%20Space%20Technologies",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Astranis%20Space%20Technologies%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Rocket Lab",
     "sector": "space",
     "patentCount": 65,
-    "recentPatents": 36,
+    "recentPatents": 28,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Small satellite launch",
@@ -1232,66 +1232,11 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 5
+        "filings": 4
       },
       {
         "quarter": "2024-Q2",
-        "filings": 5
-      },
-      {
-        "quarter": "2024-Q3",
-        "filings": 6
-      },
-      {
-        "quarter": "2024-Q4",
-        "filings": 7
-      },
-      {
-        "quarter": "2025-Q1",
-        "filings": 8
-      },
-      {
-        "quarter": "2025-Q2",
-        "filings": 8
-      },
-      {
-        "quarter": "2025-Q3",
-        "filings": 10
-      },
-      {
-        "quarter": "2025-Q4",
-        "filings": 10
-      }
-    ],
-    "qoqChange": "+0.0%",
-    "qoqChangeNum": 0.0,
-    "trend": "accelerating",
-    "sourceUrl": "https://patents.google.com/?assignee=Rocket%20Lab%20USA&oq=Rocket%20Lab%20USA",
-    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Rocket%20Lab%20USA%22",
-    "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
-  },
-  {
-    "company": "Astera Labs",
-    "sector": "ai",
-    "patentCount": 55,
-    "recentPatents": 27,
-    "latestPatentDate": "2025-Q4",
-    "technologyAreas": [
-      "PCIe retimers",
-      "CXL fabric",
-      "AI interconnect",
-      "Signal integrity"
-    ],
-    "keyPatents": [],
-    "quarters": [
-      {
-        "quarter": "2024-Q1",
-        "filings": 3
-      },
-      {
-        "quarter": "2024-Q2",
-        "filings": 3
+        "filings": 4
       },
       {
         "quarter": "2024-Q3",
@@ -1303,7 +1248,7 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q1",
-        "filings": 5
+        "filings": 6
       },
       {
         "quarter": "2025-Q2",
@@ -1321,27 +1266,28 @@ const PATENT_INTEL_AUTO = [
     "qoqChange": "+28.6%",
     "qoqChangeNum": 28.6,
     "trend": "accelerating",
-    "sourceUrl": "https://patents.google.com/?assignee=Astera%20Labs&oq=Astera%20Labs",
-    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Astera%20Labs%22",
+    "sourceUrl": "https://patents.google.com/?assignee=Rocket%20Lab%20USA&oq=Rocket%20Lab%20USA",
+    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Rocket%20Lab%20USA%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
-    "company": "Boom Supersonic",
-    "sector": "evtol",
+    "company": "Astera Labs",
+    "sector": "ai",
     "patentCount": 55,
-    "recentPatents": 26,
+    "recentPatents": 30,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
-      "Supersonic aircraft",
-      "Overture airliner",
-      "Symphony engine"
+      "PCIe retimers",
+      "CXL fabric",
+      "AI interconnect",
+      "Signal integrity"
     ],
     "keyPatents": [],
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 3
+        "filings": 4
       },
       {
         "quarter": "2024-Q2",
@@ -1357,34 +1303,88 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q1",
+        "filings": 6
+      },
+      {
+        "quarter": "2025-Q2",
+        "filings": 7
+      },
+      {
+        "quarter": "2025-Q3",
+        "filings": 8
+      },
+      {
+        "quarter": "2025-Q4",
+        "filings": 9
+      }
+    ],
+    "qoqChange": "+12.5%",
+    "qoqChangeNum": 12.5,
+    "trend": "accelerating",
+    "sourceUrl": "https://patents.google.com/?assignee=Astera%20Labs&oq=Astera%20Labs",
+    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Astera%20Labs%22",
+    "dataSource": "curated_seed",
+    "lastUpdated": "2026-07-26"
+  },
+  {
+    "company": "Boom Supersonic",
+    "sector": "evtol",
+    "patentCount": 55,
+    "recentPatents": 23,
+    "latestPatentDate": "2025-Q4",
+    "technologyAreas": [
+      "Supersonic aircraft",
+      "Overture airliner",
+      "Symphony engine"
+    ],
+    "keyPatents": [],
+    "quarters": [
+      {
+        "quarter": "2024-Q1",
+        "filings": 2
+      },
+      {
+        "quarter": "2024-Q2",
+        "filings": 3
+      },
+      {
+        "quarter": "2024-Q3",
+        "filings": 4
+      },
+      {
+        "quarter": "2024-Q4",
+        "filings": 4
+      },
+      {
+        "quarter": "2025-Q1",
         "filings": 5
       },
       {
         "quarter": "2025-Q2",
-        "filings": 6
+        "filings": 5
       },
       {
         "quarter": "2025-Q3",
-        "filings": 7
+        "filings": 6
       },
       {
         "quarter": "2025-Q4",
-        "filings": 8
+        "filings": 7
       }
     ],
-    "qoqChange": "+14.3%",
-    "qoqChangeNum": 14.3,
+    "qoqChange": "+16.7%",
+    "qoqChangeNum": 16.7,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Boom%20Supersonic&oq=Boom%20Supersonic",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Boom%20Supersonic%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Intuitive Machines",
     "sector": "space",
     "patentCount": 45,
-    "recentPatents": 21,
+    "recentPatents": 25,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Lunar landers",
@@ -1399,7 +1399,7 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q2",
-        "filings": 2
+        "filings": 3
       },
       {
         "quarter": "2024-Q3",
@@ -1411,19 +1411,19 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q1",
-        "filings": 4
-      },
-      {
-        "quarter": "2025-Q2",
         "filings": 5
       },
       {
-        "quarter": "2025-Q3",
+        "quarter": "2025-Q2",
         "filings": 6
       },
       {
+        "quarter": "2025-Q3",
+        "filings": 7
+      },
+      {
         "quarter": "2025-Q4",
-        "filings": 6
+        "filings": 7
       }
     ],
     "qoqChange": "+0.0%",
@@ -1432,13 +1432,13 @@ const PATENT_INTEL_AUTO = [
     "sourceUrl": "https://patents.google.com/?assignee=Intuitive%20Machines&oq=Intuitive%20Machines",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Intuitive%20Machines%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Anduril Industries",
     "sector": "defense",
     "patentCount": 45,
-    "recentPatents": 26,
+    "recentPatents": 30,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Lattice autonomy OS",
@@ -1450,6 +1450,60 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
+        "filings": 5
+      },
+      {
+        "quarter": "2024-Q2",
+        "filings": 5
+      },
+      {
+        "quarter": "2024-Q3",
+        "filings": 5
+      },
+      {
+        "quarter": "2024-Q4",
+        "filings": 5
+      },
+      {
+        "quarter": "2025-Q1",
+        "filings": 6
+      },
+      {
+        "quarter": "2025-Q2",
+        "filings": 7
+      },
+      {
+        "quarter": "2025-Q3",
+        "filings": 8
+      },
+      {
+        "quarter": "2025-Q4",
+        "filings": 9
+      }
+    ],
+    "qoqChange": "+12.5%",
+    "qoqChangeNum": 12.5,
+    "trend": "accelerating",
+    "sourceUrl": "https://patents.google.com/?assignee=Anduril%20Industries%20Inc&oq=Anduril%20Industries%20Inc",
+    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Anduril%20Industries%20Inc%22",
+    "dataSource": "curated_seed",
+    "lastUpdated": "2026-07-26"
+  },
+  {
+    "company": "Commonwealth Fusion Systems",
+    "sector": "fusion",
+    "patentCount": 42,
+    "recentPatents": 24,
+    "latestPatentDate": "2025-Q4",
+    "technologyAreas": [
+      "HTS magnets",
+      "SPARC tokamak",
+      "REBCO superconductors"
+    ],
+    "keyPatents": [],
+    "quarters": [
+      {
+        "quarter": "2024-Q1",
         "filings": 2
       },
       {
@@ -1474,80 +1528,26 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q3",
-        "filings": 7
-      },
-      {
-        "quarter": "2025-Q4",
-        "filings": 8
-      }
-    ],
-    "qoqChange": "+14.3%",
-    "qoqChangeNum": 14.3,
-    "trend": "accelerating",
-    "sourceUrl": "https://patents.google.com/?assignee=Anduril%20Industries%20Inc&oq=Anduril%20Industries%20Inc",
-    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Anduril%20Industries%20Inc%22",
-    "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
-  },
-  {
-    "company": "Commonwealth Fusion Systems",
-    "sector": "fusion",
-    "patentCount": 42,
-    "recentPatents": 26,
-    "latestPatentDate": "2025-Q4",
-    "technologyAreas": [
-      "HTS magnets",
-      "SPARC tokamak",
-      "REBCO superconductors"
-    ],
-    "keyPatents": [],
-    "quarters": [
-      {
-        "quarter": "2024-Q1",
-        "filings": 4
-      },
-      {
-        "quarter": "2024-Q2",
-        "filings": 4
-      },
-      {
-        "quarter": "2024-Q3",
-        "filings": 5
-      },
-      {
-        "quarter": "2024-Q4",
-        "filings": 5
-      },
-      {
-        "quarter": "2025-Q1",
-        "filings": 5
-      },
-      {
-        "quarter": "2025-Q2",
         "filings": 6
       },
       {
-        "quarter": "2025-Q3",
-        "filings": 7
-      },
-      {
         "quarter": "2025-Q4",
-        "filings": 8
+        "filings": 7
       }
     ],
-    "qoqChange": "+14.3%",
-    "qoqChangeNum": 14.3,
+    "qoqChange": "+16.7%",
+    "qoqChangeNum": 16.7,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Commonwealth%20Fusion%20Systems&oq=Commonwealth%20Fusion%20Systems",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Commonwealth%20Fusion%20Systems%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Shield AI",
     "sector": "defense",
     "patentCount": 35,
-    "recentPatents": 18,
+    "recentPatents": 20,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Hivemind autonomy",
@@ -1563,23 +1563,23 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q2",
-        "filings": 2
+        "filings": 3
       },
       {
         "quarter": "2024-Q3",
-        "filings": 2
+        "filings": 4
       },
       {
         "quarter": "2024-Q4",
-        "filings": 3
+        "filings": 4
       },
       {
         "quarter": "2025-Q1",
-        "filings": 3
+        "filings": 4
       },
       {
         "quarter": "2025-Q2",
-        "filings": 4
+        "filings": 5
       },
       {
         "quarter": "2025-Q3",
@@ -1596,13 +1596,13 @@ const PATENT_INTEL_AUTO = [
     "sourceUrl": "https://patents.google.com/?assignee=Shield%20AI&oq=Shield%20AI",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Shield%20AI%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Helion Energy",
     "sector": "fusion",
     "patentCount": 35,
-    "recentPatents": 22,
+    "recentPatents": 26,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Field-reversed configuration",
@@ -1617,7 +1617,116 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q2",
+        "filings": 3
+      },
+      {
+        "quarter": "2024-Q3",
+        "filings": 3
+      },
+      {
+        "quarter": "2024-Q4",
+        "filings": 4
+      },
+      {
+        "quarter": "2025-Q1",
+        "filings": 5
+      },
+      {
+        "quarter": "2025-Q2",
+        "filings": 6
+      },
+      {
+        "quarter": "2025-Q3",
+        "filings": 7
+      },
+      {
+        "quarter": "2025-Q4",
+        "filings": 8
+      }
+    ],
+    "qoqChange": "+14.3%",
+    "qoqChangeNum": 14.3,
+    "trend": "accelerating",
+    "sourceUrl": "https://patents.google.com/?assignee=Helion%20Energy&oq=Helion%20Energy",
+    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Helion%20Energy%22",
+    "dataSource": "curated_seed",
+    "lastUpdated": "2026-07-26"
+  },
+  {
+    "company": "Hermeus",
+    "sector": "evtol",
+    "patentCount": 25,
+    "recentPatents": 14,
+    "latestPatentDate": "2025-Q4",
+    "technologyAreas": [
+      "Hypersonic aircraft",
+      "Turbine-based combined cycle",
+      "Mach 5 flight"
+    ],
+    "keyPatents": [],
+    "quarters": [
+      {
+        "quarter": "2024-Q1",
         "filings": 2
+      },
+      {
+        "quarter": "2024-Q2",
+        "filings": 2
+      },
+      {
+        "quarter": "2024-Q3",
+        "filings": 2
+      },
+      {
+        "quarter": "2024-Q4",
+        "filings": 2
+      },
+      {
+        "quarter": "2025-Q1",
+        "filings": 2
+      },
+      {
+        "quarter": "2025-Q2",
+        "filings": 3
+      },
+      {
+        "quarter": "2025-Q3",
+        "filings": 4
+      },
+      {
+        "quarter": "2025-Q4",
+        "filings": 5
+      }
+    ],
+    "qoqChange": "+25.0%",
+    "qoqChangeNum": 25.0,
+    "trend": "accelerating",
+    "sourceUrl": "https://patents.google.com/?assignee=Hermeus&oq=Hermeus",
+    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Hermeus%22",
+    "dataSource": "curated_seed",
+    "lastUpdated": "2026-07-26"
+  },
+  {
+    "company": "Figure AI",
+    "sector": "robotics",
+    "patentCount": 20,
+    "recentPatents": 22,
+    "latestPatentDate": "2025-Q4",
+    "technologyAreas": [
+      "Humanoid robotics",
+      "Figure 02",
+      "Bipedal locomotion",
+      "VLA models"
+    ],
+    "keyPatents": [],
+    "quarters": [
+      {
+        "quarter": "2024-Q1",
+        "filings": 3
+      },
+      {
+        "quarter": "2024-Q2",
+        "filings": 3
       },
       {
         "quarter": "2024-Q3",
@@ -1647,125 +1756,16 @@ const PATENT_INTEL_AUTO = [
     "qoqChange": "+16.7%",
     "qoqChangeNum": 16.7,
     "trend": "accelerating",
-    "sourceUrl": "https://patents.google.com/?assignee=Helion%20Energy&oq=Helion%20Energy",
-    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Helion%20Energy%22",
-    "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
-  },
-  {
-    "company": "Hermeus",
-    "sector": "evtol",
-    "patentCount": 25,
-    "recentPatents": 19,
-    "latestPatentDate": "2025-Q4",
-    "technologyAreas": [
-      "Hypersonic aircraft",
-      "Turbine-based combined cycle",
-      "Mach 5 flight"
-    ],
-    "keyPatents": [],
-    "quarters": [
-      {
-        "quarter": "2024-Q1",
-        "filings": 2
-      },
-      {
-        "quarter": "2024-Q2",
-        "filings": 2
-      },
-      {
-        "quarter": "2024-Q3",
-        "filings": 3
-      },
-      {
-        "quarter": "2024-Q4",
-        "filings": 3
-      },
-      {
-        "quarter": "2025-Q1",
-        "filings": 4
-      },
-      {
-        "quarter": "2025-Q2",
-        "filings": 5
-      },
-      {
-        "quarter": "2025-Q3",
-        "filings": 5
-      },
-      {
-        "quarter": "2025-Q4",
-        "filings": 5
-      }
-    ],
-    "qoqChange": "+0.0%",
-    "qoqChangeNum": 0.0,
-    "trend": "accelerating",
-    "sourceUrl": "https://patents.google.com/?assignee=Hermeus&oq=Hermeus",
-    "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Hermeus%22",
-    "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
-  },
-  {
-    "company": "Figure AI",
-    "sector": "robotics",
-    "patentCount": 20,
-    "recentPatents": 18,
-    "latestPatentDate": "2025-Q4",
-    "technologyAreas": [
-      "Humanoid robotics",
-      "Figure 02",
-      "Bipedal locomotion",
-      "VLA models"
-    ],
-    "keyPatents": [],
-    "quarters": [
-      {
-        "quarter": "2024-Q1",
-        "filings": 1
-      },
-      {
-        "quarter": "2024-Q2",
-        "filings": 2
-      },
-      {
-        "quarter": "2024-Q3",
-        "filings": 2
-      },
-      {
-        "quarter": "2024-Q4",
-        "filings": 3
-      },
-      {
-        "quarter": "2025-Q1",
-        "filings": 3
-      },
-      {
-        "quarter": "2025-Q2",
-        "filings": 4
-      },
-      {
-        "quarter": "2025-Q3",
-        "filings": 5
-      },
-      {
-        "quarter": "2025-Q4",
-        "filings": 6
-      }
-    ],
-    "qoqChange": "+20.0%",
-    "qoqChangeNum": 20.0,
-    "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Figure%20AI&oq=Figure%20AI",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Figure%20AI%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Stoke Space",
     "sector": "space",
     "patentCount": 18,
-    "recentPatents": 14,
+    "recentPatents": 13,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Fully reusable launch",
@@ -1776,23 +1776,23 @@ const PATENT_INTEL_AUTO = [
     "quarters": [
       {
         "quarter": "2024-Q1",
-        "filings": 3
+        "filings": 2
       },
       {
         "quarter": "2024-Q2",
-        "filings": 3
+        "filings": 2
       },
       {
         "quarter": "2024-Q3",
-        "filings": 3
+        "filings": 2
       },
       {
         "quarter": "2024-Q4",
-        "filings": 3
+        "filings": 2
       },
       {
         "quarter": "2025-Q1",
-        "filings": 3
+        "filings": 2
       },
       {
         "quarter": "2025-Q2",
@@ -1813,13 +1813,13 @@ const PATENT_INTEL_AUTO = [
     "sourceUrl": "https://patents.google.com/?assignee=Stoke%20Space%20Technologies&oq=Stoke%20Space%20Technologies",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Stoke%20Space%20Technologies%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Oklo",
     "sector": "nuclear",
     "patentCount": 18,
-    "recentPatents": 14,
+    "recentPatents": 13,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Aurora microreactor",
@@ -1838,11 +1838,11 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q3",
-        "filings": 3
+        "filings": 2
       },
       {
         "quarter": "2024-Q4",
-        "filings": 3
+        "filings": 2
       },
       {
         "quarter": "2025-Q1",
@@ -1854,26 +1854,26 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q3",
-        "filings": 4
+        "filings": 3
       },
       {
         "quarter": "2025-Q4",
         "filings": 4
       }
     ],
-    "qoqChange": "+0.0%",
-    "qoqChangeNum": 0.0,
+    "qoqChange": "+33.3%",
+    "qoqChangeNum": 33.3,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Oklo%20Inc&oq=Oklo%20Inc",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Oklo%20Inc%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Anthropic",
     "sector": "ai",
     "patentCount": 15,
-    "recentPatents": 15,
+    "recentPatents": 16,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Constitutional AI",
@@ -1909,26 +1909,26 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q3",
-        "filings": 4
+        "filings": 5
       },
       {
         "quarter": "2025-Q4",
         "filings": 6
       }
     ],
-    "qoqChange": "+50.0%",
-    "qoqChangeNum": 50.0,
+    "qoqChange": "+20.0%",
+    "qoqChangeNum": 20.0,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=Anthropic%20PBC&oq=Anthropic%20PBC",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Anthropic%20PBC%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "OpenAI",
     "sector": "ai",
     "patentCount": 12,
-    "recentPatents": 14,
+    "recentPatents": 11,
     "latestPatentDate": "2025-Q4",
     "technologyAreas": [
       "Large language models",
@@ -1944,7 +1944,7 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2024-Q2",
-        "filings": 1
+        "filings": 2
       },
       {
         "quarter": "2024-Q3",
@@ -1960,24 +1960,24 @@ const PATENT_INTEL_AUTO = [
       },
       {
         "quarter": "2025-Q2",
-        "filings": 3
+        "filings": 2
       },
       {
         "quarter": "2025-Q3",
-        "filings": 4
+        "filings": 3
       },
       {
         "quarter": "2025-Q4",
-        "filings": 5
+        "filings": 4
       }
     ],
-    "qoqChange": "+25.0%",
-    "qoqChangeNum": 25.0,
+    "qoqChange": "+33.3%",
+    "qoqChangeNum": 33.3,
     "trend": "accelerating",
     "sourceUrl": "https://patents.google.com/?assignee=OpenAI&oq=OpenAI",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22OpenAI%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   },
   {
     "company": "Physical Intelligence",
@@ -2031,7 +2031,7 @@ const PATENT_INTEL_AUTO = [
     "sourceUrl": "https://patents.google.com/?assignee=Physical%20Intelligence&oq=Physical%20Intelligence",
     "usptoUrl": "https://ppubs.uspto.gov/pubwebapp/external.html?q=%22Physical%20Intelligence%22",
     "dataSource": "curated_seed",
-    "lastUpdated": "2026-07-19"
+    "lastUpdated": "2026-07-26"
   }
 ];
 

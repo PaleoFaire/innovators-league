@@ -44719,6 +44719,216 @@ const GOV_DEMAND_TRACKER = [
     source: "sam.gov",
     posted: "2025-11-24"
   },
+  {
+    id: "SAM-70B02C26F00000035",
+    title: "PURCHASE OF TOWERS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PURCHASE OF TOWERS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-25"
+  },
+  {
+    id: "SAM-H9240224F0057",
+    title: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-31"
+  },
+  {
+    id: "SAM-W9128Z26FA005",
+    title: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED INSTALLATION, SYSTEMS INTEGRATION, SPECIALIZED TRAINING, AND TECHNICAL SUPPORT SE",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "Scale AI", "Palantir", "OpenAI"],
+    source: "sam.gov",
+    posted: "2026-03-16"
+  },
+  {
+    id: "SAM-70B02C26F00000480",
+    title: "DO 23 O&S WITH SOW.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO 23 O&S WITH SOW.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-07-21"
+  },
+  {
+    id: "SAM-70B02C25F00000926",
+    title: "AWARD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-09-19"
+  },
+  {
+    id: "SAM-70B02C25F00000422",
+    title: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-08-01"
+  },
+  {
+    id: "SAM-H9240225FE017",
+    title: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "Scale AI", "Palantir", "OpenAI"],
+    source: "sam.gov",
+    posted: "2025-08-28"
+  },
+  {
+    id: "SAM-70B02C24F00000684",
+    title: "DO# 17",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO# 17",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-28"
+  },
+  {
+    id: "SAM-FA882024FB003",
+    title: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTIC",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTICED MESH NETWORK COMMUNICATIONS CAPABILITY TO SUPPORT WORLDWIDE SDANET CONNECTED ",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-09-27"
+  },
+  {
+    id: "SAM-M6785426F0032",
+    title: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-19"
+  },
+  {
+    id: "SAM-FA228025F0035",
+    title: "FALCON INTELLIGENCE, SURVEILLANCE AND RECONNAISSANCE",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "FALCON INTELLIGENCE, SURVEILLANCE AND RECONNAISSANCE",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "Scale AI", "Palantir", "OpenAI"],
+    source: "sam.gov",
+    posted: "2025-09-30"
+  },
+  {
+    id: "SAM-H9240225F0009",
+    title: "MARITIME DEFEAT",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "MARITIME DEFEAT",
+    techAreas: [],
+    relevantCompanies: ["Saildrone", "Anduril Industries", "Saronic"],
+    source: "sam.gov",
+    posted: "2025-02-10"
+  },
+  {
+    id: "SAM-H9240225F0005",
+    title: "SIP FFP SERVICES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP FFP SERVICES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-12-21"
+  },
+  {
+    id: "SAM-M6785426F0051",
+    title: "THIS DELIVERY ORDER PROCURES HARDWARE REQUIRED FOR THE HOME ALONE PM GBAD PROGRAM.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "THIS DELIVERY ORDER PROCURES HARDWARE REQUIRED FOR THE HOME ALONE PM GBAD PROGRAM.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-02-26"
+  },
+  {
+    id: "SAM-H9240226FE009",
+    title: "SIP TO119 GHOSTSHIELD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP TO119 GHOSTSHIELD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-11-24"
+  },
 ];
 
 const GOV_DEMAND_SUMMARY = {
@@ -69681,6 +69891,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-07-25
 // Auto-updated IPO pipeline — Last updated: 2026-07-25
 // Auto-updated IPO pipeline — Last updated: 2026-07-26
+// Auto-updated IPO pipeline — Last updated: 2026-07-26
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -72600,6 +72811,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-07-25
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-07-26
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-07-26
 const DEAL_TRACKER = [
   { company: "Wayve", investor: "Undisclosed", amount: "$8.5B", round: "Funding Round", date: "2026-07", valuation: "", leadOrParticipant: "lead" },
   { company: "Tenstorrent", investor: "Undisclosed", amount: "$8.3B", round: "Funding Round", date: "2026-07", valuation: "", leadOrParticipant: "lead" },
@@ -74026,6 +74239,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-07-24
 // Auto-updated revenue intelligence — Last updated: 2026-07-25
 // Auto-updated revenue intelligence — Last updated: 2026-07-25
+// Auto-updated revenue intelligence — Last updated: 2026-07-26
 // Auto-updated revenue intelligence — Last updated: 2026-07-26
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
@@ -77017,6 +77231,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-07-25
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-07-26
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-07-26
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$3.6B+", contractCount: 200, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], lastUpdated: "2026-07-26" },
   { company: "Palantir", totalGovValue: "$5.1B+", contractCount: 200, agencies: ["Department of Agriculture", "Department of Energy", "General Services Administration", "National Aeronautics and Space Administration", "Department of State"], lastUpdated: "2026-07-26" },
@@ -78418,6 +78634,8 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-07-25
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-07-26
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-07-26
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 120, velocity: "55-65/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 45, velocity: "17-27/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -78605,11 +78823,11 @@ const ALT_DATA_SIGNALS = [
   { company: "Neura Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "1 recent article" },
   { company: "Relativity Space", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "1 recent article" },
   { company: "Waymo", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "1 recent article" },
+  { company: "Blue Origin", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "" },
   { company: "Chaos Industries", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "2,300+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 2, keySignal: "Hiring velocity: rapid. Est. headcount: 2,300+" },
   { company: "Astera Labs", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "2,186+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 2, keySignal: "Hiring velocity: rapid. Est. headcount: 2,186+" },
   { company: "Flexport", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "2,143+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 2, keySignal: "Hiring velocity: rapid. Est. headcount: 2,143+" },
   { company: "Re:Build Manufacturing", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,814+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 2, keySignal: "Hiring velocity: rapid. Est. headcount: 1,814+" },
-  { company: "Tenstorrent", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,814+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 2, keySignal: "Hiring velocity: rapid. Est. headcount: 1,814+" },
 ];
 
 // =============================================================
@@ -79625,6 +79843,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-07-25
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-07-26
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-07-26
 const NEWS_FEED = [
   // ─── CURATED (Editorial Analysis) ───
   {
@@ -79670,24 +79890,25 @@ const NEWS_FEED = [
   { id: 14, company: "Cognition", headline: "Why Cognition bought Poke: AI personality is becoming a competitive advantage", source: "TechCrunch", category: "news", date: "2026-07-24", summary: "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as th", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/" },
   { id: 15, company: "OpenAI", headline: "China-US AI Race Escalates, OpenAI Models Break Free, and Why You Should Check Your Car Alarm", source: "Wired", category: "news", date: "2026-07-24", summary: "On this episode of Uncanny Valley, we dive into accusations that China’s Moonshot AI stole from Anthropic, and how the US Army needs to cut back on AI use.", impact: "low", sector: "General", url: "https://www.wired.com/story/uncanny-valley-podcast/" },
   { id: 16, company: "Anthropic", headline: "Anthropic launches Opus 5", source: "TechCrunch", category: "milestone", date: "2026-07-24", summary: "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/" },
-  { id: 17, company: "Neura Robotics", headline: "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI", source: "The Robot Report", category: "news", date: "2026-07-24", summary: "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI. The post NEURA Robotics establishes NEURA Gym RWTH Aachen to train physi", impact: "low", sector: "General", url: "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/" },
-  { id: 18, company: "Humanoid", headline: "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid", source: "The Robot Report", category: "funding", date: "2026-07-23", summary: "Holiday's robot features a wheel-based mobile base, an upper body for dexterous manipulation, and hot-swappable batteries. The post Holiday Robotics raises $105M for its FRIDAY wheeled humanoid appear", impact: "low", sector: "General", url: "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/" },
-  { id: 19, company: "Scale AI", headline: "PageMind raises €1.2M to scale AI for e-commerce product discovery", source: "Tech.eu", category: "funding", date: "2026-07-23", summary: "Spanish AIstartup PageMind has raised €1.2 million in funding to accelerate thedevelopment of its e-commerce optimisation platform, expand its team andsupport international growth, with the United Sta", impact: "low", sector: "General", url: "https://tech.eu/2026/07/23/pagemind-raises-eur12m-to-scale-ai-for-e-commerce-product-discovery/" },
-  { id: 20, company: "SpaceX", headline: "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings call", source: "Electrek", category: "ipo", date: "2026-07-23", summary: "Elon Musk hinted at a merger between Tesla and SpaceX on Tesla’s Q2 2026 earnings call, pointing to “more and more overlap” between the two companies he controls. He stopped short of confirming anythi", impact: "low", sector: "General", url: "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/" },
-  { id: 21, company: "Vast", headline: "Vast establishes division for national security projects", source: "SpaceNews", category: "news", date: "2026-07-22", summary: "Commercial space station and spacecraft developer Vast has established a new division intended to support work in national security space. The post Vast establishes division for national security pro", impact: "low", sector: "General", url: "https://spacenews.com/vast-establishes-division-for-national-security-projects/" },
-  { id: 22, company: "OpenAI", headline: "OpenAI and Datadog leaders back AI deployment startup Arrakis", source: "Tech.eu", category: "milestone", date: "2026-07-22", summary: "London-based AI deployment startup Arrakis has emerged from stealth, having raised nearly $40m in just over three months. Arrakis was founded by former Accel investor Rafael Quintanilla, along with fo", impact: "low", sector: "General", url: "https://tech.eu/2026/07/22/openai-and-datadog-leaders-back-ai-deployment-startup-arrakis/" },
-  { id: 23, company: "OpenAI", headline: "The Download: NASA’s new space telescope and OpenAI's autonomous hacker", source: "MIT Tech Review", category: "ipo", date: "2026-07-22", summary: "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telesco", impact: "low", sector: "General", url: "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/" },
-  { id: 24, company: "Relativity Space", headline: "Relativity Space to expand Terran R production in Florida", source: "SpaceNews", category: "ipo", date: "2026-07-22", summary: "Relativity Space struck a deal with Space Florida to build manufacturing and test facilities for its Terran R rocket on Florida’s Space Coast. The post Relativity Space to expand Terran R production", impact: "low", sector: "General", url: "https://spacenews.com/relativity-space-to-expand-terran-r-production-in-florida/" },
-  { id: 25, company: "OpenAI", headline: "OpenAI models hack Hugging Face systems during internal testing", source: "Sifted", category: "milestone", date: "2026-07-22", summary: "", impact: "low", sector: "General", url: "https://sifted.eu/articles/openai-hack-hugging-face/" },
-  { id: 26, company: "Deterrence", headline: "Backed by France, Macron sees Germany as nuclear-deterrence ‘vanguard’ in Europe", source: "Defense News", category: "news", date: "2026-07-22", summary: "A French nuclear-capable Rafale jet had been temporarily hosted at a German air base − specifically at Nörvenich near Cologne.", impact: "low", sector: "General", url: "https://www.defensenews.com/global/europe/2026/07/22/backed-by-france-macron-sees-germany-as-nuclear-deterrence-vanguard-in-europe/" },
-  { id: 27, company: "Humanoid", headline: "U.K.-based Humanoid secures $152M in Series A funding", source: "The Robot Report", category: "funding", date: "2026-07-21", summary: "Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments. The post U.K.-based Humanoid secures $152M in Series A funding a", impact: "medium", sector: "General", url: "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/" },
-  { id: 28, company: "SpaceX", headline: "SpaceX launches Northrop mission to extend the life of aging satellites", source: "SpaceNews", category: "ipo", date: "2026-07-21", summary: "DARPA-backed vehicle will install propulsion pods on three commercial satellites in geostationary orbit The post SpaceX launches Northrop mission to extend the life of aging satellites appeared first", impact: "low", sector: "General", url: "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/" },
-  { id: 29, company: "Humanoid", headline: "Generative Bionics unveils humanoid robot with full-body tactile sensing", source: "The Robot Report", category: "news", date: "2026-07-21", summary: "Generative Bionics said its Gene.01 humanoid is fully sensorized, helping it quickly anticipate human presence and respond. The post Generative Bionics unveils humanoid robot with full-body tactile se", impact: "low", sector: "General", url: "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/" },
-  { id: 30, company: "Humanoid", headline: "UK robotics startup Humanoid hits $1.35B valuation with $152M Series A", source: "Tech.eu", category: "funding", date: "2026-07-21", summary: "Humanoid, a UK-based AI and robotics company building industrial humanoid robots, today announced a $152 million Series A financing at a $1.35 billion post-money valuation. This funding brings the to", impact: "medium", sector: "General", url: "https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/" },
-  { id: 31, company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", category: "ipo", date: "2026-07-14", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/" },
-  { id: 32, company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", category: "funding", date: "2026-07-07", summary: "", impact: "low", sector: "General", url: "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m" },
-  { id: 33, company: "Deterrence", headline: "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence", source: "War on the Rocks", category: "news", date: "2026-06-29", summary: "During the Cold War, Europe kept asking whether Washington would risk an American city to save a European one. It was an impolite question, but a useful one, which is why it never quite left the room.", impact: "low", sector: "General", url: "https://warontherocks.com/a-new-force-posture-concept-for-europeanizing-extended-nuclear-deterrence/" },
-  { id: 34, company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", category: "news", date: "2026-06-26", summary: "Nuclear policy debates are at their best when they force hard questions about risk, deterrence, and military necessity. They are at their worst when disagreement is recast as bad faith. In 2018, as an", impact: "low", sector: "General", url: "https://warontherocks.com/not-imaginary-the-deterrence-gap-is-real-and-america-needs-low-yield-nukes/" },
+  { id: 17, company: "Blue Origin", headline: "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis", source: "NASA Breaking News", category: "milestone", date: "2026-07-24", summary: "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near B", impact: "low", sector: "General", url: "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/" },
+  { id: 18, company: "Neura Robotics", headline: "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI", source: "The Robot Report", category: "news", date: "2026-07-24", summary: "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI. The post NEURA Robotics establishes NEURA Gym RWTH Aachen to train physi", impact: "low", sector: "General", url: "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/" },
+  { id: 19, company: "Humanoid", headline: "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid", source: "The Robot Report", category: "funding", date: "2026-07-23", summary: "Holiday's robot features a wheel-based mobile base, an upper body for dexterous manipulation, and hot-swappable batteries. The post Holiday Robotics raises $105M for its FRIDAY wheeled humanoid appear", impact: "low", sector: "General", url: "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/" },
+  { id: 20, company: "Scale AI", headline: "PageMind raises €1.2M to scale AI for e-commerce product discovery", source: "Tech.eu", category: "funding", date: "2026-07-23", summary: "Spanish AIstartup PageMind has raised €1.2 million in funding to accelerate thedevelopment of its e-commerce optimisation platform, expand its team andsupport international growth, with the United Sta", impact: "low", sector: "General", url: "https://tech.eu/2026/07/23/pagemind-raises-eur12m-to-scale-ai-for-e-commerce-product-discovery/" },
+  { id: 21, company: "SpaceX", headline: "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings call", source: "Electrek", category: "ipo", date: "2026-07-23", summary: "Elon Musk hinted at a merger between Tesla and SpaceX on Tesla’s Q2 2026 earnings call, pointing to “more and more overlap” between the two companies he controls. He stopped short of confirming anythi", impact: "low", sector: "General", url: "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/" },
+  { id: 22, company: "Vast", headline: "Vast establishes division for national security projects", source: "SpaceNews", category: "news", date: "2026-07-22", summary: "Commercial space station and spacecraft developer Vast has established a new division intended to support work in national security space. The post Vast establishes division for national security pro", impact: "low", sector: "General", url: "https://spacenews.com/vast-establishes-division-for-national-security-projects/" },
+  { id: 23, company: "OpenAI", headline: "OpenAI and Datadog leaders back AI deployment startup Arrakis", source: "Tech.eu", category: "milestone", date: "2026-07-22", summary: "London-based AI deployment startup Arrakis has emerged from stealth, having raised nearly $40m in just over three months. Arrakis was founded by former Accel investor Rafael Quintanilla, along with fo", impact: "low", sector: "General", url: "https://tech.eu/2026/07/22/openai-and-datadog-leaders-back-ai-deployment-startup-arrakis/" },
+  { id: 24, company: "OpenAI", headline: "The Download: NASA’s new space telescope and OpenAI's autonomous hacker", source: "MIT Tech Review", category: "ipo", date: "2026-07-22", summary: "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telesco", impact: "low", sector: "General", url: "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/" },
+  { id: 25, company: "Relativity Space", headline: "Relativity Space to expand Terran R production in Florida", source: "SpaceNews", category: "ipo", date: "2026-07-22", summary: "Relativity Space struck a deal with Space Florida to build manufacturing and test facilities for its Terran R rocket on Florida’s Space Coast. The post Relativity Space to expand Terran R production", impact: "low", sector: "General", url: "https://spacenews.com/relativity-space-to-expand-terran-r-production-in-florida/" },
+  { id: 26, company: "OpenAI", headline: "OpenAI models hack Hugging Face systems during internal testing", source: "Sifted", category: "milestone", date: "2026-07-22", summary: "", impact: "low", sector: "General", url: "https://sifted.eu/articles/openai-hack-hugging-face/" },
+  { id: 27, company: "Deterrence", headline: "Backed by France, Macron sees Germany as nuclear-deterrence ‘vanguard’ in Europe", source: "Defense News", category: "news", date: "2026-07-22", summary: "A French nuclear-capable Rafale jet had been temporarily hosted at a German air base − specifically at Nörvenich near Cologne.", impact: "low", sector: "General", url: "https://www.defensenews.com/global/europe/2026/07/22/backed-by-france-macron-sees-germany-as-nuclear-deterrence-vanguard-in-europe/" },
+  { id: 28, company: "Humanoid", headline: "U.K.-based Humanoid secures $152M in Series A funding", source: "The Robot Report", category: "funding", date: "2026-07-21", summary: "Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments. The post U.K.-based Humanoid secures $152M in Series A funding a", impact: "medium", sector: "General", url: "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/" },
+  { id: 29, company: "SpaceX", headline: "SpaceX launches Northrop mission to extend the life of aging satellites", source: "SpaceNews", category: "ipo", date: "2026-07-21", summary: "DARPA-backed vehicle will install propulsion pods on three commercial satellites in geostationary orbit The post SpaceX launches Northrop mission to extend the life of aging satellites appeared first", impact: "low", sector: "General", url: "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/" },
+  { id: 30, company: "Humanoid", headline: "Generative Bionics unveils humanoid robot with full-body tactile sensing", source: "The Robot Report", category: "news", date: "2026-07-21", summary: "Generative Bionics said its Gene.01 humanoid is fully sensorized, helping it quickly anticipate human presence and respond. The post Generative Bionics unveils humanoid robot with full-body tactile se", impact: "low", sector: "General", url: "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/" },
+  { id: 31, company: "Humanoid", headline: "UK robotics startup Humanoid hits $1.35B valuation with $152M Series A", source: "Tech.eu", category: "funding", date: "2026-07-21", summary: "Humanoid, a UK-based AI and robotics company building industrial humanoid robots, today announced a $152 million Series A financing at a $1.35 billion post-money valuation. This funding brings the to", impact: "medium", sector: "General", url: "https://tech.eu/2026/07/21/uk-robotics-startup-humanoid-hits-135b-valuation-with-152m-series-a/" },
+  { id: 32, company: "SpaceX", headline: "SpaceX is gearing up for Starship's 13th test flight later this week", source: "Ars Technica Space", category: "ipo", date: "2026-07-14", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/" },
+  { id: 33, company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", category: "funding", date: "2026-07-07", summary: "", impact: "low", sector: "General", url: "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m" },
+  { id: 34, company: "Deterrence", headline: "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence", source: "War on the Rocks", category: "news", date: "2026-06-29", summary: "During the Cold War, Europe kept asking whether Washington would risk an American city to save a European one. It was an impolite question, but a useful one, which is why it never quite left the room.", impact: "low", sector: "General", url: "https://warontherocks.com/a-new-force-posture-concept-for-europeanizing-extended-nuclear-deterrence/" },
+  { id: 35, company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", category: "news", date: "2026-06-26", summary: "Nuclear policy debates are at their best when they force hard questions about risk, deterrence, and military necessity. They are at their worst when disagreement is recast as bad faith. In 2018, as an", impact: "low", sector: "General", url: "https://warontherocks.com/not-imaginary-the-deterrence-gap-is-real-and-america-needs-low-yield-nukes/" },
 ];
 
 const STORY_LEADS = [
@@ -82239,15 +82460,17 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-07-26 09:20
+// Auto-generated real-time signals
+// Last updated: 2026-07-26
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", time: "13h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", time: "15h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "19h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days", source: "Wired", time: "22h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t Tell Trump!)", source: "CleanTechnica", time: "19h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were ‘Active on the Internet’ for Days", source: "Wired", time: "22h ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "Miracle Survival SpaceX Starship 13", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX conducts 13th Starship test flight", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Returns Intact", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "I tried out OpenAI's new AI keypad ' which will be fun for some coders and slightly mystifying to everyone else", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "I tried out OpenAI&#8217;s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX launches new V3 Starlink satellites but suffers another booster failure", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Mission Was Perfect", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "Anthropic", headline: "Anthropic Opus 5 Built ISS Tracker", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
@@ -82848,6 +83071,8 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-07-25
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-07-26
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-07-26
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -83412,6 +83637,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-07-25
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-07-25
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-07-26
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-07-26
 const CONTRACTOR_READINESS = [
