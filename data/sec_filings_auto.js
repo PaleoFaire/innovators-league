@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-25 08:11:21 UTC
+// Last updated: 2026-07-26 08:31:50 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-07-24", description: "xslF345X06/wk-form4_1784937605.xml", isIPO: false, ticker: "PLTR" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-07-24", description: "qbts-20260724.htm", isIPO: false, ticker: "QBTS" },

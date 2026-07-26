@@ -105,8 +105,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 950,
-    "headcountFormatted": "950+"
+    "estimatedHeadcount": 986,
+    "headcountFormatted": "1000+"
   },
   {
     "company": "SpaceX",
@@ -282,7 +282,7 @@
     ],
     "keyIndicators": {
       "clearance": false,
-      "itar_compliant": false,
+      "itar_compliant": true,
       "cmmc_level_3": false
     },
     "estimatedHeadcount": 0,
@@ -393,8 +393,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1471,
-    "headcountFormatted": "1,471+"
+    "estimatedHeadcount": 1457,
+    "headcountFormatted": "1,457+"
   },
   {
     "company": "Rigetti Computing",
@@ -462,7 +462,7 @@
     ],
     "keyIndicators": {
       "clearance": false,
-      "itar_compliant": false,
+      "itar_compliant": true,
       "cmmc_level_3": false
     },
     "estimatedHeadcount": 0,
@@ -874,6 +874,22 @@
     "headcountFormatted": ""
   },
   {
+    "company": "ICEYE",
+    "sector": "Space & Aerospace",
+    "readinessScore": 83,
+    "govTractionScore": 8,
+    "compositeScore": 74.5,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": true,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
     "company": "Raphe mPhibr",
     "sector": "Defense & Security",
     "readinessScore": 83,
@@ -1032,22 +1048,6 @@
     },
     "estimatedHeadcount": 871,
     "headcountFormatted": "850+"
-  },
-  {
-    "company": "ICEYE",
-    "sector": "Space & Aerospace",
-    "readinessScore": 80,
-    "govTractionScore": 8,
-    "compositeScore": 74.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
   },
   {
     "company": "Swift Beat",
@@ -1322,6 +1322,22 @@
     },
     "estimatedHeadcount": 1871,
     "headcountFormatted": "1,871+"
+  },
+  {
+    "company": "Strider Technologies",
+    "sector": "Defense & Security",
+    "readinessScore": 75,
+    "govTractionScore": 7,
+    "compositeScore": 79.5,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": true,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
   },
   {
     "company": "Picogrid",
@@ -1820,22 +1836,6 @@
     "headcountFormatted": ""
   },
   {
-    "company": "Strider Technologies",
-    "sector": "Defense & Security",
-    "readinessScore": 70,
-    "govTractionScore": 7,
-    "compositeScore": 79.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "Gravitics",
     "sector": "Space & Aerospace",
     "readinessScore": 70,
@@ -2257,6 +2257,22 @@
     "readinessScore": 63,
     "govTractionScore": 6,
     "compositeScore": 67.0,
+    "contractsTracked": 0,
+    "agencies": [],
+    "keyIndicators": {
+      "clearance": false,
+      "itar_compliant": true,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
+    "company": "Kela",
+    "sector": "Defense & Security",
+    "readinessScore": 63,
+    "govTractionScore": 6,
+    "compositeScore": 70.5,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {
@@ -2721,22 +2737,6 @@
     "readinessScore": 60,
     "govTractionScore": 6,
     "compositeScore": 74.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
-    "company": "Kela",
-    "sector": "Defense & Security",
-    "readinessScore": 60,
-    "govTractionScore": 6,
-    "compositeScore": 70.5,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {

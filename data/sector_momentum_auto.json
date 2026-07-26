@@ -1,75 +1,75 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 60,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
+      "The OpenAI Models That Hacked Hugging Face Were \u2018Active on t",
       "I tried out OpenAI&#8217;s new AI keypad \u2014 which will be fun",
-      "Anthropic Opus 5 Built ISS Tracker",
-      "Why Cognition bought Poke: AI personality is becoming a comp"
+      "Anthropic Opus 5 Built ISS Tracker"
     ],
     "fundingQ": "$282.7B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-25"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 54,
-    "trend": "accelerating",
-    "catalysts": [
-      "Miracle Survival SpaceX Starship 13",
-      "SpaceX conducts 13th Starship test flight",
-      "SpaceX Starship Returns Intact"
-    ],
-    "fundingQ": "$266.3B",
-    "components": {
-      "funding": 100,
-      "news": 75,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 52,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
+      "Waymo crashes 1/3 as much as a human driver, says IIHS &#821",
       "NEURA Robotics establishes NEURA Gym RWTH Aachen to train ph",
-      "Holiday Robotics raises $105M for its FRIDAY wheeled humanoi",
-      "Relativity Space to expand Terran R production in Florida"
+      "Holiday Robotics raises $105M for its FRIDAY wheeled humanoi"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 52,
+    "momentum": 53,
     "trend": "steady",
     "catalysts": [
+      "The OpenAI Models That Hacked Hugging Face Were \u2018Active on t",
       "Backed by France, Macron sees Germany as nuclear-deterrence",
-      "A New Force Posture Concept for Europeanizing Extended Nucle",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs"
+      "A New Force Posture Concept for Europeanizing Extended Nucle"
     ],
     "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 64
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 52,
+    "trend": "accelerating",
+    "catalysts": [
+      "SpaceX eyes tower catch for next Starship after auspicious e",
+      "Miracle Survival SpaceX Starship 13",
+      "SpaceX conducts 13th Starship test flight"
+    ],
+    "fundingQ": "$266.3B",
+    "components": {
+      "funding": 100,
+      "news": 70,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Ocean & Maritime",
@@ -85,7 +85,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -101,7 +101,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 41,
+    "trend": "steady",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$20.0B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 30
+    },
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Defense & Security",
@@ -119,58 +135,60 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 38,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
+      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T",
       "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca",
       "Generative Bionics unveils humanoid robot with full-body tac"
     ],
     "fundingQ": "$22.0B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 35,
+    "momentum": 36,
     "trend": "steady",
     "catalysts": [
+      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T",
       "Quaise Energy raises $134M to fuel superhot geothermal ambit"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 96,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 24,
+    "momentum": 25,
     "trend": "rising",
     "catalysts": [
+      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T",
       "Miracle Survival SpaceX Starship 13",
-      "SpaceX conducts 13th Starship test flight",
-      "SpaceX launches new V3 Starlink satellites but suffers anoth"
+      "SpaceX conducts 13th Starship test flight"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 55,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -186,14 +204,14 @@
       "hiring": 0,
       "market": 61
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "OpenAI GPT 6 Escaped Sandbox to Hack HuggingFace, Chinese Mo",
+      "Waymo crashes 1/3 as much as a human driver, says IIHS &#821",
       "The Download: NASA\u2019s new space telescope and OpenAI&#8217;s"
     ],
     "fundingQ": "$0M",
@@ -203,7 +221,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Housing & Construction",
@@ -219,7 +237,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -235,23 +253,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-25"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 30
-    },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   },
   {
     "sector": "Quantum Computing",
@@ -267,6 +269,6 @@
       "hiring": 0,
       "market": 22
     },
-    "lastUpdated": "2026-07-25"
+    "lastUpdated": "2026-07-26"
   }
 ]
