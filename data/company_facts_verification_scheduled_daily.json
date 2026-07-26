@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T07:52:46+00:00",
+  "generatedAt": "2026-07-26T08:09:28+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
   "cohortSize": 29,
@@ -21,19 +21,19 @@
     "Dexterity",
     "Durin",
     "Firehawk Aerospace",
-    "Galvanick",
     "Gecko Robotics",
     "Humanoid",
     "Karman Industries",
     "Mach Industries",
-    "Neura Robotics",
     "Percepto",
     "Quaise Energy",
     "Relativity Space",
     "RobCo",
+    "Scale AI",
     "Solugen",
     "Ursa Major Technologies",
     "Vast",
+    "Waymo",
     "Xtend",
     "ideaForge"
   ],
@@ -51,7 +51,7 @@
       },
       "verified": {
         "name": "Blue Origin",
-        "description": "Private American space technology company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and is developing the Blue Moon human lunar lander for NASA's Artemis program.",
+        "description": "Private American space technology company that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and is developing the Blue Moon human lunar lander for NASA's Artemis program.",
         "founders": [
           "Jeff Bezos"
         ],
@@ -85,7 +85,7 @@
             0
           ]
         },
-        "notes": "Wikipedia lists company as 'Private' not 'SPAC' as in database entry. No total_raised, valuation, or specific investor information found in sources. Current CEO is Dave Limp (as of September 2023)."
+        "notes": "Database entry listed stage as 'SPAC' but source [0] clearly states the company is 'Private' with no indication of SPAC status or IPO plans. Database entry listed '$10B+' total_raised but sources provided do not contain specific fundraising figures. Database entry listed 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify external investor names."
       },
       "changes": [
         {
@@ -109,43 +109,32 @@
           "url": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/"
         }
       ],
-      "notes": "Wikipedia lists company as 'Private' not 'SPAC' as in database entry. No total_raised, valuation, or specific investor information found in sources. Current CEO is Dave Limp (as of September 2023)."
+      "notes": "Database entry listed stage as 'SPAC' but source [0] clearly states the company is 'Private' with no indication of SPAC status or IPO plans. Database entry listed '$10B+' total_raised but sources provided do not contain specific fundraising figures. Database entry listed 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify external investor names."
     },
     {
-      "name": "Scale AI",
+      "name": "Neura Robotics",
       "current": {
-        "name": "Scale AI",
-        "founder": "Alexandr Wang, Lucy Guo",
-        "location": "San Francisco, California",
-        "founded": 2016,
-        "fundingStage": "Private",
-        "totalRaised": "$15.9B",
-        "website": "https://scale.com"
+        "name": "Neura Robotics",
+        "founder": "David Reger",
+        "location": "Metzingen, Germany",
+        "founded": 2019,
+        "fundingStage": "Series C",
+        "totalRaised": "$1.4B",
+        "website": "https://www.neura-robotics.com"
       },
       "verified": {
-        "name": "Scale AI",
-        "description": "An artificial intelligence infrastructure and software company that provides high-quality training data, RLHF services, LLM evaluation, and enterprise software suites to build and deploy AI applications.",
+        "name": "Neura Robotics",
+        "description": "German robotics company founded in 2019 that develops cognitive and collaborative robots designed to work alongside humans in manufacturing, logistics, and healthcare. The company produces humanoid robots including the 4NE1 model and operates the Neuraverse platform for robot learning and skill sharing.",
         "founders": [
-          "Alexandr Wang",
-          "Lucy Guo"
+          "David Reger"
         ],
-        "location": "San Francisco, California, United States",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": "$29B",
-        "investors": [
-          "Meta",
-          "Accel",
-          "Founders Fund",
-          "Index Ventures",
-          "Tiger Global",
-          "Coatue",
-          "Dragoneer",
-          "Greenoaks",
-          "Amazon"
-        ],
-        "website": "https://scale.com",
+        "location": "Metzingen, Germany",
+        "founded_year": 2019,
+        "current_stage": "Series B",
+        "total_raised": "$123.3M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.neura-robotics.com",
         "sources_per_field": {
           "name": [
             0,
@@ -153,9 +142,12 @@
             2
           ],
           "description": [
+            0,
+            1,
             2
           ],
           "founders": [
+            1,
             2
           ],
           "location": [
@@ -167,13 +159,9 @@
             2
           ],
           "current_stage": [
-            2
+            1
           ],
-          "valuation": [
-            1,
-            2
-          ],
-          "investors": [
+          "total_raised": [
             2
           ],
           "website": [
@@ -182,15 +170,22 @@
             2
           ]
         },
-        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced by Jason Droege as CEO. Company remains independent. Lucy Guo was fired in 2018 but is listed as co-founder."
+        "notes": "Database entry references Series C with $1.4B raise, but sources only confirm Series B in January 2025 for \u20ac120M (~$123.3M). Series C claim cannot be verified from provided sources. Database entry listed valuation as undisclosed; no valuation found in sources. Investor list from database cannot be verified from provided sources."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "San Francisco, California",
-          "verified": "San Francisco, California, United States",
+          "field": "fundingStage",
+          "current": "Series C",
+          "verified": "Series B",
           "sources": [
-            1,
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$1.4B",
+          "verified": "$123.3M",
+          "sources": [
             2
           ]
         }
@@ -199,25 +194,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://scale.com"
+          "url": "https://www.neura-robotics.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://scale.com/about"
+          "url": "https://www.neura-robotics.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Scale_AI"
+          "url": "https://en.wikipedia.org/wiki/Neura_Robotics"
         },
         {
           "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/07/23/pagemind-raises-eur12m-to-scale-ai-for-e-commerce-product-discovery/"
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/"
         }
       ],
-      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced by Jason Droege as CEO. Company remains independent. Lucy Guo was fired in 2018 but is listed as co-founder."
+      "notes": "Database entry references Series C with $1.4B raise, but sources only confirm Series B in January 2025 for \u20ac120M (~$123.3M). Series C claim cannot be verified from provided sources. Database entry listed valuation as undisclosed; no valuation found in sources. Investor list from database cannot be verified from provided sources."
     },
     {
       "name": "SpaceX",
@@ -232,7 +227,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company that operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates orbital launches, Starlink satellite communications, and artificial intelligence divisions including Grok.",
         "founders": [
           "Elon Musk"
         ],
@@ -274,7 +269,7 @@
             0
           ]
         },
-        "notes": "SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. As of May 2026, Falcon 9 launches averaged approximately three missions per week with nearly 650 booster landings and reflights completed. No valuation figure could be verified from sources provided; database entry claims $1.65T but this is not supported by the Wikipedia article which does not state a current valuation."
+        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Company is now publicly traded on Nasdaq (SPCX). Valuation not extracted because sources do not provide a current verified valuation figure; database entry lists $1.65T but this is not supported by provided sources. Elon Musk controls 85% voting power per Wikipedia (not 82% as in database entry)."
       },
       "changes": [
         {
@@ -294,21 +289,21 @@
         },
         {
           "idx": 1,
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/"
+        },
+        {
+          "idx": 2,
           "src": "news (Next Big Future)",
           "url": "https://www.nextbigfuture.com/2026/07/miracle-survival-spacex-starship-13.html"
         },
         {
-          "idx": 2,
+          "idx": 3,
           "src": "news (SpaceNews)",
           "url": "https://spacenews.com/spacex-conducts-13th-starship-test-flight/"
-        },
-        {
-          "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-returns-intact.html"
         }
       ],
-      "notes": "SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. As of May 2026, Falcon 9 launches averaged approximately three missions per week with nearly 650 booster landings and reflights completed. No valuation figure could be verified from sources provided; database entry claims $1.65T but this is not supported by the Wikipedia article which does not state a current valuation."
+      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Company is now publicly traded on Nasdaq (SPCX). Valuation not extracted because sources do not provide a current verified valuation figure; database entry lists $1.65T but this is not supported by provided sources. Elon Musk controls 85% voting power per Wikipedia (not 82% as in database entry)."
     }
   ],
   "unverifiable": []
