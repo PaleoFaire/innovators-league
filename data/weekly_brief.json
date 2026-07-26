@@ -1,84 +1,84 @@
 {
-  "date": "2026-07-20",
-  "display_date": "Jul 20, 2026",
-  "generated_at": "2026-07-20T12:20:25.760004+00:00",
-  "cutoff": "2026-07-13T12:20:25.760004+00:00",
+  "date": "2026-07-26",
+  "display_date": "Jul 26, 2026",
+  "generated_at": "2026-07-26T11:03:14.979184+00:00",
+  "cutoff": "2026-07-19T11:03:14.979184+00:00",
   "section_count": 7,
-  "total_items": 309,
+  "total_items": 294,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 64,
+      "count": 48,
       "items": [
         {
-          "company": "Onebrief",
-          "current": 39.0,
-          "previous": 36.0,
+          "company": "Slate Auto",
+          "current": 35.5,
+          "previous": 29.5,
+          "change": 6.0,
+          "tier": "early"
+        },
+        {
+          "company": "JetZero",
+          "current": 35.0,
+          "previous": 29.0,
+          "change": 6.0,
+          "tier": "early"
+        },
+        {
+          "company": "Electra.aero",
+          "current": 35.0,
+          "previous": 29.0,
+          "change": 6.0,
+          "tier": "early"
+        },
+        {
+          "company": "Chai Discovery",
+          "current": 35.5,
+          "previous": 32.0,
+          "change": 3.5,
+          "tier": "early"
+        },
+        {
+          "company": "Resilience",
+          "current": 36.0,
+          "previous": 33.0,
           "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Onebrief",
+          "current": 36.0,
+          "previous": 39.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Kodiak AI",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
+          "current": 35.5,
+          "previous": 38.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "BRINC Drones",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
+          "current": 35.5,
+          "previous": 38.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Echodyne",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
+          "current": 35.5,
+          "previous": 38.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
           "company": "Viken Detection",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "BlackSea Technologies",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Cape",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Govini",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Perennial Autonomy",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Kratos Defense",
-          "current": 38.5,
-          "previous": 35.5,
-          "change": 3.0,
+          "current": 35.5,
+          "previous": 38.5,
+          "change": -3.0,
           "tier": "early"
         }
       ]
@@ -86,62 +86,62 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 16,
+      "count": 12,
       "items": [
         {
           "company": "AST SpaceMobile",
           "form": "8-K",
           "description": "form8-k.htm",
-          "date": "2026-07-15",
+          "date": "2026-07-20",
           "isIPO": false
         },
         {
-          "company": "C3.ai",
+          "company": "Momentus",
           "form": "8-K",
-          "description": "ai-20260714.htm",
-          "date": "2026-07-17",
+          "description": "tm2621205d1_8k.htm",
+          "date": "2026-07-23",
           "isIPO": false
         },
         {
           "company": "D-Wave Quantum",
           "form": "8-K",
-          "description": "qbts-20260714.htm",
-          "date": "2026-07-14",
+          "description": "qbts-20260724.htm",
+          "date": "2026-07-24",
           "isIPO": false
         },
         {
           "company": "Satellogic",
-          "form": "10-K",
-          "description": "ea0296662-10k_zoomcar.htm",
-          "date": "2026-07-14",
+          "form": "8-K",
+          "description": "ea0299090-8k_zoomcar.htm",
+          "date": "2026-07-23",
           "isIPO": false
         },
         {
           "company": "Palantir Technologies",
           "form": "4",
-          "description": "xslF345X06/wk-form4_1784333024.xml",
-          "date": "2026-07-17",
+          "description": "xslF345X06/wk-form4_1784937605.xml",
+          "date": "2026-07-24",
           "isIPO": false
         },
         {
-          "company": "C3.ai",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1784234476.xml",
-          "date": "2026-07-16",
+          "company": "BlackSky Technology",
+          "form": "DEF 14A",
+          "description": "bksy-20260723.htm",
+          "date": "2026-07-23",
           "isIPO": false
         },
         {
-          "company": "C3.ai",
+          "company": "D-Wave Quantum",
           "form": "4",
-          "description": "xslF345X06/wk-form4_1784234443.xml",
-          "date": "2026-07-16",
+          "description": "xslF345X06/wk-form4_1784671121.xml",
+          "date": "2026-07-21",
           "isIPO": false
         },
         {
-          "company": "IonQ",
+          "company": "Ginkgo Bioworks",
           "form": "4",
-          "description": "xslF345X06/wk-form4_1784309188.xml",
-          "date": "2026-07-17",
+          "description": "xslF345X06/wk-form4_1784581219.xml",
+          "date": "2026-07-20",
           "isIPO": false
         }
       ]
@@ -149,136 +149,140 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 1,
+      "count": 2,
       "items": [
         {
-          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UA",
+          "title": "DO 23 O&S WITH SOW.",
           "agency": "",
           "value": "",
-          "date": "2026-07-15"
+          "date": "2026-07-21"
+        },
+        {
+          "title": "EO 14398 MULTI-MEDIA PRODUCTS & SERVICES NOTC- CALL ORDER 5",
+          "agency": "",
+          "value": "",
+          "date": "2026-07-20"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 37,
+      "count": 48,
       "items": [
         {
-          "title": "Pipeline Safety: Joint Meeting of the Gas and Liquid Pipeline Advisory Committees",
+          "title": "Information Collection Being Reviewed by the Federal Communications Commission",
           "type": "Notice",
           "agencies": [
-            "Transportation Department",
-            "Pipeline and Hazardous Materials Safety Administration"
+            "Federal Communications Commission"
           ],
           "significant": false,
-          "date": "2026-07-17"
+          "date": "2026-07-27"
         },
         {
-          "title": "Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exc",
+          "title": "Information Collection Being Reviewed by the Federal Communications Commission Delegated Authority",
+          "type": "Notice",
+          "agencies": [
+            "Federal Communications Commission"
+          ],
+          "significant": false,
+          "date": "2026-07-27"
+        },
+        {
+          "title": "Review of Submarine Cable Landing License Rules and Procedures To Assess Evolving National Security, Law Enforcement, Fo",
           "type": "Rule",
           "agencies": [
-            "Homeland Security Department"
+            "Federal Communications Commission"
           ],
           "significant": false,
-          "date": "2026-07-17"
+          "date": "2026-07-27"
         },
         {
-          "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices",
+          "title": "Modernizing Package Certification Requirements",
           "type": "Proposed Rule",
           "agencies": [
             "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-07-16"
+          "date": "2026-07-27"
         },
         {
-          "title": "Enhanced Favorable Treatment for the United Arab Emirates Under the Export Administration Regulations",
-          "type": "Rule",
-          "agencies": [
-            "Commerce Department",
-            "Industry and Security Bureau"
-          ],
-          "significant": false,
-          "date": "2026-07-14"
-        },
-        {
-          "title": "Privacy Act of 1974; System of Records",
-          "type": "Notice",
-          "agencies": [
-            "Postal Service"
-          ],
-          "significant": false,
-          "date": "2026-07-17"
-        },
-        {
-          "title": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Pa",
+          "title": "Reducing Barriers to Medical Use Licensing",
           "type": "Proposed Rule",
           "agencies": [
-            "Health and Human Services Department",
-            "Centers for Medicare & Medicaid Services"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-07-16"
+          "date": "2026-07-27"
+        },
+        {
+          "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Supplement; Covered Defense Telecommunication",
+          "type": "Notice",
+          "agencies": [
+            "Defense Department",
+            "Defense Acquisition Regulations System"
+          ],
+          "significant": false,
+          "date": "2026-07-27"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 26,
+      "count": 29,
       "items": [
         {
-          "title": "SpaceX Is Secretly Winning the AI War on Earth \u2014 $82 Billion Run Rate Incoming",
-          "source": "Next Big Future",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "hire"
-        },
-        {
-          "title": "Databricks hits $188B valuation, extending its run as AI&#8217;s favorite second act",
-          "source": "TechCrunch",
-          "company": "Databricks",
+          "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+          "source": "The Robot Report",
+          "company": "Humanoid",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "source": "TechCrunch",
-          "company": "Valar Atomics",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Saronic picks Brownsville, Texas, for $3 billion Port Alpha shipyard",
-          "source": "Defense News",
-          "company": "Saronic",
-          "impact": "high",
+          "title": "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats",
+          "source": "Electrek",
+          "company": "Waymo",
+          "impact": "low",
           "type": "news"
         },
         {
-          "title": "Helsing secures $1.8B Series E,  Uber acquiring Delivery Hero in \u20ac13B deal, and Revolut to launch US",
-          "source": "Tech.eu",
-          "company": "Helsing",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
-          "source": "Sifted",
-          "company": "Monumental",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Elon Musk Denies Report SpaceX was Buying 1 Million B300 GPUs and Racks",
-          "source": "Next Big Future",
+          "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
+          "source": "Ars Technica Space",
           "company": "SpaceX",
-          "impact": "medium",
+          "impact": "low",
           "type": "ipo"
         },
         {
-          "title": "SpaceX Starship Flight 13 Pushed to Friday July 24, 2026",
+          "title": "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t Tell Trump!)",
+          "source": "CleanTechnica",
+          "company": "Dust",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "The OpenAI Models That Hacked Hugging Face Were \u2018Active on the Internet\u2019 for Days",
+          "source": "Wired",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "Miracle Survival SpaceX Starship 13",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
+        },
+        {
+          "title": "SpaceX conducts 13th Starship test flight",
+          "source": "SpaceNews",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
+        },
+        {
+          "title": "SpaceX Starship Returns Intact",
           "source": "Next Big Future",
           "company": "SpaceX",
           "impact": "low",
@@ -289,121 +293,108 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 56,
+      "count": 61,
       "items": [
         {
-          "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-          "score": 2316,
-          "comments": 247,
-          "companies": [
-            "Quilter",
-            "Built Robotics",
-            "Cape",
-            "Fortera",
-            "QuantWare",
-            "Xanadu Quantum Technologies",
-            "Bear Robotics",
-            "Pano AI",
-            "Humane",
-            "Figure AI",
-            "Scale AI",
-            "Diode",
-            "Twelve Labs",
-            "Tenstorrent",
-            "Earth AI",
-            "Durin",
-            "Hive AI"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48968606"
-        },
-        {
-          "title": "LG monitors silently install software through Windows Update without consent",
-          "score": 1202,
-          "comments": 616,
-          "companies": [
-            "Runway"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48956688"
-        },
-        {
-          "title": "Qwen 3.8",
-          "score": 879,
-          "comments": 606,
-          "companies": [
-            "Rigetti Computing"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48966120"
-        },
-        {
-          "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-          "score": 592,
-          "comments": 386,
-          "companies": [
-            "OpenAI",
-            "Fortera"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48957779"
-        },
-        {
-          "title": "Claude Code uses Bun written in Rust now",
-          "score": 517,
-          "comments": 683,
+          "title": "Claude Opus 5",
+          "score": 1528,
+          "comments": 862,
           "companies": [
             "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=48966569"
+          "url": "https://news.ycombinator.com/item?id=49038433"
         },
         {
-          "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
-          "score": 490,
-          "comments": 222,
+          "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+          "score": 1042,
+          "comments": 861,
           "companies": [
-            "QuantWare",
-            "Quilter",
-            "Diode",
-            "Humane"
+            "Palantir"
           ],
-          "url": "https://news.ycombinator.com/item?id=48966713"
+          "url": "https://news.ycombinator.com/item?id=49023016"
+        },
+        {
+          "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+          "score": 681,
+          "comments": 368,
+          "companies": [
+            "Rebellion Defense",
+            "Umbra",
+            "Vannevar Labs",
+            "Reveal Technology"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49020999"
+        },
+        {
+          "title": "India's first privately-developed rocket reaches orbit on debut launch",
+          "score": 599,
+          "comments": 171,
+          "companies": [
+            "Matic Robotics"
+          ],
+          "url": "https://news.ycombinator.com/item?id=48973835"
+        },
+        {
+          "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+          "score": 597,
+          "comments": 261,
+          "companies": [
+            "ICON",
+            "Conductor Quantum",
+            "Photonic Inc"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49035303"
+        },
+        {
+          "title": "My security camera shipped a GitHub admin token in its login page",
+          "score": 585,
+          "comments": 189,
+          "companies": [
+            "Cape",
+            "ideaForge",
+            "Percepto"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49034292"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 109,
+      "count": 94,
       "items": [
         {
-          "title": "Man Group PLC : Form 8.3 - Senior plc",
+          "title": "Banco Comercial Portugu\u00eas, S.A. informs about Interim report on the transactions conducted under the Share Buy- Back Pro",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Webuy Expands China Inbound Travel Capabilities Through Strategic Partnership with Moyu Travel and MeetPanda",
+          "title": "Banco Comercial Portugu\u00eas, S.A. informa sobre Relat\u00f3rio intercalar das opera\u00e7\u00f5es realizadas no \u00e2mbito do Programa de Rec",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Man Group PLC : Form 8.3 - JTC Plc",
+          "title": "NAVER, NVIDIA and Brookfield to Expand Korea\u2019s National AI Factory Infrastructure Buildout",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Man Group PLC : Form 8.3 - Gamma Communications Plc",
+          "title": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Man Group PLC : Form 8.3 - AMG Critical Materials N.V",
+          "title": "Faircourt Asset Management Inc. Announces July Distribution",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Man Group PLC : Form 8.3 - DCC Energy Plc",
+          "title": "ARCPOINT PROVIDES LEADERSHIP UPDATE",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-07-20-9eadac192056"
+  "brief_id": "brief-2026-07-26-ad8fc714b5da"
 }

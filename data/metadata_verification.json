@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-07-19T09:48:11Z",
-  "company_count": 964,
+  "generated_at": "2026-07-26T09:54:34Z",
+  "company_count": 978,
   "checks": {
-    "acquisition_language": [],
+    "acquisition_language": [
+      {
+        "name": "Rebellions",
+        "current_stage": "pre-ipo",
+        "pattern_hit": "\\bmerged with\\b",
+        "excerpt": "…3e), now sold as full rebelrack/rebelpod inference systems. merged with sk telecom's sapeon korea in december 2024 to consolidate s…",
+        "action": "Change fundingStage to \"Acquired\" and add acquiredBy field"
+      }
+    ],
     "defunct_language": [],
     "ipo_mismatches": [
       {
@@ -18,6 +26,13 @@
         "expected_stage": "Public",
         "ticker": "NASDAQ: LUNR",
         "action": "Update fundingStage to \"Public\" and set ticker to \"NASDAQ: LUNR\""
+      },
+      {
+        "name": "Nano Nuclear Energy",
+        "current_stage": "Seed",
+        "expected_stage": "Public",
+        "ticker": "NASDAQ: NNE",
+        "action": "Update fundingStage to \"Public\" and set ticker to \"NASDAQ: NNE\""
       }
     ],
     "spac_staleness": [
@@ -70,22 +85,22 @@
       }
     ],
     "stage_vocabulary": {
-      "Series A": 264,
-      "Series B": 187,
-      "Seed": 165,
-      "Series C": 98,
-      "Public": 54,
+      "Series A": 266,
+      "Series B": 185,
+      "Seed": 172,
+      "Series C": 101,
+      "Public": 53,
       "Series D": 37,
-      "Growth": 24,
+      "Growth": 26,
       "Pre-Seed": 23,
       "Series E": 19,
-      "Series G": 15,
-      "Late Stage": 11,
+      "Series G": 16,
+      "Late Stage": 10,
+      "Series F": 8,
       "Private": 8,
       "SPAC": 8,
-      "Series F": 7,
       "IPO": 6,
-      "Pre-IPO": 4,
+      "Pre-IPO": 5,
       "Bootstrapped": 3,
       "Public (KOSDAQ)": 3,
       "Stealth": 2,
@@ -96,11 +111,12 @@
       "Series H": 1,
       "Series B2": 1,
       "Series A-1": 1,
+      "Series A+": 1,
       "Public (Frankfurt: H2O)": 1,
       "Pre-Series B": 1,
       "Public (INVZ)": 1,
       "Public (ADX)": 1,
-      "Sovereign (EDGE)": 1,
+      "Acquired": 1,
       "Sovereign (PIF)": 1,
       "Private (Baykar-aligned)": 1,
       "Public (TSX)": 1,
@@ -114,13 +130,6 @@
       "Growth + Offtake": 1
     },
     "web_probes": [
-      {
-        "kind": "dead_website",
-        "name": "Teradar",
-        "url": "https://teradar.com",
-        "status": 415,
-        "action": "Website returns error code. Verify company is still operating."
-      },
       {
         "kind": "rebrand_suspect",
         "name": "Dominion Dynamics",
@@ -154,13 +163,6 @@
         "name": "Aalo Atomics",
         "url": "https://aaloatomics.com",
         "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
-      },
-      {
-        "kind": "dead_website",
-        "name": "Viridian Space",
-        "url": "https://viridianspace.com",
-        "status": 415,
         "action": "Website returns error code. Verify company is still operating."
       },
       {
@@ -213,11 +215,18 @@
         "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
-        "kind": "dead_website",
+        "kind": "unreachable_website",
         "name": "Extropic",
         "url": "https://extropic.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "Cover",
+        "url": "https://www.buildcover.com",
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
@@ -238,6 +247,20 @@
         "name": "Matic Robotics",
         "old_url": "https://maticrobotics.com",
         "new_url": "https://maticrobots.com",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "Shinkei",
+        "url": "https://shinkei.systems",
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Firehawk Aerospace",
+        "old_url": "https://firehawkaerospace.com",
+        "new_url": "https://firehawkdefense.com/",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
@@ -269,11 +292,11 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
-        "kind": "rebrand_suspect",
+        "kind": "unreachable_website",
         "name": "AMP Robotics",
-        "old_url": "https://amprobotics.com",
-        "new_url": "https://ampsortation.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+        "url": "https://amprobotics.com",
+        "error": "ReadTimeout",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
@@ -285,9 +308,9 @@
     ]
   },
   "summary": {
-    "p0_issues": 15,
-    "p1_issues": 17,
+    "p0_issues": 17,
+    "p1_issues": 14,
     "missing_websites": 1,
-    "distinct_stages": 42
+    "distinct_stages": 43
   }
 }
