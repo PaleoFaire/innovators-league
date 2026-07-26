@@ -158,6 +158,25 @@ _STRING_LIT = r'"(?:[^"\\]|\\.)*"'
 _ARRAY_LIT  = r'\[(?:[^\[\]"]*|' + _STRING_LIT + r')*\]'
 
 
+def _sync_valuation_trust_fields(obj, verified_val):
+    """Keep the valuation trust layer consistent whenever the bot rewrites
+    `valuation`. The verifier prompt only permits company/lead-DISCLOSED
+    post-money figures, so a newly written number is tagged disclosed; a stale
+    `valuationAsOf` (round label from the previous figure) is removed rather
+    than left lying about which round the new number belongs to."""
+    is_number = bool(re.match(r'^\$', str(verified_val).strip()))
+    new_type = 'disclosed' if is_number else 'undisclosed'
+    type_pat = rf'\bvaluationType\s*:\s*{_STRING_LIT}'
+    if re.search(type_pat, obj):
+        obj = re.sub(type_pat, f'valuationType: "{new_type}"', obj, count=1)
+    else:
+        obj = re.sub(r'(\bvaluation\s*:\s*(?:' + _STRING_LIT + r'|null))',
+                     r'\1,\n    valuationType: "' + new_type + '"', obj, count=1)
+    # stale round label is worse than none — drop it; the verifier notes carry the round
+    obj = re.sub(rf'\n\s*valuationAsOf\s*:\s*{_STRING_LIT},?', '', obj, count=1)
+    return obj
+
+
 def apply_change_to_obj(obj, field, verified_val):
     """Apply a single field change to a JS object literal string.
 
@@ -191,6 +210,8 @@ def apply_change_to_obj(obj, field, verified_val):
         candidate = obj[:m.start()] + f'{field}: {new_value}' + obj[m.end():]
         if candidate == obj:
             return obj, False, 'noop_same_value'
+        if field == 'valuation':
+            candidate = _sync_valuation_trust_fields(candidate, verified_val)
         return candidate, True, 'replaced'
 
     # Field doesn't exist — insert before closing brace

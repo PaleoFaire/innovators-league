@@ -31,7 +31,13 @@ FIELDS VERIFIED (in order of importance):
   - founded (year)
   - fundingStage (Pre-Seed / Seed / Series A-Z / Public / Acquired)
   - totalRaised (range, e.g. "$2.5B+")
-  - valuation (post-money if disclosed)
+  - valuation (STRICT RULE: report a valuation ONLY if it is a priced post-money
+    disclosed by the company or its lead investor — company press release, SEC filing,
+    or the company's own statement to reputable press. If the only figures available
+    are data-tracker estimates (PitchBook / Crunchbase / Tracxn / CB Insights) or
+    secondary-market "market-implied" marks (PremierAlts, Forge, Notice, etc.),
+    return null for valuation and describe the third-party figure in notes instead.
+    NEVER present a tracker or secondary-market number as the valuation.)
   - investors (list, top 5)
   - website (canonical URL)
 
