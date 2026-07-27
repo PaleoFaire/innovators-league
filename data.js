@@ -82459,23 +82459,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-27 15:48
+// Last updated: 2026-07-27 17:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Safe Superintelligence", headline: "Ilya Sutskever's Safe Superintelligence partners with Nvidia to scale its AI research", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Cover", headline: "NASA to Cover Three US Spacewalks, Host Preview News Conference", source: "NASA Breaking News", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Waymo", headline: "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Tekever", headline: "UK selects Tekever AR5 surveillance drones to succeed Watchkeeper", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Blue Origin", headline: "Blue Origin to test New Glenn upper stages at Stennis", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to open Alaska launch site under $266 million Space Force deal", source: "SpaceNews", time: "4h ago", impact: "medium", unread: false },
-  { id: 7, type: "funding", company: "Multiverse Computing", headline: "Multiverse Computing targeting up to $570M in latest round", source: "Tech.eu", time: "6h ago", impact: "medium", unread: false },
-  { id: 8, type: "hire", company: "OpenAI", headline: "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Miracle Survival SpaceX Starship 13", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI's Hugging Face breach has reignited the debate over alignment and control", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "Tesla Cybercabs and Superchargers Will Act as Mini Cell Towers for SpaceX Starlink", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Safe Superintelligence", headline: "Ilya Sutskever's Safe Superintelligence partners with Nvidia to scale its AI research", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Waymo", headline: "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Tekever", headline: "UK selects Tekever AR5 surveillance drones to succeed Watchkeeper", source: "Breaking Defense", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Blue Origin", headline: "Blue Origin to test New Glenn upper stages at Stennis", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to open Alaska launch site under $266 million Space Force deal", source: "SpaceNews", time: "7h ago", impact: "medium", unread: false },
+  { id: 8, type: "funding", company: "Multiverse Computing", headline: "Multiverse Computing targeting up to $570M in latest round", source: "Tech.eu", time: "8h ago", impact: "medium", unread: false },
+  { id: 9, type: "hire", company: "OpenAI", headline: "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days", source: "Wired", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
