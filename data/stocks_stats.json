@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.42,
+      "avg_change": -3.38,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.12,
+      "avg_change": 1.81,
       "count": 7
     },
     "nuclear": {
@@ -59,14 +59,14 @@
   },
   "topGainers": [
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      18.93
+    ],
+    [
       "ACHR",
       "Archer Aviation",
       7.43
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      5.42
     ],
     [
       "AMD",
@@ -111,5 +111,5 @@
       -18.64
     ]
   ],
-  "lastUpdated": "2026-07-26 19:16:44"
+  "lastUpdated": "2026-07-27 03:29:16"
 }
