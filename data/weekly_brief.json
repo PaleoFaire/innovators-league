@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-26",
-  "display_date": "Jul 26, 2026",
-  "generated_at": "2026-07-26T11:03:14.979184+00:00",
-  "cutoff": "2026-07-19T11:03:14.979184+00:00",
+  "date": "2026-07-27",
+  "display_date": "Jul 27, 2026",
+  "generated_at": "2026-07-27T12:57:01.269070+00:00",
+  "cutoff": "2026-07-20T12:57:01.269070+00:00",
   "section_count": 7,
-  "total_items": 294,
+  "total_items": 290,
   "sections": [
     {
       "title": "Top Score Movers",
@@ -86,15 +86,8 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 12,
+      "count": 10,
       "items": [
-        {
-          "company": "AST SpaceMobile",
-          "form": "8-K",
-          "description": "form8-k.htm",
-          "date": "2026-07-20",
-          "isIPO": false
-        },
         {
           "company": "Momentus",
           "form": "8-K",
@@ -138,10 +131,17 @@
           "isIPO": false
         },
         {
-          "company": "Ginkgo Bioworks",
+          "company": "Rivian",
           "form": "4",
-          "description": "xslF345X06/wk-form4_1784581219.xml",
-          "date": "2026-07-20",
+          "description": "xslF345X06/wk-form4_1784752694.xml",
+          "date": "2026-07-22",
+          "isIPO": false
+        },
+        {
+          "company": "Rivian",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1784752629.xml",
+          "date": "2026-07-22",
           "isIPO": false
         }
       ]
@@ -149,26 +149,20 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "title": "DO 23 O&S WITH SOW.",
           "agency": "",
           "value": "",
           "date": "2026-07-21"
-        },
-        {
-          "title": "EO 14398 MULTI-MEDIA PRODUCTS & SERVICES NOTC- CALL ORDER 5",
-          "agency": "",
-          "value": "",
-          "date": "2026-07-20"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 48,
+      "count": 47,
       "items": [
         {
           "title": "Information Collection Being Reviewed by the Federal Communications Commission",
@@ -230,7 +224,7 @@
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 29,
+      "count": 31,
       "items": [
         {
           "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
@@ -240,49 +234,49 @@
           "type": "funding"
         },
         {
-          "title": "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats",
-          "source": "Electrek",
+          "title": "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!",
+          "source": "CleanTechnica",
           "company": "Waymo",
           "impact": "low",
+          "type": "milestone"
+        },
+        {
+          "title": "UK selects Tekever AR5 surveillance drones to succeed Watchkeeper\ufffd\ufffd",
+          "source": "Breaking Defense",
+          "company": "Tekever",
+          "impact": "low",
           "type": "news"
         },
         {
-          "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
-          "source": "Ars Technica Space",
-          "company": "SpaceX",
+          "title": "Blue Origin to test New Glenn upper stages at Stennis",
+          "source": "SpaceNews",
+          "company": "Blue Origin",
           "impact": "low",
           "type": "ipo"
         },
         {
-          "title": "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t Tell Trump!)",
-          "source": "CleanTechnica",
-          "company": "Dust",
-          "impact": "low",
-          "type": "news"
+          "title": "Rocket Lab to open Alaska launch site under $266 million Space Force deal",
+          "source": "SpaceNews",
+          "company": "Rocket Lab",
+          "impact": "medium",
+          "type": "ipo"
         },
         {
-          "title": "The OpenAI Models That Hacked Hugging Face Were \u2018Active on the Internet\u2019 for Days",
-          "source": "Wired",
+          "title": "Multiverse Computing targeting up to $570M in latest round",
+          "source": "Tech.eu",
+          "company": "Multiverse Computing",
+          "impact": "medium",
+          "type": "funding"
+        },
+        {
+          "title": "Hugging Face CEO calls for \u2018radical transparency\u2019 after \u2018unprecedented\u2019 OpenAI hack",
+          "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
-          "type": "news"
+          "type": "hire"
         },
         {
-          "title": "Miracle Survival SpaceX Starship 13",
-          "source": "Next Big Future",
-          "company": "SpaceX",
-          "impact": "low",
-          "type": "ipo"
-        },
-        {
-          "title": "SpaceX conducts 13th Starship test flight",
-          "source": "SpaceNews",
-          "company": "SpaceX",
-          "impact": "low",
-          "type": "ipo"
-        },
-        {
-          "title": "SpaceX Starship Returns Intact",
+          "title": "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours",
           "source": "Next Big Future",
           "company": "SpaceX",
           "impact": "low",
@@ -293,7 +287,7 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 61,
+      "count": 59,
       "items": [
         {
           "title": "Claude Opus 5",
@@ -326,15 +320,6 @@
           "url": "https://news.ycombinator.com/item?id=49020999"
         },
         {
-          "title": "India's first privately-developed rocket reaches orbit on debut launch",
-          "score": 599,
-          "comments": 171,
-          "companies": [
-            "Matic Robotics"
-          ],
-          "url": "https://news.ycombinator.com/item?id=48973835"
-        },
-        {
           "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
           "score": 597,
           "comments": 261,
@@ -355,6 +340,16 @@
             "Percepto"
           ],
           "url": "https://news.ycombinator.com/item?id=49034292"
+        },
+        {
+          "title": "Flux 3",
+          "score": 556,
+          "comments": 131,
+          "companies": [
+            "Black Forest Labs",
+            "Flux"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49031796"
         }
       ]
     },
@@ -396,5 +391,5 @@
       ]
     }
   ],
-  "brief_id": "brief-2026-07-26-ad8fc714b5da"
+  "brief_id": "brief-2026-07-27-c2db4061485d"
 }
