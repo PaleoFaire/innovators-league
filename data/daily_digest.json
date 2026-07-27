@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T00:07:35.784541+00:00",
+  "generatedAt": "2026-07-27T04:43:54.049429+00:00",
   "date": "2026-07-27",
   "dateDisplay": "Monday, July 27, 2026",
   "sections": {
@@ -79,6 +79,13 @@
     ],
     "marketMovers": [
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 446000.0,
+        "changePercent": 18.93,
+        "change": 71000.0
+      },
+      {
         "ticker": "TEM",
         "company": "Tempus AI",
         "price": 42.69,
@@ -126,13 +133,6 @@
         "price": 4.77,
         "changePercent": 7.43,
         "change": 0.33
-      },
-      {
-        "ticker": "PLTR",
-        "company": "Palantir",
-        "price": 122.92,
-        "changePercent": -7.15,
-        "change": -9.46
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TEM -18.6%"
+    "topMover": "277810.KQ +18.9%"
   }
 }

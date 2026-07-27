@@ -1,41 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-07-27T00:07:25.687Z
+// Last updated: 2026-07-27T04:43:43.179Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1785110845687,
+    "id": 1785127423179,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
     "source": "TechCrunch",
-    "time": "7h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/"
   },
   {
-    "id": 1785110845688,
+    "id": 1785127423180,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours",
     "source": "Next Big Future",
-    "time": "9h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-path-to-one-month-one-week-one-day-and-hours-to-reuse.html"
   },
   {
-    "id": 1785110845689,
+    "id": 1785127423181,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades",
     "source": "Next Big Future",
-    "time": "9h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-heat-shield-analysis.html"
   },
   {
-    "id": 1785110845690,
+    "id": 1785127423182,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/07/25/waymo-is-2-3-safer-than-a-human-driver-says-iihs-with-some-caveats/"
   },
   {
-    "id": 1785110845691,
+    "id": 1785127423183,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/"
   },
   {
-    "id": 1785110845692,
+    "id": 1785127423184,
     "type": "news",
     "company": "Dust",
     "headline": "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t Tell Trump!)",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/07/25/coal-replaced-solar-batteries-clean-energy-transmission/"
   },
   {
-    "id": 1785110845693,
+    "id": 1785127423185,
     "type": "news",
     "company": "OpenAI",
     "headline": "The OpenAI Models That Hacked Hugging Face Were ‘Active on the Internet’ for Days",
@@ -79,51 +79,51 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
   },
   {
-    "id": 1785110845694,
+    "id": 1785127423186,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Miracle Survival SpaceX Starship 13",
     "source": "Next Big Future",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/07/miracle-survival-spacex-starship-13.html"
   },
   {
-    "id": 1785110845695,
+    "id": 1785127423187,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX conducts 13th Starship test flight",
     "source": "SpaceNews",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/spacex-conducts-13th-starship-test-flight/"
   },
   {
-    "id": 1785110845696,
+    "id": 1785127423188,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Returns Intact",
     "source": "Next Big Future",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-returns-intact.html"
   },
   {
-    "id": 1785110845697,
+    "id": 1785127423189,
     "type": "news",
     "company": "OpenAI",
     "headline": "I tried out OpenAI&#8217;s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
     "source": "TechCrunch",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/"
   },
   {
-    "id": 1785110845698,
+    "id": 1785127423190,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX launches new V3 Starlink satellites but suffers another booster failure",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/"
   },
   {
-    "id": 1785110845699,
+    "id": 1785127423191,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship 13 Mission Was Perfect",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-13-is-6-minutes-from-launch.html"
   },
   {
-    "id": 1785110845700,
+    "id": 1785127423192,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic Opus 5 Built ISS Tracker",
@@ -156,18 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/anthropic-opus-5-built-iss-tracker.html"
   },
   {
-    "id": 1785110845701,
-    "type": "news",
-    "company": "Cognition",
-    "headline": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-    "source": "TechCrunch",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/"
-  },
-  {
-    "id": 1785110845702,
+    "id": 1785127423193,
     "type": "news",
     "company": "OpenAI",
     "headline": "China-US AI Race Escalates, OpenAI Models Break Free, and Why You Should Check Your Car Alarm",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/uncanny-valley-podcast/"
   },
   {
-    "id": 1785110845703,
+    "id": 1785127423194,
     "type": "news",
     "company": "Neura Robotics",
     "headline": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/"
   },
   {
-    "id": 1785110845704,
+    "id": 1785127423195,
     "type": "funding",
     "company": "Humanoid",
     "headline": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/"
   },
   {
-    "id": 1785110845705,
+    "id": 1785127423196,
     "type": "funding",
     "company": "Scale AI",
     "headline": "PageMind raises €1.2M to scale AI for e-commerce product discovery",
@@ -211,14 +200,25 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/23/pagemind-raises-eur12m-to-scale-ai-for-e-commerce-product-discovery/"
   },
   {
-    "id": 1785110845706,
+    "id": 1785127423197,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings call",
     "source": "Electrek",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/"
+  },
+  {
+    "id": 1785127423198,
+    "type": "ipo",
+    "company": "Vast",
+    "headline": "Vast establishes division for national security projects",
+    "source": "SpaceNews",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://spacenews.com/vast-establishes-division-for-national-security-projects/"
   }
 ];
