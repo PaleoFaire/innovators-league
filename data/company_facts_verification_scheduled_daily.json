@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-26T08:09:28+00:00",
+  "generatedAt": "2026-07-27T09:30:48+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 29,
-  "newExtractionsThisRun": 29,
+  "cohortSize": 28,
+  "newExtractionsThisRun": 28,
   "summary": {
     "cleared": 26,
-    "changesProposed": 3,
+    "changesProposed": 2,
     "unverifiable": 0
   },
   "cleared": [
@@ -39,79 +39,6 @@
   ],
   "changesProposed": [
     {
-      "name": "Blue Origin",
-      "current": {
-        "name": "Blue Origin",
-        "founder": "Jeff Bezos",
-        "location": "Kent, Washington, United States",
-        "founded": 2000,
-        "fundingStage": "SPAC",
-        "totalRaised": "$10B+",
-        "website": "https://blueorigin.com"
-      },
-      "verified": {
-        "name": "Blue Origin",
-        "description": "Private American space technology company that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and is developing the Blue Moon human lunar lander for NASA's Artemis program.",
-        "founders": [
-          "Jeff Bezos"
-        ],
-        "location": "Kent, Washington, United States",
-        "founded_year": 2000,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://blueorigin.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry listed stage as 'SPAC' but source [0] clearly states the company is 'Private' with no indication of SPAC status or IPO plans. Database entry listed '$10B+' total_raised but sources provided do not contain specific fundraising figures. Database entry listed 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify external investor names."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "SPAC",
-          "verified": "Private",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Blue_Origin"
-        },
-        {
-          "idx": 1,
-          "src": "news (NASA Breaking News)",
-          "url": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/"
-        }
-      ],
-      "notes": "Database entry listed stage as 'SPAC' but source [0] clearly states the company is 'Private' with no indication of SPAC status or IPO plans. Database entry listed '$10B+' total_raised but sources provided do not contain specific fundraising figures. Database entry listed 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify external investor names."
-    },
-    {
       "name": "Neura Robotics",
       "current": {
         "name": "Neura Robotics",
@@ -119,12 +46,12 @@
         "location": "Metzingen, Germany",
         "founded": 2019,
         "fundingStage": "Series C",
-        "totalRaised": "$1.4B",
+        "totalRaised": "$123.3M",
         "website": "https://www.neura-robotics.com"
       },
       "verified": {
         "name": "Neura Robotics",
-        "description": "German robotics company founded in 2019 that develops cognitive and collaborative robots designed to work alongside humans in manufacturing, logistics, and healthcare. The company produces humanoid robots including the 4NE1 model and operates the Neuraverse platform for robot learning and skill sharing.",
+        "description": "German robotics company founded in 2019 that develops cognitive and collaborative robots designed to work alongside humans in manufacturing, logistics, and healthcare.",
         "founders": [
           "David Reger"
         ],
@@ -142,7 +69,6 @@
             2
           ],
           "description": [
-            0,
             1,
             2
           ],
@@ -159,7 +85,7 @@
             2
           ],
           "current_stage": [
-            1
+            2
           ],
           "total_raised": [
             2
@@ -170,21 +96,13 @@
             2
           ]
         },
-        "notes": "Database entry references Series C with $1.4B raise, but sources only confirm Series B in January 2025 for \u20ac120M (~$123.3M). Series C claim cannot be verified from provided sources. Database entry listed valuation as undisclosed; no valuation found in sources. Investor list from database cannot be verified from provided sources."
+        "notes": "Wikipedia source [2] lists most recent funding as Series B of \u20ac120M ($123.3M) in January 2025. Company about page [1] mentions 'up to $1.4 bn in Series C' but this appears to be future/aspirational language ('supports us on the way towards...') rather than a completed funding round, so current_stage is Series B based on most recent completed round per Wikipedia. Database entry valuation of \u20ac4B and investors list cannot be verified from provided sources."
       },
       "changes": [
         {
           "field": "fundingStage",
           "current": "Series C",
           "verified": "Series B",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$1.4B",
-          "verified": "$123.3M",
           "sources": [
             2
           ]
@@ -212,7 +130,7 @@
           "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/"
         }
       ],
-      "notes": "Database entry references Series C with $1.4B raise, but sources only confirm Series B in January 2025 for \u20ac120M (~$123.3M). Series C claim cannot be verified from provided sources. Database entry listed valuation as undisclosed; no valuation found in sources. Investor list from database cannot be verified from provided sources."
+      "notes": "Wikipedia source [2] lists most recent funding as Series B of \u20ac120M ($123.3M) in January 2025. Company about page [1] mentions 'up to $1.4 bn in Series C' but this appears to be future/aspirational language ('supports us on the way towards...') rather than a completed funding round, so current_stage is Series B based on most recent completed round per Wikipedia. Database entry valuation of \u20ac4B and investors list cannot be verified from provided sources."
     },
     {
       "name": "SpaceX",
@@ -227,7 +145,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates orbital launches, Starlink satellite communications, and artificial intelligence divisions including Grok.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink, a communications satellite company.",
         "founders": [
           "Elon Musk"
         ],
@@ -269,7 +187,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Company is now publicly traded on Nasdaq (SPCX). Valuation not extracted because sources do not provide a current verified valuation figure; database entry lists $1.65T but this is not supported by provided sources. Elon Musk controls 85% voting power per Wikipedia (not 82% as in database entry)."
+        "notes": "Company completed IPO on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), not 82% as in database entry. No valuation figure found in provided sources; database entry lists $1.65T but cannot verify from these sources."
       },
       "changes": [
         {
@@ -289,21 +207,21 @@
         },
         {
           "idx": 1,
-          "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-path-to-one-month-one-week-one-day-and-hours-to-reuse.html"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/miracle-survival-spacex-starship-13.html"
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-heat-shield-analysis.html"
         },
         {
           "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-conducts-13th-starship-test-flight/"
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/"
         }
       ],
-      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Company is now publicly traded on Nasdaq (SPCX). Valuation not extracted because sources do not provide a current verified valuation figure; database entry lists $1.65T but this is not supported by provided sources. Elon Musk controls 85% voting power per Wikipedia (not 82% as in database entry)."
+      "notes": "Company completed IPO on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), not 82% as in database entry. No valuation figure found in provided sources; database entry lists $1.65T but cannot verify from these sources."
     }
   ],
   "unverifiable": []
