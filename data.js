@@ -82459,23 +82459,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-27 08:39
+// Last updated: 2026-07-27 12:33
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "OpenAI", headline: "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "17h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "18h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "Miracle Survival SpaceX Starship 13", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX conducts 13th Starship test flight", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Returns Intact", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "I tried out OpenAI's new AI keypad ' which will be fun for some coders and slightly mystifying to everyone else", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX launches new V3 Starlink satellites but suffers another booster failure", source: "TechCrunch", time: "2d ago", impact: "medium", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Mission Was Perfect", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Anthropic", headline: "Anthropic Opus 5 Built ISS Tracker", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "China-US AI Race Escalates, OpenAI Models Break Free, and Why You Should Check Your Car Alarm", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Waymo", headline: "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Tekever", headline: "UK selects Tekever AR5 surveillance drones to succeed Watchkeeper''", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Blue Origin", headline: "Blue Origin to test New Glenn upper stages at Stennis", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to open Alaska launch site under $266 million Space Force deal", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
+  { id: 5, type: "funding", company: "Multiverse Computing", headline: "Multiverse Computing targeting up to $570M in latest round", source: "Tech.eu", time: "3h ago", impact: "medium", unread: true },
+  { id: 6, type: "hire", company: "OpenAI", headline: "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "Miracle Survival SpaceX Starship 13", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX conducts 13th Starship test flight", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Returns Intact", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
