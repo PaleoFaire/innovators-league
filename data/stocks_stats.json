@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -6.14,
+      "avg_change": -2.63,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -2.91,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -1.52,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -2.5,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.7,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.78,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.64,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.98,
+      "avg_change": -7.58,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.54,
+      "avg_change": 8.87,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.89,
+      "avg_change": -2.53,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -11.02,
+      "avg_change": -10.27,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.83,
+      "avg_change": -4.66,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "QBTS",
       "D-Wave Quantum",
-      10.11
+      14.59
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      5.02
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      4.5
+      8.56
     ],
     [
       "SMR",
       "NuScale Power",
-      1.63
+      6.03
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      5.19
     ]
   ],
   "topLosers": [
     [
-      "TEM",
-      "Tempus AI",
-      -12.35
-    ],
-    [
       "ALAB",
       "Astera Labs",
-      -12.76
+      -8.59
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -11.41
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -15.31
+      -12.19
     ],
     [
       "QS",
       "QuantumScape",
-      -15.87
+      -12.82
     ],
     [
       "TSLA",
       "Tesla",
-      -17.59
+      -16.72
     ]
   ],
-  "lastUpdated": "2026-07-27 14:43:20"
+  "lastUpdated": "2026-07-27 19:40:08"
 }
