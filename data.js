@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-07-26";
+const LAST_UPDATED = "2026-07-27";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -82459,11 +82459,11 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-26 22:08
+// Last updated: 2026-07-27 00:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "OpenAI", headline: "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "OpenAI", headline: "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "Dust", headline: "Another Coal Power Plant Bites The Dust (Shhh! Don't Tell Trump!)", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
@@ -82472,8 +82472,8 @@ const COMPANY_SIGNALS = [
   { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX conducts 13th Starship test flight", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Returns Intact", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "OpenAI", headline: "I tried out OpenAI's new AI keypad ' which will be fun for some coders and slightly mystifying to everyone else", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX launches new V3 Starlink satellites but suffers another booster failure", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Mission Was Perfect", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX launches new V3 Starlink satellites but suffers another booster failure", source: "TechCrunch", time: "2d ago", impact: "medium", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Mission Was Perfect", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 14, type: "ipo", company: "Anthropic", headline: "Anthropic Opus 5 Built ISS Tracker", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 15, type: "news", company: "Cognition", headline: "Why Cognition bought Poke: AI personality is becoming a competitive advantage", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
 ];
