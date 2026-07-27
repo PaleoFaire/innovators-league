@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T17:49:11.596377+00:00",
+  "generatedAt": "2026-07-27T19:46:45.446820+00:00",
   "date": "2026-07-27",
   "dateDisplay": "Monday, July 27, 2026",
   "sections": {
@@ -88,51 +88,51 @@
       {
         "ticker": "TSLA",
         "company": "Tesla",
-        "price": 304.55,
-        "changePercent": -17.59,
-        "change": -65.02
-      },
-      {
-        "ticker": "QS",
-        "company": "QuantumScape",
-        "price": 4.96,
-        "changePercent": -15.87,
-        "change": -0.93
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.35,
-        "changePercent": -15.31,
-        "change": -0.25
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 269.65,
-        "changePercent": -12.76,
-        "change": -39.44
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 42.43,
-        "changePercent": -12.35,
-        "change": -5.98
+        "price": 307.77,
+        "changePercent": -16.72,
+        "change": -61.8
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 18.41,
-        "changePercent": 10.11,
-        "change": 1.69
+        "price": 19.16,
+        "changePercent": 14.59,
+        "change": 2.44
       },
       {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 4.79,
-        "changePercent": -9.79,
-        "change": -0.52
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 5.13,
+        "changePercent": -12.82,
+        "change": -0.75
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.41,
+        "changePercent": -12.19,
+        "change": -0.2
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 42.88,
+        "changePercent": -11.41,
+        "change": -5.52
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 282.55,
+        "changePercent": -8.59,
+        "change": -26.54
+      },
+      {
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 15.47,
+        "changePercent": 8.56,
+        "change": 1.22
       }
     ],
     "regulatory": [
