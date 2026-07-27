@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -7.15,
+      "avg_change": -6.14,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -3.28,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -2.91,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.76,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.5,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.01,
+      "avg_change": -0.78,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.11,
+      "avg_change": -8.98,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.8,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 5.54,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -5.92,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.89,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -13.53,
+      "avg_change": -11.02,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.1,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -6.83,
       "count": 3
     }
   },
@@ -64,52 +64,52 @@
       18.93
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      7.43
+      "QBTS",
+      "D-Wave Quantum",
+      10.11
     ],
     [
-      "AMD",
-      "AMD",
-      5.28
+      "RGTI",
+      "Rigetti Computing",
+      5.02
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      4.5
     ],
     [
       "SMR",
       "NuScale Power",
-      4.79
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      3.2
+      1.63
     ]
   ],
   "topLosers": [
     [
-      "RIVN",
-      "Rivian",
-      -9.25
+      "TEM",
+      "Tempus AI",
+      -12.35
     ],
     [
-      "SLDP",
-      "Solid Power",
-      -9.96
+      "ALAB",
+      "Astera Labs",
+      -12.76
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -15.31
     ],
     [
       "QS",
       "QuantumScape",
-      -16.64
+      -15.87
     ],
     [
       "TSLA",
       "Tesla",
-      -17.81
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      -18.64
+      -17.59
     ]
   ],
-  "lastUpdated": "2026-07-27 09:58:16"
+  "lastUpdated": "2026-07-27 14:43:20"
 }
