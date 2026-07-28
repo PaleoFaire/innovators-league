@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T12:03:25.731782+00:00",
+  "generatedAt": "2026-07-28T14:28:48.349252+00:00",
   "date": "2026-07-28",
   "dateDisplay": "Tuesday, July 28, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 252.92,
+        "changePercent": -20.91,
+        "change": -66.87
+      },
+      {
         "ticker": "TSLA",
         "company": "Tesla",
-        "price": 309.22,
-        "changePercent": -16.33,
-        "change": -60.35
-      },
-      {
-        "ticker": "QS",
-        "company": "QuantumScape",
-        "price": 5.18,
-        "changePercent": -12.05,
-        "change": -0.71
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 42.91,
-        "changePercent": -11.36,
-        "change": -5.5
+        "price": 301.19,
+        "changePercent": -20.52,
+        "change": -77.75
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 1.42,
-        "changePercent": -11.25,
-        "change": -0.18
+        "price": 1.32,
+        "changePercent": -19.21,
+        "change": -0.31
       },
       {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 15.64,
-        "changePercent": 9.75,
-        "change": 1.39
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 4.89,
+        "changePercent": -19.17,
+        "change": -1.16
       },
       {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 1.42,
-        "changePercent": -8.91,
-        "change": -0.14
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 12.02,
+        "changePercent": -17.93,
+        "change": -2.62
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 282.52,
-        "changePercent": -8.6,
-        "change": -26.57
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 448.09,
+        "changePercent": -17.7,
+        "change": -96.34
       },
       {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 2.14,
-        "changePercent": -7.36,
-        "change": -0.17
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 19.27,
+        "changePercent": -16.58,
+        "change": -3.83
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 41.06,
+        "changePercent": -16.16,
+        "change": -7.91
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TSLA -16.3%"
+    "topMover": "ALAB -20.9%"
   }
 }
