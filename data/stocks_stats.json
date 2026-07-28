@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -1.31,
+      "avg_change": -1.21,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -3.4,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -4.36,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.86,
+      "avg_change": -3.09,
       "count": 3
     },
     "transportation": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "ALAB",
-      "Astera Labs",
-      -8.6
+      "DRSHF",
+      "DroneShield",
+      -8.91
     ],
     [
       "EVTL",
@@ -111,5 +111,5 @@
       -16.33
     ]
   ],
-  "lastUpdated": "2026-07-28 02:46:37"
+  "lastUpdated": "2026-07-28 08:40:15"
 }
