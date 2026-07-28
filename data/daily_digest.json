@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27T23:13:15.164400+00:00",
-  "date": "2026-07-27",
-  "dateDisplay": "Monday, July 27, 2026",
+  "generatedAt": "2026-07-28T03:25:41.910812+00:00",
+  "date": "2026-07-28",
+  "dateDisplay": "Tuesday, July 28, 2026",
   "sections": {
     "govActivity": [
       {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 446000.0,
-        "changePercent": 18.93,
-        "change": 71000.0
-      },
-      {
         "ticker": "TSLA",
         "company": "Tesla",
-        "price": 307.77,
-        "changePercent": -16.72,
-        "change": -61.8
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 19.16,
-        "changePercent": 14.59,
-        "change": 2.44
+        "price": 309.22,
+        "changePercent": -16.33,
+        "change": -60.35
       },
       {
         "ticker": "QS",
         "company": "QuantumScape",
-        "price": 5.13,
-        "changePercent": -12.82,
-        "change": -0.75
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.41,
-        "changePercent": -12.19,
-        "change": -0.2
+        "price": 5.18,
+        "changePercent": -12.05,
+        "change": -0.71
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 42.88,
-        "changePercent": -11.41,
-        "change": -5.52
+        "price": 42.91,
+        "changePercent": -11.36,
+        "change": -5.5
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 282.55,
-        "changePercent": -8.59,
-        "change": -26.54
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.42,
+        "changePercent": -11.25,
+        "change": -0.18
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 15.47,
-        "changePercent": 8.56,
-        "change": 1.22
+        "price": 15.64,
+        "changePercent": 9.75,
+        "change": 1.39
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 282.52,
+        "changePercent": -8.6,
+        "change": -26.57
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 2.14,
+        "changePercent": -7.36,
+        "change": -0.17
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 8.54,
+        "changePercent": 7.29,
+        "change": 0.58
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "277810.KQ +18.9%"
+    "topMover": "TSLA -16.3%"
   }
 }
