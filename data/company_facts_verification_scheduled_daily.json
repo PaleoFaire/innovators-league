@@ -1,67 +1,230 @@
 {
-  "generatedAt": "2026-07-27T09:30:48+00:00",
+  "generatedAt": "2026-07-28T08:16:56+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
   "cohortSize": 28,
   "newExtractionsThisRun": 28,
   "summary": {
-    "cleared": 26,
-    "changesProposed": 2,
+    "cleared": 22,
+    "changesProposed": 6,
     "unverifiable": 0
   },
   "cleared": [
-    "1X Technologies",
-    "Agility Robotics",
-    "Apptronik",
-    "Axiom Space",
+    "Asylon Robotics",
     "Cape",
-    "Cognition",
     "Dawn Aerospace",
     "Deterrence",
     "Dexterity",
     "Durin",
-    "Firehawk Aerospace",
     "Gecko Robotics",
     "Humanoid",
     "Karman Industries",
-    "Mach Industries",
-    "Percepto",
+    "Neura Robotics",
+    "Oxford Quantum Circuits",
     "Quaise Energy",
-    "Relativity Space",
+    "QuantWare",
     "RobCo",
+    "Rocket Lab",
     "Scale AI",
     "Solugen",
-    "Ursa Major Technologies",
-    "Vast",
+    "Standard Nuclear",
+    "Tekever",
     "Waymo",
     "Xtend",
     "ideaForge"
   ],
   "changesProposed": [
     {
-      "name": "Neura Robotics",
+      "name": "Antares",
       "current": {
-        "name": "Neura Robotics",
-        "founder": "David Reger",
-        "location": "Metzingen, Germany",
-        "founded": 2019,
-        "fundingStage": "Series C",
-        "totalRaised": "$123.3M",
-        "website": "https://www.neura-robotics.com"
+        "name": "Antares",
+        "founder": "Jordan Bramble, Julia DeWahl",
+        "location": "Torrance, CA",
+        "founded": 2023,
+        "fundingStage": "Series B",
+        "totalRaised": "$96M+",
+        "website": "https://antaresindustries.com"
       },
       "verified": {
-        "name": "Neura Robotics",
-        "description": "German robotics company founded in 2019 that develops cognitive and collaborative robots designed to work alongside humans in manufacturing, logistics, and healthcare.",
-        "founders": [
-          "David Reger"
-        ],
-        "location": "Metzingen, Germany",
-        "founded_year": 2019,
-        "current_stage": "Series B",
-        "total_raised": "$123.3M",
+        "name": "Antares Nuclear",
+        "description": "Designer and manufacturer of modular, transportable fission microreactors (100kWe-1MWe) for strategic energy applications on Earth and in space, featuring sodium heat pipes and prismatic graphite cores with TRISO fuel.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": "Series C",
+        "total_raised": "$470M",
         "valuation": null,
         "investors": null,
-        "website": "https://www.neura-robotics.com",
+        "website": "https://antaresindustries.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0,
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [1] (Wikipedia) is about the star Antares, not the company, and was excluded. Company website (source [0]) confirms Series C raise of $470M. Database entry references Series B and $96M+ are not supported by provided sources. Founders Jordan Bramble and Julia DeWahl are not mentioned in provided sources and cannot be verified. Location Torrance, CA and founded year 2023 not mentioned in provided sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series B",
+          "verified": "Series C",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$96M+",
+          "verified": "$470M",
+          "sources": [
+            0,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://antaresindustries.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Antares"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/"
+        }
+      ],
+      "notes": "Source [1] (Wikipedia) is about the star Antares, not the company, and was excluded. Company website (source [0]) confirms Series C raise of $470M. Database entry references Series B and $96M+ are not supported by provided sources. Founders Jordan Bramble and Julia DeWahl are not mentioned in provided sources and cannot be verified. Location Torrance, CA and founded year 2023 not mentioned in provided sources."
+    },
+    {
+      "name": "Blue Origin",
+      "current": {
+        "name": "Blue Origin",
+        "founder": "Jeff Bezos",
+        "location": "Kent, Washington, United States",
+        "founded": 2000,
+        "fundingStage": "SPAC",
+        "totalRaised": "$10B+",
+        "website": "https://blueorigin.com"
+      },
+      "verified": {
+        "name": "Blue Origin",
+        "description": "Private American space technology company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket. The company also supplies rocket engines and is developing the Blue Moon lunar lander for NASA's Artemis program.",
+        "founders": [
+          "Jeff Bezos"
+        ],
+        "location": "Kent, Washington, United States",
+        "founded_year": 2000,
+        "current_stage": "Private",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://blueorigin.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry listed stage as 'SPAC' but Wikipedia identifies the company as 'Private'. No evidence in sources for total_raised ($10B+), valuation, or investor names (Coatue Management, Jeff Bezos). Current CEO is Dave Limp as of September 2023."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "SPAC",
+          "verified": "Private",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_Origin"
+        },
+        {
+          "idx": 1,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/blue-origin-to-test-new-glenn-upper-stages-at-stennis/"
+        }
+      ],
+      "notes": "Database entry listed stage as 'SPAC' but Wikipedia identifies the company as 'Private'. No evidence in sources for total_raised ($10B+), valuation, or investor names (Coatue Management, Jeff Bezos). Current CEO is Dave Limp as of September 2023."
+    },
+    {
+      "name": "IQM Quantum Computers",
+      "current": {
+        "name": "IQM Quantum Computers",
+        "founder": "Jan Goetz, Mikko M\u00f6tt\u00f6nen, Kuan Yen Tan, Juha Vartiainen",
+        "location": "Espoo, Finland",
+        "founded": 2018,
+        "fundingStage": "Pre-IPO",
+        "totalRaised": "\u20ac600M+",
+        "website": "https://meetiqm.com"
+      },
+      "verified": {
+        "name": "IQM Quantum Computers",
+        "description": "Finnish quantum computing company that develops and commercializes superconducting quantum computers. The company builds full-stack quantum computers for delivery to customers and research institutions.",
+        "founders": [
+          "Jan Goetz",
+          "Mikko M\u00f6tt\u00f6nen",
+          "Kuan Yen Tan",
+          "Juha Vartiainen"
+        ],
+        "location": "Espoo, Finland",
+        "founded_year": 2018,
+        "current_stage": "Public",
+        "total_raised": "\u20ac600M+",
+        "valuation": "$1.8B",
+        "investors": [
+          "Ten Eleven Ventures",
+          "Tesi",
+          "Elo Mutual",
+          "Varma Mutual Pension Insurance",
+          "European Innovation Council",
+          "World Fund",
+          "Maki.vc",
+          "OpenOcean",
+          "MIG Funds",
+          "Vito Ventures"
+        ],
+        "website": "https://meetiqm.com",
         "sources_per_field": {
           "name": [
             0,
@@ -73,7 +236,6 @@
             2
           ],
           "founders": [
-            1,
             2
           ],
           "location": [
@@ -85,9 +247,17 @@
             2
           ],
           "current_stage": [
+            0,
             2
           ],
           "total_raised": [
+            1,
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
             2
           ],
           "website": [
@@ -96,13 +266,119 @@
             2
           ]
         },
-        "notes": "Wikipedia source [2] lists most recent funding as Series B of \u20ac120M ($123.3M) in January 2025. Company about page [1] mentions 'up to $1.4 bn in Series C' but this appears to be future/aspirational language ('supports us on the way towards...') rather than a completed funding round, so current_stage is Series B based on most recent completed round per Wikipedia. Database entry valuation of \u20ac4B and investors list cannot be verified from provided sources."
+        "notes": "Status changed from Pre-IPO to Public. Company announced IPO on February 23, 2026 with initial valuation of $1.8 billion. Listed on Nasdaq under ticker IQMX (per source 0). Wikipedia lists founder as 'Dr. Jan Goetz, CEO' but does not explicitly name the other three founders; however, database entry lists four founders and no conflicting information was found in sources."
       },
       "changes": [
         {
           "field": "fundingStage",
-          "current": "Series C",
-          "verified": "Series B",
+          "current": "Pre-IPO",
+          "verified": "Public",
+          "sources": [
+            0,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://meetiqm.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://meetiqm.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IQM_Quantum_Computers"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/"
+        }
+      ],
+      "notes": "Status changed from Pre-IPO to Public. Company announced IPO on February 23, 2026 with initial valuation of $1.8 billion. Listed on Nasdaq under ticker IQMX (per source 0). Wikipedia lists founder as 'Dr. Jan Goetz, CEO' but does not explicitly name the other three founders; however, database entry lists four founders and no conflicting information was found in sources."
+    },
+    {
+      "name": "Rigetti Computing",
+      "current": {
+        "name": "Rigetti Computing",
+        "founder": "Chad Rigetti",
+        "location": "Berkeley, CA",
+        "founded": 2013,
+        "fundingStage": "Public",
+        "totalRaised": "$300M+",
+        "website": "https://rigetti.com"
+      },
+      "verified": {
+        "name": "Rigetti Computing",
+        "description": "American developer of superconducting quantum integrated circuits and quantum computers. The company operates as a full-stack quantum computing provider with a cloud platform called Forest.",
+        "founders": [
+          "Chad Rigetti"
+        ],
+        "location": "Berkeley, California",
+        "founded_year": 2013,
+        "current_stage": "Public",
+        "total_raised": "$658M",
+        "valuation": "$1.5B",
+        "investors": [
+          "Andreessen Horowitz",
+          "Vy Capital",
+          "Y Combinator"
+        ],
+        "website": "https://rigetti.com",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
+            0,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "SPAC merger closed March 2, 2022 (ticker RGTI). Subodh Kulkarni became CEO in December 2022. Valuation of $1.5B was announced in October 2021 with SPAC deal; total funding of $658M was expected from this deal. The database entry mentions $4.5B valuation which cannot be verified in provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Berkeley, CA",
+          "verified": "Berkeley, California",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$300M+",
+          "verified": "$658M",
           "sources": [
             2
           ]
@@ -112,25 +388,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.neura-robotics.com"
+          "url": "https://rigetti.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.neura-robotics.com/about"
+          "url": "https://rigetti.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Neura_Robotics"
+          "url": "https://en.wikipedia.org/wiki/Rigetti_Computing"
         },
         {
           "idx": 3,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/"
         }
       ],
-      "notes": "Wikipedia source [2] lists most recent funding as Series B of \u20ac120M ($123.3M) in January 2025. Company about page [1] mentions 'up to $1.4 bn in Series C' but this appears to be future/aspirational language ('supports us on the way towards...') rather than a completed funding round, so current_stage is Series B based on most recent completed round per Wikipedia. Database entry valuation of \u20ac4B and investors list cannot be verified from provided sources."
+      "notes": "SPAC merger closed March 2, 2022 (ticker RGTI). Subodh Kulkarni became CEO in December 2022. Valuation of $1.5B was announced in October 2021 with SPAC deal; total funding of $658M was expected from this deal. The database entry mentions $4.5B valuation which cannot be verified in provided sources."
     },
     {
       "name": "SpaceX",
@@ -145,7 +421,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink, a communications satellite company.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -187,7 +463,7 @@
             0
           ]
         },
-        "notes": "Company completed IPO on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), not 82% as in database entry. No valuation figure found in provided sources; database entry lists $1.65T but cannot verify from these sources."
+        "notes": "Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The source lists Elon Musk's voting control as 85% (not 82% as in database entry). Database claim of '$1.5T valuation' and 'preparing for IPO' is outdated\u2014IPO already occurred. Sources [1], [2], [3] are news articles about competitors and technical topics; they do not provide verifiable company facts for SpaceX itself."
       },
       "changes": [
         {
@@ -207,21 +483,131 @@
         },
         {
           "idx": 1,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-path-to-one-month-one-week-one-day-and-hours-to-reuse.html"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/27/amazons-new-satellite-network-for-mobile-phones-could-turn-up-the-heat-on-spacex/"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-heat-shield-analysis.html"
+          "url": "https://www.nextbigfuture.com/2026/07/tesla-cybercabs-and-superchargers-will-act-as-mini-cell-towers-for-spacex-starlink.html"
         },
         {
           "idx": 3,
-          "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-path-to-one-month-one-week-one-day-and-hours-to-reuse.html"
         }
       ],
-      "notes": "Company completed IPO on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), not 82% as in database entry. No valuation figure found in provided sources; database entry lists $1.65T but cannot verify from these sources."
+      "notes": "Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The source lists Elon Musk's voting control as 85% (not 82% as in database entry). Database claim of '$1.5T valuation' and 'preparing for IPO' is outdated\u2014IPO already occurred. Sources [1], [2], [3] are news articles about competitors and technical topics; they do not provide verifiable company facts for SpaceX itself."
+    },
+    {
+      "name": "Thea Energy",
+      "current": {
+        "name": "Thea Energy",
+        "founder": "Brian Berzin",
+        "location": "Kearny, NJ",
+        "founded": 2022,
+        "fundingStage": "Series B",
+        "totalRaised": "$137M+",
+        "website": "https://thea.energy"
+      },
+      "verified": {
+        "name": "Thea Energy",
+        "description": "Fusion power company developing a stellarator approach using planar electromagnetic coils instead of complex modular coils. The company is building Eos, a neutron source stellarator intended to demonstrate the technology and generate near-term revenue.",
+        "founders": [
+          "Brian Berzin"
+        ],
+        "location": "Kearny, New Jersey, United States",
+        "founded_year": 2022,
+        "current_stage": null,
+        "total_raised": "$20M",
+        "valuation": null,
+        "investors": [
+          "Prelude Ventures",
+          "11.2 Capital",
+          "Anglo American",
+          "Hitachi Ventures",
+          "Lowercarbon Capital",
+          "Mercator Partners",
+          "Orion Industrial Ventures",
+          "Starlight Ventures"
+        ],
+        "website": "https://thea.energy",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Company was formerly named Princeton Stellarators, Inc. (PSI). Wikipedia reports $20M Series A in September 2024 led by Prelude Ventures. Database entry mentions $37M Series A plus $20M DOE milestone award totaling $137M+, but sources only verify $20M Series A funding. Current stage cannot be verified from sources. Brian Berzin is listed as CEO; David Gates is listed as CTO in Wikipedia but not explicitly named as co-founder."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Kearny, NJ",
+          "verified": "Kearny, New Jersey, United States",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$137M+",
+          "verified": "$20M",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://thea.energy"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://thea.energy/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thea_Energy"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/"
+        }
+      ],
+      "notes": "Company was formerly named Princeton Stellarators, Inc. (PSI). Wikipedia reports $20M Series A in September 2024 led by Prelude Ventures. Database entry mentions $37M Series A plus $20M DOE milestone award totaling $137M+, but sources only verify $20M Series A funding. Current stage cannot be verified from sources. Brian Berzin is listed as CEO; David Gates is listed as CTO in Wikipedia but not explicitly named as co-founder."
     }
   ],
   "unverifiable": []

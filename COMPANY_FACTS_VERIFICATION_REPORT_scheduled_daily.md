@@ -1,6 +1,6 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-27T09:30:48+00:00  
+**Generated:** 2026-07-28T08:16:56+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
@@ -13,61 +13,91 @@
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 26 | 93% |
-| 🔧 Changes proposed | 2 | 7% |
+| ✅ Cleared (data matches sources) | 22 | 79% |
+| 🔧 Changes proposed | 6 | 21% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (2 companies)
+## 🔧 Proposed Changes (6 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Neura Robotics
+### Antares
 
-- **`fundingStage`:** `Series C` → `Series B`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Neura_Robotics)
+- **`fundingStage`:** `Series B` → `Series C`  
+  Sources: [company_website](https://antaresindustries.com)
+- **`totalRaised`:** `$96M+` → `$470M`  
+  Sources: [company_website](https://antaresindustries.com) · [news (TechCrunch)](https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/)
 
-  **Notes:** Wikipedia source [2] lists most recent funding as Series B of €120M ($123.3M) in January 2025. Company about page [1] mentions 'up to $1.4 bn in Series C' but this appears to be future/aspirational language ('supports us on the way towards...') rather than a completed funding round, so current_stage is Series B based on most recent completed round per Wikipedia. Database entry valuation of €4B and investors list cannot be verified from provided sources.
+  **Notes:** Source [1] (Wikipedia) is about the star Antares, not the company, and was excluded. Company website (source [0]) confirms Series C raise of $470M. Database entry references Series B and $96M+ are not supported by provided sources. Founders Jordan Bramble and Julia DeWahl are not mentioned in provided sources and cannot be verified. Location Torrance, CA and founded year 2023 not mentioned in provided sources.
+
+### Blue Origin
+
+- **`fundingStage`:** `SPAC` → `Private`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
+
+  **Notes:** Database entry listed stage as 'SPAC' but Wikipedia identifies the company as 'Private'. No evidence in sources for total_raised ($10B+), valuation, or investor names (Coatue Management, Jeff Bezos). Current CEO is Dave Limp as of September 2023.
+
+### IQM Quantum Computers
+
+- **`fundingStage`:** `Pre-IPO` → `Public`  
+  Sources: [company_website](https://meetiqm.com) · [wikipedia](https://en.wikipedia.org/wiki/IQM_Quantum_Computers)
+
+  **Notes:** Status changed from Pre-IPO to Public. Company announced IPO on February 23, 2026 with initial valuation of $1.8 billion. Listed on Nasdaq under ticker IQMX (per source 0). Wikipedia lists founder as 'Dr. Jan Goetz, CEO' but does not explicitly name the other three founders; however, database entry lists four founders and no conflicting information was found in sources.
+
+### Rigetti Computing
+
+- **`location`:** `Berkeley, CA` → `Berkeley, California`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rigetti_Computing)
+- **`totalRaised`:** `$300M+` → `$658M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rigetti_Computing)
+
+  **Notes:** SPAC merger closed March 2, 2022 (ticker RGTI). Subodh Kulkarni became CEO in December 2022. Valuation of $1.5B was announced in October 2021 with SPAC deal; total funding of $658M was expected from this deal. The database entry mentions $4.5B valuation which cannot be verified in provided sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Company completed IPO on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), not 82% as in database entry. No valuation figure found in provided sources; database entry lists $1.65T but cannot verify from these sources.
+  **Notes:** Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The source lists Elon Musk's voting control as 85% (not 82% as in database entry). Database claim of '$1.5T valuation' and 'preparing for IPO' is outdated—IPO already occurred. Sources [1], [2], [3] are news articles about competitors and technical topics; they do not provide verifiable company facts for SpaceX itself.
+
+### Thea Energy
+
+- **`location`:** `Kearny, NJ` → `Kearny, New Jersey, United States`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Thea_Energy)
+- **`totalRaised`:** `$137M+` → `$20M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Thea_Energy)
+
+  **Notes:** Company was formerly named Princeton Stellarators, Inc. (PSI). Wikipedia reports $20M Series A in September 2024 led by Prelude Ventures. Database entry mentions $37M Series A plus $20M DOE milestone award totaling $137M+, but sources only verify $20M Series A funding. Current stage cannot be verified from sources. Brian Berzin is listed as CEO; David Gates is listed as CTO in Wikipedia but not explicitly named as co-founder.
 
 ---
 
-## ✅ Cleared (26 companies)
+## ✅ Cleared (22 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
-- 1X Technologies
-- Agility Robotics
-- Apptronik
-- Axiom Space
+- Asylon Robotics
 - Cape
-- Cognition
 - Dawn Aerospace
 - Deterrence
 - Dexterity
 - Durin
-- Firehawk Aerospace
 - Gecko Robotics
 - Humanoid
 - Karman Industries
-- Mach Industries
-- Percepto
+- Neura Robotics
+- Oxford Quantum Circuits
 - Quaise Energy
-- Relativity Space
+- QuantWare
 - RobCo
+- Rocket Lab
 - Scale AI
 - Solugen
-- Ursa Major Technologies
-- Vast
+- Standard Nuclear
+- Tekever
 - Waymo
 - Xtend
 - ideaForge
@@ -75,4 +105,4 @@ Sample (first 30):
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-27T09:30:48+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-28T08:16:57+00:00*
