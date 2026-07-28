@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.46,
+      "avg_change": -9.75,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -1.21,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -10.51,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.36,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -8.73,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.44,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -11.85,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -7.64,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -10.99,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 3.87,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -6.58,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.09,
+      "avg_change": -7.08,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -10.37,
+      "avg_change": -15.5,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.55,
+      "avg_change": -15.05,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      9.75
+      "ASRHF",
+      "Astroscale",
+      5.59
     ],
     [
-      "SMR",
-      "NuScale Power",
-      7.29
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      1.36
     ],
     [
-      "IONQ",
-      "IonQ",
-      4.91
+      "LNZA",
+      "LanzaTech",
+      0.82
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      4.15
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -1.59
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      2.32
+      "9348.T",
+      "ispace",
+      -1.69
     ]
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      -8.91
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -11.25
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      -11.36
+      "LUNR",
+      "Intuitive Machines",
+      -17.93
     ],
     [
       "QS",
       "QuantumScape",
-      -12.05
+      -19.17
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -19.21
     ],
     [
       "TSLA",
       "Tesla",
-      -16.33
+      -20.52
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -20.91
     ]
   ],
-  "lastUpdated": "2026-07-28 08:40:15"
+  "lastUpdated": "2026-07-28 14:14:56"
 }
