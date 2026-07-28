@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T06:35:03.858354+00:00",
+  "generatedAt": "2026-07-28T09:41:29.050972+00:00",
   "date": "2026-07-28",
   "dateDisplay": "Tuesday, July 28, 2026",
   "sections": {
@@ -114,6 +114,13 @@
         "change": 1.39
       },
       {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.42,
+        "changePercent": -8.91,
+        "change": -0.14
+      },
+      {
         "ticker": "ALAB",
         "company": "Astera Labs",
         "price": 282.52,
@@ -126,13 +133,6 @@
         "price": 2.14,
         "changePercent": -7.36,
         "change": -0.17
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 8.54,
-        "changePercent": 7.29,
-        "change": 0.58
       }
     ],
     "regulatory": [

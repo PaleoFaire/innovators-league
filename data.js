@@ -82459,23 +82459,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-28 06:35
+// Last updated: 2026-07-28 09:41
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Anthropic", headline: "Anthropic's Dario Amodei responds: doesn't oppose open-weight models, but fears Chinese AI", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Thea Energy", headline: "Thea Energy lands $20M federal grant to build its magnets for fusion reactors", source: "TechCrunch", time: "9h ago", impact: "medium", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Amazon's new satellite network for mobile phones could turn up the heat on SpaceX", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI called the Hugging Face attack unprecedented. But we've been here before.", source: "MIT Tech Review", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Antares", headline: "Antares raises $470M to build nuclear reactors for the US military", source: "TechCrunch", time: "12h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI's Hugging Face breach has reignited the debate over alignment and control", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Tesla Cybercabs and Superchargers Will Act as Mini Cell Towers for SpaceX Starlink", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Safe Superintelligence", headline: "Ilya Sutskever's Safe Superintelligence partners with Nvidia to scale its AI research", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Waymo", headline: "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Tekever", headline: "UK selects Tekever AR5 surveillance drones to succeed Watchkeeper", source: "Breaking Defense", time: "18h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Blue Origin", headline: "Blue Origin to test New Glenn upper stages at Stennis", source: "SpaceNews", time: "19h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to open Alaska launch site under $266 million Space Force deal", source: "SpaceNews", time: "19h ago", impact: "medium", unread: false },
-  { id: 13, type: "funding", company: "Multiverse Computing", headline: "Multiverse Computing targeting up to $570M in latest round", source: "Tech.eu", time: "21h ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Heat Shield Analysis and Flight 14 Engine Relight Software Upgrades", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Scale AI", headline: "Perceptual Robotics secures '4M+ to scale AI-powered wind inspections", source: "Tech.eu", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Deterrence", headline: "French wildfires threaten nuclear deterrence industry, Rafale assembly", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Anthropic", headline: "Anthropic's Dario Amodei responds: doesn't oppose open-weight models, but fears Chinese AI", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Thea Energy", headline: "Thea Energy lands $20M federal grant to build its magnets for fusion reactors", source: "TechCrunch", time: "13h ago", impact: "medium", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Amazon's new satellite network for mobile phones could turn up the heat on SpaceX", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI called the Hugging Face attack unprecedented. But we've been here before.", source: "MIT Tech Review", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Antares", headline: "Antares raises $470M to build nuclear reactors for the US military", source: "TechCrunch", time: "15h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI's Hugging Face breach has reignited the debate over alignment and control", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "Tesla Cybercabs and Superchargers Will Act as Mini Cell Towers for SpaceX Starlink", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Safe Superintelligence", headline: "Ilya Sutskever's Safe Superintelligence partners with Nvidia to scale its AI research", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Cover", headline: "NASA to Cover Three US Spacewalks, Host Preview News Conference", source: "NASA Breaking News", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Waymo", headline: "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Tekever", headline: "UK selects Tekever AR5 surveillance drones to succeed Watchkeeper", source: "Breaking Defense", time: "21h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin to test New Glenn upper stages at Stennis", source: "SpaceNews", time: "22h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to open Alaska launch site under $266 million Space Force deal", source: "SpaceNews", time: "22h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
