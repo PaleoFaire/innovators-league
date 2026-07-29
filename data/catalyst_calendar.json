@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T09:44:19+00:00",
+  "generatedAt": "2026-07-29T12:08:31+00:00",
   "windowPastDays": 365,
   "windowFutureDays": 730,
   "todayUTC": "2026-07-29",
@@ -18,22 +18,22 @@
     "conf": 10
   },
   "byType": {
-    "nrc": 38,
-    "fda": 3,
+    "nrc": 32,
+    "fedreg": 25,
+    "fda": 2,
     "doe": 14,
-    "fedreg": 17,
     "trial": 87,
     "conf": 10,
-    "faa": 22,
+    "faa": 21,
     "formd": 12,
     "sbir": 10,
     "fcc": 12,
     "earnings": 13
   },
   "byImportance": {
-    "urgent": 21,
+    "urgent": 35,
     "medium": 5,
-    "low": 212
+    "low": 198
   },
   "events": [
     {
@@ -412,6 +412,28 @@
       "importance": "urgent"
     },
     {
+      "id": "c694ff4b3a48abe2",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Public Meeting of the National Geospatial Advisory Committee",
+      "description": "Interior Department, Geological Survey \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15302",
+      "raw": {
+        "docNum": "2026-15302",
+        "title": "Public Meeting of the National Geospatial Advisory Committee",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Interior Department, Geological Survey",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
       "id": "24a184393f4325f7",
       "date": "2026-07-29",
       "type": "fda",
@@ -428,6 +450,336 @@
         "date": "2026-07-29",
         "agencies": "Health and Human Services Department, Food and Drug Administration",
         "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "812b6b488205257d",
+      "date": "2026-07-29",
+      "type": "doe",
+      "title": "Transwestern Pipeline Company, LLC; Notice of Schedule for the Preparation of an",
+      "description": "Energy Department, Federal Energy Regulatory Commission \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "energy",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15286",
+      "raw": {
+        "docNum": "2026-15286",
+        "title": "Transwestern Pipeline Company, LLC; Notice of Schedule for the Preparation of an",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Energy Department, Federal Energy Regulatory Commission",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "7ceab9c586dc6d72",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Agency Information Collection Activities: Proposed Renewal; Comment Request; Ren",
+      "description": "Treasury Department, Financial Crimes Enforcement Network \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15318",
+      "raw": {
+        "docNum": "2026-15318",
+        "title": "Agency Information Collection Activities: Proposed Renewal; Comment Request; Ren",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Treasury Department, Financial Crimes Enforcement Network",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "d5a4fb0b0ee34064",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Notice of Intent To Prepare a Resource Management Plan Amendment and Environment",
+      "description": "Interior Department, Land Management Bureau \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15270",
+      "raw": {
+        "docNum": "2026-15270",
+        "title": "Notice of Intent To Prepare a Resource Management Plan Amendment and Environment",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Interior Department, Land Management Bureau",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "9acb2406c4cfe134",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "30-Day Notice of Proposed Information Collection: Annual Brokering Report",
+      "description": "State Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15269",
+      "raw": {
+        "docNum": "2026-15269",
+        "title": "30-Day Notice of Proposed Information Collection: Annual Brokering Report",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "State Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "db9491e662188fd8",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department, Air Force Department \u00b7 Sectors: ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15266",
+      "raw": {
+        "docNum": "2026-15266",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, Air Force Department",
+        "sectors": "ai",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "0768255194e492f3",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department, Army Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15265",
+      "raw": {
+        "docNum": "2026-15265",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, Army Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "0671824f5baccaf3",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department, Navy Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15264",
+      "raw": {
+        "docNum": "2026-15264",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, Navy Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "2201589f1b195a56",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department,  \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15263",
+      "raw": {
+        "docNum": "2026-15263",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, ",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "5d45b0b1c6ee5921",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department,  \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15262",
+      "raw": {
+        "docNum": "2026-15262",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, ",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "dc2a45b8f0166c70",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department,  \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15261",
+      "raw": {
+        "docNum": "2026-15261",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, ",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "a13a1680735a6d61",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department,  \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15260",
+      "raw": {
+        "docNum": "2026-15260",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, ",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "1d7cf4f3a3a9ac7d",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department,  \u00b7 Sectors: defense \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15259",
+      "raw": {
+        "docNum": "2026-15259",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, ",
+        "sectors": "defense",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "17f4bac18a11cb99",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department, Navy Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15258",
+      "raw": {
+        "docNum": "2026-15258",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, Navy Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "451d96cc2ca1af40",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Proposed Collection; Comment Request",
+      "description": "Defense Department, Navy Department \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "defense",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15257",
+      "raw": {
+        "docNum": "2026-15257",
+        "title": "Proposed Collection; Comment Request",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Defense Department, Navy Department",
+        "sectors": "",
+        "significant": false
+      },
+      "daysOut": 0,
+      "importance": "urgent"
+    },
+    {
+      "id": "4ee82f5155f9bafd",
+      "date": "2026-07-29",
+      "type": "fedreg",
+      "title": "Implementation of Section 403 of the Senator Elizabeth Dole 21st Century Veteran",
+      "description": "Veterans Affairs Department \u00b7 Sectors: ai \u00b7 Type: Notice",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15301",
+      "raw": {
+        "docNum": "2026-15301",
+        "title": "Implementation of Section 403 of the Senator Elizabeth Dole 21st Century Veteran",
+        "type": "Notice",
+        "date": "2026-07-29",
+        "agencies": "Veterans Affairs Department",
+        "sectors": "ai",
         "significant": false
       },
       "daysOut": 0,
@@ -472,50 +824,6 @@
         "date": "2026-07-29",
         "agencies": "Energy Department",
         "sectors": "",
-        "significant": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "4ee82f5155f9bafd",
-      "date": "2026-07-29",
-      "type": "fedreg",
-      "title": "Implementation of Section 403 of the Senator Elizabeth Dole 21st Century Veteran",
-      "description": "Veterans Affairs Department \u00b7 Sectors: ai \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15301",
-      "raw": {
-        "docNum": "2026-15301",
-        "title": "Implementation of Section 403 of the Senator Elizabeth Dole 21st Century Veteran",
-        "type": "Notice",
-        "date": "2026-07-29",
-        "agencies": "Veterans Affairs Department",
-        "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": 0,
-      "importance": "urgent"
-    },
-    {
-      "id": "5d45b0b1c6ee5921",
-      "date": "2026-07-29",
-      "type": "fedreg",
-      "title": "Proposed Collection; Comment Request",
-      "description": "Defense Department,  \u00b7 Sectors: defense \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "defense",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15262",
-      "raw": {
-        "docNum": "2026-15262",
-        "title": "Proposed Collection; Comment Request",
-        "type": "Notice",
-        "date": "2026-07-29",
-        "agencies": "Defense Department, ",
-        "sectors": "defense",
         "significant": false
       },
       "daysOut": 0,
@@ -3792,22 +4100,22 @@
       "importance": "low"
     },
     {
-      "id": "fcc8afdef3f2946c",
+      "id": "eef1d6fd1540bbdf",
       "date": "2026-07-28",
       "type": "fedreg",
-      "title": "Presidential Determination on the Proposed Agreement for Cooperation Between the",
-      "description": "Executive Office of the President \u00b7 Sectors: defense, nuclear \u00b7 Type: Presidential Document",
+      "title": "Notice of Final Issuance on the Adoption of Administration for Native Americans ",
+      "description": "Health and Human Services Department, Children and Families Administration \u00b7 Sectors: defense, ai \u00b7 Type: Notice",
       "companies": [],
       "sector": "other",
       "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15273",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15150",
       "raw": {
-        "docNum": "2026-15273",
-        "title": "Presidential Determination on the Proposed Agreement for Cooperation Between the",
-        "type": "Presidential Document",
+        "docNum": "2026-15150",
+        "title": "Notice of Final Issuance on the Adoption of Administration for Native Americans ",
+        "type": "Notice",
         "date": "2026-07-28",
-        "agencies": "Executive Office of the President",
-        "sectors": "defense, nuclear",
+        "agencies": "Health and Human Services Department, Children and Families Administration",
+        "sectors": "defense, ai",
         "significant": false
       },
       "daysOut": -1,
@@ -3852,6 +4160,50 @@
         "date": "2026-07-28",
         "agencies": "Commerce Department, National Oceanic and Atmospheric Administration",
         "sectors": "defense, ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "dc4ec4e97d7280a0",
+      "date": "2026-07-28",
+      "type": "fedreg",
+      "title": "Air Plan Approval; Michigan; Redesignation of the Berrien, MI and Muskegon, MI A",
+      "description": "Environmental Protection Agency \u00b7 Sectors: ai \u00b7 Type: Proposed Rule",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15167",
+      "raw": {
+        "docNum": "2026-15167",
+        "title": "Air Plan Approval; Michigan; Redesignation of the Berrien, MI and Muskegon, MI A",
+        "type": "Proposed Rule",
+        "date": "2026-07-28",
+        "agencies": "Environmental Protection Agency",
+        "sectors": "ai",
+        "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "fcc8afdef3f2946c",
+      "date": "2026-07-28",
+      "type": "fedreg",
+      "title": "Presidential Determination on the Proposed Agreement for Cooperation Between the",
+      "description": "Executive Office of the President \u00b7 Sectors: defense, nuclear \u00b7 Type: Presidential Document",
+      "companies": [],
+      "sector": "other",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15273",
+      "raw": {
+        "docNum": "2026-15273",
+        "title": "Presidential Determination on the Proposed Agreement for Cooperation Between the",
+        "type": "Presidential Document",
+        "date": "2026-07-28",
+        "agencies": "Executive Office of the President",
+        "sectors": "defense, nuclear",
         "significant": false
       },
       "daysOut": -1,
@@ -3946,72 +4298,6 @@
       "importance": "low"
     },
     {
-      "id": "3f2277ca86a3902e",
-      "date": "2026-07-28",
-      "type": "fedreg",
-      "title": "Name of Information Collection: Automated Technology Licensing Application Syste",
-      "description": "National Aeronautics and Space Administration \u00b7 Sectors: space \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15225",
-      "raw": {
-        "docNum": "2026-15225",
-        "title": "Name of Information Collection: Automated Technology Licensing Application Syste",
-        "type": "Notice",
-        "date": "2026-07-28",
-        "agencies": "National Aeronautics and Space Administration",
-        "sectors": "space",
-        "significant": false
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "cb7af6bbaf267367",
-      "date": "2026-07-28",
-      "type": "fedreg",
-      "title": "Perchloroethylene (PCE) and Carbon Tetrachloride (CTC); Regulation under the Tox",
-      "description": "Environmental Protection Agency \u00b7 Sectors: ai \u00b7 Type: Rule",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15192",
-      "raw": {
-        "docNum": "2026-15192",
-        "title": "Perchloroethylene (PCE) and Carbon Tetrachloride (CTC); Regulation under the Tox",
-        "type": "Rule",
-        "date": "2026-07-28",
-        "agencies": "Environmental Protection Agency",
-        "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
-      "id": "9bd7de4141c530a6",
-      "date": "2026-07-28",
-      "type": "doe",
-      "title": "Energy Conservation Program: Procedures, Interpretations, and Policies for Consi",
-      "description": "Energy Department \u00b7 Sectors: ai \u00b7 Type: Proposed Rule",
-      "companies": [],
-      "sector": "energy",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15211",
-      "raw": {
-        "docNum": "2026-15211",
-        "title": "Energy Conservation Program: Procedures, Interpretations, and Policies for Consi",
-        "type": "Proposed Rule",
-        "date": "2026-07-28",
-        "agencies": "Energy Department",
-        "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": -1,
-      "importance": "low"
-    },
-    {
       "id": "f5092e2f86c67752",
       "date": "2026-07-28",
       "type": "formd",
@@ -4044,182 +4330,6 @@
       "importance": "low"
     },
     {
-      "id": "e4cf93223e349c5e",
-      "date": "2026-07-27",
-      "type": "nrc",
-      "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices; Correctio",
-      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear, ai \u00b7 Type: Proposed Rule",
-      "companies": [],
-      "sector": "nuclear",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15145",
-      "raw": {
-        "docNum": "2026-15145",
-        "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices; Correctio",
-        "type": "Proposed Rule",
-        "date": "2026-07-27",
-        "agencies": "Nuclear Regulatory Commission",
-        "sectors": "defense, nuclear, ai",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "1a3960d815c585e0",
-      "date": "2026-07-27",
-      "type": "nrc",
-      "title": "Radiant Nuclear, LLC; Radiant's Special Nuclear Material License; License Applic",
-      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "nuclear",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15130",
-      "raw": {
-        "docNum": "2026-15130",
-        "title": "Radiant Nuclear, LLC; Radiant's Special Nuclear Material License; License Applic",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Nuclear Regulatory Commission",
-        "sectors": "defense, nuclear",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "d438d0eefb1bc9aa",
-      "date": "2026-07-27",
-      "type": "nrc",
-      "title": "Modernizing Package Certification Requirements",
-      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear \u00b7 Type: Proposed Rule",
-      "companies": [],
-      "sector": "nuclear",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15117",
-      "raw": {
-        "docNum": "2026-15117",
-        "title": "Modernizing Package Certification Requirements",
-        "type": "Proposed Rule",
-        "date": "2026-07-27",
-        "agencies": "Nuclear Regulatory Commission",
-        "sectors": "defense, nuclear",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "e3ce192f2d2866f7",
-      "date": "2026-07-27",
-      "type": "nrc",
-      "title": "Reducing Barriers to Medical Use Licensing",
-      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear \u00b7 Type: Proposed Rule",
-      "companies": [],
-      "sector": "nuclear",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15080",
-      "raw": {
-        "docNum": "2026-15080",
-        "title": "Reducing Barriers to Medical Use Licensing",
-        "type": "Proposed Rule",
-        "date": "2026-07-27",
-        "agencies": "Nuclear Regulatory Commission",
-        "sectors": "defense, nuclear",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "9c91ba568ac0dfbe",
-      "date": "2026-07-27",
-      "type": "nrc",
-      "title": "EnergySolutions Services Inc.; Application To Amend and Renew; Current Export Li",
-      "description": "Nuclear Regulatory Commission \u00b7 Sectors: defense, nuclear \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "nuclear",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15076",
-      "raw": {
-        "docNum": "2026-15076",
-        "title": "EnergySolutions Services Inc.; Application To Amend and Renew; Current Export Li",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Nuclear Regulatory Commission",
-        "sectors": "defense, nuclear",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "469cba98ad68eb3b",
-      "date": "2026-07-27",
-      "type": "nrc",
-      "title": "Sunshine Act Meetings",
-      "description": "Nuclear Regulatory Commission \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "nuclear",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15069",
-      "raw": {
-        "docNum": "2026-15069",
-        "title": "Sunshine Act Meetings",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Nuclear Regulatory Commission",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "026df0e6c97a9cd5",
-      "date": "2026-07-27",
-      "type": "fedreg",
-      "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Suppl",
-      "description": "Defense Department, Defense Acquisition Regulations System \u00b7 Sectors: defense \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "defense",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15068",
-      "raw": {
-        "docNum": "2026-15068",
-        "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Suppl",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Defense Department, Defense Acquisition Regulations System",
-        "sectors": "defense",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "16bd4bc1f15193df",
-      "date": "2026-07-27",
-      "type": "fedreg",
-      "title": "Privacy Act of 1974; Matching Program",
-      "description": "Health and Human Services Department, Children and Families Administration \u00b7 Sectors: ai \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15146",
-      "raw": {
-        "docNum": "2026-15146",
-        "title": "Privacy Act of 1974; Matching Program",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Health and Human Services Department, Children and Families Administration",
-        "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
       "id": "cd3de0249d11a5e6",
       "date": "2026-07-27",
       "type": "fedreg",
@@ -4242,110 +4352,22 @@
       "importance": "low"
     },
     {
-      "id": "6a204182ae4bb115",
+      "id": "6d067a1b6fd6eedc",
       "date": "2026-07-27",
       "type": "fedreg",
-      "title": "Updating Website and Contact Information, and Authorizations for Payments for Le",
-      "description": "Treasury Department, Foreign Assets Control Office \u00b7 Sectors: ai \u00b7 Type: Rule",
+      "title": "Caribbean Fishery Management Council 190th Public Hybrid Meeting",
+      "description": "Commerce Department, National Oceanic and Atmospheric Administration \u00b7 Sectors: ai \u00b7 Type: Notice",
       "companies": [],
       "sector": "other",
       "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15112",
+      "sourceUrl": "https://www.federalregister.gov/d/2026-15113",
       "raw": {
-        "docNum": "2026-15112",
-        "title": "Updating Website and Contact Information, and Authorizations for Payments for Le",
-        "type": "Rule",
+        "docNum": "2026-15113",
+        "title": "Caribbean Fishery Management Council 190th Public Hybrid Meeting",
+        "type": "Notice",
         "date": "2026-07-27",
-        "agencies": "Treasury Department, Foreign Assets Control Office",
+        "agencies": "Commerce Department, National Oceanic and Atmospheric Administration",
         "sectors": "ai",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "58976a40427f7fab",
-      "date": "2026-07-27",
-      "type": "fedreg",
-      "title": "Information Collection Being Reviewed by the Federal Communications Commission",
-      "description": "Federal Communications Commission \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15127",
-      "raw": {
-        "docNum": "2026-15127",
-        "title": "Information Collection Being Reviewed by the Federal Communications Commission",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Federal Communications Commission",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "870f7c4b9ae79f53",
-      "date": "2026-07-27",
-      "type": "faa",
-      "title": "Notice of Extension of Public Comment Period on the Draft Tiered Environmental A",
-      "description": "Transportation Department, Federal Aviation Administration \u00b7 Sectors: space \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "space",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15089",
-      "raw": {
-        "docNum": "2026-15089",
-        "title": "Notice of Extension of Public Comment Period on the Draft Tiered Environmental A",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Transportation Department, Federal Aviation Administration",
-        "sectors": "space",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "70f4829afffbcc13",
-      "date": "2026-07-27",
-      "type": "fedreg",
-      "title": "Application for Final Commitment for a Long-Term Loan or Financial Guarantee in ",
-      "description": "Export-Import Bank \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15079",
-      "raw": {
-        "docNum": "2026-15079",
-        "title": "Application for Final Commitment for a Long-Term Loan or Financial Guarantee in ",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Export-Import Bank",
-        "sectors": "",
-        "significant": false
-      },
-      "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "5ec0eb49444faa0f",
-      "date": "2026-07-27",
-      "type": "fedreg",
-      "title": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immedia",
-      "description": "Securities and Exchange Commission \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "other",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15056",
-      "raw": {
-        "docNum": "2026-15056",
-        "title": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immedia",
-        "type": "Notice",
-        "date": "2026-07-27",
-        "agencies": "Securities and Exchange Commission",
-        "sectors": "",
         "significant": false
       },
       "daysOut": -2,
@@ -4381,28 +4403,6 @@
         "is_safe": false
       },
       "daysOut": -2,
-      "importance": "low"
-    },
-    {
-      "id": "d43253206033d4a3",
-      "date": "2026-07-24",
-      "type": "fda",
-      "title": "Cellular, Tissue, and Gene Therapies Advisory Committee; Notice of Meeting; Esta",
-      "description": "Health and Human Services Department, Food and Drug Administration \u00b7 Sectors: biotech \u00b7 Type: Notice",
-      "companies": [],
-      "sector": "bio",
-      "source": "Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/d/2026-15017",
-      "raw": {
-        "docNum": "2026-15017",
-        "title": "Cellular, Tissue, and Gene Therapies Advisory Committee; Notice of Meeting; Esta",
-        "type": "Notice",
-        "date": "2026-07-24",
-        "agencies": "Health and Human Services Department, Food and Drug Administration",
-        "sectors": "biotech",
-        "significant": false
-      },
-      "daysOut": -5,
       "importance": "low"
     },
     {
@@ -6159,9 +6159,9 @@
         "frontier_companies_mentioned": [],
         "quote": "Physical AI is here, having already contributed north of $6,000,000,000 in NVIDIA Corporation revenue in fiscal year 2026.",
         "implications": [
-          "Physical AI (autonomy/robotics) represents significant revenue stream at $6B+",
-          "Physical AI has transitioned from R&D to production revenue phase",
-          "Validates commercial traction in robotics and autonomous systems market"
+          "Physical AI (robotics/autonomy) is a material revenue driver at $6B+ annually",
+          "Market validation for autonomous systems deployment at scale",
+          "NVIDIA has established commercial traction in physical AI compute"
         ],
         "significance": "high",
         "sentiment": "bullish",
@@ -6226,9 +6226,9 @@
         ],
         "quote": "Constellation's subsidiary Calpine LLC signed a new 380-megawatt agreement with Dallas-based CyrusOne to connect and serve a new data center adjacent to the Freestone Energy Center in Freestone County, Texas.",
         "implications": [
-          "Constellation securing large-scale power agreements with data center operators",
-          "380-megawatt capacity indicates significant AI/compute infrastructure expansion",
-          "Strategic positioning of nuclear/energy assets to serve AI compute demand"
+          "Large-scale power supply agreement indicates growing data center electricity demand",
+          "Constellation positioning as key energy provider for AI compute infrastructure",
+          "380MW represents significant capacity allocation to single data center customer"
         ],
         "significance": "high",
         "sentiment": "bullish",
@@ -6480,9 +6480,9 @@
         ],
         "quote": "In addition to our multi-generation partnership with OpenAI to deploy six gigawatts of Instinct GPUs, we are in active discussions with other customers on at-scale multi-year deployments.",
         "implications": [
-          "Major long-term AI infrastructure commitment with OpenAI",
-          "Six gigawatt deployment represents massive scale",
-          "Pursuit of additional large-scale AI compute customers"
+          "Major multi-year GPU supply commitment to OpenAI at unprecedented scale (6GW)",
+          "AMD expanding AI compute partnerships beyond single customer",
+          "Signal of deep integration into frontier AI infrastructure"
         ],
         "significance": "high",
         "sentiment": "bullish",
@@ -6513,9 +6513,9 @@
         "frontier_companies_mentioned": [],
         "quote": "We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
         "implications": [
-          "Palantir advancing edge AI capabilities for autonomous UAV coordination",
-          "Development of specialized edge agent (MAGE) for military autonomous systems",
-          "Live-fire validation indicates operational readiness of autonomy platform"
+          "Palantir developing edge AI capabilities for autonomous drone coordination",
+          "Maven platform expanding into real-time autonomous systems control",
+          "Live-fire validation suggests operational readiness for defense applications"
         ],
         "significance": "high",
         "sentiment": "bullish",
@@ -6606,14 +6606,13 @@
         "ticker": "LMT",
         "quarter": "2025-Q4",
         "date": "2026-01-29",
-        "signal_type": "forward_guidance",
+        "signal_type": "rd_investment",
         "target_vertical": "space",
         "frontier_companies_mentioned": [],
         "quote": "We're building an operable space-based interceptor that we wanna fly in space by 2028.",
         "implications": [
-          "Active development of space-based defense systems",
-          "Commitment to 2028 timeline for orbital deployment",
-          "Expansion of space defense capabilities"
+          "Active development of space-based defense systems with near-term deployment timeline",
+          "Expansion of space defense capabilities targeting 2028 operational readiness"
         ],
         "significance": "high",
         "sentiment": "bullish",
@@ -6645,8 +6644,8 @@
         "quote": "We are going to take the Model S and X production space in our Fremont factory and convert that into an Optimus factory with a long-term goal of having a million units a year of Optimus robots.",
         "implications": [
           "Major capital reallocation from legacy vehicle production to humanoid robotics",
-          "Signals Tesla prioritizing humanoid robots over premium vehicle lines",
-          "Target of 1M units/year indicates industrial-scale humanoid manufacturing ambition"
+          "Tesla targeting industrial-scale humanoid robot manufacturing",
+          "Model S and X production being deprioritized or relocated"
         ],
         "significance": "high",
         "sentiment": "bullish",
@@ -6709,8 +6708,8 @@
         "frontier_companies_mentioned": [],
         "quote": "We've deployed our proprietary data analytics and AI tools across our factories.",
         "implications": [
-          "RTX investing in AI infrastructure for manufacturing operations",
-          "Internal AI capability development rather than third-party solutions"
+          "RTX is integrating AI into manufacturing operations",
+          "Investment in proprietary AI tooling for operational efficiency"
         ],
         "significance": "medium",
         "sentiment": "bullish",
@@ -6736,14 +6735,14 @@
         "ticker": "NOC",
         "quarter": "2025-Q4",
         "date": "2026-01-27",
-        "signal_type": "rd_investment",
+        "signal_type": "capital_shift",
         "target_vertical": "defense",
         "frontier_companies_mentioned": [],
         "quote": "Since 2021, we have successfully doubled our production capacity for tactical solid rocket motors at our ABL facility in West Virginia and are now advancing efforts to further increase that capacity by another 50%.",
         "implications": [
-          "Significant expansion in tactical rocket motor production capacity",
-          "Continued multi-year investment in solid propulsion infrastructure",
-          "Positioning for increased defense demand"
+          "Significant capital allocation to tactical rocket motor production expansion",
+          "150% total capacity increase indicates strong demand signals",
+          "Multi-year sustained investment in propulsion capabilities"
         ],
         "significance": "high",
         "sentiment": "bullish",
@@ -6774,11 +6773,11 @@
         "frontier_companies_mentioned": [],
         "quote": "The US Navy's MQ-25 successfully completed its inaugural engine run, moving it closer to first flight.",
         "implications": [
-          "Boeing advancing autonomous aerial refueling capabilities",
-          "MQ-25 program progressing toward operational deployment",
-          "Potential near-term revenue recognition as program reaches flight testing"
+          "Autonomous refueling drone progressing toward operational capability",
+          "Defense autonomy program milestone achieved",
+          "Navy unmanned systems development advancing"
         ],
-        "significance": "medium",
+        "significance": "high",
         "sentiment": "bullish",
         "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/boeing-ba-q4-2025-earnings-call-transcript/"
       },
