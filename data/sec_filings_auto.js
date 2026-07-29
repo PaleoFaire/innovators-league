@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-26 08:31:50 UTC
+// Last updated: 2026-07-29 06:27:59 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "8-K", date: "2026-07-28", description: "oklo-20260722.htm", isIPO: false, ticker: "OKLO" },
+  { company: "Joby Aviation", form: "8-K", date: "2026-07-28", description: "d152570d8k.htm", isIPO: false, ticker: "JOBY" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-07-27", description: "qbts-20260727.htm", isIPO: false, ticker: "QBTS" },
   { company: "Palantir Technologies", form: "4", date: "2026-07-24", description: "xslF345X06/wk-form4_1784937605.xml", isIPO: false, ticker: "PLTR" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-07-24", description: "qbts-20260724.htm", isIPO: false, ticker: "QBTS" },
   { company: "BlackSky Technology", form: "DEF 14A", date: "2026-07-23", description: "bksy-20260723.htm", isIPO: false, ticker: "BKSY" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783026949.xml", isIPO: false, ticker: "RXRX" },
 ];

@@ -1,91 +1,39 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "The OpenAI Models That Hacked Hugging Face Were \u2018Active on t",
-      "I tried out OpenAI&#8217;s new AI keypad \u2014 which will be fun",
-      "Anthropic Opus 5 Built ISS Tracker"
+      "OpenAI\u2019s Rogue AI Agent Hacked More Than Just Hugging Face",
+      "We now have a better understanding how OpenAI hacked into Hu",
+      "Greyparrot secures $27M Series B to scale AI waste intellige"
     ],
     "fundingQ": "$282.7B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 54,
-    "trend": "steady",
+    "momentum": 55,
+    "trend": "accelerating",
     "catalysts": [
-      "Waymo crashes 1/3 as much as a human driver, says IIHS &#821",
-      "NEURA Robotics establishes NEURA Gym RWTH Aachen to train ph",
-      "Holiday Robotics raises $105M for its FRIDAY wheeled humanoi"
+      "Waymo, robotaxi operators face fresh scrutiny over emergency",
+      "How integrated actuators improve humanoid robot joint perfor",
+      "Perceptual Robotics secures \u00a34M+ to scale AI-powered wind in"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-26"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 53,
-    "trend": "steady",
-    "catalysts": [
-      "The OpenAI Models That Hacked Hugging Face Were \u2018Active on t",
-      "Backed by France, Macron sees Germany as nuclear-deterrence",
-      "A New Force Posture Concept for Europeanizing Extended Nucle"
-    ],
-    "fundingQ": "$4.8B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 64
-    },
-    "lastUpdated": "2026-07-26"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 52,
-    "trend": "accelerating",
-    "catalysts": [
-      "SpaceX eyes tower catch for next Starship after auspicious e",
-      "Miracle Survival SpaceX Starship 13",
-      "SpaceX conducts 13th Starship test flight"
-    ],
-    "fundingQ": "$266.3B",
-    "components": {
-      "funding": 100,
-      "news": 70,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-26"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "SpaceX Starship Returns Intact"
-    ],
-    "fundingQ": "$1.8B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -101,31 +49,49 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   },
   {
-    "sector": "Transportation",
-    "momentum": 41,
+    "sector": "Ocean & Maritime",
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Active transportation ecosystem"
+      "Active ocean & maritime ecosystem"
     ],
-    "fundingQ": "$20.0B",
+    "fundingQ": "$1.8B",
     "components": {
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 30
+      "market": 50
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 42,
+    "trend": "steady",
+    "catalysts": [
+      "Tesla Cybercabs and Superchargers Will Act as Mini Cell Towe",
+      "Blue Origin to test New Glenn upper stages at Stennis",
+      "Rocket Lab to open Alaska launch site under $266 million Spa"
+    ],
+    "fundingQ": "$266.3B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Defense & Security",
     "momentum": 39,
     "trend": "steady",
     "catalysts": [
-      "China-US AI Race Escalates, OpenAI Models Break Free, and Wh",
-      "Vast establishes division for national security projects",
+      "French wildfires threaten nuclear deterrence industry, Rafal",
+      "Rocket Lab to open Alaska launch site under $266 million Spa",
       "Not Imaginary: The Deterrence Gap is Real and America Needs"
     ],
     "fundingQ": "$12.0B",
@@ -135,84 +101,102 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Nuclear Energy",
     "momentum": 39,
     "trend": "steady",
     "catalysts": [
-      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T",
-      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca",
-      "Generative Bionics unveils humanoid robot with full-body tac"
+      "French wildfires threaten nuclear deterrence industry, Rafal",
+      "A New Force Posture Concept for Europeanizing Extended Nucle",
+      "Not Imaginary: The Deterrence Gap is Real and America Needs"
     ],
-    "fundingQ": "$22.0B",
+    "fundingQ": "$4.8B",
     "components": {
       "funding": 100,
       "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 36,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
-      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T",
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+      "What Is Cape Cod Doing To Secure Its Energy Independence And",
+      "Perceptual Robotics secures \u00a34M+ to scale AI-powered wind in",
+      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 96,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-29"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 38,
+    "trend": "steady",
+    "catalysts": [
+      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T",
+      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca"
+    ],
+    "fundingQ": "$22.0B",
+    "components": {
+      "funding": 100,
       "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 35,
+    "trend": "steady",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$20.0B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 25,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
-      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T",
-      "Miracle Survival SpaceX Starship 13",
-      "SpaceX conducts 13th Starship test flight"
+      "How integrated actuators improve humanoid robot joint perfor",
+      "OpenAI called the Hugging Face attack unprecedented. But we\u2019",
+      "Blue Origin to test New Glenn upper stages at Stennis"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 60,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-26"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 13,
-    "trend": "declining",
-    "catalysts": [
-      "Anthropic launches Opus 5"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 61
-    },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Waymo crashes 1/3 as much as a human driver, says IIHS &#821",
-      "The Download: NASA\u2019s new space telescope and OpenAI&#8217;s"
+      "Waymo, robotaxi operators face fresh scrutiny over emergency",
+      "Waymo crashes 1/3 as much as a human driver, says IIHS &#821"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -221,7 +205,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Housing & Construction",
@@ -237,7 +221,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -253,11 +237,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-29"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 4,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -267,8 +267,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 22
+      "market": 0
     },
-    "lastUpdated": "2026-07-26"
+    "lastUpdated": "2026-07-29"
   }
 ]

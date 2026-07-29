@@ -16,8 +16,8 @@
   },
   {
     "company": "Galvanick",
-    "totalRaised": "$21.5B+",
-    "totalRaisedRaw": 21490.0,
+    "totalRaised": "$22.3B+",
+    "totalRaisedRaw": 22345.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$4.4B",
     "lastRoundDate": "2026-07",
@@ -27,7 +27,7 @@
       "NEA",
       "Index Ventures"
     ],
-    "roundCount": 5
+    "roundCount": 6
   },
   {
     "company": "Tenstorrent",
@@ -60,7 +60,7 @@
   {
     "company": "Fairmat",
     "totalRaised": "$15.3B+",
-    "totalRaisedRaw": 15300.0,
+    "totalRaisedRaw": 15327.0,
     "lastRound": "Series E",
     "lastRoundAmount": "$15B",
     "lastRoundDate": "2026-07",
@@ -68,7 +68,7 @@
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 2
+    "roundCount": 3
   },
   {
     "company": "OpenStar",
@@ -577,6 +577,19 @@
     "roundCount": 1
   },
   {
+    "company": "Multiverse Computing",
+    "totalRaised": "$1.7B+",
+    "totalRaisedRaw": 1700.0,
+    "lastRound": "Series T",
+    "lastRoundAmount": "$1.7B",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Nearfield Instruments",
     "totalRaised": "$1.6B+",
     "totalRaisedRaw": 1600.0,
@@ -1038,6 +1051,19 @@
     "roundCount": 3
   },
   {
+    "company": "Standard Nuclear",
+    "totalRaised": "$470M+",
+    "totalRaisedRaw": 470.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$470M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Photonic Inc",
     "totalRaised": "$465M+",
     "totalRaisedRaw": 465.0,
@@ -1171,6 +1197,21 @@
       "a16z"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Rebellion Defense",
+    "totalRaised": "$240M+",
+    "totalRaisedRaw": 240.2,
+    "lastRound": "Series N",
+    "lastRoundAmount": "$200M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Insight Partners",
+      "Accel",
+      "Undisclosed"
+    ],
+    "roundCount": 4
   },
   {
     "company": "Built Robotics",
@@ -1650,20 +1691,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Rebellion Defense",
-    "totalRaised": "$40M+",
-    "totalRaisedRaw": 40.2,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$35M",
-    "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "Accel",
-      "Undisclosed"
-    ],
-    "roundCount": 3
   },
   {
     "company": "OpenAI",
