@@ -1,75 +1,48 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-28T08:16:56+00:00  
+**Generated:** 2026-07-29T08:20:38+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 28 companies  
+**Cohort size:** 25 companies  
 
-**New Claude extractions this run:** 28  
+**New Claude extractions this run:** 25  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 22 | 79% |
-| 🔧 Changes proposed | 6 | 21% |
+| ✅ Cleared (data matches sources) | 22 | 88% |
+| 🔧 Changes proposed | 3 | 12% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (3 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
-
-### Antares
-
-- **`fundingStage`:** `Series B` → `Series C`  
-  Sources: [company_website](https://antaresindustries.com)
-- **`totalRaised`:** `$96M+` → `$470M`  
-  Sources: [company_website](https://antaresindustries.com) · [news (TechCrunch)](https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/)
-
-  **Notes:** Source [1] (Wikipedia) is about the star Antares, not the company, and was excluded. Company website (source [0]) confirms Series C raise of $470M. Database entry references Series B and $96M+ are not supported by provided sources. Founders Jordan Bramble and Julia DeWahl are not mentioned in provided sources and cannot be verified. Location Torrance, CA and founded year 2023 not mentioned in provided sources.
 
 ### Blue Origin
 
 - **`fundingStage`:** `SPAC` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
 
-  **Notes:** Database entry listed stage as 'SPAC' but Wikipedia identifies the company as 'Private'. No evidence in sources for total_raised ($10B+), valuation, or investor names (Coatue Management, Jeff Bezos). Current CEO is Dave Limp as of September 2023.
+  **Notes:** Database entry lists stage as 'SPAC' but source [0] clearly identifies company as 'Private' with no mention of SPAC status. Total_raised of '$10B+' could not be verified in provided sources. Current CEO is Dave Limp (appointed September 2023).
 
-### IQM Quantum Computers
+### Redwood Materials
 
-- **`fundingStage`:** `Pre-IPO` → `Public`  
-  Sources: [company_website](https://meetiqm.com) · [wikipedia](https://en.wikipedia.org/wiki/IQM_Quantum_Computers)
+- **`location`:** `Carson City, NV` → `Carson City, Nevada, United States`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Redwood_Materials)
 
-  **Notes:** Status changed from Pre-IPO to Public. Company announced IPO on February 23, 2026 with initial valuation of $1.8 billion. Listed on Nasdaq under ticker IQMX (per source 0). Wikipedia lists founder as 'Dr. Jan Goetz, CEO' but does not explicitly name the other three founders; however, database entry lists four founders and no conflicting information was found in sources.
-
-### Rigetti Computing
-
-- **`location`:** `Berkeley, CA` → `Berkeley, California`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rigetti_Computing)
-- **`totalRaised`:** `$300M+` → `$658M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rigetti_Computing)
-
-  **Notes:** SPAC merger closed March 2, 2022 (ticker RGTI). Subodh Kulkarni became CEO in December 2022. Valuation of $1.5B was announced in October 2021 with SPAC deal; total funding of $658M was expected from this deal. The database entry mentions $4.5B valuation which cannot be verified in provided sources.
+  **Notes:** Source [1] (Wikipedia) states valuation of about $6 billion as of October 2025. Current stage cannot be verified from sources—database entry lists 'Series D' but sources mention Series C ($775M) and Series E ($350M) without clarifying if these are the most recent or final stage. Total raised cannot be definitively determined from sources as they reference individual rounds ($775M Series C, $350M Series E) rather than cumulative total. Source [2] is about Greyparrot, not Redwood Materials, and was excluded.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion. The source lists Elon Musk's voting control as 85% (not 82% as in database entry). Database claim of '$1.5T valuation' and 'preparing for IPO' is outdated—IPO already occurred. Sources [1], [2], [3] are news articles about competitors and technical topics; they do not provide verifiable company facts for SpaceX itself.
-
-### Thea Energy
-
-- **`location`:** `Kearny, NJ` → `Kearny, New Jersey, United States`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Thea_Energy)
-- **`totalRaised`:** `$137M+` → `$20M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Thea_Energy)
-
-  **Notes:** Company was formerly named Princeton Stellarators, Inc. (PSI). Wikipedia reports $20M Series A in September 2024 led by Prelude Ventures. Database entry mentions $37M Series A plus $20M DOE milestone award totaling $137M+, but sources only verify $20M Series A funding. Current stage cannot be verified from sources. Brian Berzin is listed as CEO; David Gates is listed as CTO in Wikipedia but not explicitly named as co-founder.
+  **Notes:** Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, which was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one location and 85% in another). Alphabet Inc. owns 6% equity stake.
 
 ---
 
@@ -79,30 +52,30 @@ Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
-- Asylon Robotics
+- 1X Technologies
+- Agility Robotics
+- Apptronik
+- Axiom Space
 - Cape
+- Cover
 - Dawn Aerospace
 - Deterrence
 - Dexterity
 - Durin
+- Fairmat
 - Gecko Robotics
 - Humanoid
 - Karman Industries
 - Neura Robotics
-- Oxford Quantum Circuits
 - Quaise Energy
-- QuantWare
-- RobCo
 - Rocket Lab
 - Scale AI
 - Solugen
-- Standard Nuclear
-- Tekever
+- Vast
 - Waymo
 - Xtend
-- ideaForge
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-28T08:16:57+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-29T08:20:38+00:00*

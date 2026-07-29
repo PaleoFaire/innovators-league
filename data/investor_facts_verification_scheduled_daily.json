@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-07-28T08:17:26+00:00",
+  "generatedAt": "2026-07-29T08:20:47+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 2,
-  "newExtractionsThisRun": 2,
+  "cohortSize": 1,
+  "newExtractionsThisRun": 1,
   "summary": {
-    "cleared": 2,
+    "cleared": 1,
     "changesProposed": 0,
     "unverifiable": 0
   },
   "cleared": [
-    "Engine Ventures",
-    "Shield Capital"
+    "Future Ventures"
   ],
   "changesProposed": [],
   "unverifiable": []
