@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-07-28";
+const LAST_UPDATED = "2026-07-29";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -82459,16 +82459,16 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-28 22:11
+// Last updated: 2026-07-29 00:04
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "Waymo, robotaxi operators face fresh scrutiny over emergency response failures", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cape", headline: "What Is Cape Cod Doing To Secure Its Energy Independence And Protect Its Natural Resources?", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Humanoid", headline: "How integrated actuators improve humanoid robot joint performance and systemintegration", source: "The Robot Report", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Scale AI", headline: "Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy", source: "Tech.eu", time: "9h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "The Download: OpenAI's predictable hack, and an AI stock sell-off", source: "MIT Tech Review", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Scale AI", headline: "Perceptual Robotics secures '4M+ to scale AI-powered wind inspections", source: "Tech.eu", time: "13h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Deterrence", headline: "French wildfires threaten nuclear deterrence industry, Rafale assembly", source: "Defense News", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "Waymo, robotaxi operators face fresh scrutiny over emergency response failures", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cape", headline: "What Is Cape Cod Doing To Secure Its Energy Independence And Protect Its Natural Resources?", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Humanoid", headline: "How integrated actuators improve humanoid robot joint performance and system integration", source: "The Robot Report", time: "10h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Scale AI", headline: "Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy", source: "Tech.eu", time: "10h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "The Download: OpenAI's predictable hack, and an AI stock sell-off", source: "MIT Tech Review", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Scale AI", headline: "Perceptual Robotics secures '4M+ to scale AI-powered wind inspections", source: "Tech.eu", time: "15h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Deterrence", headline: "French wildfires threaten nuclear deterrence industry, Rafale assembly", source: "Defense News", time: "15h ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "OpenAI", headline: "OpenAI called the Hugging Face attack unprecedented. But we've been here before.", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "Tesla Cybercabs and Superchargers Will Act as Mini Cell Towers for SpaceX Starlink", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "Cover", headline: "NASA to Cover Three US Spacewalks, Host Preview News Conference", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
