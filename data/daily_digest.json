@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T00:04:09.998690+00:00",
+  "generatedAt": "2026-07-29T03:29:16.919265+00:00",
   "date": "2026-07-29",
   "dateDisplay": "Wednesday, July 29, 2026",
   "sections": {
@@ -81,51 +81,51 @@
       {
         "ticker": "TSLA",
         "company": "Tesla",
-        "price": 305.89,
-        "changePercent": -19.28,
-        "change": -73.04
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.33,
-        "changePercent": -18.9,
-        "change": -0.31
+        "price": 307.44,
+        "changePercent": -18.87,
+        "change": -71.49
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 263.01,
-        "changePercent": -17.76,
-        "change": -56.78
+        "price": 260.23,
+        "changePercent": -18.62,
+        "change": -59.56
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 391000.0,
+        "changePercent": -18.29,
+        "change": -87500.0
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 1.35,
+        "changePercent": -17.68,
+        "change": -0.29
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 459.51,
-        "changePercent": -15.6,
-        "change": -84.92
+        "price": 454.62,
+        "changePercent": -16.5,
+        "change": -89.81
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 12.38,
-        "changePercent": -15.44,
-        "change": -2.26
+        "price": 12.37,
+        "changePercent": -15.51,
+        "change": -2.27
       },
       {
         "ticker": "QS",
         "company": "QuantumScape",
-        "price": 5.14,
-        "changePercent": -15.04,
-        "change": -0.91
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 42.7,
-        "changePercent": -12.82,
-        "change": -6.28
+        "price": 5.17,
+        "changePercent": -14.55,
+        "change": -0.88
       },
       {
         "ticker": "DRSHF",
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TSLA -19.3%"
+    "topMover": "TSLA -18.9%"
   }
 }
