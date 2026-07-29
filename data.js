@@ -82629,21 +82629,19 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-29 03:29
-// Auto-generated real-time signals
-// Last updated: 2026-07-29
+// Last updated: 2026-07-29 06:40
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "OpenAI", headline: "OpenAI’s Rogue AI Agent Hacked More Than Just Hugging Face", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", time: "8h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "OpenAI", headline: "OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face", source: "Wired", time: "6h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", time: "9h ago", impact: "low", unread: true },
   { id: 3, type: "news", company: "Waymo", headline: "Waymo, robotaxi operators face fresh scrutiny over emergency response failures", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "Cape", headline: "What Is Cape Cod Doing To Secure Its Energy Independence And Protect Its Natural Resources?", source: "CleanTechnica", time: "11h ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "Humanoid", headline: "How integrated actuators improve humanoid robot joint performance and system integration", source: "The Robot Report", time: "17h ago", impact: "low", unread: true },
   { id: 6, type: "funding", company: "Scale AI", headline: "Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy", source: "Tech.eu", time: "17h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "The Download: OpenAI&#8217;s predictable hack, and an AI stock sell-off", source: "MIT Tech Review", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Scale AI", headline: "Perceptual Robotics secures £4M+ to scale AI-powered wind inspections", source: "Tech.eu", time: "21h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "The Download: OpenAI's predictable hack, and an AI stock sell-off", source: "MIT Tech Review", time: "18h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Scale AI", headline: "Perceptual Robotics secures '4M+ to scale AI-powered wind inspections", source: "Tech.eu", time: "21h ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Deterrence", headline: "French wildfires threaten nuclear deterrence industry, Rafale assembly", source: "Defense News", time: "22h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Tesla Cybercabs and Superchargers Will Act as Mini Cell Towers for SpaceX Starlink", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI called the Hugging Face attack unprecedented. But we've been here before.", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Cover", headline: "NASA to Cover Three US Spacewalks, Host Preview News Conference", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "milestone", company: "Waymo", headline: "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "Blue Origin", headline: "Blue Origin to test New Glenn upper stages at Stennis", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to open Alaska launch site under $266 million Space Force deal", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
