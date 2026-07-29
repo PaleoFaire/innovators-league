@@ -1,8 +1,29 @@
 [
   {
+    "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+    "link": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+    "description": "Weng previously served as the VP of AI Safety Research at OpenAI.",
+    "pubDate": "Wed, 29 Jul 2026 21:07:48 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Anthropic",
+      "Kolena"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "SpaceX wins $1.6B to launch Space Force &#8216;sensing and targeting&#8217; sats",
     "link": "https://breakingdefense.com/2026/07/spacex-wins-1-6b-to-launch-space-force-sensing-and-targeting-sats/",
-    "description": "The SpaceX task order is the first to be awarded since the Space Force&#8217;s July 17 massive $11.4 billion plus-up to the NSSL Phase 3 Lane 1 contract vehicle ceiling,",
+    "description": "The SpaceX task order is the first to be awarded since the Space Force&#8217;s July 17 massive $11.4 billion plus-up to the NSSL Phase 3 Lane 1 contract vehicle ceiling.",
     "pubDate": "Wed, 29 Jul 2026 20:55:27 +0000",
     "category": "Space",
     "source": "Breaking Defense",
@@ -16,7 +37,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "Just now"
+    "time": "1h ago"
   },
   {
     "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
@@ -35,7 +56,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "Just now"
+    "time": "1h ago"
   },
   {
     "title": "The Hugging Face AI break-in, as told through an increasingly committed bear metaphor",
@@ -54,7 +75,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "2h ago"
   },
   {
     "title": "SpaceX Starship Can Make Space AI Win on Cost",
@@ -73,26 +94,30 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2h ago"
+    "time": "3h ago"
   },
   {
     "title": "Waymo robotaxis are starting to return to freeways",
     "link": "https://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways/",
-    "description": "Waymo robotaxis are now using freeways in Phoenix with more cities to follow in the coming days.",
+    "description": "The freeway pause — and its restart — comes amid increased scrutiny into Waymo and other robotaxi operators, particularly over how these self-driving vehicles behave in certain high-traffic situations and around emergency responders.",
     "pubDate": "Wed, 29 Jul 2026 17:50:57 +0000",
     "category": "Transportation",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Waymo",
     "matchedCompanies": [
-      "Waymo"
+      "Waymo",
+      "Aurora Innovation",
+      "Zoox"
     ],
     "sectors": [
-      "ai"
+      "ai",
+      "autonomous",
+      "transportation"
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "4h ago"
   },
   {
     "title": "Waymo adds Google&#8217;s Gemini AI assistant and new UI to Ojai robotaxi",
@@ -113,7 +138,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4h ago"
+    "time": "5h ago"
   },
   {
     "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
@@ -134,7 +159,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "7h ago"
   },
   {
     "title": "Fortastra and Hadrian join forces to streamline satellite production",
@@ -157,7 +182,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "9h ago"
   },
   {
     "title": "H3 to launch next ispace lunar lander mission",
@@ -176,7 +201,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "8h ago"
+    "time": "9h ago"
   },
   {
     "title": "OpenAI’s Rogue AI Agent Hacked More Than Just Hugging Face",
@@ -196,7 +221,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "20h ago"
+    "time": "21h ago"
   },
   {
     "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
@@ -216,7 +241,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "What Is Cape Cod Doing To Secure Its Energy Independence And Protect Its Natural Resources?",
