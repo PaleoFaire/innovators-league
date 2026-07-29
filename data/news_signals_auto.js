@@ -1,107 +1,129 @@
 // Auto-generated news signals
-// Last updated: 2026-07-29T19:35:25.636Z
+// Last updated: 2026-07-29T21:05:25.291Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1785353725636,
+    "id": 1785359125291,
+    "type": "contract",
+    "company": "SpaceX",
+    "headline": "SpaceX wins $1.6B to launch Space Force &#8216;sensing and targeting&#8217; sats",
+    "source": "Breaking Defense",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://breakingdefense.com/2026/07/spacex-wins-1-6b-to-launch-space-force-sensing-and-targeting-sats/"
+  },
+  {
+    "id": 1785359125292,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
+    "source": "SpaceNews",
+    "time": "Just now",
+    "impact": "high",
+    "unread": true,
+    "link": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/"
+  },
+  {
+    "id": 1785359125293,
+    "type": "news",
+    "company": "Hugging Face",
+    "headline": "The Hugging Face AI break-in, as told through an increasingly committed bear metaphor",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/"
+  },
+  {
+    "id": 1785359125294,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Can Make Space AI Win on Cost",
     "source": "Next Big Future",
-    "time": "Just now",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/07/spacex-starship-can-make-space-ai-win-on-cost.html"
   },
   {
-    "id": 1785353725637,
+    "id": 1785359125295,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo robotaxis are starting to return to freeways",
     "source": "TechCrunch",
-    "time": "1h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways/"
   },
   {
-    "id": 1785353725638,
+    "id": 1785359125296,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo adds Google&#8217;s Gemini AI assistant and new UI to Ojai robotaxi",
     "source": "Electrek",
-    "time": "3h ago",
+    "time": "4h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://electrek.co/2026/07/29/waymo-gemini-ai-ojai-robotaxi-redesigned-interface/"
   },
   {
-    "id": 1785353725639,
+    "id": 1785359125297,
     "type": "news",
     "company": "Humanoid",
     "headline": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
     "source": "The Robot Report",
-    "time": "5h ago",
+    "time": "6h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/"
   },
   {
-    "id": 1785353725640,
+    "id": 1785359125298,
     "type": "news",
     "company": "Hadrian",
     "headline": "Fortastra and Hadrian join forces to streamline satellite production",
     "source": "SpaceNews",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/"
   },
   {
-    "id": 1785353725641,
+    "id": 1785359125299,
     "type": "ipo",
     "company": "ispace",
     "headline": "H3 to launch next ispace lunar lander mission",
     "source": "SpaceNews",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/h3-to-launch-next-ispace-lunar-lander-mission/"
   },
   {
-    "id": 1785353725642,
+    "id": 1785359125300,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "OpenAI’s Rogue AI Agent Hacked More Than Just Hugging Face",
     "source": "Wired",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face/"
   },
   {
-    "id": 1785353725643,
+    "id": 1785359125301,
     "type": "news",
     "company": "OpenAI",
     "headline": "We now have a better understanding how OpenAI hacked into Hugging Face",
     "source": "Ars Technica",
-    "time": "21h ago",
+    "time": "23h ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/"
   },
   {
-    "id": 1785353725644,
-    "type": "news",
-    "company": "Waymo",
-    "headline": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/07/28/waymo-robotaxi-operators-face-fresh-scrutiny-over-emergency-response-failures/"
-  },
-  {
-    "id": 1785353725645,
+    "id": 1785359125302,
     "type": "news",
     "company": "Cape",
     "headline": "What Is Cape Cod Doing To Secure Its Energy Independence And Protect Its Natural Resources?",
@@ -112,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/07/28/what-is-cape-cod-doing-to-secure-its-energy-independence-and-protect-its-natural-resources/"
   },
   {
-    "id": 1785353725646,
+    "id": 1785359125303,
     "type": "news",
     "company": "Humanoid",
     "headline": "How integrated actuators improve humanoid robot joint performance and system integration",
@@ -123,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/"
   },
   {
-    "id": 1785353725647,
+    "id": 1785359125304,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy",
@@ -134,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/"
   },
   {
-    "id": 1785353725648,
+    "id": 1785359125305,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: OpenAI&#8217;s predictable hack, and an AI stock sell-off",
@@ -145,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/"
   },
   {
-    "id": 1785353725649,
+    "id": 1785359125306,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Perceptual Robotics secures £4M+ to scale AI-powered wind inspections",
@@ -156,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/07/28/perceptual-robotics-secures-ps4m-to-scale-ai-powered-wind-inspections/"
   },
   {
-    "id": 1785353725650,
+    "id": 1785359125307,
     "type": "news",
     "company": "Deterrence",
     "headline": "French wildfires threaten nuclear deterrence industry, Rafale assembly",
@@ -167,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/global/europe/2026/07/28/french-wildfires-threaten-nuclear-deterrence-industry-rafale-assembly/"
   },
   {
-    "id": 1785353725651,
+    "id": 1785359125308,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
@@ -178,18 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/"
   },
   {
-    "id": 1785353725652,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "Tesla Cybercabs and Superchargers Will Act as Mini Cell Towers for SpaceX Starlink",
-    "source": "Next Big Future",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/07/tesla-cybercabs-and-superchargers-will-act-as-mini-cell-towers-for-spacex-starlink.html"
-  },
-  {
-    "id": 1785353725653,
+    "id": 1785359125309,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/07/27/tesla-robotaxi-waymo-both-expanding-into-tampa-florida/"
   },
   {
-    "id": 1785353725654,
+    "id": 1785359125310,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin to test New Glenn upper stages at Stennis",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/blue-origin-to-test-new-glenn-upper-stages-at-stennis/"
-  },
-  {
-    "id": 1785353725655,
-    "type": "ipo",
-    "company": "Rocket Lab",
-    "headline": "Rocket Lab to open Alaska launch site under $266 million Space Force deal",
-    "source": "SpaceNews",
-    "time": "2d ago",
-    "impact": "medium",
-    "unread": false,
-    "link": "https://spacenews.com/rocket-lab-to-open-alaska-launch-site-under-266-million-space-force-deal/"
   }
 ];
