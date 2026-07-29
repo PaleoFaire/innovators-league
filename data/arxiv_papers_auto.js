@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-07-29 06:38:03 UTC
+// Last updated: 2026-07-29 09:31:03 UTC
 const ARXIV_PAPERS = [
   { id: "2607.26055v1", title: "$π\mathbf{R}^2$: Reactive Real-time Flow Policies", category: "Artificial Intelligence", published: "2026-07-28", sectors: "robotics", authors: "Sungjae Park, Shubham Tulsiani" },
   { id: "2607.26023v1", title: "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer", category: "Artificial Intelligence", published: "2026-07-28", sectors: "ai", authors: "Ankang Yang, Jitao Zhao, Di Jin et al." },

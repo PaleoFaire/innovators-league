@@ -1,5 +1,5 @@
 // Auto-generated company enrichment data
-// Last updated: 2026-07-29 07:06:46 UTC
+// Last updated: 2026-07-29 09:57:33 UTC
 // Enriched companies: 200 / 1059
 // Sources used: Diffbot + Wikipedia/Wikidata fallback
 const DIFFBOT_ENRICHMENT_AUTO = [
@@ -93,9 +93,9 @@ const DIFFBOT_ENRICHMENT_AUTO = [
   },
   {
     name: "Diraq",
-    summary: "",
+    summary: "Diraq is a quantum computing company developing quantum computers based on silicon spin qubits. The company was founded in 2022 as a spin-out from Aus",
     headquarters: "Sydney",
-    source: "wikidata",
+    source: "wikipedia",
     lastEnriched: "2026-07-29",
   },
   {
@@ -166,11 +166,11 @@ const DIFFBOT_ENRICHMENT_AUTO = [
   },
   {
     name: "General Matter",
-    summary: "",
+    summary: "General Matter is an American nuclear-fuel start up company, founded in 2024, that aims to develop domestic uranium enrichment capabilities for low-en",
     foundedYear: "2024",
     headquarters: "San Francisco",
     founders: ["Scott Nolan"],
-    source: "wikidata",
+    source: "wikipedia",
     lastEnriched: "2026-07-29",
   },
   {
@@ -390,12 +390,6 @@ const DIFFBOT_ENRICHMENT_AUTO = [
     lastEnriched: "2026-07-29",
   },
   {
-    name: "Hadrian",
-    summary: "Hadrian was Roman emperor from 117 to 138. His form of address as Roman emperor was Imperator Caesar Traianus Hadrianus Augustus. Hadrian was born in ",
-    source: "wikipedia",
-    lastEnriched: "2026-07-29",
-  },
-  {
     name: "Rangeview",
     summary: "Rangeview is an unincorporated community within the Rural Municipality of Reno No. 51, Saskatchewan, Canada. The former townsite is located 5 km west ",
     source: "wikipedia",
@@ -485,6 +479,14 @@ const DIFFBOT_ENRICHMENT_AUTO = [
   {
     name: "Joby Aviation",
     summary: "Joby Aviation, Inc. is an American venture-backed aviation company, developing an electric vertical takeoff and landing (eVTOL) aircraft that it inten",
+    source: "wikipedia",
+    lastEnriched: "2026-07-29",
+  },
+  {
+    name: "Airship Industries",
+    summary: "Airship Industries was a British manufacturers of modern non-rigid airships (blimps) active under that name from 1980 to 1990 and controlled for part ",
+    foundedYear: "1980",
+    headquarters: "London",
     source: "wikipedia",
     lastEnriched: "2026-07-29",
   },
@@ -858,6 +860,12 @@ const DIFFBOT_ENRICHMENT_AUTO = [
     lastEnriched: "2026-07-29",
   },
   {
+    name: "Abridge",
+    summary: "Abridge is a village in Essex, England. It is on the River Roding, 16 miles (26 km) southwest of the county town of Chelmsford. The village is in the ",
+    source: "wikipedia",
+    lastEnriched: "2026-07-29",
+  },
+  {
     name: "Redwood Materials",
     summary: "Redwood Materials, Inc. is an American company headquartered in Carson City, Nevada. The company aims to recycle lithium-ion batteries and produce bat",
     foundedYear: "2017",
@@ -874,11 +882,11 @@ const DIFFBOT_ENRICHMENT_AUTO = [
   },
   {
     name: "Nuro",
-    summary: "Nuro, Inc. is an American autonomous vehicle technology company based in Mountain View, California. Founded in 2016 by Jiajun Zhu and Dave Ferguson, N",
+    summary: "",
     foundedYear: "2016",
     headquarters: "Mountain View",
     founders: ["David Ferguson"],
-    source: "wikipedia",
+    source: "wikidata",
     lastEnriched: "2026-07-29",
   },
   {
@@ -921,12 +929,6 @@ const DIFFBOT_ENRICHMENT_AUTO = [
     name: "Whisper Aero",
     summary: "",
     source: "wikidata",
-    lastEnriched: "2026-07-29",
-  },
-  {
-    name: "IonQ",
-    summary: "IonQ, Inc. is an American quantum computing hardware and software company headquartered in College Park, Maryland. The company develops general-purpos",
-    source: "wikipedia",
     lastEnriched: "2026-07-29",
   },
   {
@@ -1059,6 +1061,12 @@ const DIFFBOT_ENRICHMENT_AUTO = [
     foundedYear: "2010",
     headquarters: "Dresden",
     source: "wikidata",
+    lastEnriched: "2026-07-29",
+  },
+  {
+    name: "planqc",
+    summary: "planqc is a quantum computing company based in Garching. Founded in 2022 as a spin-off from the Max Planck Institute of Quantum Optics, the company de",
+    source: "wikipedia",
     lastEnriched: "2026-07-29",
   },
   {
@@ -1195,9 +1203,15 @@ const DIFFBOT_ENRICHMENT_AUTO = [
   },
   {
     name: "Wiliot",
-    summary: "Wiliot is a startup company developing Internet of Things technology for supply-chains and asset tracking, founded in 2017 and based in Caesarea, Isra",
+    summary: "",
     foundedYear: "2017",
     headquarters: "Caesarea",
+    source: "wikidata",
+    lastEnriched: "2026-07-29",
+  },
+  {
+    name: "Mujin",
+    summary: "Muijin is a village in Alvandkuh-e Gharbi Rural District, in the Central District of Hamadan County, Hamadan Province, Iran. At the 2006 census, its p",
     source: "wikipedia",
     lastEnriched: "2026-07-29",
   },
@@ -1248,9 +1262,9 @@ const DIFFBOT_ENRICHMENT_AUTO = [
   },
   {
     name: "Tenstorrent",
-    summary: "This is a list of unicorn startup companies:",
+    summary: "",
     headquarters: "North York",
-    source: "wikipedia",
+    source: "wikidata",
     lastEnriched: "2026-07-29",
   },
   {
@@ -1447,22 +1461,6 @@ const DIFFBOT_ENRICHMENT_AUTO = [
     name: "Mainspring Energy",
     summary: "",
     source: "wikidata",
-    lastEnriched: "2026-07-29",
-  },
-  {
-    name: "Osmo",
-    summary: "Osmo is a Finnish male given name. It appears in Kalevala, where it means \"a young man\". The name has been in use since the 1880s. The name day for ",
-    foundedYear: "2014",
-    headquarters: "Palo Alto",
-    source: "wikipedia",
-    lastEnriched: "2026-07-29",
-  },
-  {
-    name: "Swift Beat",
-    summary: "Swift Beat, LLC is an American defense technology company headquartered in Menlo Park, California. The company develops artificial intelligence-enable",
-    foundedYear: "2023",
-    headquarters: "Menlo Park",
-    source: "wikipedia",
     lastEnriched: "2026-07-29",
   },
 ];

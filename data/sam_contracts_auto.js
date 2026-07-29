@@ -1,5 +1,5 @@
 // Auto-generated SAM.gov/USAspending contract data
-// Last updated: 2026-07-29 06:36:18 UTC
+// Last updated: 2026-07-29 09:31:16 UTC
 // Total records: 117, Companies matched: 17
 // Primary source used: USAspending.gov (fallback)
 const SAM_CONTRACTS_AUTO = [

@@ -1720,5 +1720,527 @@
     "sectors": [
       "ai"
     ]
+  },
+  {
+    "id": "2607.26045v1",
+    "title": "Photonuclear Neutron Production in OpenMC: Verification Against MCNPX, FLUKA, and a First-Collision Analytical Solution",
+    "summary": "The modeling of photonuclear reactions is increasingly important for applications involving high-energy photon fields, including accelerator-driven neutron sources, radiation shielding, medical physics, and fusion technologies. Although the Monte Carlo code OpenMC provides well-verified photoatomic transport capabilities, its photonuclear physics is currently available only in an unofficial development branch and requires independent verification before broader scientific use or possible integra",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Lorenzo Loi",
+      "Andrea Missaglia",
+      "Carolina Introini",
+      "David Breitenmoser",
+      "Shaun D. Clarke",
+      "Sara A. Pozzi",
+      "Antonio Cammi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.26045v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.25636v1",
+    "title": "Using Data-Derived Priors to Guide CNN Architecture Design for NIR Chemometrics",
+    "summary": "Convolutional neural networks (CNN) for near-infrared (NIR) chemometrics are often designed using generic architectural rules, although spectral datasets differ in sampling, smoothness, redundancy, and sample size. We tested whether these properties can provide empirical priors for CNN design. Across 25 NIR regression tasks, we computed descriptors of dataset size, spectral length and spacing, entropy, intrinsic rank, autocorrelation, and wavelet-scale structure. Two interpretable 1D-CNN scaffol",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "D\u00e1rio Passos"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25636v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2607.24050v1",
+    "title": "Pound-Drever-Hall Feedforward for Trapped-Ion Optical Qubits",
+    "summary": "Laser phase noise is one of the limiting factors that dictate gate fidelities and coherence times in trapped-ion quantum systems. Previous studies have reported that when the Rabi frequency of an ion qubit is close to the servo-bump phase-noise frequency, the driving laser limits the fidelity and coherence time. This issue has typically been mitigated by choosing a Rabi frequency outside the servo-bump region. However, this constrains the usable range of gate speeds and can limit the achievable ",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Jia-Yang Gao",
+      "Jianwei Lee",
+      "Morteza Ahmadi",
+      "Manas Mukherjee"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24050v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2607.23685v1",
+    "title": "Variable Emissivity Modeling for Sustainable Lunar Surface Habitats",
+    "summary": "Lunar habitats will be one of the first platforms to enable long-term human presence beyond Low Earth Orbit. These structures act as a stepping stone for exploring our solar system while simultaneously enabling lunar resource utilization, low-energy cryopreservation, and various other applications. These habitats must be designed to withstand the extreme thermal variation of the lunar surface caused by the changing orientation with respect to the Sun and Earth. White paints and multi-layered ins",
+    "published": "2026-07-26",
+    "updated": "2026-07-26",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "S. Keller",
+      "S. Stewart",
+      "S. Taylor",
+      "O. Ilic"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.23685v1",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2607.23469v1",
+    "title": "When Every Simulation Counts: Value-Based Reinforcement Learning for Accelerated Photonics Inverse Design",
+    "summary": "Photonic-crystal surface-emitting lasers (PCSELs) can combine high-power operation with narrow-divergence surface emission, but optimizing coupled parameters requires costly full-wave simulations. Deep Q-network (DQN) optimization can reuse simulated transitions to guide edits, yet which value-learning mechanisms remain reliable under tight simulation budgets is unknown. We address this gap by comparing baseline DQN and six value-based variants for a seven-variable PCSEL design under a shared ob",
+    "published": "2026-07-26",
+    "updated": "2026-07-26",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Longying Wen",
+      "Feiyang Wu",
+      "Jinglin Yu",
+      "Chongxian Yuan",
+      "Renjie Li",
+      "Zhaoyu Zhang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.23469v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2607.21830v1",
+    "title": "Energy-resolved measurement of individual GeV muon tracks generated by electrons from a compact Laser-Plasma Accelerator",
+    "summary": "Recently, the possibility of LPA-produced muon beams has gained significant interest within the accelerator application community. Directional, multi-GeV muons can be produced via Bethe-Heitler interactions when multi-GeV electrons hit solid targets. They are highly penetrating and, thanks to the compactness of the LPA, offer a path toward a deployable, active muon source. At the BELLA Center of the Lawrence Berkeley National Laboratory, we previously unambiguously detected muons generated durin",
+    "published": "2026-07-23",
+    "updated": "2026-07-23",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "Davide Terzani",
+      "Luc Le Pottier",
+      "Stanimir Kisyov",
+      "Pranav Manoj",
+      "Ryan Heller",
+      "Maria Mironova",
+      "Alex Picksley",
+      "Joshua Stackhouse",
+      "Hai-En Tsai",
+      "Raymond Li",
+      "Timon Heim",
+      "Maurice Garcia-Sciveres",
+      "Carlo Benedetti",
+      "John Valentine",
+      "Kei Nakamura",
+      "Anthony J. Gonsalves",
+      "Jeroen van Tilborg",
+      "Carl B. Schroeder",
+      "Eric Esarey",
+      "Cameron G. R. Geddes"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.21830v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.21543v1",
+    "title": "Bayesian evidence adaptive pursuit to identify neutron sources with scatter-based spectrometers",
+    "summary": "Reliable neutron source identification is essential for nuclear nonproliferation, safeguards, and homeland security, but remains challenging because neutron spectral inversion is often ill-conditioned, especially for mixed-source fields with overlapping spectral signatures. Here, we present a scalable Bayesian framework for neutron source identification from recoil spectroscopy measurements using evidence-based model selection. The method introduces a Bayesian Evidence Adaptive Pursuit (BEAP) al",
+    "published": "2026-07-23",
+    "updated": "2026-07-23",
+    "category": "physics.app-ph",
+    "categoryName": "Applied Physics",
+    "authors": [
+      "David Breitenmoser",
+      "William Heriot",
+      "Peter Marleau",
+      "Shaun D. Clarke",
+      "Sara A. Pozzi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.21543v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.25854v1",
+    "title": "Nuclear matter equation of state and astrophysics",
+    "summary": "Neutron-star masses, radii, and inspiral tidal deformabilities now provide quantitative constraints on the cold equation of state (\\eos), favoring relatively soft matter around one to two times nuclear saturation density and substantial stiffening at larger density. These bulk constraints, however, do not uniquely determine the microscopic composition of the stellar core. Hyperons, deconfined quarks, quarkyonic matter, and strong first-order phase transitions remain viable possibilities. This ar",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Mateus Reinke Pelicer"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25854v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.25727v1",
+    "title": "Path-length dependence of parton energy loss across collision systems: a Bayesian analysis of charged-particle RAA, consistent with a universal exponent from O+O to Pb+Pb",
+    "summary": "How parton energy loss in the quark-gluon plasma (QGP) scales with the in-medium path length $L$ encodes the mechanism: collisional ($\u0394E \\propto L$), radiative ($\u0394E \\propto L^2$), or strong-coupling ($\u0394E \\propto L^3$). Exploiting the new CERN LHC light-ion data, we extract this scaling from the system size itself, jointly analysing CMS charged-particle nuclear modification factors $R_{AA}$ in four systems - O+O, Ne+Ne, Xe+Xe and Pb+Pb - spanning mass number $A = 16$ to $208$. A Bayesian analysis",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Fouad A. Majeed",
+      "Hussein Ali Hussein Al Naffakh",
+      "Sarah M. Obaid",
+      "Muntaha Abdullah Reishaan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25727v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.25017v1",
+    "title": "Few-gluon interactions and multipole radiation in high energy nuclear collisions",
+    "summary": "Broad claims have been made over years about achievement of quark-gluon plasma (QGP) formation in high-energy heavy-ion collisions based on certain phenomena anticipated for QGP formation. More recently, similar phenomena have appeared in smaller collision systems. In response, the original narrative associated with QGP formation has been altered, with introduction of novel concepts such as ``QGP droplets'' appearing even in p-p collisions. In contrast, alternative research has revealed novel as",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Thomas A. Trainor"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25017v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.24950v1",
+    "title": "Beyond leading-logarithm photon production from two-loop diagrams in a hot QCD medium",
+    "summary": "We investigate high-energy photon production from a quark-gluon plasma by evaluating the imaginary part of the two-loop photon self-energies in thermal QCD. Working within the imaginary-time formalism, we derive analytical expressions for both the leading-logarithmic and the beyond-leading-logarithmic contributions to the photon production rate. The rates obtained within the thermal field theoretical framework agree with those derived from kinetic theory calculations for the relevant photon-prod",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      " Sumit",
+      "Ritesh Ghosh",
+      "Munshi G. Mustafa"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24950v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.24947v1",
+    "title": "Realizing Error Suppression in Partially Fault-Tolerant Quantum Simulations with IBM Quantum Computers",
+    "summary": "Quantum error-detecting codes offer a near-term path for improving the performance of quantum simulations on noisy hardware. Using IBM's superconducting quantum computer ibm_boston, we show that partially fault-tolerant encoded quantum simulations of the Ising model in 1+1D and 2+1D outperform their unencoded counterparts in estimating local observables. To represent 42 logical qubits on the heavy-hex quantum processor, 21 blocks of the [[4, 2, 2]] Iceberg code and up to 136 physical qubits are ",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Henry Froland",
+      "Dorota M. Grabowska",
+      "Sebastian Grieninger",
+      "Jeremy Hartse",
+      "Anne L. Lashbrook",
+      "Zhiyao Li",
+      "Ziyuan Li",
+      "Sarah J. M. Powell",
+      "Martin J. Savage",
+      "Xiaojun Yao",
+      "Nikita A. Zemlevskiy"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24947v1",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2607.24710v1",
+    "title": "Symbolic Extraction of Non-Perturbative Transverse-Momentum-Dependent Distributions from Drell-Yan Data",
+    "summary": "We present an analytical parametrization of the non-perturbative transverse-momentum-dependent (TMD) parton distribution function of unpolarized quarks, extracted from Drell-Yan data using a combination of neural-network fitting and symbolic regression. A factorized neural network is trained directly against experimental cross-section data from fixed-target, Tevatron, RHIC, and LHC experiments at next-to-next-to-next-to-leading logarithmic accuracy, and symbolic regression is subsequently applie",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Cole Granger",
+      "Alessandro Bacchetta",
+      "Valerio Bertone",
+      "Chiara Bissolotti",
+      "Matteo Cerutti",
+      "Marco Radici",
+      "Simone Rodini",
+      "Lorenzo Rossi",
+      "Cristiano Fanelli"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24710v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2607.24684v1",
+    "title": "Two-neutrino double-weak decays of $^{126}$Xe and $^{134}$Xe from different many-body methods",
+    "summary": "We calculate the nuclear matrix elements and corresponding half-lives for the two-neutrino double-electron capture of $^{126}$Xe and the two-neutrino double-beta decay of $^{134}$Xe. We use different many-body methods: the proton-neutron quasiparticle random-phase approximation, the nuclear shell model, the microscopic interacting boson model, and an effective field theory for heavy nuclei. For both nuclei, all our half-life predictions are generally consistent with each other when including the",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "C. Brase",
+      "L. Jokiniemi",
+      "E. Kauppinen",
+      "B. Romeo",
+      "J. Kotila",
+      "J. Men\u00e9ndez",
+      "A. Schwenk"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24684v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.24660v1",
+    "title": "Light clusters in warm magnetized stellar matter: equation of state and thermodynamic response",
+    "summary": "Finite-temperature equations of state (EOSs) with a controlled treatment of composition-dependent effects are becoming increasingly important for modeling proto-neutron stars and binary neutron star merger remnants, where warm matter may coexist with strong magnetic fields. At sub-saturation densities, light nuclear clusters may also emerge with sizeable abundances. For beta-equilibrated matter, with or without neutrino trapping, an interplay between magnetic fields and light-cluster formation n",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Luigi Scurto",
+      "Stefano Burrello",
+      "Maria Colonna"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24660v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.24636v1",
+    "title": "Emergence of the halo in $^{11}$Li from full nuclear many-body dynamics",
+    "summary": "The two-neutron halo nucleus $^{11}$Li is a paradigmatic quantum many-body system whose large spatial extent and weak binding have long challenged a microscopic description from first principles. Using a neural-network variational Monte Carlo approach, we present an \\textit{ab initio} demonstration that the halo structure of $^{11}$Li emerges directly from the underlying nuclear interactions and full many-body dynamics. The calculation employs an essential nuclear Hamiltonian constrained solely ",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Yilong Yang",
+      "Pengwei Zhao"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24636v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.24156v1",
+    "title": "Microscopic Spin-Parity Distributions of Fission Fragments",
+    "summary": "Recent microscopic studies have investigated various features of the spin distributions of fission fragments, but their parity distributions remain largely unexplored. In this Letter, we provide a complete characterization of the spin--parity content of fission fragments within a time-dependent Hartree-Fock-Bogoliubov framework, performing for the first time simultaneous projections on angular momentum, particle number, and parity. Calculations are carried out for the thermal neutron-induced fis",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Guillaume Scamps",
+      "Petar Marevi\u0107",
+      "Antonio Bjel\u010di\u0107",
+      "Nicolas Schunck"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24156v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.24870v1",
+    "title": "Prompt Fission Neutron Spectra of 233U(n, F), 235U(n, F), 239Pu(n, F) and 240Pu(n,F)",
+    "summary": "The prompt fission neutron spectra of fuel and fertile nuclei are of key importance for the safety/efficiency of nuclear reactors, deployed or next generation either. The newly measured prompt fission neutron spectra and revisited prompt fission neutron spectra data for 235U(n,f), 239Pu(n,f) and 240Pu(n,f) reactions strongly discard the actual prompt fission neutron spectra evaluated data provided in available evaluated neutron data libraries. The reasons for that are rather diverse. The newly m",
+    "published": "2026-07-26",
+    "updated": "2026-07-26",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "V. M. Maslov"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24870v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.25985v1",
+    "title": "Physics-Aware End-to-End Deep Reinforcement Learning for Quadcopter Control with Actuator Dynamics",
+    "summary": "Unmanned aerial vehicles (UAVs), particularly quadcopters, present unique challenges for autonomous control due to their underactuated dynamics: only four available control inputs must govern six degrees of freedom. This paper investigates a physics-aware, end-to-end deep reinforcement learning (DRL) approach that acts directly on low-level body inputs, total thrust and body torques $(T, \u03c4_x, \u03c4_y, \u03c4_z)$, and closes the loop through a high-fidelity Simulink environment. Our simulator integrates a",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Ya-Chia Shen",
+      "Woei-Leong Chan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25985v1",
+    "sectors": [
+      "defense",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2607.25588v1",
+    "title": "System-Aware Adaptive CSI Feedback via RL-Guided Autoencoder Switching in Multi-User MIMO System",
+    "summary": "This paper proposes a system-aware adaptive channel state information (CSI) feedback framework for massive multiple-input multiple-output (mMIMO) systems, aiming to dynamically optimize the trade-off between reconstruction fidelity and signaling overhead. While deep learning-based autoencoders (AEs) have enabled significant CSI compression, conventional fixed-ratio schemes fail to adapt effectively to non-stationary channel conditions. To address this limitation, we develop a reinforcement learn",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Maryam Ansarifard",
+      "Mohit K. Sharma",
+      "George Exarchakos",
+      "Kishor C. Joshi"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25588v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2607.25586v1",
+    "title": "A Minimal Dynamical Model for Incubation-Outbreak Transitions in Social Norm Diffusion",
+    "summary": "In this paper, we introduce a minimal dynamical model for the diffusion of a new social norm, in which individuals transition among three states: non-supporters, silent supporters, and vocal advocates. Despite its simplicity and its close relation to the classical SI-type and SIS-type spreading dynamics, this model exhibits a nontrivial latent-outbreak dynamic pattern: an initial small adoption wave is followed by a long quiescent period and then an abrupt, endogenous explosion of support. Throu",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Run Wang",
+      "Leonardo Cianfanelli",
+      "Giacomo Como",
+      "Wenjun Mei"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25586v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2607.25235v1",
+    "title": "Progressive Replacement Sequence Planning for Laser-Enhanced BeiDou Navigation Constellations",
+    "summary": "The early satellites of the third-generation BeiDou Navigation Satellite System (BDS-3) are approaching the end of their design lifetime, making progressive constellation replacement an inevitable engineering task. Meanwhile, laser inter-satellite links (LISLs) provide high-precision time transfer, sub-millimeter-level ranging, and high-rate data forwarding capabilities, offering a promising upgrade path for future BeiDou satellites. This paper investigates the replacement-sequence planning prob",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Huan Yan",
+      "Juan A. Fraire",
+      "Ziqi Yang",
+      "Kanglian Zhao",
+      "Wenfeng Li",
+      "Jinjun Zheng",
+      "Ziyu Wang",
+      "Changgang Zheng"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25235v1",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2607.25141v1",
+    "title": "Specification-Driven DevOps for Multi-Service Environments",
+    "summary": "Large Language Models (LLMs) are increasingly used to generate executable software environments from repository artifacts. However, functional executability does not necessarily imply conformity with architectural, security, workflow, and production intent. This study investigates whether a frontier LLM can generate Dockerfiles and Docker Compose configurations for multi-service applications using repository contents without access to developer-authored deployment artifacts. Three heterogeneous ",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Oleg Grynets",
+      "Kyrylo Fursov",
+      "Vasyl Lyashkevych",
+      "Volodymyr Veres"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25141v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2607.25037v1",
+    "title": "Ultra-Low-Energy Open-Circuit Fault Diagnosis for Three-Phase Inverters",
+    "summary": "Embedded fault diagnosis in three-phase inverters must satisfy the sub-watt power budget of converter control hardware, but conventional convolutional neural network (CNN)-based methods require dense multiply-accumulate operations and impose substantial inference energy. This work proposes an event-driven neuromorphic framework for energy-efficient open-circuit (OC) fault diagnosis. A CNN trained on current-vector trajectory matrices is converted into a spiking neural network (SNN) and evaluated",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Xiaoyi Lei",
+      "Fanfu Wu",
+      "Yunting Liu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.25037v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2607.24539v1",
+    "title": "Task-Conditional Faithfulness Auditing of Multimodal LLMs for Grid Diagnosis",
+    "summary": "Multimodal large language models (LLMs) can combine topology, measurements, and incident text for grid diagnosis, yet answer accuracy does not establish that task-appropriate evidence was used. This letter proposes a general framework in order to conduct task-conditional faithfulness audit. It compares self-reported reliance, intervention-derived behavioral reliance, and preregistered engineering importance. The framework first registers task-specific evidence requirements and compares them with",
+    "published": "2026-07-27",
+    "updated": "2026-07-27",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Tianqiao Zhao",
+      "Meng Yue",
+      "Jianhui Wang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2607.24539v1",
+    "sectors": [
+      "ai"
+    ]
   }
 ]

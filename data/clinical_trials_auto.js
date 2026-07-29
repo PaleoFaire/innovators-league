@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-07-29 06:36:08 UTC
+// Last updated: 2026-07-29 09:30:53 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05368038", title: "ScreenPlus: A Comprehensive, Flexible, Multi-disorder Newborn Screening Program", status: "ENROLLING_BY_INVITATION", phase: "N/A", sponsor: "Albert Einstein College of Medicine", conditions: "Acid Sphingomyelinase Deficiency, Ceroid Lipofusci", enrollment: 100000, lastUpdated: "2026-07-28" },
   { nctId: "NCT07674628", title: "SALUD-M: Acceptance Based Coping Skills for Hispanic/Latinx Military Patients Wi", status: "RECRUITING", phase: "NA", sponsor: "Baylor College of Medicine", conditions: "Type 2 Diabetes", enrollment: 100, lastUpdated: "2026-07-28" },
