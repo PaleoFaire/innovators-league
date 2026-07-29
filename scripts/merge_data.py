@@ -573,6 +573,35 @@ def update_predictive_scores(data_js_content):
 
     today = datetime.now().strftime("%Y-%m-%d")
 
+    # ------------------------------------------------------------------
+    # BUG FIX (2026-07-29): dedup company entries by key, keeping the LAST
+    # (freshest) occurrence. The old code appended auto entries every run
+    # WITHOUT deduping, so each of the ~700 companies accumulated one extra
+    # copy per run. Over ~700 runs this grew predictive_scores.js to 100 MB
+    # (544,538 entries, 99.8% duplicates), which then exceeded GitHub's 100 MB
+    # hard limit and broke every push. Entries are single-line, so a
+    # keep-last-per-key pass on the combined block is safe and idempotent.
+    # ------------------------------------------------------------------
+    _entry_re = re.compile(r'^\s*"((?:[^"\\]|\\.)*)":\s*\{.*\},?\s*$')
+
+    def dedup_company_entries(block_text):
+        seen, order = {}, []
+        for raw in block_text.split("\n"):
+            line = raw.strip()
+            if not line:
+                continue
+            m = _entry_re.match(line)
+            if not m:
+                continue  # skip anything that isn't a company entry line
+            key = m.group(1)
+            if key not in seen:
+                order.append(key)
+            seen[key] = "      " + line.rstrip(",") + ","  # normalize indent + comma
+        out = [seen[k] for k in order]
+        if out:
+            out[-1] = out[-1].rstrip(",")  # no trailing comma on the last entry
+        return "\n".join(out)
+
     # Helper to format a companies dict as JS
     def format_companies(companies_dict):
         if not companies_dict:
@@ -632,6 +661,7 @@ def update_predictive_scores(data_js_content):
         if cat_match:
             existing = cat_match.group(2).rstrip().rstrip(",")
             combined = existing + ",\n" + auto_js if existing.strip() else auto_js
+            combined = dedup_company_entries(combined)  # FIX: keep-last-per-key, prevents unbounded growth
             replacement = cat_match.group(1) + "\n" + combined + cat_match.group(3)
             ps_content = ps_content[:cat_match.start()] + replacement + ps_content[cat_match.end():]
             print(f"  Updated {category}: +{len(auto_companies)} auto entries")
