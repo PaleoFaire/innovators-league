@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -1.05,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.13,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -7.58,
+      "avg_change": -9.04,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -10.36,
+      "avg_change": -11.67,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.26,
+      "avg_change": -12.21,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -8.15,
+      "avg_change": -7.99,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.79,
+      "avg_change": -5.81,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -2.32,
+      "avg_change": -2.4,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -11.12,
+      "avg_change": -11.72,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -17.89,
+      "avg_change": -16.78,
       "count": 3
     }
   },
@@ -64,52 +64,52 @@
       2.33
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      2.33
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      0.72
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
-      0.67
+      1.91
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      0.63
     ],
     [
       "PLTR",
       "Palantir",
-      -1.05
+      0.13
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      0.09
     ]
   ],
   "topLosers": [
     [
       "LUNR",
       "Intuitive Machines",
-      -14.76
+      -17.1
     ],
     [
       "TSLA",
       "Tesla",
-      -18.62
+      -19.14
     ],
     [
       "AMD",
       "AMD",
-      -20.58
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -22.09
+      -20.2
     ],
     [
       "ALAB",
       "Astera Labs",
-      -23.66
+      -21.32
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -24.23
     ]
   ],
-  "lastUpdated": "2026-07-29 14:18:21"
+  "lastUpdated": "2026-07-29 19:22:11"
 }
