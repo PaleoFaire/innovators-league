@@ -1,23 +1,5 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 55,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI\u2019s Rogue AI Agent Hacked More Than Just Hugging Face",
-      "We now have a better understanding how OpenAI hacked into Hu",
-      "Greyparrot secures $27M Series B to scale AI waste intellige"
-    ],
-    "fundingQ": "$282.7B",
-    "components": {
-      "funding": 100,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-29"
-  },
-  {
     "sector": "Robotics & Manufacturing",
     "momentum": 55,
     "trend": "accelerating",
@@ -30,6 +12,24 @@
     "components": {
       "funding": 100,
       "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-29"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "OpenAI\u2019s Rogue AI Agent Hacked More Than Just Hugging Face",
+      "We now have a better understanding how OpenAI hacked into Hu",
+      "Greyparrot secures $27M Series B to scale AI waste intellige"
+    ],
+    "fundingQ": "$282.7B",
+    "components": {
+      "funding": 100,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },

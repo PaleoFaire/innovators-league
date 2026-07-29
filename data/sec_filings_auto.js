@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-29 06:27:59 UTC
+// Last updated: 2026-07-29 08:46:10 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "8-K", date: "2026-07-28", description: "oklo-20260722.htm", isIPO: false, ticker: "OKLO" },
   { company: "Joby Aviation", form: "8-K", date: "2026-07-28", description: "d152570d8k.htm", isIPO: false, ticker: "JOBY" },
