@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-07-30T09:36:04+00:00",
+  "generatedAt": "2026-07-30T11:58:19+00:00",
   "matrix": {
     "nuclear-microreactor": {
       "2026-Q3": {
         "deals": 2,
-        "totalSold": 319999537,
+        "totalSold": 54647987,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
             "name": "Antares",
-            "amount": 319999537,
-            "date": "2026-07-28",
+            "amount": 54647987,
+            "date": "2026-07-29",
             "source": "formd",
             "investors": [
               "Shine Capital",
@@ -311,37 +311,6 @@
           "Founders Fund",
           "Lowercarbon Capital",
           "Valor Equity Partners"
-        ]
-      }
-    },
-    "biotech-cell-reprogramming": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "New Limit",
-            "amount": 0,
-            "date": "2026-07-16",
-            "source": "formd",
-            "investors": [
-              "Kleiner Perkins",
-              "Dimension Capital",
-              "Founders Fund",
-              "Nat Friedman & Daniel Gross",
-              "Khosla Ventures",
-              "Human Capital",
-              "Eli Lilly & Company",
-              "Abstract Ventures",
-              "Duke University Management Company",
-              "S32"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Khosla Ventures"
         ]
       }
     },
@@ -1540,7 +1509,7 @@
         {
           "company": "Antares",
           "cluster": "nuclear-microreactor",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "source": "formd"
         }
       ],
@@ -1559,12 +1528,6 @@
           "company": "Radiant",
           "cluster": "nuclear-microreactor",
           "date": "2026-07-27",
-          "source": "formd"
-        },
-        {
-          "company": "New Limit",
-          "cluster": "biotech-cell-reprogramming",
-          "date": "2026-07-16",
           "source": "formd"
         }
       ],
@@ -1681,46 +1644,6 @@
           "date": "2025-04",
           "source": "recentEvent"
         },
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Khosla Ventures": {
-      "2026-Q3": [
-        {
-          "company": "New Limit",
-          "cluster": "biotech-cell-reprogramming",
-          "date": "2026-07-16",
-          "source": "formd"
-        },
-        {
-          "company": "Monumental",
-          "cluster": "construction-modular",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
         {
           "company": "Collaborative Robotics",
           "cluster": "robotics-cobots-warehouse",
@@ -1863,6 +1786,40 @@
           "company": "Shield AI",
           "cluster": "autonomy-drone-military",
           "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Khosla Ventures": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Monumental",
+          "cluster": "construction-modular",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -2059,9 +2016,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 60,
-    "totalUSDSold": 373288932,
-    "uniqueClusters": 38,
+    "totalDealsTracked": 59,
+    "totalUSDSold": 107937382,
+    "uniqueClusters": 37,
     "uniqueQuarters": 9,
     "uniqueVCs": 18,
     "quarterRange": [

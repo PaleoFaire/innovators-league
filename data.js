@@ -83991,25 +83991,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-30 09:35
-// Auto-generated real-time signals
-// Last updated: 2026-07-30
+// Last updated: 2026-07-30 11:57
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX is Making Improved 220K GPU Modular AI Data Centers", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "Microsoft is openly competing with OpenAI, Anthropic more than ever", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo — New Testing, Uber Fallout, Fine Bonanza", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "SpaceX", headline: "SpaceX wins $1.6B to launch Space Force &#8216;sensing and targeting&#8217; sats", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX wins $1.6 billion in launch orders for military satellite networks", source: "SpaceNews", time: "12h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Can Make Space AI Win on Cost", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "Waymo robotaxis are starting to return to freeways", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Waymo", headline: "Waymo adds Google&#8217;s Gemini AI assistant and new UI to Ojai robotaxi", source: "Electrek", time: "17h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Humanoid", headline: "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots", source: "The Robot Report", time: "19h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Hadrian", headline: "Fortastra and Hadrian join forces to streamline satellite production", source: "SpaceNews", time: "20h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "ispace", headline: "H3 to launch next ispace lunar lander mission", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "OpenAI", headline: "OpenAI’s Rogue AI Agent Hacked More Than Just Hugging Face", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI's Hacking Debacle Was a Human Mistake", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX is Making Improved 220K GPU Modular AI Data Centers", source: "Next Big Future", time: "10h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Microsoft is openly competing with OpenAI, Anthropic more than ever", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Waymo", headline: "Waymo ' New Testing, Uber Fallout, Fine Bonanza", source: "CleanTechnica", time: "12h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "SpaceX", headline: "SpaceX wins $1.6B to launch Space Force 'sensing and targeting' sats", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX wins $1.6 billion in launch orders for military satellite networks", source: "SpaceNews", time: "15h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Can Make Space AI Win on Cost", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Waymo", headline: "Waymo robotaxis are starting to return to freeways", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Waymo", headline: "Waymo adds Google's Gemini AI assistant and new UI to Ojai robotaxi", source: "Electrek", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Humanoid", headline: "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots", source: "The Robot Report", time: "21h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Hadrian", headline: "Fortastra and Hadrian join forces to streamline satellite production", source: "SpaceNews", time: "22h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "ispace", headline: "H3 to launch next ispace lunar lander mission", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "OpenAI", headline: "OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face", source: "Wired", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
