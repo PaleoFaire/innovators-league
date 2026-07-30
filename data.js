@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-07-29";
+const LAST_UPDATED = "2026-07-30";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -83538,23 +83538,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-29 22:08
+// Last updated: 2026-07-30 00:05
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "SpaceX", headline: "SpaceX wins $1.6B to launch Space Force 'sensing and targeting' sats", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX wins $1.6 billion in launch orders for military satellite networks", source: "SpaceNews", time: "1h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "Hugging Face", headline: "The Hugging Face AI break-in, as told through an increasingly committed bear metaphor", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Can Make Space AI Win on Cost", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Waymo robotaxis are starting to return to freeways", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Waymo", headline: "Waymo adds Google's Gemini AI assistant and new UI to Ojai robotaxi", source: "Electrek", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Humanoid", headline: "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots", source: "The Robot Report", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Hadrian", headline: "Fortastra and Hadrian join forces to streamline satellite production", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "ispace", headline: "H3 to launch next ispace lunar lander mission", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "OpenAI", headline: "OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face", source: "Wired", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Cape", headline: "What Is Cape Cod Doing To Secure Its Energy Independence And Protect Its Natural Resources?", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Humanoid", headline: "How integrated actuators improve humanoid robot joint performance and system integration", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Scale AI", headline: "Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy", source: "Tech.eu", time: "1d ago", impact: "medium", unread: false },
+  { id: 1, type: "milestone", company: "Waymo", headline: "Waymo ' New Testing, Uber Fallout, Fine Bonanza", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "SpaceX", headline: "SpaceX wins $1.6B to launch Space Force 'sensing and targeting' sats", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX wins $1.6 billion in launch orders for military satellite networks", source: "SpaceNews", time: "3h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "Hugging Face", headline: "The Hugging Face AI break-in, as told through an increasingly committed bear metaphor", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Can Make Space AI Win on Cost", source: "Next Big Future", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Waymo", headline: "Waymo robotaxis are starting to return to freeways", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Waymo", headline: "Waymo adds Google's Gemini AI assistant and new UI to Ojai robotaxi", source: "Electrek", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Humanoid", headline: "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots", source: "The Robot Report", time: "9h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Hadrian", headline: "Fortastra and Hadrian join forces to streamline satellite production", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "ispace", headline: "H3 to launch next ispace lunar lander mission", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "OpenAI", headline: "OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Cape", headline: "What Is Cape Cod Doing To Secure Its Energy Independence And Protect Its Natural Resources?", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
