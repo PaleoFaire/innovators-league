@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.31,
+      "avg_change": -1.1,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.98,
+      "avg_change": -5.58,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -11.23,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -9.69,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.93,
+      "avg_change": -3.17,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.18,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.92,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.42,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 3.61,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.35,
+      "avg_change": -0.04,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -2.45,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -0.55,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.52,
+      "avg_change": -8.61,
       "count": 3
     }
   },
@@ -61,49 +61,49 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      4.55
+      5.76
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      1.52
+      5.35
     ],
     [
       "IONQ",
       "IonQ",
-      0.0
+      5.03
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      0.0
+      "QS",
+      "QuantumScape",
+      2.15
     ],
     [
-      "RIVN",
-      "Rivian",
-      -0.58
+      "AUR",
+      "Aurora Innovation",
+      2.09
     ]
   ],
   "topLosers": [
     [
+      "AMD",
+      "AMD",
+      -9.55
+    ],
+    [
       "LUNR",
       "Intuitive Machines",
-      -12.91
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -14.88
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -14.9
+      -9.88
     ],
     [
       "DRSHF",
       "DroneShield",
-      -16.17
+      -14.19
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -14.57
     ],
     [
       "277810.KQ",
@@ -111,5 +111,5 @@
       -26.57
     ]
   ],
-  "lastUpdated": "2026-07-30 14:10:22"
+  "lastUpdated": "2026-07-30 19:38:05"
 }
