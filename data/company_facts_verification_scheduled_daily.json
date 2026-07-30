@@ -1,37 +1,42 @@
 {
-  "generatedAt": "2026-07-29T08:20:38+00:00",
+  "generatedAt": "2026-07-30T08:10:07+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 25,
-  "newExtractionsThisRun": 25,
+  "cohortSize": 33,
+  "newExtractionsThisRun": 33,
   "summary": {
-    "cleared": 22,
-    "changesProposed": 3,
+    "cleared": 27,
+    "changesProposed": 6,
     "unverifiable": 0
   },
   "cleared": [
     "1X Technologies",
+    "AbCellera",
     "Agility Robotics",
     "Apptronik",
-    "Axiom Space",
+    "Astera Labs",
+    "Atomic Industries",
+    "Aurora Innovation",
     "Cape",
-    "Cover",
+    "Crusoe Energy",
     "Dawn Aerospace",
     "Deterrence",
     "Dexterity",
+    "Divergent",
     "Durin",
     "Fairmat",
     "Gecko Robotics",
+    "Hadrian",
     "Humanoid",
     "Karman Industries",
     "Neura Robotics",
     "Quaise Energy",
+    "Rebellions",
+    "Redwood Materials",
     "Rocket Lab",
-    "Scale AI",
     "Solugen",
-    "Vast",
-    "Waymo",
-    "Xtend"
+    "Xtend",
+    "ispace"
   ],
   "changesProposed": [
     {
@@ -47,7 +52,7 @@
       },
       "verified": {
         "name": "Blue Origin",
-        "description": "Private American aerospace company headquartered in Kent, Washington, developing suborbital New Shepard and heavy-lift New Glenn rockets. Works on Blue Moon lunar lander for NASA's Artemis program.",
+        "description": "Private American aerospace company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and is developing the Blue Moon human lunar lander for NASA's Artemis program.",
         "founders": [
           "Jeff Bezos"
         ],
@@ -81,7 +86,7 @@
             0
           ]
         },
-        "notes": "Database entry lists stage as 'SPAC' but source [0] clearly identifies company as 'Private' with no mention of SPAC status. Total_raised of '$10B+' could not be verified in provided sources. Current CEO is Dave Limp (appointed September 2023)."
+        "notes": "Database entry lists stage as 'SPAC' but Wikipedia identifies company as 'Private'. Database entry cites total_raised as '$10B+' but sources provided do not contain funding information. Database entry lists 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify investor names. Valuation is undisclosed in sources."
       },
       "changes": [
         {
@@ -105,46 +110,109 @@
           "url": "https://spacenews.com/blue-origin-to-test-new-glenn-upper-stages-at-stennis/"
         }
       ],
-      "notes": "Database entry lists stage as 'SPAC' but source [0] clearly identifies company as 'Private' with no mention of SPAC status. Total_raised of '$10B+' could not be verified in provided sources. Current CEO is Dave Limp (appointed September 2023)."
+      "notes": "Database entry lists stage as 'SPAC' but Wikipedia identifies company as 'Private'. Database entry cites total_raised as '$10B+' but sources provided do not contain funding information. Database entry lists 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify investor names. Valuation is undisclosed in sources."
     },
     {
-      "name": "Redwood Materials",
+      "name": "Fortastra",
       "current": {
-        "name": "Redwood Materials",
-        "founder": "J. B. Straubel",
-        "location": "Carson City, NV",
-        "founded": 2017,
-        "fundingStage": "Series D",
-        "totalRaised": "$2.3B+",
-        "website": "https://redwoodmaterials.com"
+        "name": "Fortastra",
+        "founder": "Mike Smayda",
+        "location": "Torrance, CA",
+        "founded": 2025,
+        "fundingStage": "Series C",
+        "totalRaised": "$8M",
+        "website": "https://fortastra.com"
       },
       "verified": {
-        "name": "Redwood Materials",
-        "description": "American battery-recycling company that recycles lithium-ion batteries to recover lithium, nickel, cobalt, and copper, and produces battery materials for electromobility and electrical storage systems.",
-        "founders": [
-          "J. B. Straubel"
-        ],
-        "location": "Carson City, Nevada, United States",
-        "founded_year": 2017,
+        "name": "Fortastra",
+        "description": "Builds intelligent spacecraft designed for active defense to protect space infrastructure and orbital systems from threats in contested space environments.",
+        "founders": null,
+        "location": "Los Angeles, CA",
+        "founded_year": 2025,
         "current_stage": null,
         "total_raised": null,
-        "valuation": "$6B",
-        "investors": [
-          "T. Rowe Price",
-          "Goldman Sachs",
-          "Baillie Gifford",
-          "Fidelity",
-          "Ford Motor Company",
-          "Amazon Climate Pledge Fund",
-          "Eclipse Capital",
-          "NVidia NVentures"
-        ],
-        "website": "https://redwoodmaterials.com",
+        "valuation": null,
+        "investors": null,
+        "website": "https://fortastra.com",
         "sources_per_field": {
           "name": [
-            1
+            0
           ],
           "description": [
+            0
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry lists 'Series C' stage and '$8M' raised with specific investors, but these claims are not supported by provided sources. Company announced December 11, 2025 per source [1]. Source [1] mentions executives from Relativity, Hermeus, Astrion, and Divergent joined C-suite in April 2026."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Torrance, CA",
+          "verified": "Los Angeles, CA",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://fortastra.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://fortastra.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/"
+        }
+      ],
+      "notes": "Database entry lists 'Series C' stage and '$8M' raised with specific investors, but these claims are not supported by provided sources. Company announced December 11, 2025 per source [1]. Source [1] mentions executives from Relativity, Hermeus, Astrion, and Divergent joined C-suite in April 2026."
+    },
+    {
+      "name": "Photonic Inc",
+      "current": {
+        "name": "Photonic Inc",
+        "founder": "Stephanie Simmons, Paul Terry",
+        "location": "Vancouver, Canada",
+        "founded": 2016,
+        "fundingStage": "Series E",
+        "totalRaised": "$375M CAD",
+        "website": "https://photonic.com"
+      },
+      "verified": {
+        "name": "Photonic Inc",
+        "description": "Builds distributed, fault-tolerant quantum computers using silicon T centre spin qubits optically linked by photons. Offers quantum computing services through Microsoft Azure and dedicated private systems.",
+        "founders": [
+          "Stephanie Simmons",
+          "Michael Thewalt"
+        ],
+        "location": "Vancouver, Canada",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://photonic.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
             1
           ],
           "founders": [
@@ -156,23 +224,17 @@
           "founded_year": [
             1
           ],
-          "valuation": [
-            1
-          ],
-          "investors": [
-            1
-          ],
           "website": [
-            1
+            0
           ]
         },
-        "notes": "Source [1] (Wikipedia) states valuation of about $6 billion as of October 2025. Current stage cannot be verified from sources\u2014database entry lists 'Series D' but sources mention Series C ($775M) and Series E ($350M) without clarifying if these are the most recent or final stage. Total raised cannot be definitively determined from sources as they reference individual rounds ($775M Series C, $350M Series E) rather than cumulative total. Source [2] is about Greyparrot, not Redwood Materials, and was excluded."
+        "notes": "Source [1] identifies Michael Thewalt as co-founder (noted as 'Co-founder of Photonic, Professor Emeritus at Simon Fraser University'), not Paul Terry. Paul Terry is listed as Chief Product Officer. Sources [2] and [3] are about Microsoft/AI and do not contain information about Photonic Inc. Database entry lists total_raised as '$375M CAD' and stage as 'Series E' but these cannot be verified from provided sources."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Carson City, NV",
-          "verified": "Carson City, Nevada, United States",
+          "field": "founder",
+          "current": "Stephanie Simmons, Paul Terry",
+          "verified": "Stephanie Simmons, Michael Thewalt",
           "sources": [
             1
           ]
@@ -182,20 +244,139 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://redwoodmaterials.com"
+          "url": "https://photonic.com"
         },
         {
           "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Redwood_Materials"
+          "src": "company_about",
+          "url": "https://photonic.com/about-us"
         },
         {
           "idx": 2,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/"
         }
       ],
-      "notes": "Source [1] (Wikipedia) states valuation of about $6 billion as of October 2025. Current stage cannot be verified from sources\u2014database entry lists 'Series D' but sources mention Series C ($775M) and Series E ($350M) without clarifying if these are the most recent or final stage. Total raised cannot be definitively determined from sources as they reference individual rounds ($775M Series C, $350M Series E) rather than cumulative total. Source [2] is about Greyparrot, not Redwood Materials, and was excluded."
+      "notes": "Source [1] identifies Michael Thewalt as co-founder (noted as 'Co-founder of Photonic, Professor Emeritus at Simon Fraser University'), not Paul Terry. Paul Terry is listed as Chief Product Officer. Sources [2] and [3] are about Microsoft/AI and do not contain information about Photonic Inc. Database entry lists total_raised as '$375M CAD' and stage as 'Series E' but these cannot be verified from provided sources."
+    },
+    {
+      "name": "Scale AI",
+      "current": {
+        "name": "Scale AI",
+        "founder": "Alexandr Wang, Lucy Guo",
+        "location": "San Francisco, California, United States",
+        "founded": 2016,
+        "fundingStage": "Private",
+        "totalRaised": "$15.9B",
+        "website": "https://scale.com"
+      },
+      "verified": {
+        "name": "Scale AI",
+        "description": "An artificial intelligence infrastructure and software company offering data annotation, RLHF services, LLM evaluation, and enterprise software suites to build and deploy AI applications. The company works with frontier AI model builders and governments on military-related projects.",
+        "founders": [
+          "Alexandr Wang",
+          "Lucy Guo"
+        ],
+        "location": "San Francisco, California, United States",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": "$14.8B",
+        "valuation": "$29B",
+        "investors": [
+          "Meta",
+          "Accel",
+          "Founders Fund",
+          "Index Ventures",
+          "Tiger Global",
+          "Dragoneer Investment Group",
+          "Greenoaks",
+          "Amazon"
+        ],
+        "website": "https://scale.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            1,
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang departed to join Meta and was replaced as CEO by Jason Droege. The company remains independent. Wikipedia indicates 1,200 employees (2025) and $870M revenue (2024)."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$15.9B",
+          "verified": "$14.8B",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://scale.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://scale.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scale_AI"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/"
+        },
+        {
+          "idx": 4,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/07/28/perceptual-robotics-secures-ps4m-to-scale-ai-powered-wind-inspections/"
+        }
+      ],
+      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang departed to join Meta and was replaced as CEO by Jason Droege. The company remains independent. Wikipedia indicates 1,200 employees (2025) and $870M revenue (2024)."
     },
     {
       "name": "SpaceX",
@@ -210,7 +391,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Texas. The company operates three divisions conducting orbital launches, satellite communications (Starlink), and artificial intelligence services.",
         "founders": [
           "Elon Musk"
         ],
@@ -252,7 +433,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, which was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one location and 85% in another). Alphabet Inc. owns 6% equity stake."
+        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion and describes it as the largest IPO in history. Database entry references $1.5T valuation and $1.65T valuation, but these specific figures are not present in provided sources, so valuation field set to null. Wikipedia indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. ownership verified at 6% equity stake."
       },
       "changes": [
         {
@@ -272,21 +453,132 @@
         },
         {
           "idx": 1,
-          "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/spacex-is-making-improved-220k-gpu-modular-ai-data-centers.html"
         },
         {
           "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-conducts-13th-starship-test-flight/"
+          "src": "news (Breaking Defense)",
+          "url": "https://breakingdefense.com/2026/07/spacex-wins-1-6b-to-launch-space-force-sensing-and-targeting-sats/"
         },
         {
           "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, which was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one location and 85% in another). Alphabet Inc. owns 6% equity stake."
+      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion and describes it as the largest IPO in history. Database entry references $1.5T valuation and $1.65T valuation, but these specific figures are not present in provided sources, so valuation field set to null. Wikipedia indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. ownership verified at 6% equity stake."
+    },
+    {
+      "name": "Waymo",
+      "current": {
+        "name": "Waymo",
+        "founder": "Sebastian Thrun, Anthony Levandowski",
+        "location": "Mountain View, California",
+        "founded": 2016,
+        "fundingStage": "Pre-IPO",
+        "totalRaised": "$16B+",
+        "website": "https://waymo.com"
+      },
+      "verified": {
+        "name": "Waymo",
+        "description": "Autonomous driving technology company operating public commercial robotaxi services in 10 US metropolitan areas. As of June 2026, Waymo operates 3,871 robotaxis in service, provides 500,000 paid rides per week, and has logged 200 million fully autonomous miles.",
+        "founders": [
+          "Sebastian Thrun",
+          "Anthony Levandowski"
+        ],
+        "location": "Mountain View, California",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": "$16B",
+        "valuation": "$126B",
+        "investors": [
+          "Alphabet Inc."
+        ],
+        "website": "https://waymo.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Wikipedia states Waymo was founded December 13, 2016 as an independent company spun out of Google/Alphabet, though it traces origins to Google's self-driving car project which began January 17, 2009. Company is a subsidiary of Alphabet Inc. Wikipedia indicates $16B raised in February 2026 with $126B valuation; other investors mentioned in database entry (Andreessen Horowitz, Silver Lake, etc.) are not explicitly named in provided sources, so only Alphabet Inc. is listed as verified investor."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Pre-IPO",
+          "verified": "Private",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://waymo.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://waymo.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Waymo"
+        },
+        {
+          "idx": 3,
+          "src": "news (CleanTechnica)",
+          "url": "https://cleantechnica.com/2026/07/29/waymo-new-testing-uber-fallout-fine-bonanza/"
+        },
+        {
+          "idx": 4,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways/"
+        },
+        {
+          "idx": 5,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/07/29/waymo-gemini-ai-ojai-robotaxi-redesigned-interface/"
+        }
+      ],
+      "notes": "Wikipedia states Waymo was founded December 13, 2016 as an independent company spun out of Google/Alphabet, though it traces origins to Google's self-driving car project which began January 17, 2009. Company is a subsidiary of Alphabet Inc. Wikipedia indicates $16B raised in February 2026 with $126B valuation; other investors mentioned in database entry (Andreessen Horowitz, Silver Lake, etc.) are not explicitly named in provided sources, so only Alphabet Inc. is listed as verified investor."
     }
   ],
   "unverifiable": []

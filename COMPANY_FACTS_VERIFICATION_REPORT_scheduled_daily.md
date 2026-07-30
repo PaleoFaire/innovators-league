@@ -1,25 +1,25 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-29T08:20:38+00:00  
+**Generated:** 2026-07-30T08:10:07+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 25 companies  
+**Cohort size:** 33 companies  
 
-**New Claude extractions this run:** 25  
+**New Claude extractions this run:** 33  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 22 | 88% |
-| 🔧 Changes proposed | 3 | 12% |
+| ✅ Cleared (data matches sources) | 27 | 82% |
+| 🔧 Changes proposed | 6 | 18% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (3 companies)
+## 🔧 Proposed Changes (6 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
@@ -28,54 +28,80 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`fundingStage`:** `SPAC` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
 
-  **Notes:** Database entry lists stage as 'SPAC' but source [0] clearly identifies company as 'Private' with no mention of SPAC status. Total_raised of '$10B+' could not be verified in provided sources. Current CEO is Dave Limp (appointed September 2023).
+  **Notes:** Database entry lists stage as 'SPAC' but Wikipedia identifies company as 'Private'. Database entry cites total_raised as '$10B+' but sources provided do not contain funding information. Database entry lists 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify investor names. Valuation is undisclosed in sources.
 
-### Redwood Materials
+### Fortastra
 
-- **`location`:** `Carson City, NV` → `Carson City, Nevada, United States`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Redwood_Materials)
+- **`location`:** `Torrance, CA` → `Los Angeles, CA`  
+  Sources: [news (SpaceNews)](https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/)
 
-  **Notes:** Source [1] (Wikipedia) states valuation of about $6 billion as of October 2025. Current stage cannot be verified from sources—database entry lists 'Series D' but sources mention Series C ($775M) and Series E ($350M) without clarifying if these are the most recent or final stage. Total raised cannot be definitively determined from sources as they reference individual rounds ($775M Series C, $350M Series E) rather than cumulative total. Source [2] is about Greyparrot, not Redwood Materials, and was excluded.
+  **Notes:** Database entry lists 'Series C' stage and '$8M' raised with specific investors, but these claims are not supported by provided sources. Company announced December 11, 2025 per source [1]. Source [1] mentions executives from Relativity, Hermeus, Astrion, and Divergent joined C-suite in April 2026.
+
+### Photonic Inc
+
+- **`founder`:** `Stephanie Simmons, Paul Terry` → `Stephanie Simmons, Michael Thewalt`  
+  Sources: [company_about](https://photonic.com/about-us)
+
+  **Notes:** Source [1] identifies Michael Thewalt as co-founder (noted as 'Co-founder of Photonic, Professor Emeritus at Simon Fraser University'), not Paul Terry. Paul Terry is listed as Chief Product Officer. Sources [2] and [3] are about Microsoft/AI and do not contain information about Photonic Inc. Database entry lists total_raised as '$375M CAD' and stage as 'Series E' but these cannot be verified from provided sources.
+
+### Scale AI
+
+- **`totalRaised`:** `$15.9B` → `$14.8B`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
+
+  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang departed to join Meta and was replaced as CEO by Jason Droege. The company remains independent. Wikipedia indicates 1,200 employees (2025) and $870M revenue (2024).
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion, which was the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power (Wikipedia states 82% voting control in one location and 85% in another). Alphabet Inc. owns 6% equity stake.
+  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion and describes it as the largest IPO in history. Database entry references $1.5T valuation and $1.65T valuation, but these specific figures are not present in provided sources, so valuation field set to null. Wikipedia indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. ownership verified at 6% equity stake.
+
+### Waymo
+
+- **`fundingStage`:** `Pre-IPO` → `Private`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Waymo)
+
+  **Notes:** Wikipedia states Waymo was founded December 13, 2016 as an independent company spun out of Google/Alphabet, though it traces origins to Google's self-driving car project which began January 17, 2009. Company is a subsidiary of Alphabet Inc. Wikipedia indicates $16B raised in February 2026 with $126B valuation; other investors mentioned in database entry (Andreessen Horowitz, Silver Lake, etc.) are not explicitly named in provided sources, so only Alphabet Inc. is listed as verified investor.
 
 ---
 
-## ✅ Cleared (22 companies)
+## ✅ Cleared (27 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
 - 1X Technologies
+- AbCellera
 - Agility Robotics
 - Apptronik
-- Axiom Space
+- Astera Labs
+- Atomic Industries
+- Aurora Innovation
 - Cape
-- Cover
+- Crusoe Energy
 - Dawn Aerospace
 - Deterrence
 - Dexterity
+- Divergent
 - Durin
 - Fairmat
 - Gecko Robotics
+- Hadrian
 - Humanoid
 - Karman Industries
 - Neura Robotics
 - Quaise Energy
+- Rebellions
+- Redwood Materials
 - Rocket Lab
-- Scale AI
 - Solugen
-- Vast
-- Waymo
 - Xtend
+- ispace
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-29T08:20:38+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-30T08:10:07+00:00*
