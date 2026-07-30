@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-29 08:46:10 UTC
+// Last updated: 2026-07-30 08:32:49 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Aurora Innovation", form: "10-Q", date: "2026-07-29", description: "aur-20260630.htm", isIPO: false, ticker: "AUR" },
+  { company: "Aurora Innovation", form: "8-K", date: "2026-07-29", description: "aur-20260729.htm", isIPO: false, ticker: "AUR" },
   { company: "Oklo", form: "8-K", date: "2026-07-28", description: "oklo-20260722.htm", isIPO: false, ticker: "OKLO" },
   { company: "Joby Aviation", form: "8-K", date: "2026-07-28", description: "d152570d8k.htm", isIPO: false, ticker: "JOBY" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-07-27", description: "qbts-20260727.htm", isIPO: false, ticker: "QBTS" },
@@ -48,7 +50,5 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783022704.xml", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "8-K", date: "2026-07-02", description: "leu-20260630.htm", isIPO: false, ticker: "LEU" },
   { company: "C3.ai", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783027532.xml", isIPO: false, ticker: "AI" },
-  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
 ];

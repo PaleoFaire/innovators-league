@@ -1,107 +1,92 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 55,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Waymo, robotaxi operators face fresh scrutiny over emergency",
-      "How integrated actuators improve humanoid robot joint perfor",
-      "Perceptual Robotics secures \u00a34M+ to scale AI-powered wind in"
+      "Waymo \u2014 New Testing, Uber Fallout, Fine Bonanza",
+      "Waymo robotaxis are starting to return to freeways",
+      "Waymo adds Google&#8217;s Gemini AI assistant and new UI to"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
     "sector": "AI & Software",
-    "momentum": 54,
-    "trend": "steady",
+    "momentum": 58,
+    "trend": "accelerating",
     "catalysts": [
-      "OpenAI\u2019s Rogue AI Agent Hacked More Than Just Hugging Face",
-      "We now have a better understanding how OpenAI hacked into Hu",
-      "Greyparrot secures $27M Series B to scale AI waste intellige"
+      "SpaceX is Making Improved 220K GPU Modular AI Data Centers",
+      "Microsoft is openly competing with OpenAI, Anthropic more th",
+      "Microsoft logs $3.2B from Anthropic investment, but OpenAI w"
     ],
     "fundingQ": "$282.7B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-29"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
-    ],
-    "fundingQ": "$1.9B",
-    "components": {
-      "funding": 100,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-29"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "Active ocean & maritime ecosystem"
-    ],
-    "fundingQ": "$1.8B",
-    "components": {
-      "funding": 100,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 42,
-    "trend": "steady",
+    "momentum": 50,
+    "trend": "accelerating",
     "catalysts": [
-      "Tesla Cybercabs and Superchargers Will Act as Mini Cell Towe",
-      "Blue Origin to test New Glenn upper stages at Stennis",
-      "Rocket Lab to open Alaska launch site under $266 million Spa"
+      "SpaceX is Making Improved 220K GPU Modular AI Data Centers",
+      "SpaceX wins $1.6B to launch Space Force &#8216;sensing and t",
+      "SpaceX wins $1.6 billion in launch orders for military satel"
     ],
-    "fundingQ": "$266.3B",
+    "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 60,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 39,
+    "momentum": 47,
     "trend": "steady",
     "catalysts": [
+      "SpaceX wins $1.6 billion in launch orders for military satel",
       "French wildfires threaten nuclear deterrence industry, Rafal",
-      "Rocket Lab to open Alaska launch site under $266 million Spa",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs"
+      "Rocket Lab to open Alaska launch site under $266 million Spa"
     ],
-    "fundingQ": "$12.0B",
+    "fundingQ": "$11.3B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 37
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 42,
+    "trend": "steady",
+    "catalysts": [
+      "Thinking Machines co-founder Lilian Weng left the company ci",
+      "Fortastra and Hadrian join forces to streamline satellite pr"
+    ],
+    "fundingQ": "$310M",
+    "components": {
+      "funding": 84,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-30"
   },
   {
     "sector": "Nuclear Energy",
@@ -112,49 +97,50 @@
       "A New Force Posture Concept for Europeanizing Extended Nucle",
       "Not Imaginary: The Deterrence Gap is Real and America Needs"
     ],
-    "fundingQ": "$4.8B",
+    "fundingQ": "$4.0B",
     "components": {
       "funding": 100,
       "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-29"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 39,
-    "trend": "steady",
-    "catalysts": [
-      "What Is Cape Cod Doing To Secure Its Energy Independence And",
-      "Perceptual Robotics secures \u00a34M+ to scale AI-powered wind in",
-      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 96,
-      "news": 20,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 38,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
-      "Another Coal Power Plant Bites The Dust (Shhh! Don&#8217;t T",
-      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca"
+      "Thinking Machines co-founder Lilian Weng left the company ci",
+      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca",
+      "<a href=\"/biotech/vertexs-latest-autoimmune-tce-play-involve"
     ],
     "fundingQ": "$22.0B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 37,
+    "trend": "steady",
+    "catalysts": [
+      "What Is Cape Cod Doing To Secure Its Energy Independence And",
+      "Perceptual Robotics secures \u00a34M+ to scale AI-powered wind in",
+      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 96,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-07-30"
   },
   {
     "sector": "Transportation",
@@ -170,33 +156,33 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 21,
-    "trend": "declining",
+    "momentum": 25,
+    "trend": "rising",
     "catalysts": [
-      "How integrated actuators improve humanoid robot joint perfor",
-      "OpenAI called the Hugging Face attack unprecedented. But we\u2019",
-      "Blue Origin to test New Glenn upper stages at Stennis"
+      "SpaceX wins $1.6 billion in launch orders for military satel",
+      "Experts react to FCC limits on U.S. imports of new humanoid",
+      "Fortastra and Hadrian join forces to streamline satellite pr"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
-    "sector": "Drones & Autonomous",
+    "sector": "Infrastructure & Logistics",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Waymo, robotaxi operators face fresh scrutiny over emergency",
-      "Waymo crashes 1/3 as much as a human driver, says IIHS &#821"
+      "SpaceX is Making Improved 220K GPU Modular AI Data Centers",
+      "Fortastra and Hadrian join forces to streamline satellite pr"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -205,14 +191,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
-    "sector": "Housing & Construction",
+    "sector": "Drones & Autonomous",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "PageMind raises \u20ac1.2M to scale AI for e-commerce product dis"
+      "Waymo crashes 1/3 as much as a human driver, says IIHS &#821"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -221,14 +207,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
-    "sector": "Infrastructure & Logistics",
+    "sector": "Housing & Construction",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Active infrastructure & logistics ecosystem"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -237,23 +223,39 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 0,
+    "sector": "Ocean & Maritime",
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Active chips & semiconductors ecosystem"
+      "Active ocean & maritime ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 0,
       "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-30"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX is Making Improved 220K GPU Modular AI Data Centers"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   },
   {
     "sector": "Quantum Computing",
@@ -269,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-29"
+    "lastUpdated": "2026-07-30"
   }
 ]

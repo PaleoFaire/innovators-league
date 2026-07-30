@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-07-29T08:47:33.229985Z",
+  "generated_at": "2026-07-30T08:34:19.372449Z",
   "takes": [
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
+      "date": "Wed, 29 Ju",
+      "source": "news",
+      "source_url": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/",
+      "signal_type": "ipo"
+    },
     {
       "author": "Canary Media",
       "role": "Industry signal",
@@ -25,7 +35,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 2,
+    "from_news": 3,
     "from_press": 0
   }
 }
