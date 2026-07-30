@@ -83991,23 +83991,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-30 14:24
+// Last updated: 2026-07-30 16:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Scale AI", headline: "inforcer raises $50M Series C to scale AI security platform for MSPs", source: "Tech.eu", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "milestone", company: "Zoox", headline: "Zoox clears final federal hurdle to launch paid robotaxi service", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins another launch contract from Japan's iQPS", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI's Hacking Debacle Comes Down to Human Error", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX is Making Improved 220K GPU Modular AI Data Centers", source: "Next Big Future", time: "12h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Microsoft is openly competing with OpenAI, Anthropic more than ever", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Waymo", headline: "Waymo ' New Testing, Uber Fallout, Fine Bonanza", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "SpaceX", headline: "SpaceX wins $1.6B to launch Space Force 'sensing and targeting' sats", source: "Breaking Defense", time: "17h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX wins $1.6 billion in launch orders for military satellite networks", source: "SpaceNews", time: "17h ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Can Make Space AI Win on Cost", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "Waymo robotaxis are starting to return to freeways", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Waymo", headline: "Waymo adds Google's Gemini AI assistant and new UI to Ojai robotaxi", source: "Electrek", time: "21h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Humanoid", headline: "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Commonwealth Fusion Systems", headline: "When will fusion power startup Commonwealth Fusion Systems go public?", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Heat Shield System Economics Are Not a Dead End", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Commonwealth Fusion Systems", headline: "Fusion power darling Commonwealth Fusion Systems raises another $1B", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "In the Hugging Face breach, OpenAI's hacker was noisy and fast ' but not unstoppable", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Scale AI", headline: "inforcer raises $50M Series C to scale AI security platform for MSPs", source: "Tech.eu", time: "2h ago", impact: "high", unread: true },
+  { id: 6, type: "milestone", company: "Zoox", headline: "Zoox clears final federal hurdle to launch paid robotaxi service", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins another launch contract from Japan's iQPS", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI's Hacking Debacle Comes Down to Human Error", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX is Making Improved 220K GPU Modular AI Data Centers", source: "Next Big Future", time: "15h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "Microsoft is openly competing with OpenAI, Anthropic more than ever", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Waymo", headline: "Waymo ' New Testing, Uber Fallout, Fine Bonanza", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "SpaceX", headline: "SpaceX wins $1.6B to launch Space Force 'sensing and targeting' sats", source: "Breaking Defense", time: "19h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX wins $1.6 billion in launch orders for military satellite networks", source: "SpaceNews", time: "19h ago", impact: "high", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Can Make Space AI Win on Cost", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
