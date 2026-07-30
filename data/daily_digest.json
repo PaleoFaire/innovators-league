@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T00:05:31.121351+00:00",
+  "generatedAt": "2026-07-30T03:17:59.763001+00:00",
   "date": "2026-07-30",
   "dateDisplay": "Thursday, July 30, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 1.24,
-        "changePercent": -24.23,
-        "change": -0.39
+        "price": 1.21,
+        "changePercent": -25.77,
+        "change": -0.42
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 260.36,
-        "changePercent": -21.32,
-        "change": -70.53
-      },
-      {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 440.78,
-        "changePercent": -20.2,
-        "change": -111.55
-      },
-      {
-        "ticker": "TSLA",
-        "company": "Tesla",
-        "price": 302.43,
-        "changePercent": -19.14,
-        "change": -71.58
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 11.68,
-        "changePercent": -17.1,
-        "change": -2.41
-      },
-      {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 1.27,
-        "changePercent": -14.77,
-        "change": -0.22
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 38.08,
-        "changePercent": -14.43,
-        "change": -6.42
+        "price": 249.74,
+        "changePercent": -24.53,
+        "change": -81.15
       },
       {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
-        "price": 410500.0,
-        "changePercent": -14.21,
-        "change": -68000.0
+        "price": 395000.0,
+        "changePercent": -22.24,
+        "change": -113000.0
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 429.56,
+        "changePercent": -22.23,
+        "change": -122.77
+      },
+      {
+        "ticker": "TSLA",
+        "company": "Tesla",
+        "price": 298.32,
+        "changePercent": -20.24,
+        "change": -75.69
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 11.39,
+        "changePercent": -19.16,
+        "change": -2.7
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 36.84,
+        "changePercent": -17.21,
+        "change": -7.66
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 58.6,
+        "changePercent": -15.99,
+        "change": -11.15
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -24.2%"
+    "topMover": "EVTL -25.8%"
   }
 }
