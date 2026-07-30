@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T11:57:36.153992+00:00",
+  "generatedAt": "2026-07-30T14:24:15.273577+00:00",
   "date": "2026-07-30",
   "dateDisplay": "Thursday, July 30, 2026",
   "sections": {
@@ -86,53 +86,53 @@
         "change": -135000.0
       },
       {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.27,
+        "changePercent": -16.17,
+        "change": -0.24
+      },
+      {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 1.21,
-        "changePercent": -25.77,
-        "change": -0.42
+        "price": 1.28,
+        "changePercent": -14.9,
+        "change": -0.23
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 249.74,
-        "changePercent": -24.53,
-        "change": -81.15
-      },
-      {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 429.56,
-        "changePercent": -22.23,
-        "change": -122.77
-      },
-      {
-        "ticker": "TSLA",
-        "company": "Tesla",
-        "price": 298.32,
-        "changePercent": -20.24,
-        "change": -75.69
+        "price": 278.31,
+        "changePercent": -14.88,
+        "change": -48.67
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 11.39,
-        "changePercent": -19.16,
-        "change": -2.7
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 36.84,
-        "changePercent": -17.21,
-        "change": -7.66
+        "price": 11.94,
+        "changePercent": -12.91,
+        "change": -1.77
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 58.6,
-        "changePercent": -15.99,
-        "change": -11.15
+        "price": 62.52,
+        "changePercent": -10.67,
+        "change": -7.47
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 20.04,
+        "changePercent": -10.38,
+        "change": -2.32
+      },
+      {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 4.58,
+        "changePercent": -10.37,
+        "change": -0.53
       }
     ],
     "regulatory": [

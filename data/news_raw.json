@@ -1,6 +1,70 @@
 [
   {
-    "title": "OpenAI’s Hacking Debacle Was a Human Mistake",
+    "title": "inforcer raises $50M Series C to scale AI security platform for MSPs",
+    "link": "https://tech.eu/2026/07/30/inforcer-raises-50m-series-c-to-scale-ai-security-platform-for-msps/",
+    "description": "UK-basedinforcer has raised $50 million in a Series C funding round led by Insight Partners, with participation from existing investors Meritech Capital and Dawn Capital.inforcer develops a unified Mi...",
+    "pubDate": "Thu, 30 Jul 2026 14:10:00 +0000",
+    "category": "SaaS",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Scale AI",
+    "matchedCompanies": [
+      "Scale AI",
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "defense",
+      "climate",
+      "autonomous"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "Zoox clears final federal hurdle to launch paid robotaxi service",
+    "link": "https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service/",
+    "description": "Federal safety regulators have given Zoox a temporary exemption that will allow the Amazon-owned autonomous vehicle technology company to charge customers for rides in its custom-built robotaxi.",
+    "pubDate": "Thu, 30 Jul 2026 13:09:03 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Zoox",
+    "matchedCompanies": [
+      "Zoox",
+      "Waymo"
+    ],
+    "sectors": [
+      "transportation",
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Rocket Lab wins another launch contract from Japan’s iQPS",
+    "link": "https://spacenews.com/rocket-lab-wins-another-launch-contract-from-japans-iqps/",
+    "description": "\nRocket Lab has won another contract from Japanese radar imaging company iQPS for multiple launches of its Electron rocket.\nThe post Rocket Lab wins another launch contract from Japan’s iQPS appeared first on SpaceNews.",
+    "pubDate": "Thu, 30 Jul 2026 11:59:29 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Rocket Lab",
+    "matchedCompanies": [
+      "Rocket Lab"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "OpenAI’s Hacking Debacle Comes Down to Human Error",
     "link": "https://www.wired.com/story/openais-hacking-debacle-was-a-human-mistake/",
     "description": "If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple companies.",
     "pubDate": "Thu, 30 Jul 2026 10:30:00 +0000",
@@ -22,7 +86,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "SpaceX is Making Improved 220K GPU Modular AI Data Centers",
@@ -47,7 +111,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "10h ago"
+    "time": "12h ago"
   },
   {
     "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
@@ -69,7 +133,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "14h ago"
   },
   {
     "title": "Waymo — New Testing, Uber Fallout, Fine Bonanza",
@@ -90,7 +154,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "12h ago"
+    "time": "14h ago"
   },
   {
     "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
@@ -112,7 +176,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
@@ -133,7 +197,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "17h ago"
   },
   {
     "title": "SpaceX wins $1.6B to launch Space Force &#8216;sensing and targeting&#8217; sats",
@@ -152,7 +216,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "15h ago"
+    "time": "17h ago"
   },
   {
     "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
@@ -171,7 +235,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "15h ago"
+    "time": "17h ago"
   },
   {
     "title": "SpaceX Starship Can Make Space AI Win on Cost",
@@ -190,7 +254,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "Waymo robotaxis are starting to return to freeways",
@@ -213,7 +277,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "Waymo adds Google&#8217;s Gemini AI assistant and new UI to Ojai robotaxi",
@@ -234,7 +298,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
   },
   {
     "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
@@ -255,7 +319,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Fortastra and Hadrian join forces to streamline satellite production",
@@ -278,7 +342,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "H3 to launch next ispace lunar lander mission",
@@ -297,7 +361,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "OpenAI’s Rogue AI Agent Hacked More Than Just Hugging Face",
@@ -378,7 +442,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy",
@@ -400,7 +464,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Download: OpenAI&#8217;s predictable hack, and an AI stock sell-off",
@@ -420,7 +484,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Perceptual Robotics secures £4M+ to scale AI-powered wind inspections",
@@ -486,27 +550,6 @@
       "ai"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!",
-    "link": "https://cleantechnica.com/2026/07/27/tesla-robotaxi-waymo-both-expanding-into-tampa-florida/",
-    "description": "In this article, I&#8217;ll document (mostly through pictures and video) my two test rides in the new Tesla Robotaxi in Tampa and a Waymo I ran across on the way to church this morning. Success After Failure I tried for an hour to call the Tesla Robotaxi in Tampa on   ... [continued]\nThe post Tesla ",
-    "pubDate": "Mon, 27 Jul 2026 12:14:15 +0000",
-    "category": "Autonomous Vehicles",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Zoox"
-    ],
-    "sectors": [
-      "ai",
-      "transportation"
-    ],
-    "type": "milestone",
     "impact": "low",
     "time": "2d ago"
   },
@@ -609,26 +652,6 @@
     "time": "4d ago"
   },
   {
-    "title": "SpaceX conducts 13th Starship test flight",
-    "link": "https://spacenews.com/spacex-conducts-13th-starship-test-flight/",
-    "description": "\nSpaceX launched Starship on its 13th suborbital test flight July 24, correcting some of the issues seen on the previous flight while deploying functioning satellites for the first time.\nThe post SpaceX conducts 13th Starship test flight appeared first on SpaceNews.",
-    "pubDate": "Sat, 25 Jul 2026 00:29:32 +0000",
-    "category": "Launch",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Dawn Aerospace"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
     "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
     "link": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
     "description": "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI.\nThe post NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI appeared first on The Robot Report.",
@@ -645,7 +668,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
