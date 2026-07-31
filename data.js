@@ -84438,23 +84438,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-31 19:45
+// Last updated: 2026-07-31 21:14
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX won't remove all of xAI's unpermitted turbines for another year", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Tesla reportedly might sell its China business ahead of a SpaceX merger", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "17h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "17h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Anthropic", headline: "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests", source: "Wired", time: "18h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic says its own AI models breached three companies during security tests", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Anthropic", headline: "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "Judge says Trump admin still lacks evidence for Anthropic 'supply-chain risk' label", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Everyone Is Freaking Out About OpenAI and Anthropic's Race for Dominance", source: "Wired", time: "23h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "K2 Space", headline: "K2 Space raises $500 million for commercial, defense satellite expansion", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "milestone", company: "Zoox", headline: "For the First Time, Zoox Can Charge People for Rides in Its Steering-Wheel-Free Robotaxis", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Minihard Thesis: Can SpaceX Turn AI Data Centers Into a Production Line?", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Heat Shield System Economics Are Not a Dead End", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "1h ago", impact: "high", unread: true },
+  { id: 2, type: "milestone", company: "Earth AI", headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket", source: "NASA Breaking News", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX won't remove all of xAI's unpermitted turbines for another year", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Tesla reportedly might sell its China business ahead of a SpaceX merger", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", time: "7h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "19h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Anthropic", headline: "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Anthropic", headline: "Anthropic says its own AI models breached three companies during security tests", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Anthropic", headline: "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Everyone Is Freaking Out About OpenAI and Anthropic's Race for Dominance", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
