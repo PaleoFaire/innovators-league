@@ -84438,23 +84438,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-07-31 10:48
+// Last updated: 2026-07-31 13:02
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Anthropic", headline: "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests", source: "Wired", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Anthropic", headline: "Anthropic says its own AI models breached three companies during security tests", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Anthropic", headline: "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Judge says Trump admin still lacks evidence for Anthropic 'supply-chain risk' label", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Everyone Is Freaking Out About OpenAI and Anthropic's Race for Dominance", source: "Wired", time: "14h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "K2 Space", headline: "K2 Space raises $500 million for commercial, defense satellite expansion", source: "SpaceNews", time: "16h ago", impact: "high", unread: false },
-  { id: 9, type: "milestone", company: "Zoox", headline: "For the First Time, Zoox Can Charge People for Rides in Its Steering-Wheel-Free Robotaxis", source: "Wired", time: "17h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Commonwealth Fusion Systems", headline: "When will fusion power startup Commonwealth Fusion Systems go public?", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Scale AI", headline: "inforcer raises $50M Series C to scale AI security platform for MSPs", source: "Tech.eu", time: "20h ago", impact: "high", unread: false },
-  { id: 12, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins another launch contract from Japan's iQPS", source: "SpaceNews", time: "22h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI's Hacking Debacle Comes Down to Human Error", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Waymo", headline: "Waymo ' New Testing, Uber Fallout, Fine Bonanza", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "contract", company: "SpaceX", headline: "SpaceX wins $1.6B to launch Space Force 'sensing and targeting' sats", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "10h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "10h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Anthropic", headline: "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests", source: "Wired", time: "11h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Anthropic", headline: "Anthropic says its own AI models breached three companies during security tests", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Anthropic", headline: "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Judge says Trump admin still lacks evidence for Anthropic 'supply-chain risk' label", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Everyone Is Freaking Out About OpenAI and Anthropic's Race for Dominance", source: "Wired", time: "16h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "K2 Space", headline: "K2 Space raises $500 million for commercial, defense satellite expansion", source: "SpaceNews", time: "18h ago", impact: "high", unread: false },
+  { id: 11, type: "milestone", company: "Zoox", headline: "For the First Time, Zoox Can Charge People for Rides in Its Steering-Wheel-Free Robotaxis", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "Minihard Thesis: Can SpaceX Turn AI Data Centers Into a Production Line?", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Commonwealth Fusion Systems", headline: "When will fusion power startup Commonwealth Fusion Systems go public?", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Heat Shield System Economics Are Not a Dead End", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Scale AI", headline: "inforcer raises $50M Series C to scale AI security platform for MSPs", source: "Tech.eu", time: "22h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
