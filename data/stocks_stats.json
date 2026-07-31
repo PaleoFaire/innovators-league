@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -5.73,
+      "avg_change": -5.83,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -5.83,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -4.75,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.01,
+      "avg_change": 1.15,
       "count": 3
     },
     "transportation": {
@@ -61,7 +61,7 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      5.76
+      6.2
     ],
     [
       "IONQ",
@@ -74,13 +74,13 @@
       4.17
     ],
     [
-      "QS",
-      "QuantumScape",
-      2.25
+      "277810.KQ",
+      "Rainbow Robotics",
+      3.46
     ],
     [
-      "RIVN",
-      "Rivian",
+      "QS",
+      "QuantumScape",
       2.25
     ]
   ],
@@ -111,5 +111,5 @@
       -17.49
     ]
   ],
-  "lastUpdated": "2026-07-31 03:19:20"
+  "lastUpdated": "2026-07-31 08:54:43"
 }
