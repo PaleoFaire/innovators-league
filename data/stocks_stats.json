@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.9,
+      "avg_change": -1.63,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -5.83,
+      "avg_change": -2.52,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -4.75,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": -2.41,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.39,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.45,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.94,
+      "avg_change": -0.12,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.05,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 8.32,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.15,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 2.33,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -0.57,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -2.38,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -8.32,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.44,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      6.2
+      "QBTS",
+      "D-Wave Quantum",
+      10.73
     ],
     [
       "IONQ",
       "IonQ",
-      4.99
+      9.14
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      6.03
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      5.35
     ],
     [
       "AUR",
       "Aurora Innovation",
-      4.17
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      3.46
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      2.25
+      5.29
     ]
   ],
   "topLosers": [
     [
-      "PL",
-      "Planet Labs",
-      -9.57
+      "NVDA",
+      "NVIDIA",
+      -5.66
     ],
     [
       "AMD",
       "AMD",
-      -10.06
+      -7.02
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -10.65
+      -7.35
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -13.91
+      -8.33
     ],
     [
       "DRSHF",
       "DroneShield",
-      -17.49
+      -16.11
     ]
   ],
-  "lastUpdated": "2026-07-31 08:54:43"
+  "lastUpdated": "2026-07-31 14:15:36"
 }
