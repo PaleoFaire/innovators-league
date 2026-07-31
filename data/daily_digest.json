@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T00:11:27.788709+00:00",
+  "generatedAt": "2026-07-31T04:30:23.476295+00:00",
   "date": "2026-07-31",
   "dateDisplay": "Friday, July 31, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 373000.0,
-        "changePercent": -26.57,
-        "change": -135000.0
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.25,
+        "changePercent": -17.49,
+        "change": -0.26
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 1.29,
-        "changePercent": -14.57,
-        "change": -0.22
-      },
-      {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
         "price": 1.3,
-        "changePercent": -14.19,
+        "changePercent": -13.91,
         "change": -0.21
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 12.36,
-        "changePercent": -9.88,
-        "change": -1.36
+        "price": 12.25,
+        "changePercent": -10.65,
+        "change": -1.46
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 488.13,
-        "changePercent": -9.55,
-        "change": -51.56
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 296.68,
-        "changePercent": -9.27,
-        "change": -30.3
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 3.47,
-        "changePercent": -8.92,
-        "change": -0.34
+        "price": 485.39,
+        "changePercent": -10.06,
+        "change": -54.3
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 20.41,
-        "changePercent": -8.74,
-        "change": -1.95
+        "price": 20.22,
+        "changePercent": -9.57,
+        "change": -2.14
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 3.49,
+        "changePercent": -8.4,
+        "change": -0.32
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 299.69,
+        "changePercent": -8.34,
+        "change": -27.28
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 64.68,
+        "changePercent": -7.59,
+        "change": -5.31
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "277810.KQ -26.6%"
+    "topMover": "DRSHF -17.5%"
   }
 }
