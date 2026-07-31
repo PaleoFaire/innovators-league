@@ -1,73 +1,61 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-30T08:10:07+00:00  
+**Generated:** 2026-07-31T08:36:55+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 33 companies  
+**Cohort size:** 35 companies  
 
-**New Claude extractions this run:** 33  
+**New Claude extractions this run:** 35  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 27 | 82% |
-| 🔧 Changes proposed | 6 | 18% |
+| ✅ Cleared (data matches sources) | 31 | 89% |
+| 🔧 Changes proposed | 4 | 11% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Blue Origin
+### Black Forest Labs
 
-- **`fundingStage`:** `SPAC` → `Private`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
+- **`totalRaised`:** `$450M` → `$300M`  
+  Sources: [company_website](https://blackforestlabs.ai)
 
-  **Notes:** Database entry lists stage as 'SPAC' but Wikipedia identifies company as 'Private'. Database entry cites total_raised as '$10B+' but sources provided do not contain funding information. Database entry lists 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify investor names. Valuation is undisclosed in sources.
+  **Notes:** Series B funding of $300M announced December 1, 2025 (per source 0). Wikipedia source mentions initial $31M investment but does not specify Series B details, valuation, or complete investor list. Sources do not verify the $450M total raised, $3.25B valuation, or specific investor names (Salesforce Ventures, Anjney Midha, Andreessen Horowitz, NVIDIA) mentioned in the database entry.
 
-### Fortastra
+### Commonwealth Fusion Systems
 
-- **`location`:** `Torrance, CA` → `Los Angeles, CA`  
-  Sources: [news (SpaceNews)](https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/)
+- **`location`:** `Devens, MA` → `Devens, Massachusetts`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems)
+- **`totalRaised`:** `$3B+` → `$863M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems)
 
-  **Notes:** Database entry lists 'Series C' stage and '$8M' raised with specific investors, but these claims are not supported by provided sources. Company announced December 11, 2025 per source [1]. Source [1] mentions executives from Relativity, Hermeus, Astrion, and Divergent joined C-suite in April 2026.
+  **Notes:** Most recent funding round is Series B2 ($863 million announced in August 2025, per source 1). Previous Series B was $1.8 billion in November 2021. SPARC tokamak targeted to begin operations in 2026 with net power demonstration goal in 2027. Company announced plans for ARC commercial fusion power plant in Chesterfield County, Virginia, planned for early 2030s.
 
-### Photonic Inc
+### Palantir
 
-- **`founder`:** `Stephanie Simmons, Paul Terry` → `Stephanie Simmons, Michael Thewalt`  
-  Sources: [company_about](https://photonic.com/about-us)
+- **`fundingStage`:** `Series E` → `Public`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Palantir)
 
-  **Notes:** Source [1] identifies Michael Thewalt as co-founder (noted as 'Co-founder of Photonic, Professor Emeritus at Simon Fraser University'), not Paul Terry. Paul Terry is listed as Chief Product Officer. Sources [2] and [3] are about Microsoft/AI and do not contain information about Photonic Inc. Database entry lists total_raised as '$375M CAD' and stage as 'Series E' but these cannot be verified from provided sources.
-
-### Scale AI
-
-- **`totalRaised`:** `$15.9B` → `$14.8B`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
-
-  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang departed to join Meta and was replaced as CEO by Jason Droege. The company remains independent. Wikipedia indicates 1,200 employees (2025) and $870M revenue (2024).
+  **Notes:** Source [1] is about Anthropic, not Palantir, and was not used. Wikipedia source [0] lists company as publicly traded on Nasdaq (PLTR), not Series E as in database entry. Former headquarters listed as Palo Alto, California; current headquarters is Miami, Florida.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion and describes it as the largest IPO in history. Database entry references $1.5T valuation and $1.65T valuation, but these specific figures are not present in provided sources, so valuation field set to null. Wikipedia indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. ownership verified at 6% equity stake.
-
-### Waymo
-
-- **`fundingStage`:** `Pre-IPO` → `Private`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Waymo)
-
-  **Notes:** Wikipedia states Waymo was founded December 13, 2016 as an independent company spun out of Google/Alphabet, though it traces origins to Google's self-driving car project which began January 17, 2009. Company is a subsidiary of Alphabet Inc. Wikipedia indicates $16B raised in February 2026 with $126B valuation; other investors mentioned in database entry (Andreessen Horowitz, Silver Lake, etc.) are not explicitly named in provided sources, so only Alphabet Inc. is listed as verified investor.
+  **Notes:** Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Current database entry lists valuation as $1.65T but this is not verified by any source provided.
 
 ---
 
-## ✅ Cleared (27 companies)
+## ✅ Cleared (31 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -79,29 +67,33 @@ Sample (first 30):
 - Apptronik
 - Astera Labs
 - Atomic Industries
-- Aurora Innovation
 - Cape
 - Crusoe Energy
-- Dawn Aerospace
 - Deterrence
-- Dexterity
 - Divergent
 - Durin
 - Fairmat
+- Fortastra
+- Galvanick
 - Gecko Robotics
 - Hadrian
 - Humanoid
+- K2 Space
 - Karman Industries
-- Neura Robotics
+- Matic Robotics
+- Percepto
 - Quaise Energy
 - Rebellions
 - Redwood Materials
 - Rocket Lab
+- Scale AI
 - Solugen
+- Waymo
 - Xtend
-- ispace
+- ideaForge
+- *...and 1 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-30T08:10:07+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-07-31T08:36:55+00:00*

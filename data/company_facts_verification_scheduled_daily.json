@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-30T08:10:07+00:00",
+  "generatedAt": "2026-07-31T08:36:55+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 33,
-  "newExtractionsThisRun": 33,
+  "cohortSize": 35,
+  "newExtractionsThisRun": 35,
   "summary": {
-    "cleared": 27,
-    "changesProposed": 6,
+    "cleared": 31,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
@@ -16,288 +16,59 @@
     "Apptronik",
     "Astera Labs",
     "Atomic Industries",
-    "Aurora Innovation",
     "Cape",
     "Crusoe Energy",
-    "Dawn Aerospace",
     "Deterrence",
-    "Dexterity",
     "Divergent",
     "Durin",
     "Fairmat",
+    "Fortastra",
+    "Galvanick",
     "Gecko Robotics",
     "Hadrian",
     "Humanoid",
+    "K2 Space",
     "Karman Industries",
-    "Neura Robotics",
+    "Matic Robotics",
+    "Percepto",
     "Quaise Energy",
     "Rebellions",
     "Redwood Materials",
     "Rocket Lab",
+    "Scale AI",
     "Solugen",
+    "Waymo",
     "Xtend",
+    "ideaForge",
     "ispace"
   ],
   "changesProposed": [
     {
-      "name": "Blue Origin",
+      "name": "Black Forest Labs",
       "current": {
-        "name": "Blue Origin",
-        "founder": "Jeff Bezos",
-        "location": "Kent, Washington, United States",
-        "founded": 2000,
-        "fundingStage": "SPAC",
-        "totalRaised": "$10B+",
-        "website": "https://blueorigin.com"
+        "name": "Black Forest Labs",
+        "founder": "Robin Rombach, Andreas Blattmann, Patrick Esser",
+        "location": "Freiburg, Germany",
+        "founded": 2024,
+        "fundingStage": "Series B",
+        "totalRaised": "$450M",
+        "website": "https://blackforestlabs.ai"
       },
       "verified": {
-        "name": "Blue Origin",
-        "description": "Private American aerospace company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and is developing the Blue Moon human lunar lander for NASA's Artemis program.",
+        "name": "Black Forest Labs",
+        "description": "Frontier AI research lab based in Freiburg, Germany that develops the FLUX family of text-to-image models. The company was founded by former Stability AI employees and builds open-weights and proprietary visual AI models.",
         "founders": [
-          "Jeff Bezos"
+          "Robin Rombach",
+          "Andreas Blattmann",
+          "Patrick Esser"
         ],
-        "location": "Kent, Washington, United States",
-        "founded_year": 2000,
-        "current_stage": "Private",
-        "total_raised": null,
+        "location": "Freiburg, Germany",
+        "founded_year": 2024,
+        "current_stage": "Series B",
+        "total_raised": "$300M",
         "valuation": null,
         "investors": null,
-        "website": "https://blueorigin.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists stage as 'SPAC' but Wikipedia identifies company as 'Private'. Database entry cites total_raised as '$10B+' but sources provided do not contain funding information. Database entry lists 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify investor names. Valuation is undisclosed in sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "SPAC",
-          "verified": "Private",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Blue_Origin"
-        },
-        {
-          "idx": 1,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/blue-origin-to-test-new-glenn-upper-stages-at-stennis/"
-        }
-      ],
-      "notes": "Database entry lists stage as 'SPAC' but Wikipedia identifies company as 'Private'. Database entry cites total_raised as '$10B+' but sources provided do not contain funding information. Database entry lists 'Coatue Management' and 'Jeff Bezos' as investors but sources do not verify investor names. Valuation is undisclosed in sources."
-    },
-    {
-      "name": "Fortastra",
-      "current": {
-        "name": "Fortastra",
-        "founder": "Mike Smayda",
-        "location": "Torrance, CA",
-        "founded": 2025,
-        "fundingStage": "Series C",
-        "totalRaised": "$8M",
-        "website": "https://fortastra.com"
-      },
-      "verified": {
-        "name": "Fortastra",
-        "description": "Builds intelligent spacecraft designed for active defense to protect space infrastructure and orbital systems from threats in contested space environments.",
-        "founders": null,
-        "location": "Los Angeles, CA",
-        "founded_year": 2025,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://fortastra.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists 'Series C' stage and '$8M' raised with specific investors, but these claims are not supported by provided sources. Company announced December 11, 2025 per source [1]. Source [1] mentions executives from Relativity, Hermeus, Astrion, and Divergent joined C-suite in April 2026."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Torrance, CA",
-          "verified": "Los Angeles, CA",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://fortastra.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://fortastra.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/"
-        }
-      ],
-      "notes": "Database entry lists 'Series C' stage and '$8M' raised with specific investors, but these claims are not supported by provided sources. Company announced December 11, 2025 per source [1]. Source [1] mentions executives from Relativity, Hermeus, Astrion, and Divergent joined C-suite in April 2026."
-    },
-    {
-      "name": "Photonic Inc",
-      "current": {
-        "name": "Photonic Inc",
-        "founder": "Stephanie Simmons, Paul Terry",
-        "location": "Vancouver, Canada",
-        "founded": 2016,
-        "fundingStage": "Series E",
-        "totalRaised": "$375M CAD",
-        "website": "https://photonic.com"
-      },
-      "verified": {
-        "name": "Photonic Inc",
-        "description": "Builds distributed, fault-tolerant quantum computers using silicon T centre spin qubits optically linked by photons. Offers quantum computing services through Microsoft Azure and dedicated private systems.",
-        "founders": [
-          "Stephanie Simmons",
-          "Michael Thewalt"
-        ],
-        "location": "Vancouver, Canada",
-        "founded_year": 2016,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://photonic.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1] identifies Michael Thewalt as co-founder (noted as 'Co-founder of Photonic, Professor Emeritus at Simon Fraser University'), not Paul Terry. Paul Terry is listed as Chief Product Officer. Sources [2] and [3] are about Microsoft/AI and do not contain information about Photonic Inc. Database entry lists total_raised as '$375M CAD' and stage as 'Series E' but these cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Stephanie Simmons, Paul Terry",
-          "verified": "Stephanie Simmons, Michael Thewalt",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://photonic.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://photonic.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/"
-        }
-      ],
-      "notes": "Source [1] identifies Michael Thewalt as co-founder (noted as 'Co-founder of Photonic, Professor Emeritus at Simon Fraser University'), not Paul Terry. Paul Terry is listed as Chief Product Officer. Sources [2] and [3] are about Microsoft/AI and do not contain information about Photonic Inc. Database entry lists total_raised as '$375M CAD' and stage as 'Series E' but these cannot be verified from provided sources."
-    },
-    {
-      "name": "Scale AI",
-      "current": {
-        "name": "Scale AI",
-        "founder": "Alexandr Wang, Lucy Guo",
-        "location": "San Francisco, California, United States",
-        "founded": 2016,
-        "fundingStage": "Private",
-        "totalRaised": "$15.9B",
-        "website": "https://scale.com"
-      },
-      "verified": {
-        "name": "Scale AI",
-        "description": "An artificial intelligence infrastructure and software company offering data annotation, RLHF services, LLM evaluation, and enterprise software suites to build and deploy AI applications. The company works with frontier AI model builders and governments on military-related projects.",
-        "founders": [
-          "Alexandr Wang",
-          "Lucy Guo"
-        ],
-        "location": "San Francisco, California, United States",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": "$14.8B",
-        "valuation": "$29B",
-        "investors": [
-          "Meta",
-          "Accel",
-          "Founders Fund",
-          "Index Ventures",
-          "Tiger Global",
-          "Dragoneer Investment Group",
-          "Greenoaks",
-          "Amazon"
-        ],
-        "website": "https://scale.com",
+        "website": "https://blackforestlabs.ai",
         "sources_per_field": {
           "name": [
             0,
@@ -305,6 +76,7 @@
             2
           ],
           "description": [
+            1,
             2
           ],
           "founders": [
@@ -315,37 +87,27 @@
             2
           ],
           "founded_year": [
-            1,
             2
           ],
           "current_stage": [
-            2
+            0
           ],
           "total_raised": [
-            2
-          ],
-          "valuation": [
-            1,
-            2
-          ],
-          "investors": [
-            2
+            0
           ],
           "website": [
-            0,
-            1,
-            2
+            0
           ]
         },
-        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang departed to join Meta and was replaced as CEO by Jason Droege. The company remains independent. Wikipedia indicates 1,200 employees (2025) and $870M revenue (2024)."
+        "notes": "Series B funding of $300M announced December 1, 2025 (per source 0). Wikipedia source mentions initial $31M investment but does not specify Series B details, valuation, or complete investor list. Sources do not verify the $450M total raised, $3.25B valuation, or specific investor names (Salesforce Ventures, Anjney Midha, Andreessen Horowitz, NVIDIA) mentioned in the database entry."
       },
       "changes": [
         {
           "field": "totalRaised",
-          "current": "$15.9B",
-          "verified": "$14.8B",
+          "current": "$450M",
+          "verified": "$300M",
           "sources": [
-            2
+            0
           ]
         }
       ],
@@ -353,30 +115,212 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://scale.com"
+          "url": "https://blackforestlabs.ai"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://scale.com/about"
+          "url": "https://blackforestlabs.ai/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Scale_AI"
+          "url": "https://en.wikipedia.org/wiki/Black_Forest_Labs"
         },
         {
           "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/07/28/perceptual-robotics-secures-ps4m-to-scale-ai-powered-wind-inspections/"
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/"
         }
       ],
-      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang departed to join Meta and was replaced as CEO by Jason Droege. The company remains independent. Wikipedia indicates 1,200 employees (2025) and $870M revenue (2024)."
+      "notes": "Series B funding of $300M announced December 1, 2025 (per source 0). Wikipedia source mentions initial $31M investment but does not specify Series B details, valuation, or complete investor list. Sources do not verify the $450M total raised, $3.25B valuation, or specific investor names (Salesforce Ventures, Anjney Midha, Andreessen Horowitz, NVIDIA) mentioned in the database entry."
+    },
+    {
+      "name": "Commonwealth Fusion Systems",
+      "current": {
+        "name": "Commonwealth Fusion Systems",
+        "founder": "Bob Mumgaard",
+        "location": "Devens, MA",
+        "founded": 2018,
+        "fundingStage": "Series B2",
+        "totalRaised": "$3B+",
+        "website": "https://cfs.energy"
+      },
+      "verified": {
+        "name": "Commonwealth Fusion Systems",
+        "description": "American fusion power company that develops compact tokamak fusion reactors using high-temperature superconducting magnets. Founded as a spin-off from MIT, it is building the SPARC tokamak and plans to construct commercial fusion power plants.",
+        "founders": [
+          "Bob Mumgaard"
+        ],
+        "location": "Devens, Massachusetts",
+        "founded_year": 2018,
+        "current_stage": "Series B2",
+        "total_raised": "$863M",
+        "valuation": null,
+        "investors": [
+          "Eni",
+          "Breakthrough Energy Ventures",
+          "Khosla Ventures",
+          "Temasek",
+          "Equinor",
+          "Devonshire Investors",
+          "Google"
+        ],
+        "website": "https://cfs.energy",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Most recent funding round is Series B2 ($863 million announced in August 2025, per source 1). Previous Series B was $1.8 billion in November 2021. SPARC tokamak targeted to begin operations in 2026 with net power demonstration goal in 2027. Company announced plans for ARC commercial fusion power plant in Chesterfield County, Virginia, planned for early 2030s."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Devens, MA",
+          "verified": "Devens, Massachusetts",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$3B+",
+          "verified": "$863M",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://cfs.energy"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/30/when-will-fusion-power-startup-commonwealth-fusion-systems-go-public/"
+        }
+      ],
+      "notes": "Most recent funding round is Series B2 ($863 million announced in August 2025, per source 1). Previous Series B was $1.8 billion in November 2021. SPARC tokamak targeted to begin operations in 2026 with net power demonstration goal in 2027. Company announced plans for ARC commercial fusion power plant in Chesterfield County, Virginia, planned for early 2030s."
+    },
+    {
+      "name": "Palantir",
+      "current": {
+        "name": "Palantir",
+        "founder": "Peter Thiel, Alex Karp, Stephen Cohen, Joe Lonsdale, Nathan Gettings",
+        "location": "Miami, Florida, U.S.",
+        "founded": 2003,
+        "fundingStage": "Series E",
+        "totalRaised": "$3B+ (pre-IPO)",
+        "website": "https://palantir.com"
+      },
+      "verified": {
+        "name": "Palantir Technologies Inc.",
+        "description": "American publicly traded company that develops data integration and analytics software. The company serves federal agencies, state and local governments, international organizations, and private companies with platforms including Gotham, Foundry, Apollo, and AIP.",
+        "founders": [
+          "Peter Thiel",
+          "Stephen Cohen",
+          "Alex Karp",
+          "Joe Lonsdale",
+          "Nathan Gettings"
+        ],
+        "location": "Miami, Florida, U.S.",
+        "founded_year": 2003,
+        "current_stage": "Public",
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "In-Q-Tel",
+          "Oakhouse Partners",
+          "REV"
+        ],
+        "website": "https://palantir.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [1] is about Anthropic, not Palantir, and was not used. Wikipedia source [0] lists company as publicly traded on Nasdaq (PLTR), not Series E as in database entry. Former headquarters listed as Palo Alto, California; current headquarters is Miami, Florida."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series E",
+          "verified": "Public",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Palantir"
+        },
+        {
+          "idx": 1,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/"
+        }
+      ],
+      "notes": "Source [1] is about Anthropic, not Palantir, and was not used. Wikipedia source [0] lists company as publicly traded on Nasdaq (PLTR), not Series E as in database entry. Former headquarters listed as Palo Alto, California; current headquarters is Miami, Florida."
     },
     {
       "name": "SpaceX",
@@ -391,7 +335,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Texas. The company operates three divisions conducting orbital launches, satellite communications (Starlink), and artificial intelligence services.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates three divisions: Space (conducting more orbital launches annually than any other provider), Connectivity (operating Starlink satellite communications), and Artificial Intelligence (operating Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -433,7 +377,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion and describes it as the largest IPO in history. Database entry references $1.5T valuation and $1.65T valuation, but these specific figures are not present in provided sources, so valuation field set to null. Wikipedia indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. ownership verified at 6% equity stake."
+        "notes": "Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Current database entry lists valuation as $1.65T but this is not verified by any source provided."
       },
       "changes": [
         {
@@ -453,132 +397,21 @@
         },
         {
           "idx": 1,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-is-making-improved-220k-gpu-modular-ai-data-centers.html"
-        },
-        {
-          "idx": 2,
-          "src": "news (Breaking Defense)",
-          "url": "https://breakingdefense.com/2026/07/spacex-wins-1-6b-to-launch-space-force-sensing-and-targeting-sats/"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/"
-        }
-      ],
-      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion and describes it as the largest IPO in history. Database entry references $1.5T valuation and $1.65T valuation, but these specific figures are not present in provided sources, so valuation field set to null. Wikipedia indicates Elon Musk controls 85% voting power (not 82% as in database entry). Alphabet Inc. ownership verified at 6% equity stake."
-    },
-    {
-      "name": "Waymo",
-      "current": {
-        "name": "Waymo",
-        "founder": "Sebastian Thrun, Anthony Levandowski",
-        "location": "Mountain View, California",
-        "founded": 2016,
-        "fundingStage": "Pre-IPO",
-        "totalRaised": "$16B+",
-        "website": "https://waymo.com"
-      },
-      "verified": {
-        "name": "Waymo",
-        "description": "Autonomous driving technology company operating public commercial robotaxi services in 10 US metropolitan areas. As of June 2026, Waymo operates 3,871 robotaxis in service, provides 500,000 paid rides per week, and has logged 200 million fully autonomous miles.",
-        "founders": [
-          "Sebastian Thrun",
-          "Anthony Levandowski"
-        ],
-        "location": "Mountain View, California",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": "$16B",
-        "valuation": "$126B",
-        "investors": [
-          "Alphabet Inc."
-        ],
-        "website": "https://waymo.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Wikipedia states Waymo was founded December 13, 2016 as an independent company spun out of Google/Alphabet, though it traces origins to Google's self-driving car project which began January 17, 2009. Company is a subsidiary of Alphabet Inc. Wikipedia indicates $16B raised in February 2026 with $126B valuation; other investors mentioned in database entry (Andreessen Horowitz, Silver Lake, etc.) are not explicitly named in provided sources, so only Alphabet Inc. is listed as verified investor."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Pre-IPO",
-          "verified": "Private",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://waymo.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://waymo.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Waymo"
-        },
-        {
-          "idx": 3,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/07/29/waymo-new-testing-uber-fallout-fine-bonanza/"
-        },
-        {
-          "idx": 4,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways/"
-        },
-        {
-          "idx": 5,
           "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/07/29/waymo-gemini-ai-ojai-robotaxi-redesigned-interface/"
+          "url": "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/"
+        },
+        {
+          "idx": 2,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/supermicro-and-dell-with-building-block-data-centers-for-spacex.html"
+        },
+        {
+          "idx": 3,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/07/report-agrees-with-nextbigfuture-on-8-gigawatts-spacex-ai-data-centers-by-2027-2028.html"
         }
       ],
-      "notes": "Wikipedia states Waymo was founded December 13, 2016 as an independent company spun out of Google/Alphabet, though it traces origins to Google's self-driving car project which began January 17, 2009. Company is a subsidiary of Alphabet Inc. Wikipedia indicates $16B raised in February 2026 with $126B valuation; other investors mentioned in database entry (Andreessen Horowitz, Silver Lake, etc.) are not explicitly named in provided sources, so only Alphabet Inc. is listed as verified investor."
+      "notes": "Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Current database entry lists valuation as $1.65T but this is not verified by any source provided."
     }
   ],
   "unverifiable": []
