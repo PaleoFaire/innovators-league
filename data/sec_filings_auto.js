@@ -1,6 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-30 08:32:49 UTC
+// Last updated: 2026-07-31 08:54:37 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-07-30", description: "xslF345X06/wk-form4_1785443315.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-07-30", description: "xslF345X06/wk-form4_1785443238.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-07-30", description: "xslF345X06/wk-form4_1785443178.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "8-K", date: "2026-07-30", description: "dna-20260730.htm", isIPO: false, ticker: "DNA" },
+  { company: "Rivian", form: "10-Q", date: "2026-07-30", description: "rivn-20260630.htm", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "8-K", date: "2026-07-30", description: "rivn-20260730.htm", isIPO: false, ticker: "RIVN" },
   { company: "Aurora Innovation", form: "10-Q", date: "2026-07-29", description: "aur-20260630.htm", isIPO: false, ticker: "AUR" },
   { company: "Aurora Innovation", form: "8-K", date: "2026-07-29", description: "aur-20260729.htm", isIPO: false, ticker: "AUR" },
   { company: "Oklo", form: "8-K", date: "2026-07-28", description: "oklo-20260722.htm", isIPO: false, ticker: "OKLO" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-07-06", description: "xslF345X06/wk-form4_1783368855.xml", isIPO: false, ticker: "OKLO" },
   { company: "LanzaTech", form: "4", date: "2026-07-06", description: "xslF345X06/wk-form4_1783368070.xml", isIPO: false, ticker: "LNZA" },
   { company: "Rivian", form: "8-K", date: "2026-07-06", description: "tm2619783d1_8k.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Satellogic", form: "8-K", date: "2026-07-06", description: "ea0297007-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Oklo", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783022795.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783022704.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Centrus Energy", form: "8-K", date: "2026-07-02", description: "leu-20260630.htm", isIPO: false, ticker: "LEU" },
-  { company: "C3.ai", form: "4", date: "2026-07-02", description: "xslF345X06/wk-form4_1783027532.xml", isIPO: false, ticker: "AI" },
-  { company: "UiPath", form: "4", date: "2026-07-02", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
 ];

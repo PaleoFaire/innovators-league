@@ -1069,18 +1069,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "H9240225FE013",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 1182223.09,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-07-08",
-    "endDate": "2026-07-07",
-    "description": "RF EMULATOR TRAINER"
-  },
-  {
-    "company": "Anduril",
     "awardId": "H9240225FE006",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1158742.6,
@@ -1198,6 +1186,18 @@
     "startDate": "2025-10-25",
     "endDate": "2026-04-24",
     "description": "PROGRAM MANAGEMENT AND SUPPORT FOR CES UNDER PM GBAD"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240225FE019",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 528802.4,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-08-20",
+    "endDate": "2026-08-19",
+    "description": "SIP 113 - DRONE ASSEMBLY TECHNICIAN"
   },
   {
     "company": "Anduril Industries",
@@ -2269,18 +2269,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "H9240225FE013",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 1182223.09,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-07-08",
-    "endDate": "2026-07-07",
-    "description": "RF EMULATOR TRAINER"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "H9240225FE006",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1158742.6,
@@ -2398,6 +2386,18 @@
     "startDate": "2025-10-25",
     "endDate": "2026-04-24",
     "description": "PROGRAM MANAGEMENT AND SUPPORT FOR CES UNDER PM GBAD"
+  },
+  {
+    "company": "Anduril Industries",
+    "awardId": "H9240225FE019",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 528802.4,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-08-20",
+    "endDate": "2026-08-19",
+    "description": "SIP 113 - DRONE ASSEMBLY TECHNICIAN"
   },
   {
     "company": "Shield AI",
@@ -2809,6 +2809,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "75P00125F37006",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 19778616.0,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "Office of the Assistant Secretary for Financial Resources",
+    "awardType": null,
+    "startDate": "2025-08-04",
+    "endDate": "2027-02-04",
+    "description": "DATABASE SUPPORT AND INTEGRATED CARE AND CASE MANAGEMENT (ICCM)"
+  },
+  {
+    "company": "Palantir",
     "awardId": "HS002124F0071",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 19495442.6,
@@ -2938,18 +2950,6 @@
     "startDate": "2025-09-24",
     "endDate": "2026-09-23",
     "description": "IT SERVICES. COMMERCIAL OFF THE SHELF (COTS) SOFTWARE LICENSING, CLOUD SERVICES, TO ENABLE COMPLIANCE HUB TO CREATE ANALYTIC  MODELS."
-  },
-  {
-    "company": "Palantir",
-    "awardId": "75P00125F37006",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 13185744.0,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Office of the Assistant Secretary for Administration",
-    "awardType": null,
-    "startDate": "2025-08-04",
-    "endDate": "2026-08-04",
-    "description": "DATABASE SUPPORT AND INTEGRATED CARE AND CASE MANAGEMENT (ICCM)"
   },
   {
     "company": "Palantir",
@@ -3997,6 +3997,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "75P00125F37006",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 19778616.0,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "Office of the Assistant Secretary for Financial Resources",
+    "awardType": null,
+    "startDate": "2025-08-04",
+    "endDate": "2027-02-04",
+    "description": "DATABASE SUPPORT AND INTEGRATED CARE AND CASE MANAGEMENT (ICCM)"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "HS002124F0071",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 19495442.6,
@@ -4114,18 +4126,6 @@
     "startDate": "2025-09-24",
     "endDate": "2026-09-23",
     "description": "IT SERVICES. COMMERCIAL OFF THE SHELF (COTS) SOFTWARE LICENSING, CLOUD SERVICES, TO ENABLE COMPLIANCE HUB TO CREATE ANALYTIC  MODELS."
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "75P00125F37006",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 13185744.0,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Office of the Assistant Secretary for Administration",
-    "awardType": null,
-    "startDate": "2025-08-04",
-    "endDate": "2026-08-04",
-    "description": "DATABASE SUPPORT AND INTEGRATED CARE AND CASE MANAGEMENT (ICCM)"
   },
   {
     "company": "Palantir Technologies",
@@ -5000,7 +5000,7 @@
     "subAgency": "Department of the Air Force",
     "awardType": null,
     "startDate": "2025-12-08",
-    "endDate": "2027-04-09",
+    "endDate": "2027-04-30",
     "description": "PHASE 3 LANE 1 LAUNCH SERVICE TASK ORDER (LSTO) FOR SDA-2"
   },
   {
@@ -5137,6 +5137,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "FA881123F0017",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 101117437.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2023-06-15",
+    "endDate": "2026-07-04",
+    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "FA881123F0023",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 100122399.42,
@@ -5145,18 +5157,6 @@
     "awardType": null,
     "startDate": "2023-06-15",
     "endDate": "2026-03-29",
-    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "FA881123F0017",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 99297437.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2023-06-15",
-    "endDate": "2026-04-29",
     "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
   },
   {
@@ -5211,7 +5211,7 @@
     "company": "Space Exploration Technologies",
     "awardId": "FA881122F0018",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 91720436.0,
+    "amount": 91375436.0,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,
@@ -5288,7 +5288,7 @@
     "subAgency": "Department of the Air Force",
     "awardType": null,
     "startDate": "2024-08-13",
-    "endDate": "2026-09-30",
+    "endDate": "2026-10-28",
     "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
   },
   {
@@ -5809,18 +5809,6 @@
   },
   {
     "company": "Space Exploration Technologies",
-    "awardId": "FA881124FB030",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 0.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-08-19",
-    "endDate": "2025-08-18",
-    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
-  },
-  {
-    "company": "Space Exploration Technologies",
     "awardId": "FA254125CB001",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 0.0,
@@ -6166,6 +6154,18 @@
     "startDate": "2026-04-30",
     "endDate": "2027-03-01",
     "description": "BLANKET PURCHASE AGREEMENT CALL ORDER SKYDIO, LNC"
+  },
+  {
+    "company": "Skydio",
+    "awardId": "140D0426F0837",
+    "recipientName": "SKYDIO, INC",
+    "amount": 30620.7,
+    "agency": "Department of the Interior",
+    "subAgency": "Departmental Offices",
+    "awardType": null,
+    "startDate": "2026-08-03",
+    "endDate": "2027-06-04",
+    "description": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)"
   },
   {
     "company": "Skydio",
@@ -6910,6 +6910,18 @@
     "startDate": "2024-09-27",
     "endDate": "2029-09-27",
     "description": "SPECIAL STUDIES"
+  },
+  {
+    "company": "Axiom Space",
+    "awardId": "80JSC026FA082",
+    "recipientName": "AXIOM SPACE INC",
+    "amount": 8697277.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2026-07-28",
+    "endDate": "2031-07-27",
+    "description": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICES (XEVAS)"
   },
   {
     "company": "Axiom Space",
@@ -7954,18 +7966,6 @@
     "startDate": "2025-02-28",
     "endDate": "2028-03-21",
     "description": "TRAVELER-BASED GENOMIC SURVEILLANCE PROGRAM"
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "awardId": "75D30122C14933",
-    "recipientName": "GINKGO BIOWORKS, INC.",
-    "amount": 62551726.04,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Centers for Disease Control and Prevention",
-    "awardType": null,
-    "startDate": "2022-08-16",
-    "endDate": "2025-03-21",
-    "description": "AIRPORT GENOMIC TESTING"
   },
   {
     "company": "Ginkgo Bioworks",

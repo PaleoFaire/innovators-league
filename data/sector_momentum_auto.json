@@ -1,12 +1,30 @@
 [
   {
+    "sector": "AI & Software",
+    "momentum": 62,
+    "trend": "accelerating",
+    "catalysts": [
+      "Anthropic Says Claude Hacked 3 Organizations During Cybersec",
+      "Anthropic says its own AI models breached three companies du",
+      "AI hedge fund Situational Awareness may have sold its public"
+    ],
+    "fundingQ": "$282.7B",
+    "components": {
+      "funding": 100,
+      "news": 70,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-31"
+  },
+  {
     "sector": "Robotics & Manufacturing",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Waymo \u2014 New Testing, Uber Fallout, Fine Bonanza",
-      "Waymo robotaxis are starting to return to freeways",
-      "Waymo adds Google&#8217;s Gemini AI assistant and new UI to"
+      "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
+      "Tesla weighs selling China business to clear path for SpaceX",
+      "Everyone Is Freaking Out About OpenAI and Anthropic\u2019s Race f"
     ],
     "fundingQ": "$27.0B",
     "components": {
@@ -15,103 +33,68 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-30"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 58,
-    "trend": "accelerating",
-    "catalysts": [
-      "SpaceX is Making Improved 220K GPU Modular AI Data Centers",
-      "Microsoft is openly competing with OpenAI, Anthropic more th",
-      "Microsoft logs $3.2B from Anthropic investment, but OpenAI w"
-    ],
-    "fundingQ": "$282.7B",
-    "components": {
-      "funding": 100,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 50,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "SpaceX is Making Improved 220K GPU Modular AI Data Centers",
-      "SpaceX wins $1.6B to launch Space Force &#8216;sensing and t",
-      "SpaceX wins $1.6 billion in launch orders for military satel"
+      "Tesla weighs selling China business to clear path for SpaceX",
+      "Supermicro and Dell With Building Block Data Centers for Spa",
+      "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Da"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 85,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 53,
+    "trend": "steady",
+    "catalysts": [
+      "AI hedge fund Situational Awareness may have sold its public",
+      "What Is Cape Cod Doing To Secure Its Energy Independence And",
+      "Perceptual Robotics secures \u00a34M+ to scale AI-powered wind in"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 96,
+      "news": 20,
+      "hiring": 0,
+      "market": 72
+    },
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 47,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
+      "K2 Space raises $500 million for commercial, defense satelli",
       "SpaceX wins $1.6 billion in launch orders for military satel",
-      "French wildfires threaten nuclear deterrence industry, Rafal",
-      "Rocket Lab to open Alaska launch site under $266 million Spa"
+      "French wildfires threaten nuclear deterrence industry, Rafal"
     ],
     "fundingQ": "$11.3B",
     "components": {
       "funding": 100,
       "news": 20,
       "hiring": 0,
-      "market": 37
+      "market": 41
     },
-    "lastUpdated": "2026-07-30"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 42,
-    "trend": "steady",
-    "catalysts": [
-      "Thinking Machines co-founder Lilian Weng left the company ci",
-      "Fortastra and Hadrian join forces to streamline satellite pr"
-    ],
-    "fundingQ": "$310M",
-    "components": {
-      "funding": 84,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-30"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 39,
-    "trend": "steady",
-    "catalysts": [
-      "French wildfires threaten nuclear deterrence industry, Rafal",
-      "A New Force Posture Concept for Europeanizing Extended Nucle",
-      "Not Imaginary: The Deterrence Gap is Real and America Needs"
-    ],
-    "fundingQ": "$4.0B",
-    "components": {
-      "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 39,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Thinking Machines co-founder Lilian Weng left the company ci",
+      "OpenAI\u2019s Hacking Debacle Comes Down to Human Error",
       "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca",
       "<a href=\"/biotech/vertexs-latest-autoimmune-tce-play-involve"
     ],
@@ -120,31 +103,47 @@
       "funding": 100,
       "news": 15,
       "hiring": 0,
-      "market": 0
+      "market": 36
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
-    "sector": "Climate & Energy",
-    "momentum": 37,
+    "sector": "Nuclear Energy",
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
-      "What Is Cape Cod Doing To Secure Its Energy Independence And",
-      "Perceptual Robotics secures \u00a34M+ to scale AI-powered wind in",
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+      "When will fusion power startup Commonwealth Fusion Systems g",
+      "French wildfires threaten nuclear deterrence industry, Rafal",
+      "A New Force Posture Concept for Europeanizing Extended Nucle"
     ],
-    "fundingQ": "$1.4B",
+    "fundingQ": "$5.0B",
     "components": {
-      "funding": 96,
-      "news": 15,
+      "funding": 100,
+      "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 5
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 41,
+    "trend": "rising",
+    "catalysts": [
+      "Fortastra and Hadrian join forces to streamline satellite pr"
+    ],
+    "fundingQ": "$310M",
+    "components": {
+      "funding": 84,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Transportation",
-    "momentum": 35,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
       "Active transportation ecosystem"
@@ -154,27 +153,27 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 20
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 25,
+    "momentum": 22,
     "trend": "rising",
     "catalysts": [
-      "SpaceX wins $1.6 billion in launch orders for military satel",
-      "Experts react to FCC limits on U.S. imports of new humanoid",
-      "Fortastra and Hadrian join forces to streamline satellite pr"
+      "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
+      "K2 Space raises $500 million for commercial, defense satelli",
+      "Rocket Lab wins another launch contract from Japan\u2019s iQPS"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 60,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -191,7 +190,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Drones & Autonomous",
@@ -207,14 +206,30 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic Says Claude Hacked 3 Organizations During Cybersec"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-07-31"
+  },
+  {
+    "sector": "Quantum Computing",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -223,7 +238,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Ocean & Maritime",
@@ -239,38 +254,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 1,
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
+      "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Da",
+      "Minihard Thesis: Can SpaceX Turn AI Data Centers Into a Prod",
       "SpaceX is Making Improved 220K GPU Modular AI Data Centers"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-07-30"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   }
 ]
