@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-07-30 09:23:31 UTC
+// Last updated: 2026-07-31 09:35:32 UTC
 // Total grants: 632 | Known companies: 13 | SBIR: 22
-// Total funding tracked: $424,898,466
+// Total funding tracked: $424,761,774
 const NIH_GRANTS_AUTO = [
   {
     title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse Emerging Infectious ",
@@ -3618,19 +3618,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Time to ATTAC: Adoptive Transfer of T cells Against gp100+ Cells to treat LAM",
-    organization: "NORTHWESTERN UNIVERSITY",
-    orgState: "IL",
-    piName: "I. Caroline Le Poole",
-    fiscalYear: 2026,
-    awardAmount: 575832,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "SUMMARY Lymphangioleiomyomatosis (LAM) is a rare disorder with devastating consequences for the young women diagnosed with this disease. We observed occult expression of the glycoprotein gp100 and oth",
-    terms: ["Adoptive Cell Transfers", "Adoptive Transfer", "Affect", "Alleles", "Antibodies", "Antigens", "Automobile Driving", "Benign"],
-    isKnownCompany: false,
-  },
-  {
     title: "Human Microbiome Data Discovery: A short course on unveiling microbial insights to human health through Common Fund Data",
     organization: "OREGON HEALTH & SCIENCE UNIVERSITY",
     orgState: "OR",
@@ -3901,6 +3888,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Project Summary/Abstract Patients with lethal castration-resistant prostate cancer (CRPC) are currently treated with agents targeting androgen receptor (AR) signaling. However, AR inhibition has not d",
     terms: ["Amino Acids", "Androgen Receptor", "Biochemical", "Biological Assay", "Biological Process", "Cancer Cell Growth", "Cancer Patient", "Castration"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Effects of Iron Accumulation in Intracortical Implants and Protection by Iron Chelation",
+    organization: "UNIVERSITY OF MIAMI SCHOOL OF MEDICINE",
+    orgState: "FL",
+    piName: "Abhishek  Prasad",
+    fiscalYear: 2026,
+    awardAmount: 543265,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Microelectrodes (ME) implanted in the nervous system are critical tools for neurophysiological research and in clinical applications that use neuromodulation to treat motor-disability conditions. Howe",
+    terms: ["Acute", "Blood Vessels", "Brain", "Brain Injuries", "Catalysis", "Cell Survival", "Cells", "Cerebral hemisphere hemorrhage"],
     isKnownCompany: false,
   },
 ];

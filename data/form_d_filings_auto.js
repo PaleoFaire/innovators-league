@@ -1,13 +1,47 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-07-30 09:52:53 UTC
-// Total: 14 filings across 12 companies
+// Last updated: 2026-07-31 10:02:03 UTC
+// Total: 15 filings across 13 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-07-30T09:52:53.228767+00:00",
+  "generated_at": "2026-07-31T10:02:03.201138+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 14,
+  "total_filings": 15,
   "filings": [
+    {
+      "company": "Core Automation",
+      "issuer_name": "Core Automation, Inc",
+      "form": "D",
+      "filed_date": "2026-07-30",
+      "cik": "2148145",
+      "accession": "0002148145-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148145&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002148145-26-000001",
+      "offering_amount": "635249754",
+      "amount_sold": "432125053",
+      "amount_remaining": "203124701",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Cambium",
+      "issuer_name": "Cambium Capital Alder LP",
+      "form": "D",
+      "filed_date": "2026-07-30",
+      "cik": "2136864",
+      "accession": "0002136864-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136864&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002136864-26-000002",
+      "offering_amount": "Indefinite",
+      "amount_sold": "0",
+      "amount_remaining": "Indefinite",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "TrustPoint",
       "issuer_name": "TrustPoint Investors, LLC",
@@ -225,23 +259,6 @@ const FORM_D_FILINGS = {
       "amount_sold": "135597266",
       "amount_remaining": "Indefinite",
       "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Ursa Space Systems",
-      "issuer_name": "Ursa Space Systems Inc",
-      "form": "D",
-      "filed_date": "2026-07-20",
-      "cik": "1658448",
-      "accession": "0001658448-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001658448&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001658448-26-000001",
-      "offering_amount": "27899999",
-      "amount_sold": "27899999",
-      "amount_remaining": "0",
-      "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false

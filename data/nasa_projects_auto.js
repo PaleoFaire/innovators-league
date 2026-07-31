@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-07-30 09:25:26 UTC
+// Last updated: 2026-07-31 09:36:58 UTC
 const NASA_PROJECTS = [
   { id: 106820, title: "Cis Lunar Autonomous Positioning System Technology Operations and Navigation Exp", status: "Completed", center: "Advanced Space, LLC", techArea: "Network-Provided Position, Navigation, and Timing", lastUpdated: "07/29/26" },
   { id: 182937, title: "CAS sensor for ISRU propellant production", status: "Active", center: "Glenn Research Center", techArea: "Sensors and Instruments", lastUpdated: "07/29/26" },
