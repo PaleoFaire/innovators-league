@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.1,
+      "avg_change": -0.9,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -5.58,
+      "avg_change": -5.73,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.69,
+      "avg_change": -5.83,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.17,
+      "avg_change": -3.39,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.92,
+      "avg_change": -1.94,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.61,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.05,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.04,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.01,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.55,
+      "avg_change": -0.57,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.61,
+      "avg_change": -8.32,
       "count": 3
     }
   },
@@ -64,52 +64,52 @@
       5.76
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      5.35
-    ],
-    [
       "IONQ",
       "IonQ",
-      5.03
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      2.15
+      4.99
     ],
     [
       "AUR",
       "Aurora Innovation",
-      2.09
+      4.17
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      2.25
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      2.25
     ]
   ],
   "topLosers": [
     [
+      "PL",
+      "Planet Labs",
+      -9.57
+    ],
+    [
       "AMD",
       "AMD",
-      -9.55
+      -10.06
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -9.88
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      -14.19
+      -10.65
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -14.57
+      -13.91
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -26.57
+      "DRSHF",
+      "DroneShield",
+      -17.49
     ]
   ],
-  "lastUpdated": "2026-07-30 19:38:05"
+  "lastUpdated": "2026-07-31 03:19:20"
 }
