@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-07-31 09:36:03 UTC
+// Last updated: 2026-08-01 08:58:52 UTC
 const ARXIV_PAPERS = [
   { id: "2607.28623v1", title: "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball", category: "Artificial Intelligence", published: "2026-07-30", sectors: "robotics", authors: "Lizhi Yang, Junheng Li, Aaron D. Ames" },
   { id: "2607.28617v1", title: "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications", category: "Artificial Intelligence", published: "2026-07-30", sectors: "ai", authors: "Xiangning Lin, Shenzhe Zhu, Shu Yang et al." },

@@ -46819,6 +46819,216 @@ const GOV_DEMAND_TRACKER = [
     source: "sam.gov",
     posted: "2026-02-26"
   },
+  {
+    id: "SAM-70B02C26F00000035",
+    title: "PURCHASE OF TOWERS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PURCHASE OF TOWERS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-25"
+  },
+  {
+    id: "SAM-H9240224F0057",
+    title: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-31"
+  },
+  {
+    id: "SAM-W9128Z26FA005",
+    title: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED INSTALLATION, SYSTEMS INTEGRATION, SPECIALIZED TRAINING, AND TECHNICAL SUPPORT SE",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "OpenAI", "Palantir", "Scale AI"],
+    source: "sam.gov",
+    posted: "2026-03-16"
+  },
+  {
+    id: "SAM-H9240226FE027",
+    title: "SIP TO137 GHOST SHIELD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP TO137 GHOST SHIELD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-04-27"
+  },
+  {
+    id: "SAM-70B02C26F00000480",
+    title: "DO 23 O&S WITH SOW.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO 23 O&S WITH SOW.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-07-21"
+  },
+  {
+    id: "SAM-70B02C25F00000926",
+    title: "AWARD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-09-19"
+  },
+  {
+    id: "SAM-70B02C25F00000422",
+    title: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-08-01"
+  },
+  {
+    id: "SAM-H9240225FE017",
+    title: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "OpenAI", "Palantir", "Scale AI"],
+    source: "sam.gov",
+    posted: "2025-08-28"
+  },
+  {
+    id: "SAM-70B02C24F00000684",
+    title: "DO# 17",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO# 17",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-28"
+  },
+  {
+    id: "SAM-FA882024FB003",
+    title: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTIC",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTICED MESH NETWORK COMMUNICATIONS CAPABILITY TO SUPPORT WORLDWIDE SDANET CONNECTED ",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-09-27"
+  },
+  {
+    id: "SAM-M6785426F0032",
+    title: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-19"
+  },
+  {
+    id: "SAM-FA228025F0035",
+    title: "FALCON INTELLIGENCE, SURVEILLANCE AND RECONNAISSANCE",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "FALCON INTELLIGENCE, SURVEILLANCE AND RECONNAISSANCE",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "OpenAI", "Palantir", "Scale AI"],
+    source: "sam.gov",
+    posted: "2025-09-30"
+  },
+  {
+    id: "SAM-H9240225F0009",
+    title: "MARITIME DEFEAT",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "MARITIME DEFEAT",
+    techAreas: [],
+    relevantCompanies: ["Saronic", "Anduril Industries", "Saildrone"],
+    source: "sam.gov",
+    posted: "2025-02-10"
+  },
+  {
+    id: "SAM-H9240225F0005",
+    title: "SIP FFP SERVICES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP FFP SERVICES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-12-21"
+  },
+  {
+    id: "SAM-M6785426F0051",
+    title: "THIS DELIVERY ORDER PROCURES HARDWARE REQUIRED FOR THE HOME ALONE PM GBAD PROGRAM.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "THIS DELIVERY ORDER PROCURES HARDWARE REQUIRED FOR THE HOME ALONE PM GBAD PROGRAM.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-02-26"
+  },
 ];
 
 const GOV_DEMAND_SUMMARY = {
@@ -71795,6 +72005,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-07-31
 // Auto-updated IPO pipeline — Last updated: 2026-07-31
 // Auto-updated IPO pipeline — Last updated: 2026-08-01
+// Auto-updated IPO pipeline — Last updated: 2026-08-01
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -74734,6 +74945,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-07-31
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-08-01
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-08-01
 const DEAL_TRACKER = [
   { company: "Wayve", investor: "Undisclosed", amount: "$8.5B", round: "Funding Round", date: "2026-07", valuation: "", leadOrParticipant: "lead" },
   { company: "Tenstorrent", investor: "Undisclosed", amount: "$8.3B", round: "Funding Round", date: "2026-07", valuation: "", leadOrParticipant: "lead" },
@@ -76186,6 +76399,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-07-30
 // Auto-updated revenue intelligence — Last updated: 2026-07-31
 // Auto-updated revenue intelligence — Last updated: 2026-07-31
+// Auto-updated revenue intelligence — Last updated: 2026-08-01
 // Auto-updated revenue intelligence — Last updated: 2026-08-01
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
@@ -79140,6 +79354,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-07-31
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-08-01
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-08-01
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$3.7B+", contractCount: 200, agencies: ["Department of Homeland Security", "Department of Energy", "Department of Defense"], lastUpdated: "2026-08-01" },
   { company: "Palantir", totalGovValue: "$5.1B+", contractCount: 196, agencies: ["Department of the Treasury", "Department of Energy", "Department of Defense", "Department of Veterans Affairs", "National Aeronautics and Space Administration"], lastUpdated: "2026-08-01" },
@@ -79175,22 +79391,22 @@ const GOV_CONTRACTS = [
 // Auto-updated SAM.gov contract opportunities
 // Last updated: 2026-08-01
 const SAM_CONTRACTS = [
-  { company: "Anduril", opportunityCount: 25, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "PURCHASE OF TOWERS", "agency": "Department of Homeland Security", "postedDate": "2025-12-25", "type": null, "noticeId": "70B02C26F00000035", "awardAmount": "$363M"}, {"title": "ROADRUNNER, ANVIL AND QUASAR PACKAGES", "agency": "Department of Defense", "postedDate": "2024-08-31", "type": null, "noticeId": "H9240224F0057", "awardAmount": "$250M"}, {"title": "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I", "agency": "Department of Defense", "postedDate": "2026-03-16", "type": null, "noticeId": "W9128Z26FA005", "awardAmount": "$88M"}], lastUpdated: "2026-07-31" },
-  { company: "Palantir", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of State"], types: [], recentOpportunities: [{"title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039", "agency": "Department of Defense", "postedDate": "2025-10-15", "type": null, "noticeId": "W9128Z26FA001", "awardAmount": "$443M"}, {"title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS", "agency": "Department of Homeland Security", "postedDate": "2022-09-26", "type": null, "noticeId": "70CTD022FR0000170", "awardAmount": "$151M"}, {"title": "ARMY VANTAGE DATA ANALYTICS PLATFORM.", "agency": "Department of Defense", "postedDate": "2025-12-11", "type": null, "noticeId": "W519TC26F0012", "awardAmount": "$145M"}], lastUpdated: "2026-07-31" },
-  { company: "Skydio", opportunityCount: 21, agencies: ["Department of Agriculture", "Department of Justice", "Department of State", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2026-02-04", "type": null, "noticeId": "140D0426F0169", "awardAmount": "$251K"}, {"title": "DELIVERY ORDER FOR UAS AND ACCESSORIES", "agency": "Department of Agriculture", "postedDate": "2026-04-12", "type": null, "noticeId": "12639526F0393", "awardAmount": "$224K"}, {"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL ORDER", "agency": "Department of the Interior", "postedDate": "2026-03-25", "type": null, "noticeId": "140D0426F0309", "awardAmount": "$147K"}], lastUpdated: "2026-07-31" },
-  { company: "Radiant", opportunityCount: 13, agencies: ["Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of Labor", "Department of the Interior"], types: [], recentOpportunities: [{"title": "CLOUD RESOURCES MANAGEMENT SUPPORT", "agency": "Department of Health and Human Services", "postedDate": "2020-11-13", "type": null, "noticeId": "75FCMC20F0077", "awardAmount": "$13M"}, {"title": "ASHEPS CONTRACT", "agency": "Department of Health and Human Services", "postedDate": "2024-03-08", "type": null, "noticeId": "75FCMC24F0057", "awardAmount": "$9M"}, {"title": "OLDER AMERICANS ACT PERFORMANCE SYSTEM (OAAPS) AND TECHNICAL ASSISTANCE", "agency": "Department of Health and Human Services", "postedDate": "2023-09-30", "type": null, "noticeId": "75P00123F80228", "awardAmount": "$8M"}], lastUpdated: "2026-07-31" },
-  { company: "Shield AI", opportunityCount: 7, agencies: ["Department of Homeland Security"], types: [], recentOpportunities: [{"title": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.", "agency": "Department of Homeland Security", "postedDate": "2026-02-27", "type": null, "noticeId": "70Z02326F93130005", "awardAmount": "$16M"}, {"title": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION.", "agency": "Department of Homeland Security", "postedDate": "2026-05-27", "type": null, "noticeId": "70Z02326F93130008", "awardAmount": "$8M"}, {"title": "TO#3 FOR SHORE-BASED VBAT DEPLOYMENTS", "agency": "Department of Homeland Security", "postedDate": "2025-10-01", "type": null, "noticeId": "70Z02325F93130002", "awardAmount": "$6M"}], lastUpdated: "2026-07-31" },
-  { company: "Sierra Space", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) ", "agency": "National Aeronautics and Space Administration", "postedDate": "2019-05-02", "type": null, "noticeId": "80HQTR19C0019", "awardAmount": "$12M"}, {"title": "ADVANCED SPACESUIT REGULATOR (ASR)", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-12-18", "type": null, "noticeId": "80JSC026C0002", "awardAmount": "$6M"}, {"title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-04-30", "type": null, "noticeId": "80HQTR25CA008", "awardAmount": "$4M"}], lastUpdated: "2026-07-31" },
-  { company: "Axiom Space", opportunityCount: 4, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICE (XEVAS) ARTEMIS PROGRAM", "agency": "National Aeronautics and Space Administration", "postedDate": "2022-09-08", "type": null, "noticeId": "80JSC022FA103", "awardAmount": "$392M"}, {"title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-06-23", "type": null, "noticeId": "80JSC023FA154", "awardAmount": "$131M"}, {"title": "SPECIAL STUDIES", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-27", "type": null, "noticeId": "80JSC024FA196", "awardAmount": "$40M"}], lastUpdated: "2026-07-31" },
-  { company: "Rocket Lab", opportunityCount: 3, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA107", "awardAmount": "$45M"}, {"title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-05-28", "type": null, "noticeId": "80AFRC26FA041", "awardAmount": "$433K"}, {"title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-02-23", "type": null, "noticeId": "80GSFC26C0008", "awardAmount": "$391K"}], lastUpdated: "2026-07-31" },
-  { company: "Planet Labs", opportunityCount: 3, agencies: ["Department of Commerce", "Department of Defense", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SATELLITE IMAGERY DATA SUBSCRIPTION", "agency": "Department of Defense", "postedDate": "2026-03-18", "type": null, "noticeId": "N6600126P6067", "awardAmount": "$7M"}, {"title": "SATELLITE IMAGERY FOR THE SATELLITE ANALYSIS BRANCH", "agency": "Department of Commerce", "postedDate": "2024-08-12", "type": null, "noticeId": "1332KP24P0044", "awardAmount": "$186K"}, {"title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION", "agency": "Department of the Interior", "postedDate": "2026-05-07", "type": null, "noticeId": "140G0326P0132", "awardAmount": "$60K"}], lastUpdated: "2026-07-31" },
-  { company: "Scale AI", opportunityCount: 3, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "AGENTIC ARTIFICIAL INTELLIGENCE FOR THE E-4C/SURVIVABLE AIRBORNE OPERATIONS CENTER (SAOC) PROGRAM", "agency": "Department of Defense", "postedDate": "2026-02-27", "type": null, "noticeId": "FA875126C0001", "awardAmount": "$5M"}, {"title": "BASE YEAR TASK ORDER AWARDED TO SCALE AI UNDER THEIR INDEFINITE DELIVERY INDEFINITE QUANTITY IDIQ FOR EMERGENT IVBAA0001", "agency": "Department of Defense", "postedDate": "2024-09-27", "type": null, "noticeId": "SP470124F0355", "awardAmount": "$2M"}, {"title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY", "agency": "Department of Defense", "postedDate": "2025-08-26", "type": null, "noticeId": "W911QX25FA054", "awardAmount": "$2M"}], lastUpdated: "2026-07-31" },
-  { company: "Castelion", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "PER SOW, G/R LIST, AND TECHNICAL PROPOSAL", "agency": "Department of Defense", "postedDate": "2026-02-25", "type": null, "noticeId": "N6833526F1022", "awardAmount": "$155M"}, {"title": "NEW PHASE II - EFFORT ENTITLED, HYPERSONIC EQUIPAGE FROM TWENTY FOOT EQUIVALENT UNIT CONTAINER, PROPOSAL F2D-11201. CAST", "agency": "Department of Defense", "postedDate": "2025-03-11", "type": null, "noticeId": "W912CG25C0009", "awardAmount": "$1M"}], lastUpdated: "2026-07-31" },
-  { company: "BlackSky", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BLACKSKY DIRECT TO PHASE 2", "agency": "Department of Defense", "postedDate": "2024-10-01", "type": null, "noticeId": "FA238524CB039", "awardAmount": "$4M"}, {"title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT", "agency": "Department of Defense", "postedDate": "2026-03-06", "type": null, "noticeId": "FA238526FB002", "awardAmount": "$3M"}], lastUpdated: "2026-07-31" },
-  { company: "Vannevar Labs", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SBIR STRATFI - VELOCITY", "agency": "Department of Defense", "postedDate": "2025-01-06", "type": null, "noticeId": "FA860425CB008", "awardAmount": "$13M"}], lastUpdated: "2026-07-31" },
-  { company: "Hadrian", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "DATA RIGHTS AND INTELLECTUAL PROPERTY", "agency": "Department of Defense", "postedDate": "2026-03-17", "type": null, "noticeId": "W911RQ26CA011", "awardAmount": "$39M"}], lastUpdated: "2026-07-31" },
-  { company: "Relativity Space", opportunityCount: 1, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER.", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA106", "awardAmount": "$225K"}], lastUpdated: "2026-07-31" },
-  { company: "Varda Space", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE", "agency": "Department of Defense", "postedDate": "2025-11-25", "type": null, "noticeId": "FA945326FX002", "awardAmount": "$160K"}], lastUpdated: "2026-07-31" },
+  { company: "Anduril", opportunityCount: 25, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "PURCHASE OF TOWERS", "agency": "Department of Homeland Security", "postedDate": "2025-12-25", "type": null, "noticeId": "70B02C26F00000035", "awardAmount": "$363M"}, {"title": "ROADRUNNER, ANVIL AND QUASAR PACKAGES", "agency": "Department of Defense", "postedDate": "2024-08-31", "type": null, "noticeId": "H9240224F0057", "awardAmount": "$250M"}, {"title": "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I", "agency": "Department of Defense", "postedDate": "2026-03-16", "type": null, "noticeId": "W9128Z26FA005", "awardAmount": "$88M"}], lastUpdated: "2026-08-01" },
+  { company: "Palantir", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of State"], types: [], recentOpportunities: [{"title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039", "agency": "Department of Defense", "postedDate": "2025-10-15", "type": null, "noticeId": "W9128Z26FA001", "awardAmount": "$443M"}, {"title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS", "agency": "Department of Homeland Security", "postedDate": "2022-09-26", "type": null, "noticeId": "70CTD022FR0000170", "awardAmount": "$151M"}, {"title": "ARMY VANTAGE DATA ANALYTICS PLATFORM.", "agency": "Department of Defense", "postedDate": "2025-12-11", "type": null, "noticeId": "W519TC26F0012", "awardAmount": "$145M"}], lastUpdated: "2026-08-01" },
+  { company: "Skydio", opportunityCount: 21, agencies: ["Department of Agriculture", "Department of Justice", "Department of State", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2026-02-04", "type": null, "noticeId": "140D0426F0169", "awardAmount": "$251K"}, {"title": "DELIVERY ORDER FOR UAS AND ACCESSORIES", "agency": "Department of Agriculture", "postedDate": "2026-04-12", "type": null, "noticeId": "12639526F0393", "awardAmount": "$224K"}, {"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL ORDER", "agency": "Department of the Interior", "postedDate": "2026-03-25", "type": null, "noticeId": "140D0426F0309", "awardAmount": "$147K"}], lastUpdated: "2026-08-01" },
+  { company: "Radiant", opportunityCount: 13, agencies: ["Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of Labor", "Department of the Interior"], types: [], recentOpportunities: [{"title": "CLOUD RESOURCES MANAGEMENT SUPPORT", "agency": "Department of Health and Human Services", "postedDate": "2020-11-13", "type": null, "noticeId": "75FCMC20F0077", "awardAmount": "$13M"}, {"title": "ASHEPS CONTRACT", "agency": "Department of Health and Human Services", "postedDate": "2024-03-08", "type": null, "noticeId": "75FCMC24F0057", "awardAmount": "$9M"}, {"title": "OLDER AMERICANS ACT PERFORMANCE SYSTEM (OAAPS) AND TECHNICAL ASSISTANCE", "agency": "Department of Health and Human Services", "postedDate": "2023-09-30", "type": null, "noticeId": "75P00123F80228", "awardAmount": "$8M"}], lastUpdated: "2026-08-01" },
+  { company: "Shield AI", opportunityCount: 8, agencies: ["Department of Defense", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.", "agency": "Department of Homeland Security", "postedDate": "2026-02-27", "type": null, "noticeId": "70Z02326F93130005", "awardAmount": "$16M"}, {"title": "V-BAT VTOL UNMANNED AIRCRAFT", "agency": "Department of Defense", "postedDate": "2025-09-03", "type": null, "noticeId": "N0001925F0971", "awardAmount": "$11M"}, {"title": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION.", "agency": "Department of Homeland Security", "postedDate": "2026-05-27", "type": null, "noticeId": "70Z02326F93130008", "awardAmount": "$8M"}], lastUpdated: "2026-08-01" },
+  { company: "Sierra Space", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) ", "agency": "National Aeronautics and Space Administration", "postedDate": "2019-05-02", "type": null, "noticeId": "80HQTR19C0019", "awardAmount": "$12M"}, {"title": "ADVANCED SPACESUIT REGULATOR (ASR)", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-12-18", "type": null, "noticeId": "80JSC026C0002", "awardAmount": "$6M"}, {"title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-04-30", "type": null, "noticeId": "80HQTR25CA008", "awardAmount": "$4M"}], lastUpdated: "2026-08-01" },
+  { company: "Axiom Space", opportunityCount: 4, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICE (XEVAS) ARTEMIS PROGRAM", "agency": "National Aeronautics and Space Administration", "postedDate": "2022-09-08", "type": null, "noticeId": "80JSC022FA103", "awardAmount": "$414M"}, {"title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-06-23", "type": null, "noticeId": "80JSC023FA154", "awardAmount": "$131M"}, {"title": "SPECIAL STUDIES", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-27", "type": null, "noticeId": "80JSC024FA196", "awardAmount": "$40M"}], lastUpdated: "2026-08-01" },
+  { company: "Rocket Lab", opportunityCount: 3, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA107", "awardAmount": "$45M"}, {"title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-05-28", "type": null, "noticeId": "80AFRC26FA041", "awardAmount": "$433K"}, {"title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-02-23", "type": null, "noticeId": "80GSFC26C0008", "awardAmount": "$391K"}], lastUpdated: "2026-08-01" },
+  { company: "Planet Labs", opportunityCount: 3, agencies: ["Department of Commerce", "Department of Defense", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SATELLITE IMAGERY DATA SUBSCRIPTION", "agency": "Department of Defense", "postedDate": "2026-03-18", "type": null, "noticeId": "N6600126P6067", "awardAmount": "$7M"}, {"title": "SATELLITE IMAGERY FOR THE SATELLITE ANALYSIS BRANCH", "agency": "Department of Commerce", "postedDate": "2024-08-12", "type": null, "noticeId": "1332KP24P0044", "awardAmount": "$186K"}, {"title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION", "agency": "Department of the Interior", "postedDate": "2026-05-07", "type": null, "noticeId": "140G0326P0132", "awardAmount": "$60K"}], lastUpdated: "2026-08-01" },
+  { company: "Scale AI", opportunityCount: 3, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "AGENTIC ARTIFICIAL INTELLIGENCE FOR THE E-4C/SURVIVABLE AIRBORNE OPERATIONS CENTER (SAOC) PROGRAM", "agency": "Department of Defense", "postedDate": "2026-02-27", "type": null, "noticeId": "FA875126C0001", "awardAmount": "$5M"}, {"title": "BASE YEAR TASK ORDER AWARDED TO SCALE AI UNDER THEIR INDEFINITE DELIVERY INDEFINITE QUANTITY IDIQ FOR EMERGENT IVBAA0001", "agency": "Department of Defense", "postedDate": "2024-09-27", "type": null, "noticeId": "SP470124F0355", "awardAmount": "$2M"}, {"title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY", "agency": "Department of Defense", "postedDate": "2025-08-26", "type": null, "noticeId": "W911QX25FA054", "awardAmount": "$2M"}], lastUpdated: "2026-08-01" },
+  { company: "Castelion", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "PER SOW, G/R LIST, AND TECHNICAL PROPOSAL", "agency": "Department of Defense", "postedDate": "2026-02-25", "type": null, "noticeId": "N6833526F1022", "awardAmount": "$155M"}, {"title": "NEW PHASE II - EFFORT ENTITLED, HYPERSONIC EQUIPAGE FROM TWENTY FOOT EQUIVALENT UNIT CONTAINER, PROPOSAL F2D-11201. CAST", "agency": "Department of Defense", "postedDate": "2025-03-11", "type": null, "noticeId": "W912CG25C0009", "awardAmount": "$1M"}], lastUpdated: "2026-08-01" },
+  { company: "BlackSky", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BLACKSKY DIRECT TO PHASE 2", "agency": "Department of Defense", "postedDate": "2024-10-01", "type": null, "noticeId": "FA238524CB039", "awardAmount": "$4M"}, {"title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT", "agency": "Department of Defense", "postedDate": "2026-03-06", "type": null, "noticeId": "FA238526FB002", "awardAmount": "$3M"}], lastUpdated: "2026-08-01" },
+  { company: "Vannevar Labs", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SBIR STRATFI - VELOCITY", "agency": "Department of Defense", "postedDate": "2025-01-06", "type": null, "noticeId": "FA860425CB008", "awardAmount": "$13M"}], lastUpdated: "2026-08-01" },
+  { company: "Hadrian", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "DATA RIGHTS AND INTELLECTUAL PROPERTY", "agency": "Department of Defense", "postedDate": "2026-03-17", "type": null, "noticeId": "W911RQ26CA011", "awardAmount": "$39M"}], lastUpdated: "2026-08-01" },
+  { company: "Relativity Space", opportunityCount: 1, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER.", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA106", "awardAmount": "$225K"}], lastUpdated: "2026-08-01" },
+  { company: "Varda Space", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE", "agency": "Department of Defense", "postedDate": "2025-11-25", "type": null, "noticeId": "FA945326FX002", "awardAmount": "$160K"}], lastUpdated: "2026-08-01" },
 ];
 
 // Auto-updated SBIR/STTR government grant awards
@@ -80810,6 +81026,8 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-07-31
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-08-01
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-08-01
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 120, velocity: "55-65/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 45, velocity: "17-27/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -82037,6 +82255,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-07-31
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-08-01
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-08-01
 const NEWS_FEED = [
   // ─── CURATED (Editorial Analysis) ───
   {
@@ -82073,43 +82293,42 @@ const NEWS_FEED = [
   { id: 5, company: "Safe Superintelligence", headline: "The Week’s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", category: "funding", date: "2026-07-31", summary: "Another week, another bevy of big rounds. The largest round was a reported $5 billion Nvidia-backed financing for foundational AI unicorn Safe Superintelligence, followed by a $1 billion investment in", impact: "high", sector: "General", url: "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/" },
   { id: 6, company: "Earth AI", headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation", source: "TechCrunch", category: "milestone", date: "2026-07-31", summary: "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/" },
   { id: 7, company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", category: "ipo", date: "2026-07-31", summary: "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we discuss rumors of a Tesla/SpaceX merger, Rivian’s earnings, R2 pr", impact: "low", sector: "General", url: "https://electrek.co/2026/07/31/podcast-tesla-spacex-merger-rivian-r2-progress-new-mercedes-gla-and-more/" },
-  { id: 8, company: "SpaceX", headline: "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket", source: "NASA Breaking News", category: "ipo", date: "2026-07-31", summary: "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster. The tests, conducte", impact: "low", sector: "General", url: "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/" },
-  { id: 9, company: "SpaceX", headline: "SpaceX won’t remove all of xAI’s unpermitted turbines for another year", source: "TechCrunch", category: "ipo", date: "2026-07-31", summary: "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/" },
-  { id: 10, company: "SpaceX", headline: "Tesla reportedly might sell its China business ahead of a SpaceX merger", source: "TechCrunch", category: "ipo", date: "2026-07-31", summary: "Tesla had already reportedly prepped for the idea in the event that Beijing invades Taiwan.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/31/tesla-reportedly-might-sell-its-china-business-ahead-of-a-spacex-merger/" },
-  { id: 11, company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", category: "milestone", date: "2026-07-31", summary: "Three Claude models were inadvertently given access to the internet during security evaluations, and each model took a different approach to hacking external systems.", impact: "low", sector: "General", url: "https://www.defenseone.com/business/2026/07/anthropic-confirms-its-ai-breached-3-organizations-during-testing/415159/" },
-  { id: 12, company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis — With No Human Controls", source: "CleanTechnica", category: "contract", date: "2026-07-31", summary: "Looking at the headline, one might think, &#8220;Wait, what? Waymo has been providing paid robotaxi rides in the US for years now.&#8221; Yes, indeed, but those vehicles have included human controls,", impact: "low", sector: "General", url: "https://cleantechnica.com/2026/07/30/zoox-gets-first-us-paid-robotaxi-with-no-human-controls-approval/" },
-  { id: 13, company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", category: "ipo", date: "2026-07-31", summary: "Tesla is looking at cutting loose its China business to clear a path toward a merger with SpaceX, according to a new Wall Street Journal report. If true, it would be a massive deal in the auto industr", impact: "low", sector: "General", url: "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/" },
-  { id: 14, company: "Anthropic", headline: "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests", source: "Wired", category: "milestone", date: "2026-07-31", summary: "In a review triggered by OpenAI’s Hugging Face incident, Anthropic discovered three of its AI models had breached real-world organizations during third-party evaluations.", impact: "low", sector: "General", url: "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/" },
-  { id: 15, company: "Anthropic", headline: "Anthropic says its own AI models breached three companies during security tests", source: "TechCrunch", category: "milestone", date: "2026-07-31", summary: "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/" },
-  { id: 16, company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "Super Micro Computer has a complete Data Center Building Block Solutions® (DCBBS). They have a comprehensive portfolio of racks engineered specifically for mission-critical, high-density AI data cente", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/supermicro-and-dell-with-building-block-data-centers-for-spacex.html" },
-  { id: 17, company: "Anthropic", headline: "Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance", source: "Wired", category: "news", date: "2026-07-30", summary: "Researchers fear AI is moving too fast, while Mark Zuckerberg is worried about who owns it. Plus: Inside Black Forest Labs’ push into robotics.", impact: "low", sector: "General", url: "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/" },
-  { id: 18, company: "SpaceX", headline: "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "FundaAI’s 8 GW framing combined with the latest Minihard/Macrohard details indicate 8GW of SpaceXAI is doable by end of 2027-mid 2028. They indicate the 8 Gigawatts of chips and the 8GW of power are a", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/report-agrees-with-nextbigfuture-on-8-gigawatts-spacex-ai-data-centers-by-2027-2028.html" },
-  { id: 19, company: "K2 Space", headline: "K2 Space raises $500 million for commercial, defense satellite expansion", source: "SpaceNews", category: "funding", date: "2026-07-30", summary: "The Series D more than doubles the satellite manufacturer’s valuation in seven months and will fund a production ramp to as many as 100 large spacecraft a year The post K2 Space raises $500 million f", impact: "medium", sector: "General", url: "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/" },
-  { id: 20, company: "Zoox", headline: "For the First Time, Zoox Can Charge People for Rides in Its Steering-Wheel-Free Robotaxis", source: "Wired", category: "contract", date: "2026-07-30", summary: "The temporary exemption from federal safety standards will let Amazon’s Zoox launch a real, paid robotaxi service in Las Vegas.", impact: "low", sector: "General", url: "https://www.wired.com/story/zoox-becomes-the-first-steering-wheel-free-robotaxi-to-charge-for-rides-in-the-us/" },
-  { id: 21, company: "SpaceX", headline: "Minihard Thesis: Can SpaceX Turn AI Data Centers Into a Production Line?", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "SpaceX is building a new Minihard data center adjacent to Macrohard and Macrohardrr at the Memphis campus. It is the same 220,000 GB300s as Macrohardrr, packed into roughly 25% of the floor area. The", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/minihard-thesis-can-spacex-turn-ai-data-centers-into-a-production-line.html" },
-  { id: 22, company: "SpaceX", headline: "SpaceX Heat Shield System Economics Are Not a Dead End", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "SpaceX can achieve daily flight turnaround even with imperfect tiles. The shuttle&#8217;s problem was not just that the tiles were expensive. But one bad tile would cause loss of the vehicle. SpaceX S", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/spacex-heat-shield-system-economics-are-not-a-dead-end.html" },
-  { id: 23, company: "Scale AI", headline: "inforcer raises $50M Series C to scale AI security platform for MSPs", source: "Tech.eu", category: "funding", date: "2026-07-30", summary: "UK-basedinforcer has raised $50 million in a Series C funding round led by Insight Partners, with participation from existing investors Meritech Capital and Dawn Capital.inforcer develops a unified Mi", impact: "medium", sector: "General", url: "https://tech.eu/2026/07/30/inforcer-raises-50m-series-c-to-scale-ai-security-platform-for-msps/" },
-  { id: 24, company: "Rocket Lab", headline: "Rocket Lab wins another launch contract from Japan’s iQPS", source: "SpaceNews", category: "contract", date: "2026-07-30", summary: "Rocket Lab has won another contract from Japanese radar imaging company iQPS for multiple launches of its Electron rocket. The post Rocket Lab wins another launch contract from Japan’s iQPS appeared", impact: "medium", sector: "General", url: "https://spacenews.com/rocket-lab-wins-another-launch-contract-from-japans-iqps/" },
-  { id: 25, company: "OpenAI", headline: "OpenAI’s Hacking Debacle Comes Down to Human Error", source: "Wired", category: "news", date: "2026-07-30", summary: "If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple companies.", impact: "low", sector: "General", url: "https://www.wired.com/story/openais-hacking-debacle-was-a-human-mistake/" },
-  { id: 26, company: "SpaceX", headline: "SpaceX is Making Improved 220K GPU Modular AI Data Centers", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "SpaceX is making minihard, an improved modular 220K GB300 data center. It will be small building to the right of Macrohard and Macrohardrr. It is the most important thing Elon and SpaceXAI has said ab", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/spacex-is-making-improved-220k-gpu-modular-ai-data-centers.html" },
-  { id: 27, company: "Waymo", headline: "Waymo — New Testing, Uber Fallout, Fine Bonanza", source: "CleanTechnica", category: "milestone", date: "2026-07-29", summary: "With Waymo news this week, we&#8217;ve got &#8220;The Good, The Bad, and The Ugly.&#8221; First of all, the good: Waymo is now testing its Zeekr/Ojai robotaxi van thing in Pittsburgh, Pennsylvania. He", impact: "low", sector: "General", url: "https://cleantechnica.com/2026/07/29/waymo-new-testing-uber-fallout-fine-bonanza/" },
-  { id: 28, company: "SpaceX", headline: "SpaceX wins $1.6 billion in launch orders for military satellite networks", source: "SpaceNews", category: "ipo", date: "2026-07-29", summary: "Falcon 9 will launch satellites supporting missile tracking, targeting and military communications The post SpaceX wins $1.6 billion in launch orders for military satellite networks appeared first on", impact: "high", sector: "General", url: "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/" },
-  { id: 29, company: "SpaceX", headline: "SpaceX Starship Can Make Space AI Win on Cost", source: "Next Big Future", category: "ipo", date: "2026-07-29", summary: "A quantitative model of how Starship&#8217;s cost per kilogram falls as booster life goes from 5 to 30 flights, ship life from 1 to 10, and payload from 100 to 200 tonnes — and why the last flight of", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/spacex-starship-can-make-space-ai-win-on-cost.html" },
-  { id: 30, company: "Waymo", headline: "Waymo adds Google's Gemini AI assistant and new UI to Ojai robotaxi", source: "Electrek", category: "contract", date: "2026-07-29", summary: "Waymo is putting Google’s Gemini AI assistant inside its robotaxis for the first time, alongside the first major redesign of its rider interface in years. Both features are launching in the Ojai, Waym", impact: "low", sector: "General", url: "https://electrek.co/2026/07/29/waymo-gemini-ai-ojai-robotaxi-redesigned-interface/" },
-  { id: 31, company: "Humanoid", headline: "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots", source: "The Robot Report", category: "news", date: "2026-07-29", summary: "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post Experts react to FCC limits on U.S. imports of new humanoid and mobile ro", impact: "low", sector: "General", url: "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/" },
-  { id: 32, company: "Hadrian", headline: "Fortastra and Hadrian join forces to streamline satellite production", source: "SpaceNews", category: "news", date: "2026-07-29", summary: "SAN FRANCISCO – Fortastra, a Los Angeles startup focused on defending on-orbit infrastructure, is working with manufacturing specialist Hadrian to explore ways to apply precision machining and additi", impact: "low", sector: "General", url: "https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/" },
-  { id: 33, company: "ispace", headline: "H3 to launch next ispace lunar lander mission", source: "SpaceNews", category: "ipo", date: "2026-07-29", summary: "Japanese lunar lander developer ispace has selected the H3 rocket to launch its next mission in 2028, creating what the companies called Japan’s first private lunar transportation system. The post H3", impact: "low", sector: "General", url: "https://spacenews.com/h3-to-launch-next-ispace-lunar-lander-mission/" },
-  { id: 34, company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", category: "news", date: "2026-07-28", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/" },
-  { id: 35, company: "Humanoid", headline: "How integrated actuators improve humanoid robot joint performance and system integration", source: "The Robot Report", category: "partnership", date: "2026-07-28", summary: "Humanoid robots have become an important area of research in robotics, attracting attention from universities, research institutions, and technology companies. The post How integrated actuators improv", impact: "low", sector: "General", url: "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/" },
-  { id: 36, company: "Scale AI", headline: "Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy", source: "Tech.eu", category: "funding", date: "2026-07-28", summary: "London-based AIwaste intelligence company Greyparrot has raised $27 million in Series Bfunding, bringing its total funding to $60 million. The round was led bytechnology investor Omar Mir and comes af", impact: "medium", sector: "General", url: "https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/" },
-  { id: 37, company: "OpenAI", headline: "The Download: OpenAI's predictable hack, and an AI stock sell-off", source: "MIT Tech Review", category: "news", date: "2026-07-28", summary: "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI called the Hugging Face attack unprecedente", impact: "low", sector: "General", url: "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/" },
-  { id: 38, company: "Deterrence", headline: "French wildfires threaten nuclear deterrence industry, Rafale assembly", source: "Defense News", category: "news", date: "2026-07-28", summary: "Wildfires raging west of the French city of Bordeaux are threatening a number of France’s key defense-industrial sites.", impact: "low", sector: "General", url: "https://www.defensenews.com/global/europe/2026/07/28/french-wildfires-threaten-nuclear-deterrence-industry-rafale-assembly/" },
-  { id: 39, company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", category: "news", date: "2026-07-25", summary: "Waymo’s autonomous electric taxis crash 68% less than the average human driver, according to the Insurance Institute for Highway Safety, with lower-severity crashes on average as well. But there are s", impact: "low", sector: "General", url: "https://electrek.co/2026/07/25/waymo-is-2-3-safer-than-a-human-driver-says-iihs-with-some-caveats/" },
-  { id: 40, company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", category: "ipo", date: "2026-07-25", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/" },
-  { id: 41, company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", category: "funding", date: "2026-07-07", summary: "", impact: "low", sector: "General", url: "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m" },
-  { id: 42, company: "Deterrence", headline: "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence", source: "War on the Rocks", category: "news", date: "2026-06-29", summary: "During the Cold War, Europe kept asking whether Washington would risk an American city to save a European one. It was an impolite question, but a useful one, which is why it never quite left the room.", impact: "low", sector: "General", url: "https://warontherocks.com/a-new-force-posture-concept-for-europeanizing-extended-nuclear-deterrence/" },
-  { id: 43, company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", category: "news", date: "2026-06-26", summary: "Nuclear policy debates are at their best when they force hard questions about risk, deterrence, and military necessity. They are at their worst when disagreement is recast as bad faith. In 2018, as an", impact: "low", sector: "General", url: "https://warontherocks.com/not-imaginary-the-deterrence-gap-is-real-and-america-needs-low-yield-nukes/" },
-  { id: 44, company: "AbCellera", headline: "Vertex’s latest autoimmune TCE play involves $28M upfront to AbCellera", source: "FierceBiotech", category: "milestone", date: "", summary: "AbCellera’s T-cell engager platform has reeled in a second client this summer, with Vertex paying $28 million upfront for a collaboration that will include autoimmune conditions.", impact: "low", sector: "General", url: "https://www.fiercebiotech.com/biotech/vertexs-latest-autoimmune-tce-play-involves-28m-upfront-abcellera" },
+  { id: 8, company: "SpaceX", headline: "SpaceX won’t remove all of xAI’s unpermitted turbines for another year", source: "TechCrunch", category: "ipo", date: "2026-07-31", summary: "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/" },
+  { id: 9, company: "SpaceX", headline: "Tesla reportedly might sell its China business ahead of a SpaceX merger", source: "TechCrunch", category: "ipo", date: "2026-07-31", summary: "Tesla had already reportedly prepped for the idea in the event that Beijing invades Taiwan.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/31/tesla-reportedly-might-sell-its-china-business-ahead-of-a-spacex-merger/" },
+  { id: 10, company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", category: "milestone", date: "2026-07-31", summary: "Three Claude models were inadvertently given access to the internet during security evaluations, and each model took a different approach to hacking external systems.", impact: "low", sector: "General", url: "https://www.defenseone.com/business/2026/07/anthropic-confirms-its-ai-breached-3-organizations-during-testing/415159/" },
+  { id: 11, company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis — With No Human Controls", source: "CleanTechnica", category: "contract", date: "2026-07-31", summary: "Looking at the headline, one might think, &#8220;Wait, what? Waymo has been providing paid robotaxi rides in the US for years now.&#8221; Yes, indeed, but those vehicles have included human controls,", impact: "low", sector: "General", url: "https://cleantechnica.com/2026/07/30/zoox-gets-first-us-paid-robotaxi-with-no-human-controls-approval/" },
+  { id: 12, company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", category: "ipo", date: "2026-07-31", summary: "Tesla is looking at cutting loose its China business to clear a path toward a merger with SpaceX, according to a new Wall Street Journal report. If true, it would be a massive deal in the auto industr", impact: "low", sector: "General", url: "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/" },
+  { id: 13, company: "Anthropic", headline: "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests", source: "Wired", category: "milestone", date: "2026-07-31", summary: "In a review triggered by OpenAI’s Hugging Face incident, Anthropic discovered three of its AI models had breached real-world organizations during third-party evaluations.", impact: "low", sector: "General", url: "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/" },
+  { id: 14, company: "Anthropic", headline: "Anthropic says its own AI models breached three companies during security tests", source: "TechCrunch", category: "milestone", date: "2026-07-31", summary: "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/" },
+  { id: 15, company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "Super Micro Computer has a complete Data Center Building Block Solutions® (DCBBS). They have a comprehensive portfolio of racks engineered specifically for mission-critical, high-density AI data cente", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/supermicro-and-dell-with-building-block-data-centers-for-spacex.html" },
+  { id: 16, company: "Anthropic", headline: "Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance", source: "Wired", category: "news", date: "2026-07-30", summary: "Researchers fear AI is moving too fast, while Mark Zuckerberg is worried about who owns it. Plus: Inside Black Forest Labs’ push into robotics.", impact: "low", sector: "General", url: "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/" },
+  { id: 17, company: "SpaceX", headline: "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "FundaAI’s 8 GW framing combined with the latest Minihard/Macrohard details indicate 8GW of SpaceXAI is doable by end of 2027-mid 2028. They indicate the 8 Gigawatts of chips and the 8GW of power are a", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/report-agrees-with-nextbigfuture-on-8-gigawatts-spacex-ai-data-centers-by-2027-2028.html" },
+  { id: 18, company: "K2 Space", headline: "K2 Space raises $500 million for commercial, defense satellite expansion", source: "SpaceNews", category: "funding", date: "2026-07-30", summary: "The Series D more than doubles the satellite manufacturer’s valuation in seven months and will fund a production ramp to as many as 100 large spacecraft a year The post K2 Space raises $500 million f", impact: "medium", sector: "General", url: "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/" },
+  { id: 19, company: "Zoox", headline: "For the First Time, Zoox Can Charge People for Rides in Its Steering-Wheel-Free Robotaxis", source: "Wired", category: "contract", date: "2026-07-30", summary: "The temporary exemption from federal safety standards will let Amazon’s Zoox launch a real, paid robotaxi service in Las Vegas.", impact: "low", sector: "General", url: "https://www.wired.com/story/zoox-becomes-the-first-steering-wheel-free-robotaxi-to-charge-for-rides-in-the-us/" },
+  { id: 20, company: "SpaceX", headline: "Minihard Thesis: Can SpaceX Turn AI Data Centers Into a Production Line?", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "SpaceX is building a new Minihard data center adjacent to Macrohard and Macrohardrr at the Memphis campus. It is the same 220,000 GB300s as Macrohardrr, packed into roughly 25% of the floor area. The", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/minihard-thesis-can-spacex-turn-ai-data-centers-into-a-production-line.html" },
+  { id: 21, company: "SpaceX", headline: "SpaceX Heat Shield System Economics Are Not a Dead End", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "SpaceX can achieve daily flight turnaround even with imperfect tiles. The shuttle&#8217;s problem was not just that the tiles were expensive. But one bad tile would cause loss of the vehicle. SpaceX S", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/spacex-heat-shield-system-economics-are-not-a-dead-end.html" },
+  { id: 22, company: "Scale AI", headline: "inforcer raises $50M Series C to scale AI security platform for MSPs", source: "Tech.eu", category: "funding", date: "2026-07-30", summary: "UK-basedinforcer has raised $50 million in a Series C funding round led by Insight Partners, with participation from existing investors Meritech Capital and Dawn Capital.inforcer develops a unified Mi", impact: "medium", sector: "General", url: "https://tech.eu/2026/07/30/inforcer-raises-50m-series-c-to-scale-ai-security-platform-for-msps/" },
+  { id: 23, company: "Rocket Lab", headline: "Rocket Lab wins another launch contract from Japan’s iQPS", source: "SpaceNews", category: "contract", date: "2026-07-30", summary: "Rocket Lab has won another contract from Japanese radar imaging company iQPS for multiple launches of its Electron rocket. The post Rocket Lab wins another launch contract from Japan’s iQPS appeared", impact: "medium", sector: "General", url: "https://spacenews.com/rocket-lab-wins-another-launch-contract-from-japans-iqps/" },
+  { id: 24, company: "OpenAI", headline: "OpenAI’s Hacking Debacle Comes Down to Human Error", source: "Wired", category: "news", date: "2026-07-30", summary: "If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple companies.", impact: "low", sector: "General", url: "https://www.wired.com/story/openais-hacking-debacle-was-a-human-mistake/" },
+  { id: 25, company: "SpaceX", headline: "SpaceX is Making Improved 220K GPU Modular AI Data Centers", source: "Next Big Future", category: "ipo", date: "2026-07-30", summary: "SpaceX is making minihard, an improved modular 220K GB300 data center. It will be small building to the right of Macrohard and Macrohardrr. It is the most important thing Elon and SpaceXAI has said ab", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/spacex-is-making-improved-220k-gpu-modular-ai-data-centers.html" },
+  { id: 26, company: "Waymo", headline: "Waymo — New Testing, Uber Fallout, Fine Bonanza", source: "CleanTechnica", category: "milestone", date: "2026-07-29", summary: "With Waymo news this week, we&#8217;ve got &#8220;The Good, The Bad, and The Ugly.&#8221; First of all, the good: Waymo is now testing its Zeekr/Ojai robotaxi van thing in Pittsburgh, Pennsylvania. He", impact: "low", sector: "General", url: "https://cleantechnica.com/2026/07/29/waymo-new-testing-uber-fallout-fine-bonanza/" },
+  { id: 27, company: "SpaceX", headline: "SpaceX wins $1.6 billion in launch orders for military satellite networks", source: "SpaceNews", category: "ipo", date: "2026-07-29", summary: "Falcon 9 will launch satellites supporting missile tracking, targeting and military communications The post SpaceX wins $1.6 billion in launch orders for military satellite networks appeared first on", impact: "high", sector: "General", url: "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/" },
+  { id: 28, company: "SpaceX", headline: "SpaceX Starship Can Make Space AI Win on Cost", source: "Next Big Future", category: "ipo", date: "2026-07-29", summary: "A quantitative model of how Starship&#8217;s cost per kilogram falls as booster life goes from 5 to 30 flights, ship life from 1 to 10, and payload from 100 to 200 tonnes — and why the last flight of", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/07/spacex-starship-can-make-space-ai-win-on-cost.html" },
+  { id: 29, company: "Waymo", headline: "Waymo adds Google's Gemini AI assistant and new UI to Ojai robotaxi", source: "Electrek", category: "contract", date: "2026-07-29", summary: "Waymo is putting Google’s Gemini AI assistant inside its robotaxis for the first time, alongside the first major redesign of its rider interface in years. Both features are launching in the Ojai, Waym", impact: "low", sector: "General", url: "https://electrek.co/2026/07/29/waymo-gemini-ai-ojai-robotaxi-redesigned-interface/" },
+  { id: 30, company: "Humanoid", headline: "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots", source: "The Robot Report", category: "news", date: "2026-07-29", summary: "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post Experts react to FCC limits on U.S. imports of new humanoid and mobile ro", impact: "low", sector: "General", url: "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/" },
+  { id: 31, company: "Hadrian", headline: "Fortastra and Hadrian join forces to streamline satellite production", source: "SpaceNews", category: "news", date: "2026-07-29", summary: "SAN FRANCISCO – Fortastra, a Los Angeles startup focused on defending on-orbit infrastructure, is working with manufacturing specialist Hadrian to explore ways to apply precision machining and additi", impact: "low", sector: "General", url: "https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/" },
+  { id: 32, company: "ispace", headline: "H3 to launch next ispace lunar lander mission", source: "SpaceNews", category: "ipo", date: "2026-07-29", summary: "Japanese lunar lander developer ispace has selected the H3 rocket to launch its next mission in 2028, creating what the companies called Japan’s first private lunar transportation system. The post H3", impact: "low", sector: "General", url: "https://spacenews.com/h3-to-launch-next-ispace-lunar-lander-mission/" },
+  { id: 33, company: "OpenAI", headline: "We now have a better understanding how OpenAI hacked into Hugging Face", source: "Ars Technica", category: "news", date: "2026-07-28", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/" },
+  { id: 34, company: "Humanoid", headline: "How integrated actuators improve humanoid robot joint performance and system integration", source: "The Robot Report", category: "partnership", date: "2026-07-28", summary: "Humanoid robots have become an important area of research in robotics, attracting attention from universities, research institutions, and technology companies. The post How integrated actuators improv", impact: "low", sector: "General", url: "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/" },
+  { id: 35, company: "Scale AI", headline: "Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy", source: "Tech.eu", category: "funding", date: "2026-07-28", summary: "London-based AIwaste intelligence company Greyparrot has raised $27 million in Series Bfunding, bringing its total funding to $60 million. The round was led bytechnology investor Omar Mir and comes af", impact: "medium", sector: "General", url: "https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/" },
+  { id: 36, company: "OpenAI", headline: "The Download: OpenAI's predictable hack, and an AI stock sell-off", source: "MIT Tech Review", category: "news", date: "2026-07-28", summary: "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI called the Hugging Face attack unprecedente", impact: "low", sector: "General", url: "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/" },
+  { id: 37, company: "Deterrence", headline: "French wildfires threaten nuclear deterrence industry, Rafale assembly", source: "Defense News", category: "news", date: "2026-07-28", summary: "Wildfires raging west of the French city of Bordeaux are threatening a number of France’s key defense-industrial sites.", impact: "low", sector: "General", url: "https://www.defensenews.com/global/europe/2026/07/28/french-wildfires-threaten-nuclear-deterrence-industry-rafale-assembly/" },
+  { id: 38, company: "Waymo", headline: "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats", source: "Electrek", category: "news", date: "2026-07-25", summary: "Waymo’s autonomous electric taxis crash 68% less than the average human driver, according to the Insurance Institute for Highway Safety, with lower-severity crashes on average as well. But there are s", impact: "low", sector: "General", url: "https://electrek.co/2026/07/25/waymo-is-2-3-safer-than-a-human-driver-says-iihs-with-some-caveats/" },
+  { id: 39, company: "SpaceX", headline: "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight", source: "Ars Technica Space", category: "ipo", date: "2026-07-25", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/" },
+  { id: 40, company: "Quaise Energy", headline: "Quaise Energy raises $134M to fuel superhot geothermal ambitions", source: "Canary Media", category: "funding", date: "2026-07-07", summary: "", impact: "low", sector: "General", url: "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m" },
+  { id: 41, company: "Deterrence", headline: "A New Force Posture Concept for Europeanizing Extended Nuclear Deterrence", source: "War on the Rocks", category: "news", date: "2026-06-29", summary: "During the Cold War, Europe kept asking whether Washington would risk an American city to save a European one. It was an impolite question, but a useful one, which is why it never quite left the room.", impact: "low", sector: "General", url: "https://warontherocks.com/a-new-force-posture-concept-for-europeanizing-extended-nuclear-deterrence/" },
+  { id: 42, company: "Deterrence", headline: "Not Imaginary: The Deterrence Gap is Real and America Needs Low-Yield Nukes", source: "War on the Rocks", category: "news", date: "2026-06-26", summary: "Nuclear policy debates are at their best when they force hard questions about risk, deterrence, and military necessity. They are at their worst when disagreement is recast as bad faith. In 2018, as an", impact: "low", sector: "General", url: "https://warontherocks.com/not-imaginary-the-deterrence-gap-is-real-and-america-needs-low-yield-nukes/" },
+  { id: 43, company: "AbCellera", headline: "Vertex’s latest autoimmune TCE play involves $28M upfront to AbCellera", source: "FierceBiotech", category: "milestone", date: "", summary: "AbCellera’s T-cell engager platform has reeled in a second client this summer, with Vertex paying $28 million upfront for a collaboration that will include autoimmune conditions.", impact: "low", sector: "General", url: "https://www.fiercebiotech.com/biotech/vertexs-latest-autoimmune-tce-play-involves-28m-upfront-abcellera" },
 ];
 
 const STORY_LEADS = [
@@ -84661,21 +84880,23 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-08-01 09:11
+// Auto-generated real-time signals
+// Last updated: 2026-08-01
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX's Falcon 9 Rocket Is About to Crash Into the Moon'and It Could Be Visible From Earth", source: "Wired", time: "9h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth", source: "Wired", time: "9h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "OpenAI", headline: "OpenAI reportedly finds evidence that more of its agents ran amok", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "12h ago", impact: "high", unread: true },
+  { id: 3, type: "funding", company: "Safe Superintelligence", headline: "The Week’s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "12h ago", impact: "high", unread: true },
   { id: 4, type: "milestone", company: "Earth AI", headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX won't remove all of xAI's unpermitted turbines for another year", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX won’t remove all of xAI’s unpermitted turbines for another year", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "SpaceX", headline: "Tesla reportedly might sell its China business ahead of a SpaceX merger", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
   { id: 8, type: "funding", company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", time: "19h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis — With No Human Controls", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "funding", company: "Anthropic", headline: "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "milestone", company: "Anthropic", headline: "Anthropic says its own AI models breached three companies during security tests", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Anthropic", headline: "Everyone Is Freaking Out About OpenAI and Anthropic's Race for Dominance", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 15, type: "ipo", company: "SpaceX", headline: "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
 
@@ -85290,6 +85511,8 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-07-31
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-08-01
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-08-01
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -85874,6 +86097,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-07-31
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-07-31
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-08-01
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-08-01
 const CONTRACTOR_READINESS = [

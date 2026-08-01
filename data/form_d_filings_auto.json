@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-07-31T10:02:03.201138+00:00",
+  "generated_at": "2026-08-01T09:20:52.417560+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
   "total_filings": 15,
   "filings": [
+    {
+      "company": "Sila Nanotechnologies",
+      "issuer_name": "Sila Nanotechnologies, Inc",
+      "form": "D",
+      "filed_date": "2026-07-31",
+      "cik": "1530888",
+      "accession": "0001530888-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001530888&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001530888-26-000001",
+      "offering_amount": "561339205",
+      "amount_sold": "309648707",
+      "amount_remaining": "251690498",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "company": "Core Automation",
       "issuer_name": "Core Automation, Inc",
@@ -238,23 +255,6 @@
       "amount_sold": "46900000",
       "amount_remaining": "8100000",
       "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Peak Energy",
-      "issuer_name": "Peak Energy Capital LP",
-      "form": "D",
-      "filed_date": "2026-07-21",
-      "cik": "1694447",
-      "accession": "0001694447-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001694447&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001694447-26-000003",
-      "offering_amount": "Indefinite",
-      "amount_sold": "135597266",
-      "amount_remaining": "Indefinite",
-      "securities_type": "",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false

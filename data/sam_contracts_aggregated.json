@@ -50,7 +50,7 @@
         "awardAmount": "$62M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Palantir",
@@ -63,7 +63,6 @@
       "Department of State",
       "Department of Veterans Affairs",
       "Department of the Treasury",
-      "National Aeronautics and Space Administration",
       "U.S. International Development Finance Corporation"
     ],
     "types": [],
@@ -109,7 +108,7 @@
         "awardAmount": "$90M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Skydio",
@@ -163,7 +162,7 @@
         "awardAmount": "$73K"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Radiant",
@@ -219,12 +218,13 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Shield AI",
-    "opportunityCount": 7,
+    "opportunityCount": 8,
     "agencies": [
+      "Department of Defense",
       "Department of Homeland Security"
     ],
     "types": [],
@@ -236,6 +236,14 @@
         "type": null,
         "noticeId": "70Z02326F93130005",
         "awardAmount": "$16M"
+      },
+      {
+        "title": "V-BAT VTOL UNMANNED AIRCRAFT",
+        "agency": "Department of Defense",
+        "postedDate": "2025-09-03",
+        "type": null,
+        "noticeId": "N0001925F0971",
+        "awardAmount": "$11M"
       },
       {
         "title": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION.",
@@ -260,17 +268,9 @@
         "type": null,
         "noticeId": "70Z02326F93130007",
         "awardAmount": "$5M"
-      },
-      {
-        "title": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS.",
-        "agency": "Department of Homeland Security",
-        "postedDate": "2026-02-11",
-        "type": null,
-        "noticeId": "70Z02326F93130004",
-        "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Sierra Space",
@@ -322,7 +322,7 @@
         "awardAmount": "$43K"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Axiom Space",
@@ -338,7 +338,7 @@
         "postedDate": "2022-09-08",
         "type": null,
         "noticeId": "80JSC022FA103",
-        "awardAmount": "$392M"
+        "awardAmount": "$414M"
       },
       {
         "title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION",
@@ -365,7 +365,7 @@
         "awardAmount": "$9M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Rocket Lab",
@@ -400,7 +400,7 @@
         "awardAmount": "$391K"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Planet Labs",
@@ -437,7 +437,7 @@
         "awardAmount": "$60K"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Scale AI",
@@ -472,7 +472,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Castelion",
@@ -499,7 +499,7 @@
         "awardAmount": "$1M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "BlackSky",
@@ -526,7 +526,7 @@
         "awardAmount": "$3M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Vannevar Labs",
@@ -545,7 +545,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Hadrian",
@@ -564,7 +564,7 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Relativity Space",
@@ -583,7 +583,7 @@
         "awardAmount": "$225K"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "company": "Varda Space",
@@ -602,6 +602,6 @@
         "awardAmount": "$160K"
       }
     ],
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   }
 ]
