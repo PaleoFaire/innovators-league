@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-08-01T09:12:30+00:00",
+  "generatedAt": "2026-08-01T11:24:39+00:00",
   "matrix": {
+    "battery-materials": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 309648707,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Sila Nanotechnologies",
+            "amount": 309648707,
+            "date": "2026-07-31",
+            "source": "formd",
+            "investors": [
+              "Sutter Hill Ventures",
+              "T. Rowe Price Associates",
+              "Bessemer Venture Partners",
+              "Coatue",
+              "Perry Creek Capital"
+            ]
+          }
+        ],
+        "investors": [
+          "Bessemer Venture Partners"
+        ]
+      }
+    },
     "continual-learning-ai": {
       "2026-Q3": {
         "deals": 1,
@@ -1510,6 +1535,32 @@
     }
   },
   "vcAttribution": {
+    "Bessemer Venture Partners": {
+      "2026-Q3": [
+        {
+          "company": "Sila Nanotechnologies",
+          "cluster": "battery-materials",
+          "date": "2026-07-31",
+          "source": "formd"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Boom Supersonic",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Caffeinated Capital": {
       "2026-Q3": [
         {
@@ -1804,24 +1855,6 @@
         }
       ]
     },
-    "Bessemer Venture Partners": {
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Boom Supersonic",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Playground Global": {
       "2025-Q2": [
         {
@@ -1996,9 +2029,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 60,
-    "totalUSDSold": 540062435,
-    "uniqueClusters": 38,
+    "totalDealsTracked": 61,
+    "totalUSDSold": 849711142,
+    "uniqueClusters": 39,
     "uniqueQuarters": 9,
     "uniqueVCs": 17,
     "quarterRange": [

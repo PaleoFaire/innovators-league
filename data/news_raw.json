@@ -1,5 +1,25 @@
 [
   {
+    "title": "Nobody Knows if OpenAI’s and Anthropic’s AI Hacking Sprees Are Illegal",
+    "link": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
+    "description": "Both major AI labs’ models broke containment, escaped onto the internet, and hacked other companies. If a human had done that, the law would likely be against them. But a bot?",
+    "pubDate": "Sat, 01 Aug 2026 09:30:00 +0000",
+    "category": "Security",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth",
     "link": "https://www.wired.com/story/spacex-falcon-9-rocket-crash-into-moon/",
     "description": "The impact will kick up a plume of debris so high, it’ll likely be visible through some telescopes. Astronomers will be watching.",
@@ -16,7 +36,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
@@ -36,7 +56,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "12h ago"
   },
   {
     "title": "The Week’s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
@@ -57,7 +77,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "12h ago"
+    "time": "15h ago"
   },
   {
     "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
@@ -76,7 +96,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more",
@@ -101,7 +121,30 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
+  },
+  {
+    "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+    "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
+    "description": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster. The tests, conducted at NASA’s Ames Research Center in California’s Silicon Valley, focused on better understanding the",
+    "pubDate": "Fri, 31 Jul 2026 18:39:47 +0000",
+    "category": "Human Landing System Program",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Dust",
+      "ICON"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "housing"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "16h ago"
   },
   {
     "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
@@ -122,7 +165,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
+    "time": "20h ago"
   },
   {
     "title": "Tesla reportedly might sell its China business ahead of a SpaceX merger",
@@ -141,7 +184,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
   },
   {
     "title": "Anthropic confirms its AI breached 3 organizations during testing",
@@ -167,7 +210,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
   },
   {
     "title": "Zoox Gets 1st Approval From USA For Paid Robotaxis — With No Human Controls",
@@ -455,31 +498,6 @@
       "space"
     ],
     "type": "contract",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI’s Hacking Debacle Comes Down to Human Error",
-    "link": "https://www.wired.com/story/openais-hacking-debacle-was-a-human-mistake/",
-    "description": "If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple companies.",
-    "pubDate": "Thu, 30 Jul 2026 10:30:00 +0000",
-    "category": "Security",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Cape",
-      "Percepto",
-      "ideaForge",
-      "Labelbox"
-    ],
-    "sectors": [
-      "ai",
-      "climate",
-      "autonomous"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "1d ago"
   },
