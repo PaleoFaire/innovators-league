@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.11,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.11,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -0.05,
+      "avg_change": 0.62,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -1.98,
+      "avg_change": -1.65,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 2.59,
+      "avg_change": 0.87,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.12,
+      "avg_change": 1.91,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.11,
+      "avg_change": 5.54,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.32,
+      "avg_change": 3.1,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -1.29,
+      "avg_change": -2.25,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.87,
+      "avg_change": -1.66,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      12.62
-    ],
-    [
       "IONQ",
       "IonQ",
-      11.27
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      7.67
+      10.96
     ],
     [
       "AUR",
       "Aurora Innovation",
-      7.65
+      8.4
     ],
     [
       "QS",
       "QuantumScape",
-      7.16
+      6.86
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      6.74
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      5.8
     ]
   ],
   "topLosers": [
     [
-      "9348.T",
-      "ispace",
-      -3.34
+      "RIVN",
+      "Rivian",
+      -3.91
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -4.76
+      -4.49
     ],
     [
       "AMD",
       "AMD",
-      -7.23
+      -8.77
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -9.42
+      -10.14
     ],
     [
       "DRSHF",
       "DroneShield",
-      -18.12
+      -15.44
     ]
   ],
-  "lastUpdated": "2026-07-31 19:39:27"
+  "lastUpdated": "2026-08-01 03:17:41"
 }
