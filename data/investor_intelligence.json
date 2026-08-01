@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-01T06:37:39+00:00",
+  "generatedAt": "2026-08-01T09:12:28+00:00",
   "stats": {
     "companies": 978,
     "vcFirms": 27,
-    "uniqueClusters": 135,
-    "totalInvestments": 381
+    "uniqueClusters": 132,
+    "totalInvestments": 353
   },
   "concentration": {
     "General Catalyst": {
@@ -1926,146 +1926,6 @@
         ]
       }
     },
-    "Breakthrough Energy Ventures": {
-      "synfuels-solar": {
-        "count": 1,
-        "companies": [
-          "Terraform Industries"
-        ]
-      },
-      "fusion-magnetic-confinement": {
-        "count": 2,
-        "companies": [
-          "Commonwealth Fusion Systems",
-          "Type One Energy"
-        ]
-      },
-      "geothermal-next-gen": {
-        "count": 1,
-        "companies": [
-          "Fervo Energy"
-        ]
-      },
-      "fusion-inertial-laser": {
-        "count": 2,
-        "companies": [
-          "Xcimer Energy",
-          "Pacific Fusion"
-        ]
-      },
-      "satellite-earth-observation": {
-        "count": 1,
-        "companies": [
-          "Albedo"
-        ]
-      },
-      "orbital-data-centers": {
-        "count": 1,
-        "companies": [
-          "Cowboy Space Corporation"
-        ]
-      },
-      "battery-advanced-chemistry": {
-        "count": 1,
-        "companies": [
-          "Form Energy"
-        ]
-      },
-      "cement-green": {
-        "count": 1,
-        "companies": [
-          "Brimstone"
-        ]
-      },
-      "green-steel-metals": {
-        "count": 1,
-        "companies": [
-          "Boston Metal"
-        ]
-      },
-      "space-launch-large": {
-        "count": 1,
-        "companies": [
-          "Stoke Space"
-        ]
-      },
-      "carbon-capture-dac": {
-        "count": 1,
-        "companies": [
-          "Heirloom Carbon"
-        ]
-      },
-      "ai-mineral-exploration": {
-        "count": 2,
-        "companies": [
-          "KoBold Metals",
-          "Mariana Minerals"
-        ]
-      },
-      "battery-infrastructure": {
-        "count": 2,
-        "companies": [
-          "Redwood Materials",
-          "WeaveGrid"
-        ]
-      },
-      "maritime-electric-transport": {
-        "count": 1,
-        "companies": [
-          "FleetZero"
-        ]
-      },
-      "electrolysis-green-hydrogen": {
-        "count": 2,
-        "companies": [
-          "ZeroAvia",
-          "Electric Hydrogen"
-        ]
-      },
-      "carbon-capture-utilization": {
-        "count": 2,
-        "companies": [
-          "CarbonCure Technologies",
-          "Graphyte"
-        ]
-      },
-      "energy-storage-thermal-gravity": {
-        "count": 1,
-        "companies": [
-          "Fourth Power"
-        ]
-      },
-      "semiconductor-advanced-materials": {
-        "count": 1,
-        "companies": [
-          "Gallox Semiconductors"
-        ]
-      },
-      "industrial-decarb": {
-        "count": 1,
-        "companies": [
-          "Electra"
-        ]
-      },
-      "critical-minerals": {
-        "count": 1,
-        "companies": [
-          "Lilac Solutions"
-        ]
-      },
-      "direct-air-capture": {
-        "count": 1,
-        "companies": [
-          "Mission Zero Technologies"
-        ]
-      },
-      "thermal-storage": {
-        "count": 1,
-        "companies": [
-          "Rondo Energy"
-        ]
-      }
-    },
     "Cantos Ventures": {
       "carbon-capture-utilization": {
         "count": 1,
@@ -2219,27 +2079,22 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Bessemer Venture Partners",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Playground Global",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "ai-saas-enterprise": [
@@ -2327,27 +2182,27 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.1429
+        "share": 0.1667
       },
       {
         "vc": "Engine Ventures",
         "count": 1,
-        "share": 0.1429
+        "share": 0.1667
       },
       {
         "vc": "In-Q-Tel",
         "count": 1,
-        "share": 0.1429
+        "share": 0.1667
       },
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.1429
+        "share": 0.1667
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.1429
+        "share": 0.1667
       }
     ],
     "construction-modular": [
@@ -2442,27 +2297,22 @@
       {
         "vc": "Lowercarbon Capital",
         "count": 2,
-        "share": 0.2857
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 2,
-        "share": 0.2857
+        "share": 0.4
       },
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.1429
+        "share": 0.2
       },
       {
         "vc": "Lightspeed Venture Partners",
         "count": 1,
-        "share": 0.1429
+        "share": 0.2
       },
       {
         "vc": "Prime Movers Lab",
         "count": 1,
-        "share": 0.1429
+        "share": 0.2
       }
     ],
     "ai-drug-discovery": [
@@ -2496,27 +2346,22 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Shield Capital",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "robotics-cobots-warehouse": [
@@ -2550,17 +2395,12 @@
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "ai-semiconductor-architecture": [
@@ -2624,27 +2464,27 @@
       {
         "vc": "Engine Ventures",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       },
       {
         "vc": "Point72 Ventures",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       },
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       },
       {
         "vc": "Riot Ventures",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.1667
+        "share": 0.2
       }
     ],
     "ai-national-security": [
@@ -2724,27 +2564,22 @@
       {
         "vc": "Point72 Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Eclipse Ventures",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "autonomy-maritime": [
@@ -3135,80 +2970,55 @@
       {
         "vc": "Lowercarbon Capital",
         "count": 2,
-        "share": 0.4
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 2,
-        "share": 0.4
+        "share": 0.6667
       },
       {
         "vc": "Cantos Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.3333
       }
     ],
     "green-steel-metals": [
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "carbon-capture-dac": [
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.5
+        "share": 1.0
       }
     ],
     "cement-green": [
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "fusion-magnetic-confinement": [
       {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 2,
-        "share": 0.5
-      },
-      {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.25
+        "share": 0.5
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.25
+        "share": 0.5
       }
     ],
     "biotech-lab-automation": [
@@ -3247,24 +3057,19 @@
     ],
     "ai-mineral-exploration": [
       {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 2,
-        "share": 0.4
-      },
-      {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.3333
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.3333
       },
       {
         "vc": "Cantos Ventures",
         "count": 1,
-        "share": 0.2
+        "share": 0.3333
       }
     ],
     "space-based-power": [
@@ -3290,29 +3095,19 @@
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "critical-minerals": [
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.5
+        "share": 1.0
       }
     ],
     "ecosystem-restoration": [
@@ -3333,12 +3128,7 @@
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.5
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.5
+        "share": 1.0
       }
     ],
     "stellarator-fusion": [
@@ -3615,29 +3405,24 @@
     ],
     "battery-infrastructure": [
       {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 2,
-        "share": 0.3333
-      },
-      {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.1667
+        "share": 0.25
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.1667
+        "share": 0.25
       },
       {
         "vc": "Lightspeed Venture Partners",
         "count": 1,
-        "share": 0.1667
+        "share": 0.25
       },
       {
         "vc": "Thrive Capital Management, LLC",
         "count": 1,
-        "share": 0.1667
+        "share": 0.25
       }
     ],
     "counter-uas-kinetic": [
@@ -3740,14 +3525,9 @@
     ],
     "electrolysis-green-hydrogen": [
       {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 2,
-        "share": 0.6667
-      },
-      {
         "vc": "Riot Ventures",
         "count": 1,
-        "share": 0.3333
+        "share": 1.0
       }
     ],
     "commercial-robotics": [
@@ -3806,17 +3586,12 @@
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Harpoon Ventures",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "medical-devices-surgical": [
@@ -3907,27 +3682,6 @@
     "mrna-therapeutics": [
       {
         "vc": "Playground Global",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "orbital-data-centers": [
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "battery-advanced-chemistry": [
-      {
-        "vc": "Breakthrough Energy Ventures",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "thermal-storage": [
-      {
-        "vc": "Breakthrough Energy Ventures",
         "count": 1,
         "share": 1.0
       }
@@ -4128,40 +3882,6 @@
         {
           "company": "Pyka",
           "cluster": "autonomous-aviation",
-          "addedDate": "2026-03"
-        }
-      ]
-    },
-    {
-      "vc": "Breakthrough Energy Ventures",
-      "recentCount": 27,
-      "totalCount": 28,
-      "score": 24.328,
-      "topCluster": "fusion-magnetic-confinement",
-      "recentExamples": [
-        {
-          "company": "Rondo Energy",
-          "cluster": "thermal-storage",
-          "addedDate": "2026-06-04 refresh"
-        },
-        {
-          "company": "Cowboy Space Corporation",
-          "cluster": "orbital-data-centers",
-          "addedDate": "2026-06"
-        },
-        {
-          "company": "Mission Zero Technologies",
-          "cluster": "direct-air-capture",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Type One Energy",
-          "cluster": "fusion-magnetic-confinement",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Albedo",
-          "cluster": "satellite-earth-observation",
           "addedDate": "2026-03"
         }
       ]
@@ -5030,15 +4750,7 @@
       "investmentCount": 8
     },
     {
-      "cluster": "semiconductor-advanced-materials",
-      "investmentCount": 7
-    },
-    {
       "cluster": "ai-autonomous-driving",
-      "investmentCount": 7
-    },
-    {
-      "cluster": "fusion-inertial-laser",
       "investmentCount": 7
     },
     {
@@ -5058,7 +4770,7 @@
       "investmentCount": 6
     },
     {
-      "cluster": "geothermal-next-gen",
+      "cluster": "semiconductor-advanced-materials",
       "investmentCount": 6
     },
     {
@@ -5078,14 +4790,6 @@
       "investmentCount": 6
     },
     {
-      "cluster": "battery-infrastructure",
-      "investmentCount": 6
-    },
-    {
-      "cluster": "space-launch-large",
-      "investmentCount": 5
-    },
-    {
       "cluster": "ai-saas-enterprise",
       "investmentCount": 5
     },
@@ -5094,19 +4798,11 @@
       "investmentCount": 5
     },
     {
-      "cluster": "satellite-earth-observation",
+      "cluster": "fusion-inertial-laser",
       "investmentCount": 5
     },
     {
-      "cluster": "maritime-electric-transport",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "carbon-capture-utilization",
-      "investmentCount": 5
-    },
-    {
-      "cluster": "ai-mineral-exploration",
+      "cluster": "geothermal-next-gen",
       "investmentCount": 5
     },
     {
@@ -5118,7 +4814,31 @@
       "investmentCount": 5
     },
     {
+      "cluster": "space-launch-large",
+      "investmentCount": 4
+    },
+    {
       "cluster": "autonomy-counter-drone",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "satellite-earth-observation",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "maritime-electric-transport",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "ai-clinical-health",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "fusion-alternative",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "biotech-lab-automation",
       "investmentCount": 4
     }
   ]

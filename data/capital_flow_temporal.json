@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T06:37:40+00:00",
+  "generatedAt": "2026-08-01T09:12:30+00:00",
   "matrix": {
     "continual-learning-ai": {
       "2026-Q3": {
@@ -122,9 +122,7 @@
             ]
           }
         ],
-        "investors": [
-          "Breakthrough Energy Ventures"
-        ]
+        "investors": []
       }
     },
     "hyperspectral-eo": {
@@ -1044,7 +1042,6 @@
           }
         ],
         "investors": [
-          "Breakthrough Energy Ventures",
           "General Catalyst",
           "Lightspeed Venture Partners",
           "Lowercarbon Capital"
@@ -1506,7 +1503,6 @@
           }
         ],
         "investors": [
-          "Breakthrough Energy Ventures",
           "Lowercarbon Capital",
           "Valor Equity Partners"
         ]
@@ -1588,30 +1584,6 @@
           "company": "Gecko Robotics",
           "cluster": "robotics-cobots-warehouse",
           "date": "2025-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Breakthrough Energy Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Brimstone",
-          "cluster": "cement-green",
-          "date": "2026-07-24",
-          "source": "formd"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Electra",
-          "cluster": "industrial-decarb",
-          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -2028,7 +2000,7 @@
     "totalUSDSold": 540062435,
     "uniqueClusters": 38,
     "uniqueQuarters": 9,
-    "uniqueVCs": 18,
+    "uniqueVCs": 17,
     "quarterRange": [
       "2024-Q1",
       "2026-Q3"
