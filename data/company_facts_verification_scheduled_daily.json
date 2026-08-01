@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-31T08:36:55+00:00",
+  "generatedAt": "2026-08-01T08:07:07+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 35,
-  "newExtractionsThisRun": 35,
+  "cohortSize": 38,
+  "newExtractionsThisRun": 38,
   "summary": {
-    "cleared": 31,
-    "changesProposed": 4,
+    "cleared": 36,
+    "changesProposed": 2,
     "unverifiable": 0
   },
   "cleared": [
@@ -16,24 +16,29 @@
     "Apptronik",
     "Astera Labs",
     "Atomic Industries",
+    "Black Forest Labs",
     "Cape",
+    "Claros",
+    "Commonwealth Fusion Systems",
     "Crusoe Energy",
     "Deterrence",
     "Divergent",
     "Durin",
+    "Earth AI",
     "Fairmat",
     "Fortastra",
     "Galvanick",
     "Gecko Robotics",
     "Hadrian",
     "Humanoid",
+    "ICON",
     "K2 Space",
     "Karman Industries",
     "Matic Robotics",
     "Percepto",
     "Quaise Energy",
     "Rebellions",
-    "Redwood Materials",
+    "Rivian",
     "Rocket Lab",
     "Scale AI",
     "Solugen",
@@ -44,129 +49,38 @@
   ],
   "changesProposed": [
     {
-      "name": "Black Forest Labs",
+      "name": "Redwood Materials",
       "current": {
-        "name": "Black Forest Labs",
-        "founder": "Robin Rombach, Andreas Blattmann, Patrick Esser",
-        "location": "Freiburg, Germany",
-        "founded": 2024,
-        "fundingStage": "Series B",
-        "totalRaised": "$450M",
-        "website": "https://blackforestlabs.ai"
+        "name": "Redwood Materials",
+        "founder": "J. B. Straubel",
+        "location": "Carson City, Nevada, United States",
+        "founded": 2017,
+        "fundingStage": "Series D",
+        "totalRaised": "$2.3B+",
+        "website": "https://redwoodmaterials.com"
       },
       "verified": {
-        "name": "Black Forest Labs",
-        "description": "Frontier AI research lab based in Freiburg, Germany that develops the FLUX family of text-to-image models. The company was founded by former Stability AI employees and builds open-weights and proprietary visual AI models.",
+        "name": "Redwood Materials",
+        "description": "American battery recycling company that recovers lithium, nickel, cobalt, and copper from end-of-life batteries and produces battery materials for electromobility and energy storage systems.",
         "founders": [
-          "Robin Rombach",
-          "Andreas Blattmann",
-          "Patrick Esser"
+          "J. B. Straubel"
         ],
-        "location": "Freiburg, Germany",
-        "founded_year": 2024,
-        "current_stage": "Series B",
-        "total_raised": "$300M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://blackforestlabs.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Series B funding of $300M announced December 1, 2025 (per source 0). Wikipedia source mentions initial $31M investment but does not specify Series B details, valuation, or complete investor list. Sources do not verify the $450M total raised, $3.25B valuation, or specific investor names (Salesforce Ventures, Anjney Midha, Andreessen Horowitz, NVIDIA) mentioned in the database entry."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$450M",
-          "verified": "$300M",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://blackforestlabs.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://blackforestlabs.ai/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Black_Forest_Labs"
-        },
-        {
-          "idx": 3,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/"
-        }
-      ],
-      "notes": "Series B funding of $300M announced December 1, 2025 (per source 0). Wikipedia source mentions initial $31M investment but does not specify Series B details, valuation, or complete investor list. Sources do not verify the $450M total raised, $3.25B valuation, or specific investor names (Salesforce Ventures, Anjney Midha, Andreessen Horowitz, NVIDIA) mentioned in the database entry."
-    },
-    {
-      "name": "Commonwealth Fusion Systems",
-      "current": {
-        "name": "Commonwealth Fusion Systems",
-        "founder": "Bob Mumgaard",
-        "location": "Devens, MA",
-        "founded": 2018,
-        "fundingStage": "Series B2",
-        "totalRaised": "$3B+",
-        "website": "https://cfs.energy"
-      },
-      "verified": {
-        "name": "Commonwealth Fusion Systems",
-        "description": "American fusion power company that develops compact tokamak fusion reactors using high-temperature superconducting magnets. Founded as a spin-off from MIT, it is building the SPARC tokamak and plans to construct commercial fusion power plants.",
-        "founders": [
-          "Bob Mumgaard"
-        ],
-        "location": "Devens, Massachusetts",
-        "founded_year": 2018,
-        "current_stage": "Series B2",
-        "total_raised": "$863M",
-        "valuation": null,
+        "location": "Carson City, Nevada, United States",
+        "founded_year": 2017,
+        "current_stage": null,
+        "total_raised": "$2.125B",
+        "valuation": "$6B",
         "investors": [
-          "Eni",
-          "Breakthrough Energy Ventures",
-          "Khosla Ventures",
-          "Temasek",
-          "Equinor",
-          "Devonshire Investors",
-          "Google"
+          "T. Rowe Price",
+          "Goldman Sachs",
+          "Baillie Gifford",
+          "Fidelity",
+          "Ford Motor Company",
+          "Amazon Climate Pledge Fund",
+          "Eclipse Capital",
+          "NVidia NVentures"
         ],
-        "website": "https://cfs.energy",
+        "website": "https://redwoodmaterials.com",
         "sources_per_field": {
           "name": [
             0,
@@ -185,10 +99,10 @@
           "founded_year": [
             1
           ],
-          "current_stage": [
+          "total_raised": [
             1
           ],
-          "total_raised": [
+          "valuation": [
             1
           ],
           "investors": [
@@ -199,21 +113,13 @@
             1
           ]
         },
-        "notes": "Most recent funding round is Series B2 ($863 million announced in August 2025, per source 1). Previous Series B was $1.8 billion in November 2021. SPARC tokamak targeted to begin operations in 2026 with net power demonstration goal in 2027. Company announced plans for ARC commercial fusion power plant in Chesterfield County, Virginia, planned for early 2030s."
+        "notes": "Total raised calculated from: $775M Series C (2021) + $350M Series E (2025). Source [2] is about Greyparrot, not Redwood Materials, and was excluded. Current stage not specified in sources; Series D from database entry cannot be verified. The $2B DOE loan mentioned in [1] is conditional/government financing, not traditional venture funding."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Devens, MA",
-          "verified": "Devens, Massachusetts",
-          "sources": [
-            1
-          ]
-        },
-        {
           "field": "totalRaised",
-          "current": "$3B+",
-          "verified": "$863M",
+          "current": "$2.3B+",
+          "verified": "$2.125B",
           "sources": [
             1
           ]
@@ -223,104 +129,20 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://cfs.energy"
+          "url": "https://redwoodmaterials.com"
         },
         {
           "idx": 1,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems"
+          "url": "https://en.wikipedia.org/wiki/Redwood_Materials"
         },
         {
           "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/30/when-will-fusion-power-startup-commonwealth-fusion-systems-go-public/"
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/"
         }
       ],
-      "notes": "Most recent funding round is Series B2 ($863 million announced in August 2025, per source 1). Previous Series B was $1.8 billion in November 2021. SPARC tokamak targeted to begin operations in 2026 with net power demonstration goal in 2027. Company announced plans for ARC commercial fusion power plant in Chesterfield County, Virginia, planned for early 2030s."
-    },
-    {
-      "name": "Palantir",
-      "current": {
-        "name": "Palantir",
-        "founder": "Peter Thiel, Alex Karp, Stephen Cohen, Joe Lonsdale, Nathan Gettings",
-        "location": "Miami, Florida, U.S.",
-        "founded": 2003,
-        "fundingStage": "Series E",
-        "totalRaised": "$3B+ (pre-IPO)",
-        "website": "https://palantir.com"
-      },
-      "verified": {
-        "name": "Palantir Technologies Inc.",
-        "description": "American publicly traded company that develops data integration and analytics software. The company serves federal agencies, state and local governments, international organizations, and private companies with platforms including Gotham, Foundry, Apollo, and AIP.",
-        "founders": [
-          "Peter Thiel",
-          "Stephen Cohen",
-          "Alex Karp",
-          "Joe Lonsdale",
-          "Nathan Gettings"
-        ],
-        "location": "Miami, Florida, U.S.",
-        "founded_year": 2003,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "In-Q-Tel",
-          "Oakhouse Partners",
-          "REV"
-        ],
-        "website": "https://palantir.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1] is about Anthropic, not Palantir, and was not used. Wikipedia source [0] lists company as publicly traded on Nasdaq (PLTR), not Series E as in database entry. Former headquarters listed as Palo Alto, California; current headquarters is Miami, Florida."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series E",
-          "verified": "Public",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Palantir"
-        },
-        {
-          "idx": 1,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/"
-        }
-      ],
-      "notes": "Source [1] is about Anthropic, not Palantir, and was not used. Wikipedia source [0] lists company as publicly traded on Nasdaq (PLTR), not Series E as in database entry. Former headquarters listed as Palo Alto, California; current headquarters is Miami, Florida."
+      "notes": "Total raised calculated from: $775M Series C (2021) + $350M Series E (2025). Source [2] is about Greyparrot, not Redwood Materials, and was excluded. Current stage not specified in sources; Series D from database entry cannot be verified. The $2B DOE loan mentioned in [1] is conditional/government financing, not traditional venture funding."
     },
     {
       "name": "SpaceX",
@@ -335,7 +157,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates three divisions: Space (conducting more orbital launches annually than any other provider), Connectivity (operating Starlink satellite communications), and Artificial Intelligence (operating Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -377,7 +199,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Current database entry lists valuation as $1.65T but this is not verified by any source provided."
+        "notes": "Wikipedia source indicates SpaceX conducted its initial public offering on June 12, 2026, raising $86 billion, described as 'the largest IPO in history.' Source notes Elon Musk controls 82% voting power (Wikipedia states 85% in one section, 82% in another\u2014using 82% from ownership section). Company was originally founded in El Segundo, California in 2002, now headquartered at Starbase, Texas."
       },
       "changes": [
         {
@@ -397,21 +219,21 @@
         },
         {
           "idx": 1,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/"
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/spacex-falcon-9-rocket-crash-into-moon/"
         },
         {
           "idx": 2,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/supermicro-and-dell-with-building-block-data-centers-for-spacex.html"
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/07/31/podcast-tesla-spacex-merger-rivian-r2-progress-new-mercedes-gla-and-more/"
         },
         {
           "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/report-agrees-with-nextbigfuture-on-8-gigawatts-spacex-ai-data-centers-by-2027-2028.html"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Current database entry lists valuation as $1.65T but this is not verified by any source provided."
+      "notes": "Wikipedia source indicates SpaceX conducted its initial public offering on June 12, 2026, raising $86 billion, described as 'the largest IPO in history.' Source notes Elon Musk controls 82% voting power (Wikipedia states 85% in one section, 82% in another\u2014using 82% from ownership section). Company was originally founded in El Segundo, California in 2002, now headquartered at Starbase, Texas."
     }
   ],
   "unverifiable": []

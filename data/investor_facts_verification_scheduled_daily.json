@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-31T08:37:33+00:00",
+  "generatedAt": "2026-08-01T08:07:47+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 3,
-  "newExtractionsThisRun": 3,
+  "cohortSize": 4,
+  "newExtractionsThisRun": 4,
   "summary": {
     "cleared": 3,
-    "changesProposed": 0,
+    "changesProposed": 1,
     "unverifiable": 0
   },
   "cleared": [
@@ -14,6 +14,210 @@
     "Future Ventures",
     "Shield Capital"
   ],
-  "changesProposed": [],
+  "changesProposed": [
+    {
+      "name": "Breakthrough Energy Ventures",
+      "current": {
+        "name": "Breakthrough Energy Ventures",
+        "shortName": "BEV",
+        "aum": "$2B+ (fund) / $14B (platform)",
+        "flagshipFund": "Breakthrough Energy Ventures Fund II",
+        "founded": 2016,
+        "hq": "Kirkland, WA",
+        "website": "https://breakthroughenergy.org"
+      },
+      "verified": {
+        "name": "Breakthrough Energy",
+        "short_name": "BEV",
+        "aum": null,
+        "flagship_fund": "Breakthrough Energy Ventures",
+        "founded_year": 2015,
+        "hq": "Kirkland, Washington",
+        "key_partners": [
+          "Bill Gates"
+        ],
+        "sector_focus": [
+          "Manufacturing",
+          "Electricity",
+          "Agriculture",
+          "Transportation",
+          "Building"
+        ],
+        "thesis": "Breakthrough Energy invests in clean energy innovation across multiple sectors including manufacturing, electricity, agriculture, transportation, and building. The platform supports technologies with high failure risk and 20-year investment timeframes, prioritizing affordability and reliability to achieve global scale.",
+        "website": "https://breakthroughenergy.org",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "short_name": [],
+          "aum": [],
+          "flagship_fund": [
+            5
+          ],
+          "founded_year": [
+            5
+          ],
+          "hq": [
+            5
+          ],
+          "key_partners": [
+            0,
+            1,
+            5
+          ],
+          "sector_focus": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "thesis": [
+            0,
+            1,
+            5
+          ],
+          "website": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "notes": "Wikipedia indicates founding year as 2015, though sources also reference December 2016 announcement of $1B Breakthrough Energy Ventures fund. Bill Gates is identified as founder. Other named coalition members (Bezos, Benioff, Bloomberg, etc.) appear in Wikipedia but not explicitly on firm website as current senior partners. Team page content not fully rendered in sources provided. In March 2025, Bill Gates dissolved European and US public policy units."
+      },
+      "changes": [
+        {
+          "field": "name",
+          "current": "Breakthrough Energy Ventures",
+          "verified": "Breakthrough Energy",
+          "sources": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "field": "flagshipFund",
+          "current": "Breakthrough Energy Ventures Fund II",
+          "verified": "Breakthrough Energy Ventures",
+          "sources": [
+            5
+          ]
+        },
+        {
+          "field": "founded",
+          "current": 2016,
+          "verified": 2015,
+          "sources": [
+            5
+          ]
+        },
+        {
+          "field": "hq",
+          "current": "Kirkland, WA",
+          "verified": "Kirkland, Washington",
+          "sources": [
+            5
+          ]
+        },
+        {
+          "field": "keyPartners",
+          "current": [
+            "Bill Gates",
+            "Carmichael Roberts",
+            "Eric Toone"
+          ],
+          "verified": [
+            "Bill Gates"
+          ],
+          "sources": [
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "field": "sectorFocus",
+          "current": [
+            "Energy & Climate",
+            "Nuclear Energy",
+            "Advanced Manufacturing",
+            "Space & Aerospace"
+          ],
+          "verified": [
+            "Manufacturing",
+            "Electricity",
+            "Agriculture",
+            "Transportation",
+            "Building"
+          ],
+          "sources": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Technologies that can each reduce 500M+ tons CO2/year. Patient capital with 20-year fund life backing science-based climate solutions across the entire energy value chain.",
+          "verified": "Breakthrough Energy invests in clean energy innovation across multiple sectors including manufacturing, electricity, agriculture, transportation, and building. The platform supports technologies with high failure risk and 20-year investment timeframes, prioritizing affordability and reliability to achieve global scale.",
+          "sources": [
+            0,
+            1,
+            5
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://breakthroughenergy.org"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://breakthroughenergy.org/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://breakthroughenergy.org/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/companies",
+          "url": "https://breakthroughenergy.org/companies"
+        },
+        {
+          "idx": 4,
+          "src": "firm/investments",
+          "url": "https://breakthroughenergy.org/investments"
+        },
+        {
+          "idx": 5,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Breakthrough_Energy_Ventures"
+        },
+        {
+          "idx": 6,
+          "src": "news (Crunchbase News)",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
+        }
+      ],
+      "notes": "Wikipedia indicates founding year as 2015, though sources also reference December 2016 announcement of $1B Breakthrough Energy Ventures fund. Bill Gates is identified as founder. Other named coalition members (Bezos, Benioff, Bloomberg, etc.) appear in Wikipedia but not explicitly on firm website as current senior partners. Team page content not fully rendered in sources provided. In March 2025, Bill Gates dissolved European and US public policy units."
+    }
+  ],
   "unverifiable": []
 }
