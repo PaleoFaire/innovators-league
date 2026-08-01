@@ -1,25 +1,43 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 62,
+    "sector": "Space & Aerospace",
+    "momentum": 71,
     "trend": "accelerating",
     "catalysts": [
-      "Anthropic Says Claude Hacked 3 Organizations During Cybersec",
-      "Anthropic says its own AI models breached three companies du",
-      "AI hedge fund Situational Awareness may have sold its public"
+      "SpaceX\u2019s Falcon 9 Rocket Is About to Crash Into the Moon\u2014and",
+      "Google nixes its Earth AI feature one day after launch, amid",
+      "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Merced"
+    ],
+    "fundingQ": "$264.3B",
+    "components": {
+      "funding": 100,
+      "news": 100,
+      "hiring": 0,
+      "market": 55
+    },
+    "lastUpdated": "2026-08-01"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 60,
+    "trend": "accelerating",
+    "catalysts": [
+      "OpenAI reportedly finds evidence that more of its agents ran",
+      "Anthropic confirms its AI breached 3 organizations during te",
+      "Anthropic Says Claude Hacked Into 3 Organizations During Cyb"
     ],
     "fundingQ": "$282.7B",
     "components": {
       "funding": 100,
-      "news": 70,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 60,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
       "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
@@ -29,51 +47,68 @@
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-31"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 56,
-    "trend": "accelerating",
-    "catalysts": [
-      "Tesla weighs selling China business to clear path for SpaceX",
-      "Supermicro and Dell With Building Block Data Centers for Spa",
-      "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Da"
-    ],
-    "fundingQ": "$264.3B",
-    "components": {
-      "funding": 100,
-      "news": 85,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 53,
+    "momentum": 56,
     "trend": "steady",
     "catalysts": [
-      "AI hedge fund Situational Awareness may have sold its public",
-      "What Is Cape Cod Doing To Secure Its Energy Independence And",
-      "Perceptual Robotics secures \u00a34M+ to scale AI-powered wind in"
+      "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 96,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-01"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 53,
+    "trend": "steady",
+    "catalysts": [
+      "Google nixes its Earth AI feature one day after launch, amid",
+      "OpenAI\u2019s Hacking Debacle Comes Down to Human Error",
+      "<a href=\"/biotech/vertexs-latest-autoimmune-tce-play-involve"
+    ],
+    "fundingQ": "$22.0B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 71
+    },
+    "lastUpdated": "2026-08-01"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
+      "French wildfires threaten nuclear deterrence industry, Rafal",
+      "A New Force Posture Concept for Europeanizing Extended Nucle"
+    ],
+    "fundingQ": "$10.0B",
+    "components": {
+      "funding": 100,
       "news": 20,
       "hiring": 0,
-      "market": 72
+      "market": 53
     },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 48,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
       "K2 Space raises $500 million for commercial, defense satelli",
@@ -85,45 +120,25 @@
       "funding": 100,
       "news": 20,
       "hiring": 0,
-      "market": 41
+      "market": 51
     },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 46,
+    "sector": "Transportation",
+    "momentum": 44,
     "trend": "steady",
     "catalysts": [
-      "OpenAI\u2019s Hacking Debacle Comes Down to Human Error",
-      "Elon Musk hints at Tesla (TSLA)-SpaceX merger on earnings ca",
-      "<a href=\"/biotech/vertexs-latest-autoimmune-tce-play-involve"
+      "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Merced"
     ],
-    "fundingQ": "$22.0B",
+    "fundingQ": "$20.0B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 5,
       "hiring": 0,
-      "market": 36
+      "market": 38
     },
-    "lastUpdated": "2026-07-31"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 41,
-    "trend": "steady",
-    "catalysts": [
-      "When will fusion power startup Commonwealth Fusion Systems g",
-      "French wildfires threaten nuclear deterrence industry, Rafal",
-      "A New Force Posture Concept for Europeanizing Extended Nucle"
-    ],
-    "fundingQ": "$5.0B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 5
-    },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -139,41 +154,59 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-31"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 39,
-    "trend": "steady",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$20.0B",
-    "components": {
-      "funding": 100,
-      "news": 0,
-      "hiring": 0,
-      "market": 20
-    },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 22,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
+      "Anthropic confirms its AI breached 3 organizations during te",
       "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
-      "K2 Space raises $500 million for commercial, defense satelli",
-      "Rocket Lab wins another launch contract from Japan\u2019s iQPS"
+      "K2 Space raises $500 million for commercial, defense satelli"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-01"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
+      "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+      "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Da"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 33
+    },
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -190,7 +223,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Drones & Autonomous",
@@ -206,14 +239,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Anthropic Says Claude Hacked 3 Organizations During Cybersec"
+      "Anthropic Says Claude Hacked Into 3 Organizations During Cyb"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -222,23 +255,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-31"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   },
   {
     "sector": "Ocean & Maritime",
@@ -254,24 +271,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-07-31"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Da",
-      "Minihard Thesis: Can SpaceX Turn AI Data Centers Into a Prod",
-      "SpaceX is Making Improved 220K GPU Modular AI Data Centers"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-07-31"
+    "lastUpdated": "2026-08-01"
   }
 ]

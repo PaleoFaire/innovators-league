@@ -1165,18 +1165,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "H9240225FE016",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 660817.5,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-07-31",
-    "endDate": "2025-10-31",
-    "description": "SIP 106 - RZLR"
-  },
-  {
-    "company": "Anduril",
     "awardId": "M6785426F0023",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 576478.5,
@@ -1198,6 +1186,18 @@
     "startDate": "2025-08-20",
     "endDate": "2026-08-19",
     "description": "SIP 113 - DRONE ASSEMBLY TECHNICIAN"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "FA862926FB009",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 502949.2,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2025-12-03",
+    "endDate": "2026-05-26",
+    "description": "AGILE-LAUNCH TACTICALLY-INTEGRATED UNMANNED SYSTEM (ALTIUS) 600"
   },
   {
     "company": "Anduril Industries",
@@ -2365,18 +2365,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "H9240225FE016",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 660817.5,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-07-31",
-    "endDate": "2025-10-31",
-    "description": "SIP 106 - RZLR"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "M6785426F0023",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 576478.5,
@@ -2400,6 +2388,18 @@
     "description": "SIP 113 - DRONE ASSEMBLY TECHNICIAN"
   },
   {
+    "company": "Anduril Industries",
+    "awardId": "FA862926FB009",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 502949.2,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2025-12-03",
+    "endDate": "2026-05-26",
+    "description": "AGILE-LAUNCH TACTICALLY-INTEGRATED UNMANNED SYSTEM (ALTIUS) 600"
+  },
+  {
     "company": "Shield AI",
     "awardId": "70Z02326F93130005",
     "recipientName": "SHIELD AI INC",
@@ -2415,12 +2415,12 @@
     "company": "Shield AI",
     "awardId": "N0001925F0971",
     "recipientName": "SHIELD AI INC",
-    "amount": 10537719.84,
+    "amount": 11322584.92,
     "agency": "Department of Defense",
     "subAgency": "Department of the Navy",
     "awardType": null,
     "startDate": "2025-09-03",
-    "endDate": "2027-12-01",
+    "endDate": "2027-04-30",
     "description": "V-BAT VTOL UNMANNED AIRCRAFT"
   },
   {
@@ -2845,6 +2845,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W56KGY26F0031",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 16500000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-16",
+    "endDate": "2027-03-15",
+    "description": "INTELLIGENCE SYSTEMS & ANALYTICS - CAPABILITY DROP 2 CAPABILITY LICENSES AND FIELD SERVICE REPRESENTATIVES"
+  },
+  {
+    "company": "Palantir",
     "awardId": "75P00122F37001",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 16160661.6,
@@ -3010,18 +3022,6 @@
     "startDate": "2025-09-30",
     "endDate": "2026-09-29",
     "description": "PALANTIR PROJECT - CENTER FOR ANALYTICS"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W56KGY26F0031",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 11500000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-03-16",
-    "endDate": "2027-03-15",
-    "description": "INTELLIGENCE SYSTEMS & ANALYTICS - CAPABILITY DROP 2 CAPABILITY LICENSES AND FIELD SERVICE REPRESENTATIVES"
   },
   {
     "company": "Palantir",
@@ -3433,18 +3433,6 @@
   },
   {
     "company": "Palantir",
-    "awardId": "205AE925F00178",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 2385980.5,
-    "agency": "Department of the Treasury",
-    "subAgency": "Internal Revenue Service",
-    "awardType": null,
-    "startDate": "2025-07-14",
-    "endDate": "2025-10-13",
-    "description": "NEW TASK ORDER (COMPLIANCE 2.0 / CASE SELECTION)"
-  },
-  {
-    "company": "Palantir",
     "awardId": "205AE926F00047",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 2250363.27,
@@ -3730,6 +3718,18 @@
     "startDate": "2026-04-06",
     "endDate": "2026-06-18",
     "description": "SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) FRAUD IDENTIFICATION AND CASE WORKFLOW PLATFORM PILOT PROGRAM"
+  },
+  {
+    "company": "Palantir",
+    "awardId": "W912CM26FA009",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 188093.15,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-03-02",
+    "endDate": "2026-09-29",
+    "description": "PALANTIR- MAVEN SMART SYSTEMS (MSS) FIELD SERVICE REPRESENTATIVE (FSR) SUPPORT FOR FORT KNOX, FIFTH CORP"
   },
   {
     "company": "Palantir Technologies",
@@ -4510,18 +4510,6 @@
     "startDate": "2025-09-22",
     "endDate": "2026-06-20",
     "description": "PALANTIR PLATFORM EVALUATION LICENSES FOR DISA FINANCIAL OPERATIONS IN ACCORDANCE WITH THE ARMY PALANTIR ENTERPRISE AGREEMENT IDIQ CONTRACT W519TC-25-D-0039. ALL TERMS AND CONDITIONS OF W519TC-25-D-00"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "205AE925F00178",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 2385980.5,
-    "agency": "Department of the Treasury",
-    "subAgency": "Internal Revenue Service",
-    "awardType": null,
-    "startDate": "2025-07-14",
-    "endDate": "2025-10-13",
-    "description": "NEW TASK ORDER (COMPLIANCE 2.0 / CASE SELECTION)"
   },
   {
     "company": "Palantir Technologies",
@@ -6289,18 +6277,6 @@
   },
   {
     "company": "Skydio",
-    "awardId": "12639525F0865",
-    "recipientName": "SKYDIO, INC",
-    "amount": 13858.36,
-    "agency": "Department of Agriculture",
-    "subAgency": "Animal and Plant Health Inspection Service",
-    "awardType": null,
-    "startDate": "2025-07-31",
-    "endDate": "2025-10-31",
-    "description": "DELIVERY ORDER FOR UAS AND ACCESSORIES"
-  },
-  {
-    "company": "Skydio",
     "awardId": "15DD0A25P00000054",
     "recipientName": "SKYDIO, INC",
     "amount": 11994.0,
@@ -6879,7 +6855,7 @@
     "company": "Axiom Space",
     "awardId": "80JSC022FA103",
     "recipientName": "AXIOM SPACE INC",
-    "amount": 391748340.0,
+    "amount": 414362340.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,

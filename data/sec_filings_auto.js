@@ -1,6 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-07-31 08:54:37 UTC
+// Last updated: 2026-08-01 08:25:36 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509549.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509512.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509472.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509433.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509019.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785508974.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785508931.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785508883.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785508844.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785508785.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785508727.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/form4-07312026_020749.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Joby Aviation", form: "8-K", date: "2026-07-31", description: "d49031d8k.htm", isIPO: false, ticker: "JOBY" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-07-30", description: "xslF345X06/wk-form4_1785443315.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-07-30", description: "xslF345X06/wk-form4_1785443238.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-07-30", description: "xslF345X06/wk-form4_1785443178.xml", isIPO: false, ticker: "DNA" },
@@ -38,17 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157422.xml", isIPO: false, ticker: "QBTS" },
   { company: "Satellogic", form: "4", date: "2026-07-15", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "SATL" },
   { company: "Satellogic", form: "4", date: "2026-07-15", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "SATL" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-07-14", description: "qbts-20260714.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Satellogic", form: "10-K", date: "2026-07-14", description: "ea0296662-10k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-07-09", description: "xslF345X06/wk-form4_1783634656.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Agrify Corporation", form: "DEF 14A", date: "2026-07-09", description: "ea0295890-02.htm", isIPO: false, ticker: "AGFY" },
-  { company: "Rivian", form: "8-K", date: "2026-07-09", description: "tm2617163d3_8k.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Rocket Lab", form: "4", date: "2026-07-08", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rivian", form: "4", date: "2026-07-08", description: "xslF345X06/wk-form4_1783558402.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Palantir Technologies", form: "4", date: "2026-07-07", description: "xslF345X06/wk-form4_1783468921.xml", isIPO: false, ticker: "PLTR" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-07-07", description: "qbts-20260707.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Intuitive Machines", form: "8-K", date: "2026-07-06", description: "tm2619787d1_8k.htm", isIPO: false, ticker: "LUNR" },
-  { company: "Oklo", form: "4", date: "2026-07-06", description: "xslF345X06/wk-form4_1783368855.xml", isIPO: false, ticker: "OKLO" },
-  { company: "LanzaTech", form: "4", date: "2026-07-06", description: "xslF345X06/wk-form4_1783368070.xml", isIPO: false, ticker: "LNZA" },
-  { company: "Rivian", form: "8-K", date: "2026-07-06", description: "tm2619783d1_8k.htm", isIPO: false, ticker: "RIVN" },
 ];

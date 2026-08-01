@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:56:22.983176Z",
+  "generated_at": "2026-08-01T08:27:15.915491Z",
   "takes": [
     {
       "author": "SpaceNews",
@@ -40,12 +40,22 @@
       "source": "news",
       "source_url": "https://tech.eu/2026/07/30/inforcer-raises-50m-series-c-to-scale-ai-security-platform-for-msps/",
       "signal_type": "funding"
+    },
+    {
+      "author": "Crunchbase News",
+      "role": "Industry signal",
+      "company": "Safe Superintelligence",
+      "text": "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
+      "date": "Fri, 31 Ju",
+      "source": "news",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/",
+      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 5,
     "from_press": 0
   }
 }
