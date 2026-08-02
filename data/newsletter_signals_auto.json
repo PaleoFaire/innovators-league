@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T10:39:32+00:00",
+  "generatedAt": "2026-08-02T10:28:58+00:00",
   "lookbackDays": 14,
   "sources": [
     {
@@ -42,19 +42,19 @@
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 3
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
       "url": "https://brief.bismarckanalysis.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 0
     },
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 19,
-      "recentItems": 19
+      "totalItems": 18,
+      "recentItems": 17
     },
     {
       "name": "Rest of World",
@@ -78,17 +78,17 @@
       "name": "Stratechery (Ben Thompson)",
       "url": "https://stratechery.com/feed/",
       "totalItems": 10,
-      "recentItems": 8
+      "recentItems": 5
     },
     {
       "name": "Platformer (Casey Newton)",
       "url": "https://www.platformer.news/rss",
       "totalItems": 15,
-      "recentItems": 5
+      "recentItems": 4
     }
   ],
-  "totalRawSignals": 35,
-  "uniqueCandidateCount": 35,
+  "totalRawSignals": 37,
+  "uniqueCandidateCount": 37,
   "candidates": [
     {
       "name": "FLUX",
@@ -129,78 +129,78 @@
       ]
     },
     {
-      "name": "LTX",
-      "totalScore": 10.2,
+      "name": "Solid",
+      "totalScore": 11.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "LTX",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "Solid",
+          "score": 11.2,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "ade  Lucy 2.5 Realtime  available over WebRTC for live video-to-video editing.  fal  also launched  LTX-2.3 Reframe  for aspect-ratio conversion with generated scene completion. Meta expanded media mo",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-          "articleUrl": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-          "articleDate": "Fri, 17 Jul 2026 01:46:36 GMT"
+          "context": "ropean startups making solid-state batteries have collectively raised over $4 billion  as of 2025 . Solid-state batteries have several potential advantages over the lithium-ion batteries with liquid e",
+          "source": "Construction Physics (Brian Potter)",
+          "sourceUrl": "https://www.construction-physics.com/feed",
+          "articleTitle": "Why Is Everyone Trying to Build a Solid-State Battery?",
+          "articleUrl": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
+          "articleDate": "Thu, 30 Jul 2026 12:04:25 GMT"
         }
       ]
     },
     {
-      "name": "Reframe",
+      "name": "Perplexity",
       "totalScore": 10.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Reframe",
+          "name": "Perplexity",
           "score": 10.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "y 2.5 Realtime  available over WebRTC for live video-to-video editing.  fal  also launched  LTX-2.3 Reframe  for aspect-ratio conversion with generated scene completion. Meta expanded media model dist",
+          "context": "erated changesets. Persistent memory is becoming productized, but evidence on its value is mixed :  Perplexity  launched  Projects , evolving Spaces into hubs for ongoing work with  shared files and p",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-          "articleUrl": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-          "articleDate": "Fri, 17 Jul 2026 01:46:36 GMT"
+          "articleTitle": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+          "articleDate": "Fri, 31 Jul 2026 04:40:54 GMT"
         }
       ]
     },
     {
-      "name": "Thinking Machines Lab",
+      "name": "Projects",
       "totalScore": 10.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Thinking Machines Lab",
+          "name": "Projects",
           "score": 10.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "section of Latent Space . You can  opt in/out  of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundation model famil",
+          "context": "sistent memory is becoming productized, but evidence on its value is mixed :  Perplexity  launched  Projects , evolving Spaces into hubs for ongoing work with  shared files and persistent memory  via ",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
-          "articleUrl": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-          "articleDate": "Thu, 16 Jul 2026 06:18:05 GMT"
+          "articleTitle": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+          "articleDate": "Fri, 31 Jul 2026 04:40:54 GMT"
         }
       ]
     },
     {
-      "name": "Inkling",
+      "name": "Spaces",
       "totalScore": 10.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Inkling",
+          "name": "Spaces",
           "score": 10.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "an  opt in/out  of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundation model family entry, positioning it as a cu",
+          "context": "coming productized, but evidence on its value is mixed :  Perplexity  launched  Projects , evolving Spaces into hubs for ongoing work with  shared files and persistent memory  via \u201cBrain,\u201d while  @Ara",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
-          "articleUrl": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-          "articleDate": "Thu, 16 Jul 2026 06:18:05 GMT"
+          "articleTitle": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+          "articleDate": "Fri, 31 Jul 2026 04:40:54 GMT"
         }
       ]
     },
@@ -262,6 +262,25 @@
       ]
     },
     {
+      "name": "DoorDash Air",
+      "totalScore": 8.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "DoorDash Air",
+          "score": 8.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "nnounced on Wednesday that DoorDash Labs earned FAA Part 135 air carrier certification and launched DoorDash Air, its in-house drone delivery program. Part 135 lets DoorDash operate as an air carrier,",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+        }
+      ]
+    },
+    {
       "name": "AravSrinivas",
       "totalScore": 7.65,
       "sourceCount": 1,
@@ -300,6 +319,82 @@
       ]
     },
     {
+      "name": "European",
+      "totalScore": 7.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "European",
+          "score": 7.2,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "nd battery manufacturers like  BYD ,  LG , and  Samsung  are also working on the technology. US and European startups making solid-state batteries have collectively raised over $4 billion  as of 2025 ",
+          "source": "Construction Physics (Brian Potter)",
+          "sourceUrl": "https://www.construction-physics.com/feed",
+          "articleTitle": "Why Is Everyone Trying to Build a Solid-State Battery?",
+          "articleUrl": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
+          "articleDate": "Thu, 30 Jul 2026 12:04:25 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Enigma Comes Out",
+      "totalScore": 7.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Enigma Comes Out",
+          "score": 7.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "t brains, drones, and AVs, with a little robot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control A company called  Enigma  is a litt",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Stealth",
+      "totalScore": 7.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Stealth",
+          "score": 7.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "d AVs, with a little robot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control A company called  Enigma  is a little less enigmatic af",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Robot Online Control",
+      "totalScore": 7.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Robot Online Control",
+          "score": 7.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control A company called  Enigma  is a little less enigmatic after emerging from stealt",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+        }
+      ]
+    },
+    {
       "name": "Indians",
       "totalScore": 7.2,
       "sourceCount": 1,
@@ -319,59 +414,21 @@
       ]
     },
     {
-      "name": "On Wednesday",
-      "totalScore": 6.6,
+      "name": "Hugging Face",
+      "totalScore": 5.95,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "On Wednesday",
-          "score": 6.6,
-          "frontierTechScore": 4,
+          "name": "Hugging Face",
+          "score": 5.95,
+          "frontierTechScore": 2,
           "mentions": 1,
-          "context": "n Robotics Regular-sized robots can raise money, too, and it seems like they can do more than that. On Wednesday, Walden Robotics came out of stealth with $300 million in seed funding at a $1.1 billio",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #202",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
-          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Toyota Research Institute",
-      "totalScore": 6.6,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Toyota Research Institute",
-          "score": 6.6,
-          "frontierTechScore": 4,
-          "mentions": 1,
-          "context": " North American Toyota factory, too.  The Toyota connection makes sense, because Walden spun out of Toyota Research Institute in January. CEO Russ Tedrake, an MIT professor who led TRI\u2019s robotics and ",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #202",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
-          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
-        }
-      ]
-    },
-    {
-      "name": "CEO Russ Tedrake",
-      "totalScore": 6.6,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "CEO Russ Tedrake",
-          "score": 6.6,
-          "frontierTechScore": 4,
-          "mentions": 1,
-          "context": "The Toyota connection makes sense, because Walden spun out of Toyota Research Institute in January. CEO Russ Tedrake, an MIT professor who led TRI\u2019s robotics and machine learning team for nearly a dec",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #202",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
-          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
+          "context": "earchers can analyze the failure mode. He also asks OpenAI to commit  $100M  in compute to help the Hugging Face community build cyber-defense systems using open and closed models.  Image  Commenters ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Much ado about Open Weights",
+          "articleUrl": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
+          "articleDate": "Tue, 28 Jul 2026 06:20:13 GMT"
         }
       ]
     },
@@ -433,116 +490,78 @@
       ]
     },
     {
-      "name": "Vids",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Vids",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ive minutes. Multimodal Video, Real-Time Media, and Creative Tooling Google pushed Gemini Omni into Vids :  Google  and  Google Workspace  launched  Gemini Omni  for video generation/editing in  Googl",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-          "articleUrl": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-          "articleDate": "Fri, 17 Jul 2026 01:46:36 GMT"
-        }
-      ]
-    },
-    {
-      "name": "WebRTC",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "WebRTC",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "y 2.5 , a more capable realtime live AI video editor;  fal  made  Lucy 2.5 Realtime  available over WebRTC for live video-to-video editing.  fal  also launched  LTX-2.3 Reframe  for aspect-ratio conve",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-          "articleUrl": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-          "articleDate": "Fri, 17 Jul 2026 01:46:36 GMT"
-        }
-      ]
-    },
-    {
-      "name": "What",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "What",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "News is now a section of Latent Space . You can  opt in/out  of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundati",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
-          "articleUrl": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-          "articleDate": "Thu, 16 Jul 2026 06:18:05 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Toyota",
+      "name": "DoorDash Labs",
       "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Toyota",
+          "name": "DoorDash Labs",
           "score": 5.4,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": " $300 million in seed funding at a $1.1 billion valuation co-led by Deviation Capital and a trio of Toyota investors (Toyota Motor Corp, Toyota Invention Partners, and Toyota Ventures). Its robots are",
+          "context": "and now DoorDash is making its own flying robots, aka drones.  DoorDash announced on Wednesday that DoorDash Labs earned FAA Part 135 air carrier certification and launched DoorDash Air, its in-house ",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #202",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
-          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
         }
       ]
     },
     {
-      "name": "Toyota Motor Corp",
+      "name": "FAA Part",
       "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Toyota Motor Corp",
+          "name": "FAA Part",
           "score": 5.4,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "eed funding at a $1.1 billion valuation co-led by Deviation Capital and a trio of Toyota investors (Toyota Motor Corp, Toyota Invention Partners, and Toyota Ventures). Its robots are already doing use",
+          "context": "aking its own flying robots, aka drones.  DoorDash announced on Wednesday that DoorDash Labs earned FAA Part 135 air carrier certification and launched DoorDash Air, its in-house drone delivery progra",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #202",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
-          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
         }
       ]
     },
     {
-      "name": "Walden",
+      "name": "Part",
       "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Walden",
+          "name": "Part",
           "score": 5.4,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "ng useful work in a North American Toyota factory, too.  The Toyota connection makes sense, because Walden spun out of Toyota Research Institute in January. CEO Russ Tedrake, an MIT professor who led ",
+          "context": " Part 135 air carrier certification and launched DoorDash Air, its in-house drone delivery program. Part 135 lets DoorDash operate as an air carrier, and the company says it is only the eighth drone o",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #202",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-202",
-          "articleDate": "Fri, 17 Jul 2026 11:43:07 GMT"
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "DoorDash",
+      "totalScore": 5.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "DoorDash",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "carrier certification and launched DoorDash Air, its in-house drone delivery program. Part 135 lets DoorDash operate as an air carrier, and the company says it is only the eighth drone operator to ear",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
         }
       ]
     },
@@ -581,6 +600,63 @@
           "articleTitle": "Bluecore Energy raises $10M to build portable nuclear reactors on barges",
           "articleUrl": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/",
           "articleDate": "Tue, 21 Jul 2026 13:20:00 +0000"
+        }
+      ]
+    },
+    {
+      "name": "Extra Doses",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Extra Doses",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "theme is physical AI - robots, robot brains, drones, and AVs, with a little robot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Let",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Let",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ical AI - robots, robot brains, drones, and AVs, with a little robot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control A company cal",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Enigma",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Enigma",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control A company called  Enigma  is a little less enigmatic after emerging from stealth on Monday with a $71 million seed rou",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #204",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
+          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
         }
       ]
     },
@@ -714,44 +790,6 @@
           "articleTitle": "Weekly Dose of Optimism #203",
           "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-203",
           "articleDate": "Fri, 24 Jul 2026 13:07:04 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Hermes",
-      "totalScore": 3.5,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Hermes",
-          "score": 3.5,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation\nThe company is raising ",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-          "articleUrl": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-          "articleDate": "Mon, 13 Jul 2026 23:31:18 +0000"
-        }
-      ]
-    },
-    {
-      "name": "Nous Research",
-      "totalScore": 3.5,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Nous Research",
-          "score": 3.5,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation\nThe company is raising at least $75 millio",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-          "articleUrl": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-          "articleDate": "Mon, 13 Jul 2026 23:31:18 +0000"
         }
       ]
     }
