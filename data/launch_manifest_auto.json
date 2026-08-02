@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-08-01",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-52",
-    "payload": "Starlink Group 17-52",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e7e55b53-6f69-4c22-9fc5-df00df653a3f/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-08-04",
     "vehicle": "Long March 8A | Unknown Payload",
     "payload": "Unknown Payload",
@@ -447,6 +438,15 @@
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca6886aea7/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "payload": "SDA Tranche 2 Transport Layer E",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42ffa2c5a6e/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]

@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-08-01 08:58:26 UTC
+// Last updated: 2026-08-02 09:03:19 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06349915", title: "A Pilot Evaluation of a Digital Peer Support Intervention for Suicidal Adolescen", status: "RECRUITING", phase: "NA", sponsor: "Albert Einstein College of Medicine", conditions: "Suicide", enrollment: 46, lastUpdated: "2026-07-30" },
   { nctId: "NCT06921707", title: "Pilot Trial for WounDx™ Clinical Decision Support Tool", status: "RECRUITING", phase: "NA", sponsor: "Henry M. Jackson Foundation for the Advancement of Military Medicine", conditions: "Wounds, Wounds and Injuries, Extremity Injury", enrollment: 40, lastUpdated: "2026-07-30" },
