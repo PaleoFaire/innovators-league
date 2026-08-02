@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T17:09:13.720519+00:00",
+  "generatedAt": "2026-08-02T19:22:10.084694+00:00",
   "date": "2026-08-02",
   "dateDisplay": "Sunday, August 02, 2026",
   "sections": {
@@ -86,6 +86,13 @@
         "change": -0.23
       },
       {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 18.08,
+        "changePercent": 11.54,
+        "change": 1.87
+      },
+      {
         "ticker": "IONQ",
         "company": "IonQ",
         "price": 36.44,
@@ -126,13 +133,6 @@
         "price": 311.23,
         "changePercent": 6.74,
         "change": 19.65
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 6.66,
-        "changePercent": 5.8,
-        "change": 0.37
       }
     ],
     "regulatory": [
