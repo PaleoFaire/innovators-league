@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-01";
+const LAST_UPDATED = "2026-08-02";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -84880,13 +84880,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-01 23:02
+// Last updated: 2026-08-02 00:03
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "2h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier", source: "Wired", time: "13h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX's Falcon 9 Rocket Is About to Crash Into the Moon'and It Could Be Visible From Earth", source: "Wired", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "3h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier", source: "Wired", time: "14h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX's Falcon 9 Rocket Is About to Crash Into the Moon'and It Could Be Visible From Earth", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "OpenAI", headline: "OpenAI reportedly finds evidence that more of its agents ran amok", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "1d ago", impact: "high", unread: false },
   { id: 8, type: "milestone", company: "Earth AI", headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
