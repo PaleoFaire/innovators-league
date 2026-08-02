@@ -16,7 +16,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Twelve Hours of AI Work, Seventy Minutes You Can Trust",
@@ -35,7 +35,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
@@ -54,7 +54,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "OpenAI Next Major Model Astra Solves Major Math Problems",
@@ -75,7 +75,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "22h ago"
   },
   {
     "title": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
@@ -202,6 +202,29 @@
     "time": "1d ago"
   },
   {
+    "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+    "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
+    "description": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster. The tests, conducted at NASA’s Ames Research Center in California’s Silicon Valley, focused on better understanding the",
+    "pubDate": "Fri, 31 Jul 2026 18:39:47 +0000",
+    "category": "Human Landing System Program",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Dust",
+      "ICON"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "housing"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "Anthropic confirms its AI breached 3 organizations during testing",
     "link": "https://www.defenseone.com/business/2026/07/anthropic-confirms-its-ai-breached-3-organizations-during-testing/415159/",
     "description": "Three Claude models were inadvertently given access to the internet during security evaluations, and each model took a different approach to hacking external systems.",
@@ -319,27 +342,6 @@
     "time": "2d ago"
   },
   {
-    "title": "Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance",
-    "link": "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/",
-    "description": "Researchers fear AI is moving too fast, while Mark Zuckerberg is worried about who owns it. Plus: Inside Black Forest Labs’ push into robotics.",
-    "pubDate": "Thu, 30 Jul 2026 20:12:57 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "OpenAI",
-      "Black Forest Labs"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028",
     "link": "https://www.nextbigfuture.com/2026/07/report-agrees-with-nextbigfuture-on-8-gigawatts-spacex-ai-data-centers-by-2027-2028.html",
     "description": "FundaAI’s 8 GW framing combined with the latest Minihard/Macrohard details indicate 8GW of SpaceXAI is doable by end of 2027-mid 2028. They indicate the 8 Gigawatts of chips and the 8GW of power are available to SpaceXAI 8 GW Demand (compute/chip-order side is locked in) as FundaAI calculates demand",
@@ -403,7 +405,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "SpaceX Heat Shield System Economics Are Not a Dead End",
@@ -422,7 +424,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "inforcer raises $50M Series C to scale AI security platform for MSPs",
@@ -468,31 +470,6 @@
     "time": "3d ago"
   },
   {
-    "title": "SpaceX is Making Improved 220K GPU Modular AI Data Centers",
-    "link": "https://www.nextbigfuture.com/2026/07/spacex-is-making-improved-220k-gpu-modular-ai-data-centers.html",
-    "description": "SpaceX is making minihard, an improved modular 220K GB300 data center. It will be small building to the right of Macrohard and Macrohardrr. It is the most important thing Elon and SpaceXAI has said about its infrastructure this year. Minihard is about 25% of the floor area of Macrohardrr but the sam",
-    "pubDate": "Thu, 30 Jul 2026 01:27:37 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Crusoe Energy",
-      "Astera Labs",
-      "Rebellions",
-      "xAI"
-    ],
-    "sectors": [
-      "space",
-      "ai",
-      "chips"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
     "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
     "link": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/",
     "description": "\nFalcon 9 will launch satellites supporting missile tracking, targeting and military communications\nThe post SpaceX wins $1.6 billion in launch orders for military satellite networks appeared first on SpaceNews.",
@@ -530,7 +507,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
