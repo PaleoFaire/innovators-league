@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-01T08:07:07+00:00",
+  "generatedAt": "2026-08-02T08:08:37+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 38,
-  "newExtractionsThisRun": 38,
+  "cohortSize": 39,
+  "newExtractionsThisRun": 39,
   "summary": {
     "cleared": 36,
-    "changesProposed": 2,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
@@ -31,17 +31,17 @@
     "Gecko Robotics",
     "Hadrian",
     "Humanoid",
-    "ICON",
-    "K2 Space",
     "Karman Industries",
     "Matic Robotics",
     "Percepto",
     "Quaise Energy",
     "Rebellions",
+    "Redwood Materials",
     "Rivian",
     "Rocket Lab",
     "Scale AI",
     "Solugen",
+    "Twelve",
     "Waymo",
     "Xtend",
     "ideaForge",
@@ -49,45 +49,35 @@
   ],
   "changesProposed": [
     {
-      "name": "Redwood Materials",
+      "name": "HEO",
       "current": {
-        "name": "Redwood Materials",
-        "founder": "J. B. Straubel",
-        "location": "Carson City, Nevada, United States",
-        "founded": 2017,
-        "fundingStage": "Series D",
-        "totalRaised": "$2.3B+",
-        "website": "https://redwoodmaterials.com"
+        "name": "HEO",
+        "founder": "William Crowe, Hiranya Jayakody",
+        "location": "Sydney, Australia",
+        "founded": 2016,
+        "fundingStage": "Series A",
+        "totalRaised": "$12M",
+        "website": "https://www.heospace.com"
       },
       "verified": {
-        "name": "Redwood Materials",
-        "description": "American battery recycling company that recovers lithium, nickel, cobalt, and copper from end-of-life batteries and produces battery materials for electromobility and energy storage systems.",
+        "name": "HEO",
+        "description": "Non-Earth imaging and space intelligence company providing commercial resolved non-Earth imagery services and satellite monitoring through proprietary software.",
         "founders": [
-          "J. B. Straubel"
+          "Dr. Will Crowe",
+          "Dr. Hiranya Jayakody"
         ],
-        "location": "Carson City, Nevada, United States",
-        "founded_year": 2017,
+        "location": "Sydney, Australia",
+        "founded_year": 2016,
         "current_stage": null,
-        "total_raised": "$2.125B",
-        "valuation": "$6B",
-        "investors": [
-          "T. Rowe Price",
-          "Goldman Sachs",
-          "Baillie Gifford",
-          "Fidelity",
-          "Ford Motor Company",
-          "Amazon Climate Pledge Fund",
-          "Eclipse Capital",
-          "NVidia NVentures"
-        ],
-        "website": "https://redwoodmaterials.com",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.heospace.com",
         "sources_per_field": {
           "name": [
-            0,
-            1
+            0
           ],
           "description": [
-            0,
             1
           ],
           "founders": [
@@ -99,27 +89,17 @@
           "founded_year": [
             1
           ],
-          "total_raised": [
-            1
-          ],
-          "valuation": [
-            1
-          ],
-          "investors": [
-            1
-          ],
           "website": [
-            0,
-            1
+            0
           ]
         },
-        "notes": "Total raised calculated from: $775M Series C (2021) + $350M Series E (2025). Source [2] is about Greyparrot, not Redwood Materials, and was excluded. Current stage not specified in sources; Series D from database entry cannot be verified. The $2B DOE loan mentioned in [1] is conditional/government financing, not traditional venture funding."
+        "notes": "Database entry claims Series A with $12M raised and specific investors; however, these details are not supported by provided sources. Source [2] is unrelated to HEO (discusses OpenAI). Only facts verifiable from sources [0] and [1] have been extracted."
       },
       "changes": [
         {
-          "field": "totalRaised",
-          "current": "$2.3B+",
-          "verified": "$2.125B",
+          "field": "founder",
+          "current": "William Crowe, Hiranya Jayakody",
+          "verified": "Dr. Will Crowe, Dr. Hiranya Jayakody",
           "sources": [
             1
           ]
@@ -129,20 +109,114 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://redwoodmaterials.com"
+          "url": "https://www.heospace.com"
         },
         {
           "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Redwood_Materials"
+          "src": "company_about",
+          "url": "https://www.heospace.com/about-us"
         },
         {
           "idx": 2,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/08/openai-next-major-model-astra-solves-major-math-problems.html"
         }
       ],
-      "notes": "Total raised calculated from: $775M Series C (2021) + $350M Series E (2025). Source [2] is about Greyparrot, not Redwood Materials, and was excluded. Current stage not specified in sources; Series D from database entry cannot be verified. The $2B DOE loan mentioned in [1] is conditional/government financing, not traditional venture funding."
+      "notes": "Database entry claims Series A with $12M raised and specific investors; however, these details are not supported by provided sources. Source [2] is unrelated to HEO (discusses OpenAI). Only facts verifiable from sources [0] and [1] have been extracted."
+    },
+    {
+      "name": "K2 Space",
+      "current": {
+        "name": "K2 Space",
+        "founder": "Karan Kunjur, Neel Kunjur",
+        "location": "Torrance, US",
+        "founded": 2022,
+        "fundingStage": "Series C",
+        "totalRaised": "$110M",
+        "website": "https://k2space.com"
+      },
+      "verified": {
+        "name": "K2 Space",
+        "description": "K2 Space builds high-power satellite platforms (Mega Class delivering 20kW power) for deployment across LEO, MEO, and GEO orbits. The company manufactures satellites with 80% in-house vertical integration from its Torrance facility.",
+        "founders": [
+          "Karan Kunjur",
+          "Neel Kunjur"
+        ],
+        "location": "Torrance, US",
+        "founded_year": null,
+        "current_stage": "Series D",
+        "total_raised": "$500M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://k2space.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0,
+            1
+          ],
+          "current_stage": [
+            3
+          ],
+          "total_raised": [
+            3
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry listed Series C with $250M raised at $3B valuation (Dec 2025), but source [3] indicates Series D raising $500M which 'more than doubles the satellite manufacturer's valuation in seven months'. Founded year not verified in provided sources. Mega Class satellite platform confirmed to deliver 20kW power (not 30kW as in database). Series C total_raised amount of $110M in database cannot be verified from sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series C",
+          "verified": "Series D",
+          "sources": [
+            3
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$110M",
+          "verified": "$500M",
+          "sources": [
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://k2space.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://k2space.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        }
+      ],
+      "notes": "Database entry listed Series C with $250M raised at $3B valuation (Dec 2025), but source [3] indicates Series D raising $500M which 'more than doubles the satellite manufacturer's valuation in seven months'. Founded year not verified in provided sources. Mega Class satellite platform confirmed to deliver 20kW power (not 30kW as in database). Series C total_raised amount of $110M in database cannot be verified from sources."
     },
     {
       "name": "SpaceX",
@@ -157,7 +231,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -199,7 +273,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX conducted its initial public offering on June 12, 2026, raising $86 billion, described as 'the largest IPO in history.' Source notes Elon Musk controls 82% voting power (Wikipedia states 85% in one section, 82% in another\u2014using 82% from ownership section). Company was originally founded in El Segundo, California in 2002, now headquartered at Starbase, Texas."
+        "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history). Wikipedia lists Elon Musk controlling 85% voting power via super-voting stock, conflicting with database entry of 82%. Database entry claims '$1.5T valuation' and '$1.65T valuation' with 'IPO' status, but Wikipedia does not state a current valuation figure post-IPO. News sources [1-3] discuss Falcon 9 crash, merger rumors, and other topics but do not provide verifiable company data. Database claims about '165 Falcon 9 launches in 2025' and '81% of all mass to orbit' not found in sources."
       },
       "changes": [
         {
@@ -229,11 +303,11 @@
         },
         {
           "idx": 3,
-          "src": "news (NASA Breaking News)",
-          "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/"
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX conducted its initial public offering on June 12, 2026, raising $86 billion, described as 'the largest IPO in history.' Source notes Elon Musk controls 82% voting power (Wikipedia states 85% in one section, 82% in another\u2014using 82% from ownership section). Company was originally founded in El Segundo, California in 2002, now headquartered at Starbase, Texas."
+      "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history). Wikipedia lists Elon Musk controlling 85% voting power via super-voting stock, conflicting with database entry of 82%. Database entry claims '$1.5T valuation' and '$1.65T valuation' with 'IPO' status, but Wikipedia does not state a current valuation figure post-IPO. News sources [1-3] discuss Falcon 9 crash, merger rumors, and other topics but do not provide verifiable company data. Database claims about '165 Falcon 9 launches in 2025' and '81% of all mass to orbit' not found in sources."
     }
   ],
   "unverifiable": []
