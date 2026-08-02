@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -1.65,
+      "avg_change": -1.58,
       "count": 7
     },
     "nuclear": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.54,
+      "avg_change": 9.38,
       "count": 3
     },
     "biotech": {
@@ -59,6 +59,11 @@
   },
   "topGainers": [
     [
+      "QBTS",
+      "D-Wave Quantum",
+      11.54
+    ],
+    [
       "IONQ",
       "IonQ",
       10.96
@@ -77,11 +82,6 @@
       "ALAB",
       "Astera Labs",
       6.74
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      5.8
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -15.44
     ]
   ],
-  "lastUpdated": "2026-08-02 13:28:59"
+  "lastUpdated": "2026-08-02 19:15:55"
 }
