@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T09:54:34Z",
+  "generated_at": "2026-08-02T09:52:03Z",
   "company_count": 978,
   "checks": {
     "acquisition_language": [
@@ -13,13 +13,6 @@
     ],
     "defunct_language": [],
     "ipo_mismatches": [
-      {
-        "name": "Palantir",
-        "current_stage": "Series E",
-        "expected_stage": "Public",
-        "ticker": "NYSE: PLTR",
-        "action": "Update fundingStage to \"Public\" and set ticker to \"NYSE: PLTR\""
-      },
       {
         "name": "Intuitive Machines",
         "current_stage": "SPAC",
@@ -85,22 +78,22 @@
       }
     ],
     "stage_vocabulary": {
-      "Series A": 266,
-      "Series B": 185,
-      "Seed": 172,
-      "Series C": 101,
-      "Public": 53,
-      "Series D": 37,
+      "Series A": 267,
+      "Series B": 184,
+      "Seed": 171,
+      "Series C": 102,
+      "Public": 55,
+      "Series D": 38,
       "Growth": 26,
       "Pre-Seed": 23,
-      "Series E": 19,
+      "Series E": 17,
       "Series G": 16,
       "Late Stage": 10,
+      "Private": 9,
       "Series F": 8,
-      "Private": 8,
       "SPAC": 8,
       "IPO": 6,
-      "Pre-IPO": 5,
+      "Pre-IPO": 3,
       "Bootstrapped": 3,
       "Public (KOSDAQ)": 3,
       "Stealth": 2,
@@ -194,11 +187,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "rebrand_suspect",
+        "kind": "unreachable_website",
         "name": "Divergent",
-        "old_url": "https://www.divergent3d.com",
-        "new_url": "https://www.divergent.us/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+        "url": "https://www.divergent3d.com",
+        "error": "ConnectTimeout",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
@@ -215,18 +208,11 @@
         "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "dead_website",
         "name": "Extropic",
         "url": "https://extropic.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
-      },
-      {
-        "kind": "unreachable_website",
-        "name": "Cover",
-        "url": "https://www.buildcover.com",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "rebrand_suspect",
@@ -248,13 +234,6 @@
         "old_url": "https://maticrobotics.com",
         "new_url": "https://maticrobots.com",
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "unreachable_website",
-        "name": "Shinkei",
-        "url": "https://shinkei.systems",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
@@ -292,11 +271,11 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "rebrand_suspect",
         "name": "AMP Robotics",
-        "url": "https://amprobotics.com",
-        "error": "ReadTimeout",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "old_url": "https://amprobotics.com",
+        "new_url": "https://ampsortation.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
         "kind": "rebrand_suspect",
@@ -308,8 +287,8 @@
     ]
   },
   "summary": {
-    "p0_issues": 17,
-    "p1_issues": 14,
+    "p0_issues": 16,
+    "p1_issues": 15,
     "missing_websites": 1,
     "distinct_stages": 43
   }

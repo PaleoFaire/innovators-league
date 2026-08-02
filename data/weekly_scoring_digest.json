@@ -1,58 +1,95 @@
 {
-  "generated_at": "2026-07-26T09:54:31.844820+00:00",
-  "week_ending": "2026-07-26",
+  "generated_at": "2026-08-02T09:52:00.717777+00:00",
+  "week_ending": "2026-08-02",
   "window_days": 7,
-  "events_processed": 4,
-  "companies_touched": 4,
+  "events_processed": 7,
+  "companies_touched": 6,
   "companies_moved": 1,
-  "companies_unchanged": 2,
+  "companies_unchanged": 3,
   "movers_up_top20": [
     {
-      "company": "AST SpaceMobile",
+      "company": "Joby Aviation",
       "delta": 1.5,
-      "new_composite": 75.5,
-      "old_composite": 74.0,
+      "new_composite": 71.0,
+      "old_composite": 69.5,
       "new_tier": "leader",
       "reasons": [
+        "[exec_hire_star] ",
         "[exec_hire_star] "
       ]
     }
   ],
   "movers_down_top10": [],
-  "tier_crossings": [],
+  "tier_crossings": [
+    {
+      "company": "Joby Aviation",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 71.0,
+      "reasons": [
+        "[exec_hire_star] ",
+        "[exec_hire_star] "
+      ],
+      "first_time_elite": false
+    }
+  ],
   "first_time_elite": [],
   "top_headlines": [
+    {
+      "company": "Joby Aviation",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-07-31",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001193125-26-327137%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Ginkgo Bioworks",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-07-30",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-051041%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Rivian",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-07-30",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001874178-26-000053%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Aurora Innovation",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-07-29",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001828108-26-000075%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Oklo",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-07-28",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001849056-26-000039%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Joby Aviation",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-07-28",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001193125-26-321272%22&dateRange=custom&forms=8-K"
+    },
     {
       "company": "D-Wave Quantum",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-07-24",
+      "date": "2026-07-27",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000109%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Momentus",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-07-23",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-086254%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "Satellogic",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-07-23",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-081020%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "AST SpaceMobile",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-07-20",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001493152-26-033912%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000117%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {

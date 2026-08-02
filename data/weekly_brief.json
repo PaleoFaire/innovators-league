@@ -1,84 +1,84 @@
 {
-  "date": "2026-07-27",
-  "display_date": "Jul 27, 2026",
-  "generated_at": "2026-07-27T12:57:01.269070+00:00",
-  "cutoff": "2026-07-20T12:57:01.269070+00:00",
+  "date": "2026-08-02",
+  "display_date": "Aug 02, 2026",
+  "generated_at": "2026-08-02T11:06:28.945991+00:00",
+  "cutoff": "2026-07-26T11:06:28.945991+00:00",
   "section_count": 7,
-  "total_items": 290,
+  "total_items": 276,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 48,
+      "count": 63,
       "items": [
         {
-          "company": "Slate Auto",
-          "current": 35.5,
-          "previous": 29.5,
-          "change": 6.0,
+          "company": "Seasats",
+          "current": 30.0,
+          "previous": 36.0,
+          "change": -6.0,
           "tier": "early"
         },
         {
-          "company": "JetZero",
-          "current": 35.0,
-          "previous": 29.0,
-          "change": 6.0,
+          "company": "Havoc AI",
+          "current": 30.0,
+          "previous": 36.0,
+          "change": -6.0,
           "tier": "early"
         },
         {
-          "company": "Electra.aero",
-          "current": 35.0,
-          "previous": 29.0,
-          "change": 6.0,
+          "company": "Standard Subsea",
+          "current": 29.5,
+          "previous": 35.5,
+          "change": -6.0,
           "tier": "early"
         },
         {
-          "company": "Chai Discovery",
-          "current": 35.5,
-          "previous": 32.0,
-          "change": 3.5,
+          "company": "Albacore",
+          "current": 29.5,
+          "previous": 35.5,
+          "change": -6.0,
           "tier": "early"
         },
         {
-          "company": "Resilience",
-          "current": 36.0,
-          "previous": 33.0,
+          "company": "Odin Dynamics",
+          "current": 29.5,
+          "previous": 35.5,
+          "change": -6.0,
+          "tier": "early"
+        },
+        {
+          "company": "Sierra Space",
+          "current": 43.5,
+          "previous": 40.5,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Onebrief",
-          "current": 36.0,
-          "previous": 39.0,
-          "change": -3.0,
+          "company": "HawkEye 360",
+          "current": 40.5,
+          "previous": 37.5,
+          "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Kodiak AI",
-          "current": 35.5,
-          "previous": 38.5,
-          "change": -3.0,
+          "company": "Ursa Space Systems",
+          "current": 40.0,
+          "previous": 37.0,
+          "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "BRINC Drones",
-          "current": 35.5,
-          "previous": 38.5,
-          "change": -3.0,
+          "company": "Besxar Space Industries",
+          "current": 40.0,
+          "previous": 37.0,
+          "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Echodyne",
-          "current": 35.5,
-          "previous": 38.5,
-          "change": -3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Viken Detection",
-          "current": 35.5,
-          "previous": 38.5,
-          "change": -3.0,
+          "company": "CesiumAstro",
+          "current": 40.0,
+          "previous": 37.0,
+          "change": 3.0,
           "tier": "early"
         }
       ]
@@ -86,62 +86,62 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 10,
+      "count": 24,
       "items": [
         {
-          "company": "Momentus",
+          "company": "Oklo",
           "form": "8-K",
-          "description": "tm2621205d1_8k.htm",
-          "date": "2026-07-23",
+          "description": "oklo-20260722.htm",
+          "date": "2026-07-28",
           "isIPO": false
         },
         {
           "company": "D-Wave Quantum",
           "form": "8-K",
-          "description": "qbts-20260724.htm",
-          "date": "2026-07-24",
+          "description": "qbts-20260727.htm",
+          "date": "2026-07-27",
           "isIPO": false
         },
         {
-          "company": "Satellogic",
+          "company": "Ginkgo Bioworks",
           "form": "8-K",
-          "description": "ea0299090-8k_zoomcar.htm",
-          "date": "2026-07-23",
+          "description": "dna-20260730.htm",
+          "date": "2026-07-30",
           "isIPO": false
         },
         {
-          "company": "Palantir Technologies",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1784937605.xml",
-          "date": "2026-07-24",
+          "company": "Joby Aviation",
+          "form": "8-K",
+          "description": "d49031d8k.htm",
+          "date": "2026-07-31",
           "isIPO": false
         },
         {
-          "company": "BlackSky Technology",
-          "form": "DEF 14A",
-          "description": "bksy-20260723.htm",
-          "date": "2026-07-23",
+          "company": "Joby Aviation",
+          "form": "8-K",
+          "description": "d152570d8k.htm",
+          "date": "2026-07-28",
           "isIPO": false
         },
         {
-          "company": "D-Wave Quantum",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1784671121.xml",
-          "date": "2026-07-21",
-          "isIPO": false
-        },
-        {
-          "company": "Rivian",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1784752694.xml",
-          "date": "2026-07-22",
+          "company": "Aurora Innovation",
+          "form": "8-K",
+          "description": "aur-20260729.htm",
+          "date": "2026-07-29",
           "isIPO": false
         },
         {
           "company": "Rivian",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1784752629.xml",
-          "date": "2026-07-22",
+          "form": "8-K",
+          "description": "rivn-20260730.htm",
+          "date": "2026-07-30",
+          "isIPO": false
+        },
+        {
+          "company": "Aurora Innovation",
+          "form": "10-Q",
+          "description": "aur-20260630.htm",
+          "date": "2026-07-29",
           "isIPO": false
         }
       ]
@@ -149,247 +149,266 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 1,
+      "count": 3,
       "items": [
         {
-          "title": "DO 23 O&S WITH SOW.",
+          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
           "agency": "",
           "value": "",
-          "date": "2026-07-21"
+          "date": "2026-08-03"
+        },
+        {
+          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
+          "agency": "",
+          "value": "",
+          "date": "2026-08-03"
+        },
+        {
+          "title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICES (XEVAS)",
+          "agency": "",
+          "value": "",
+          "date": "2026-07-28"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 47,
+      "count": 43,
       "items": [
         {
-          "title": "Information Collection Being Reviewed by the Federal Communications Commission",
+          "title": "Seeking Comment on Prohibiting the Importation and Marketing of Certain Foreign-Produced Military-Grade Uncrewed Aircraf",
           "type": "Notice",
           "agencies": [
             "Federal Communications Commission"
           ],
           "significant": false,
-          "date": "2026-07-27"
+          "date": "2026-08-03"
         },
         {
-          "title": "Information Collection Being Reviewed by the Federal Communications Commission Delegated Authority",
-          "type": "Notice",
-          "agencies": [
-            "Federal Communications Commission"
-          ],
-          "significant": false,
-          "date": "2026-07-27"
-        },
-        {
-          "title": "Review of Submarine Cable Landing License Rules and Procedures To Assess Evolving National Security, Law Enforcement, Fo",
+          "title": "Requirements for Interference-Tolerant Radio Altimeter Systems",
           "type": "Rule",
           "agencies": [
+            "Transportation Department",
+            "Federal Aviation Administration"
+          ],
+          "significant": false,
+          "date": "2026-07-31"
+        },
+        {
+          "title": "Seeking Comment on Prohibiting the Importation and Marketing of Certain Covered UAS and UAS Critical Components and Equi",
+          "type": "Notice",
+          "agencies": [
             "Federal Communications Commission"
           ],
           "significant": false,
-          "date": "2026-07-27"
+          "date": "2026-07-30"
         },
         {
-          "title": "Modernizing Package Certification Requirements",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-07-27"
-        },
-        {
-          "title": "Reducing Barriers to Medical Use Licensing",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-07-27"
-        },
-        {
-          "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Supplement; Covered Defense Telecommunication",
+          "title": "Notice of Availability of the Final Programmatic Environmental Assessment and FONSI/ROD",
           "type": "Notice",
           "agencies": [
-            "Defense Department",
-            "Defense Acquisition Regulations System"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-07-27"
+          "date": "2026-07-30"
+        },
+        {
+          "title": "Statement of Organization, Functions, and Delegations of Authority",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "Food and Drug Administration"
+          ],
+          "significant": false,
+          "date": "2026-07-29"
+        },
+        {
+          "title": "Advisory Committee on the Medical Uses of Isotopes: Meeting Notice",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-08-03"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 31,
+      "count": 27,
       "items": [
         {
-          "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
-          "source": "The Robot Report",
-          "company": "Humanoid",
+          "title": "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billi",
+          "source": "Crunchbase News",
+          "company": "Safe Superintelligence",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "Tesla Robotaxi &#038; Waymo Both Expanding Into Tampa, Florida!",
-          "source": "CleanTechnica",
-          "company": "Waymo",
-          "impact": "low",
-          "type": "milestone"
+          "title": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "source": "SpaceNews",
+          "company": "K2 Space",
+          "impact": "high",
+          "type": "funding"
         },
         {
-          "title": "UK selects Tekever AR5 surveillance drones to succeed Watchkeeper\ufffd\ufffd",
-          "source": "Breaking Defense",
-          "company": "Tekever",
+          "title": "inforcer raises $50M Series C to scale AI security platform for MSPs",
+          "source": "Tech.eu",
+          "company": "Scale AI",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
+          "source": "SpaceNews",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
+          "source": "SpaceNews",
+          "company": "K2 Space",
+          "impact": "medium",
+          "type": "contract"
+        },
+        {
+          "title": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
+          "source": "Wired",
+          "company": "Anthropic",
           "impact": "low",
           "type": "news"
         },
         {
-          "title": "Blue Origin to test New Glenn upper stages at Stennis",
-          "source": "SpaceNews",
-          "company": "Blue Origin",
-          "impact": "low",
-          "type": "ipo"
-        },
-        {
-          "title": "Rocket Lab to open Alaska launch site under $266 million Space Force deal",
-          "source": "SpaceNews",
-          "company": "Rocket Lab",
-          "impact": "medium",
-          "type": "ipo"
-        },
-        {
-          "title": "Multiverse Computing targeting up to $570M in latest round",
-          "source": "Tech.eu",
-          "company": "Multiverse Computing",
-          "impact": "medium",
-          "type": "funding"
-        },
-        {
-          "title": "Hugging Face CEO calls for \u2018radical transparency\u2019 after \u2018unprecedented\u2019 OpenAI hack",
-          "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "hire"
-        },
-        {
-          "title": "SpaceX Starship: The Real Path from One-Month Turnaround to Reuse Measured in Hours",
-          "source": "Next Big Future",
+          "title": "SpaceX\u2019s Falcon 9 Rocket Is About to Crash Into the Moon\u2014and It Could Be Visible From Earth",
+          "source": "Wired",
           "company": "SpaceX",
           "impact": "low",
           "type": "ipo"
+        },
+        {
+          "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+          "source": "TechCrunch",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "news"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 59,
+      "count": 42,
       "items": [
         {
-          "title": "Claude Opus 5",
-          "score": 1528,
-          "comments": 862,
+          "title": "Tailscale didn't stop the Hugging Face intrusion",
+          "score": 602,
+          "comments": 213,
           "companies": [
-            "Anthropic"
+            "Hugging Face",
+            "Scale AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=49038433"
+          "url": "https://news.ycombinator.com/item?id=49127306"
         },
         {
-          "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
-          "score": 1042,
-          "comments": 861,
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "score": 429,
+          "comments": 301,
           "companies": [
-            "Palantir"
+            "HEO",
+            "OpenAI",
+            "Matic Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=49023016"
+          "url": "https://news.ycombinator.com/item?id=49132058"
         },
         {
-          "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
-          "score": 681,
-          "comments": 368,
+          "title": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
+          "score": 328,
+          "comments": 161,
           "companies": [
-            "Rebellion Defense",
-            "Umbra",
-            "Vannevar Labs",
-            "Reveal Technology"
+            "AMP Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=49020999"
+          "url": "https://news.ycombinator.com/item?id=49123386"
         },
         {
-          "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-          "score": 597,
-          "comments": 261,
+          "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+          "score": 294,
+          "comments": 267,
           "companies": [
-            "ICON",
-            "Conductor Quantum",
-            "Photonic Inc"
+            "Matter"
           ],
-          "url": "https://news.ycombinator.com/item?id=49035303"
+          "url": "https://news.ycombinator.com/item?id=49139102"
         },
         {
-          "title": "My security camera shipped a GitHub admin token in its login page",
-          "score": 585,
-          "comments": 189,
+          "title": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
+          "score": 290,
+          "comments": 158,
           "companies": [
-            "Cape",
+            "Ada",
             "ideaForge",
-            "Percepto"
+            "Asylon Robotics",
+            "Vention"
           ],
-          "url": "https://news.ycombinator.com/item?id=49034292"
+          "url": "https://news.ycombinator.com/item?id=49134694"
         },
         {
-          "title": "Flux 3",
-          "score": 556,
-          "comments": 131,
+          "title": "RipGrep musl binaries occasionally segfault during very-large searches",
+          "score": 271,
+          "comments": 181,
           "companies": [
-            "Black Forest Labs",
-            "Flux"
+            "Durin"
           ],
-          "url": "https://news.ycombinator.com/item?id=49031796"
+          "url": "https://news.ycombinator.com/item?id=49133889"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 94,
+      "count": 74,
       "items": [
         {
-          "title": "Banco Comercial Portugu\u00eas, S.A. informs about Interim report on the transactions conducted under the Share Buy- Back Pro",
-          "source": "globenewswire_all",
+          "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
+          "source": "spacenews",
+          "companies": [
+            "K2 Space",
+            "Figure AI",
+            "Xcimer Energy",
+            "Aurelius Systems",
+            "Focused Energy",
+            "Marvel Fusion"
+          ]
+        },
+        {
+          "title": "China launches secretive TJS-27 pair, orbits next-gen Tianlian relay sat",
+          "source": "spacenews",
           "companies": []
         },
         {
-          "title": "Banco Comercial Portugu\u00eas, S.A. informa sobre Relat\u00f3rio intercalar das opera\u00e7\u00f5es realizadas no \u00e2mbito do Programa de Rec",
-          "source": "globenewswire_all",
+          "title": "Sending repurposed Mars rover to the moon could cost more than $1 billion",
+          "source": "spacenews",
           "companies": []
         },
         {
-          "title": "NAVER, NVIDIA and Brookfield to Expand Korea\u2019s National AI Factory Infrastructure Buildout",
-          "source": "globenewswire_all",
+          "title": "Spain commits up to $2.3 billion for national military communications for IRIS\u00b2",
+          "source": "spacenews",
           "companies": []
         },
         {
-          "title": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
-          "source": "globenewswire_all",
+          "title": "Inside the effort to show Congress what war in space looks like",
+          "source": "spacenews",
           "companies": []
         },
         {
-          "title": "Faircourt Asset Management Inc. Announces July Distribution",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "ARCPOINT PROVIDES LEADERSHIP UPDATE",
-          "source": "globenewswire_all",
+          "title": "Space Force picks 15 companies for $981 million training range contract",
+          "source": "spacenews",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-07-27-c2db4061485d"
+  "brief_id": "brief-2026-08-02-af6b7a9668ec"
 }
