@@ -16,7 +16,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "10h ago"
   },
   {
     "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
@@ -35,7 +35,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "10h ago"
+    "time": "11h ago"
   },
   {
     "title": "OpenAI Next Major Model Astra Solves Major Math Problems",
@@ -56,7 +56,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "13h ago"
   },
   {
     "title": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
@@ -76,7 +76,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "22h ago"
   },
   {
     "title": "SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth",
@@ -177,6 +177,29 @@
       "climate",
       "robotics",
       "transportation"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+    "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
+    "description": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster. The tests, conducted at NASA’s Ames Research Center in California’s Silicon Valley, focused on better understanding the",
+    "pubDate": "Fri, 31 Jul 2026 18:39:47 +0000",
+    "category": "Human Landing System Program",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Dust",
+      "ICON"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "housing"
     ],
     "type": "ipo",
     "impact": "low",
@@ -728,7 +751,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Waymo crashes 1/3 as much as a human driver, says IIHS &#8211; with some caveats",

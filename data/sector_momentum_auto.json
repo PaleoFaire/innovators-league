@@ -1,30 +1,30 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 71,
+    "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
+      "Space Force awards K2 Space $22.9 million for laser communic",
       "SpaceX\u2019s Falcon 9 Rocket Is About to Crash Into the Moon\u2014and",
-      "Google nixes its Earth AI feature one day after launch, amid",
-      "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Merced"
+      "Google nixes its Earth AI feature one day after launch, amid"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 100,
+      "news": 95,
       "hiring": 0,
       "market": 55
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "AI & Software",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI reportedly finds evidence that more of its agents ran",
-      "Anthropic confirms its AI breached 3 organizations during te",
-      "Anthropic Says Claude Hacked Into 3 Organizations During Cyb"
+      "OpenAI Next Major Model Astra Solves Major Math Problems",
+      "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New L",
+      "OpenAI reportedly finds evidence that more of its agents ran"
     ],
     "fundingQ": "$282.7B",
     "components": {
@@ -33,7 +33,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -51,7 +51,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Climate & Energy",
@@ -68,15 +68,15 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Biotech & Health",
     "momentum": 53,
     "trend": "steady",
     "catalysts": [
+      "OpenAI Next Major Model Astra Solves Major Math Problems",
       "Google nixes its Earth AI feature one day after launch, amid",
-      "OpenAI\u2019s Hacking Debacle Comes Down to Human Error",
       "<a href=\"/biotech/vertexs-latest-autoimmune-tce-play-involve"
     ],
     "fundingQ": "$22.0B",
@@ -86,7 +86,25 @@
       "hiring": 0,
       "market": 71
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "Space Force awards K2 Space $22.9 million for laser communic",
+      "K2 Space raises $500 million for commercial, defense satelli",
+      "SpaceX wins $1.6 billion in launch orders for military satel"
+    ],
+    "fundingQ": "$11.3B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 51
+    },
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Nuclear Energy",
@@ -104,25 +122,7 @@
       "hiring": 0,
       "market": 53
     },
-    "lastUpdated": "2026-08-01"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 50,
-    "trend": "steady",
-    "catalysts": [
-      "K2 Space raises $500 million for commercial, defense satelli",
-      "SpaceX wins $1.6 billion in launch orders for military satel",
-      "French wildfires threaten nuclear deterrence industry, Rafal"
-    ],
-    "fundingQ": "$11.3B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 51
-    },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Transportation",
@@ -138,7 +138,7 @@
       "hiring": 0,
       "market": 38
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -154,25 +154,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 21,
-    "trend": "declining",
+    "momentum": 22,
+    "trend": "rising",
     "catalysts": [
+      "Space Force awards K2 Space $22.9 million for laser communic",
       "Anthropic confirms its AI breached 3 organizations during te",
-      "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
-      "K2 Space raises $500 million for commercial, defense satelli"
+      "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Quantum Computing",
@@ -188,25 +188,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 13,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Twelve Hours of AI Work, Seventy Minutes You Can Trust",
       "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
-      "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
-      "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Da"
+      "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 33
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -223,7 +223,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Drones & Autonomous",
@@ -239,7 +239,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Housing & Construction",
@@ -255,7 +255,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   },
   {
     "sector": "Ocean & Maritime",
@@ -271,6 +271,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-01"
+    "lastUpdated": "2026-08-02"
   }
 ]

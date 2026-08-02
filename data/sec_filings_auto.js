@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-01 08:25:36 UTC
+// Last updated: 2026-08-02 08:28:43 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509549.xml", isIPO: false, ticker: "JOBY" },
   { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509512.xml", isIPO: false, ticker: "JOBY" },

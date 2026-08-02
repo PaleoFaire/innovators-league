@@ -1,52 +1,52 @@
 // Auto-generated news signals
-// Last updated: 2026-08-02T06:40:10.223Z
+// Last updated: 2026-08-02T08:28:38.453Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1785652810223,
+    "id": 1785659318453,
     "type": "news",
     "company": "Twelve",
     "headline": "Twelve Hours of AI Work, Seventy Minutes You Can Trust",
     "source": "Next Big Future",
-    "time": "8h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/twelve-hours-of-ai-work-seventy-minutes-you-can-trust.html"
   },
   {
-    "id": 1785652810224,
+    "id": 1785659318454,
     "type": "contract",
     "company": "K2 Space",
     "headline": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
     "source": "SpaceNews",
-    "time": "10h ago",
+    "time": "11h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/"
   },
   {
-    "id": 1785652810225,
+    "id": 1785659318455,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Next Major Model Astra Solves Major Math Problems",
     "source": "Next Big Future",
-    "time": "11h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/openai-next-major-model-astra-solves-major-math-problems.html"
   },
   {
-    "id": 1785652810226,
+    "id": 1785659318456,
     "type": "news",
     "company": "Anthropic",
     "headline": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
     "source": "Wired",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/"
   },
   {
-    "id": 1785652810227,
+    "id": 1785659318457,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/spacex-falcon-9-rocket-crash-into-moon/"
   },
   {
-    "id": 1785652810228,
+    "id": 1785659318458,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI reportedly finds evidence that more of its agents ran amok",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/"
   },
   {
-    "id": 1785652810229,
+    "id": 1785659318459,
     "type": "funding",
     "company": "Safe Superintelligence",
     "headline": "The Week’s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
   },
   {
-    "id": 1785652810230,
+    "id": 1785659318460,
     "type": "milestone",
     "company": "Earth AI",
     "headline": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/"
   },
   {
-    "id": 1785652810231,
+    "id": 1785659318461,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more",
@@ -101,7 +101,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/07/31/podcast-tesla-spacex-merger-rivian-r2-progress-new-mercedes-gla-and-more/"
   },
   {
-    "id": 1785652810232,
+    "id": 1785659318462,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+    "source": "NASA Breaking News",
+    "time": "1d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/"
+  },
+  {
+    "id": 1785659318463,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Anthropic confirms its AI breached 3 organizations during testing",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/business/2026/07/anthropic-confirms-its-ai-breached-3-organizations-during-testing/415159/"
   },
   {
-    "id": 1785652810233,
+    "id": 1785659318464,
     "type": "news",
     "company": "Zoox",
     "headline": "Zoox Gets 1st Approval From USA For Paid Robotaxis — With No Human Controls",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/07/30/zoox-gets-first-us-paid-robotaxi-with-no-human-controls-approval/"
   },
   {
-    "id": 1785652810234,
+    "id": 1785659318465,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Tesla weighs selling China business to clear path for SpaceX merger",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/"
   },
   {
-    "id": 1785652810235,
+    "id": 1785659318466,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/"
   },
   {
-    "id": 1785652810236,
+    "id": 1785659318467,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Supermicro and Dell With Building Block Data Centers for SpaceX",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/supermicro-and-dell-with-building-block-data-centers-for-spacex.html"
   },
   {
-    "id": 1785652810237,
+    "id": 1785659318468,
     "type": "news",
     "company": "Anthropic",
     "headline": "Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/"
   },
   {
-    "id": 1785652810238,
+    "id": 1785659318469,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/07/report-agrees-with-nextbigfuture-on-8-gigawatts-spacex-ai-data-centers-by-2027-2028.html"
   },
   {
-    "id": 1785652810239,
+    "id": 1785659318470,
     "type": "funding",
     "company": "K2 Space",
     "headline": "K2 Space raises $500 million for commercial, defense satellite expansion",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
   },
   {
-    "id": 1785652810240,
+    "id": 1785659318471,
     "type": "milestone",
     "company": "Zoox",
     "headline": "For the First Time, Zoox Can Charge People for Rides in Its Steering-Wheel-Free Robotaxis",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/zoox-becomes-the-first-steering-wheel-free-robotaxi-to-charge-for-rides-in-the-us/"
   },
   {
-    "id": 1785652810241,
+    "id": 1785659318472,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Minihard Thesis: Can SpaceX Turn AI Data Centers Into a Production Line?",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/07/minihard-thesis-can-spacex-turn-ai-data-centers-into-a-production-line.html"
-  },
-  {
-    "id": 1785652810242,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX Heat Shield System Economics Are Not a Dead End",
-    "source": "Next Big Future",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/07/spacex-heat-shield-system-economics-are-not-a-dead-end.html"
   }
 ];
