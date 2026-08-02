@@ -85332,12 +85332,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-02 13:45
+// Last updated: 2026-08-02 15:09
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "15h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "17h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "19h ago", impact: "low", unread: true },
+  { id: 1, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "16h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "18h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "20h ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "Anthropic", headline: "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX's Falcon 9 Rocket Is About to Crash Into the Moon'and It Could Be Visible From Earth", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "OpenAI", headline: "OpenAI reportedly finds evidence that more of its agents ran amok", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
