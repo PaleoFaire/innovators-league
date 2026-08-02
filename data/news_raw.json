@@ -16,7 +16,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "12h ago"
+    "time": "14h ago"
   },
   {
     "title": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
@@ -36,7 +36,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth",
@@ -137,6 +137,29 @@
       "climate",
       "robotics",
       "transportation"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+    "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
+    "description": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster. The tests, conducted at NASA’s Ames Research Center in California’s Silicon Valley, focused on better understanding the",
+    "pubDate": "Fri, 31 Jul 2026 18:39:47 +0000",
+    "category": "Human Landing System Program",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Dust",
+      "ICON"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "housing"
     ],
     "type": "ipo",
     "impact": "low",
@@ -275,27 +298,6 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "2d ago"
-  },
-  {
-    "title": "For the First Time, Zoox Can Charge People for Rides in Its Steering-Wheel-Free Robotaxis",
-    "link": "https://www.wired.com/story/zoox-becomes-the-first-steering-wheel-free-robotaxi-to-charge-for-rides-in-the-us/",
-    "description": "The temporary exemption from federal safety standards will let Amazon’s Zoox launch a real, paid robotaxi service in Las Vegas.",
-    "pubDate": "Thu, 30 Jul 2026 17:06:13 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Zoox",
-    "matchedCompanies": [
-      "Zoox",
-      "Waymo"
-    ],
-    "sectors": [
-      "transportation",
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "low",
     "time": "2d ago"
   },
   {
