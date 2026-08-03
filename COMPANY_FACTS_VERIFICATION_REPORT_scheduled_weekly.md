@@ -1,51 +1,62 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-07-27T10:39:52+00:00  
+**Generated:** 2026-08-03T10:40:06+00:00  
 
 **Cohort:** `data/cohort_companies_weekly.json`  
 
 **Cohort size:** 91 companies  
 
-**New Claude extractions this run:** 71  
+**New Claude extractions this run:** 70  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 81 | 89% |
-| 🔧 Changes proposed | 2 | 2% |
-| ❓ Unverifiable | 8 | 9% |
+| ✅ Cleared (data matches sources) | 80 | 88% |
+| 🔧 Changes proposed | 4 | 4% |
+| ❓ Unverifiable | 7 | 8% |
 
 ---
 
-## 🔧 Proposed Changes (2 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Alsym Energy
+### ARX Robotics
 
-- **`founder`:** `Mukesh Chatter (co-founder & CEO), Kripa Varanasi (MIT profe` → `Mukesh Chatter`  
-  Sources: [company_about](https://www.alsym.com/about)
+- **`totalRaised`:** `$51.15M` → `€42M`  
+  Sources: [company_about](https://www.arx-robotics.com/about)
 
-  **Notes:** Only Mukesh Chatter is explicitly named as co-founder in sources provided. Source [1] states 'Founded by tech industry veterans' but does not name other co-founders by title. Database entry references Kripa Varanasi, Nikhil Koratkar, and Rahul Mukherjee but these are not verified in provided sources. Series C stage, total raised (~$110-111M), valuation, and specific investor list from database entry cannot be verified from provided sources.
+  **Notes:** Founded as ARX Landsysteme in 2022, later rebranded to ARX Robotics. Funding timeline: €1.15M Pre-Seed (2023), €9M Seed (2024), €31M Series A (2025), €11M Series A Extension (2025). Total €42M raised across all rounds. Expanded to London office in 2025.
 
-### Blue Energy
+### Ayar Labs
 
-- **`founder`:** `Jake Jurewicz (CEO), Matt Slotkin` → `Jake Jurewicz`  
-  Sources: [company_about](https://blueenergy.co/about)
-- **`totalRaised`:** `$425M` → `$380M`  
-  Sources: [company_website](https://blueenergy.co)
+- **`location`:** `San Jose, CA` → `San Jose, California`  
+  Sources: [company_about](https://ayarlabs.com/about)
 
-  **Notes:** Only Jake Jurewicz is explicitly identified as CEO & Co-founder in sources; no other co-founder name is verified. Database entry lists 'Matt Slotkin' as co-founder but this is not mentioned in provided sources. Location listed as 'Chevy Chase, MD' in database entry but not verified in sources. Founded year 2023 in database entry but not verified in sources. Most recent funding mention is $380M from April 2026 (source [0]), though database entry lists $425M total_raised.
+  **Notes:** Source [1] lists '$500M Series E; $3.75B Valuation' dated 2026. Founder names not explicitly stated as 'founder' or 'co-founder' in provided sources, so marked null per accuracy rules. Source [0] mentions valuation of '$3.8 billion' but source [1] specifies '$3.75B' for the Series E round; using more recent/specific figure from source [1].
+
+### Core Automation
+
+- **`totalRaised`:** `Targeting $500M-$1B at $4-5B+ val` → `$432.13M`  
+  Sources: [sec_form_d](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148145&type=D&dateb=&owner=include&count=10)
+
+  **Notes:** SEC Form D filing from July 30, 2026 indicates a raise of $432,125,053. This appears to be a different company from the AI/frontier-tech firm described in the database entry provided for reference. The sources describe an industrial automation and control systems engineering firm founded in 2001, not an AI lab startup. The database entry references may refer to a different entity or be outdated/conflated information.
+
+### Creotech Instruments
+
+- **`totalRaised`:** `€52M+ contracts` → `€52M`  
+  Sources: [company_website](https://creotech.pl)
+
+  **Notes:** Founded year not explicitly stated in sources. Founder Grzegorz Brona not explicitly named as founder in provided sources. Listed on Warsaw Stock Exchange Main Market since 2022. €52M ESA contract for CAMILA constellation announced April 2025. Investor list from database entry could not be verified from provided sources.
 
 ---
 
-## ❓ Unverifiable (8 companies)
+## ❓ Unverifiable (7 companies)
 
 Couldn't fetch authoritative sources. Per Stephen's rule, we leave these as-is rather than guess. May want to flag for manual research or removal from DB.
 
-- **Atana Elements** — *no public sources accessible*
 - **Cambridge Aerospace** — *no public sources accessible*
 - **Collaborative Robotics** — *no public sources accessible*
 - **Cuby Technologies** — *no public sources accessible*
@@ -56,7 +67,7 @@ Couldn't fetch authoritative sources. Per Stephen's rule, we leave these as-is r
 
 ---
 
-## ✅ Cleared (81 companies)
+## ✅ Cleared (80 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -69,7 +80,6 @@ Sample (first 30):
 - ADASI
 - AIR
 - ARC Clean Technology
-- ARX Robotics
 - Aeon Industrial
 - Aerospacelab
 - Aestus Industries
@@ -79,6 +89,7 @@ Sample (first 30):
 - AiDash
 - AlixLabs
 - Allen Control Systems
+- Alsym Energy
 - Amber Bio
 - American Housing Corporation
 - Anduril Industries
@@ -90,11 +101,11 @@ Sample (first 30):
 - Ark Robotics
 - Asimov
 - Astranis
+- Atana Elements
 - Atomic AI
-- Atoms
-- *...and 51 more*
+- *...and 50 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-07-27T10:39:52+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-03T10:40:06+00:00*

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-27T10:39:52+00:00",
+  "generatedAt": "2026-08-03T10:40:06+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
   "cohortSize": 91,
-  "newExtractionsThisRun": 71,
+  "newExtractionsThisRun": 70,
   "summary": {
-    "cleared": 81,
-    "changesProposed": 2,
-    "unverifiable": 8
+    "cleared": 80,
+    "changesProposed": 4,
+    "unverifiable": 7
   },
   "cleared": [
     "1X Technologies",
@@ -17,7 +17,6 @@
     "ADASI",
     "AIR",
     "ARC Clean Technology",
-    "ARX Robotics",
     "Aeon Industrial",
     "Aerospacelab",
     "Aestus Industries",
@@ -27,6 +26,7 @@
     "AiDash",
     "AlixLabs",
     "Allen Control Systems",
+    "Alsym Energy",
     "Amber Bio",
     "American Housing Corporation",
     "Anduril Industries",
@@ -38,6 +38,7 @@
     "Ark Robotics",
     "Asimov",
     "Astranis",
+    "Atana Elements",
     "Atomic AI",
     "Atoms",
     "Auriga Space",
@@ -45,7 +46,6 @@
     "Aventra",
     "Axelera AI",
     "Axelspace",
-    "Ayar Labs",
     "BRINC Drones",
     "Basecamp Research",
     "Baykar",
@@ -55,6 +55,7 @@
     "Beyond Reach Labs",
     "Blackshark.ai",
     "Blackstar",
+    "Blue Energy",
     "Blykalla",
     "Boom Supersonic",
     "BotBuilt",
@@ -72,9 +73,7 @@
     "Chef Robotics",
     "ClearSpace",
     "Cognition",
-    "Core Automation",
     "Corintis",
-    "Creotech Instruments",
     "Cresilon",
     "Critical Energy",
     "Critical Loop",
@@ -94,29 +93,36 @@
   ],
   "changesProposed": [
     {
-      "name": "Alsym Energy",
+      "name": "ARX Robotics",
       "current": {
-        "name": "Alsym Energy",
-        "founder": "Mukesh Chatter (co-founder & CEO), Kripa Varanasi (MIT professor); company about page also lists Nikhil Koratkar; some press lists Rahul Mukherjee as a co-found",
-        "location": "Malden, MA",
-        "founded": null,
-        "fundingStage": "Series C",
-        "totalRaised": "~$110-111M",
-        "website": "https://www.alsym.com"
+        "name": "ARX Robotics",
+        "founder": "Marc Wietfeld",
+        "location": "Munich, Germany",
+        "founded": 2022,
+        "fundingStage": "Series A",
+        "totalRaised": "$51.15M",
+        "website": "https://www.arx-robotics.com"
       },
       "verified": {
-        "name": "Alsym Energy",
-        "description": "American battery technology company developing non-flammable, high-performance sodium-ion batteries for energy storage applications including AI data centers and renewables.",
+        "name": "ARX Robotics",
+        "description": "ARX develops autonomous mobile robotics and software-defined systems for modernizing legacy military fleets. The company provides mission-ready capabilities for European defense forces across reconnaissance, firepower, clearance, surveillance, and evacuation operations.",
         "founders": [
-          "Mukesh Chatter"
+          "Marc Wietfeld"
         ],
-        "location": "Malden, MA",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
+        "location": "Munich, Germany",
+        "founded_year": 2022,
+        "current_stage": "Series A",
+        "total_raised": "\u20ac42M",
         "valuation": null,
-        "investors": null,
-        "website": "https://www.alsym.com",
+        "investors": [
+          "HV Capital",
+          "Speedinvest",
+          "NATO Innovation Fund",
+          "Project A Ventures",
+          "Discovery Ventures",
+          "Omnes Capital"
+        ],
+        "website": "https://www.arx-robotics.com",
         "sources_per_field": {
           "name": [
             0,
@@ -130,20 +136,29 @@
             1
           ],
           "location": [
+            0,
             1
           ],
-          "website": [
-            0,
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
             1
           ]
         },
-        "notes": "Only Mukesh Chatter is explicitly named as co-founder in sources provided. Source [1] states 'Founded by tech industry veterans' but does not name other co-founders by title. Database entry references Kripa Varanasi, Nikhil Koratkar, and Rahul Mukherjee but these are not verified in provided sources. Series C stage, total raised (~$110-111M), valuation, and specific investor list from database entry cannot be verified from provided sources."
+        "notes": "Founded as ARX Landsysteme in 2022, later rebranded to ARX Robotics. Funding timeline: \u20ac1.15M Pre-Seed (2023), \u20ac9M Seed (2024), \u20ac31M Series A (2025), \u20ac11M Series A Extension (2025). Total \u20ac42M raised across all rounds. Expanded to London office in 2025."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "Mukesh Chatter (co-founder & CEO), Kripa Varanasi (MIT professor); company about page also lists Nikhil Koratkar; some press lists Rahul Mukherjee as a co-found",
-          "verified": "Mukesh Chatter",
+          "field": "totalRaised",
+          "current": "$51.15M",
+          "verified": "\u20ac42M",
           "sources": [
             1
           ]
@@ -153,48 +168,132 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.alsym.com"
+          "url": "https://www.arx-robotics.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.alsym.com/about"
+          "url": "https://www.arx-robotics.com/about"
         }
       ],
-      "notes": "Only Mukesh Chatter is explicitly named as co-founder in sources provided. Source [1] states 'Founded by tech industry veterans' but does not name other co-founders by title. Database entry references Kripa Varanasi, Nikhil Koratkar, and Rahul Mukherjee but these are not verified in provided sources. Series C stage, total raised (~$110-111M), valuation, and specific investor list from database entry cannot be verified from provided sources."
+      "notes": "Founded as ARX Landsysteme in 2022, later rebranded to ARX Robotics. Funding timeline: \u20ac1.15M Pre-Seed (2023), \u20ac9M Seed (2024), \u20ac31M Series A (2025), \u20ac11M Series A Extension (2025). Total \u20ac42M raised across all rounds. Expanded to London office in 2025."
     },
     {
-      "name": "Blue Energy",
+      "name": "Ayar Labs",
       "current": {
-        "name": "Blue Energy",
-        "founder": "Jake Jurewicz (CEO), Matt Slotkin",
-        "location": "Chevy Chase, MD",
-        "founded": 2023,
-        "fundingStage": "Growth",
-        "totalRaised": "$425M",
-        "website": "https://blueenergy.co"
+        "name": "Ayar Labs",
+        "founder": "Mark Wade, Vladimir Stojanovic",
+        "location": "San Jose, CA",
+        "founded": 2015,
+        "fundingStage": "Series E",
+        "totalRaised": "$870M+",
+        "website": "https://ayarlabs.com"
       },
       "verified": {
-        "name": "Blue Energy",
-        "description": "Blue Energy builds prefabricated nuclear power plants using factory assembly and modular barge transport, targeting 3-year deployment timelines. The company leverages existing light-water reactor designs and proven technologies within current regulatory frameworks.",
-        "founders": [
-          "Jake Jurewicz"
-        ],
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": "$380M",
-        "valuation": null,
+        "name": "Ayar Labs",
+        "description": "Ayar Labs develops co-packaged optics (CPO) technology using silicon photonics to connect thousands of GPUs across racks via optical fabric. The company's TeraPHY optical engine enables high-bandwidth, low-latency connectivity for hyperscale AI infrastructure.",
+        "founders": null,
+        "location": "San Jose, California",
+        "founded_year": 2015,
+        "current_stage": "Series E",
+        "total_raised": "$870M+",
+        "valuation": "$3.75B",
         "investors": [
-          "VXI Capital",
-          "Engine Ventures",
-          "At One Ventures",
-          "Constellation"
+          "NVIDIA",
+          "Intel",
+          "AMD",
+          "MediaTek",
+          "HPE",
+          "GlobalFoundries"
         ],
-        "website": "https://blueenergy.co",
+        "website": "https://ayarlabs.com",
         "sources_per_field": {
           "name": [
-            0
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "valuation": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [1] lists '$500M Series E; $3.75B Valuation' dated 2026. Founder names not explicitly stated as 'founder' or 'co-founder' in provided sources, so marked null per accuracy rules. Source [0] mentions valuation of '$3.8 billion' but source [1] specifies '$3.75B' for the Series E round; using more recent/specific figure from source [1]."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Jose, CA",
+          "verified": "San Jose, California",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://ayarlabs.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://ayarlabs.com/about"
+        }
+      ],
+      "notes": "Source [1] lists '$500M Series E; $3.75B Valuation' dated 2026. Founder names not explicitly stated as 'founder' or 'co-founder' in provided sources, so marked null per accuracy rules. Source [0] mentions valuation of '$3.8 billion' but source [1] specifies '$3.75B' for the Series E round; using more recent/specific figure from source [1]."
+    },
+    {
+      "name": "Core Automation",
+      "current": {
+        "name": "Core Automation",
+        "founder": "Gerald Depew, Daniel C. Rozok",
+        "location": "California, USA",
+        "founded": 2001,
+        "fundingStage": "Stealth",
+        "totalRaised": "Targeting $500M-$1B at $4-5B+ val",
+        "website": "https://coreautomation.ai"
+      },
+      "verified": {
+        "name": "Core Automation, Inc.",
+        "description": "California-based electrical engineering firm specializing in industrial facility electrical and control system design for food and beverage, pharmaceutical, discrete, and bulk manufacturing environments.",
+        "founders": [
+          "Gerald Depew",
+          "Daniel C. Rozok"
+        ],
+        "location": "California, USA",
+        "founded_year": 2001,
+        "current_stage": null,
+        "total_raised": "$432.13M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://coreautomation.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
           ],
           "description": [
             0
@@ -202,32 +301,108 @@
           "founders": [
             1
           ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
+          "location": [
             0,
             1
+          ],
+          "founded_year": [
+            1
+          ],
+          "total_raised": [
+            2
           ],
           "website": [
             0
           ]
         },
-        "notes": "Only Jake Jurewicz is explicitly identified as CEO & Co-founder in sources; no other co-founder name is verified. Database entry lists 'Matt Slotkin' as co-founder but this is not mentioned in provided sources. Location listed as 'Chevy Chase, MD' in database entry but not verified in sources. Founded year 2023 in database entry but not verified in sources. Most recent funding mention is $380M from April 2026 (source [0]), though database entry lists $425M total_raised."
+        "notes": "SEC Form D filing from July 30, 2026 indicates a raise of $432,125,053. This appears to be a different company from the AI/frontier-tech firm described in the database entry provided for reference. The sources describe an industrial automation and control systems engineering firm founded in 2001, not an AI lab startup. The database entry references may refer to a different entity or be outdated/conflated information."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "Jake Jurewicz (CEO), Matt Slotkin",
-          "verified": "Jake Jurewicz",
+          "field": "totalRaised",
+          "current": "Targeting $500M-$1B at $4-5B+ val",
+          "verified": "$432.13M",
           "sources": [
-            1
+            2
           ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://coreautomation.com"
         },
         {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://coreautomation.com/company"
+        },
+        {
+          "idx": 2,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148145&type=D&dateb=&owner=include&count=10"
+        }
+      ],
+      "notes": "SEC Form D filing from July 30, 2026 indicates a raise of $432,125,053. This appears to be a different company from the AI/frontier-tech firm described in the database entry provided for reference. The sources describe an industrial automation and control systems engineering firm founded in 2001, not an AI lab startup. The database entry references may refer to a different entity or be outdated/conflated information."
+    },
+    {
+      "name": "Creotech Instruments",
+      "current": {
+        "name": "Creotech Instruments",
+        "founder": "Grzegorz Brona",
+        "location": "Piaseczno, Poland",
+        "founded": 2008,
+        "fundingStage": "Public",
+        "totalRaised": "\u20ac52M+ contracts",
+        "website": "https://creotech.pl"
+      },
+      "verified": {
+        "name": "Creotech Instruments",
+        "description": "Poland's largest integrator and manufacturer of satellites, satellite systems, and subsystems specializing in advanced space-sector projects. The company develops the proprietary HyperSat satellite platform for Earth observation, scientific, and communication missions.",
+        "founders": [
+          "Grzegorz Brona"
+        ],
+        "location": "Piaseczno, Poland",
+        "founded_year": null,
+        "current_stage": "Public",
+        "total_raised": "\u20ac52M",
+        "valuation": null,
+        "investors": [
+          "PTE Allianz Polska S.A.",
+          "Agencja Rozwoju Przemys\u0142u S.A.",
+          "TFI PZU S.A."
+        ],
+        "website": "https://creotech.pl",
+        "sources_per_field": {
+          "name": [
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [],
+          "location": [],
+          "founded_year": [],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            0
+          ],
+          "valuation": [],
+          "investors": [],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded year not explicitly stated in sources. Founder Grzegorz Brona not explicitly named as founder in provided sources. Listed on Warsaw Stock Exchange Main Market since 2022. \u20ac52M ESA contract for CAMILA constellation announced April 2025. Investor list from database entry could not be verified from provided sources."
+      },
+      "changes": [
+        {
           "field": "totalRaised",
-          "current": "$425M",
-          "verified": "$380M",
+          "current": "\u20ac52M+ contracts",
+          "verified": "\u20ac52M",
           "sources": [
             0
           ]
@@ -237,22 +412,18 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://blueenergy.co"
+          "url": "https://creotech.pl"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://blueenergy.co/about"
+          "url": "https://creotech.pl/company"
         }
       ],
-      "notes": "Only Jake Jurewicz is explicitly identified as CEO & Co-founder in sources; no other co-founder name is verified. Database entry lists 'Matt Slotkin' as co-founder but this is not mentioned in provided sources. Location listed as 'Chevy Chase, MD' in database entry but not verified in sources. Founded year 2023 in database entry but not verified in sources. Most recent funding mention is $380M from April 2026 (source [0]), though database entry lists $425M total_raised."
+      "notes": "Founded year not explicitly stated in sources. Founder Grzegorz Brona not explicitly named as founder in provided sources. Listed on Warsaw Stock Exchange Main Market since 2022. \u20ac52M ESA contract for CAMILA constellation announced April 2025. Investor list from database entry could not be verified from provided sources."
     }
   ],
   "unverifiable": [
-    {
-      "name": "Atana Elements",
-      "reason": "no public sources accessible"
-    },
     {
       "name": "Cambridge Aerospace",
       "reason": "no public sources accessible"

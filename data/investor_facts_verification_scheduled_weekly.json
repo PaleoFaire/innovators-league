@@ -1,25 +1,95 @@
 {
-  "generatedAt": "2026-07-27T10:42:05+00:00",
+  "generatedAt": "2026-08-03T10:42:21+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
   "cohortSize": 11,
   "newExtractionsThisRun": 11,
   "summary": {
-    "cleared": 8,
-    "changesProposed": 3,
+    "cleared": 7,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
     "Caffeinated Capital",
-    "Cantos Ventures",
     "Eclipse Ventures",
     "General Catalyst",
-    "Lightspeed Venture Partners",
+    "Harpoon Ventures",
     "Point72 Ventures",
     "Shield Capital",
     "Thrive Capital Management, LLC"
   ],
   "changesProposed": [
+    {
+      "name": "Cantos Ventures",
+      "current": {
+        "name": "Cantos Ventures",
+        "shortName": "Cantos",
+        "aum": "$100M+",
+        "flagshipFund": "Cantos Fund III",
+        "founded": 2016,
+        "hq": "San Francisco, CA",
+        "website": "https://cantos.vc"
+      },
+      "verified": {
+        "name": "Cantos Ventures",
+        "short_name": null,
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": null,
+        "hq": "San Francisco, CA",
+        "key_partners": null,
+        "sector_focus": [
+          "Energy",
+          "Defense",
+          "Space",
+          "Advanced Manufacturing",
+          "Infrastructure"
+        ],
+        "thesis": "Cantos provides initial capital and ongoing counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions across energy, defense, space, manufacturing, and critical infrastructure.",
+        "website": "https://cantos.vc",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "hq": [
+            0
+          ],
+          "sector_focus": [
+            0
+          ],
+          "thesis": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [1] is Wikipedia article about 'The Cantos' poem by Ezra Pound, not the venture firm. Founder/partner names, AUM, flagship fund name, and founded year cannot be verified from provided sources. Database entry claims for Ian Rountree and Grant Gregory as key partners, $100M+ AUM, Fund III, and 2016 founding year are not supported by source [0] website content provided."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Cantos provides initial capital and counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions in energy, defense, space, manufacturing, and critical infrastructure.",
+          "verified": "Cantos provides initial capital and ongoing counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions across energy, defense, space, manufacturing, and critical infrastructure.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://cantos.vc"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia (short name)",
+          "url": "https://en.wikipedia.org/wiki/Cantos"
+        }
+      ],
+      "notes": "Source [1] is Wikipedia article about 'The Cantos' poem by Ezra Pound, not the venture firm. Founder/partner names, AUM, flagship fund name, and founded year cannot be verified from provided sources. Database entry claims for Ian Rountree and Grant Gregory as key partners, $100M+ AUM, Fund III, and 2016 founding year are not supported by source [0] website content provided."
+    },
     {
       "name": "DCVC",
       "current": {
@@ -27,7 +97,7 @@
         "shortName": "DCVC",
         "aum": "$4B+",
         "flagshipFund": "DCVC Fund VI",
-        "founded": 2011,
+        "founded": 2010,
         "hq": "Palo Alto, CA",
         "website": "https://dcvc.com"
       },
@@ -49,19 +119,18 @@
           "Dr. Rachel Slaybaugh",
           "Ali Tamaseb",
           "Milo Werner",
-          "Dr. Justin Kern",
-          "Alan Cohen"
+          "Dr. Justin Kern"
         ],
         "sector_focus": [
           "AI",
           "Climate",
           "Engineering",
-          "Materials science",
+          "Materials Science",
           "Robotics",
           "Space",
           "Water",
           "Biology",
-          "Defense and security"
+          "Defense and Security"
         ],
         "thesis": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems to multiply the benefits of capitalism for everyone while reducing its costs.",
         "website": "https://dcvc.com",
@@ -79,9 +148,12 @@
           "aum": [
             1
           ],
+          "flagship_fund": [],
           "founded_year": [
-            0
+            0,
+            1
           ],
+          "hq": [],
           "key_partners": [
             2
           ],
@@ -98,24 +170,40 @@
             2
           ]
         },
-        "notes": "Founded year listed as 'Since 2010' on website (source 0). Database entry lists 2011; sources support 2010. HQ location (Palo Alto, CA in database) not explicitly stated in provided sources. Flagship fund name not mentioned in sources. Alan Cohen listed as Operating Partner in team roster but included as key partner based on seniority level."
+        "notes": "Alan Cohen listed in database as key partner but only appears as 'Operating Partner' on team page (source 2), not as senior partner. Field excluded from key_partners per instructions to list only 'current senior partners.' HQ not found in sources despite database entry stating 'Palo Alto, CA.' Flagship fund name not identified in sources. Sources dated 2026."
       },
       "changes": [
         {
-          "field": "founded",
-          "current": 2011,
-          "verified": 2010,
+          "field": "keyPartners",
+          "current": [
+            "Matthew Ocko",
+            "Zachary Bogue",
+            "Dr. John Hamer",
+            "Dr. Kiersten Stead",
+            "Spencer Punter",
+            "Alan Cohen",
+            "James Hardiman",
+            "Jason Pontin",
+            "Dr. Rachel Slaybaugh",
+            "Ali Tamaseb",
+            "Milo Werner",
+            "Dr. Justin Kern"
+          ],
+          "verified": [
+            "Matthew Ocko",
+            "Zachary Bogue",
+            "Dr. John Hamer",
+            "Dr. Kiersten Stead",
+            "Spencer Punter",
+            "James Hardiman",
+            "Jason Pontin",
+            "Dr. Rachel Slaybaugh",
+            "Ali Tamaseb",
+            "Milo Werner",
+            "Dr. Justin Kern"
+          ],
           "sources": [
-            0
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems using computational approaches and deep technology.",
-          "verified": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems to multiply the benefits of capitalism for everyone while reducing its costs.",
-          "sources": [
-            0,
-            1
+            2
           ]
         }
       ],
@@ -141,7 +229,7 @@
           "url": "https://dcvc.com/companies"
         }
       ],
-      "notes": "Founded year listed as 'Since 2010' on website (source 0). Database entry lists 2011; sources support 2010. HQ location (Palo Alto, CA in database) not explicitly stated in provided sources. Flagship fund name not mentioned in sources. Alan Cohen listed as Operating Partner in team roster but included as key partner based on seniority level."
+      "notes": "Alan Cohen listed in database as key partner but only appears as 'Operating Partner' on team page (source 2), not as senior partner. Field excluded from key_partners per instructions to list only 'current senior partners.' HQ not found in sources despite database entry stating 'Palo Alto, CA.' Flagship fund name not identified in sources. Sources dated 2026."
     },
     {
       "name": "Engine Ventures",
@@ -155,8 +243,8 @@
         "website": "https://engine.xyz"
       },
       "verified": {
-        "name": null,
-        "short_name": null,
+        "name": "Engine Ventures",
+        "short_name": "Engine",
         "aum": null,
         "flagship_fund": null,
         "founded_year": 2023,
@@ -182,6 +270,9 @@
         "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
         "website": "https://engine.xyz",
         "sources_per_field": {
+          "name": [
+            3
+          ],
           "founded_year": [
             3
           ],
@@ -192,14 +283,13 @@
             1
           ],
           "thesis": [
-            1,
             3
           ],
           "website": [
             0
           ]
         },
-        "notes": "Engine Ventures is the venture capital investment arm that separated from The Engine nonprofit incubator/accelerator in 2023. The Engine was founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or explicit list of current senior partners for Engine Ventures. Sources [4-7] are unrelated to Engine Ventures and were excluded from analysis."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a 501(c)(3) nonprofit incubator and accelerator founded by MIT in 2016. No current senior partners explicitly named on sources. AUM not disclosed in provided sources. No flagship fund name identified in sources."
       },
       "changes": [
         {
@@ -258,103 +348,74 @@
           "idx": 3,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
-        },
-        {
-          "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-path-to-one-month-one-week-one-day-and-hours-to-reuse.html"
-        },
-        {
-          "idx": 5,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-heat-shield-analysis.html"
-        },
-        {
-          "idx": 6,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/"
-        },
-        {
-          "idx": 7,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/07/spacex-starship-13-is-6-minutes-from-launch.html"
         }
       ],
-      "notes": "Engine Ventures is the venture capital investment arm that separated from The Engine nonprofit incubator/accelerator in 2023. The Engine was founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or explicit list of current senior partners for Engine Ventures. Sources [4-7] are unrelated to Engine Ventures and were excluded from analysis."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a 501(c)(3) nonprofit incubator and accelerator founded by MIT in 2016. No current senior partners explicitly named on sources. AUM not disclosed in provided sources. No flagship fund name identified in sources."
     },
     {
-      "name": "Harpoon Ventures",
+      "name": "Lightspeed Venture Partners",
       "current": {
-        "name": "Harpoon Ventures",
-        "shortName": "Harpoon",
-        "aum": "$300M+",
-        "flagshipFund": "Harpoon Ventures Fund IV",
-        "founded": 2018,
-        "hq": "San Diego, CA",
-        "website": "https://harpoon.vc"
+        "name": "Lightspeed Venture Partners",
+        "shortName": "Lightspeed",
+        "aum": "$9B+ (Dec 2025 raise)",
+        "flagshipFund": "Lightspeed Fund XIV",
+        "founded": 2000,
+        "hq": "Menlo Park, CA",
+        "website": "https://lsvp.com"
       },
       "verified": {
-        "name": "Harpoon Ventures",
-        "short_name": "Harpoon",
-        "aum": "$155M+",
-        "flagship_fund": "Harpoon Ventures Fund IV",
-        "founded_year": 2018,
-        "hq": "San Diego, CA",
+        "name": "Lightspeed Venture Partners",
+        "short_name": "Lightspeed",
+        "aum": null,
+        "flagship_fund": null,
+        "founded_year": null,
+        "hq": null,
         "key_partners": [
-          "Larsen Jensen"
+          "Barry Eggers",
+          "Peter Nieh",
+          "Ravi Mhatre",
+          "Guru Chahal"
         ],
-        "sector_focus": [
-          "AI",
-          "Cybersecurity",
-          "Deep Tech",
-          "Software Infrastructure",
-          "Aerospace / Defense",
-          "Energy / Materials",
-          "Biotech / Biosecurity"
-        ],
-        "thesis": "Harpoon invests in audacious founders building across AI, deep tech, software infrastructure, and cybersecurity. Founded in 2018 by a two-time Olympic medalist and former Navy SEAL, the firm operates on the belief that technology will define geopolitics.",
-        "website": "https://harpoon.vc",
+        "sector_focus": null,
+        "thesis": "For over twenty years Lightspeed has been the first investor and an early backer of some of the most innovative companies in the world. The firm stands behind companies with high conviction from Seed to Series F and beyond.",
+        "website": "https://lsvp.com",
         "sources_per_field": {
           "name": [
-            0
-          ],
-          "short_name": [
-            0
-          ],
-          "aum": [
-            0
-          ],
-          "flagship_fund": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "hq": [
-            0
-          ],
-          "key_partners": [
-            0
-          ],
-          "sector_focus": [
+            0,
             1
           ],
+          "short_name": [],
+          "key_partners": [
+            2
+          ],
           "thesis": [
-            0
+            0,
+            1
           ],
           "website": [
             0
           ]
         },
-        "notes": "Harpoon Ventures Fund IV announced July 1, 2026 with $155M raised. AUM field reflects flagship fund size, not total AUM. Headquarter location (San Diego, CA) inferred from database entry but not explicitly stated in provided sources; recommend verification."
+        "notes": "Founded year, AUM, flagship fund, HQ location, and sector focus could not be verified from provided sources. Key partners extracted from team page listing Co-Founders and Partners only. Arif Janmohamed listed as Venture Partner (not senior partner rank). Sources indicate LSVP and LSIP are distinct entities and LSVP maintains separate relationship with Faction Ventures."
       },
       "changes": [
         {
-          "field": "aum",
-          "current": "$300M+",
-          "verified": "$155M+",
+          "field": "keyPartners",
+          "current": [
+            "Arif Janmohamed",
+            "Barry Eggers",
+            "Peter Nieh",
+            "Ravi Mhatre",
+            "Guru Chahal"
+          ],
+          "verified": [
+            "Barry Eggers",
+            "Peter Nieh",
+            "Ravi Mhatre",
+            "Guru Chahal"
+          ],
           "sources": [
-            0
+            2
           ]
         }
       ],
@@ -362,20 +423,35 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://harpoon.vc"
+          "url": "https://lsvp.com"
         },
         {
           "idx": 1,
-          "src": "firm/portfolio",
-          "url": "https://harpoon.vc/portfolio"
+          "src": "firm/about",
+          "url": "https://lsvp.com/about"
         },
         {
           "idx": 2,
-          "src": "wikipedia (short name)",
-          "url": "https://en.wikipedia.org/wiki/Harpoon"
+          "src": "firm/team",
+          "url": "https://lsvp.com/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/portfolio",
+          "url": "https://lsvp.com/portfolio"
+        },
+        {
+          "idx": 4,
+          "src": "firm/companies",
+          "url": "https://lsvp.com/companies"
+        },
+        {
+          "idx": 5,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners"
         }
       ],
-      "notes": "Harpoon Ventures Fund IV announced July 1, 2026 with $155M raised. AUM field reflects flagship fund size, not total AUM. Headquarter location (San Diego, CA) inferred from database entry but not explicitly stated in provided sources; recommend verification."
+      "notes": "Founded year, AUM, flagship fund, HQ location, and sector focus could not be verified from provided sources. Key partners extracted from team page listing Co-Founders and Partners only. Arif Janmohamed listed as Venture Partner (not senior partner rank). Sources indicate LSVP and LSIP are distinct entities and LSVP maintains separate relationship with Faction Ventures."
     }
   ],
   "unverifiable": []
