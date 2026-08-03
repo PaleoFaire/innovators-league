@@ -85830,27 +85830,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-03 07:36
-// Auto-generated real-time signals
-// Last updated: 2026-08-03
-// Auto-generated real-time signals
-// Last updated: 2026-08-03
+// Last updated: 2026-08-03 11:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "21h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier", source: "Wired", time: "2d ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth", source: "Wired", time: "2d ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI reportedly finds evidence that more of its agents ran amok", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Safe Superintelligence", headline: "The Week’s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "2d ago", impact: "high", unread: false },
-  { id: 7, type: "milestone", company: "Earth AI", headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis — With No Human Controls", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "K2 Space", headline: "K2 Space raises $500 million for commercial, defense satellite expansion", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
-  { id: 14, type: "funding", company: "Scale AI", headline: "inforcer raises $50M Series C to scale AI security platform for MSPs", source: "Tech.eu", time: "3d ago", impact: "high", unread: false },
-  { id: 15, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins another launch contract from Japan’s iQPS", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "23h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier", source: "Wired", time: "2d ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX's Falcon 9 Rocket Is About to Crash Into the Moon'and It Could Be Visible From Earth", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI reportedly finds evidence that more of its agents ran amok", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "2d ago", impact: "high", unread: false },
+  { id: 9, type: "milestone", company: "Earth AI", headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

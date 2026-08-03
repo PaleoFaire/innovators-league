@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-03T07:37:22+00:00",
+  "generatedAt": "2026-08-03T11:37:23+00:00",
   "stats": {
-    "companies": 978,
+    "companies": 985,
     "vcFirms": 27,
     "uniqueClusters": 132,
     "totalInvestments": 353
@@ -4537,6 +4537,11 @@
         "company": "Dyna Robotics",
         "cluster": null,
         "founder": "Lindon Gao, York Yang, Jason Ma"
+      },
+      {
+        "company": "Generalist AI",
+        "cluster": null,
+        "founder": "Pete Florence (CEO, ex-DeepMind, co-creator of PaLM-E and RT-2), Andy Zeng (Chief Scientist, ex-DeepMind), Andrew Barry (CTO, ex-Boston Dynamics)"
       }
     ],
     "SpaceX": [
@@ -4717,6 +4722,11 @@
         "company": "Atoms",
         "cluster": null,
         "founder": "Travis Kalanick"
+      },
+      {
+        "company": "Itera",
+        "cluster": null,
+        "founder": "AJ Cooper (CEO, PhD EE UVA, ex-Uber Jump/Lyft hardware), Mattis Fj\u00e4llstr\u00f6m (ex-Verkada), Alex Withrow (ex-Bridgewater/VMware)"
       }
     ]
   },
