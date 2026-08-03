@@ -8,7 +8,7 @@
 3. **Enigma** — Tel Aviv + CA. Robot arms + hardware-agnostic robot foundation models; 100 publicly controllable robots. $71M seed (Index + Ribbit, Jul 27). *2 independent scouts.*
 4. **Alta Ares** — Paris. Edge-AI counter-Shahed/cruise-missile interceptors, Ukraine-derived. €50M (Air Street lead, Harpoon in, Jun 2026).
 5. **Itera** — LA area. Fluid circuit board (liquid-metal rewiring <60s; ~1,000x faster hardware iteration). $12M seed (Upfront lead, May 2026); defense contractors reserving capacity.
-6. **Amidon Heavy Industries** — El Segundo. Autonomous marine robotics protecting subsea cables (Scout-18). Outlander-backed, 2025. *Direct Andrenam/Hormuz thesis.*
+6. **Standard Subsea** (fka Amidon Heavy Industries — renamed; 301-redirect + founder LinkedIn confirm) — El Segundo. Shore-launched Scout USV + inspection ROV protecting subsea cables/pipelines; Outlander, MaC VC, Giant Step. *Direct Andrenam/Hormuz thesis. Record built and ready to add on request.*
 7. **Purple Rhombus** — Austin. Affordable-mass attritable UAS; 1 of 3 aircraft vendors winning DIU Project G.I. DRM2 Phase III (Jul 2026).
 8. **Electroflow** — Berkeley. Brine → battery-grade LFP, claimed 40% under China cost. $10M seed (USV + Voyager co-lead).
 9. **ZURIQ** — Zürich (ETH). 2D trapped-ion quantum processors. $25.5M seed (Quantonation, Jul 28).
