@@ -5,95 +5,95 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -4.74,
+      "avg_change": -4.66,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 1.06,
+      "avg_change": 2.82,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -0.6,
+      "avg_change": -0.56,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.62,
+      "avg_change": 3.06,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 2.87,
+      "avg_change": 2.99,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.47,
+      "avg_change": 5.22,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.08,
+      "avg_change": 6.65,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.65,
+      "avg_change": -0.62,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.64,
+      "avg_change": 6.19,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "IONQ",
-      "IonQ",
-      10.02
-    ],
-    [
       "ALAB",
       "Astera Labs",
-      9.09
+      15.15
     ],
     [
       "SATL",
       "Satellogic",
-      8.47
+      11.72
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      7.69
+      9.82
     ],
     [
       "AUR",
       "Aurora Innovation",
-      7.33
+      9.82
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      9.81
     ]
   ],
   "topLosers": [
     [
       "PLTR",
       "Palantir",
-      -4.74
+      -4.66
     ],
     [
       "RIVN",
       "Rivian",
-      -4.76
+      -5.55
     ],
     [
       "ASRHF",
@@ -101,15 +101,15 @@
       -6.46
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -7.39
-    ],
-    [
       "DRSHF",
       "DroneShield",
-      -10.63
+      -9.22
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -10.21
     ]
   ],
-  "lastUpdated": "2026-08-03 14:46:28"
+  "lastUpdated": "2026-08-03 19:42:53"
 }
