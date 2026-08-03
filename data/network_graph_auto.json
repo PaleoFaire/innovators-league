@@ -4891,6 +4891,41 @@
       "thesisCluster": ""
     },
     {
+      "id": "Generalist AI",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Skapion",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Enigma",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Itera",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "MATERIAL",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Flamefront Propulsion",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nudge",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -4912,6 +4947,11 @@
     },
     {
       "id": "Tesla-alumni-hub",
+      "sector": "alumni",
+      "thesisCluster": ""
+    },
+    {
+      "id": "DeepMind-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
     }
@@ -10233,13 +10273,18 @@
       "src": "Tesla-alumni-hub",
       "dst": "Odin Dynamics",
       "type": "alumni"
+    },
+    {
+      "src": "DeepMind-alumni-hub",
+      "dst": "Generalist AI",
+      "type": "alumni"
     }
   ],
   "counts": {
-    "total_nodes": 983,
-    "total_edges": 915,
+    "total_nodes": 991,
+    "total_edges": 916,
     "competitor_edges": 166,
     "thesis_edges": 742,
-    "alumni_edges": 7
+    "alumni_edges": 8
   }
 }

@@ -1,57 +1,21 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 70,
+    "momentum": 64,
     "trend": "accelerating",
     "catalysts": [
+      "U.S. Air Force expands Blue Origin rocket cargo contract",
       "Space Force awards K2 Space $22.9 million for laser communic",
-      "SpaceX\u2019s Falcon 9 Rocket Is About to Crash Into the Moon\u2014and",
-      "Google nixes its Earth AI feature one day after launch, amid"
+      "SpaceX\u2019s Falcon 9 Rocket Is About to Crash Into the Moon\u2014and"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 95,
+      "news": 70,
       "hiring": 0,
       "market": 55
     },
-    "lastUpdated": "2026-08-02"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 60,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI Next Major Model Astra Solves Major Math Problems",
-      "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New L",
-      "OpenAI reportedly finds evidence that more of its agents ran"
-    ],
-    "fundingQ": "$282.7B",
-    "components": {
-      "funding": 100,
-      "news": 60,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-02"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 59,
-    "trend": "accelerating",
-    "catalysts": [
-      "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
-      "Tesla weighs selling China business to clear path for SpaceX",
-      "Everyone Is Freaking Out About OpenAI and Anthropic\u2019s Race f"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 55,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
     "sector": "Climate & Energy",
@@ -68,43 +32,78 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Robotics & Manufacturing",
+    "momentum": 55,
+    "trend": "accelerating",
+    "catalysts": [
+      "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
+      "Tesla weighs selling China business to clear path for SpaceX",
+      "Waymo adds Google&#8217;s Gemini AI assistant and new UI to"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-03"
+  },
+  {
+    "sector": "Defense & Security",
     "momentum": 53,
     "trend": "steady",
     "catalysts": [
-      "OpenAI Next Major Model Astra Solves Major Math Problems",
+      "U.S. Air Force expands Blue Origin rocket cargo contract",
+      "Space Force awards K2 Space $22.9 million for laser communic",
+      "K2 Space raises $500 million for commercial, defense satelli"
+    ],
+    "fundingQ": "$11.3B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 51
+    },
+    "lastUpdated": "2026-08-03"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New L",
+      "OpenAI reportedly finds evidence that more of its agents ran",
+      "Anthropic confirms its AI breached 3 organizations during te"
+    ],
+    "fundingQ": "$282.7B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-03"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
       "Google nixes its Earth AI feature one day after launch, amid",
       "<a href=\"/biotech/vertexs-latest-autoimmune-tce-play-involve"
     ],
     "fundingQ": "$22.0B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 71
     },
-    "lastUpdated": "2026-08-02"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "Space Force awards K2 Space $22.9 million for laser communic",
-      "K2 Space raises $500 million for commercial, defense satelli",
-      "SpaceX wins $1.6 billion in launch orders for military satel"
-    ],
-    "fundingQ": "$11.3B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 51
-    },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
     "sector": "Nuclear Energy",
@@ -122,7 +121,7 @@
       "hiring": 0,
       "market": 53
     },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
     "sector": "Transportation",
@@ -138,7 +137,7 @@
       "hiring": 0,
       "market": 38
     },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -154,25 +153,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 22,
+    "momentum": 24,
     "trend": "rising",
     "catalysts": [
+      "U.S. Air Force expands Blue Origin rocket cargo contract",
       "Space Force awards K2 Space $22.9 million for laser communic",
-      "Anthropic confirms its AI breached 3 organizations during te",
-      "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No"
+      "Anthropic confirms its AI breached 3 organizations during te"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
     "sector": "Quantum Computing",
@@ -188,42 +187,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-02"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Twelve Hours of AI Work, Seventy Minutes You Can Trust",
-      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
-      "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 33
-    },
-    "lastUpdated": "2026-08-02"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX is Making Improved 220K GPU Modular AI Data Centers",
-      "Fortastra and Hadrian join forces to streamline satellite pr"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
     "sector": "Drones & Autonomous",
@@ -239,14 +203,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
   },
   {
-    "sector": "Housing & Construction",
+    "sector": "Infrastructure & Logistics",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Anthropic Says Claude Hacked Into 3 Organizations During Cyb"
+      "Fortastra and Hadrian join forces to streamline satellite pr"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -255,7 +219,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active housing & construction ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-03"
   },
   {
     "sector": "Ocean & Maritime",
@@ -271,6 +251,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-02"
+    "lastUpdated": "2026-08-03"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 9,
+    "trend": "declining",
+    "catalysts": [
+      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
+      "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 33
+    },
+    "lastUpdated": "2026-08-03"
   }
 ]

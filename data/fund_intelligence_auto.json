@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-02T09:52:01.860291Z",
+  "generated_at": "2026-08-03T09:54:30.353624Z",
   "platform": {
-    "companiesTracked": 978,
+    "companiesTracked": 985,
     "sectorsMonitored": 19,
-    "totalCapitalRaisedTracked": "$467.0B",
-    "totalValuationTracked": "$1131.6B",
-    "companiesWithValuation": 110,
+    "totalCapitalRaisedTracked": "$468.2B",
+    "totalValuationTracked": "$1133.6B",
+    "companiesWithValuation": 111,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
     "dealsTracked": 310,
-    "newsItemsTracked": 33,
-    "dataPointsUpdated": "39,120+"
+    "newsItemsTracked": 30,
+    "dataPointsUpdated": "39,400+"
   },
   "topFunds": [
     {
@@ -79,13 +79,14 @@
     },
     {
       "fund": "Khosla Ventures",
-      "portfolio_count": 8,
+      "portfolio_count": 9,
       "companies": [
         "Caelux",
         "Foundry Robotics",
         "Nomagic",
         "Sagence",
         "Singularity",
+        "Skapion",
         "Spiritus",
         "Varda Space Industries",
         "Windborne"
@@ -130,10 +131,11 @@
     },
     {
       "fund": "8VC",
-      "portfolio_count": 5,
+      "portfolio_count": 6,
       "companies": [
         "Cambium",
         "Gallatin AI",
+        "Generalist AI",
         "Stark Defence",
         "Terra Industries",
         "Terrahaptix"
@@ -220,29 +222,29 @@
       ]
     },
     {
+      "fund": "Index Ventures",
+      "portfolio_count": 2,
+      "companies": [
+        "Cowboy Space Corporation",
+        "Enigma"
+      ]
+    },
+    {
       "fund": "BlackRock",
       "portfolio_count": 2,
       "companies": [
         "Genesis Therapeutics",
         "PsiQuantum"
       ]
-    },
-    {
-      "fund": "SoftBank",
-      "portfolio_count": 2,
-      "companies": [
-        "Agile Robots",
-        "Wayve"
-      ]
     }
   ],
   "sectorConcentration": {
     "Space & Aerospace": 168,
-    "Defense & Security": 153,
-    "Robotics & Manufacturing": 140,
-    "Climate & Energy": 140,
-    "Chips & Semiconductors": 73,
-    "Biotech & Health": 70,
+    "Defense & Security": 155,
+    "Robotics & Manufacturing": 142,
+    "Climate & Energy": 141,
+    "Chips & Semiconductors": 74,
+    "Biotech & Health": 71,
     "Nuclear Energy": 55,
     "Quantum Computing": 45,
     "AI & Software": 35,
