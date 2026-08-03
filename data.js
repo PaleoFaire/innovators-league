@@ -85332,9 +85332,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-03 03:47
+// Last updated: 2026-08-03 07:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "15h ago", impact: "low", unread: true },
+  { id: 1, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "19h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
   { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
@@ -85344,11 +85344,11 @@ const COMPANY_SIGNALS = [
   { id: 8, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "2d ago", impact: "high", unread: false },
   { id: 9, type: "milestone", company: "Earth AI", headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Anthropic", headline: "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Anthropic", headline: "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests", source: "Wired", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
