@@ -1,6 +1,7 @@
 // Auto-updated press releases
-// Last updated: 2026-08-02 09:04:32 UTC
+// Last updated: 2026-08-03 10:30:16 UTC
 const PRESS_RELEASES = [
+  { title: "U.S. Air Force expands Blue Origin rocket cargo contract", date: "2026-08-02", companies: "Blue Origin, Figure AI, Airship Industries", categories: "contract, ipo", source: "spacenews" },
   { title: "Space Force awards K2 Space $22.9 million for laser communications demonstration", date: "2026-08-01", companies: "K2 Space, Figure AI, Xcimer Energy", categories: "funding, contract", source: "spacenews" },
   { title: "K2 Space raises $500 million for commercial, defense satellite expansion", date: "2026-07-30", companies: "K2 Space, Figure AI, Array Labs", categories: "funding, ipo", source: "spacenews" },
   { title: "Rocket Lab wins another launch contract from Japan’s iQPS", date: "2026-07-30", companies: "Rocket Lab, Figure AI", categories: "contract, ipo", source: "spacenews" },

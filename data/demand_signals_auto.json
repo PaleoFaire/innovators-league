@@ -1990,6 +1990,13 @@
       "fetchDate": "2026-02-20",
       "matchedCompanies": [
         {
+          "name": "MATERIAL",
+          "score": 40,
+          "matchReasons": [
+            "name: MATERIAL"
+          ]
+        },
+        {
           "name": "Marathon Fusion",
           "score": 34,
           "matchReasons": [
@@ -2067,17 +2074,10 @@
             "tag: nuclear",
             "tag: energy"
           ]
-        },
-        {
-          "name": "TS Conductor",
-          "score": 20,
-          "matchReasons": [
-            "tag: conductors",
-            "tag: energy"
-          ]
         }
       ],
       "relevantCompanies": [
+        "MATERIAL",
         "Marathon Fusion",
         "Kyoto Fusioneering",
         "Commonwealth Fusion Systems",
@@ -2086,8 +2086,7 @@
         "Tokamak Energy",
         "Renaissance Fusion",
         "TAE Technologies",
-        "Valar Atomics",
-        "TS Conductor"
+        "Valar Atomics"
       ]
     },
     {
@@ -3554,6 +3553,15 @@
           ]
         },
         {
+          "name": "Generalist AI",
+          "score": 24,
+          "matchReasons": [
+            "tag: robotics",
+            "tag: manipulation",
+            "techApproach overlap"
+          ]
+        },
+        {
           "name": "DIRAC",
           "score": 22,
           "matchReasons": [
@@ -3600,27 +3608,19 @@
             "tag: ai",
             "tag: robotics"
           ]
-        },
-        {
-          "name": "1X Technologies",
-          "score": 20,
-          "matchReasons": [
-            "tag: humanoid robotics",
-            "techApproach overlap"
-          ]
         }
       ],
       "relevantCompanies": [
         "Dexterity",
         "Humanoid",
         "Gecko Robotics",
+        "Generalist AI",
         "DIRAC",
         "Cohesive Robotics",
         "Physical Intelligence",
         "AMP Robotics",
         "Skild AI",
-        "Seneca",
-        "1X Technologies"
+        "Seneca"
       ]
     },
     {
@@ -3887,6 +3887,13 @@
       "fetchDate": "2026-02-20",
       "matchedCompanies": [
         {
+          "name": "MATERIAL",
+          "score": 40,
+          "matchReasons": [
+            "name: MATERIAL"
+          ]
+        },
+        {
           "name": "Hermeus",
           "score": 26,
           "matchReasons": [
@@ -3921,6 +3928,7 @@
         }
       ],
       "relevantCompanies": [
+        "MATERIAL",
         "Hermeus",
         "Castelion",
         "Venus Aerospace",
@@ -5440,6 +5448,20 @@
         "Advanced HALEU Fuel Fabrication Capabilities"
       ]
     },
+    "MATERIAL": {
+      "name": "MATERIAL",
+      "govPullScore": 32,
+      "matchCount": 2,
+      "topAgencies": [
+        "ARPA-E",
+        "Department of Defense"
+      ],
+      "avgRelevance": 40,
+      "topSignals": [
+        "Compact Fusion Pilot Plant Technologies",
+        "Hypersonic Vehicle Thermal Protection Materials"
+      ]
+    },
     "Marathon Fusion": {
       "name": "Marathon Fusion",
       "govPullScore": 22,
@@ -5532,18 +5554,6 @@
         "ARPA-E"
       ],
       "avgRelevance": 25,
-      "topSignals": [
-        "Compact Fusion Pilot Plant Technologies"
-      ]
-    },
-    "TS Conductor": {
-      "name": "TS Conductor",
-      "govPullScore": 18,
-      "matchCount": 1,
-      "topAgencies": [
-        "ARPA-E"
-      ],
-      "avgRelevance": 20,
       "topSignals": [
         "Compact Fusion Pilot Plant Technologies"
       ]
@@ -6357,6 +6367,18 @@
         "Dexterous Manipulation for Unstructured Environments"
       ]
     },
+    "Generalist AI": {
+      "name": "Generalist AI",
+      "govPullScore": 17,
+      "matchCount": 1,
+      "topAgencies": [
+        "DARPA"
+      ],
+      "avgRelevance": 24,
+      "topSignals": [
+        "Dexterous Manipulation for Unstructured Environments"
+      ]
+    },
     "DIRAC": {
       "name": "DIRAC",
       "govPullScore": 16,
@@ -6406,18 +6428,6 @@
       "avgRelevance": 21,
       "topSignals": [
         "Intelligent Agricultural Robotics",
-        "Dexterous Manipulation for Unstructured Environments"
-      ]
-    },
-    "1X Technologies": {
-      "name": "1X Technologies",
-      "govPullScore": 16,
-      "matchCount": 1,
-      "topAgencies": [
-        "DARPA"
-      ],
-      "avgRelevance": 20,
-      "topSignals": [
         "Dexterous Manipulation for Unstructured Environments"
       ]
     },
@@ -6620,6 +6630,6 @@
       "Environmental Protection Agency (EPA)": 1
     },
     "companiesMatched": 189,
-    "lastUpdated": "2026-08-02 09:03:09 UTC"
+    "lastUpdated": "2026-08-03 10:30:07 UTC"
   }
 }

@@ -1,7 +1,7 @@
 {
   "script": "fetch_podcast_mentions.py",
-  "started_at": "2026-08-02T09:02:58.204099+00:00",
-  "finished_at": "2026-08-02T09:03:19.713000+00:00",
+  "started_at": "2026-08-03T10:30:13.013793+00:00",
+  "finished_at": "2026-08-03T10:31:56.906670+00:00",
   "lookback_days": 30,
   "podcasts": [
     {
@@ -43,8 +43,8 @@
     {
       "podcast": "Dwarkesh Podcast",
       "url": "https://www.dwarkeshpatel.com/feed",
-      "episodes_fetched": 20,
-      "error": null
+      "episodes_fetched": 0,
+      "error": "all retries failed"
     },
     {
       "podcast": "No Priors",
@@ -71,7 +71,7 @@
       "error": "all retries failed"
     }
   ],
-  "total_episodes": 2139,
-  "total_mentions": 410,
+  "total_episodes": 2119,
+  "total_mentions": 392,
   "ok": true
 }

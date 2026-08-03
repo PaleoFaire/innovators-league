@@ -2,7 +2,7 @@
   {
     "prime": "Lockheed Martin",
     "ticker": "LMT",
-    "totalCompanies": 12,
+    "totalCompanies": 13,
     "portfolio": [
       {
         "company": "Anduril",
@@ -56,6 +56,15 @@
         "url": "https://www.usaspending.gov/award/CONT_AWD_NNG09HR00C_8000_-NONE-_-NONE-"
       },
       {
+        "company": "MATERIAL",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1676.6M",
+        "agency": "Department of Defense",
+        "evidence": "FY13 LONG LEAD MATERIAL",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0003012C0101_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "Nano Nuclear Energy",
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
@@ -87,7 +96,7 @@
   {
     "prime": "General Dynamics",
     "ticker": "GD",
-    "totalCompanies": 9,
+    "totalCompanies": 10,
     "portfolio": [
       {
         "company": "Anduril",
@@ -109,6 +118,15 @@
         "agency": "Department of Defense",
         "evidence": "DESIGN, DEVELOP, INTEGRATE NAVY SYSTEMS",
         "url": "https://www.usaspending.gov/award/CONT_AWD_N0002419C6407_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "MATERIAL",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$696.1M",
+        "agency": "Department of Defense",
+        "evidence": "AWARD DELIVERY ORDER W56HZV-19-F-0116 (0005) AGAINST THE ABRAMS REQUIREMENTS CONTRACT (ARC) TO PROCURE 174 ABRAMS VEHICLE UPGRADES TO THE LATEST M1A2 SYSTEM ENHANCEMENT PACKAGE VERSION 3 (SEPV3) CONFI",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV19F0116_9700_W56HZV18D0012_9700"
       },
       {
         "company": "Palantir",
@@ -154,6 +172,64 @@
         "agency": "National Aeronautics and Space Administration",
         "evidence": "THE SPACE NETWORK (SN) CONSISTS OF A SPACE SEGMENT COMPRISED OF THE TRACKING AND DATA RELAY SATELLITES (TDRSS), AND A GROUND SEGMENT (SNGS). THE SN PROVIDES THE CAPABILITY FOR GLOBAL SPACE-TO-GROUND T",
         "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10DB04C_8000_-NONE-_-NONE-"
+      }
+    ]
+  },
+  {
+    "prime": "Raytheon / RTX",
+    "ticker": "RTX",
+    "totalCompanies": 8,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Lattice integration partnership"
+      },
+      {
+        "company": "Divergent",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      },
+      {
+        "company": "Epirus",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "High-power microwave counter-drone"
+      },
+      {
+        "company": "MATERIAL",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$786.8M",
+        "agency": "Department of Defense",
+        "evidence": "MATERIAL CONSOLIDATION POINT",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W31P4Q10C0089_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "Observable Space",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Joint mission systems software"
+      },
+      {
+        "company": "Saronic Technologies",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomous maritime systems"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
       }
     ]
   },
@@ -219,51 +295,57 @@
     ]
   },
   {
-    "prime": "Raytheon / RTX",
-    "ticker": "RTX",
-    "totalCompanies": 7,
+    "prime": "BAE Systems",
+    "ticker": "BAESY",
+    "totalCompanies": 6,
     "portfolio": [
       {
-        "company": "Anduril",
+        "company": "Integrate",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$307.8M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE WOMA REQUIREMENT WAS ISSUED AS A FULL AND OPEN COMPETITIVE PROCUREMENT TO DESIGN, ANALYZE, DEVELOP, FABRICATE, INTEGRATE, TEST, AND EVALUATE THE WIDE FIELD INSTRUMENT (WFI) OPTO-MECHANICAL ASSEMBL",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC18C0083_8000_-NONE-_-NONE-"
+      },
+      {
+        "company": "MATERIAL",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$2875.2M",
+        "agency": "Department of Defense",
+        "evidence": "LETTER CONTRACT FOR EARLY PROCUREMENT MATERIAL TO SUPPORT THE M109A7/M992A3 VEHICLE PRODUCTION.",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV17C0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "company": "Rebellion Defense",
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
-        "evidence": "Lattice integration partnership"
+        "evidence": "Mission software integration"
       },
       {
-        "company": "Divergent",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "raytheon"
-      },
-      {
-        "company": "Epirus",
+        "company": "Shift5",
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
-        "evidence": "High-power microwave counter-drone"
+        "evidence": "Cyber-operational resilience for military platforms"
       },
       {
-        "company": "Observable Space",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "raytheon"
+        "company": "general",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$2006.7M",
+        "agency": "Department of Defense",
+        "evidence": "THIS ACTION IS COST PLUS INCENTIVE-FEE (CPIF) 52 MONTH ENGINEERING AND MANUFACTURING DEVELOPMENT CONTRACT, WITH THREE FIXED PRICE INCENTIVE (SUCCESSIVE TARGETS) (FPI(S)) OPTION YEARS OF LOW RATE INITI",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15CA001_9700_-NONE-_-NONE-"
       },
       {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Joint mission systems software"
-      },
-      {
-        "company": "Saronic Technologies",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Autonomous maritime systems"
-      },
-      {
-        "company": "Volund Manufacturing",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "raytheon"
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$365.7M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
       }
     ]
   },
@@ -307,52 +389,6 @@
         "agency": "Department of Commerce",
         "evidence": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2",
         "url": "https://www.usaspending.gov/award/CONT_AWD_DOCDG133E09CN0094_1330_-NONE-_-NONE-"
-      }
-    ]
-  },
-  {
-    "prime": "BAE Systems",
-    "ticker": "BAESY",
-    "totalCompanies": 5,
-    "portfolio": [
-      {
-        "company": "Integrate",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$307.8M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE WOMA REQUIREMENT WAS ISSUED AS A FULL AND OPEN COMPETITIVE PROCUREMENT TO DESIGN, ANALYZE, DEVELOP, FABRICATE, INTEGRATE, TEST, AND EVALUATE THE WIDE FIELD INSTRUMENT (WFI) OPTO-MECHANICAL ASSEMBL",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC18C0083_8000_-NONE-_-NONE-"
-      },
-      {
-        "company": "Rebellion Defense",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Mission software integration"
-      },
-      {
-        "company": "Shift5",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Cyber-operational resilience for military platforms"
-      },
-      {
-        "company": "general",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$2006.7M",
-        "agency": "Department of Defense",
-        "evidence": "THIS ACTION IS COST PLUS INCENTIVE-FEE (CPIF) 52 MONTH ENGINEERING AND MANUFACTURING DEVELOPMENT CONTRACT, WITH THREE FIXED PRICE INCENTIVE (SUCCESSIVE TARGETS) (FPI(S)) OPTION YEARS OF LOW RATE INITI",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15CA001_9700_-NONE-_-NONE-"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$365.7M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
       }
     ]
   },
