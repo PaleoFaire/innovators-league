@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-02T08:08:37+00:00",
+  "generatedAt": "2026-08-03T09:05:51+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 39,
-  "newExtractionsThisRun": 39,
+  "cohortSize": 40,
+  "newExtractionsThisRun": 40,
   "summary": {
-    "cleared": 36,
+    "cleared": 37,
     "changesProposed": 3,
     "unverifiable": 0
   },
@@ -16,7 +16,6 @@
     "Apptronik",
     "Astera Labs",
     "Atomic Industries",
-    "Black Forest Labs",
     "Cape",
     "Claros",
     "Commonwealth Fusion Systems",
@@ -29,8 +28,10 @@
     "Fortastra",
     "Galvanick",
     "Gecko Robotics",
+    "HEO",
     "Hadrian",
     "Humanoid",
+    "ICON",
     "Karman Industries",
     "Matic Robotics",
     "Percepto",
@@ -49,80 +50,77 @@
   ],
   "changesProposed": [
     {
-      "name": "HEO",
+      "name": "Blue Origin",
       "current": {
-        "name": "HEO",
-        "founder": "William Crowe, Hiranya Jayakody",
-        "location": "Sydney, Australia",
-        "founded": 2016,
-        "fundingStage": "Series A",
-        "totalRaised": "$12M",
-        "website": "https://www.heospace.com"
+        "name": "Blue Origin",
+        "founder": "Jeff Bezos",
+        "location": "Kent, Washington, United States",
+        "founded": 2000,
+        "fundingStage": "SPAC",
+        "totalRaised": "$10B+",
+        "website": "https://blueorigin.com"
       },
       "verified": {
-        "name": "HEO",
-        "description": "Non-Earth imaging and space intelligence company providing commercial resolved non-Earth imagery services and satellite monitoring through proprietary software.",
+        "name": "Blue Origin",
+        "description": "Private American aerospace company headquartered in Kent, Washington, operating the suborbital New Shepard rocket and heavy-lift New Glenn orbital rocket, and developing the Blue Moon lunar lander for NASA's Artemis program.",
         "founders": [
-          "Dr. Will Crowe",
-          "Dr. Hiranya Jayakody"
+          "Jeff Bezos"
         ],
-        "location": "Sydney, Australia",
-        "founded_year": 2016,
-        "current_stage": null,
+        "location": "Kent, Washington, United States",
+        "founded_year": 2000,
+        "current_stage": "Private",
         "total_raised": null,
         "valuation": null,
         "investors": null,
-        "website": "https://www.heospace.com",
+        "website": "https://blueorigin.com",
         "sources_per_field": {
           "name": [
             0
           ],
           "description": [
-            1
+            0
           ],
           "founders": [
-            1
+            0
           ],
           "location": [
-            1
+            0
           ],
           "founded_year": [
-            1
+            0
+          ],
+          "current_stage": [
+            0
           ],
           "website": [
             0
           ]
         },
-        "notes": "Database entry claims Series A with $12M raised and specific investors; however, these details are not supported by provided sources. Source [2] is unrelated to HEO (discusses OpenAI). Only facts verifiable from sources [0] and [1] have been extracted."
+        "notes": "Database entry lists stage as 'SPAC' but Wikipedia clearly identifies Blue Origin as a 'private' company with no mention of SPAC status. Database entry claims $10B+ raised but sources do not provide total funding figures. Database entry lists 'Coatue Management' as investor but this is not verified in provided sources."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "William Crowe, Hiranya Jayakody",
-          "verified": "Dr. Will Crowe, Dr. Hiranya Jayakody",
+          "field": "fundingStage",
+          "current": "SPAC",
+          "verified": "Private",
           "sources": [
-            1
+            0
           ]
         }
       ],
       "sources": [
         {
           "idx": 0,
-          "src": "company_website",
-          "url": "https://www.heospace.com"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_Origin"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://www.heospace.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/openai-next-major-model-astra-solves-major-math-problems.html"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/u-s-air-force-expands-blue-origin-rocket-cargo-contract/"
         }
       ],
-      "notes": "Database entry claims Series A with $12M raised and specific investors; however, these details are not supported by provided sources. Source [2] is unrelated to HEO (discusses OpenAI). Only facts verifiable from sources [0] and [1] have been extracted."
+      "notes": "Database entry lists stage as 'SPAC' but Wikipedia clearly identifies Blue Origin as a 'private' company with no mention of SPAC status. Database entry claims $10B+ raised but sources do not provide total funding figures. Database entry lists 'Coatue Management' as investor but this is not verified in provided sources."
     },
     {
       "name": "K2 Space",
@@ -137,7 +135,7 @@
       },
       "verified": {
         "name": "K2 Space",
-        "description": "K2 Space builds high-power satellite platforms (Mega Class delivering 20kW power) for deployment across LEO, MEO, and GEO orbits. The company manufactures satellites with 80% in-house vertical integration from its Torrance facility.",
+        "description": "K2 Space builds high-power satellite buses for deployment across LEO, MEO, and GEO orbits, with the Mega Class platform delivering 20kW of power and 80% in-house manufacturing.",
         "founders": [
           "Karan Kunjur",
           "Neel Kunjur"
@@ -154,8 +152,7 @@
             0
           ],
           "description": [
-            0,
-            1
+            0
           ],
           "founders": [
             1
@@ -174,7 +171,7 @@
             0
           ]
         },
-        "notes": "Database entry listed Series C with $250M raised at $3B valuation (Dec 2025), but source [3] indicates Series D raising $500M which 'more than doubles the satellite manufacturer's valuation in seven months'. Founded year not verified in provided sources. Mega Class satellite platform confirmed to deliver 20kW power (not 30kW as in database). Series C total_raised amount of $110M in database cannot be verified from sources."
+        "notes": "Database entry references Series C with $250M raise at $3B valuation in Dec 2025, but source [3] indicates Series D of $500M that 'more than doubles the satellite manufacturer's valuation in seven months.' Founded year not verifiable from sources provided. Valuation for Series D not specified in sources."
       },
       "changes": [
         {
@@ -216,7 +213,7 @@
           "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
         }
       ],
-      "notes": "Database entry listed Series C with $250M raised at $3B valuation (Dec 2025), but source [3] indicates Series D raising $500M which 'more than doubles the satellite manufacturer's valuation in seven months'. Founded year not verified in provided sources. Mega Class satellite platform confirmed to deliver 20kW power (not 30kW as in database). Series C total_raised amount of $110M in database cannot be verified from sources."
+      "notes": "Database entry references Series C with $250M raise at $3B valuation in Dec 2025, but source [3] indicates Series D of $500M that 'more than doubles the satellite manufacturer's valuation in seven months.' Founded year not verifiable from sources provided. Valuation for Series D not specified in sources."
     },
     {
       "name": "SpaceX",
@@ -231,7 +228,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink satellite constellation.",
         "founders": [
           "Elon Musk"
         ],
@@ -273,7 +270,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history). Wikipedia lists Elon Musk controlling 85% voting power via super-voting stock, conflicting with database entry of 82%. Database entry claims '$1.5T valuation' and '$1.65T valuation' with 'IPO' status, but Wikipedia does not state a current valuation figure post-IPO. News sources [1-3] discuss Falcon 9 crash, merger rumors, and other topics but do not provide verifiable company data. Database claims about '165 Falcon 9 launches in 2025' and '81% of all mass to orbit' not found in sources."
+        "notes": "Wikipedia source (index 0) lists SpaceX as traded on Nasdaq: SPCX with IPO on June 12, 2026. Elon Musk controls 42% equity and 85% voting power (Wikipedia states 82% but later text mentions 85%). Alphabet Inc. holds 6% equity. No valuation figure found in sources that can be verified."
       },
       "changes": [
         {
@@ -303,11 +300,11 @@
         },
         {
           "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history). Wikipedia lists Elon Musk controlling 85% voting power via super-voting stock, conflicting with database entry of 82%. Database entry claims '$1.5T valuation' and '$1.65T valuation' with 'IPO' status, but Wikipedia does not state a current valuation figure post-IPO. News sources [1-3] discuss Falcon 9 crash, merger rumors, and other topics but do not provide verifiable company data. Database claims about '165 Falcon 9 launches in 2025' and '81% of all mass to orbit' not found in sources."
+      "notes": "Wikipedia source (index 0) lists SpaceX as traded on Nasdaq: SPCX with IPO on June 12, 2026. Elon Musk controls 42% equity and 85% voting power (Wikipedia states 82% but later text mentions 85%). Alphabet Inc. holds 6% equity. No valuation figure found in sources that can be verified."
     }
   ],
   "unverifiable": []

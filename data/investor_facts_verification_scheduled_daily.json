@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-08-02T08:09:17+00:00",
+  "generatedAt": "2026-08-03T09:06:27+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 4,
-  "newExtractionsThisRun": 4,
+  "cohortSize": 3,
+  "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 2,
+    "cleared": 1,
     "changesProposed": 2,
     "unverifiable": 0
   },
   "cleared": [
-    "Future Ventures",
-    "Shield Capital"
+    "Future Ventures"
   ],
   "changesProposed": [
     {
@@ -42,7 +41,7 @@
           "Transportation",
           "Building"
         ],
-        "thesis": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm targets businesses with high failure risk and 20-year investment timeframes, prioritizing technologies that are affordable and reliable to reach global scale.",
+        "thesis": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm invests primarily in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
         "website": "https://breakthroughenergy.org",
         "sources_per_field": {
           "name": [
@@ -60,8 +59,6 @@
             5
           ],
           "key_partners": [
-            0,
-            1,
             5
           ],
           "sector_focus": [
@@ -74,36 +71,15 @@
             0,
             1,
             5
-          ],
-          "website": [
-            0,
-            1,
-            5
           ]
         },
-        "notes": "Only Bill Gates is explicitly identified as 'Founder' on firm website sources. Carmichael Roberts and Eric Toone are not named in provided sources. Wikipedia sources indicate strategy shifted in 2025 away from public policy toward clean energy technology investment alone."
+        "notes": "In March 2025, Bill Gates dissolved the European unit and U.S. public policy unit. Strategy shifted away from public policy towards supporting clean energy technology through the Breakthrough Energy Catalyst program and Breakthrough Energy Ventures. Sources provided do not contain verified AUM, current senior partners beyond Bill Gates, or specific flagship fund AUM figures."
       },
       "changes": [
         {
-          "field": "keyPartners",
-          "current": [
-            "Bill Gates",
-            "Carmichael Roberts",
-            "Eric Toone"
-          ],
-          "verified": [
-            "Bill Gates"
-          ],
-          "sources": [
-            0,
-            1,
-            5
-          ]
-        },
-        {
           "field": "thesis",
-          "current": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy. The platform targets businesses with high failure risk and 20-year investment timeframes, prioritizing technologies that are affordable and reliable to reach global scale.",
-          "verified": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm targets businesses with high failure risk and 20-year investment timeframes, prioritizing technologies that are affordable and reliable to reach global scale.",
+          "current": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm targets businesses with high failure risk and 20-year investment timeframes, prioritizing technologies that are affordable and reliable to reach global scale.",
+          "verified": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm invests primarily in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
           "sources": [
             0,
             1,
@@ -148,7 +124,7 @@
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
         }
       ],
-      "notes": "Only Bill Gates is explicitly identified as 'Founder' on firm website sources. Carmichael Roberts and Eric Toone are not named in provided sources. Wikipedia sources indicate strategy shifted in 2025 away from public policy toward clean energy technology investment alone."
+      "notes": "In March 2025, Bill Gates dissolved the European unit and U.S. public policy unit. Strategy shifted away from public policy towards supporting clean energy technology through the Breakthrough Energy Catalyst program and Breakthrough Energy Ventures. Sources provided do not contain verified AUM, current senior partners beyond Bill Gates, or specific flagship fund AUM figures."
     },
     {
       "name": "Engine Ventures",
@@ -192,6 +168,7 @@
           "name": [
             0,
             1,
+            2,
             3
           ],
           "founded_year": [
@@ -199,20 +176,25 @@
             3
           ],
           "hq": [
+            0,
+            1,
             3
           ],
           "sector_focus": [
-            1
+            1,
+            2
           ],
           "thesis": [
+            1,
             3
           ],
           "website": [
             0,
-            1
+            1,
+            2
           ]
         },
-        "notes": "Engine Ventures spun out as a separate investment firm from The Engine (a nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Database entry lists AUM as $1B+ and flagship fund as 'Engine Ventures Fund III', but these specific figures cannot be verified from provided sources. Key partners Katie Rae and Reed Sturtevant are not mentioned in the provided sources."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine (nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Source [0] identifies 'Engine Ventures' as a distinct entity from 'The Engine' on the website. Source [1] states: 'In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies.' Wikipedia [3] confirms: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' No current senior partners of Engine Ventures are explicitly named in sources; Emily Knight is CEO/President of The Engine nonprofit, not Engine Ventures. No AUM figure found for Engine Ventures specifically. No flagship fund name verified. Source [4] is unrelated to Engine Ventures."
       },
       "changes": [
         {
@@ -247,7 +229,8 @@
             "Water / Oceans"
           ],
           "sources": [
-            1
+            1,
+            2
           ]
         }
       ],
@@ -278,7 +261,7 @@
           "url": "https://www.nextbigfuture.com/2026/07/supermicro-and-dell-with-building-block-data-centers-for-spacex.html"
         }
       ],
-      "notes": "Engine Ventures spun out as a separate investment firm from The Engine (a nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Database entry lists AUM as $1B+ and flagship fund as 'Engine Ventures Fund III', but these specific figures cannot be verified from provided sources. Key partners Katie Rae and Reed Sturtevant are not mentioned in the provided sources."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine (nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Source [0] identifies 'Engine Ventures' as a distinct entity from 'The Engine' on the website. Source [1] states: 'In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies.' Wikipedia [3] confirms: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' No current senior partners of Engine Ventures are explicitly named in sources; Emily Knight is CEO/President of The Engine nonprofit, not Engine Ventures. No AUM figure found for Engine Ventures specifically. No flagship fund name verified. Source [4] is unrelated to Engine Ventures."
     }
   ],
   "unverifiable": []
