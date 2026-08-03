@@ -85830,23 +85830,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-03 17:59
+// Last updated: 2026-08-03 19:47
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Valar Atomics", headline: "Sequoia's Shaun Maguire leads $1B round for nuclear startup Valar Atomics", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Base Power", headline: "Base Power raises another $1B to save the grid using backyard batteries", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "1d ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX's Falcon 9 Rocket Is About to Crash Into the Moon'and It Could Be Visible From Earth", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "2d ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", time: "3d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Supermicro and Dell With Building Block Data Centers for SpaceX", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Report Agrees With Nextbigfuture On 8 Gigawatts SpaceX AI Data Centers by 2027-2028", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Anthropic", headline: "Who's legally to blame for Anthropic and OpenAI's autonomous AI hacks? It's complicated", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "Influencers draw backlash for attending OpenAI's first luxury trip", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Base Power", headline: "Base Power raises $1B to roll out its giant new home battery", source: "Electrek", time: "1h ago", impact: "high", unread: true },
+  { id: 4, type: "funding", company: "Valar Atomics", headline: "Sequoia's Shaun Maguire leads $1B round for nuclear startup Valar Atomics", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Base Power", headline: "Base Power raises another $1B to save the grid using backyard batteries", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
+  { id: 6, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX's Falcon 9 Rocket Is About to Crash Into the Moon'and It Could Be Visible From Earth", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "2d ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic confirms its AI breached 3 organizations during testing", source: "Defense One", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Zoox", headline: "Zoox Gets 1st Approval From USA For Paid Robotaxis ' With No Human Controls", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "SpaceX", headline: "Tesla weighs selling China business to clear path for SpaceX merger", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "K2 Space", headline: "K2 Space raises $500 million for commercial, defense satellite expansion", source: "SpaceNews", time: "4d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
