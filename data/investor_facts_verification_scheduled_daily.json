@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-03T09:06:27+00:00",
+  "generatedAt": "2026-08-04T08:21:25+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 3,
-  "newExtractionsThisRun": 3,
+  "cohortSize": 5,
+  "newExtractionsThisRun": 5,
   "summary": {
     "cleared": 1,
-    "changesProposed": 2,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
@@ -41,7 +41,7 @@
           "Transportation",
           "Building"
         ],
-        "thesis": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm invests primarily in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
+        "thesis": "Breakthrough Energy invests in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale. The firm invests across five sectors of the global economy to accelerate clean energy innovation.",
         "website": "https://breakthroughenergy.org",
         "sources_per_field": {
           "name": [
@@ -71,15 +71,20 @@
             0,
             1,
             5
+          ],
+          "website": [
+            0,
+            1,
+            5
           ]
         },
-        "notes": "In March 2025, Bill Gates dissolved the European unit and U.S. public policy unit. Strategy shifted away from public policy towards supporting clean energy technology through the Breakthrough Energy Catalyst program and Breakthrough Energy Ventures. Sources provided do not contain verified AUM, current senior partners beyond Bill Gates, or specific flagship fund AUM figures."
+        "notes": "Founded by Bill Gates at 2015 UN Climate Change Conference. Wikipedia identifies it as 'umbrella name of several organizations.' In March 2025, Bill Gates dissolved the Europe and US public policy units. Investment timeframe of 20 years contrasts with traditional VC 5-year horizon. AUM figures not provided in sources."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm targets businesses with high failure risk and 20-year investment timeframes, prioritizing technologies that are affordable and reliable to reach global scale.",
-          "verified": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm invests primarily in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
+          "current": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy that drive emissions. The firm invests primarily in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
+          "verified": "Breakthrough Energy invests in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale. The firm invests across five sectors of the global economy to accelerate clean energy innovation.",
           "sources": [
             0,
             1,
@@ -124,7 +129,7 @@
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
         }
       ],
-      "notes": "In March 2025, Bill Gates dissolved the European unit and U.S. public policy unit. Strategy shifted away from public policy towards supporting clean energy technology through the Breakthrough Energy Catalyst program and Breakthrough Energy Ventures. Sources provided do not contain verified AUM, current senior partners beyond Bill Gates, or specific flagship fund AUM figures."
+      "notes": "Founded by Bill Gates at 2015 UN Climate Change Conference. Wikipedia identifies it as 'umbrella name of several organizations.' In March 2025, Bill Gates dissolved the Europe and US public policy units. Investment timeframe of 20 years contrasts with traditional VC 5-year horizon. AUM figures not provided in sources."
     },
     {
       "name": "Engine Ventures",
@@ -155,82 +160,45 @@
           "Biotech / Life Sciences",
           "Food / Agriculture",
           "Quantum Computing",
-          "Carbon Capture / CCUS",
-          "Manufacturing",
-          "Space",
-          "Climate",
-          "Materials",
-          "Water / Oceans"
+          "Carbon Capture / CCUS"
         ],
-        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
             0,
             1,
-            2,
             3
           ],
+          "short_name": [
+            0
+          ],
           "founded_year": [
-            1,
             3
           ],
           "hq": [
-            0,
             1,
             3
           ],
           "sector_focus": [
-            1,
-            2
+            1
           ],
           "thesis": [
-            1,
             3
           ],
           "website": [
-            0,
-            1,
-            2
+            0
           ]
         },
-        "notes": "Engine Ventures spun out as a separate investment firm from The Engine (nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Source [0] identifies 'Engine Ventures' as a distinct entity from 'The Engine' on the website. Source [1] states: 'In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies.' Wikipedia [3] confirms: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' No current senior partners of Engine Ventures are explicitly named in sources; Emily Knight is CEO/President of The Engine nonprofit, not Engine Ventures. No AUM figure found for Engine Ventures specifically. No flagship fund name verified. Source [4] is unrelated to Engine Ventures."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a 501(c)(3) nonprofit incubator and accelerator founded by MIT in 2016. Source [3] (Wikipedia) identifies this as 'Engine Ventures' but primarily describes The Engine organization. Source [4] is unrelated to Engine Ventures and was excluded from analysis. No current AUM, flagship fund name, or key partner names could be verified from provided sources."
       },
       "changes": [
         {
-          "field": "sectorFocus",
-          "current": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS"
-          ],
-          "verified": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS",
-            "Manufacturing",
-            "Space",
-            "Climate",
-            "Materials",
-            "Water / Oceans"
-          ],
+          "field": "thesis",
+          "current": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "verified": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
           "sources": [
-            1,
-            2
+            3
           ]
         }
       ],
@@ -261,7 +229,257 @@
           "url": "https://www.nextbigfuture.com/2026/07/supermicro-and-dell-with-building-block-data-centers-for-spacex.html"
         }
       ],
-      "notes": "Engine Ventures spun out as a separate investment firm from The Engine (nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Source [0] identifies 'Engine Ventures' as a distinct entity from 'The Engine' on the website. Source [1] states: 'In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies.' Wikipedia [3] confirms: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' No current senior partners of Engine Ventures are explicitly named in sources; Emily Knight is CEO/President of The Engine nonprofit, not Engine Ventures. No AUM figure found for Engine Ventures specifically. No flagship fund name verified. Source [4] is unrelated to Engine Ventures."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a 501(c)(3) nonprofit incubator and accelerator founded by MIT in 2016. Source [3] (Wikipedia) identifies this as 'Engine Ventures' but primarily describes The Engine organization. Source [4] is unrelated to Engine Ventures and was excluded from analysis. No current AUM, flagship fund name, or key partner names could be verified from provided sources."
+    },
+    {
+      "name": "Lux Capital",
+      "current": {
+        "name": "Lux Capital",
+        "shortName": "Lux",
+        "aum": "$7B+",
+        "flagshipFund": "Lux Ventures IX",
+        "founded": 2000,
+        "hq": "New York, NY",
+        "website": "https://luxcapital.com"
+      },
+      "verified": {
+        "name": "Lux Capital",
+        "short_name": "Lux",
+        "aum": "$7.0B+",
+        "flagship_fund": "Lux Ventures IX",
+        "founded_year": 2000,
+        "hq": "New York, NY",
+        "key_partners": [
+          "Josh Wolfe",
+          "Peter H\u00e9bert",
+          "Brandon Reeves",
+          "Deena Shakir",
+          "Shahin Farshchi",
+          "Grace Isford",
+          "Shaq Vayda",
+          "David Yang",
+          "Lan Jiang",
+          "Tess van Stekelenburg"
+        ],
+        "sector_focus": [
+          "Artificial Intelligence",
+          "Defense",
+          "Manufacturing",
+          "Aerospace",
+          "Life Sciences",
+          "Engineering",
+          "Electronics",
+          "Infrastructure",
+          "Computer Science"
+        ],
+        "thesis": "Lux Capital invests in emerging science and technology ventures, focusing on early-stage technology companies in the areas of life sciences, defense, manufacturing, aerospace, and artificial intelligence. The firm backs companies that turn sci-fi into sci-fact.",
+        "website": "https://luxcapital.com",
+        "sources_per_field": {
+          "name": [
+            2,
+            4
+          ],
+          "short_name": [
+            2
+          ],
+          "aum": [
+            4
+          ],
+          "flagship_fund": [
+            2,
+            4
+          ],
+          "founded_year": [
+            4
+          ],
+          "hq": [
+            4
+          ],
+          "key_partners": [
+            2
+          ],
+          "sector_focus": [
+            4
+          ],
+          "thesis": [
+            4
+          ],
+          "website": [
+            2,
+            4
+          ]
+        },
+        "notes": "Fund IX ($1.5B) closed in January 2026 as the firm's largest fund to date and was oversubscribed. Robert Paull is listed as co-founder on Wikipedia but not explicitly named as current partner on firm team page, so excluded from key_partners list."
+      },
+      "changes": [
+        {
+          "field": "aum",
+          "current": "$7B+",
+          "verified": "$7.0B+",
+          "sources": [
+            4
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Lux invests in emerging science and technology ventures. The firm focuses on early-stage technology companies in the areas of life sciences, defense, manufacturing, aerospace, and artificial intelligence.",
+          "verified": "Lux Capital invests in emerging science and technology ventures, focusing on early-stage technology companies in the areas of life sciences, defense, manufacturing, aerospace, and artificial intelligence. The firm backs companies that turn sci-fi into sci-fact.",
+          "sources": [
+            4
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://luxcapital.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://luxcapital.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://luxcapital.com/team"
+        },
+        {
+          "idx": 3,
+          "src": "firm/companies",
+          "url": "https://luxcapital.com/companies"
+        },
+        {
+          "idx": 4,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lux_Capital"
+        },
+        {
+          "idx": 5,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/"
+        },
+        {
+          "idx": 6,
+          "src": "sec_form_d",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143368&type=D&dateb=&owner=include&count=10"
+        }
+      ],
+      "notes": "Fund IX ($1.5B) closed in January 2026 as the firm's largest fund to date and was oversubscribed. Robert Paull is listed as co-founder on Wikipedia but not explicitly named as current partner on firm team page, so excluded from key_partners list."
+    },
+    {
+      "name": "Sequoia Capital",
+      "current": {
+        "name": "Sequoia Capital",
+        "shortName": "Sequoia",
+        "aum": "$56.3B+",
+        "flagshipFund": "Sequoia Capital Fund",
+        "founded": 1972,
+        "hq": "Menlo Park, California",
+        "website": "https://sequoiacap.com"
+      },
+      "verified": {
+        "name": "Sequoia Capital",
+        "short_name": "Sequoia",
+        "aum": "$56.3B+",
+        "flagship_fund": "Sequoia Capital Fund",
+        "founded_year": 1972,
+        "hq": "Menlo Park, California",
+        "key_partners": [
+          "Michael Moritz",
+          "Douglas Leone",
+          "Jim Goetz",
+          "Alfred Lin",
+          "Pat Grady"
+        ],
+        "sector_focus": [
+          "seed stage",
+          "early stage",
+          "growth stage",
+          "clean tech",
+          "consumer internet",
+          "crypto",
+          "financial services",
+          "healthcare",
+          "mobile",
+          "robotics"
+        ],
+        "thesis": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies. The firm invests across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors.",
+        "website": "https://sequoiacap.com",
+        "sources_per_field": {
+          "name": [
+            3
+          ],
+          "short_name": [
+            3
+          ],
+          "aum": [
+            3
+          ],
+          "flagship_fund": [
+            3
+          ],
+          "founded_year": [
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "key_partners": [
+            1,
+            3
+          ],
+          "sector_focus": [
+            3
+          ],
+          "thesis": [
+            3
+          ],
+          "website": [
+            3
+          ]
+        },
+        "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners succeeding Roelof Botha. Sequoia split into three independent entities in 2024: Sequoia (U.S./Europe), Peak XV Partners (India/Southeast Asia), and HongShan (China). In August 2025, COO Sumaiya Balbale resigned over handling of controversial statements by partner Shaun Maguire."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies. The firm invests across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. In October 2021, Sequoia announced the Sequoia Capital Fund, an evergreen fund structure for its U.S. and European business that allows continued involvement with companies after public market debuts.",
+          "verified": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies. The firm invests across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors.",
+          "sources": [
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://sequoiacap.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/team",
+          "url": "https://sequoiacap.com/team"
+        },
+        {
+          "idx": 2,
+          "src": "firm/companies",
+          "url": "https://sequoiacap.com/companies"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sequoia_Capital"
+        },
+        {
+          "idx": 4,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        }
+      ],
+      "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners succeeding Roelof Botha. Sequoia split into three independent entities in 2024: Sequoia (U.S./Europe), Peak XV Partners (India/Southeast Asia), and HongShan (China). In August 2025, COO Sumaiya Balbale resigned over handling of controversial statements by partner Shaun Maguire."
     }
   ],
   "unverifiable": []

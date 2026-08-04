@@ -1,52 +1,39 @@
 {
-  "generatedAt": "2026-08-03T09:05:51+00:00",
+  "generatedAt": "2026-08-04T08:20:33+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 40,
-  "newExtractionsThisRun": 40,
+  "cohortSize": 27,
+  "newExtractionsThisRun": 27,
   "summary": {
-    "cleared": 37,
+    "cleared": 24,
     "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
-    "1X Technologies",
-    "AbCellera",
-    "Agility Robotics",
     "Apptronik",
     "Astera Labs",
-    "Atomic Industries",
+    "Base Power",
     "Cape",
     "Claros",
     "Commonwealth Fusion Systems",
     "Crusoe Energy",
     "Deterrence",
-    "Divergent",
     "Durin",
-    "Earth AI",
-    "Fairmat",
-    "Fortastra",
-    "Galvanick",
-    "Gecko Robotics",
     "HEO",
-    "Hadrian",
     "Humanoid",
-    "ICON",
-    "Karman Industries",
+    "K2 Space",
     "Matic Robotics",
+    "Palantir",
     "Percepto",
     "Quaise Energy",
     "Rebellions",
-    "Redwood Materials",
     "Rivian",
     "Rocket Lab",
     "Scale AI",
-    "Solugen",
     "Twelve",
     "Waymo",
     "Xtend",
-    "ideaForge",
-    "ispace"
+    "ideaForge"
   ],
   "changesProposed": [
     {
@@ -62,7 +49,7 @@
       },
       "verified": {
         "name": "Blue Origin",
-        "description": "Private American aerospace company headquartered in Kent, Washington, operating the suborbital New Shepard rocket and heavy-lift New Glenn orbital rocket, and developing the Blue Moon lunar lander for NASA's Artemis program.",
+        "description": "Private American space technology company that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket. The company supplies engines for other vehicles and is developing the Blue Moon human lunar lander for NASA's Artemis program.",
         "founders": [
           "Jeff Bezos"
         ],
@@ -96,7 +83,7 @@
             0
           ]
         },
-        "notes": "Database entry lists stage as 'SPAC' but Wikipedia clearly identifies Blue Origin as a 'private' company with no mention of SPAC status. Database entry claims $10B+ raised but sources do not provide total funding figures. Database entry lists 'Coatue Management' as investor but this is not verified in provided sources."
+        "notes": "Database entry listed stage as 'SPAC' but source [0] identifies Blue Origin as 'Private'. No sources provided evidence of SPAC status or specific total funding raised amount. Dave Limp is current CEO as of September 2023. Source [1] does not contain sufficient information to verify company-level facts."
       },
       "changes": [
         {
@@ -120,100 +107,7 @@
           "url": "https://spacenews.com/u-s-air-force-expands-blue-origin-rocket-cargo-contract/"
         }
       ],
-      "notes": "Database entry lists stage as 'SPAC' but Wikipedia clearly identifies Blue Origin as a 'private' company with no mention of SPAC status. Database entry claims $10B+ raised but sources do not provide total funding figures. Database entry lists 'Coatue Management' as investor but this is not verified in provided sources."
-    },
-    {
-      "name": "K2 Space",
-      "current": {
-        "name": "K2 Space",
-        "founder": "Karan Kunjur, Neel Kunjur",
-        "location": "Torrance, US",
-        "founded": 2022,
-        "fundingStage": "Series C",
-        "totalRaised": "$110M",
-        "website": "https://k2space.com"
-      },
-      "verified": {
-        "name": "K2 Space",
-        "description": "K2 Space builds high-power satellite buses for deployment across LEO, MEO, and GEO orbits, with the Mega Class platform delivering 20kW of power and 80% in-house manufacturing.",
-        "founders": [
-          "Karan Kunjur",
-          "Neel Kunjur"
-        ],
-        "location": "Torrance, US",
-        "founded_year": null,
-        "current_stage": "Series D",
-        "total_raised": "$500M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://k2space.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0,
-            1
-          ],
-          "current_stage": [
-            3
-          ],
-          "total_raised": [
-            3
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry references Series C with $250M raise at $3B valuation in Dec 2025, but source [3] indicates Series D of $500M that 'more than doubles the satellite manufacturer's valuation in seven months.' Founded year not verifiable from sources provided. Valuation for Series D not specified in sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series C",
-          "verified": "Series D",
-          "sources": [
-            3
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$110M",
-          "verified": "$500M",
-          "sources": [
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://k2space.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://k2space.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        }
-      ],
-      "notes": "Database entry references Series C with $250M raise at $3B valuation in Dec 2025, but source [3] indicates Series D of $500M that 'more than doubles the satellite manufacturer's valuation in seven months.' Founded year not verifiable from sources provided. Valuation for Series D not specified in sources."
+      "notes": "Database entry listed stage as 'SPAC' but source [0] identifies Blue Origin as 'Private'. No sources provided evidence of SPAC status or specific total funding raised amount. Dave Limp is current CEO as of September 2023. Source [1] does not contain sufficient information to verify company-level facts."
     },
     {
       "name": "SpaceX",
@@ -228,7 +122,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink satellite constellation.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that conducts more orbital launches annually than any other launch provider and operates Starlink, a communications satellite constellation.",
         "founders": [
           "Elon Musk"
         ],
@@ -270,7 +164,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source (index 0) lists SpaceX as traded on Nasdaq: SPCX with IPO on June 12, 2026. Elon Musk controls 42% equity and 85% voting power (Wikipedia states 82% but later text mentions 85%). Alphabet Inc. holds 6% equity. No valuation figure found in sources that can be verified."
+        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Current database entry claims 'Preparing for IPO' but source confirms IPO already completed. Database valuation of $1.65T and voting control of 85% cannot be verified from sources provided; Wikipedia cites 82% voting control. Database claim of '165 Falcon 9 launches in 2025' and other 2025/2026 statistics cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -291,7 +185,7 @@
         {
           "idx": 1,
           "src": "news (Wired)",
-          "url": "https://www.wired.com/story/spacex-falcon-9-rocket-crash-into-moon/"
+          "url": "https://www.wired.com/story/spacex-falcon-moon-crash-warning-for-lunar-bases/"
         },
         {
           "idx": 2,
@@ -300,11 +194,92 @@
         },
         {
           "idx": 3,
-          "src": "news (NASA Breaking News)",
-          "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/"
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/"
         }
       ],
-      "notes": "Wikipedia source (index 0) lists SpaceX as traded on Nasdaq: SPCX with IPO on June 12, 2026. Elon Musk controls 42% equity and 85% voting power (Wikipedia states 82% but later text mentions 85%). Alphabet Inc. holds 6% equity. No valuation figure found in sources that can be verified."
+      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Current database entry claims 'Preparing for IPO' but source confirms IPO already completed. Database valuation of $1.65T and voting control of 85% cannot be verified from sources provided; Wikipedia cites 82% voting control. Database claim of '165 Falcon 9 launches in 2025' and other 2025/2026 statistics cannot be verified from provided sources."
+    },
+    {
+      "name": "Valar Atomics",
+      "current": {
+        "name": "Valar Atomics",
+        "founder": "Isaiah P. Taylor",
+        "location": "El Segundo, CA",
+        "founded": 2023,
+        "fundingStage": "Series G",
+        "totalRaised": "$149M",
+        "website": "https://valaratomics.com"
+      },
+      "verified": {
+        "name": "Valar Atomics",
+        "description": "Nuclear energy company building high-temperature gas reactors on gigasites to produce hydrogen, data center power, industrial power, and clean hydrocarbon fuels.",
+        "founders": [
+          "Isaiah P. Taylor"
+        ],
+        "location": "El Segundo, CA",
+        "founded_year": 2023,
+        "current_stage": null,
+        "total_raised": "$1B",
+        "valuation": "$6B",
+        "investors": null,
+        "website": "https://valaratomics.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            1
+          ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry lists Series G stage and $149M total raised, but source [2] (TechCrunch, dated 2026-08-03) indicates $1B raised at $6B valuation more recently. Stage field null due to conflicting/unclear information about current round designation. Multiple individual investors listed in database entry cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$149M",
+          "verified": "$1B",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://valaratomics.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Valar_Atomics"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        }
+      ],
+      "notes": "Database entry lists Series G stage and $149M total raised, but source [2] (TechCrunch, dated 2026-08-03) indicates $1B raised at $6B valuation more recently. Stage field null due to conflicting/unclear information about current round designation. Multiple individual investors listed in database entry cannot be verified from provided sources."
     }
   ],
   "unverifiable": []
