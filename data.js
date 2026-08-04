@@ -86493,23 +86493,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-04 19:47
+// Last updated: 2026-08-04 21:20
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Waymo", headline: "Waymo opens up robotaxi service in Dallas to everyone", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "Apple says more ex-employees may have taken confidential data to OpenAI", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Fire Point", headline: "Ukraine's Fire Point starts to integrate European tech into missile defense system", source: "Defense News", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX's new Starfall program offers validation and competition for reentry startups", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Saildrone", headline: "Navy renews Saildrone's counter-drug mission in the Caribbean, Eastern Pacific", source: "Breaking Defense", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX AI Catalysts", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Palantir", headline: "After killer quarter, Palantir CEO Alex Karp calls AI industry 'Marxist'", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases", source: "Wired", time: "23h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Base Power", headline: "Base Power raises $1B to roll out its giant new home battery", source: "Electrek", time: "1d ago", impact: "high", unread: false },
-  { id: 10, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "3d ago", impact: "high", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more", source: "Electrek", time: "4d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX has bought $329M worth of Tesla Megapacks so far this year", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX doubles revenue on Anthropic and Google compute deals, Starlink growth", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Q2 Results", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Partners with Starmind AI1 Satellites for Rubin GPUs", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Anthropic", headline: "Anthropic signs $10B deal with AI cloud startup Volta", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 6, type: "milestone", company: "Zoox", headline: "Zoox unveils production-ready robotaxi for U.S. expansion", source: "The Robot Report", time: "1h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Blue Water Autonomy", headline: "U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys", source: "The Robot Report", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Waymo", headline: "Waymo opens up robotaxi service in Dallas to everyone", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "Apple says more ex-employees may have taken confidential data to OpenAI", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "Fire Point", headline: "Ukraine's Fire Point starts to integrate European tech into missile defense system", source: "Defense News", time: "7h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX's new Starfall program offers validation and competition for reentry startups", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Saildrone", headline: "Navy renews Saildrone's counter-drug mission in the Caribbean, Eastern Pacific", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX AI Catalysts", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Base Power", headline: "Base Power raises $1B to roll out its giant new home battery", source: "Electrek", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
