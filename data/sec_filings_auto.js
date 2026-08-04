@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-03 09:52:54 UTC
+// Last updated: 2026-08-04 08:43:19 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "8-K", date: "2026-08-03", description: "pltr-20260803.htm", isIPO: false, ticker: "PLTR" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-08-03", description: "qbts-20260803.htm", isIPO: false, ticker: "QBTS" },
   { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509549.xml", isIPO: false, ticker: "JOBY" },
   { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509512.xml", isIPO: false, ticker: "JOBY" },
   { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509472.xml", isIPO: false, ticker: "JOBY" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157501.xml", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157457.xml", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157422.xml", isIPO: false, ticker: "QBTS" },
-  { company: "Satellogic", form: "4", date: "2026-07-15", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "SATL" },
-  { company: "Satellogic", form: "4", date: "2026-07-15", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "SATL" },
 ];

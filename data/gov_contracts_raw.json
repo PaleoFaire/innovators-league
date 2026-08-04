@@ -2593,6 +2593,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "W519TC25F0331",
+    "recipientName": "PALANTIR USG INC",
+    "amount": 99830171.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-08-20",
+    "endDate": "2026-08-19",
+    "description": "FORSCOM TASK ORDER 1"
+  },
+  {
+    "company": "Palantir",
     "awardId": "12314426F0126",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 94687811.42,
@@ -2614,18 +2626,6 @@
     "startDate": "2021-09-30",
     "endDate": "2025-09-29",
     "description": "SAAS SOLUTION."
-  },
-  {
-    "company": "Palantir",
-    "awardId": "W519TC25F0331",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 90030171.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-08-20",
-    "endDate": "2026-08-19",
-    "description": "FORSCOM TASK ORDER 1"
   },
   {
     "company": "Palantir",
@@ -3817,18 +3817,6 @@
   },
   {
     "company": "Palantir Technologies",
-    "awardId": "W519TC25F0331",
-    "recipientName": "PALANTIR USG INC",
-    "amount": 90030171.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-08-20",
-    "endDate": "2026-08-19",
-    "description": "FORSCOM TASK ORDER 1"
-  },
-  {
-    "company": "Palantir Technologies",
     "awardId": "70CTD026FC0000012",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 86271599.3,
@@ -4981,6 +4969,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "FA881126FB011",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 170267970.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-05-04",
+    "endDate": "2027-06-02",
+    "description": "NATIONAL SECURITY SPACE LAUNCH (NSSL) PHASE 3 LANE 2 LAUNCH SERVICES PROCUREMENT"
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "FA881126FB001",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 160333658.0,
@@ -5012,8 +5012,20 @@
     "subAgency": "Department of the Air Force",
     "awardType": null,
     "startDate": "2024-10-18",
-    "endDate": "2027-04-22",
+    "endDate": "2027-05-04",
     "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 3 LANE 1"
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "FA881126FB007",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 153945750.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-01-12",
+    "endDate": "2027-05-04",
+    "description": "LAUNCH SERVICE FOR NROL-86"
   },
   {
     "company": "Space Exploration Technologies",
@@ -5338,18 +5350,6 @@
     "startDate": "2025-12-08",
     "endDate": "2027-10-31",
     "description": "PHASE 3 LANE 1 LAUNCH SERVICE TASK ORDER (LSTO) FOR SDA-3"
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "FA881126FB007",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 65000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2026-01-12",
-    "endDate": "2027-01-12",
-    "description": "LAUNCH SERVICE FOR NROL-86"
   },
   {
     "company": "Space Exploration Technologies",

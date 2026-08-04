@@ -2,6 +2,15 @@
   {
     "company": "Palantir Technologies",
     "ticker": "PLTR",
+    "form": "8-K",
+    "date": "2026-08-03",
+    "description": "pltr-20260803.htm",
+    "accessionNumber": "0001321655-26-000039",
+    "isIPO": false
+  },
+  {
+    "company": "Palantir Technologies",
+    "ticker": "PLTR",
     "form": "4",
     "date": "2026-07-24",
     "description": "xslF345X06/wk-form4_1784937605.xml",
@@ -159,15 +168,6 @@
     "date": "2026-05-19",
     "description": "xslF345X06/wk-form4_1779235635.xml",
     "accessionNumber": "0001823952-26-000012",
-    "isIPO": false
-  },
-  {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "10-Q",
-    "date": "2026-05-05",
-    "description": "pltr-20260331.htm",
-    "accessionNumber": "0001321655-26-000028",
     "isIPO": false
   },
   {
@@ -1467,15 +1467,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-05-05",
-    "description": "xslF345X06/wk-form4_1778013141.xml",
-    "accessionNumber": "0001855623-26-000011",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "8-K",
@@ -1674,15 +1665,6 @@
     "isIPO": false
   },
   {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2026-05-05",
-    "description": "leu-20260505.htm",
-    "accessionNumber": "0001628280-26-030674",
-    "isIPO": false
-  },
-  {
     "company": "C3.ai",
     "ticker": "AI",
     "form": "8-K",
@@ -1815,15 +1797,6 @@
     "date": "2026-05-12",
     "description": "d147244d8k.htm",
     "accessionNumber": "0001193125-26-218253",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-05-05",
-    "description": "xslF345X06/wk-form4_1778018954.xml",
-    "accessionNumber": "0001577526-26-000046",
     "isIPO": false
   },
   {
@@ -2004,24 +1977,6 @@
     "date": "2026-05-08",
     "description": "xslF345X06/wk-form4_1778244889.xml",
     "accessionNumber": "0001832805-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "10-Q",
-    "date": "2026-05-05",
-    "description": "upst-20260331.htm",
-    "accessionNumber": "0001647639-26-000046",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "8-K",
-    "date": "2026-05-05",
-    "description": "upst-20260505.htm",
-    "accessionNumber": "0001647639-26-000045",
     "isIPO": false
   },
   {
@@ -2454,6 +2409,15 @@
     "date": "2026-05-11",
     "description": "rgti-20260511x8k.htm",
     "accessionNumber": "0001104659-26-058635",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-08-03",
+    "description": "qbts-20260803.htm",
+    "accessionNumber": "0001907982-26-000119",
     "isIPO": false
   },
   {
@@ -3534,24 +3498,6 @@
     "date": "2026-06-15",
     "description": "xslF345X06/form4-06152026_040601.xml",
     "accessionNumber": "0000926012-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "10-Q",
-    "date": "2026-05-05",
-    "description": "ea0287069-10q_rythm.htm",
-    "accessionNumber": "0001213900-26-052195",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "8-K",
-    "date": "2026-05-05",
-    "description": "ea0289074-8k_rythm.htm",
-    "accessionNumber": "0001213900-26-052186",
     "isIPO": false
   },
   {

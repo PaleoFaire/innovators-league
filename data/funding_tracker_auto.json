@@ -16,18 +16,18 @@
   },
   {
     "company": "Galvanick",
-    "totalRaised": "$22.3B+",
-    "totalRaisedRaw": 22345.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$4.4B",
-    "lastRoundDate": "2026-07",
+    "totalRaised": "$24.3B+",
+    "totalRaisedRaw": 24345.0,
+    "lastRound": "Series E",
+    "lastRoundAmount": "$2B",
+    "lastRoundDate": "2026-08",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed",
       "NEA",
       "Index Ventures"
     ],
-    "roundCount": 6
+    "roundCount": 7
   },
   {
     "company": "Tenstorrent",
@@ -274,16 +274,31 @@
   },
   {
     "company": "Valar Atomics",
-    "totalRaised": "$6.0B+",
-    "totalRaisedRaw": 6000.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$6B",
-    "lastRoundDate": "2026-07",
+    "totalRaised": "$7.0B+",
+    "totalRaisedRaw": 7000.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-08",
     "valuation": "",
     "leadInvestors": [
+      "Sequoia",
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
+  },
+  {
+    "company": "Anthropic",
+    "totalRaised": "$6.5B+",
+    "totalRaisedRaw": 6500.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$3B",
+    "lastRoundDate": "2026-08",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "NEA"
+    ],
+    "roundCount": 7
   },
   {
     "company": "Field AI",
@@ -350,20 +365,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Anthropic",
-    "totalRaised": "$3.5B+",
-    "totalRaisedRaw": 3500.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$40B",
-    "lastRoundDate": "2026-07",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "NEA"
-    ],
-    "roundCount": 6
   },
   {
     "company": "Together AI",
@@ -828,6 +829,19 @@
       "NEA"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Base Power",
+    "totalRaised": "$1.0B+",
+    "totalRaisedRaw": 1000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-08",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "SambaNova Systems",
@@ -1928,6 +1942,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Phospho",
+    "totalRaised": "$8M+",
+    "totalRaisedRaw": 7.9,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$7.9M",
+    "lastRoundDate": "2026-08",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Humane",

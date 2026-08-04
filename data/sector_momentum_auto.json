@@ -1,28 +1,80 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 64,
+    "momentum": 65,
     "trend": "accelerating",
     "catalysts": [
+      "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases",
       "U.S. Air Force expands Blue Origin rocket cargo contract",
-      "Space Force awards K2 Space $22.9 million for laser communic",
-      "SpaceX\u2019s Falcon 9 Rocket Is About to Crash Into the Moon\u2014and"
+      "Space Force awards K2 Space $22.9 million for laser communic"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 70,
+      "news": 50,
       "hiring": 0,
-      "market": 55
+      "market": 88
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 55,
+    "trend": "steady",
+    "catalysts": [
+      "Active biotech & health ecosystem"
+    ],
+    "fundingQ": "$22.0B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-04"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "Sequoia&#8217;s Shaun Maguire leads $1B round for nuclear st",
+      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
+      "A New Force Posture Concept for Europeanizing Extended Nucle"
+    ],
+    "fundingQ": "$10.0B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 70
+    },
+    "lastUpdated": "2026-08-04"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "Who&#8217;s legally to blame for Anthropic and OpenAI&#8217;",
+      "Influencers draw backlash for attending OpenAI&#8217;s first",
+      "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New L"
+    ],
+    "fundingQ": "$285.7B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 56,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+      "Base Power raises $1B to roll out its giant new home battery",
       "Quaise Energy raises $134M to fuel superhot geothermal ambit"
     ],
     "fundingQ": "$1.4B",
@@ -30,14 +82,14 @@
       "funding": 96,
       "news": 10,
       "hiring": 0,
-      "market": 100
+      "market": 81
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 55,
-    "trend": "accelerating",
+    "momentum": 51,
+    "trend": "steady",
     "catalysts": [
       "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
       "Tesla weighs selling China business to clear path for SpaceX",
@@ -46,86 +98,33 @@
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 53,
+    "momentum": 44,
     "trend": "steady",
     "catalysts": [
+      "After killer quarter, Palantir CEO Alex Karp calls AI indust",
       "U.S. Air Force expands Blue Origin rocket cargo contract",
-      "Space Force awards K2 Space $22.9 million for laser communic",
-      "K2 Space raises $500 million for commercial, defense satelli"
+      "Space Force awards K2 Space $22.9 million for laser communic"
     ],
     "fundingQ": "$11.3B",
     "components": {
       "funding": 100,
       "news": 30,
       "hiring": 0,
-      "market": 51
+      "market": 5
     },
-    "lastUpdated": "2026-08-03"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New L",
-      "OpenAI reportedly finds evidence that more of its agents ran",
-      "Anthropic confirms its AI breached 3 organizations during te"
-    ],
-    "fundingQ": "$282.7B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-03"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Google nixes its Earth AI feature one day after launch, amid",
-      "<a href=\"/biotech/vertexs-latest-autoimmune-tce-play-involve"
-    ],
-    "fundingQ": "$22.0B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 71
-    },
-    "lastUpdated": "2026-08-03"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
-      "French wildfires threaten nuclear deterrence industry, Rafal",
-      "A New Force Posture Concept for Europeanizing Extended Nucle"
-    ],
-    "fundingQ": "$10.0B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 53
-    },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Transportation",
-    "momentum": 44,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
       "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Merced"
@@ -135,30 +134,47 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 38
+      "market": 20
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 41,
+    "momentum": 39,
     "trend": "rising",
     "catalysts": [
-      "Fortastra and Hadrian join forces to streamline satellite pr"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$310M",
     "components": {
       "funding": 84,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "Sequoia&#8217;s Shaun Maguire leads $1B round for nuclear st",
+      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 24,
-    "trend": "rising",
+    "momentum": 20,
+    "trend": "declining",
     "catalysts": [
       "U.S. Air Force expands Blue Origin rocket cargo contract",
       "Space Force awards K2 Space $22.9 million for laser communic",
@@ -167,50 +183,35 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 55,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-03"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "Who&#8217;s legally to blame for Anthropic and OpenAI&#8217;",
       "Waymo crashes 1/3 as much as a human driver, says IIHS &#821"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Fortastra and Hadrian join forces to streamline satellite pr"
+      "Base Power raises another $1B to save the grid using backyar"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -219,7 +220,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Housing & Construction",
@@ -235,7 +236,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
     "sector": "Ocean & Maritime",
@@ -251,23 +252,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 9,
+    "sector": "Quantum Computing",
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
-      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
-      "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 0,
       "hiring": 0,
-      "market": 33
+      "market": 29
     },
-    "lastUpdated": "2026-08-03"
+    "lastUpdated": "2026-08-04"
   }
 ]

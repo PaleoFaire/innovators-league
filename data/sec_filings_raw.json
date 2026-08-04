@@ -2,6 +2,15 @@
   {
     "company": "Palantir Technologies",
     "ticker": "PLTR",
+    "form": "8-K",
+    "date": "2026-08-03",
+    "description": "pltr-20260803.htm",
+    "accessionNumber": "0001321655-26-000039",
+    "isIPO": false
+  },
+  {
+    "company": "Palantir Technologies",
+    "ticker": "PLTR",
     "form": "4",
     "date": "2026-07-24",
     "description": "xslF345X06/wk-form4_1784937605.xml",
@@ -267,15 +276,6 @@
     "date": "2026-02-24",
     "description": "xslF345X05/wk-form4_1771981802.xml",
     "accessionNumber": "0001824159-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "4",
-    "date": "2026-02-24",
-    "description": "xslF345X05/wk-form4_1771981764.xml",
-    "accessionNumber": "0001823920-26-000006",
     "isIPO": false
   },
   {
@@ -3186,24 +3186,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "8-K",
-    "date": "2026-04-14",
-    "description": "oklo-20260410.htm",
-    "accessionNumber": "0001849056-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-04-03",
-    "description": "xslF345X06/wk-form4_1775248597.xml",
-    "accessionNumber": "0001855623-26-000009",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "8-K",
@@ -5208,6 +5190,15 @@
     "date": "2026-01-09",
     "description": "tm262713d1_8k.htm",
     "accessionNumber": "0001104659-26-002328",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-08-03",
+    "description": "qbts-20260803.htm",
+    "accessionNumber": "0001907982-26-000119",
     "isIPO": false
   },
   {
