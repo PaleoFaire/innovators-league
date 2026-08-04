@@ -11,7 +11,7 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 3.27,
+      "avg_change": 3.78,
       "count": 7
     },
     "autonomous": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.29,
+      "avg_change": 5.19,
       "count": 3
     },
     "transportation": {
@@ -61,7 +61,7 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      14.86
+      16.6
     ],
     [
       "ALAB",
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
+      "ASRHF",
+      "Astroscale",
+      -3.6
+    ],
+    [
       "PLTR",
       "Palantir",
       -4.47
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      -6.46
     ],
     [
       "RIVN",
@@ -111,5 +111,5 @@
       -16.91
     ]
   ],
-  "lastUpdated": "2026-08-04 02:48:48"
+  "lastUpdated": "2026-08-04 08:42:53"
 }
