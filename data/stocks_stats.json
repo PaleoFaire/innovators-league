@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -4.47,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 26.61,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.78,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 10.58,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.0,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 7.54,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.93,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 9.8,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.63,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 7.63,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -2.11,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 16.66,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.19,
+      "avg_change": 5.72,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.33,
+      "avg_change": -0.55,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 5.57,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 17.0,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      16.6
-    ],
-    [
       "ALAB",
       "Astera Labs",
-      13.64
+      31.54
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      26.61
     ],
     [
       "SATL",
       "Satellogic",
-      11.72
-    ],
-    [
-      "AUR",
-      "Aurora Innovation",
-      9.34
+      21.39
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      8.97
+      19.19
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      17.98
     ]
   ],
   "topLosers": [
+    [
+      "ACHR",
+      "Archer Aviation",
+      3.63
+    ],
+    [
+      "9348.T",
+      "ispace",
+      3.25
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -0.37
+    ],
     [
       "ASRHF",
       "Astroscale",
       -3.6
     ],
     [
-      "PLTR",
-      "Palantir",
-      -4.47
-    ],
-    [
       "RIVN",
       "Rivian",
-      -6.83
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -10.56
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -16.91
+      -6.26
     ]
   ],
-  "lastUpdated": "2026-08-04 08:42:53"
+  "lastUpdated": "2026-08-04 14:23:40"
 }
