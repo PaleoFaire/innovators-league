@@ -5,63 +5,68 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -4.66,
+      "avg_change": -4.47,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.82,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 3.27,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -0.56,
+      "avg_change": 2.0,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.06,
+      "avg_change": 2.93,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.99,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.63,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.22,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -2.11,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.65,
+      "avg_change": 6.29,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.62,
+      "avg_change": -1.33,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 6.19,
+      "avg_change": 5.57,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      14.86
+    ],
+    [
       "ALAB",
       "Astera Labs",
-      15.15
+      13.64
     ],
     [
       "SATL",
@@ -69,31 +74,21 @@
       11.72
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      9.82
-    ],
-    [
       "AUR",
       "Aurora Innovation",
-      9.82
+      9.34
     ],
     [
-      "IONQ",
-      "IonQ",
-      9.81
+      "ASTS",
+      "AST SpaceMobile",
+      8.97
     ]
   ],
   "topLosers": [
     [
       "PLTR",
       "Palantir",
-      -4.66
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      -5.55
+      -4.47
     ],
     [
       "ASRHF",
@@ -101,15 +96,20 @@
       -6.46
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -9.22
+      "RIVN",
+      "Rivian",
+      -6.83
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -10.21
+      -10.56
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -16.91
     ]
   ],
-  "lastUpdated": "2026-08-03 19:42:53"
+  "lastUpdated": "2026-08-04 02:48:48"
 }
