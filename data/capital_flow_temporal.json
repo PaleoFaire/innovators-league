@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-08-04T09:44:40+00:00",
+  "generatedAt": "2026-08-04T12:08:51+00:00",
   "matrix": {
+    "grid-flexing": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 90229639,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Emerald AI",
+            "amount": 90229639,
+            "date": "2026-08-03",
+            "source": "formd",
+            "investors": [
+              "Radical Ventures",
+              "Energy Impact Partners",
+              "NVentures (NVIDIA)",
+              "CRV",
+              "AMPLO",
+              "Neotribe Ventures",
+              "In-Q-Tel",
+              "Eaton",
+              "GE Vernova",
+              "Siemens",
+              "Salesforce Ventures",
+              "Samsung",
+              "John Doerr",
+              "Jeff Dean",
+              "John Kerry",
+              "Fei-Fei Li"
+            ]
+          }
+        ],
+        "investors": [
+          "In-Q-Tel"
+        ]
+      }
+    },
+    "space-habitats-manufacturing": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Vast",
+            "amount": 0,
+            "date": "2026-08-03",
+            "source": "formd",
+            "investors": [
+              "Balerion Space Ventures",
+              "Jed McCaleb",
+              "Qatar Investment Authority",
+              "IQT",
+              "Mitsui & Co.",
+              "MUFG",
+              "Nikon Corporation",
+              "Stellar Ventures",
+              "Space Capital",
+              "Earthrise Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "In-Q-Tel"
+        ]
+      }
+    },
     "battery-materials": {
       "2026-Q3": {
         "deals": 1,
@@ -43,308 +109,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "nuclear-microreactor": {
-      "2026-Q3": {
-        "deals": 2,
-        "totalSold": 54647987,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Antares",
-            "amount": 54647987,
-            "date": "2026-07-29",
-            "source": "formd",
-            "investors": [
-              "Shine Capital",
-              "Alt Capital",
-              "Caffeinated Capital",
-              "FiftyThree Stations",
-              "Industrious"
-            ]
-          },
-          {
-            "name": "Radiant",
-            "amount": 0,
-            "date": "2026-07-27",
-            "source": "formd",
-            "investors": [
-              "Draper Associates",
-              "Boost VC",
-              "DCVC",
-              "Founders Fund",
-              "Chevron Technology Ventures",
-              "ARK Venture Fund",
-              "Friends & Family Capital",
-              "Andreessen Horowitz",
-              "Union Square Ventures",
-              "Giant Ventures",
-              "StepStone"
-            ]
-          }
-        ],
-        "investors": [
-          "Caffeinated Capital",
-          "Founders Fund"
-        ]
-      },
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Radiant",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Draper Associates",
-              "Boost VC",
-              "DCVC",
-              "Founders Fund",
-              "Chevron Technology Ventures",
-              "ARK Venture Fund",
-              "Friends & Family Capital",
-              "Andreessen Horowitz",
-              "Union Square Ventures",
-              "Giant Ventures",
-              "StepStone"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
-        ]
-      }
-    },
-    "cement-green": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 575000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Brimstone",
-            "amount": 575000,
-            "date": "2026-07-24",
-            "source": "formd",
-            "investors": [
-              "Breakthrough Energy Ventures",
-              "DCVC",
-              "Collaborative Fund",
-              "Fifth Wall",
-              "Amazon Climate Pledge Fund",
-              "S2G Ventures",
-              "Acceler8",
-              "SystemIQ",
-              "Impact Science Ventures",
-              "Osage University Partners",
-              "Gatemore",
-              "GVP Climate",
-              "Kajima Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "hyperspectral-eo": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 5814395,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Wyvern",
-            "amount": 5814395,
-            "date": "2026-07-24",
-            "source": "formd",
-            "investors": [
-              "Squadra Ventures",
-              "Uncork Capital",
-              "Y Combinator",
-              "MaC Venture Capital",
-              "University of Alberta Innovation Fund",
-              "Accelerate Fund III",
-              "NordSpace Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "space-launch-small-intl": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Latitude",
-            "amount": 0,
-            "date": "2026-07-23",
-            "source": "formd",
-            "investors": [
-              "Cr\\u00e9dit Mutuel Innovation",
-              "Bpifrance (Deep Tech 2030 fund)",
-              "Expansion",
-              "UI Investissement",
-              "Blast.club",
-              "Kima Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "transport-electric-vehicles": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Harbinger",
-            "amount": 0,
-            "date": "2026-07-23",
-            "source": "formd",
-            "investors": [
-              "FedEx",
-              "Capricorn Investment Group (Technology Impact Fund)",
-              "THOR Industries",
-              "Ridgeline",
-              "Tiger Global",
-              "Leitmotif",
-              "Maniv Mobility",
-              "Schematic Ventures",
-              "Overture Climate",
-              "Ironspring Ventures",
-              "ArcTern Ventures",
-              "Litquidity Ventures",
-              "The Coca-Cola System Sustainability Fund"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "humanoid-robotics": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": 0,
-            "date": "2026-07-22",
-            "source": "formd",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "Figure AI",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Jeff Bezos",
-              "Microsoft",
-              "Nvidia",
-              "Intel",
-              "OpenAI",
-              "Amazon",
-              "Brookfield Asset Management",
-              "Macquarie Capital",
-              "Qualcomm",
-              "Salesforce"
-            ]
-          },
-          {
-            "name": "Neura Robotics",
-            "amount": null,
-            "date": "2026-06",
-            "source": "recentEvent",
-            "investors": [
-              "Tether",
-              "Qualcomm Technologies",
-              "Amazon",
-              "NVIDIA",
-              "imec.xpa"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "data-center-infrastructure": {
-      "2026-Q3": {
-        "deals": 2,
-        "totalSold": 46900000,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Claros",
-            "amount": 46900000,
-            "date": "2026-07-22",
-            "source": "formd",
-            "investors": [
-              "General Catalyst",
-              "Red Cell Partners",
-              "Systemiq Capital",
-              "Aero X Ventures",
-              "Trenches Capital",
-              "VIPC"
-            ]
-          },
-          {
-            "name": "Crusoe Energy",
-            "amount": null,
-            "date": "2026-07",
-            "source": "recentEvent",
-            "investors": [
-              "Valor Equity Partners",
-              "Mubadala Capital",
-              "Founders Fund",
-              "Lowercarbon Capital",
-              "Spark Capital",
-              "Tiger Global Management",
-              "NVIDIA",
-              "Bain Capital Ventures",
-              "Fidelity Management",
-              "Atreides Management",
-              "1789 Capital",
-              "Salesforce Ventures",
-              "T. Rowe Price"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "General Catalyst",
-          "Lowercarbon Capital",
-          "Valor Equity Partners"
-        ]
       }
     },
     "autonomy-drone-military": {
@@ -551,6 +315,37 @@
           }
         ],
         "investors": []
+      }
+    },
+    "nuclear-microreactor": {
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Radiant",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Draper Associates",
+              "Boost VC",
+              "DCVC",
+              "Founders Fund",
+              "Chevron Technology Ventures",
+              "ARK Venture Fund",
+              "Friends & Family Capital",
+              "Andreessen Horowitz",
+              "Union Square Ventures",
+              "Giant Ventures",
+              "StepStone"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund"
+        ]
       }
     },
     "nuclear-services-fuel": {
@@ -883,6 +678,47 @@
         ]
       }
     },
+    "humanoid-robotics": {
+      "2026-Q2": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Figure AI",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Jeff Bezos",
+              "Microsoft",
+              "Nvidia",
+              "Intel",
+              "OpenAI",
+              "Amazon",
+              "Brookfield Asset Management",
+              "Macquarie Capital",
+              "Qualcomm",
+              "Salesforce"
+            ]
+          },
+          {
+            "name": "Neura Robotics",
+            "amount": null,
+            "date": "2026-06",
+            "source": "recentEvent",
+            "investors": [
+              "Tether",
+              "Qualcomm Technologies",
+              "Amazon",
+              "NVIDIA",
+              "imec.xpa"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "brain-computer-interface": {
       "2026-Q1": {
         "deals": 1,
@@ -1070,6 +906,41 @@
           "General Catalyst",
           "Lightspeed Venture Partners",
           "Lowercarbon Capital"
+        ]
+      }
+    },
+    "data-center-infrastructure": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": null,
+            "date": "2026-07",
+            "source": "recentEvent",
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
         ]
       }
     },
@@ -1535,6 +1406,44 @@
     }
   },
   "vcAttribution": {
+    "In-Q-Tel": {
+      "2026-Q3": [
+        {
+          "company": "Emerald AI",
+          "cluster": "grid-flexing",
+          "date": "2026-08-03",
+          "source": "formd"
+        },
+        {
+          "company": "Vast",
+          "cluster": "space-habitats-manufacturing",
+          "date": "2026-08-03",
+          "source": "formd"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Palantir",
+          "cluster": "ai-saas-enterprise",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Bessemer Venture Partners": {
       "2026-Q3": [
         {
@@ -1561,39 +1470,7 @@
         }
       ]
     },
-    "Caffeinated Capital": {
-      "2026-Q3": [
-        {
-          "company": "Antares",
-          "cluster": "nuclear-microreactor",
-          "date": "2026-07-29",
-          "source": "formd"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Founders Fund": {
-      "2026-Q3": [
-        {
-          "company": "Radiant",
-          "cluster": "nuclear-microreactor",
-          "date": "2026-07-27",
-          "source": "formd"
-        },
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
       "2026-Q2": [
         {
           "company": "Anduril Industries",
@@ -1630,6 +1507,14 @@
           "source": "recentEvent"
         }
       ],
+      "2026-Q3": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
       "2025-Q3": [
         {
           "company": "Gecko Robotics",
@@ -1640,20 +1525,6 @@
       ]
     },
     "General Catalyst": {
-      "2026-Q3": [
-        {
-          "company": "Claros",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07-22",
-          "source": "formd"
-        },
-        {
-          "company": "Applied Intuition",
-          "cluster": "ai-autonomous-driving",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
       "2026-Q2": [
         {
           "company": "Anduril Industries",
@@ -1679,6 +1550,14 @@
           "company": "Collaborative Robotics",
           "cluster": "robotics-cobots-warehouse",
           "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Applied Intuition",
+          "cluster": "ai-autonomous-driving",
+          "date": "2026-07",
           "source": "recentEvent"
         }
       ]
@@ -1821,6 +1700,16 @@
         }
       ]
     },
+    "Caffeinated Capital": {
+      "2026-Q1": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Khosla Ventures": {
       "2025-Q4": [
         {
@@ -1861,30 +1750,6 @@
           "company": "Relativity Space",
           "cluster": "space-launch-large",
           "date": "2025-06",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "In-Q-Tel": {
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Palantir",
-          "cluster": "ai-saas-enterprise",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Skild AI",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-01",
           "source": "recentEvent"
         }
       ]
@@ -2029,9 +1894,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 61,
-    "totalUSDSold": 849711142,
-    "uniqueClusters": 39,
+    "totalDealsTracked": 55,
+    "totalUSDSold": 832003399,
+    "uniqueClusters": 37,
     "uniqueQuarters": 9,
     "uniqueVCs": 17,
     "quarterRange": [
