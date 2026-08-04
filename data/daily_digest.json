@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T12:07:53.723742+00:00",
+  "generatedAt": "2026-08-04T15:30:09.787234+00:00",
   "date": "2026-08-04",
   "dateDisplay": "Tuesday, August 04, 2026",
   "sections": {
@@ -79,11 +79,46 @@
     ],
     "marketMovers": [
       {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 342.31,
+        "changePercent": 31.54,
+        "change": 82.08
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "price": 156.4,
+        "changePercent": 26.61,
+        "change": 32.87
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 4.29,
+        "changePercent": 21.39,
+        "change": 0.76
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 67.4,
+        "changePercent": 19.19,
+        "change": 10.85
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 39.97,
+        "changePercent": 17.98,
+        "change": 6.09
+      },
+      {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 16.21,
-        "changePercent": -16.91,
-        "change": -3.3
+        "price": 20.61,
+        "changePercent": 16.87,
+        "change": 2.97
       },
       {
         "ticker": "277810.KQ",
@@ -93,46 +128,11 @@
         "change": 66500.0
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 321.05,
-        "changePercent": 13.64,
-        "change": 38.53
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 3.96,
-        "changePercent": 11.72,
-        "change": 0.42
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 1.27,
-        "changePercent": -10.56,
-        "change": -0.15
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.79,
-        "changePercent": 9.34,
-        "change": 0.58
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 63.52,
-        "changePercent": 8.97,
-        "change": 5.23
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 38.85,
-        "changePercent": 8.16,
-        "change": 2.93
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 16.71,
+        "changePercent": 15.12,
+        "change": 2.2
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "QBTS -16.9%"
+    "topMover": "ALAB +31.5%"
   }
 }

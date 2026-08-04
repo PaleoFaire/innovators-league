@@ -86493,23 +86493,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-04 12:07
+// Last updated: 2026-08-04 15:30
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX's new Starfall program offers validation and competition for reentry startups", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Saildrone", headline: "Navy renews Saildrone's counter-drug mission in the Caribbean, Eastern Pacific", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX AI Catalysts", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Palantir", headline: "After killer quarter, Palantir CEO Alex Karp calls AI industry 'Marxist'", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases", source: "Wired", time: "16h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Who's legally to blame for Anthropic and OpenAI's autonomous AI hacks? It's complicated", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "Influencers draw backlash for attending OpenAI's first luxury trip", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Base Power", headline: "Base Power raises $1B to roll out its giant new home battery", source: "Electrek", time: "17h ago", impact: "high", unread: false },
-  { id: 9, type: "funding", company: "Valar Atomics", headline: "Sequoia's Shaun Maguire leads $1B round for nuclear startup Valar Atomics", source: "TechCrunch", time: "18h ago", impact: "high", unread: false },
-  { id: 10, type: "funding", company: "Base Power", headline: "Base Power raises another $1B to save the grid using backyard batteries", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
-  { id: 11, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI Next Major Model Astra Solves Major Math Problems", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Safe Superintelligence", headline: "The Week's 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals", source: "Crunchbase News", time: "3d ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "Apple says more ex-employees may have taken confidential data to OpenAI", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Fire Point", headline: "Ukraine's Fire Point starts to integrate European tech into missile defense system", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX's new Starfall program offers validation and competition for reentry startups", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Saildrone", headline: "Navy renews Saildrone's counter-drug mission in the Caribbean, Eastern Pacific", source: "Breaking Defense", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX AI Catalysts", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Palantir", headline: "After killer quarter, Palantir CEO Alex Karp calls AI industry 'Marxist'", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Who's legally to blame for Anthropic and OpenAI's autonomous AI hacks? It's complicated", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "Influencers draw backlash for attending OpenAI's first luxury trip", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Base Power", headline: "Base Power raises $1B to roll out its giant new home battery", source: "Electrek", time: "20h ago", impact: "high", unread: false },
+  { id: 11, type: "funding", company: "Valar Atomics", headline: "Sequoia's Shaun Maguire leads $1B round for nuclear startup Valar Atomics", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
+  { id: 12, type: "funding", company: "Base Power", headline: "Base Power raises another $1B to save the grid using backyard batteries", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
+  { id: 13, type: "contract", company: "Blue Origin", headline: "U.S. Air Force expands Blue Origin rocket cargo contract", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Twelve", headline: "Twelve Hours of AI Work, Seventy Minutes You Can Trust", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "K2 Space", headline: "Space Force awards K2 Space $22.9 million for laser communications demonstration", source: "SpaceNews", time: "2d ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
