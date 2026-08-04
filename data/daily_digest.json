@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T17:57:51.106878+00:00",
+  "generatedAt": "2026-08-04T19:47:09.841736+00:00",
   "date": "2026-08-04",
   "dateDisplay": "Tuesday, August 04, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 342.31,
-        "changePercent": 31.54,
-        "change": 82.08
+        "price": 361.8,
+        "changePercent": 39.03,
+        "change": 101.56
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 156.4,
-        "changePercent": 26.61,
-        "change": 32.87
+        "price": 162.49,
+        "changePercent": 31.54,
+        "change": 38.96
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.29,
-        "changePercent": 21.39,
-        "change": 0.76
+        "price": 4.5,
+        "changePercent": 27.62,
+        "change": 0.98
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 67.4,
-        "changePercent": 19.19,
-        "change": 10.85
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 39.97,
-        "changePercent": 17.98,
-        "change": 6.09
+        "price": 70.5,
+        "changePercent": 24.67,
+        "change": 13.95
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 20.61,
-        "changePercent": 16.87,
-        "change": 2.97
+        "price": 21.73,
+        "changePercent": 23.22,
+        "change": 4.09
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 467000.0,
-        "changePercent": 16.6,
-        "change": 66500.0
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 41.73,
+        "changePercent": 23.16,
+        "change": 7.84
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 16.71,
-        "changePercent": 15.12,
-        "change": 2.2
+        "price": 17.47,
+        "changePercent": 20.33,
+        "change": 2.95
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 74.78,
+        "changePercent": 17.04,
+        "change": 10.89
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ALAB +31.5%"
+    "topMover": "ALAB +39.0%"
   }
 }
