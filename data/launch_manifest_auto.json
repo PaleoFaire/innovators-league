@@ -36,15 +36,6 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-08-06",
-    "vehicle": "H3-22 | Michibiki 7 (QZS-7)",
-    "payload": "Michibiki 7 (QZS-7)",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/b89ab080-66c3-4831-85a9-38d85da71d30/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-08-08",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-38",
     "payload": "Starlink Group 17-38",
@@ -78,6 +69,15 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/6f94dbe4-1318-4ffb-a53d-351bbdcba733/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-08-16",
+    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+    "payload": "Globalstar 2-R Mission 1 (x 9)",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -145,12 +145,12 @@
   },
   {
     "date": "2026-08-31",
-    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-    "payload": "Globalstar 2-R Mission 1 (x 9)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
-    "trackedCompany": "SpaceX"
+    "vehicle": "H3-22 | Michibiki 7 (QZS-7)",
+    "payload": "Michibiki 7 (QZS-7)",
+    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
+    "provider": "Mitsubishi Heavy Industries",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b89ab080-66c3-4831-85a9-38d85da71d30/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-08-31",
@@ -189,6 +189,15 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-09-12",
+    "vehicle": "Falcon 9 Block 5 | Crew-13",
+    "payload": "Crew-13",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-09-15",
     "vehicle": "Vega-C | Sentinel-3C & FLEX",
     "payload": "Sentinel-3C & FLEX",
@@ -196,15 +205,6 @@
     "provider": "Avio S.p.A",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | Crew-13",
-    "payload": "Crew-13",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-09-30",
