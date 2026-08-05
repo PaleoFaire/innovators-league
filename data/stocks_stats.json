@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 31.54,
+      "avg_change": 31.68,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 13.65,
+      "avg_change": 13.23,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 10.53,
+      "avg_change": 10.45,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.29,
+      "avg_change": 12.69,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.71,
+      "avg_change": 11.67,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 22.24,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 11.75,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.18,
+      "avg_change": 7.68,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.51,
+      "avg_change": 0.46,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 21.02,
+      "avg_change": 20.21,
       "count": 3
     }
   },
@@ -61,44 +61,39 @@
     [
       "ALAB",
       "Astera Labs",
-      39.03
+      38.98
     ],
     [
       "PLTR",
       "Palantir",
-      31.54
+      31.68
     ],
     [
       "SATL",
       "Satellogic",
-      27.62
+      27.2
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      24.67
+      24.33
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      23.22
+      "IONQ",
+      "IonQ",
+      23.14
     ]
   ],
   "topLosers": [
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      3.98
-    ],
-    [
       "9348.T",
       "ispace",
-      3.25
+      3.45
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      1.48
+      2.22
     ],
     [
       "ASRHF",
@@ -109,7 +104,12 @@
       "RIVN",
       "Rivian",
       -5.57
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -8.08
     ]
   ],
-  "lastUpdated": "2026-08-04 19:42:07"
+  "lastUpdated": "2026-08-05 02:46:28"
 }
