@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-04";
+const LAST_UPDATED = "2026-08-05";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -86493,23 +86493,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-04 23:11
+// Last updated: 2026-08-05 03:23
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX to begin Starship orbital flights", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Rocket Lab", headline: "Rocket Lab, STR win Space Force contracts for airborne-target tracking technologies", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Elon Musk repeatedly one-upped his execs on SpaceX's first earnings call", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Valar Atomics", headline: "Microreactor startup Valar Atomics raises $1B", source: "Canary Media", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX has bought $329M worth of Tesla Megapacks so far this year", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX doubles revenue on Anthropic and Google compute deals, Starlink growth", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Q2 Results", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Partners with Starmind AI1 Satellites for Rubin GPUs", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Anthropic", headline: "Anthropic signs $10B deal with AI cloud startup Volta", source: "TechCrunch", time: "3h ago", impact: "high", unread: false },
-  { id: 10, type: "milestone", company: "Zoox", headline: "Zoox unveils production-ready robotaxi for U.S. expansion", source: "The Robot Report", time: "3h ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "Blue Water Autonomy", headline: "U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys", source: "The Robot Report", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Waymo", headline: "Waymo opens up robotaxi service in Dallas to everyone", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "Apple says more ex-employees may have taken confidential data to OpenAI", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Fire Point", headline: "Ukraine's Fire Point starts to integrate European tech into missile defense system", source: "Defense News", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX's new Starfall program offers validation and competition for reentry startups", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Waymo", headline: "Waymo Launches Robotaxi Service in Dallas", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "funding", company: "Base Power", headline: "Base Power raises $1B to get big batteries into more homes", source: "Canary Media", time: "1h ago", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX to begin Starship orbital flights", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Rocket Lab", headline: "Rocket Lab, STR win Space Force contracts for airborne-target tracking", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Elon Musk repeatedly one-upped his execs on SpaceX's first earnings call", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Valar Atomics", headline: "Microreactor startup Valar Atomics raises $1B", source: "Canary Media", time: "5h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX has bought $329M worth of Tesla Megapacks so far this year", source: "TechCrunch", time: "6h ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX doubles revenue on Anthropic and Google compute deals, Starlink growth", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Q2 Results", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Partners with Starmind AI1 Satellites for Rubin GPUs", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Anthropic", headline: "Anthropic signs $10B deal with AI cloud startup Volta", source: "TechCrunch", time: "7h ago", impact: "high", unread: false },
+  { id: 12, type: "milestone", company: "Zoox", headline: "Zoox unveils production-ready robotaxi for U.S. expansion", source: "The Robot Report", time: "7h ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "Blue Water Autonomy", headline: "U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys", source: "The Robot Report", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Waymo", headline: "Waymo opens up robotaxi service in Dallas to everyone", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "Apple says more ex-employees may have taken confidential data to OpenAI", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
