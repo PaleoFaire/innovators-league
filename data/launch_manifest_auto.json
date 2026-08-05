@@ -1,15 +1,6 @@
 [
   {
     "date": "2026-08-04",
-    "vehicle": "Long March 8A | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/12b9454b-d48b-4fd5-9c11-17c18f45dafe/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-08-04",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-53",
     "payload": "Starlink Group 17-53",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -19,8 +10,8 @@
   },
   {
     "date": "2026-08-05",
-    "vehicle": "Smart Dragon 3 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Smart Dragon 3 | OSE HS-01 & 02",
+    "payload": "OSE HS-01 & 02",
     "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
     "provider": "China Rocket Co. Ltd.",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d46cab82-dcf5-4d70-b698-d7bead7f638c/?format=json",
@@ -45,7 +36,7 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-08-09",
+    "date": "2026-08-10",
     "vehicle": "Long March 7A | Unknown Payload",
     "payload": "Unknown Payload",
     "pad": "201, Wenchang Space Launch Site, People's Republic of China",
@@ -61,6 +52,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/36ab6924-bb36-416a-b71d-cda9e88004be/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-08-10",
+    "vehicle": "Zhuque-3 | Flight 2",
+    "payload": "Flight 2",
+    "pad": "Launch Area 96B, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "LandSpace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef02e2cf-e617-4b38-a526-951ac9204b0a/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-08-12",
@@ -154,6 +154,15 @@
   },
   {
     "date": "2026-08-31",
+    "vehicle": "Long March 12A | Flight 2",
+    "payload": "Flight 2",
+    "pad": "Long March 12 series Pad, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dc570565-4dcf-4ab9-8174-bf88efef477f/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-31",
     "vehicle": "Mir | Demo Flight",
     "payload": "Demo Flight",
     "pad": "ADD Offshore launch platform, Sea Launch",
@@ -163,20 +172,20 @@
   },
   {
     "date": "2026-08-31",
+    "vehicle": "Pallas-1 | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "Pallas-1 Launch Pad, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "Galactic Energy",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a927b2f9-f9a5-4196-9abb-2e275e4a6b96/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-31",
     "vehicle": "Spectrum | Onward and Upward",
     "payload": "Onward and Upward",
     "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
     "provider": "Isar Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-08-31",
-    "vehicle": "Zhuque-3 | Flight 2",
-    "payload": "Flight 2",
-    "pad": "Launch Area 96B, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef02e2cf-e617-4b38-a526-951ac9204b0a/?format=json",
     "trackedCompany": null
   },
   {
@@ -438,15 +447,6 @@
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca6886aea7/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
-    "payload": "SDA Tranche 2 Transport Layer E",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42ffa2c5a6e/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]
