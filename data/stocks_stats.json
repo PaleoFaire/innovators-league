@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 31.68,
+      "avg_change": 31.72,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 15.4,
+      "avg_change": 21.25,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 10.52,
+      "avg_change": 15.32,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.69,
+      "avg_change": 21.77,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.67,
+      "avg_change": 12.81,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 11.75,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 31.38,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.46,
+      "avg_change": 9.1,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.46,
+      "avg_change": 2.02,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 20.21,
+      "avg_change": 21.98,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ALAB",
-      "Astera Labs",
-      38.98
+      "QBTS",
+      "D-Wave Quantum",
+      35.35
     ],
     [
-      "PLTR",
-      "Palantir",
-      31.68
+      "ALAB",
+      "Astera Labs",
+      35.14
     ],
     [
       "SATL",
       "Satellogic",
-      27.2
+      32.48
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      24.33
+      31.93
     ],
     [
-      "IONQ",
-      "IonQ",
-      23.14
+      "PLTR",
+      "Palantir",
+      31.72
     ]
   ],
   "topLosers": [
+    [
+      "SLDP",
+      "Solid Power",
+      7.0
+    ],
     [
       "9348.T",
       "ispace",
       3.94
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      2.69
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      3.91
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      2.22
+      "IDEAFORGE.NS",
+      "ideaForge",
+      2.5
     ],
     [
       "RIVN",
       "Rivian",
-      -5.57
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -8.08
+      -4.9
     ]
   ],
-  "lastUpdated": "2026-08-05 08:41:04"
+  "lastUpdated": "2026-08-05 14:16:23"
 }
