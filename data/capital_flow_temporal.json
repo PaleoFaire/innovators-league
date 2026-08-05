@@ -1,6 +1,46 @@
 {
-  "generatedAt": "2026-08-05T09:43:11+00:00",
+  "generatedAt": "2026-08-05T12:06:25+00:00",
   "matrix": {
+    "energy-storage-thermal-gravity": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 457629785,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Antora Energy",
+            "amount": 457629785,
+            "date": "2026-08-04",
+            "source": "formd",
+            "investors": [
+              "BlackRock",
+              "Temasek"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "consumer-evtol": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 232323232,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "AIR",
+            "amount": 232323232,
+            "date": "2026-08-04",
+            "source": "formd",
+            "investors": [
+              "Entr\\u00e9e Capital",
+              "Shmuel Harlap"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "grid-flexing": {
       "2026-Q3": {
         "deals": 1,
@@ -105,6 +145,191 @@
             "source": "formd",
             "investors": [
               "Active fundraise (Jan-Jun 2026)"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "nuclear-microreactor": {
+      "2026-Q3": {
+        "deals": 2,
+        "totalSold": 54647987,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Antares",
+            "amount": 54647987,
+            "date": "2026-07-29",
+            "source": "formd",
+            "investors": [
+              "Shine Capital",
+              "Alt Capital",
+              "Caffeinated Capital",
+              "FiftyThree Stations",
+              "Industrious"
+            ]
+          },
+          {
+            "name": "Radiant",
+            "amount": 0,
+            "date": "2026-07-27",
+            "source": "formd",
+            "investors": [
+              "Draper Associates",
+              "Boost VC",
+              "DCVC",
+              "Founders Fund",
+              "Chevron Technology Ventures",
+              "ARK Venture Fund",
+              "Friends & Family Capital",
+              "Andreessen Horowitz",
+              "Union Square Ventures",
+              "Giant Ventures",
+              "StepStone"
+            ]
+          }
+        ],
+        "investors": [
+          "Caffeinated Capital",
+          "Founders Fund"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Radiant",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Draper Associates",
+              "Boost VC",
+              "DCVC",
+              "Founders Fund",
+              "Chevron Technology Ventures",
+              "ARK Venture Fund",
+              "Friends & Family Capital",
+              "Andreessen Horowitz",
+              "Union Square Ventures",
+              "Giant Ventures",
+              "StepStone"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund"
+        ]
+      }
+    },
+    "cement-green": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 575000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Brimstone",
+            "amount": 575000,
+            "date": "2026-07-24",
+            "source": "formd",
+            "investors": [
+              "Breakthrough Energy Ventures",
+              "DCVC",
+              "Collaborative Fund",
+              "Fifth Wall",
+              "Amazon Climate Pledge Fund",
+              "S2G Ventures",
+              "Acceler8",
+              "SystemIQ",
+              "Impact Science Ventures",
+              "Osage University Partners",
+              "Gatemore",
+              "GVP Climate",
+              "Kajima Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "hyperspectral-eo": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 5814395,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Wyvern",
+            "amount": 5814395,
+            "date": "2026-07-24",
+            "source": "formd",
+            "investors": [
+              "Squadra Ventures",
+              "Uncork Capital",
+              "Y Combinator",
+              "MaC Venture Capital",
+              "University of Alberta Innovation Fund",
+              "Accelerate Fund III",
+              "NordSpace Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "space-launch-small-intl": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Latitude",
+            "amount": 0,
+            "date": "2026-07-23",
+            "source": "formd",
+            "investors": [
+              "Cr\\u00e9dit Mutuel Innovation",
+              "Bpifrance (Deep Tech 2030 fund)",
+              "Expansion",
+              "UI Investissement",
+              "Blast.club",
+              "Kima Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "transport-electric-vehicles": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Harbinger",
+            "amount": 0,
+            "date": "2026-07-23",
+            "source": "formd",
+            "investors": [
+              "FedEx",
+              "Capricorn Investment Group (Technology Impact Fund)",
+              "THOR Industries",
+              "Ridgeline",
+              "Tiger Global",
+              "Leitmotif",
+              "Maniv Mobility",
+              "Schematic Ventures",
+              "Overture Climate",
+              "Ironspring Ventures",
+              "ArcTern Ventures",
+              "Litquidity Ventures",
+              "The Coca-Cola System Sustainability Fund"
             ]
           }
         ],
@@ -315,37 +540,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "nuclear-microreactor": {
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Radiant",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Draper Associates",
-              "Boost VC",
-              "DCVC",
-              "Founders Fund",
-              "Chevron Technology Ventures",
-              "ARK Venture Fund",
-              "Friends & Family Capital",
-              "Andreessen Horowitz",
-              "Union Square Ventures",
-              "Giant Ventures",
-              "StepStone"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
-        ]
       }
     },
     "nuclear-services-fuel": {
@@ -1470,7 +1664,39 @@
         }
       ]
     },
+    "Caffeinated Capital": {
+      "2026-Q3": [
+        {
+          "company": "Antares",
+          "cluster": "nuclear-microreactor",
+          "date": "2026-07-29",
+          "source": "formd"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Founders Fund": {
+      "2026-Q3": [
+        {
+          "company": "Radiant",
+          "cluster": "nuclear-microreactor",
+          "date": "2026-07-27",
+          "source": "formd"
+        },
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
       "2026-Q2": [
         {
           "company": "Anduril Industries",
@@ -1504,14 +1730,6 @@
           "company": "Neuralink",
           "cluster": "brain-computer-interface",
           "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
           "source": "recentEvent"
         }
       ],
@@ -1695,16 +1913,6 @@
         {
           "company": "Shield AI",
           "cluster": "autonomy-drone-military",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Caffeinated Capital": {
-      "2026-Q1": [
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
           "date": "2026-03",
           "source": "recentEvent"
         }
@@ -1894,9 +2102,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 55,
-    "totalUSDSold": 832003399,
-    "uniqueClusters": 37,
+    "totalDealsTracked": 63,
+    "totalUSDSold": 1582993798,
+    "uniqueClusters": 43,
     "uniqueQuarters": 9,
     "uniqueVCs": 17,
     "quarterRange": [
