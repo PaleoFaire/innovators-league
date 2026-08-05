@@ -1,25 +1,25 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-04T08:20:33+00:00  
+**Generated:** 2026-08-05T08:18:57+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 27 companies  
+**Cohort size:** 30 companies  
 
-**New Claude extractions this run:** 27  
+**New Claude extractions this run:** 30  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 24 | 89% |
-| 🔧 Changes proposed | 3 | 11% |
+| ✅ Cleared (data matches sources) | 26 | 87% |
+| 🔧 Changes proposed | 4 | 13% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (3 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
@@ -28,51 +28,60 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`fundingStage`:** `SPAC` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
 
-  **Notes:** Database entry listed stage as 'SPAC' but source [0] identifies Blue Origin as 'Private'. No sources provided evidence of SPAC status or specific total funding raised amount. Dave Limp is current CEO as of September 2023. Source [1] does not contain sufficient information to verify company-level facts.
+  **Notes:** Database entry lists stage as 'SPAC' but Wikipedia clearly identifies company as 'Private'. No evidence in sources of SPAC status or $10B+ funding figure. CEO is Dave Limp (appointed September 2023). Company paused New Shepard tourism launches in January 2026 to focus on Artemis program.
+
+### Blue Water Autonomy
+
+- **`founder`:** `Rylan Hamilton, Austin Gray, Scott N. Miller` → `Rylan Hamilton, Austin Gray`  
+  Sources: [company_website](https://bluewaterautonomy.com) · [company_about](https://bluewaterautonomy.com/about)
+
+  **Notes:** Database entry lists 'Scott N. Miller' as founder, but sources [0] and [1] only explicitly name Rylan Hamilton and Austin Gray as Co-Founders. No mention of Scott N. Miller found in provided sources. Founded year 2024, Series A stage, $64M total raised, and GV as investor from database entry could not be verified in provided sources.
+
+### Nano Nuclear Energy
+
+- **`fundingStage`:** `Seed` → `Public`  
+  Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
+
+  **Notes:** Company is publicly traded on NASDAQ under ticker NNE. Sources do not contain founder names, founding year, total raised, valuation, or investor list. Source [2] is about Valar Atomics (different company) and was not used. Current database entry contains information not verifiable in provided sources (founder Jay Jiang Yu, founding year 2022, Seed stage, $600M+ raised, $808M valuation, ODIN sale to Cambridge AtomWorks).
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Current database entry claims 'Preparing for IPO' but source confirms IPO already completed. Database valuation of $1.65T and voting control of 85% cannot be verified from sources provided; Wikipedia cites 82% voting control. Database claim of '165 Falcon 9 launches in 2025' and other 2025/2026 statistics cannot be verified from provided sources.
-
-### Valar Atomics
-
-- **`totalRaised`:** `$149M` → `$1B`  
-  Sources: [news (TechCrunch)](https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/)
-
-  **Notes:** Database entry lists Series G stage and $149M total raised, but source [2] (TechCrunch, dated 2026-08-03) indicates $1B raised at $6B valuation more recently. Stage field null due to conflicting/unclear information about current round designation. Multiple individual investors listed in database entry cannot be verified from provided sources.
+  **Notes:** Wikipedia indicates IPO occurred on June 12, 2026. Database entry claims 'preparing for IPO' but source confirms IPO already completed as of Wikipedia's 2026 update. Alphabet Inc. owns 6% equity stake per Wikipedia. Elon Musk controls 85% voting power per Wikipedia (database entry does not specify this detail). No specific valuation figure found in provided sources to verify the $1.65T or $1.5T claims.
 
 ---
 
-## ✅ Cleared (24 companies)
+## ✅ Cleared (26 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
+- Antares
 - Apptronik
-- Astera Labs
+- Aurora Innovation
 - Base Power
 - Cape
 - Claros
 - Commonwealth Fusion Systems
-- Crusoe Energy
+- Delian Alliance Industries
 - Deterrence
 - Durin
-- HEO
+- Fire Point
 - Humanoid
+- ICON
 - K2 Space
-- Matic Robotics
-- Palantir
 - Percepto
 - Quaise Energy
-- Rebellions
+- Radiant
 - Rivian
 - Rocket Lab
+- Saildrone
 - Scale AI
 - Twelve
+- Valar Atomics
 - Waymo
 - Xtend
 - ideaForge
@@ -80,4 +89,4 @@ Sample (first 30):
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-04T08:20:33+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-05T08:18:57+00:00*

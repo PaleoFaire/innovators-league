@@ -1,36 +1,38 @@
 {
-  "generatedAt": "2026-08-04T08:20:33+00:00",
+  "generatedAt": "2026-08-05T08:18:57+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 27,
-  "newExtractionsThisRun": 27,
+  "cohortSize": 30,
+  "newExtractionsThisRun": 30,
   "summary": {
-    "cleared": 24,
-    "changesProposed": 3,
+    "cleared": 26,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
+    "Antares",
     "Apptronik",
-    "Astera Labs",
+    "Aurora Innovation",
     "Base Power",
     "Cape",
     "Claros",
     "Commonwealth Fusion Systems",
-    "Crusoe Energy",
+    "Delian Alliance Industries",
     "Deterrence",
     "Durin",
-    "HEO",
+    "Fire Point",
     "Humanoid",
+    "ICON",
     "K2 Space",
-    "Matic Robotics",
-    "Palantir",
     "Percepto",
     "Quaise Energy",
-    "Rebellions",
+    "Radiant",
     "Rivian",
     "Rocket Lab",
+    "Saildrone",
     "Scale AI",
     "Twelve",
+    "Valar Atomics",
     "Waymo",
     "Xtend",
     "ideaForge"
@@ -49,7 +51,7 @@
       },
       "verified": {
         "name": "Blue Origin",
-        "description": "Private American space technology company that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket. The company supplies engines for other vehicles and is developing the Blue Moon human lunar lander for NASA's Artemis program.",
+        "description": "Private American aerospace company headquartered in Kent, Washington, operating suborbital New Shepard and heavy-lift New Glenn rockets, and developing the Blue Moon lunar lander for NASA's Artemis program.",
         "founders": [
           "Jeff Bezos"
         ],
@@ -83,7 +85,7 @@
             0
           ]
         },
-        "notes": "Database entry listed stage as 'SPAC' but source [0] identifies Blue Origin as 'Private'. No sources provided evidence of SPAC status or specific total funding raised amount. Dave Limp is current CEO as of September 2023. Source [1] does not contain sufficient information to verify company-level facts."
+        "notes": "Database entry lists stage as 'SPAC' but Wikipedia clearly identifies company as 'Private'. No evidence in sources of SPAC status or $10B+ funding figure. CEO is Dave Limp (appointed September 2023). Company paused New Shepard tourism launches in January 2026 to focus on Artemis program."
       },
       "changes": [
         {
@@ -107,7 +109,161 @@
           "url": "https://spacenews.com/u-s-air-force-expands-blue-origin-rocket-cargo-contract/"
         }
       ],
-      "notes": "Database entry listed stage as 'SPAC' but source [0] identifies Blue Origin as 'Private'. No sources provided evidence of SPAC status or specific total funding raised amount. Dave Limp is current CEO as of September 2023. Source [1] does not contain sufficient information to verify company-level facts."
+      "notes": "Database entry lists stage as 'SPAC' but Wikipedia clearly identifies company as 'Private'. No evidence in sources of SPAC status or $10B+ funding figure. CEO is Dave Limp (appointed September 2023). Company paused New Shepard tourism launches in January 2026 to focus on Artemis program."
+    },
+    {
+      "name": "Blue Water Autonomy",
+      "current": {
+        "name": "Blue Water Autonomy",
+        "founder": "Rylan Hamilton, Austin Gray, Scott N. Miller",
+        "location": "Boston, MA",
+        "founded": 2024,
+        "fundingStage": "Series A",
+        "totalRaised": "$64M",
+        "website": "https://bluewaterautonomy.com"
+      },
+      "verified": {
+        "name": "Blue Water Autonomy",
+        "description": "Developer of autonomous unmanned ships designed for naval operations and deep ocean surveys that can operate autonomously for extended periods.",
+        "founders": [
+          "Rylan Hamilton",
+          "Austin Gray"
+        ],
+        "location": "Boston, MA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://bluewaterautonomy.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            0,
+            1
+          ],
+          "location": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry lists 'Scott N. Miller' as founder, but sources [0] and [1] only explicitly name Rylan Hamilton and Austin Gray as Co-Founders. No mention of Scott N. Miller found in provided sources. Founded year 2024, Series A stage, $64M total raised, and GV as investor from database entry could not be verified in provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Rylan Hamilton, Austin Gray, Scott N. Miller",
+          "verified": "Rylan Hamilton, Austin Gray",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://bluewaterautonomy.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://bluewaterautonomy.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/"
+        }
+      ],
+      "notes": "Database entry lists 'Scott N. Miller' as founder, but sources [0] and [1] only explicitly name Rylan Hamilton and Austin Gray as Co-Founders. No mention of Scott N. Miller found in provided sources. Founded year 2024, Series A stage, $64M total raised, and GV as investor from database entry could not be verified in provided sources."
+    },
+    {
+      "name": "Nano Nuclear Energy",
+      "current": {
+        "name": "Nano Nuclear Energy",
+        "founder": "Jay Jiang Yu",
+        "location": "New York, NY",
+        "founded": 2022,
+        "fundingStage": "Seed",
+        "totalRaised": "$600M+",
+        "website": "https://nanonuclearenergy.com"
+      },
+      "verified": {
+        "name": "Nano Nuclear Energy",
+        "description": "Advanced technology-driven nuclear energy company developing portable and stationary microreactor technologies (KRONOS, ZEUS, LOKI), nuclear fuel fabrication, fuel transportation, space applications, and consulting services. Listed publicly on NASDAQ as NNE.",
+        "founders": null,
+        "location": "New York, NY",
+        "founded_year": null,
+        "current_stage": "Public",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://nanonuclearenergy.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [
+            0
+          ],
+          "current_stage": [
+            0,
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources do not contain founder names, founding year, total raised, valuation, or investor list. Source [2] is about Valar Atomics (different company) and was not used. Current database entry contains information not verifiable in provided sources (founder Jay Jiang Yu, founding year 2022, Seed stage, $600M+ raised, $808M valuation, ODIN sale to Cambridge AtomWorks)."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Seed",
+          "verified": "Public",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://nanonuclearenergy.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://nanonuclearenergy.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
+        }
+      ],
+      "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources do not contain founder names, founding year, total raised, valuation, or investor list. Source [2] is about Valar Atomics (different company) and was not used. Current database entry contains information not verifiable in provided sources (founder Jay Jiang Yu, founding year 2022, Seed stage, $600M+ raised, $808M valuation, ODIN sale to Cambridge AtomWorks)."
     },
     {
       "name": "SpaceX",
@@ -164,7 +320,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Current database entry claims 'Preparing for IPO' but source confirms IPO already completed. Database valuation of $1.65T and voting control of 85% cannot be verified from sources provided; Wikipedia cites 82% voting control. Database claim of '165 Falcon 9 launches in 2025' and other 2025/2026 statistics cannot be verified from provided sources."
+        "notes": "Wikipedia indicates IPO occurred on June 12, 2026. Database entry claims 'preparing for IPO' but source confirms IPO already completed as of Wikipedia's 2026 update. Alphabet Inc. owns 6% equity stake per Wikipedia. Elon Musk controls 85% voting power per Wikipedia (database entry does not specify this detail). No specific valuation figure found in provided sources to verify the $1.65T or $1.5T claims."
       },
       "changes": [
         {
@@ -184,102 +340,21 @@
         },
         {
           "idx": 1,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/spacex-falcon-moon-crash-warning-for-lunar-bases/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/08/spacex-100b-arr-yearend-2026-guidance-over-my-96-billion-arr-bull-case.html"
         },
         {
           "idx": 2,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/07/31/podcast-tesla-spacex-merger-rivian-r2-progress-new-mercedes-gla-and-more/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/spacex-to-begin-starship-orbital-flights/"
         },
         {
           "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/07/30/tesla-weighs-selling-china-business-spacex-merger/"
-        }
-      ],
-      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Current database entry claims 'Preparing for IPO' but source confirms IPO already completed. Database valuation of $1.65T and voting control of 85% cannot be verified from sources provided; Wikipedia cites 82% voting control. Database claim of '165 Falcon 9 launches in 2025' and other 2025/2026 statistics cannot be verified from provided sources."
-    },
-    {
-      "name": "Valar Atomics",
-      "current": {
-        "name": "Valar Atomics",
-        "founder": "Isaiah P. Taylor",
-        "location": "El Segundo, CA",
-        "founded": 2023,
-        "fundingStage": "Series G",
-        "totalRaised": "$149M",
-        "website": "https://valaratomics.com"
-      },
-      "verified": {
-        "name": "Valar Atomics",
-        "description": "Nuclear energy company building high-temperature gas reactors on gigasites to produce hydrogen, data center power, industrial power, and clean hydrocarbon fuels.",
-        "founders": [
-          "Isaiah P. Taylor"
-        ],
-        "location": "El Segundo, CA",
-        "founded_year": 2023,
-        "current_stage": null,
-        "total_raised": "$1B",
-        "valuation": "$6B",
-        "investors": null,
-        "website": "https://valaratomics.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            1
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists Series G stage and $149M total raised, but source [2] (TechCrunch, dated 2026-08-03) indicates $1B raised at $6B valuation more recently. Stage field null due to conflicting/unclear information about current round designation. Multiple individual investors listed in database entry cannot be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$149M",
-          "verified": "$1B",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://valaratomics.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Valar_Atomics"
-        },
-        {
-          "idx": 2,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+          "url": "https://techcrunch.com/2026/08/04/elon-musk-repeatedly-one-upped-his-execs-on-spacexs-first-earnings-call/"
         }
       ],
-      "notes": "Database entry lists Series G stage and $149M total raised, but source [2] (TechCrunch, dated 2026-08-03) indicates $1B raised at $6B valuation more recently. Stage field null due to conflicting/unclear information about current round designation. Multiple individual investors listed in database entry cannot be verified from provided sources."
+      "notes": "Wikipedia indicates IPO occurred on June 12, 2026. Database entry claims 'preparing for IPO' but source confirms IPO already completed as of Wikipedia's 2026 update. Alphabet Inc. owns 6% equity stake per Wikipedia. Elon Musk controls 85% voting power per Wikipedia (database entry does not specify this detail). No specific valuation figure found in provided sources to verify the $1.65T or $1.5T claims."
     }
   ],
   "unverifiable": []
