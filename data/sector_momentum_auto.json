@@ -1,44 +1,46 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 65,
+    "momentum": 74,
     "trend": "accelerating",
     "catalysts": [
-      "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases",
-      "U.S. Air Force expands Blue Origin rocket cargo contract",
-      "Space Force awards K2 Space $22.9 million for laser communic"
+      "Scaleup Europe Fund makes first investment, co-leading Iceye",
+      "Waymo Launches Robotaxi Service in Dallas",
+      "SpaceX to begin Starship orbital flights"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 50,
-      "hiring": 0,
-      "market": 88
-    },
-    "lastUpdated": "2026-08-04"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 55,
-    "trend": "steady",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$22.0B",
-    "components": {
-      "funding": 100,
-      "news": 0,
+      "news": 75,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 62,
+    "trend": "steady",
+    "catalysts": [
+      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel",
+      "Ukraine\u2019s Fire Point starts to integrate European tech into",
+      "Navy renews Saildrone&#8217;s counter-drug mission in the Ca"
+    ],
+    "fundingQ": "$11.3B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-05"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 54,
+    "momentum": 60,
     "trend": "steady",
     "catalysts": [
-      "Sequoia&#8217;s Shaun Maguire leads $1B round for nuclear st",
+      "Microreactor startup Valar Atomics raises $1B",
       "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
       "A New Force Posture Concept for Europeanizing Extended Nucle"
     ],
@@ -47,31 +49,30 @@
       "funding": 100,
       "news": 20,
       "hiring": 0,
-      "market": 70
+      "market": 100
     },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
   },
   {
-    "sector": "AI & Software",
-    "momentum": 52,
+    "sector": "Biotech & Health",
+    "momentum": 58,
     "trend": "steady",
     "catalysts": [
-      "Who&#8217;s legally to blame for Anthropic and OpenAI&#8217;",
-      "Influencers draw backlash for attending OpenAI&#8217;s first",
-      "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New L"
+      "Navy renews Saildrone&#8217;s counter-drug mission in the Ca",
+      "<a href=\"/cro/icon-inks-anthropic-partnership-deploy-claude-"
     ],
-    "fundingQ": "$285.7B",
+    "fundingQ": "$22.0B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 10,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 52,
+    "momentum": 56,
     "trend": "steady",
     "catalysts": [
       "Base Power raises $1B to roll out its giant new home battery",
@@ -82,49 +83,13 @@
       "funding": 96,
       "news": 10,
       "hiring": 0,
-      "market": 81
+      "market": 100
     },
-    "lastUpdated": "2026-08-04"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "Zoox Gets 1st Approval From USA For Paid Robotaxis \u2014 With No",
-      "Tesla weighs selling China business to clear path for SpaceX",
-      "Waymo adds Google&#8217;s Gemini AI assistant and new UI to"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-04"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 44,
-    "trend": "steady",
-    "catalysts": [
-      "After killer quarter, Palantir CEO Alex Karp calls AI indust",
-      "U.S. Air Force expands Blue Origin rocket cargo contract",
-      "Space Force awards K2 Space $22.9 million for laser communic"
-    ],
-    "fundingQ": "$11.3B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 5
-    },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
   },
   {
     "sector": "Transportation",
-    "momentum": 40,
+    "momentum": 56,
     "trend": "steady",
     "catalysts": [
       "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Merced"
@@ -134,9 +99,45 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 20
+      "market": 97
     },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 55,
+    "trend": "accelerating",
+    "catalysts": [
+      "Waymo Launches Robotaxi Service in Dallas",
+      "Zoox unveils production-ready robotaxi for U.S. expansion",
+      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-05"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX doubles revenue on Anthropic and Google compute deals",
+      "Anthropic signs $10B deal with AI cloud startup Volta",
+      "Anthropic confirms its AI breached 3 organizations during te"
+    ],
+    "fundingQ": "$285.7B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-05"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -152,75 +153,92 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 22,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Sequoia&#8217;s Shaun Maguire leads $1B round for nuclear st",
       "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-08-04"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "U.S. Air Force expands Blue Origin rocket cargo contract",
-      "Space Force awards K2 Space $22.9 million for laser communic",
-      "Anthropic confirms its AI breached 3 organizations during te"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-04"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Who&#8217;s legally to blame for Anthropic and OpenAI&#8217;",
-      "Waymo crashes 1/3 as much as a human driver, says IIHS &#821"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-04"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Base Power raises another $1B to save the grid using backyar"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 5,
       "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-05"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo Launches Robotaxi Service in Dallas",
+      "SpaceX to begin Starship orbital flights",
+      "Rocket Lab, STR win Space Force contracts for airborne-targe"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 45,
+      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-05"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo Launches Robotaxi Service in Dallas",
+      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel",
+      "Ukraine\u2019s Fire Point starts to integrate European tech into"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-05"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel",
+      "Navy renews Saildrone&#8217;s counter-drug mission in the Ca"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-05"
   },
   {
     "sector": "Housing & Construction",
@@ -236,14 +254,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
   },
   {
-    "sector": "Ocean & Maritime",
+    "sector": "Infrastructure & Logistics",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Active ocean & maritime ecosystem"
+      "Active infrastructure & logistics ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -252,22 +270,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-04"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 29
-    },
-    "lastUpdated": "2026-08-04"
+    "lastUpdated": "2026-08-05"
   }
 ]

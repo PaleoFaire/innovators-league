@@ -1,6 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-04 08:43:19 UTC
+// Last updated: 2026-08-05 08:41:15 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "10-Q", date: "2026-08-04", description: "pltr-20260630.htm", isIPO: false, ticker: "PLTR" },
+  { company: "C3.ai", form: "4", date: "2026-08-04", description: "xslF345X06/wk-form4_1785891723.xml", isIPO: false, ticker: "AI" },
+  { company: "Upstart Holdings", form: "10-Q", date: "2026-08-04", description: "upst-20260630.htm", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "8-K", date: "2026-08-04", description: "upst-20260804.htm", isIPO: false, ticker: "UPST" },
+  { company: "Agrify Corporation", form: "10-Q", date: "2026-08-04", description: "ea0299278-10q_rythm.htm", isIPO: false, ticker: "AGFY" },
+  { company: "Agrify Corporation", form: "8-K", date: "2026-08-04", description: "ea0299495-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
+  { company: "Astera Labs", form: "4", date: "2026-08-04", description: "xslF345X06/wk-form4_1785886439.xml", isIPO: false, ticker: "ALAB" },
   { company: "Palantir Technologies", form: "8-K", date: "2026-08-03", description: "pltr-20260803.htm", isIPO: false, ticker: "PLTR" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-08-03", description: "qbts-20260803.htm", isIPO: false, ticker: "QBTS" },
   { company: "Joby Aviation", form: "4", date: "2026-07-31", description: "xslF345X06/wk-form4_1785509549.xml", isIPO: false, ticker: "JOBY" },
@@ -44,11 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784309188.xml", isIPO: false, ticker: "IONQ" },
   { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784309047.xml", isIPO: false, ticker: "IONQ" },
   { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784308874.xml", isIPO: false, ticker: "IONQ" },
-  { company: "C3.ai", form: "4", date: "2026-07-16", description: "xslF345X06/wk-form4_1784234476.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-07-16", description: "xslF345X06/wk-form4_1784234443.xml", isIPO: false, ticker: "AI" },
-  { company: "AST SpaceMobile", form: "8-K", date: "2026-07-15", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157529.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157501.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157457.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-07-15", description: "xslF345X06/wk-form4_1784157422.xml", isIPO: false, ticker: "QBTS" },
 ];
