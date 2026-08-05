@@ -5,100 +5,100 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 31.72,
+      "avg_change": 29.11,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 21.25,
+      "avg_change": 21.81,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 15.32,
+      "avg_change": 13.43,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 21.77,
+      "avg_change": 21.41,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.81,
+      "avg_change": 10.89,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 31.38,
+      "avg_change": 28.95,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.1,
+      "avg_change": 7.72,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.02,
+      "avg_change": 2.0,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 21.98,
+      "avg_change": 19.72,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "SATL",
+      "Satellogic",
+      41.54
+    ],
+    [
       "QBTS",
       "D-Wave Quantum",
-      35.35
+      32.54
     ],
     [
       "ALAB",
       "Astera Labs",
-      35.14
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      32.48
+      30.46
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      31.93
+      30.0
     ],
     [
       "PLTR",
       "Palantir",
-      31.72
+      29.11
     ]
   ],
   "topLosers": [
     [
-      "SLDP",
-      "Solid Power",
-      7.0
+      "EVTL",
+      "Vertical Aerospace",
+      5.62
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      4.09
     ],
     [
       "9348.T",
       "ispace",
       3.94
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      3.91
     ],
     [
       "IDEAFORGE.NS",
@@ -108,8 +108,8 @@
     [
       "RIVN",
       "Rivian",
-      -4.9
+      -4.01
     ]
   ],
-  "lastUpdated": "2026-08-05 14:16:23"
+  "lastUpdated": "2026-08-05 19:40:21"
 }
