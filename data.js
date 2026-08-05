@@ -87044,23 +87044,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-05 20:36
+// Last updated: 2026-08-05 22:16
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Umbra", headline: "Capella, Iceye and Umbra win NRO radar-data contracts", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Zoox", headline: "Zoox to start charging for robotaxi rides in Las Vegas", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Saildrone", headline: "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role", source: "Defense News", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic is hiring an AI chip design team", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Liquid AI", headline: "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "ICEYE", headline: "Scaleup Europe Fund makes first investment, co-leading Iceye's '1BN'round", source: "Tech.eu", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Waymo", headline: "Waymo Launches Robotaxi Service in Dallas", source: "CleanTechnica", time: "17h ago", impact: "medium", unread: false },
-  { id: 8, type: "funding", company: "Base Power", headline: "Base Power raises $1B to get big batteries into more homes", source: "Canary Media", time: "19h ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX to begin Starship orbital flights", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Rocket Lab", headline: "Rocket Lab, STR win Space Force contracts for airborne-target tracking", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Valar Atomics", headline: "Microreactor startup Valar Atomics raises $1B", source: "Canary Media", time: "22h ago", impact: "high", unread: false },
-  { id: 12, type: "milestone", company: "Zoox", headline: "Zoox unveils production-ready robotaxi for U.S. expansion", source: "The Robot Report", time: "1d ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "Blue Water Autonomy", headline: "U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Fire Point", headline: "Ukraine's Fire Point starts to integrate European tech into missile defense system", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX's new Starfall program offers validation and competition for reentry startups", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "OpenAI", headline: "Trump's DOJ gains oversight of OpenAI's green-card employee sponsorships", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings- What Happens in the Next 18 Critical Months", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Umbra", headline: "Capella, Iceye and Umbra win NRO radar-data contracts", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Zoox", headline: "Zoox to start charging for robotaxi rides in Las Vegas", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Saildrone", headline: "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role", source: "Defense News", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic is hiring an AI chip design team", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "ICEYE", headline: "Scaleup Europe Fund makes first investment, co-leading Iceye's '1BN'round", source: "Tech.eu", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX $100B ARR Yearend 2026 Guidance Over My $96 Billion ARR Bull Case", source: "Next Big Future", time: "17h ago", impact: "high", unread: false },
+  { id: 9, type: "milestone", company: "Waymo", headline: "Waymo Launches Robotaxi Service in Dallas", source: "CleanTechnica", time: "18h ago", impact: "medium", unread: false },
+  { id: 10, type: "funding", company: "Base Power", headline: "Base Power raises $1B to get big batteries into more homes", source: "Canary Media", time: "20h ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX to begin Starship orbital flights", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Rocket Lab", headline: "Rocket Lab, STR win Space Force contracts for airborne-target tracking", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Valar Atomics", headline: "Microreactor startup Valar Atomics raises $1B", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Q2 Results", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Partners with Starmind AI1 Satellites for Rubin GPUs", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
