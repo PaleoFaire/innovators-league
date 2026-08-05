@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 13.23,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 15.4,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 10.45,
+      "avg_change": 10.52,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.68,
+      "avg_change": 7.46,
       "count": 3
     },
     "transportation": {
@@ -88,17 +88,17 @@
     [
       "9348.T",
       "ispace",
-      3.45
+      3.94
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      2.69
     ],
     [
       "EVTL",
       "Vertical Aerospace",
       2.22
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      -3.6
     ],
     [
       "RIVN",
@@ -111,5 +111,5 @@
       -8.08
     ]
   ],
-  "lastUpdated": "2026-08-05 02:46:28"
+  "lastUpdated": "2026-08-05 08:41:04"
 }
