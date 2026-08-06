@@ -1,30 +1,12 @@
 [
   {
-    "date": "2026-08-04",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-53",
-    "payload": "Starlink Group 17-53",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0448d030-5175-4c1f-bd0b-4f3f87072921/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-05",
-    "vehicle": "Smart Dragon 3 | OSE HS-01 & 02",
-    "payload": "OSE HS-01 & 02",
-    "pad": "Haiyang offshore launch location, Haiyang Oriental Spaceport",
-    "provider": "China Rocket Co. Ltd.",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d46cab82-dcf5-4d70-b698-d7bead7f638c/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-08-05",
-    "vehicle": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
-    "payload": "BlueBird 11-13 (Block 2 #6-8)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/56a85c82-ea71-449b-828c-b583f6f4a18b/?format=json",
-    "trackedCompany": "SpaceX"
+    "date": "2026-08-06",
+    "vehicle": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
+    "payload": "The Grain Goddess Provides (iQPS Launch 7)",
+    "pad": "Rocket Lab Launch Complex 1A, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
+    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-08-08",
@@ -132,15 +114,6 @@
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9f5a4cb6-63f9-47e1-9512-b468bae2a8e6/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-08-31",
-    "vehicle": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
-    "payload": "The Grain Goddess Provides (iQPS Launch 7)",
-    "pad": "Rocket Lab Launch Complex 1A, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
     "trackedCompany": "Rocket Lab"
   },
   {
@@ -448,5 +421,32 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca6886aea7/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "payload": "SDA Tranche 2 Transport Layer E",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42ffa2c5a6e/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+    "payload": "Telesat Lightspeed 1",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
+    "payload": "Galileo L15 (FOC FM28 & FM31)",
+    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0b85fcca-5252-48d7-9ccb-c10b1da9d183/?format=json",
+    "trackedCompany": null
   }
 ]

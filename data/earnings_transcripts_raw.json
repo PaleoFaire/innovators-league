@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-05 09:47:58 UTC",
+    "generated_at": "2026-08-06 09:55:56 UTC",
     "total_targets": 116,
-    "with_excerpts": 105,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -594,11 +594,13 @@
     {
       "ticker": "CDNS",
       "company": "Cadence Design",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.cadence.com/en_US/home/company/investor-relations.html",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-07-28",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000092/0000813672-26-000092-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "WOLF",
@@ -1003,11 +1005,11 @@
       "ticker": "SMR",
       "company": "NuScale Power",
       "quarter": "2026-Q2",
-      "date": "2026-05-07",
+      "date": "2026-08-05",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/0001822966-26-000054-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1822966/000182296626000085/0001822966-26-000085-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -1023,11 +1025,11 @@
       "ticker": "BWXT",
       "company": "BWX Technologies",
       "quarter": "2026-Q2",
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000042/0001486957-26-000042-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000044/0001486957-26-000044-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -1085,11 +1087,11 @@
       "ticker": "ALB",
       "company": "Albemarle",
       "quarter": "2026-Q2",
-      "date": "2026-05-06",
+      "date": "2026-08-05",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000072/0000915913-26-000072-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000102/0000915913-26-000102-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -1226,11 +1228,11 @@
       "ticker": "RXRX",
       "company": "Recursion Pharma",
       "quarter": "2026-Q2",
-      "date": "2026-05-06",
+      "date": "2026-08-05",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000078/0001601830-26-000078-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000098/0001601830-26-000098-index.htm",
       "source": "sec_edgar"
     },
     {

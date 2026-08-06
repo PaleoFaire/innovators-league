@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-08-05 09:52:38 UTC
-// Total: 16 filings across 14 companies
+// Last updated: 2026-08-06 10:00:55 UTC
+// Total: 11 filings across 9 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-08-05T09:52:38.893061+00:00",
+  "generated_at": "2026-08-06T10:00:55.688006+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 16,
+  "total_filings": 11,
   "filings": [
     {
       "company": "Antora Energy",
@@ -190,91 +190,6 @@ const FORM_D_FILINGS = {
       "offering_amount": "319999537",
       "amount_sold": "319999537",
       "amount_remaining": "0",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Radiant",
-      "issuer_name": "Radiant Flux, L.P",
-      "form": "D",
-      "filed_date": "2026-07-27",
-      "cik": "2143368",
-      "accession": "0002143368-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143368&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002143368-26-000001",
-      "offering_amount": "200000000",
-      "amount_sold": "0",
-      "amount_remaining": "200000000",
-      "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Brimstone",
-      "issuer_name": "Brimstone Grill Inc",
-      "form": "D",
-      "filed_date": "2026-07-24",
-      "cik": "2085198",
-      "accession": "0002085198-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002085198&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002085198-26-000001",
-      "offering_amount": "1500000",
-      "amount_sold": "575000",
-      "amount_remaining": "925000",
-      "securities_type": "Debt",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Wyvern",
-      "issuer_name": "Wyvern Medical Fund LP",
-      "form": "D",
-      "filed_date": "2026-07-24",
-      "cik": "1472433",
-      "accession": "0001472433-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001472433&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001472433-26-000001",
-      "offering_amount": "Indefinite",
-      "amount_sold": "5814395",
-      "amount_remaining": "Indefinite",
-      "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Latitude",
-      "issuer_name": "Latitude Alpharetta Investors LLC",
-      "form": "D",
-      "filed_date": "2026-07-23",
-      "cik": "2146079",
-      "accession": "0002146079-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146079&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002146079-26-000001",
-      "offering_amount": "2500000",
-      "amount_sold": "0",
-      "amount_remaining": "2500000",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "company": "Harbinger",
-      "issuer_name": "Harbinger VIG Holdings, LLC",
-      "form": "D",
-      "filed_date": "2026-07-23",
-      "cik": "2125900",
-      "accession": "0002125900-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002125900&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002125900-26-000001",
-      "offering_amount": "9000000",
-      "amount_sold": "0",
-      "amount_remaining": "9000000",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
