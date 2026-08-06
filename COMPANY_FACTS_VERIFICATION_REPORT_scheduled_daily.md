@@ -1,25 +1,25 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-05T08:18:57+00:00  
+**Generated:** 2026-08-06T08:17:24+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 30 companies  
+**Cohort size:** 32 companies  
 
-**New Claude extractions this run:** 30  
+**New Claude extractions this run:** 32  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 26 | 87% |
-| 🔧 Changes proposed | 4 | 13% |
+| ✅ Cleared (data matches sources) | 25 | 78% |
+| 🔧 Changes proposed | 7 | 22% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (4 companies)
+## 🔧 Proposed Changes (7 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
@@ -28,32 +28,57 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`fundingStage`:** `SPAC` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
 
-  **Notes:** Database entry lists stage as 'SPAC' but Wikipedia clearly identifies company as 'Private'. No evidence in sources of SPAC status or $10B+ funding figure. CEO is Dave Limp (appointed September 2023). Company paused New Shepard tourism launches in January 2026 to focus on Artemis program.
+  **Notes:** Database entry listed stage as 'SPAC' but source [0] clearly identifies company as 'Private'. No evidence in sources for total_raised ($10B+), valuation, or specific investors (Coatue Management, Jeff Bezos). Source [1] is about Air Force contract expansion and does not contain company-level funding or investor information.
 
-### Blue Water Autonomy
+### ICEYE
 
-- **`founder`:** `Rylan Hamilton, Austin Gray, Scott N. Miller` → `Rylan Hamilton, Austin Gray`  
-  Sources: [company_website](https://bluewaterautonomy.com) · [company_about](https://bluewaterautonomy.com/about)
+- **`fundingStage`:** `Series E` → `Series F`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/ICEYE)
+- **`totalRaised`:** `$730M+` → `$650M+`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/ICEYE)
 
-  **Notes:** Database entry lists 'Scott N. Miller' as founder, but sources [0] and [1] only explicitly name Rylan Hamilton and Austin Gray as Co-Founders. No mention of Scott N. Miller found in provided sources. Founded year 2024, Series A stage, $64M total raised, and GV as investor from database entry could not be verified in provided sources.
+  **Notes:** Wikipedia indicates June 2026 Series F round of €450M primary (led by General Atlantic) plus €550M secondary at €10B+ valuation. December 2025 €150M Series E round led by General Catalyst at €2.4B valuation also documented. Total satellites launched reached 62 as of December 5, 2025. Company reported profitability and €200M revenue (2025).
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly traded on NASDAQ under ticker NNE. Sources do not contain founder names, founding year, total raised, valuation, or investor list. Source [2] is about Valar Atomics (different company) and was not used. Current database entry contains information not verifiable in provided sources (founder Jay Jiang Yu, founding year 2022, Seed stage, $600M+ raised, $808M valuation, ODIN sale to Cambridge AtomWorks).
+  **Notes:** Company is publicly traded on NASDAQ under ticker NNE. Sources confirm three reactor designs (KRONOS, ZEUS, LOKI) in development. Database entry references ODIN sale to Cambridge AtomWorks and market cap of $1.2B (June 2026), but these facts are not verified in provided sources. No founder information available in sources. No total raised or valuation figures confirmed in sources. Founded year not specified in sources.
+
+### Quantum-Systems
+
+- **`totalRaised`:** `$370M+` → `$160M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Quantum-Systems)
+
+  **Notes:** In May 2025, Quantum-Systems became Europe's first dual-use unicorn (source 2). Founded by Florian Seibel, a former Bundeswehr officer and military helicopter pilot (source 1, 2). Series C round of €160M mentioned in source 2.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia indicates IPO occurred on June 12, 2026. Database entry claims 'preparing for IPO' but source confirms IPO already completed as of Wikipedia's 2026 update. Alphabet Inc. owns 6% equity stake per Wikipedia. Elon Musk controls 85% voting power per Wikipedia (database entry does not specify this detail). No specific valuation figure found in provided sources to verify the $1.65T or $1.5T claims.
+  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion, described as the largest IPO in history. Current database entry references $1.65T valuation and 'Preparing for IPO' which contradicts the Wikipedia source showing the IPO has already occurred. No valuation figure found in provided sources to verify the $1.65T claim.
+
+### Umbra
+
+- **`founder`:** `David Langan, Gabe Dominocielo` → `David Langan`  
+  Sources: [company_about](https://umbra.space/about)
+
+  **Notes:** Only David Langan is explicitly named as a founder/co-founder in sources. Gabe Dominocielo from database entry is not mentioned in provided sources. Source [2] is Wikipedia article about shadow terminology (umbra/penumbra), not the company. Source [3] mentions Umbra won NRO radar-data contracts but no details provided. Current stage, total raised, valuation, and investors cannot be verified from provided sources.
+
+### Wayve
+
+- **`location`:** `London, UK` → `London, United Kingdom`  
+  Sources: [company_website](https://wayve.ai) · [company_about](https://wayve.ai/about) · [wikipedia](https://en.wikipedia.org/wiki/Wayve)
+- **`totalRaised`:** `$2.5B+` → `$2.8B`  
+  Sources: [company_about](https://wayve.ai/about)
+
+  **Notes:** Founded August 21, 2017. Co-founder Amar Shah departed in 2020; Alex Kendall is current CEO. Series C closed May 2024 at $1.05B led by SoftBank. Series D announced February 2026 with $1.5B raised, increasing valuation to $8.6B. Company has ~1,000 employees as of 2026.
 
 ---
 
-## ✅ Cleared (26 companies)
+## ✅ Cleared (25 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -61,8 +86,8 @@ Sample (first 30):
 
 - Antares
 - Apptronik
-- Aurora Innovation
 - Base Power
+- Blue Water Autonomy
 - Cape
 - Claros
 - Commonwealth Fusion Systems
@@ -70,17 +95,16 @@ Sample (first 30):
 - Deterrence
 - Durin
 - Fire Point
-- Humanoid
+- Firestorm Labs
 - ICON
 - K2 Space
+- Palantir
 - Percepto
 - Quaise Energy
 - Radiant
 - Rivian
 - Rocket Lab
 - Saildrone
-- Scale AI
-- Twelve
 - Valar Atomics
 - Waymo
 - Xtend
@@ -89,4 +113,4 @@ Sample (first 30):
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-05T08:18:57+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-06T08:17:24+00:00*
