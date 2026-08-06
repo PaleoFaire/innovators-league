@@ -1,39 +1,39 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 74,
+    "momentum": 78,
     "trend": "accelerating",
     "catalysts": [
-      "Scaleup Europe Fund makes first investment, co-leading Iceye",
-      "Waymo Launches Robotaxi Service in Dallas",
-      "SpaceX to begin Starship orbital flights"
+      "Welp, Nobody Saw SpaceX\u2019s Falcon 9 Rocket Crash Into the Moo",
+      "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings-",
+      "Capella, Iceye and Umbra win NRO radar-data contracts"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 75,
+      "news": 90,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 62,
+    "momentum": 64,
     "trend": "steady",
     "catalysts": [
-      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel",
-      "Ukraine\u2019s Fire Point starts to integrate European tech into",
-      "Navy renews Saildrone&#8217;s counter-drug mission in the Ca"
+      "Firestorm Labs builds drones aboard USS Essex without shore",
+      "US Navy, Saildrone to use unmanned systems in expanded count",
+      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel"
     ],
     "fundingQ": "$11.3B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Nuclear Energy",
@@ -51,24 +51,42 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Transportation",
     "momentum": 58,
     "trend": "steady",
     "catalysts": [
-      "Navy renews Saildrone&#8217;s counter-drug mission in the Ca",
-      "<a href=\"/cro/icon-inks-anthropic-partnership-deploy-claude-"
+      "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
+      "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Merced"
     ],
-    "fundingQ": "$22.0B",
+    "fundingQ": "$20.0B",
     "components": {
       "funding": 100,
       "news": 10,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 56,
+    "trend": "accelerating",
+    "catalysts": [
+      "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
+      "Firestorm Labs builds drones aboard USS Essex without shore",
+      "Zoox to start charging for robotaxi rides in Las Vegas"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Climate & Energy",
@@ -85,59 +103,41 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
-    "sector": "Transportation",
+    "sector": "Biotech & Health",
     "momentum": 56,
     "trend": "steady",
     "catalysts": [
-      "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Merced"
+      "<a href=\"/cro/icon-inks-anthropic-partnership-deploy-claude-"
     ],
-    "fundingQ": "$20.0B",
+    "fundingQ": "$22.0B",
     "components": {
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 97
+      "market": 100
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
-    "sector": "Robotics & Manufacturing",
+    "sector": "AI & Software",
     "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "Waymo Launches Robotaxi Service in Dallas",
-      "Zoox unveils production-ready robotaxi for U.S. expansion",
-      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel"
+      "New York-headquartered AI startup Modal Labs to open London",
+      "OpenAI Didn\u2019t Notice Its AI Agents Using a Message Board to",
+      "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Con"
     ],
-    "fundingQ": "$27.0B",
+    "fundingQ": "$285.8B",
     "components": {
       "funding": 100,
       "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-05"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "SpaceX doubles revenue on Anthropic and Google compute deals",
-      "Anthropic signs $10B deal with AI cloud startup Volta",
-      "Anthropic confirms its AI breached 3 organizations during te"
-    ],
-    "fundingQ": "$285.7B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -153,41 +153,42 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 24,
+    "trend": "rising",
+    "catalysts": [
+      "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Con",
+      "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings-",
+      "Capella, Iceye and Umbra win NRO radar-data contracts"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 55,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 21,
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
+      "SpaceX Partners with Starmind AI1 Satellites for Rubin GPUs",
       "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-05"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo Launches Robotaxi Service in Dallas",
-      "SpaceX to begin Starship orbital flights",
-      "Rocket Lab, STR win Space Force contracts for airborne-targe"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Quantum Computing",
@@ -203,33 +204,33 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 15,
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Waymo Launches Robotaxi Service in Dallas",
-      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel",
-      "Ukraine\u2019s Fire Point starts to integrate European tech into"
+      "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
+      "Firestorm Labs builds drones aboard USS Essex without shore",
+      "US Navy, Saildrone to use unmanned systems in expanded count"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Ocean & Maritime",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel",
-      "Navy renews Saildrone&#8217;s counter-drug mission in the Ca"
+      "US Navy, Saildrone to use unmanned systems in expanded count",
+      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -238,7 +239,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "New York-headquartered AI startup Modal Labs to open London"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-06"
   },
   {
     "sector": "Housing & Construction",
@@ -254,22 +271,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-05"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active infrastructure & logistics ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
   }
 ]

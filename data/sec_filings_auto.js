@@ -1,6 +1,18 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-05 08:41:15 UTC
+// Last updated: 2026-08-06 08:42:44 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "NuScale Power", form: "8-K", date: "2026-08-05", description: "smr-20260805.htm", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "10-Q", date: "2026-08-05", description: "smr-20260630.htm", isIPO: false, ticker: "SMR" },
+  { company: "Oklo", form: "4", date: "2026-08-05", description: "xslF345X06/wk-form4_1785960443.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-08-05", description: "xslF345X06/wk-form4_1785960407.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-08-05", description: "xslF345X06/wk-form4_1785960370.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-08-05", description: "xslF345X06/wk-form4_1785960333.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Centrus Energy", form: "8-K", date: "2026-08-05", description: "leu-20260805.htm", isIPO: false, ticker: "LEU" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-08-05", description: "qbts-20260805.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2026-08-05", description: "rxrx-20260630.htm", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "8-K", date: "2026-08-05", description: "rxrx-20260805.htm", isIPO: false, ticker: "RXRX" },
+  { company: "Ginkgo Bioworks", form: "8-K", date: "2026-08-05", description: "dna-20260805.htm", isIPO: false, ticker: "DNA" },
+  { company: "Astera Labs", form: "8-K", date: "2026-08-05", description: "tra-20260805.htm", isIPO: false, ticker: "ALAB" },
   { company: "Palantir Technologies", form: "10-Q", date: "2026-08-04", description: "pltr-20260630.htm", isIPO: false, ticker: "PLTR" },
   { company: "C3.ai", form: "4", date: "2026-08-04", description: "xslF345X06/wk-form4_1785891723.xml", isIPO: false, ticker: "AI" },
   { company: "Upstart Holdings", form: "10-Q", date: "2026-08-04", description: "upst-20260630.htm", isIPO: false, ticker: "UPST" },
@@ -39,16 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "BlackSky Technology", form: "DEF 14A", date: "2026-07-23", description: "bksy-20260723.htm", isIPO: false, ticker: "BKSY" },
   { company: "Momentus", form: "8-K", date: "2026-07-23", description: "tm2621205d1_8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "Satellogic", form: "8-K", date: "2026-07-23", description: "ea0299090-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752694.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752629.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752600.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-07-22", description: "xslF345X06/wk-form4_1784752563.xml", isIPO: false, ticker: "RIVN" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-07-21", description: "xslF345X06/wk-form4_1784671121.xml", isIPO: false, ticker: "QBTS" },
-  { company: "AST SpaceMobile", form: "8-K", date: "2026-07-20", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-07-20", description: "xslF345X06/wk-form4_1784581219.xml", isIPO: false, ticker: "DNA" },
-  { company: "Palantir Technologies", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784333024.xml", isIPO: false, ticker: "PLTR" },
-  { company: "C3.ai", form: "8-K", date: "2026-07-17", description: "ai-20260714.htm", isIPO: false, ticker: "AI" },
-  { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784309188.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784309047.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-07-17", description: "xslF345X06/wk-form4_1784308874.xml", isIPO: false, ticker: "IONQ" },
 ];
