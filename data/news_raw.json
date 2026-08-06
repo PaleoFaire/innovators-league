@@ -1,5 +1,67 @@
 [
   {
+    "title": "OpenAI’s Browser Could Be Hijacked to Spam Your WhatsApp Contacts",
+    "link": "https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/",
+    "description": "Researchers at security firm Zenity found more than a dozen flaws in AI browsers—and managed to get OpenAI’s Atlas to make an unauthorized Amazon purchase.",
+    "pubDate": "Wed, 05 Aug 2026 23:30:00 +0000",
+    "category": "Security",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "ai",
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Firestorm Labs builds drones aboard USS Essex without shore resupply",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/",
+    "description": "Service members aboard the USS Essex were able to 3D-print 12 first-person view drones using a containerized microfactory.",
+    "pubDate": "Wed, 05 Aug 2026 23:14:31 +0000",
+    "category": "/ MilTech",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Firestorm Labs",
+    "matchedCompanies": [
+      "Firestorm Labs"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Welp, Nobody Saw SpaceX’s Falcon 9 Rocket Crash Into the Moon",
+    "link": "https://www.wired.com/story/nobody-saw-spacex-rocket-moon-crash/",
+    "description": "Although no one captured a direct image of the impact, scientists have detected signals confirming the rocket hit the lunar surface. Orbiters could provide the first images of the crash site in the coming days.",
+    "pubDate": "Wed, 05 Aug 2026 22:40:53 +0000",
+    "category": "Science",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "Trump&#8217;s DOJ gains oversight of OpenAI’s green-card employee sponsorships",
     "link": "https://techcrunch.com/2026/08/05/trumps-doj-gains-oversight-of-openais-green-card-employee-sponsorships/",
     "description": "The DOJ alleged that OpenAI did not meaningful attempt to hire U.S. citizens before seeking permanent residence for Visa-holding employees.",
@@ -16,7 +78,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1h ago"
+    "time": "2h ago"
   },
   {
     "title": "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings- What Happens in the Next 18 Critical Months",
@@ -35,7 +97,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Capella, Iceye and Umbra win NRO radar-data contracts",
@@ -60,7 +122,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "5h ago"
+    "time": "7h ago"
   },
   {
     "title": "Zoox to start charging for robotaxi rides in Las Vegas",
@@ -81,7 +143,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "7h ago"
+    "time": "8h ago"
   },
   {
     "title": "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role",
@@ -101,28 +163,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
-  },
-  {
-    "title": "Anthropic is hiring an AI chip design team",
-    "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
-    "description": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
-    "pubDate": "Wed, 05 Aug 2026 14:13:18 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "IQM Quantum Computers"
-    ],
-    "sectors": [
-      "ai",
-      "quantum"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "8h ago"
+    "time": "9h ago"
   },
   {
     "title": "Scaleup Europe Fund makes first investment, co-leading Iceye's €1BN round",
@@ -141,7 +182,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "15h ago"
   },
   {
     "title": "SpaceX $100B ARR Yearend 2026 Guidance Over My $96 Billion ARR Bull Case",
@@ -160,7 +201,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "Waymo Launches Robotaxi Service in Dallas",
@@ -181,7 +222,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "Base Power raises $1B to get big batteries into more homes",
@@ -200,7 +241,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "20h ago"
+    "time": "22h ago"
   },
   {
     "title": "SpaceX to begin Starship orbital flights",
@@ -219,7 +260,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Rocket Lab, STR win Space Force contracts for airborne-target tracking",
@@ -238,7 +279,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Microreactor startup Valar Atomics raises $1B",
