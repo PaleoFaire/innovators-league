@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T09:46:16+00:00",
+  "generatedAt": "2026-08-06T12:08:53+00:00",
   "matrix": {
     "energy-storage-thermal-gravity": {
       "2026-Q3": {
@@ -153,7 +153,7 @@
     },
     "nuclear-microreactor": {
       "2026-Q3": {
-        "deals": 2,
+        "deals": 1,
         "totalSold": 54647987,
         "companiesWithUnknownAmount": 0,
         "companies": [
@@ -169,30 +169,10 @@
               "FiftyThree Stations",
               "Industrious"
             ]
-          },
-          {
-            "name": "Radiant",
-            "amount": 0,
-            "date": "2026-07-27",
-            "source": "formd",
-            "investors": [
-              "Draper Associates",
-              "Boost VC",
-              "DCVC",
-              "Founders Fund",
-              "Chevron Technology Ventures",
-              "ARK Venture Fund",
-              "Friends & Family Capital",
-              "Andreessen Horowitz",
-              "Union Square Ventures",
-              "Giant Ventures",
-              "StepStone"
-            ]
           }
         ],
         "investors": [
-          "Caffeinated Capital",
-          "Founders Fund"
+          "Caffeinated Capital"
         ]
       },
       "2025-Q2": {
@@ -223,117 +203,6 @@
         "investors": [
           "Founders Fund"
         ]
-      }
-    },
-    "cement-green": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 575000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Brimstone",
-            "amount": 575000,
-            "date": "2026-07-24",
-            "source": "formd",
-            "investors": [
-              "Breakthrough Energy Ventures",
-              "DCVC",
-              "Collaborative Fund",
-              "Fifth Wall",
-              "Amazon Climate Pledge Fund",
-              "S2G Ventures",
-              "Acceler8",
-              "SystemIQ",
-              "Impact Science Ventures",
-              "Osage University Partners",
-              "Gatemore",
-              "GVP Climate",
-              "Kajima Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "hyperspectral-eo": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 5814395,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Wyvern",
-            "amount": 5814395,
-            "date": "2026-07-24",
-            "source": "formd",
-            "investors": [
-              "Squadra Ventures",
-              "Uncork Capital",
-              "Y Combinator",
-              "MaC Venture Capital",
-              "University of Alberta Innovation Fund",
-              "Accelerate Fund III",
-              "NordSpace Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "space-launch-small-intl": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Latitude",
-            "amount": 0,
-            "date": "2026-07-23",
-            "source": "formd",
-            "investors": [
-              "Cr\\u00e9dit Mutuel Innovation",
-              "Bpifrance (Deep Tech 2030 fund)",
-              "Expansion",
-              "UI Investissement",
-              "Blast.club",
-              "Kima Ventures"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "transport-electric-vehicles": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Harbinger",
-            "amount": 0,
-            "date": "2026-07-23",
-            "source": "formd",
-            "investors": [
-              "FedEx",
-              "Capricorn Investment Group (Technology Impact Fund)",
-              "THOR Industries",
-              "Ridgeline",
-              "Tiger Global",
-              "Leitmotif",
-              "Maniv Mobility",
-              "Schematic Ventures",
-              "Overture Climate",
-              "Ironspring Ventures",
-              "ArcTern Ventures",
-              "Litquidity Ventures",
-              "The Coca-Cola System Sustainability Fund"
-            ]
-          }
-        ],
-        "investors": []
       }
     },
     "autonomy-drone-military": {
@@ -1683,20 +1552,6 @@
       ]
     },
     "Founders Fund": {
-      "2026-Q3": [
-        {
-          "company": "Radiant",
-          "cluster": "nuclear-microreactor",
-          "date": "2026-07-27",
-          "source": "formd"
-        },
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
       "2026-Q2": [
         {
           "company": "Anduril Industries",
@@ -1730,6 +1585,14 @@
           "company": "Neuralink",
           "cluster": "brain-computer-interface",
           "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07",
           "source": "recentEvent"
         }
       ],
@@ -2102,9 +1965,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 63,
-    "totalUSDSold": 1582993798,
-    "uniqueClusters": 43,
+    "totalDealsTracked": 58,
+    "totalUSDSold": 1576604403,
+    "uniqueClusters": 39,
     "uniqueQuarters": 9,
     "uniqueVCs": 17,
     "quarterRange": [
