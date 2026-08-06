@@ -87395,23 +87395,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-06 12:08
+// Last updated: 2026-08-06 15:21
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 8th iQPS satellite", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "milestone", company: "Modal", headline: "New York-headquartered AI startup Modal Labs to open London office", source: "Tech.eu", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Wayve", headline: "Wayve &#038; Uber Can Now Deploy Robotaxis in London", source: "CleanTechnica", time: "11h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Didn't Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree", source: "Wired", time: "11h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI's Browser Could Be Hijacked to Spam Your WhatsApp Contacts", source: "Wired", time: "12h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Firestorm Labs", headline: "Firestorm Labs builds drones aboard USS Essex without shore resupply", source: "Defense News", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Welp, Nobody Saw SpaceX's Falcon 9 Rocket Crash Into the Moon", source: "Wired", time: "13h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "OpenAI", headline: "Trump's DOJ gains oversight of OpenAI's green-card employee sponsorships", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings- What Happens in the Next 18 Critical Months", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Umbra", headline: "Capella, Iceye and Umbra win NRO radar-data contracts", source: "SpaceNews", time: "19h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Zoox", headline: "Zoox to start charging for robotaxi rides in Las Vegas", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Saildrone", headline: "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role", source: "Defense News", time: "21h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "ICEYE", headline: "Scaleup Europe Fund makes first investment, co-leading Iceye's '1BN'round", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX $100B ARR Yearend 2026 Guidance Over My $96 Billion ARR Bull Case", source: "Next Big Future", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "milestone", company: "Waymo", headline: "Waymo Launches Robotaxi Service in Dallas", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI says Apple's own security practices undermine its trade secrets case", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Deterrence", headline: "Does Latent Nuclear Deterrence Really Work?", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Oklo", headline: "Nuclear startup Oklo splits its first atoms in test reactor", source: "Canary Media", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 8th iQPS satellite", source: "SpaceNews", time: "4h ago", impact: "medium", unread: true },
+  { id: 5, type: "milestone", company: "Modal", headline: "New York-headquartered AI startup Modal Labs to open London office", source: "Tech.eu", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Wayve", headline: "Wayve &#038; Uber Can Now Deploy Robotaxis in London", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Didn't Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree", source: "Wired", time: "15h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI's Browser Could Be Hijacked to Spam Your WhatsApp Contacts", source: "Wired", time: "15h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "Firestorm Labs", headline: "Firestorm Labs builds drones aboard USS Essex without shore resupply", source: "Defense News", time: "16h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Welp, Nobody Saw SpaceX's Falcon 9 Rocket Crash Into the Moon", source: "Wired", time: "16h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "OpenAI", headline: "Trump's DOJ gains oversight of OpenAI's green-card employee sponsorships", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings- What Happens in the Next 18 Critical Months", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Umbra", headline: "Capella, Iceye and Umbra win NRO radar-data contracts", source: "SpaceNews", time: "22h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Saildrone", headline: "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "ICEYE", headline: "Scaleup Europe Fund makes first investment, co-leading Iceye's '1BN'round", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
