@@ -87275,22 +87275,20 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-06 06:39
-// Auto-generated real-time signals
-// Last updated: 2026-08-06
+// Last updated: 2026-08-06 09:45
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Modal", headline: "New York-headquartered AI startup Modal Labs to open London office", source: "Tech.eu", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Wayve", headline: "Wayve &#038; Uber Can Now Deploy Robotaxis in London", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree", source: "Wired", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI’s Browser Could Be Hijacked to Spam Your WhatsApp Contacts", source: "Wired", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Firestorm Labs", headline: "Firestorm Labs builds drones aboard USS Essex without shore resupply", source: "Defense News", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Welp, Nobody Saw SpaceX’s Falcon 9 Rocket Crash Into the Moon", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "OpenAI", headline: "Trump&#8217;s DOJ gains oversight of OpenAI’s green-card employee sponsorships", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings- What Happens in the Next 18 Critical Months", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Umbra", headline: "Capella, Iceye and Umbra win NRO radar-data contracts", source: "SpaceNews", time: "15h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Zoox", headline: "Zoox to start charging for robotaxi rides in Las Vegas", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Saildrone", headline: "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role", source: "Defense News", time: "18h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "ICEYE", headline: "Scaleup Europe Fund makes first investment, co-leading Iceye's €1BN round", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Modal", headline: "New York-headquartered AI startup Modal Labs to open London office", source: "Tech.eu", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Wayve", headline: "Wayve &#038; Uber Can Now Deploy Robotaxis in London", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Didn't Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree", source: "Wired", time: "9h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI's Browser Could Be Hijacked to Spam Your WhatsApp Contacts", source: "Wired", time: "10h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Firestorm Labs", headline: "Firestorm Labs builds drones aboard USS Essex without shore resupply", source: "Defense News", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Welp, Nobody Saw SpaceX's Falcon 9 Rocket Crash Into the Moon", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "OpenAI", headline: "Trump's DOJ gains oversight of OpenAI's green-card employee sponsorships", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings- What Happens in the Next 18 Critical Months", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Umbra", headline: "Capella, Iceye and Umbra win NRO radar-data contracts", source: "SpaceNews", time: "16h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Zoox", headline: "Zoox to start charging for robotaxi rides in Las Vegas", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Saildrone", headline: "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role", source: "Defense News", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "ICEYE", headline: "Scaleup Europe Fund makes first investment, co-leading Iceye's '1BN'round", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX $100B ARR Yearend 2026 Guidance Over My $96 Billion ARR Bull Case", source: "Next Big Future", time: "1d ago", impact: "high", unread: false },
   { id: 14, type: "milestone", company: "Waymo", headline: "Waymo Launches Robotaxi Service in Dallas", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
   { id: 15, type: "funding", company: "Base Power", headline: "Base Power raises $1B to get big batteries into more homes", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
