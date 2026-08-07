@@ -11189,7 +11189,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 6000000000.0,
             "base_value_fmt": "$6.0B",
@@ -11197,9 +11197,8 @@
             "current_stage": "Series G",
             "step_up_multiplier": 1.25
           },
-          "implied": 7500000000.0,
-          "implied_fmt": "$7.5B",
-          "rationale": "Applies typical Series G \u2192 next-stage step-up multiplier (1.25x) to $6.0B total raised proxy."
+          "rationale": "Implied valuation $7.5B is more than 20x the $149M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $7.5B exceeds 20x company totalRaised ($149M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -11208,15 +11207,7 @@
           "rationale": "4 same-sector peers exist in Nuclear Energy, but none of the narrow filters (same-stage / adjacent-stage / similar-valuation-tier) yielded \u22653 datapoints. Falling back to all-sector median would be misleading."
         }
       ],
-      "triangulated": {
-        "low": 6375000000.0,
-        "low_fmt": "$6.4B",
-        "median": 7500000000.0,
-        "median_fmt": "$7.5B",
-        "high": 8625000000.0,
-        "high_fmt": "$8.6B",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -11308,7 +11299,7 @@
           }
         ]
       },
-      "narrative": "Valar Atomics, a Series G nuclear energy company founded by Isaiah P. Taylor, is evaluated against a comp universe of 8 peers: 3 public companies (OKLO, NNE, SMR) and 5 private firms (Oklo, X-Energy, Nano Nuclear Energy, Fuse Energy, ARC Clean Technology). The company has raised $149M to date.\n\nThe valuation analysis applies one quantitative method: stage-progression triangulation. Using total capital raised ($149M) as a proxy anchor of $6.0B, a typical Series G step-up multiplier of 1.25x yields an implied valuation of $7.5B. A peer-median approach was not feasible due to insufficient same-stage and adjacent-stage comparables within the nuclear energy sector; only four same-sector peers exist, with none meeting the narrow-filter thresholds required for statistical reliability.\n\nThe triangulated valuation range is $6.4B (low), $7.5B (median), and $8.6B (high), derived from stage-progression alone. The principal uncertainty is the absence of robust private-market peer pricing at Series G within nuclear energy, which limits cross-validation of the step-up multiplier. Additional sensitivity would benefit from public-market trading multiples (EV/revenue or deployed-capital metrics) on the three public comparables, though such data was not provided. Until adjacent-stage nuclear peers achieve comparable scale or disclosure, this range reflects limited triangulation and should be treated as preliminary.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:40:16+00:00"
     },
     "Radiant": {
@@ -17253,7 +17244,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 39000000000.0,
             "base_value_fmt": "$39.0B",
@@ -17261,9 +17252,8 @@
             "current_stage": "Series C",
             "step_up_multiplier": 1.7
           },
-          "implied": 66300000000.0,
-          "implied_fmt": "$66.3B",
-          "rationale": "Applies typical Series C \u2192 next-stage step-up multiplier (1.7x) to $39.0B last post money."
+          "rationale": "Implied valuation $66.3B is more than 20x the $1.0B this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $66.3B exceeds 20x company totalRaised ($1.0B) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -17311,11 +17301,11 @@
       "triangulated": {
         "low": 7310000000.0,
         "low_fmt": "$7.3B",
-        "median": 37450000000.0,
-        "median_fmt": "$37.5B",
-        "high": 76245000000.0,
-        "high_fmt": "$76.2B",
-        "method_count": 2
+        "median": 8600000000.0,
+        "median_fmt": "$8.6B",
+        "high": 9890000000.0,
+        "high_fmt": "$9.9B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -17421,7 +17411,7 @@
           }
         ]
       },
-      "narrative": "Figure AI, a Series C AI & Software company founded by Brett Adcock, is evaluated against a universe of 9 comparable companies\u20141 public (Palantir) and 8 private peers including Skild AI, Crusoe Energy, Wayve, and Physical Intelligence, spanning Series B through Series D stages.\n\nTwo valuation methods are applicable. Stage-progression analysis, anchored to the company's last post-money valuation of $39.0B, applies a typical 1.7x Series C step-up multiplier, yielding $66.3B. Peer-median analysis across five same-sector, same/adjacent-stage comparables\u2014Skild AI ($14.0B), Crusoe Energy ($10.0B), Wayve ($8.6B), Physical Intelligence ($5.6B), and Black Forest Labs ($3.2B)\u2014produces a median of $8.6B, with a range of $3.2B to $14.0B.\n\nThe triangulation of these two methods supports a valuation range of $7.3B to $76.2B, with a median of $37.5B. The wide dispersion reflects material uncertainty: stage-progression implies substantial upside from current post-money, while peer-median suggests current valuation significantly exceeds the median comparable. Key drivers of this variance include capital efficiency relative to peers, revenue or deployment metrics not captured in the comp set, and stage-specific risk premia. Further diligence on company-specific traction metrics and peer-set relevance would be required to narrow the range.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:42:45+00:00"
     },
     "Neuralink": {
@@ -25977,7 +25967,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 1000000000.0,
             "base_value_fmt": "$1.0B",
@@ -25985,9 +25975,8 @@
             "current_stage": "Series A",
             "step_up_multiplier": 2.0
           },
-          "implied": 2000000000.0,
-          "implied_fmt": "$2.0B",
-          "rationale": "Applies typical Series A \u2192 next-stage step-up multiplier (2.0x) to $1.0B total raised proxy."
+          "rationale": "Implied valuation $2.0B is more than 20x the $30M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $2.0B exceeds 20x company totalRaised ($30M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -26035,11 +26024,11 @@
       "triangulated": {
         "low": 850000000.0,
         "low_fmt": "$850M",
-        "median": 1500000000.0,
-        "median_fmt": "$1.5B",
-        "high": 2300000000.0,
-        "high_fmt": "$2.3B",
-        "method_count": 2
+        "median": 1000000000.0,
+        "median_fmt": "$1.0B",
+        "high": 1150000000.0,
+        "high_fmt": "$1.1B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -26155,7 +26144,7 @@
           }
         ]
       },
-      "narrative": "Reveal Technology is a Series A defense and security company founded by Garrett Smith that has raised $30M+ to date. Valuation analysis draws from a comparables universe of 10 same-sector, same/adjacent-stage peers\u20148 private and 2 public (DRSHF, IDEAFORGE.NS)\u2014including Anduril Industries, Helsing, Shield AI, and NODA AI. The peer set spans $125M to $3.0B in valuation.\n\nTwo triangulation methods were applied. Stage-progression analysis, anchoring to the $1.0B total raised proxy and applying a typical 2.0x Series A step-up multiplier, implies a $2.0B valuation. Peer-median analysis across the 10-company comparable set yields a $1.0B median valuation, with peer range of $125M\u2013$3.0B. The sample peers shown (Dream Security at $3.0B, Harmattan AI at $1.4B, Code Metal at $1.2B, and Castelion and Defense Unicorns each at $1.0B) are predominantly Series B staged.\n\nTriangulation of these two methods supports a valuation range of $850M\u2013$2.3B, with a median of $1.5B. The $650M spread reflects uncertainty in stage-appropriate risk adjustment and variation in peer company maturity and market positioning. The peer-median method anchors to a lower point estimate, while stage-progression suggests higher upside; resolution depends on revenue trajectory and customer traction relative to the peer cohort.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:47:01+00:00"
     },
     "Galvanick": {
@@ -26171,7 +26160,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 4400000000.0,
             "base_value_fmt": "$4.4B",
@@ -26179,9 +26168,8 @@
             "current_stage": "Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 11000000000.0,
-          "implied_fmt": "$11.0B",
-          "rationale": "Applies typical Seed \u2192 next-stage step-up multiplier (2.5x) to $4.4B total raised proxy."
+          "rationale": "Implied valuation $11.0B is more than 20x the $10M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $11.0B exceeds 20x company totalRaised ($10M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -26219,11 +26207,11 @@
       "triangulated": {
         "low": 340000000.0,
         "low_fmt": "$340M",
-        "median": 5700000000.0,
-        "median_fmt": "$5.7B",
-        "high": 12649999999.999998,
-        "high_fmt": "$12.6B",
-        "method_count": 2
+        "median": 400000000.0,
+        "median_fmt": "$400M",
+        "high": 459999999.99999994,
+        "high_fmt": "$460M",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -26339,7 +26327,7 @@
           }
         ]
       },
-      "narrative": "Galvanick is a seed-stage defense and security company founded by Joshua Steinman, Brandon Park, and Feliks Pleszczynski, having raised $10M+. The valuation analysis draws from a comparable universe of 10 private and 2 public companies in Defense & Security, including peers such as UFORCE, Anduril Industries, Helsing, Shield AI, and Saronic.\n\nTwo valuation methods were applied. The Stage-Progression approach uses total raised as a proxy base value of $4.4B, applying a typical 2.5x multiplier for seed-to-next-stage advancement, yielding $11.0B. The Peer-Median method examines three same-sector, same/adjacent-stage comparables: UFORCE at $1.0B (seed), Singularity at $400M (Series A), and NODA AI at $125M (Series A). The median across these peers is $400M, with a range of $125M to $1.0B.\n\nThese methods produce a wide triangulated range of $340M (low) to $12.6B (high), with a median of $5.7B. The substantial divergence reflects material uncertainty in stage-progression modeling relative to peer-based anchoring. The peer-median approach is grounded in observable market transactions but reflects only three data points; the stage-progression method is sensitive to the base valuation proxy assumption. Key uncertainties include calibration of the 2.5x multiplier to Galvanick's specific risk profile and the representativeness of the peer set to frontier-defense valuations.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:47:05+00:00"
     },
     "SkySafe": {
@@ -30695,7 +30683,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 15000000000.0,
             "base_value_fmt": "$15.0B",
@@ -30703,9 +30691,8 @@
             "current_stage": "Series F",
             "step_up_multiplier": 1.3
           },
-          "implied": 19500000000.0,
-          "implied_fmt": "$19.5B",
-          "rationale": "Applies typical Series F \u2192 next-stage step-up multiplier (1.3x) to $15.0B last post money."
+          "rationale": "Implied valuation $19.5B is more than 20x the $600M this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $19.5B exceeds 20x company totalRaised ($600M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -30753,11 +30740,11 @@
       "triangulated": {
         "low": 7310000000.0,
         "low_fmt": "$7.3B",
-        "median": 14050000000.0,
-        "median_fmt": "$14.1B",
-        "high": 22425000000.0,
-        "high_fmt": "$22.4B",
-        "method_count": 2
+        "median": 8600000000.0,
+        "median_fmt": "$8.6B",
+        "high": 9890000000.0,
+        "high_fmt": "$9.9B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -30863,7 +30850,7 @@
           }
         ]
       },
-      "narrative": "Applied Intuition, a Series F AI & Software company, is valued at $15.0B post-money following $600M+ in total capital raised. The valuation assessment references a comparable universe of 11 same-sector peers at similar valuation tiers, spanning 1 public company (Palantir) and 8 private firms including Figure AI, Scale AI, Reflection AI, Skild AI, and Crusoe Energy. The peer set ranges from $3.2B to $39.0B.\n\nTwo triangulation methods are applicable. Stage-progression analysis applies a typical 1.3x step-up multiplier from Applied Intuition's Series F position, yielding $19.5B. Peer-median analysis across the 11-company comparable set produces $8.6B, with peers ranging from $3.2B at the 25th percentile to $39.0B at the 75th percentile. The dispersion reflects material stage and business-model variance within the AI & Software sector.\n\nTriangulating these two methods produces a valuation range of $7.3B (low) to $22.4B (high), with a median implied value of $14.1B. The current $15.0B valuation sits modestly above the range median, supported primarily by stage-progression logic. Key uncertainties include the appropriate stage-step multiplier for Series F in a volatile AI market, and the relevance of early-stage comps (Series A, Series C) to a late-stage private valuation.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:48:48+00:00"
     },
     "Agility Robotics": {
@@ -32475,7 +32462,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 3000000000.0,
             "base_value_fmt": "$3.0B",
@@ -32483,9 +32470,8 @@
             "current_stage": "Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 7500000000.0,
-          "implied_fmt": "$7.5B",
-          "rationale": "Applies typical Seed \u2192 next-stage step-up multiplier (2.5x) to $3.0B total raised proxy."
+          "rationale": "Implied valuation $7.5B is more than 20x the $10M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $7.5B exceeds 20x company totalRaised ($10M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -32510,15 +32496,7 @@
           "rationale": "Public Biotech & Health P/S median is 5.5x across 3 tickers. Cannot apply without target's revenue."
         }
       ],
-      "triangulated": {
-        "low": 6375000000.0,
-        "low_fmt": "$6.4B",
-        "median": 7500000000.0,
-        "median_fmt": "$7.5B",
-        "high": 8625000000.0,
-        "high_fmt": "$8.6B",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -32643,7 +32621,7 @@
           }
         ]
       },
-      "narrative": "Andromeda Surgical is a seed-stage biotech company founded by Nick Damiano and Kartik Tiwari, having raised $10M+. The valuation analysis draws from a broader Biotech & Health sector universe comprising 3 public comparables (RXRX, TEM, ONT.L) and 8 private peers including Colossal Biosciences, Abridge, and Recursion Pharmaceuticals.\n\nGiven data constraints, only the stage-progression method proved applicable. Using the $3.0B total-raised proxy as a reference base and applying a 2.5x step-up multiplier typical of seed-to-next-stage progression yields an implied valuation of $7.5B. The peer-median method could not be applied due to insufficient same-stage or adjacent-stage comparables within the narrow filter (0 qualifying datapoints); a broad all-sector median would introduce excessive noise. Public-comp anchoring via the sector's 5.5x median P/S multiple (across RXRX, TEM, ONT.L) could not be executed because target revenue is not disclosed.\n\nThe single-method triangulation supports a valuation range of $6.4B to $8.6B, with a median of $7.5B. The primary uncertainty stems from reliance on a single valuation pathway and the absence of revenue data. Until additional comparable-stage transactions or revenue information surfaces, this range should be treated as indicative rather than definitive. The analysis would benefit from disclosure of revenue or from identification of additional seed-stage biotech transactions.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:49:33+00:00"
     },
     "Solugen": {
@@ -35421,7 +35399,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 12000000000.0,
             "base_value_fmt": "$12.0B",
@@ -35429,20 +35407,11 @@
             "current_stage": "Pre-Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 30000000000.0,
-          "implied_fmt": "$30.0B",
-          "rationale": "Applies typical Pre-Seed \u2192 next-stage step-up multiplier (2.5x) to $12.0B total raised proxy."
+          "rationale": "Implied valuation $30.0B is more than 20x the $3M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $30.0B exceeds 20x company totalRaised ($3M) \u2014 base value likely a funding-tracker mis-parse"
         }
       ],
-      "triangulated": {
-        "low": 25500000000.0,
-        "low_fmt": "$25.5B",
-        "median": 30000000000.0,
-        "median_fmt": "$30.0B",
-        "high": 34500000000.0,
-        "high_fmt": "$34.5B",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [],
         "private": [
@@ -35459,7 +35428,7 @@
           }
         ]
       },
-      "narrative": "Durin is a pre-seed stage infrastructure and logistics company founded by Ted Feldmann that has raised $3.4M to date. The valuation analysis draws from a limited comparables universe consisting of one private peer, Watoga Technologies, with no public company comparables available in the sector.\n\nThe stage-progression method is the primary applicable valuation approach given data constraints. This method applies a 2.5x step-up multiplier typical of pre-seed to subsequent-stage advancement to a $12.0B base value derived from total capital raised proxy, yielding an implied valuation of $30.0B. This represents the only quantitative triangulation method supported by available data.\n\nThe analysis supports a valuation range of $25.5B (low) to $34.5B (high), with a median point of $30.0B. The narrow methodological basis\u2014relying on a single stage-progression calculation and one private peer\u2014represents a material limitation. The absence of public comparables and the reliance on raised capital as a valuation proxy introduce significant uncertainty around appropriate entry multiples and growth trajectory assumptions. Additional data on Durin's operational metrics, revenue run-rate, or market-specific benchmarks would be required to substantiate or adjust this range with greater confidence.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:51:08+00:00"
     },
     "Watoga Technologies": {
@@ -37056,7 +37025,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 300000000.0,
             "base_value_fmt": "$300M",
@@ -37064,9 +37033,8 @@
             "current_stage": "Pre-Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 750000000.0,
-          "implied_fmt": "$750M",
-          "rationale": "Applies typical Pre-Seed \u2192 next-stage step-up multiplier (2.5x) to $300M total raised proxy."
+          "rationale": "Implied valuation $750M is more than 20x the $2M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $750M exceeds 20x company totalRaised ($2M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -37075,15 +37043,7 @@
           "rationale": "21 same-sector peers exist in Defense & Security, but none of the narrow filters (same-stage / adjacent-stage / similar-valuation-tier) yielded \u22653 datapoints. Falling back to all-sector median would be misleading."
         }
       ],
-      "triangulated": {
-        "low": 637500000.0,
-        "low_fmt": "$638M",
-        "median": 750000000.0,
-        "median_fmt": "$750M",
-        "high": 862499999.9999999,
-        "high_fmt": "$862M",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -37198,7 +37158,7 @@
           }
         ]
       },
-      "narrative": "Mara is a pre-seed stage defense and security company founded by Daniel Kofman and Sriram Raghu. The company has raised $1.6M to date. The Defense & Security sector includes 2 public comparables (DRSHF, IDEAFORGE.NS) and 8 private peers, notably Anduril Industries, Helsing, Shield AI, Saronic, and Quantum-Systems.\n\nStage-progression valuation is the applicable method here. Using $300M as a proxy based on total capital raised, and applying a 2.5x multiplier typical of pre-seed to next-stage progression in this sector, the analysis implies a $750M valuation. Peer-median analysis is not applicable due to insufficient same-stage or adjacent-stage comparables within the defense sector\u2014while 21 total defense peers exist, fewer than three meet the narrow filters for stage and valuation tier. Relying on broader sector medians would introduce undue noise.\n\nThe triangulated range is $638M to $862M, with a central estimate of $750M. This range reflects the single applicable method and carries material uncertainty around the appropriate step-up multiplier and the representativeness of the $300M proxy itself. Key risks to valuation include stage-dependent fundraising success, competitive positioning within the crowded defense tech landscape, and regulatory constraints inherent to the sector. A fuller peer set at equivalent stages would strengthen conviction in any valuation conclusion.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:51:54+00:00"
     },
     "Flock Safety": {
@@ -42783,7 +42743,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 10320000000.0,
             "base_value_fmt": "$10.3B",
@@ -42791,9 +42751,8 @@
             "current_stage": "Series C",
             "step_up_multiplier": 1.7
           },
-          "implied": 17544000000.0,
-          "implied_fmt": "$17.5B",
-          "rationale": "Applies typical Series C \u2192 next-stage step-up multiplier (1.7x) to $10.3B last post money."
+          "rationale": "Implied valuation $17.5B is more than 20x the $555M this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $17.5B exceeds 20x company totalRaised ($555M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -42847,11 +42806,11 @@
       "triangulated": {
         "low": 2635000000.0,
         "low_fmt": "$2.6B",
-        "median": 10322000000.0,
-        "median_fmt": "$10.3B",
-        "high": 20175600000.0,
-        "high_fmt": "$20.2B",
-        "method_count": 2
+        "median": 3100000000.0,
+        "median_fmt": "$3.1B",
+        "high": 3564999999.9999995,
+        "high_fmt": "$3.6B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -42977,7 +42936,7 @@
           }
         ]
       },
-      "narrative": "Colossal Biosciences, a Series C-stage biotech company founded by Ben Lamm and George Church, is evaluated against a comp universe of 3 public equities (RXRX, TEM, ONT.L) and 8 private peers in Biotech & Health, with particular relevance to Chai Discovery ($3.8B), New Limit ($3.1B), and Eikon Therapeutics ($539M). The company has raised $555M+ to reach a current post-money valuation of $10.32B.\n\nTwo triangulation methods were applicable. Stage-progression analysis applies a 1.7x typical step-up multiplier from Series C to next stage, yielding $17.5B. Peer-median analysis across three same-sector, same/adjacent-stage companies produces a $3.1B implied value, with a range spanning $539M to $3.8B. Public-comp anchoring could not be applied\u2014while the Biotech & Health sector trades at a 5.5x median price-to-sales across the three public comps, Colossal's revenue is not on file, precluding this method.\n\nThe triangulated analysis supports a range of $2.6B (low) to $20.2B (high), with a median of $10.3B anchored to the current post-money valuation. The wide dispersion reflects tension between stage-progression momentum and peer comparables trading significantly below current valuation. Key uncertainties include revenue scale (unavailable for public-comp calibration), the relevance of stage-progression multipliers in frontier biotech, and comparability of the peer set across development and commercialization maturity.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:54:16+00:00"
     },
     "Medra": {
@@ -45358,7 +45317,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 10000000000.0,
             "base_value_fmt": "$10.0B",
@@ -45366,9 +45325,8 @@
             "current_stage": "Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 25000000000.0,
-          "implied_fmt": "$25.0B",
-          "rationale": "Applies typical Seed \u2192 next-stage step-up multiplier (2.5x) to $10.0B total raised proxy."
+          "rationale": "Implied valuation $25.0B is more than 20x the $3M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $25.0B exceeds 20x company totalRaised ($3M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -45377,15 +45335,7 @@
           "rationale": "11 same-sector peers exist in Chips & Semiconductors, but none of the narrow filters (same-stage / adjacent-stage / similar-valuation-tier) yielded \u22653 datapoints. Falling back to all-sector median would be misleading."
         }
       ],
-      "triangulated": {
-        "low": 21250000000.0,
-        "low_fmt": "$21.2B",
-        "median": 25000000000.0,
-        "median_fmt": "$25.0B",
-        "high": 28749999999.999996,
-        "high_fmt": "$28.7B",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -45510,7 +45460,7 @@
           }
         ]
       },
-      "narrative": "Zettascale is a Seed-stage semiconductor company founded by Elias Almqvist (CEO) and Prithvi Raj (CTO), having raised $3M+. The Chips & Semiconductors sector contains 11 peer companies across public and private markets\u20143 public (ALAB, NVDA, AMD) and 8 private entities including Cerebras, SambaNova Systems, PsiQuantum, Etched, and Tenstorrent\u2014though peer-median valuation methodology could not be applied due to insufficient same-stage or adjacent-stage comparables meeting minimum threshold requirements.\n\nStage-progression methodology was the applicable triangulation approach, using a $10.0B total-raised proxy as a base and applying a 2.5x step-up multiplier typical of Seed-to-next-stage advancement in the semiconductor sector. This produced an implied valuation of $25.0B.\n\nThe analysis supports a valuation range of $21.2B (low) to $28.7B (high), with a median of $25.0B. However, this valuation carries material uncertainty: the stage-progression method relies on a single methodology rather than cross-validation across peer-based or comparable-transaction approaches. The narrow peer set in Seed-stage frontier semiconductors limits confidence in benchmarking; no direct Stage-matched cohort exists. Key variables affecting actual value include technology differentiation relative to the identified private peer set, capital efficiency trajectory post-Seed, and market timing for downstream applications.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:55:22+00:00"
     },
     "d-Matrix": {
@@ -47226,7 +47176,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 85000000.0,
             "base_value_fmt": "$85M",
@@ -47234,9 +47184,8 @@
             "current_stage": "Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 212500000.0,
-          "implied_fmt": "$212M",
-          "rationale": "Applies typical Seed \u2192 next-stage step-up multiplier (2.5x) to $85M total raised proxy."
+          "rationale": "Implied valuation $212M is more than 20x the $5M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $212M exceeds 20x company totalRaised ($5M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -47263,15 +47212,7 @@
           "rationale": "Public Space & Aerospace P/S median is 23.9x across 6 tickers. Cannot apply without target's revenue."
         }
       ],
-      "triangulated": {
-        "low": 180625000.0,
-        "low_fmt": "$181M",
-        "median": 212500000.0,
-        "median_fmt": "$212M",
-        "high": 244374999.99999997,
-        "high_fmt": "$244M",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -47416,7 +47357,7 @@
           }
         ]
       },
-      "narrative": "Wardstone is a Seed-stage Space & Aerospace company founded by Sebastian and Tobias Fischer, having raised $5M to date. The valuation benchmark set includes 5 public comparables (RKLB, PL, LUNR, ASTS, SATL) and 8 private peers spanning the sector, though narrow-stage peer density remains constrained.\n\nStage-progression analysis is the applicable triangulation method. Using total capital raised ($5M) as a proxy for implicit valuation and applying a typical Seed-to-next-stage step-up multiplier of 2.5x yields an implied valuation of $212.5M. Peer-median methodology cannot be applied: while 11 same-sector private companies exist, zero meet simultaneous filters for stage adjacency and valuation comparability, falling short of the three-datapoint minimum for meaningful calibration. Public-comp anchoring is also inapplicable; the Space & Aerospace sector median trades at 23.9x P/S across six public names, but Wardstone's revenue is not on file, precluding revenue-multiple application.\n\nThe analysis triangulates to a median of $212M, with a low-end estimate of $181M and high-end of $244M, all derived from stage-progression. Key uncertainties include the appropriateness of the 2.5x step-up multiplier for this specific founder team and market window, and the absence of revenue or unit economics to cross-validate valuation against public-market precedent. A narrower, more confident range would require either disclosed financial metrics or additional private-market transactions at comparable stages within Space & Aerospace.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:56:15+00:00"
     },
     "Tokamak Energy": {
@@ -49162,7 +49103,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 8000000000.0,
             "base_value_fmt": "$8.0B",
@@ -49170,9 +49111,8 @@
             "current_stage": "Series C",
             "step_up_multiplier": 1.7
           },
-          "implied": 13600000000.0,
-          "implied_fmt": "$13.6B",
-          "rationale": "Applies typical Series C \u2192 next-stage step-up multiplier (1.7x) to $8.0B last post money."
+          "rationale": "Implied valuation $13.6B is more than 20x the $370M this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $13.6B exceeds 20x company totalRaised ($370M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -49220,11 +49160,11 @@
       "triangulated": {
         "low": 1190000000.0,
         "low_fmt": "$1.2B",
-        "median": 7500000000.0,
-        "median_fmt": "$7.5B",
-        "high": 15639999999.999998,
-        "high_fmt": "$15.6B",
-        "method_count": 2
+        "median": 1400000000.0,
+        "median_fmt": "$1.4B",
+        "high": 1609999999.9999998,
+        "high_fmt": "$1.6B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -49340,7 +49280,7 @@
           }
         ]
       },
-      "narrative": "Quantum-Systems is a Series C-stage defense and security company founded by Florian Seibel, currently carrying a $8.0B post-money valuation on $370M+ raised. The valuation analysis draws on a peer universe of 11 same-sector, same/adjacent-stage companies, including 2 public comparables (DRSHF, IDEAFORGE.NS) and 8 private peers spanning Anduril Industries, Helsing, Shield AI, Saronic, and Flock Safety.\n\nTwo valuation methods triangulate the company's fair value. The stage-progression method applies a 1.7x step-up multiplier typical of Series C to Series D transitions, yielding $13.6B. The peer-median approach benchmarks Quantum-Systems against 11 defense & security peers at the same or adjacent stage; the median valuation across this set is $1.4B, with a range spanning $300M to $18.0B. The peer cohort includes later-stage comparables (Helsing at $18.0B, Saronic at $9.2B, Chaos Industries at $4.5B in Series D) alongside earlier-stage reference points.\n\nTriangulating these methods produces a valuation range of $1.2B (low) to $15.6B (high), with a median of $7.5B. The current $8.0B valuation sits near this midpoint, though the wide dispersion ($1.2B\u2013$15.6B) reflects material uncertainty around stage-appropriate pricing in a heterogeneous peer set and the appropriate weighting of later-stage venture activity relative to public market comparables.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T10:57:06+00:00"
     },
     "Proxima Fusion": {
@@ -59445,7 +59385,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 1400000000.0,
             "base_value_fmt": "$1.4B",
@@ -59453,9 +59393,8 @@
             "current_stage": "Series B",
             "step_up_multiplier": 1.9
           },
-          "implied": 2660000000.0,
-          "implied_fmt": "$2.7B",
-          "rationale": "Applies typical Series B \u2192 next-stage step-up multiplier (1.9x) to $1.4B total raised proxy."
+          "rationale": "Implied valuation $2.7B is more than 20x the $123M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $2.7B exceeds 20x company totalRaised ($123M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -59498,11 +59437,11 @@
       "triangulated": {
         "low": 1381250000.0,
         "low_fmt": "$1.4B",
-        "median": 2142500000.0,
-        "median_fmt": "$2.1B",
-        "high": 3059000000.0,
-        "high_fmt": "$3.1B",
-        "method_count": 2
+        "median": 1625000000.0,
+        "median_fmt": "$1.6B",
+        "high": 1868749999.9999998,
+        "high_fmt": "$1.9B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -59608,7 +59547,7 @@
           }
         ]
       },
-      "narrative": "Neura Robotics, a Series B robotics and manufacturing company founded by David Reger, is evaluated against a comp universe of 9 private and 1 public peer\u2014a mix spanning comparable and adjacent stages within the sector. The target has raised $123.3M to date.\n\nTwo valuation methods were applied. The Stage-Progression approach, anchoring to the $1.4B total-raised proxy and applying a 1.9x Series B step-up multiplier, implies a valuation of $2.7B. The Peer-Median method benchmarks against four same-sector peers (Bedrock Robotics at $1.8B, Dexterity at $1.6B, Hadrian at $1.6B, and Nimble Robotics at $1.0B), yielding a median of $1.6B and a range of $1.0B to $1.8B. These two methods reflect different weighting: stage-based momentum versus current market-observed valuations for comparable-stage companies.\n\nTriangulation across both methods supports a range of $1.4B to $3.1B, with a median of $2.1B. The $1.1B spread between the peer-median and stage-progression methods reflects material uncertainty around whether Neura's trajectory and market conditions align with peer valuations or steeper stage-advance premiums. Key drivers of ultimate valuation include execution on proprietary capabilities and capital efficiency relative to the peer cohort.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:01:24+00:00"
     },
     "Tekever": {
@@ -67768,7 +67707,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 392000000000.0,
             "base_value_fmt": "$392.0B",
@@ -67776,9 +67715,8 @@
             "current_stage": "Series G",
             "step_up_multiplier": 1.25
           },
-          "implied": 490000000000.0,
-          "implied_fmt": "$490.0B",
-          "rationale": "Applies typical Series G \u2192 next-stage step-up multiplier (1.25x) to $392.0B total raised proxy."
+          "rationale": "Implied valuation $490.0B is more than 20x the $50M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $490.0B exceeds 20x company totalRaised ($50M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -67787,15 +67725,7 @@
           "rationale": "4 same-sector peers exist in Nuclear Energy, but none of the narrow filters (same-stage / adjacent-stage / similar-valuation-tier) yielded \u22653 datapoints. Falling back to all-sector median would be misleading."
         }
       ],
-      "triangulated": {
-        "low": 416500000000.0,
-        "low_fmt": "$416.5B",
-        "median": 490000000000.0,
-        "median_fmt": "$490.0B",
-        "high": 563500000000.0,
-        "high_fmt": "$563.5B",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -67887,7 +67817,7 @@
           }
         ]
       },
-      "narrative": "ARC Clean Technology, a Series G nuclear energy company founded by Don Wolf, has raised $50M+ to date. The valuation analysis draws from a comp universe of 8 peers: 3 public entities (OKLO, NNE, SMR) and 5 private firms (Oklo, X-Energy, Nano Nuclear Energy, Fuse Energy, Valar Atomics) operating in the nuclear energy sector.\n\nStage-progression methodology is the applicable triangulation approach for this analysis. Using total capital raised ($50M+) as a proxy baseline of $392.0B, a typical 1.25x multiplier applied to the Series G-to-next-stage progression yields an implied valuation of $490.0B. Peer-median analysis was not applicable due to insufficient comparable datapoints at the same stage or adjacent stages within the nuclear energy subset; while 4 same-sector peers exist, none met the threshold of 3+ comps filtered by stage, adjacency, or valuation tier.\n\nThe single-method triangulation supports a valuation range of $416.5B (low) to $563.5B (high), with a median of $490.0B. Key uncertainties include the reliability of the total-raised proxy as a valuation anchor in a capital-intensive, pre-revenue-dominant sector, and the absence of direct peer multiples to validate stage-progression assumptions. The wide range ($147B spread) reflects limited comparable data and the early-stage nature of the nuclear energy market.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:05:18+00:00"
     },
     "Kela": {
@@ -72057,7 +71987,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 70500000000.0,
             "base_value_fmt": "$70.5B",
@@ -72065,9 +71995,8 @@
             "current_stage": "Series A",
             "step_up_multiplier": 2.0
           },
-          "implied": 141000000000.0,
-          "implied_fmt": "$141.0B",
-          "rationale": "Applies typical Series A \u2192 next-stage step-up multiplier (2.0x) to $70.5B total raised proxy."
+          "rationale": "Implied valuation $141.0B is more than 20x the $31M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $141.0B exceeds 20x company totalRaised ($31M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -72115,11 +72044,11 @@
       "triangulated": {
         "low": 850000000.0,
         "low_fmt": "$850M",
-        "median": 71000000000.0,
-        "median_fmt": "$71.0B",
-        "high": 162150000000.0,
-        "high_fmt": "$162.2B",
-        "method_count": 2
+        "median": 1000000000.0,
+        "median_fmt": "$1.0B",
+        "high": 1150000000.0,
+        "high_fmt": "$1.1B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -72235,7 +72164,7 @@
           }
         ]
       },
-      "narrative": "Ares Industries is a Series A\u2013stage defense and security company founded by Alex Tseng and Devan Plantamura that has raised $31M to date. Valuation analysis draws from a peer universe of 10 same-sector companies at Series A and Series B stages, including 8 private firms (Anduril Industries, Helsing, Shield AI, and others) and 2 public comparables (DRSHF, IDEAFORGE.NS). The peer cohort spans valuations from $125M to $3.0B, with a median of $1.0B.\n\nTwo triangulation methods were applied. The peer-median approach, anchored to the 10-company sample, yields $1.0B. The stage-progression method uses the $31M raised as a proxy baseline, implying $70.5B in total enterprise value, then applies a 2.0x step-up multiplier typical of Series A advancement, producing $141.0B. The substantial divergence between these methods\u2014reflecting methodological sensitivity to baseline assumptions\u2014warrants conservative interpretation.\n\nSynthesizing across both approaches yields a valuation range of $850M (low) to $162.2B (high), with a median of $71.0B. The peer-median figure of $1.0B aligns more closely with observable market precedent for frontier-defense companies at this stage and funding level. Key uncertainties include the stability of the defense-sector comp set, the appropriateness of stage-progression multipliers in an early-stage, high-risk context, and whether the $31M raised figure adequately captures the company's true capital needs or market positioning.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:07:08+00:00"
     },
     "Starcloud": {
@@ -72479,7 +72408,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 1750000000.0,
             "base_value_fmt": "$1.8B",
@@ -72487,9 +72416,8 @@
             "current_stage": "Series G",
             "step_up_multiplier": 1.25
           },
-          "implied": 2187500000.0,
-          "implied_fmt": "$2.2B",
-          "rationale": "Applies typical Series G \u2192 next-stage step-up multiplier (1.25x) to $1.8B total raised proxy."
+          "rationale": "Implied valuation $2.2B is more than 20x the $32M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $2.2B exceeds 20x company totalRaised ($32M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -72498,15 +72426,7 @@
           "rationale": "9 same-sector peers exist in Climate & Energy, but none of the narrow filters (same-stage / adjacent-stage / similar-valuation-tier) yielded \u22653 datapoints. Falling back to all-sector median would be misleading."
         }
       ],
-      "triangulated": {
-        "low": 1859375000.0,
-        "low_fmt": "$1.9B",
-        "median": 2187500000.0,
-        "median_fmt": "$2.2B",
-        "high": 2515625000.0,
-        "high_fmt": "$2.5B",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -72611,7 +72531,7 @@
           }
         ]
       },
-      "narrative": "Steady Energy, a Series G climate and energy technology company founded by Tommi Nyman, Hannes Haapalahti, and Petteri Tenhunen, operates within a sector comprising 1 public comparable (LNZA) and 8 private peers including Helion, Redwood Materials, QuantumScape, KoBold Metals, and Electric Hydrogen.\n\nThe valuation analysis relied on stage-progression methodology, as peer-median triangulation was not applicable. The sector peer set, while containing 9 companies, lacked sufficient same-stage or adjacent-stage comparables meeting minimum thresholds for reliable median derivation. Stage-progression analysis applied a 1.25x step-up multiplier typical for Series G progression, anchored to a $1.8B base value derived from the company's \u20ac32M total raised. This methodology yielded an implied valuation of $2.2B.\n\nThe analysis supports a valuation range of $1.9B to $2.5B (median $2.2B), derived from single-method triangulation with sensitivity bounds. Key uncertainties include the representativeness of stage-progression assumptions in early-stage climate tech, where financing patterns diverge from software norms, and the absence of contemporaneous comparable transaction data at this stage. The limited peer-set applicability reflects the specialized and fragmented nature of frontier energy technologies. Given methodological constraints, this range should be treated as indicative rather than definitive pending additional market data or transaction comparables.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:07:17+00:00"
     },
     "CarbonCapture Inc.": {
@@ -75368,7 +75288,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 15000000000.0,
             "base_value_fmt": "$15.0B",
@@ -75376,9 +75296,8 @@
             "current_stage": "Series E",
             "step_up_multiplier": 1.4
           },
-          "implied": 21000000000.0,
-          "implied_fmt": "$21.0B",
-          "rationale": "Applies typical Series E \u2192 next-stage step-up multiplier (1.4x) to $15.0B total raised proxy."
+          "rationale": "Implied valuation $21.0B is more than 20x the $103M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $21.0B exceeds 20x company totalRaised ($103M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -75416,11 +75335,11 @@
       "triangulated": {
         "low": 1700000000.0,
         "low_fmt": "$1.7B",
-        "median": 11500000000.0,
-        "median_fmt": "$11.5B",
-        "high": 24150000000.0,
-        "high_fmt": "$24.1B",
-        "method_count": 2
+        "median": 2000000000.0,
+        "median_fmt": "$2.0B",
+        "high": 2300000000.0,
+        "high_fmt": "$2.3B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -75526,7 +75445,7 @@
           }
         ]
       },
-      "narrative": "Fairmat is a Series E robotics and manufacturing company that has raised approximately \u20ac95M ($103M) to date. The valuation analysis relies on a comp universe of nine private robotics firms and one public comparable, with three primary peers at the same or adjacent stage: Divergent (Series E, $2.3B), Exotec (Series D, $2.0B), and Locus Robotics (Series F, $2.0B).\n\nTwo methods were applied to triangulate value. The Stage-Progression method uses a $15.0B total-raised proxy as a base and applies a typical 1.4x step-up multiplier for Series E progression, implying a $21.0B valuation. The Peer-Median method across the three same-sector, same/adjacent-stage comparables yields a $2.0B implied value, with the peer range spanning $2.0B to $2.3B. The substantial divergence between these approaches reflects methodological differences in how growth trajectory and peer-relative positioning are weighted.\n\nThe triangulated analysis implies a valuation range of $1.7B (low) to $24.1B (high), with a median of $11.5B. The wide band reflects material uncertainty around whether Fairmat's capital efficiency and stage progression align more closely with typical private-market peer multiples or justify a significant premium. Resolution requires clarity on revenue scale, unit economics, and customer concentration relative to the peer set.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:08:29+00:00"
     },
     "Infleqtion": {
@@ -76795,7 +76714,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 10000000000.0,
             "base_value_fmt": "$10.0B",
@@ -76803,9 +76722,8 @@
             "current_stage": "Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 25000000000.0,
-          "implied_fmt": "$25.0B",
-          "rationale": "Applies typical Seed \u2192 next-stage step-up multiplier (2.5x) to $10.0B total raised proxy."
+          "rationale": "Implied valuation $25.0B is more than 20x the $35M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $25.0B exceeds 20x company totalRaised ($35M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -76814,15 +76732,7 @@
           "rationale": "9 same-sector peers exist in Climate & Energy, but none of the narrow filters (same-stage / adjacent-stage / similar-valuation-tier) yielded \u22653 datapoints. Falling back to all-sector median would be misleading."
         }
       ],
-      "triangulated": {
-        "low": 21250000000.0,
-        "low_fmt": "$21.2B",
-        "median": 25000000000.0,
-        "median_fmt": "$25.0B",
-        "high": 28749999999.999996,
-        "high_fmt": "$28.7B",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -76927,7 +76837,7 @@
           }
         ]
       },
-      "narrative": "OpenStar, a Seed-stage Climate & Energy company founded by Ratu Mataira and Thomas Berry, has raised $35M to date. The broader Climate & Energy sector comprises 9 private peers and 1 public comparable (LNZA), including notable names such as Helion, Redwood Materials, QuantumScape, KoBold Metals, and Electric Hydrogen.\n\nValuation was derived using stage-progression methodology, the sole applicable triangulation approach. A $10.0B proxy base value anchored to total capital raised was escalated by a 2.5x multiplier, reflecting the typical step-up from Seed to the next financing stage. This produced an implied valuation of $25.0B. A peer-median approach was not feasible due to insufficient same-stage and adjacent-stage comparables within the Climate & Energy vertical; while nine same-sector peers exist, fewer than three met narrow stage and tier filters necessary for meaningful cross-sectional analysis.\n\nThe analysis supports a valuation range of $21.2B (low) to $28.7B (high), with a median of $25.0B. Key uncertainties center on the appropriate stage-to-stage multiplier for this early-stage cohort and the lack of tight peer validation. The single-method dependency and sparse comparable universe at the Seed stage in this sector materially constrain conviction. Additional data on recent Seed-to-Series A outcomes within Climate & Energy would strengthen calibration.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:09:14+00:00"
     },
     "Qilimanjaro": {
@@ -78278,7 +78188,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 42000000.0,
             "base_value_fmt": "$42M",
@@ -78286,9 +78196,8 @@
             "current_stage": "Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 105000000.0,
-          "implied_fmt": "$105M",
-          "rationale": "Applies typical Seed \u2192 next-stage step-up multiplier (2.5x) to $42M total raised proxy."
+          "rationale": "Implied valuation $105M is more than 20x the $2M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $105M exceeds 20x company totalRaised ($2M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -78297,15 +78206,7 @@
           "rationale": "8 same-sector peers exist in Robotics & Manufacturing, but none of the narrow filters (same-stage / adjacent-stage / similar-valuation-tier) yielded \u22653 datapoints. Falling back to all-sector median would be misleading."
         }
       ],
-      "triangulated": {
-        "low": 89250000.0,
-        "low_fmt": "$89M",
-        "median": 105000000.0,
-        "median_fmt": "$105M",
-        "high": 120749999.99999999,
-        "high_fmt": "$121M",
-        "method_count": 1
-      },
+      "triangulated": null,
       "compSet": {
         "public": [
           {
@@ -78410,7 +78311,7 @@
           }
         ]
       },
-      "narrative": "Layup Parts is a seed-stage robotics and manufacturing company founded by Zack Eakin that has raised $2M+ to date. The valuation analysis draws from a broader robotics and manufacturing peer universe of nine private companies and one public comparable (277810.KQ), though only one same-stage peer exists with sufficient data density for direct comparison.\n\nGiven the limited same-stage peer set, the Stage-Progression method was the primary applicable triangulation approach. This method applies a 2.5x step-up multiplier typical of seed-to-next-stage transitions to a $42M total-raised proxy baseline, yielding an implied valuation of $105M. The peer-median approach was not viable due to insufficient narrow comparables\u2014while eight robotics and manufacturing peers exist in the broader universe, filtering by stage and valuation tier produced fewer than three datapoints, making sector-wide medians unreliable.\n\nThe triangulated range is $89M (low) to $121M (high), with a median of $105M. This single-method result carries meaningful uncertainty: the analysis relies entirely on stage-progression mechanics rather than market-validated peer multiples. Key uncertainties include the stability of typical seed step-up multiples in the current robotics subsector, the relevance of the broader sector peer set given limited narrow comparables, and whether the $42M proxy adequately represents Layup Parts' operational footprint at seed stage. Additional revenue, customer, or product-stage data would materially strengthen conviction in this range.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:09:53+00:00"
     },
     "Nox Metals": {
@@ -95395,7 +95296,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 3000000000.0,
             "base_value_fmt": "$3.0B",
@@ -95403,9 +95304,8 @@
             "current_stage": "Series B",
             "step_up_multiplier": 1.9
           },
-          "implied": 5700000000.0,
-          "implied_fmt": "$5.7B",
-          "rationale": "Applies typical Series B \u2192 next-stage step-up multiplier (1.9x) to $3.0B total raised proxy."
+          "rationale": "Implied valuation $5.7B is more than 20x the $124M this company has raised, so the total raised proxy base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $5.7B exceeds 20x company totalRaised ($124M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -95448,11 +95348,11 @@
       "triangulated": {
         "low": 1381250000.0,
         "low_fmt": "$1.4B",
-        "median": 3662500000.0,
-        "median_fmt": "$3.7B",
-        "high": 6554999999.999999,
-        "high_fmt": "$6.6B",
-        "method_count": 2
+        "median": 1625000000.0,
+        "median_fmt": "$1.6B",
+        "high": 1868749999.9999998,
+        "high_fmt": "$1.9B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -95558,7 +95458,7 @@
           }
         ]
       },
-      "narrative": "1X Technologies is a Series B robotics and manufacturing company that has raised $123.5M to date. The valuation analysis draws on a comparison universe of nine private robotics firms and one public comparable (ticker 277810.KQ), including same-stage peers Bedrock Robotics ($1.8B), Dexterity ($1.6B), and adjacent-stage peers Hadrian and Nimble Robotics ($1.6B and $1.0B respectively).\n\nTwo triangulation methods were applied. The stage-progression approach, using total capital raised as a proxy for base value, implies a $3.0B starting valuation stepped up by the typical Series B multiplier of 1.9x, yielding $5.7B. The peer-median method anchors to four same-sector comparables spanning Series B and C stages, producing a median implied valuation of $1.6B with a range of $1.0B to $1.8B. The peer-median approach reflects more conservative, market-tested transaction data, while stage-progression may overweight capital efficiency assumptions.\n\nThe triangulated valuation range spans $1.4B (low) to $6.6B (high), with a median of $3.7B. The substantial spread reflects methodological divergence: peer multiples suggest tighter clustering in the $1.6B to $1.8B band, while stage-progression implies material upside. Key uncertainties include the applicability of stage multipliers in an unproven robotics market and whether 1X's capital intensity and burn profile align with peer benchmarks. A Series B round would likely settle in the $2.5B to $4.5B range absent material technical or market validation.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:17:24+00:00"
     },
     "Gravitics": {
@@ -135707,7 +135607,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 3000000000.0,
             "base_value_fmt": "$3.0B",
@@ -135715,9 +135615,8 @@
             "current_stage": "Series B",
             "step_up_multiplier": 1.9
           },
-          "implied": 5700000000.0,
-          "implied_fmt": "$5.7B",
-          "rationale": "Applies typical Series B \u2192 next-stage step-up multiplier (1.9x) to $3.0B last post money."
+          "rationale": "Implied valuation $5.7B is more than 20x the $100M this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $5.7B exceeds 20x company totalRaised ($100M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -135765,11 +135664,11 @@
       "triangulated": {
         "low": 850000000.0,
         "low_fmt": "$850M",
-        "median": 3350000000.0,
-        "median_fmt": "$3.4B",
-        "high": 6554999999.999999,
-        "high_fmt": "$6.6B",
-        "method_count": 2
+        "median": 1000000000.0,
+        "median_fmt": "$1.0B",
+        "high": 1150000000.0,
+        "high_fmt": "$1.1B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -135885,7 +135784,7 @@
           }
         ]
       },
-      "narrative": "Dream Security, a Series B defense and security company founded by Shalev Hulio, Sebastian Kurz, and Gil Dolev, is valued at $3.0B post-money following $100M+ in cumulative fundraising. The valuation assessment draws from a comp universe of 10 peers: 2 public companies (DRSHF, IDEAFORGE.NS) and 8 private firms in the same sector and stage, including Harmattan AI ($1.4B), Code Metal ($1.2B), Castelion ($1.0B), Defense Unicorns ($1.0B), and Heven AeroTech ($1.0B).\n\nTwo triangulation methods were applied. Stage-progression methodology applied a typical 1.9x Series B step-up multiplier to the $3.0B base valuation, yielding $5.7B. Peer-median analysis across the 6 sampled same-stage, same-sector comparables produced a median valuation of $1.0B, with a range spanning $300M to $1.4B, materially below the current ask.\n\nThe triangulated analysis supports a valuation range of $850M to $6.6B, with a median implied value of $3.4B. The $3.0B current valuation sits at the median, supported primarily by stage-progression logic but substantially above peer median multiples. Key uncertainty centers on whether Dream Security commands a premium to sector peers justified by differentiated technology or market position\u2014information not present in valuation inputs alone.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:35:23+00:00"
     },
     "Asterra": {
@@ -157641,7 +157540,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 8300000000.000001,
             "base_value_fmt": "$8.3B",
@@ -157649,9 +157548,8 @@
             "current_stage": "Series A",
             "step_up_multiplier": 2.0
           },
-          "implied": 16600000000.000002,
-          "implied_fmt": "$16.6B",
-          "rationale": "Applies typical Series A \u2192 next-stage step-up multiplier (2.0x) to $8.3B last post money."
+          "rationale": "Implied valuation $16.6B is more than 20x the $530M this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $16.6B exceeds 20x company totalRaised ($530M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -157689,11 +157587,11 @@
       "triangulated": {
         "low": 4760000000.0,
         "low_fmt": "$4.8B",
-        "median": 11100000000.0,
-        "median_fmt": "$11.1B",
-        "high": 19090000000.0,
-        "high_fmt": "$19.1B",
-        "method_count": 2
+        "median": 5600000000.0,
+        "median_fmt": "$5.6B",
+        "high": 6439999999.999999,
+        "high_fmt": "$6.4B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -157799,7 +157697,7 @@
           }
         ]
       },
-      "narrative": "Together AI is a Series A AI & Software company founded by Vipul Ved Prakash, Ce Zhang, Chris R\u00e9, and Percy Liang, currently valued at $8.3B post-money after raising $530M. The valuation assessment draws on a peer universe of 9 private and 1 public comparable (Palantir), including frontier-tech peers such as Reflection AI, Physical Intelligence, and Black Forest Labs.\n\nTwo triangulation methods were applied. Stage-progression analysis, using a 2.0x multiplier typical for Series A advancement, implies a forward valuation of $16.6B from the current $8.3B base. Peer-median analysis across three same-sector, same/adjacent-stage comparables yields $5.6B, with the peer set ranging from $3.2B (Black Forest Labs, Series B) to $25.0B (Reflection AI, Series A).\n\nThe triangulated analysis supports a valuation range of $4.8B to $19.1B, with a median of $11.1B. The wide dispersion reflects material uncertainty around stage-up expectations and material heterogeneity in peer valuations\u2014particularly the $25.0B outlier for Reflection AI relative to the $5.6B median. Key sensitivities include the appropriateness of the 2.0x stage multiplier for the current market environment and whether peer comps adequately reflect Together AI's specific technology positioning and capital efficiency relative to the broader frontier-AI cohort.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:45:14+00:00"
     },
     "Maritime Fusion": {
@@ -158700,7 +158598,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 25000000000.0,
             "base_value_fmt": "$25.0B",
@@ -158708,9 +158606,8 @@
             "current_stage": "Series A",
             "step_up_multiplier": 2.0
           },
-          "implied": 50000000000.0,
-          "implied_fmt": "$50.0B",
-          "rationale": "Applies typical Series A \u2192 next-stage step-up multiplier (2.0x) to $25.0B last post money."
+          "rationale": "Implied valuation $50.0B is more than 20x the $2.0B this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $50.0B exceeds 20x company totalRaised ($2.0B) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -158748,11 +158645,11 @@
       "triangulated": {
         "low": 4760000000.0,
         "low_fmt": "$4.8B",
-        "median": 27800000000.0,
-        "median_fmt": "$27.8B",
-        "high": 57499999999.99999,
-        "high_fmt": "$57.5B",
-        "method_count": 2
+        "median": 5600000000.0,
+        "median_fmt": "$5.6B",
+        "high": 6439999999.999999,
+        "high_fmt": "$6.4B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -158858,7 +158755,7 @@
           }
         ]
       },
-      "narrative": "Reflection AI is a Series A AI & Software company founded by Misha Laskin and Ioannis Antonoglou, currently valued at $25.0B post-money with $2B total raised. The valuation assessment triangulates against a peer set of 9 comparable companies: 1 public (Palantir) and 8 private firms including Together AI, Waymo, Figure AI, and Scale AI, predominantly at Series A and Series B stages.\n\nTwo valuation methods were applied. Stage-progression analysis, grounded in the $25.0B last post-money valuation and applying a 2.0x step-up multiplier typical for Series A progression to subsequent rounds, implies $50.0B. Peer-median analysis across three same-sector, same/adjacent-stage comparables\u2014Together AI ($8.3B Series A), Physical Intelligence ($5.6B Series B), and Black Forest Labs ($3.2B Series B)\u2014yields a median of $5.6B, with a range of $3.2B to $8.3B.\n\nThe triangulated analysis supports a valuation range of $4.8B to $57.5B, with a median of $27.8B. The wide dispersion reflects substantial tension between the current $25B valuation and peer medians nearly 5x lower. This gap likely reflects either Reflection AI's exceptional capitalization relative to peers, or the current valuation incorporates market expectations not yet reflected in comparable transactions. Key uncertainties include the durability of Series A valuations in AI infrastructure and the relevance of cross-stage peer comparisons in a rapidly repricing sector.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:45:41+00:00"
     },
     "Sygaldry Technologies": {
@@ -160869,7 +160766,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 3250000000.0,
             "base_value_fmt": "$3.2B",
@@ -160877,9 +160774,8 @@
             "current_stage": "Series B",
             "step_up_multiplier": 1.9
           },
-          "implied": 6175000000.0,
-          "implied_fmt": "$6.2B",
-          "rationale": "Applies typical Series B \u2192 next-stage step-up multiplier (1.9x) to $3.2B last post money."
+          "rationale": "Implied valuation $6.2B is more than 20x the $300M this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $6.2B exceeds 20x company totalRaised ($300M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -160925,13 +160821,13 @@
         }
       ],
       "triangulated": {
-        "low": 5248750000.0,
-        "low_fmt": "$5.2B",
-        "median": 9087500000.0,
-        "median_fmt": "$9.1B",
+        "low": 10200000000.0,
+        "low_fmt": "$10.2B",
+        "median": 12000000000.0,
+        "median_fmt": "$12.0B",
         "high": 13799999999.999998,
         "high_fmt": "$13.8B",
-        "method_count": 2
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -161037,7 +160933,7 @@
           }
         ]
       },
-      "narrative": "Black Forest Labs, a Series B AI & Software company founded by Robin Rombach, Andreas Blattmann, and Patrick Esser, is evaluated against a universe of 9 private and 1 public comparable across the frontier AI sector. The company's last post-money valuation was $3.25B on $300M total raised.\n\nTwo valuation methods triangulate a defensible range. Stage-progression analysis applies a 1.9x multiplier typical of Series B to subsequent-stage progression, yielding $6.2B. Peer-median methodology references six same-sector, same/adjacent-stage comparables\u2014Figure AI ($39.0B Series C), Reflection AI ($25.0B Series A), Skild AI ($14.0B Series C), Crusoe Energy ($10.0B Series C), Together AI ($8.3B Series A), and one additional peer\u2014producing a median valuation of $12.0B, with a range spanning $5.6B to $39.0B.\n\nTriangulation across both methods supports a valuation band of $5.2B (low) to $13.8B (high), with a median of $9.1B. The wide peer range and stage heterogeneity of comparables create material uncertainty around appropriate valuation multiples. The current $3.25B post-money sits at the low end of the methodological range, suggesting either meaningful upside potential or material risk depending on revenue trajectory, capital efficiency, and competitive positioning relative to stated peers.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:46:37+00:00"
     },
     "Cartesia": {
@@ -163616,7 +163512,7 @@
       "methods": [
         {
           "name": "Stage-Progression",
-          "applicable": true,
+          "applicable": false,
           "inputs": {
             "base_value": 1000000000.0,
             "base_value_fmt": "$1.0B",
@@ -163624,9 +163520,8 @@
             "current_stage": "Seed",
             "step_up_multiplier": 2.5
           },
-          "implied": 2500000000.0,
-          "implied_fmt": "$2.5B",
-          "rationale": "Applies typical Seed \u2192 next-stage step-up multiplier (2.5x) to $1.0B last post money."
+          "rationale": "Implied valuation $2.5B is more than 20x the $50M this company has raised, so the last post money base is not trustworthy and this method is skipped.",
+          "skip_reason": "sanity clamp: implied $2.5B exceeds 20x company totalRaised ($50M) \u2014 base value likely a funding-tracker mis-parse"
         },
         {
           "name": "Peer-Median",
@@ -163674,11 +163569,11 @@
       "triangulated": {
         "low": 1062500000.0,
         "low_fmt": "$1.1B",
-        "median": 1875000000.0,
-        "median_fmt": "$1.9B",
-        "high": 2875000000.0,
-        "high_fmt": "$2.9B",
-        "method_count": 2
+        "median": 1250000000.0,
+        "median_fmt": "$1.2B",
+        "high": 1437500000.0,
+        "high_fmt": "$1.4B",
+        "method_count": 1
       },
       "compSet": {
         "public": [
@@ -163794,7 +163689,7 @@
           }
         ]
       },
-      "narrative": "UFORCE, a Seed-stage Defense & Security company, commands a current post-money valuation of $1.0B against $50M in total capital raised. The valuation rests on a peer universe of 13 same-sector comparables spanning similar valuation tiers, with two public comps (DRSHF, IDEAFORGE.NS) and eight private peers including Anduril Industries, Helsing, and Shield AI. The comparable set ranges from $300M to $4.5B, with a median of $1.2B.\n\nTwo triangulation methods are applicable. Stage-progression analysis applies a 2.5x step-up multiplier typical of Seed-to-next-stage advancement, implying a $2.5B valuation. Peer-median analysis across the 13-company Defense & Security cohort supports a $1.2B implied value, anchored to the last post-money round. The two methods produce a weighted triangulated range of $1.1B (low), $1.9B (median), and $2.9B (high).\n\nThe median $1.9B valuation sits materially above the current $1.0B post-money, consistent with the capital intensity and growth requirements typical of frontier defense tech. Primary uncertainties include the maturity and revenue traction of the peer set relative to UFORCE's product stage, and macro-level volatility in defense-sector funding appetite. The current $1.0B valuation appears defensible at the lower bound of the derived range, with material step-up potential contingent on near-term operational milestones.",
+      "narrative": null,
       "lastUpdated": "2026-08-02T11:47:53+00:00"
     },
     "Eclipse Space": {
