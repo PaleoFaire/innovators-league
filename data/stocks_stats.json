@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 17.41,
+      "avg_change": 19.01,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 9.61,
+      "avg_change": 8.75,
       "count": 7
     },
     "nuclear": {
@@ -33,15 +33,15 @@
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 10.07,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 4.15,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.23,
+      "avg_change": 4.96,
       "count": 3
     },
     "transportation": {
@@ -79,17 +79,12 @@
       20.0
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      16.99
+      "ASRHF",
+      "Astroscale",
+      19.22
     ]
   ],
   "topLosers": [
-    [
-      "TSLA",
-      "Tesla",
-      3.46
-    ],
     [
       "OKLO",
       "Oklo",
@@ -109,7 +104,12 @@
       "RIVN",
       "Rivian",
       -8.62
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -9.84
     ]
   ],
-  "lastUpdated": "2026-08-07 00:05:40"
+  "lastUpdated": "2026-08-07 07:21:38"
 }
