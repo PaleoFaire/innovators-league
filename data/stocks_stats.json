@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 37.91,
+      "avg_change": 39.78,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 22.44,
+      "avg_change": 25.08,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 11.28,
+      "avg_change": 13.65,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 14.48,
+      "avg_change": 19.98,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.49,
+      "avg_change": 14.51,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.59,
+      "avg_change": 18.92,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.72,
+      "avg_change": 12.04,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 4.11,
+      "avg_change": 5.35,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.8,
+      "avg_change": 6.81,
       "count": 3
     }
   },
@@ -61,39 +61,39 @@
     [
       "SATL",
       "Satellogic",
-      50.61
+      54.19
     ],
     [
       "PLTR",
       "Palantir",
-      37.91
+      39.78
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      27.63
+      32.9
     ],
     [
       "RKLB",
       "Rocket Lab",
-      23.66
+      27.53
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      19.22
+      "OKLO",
+      "Oklo",
+      24.72
     ]
   ],
   "topLosers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      4.76
+      "TSLA",
+      "Tesla",
+      5.58
     ],
     [
       "RIVN",
       "Rivian",
-      3.45
+      5.12
     ],
     [
       "9348.T",
@@ -108,8 +108,8 @@
     [
       "AMD",
       "AMD",
-      1.34
+      1.51
     ]
   ],
-  "lastUpdated": "2026-08-07 14:21:59"
+  "lastUpdated": "2026-08-07 20:02:47"
 }
