@@ -1,129 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-08-07T15:01:35.905Z
+// Last updated: 2026-08-07T16:01:32.235Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786114895905,
+    "id": 1786118492234,
     "type": "hire",
     "company": "SpaceX",
     "headline": "SpaceX&#8217;s Terafab will rely on natural gas power plants, not Tesla solar panels",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/"
   },
   {
-    "id": 1786114895906,
+    "id": 1786118492235,
     "type": "news",
     "company": "Humanoid",
     "headline": "Mitsubishi joins the humanoid robot race — at a 1,000 unit per month pace",
     "source": "Electrek",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
   },
   {
-    "id": 1786114895907,
+    "id": 1786118492236,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Jacks Up Lobbying In Washington, DC",
     "source": "CleanTechnica",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/08/06/waymo-jacks-up-lobbying-in-washington-dc/"
   },
   {
-    "id": 1786114895908,
+    "id": 1786118492237,
     "type": "milestone",
     "company": "Zoox",
     "headline": "Zoox To Start Charging Passengers Next Week",
     "source": "CleanTechnica",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/08/06/zoox-to-start-charging-passengers-next-week/"
   },
   {
-    "id": 1786114895909,
+    "id": 1786118492238,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/"
   },
   {
-    "id": 1786114895910,
+    "id": 1786118492239,
     "type": "milestone",
     "company": "GrayMatter Robotics",
     "headline": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
     "source": "The Robot Report",
-    "time": "18h ago",
+    "time": "19h ago",
     "impact": "medium",
     "unread": false,
     "link": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/"
   },
   {
-    "id": 1786114895911,
+    "id": 1786118492240,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
     "source": "Wired",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/"
   },
   {
-    "id": 1786114895912,
+    "id": 1786118492241,
     "type": "funding",
     "company": "Hadrian",
     "headline": "Defense tech Hadrian raises $1.37B at $8B valuation",
     "source": "TechCrunch",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/"
   },
   {
-    "id": 1786114895913,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX Pays Off a Data Center in 9 Months",
-    "source": "Next Big Future",
-    "time": "20h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html"
-  },
-  {
-    "id": 1786114895914,
+    "id": 1786118492242,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Tesla, SpaceX confirm ‘Terafab’ chip fab site — $16.8B first phase",
     "source": "Electrek",
-    "time": "22h ago",
+    "time": "23h ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
   },
   {
-    "id": 1786114895915,
+    "id": 1786118492243,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts",
     "source": "Defense One",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/defense-systems/2026/08/officials-hedge-spacex-aircraft-tracking-satellite-bet-three-smaller-company-contracts/415252/"
   },
   {
-    "id": 1786114895916,
+    "id": 1786118492245,
     "type": "news",
     "company": "Deterrence",
     "headline": "Does Latent Nuclear Deterrence Really Work?",
@@ -134,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/does-latent-nuclear-deterrence-really-work/"
   },
   {
-    "id": 1786114895917,
+    "id": 1786118492246,
     "type": "hire",
     "company": "Oklo",
     "headline": "Nuclear startup Oklo splits its first atoms in test reactor",
@@ -145,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor"
   },
   {
-    "id": 1786114895918,
+    "id": 1786118492247,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab launches 8th iQPS satellite",
@@ -156,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-launches-8th-iqps-satellite/"
   },
   {
-    "id": 1786114895919,
+    "id": 1786118492248,
     "type": "milestone",
     "company": "Modal",
     "headline": "New York-headquartered AI startup Modal Labs to open London office",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/06/new-york-headquartered-ai-startup-modal-labs-to-open-london-office/"
   },
   {
-    "id": 1786114895920,
+    "id": 1786118492249,
     "type": "hire",
     "company": "Wayve",
     "headline": "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/05/wayve-uber-can-now-deploy-robotaxis-in-london/"
   },
   {
-    "id": 1786114895921,
+    "id": 1786118492250,
     "type": "hire",
     "company": "Firestorm Labs",
     "headline": "Firestorm Labs builds drones aboard USS Essex without shore resupply",
@@ -189,18 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/"
   },
   {
-    "id": 1786114895922,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings- What Happens in the Next 18 Critical Months",
-    "source": "Next Big Future",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/08/livestream-after-predicting-the-spacex-q2-earnings-what-happens-in-the-next-18-critical-months.html"
-  },
-  {
-    "id": 1786114895923,
+    "id": 1786118492251,
     "type": "contract",
     "company": "Umbra",
     "headline": "Capella, Iceye and Umbra win NRO radar-data contracts",
@@ -211,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/"
   },
   {
-    "id": 1786114895924,
+    "id": 1786118492252,
     "type": "news",
     "company": "Saildrone",
     "headline": "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role",
@@ -220,5 +198,27 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/us-navy-saildrone-to-use-unmanned-systems-in-expanded-counternarcotics-role/"
+  },
+  {
+    "id": 1786118492253,
+    "type": "news",
+    "company": "ICEYE",
+    "headline": "Scaleup Europe Fund makes first investment, co-leading Iceye's €1BN round",
+    "source": "Tech.eu",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://tech.eu/2026/08/05/scale-up-europe-fund-makes-first-investment-co-leading-iceyes-eur1bn-round/"
+  },
+  {
+    "id": 1786118492254,
+    "type": "milestone",
+    "company": "Waymo",
+    "headline": "Waymo Launches Robotaxi Service in Dallas",
+    "source": "CleanTechnica",
+    "time": "2d ago",
+    "impact": "medium",
+    "unread": false,
+    "link": "https://cleantechnica.com/2026/08/04/waymo-launches-robotaxi-service-in-dallas/"
   }
 ];
